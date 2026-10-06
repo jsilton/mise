@@ -1,0 +1,495 @@
+{
+  "slug": "roasted-red-pepper-and-sweet-potato-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "6fcbeb0df6e95d7de5adf70695ae5938e7d08f62acf6f9c37e30cf08dccff8cd",
+  "acceptedSourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "2 huge sweet potatoes, peeled and cubed. Measured this is about 6 cups of cubes",
+        "1 14 ounce jar of roasted red peppers in water (drained).",
+        "1 14 ounce can of coconut milk.",
+        "1 cup of chicken stock.",
+        "1 small yellow onion, large dice.",
+        "2 cloves of garlic.",
+        "1/2 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "after": [
+        "2 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "1 14 ounce jar of roasted red peppers in water (drained).",
+        "1 14 ounce can of coconut milk.",
+        "1 cup of chicken stock.",
+        "1 small yellow onion, large dice.",
+        "2 cloves of garlic.",
+        "1/2 tsp black pepper.",
+        "pinch red pepper flakes."
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Paleopot.com",
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["slow-cooker", "blender"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Judge slow-cooked potato tenderness before blending",
+        "outcome": "Fork-tender sweet potatoes blended into coconut-and-pepper soup or left as soft pieces.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use the listed drained jar of roasted peppers, full can of coconut milk and chicken stock; there is no separate pepper-roasting stage.",
+          "Two huge potatoes and about 6 cups cubes describe the original batch; ingredient scaling does not establish a cooker size or finished yield. Use additional appropriately filled cookers if needed."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The cooker has room for its measured load within its manual fill limits.",
+            "why": "An overfilled cooker is not corrected by assuming the original clock still applies."
+          },
+          {
+            "step": 2,
+            "cue": "A fork slides into the sweet-potato centers readily.",
+            "why": "Very tender potatoes blend more evenly than firm chunks."
+          },
+          {
+            "step": 3,
+            "cue": "The actual blender model permits the temperature, load and vessel.",
+            "why": "Steam venting alone does not authorize hot liquid in every appliance."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Purée has firm or grainy pieces",
+            "cause": "The vegetables were not thoroughly tender before blending.",
+            "fix": "Continue cooking until the stated tenderness cue is met before blending, using an appliance approved for the load."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chicken stock",
+            "alternative": "Use the same listed volume of vegetable stock instead.",
+            "effect": "Vegetable stock changes the flavor while keeping the same stock volume, coconut milk and other ingredients."
+          },
+          {
+            "ingredient": "Red-pepper flakes finishing pinch",
+            "alternative": "Use chipotle flakes as the optional finish instead.",
+            "effect": "Adds a smoky note; chile strength varies by product. Keep this an unmeasured optional garnish, without importing the publisher’s separate half-teaspoon cooking dose."
+          }
+        ],
+        "storage": "Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.",
+        "timing": "Allow about 15 minutes preparation, 4–6 hours LOW cooking and about 10 minutes finishing for the recorded 4 hr 25 min–6 hr 25 min plan. Blending in more loads or cooling for an appliance can extend it. Most slow cooking is unattended; preparation and blending are active.",
+        "sources": [
+          {
+            "title": "Paleopot.com",
+            "url": "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/"
+          },
+          {
+            "title": "USDA leftover soup handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables"
+          },
+          {
+            "title": "Blender manufacturer vessel limits",
+            "url": "https://www.nutribullet.com/faq/"
+          },
+          {
+            "title": "FoodSafety.gov slow-cooker fill and handling",
+            "url": "https://www.foodsafety.gov/blog/warm-safely-slow-cooked-meal"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nJarred roasted peppers flavor this slow-cooker soup without a separate roasting step. Cook the sweet potatoes until thoroughly tender before blending; use an immersion blender or vented batches for the hot soup.\n\n## Directions\n\n1. **Prepare:** Peel sweet potatoes and cut into similar one-inch cubes. Put the measured vegetables, drained peppers, coconut milk, stock, garlic and pepper into the slow cooker.\n\n2. **Cook:** Cover and cook on LOW for about four to six hours, until sweet-potato centers yield easily to a fork. Continue cooking if still firm.\n\n3. **Continue:** Blend smooth or leave a few soft pieces. Use an immersion blender with its head submerged, or blend small batches with steam venting safely; never seal hot soup in an unvented blender.\n\n4. **Continue:** Taste and adjust seasoning. Serve with a pinch of the optional red-pepper flakes.\n",
+    "after": "\n## Chef's Note\n\nJarred roasted peppers flavor this slow-cooker soup without a separate roasting step. Cook the sweet-potato centers until thoroughly tender before blending. Finish with the optional pinch of red-pepper flakes if wanted.\n\n## Directions\n\n1. **Prepare:** Wash the sweet potatoes before peeling and cut into similar one-inch cubes. At the original batch, the saved two huge potatoes are approximately 6 cups of cubes; this is an estimate, not a weight conversion. Peel and dice the onion and peel the garlic. Put all the potatoes, onion, garlic, drained roasted peppers, coconut milk, chicken stock and black pepper into the slow cooker. Choose a cooker suited to this load and follow its manual's fill guidance; aim for half to two-thirds full rather than filling to the rim. Start cooking promptly.\n2. **Cook:** Cover and cook on LOW for about 4–6 hours, until sweet-potato centers yield easily to a fork. Continue cooking if still firm; do not use the clock alone to judge tenderness. Keep the lid on except when checking.\n3. **Blend:** Turn off the slow cooker before blending. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Purée smooth or leave a few soft pieces, as in the saved method.\n4. **Serve:** Serve with the listed optional pinch of red-pepper flakes if wanted, distributing that pinch over the batch rather than adding a new pinch to every bowl.\n"
+  },
+  "findings": [
+    {
+      "id": "SP01",
+      "rationale": "Omit unsupported geographic/publisher-proxy origin; all cuisine/style/source credits preserved",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/",
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-first-git.md"
+      ],
+      "sourceApplicability": "Current source/name/style does not establish geographic invention; preserve all source credits and cuisine/style. Japanese miso context remains source-supported and unchanged.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
+      ]
+    },
+    {
+      "id": "SP02",
+      "rationale": "Exact bound native saves generic14oz coconut milk and pinch flakes; current publisher mentions light coconut milk and½tsp flakes cooked with everything. Preserve saved full can/generic richness and pinch optional finish. Saved LOW4–6 clarified by exact publisher author reply and imported repair retained. Current metadata about 6 cups is author estimate, not certification.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-first-git.md",
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
+      ]
+    },
+    {
+      "id": "SP03",
+      "rationale": "Exact bound native saves generic14oz coconut milk and pinch flakes; current publisher mentions light coconut milk and½tsp flakes cooked with everything. Preserve saved full can/generic richness and pinch optional finish. Saved LOW4–6 clarified by exact publisher author reply and imported repair retained. Current metadata about 6 cups is author estimate, not certification.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-first-git.md",
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
+      ]
+    },
+    {
+      "id": "SP04",
+      "rationale": "Exact bound native saves generic14oz coconut milk and pinch flakes; current publisher mentions light coconut milk and½tsp flakes cooked with everything. Preserve saved full can/generic richness and pinch optional finish. Saved LOW4–6 clarified by exact publisher author reply and imported repair retained. Current metadata about 6 cups is author estimate, not certification.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-first-git.md",
+        "evidence/roasted-red-pepper-and-sweet-potato-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Paleo%20Roasted%20Red%20Pepper%20Sweet%20Potato%20Soup.html",
+    "introductionScope": "Earlier saved cooking text corroboration; native binding is separately established by registry UID, never by title.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific fetches and unavailable publisher pages are distinguished in the frozen whole source evidence; no unavailable publisher is certified.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact bound native saves generic14oz coconut milk and pinch flakes; current publisher mentions light coconut milk and½tsp flakes cooked with everything. Preserve saved full can/generic richness and pinch optional finish. Saved LOW4–6 clarified by exact publisher author reply and imported repair retained. Current metadata about 6 cups is author estimate, not certification.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 huge sweet potatoes, peeled and cubed. Measured this is about 6 cups of cubes",
+        "destination": "slow cooker then purée",
+        "ambiguity": null
+      },
+      {
+        "text": "1 14 ounce jar of roasted red peppers in water (drained).",
+        "destination": "drained,slow cooker",
+        "ambiguity": null
+      },
+      {
+        "text": "1 14 ounce can of coconut milk.",
+        "destination": "slow cooker",
+        "ambiguity": null
+      },
+      {
+        "text": "1 cup of chicken stock.",
+        "destination": "slow cooker",
+        "ambiguity": null
+      },
+      {
+        "text": "1 small yellow onion, large dice.",
+        "destination": "vegetables implicitly slow cooker",
+        "ambiguity": null
+      },
+      {
+        "text": "2 cloves of garlic.",
+        "destination": "slow cooker",
+        "ambiguity": null
+      },
+      {
+        "text": "1/2 tsp black pepper.",
+        "destination": "slow cooker",
+        "ambiguity": null
+      },
+      {
+        "text": "pinch red pepper flakes.",
+        "destination": "optional pinch finish",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "destination": "allstep1washedpeeled1inch cubes;step2forktender;step3blend or chunks;about6cups describesoriginalbatch",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 14 ounce jar of roasted red peppers in water (drained).",
+        "destination": "full14ozjar drainedstep1 then step2/3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 14 ounce can of coconut milk.",
+        "destination": "full14ozcanstep1 then step2/3;no light-fat replacement",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 cup of chicken stock.",
+        "destination": "full1cupstockstep1 then step2/3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 small yellow onion, large dice.",
+        "destination": "fullsmall onion peeled/dicedstep1thenstep2/3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "2 cloves of garlic.",
+        "destination": "bothgarliccloves peeledstep1thenstep2/3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1/2 tsp black pepper.",
+        "destination": "full½tspstep1 then step2/3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "pinch red pepper flakes.",
+        "destination": "optional listed pinch across entirebatchstep4;no additionalperbowlpinch",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      }
+    ],
+    "frozenMethodOnlyIngredients": [],
+    "sourceVariant": [
+      {
+        "ingredient": "Chicken stock",
+        "alternative": "Use the same listed volume of vegetable stock instead.",
+        "effect": "Publisher author explicitly allows this vegetarian stock alternative; retain coconut milk and all other amounts."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Wash the sweet potatoes before peeling and cut into similar one-inch cubes. At the original batch, the saved two huge potatoes are approximately 6 cups of cubes; this is an estimate, not a weight conversion. Peel and dice the onion and peel the garlic. Put all the potatoes, onion, garlic, drained roasted peppers, coconut milk, chicken stock and black pepper into the slow cooker. Choose a cooker suited to this load and follow its manual's fill guidance; aim for half to two-thirds full rather than filling to the rim. Start cooking promptly."
+    },
+    {
+      "step": 2,
+      "text": "Cook: Cover and cook on LOW for about 4–6 hours, until sweet-potato centers yield easily to a fork. Continue cooking if still firm; do not use the clock alone to judge tenderness. Keep the lid on except when checking."
+    },
+    {
+      "step": 3,
+      "text": "Blend: Turn off the slow cooker before blending. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Purée smooth or leave a few soft pieces, as in the saved method."
+    },
+    {
+      "step": 4,
+      "text": "Serve: Serve with the listed optional pinch of red-pepper flakes if wanted, distributing that pinch over the batch rather than adding a new pinch to every bowl."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Optional chipotle-flake finishing garnish",
+      "ingredient": "Chipotle flakes instead of red-pepper flakes",
+      "amount": "Unmeasured optional garnish; no publisher cooking dose imported",
+      "destination": "Finish bowls",
+      "source": "Exact bound native and earlier HTML",
+      "question": "Product heat varies"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal references found. Entire linked pairing recipes read for ingredient/portion independence; no substitutions or meal status granted.",
+    "dashi": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "About 6 cups",
+    "yieldScope": "Publisher guesstimate only; no actual volume proof",
+    "capacityReference": "learning.before and exactChanges.content",
+    "timingReference": "learning.timing",
+    "scaling": "Existing enabled controls preserved. Quantities scale; heating/blending/cooker geometry and time do not multiply; variant amounts remain separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "1/4 14 ounce jar of roasted red peppers in water (drained).",
+        "1/4 14 ounce can of coconut milk.",
+        "1/4 cup of chicken stock.",
+        "1/4 small yellow onion, large dice.",
+        "1/2 clove of garlic.",
+        "1/8 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups · 0.25× ingredients",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "1/2 14 ounce jar of roasted red peppers in water (drained).",
+        "1/2 14 ounce can of coconut milk.",
+        "1/2 cup of chicken stock.",
+        "1/2 small yellow onion, large dice.",
+        "1 clove of garlic.",
+        "1/4 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups · 0.5× ingredients",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "1 14 ounce jar of roasted red peppers in water (drained).",
+        "1 14 ounce can of coconut milk.",
+        "1 cup of chicken stock.",
+        "1 small yellow onion, large dice.",
+        "2 cloves of garlic.",
+        "1/2 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "1 1/2 14 ounce jar of roasted red peppers in water (drained).",
+        "1 1/2 14 ounce can of coconut milk.",
+        "1 1/2 cups of chicken stock.",
+        "1 1/2 small yellow onions, large dice.",
+        "3 cloves of garlic.",
+        "3/4 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups · 1.5× ingredients",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "2 14 ounce jar of roasted red peppers in water (drained).",
+        "2 14 ounce can of coconut milk.",
+        "2 cups of chicken stock.",
+        "2 small yellow onions, large dice.",
+        "4 cloves of garlic.",
+        "1 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups · 2× ingredients",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "3 14 ounce jar of roasted red peppers in water (drained).",
+        "3 14 ounce can of coconut milk.",
+        "3 cups of chicken stock.",
+        "3 small yellow onions, large dice.",
+        "6 cloves of garlic.",
+        "1 1/2 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups · 3× ingredients",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 huge sweet potatoes, peeled and cubed; about 6 cups of cubes in the original batch",
+        "1 14 ounce jar of roasted red peppers in water (drained).",
+        "1 14 ounce can of coconut milk.",
+        "1 cup of chicken stock.",
+        "1 small yellow onion, large dice.",
+        "2 cloves of garlic.",
+        "1/2 tsp black pepper.",
+        "pinch red pepper flakes."
+      ],
+      "yield": "Original yield: About 6 cups",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    }
+  ],
+  "preservedPriorRepairs": ["LOW4–6hr", "fork-tender sweet potatoes", "optional saved pinch"],
+  "remainingQuestions": [
+    "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+    "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+    "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

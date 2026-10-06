@@ -204,6 +204,29 @@ for (const row of confirmed) {
           assert.match(scaled, quesadilla ? /juice only/ : /zest only/);
         }
         assert.equal(formatFormulaIngredient(replacement, 1), formatFormulaIngredient(replacement));
+      } else if (row.slug === 'warm-spiced-butternut-squash-soup' && row.caseId === 77) {
+        // The live formula names a counted stick with fixed original geometry.
+        // Preserve the original parser input and its independent numeric oracle below.
+        assert.equal(data.formula?.version, 1);
+        const ingredient = data.formula.components
+          .find((c) => c.id === 'soup')
+          .ingredients.find((i) => i.id === 'cinnamon');
+        assert.deepEqual(ingredient.quantity, { amount: 1, unit: 'count' });
+        assert.equal(ingredient.name, 'cinnamon stick');
+        assert.equal(ingredient.plural, 'cinnamon sticks');
+        assert.equal(
+          ingredient.preparation,
+          '3-inch piece per original stick; size stays fixed when count scales'
+        );
+        assert.deepEqual(ingredient.uses, [{ step: 'stock', share: 1 }]);
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(ingredient, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [factor, 3]
+          );
+        }
+        assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

@@ -1,0 +1,423 @@
+{
+  "slug": "miso-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "c61230df119dee06bd2865b6e375d54673c5f02affcdf352c712bf666fc28876",
+  "acceptedSourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "dietary",
+      "before": ["vegetarian"],
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 45,
+        "protein": 3.5,
+        "carbs": 6.5,
+        "fat": 1.5,
+        "fiber": 1.5,
+        "sugar": 2.5,
+        "sodium": 10
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["saucepan", "small-bowl"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Prepare dashi and wakame before the gentle miso finish",
+        "outcome": "Smoothly dispersed miso with intact tofu and tender wakame.",
+        "techniques": ["temperature"],
+        "before": [
+          "Start with prepared dashi. Its production time is separate from this soup; bonito-based homemade or instant stock is not vegetarian.",
+          "Use silken tofu as listed and follow its package handling instructions. Wakame product preparation varies; allow any required separate soaking time before the short simmer."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Wakame meets its package preparation and is tender when served.",
+            "why": "Two minutes in the soup is not a universal hydration promise."
+          },
+          {
+            "step": 4,
+            "cue": "Miso is smooth in broth taken from the pot.",
+            "why": "No extra half-cup is added to the total dashi."
+          },
+          {
+            "step": 5,
+            "cue": "Heat is off before miso enters; tofu cubes remain intact.",
+            "why": "Whisking the miso separately disperses it before gentle stirring through the soft tofu."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wakame is still tough",
+            "cause": "The product needed more hydration than the short soup simmer.",
+            "fix": "Complete package preparation before the soup stage; do not count a separate soak inside a 15-minute total."
+          }
+        ],
+        "storage": "Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.",
+        "timing": "The current 15-minute plan assumes already prepared dashi and wakame that needs no long separate soak. Set aside any package soaking time and homemade dashi preparation separately. The saved six-serving route includes a 15-minute wakame soak plus heating and finishing; allow about 20–30 minutes once dashi is prepared, overlapping the soak with other preparation.",
+        "sources": [
+          {
+            "title": "Adapted from Epicurious.com",
+            "url": "http://www.epicurious.com/recipes/food/views/miso-soup-103391"
+          },
+          {
+            "title": "USDA leftover soup handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMiso soup is a miracle of **Emulsion and Timing**. The most common mistake is boiling the miso - high heat kills the delicate probiotics and ruins the aroma. Always whisk the miso with a little warm broth separately and add it only _after_ the pot has been removed from the heat. The foundation is **Dashi**: if you don't have time to make it from scratch, use instant dashi granules for that essential oceanic umami.\n\n## Directions\n\n1.  **Dashi:** Bring the four cups of prepared dashi to a gentle simmer over medium heat, then reduce heat to low.\n2.  **Seaweed & Tofu:** Add the wakame and tofu cubes. Simmer gently for 2 minutes until the seaweed is rehydrated.\n3.  **The Miso:** Place the miso paste in a small bowl. Ladle in about 1/2 cup of the hot broth. Whisk until the miso is completely smooth and liquid.\n4.  **Finish:** **Turn off the heat.** Stir the miso liquid back into the pot.\n5.  **Serve:** Add the green onions and serve immediately in small bowls.\n",
+    "after": "\n## Chef's Note\n\nWhisk miso smooth with some of the prepared dashi before returning it to the pot off the heat. This disperses the paste through the broth without crushing the silken tofu. Dashi can contain bonito; choose a clearly vegetarian stock if you need a vegetarian version, and measure its finished liquid rather than assuming starting water equals strained yield.\n\n## Directions\n\n1. **Prepare wakame:** Follow the dried wakame package's preparation instructions, using all the listed wakame. If it requires a separate soak and drain, complete that before adding it to the soup; use enough soaking water as instructed and discard it. Wash and thinly slice the green onions.\n2. **Heat dashi:** Measure all the prepared dashi into a saucepan with room for tofu and seaweed. Bring to a gentle simmer over medium heat, then reduce heat to low. Homemade [Dashi](/mise/recipes/dashi-japanese-sea-stock) is a separately prepared component; measure its strained output for this soup. Instant granules must be prepared according to their package.\n3. **Warm tofu and seaweed:** Gently add all the tofu cubes and prepared wakame. Simmer gently, starting with about 2 minutes, until tofu is heated through and the seaweed is tender; product preparation and starting temperature affect the clock. Avoid rough stirring that breaks the tofu.\n4. **Disperse miso:** Put all the miso in a small bowl. Ladle enough broth from this same pot to whisk it smooth, about 1/2 cup at the original batch. This is part of the measured dashi, not additional water or stock.\n5. **Finish:** Turn off the heat. Gently stir all the miso mixture back into the pot. Add all the green onions and serve promptly in the listed planning number of small bowls.\n\n## Six-serving variation\n\nFor a separate six-serving batch, use 6 cups prepared dashi, 1/2 cup dried wakame, 1/4 cup shiro miso, 1/2 lb soft tofu drained and cut into 1/2-inch cubes, and 1/4 cup washed, thinly sliced scallion greens. Do not combine these amounts with the four-serving ingredient list. Soak this wakame in warm water covering it by 1 inch for 15 minutes or until reconstituted, following its package if preparation differs; drain in a sieve and discard the soaking water. Whisk all the miso with 1/2 cup taken from the measured dashi. Heat the remaining dashi until hot, gently stir in tofu and wakame, simmer about 1 minute until heated through, then remove from heat and immediately stir in all the miso mixture and scallion greens. If scaling this separate version, scale all its measured ingredients together; package preparation and saucepan heating time do not multiply. The listed ingredient controls apply to the four-serving main version.\n"
+  },
+  "findings": [
+    {
+      "id": "SP01",
+      "rationale": "Prepared dashi can contain bonito; blanket vegetarian label is unsupported; cook can choose vegetarian stock",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "http://www.epicurious.com/recipes/food/views/miso-soup-103391",
+        "evidence/miso-soup-first-git.md"
+      ],
+      "sourceApplicability": "Actual linked Dashi has bonito; vegetarian alternative requires suitable stock. This is ingredient-based category scope, not a historical-origin or health assertion.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+      ]
+    },
+    {
+      "id": "SP02",
+      "rationale": "Legacy estimated numbers have no verified ingredient-weight/finished-yield analysis; remove without manufacturing replacements",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": ["evidence/miso-soup-followed-history.diff"],
+      "sourceApplicability": "Legacy added nutritional estimates have no verified ingredient-product weights and actual finished yield; no replacement estimate or dietary formula change proposed.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+      ]
+    },
+    {
+      "id": "SP03",
+      "rationale": "d02 bulk refinement replaced saved6cups dashi/½cupwakame/¼cupmiso/½lbtofu/¼cupscalliongreens with current4cups/1tbsp/3tbsp/4oz/two whole green onions. No individually accepted amount decision found in subsequent full history. Keep current and recovered complete source variant distinct, not a scaled equivalence. Preserve ebaf prepared-dashi/package repair. Epicurious current formula matches saved quantities and separate15-minute soak; current2-minute promise must be product-dependent.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/miso-soup-first-git.md",
+        "evidence/miso-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.epicurious.com/recipes/food/views/miso-soup-103391"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+      ]
+    },
+    {
+      "id": "SP04",
+      "rationale": "d02 bulk refinement replaced saved6cups dashi/½cupwakame/¼cupmiso/½lbtofu/¼cupscalliongreens with current4cups/1tbsp/3tbsp/4oz/two whole green onions. No individually accepted amount decision found in subsequent full history. Keep current and recovered complete source variant distinct, not a scaled equivalence. Preserve ebaf prepared-dashi/package repair. Epicurious current formula matches saved quantities and separate15-minute soak; current2-minute promise must be product-dependent.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/miso-soup-first-git.md",
+        "evidence/miso-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.epicurious.com/recipes/food/views/miso-soup-103391"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+      ]
+    },
+    {
+      "id": "SP05",
+      "rationale": "d02 bulk refinement replaced saved6cups dashi/½cupwakame/¼cupmiso/½lbtofu/¼cupscalliongreens with current4cups/1tbsp/3tbsp/4oz/two whole green onions. No individually accepted amount decision found in subsequent full history. Keep current and recovered complete source variant distinct, not a scaled equivalence. Preserve ebaf prepared-dashi/package repair. Epicurious current formula matches saved quantities and separate15-minute soak; current2-minute promise must be product-dependent.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/miso-soup-first-git.md",
+        "evidence/miso-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.epicurious.com/recipes/food/views/miso-soup-103391"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Miso%20Soup.html",
+    "introductionScope": "Earlier saved cooking text corroboration; native binding is separately established by registry UID, never by title.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific fetches and unavailable publisher pages are distinguished in the frozen whole source evidence; no unavailable publisher is certified.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "d02 bulk refinement replaced saved6cups dashi/½cupwakame/¼cupmiso/½lbtofu/¼cupscalliongreens with current4cups/1tbsp/3tbsp/4oz/two whole green onions. No individually accepted amount decision found in subsequent full history. Keep current and recovered complete source variant distinct, not a scaled equivalence. Preserve ebaf prepared-dashi/package repair. Epicurious current formula matches saved quantities and separate15-minute soak; current2-minute promise must be product-dependent.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "4 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "destination": "heat;½cup from same total disperses miso",
+        "ambiguity": null
+      },
+      {
+        "text": "3 tbsp Shiro Miso (White Miso)",
+        "destination": "disperse then finish",
+        "ambiguity": null
+      },
+      {
+        "text": "4 oz Silken Tofu, cut into small cubes",
+        "destination": "warm tofu",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tbsp Dried Wakame Seaweed",
+        "destination": "warm seaweed,2min rehydration claimed",
+        "ambiguity": null
+      },
+      {
+        "text": "2 Green Onions, thinly sliced",
+        "destination": "serve",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "4 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "destination": "all4cups step2 prepared dashi;some drawn from same total step4 whisking then returnedstep5",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "3 tbsp Shiro Miso (White Miso)",
+        "destination": "all3tbsp step4 smooth then step5offheat",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "4 oz Silken Tofu, cut into small cubes",
+        "destination": "all4ozsilken cubes step3 warm;no raw/cooked identity conversion",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 tbsp Dried Wakame Seaweed",
+        "destination": "all1tbsp step1 package preparation then step3;any required soakwater discarded",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "2 Green Onions, thinly sliced",
+        "destination": "alltwo green onions washed/slicedstep1;step5finish",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      }
+    ],
+    "frozenMethodOnlyIngredients": [
+      "About½cup broth taken from same measuredtotal to disperse miso; no additional water in frozen main"
+    ],
+    "sourceVariant": {
+      "reference": "content Six-serving variation",
+      "ingredients": [
+        "6cups prepared dashi",
+        "½cup dried wakame",
+        "¼cup shiro miso",
+        "½lb soft tofu",
+        "¼cup scalliongreens",
+        "warm soaking water cover1inch,discarded"
+      ],
+      "destinations": "soak/drain;½cup of total dashi disperses allmiso;remainingdashi heatsalltofu/wakame;offheatallmiso/scallions",
+      "exclusive": true
+    }
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare wakame: Follow the dried wakame package's preparation instructions, using all the listed wakame. If it requires a separate soak and drain, complete that before adding it to the soup; use enough soaking water as instructed and discard it. Wash and thinly slice the green onions."
+    },
+    {
+      "step": 2,
+      "text": "Heat dashi: Measure all the prepared dashi into a saucepan with room for tofu and seaweed. Bring to a gentle simmer over medium heat, then reduce heat to low. Homemade Dashi is a separately prepared component; measure its strained output for this soup. Instant granules must be prepared according to their package."
+    },
+    {
+      "step": 3,
+      "text": "Warm tofu and seaweed: Gently add all the tofu cubes and prepared wakame. Simmer gently, starting with about 2 minutes, until tofu is heated through and the seaweed is tender; product preparation and starting temperature affect the clock. Avoid rough stirring that breaks the tofu."
+    },
+    {
+      "step": 4,
+      "text": "Disperse miso: Put all the miso in a small bowl. Ladle enough broth from this same pot to whisk it smooth, about 1/2 cup at the original batch. This is part of the measured dashi, not additional water or stock."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Turn off the heat. Gently stir all the miso mixture back into the pot. Add all the green onions and serve promptly in the listed planning number of small bowls."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": ["yaki-udon", "lemon-miso-tofu-with-broccoli", "miso-salmon-with-bok-choy"],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal references found. Entire linked pairing recipes read for ingredient/portion independence; no substitutions or meal status granted.",
+    "dashi": "Reviewed component input6cupswater is not6cups strained yield; measure4cups current or6cups separate savedroute; no invented top-up."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "yieldScope": "Original/current source planning count retained, no measured portion volume",
+    "capacityReference": "learning.before and exactChanges.content",
+    "timingReference": "learning.timing",
+    "scaling": "Existing enabled controls preserved. Quantities scale; heating/blending/cooker geometry and time do not multiply; variant amounts remain separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1 cup prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "3/4 tbsp Shiro Miso (White Miso)",
+        "1 oz Silken Tofu, cut into small cubes",
+        "1/4 tbsp Dried Wakame Seaweed",
+        "1/2 Green Onion, thinly sliced"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "2 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "1 1/2 tbsp Shiro Miso (White Miso)",
+        "2 oz Silken Tofu, cut into small cubes",
+        "1/2 tbsp Dried Wakame Seaweed",
+        "1 Green Onion, thinly sliced"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "4 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "3 tbsp Shiro Miso (White Miso)",
+        "4 oz Silken Tofu, cut into small cubes",
+        "1 tbsp Dried Wakame Seaweed",
+        "2 Green Onions, thinly sliced"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "6 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "4 1/2 tbsp Shiro Miso (White Miso)",
+        "6 oz Silken Tofu, cut into small cubes",
+        "1 1/2 tbsp Dried Wakame Seaweed",
+        "3 Green Onions, thinly sliced"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "8 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "6 tbsp Shiro Miso (White Miso)",
+        "8 oz Silken Tofu, cut into small cubes",
+        "2 tbsp Dried Wakame Seaweed",
+        "4 Green Onions, thinly sliced"
+      ],
+      "yield": "Serves 8",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "12 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "9 tbsp Shiro Miso (White Miso)",
+        "12 oz Silken Tofu, cut into small cubes",
+        "3 tbsp Dried Wakame Seaweed",
+        "6 Green Onions, thinly sliced"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "4 cups prepared dashi, homemade or made with instant dashi granules according to package instructions",
+        "3 tbsp Shiro Miso (White Miso)",
+        "4 oz Silken Tofu, cut into small cubes",
+        "1 tbsp Dried Wakame Seaweed",
+        "2 Green Onions, thinly sliced"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    }
+  ],
+  "preservedPriorRepairs": ["ebaf prepared-dashi/package instructions"],
+  "remainingQuestions": [
+    "Actual wakame package hydration directions and instant dashi product are unspecified.",
+    "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,2503 @@
+{
+  "slug": "mongolian-chicken",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "5c4a963a1af2fc1f5b2837be6f5ef834a5a6f92d5c67841887f1f05d1e2a4b9b",
+  "acceptedSourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 25 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 10 min; longer for extra frying loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35 min; longer for extra frying loads"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 ounces boneless skinless chicken breast or thighs (pat dry with paper towels and cut into ¼-inch/6mm thick slices)",
+        "1 tablespoon vegetable oil (plus ⅓ cup/80ml for frying)",
+        "1/4 cup cornstarch",
+        "1 teaspoon ginger (julienned or minced)",
+        "5 dried red chili peppers (optional)",
+        "2 cloves garlic (chopped)",
+        "3 scallions (cut on a diagonal into 1-2 inch / 5cm slices)",
+        "2 1/2 tablespoons soy sauce",
+        "2 tablespoons brown sugar",
+        "¼ cup hot water (or low sodium chicken stock)",
+        "2 tablespoons cornstarch (mixed into a slurry with 2 tablespoons water)"
+      ],
+      "after": [
+        "--- Chicken and frying ---",
+        "12 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "1 tbsp vegetable oil for coating the chicken",
+        "1/4 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "1/3 cup (80 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "3 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "1 tsp ginger, julienned or minced",
+        "5 dried red chili peppers, optional",
+        "2 garlic cloves, chopped",
+        "2 1/2 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "1/4 cup hot water or low-sodium chicken stock",
+        "2 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "2 tbsp water for the slurry"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "thewoksoflife.com",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken and frying",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken-breast-or-thighs",
+                "name": "boneless skinless chicken breast or thighs",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick"
+              },
+              {
+                "id": "coat-oil",
+                "key": "vegetable-oil",
+                "name": "vegetable oil for coating the chicken",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dredge",
+                "key": "cornstarch",
+                "name": "cornstarch for dredging",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ],
+                "preparation": "use this supply for any second dredge; discard the unused raw-contact starch"
+              },
+              {
+                "id": "fry-oil",
+                "key": "vegetable-oil",
+                "name": "vegetable oil for frying",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 80,
+                    "unit": "ml"
+                  }
+                ],
+                "preparation": "retain part for aromatics after frying; drain the excess"
+              },
+              {
+                "id": "scallions",
+                "key": "scallion",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "scallions",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate"
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Sauce and slurry",
+            "ingredients": [
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "ginger",
+                    "share": 1
+                  }
+                ],
+                "preparation": "julienned or minced"
+              },
+              {
+                "id": "chili",
+                "key": "dried-red-chili",
+                "name": "dried red chili pepper",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "dried red chili peppers",
+                "optional": true
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "chopped"
+              },
+              {
+                "id": "soy",
+                "key": "soy-sauce",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "brown-sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "liquid",
+                "key": "water-or-low-sodium-chicken-stock",
+                "name": "hot water or low-sodium chicken stock",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "cornstarch",
+                "name": "cornstarch for the slurry",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "slurry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "prepare the full slurry; use only as much as the sauce needs"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water for the slurry",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "slurry",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "scallions",
+            "title": "Separate the scallions",
+            "text": "Prepare {{ingredients}}, keeping all white parts in one bowl and all green parts in another. Both portions will be used; their natural size varies."
+          },
+          {
+            "id": "slurry",
+            "title": "Prepare the slurry",
+            "text": "Mix {{ingredients}} in a bowl and set beside the stove. Stir again immediately before using it; settled starch will otherwise thicken unevenly."
+          },
+          {
+            "id": "coat",
+            "title": "Lightly coat the chicken",
+            "text": "Have {{ingredients}} ready. Mix the chicken with the coating oil, then dredge in the listed cornstarch, shaking off excess so each piece is lightly coated. If the coating becomes damp before frying, use the same measured dredging supply for a second light coating. Discard unused dredging starch after the chicken has gone into the pan; it has touched raw chicken."
+          },
+          {
+            "id": "fry",
+            "title": "Fry in manageable loads",
+            "text": "Heat {{ingredients}} in a wok over high heat until hot, without letting it smoke. Add the coated chicken in a single layer; fry in loads if necessary. Start checking the first side at about 1 minute and the second at about 30 seconds, turning as needed until the coating is browned and crisp and the thickest pieces reach 165°F / 74°C. Use a thin-tip thermometer from the side. Transfer fully cooked chicken to a clean paper-towel-lined plate. Reuse the frying oil for subsequent loads; the times are first checks, not doneness guarantees."
+          },
+          {
+            "id": "ginger",
+            "title": "Use the retained frying oil",
+            "text": "Drain excess frying oil, retaining the corresponding scaled share for the aromatics: the original batch leaves 1 tablespoon from its measured ⅓ cup. This is retained frying oil, not another oil addition. Set the wok over medium-high heat, add {{ingredients}} and stir about 20 seconds until fragrant."
+          },
+          {
+            "id": "aromatics",
+            "title": "Add garlic, chilies and scallion whites",
+            "text": "Add {{ingredients}} and all the reserved scallion whites. Stir-fry for about 15 seconds, keeping the garlic moving."
+          },
+          {
+            "id": "sauce",
+            "title": "Dissolve the sugar",
+            "text": "Add {{ingredients}}, bring to a simmer and stir until the sugar dissolves. Simmer for about 2 minutes, watching that the small amount of liquid does not reduce to a scorched film."
+          },
+          {
+            "id": "finish",
+            "title": "Thicken and coat",
+            "text": "Stir the prepared slurry again and add it slowly, letting each addition thicken before adding more. Stop when the sauce coats the back of a spoon; the full prepared slurry may not be needed. Add all the cooked chicken and reserved scallion greens, then toss for about 10 seconds until the sauce clings. If there is still excess thin sauce, add a little more of the remaining prepared slurry and stir until thickened. Check chicken for 165°F / 74°C before serving. Discard unused slurry and serve immediately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the dredge light and thicken the glaze only as much as it needs",
+        "outcome": "Thin, fully cooked chicken pieces have a crisp coating beneath a clinging soy-brown-sugar glaze, with no pool of stiff sauce.",
+        "techniques": ["browning", "starch", "temperature"],
+        "before": [
+          "Pat chicken dry and keep the slices about ¼ inch / 6 mm thick at every batch size. Thin slices brown quickly; a thicker center needs longer to reach 165°F / 74°C.",
+          "Set out separate dredging and slurry starch. The listed dredging supply includes any second coat; prepare the full listed slurry starch and water separately, then add only as much slurry as the sauce needs.",
+          "Have the scallion whites and greens separated before frying. Keep chicken in a single layer and use more loads when needed; pan geometry and frying time do not multiply with ingredient quantities."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A thin, even starch coat remains after loose powder is shaken off.",
+            "why": "A heavy layer can stay chalky or form a thick shell rather than a light crust."
+          },
+          {
+            "step": 4,
+            "cue": "The coating is browned and crisp, and the thickest chicken pieces measure 165°F / 74°C.",
+            "why": "The short frying times depend on thin slices; the final ten-second toss will not reliably finish partly cooked chicken."
+          },
+          {
+            "step": 8,
+            "cue": "The glaze coats the chicken with almost no free liquid and no stiff gel.",
+            "why": "The entire slurry is a prepared supply, not a required dose; its needed amount depends on how much sauce liquid remains."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The crust darkens before the chicken reaches 165°F",
+            "cause": "Slices are too thick or the oil is too hot.",
+            "fix": "Lower the heat and continue cooking to the measured endpoint. Keep remaining slices at the specified thickness and fry them in manageable loads."
+          },
+          {
+            "problem": "The sauce becomes pasty",
+            "cause": "Too much of the prepared slurry was used or the sauce reduced too far.",
+            "fix": "Stop adding slurry when the sauce coats a spoon. Stir while adding and watch the small sauce volume closely; do not automatically pour in the full slurry."
+          }
+        ],
+        "storage": "Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and stirring for even heating. The crust softens under sauce during storage. USDA additionally recommends a rolling boil when reheating leftover sauces: stir for even heat and keep it brief, since prolonged boiling concentrates this glaze and softens the coating.",
+        "timing": "For the original batch, plan about 25 minutes of slicing, measuring and coating and about 10 minutes of frying and sauce work, about 35 minutes overall. Additional frying loads extend elapsed time. Slice thickness, pan heat and the measured chicken endpoint govern cooking; do not multiply the short frying checks or the ten-second final toss by the serving factor.",
+        "sources": [
+          {
+            "title": "The Woks of Life — Mongolian chicken",
+            "url": "https://thewoksoflife.com/mongolian-chicken/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA light cornstarch coating crisps the thin chicken pieces. Add the sauce slurry gradually and stop when it clings; the entire measured slurry may not be needed.\n\n## Directions\n\n1. **Mix:** Mix the sliced chicken with 1 tablespoon of oil. Dredge all of the chicken in the cornstarch, shaking off the excess until the chicken is just lightly coated.\n\n2. **Cook:** Heat ⅓ cup oil in a wok over high heat. At this point, if the chicken has absorbed the cornstarch and gets moist again, dredge the pieces again before frying. Just before the oil starts to smoke, spread the chicken pieces evenly in the wok and fry for 1 minute, or until browned and crispy.\n\n3. **Continue:** Turn the chicken, and let the other side fry for another 30 seconds, or until browned and crispy. Transfer to a sheet pan or plate lined with paper towels. The chicken should be fried on all sides with a crusty coating. Fry in batches if necessary and check chicken pieces for 165°F / 74°C before serving. Add slurry gradually only until the sauce coats the chicken.\n\n4. **Continue:** Drain the oil from the wok, leaving 1 tablespoon behind, and set over medium high heat. Add the ginger fry for 20 seconds, until fragrant. Add the dried chili peppers (if using), the garlic, and the white portions of the scallions. Stir-fry for another 15 seconds, and add the soy sauce, brown sugar, and water/chicken stock. Bring the sauce to a simmer, and stir constantly until the brown sugar is completely dissolved.\n\n5. **Finish:** Let the sauce simmer for another 2 minutes, and slowly stir in the cornstarch-water slurry until the sauce coats the back of a spoon. Add the chicken and the green portions of the scallions. Toss everything together for another 10 seconds.\n\n6. **Continue:** There should be almost no liquid; the sauce should cling to the chicken. If you still have excess sauce, add more of the cornstarch slurry, and increase the heat slightly. Stir until thickened. Serve.\n",
+    "after": "\n## Chef's Note\n\nThis Chinese American takeout-style chicken uses a light cornstarch coat and a sweet soy glaze. Fry the thin pieces until cooked, then add slurry gradually so the sauce clings without becoming a heavy gel.\n\n## Directions\n\n1. **Separate the scallions:** Prepare scallions, keeping all white parts in one bowl and all green parts in another. Both portions will be used; their natural size varies.\n2. **Prepare the slurry:** Mix cornstarch for the slurry and water for the slurry in a bowl and set beside the stove. Stir again immediately before using it; settled starch will otherwise thicken unevenly.\n3. **Lightly coat the chicken:** Have boneless skinless chicken breast or thighs, vegetable oil for coating the chicken, and cornstarch for dredging ready. Mix the chicken with the coating oil, then dredge in the listed cornstarch, shaking off excess so each piece is lightly coated. If the coating becomes damp before frying, use the same measured dredging supply for a second light coating. Discard unused dredging starch after the chicken has gone into the pan; it has touched raw chicken.\n4. **Fry in manageable loads:** Heat vegetable oil for frying in a wok over high heat until hot, without letting it smoke. Add the coated chicken in a single layer; fry in loads if necessary. Start checking the first side at about 1 minute and the second at about 30 seconds, turning as needed until the coating is browned and crisp and the thickest pieces reach 165°F / 74°C. Use a thin-tip thermometer from the side. Transfer fully cooked chicken to a clean paper-towel-lined plate. Reuse the frying oil for subsequent loads; the times are first checks, not doneness guarantees.\n5. **Use the retained frying oil:** Drain excess frying oil, retaining the corresponding scaled share for the aromatics: the original batch leaves 1 tablespoon from its measured ⅓ cup. This is retained frying oil, not another oil addition. Set the wok over medium-high heat, add ginger and stir about 20 seconds until fragrant.\n6. **Add garlic, chilies and scallion whites:** Add dried red chili peppers (if using) and garlic cloves and all the reserved scallion whites. Stir-fry for about 15 seconds, keeping the garlic moving.\n7. **Dissolve the sugar:** Add soy sauce, brown sugar, and hot water or low-sodium chicken stock, bring to a simmer and stir until the sugar dissolves. Simmer for about 2 minutes, watching that the small amount of liquid does not reduce to a scorched film.\n8. **Thicken and coat:** Stir the prepared slurry again and add it slowly, letting each addition thicken before adding more. Stop when the sauce coats the back of a spoon; the full prepared slurry may not be needed. Add all the cooked chicken and reserved scallion greens, then toss for about 10 seconds until the sauce clings. If there is still excess thin sauce, add a little more of the remaining prepared slurry and stir until thickened. Check chicken for 165°F / 74°C before serving. Discard unused slurry and serve immediately.\n"
+  },
+  "findings": [
+    {
+      "id": "N04-M01",
+      "rationale": "Preserves full input richness and accepted gradual-slurry repair. Allocating the entire prepared supply is not claiming every grain is consumed.",
+      "confidence": "high",
+      "applicableSources": ["Woks Mongolian page + exact bound native/Git", "9fa/e300 repair"],
+      "exactBeforeAfterReferences": ["formula.components", "formula.steps", "learning"],
+      "questions": []
+    },
+    {
+      "id": "N04-M02",
+      "rationale": "Thin slices still need a measured endpoint. Final10sec toss is not a supported way to finish partly cooked poultry.",
+      "confidence": "high",
+      "applicableSources": [
+        "Woks Mongolian page + exact bound native/Git",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures"
+      ],
+      "exactBeforeAfterReferences": ["formula.steps", "learning.checkpoints"],
+      "questions": []
+    },
+    {
+      "id": "N04-M03",
+      "rationale": "Retained oil is physical flow from frying supply. Counted scallion parts are not guessed halves; original dimensional context is clarified without scaling cut size.",
+      "confidence": "high for physical flow; medium for actual retained oil after absorption",
+      "applicableSources": [
+        "Woks Mongolian page + exact bound native/Git",
+        "exact native/current method"
+      ],
+      "exactBeforeAfterReferences": ["formula.components", "formula.steps", "learning"],
+      "questions": [
+        "Record actual remaining frying oil and pan geometry at smaller/larger loads; no assumed edible oil uptake."
+      ]
+    },
+    {
+      "id": "N04-M04",
+      "rationale": "Exact native and current publisher agree on35min plan. This is not a timed physical result or a claim of national Mongolian origin. Sauce boil recommendation is reheating only; first-cook remains original simmer.",
+      "confidence": "high for source clock/history; actual kitchen time unmeasured",
+      "applicableSources": [
+        "Woks Mongolian page + exact bound native/Git",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures",
+        "USDA leftovers (actual scoped campaign retrieval; current direct403)"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "body.Chef's Note",
+        "learning"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N04-I02",
+      "rationale": "The static quarter-cup and two-tablespoon wording conflicts with scaled supplies. Follow the displayed quantities, keep both slurry ingredients distinct from dredging starch, and retain gradual use without asserting that the entire prepared slurry is eaten.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": ["learning.before[1]"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Mongolian%20Chicken.html",
+    "introductionScope": "Actual earlier retained cooking text independently verified; full followed history retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Exact original, later adaptation and current publisher ingredient/product disagreements are separately recorded; current source popularity is not formula evidence.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": {
+    "canonicalLedger": "evidence/mongolian-chicken-ledgers.json",
+    "wholeSavedSource": "evidence/mongolian-chicken-bound-original-cooking.json",
+    "sourceFormulaIsNotContemporaryPublisherCertification": true
+  },
+  "ledger": {
+    "slug": "mongolian-chicken",
+    "frozenLedger": [
+      {
+        "index": 0,
+        "exactInput": "12 ounces boneless skinless chicken breast or thighs (pat dry with paper towels and cut into ¼-inch/6mm thick slices)",
+        "stateAndActualDestination": "Dry¼inchchickencoat1,fry2/3,before-serving165,brief finaltoss5."
+      },
+      {
+        "index": 1,
+        "exactInput": "1 tablespoon vegetable oil (plus ⅓ cup/80ml for frying)",
+        "stateAndActualDestination": "1tbspcoatingoil1;⅓cup80mlfry2;retain1tbsp4fromfryinput."
+      },
+      {
+        "index": 2,
+        "exactInput": "1/4 cup cornstarch",
+        "stateAndActualDestination": "¼cupstarchdredge1;redredge2noexplicitsame-supply/discard."
+      },
+      {
+        "index": 3,
+        "exactInput": "1 teaspoon ginger (julienned or minced)",
+        "stateAndActualDestination": "Ginger4about20sec."
+      },
+      {
+        "index": 4,
+        "exactInput": "5 dried red chili peppers (optional)",
+        "stateAndActualDestination": "Optional5chilies4."
+      },
+      {
+        "index": 5,
+        "exactInput": "2 cloves garlic (chopped)",
+        "stateAndActualDestination": "Garlic4."
+      },
+      {
+        "index": 6,
+        "exactInput": "3 scallions (cut on a diagonal into 1-2 inch / 5cm slices)",
+        "stateAndActualDestination": "Scallionwhites4/greens5naturalparts;1–2inch/5cmsizetext."
+      },
+      {
+        "index": 7,
+        "exactInput": "2 1/2 tablespoons soy sauce",
+        "stateAndActualDestination": "Soy4simmer."
+      },
+      {
+        "index": 8,
+        "exactInput": "2 tablespoons brown sugar",
+        "stateAndActualDestination": "Brown4simmer."
+      },
+      {
+        "index": 9,
+        "exactInput": "¼ cup hot water (or low sodium chicken stock)",
+        "stateAndActualDestination": "¼cuphotwaterORstock4."
+      },
+      {
+        "index": 10,
+        "exactInput": "2 tablespoons cornstarch (mixed into a slurry with 2 tablespoons water)",
+        "stateAndActualDestination": "2tbspstarch+2tbspwaterslurry5/6gradual;misplacedslurryinstructionalso3."
+      }
+    ],
+    "proposedLedger": [
+      {
+        "id": "chicken.chicken",
+        "exactInput": {
+          "name": "boneless skinless chicken breast or thighs",
+          "quantity": {
+            "amount": 12,
+            "unit": "oz"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Patdry¼inch→lightcoat→fully165°Ffry→cleanplate→10secglazetoss→final165check."
+      },
+      {
+        "id": "chicken.coat-oil",
+        "exactInput": {
+          "name": "vegetable oil for coating the chicken",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "chicken.dredge",
+        "exactInput": {
+          "name": "cornstarch for dredging",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "use this supply for any second dredge; discard the unused raw-contact starch",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Full¼cup input→first/possible secondlightdredge fromsame supply→raw-contactexcess discarded."
+      },
+      {
+        "id": "chicken.fry-oil",
+        "exactInput": {
+          "name": "vegetable oil for frying",
+          "quantity": {
+            "amount": "1/3",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": [
+            {
+              "amount": 80,
+              "unit": "ml"
+            }
+          ],
+          "preparation": "retain part for aromatics after frying; drain the excess",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "fry",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Entire⅓cup/80ml measuredfryinput→successivefryingloads→retain proportionaloriginal1tbspforaromatics→drainexcess. No assumedabsorption/consumedquantity or fresharomaticoiladdition."
+      },
+      {
+        "id": "chicken.scallions",
+        "exactInput": {
+          "name": "scallion",
+          "quantity": {
+            "amount": 3,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "scallions",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Countedwhole supply→naturalwhitepartsaromatics/greenpartsfinnal;no inventedhalf-volumes."
+      },
+      {
+        "id": "sauce.ginger",
+        "exactInput": {
+          "name": "ginger",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "julienned or minced",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "ginger",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "sauce.chili",
+        "exactInput": {
+          "name": "dried red chili pepper",
+          "quantity": {
+            "amount": 5,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": true,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "sauce.garlic",
+        "exactInput": {
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "chopped",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "sauce.soy",
+        "exactInput": {
+          "name": "soy sauce",
+          "quantity": {
+            "amount": "2 1/2",
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "sauce.sugar",
+        "exactInput": {
+          "name": "brown sugar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "sauce.liquid",
+        "exactInput": {
+          "name": "hot water or low-sodium chicken stock",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "sauce.starch",
+        "exactInput": {
+          "name": "cornstarch for the slurry",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "prepare the full slurry; use only as much as the sauce needs",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "slurry",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Full2tbsp preparedslurry→re-stir/addneededportion atfinish→discardunused; not forcedfull2tbsp consumed."
+      },
+      {
+        "id": "sauce.water",
+        "exactInput": {
+          "name": "water for the slurry",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "slurry",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Full2tbspwatermixedwithslurrystarch→sameconditionalportion/discardunused."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Breast or thigh",
+        "disposition": "exclusive preserved choice",
+        "allocation": "Same12oz raw fully-thawed boneless skinless supply, same¼inch/6mm slices and165°F endpoint."
+      },
+      {
+        "name": "Hot water or low-sodium chicken stock",
+        "disposition": "exclusive preserved choice",
+        "allocation": "Same¼cup sauce input, no extra broth/dilution dose."
+      },
+      {
+        "name": "Optional chili",
+        "disposition": "preserved",
+        "allocation": "Up to listed5count dried chilies at aromatics; absent if omitted, no sauce replacement."
+      },
+      {
+        "name": "Second light dredge / conditional slurry",
+        "disposition": "preserved separate supplies",
+        "allocation": "Second coat comes from existing¼cup dredge; sauce uses only needed portion of separately prepared2tbsp+2tbsp slurry."
+      }
+    ],
+    "methodGraph": [
+      {
+        "step": 1,
+        "id": "scallions",
+        "title": "Separate the scallions",
+        "allocatedIngredients": ["chicken.scallions"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "slurry",
+        "title": "Prepare the slurry",
+        "allocatedIngredients": ["sauce.starch", "sauce.water"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "coat",
+        "title": "Lightly coat the chicken",
+        "allocatedIngredients": ["chicken.chicken", "chicken.coat-oil", "chicken.dredge"],
+        "cue": [
+          {
+            "step": 3,
+            "cue": "A thin, even starch coat remains after loose powder is shaken off.",
+            "why": "A heavy layer can stay chalky or form a thick shell rather than a light crust."
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "id": "fry",
+        "title": "Fry in manageable loads",
+        "allocatedIngredients": ["chicken.fry-oil"],
+        "cue": [
+          {
+            "step": 4,
+            "cue": "The coating is browned and crisp, and the thickest chicken pieces measure 165°F / 74°C.",
+            "why": "The short frying times depend on thin slices; the final ten-second toss will not reliably finish partly cooked chicken."
+          }
+        ]
+      },
+      {
+        "step": 5,
+        "id": "ginger",
+        "title": "Use the retained frying oil",
+        "allocatedIngredients": ["sauce.ginger"],
+        "cue": []
+      },
+      {
+        "step": 6,
+        "id": "aromatics",
+        "title": "Add garlic, chilies and scallion whites",
+        "allocatedIngredients": ["sauce.chili", "sauce.garlic"],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "sauce",
+        "title": "Dissolve the sugar",
+        "allocatedIngredients": ["sauce.soy", "sauce.sugar", "sauce.liquid"],
+        "cue": []
+      },
+      {
+        "step": 8,
+        "id": "finish",
+        "title": "Thicken and coat",
+        "allocatedIngredients": [],
+        "cue": [
+          {
+            "step": 8,
+            "cue": "The glaze coats the chicken with almost no free liquid and no stiff gel.",
+            "why": "The entire slurry is a prepared supply, not a required dose; its needed amount depends on how much sauce liquid remains."
+          }
+        ]
+      }
+    ],
+    "ratiosAndYieldScope": "12oz chicken,1tbsp coatingoil PLUS⅓cup/80ml fryoil,¼cup dredge,2½tbspsoy/2tbspbrown/¼cupwater-or-stock, full2tbsp+2tbsp prepared slurry remain. Retained aromatic oil is not another input; no edible oil/starch uptake or nutrition derived.",
+    "linkedMeals": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Separate the scallions: Prepare scallions, keeping all white parts in one bowl and all green parts in another. Both portions will be used; their natural size varies."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the slurry: Mix cornstarch for the slurry and water for the slurry in a bowl and set beside the stove. Stir again immediately before using it; settled starch will otherwise thicken unevenly."
+    },
+    {
+      "step": 3,
+      "text": "Lightly coat the chicken: Have boneless skinless chicken breast or thighs, vegetable oil for coating the chicken, and cornstarch for dredging ready. Mix the chicken with the coating oil, then dredge in the listed cornstarch, shaking off excess so each piece is lightly coated. If the coating becomes damp before frying, use the same measured dredging supply for a second light coating. Discard unused dredging starch after the chicken has gone into the pan; it has touched raw chicken."
+    },
+    {
+      "step": 4,
+      "text": "Fry in manageable loads: Heat vegetable oil for frying in a wok over high heat until hot, without letting it smoke. Add the coated chicken in a single layer; fry in loads if necessary. Start checking the first side at about 1 minute and the second at about 30 seconds, turning as needed until the coating is browned and crisp and the thickest pieces reach 165°F / 74°C. Use a thin-tip thermometer from the side. Transfer fully cooked chicken to a clean paper-towel-lined plate. Reuse the frying oil for subsequent loads; the times are first checks, not doneness guarantees."
+    },
+    {
+      "step": 5,
+      "text": "Use the retained frying oil: Drain excess frying oil, retaining the corresponding scaled share for the aromatics: the original batch leaves 1 tablespoon from its measured ⅓ cup. This is retained frying oil, not another oil addition. Set the wok over medium-high heat, add ginger and stir about 20 seconds until fragrant."
+    },
+    {
+      "step": 6,
+      "text": "Add garlic, chilies and scallion whites: Add dried red chili peppers (if using) and garlic cloves and all the reserved scallion whites. Stir-fry for about 15 seconds, keeping the garlic moving."
+    },
+    {
+      "step": 7,
+      "text": "Dissolve the sugar: Add soy sauce, brown sugar, and hot water or low-sodium chicken stock, bring to a simmer and stir until the sugar dissolves. Simmer for about 2 minutes, watching that the small amount of liquid does not reduce to a scorched film."
+    },
+    {
+      "step": 8,
+      "text": "Thicken and coat: Stir the prepared slurry again and add it slowly, letting each addition thicken before adding more. Stop when the sauce coats the back of a spoon; the full prepared slurry may not be needed. Add all the cooked chicken and reserved scallion greens, then toss for about 10 seconds until the sauce clings. If there is still excess thin sauce, add a little more of the remaining prepared slurry and stir until thickened. Check chicken for 165°F / 74°C before serving. Discard unused slurry and serve immediately."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": [],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "3 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "1/4 tbsp vegetable oil for coating the chicken",
+        "0.0625 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "0.0833 cup (20 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "3/4 scallion, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "1/4 tsp ginger, julienned or minced",
+        "1 1/4 dried red chili peppers, optional",
+        "1/2 garlic clove, chopped",
+        "5/8 tbsp soy sauce",
+        "1/2 tbsp brown sugar",
+        "0.0625 cup hot water or low-sodium chicken stock",
+        "1/2 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "1/2 tbsp water for the slurry"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "3 oz boneless skinless chicken breast or thighs",
+        "1/4 tbsp vegetable oil for coating the chicken",
+        "0.0625 cup cornstarch for dredging",
+        "0.0833 cup (20 ml) vegetable oil for frying",
+        "3/4 scallion",
+        "1/4 tsp ginger",
+        "1 1/4 dried red chili peppers, optional",
+        "1/2 garlic clove",
+        "5/8 tbsp soy sauce",
+        "1/2 tbsp brown sugar",
+        "0.0625 cup hot water or low-sodium chicken stock",
+        "1/2 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 3,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.0625,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 0.08333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 0.08333333333333333
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 0.75,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 1.25,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1.25
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 0.625,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.625
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.0625,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "6 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "1/2 tbsp vegetable oil for coating the chicken",
+        "1/8 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "1/6 cup (40 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "1 1/2 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "1/2 tsp ginger, julienned or minced",
+        "2 1/2 dried red chili peppers, optional",
+        "1 garlic clove, chopped",
+        "1 1/4 tbsp soy sauce",
+        "1 tbsp brown sugar",
+        "1/8 cup hot water or low-sodium chicken stock",
+        "1 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "1 tbsp water for the slurry"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "6 oz boneless skinless chicken breast or thighs",
+        "1/2 tbsp vegetable oil for coating the chicken",
+        "1/8 cup cornstarch for dredging",
+        "1/6 cup (40 ml) vegetable oil for frying",
+        "1 1/2 scallions",
+        "1/2 tsp ginger",
+        "2 1/2 dried red chili peppers, optional",
+        "1 garlic clove",
+        "1 1/4 tbsp soy sauce",
+        "1 tbsp brown sugar",
+        "1/8 cup hot water or low-sodium chicken stock",
+        "1 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 6,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.125,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 0.16666666666666666,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 0.16666666666666666
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 1.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 2.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 1.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.25
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.125,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "12 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "1 tbsp vegetable oil for coating the chicken",
+        "1/4 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "1/3 cup (80 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "3 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "1 tsp ginger, julienned or minced",
+        "5 dried red chili peppers, optional",
+        "2 garlic cloves, chopped",
+        "2 1/2 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "1/4 cup hot water or low-sodium chicken stock",
+        "2 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "2 tbsp water for the slurry"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "12 oz boneless skinless chicken breast or thighs",
+        "1 tbsp vegetable oil for coating the chicken",
+        "1/4 cup cornstarch for dredging",
+        "1/3 cup (80 ml) vegetable oil for frying",
+        "3 scallions",
+        "1 tsp ginger",
+        "5 dried red chili peppers, optional",
+        "2 garlic cloves",
+        "2 1/2 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "1/4 cup hot water or low-sodium chicken stock",
+        "2 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 12,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 0.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 0.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 5
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 2.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "18 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "1 1/2 tbsp vegetable oil for coating the chicken",
+        "3/8 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "1/2 cup (120 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "4 1/2 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "1 1/2 tsp ginger, julienned or minced",
+        "7 1/2 dried red chili peppers, optional",
+        "3 garlic cloves, chopped",
+        "3 3/4 tbsp soy sauce",
+        "3 tbsp brown sugar",
+        "3/8 cup hot water or low-sodium chicken stock",
+        "3 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "3 tbsp water for the slurry"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "18 oz boneless skinless chicken breast or thighs",
+        "1 1/2 tbsp vegetable oil for coating the chicken",
+        "3/8 cup cornstarch for dredging",
+        "1/2 cup (120 ml) vegetable oil for frying",
+        "4 1/2 scallions",
+        "1 1/2 tsp ginger",
+        "7 1/2 dried red chili peppers, optional",
+        "3 garlic cloves",
+        "3 3/4 tbsp soy sauce",
+        "3 tbsp brown sugar",
+        "3/8 cup hot water or low-sodium chicken stock",
+        "3 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 18,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 18
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.375,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 4.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 4.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 7.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 7.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 3.75,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3.75
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.375,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "24 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "2 tbsp vegetable oil for coating the chicken",
+        "1/2 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "2/3 cup (160 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "6 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "2 tsp ginger, julienned or minced",
+        "10 dried red chili peppers, optional",
+        "4 garlic cloves, chopped",
+        "5 tbsp soy sauce",
+        "4 tbsp brown sugar",
+        "1/2 cup hot water or low-sodium chicken stock",
+        "4 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "4 tbsp water for the slurry"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "24 oz boneless skinless chicken breast or thighs",
+        "2 tbsp vegetable oil for coating the chicken",
+        "1/2 cup cornstarch for dredging",
+        "2/3 cup (160 ml) vegetable oil for frying",
+        "6 scallions",
+        "2 tsp ginger",
+        "10 dried red chili peppers, optional",
+        "4 garlic cloves",
+        "5 tbsp soy sauce",
+        "4 tbsp brown sugar",
+        "1/2 cup hot water or low-sodium chicken stock",
+        "4 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 24,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 24
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 0.6666666666666666,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 6,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 10,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 10
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 4,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 5
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "36 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "3 tbsp vegetable oil for coating the chicken",
+        "3/4 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "1 cup (240 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "9 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "3 tsp ginger, julienned or minced",
+        "15 dried red chili peppers, optional",
+        "6 garlic cloves, chopped",
+        "7 1/2 tbsp soy sauce",
+        "6 tbsp brown sugar",
+        "3/4 cup hot water or low-sodium chicken stock",
+        "6 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "6 tbsp water for the slurry"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "36 oz boneless skinless chicken breast or thighs",
+        "3 tbsp vegetable oil for coating the chicken",
+        "3/4 cup cornstarch for dredging",
+        "1 cup (240 ml) vegetable oil for frying",
+        "9 scallions",
+        "3 tsp ginger",
+        "15 dried red chili peppers, optional",
+        "6 garlic cloves",
+        "7 1/2 tbsp soy sauce",
+        "6 tbsp brown sugar",
+        "3/4 cup hot water or low-sodium chicken stock",
+        "6 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 36,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 36
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 1,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 9,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 9
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 3,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 15,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 15
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 6,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 7.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 7.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Chicken and frying ---",
+        "12 oz boneless skinless chicken breast or thighs, raw, fully thawed if frozen; pat dry and slice ¼ inch / 6 mm thick",
+        "1 tbsp vegetable oil for coating the chicken",
+        "1/4 cup cornstarch for dredging, use this supply for any second dredge; discard the unused raw-contact starch",
+        "1/3 cup (80 ml) vegetable oil for frying, retain part for aromatics after frying; drain the excess",
+        "3 scallions, cut diagonally into 1–2-inch lengths (about 5 cm at the long end); keep white and green parts separate",
+        "--- Sauce and slurry ---",
+        "1 tsp ginger, julienned or minced",
+        "5 dried red chili peppers, optional",
+        "2 garlic cloves, chopped",
+        "2 1/2 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "1/4 cup hot water or low-sodium chicken stock",
+        "2 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs",
+        "2 tbsp water for the slurry"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "12 oz boneless skinless chicken breast or thighs",
+        "1 tbsp vegetable oil for coating the chicken",
+        "1/4 cup cornstarch for dredging",
+        "1/3 cup (80 ml) vegetable oil for frying",
+        "3 scallions",
+        "1 tsp ginger",
+        "5 dried red chili peppers, optional",
+        "2 garlic cloves",
+        "2 1/2 tbsp soy sauce",
+        "2 tbsp brown sugar",
+        "1/4 cup hot water or low-sodium chicken stock",
+        "2 tbsp cornstarch for the slurry"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 12,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "chicken.coat-oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "chicken.dredge",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "chicken.fry-oil",
+          "quantity": 0.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "fry",
+              "share": 1,
+              "scaledAmount": 0.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "chicken.scallions",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "scallions",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "sauce.ginger",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "ginger",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "sauce.chili",
+          "quantity": 5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 5
+            }
+          ]
+        },
+        {
+          "id": "sauce.garlic",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.soy",
+          "quantity": 2.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2.5
+            }
+          ]
+        },
+        {
+          "id": "sauce.sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.liquid",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "sauce.starch",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "sauce.water",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a2cf9b452c628028798ac87d9d2b7ba031b41e0f4ae355e5e6c70478e8096072",
+      "cutAndEndpointGeometryFixed": true
+    }
+  ],
+  "preservedPriorRepairs": [
+    "9fa/e300 dry¼inch chicken, lightdredge, full⅓cup/80mloil, explicitslurrywater, optionalchilies, batch165 andgradualslurry",
+    "Fullcurrentsource ingredients/options/links/ID/Chinese style"
+  ],
+  "remainingQuestions": [
+    "Observe starch pickup, actual frying oil retention and how much slurry is needed before gelation.",
+    "Record single-layer capacity and actual165°F clocks for breast versus thigh.",
+    "Assess glaze/crust texture after brief, evenly heated leftover reheating."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

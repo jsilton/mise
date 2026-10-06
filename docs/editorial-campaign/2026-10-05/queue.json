@@ -193,7 +193,14 @@
       "reviewer": "coverage_check",
       "inputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
       "status": "assigned; complete author/independent/root acceptance pending"
-    }
+    },
+    "griddle_breads_03": [
+      "basic-crepes",
+      "classic-french-toast",
+      "french-toast",
+      "easy-cinnamon-french-toast-sticks",
+      "dutch-baby-pancake"
+    ]
   },
   "recipes": [
     {
@@ -245,8 +252,8 @@
       "title": "Anadama Bread",
       "source": "Adapted from Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/16245/anadama-bread/",
-      "group": null,
-      "status": "queued",
+      "group": "biscuits_rolls_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -254,7 +261,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "5992ac2eabffbed7c3984d4eaed89aac5132b46c673f0abb71d630dec689cc9e",
-      "plannedBatch": "baked-savory-and-breads-01"
+      "plannedBatch": "baked-savory-and-breads-01",
+      "owner": "baking_editor",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "anelletti-al-forno",
@@ -638,8 +647,8 @@
       "title": "Basic Crêpes",
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
-      "group": null,
-      "status": "queued",
+      "group": "griddle_breads_03",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/basic-crepes.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -647,7 +656,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c61609bb0951ad2772825606fcd2571ceae23d1de025e2c27f46fdac03a9c96e",
-      "plannedBatch": "context-screening-01"
+      "plannedBatch": "context-screening-01",
+      "owner": "coverage_check",
+      "inputSourceSha256": "c61609bb0951ad2772825606fcd2571ceae23d1de025e2c27f46fdac03a9c96e",
+      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit"
     },
     {
       "slug": "bbq-chicken-sliders",
@@ -738,8 +750,8 @@
       "title": "Cinnamon Rolls",
       "source": "Cambrea Gordon, Cambrea Bakes; earlier saved version",
       "sourceUrl": "https://cambreabakes.com/the-best-cinnamon-rolls/",
-      "group": null,
-      "status": "queued",
+      "group": "biscuits_rolls_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -747,7 +759,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7768b834d70e30e4f44089a0efd8f306aaeaba7ed0dbe79068bc13fcf397e386",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "owner": "baking_editor",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "best-homemade-brownies",
@@ -1466,8 +1480,8 @@
       "title": "Cast-Iron Buttermilk Biscuits",
       "source": "butfirstwebrunch.com",
       "sourceUrl": "https://butfirstwebrunch.com/cast-iron-biscuits/",
-      "group": null,
-      "status": "queued",
+      "group": "biscuits_rolls_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/cast-iron-buttermilk-biscuits.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -1475,7 +1489,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "bfe7f2fe5b934d867a01c587bd54535edbba6c469fd2a0258555b2ffab299ad2",
-      "plannedBatch": "baked-savory-and-breads-03"
+      "plannedBatch": "baked-savory-and-breads-03",
+      "owner": "baking_editor",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "cauliflower-alfredo-sauce",
@@ -1832,21 +1848,24 @@
       "source": "Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/",
       "group": "soups_purees_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/chicken-tortilla-soup-iii.md",
-        "Private whole-author evidence retained; no complete-review credit"
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
       ],
       "inputSha256": "087c1f00fe60cc2e9827608d9f6ef5449d45a143fed815c9076b9a7aa1c775a2",
       "plannedBatch": "simmer-boil-and-steam-02",
       "owner": "coverage_check",
       "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8",
+      "productionVerification": "pending"
     },
     {
       "slug": "chimichurri",
@@ -2258,8 +2277,8 @@
       "title": "Classic French Toast",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "griddle_breads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2267,7 +2286,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7ecccdcc8d9a472682680bc50d354159193e8fc5fb8e4650342da7e346482a45",
-      "plannedBatch": "context-screening-02"
+      "plannedBatch": "context-screening-02",
+      "owner": "coverage_check",
+      "inputSourceSha256": "7ecccdcc8d9a472682680bc50d354159193e8fc5fb8e4650342da7e346482a45",
+      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit"
     },
     {
       "slug": "classic-guacamole",
@@ -3001,8 +3023,8 @@
       "title": "Dutch Baby Pancake",
       "source": "Adapted from prettyprovidence.com",
       "sourceUrl": "https://prettyprovidence.com/german-pancakes/",
-      "group": null,
-      "status": "queued",
+      "group": "griddle_breads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3010,7 +3032,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "311e21cb72411d583c7b4eab93c8aa92700e547d0c580dd0120ddfaa9dac8b16",
-      "plannedBatch": "baked-savory-and-breads-04"
+      "plannedBatch": "baked-savory-and-breads-04",
+      "owner": "coverage_check",
+      "inputSourceSha256": "311e21cb72411d583c7b4eab93c8aa92700e547d0c580dd0120ddfaa9dac8b16",
+      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit"
     },
     {
       "slug": "easy-baked-turkey-meatballs",
@@ -3126,8 +3151,8 @@
       "title": "Cinnamon French Toast Sticks",
       "source": "Adapted from justataste.com",
       "sourceUrl": "https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "griddle_breads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3135,7 +3160,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6b1c9730a18a0672de888ad25ee55dc2c5df5e965d03cbd7b8d683aabfcf04d1",
-      "plannedBatch": "stir-fry-and-pan-cooking-02"
+      "plannedBatch": "stir-fry-and-pan-cooking-02",
+      "owner": "coverage_check",
+      "inputSourceSha256": "6b1c9730a18a0672de888ad25ee55dc2c5df5e965d03cbd7b8d683aabfcf04d1",
+      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit"
     },
     {
       "slug": "easy-homemade-pumpkin-pancakes",
@@ -3391,21 +3419,25 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/fennel-and-carrot-soup",
       "group": "soups_purees_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/bounded-recipe-batch-2026-10-05.md",
-        "Private whole-author evidence retained; no complete-review credit"
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/reviews/fennel-and-carrot-soup.md",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
       ],
       "inputSha256": "56a989d35f3a3b76e155678ef10b1649f9a917a38e25823ae49de717ead82742",
       "plannedBatch": "simmer-boil-and-steam-04",
       "owner": "coverage_check",
       "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85",
+      "productionVerification": "pending"
     },
     {
       "slug": "flourless-chocolate-cake",
@@ -3500,8 +3532,8 @@
       "title": "French Toast",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408",
-      "group": null,
-      "status": "queued",
+      "group": "griddle_breads_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3509,7 +3541,10 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6892ddf7060216187c4260d355516d20eafa639a5e8a66c467748cf9984bbca2",
-      "plannedBatch": "stir-fry-and-pan-cooking-03"
+      "plannedBatch": "stir-fry-and-pan-cooking-03",
+      "owner": "coverage_check",
+      "inputSourceSha256": "6892ddf7060216187c4260d355516d20eafa639a5e8a66c467748cf9984bbca2",
+      "reviewPhase": "Independent whole-recipe author review in progress; no complete credit"
     },
     {
       "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
@@ -5291,18 +5326,24 @@
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/miso-soup-103391",
       "group": "soups_purees_02",
-      "status": "proposed",
-      "reviewEvidence": ["Private whole-author evidence retained; no complete-review credit"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/reviews/miso-soup.md",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
       ],
       "inputSha256": "c61230df119dee06bd2865b6e375d54673c5f02affcdf352c712bf666fc28876",
       "plannedBatch": "simmer-boil-and-steam-07",
       "owner": "coverage_check",
       "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
+      "productionVerification": "pending"
     },
     {
       "slug": "mm-cookies",
@@ -5345,19 +5386,23 @@
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/mongolian-chicken/",
       "group": "noodle_pan_mains_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/mongolian-chicken.md",
-        "Private whole-author evidence retained; no complete-review credit"
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Observe starch pickup, actual frying oil retention and how much slurry is needed before gelation.",
+        "Record single-layer capacity and actual165°F clocks for breast versus thigh.",
+        "Assess glaze/crust texture after brief, evenly heated leftover reheating."
       ],
       "inputSha256": "5c4a963a1af2fc1f5b2837be6f5ef834a5a6f92d5c67841887f1f05d1e2a4b9b",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6",
+      "productionVerification": "pending"
     },
     {
       "slug": "my-favorite-challah",
@@ -5399,8 +5444,8 @@
       "title": "Nana’s Biscuits",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "biscuits_rolls_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5408,7 +5453,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a24644e988d22414514368c9898fdf0ad9f21c05ead5617175b91ed541235941",
-      "plannedBatch": "baked-savory-and-breads-07"
+      "plannedBatch": "baked-savory-and-breads-07",
+      "owner": "baking_editor",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "no-cook-playdough",
@@ -5693,16 +5740,23 @@
       "source": "Adapted from Thaitable.com",
       "sourceUrl": "http://www.thaitable.com/thai/recipe/pad-thai",
       "group": "noodle_pan_mains_04",
-      "status": "proposed",
-      "reviewEvidence": ["Private whole-author evidence retained; no complete-review credit"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/reviews/pad-thai.md",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm8oz wide noodle hydration and sauce balance with actual tamarind product.",
+        "Record actual single-pan load, elapsed/active times and fully cooked sprout texture.",
+        "Weigh finished portions rather than asserting source/current3/2–3 as measured yield."
       ],
       "inputSha256": "36c4c8bfece8ec5b9678a62e91f0eb2e92181ca0a499a646374485b194dee7a5",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a",
+      "productionVerification": "pending"
     },
     {
       "slug": "pad-woon-sen",
@@ -5728,16 +5782,23 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/seafood-pan-fried-noodles/",
       "group": "noodle_pan_mains_04",
-      "status": "proposed",
-      "reviewEvidence": ["Private whole-author evidence retained; no complete-review credit"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/reviews/pan-fried-noodles-with-shrimp.md",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure pan/noodle layer, all actual oil input and separate cake/gravy reheating quality.",
+        "Check preferred carrot/mushroom split and actual full-slurry fraction needed.",
+        "Record greens product, shrimp size, temperatures/cues and actual load clocks."
       ],
       "inputSha256": "54b178a987f207f6217f7da5314932dc89febeb346d61f9c3f90ecaac6bcc5aa",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864",
+      "productionVerification": "pending"
     },
     {
       "slug": "parishs-blueberry-crisp",
@@ -6112,8 +6173,8 @@
       "title": "Drop Biscuits",
       "source": "Adapted from Seriouseats.com",
       "sourceUrl": "http://www.seriouseats.com/recipes/2014/06/quick-easy-drop-biscuits-recipe.html",
-      "group": null,
-      "status": "queued",
+      "group": "biscuits_rolls_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6121,7 +6182,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a128bbf5dfa98f50bb2b535069085aaf0bad18f58f40e3d18ec5678a0a5d0f94",
-      "plannedBatch": "baked-savory-and-breads-08"
+      "plannedBatch": "baked-savory-and-breads-08",
+      "owner": "baking_editor",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "quick-lamb-ragu",
@@ -6280,19 +6343,23 @@
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/chicken-lo-mein/",
       "group": "noodle_pan_mains_04",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/restaurant-style-chicken-lo-mein.md",
-        "Private whole-author evidence retained; no complete-review credit"
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify actual fresh noodle state/product and measure its preparation time.",
+        "Confirm six planning portions against appetite and actual wok loads, rather than claiming six tested household servings.",
+        "Observe thoroughly cooked sprout texture and measured chicken endpoint with thin slices."
       ],
       "inputSha256": "8721f2e26a4403d92563d68192f40319b35f94d278a89045a8cfc927c86650a1",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926",
+      "productionVerification": "pending"
     },
     {
       "slug": "rice-bowl-station-buddha-bowls",
@@ -6516,21 +6583,25 @@
       "source": "Paleopot.com",
       "sourceUrl": "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/",
       "group": "soups_purees_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/roasted-red-pepper-and-sweet-potato-soup.md",
-        "Private whole-author evidence retained; no complete-review credit"
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
       ],
       "inputSha256": "6fcbeb0df6e95d7de5adf70695ae5938e7d08f62acf6f9c37e30cf08dccff8cd",
       "plannedBatch": "braises-and-slow-cooking-03",
       "owner": "coverage_check",
       "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-root-vegetables",
@@ -8521,18 +8592,26 @@
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup",
       "group": "soups_purees_02",
-      "status": "proposed",
-      "reviewEvidence": ["Private whole-author evidence retained; no complete-review credit"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "Private whole-author evidence retained; no complete-review credit",
+        "docs/reviews/warm-spiced-butternut-squash-soup.md",
+        "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route.",
+        "Household preference between covered softening and the explicitly retained browned-flesh variation is untested. The variation combines the current browned-flesh mechanism with the recovered complete oil allocation; it is not verbatim native."
       ],
       "inputSha256": "95c4ec51bec781f8f25063ca46c84bb6c8ed2655356c4f20954481679360490a",
       "plannedBatch": "baked-savory-and-breads-12",
       "owner": "coverage_check",
       "inputCommit": "7026b3352003b768de79751e42b69a19379cd2f9",
-      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending"
+      "reviewPhase": "Whole author checkpoint frozen; independent/root acceptance pending",
+      "acceptedSourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6",
+      "productionVerification": "pending"
     },
     {
       "slug": "weeknight-paella",
@@ -9457,9 +9536,10 @@
   "statusCounts": {
     "production-verified": 91,
     "held": 13,
-    "queued": 208,
-    "proposed": 85,
-    "assigned": 10,
+    "assigned": 20,
+    "queued": 198,
+    "proposed": 76,
+    "accepted": 9,
     "held-awaiting-evidence": 2
   }
 }

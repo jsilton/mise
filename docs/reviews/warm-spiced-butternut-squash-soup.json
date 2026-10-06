@@ -1,0 +1,1293 @@
+{
+  "slug": "warm-spiced-butternut-squash-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "95c4ec51bec781f8f25063ca46c84bb6c8ed2655356c4f20954481679360490a",
+  "acceptedSourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "grill", "saute", "simmer", "boil", "steam", "blend"],
+      "after": ["saute", "simmer", "boil", "blend"]
+    },
+    {
+      "field": "servings",
+      "before": "10",
+      "after": "10 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 lbs Whole Butternut Squash",
+        "7 cups Filtered Water",
+        "1 (3-inch) Cinnamon Stick",
+        "1 Star Anise pod + 3 Whole Cloves",
+        "1/2 tsp Whole Allspice + 1/2 tsp Peppercorns",
+        "1 Yellow Onion, chopped",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "1 tbsp Apple Cider Vinegar (The Acid Balance)",
+        "1/2 cup Pomegranate Arils",
+        "1/4 cup Fresh Cilantro"
+      ],
+      "after": [
+        "--- Soup and scrap broth ---",
+        "4 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "1/4 cup extra-virgin olive oil",
+        "7 cups water",
+        "1/2 tsp whole allspice",
+        "1/2 tsp whole black peppercorns",
+        "6 fresh thyme sprigs, washed",
+        "3 whole cloves",
+        "1 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales",
+        "1 star anise pod",
+        "1 yellow onion, peeled and chopped",
+        "1 1/2 tsp kosher salt",
+        "1 tbsp cider vinegar",
+        "1/8 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1/2 cup pomegranate arils",
+        "1/4 cup fresh cilantro, washed and chopped"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 250,
+        "protein": 0.5,
+        "carbs": 4,
+        "fat": 26.5,
+        "fiber": 0.5,
+        "sugar": 1,
+        "sodium": 50
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 10,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "soup",
+            "name": "Soup and scrap broth",
+            "ingredients": [
+              {
+                "id": "squash",
+                "key": "squash",
+                "name": "whole butternut squash",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "squash",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "scraps",
+                    "share": "1/4"
+                  },
+                  {
+                    "step": "onion",
+                    "share": "3/4"
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": 7,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "allspice",
+                "key": "allspice",
+                "name": "whole allspice",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "whole black peppercorns",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "fresh thyme sprig",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ],
+                "plural": "fresh thyme sprigs",
+                "preparation": "washed"
+              },
+              {
+                "id": "cloves",
+                "key": "cloves",
+                "name": "whole clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ],
+                "plural": "whole cloves"
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "cinnamon stick",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ],
+                "plural": "cinnamon sticks",
+                "preparation": "3-inch piece per original stick; size stays fixed when count scales"
+              },
+              {
+                "id": "anise",
+                "key": "anise",
+                "name": "star anise pod",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "stock",
+                    "share": 1
+                  }
+                ],
+                "plural": "star anise pods"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "onion",
+                    "share": 1
+                  }
+                ],
+                "plural": "yellow onions",
+                "preparation": "peeled and chopped"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "cider vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "red-pepper",
+                "key": "red-pepper",
+                "name": "crushed red pepper",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "garnish",
+            "name": "Garnish",
+            "ingredients": [
+              {
+                "id": "pomegranate",
+                "key": "pomegranate",
+                "name": "pomegranate arils",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and chopped"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "scraps",
+            "title": "Prepare and brown scraps",
+            "text": "Wash {{name:soup.squash}} under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat {{ingredients}} in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch."
+          },
+          {
+            "id": "stock",
+            "title": "Make scrap broth",
+            "text": "Add {{ingredients}} to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield."
+          },
+          {
+            "id": "onion",
+            "title": "Soften onion",
+            "text": "Let the emptied pan become safe to handle and wipe it clean. Heat {{ingredients}} over medium heat, cover and cook about 5 minutes, stirring occasionally."
+          },
+          {
+            "id": "squash",
+            "title": "Soften squash",
+            "text": "Add all the cubed flesh from {{ingredients}}. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer flesh",
+            "text": "Add all the reserved scrap broth and {{ingredients}}. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating."
+          },
+          {
+            "id": "blend",
+            "title": "Purée",
+            "text": "Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot."
+          },
+          {
+            "id": "finish",
+            "title": "Finish",
+            "text": "Stir in all {{ingredients}}. Stir to distribute them through the purée."
+          },
+          {
+            "id": "serve",
+            "title": "Garnish",
+            "text": "Divide the soup among the listed portions and distribute all {{ingredients}} over them."
+          }
+        ]
+      }
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-pot", "blender", "fine-mesh-strainer"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Account for scrap broth and both oil stages",
+        "outcome": "Tender squash puréed with strained spice broth and finished with pomegranate and cilantro.",
+        "techniques": ["temperature"],
+        "before": [
+          "The whole squash weight includes peels, seeds and trimmings. Save them for the stock before cubing the flesh; stock extraction discards those solids.",
+          "Use kosher salt as listed; brand/crystal size affects a volume measure. No gram conversion or replacement with table salt is assumed. More stock or squash needs enough pot/strainer/receiving-bowl space, not a linear time multiplier."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Squash scraps are lightly browned, not blackened.",
+            "why": "The first quarter of the oil belongs to this stock stage."
+          },
+          {
+            "step": 2,
+            "cue": "All strained broth is reserved and whole spices and scraps are removed.",
+            "why": "Seven cups is input water, not guaranteed output stock."
+          },
+          {
+            "step": 5,
+            "cue": "Squash flesh collapses readily under a spoon.",
+            "why": "Tenderness determines when puréeing can begin."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Purée has firm or grainy pieces",
+            "cause": "The vegetables were not thoroughly tender before blending.",
+            "fix": "Continue cooking until the stated tenderness cue is met before blending, using an appliance approved for the load."
+          }
+        ],
+        "storage": "Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.",
+        "timing": "Allow about 155 minutes, including 20 minutes preparation and about 135 minutes cooking/finishing. The recorded stages include 8 minutes scrap sauté, 45 minutes stock simmer, 5 minutes covered onion, 10 minutes covered squash and 40 minutes soup simmer, plus heating, straining and blending. Gentle covered stages mostly are unattended apart from stirring; appliance-required cooling and extra loads add elapsed time.",
+        "sources": [
+          {
+            "title": "Adapted from Myrecipes.com",
+            "url": "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+          },
+          {
+            "title": "USDA leftover soup handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables"
+          },
+          {
+            "title": "Blender manufacturer vessel limits",
+            "url": "https://www.nutribullet.com/faq/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nButternut squash soup exists in many cuisines - this version uses the American strategy of infusing the broth itself with whole spices and the squash's own trimmings, building depth before the puree. The pomegranate arils and cilantro finish is not traditional to early American cooking, but it honors the principle: acid and herbaceous brightness must cut the richness of a creamed soup.\n\n## Directions\n\n1.  **Harvest Broth:** Peel and seed the squash. Place all trimmings, seeds, and whole spices in a pot with 7 cups water. Simmer for 45 minutes. Strain and reserve the liquid.\n2.  **Sauté:** Cube the squash flesh. In a large Dutch oven, sauté onion in 1 tbsp oil until soft. Add squash cubes; cook for 10 minutes until edges are browned.\n3.  **Simmer:** Pour the spiced harvest broth over the squash. Bring to a boil, then simmer for 40 minutes until the squash is very tender.\n4.  **The Emulsion:** Transfer to a blender. Remove the center cap to allow steam to escape. Puree until perfectly smooth.\n5.  **Finish:** Stir in the cider vinegar and red pepper flakes for the mandatory **Acid Balance**.\n6.  **Serve:** Ladle into bowls. Top with pomegranate arils and fresh cilantro for the final **High Note**.\n",
+    "after": "\n## Chef's Note\n\nBrown the squash peels, seeds and trimmings briefly, then simmer them with whole spices to make the soup’s strained cooking liquid. All the olive oil has a destination: one-quarter cooks the scraps and three-quarters cook the onion. Cover the squash while it softens, then purée only after it is thoroughly tender and finish with the measured vinegar and red pepper.\n\n## Directions\n\n1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them.\n\n## Browned-squash variation\n\nFor browned edges on the squash flesh, follow the scrap-broth and onion steps above, then leave the pot uncovered instead of covering it during the squash step. Cook the cubed flesh in the measured onion-stage oil for about 10 minutes, stirring and checking for browned edges and catching. Add all the reserved broth and measured salt, then cover and simmer until very tender as in the main method. Keep the remaining ingredients and finish unchanged. Larger batches may need separate pots and longer heating.\n"
+  },
+  "findings": [
+    {
+      "id": "SP01",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Whole actual method uses sauté/simmer/boil/blend, not oven roasting, grilling or separate steaming. No change to heat, food quantities or source credit.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP02",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Exact first-Git and registry-bound native quantities are authoritative written evidence. Authored compiler conserves allocations and preserves original planning portions; it cannot certify culinary ratio/yield/taste. Source disagreement is documented in sourceDisagreement; no inferred weights or modern source normalization.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP03",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Exact first-Git and registry-bound native quantities are authoritative written evidence. Authored compiler conserves allocations and preserves original planning portions; it cannot certify culinary ratio/yield/taste. Source disagreement is documented in sourceDisagreement; no inferred weights or modern source normalization.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP04",
+      "rationale": "Omit unsupported geographic/publisher-proxy origin; all cuisine/style/source credits preserved",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup",
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md"
+      ],
+      "sourceApplicability": "Current source/name/style does not establish geographic invention; preserve all source credits and cuisine/style. Japanese miso context remains source-supported and unchanged.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP05",
+      "rationale": "Legacy estimated numbers have no verified ingredient-weight/finished-yield analysis; remove without manufacturing replacements",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": ["evidence/warm-spiced-butternut-squash-soup-followed-history.diff"],
+      "sourceApplicability": "Legacy added nutritional estimates have no verified ingredient-product weights and actual finished yield; no replacement estimate or dietary formula change proposed.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP06",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written source quantities and exact allocation; moderate untested process application",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Exact first-Git and registry-bound native quantities are authoritative written evidence. Authored compiler conserves allocations and preserves original planning portions; it cannot certify culinary ratio/yield/taste. Source disagreement is documented in sourceDisagreement; no inferred weights or modern source normalization.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP07",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP08",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[7]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    },
+    {
+      "id": "SP09",
+      "rationale": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/warm-spiced-butternut-squash-soup-first-git.md",
+        "evidence/warm-spiced-butternut-squash-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[8]"],
+      "questions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Warm-Spiced%20Butternut%20Squash%20Soup.html",
+    "introductionScope": "Earlier saved cooking text corroboration; native binding is separately established by registry UID, never by title.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific fetches and unavailable publisher pages are distinguished in the frozen whole source evidence; no unavailable publisher is certified.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "f612 bulk rewrite omitted saved6thyme sprigs/1½tspkosher salt/⅛tspredpepper and moved1tbspoil from scraps to onions while spending only¼ of the retained total. Full subsequent history shows metadata/chef notes, not an individually accepted quantity decision. Restore exact saved complete route with all¼cupoil shares; retain title/current four-pound squash/seven-cup starting water/full garnish. Publisher fetch blocked; no modern external formula imported. The current f612 browned-flesh mechanism, also retained in cddf123c chef prose, differs from the recovered covered-softening route. Preserve the exact frozen current route privately; a distinct browned-flesh variation using the recovered full oil allocation is an editorial combination, not the verbatim native method. Root authorized preserving both methods as distinct routes for proposal; whole acceptance remains pending root and independent final checks.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "4 lbs Whole Butternut Squash",
+        "destination": "scraps stock;flesh sauté/simmer",
+        "ambiguity": null
+      },
+      {
+        "text": "7 cups Filtered Water",
+        "destination": "stock starting water",
+        "ambiguity": null
+      },
+      {
+        "text": "1 (3-inch) Cinnamon Stick",
+        "destination": "stock removed",
+        "ambiguity": null
+      },
+      {
+        "text": "1 Star Anise pod + 3 Whole Cloves",
+        "destination": "stock removed",
+        "ambiguity": null
+      },
+      {
+        "text": "1/2 tsp Whole Allspice + 1/2 tsp Peppercorns",
+        "destination": "stock removed",
+        "ambiguity": null
+      },
+      {
+        "text": "1 Yellow Onion, chopped",
+        "destination": "sauté",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": "only1tbsp sauté of¼cup total;3tbsp unallocated",
+        "ambiguity": "Only1tbsp of¼cup is spent; source restores1/4–3/4 split"
+      },
+      {
+        "text": "1 tbsp Apple Cider Vinegar (The Acid Balance)",
+        "destination": "finish",
+        "ambiguity": null
+      },
+      {
+        "text": "1/2 cup Pomegranate Arils",
+        "destination": "serve",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 cup Fresh Cilantro",
+        "destination": "serve",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "id": "soup.squash",
+        "quantity": {
+          "amount": 4,
+          "unit": "lb"
+        },
+        "packageSize": null,
+        "preparation": "washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "destinations": [
+          {
+            "step": "squash",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.oil",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "scraps",
+            "share": "1/4"
+          },
+          {
+            "step": "onion",
+            "share": "3/4"
+          }
+        ]
+      },
+      {
+        "id": "soup.water",
+        "quantity": {
+          "amount": 7,
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.allspice",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.thyme",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": "washed",
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.cloves",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": "3-inch piece per original stick; size stays fixed when count scales",
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.anise",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "stock",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": "peeled and chopped",
+        "destinations": [
+          {
+            "step": "onion",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.salt",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.red-pepper",
+        "quantity": {
+          "amount": "1/8",
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "garnish.pomegranate",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "garnish.cilantro",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "preparation": "washed and chopped",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "frozenMethodOnlyIngredients": ["red-pepper flakes,unmeasured"],
+    "sourceVariant": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare and brown scraps: Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch."
+    },
+    {
+      "step": 2,
+      "text": "Make scrap broth: Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield."
+    },
+    {
+      "step": 3,
+      "text": "Soften onion: Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally."
+    },
+    {
+      "step": 4,
+      "text": "Soften squash: Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose."
+    },
+    {
+      "step": 5,
+      "text": "Simmer flesh: Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating."
+    },
+    {
+      "step": 6,
+      "text": "Purée: Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot."
+    },
+    {
+      "step": 7,
+      "text": "Finish: Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée."
+    },
+    {
+      "step": 8,
+      "text": "Garnish: Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Browned-squash variation",
+      "exclusiveWith": "Covered squash-flesh stage",
+      "oil": "Same listed total: one-quarter scraps, three-quarters onion/flesh; no extra oil",
+      "changes": "Uncovered roughly ten-minute flesh stage guided by browned edges and catching, then all reserved strained broth and salt, covered until very tender; all other stages/garnish unchanged",
+      "confidence": "Moderate editorial combination; source/current process disagreement explicit"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [
+      "cinnamon-sweet-potatoes",
+      "green-beans-with-shallots-and-lemon",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal references found. Entire linked pairing recipes read for ingredient/portion independence; no substitutions or meal status granted.",
+    "dashi": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "10 portions",
+    "yieldScope": "Original/current source planning count retained, no measured portion volume",
+    "capacityReference": "learning.before and exactChanges.content",
+    "timingReference": "learning.timing",
+    "scaling": "Existing enabled controls preserved. Quantities scale; heating/blending/cooker geometry and time do not multiply; variant amounts remain separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "1 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "0.0625 cup extra-virgin olive oil",
+        "1 3/4 cups water",
+        "1/8 tsp whole allspice",
+        "1/8 tsp whole black peppercorns",
+        "1 1/2 fresh thyme sprigs, washed",
+        "3/4 whole clove",
+        "1/4 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales",
+        "1/4 star anise pod",
+        "1/4 yellow onion, peeled and chopped",
+        "3/8 tsp kosher salt",
+        "1/4 tbsp cider vinegar",
+        "0.0313 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1/8 cup pomegranate arils",
+        "0.0625 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "2 1/2 portions",
+      "shopping": [
+        "1 lb whole butternut squash",
+        "0.0625 cup extra-virgin olive oil",
+        "1/8 tsp whole allspice",
+        "1/8 tsp whole black peppercorns",
+        "1 1/2 fresh thyme sprigs",
+        "3/4 whole clove",
+        "1/4 cinnamon stick",
+        "1/4 star anise pod",
+        "1/4 yellow onion",
+        "3/8 tsp kosher salt",
+        "1/4 tbsp cider vinegar",
+        "0.0313 tsp crushed red pepper",
+        "1/8 cup pomegranate arils",
+        "0.0625 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "2 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "1/8 cup extra-virgin olive oil",
+        "3 1/2 cups water",
+        "1/4 tsp whole allspice",
+        "1/4 tsp whole black peppercorns",
+        "3 fresh thyme sprigs, washed",
+        "1 1/2 whole cloves",
+        "1/2 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales",
+        "1/2 star anise pod",
+        "1/2 yellow onion, peeled and chopped",
+        "3/4 tsp kosher salt",
+        "1/2 tbsp cider vinegar",
+        "0.0625 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1/4 cup pomegranate arils",
+        "1/8 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "5 portions",
+      "shopping": [
+        "2 lb whole butternut squash",
+        "1/8 cup extra-virgin olive oil",
+        "1/4 tsp whole allspice",
+        "1/4 tsp whole black peppercorns",
+        "3 fresh thyme sprigs",
+        "1 1/2 whole cloves",
+        "1/2 cinnamon stick",
+        "1/2 star anise pod",
+        "1/2 yellow onion",
+        "3/4 tsp kosher salt",
+        "1/2 tbsp cider vinegar",
+        "0.0625 tsp crushed red pepper",
+        "1/4 cup pomegranate arils",
+        "1/8 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "4 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "1/4 cup extra-virgin olive oil",
+        "7 cups water",
+        "1/2 tsp whole allspice",
+        "1/2 tsp whole black peppercorns",
+        "6 fresh thyme sprigs, washed",
+        "3 whole cloves",
+        "1 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales",
+        "1 star anise pod",
+        "1 yellow onion, peeled and chopped",
+        "1 1/2 tsp kosher salt",
+        "1 tbsp cider vinegar",
+        "1/8 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1/2 cup pomegranate arils",
+        "1/4 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "10 portions",
+      "shopping": [
+        "4 lb whole butternut squash",
+        "1/4 cup extra-virgin olive oil",
+        "1/2 tsp whole allspice",
+        "1/2 tsp whole black peppercorns",
+        "6 fresh thyme sprigs",
+        "3 whole cloves",
+        "1 cinnamon stick",
+        "1 star anise pod",
+        "1 yellow onion",
+        "1 1/2 tsp kosher salt",
+        "1 tbsp cider vinegar",
+        "1/8 tsp crushed red pepper",
+        "1/2 cup pomegranate arils",
+        "1/4 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "6 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "3/8 cup extra-virgin olive oil",
+        "10 1/2 cups water",
+        "3/4 tsp whole allspice",
+        "3/4 tsp whole black peppercorns",
+        "9 fresh thyme sprigs, washed",
+        "4 1/2 whole cloves",
+        "1 1/2 cinnamon sticks, 3-inch piece per original stick; size stays fixed when count scales",
+        "1 1/2 star anise pods",
+        "1 1/2 yellow onions, peeled and chopped",
+        "2 1/4 tsp kosher salt",
+        "1 1/2 tbsp cider vinegar",
+        "0.19 tsp crushed red pepper",
+        "--- Garnish ---",
+        "3/4 cup pomegranate arils",
+        "3/8 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "15 portions",
+      "shopping": [
+        "6 lb whole butternut squash",
+        "3/8 cup extra-virgin olive oil",
+        "3/4 tsp whole allspice",
+        "3/4 tsp whole black peppercorns",
+        "9 fresh thyme sprigs",
+        "4 1/2 whole cloves",
+        "1 1/2 cinnamon sticks",
+        "1 1/2 star anise pods",
+        "1 1/2 yellow onions",
+        "2 1/4 tsp kosher salt",
+        "1 1/2 tbsp cider vinegar",
+        "0.19 tsp crushed red pepper",
+        "3/4 cup pomegranate arils",
+        "3/8 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "8 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "1/2 cup extra-virgin olive oil",
+        "14 cups water",
+        "1 tsp whole allspice",
+        "1 tsp whole black peppercorns",
+        "12 fresh thyme sprigs, washed",
+        "6 whole cloves",
+        "2 cinnamon sticks, 3-inch piece per original stick; size stays fixed when count scales",
+        "2 star anise pods",
+        "2 yellow onions, peeled and chopped",
+        "3 tsp kosher salt",
+        "2 tbsp cider vinegar",
+        "1/4 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1 cup pomegranate arils",
+        "1/2 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "20 portions",
+      "shopping": [
+        "8 lb whole butternut squash",
+        "1/2 cup extra-virgin olive oil",
+        "1 tsp whole allspice",
+        "1 tsp whole black peppercorns",
+        "12 fresh thyme sprigs",
+        "6 whole cloves",
+        "2 cinnamon sticks",
+        "2 star anise pods",
+        "2 yellow onions",
+        "3 tsp kosher salt",
+        "2 tbsp cider vinegar",
+        "1/4 tsp crushed red pepper",
+        "1 cup pomegranate arils",
+        "1/2 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "12 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "3/4 cup extra-virgin olive oil",
+        "21 cups water",
+        "1 1/2 tsp whole allspice",
+        "1 1/2 tsp whole black peppercorns",
+        "18 fresh thyme sprigs, washed",
+        "9 whole cloves",
+        "3 cinnamon sticks, 3-inch piece per original stick; size stays fixed when count scales",
+        "3 star anise pods",
+        "3 yellow onions, peeled and chopped",
+        "4 1/2 tsp kosher salt",
+        "3 tbsp cider vinegar",
+        "3/8 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1 1/2 cups pomegranate arils",
+        "3/4 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "30 portions",
+      "shopping": [
+        "12 lb whole butternut squash",
+        "3/4 cup extra-virgin olive oil",
+        "1 1/2 tsp whole allspice",
+        "1 1/2 tsp whole black peppercorns",
+        "18 fresh thyme sprigs",
+        "9 whole cloves",
+        "3 cinnamon sticks",
+        "3 star anise pods",
+        "3 yellow onions",
+        "4 1/2 tsp kosher salt",
+        "3 tbsp cider vinegar",
+        "3/8 tsp crushed red pepper",
+        "1 1/2 cups pomegranate arils",
+        "3/4 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Soup and scrap broth ---",
+        "4 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable flesh",
+        "1/4 cup extra-virgin olive oil",
+        "7 cups water",
+        "1/2 tsp whole allspice",
+        "1/2 tsp whole black peppercorns",
+        "6 fresh thyme sprigs, washed",
+        "3 whole cloves",
+        "1 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales",
+        "1 star anise pod",
+        "1 yellow onion, peeled and chopped",
+        "1 1/2 tsp kosher salt",
+        "1 tbsp cider vinegar",
+        "1/8 tsp crushed red pepper",
+        "--- Garnish ---",
+        "1/2 cup pomegranate arils",
+        "1/4 cup fresh cilantro, washed and chopped"
+      ],
+      "yield": "10 portions",
+      "shopping": [
+        "4 lb whole butternut squash",
+        "1/4 cup extra-virgin olive oil",
+        "1/2 tsp whole allspice",
+        "1/2 tsp whole black peppercorns",
+        "6 fresh thyme sprigs",
+        "3 whole cloves",
+        "1 cinnamon stick",
+        "1 star anise pod",
+        "1 yellow onion",
+        "1 1/2 tsp kosher salt",
+        "1 tbsp cider vinegar",
+        "1/8 tsp crushed red pepper",
+        "1/2 cup pomegranate arils",
+        "1/4 cup fresh cilantro"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Prepare and brown scraps:** Wash whole butternut squash under running water before peeling, then peel and seed it, reserving the peels, trimmings and seeds and cubing the flesh. Heat 1/4 of the extra-virgin olive oil in a large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8 minutes until lightly browned; reduce heat if they scorch.\n2. **Make scrap broth:** Add water, whole allspice, whole black peppercorns, fresh thyme sprigs, whole cloves, cinnamon stick, and star anise pod to the scraps. Bring to a boil, cover, reduce heat and simmer about 45 minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The measured water is the starting volume; strain and use all the resulting broth rather than claiming seven cups finished yield.\n3. **Soften onion:** Let the emptied pan become safe to handle and wipe it clean. Heat 3/4 of the extra-virgin olive oil and yellow onion over medium heat, cover and cook about 5 minutes, stirring occasionally.\n4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.\n5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.\n6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.\n7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.\n8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+    "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+    "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route.",
+    "Household preference between covered softening and the explicitly retained browned-flesh variation is untested. The variation combines the current browned-flesh mechanism with the recovered complete oil allocation; it is not verbatim native."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

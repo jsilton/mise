@@ -1,0 +1,3259 @@
+{
+  "slug": "pad-thai",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "36c4c8bfece8ec5b9678a62e91f0eb2e92181ca0a499a646374485b194dee7a5",
+  "acceptedSourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "40 min",
+      "after": "About 40 min including noodle soaking; product-dependent"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 20 min; longer for extra pan loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "About 1 hour; longer if noodles or pan loads need it"
+    },
+    {
+      "field": "servings",
+      "before": "3",
+      "after": "3 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 pkg Wide Rice Noodles (Bánh Phở)",
+        "1/4 lb Shrimp, peeled and deveined",
+        "1/3 cup Extra-firm Tofu, julienned",
+        "2 tbsp Tamarind Paste (The Acid Balance)",
+        "2 tbsp Palm Sugar (or Granulated Sugar)",
+        "4 tsp Fish Sauce",
+        "1/2 tsp Ground Dried Chili",
+        "1 1/3 cups Fresh Bean Sprouts",
+        "1 1/2 cups Chinese Chives (Green Onions)",
+        "3 cloves Garlic, minced",
+        "1 large Egg",
+        "1/2 cup Peanuts, toasted and crushed",
+        "1/2 Lime, wedges"
+      ],
+      "after": [
+        "--- Noodles and sauce ---",
+        "1/2 package (1 lb) (8 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "2 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "2 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "4 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "2 tbsp cooking oil",
+        "1/3 cup extra-firm tofu, drained, patted dry and julienned",
+        "1 shallot, minced",
+        "3 garlic cloves, minced",
+        "1/2 tsp ground dried chili",
+        "1 large egg",
+        "1/4 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1 1/3 cups fresh bean sprouts, washed and drained",
+        "1 1/2 cups Chinese chives or green onions, cut into short pieces",
+        "1/2 cup peanuts, already toasted and crushed",
+        "1/2 lime, cut into wedges"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 990,
+        "protein": 70.5,
+        "carbs": 90.5,
+        "fat": 44.5,
+        "fiber": 10.5,
+        "sugar": 12,
+        "sodium": 5300
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 3,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "noodles",
+            "name": "Noodles and sauce",
+            "ingredients": [
+              {
+                "id": "noodles",
+                "key": "wide-rice-noodles",
+                "name": "dried wide rice noodles (bánh phở)",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "package"
+                },
+                "uses": [
+                  {
+                    "step": "soak",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "equivalents": [
+                  {
+                    "amount": 8,
+                    "unit": "oz"
+                  }
+                ],
+                "preparation": "check the package’s soaking instructions"
+              },
+              {
+                "id": "soak-water",
+                "key": "water",
+                "name": "noodle-soaking water",
+                "allowance": "enough to cover the noodles",
+                "uses": [
+                  {
+                    "step": "soak",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "tamarind",
+                "key": "tamarind-pulp",
+                "name": "tamarind paste made from pulp and water",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "ready to use; not a dry block or undiluted stronger concentrate"
+              },
+              {
+                "id": "sugar",
+                "key": "palm-or-granulated-sugar",
+                "name": "palm sugar or granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely chopped if solid palm sugar"
+              },
+              {
+                "id": "fish-sauce",
+                "key": "fish-sauce",
+                "name": "fish sauce",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "toss-water",
+                "key": "water",
+                "name": "water for finishing the noodles",
+                "allowance": "as needed, added one tablespoon at a time",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          },
+          {
+            "id": "stir-fry",
+            "name": "Stir-fry and garnish",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "cooking-oil",
+                "name": "cooking oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "tofu",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "aromatics",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "tofu",
+                "key": "extra-firm-tofu",
+                "name": "extra-firm tofu",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "tofu",
+                    "share": 1
+                  }
+                ],
+                "preparation": "drained, patted dry and julienned"
+              },
+              {
+                "id": "shallot",
+                "key": "shallot",
+                "name": "shallot",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "shallots",
+                "preparation": "minced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "chili",
+                "key": "ground-dried-chili",
+                "name": "ground dried chili",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "egg",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "shrimp",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "shrimp",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw, peeled and deveined; fully thawed if frozen"
+              },
+              {
+                "id": "sprouts",
+                "key": "bean-sprouts",
+                "name": "fresh bean sprouts",
+                "quantity": {
+                  "amount": "1 1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sprouts",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and drained"
+              },
+              {
+                "id": "chives",
+                "key": "chinese-chives-or-green-onions",
+                "name": "Chinese chives or green onions",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "chives",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cut into short pieces"
+              },
+              {
+                "id": "peanuts",
+                "key": "peanuts",
+                "name": "peanuts",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "already toasted and crushed"
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "lime",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "plural": "limes",
+                "preparation": "cut into wedges"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "soak",
+            "title": "Soak the noodles",
+            "text": "Use {{ingredients}} to soak the dry noodles according to the package’s stir-fry guidance, checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm or room-temperature soaking is appropriate for Thai rice sticks; wide noodles can take longer. Drain when flexible. Prepare the remaining ingredients during the soak."
+          },
+          {
+            "id": "sauce",
+            "title": "Mix the sauce",
+            "text": "Combine {{ingredients}}, stirring to dissolve the sugar. Have the sauce ready before the wok gets hot."
+          },
+          {
+            "id": "tofu",
+            "title": "Fry the tofu",
+            "text": "Have {{ingredients}} ready. Heat this half of the measured cooking oil in a wok or large skillet and fry the tofu until golden and firm, then remove to a plate. Keep the already toasted peanuts for serving."
+          },
+          {
+            "id": "aromatics",
+            "title": "Bloom garlic, shallot and chili",
+            "text": "Have {{ingredients}} ready. Heat the remaining measured oil in the wok, then add the shallot, garlic and dried chili. Stir about 30 seconds until fragrant, keeping the garlic and chili moving so they do not scorch."
+          },
+          {
+            "id": "noodles",
+            "title": "Toss the noodles and sauce",
+            "text": "Add the drained noodles and prepared sauce. Stir-fry over high heat, lifting and turning to coat the noodles. Use {{ingredients}} only if the strands remain too firm: add a tablespoon at a time, letting each addition absorb, until the noodles are tender and chewy. Use manageable loads if needed and divide all ingredients proportionally; do not force a thick wet mound into one pan."
+          },
+          {
+            "id": "egg",
+            "title": "Set the egg",
+            "text": "Push the noodles aside. Add {{ingredients}} to the cleared space, scramble until set, then fold into the noodles."
+          },
+          {
+            "id": "shrimp",
+            "title": "Cook the shrimp",
+            "text": "Add {{ingredients}} and all the cooked tofu. Toss, starting to check at about 2 minutes, and continue until every shrimp is firm, pearly and opaque. Pink color and the short time alone are not doneness checks."
+          },
+          {
+            "id": "sprouts",
+            "title": "Cook the sprouts",
+            "text": "Fold in {{ingredients}}. Start checking at about 15 seconds, but continue until thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness."
+          },
+          {
+            "id": "chives",
+            "title": "Finish with chives",
+            "text": "Fold in {{ingredients}} and toss briefly, just until they soften. The noodles should be chewy and coated, without a pool of loose sauce."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Divide the noodles among the portions and top with all the {{ingredients}}. Serve immediately; squeeze the lime over the noodles at the table."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Judge noodle hydration before and during a fast Pad Thai stir-fry",
+        "outcome": "Chewy, evenly seasoned rice noodles with set egg, fully cooked shrimp, tofu and sprouts, finished with the full peanut garnish and lime.",
+        "techniques": ["starch", "stir-frying", "seasoning"],
+        "before": [
+          "The original batch uses half of a 1-pound package, or 8 ounces. At any batch size, follow the listed noodle weight if your package has a different size. Wide bánh phở noodles need their own soaking cues; the thinner Thai rice-stick route uses noodles about the width of linguine.",
+          "Use ready-to-use tamarind pulp-and-water paste for the measured sauce. A dry block or undiluted stronger concentrate is not the same measured ingredient; check the product’s form and strength.",
+          "Have the sauce mixed, aromatics minced and tofu dried before heating the wok. The peanuts are already toasted and go on the finished noodles."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A drained strand bends without being fully expanded and soft.",
+            "why": "It will absorb sauce and any small additions of water in the pan; oversoaked noodles can lose their chew."
+          },
+          {
+            "step": 5,
+            "cue": "The noodles are tender and chewy without free liquid pooling in the wok.",
+            "why": "Their remaining hydration need varies by width and product; adding water gradually avoids flooding the measured sauce."
+          },
+          {
+            "step": 7,
+            "cue": "Every shrimp is firm, pearly and opaque.",
+            "why": "A pink surface can appear before a thick shrimp is fully cooked, and more pan loads change the clock."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles remain hard",
+            "cause": "The soak was too short for their width or they need more hydration in the wok.",
+            "fix": "Use the listed finishing-water allowance one tablespoon at a time, tossing and letting it absorb before another addition. Taste a noodle for tenderness before adding more water."
+          },
+          {
+            "problem": "Noodles break into a soft mass",
+            "cause": "They were oversoaked or aggressively stirred.",
+            "fix": "Lift and turn gently; a broken, overhydrated strand cannot regain its original structure. For the next batch, stop soaking when strands bend but remain firm."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chinese chives",
+            "alternative": "Green onions",
+            "effect": "Green onions give a sharper onion flavor; cut the thicker white parts finely enough to soften in the brief final toss."
+          }
+        ],
+        "storage": "Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and stirring for even heating. Rice noodles soften and peanuts lose crunch against sauce; keep any garnish intended for leftovers separate.",
+        "timing": "Allow about 1 hour for the original batch, with roughly 40 minutes of noodle soaking and overlapping preparation and about 20 minutes at the stove. The soak is governed by the actual noodle package and bending cue, not a mandatory 40 minutes. Longer soaking, thoroughly cooking sprouts and extra pan loads extend elapsed time.",
+        "sources": [
+          {
+            "title": "ThaiTable — Pad Thai",
+            "url": "https://www.thaitable.com/recipes/pad-thai"
+          },
+          {
+            "title": "ThaiTable — Thai rice noodles",
+            "url": "https://www.thaitable.com/ingredients/thai-rice-noodles"
+          },
+          {
+            "title": "ThaiTable — Tamarind",
+            "url": "https://www.thaitable.com/ingredients/tamarind"
+          },
+          {
+            "title": "FDA — Selecting and serving seafood safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nIn the 1930s, Thai Prime Minister Plaek Phibunsongkhram launched a cultural campaign to create a unified national identity, which included promoting a 'national dish.' Pad Thai was born from this movement - a street food that used local ingredients and represented Thai cuisine to the world. The name literally means 'Thai-style stir-fried noodles,' and by the 1960s it had become Thailand's most recognizable dish internationally, despite being less than a century old. Real tamarind paste (sold in blocks, not concentrate) gives it the distinctive tangy-funky flavor that separates authentic Pad Thai from overly-sweet takeout versions.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **The Soak:** Place dry noodles in a large bowl of cool water. Soak for 40 minutes until flexible but still firm. Drain.\n2.  **The Crunch:** Heat 1 tbsp oil in a wok. Fry peanuts until golden; remove. Fry tofu matchsticks until golden and firm; remove.\n3.  **Aromatics:** Heat 1 tbsp oil. Sauté garlic, shallots, and dried chili for 30 seconds until fragrant. Add the drained noodles and the tamarind mixture (sugar, fish sauce).\n4.  **Toss:** Stir-fry over high heat. If the noodles feel too firm, add 1 tbsp of water at a time until they are chewy and translucent.\n5.  **The Egg:** Push noodles to the side. Scramble the egg until set, then fold into the noodles.\n6.  **Combine:** Add the shrimp and cooked tofu. Toss for 2 minutes until shrimp are pink and just opaque.\n7.  **Finish:** Fold in the bean sprouts and chives. Toss for 15 seconds.\n8.  **Serve:** Mound on a plate. Top with crushed peanuts, extra sprouts, and a lime wedge.\n",
+    "after": "\n## Chef's Note\n\nPad Thai combines tamarind, fish sauce and sugar with chewy rice noodles, shrimp, tofu, lime and peanuts. This version keeps wide noodles and a generous toasted-peanut garnish. Have everything ready before frying so you can judge noodle hydration as you toss. For less heat, omit the dried chili.\n\n## Directions\n\n1. **Soak the noodles:** Use dried wide rice noodles (bánh phở) and noodle-soaking water to soak the dry noodles according to the package’s stir-fry guidance, checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm or room-temperature soaking is appropriate for Thai rice sticks; wide noodles can take longer. Drain when flexible. Prepare the remaining ingredients during the soak.\n2. **Mix the sauce:** Combine tamarind paste made from pulp and water, palm sugar or granulated sugar, and fish sauce, stirring to dissolve the sugar. Have the sauce ready before the wok gets hot.\n3. **Fry the tofu:** Have 1/2 of the cooking oil and extra-firm tofu ready. Heat this half of the measured cooking oil in a wok or large skillet and fry the tofu until golden and firm, then remove to a plate. Keep the already toasted peanuts for serving.\n4. **Bloom garlic, shallot and chili:** Have 1/2 of the cooking oil, shallot, garlic cloves, and ground dried chili ready. Heat the remaining measured oil in the wok, then add the shallot, garlic and dried chili. Stir about 30 seconds until fragrant, keeping the garlic and chili moving so they do not scorch.\n5. **Toss the noodles and sauce:** Add the drained noodles and prepared sauce. Stir-fry over high heat, lifting and turning to coat the noodles. Use water for finishing the noodles only if the strands remain too firm: add a tablespoon at a time, letting each addition absorb, until the noodles are tender and chewy. Use manageable loads if needed and divide all ingredients proportionally; do not force a thick wet mound into one pan.\n6. **Set the egg:** Push the noodles aside. Add large egg to the cleared space, scramble until set, then fold into the noodles.\n7. **Cook the shrimp:** Add shrimp and all the cooked tofu. Toss, starting to check at about 2 minutes, and continue until every shrimp is firm, pearly and opaque. Pink color and the short time alone are not doneness checks.\n8. **Cook the sprouts:** Fold in fresh bean sprouts. Start checking at about 15 seconds, but continue until thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness.\n9. **Finish with chives:** Fold in Chinese chives or green onions and toss briefly, just until they soften. The noodles should be chewy and coated, without a pool of loose sauce.\n10. **Serve:** Divide the noodles among the portions and top with all the peanuts and lime. Serve immediately; squeeze the lime over the noodles at the table.\n\n## Sprout variation\n\nFor a raw-sprout garnish, reserve half the measured sprouts before frying and cook the other half with the noodles; the reserved half replaces part of the cooked sprouts. Children, older adults, pregnant people and people with weakened immune systems should avoid raw or lightly cooked sprouts; use the fully cooked route for them.\n"
+  },
+  "findings": [
+    {
+      "id": "N04-P01",
+      "rationale": "The source-linked noodle guide establishes a 1-lb package and narrower rice sticks. Eight ounces is the intended source half-package, not a claimed weight for every present-day package. Wide noodles stay a distinct later adaptation.",
+      "confidence": "medium-high for source mass; medium for retained wide-noodle applicability",
+      "applicableSources": ["ThaiTable Pad Thai + linked noodle/tamarind guides", "23b28c81"],
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "formula.components",
+        "learning.before",
+        "body.Directions"
+      ],
+      "questions": [
+        "Confirm the household wide-noodle product and whether an 8-oz dry batch reproduces the intended sauce balance."
+      ]
+    },
+    {
+      "id": "N04-P02",
+      "rationale": "Exact native/045 ingredients and actual publisher agree. The omission enters at23b28c81 while method destinations remain. The accepted2b01ffbb chili bloom remains before sauce.",
+      "confidence": "high",
+      "applicableSources": [
+        "ThaiTable Pad Thai + linked noodle/tamarind guides",
+        "23b28c81",
+        "2b01ffbb"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "formula.components", "formula.steps"],
+      "questions": []
+    },
+    {
+      "id": "N04-P03",
+      "rationale": "Linked ingredient guide describes a jar of pulp and water. No block dilution or concentrate equivalence is guessed.",
+      "confidence": "high for source product state; medium across actual brands",
+      "applicableSources": ["ThaiTable Pad Thai + linked noodle/tamarind guides"],
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "formula.components",
+        "body.Chef's Note",
+        "body.Directions"
+      ],
+      "questions": [
+        "Which ready-to-use tamarind product is used? Confirm its strength before a kitchen flavor assessment."
+      ]
+    },
+    {
+      "id": "N04-P04",
+      "rationale": "Pre-toasted crushed nuts need no second frying. This resolves current state/method disagreement without substituting today's smaller publisher peanut amount or reducing oil.",
+      "confidence": "high",
+      "applicableSources": [
+        "frozen ingredient preparation",
+        "ThaiTable Pad Thai + linked noodle/tamarind guides"
+      ],
+      "exactBeforeAfterReferences": ["formula.steps", "body.Directions"],
+      "questions": []
+    },
+    {
+      "id": "N04-P05",
+      "rationale": "FDA supplies endpoint and sprout scope, not fixed times. Exact saved source half-reservation supplies a bounded alternate; no extra sprout dose is invented.",
+      "confidence": "high",
+      "applicableSources": [
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures",
+        "ThaiTable Pad Thai + linked noodle/tamarind guides"
+      ],
+      "exactBeforeAfterReferences": [
+        "formula.steps",
+        "learning.checkpoints",
+        "body.Directions",
+        "body.Sprout variation"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N04-P06",
+      "rationale": "Retrieved source supports the cooking/context, not precise Phibun/1960s claims. Changed ingredient accounting invalidates legacy estimates. Nothing is kitchen-tested.",
+      "confidence": "high for removal of unsupported claims; planning yield unmeasured",
+      "applicableSources": [
+        "ThaiTable Pad Thai + linked noodle/tamarind guides",
+        "docs/RECIPE_STANDARD.md",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures",
+        "USDA leftovers (actual scoped campaign retrieval; current direct403)"
+      ],
+      "exactBeforeAfterReferences": ["nutrition", "body.Chef's Note", "learning", "servings"],
+      "questions": []
+    },
+    {
+      "id": "N04-I01",
+      "rationale": "The current second sentence can direct a scaled cook back to the original 8-ounce amount. Identify the original batch once and follow the displayed scaled equivalent thereafter. Preserve the original half-package, fixed 1-pound package and 8-ounce equivalent.",
+      "confidence": "high for scaling ambiguity and preservation; product-specific hydration remains untested",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": ["learning.before[0]"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Pad%20Thai.html",
+    "introductionScope": "Actual earlier retained cooking text independently verified; full followed history retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Exact original, later adaptation and current publisher ingredient/product disagreements are separately recorded; current source popularity is not formula evidence.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": {
+    "canonicalLedger": "evidence/pad-thai-ledgers.json",
+    "wholeSavedSource": "evidence/pad-thai-bound-original-cooking.json",
+    "sourceFormulaIsNotContemporaryPublisherCertification": true
+  },
+  "ledger": {
+    "slug": "pad-thai",
+    "frozenLedger": [
+      {
+        "index": 0,
+        "exactInput": "1/2 pkg Wide Rice Noodles (Bánh Phở)",
+        "stateAndActualDestination": "Dry noodles:40-minute soakstep1 thenstir-fry3/4; package mass absent."
+      },
+      {
+        "index": 1,
+        "exactInput": "1/4 lb Shrimp, peeled and deveined",
+        "stateAndActualDestination": "Raw shrimp:step6 afteregg; only2minpink/justopaque cue."
+      },
+      {
+        "index": 2,
+        "exactInput": "1/3 cup Extra-firm Tofu, julienned",
+        "stateAndActualDestination": "Juliennedtofu friedstep2 returned6."
+      },
+      {
+        "index": 3,
+        "exactInput": "2 tbsp Tamarind Paste (The Acid Balance)",
+        "stateAndActualDestination": "Tamarindstep3 in referred-to butunpreparedmixture."
+      },
+      {
+        "index": 4,
+        "exactInput": "2 tbsp Palm Sugar (or Granulated Sugar)",
+        "stateAndActualDestination": "Sugarstep3 in referred-to mixture."
+      },
+      {
+        "index": 5,
+        "exactInput": "4 tsp Fish Sauce",
+        "stateAndActualDestination": "Fishsaucestep3 in referred-to mixture."
+      },
+      {
+        "index": 6,
+        "exactInput": "1/2 tsp Ground Dried Chili",
+        "stateAndActualDestination": "Driedchilistep3 aromaticbloom: accepted2b01repair."
+      },
+      {
+        "index": 7,
+        "exactInput": "1 1/3 cups Fresh Bean Sprouts",
+        "stateAndActualDestination": "Allmeasuredsproutsstep7; extraunmeasuredsproutsstep8 doubleclaim."
+      },
+      {
+        "index": 8,
+        "exactInput": "1 1/2 cups Chinese Chives (Green Onions)",
+        "stateAndActualDestination": "Chives/greenonionsstep7; no furtherpreparationstate."
+      },
+      {
+        "index": 9,
+        "exactInput": "3 cloves Garlic, minced",
+        "stateAndActualDestination": "Mincedgarlicstep3."
+      },
+      {
+        "index": 10,
+        "exactInput": "1 large Egg",
+        "stateAndActualDestination": "Eggstep5scrambleduntilset."
+      },
+      {
+        "index": 11,
+        "exactInput": "1/2 cup Peanuts, toasted and crushed",
+        "stateAndActualDestination": "Alreadytoasted/crushedpeanutsrefriedstep2;thenserve8."
+      },
+      {
+        "index": 12,
+        "exactInput": "1/2 Lime, wedges",
+        "stateAndActualDestination": "Limewedgesstep8."
+      }
+    ],
+    "proposedLedger": [
+      {
+        "id": "noodles.noodles",
+        "exactInput": {
+          "name": "dried wide rice noodles (bánh phở)",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "package"
+          },
+          "allowance": null,
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "equivalents": [
+            {
+              "amount": 8,
+              "unit": "oz"
+            }
+          ],
+          "preparation": "check the package’s soaking instructions",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "soak",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Soak/drain→aromatic pan+measured sauce→gradual allowance water→served; package size fixed1lb at every scale."
+      },
+      {
+        "id": "noodles.soak-water",
+        "exactInput": {
+          "name": "noodle-soaking water",
+          "quantity": null,
+          "allowance": "enough to cover the noodles",
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "soak",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.tamarind",
+        "exactInput": {
+          "name": "tamarind paste made from pulp and water",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "ready to use; not a dry block or undiluted stronger concentrate",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.sugar",
+        "exactInput": {
+          "name": "palm sugar or granulated sugar",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "finely chopped if solid palm sugar",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.fish-sauce",
+        "exactInput": {
+          "name": "fish sauce",
+          "quantity": {
+            "amount": 4,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.toss-water",
+        "exactInput": {
+          "name": "water for finishing the noodles",
+          "quantity": null,
+          "allowance": "as needed, added one tablespoon at a time",
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.oil",
+        "exactInput": {
+          "name": "cooking oil",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "tofu",
+            "share": "1/2"
+          },
+          {
+            "step": "aromatics",
+            "share": "1/2"
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.tofu",
+        "exactInput": {
+          "name": "extra-firm tofu",
+          "quantity": {
+            "amount": "1/3",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "drained, patted dry and julienned",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "tofu",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Fry in full allocated half-oil→clean plate→return withshrimp→served."
+      },
+      {
+        "id": "stir-fry.shallot",
+        "exactInput": {
+          "name": "shallot",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "minced",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.garlic",
+        "exactInput": {
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 3,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "minced",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.chili",
+        "exactInput": {
+          "name": "ground dried chili",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.egg",
+        "exactInput": {
+          "name": "large egg",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "egg",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.shrimp",
+        "exactInput": {
+          "name": "shrimp",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "lb"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "raw, peeled and deveined; fully thawed if frozen",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "shrimp",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.sprouts",
+        "exactInput": {
+          "name": "fresh bean sprouts",
+          "quantity": {
+            "amount": "1 1/3",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "washed and drained",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sprouts",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Primaryallthoroughlycooked; optional source rawgarnish is an explicit half/half branch of this same total."
+      },
+      {
+        "id": "stir-fry.chives",
+        "exactInput": {
+          "name": "Chinese chives or green onions",
+          "quantity": {
+            "amount": "1 1/2",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "cut into short pieces",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "chives",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "stir-fry.peanuts",
+        "exactInput": {
+          "name": "peanuts",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "already toasted and crushed",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Alreadytoasted supply→allfinalgarnish; no second fry."
+      },
+      {
+        "id": "stir-fry.lime",
+        "exactInput": {
+          "name": "lime",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "cut into wedges",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Current wide-noodle/peanut-rich primary",
+        "disposition": "preserved with source-defined half-package context",
+        "destinations": "All¼lb shrimp,⅓cup tofu,½cup peanuts, sugar/fish/tamarind and two method tablespoons oil retained. Egg set before folding; chili blooms before sauce."
+      },
+      {
+        "name": "Raw-sprout garnish",
+        "disposition": "explicit source-supported optional route",
+        "allocation": "Half the measured1⅓cup sprouts reserved before frying; other half cooked. No additional garnish supply. FDA vulnerable diners use fully cooked route."
+      },
+      {
+        "name": "Exact older Thai rice-stick source",
+        "disposition": "retained whole in bound cooking evidence; not silently substituted for current",
+        "differences": "Narrower noodles,¼–½lb shrimp, optional½banana flower,1tbsp preserved turnip, unmeasured pepper/fresh chive garnish; native method names peanuts without listing their amount. Publisher now lists2tbsp optional peanuts, not current½cup.",
+        "evidence": "evidence/pad-thai-bound-original-cooking.json",
+        "question": "If household wants these older options restored publicly, retain them as an explicitly separate source route rather than silently blending them into the richer wide-noodle primary."
+      },
+      {
+        "name": "Lower heat",
+        "disposition": "current child-serving option retained",
+        "allocation": "Omit dried chili; when using it, retain½tsp in aromatics, not a later sauce addition."
+      }
+    ],
+    "methodGraph": [
+      {
+        "step": 1,
+        "id": "soak",
+        "title": "Soak the noodles",
+        "allocatedIngredients": ["noodles.noodles", "noodles.soak-water"],
+        "cue": [
+          {
+            "step": 1,
+            "cue": "A drained strand bends without being fully expanded and soft.",
+            "why": "It will absorb sauce and any small additions of water in the pan; oversoaked noodles can lose their chew."
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "id": "sauce",
+        "title": "Mix the sauce",
+        "allocatedIngredients": ["noodles.tamarind", "noodles.sugar", "noodles.fish-sauce"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "tofu",
+        "title": "Fry the tofu",
+        "allocatedIngredients": ["stir-fry.oil", "stir-fry.tofu"],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "aromatics",
+        "title": "Bloom garlic, shallot and chili",
+        "allocatedIngredients": [
+          "stir-fry.oil",
+          "stir-fry.shallot",
+          "stir-fry.garlic",
+          "stir-fry.chili"
+        ],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "noodles",
+        "title": "Toss the noodles and sauce",
+        "allocatedIngredients": ["noodles.toss-water"],
+        "cue": [
+          {
+            "step": 5,
+            "cue": "The noodles are tender and chewy without free liquid pooling in the wok.",
+            "why": "Their remaining hydration need varies by width and product; adding water gradually avoids flooding the measured sauce."
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "id": "egg",
+        "title": "Set the egg",
+        "allocatedIngredients": ["stir-fry.egg"],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "shrimp",
+        "title": "Cook the shrimp",
+        "allocatedIngredients": ["stir-fry.shrimp"],
+        "cue": [
+          {
+            "step": 7,
+            "cue": "Every shrimp is firm, pearly and opaque.",
+            "why": "A pink surface can appear before a thick shrimp is fully cooked, and more pan loads change the clock."
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "id": "sprouts",
+        "title": "Cook the sprouts",
+        "allocatedIngredients": ["stir-fry.sprouts"],
+        "cue": []
+      },
+      {
+        "step": 9,
+        "id": "chives",
+        "title": "Finish with chives",
+        "allocatedIngredients": ["stir-fry.chives"],
+        "cue": []
+      },
+      {
+        "step": 10,
+        "id": "serve",
+        "title": "Serve",
+        "allocatedIngredients": ["stir-fry.peanuts", "stir-fry.lime"],
+        "cue": []
+      }
+    ],
+    "ratiosAndYieldScope": "Source-defined8oz dry noodles with2tbsp tamarind/2tbsp sugar/4tsp fish sauce;¼lb shrimp and⅓cup tofu remain current. Ratio is traceable, not flavor-tested. Wide-product hydration and tamarind strength remain practical questions.",
+    "linkedMeals": [
+      {
+        "path": "src/content/meals/pad-thai-night.md",
+        "disposition": "linked meal held outside this recipe review",
+        "conflict": "Meal claims4portions and25active/30prep+cook, adds unmeasured lime to sauce and cilantro, and uses chicken-or-shrimp/another cooking order; component lists3portions and60min plan. No meal approval or edits."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Soak the noodles: Use dried wide rice noodles (bánh phở) and noodle-soaking water to soak the dry noodles according to the package’s stir-fry guidance, checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm or room-temperature soaking is appropriate for Thai rice sticks; wide noodles can take longer. Drain when flexible. Prepare the remaining ingredients during the soak."
+    },
+    {
+      "step": 2,
+      "text": "Mix the sauce: Combine tamarind paste made from pulp and water, palm sugar or granulated sugar, and fish sauce, stirring to dissolve the sugar. Have the sauce ready before the wok gets hot."
+    },
+    {
+      "step": 3,
+      "text": "Fry the tofu: Have 1/2 of the cooking oil and extra-firm tofu ready. Heat this half of the measured cooking oil in a wok or large skillet and fry the tofu until golden and firm, then remove to a plate. Keep the already toasted peanuts for serving."
+    },
+    {
+      "step": 4,
+      "text": "Bloom garlic, shallot and chili: Have 1/2 of the cooking oil, shallot, garlic cloves, and ground dried chili ready. Heat the remaining measured oil in the wok, then add the shallot, garlic and dried chili. Stir about 30 seconds until fragrant, keeping the garlic and chili moving so they do not scorch."
+    },
+    {
+      "step": 5,
+      "text": "Toss the noodles and sauce: Add the drained noodles and prepared sauce. Stir-fry over high heat, lifting and turning to coat the noodles. Use water for finishing the noodles only if the strands remain too firm: add a tablespoon at a time, letting each addition absorb, until the noodles are tender and chewy. Use manageable loads if needed and divide all ingredients proportionally; do not force a thick wet mound into one pan."
+    },
+    {
+      "step": 6,
+      "text": "Set the egg: Push the noodles aside. Add large egg to the cleared space, scramble until set, then fold into the noodles."
+    },
+    {
+      "step": 7,
+      "text": "Cook the shrimp: Add shrimp and all the cooked tofu. Toss, starting to check at about 2 minutes, and continue until every shrimp is firm, pearly and opaque. Pink color and the short time alone are not doneness checks."
+    },
+    {
+      "step": 8,
+      "text": "Cook the sprouts: Fold in fresh bean sprouts. Start checking at about 15 seconds, but continue until thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness."
+    },
+    {
+      "step": 9,
+      "text": "Finish with chives: Fold in Chinese chives or green onions and toss briefly, just until they soften. The noodles should be chewy and coated, without a pool of loose sauce."
+    },
+    {
+      "step": 10,
+      "text": "Serve: Divide the noodles among the portions and top with all the peanuts and lime. Serve immediately; squeeze the lime over the noodles at the table."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": [
+    {
+      "path": "src/content/meals/pad-thai-night.md",
+      "disposition": "linked meal held outside this recipe review",
+      "conflict": "Meal claims4portions and25active/30prep+cook, adds unmeasured lime to sauce and cilantro, and uses chicken-or-shrimp/another cooking order; component lists3portions and60min plan. No meal approval or edits."
+    }
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "1/8 package (1 lb) (2 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "1/2 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "1/2 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "1 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "1/2 tbsp cooking oil",
+        "0.0833 cup extra-firm tofu, drained, patted dry and julienned",
+        "1/4 shallot, minced",
+        "3/4 garlic clove, minced",
+        "1/8 tsp ground dried chili",
+        "1/4 large egg",
+        "0.0625 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1/3 cup fresh bean sprouts, washed and drained",
+        "3/8 cup Chinese chives or green onions, cut into short pieces",
+        "1/8 cup peanuts, already toasted and crushed",
+        "1/8 lime, cut into wedges"
+      ],
+      "yield": "3/4 portion",
+      "shopping": [
+        "1/8 package (1 lb) (2 oz) dried wide rice noodles (bánh phở)",
+        "1/2 tbsp tamarind paste made from pulp and water",
+        "1/2 tbsp palm sugar or granulated sugar",
+        "1 tsp fish sauce",
+        "1/2 tbsp cooking oil",
+        "0.0833 cup extra-firm tofu",
+        "1/4 shallot",
+        "3/4 garlic clove",
+        "1/8 tsp ground dried chili",
+        "1/4 large egg",
+        "0.0625 lb shrimp",
+        "1/3 cup fresh bean sprouts",
+        "3/8 cup Chinese chives or green onions",
+        "1/8 cup peanuts",
+        "1/8 lime"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 0.125,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 0.25
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 0.08333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 0.08333333333333333
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 0.25,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 0.75,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 0.25,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.0625,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 0.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 0.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 0.375,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 0.125,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 0.125,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "1/4 package (1 lb) (4 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "1 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "1 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "2 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "1 tbsp cooking oil",
+        "1/6 cup extra-firm tofu, drained, patted dry and julienned",
+        "1/2 shallot, minced",
+        "1 1/2 garlic cloves, minced",
+        "1/4 tsp ground dried chili",
+        "1/2 large egg",
+        "1/8 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "2/3 cup fresh bean sprouts, washed and drained",
+        "3/4 cup Chinese chives or green onions, cut into short pieces",
+        "1/4 cup peanuts, already toasted and crushed",
+        "1/4 lime, cut into wedges"
+      ],
+      "yield": "1 1/2 portions",
+      "shopping": [
+        "1/4 package (1 lb) (4 oz) dried wide rice noodles (bánh phở)",
+        "1 tbsp tamarind paste made from pulp and water",
+        "1 tbsp palm sugar or granulated sugar",
+        "2 tsp fish sauce",
+        "1 tbsp cooking oil",
+        "1/6 cup extra-firm tofu",
+        "1/2 shallot",
+        "1 1/2 garlic cloves",
+        "1/4 tsp ground dried chili",
+        "1/2 large egg",
+        "1/8 lb shrimp",
+        "2/3 cup fresh bean sprouts",
+        "3/4 cup Chinese chives or green onions",
+        "1/4 cup peanuts",
+        "1/4 lime"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 0.25,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 0.5
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 0.16666666666666666,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 0.16666666666666666
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 1.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.125,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 0.6666666666666666,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 0.25,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "1/2 package (1 lb) (8 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "2 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "2 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "4 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "2 tbsp cooking oil",
+        "1/3 cup extra-firm tofu, drained, patted dry and julienned",
+        "1 shallot, minced",
+        "3 garlic cloves, minced",
+        "1/2 tsp ground dried chili",
+        "1 large egg",
+        "1/4 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1 1/3 cups fresh bean sprouts, washed and drained",
+        "1 1/2 cups Chinese chives or green onions, cut into short pieces",
+        "1/2 cup peanuts, already toasted and crushed",
+        "1/2 lime, cut into wedges"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "1/2 package (1 lb) (8 oz) dried wide rice noodles (bánh phở)",
+        "2 tbsp tamarind paste made from pulp and water",
+        "2 tbsp palm sugar or granulated sugar",
+        "4 tsp fish sauce",
+        "2 tbsp cooking oil",
+        "1/3 cup extra-firm tofu",
+        "1 shallot",
+        "3 garlic cloves",
+        "1/2 tsp ground dried chili",
+        "1 large egg",
+        "1/4 lb shrimp",
+        "1 1/3 cups fresh bean sprouts",
+        "1 1/2 cups Chinese chives or green onions",
+        "1/2 cup peanuts",
+        "1/2 lime"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 0.5,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 1
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 0.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 0.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.25,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 1.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 1.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 1.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "3/4 package (1 lb) (12 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "3 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "3 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "6 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "3 tbsp cooking oil",
+        "1/2 cup extra-firm tofu, drained, patted dry and julienned",
+        "1 1/2 shallots, minced",
+        "4 1/2 garlic cloves, minced",
+        "3/4 tsp ground dried chili",
+        "1 1/2 large eggs",
+        "3/8 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "2 cups fresh bean sprouts, washed and drained",
+        "2 1/4 cups Chinese chives or green onions, cut into short pieces",
+        "3/4 cup peanuts, already toasted and crushed",
+        "3/4 lime, cut into wedges"
+      ],
+      "yield": "4 1/2 portions",
+      "shopping": [
+        "3/4 package (1 lb) (12 oz) dried wide rice noodles (bánh phở)",
+        "3 tbsp tamarind paste made from pulp and water",
+        "3 tbsp palm sugar or granulated sugar",
+        "6 tsp fish sauce",
+        "3 tbsp cooking oil",
+        "1/2 cup extra-firm tofu",
+        "1 1/2 shallots",
+        "4 1/2 garlic cloves",
+        "3/4 tsp ground dried chili",
+        "1 1/2 large eggs",
+        "3/8 lb shrimp",
+        "2 cups fresh bean sprouts",
+        "2 1/4 cups Chinese chives or green onions",
+        "3/4 cup peanuts",
+        "3/4 lime"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 0.75,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 6,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 1.5
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 1.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 4.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 4.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 1.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.375,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 2,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 2.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 2.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 0.75,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "1 package (1 lb) (16 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "4 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "4 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "8 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "4 tbsp cooking oil",
+        "2/3 cup extra-firm tofu, drained, patted dry and julienned",
+        "2 shallots, minced",
+        "6 garlic cloves, minced",
+        "1 tsp ground dried chili",
+        "2 large eggs",
+        "1/2 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "2 2/3 cups fresh bean sprouts, washed and drained",
+        "3 cups Chinese chives or green onions, cut into short pieces",
+        "1 cup peanuts, already toasted and crushed",
+        "1 lime, cut into wedges"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 package (1 lb) (16 oz) dried wide rice noodles (bánh phở)",
+        "4 tbsp tamarind paste made from pulp and water",
+        "4 tbsp palm sugar or granulated sugar",
+        "8 tsp fish sauce",
+        "4 tbsp cooking oil",
+        "2/3 cup extra-firm tofu",
+        "2 shallots",
+        "6 garlic cloves",
+        "1 tsp ground dried chili",
+        "2 large eggs",
+        "1/2 lb shrimp",
+        "2 2/3 cups fresh bean sprouts",
+        "3 cups Chinese chives or green onions",
+        "1 cup peanuts",
+        "1 lime"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 1,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 8,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 2
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 0.6666666666666666,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 0.6666666666666666
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 6,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.5,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 2.6666666666666665,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 2.6666666666666665
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 3,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 1,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "1 1/2 packages (1 lb) (24 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "6 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "6 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "12 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "6 tbsp cooking oil",
+        "1 cup extra-firm tofu, drained, patted dry and julienned",
+        "3 shallots, minced",
+        "9 garlic cloves, minced",
+        "1 1/2 tsp ground dried chili",
+        "3 large eggs",
+        "3/4 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "4 cups fresh bean sprouts, washed and drained",
+        "4 1/2 cups Chinese chives or green onions, cut into short pieces",
+        "1 1/2 cups peanuts, already toasted and crushed",
+        "1 1/2 limes, cut into wedges"
+      ],
+      "yield": "9 portions",
+      "shopping": [
+        "1 1/2 packages (1 lb) (24 oz) dried wide rice noodles (bánh phở)",
+        "6 tbsp tamarind paste made from pulp and water",
+        "6 tbsp palm sugar or granulated sugar",
+        "12 tsp fish sauce",
+        "6 tbsp cooking oil",
+        "1 cup extra-firm tofu",
+        "3 shallots",
+        "9 garlic cloves",
+        "1 1/2 tsp ground dried chili",
+        "3 large eggs",
+        "3/4 lb shrimp",
+        "4 cups fresh bean sprouts",
+        "4 1/2 cups Chinese chives or green onions",
+        "1 1/2 cups peanuts",
+        "1 1/2 limes"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 1.5,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 12,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 3
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 1,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 9,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 9
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.75,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 4,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 4.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 4.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 1.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 1.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Noodles and sauce ---",
+        "1/2 package (1 lb) (8 oz) dried wide rice noodles (bánh phở), check the package’s soaking instructions",
+        "noodle-soaking water, enough to cover the noodles",
+        "2 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted stronger concentrate",
+        "2 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar",
+        "4 tsp fish sauce",
+        "water for finishing the noodles, as needed, added one tablespoon at a time",
+        "--- Stir-fry and garnish ---",
+        "2 tbsp cooking oil",
+        "1/3 cup extra-firm tofu, drained, patted dry and julienned",
+        "1 shallot, minced",
+        "3 garlic cloves, minced",
+        "1/2 tsp ground dried chili",
+        "1 large egg",
+        "1/4 lb shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1 1/3 cups fresh bean sprouts, washed and drained",
+        "1 1/2 cups Chinese chives or green onions, cut into short pieces",
+        "1/2 cup peanuts, already toasted and crushed",
+        "1/2 lime, cut into wedges"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "1/2 package (1 lb) (8 oz) dried wide rice noodles (bánh phở)",
+        "2 tbsp tamarind paste made from pulp and water",
+        "2 tbsp palm sugar or granulated sugar",
+        "4 tsp fish sauce",
+        "2 tbsp cooking oil",
+        "1/3 cup extra-firm tofu",
+        "1 shallot",
+        "3 garlic cloves",
+        "1/2 tsp ground dried chili",
+        "1 large egg",
+        "1/4 lb shrimp",
+        "1 1/3 cups fresh bean sprouts",
+        "1 1/2 cups Chinese chives or green onions",
+        "1/2 cup peanuts",
+        "1/2 lime"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 0.5,
+          "unit": "package",
+          "packageSize": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.soak-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "soak",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.tamarind",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.fish-sauce",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.toss-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": "1/2",
+              "scaledAmount": 1
+            },
+            {
+              "step": "aromatics",
+              "share": "1/2",
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.tofu",
+          "quantity": 0.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "tofu",
+              "share": 1,
+              "scaledAmount": 0.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shallot",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.garlic",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chili",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.egg",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "egg",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.shrimp",
+          "quantity": 0.25,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.sprouts",
+          "quantity": 1.3333333333333333,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sprouts",
+              "share": 1,
+              "scaledAmount": 1.3333333333333333
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.chives",
+          "quantity": 1.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "chives",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.peanuts",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "stir-fry.lime",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "serve",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "add314df25b8b9c08314ab0a701d092046ac228e352ad0a56b946759596eafc7",
+      "cutAndEndpointGeometryFixed": true
+    }
+  ],
+  "preservedPriorRepairs": [
+    "All current defining quantities including½cup peanuts and¼lb shrimp; current wide noodle choice",
+    "2b01ffbb aromatic chili bloom",
+    "Set egg before folding",
+    "Thai cuisine/origin and original sourceURL/IDs/pairings"
+  ],
+  "remainingQuestions": [
+    "Confirm8oz wide noodle hydration and sauce balance with actual tamarind product.",
+    "Record actual single-pan load, elapsed/active times and fully cooked sprout texture.",
+    "Weigh finished portions rather than asserting source/current3/2–3 as measured yield."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "slug": "fennel-and-carrot-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "56a989d35f3a3b76e155678ef10b1649f9a917a38e25823ae49de717ead82742",
+  "acceptedSourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-pot", "blender", "fine-mesh-strainer"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Soften covered vegetables and control the separate brown-butter finish",
+        "outcome": "Smooth vegetable purée topped with nutty brown-butter chestnuts and separate maple cream.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use already roasted chestnuts; this recipe does not roast raw chestnuts. Use all the measured butter: two-thirds with vegetables and one-third with chestnuts. The original batch uses six tablespoons total; the shares remain proportional when ingredients scale.",
+          "The source covered 45–60-minute vegetable stage is deliberate. Make enough pot space for stirring; increased batches may need separate pots and longer heating, not a multiplied sauté temperature."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Vegetables are soft and moist rather than browned.",
+            "why": "Reduce heat if the covered pot starts catching."
+          },
+          {
+            "step": 3,
+            "cue": "The potato falls apart under a spoon.",
+            "why": "Firm potato makes the purée grainier."
+          },
+          {
+            "step": 5,
+            "cue": "Butter is nutty brown, with toasted chestnuts and no blackened solids.",
+            "why": "The small saucepan can darken quickly at the end."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Purée has firm or grainy pieces",
+            "cause": "The vegetables were not thoroughly tender before blending.",
+            "fix": "Continue cooking until the stated tenderness cue is met before blending, using an appliance approved for the load."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Straining",
+            "alternative": "For a smoother finish, strain the whole purée through a fine-mesh sieve into a clean pot before seasoning.",
+            "effect": "Straining can change texture and yield; keep the broth amount unchanged."
+          }
+        ],
+        "storage": "Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.",
+        "timing": "Allow about 100 minutes, including preparation, the longer end of the 45–60-minute covered vegetable stage, broth heating, simmering and blending. Prepare chestnuts and maple cream while the soup simmers. Chilling for advance preparation is additional elapsed time; most covered cooking is unattended apart from periodic stirring.",
+        "sources": [
+          {
+            "title": "Adapted from Bonappetit.com",
+            "url": "http://www.bonappetit.com/recipe/fennel-and-carrot-soup"
+          },
+          {
+            "title": "USDA leftover soup handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables"
+          },
+          {
+            "title": "Blender manufacturer vessel limits",
+            "url": "https://www.nutribullet.com/faq/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis soup showcases deep flavor development. The secret is the low-slow sauté: we cook the vegetables in butter for a full 45-60 minutes _before_ adding the broth. This ensures they release all their internal moisture and natural sugars, resulting in a depth of flavor that a quick boil can't achieve. We finish with a maple-whisked crème fraîche to provide the essential brightness that makes the soup taste restaurant-quality.\n\n## Directions\n\n1.  **Sweat:** In a large heavy pot, melt two-thirds of the butter over medium. Add fennel, onion, carrots, potato, thyme, and bay leaf. Season with salt and pepper.\n2.  **Low & Slow:** Reduce heat to **medium-low**, cover, and cook for 45-60 minutes. Stir occasionally. The vegetables should be very soft and aromatic but not browned.\n3.  **Simmer:** Add broth. Bring to a boil, then reduce heat and simmer for 10 minutes until the potato is falling apart. Remove herbs and let the soup cool slightly.\n4.  **The Emulsion:** Blend until smooth with an immersion blender, keeping its head submerged. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in small batches and start at low speed. Strain through a fine-mesh sieve if desired.\n5.  **Toast:** Heat the remaining one-third of the butter in a small pan. Add chopped chestnuts and cook until the butter is nutty brown and the nuts are fragrant.\n6.  **The Crown:** Whisk the crème fraîche and maple syrup together.\n7.  **Serve:** Ladle soup into bowls. Top with a swirl of maple crème fraîche and the brown-butter chestnuts.\n\n## Timing\n\nAllow about 100 minutes including preparation, the longer end of the covered vegetable cooking, heating the broth, and blending. Prepare the chestnuts and maple cream while the soup simmers. The vegetables' tenderness, rather than the clock alone, determines when to add the broth.\n",
+    "after": "\n## Chef's Note\n\nCook the covered vegetables gently until soft without browning, then simmer until the potato falls apart. The potato gives the purée body. Two-thirds of the butter cook the vegetables; the remaining third browns with the roasted chestnuts. Keep the maple crème fraîche separate until serving.\n\n## Directions\n\n1. **Sweat:** Wash the fennel, carrots, potato and thyme before trimming or peeling. In a large heavy pot, melt two-thirds of the butter over medium heat. Add sliced fennel and onion, chopped carrots, halved potato, thyme and bay leaf. Season with the listed salt and pepper. Use a pot with room for the vegetables, broth and stirring.\n2. **Soften:** Reduce heat to medium-low, cover and cook for 45–60 minutes, stirring occasionally and reducing heat if needed. The vegetables should become very soft without browning; the clock is a guide to that texture.\n3. **Simmer:** Add all the broth. Bring to a boil, season with salt and pepper as needed, then reduce heat and simmer about 8–10 minutes, until the potato is falling apart. Remove the thyme stems and bay leaf.\n4. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Strain through a fine-mesh sieve into a clean pot if desired, then taste with the listed salt and pepper.\n5. **Brown chestnuts:** In a small saucepan over medium heat, melt the remaining one-third of the butter. Add all the chopped roasted chestnuts and cook, stirring often, for about 4 minutes until the butter smells nutty and the chestnuts toast. Remove from the heat before the butter blackens.\n6. **Mix maple cream:** Whisk all the crème fraîche and maple syrup together.\n7. **Serve:** Ladle the soup into bowls. Distribute all the maple cream and brown-butter chestnuts over the soup.\n"
+  },
+  "findings": [
+    {
+      "id": "SP01",
+      "rationale": "Omit unsupported geographic/publisher-proxy origin; all cuisine/style/source credits preserved",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "http://www.bonappetit.com/recipe/fennel-and-carrot-soup",
+        "evidence/fennel-and-carrot-soup-first-git.md"
+      ],
+      "sourceApplicability": "Current source/name/style does not establish geographic invention; preserve all source credits and cuisine/style. Japanese miso context remains source-supported and unchanged.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
+      ]
+    },
+    {
+      "id": "SP02",
+      "rationale": "ee9c restored two carrots in place of2lb, retained the already-listed six tablespoons butter while making its4/2 method proportional as two-thirds/one-third, moved thyme/bay into the vegetable stage, added model-specific hot-blender guidance, and established the100-minute plan. Preserve those repairs. Current optional straining differs from saved/publisher required straining; both remain explicit. No evidence supports universal all-moisture release or prestigious-source taste guarantees.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/fennel-and-carrot-soup-first-git.md",
+        "evidence/fennel-and-carrot-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.bonappetit.com/recipe/fennel-and-carrot-soup"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
+      ]
+    },
+    {
+      "id": "SP03",
+      "rationale": "ee9c restored two carrots in place of2lb, retained the already-listed six tablespoons butter while making its4/2 method proportional as two-thirds/one-third, moved thyme/bay into the vegetable stage, added model-specific hot-blender guidance, and established the100-minute plan. Preserve those repairs. Current optional straining differs from saved/publisher required straining; both remain explicit. No evidence supports universal all-moisture release or prestigious-source taste guarantees.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/fennel-and-carrot-soup-first-git.md",
+        "evidence/fennel-and-carrot-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.bonappetit.com/recipe/fennel-and-carrot-soup"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
+      ]
+    },
+    {
+      "id": "SP04",
+      "rationale": "ee9c restored two carrots in place of2lb, retained the already-listed six tablespoons butter while making its4/2 method proportional as two-thirds/one-third, moved thyme/bay into the vegetable stage, added model-specific hot-blender guidance, and established the100-minute plan. Preserve those repairs. Current optional straining differs from saved/publisher required straining; both remain explicit. No evidence supports universal all-moisture release or prestigious-source taste guarantees.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/fennel-and-carrot-soup-first-git.md",
+        "evidence/fennel-and-carrot-soup-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://www.bonappetit.com/recipe/fennel-and-carrot-soup"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Fennel%20and%20Carrot%20Soup.html",
+    "introductionScope": "Earlier saved cooking text corroboration; native binding is separately established by registry UID, never by title.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific fetches and unavailable publisher pages are distinguished in the frozen whole source evidence; no unavailable publisher is certified.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "ee9c restored two carrots in place of2lb, retained the already-listed six tablespoons butter while making its4/2 method proportional as two-thirds/one-third, moved thyme/bay into the vegetable stage, added model-specific hot-blender guidance, and established the100-minute plan. Preserve those repairs. Current optional straining differs from saved/publisher required straining; both remain explicit. No evidence supports universal all-moisture release or prestigious-source taste guarantees.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 Carrots, peeled and chopped",
+        "destination": "sweat",
+        "ambiguity": null
+      },
+      {
+        "text": "1 large Fennel Bulb, thinly sliced",
+        "destination": "sweat",
+        "ambiguity": null
+      },
+      {
+        "text": "1 small Yellow Onion, thinly sliced",
+        "destination": "sweat",
+        "ambiguity": null
+      },
+      {
+        "text": "1 small Yukon Gold Potato, peeled and halved",
+        "destination": "sweat then simmer",
+        "ambiguity": null
+      },
+      {
+        "text": "6 tbsp Unsalted Butter (divided)",
+        "destination": "2/3 sweat +1/3 chestnuts",
+        "ambiguity": null
+      },
+      {
+        "text": "4 cups Low-sodium Vegetable Broth",
+        "destination": "simmer",
+        "ambiguity": null
+      },
+      {
+        "text": "2 sprigs Fresh Thyme",
+        "destination": "sweat then removed",
+        "ambiguity": null
+      },
+      {
+        "text": "1 Fresh Bay Leaf",
+        "destination": "sweat then removed",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 cup Roasted Chestnuts, chopped",
+        "destination": "brown chestnuts",
+        "ambiguity": null
+      },
+      {
+        "text": "1/4 cup Crème Fraîche",
+        "destination": "maple cream",
+        "ambiguity": null
+      },
+      {
+        "text": "1 tbsp Pure Maple Syrup",
+        "destination": "maple cream",
+        "ambiguity": null
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "sweat; later seasoning not explicit",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 Carrots, peeled and chopped",
+        "destination": "step1 carrots washed/peeled/chopped;step2 soften;step3 simmer;step4 purée",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 large Fennel Bulb, thinly sliced",
+        "destination": "step1 fennel washed/thin sliced;steps2–4",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 small Yellow Onion, thinly sliced",
+        "destination": "step1 onion peeled/thin sliced;steps2–4",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 small Yukon Gold Potato, peeled and halved",
+        "destination": "step1 potato washed/peeled/halved;steps2–4 until falling apart",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "6 tbsp Unsalted Butter (divided)",
+        "destination": "2/3step1 sweat;1/3step5 brown chestnuts",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "4 cups Low-sodium Vegetable Broth",
+        "destination": "allstep3 simmer",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "2 sprigs Fresh Thyme",
+        "destination": "washedstep1;stems removedstep3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 Fresh Bay Leaf",
+        "destination": "step1;removedstep3",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1/4 cup Roasted Chestnuts, chopped",
+        "destination": "allstep5;already roasted/chopped;allstep7 topping",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1/4 cup Crème Fraîche",
+        "destination": "allstep6 then step7",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "1 tbsp Pure Maple Syrup",
+        "destination": "allstep6 then step7",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "step1 and as neededstep3/4;unmeasured same seasoning allowance",
+        "finalMethodReference": "content Directions; all base quantities preserved"
+      }
+    ],
+    "frozenMethodOnlyIngredients": [],
+    "sourceVariant": [
+      {
+        "ingredient": "Straining",
+        "alternative": "For the saved smoother finish, strain the whole purée through a fine-mesh sieve into a clean pot before seasoning.",
+        "effect": "The current unstrained option remains; straining can change texture and yield, not add broth."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Sweat: Wash the fennel, carrots, potato and thyme before trimming or peeling. In a large heavy pot, melt two-thirds of the butter over medium heat. Add sliced fennel and onion, chopped carrots, halved potato, thyme and bay leaf. Season with the listed salt and pepper. Use a pot with room for the vegetables, broth and stirring."
+    },
+    {
+      "step": 2,
+      "text": "Soften: Reduce heat to medium-low, cover and cook for 45–60 minutes, stirring occasionally and reducing heat if needed. The vegetables should become very soft without browning; the clock is a guide to that texture."
+    },
+    {
+      "step": 3,
+      "text": "Simmer: Add all the broth. Bring to a boil, season with salt and pepper as needed, then reduce heat and simmer about 8–10 minutes, until the potato is falling apart. Remove the thyme stems and bay leaf."
+    },
+    {
+      "step": 4,
+      "text": "Purée: Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Strain through a fine-mesh sieve into a clean pot if desired, then taste with the listed salt and pepper."
+    },
+    {
+      "step": 5,
+      "text": "Brown chestnuts: In a small saucepan over medium heat, melt the remaining one-third of the butter. Add all the chopped roasted chestnuts and cook, stirring often, for about 4 minutes until the butter smells nutty and the chestnuts toast. Remove from the heat before the butter blackens."
+    },
+    {
+      "step": 6,
+      "text": "Mix maple cream: Whisk all the crème fraîche and maple syrup together."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Ladle the soup into bowls. Distribute all the maple cream and brown-butter chestnuts over the soup."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [
+      "arugula-feta-salad",
+      "peach-salad-with-tomatoes-and-beets",
+      "whipped-feta-with-honey"
+    ],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal references found. Entire linked pairing recipes read for ingredient/portion independence; no substitutions or meal status granted.",
+    "dashi": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "6",
+    "yieldScope": "Original/current source planning count retained, no measured portion volume",
+    "capacityReference": "learning.before and exactChanges.content",
+    "timingReference": "learning.timing",
+    "scaling": "Existing enabled controls preserved. Quantities scale; heating/blending/cooker geometry and time do not multiply; variant amounts remain separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 Carrot, peeled and chopped",
+        "1/4 large Fennel Bulb, thinly sliced",
+        "1/4 small Yellow Onion, thinly sliced",
+        "1/4 small Yukon Gold Potato, peeled and halved",
+        "1 1/2 tbsp Unsalted Butter (divided)",
+        "1 cup Low-sodium Vegetable Broth",
+        "1/2 sprigs Fresh Thyme",
+        "1/4 Fresh Bay Leaf",
+        "0.0625 cup Roasted Chestnuts, chopped",
+        "0.0625 cup Crème Fraîche",
+        "1/4 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 1 1/2",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 Carrot, peeled and chopped",
+        "1/2 large Fennel Bulb, thinly sliced",
+        "1/2 small Yellow Onion, thinly sliced",
+        "1/2 small Yukon Gold Potato, peeled and halved",
+        "3 tbsp Unsalted Butter (divided)",
+        "2 cups Low-sodium Vegetable Broth",
+        "1 sprigs Fresh Thyme",
+        "1/2 Fresh Bay Leaf",
+        "1/8 cup Roasted Chestnuts, chopped",
+        "1/8 cup Crème Fraîche",
+        "1/2 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 3",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 Carrots, peeled and chopped",
+        "1 large Fennel Bulb, thinly sliced",
+        "1 small Yellow Onion, thinly sliced",
+        "1 small Yukon Gold Potato, peeled and halved",
+        "6 tbsp Unsalted Butter (divided)",
+        "4 cups Low-sodium Vegetable Broth",
+        "2 sprigs Fresh Thyme",
+        "1 Fresh Bay Leaf",
+        "1/4 cup Roasted Chestnuts, chopped",
+        "1/4 cup Crème Fraîche",
+        "1 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 Carrots, peeled and chopped",
+        "1 1/2 large Fennel Bulb, thinly sliced",
+        "1 1/2 small Yellow Onions, thinly sliced",
+        "1 1/2 small Yukon Gold Potato, peeled and halved",
+        "9 tbsp Unsalted Butter (divided)",
+        "6 cups Low-sodium Vegetable Broth",
+        "3 sprigs Fresh Thyme",
+        "1 1/2 Fresh Bay Leaf",
+        "3/8 cup Roasted Chestnuts, chopped",
+        "3/8 cup Crème Fraîche",
+        "1 1/2 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 9",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 Carrots, peeled and chopped",
+        "2 large Fennel Bulb, thinly sliced",
+        "2 small Yellow Onions, thinly sliced",
+        "2 small Yukon Gold Potato, peeled and halved",
+        "12 tbsp Unsalted Butter (divided)",
+        "8 cups Low-sodium Vegetable Broth",
+        "4 sprigs Fresh Thyme",
+        "2 Fresh Bay Leaf",
+        "1/2 cup Roasted Chestnuts, chopped",
+        "1/2 cup Crème Fraîche",
+        "2 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 Carrots, peeled and chopped",
+        "3 large Fennel Bulb, thinly sliced",
+        "3 small Yellow Onions, thinly sliced",
+        "3 small Yukon Gold Potato, peeled and halved",
+        "18 tbsp Unsalted Butter (divided)",
+        "12 cups Low-sodium Vegetable Broth",
+        "6 sprigs Fresh Thyme",
+        "3 Fresh Bay Leaf",
+        "3/4 cup Roasted Chestnuts, chopped",
+        "3/4 cup Crème Fraîche",
+        "3 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 18",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 Carrots, peeled and chopped",
+        "1 large Fennel Bulb, thinly sliced",
+        "1 small Yellow Onion, thinly sliced",
+        "1 small Yukon Gold Potato, peeled and halved",
+        "6 tbsp Unsalted Butter (divided)",
+        "4 cups Low-sodium Vegetable Broth",
+        "2 sprigs Fresh Thyme",
+        "1 Fresh Bay Leaf",
+        "1/4 cup Roasted Chestnuts, chopped",
+        "1/4 cup Crème Fraîche",
+        "1 tbsp Pure Maple Syrup",
+        "Salt and Black Pepper"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "ee9c two-carrot restoration and proportional4/2 method; six-tbsp total already retained",
+    "actual hot-blender limits",
+    "100min planning"
+  ],
+  "remainingQuestions": [
+    "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+    "Check the actual blender model; cooling-required routes add time."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

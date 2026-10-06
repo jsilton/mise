@@ -1,0 +1,1270 @@
+{
+  "slug": "chicken-tortilla-soup-iii",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "087c1f00fe60cc2e9827608d9f6ef5449d45a143fed815c9076b9a7aa1c775a2",
+  "acceptedSourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 cloves garlic, minced",
+        "1 onion, chopped",
+        "3 tablespoons margarine",
+        "2 tablespoons all-purpose flour",
+        "3 (14 ounce) cans chicken broth",
+        "4 cups half-and-half",
+        "1 (10.75 ounce) can condensed cream of chicken soup",
+        "1 cup fresh salsa",
+        "1 (15 ounce) can creamed corn",
+        "6 boneless, chicken breast halves - cooked, skinned",
+        "2 teaspoons ground cumin",
+        "1 (1.27 ounce) packet dry fajita seasoning",
+        "3 tablespoons chopped fresh cilantro",
+        "16 ounces tortilla chips",
+        "8 ounces shredded Monterey Jack cheese"
+      ],
+      "after": [
+        "--- Soup ---",
+        "3 garlic cloves, minced",
+        "1 onion, peeled and chopped",
+        "3 tbsp margarine",
+        "2 tbsp all-purpose flour",
+        "3 cans (14 oz) chicken broth",
+        "4 cups half-and-half",
+        "1 can (10 3/4 oz) condensed cream of chicken soup",
+        "1 cup fresh salsa",
+        "1 can (15 oz) creamed corn",
+        "6 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "2 tsp ground cumin",
+        "1 package (1.27 oz) dry fajita seasoning",
+        "3 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "16 oz tortilla chips",
+        "8 oz Monterey Jack cheese, shredded"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Allrecipes.com",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "soup",
+            "name": "Soup",
+            "ingredients": [
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "onions",
+                "preparation": "peeled and chopped"
+              },
+              {
+                "id": "margarine",
+                "key": "margarine",
+                "name": "margarine",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "flour",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "chicken broth",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ],
+                "plural": "cans of chicken broth",
+                "packageSize": {
+                  "amount": 14,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "dairy",
+                "key": "dairy",
+                "name": "half-and-half",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "condensed",
+                "key": "condensed",
+                "name": "condensed cream of chicken soup",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": 1
+                  }
+                ],
+                "plural": "cans of condensed cream of chicken soup",
+                "packageSize": {
+                  "amount": 10.75,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "salsa",
+                "key": "salsa",
+                "name": "fresh salsa",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "corn",
+                "key": "corn",
+                "name": "creamed corn",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": 1
+                  }
+                ],
+                "plural": "cans of creamed corn",
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "chicken",
+                "key": "chicken",
+                "name": "boneless chicken breast half",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": 1
+                  }
+                ],
+                "plural": "boneless chicken breast halves",
+                "preparation": "fully cooked, skinned and shredded or cut into spoon-sized pieces"
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "fajita",
+                "key": "fajita",
+                "name": "dry fajita seasoning",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "package"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": 1
+                  }
+                ],
+                "plural": "packages of dry fajita seasoning",
+                "packageSize": {
+                  "amount": 1.27,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "soup",
+                    "share": "2/3"
+                  },
+                  {
+                    "step": "serve",
+                    "share": "1/3"
+                  }
+                ],
+                "preparation": "washed and chopped"
+              }
+            ]
+          },
+          {
+            "id": "bowls",
+            "name": "Bowls",
+            "ingredients": [
+              {
+                "id": "chips",
+                "key": "chips",
+                "name": "tortilla chips",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cheese",
+                "key": "cheese",
+                "name": "Monterey Jack cheese",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "aromatics",
+            "title": "Soften aromatics",
+            "text": "In a large pot over medium heat, sauté {{ingredients}} for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom."
+          },
+          {
+            "id": "flour",
+            "title": "Cook flour",
+            "text": "Stir in {{ingredients}} and cook, stirring, for 1 minute."
+          },
+          {
+            "id": "liquid",
+            "title": "Add liquid",
+            "text": "Gradually stir in {{ingredients}} until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low."
+          },
+          {
+            "id": "soup",
+            "title": "Heat soup",
+            "text": "Add {{ingredients}}. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer."
+          },
+          {
+            "id": "serve",
+            "title": "Build bowls",
+            "text": "Divide all {{ingredients}} among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+          }
+        ]
+      }
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["large-pot", "food-thermometer"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Heat a rich cooked-chicken soup evenly and allocate bowl toppings",
+        "outcome": "Creamy soup heated evenly through its cooked chicken, with chips and cheese layered in each bowl.",
+        "techniques": ["temperature"],
+        "before": [
+          "Start with fully cooked chicken; cooking it from raw is separate preparation and is not included in this soup clock. Keep prepared chicken and dairy refrigerated until needed.",
+          "Package sizes stay fixed when can or packet counts scale. A larger batch needs enough pot headroom and more heating time; do not multiply the temperature or brief flour-cooking time."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Flour is dispersed through the fat and vegetables before liquid enters.",
+            "why": "Gradual liquid addition helps avoid flour lumps."
+          },
+          {
+            "step": 4,
+            "cue": "Stirred soup and its chicken pieces reach 165°F / 74°C throughout.",
+            "why": "Stirring heats the thick soup and chicken pieces more evenly than relying on bubbles at one edge."
+          },
+          {
+            "step": 5,
+            "cue": "All chips, cheese and reserved cilantro are distributed among bowls.",
+            "why": "Each bowl receives half its cheese below the soup and half above it."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Soup catches on the pot bottom",
+            "cause": "Rich soup heated too hard or was stirred only at the surface.",
+            "fix": "Reduce heat and stir along the bottom; check the 165°F endpoint after stirring."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Margarine",
+            "alternative": "Use the same listed amount of butter instead of margarine in the first step.",
+            "effect": "Use either fat in the aromatics stage; do not add both."
+          }
+        ],
+        "storage": "Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served, stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.",
+        "timing": "Plan about 40 minutes with already cooked chicken: around 15 minutes preparation and roughly 25 minutes heating, including the 5-minute sauté, 1-minute flour cook, bringing liquids to heat and about 15 minutes final heating. Stirring and assembly are active; cold ingredients, larger pots or more batches can extend elapsed time.",
+        "sources": [
+          {
+            "title": "Allrecipes.com",
+            "url": "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+          },
+          {
+            "title": "USDA leftover soup handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA produce preparation",
+            "url": "https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis creamy tortilla soup starts with already cooked chicken. Stir frequently after adding dairy so the bottom does not scorch, then add chips and cheese to each bowl for texture.\n\n## Directions\n\n1. **Continue:** In a large pot over medium heat, saute the garlic and onion in the butter or margarine for 5 minutes. Add flour and stir well, cooking for 1 minute more. Add the broth and half-and-half. Bring to a boil and reduce heat to low.\n\n2. **Continue:** Add the soup, salsa, corn, chicken, cumin, fajita seasoning and 2 tablespoons cilantro. Stir and continue to heat for 15 minutes. Crumble tortilla chips into individual bowls, add 1/2 ounce shredded cheese to each bowl and ladle in soup. Top each bowl with more crumbled chips, remaining 1/2 ounce cheese and remaining 1 tablespoon cilantro, and serve. Use fully cooked chicken. Bring the finished soup to 165°F / 74°C, stirring to heat evenly.\n",
+    "after": "\n## Chef's Note\n\nThis creamy tortilla soup starts with fully cooked chicken and keeps all the half-and-half, condensed soup and creamed corn. Stir along the pot bottom as it heats. Divide the chips and cheese between the bottom and top of each bowl so they keep some crunch rather than soaking in the whole batch.\n\n## Directions\n\n1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches.\n"
+  },
+  "findings": [
+    {
+      "id": "SP01",
+      "rationale": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/chicken-tortilla-soup-iii-first-git.md",
+        "evidence/chicken-tortilla-soup-iii-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+      ],
+      "sourceApplicability": "Exact first-Git and registry-bound native quantities are authoritative written evidence. Authored compiler conserves allocations and preserves original planning portions; it cannot certify culinary ratio/yield/taste. Source disagreement is documented in sourceDisagreement; no inferred weights or modern source normalization.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "id": "SP02",
+      "rationale": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/chicken-tortilla-soup-iii-first-git.md",
+        "evidence/chicken-tortilla-soup-iii-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+      ],
+      "sourceApplicability": "Exact first-Git and registry-bound native quantities are authoritative written evidence. Authored compiler conserves allocations and preserves original planning portions; it cannot certify culinary ratio/yield/taste. Source disagreement is documented in sourceDisagreement; no inferred weights or modern source normalization.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "id": "SP03",
+      "rationale": "Omit unsupported geographic/publisher-proxy origin; all cuisine/style/source credits preserved",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/",
+        "evidence/chicken-tortilla-soup-iii-first-git.md"
+      ],
+      "sourceApplicability": "Current source/name/style does not establish geographic invention; preserve all source credits and cuisine/style. Japanese miso context remains source-supported and unchanged.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "id": "SP04",
+      "rationale": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+      "confidence": "High written source quantities and exact allocation; moderate untested process application",
+      "applicableSources": [
+        "evidence/chicken-tortilla-soup-iii-first-git.md",
+        "evidence/chicken-tortilla-soup-iii-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+      ],
+      "sourceApplicability": "Exact first-Git and registry-bound native quantities are authoritative written evidence. Authored compiler conserves allocations and preserves original planning portions; it cannot certify culinary ratio/yield/taste. Source disagreement is documented in sourceDisagreement; no inferred weights or modern source normalization.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "id": "SP05",
+      "rationale": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/chicken-tortilla-soup-iii-first-git.md",
+        "evidence/chicken-tortilla-soup-iii-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "id": "SP06",
+      "rationale": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/chicken-tortilla-soup-iii-first-git.md",
+        "evidence/chicken-tortilla-soup-iii-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "id": "SP07",
+      "rationale": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+      "confidence": "High written contradictions; moderate planning and geometry",
+      "applicableSources": [
+        "evidence/chicken-tortilla-soup-iii-first-git.md",
+        "evidence/chicken-tortilla-soup-iii-followed-history.diff",
+        "evidence/source-summary.json",
+        "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/"
+      ],
+      "sourceApplicability": "Recipe-specific method, preparation, timing and component destinations follow exact current/saved cooking text. FDA produce preparation applies only to washed produce; USDA applies only to storage/reheating. Model-dependent blender guidance does not approve an unknown appliance. Source-summary.json documents per-recipe fetch gaps and source disagreement; planning/pan/texture applications remain untested editorial judgments.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chicken%20Tortilla%20Soup%20III.html",
+    "introductionScope": "Earlier saved cooking text corroboration; native binding is separately established by registry UID, never by title.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific fetches and unavailable publisher pages are distinguished in the frozen whole source evidence; no unavailable publisher is certified.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact first Git, bound native and current Allrecipes quantities agree. Source butter-or-margarine prose exceeds the listed margarine choice; primary follows the listed margarine, with same-amount butter retained as a separate option. Existing165 finished-soup repair preserved.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "3 cloves garlic, minced",
+        "destination": "aromatics",
+        "ambiguity": null
+      },
+      {
+        "text": "1 onion, chopped",
+        "destination": "aromatics",
+        "ambiguity": null
+      },
+      {
+        "text": "3 tablespoons margarine",
+        "destination": "aromatics",
+        "ambiguity": null
+      },
+      {
+        "text": "2 tablespoons all-purpose flour",
+        "destination": "flour",
+        "ambiguity": null
+      },
+      {
+        "text": "3 (14 ounce) cans chicken broth",
+        "destination": "liquid",
+        "ambiguity": null
+      },
+      {
+        "text": "4 cups half-and-half",
+        "destination": "liquid",
+        "ambiguity": null
+      },
+      {
+        "text": "1 (10.75 ounce) can condensed cream of chicken soup",
+        "destination": "soup",
+        "ambiguity": null
+      },
+      {
+        "text": "1 cup fresh salsa",
+        "destination": "soup",
+        "ambiguity": null
+      },
+      {
+        "text": "1 (15 ounce) can creamed corn",
+        "destination": "soup",
+        "ambiguity": null
+      },
+      {
+        "text": "6 boneless, chicken breast halves - cooked, skinned",
+        "destination": "soup fully cooked",
+        "ambiguity": null
+      },
+      {
+        "text": "2 teaspoons ground cumin",
+        "destination": "soup",
+        "ambiguity": null
+      },
+      {
+        "text": "1 (1.27 ounce) packet dry fajita seasoning",
+        "destination": "soup",
+        "ambiguity": null
+      },
+      {
+        "text": "3 tablespoons chopped fresh cilantro",
+        "destination": "2tbsp soup +1tbsp garnish; total3",
+        "ambiguity": null
+      },
+      {
+        "text": "16 ounces tortilla chips",
+        "destination": "bowls below/above",
+        "ambiguity": null
+      },
+      {
+        "text": "8 ounces shredded Monterey Jack cheese",
+        "destination": "eight bowls½oz below+½oz above; total8oz",
+        "ambiguity": null
+      }
+    ],
+    "proposed": [
+      {
+        "id": "soup.garlic",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": "peeled and chopped",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.margarine",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.flour",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "flour",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.broth",
+        "quantity": {
+          "amount": 3,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 14,
+          "unit": "oz"
+        },
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.dairy",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.condensed",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 10.75,
+          "unit": "oz"
+        },
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "soup",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.salsa",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "soup",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.corn",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "packageSize": {
+          "amount": 15,
+          "unit": "oz"
+        },
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "soup",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.chicken",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "packageSize": null,
+        "preparation": "fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "destinations": [
+          {
+            "step": "soup",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.cumin",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "soup",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.fajita",
+        "quantity": {
+          "amount": 1,
+          "unit": "package"
+        },
+        "packageSize": {
+          "amount": 1.27,
+          "unit": "oz"
+        },
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "soup",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "soup.cilantro",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "packageSize": null,
+        "preparation": "washed and chopped",
+        "destinations": [
+          {
+            "step": "soup",
+            "share": "2/3"
+          },
+          {
+            "step": "serve",
+            "share": "1/3"
+          }
+        ]
+      },
+      {
+        "id": "bowls.chips",
+        "quantity": {
+          "amount": 16,
+          "unit": "oz"
+        },
+        "packageSize": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "id": "bowls.cheese",
+        "quantity": {
+          "amount": 8,
+          "unit": "oz"
+        },
+        "packageSize": null,
+        "preparation": "shredded",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "frozenMethodOnlyIngredients": ["butter alternative"],
+    "sourceVariant": [
+      {
+        "ingredient": "Margarine",
+        "alternative": "Use the same listed amount of butter instead of margarine in the first step.",
+        "effect": "Saved method permits either; do not add both fats."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Soften aromatics: In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom."
+    },
+    {
+      "step": 2,
+      "text": "Cook flour: Stir in all-purpose flour and cook, stirring, for 1 minute."
+    },
+    {
+      "step": 3,
+      "text": "Add liquid: Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low."
+    },
+    {
+      "step": 4,
+      "text": "Heat soup: Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer."
+    },
+    {
+      "step": 5,
+      "text": "Build bowls: Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairings": [],
+    "incomingMeals": [],
+    "scope": "No incoming composed meal references found. Entire linked pairing recipes read for ingredient/portion independence; no substitutions or meal status granted.",
+    "dashi": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8 portions",
+    "yieldScope": "Original/current source planning count retained, no measured portion volume",
+    "capacityReference": "learning.before and exactChanges.content",
+    "timingReference": "learning.timing",
+    "scaling": "Existing enabled controls preserved. Quantities scale; heating/blending/cooker geometry and time do not multiply; variant amounts remain separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup ---",
+        "3/4 garlic clove, minced",
+        "1/4 onion, peeled and chopped",
+        "3/4 tbsp margarine",
+        "1/2 tbsp all-purpose flour",
+        "3/4 can (14 oz) chicken broth",
+        "1 cup half-and-half",
+        "1/4 can (10 3/4 oz) condensed cream of chicken soup",
+        "1/4 cup fresh salsa",
+        "1/4 can (15 oz) creamed corn",
+        "1 1/2 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "1/2 tsp ground cumin",
+        "1/4 package (1.27 oz) dry fajita seasoning",
+        "3/4 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "4 oz tortilla chips",
+        "2 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "3/4 garlic clove",
+        "1/4 onion",
+        "3/4 tbsp margarine",
+        "1/2 tbsp all-purpose flour",
+        "3/4 can (14 oz) chicken broth",
+        "1 cup half-and-half",
+        "1/4 can (10 3/4 oz) condensed cream of chicken soup",
+        "1/4 cup fresh salsa",
+        "1/4 can (15 oz) creamed corn",
+        "1 1/2 boneless chicken breast halves",
+        "1/2 tsp ground cumin",
+        "1/4 package (1.27 oz) dry fajita seasoning",
+        "3/4 tbsp fresh cilantro",
+        "4 oz tortilla chips",
+        "2 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup ---",
+        "1 1/2 garlic cloves, minced",
+        "1/2 onion, peeled and chopped",
+        "1 1/2 tbsp margarine",
+        "1 tbsp all-purpose flour",
+        "1 1/2 cans (14 oz) chicken broth",
+        "2 cups half-and-half",
+        "1/2 can (10 3/4 oz) condensed cream of chicken soup",
+        "1/2 cup fresh salsa",
+        "1/2 can (15 oz) creamed corn",
+        "3 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "1 tsp ground cumin",
+        "1/2 package (1.27 oz) dry fajita seasoning",
+        "1 1/2 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "8 oz tortilla chips",
+        "4 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 1/2 garlic cloves",
+        "1/2 onion",
+        "1 1/2 tbsp margarine",
+        "1 tbsp all-purpose flour",
+        "1 1/2 cans (14 oz) chicken broth",
+        "2 cups half-and-half",
+        "1/2 can (10 3/4 oz) condensed cream of chicken soup",
+        "1/2 cup fresh salsa",
+        "1/2 can (15 oz) creamed corn",
+        "3 boneless chicken breast halves",
+        "1 tsp ground cumin",
+        "1/2 package (1.27 oz) dry fajita seasoning",
+        "1 1/2 tbsp fresh cilantro",
+        "8 oz tortilla chips",
+        "4 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup ---",
+        "3 garlic cloves, minced",
+        "1 onion, peeled and chopped",
+        "3 tbsp margarine",
+        "2 tbsp all-purpose flour",
+        "3 cans (14 oz) chicken broth",
+        "4 cups half-and-half",
+        "1 can (10 3/4 oz) condensed cream of chicken soup",
+        "1 cup fresh salsa",
+        "1 can (15 oz) creamed corn",
+        "6 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "2 tsp ground cumin",
+        "1 package (1.27 oz) dry fajita seasoning",
+        "3 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "16 oz tortilla chips",
+        "8 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "3 garlic cloves",
+        "1 onion",
+        "3 tbsp margarine",
+        "2 tbsp all-purpose flour",
+        "3 cans (14 oz) chicken broth",
+        "4 cups half-and-half",
+        "1 can (10 3/4 oz) condensed cream of chicken soup",
+        "1 cup fresh salsa",
+        "1 can (15 oz) creamed corn",
+        "6 boneless chicken breast halves",
+        "2 tsp ground cumin",
+        "1 package (1.27 oz) dry fajita seasoning",
+        "3 tbsp fresh cilantro",
+        "16 oz tortilla chips",
+        "8 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup ---",
+        "4 1/2 garlic cloves, minced",
+        "1 1/2 onions, peeled and chopped",
+        "4 1/2 tbsp margarine",
+        "3 tbsp all-purpose flour",
+        "4 1/2 cans (14 oz) chicken broth",
+        "6 cups half-and-half",
+        "1 1/2 cans (10 3/4 oz) condensed cream of chicken soup",
+        "1 1/2 cups fresh salsa",
+        "1 1/2 cans (15 oz) creamed corn",
+        "9 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "3 tsp ground cumin",
+        "1 1/2 packages (1.27 oz) dry fajita seasoning",
+        "4 1/2 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "24 oz tortilla chips",
+        "12 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "4 1/2 garlic cloves",
+        "1 1/2 onions",
+        "4 1/2 tbsp margarine",
+        "3 tbsp all-purpose flour",
+        "4 1/2 cans (14 oz) chicken broth",
+        "6 cups half-and-half",
+        "1 1/2 cans (10 3/4 oz) condensed cream of chicken soup",
+        "1 1/2 cups fresh salsa",
+        "1 1/2 cans (15 oz) creamed corn",
+        "9 boneless chicken breast halves",
+        "3 tsp ground cumin",
+        "1 1/2 packages (1.27 oz) dry fajita seasoning",
+        "4 1/2 tbsp fresh cilantro",
+        "24 oz tortilla chips",
+        "12 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup ---",
+        "6 garlic cloves, minced",
+        "2 onions, peeled and chopped",
+        "6 tbsp margarine",
+        "4 tbsp all-purpose flour",
+        "6 cans (14 oz) chicken broth",
+        "8 cups half-and-half",
+        "2 cans (10 3/4 oz) condensed cream of chicken soup",
+        "2 cups fresh salsa",
+        "2 cans (15 oz) creamed corn",
+        "12 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "4 tsp ground cumin",
+        "2 packages (1.27 oz) dry fajita seasoning",
+        "6 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "32 oz tortilla chips",
+        "16 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "16 portions",
+      "shopping": [
+        "6 garlic cloves",
+        "2 onions",
+        "6 tbsp margarine",
+        "4 tbsp all-purpose flour",
+        "6 cans (14 oz) chicken broth",
+        "8 cups half-and-half",
+        "2 cans (10 3/4 oz) condensed cream of chicken soup",
+        "2 cups fresh salsa",
+        "2 cans (15 oz) creamed corn",
+        "12 boneless chicken breast halves",
+        "4 tsp ground cumin",
+        "2 packages (1.27 oz) dry fajita seasoning",
+        "6 tbsp fresh cilantro",
+        "32 oz tortilla chips",
+        "16 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Soup ---",
+        "9 garlic cloves, minced",
+        "3 onions, peeled and chopped",
+        "9 tbsp margarine",
+        "6 tbsp all-purpose flour",
+        "9 cans (14 oz) chicken broth",
+        "12 cups half-and-half",
+        "3 cans (10 3/4 oz) condensed cream of chicken soup",
+        "3 cups fresh salsa",
+        "3 cans (15 oz) creamed corn",
+        "18 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "6 tsp ground cumin",
+        "3 packages (1.27 oz) dry fajita seasoning",
+        "9 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "48 oz tortilla chips",
+        "24 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "24 portions",
+      "shopping": [
+        "9 garlic cloves",
+        "3 onions",
+        "9 tbsp margarine",
+        "6 tbsp all-purpose flour",
+        "9 cans (14 oz) chicken broth",
+        "12 cups half-and-half",
+        "3 cans (10 3/4 oz) condensed cream of chicken soup",
+        "3 cups fresh salsa",
+        "3 cans (15 oz) creamed corn",
+        "18 boneless chicken breast halves",
+        "6 tsp ground cumin",
+        "3 packages (1.27 oz) dry fajita seasoning",
+        "9 tbsp fresh cilantro",
+        "48 oz tortilla chips",
+        "24 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Soup ---",
+        "3 garlic cloves, minced",
+        "1 onion, peeled and chopped",
+        "3 tbsp margarine",
+        "2 tbsp all-purpose flour",
+        "3 cans (14 oz) chicken broth",
+        "4 cups half-and-half",
+        "1 can (10 3/4 oz) condensed cream of chicken soup",
+        "1 cup fresh salsa",
+        "1 can (15 oz) creamed corn",
+        "6 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized pieces",
+        "2 tsp ground cumin",
+        "1 package (1.27 oz) dry fajita seasoning",
+        "3 tbsp fresh cilantro, washed and chopped",
+        "--- Bowls ---",
+        "16 oz tortilla chips",
+        "8 oz Monterey Jack cheese, shredded"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "3 garlic cloves",
+        "1 onion",
+        "3 tbsp margarine",
+        "2 tbsp all-purpose flour",
+        "3 cans (14 oz) chicken broth",
+        "4 cups half-and-half",
+        "1 can (10 3/4 oz) condensed cream of chicken soup",
+        "1 cup fresh salsa",
+        "1 can (15 oz) creamed corn",
+        "6 boneless chicken breast halves",
+        "2 tsp ground cumin",
+        "1 package (1.27 oz) dry fajita seasoning",
+        "3 tbsp fresh cilantro",
+        "16 oz tortilla chips",
+        "8 oz Monterey Jack cheese"
+      ],
+      "directionsReference": "Final source Directions; temperatures/pan/timing are not scaled.",
+      "directions": "1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.\n2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.\n3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.\n4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.\n5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches."
+    }
+  ],
+  "preservedPriorRepairs": ["fully-cooked chicken", "finished soup165"],
+  "remainingQuestions": [
+    "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+    "Pot capacity and finished serving volume need kitchen measurement."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

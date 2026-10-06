@@ -1,0 +1,3415 @@
+{
+  "slug": "pan-fried-noodles-with-shrimp",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "54b178a987f207f6217f7da5314932dc89febeb346d61f9c3f90ecaac6bcc5aa",
+  "acceptedSourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "35 min",
+      "after": "About 35 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 25 min; longer for extra pan loads"
+    },
+    {
+      "field": "totalTime",
+      "before": "55 min",
+      "after": "About 1 hour; longer for extra pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Large Shrimp, peeled and deveined",
+        "1/4 tsp Baking Soda (the crunch rinse)",
+        "8 oz Fresh Hong Kong-style Egg Noodles",
+        "1 1/2 cups Chicken Stock",
+        "2 tsp Oyster Sauce",
+        "1 tbsp Soy Sauce",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/4 tsp White Pepper",
+        "2 tbsp Cornstarch + 2 tbsp Water (Slurry)",
+        "4 oz Yu Choy or Bok Choy",
+        "1/2 cup Sliced Carrots and Mushrooms",
+        "1 tbsp Ginger, julienned",
+        "2 cloves Garlic, minced",
+        "1 tbsp Shaoxing Wine"
+      ],
+      "after": [
+        "--- Noodle cake and greens ---",
+        "8 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "2 tbsp vegetable oil for the noodle cake",
+        "4 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "1 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1/4 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "1 1/2 cups chicken stock",
+        "2 tsp oyster sauce",
+        "1 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp white pepper",
+        "2 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "2 tbsp water for the slurry",
+        "1/2 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 tbsp ginger, julienned",
+        "2 garlic cloves, minced",
+        "1 tbsp Shaoxing wine"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 540,
+        "protein": 54,
+        "carbs": 49.5,
+        "fat": 15.5,
+        "fiber": 3,
+        "sugar": 2.5,
+        "sodium": 1740
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "noodles",
+            "name": "Noodle cake and greens",
+            "ingredients": [
+              {
+                "id": "noodles",
+                "key": "hk-egg-noodles",
+                "name": "fresh Hong Kong-style egg noodles",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "preparation": "check whether the package is raw or already cooked"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "cooking water",
+                "allowance": "enough to cook noodles and blanch greens",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "cake-oil",
+                "key": "vegetable-oil",
+                "name": "vegetable oil for the noodle cake",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cake",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "greens",
+                "key": "yu-choy-or-bok-choy",
+                "name": "yu choy or bok choy",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "greens",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed; separate thicker stems from tender leaves if needed"
+              }
+            ]
+          },
+          {
+            "id": "gravy",
+            "name": "Shrimp and gravy",
+            "ingredients": [
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "large shrimp",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "shrimp",
+                    "share": 1
+                  }
+                ],
+                "preparation": "raw, peeled and deveined; fully thawed if frozen"
+              },
+              {
+                "id": "soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "shrimp",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for the shrimp treatment; rinse it off",
+                "role": "discarded"
+              },
+              {
+                "id": "rinse-water",
+                "key": "water",
+                "name": "shrimp-rinsing water",
+                "allowance": "as needed to rinse off the baking soda",
+                "uses": [
+                  {
+                    "step": "shrimp",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "stock",
+                "key": "chicken-stock",
+                "name": "chicken stock",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oyster",
+                "key": "oyster-sauce",
+                "name": "oyster sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy-sauce",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "toasted-sesame-oil",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "white-pepper",
+                "name": "white pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "cornstarch",
+                "name": "cornstarch for the slurry",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "slurry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "prepare the full slurry; add only as much as the gravy needs"
+              },
+              {
+                "id": "slurry-water",
+                "key": "water",
+                "name": "water for the slurry",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "slurry",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "vegetables",
+                "key": "carrots-and-mushrooms",
+                "name": "sliced carrots and mushrooms",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "combined volume; slice carrots thinly"
+              },
+              {
+                "id": "wok-oil",
+                "key": "vegetable-oil",
+                "name": "vegetable oil for the wok",
+                "allowance": "as needed for a light cooking film",
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "preparation": "julienned"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "wine",
+                "key": "shaoxing-wine",
+                "name": "Shaoxing wine",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "shrimp",
+            "title": "Prepare the shrimp",
+            "text": "Have {{ingredients}} ready. Toss the shrimp with the baking soda and refrigerate for 5 minutes, then rinse thoroughly with the rinsing water and pat dry. Keep nearby food and clean utensils away from splashes; clean the sink and work surface after rinsing. Keep the shrimp refrigerated while preparing the noodles."
+          },
+          {
+            "id": "sauce",
+            "title": "Mix the gravy base",
+            "text": "Combine {{ingredients}} in a bowl and set beside the stove."
+          },
+          {
+            "id": "slurry",
+            "title": "Mix the slurry",
+            "text": "Mix {{ingredients}} in a separate bowl. The slurry will settle; stir it again immediately before adding it to the hot gravy."
+          },
+          {
+            "id": "noodles",
+            "title": "Prepare the noodles",
+            "text": "Use {{ingredients}} to prepare the noodles according to their package until just tender. For fresh raw Hong Kong-style noodles, start checking at about 1 minute rather than assuming every product has the same cooking time. Rinse cool, drain thoroughly and shake off surface water. Keep or refresh the boiling water for the greens."
+          },
+          {
+            "id": "cake",
+            "title": "Fry the first side",
+            "text": "Heat {{ingredients}} in a nonstick pan over heat permitted by its instructions. Spread the drained noodles into a thin, even cake. Fry undisturbed, checking the underside at about 5 minutes; it should release with a golden, crisp bottom. Use more cakes or pan loads if the measured noodles cannot fit in a thin layer, dividing the measured cake oil proportionally among them."
+          },
+          {
+            "id": "flip",
+            "title": "Crisp the second side",
+            "text": "Loosen and flip the cake, in sections if needed. Crisp the other side in the oil already in the pan until golden, then transfer to a serving platter."
+          },
+          {
+            "id": "greens",
+            "title": "Blanch the greens",
+            "text": "Blanch {{ingredients}} in the boiling water, starting to check at 30 seconds. Continue until the stems are tender enough to eat; thicker stems may take longer than leaves. Drain and arrange around the noodle cake."
+          },
+          {
+            "id": "vegetables",
+            "title": "Cook carrots and mushrooms",
+            "text": "Have {{ingredients}} ready. Heat the oil in a wok or skillet, then stir-fry the carrots and mushrooms until the carrots lose their hard raw center and the mushrooms soften. Work in manageable batches if needed; gather all the vegetables for the gravy."
+          },
+          {
+            "id": "aromatics",
+            "title": "Add the aromatics",
+            "text": "Add {{ingredients}} to the vegetables and stir briefly until fragrant, about 30 seconds. Keep the garlic moving so it does not burn."
+          },
+          {
+            "id": "sear",
+            "title": "Sear the shrimp",
+            "text": "Add the prepared shrimp to the hot wok in a manageable layer, moving vegetables aside or cooking shrimp in batches if necessary. Start checking at about 1 minute per side, then add {{ingredients}}. The gravy step completes cooking; continue directly to it."
+          },
+          {
+            "id": "gravy",
+            "title": "Finish the gravy",
+            "text": "Pour in the prepared gravy base and bring it to a boil. Stir the slurry again and add it gradually, letting each addition thicken before adding more. Stop when the gravy lightly coats a spoon; the entire prepared slurry may not be needed. Cook until every shrimp is firm, pearly and opaque, and all the carrots are tender. Do not judge doneness from the searing time alone. Discard any unused slurry."
+          },
+          {
+            "id": "serve",
+            "title": "Serve immediately",
+            "text": "Pour all the hot shrimp, vegetables and gravy over the center of the noodle cake, leaving some edges uncovered for crunch. Divide among the portions and serve immediately."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Crisp a drained noodle cake before finishing a shrimp gravy",
+        "outcome": "Golden noodle edges surround a softer center, with tender vegetables, fully cooked shrimp and a glossy gravy that coats rather than floods the cake.",
+        "techniques": ["starch", "browning", "gentle-proteins"],
+        "before": [
+          "Check the fresh noodle package for its cooking state. Drain well before frying; water carried into the pan delays crust formation.",
+          "Use a nonstick pan within its permitted heat range. The noodles need a thin layer; larger batches require more cakes and more time. A separate wok or skillet lets you finish the gravy while the cake stays on its platter.",
+          "Have the sauce and slurry mixed before searing shrimp. The combined half-cup carrot-and-mushroom measure has no prescribed split; keep that total and cut carrots thinly."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "The underside is golden and releases as a crisp cake or sections.",
+            "why": "Surface moisture must leave before the noodles brown; turning too early tears a wet cake."
+          },
+          {
+            "step": 11,
+            "cue": "Gravy coats a spoon and every shrimp is firm, pearly and opaque.",
+            "why": "Slurry thickening and shrimp doneness are separate checks; a thick sauce does not establish that shrimp are cooked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The noodle cake stays pale and soft",
+            "cause": "The noodles retained water or the layer is too thick.",
+            "fix": "Keep frying within the pan’s permitted heat range until the underside dries and browns. For remaining noodles, drain more thoroughly and use thinner cakes; do not force a large wet mound into one pan."
+          },
+          {
+            "problem": "The gravy becomes a stiff gel",
+            "cause": "More slurry was added than the gravy needed.",
+            "fix": "Stop adding slurry as soon as the gravy coats a spoon. Add it gradually while stirring; the measured stock is the complete gravy base, so do not rely on an unlisted extra stock dose."
+          }
+        ],
+        "storage": "Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and stirring for even heating. Store the cake separately from the gravy when possible; reheating will soften it. USDA additionally recommends bringing leftover sauces and gravies to a rolling boil: stir the gravy for even heat and keep that boil brief, since prolonged heating thickens the gravy and toughens shrimp.",
+        "timing": "Plan about 1 hour for the original batch: roughly 35 minutes for shrimp treatment, vegetable preparation and noodle draining, and about 25 minutes for both cake faces, greens and gravy. Preparation can overlap the refrigerated 5-minute treatment. Package cooking, large stems and extra cakes or shrimp loads extend elapsed time; the two sides of a cake are sequential.",
+        "sources": [
+          {
+            "title": "The Woks of Life — Seafood pan-fried noodles",
+            "url": "https://thewoksoflife.com/seafood-pan-fried-noodles/"
+          },
+          {
+            "title": "FDA — Selecting and serving seafood safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPan-fried noodles (gon chow min) are a Cantonese restaurant specialty. The technique: boil noodles briefly, then pan-fry them into a crispy \"bird's nest\" cake - crunchy on the outside, soft inside. Treating shrimp with baking soda (then rinsing thoroughly) gives them a firm, snappy texture. The clear, golden gravy poured over the top softens the center noodles while leaving edges crispy. A dramatic presentation dish.\n\n## Directions\n\n1.  **The Crunch:** Toss shrimp with baking soda. Let sit for 5 minutes, then **rinse thoroughly** and pat dry.\n2.  **The Noodles:** Boil noodles for 1 minute (al dente). Drain and rinse with cold water. Shake dry.\n3.  **The Cake:** Heat 2 tbsp oil in a large non-stick pan. Spread noodles in an even layer. Fry undisturbed for 5 minutes until the bottom is a golden-brown disc. Flip (in sections if needed) and crisp the other side. Transfer to a platter.\n4.  **The Veg:** Blanch the greens in boiling water for 30 seconds. Arrange around the noodles.\n5.  **The Sear:** In a hot wok or skillet, sear the shrimp for 1 minute per side. Add ginger and garlic for 30 seconds. Splash in the Shaoxing wine.\n6.  **The Gravy:** Pour in the sauce mixture (stock, oyster sauce, soy, pepper). Bring to a boil. Stir in the cornstarch slurry and cook until thickened and clear.\n7.  **Serve:** Pour the hot shrimp gravy directly over the center of the crispy noodle cake. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nThis Cantonese-style noodle cake is crisp at the edges and softer beneath its shrimp gravy. Drain the fresh egg noodles well, brown both faces, and pour the glossy gravy over the center just before serving.\n\n## Directions\n\n1. **Prepare the shrimp:** Have large shrimp, baking soda, and shrimp-rinsing water ready. Toss the shrimp with the baking soda and refrigerate for 5 minutes, then rinse thoroughly with the rinsing water and pat dry. Keep nearby food and clean utensils away from splashes; clean the sink and work surface after rinsing. Keep the shrimp refrigerated while preparing the noodles.\n2. **Mix the gravy base:** Combine chicken stock, oyster sauce, soy sauce, toasted sesame oil, and white pepper in a bowl and set beside the stove.\n3. **Mix the slurry:** Mix cornstarch for the slurry and water for the slurry in a separate bowl. The slurry will settle; stir it again immediately before adding it to the hot gravy.\n4. **Prepare the noodles:** Use fresh Hong Kong-style egg noodles and cooking water to prepare the noodles according to their package until just tender. For fresh raw Hong Kong-style noodles, start checking at about 1 minute rather than assuming every product has the same cooking time. Rinse cool, drain thoroughly and shake off surface water. Keep or refresh the boiling water for the greens.\n5. **Fry the first side:** Heat vegetable oil for the noodle cake in a nonstick pan over heat permitted by its instructions. Spread the drained noodles into a thin, even cake. Fry undisturbed, checking the underside at about 5 minutes; it should release with a golden, crisp bottom. Use more cakes or pan loads if the measured noodles cannot fit in a thin layer, dividing the measured cake oil proportionally among them.\n6. **Crisp the second side:** Loosen and flip the cake, in sections if needed. Crisp the other side in the oil already in the pan until golden, then transfer to a serving platter.\n7. **Blanch the greens:** Blanch yu choy or bok choy in the boiling water, starting to check at 30 seconds. Continue until the stems are tender enough to eat; thicker stems may take longer than leaves. Drain and arrange around the noodle cake.\n8. **Cook carrots and mushrooms:** Have sliced carrots and mushrooms and vegetable oil for the wok ready. Heat the oil in a wok or skillet, then stir-fry the carrots and mushrooms until the carrots lose their hard raw center and the mushrooms soften. Work in manageable batches if needed; gather all the vegetables for the gravy.\n9. **Add the aromatics:** Add ginger and garlic cloves to the vegetables and stir briefly until fragrant, about 30 seconds. Keep the garlic moving so it does not burn.\n10. **Sear the shrimp:** Add the prepared shrimp to the hot wok in a manageable layer, moving vegetables aside or cooking shrimp in batches if necessary. Start checking at about 1 minute per side, then add Shaoxing wine. The gravy step completes cooking; continue directly to it.\n11. **Finish the gravy:** Pour in the prepared gravy base and bring it to a boil. Stir the slurry again and add it gradually, letting each addition thicken before adding more. Stop when the gravy lightly coats a spoon; the entire prepared slurry may not be needed. Cook until every shrimp is firm, pearly and opaque, and all the carrots are tender. Do not judge doneness from the searing time alone. Discard any unused slurry.\n12. **Serve immediately:** Pour all the hot shrimp, vegetables and gravy over the center of the noodle cake, leaving some edges uncovered for crunch. Divide among the portions and serve immediately.\n"
+  },
+  "findings": [
+    {
+      "id": "N04-N01",
+      "rationale": "Current quantities remain. Publisher/native establish those ingredient destinations; no¼+¼ split is imposed on current combined vegetable volume and no exact extra searing oil is invented.",
+      "confidence": "high for destinations/cake amount; medium for editorial wok-film allowance",
+      "applicableSources": ["Woks seafood page + exact bound native/Git"],
+      "exactBeforeAfterReferences": ["ingredients", "formula.components", "formula.steps"],
+      "questions": [
+        "Record actual wok-film oil needed, pan geometry and the preferred carrot/mushroom split."
+      ]
+    },
+    {
+      "id": "N04-N02",
+      "rationale": "Fresh product state and stem thickness vary. Native/publisher support brief noodle preparation, drain and two-face crisping, not universal timers or certified pan capacity.",
+      "confidence": "high",
+      "applicableSources": ["Woks seafood page + exact bound native/Git"],
+      "exactBeforeAfterReferences": ["formula.steps", "learning"],
+      "questions": []
+    },
+    {
+      "id": "N04-N03",
+      "rationale": "Preserves current shrimp/soy/baking-soda formula and full prepared slurry input. FDA endpoint does not certify source partial-cook times. Soy-colored starch gravy need not be clear.",
+      "confidence": "high",
+      "applicableSources": [
+        "Woks seafood page + exact bound native/Git",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures"
+      ],
+      "exactBeforeAfterReferences": ["formula.steps", "learning.checkpoints"],
+      "questions": []
+    },
+    {
+      "id": "N04-N04",
+      "rationale": "Native clock35+25 is planning evidence, not a timed kitchen certification. Full oil/vegetable accounting differs from legacy estimated nutrition.",
+      "confidence": "medium for planning clock; high for handling/estimate deletion",
+      "applicableSources": [
+        "Woks seafood page + exact bound native/Git",
+        "USDA leftovers (actual scoped campaign retrieval; current direct403)",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures",
+        "docs/RECIPE_STANDARD.md"
+      ],
+      "exactBeforeAfterReferences": ["prepTime", "cookTime", "totalTime", "nutrition", "learning"],
+      "questions": []
+    },
+    {
+      "id": "N04-I04",
+      "rationale": "The country field was added in bulk metadata; neither the exact retained saved recipe nor the publisher evidence establishes this particular adaptation’s geographic origin. Omit only that unsupported field. Preserve the Chinese style tag, Cantonese context, title, publisher credit/URL and every culinary field.",
+      "confidence": "high that the retained geographic assertion is unsupported; no claim that the dish lacks Chinese cultural context",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Pan%20Fried%20Noodles%20with%20Shrimp.html",
+    "introductionScope": "Actual earlier retained cooking text independently verified; full followed history retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Exact original, later adaptation and current publisher ingredient/product disagreements are separately recorded; current source popularity is not formula evidence.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": {
+    "canonicalLedger": "evidence/pan-fried-noodles-with-shrimp-ledgers.json",
+    "wholeSavedSource": "evidence/pan-fried-noodles-with-shrimp-bound-original-cooking.json",
+    "sourceFormulaIsNotContemporaryPublisherCertification": true
+  },
+  "ledger": {
+    "slug": "pan-fried-noodles-with-shrimp",
+    "frozenLedger": [
+      {
+        "index": 0,
+        "exactInput": "1 lb Large Shrimp, peeled and deveined",
+        "stateAndActualDestination": "Rawshrimpsear5;no finalfirm/pearly endpoint."
+      },
+      {
+        "index": 1,
+        "exactInput": "1/4 tsp Baking Soda (the crunch rinse)",
+        "stateAndActualDestination": "Bakingsoda5minstep1rinsedoff;locationunspecified."
+      },
+      {
+        "index": 2,
+        "exactInput": "8 oz Fresh Hong Kong-style Egg Noodles",
+        "stateAndActualDestination": "Freshnoodles1minstep2coldrinse/drainthen cake3."
+      },
+      {
+        "index": 3,
+        "exactInput": "1 1/2 cups Chicken Stock",
+        "stateAndActualDestination": "Stockstep6base."
+      },
+      {
+        "index": 4,
+        "exactInput": "2 tsp Oyster Sauce",
+        "stateAndActualDestination": "Oystersaucestep6base."
+      },
+      {
+        "index": 5,
+        "exactInput": "1 tbsp Soy Sauce",
+        "stateAndActualDestination": "Soystep6base."
+      },
+      {
+        "index": 6,
+        "exactInput": "1/2 tsp Toasted Sesame Oil",
+        "stateAndActualDestination": "Sesameoillistedbutnotinmethod."
+      },
+      {
+        "index": 7,
+        "exactInput": "1/4 tsp White Pepper",
+        "stateAndActualDestination": "Whitepepperstep6base."
+      },
+      {
+        "index": 8,
+        "exactInput": "2 tbsp Cornstarch + 2 tbsp Water (Slurry)",
+        "stateAndActualDestination": "Full2tbspstarch+2tbspwaterslurrystep6;not explicitlypremixed/stirredorconditional."
+      },
+      {
+        "index": 9,
+        "exactInput": "4 oz Yu Choy or Bok Choy",
+        "stateAndActualDestination": "Greens30secstep4thenplatter."
+      },
+      {
+        "index": 10,
+        "exactInput": "1/2 cup Sliced Carrots and Mushrooms",
+        "stateAndActualDestination": "Combinedcarrot/mushroom½cuplistedbutunused."
+      },
+      {
+        "index": 11,
+        "exactInput": "1 tbsp Ginger, julienned",
+        "stateAndActualDestination": "Gingerstep5aftershrimpsear."
+      },
+      {
+        "index": 12,
+        "exactInput": "2 cloves Garlic, minced",
+        "stateAndActualDestination": "Garlicstep5aftershrimpsear."
+      },
+      {
+        "index": 13,
+        "exactInput": "1 tbsp Shaoxing Wine",
+        "stateAndActualDestination": "Winestep5."
+      }
+    ],
+    "proposedLedger": [
+      {
+        "id": "noodles.noodles",
+        "exactInput": {
+          "name": "fresh Hong Kong-style egg noodles",
+          "quantity": {
+            "amount": 8,
+            "unit": "oz"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "check whether the package is raw or already cooked",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.water",
+        "exactInput": {
+          "name": "cooking water",
+          "quantity": null,
+          "allowance": "enough to cook noodles and blanch greens",
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Package-noodlecook→retainedorrefreshedwatergreensblanch→discard; no fixedwater/output amount."
+      },
+      {
+        "id": "noodles.cake-oil",
+        "exactInput": {
+          "name": "vegetable oil for the noodle cake",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "cake",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Fullmeasuredinputatfirstcakeface; secondfaceusestheoilalreadyinpan; divideinputproportionallyacrossextracakes."
+      },
+      {
+        "id": "noodles.greens",
+        "exactInput": {
+          "name": "yu choy or bok choy",
+          "quantity": {
+            "amount": 4,
+            "unit": "oz"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "washed; separate thicker stems from tender leaves if needed",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "greens",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.shrimp",
+        "exactInput": {
+          "name": "large shrimp",
+          "quantity": {
+            "amount": 1,
+            "unit": "lb"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "raw, peeled and deveined; fully thawed if frozen",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "shrimp",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Cold soda treatment→rinse/dry→coldhold→sear→continue directly into gravy tofirm/pearly/opaque→serve."
+      },
+      {
+        "id": "gravy.soda",
+        "exactInput": {
+          "name": "baking soda",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "for the shrimp treatment; rinse it off",
+          "optional": false,
+          "role": "discarded"
+        },
+        "allocations": [
+          {
+            "step": "shrimp",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Treatmentinput→rinsedoff/discarded;notassumedconsumed."
+      },
+      {
+        "id": "gravy.rinse-water",
+        "exactInput": {
+          "name": "shrimp-rinsing water",
+          "quantity": null,
+          "allowance": "as needed to rinse off the baking soda",
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "shrimp",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.stock",
+        "exactInput": {
+          "name": "chicken stock",
+          "quantity": {
+            "amount": "1 1/2",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.oyster",
+        "exactInput": {
+          "name": "oyster sauce",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.soy",
+        "exactInput": {
+          "name": "soy sauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.sesame",
+        "exactInput": {
+          "name": "toasted sesame oil",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.pepper",
+        "exactInput": {
+          "name": "white pepper",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.starch",
+        "exactInput": {
+          "name": "cornstarch for the slurry",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "prepare the full slurry; add only as much as the gravy needs",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "slurry",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Full2tbsp preparedslurry→stir/addonlyneededfraction→discardunused; inputallocation is not full edible dose."
+      },
+      {
+        "id": "gravy.slurry-water",
+        "exactInput": {
+          "name": "water for the slurry",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "slurry",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Full2tbsp preparedslurry withstarch→conditionalneededfraction+discardunused."
+      },
+      {
+        "id": "gravy.vegetables",
+        "exactInput": {
+          "name": "sliced carrots and mushrooms",
+          "quantity": {
+            "amount": "1/2",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "combined volume; slice carrots thinly",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.wok-oil",
+        "exactInput": {
+          "name": "vegetable oil for the wok",
+          "quantity": null,
+          "allowance": "as needed for a light cooking film",
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.ginger",
+        "exactInput": {
+          "name": "ginger",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "julienned",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.garlic",
+        "exactInput": {
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "minced",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "gravy.wine",
+        "exactInput": {
+          "name": "Shaoxing wine",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Current shrimp-only adaptation",
+        "disposition": "preserved primary",
+        "allocation": "Full1lb shrimp,¼tsp soda discarded in rinse,8oz noodles,1½cup stock,2tsp oyster,1tbsp soy,½tsp sesame,¼tsp pepper,2tbsp+2tbsp slurry,4oz greens, combined½cup carrots/mushrooms,1tbsp ginger,2garlic and1tbspwine. All2tbsp cake oil remain first-face input."
+      },
+      {
+        "name": "Exact older saved source",
+        "disposition": "whole archival route retained, not endorsed as a complete alternate",
+        "differences": "4tbsp oil split1+1cake/1blanch water/1wok,1½tsp salt/¼tsp sugar/no soy,½tsp pepper,3tbsp+3tbsp slurry,1tsp ginger/1garlic/1scallion whites,¼cup carrots+¼cup mushrooms; greens ingredientChinese broccoli vs methodchoysum. List has1lbshrimp while copied directions also call for scallops/squid without amounts.",
+        "evidence": "evidence/pan-fried-noodles-with-shrimp-bound-original-cooking.json",
+        "question": "Which complete older route, if any, should be a public variant? Do not invent seafood quantities or silently substitute today's publisher three-seafood formula."
+      },
+      {
+        "name": "Current yu choy or bok choy",
+        "disposition": "exclusive retained choice",
+        "allocation": "Same4oz total; thicker stems checked beyond30sec, no invented fresh-weight equivalence."
+      }
+    ],
+    "methodGraph": [
+      {
+        "step": 1,
+        "id": "shrimp",
+        "title": "Prepare the shrimp",
+        "allocatedIngredients": ["gravy.shrimp", "gravy.soda", "gravy.rinse-water"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "sauce",
+        "title": "Mix the gravy base",
+        "allocatedIngredients": [
+          "gravy.stock",
+          "gravy.oyster",
+          "gravy.soy",
+          "gravy.sesame",
+          "gravy.pepper"
+        ],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "slurry",
+        "title": "Mix the slurry",
+        "allocatedIngredients": ["gravy.starch", "gravy.slurry-water"],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "noodles",
+        "title": "Prepare the noodles",
+        "allocatedIngredients": ["noodles.noodles", "noodles.water"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "cake",
+        "title": "Fry the first side",
+        "allocatedIngredients": ["noodles.cake-oil"],
+        "cue": [
+          {
+            "step": 5,
+            "cue": "The underside is golden and releases as a crisp cake or sections.",
+            "why": "Surface moisture must leave before the noodles brown; turning too early tears a wet cake."
+          }
+        ]
+      },
+      {
+        "step": 6,
+        "id": "flip",
+        "title": "Crisp the second side",
+        "allocatedIngredients": [],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "greens",
+        "title": "Blanch the greens",
+        "allocatedIngredients": ["noodles.greens"],
+        "cue": []
+      },
+      {
+        "step": 8,
+        "id": "vegetables",
+        "title": "Cook carrots and mushrooms",
+        "allocatedIngredients": ["gravy.vegetables", "gravy.wok-oil"],
+        "cue": []
+      },
+      {
+        "step": 9,
+        "id": "aromatics",
+        "title": "Add the aromatics",
+        "allocatedIngredients": ["gravy.ginger", "gravy.garlic"],
+        "cue": []
+      },
+      {
+        "step": 10,
+        "id": "sear",
+        "title": "Sear the shrimp",
+        "allocatedIngredients": ["gravy.wine"],
+        "cue": []
+      },
+      {
+        "step": 11,
+        "id": "gravy",
+        "title": "Finish the gravy",
+        "allocatedIngredients": [],
+        "cue": [
+          {
+            "step": 11,
+            "cue": "Gravy coats a spoon and every shrimp is firm, pearly and opaque.",
+            "why": "Slurry thickening and shrimp doneness are separate checks; a thick sauce does not establish that shrimp are cooked."
+          }
+        ]
+      },
+      {
+        "step": 12,
+        "id": "serve",
+        "title": "Serve immediately",
+        "allocatedIngredients": [],
+        "cue": []
+      }
+    ],
+    "ratiosAndYieldScope": "Current8oz fresh noodles/1½cup stock/1lb shrimp and full2tbsp starch+2tbsp slurry water retained. Prepared slurry dose is conditional, not a guaranteed full edible allocation. No dry-noodle conversion or measured finished gravy output claimed.",
+    "linkedMeals": [
+      {
+        "path": "src/content/meals/pan-fried-noodles-night.md",
+        "disposition": "linked meal remains pending",
+        "conflict": "Meal timeline says10minutes first cake face then second at20min and finishes30min, while metadata35+20=55. Proposed component60min planning and product/cake/load cues need whole meal coordination review; side component is not approved here."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare the shrimp: Have large shrimp, baking soda, and shrimp-rinsing water ready. Toss the shrimp with the baking soda and refrigerate for 5 minutes, then rinse thoroughly with the rinsing water and pat dry. Keep nearby food and clean utensils away from splashes; clean the sink and work surface after rinsing. Keep the shrimp refrigerated while preparing the noodles."
+    },
+    {
+      "step": 2,
+      "text": "Mix the gravy base: Combine chicken stock, oyster sauce, soy sauce, toasted sesame oil, and white pepper in a bowl and set beside the stove."
+    },
+    {
+      "step": 3,
+      "text": "Mix the slurry: Mix cornstarch for the slurry and water for the slurry in a separate bowl. The slurry will settle; stir it again immediately before adding it to the hot gravy."
+    },
+    {
+      "step": 4,
+      "text": "Prepare the noodles: Use fresh Hong Kong-style egg noodles and cooking water to prepare the noodles according to their package until just tender. For fresh raw Hong Kong-style noodles, start checking at about 1 minute rather than assuming every product has the same cooking time. Rinse cool, drain thoroughly and shake off surface water. Keep or refresh the boiling water for the greens."
+    },
+    {
+      "step": 5,
+      "text": "Fry the first side: Heat vegetable oil for the noodle cake in a nonstick pan over heat permitted by its instructions. Spread the drained noodles into a thin, even cake. Fry undisturbed, checking the underside at about 5 minutes; it should release with a golden, crisp bottom. Use more cakes or pan loads if the measured noodles cannot fit in a thin layer, dividing the measured cake oil proportionally among them."
+    },
+    {
+      "step": 6,
+      "text": "Crisp the second side: Loosen and flip the cake, in sections if needed. Crisp the other side in the oil already in the pan until golden, then transfer to a serving platter."
+    },
+    {
+      "step": 7,
+      "text": "Blanch the greens: Blanch yu choy or bok choy in the boiling water, starting to check at 30 seconds. Continue until the stems are tender enough to eat; thicker stems may take longer than leaves. Drain and arrange around the noodle cake."
+    },
+    {
+      "step": 8,
+      "text": "Cook carrots and mushrooms: Have sliced carrots and mushrooms and vegetable oil for the wok ready. Heat the oil in a wok or skillet, then stir-fry the carrots and mushrooms until the carrots lose their hard raw center and the mushrooms soften. Work in manageable batches if needed; gather all the vegetables for the gravy."
+    },
+    {
+      "step": 9,
+      "text": "Add the aromatics: Add ginger and garlic cloves to the vegetables and stir briefly until fragrant, about 30 seconds. Keep the garlic moving so it does not burn."
+    },
+    {
+      "step": 10,
+      "text": "Sear the shrimp: Add the prepared shrimp to the hot wok in a manageable layer, moving vegetables aside or cooking shrimp in batches if necessary. Start checking at about 1 minute per side, then add Shaoxing wine. The gravy step completes cooking; continue directly to it."
+    },
+    {
+      "step": 11,
+      "text": "Finish the gravy: Pour in the prepared gravy base and bring it to a boil. Stir the slurry again and add it gradually, letting each addition thicken before adding more. Stop when the gravy lightly coats a spoon; the entire prepared slurry may not be needed. Cook until every shrimp is firm, pearly and opaque, and all the carrots are tender. Do not judge doneness from the searing time alone. Discard any unused slurry."
+    },
+    {
+      "step": 12,
+      "text": "Serve immediately: Pour all the hot shrimp, vegetables and gravy over the center of the noodle cake, leaving some edges uncovered for crunch. Divide among the portions and serve immediately."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": [
+    {
+      "path": "src/content/meals/pan-fried-noodles-night.md",
+      "disposition": "linked meal remains pending",
+      "conflict": "Meal timeline says10minutes first cake face then second at20min and finishes30min, while metadata35+20=55. Proposed component60min planning and product/cake/load cues need whole meal coordination review; side component is not approved here."
+    }
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "2 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "1/2 tbsp vegetable oil for the noodle cake",
+        "1 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "1/4 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "0.0625 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "3/8 cup chicken stock",
+        "1/2 tsp oyster sauce",
+        "1/4 tbsp soy sauce",
+        "1/8 tsp toasted sesame oil",
+        "0.0625 tsp white pepper",
+        "1/2 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "1/2 tbsp water for the slurry",
+        "1/8 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1/4 tbsp ginger, julienned",
+        "1/2 garlic clove, minced",
+        "1/4 tbsp Shaoxing wine"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "2 oz fresh Hong Kong-style egg noodles",
+        "1/2 tbsp vegetable oil for the noodle cake",
+        "1 oz yu choy or bok choy",
+        "1/4 lb large shrimp",
+        "0.0625 tsp baking soda",
+        "3/8 cup chicken stock",
+        "1/2 tsp oyster sauce",
+        "1/4 tbsp soy sauce",
+        "1/8 tsp toasted sesame oil",
+        "0.0625 tsp white pepper",
+        "1/2 tbsp cornstarch for the slurry",
+        "1/8 cup sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1/4 tbsp ginger",
+        "1/2 garlic clove",
+        "1/4 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 2,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 1,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 0.25,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.0625,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 0.375,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.0625,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 0.125,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "4 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "1 tbsp vegetable oil for the noodle cake",
+        "2 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "1/2 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1/8 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "3/4 cup chicken stock",
+        "1 tsp oyster sauce",
+        "1/2 tbsp soy sauce",
+        "1/4 tsp toasted sesame oil",
+        "1/8 tsp white pepper",
+        "1 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "1 tbsp water for the slurry",
+        "1/4 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1/2 tbsp ginger, julienned",
+        "1 garlic clove, minced",
+        "1/2 tbsp Shaoxing wine"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "4 oz fresh Hong Kong-style egg noodles",
+        "1 tbsp vegetable oil for the noodle cake",
+        "2 oz yu choy or bok choy",
+        "1/2 lb large shrimp",
+        "1/8 tsp baking soda",
+        "3/4 cup chicken stock",
+        "1 tsp oyster sauce",
+        "1/2 tbsp soy sauce",
+        "1/4 tsp toasted sesame oil",
+        "1/8 tsp white pepper",
+        "1 tbsp cornstarch for the slurry",
+        "1/4 cup sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1/2 tbsp ginger",
+        "1 garlic clove",
+        "1/2 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 4,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 2,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 0.5,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "8 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "2 tbsp vegetable oil for the noodle cake",
+        "4 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "1 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1/4 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "1 1/2 cups chicken stock",
+        "2 tsp oyster sauce",
+        "1 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp white pepper",
+        "2 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "2 tbsp water for the slurry",
+        "1/2 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 tbsp ginger, julienned",
+        "2 garlic cloves, minced",
+        "1 tbsp Shaoxing wine"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "8 oz fresh Hong Kong-style egg noodles",
+        "2 tbsp vegetable oil for the noodle cake",
+        "4 oz yu choy or bok choy",
+        "1 lb large shrimp",
+        "1/4 tsp baking soda",
+        "1 1/2 cups chicken stock",
+        "2 tsp oyster sauce",
+        "1 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp white pepper",
+        "2 tbsp cornstarch for the slurry",
+        "1/2 cup sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 tbsp ginger",
+        "2 garlic cloves",
+        "1 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 8,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 4,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 1,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 1.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "12 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "3 tbsp vegetable oil for the noodle cake",
+        "6 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "1 1/2 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "3/8 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "2 1/4 cups chicken stock",
+        "3 tsp oyster sauce",
+        "1 1/2 tbsp soy sauce",
+        "3/4 tsp toasted sesame oil",
+        "3/8 tsp white pepper",
+        "3 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "3 tbsp water for the slurry",
+        "3/4 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 1/2 tbsp ginger, julienned",
+        "3 garlic cloves, minced",
+        "1 1/2 tbsp Shaoxing wine"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "12 oz fresh Hong Kong-style egg noodles",
+        "3 tbsp vegetable oil for the noodle cake",
+        "6 oz yu choy or bok choy",
+        "1 1/2 lb large shrimp",
+        "3/8 tsp baking soda",
+        "2 1/4 cups chicken stock",
+        "3 tsp oyster sauce",
+        "1 1/2 tbsp soy sauce",
+        "3/4 tsp toasted sesame oil",
+        "3/8 tsp white pepper",
+        "3 tbsp cornstarch for the slurry",
+        "3/4 cup sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 1/2 tbsp ginger",
+        "3 garlic cloves",
+        "1 1/2 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 12,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 6,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 1.5,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.375,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 2.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 3,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.375,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "16 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "4 tbsp vegetable oil for the noodle cake",
+        "8 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "2 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1/2 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "3 cups chicken stock",
+        "4 tsp oyster sauce",
+        "2 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "1/2 tsp white pepper",
+        "4 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "4 tbsp water for the slurry",
+        "1 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "2 tbsp ginger, julienned",
+        "4 garlic cloves, minced",
+        "2 tbsp Shaoxing wine"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "16 oz fresh Hong Kong-style egg noodles",
+        "4 tbsp vegetable oil for the noodle cake",
+        "8 oz yu choy or bok choy",
+        "2 lb large shrimp",
+        "1/2 tsp baking soda",
+        "3 cups chicken stock",
+        "4 tsp oyster sauce",
+        "2 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "1/2 tsp white pepper",
+        "4 tbsp cornstarch for the slurry",
+        "1 cup sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "2 tbsp ginger",
+        "4 garlic cloves",
+        "2 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 16,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 16
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 8,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 2,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 3,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 1,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 4,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "24 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "6 tbsp vegetable oil for the noodle cake",
+        "12 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "3 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "3/4 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "4 1/2 cups chicken stock",
+        "6 tsp oyster sauce",
+        "3 tbsp soy sauce",
+        "1 1/2 tsp toasted sesame oil",
+        "3/4 tsp white pepper",
+        "6 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "6 tbsp water for the slurry",
+        "1 1/2 cups sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "3 tbsp ginger, julienned",
+        "6 garlic cloves, minced",
+        "3 tbsp Shaoxing wine"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "24 oz fresh Hong Kong-style egg noodles",
+        "6 tbsp vegetable oil for the noodle cake",
+        "12 oz yu choy or bok choy",
+        "3 lb large shrimp",
+        "3/4 tsp baking soda",
+        "4 1/2 cups chicken stock",
+        "6 tsp oyster sauce",
+        "3 tbsp soy sauce",
+        "1 1/2 tsp toasted sesame oil",
+        "3/4 tsp white pepper",
+        "6 tbsp cornstarch for the slurry",
+        "1 1/2 cups sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "3 tbsp ginger",
+        "6 garlic cloves",
+        "3 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 24,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 24
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 12,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 3,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 4.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 6,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.75,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 1.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 6,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Noodle cake and greens ---",
+        "8 oz fresh Hong Kong-style egg noodles, check whether the package is raw or already cooked",
+        "cooking water, enough to cook noodles and blanch greens",
+        "2 tbsp vegetable oil for the noodle cake",
+        "4 oz yu choy or bok choy, washed; separate thicker stems from tender leaves if needed",
+        "--- Shrimp and gravy ---",
+        "1 lb large shrimp, raw, peeled and deveined; fully thawed if frozen",
+        "1/4 tsp baking soda, for the shrimp treatment; rinse it off",
+        "shrimp-rinsing water, as needed to rinse off the baking soda",
+        "1 1/2 cups chicken stock",
+        "2 tsp oyster sauce",
+        "1 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp white pepper",
+        "2 tbsp cornstarch for the slurry, prepare the full slurry; add only as much as the gravy needs",
+        "2 tbsp water for the slurry",
+        "1/2 cup sliced carrots and mushrooms, combined volume; slice carrots thinly",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 tbsp ginger, julienned",
+        "2 garlic cloves, minced",
+        "1 tbsp Shaoxing wine"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "8 oz fresh Hong Kong-style egg noodles",
+        "2 tbsp vegetable oil for the noodle cake",
+        "4 oz yu choy or bok choy",
+        "1 lb large shrimp",
+        "1/4 tsp baking soda",
+        "1 1/2 cups chicken stock",
+        "2 tsp oyster sauce",
+        "1 tbsp soy sauce",
+        "1/2 tsp toasted sesame oil",
+        "1/4 tsp white pepper",
+        "2 tbsp cornstarch for the slurry",
+        "1/2 cup sliced carrots and mushrooms",
+        "vegetable oil for the wok, as needed for a light cooking film",
+        "1 tbsp ginger",
+        "2 garlic cloves",
+        "1 tbsp Shaoxing wine"
+      ],
+      "allocations": [
+        {
+          "id": "noodles.noodles",
+          "quantity": 8,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "noodles.water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.cake-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "cake",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.greens",
+          "quantity": 4,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "greens",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "gravy.shrimp",
+          "quantity": 1,
+          "unit": "lb",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.soda",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.rinse-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "shrimp",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.stock",
+          "quantity": 1.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.oyster",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.soy",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.sesame",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "gravy.starch",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.slurry-water",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "slurry",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.vegetables",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "gravy.wok-oil",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "gravy.ginger",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "gravy.garlic",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "aromatics",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "gravy.wine",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "a3c191133f69dc9b8f4af286d4a643e1708c98a349d2adda5b13522c842073b3",
+      "cutAndEndpointGeometryFixed": true
+    }
+  ],
+  "preservedPriorRepairs": [
+    "All current soy/baking-soda/slurry/aromatic quantities, shrimp-only identity, full method2tbsp cake oil",
+    "Existing source credit, Chinese/Cantonese context, sourceURL/ID/pairings"
+  ],
+  "remainingQuestions": [
+    "Measure pan/noodle layer, all actual oil input and separate cake/gravy reheating quality.",
+    "Check preferred carrot/mushroom split and actual full-slurry fraction needed.",
+    "Record greens product, shrimp size, temperatures/cues and actual load clocks."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

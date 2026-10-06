@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 325,
-    "completeEditorialPending": 318,
+    "recordedCompleteEditorial": 334,
+    "completeEditorialPending": 309,
     "originalBaseline": 612,
-    "originalReviewed": 310,
+    "originalReviewed": 315,
     "consideredConsolidations": 10,
-    "originalPending": 292,
+    "originalPending": 287,
     "additionalSources": 41,
-    "additionalReviewed": 15,
-    "additionalPending": 26,
+    "additionalReviewed": 19,
+    "additionalPending": 22,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 325,
+      "editoriallyReviewed": 334,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 591
+      "reviewItems": 578
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "91 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 325 recorded complete / 318 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [e5276b6f](https://github.com/jsilton/mise/commit/e5276b6f1e0a8e59ba8210eece70a7eb36efead3), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37410524766) and all 11 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "91 campaign versions are verified live; 9 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5213,13 +5213,7 @@
       "baseline": "addition",
       "source": "Allrecipes.com",
       "sourceUrl": "http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5227,19 +5221,25 @@
         "evidence": ["docs/reviews/chicken-tortilla-soup-iii.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/chicken-tortilla-soup-iii.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chicken-tortilla-soup-iii.json",
+        "sourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10167,13 +10167,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/fennel-and-carrot-soup",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -10184,12 +10178,18 @@
         "evidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/fennel-and-carrot-soup.md",
+        "acceptedSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/fennel-and-carrot-soup.json",
+        "sourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -10198,12 +10198,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17157,18 +17156,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/miso-soup-103391",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17176,19 +17164,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/miso-soup.md",
+        "acceptedSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/miso-soup.json",
+        "sourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17373,13 +17367,7 @@
       "baseline": "addition",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/mongolian-chicken/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17387,19 +17375,26 @@
         "evidence": ["docs/reviews/mongolian-chicken.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/mongolian-chicken.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/mongolian-chicken.json",
+        "sourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Observe starch pickup, actual frying oil retention and how much slurry is needed before gelation.",
+        "Record single-layer capacity and actual165°F clocks for breast versus thigh.",
+        "Assess glaze/crust texture after brief, evenly heated leftover reheating."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18536,18 +18531,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Thaitable.com",
       "sourceUrl": "http://www.thaitable.com/thai/recipe/pad-thai",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -18555,19 +18539,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pad-thai.md",
+        "acceptedSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pad-thai.json",
+        "sourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm8oz wide noodle hydration and sauce balance with actual tamarind product.",
+        "Record actual single-pan load, elapsed/active times and fully cooked sprout texture.",
+        "Weigh finished portions rather than asserting source/current3/2–3 as measured yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -18630,18 +18621,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/seafood-pan-fried-noodles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -18649,19 +18629,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/pan-fried-noodles-with-shrimp.md",
+        "acceptedSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/pan-fried-noodles-with-shrimp.json",
+        "sourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure pan/noodle layer, all actual oil input and separate cake/gravy reheating quality.",
+        "Check preferred carrot/mushroom split and actual full-slurry fraction needed.",
+        "Record greens product, shrimp size, temperatures/cues and actual load clocks."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20833,13 +20820,7 @@
       "baseline": "addition",
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/chicken-lo-mein/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20847,19 +20828,26 @@
         "evidence": ["docs/reviews/restaurant-style-chicken-lo-mein.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/restaurant-style-chicken-lo-mein.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/restaurant-style-chicken-lo-mein.json",
+        "sourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Identify actual fresh noodle state/product and measure its preparation time.",
+        "Confirm six planning portions against appetite and actual wok loads, rather than claiming six tested household servings.",
+        "Observe thoroughly cooked sprout texture and measured chicken endpoint with thin slices."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -21461,13 +21449,7 @@
       "baseline": "addition",
       "source": "Paleopot.com",
       "sourceUrl": "https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -21475,19 +21457,26 @@
         "evidence": ["docs/reviews/roasted-red-pepper-and-sweet-potato-soup.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/roasted-red-pepper-and-sweet-potato-soup.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/roasted-red-pepper-and-sweet-potato-soup.json",
+        "sourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -28690,18 +28679,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -28709,19 +28687,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/warm-spiced-butternut-squash-soup.md",
+        "acceptedSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/warm-spiced-butternut-squash-soup.json",
+        "sourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route.",
+        "Household preference between covered softening and the explicitly retained browned-flesh variation is untested. The variation combines the current browned-flesh mechanism with the recovered complete oil allocation; it is not verbatim native."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

@@ -1,0 +1,3543 @@
+{
+  "slug": "restaurant-style-chicken-lo-mein",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "inputSha256": "8721f2e26a4403d92563d68192f40319b35f94d278a89045a8cfc927c86650a1",
+  "acceptedSourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 35 min with ready-to-stir-fry noodles; extra for raw-noodle preparation or pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "6, as recorded",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz. boneless skinless chicken thighs (225g, cut into thin strips)",
+        "2 teaspoons cornstarch",
+        "2 teaspoons water",
+        "2 teaspoons oil (plus more for cooking)",
+        "1 clove garlic (minced)",
+        "4 cups cabbage (shredded)",
+        "2 medium carrots (julienned)",
+        "1 tablespoon shaoxing wine (or dry sherry cooking wine)",
+        "16 oz. fresh lo mein egg noodles (450g)",
+        "1 tablespoon soy sauce",
+        "4 teaspoons dark soy sauce",
+        "1 teaspoon sesame oil",
+        "1/8 teaspoon salt",
+        "1/8 teaspoon sugar",
+        "2 cups mung bean sprouts",
+        "2 scallions (julienned)"
+      ],
+      "after": [
+        "--- Chicken coating and sear ---",
+        "8 oz (225 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "2 tsp cornstarch",
+        "2 tsp water for the chicken coating",
+        "2 tsp oil for the chicken coating",
+        "2 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "16 oz (450 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "2 tbsp oil for the vegetables",
+        "1 garlic clove, minced",
+        "4 cups cabbage, shredded",
+        "2 medium carrots, julienned",
+        "1 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/4 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "1 tbsp soy sauce",
+        "4 tsp dark soy sauce",
+        "1 tsp sesame oil",
+        "1/8 tsp salt",
+        "1/8 tsp sugar",
+        "2 cups mung bean sprouts, washed and drained",
+        "2 scallions, julienned"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "thewoksoflife.com",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "chicken",
+            "name": "Chicken coating and sear",
+            "ingredients": [
+              {
+                "id": "chicken",
+                "key": "chicken-thighs",
+                "name": "boneless skinless chicken thighs",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 225,
+                    "unit": "g"
+                  }
+                ],
+                "preparation": "raw, fully thawed if frozen, cut into thin strips"
+              },
+              {
+                "id": "starch",
+                "key": "cornstarch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water for the chicken coating",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "coating-oil",
+                "key": "oil",
+                "name": "oil for the chicken coating",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sear-oil",
+                "key": "oil",
+                "name": "oil for searing the chicken",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "noodles",
+            "name": "Noodles, vegetables and sauce",
+            "ingredients": [
+              {
+                "id": "noodles",
+                "key": "fresh-lo-mein-egg-noodles",
+                "name": "fresh lo mein egg noodles",
+                "quantity": {
+                  "amount": 16,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 450,
+                    "unit": "g"
+                  }
+                ],
+                "preparation": "check whether raw or already cooked"
+              },
+              {
+                "id": "prep-water",
+                "key": "water",
+                "name": "noodle-preparation water",
+                "allowance": "as needed for the package cooking or hot rinse",
+                "uses": [
+                  {
+                    "step": "noodles",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "veg-oil",
+                "key": "oil",
+                "name": "oil for the vegetables",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "cabbage",
+                "key": "cabbage",
+                "name": "cabbage",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "preparation": "shredded"
+              },
+              {
+                "id": "carrot",
+                "key": "carrot",
+                "name": "medium carrot",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium carrots",
+                "preparation": "julienned"
+              },
+              {
+                "id": "wine",
+                "key": "shaoxing-wine-or-dry-sherry",
+                "name": "Shaoxing wine or dry sherry cooking wine",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "wine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "loosening-water",
+                "key": "water",
+                "name": "water for loosening noodles",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "toss",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "preparation": "about this much if noodles do not separate; add gradually",
+                "role": "cooking-water"
+              },
+              {
+                "id": "soy",
+                "key": "soy-sauce",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dark-soy",
+                "key": "dark-soy-sauce",
+                "name": "dark soy sauce",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "sesame-oil",
+                "name": "sesame oil",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sprouts",
+                "key": "mung-bean-sprouts",
+                "name": "mung bean sprouts",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and drained"
+              },
+              {
+                "id": "scallion",
+                "key": "scallion",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "julienned"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "noodles",
+            "title": "Prepare the noodles",
+            "text": "Prepare {{ingredients}} according to the product’s state. If the fresh noodles are raw, boil according to the package until al dente, rinse briefly with warm water and drain thoroughly. If already cooked, use a brief hot-water rinse to loosen them, then drain thoroughly. Set beside the stove."
+          },
+          {
+            "id": "coat",
+            "title": "Coat the chicken",
+            "text": "Combine {{ingredients}} in a bowl. Have the vegetables cut and all the seasonings measured before heating the wok; keep raw chicken separate from ready-to-eat food."
+          },
+          {
+            "id": "sear",
+            "title": "Cook the chicken",
+            "text": "Heat {{ingredients}} in a wok over high heat. Spread the coated chicken in a single layer and cook, turning as needed, until browned and the thickest strips reach 165°F / 74°C; insert a thin-tip thermometer from the side. Transfer to a clean plate. Use extra loads if needed and divide the measured searing oil among them; the final toss is brief."
+          },
+          {
+            "id": "vegetables",
+            "title": "Stir-fry the vegetables",
+            "text": "Have {{ingredients}} ready. Heat the oil in the wok and add garlic; after about 10 seconds, add cabbage and carrots. Stir-fry over high heat for about 1 minute, keeping everything moving. Use manageable pan loads rather than piling vegetables above the heated cooking surface."
+          },
+          {
+            "id": "wine",
+            "title": "Add the wine",
+            "text": "Add {{ingredients}} around the perimeter of the wok and toss with the vegetables."
+          },
+          {
+            "id": "toss",
+            "title": "Add noodles and chicken",
+            "text": "Return all the cooked chicken and add the prepared noodles. Lift and toss from the bottom for about 30 seconds. Use {{ingredients}} only if needed to separate clumped noodles, adding it gradually. Cover for about 1 minute, then uncover."
+          },
+          {
+            "id": "sauce",
+            "title": "Season",
+            "text": "Add {{ingredients}} and stir-fry for about 30 seconds until the noodles are evenly coated. If the whole measured batch is too large to toss freely, finish in loads, dividing the prepared chicken, noodles, vegetables and seasonings proportionally."
+          },
+          {
+            "id": "finish",
+            "title": "Finish",
+            "text": "Add {{ingredients}} and toss, starting to check at about 1 minute. Continue until the sprouts are thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness. Check chicken for 165°F / 74°C before serving. Divide among the portions and serve hot."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Prepare the right fresh noodle state before a fast lo mein toss",
+        "outcome": "Separate, evenly seasoned egg noodles with fully cooked chicken, cooked sprouts and vegetables that retain some bite.",
+        "techniques": ["stir-frying", "starch", "temperature"],
+        "before": [
+          "Fresh noodles may be raw or already cooked. Read the package before starting; the wok stage cannot replace boiling raw noodles until al dente.",
+          "Measure the coating oil, chicken-searing oil and vegetable oil separately. The cooking oil is additional to the oil coating the chicken.",
+          "The original batch lists six portions; appetites and accompanying dishes affect portion size. Use a wok that lets you turn the noodles freely, or finish in loads and divide all ingredients proportionally."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Noodles are al dente, loosened and thoroughly drained before entering the wok.",
+            "why": "Raw noodles need their package cooking step, while excess rinse water dilutes the modest sauce."
+          },
+          {
+            "step": 3,
+            "cue": "The thickest chicken strips measure 165°F / 74°C before going to a clean plate.",
+            "why": "The covered noodle stage and final toss are short; browning alone does not establish cooked chicken."
+          },
+          {
+            "step": 7,
+            "cue": "Noodles separate when lifted and have an even brown coating without a puddle beneath them.",
+            "why": "Lifting from the bottom distributes the soy-sesame seasoning without crushing the noodles."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Noodles clump together",
+            "cause": "They were not loosened before frying or have dried into a tight mass.",
+            "fix": "Lift gently from the bottom and use the listed optional loosening water gradually. Do not keep adding unmeasured liquid; loosen and drain the next noodle load before it enters the wok."
+          },
+          {
+            "problem": "The wok steams and is hard to toss",
+            "cause": "The batch is too large or the noodles brought in excess water.",
+            "fix": "Finish in smaller loads with proportional shares of every ingredient. Keep the already cooked chicken on its clean plate only while the remaining stages are completed."
+          }
+        ],
+        "storage": "Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and stirring for even heating. Noodles soften and sprouts lose crispness after storage; reheat only the portion needed.",
+        "timing": "The approximately 35-minute plan uses noodles already prepared for stir-frying: about 20 minutes of cutting and measuring, then about 15 minutes at the stove. Raw-noodle package cooking and water heating require additional elapsed time if they do not fit within preparation. Extra searing or finishing loads and thoroughly cooking sprouts can extend the stove time.",
+        "sources": [
+          {
+            "title": "The Woks of Life — Chicken lo mein",
+            "url": "https://thewoksoflife.com/chicken-lo-mein/"
+          },
+          {
+            "title": "FoodSafety.gov — Safe minimum internal temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Selecting and serving produce safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCornstarch lightly coats the sliced chicken while cabbage and carrots provide crunch. Loosen fresh egg noodles before stir-frying and have every sauce ingredient beside the stove.\n\n## Directions\n\n1. **Mix:** In a medium bowl, combine the chicken with 2 teaspoons each of cornstarch, water, and oil. In a wok over high heat, add 2 tablespoons oil, and sear the chicken for a couple minutes until browned. Remove from the wok, and set aside.\n\n2. **Cook:** Add another couple tablespoons of oil to the wok, and add the garlic. After 10 seconds, add the cabbage and carrots. Stir-fry on high heat for a minute and add the wine in a circle around the perimeter of the wok.\n\n3. **Continue:** Add the noodles and chicken back to the wok and mix well from the bottom up for about 30 seconds. If the noodles aren't coming apart, add about 1/4 cup water to the noodles to loosen them up a bit. Use a clean plate for the seared chicken. Check the thickest chicken strips for 165°F / 74°C before serving.\n\n4. **Continue:** Then cover the wok for one minute. Remove the cover and add the soy sauce, dark soy sauce, sesame oil, salt, and sugar. Stir-fry for 30 seconds, and add the bean sprouts and scallions. Stir-fry for one more minute and serve.\n",
+    "after": "\n## Chef's Note\n\nCornstarch lightly coats the sliced chicken while cabbage and carrots provide crunch. Loosen and drain the egg noodles before heating the wok, then lift them from the bottom to distribute the soy-sesame seasoning.\n\n## Directions\n\n1. **Prepare the noodles:** Prepare fresh lo mein egg noodles and noodle-preparation water according to the product’s state. If the fresh noodles are raw, boil according to the package until al dente, rinse briefly with warm water and drain thoroughly. If already cooked, use a brief hot-water rinse to loosen them, then drain thoroughly. Set beside the stove.\n2. **Coat the chicken:** Combine boneless skinless chicken thighs, cornstarch, water for the chicken coating, and oil for the chicken coating in a bowl. Have the vegetables cut and all the seasonings measured before heating the wok; keep raw chicken separate from ready-to-eat food.\n3. **Cook the chicken:** Heat oil for searing the chicken in a wok over high heat. Spread the coated chicken in a single layer and cook, turning as needed, until browned and the thickest strips reach 165°F / 74°C; insert a thin-tip thermometer from the side. Transfer to a clean plate. Use extra loads if needed and divide the measured searing oil among them; the final toss is brief.\n4. **Stir-fry the vegetables:** Have oil for the vegetables, garlic clove, cabbage, and medium carrots ready. Heat the oil in the wok and add garlic; after about 10 seconds, add cabbage and carrots. Stir-fry over high heat for about 1 minute, keeping everything moving. Use manageable pan loads rather than piling vegetables above the heated cooking surface.\n5. **Add the wine:** Add Shaoxing wine or dry sherry cooking wine around the perimeter of the wok and toss with the vegetables.\n6. **Add noodles and chicken:** Return all the cooked chicken and add the prepared noodles. Lift and toss from the bottom for about 30 seconds. Use water for loosening noodles (if using) only if needed to separate clumped noodles, adding it gradually. Cover for about 1 minute, then uncover.\n7. **Season:** Add soy sauce, dark soy sauce, sesame oil, salt, and sugar and stir-fry for about 30 seconds until the noodles are evenly coated. If the whole measured batch is too large to toss freely, finish in loads, dividing the prepared chicken, noodles, vegetables and seasonings proportionally.\n8. **Finish:** Add mung bean sprouts and scallions and toss, starting to check at about 1 minute. Continue until the sprouts are thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness. Check chicken for 165°F / 74°C before serving. Divide among the portions and serve hot.\n"
+  },
+  "findings": [
+    {
+      "id": "N04-L01",
+      "rationale": "Publisher establishes two product states. Preserves16oz/450g current noodles and exact conditional water supply, not today's extra sauce-mixing water.",
+      "confidence": "high",
+      "applicableSources": ["Woks chicken-lo-mein page + exact bound native/Git"],
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "formula.components",
+        "formula.steps",
+        "learning"
+      ],
+      "questions": []
+    },
+    {
+      "id": "N04-L02",
+      "rationale": "Interprets “couple” as two, openly documented; retains full saved/current method richness rather than confusing coating oil with cooking fat.",
+      "confidence": "high for coating/sear doses; medium-high for couple→two interpretation",
+      "applicableSources": [
+        "Woks chicken-lo-mein page + exact bound native/Git",
+        "exact frozen/native method"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "formula.components", "formula.steps"],
+      "questions": []
+    },
+    {
+      "id": "N04-L03",
+      "rationale": "Final cover/toss is brief. Retains prior9fa/e300 clean-plate/165 repair and does not assume browning or light sprout warming completes cooking.",
+      "confidence": "high",
+      "applicableSources": [
+        "Woks chicken-lo-mein page + exact bound native/Git",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures"
+      ],
+      "exactBeforeAfterReferences": ["formula.steps", "learning.checkpoints"],
+      "questions": []
+    },
+    {
+      "id": "N04-L04",
+      "rationale": "Saved native6yield is not a measured kitchen yield. Native20prep/30cook and current35min/publisher30min disagree; proposal does not claim one universally proved schedule.",
+      "confidence": "high for origin/category distinction; medium for conditional inherited time/yield",
+      "applicableSources": [
+        "Woks chicken-lo-mein page + exact bound native/Git",
+        "exact native/Git",
+        "FDA seafood/produce/handling; FoodSafety.gov minimum temperatures",
+        "USDA leftovers (actual scoped campaign retrieval; current direct403)"
+      ],
+      "exactBeforeAfterReferences": ["origin", "servings", "totalTime", "learning"],
+      "questions": []
+    },
+    {
+      "id": "N04-I03",
+      "rationale": "Use cooking prose in the public checkpoint. “Saved” discloses review/archive context; “seasoning” describes the ingredients actually added after the covered toss without implying another prepared sauce route.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": ["learning.checkpoints[2].why"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Restaurant-Style%20Chicken%20Lo%20Mein.html",
+    "introductionScope": "Actual earlier retained cooking text independently verified; full followed history retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Exact original, later adaptation and current publisher ingredient/product disagreements are separately recorded; current source popularity is not formula evidence.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": {
+    "canonicalLedger": "evidence/restaurant-style-chicken-lo-mein-ledgers.json",
+    "wholeSavedSource": "evidence/restaurant-style-chicken-lo-mein-bound-original-cooking.json",
+    "sourceFormulaIsNotContemporaryPublisherCertification": true
+  },
+  "ledger": {
+    "slug": "restaurant-style-chicken-lo-mein",
+    "frozenLedger": [
+      {
+        "index": 0,
+        "exactInput": "8 oz. boneless skinless chicken thighs (225g, cut into thin strips)",
+        "stateAndActualDestination": "Rawstripscoated/seared1removedbrown;165cleanplateinstructionlater3."
+      },
+      {
+        "index": 1,
+        "exactInput": "2 teaspoons cornstarch",
+        "stateAndActualDestination": "2tspstarchcoating1."
+      },
+      {
+        "index": 2,
+        "exactInput": "2 teaspoons water",
+        "stateAndActualDestination": "2tspwatercoating1."
+      },
+      {
+        "index": 3,
+        "exactInput": "2 teaspoons oil (plus more for cooking)",
+        "stateAndActualDestination": "2tspoilcoating1;methodextra2tbspsear+coupletbspvegnotlistedquantities."
+      },
+      {
+        "index": 4,
+        "exactInput": "1 clove garlic (minced)",
+        "stateAndActualDestination": "Garlicstep2about10sec."
+      },
+      {
+        "index": 5,
+        "exactInput": "4 cups cabbage (shredded)",
+        "stateAndActualDestination": "Cabbagestep2."
+      },
+      {
+        "index": 6,
+        "exactInput": "2 medium carrots (julienned)",
+        "stateAndActualDestination": "Carrotsstep2."
+      },
+      {
+        "index": 7,
+        "exactInput": "1 tablespoon shaoxing wine (or dry sherry cooking wine)",
+        "stateAndActualDestination": "Winestep2perimeter."
+      },
+      {
+        "index": 8,
+        "exactInput": "16 oz. fresh lo mein egg noodles (450g)",
+        "stateAndActualDestination": "Freshnoodlesstep3without raw/cookedprep;¼cupoptionalwatermethodonly."
+      },
+      {
+        "index": 9,
+        "exactInput": "1 tablespoon soy sauce",
+        "stateAndActualDestination": "Soystep4aftercoveredtoss."
+      },
+      {
+        "index": 10,
+        "exactInput": "4 teaspoons dark soy sauce",
+        "stateAndActualDestination": "Darksoystep4."
+      },
+      {
+        "index": 11,
+        "exactInput": "1 teaspoon sesame oil",
+        "stateAndActualDestination": "Sesameoilstep4."
+      },
+      {
+        "index": 12,
+        "exactInput": "1/8 teaspoon salt",
+        "stateAndActualDestination": "Saltstep4."
+      },
+      {
+        "index": 13,
+        "exactInput": "1/8 teaspoon sugar",
+        "stateAndActualDestination": "Sugarstep4."
+      },
+      {
+        "index": 14,
+        "exactInput": "2 cups mung bean sprouts",
+        "stateAndActualDestination": "Sproutsstep4only1min."
+      },
+      {
+        "index": 15,
+        "exactInput": "2 scallions (julienned)",
+        "stateAndActualDestination": "Scallionsstep4."
+      }
+    ],
+    "proposedLedger": [
+      {
+        "id": "chicken.chicken",
+        "exactInput": {
+          "name": "boneless skinless chicken thighs",
+          "quantity": {
+            "amount": 8,
+            "unit": "oz"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": [
+            {
+              "amount": 225,
+              "unit": "g"
+            }
+          ],
+          "preparation": "raw, fully thawed if frozen, cut into thin strips",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Coat→fully165°Fsear→cleanplate→briefcoveredtoss→final165check→serve."
+      },
+      {
+        "id": "chicken.starch",
+        "exactInput": {
+          "name": "cornstarch",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "chicken.water",
+        "exactInput": {
+          "name": "water for the chicken coating",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "chicken.coating-oil",
+        "exactInput": {
+          "name": "oil for the chicken coating",
+          "quantity": {
+            "amount": 2,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "chicken.sear-oil",
+        "exactInput": {
+          "name": "oil for searing the chicken",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.noodles",
+        "exactInput": {
+          "name": "fresh lo mein egg noodles",
+          "quantity": {
+            "amount": 16,
+            "unit": "oz"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": [
+            {
+              "amount": 450,
+              "unit": "g"
+            }
+          ],
+          "preparation": "check whether raw or already cooked",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Exclusive rawboil/warmrinseORalreadycookedhotrinse→thoroughdrain→coveredtoss→season→serve; measured16oz/450gproductinput retained, no raw/cooked eq."
+      },
+      {
+        "id": "noodles.prep-water",
+        "exactInput": {
+          "name": "noodle-preparation water",
+          "quantity": null,
+          "allowance": "as needed for the package cooking or hot rinse",
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "noodles",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.veg-oil",
+        "exactInput": {
+          "name": "oil for the vegetables",
+          "quantity": {
+            "amount": 2,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.garlic",
+        "exactInput": {
+          "name": "garlic clove",
+          "quantity": {
+            "amount": 1,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "minced",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.cabbage",
+        "exactInput": {
+          "name": "cabbage",
+          "quantity": {
+            "amount": 4,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "shredded",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.carrot",
+        "exactInput": {
+          "name": "medium carrot",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "julienned",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.wine",
+        "exactInput": {
+          "name": "Shaoxing wine or dry sherry cooking wine",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "wine",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.loosening-water",
+        "exactInput": {
+          "name": "water for loosening noodles",
+          "quantity": {
+            "amount": "1/4",
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "about this much if noodles do not separate; add gradually",
+          "optional": true,
+          "role": "cooking-water"
+        },
+        "allocations": [
+          {
+            "step": "toss",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Optionalabout¼cuporiginal-scaledsupply→addgraduallyonlyifneeded; no forcedfull-dose sauce dilution."
+      },
+      {
+        "id": "noodles.soy",
+        "exactInput": {
+          "name": "soy sauce",
+          "quantity": {
+            "amount": 1,
+            "unit": "tbsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.dark-soy",
+        "exactInput": {
+          "name": "dark soy sauce",
+          "quantity": {
+            "amount": 4,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.sesame",
+        "exactInput": {
+          "name": "sesame oil",
+          "quantity": {
+            "amount": 1,
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.salt",
+        "exactInput": {
+          "name": "salt",
+          "quantity": {
+            "amount": "1/8",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.sugar",
+        "exactInput": {
+          "name": "sugar",
+          "quantity": {
+            "amount": "1/8",
+            "unit": "tsp"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": null,
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.sprouts",
+        "exactInput": {
+          "name": "mung bean sprouts",
+          "quantity": {
+            "amount": 2,
+            "unit": "cup"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "washed and drained",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      },
+      {
+        "id": "noodles.scallion",
+        "exactInput": {
+          "name": "scallion",
+          "quantity": {
+            "amount": 2,
+            "unit": "count"
+          },
+          "allowance": null,
+          "packageSize": null,
+          "equivalents": null,
+          "preparation": "julienned",
+          "optional": false,
+          "role": "ingredient"
+        },
+        "allocations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "physicalFlow": "Whole listed input has the stated authored allocation(s); downstream prepared food returns/serves as written, without another ingredient dose."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Saved/current main",
+        "disposition": "retained",
+        "allocation": "All current16ingredient doses/options, plus cooking oils and optional water already stated in method. Sauce remains after covered noodle stage; no publisher-only marinade/sauce ingredients added."
+      },
+      {
+        "name": "Contemporary publisher disagreement",
+        "disposition": "comparison only",
+        "differences": "Publisher adds1tsp oyster in marinade,2tbsp sauce water and⅛tsp white pepper, and mixes/applies sauce differently. Not evidence that household adopted them."
+      },
+      {
+        "name": "Wine choice",
+        "disposition": "exclusive preserved alternative",
+        "allocation": "Full1tbsp Shaoxing or dry sherry, no additional wine dose."
+      },
+      {
+        "name": "Raw or pre-cooked fresh noodle product",
+        "disposition": "explicit separate preparation routes",
+        "allocation": "Same16oz/450g measured noodles; actual package governs raw cooking, not invented raw/cooked weight equivalence."
+      }
+    ],
+    "methodGraph": [
+      {
+        "step": 1,
+        "id": "noodles",
+        "title": "Prepare the noodles",
+        "allocatedIngredients": ["noodles.noodles", "noodles.prep-water"],
+        "cue": [
+          {
+            "step": 1,
+            "cue": "Noodles are al dente, loosened and thoroughly drained before entering the wok.",
+            "why": "Raw noodles need their package cooking step, while excess rinse water dilutes the modest sauce."
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "id": "coat",
+        "title": "Coat the chicken",
+        "allocatedIngredients": [
+          "chicken.chicken",
+          "chicken.starch",
+          "chicken.water",
+          "chicken.coating-oil"
+        ],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "sear",
+        "title": "Cook the chicken",
+        "allocatedIngredients": ["chicken.sear-oil"],
+        "cue": [
+          {
+            "step": 3,
+            "cue": "The thickest chicken strips measure 165°F / 74°C before going to a clean plate.",
+            "why": "The covered noodle stage and final toss are short; browning alone does not establish cooked chicken."
+          }
+        ]
+      },
+      {
+        "step": 4,
+        "id": "vegetables",
+        "title": "Stir-fry the vegetables",
+        "allocatedIngredients": [
+          "noodles.veg-oil",
+          "noodles.garlic",
+          "noodles.cabbage",
+          "noodles.carrot"
+        ],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "wine",
+        "title": "Add the wine",
+        "allocatedIngredients": ["noodles.wine"],
+        "cue": []
+      },
+      {
+        "step": 6,
+        "id": "toss",
+        "title": "Add noodles and chicken",
+        "allocatedIngredients": ["noodles.loosening-water"],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "sauce",
+        "title": "Season",
+        "allocatedIngredients": [
+          "noodles.soy",
+          "noodles.dark-soy",
+          "noodles.sesame",
+          "noodles.salt",
+          "noodles.sugar"
+        ],
+        "cue": [
+          {
+            "step": 7,
+            "cue": "Noodles separate when lifted and have an even brown coating without a puddle beneath them.",
+            "why": "Lifting from the bottom distributes the saved soy-sesame sauce without crushing the noodles."
+          }
+        ]
+      },
+      {
+        "step": 8,
+        "id": "finish",
+        "title": "Finish",
+        "allocatedIngredients": ["noodles.sprouts", "noodles.scallion"],
+        "cue": []
+      }
+    ],
+    "ratiosAndYieldScope": "8oz/225g chicken,16oz/450g fresh noodles,4cup cabbage/2carrots/2cupsprouts remain; relatively modest saved soy/sesame seasoning is deliberately retained. Cooking oil is additional to2tsp coating oil. Optional¼cup noodle-loosening water is not fixed sauce dilution.",
+    "linkedMeals": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare the noodles: Prepare fresh lo mein egg noodles and noodle-preparation water according to the product’s state. If the fresh noodles are raw, boil according to the package until al dente, rinse briefly with warm water and drain thoroughly. If already cooked, use a brief hot-water rinse to loosen them, then drain thoroughly. Set beside the stove."
+    },
+    {
+      "step": 2,
+      "text": "Coat the chicken: Combine boneless skinless chicken thighs, cornstarch, water for the chicken coating, and oil for the chicken coating in a bowl. Have the vegetables cut and all the seasonings measured before heating the wok; keep raw chicken separate from ready-to-eat food."
+    },
+    {
+      "step": 3,
+      "text": "Cook the chicken: Heat oil for searing the chicken in a wok over high heat. Spread the coated chicken in a single layer and cook, turning as needed, until browned and the thickest strips reach 165°F / 74°C; insert a thin-tip thermometer from the side. Transfer to a clean plate. Use extra loads if needed and divide the measured searing oil among them; the final toss is brief."
+    },
+    {
+      "step": 4,
+      "text": "Stir-fry the vegetables: Have oil for the vegetables, garlic clove, cabbage, and medium carrots ready. Heat the oil in the wok and add garlic; after about 10 seconds, add cabbage and carrots. Stir-fry over high heat for about 1 minute, keeping everything moving. Use manageable pan loads rather than piling vegetables above the heated cooking surface."
+    },
+    {
+      "step": 5,
+      "text": "Add the wine: Add Shaoxing wine or dry sherry cooking wine around the perimeter of the wok and toss with the vegetables."
+    },
+    {
+      "step": 6,
+      "text": "Add noodles and chicken: Return all the cooked chicken and add the prepared noodles. Lift and toss from the bottom for about 30 seconds. Use water for loosening noodles (if using) only if needed to separate clumped noodles, adding it gradually. Cover for about 1 minute, then uncover."
+    },
+    {
+      "step": 7,
+      "text": "Season: Add soy sauce, dark soy sauce, sesame oil, salt, and sugar and stir-fry for about 30 seconds until the noodles are evenly coated. If the whole measured batch is too large to toss freely, finish in loads, dividing the prepared chicken, noodles, vegetables and seasonings proportionally."
+    },
+    {
+      "step": 8,
+      "text": "Finish: Add mung bean sprouts and scallions and toss, starting to check at about 1 minute. Continue until the sprouts are thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness. Check chicken for 165°F / 74°C before serving. Divide among the portions and serve hot."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": [],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "2 oz (56 1/4 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "1/2 tsp cornstarch",
+        "1/2 tsp water for the chicken coating",
+        "1/2 tsp oil for the chicken coating",
+        "1/2 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "4 oz (112 1/2 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "1/2 tbsp oil for the vegetables",
+        "1/4 garlic clove, minced",
+        "1 cup cabbage, shredded",
+        "1/2 medium carrot, julienned",
+        "1/4 tbsp Shaoxing wine or dry sherry cooking wine",
+        "0.0625 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "1/4 tbsp soy sauce",
+        "1 tsp dark soy sauce",
+        "1/4 tsp sesame oil",
+        "0.0313 tsp salt",
+        "0.0313 tsp sugar",
+        "1/2 cup mung bean sprouts, washed and drained",
+        "1/2 scallion, julienned"
+      ],
+      "yield": "1 1/2 portions",
+      "shopping": [
+        "2 oz (56 1/4 g) boneless skinless chicken thighs",
+        "1/2 tsp cornstarch",
+        "1/2 tsp oil for the chicken coating",
+        "1/2 tbsp oil for searing the chicken",
+        "4 oz (112 1/2 g) fresh lo mein egg noodles",
+        "1/2 tbsp oil for the vegetables",
+        "1/4 garlic clove",
+        "1 cup cabbage",
+        "1/2 medium carrot",
+        "1/4 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/4 tbsp soy sauce",
+        "1 tsp dark soy sauce",
+        "1/4 tsp sesame oil",
+        "0.0313 tsp salt",
+        "0.0313 tsp sugar",
+        "1/2 cup mung bean sprouts",
+        "1/2 scallion"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 2,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 4,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 0.25,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 1,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.0625,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 0.25,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.03125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.03125
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.03125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.03125
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "4 oz (112 1/2 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "1 tsp cornstarch",
+        "1 tsp water for the chicken coating",
+        "1 tsp oil for the chicken coating",
+        "1 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "8 oz (225 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "1 tbsp oil for the vegetables",
+        "1/2 garlic clove, minced",
+        "2 cups cabbage, shredded",
+        "1 medium carrot, julienned",
+        "1/2 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/8 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "1/2 tbsp soy sauce",
+        "2 tsp dark soy sauce",
+        "1/2 tsp sesame oil",
+        "0.0625 tsp salt",
+        "0.0625 tsp sugar",
+        "1 cup mung bean sprouts, washed and drained",
+        "1 scallion, julienned"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "4 oz (112 1/2 g) boneless skinless chicken thighs",
+        "1 tsp cornstarch",
+        "1 tsp oil for the chicken coating",
+        "1 tbsp oil for searing the chicken",
+        "8 oz (225 g) fresh lo mein egg noodles",
+        "1 tbsp oil for the vegetables",
+        "1/2 garlic clove",
+        "2 cups cabbage",
+        "1 medium carrot",
+        "1/2 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/2 tbsp soy sauce",
+        "2 tsp dark soy sauce",
+        "1/2 tsp sesame oil",
+        "0.0625 tsp salt",
+        "0.0625 tsp sugar",
+        "1 cup mung bean sprouts",
+        "1 scallion"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 4,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 8,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 0.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 2,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.125,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 0.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.0625,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.0625,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.0625
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 1,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "8 oz (225 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "2 tsp cornstarch",
+        "2 tsp water for the chicken coating",
+        "2 tsp oil for the chicken coating",
+        "2 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "16 oz (450 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "2 tbsp oil for the vegetables",
+        "1 garlic clove, minced",
+        "4 cups cabbage, shredded",
+        "2 medium carrots, julienned",
+        "1 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/4 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "1 tbsp soy sauce",
+        "4 tsp dark soy sauce",
+        "1 tsp sesame oil",
+        "1/8 tsp salt",
+        "1/8 tsp sugar",
+        "2 cups mung bean sprouts, washed and drained",
+        "2 scallions, julienned"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "8 oz (225 g) boneless skinless chicken thighs",
+        "2 tsp cornstarch",
+        "2 tsp oil for the chicken coating",
+        "2 tbsp oil for searing the chicken",
+        "16 oz (450 g) fresh lo mein egg noodles",
+        "2 tbsp oil for the vegetables",
+        "1 garlic clove",
+        "4 cups cabbage",
+        "2 medium carrots",
+        "1 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1 tbsp soy sauce",
+        "4 tsp dark soy sauce",
+        "1 tsp sesame oil",
+        "1/8 tsp salt",
+        "1/8 tsp sugar",
+        "2 cups mung bean sprouts",
+        "2 scallions"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 8,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 16,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 16
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 4,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 2,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "12 oz (337 1/2 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "3 tsp cornstarch",
+        "3 tsp water for the chicken coating",
+        "3 tsp oil for the chicken coating",
+        "3 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "24 oz (675 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "3 tbsp oil for the vegetables",
+        "1 1/2 garlic cloves, minced",
+        "6 cups cabbage, shredded",
+        "3 medium carrots, julienned",
+        "1 1/2 tbsp Shaoxing wine or dry sherry cooking wine",
+        "3/8 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "1 1/2 tbsp soy sauce",
+        "6 tsp dark soy sauce",
+        "1 1/2 tsp sesame oil",
+        "0.19 tsp salt",
+        "0.19 tsp sugar",
+        "3 cups mung bean sprouts, washed and drained",
+        "3 scallions, julienned"
+      ],
+      "yield": "9 portions",
+      "shopping": [
+        "12 oz (337 1/2 g) boneless skinless chicken thighs",
+        "3 tsp cornstarch",
+        "3 tsp oil for the chicken coating",
+        "3 tbsp oil for searing the chicken",
+        "24 oz (675 g) fresh lo mein egg noodles",
+        "3 tbsp oil for the vegetables",
+        "1 1/2 garlic cloves",
+        "6 cups cabbage",
+        "3 medium carrots",
+        "1 1/2 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1 1/2 tbsp soy sauce",
+        "6 tsp dark soy sauce",
+        "1 1/2 tsp sesame oil",
+        "0.19 tsp salt",
+        "0.19 tsp sugar",
+        "3 cups mung bean sprouts",
+        "3 scallions"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 12,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 3,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 3,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 3,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 24,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 24
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 1.5,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 6,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.375,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 6,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.1875,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.1875
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.1875,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.1875
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 3,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "16 oz (450 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "4 tsp cornstarch",
+        "4 tsp water for the chicken coating",
+        "4 tsp oil for the chicken coating",
+        "4 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "32 oz (900 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "4 tbsp oil for the vegetables",
+        "2 garlic cloves, minced",
+        "8 cups cabbage, shredded",
+        "4 medium carrots, julienned",
+        "2 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/2 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "2 tbsp soy sauce",
+        "8 tsp dark soy sauce",
+        "2 tsp sesame oil",
+        "1/4 tsp salt",
+        "1/4 tsp sugar",
+        "4 cups mung bean sprouts, washed and drained",
+        "4 scallions, julienned"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "16 oz (450 g) boneless skinless chicken thighs",
+        "4 tsp cornstarch",
+        "4 tsp oil for the chicken coating",
+        "4 tbsp oil for searing the chicken",
+        "32 oz (900 g) fresh lo mein egg noodles",
+        "4 tbsp oil for the vegetables",
+        "2 garlic cloves",
+        "8 cups cabbage",
+        "4 medium carrots",
+        "2 tbsp Shaoxing wine or dry sherry cooking wine",
+        "2 tbsp soy sauce",
+        "8 tsp dark soy sauce",
+        "2 tsp sesame oil",
+        "1/4 tsp salt",
+        "1/4 tsp sugar",
+        "4 cups mung bean sprouts",
+        "4 scallions"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 16,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 16
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 32,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 32
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 4,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 8,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 4,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.5,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.5
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 8,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 4,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 4,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "24 oz (675 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "6 tsp cornstarch",
+        "6 tsp water for the chicken coating",
+        "6 tsp oil for the chicken coating",
+        "6 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "48 oz (1350 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "6 tbsp oil for the vegetables",
+        "3 garlic cloves, minced",
+        "12 cups cabbage, shredded",
+        "6 medium carrots, julienned",
+        "3 tbsp Shaoxing wine or dry sherry cooking wine",
+        "3/4 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "3 tbsp soy sauce",
+        "12 tsp dark soy sauce",
+        "3 tsp sesame oil",
+        "3/8 tsp salt",
+        "3/8 tsp sugar",
+        "6 cups mung bean sprouts, washed and drained",
+        "6 scallions, julienned"
+      ],
+      "yield": "18 portions",
+      "shopping": [
+        "24 oz (675 g) boneless skinless chicken thighs",
+        "6 tsp cornstarch",
+        "6 tsp oil for the chicken coating",
+        "6 tbsp oil for searing the chicken",
+        "48 oz (1350 g) fresh lo mein egg noodles",
+        "6 tbsp oil for the vegetables",
+        "3 garlic cloves",
+        "12 cups cabbage",
+        "6 medium carrots",
+        "3 tbsp Shaoxing wine or dry sherry cooking wine",
+        "3 tbsp soy sauce",
+        "12 tsp dark soy sauce",
+        "3 tsp sesame oil",
+        "3/8 tsp salt",
+        "3/8 tsp sugar",
+        "6 cups mung bean sprouts",
+        "6 scallions"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 24,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 24
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 6,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 6,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 6,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 48,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 48
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 6,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 3,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 12,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 6,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.75,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.75
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 3,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 12,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 12
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 3,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 3
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.375,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.375,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.375
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 6,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 6,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 6
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Chicken coating and sear ---",
+        "8 oz (225 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips",
+        "2 tsp cornstarch",
+        "2 tsp water for the chicken coating",
+        "2 tsp oil for the chicken coating",
+        "2 tbsp oil for searing the chicken",
+        "--- Noodles, vegetables and sauce ---",
+        "16 oz (450 g) fresh lo mein egg noodles, check whether raw or already cooked",
+        "noodle-preparation water, as needed for the package cooking or hot rinse",
+        "2 tbsp oil for the vegetables",
+        "1 garlic clove, minced",
+        "4 cups cabbage, shredded",
+        "2 medium carrots, julienned",
+        "1 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1/4 cup water for loosening noodles, about this much if noodles do not separate; add gradually, optional",
+        "1 tbsp soy sauce",
+        "4 tsp dark soy sauce",
+        "1 tsp sesame oil",
+        "1/8 tsp salt",
+        "1/8 tsp sugar",
+        "2 cups mung bean sprouts, washed and drained",
+        "2 scallions, julienned"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "8 oz (225 g) boneless skinless chicken thighs",
+        "2 tsp cornstarch",
+        "2 tsp oil for the chicken coating",
+        "2 tbsp oil for searing the chicken",
+        "16 oz (450 g) fresh lo mein egg noodles",
+        "2 tbsp oil for the vegetables",
+        "1 garlic clove",
+        "4 cups cabbage",
+        "2 medium carrots",
+        "1 tbsp Shaoxing wine or dry sherry cooking wine",
+        "1 tbsp soy sauce",
+        "4 tsp dark soy sauce",
+        "1 tsp sesame oil",
+        "1/8 tsp salt",
+        "1/8 tsp sugar",
+        "2 cups mung bean sprouts",
+        "2 scallions"
+      ],
+      "allocations": [
+        {
+          "id": "chicken.chicken",
+          "quantity": 8,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 8
+            }
+          ]
+        },
+        {
+          "id": "chicken.starch",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.water",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.coating-oil",
+          "quantity": 2,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "coat",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "chicken.sear-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sear",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.noodles",
+          "quantity": 16,
+          "unit": "oz",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": 16
+            }
+          ]
+        },
+        {
+          "id": "noodles.prep-water",
+          "quantity": null,
+          "unit": null,
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "noodles",
+              "share": 1,
+              "scaledAmount": null
+            }
+          ]
+        },
+        {
+          "id": "noodles.veg-oil",
+          "quantity": 2,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.garlic",
+          "quantity": 1,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.cabbage",
+          "quantity": 4,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.carrot",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "vegetables",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.wine",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "wine",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.loosening-water",
+          "quantity": 0.25,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "toss",
+              "share": 1,
+              "scaledAmount": 0.25
+            }
+          ]
+        },
+        {
+          "id": "noodles.soy",
+          "quantity": 1,
+          "unit": "tbsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.dark-soy",
+          "quantity": 4,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 4
+            }
+          ]
+        },
+        {
+          "id": "noodles.sesame",
+          "quantity": 1,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 1
+            }
+          ]
+        },
+        {
+          "id": "noodles.salt",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "noodles.sugar",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "sauce",
+              "share": 1,
+              "scaledAmount": 0.125
+            }
+          ]
+        },
+        {
+          "id": "noodles.sprouts",
+          "quantity": 2,
+          "unit": "cup",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        },
+        {
+          "id": "noodles.scallion",
+          "quantity": 2,
+          "unit": "count",
+          "packageSize": null,
+          "uses": [
+            {
+              "step": "finish",
+              "share": 1,
+              "scaledAmount": 2
+            }
+          ]
+        }
+      ],
+      "methodIsUnscaledByContract": true,
+      "directionsSha256": "be4969007441d19360081f87547305e9504c8c7538bfdd7a0762c9de6abdb59e",
+      "cutAndEndpointGeometryFixed": true
+    }
+  ],
+  "preservedPriorRepairs": [
+    "9fa/e300 clean-plate and165°F repair",
+    "Every saved/current dose, thigh identity and equivalents; full cooking oil",
+    "SourceURL, credit, Chinese cuisine, miseId/title and absent fixed-scaling override"
+  ],
+  "remainingQuestions": [
+    "Identify actual fresh noodle state/product and measure its preparation time.",
+    "Confirm six planning portions against appetite and actual wok loads, rather than claiming six tested household servings.",
+    "Observe thoroughly cooked sprout texture and measured chicken endpoint with thin slices."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
+  "rootDisposition": "Whole author and independent source reviews are retained; root read each complete current-to-final cooking diff. Bounded independent corrections were replayed exactly and root inspected actual final fields/body. Source conflicts remain explicit; unrelated linked meals, held Japchae and other source/model holds receive no approval. Kitchen testing and actual print preview remain unperformed.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

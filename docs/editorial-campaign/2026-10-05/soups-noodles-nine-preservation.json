@@ -1,0 +1,117 @@
+{
+  "inputCommit": "cd3e3c9d90dd0c88518fb4175e64b9dbbb53114a",
+  "changed": 9,
+  "unchanged": 634,
+  "protectedIdentities": 643,
+  "exactPairedFieldsAndBody": true,
+  "registerPromotions": 9,
+  "unrelatedReviewCreditPreserved": true,
+  "changedExportSchemas": 9,
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "chicken-tortilla-soup-iii",
+      "acceptedSourceSha256": "6d5cf372397e01f17117ad0a9162f19f846dbe33c4cc2d521ec0fcb8ff3b29b8",
+      "remainingQuestions": [
+        "Actual chicken-breast sizes are not recorded; six halves is preserved, not converted to an invented weight.",
+        "Pot capacity and finished serving volume need kitchen measurement."
+      ]
+    },
+    {
+      "slug": "fennel-and-carrot-soup",
+      "acceptedSourceSha256": "7f53e7e77aaf1fa7d473990de1562c964ef15f0058583a10eda3538c306ffb85",
+      "remainingQuestions": [
+        "Actual vegetable sizes, finished yield and pot capacity remain unmeasured.",
+        "Check the actual blender model; cooling-required routes add time."
+      ]
+    },
+    {
+      "slug": "miso-soup",
+      "acceptedSourceSha256": "10016bca7ff70f2b6456284d03a58b290fd82615cfca76271bc1925d76021108",
+      "remainingQuestions": [
+        "Actual wakame package hydration directions and instant dashi product are unspecified.",
+        "Household preference between smaller current and exact saved six-serving formula remains open; neither formula is kitchen-certified."
+      ]
+    },
+    {
+      "slug": "roasted-red-pepper-and-sweet-potato-soup",
+      "acceptedSourceSha256": "a3ca060f82a117d7ef171f23803086b667ee5a0c4363d99bc65f5d85b1ed1537",
+      "remainingQuestions": [
+        "Actual slow-cooker and blender models and tested fill capacity are unknown.",
+        "About6cups finished soup is the publisher’s estimate, not a measured current yield.",
+        "Saved pinch/garnish differs from publisher½tsp cooking flakes; retain pinch, no automatic increase."
+      ]
+    },
+    {
+      "slug": "warm-spiced-butternut-squash-soup",
+      "acceptedSourceSha256": "fa64e8278eab5f2d1604c16113714b5471596444ee3016501d27c280c147d4d6",
+      "remainingQuestions": [
+        "Kosher-salt brand/crystal density and household preferred seasoning remain unspecified; exact saved volume preserved.",
+        "Actual whole-squash edible yield, pot capacity and finished serving volume are unmeasured.",
+        "Current MyRecipes page could not be fetched; exact bound native and first/full Git establish the saved formula and route.",
+        "Household preference between covered softening and the explicitly retained browned-flesh variation is untested. The variation combines the current browned-flesh mechanism with the recovered complete oil allocation; it is not verbatim native."
+      ]
+    },
+    {
+      "slug": "pad-thai",
+      "acceptedSourceSha256": "f4427b18db4830def7095f050429df6f395c317da093e10459e589095828a99a",
+      "remainingQuestions": [
+        "Confirm8oz wide noodle hydration and sauce balance with actual tamarind product.",
+        "Record actual single-pan load, elapsed/active times and fully cooked sprout texture.",
+        "Weigh finished portions rather than asserting source/current3/2–3 as measured yield."
+      ]
+    },
+    {
+      "slug": "mongolian-chicken",
+      "acceptedSourceSha256": "74eefcedb573c74864fec5d882de23d94916d8867007a646a3fa720c08580cb6",
+      "remainingQuestions": [
+        "Observe starch pickup, actual frying oil retention and how much slurry is needed before gelation.",
+        "Record single-layer capacity and actual165°F clocks for breast versus thigh.",
+        "Assess glaze/crust texture after brief, evenly heated leftover reheating."
+      ]
+    },
+    {
+      "slug": "restaurant-style-chicken-lo-mein",
+      "acceptedSourceSha256": "fd20d557bc2a626e7c5bb27e9b15785d211cafc4f1da2d5d4939f33108056926",
+      "remainingQuestions": [
+        "Identify actual fresh noodle state/product and measure its preparation time.",
+        "Confirm six planning portions against appetite and actual wok loads, rather than claiming six tested household servings.",
+        "Observe thoroughly cooked sprout texture and measured chicken endpoint with thin slices."
+      ]
+    },
+    {
+      "slug": "pan-fried-noodles-with-shrimp",
+      "acceptedSourceSha256": "6b3c7a7f798a59a55667d465f049d5d9b9e163fabc0c27313f7b10da81397864",
+      "remainingQuestions": [
+        "Measure pan/noodle layer, all actual oil input and separate cake/gravy reheating quality.",
+        "Check preferred carrot/mushroom split and actual full-slurry fraction needed.",
+        "Record greens product, shrimp size, temperatures/cues and actual load clocks."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 58,
+    "targetedLint": "Zero errors; four existing missing-pairing metadata warnings, preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12010,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 9 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 9,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All nine print controls enabled and shared print styles preserved; actual print preview unverified.",
+    "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}
