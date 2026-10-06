@@ -1,0 +1,1019 @@
+{
+  "slug": "peach-pie-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "6665d2ab45b46da59e727059888d8421e6bca8b4d7aa898af0acb30ff597cc68",
+  "acceptedSourceSha256": "faccf7002b5a4b7a89df60c16a96066f3d466a1daf3d3d0ffd06a00111acf764",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["no-cook"],
+      "after": ["griddle"]
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "3–5 min per pan load"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "25 min reference, plus additional pan loads"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup White Whole Wheat Flour",
+        "1/2 cup Plain Greek Yogurt for richness",
+        "3/4 cup Nonfat Milk",
+        "1/2 cup Fresh Peaches, finely diced",
+        "1 1/2 tsp Baking Powder",
+        "3/4 tsp Ground Cinnamon",
+        "1/4 tsp Sea Salt",
+        "2 tsp Pure Vanilla Extract",
+        "1 tsp Unsalted Butter, melted"
+      ],
+      "after": [
+        "1 cup White Whole Wheat Flour",
+        "1/2 cup Plain Greek Yogurt for richness",
+        "3/4 cup Nonfat Milk",
+        "1/2 cup Fresh Peaches, finely diced",
+        "1 1/2 tsp Baking Powder",
+        "3/4 tsp Ground Cinnamon",
+        "1/4 tsp Sea Salt",
+        "2 tsp Pure Vanilla Extract",
+        "1 tsp Unsalted Butter, melted",
+        "Oil Spray, for the skillet",
+        "Maple Syrup, for serving, optional",
+        "Additional Fresh Peach Slices, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 400,
+        "protein": 2.5,
+        "carbs": 6,
+        "fat": 41.5,
+        "fiber": 1,
+        "sugar": 0.5,
+        "sodium": 200
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Alternating dry mixture and milk into a yogurt batter, then cooking small pancakes over low heat.",
+        "outcome": "Small pancakes with distributed peach pieces and cooked centers before the surfaces become too dark.",
+        "techniques": ["leavening", "starch", "temperature"],
+        "before": [
+          "Finely dice the full peach amount; drain canned fruit before measuring. The original yield plans 16 small pancakes at roughly 2 tbsp batter each; choose how many pancakes to serve per person.",
+          "Use the listed melted-fat amount. The source alternates flour and milk; do not add all the milk first and then beat the mixture smooth."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No dry flour remains after gentle folding, and peaches are distributed.",
+            "why": "Overworking the flour-containing batter can toughen the pancakes; small lumps may remain but are not a mandatory endpoint."
+          },
+          {
+            "step": 5,
+            "cue": "Edges look set before flipping, and the second-side center is cooked.",
+            "why": "Low heat and small portions give the batter time to set; browning alone is incomplete evidence of center doneness."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pancakes brown while the center stays wet.",
+            "cause": "The pan is too hot or portions are larger than the two-tablespoon guide.",
+            "fix": "Lower the heat and finish cooking; use the original small portion size for later loads."
+          },
+          {
+            "problem": "The yogurt mixture has firm fat flecks.",
+            "cause": "Melted butter or coconut oil solidified against cooler yogurt.",
+            "fix": "Before adding flour, gently warm that egg-free mixture just until the flecks melt; follow the actual microwave instructions."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Butter",
+            "alternative": "Same full listed amount of coconut oil",
+            "effect": "An exclusive fat choice; it can also solidify against cool yogurt."
+          },
+          {
+            "ingredient": "White whole-wheat flour",
+            "alternative": "Separate millet/tapioca/brown-rice/xanthan blend in Cooking Notes",
+            "effect": "Scale the complete blend with the flour amount; absorption and texture differ."
+          }
+        ],
+        "storage": "Divide leftovers into shallow covered containers and refrigerate promptly within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. If reheating stored pancakes, heat through to 165°F / 74°C. Freeze fully cooled pancakes in separated layers in an airtight container at 0°F / −18°C or below; thaw in the refrigerator.",
+        "timing": "The original 15-minute preparation and 10-minute cooking estimate gives a 25-minute reference. Actual cooking takes about 3–5 minutes for each pan load, so a skillet that needs more than the reference number of loads extends elapsed time. Batch count depends on usable pan area; neither portions nor cook time multiply directly.",
+        "sources": [
+          {
+            "title": "Amy’s Healthy Baking — egg-free batter, alternate mixing and flour options",
+            "url": "https://amyshealthybaking.com/blog/2016/06/05/peach-pie-pancakes/"
+          },
+          {
+            "title": "FDA — flour handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "USDA — cooked leftovers",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to peach pie pancakes that aren't heavy is using Greek yogurt as the primary binder, creating a dense, custardy texture that mimics pie filling without excessive oil. Making small, 2-tablespoon \"silver dollar\" pancakes ensures the diced peaches are distributed evenly and the pancake cooks through before the fruit releases too much moisture. The cinnamon provides essential aromatic warmth.\n\n## Directions\n\n1.  **Dry Mix:** In a medium bowl, whisk together flour, baking powder, cinnamon, and salt.\n2.  **The Emulsion:** In a separate bowl, whisk yogurt, milk, vanilla, and melted butter until perfectly smooth.\n3.  **Combine:** Gradually add the dry mix to the wet in 4 parts. Stir with a spatula until **just incorporated**. Small lumps are mandatory for a light texture.\n4.  **Fold:** Gently fold in the diced peaches.\n5.  **Prep:** Heat a non-stick skillet over **low-medium** heat (crucial for whole wheat). Lightly grease with oil spray.\n6.  **Pour:** Drop 2-tbsp portions onto the skillet. Cook for 2-3 minutes until bubbles form and the edges look set.\n7.  **Flip:** Flip gently and cook for 1-2 more minutes until golden brown.\n8.  **Serve:** Serve with warm maple syrup and a few extra fresh peach slices.\n",
+    "after": "\n## Chef's Note\n\nThese small, egg-free pancakes use a yogurt-and-milk batter with finely diced peaches. Add the flour mixture and milk alternately, folding only until incorporated. Low skillet heat gives the center time to cook while the surface colors; the two-tablespoon portions are a size guide, not a promise that every pan fits the full batch at once.\n\n## Directions\n\n1. **Mix dry ingredients:** Whisk the flour, baking powder, cinnamon and salt in one bowl.\n2. **Mix the yogurt:** In a separate bowl, whisk the melted butter with the vanilla, then stir in the yogurt. If the butter has formed firm flecks, gently warm this egg-free yogurt mixture only enough to remelt them in a microwave-safe bowl, following the appliance instructions, before adding flour.\n3. **Combine:** Fold the dry mixture and milk alternately into the yogurt mixture, beginning and ending with the dry mixture in about four dry additions. Stir only until incorporated, without beating the batter smooth. Gently fold in all the finely diced peaches.\n4. **Heat the pan:** Heat a nonstick skillet or griddle over low heat and lightly coat with the listed spray. Cook only as many portions as fit with room for turning; additional loads extend the clock.\n5. **Cook:** Use about 2 tbsp batter for each small pancake. Cook 2–3 minutes on the first side, until bubbles appear and the edges look set. Flip and cook 1–2 minutes more, checking that the center is set rather than wet batter. Adjust heat down if surfaces brown before centers set; do not taste uncooked batter.\n6. **Serve or cool:** Serve with the optional maple syrup and additional peach slices. If storing, cool pancakes promptly in a shallow layer before packing; do not stack and seal a large hot pile.\n\n## Cooking Notes\n\nCoconut oil may replace all the listed butter in the batter. Fresh peaches may instead be the same full listed volume of peaches canned in 100% juice and drained. Whole-wheat pastry flour, regular whole-wheat flour or all-purpose flour may replace the listed flour volume; texture and absorption differ. In the original source batch, the ingredient-state equivalents are 120 g flour, 120 g plain nonfat Greek yogurt, 180 mL milk and 100 g prepared peaches; those are not universal density conversions for every yogurt or fruit cut.\n\nA separate gluten-free flour option replaces the entire original one-cup wheat-flour amount with ½ cup (60 g) millet flour, ¼ cup (30 g) tapioca flour, ¼ cup (30 g) brown-rice flour and ½ tsp xanthan gum. Scale all four additions with the flour amount; keep the full remaining batter ingredients and preparation. Check all chosen products for gluten-free suitability.\n\nThe original batch plans 16 small pancakes. Portion sizes, pan capacity and batter volume affect the count. Cooled pancakes may be frozen in separated layers, then packed airtight; thaw in the refrigerator.\n"
+  },
+  "findings": [
+    {
+      "id": "SF17-A01",
+      "rationale": "Preserve completeegg-free batter, restore sourcefat/fruit/flour options and actualalternatingmix, add existing unmeasured spray/servingingredients to ledger, distinguish16smallcount and per-loadcooking from25minutebatchreference. Remove mandatorylumps/primarybinder/custardy guarantee.",
+      "confidence": "Highsource/allocations; moderatepracticalcooking",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "23b28c81ec78e13a85ee322d7941da79dfc02a8b",
+        "https://amyshealthybaking.com/blog/2016/06/05/peach-pie-pancakes/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Nativeandcurrentprimary corroboratebase/sourceoptions,mixing,portionandlowheatclocks. FDAappliesto rawflourhandling only; panloadextensions andtextureadjustments are culinaryinference, nottestedcount.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "content",
+        "cookTime",
+        "totalTime",
+        "cookingMethods",
+        "learning"
+      ],
+      "questions": [
+        "Howmanytwo-tablespoon pancakesfitactualpan andwhatfinishedcountresults? Whichflourblend andyogurtstate are intended?"
+      ]
+    },
+    {
+      "id": "SF17-META",
+      "rationale": "Omit unsupportedcountryorigin andunverifiedbulknutrition while preserving peach-pie-pancakes source/style/currentrichness anddistinctsourceoptions.",
+      "confidence": "High for lack ofestablishedmetadataevidence; no nutrition/testclaim",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "Amy’s sourcefullformula supports the pancake style andoption amounts, but doesnot establish a birthcountry. Do not import sourcehealthmarketing or publishedmacros into currentGreek/salt/fat-state adaptation.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Peach%20Pie%20Pancakes.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 cup White Whole Wheat Flour",
+        "destination": "dry"
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup Plain Greek Yogurt for richness",
+        "destination": "yogurt"
+      },
+      {
+        "index": 2,
+        "text": "3/4 cup Nonfat Milk",
+        "destination": "combine"
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Fresh Peaches, finely diced",
+        "destination": "fold"
+      },
+      {
+        "index": 4,
+        "text": "1 1/2 tsp Baking Powder",
+        "destination": "dry"
+      },
+      {
+        "index": 5,
+        "text": "3/4 tsp Ground Cinnamon",
+        "destination": "dry"
+      },
+      {
+        "index": 6,
+        "text": "1/4 tsp Sea Salt",
+        "destination": "dry"
+      },
+      {
+        "index": 7,
+        "text": "2 tsp Pure Vanilla Extract",
+        "destination": "yogurt"
+      },
+      {
+        "index": 8,
+        "text": "1 tsp Unsalted Butter, melted",
+        "destination": "yogurt"
+      }
+    ],
+    "frozenMethodOnlyAllowances": [
+      "Oil spray, optionalmaplesyrup andextrapeachslices inmethod butnot ingredientlist."
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "1 cup White Whole Wheat Flour",
+        "destination": "dry",
+        "steps": [1],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 cup White Whole Wheat Flour",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup Plain Greek Yogurt for richness",
+        "destination": "yogurt",
+        "steps": [2],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1/2 cup Plain Greek Yogurt for richness",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 2,
+        "text": "3/4 cup Nonfat Milk",
+        "destination": "combine",
+        "steps": [3],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "3/4 cup Nonfat Milk",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Fresh Peaches, finely diced",
+        "destination": "combine",
+        "steps": [3],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1/2 cup Fresh Peaches, finely diced",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 4,
+        "text": "1 1/2 tsp Baking Powder",
+        "destination": "dry",
+        "steps": [1],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 1/2 tsp Baking Powder",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 5,
+        "text": "3/4 tsp Ground Cinnamon",
+        "destination": "dry",
+        "steps": [1],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "3/4 tsp Ground Cinnamon",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 6,
+        "text": "1/4 tsp Sea Salt",
+        "destination": "dry",
+        "steps": [1],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1/4 tsp Sea Salt",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 7,
+        "text": "2 tsp Pure Vanilla Extract",
+        "destination": "yogurt",
+        "steps": [2],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "2 tsp Pure Vanilla Extract",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 8,
+        "text": "1 tsp Unsalted Butter, melted",
+        "destination": "yogurt",
+        "steps": [2],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 tsp Unsalted Butter, melted",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 9,
+        "text": "Oil Spray, for the skillet",
+        "destination": "pan",
+        "steps": [4],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "Oil Spray, for the skillet",
+        "optional": false,
+        "isUnmeasuredAllowance": true
+      },
+      {
+        "index": 10,
+        "text": "Maple Syrup, for serving, optional",
+        "destination": "serve",
+        "steps": [6],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "Maple Syrup, for serving, optional",
+        "optional": true,
+        "isUnmeasuredAllowance": true
+      },
+      {
+        "index": 11,
+        "text": "Additional Fresh Peach Slices, for serving, optional",
+        "destination": "serve",
+        "steps": [6],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "Additional Fresh Peach Slices, for serving, optional",
+        "optional": true,
+        "isUnmeasuredAllowance": true
+      }
+    ],
+    "originalCompleteIngredients": "1 cup (120g) white whole wheat flour or gluten-free* flour (measured like this)\n1 ½ tsp baking powder\n¾ tsp ground cinnamon\n¼ tsp salt\n1 tsp unsalted butter or coconut oil, melted\n2 tsp vanilla extract\n½ cup (120g) plain nonfat Greek yogurt\n¾ cup (180mL) nonfat milk\n½ cup (100g) finely diced peaches (fresh or canned in 100% juice and drained)"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "text": "1. **Mix dry ingredients:** Whisk the flour, baking powder, cinnamon and salt in one bowl.",
+      "dependsOn": [],
+      "parallelContext": null
+    },
+    {
+      "index": 2,
+      "text": "2. **Mix the yogurt:** In a separate bowl, whisk the melted butter with the vanilla, then stir in the yogurt. If the butter has formed firm flecks, gently warm this egg-free yogurt mixture only enough to remelt them in a microwave-safe bowl, following the appliance instructions, before adding flour.",
+      "dependsOn": [1],
+      "parallelContext": null
+    },
+    {
+      "index": 3,
+      "text": "3. **Combine:** Fold the dry mixture and milk alternately into the yogurt mixture, beginning and ending with the dry mixture in about four dry additions. Stir only until incorporated, without beating the batter smooth. Gently fold in all the finely diced peaches.",
+      "dependsOn": [2],
+      "parallelContext": null
+    },
+    {
+      "index": 4,
+      "text": "4. **Heat the pan:** Heat a nonstick skillet or griddle over low heat and lightly coat with the listed spray. Cook only as many portions as fit with room for turning; additional loads extend the clock.",
+      "dependsOn": [3],
+      "parallelContext": null
+    },
+    {
+      "index": 5,
+      "text": "5. **Cook:** Use about 2 tbsp batter for each small pancake. Cook 2–3 minutes on the first side, until bubbles appear and the edges look set. Flip and cook 1–2 minutes more, checking that the center is set rather than wet batter. Adjust heat down if surfaces brown before centers set; do not taste uncooked batter.",
+      "dependsOn": [4],
+      "parallelContext": null
+    },
+    {
+      "index": 6,
+      "text": "6. **Serve or cool:** Serve with the optional maple syrup and additional peach slices. If storing, cool pancakes promptly in a shallow layer before packing; do not stack and seal a large hot pile.",
+      "dependsOn": [5],
+      "parallelContext": null
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Coconut oil",
+        "changes": [
+          {
+            "replaceIndex": 8,
+            "text": "1 tsp Coconut Oil, melted",
+            "destination": "yogurt"
+          }
+        ],
+        "scope": "Exclusivefat; remainingfullmain unchanged.",
+        "completeUnchangedMain": [
+          {
+            "index": 0,
+            "text": "1 cup White Whole Wheat Flour",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 cup White Whole Wheat Flour",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 1,
+            "text": "1/2 cup Plain Greek Yogurt for richness",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Plain Greek Yogurt for richness",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 2,
+            "text": "3/4 cup Nonfat Milk",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 cup Nonfat Milk",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 3,
+            "text": "1/2 cup Fresh Peaches, finely diced",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Fresh Peaches, finely diced",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 4,
+            "text": "1 1/2 tsp Baking Powder",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 tsp Baking Powder",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 5,
+            "text": "3/4 tsp Ground Cinnamon",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 tsp Ground Cinnamon",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 6,
+            "text": "1/4 tsp Sea Salt",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 tsp Sea Salt",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 7,
+            "text": "2 tsp Pure Vanilla Extract",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "2 tsp Pure Vanilla Extract",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 9,
+            "text": "Oil Spray, for the skillet",
+            "destination": "pan",
+            "steps": [4],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Oil Spray, for the skillet",
+            "optional": false,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 10,
+            "text": "Maple Syrup, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Maple Syrup, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 11,
+            "text": "Additional Fresh Peach Slices, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Additional Fresh Peach Slices, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          }
+        ],
+        "completeChangedIngredients": [
+          {
+            "replaceIndex": 8,
+            "text": "1 tsp Coconut Oil, melted",
+            "destination": "yogurt"
+          }
+        ],
+        "wholeVariantNotCombinedWithMain": true
+      },
+      {
+        "name": "Canned peach",
+        "changes": [
+          {
+            "replaceIndex": 3,
+            "text": "1/2 cup Peaches Canned in 100% Juice, drained and finely diced",
+            "destination": "combine"
+          }
+        ],
+        "scope": "Measureafterdraining; nojuiceadded.",
+        "completeUnchangedMain": [
+          {
+            "index": 0,
+            "text": "1 cup White Whole Wheat Flour",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 cup White Whole Wheat Flour",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 1,
+            "text": "1/2 cup Plain Greek Yogurt for richness",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Plain Greek Yogurt for richness",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 2,
+            "text": "3/4 cup Nonfat Milk",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 cup Nonfat Milk",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 4,
+            "text": "1 1/2 tsp Baking Powder",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 tsp Baking Powder",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 5,
+            "text": "3/4 tsp Ground Cinnamon",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 tsp Ground Cinnamon",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 6,
+            "text": "1/4 tsp Sea Salt",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 tsp Sea Salt",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 7,
+            "text": "2 tsp Pure Vanilla Extract",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "2 tsp Pure Vanilla Extract",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 8,
+            "text": "1 tsp Unsalted Butter, melted",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 tsp Unsalted Butter, melted",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 9,
+            "text": "Oil Spray, for the skillet",
+            "destination": "pan",
+            "steps": [4],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Oil Spray, for the skillet",
+            "optional": false,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 10,
+            "text": "Maple Syrup, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Maple Syrup, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 11,
+            "text": "Additional Fresh Peach Slices, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Additional Fresh Peach Slices, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          }
+        ],
+        "completeChangedIngredients": [
+          {
+            "replaceIndex": 3,
+            "text": "1/2 cup Peaches Canned in 100% Juice, drained and finely diced",
+            "destination": "combine"
+          }
+        ],
+        "wholeVariantNotCombinedWithMain": true
+      },
+      {
+        "name": "Gluten-free flour blend",
+        "changes": [
+          {
+            "replaceIndex": 0,
+            "text": "1/2 cup (60 g) Millet Flour",
+            "destination": "dry"
+          },
+          {
+            "additional": true,
+            "text": "1/4 cup (30 g) Tapioca Flour",
+            "destination": "dry"
+          },
+          {
+            "additional": true,
+            "text": "1/4 cup (30 g) Brown Rice Flour",
+            "destination": "dry"
+          },
+          {
+            "additional": true,
+            "text": "1/2 tsp Xanthan Gum",
+            "destination": "dry"
+          }
+        ],
+        "scope": "Completeflourreplacement; fulldairy/fruit/BP/spice/vanilla/fat amountsunchanged.",
+        "completeUnchangedMain": [
+          {
+            "index": 1,
+            "text": "1/2 cup Plain Greek Yogurt for richness",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Plain Greek Yogurt for richness",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 2,
+            "text": "3/4 cup Nonfat Milk",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 cup Nonfat Milk",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 3,
+            "text": "1/2 cup Fresh Peaches, finely diced",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Fresh Peaches, finely diced",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 4,
+            "text": "1 1/2 tsp Baking Powder",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 tsp Baking Powder",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 5,
+            "text": "3/4 tsp Ground Cinnamon",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 tsp Ground Cinnamon",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 6,
+            "text": "1/4 tsp Sea Salt",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 tsp Sea Salt",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 7,
+            "text": "2 tsp Pure Vanilla Extract",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "2 tsp Pure Vanilla Extract",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 8,
+            "text": "1 tsp Unsalted Butter, melted",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 tsp Unsalted Butter, melted",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 9,
+            "text": "Oil Spray, for the skillet",
+            "destination": "pan",
+            "steps": [4],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Oil Spray, for the skillet",
+            "optional": false,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 10,
+            "text": "Maple Syrup, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Maple Syrup, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 11,
+            "text": "Additional Fresh Peach Slices, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Additional Fresh Peach Slices, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          }
+        ],
+        "completeChangedIngredients": [
+          {
+            "replaceIndex": 0,
+            "text": "1/2 cup (60 g) Millet Flour",
+            "destination": "dry"
+          },
+          {
+            "additional": true,
+            "text": "1/4 cup (30 g) Tapioca Flour",
+            "destination": "dry"
+          },
+          {
+            "additional": true,
+            "text": "1/4 cup (30 g) Brown Rice Flour",
+            "destination": "dry"
+          },
+          {
+            "additional": true,
+            "text": "1/2 tsp Xanthan Gum",
+            "destination": "dry"
+          }
+        ],
+        "wholeVariantNotCombinedWithMain": true
+      },
+      {
+        "name": "Other wheat flour",
+        "changes": [
+          {
+            "replaceIndex": 0,
+            "text": "1 cup Whole-Wheat Pastry Flour, Regular Whole-Wheat Flour or All-Purpose Flour",
+            "destination": "dry"
+          }
+        ],
+        "scope": "Oneexclusivewhole-volumechoice; absorption/texture differ.",
+        "completeUnchangedMain": [
+          {
+            "index": 1,
+            "text": "1/2 cup Plain Greek Yogurt for richness",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Plain Greek Yogurt for richness",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 2,
+            "text": "3/4 cup Nonfat Milk",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 cup Nonfat Milk",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 3,
+            "text": "1/2 cup Fresh Peaches, finely diced",
+            "destination": "combine",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/2 cup Fresh Peaches, finely diced",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 4,
+            "text": "1 1/2 tsp Baking Powder",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 tsp Baking Powder",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 5,
+            "text": "3/4 tsp Ground Cinnamon",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "3/4 tsp Ground Cinnamon",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 6,
+            "text": "1/4 tsp Sea Salt",
+            "destination": "dry",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 tsp Sea Salt",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 7,
+            "text": "2 tsp Pure Vanilla Extract",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "2 tsp Pure Vanilla Extract",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 8,
+            "text": "1 tsp Unsalted Butter, melted",
+            "destination": "yogurt",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 tsp Unsalted Butter, melted",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 9,
+            "text": "Oil Spray, for the skillet",
+            "destination": "pan",
+            "steps": [4],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Oil Spray, for the skillet",
+            "optional": false,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 10,
+            "text": "Maple Syrup, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Maple Syrup, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          },
+          {
+            "index": 11,
+            "text": "Additional Fresh Peach Slices, for serving, optional",
+            "destination": "serve",
+            "steps": [6],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "Additional Fresh Peach Slices, for serving, optional",
+            "optional": true,
+            "isUnmeasuredAllowance": true
+          }
+        ],
+        "completeChangedIngredients": [
+          {
+            "replaceIndex": 0,
+            "text": "1 cup Whole-Wheat Pastry Flour, Regular Whole-Wheat Flour or All-Purpose Flour",
+            "destination": "dry"
+          }
+        ],
+        "wholeVariantNotCombinedWithMain": true
+      }
+    ],
+    "completeCookingOptions": "Coconut oil may replace all the listed butter in the batter. Fresh peaches may instead be the same full listed volume of peaches canned in 100% juice and drained. Whole-wheat pastry flour, regular whole-wheat flour or all-purpose flour may replace the listed flour volume; texture and absorption differ. In the original source batch, the ingredient-state equivalents are 120 g flour, 120 g plain nonfat Greek yogurt, 180 mL milk and 100 g prepared peaches; those are not universal density conversions for every yogurt or fruit cut.\n\nA separate gluten-free flour option replaces the entire original one-cup wheat-flour amount with ½ cup (60 g) millet flour, ¼ cup (30 g) tapioca flour, ¼ cup (30 g) brown-rice flour and ½ tsp xanthan gum. Scale all four additions with the flour amount; keep the full remaining batter ingredients and preparation. Check all chosen products for gluten-free suitability.\n\nThe original batch plans 16 small pancakes. Portion sizes, pan capacity and batter volume affect the count. Cooled pancakes may be frozen in separated layers, then packed airtight; thaw in the refrigerator.",
+    "heldVariants": [
+      "Original gluten-free* flour note absent from native notes; current actual primary provides the complete blend. Other unspecified gluten-free mixes are not certified direct replacements. No measured griddlecapacity, final count or freezerduration."
+    ],
+    "mainAndVariantsAreExclusive": true
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "babys-first-smash-cake",
+      "best-cinnamon-roll-recipe-cinnabon-copycat"
+    ],
+    "scope": "No incomingmeal slugreferences found inallmeal files; existingpairsWith retained asmetadata only, no composedmeal approval.",
+    "explicitLinkedRecipe": null
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Fullcurrent1cupflour/½cupGreek/¾cupmilk/½cuppeach/1½tspBP/¾tspcinnamon/¼tspsea/2tspvanilla/1tspbutter retained. Noeggintroduced. NativeplainnonfatGreek/unspecifiedsalt and butterORcoconut/GFflour branches distinctgenericcurrentGreek/seasalt. Originalsource120g/120g/180mL/100g keptcontextual, notinventedcurrentequivalence.16smallpancakes approximately2tbsp countplanning; no assertion32tbspmeasuredbatter orforcedpanloadcount.",
+    "currentPlanningYield": "16 silver dollar pancakes",
+    "proposedPlanningYield": "16 silver dollar pancakes",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Howmanytwo-tablespoon pancakesfitactualpan andwhatfinishedcountresults? Whichflourblend andyogurtstate are intended?",
+    "Original gluten-free* flour note absent from native notes; current actual primary provides the complete blend. Other unspecified gluten-free mixes are not certified direct replacements. No measured griddlecapacity, final count or freezerduration."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

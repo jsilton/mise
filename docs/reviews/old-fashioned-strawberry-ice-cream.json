@@ -1,0 +1,665 @@
+{
+  "slug": "old-fashioned-strawberry-ice-cream",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "d03d40aef4bd54e8c7056cf51519fb6e381503bd606547d925744b7a44352709",
+  "acceptedSourceSha256": "416cca637c9e5130745a30cd7acd858a59214262fa317ab9d12c9ec4daac171d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["simmer", "boil"],
+      "after": ["simmer"]
+    },
+    {
+      "field": "totalTime",
+      "before": "300 min",
+      "after": "At least 7 hr, plus cooling or longer churning and freezing"
+    },
+    {
+      "field": "servings",
+      "before": "8 cups",
+      "after": "8 cups, approximately"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 cups Fresh Strawberries, sliced",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "3/4 cup Granulated Sugar (divided)",
+        "1/4 cup Light Brown Sugar",
+        "4 large Egg Yolks",
+        "1 1/2 cups Heavy Cream",
+        "1 1/2 cups Whole Milk",
+        "1 Vanilla Bean, seeds scraped",
+        "1/4 tsp Kosher Salt"
+      ],
+      "after": [
+        "4 cups Fresh Strawberries, sliced",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "3/4 cup Granulated Sugar, divided between fruit and custard",
+        "1/4 cup Light Brown Sugar",
+        "4 large Egg Yolks",
+        "1 1/2 cups Heavy Cream",
+        "1 1/2 cups Whole Milk",
+        "1 Vanilla Bean, seeds scraped and pod reserved",
+        "1/4 tsp Kosher Salt"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 600,
+        "protein": 4,
+        "carbs": 107,
+        "fat": 19.5,
+        "fiber": 0,
+        "sugar": 106,
+        "sodium": 340
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocating sugar between refrigerated fruit and a tempered, cooked custard, then managing cold machine loads.",
+        "outcome": "A fully cooked egg base chilled before churning, with all the macerated fruit and its juice included.",
+        "techniques": ["gentle-proteins", "temperature", "cold-preparation"],
+        "before": [
+          "Prepare the actual maker bowl as its instructions require. The full recipe includes four cups of berries in the original batch plus the dairy base; maximum fill and room for expansion may require more than one cold load.",
+          "Fruit gets one-third of the listed granulated sugar and custard two-thirds plus all the brown sugar. The original-batch fruit amount is ¼ cup; the separate half-cup-total option has its own equal fruit-and-custard split."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Hot dairy enters the whisked yolks gradually before the entire mixture returns to the pan.",
+            "why": "Tempering reduces abrupt local heating; it does not replace cooking the full base."
+          },
+          {
+            "step": 4,
+            "cue": "The stirred base measures 160°F / 71°C and coats a spoon without boiling.",
+            "why": "A measured cooked-egg endpoint is needed for the ice cream base; a finger path or visual coat alone is not a temperature check."
+          },
+          {
+            "step": 6,
+            "cue": "The base and all fruit juice are thoroughly cold and within the machine’s maximum fill.",
+            "why": "Adding the whole fruit batch changes load volume; cold starting conditions and space affect churning."
+          },
+          {
+            "step": 7,
+            "cue": "The entire container is firm enough to scoop after hardening.",
+            "why": "Container depth and freezer conditions may extend the two-hour reference."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Custard has curdled egg flecks.",
+            "cause": "Heat was too high or stirring and tempering were uneven.",
+            "fix": "Remove from heat immediately; a severely curdled base may not recover its smooth texture. Check the measured endpoint and avoid boiling in the next batch."
+          },
+          {
+            "problem": "Churning is slow or mixture overflows.",
+            "cause": "The base is warm or the maker’s fill limit was exceeded.",
+            "fix": "Keep the remaining base refrigerated and churn appropriate cold loads; follow the maker’s instructions."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Main ¾ cup granulated sugar",
+            "alternative": "Separate ½ cup granulated sugar option for the original batch",
+            "effect": "Keep all brown sugar and other ingredients; use its equal fruit-and-custard split. Sweetness and freezing texture change."
+          }
+        ],
+        "storage": "Keep finished ice cream covered and frozen at 0°F / −18°C or below. Refrigerate promptly at 40°F / 4°C or below, keeping combined cooling and serving time outside refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Cool the cooked base promptly in shallow containers; if delaying churning, use cooked egg base within 3–4 days and follow shorter applicable ingredient instructions. Keep macerated fruit separately refrigerated until mixing.",
+        "timing": "Fruit maceration of at least 3 hours and custard chilling of at least 4 hours can overlap. The longer chill, plus 30 minutes preparation, roughly 10 minutes custard cooking, 25–35 minutes reference churning and at least 2 hours hardening gives at least 7 hours, with prompt cooling, extra loads or longer freezing additional. The ice bath until cold alternative has its own variable cooling time instead of the fixed four-hour refrigerator wait.",
+        "sources": [
+          {
+            "title": "Self Proclaimed Foodie — original formula, maceration and churning",
+            "url": "https://selfproclaimedfoodie.com/old-fashioned-strawberry-ice-cream/"
+          },
+          {
+            "title": "FDA — cooked homemade ice cream and pasteurized dairy",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection"
+          },
+          {
+            "title": "FDA — cooked egg base storage",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — prompt cold handling and freezer temperature",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSliced strawberries macerated in lemon juice and sugar for several hours draw out natural syrup and soften the fruit, preventing them from freezing into icy chunks. Tempering yolks with hot milk and vanilla bean ensures dense, custardy texture that showcases bright strawberries perfectly.\n\n## Directions\n\n1.  **Macerate:** Toss strawberries with lemon juice and 1/4 cup sugar. **Refrigerate for at least 3 hours** until syrupy.\n2.  **Custard Base:** In a saucepan, heat milk, cream, and vanilla bean seeds until simmering.\n3.  **Emulsify:** In a large bowl, whisk yolks, salt, and remaining sugars until pale. Slowly whisk in the hot cream to temper.\n4.  **Thicken:** Return mixture to the pan. Cook over medium-low, stirring constantly, until the custard coats a spoon. **Do not boil.**\n5.  **Chill:** Remove vanilla pod. Let cool for 30 minutes, then refrigerate for **at least 4 hours** until ice-cold.\n6.  **Churn:** Stir the macerated strawberries (including all juice) into the custard. Pour into ice cream maker and process for 25-35 minutes.\n7.  **Set:** Freeze for 2 hours to harden into the Kitchen Standard texture.\n",
+    "after": "\n## Chef's Note\n\nMacerate the fruit in the refrigerator while making and chilling the custard. Use one-third of the listed granulated sugar for the strawberries and the remaining two-thirds with all the brown sugar for the yolks. Tempering slows the eggs’ contact with heat, but the cooked base still needs a measured endpoint and prompt cooling. Machine capacity and overrun affect the finished ice cream volume.\n\n## Directions\n\n1. **Macerate:** Wash, hull and slice the strawberries. Toss all the fruit with the lemon juice and one-third of the listed granulated sugar; that is ¼ cup in the original batch. Cover and refrigerate at 40°F / 4°C or below for at least 3 hours, keeping all the fruit juice.\n2. **Heat the dairy:** Use pasteurized milk and cream. In a saucepan, combine all the milk, cream, vanilla seeds and reserved pod. Heat gently until steaming and just beginning to simmer.\n3. **Temper:** In a bowl, whisk the yolks, salt, remaining two-thirds of the granulated sugar and all the brown sugar. Gradually whisk some hot dairy into the yolk mixture, then return the entire tempered mixture to the pan.\n4. **Cook the custard:** Stir constantly over medium-low heat, scraping the bottom, until the base reaches 160°F / 71°C and coats a spoon. Measure without touching the pan. Do not boil; stop heating at the endpoint rather than relying on a finger or visual coat alone.\n5. **Cool and chill:** Transfer the base to shallow heat-safe containers and cool promptly over an ice-water bath, stirring. Refrigerate at 40°F / 4°C or below for at least 4 hours and until thoroughly cold. Keep cumulative time outside refrigeration within 2 hours, or 1 hour above 90°F / 32°C. An alternative is to continue the ice-water bath until the base is thoroughly cold before churning; cooling time varies, and the base must reach refrigerator-cold conditions rather than merely lukewarm. Remove and discard the vanilla pod once the base is cold.\n6. **Churn:** Stir in all the macerated strawberries and all their juice. Churn according to the actual machine instructions and maximum fill. The 25–35-minute churning time is a reference; use separate cold loads if the whole mixture exceeds capacity, keeping the remainder refrigerated. Finished volume depends on the machine and air incorporation.\n7. **Harden:** Transfer all the ice cream to covered freezer containers and freeze at 0°F / −18°C or below for at least 2 hours, or longer until firm enough to scoop. Keep frozen until serving.\n\n## Cooking Notes\n\nA separate option uses ½ cup granulated sugar for the original batch rather than the main ¾ cup. In that option, macerate the strawberries with ¼ cup granulated sugar and use the remaining ¼ cup in the custard, along with all the ¼ cup brown sugar. Every other fruit, lemon, yolk, dairy, vanilla and salt amount stays the same. Scale the entire selected option together; use its sugar allocation instead of the main allocation, keeping the full brown sugar.\n\nThe listed eight-cup yield is approximate. Check the maker’s actual bowl preparation, maximum fill and loading instructions in advance. Use separate cold loads if needed. Churning time depends on the machine; the two-hour freezer hardening is a minimum check, with longer freezing if the container is still soft.\n"
+  },
+  "findings": [
+    {
+      "id": "SF17-I01",
+      "rationale": "Preserve currentricher¾granulated main from23b28, keep exactnative/publisher½cup complete alternative withfull¼brown, make sugarallocations proportional andactualpoduse coherent. Count≥4hchill+≥2hhardening withparallel≥3hfruit, promptcooling/multipleloads, approximateyield andremoveboilclassification.",
+      "confidence": "Highamounts/provenance/safety; moderate timing/capacity",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "23b28c81ec78e13a85ee322d7941da79dfc02a8b",
+        "https://selfproclaimedfoodie.com/old-fashioned-strawberry-ice-cream/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "sourceApplicability": "Nativeandactualcurrentpublisher establish½cuproute/sourceclocks, notmain¾ as deliberatehouseholdpreference. FDA specifically supports160 cookedbase/pasteurizeddairy/coldhandling/cookedeggbase3–4day; nofreezershelf guarantee orspecificmaker/overrun validation.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "content",
+        "servings",
+        "totalTime",
+        "cookingMethods",
+        "learning"
+      ],
+      "questions": [
+        "Whichmakerbowl andfilllimit applies? Whatfinishedyield/texture withcurrent¾ versus source½sugar? Howlongdoesactualhardening take?"
+      ]
+    },
+    {
+      "id": "SF17-META",
+      "rationale": "Omit unsupportedcountryorigin andunverifiedbulknutrition while preserving old-fashioned-strawberry-ice-cream source/style/currentrichness anddistinctsourceoptions.",
+      "confidence": "High for lack ofestablishedmetadataevidence; no nutrition/testclaim",
+      "applicableSources": [
+        "actual-introduction",
+        "complete-followed-history",
+        "2a7f38534f68f09454b2c68637139fd966b5584f",
+        "902e7e8ef45aebbef6323b138ef6c9a8d866be2b"
+      ],
+      "sourceApplicability": "KrissyAllori source andnative½sugarroute differ fromcurrent¾; countryorigin andbulk600-calorie estimate lack verifiedrecipe-specificsupport.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Old%20Fashioned%20Strawberry%20Ice%20Cream.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "4 cups Fresh Strawberries, sliced",
+        "destination": "fruit"
+      },
+      {
+        "index": 1,
+        "text": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "fruit"
+      },
+      {
+        "index": 2,
+        "text": "3/4 cup Granulated Sugar (divided)",
+        "destination": "fruit/custard"
+      },
+      {
+        "index": 3,
+        "text": "1/4 cup Light Brown Sugar",
+        "destination": "custard"
+      },
+      {
+        "index": 4,
+        "text": "4 large Egg Yolks",
+        "destination": "temper"
+      },
+      {
+        "index": 5,
+        "text": "1 1/2 cups Heavy Cream",
+        "destination": "dairy"
+      },
+      {
+        "index": 6,
+        "text": "1 1/2 cups Whole Milk",
+        "destination": "dairy"
+      },
+      {
+        "index": 7,
+        "text": "1 Vanilla Bean, seeds scraped",
+        "destination": "dairy"
+      },
+      {
+        "index": 8,
+        "text": "1/4 tsp Kosher Salt",
+        "destination": "temper"
+      }
+    ],
+    "frozenMethodOnlyAllowances": [],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "4 cups Fresh Strawberries, sliced",
+        "destination": "fruit",
+        "steps": [1],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "4 cups Fresh Strawberries, sliced",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 1,
+        "text": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "fruit",
+        "steps": [1],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 2,
+        "text": "3/4 cup Granulated Sugar, divided between fruit and custard",
+        "destination": "fruit/custard",
+        "steps": [1, 3],
+        "allocation": [
+          {
+            "step": 1,
+            "share": "1/3"
+          },
+          {
+            "step": 3,
+            "share": "2/3"
+          }
+        ],
+        "state": "3/4 cup Granulated Sugar, divided between fruit and custard",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 3,
+        "text": "1/4 cup Light Brown Sugar",
+        "destination": "temper",
+        "steps": [3],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1/4 cup Light Brown Sugar",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 4,
+        "text": "4 large Egg Yolks",
+        "destination": "temper",
+        "steps": [3],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "4 large Egg Yolks",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 5,
+        "text": "1 1/2 cups Heavy Cream",
+        "destination": "dairy",
+        "steps": [2],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 1/2 cups Heavy Cream",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 6,
+        "text": "1 1/2 cups Whole Milk",
+        "destination": "dairy",
+        "steps": [2],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 1/2 cups Whole Milk",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 7,
+        "text": "1 Vanilla Bean, seeds scraped and pod reserved",
+        "destination": "dairy",
+        "steps": [2],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1 Vanilla Bean, seeds scraped and pod reserved",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      },
+      {
+        "index": 8,
+        "text": "1/4 tsp Kosher Salt",
+        "destination": "temper",
+        "steps": [3],
+        "allocation": "Fulllistedamount to nameddestination",
+        "state": "1/4 tsp Kosher Salt",
+        "optional": false,
+        "isUnmeasuredAllowance": false
+      }
+    ],
+    "originalCompleteIngredients": "4 cups strawberries (stems removed, sliced)\n1 tablespoon lemon juice (freshly squeezed )\n½ cup granulated sugar\n¼ cup golden brown sugar\n4 large egg yolks\n¼ teaspoon kosher salt\n1 ½ cups heavy cream\n1 ½ cups whole milk\n1 vanilla bean (seeds scraped)"
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "text": "1. **Macerate:** Wash, hull and slice the strawberries. Toss all the fruit with the lemon juice and one-third of the listed granulated sugar; that is ¼ cup in the original batch. Cover and refrigerate at 40°F / 4°C or below for at least 3 hours, keeping all the fruit juice.",
+      "dependsOn": [],
+      "parallelContext": null
+    },
+    {
+      "index": 2,
+      "text": "2. **Heat the dairy:** Use pasteurized milk and cream. In a saucepan, combine all the milk, cream, vanilla seeds and reserved pod. Heat gently until steaming and just beginning to simmer.",
+      "dependsOn": [1],
+      "parallelContext": "Custardpreparation/chill overlaps step1≥3hfruit."
+    },
+    {
+      "index": 3,
+      "text": "3. **Temper:** In a bowl, whisk the yolks, salt, remaining two-thirds of the granulated sugar and all the brown sugar. Gradually whisk some hot dairy into the yolk mixture, then return the entire tempered mixture to the pan.",
+      "dependsOn": [2],
+      "parallelContext": null
+    },
+    {
+      "index": 4,
+      "text": "4. **Cook the custard:** Stir constantly over medium-low heat, scraping the bottom, until the base reaches 160°F / 71°C and coats a spoon. Measure without touching the pan. Do not boil; stop heating at the endpoint rather than relying on a finger or visual coat alone.",
+      "dependsOn": [3],
+      "parallelContext": null
+    },
+    {
+      "index": 5,
+      "text": "5. **Cool and chill:** Transfer the base to shallow heat-safe containers and cool promptly over an ice-water bath, stirring. Refrigerate at 40°F / 4°C or below for at least 4 hours and until thoroughly cold. Keep cumulative time outside refrigeration within 2 hours, or 1 hour above 90°F / 32°C. An alternative is to continue the ice-water bath until the base is thoroughly cold before churning; cooling time varies, and the base must reach refrigerator-cold conditions rather than merely lukewarm. Remove and discard the vanilla pod once the base is cold.",
+      "dependsOn": [4],
+      "parallelContext": null
+    },
+    {
+      "index": 6,
+      "text": "6. **Churn:** Stir in all the macerated strawberries and all their juice. Churn according to the actual machine instructions and maximum fill. The 25–35-minute churning time is a reference; use separate cold loads if the whole mixture exceeds capacity, keeping the remainder refrigerated. Finished volume depends on the machine and air incorporation.",
+      "dependsOn": [5],
+      "parallelContext": null
+    },
+    {
+      "index": 7,
+      "text": "7. **Harden:** Transfer all the ice cream to covered freezer containers and freeze at 0°F / −18°C or below for at least 2 hours, or longer until firm enough to scoop. Keep frozen until serving.",
+      "dependsOn": [6],
+      "parallelContext": null
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "name": "Complete native lower-granulated-sugar option",
+        "changes": [
+          {
+            "replaceIndex": 2,
+            "text": "1/2 cup Granulated Sugar, divided equally between fruit and custard",
+            "destination": "fruit/custard"
+          }
+        ],
+        "scope": "Onlyexclusivegranulatedtotal changes; allfullbrown/fruit/eggs/dairy/lemon/bean/salt unchanged. Fruit¼+custard¼originalcontext; scalesproportionally.",
+        "completeUnchangedMain": [
+          {
+            "index": 0,
+            "text": "4 cups Fresh Strawberries, sliced",
+            "destination": "fruit",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "4 cups Fresh Strawberries, sliced",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 1,
+            "text": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+            "destination": "fruit",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 3,
+            "text": "1/4 cup Light Brown Sugar",
+            "destination": "temper",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 cup Light Brown Sugar",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 4,
+            "text": "4 large Egg Yolks",
+            "destination": "temper",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "4 large Egg Yolks",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 5,
+            "text": "1 1/2 cups Heavy Cream",
+            "destination": "dairy",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 cups Heavy Cream",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 6,
+            "text": "1 1/2 cups Whole Milk",
+            "destination": "dairy",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 cups Whole Milk",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 7,
+            "text": "1 Vanilla Bean, seeds scraped and pod reserved",
+            "destination": "dairy",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 Vanilla Bean, seeds scraped and pod reserved",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 8,
+            "text": "1/4 tsp Kosher Salt",
+            "destination": "temper",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 tsp Kosher Salt",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          }
+        ],
+        "completeChangedIngredients": [
+          {
+            "replaceIndex": 2,
+            "text": "1/2 cup Granulated Sugar, divided equally between fruit and custard",
+            "destination": "fruit/custard"
+          }
+        ],
+        "wholeVariantNotCombinedWithMain": true
+      },
+      {
+        "name": "Ice bath until cold",
+        "changes": [],
+        "scope": "Samecomplete selectedformula; thoroughicebath cooling replaces≥4hfridgewait onlyifbaseactuallycold andhandledpromptly. No guessedcoldtime/modelclaim.",
+        "completeUnchangedMain": [
+          {
+            "index": 0,
+            "text": "4 cups Fresh Strawberries, sliced",
+            "destination": "fruit",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "4 cups Fresh Strawberries, sliced",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 1,
+            "text": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+            "destination": "fruit",
+            "steps": [1],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 2,
+            "text": "3/4 cup Granulated Sugar, divided between fruit and custard",
+            "destination": "fruit/custard",
+            "steps": [1, 3],
+            "allocation": [
+              {
+                "step": 1,
+                "share": "1/3"
+              },
+              {
+                "step": 3,
+                "share": "2/3"
+              }
+            ],
+            "state": "3/4 cup Granulated Sugar, divided between fruit and custard",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 3,
+            "text": "1/4 cup Light Brown Sugar",
+            "destination": "temper",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 cup Light Brown Sugar",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 4,
+            "text": "4 large Egg Yolks",
+            "destination": "temper",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "4 large Egg Yolks",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 5,
+            "text": "1 1/2 cups Heavy Cream",
+            "destination": "dairy",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 cups Heavy Cream",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 6,
+            "text": "1 1/2 cups Whole Milk",
+            "destination": "dairy",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 1/2 cups Whole Milk",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 7,
+            "text": "1 Vanilla Bean, seeds scraped and pod reserved",
+            "destination": "dairy",
+            "steps": [2],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1 Vanilla Bean, seeds scraped and pod reserved",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          },
+          {
+            "index": 8,
+            "text": "1/4 tsp Kosher Salt",
+            "destination": "temper",
+            "steps": [3],
+            "allocation": "Fulllistedamount to nameddestination",
+            "state": "1/4 tsp Kosher Salt",
+            "optional": false,
+            "isUnmeasuredAllowance": false
+          }
+        ],
+        "completeChangedIngredients": [],
+        "wholeVariantNotCombinedWithMain": true
+      }
+    ],
+    "completeCookingOptions": "A separate option uses ½ cup granulated sugar for the original batch rather than the main ¾ cup. In that option, macerate the strawberries with ¼ cup granulated sugar and use the remaining ¼ cup in the custard, along with all the ¼ cup brown sugar. Every other fruit, lemon, yolk, dairy, vanilla and salt amount stays the same. Scale the entire selected option together; use its sugar allocation instead of the main allocation, keeping the full brown sugar.\n\nThe listed eight-cup yield is approximate. Check the maker’s actual bowl preparation, maximum fill and loading instructions in advance. Use separate cold loads if needed. Churning time depends on the machine; the two-hour freezer hardening is a minimum check, with longer freezing if the container is still soft.",
+    "heldVariants": [
+      "No exact maker model, bowlcapacity, finishedoverrun or householdyield. Source comment alternative addingbothsugarsto fruit doesnot provide acomplete unambiguousallocation for yolks; no invented branch."
+    ],
+    "mainAndVariantsAreExclusive": true
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "apple-cider-cream-pie",
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream"
+    ],
+    "scope": "No incomingmeal slugreferences found inallmeal files; existingpairsWith retained asmetadata only, no composedmeal approval.",
+    "explicitLinkedRecipe": null
+  },
+  "ratiosYieldAndCapacity": {
+    "text": "Preserve fullcurrent¾cupgranulated+¼cupbrown/4yolks/1½heavy+1½wholemilk/4cupsfruit/1tbsplemon/1bean/¼tspkosher. One-third currentgranulated=¼cupfruit;remainingtwo-thirds=½cupcustard; all¼browncustard. Nativefull½granulated routesplit¼+¼ distinctricherbulk23b28main; no explicithouseholdpreference decision established, preservecurrentrichness. Totalcurrent1cupsweeteners vsnative¾. Wholepodactuallyheated/removed nowmatchesingredientstate.8cupsapproxsourceplanning; nooverrun/capacitymeasurements.",
+    "currentPlanningYield": "8 cups",
+    "proposedPlanningYield": "8 cups, approximately",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Whichmakerbowl andfilllimit applies? Whatfinishedyield/texture withcurrent¾ versus source½sugar? Howlongdoesactualhardening take?",
+    "No exact maker model, bowlcapacity, finishedoverrun or householdyield. Source comment alternative addingbothsugarsto fruit doesnot provide acomplete unambiguousallocation for yolks; no invented branch."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
