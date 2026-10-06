@@ -22,3 +22,9 @@ Six cakes and quick treats plus six fruit and grain bakes retain full rich formu
 ## Locally validated checkpoint
 
 All 252 tests, 117 authored formula checks, 643-recipe validation, 12 targeted lints and 30 aggregate QA checks pass. Targeted lint: All 12 pass; zero errors or warnings All three exports match 643 sources; private bindings, public privacy and 12,372 built anchors pass. The other 631 recipe sources/export schemas and unrelated review credit remain unchanged. 1 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 12 complete rendered pages and 92 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](cakes-fruit-bakes-twelve-preservation.json).
+
+## Verified publication
+
+257 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 491 recorded complete / 152 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [d77d1640](https://github.com/jsilton/mise/commit/d77d164073216a069027876729791703c6750044), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37458426276) and all 12 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](cakes-fruit-bakes-twelve-production.json).

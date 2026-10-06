@@ -1,6 +1,6 @@
 {
   "slug": "made-in-the-pan-chocolate-cake",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "61d632a01db7a982653a4218600510bce605712f",
   "inputSha256": "67e71b819d251013e0cff525b501a096e00563d4cfcf1b6cdbd592376033d39a",
   "acceptedSourceSha256": "219e5ae78da737dee0cdba95c7d3049ec51a826680e8fc0ea83e33098813586b",
@@ -1541,7 +1541,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1565,5 +1565,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "d77d164073216a069027876729791703c6750044",
+  "releaseCommit": "d77d164073216a069027876729791703c6750044"
 }
