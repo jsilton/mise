@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "213 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "224 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 458 recorded complete / 185 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [dc4362e6](https://github.com/jsilton/mise/commit/dc4362e6c5dc2ab7786208dec919438f980cdc6c), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37453032158) and all 11 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -6529,17 +6529,21 @@
         "record": "docs/reviews/classic-chocolate-chip-cookies.md",
         "acceptedSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/classic-chocolate-chip-cookies.json",
         "sourceSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "What scoop size actually gives about 24 current brown-butter cookies? How long does the butter take to return to soft-solid in the household kitchen?",
@@ -9411,17 +9415,21 @@
         "record": "docs/reviews/easy-spinach-gnocchi.md",
         "acceptedSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-spinach-gnocchi.json",
         "sourceSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual frozen-spinach package cooking requirement and ricotta moisture must be checked.",
@@ -9580,17 +9588,21 @@
         "record": "docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.md",
         "acceptedSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.json",
         "sourceSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual jumbo-shell brand/count breakage and dish depth influence fitting all filling; no added pasta count invented.",
@@ -10392,17 +10404,21 @@
         "record": "docs/reviews/freezer-date-cookies.md",
         "acceptedSha256": "66bf0dba1a99441b395710d8dbf400fa06d8524252f58b12e372cd74fdf733d4",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/freezer-date-cookies.json",
         "sourceSha256": "66bf0dba1a99441b395710d8dbf400fa06d8524252f58b12e372cd74fdf733d4"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "66bf0dba1a99441b395710d8dbf400fa06d8524252f58b12e372cd74fdf733d4",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "What was the original family or publisher source, if known? How firm are these cookies when frozen, and which date variety works best? What keeping quality is acceptable for the household freezer? Does the later tablespoon-size guide give24cookies or a higher count from the full dough?",
@@ -10627,17 +10643,21 @@
         "record": "docs/reviews/fresh-pasta-dough.md",
         "acceptedSha256": "ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/fresh-pasta-dough.json",
         "sourceSha256": "ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Which actual mixer model/capacity is used, especially for scaled batches?",
@@ -11875,17 +11895,21 @@
         "record": "docs/reviews/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.md",
         "acceptedSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.json",
         "sourceSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual gnocchi package state and instructions govern; floating alone is insufficient for every product.",
@@ -12961,17 +12985,21 @@
         "record": "docs/reviews/hamantaschen.md",
         "acceptedSha256": "ade290d52e7a0e7ca71e7e9778265a914b648111e0df8575e5bb272ec35d675c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/hamantaschen.json",
         "sourceSha256": "ade290d52e7a0e7ca71e7e9778265a914b648111e0df8575e5bb272ec35d675c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ade290d52e7a0e7ca71e7e9778265a914b648111e0df8575e5bb272ec35d675c",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Which specific filling and quantity is used, and does its label or recipe require refrigeration? What rolling thickness and count does the household actually prefer?"
@@ -13002,17 +13030,21 @@
         "record": "docs/reviews/har-gow-dim-sum-shrimp-dumplings.md",
         "acceptedSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/har-gow-dim-sum-shrimp-dumplings.json",
         "sourceSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "How do the actual starch brands and humidity affect the documented optional1–2tsp adjustment?",
@@ -17245,17 +17277,21 @@
         "record": "docs/reviews/mm-cookies.md",
         "acceptedSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/mm-cookies.json",
         "sourceSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Does the household prefer the current2/3+1/3 split or Robbi’s original half/half? Can teaspoon portions of this actual dough reasonably produce72cookies?"
@@ -17917,17 +17953,21 @@
         "record": "docs/reviews/old-fashioned-soft-pumpkin-cookies.md",
         "acceptedSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/old-fashioned-soft-pumpkin-cookies.json",
         "sourceSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "Was removing the glaze vanilla intentional? No later accepted or explicit instruction was found. Which glaze butter state and storage texture does the household prefer?"
@@ -24734,17 +24774,21 @@
         "record": "docs/reviews/snickerdoodles.md",
         "acceptedSha256": "7f3bad3911ce975f756c116773b121e3dc27f4e6be5ca85026fc22824059ac1b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/snickerdoodles.json",
         "sourceSha256": "7f3bad3911ce975f756c116773b121e3dc27f4e6be5ca85026fc22824059ac1b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dc4362e6c5dc2ab7786208dec919438f980cdc6c"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7f3bad3911ce975f756c116773b121e3dc27f4e6be5ca85026fc22824059ac1b",
+        "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json"
       },
       "remainingQuestions": [
         "What ball size makes the current36cookies versus Mimi’s70-or-more? Which margarine was used, and does it spread differently?",

@@ -459,7 +459,7 @@
       ],
       "reviewer": "poultry_editor",
       "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
-      "status": "assigned; whole author/independent/root pending"
+      "status": "whole author complete; independent and root pending"
     },
     "vegetable_pan_sides_19": {
       "slugs": [
@@ -1080,17 +1080,24 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish",
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-10/changed-files.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/beef-tenderloin-dogs-with-corn-relish.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Narrow endpoint no-change disposition; unrelated mustard-seed discrepancy remains.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual strip dimensions, grill/pan loads and roasting-corn preparation time? Four is inherited serving planning, not a measured yield.",
+        "Which relish/bread-oil version is wanted for service? No choice or measured chill time is presumed."
       ],
       "inputSha256": "80ae921010e55d7b697f5424d0fd6b2b04be8a05624e8ef0bdca305e42b91bcb",
       "plannedBatch": "baked-savory-and-breads-02",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "452494923bfe17d293cda7b581b893db12fdc3d8bf76fb98b76ce04a778aabab",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "beef-with-snow-peas",
@@ -1170,16 +1177,24 @@
       "source": "Adapted from MyKoreanKitchen.com",
       "sourceUrl": "https://mykoreankitchen.com/bibimbap-korean-mixed-rice-with-meat-and-assorted-vegetables/",
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/bibimbap.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Desired prepared meat/banchan amounts and actual crisp-rice pan loads? Twenty minutes covers prepared-component assembly, not linked from-scratch cooking.",
+        "Actual egg pasteurization label and component remaining refrigerator ages? Linked recipes are referenced, not all recertified.",
+        "The larger6565 ground-lamb/beef option lacks a defined sprout-bag size and clearly owned per-vegetable seasoning quantities; does it need a separate developed recipe?"
       ],
       "inputSha256": "f4ef281f154aa7d1a253cfd4ed0988050810d3a3a3d0c1bfef5bb21813bc89e3",
       "plannedBatch": "stir-fry-and-pan-cooking-01",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "18775dae9cc7e2dba8c469e539b53cac2f6394f4ae12fc0b38440e2dd1154c20",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "blackout-chocolate-cake",
@@ -2881,7 +2896,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cookies_family_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/classic-chocolate-chip-cookies.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -2899,7 +2914,9 @@
       "owner": "baking_editor",
       "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedSourceSha256": "407fc91ef0dab8db07ea254703ba842c91afeebc6c71c1b626a4423df232faa2",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "classic-french-toast",
@@ -4015,7 +4032,7 @@
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/",
       "group": "pasta_dough_filled_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/easy-spinach-gnocchi.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -4031,7 +4048,9 @@
       "plannedBatch": "simmer-boil-and-steam-04",
       "owner": "coverage_check",
       "acceptedSourceSha256": "b57fbed3eea5a78f7db2821542fbc46dbee6e2c06e1e735608a78cc8e8c44470",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "egg-in-a-hole",
@@ -4070,7 +4089,7 @@
       "source": "loveandlemons.com",
       "sourceUrl": "https://www.loveandlemons.com/stuffed-shells-recipe/",
       "group": "pasta_dough_filled_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -4087,7 +4106,9 @@
       "plannedBatch": "baked-savory-and-breads-05",
       "owner": "coverage_check",
       "acceptedSourceSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "eggless-strawberry-ice-cream",
@@ -4171,16 +4192,23 @@
       "source": "Cleanfoodcrush.com",
       "sourceUrl": "https://cleanfoodcrush.com/chopped-enchilada-skillet/",
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/enchilada-skillet.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/enchilada-skillet.md",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/enchilada-skillet.json"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual enchilada sauce label ounces (no mass-volume conversion supplied), tortilla product, skillet load and serving size?"
       ],
       "inputSha256": "a46b3a3e3d5d23bf4dec8eb38574d70aa0f739ecefd9265643fc8d5cfc23e17c",
       "plannedBatch": "context-screening-02",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "3c406ddc9a06995ebf3180ec03370df1a1ea512e4330de88f7bda08ced233a65",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "enchiladas-suizas",
@@ -4189,16 +4217,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "proposed",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/enchiladas-suizas.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual baking dish, tortilla size and intended qualitative cheese split? Numeric migration remains deferred until a supported share is selected.",
+        "Actual blender permitted temperatures/load/lid instructions and elapsed cooling, frying and casserole center time? No model-specific hot-blend permission is certified.",
+        "Is there a separately retained actual publisher for this particular Suizas formula? None established."
       ],
       "inputSha256": "86cd5a296f14ea25d6423b320ce535dc55f5e2eb7b938e2141b6a90848b2e98b",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "c40fc0c8c69c71ef270bdc5882c0497a977d686c989c94a924e1a3b7ada906e1",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "extraordinary-chocolate-chip-cookie",
@@ -4399,7 +4435,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cookies_family_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/freezer-date-cookies.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -4414,7 +4450,9 @@
       "owner": "baking_editor",
       "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedSourceSha256": "66bf0dba1a99441b395710d8dbf400fa06d8524252f58b12e372cd74fdf733d4",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "french-dip-sandwiches",
@@ -4509,7 +4547,7 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
       "group": "pasta_dough_filled_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/fresh-pasta-dough.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -4527,7 +4565,9 @@
       "plannedBatch": "cold-preparations-02",
       "owner": "coverage_check",
       "acceptedSourceSha256": "ae63df51b5eb2e4475d00b0b14482b4d0caec09f5fd408aaf76cb3edae10b6f0",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "fresh-wonton-wrappers",
@@ -5019,7 +5059,7 @@
       "source": "Adapted from Eatingwell.com",
       "sourceUrl": "http://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/",
       "group": "pasta_dough_filled_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -5035,7 +5075,9 @@
       "plannedBatch": "simmer-boil-and-steam-05",
       "owner": "coverage_check",
       "acceptedSourceSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "golden-veil",
@@ -5395,7 +5437,7 @@
       "source": "Adapted from ToriAvey.com",
       "sourceUrl": "https://toriavey.com/toris-kitchen/buttery-hamantaschen/",
       "group": "cookies_family_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/hamantaschen.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -5409,7 +5451,9 @@
       "owner": "baking_editor",
       "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedSourceSha256": "ade290d52e7a0e7ca71e7e9778265a914b648111e0df8575e5bb272ec35d675c",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "har-gow-dim-sum-shrimp-dumplings",
@@ -5418,7 +5462,7 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/har-gow/",
       "group": "pasta_dough_filled_05",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/har-gow-dim-sum-shrimp-dumplings.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -5437,7 +5481,9 @@
       "plannedBatch": "simmer-boil-and-steam-05",
       "owner": "coverage_check",
       "acceptedSourceSha256": "972be8b0373c3bd4085415542f46abb18ae85577b443e1a9b48efdd0daf6e14e",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "harvest-sheet-pan-gnocchi-with-crispy-kale",
@@ -6603,16 +6649,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/israeli-style-hummus.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/israeli-style-hummus.md",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/mediterranean-chicken-bowls.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual grain/hummus state, marination option, pan loads, bowl capacity and serving quantities? No cooker water dose is supplied.",
+        "Which seasoning/marination option is intended? Earlier unmeasured feta has no quantitative equivalence; current½cup is kept."
       ],
       "inputSha256": "a82d7ea9f4fa56639ff56da0177ff898bcb8268897ed53e4e8056be85a04edf6",
       "plannedBatch": "roast-grill-and-sear-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "f9aeb01015af3fb64b384c2a5cfca4de814610bc4cfbec4069777060eb0a6733",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "mediterranean-grain-salad",
@@ -6835,7 +6889,7 @@
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/",
       "group": "cookies_family_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/mm-cookies.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -6849,7 +6903,9 @@
       "owner": "baking_editor",
       "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedSourceSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "moms-famous-chocolate-cake",
@@ -7043,7 +7099,7 @@
       "source": "Adapted from Verybestbaking.com",
       "sourceUrl": "https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies",
       "group": "cookies_family_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/old-fashioned-soft-pumpkin-cookies.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -7057,7 +7113,9 @@
       "owner": "baking_editor",
       "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedSourceSha256": "7d8bda25aacabe16f2d43bf13335c431cc918c9d65e72df0976723ecac290301",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "old-fashioned-strawberry-ice-cream",
@@ -7597,16 +7655,24 @@
       "source": "Adapted from redhousespice.com",
       "sourceUrl": "https://redhousespice.com/peking-duck/comment-page-8/#comments",
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "held",
+      "reviewEvidence": [
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/peking-duck-an-easy-home-version.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which fresh/thawed starting age and cold drying duration are intended? Is a whole-skin boiling-water pour followed by cold storage permitted under applicable USDA no-partial-cook/cold-finish guidance, or must an independently supported different preparation be chosen? How will the full raw-window and cumulative roomtemperature handling be bounded?",
+        "Retain current1tspfat sauce and expose sourcehalfTbsp separately? Choose maltose main versus supported2:1honey alternative with an actual dose; retain sourceconventional425→390 separately from current425→350 without promising equal finish? Wholeduck and cavity contents require165 checks, actualrack/pan/model and clock remain untested.",
+        "Does the household want the original service/soup/vinegar options once the primary duck handling route is resolved? No pancake package, soup water amount or measured yield established."
       ],
       "inputSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
       "plannedBatch": "baked-savory-and-breads-08",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "9dce4b1753daef8b64fe5c23b7bec54cd6a1f3767c00fa7aa48c8af4cba171c8",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "pho-bo-beef-pho",
@@ -8943,16 +9009,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "protein_assembled_mains_18",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/source-restorations-2026-10-05.md",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+        ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/records/sheet-pan-italian-sausage-dinner.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual raw link species/package, pan dimensions, potato size and broccoli amount/appliance?",
+        "Can representative raw-contact potatoes be measured reliably? Actual alternate potato time and sausage label remain product-dependent.",
+        "Sausage Sheet Pan Night includes crispy-smashed-potatoes as a second component despite potatoes already in main and a35minute cooking/40minute finish schedule; which potato route and actual amounts are intended?"
       ],
       "inputSha256": "cfd3baaa5b36a23495b257dba121c17e2dfa1c53e29291f0ae7d1882ecb67827",
       "plannedBatch": "roast-grill-and-sear-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/assignment.json",
+      "proposedSourceSha256": "8b32f1fee27cd782f842fa513fbdda4ae4b10dd8fc9b43b2fca5b097fa5e611a",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/protein_assembled_mains_18/manifest.json",
+      "completeEditorialAcceptance": false,
+      "productionVerification": "pending"
     },
     {
       "slug": "sheet-pan-pancakes",
@@ -9528,7 +9603,7 @@
       "source": "Adapted from Mimi (Pat Hamilton)",
       "sourceUrl": null,
       "group": "cookies_family_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/snickerdoodles.md",
         "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md"
@@ -9543,7 +9618,9 @@
       "owner": "baking_editor",
       "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedSourceSha256": "7f3bad3911ce975f756c116773b121e3dc27f4e6be5ca85026fc22824059ac1b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
+      "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "soba-noodles-with-shiitakes-broccoli-and-tofu",
@@ -11876,11 +11953,10 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 213,
-    "held": 24,
-    "proposed": 114,
-    "assigned": 14,
-    "accepted": 11,
+    "production-verified": 224,
+    "held": 25,
+    "proposed": 120,
+    "assigned": 7,
     "queued": 31,
     "held-awaiting-evidence": 2
   }

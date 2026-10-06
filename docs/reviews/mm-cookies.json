@@ -1,6 +1,6 @@
 {
   "slug": "mm-cookies",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
   "inputSha256": "78add62ccc493589c7c5aea19037555985eee5fba8dfd6127b6ee437963e7a6d",
   "acceptedSourceSha256": "325a524995cc6b9cbe27858a419fa83190738bf9064205104569fee1a397bd6b",
@@ -717,7 +717,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
   "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -741,5 +741,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+  "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
 }

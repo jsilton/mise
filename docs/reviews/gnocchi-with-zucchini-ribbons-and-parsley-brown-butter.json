@@ -1,6 +1,6 @@
 {
   "slug": "gnocchi-with-zucchini-ribbons-and-parsley-brown-butter",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
   "inputSha256": "eac9f4bad5fd3d4f46edb96a650dc288e889698061b5e1beafc5330bdd9427d1",
   "acceptedSourceSha256": "08d12dc8d98c1b71ef9c109dfae36e643130dfaec822fa6de8f3cd4ca6c89fc3",
@@ -482,7 +482,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
   "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -506,5 +506,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+  "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
 }

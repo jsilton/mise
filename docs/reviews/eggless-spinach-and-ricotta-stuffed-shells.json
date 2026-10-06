@@ -1,6 +1,6 @@
 {
   "slug": "eggless-spinach-and-ricotta-stuffed-shells",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "ae7bc0374aa57556d8e48330a4f55d78edbe36bc",
   "inputSha256": "00ab2f763a4b574923425649f262a79b878b45a3dee4324ae55c623e842bd036",
   "acceptedSourceSha256": "b896a2877fdaabad7717ee88426fb30e5af41f5e635665bed2e83c8cb2401942",
@@ -545,7 +545,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
   "rootDisposition": "Accept these eleven written versions, preserving all defining richness, source/current alternatives, authorship, earlier repairs and identities. Classic rest uses an explicitly conservative general USDA application with no cookie-specific validation. Native and publisher disagreements, linked meals, unmeasured clocks and counts remain disclosed. Wrappers excluded and held. Kitchen0; no native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -569,5 +569,7 @@
     "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
+  "releaseCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
 }
