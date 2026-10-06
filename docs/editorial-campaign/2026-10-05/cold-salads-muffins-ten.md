@@ -20,3 +20,9 @@ Four cold salads and six vegetable muffins received complete author review, inde
 ## Locally validated checkpoint
 
 All 252 tests, 80 authored formula checks, 643-recipe validation, 10 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved. All three exports match 643 sources; private bindings, public privacy and 12,204 built anchors pass. The other 633 recipe sources/export schemas and unrelated review credit remain unchanged. 1 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 10 complete rendered pages and 61 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](cold-salads-muffins-ten-preservation.json).
+
+## Verified publication
+
+180 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 414 recorded complete / 229 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [804a0f85](https://github.com/jsilton/mise/commit/804a0f855ed438459c78245d85002eda2f495175), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37425503825) and all 10 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](cold-salads-muffins-ten-production.json).

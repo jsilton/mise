@@ -267,6 +267,19 @@
       "reviewer": "coverage_check",
       "inputCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "status": "assigned; whole author/independent/root pending"
+    },
+    "cookies_family_03": {
+      "slugs": [
+        "classic-chocolate-chip-cookies",
+        "mm-cookies",
+        "snickerdoodles",
+        "old-fashioned-soft-pumpkin-cookies",
+        "hamantaschen",
+        "freezer-date-cookies"
+      ],
+      "reviewer": "baking_editor",
+      "inputCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -2258,7 +2271,7 @@
       "source": "Adapted from minimalistbaker.com",
       "sourceUrl": "https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/",
       "group": "vegetable_muffins_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/chocolate-chip-beet-muffins.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -2272,7 +2285,9 @@
       "plannedBatch": "baked-savory-and-breads-03",
       "reviewer": "baking_editor",
       "acceptedSourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "chocolate-chip-cookie-cake",
@@ -2298,7 +2313,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetable_muffins_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/chocolate-chip-muffins-with-zucchini.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -2313,7 +2328,9 @@
       "plannedBatch": "baked-savory-and-breads-03",
       "reviewer": "baking_editor",
       "acceptedSourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "chocolate-chip-walnut-cookies",
@@ -2408,7 +2425,7 @@
       "source": "yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/",
       "group": "vegetable_muffins_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/chocolate-protein-zucchini-muffins.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -2422,7 +2439,9 @@
       "plannedBatch": "baked-sweets-02",
       "reviewer": "baking_editor",
       "acceptedSourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "chocolate-souffle",
@@ -2489,8 +2508,8 @@
       "title": "Classic Chocolate Chip Cookies",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cookies_family_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2498,7 +2517,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "07ebad4e54b22cf56e20be2ee9725b6e993edc47259d7357c696fc230da0ddef",
-      "plannedBatch": "baked-sweets-03"
+      "plannedBatch": "baked-sweets-03",
+      "owner": "baking_editor",
+      "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175"
     },
     {
       "slug": "classic-french-toast",
@@ -3695,7 +3716,7 @@
       "source": "Adapted from yummytoddlerfood.com",
       "sourceUrl": "https://www.yummytoddlerfood.com/pumpkin-oatmeal-muffins/",
       "group": "vegetable_muffins_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/favorite-pumpkin-oatmeal-muffins.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -3710,7 +3731,9 @@
       "plannedBatch": "baked-savory-and-breads-05",
       "reviewer": "baking_editor",
       "acceptedSourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "fennel-and-carrot-soup",
@@ -3781,8 +3804,8 @@
       "title": "Freezer Date Cookies",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cookies_family_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3790,7 +3813,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "967833476d5fcaebb1a0ea8d5f404255f5c790341d4e205869312f1aa867ccf8",
-      "plannedBatch": "baked-savory-and-breads-05"
+      "plannedBatch": "baked-savory-and-breads-05",
+      "owner": "baking_editor",
+      "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175"
     },
     {
       "slug": "french-dip-sandwiches",
@@ -4628,8 +4653,8 @@
       "title": "Hamantaschen",
       "source": "Adapted from ToriAvey.com",
       "sourceUrl": "https://toriavey.com/toris-kitchen/buttery-hamantaschen/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_family_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4637,7 +4662,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "640037457a58a434779492436e783a64cb66d2172b0bb66f89400cc8cb5b0fa3",
-      "plannedBatch": "baked-sweets-04"
+      "plannedBatch": "baked-sweets-04",
+      "owner": "baking_editor",
+      "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175"
     },
     {
       "slug": "har-gow-dim-sum-shrimp-dumplings",
@@ -5626,7 +5653,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/mediterranean-grain-salad.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -5641,7 +5668,9 @@
       "plannedBatch": "simmer-boil-and-steam-06",
       "reviewer": "coverage_check",
       "acceptedSourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
@@ -5836,8 +5865,8 @@
       "title": "Candy-Coated Chocolate Cookies",
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/10785/robbis-mms-cookies/",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_family_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5845,7 +5874,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "78add62ccc493589c7c5aea19037555985eee5fba8dfd6127b6ee437963e7a6d",
-      "plannedBatch": "baked-sweets-05"
+      "plannedBatch": "baked-sweets-05",
+      "owner": "baking_editor",
+      "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175"
     },
     {
       "slug": "moms-famous-chocolate-cake",
@@ -6018,8 +6049,8 @@
       "title": "Soft Pumpkin Cookies",
       "source": "Adapted from Verybestbaking.com",
       "sourceUrl": "https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies",
-      "group": null,
-      "status": "queued",
+      "group": "cookies_family_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6027,7 +6058,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c68c255bb702815650e02dfef7fab89f611958a604509734a9b13f2c0ecbbb3d",
-      "plannedBatch": "baked-sweets-05"
+      "plannedBatch": "baked-sweets-05",
+      "owner": "baking_editor",
+      "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175"
     },
     {
       "slug": "old-fashioned-strawberry-ice-cream",
@@ -6595,7 +6628,7 @@
       "source": "Adapted from Puffy Muffin",
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/puffy-muffin-chicken-salad.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -6610,7 +6643,9 @@
       "plannedBatch": "simmer-boil-and-steam-08",
       "reviewer": "coverage_check",
       "acceptedSourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "pumpkin-breakfast-cookies",
@@ -6749,7 +6784,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/quick-pickled-cucumber-salad.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -6764,7 +6799,9 @@
       "plannedBatch": "context-screening-04",
       "reviewer": "coverage_check",
       "acceptedSourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "quick-wonton-soup",
@@ -8206,8 +8243,8 @@
       "title": "Snickerdoodles",
       "source": "Adapted from Mimi (Pat Hamilton)",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "cookies_family_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8215,7 +8252,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "32569fa8e8738549b59ef279583d100fe4204dec758937fbaa38217adfb0550e",
-      "plannedBatch": "baked-sweets-06"
+      "plannedBatch": "baked-sweets-06",
+      "owner": "baking_editor",
+      "assignmentInputCommit": "804a0f855ed438459c78245d85002eda2f495175"
     },
     {
       "slug": "soba-noodles-with-shiitakes-broccoli-and-tofu",
@@ -8922,7 +8961,7 @@
       "source": "Adapted from Superhealthykids.com",
       "sourceUrl": "https://www.superhealthykids.com/sweet-spinach-muffins/",
       "group": "vegetable_muffins_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/sweet-spinach-muffins.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -8936,7 +8975,9 @@
       "plannedBatch": "baked-savory-and-breads-11",
       "reviewer": "baking_editor",
       "acceptedSourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "tamagoyaki-japanese-rolled-omelet",
@@ -9208,7 +9249,7 @@
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/vegan-caesar-pasta-salad/",
       "group": "cold_salads_03",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/vegan-caesar-pasta-salad.md",
         "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md"
@@ -9223,7 +9264,9 @@
       "plannedBatch": "roast-grill-and-sear-04",
       "reviewer": "coverage_check",
       "acceptedSourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "vegetable-minestrone",
@@ -9250,7 +9293,7 @@
       "source": "Adapted from thenaturalnurturer.com",
       "sourceUrl": "https://thenaturalnurturer.com/healthy-chocolate-muffins-with-veggies/",
       "group": "vegetable_muffins_04",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
         "docs/reviews/vegetable-muffin.md",
@@ -9265,7 +9308,9 @@
       "plannedBatch": "baked-savory-and-breads-12",
       "reviewer": "baking_editor",
       "acceptedSourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
+      "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "vieux-carre",
@@ -10261,12 +10306,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 170,
+    "production-verified": 180,
     "held": 18,
-    "assigned": 30,
+    "assigned": 36,
     "proposed": 39,
-    "queued": 140,
-    "accepted": 10,
+    "queued": 134,
     "held-awaiting-evidence": 2
   }
 }

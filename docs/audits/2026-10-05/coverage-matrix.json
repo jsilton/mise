@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "170 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "180 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 414 recorded complete / 229 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [804a0f85](https://github.com/jsilton/mise/commit/804a0f855ed438459c78245d85002eda2f495175), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37425503825) and all 10 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -5922,17 +5922,21 @@
         "record": "docs/reviews/chocolate-chip-beet-muffins.md",
         "acceptedSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-beet-muffins.json",
         "sourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "A complete vegan adaptation would require its own full formula decision; the current publisher is not evidence to replace the saved eggs and dairy.",
@@ -6016,17 +6020,21 @@
         "record": "docs/reviews/chocolate-chip-muffins-with-zucchini.md",
         "acceptedSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-muffins-with-zucchini.json",
         "sourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "No validated amount or mechanism for unspecified “other flour” or “other baking oil” beyond current explicit choices.",
@@ -6215,17 +6223,21 @@
         "record": "docs/reviews/chocolate-protein-zucchini-muffins.md",
         "acceptedSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-protein-zucchini-muffins.json",
         "sourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "Brand/composition-specific hydration cannot be normalized from the publisher’s non-protein batter.",
@@ -10139,17 +10151,21 @@
         "record": "docs/reviews/favorite-pumpkin-oatmeal-muffins.md",
         "acceptedSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/favorite-pumpkin-oatmeal-muffins.json",
         "sourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "Saved oat-flour/by-hand route supplies no replacement amount; 2 cups rolled oats is not assumed equivalent to 2 cups oat flour.",
@@ -16521,17 +16537,21 @@
         "record": "docs/reviews/mediterranean-grain-salad.md",
         "acceptedSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/mediterranean-grain-salad.json",
         "sourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "Confirm actual pearled farro product and whether listed broth suffices at the selected pot/lid; package directions govern deviations.",
@@ -19873,17 +19893,21 @@
         "record": "docs/reviews/puffy-muffin-chicken-salad.md",
         "acceptedSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/puffy-muffin-chicken-salad.json",
         "sourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "The current about1lb companion measure is an unverified rough estimate, not an exact equivalence to two cups of raw tenders; measure intended original tender volume/weight before certifying a weight conversion.",
@@ -20396,17 +20420,21 @@
         "record": "docs/reviews/quick-pickled-cucumber-salad.md",
         "acceptedSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/quick-pickled-cucumber-salad.json",
         "sourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "Actual cucumber sizes, salt crystal brand and vinegar product are unspecified; no fine-salt conversion or preservation acidity certified.",
@@ -27029,17 +27057,21 @@
         "record": "docs/reviews/sweet-spinach-muffins.md",
         "acceptedSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-spinach-muffins.json",
         "sourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "Current publisher’s optional whole-wheat moisture additions are not silently added to the saved butter/honey formula.",
@@ -28356,17 +28388,21 @@
         "record": "docs/reviews/vegan-caesar-pasta-salad.md",
         "acceptedSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/vegan-caesar-pasta-salad.json",
         "sourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["804a0f855ed438459c78245d85002eda2f495175"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "Which prepared dressing and chickpea products are intended, and how much does the source-linked dressing actually yield? No equivalent volume fabricated.",
@@ -28455,11 +28491,11 @@
         "record": "docs/reviews/vegetable-muffin.md",
         "acceptedSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/vegetable-muffin.json",
         "sourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0"
       },
@@ -28468,10 +28504,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "804a0f855ed438459c78245d85002eda2f495175"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
+        "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+        "evidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json"
       },
       "remainingQuestions": [
         "The named two-flax-egg source option has no explicit preparation or water ratio in this recipe; hold that branch rather than inventing quantities or declaring the full recipe vegan.",

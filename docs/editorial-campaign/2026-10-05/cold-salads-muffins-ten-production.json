@@ -1,0 +1,186 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175",
+  "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37425503825",
+  "ci": {
+    "headSha": "804a0f855ed438459c78245d85002eda2f495175",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "804a0f855ed438459c78245d85002eda2f495175",
+  "rendered": [
+    {
+      "slug": "puffy-muffin-chicken-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "mediterranean-grain-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "vegan-caesar-pasta-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "quick-pickled-cucumber-salad",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "chocolate-chip-beet-muffins",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "chocolate-chip-muffins-with-zucchini",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "chocolate-protein-zucchini-muffins",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "favorite-pumpkin-oatmeal-muffins",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "sweet-spinach-muffins",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "vegetable-muffin",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    }
+  ],
+  "verifiedDate": "2026-10-06T06:52:10.783Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "puffy-muffin-chicken-salad",
+      "acceptedSourceSha256": "7122163174efd5673a82717e6a603b155039cd1ccba2e7246c41dd6c57162433"
+    },
+    {
+      "slug": "mediterranean-grain-salad",
+      "acceptedSourceSha256": "b4a72fdd09a1ff493e490e7c18677494d7b451ebf1c75431977d25d5b421e945"
+    },
+    {
+      "slug": "vegan-caesar-pasta-salad",
+      "acceptedSourceSha256": "24f162d6bd3c4551be033e4900a93a185e0fb1e4b7c6bce087b0f0dc47614b28"
+    },
+    {
+      "slug": "quick-pickled-cucumber-salad",
+      "acceptedSourceSha256": "d3221afb57da9fc8b1d52166ee3694977fb352ac3157237519cbcecb4f147cf9"
+    },
+    {
+      "slug": "chocolate-chip-beet-muffins",
+      "acceptedSourceSha256": "2bb996957cb4132bb96695e5e43645fd992cc57caa65e0537553462cb4b0ac5b"
+    },
+    {
+      "slug": "chocolate-chip-muffins-with-zucchini",
+      "acceptedSourceSha256": "ac014edf9bfadf6f77937fa42c7df386dc983be7f04c5a1a14b5a6cdd1f16cee"
+    },
+    {
+      "slug": "chocolate-protein-zucchini-muffins",
+      "acceptedSourceSha256": "215ca481ae12a674dfa23c46e736a0ad1c056bfff86b1ca3243a38dc71c05546"
+    },
+    {
+      "slug": "favorite-pumpkin-oatmeal-muffins",
+      "acceptedSourceSha256": "c123938da0ba0efeb42091ac97a527dbedcf0957ff44ff360a7ccd56cf5007a3"
+    },
+    {
+      "slug": "sweet-spinach-muffins",
+      "acceptedSourceSha256": "b59bc778cc7925738117a44b4c998194df382e49dc33d8040e6c6fe97843afd3"
+    },
+    {
+      "slug": "vegetable-muffin",
+      "acceptedSourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 10; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}

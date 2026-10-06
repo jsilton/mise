@@ -1,5 +1,9 @@
 # Current campaign state — October 6, 2026
 
+180 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 414 recorded complete / 229 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [804a0f85](https://github.com/jsilton/mise/commit/804a0f855ed438459c78245d85002eda2f495175), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37425503825) and all 10 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/cold-salads-muffins-ten.md).
+
+## Earlier acceptance checkpoint
+
 414 recorded complete / 229 pending across 643 sources. 170 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/cold-salads-muffins-ten.md).
 
 ## Previous verified checkpoint

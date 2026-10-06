@@ -1,6 +1,6 @@
 {
   "slug": "vegetable-muffin",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "e9e70d504cd0104931fe2d3bd9c14bff24c51309",
   "inputSha256": "50460a1fb1c82610d2dcf92503b6d0d0e58c6dfe7398a1ec85caabf0a07c1d22",
   "acceptedSourceSha256": "68df4c62c5435449dca0bf8d38f6f119a54f8dc5049f14444d9dceffa2619ef0",
@@ -5718,7 +5718,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
   "rootDisposition": "Root accepts these ten complete written versions with all defining ingredients, rich current and source variants and prior repairs preserved. Missing-evidence optional branches and the whole Mandarin salad remain held. Counts, elapsed ranges and storage quality are plans, not kitchen validation. Exact native originals and every identity stay private; no native-app sync.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -5742,5 +5742,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "804a0f855ed438459c78245d85002eda2f495175",
+  "releaseCommit": "804a0f855ed438459c78245d85002eda2f495175"
 }
