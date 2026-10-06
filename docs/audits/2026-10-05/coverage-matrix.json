@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "180 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "191 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 425 recorded complete / 218 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [bc7c88ea](https://github.com/jsilton/mise/commit/bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37429384204) and all 11 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -262,17 +262,21 @@
         "record": "docs/reviews/anelletti-al-forno.md",
         "acceptedSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/anelletti-al-forno.json",
         "sourceSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Independent/root choice of the source-rich primary and explicitly completed current variation remains pending; actual cooked ragù output, sauce coverage and dish headroom require kitchen evaluation.",
@@ -401,11 +405,11 @@
         "record": "docs/reviews/apple-cider-cream-pie.md",
         "acceptedSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/apple-cider-cream-pie.json",
         "sourceSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467"
       },
@@ -414,10 +418,15 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual pie-plate depth, custard thickness at160°F, reduction elapsed time and fully cold set need kitchen evaluation.",
@@ -449,17 +458,21 @@
         "record": "docs/reviews/apple-pie.md",
         "acceptedSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/apple-pie.json",
         "sourceSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual current vodka-dough hydration and ability to gather with its listed4tbsp total liquid need kitchen checking; do not infer an extra dose.",
@@ -2846,11 +2859,11 @@
         "record": "docs/reviews/broccolini-chicken-sausage-and-orzo-skillet.md",
         "acceptedSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/broccolini-chicken-sausage-and-orzo-skillet.json",
         "sourceSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1"
       },
@@ -2859,10 +2872,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual skillet diameter/depth, brand orzo heat-up and evaporation; measured cooked portion size remains untested."
@@ -3272,17 +3290,21 @@
         "record": "docs/reviews/butternut-squash-fettuccine-alfredo.md",
         "acceptedSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/butternut-squash-fettuccine-alfredo.json",
         "sourceSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual blender/processor model permitted temperature/load and cooling/rewarm clock; actual squash weight and portions not measured.",
@@ -8033,17 +8055,21 @@
         "record": "docs/reviews/crispy-sheet-pan-gnocchi-and-veggies.md",
         "acceptedSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/crispy-sheet-pan-gnocchi-and-veggies.json",
         "sourceSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual gnocchi product, tray capacity, preferred shrimp or fully cooked sausage and resulting total clock/portion size require kitchen evaluation.",
@@ -8187,17 +8213,21 @@
         "record": "docs/reviews/crockpot-mac-and-cheese.md",
         "acceptedSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/crockpot-mac-and-cheese.json",
         "sourceSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual cooker model, measured fill before/after expansion, kosher crystal type, noodle brand thickness and first successfulclock/texture;165casserole category application editorial, no physical validation.",
@@ -8510,17 +8540,21 @@
         "record": "docs/reviews/custard-mac-and-pimento-cheese.md",
         "acceptedSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/custard-mac-and-pimento-cheese.json",
         "sourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "The retained earlier HTML credits the Gwock Family for the older 8 oz pasta, four-egg and margarine recipe. Is that incomplete route wanted separately, and what milk amount and pan fill were used? The later pimento rewrite is not established as a Gwock Family recipe.",
@@ -13201,17 +13235,21 @@
         "record": "docs/reviews/heirloom-tomato-pesto-and-ricotta-galette.md",
         "acceptedSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/heirloom-tomato-pesto-and-ricotta-galette.json",
         "sourceSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual tomato size/juice, ricotta moisture, rolled pastry thickness and oven/base browning need kitchen evaluation.",
@@ -15009,17 +15047,21 @@
         "record": "docs/reviews/key-lime-pie-with-lime-zest.md",
         "acceptedSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/key-lime-pie-with-lime-zest.json",
         "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
@@ -27920,17 +27962,21 @@
         "record": "docs/reviews/tomato-and-goat-cheese-tart.md",
         "acceptedSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/tomato-and-goat-cheese-tart.json",
         "sourceSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f",
+        "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+        "evidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual11-inch tart depth/cheese and tomato volume, kosher-salt crystals and freezing-to-hot-oven pan rating remain kitchen/equipment questions.",

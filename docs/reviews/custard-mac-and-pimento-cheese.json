@@ -1,6 +1,6 @@
 {
   "slug": "custard-mac-and-pimento-cheese",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
   "inputSha256": "416362d4241a94ae14b9289fa672fb3560e174de81c6a3dec2a58c69f490fa05",
   "acceptedSourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591",
@@ -489,7 +489,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
   "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -514,5 +514,7 @@
     "kitchenTests": 0,
     "nativeAppSynced": false,
     "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
-  }
+  },
+  "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+  "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
 }

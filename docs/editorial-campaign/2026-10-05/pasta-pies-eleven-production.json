@@ -1,0 +1,201 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+  "implementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37429384204",
+  "ci": {
+    "headSha": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
+  "rendered": [
+    {
+      "slug": "anelletti-al-forno",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "broccolini-chicken-sausage-and-orzo-skillet",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "butternut-squash-fettuccine-alfredo",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "crispy-sheet-pan-gnocchi-and-veggies",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "crockpot-mac-and-cheese",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 5
+    },
+    {
+      "slug": "custard-mac-and-pimento-cheese",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "apple-cider-cream-pie",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "apple-pie",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 7
+    },
+    {
+      "slug": "key-lime-pie-with-lime-zest",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "heirloom-tomato-pesto-and-ricotta-galette",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 6
+    },
+    {
+      "slug": "tomato-and-goat-cheese-tart",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "methodCount": 8
+    }
+  ],
+  "verifiedDate": "2026-10-06T07:27:08.044Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "anelletti-al-forno",
+      "acceptedSourceSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c"
+    },
+    {
+      "slug": "broccolini-chicken-sausage-and-orzo-skillet",
+      "acceptedSourceSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1"
+    },
+    {
+      "slug": "butternut-squash-fettuccine-alfredo",
+      "acceptedSourceSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5"
+    },
+    {
+      "slug": "crispy-sheet-pan-gnocchi-and-veggies",
+      "acceptedSourceSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040"
+    },
+    {
+      "slug": "crockpot-mac-and-cheese",
+      "acceptedSourceSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822"
+    },
+    {
+      "slug": "custard-mac-and-pimento-cheese",
+      "acceptedSourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591"
+    },
+    {
+      "slug": "apple-cider-cream-pie",
+      "acceptedSourceSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467"
+    },
+    {
+      "slug": "apple-pie",
+      "acceptedSourceSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13"
+    },
+    {
+      "slug": "key-lime-pie-with-lime-zest",
+      "acceptedSourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e"
+    },
+    {
+      "slug": "heirloom-tomato-pesto-and-ricotta-galette",
+      "acceptedSourceSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83"
+    },
+    {
+      "slug": "tomato-and-goat-cheese-tart",
+      "acceptedSourceSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 11; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}

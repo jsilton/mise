@@ -1,5 +1,9 @@
 # Current campaign state — October 6, 2026
 
+191 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 425 recorded complete / 218 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [bc7c88ea](https://github.com/jsilton/mise/commit/bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37429384204) and all 11 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/pasta-pies-eleven.md).
+
+## Earlier acceptance checkpoint
+
 425 recorded complete / 218 pending across 643 sources. 180 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/pasta-pies-eleven.md).
 
 ## Previous verified checkpoint

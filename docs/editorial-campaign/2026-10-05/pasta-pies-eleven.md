@@ -21,3 +21,9 @@ Six pasta dishes and five pies and tarts received complete author review, indepe
 ## Locally validated checkpoint
 
 All 252 tests, 85 authored formula checks, 643-recipe validation, 11 targeted lints and 30 aggregate QA checks pass. Targeted lint: Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method. All three exports match 643 sources; private bindings, public privacy and 12,226 built anchors pass. The other 632 recipe sources/export schemas and unrelated review credit remain unchanged. 4 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 11 complete rendered pages and 70 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](pasta-pies-eleven-preservation.json).
+
+## Verified publication
+
+191 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 425 recorded complete / 218 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [bc7c88ea](https://github.com/jsilton/mise/commit/bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37429384204) and all 11 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](pasta-pies-eleven-production.json).
