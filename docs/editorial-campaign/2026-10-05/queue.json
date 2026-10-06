@@ -1002,11 +1002,12 @@
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
       "group": "griddle_breads_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/basic-crepes.md",
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/basic-crepes.json"
+        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/basic-crepes.json",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -1026,7 +1027,9 @@
         "sourceSha256": "339258e020d43d48685a0d656059f59d6922c8f95537f23b6fceeab1c6f4a11b",
         "recordPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/basic-crepes.json",
         "recordSha256": "4300daf198f072459856fda3151b1da1dcf3378639c4f705b83fbaa203b0250c"
-      }
+      },
+      "acceptedSourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1",
+      "productionVerification": "pending"
     },
     {
       "slug": "bbq-chicken-sliders",
@@ -2133,10 +2136,12 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678",
       "group": "cheesy_mains_09",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/cheese-fondue.json"
+        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/cheese-fondue.json",
+        "docs/reviews/cheese-fondue.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2155,7 +2160,9 @@
         "sourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/cheese-fondue.json",
         "recordSha256": "343bc881ccf6cdbec08c664b6407dc8efe8472d1da4e7e22b4d881dd51496f3b"
-      }
+      },
+      "acceptedSourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
+      "productionVerification": "pending"
     },
     {
       "slug": "cheesy-cauliflower-sauce",
@@ -2925,15 +2932,18 @@
       "source": null,
       "sourceUrl": null,
       "group": "griddle_breads_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/classic-french-toast.json"
+        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/classic-french-toast.json",
+        "docs/reviews/classic-french-toast.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual skillet capacity, bread absorption and center heating need kitchen tests.",
-        "No actual external author/publisher source or original450 native match is established for this Git-created recipe."
+        "No actual external author/publisher source or original450 native match is established for this Git-created recipe.",
+        "Actual slices fitting a skillet remain equipment/bread-dependent."
       ],
       "inputSha256": "7ecccdcc8d9a472682680bc50d354159193e8fc5fb8e4650342da7e346482a45",
       "plannedBatch": "context-screening-02",
@@ -2948,7 +2958,9 @@
         "sourceSha256": "5c91154e8956dd71c34d31451e370ed656e59c2fffd22c095f52e0acd90fee56",
         "recordPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/classic-french-toast.json",
         "recordSha256": "0e87be912142dfd6e85816f95b0e42f510912334e66d570dad841f958d5789d3"
-      }
+      },
+      "acceptedSourceSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e",
+      "productionVerification": "pending"
     },
     {
       "slug": "classic-guacamole",
@@ -3786,16 +3798,19 @@
       "source": "Adapted from prettyprovidence.com",
       "sourceUrl": "https://prettyprovidence.com/german-pancakes/",
       "group": "griddle_breads_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/dutch-baby-pancake.json"
+        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/dutch-baby-pancake.json",
+        "docs/reviews/dutch-baby-pancake.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
         "The modern publisher card says4teaspoonsbutter/12portions while saved native/045/current use4tablespoons/4portions. Preserve full saved richness/portionplan without copying modern count/nutrition.",
-        "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork."
+        "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork.",
+        "Actual vessel depth/material/manufacturer temperature-change permission remain unknown. These recommendations do not establish a tested scaled bake clock."
       ],
       "inputSha256": "311e21cb72411d583c7b4eab93c8aa92700e547d0c580dd0120ddfaa9dac8b16",
       "plannedBatch": "baked-savory-and-breads-04",
@@ -3810,7 +3825,9 @@
         "sourceSha256": "8ef96ca1c056b79a1677c092845ffd1febb6a24a30b4f3e8a1cf88bdc8a3ea81",
         "recordPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/dutch-baby-pancake.json",
         "recordSha256": "98167a3f2f7d53a87c738029f488ddebcd678e216c57bb2acbda54d14b759308"
-      }
+      },
+      "acceptedSourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-baked-turkey-meatballs",
@@ -3944,10 +3961,12 @@
       "source": "Adapted from justataste.com",
       "sourceUrl": "https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/",
       "group": "griddle_breads_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/easy-cinnamon-french-toast-sticks.json"
+        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/easy-cinnamon-french-toast-sticks.json",
+        "docs/reviews/easy-cinnamon-french-toast-sticks.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3967,7 +3986,9 @@
         "sourceSha256": "f9a1e1a554c3ff4ff608e0a6f82134a288942f31dde6132a595a1df3397cea30",
         "recordPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/easy-cinnamon-french-toast-sticks.json",
         "recordSha256": "cb79c54fb970c355b80e6768c494c24cf31d705ec758d15a03715cb766e560dc"
-      }
+      },
+      "acceptedSourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502",
+      "productionVerification": "pending"
     },
     {
       "slug": "easy-homemade-pumpkin-pancakes",
@@ -4496,16 +4517,19 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408",
       "group": "griddle_breads_03",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/griddle_breads_03/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/french-toast.json"
+        ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/french-toast.json",
+        "docs/reviews/french-toast.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
         "Saved honey versus current publisher sugar is an explicit source disagreement; honey main stays.",
-        "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred."
+        "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred.",
+        "Actual slices fitting a skillet remain equipment/bread-dependent."
       ],
       "inputSha256": "6892ddf7060216187c4260d355516d20eafa639a5e8a66c467748cf9984bbca2",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
@@ -4520,7 +4544,9 @@
         "sourceSha256": "99585a49a84eabc116ba96916436503e7ab8c8664e240d874c60ce2a743016b2",
         "recordPath": ".mise/editorial-campaign/2026-10-05/griddle_breads_03/records/french-toast.json",
         "recordSha256": "86b2962cd58f13cf116443909b19789e1cf27bd8f9058b95ada8fbd306b2d51b"
-      }
+      },
+      "acceptedSourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f",
+      "productionVerification": "pending"
     },
     {
       "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
@@ -5349,11 +5375,12 @@
       "source": "Gwock Family",
       "sourceUrl": null,
       "group": "cheesy_mains_09",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/gwock-family-macaroni-and-cheese.md",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/gwock-family-macaroni-and-cheese.json"
+        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/gwock-family-macaroni-and-cheese.json",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -5372,7 +5399,9 @@
         "sourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/gwock-family-macaroni-and-cheese.json",
         "recordSha256": "421d1fb740b669ce7373b4970448e6b5a7b2ef1e1f65f9ae20f3de86b8f19ad1"
-      }
+      },
+      "acceptedSourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
+      "productionVerification": "pending"
     },
     {
       "slug": "ham-and-cheese-green-bean-casserole",
@@ -7906,10 +7935,12 @@
       "source": null,
       "sourceUrl": null,
       "group": "cheesy_mains_09",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/queso-fundido-with-chorizo.json"
+        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/queso-fundido-with-chorizo.json",
+        "docs/reviews/queso-fundido-with-chorizo.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7928,7 +7959,9 @@
         "sourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/queso-fundido-with-chorizo.json",
         "recordSha256": "5f1f8434ec25c05b0f88a81a981a4d61da52f218ed4b65f23f15c0e89835606a"
-      }
+      },
+      "acceptedSourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
+      "productionVerification": "pending"
     },
     {
       "slug": "quick-and-easy-drop-biscuits",
@@ -8341,17 +8374,21 @@
       "source": "Adapted from Thefeedfeed.com",
       "sourceUrl": "https://thefeedfeed.com/video/roasted-butternut-squash-mac-and-cheese",
       "group": "cheesy_mains_09",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/roasted-butternut-squash-mac-and-cheese.json"
+        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/roasted-butternut-squash-mac-and-cheese.json",
+        "docs/reviews/roasted-butternut-squash-mac-and-cheese.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual finished pasta/cheese volume and baking-dish depths need kitchen capacity checks; two-quart source assertion is not certified.",
         "Source lists3 cups prepared roasted squash plus a3cupraw subrecipe; cooked yield is not measured and cannot be equated. Current3cupraw main retained; exact3cupprepared variant held over yield/oil preparation relationship.",
-        "Actual source modern page has20minprep/90mincook/7portions versus saved6–8/current8. Preserve current planning count, no measured serving or nutrition proof."
+        "Actual source modern page has20minprep/90mincook/7portions versus saved6–8/current8. Preserve current planning count, no measured serving or nutrition proof.",
+        "Which salt product and actual pinch suits the selected Parmesan and cheeses? No new measured salt dose is claimed.",
+        "Confirm desired texture/capacity and planning portions for the no-squash option separately; do not equate its yield to the full-squash main or resolve source3cups prepared/raw from this option."
       ],
       "inputSha256": "a9cbe0aa58f0be7ea5b44d2f3b62b3f4cc22b762f3609487e1afc7a955dca0d8",
       "plannedBatch": "baked-savory-and-breads-09",
@@ -8364,7 +8401,9 @@
         "sourceSha256": "2588b0ea0941df66c9dd7d6f9fec7924709a69ba22cf72faad9f53b7bf962f54",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/roasted-butternut-squash-mac-and-cheese.json",
         "recordSha256": "616350ebbc6e5992412c7a453165304007eb724b7a544870a56eab3c95cfcc17"
-      }
+      },
+      "acceptedSourceSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0",
+      "productionVerification": "pending"
     },
     {
       "slug": "roasted-corn-chowder-with-lime-cured-shrimp",
@@ -9399,17 +9438,20 @@
       "source": "Adapted from Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/skinny-baked-broccoli-macaroni-and/",
       "group": "cheesy_mains_09",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/reviews/source-restorations-2026-10-05.md",
         ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/skinny-baked-broccoli-macaroni-and-cheese.json"
+        ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/skinny-baked-broccoli-macaroni-and-cheese.json",
+        "docs/reviews/skinny-baked-broccoli-macaroni-and-cheese.md",
+        "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Actual pasta product and floret size govern boil time; all-at-start source route can yield softer broccoli.",
         "Eight portions remain planning, not measured one-cup servings for the current adapted cooking route.",
-        "Actual baking-dish capacity and broiler rating are unknown. Modernpublisher supports halfbatch9x9 and individualized dishes, not invented fullbatch dimensions."
+        "Actual baking-dish capacity and broiler rating are unknown. Modernpublisher supports halfbatch9x9 and individualized dishes, not invented fullbatch dimensions.",
+        "Optional source quality aid, not a required culinary correction or tested shelf-life extension."
       ],
       "inputSha256": "237fdf63629bbac0c1046ba03bb46191df6687e3b6f1594b72da7fb06a76d904",
       "plannedBatch": "baked-savory-and-breads-10",
@@ -9422,7 +9464,9 @@
         "sourceSha256": "f82e0f1ec77b07db3d596d9dedd79e72c3ea6bc6365d12bf857332f5498832ac",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cheesy_mains_09/records/skinny-baked-broccoli-macaroni-and-cheese.json",
         "recordSha256": "2d796148c97fa606bea7dd8a27e3ebbd2ffcb894b760c200353c5a9eee3f8310"
-      }
+      },
+      "acceptedSourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b",
+      "productionVerification": "pending"
     },
     {
       "slug": "slow-cooker-cheesy-mushroom-quinoa",
@@ -11955,7 +11999,8 @@
   "statusCounts": {
     "production-verified": 224,
     "held": 25,
-    "proposed": 120,
+    "accepted": 10,
+    "proposed": 110,
     "assigned": 7,
     "queued": 31,
     "held-awaiting-evidence": 2

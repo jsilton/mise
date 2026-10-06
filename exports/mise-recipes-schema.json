@@ -1665,7 +1665,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Basic Crêpes",
-      "description": "A thin, pourable batter makes crêpes that spread before they set. If needed, add milk one tablespoon at a time; tilt the hot pan immediately after pouring.",
+      "description": "Keep the full melted butter in the batter and use the separate pan-greasing supply. The batter needs to flow across the pan while you tilt it.",
       "url": "https://jordansilton.com/mise/recipes/basic-crepes/",
       "recipeIngredient": [
         "2 large eggs",
@@ -1679,15 +1679,19 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Mix: Whisk eggs, milk, water, and salt together in a large mixing bowl. Add flour and melted butter; whisk vigorously until batter is smooth and pourable."
+          "text": "Mix: Whisk all the eggs, listed milk, water and salt together. Whisk in all the flour and melted butter until smooth and pourable. If too thick to spread, add the optional additional milk one tablespoon at a time; stop when it flows into a thin layer."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook: Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the pan, using approximately 1/4 cup for each crêpe. Tilt the pan with a circular motion so that the batter coats the surface evenly."
+          "text": "Heat and pour: Heat a frying pan or griddle over medium-high heat and lightly grease it with the separate oil or butter. Start with approximately ¼ cup batter per crêpe and tilt immediately to coat the surface. Use the same thin layer at every recipe scale; pan size may require a different scoop, and the listed yield is approximate."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Cook until the top of the crêpe is no longer wet and the bottom has turned light brown, 1 to 2 minutes. Run a spatula around the edge of the skillet to loosen the crêpe; flip and cook until the other side has turned light brown, about 1 minute more."
+          "text": "Cook: Cook until the upper surface is set rather than wet and the underside is light brown, starting checks after 1–2 minutes. Loosen the edge, flip and cook the second side until light brown and fully set, about 1 minute more. If the first side browns before the top sets, reduce the heat for the next round."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Continue and serve: Repeat with the remaining batter, lightly regreasing as needed. Serve hot, with separately prepared fillings if wanted. Do not taste uncooked flour-and-egg batter."
         }
       ],
       "prepTime": "PT10M",
@@ -4866,7 +4870,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Cheese Fondue",
-      "description": "Cheese fondue is a fragile Emulsion. If the heat is too high, the cheese will \"break\" into a stringy ball and a pool of oil.",
+      "description": "Add the starch-coated cheese gradually to gently heated wine and lemon juice. Keep the first melt below a hard boil and stir as each handful melts; excessive heat can make the cheese oily or stringy.",
       "url": "https://jordansilton.com/mise/recipes/cheese-fondue/",
       "recipeIngredient": [
         "1/2 lb Gruyère, shredded",
@@ -4877,37 +4881,37 @@
         "1 tbsp Fresh Lemon Juice",
         "1 tbsp Kirsch (Cherry Brandy)",
         "Pinch of Nutmeg",
-        "1/2 tsp Dry Mustard"
+        "1/2 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Rub: Rub the inside of a heavy pot (ceramic or cast iron) with the garlic halves. Discard the garlic."
+          "text": "Prepare dippers: Cut bread and washed apples into bite-sized pieces; wash and blanch any vegetables you choose until tender enough to eat. Drain well. Keep the dippers separate from the cheese mixture."
         },
         {
           "@type": "HowToStep",
-          "text": "Coat: In a bowl, toss the shredded cheeses with the cornstarch until evenly coated."
+          "text": "Rub: Rub the inside of a heavy pot rated for the stovetop with the peeled garlic halves, then discard the garlic. A ceramic serving pot may need the fondue transferred into it rather than placed directly on a burner; follow its instructions."
         },
         {
           "@type": "HowToStep",
-          "text": "Simmer: Add the wine and lemon juice to the pot. Bring to a very gentle simmer over medium-low heat."
+          "text": "Coat: Toss all the shredded cheeses with all the cornstarch until evenly coated."
         },
         {
           "@type": "HowToStep",
-          "text": "Whisk: Add one handful of cheese. Whisk constantly in a Figure-8 motion until melted. Repeat until all cheese is incorporated and the sauce is smooth."
+          "text": "Simmer: Add all the wine and lemon juice to the cooking pot. Bring to a gentle simmer over medium-low heat."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Stir in the Kirsch, nutmeg, and dry mustard."
+          "text": "Melt: Lower the heat as needed and gradually stir in the coated cheese, one small handful at a time, waiting for it to melt before adding more. Scrape the bottom and stir until all the cheese is incorporated and smooth; avoid a hard boil during this first melt."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Keep warm over a low flame. Serve with crusty bread, green apples, and blanched broccoli."
+          "text": "Finish: Stir in all the Kirsch, nutmeg and dry mustard. Transfer to the fondue pot if needed and serve with the prepared dippers. Use only the heat source permitted for that pot and the lowest heat that keeps the fondue fluid, stirring regularly; do not let it scorch."
         }
       ],
       "prepTime": "PT10M",
       "cookTime": "PT15M",
-      "totalTime": "PT25M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Swiss"],
@@ -8253,7 +8257,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Classic French Toast",
-      "description": "The secret to French toast that is custardy inside without being soggy is the bread choice and the soak time. Challah and brioche have an enriched, egg-based structure that absorbs custard without disintegrating the way sandwich bread does.",
+      "description": "Thick challah or brioche needs time for the custard to reach the center and for that center to cook. Use the soaked bread’s condition to judge the dip, then cook gently enough that the inside sets before the surface burns.",
       "url": "https://jordansilton.com/mise/recipes/classic-french-toast/",
       "recipeIngredient": [
         "8 slices Thick-Cut Challah or Brioche Bread (3/4 to 1 inch thick)",
@@ -8271,32 +8275,30 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Make the Custard: In a wide, shallow dish (a pie plate works well), whisk together eggs, milk, cream, maple syrup, vanilla, cinnamon, nutmeg, and salt until completely smooth. No streaks of egg white should remain."
+          "text": "Mix custard: In a wide shallow dish, whisk all the eggs, milk, cream, measured maple syrup, vanilla, cinnamon, nutmeg and salt until no egg-white streaks remain. Keep the additional serving syrup separate."
         },
         {
           "@type": "HowToStep",
-          "text": "Soak: Dip each bread slice into the custard for 20-30 seconds per side. Let excess drip off for a few seconds. The bread should be saturated but not falling apart."
+          "text": "Coat bread: Dip each slice on both sides, starting with 20–30 seconds per side for the original ¾–1 inch bread. Lift before it loses its shape; fresh or more porous bread may need a shorter dip. Let excess drip back into the dish and cook promptly. Do not pour leftover raw custard over cooked toast."
         },
         {
           "@type": "HowToStep",
-          "text": "Heat the Pan: Melt 1 tbsp butter in a large nonstick skillet or griddle over medium-low heat. Swirl to coat."
+          "text": "Start cooking: Heat a large nonstick skillet or griddle over medium-low heat. If all the slices fit in one uncrowded round, use all the listed pan butter in that round. Otherwise, use half for the first round and distribute the other half across later rounds. Add only as many slices as fit without crowding, usually 2–3 in the original large skillet."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook: Place 2-3 slices in the pan (do not crowd). Cook for 3-4 minutes until the bottom is deep golden brown. Flip and cook for another 2-3 minutes. The toast should feel slightly firm to the touch in the center -- a gentle press should spring back."
+          "text": "Cook through: Start checking the first side at 3–4 minutes, then turn and begin checking the second at 2–3 minutes. Both sides should be golden and the center set, without liquid custard. Insert a food thermometer from the edge toward the center of a thick slice and check 160°F; lower the heat and continue gently if the crust is brown first."
         },
         {
           "@type": "HowToStep",
-          "text": "Repeat: Wipe the pan, add fresh butter, and cook remaining slices."
+          "text": "Repeat: Use all the remaining pan butter across the remaining uncrowded rounds. Wipe away burnt residue between rounds if needed. Keep raw-custard utensils separate from cooked toast and refrigerate the custard if there is a pause; discard any unused bread-contact custard after the final round."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Dust with powdered sugar and serve immediately with fresh berries and warm maple syrup."
+          "text": "Serve: Divide the cooked slices among the listed portions. Dust with the separate unmeasured powdered sugar and serve with washed berries and warm additional maple syrup as wanted."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT15M",
-      "totalTime": "PT25M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American", "French"],
@@ -11195,7 +11197,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Dutch Baby Pancake",
-      "description": "This German-American pancake gets its dramatic rise from temperature contrast: cold blended batter poured into a screaming-hot cast-iron skillet with sizzling butter. The sudden heat causes steam to expand rapidly, creating signature high walls.",
+      "description": "The egg batter expands as it heats and settles after leaving the oven. Keep all the butter and choose the pan route before mixing.",
       "url": "https://jordansilton.com/mise/recipes/dutch-baby-pancake/",
       "recipeIngredient": [
         "6 large Eggs",
@@ -11210,36 +11212,26 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Preheat oven to 425°F. Place a 10-inch or 12-inch cast-iron skillet inside as it heats."
+          "text": "Choose and heat: For the original-batch baking-dish version, use a 9×13-inch vessel suitable for 425°F and for the hot-pan/batter temperature change. Follow the vessel’s manufacturer instructions; do not assume a glass or ceramic dish permits preheating empty or adding cooler batter. Use a metal pan rated for this oven temperature if the glass or ceramic vessel’s instructions do not allow the required temperature change. Heat the oven to 425°F. For one pan, put all the listed butter in that pan; when using several pans, divide all the listed butter proportionally among them, keeping the same butter-to-batter ratio. Let the butter melt during preheating; remove each pan promptly once it has melted if the oven is not ready, so it does not burn."
         },
         {
           "@type": "HowToStep",
-          "text": "The Batter: In a blender, combine eggs, milk, flour, vanilla, and salt. Blend on high for 30-45 seconds until completely smooth and frothy."
+          "text": "Mix: Blend all the eggs, milk, flour, vanilla and salt until smooth, starting with 30–45 seconds, or stop once no flour lumps remain. This is unheated batter; follow the blender’s ordinary capacity limit and work in batches if needed, recombining them before filling the pan. Keep raw batter away from serving utensils."
         },
         {
           "@type": "HowToStep",
-          "text": "The Jump: Once the oven is ready, carefully remove the hot skillet. Add the 4 tbsp butter and swirl until melted and foaming."
+          "text": "Fill: Once the oven is ready and the butter has melted, carefully place each hot vessel on a heat-safe surface. Pour all the batter into the single appropriately sized pan, or divide it proportionally among the prepared pans, keeping similar batter depth and headroom. Keep oven gloves on for the pans. Do not pour a scaled larger batch into the same original pan."
         },
         {
           "@type": "HowToStep",
-          "text": "Pour: Immediately pour the batter directly into the center of the sizzling butter. Do not stir."
+          "text": "Bake: Bake until puffed and golden with a set center, beginning checks around 20 minutes for the original baking-dish batch. Check 160°F in the egg-batter center; continue if it remains wet or below the endpoint, even if the rim is already tall and brown. Avoid unnecessary early opening, but open the oven when a needed center check is due."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Transfer to the oven. Bake for 20 minutes until the pancake is puffed, deep golden brown, and climbing the sides of the pan. Do not open the oven door during the first 15 minutes!"
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Remove from the oven. The center will collapse slightly - this is mandatory."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Dust with powdered sugar and squeeze fresh lemon juice over the top for the mandatory High Note."
+          "text": "Serve: Remove with oven gloves. Some settling is normal as the pancake cools; immediate service keeps the edges crispest. Divide into the listed portions and add the separate unmeasured lemon juice and powdered sugar, or warm maple syrup and powdered sugar, as wanted. Wash the lemon before cutting."
         }
       ],
       "prepTime": "PT5M",
-      "cookTime": "PT20M",
-      "totalTime": "PT25M",
       "recipeYield": "4",
       "recipeCategory": "Main course",
       "recipeCuisine": ["German", "American"],
@@ -11463,7 +11455,7 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Cinnamon French Toast Sticks",
-      "description": "Slightly stale bread acts like a sponge for custard without falling apart - fresh bread becomes too soggy. Cook in foaming butter over medium heat, rotating to caramelize all four sides of each stick.",
+      "description": "Use thick bread with sturdy crusts so the sticks survive dipping and turning. Keep the full milk, honey and cinnamon formula.",
       "url": "https://jordansilton.com/mise/recipes/easy-cinnamon-french-toast-sticks/",
       "recipeIngredient": [
         "8 slices Thick-cut Texas Toast (Day-old preferred)",
@@ -11479,32 +11471,30 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Cut each slice of Texas toast into 4 uniform sticks. Set aside."
+          "text": "Cut: Cut each listed Texas-toast slice into four similar sticks. Keep the original bread thickness and stick size when scaling; increase or decrease the number of slices and cooking rounds rather than making larger sticks."
         },
         {
           "@type": "HowToStep",
-          "text": "The Custard: In a large wide bowl, whisk together eggs, milk, cinnamon, honey, and vanilla until no streaks of egg remain."
+          "text": "Mix: Whisk all the eggs, whole milk, cinnamon, honey and vanilla together until the honey is dispersed and no egg-white streaks remain."
         },
         {
           "@type": "HowToStep",
-          "text": "The Soak: Working in batches, dip each bread stick into the custard. Rotate to coat all 4 sides. Do not over-soak - you want the custard to penetrate 1/4 inch into the bread, not turn the core into mush."
+          "text": "Coat: Dip a cooking-sized batch, turning each stick to coat all sides and lifting while it still holds its shape. Let excess custard drip back into the bowl. Coat the surfaces without leaving the sticks so saturated that they collapse. Keep raw-coated sticks and their utensils separate from cooked sticks."
         },
         {
           "@type": "HowToStep",
-          "text": "The Sear: Heat a large skillet over medium. Add 2 tbsp butter. Once foaming, add the sticks in a single layer (do not crowd)."
+          "text": "Heat pan: Heat a large skillet over medium heat. Melt some of the unmeasured pan butter, starting with 2–3 tablespoons for an original large-skillet round, enough to coat it. Use more of the separate pan supply as needed for later rounds; add enough for a thin coating in each round."
         },
         {
           "@type": "HowToStep",
-          "text": "Rotate: Cook for 2 minutes per side, rotating until all four sides are deep golden brown and slightly crispy."
+          "text": "Cook and repeat: Add only as many sticks as fit in a single uncrowded layer. Begin checking a broad side after about 2 minutes; turn as each face becomes golden and cook the remaining faces as needed. Check that the center is set, without liquid custard, and reaches 160°F using a thermometer inserted along a thick stick. Lower heat if the butter or coating browns too quickly. Repeat coating and cooking with all the remaining sticks, adding pan butter as needed. Refrigerate custard during pauses and discard unused bread-contact custard after the last round."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Serve hot with a side of warm maple syrup for dipping and fresh berries."
+          "text": "Serve: Divide the cooked sticks among the listed portions and serve promptly with warm maple syrup and washed berries as wanted. Let a child’s serving cool enough to handle comfortably."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT10M",
-      "totalTime": "PT20M",
       "recipeYield": "6",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
@@ -12972,50 +12962,45 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "French Toast",
-      "description": "The secret to restaurant-quality French toast is the bread choice. We exclusively use challah or brioche for their high egg and butter content, which creates a custardy texture that regular white bread cannot mimic.",
+      "description": "Keep the full honey custard and all the pan butter. A brief dip suits this low-milk formula, but bread texture controls absorption; lift a slice while it still holds its shape.",
       "url": "https://jordansilton.com/mise/recipes/french-toast/",
       "recipeIngredient": [
-        "8 slices Challah or Brioche (Day-old preferred)",
-        "4 large Eggs",
-        "1/4 cup Whole Milk",
-        "2 tbsp Honey, warmed",
-        "4 tbsp Unsalted Butter",
-        "1 tsp Ground Cinnamon",
-        "1/4 tsp Ground Nutmeg",
-        "1/2 tsp Pure Vanilla Extract",
-        "Warm Maple Syrup",
-        "Fresh Berries"
+        "8 slices of challah or brioche, day-old preferred; slice size stays fixed when count scales",
+        "4 large eggs",
+        "1/4 cup whole milk",
+        "2 tbsp honey, warmed gently until fluid",
+        "4 tbsp unsalted butter",
+        "1 tsp ground cinnamon",
+        "1/4 tsp ground nutmeg",
+        "1/2 tsp pure vanilla extract",
+        "1/2 cup maple syrup, warmed",
+        "fresh berries, as wanted for serving, washed and drained, optional",
+        "additional maple syrup, as wanted for serving, warmed, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Spice: In a small bowl, whisk cinnamon, nutmeg, and warmed honey until no clumps remain."
+          "text": "Mix spices: Stir honey, ground cinnamon, and ground nutmeg together until the spices are dispersed."
         },
         {
           "@type": "HowToStep",
-          "text": "The Custard: In a shallow dish (like a pie plate), whisk together the honey-spice mix, eggs, milk, and vanilla until perfectly smooth."
+          "text": "Make custard: Whisk large eggs, whole milk, and pure vanilla extract with all the honey-spice mixture in a shallow dish until no egg-white streaks remain."
         },
         {
           "@type": "HowToStep",
-          "text": "The Sear: Heat 2 tbsp butter in a large skillet over medium."
+          "text": "Dip: Working in cooking-sized batches, dip slices of challah or brioche in the custard on both sides, starting with a few seconds per side. Lift while the bread still holds its shape and let excess drip back. The short dip is a starting point; bread porosity and thickness determine when to lift. Keep bread-contact custard separate from cooked toast."
         },
         {
           "@type": "HowToStep",
-          "text": "Dip: Working in batches, dip a slice of bread into the custard for exactly 2 seconds per side. Let the excess drip off."
+          "text": "Cook batches: Heat a large skillet over medium heat. Use all the unsalted butter in that round if every slice fits without crowding. Otherwise, begin with half for the first round and distribute the remainder among later uncrowded rounds. Cook each side until golden, starting checks at 2–3 minutes per side. The center should be set, without liquid egg. Check 160°F in the center of a thick slice with a food thermometer inserted from its edge; reduce the heat and continue gently if the outside browns first. Keep later bread-contact utensils away from finished toast. Discard unused bread-contact custard after cooking."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook: Immediately place in the skillet. Fry for 2-3 minutes per side until deep golden brown and slightly crisped at the edges."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Serve immediately with warm maple syrup and fresh berries for the mandatory Acid/Sweet Finish."
+          "text": "Serve: Divide maple syrup, fresh berries (if using), and additional maple syrup (if using) among the cooked slices and serve promptly. The measured syrup is separate from the honey in the custard; additional syrup and berries are optional finishes."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT10M",
-      "totalTime": "PT20M",
-      "recipeYield": "4",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["French"],
       "keywords": "French, sweet, acidic, rich, comfort-food, fry",
@@ -15871,27 +15856,23 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Boil: Boil macaroni in salted water for 10 minutes. Drain."
+          "text": "Prepare: Preheat the oven to 475°F. For the original batch, use a 9 × 9-inch baking dish rated for that temperature, with enough depth and headroom for the milk-filled pasta. Cut all the cheese into chunks and thinly slice all the margarine. Beat all the eggs with the listed salt in a separate bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Prepare: Cut cheese and add to macaroni."
+          "text": "Boil: Boil all the macaroni in salted water, beginning the original recipe's check at 10 minutes and checking the actual package and pasta texture. Drain well and let the pasta cool from steaming-hot to warm before adding beaten eggs."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Add thin slices of margarine."
+          "text": "Combine: Mix the full cheese and margarine supplies through the drained pasta, then fold in all the beaten eggs and salt evenly. Transfer to the baking dish. Add milk until the macaroni is almost covered; stir gently so the egg mixture is distributed throughout. Do not overfill the vessel."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Add eggs."
+          "text": "Bake: Bake at 475°F, checking before the end of the original 20–25-minute window. Continue until the center reaches 165°F / 74°C and the custard is set, without a pool of liquid egg. Check each dish if the batch is divided."
         },
         {
           "@type": "HowToStep",
-          "text": "Continue: Add milk untill almost completely covered."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Cook: Bake in 9x9 dish at 475 degrees for 20-25 minutes. Beat the eggs before folding them into the macaroni. Bake until the center reaches 165°F / 74°C; check before the end of the stated window and continue if needed. Stand five minutes before serving."
+          "text": "Stand: Stand 5 minutes before serving."
         }
       ],
       "prepTime": "PT15M",
@@ -25391,14 +25372,14 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Queso Fundido with Chorizo",
-      "description": "Queso fundido is Mexico's answer to fondue - molten cheese with smoky chorizo, meant to be scooped with warm tortillas. The key is using Oaxaca cheese, which melts into long, stretchy strands without breaking.",
+      "description": "This Mexican-style melted-cheese dip uses Oaxaca for stretchy strands; mozzarella is the listed alternative, with the full pepper Jack alongside it. Roast and peel the poblanos before assembling, and cook the fresh chorizo before it goes back over the cheese.",
       "url": "https://jordansilton.com/mise/recipes/queso-fundido-with-chorizo/",
       "recipeIngredient": [
-        "8 oz Fresh Chorizo, casings removed",
+        "8 oz fresh raw chorizo, casings removed",
         "1 lb Oaxaca Cheese (or Mozzarella), shredded",
         "4 oz Pepper Jack Cheese, shredded",
         "1/2 medium White Onion, diced",
-        "2 Poblano Peppers, roasted, peeled, and diced",
+        "2 poblano peppers, to roast, peel, seed and dice",
         "2 cloves Garlic, minced",
         "1/4 cup Fresh Cilantro, chopped",
         "Warm Flour Tortillas, for scooping",
@@ -25407,36 +25388,30 @@
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Char: Roast poblanos directly over a gas flame or under the broiler, turning until blackened all over (about 8 minutes). Place in a bowl, cover with plastic wrap for 5 minutes. Peel off skins, remove seeds, and dice."
+          "text": "Roast peppers: Wash the poblanos. Roast directly over a suitable gas flame or under the broiler, turning until the skins blacken, starting checks around 8 minutes. Put in a heatproof bowl, cover with a heat-safe cover and rest about 5 minutes, until safe to handle. Peel, remove stems and seeds, and dice."
         },
         {
           "@type": "HowToStep",
-          "text": "The Render: Preheat oven to 400°F. In a 10-inch cast iron skillet, cook chorizo over medium-high heat, breaking into small pieces, until crispy and fat has rendered (5-6 minutes). Transfer chorizo to a plate, leaving fat in pan."
+          "text": "Cook chorizo: Preheat the oven to 400°F. Use an oven-safe skillet with room for the entire cheese and vegetable batch; the original batch uses a 10-inch cast-iron skillet, but its depth matters. If necessary use additional oven-safe vessels and divide everything proportionally. Cook all the fresh raw chorizo over medium-high heat, breaking it into small pieces. Begin checks around 5–6 minutes, then continue until cooked through: 160°F / 71°C for pork or beef chorizo, 165°F / 74°C if the product contains poultry. Transfer to a clean plate and leave the rendered fat in the pan. A cured ready-to-eat sausage is a different product from the fresh chorizo called for here."
         },
         {
           "@type": "HowToStep",
-          "text": "The Soften: Add onion and garlic to the chorizo fat. Sauté until softened (3 minutes). Add diced poblanos and stir to combine."
+          "text": "Soften vegetables: Add all the onion and garlic to the rendered fat. Sauté until softened, beginning checks around 3 minutes. Add all the prepared poblanos and stir to combine."
         },
         {
           "@type": "HowToStep",
-          "text": "The Melt: Remove skillet from heat. Scatter both cheeses evenly over the vegetables. Top with the crispy chorizo."
+          "text": "Assemble: Take the skillet off heat. Scatter all the Oaxaca or mozzarella and all the pepper Jack over the vegetables, then return all the cooked chorizo on top. Leave headroom for bubbling."
         },
         {
           "@type": "HowToStep",
-          "text": "The Bubble: Bake for 8-10 minutes until cheese is completely melted and bubbling at the edges."
+          "text": "Bake: Bake at 400°F, beginning checks around 8–10 minutes, until the cheese is melted and bubbling and the center reaches 165°F / 74°C. Check every vessel if the batch is divided."
         },
         {
           "@type": "HowToStep",
-          "text": "The Finish: Remove from oven. Top with fresh cilantro and pickled jalapeños if using."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Serve immediately with warm flour tortillas for scooping. Eat fast - this sets as it cools."
+          "text": "Finish and serve: Top with all the cilantro and the optional pickled jalapeños. Warm the tortillas according to their package instructions and serve immediately, taking care with the hot skillet handle."
         }
       ],
       "prepTime": "PT10M",
-      "cookTime": "PT15M",
-      "totalTime": "PT25M",
       "recipeYield": "8",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["Mexican"],
@@ -26727,55 +26702,66 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Butternut Squash Mac and Cheese",
-      "description": "Roasting butternut squash at 400°F until tender and charred before folding it into cheese sauce keeps the cubes intact rather than dissolving into mush during baking. Whisking Dijon and nutmeg into the roux creates a sophisticated mornay sauce that balances the sharp cheddar and adds complexity.",
+      "description": "Roast the squash until its centers are tender, then fold the cubes into the full cheddar sauce. Thicken the milk and flour before adding cheese off heat; the buttered breadcrumb and Parmesan topping stays separate.",
       "url": "https://jordansilton.com/mise/recipes/roasted-butternut-squash-mac-and-cheese/",
       "recipeIngredient": [
-        "1 lb Cavatappi or Cellentani Pasta",
-        "3 cups Butternut Squash, 1-inch cubes",
-        "6 cups Sharp Cheddar, shredded",
+        "3 cups butternut squash, peeled, seeded and cut into 1-inch cubes",
+        "2 tbsp olive oil",
+        "salt, to taste",
+        "freshly ground black pepper, to taste",
+        "1 lb cavatappi or cellentani pasta",
+        "water, enough to cook the pasta",
+        "salt, as needed for the pasta water",
+        "4 tbsp unsalted butter",
+        "1/4 cup all-purpose flour",
+        "3 1/2 cups whole milk",
+        "6 cups sharp cheddar, shredded",
+        "2 tsp Dijon mustard",
+        "nutmeg, a pinch",
+        "cayenne, a pinch",
+        "salt, to taste",
+        "freshly ground black pepper, to taste",
+        "1/2 cup panko breadcrumbs",
+        "2 tbsp unsalted butter, melted",
         "1/4 cup Parmesan, grated",
-        "3 1/2 cups Whole Milk",
-        "4 tbsp Unsalted Butter",
-        "1/4 cup All-Purpose Flour",
-        "2 tsp Dijon Mustard (The Finishing Touch)",
-        "Pinch of Nutmeg and Cayenne",
-        "1/2 cup Panko Breadcrumbs",
-        "2 tbsp Unsalted Butter, melted"
+        "additional butter, as needed to grease the baking dishes"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Roast Squash: Preheat oven to 400°F. Toss squash cubes with olive oil, salt, and pepper. Roast for 25-30 minutes cook until caramelized and golden brown and caramelized. Lower oven to 350°F."
+          "text": "Roast squash: Preheat the oven to 400°F. Wash the whole squash before peeling and cutting. Toss butternut squash, olive oil, salt, and freshly ground black pepper on enough rimmed baking sheets to keep cubes in a single layer. Roast, beginning checks at 25–30 minutes for original-size cubes, until tender in the center and golden at the edges. Lower the oven to 350°F when the squash is done."
         },
         {
           "@type": "HowToStep",
-          "text": "Boil: Cook pasta in salted water for 2 minutes less than package directions (very al dente)."
+          "text": "Cook pasta: While the squash roasts, use cavatappi or cellentani pasta, water, and salt in a pot with room to boil and stir. Cook the pasta until just short of al dente, about 2 minutes less than the actual package directions; it continues cooking in the oven. Drain."
         },
         {
           "@type": "HowToStep",
-          "text": "The Roux: In a large pot, melt 4 tbsp butter. Whisk in flour and cook for 2 minutes until golden."
+          "text": "Make roux: Use unsalted butter and all-purpose flour in a heavy pot with enough room for all the milk, cheese, pasta and squash. Melt the butter over medium-low heat; whisk in the flour and cook about 2 minutes until evenly combined and lightly golden."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Slowly whisk in milk. Simmer until the sauce coats a spoon. Stir in the cheddar, mustard, nutmeg, and cayenne until molten."
+          "text": "Thicken milk: Gradually whisk in all whole milk. Cook over medium heat, stirring and scraping, until smooth and thick enough to coat the back of a spoon."
         },
         {
           "@type": "HowToStep",
-          "text": "Combine: Fold the pasta and roasted squash into the cheese sauce. Transfer to a greased 2-quart dish."
+          "text": "Melt cheese: Take the pot off heat. Stir in sharp cheddar, Dijon mustard, nutmeg, cayenne, salt, and freshly ground black pepper, adding the cheese gradually and using only gentle heat if needed to finish melting. Do not keep boiling the sauce after the cheese goes in."
         },
         {
           "@type": "HowToStep",
-          "text": "The Crunch: Toss panko with 2 tbsp melted butter and Parmesan. Sprinkle over the top."
+          "text": "Fill dishes: Fold all the drained pasta and all the roasted squash into the sauce. Grease enough 350°F-rated baking dishes with additional butter. Divide the entire mixture among them with headroom for bubbling; the full batch must not be forced into a single 2-quart dish."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake at 350°F for 30 minutes until bubbling and mahogany gold."
+          "text": "Add topping: Toss panko breadcrumbs, unsalted butter, and Parmesan until evenly coated. Divide all the topping over the filled dishes in proportion to their contents."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake and stand: Bake at 350°F, beginning checks around 30 minutes for the all-panko route, until bubbling, golden on top and 165°F / 74°C in the center of every dish. Timing depends on fill depth and starting temperature. Let stand about 5 minutes before serving."
         }
       ],
       "prepTime": "PT15M",
-      "cookTime": "PT45M",
-      "totalTime": "PT60M",
-      "recipeYield": "8",
+      "recipeYield": "8 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["American"],
       "keywords": "American, spicy, umami, rich, comfort-food, bake, roast, simmer, boil",
@@ -30183,48 +30169,56 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Skinny Broccoli Mac & Cheese",
-      "description": "Lighter mac and cheese works when you lean on technique instead of just cutting fat. The roux here uses less butter than a classic béchamel, but the combination of skim milk and chicken broth creates a sauce with real body - the broth adds savory depth that low-fat cheese alone can't deliver.",
+      "description": "Thicken the full milk-and-broth sauce before taking it off heat to melt the cheddar. Add broccoli late in the pasta cooking for firmer florets, then drain well so cooking water does not dilute the sauce.",
       "url": "https://jordansilton.com/mise/recipes/skinny-baked-broccoli-macaroni-and-cheese/",
       "recipeIngredient": [
         "12 oz High-fiber Elbow Pasta",
         "12 oz Fresh Broccoli Florets",
         "2 cups Low-fat Sharp Cheddar, shredded",
-        "2 cups Skim Milk + 1 cup Chicken Broth",
+        "2 cups skim milk",
+        "1 cup chicken broth",
         "1 1/2 tbsp Unsalted Butter",
         "1/4 cup All-Purpose Flour",
         "1/4 cup Minced Onion",
         "1/4 cup Seasoned Breadcrumbs",
-        "2 tbsp Parmesan, grated"
+        "2 tbsp Parmesan, grated",
+        "Salt and freshly ground black pepper, to taste",
+        "Salt, as needed for the pasta water",
+        "Cooking spray, as needed to coat the baking dish and for the optional source topping finish",
+        "Additional milk, a splash as needed only to loosen the sauce while reheating"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Pot: Bring a large pot of salted water to a boil. Add pasta. 2 minutes before the pasta is al dente, add the broccoli florets. Drain."
+          "text": "Prepare: Preheat the oven to 375°F. Wash and trim the broccoli into evenly sized florets. Coat enough baking dishes with cooking spray to hold the full pasta-and-sauce batch with headroom. Any dish placed under the broiler must be broiler-rated; otherwise finish with baking until the topping colors."
         },
         {
           "@type": "HowToStep",
-          "text": "The Roux: In a large skillet, melt butter. Sauté onion for 2 minutes. Whisk in flour and cook for 1 minute until golden."
+          "text": "Cook pasta and broccoli: Bring a large pot of salted water to a boil. Add all the pasta. For the late-broccoli route, add all the broccoli about 2 minutes before the pasta is al dente according to the actual package, checking that the florets reach the tenderness you want. Drain both well; they continue cooking in the oven."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Slowly whisk in the milk and broth. Bring to a boil, then simmer for 5 minutes until thick. Season with salt and pepper."
+          "text": "Roux: In a large heavy skillet, melt all the butter over low heat. Add all the onion and sauté until softened, beginning checks around 2 minutes. Whisk in all the flour and cook about 1 minute until evenly combined and lightly golden."
         },
         {
           "@type": "HowToStep",
-          "text": "Bind: Remove from heat. Stir in the cheddar until molten. Fold in the cooked macaroni and broccoli."
+          "text": "Thicken: Gradually whisk in all the skim milk and all the chicken broth. Bring to a boil while stirring and scraping, then simmer until smooth and thick, beginning checks around 5 minutes. Season with the salt and pepper to taste."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Transfer to a greased baking dish. Sprinkle with breadcrumbs and Parmesan."
+          "text": "Combine: Take off heat. Stir in all the cheddar until melted, then fold in all the drained macaroni and broccoli. Divide the full mixture among the prepared baking dishes."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Bake at 375°F for 15-20 minutes. Broil for 2 minutes until the top is crispy and the cheese is \"Snappy.\""
+          "text": "Top: Scatter all the breadcrumbs and all the Parmesan over the dishes, divided in proportion to their filling. For a lightly crisped finish, coat the topping with a little of the cooking-spray allowance."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake: Bake at 375°F, beginning checks at 15–20 minutes, until bubbling and 165°F / 74°C in each dish's center. If using broiler-rated dishes, broil briefly to color the topping, watching continuously and beginning checks before 2 minutes. Remove when golden rather than following a fixed broil clock."
         }
       ],
       "prepTime": "PT10M",
       "cookTime": "PT25M",
-      "totalTime": "PT35M",
       "recipeYield": "8",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],

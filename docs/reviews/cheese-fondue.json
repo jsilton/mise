@@ -1,0 +1,466 @@
+{
+  "slug": "cheese-fondue",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "b567ee6e17f19a708bfc6d2d41ea50c0724139f9fbf5dce4d8c5fe5d794f3525",
+  "acceptedSourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 25 min for fondue, plus dipper preparation"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 lb Gruyère, shredded",
+        "1/2 lb Emmentaler or Swiss, shredded",
+        "2 tbsp Cornstarch",
+        "1 clove Garlic, halved",
+        "1 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1 tbsp Fresh Lemon Juice",
+        "1 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1/2 tsp Dry Mustard"
+      ],
+      "after": [
+        "1/2 lb Gruyère, shredded",
+        "1/2 lb Emmentaler or Swiss, shredded",
+        "2 tbsp Cornstarch",
+        "1 clove Garlic, halved",
+        "1 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1 tbsp Fresh Lemon Juice",
+        "1 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1/2 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 325,
+        "protein": 23,
+        "carbs": 3.5,
+        "fat": 24.5,
+        "fiber": 0.5,
+        "sugar": 0.5,
+        "sodium": 490
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cheese evenly coated with cornstarch.",
+        "outcome": "Smooth melted cheese with no pool of free oil.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep heating temperatures fixed. Use enough vessels with room for stirring and bubbling; divide all ingredients proportionally among them. Extra batches take additional time, not a multiplied cooking clock.",
+          "Grate the cheeses and have the dippers ready before starting the melt. The full listed Kirsch remains in the finish."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Cheese evenly coated with cornstarch.",
+            "why": "Starch is distributed before the cheese enters the liquid."
+          },
+          {
+            "step": 5,
+            "cue": "Smooth melted cheese with no pool of free oil.",
+            "why": "Gradual additions and gentle heat help the cheese remain dispersed."
+          }
+        ],
+        "timing": "About 25 minutes for the original fondue mixture; cutting and blanching dippers and extra batches add time.",
+        "storage": "Divide cooked leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below and use within 3–4 days, or freeze portions promptly. Thaw in the refrigerator and reheat throughout to 165°F / 74°C. Reheating stored fondue can change its texture; bring stored sauce to a boil while stirring before reducing heat for serving, rather than applying the gentle first-melt instruction to stored leftovers.",
+        "substitutions": [],
+        "troubleshooting": [
+          {
+            "problem": "Cheese becomes stringy or oily",
+            "cause": "The first melt was too hot or cheese was added faster than it melted.",
+            "fix": "Lower the heat and pause additions while stirring gently; do not add the whole remaining cheese supply at once."
+          }
+        ],
+        "sources": [
+          {
+            "title": "Food Network — Tyler Florence Cheese Fondue",
+            "url": "https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCheese fondue is a fragile **Emulsion**. If the heat is too high, the cheese will \"break\" into a stringy ball and a pool of oil. The secret is the **Cornstarch and Acid**: the cornstarch coats the cheese proteins, while the acid in the wine and lemon juice prevents the proteins from clumping together. Always add the cheese in small handfuls, waiting for each to melt before adding the next.\n\n## Directions\n\n1.  **Rub:** Rub the inside of a heavy pot (ceramic or cast iron) with the garlic halves. Discard the garlic.\n2.  **Coat:** In a bowl, toss the shredded cheeses with the cornstarch until evenly coated.\n3.  **Simmer:** Add the wine and lemon juice to the pot. Bring to a very gentle simmer over medium-low heat.\n4.  **Whisk:** Add one handful of cheese. Whisk constantly in a **Figure-8 motion** until melted. Repeat until all cheese is incorporated and the sauce is smooth.\n5.  **Finish:** Stir in the Kirsch, nutmeg, and dry mustard.\n6.  **Serve:** Keep warm over a low flame. Serve with crusty bread, green apples, and blanched broccoli.\n",
+    "after": "\n## Chef's Note\n\nAdd the starch-coated cheese gradually to gently heated wine and lemon juice. Keep the first melt below a hard boil and stir as each handful melts; excessive heat can make the cheese oily or stringy. Use a fondue pot rated for its heat source, and prepare the dippers before melting the cheese.\n\n## Directions\n\n1. **Prepare dippers:** Cut bread and washed apples into bite-sized pieces; wash and blanch any vegetables you choose until tender enough to eat. Drain well. Keep the dippers separate from the cheese mixture.\n2. **Rub:** Rub the inside of a heavy pot rated for the stovetop with the peeled garlic halves, then discard the garlic. A ceramic serving pot may need the fondue transferred into it rather than placed directly on a burner; follow its instructions.\n3. **Coat:** Toss all the shredded cheeses with all the cornstarch until evenly coated.\n4. **Simmer:** Add all the wine and lemon juice to the cooking pot. Bring to a gentle simmer over medium-low heat.\n5. **Melt:** Lower the heat as needed and gradually stir in the coated cheese, one small handful at a time, waiting for it to melt before adding more. Scrape the bottom and stir until all the cheese is incorporated and smooth; avoid a hard boil during this first melt.\n6. **Finish:** Stir in all the Kirsch, nutmeg and dry mustard. Transfer to the fondue pot if needed and serve with the prepared dippers. Use only the heat source permitted for that pot and the lowest heat that keeps the fondue fluid, stirring regularly; do not let it scorch.\n"
+  },
+  "findings": [
+    {
+      "id": "CM09-1",
+      "title": "CM09-1",
+      "rationale": "59a618 bulk rewrite omitted the saved assorted-dipper ingredient and narrowed the serving suggestions. Restore the genuine unmeasured allowance and full bread/washed-apple/blanched-vegetable choices, without adding a measured accompaniment yield. Current six portions remain planning; native/publisher gives4–6. Material-safe pot use corrects unqualified ceramic-on-burner instruction. Figure-eight motion is not a required mechanism. All nine measured supplies remain exact.",
+      "confidence": "High exact ingredient/source/history conservation; moderate untested cooking sequence, elapsed planning, pan-headroom and safety-category application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Cheese Fondue.html",
+            "sha256": "bdc69483450ccfa467e13dbac84dc5b4add546cf2eff2afcc5de9d29ff50d0a7",
+            "scope": "Actual earlier retained HTML cooking recipe; independent of later canonical Markdown introduction",
+            "artifact": "privately retained evidence"
+          },
+          "scope": "Actual earliest available cooking source; family/source quantities and method only."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical history; persistence does not establish deliberate household rejection."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact current private registry binding to durable original450 cooking payload; no title match, native sync or kitchen certification."
+        },
+        {
+          "url": "https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678",
+          "scope": "Correct Tyler primary indexed full recipe agrees exact saved source. Direct URL redirects to unrelated Nigella formula; redirect not used to replace Tyler source."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftovers prompt shallow cooling/3–4days/165 reheat; direct fetch403, actual official indexed body read. Not tested texture/shelf-life for this cheese formula."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, prompt cold leftover handling and bringing reheated stored sauce to a boil; no first-melt or cheese-texture validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Actual fondue-pot material, heat-source rating and usable capacity are unknown.",
+        "Current six portions are a planning choice versus source4–6; dipper quantities are unmeasured.",
+        "Cheese product and reheat separation require kitchen comparison; no claim that alcohol is fully removed."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Cheese%20Fondue.html",
+    "introductionScope": "Actual earlier retained HTML cooking recipe; independent of later canonical Markdown introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "59a618 bulk rewrite omitted the saved assorted-dipper ingredient and narrowed the serving suggestions. Restore the genuine unmeasured allowance and full bread/washed-apple/blanched-vegetable choices, without adding a measured accompaniment yield. Current six portions remain planning; native/publisher gives4–6. Material-safe pot use corrects unqualified ceramic-on-burner instruction. Figure-eight motion is not a required mechanism. All nine measured supplies remain exact.",
+      "questions": [
+        "Actual fondue-pot material, heat-source rating and usable capacity are unknown.",
+        "Current six portions are a planning choice versus source4–6; dipper quantities are unmeasured.",
+        "Cheese product and reheat separation require kitchen comparison; no claim that alcohol is fully removed."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1/2 lb Gruyère, shredded",
+        "actualMethodDestination": "Coat2/melt4"
+      },
+      {
+        "text": "1/2 lb Emmentaler or Swiss, shredded",
+        "actualMethodDestination": "Coat2/melt4"
+      },
+      {
+        "text": "2 tbsp Cornstarch",
+        "actualMethodDestination": "Coat2"
+      },
+      {
+        "text": "1 clove Garlic, halved",
+        "actualMethodDestination": "Rub1 then discard"
+      },
+      {
+        "text": "1 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "actualMethodDestination": "Simmer3"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon Juice",
+        "actualMethodDestination": "Simmer3"
+      },
+      {
+        "text": "1 tbsp Kirsch (Cherry Brandy)",
+        "actualMethodDestination": "Finish5"
+      },
+      {
+        "text": "Pinch of Nutmeg",
+        "actualMethodDestination": "Finish5"
+      },
+      {
+        "text": "1/2 tsp Dry Mustard",
+        "actualMethodDestination": "Finish5"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1/2 lb Gruyère, shredded",
+        "destination": "Coat3/melt5"
+      },
+      {
+        "text": "1/2 lb Emmentaler or Swiss, shredded",
+        "destination": "Coat3/melt5"
+      },
+      {
+        "text": "2 tbsp Cornstarch",
+        "destination": "Coat3"
+      },
+      {
+        "text": "1 clove Garlic, halved",
+        "destination": "Rub2 then discard"
+      },
+      {
+        "text": "1 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "destination": "Simmer4"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon Juice",
+        "destination": "Simmer4"
+      },
+      {
+        "text": "1 tbsp Kirsch (Cherry Brandy)",
+        "destination": "Finish6"
+      },
+      {
+        "text": "Pinch of Nutmeg",
+        "destination": "Finish6"
+      },
+      {
+        "text": "1/2 tsp Dry Mustard",
+        "destination": "Finish6"
+      },
+      {
+        "text": "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus",
+        "destination": "Prep1/serve6"
+      }
+    ],
+    "frozenMethodOnly": ["Bread/apples/blanched broccoli inserve6; no ingredientallowance"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare dippers: Cut bread and washed apples into bite-sized pieces; wash and blanch any vegetables you choose until tender enough to eat. Drain well. Keep the dippers separate from the cheese mixture."
+    },
+    {
+      "step": 2,
+      "text": "Rub: Rub the inside of a heavy pot rated for the stovetop with the peeled garlic halves, then discard the garlic. A ceramic serving pot may need the fondue transferred into it rather than placed directly on a burner; follow its instructions."
+    },
+    {
+      "step": 3,
+      "text": "Coat: Toss all the shredded cheeses with all the cornstarch until evenly coated."
+    },
+    {
+      "step": 4,
+      "text": "Simmer: Add all the wine and lemon juice to the cooking pot. Bring to a gentle simmer over medium-low heat."
+    },
+    {
+      "step": 5,
+      "text": "Melt: Lower the heat as needed and gradually stir in the coated cheese, one small handful at a time, waiting for it to melt before adding more. Scrape the bottom and stir until all the cheese is incorporated and smooth; avoid a hard boil during this first melt."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Stir in all the Kirsch, nutmeg and dry mustard. Transfer to the fondue pot if needed and serve with the prepared dippers. Use only the heat source permitted for that pot and the lowest heat that keeps the fondue fluid, stirring regularly; do not let it scorch."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "peach-salad-with-tomatoes-and-beets",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "arugula-feta-salad"
+    ],
+    "incomingMeals": [],
+    "scope": "Existing metadata pairing paths retained and existence checked only; linked recipes are not granted complete review or full-batch substitution credit. No incoming composed-meal references found."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "6",
+    "scope": "Current planning yield remains untested; no new precision or portion-volume claim",
+    "capacity": [
+      "Keep heating temperatures fixed. Use enough vessels with room for stirring and bubbling; divide all ingredients proportionally among them. Extra batches take additional time, not a multiplied cooking clock.",
+      "Grate the cheeses and have the dippers ready before starting the melt. The full listed Kirsch remains in the finish."
+    ],
+    "timing": "About 25 minutes for the original fondue mixture; cutting and blanching dippers and extra batches add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/8 lb Gruyère, shredded",
+        "1/8 lb Emmentaler or Swiss, shredded",
+        "1/2 tbsp Cornstarch",
+        "1/4 clove Garlic, halved",
+        "1/4 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1/4 tbsp Fresh Lemon Juice",
+        "1/4 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1/8 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 1 1/2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Gruyère, shredded",
+        "1/4 lb Emmentaler or Swiss, shredded",
+        "1 tbsp Cornstarch",
+        "1/2 clove Garlic, halved",
+        "1/2 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1/2 tbsp Fresh Lemon Juice",
+        "1/2 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1/4 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 3",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Gruyère, shredded",
+        "1/2 lb Emmentaler or Swiss, shredded",
+        "2 tbsp Cornstarch",
+        "1 clove Garlic, halved",
+        "1 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1 tbsp Fresh Lemon Juice",
+        "1 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1/2 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 lb Gruyère, shredded",
+        "3/4 lb Emmentaler or Swiss, shredded",
+        "3 tbsp Cornstarch",
+        "1 1/2 cloves Garlic, halved",
+        "1 1/2 cups Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1 1/2 tbsp Fresh Lemon Juice",
+        "1 1/2 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "3/4 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 9",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Gruyère, shredded",
+        "1 lb Emmentaler or Swiss, shredded",
+        "4 tbsp Cornstarch",
+        "2 cloves Garlic, halved",
+        "2 cups Dry White Wine (Sauvignon Blanc or Riesling)",
+        "2 tbsp Fresh Lemon Juice",
+        "2 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Gruyère, shredded",
+        "1 1/2 lb Emmentaler or Swiss, shredded",
+        "6 tbsp Cornstarch",
+        "3 cloves Garlic, halved",
+        "3 cups Dry White Wine (Sauvignon Blanc or Riesling)",
+        "3 tbsp Fresh Lemon Juice",
+        "3 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1 1/2 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 18",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1/2 lb Gruyère, shredded",
+        "1/2 lb Emmentaler or Swiss, shredded",
+        "2 tbsp Cornstarch",
+        "1 clove Garlic, halved",
+        "1 cup Dry White Wine (Sauvignon Blanc or Riesling)",
+        "1 tbsp Fresh Lemon Juice",
+        "1 tbsp Kirsch (Cherry Brandy)",
+        "Pinch of Nutmeg",
+        "1/2 tsp Dry Mustard",
+        "Assorted dippers, as needed: French or pumpernickel bread, green apples, and blanched broccoli, cauliflower, carrots or asparagus"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Full current ingredients and separate existing alternatives retained; no earlier targeted repair found.",
+  "remainingQuestions": [
+    "Actual fondue-pot material, heat-source rating and usable capacity are unknown.",
+    "Current six portions are a planning choice versus source4–6; dipper quantities are unmeasured.",
+    "Cheese product and reheat separation require kitchen comparison; no claim that alcohol is fully removed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

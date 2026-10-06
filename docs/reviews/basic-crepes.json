@@ -1,0 +1,302 @@
+{
+  "slug": "basic-crepes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "c61609bb0951ad2772825606fcd2571ceae23d1de025e2c27f46fdac03a9c96e",
+  "acceptedSourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "allrecipes.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Spread a thin batter before it sets",
+        "outcome": "Flexible thin crêpes with set surfaces and lightly browned sides.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep a thin layer of batter in the same pan when scaling; use more or fewer cooking rounds, not a multiplied scoop. The full measured melted butter goes into the batter; the separate grease goes on the pan."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The tilted pan fills with a thin continuous layer before the batter sets.",
+            "why": "A thicker puddle changes both the cooking clock and the number of crêpes."
+          },
+          {
+            "step": 3,
+            "cue": "Both sides are lightly browned and the center is fully set.",
+            "why": "The first dry-looking top is the flipping cue; the second side still needs cooking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Outside browns before the center sets",
+            "cause": "The pan may be too hot for the thickness of the bread or batter.",
+            "fix": "Reduce the pan heat and continue cooking gently until the center is set; do not rely on the crust color alone."
+          }
+        ],
+        "timing": "The original eight-crêpe plan uses about 10 minutes mixing and roughly 2–3 minutes per crêpe: about 30–40 minutes elapsed with one pan, including heating and turns. More crêpes require more rounds, not a larger fixed scoop. This batter can be cooked as soon as it is smooth and pourable.",
+        "storage": "Refrigerate promptly at 40°F / 4°C or below, within 2 hours of cooking or 1 hour above 90°F. Separate cooked crêpes with paper in a covered container. Use within 2 days refrigerated, or freeze for up to 2 months for best quality; reheat leftovers to 165°F.",
+        "sources": [
+          {
+            "title": "allrecipes.com",
+            "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/"
+          },
+          {
+            "title": "Saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/basic-crepes.md"
+          },
+          {
+            "title": "FDA — egg handling, cooking and leftovers",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA thin, pourable batter makes crêpes that spread before they set. If needed, add milk one tablespoon at a time; tilt the hot pan immediately after pouring.\n\n## Directions\n\n1. **Mix:** Whisk eggs, milk, water, and salt together in a large mixing bowl. Add flour and melted butter; whisk vigorously until batter is smooth and pourable.\n\n2. **Cook:** Heat a lightly oiled griddle or frying pan over medium-high heat. Pour or scoop the batter onto the pan, using approximately 1/4 cup for each crêpe. Tilt the pan with a circular motion so that the batter coats the surface evenly.\n\n3. **Continue:** Cook until the top of the crêpe is no longer wet and the bottom has turned light brown, 1 to 2 minutes. Run a spatula around the edge of the skillet to loosen the crêpe; flip and cook until the other side has turned light brown, about 1 minute more.\n",
+    "after": "\n## Chef's Note\n\nKeep the full melted butter in the batter and use the separate pan-greasing supply. The batter needs to flow across the pan while you tilt it. If it stays in a thick puddle, stir in a little of the optional extra milk before the next round.\n\n## Directions\n\n1. **Mix:** Whisk all the eggs, listed milk, water and salt together. Whisk in all the flour and melted butter until smooth and pourable. If too thick to spread, add the optional additional milk one tablespoon at a time; stop when it flows into a thin layer.\n\n2. **Heat and pour:** Heat a frying pan or griddle over medium-high heat and lightly grease it with the separate oil or butter. Start with approximately ¼ cup batter per crêpe and tilt immediately to coat the surface. Use the same thin layer at every recipe scale; pan size may require a different scoop, and the listed yield is approximate.\n\n3. **Cook:** Cook until the upper surface is set rather than wet and the underside is light brown, starting checks after 1–2 minutes. Loosen the edge, flip and cook the second side until light brown and fully set, about 1 minute more. If the first side browns before the top sets, reduce the heat for the next round.\n\n4. **Continue and serve:** Repeat with the remaining batter, lightly regreasing as needed. Serve hot, with separately prepared fillings if wanted. Do not taste uncooked flour-and-egg batter.\n"
+  },
+  "findings": [
+    {
+      "id": "GB01",
+      "title": "GB01",
+      "rationale": "Preserve all e300 import method/pan-fat repairs and every measured ingredient. Make extra milk, repeated grease, complete batter use and per-crêpe rather than batch clocks explicit. No inventedrest or sugar/vanilla addition.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/basic-crepes.md"
+        },
+        {
+          "reference": "https://www.allrecipes.com/recipe/16383/basic-crepes/"
+        },
+        {
+          "reference": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "reference": "evidence/source-applicability.json"
+        },
+        {
+          "reference": "evidence/basic-crepes-followed.diff"
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "learning", "content"],
+      "questions": [
+        "Actual pan diameter determines scoop/yield; eight is the source planning count, not a verified yield.",
+        "Optional extra milk is genuinely unmeasured; do not force a new fixed liquid ratio."
+      ]
+    },
+    {
+      "id": "ROOT-GB03-BOUNDED-CORRECTIONS",
+      "title": "Complete one-round butter and proportional pan routes",
+      "rationale": "Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Basic’s publisher-domain origin is not a country; it was added in e300 native reconciliation. Classic’s France appears in its initial Git-onlyfd4 recipe with no named publisher or geographical evidence. French’s France and Cinnamon’s UnitedStates were added in2a7 bulk metadata. Retain all French/American cuisine style tags and exact source context. Allrecipes discusses historical French crêpes, but that paragraph does not establish the geographic authorship of this particular imported formula. Do not invent a replacement country. Dutch’s proposed Germany omission is already justified.",
+      "confidence": "High literal source/destination consistency; moderate untested equipment, clocks and thermal category.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual complete introduction/history of each origin field."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Source and cuisine style are separate from geographic origin; no invented origins."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "learning", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/basic-crepes.md",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Preserve all e300 import method/pan-fat repairs and every measured ingredient. Make extra milk, repeated grease, complete batter use and per-crêpe rather than batch clocks explicit. No inventedrest or sugar/vanilla addition.",
+      "sourceApplicability": "Exact bound native and current publisher support base formula, milk allowance, thin layer and two-side cues. One-pan elapsed range is arithmetic planning; FDA supports egg handling, not this exact crêpe clock.",
+      "remainingQuestions": [
+        "Actual pan diameter determines scoop/yield; eight is the source planning count, not a verified yield.",
+        "Optional extra milk is genuinely unmeasured; do not force a new fixed liquid ratio."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "2 large eggs",
+        "frozenDestination": "step1 batter"
+      },
+      {
+        "index": 1,
+        "ingredient": "½ cup milk, or more as needed",
+        "frozenDestination": "step1 batter plus optional extra iftoo thick"
+      },
+      {
+        "index": 2,
+        "ingredient": "½ cup water",
+        "frozenDestination": "step1 batter"
+      },
+      {
+        "index": 3,
+        "ingredient": "¼ teaspoon salt or to taste",
+        "frozenDestination": "step1 batter"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 cup all-purpose flour",
+        "frozenDestination": "step1 batter"
+      },
+      {
+        "index": 5,
+        "ingredient": "2 tablespoons butter, melted",
+        "frozenDestination": "step1 batter"
+      },
+      {
+        "index": 6,
+        "ingredient": "Neutral oil or butter, for greasing the pan",
+        "frozenDestination": "step2 pan greasing"
+      }
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "ingredient": "2 large eggs",
+        "proposedDestination": "step1batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 1,
+        "ingredient": "½ cup milk, or more as needed",
+        "proposedDestination": "step1batter plusoptionalextras",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 2,
+        "ingredient": "½ cup water",
+        "proposedDestination": "step1batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 3,
+        "ingredient": "¼ teaspoon salt or to taste",
+        "proposedDestination": "step1batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 4,
+        "ingredient": "1 cup all-purpose flour",
+        "proposedDestination": "step1batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 5,
+        "ingredient": "2 tablespoons butter, melted",
+        "proposedDestination": "step1batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 6,
+        "ingredient": "Neutral oil or butter, for greasing the pan",
+        "proposedDestination": "step2and4pan grease",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "1. **Mix:** Whisk all the eggs, listed milk, water and salt together. Whisk in all the flour and melted butter until smooth and pourable. If too thick to spread, add the optional additional milk one tablespoon at a time; stop when it flows into a thin layer."
+    },
+    {
+      "step": 2,
+      "text": "2. **Heat and pour:** Heat a frying pan or griddle over medium-high heat and lightly grease it with the separate oil or butter. Start with approximately ¼ cup batter per crêpe and tilt immediately to coat the surface. Use the same thin layer at every recipe scale; pan size may require a different scoop, and the listed yield is approximate."
+    },
+    {
+      "step": 3,
+      "text": "3. **Cook:** Cook until the upper surface is set rather than wet and the underside is light brown, starting checks after 1–2 minutes. Loosen the edge, flip and cook the second side until light brown and fully set, about 1 minute more. If the first side browns before the top sets, reduce the heat for the next round."
+    },
+    {
+      "step": 4,
+      "text": "4. **Continue and serve:** Repeat with the remaining batter, lightly regreasing as needed. Serve hot, with separately prepared fillings if wanted. Do not taste uncooked flour-and-egg batter."
+    }
+  ],
+  "variantLedgers": {
+    "options": [],
+    "publicSubstitutions": []
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "scope": "No incoming meal component references found for these five; unchanged pairsWith suggestions are not ingredient substitutions or completed review of pairings."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual pan diameter determines scoop/yield; eight is the source planning count, not a verified yield.",
+    "Optional extra milk is genuinely unmeasured; do not force a new fixed liquid ratio."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "slug": "dutch-baby-pancake",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "311e21cb72411d583c7b4eab93c8aa92700e547d0c580dd0120ddfaa9dac8b16",
+  "acceptedSourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 20 min; check the center"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "25–40 min including preheating, for the original batch"
+    },
+    {
+      "field": "origin",
+      "before": "Germany",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 375,
+        "protein": 14.5,
+        "carbs": 32,
+        "fat": 21.5,
+        "fiber": 1.5,
+        "sugar": 7,
+        "sodium": 790
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep batter depth and hot-pan handling coherent for an oven pancake",
+        "outcome": "A puffed golden pancake with a set center and all the full butter formula.",
+        "techniques": ["temperature"],
+        "before": [
+          "Choose the pan route and check its actual oven/temperature-change permissions before preheating. Scaled multiples use separate original-size vessels or batches; smaller batches need an appropriate smaller pan and earlier center checks, keeping similar depth and headroom. Pan dimensions and oven clocks do not scale with ingredients."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All the butter has melted and the chosen vessel has headroom for the full batch.",
+            "why": "A pan-diameter label does not establish its depth, capacity or thermal-shock permissions."
+          },
+          {
+            "step": 4,
+            "cue": "Golden, puffed sides and a set 160°F center.",
+            "why": "The rim rises faster than the deeper center cooks."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Outside browns before the center sets",
+            "cause": "The layer may be deeper than the original pan route or the oven runs hot.",
+            "fix": "Continue checking the center rather than serving a wet center; use the supported original pan route for the next batch and check the actual oven temperature."
+          }
+        ],
+        "timing": "25–40 min including preheating, for the original batch. Preheating overlaps batter mixing; the approximately 20-minute bake is a starting check, not a deadline for either pan route.",
+        "storage": "Refrigerate cooked pancake promptly in a shallow covered container at 40°F /4°C or below, within 2 hours of cooking or 1 hour above 90°F. Use within 3–4 days and reheat to 165°F. Keep any raw batter refrigerated until baking and do not use its utensils for serving cooked pancake.",
+        "sources": [
+          {
+            "title": "Adapted from prettyprovidence.com",
+            "url": "https://prettyprovidence.com/german-pancakes/"
+          },
+          {
+            "title": "Saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md"
+          },
+          {
+            "title": "FDA — egg handling, cooking and leftovers",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — raw flour and batter",
+            "url": "https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts"
+          },
+          {
+            "title": "FDA — washing fresh produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Baking-dish route",
+            "alternative": "For the original-batch skillet version, use a 10-inch or 12-inch cast-iron skillet only if its actual depth can hold that batch with headroom and it is rated for 425°F. Preheat the skillet with the oven, remove it with gloves, melt that pan’s share of the listed butter in it and pour in its corresponding share of the blended batter. For scaled multiples, divide all the butter and batter proportionally among separate suitable pans or cooking batches, keeping similar depth and headroom. Return it to the oven, beginning checks around 20 minutes; cook until golden and puffed with a set 160°F center. A smaller skillet makes a deeper layer and can need longer. If the vessel cannot hold the batter safely, choose the 9×13 baking-dish route instead, rather than pouring overflow into the oven.",
+            "effect": "Skillet diameter alone does not establish capacity. A deeper batter layer can take longer to cook than the baking-dish version."
+          },
+          {
+            "ingredient": "Batter pouring",
+            "alternative": "For the swirled-pour option, gently swirl the batter as you pour it over the fully melted butter. For higher edge peaks, pour into the center without stirring.",
+            "effect": "The pouring method changes where the peaks develop; neither option changes the ingredient amounts or guarantees a particular rise."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis German-American pancake gets its dramatic rise from temperature contrast: cold blended batter poured into a screaming-hot cast-iron skillet with sizzling butter. The sudden heat causes steam to expand rapidly, creating signature high walls. Blending aerates eggs and fully hydrates flour for the fluffiest texture. Fresh lemon juice adds brightness.\n\n## Directions\n\n1.  **Thermal Prep:** Preheat oven to 425°F. Place a 10-inch or 12-inch cast-iron skillet inside as it heats.\n2.  **The Batter:** In a blender, combine eggs, milk, flour, vanilla, and salt. Blend on high for 30-45 seconds until completely smooth and frothy.\n3.  **The Jump:** Once the oven is ready, carefully remove the hot skillet. Add the 4 tbsp butter and swirl until melted and foaming.\n4.  **Pour:** Immediately pour the batter directly into the center of the sizzling butter. Do not stir.\n5.  **Bake:** Transfer to the oven. Bake for 20 minutes until the pancake is puffed, deep golden brown, and climbing the sides of the pan. **Do not open the oven door** during the first 15 minutes!\n6.  **Finish:** Remove from the oven. The center will collapse slightly - this is mandatory.\n7.  **Serve:** Dust with powdered sugar and squeeze fresh lemon juice over the top for the mandatory **High Note**.\n\n## Cooking Notes\n\nLet the butter melt completely in the hot pan before pouring in the batter. A blender can mix the batter smoothly; pour carefully into the hot pan.\n",
+    "after": "\n## Chef's Note\n\nThe egg batter expands as it heats and settles after leaving the oven. Keep all the butter and choose the pan route before mixing. The baking-dish and skillet versions have different shapes and batter depths; use the center, not the height of the rim, to judge readiness.\n\n## Directions\n\n1. **Choose and heat:** For the original-batch baking-dish version, use a 9×13-inch vessel suitable for 425°F and for the hot-pan/batter temperature change. Follow the vessel’s manufacturer instructions; do not assume a glass or ceramic dish permits preheating empty or adding cooler batter. Use a metal pan rated for this oven temperature if the glass or ceramic vessel’s instructions do not allow the required temperature change. Heat the oven to 425°F. For one pan, put all the listed butter in that pan; when using several pans, divide all the listed butter proportionally among them, keeping the same butter-to-batter ratio. Let the butter melt during preheating; remove each pan promptly once it has melted if the oven is not ready, so it does not burn.\n\n2. **Mix:** Blend all the eggs, milk, flour, vanilla and salt until smooth, starting with 30–45 seconds, or stop once no flour lumps remain. This is unheated batter; follow the blender’s ordinary capacity limit and work in batches if needed, recombining them before filling the pan. Keep raw batter away from serving utensils.\n\n3. **Fill:** Once the oven is ready and the butter has melted, carefully place each hot vessel on a heat-safe surface. Pour all the batter into the single appropriately sized pan, or divide it proportionally among the prepared pans, keeping similar batter depth and headroom. Keep oven gloves on for the pans. Do not pour a scaled larger batch into the same original pan.\n\n4. **Bake:** Bake until puffed and golden with a set center, beginning checks around 20 minutes for the original baking-dish batch. Check 160°F in the egg-batter center; continue if it remains wet or below the endpoint, even if the rim is already tall and brown. Avoid unnecessary early opening, but open the oven when a needed center check is due.\n\n5. **Serve:** Remove with oven gloves. Some settling is normal as the pancake cools; immediate service keeps the edges crispest. Divide into the listed portions and add the separate unmeasured lemon juice and powdered sugar, or warm maple syrup and powdered sugar, as wanted. Wash the lemon before cutting.\n"
+  },
+  "findings": [
+    {
+      "id": "GB05",
+      "title": "GB05",
+      "rationale": "ae5f bulk changed saved9×13butter-during-preheat into10/12skillet without explicit later supported householddecision. Preserve both distinct complete routes, full4tbsp butter, saved pour-shape choices, and maple-syrupORlemon finish. Ovenvessel constraints remain actualmanufacturer-dependent; do not endorse unsupported identicaltiming/capacity. Replacecold-batter-maximization/mustcollapse/mandatoryacid/guaranteedfullyhydratedclaims with observableprocess. Omit unsupportedGermany originwithout replacingit withanothercountry; German/Americanstyle/source unchanged.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md"
+        },
+        {
+          "reference": "https://prettyprovidence.com/german-pancakes/"
+        },
+        {
+          "reference": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "reference": "evidence/source-applicability.json"
+        },
+        {
+          "reference": "evidence/dutch-baby-pancake-followed.diff"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
+        "The modern publisher card says4teaspoonsbutter/12portions while saved native/045/current use4tablespoons/4portions. Preserve full saved richness/portionplan without copying modern count/nutrition.",
+        "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork."
+      ]
+    },
+    {
+      "id": "GB-N",
+      "title": "GB-N",
+      "rationale": "Unverified legacy estimate lacks ingredient weights and measured portions; do not certify nutrition after pan, source or allocation corrections.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "evidence/dutch-baby-pancake-followed.diff"
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
+        "The modern publisher card says4teaspoonsbutter/12portions while saved native/045/current use4tablespoons/4portions. Preserve full saved richness/portionplan without copying modern count/nutrition.",
+        "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork."
+      ]
+    },
+    {
+      "id": "ROOT-GB03-BOUNDED-CORRECTIONS",
+      "title": "Complete one-round butter and proportional pan routes",
+      "rationale": "The before-field already requires separate vessels or batches for scaled multiples, but steps1/3 currently tell the cook to put all butter and all batter into a single chosen vessel. Explicit proportional destinations resolve that contradiction without guessing a new pan size, capacity, temperature or clock. The skillet variant must identify its10/12inch context as the original batch, not a capacity certificate for a doubled blend. The before-field already requires separate vessels or batches for scaled multiples, but steps1/3 currently tell the cook to put all butter and all batter into a single chosen vessel. Explicit proportional destinations resolve that contradiction without guessing a new pan size, capacity, temperature or clock. The skillet variant must identify its10/12inch context as the original batch, not a capacity certificate for a doubled blend. The before-field already requires separate vessels or batches for scaled multiples, but steps1/3 currently tell the cook to put all butter and all batter into a single chosen vessel. Explicit proportional destinations resolve that contradiction without guessing a new pan size, capacity, temperature or clock. The skillet variant must identify its10/12inch context as the original batch, not a capacity certificate for a doubled blend. Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. The private GB05 scope calls the modern4teaspoons a typo without authorial proof. Document the exact disagreement without diagnosing its cause. Dutch’s nutrition rationale also refers to bread-custard absorption, which does not describe this all-batter oven pancake; replace it with the actual ingredient/yield evidence limit. The private GB05 scope calls the modern4teaspoons a typo without authorial proof. Document the exact disagreement without diagnosing its cause. Dutch’s nutrition rationale also refers to bread-custard absorption, which does not describe this all-batter oven pancake; replace it with the actual ingredient/yield evidence limit. The GB-N context arrays currently repeat all culinary/publisher/FDA references and all changed fields for a single removal of an unverified nutrition estimate. Their existing scope disclaims publisher validation, so this is a records-precision advisory. Restrict the finding-level references to the actual estimate history/standard and exact nutrition deletion; primary egg guidance is irrelevant to calorie verification. The GB-N context arrays currently repeat all culinary/publisher/FDA references and all changed fields for a single removal of an unverified nutrition estimate. Their existing scope disclaims publisher validation, so this is a records-precision advisory. Restrict the finding-level references to the actual estimate history/standard and exact nutrition deletion; primary egg guidance is irrelevant to calorie verification.",
+      "confidence": "High literal source/destination consistency; moderate untested equipment, clocks and thermal category.",
+      "applicableSources": [
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact original full4tbsp butter/6eggs/1cupmilk/1cupflour in9×13; all batter and butter used."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Current10/12inch skillet route retained as a distinct conditionally usable branch."
+        },
+        {
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Amounts scale; similar depth/headroom and equipment geometry need recipe-specific judgment, not multiplied dimensions."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact original full4tbsp butter/6eggs/1cupmilk/1cupflour in9×13; all batter and butter used."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Current10/12inch skillet route retained as a distinct conditionally usable branch."
+        },
+        {
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Amounts scale; similar depth/headroom and equipment geometry need recipe-specific judgment, not multiplied dimensions."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact original full4tbsp butter/6eggs/1cupmilk/1cupflour in9×13; all batter and butter used."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Current10/12inch skillet route retained as a distinct conditionally usable branch."
+        },
+        {
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "applicability": "Amounts scale; similar depth/headroom and equipment geometry need recipe-specific judgment, not multiplied dimensions."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "url": "https://prettyprovidence.com/german-pancakes/",
+          "applicability": "Actual card4teaspoons/12portions versus method20min/cook metadata35min; confirms differences, not their cause."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved4tablespoons/4planningportions."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Automated legacy estimate history; no actual measurement supplied."
+        },
+        {
+          "url": "https://prettyprovidence.com/german-pancakes/",
+          "applicability": "Actual card4teaspoons/12portions versus method20min/cook metadata35min; confirms differences, not their cause."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved4tablespoons/4planningportions."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Automated legacy estimate history; no actual measurement supplied."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual automatic nutrition estimate introduction and no measured calculation evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Unverified nutrition is not upgraded by editorial review."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual automatic nutrition estimate introduction and no measured calculation evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Unverified nutrition is not upgraded by editorial review."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual vessel depth/material/manufacturer temperature-change permission remain unknown. These recommendations do not establish a tested scaled bake clock.",
+        "Actual vessel depth/material/manufacturer temperature-change permission remain unknown. These recommendations do not establish a tested scaled bake clock.",
+        "Actual vessel depth/material/manufacturer temperature-change permission remain unknown. These recommendations do not establish a tested scaled bake clock."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Dutch%20Baby%20Pancake.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "ae5f bulk changed saved9×13butter-during-preheat into10/12skillet without explicit later supported householddecision. Preserve both distinct complete routes, full4tbsp butter, saved pour-shape choices, and maple-syrupORlemon finish. Ovenvessel constraints remain actualmanufacturer-dependent; do not endorse unsupported identicaltiming/capacity. Replacecold-batter-maximization/mustcollapse/mandatoryacid/guaranteedfullyhydratedclaims with observableprocess. Omit unsupportedGermany originwithout replacingit withanothercountry; German/Americanstyle/source unchanged.",
+      "sourceApplicability": "Bound native/045 supports the full saved4tablespoons butter and4portion plan; the current publisher supports the9×13method but its card lists4teaspoons and12portions. No explicit publisher correction establishes that either difference is a typo. Preserve the full saved/current richness and planning portions, with the separate skillet route conditional on actual capacity. FDA160°F is a moderate egg-dish application; actual vessel manufacturer permission is a separate condition, not certified by the publisher.",
+      "remainingQuestions": [
+        "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
+        "The modern publisher card says4teaspoonsbutter/12portions while saved native/045/current use4tablespoons/4portions. Preserve full saved richness/portionplan without copying modern count/nutrition.",
+        "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "6 large Eggs",
+        "frozenDestination": "step2blender"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 cup Whole Milk",
+        "frozenDestination": "step2blender"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 cup All-Purpose Flour",
+        "frozenDestination": "step2blender"
+      },
+      {
+        "index": 3,
+        "ingredient": "4 tbsp Unsalted Butter",
+        "frozenDestination": "step3full4tbsp pan"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 tsp Vanilla Extract",
+        "frozenDestination": "step2blender"
+      },
+      {
+        "index": 5,
+        "ingredient": "Pinch of Sea Salt",
+        "frozenDestination": "step2blender"
+      },
+      {
+        "index": 6,
+        "ingredient": "Fresh Lemon Juice and Powdered Sugar",
+        "frozenDestination": "step7 lemon+sugar"
+      },
+      {
+        "index": 7,
+        "ingredient": "Warm Maple Syrup",
+        "frozenDestination": "listedmaplesyrup hasno methoddestination"
+      }
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "ingredient": "6 large Eggs",
+        "proposedDestination": "step2batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 1,
+        "ingredient": "1 cup Whole Milk",
+        "proposedDestination": "step2batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 2,
+        "ingredient": "1 cup All-Purpose Flour",
+        "proposedDestination": "step2batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 3,
+        "ingredient": "4 tbsp Unsalted Butter",
+        "proposedDestination": "step1all butter across one pan or proportionally across several pans/batches; corresponding full batter at step3 or separate complete skillet option",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 4,
+        "ingredient": "1 tsp Vanilla Extract",
+        "proposedDestination": "step2batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 5,
+        "ingredient": "Pinch of Sea Salt",
+        "proposedDestination": "step2batter",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 6,
+        "ingredient": "Fresh Lemon Juice and Powdered Sugar",
+        "proposedDestination": "step5optionalfinish",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 7,
+        "ingredient": "Warm Maple Syrup",
+        "proposedDestination": "step5optionalfinish",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "1. **Choose and heat:** For the original-batch baking-dish version, use a 9×13-inch vessel suitable for 425°F and for the hot-pan/batter temperature change. Follow the vessel’s manufacturer instructions; do not assume a glass or ceramic dish permits preheating empty or adding cooler batter. Use a metal pan rated for this oven temperature if the glass or ceramic vessel’s instructions do not allow the required temperature change. Heat the oven to 425°F. For one pan, put all the listed butter in that pan; when using several pans, divide all the listed butter proportionally among them, keeping the same butter-to-batter ratio. Let the butter melt during preheating; remove each pan promptly once it has melted if the oven is not ready, so it does not burn."
+    },
+    {
+      "step": 2,
+      "text": "2. **Mix:** Blend all the eggs, milk, flour, vanilla and salt until smooth, starting with 30–45 seconds, or stop once no flour lumps remain. This is unheated batter; follow the blender’s ordinary capacity limit and work in batches if needed, recombining them before filling the pan. Keep raw batter away from serving utensils."
+    },
+    {
+      "step": 3,
+      "text": "3. **Fill:** Once the oven is ready and the butter has melted, carefully place each hot vessel on a heat-safe surface. Pour all the batter into the single appropriately sized pan, or divide it proportionally among the prepared pans, keeping similar batter depth and headroom. Keep oven gloves on for the pans. Do not pour a scaled larger batch into the same original pan."
+    },
+    {
+      "step": 4,
+      "text": "4. **Bake:** Bake until puffed and golden with a set center, beginning checks around 20 minutes for the original baking-dish batch. Check 160°F in the egg-batter center; continue if it remains wet or below the endpoint, even if the rim is already tall and brown. Avoid unnecessary early opening, but open the oven when a needed center check is due."
+    },
+    {
+      "step": 5,
+      "text": "5. **Serve:** Remove with oven gloves. Some settling is normal as the pancake cools; immediate service keeps the edges crispest. Divide into the listed portions and add the separate unmeasured lemon juice and powdered sugar, or warm maple syrup and powdered sugar, as wanted. Wash the lemon before cutting."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Baking-dish route",
+        "alternative": "For the original-batch skillet version, use a 10-inch or 12-inch cast-iron skillet only if its actual depth can hold that batch with headroom and it is rated for 425°F. Preheat the skillet with the oven, remove it with gloves, melt that pan’s share of the listed butter in it and pour in its corresponding share of the blended batter. For scaled multiples, divide all the butter and batter proportionally among separate suitable pans or cooking batches, keeping similar depth and headroom. Return it to the oven, beginning checks around 20 minutes; cook until golden and puffed with a set 160°F center. A smaller skillet makes a deeper layer and can need longer. If the vessel cannot hold the batter safely, choose the 9×13 baking-dish route instead, rather than pouring overflow into the oven.",
+        "effect": "Skillet diameter alone does not establish capacity. A deeper batter layer can take longer to cook than the baking-dish version."
+      },
+      {
+        "ingredient": "Batter pouring",
+        "alternative": "For the swirled-pour option, gently swirl the batter as you pour it over the fully melted butter. For higher edge peaks, pour into the center without stirring.",
+        "effect": "The pouring method changes where the peaks develop; neither option changes the ingredient amounts or guarantees a particular rise."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Baking-dish route",
+        "alternative": "For the original-batch skillet version, use a 10-inch or 12-inch cast-iron skillet only if its actual depth can hold that batch with headroom and it is rated for 425°F. Preheat the skillet with the oven, remove it with gloves, melt that pan’s share of the listed butter in it and pour in its corresponding share of the blended batter. For scaled multiples, divide all the butter and batter proportionally among separate suitable pans or cooking batches, keeping similar depth and headroom. Return it to the oven, beginning checks around 20 minutes; cook until golden and puffed with a set 160°F center. A smaller skillet makes a deeper layer and can need longer. If the vessel cannot hold the batter safely, choose the 9×13 baking-dish route instead, rather than pouring overflow into the oven.",
+        "effect": "Skillet diameter alone does not establish capacity. A deeper batter layer can take longer to cook than the baking-dish version."
+      },
+      {
+        "ingredient": "Batter pouring",
+        "alternative": "For the swirled-pour option, gently swirl the batter as you pour it over the fully melted butter. For higher edge peaks, pour into the center without stirring.",
+        "effect": "The pouring method changes where the peaks develop; neither option changes the ingredient amounts or guarantees a particular rise."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "scope": "No incoming meal component references found for these five; unchanged pairsWith suggestions are not ingredient substitutions or completed review of pairings."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
+    "The modern publisher card says4teaspoonsbutter/12portions while saved native/045/current use4tablespoons/4portions. Preserve full saved richness/portionplan without copying modern count/nutrition.",
+    "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork.",
+    "Actual vessel depth/material/manufacturer temperature-change permission remain unknown. These recommendations do not establish a tested scaled bake clock."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

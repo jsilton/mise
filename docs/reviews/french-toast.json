@@ -1,0 +1,845 @@
+{
+  "slug": "french-toast",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "6892ddf7060216187c4260d355516d20eafa639a5e8a66c467748cf9984bbca2",
+  "acceptedSourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "15–25 min for the original batch with one skillet"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "25–40 min for the original batch with one skillet"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 slices Challah or Brioche (Day-old preferred)",
+        "4 large Eggs",
+        "1/4 cup Whole Milk",
+        "2 tbsp Honey, warmed",
+        "4 tbsp Unsalted Butter",
+        "1 tsp Ground Cinnamon",
+        "1/4 tsp Ground Nutmeg",
+        "1/2 tsp Pure Vanilla Extract",
+        "Warm Maple Syrup",
+        "Fresh Berries"
+      ],
+      "after": [
+        "--- French toast ---",
+        "8 slices of challah or brioche, day-old preferred; slice size stays fixed when count scales",
+        "4 large eggs",
+        "1/4 cup whole milk",
+        "2 tbsp honey, warmed gently until fluid",
+        "4 tbsp unsalted butter",
+        "1 tsp ground cinnamon",
+        "1/4 tsp ground nutmeg",
+        "1/2 tsp pure vanilla extract",
+        "1/2 cup maple syrup, warmed",
+        "fresh berries, as wanted for serving, washed and drained, optional",
+        "additional maple syrup, as wanted for serving, warmed, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "France",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 495,
+        "protein": 15,
+        "carbs": 47.5,
+        "fat": 28.5,
+        "fiber": 1,
+        "sugar": 23,
+        "sodium": 480
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "toast",
+            "name": "French toast",
+            "ingredients": [
+              {
+                "id": "bread",
+                "key": "bread",
+                "name": "slice of challah or brioche",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "dip",
+                    "share": 1
+                  }
+                ],
+                "plural": "slices of challah or brioche",
+                "preparation": "day-old preferred; slice size stays fixed when count scales"
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "whole milk",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "spice",
+                    "share": 1
+                  }
+                ],
+                "preparation": "warmed gently until fluid"
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cook",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "spice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "ground nutmeg",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "spice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "syrup",
+                "key": "syrup",
+                "name": "maple syrup",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "warmed"
+              },
+              {
+                "id": "berries",
+                "key": "berries",
+                "name": "fresh berries",
+                "allowance": "as wanted for serving",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and drained"
+              },
+              {
+                "id": "extra-syrup",
+                "key": "extra-syrup",
+                "name": "additional maple syrup",
+                "allowance": "as wanted for serving",
+                "optional": true,
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "preparation": "warmed"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "spice",
+            "title": "Mix spices",
+            "text": "Stir {{ingredients}} together until the spices are dispersed."
+          },
+          {
+            "id": "custard",
+            "title": "Make custard",
+            "text": "Whisk {{ingredients}} with all the honey-spice mixture in a shallow dish until no egg-white streaks remain."
+          },
+          {
+            "id": "dip",
+            "title": "Dip",
+            "text": "Working in cooking-sized batches, dip {{ingredients}} in the custard on both sides, starting with a few seconds per side. Lift while the bread still holds its shape and let excess drip back. The short dip is a starting point; bread porosity and thickness determine when to lift. Keep bread-contact custard separate from cooked toast."
+          },
+          {
+            "id": "cook",
+            "title": "Cook batches",
+            "text": "Heat a large skillet over medium heat. Use all the {{ingredients}} in that round if every slice fits without crowding. Otherwise, begin with half for the first round and distribute the remainder among later uncrowded rounds. Cook each side until golden, starting checks at 2–3 minutes per side. The center should be set, without liquid egg. Check 160°F in the center of a thick slice with a food thermometer inserted from its edge; reduce the heat and continue gently if the outside browns first. Keep later bread-contact utensils away from finished toast. Discard unused bread-contact custard after cooking."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Divide {{ingredients}} among the cooked slices and serve promptly. The measured syrup is separate from the honey in the custard; additional syrup and berries are optional finishes."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Use a brief dip and distribute all the pan butter across rounds",
+        "outcome": "Golden honey-sweetened toast with a set center and the full warm syrup finish.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep each bread slice the same thickness when scaling; cook more or fewer uncrowded rounds rather than stacking slices in the pan. Use separate utensils for bread-contact custard and finished toast."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The full listed butter has been allocated across rounds; finished slices are golden with set 160°F centers.",
+            "why": "Use all the listed pan butter across the cooking rounds, including when a small batch needs only one round."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Outside browns before the center sets",
+            "cause": "The pan may be too hot for the thickness of the bread or batter.",
+            "fix": "Reduce the pan heat and continue cooking gently until the center is set; do not rely on the crust color alone."
+          }
+        ],
+        "timing": "25–40 min for the original batch with one skillet. The original eight slices need multiple uncrowded rounds; actual bread thickness and skillet capacity determine the clock.",
+        "storage": "Refrigerate cooked leftovers promptly in a shallow covered container at 40°F / 4°C or below, within 2 hours of cooking or 1 hour above 90°F. Use within 3–4 days and reheat to 165°F; browning again is not a temperature check. Discard unused custard that contacted the bread; keep raw egg mixtures refrigerated between cooking rounds.",
+        "sources": [
+          {
+            "title": "Adapted from Foodnetwork.com",
+            "url": "http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408"
+          },
+          {
+            "title": "Saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/french-toast.md"
+          },
+          {
+            "title": "FDA — egg handling, cooking and leftovers",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — washing fresh produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Challah or brioche",
+            "alternative": "For the white-bread option, use the same listed slice count of white bread with the complete honey custard, butter and syrup. Dip briefly, lift before the bread loses its shape and cook to the same set-center endpoint.",
+            "effect": "Bread structure and thickness alter absorption and cooking time; the same slice count does not imply equal bread weights."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to restaurant-quality French toast is the bread choice. We exclusively use challah or brioche for their high egg and butter content, which creates a custardy texture that regular white bread cannot mimic. Because these breads are porous, you must only dip them for 2-3 seconds per side. Over-soaking will cause the structural gluten to collapse, leading to a soggy center. The warm honey provides sweetness.\n\n## Directions\n\n1.  **The Spice:** In a small bowl, whisk cinnamon, nutmeg, and warmed honey until no clumps remain.\n2.  **The Custard:** In a shallow dish (like a pie plate), whisk together the honey-spice mix, eggs, milk, and vanilla until perfectly smooth.\n3.  **The Sear:** Heat 2 tbsp butter in a large skillet over medium.\n4.  **Dip:** Working in batches, dip a slice of bread into the custard for exactly **2 seconds per side**. Let the excess drip off.\n5.  **Cook:** Immediately place in the skillet. Fry for 2-3 minutes per side until deep golden brown and slightly crisped at the edges.\n6.  **Serve:** Serve immediately with warm maple syrup and fresh berries for the mandatory **Acid/Sweet Finish**.\n",
+    "after": "\n## Chef's Note\n\nKeep the full honey custard and all the pan butter. A brief dip suits this low-milk formula, but bread texture controls absorption; lift a slice while it still holds its shape. Browning should accompany a cooked center. Serve with all the listed warm syrup, adding the separate optional berries or extra syrup if wanted.\n\n## Directions\n\n1. **Mix spices:** Stir honey, ground cinnamon, and ground nutmeg together until the spices are dispersed.\n2. **Make custard:** Whisk large eggs, whole milk, and pure vanilla extract with all the honey-spice mixture in a shallow dish until no egg-white streaks remain.\n3. **Dip:** Working in cooking-sized batches, dip slices of challah or brioche in the custard on both sides, starting with a few seconds per side. Lift while the bread still holds its shape and let excess drip back. The short dip is a starting point; bread porosity and thickness determine when to lift. Keep bread-contact custard separate from cooked toast.\n4. **Cook batches:** Heat a large skillet over medium heat. Use all the unsalted butter in that round if every slice fits without crowding. Otherwise, begin with half for the first round and distribute the remainder among later uncrowded rounds. Cook each side until golden, starting checks at 2–3 minutes per side. The center should be set, without liquid egg. Check 160°F in the center of a thick slice with a food thermometer inserted from its edge; reduce the heat and continue gently if the outside browns first. Keep later bread-contact utensils away from finished toast. Discard unused bread-contact custard after cooking.\n5. **Serve:** Divide maple syrup, fresh berries (if using), and additional maple syrup (if using) among the cooked slices and serve promptly. The measured syrup is separate from the honey in the custard; additional syrup and berries are optional finishes.\n"
+  },
+  "findings": [
+    {
+      "id": "GB03",
+      "title": "GB03",
+      "rationale": "Exact native/045 lists½cup warmmaplesyrup andwhitebread option. bc0c bulk replaced measuredsyrup with genericline and spentonly2of4tbsp butter; full later followedhistory establishes no explicit accepted servingdose/whitebread rejection. Restore exact measuredsyrup asmain while preserving current optionalextra/berries separately; restorewhitebread variant. Authored full formula compiles all3views, with all4tbsp butter atcook step distributedoverrounds. Replaceexact2seconds and10minute batchpromise with conditionalbread/batch cues and160°Fcenter.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/french-toast.md"
+        },
+        {
+          "reference": "http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408"
+        },
+        {
+          "reference": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "reference": "evidence/source-applicability.json"
+        },
+        {
+          "reference": "evidence/french-toast-followed.diff"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
+        "Saved honey versus current publisher sugar is an explicit source disagreement; honey main stays.",
+        "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred."
+      ]
+    },
+    {
+      "id": "GB-N",
+      "title": "GB-N",
+      "rationale": "Unverified legacy estimate lacks ingredient weights, actual custard absorption and measured portions; do not certify nutrition after allocation/source corrections.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "evidence/french-toast-followed.diff"
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
+        "Saved honey versus current publisher sugar is an explicit source disagreement; honey main stays.",
+        "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred."
+      ]
+    },
+    {
+      "id": "ROOT-GB03-BOUNDED-CORRECTIONS",
+      "title": "Complete one-round butter and proportional pan routes",
+      "rationale": "The quantity controls can produce two slices at¼scale. If both fit one uncrowded round, the proposed half-first/half-later instructions strand half the listed butter. Keep the exact Classic2tbsp and French4tbsp totals and the original multiple-round allocation, adding only a complete one-round branch. The French formula already assigns the entire quantity to cook; its authored prose and generated Directions must agree. The quantity controls can produce two slices at¼scale. If both fit one uncrowded round, the proposed half-first/half-later instructions strand half the listed butter. Keep the exact Classic2tbsp and French4tbsp totals and the original multiple-round allocation, adding only a complete one-round branch. The French formula already assigns the entire quantity to cook; its authored prose and generated Directions must agree. Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Basic’s publisher-domain origin is not a country; it was added in e300 native reconciliation. Classic’s France appears in its initial Git-onlyfd4 recipe with no named publisher or geographical evidence. French’s France and Cinnamon’s UnitedStates were added in2a7 bulk metadata. Retain all French/American cuisine style tags and exact source context. Allrecipes discusses historical French crêpes, but that paragraph does not establish the geographic authorship of this particular imported formula. Do not invent a replacement country. Dutch’s proposed Germany omission is already justified. The GB-N context arrays currently repeat all culinary/publisher/FDA references and all changed fields for a single removal of an unverified nutrition estimate. Their existing scope disclaims publisher validation, so this is a records-precision advisory. Restrict the finding-level references to the actual estimate history/standard and exact nutrition deletion; primary egg guidance is irrelevant to calorie verification. The GB-N context arrays currently repeat all culinary/publisher/FDA references and all changed fields for a single removal of an unverified nutrition estimate. Their existing scope disclaims publisher validation, so this is a records-precision advisory. Restrict the finding-level references to the actual estimate history/standard and exact nutrition deletion; primary egg guidance is irrelevant to calorie verification.",
+      "confidence": "High literal source/destination consistency; moderate untested equipment, clocks and thermal category.",
+      "applicableSources": [
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/classic-french-toast.md",
+          "applicability": "Original rich custard, full2tbsp pan butter,2–3slice pan context."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/french-toast.md",
+          "applicability": "Original full4tbsp butter; exact saved quantities."
+        },
+        {
+          "path": "src/lib/recipe-formula.mjs",
+          "applicability": "Actual¼scale produces2slices and proportional butter; schema shares do not prove that prose consumes the remainder."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/classic-french-toast.md",
+          "applicability": "Original rich custard, full2tbsp pan butter,2–3slice pan context."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/french-toast.md",
+          "applicability": "Original full4tbsp butter; exact saved quantities."
+        },
+        {
+          "path": "src/lib/recipe-formula.mjs",
+          "applicability": "Actual¼scale produces2slices and proportional butter; schema shares do not prove that prose consumes the remainder."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual complete introduction/history of each origin field."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Source and cuisine style are separate from geographic origin; no invented origins."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual automatic nutrition estimate introduction and no measured calculation evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Unverified nutrition is not upgraded by editorial review."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual automatic nutrition estimate introduction and no measured calculation evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Unverified nutrition is not upgraded by editorial review."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual slices fitting a skillet remain equipment/bread-dependent.",
+        "Actual slices fitting a skillet remain equipment/bread-dependent."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/French%20Toast.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact native/045 lists½cup warmmaplesyrup andwhitebread option. bc0c bulk replaced measuredsyrup with genericline and spentonly2of4tbsp butter; full later followedhistory establishes no explicit accepted servingdose/whitebread rejection. Restore exact measuredsyrup asmain while preserving current optionalextra/berries separately; restorewhitebread variant. Authored full formula compiles all3views, with all4tbsp butter atcook step distributedoverrounds. Replaceexact2seconds and10minute batchpromise with conditionalbread/batch cues and160°Fcenter.",
+      "sourceApplicability": "Exact native/first Git prove saved syrup/bread/honey; actual current FoodNetworkUK uses sugar and does not override saved honey. FDA eggdish160 is moderate editorial applicability; no recipe/pan timing validation.",
+      "remainingQuestions": [
+        "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
+        "Saved honey versus current publisher sugar is an explicit source disagreement; honey main stays.",
+        "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "8 slices Challah or Brioche (Day-old preferred)",
+        "frozenDestination": "step4dip"
+      },
+      {
+        "index": 1,
+        "ingredient": "4 large Eggs",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 2,
+        "ingredient": "1/4 cup Whole Milk",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 3,
+        "ingredient": "2 tbsp Honey, warmed",
+        "frozenDestination": "step1spicemix"
+      },
+      {
+        "index": 4,
+        "ingredient": "4 tbsp Unsalted Butter",
+        "frozenDestination": "step3only2tbsp oflisted4; no explicitremainingdestination"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 tsp Ground Cinnamon",
+        "frozenDestination": "step1spice"
+      },
+      {
+        "index": 6,
+        "ingredient": "1/4 tsp Ground Nutmeg",
+        "frozenDestination": "step1spice"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/2 tsp Pure Vanilla Extract",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 8,
+        "ingredient": "Warm Maple Syrup",
+        "frozenDestination": "step6unmeasuredserving"
+      },
+      {
+        "index": 9,
+        "ingredient": "Fresh Berries",
+        "frozenDestination": "step6serving"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "toast.bread",
+        "key": "bread",
+        "name": "slice of challah or brioche",
+        "quantity": {
+          "amount": 8,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "dip",
+            "share": 1
+          }
+        ],
+        "plural": "slices of challah or brioche",
+        "preparation": "day-old preferred; slice size stays fixed when count scales",
+        "component": "French toast"
+      },
+      {
+        "id": "toast.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "plural": "large eggs",
+        "component": "French toast"
+      },
+      {
+        "id": "toast.milk",
+        "key": "milk",
+        "name": "whole milk",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "French toast"
+      },
+      {
+        "id": "toast.honey",
+        "key": "honey",
+        "name": "honey",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "spice",
+            "share": 1
+          }
+        ],
+        "preparation": "warmed gently until fluid",
+        "component": "French toast"
+      },
+      {
+        "id": "toast.butter",
+        "key": "butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "cook",
+            "share": 1
+          }
+        ],
+        "component": "French toast"
+      },
+      {
+        "id": "toast.cinnamon",
+        "key": "cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "spice",
+            "share": 1
+          }
+        ],
+        "component": "French toast"
+      },
+      {
+        "id": "toast.nutmeg",
+        "key": "nutmeg",
+        "name": "ground nutmeg",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "spice",
+            "share": 1
+          }
+        ],
+        "component": "French toast"
+      },
+      {
+        "id": "toast.vanilla",
+        "key": "vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "French toast"
+      },
+      {
+        "id": "toast.syrup",
+        "key": "syrup",
+        "name": "maple syrup",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "preparation": "warmed",
+        "component": "French toast"
+      },
+      {
+        "id": "toast.berries",
+        "key": "berries",
+        "name": "fresh berries",
+        "allowance": "as wanted for serving",
+        "optional": true,
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "preparation": "washed and drained",
+        "component": "French toast"
+      },
+      {
+        "id": "toast.extra-syrup",
+        "key": "extra-syrup",
+        "name": "additional maple syrup",
+        "allowance": "as wanted for serving",
+        "optional": true,
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "preparation": "warmed",
+        "component": "French toast"
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "id": "spice",
+      "text": "Stir {{ingredients}} together until the spices are dispersed."
+    },
+    {
+      "step": 2,
+      "id": "custard",
+      "text": "Whisk {{ingredients}} with all the honey-spice mixture in a shallow dish until no egg-white streaks remain."
+    },
+    {
+      "step": 3,
+      "id": "dip",
+      "text": "Working in cooking-sized batches, dip {{ingredients}} in the custard on both sides, starting with a few seconds per side. Lift while the bread still holds its shape and let excess drip back. The short dip is a starting point; bread porosity and thickness determine when to lift. Keep bread-contact custard separate from cooked toast."
+    },
+    {
+      "step": 4,
+      "id": "cook",
+      "text": "Heat a large skillet over medium heat. Use all the {{ingredients}} in that round if every slice fits without crowding. Otherwise, begin with half for the first round and distribute the remainder among later uncrowded rounds. Cook each side until golden, starting checks at 2–3 minutes per side. The center should be set, without liquid egg. Check 160°F in the center of a thick slice with a food thermometer inserted from its edge; reduce the heat and continue gently if the outside browns first. Keep later bread-contact utensils away from finished toast. Discard unused bread-contact custard after cooking."
+    },
+    {
+      "step": 5,
+      "id": "serve",
+      "text": "Divide {{ingredients}} among the cooked slices and serve promptly. The measured syrup is separate from the honey in the custard; additional syrup and berries are optional finishes."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Challah or brioche",
+        "alternative": "For the white-bread option, use the same listed slice count of white bread with the complete honey custard, butter and syrup. Dip briefly, lift before the bread loses its shape and cook to the same set-center endpoint.",
+        "effect": "Bread structure and thickness alter absorption and cooking time; the same slice count does not imply equal bread weights."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Challah or brioche",
+        "alternative": "For the white-bread option, use the same listed slice count of white bread with the complete honey custard, butter and syrup. Dip briefly, lift before the bread loses its shape and cook to the same set-center endpoint.",
+        "effect": "Bread structure and thickness alter absorption and cooking time; the same slice count does not imply equal bread weights."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "scope": "No incoming meal component references found for these five; unchanged pairsWith suggestions are not ingredient substitutions or completed review of pairings."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
+    "Saved honey versus current publisher sugar is an explicit source disagreement; honey main stays.",
+    "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred.",
+    "Actual slices fitting a skillet remain equipment/bread-dependent."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

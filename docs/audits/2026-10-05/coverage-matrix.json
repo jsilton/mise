@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 458,
-    "completeEditorialPending": 185,
+    "recordedCompleteEditorial": 468,
+    "completeEditorialPending": 175,
     "originalBaseline": 612,
-    "originalReviewed": 428,
+    "originalReviewed": 436,
     "consideredConsolidations": 10,
-    "originalPending": 174,
+    "originalPending": 166,
     "additionalSources": 41,
-    "additionalReviewed": 30,
-    "additionalPending": 11,
+    "additionalReviewed": 32,
+    "additionalPending": 9,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 458,
+      "editoriallyReviewed": 468,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 353
+      "reviewItems": 335
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "224 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 458 recorded complete / 185 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [dc4362e6](https://github.com/jsilton/mise/commit/dc4362e6c5dc2ab7786208dec919438f980cdc6c), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37453032158) and all 11 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "224 campaign versions are verified live; 10 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1389,13 +1389,7 @@
       "baseline": "addition",
       "source": "allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1403,19 +1397,25 @@
         "evidence": ["docs/reviews/basic-crepes.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/basic-crepes.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/basic-crepes.json",
+        "sourceSha256": "eaae1657b9ac0fed7d21165d82dcde9d86ca7e4a2a9a257dfbdf87ff2de13af1"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pan diameter determines scoop/yield; eight is the source planning count, not a verified yield.",
+        "Optional extra milk is genuinely unmeasured; do not force a new fixed liquid ratio."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4044,18 +4044,7 @@
       "baseline": "original canonical",
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4063,19 +4052,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cheese-fondue.md",
+        "acceptedSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/cheese-fondue.json",
+        "sourceSha256": "c30180c07748a5fcc4e463f8aa2e2a49ceaed60edd704bac643f20763443d598"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual fondue-pot material, heat-source rating and usable capacity are unknown.",
+        "Current six portions are a planning choice versus source4–6; dipper quantities are unmeasured.",
+        "Cheese product and reheat separation require kitchen comparison; no claim that alcohol is fully removed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -6569,18 +6565,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -6588,19 +6573,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/classic-french-toast.md",
+        "acceptedSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/classic-french-toast.json",
+        "sourceSha256": "29b9af297c09272ed597c3db6dab53c3b305fee91194b858a973916cf265120e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet capacity, bread absorption and center heating need kitchen tests.",
+        "No actual external author/publisher source or original450 native match is established for this Git-created recipe.",
+        "Actual slices fitting a skillet remain equipment/bread-dependent."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8983,18 +8975,7 @@
       "baseline": "original canonical",
       "source": "Adapted from prettyprovidence.com",
       "sourceUrl": "https://prettyprovidence.com/german-pancakes/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9002,19 +8983,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/dutch-baby-pancake.md",
+        "acceptedSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/dutch-baby-pancake.json",
+        "sourceSha256": "05c5179753b569e775fcd4a612837aaaf1e1f895ab647f25526af7cad65192ba"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual10/12inch skillet depth and vessel manufacturer instructions are unknown; do not treat the capacity condition as tested geometry.",
+        "The modern publisher card says4teaspoonsbutter/12portions while saved native/045/current use4tablespoons/4portions. Preserve full saved richness/portionplan without copying modern count/nutrition.",
+        "Saved native timing fields35cook conflict with20minute method; actualpreheat/centerclockneeds kitchenwork.",
+        "Actual vessel depth/material/manufacturer temperature-change permission remain unknown. These recommendations do not establish a tested scaled bake clock."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9227,18 +9216,7 @@
       "baseline": "original canonical",
       "source": "Adapted from justataste.com",
       "sourceUrl": "https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9246,19 +9224,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/easy-cinnamon-french-toast-sticks.md",
+        "acceptedSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/easy-cinnamon-french-toast-sticks.json",
+        "sourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual number of sticks fitting the household skillet and batter absorption determine the schedule;30–55minutes is an untested original-batch planning range.",
+        "Saved baguette1inchround option lacks a supported equivalent breadcount/weight; retained privately as an unresolved variant, not forced to8Texas-toast-equivalent rounds."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10493,18 +10477,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10512,19 +10485,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/french-toast.md",
+        "acceptedSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/french-toast.json",
+        "sourceSha256": "d28ef4d5c0e3288d9272ca655949110d92f71c7641d01fcc5152e6af1569159f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Original½cup syrup restoration is proposed; source-dependent independent editor/root disposition remains needed.",
+        "Saved honey versus current publisher sugar is an explicit source disagreement; honey main stays.",
+        "Actual bread absorption may leave discarded custard, so no absorption-based nutrition/yield precision is inferred.",
+        "Actual slices fitting a skillet remain equipment/bread-dependent."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12829,13 +12810,7 @@
       "baseline": "addition",
       "source": "Gwock Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12843,19 +12818,26 @@
         "evidence": ["docs/reviews/gwock-family-macaroni-and-cheese.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/gwock-family-macaroni-and-cheese.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/gwock-family-macaroni-and-cheese.json",
+        "sourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Family meaning of medium cheese, milk product/volume, margarine stick size and actual9x9dish depth remain unrecorded.",
+        "Milk-level cue is original, not a measured reproducible milk dose. Confirm original-batch texture/capacity in kitchen.",
+        "No family serving-count evidence; preserve one-dish yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -20190,18 +20172,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -20209,19 +20180,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/queso-fundido-with-chorizo.md",
+        "acceptedSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/queso-fundido-with-chorizo.json",
+        "sourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual sausage species/product label and skillet depth are needed at cooking time.",
+        "Eight portions are unmeasured dip portions; tortilla count is not supplied.",
+        "Vegetarian oil/spice route is the existing complete repository variation, not a recovered publisher formula."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -21291,18 +21269,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Thefeedfeed.com",
       "sourceUrl": "https://thefeedfeed.com/video/roasted-butternut-squash-mac-and-cheese",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -21310,12 +21277,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/roasted-butternut-squash-mac-and-cheese.md",
+        "acceptedSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/roasted-butternut-squash-mac-and-cheese.json",
+        "sourceSha256": "d09f49af8a6576cc740eb340c95b1c66edc8ab81e3423ff7ed6a6a40d65868d0"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -21324,11 +21297,14 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual finished pasta/cheese volume and baking-dish depths need kitchen capacity checks; two-quart source assertion is not certified.",
+        "Source lists3 cups prepared roasted squash plus a3cupraw subrecipe; cooked yield is not measured and cannot be equated. Current3cupraw main retained; exact3cupprepared variant held over yield/oil preparation relationship.",
+        "Actual source modern page has20minprep/90mincook/7portions versus saved6–8/current8. Preserve current planning count, no measured serving or nutrition proof.",
+        "Which salt product and actual pinch suits the selected Parmesan and cheeses? No new measured salt dose is claimed.",
+        "Confirm desired texture/capacity and planning portions for the no-squash option separately; do not equate its yield to the full-squash main or resolve source3cups prepared/raw from this option."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -24092,18 +24068,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/skinny-baked-broccoli-macaroni-and/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -24111,12 +24076,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/skinny-baked-broccoli-macaroni-and-cheese.md",
+        "acceptedSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/skinny-baked-broccoli-macaroni-and-cheese.json",
+        "sourceSha256": "9008bf1828f6250e058a542f819a416bfdad47a2299d290121f6d7e8d9126f7b"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -24125,11 +24096,13 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pasta product and floret size govern boil time; all-at-start source route can yield softer broccoli.",
+        "Eight portions remain planning, not measured one-cup servings for the current adapted cooking route.",
+        "Actual baking-dish capacity and broiler rating are unknown. Modernpublisher supports halfbatch9x9 and individualized dishes, not invented fullbatch dimensions.",
+        "Optional source quality aid, not a required culinary correction or tested shelf-life extension."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

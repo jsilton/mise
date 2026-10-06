@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 643,
-    "editoriallyReviewed": 458,
+    "editoriallyReviewed": 468,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 353
+    "reviewItems": 335
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -232,15 +232,9 @@
     {
       "slug": "basic-crepes",
       "title": "Basic Crêpes",
-      "status": "collection",
-      "stepCount": 3,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 4,
+      "issues": []
     },
     {
       "slug": "basmati-rice",
@@ -758,20 +752,9 @@
     {
       "slug": "cheese-fondue",
       "title": "Cheese Fondue",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "cheesy-cauliflower-sauce",
@@ -1240,20 +1223,9 @@
     {
       "slug": "classic-french-toast",
       "title": "Classic French Toast",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "classic-guacamole",
@@ -1754,20 +1726,9 @@
     {
       "slug": "dutch-baby-pancake",
       "title": "Dutch Baby Pancake",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "easy-baked-turkey-meatballs",
@@ -1800,20 +1761,9 @@
     {
       "slug": "easy-cinnamon-french-toast-sticks",
       "title": "Cinnamon French Toast Sticks",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "easy-homemade-pumpkin-pancakes",
@@ -2107,20 +2057,9 @@
     {
       "slug": "french-toast",
       "title": "French Toast",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
@@ -2592,15 +2531,9 @@
     {
       "slug": "gwock-family-macaroni-and-cheese",
       "title": "Gwock Family Macaroni and Cheese",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "ham-and-cheese-green-bean-casserole",
@@ -4324,20 +4257,9 @@
     {
       "slug": "queso-fundido-with-chorizo",
       "title": "Queso Fundido with Chorizo",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 6,
+      "issues": []
     },
     {
       "slug": "quick-and-easy-caprese-pasta",
@@ -4551,20 +4473,9 @@
     {
       "slug": "roasted-butternut-squash-mac-and-cheese",
       "title": "Butternut Squash Mac and Cheese",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 8,
+      "issues": []
     },
     {
       "slug": "roasted-cauliflower-with-tahini",
@@ -5167,20 +5078,9 @@
     {
       "slug": "skinny-baked-broccoli-macaroni-and-cheese",
       "title": "Skinny Broccoli Mac & Cheese",
-      "status": "collection",
-      "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 7,
+      "issues": []
     },
     {
       "slug": "slow-cooker-cheesy-mushroom-quinoa",

@@ -1,0 +1,363 @@
+{
+  "slug": "gwock-family-macaroni-and-cheese",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "ba148f4b8864748afa95009d938d3329ef7008c964f5d183e49f4875732ffe33",
+  "acceptedSourceSha256": "908dccf4a46c8405dec99f7734ef17860a2e81bf528245459a1e1b2236f7bd3f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Gwock Family",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Egg and salt mixture distributed evenly through warm pasta.",
+        "outcome": "Center 165°F / 74°C and set custard.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep the family milk-level cue; do not replace it with an invented cup amount. For multiples make separate original-size dishes; smaller batches need an appropriately smaller dish and earlier center checks. Keep similar mixture depth and leave headroom.",
+          "The original 9 × 9-inch dimension is an original-batch plan, not a proportional pan-size formula. Choose bakeware rated for 475°F."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Egg and salt mixture distributed evenly through warm pasta.",
+            "why": "Beating first avoids isolated pockets of egg; very hot pasta can begin setting it before distribution."
+          },
+          {
+            "step": 4,
+            "cue": "Center 165°F / 74°C and set custard.",
+            "why": "The original time is a check window, not a guarantee for unknown milk volume/dish depth."
+          }
+        ],
+        "timing": "The listed 45-minute plan includes 5 minutes standing but depends on water/oven heat-up and the unknown milk volume. Boiling, cooling enough to mix, 20–25-minute first bake checks and 5-minute stand must all fit; additional dishes extend elapsed time.",
+        "storage": "Divide cooked leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below and use within 3–4 days, or freeze portions promptly. Thaw in the refrigerator and reheat throughout to 165°F / 74°C.",
+        "substitutions": [],
+        "troubleshooting": [
+          {
+            "problem": "Top is colored while the center is still liquid",
+            "cause": "Dish depth, milk volume and heat-up change the center cooking time.",
+            "fix": "Continue checking the center rather than serving by the clock; shield the top with foil if needed and permitted by the bakeware/oven."
+          }
+        ],
+        "sources": [
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety. gov — Minimum Cooking Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe Gwock family recipe uses eggs and chunks of medium cheese rather than a flour-thickened sauce. Add milk until the macaroni is almost covered, as the original specifies; the exact milk volume and cheese type were not recorded.\n\n## Directions\n\n1. **Boil:** Boil macaroni in salted water for 10 minutes. Drain.\n\n2. **Prepare:** Cut cheese and add to macaroni.\n\n3. **Continue:** Add thin slices of margarine.\n\n4. **Continue:** Add eggs.\n\n5. **Continue:** Add milk untill almost completely covered.\n\n6. **Cook:** Bake in 9x9 dish at 475 degrees for 20-25 minutes. Beat the eggs before folding them into the macaroni. Bake until the center reaches 165°F / 74°C; check before the end of the stated window and continue if needed. Stand five minutes before serving.\n",
+    "after": "\n## Chef's Note\n\nThe Gwock family recipe uses eggs and chunks of medium cheese rather than a flour-thickened sauce. Add milk until the macaroni is almost covered, as the original specifies; the exact milk volume and cheese type were not recorded. Beat the eggs before combining and use the center temperature to decide when the casserole is ready.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 475°F. For the original batch, use a 9 × 9-inch baking dish rated for that temperature, with enough depth and headroom for the milk-filled pasta. Cut all the cheese into chunks and thinly slice all the margarine. Beat all the eggs with the listed salt in a separate bowl.\n2. **Boil:** Boil all the macaroni in salted water, beginning the original recipe's check at 10 minutes and checking the actual package and pasta texture. Drain well and let the pasta cool from steaming-hot to warm before adding beaten eggs.\n3. **Combine:** Mix the full cheese and margarine supplies through the drained pasta, then fold in all the beaten eggs and salt evenly. Transfer to the baking dish. Add milk until the macaroni is almost covered; stir gently so the egg mixture is distributed throughout. Do not overfill the vessel.\n4. **Bake:** Bake at 475°F, checking before the end of the original 20–25-minute window. Continue until the center reaches 165°F / 74°C and the custard is set, without a pool of liquid egg. Check each dish if the batch is divided.\n5. **Stand:** Stand 5 minutes before serving.\n"
+  },
+  "findings": [
+    {
+      "id": "CM09-3",
+      "title": "CM09-3",
+      "rationale": "Exact family native/b7 HTML supports full8 oz macaroni/1lb mediumcheese/4eggs/½stickmargarine/milk-level/salt range and original9x9/475/20–25. e300 consolidated beat-eggs cue into final bake step after earlier add-eggs instruction; move it to prep and distribute listed salt. Retain prior165 center/5 min stand unchanged, no invented milk volume or cheese substitution. Unknown pan depth needs headroom guidance, not fabricated family geometry. Family name retained as source, not a country origin.",
+      "confidence": "High exact ingredient/source/history conservation; moderate untested cooking sequence, elapsed planning, pan-headroom and safety-category application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7ae012dc180e5f9796a9f5d9d388d8e09f1679b",
+            "path": "My Recipes/Recipes/Macaroni and Cheese.html",
+            "sha256": "2cd6336812f1d5ed51fec6a3c60df31dc891cff5cfeddde163790f4210efcf04",
+            "scope": "Actual earlier retained HTML cooking recipe; independent of later canonical Markdown introduction",
+            "artifact": "privately retained evidence"
+          },
+          "scope": "Actual earliest available cooking source; family/source quantities and method only."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical history; persistence does not establish deliberate household rejection."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Exact current private registry binding to durable original450 cooking payload; no title match, native sync or kitchen certification."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Egg/casserole cooking and prompt shallow cold leftovers; current165 repair preserved. No family milk volume or pan-depth validation."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Meat/meatless casseroles165 and leftovers165. Editorial category application; does not validate this specific formula, elapsed time or pan capacity."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftovers prompt shallow cooling/3–4days/165 reheat; direct fetch403, actual official indexed body read. Not tested texture/shelf-life for this cheese formula."
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Family meaning of medium cheese, milk product/volume, margarine stick size and actual9x9dish depth remain unrecorded.",
+        "Milk-level cue is original, not a measured reproducible milk dose. Confirm original-batch texture/capacity in kitchen.",
+        "No family serving-count evidence; preserve one-dish yield."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Macaroni%20and%20Cheese.html",
+    "introductionScope": "Actual earlier retained HTML cooking recipe; independent of later canonical Markdown introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Exact family native/b7 HTML supports full8 oz macaroni/1lb mediumcheese/4eggs/½stickmargarine/milk-level/salt range and original9x9/475/20–25. e300 consolidated beat-eggs cue into final bake step after earlier add-eggs instruction; move it to prep and distribute listed salt. Retain prior165 center/5 min stand unchanged, no invented milk volume or cheese substitution. Unknown pan depth needs headroom guidance, not fabricated family geometry. Family name retained as source, not a country origin.",
+      "questions": [
+        "Family meaning of medium cheese, milk product/volume, margarine stick size and actual9x9dish depth remain unrecorded.",
+        "Milk-level cue is original, not a measured reproducible milk dose. Confirm original-batch texture/capacity in kitchen.",
+        "No family serving-count evidence; preserve one-dish yield."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz. macaroni",
+        "actualMethodDestination": "Boil1/drain"
+      },
+      {
+        "text": "1 lb Cheese (medium) cut in chunks",
+        "actualMethodDestination": "Add2"
+      },
+      {
+        "text": "4 eggs",
+        "actualMethodDestination": "Add4 but beating onlylate step6"
+      },
+      {
+        "text": "1/2 stick margarine",
+        "actualMethodDestination": "Add3"
+      },
+      {
+        "text": "milk",
+        "actualMethodDestination": "Add5 unmeasuredalmostcovered"
+      },
+      {
+        "text": "1/2-3/4 tsp salt",
+        "actualMethodDestination": "No destination in frozen method"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz. macaroni",
+        "destination": "Boil2"
+      },
+      {
+        "text": "1 lb Cheese (medium) cut in chunks",
+        "destination": "Combine3"
+      },
+      {
+        "text": "4 eggs",
+        "destination": "Beat1/combine3"
+      },
+      {
+        "text": "1/2 stick margarine",
+        "destination": "Combine3"
+      },
+      {
+        "text": "milk",
+        "destination": "Almostcover3 unmeasured"
+      },
+      {
+        "text": "1/2-3/4 tsp salt",
+        "destination": "Beat1/combine3"
+      }
+    ],
+    "frozenMethodOnly": ["Cookingwater/saltboil1; ingredient salt rangeunassigned"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the oven to 475°F. For the original batch, use a 9 × 9-inch baking dish rated for that temperature, with enough depth and headroom for the milk-filled pasta. Cut all the cheese into chunks and thinly slice all the margarine. Beat all the eggs with the listed salt in a separate bowl."
+    },
+    {
+      "step": 2,
+      "text": "Boil: Boil all the macaroni in salted water, beginning the original recipe's check at 10 minutes and checking the actual package and pasta texture. Drain well and let the pasta cool from steaming-hot to warm before adding beaten eggs."
+    },
+    {
+      "step": 3,
+      "text": "Combine: Mix the full cheese and margarine supplies through the drained pasta, then fold in all the beaten eggs and salt evenly. Transfer to the baking dish. Add milk until the macaroni is almost covered; stir gently so the egg mixture is distributed throughout. Do not overfill the vessel."
+    },
+    {
+      "step": 4,
+      "text": "Bake: Bake at 475°F, checking before the end of the original 20–25-minute window. Continue until the center reaches 165°F / 74°C and the custard is set, without a pool of liquid egg. Check each dish if the batch is divided."
+    },
+    {
+      "step": 5,
+      "text": "Stand: Stand 5 minutes before serving."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "Existing metadata pairing paths retained and existence checked only; linked recipes are not granted complete review or full-batch substitution credit. No incoming composed-meal references found."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "1 nine-inch-square dish",
+    "scope": "Current planning yield remains untested; no new precision or portion-volume claim",
+    "capacity": [
+      "Keep the family milk-level cue; do not replace it with an invented cup amount. For multiples make separate original-size dishes; smaller batches need an appropriately smaller dish and earlier center checks. Keep similar mixture depth and leave headroom.",
+      "The original 9 × 9-inch dimension is an original-batch plan, not a proportional pan-size formula. Choose bakeware rated for 475°F."
+    ],
+    "timing": "The listed 45-minute plan includes 5 minutes standing but depends on water/oven heat-up and the unknown milk volume. Boiling, cooling enough to mix, 20–25-minute first bake checks and 5-minute stand must all fit; additional dishes extend elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz. macaroni",
+        "1/4 lb Cheese (medium) cut in chunks",
+        "1 egg",
+        "1/8 stick margarine",
+        "milk",
+        "1/8–0.19 tsp salt"
+      ],
+      "yield": "1/4 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz. macaroni",
+        "1/2 lb Cheese (medium) cut in chunks",
+        "2 eggs",
+        "1/4 stick margarine",
+        "milk",
+        "1/4–3/8 tsp salt"
+      ],
+      "yield": "1/2 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz. macaroni",
+        "1 lb Cheese (medium) cut in chunks",
+        "4 eggs",
+        "1/2 stick margarine",
+        "milk",
+        "1/2-3/4 tsp salt"
+      ],
+      "yield": "1 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz. macaroni",
+        "1 1/2 lb Cheese (medium) cut in chunks",
+        "6 eggs",
+        "3/4 stick margarine",
+        "milk",
+        "3/4–1 1/8 tsp salt"
+      ],
+      "yield": "1 1/2 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz. macaroni",
+        "2 lb Cheese (medium) cut in chunks",
+        "8 eggs",
+        "1 stick margarine",
+        "milk",
+        "1–1 1/2 tsp salt"
+      ],
+      "yield": "2 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz. macaroni",
+        "3 lb Cheese (medium) cut in chunks",
+        "12 eggs",
+        "1 1/2 sticks margarine",
+        "milk",
+        "1 1/2–2 1/4 tsp salt"
+      ],
+      "yield": "3 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz. macaroni",
+        "1 lb Cheese (medium) cut in chunks",
+        "4 eggs",
+        "1/2 stick margarine",
+        "milk",
+        "1/2-3/4 tsp salt"
+      ],
+      "yield": "1 nine-inch-square dish",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "9fa/e300familyformula/name/165center/5minstand preserved; beat cue moved before mixing.",
+  "remainingQuestions": [
+    "Family meaning of medium cheese, milk product/volume, margarine stick size and actual9x9dish depth remain unrecorded.",
+    "Milk-level cue is original, not a measured reproducible milk dose. Confirm original-batch texture/capacity in kitchen.",
+    "No family serving-count evidence; preserve one-dish yield."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

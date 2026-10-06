@@ -1,0 +1,487 @@
+{
+  "slug": "easy-cinnamon-french-toast-sticks",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "6b1c9730a18a0672de888ad25ee55dc2c5df5e965d03cbd7b8d683aabfcf04d1",
+  "acceptedSourceSha256": "1b8255a11593a432f28af0ef044f3ed4ee169795b28e0900a10a53bd06175502",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "20–40 min for the original batch with one skillet"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "30–55 min for the original batch with one skillet"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 115,
+        "protein": 5.5,
+        "carbs": 7.5,
+        "fat": 6.5,
+        "fiber": 0,
+        "sugar": 7.5,
+        "sodium": 80
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coat sturdy sticks and cook their centers before the butter scorches",
+        "outcome": "Golden cinnamon sticks with set centers and the complete honey-and-milk coating.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep the bread thickness and four-stick cut per listed slice when scaling. Cook more or fewer uncrowded rounds rather than enlarging the sticks; use a separate clean plate for cooked sticks."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The coated stick stays intact when lifted and excess has dripped away.",
+            "why": "Bread age and porosity change absorption; lift the sticks while they still hold their shape."
+          },
+          {
+            "step": 5,
+            "cue": "Golden faces with a set center reaching 160°F.",
+            "why": "A small stick still needs its egg coating cooked; surface color alone is not the center check."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Outside browns before the center sets",
+            "cause": "The pan may be too hot for the thickness of the bread or batter.",
+            "fix": "Reduce the pan heat and continue cooking gently until the center is set; do not rely on the crust color alone."
+          }
+        ],
+        "timing": "30–55 min for the original batch with one skillet. The original eight slices make 32 sticks; a single skillet needs repeated rounds, and the number fitting it is unknown.",
+        "storage": "Refrigerate cooked leftovers promptly in a shallow covered container at 40°F / 4°C or below, within 2 hours of cooking or 1 hour above 90°F. Use within 3–4 days and reheat to 165°F; browning again is not a temperature check. Discard unused custard that contacted the bread; keep raw egg mixtures refrigerated between cooking rounds.",
+        "sources": [
+          {
+            "title": "Adapted from justataste.com",
+            "url": "https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/"
+          },
+          {
+            "title": "Saved recipe",
+            "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-cinnamon-french-toast-sticks.md"
+          },
+          {
+            "title": "FDA — egg handling, cooking and leftovers",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — washing fresh produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Milk and honey custard",
+            "alternative": "For the cream-and-sugar version, replace the full listed 1 cup whole milk with 1 cup heavy cream and the full listed 1 tablespoon honey with 1 tablespoon granulated sugar in the original batch, scaling both amounts together. Keep all eggs, cinnamon and vanilla unchanged; whisk the chosen cream and sugar into step 2 and use the same coating, pan butter, cooked-center and serving process.",
+            "effect": "Cream gives a richer coating, while granulated sugar changes the sweetener. Keep the chosen dairy and sweetener amounts proportional to the eggs and bread."
+          },
+          {
+            "ingredient": "Sticks",
+            "alternative": "For the whole-slice option, leave all the listed Texas-toast slices whole, using the complete chosen custard, pan butter and syrup. Coat both sides, drain excess and cook in uncrowded rounds to golden sides and set 160°F centers; the larger slices need their own checks.",
+            "effect": "Whole slices need their own center checks; the stick cooking time does not apply automatically."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSlightly stale bread acts like a sponge for custard without falling apart - fresh bread becomes too soggy. Cook in foaming butter over medium heat, rotating to caramelize all four sides of each stick. Don't over-soak the bread.\n\n## Directions\n\n1.  **Prep:** Cut each slice of Texas toast into 4 uniform sticks. Set aside.\n2.  **The Custard:** In a large wide bowl, whisk together eggs, milk, cinnamon, honey, and vanilla until no streaks of egg remain.\n3.  **The Soak:** Working in batches, dip each bread stick into the custard. Rotate to coat all 4 sides. **Do not over-soak** - you want the custard to penetrate 1/4 inch into the bread, not turn the core into mush.\n4.  **The Sear:** Heat a large skillet over medium. Add 2 tbsp butter. Once foaming, add the sticks in a single layer (do not crowd).\n5.  **Rotate:** Cook for 2 minutes per side, rotating until all four sides are deep golden brown and slightly crispy.\n6.  **Serve:** Serve hot with a side of warm maple syrup for dipping and fresh berries.\n",
+    "after": "\n## Chef's Note\n\nUse thick bread with sturdy crusts so the sticks survive dipping and turning. Keep the full milk, honey and cinnamon formula. Coat all sides, let excess drip away, then cook in uncrowded rounds; the color of one face does not establish that the center is cooked.\n\n## Directions\n\n1. **Cut:** Cut each listed Texas-toast slice into four similar sticks. Keep the original bread thickness and stick size when scaling; increase or decrease the number of slices and cooking rounds rather than making larger sticks.\n\n2. **Mix:** Whisk all the eggs, whole milk, cinnamon, honey and vanilla together until the honey is dispersed and no egg-white streaks remain.\n\n3. **Coat:** Dip a cooking-sized batch, turning each stick to coat all sides and lifting while it still holds its shape. Let excess custard drip back into the bowl. Coat the surfaces without leaving the sticks so saturated that they collapse. Keep raw-coated sticks and their utensils separate from cooked sticks.\n\n4. **Heat pan:** Heat a large skillet over medium heat. Melt some of the unmeasured pan butter, starting with 2–3 tablespoons for an original large-skillet round, enough to coat it. Use more of the separate pan supply as needed for later rounds; add enough for a thin coating in each round.\n\n5. **Cook and repeat:** Add only as many sticks as fit in a single uncrowded layer. Begin checking a broad side after about 2 minutes; turn as each face becomes golden and cook the remaining faces as needed. Check that the center is set, without liquid custard, and reaches 160°F using a thermometer inserted along a thick stick. Lower heat if the butter or coating browns too quickly. Repeat coating and cooking with all the remaining sticks, adding pan butter as needed. Refrigerate custard during pauses and discard unused bread-contact custard after the last round.\n\n6. **Serve:** Divide the cooked sticks among the listed portions and serve promptly with warm maple syrup and washed berries as wanted. Let a child’s serving cool enough to handle comfortably.\n"
+  },
+  "findings": [
+    {
+      "id": "GB04",
+      "title": "GB04",
+      "rationale": "Saved native ingredientmilk/honey and methodcream/sugar disagree. Preserve actual currentmilk/honeymain; offer complete source-publisher cream/sugar route distinctly with same statedamounts, plus saved whole-slice option. Remove invented¼inchpenetration target. Make unmeasuredpan butter genuinely repeatedbatch allowance, original2–3tbspstarter contextual only.8slices×4sticks cannotpromise10minutes at4faces×2min unlesscapacitysupports; originalrangehonest, measured eggcenter and childhandling cues are scoped editorial.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-cinnamon-french-toast-sticks.md"
+        },
+        {
+          "reference": "https://www.justataste.com/easy-cinnamon-french-toast-sticks-recipe/"
+        },
+        {
+          "reference": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "reference": "evidence/source-applicability.json"
+        },
+        {
+          "reference": "evidence/easy-cinnamon-french-toast-sticks-followed.diff"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual number of sticks fitting the household skillet and batter absorption determine the schedule;30–55minutes is an untested original-batch planning range.",
+        "Saved baguette1inchround option lacks a supported equivalent breadcount/weight; retained privately as an unresolved variant, not forced to8Texas-toast-equivalent rounds."
+      ]
+    },
+    {
+      "id": "GB-N",
+      "title": "GB-N",
+      "rationale": "Unverified legacy estimate lacks ingredient weights, actual custard absorption and measured portions; do not certify nutrition after allocation/source corrections.",
+      "confidence": "High exact written/source amounts; moderate editorial scheduling, thermal cues and vessel applicability",
+      "applicableSources": [
+        {
+          "reference": "evidence/easy-cinnamon-french-toast-sticks-followed.diff"
+        },
+        {
+          "reference": "docs/RECIPE_STANDARD.md"
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Actual number of sticks fitting the household skillet and batter absorption determine the schedule;30–55minutes is an untested original-batch planning range.",
+        "Saved baguette1inchround option lacks a supported equivalent breadcount/weight; retained privately as an unresolved variant, not forced to8Texas-toast-equivalent rounds."
+      ]
+    },
+    {
+      "id": "ROOT-GB03-BOUNDED-CORRECTIONS",
+      "title": "Complete one-round butter and proportional pan routes",
+      "rationale": "Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Replace archive/editorial comparisons with direct cooking explanations. Keep every complete exclusive variant, all quality-storage guidance and existing FDA handling/reheat conditions. No discarded source disagreement is hidden: the private record continues to explain milk/honey versus cream/sugar, saved white bread, and baking dish versus later skillet. Basic’s publisher-domain origin is not a country; it was added in e300 native reconciliation. Classic’s France appears in its initial Git-onlyfd4 recipe with no named publisher or geographical evidence. French’s France and Cinnamon’s UnitedStates were added in2a7 bulk metadata. Retain all French/American cuisine style tags and exact source context. Allrecipes discusses historical French crêpes, but that paragraph does not establish the geographic authorship of this particular imported formula. Do not invent a replacement country. Dutch’s proposed Germany omission is already justified. The GB-N context arrays currently repeat all culinary/publisher/FDA references and all changed fields for a single removal of an unverified nutrition estimate. Their existing scope disclaims publisher validation, so this is a records-precision advisory. Restrict the finding-level references to the actual estimate history/standard and exact nutrition deletion; primary egg guidance is irrelevant to calorie verification. The GB-N context arrays currently repeat all culinary/publisher/FDA references and all changed fields for a single removal of an unverified nutrition estimate. Their existing scope disclaims publisher validation, so this is a records-precision advisory. Restrict the finding-level references to the actual estimate history/standard and exact nutrition deletion; primary egg guidance is irrelevant to calorie verification.",
+      "confidence": "High literal source/destination consistency; moderate untested equipment, clocks and thermal category.",
+      "applicableSources": [
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Public prose should teach cooking without archive/history/review self-commentary."
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/dutch-baby-pancake.md",
+          "applicability": "Exact saved pour-shape options and distinct original dish route remain retained."
+        },
+        {
+          "url": "https://www.allrecipes.com/recipe/16383/basic-crepes/",
+          "applicability": "Two-day refrigerator/two-month freezer quality plan only."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "applicability": "Refrigeration/exposure and165°F reheat conditions only; no publisher quality-duration safety certification."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual complete introduction/history of each origin field."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Source and cuisine style are separate from geographic origin; no invented origins."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual automatic nutrition estimate introduction and no measured calculation evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Unverified nutrition is not upgraded by editorial review."
+        },
+        {
+          "paths": [
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence",
+            "privately retained evidence"
+          ],
+          "applicability": "Actual automatic nutrition estimate introduction and no measured calculation evidence."
+        },
+        {
+          "path": "docs/RECIPE_STANDARD.md",
+          "applicability": "Unverified nutrition is not upgraded by editorial review."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "vibe",
+        "cookTime",
+        "totalTime",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Easy%20Cinnamon%20French%20Toast%20Sticks.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Saved native ingredientmilk/honey and methodcream/sugar disagree. Preserve actual currentmilk/honeymain; offer complete source-publisher cream/sugar route distinctly with same statedamounts, plus saved whole-slice option. Remove invented¼inchpenetration target. Make unmeasuredpan butter genuinely repeatedbatch allowance, original2–3tbspstarter contextual only.8slices×4sticks cannotpromise10minutes at4faces×2min unlesscapacitysupports; originalrangehonest, measured eggcenter and childhandling cues are scoped editorial.",
+      "sourceApplicability": "Native/045 and actual JustaTaste support bread geometry/coating/batch butter and variants. FDA egg160 applies moderately to egg-soaked centers. Batch plan is editorial, not source measuredyield/capacity or tested schedule.",
+      "remainingQuestions": [
+        "Actual number of sticks fitting the household skillet and batter absorption determine the schedule;30–55minutes is an untested original-batch planning range.",
+        "Saved baguette1inchround option lacks a supported equivalent breadcount/weight; retained privately as an unresolved variant, not forced to8Texas-toast-equivalent rounds."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "8 slices Thick-cut Texas Toast (Day-old preferred)",
+        "frozenDestination": "step1foursticks perslice"
+      },
+      {
+        "index": 1,
+        "ingredient": "4 large Eggs",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 cup Whole Milk",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 3,
+        "ingredient": "2 1/2 tsp Ground Cinnamon",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 tbsp Honey",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 tbsp Vanilla Extract",
+        "frozenDestination": "step2custard"
+      },
+      {
+        "index": 6,
+        "ingredient": "Unsalted Butter (for the pan)",
+        "frozenDestination": "step4literal2tbsp; furtherbatchsupplyunspecified"
+      },
+      {
+        "index": 7,
+        "ingredient": "Warm Maple Syrup",
+        "frozenDestination": "step6serving"
+      },
+      {
+        "index": 8,
+        "ingredient": "Fresh Berries",
+        "frozenDestination": "step6serving"
+      }
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "ingredient": "8 slices Thick-cut Texas Toast (Day-old preferred)",
+        "proposedDestination": "step1cut/step3coat/step5cook",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 1,
+        "ingredient": "4 large Eggs",
+        "proposedDestination": "step2custard",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 2,
+        "ingredient": "1 cup Whole Milk",
+        "proposedDestination": "step2custard",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 3,
+        "ingredient": "2 1/2 tsp Ground Cinnamon",
+        "proposedDestination": "step2custard",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 4,
+        "ingredient": "1 tbsp Honey",
+        "proposedDestination": "step2custard",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 5,
+        "ingredient": "1 tbsp Vanilla Extract",
+        "proposedDestination": "step2custard",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 6,
+        "ingredient": "Unsalted Butter (for the pan)",
+        "proposedDestination": "step4and5genuinepanallowance foreachround",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 7,
+        "ingredient": "Warm Maple Syrup",
+        "proposedDestination": "step6serving",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      },
+      {
+        "index": 8,
+        "ingredient": "Fresh Berries",
+        "proposedDestination": "step6washedserving",
+        "note": "Complete final processGraph governs destination; frozen ledger is not a corrected method claim."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "1. **Cut:** Cut each listed Texas-toast slice into four similar sticks. Keep the original bread thickness and stick size when scaling; increase or decrease the number of slices and cooking rounds rather than making larger sticks."
+    },
+    {
+      "step": 2,
+      "text": "2. **Mix:** Whisk all the eggs, whole milk, cinnamon, honey and vanilla together until the honey is dispersed and no egg-white streaks remain."
+    },
+    {
+      "step": 3,
+      "text": "3. **Coat:** Dip a cooking-sized batch, turning each stick to coat all sides and lifting while it still holds its shape. Let excess custard drip back into the bowl. Coat the surfaces without leaving the sticks so saturated that they collapse. Keep raw-coated sticks and their utensils separate from cooked sticks."
+    },
+    {
+      "step": 4,
+      "text": "4. **Heat pan:** Heat a large skillet over medium heat. Melt some of the unmeasured pan butter, starting with 2–3 tablespoons for an original large-skillet round, enough to coat it. Use more of the separate pan supply as needed for later rounds; add enough for a thin coating in each round."
+    },
+    {
+      "step": 5,
+      "text": "5. **Cook and repeat:** Add only as many sticks as fit in a single uncrowded layer. Begin checking a broad side after about 2 minutes; turn as each face becomes golden and cook the remaining faces as needed. Check that the center is set, without liquid custard, and reaches 160°F using a thermometer inserted along a thick stick. Lower heat if the butter or coating browns too quickly. Repeat coating and cooking with all the remaining sticks, adding pan butter as needed. Refrigerate custard during pauses and discard unused bread-contact custard after the last round."
+    },
+    {
+      "step": 6,
+      "text": "6. **Serve:** Divide the cooked sticks among the listed portions and serve promptly with warm maple syrup and washed berries as wanted. Let a child’s serving cool enough to handle comfortably."
+    }
+  ],
+  "variantLedgers": {
+    "options": [
+      {
+        "ingredient": "Milk and honey custard",
+        "alternative": "For the cream-and-sugar version, replace the full listed 1 cup whole milk with 1 cup heavy cream and the full listed 1 tablespoon honey with 1 tablespoon granulated sugar in the original batch, scaling both amounts together. Keep all eggs, cinnamon and vanilla unchanged; whisk the chosen cream and sugar into step 2 and use the same coating, pan butter, cooked-center and serving process.",
+        "effect": "Cream gives a richer coating, while granulated sugar changes the sweetener. Keep the chosen dairy and sweetener amounts proportional to the eggs and bread."
+      },
+      {
+        "ingredient": "Sticks",
+        "alternative": "For the whole-slice option, leave all the listed Texas-toast slices whole, using the complete chosen custard, pan butter and syrup. Coat both sides, drain excess and cook in uncrowded rounds to golden sides and set 160°F centers; the larger slices need their own checks.",
+        "effect": "Whole slices need their own center checks; the stick cooking time does not apply automatically."
+      }
+    ],
+    "publicSubstitutions": [
+      {
+        "ingredient": "Milk and honey custard",
+        "alternative": "For the cream-and-sugar version, replace the full listed 1 cup whole milk with 1 cup heavy cream and the full listed 1 tablespoon honey with 1 tablespoon granulated sugar in the original batch, scaling both amounts together. Keep all eggs, cinnamon and vanilla unchanged; whisk the chosen cream and sugar into step 2 and use the same coating, pan butter, cooked-center and serving process.",
+        "effect": "Cream gives a richer coating, while granulated sugar changes the sweetener. Keep the chosen dairy and sweetener amounts proportional to the eggs and bread."
+      },
+      {
+        "ingredient": "Sticks",
+        "alternative": "For the whole-slice option, leave all the listed Texas-toast slices whole, using the complete chosen custard, pan butter and syrup. Coat both sides, drain excess and cook in uncrowded rounds to golden sides and set 160°F centers; the larger slices need their own checks.",
+        "effect": "Whole slices need their own center checks; the stick cooking time does not apply automatically."
+      }
+    ]
+  },
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "scope": "No incoming meal component references found for these five; unchanged pairsWith suggestions are not ingredient substitutions or completed review of pairings."
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Actual number of sticks fitting the household skillet and batter absorption determine the schedule;30–55minutes is an untested original-batch planning range.",
+    "Saved baguette1inchround option lacks a supported equivalent breadcount/weight; retained privately as an unresolved variant, not forced to8Texas-toast-equivalent rounds."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "slug": "queso-fundido-with-chorizo",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "d86b804f9501761bf2fae4d93ab3a014d68b72f3",
+  "inputSha256": "d198a7f4d33925ede23cd63abc35856fdcbb025ca9f67edffb7485a7af970e9d",
+  "acceptedSourceSha256": "d67ccc5ee07811e05d967be81d2749588557593a56a0d5567af9fb8f1ae90a44",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 25–35 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 35–50 min, including pepper roasting"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Fresh Chorizo, casings removed",
+        "1 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "4 oz Pepper Jack Cheese, shredded",
+        "1/2 medium White Onion, diced",
+        "2 Poblano Peppers, roasted, peeled, and diced",
+        "2 cloves Garlic, minced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "after": [
+        "8 oz fresh raw chorizo, casings removed",
+        "1 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "4 oz Pepper Jack Cheese, shredded",
+        "1/2 medium White Onion, diced",
+        "2 poblano peppers, to roast, peel, seed and dice",
+        "2 cloves Garlic, minced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 270,
+        "protein": 18,
+        "carbs": 5.5,
+        "fat": 20,
+        "fiber": 1,
+        "sugar": 1.5,
+        "sodium": 530
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Crumbled chorizo reaches its product-specific meat endpoint.",
+        "outcome": "All cheese is melted and the center of each vessel reaches 165°F / 74°C.",
+        "techniques": ["temperature"],
+        "before": [
+          "Keep heating temperatures fixed. Use enough vessels with room for stirring and bubbling; divide all ingredients proportionally among them. Extra batches take additional time, not a multiplied cooking clock.",
+          "Use fresh raw chorizo and check its meat species; keep raw-contact tools away from the clean cooked-sausage plate. A scaled batch may need more than one original-size skillet."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Crumbled chorizo reaches its product-specific meat endpoint.",
+            "why": "Crispness or rendered fat does not establish internal doneness."
+          },
+          {
+            "step": 5,
+            "cue": "All cheese is melted and the center of each vessel reaches 165°F / 74°C.",
+            "why": "Bubbling edges alone do not measure the center."
+          }
+        ],
+        "timing": "About 35–50 minutes for the original batch including washing/cutting, pepper roasting and handling rest, sausage, vegetables and baking. Cheese shredding, oven heat-up and additional vessels can extend the plan.",
+        "storage": "Divide cooked leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below and use within 3–4 days, or freeze portions promptly. Thaw in the refrigerator and reheat throughout to 165°F / 74°C.",
+        "substitutions": [],
+        "troubleshooting": [
+          {
+            "problem": "Cheese firms before everyone has scooped",
+            "cause": "Melted cheese cools quickly, depending on vessel and room temperature.",
+            "fix": "Have warmed tortillas and diners ready before the skillet leaves the oven; the molten period has no fixed ten-minute guarantee."
+          }
+        ],
+        "sources": [
+          {
+            "title": "FoodSafety. gov — Minimum Cooking Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nQueso fundido is Mexico's answer to fondue - molten cheese with smoky chorizo, meant to be scooped with warm tortillas. The key is using Oaxaca cheese, which melts into long, stretchy strands without breaking. Roasting the poblanos first adds a layer of charred sweetness that elevates this beyond typical bar queso. Serve it straight from the oven in the cast iron - it stays molten for about 10 minutes before it starts to set. Make a half-batch without chorizo for vegetarians.\n\n## Directions\n\n1. **The Char:** Roast poblanos directly over a gas flame or under the broiler, turning until blackened all over (about 8 minutes). Place in a bowl, cover with plastic wrap for 5 minutes. Peel off skins, remove seeds, and dice.\n\n2. **The Render:** Preheat oven to 400°F. In a 10-inch cast iron skillet, cook chorizo over medium-high heat, breaking into small pieces, until crispy and fat has rendered (5-6 minutes). Transfer chorizo to a plate, leaving fat in pan.\n\n3. **The Soften:** Add onion and garlic to the chorizo fat. Sauté until softened (3 minutes). Add diced poblanos and stir to combine.\n\n4. **The Melt:** Remove skillet from heat. Scatter both cheeses evenly over the vegetables. Top with the crispy chorizo.\n\n5. **The Bubble:** Bake for **8-10 minutes** until cheese is completely melted and bubbling at the edges.\n\n6. **The Finish:** Remove from oven. Top with fresh cilantro and pickled jalapeños if using.\n\n7. **Serve:** Serve immediately with warm flour tortillas for scooping. Eat fast - this sets as it cools.\n\n## Vegetarian Variation\n\nSkip the chorizo. Sauté the onion and garlic in 1 tbsp olive oil. Add 1 tsp smoked paprika and 1/2 tsp cumin for smoky depth.\n",
+    "after": "\n## Chef's Note\n\nThis Mexican-style melted-cheese dip uses Oaxaca for stretchy strands; mozzarella is the listed alternative, with the full pepper Jack alongside it. Roast and peel the poblanos before assembling, and cook the fresh chorizo before it goes back over the cheese. Serve promptly with warm tortillas, because the cheese firms as it cools.\n\n## Directions\n\n1. **Roast peppers:** Wash the poblanos. Roast directly over a suitable gas flame or under the broiler, turning until the skins blacken, starting checks around 8 minutes. Put in a heatproof bowl, cover with a heat-safe cover and rest about 5 minutes, until safe to handle. Peel, remove stems and seeds, and dice.\n2. **Cook chorizo:** Preheat the oven to 400°F. Use an oven-safe skillet with room for the entire cheese and vegetable batch; the original batch uses a 10-inch cast-iron skillet, but its depth matters. If necessary use additional oven-safe vessels and divide everything proportionally. Cook all the fresh raw chorizo over medium-high heat, breaking it into small pieces. Begin checks around 5–6 minutes, then continue until cooked through: 160°F / 71°C for pork or beef chorizo, 165°F / 74°C if the product contains poultry. Transfer to a clean plate and leave the rendered fat in the pan. A cured ready-to-eat sausage is a different product from the fresh chorizo called for here.\n3. **Soften vegetables:** Add all the onion and garlic to the rendered fat. Sauté until softened, beginning checks around 3 minutes. Add all the prepared poblanos and stir to combine.\n4. **Assemble:** Take the skillet off heat. Scatter all the Oaxaca or mozzarella and all the pepper Jack over the vegetables, then return all the cooked chorizo on top. Leave headroom for bubbling.\n5. **Bake:** Bake at 400°F, beginning checks around 8–10 minutes, until the cheese is melted and bubbling and the center reaches 165°F / 74°C. Check every vessel if the batch is divided.\n6. **Finish and serve:** Top with all the cilantro and the optional pickled jalapeños. Warm the tortillas according to their package instructions and serve immediately, taking care with the hot skillet handle.\n\n## Vegetarian Variation\n\nOmit all the chorizo and its rendered-fat stage. For the original batch, use 1 tbsp olive oil, 1 tsp smoked paprika and 1/2 tsp cumin instead; scale these amounts with the batch. Roast the full pepper supply as above. Heat the oil, sauté all the onion and garlic until softened, then stir in the paprika, cumin and all the diced poblanos. Take off heat and assemble with the full two-cheese supplies; bake and finish as in the main. Choose cheeses suitable for a vegetarian diet if needed.\n"
+  },
+  "findings": [
+    {
+      "id": "CM09-2",
+      "title": "CM09-2",
+      "rationale": "Actual b7f960 authored introduction is Git-only, with no publisher or exact original450 match. Fresh chorizo must be cooked, not certified by crispy/pink/color or5–6 min. Preserve all20 oz cheese/full rendered fat and the separately measured vegetarian route. Pepper ingredient was already labeled roasted though method starts raw; clarify raw preparation. Expose pan-depth/scale headroom and truthful roast/rest/render/vegetable/bake schedule, not fixed ten-minute molten promise.",
+      "confidence": "High exact ingredient/source/history conservation; moderate untested cooking sequence, elapsed planning, pan-headroom and safety-category application",
+      "applicableSources": [
+        {
+          "reference": {
+            "commit": "b7f960cd7505b1619a08961696c838b037537bd3",
+            "path": "src/content/recipes/queso-fundido-with-chorizo.md",
+            "sha256": "2a9adaa348b395cc2db38ab526b0b9da926ec4622dffa56edd060e5e9849f6c1",
+            "scope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing"
+          },
+          "scope": "Actual earliest available cooking source; family/source quantities and method only."
+        },
+        {
+          "reference": "privately retained evidence",
+          "scope": "Complete followed canonical history; persistence does not establish deliberate household rejection."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Ground pork/beef160 versus poultry165, followed by165 casserole center. Editorial classification of baked meat-and-cheese dip, not a publisher-tested cheese result."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Wash produce; separate raw-contact tools and use a clean cooked-meat plate; prompt shallow cold handling. No product-specific formula or skillet validation."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Cooked leftovers prompt shallow cooling/3–4days/165 reheat; direct fetch403, actual official indexed body read. Not tested texture/shelf-life for this cheese formula."
+        }
+      ],
+      "exactBeforeAfterReferences": [],
+      "questions": [
+        "Actual sausage species/product label and skillet depth are needed at cooking time.",
+        "Eight portions are unmeasured dip portions; tortilla count is not supplied.",
+        "Vegetarian oil/spice route is the existing complete repository variation, not a recovered publisher formula."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7f960cd7505b1619a08961696c838b037537bd3/src/content/recipes/queso-fundido-with-chorizo.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "discussion": "Actual b7f960 authored introduction is Git-only, with no publisher or exact original450 match. Fresh chorizo must be cooked, not certified by crispy/pink/color or5–6 min. Preserve all20 oz cheese/full rendered fat and the separately measured vegetarian route. Pepper ingredient was already labeled roasted though method starts raw; clarify raw preparation. Expose pan-depth/scale headroom and truthful roast/rest/render/vegetable/bake schedule, not fixed ten-minute molten promise.",
+      "questions": [
+        "Actual sausage species/product label and skillet depth are needed at cooking time.",
+        "Eight portions are unmeasured dip portions; tortilla count is not supplied.",
+        "Vegetarian oil/spice route is the existing complete repository variation, not a recovered publisher formula."
+      ]
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Fresh Chorizo, casings removed",
+        "actualMethodDestination": "Render2; rendered fat3; meat4"
+      },
+      {
+        "text": "1 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "actualMethodDestination": "All melt4/5"
+      },
+      {
+        "text": "4 oz Pepper Jack Cheese, shredded",
+        "actualMethodDestination": "All melt4/5"
+      },
+      {
+        "text": "1/2 medium White Onion, diced",
+        "actualMethodDestination": "Soften3"
+      },
+      {
+        "text": "2 Poblano Peppers, roasted, peeled, and diced",
+        "actualMethodDestination": "Roast1 then soften3"
+      },
+      {
+        "text": "2 cloves Garlic, minced",
+        "actualMethodDestination": "Soften3"
+      },
+      {
+        "text": "1/4 cup Fresh Cilantro, chopped",
+        "actualMethodDestination": "Finish6"
+      },
+      {
+        "text": "Warm Flour Tortillas, for scooping",
+        "actualMethodDestination": "Warm/serve7"
+      },
+      {
+        "text": "Optional: Pickled Jalapeños for topping",
+        "actualMethodDestination": "Optional finish6"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz fresh raw chorizo, casings removed",
+        "destination": "Cook2/fat3/meat4"
+      },
+      {
+        "text": "1 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "destination": "Assemble4/bake5"
+      },
+      {
+        "text": "4 oz Pepper Jack Cheese, shredded",
+        "destination": "Assemble4/bake5"
+      },
+      {
+        "text": "1/2 medium White Onion, diced",
+        "destination": "Soften3"
+      },
+      {
+        "text": "2 poblano peppers, to roast, peel, seed and dice",
+        "destination": "Roast1/soften3"
+      },
+      {
+        "text": "2 cloves Garlic, minced",
+        "destination": "Soften3"
+      },
+      {
+        "text": "1/4 cup Fresh Cilantro, chopped",
+        "destination": "Finish6"
+      },
+      {
+        "text": "Warm Flour Tortillas, for scooping",
+        "destination": "Warm/serve6"
+      },
+      {
+        "text": "Optional: Pickled Jalapeños for topping",
+        "destination": "Optional finish6"
+      }
+    ],
+    "frozenMethodOnly": ["Vegetarian1tbspoil/1tsppaprika/½tspcumin separatevariant, not main"],
+    "savedOriginalReference": "privately retained evidence"
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Roast peppers: Wash the poblanos. Roast directly over a suitable gas flame or under the broiler, turning until the skins blacken, starting checks around 8 minutes. Put in a heatproof bowl, cover with a heat-safe cover and rest about 5 minutes, until safe to handle. Peel, remove stems and seeds, and dice."
+    },
+    {
+      "step": 2,
+      "text": "Cook chorizo: Preheat the oven to 400°F. Use an oven-safe skillet with room for the entire cheese and vegetable batch; the original batch uses a 10-inch cast-iron skillet, but its depth matters. If necessary use additional oven-safe vessels and divide everything proportionally. Cook all the fresh raw chorizo over medium-high heat, breaking it into small pieces. Begin checks around 5–6 minutes, then continue until cooked through: 160°F / 71°C for pork or beef chorizo, 165°F / 74°C if the product contains poultry. Transfer to a clean plate and leave the rendered fat in the pan. A cured ready-to-eat sausage is a different product from the fresh chorizo called for here."
+    },
+    {
+      "step": 3,
+      "text": "Soften vegetables: Add all the onion and garlic to the rendered fat. Sauté until softened, beginning checks around 3 minutes. Add all the prepared poblanos and stir to combine."
+    },
+    {
+      "step": 4,
+      "text": "Assemble: Take the skillet off heat. Scatter all the Oaxaca or mozzarella and all the pepper Jack over the vegetables, then return all the cooked chorizo on top. Leave headroom for bubbling."
+    },
+    {
+      "step": 5,
+      "text": "Bake: Bake at 400°F, beginning checks around 8–10 minutes, until the cheese is melted and bubbling and the center reaches 165°F / 74°C. Check every vessel if the batch is divided."
+    },
+    {
+      "step": 6,
+      "text": "Finish and serve: Top with all the cilantro and the optional pickled jalapeños. Warm the tortillas according to their package instructions and serve immediately, taking care with the hot skillet handle."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["charred-guacamole-with-pomegranate", "honey-lime-chicken-thighs"],
+    "incomingMeals": [],
+    "scope": "Existing metadata pairing paths retained and existence checked only; linked recipes are not granted complete review or full-batch substitution credit. No incoming composed-meal references found."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "8",
+    "scope": "Current planning yield remains untested; no new precision or portion-volume claim",
+    "capacity": [
+      "Keep heating temperatures fixed. Use enough vessels with room for stirring and bubbling; divide all ingredients proportionally among them. Extra batches take additional time, not a multiplied cooking clock.",
+      "Use fresh raw chorizo and check its meat species; keep raw-contact tools away from the clean cooked-sausage plate. A scaled batch may need more than one original-size skillet."
+    ],
+    "timing": "About 35–50 minutes for the original batch including washing/cutting, pepper roasting and handling rest, sausage, vegetables and baking. Cheese shredding, oven heat-up and additional vessels can extend the plan."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz fresh raw chorizo, casings removed",
+        "1/4 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "1 oz Pepper Jack Cheese, shredded",
+        "1/8 medium White Onion, diced",
+        "1/2 poblano peppers, to roast, peel, seed and dice",
+        "1/2 clove Garlic, minced",
+        "0.0625 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz fresh raw chorizo, casings removed",
+        "1/2 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "2 oz Pepper Jack Cheese, shredded",
+        "1/4 medium White Onion, diced",
+        "1 poblano peppers, to roast, peel, seed and dice",
+        "1 clove Garlic, minced",
+        "1/8 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz fresh raw chorizo, casings removed",
+        "1 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "4 oz Pepper Jack Cheese, shredded",
+        "1/2 medium White Onion, diced",
+        "2 poblano peppers, to roast, peel, seed and dice",
+        "2 cloves Garlic, minced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz fresh raw chorizo, casings removed",
+        "1 1/2 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "6 oz Pepper Jack Cheese, shredded",
+        "3/4 medium White Onion, diced",
+        "3 poblano peppers, to roast, peel, seed and dice",
+        "3 cloves Garlic, minced",
+        "3/8 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz fresh raw chorizo, casings removed",
+        "2 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "8 oz Pepper Jack Cheese, shredded",
+        "1 medium White Onion, diced",
+        "4 poblano peppers, to roast, peel, seed and dice",
+        "4 cloves Garlic, minced",
+        "1/2 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 16",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz fresh raw chorizo, casings removed",
+        "3 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "12 oz Pepper Jack Cheese, shredded",
+        "1 1/2 medium White Onion, diced",
+        "6 poblano peppers, to roast, peel, seed and dice",
+        "6 cloves Garlic, minced",
+        "3/4 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 24",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz fresh raw chorizo, casings removed",
+        "1 lb Oaxaca Cheese (or Mozzarella), shredded",
+        "4 oz Pepper Jack Cheese, shredded",
+        "1/2 medium White Onion, diced",
+        "2 poblano peppers, to roast, peel, seed and dice",
+        "2 cloves Garlic, minced",
+        "1/4 cup Fresh Cilantro, chopped",
+        "Warm Flour Tortillas, for scooping",
+        "Optional: Pickled Jalapeños for topping"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Full current ingredients and separate existing alternatives retained; no earlier targeted repair found.",
+  "remainingQuestions": [
+    "Actual sausage species/product label and skillet depth are needed at cooking time.",
+    "Eight portions are unmeasured dip portions; tortilla count is not supplied.",
+    "Vegetarian oil/spice route is the existing complete repository variation, not a recovered publisher formula."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 106,
+    "targetedLint": "Zero errors; 2 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12316,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 10 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 10,
+    "visibleMethodSteps": 58,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All ten Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction was exercised in the immediately preceding release; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "0 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
