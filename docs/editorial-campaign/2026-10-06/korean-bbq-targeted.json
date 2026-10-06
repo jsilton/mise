@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-06",
+  "scope": "Targeted dependency correction after complete kimchi review; not a complete composed-meal review",
+  "path": "src/content/meals/korean-bbq-night.md",
+  "inputSha256": "ec2842f4d1ea000e248cf368ff49109f8e319e771fa77f840dbc5ecdda090cbe",
+  "acceptedSha256": "ec870b006d879ed6a04fc90e37cd292144f3b8b30f9c0612e48d6b935d43011e",
+  "changes": [
+    {
+      "before": "1. **Marinate ribs overnight** (or at least 4 hours) - plan ahead",
+      "after": "1. **Marinate ribs overnight** (or at least 8 hours), following the linked kalbi recipe; keep them refrigerated.",
+      "rationale": "Current complete kalbi requires at least eight refrigerated marinade hours."
+    },
+    {
+      "before": "5. **Grill ribs** hot and fast, 2-3 minutes per side",
+      "after": "5. **Grill ribs** over direct heat, beginning checks at 2–3 minutes per side, then finish over the cooler zone as needed. Follow the linked kalbi recipe’s 145°F doneness check away from bone and its 5-minute rest; char and the clock alone do not establish doneness.",
+      "rationale": "Current linked recipe uses initial char followed by cooler-zone finishing, verified meat temperature and rest."
+    }
+  ],
+  "evidence": "src/content/recipes/kalbi-grilled-korean-style-short-ribs.md",
+  "confidence": "High: exact current linked method",
+  "remainingQuestions": [
+    "Overall composed-meal quantities, capacity and schedule have not received a complete editorial review."
+  ],
+  "kitchenTested": false,
+  "independentChallenge": {
+    "verdict": "PASS — targeted two-span dependency correction only",
+    "exactTwoSpansOnly": true,
+    "linkedRecipeFullyInspected": true
+  }
+}

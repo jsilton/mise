@@ -269,6 +269,8 @@ function lintRecipe(filePath) {
         }
         // Skip brand names containing meat words (e.g., "Beefeater" gin)
         if (meat === 'beef' && line.includes('beefeater')) return false;
+        // Celery ribs are stalks; other ribs on the same line still count as meat.
+        if (meat === 'ribs') return line.replace(/\bcelery ribs?\b/g, '').includes(meat);
         return line.includes(meat);
       });
       if (found) {

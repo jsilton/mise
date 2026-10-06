@@ -1,23 +1,23 @@
 {
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
-    "recipes": 643,
-    "recordedCompleteEditorial": 615,
-    "completeEditorialPending": 28,
+    "recipes": 650,
+    "recordedCompleteEditorial": 623,
+    "completeEditorialPending": 27,
     "originalBaseline": 612,
-    "originalReviewed": 575,
+    "originalReviewed": 576,
     "consideredConsolidations": 10,
-    "originalPending": 27,
-    "additionalSources": 41,
-    "additionalReviewed": 40,
+    "originalPending": 26,
+    "additionalSources": 48,
+    "additionalReviewed": 47,
     "additionalPending": 1,
     "automatedAudit": {
-      "recipes": 643,
-      "editoriallyReviewed": 615,
+      "recipes": 650,
+      "editoriallyReviewed": 623,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 61
+      "reviewItems": 59
     },
     "accelerated": {
       "implemented": 42,
@@ -27,9 +27,14 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "381 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 615 recorded complete / 28 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s accepted recipe version matches exact remote commit [f94694b4](https://github.com/jsilton/mise/commit/f94694b44ff1533f39bc0d7dccc904550dbcd407), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37505837494) and its live recipe page. Zero kitchen tests; no native-app sync.",
-    "latestAcceptanceInputCommit": "26fad4c13e2e1fde6051ee8a83e1a06396cbf407",
-    "latestRecipeCommitReconciledAtCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407"
+    "productionReconciliation": "381/409 original campaign versions remain verified live. Seven newly authored classics and one resolved kimchi version are accepted locally, pending exact release verification. Coverage is 623 complete / 27 pending across 650 sources; additions are counted separately from original campaign progress. The 42 accelerated targeted repairs remain a separate overlapping scope. No kitchen tests or native-app sync.",
+    "latestAcceptanceInputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
+    "latestRecipeCommitReconciledAtCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+    "newlyAuthoredOctober6": {
+      "recipes": 7,
+      "completeEditorial": 7,
+      "productionVerified": 0
+    }
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -10577,20 +10582,9 @@
       "title": "Fresh Cabbage, Cucumber and Radish Kimchi",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Foodandwine.com",
-      "sourceUrl": "http://www.foodandwine.com/recipes/fresh-cabbage-cucumber-and-radish-kimchi",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Food & Wine",
+      "sourceUrl": "https://www.foodandwine.com/recipes/fresh-cabbage-cucumber-and-radish-kimchi",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "held; unresolved",
         "acceleratedEvidence": {
@@ -10601,21 +10595,25 @@
         "evidence": ["docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "complete editorial review accepted locally; publication pending",
         "record": "docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.md",
-        "recordImplementationCommit": "5741495b479d1891066e004ed07aa4b5f830db66"
+        "acceptedSourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "original 409-source campaign",
+        "sourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
+        "evidence": "docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.json"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending exact release verification"
       },
       "remainingQuestions": [
-        "Which kosher-salt product/crystal density was intended for the half-cup cure, what is the drained/squeezed finished yield and acceptable retained salinity, and is this intended only as a fresh refrigerated preparation?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Held: salt density, drained yield and unsupported preservation claims. Original drains/squeezes without rinsing.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "How salty and crisp are the four vegetable mixtures after this weighed cure with the chosen produce sizes and drainage?",
+        "How close is actual yield to the nominal12cups?",
+        "Does the chosen refrigerator/container loading chill the batch promptly?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29555,6 +29553,288 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/audits/2026-09-07-one-time-consistency.json"]
+    },
+    {
+      "currentPath": "src/content/recipes/pesto-alla-genovese.md",
+      "slug": "pesto-alla-genovese",
+      "title": "Pesto alla Genovese",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Adapted from the World Pesto Championship, Pesto Genovese al Mortaio",
+      "sourceUrl": "https://www.pestochampionship.it/la-ricetta-del-pesto-genovese-al-mortaio/",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/pesto-alla-genovese.md",
+        "acceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+        "evidence": "docs/reviews/pesto-alla-genovese.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Actual mortar fit and finished mass/volume of one complete batch.",
+        "Flavor within the preserved cheese/oil/garlic ranges and suitability of the full 3 g salt with the chosen cheeses; no sensory check has been performed.",
+        "Measured hand-work time and effect of basil age, leaf dryness and garlic clove size."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/pasta-alla-norma.md",
+      "slug": "pasta-alla-norma",
+      "title": "Pasta alla Norma",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Adapted from Accademia Italiana della Cucina, Pasta alla Norma",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/pasta-alla-norma.md",
+        "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+        "evidence": "docs/reviews/pasta-alla-norma.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Net weights of the three counted medium eggplants and two onions; actual frying loads and oil uptake.",
+        "Actual tomato yield after milling and the initial moisture-directed water needed for the chosen tomatoes/pot.",
+        "Measured two-burner time and whether 300 g ricotta salata gives the intended salty finish with the selected cheese."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/caponata.md",
+      "slug": "caponata",
+      "title": "Caponata",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Adapted from Regione Siciliana, Visit Sicily — Caponata",
+      "sourceUrl": "https://www.visitsicily.info/ricetta/la-caponata/",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/caponata.md",
+        "acceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+        "evidence": "docs/reviews/caponata.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Actual drained vegetable yield, retained frying oil and whether four source portions match the intended meal.",
+        "Flavor of the source 50 g sugar/50 g white vinegar with the actual vinegar concentration; no fixed acidity is inferred.",
+        "Actual frying-pan capacity and batch time with the full 300 g oil; effect of the explicit light-coating process-salt choice."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/ribollita.md",
+      "slug": "ribollita",
+      "title": "Ribollita",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Accademia Italiana della Cucina — Ribollita (Toscana)",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/ribollita",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/ribollita.md",
+        "acceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+        "evidence": "docs/reviews/ribollita.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Refine water needed for the chosen bean age, bread dryness and pot; observe final thickness and portion sizes.",
+        "Confirm cooling schedule for the selected shallow containers rather than leaving the source tureen at room temperature."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/risotto-alla-milanese.md",
+      "slug": "risotto-alla-milanese",
+      "title": "Risotto alla Milanese",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Accademia Italiana della Cucina — Risotto alla Milanese (Lombardia)",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/risotto-alla-milanese",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/risotto-alla-milanese.md",
+        "acceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+        "evidence": "docs/reviews/risotto-alla-milanese.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Refine saffron intensity, cheese finish and actual stock absorption in the selected pan/rice variety; observe serving portion and final wave."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/passatelli-in-brodo.md",
+      "slug": "passatelli-in-brodo",
+      "title": "Passatelli in brodo",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Pellegrino Artusi, La scienza in cucina e l’arte di mangiar bene, recipe 20, first formula; broth method informed by Emilia-Romagna tourism",
+      "sourceUrl": "https://www.pellegrinoartusi.it/20-minestra-di-passatelli/",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/passatelli-in-brodo.md",
+        "acceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+        "evidence": "docs/reviews/passatelli-in-brodo.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Check cohesion and extrudability with the household's unseasoned breadcrumbs, eggs and large-hole tool; source's reserved crumbs may be partly unused.",
+        "Challenge feasibility of a fine-tip 160°F reading in the chosen thick strand alongside the cooked-center cue; no thermometer reading or tested timing is claimed."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
+    },
+    {
+      "currentPath": "src/content/recipes/brasato-al-barolo.md",
+      "slug": "brasato-al-barolo",
+      "title": "Brasato al Barolo",
+      "legacyAliases": [],
+      "baseline": "additional authored October 6, 2026",
+      "targetedReview": {
+        "acceleratedDisposition": "not part of accelerated pass",
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "latestRecipeCommit": null,
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "source": "Accademia Italiana della Cucina — Brasato di bue al Barolo, all’uso di Cuneo (Piemonte)",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/brasato-di-bue-al-barolo",
+      "automatedFlags": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review accepted locally; publication pending",
+        "record": "docs/reviews/brasato-al-barolo.md",
+        "acceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838"
+      },
+      "acceptedChange": {
+        "status": "accepted locally; publication pending",
+        "scope": "seven additions",
+        "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+        "evidence": "docs/reviews/brasato-al-barolo.json"
+      },
+      "productionVerification": {
+        "status": "pending exact release verification"
+      },
+      "remainingQuestions": [
+        "Refine tenderness time for the butcher's chosen shoulder cut and pot; check final sauce reduction and salt.",
+        "Confirm practical recovery of the whole aromatics before blending; a removable food-safe spice sachet could ease handling without changing the formula."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      }
     }
   ]
 }

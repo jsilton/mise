@@ -16,6 +16,7 @@ export const unitForms = {
   package: ['package', 'packages'],
   quart: ['quart', 'quarts'],
   loaf: ['loaf', 'loaves'],
+  batch: ['batch', 'batches'],
   portion: ['portion', 'portions'],
   piece: ['piece', 'pieces'],
 };

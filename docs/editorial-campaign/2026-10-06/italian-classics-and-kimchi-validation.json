@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-06",
+  "status": "accepted and validated locally; exact publication pending",
+  "inputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
+  "scope": {
+    "newlyAuthored": 7,
+    "resolvedOriginalCampaignHolds": 1,
+    "targetedLinkedMeals": 1
+  },
+  "recipes": [
+    {
+      "slug": "pesto-alla-genovese",
+      "title": "Pesto alla Genovese",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932"
+    },
+    {
+      "slug": "pasta-alla-norma",
+      "title": "Pasta alla Norma",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b"
+    },
+    {
+      "slug": "caponata",
+      "title": "Caponata",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e"
+    },
+    {
+      "slug": "ribollita",
+      "title": "Ribollita",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4"
+    },
+    {
+      "slug": "risotto-alla-milanese",
+      "title": "Risotto alla Milanese",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f"
+    },
+    {
+      "slug": "passatelli-in-brodo",
+      "title": "Passatelli in brodo",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af"
+    },
+    {
+      "slug": "brasato-al-barolo",
+      "title": "Brasato al Barolo",
+      "scope": "seven additions",
+      "acceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838"
+    },
+    {
+      "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
+      "title": "Fresh Cabbage, Cucumber and Radish Kimchi",
+      "scope": "original 409-source campaign",
+      "acceptedSourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e"
+    }
+  ],
+  "preservation": {
+    "unchangedExistingSourceFiles": 642,
+    "existingSourceFiles": 643,
+    "allExistingIdentitiesPreserved": true,
+    "allExistingPrivateBindingsPreserved": true,
+    "newPrivateBindings": 7,
+    "draftsPreserved": true
+  },
+  "gates": [
+    {
+      "gate": "tests",
+      "status": "PASS"
+    },
+    {
+      "gate": "lint",
+      "status": "PASS"
+    },
+    {
+      "gate": "validation",
+      "status": "PASS"
+    },
+    {
+      "gate": "formulas",
+      "status": "PASS"
+    },
+    {
+      "gate": "qa",
+      "status": "PASS"
+    },
+    {
+      "gate": "build",
+      "status": "PASS"
+    },
+    {
+      "gate": "json-export",
+      "status": "PASS"
+    },
+    {
+      "gate": "paprika-export",
+      "status": "PASS"
+    },
+    {
+      "gate": "text-export",
+      "status": "PASS"
+    },
+    {
+      "gate": "export-parity",
+      "status": "PASS"
+    },
+    {
+      "gate": "identity-bindings",
+      "status": "PASS"
+    },
+    {
+      "gate": "privacy",
+      "status": "PASS"
+    },
+    {
+      "gate": "built-links",
+      "status": "PASS"
+    }
+  ],
+  "browserVerification": {
+    "date": "2026-10-06",
+    "browser": "Codex in-app browser",
+    "recipes": [
+      "pesto-alla-genovese",
+      "pasta-alla-norma",
+      "caponata",
+      "ribollita",
+      "risotto-alla-milanese",
+      "passatelli-in-brodo",
+      "brasato-al-barolo",
+      "fresh-cabbage-cucumber-and-radish-kimchi"
+    ],
+    "desktop": {
+      "allCompletePagesInspected": true,
+      "overflow": false
+    },
+    "scaling": {
+      "allEightRecipes": [0.5, 2, 1],
+      "checks": "Displayed yields and leading quantities checked against independent expected outputs; kimchi salt33½g/134g checked; all original ingredient strings restored exactly at1×. Cut dimensions and unmeasured original kimchi volume remain fixed."
+    },
+    "mobile": {
+      "viewport": "390×844",
+      "allEightNoHorizontalOverflow": true
+    },
+    "cooking": {
+      "recipes": ["pesto-alla-genovese", "fresh-cabbage-cucumber-and-radish-kimchi"],
+      "checked": "Ingredient/step progress persisted after reload; reset cleared checks; cook-mode entry/exit worked. Mode itself resets after reload by existing design."
+    },
+    "targetedMeal": "Korean BBQ Night rendered complete and matched its accepted two dependency repairs.",
+    "print": {
+      "controlsPresentAllEight": true,
+      "scope": "Existing print stylesheet inspected; no layout/style changes made",
+      "limitation": "Actual printer/PDF pagination was not exercised in the internal browser."
+    },
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

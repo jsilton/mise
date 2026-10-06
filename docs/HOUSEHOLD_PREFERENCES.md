@@ -1,5 +1,18 @@
 # Household preferences
 
+## Italian classics — 6 October 2026
+
+- Jordan is not a big fan of tiramisù and explicitly excluded it from the approved Italian additions. Do not infer a dislike of coffee, mascarpone or other desserts.
+- The approved additions are Pesto alla Genovese, Pasta alla Norma, Caponata, Ribollita, Risotto alla Milanese, Passatelli in Brodo and Brasato al Barolo. Preserve existing recipes and distinct variants; this approval does not certify the new recipes as kitchen-tested.
+
+## Fresh kimchi — 6 October 2026
+
+- Jordan authorizes recommending a salt specification for the fresh cabbage, cucumber and radish kimchi; identifying the original kosher-salt brand is unnecessary. Use a supported weight when crystal density affects the cure. This does not establish the original brand or approve fermentation, preservation or untested yield claims. Preserve the original drain-and-squeeze method without adding a rinse.
+
+## Pressure cooker — 6 October 2026
+
+- Jordan identified the household electric pressure cooker as a Cuisinart CPC-600. Use that model's manufacturer instructions when adapting the two held soups and honey-glazed ribs; do not substitute Instant Pot, CPC-600N1 or CPC-900 operating rules. The earlier six-quart description was an estimate, rather than a measurement supplied by Jordan.
+
 ## Explicit user guidance — 6 September 2026
 
 - The user particularly loves Southern cornbread dressing with all the herbs. The matching reviewed recipe is `corn-bread-dressing`: cornbread pieces, mushrooms, shallots, parsley, thyme and sage. Preserve its herb-forward flavor and rich character during future development. This preference is not a request to cut its herbs or butter, merge it with Grandmommy’s different dressing, or silently substitute it into an already composed meal.

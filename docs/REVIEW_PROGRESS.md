@@ -1,3 +1,9 @@
+# Current acceptance checkpoint — October 6, 2026
+
+623 complete editorial reviews / 27 pending across 650 sources. Seven authorized Italian classics and a resolved fresh kimchi version are accepted locally after complete independent challenge and integration-owner inspection. The seven additions are separate from the original 409-source campaign; 381 campaign versions remain verified live until this release is verified. 642 existing source files, every existing identity and every private binding are preserved exactly. [Italian additions](editorial-campaign/2026-10-06/italian-classics.md), [kimchi exact review](reviews/fresh-cabbage-cucumber-and-radish-kimchi.json). No kitchen tests or native-app sync.
+
+## Previous verified checkpoint
+
 # Current campaign state — October 6, 2026
 
 381 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 615 recorded complete / 28 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s accepted recipe version matches exact remote commit [f94694b4](https://github.com/jsilton/mise/commit/f94694b44ff1533f39bc0d7dccc904550dbcd407), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37505837494) and its live recipe page. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/classic-bolognese.md).

@@ -1,0 +1,775 @@
+{
+  "slug": "pasta-alla-norma",
+  "title": "Pasta alla Norma",
+  "status": "complete editorial review; accepted locally; publication pending",
+  "date": "2026-10-06",
+  "inputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
+  "inputSha256": null,
+  "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+  "scope": "Newly authored recipe; separate from original 409-source editorial campaign",
+  "before": "Absent from the current collection; existing recipes preserved",
+  "exactAfter": {
+    "frontmatter": {
+      "title": "Pasta alla Norma",
+      "role": "main",
+      "vibe": "comfort",
+      "difficulty": "intermediate",
+      "origin": "Italy",
+      "cuisines": ["Italian"],
+      "occasions": ["entertaining", "weekend-project"],
+      "seasons": ["summer"],
+      "nutritionalDensity": "moderate",
+      "leftovers": "good",
+      "source": "Adapted from Accademia Italiana della Cucina, Pasta alla Norma",
+      "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+      "cookingMethods": ["simmer", "fry", "boil", "toss"],
+      "flavorProfile": ["acidic", "rich", "savory"],
+      "prepTime": "20–30 min",
+      "cookTime": "1 hr 25 min–1 hr 45 min",
+      "totalTime": "1 hr 45 min–2 hr 15 min",
+      "equipment": [
+        "saucepan",
+        "food-mill",
+        "heavy-frying-pan",
+        "pasta-pot",
+        "slotted-spoon",
+        "large-serving-bowl",
+        "wide-saute-pan"
+      ],
+      "pairsWith": ["garlic-bread"],
+      "formula": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "sauce",
+            "name": "Fresh tomato sauce",
+            "ingredients": [
+              {
+                "id": "tomatoes",
+                "key": "ripe-sauce-tomatoes",
+                "name": "ripe sauce tomatoes",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "kg"
+                },
+                "preparation": "halved",
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "white-onion",
+                "name": "medium white onion",
+                "plural": "medium white onions",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "peeled and quartered",
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "allowance": "a small splash as needed to start the tomato simmer",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil-start",
+                "key": "fresh-basil",
+                "name": "fresh basil leaves",
+                "allowance": "a few for the first tomato simmer",
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "fresh-garlic",
+                "name": "garlic clove",
+                "plural": "garlic cloves",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "peeled and lightly crushed",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "extra-virgin-olive-oil",
+                "name": "extra-virgin olive oil",
+                "allowance": "enough to gently fry the garlic",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil-finish",
+                "key": "fresh-basil",
+                "name": "fresh basil sprig",
+                "allowance": "for the second tomato simmer",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "eggplant",
+            "name": "Fried eggplant",
+            "ingredients": [
+              {
+                "id": "eggplant",
+                "key": "medium-violet-eggplant",
+                "name": "medium violet eggplant",
+                "plural": "medium violet eggplants",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "preparation": "trimmed; slice lengthwise 4 mm thick",
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "extra-virgin-olive-oil",
+                "name": "extra-virgin olive oil",
+                "allowance": "for frying in batches",
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pasta",
+            "name": "Pasta and finish",
+            "ingredients": [
+              {
+                "id": "spaghetti",
+                "key": "dried-spaghetti",
+                "name": "dried spaghetti",
+                "quantity": {
+                  "amount": 500,
+                  "unit": "g"
+                },
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "allowance": "enough for the pasta to move freely",
+                "role": "cooking-water",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to salt the pasta cooking water",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ricotta",
+                "key": "ricotta-salata",
+                "name": "ricotta salata",
+                "quantity": {
+                  "amount": 300,
+                  "unit": "g"
+                },
+                "preparation": "grated",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "basil",
+                "key": "fresh-basil",
+                "name": "fresh basil leaves",
+                "allowance": "for serving",
+                "role": "garnish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "freshly ground black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare for two cooking stages",
+            "text": "Wash the vegetables. Halve the tomatoes and quarter the peeled onions. Set out a food mill, a saucepan that holds the tomato load with stirring room, a separate deep-sided frying pan, a separate wide pan for the final toss, and a pasta pot. Have a paper-lined tray ready for the fried eggplant. With two burners, finish the frying before bringing the pasta water to a boil."
+          },
+          {
+            "id": "tomatoes",
+            "title": "Soften the fresh tomatoes",
+            "text": "Put {{ingredients}} in the saucepan. Cook over medium heat for about 40 minutes, stirring occasionally, until the tomatoes and onion are soft. Add only enough water to prevent catching before the tomatoes release their juices; keep the mixture at a steady simmer."
+          },
+          {
+            "id": "mill",
+            "title": "Pass the sauce through the mill",
+            "text": "Pass the softened tomato mixture through the food mill into a bowl, retaining the pulp and liquid. Remove the seeds and skins left in the mill."
+          },
+          {
+            "id": "sauce",
+            "title": "Finish the tomato sauce",
+            "text": "Use {{ingredients}} in the saucepan. Gently fry the garlic in the oil until pale golden, then add the milled tomato mixture and basil sprig. Simmer gently for about 20 minutes, until the sauce has body. Season to taste; the ricotta salata added later also brings salt. Keep the full sauce for dressing and topping the pasta."
+          },
+          {
+            "id": "fry",
+            "title": "Fry the eggplant in batches",
+            "text": "Use {{ingredients}}. Cut the eggplant lengthwise into 4 mm slices and dry the surfaces well. Heat the oil until a slice sizzles steadily, without smoke. Fry small uncrowded batches, turning until golden and tender throughout. Drain with a slotted spoon onto the lined tray. Let the oil recover between batches, keep room for displaced oil, and never leave the hot pan unattended. Move it safely off the burner when frying is finished."
+          },
+          {
+            "id": "pasta",
+            "title": "Cook the spaghetti",
+            "text": "Cook {{ingredients}}: bring the water to a boil, salt it, then add the spaghetti and cook until al dente according to the pasta’s package guidance. While it cooks, cut some of the fried eggplant into strips and put them in a wide pan with a few spoonfuls of the prepared tomato sauce."
+          },
+          {
+            "id": "finish",
+            "title": "Toss and serve",
+            "text": "Finish with {{ingredients}}. Drain the spaghetti and toss it over medium heat in the separate wide pan with the tomato sauce and eggplant strips for about 1 minute. Divide among plates and use the remaining tomato sauce, whole fried eggplant slices and all the grated ricotta salata to finish. Add basil and pepper to taste and serve promptly."
+          }
+        ]
+      },
+      "learning": {
+        "focus": "Coordinate fresh tomato reduction, batch-fried eggplant and pasta service.",
+        "outcome": "Al dente spaghetti with reduced tomato sauce, tender golden eggplant and the full salty-ricotta finish.",
+        "techniques": ["browning", "starch", "seasoning"],
+        "before": [
+          "Choose ripe seasonal sauce tomatoes, violet eggplants and fresh basil; the counted eggplant and onion sizes vary, so no inferred gram equivalents are supplied.",
+          "Use a food mill to separate cooked pulp from skins and seeds. Prepare a deep-sided frying pan, slotted spoon and draining tray before heating oil.",
+          "With two burners, fry the eggplant while the second tomato simmer runs, then use the freed burner for pasta. Additional frying batches extend service time."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The milled sauce has body after its second simmer and the garlic has not burned.",
+            "why": "Fresh tomatoes release variable water; sauce readiness matters as well as the written time."
+          },
+          {
+            "step": 5,
+            "cue": "The eggplant is golden and tender throughout; the oil gives a steady sizzle without smoke.",
+            "why": "Small batches allow cooking and browning without overcrowding or unsafe displacement of hot oil."
+          },
+          {
+            "step": 7,
+            "cue": "Pasta stays al dente and each plate gets tomato sauce, fried eggplant and ricotta salata.",
+            "why": "The separate garnish is part of the dish’s identity; the whole batch needs a complete allocation."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Eggplant is pale and oily.",
+            "cause": "The pan is crowded or the oil cooled under the load.",
+            "fix": "Use smaller batches and let the oil recover. Drain each batch before adding it to the pasta; do not keep adding cold slices to a crowded pan."
+          },
+          {
+            "problem": "Tomato sauce is watery at service.",
+            "cause": "The fresh tomato load was especially juicy or the pot reduced slowly.",
+            "fix": "Continue the second simmer until the sauce has body, stirring to prevent catching. Keep the pasta uncooked until the sauce and eggplant are ready."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Spaghetti",
+            "alternative": "Use the same listed weight of dried rigatoni.",
+            "effect": "The Academy lists maccheroni/rigatoni as an accepted modern option; cooking time and the way sauce sits in the shape differ."
+          }
+        ],
+        "timing": "Plan 20–30 minutes preparation and roughly 85–105 minutes cooking, about 1 hour 45 minutes to 2 hours 15 minutes total, with 55–75 minutes active work. The fresh tomato stages take about 40 then 20 minutes, with milling between. Frying can overlap the second simmer, but three medium eggplants need multiple loads; small pans or one burner extend the schedule. On two burners, finish frying before boiling pasta water. Include heating that water, the package cooking time and the final one-minute toss.",
+        "storage": "Divide leftovers into shallow containers and refrigerate at 40°F / 4°C or below within 2 hours of cooking or serving, or within 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4 days. Reheat only the portion needed to 165°F / 74°C throughout; bring a separately reheated tomato sauce to a boil. Cool and refrigerate promptly after cooking rather than waiting for a large pan to cool completely. Store sauce and fried eggplant separately from uncooked pasta for make-ahead service; fried eggplant softens during storage. Cook pasta fresh when practical.",
+        "sources": [
+          {
+            "title": "Accademia Italiana della Cucina — Pasta alla Norma, complete current recipe",
+            "url": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma"
+          },
+          {
+            "title": "USDA FSIS — Deep Fat Frying and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying"
+          },
+          {
+            "title": "FDA — Safe Food Handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      },
+      "ingredients": [
+        "--- Fresh tomato sauce ---",
+        "1 1/2 kg ripe sauce tomatoes, halved",
+        "2 medium white onions, peeled and quartered",
+        "water, a small splash as needed to start the tomato simmer",
+        "fresh basil leaves, a few for the first tomato simmer",
+        "2 garlic cloves, peeled and lightly crushed",
+        "extra-virgin olive oil, enough to gently fry the garlic",
+        "fresh basil sprig, for the second tomato simmer",
+        "salt, to taste",
+        "--- Fried eggplant ---",
+        "3 medium violet eggplants, trimmed; slice lengthwise 4 mm thick",
+        "extra-virgin olive oil, for frying in batches",
+        "--- Pasta and finish ---",
+        "500 g dried spaghetti",
+        "water, enough for the pasta to move freely",
+        "salt, to salt the pasta cooking water",
+        "300 g ricotta salata, grated",
+        "fresh basil leaves, for serving",
+        "freshly ground black pepper, to taste"
+      ],
+      "servings": "6 portions"
+    },
+    "body": "\n## Chef's Note\n\nPasta alla Norma pairs Catania’s tomato-and-basil pasta with fried eggplant and ricotta salata. Fresh tomatoes are cooked and milled before a second simmer, while thin eggplant slices fry in batches. Have both ready before cooking the spaghetti so the pasta reaches the table al dente.\n\n## Directions\n\n1. **Prepare for two cooking stages:** Wash the vegetables. Halve the tomatoes and quarter the peeled onions. Set out a food mill, a saucepan that holds the tomato load with stirring room, a separate deep-sided frying pan, a separate wide pan for the final toss, and a pasta pot. Have a paper-lined tray ready for the fried eggplant. With two burners, finish the frying before bringing the pasta water to a boil.\n2. **Soften the fresh tomatoes:** Put ripe sauce tomatoes, medium white onions, water, and fresh basil leaves in the saucepan. Cook over medium heat for about 40 minutes, stirring occasionally, until the tomatoes and onion are soft. Add only enough water to prevent catching before the tomatoes release their juices; keep the mixture at a steady simmer.\n3. **Pass the sauce through the mill:** Pass the softened tomato mixture through the food mill into a bowl, retaining the pulp and liquid. Remove the seeds and skins left in the mill.\n4. **Finish the tomato sauce:** Use garlic cloves, extra-virgin olive oil, fresh basil sprig, and salt in the saucepan. Gently fry the garlic in the oil until pale golden, then add the milled tomato mixture and basil sprig. Simmer gently for about 20 minutes, until the sauce has body. Season to taste; the ricotta salata added later also brings salt. Keep the full sauce for dressing and topping the pasta.\n5. **Fry the eggplant in batches:** Use medium violet eggplants and extra-virgin olive oil. Cut the eggplant lengthwise into 4 mm slices and dry the surfaces well. Heat the oil until a slice sizzles steadily, without smoke. Fry small uncrowded batches, turning until golden and tender throughout. Drain with a slotted spoon onto the lined tray. Let the oil recover between batches, keep room for displaced oil, and never leave the hot pan unattended. Move it safely off the burner when frying is finished.\n6. **Cook the spaghetti:** Cook dried spaghetti, water, and salt: bring the water to a boil, salt it, then add the spaghetti and cook until al dente according to the pasta’s package guidance. While it cooks, cut some of the fried eggplant into strips and put them in a wide pan with a few spoonfuls of the prepared tomato sauce.\n7. **Toss and serve:** Finish with ricotta salata, fresh basil leaves, and freshly ground black pepper. Drain the spaghetti and toss it over medium heat in the separate wide pan with the tomato sauce and eggplant strips for about 1 minute. Divide among plates and use the remaining tomato sauce, whole fried eggplant slices and all the grated ricotta salata to finish. Add basil and pepper to taste and serve promptly.\n\n## Cooking Notes\n\nRicotta salata is the firm salted grating cheese; fresh ricotta gives a different finish. Use the full listed cheese amount, and season the tomato sauce with its saltiness in mind. The 4 mm eggplant thickness stays the same as the batch changes.\n\nOn two burners, finish frying before bringing the pasta water to a boil. Three medium eggplants require several frying batches; a smaller pan needs more time.\n"
+  },
+  "ingredientLedger": [
+    {
+      "component": "Fresh tomato sauce",
+      "id": "tomatoes",
+      "name": "ripe sauce tomatoes",
+      "quantity": {
+        "amount": 1.5,
+        "unit": "kg"
+      },
+      "allowance": null,
+      "preparation": "halved",
+      "uses": [
+        {
+          "step": "tomatoes",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "onion",
+      "name": "medium white onion",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "peeled and quartered",
+      "uses": [
+        {
+          "step": "tomatoes",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "water",
+      "name": "water",
+      "quantity": null,
+      "allowance": "a small splash as needed to start the tomato simmer",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "tomatoes",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "basil-start",
+      "name": "fresh basil leaves",
+      "quantity": null,
+      "allowance": "a few for the first tomato simmer",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "tomatoes",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "garlic",
+      "name": "garlic clove",
+      "quantity": {
+        "amount": 2,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "peeled and lightly crushed",
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "oil",
+      "name": "extra-virgin olive oil",
+      "quantity": null,
+      "allowance": "enough to gently fry the garlic",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "basil-finish",
+      "name": "fresh basil sprig",
+      "quantity": null,
+      "allowance": "for the second tomato simmer",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fresh tomato sauce",
+      "id": "salt",
+      "name": "salt",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "sauce",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fried eggplant",
+      "id": "eggplant",
+      "name": "medium violet eggplant",
+      "quantity": {
+        "amount": 3,
+        "unit": "count"
+      },
+      "allowance": null,
+      "preparation": "trimmed; slice lengthwise 4 mm thick",
+      "uses": [
+        {
+          "step": "fry",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Fried eggplant",
+      "id": "oil",
+      "name": "extra-virgin olive oil",
+      "quantity": null,
+      "allowance": "for frying in batches",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "fry",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Pasta and finish",
+      "id": "spaghetti",
+      "name": "dried spaghetti",
+      "quantity": {
+        "amount": 500,
+        "unit": "g"
+      },
+      "allowance": null,
+      "preparation": null,
+      "uses": [
+        {
+          "step": "pasta",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Pasta and finish",
+      "id": "water",
+      "name": "water",
+      "quantity": null,
+      "allowance": "enough for the pasta to move freely",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "pasta",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Pasta and finish",
+      "id": "salt",
+      "name": "salt",
+      "quantity": null,
+      "allowance": "to salt the pasta cooking water",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "pasta",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Pasta and finish",
+      "id": "ricotta",
+      "name": "ricotta salata",
+      "quantity": {
+        "amount": 300,
+        "unit": "g"
+      },
+      "allowance": null,
+      "preparation": "grated",
+      "uses": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Pasta and finish",
+      "id": "basil",
+      "name": "fresh basil leaves",
+      "quantity": null,
+      "allowance": "for serving",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ]
+    },
+    {
+      "component": "Pasta and finish",
+      "id": "pepper",
+      "name": "freshly ground black pepper",
+      "quantity": null,
+      "allowance": "to taste",
+      "preparation": null,
+      "uses": [
+        {
+          "step": "finish",
+          "share": 1
+        }
+      ]
+    }
+  ],
+  "primarySource": {
+    "title": "Adapted from Accademia Italiana della Cucina, Pasta alla Norma",
+    "url": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma"
+  },
+  "sourceDecisions": [
+    {
+      "topic": "Current Academy formula",
+      "before": "Absent; 2017 Academy magazine lists 150 g ricotta and a different tomato route.",
+      "after": "Complete current Academy page: 1.5 kg tomatoes, two white onions, 500 g spaghetti, 300 g ricotta salata, three medium violet eggplants, two garlic cloves, unmeasured basil/olive oil/salt/pepper.",
+      "rationale": "Preserve current complete formula and defining richness; do not blend current and older variants.",
+      "source": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+      "confidence": "high"
+    },
+    {
+      "topic": "Tomato water",
+      "before": "Half a glass in the source’s initial tomato softening; no defined glass volume.",
+      "after": "An explicitly unmeasured moisture-directed small splash at the same initial tomato stage.",
+      "rationale": "Root authorized preserving the job of this process water rather than inventing a glass-to-cup conversion. This is an editorial operating choice, not a recovered numerical equivalence.",
+      "source": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+      "confidence": "moderate; consequence is moisture only, not an inferred fixed volume"
+    },
+    {
+      "topic": "Allocations and timing",
+      "before": "Unmeasured basil/oil used in several stages, some fried eggplant cut into strips and the rest plated; approximately 40 then 20-minute tomato stages plus frying/pasta.",
+      "after": "Separate unmeasured allowances for each basil/oil/salt destination; all cheese at final service; whole cooked sauce/eggplant used through toss and toppings; two-burner 105–135-minute planning range.",
+      "rationale": "No guessed fractional split of unmeasured allowances or reduction of current quantities. Pasta heating/cooking and multiple eggplant loads are included.",
+      "source": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+      "confidence": "high for destinations; moderate for unmeasured planning times"
+    }
+  ],
+  "wholeRecipeReview": {
+    "ingredientDestinations": "all formula uses share exactly 1; every assigned step includes compiler token",
+    "ratioAndRichness": "complete selected source formula preserved; no cross-source mixing or normalized oil/cheese/sugar/vinegar",
+    "yield": "source six/four portions for Norma/caponata; one authored mortar batch for pesto with no diner or measured volume claim",
+    "equipmentAndGeometry": "working room and small loads; fixed 4 mm Norma slice thickness; no measured capacity promised",
+    "activeAndElapsed": "explicit planning ranges include raw prep and sequential or overlapping source stages; extra frying/mortar loads extend time",
+    "heatAndDoneness": "source heat and visual/texture cues preserved; frying below smoke point and vegetables tender",
+    "storage": "primary-source limits; no vinegar or oil-layer shelf-stability inference",
+    "scaling": "quantities generated for all six supported factors; allowances remain judgment and geometry/clock remain fixed"
+  },
+  "independentChallenge": {
+    "record": "docs/editorial-campaign/2026-10-06/italian-classics-independent.json",
+    "verdict": "REVISE_NARROW_OPERATING_OR_ATTRIBUTION_SPANS",
+    "corrections": [
+      {
+        "field": "equipment append",
+        "before": [
+          "saucepan",
+          "food-mill",
+          "heavy-frying-pan",
+          "pasta-pot",
+          "slotted-spoon",
+          "large-serving-bowl"
+        ],
+        "after": [
+          "saucepan",
+          "food-mill",
+          "heavy-frying-pan",
+          "pasta-pot",
+          "slotted-spoon",
+          "large-serving-bowl",
+          "wide-saute-pan"
+        ],
+        "rationale": "The final toss uses a separate wide pan; list it before cooking. Keep the bowl for milling/holding sauce and keep the frying pan separate.",
+        "sources": [
+          "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma"
+        ],
+        "confidence": "high",
+        "required": true
+      },
+      {
+        "field": "formula.steps[0].text and regenerated Directions[1] literal span",
+        "before": "a separate deep-sided frying pan and a pasta pot.",
+        "after": "a separate deep-sided frying pan, a separate wide pan for the final toss, and a pasta pot.",
+        "rationale": "The source uses a separate pan for eggplant strips/sauce and a final heated toss. Setup should not imply putting aqueous sauce into the still-hot frying-oil pan.",
+        "sources": [
+          "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying"
+        ],
+        "confidence": "high",
+        "required": true
+      },
+      {
+        "field": "formula.steps[6].text and regenerated Directions[7] literal span",
+        "before": "Drain the spaghetti and toss it in the pan with the tomato sauce and eggplant strips for about 1 minute.",
+        "after": "Drain the spaghetti and toss it over medium heat in the separate wide pan with the tomato sauce and eggplant strips for about 1 minute.",
+        "rationale": "Make the existing one-minute pan toss operational. Medium heat is an explicit editorial operating cue, not a purported numerical temperature from the source. It adds no ingredient or cooking-water amount.",
+        "sources": [
+          "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma"
+        ],
+        "confidence": "high for heated toss/separate pan; moderate for stated heat cue",
+        "required": true
+      }
+    ],
+    "rootDisposition": "Accepted after exact revisions and complete final source/diff inspection",
+    "finalVerdict": "PASS — final complete corrected candidate verified independently",
+    "finalCandidateSha256": "c1fc5299c7a395dc26957c73223e411ea25a6cc619900bb10ad35b3f1f062a47"
+  },
+  "rootFinalAcceptance": "Complete selected source formula, ingredient states and allocations, ratios, portions, vessel/load cues, elapsed versus active schedule, doneness, cold storage, scaling and meaningful source disagreements inspected. Generated ingredient/yield/method fields compiled together. No existing recipe replacement.",
+  "confidence": {
+    "formula": "high for complete source transmission",
+    "process": "high for source sequence; moderate for editorial schedule and named moisture/salt allowance choices",
+    "physicalOutcome": "unmeasured; kitchen questions retained"
+  },
+  "remainingQuestions": [
+    "Net weights of the three counted medium eggplants and two onions; actual frying loads and oil uptake.",
+    "Actual tomato yield after milling and the initial moisture-directed water needed for the chosen tomatoes/pot.",
+    "Measured two-burner time and whether 300 g ricotta salata gives the intended salty finish with the selected cheese."
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

@@ -1,5 +1,5 @@
 {
-  "scope": "29 distinct whole recipes remain held. Four earlier holds resolved through exact source recovery or independent challenge; no remaining held source is changed or accepted. Original hold evidence remains in repository history.",
+  "scope": "27 distinct whole recipes remain held. Kimchi is resolved after an explicit user-authorized salt specification, complete original recovery, whole-recipe independent challenge and final root review. The other held sources remain unchanged; earlier hold evidence remains in repository history.",
   "recipes": [
     {
       "slug": "baked-chicken-and-broccoli",
@@ -109,22 +109,6 @@
       "latestEvidenceReassessment": {
         "minimumRemainingQuestion": "Can a concrete full-batch loaf capacity and complete-cooling/freezing route be supported for this exact one-egg, no-added-fat formula without importing another bread’s pan or schedule?",
         "assessment": "Original and complete history still supply only a loaf pan and twelve half-inch slices, without source URL or capacity. Missing exact dimensions alone should not be treated as a mandatory kitchen-test gate; unlike Almond, there is no directly applicable recovered publisher route, and current 65-minute total excludes the stated pan cool and full cooling before freezer packing. Prior full-cooling proposal remains unaccepted.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
-      "title": "Fresh Cabbage, Cucumber and Radish Kimchi",
-      "currentPath": "src/content/recipes/fresh-cabbage-cucumber-and-radish-kimchi.md",
-      "currentSourceSha256": "ded5b4ef731066c810febb99df17ea4cd2296acd909fd0740e5d8f12658f2275",
-      "status": "held-awaiting-evidence",
-      "remainingQuestions": [
-        "Establish the intended salt crystal density and drained/squeezed yield, and resolve unsupported preservation or fermentation claims.",
-        "The exact original drains and squeezes without rinsing. Do not invent a rinse or treat this hold as approval of the existing claims."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Which kosher-salt product/crystal density was intended for the half-cup cure, what is the drained/squeezed finished yield and acceptable retained salinity, and is this intended only as a fresh refrigerated preparation?",
-        "assessment": "Retained review and earliest canonical cooking text both explicitly drain and gently squeeze without rinse. They specify generic kosher salt only. Primary publisher page remains inaccessible; exact primary-domain query did not recover the recipe. Neither four-hour refrigeration nor the current label establishes validated fermentation or a one-week preservation process.",
         "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
       }
     },
@@ -644,6 +628,13 @@
       "review": "docs/reviews/pressure-cooker-bolognase.json",
       "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
       "productionEvidence": "docs/editorial-campaign/2026-10-05/classic-bolognese-production.json"
+    },
+    {
+      "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
+      "date": "2026-10-06",
+      "acceptedSourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
+      "evidence": "docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.json",
+      "decision": "Recommended weighed salt specification permitted; complete fresh refrigerated adaptation accepted locally, publication pending."
     }
   ]
 }

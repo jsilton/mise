@@ -4895,16 +4895,17 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/fresh-cabbage-cucumber-and-radish-kimchi",
       "group": null,
-      "status": "held-awaiting-evidence",
-      "reviewEvidence": ["docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.md"],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Held: salt density, drained yield and unsupported preservation claims. Original drains/squeezes without rinsing.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "How salty and crisp are the four vegetable mixtures after this weighed cure with the chosen produce sizes and drainage?",
+        "How close is actual yield to the nominal12cups?",
+        "Does the chosen refrigerator/container loading chill the batch promptly?"
       ],
       "inputSha256": "ded5b4ef731066c810febb99df17ea4cd2296acd909fd0740e5d8f12658f2275",
-      "plannedBatch": null
+      "plannedBatch": null,
+      "reviewPhase": "Complete editorial review accepted after explicit user-authorized adaptation"
     },
     {
       "slug": "fresh-pasta-dough",
@@ -13182,6 +13183,6 @@
   "statusCounts": {
     "production-verified": 381,
     "held": 27,
-    "held-awaiting-evidence": 1
+    "accepted-pending-publication": 1
   }
 }

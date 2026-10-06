@@ -26,11 +26,11 @@ Bring the Korean BBQ experience home with marinated short ribs, fluffy rice, and
 
 ## Cooking Strategy
 
-1. **Marinate ribs overnight** (or at least 4 hours) - plan ahead
+1. **Marinate ribs overnight** (or at least 8 hours), following the linked kalbi recipe; keep them refrigerated.
 2. **Make kimchi** a day or two ahead if homemade, or use store-bought
 3. **Start rice** 40 minutes before grilling
 4. **Prep spinach ingredients** while rice cooks
-5. **Grill ribs** hot and fast, 2-3 minutes per side
+5. **Grill ribs** over direct heat, beginning checks at 2–3 minutes per side, then finish over the cooler zone as needed. Follow the linked kalbi recipe’s 145°F doneness check away from bone and its 5-minute rest; char and the clock alone do not establish doneness.
 6. **Quick-cook spinach** while ribs rest
 7. **Serve family-style** with scissors to cut ribs at the table
 

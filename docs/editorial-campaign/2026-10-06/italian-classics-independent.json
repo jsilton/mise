@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-06",
+  "scope": "Seven newly authored recipes reviewed in disjoint groups of three and four; different authors and independent challengers",
+  "status": "Independent challenge completed; final versions accepted by integration owner",
+  "recipes": [
+    {
+      "slug": "pesto-alla-genovese",
+      "inputCandidateSha256": "3db339d2dfa83e338db681c9b5e95227b571ed0d38f59d051b97922aba99ddd3",
+      "finalAcceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+      "wholeFormulaAssessment": "SUPPORTED; no ingredient-quantity or source-version correction required",
+      "findings": {
+        "formula": "Accept the complete current Championship version: all seven ingredient quantities/ranges and full cheese/nut/oil richness retained. Exactly 3 g coarse salt is a printed ingredient of this selected version; the transmitted 10 g restaurant formula and pinch-salt consortium formula are distinct records, not mixed or normalized.",
+        "allocations": "Basil/salt staged together, all chosen garlic and all pine nuts at crushing, both cheeses before the full oil range. Optional reserved pasta water only loosens the portion served off heat; it neither dilutes stored pesto nor changes the sauce yield.",
+        "yieldTiming": "One authored batch is honest; no diner count, measured mass or volume invented. 25–40 minutes is an explicit planning estimate, with additional loads and pasta service dependent on actual capacity. Replace one-mortar-load implications as listed.",
+        "safety": "NCHFP directly supports refrigerated pesto no more than three days and freezing with half-inch headspace. FDA prompt cold handling applies to this fresh garlic/herb/dairy sauce. Oil is not a shelf-stability process. No blender route or vinegar-acidification claim is offered.",
+        "scale": "At ½×, all formula quantities/ranges halve and yield is half a batch; at 2× they double and yield is two batches. Mortar capacity/elapsed time do not multiply arithmetically, and per-service pasta-water allowance remains judgment.",
+        "nonblocking": "Actual mortar capacity, leaf/garlic intensity, finished yield and observed hand-work time remain kitchen refinements, not missing historical amounts or editorial acceptance gates.",
+        "optionalSpecificity": "Current source calls the Parmigiano Stravecchio; well-aged Parmigiano-Reggiano would retain that useful culinary property without inventing an aging duration. This is nonblocking."
+      },
+      "corrections": [
+        {
+          "field": "learning.substitutions[0].effect",
+          "before": "The championship source permits either cheese; salt and aroma differ. Keep the full Fiore Sardo range.",
+          "after": "The Pro Loco Genova recipe permits Grana Padano in the same weight range; salt and aroma differ. Keep the full listed Fiore Sardo range.",
+          "rationale": "The retained current Championship recipe lists Parmigiano-Reggiano, while Pro Loco explicitly permits Grana Padano. Preserve the useful complete alternative and correct its source attribution.",
+          "sources": [
+            "https://www.consorzioprolocogenova.it/pesto-alla-genovese/",
+            "https://www.pestochampionship.it/la-ricetta-del-pesto-genovese-al-mortaio/"
+          ],
+          "confidence": "high",
+          "required": true
+        },
+        {
+          "field": "learning.timing literal span",
+          "before": "This makes one mortar batch. Larger quantities require additional mortar loads; allow time for those loads and for pasta service separately.",
+          "after": "Mortar capacity determines the number of loads; allow time for each load and for pasta service separately.",
+          "rationale": "One authored formula batch is a valid unmeasured yield. It does not establish one mortar load or stay one batch under a changed scale. Keep the full existing planning ranges.",
+          "sources": [
+            "current candidate learning.before; current source does not state a measured mortar capacity"
+          ],
+          "confidence": "high",
+          "required": true
+        },
+        {
+          "field": "Cooking Notes literal span",
+          "before": "This makes one mortar batch. Use a mortar with room to work and divide larger quantities into separate loads.",
+          "after": "Use a mortar with room to work and divide the listed quantities into separate loads as needed.",
+          "rationale": "Apply the displayed quantities at any scale without claiming an unknown mortar fits a complete batch. No formula or yield amount changes.",
+          "sources": ["current candidate formula; root canonical batch support dependency"],
+          "confidence": "high",
+          "required": true
+        }
+      ],
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "cfbbf662330e155abbb51f49ec1b6aba0f9dc348e11703264ccf12456cd765e5",
+      "finalTimingCorrection": {
+        "before": {
+          "prepTime": "10–15 min",
+          "cookTime": "15–25 min mortar work"
+        },
+        "after": {
+          "prepTime": "25–40 min",
+          "cookTime": "0 min"
+        },
+        "rationale": "Uncooked mortar work belongs to active preparation; existing total and detailed timing already include the full work.",
+        "confidence": "High"
+      }
+    },
+    {
+      "slug": "pasta-alla-norma",
+      "inputCandidateSha256": "275d61c3749e8d7dfea8a16d4559648768a3f96499b6daad66373f0a7bad6d9d",
+      "finalAcceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+      "wholeFormulaAssessment": "SUPPORTED; no ingredient-quantity or source-version correction required",
+      "findings": {
+        "formula": "Accept the complete current Academy six-person version, including 1.5 kg fresh tomatoes, two onions, 500 g spaghetti, three counted violet eggplants, two garlic cloves and full 300 g ricotta salata. The older 150 g-cheese version is not blended in. No oil, cheese or portion is reduced.",
+        "allocations": "Separate initial/second-simmer/finish basil destinations; separate garlic/frying oils and sauce/pasta salts. All milled sauce and all fried eggplant are used in toss plus toppings, and all cheese finishes the six portions. Food-mill skins/seeds are discarded; pulp and liquid retained.",
+        "waterDecision": "Source half-glass initial water has no defined glass volume. The moisture-directed splash stays in that stage and is recorded as an editorial adaptation. It preserves protection against catching without claiming a conversion; steady simmer and stirring govern the amount. It is not extra pasta-finish water.",
+        "geometryTiming": "Four-millimeter slices stay fixed. Batch frying remains frying with enough oil, dry food, recovery and room above the load. 105–135-minute total/55–75-minute active ranges are planning estimates with explicit extensions for smaller pans/fewer burners; both 40/20-minute tomato stages, milling, water heating, package pasta cook and one-minute toss are included. Separate tossing-pan setup needs the listed repair.",
+        "safety": "Prompt shallow cooling, 40 F refrigeration, 3–4-day leftovers, 165 F reheating and boiling a separately reheated sauce match retained FDA/USDA evidence. No raw animal product or preservation claim is invented.",
+        "scale": "At ½×: 750 g tomatoes, one onion, 250 g pasta, 150 g cheese, 1½ counted eggplants and one garlic clove for three source portions. At 2×: double all quantities for twelve. Four-mm slicing, temperatures, source clocks and pan/load judgment stay fixed.",
+        "nonblocking": "Counted vegetable weights, exact frying-oil uptake, sauce yield and physical service clock can be measured later; they do not require converting source counts to invented weights."
+      },
+      "corrections": [
+        {
+          "field": "equipment append",
+          "before": [
+            "saucepan",
+            "food-mill",
+            "heavy-frying-pan",
+            "pasta-pot",
+            "slotted-spoon",
+            "large-serving-bowl"
+          ],
+          "after": [
+            "saucepan",
+            "food-mill",
+            "heavy-frying-pan",
+            "pasta-pot",
+            "slotted-spoon",
+            "large-serving-bowl",
+            "wide-saute-pan"
+          ],
+          "rationale": "The final toss uses a separate wide pan; list it before cooking. Keep the bowl for milling/holding sauce and keep the frying pan separate.",
+          "sources": [
+            "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma"
+          ],
+          "confidence": "high",
+          "required": true
+        },
+        {
+          "field": "formula.steps[0].text and regenerated Directions[1] literal span",
+          "before": "a separate deep-sided frying pan and a pasta pot.",
+          "after": "a separate deep-sided frying pan, a separate wide pan for the final toss, and a pasta pot.",
+          "rationale": "The source uses a separate pan for eggplant strips/sauce and a final heated toss. Setup should not imply putting aqueous sauce into the still-hot frying-oil pan.",
+          "sources": [
+            "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
+            "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying"
+          ],
+          "confidence": "high",
+          "required": true
+        },
+        {
+          "field": "formula.steps[6].text and regenerated Directions[7] literal span",
+          "before": "Drain the spaghetti and toss it in the pan with the tomato sauce and eggplant strips for about 1 minute.",
+          "after": "Drain the spaghetti and toss it over medium heat in the separate wide pan with the tomato sauce and eggplant strips for about 1 minute.",
+          "rationale": "Make the existing one-minute pan toss operational. Medium heat is an explicit editorial operating cue, not a purported numerical temperature from the source. It adds no ingredient or cooking-water amount.",
+          "sources": [
+            "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma"
+          ],
+          "confidence": "high for heated toss/separate pan; moderate for stated heat cue",
+          "required": true
+        }
+      ],
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "c1fc5299c7a395dc26957c73223e411ea25a6cc619900bb10ad35b3f1f062a47"
+    },
+    {
+      "slug": "caponata",
+      "inputCandidateSha256": "8d2e55d926cb4429eac92e84fd1d91689644a3a095b8b5f192820b66c14f9d5c",
+      "finalAcceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+      "wholeFormulaAssessment": "SUPPORTED; no ingredient-quantity or source-version correction required",
+      "findings": {
+        "formula": "Accept the complete Visit Sicily four-person version: 1 kg eggplant, 400 g celery, 200 g olives, 50 g capers, 60 g pine nuts, two onions, 500 g tomatoes, 50 g each sugar/vinegar and full 300 g seed frying oil plus olive oil. Four generous vegetable portions are source-supported, not a measured finished yield.",
+        "allocations": "Eggplant salts/drains then fries; celery blanches/dries then sautés; onions soften before olives/capers/nuts then tomatoes. All fried/drained eggplant and celery join for 3–4 minutes, then all sugar/vinegar and basil. Separate olive-oil allowances prevent double use of a single dose. Frying oil is process oil, with the food drained rather than all oil poured into the dish.",
+        "saltDecision": "Source specifies a handful of coarse salt and instructs sprinkling/draining without a rinse. Light coating is an explicit operating adaptation to an unstandardized process amount. It does not establish a mass equivalence or preservation control, and does not remove salt/nuts/richness for a health claim. Do not add a rinse or a guessed teaspoon conversion.",
+        "geometryTiming": "Similar cubes and small dry loads are sufficient without invented dimensions. Full frying oil is used in a fitting pan; bigger/smaller batches require appropriate pan/loading choices. Total two to two-and-a-half hours includes ≥1-hour draining plus overlapping other stages; 60–80 active minutes is an estimate. Clarify the heat-work fact and add a first-load heat cue/finished-pan shutdown as listed.",
+        "safety": "Vinegar is flavor and does not validate shelf stability. Shallow cold storage, ≤40 F, 2-hour/1-hour limits, 3–4-day leftovers, refrigerated thawing and 165 F warm reheat match retained primary guidance.",
+        "scale": "At ½× every measured quantity halves for two portions, including 150 g frying oil and 25 g each sugar/vinegar. At 2× every measured quantity doubles for eight, including 600 g oil and 100 g each sugar/vinegar. Salting/sauté allowances remain physical judgment; time, cube size and safe oil headroom do not multiply.",
+        "nonblocking": "Vinegar concentration changes flavor but no preservation promise depends on it. Actual residual salt, retained frying oil, cooked yield and observed pan time remain kitchen refinements."
+      },
+      "corrections": [
+        {
+          "field": "cookTime",
+          "before": "45–65 min, with draining time",
+          "after": "45–65 min",
+          "rationale": "The heat-work estimate should not imply it contains the required at-least-one-hour draining period. Existing total and learning.timing already include draining and overlap.",
+          "sources": ["https://www.visitsicily.info/ricetta/la-caponata/"],
+          "confidence": "high",
+          "required": true
+        },
+        {
+          "field": "formula.steps[6].text and regenerated Directions[7]",
+          "before": "Use {{ingredients}} in a dry heavy frying pan. Drain the eggplant thoroughly and dry it carefully before adding it to the hot oil. Fry in small uncrowded batches, turning until golden and tender. Choose a pan that leaves working room above the oil and use a slotted spoon to drain each batch. Let the oil recover between loads and keep it below its smoke point. Do not leave it unattended or let water enter the hot oil.",
+          "after": "Use {{ingredients}} in a dry heavy frying pan with working room above the oil. Drain the eggplant thoroughly and dry it carefully. Heat the oil until a small piece of eggplant sizzles steadily, without smoke. Fry in small uncrowded batches, turning until golden and tender, and use a slotted spoon to drain each batch. Let the oil recover between loads and keep it below its smoke point. Do not leave it unattended or let water enter the hot oil. After frying, take the pan safely off the heat and let the oil cool.",
+          "rationale": "Make oil heating explicit before the first batch and close the attended hot-oil stage. Preserve the full 300 g frying oil, all existing drying/load/smoke guidance and every other ingredient.",
+          "sources": [
+            "https://www.visitsicily.info/ricetta/la-caponata/",
+            "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying"
+          ],
+          "confidence": "high for source-supported frying and safe shutdown; moderate for editorial sizzle cue",
+          "required": true
+        }
+      ],
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "44d183d37b54ff4cc9d9900c4741cab40d68f491366d5799e19286aef02f9d8c"
+    },
+    {
+      "slug": "ribollita",
+      "inputCandidateSha256": "4443af63feeb52c4d2188079e2c9127dea5cc9c2331382220d00cfb1d0d857fc",
+      "finalAcceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+      "wholeFormulaAssessment": "Accept complete primary formula; add a brief full-boil clarification at reheat before final acceptance.",
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "3e0d529ac35f4ee0948c64de0dd1add8be31defb55be928daac514c779e7b157"
+    },
+    {
+      "slug": "risotto-alla-milanese",
+      "inputCandidateSha256": "268988380ad5a83415a8ddb96fdf9136e108583e97cb9dade79c8e7d5e7d4261",
+      "finalAcceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+      "wholeFormulaAssessment": "Accept complete Academy marrow formula and butter split; clarify prepared broth state and safe prior storage.",
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "008fe3d337845801d42f121a7abad9ce1551fbac9b05f82796fc5f452492ea5a"
+    },
+    {
+      "slug": "passatelli-in-brodo",
+      "inputCandidateSha256": "994a69fe467f45d66a5f12d9e177f0f4d2658dec37826611a76146ba84e5b1bc",
+      "finalAcceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+      "wholeFormulaAssessment": "Accept Artusi first formula and distinct source attribution; revise probe implementation and clarify prepared-broth storage before acceptance.",
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "e1eb52ad4ddbacde7895236da46223b3420e172616893a0032ae7332fd00aa59"
+    },
+    {
+      "slug": "brasato-al-barolo",
+      "inputCandidateSha256": "fdb0904b377e4c59e9df1a787b3fae7b5b6012c6e75b01909cabe8c1b29f9714",
+      "finalAcceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+      "wholeFormulaAssessment": "Accept full Cuneo formula and safe whole-cut route; no blocking formula issue found.",
+      "rootDisposition": "All required consequential corrections resolved; final complete source and diff accepted. New identity added by supported new-recipe workflow; existing identities retained.",
+      "finalVerdict": "PASS",
+      "finalCandidateSha256": "6f2360f2424fcb94fa2303df45c32dc178d65eacb041b9cedefb6c4e3cf97401"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

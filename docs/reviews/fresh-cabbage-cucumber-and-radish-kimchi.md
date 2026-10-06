@@ -1,3 +1,13 @@
+# Fresh Cabbage, Cucumber and Radish Kimchi — complete editorial review
+
+October 6, 2026. Accepted locally after user-authorized salt specification, whole-recipe review, independent challenge and integration-owner inspection; publication pending. [Exact before/after, sources, decisions and confidence](fresh-cabbage-cucumber-and-radish-kimchi.json). No kitchen test or native-app synchronization.
+
+The selected cure uses 67 g kosher salt by weight, divided equally among four vegetable bowls. The complete original drains and squeezes without rinsing; that method and every defining dressing ingredient remain. The minimum four-hour chill is restored, unsupported fermentation and one-week keeping claims are removed, and the approximate original yield is identified honestly. Actual drained yield and retained salinity remain kitchen questions, rather than invented results. Live publisher retrieval remains unavailable; the complete retained native original supplies the formula and process evidence.
+
+## Historical targeted disposition
+
+The earlier hold below describes the previous version. It is retained as provenance and does not apply to the accepted October 6 adaptation.
+
 # Fresh Cabbage, Cucumber and Radish Kimchi: bounded review, unresolved
 
 Date: 2026-10-05. Status: pending full editorial review. Do not count this as an editorially reviewed or kitchen-tested recipe.
