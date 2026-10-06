@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 414,
-    "completeEditorialPending": 229,
+    "recordedCompleteEditorial": 425,
+    "completeEditorialPending": 218,
     "originalBaseline": 612,
-    "originalReviewed": 388,
+    "originalReviewed": 398,
     "consideredConsolidations": 10,
-    "originalPending": 214,
+    "originalPending": 204,
     "additionalSources": 41,
-    "additionalReviewed": 26,
-    "additionalPending": 15,
+    "additionalReviewed": 27,
+    "additionalPending": 14,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 414,
+      "editoriallyReviewed": 425,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 432
+      "reviewItems": 412
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "180 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 414 recorded complete / 229 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 10 accepted source versions match exact remote commit [804a0f85](https://github.com/jsilton/mise/commit/804a0f855ed438459c78245d85002eda2f495175), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37425503825) and all 10 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "180 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -250,18 +250,7 @@
       "baseline": "original canonical",
       "source": "Adapted from saveur.com",
       "sourceUrl": "https://www.saveur.com/recipes/anelletti-al-forno-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -269,19 +258,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/anelletti-al-forno.md",
+        "acceptedSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/anelletti-al-forno.json",
+        "sourceSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Independent/root choice of the source-rich primary and explicitly completed current variation remains pending; actual cooked ragù output, sauce coverage and dish headroom require kitchen evaluation.",
+        "Actual pancetta product completion must follow its label; no cured/raw equivalence is established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -391,18 +386,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/apple-cider-cream-pie",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -413,12 +397,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/apple-cider-cream-pie.md",
+        "acceptedSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/apple-cider-cream-pie.json",
+        "sourceSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -427,12 +417,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pie-plate depth, custard thickness at160°F, reduction elapsed time and fully cold set need kitchen evaluation.",
+        "Current publisher heavy-cream display1½cup differs from exact saved1cup; no intentional household change established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -448,18 +437,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -467,19 +445,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/apple-pie.md",
+        "acceptedSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/apple-pie.json",
+        "sourceSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual current vodka-dough hydration and ability to gather with its listed4tbsp total liquid need kitchen checking; do not infer an extra dose.",
+        "Actual9-inch pan depth, cooked apple volume, apple variety and slice thickness affect capacity and timing.",
+        "Saved egg-dough source and current vodka route remain distinct proposals, not accepted equivalent textures or salt amounts."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2846,18 +2831,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "http://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -2868,12 +2842,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/broccolini-chicken-sausage-and-orzo-skillet.md",
+        "acceptedSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/broccolini-chicken-sausage-and-orzo-skillet.json",
+        "sourceSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -2882,12 +2862,10 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet diameter/depth, brand orzo heat-up and evaporation; measured cooked portion size remains untested."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3282,18 +3260,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3301,19 +3268,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/butternut-squash-fettuccine-alfredo.md",
+        "acceptedSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/butternut-squash-fettuccine-alfredo.json",
+        "sourceSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual blender/processor model permitted temperature/load and cooling/rewarm clock; actual squash weight and portions not measured.",
+        "Does household prefer current¼tsp nutmeg or saved pinch? Neither amount is normalized."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8048,18 +8021,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-crispy-sheet-pan-gnocchi-and-veggies-247360",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8067,19 +8029,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/crispy-sheet-pan-gnocchi-and-veggies.md",
+        "acceptedSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/crispy-sheet-pan-gnocchi-and-veggies.json",
+        "sourceSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual gnocchi product, tray capacity, preferred shrimp or fully cooked sausage and resulting total clock/portion size require kitchen evaluation.",
+        "Saved unmeasured shrimp did not establish an original½lb amount; current explicit½lb retained as imported adaptation.",
+        "The linked Sheet Pan Gnocchi Night meal specifies 425°F and a 20–25-minute roast, while this recipe uses 450°F with center checks. Its separate salad, optional protein work and full elapsed clock have not been reconciled; the meal remains unreviewed.",
+        "Does the household prefer the current salt-to-taste main or the separately available saved kosher-salt dose? This preference does not block preserving both documented choices."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8205,18 +8175,7 @@
       "baseline": "original canonical",
       "source": "Adapted from amandascookin.com",
       "sourceUrl": "https://amandascookin.com/crockpot-macaroni-and-cheese/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8224,19 +8183,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/crockpot-mac-and-cheese.md",
+        "acceptedSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/crockpot-mac-and-cheese.json",
+        "sourceSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooker model, measured fill before/after expansion, kosher crystal type, noodle brand thickness and first successfulclock/texture;165casserole category application editorial, no physical validation.",
+        "The linked Playoff Football Party meal treats the mac as hands-off, starts it only 2.5 hours before service and promises creamy texture on WARM for hours. This recipe may need up to 3 hours on LOW plus its rest, requires checks and stirring, and verifies hot holding at 140°F. Those meal clocks, texture claims and combined equipment remain unresolved; no meal approval is conferred."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8533,18 +8498,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8552,19 +8506,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/custard-mac-and-pimento-cheese.md",
+        "acceptedSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/custard-mac-and-pimento-cheese.json",
+        "sourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The retained earlier HTML credits the Gwock Family for the older 8 oz pasta, four-egg and margarine recipe. Is that incomplete route wanted separately, and what milk amount and pan fill were used? The later pimento rewrite is not established as a Gwock Family recipe.",
+        "Actual current9x13dishdepth/capacity, egg texture at165 and elapsedtime/portion sizes need kitchen testing."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13229,18 +13189,7 @@
       "baseline": "original canonical",
       "source": "Adapted from abrightmoment.com",
       "sourceUrl": "https://www.abrightmoment.com/recipes/heirloom-tomato-pesto-ricotta-galette",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13248,19 +13197,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/heirloom-tomato-pesto-and-ricotta-galette.md",
+        "acceptedSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/heirloom-tomato-pesto-and-ricotta-galette.json",
+        "sourceSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual tomato size/juice, ricotta moisture, rolled pastry thickness and oven/base browning need kitchen evaluation.",
+        "Sea-salt density and current sharp-cheddar/Gruyère choices remain; no equal-volume fine/kosher conversion inferred."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15042,13 +14997,7 @@
       "baseline": "addition",
       "source": "food52.com",
       "sourceUrl": "https://food52.com/recipes/33481-key-lime-pie",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -15056,19 +15005,25 @@
         "evidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/key-lime-pie-with-lime-zest.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/key-lime-pie-with-lime-zest.json",
+        "sourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
+        "No current publisher comparison established becauseFood52 returned403; exact bound original/native import retained."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27950,13 +27905,7 @@
       "baseline": "original canonical",
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "no change in bounded pass",
         "acceleratedEvidence": {
@@ -27967,19 +27916,25 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/tomato-and-goat-cheese-tart.md",
+        "acceptedSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/tomato-and-goat-cheese-tart.json",
+        "sourceSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual11-inch tart depth/cheese and tomato volume, kosher-salt crystals and freezing-to-hot-oven pan rating remain kitchen/equipment questions.",
+        "Moisture and tomato slice thickness affect roast and final bake; no guaranteed dry or crisp result."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

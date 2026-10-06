@@ -1,0 +1,502 @@
+{
+  "slug": "crockpot-mac-and-cheese",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "6b3c432d55317d7d66bdd6fe9cb5ea372f85ac6a6bb41ba37650f228442fb68e",
+  "acceptedSourceSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "2 hr",
+      "after": "About 1–3 hr on LOW"
+    },
+    {
+      "field": "totalTime",
+      "before": "2 hr 20 min",
+      "after": "About 1 hr 25 min–3 hr 30 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "2½ cups whole milk",
+        "12 ounces evaporated milk (one can)",
+        "12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)",
+        "4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)",
+        "1 teaspoon kosher salt",
+        "½ teaspoon black pepper",
+        "½ teaspoon dry mustard",
+        "¼ teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "4 tablespoons unsalted butter, cubed"
+      ],
+      "after": [
+        "1 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "2½ cups whole milk",
+        "12 ounces evaporated milk (from a 12-ounce can)",
+        "12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)",
+        "4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)",
+        "1 teaspoon kosher salt",
+        "½ teaspoon black pepper",
+        "½ teaspoon dry mustard",
+        "¼ teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "4 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 490,
+        "protein": 22,
+        "carbs": 43.5,
+        "fat": 26.5,
+        "fiber": 3,
+        "sugar": 2.5,
+        "sodium": 750
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Stop slow-cooker pasta at tenderness rather than a fixed clock",
+        "outcome": "Tender macaroni in the full buttery milk-and-cheese sauce.",
+        "techniques": ["temperature", "starch"],
+        "before": [
+          "Use regular uncooked elbow pasta, not quick-cook pasta. Gluten-free or very thin noodles need a separate established method, not an assumed identical hydration/clock.",
+          "The source’s 6-quart vessel is original-batch context. Follow the actual manual and fill range when changing portions; doubling does not certify unchanged heating time."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Several central checks reach 165°F and a cooled noodle has no hard center.",
+            "why": "The pasta can soften before an overloaded or unevenly heated mixture is ready throughout."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pasta is tender but the mixture keeps thickening",
+            "cause": "Residual heat continues cooking the starch.",
+            "fix": "Stop cooking at the measured center endpoint and pasta tenderness, then rest briefly and serve. Do not keep cooking solely to match a fixed clock."
+          }
+        ],
+        "timing": "Plan about 20 minutes preparation,1–3 hours onLOW and 5–10 minutes rest: about 1 hour 25 minutes to 3 hours 30 minutes total. Checking/stirring is active work; cooker model, noodle thickness and fill alter the clock.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat the portion being served to 165°F / 74°C throughout. Stored pasta softens; reheating does not reproduce the first-cook texture. Reheat outside the slow cooker on the stove, in an oven or microwave. A slow cooker may hold already-hot food at 140°F or higher, but should not reheat refrigerator-cold leftovers.",
+        "substitutions": [],
+        "sources": [
+          {
+            "title": "Amanda",
+            "url": "https://amandascookin.com/crockpot-macaroni-and-cheese/"
+          },
+          {
+            "title": "FDAHandling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafetyTemp",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDASlow",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety"
+          },
+          {
+            "title": "SlowFill",
+            "url": "https://www.foodsafety.gov/blog/warm-safely-slow-cooked-meal"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is the ultimate hands-off mac and cheese for game day or potlucks - dump everything in the slow cooker and forget about it. The combination of extra-sharp cheddar for flavor and American cheese for melt creates that perfect creamy-but-not-grainy texture. Two keys: use freshly shredded cheese (pre-shredded is coated with anti-clump agents that prevent smooth melting), and rinse your pasta before adding it (removes surface starch that would make things gluey). The evaporated milk adds body without curdling the way straight cream might.\n\n## Directions\n\n1. **The Setup:** Spray a 6-quart slow cooker with non-stick spray. Rinse the uncooked pasta well in cold water and drain - this washes off excess starch.\n\n2. **The Build:** Add pasta, both milks, both cheeses, salt, pepper, dry mustard, garlic powder, and cayenne to the slow cooker. Stir to combine, making sure pasta is submerged in liquid as much as possible. Dot the top with cubed butter.\n\n3. **The Cook:** Cover and cook on LOW for 1 hour. Remove lid quickly, stir, and check consistency. Depending on your slow cooker, it could be done now or need up to 1-2 more hours.\n\n4. **The Check:** If not done, continue cooking and checking every 30 minutes. Pasta should be tender and sauce thick and creamy.\n\n5. **The Rest:** Sauce will thicken even more after the lid comes off. Let it sit 5-10 minutes before serving - this helps it set up to the perfect consistency.\n",
+    "after": "\n## Chef's Note\n\nRegular uncooked elbow pasta cooks in the full milk-and-cheese mixture on LOW. Check and stir after the first hour rather than leaving it unattended for a fixed two hours. Freshly shredded cheese and stopping at tender pasta help the texture, but neither ingredient choice guarantees a smooth sauce in every cooker.\n\n## Directions\n\n1. **Set up:** For the original batch, use the source’s 6-quart slow cooker only if its actual instructions permit the load. Aim for a suitable fill between half and two-thirds full, with a lid that closes; scaling may require smaller, larger or separate cookers, not the same vessel at every amount. Keep milk and cheese refrigerated until preparation. Spray the insert with the listed cooking-spray allowance. Rinse regular uncooked elbow pasta in cold water and drain well.\n\n2. **Build:** Add all the drained uncooked pasta, whole milk, evaporated milk, both cheeses, salt, pepper, dry mustard, garlic powder and cayenne. Stir thoroughly so the pasta is submerged as much as possible. Dot with all the cubed butter. Start cooking immediately; do not use a delayed-start timer.\n\n3. **Cook on LOW:** Cover and cook on LOW for 1 hour, then quickly uncover and stir, reaching the bottom and edges. Check a cooled pasta sample: it should be tender without a hard center. Return the lid promptly if it needs longer. Keep LOW for this method; HIGH is not an equivalent shortcut.\n\n4. **Check and finish:** Continue on LOW as needed, checking and stirring about every 30 minutes as in the saved method, or sooner as it approaches tenderness. Total cooking may take about 1–3 hours depending on the actual cooker and pasta. Stop when the pasta is tender and sauce creamy; check several central locations reach 165°F before serving. That casserole-temperature check and pasta tenderness are separate endpoints, not a claim that a timer alone makes it safe.\n\n5. **Rest and serve:** Let stand 5–10 minutes before serving; it thickens as it cools. If holding for service, use a suitable hot setting and verify at least 140°F rather than assuming WARM is sufficient. Refrigerate leftovers promptly rather than leaving the switched-off cooker to cool.\n"
+  },
+  "findings": [
+    {
+      "id": "PB04-crockpot-mac-and-cheese",
+      "rationale": "Preserve every milk/cheese/butter/spice amount and actualLOW/rinsing route. Two-hour metadata conflicts with written1–3hour method plus rest. Replace forget-it/guaranteedanti-curdling claims with tenderness/center checks and model-fill guidance; nominal6qt and WARM do not establish every scaled batch’s performance. Source and native generic salt/butter differ from currentkosher/unsalted; no equal-density salt conversion invented.",
+      "confidence": "High exact history/dose preservation; moderate editorial safety/category/timing/capacity applications; untested",
+      "applicableSources": [
+        {
+          "key": "Amanda",
+          "url": "https://amandascookin.com/crockpot-macaroni-and-cheese/",
+          "scope": "Exact drymacaroni/fullmilk/cheese/butter/spices andLOW1–3h check schedule. Formula same but currentkosher andunsalted butter explicit versus nativegeneric. Publisherdoubling/nochangedtime not accepted universal; transportoff/WARMhours advice governed primaryholding."
+        },
+        {
+          "key": "FDAHandling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Producewash/clean rawcontact separation,cold40/twohouronehour exposure,165storedleftovers/reheat saucesaboil, shallowcool; no ratio/yield certification."
+        },
+        {
+          "key": "FoodSafetyTemp",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Rawgroundbeef/pork160,poultry165,meatANDmeatlesscasseroles165,storedleftovers165. Custard pasta and slow-cooker casserole category editorial moderateapplication, not exactformula validation."
+        },
+        {
+          "key": "USDASlow",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety",
+          "scope": "Coldperishablesuntilprep/lid/modelcutandcapacity/LOWpermitted, leftoversreheat165outsidecookerandhot hold140; no universal pastaLOWclock."
+        },
+        {
+          "key": "SlowFill",
+          "url": "https://www.foodsafety.gov/blog/warm-safely-slow-cooked-meal",
+          "scope": "Generalhalf-to-two-thirdsfill guidance with actualmanual check; not proof nominal6qt hascertifiedmacaroni batchcapacity."
+        },
+        {
+          "key": "USDALeftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "General cooked-leftover guidance supports prompt shallow cooling, refrigeration for 3–4 days and reheating to 165°F; it does not establish recipe-specific shelf life, ratio, yield, texture or first-cook validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual cooker model, measured fill before/after expansion, kosher crystal type, noodle brand thickness and first successfulclock/texture;165casserole category application editorial, no physical validation.",
+        "The linked Playoff Football Party meal treats the mac as hands-off, starts it only 2.5 hours before service and promises creamy texture on WARM for hours. This recipe may need up to 3 hours on LOW plus its rest, requires checks and stirring, and verifies hot holding at 140°F. Those meal clocks, texture claims and combined equipment remain unresolved; no meal approval is conferred."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/e07f66f8082ccf28f9b7904d10fa3e4098584a7b/src/content/recipes/crockpot-mac-and-cheese.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://amandascookin.com/crockpot-macaroni-and-cheese/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Preserve every milk/cheese/butter/spice amount and actualLOW/rinsing route. Two-hour metadata conflicts with written1–3hour method plus rest. Replace forget-it/guaranteedanti-curdling claims with tenderness/center checks and model-fill guidance; nominal6qt and WARM do not establish every scaled batch’s performance. Source and native generic salt/butter differ from currentkosher/unsalted; no equal-density salt conversion invented.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "destination": "1 rinsed drypasta→2→3/4"
+      },
+      {
+        "ingredient": "2½ cups whole milk",
+        "destination": "2 full wholemilk"
+      },
+      {
+        "ingredient": "12 ounces evaporated milk (one can)",
+        "destination": "2 full evapmilk"
+      },
+      {
+        "ingredient": "12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)",
+        "destination": "2 fullcheddar"
+      },
+      {
+        "ingredient": "4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)",
+        "destination": "2 fullAmerican"
+      },
+      {
+        "ingredient": "1 teaspoon kosher salt",
+        "destination": "2 wholekosherdose"
+      },
+      {
+        "ingredient": "½ teaspoon black pepper",
+        "destination": "2 fullpepper"
+      },
+      {
+        "ingredient": "½ teaspoon dry mustard",
+        "destination": "2 mustard"
+      },
+      {
+        "ingredient": "¼ teaspoon garlic powder",
+        "destination": "2 garlicpowder"
+      },
+      {
+        "ingredient": "Pinch of cayenne pepper",
+        "destination": "2 cayennepinch"
+      },
+      {
+        "ingredient": "4 tablespoons unsalted butter, cubed",
+        "destination": "2 allbutter"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "destination": "1 rinse/drain→2 all drypasta"
+      },
+      {
+        "ingredient": "2½ cups whole milk",
+        "destination": "2 all wholemilk"
+      },
+      {
+        "ingredient": "12 ounces evaporated milk (from a 12-ounce can)",
+        "destination": "2 all evapmilk"
+      },
+      {
+        "ingredient": "12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)",
+        "destination": "2 all cheddar"
+      },
+      {
+        "ingredient": "4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)",
+        "destination": "2 allAmerican"
+      },
+      {
+        "ingredient": "1 teaspoon kosher salt",
+        "destination": "2 listed kosher dose"
+      },
+      {
+        "ingredient": "½ teaspoon black pepper",
+        "destination": "2 allpepper"
+      },
+      {
+        "ingredient": "½ teaspoon dry mustard",
+        "destination": "2 allmustard"
+      },
+      {
+        "ingredient": "¼ teaspoon garlic powder",
+        "destination": "2 allgarlicpowder"
+      },
+      {
+        "ingredient": "Pinch of cayenne pepper",
+        "destination": "2 fullpinch"
+      },
+      {
+        "ingredient": "4 tablespoons unsalted butter, cubed",
+        "destination": "2 allbutter"
+      },
+      {
+        "ingredient": "Non-stick cooking spray, for the cooker",
+        "destination": "1 genuine listed spraysupply"
+      }
+    ],
+    "variants": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Set up: For the original batch, use the source’s 6-quart slow cooker only if its actual instructions permit the load. Aim for a suitable fill between half and two-thirds full, with a lid that closes; scaling may require smaller, larger or separate cookers, not the same vessel at every amount. Keep milk and cheese refrigerated until preparation. Spray the insert with the listed cooking-spray allowance. Rinse regular uncooked elbow pasta in cold water and drain well."
+    },
+    {
+      "step": 2,
+      "text": "Build: Add all the drained uncooked pasta, whole milk, evaporated milk, both cheeses, salt, pepper, dry mustard, garlic powder and cayenne. Stir thoroughly so the pasta is submerged as much as possible. Dot with all the cubed butter. Start cooking immediately; do not use a delayed-start timer."
+    },
+    {
+      "step": 3,
+      "text": "Cook on LOW: Cover and cook on LOW for 1 hour, then quickly uncover and stir, reaching the bottom and edges. Check a cooled pasta sample: it should be tender without a hard center. Return the lid promptly if it needs longer. Keep LOW for this method; HIGH is not an equivalent shortcut."
+    },
+    {
+      "step": 4,
+      "text": "Check and finish: Continue on LOW as needed, checking and stirring about every 30 minutes as in the saved method, or sooner as it approaches tenderness. Total cooking may take about 1–3 hours depending on the actual cooker and pasta. Stop when the pasta is tender and sauce creamy; check several central locations reach 165°F before serving. That casserole-temperature check and pasta tenderness are separate endpoints, not a claim that a timer alone makes it safe."
+    },
+    {
+      "step": 5,
+      "text": "Rest and serve: Let stand 5–10 minutes before serving; it thickens as it cools. If holding for service, use a suitable hot setting and verify at least 140°F rather than assuming WARM is sufficient. Refrigerate leftovers promptly rather than leaving the switched-off cooker to cool."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["pulled-pork", "honey-lime-chicken-thighs"],
+    "incomingMeals": ["playoff-football-party"],
+    "scope": "Recipe pairings remain suggestions. Incoming meal clocks, equipment and holding claims remain unreviewed; the specific contradictions are recorded in remainingQuestions."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": "Measured main totals preserved except the explicitly proposed complete Anelletti source-rich route; no measured cooked yield or capacity invented. Listed portions are original planning. Actual pan/manual governs and extra vessels do not multiply clocks.",
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Plan about 20 minutes preparation,1–3 hours onLOW and 5–10 minutes rest: about 1 hour 25 minutes to 3 hours 30 minutes total. Checking/stirring is active work; cooker model, noodle thickness and fill alter the clock."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "5/8 cup whole milk",
+        "3 ounces evaporated milk (from a 12-ounce can)",
+        "3 ounces extra-sharp cheddar, freshly shredded (about 3/4 cup)",
+        "1 ounce American cheese, shredded (about 1/4 cup - from the deli, not slices)",
+        "1/4 teaspoon kosher salt",
+        "1/8 teaspoon black pepper",
+        "1/8 teaspoon dry mustard",
+        "0.0625 teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "1 tablespoon unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 2–2 1/2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "1 1/4 cups whole milk",
+        "6 ounces evaporated milk (from a 12-ounce can)",
+        "6 ounces extra-sharp cheddar, freshly shredded (about 1 1/2 cups)",
+        "2 ounces American cheese, shredded (about 1/2 cup - from the deli, not slices)",
+        "1/2 teaspoon kosher salt",
+        "1/4 teaspoon black pepper",
+        "1/4 teaspoon dry mustard",
+        "1/8 teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "2 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 4–5",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "2½ cups whole milk",
+        "12 ounces evaporated milk (from a 12-ounce can)",
+        "12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)",
+        "4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)",
+        "1 teaspoon kosher salt",
+        "½ teaspoon black pepper",
+        "½ teaspoon dry mustard",
+        "¼ teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "4 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 8–10",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 pounds elbow pasta (uncooked, regular - not quick-cook)",
+        "3 3/4 cups whole milk",
+        "18 ounces evaporated milk (from a 12-ounce can)",
+        "18 ounces extra-sharp cheddar, freshly shredded (about 4 1/2 cups)",
+        "6 ounces American cheese, shredded (about 1 1/2 cups - from the deli, not slices)",
+        "1 1/2 teaspoons kosher salt",
+        "3/4 teaspoon black pepper",
+        "3/4 teaspoon dry mustard",
+        "3/8 teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "6 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 12–15",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 pounds elbow pasta (uncooked, regular - not quick-cook)",
+        "5 cups whole milk",
+        "24 ounces evaporated milk (from a 12-ounce can)",
+        "24 ounces extra-sharp cheddar, freshly shredded (about 6 cups)",
+        "8 ounces American cheese, shredded (about 2 cups - from the deli, not slices)",
+        "2 teaspoons kosher salt",
+        "1 teaspoon black pepper",
+        "1 teaspoon dry mustard",
+        "1/2 teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "8 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 16–20",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 pounds elbow pasta (uncooked, regular - not quick-cook)",
+        "7 1/2 cups whole milk",
+        "36 ounces evaporated milk (from a 12-ounce can)",
+        "36 ounces extra-sharp cheddar, freshly shredded (about 9 cups)",
+        "12 ounces American cheese, shredded (about 3 cups - from the deli, not slices)",
+        "3 teaspoons kosher salt",
+        "1 1/2 teaspoons black pepper",
+        "1 1/2 teaspoons dry mustard",
+        "3/4 teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "12 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 24–30",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 pound elbow pasta (uncooked, regular - not quick-cook)",
+        "2½ cups whole milk",
+        "12 ounces evaporated milk (from a 12-ounce can)",
+        "12 ounces extra-sharp cheddar, freshly shredded (about 3 cups)",
+        "4 ounces American cheese, shredded (about 1 cup - from the deli, not slices)",
+        "1 teaspoon kosher salt",
+        "½ teaspoon black pepper",
+        "½ teaspoon dry mustard",
+        "¼ teaspoon garlic powder",
+        "Pinch of cayenne pepper",
+        "4 tablespoons unsalted butter, cubed",
+        "Non-stick cooking spray, for the cooker"
+      ],
+      "yield": "Serves 8–10",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All existing measured richness, source URLs/credits/ratings/identities and enabled scaling behavior preserved; old proposals do not establish acceptance.",
+  "remainingQuestions": [
+    "Actual cooker model, measured fill before/after expansion, kosher crystal type, noodle brand thickness and first successfulclock/texture;165casserole category application editorial, no physical validation.",
+    "The linked Playoff Football Party meal treats the mac as hands-off, starts it only 2.5 hours before service and promises creamy texture on WARM for hours. This recipe may need up to 3 hours on LOW plus its rest, requires checks and stirring, and verifies hot holding at 140°F. Those meal clocks, texture claims and combined equipment remain unresolved; no meal approval is conferred."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

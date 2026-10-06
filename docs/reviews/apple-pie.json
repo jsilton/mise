@@ -1,0 +1,1053 @@
+{
+  "slug": "apple-pie",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "bddc43ad787fd61a9135ed8d45e2bcced26662a9be33b39ff92682b3abeab4e5",
+  "acceptedSourceSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "USA",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "50 min",
+      "after": "About 65–85 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "4 hr",
+      "after": "About 4–5 hr, including cooling"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 1/2 cups All-Purpose Flour",
+        "14 tbsp Unsalted Butter, ice cold and cubed",
+        "1 tbsp Sugar",
+        "1 tsp Kosher Salt",
+        "2 tbsp Vodka (ice cold - The flakiness secret)",
+        "2 tbsp Water (ice cold)",
+        "3 lbs Baking Apples (Granny Smith or Mutsu)",
+        "2/3 cup Sugar",
+        "1/4 cup Butter",
+        "1 tbsp Lemon Juice",
+        "1 tsp Cinnamon + 1/4 tsp Nutmeg",
+        "1 Egg (for wash)"
+      ],
+      "after": [
+        "--- Vodka dough ---",
+        "2 1/2 cups all-purpose flour",
+        "14 tbsp unsalted butter, ice cold and cubed",
+        "1 tbsp granulated sugar",
+        "1 tsp kosher salt",
+        "2 tbsp ice-cold vodka",
+        "2 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "3 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "2/3 cup granulated sugar",
+        "1/4 cup butter",
+        "1 tbsp lemon juice",
+        "1 tsp ground cinnamon",
+        "1/4 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "1 egg, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 760,
+        "protein": 5.5,
+        "carbs": 92,
+        "fat": 44.5,
+        "fiber": 3,
+        "sugar": 59.5,
+        "sodium": 610
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook and cool apples before sealing cold pastry",
+        "outcome": "A baked golden crust around softened apples and their thickened juices.",
+        "techniques": ["temperature"],
+        "before": [
+          "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+          "Wash apples before peeling. Keep the dough cold while filling cools; chilled butter pieces should remain visible. Prepare a clean bowl under the colander so the apple juices are not discarded."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All caught juice is syrupy before it returns to the softened apples.",
+            "why": "Unreduced free liquid wets the pastry; scorched syrup cannot be repaired by baking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The dough is soft and sticking",
+            "cause": "Butter warmed during rolling or the room is warm.",
+            "fix": "Chill the dough again before continuing; dust lightly with the separate rolling flour instead of kneading in large extra amounts."
+          },
+          {
+            "problem": "The pie cuts into a puddle while hot",
+            "cause": "The filling has not cooled enough to settle.",
+            "fix": "Allow the full cooling period before slicing. If still loose once cool, serve with a spoon; cooling cannot repair discarded or scorched filling."
+          }
+        ],
+        "timing": "Allow about 4–5 hours from ingredients: dough at least 1 hour, apple cooking and juice reduction plus complete filling cooling, rolling/assembly, roughly 50–65 minutes baking and at least 2 hours cooling. Filling work overlaps the dough chill; additional skillet or oven rounds add time.",
+        "substitutions": [
+          {
+            "ingredient": "Vodka dough and spiced filling",
+            "alternative": "Egg-dough and milder-spice route",
+            "effect": "For the original pie use 2½ cups flour, 14 tbsp cold butter, 4 tsp dough sugar and ¼ tsp fine salt. Omit all vodka and the listed 2 tbsp plain-water addition; beat one large egg with 2 tbsp cold water, then mix it into the dry ingredients and butter by hand or with a few processor pulses. If still dry, this egg-dough route permits up to 1 tbsp additional cold water. Chill at least 1 hour. For its filling, keep 3 lb apples, ⅔ cup sugar and ¼ cup butter, but use 2 tbsp lemon juice, ¼ tsp cinnamon and a generous pinch of nutmeg instead of the main route’s lemon and spices. Start apples over medium-high heat until sugar dissolves and simmering begins, about 2 minutes; cover, lower to medium-low and cook about 7 minutes or until softened. Drain and retain all juices; simmer them to a thick lightly caramelized syrup, often about 10 minutes. Recombine all fruit, syrup and spices and cool completely. Roll equal dough halves to 11–12 inches for the original 9-inch pie and chill the rounds at least 10 minutes. Use a separate large beaten egg for sealing/brushing and separate unmeasured sugar for the top; cut vents and refrigerate the assembled pie at least 15 minutes before baking at 375°F in the lower third until golden, starting checks around 50 minutes. Keep the same at-least 2-hour cooling plan. Scale measured amounts proportionally; salt types and egg/vodka liquids are not equivalent substitutions."
+          },
+          {
+            "ingredient": "Freshly assembled egg-dough pie",
+            "alternative": "Unbaked freeze-ahead option",
+            "effect": "Use the complete egg-dough variation above, but omit the wash and top sugar before freezing. Firm the assembled pie for 30 minutes in the freezer, wrap it twice and keep it frozen for up to 6 months for quality. Use only a pie plate whose actual instructions permit the freezer-to-oven transition; if they do not, do not use this direct-frozen route. Unwrap, add its separate egg wash and topping sugar, and bake from frozen at 375°F until the crust is baked and golden and filling juices bubble, beginning checks around 1 hour 10 minutes for the original-size pie. Frozen loading and actual pan instructions can change elapsed time; the ordinary fresh-pie clock is not interchangeable."
+          }
+        ],
+        "storage": "Keep the baked apple pie covered at room temperature for up to 24 hours or refrigerated for up to 4 days; this applies to the baked fruit pie, not the cider custard or a whipped-cream topping. Refrigerate cooked filling made ahead and use within 2 days. Keep any dairy accompaniment cold and store it separately. For the complete egg-dough variation, the saved Food Network recipe also allows its cooked apple filling to be frozen separately for up to 6 months for quality. Refrigerate it promptly after cooking, then freeze in a suitable covered container; thaw in the refrigerator and use the cooled filling for assembly. Keep this filling-only option distinct from the modern assembled, unbaked pie option; do not transfer its frozen-pie baking clock to the separate filling.",
+        "sources": [
+          {
+            "title": "Food Network Kitchen — Apple Pie",
+            "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dough",
+            "name": "Vodka dough",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "2 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 14,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ],
+                "preparation": "ice cold and cubed"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vodka",
+                "key": "vodka",
+                "name": "ice-cold vodka",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "ice-cold water",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rolling-flour",
+                "key": "rolling-flour",
+                "name": "all-purpose flour",
+                "allowance": "for rolling",
+                "uses": [
+                  {
+                    "step": "roll",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "filling",
+            "name": "Apples",
+            "ingredients": [
+              {
+                "id": "apples",
+                "key": "apples",
+                "name": "baking apples",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "apples",
+                    "share": 1
+                  }
+                ],
+                "preparation": "Granny Smith or Mutsu, washed before peeling, cored and sliced"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "2/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "apples",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "butter",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "apples",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lemon",
+                "key": "lemon",
+                "name": "lemon juice",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "apples",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "ground nutmeg",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Egg wash and sugar",
+            "ingredients": [
+              {
+                "id": "egg",
+                "key": "egg",
+                "name": "egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wash",
+                    "share": 1
+                  }
+                ],
+                "plural": "eggs",
+                "preparation": "beaten for brushing; unused wash may remain"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "allowance": "for sprinkling the top",
+                "uses": [
+                  {
+                    "step": "wash",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "dough",
+            "title": "Make dough",
+            "text": "Pulse {{ingredients}} in this order: flour, dough sugar, salt and butter until coarse meal and pea-size butter pieces remain; then add all vodka and measured water and pulse briefly until the dough holds when pressed. Gather by hand without kneading smooth. Wrap and refrigerate for at least 1 hour. If the mixture cannot hold together with the listed liquid, stop and check the measurements rather than replacing vodka with an assumed equal egg mixture."
+          },
+          {
+            "id": "apples",
+            "title": "Cook apples",
+            "text": "Use {{ingredients}} as follows: toss all peeled, cored slices with lemon juice and filling sugar. Melt all filling butter in a large skillet over medium heat, add the apples and cook, stirring, starting checks around 7 minutes until they release juice and begin to soften. Continue as needed for the actual apple variety and slice thickness. Use suitable extra skillet rounds when scaling, retaining all fruit, butter and juice."
+          },
+          {
+            "id": "reduce",
+            "title": "Reduce juices and cool",
+            "text": "Strain apples in a colander over a clean bowl, catching all the juice. Return that juice to the skillet and simmer, beginning checks around 5–8 minutes, until thick and syrupy; stop before it scorches. Toss all the reduction and {{ingredients}} back with the apples. Let the filling cool completely before assembly."
+          },
+          {
+            "id": "roll",
+            "title": "Roll and fill",
+            "text": "Use {{ingredients}} lightly on the work surface. Divide dough into equal halves for bottom and top. For the original batch, roll each half to roughly 11–12 inches and fit the bottom into a 9-inch pie plate, leaving enough overhang to seal. Add all cooled apples and syrup, mounding slightly if needed without forcing an overfull pan. Cover with the second round and seal/crimp the edges. Cut four steam vents; keep the dough cold, returning it to the refrigerator if it softens."
+          },
+          {
+            "id": "wash",
+            "title": "Wash and sprinkle",
+            "text": "Use {{ingredients}} to brush a thin coat over the sealed crust and sprinkle the separate topping sugar. Do not take sugar from the filling or dough. Discard unused raw egg wash and clean its tools before handling the baked pie."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Heat the oven to 375°F with a rack in the lower third. Place the pie on a rimmed baking sheet to catch spills. Begin checking around 50 minutes for the original-size pie, continuing until the crust is well baked and golden and filling juices bubble through the vents. Cover a browning edge with foil if needed; a fixed 50-minute clock does not establish a finished crust in every oven."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Cool on a rack for at least 2 hours before slicing so the hot filling settles. Keep the cooked-apple juices in the pie; a short rest produces looser slices."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA restaurant-quality apple pie requires **Physics**. We use the **Vodka Hack**: replacing half the water with cold vodka prevents gluten from forming (alcohol doesn't trigger gluten), resulting in a crust that is impossibly flaky and easy to roll. We also **Pre-Cook the Filling**: by sautéing the apples and reducing their juices into a caramel before baking, we prevent the \"soggy bottom\" and ensure the pie has no massive air gap under the top crust.\n\n## Directions\n\n1.  **The Crust:** Pulse flour, sugar, salt, and butter in a food processor until pea-sized bits remain. Add vodka and water. Pulse until just combined. Wrap in plastic and **chill for at least 1 hour**.\n2.  **The Filling:** Peel and slice apples. Toss with lemon juice and sugar.\n3.  **The Reduction:** In a large skillet, melt butter. Add apples and cook for 7 minutes until they release their juices. Drain apples in a colander, **catching the juice**.\n4.  **Caramelize:** Return the juice to the skillet. Boil for 5-8 minutes until it turns into a thick syrup. Toss the syrup and spices back with the apples. Let cool completely.\n5.  **Roll:** Roll out bottom crust. Fill with cooled apples. Roll out top crust and seal edges. Cut 4 steam vents.\n6.  **Wash:** Brush with beaten egg and sprinkle with sugar.\n7.  **Bake:** Bake at 375°F for 50 minutes on the **lowest rack** (to ensure the bottom crust gets direct heat).\n8.  **Cool:** Let cool for at least 2 hours before slicing.\n",
+    "after": "\n## Chef's Note\n\nCook the apples until they start to soften, catch every drop of their juice and reduce it to a syrup before returning it to the fruit. Cool the filling before enclosing it in cold pastry. The vodka dough and the egg dough use different liquids and seasoning; choose a complete route rather than mixing the two.\n\n## Directions\n\n1. **Make dough:** Pulse all-purpose flour, unsalted butter, granulated sugar, kosher salt, ice-cold vodka, and ice-cold water in this order: flour, dough sugar, salt and butter until coarse meal and pea-size butter pieces remain; then add all vodka and measured water and pulse briefly until the dough holds when pressed. Gather by hand without kneading smooth. Wrap and refrigerate for at least 1 hour. If the mixture cannot hold together with the listed liquid, stop and check the measurements rather than replacing vodka with an assumed equal egg mixture.\n2. **Cook apples:** Use baking apples, granulated sugar, butter, and lemon juice as follows: toss all peeled, cored slices with lemon juice and filling sugar. Melt all filling butter in a large skillet over medium heat, add the apples and cook, stirring, starting checks around 7 minutes until they release juice and begin to soften. Continue as needed for the actual apple variety and slice thickness. Use suitable extra skillet rounds when scaling, retaining all fruit, butter and juice.\n3. **Reduce juices and cool:** Strain apples in a colander over a clean bowl, catching all the juice. Return that juice to the skillet and simmer, beginning checks around 5–8 minutes, until thick and syrupy; stop before it scorches. Toss all the reduction and ground cinnamon and ground nutmeg back with the apples. Let the filling cool completely before assembly.\n4. **Roll and fill:** Use all-purpose flour lightly on the work surface. Divide dough into equal halves for bottom and top. For the original batch, roll each half to roughly 11–12 inches and fit the bottom into a 9-inch pie plate, leaving enough overhang to seal. Add all cooled apples and syrup, mounding slightly if needed without forcing an overfull pan. Cover with the second round and seal/crimp the edges. Cut four steam vents; keep the dough cold, returning it to the refrigerator if it softens.\n5. **Wash and sprinkle:** Use egg and granulated sugar to brush a thin coat over the sealed crust and sprinkle the separate topping sugar. Do not take sugar from the filling or dough. Discard unused raw egg wash and clean its tools before handling the baked pie.\n6. **Bake:** Heat the oven to 375°F with a rack in the lower third. Place the pie on a rimmed baking sheet to catch spills. Begin checking around 50 minutes for the original-size pie, continuing until the crust is well baked and golden and filling juices bubble through the vents. Cover a browning edge with foil if needed; a fixed 50-minute clock does not establish a finished crust in every oven.\n7. **Cool:** Cool on a rack for at least 2 hours before slicing so the hot filling settles. Keep the cooked-apple juices in the pie; a short rest produces looser slices.\n"
+  },
+  "findings": [
+    {
+      "id": "PT05-apple-pie",
+      "rationale": "1684 bulk rewrite replaced exact saved egg dough,4tsp sugar/¼tsp fine salt/2tbsp lemon/¼tsp cinnamon/pinch nutmeg with current vodka dough,1tbsp sugar/1tsp kosher/1tbsp lemon/1tsp cinnamon/¼tsp nutmeg. No later explicit household rejection of saved route established. Preserve all current main amounts and full18tbsp-equivalent butter total; expose complete exclusive saved route instead of claiming equal liquids or salt densities. Add method-only rolling flour and topping sugar allowances. Restore actual9-inch geometry and source lower-third rack/cold handling; avoid guarantees of zero gluten/no soggy crust. Listed8 remains planning within saved6–8range; no manufactured yield. Current dough liquid sufficiency remains a kitchen question, not a new water dose. The assembled whole-pie unbaked-freeze option comes from the actually fetched modern Food Network Cook’s Note; the exact bound native, b7 HTML and 045 Markdown retain only the prepared-filling freezer instruction. It is a separate modern option, not a restoration of a saved whole-pie branch.",
+      "confidence": "High exact quantity/history preservation; moderate planning, sensory/capacity and safety application. Kitchen untested.",
+      "applicableSources": [
+        {
+          "key": "Apple",
+          "title": "Food Network Kitchen — Apple Pie",
+          "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423",
+          "scope": "Saved egg-dough and prepared-filling freezer advice derive from exact bound native and actual b7/045 Git. The separate assembled unbaked-pie freezer option comes from the actually fetched modern Food Network Cook’s Note, not those saved versions."
+        },
+        {
+          "key": "FDA",
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, separation, refrigerated40°F/perishable2h or1h above90°F and leftover165°F guidance only; no pastry formula or timing validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual current vodka-dough hydration and ability to gather with its listed4tbsp total liquid need kitchen checking; do not infer an extra dose.",
+        "Actual9-inch pan depth, cooked apple volume, apple variety and slice thickness affect capacity and timing.",
+        "Saved egg-dough source and current vodka route remain distinct proposals, not accepted equivalent textures or salt amounts."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Apple%20Pie.html",
+    "introductionScope": "Actual earlier cooking HTML directly inspected; full canonical followed history retained",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "1684 bulk rewrite replaced exact saved egg dough,4tsp sugar/¼tsp fine salt/2tbsp lemon/¼tsp cinnamon/pinch nutmeg with current vodka dough,1tbsp sugar/1tsp kosher/1tbsp lemon/1tsp cinnamon/¼tsp nutmeg. No later explicit household rejection of saved route established. Preserve all current main amounts and full18tbsp-equivalent butter total; expose complete exclusive saved route instead of claiming equal liquids or salt densities. Add method-only rolling flour and topping sugar allowances. Restore actual9-inch geometry and source lower-third rack/cold handling; avoid guarantees of zero gluten/no soggy crust. Listed8 remains planning within saved6–8range; no manufactured yield. Current dough liquid sufficiency remains a kitchen question, not a new water dose. The assembled whole-pie unbaked-freeze option comes from the actually fetched modern Food Network Cook’s Note; the exact bound native, b7 HTML and 045 Markdown retain only the prepared-filling freezer instruction. It is a separate modern option, not a restoration of a saved whole-pie branch.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 1/2 cups All-Purpose Flour",
+        "actualMethodDestination": "Dough1 flour"
+      },
+      {
+        "text": "14 tbsp Unsalted Butter, ice cold and cubed",
+        "actualMethodDestination": "Dough1 all14tbsp butter"
+      },
+      {
+        "text": "1 tbsp Sugar",
+        "actualMethodDestination": "Dough1 sugar"
+      },
+      {
+        "text": "1 tsp Kosher Salt",
+        "actualMethodDestination": "Dough1 kosher salt"
+      },
+      {
+        "text": "2 tbsp Vodka (ice cold - The flakiness secret)",
+        "actualMethodDestination": "Dough1 vodka"
+      },
+      {
+        "text": "2 tbsp Water (ice cold)",
+        "actualMethodDestination": "Dough1 water"
+      },
+      {
+        "text": "3 lbs Baking Apples (Granny Smith or Mutsu)",
+        "actualMethodDestination": "Filling2→3 all apples"
+      },
+      {
+        "text": "2/3 cup Sugar",
+        "actualMethodDestination": "Filling2 all sugar→captured juice3/4"
+      },
+      {
+        "text": "1/4 cup Butter",
+        "actualMethodDestination": "Filling3 butter→all fruit/juice4"
+      },
+      {
+        "text": "1 tbsp Lemon Juice",
+        "actualMethodDestination": "Filling2 lemon"
+      },
+      {
+        "text": "1 tsp Cinnamon + 1/4 tsp Nutmeg",
+        "actualMethodDestination": "Spices4 all cinnamon/nutmeg"
+      },
+      {
+        "text": "1 Egg (for wash)",
+        "actualMethodDestination": "Wash6 raw egg; unused quantity not addressed"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 1/2 cups all-purpose flour",
+        "id": "dough.flour",
+        "quantity": {
+          "amount": "2 1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "14 tbsp unsalted butter, ice cold and cubed",
+        "id": "dough.butter",
+        "quantity": {
+          "amount": 14,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "preparation": "ice cold and cubed"
+      },
+      {
+        "text": "1 tbsp granulated sugar",
+        "id": "dough.sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tsp kosher salt",
+        "id": "dough.salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "2 tbsp ice-cold vodka",
+        "id": "dough.vodka",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "2 tbsp ice-cold water",
+        "id": "dough.water",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "all-purpose flour, for rolling",
+        "id": "dough.rolling-flour",
+        "quantity": null,
+        "allowance": "for rolling",
+        "uses": [
+          {
+            "step": "roll",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "3 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "id": "filling.apples",
+        "quantity": {
+          "amount": 3,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "apples",
+            "share": 1
+          }
+        ],
+        "preparation": "Granny Smith or Mutsu, washed before peeling, cored and sliced"
+      },
+      {
+        "text": "2/3 cup granulated sugar",
+        "id": "filling.sugar",
+        "quantity": {
+          "amount": "2/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "apples",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/4 cup butter",
+        "id": "filling.butter",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "apples",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tbsp lemon juice",
+        "id": "filling.lemon",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "apples",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tsp ground cinnamon",
+        "id": "filling.cinnamon",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "reduce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/4 tsp ground nutmeg",
+        "id": "filling.nutmeg",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "reduce",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 egg, beaten for brushing; unused wash may remain",
+        "id": "finish.egg",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "wash",
+            "share": 1
+          }
+        ],
+        "preparation": "beaten for brushing; unused wash may remain"
+      },
+      {
+        "text": "granulated sugar, for sprinkling the top",
+        "id": "finish.sugar",
+        "quantity": null,
+        "allowance": "for sprinkling the top",
+        "uses": [
+          {
+            "step": "wash",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Vodka dough and spiced filling",
+        "alternative": "Egg-dough and milder-spice route",
+        "effect": "For the original pie use 2½ cups flour, 14 tbsp cold butter, 4 tsp dough sugar and ¼ tsp fine salt. Omit all vodka and the listed 2 tbsp plain-water addition; beat one large egg with 2 tbsp cold water, then mix it into the dry ingredients and butter by hand or with a few processor pulses. If still dry, this egg-dough route permits up to 1 tbsp additional cold water. Chill at least 1 hour. For its filling, keep 3 lb apples, ⅔ cup sugar and ¼ cup butter, but use 2 tbsp lemon juice, ¼ tsp cinnamon and a generous pinch of nutmeg instead of the main route’s lemon and spices. Start apples over medium-high heat until sugar dissolves and simmering begins, about 2 minutes; cover, lower to medium-low and cook about 7 minutes or until softened. Drain and retain all juices; simmer them to a thick lightly caramelized syrup, often about 10 minutes. Recombine all fruit, syrup and spices and cool completely. Roll equal dough halves to 11–12 inches for the original 9-inch pie and chill the rounds at least 10 minutes. Use a separate large beaten egg for sealing/brushing and separate unmeasured sugar for the top; cut vents and refrigerate the assembled pie at least 15 minutes before baking at 375°F in the lower third until golden, starting checks around 50 minutes. Keep the same at-least 2-hour cooling plan. Scale measured amounts proportionally; salt types and egg/vodka liquids are not equivalent substitutions."
+      },
+      {
+        "ingredient": "Freshly assembled egg-dough pie",
+        "alternative": "Unbaked freeze-ahead option",
+        "effect": "Use the complete egg-dough variation above, but omit the wash and top sugar before freezing. Firm the assembled pie for 30 minutes in the freezer, wrap it twice and keep it frozen for up to 6 months for quality. Use only a pie plate whose actual instructions permit the freezer-to-oven transition; if they do not, do not use this direct-frozen route. Unwrap, add its separate egg wash and topping sugar, and bake from frozen at 375°F until the crust is baked and golden and filling juices bubble, beginning checks around 1 hour 10 minutes for the original-size pie. Frozen loading and actual pan instructions can change elapsed time; the ordinary fresh-pie clock is not interchangeable."
+      }
+    ],
+    "methodOnlyFrozen": "Rolling flour, topping or finishing supplies are separate genuine allowances where explicitly authored; complete exact formula enumerates each."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Make dough: Pulse all-purpose flour, unsalted butter, granulated sugar, kosher salt, ice-cold vodka, and ice-cold water in this order: flour, dough sugar, salt and butter until coarse meal and pea-size butter pieces remain; then add all vodka and measured water and pulse briefly until the dough holds when pressed. Gather by hand without kneading smooth. Wrap and refrigerate for at least 1 hour. If the mixture cannot hold together with the listed liquid, stop and check the measurements rather than replacing vodka with an assumed equal egg mixture."
+    },
+    {
+      "step": 2,
+      "text": "Cook apples: Use baking apples, granulated sugar, butter, and lemon juice as follows: toss all peeled, cored slices with lemon juice and filling sugar. Melt all filling butter in a large skillet over medium heat, add the apples and cook, stirring, starting checks around 7 minutes until they release juice and begin to soften. Continue as needed for the actual apple variety and slice thickness. Use suitable extra skillet rounds when scaling, retaining all fruit, butter and juice."
+    },
+    {
+      "step": 3,
+      "text": "Reduce juices and cool: Strain apples in a colander over a clean bowl, catching all the juice. Return that juice to the skillet and simmer, beginning checks around 5–8 minutes, until thick and syrupy; stop before it scorches. Toss all the reduction and ground cinnamon and ground nutmeg back with the apples. Let the filling cool completely before assembly."
+    },
+    {
+      "step": 4,
+      "text": "Roll and fill: Use all-purpose flour lightly on the work surface. Divide dough into equal halves for bottom and top. For the original batch, roll each half to roughly 11–12 inches and fit the bottom into a 9-inch pie plate, leaving enough overhang to seal. Add all cooled apples and syrup, mounding slightly if needed without forcing an overfull pan. Cover with the second round and seal/crimp the edges. Cut four steam vents; keep the dough cold, returning it to the refrigerator if it softens."
+    },
+    {
+      "step": 5,
+      "text": "Wash and sprinkle: Use egg and granulated sugar to brush a thin coat over the sealed crust and sprinkle the separate topping sugar. Do not take sugar from the filling or dough. Discard unused raw egg wash and clean its tools before handling the baked pie."
+    },
+    {
+      "step": 6,
+      "text": "Bake: Heat the oven to 375°F with a rack in the lower third. Place the pie on a rimmed baking sheet to catch spills. Begin checking around 50 minutes for the original-size pie, continuing until the crust is well baked and golden and filling juices bubble through the vents. Cover a browning edge with foil if needed; a fixed 50-minute clock does not establish a finished crust in every oven."
+    },
+    {
+      "step": 7,
+      "text": "Cool: Cool on a rack for at least 2 hours before slicing so the hot filling settles. Keep the cooked-apple juices in the pie; a short rest produces looser slices."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Vodka dough and spiced filling",
+      "alternative": "Egg-dough and milder-spice route",
+      "effect": "For the original pie use 2½ cups flour, 14 tbsp cold butter, 4 tsp dough sugar and ¼ tsp fine salt. Omit all vodka and the listed 2 tbsp plain-water addition; beat one large egg with 2 tbsp cold water, then mix it into the dry ingredients and butter by hand or with a few processor pulses. If still dry, this egg-dough route permits up to 1 tbsp additional cold water. Chill at least 1 hour. For its filling, keep 3 lb apples, ⅔ cup sugar and ¼ cup butter, but use 2 tbsp lemon juice, ¼ tsp cinnamon and a generous pinch of nutmeg instead of the main route’s lemon and spices. Start apples over medium-high heat until sugar dissolves and simmering begins, about 2 minutes; cover, lower to medium-low and cook about 7 minutes or until softened. Drain and retain all juices; simmer them to a thick lightly caramelized syrup, often about 10 minutes. Recombine all fruit, syrup and spices and cool completely. Roll equal dough halves to 11–12 inches for the original 9-inch pie and chill the rounds at least 10 minutes. Use a separate large beaten egg for sealing/brushing and separate unmeasured sugar for the top; cut vents and refrigerate the assembled pie at least 15 minutes before baking at 375°F in the lower third until golden, starting checks around 50 minutes. Keep the same at-least 2-hour cooling plan. Scale measured amounts proportionally; salt types and egg/vodka liquids are not equivalent substitutions."
+    },
+    {
+      "ingredient": "Freshly assembled egg-dough pie",
+      "alternative": "Unbaked freeze-ahead option",
+      "effect": "Use the complete egg-dough variation above, but omit the wash and top sugar before freezing. Firm the assembled pie for 30 minutes in the freezer, wrap it twice and keep it frozen for up to 6 months for quality. Use only a pie plate whose actual instructions permit the freezer-to-oven transition; if they do not, do not use this direct-frozen route. Unwrap, add its separate egg wash and topping sugar, and bake from frozen at 375°F until the crust is baked and golden and filling juices bubble, beginning checks around 1 hour 10 minutes for the original-size pie. Frozen loading and actual pan instructions can change elapsed time; the ordinary fresh-pie clock is not interchangeable."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-cider-cream-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream",
+      "cranberry-crunch"
+    ],
+    "incomingMeals": [],
+    "scope": "All linked current recipes read in full; metadata pairings are optional separate recipes, not ingredient substitutions or a combined service review. Ice cream, cakes and pudding need their own long cooling/churn/chill plans; goat tart shares an oven with400/425°F bread/gratin and350°F Tarragon potatoes and needs scheduling rather than implied simultaneous clocks.",
+    "componentPreparation": "Prepared pesto is an ingredient only in the galette; no linked recipe substitutes automatically. No incoming composed meal references found for these six."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": {
+      "formulaReview": "1684 bulk rewrite replaced exact saved egg dough,4tsp sugar/¼tsp fine salt/2tbsp lemon/¼tsp cinnamon/pinch nutmeg with current vodka dough,1tbsp sugar/1tsp kosher/1tbsp lemon/1tsp cinnamon/¼tsp nutmeg. No later explicit household rejection of saved route established. Preserve all current main amounts and full18tbsp-equivalent butter total; expose complete exclusive saved route instead of claiming equal liquids or salt densities. Add method-only rolling flour and topping sugar allowances. Restore actual9-inch geometry and source lower-third rack/cold handling; avoid guarantees of zero gluten/no soggy crust. Listed8 remains planning within saved6–8range; no manufactured yield. Current dough liquid sufficiency remains a kitchen question, not a new water dose. The assembled whole-pie unbaked-freeze option comes from the actually fetched modern Food Network Cook’s Note; the exact bound native, b7 HTML and 045 Markdown retain only the prepared-filling freezer instruction. It is a separate modern option, not a restoration of a saved whole-pie branch.",
+      "capacity": "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+      "yield": "Existing original-batch planning count retained; structured portions make no precision/weight claim. KeyLime retains one9-inch pie.",
+      "timing": "Allow about 4–5 hours from ingredients: dough at least 1 hour, apple cooking and juice reduction plus complete filling cooling, rolling/assembly, roughly 50–65 minutes baking and at least 2 hours cooling. Filling work overlaps the dough chill; additional skillet or oven rounds add time."
+    },
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Allow about 4–5 hours from ingredients: dough at least 1 hour, apple cooking and juice reduction plus complete filling cooling, rolling/assembly, roughly 50–65 minutes baking and at least 2 hours cooling. Filling work overlaps the dough chill; additional skillet or oven rounds add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "5/8 cup all-purpose flour",
+        "3 1/2 tbsp unsalted butter, ice cold and cubed",
+        "1/4 tbsp granulated sugar",
+        "1/4 tsp kosher salt",
+        "1/2 tbsp ice-cold vodka",
+        "1/2 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "3/4 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "1/6 cup granulated sugar",
+        "0.0625 cup butter",
+        "1/4 tbsp lemon juice",
+        "1/4 tsp ground cinnamon",
+        "0.0625 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "1/4 egg, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "1 1/4 cups all-purpose flour",
+        "7 tbsp unsalted butter, ice cold and cubed",
+        "1/2 tbsp granulated sugar",
+        "1/2 tsp kosher salt",
+        "1 tbsp ice-cold vodka",
+        "1 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "1 1/2 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "1/3 cup granulated sugar",
+        "1/8 cup butter",
+        "1/2 tbsp lemon juice",
+        "1/2 tsp ground cinnamon",
+        "1/8 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "1/2 egg, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "2 1/2 cups all-purpose flour",
+        "14 tbsp unsalted butter, ice cold and cubed",
+        "1 tbsp granulated sugar",
+        "1 tsp kosher salt",
+        "2 tbsp ice-cold vodka",
+        "2 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "3 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "2/3 cup granulated sugar",
+        "1/4 cup butter",
+        "1 tbsp lemon juice",
+        "1 tsp ground cinnamon",
+        "1/4 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "1 egg, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "3 3/4 cups all-purpose flour",
+        "21 tbsp unsalted butter, ice cold and cubed",
+        "1 1/2 tbsp granulated sugar",
+        "1 1/2 tsp kosher salt",
+        "3 tbsp ice-cold vodka",
+        "3 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "4 1/2 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "1 cup granulated sugar",
+        "3/8 cup butter",
+        "1 1/2 tbsp lemon juice",
+        "1 1/2 tsp ground cinnamon",
+        "3/8 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "1 1/2 eggs, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "5 cups all-purpose flour",
+        "28 tbsp unsalted butter, ice cold and cubed",
+        "2 tbsp granulated sugar",
+        "2 tsp kosher salt",
+        "4 tbsp ice-cold vodka",
+        "4 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "6 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "1 1/3 cups granulated sugar",
+        "1/2 cup butter",
+        "2 tbsp lemon juice",
+        "2 tsp ground cinnamon",
+        "1/2 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "2 eggs, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "16 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "7 1/2 cups all-purpose flour",
+        "42 tbsp unsalted butter, ice cold and cubed",
+        "3 tbsp granulated sugar",
+        "3 tsp kosher salt",
+        "6 tbsp ice-cold vodka",
+        "6 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "9 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "2 cups granulated sugar",
+        "3/4 cup butter",
+        "3 tbsp lemon juice",
+        "3 tsp ground cinnamon",
+        "3/4 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "3 eggs, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "24 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Vodka dough ---",
+        "2 1/2 cups all-purpose flour",
+        "14 tbsp unsalted butter, ice cold and cubed",
+        "1 tbsp granulated sugar",
+        "1 tsp kosher salt",
+        "2 tbsp ice-cold vodka",
+        "2 tbsp ice-cold water",
+        "all-purpose flour, for rolling",
+        "--- Apples ---",
+        "3 lb baking apples, Granny Smith or Mutsu, washed before peeling, cored and sliced",
+        "2/3 cup granulated sugar",
+        "1/4 cup butter",
+        "1 tbsp lemon juice",
+        "1 tsp ground cinnamon",
+        "1/4 tsp ground nutmeg",
+        "--- Egg wash and sugar ---",
+        "1 egg, beaten for brushing; unused wash may remain",
+        "granulated sugar, for sprinkling the top"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "Every identity/title/source URL/cuisine/current scaling control and defining fat/sugar/salt quantity retained, with complete source/current alternatives explicitly separated. Held Grandmommy remains unchanged.",
+  "remainingQuestions": [
+    "Actual current vodka-dough hydration and ability to gather with its listed4tbsp total liquid need kitchen checking; do not infer an extra dose.",
+    "Actual9-inch pan depth, cooked apple volume, apple variety and slice thickness affect capacity and timing.",
+    "Saved egg-dough source and current vodka route remain distinct proposals, not accepted equivalent textures or salt amounts."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

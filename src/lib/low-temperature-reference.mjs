@@ -20,6 +20,15 @@ export function hasLowTemperatureReference(content, words) {
   }
   if (hasFinishedEndpoint) {
     text = text.replace(/[^.!?\n]+[.!?]?/g, (sentence) => {
+      // A named shrimp endpoint with its doneness cues is separate from a
+      // separately finished poultry branch. Retain other low temperatures,
+      // mixed shrimp/poultry sentences and named low-temperature methods.
+      if (/\bshrimp\b/.test(sentence) && !/\b(?:chicken|turkey|poultry)\b/.test(sentence)) {
+        sentence = sentence.replace(
+          /(\buntil\s+(?:the\s+flesh\s+is\s+)?firm,\s*pearly\s+and\s+opaque\s+throughout;\s*check\s+thick\s+centers(?:\s+with\s+a\s+thin\s+probe)?\s+for\s+)145°f\b/g,
+          '$1'
+        );
+      }
       if (!/\bat least\s+3\s+minutes\s+before serving\b/.test(sentence)) return sentence;
       return sentence.replace(
         /\bsliced pork\s+reaches?\s+(?:at least\s+)?145°f(?:\s*\/\s*63°c)?/g,

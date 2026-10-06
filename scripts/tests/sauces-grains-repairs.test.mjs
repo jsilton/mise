@@ -36,9 +36,15 @@ test('Alfredo is usable without cooking pasta and tomato sauce uses its alternat
 test('orzo requires fully cooked sausage and schedules optional peas', () => {
   const { data, content } = read('broccolini-chicken-sausage-and-orzo-skillet');
   assert.ok(data.ingredients.some((x) => x.startsWith('8 oz fully cooked')));
-  assert.match(content, /Raw chicken sausage is not a direct substitute/);
-  assert.match(content, /frozen peas instead, skip this step/);
-  assert.match(content, /pasta is firm, add a little hot water/);
+  assert.match(
+    content,
+    /Raw chicken sausage needs its own complete cooking method and is not a direct substitute/
+  );
+  assert.match(content, /frozen peas instead, omit all broccolini and skip this sauté/);
+  assert.match(
+    content,
+    /If the pan is dry while the center is firm, add a little of the hot-water allowance and continue/
+  );
 });
 test('avocado sauce reserves optional water without mandatory dilution', () => {
   const { data, content } = read('creamy-avocado-pasta');

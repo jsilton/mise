@@ -1,0 +1,504 @@
+{
+  "slug": "key-lime-pie-with-lime-zest",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "57bfc7ce855ea12e2f2dd5f954242972ce3ad6d4f668c74258a8a87a47525251",
+  "acceptedSourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "For the filling:",
+        "1 14-ounce can sweetened condensed milk",
+        "1/2 cup lime juice",
+        "4 teaspoons lime zest",
+        "4 large egg yolks",
+        "1 pinch salt",
+        "For the crust:",
+        "11 graham crackers or about 1 1/4 cups crumbs",
+        "3 tablespoons granulated sugar",
+        "1 pinch salt",
+        "5 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1 cup heavy cream"
+      ],
+      "after": [
+        "For the filling:",
+        "1 14-ounce can sweetened condensed milk",
+        "1/2 cup lime juice",
+        "4 teaspoons lime zest",
+        "4 large egg yolks",
+        "1 pinch salt",
+        "For the crust:",
+        "11 graham crackers or 1 1/4 cups crumbs (approximate volume)",
+        "3 tablespoons granulated sugar",
+        "1 pinch salt",
+        "5 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1 cup heavy cream"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "food52.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Bake and chill a zest-rich lime custard",
+        "outcome": "A fully cold set filling above a baked crumb crust and softly whipped cream.",
+        "techniques": ["temperature"],
+        "before": [
+          "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+          "Choose either the listed graham crackers or the approximate crumb-volume option, not both. Brands and cracker sizes vary, so choose the cracker-count or crumb-volume option appropriate to the supply being used.",
+          "If preparing lime juice and zest from whole fruit, wash and dry it first, then measure the listed supplies. Keep raw-egg utensils separate from the whipped-cream tools."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The central filling reaches 160°F with set edges and only slight central movement.",
+            "why": "Lime-induced thickening and a fixed clock do not establish egg cooking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Slices are loose",
+            "cause": "The filling is still warm or did not finish baking/chilling.",
+            "fix": "Chill until completely cold before cutting. If it remains loose when cold, serve portions with a spoon; chilling does not cook an underbaked filling."
+          }
+        ],
+        "timing": "The existing 4 hours 30 minutes-or-longer plan includes preparation, roughly 10–12 minutes crust baking plus 15–17 minutes filling baking, brief cooling and at least 3 hours refrigerator chilling. Extra pies, colder filling, different plates and slower chilling add time.",
+        "substitutions": [],
+        "storage": "Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Keep covered once cold. Use within 3–4 days, or sooner if a dairy ingredient needs using sooner. Keep topped pie cold; freezing can damage the custard and whipped cream.",
+        "sources": [
+          {
+            "title": "Food52 — Key Lime Pie",
+            "url": "https://food52.com/recipes/33481-key-lime-pie"
+          },
+          {
+            "title": "FDA — Egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage chart",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nLime zest gives this version a more aromatic filling. Bake the crust before filling it, then check the custard with a thermometer; lime juice thickening alone does not cook the eggs.\n\n## Directions\n\n1. **Mix filling:** Whisk condensed milk, lime juice, lime zest, egg yolks and the filling salt together. Set aside while preparing the crust.\n\n2. **Make crust:** Heat oven to 350°F. Process graham crackers to fine crumbs. Add the crust sugar and salt, then pulse in melted butter until the mixture resembles wet sand.\n\n3. **Bake crust:** Press the crumb mixture evenly into the bottom and sides of a nine-inch pie dish. Bake about 10–12 minutes, until lightly golden and fragrant. Cool briefly.\n\n4. **Bake filling:** Give the filling a final whisk and pour it into the crust. Reduce oven to 325°F and bake about 15–17 minutes, until set around the edges with slight movement in the center. Check for 160°F / 71°C in the filling and continue gently if needed.\n\n5. **Chill:** Cool on a rack, then refrigerate within two hours of leaving the oven. Chill at least three hours or overnight until fully set.\n\n6. **Finish:** Just before serving, whip the cream to soft peaks and spread it over the chilled pie.\n",
+    "after": "\n## Chef's Note\n\nLime zest gives this version a more aromatic filling. Bake the crumb crust before filling it, then check the custard with a thermometer; lime juice thickening alone does not cook the eggs.\n\n## Directions\n\n1. **Mix filling:** If using fresh limes, wash and dry them before zesting or squeezing, then measure the juice and zest. Whisk all condensed milk, lime juice, lime zest, egg yolks and filling salt together. Set aside while preparing the crust; refrigerate if preparation is delayed.\n\n2. **Make crust:** Heat the oven to 350°F. Process the chosen graham-cracker supply to fine crumbs. Add all the crust sugar and crust salt, then pulse in all melted, cooled butter until the mixture resembles wet sand. The listed cracker count and crumb volume are alternatives, not two separate supplies.\n\n3. **Bake crust:** Press all crumb mixture evenly into the bottom and sides of a 9-inch pie dish for the original batch. Bake about 10–12 minutes until lightly golden and fragrant. Cool briefly. Use separate original-size pies for multiples or appropriate smaller dishes for a reduced batch, with earlier checks; do not force extra filling into the same shell.\n\n4. **Bake filling:** Give the entire filling a final whisk and pour it into the crust. Reduce the oven to 325°F and bake about 15–17 minutes for the original pie, until set around the edges with slight movement in the center. Check for 160°F /71°C in the filling and continue gently if needed. A colder filling or different dish can take longer.\n\n5. **Chill:** Cool briefly on a rack, then refrigerate within 2 hours after baking, or 1 hour above 90°F /32°C. Chill at least 3 hours or overnight until fully cold and set through the center.\n\n6. **Finish:** Just before serving, whip all the heavy cream with clean utensils to soft peaks and spread it over the chilled pie. Keep refrigerated until serving.\n"
+  },
+  "findings": [
+    {
+      "id": "PT05-key-lime-pie-with-lime-zest",
+      "rationale": "Retain exact imported quantities, complete source method and e300/9fa160°F endpoint/full-chill repairs. Narrow improvements only: genuine produce preparation, choose-one cracker count/crumb-volume interpretation, original9-inch context and1-hour hot-weather refrigeration scope. No generated field edits or speculative formula migration required for this small legacy clarification. CurrentFood52 fetch403 honestly disclosed, not replaced with another lime formula. Remove invalid origin:food52.com, preserving American cuisine/sourceURL/title/richness.",
+      "confidence": "High exact quantity/history preservation; moderate planning, sensory/capacity and safety application. Kitchen untested.",
+      "applicableSources": [
+        {
+          "key": "Lime",
+          "title": "Food52 — Key Lime Pie",
+          "url": "https://food52.com/recipes/33481-key-lime-pie",
+          "scope": "Current fetch returns403; exact bound original and9fa/e300 source introduction/endpoint repair supply formula/method proof. No claim of current publisher reconciliation."
+        },
+        {
+          "key": "Egg",
+          "title": "FDA — Egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Home egg-containing dishes160°F and prompt refrigeration; application to cider custard editorial, retained Lime endpoint unchanged. Not evidence for dough hydration, set texture or pan capacity."
+        },
+        {
+          "key": "FDA",
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, separation, refrigerated40°F/perishable2h or1h above90°F and leftover165°F guidance only; no pastry formula or timing validation."
+        },
+        {
+          "key": "Cold",
+          "title": "FoodSafety.gov — Cold food storage chart",
+          "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+          "scope": "Baked custard/chiffon and pecan pies refrigerated3–4days. Freezer limits concern quality; no newly certified recipe shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "origin", "learning", "content"],
+      "questions": [
+        "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
+        "No current publisher comparison established becauseFood52 returned403; exact bound original/native import retained."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/key-lime-pie-with-lime-zest.md",
+    "introductionScope": "Earliest available followed canonical-path introduction; earlier HTML checked separately before finalizing",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://food52.com/recipes/33481-key-lime-pie",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Retain exact imported quantities, complete source method and e300/9fa160°F endpoint/full-chill repairs. Narrow improvements only: genuine produce preparation, choose-one cracker count/crumb-volume interpretation, original9-inch context and1-hour hot-weather refrigeration scope. No generated field edits or speculative formula migration required for this small legacy clarification. CurrentFood52 fetch403 honestly disclosed, not replaced with another lime formula. Remove invalid origin:food52.com, preserving American cuisine/sourceURL/title/richness.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "For the filling:",
+        "actualMethodDestination": "Section filling, not edible"
+      },
+      {
+        "text": "1 14-ounce can sweetened condensed milk",
+        "actualMethodDestination": "Mix1 full14oz can"
+      },
+      {
+        "text": "1/2 cup lime juice",
+        "actualMethodDestination": "Mix1 full juice"
+      },
+      {
+        "text": "4 teaspoons lime zest",
+        "actualMethodDestination": "Mix1 full zest"
+      },
+      {
+        "text": "4 large egg yolks",
+        "actualMethodDestination": "Mix1 all yolks"
+      },
+      {
+        "text": "1 pinch salt",
+        "actualMethodDestination": "Mix1 filling pinch"
+      },
+      {
+        "text": "For the crust:",
+        "actualMethodDestination": "Section crust, not edible"
+      },
+      {
+        "text": "11 graham crackers or about 1 1/4 cups crumbs",
+        "actualMethodDestination": "Crust2 entire chosen crackers OR crumbs"
+      },
+      {
+        "text": "3 tablespoons granulated sugar",
+        "actualMethodDestination": "Crust2 full sugar"
+      },
+      {
+        "text": "1 pinch salt",
+        "actualMethodDestination": "Crust2 crust pinch"
+      },
+      {
+        "text": "5 tablespoons unsalted butter, melted and cooled",
+        "actualMethodDestination": "Crust2 full5tbsp butter"
+      },
+      {
+        "text": "to serve:",
+        "actualMethodDestination": "Section serve, not edible"
+      },
+      {
+        "text": "1 cup heavy cream",
+        "actualMethodDestination": "Finish6 full cream"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "For the filling:",
+        "actualMethodDestination": "Section filling, not edible",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "1 14-ounce can sweetened condensed milk",
+        "actualMethodDestination": "Mix1 full14oz can",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "1/2 cup lime juice",
+        "actualMethodDestination": "Mix1 full juice",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "4 teaspoons lime zest",
+        "actualMethodDestination": "Mix1 full zest",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "4 large egg yolks",
+        "actualMethodDestination": "Mix1 all yolks",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "1 pinch salt",
+        "actualMethodDestination": "Mix1 filling pinch",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "For the crust:",
+        "actualMethodDestination": "Section crust, not edible",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "11 graham crackers or 1 1/4 cups crumbs (approximate volume)",
+        "actualMethodDestination": "Crust2 entire chosen crackers OR crumbs",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "3 tablespoons granulated sugar",
+        "actualMethodDestination": "Crust2 full sugar",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "1 pinch salt",
+        "actualMethodDestination": "Crust2 crust pinch",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "5 tablespoons unsalted butter, melted and cooled",
+        "actualMethodDestination": "Crust2 full5tbsp butter",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "to serve:",
+        "actualMethodDestination": "Section serve, not edible",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      },
+      {
+        "text": "1 cup heavy cream",
+        "actualMethodDestination": "Finish6 full cream",
+        "scope": "Same exact measured ingredient; section labels are not edible inputs"
+      }
+    ],
+    "variants": [],
+    "methodOnlyFrozen": "No new supplies invented."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix filling: If using fresh limes, wash and dry them before zesting or squeezing, then measure the juice and zest. Whisk all condensed milk, lime juice, lime zest, egg yolks and filling salt together. Set aside while preparing the crust; refrigerate if preparation is delayed."
+    },
+    {
+      "step": 2,
+      "text": "Make crust: Heat the oven to 350°F. Process the chosen graham-cracker supply to fine crumbs. Add all the crust sugar and crust salt, then pulse in all melted, cooled butter until the mixture resembles wet sand. The listed cracker count and crumb volume are alternatives, not two separate supplies."
+    },
+    {
+      "step": 3,
+      "text": "Bake crust: Press all crumb mixture evenly into the bottom and sides of a 9-inch pie dish for the original batch. Bake about 10–12 minutes until lightly golden and fragrant. Cool briefly. Use separate original-size pies for multiples or appropriate smaller dishes for a reduced batch, with earlier checks; do not force extra filling into the same shell."
+    },
+    {
+      "step": 4,
+      "text": "Bake filling: Give the entire filling a final whisk and pour it into the crust. Reduce the oven to 325°F and bake about 15–17 minutes for the original pie, until set around the edges with slight movement in the center. Check for 160°F /71°C in the filling and continue gently if needed. A colder filling or different dish can take longer."
+    },
+    {
+      "step": 5,
+      "text": "Chill: Cool briefly on a rack, then refrigerate within 2 hours after baking, or 1 hour above 90°F /32°C. Chill at least 3 hours or overnight until fully cold and set through the center."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Just before serving, whip all the heavy cream with clean utensils to soft peaks and spread it over the chilled pie. Keep refrigerated until serving."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingMeals": [],
+    "scope": "All linked current recipes read in full; metadata pairings are optional separate recipes, not ingredient substitutions or a combined service review. Ice cream, cakes and pudding need their own long cooling/churn/chill plans; goat tart shares an oven with400/425°F bread/gratin and350°F Tarragon potatoes and needs scheduling rather than implied simultaneous clocks.",
+    "componentPreparation": "Prepared pesto is an ingredient only in the galette; no linked recipe substitutes automatically. No incoming composed meal references found for these six."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": {
+      "formulaReview": "Retain exact imported quantities, complete source method and e300/9fa160°F endpoint/full-chill repairs. Narrow improvements only: genuine produce preparation, choose-one cracker count/crumb-volume interpretation, original9-inch context and1-hour hot-weather refrigeration scope. No generated field edits or speculative formula migration required for this small legacy clarification. CurrentFood52 fetch403 honestly disclosed, not replaced with another lime formula. Remove invalid origin:food52.com, preserving American cuisine/sourceURL/title/richness.",
+      "capacity": "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+      "yield": "Existing original-batch planning count retained; structured portions make no precision/weight claim. KeyLime retains one9-inch pie.",
+      "timing": "The existing 4 hours 30 minutes-or-longer plan includes preparation, roughly 10–12 minutes crust baking plus 15–17 minutes filling baking, brief cooling and at least 3 hours refrigerator chilling. Extra pies, colder filling, different plates and slower chilling add time."
+    },
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "The existing 4 hours 30 minutes-or-longer plan includes preparation, roughly 10–12 minutes crust baking plus 15–17 minutes filling baking, brief cooling and at least 3 hours refrigerator chilling. Extra pies, colder filling, different plates and slower chilling add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "For the filling:",
+        "1/4 14-ounce can sweetened condensed milk",
+        "1/8 cup lime juice",
+        "1 teaspoon lime zest",
+        "1 large egg yolk",
+        "1/4 pinch salt",
+        "For the crust:",
+        "2 3/4 graham crackers or 0.31 cup crumbs (approximate volume)",
+        "3/4 tablespoon granulated sugar",
+        "1/4 pinch salt",
+        "1 1/4 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1/4 cup heavy cream"
+      ],
+      "yield": "1/4 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "For the filling:",
+        "1/2 14-ounce can sweetened condensed milk",
+        "1/4 cup lime juice",
+        "2 teaspoons lime zest",
+        "2 large egg yolks",
+        "1/2 pinch salt",
+        "For the crust:",
+        "5 1/2 graham crackers or 5/8 cup crumbs (approximate volume)",
+        "1 1/2 tablespoons granulated sugar",
+        "1/2 pinch salt",
+        "2 1/2 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1/2 cup heavy cream"
+      ],
+      "yield": "1/2 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "For the filling:",
+        "1 14-ounce can sweetened condensed milk",
+        "1/2 cup lime juice",
+        "4 teaspoons lime zest",
+        "4 large egg yolks",
+        "1 pinch salt",
+        "For the crust:",
+        "11 graham crackers or 1 1/4 cups crumbs (approximate volume)",
+        "3 tablespoons granulated sugar",
+        "1 pinch salt",
+        "5 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1 cup heavy cream"
+      ],
+      "yield": "1 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "For the filling:",
+        "1 1/2 14-ounce can sweetened condensed milk",
+        "3/4 cup lime juice",
+        "6 teaspoons lime zest",
+        "6 large egg yolks",
+        "1 1/2 pinch salt",
+        "For the crust:",
+        "16 1/2 graham crackers or 1 7/8 cups crumbs (approximate volume)",
+        "4 1/2 tablespoons granulated sugar",
+        "1 1/2 pinch salt",
+        "7 1/2 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1 1/2 cups heavy cream"
+      ],
+      "yield": "1 1/2 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "For the filling:",
+        "2 14-ounce can sweetened condensed milk",
+        "1 cup lime juice",
+        "8 teaspoons lime zest",
+        "8 large egg yolks",
+        "2 pinch salt",
+        "For the crust:",
+        "22 graham crackers or 2 1/2 cups crumbs (approximate volume)",
+        "6 tablespoons granulated sugar",
+        "2 pinch salt",
+        "10 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "2 cups heavy cream"
+      ],
+      "yield": "2 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "For the filling:",
+        "3 14-ounce can sweetened condensed milk",
+        "1 1/2 cups lime juice",
+        "12 teaspoons lime zest",
+        "12 large egg yolks",
+        "3 pinch salt",
+        "For the crust:",
+        "33 graham crackers or 3 3/4 cups crumbs (approximate volume)",
+        "9 tablespoons granulated sugar",
+        "3 pinch salt",
+        "15 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "3 cups heavy cream"
+      ],
+      "yield": "3 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "For the filling:",
+        "1 14-ounce can sweetened condensed milk",
+        "1/2 cup lime juice",
+        "4 teaspoons lime zest",
+        "4 large egg yolks",
+        "1 pinch salt",
+        "For the crust:",
+        "11 graham crackers or 1 1/4 cups crumbs (approximate volume)",
+        "3 tablespoons granulated sugar",
+        "1 pinch salt",
+        "5 tablespoons unsalted butter, melted and cooled",
+        "to serve:",
+        "1 cup heavy cream"
+      ],
+      "yield": "1 nine-inch pie",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "e300/9fa saved import quantities,160°F filling endpoint and full refrigerator set retained; targeted source import not prior complete endorsement.",
+  "remainingQuestions": [
+    "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
+    "No current publisher comparison established becauseFood52 returned403; exact bound original/native import retained."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

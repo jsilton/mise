@@ -1,0 +1,563 @@
+{
+  "slug": "butternut-squash-fettuccine-alfredo",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "85c40ed3c90277eae7f70af8a7e23dc8c9050dfe39eb1e32bbc1473793ff9e0a",
+  "acceptedSourceSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "About 40–55 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 55–75 min, plus equipment-required cooling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Dry Fettuccine",
+        "3 cups Butternut Squash, cubed (1-inch)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "3/4 cup Heavy Cream",
+        "1/2 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "2 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "1 lb Dry Fettuccine",
+        "3 cups Butternut Squash, cubed (1-inch)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "3/4 cup Heavy Cream",
+        "1/2 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "2 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1225,
+        "protein": 3.5,
+        "carbs": 3.5,
+        "fat": 136,
+        "fiber": 0,
+        "sugar": 2.5,
+        "sodium": 850
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Use tender roasted squash and controlled pasta-water loosening",
+        "outcome": "Smooth cream-and-Parmesan sauce coating the fettuccine without burned garlic.",
+        "techniques": ["temperature", "starch"],
+        "before": [
+          "Keep the full measured cream and Parmesan. Blend only at a temperature and load the actual machine permits; cooling and rewarming may extend the plan.",
+          "A larger batch needs uncrowded trays, enough pot room and permitted processor loads. Pan size and the roast clock do not scale with ingredients."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A fork enters the squash centers easily before the garlic turns black.",
+            "why": "Surface color does not establish softness for a smooth purée."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The purée is coarse or garlic tastes bitter",
+            "cause": "Squash centers were still firm or exposed garlic blackened.",
+            "fix": "Check squash centers during roasting and stir before garlic burns. Once burnt, garlic bitterness cannot be repaired by adding more cream."
+          }
+        ],
+        "timing": "Plan about 55–75 minutes including oven heat-up and preparation, roughly 25–35 minutes roasting, the initial 10-minute rest, blending and warming/tossing. Pasta cooking can overlap roasting or cooling. Cooling required by the actual machine and extra tray rounds add time.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. For meal prep, plan to use airtight refrigerated leftovers within 3 days. General cooked-leftover guidance is 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored pasta softens; reheating does not reproduce the first-cook texture.",
+        "substitutions": [
+          {
+            "ingredient": "Measured nutmeg",
+            "alternative": "A pinch of ground nutmeg as in the saved source",
+            "effect": "Use a pinch instead of the listed measured nutmeg; all squash, oil, cream, broth and cheese remain unchanged. Its size is unmeasured, so taste the finished sauce rather than treating a pinch as a fixed teaspoon conversion."
+          },
+          {
+            "ingredient": "Minced garlic and listed olive oil",
+            "alternative": "Current publisher’s original-batch smashed-garlic and oil route",
+            "effect": "For the original batch, smash the same three garlic cloves and use 1½ tbsp olive oil instead of 1 tbsp; scale the oil proportionally. Keep every other current ingredient and the same tender-center roast, safe processor loading and complete sauce finish. The smashed garlic and larger oil amount are a distinct source option, not a conversion of the saved minced-garlic route."
+          },
+          {
+            "ingredient": "Parsley and Parmesan finish",
+            "alternative": "Earlier optional crisp-sage serving idea",
+            "effect": "Serve separately prepared crispy sage leaves alongside the full parsley and cheese finish, if desired. Their additional fat and preparation are separate from the listed sauce formula; no amount or extra cooking clock is established in the retained note."
+          }
+        ],
+        "sources": [
+          {
+            "title": "KitchnSquash",
+            "url": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127"
+          },
+          {
+            "title": "FDAHandling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "Blender",
+            "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/"
+          },
+          {
+            "title": "FoodSafetyTemp",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis modern variation on Roman fettuccine Alfredo adds roasted butternut squash to the traditional butter-and-Parmesan sauce. Roasting the squash at 425°F until deeply caramelized concentrates its natural sugars and prevents a watery sauce - boiling produces inferior results. The original 1908 dish created by Alfredo di Lelio used only butter and cheese; American versions added cream in the 1960s.\n\n## Directions\n\n1.  **Roast:** Preheat oven to 425°F. Toss squash cubes and garlic with olive oil, salt, and pepper. Spread on a baking sheet and roast for 25-30 minutes cook until caramelized and golden brown and caramelized.\n2.  **The Emulsion:** Let squash cool for 10 minutes. Transfer to a blender. Add heavy cream, broth, Parmesan, and nutmeg. Blend on high until completely smooth and velvety.\n3.  **Pasta:** Boil fettuccine in salted water until **al dente**. **Reserve 1/2 cup of pasta water**, then drain.\n4.  **Combine:** Return pasta to the pot. Pour the butternut sauce over the noodles and toss vigorously.\n5.  **Adjust:** If the sauce is too thick, add reserved pasta water one tablespoon at a time until it reaches a glossy, coating consistency.\n6.  **Serve:** Garnish with fresh parsley and extra Parmesan.\n",
+    "after": "\n## Chef's Note\n\nRoast the squash until a fork passes through its center, then purée it with all the cream, broth and Parmesan. The garlic should be fragrant rather than blackened. Use reserved pasta water only as the finished sauce needs it; no fixed amount must go into the bowl.\n\n## Directions\n\n1. **Roast:** Heat the oven to 425°F. Wash the squash before peeling and cutting; measure the listed cubed amount. Toss all squash and minced garlic with all the olive oil and the listed salt and pepper. Spread in one layer on a rimmed tray, using additional trays if needed. Begin checking at 25 minutes and continue until the centers yield easily to a fork and edges have golden patches, often around 30 minutes. Stir if needed and stop before the garlic blackens; transfer all squash, garlic and their oil for the sauce.\n\n2. **Cool and purée:** Let the squash cool for the source’s initial 10-minute rest, then continue cooling if required by the actual blender or food-processor manual. That rest alone is not permission to load hot food. Never use a sealed personal cup for hot food; use permitted loads and temperatures. Blend all the squash, garlic and retained oil with all the heavy cream, broth, measured Parmesan and nutmeg until smooth. Use approved smaller batches and recombine them without adding liquid merely to reach the blades.\n\n3. **Cook pasta:** While the squash roasts or cools, boil the full dry fettuccine in the listed cooking-water and salt allowance to al dente according to its package. Reserve 1/2 cup cooking water for the original batch, proportionally adjusted with the batch size, then drain. If equipment-required cooling takes longer, delay cooking the pasta so it is ready near the sauce.\n\n4. **Warm and combine:** Return pasta to a roomy pot and add all the puréed sauce. Toss over low heat until the sauce coats the noodles and the food is hot throughout, especially if it was cooled for blending. Scrape the full sauce from the processor; do not discard cream or cheese to thin it.\n\n5. **Adjust:** Add the reserved pasta-water supply a tablespoon at a time only until the sauce coats the noodles without a dry paste or a watery pool. Reserve unused water rather than pouring it all in automatically.\n\n6. **Serve:** Distribute all the chopped parsley and serve promptly with the separate optional extra Parmesan.\n"
+  },
+  "findings": [
+    {
+      "id": "PB04-butternut-squash-fettuccine-alfredo",
+      "rationale": "Full saved fat/cream/cheese and current¼tsp nutmeg retained. Correct duplicate roast prose, restore tender-center cue and exact food-processor/source pinch choices, identify pasta water/salt and extra cheese allowances. An arbitrary10-minute rest does not establish safe generic hot blender loading. Actual modern oil/garlic changes are distinct, never silently imported. Remove unsupported Roman-date/boiling-inferiority claims.",
+      "confidence": "High exact history/dose preservation; moderate editorial safety/category/timing/capacity applications; untested",
+      "applicableSources": [
+        {
+          "key": "KitchnSquash",
+          "url": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127",
+          "scope": "Current publisher differs from saved1tbsp/mincedgarlic/pinch nutmeg: modern1.5tbsp/smashedgarlic/measuredsalt; source broth/cream/cheese and approximate roast/rest/pasta schedule. Actual blender model not established."
+        },
+        {
+          "key": "FDAHandling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Producewash/clean rawcontact separation,cold40/twohouronehour exposure,165storedleftovers/reheat saucesaboil, shallowcool; no ratio/yield certification."
+        },
+        {
+          "key": "Blender",
+          "url": "https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/",
+          "scope": "Sealedpersonalvessels mustnotblendhot; actualchosenmodel/manual governs. Nohouseholdmodel identified. Coolingbefore genericloading conservativemethod, notclaimallmachinesalloweveryload."
+        },
+        {
+          "key": "FoodSafetyTemp",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Rawgroundbeef/pork160,poultry165,meatANDmeatlesscasseroles165,storedleftovers165. Custard pasta and slow-cooker casserole category editorial moderateapplication, not exactformula validation."
+        },
+        {
+          "key": "USDALeftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "General cooked-leftover guidance supports prompt shallow cooling, refrigeration for 3–4 days and reheating to 165°F; it does not establish recipe-specific shelf life, ratio, yield, texture or first-cook validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual blender/processor model permitted temperature/load and cooling/rewarm clock; actual squash weight and portions not measured.",
+        "Does household prefer current¼tsp nutmeg or saved pinch? Neither amount is normalized."
+      ]
+    },
+    {
+      "id": "PSS01-butternut-squash-fettuccine-alfredo",
+      "rationale": "The exact bound original and actually opened current publisher both retain an up-to-three-day airtight refrigerator note. The frozen candidate only offers the broader generic 3–4-day guidance. Preserve the shorter recipe planning note explicitly without declaring a tested shelf life or reducing richness/changing method. Calling it a meal-prep plan is an editorial presentation of the source recommendation, not evidence of a measured quality threshold.",
+      "confidence": "High for native/publisher three-day recommendation; no physical shelf-life or quality testing claimed.",
+      "applicableSources": [
+        {
+          "nativeNotes": "Storage: Leftovers can be stored in an airtight container in the refrigerator for up to 3 days.",
+          "currentPublisher": {
+            "url": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127",
+            "section": "Recipe Notes — Storage",
+            "line": 224,
+            "fetched": "2026-10-06",
+            "finding": "Current primary page independently repeats the up-to-three-day airtight refrigerator note."
+          },
+          "generalHandling": {
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "scope": "Previously read primary leftover guidance supplies general 3–4-day refrigeration, prompt shallow cooling and 165°F reheating. It does not measure either recipe shelf life."
+          }
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Butternut%20Squash%20Fettuccine%20Alfredo.html",
+    "introductionScope": "Actual earlier cooking HTML directly read from durable Git; canonical followed lineage retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Full saved fat/cream/cheese and current¼tsp nutmeg retained. Correct duplicate roast prose, restore tender-center cue and exact food-processor/source pinch choices, identify pasta water/salt and extra cheese allowances. An arbitrary10-minute rest does not establish safe generic hot blender loading. Actual modern oil/garlic changes are distinct, never silently imported. Remove unsupported Roman-date/boiling-inferiority claims. The exact bound saved source and currently read Kitchn Recipe Notes retain a three-day airtight refrigerator meal-prep plan, distinguished here from general 3–4-day cooked-leftover handling. This is not a tested shelf-life claim.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Dry Fettuccine",
+        "destination": "3 full dry pasta"
+      },
+      {
+        "ingredient": "3 cups Butternut Squash, cubed (1-inch)",
+        "destination": "1 roast→2 all squash"
+      },
+      {
+        "ingredient": "3 cloves Garlic, minced",
+        "destination": "1 roast→2 garlic"
+      },
+      {
+        "ingredient": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "1 full oil"
+      },
+      {
+        "ingredient": "3/4 cup Heavy Cream",
+        "destination": "2 full cream"
+      },
+      {
+        "ingredient": "1/2 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "destination": "2 full broth, chooseone"
+      },
+      {
+        "ingredient": "1/2 cup Freshly Grated Parmesan",
+        "destination": "2 full cheese"
+      },
+      {
+        "ingredient": "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "destination": "2 measured nutmeg"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Parsley, chopped",
+        "destination": "6 full parsley"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": "1 roast seasoning; pastawatersalt3 unlisted; final source adjustment absent"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 lb Dry Fettuccine",
+        "destination": "3 all dry pasta"
+      },
+      {
+        "ingredient": "3 cups Butternut Squash, cubed (1-inch)",
+        "destination": "1→2 all measured cubes"
+      },
+      {
+        "ingredient": "3 cloves Garlic, minced",
+        "destination": "1→2 all garlic"
+      },
+      {
+        "ingredient": "1 tbsp Extra-Virgin Olive Oil",
+        "destination": "1→2 all measured oil"
+      },
+      {
+        "ingredient": "3/4 cup Heavy Cream",
+        "destination": "2 full cream"
+      },
+      {
+        "ingredient": "1/2 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "destination": "2 full chosen broth"
+      },
+      {
+        "ingredient": "1/2 cup Freshly Grated Parmesan",
+        "destination": "2 full measured cheese"
+      },
+      {
+        "ingredient": "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "destination": "2 full measured nutmeg OR exclusive pinch"
+      },
+      {
+        "ingredient": "2 tbsp Fresh Parsley, chopped",
+        "destination": "6 full parsley"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": "Step 1 roast seasoning; the pinch-nutmeg variation separately calls for tasting the finished sauce."
+      },
+      {
+        "ingredient": "Water and salt, for cooking the pasta",
+        "destination": "3 cooking allowance; proportional reserved supply5 only as needed"
+      },
+      {
+        "ingredient": "Additional grated Parmesan, for serving, optional",
+        "destination": "6 optional extra cheese"
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Measured nutmeg",
+        "alternative": "A pinch of ground nutmeg as in the saved source",
+        "effect": "Use a pinch instead of the listed measured nutmeg; all squash, oil, cream, broth and cheese remain unchanged. Its size is unmeasured, so taste the finished sauce rather than treating a pinch as a fixed teaspoon conversion."
+      },
+      {
+        "ingredient": "Minced garlic and listed olive oil",
+        "alternative": "Current publisher’s original-batch smashed-garlic and oil route",
+        "effect": "For the original batch, smash the same three garlic cloves and use 1½ tbsp olive oil instead of 1 tbsp; scale the oil proportionally. Keep every other current ingredient and the same tender-center roast, safe processor loading and complete sauce finish. The smashed garlic and larger oil amount are a distinct source option, not a conversion of the saved minced-garlic route."
+      },
+      {
+        "ingredient": "Parsley and Parmesan finish",
+        "alternative": "Earlier optional crisp-sage serving idea",
+        "effect": "Serve separately prepared crispy sage leaves alongside the full parsley and cheese finish, if desired. Their additional fat and preparation are separate from the listed sauce formula; no amount or extra cooking clock is established in the retained note."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Roast: Heat the oven to 425°F. Wash the squash before peeling and cutting; measure the listed cubed amount. Toss all squash and minced garlic with all the olive oil and the listed salt and pepper. Spread in one layer on a rimmed tray, using additional trays if needed. Begin checking at 25 minutes and continue until the centers yield easily to a fork and edges have golden patches, often around 30 minutes. Stir if needed and stop before the garlic blackens; transfer all squash, garlic and their oil for the sauce."
+    },
+    {
+      "step": 2,
+      "text": "Cool and purée: Let the squash cool for the source’s initial 10-minute rest, then continue cooling if required by the actual blender or food-processor manual. That rest alone is not permission to load hot food. Never use a sealed personal cup for hot food; use permitted loads and temperatures. Blend all the squash, garlic and retained oil with all the heavy cream, broth, measured Parmesan and nutmeg until smooth. Use approved smaller batches and recombine them without adding liquid merely to reach the blades."
+    },
+    {
+      "step": 3,
+      "text": "Cook pasta: While the squash roasts or cools, boil the full dry fettuccine in the listed cooking-water and salt allowance to al dente according to its package. Reserve 1/2 cup cooking water for the original batch, proportionally adjusted with the batch size, then drain. If equipment-required cooling takes longer, delay cooking the pasta so it is ready near the sauce."
+    },
+    {
+      "step": 4,
+      "text": "Warm and combine: Return pasta to a roomy pot and add all the puréed sauce. Toss over low heat until the sauce coats the noodles and the food is hot throughout, especially if it was cooled for blending. Scrape the full sauce from the processor; do not discard cream or cheese to thin it."
+    },
+    {
+      "step": 5,
+      "text": "Adjust: Add the reserved pasta-water supply a tablespoon at a time only until the sauce coats the noodles without a dry paste or a watery pool. Reserve unused water rather than pouring it all in automatically."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Distribute all the chopped parsley and serve promptly with the separate optional extra Parmesan."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Measured nutmeg",
+      "alternative": "A pinch of ground nutmeg as in the saved source",
+      "effect": "Use a pinch instead of the listed measured nutmeg; all squash, oil, cream, broth and cheese remain unchanged. Its size is unmeasured, so taste the finished sauce rather than treating a pinch as a fixed teaspoon conversion."
+    },
+    {
+      "ingredient": "Minced garlic and listed olive oil",
+      "alternative": "Current publisher’s original-batch smashed-garlic and oil route",
+      "effect": "For the original batch, smash the same three garlic cloves and use 1½ tbsp olive oil instead of 1 tbsp; scale the oil proportionally. Keep every other current ingredient and the same tender-center roast, safe processor loading and complete sauce finish. The smashed garlic and larger oil amount are a distinct source option, not a conversion of the saved minced-garlic route."
+    },
+    {
+      "ingredient": "Parsley and Parmesan finish",
+      "alternative": "Earlier optional crisp-sage serving idea",
+      "effect": "Serve separately prepared crispy sage leaves alongside the full parsley and cheese finish, if desired. Their additional fat and preparation are separate from the listed sauce formula; no amount or extra cooking clock is established in the retained note."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["garlic-bread", "charred-asparagus-with-parmesan", "creamy-polenta"],
+    "incomingMeals": [],
+    "scope": "Whole linked recipes read; separate preparation/elapsed clocks and actual meal contradictions recorded without granting review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": "Measured main totals preserved except the explicitly proposed complete Anelletti source-rich route; no measured cooked yield or capacity invented. Listed portions are original planning. Actual pan/manual governs and extra vessels do not multiply clocks.",
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Plan about 55–75 minutes including oven heat-up and preparation, roughly 25–35 minutes roasting, the initial 10-minute rest, blending and warming/tossing. Pasta cooking can overlap roasting or cooling. Cooling required by the actual machine and extra tray rounds add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Dry Fettuccine",
+        "3/4 cup Butternut Squash, cubed (1-inch)",
+        "3/4 clove Garlic, minced",
+        "1/4 tbsp Extra-Virgin Olive Oil",
+        "0.19 cup Heavy Cream",
+        "1/8 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1/8 cup Freshly Grated Parmesan",
+        "0.0625 tsp Ground Nutmeg (The \"High Note\")",
+        "1/2 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 1 1/2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Dry Fettuccine",
+        "1 1/2 cups Butternut Squash, cubed (1-inch)",
+        "1 1/2 cloves Garlic, minced",
+        "1/2 tbsp Extra-Virgin Olive Oil",
+        "3/8 cup Heavy Cream",
+        "1/4 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1/4 cup Freshly Grated Parmesan",
+        "1/8 tsp Ground Nutmeg (The \"High Note\")",
+        "1 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 3",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Dry Fettuccine",
+        "3 cups Butternut Squash, cubed (1-inch)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "3/4 cup Heavy Cream",
+        "1/2 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "2 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Dry Fettuccine",
+        "4 1/2 cups Butternut Squash, cubed (1-inch)",
+        "4 1/2 cloves Garlic, minced",
+        "1 1/2 tbsp Extra-Virgin Olive Oil",
+        "1 1/8 cups Heavy Cream",
+        "3/4 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "3/4 cup Freshly Grated Parmesan",
+        "3/8 tsp Ground Nutmeg (The \"High Note\")",
+        "3 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 9",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Dry Fettuccine",
+        "6 cups Butternut Squash, cubed (1-inch)",
+        "6 cloves Garlic, minced",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "1 1/2 cups Heavy Cream",
+        "1 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1 cup Freshly Grated Parmesan",
+        "1/2 tsp Ground Nutmeg (The \"High Note\")",
+        "4 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Dry Fettuccine",
+        "9 cups Butternut Squash, cubed (1-inch)",
+        "9 cloves Garlic, minced",
+        "3 tbsp Extra-Virgin Olive Oil",
+        "2 1/4 cups Heavy Cream",
+        "1 1/2 cups Low-sodium Chicken Broth (or Veggie Broth)",
+        "1 1/2 cups Freshly Grated Parmesan",
+        "3/4 tsp Ground Nutmeg (The \"High Note\")",
+        "6 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 18",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Dry Fettuccine",
+        "3 cups Butternut Squash, cubed (1-inch)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Extra-Virgin Olive Oil",
+        "3/4 cup Heavy Cream",
+        "1/2 cup Low-sodium Chicken Broth (or Veggie Broth)",
+        "1/2 cup Freshly Grated Parmesan",
+        "1/4 tsp Ground Nutmeg (The \"High Note\")",
+        "2 tbsp Fresh Parsley, chopped",
+        "Salt and Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Additional grated Parmesan, for serving, optional"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All existing measured richness, source URLs/credits/ratings/identities and enabled scaling behavior preserved; old proposals do not establish acceptance.",
+  "remainingQuestions": [
+    "Actual blender/processor model permitted temperature/load and cooling/rewarm clock; actual squash weight and portions not measured.",
+    "Does household prefer current¼tsp nutmeg or saved pinch? Neither amount is normalized."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "slug": "custard-mac-and-pimento-cheese",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "416362d4241a94ae14b9289fa672fb3560e174de81c6a3dec2a58c69f490fa05",
+  "acceptedSourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 30–45 min, plus pasta-water heating"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 50–70 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Elbow Macaroni or Cavatappi pasta",
+        "4 tablespoons Unsalted Butter (melted)",
+        "3 large Eggs, beaten",
+        "2 cups Whole Milk",
+        "12 oz Sharp White Cheddar, shredded",
+        "4 oz Sharp Yellow Cheddar, shredded",
+        "4 oz Pimentos (from a jar), drained and chopped",
+        "1/2 tsp Dry Mustard Powder",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Smoked Paprika",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper"
+      ],
+      "after": [
+        "1 lb Elbow Macaroni or Cavatappi pasta",
+        "4 tablespoons Unsalted Butter (melted)",
+        "3 large Eggs, beaten",
+        "2 cups Whole Milk",
+        "12 oz Sharp White Cheddar, shredded",
+        "4 oz Sharp Yellow Cheddar, shredded",
+        "4 oz Pimentos (from a jar), drained and chopped",
+        "1/2 tsp Dry Mustard Powder",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Smoked Paprika",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ]
+    },
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": "comfort"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 720,
+        "protein": 33.5,
+        "carbs": 59.5,
+        "fat": 40.5,
+        "fiber": 3.5,
+        "sugar": 5.5,
+        "sodium": 1030
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Set the custard through the center while retaining all butter and cheese",
+        "outcome": "A hot set center, golden top and full cheddar-pimento richness.",
+        "techniques": ["temperature", "starch"],
+        "before": [
+          "All measured melted butter goes into the pasta. Pan grease is a separate unmeasured allowance. Use three-quarters of each cheese inside and the remaining quarter on top at every scale.",
+          "Original 9-by-13-inch geometry and 25–30-minute first check do not scale. More mixture needs additional shallow dishes; smaller batches need suitable smaller dishes and earlier center checks."
+        ],
+        "checkpoints": [
+          {
+            "step": 6,
+            "cue": "Every tested central location reaches 165°F before the five-minute rest.",
+            "why": "Browned cheese and bubbling edges do not establish the raw-egg center’s endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The top browns while the center is still unset",
+            "cause": "The actual layer is deep or the oven heats the surface faster.",
+            "fix": "Shield the top with suitable foil and continue baking until central temperature and set-custard checks pass; broiling cannot fix an undercooked center."
+          }
+        ],
+        "timing": "Allow about 50–70 minutes including oven and water heating, pasta cooking, brief cooling before eggs, assembly, roughly 25–35 minutes baking or until the measured center endpoint, and 5 minutes resting. Extra dishes/rounds extend elapsed time; the original 40-minute total excludes several required stages.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat the portion being served to 165°F / 74°C throughout. Stored pasta softens; reheating does not reproduce the first-cook texture.",
+        "substitutions": [],
+        "sources": [
+          {
+            "title": "FDAHandling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafetyTemp",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCustard-style mac and cheese is a Southern tradition that predates the béchamel version most people know - eggs and milk form the sauce, not a roux. The custard sets gently in the oven, creating a creamy interior with a golden crust on top. The pimento cheese twist comes from the Carolinas, where pimento cheese is practically a food group. Cook the pasta 2 minutes short of al dente - it finishes in the oven, and overcooked pasta in a baked dish turns to mush.\n\n## Directions\n\n1.  **Boil:** Preheat oven to 375°F. Bring a large pot of heavily salted water to a boil. Cook the pasta for 2 minutes **less** than the package instructions (it should be very firm). Drain and return to the pot.\n2.  **Butter:** Toss the hot pasta with the melted butter until evenly coated. This creates a barrier that prevents the pasta from getting mushy in the sauce.\n3.  **Mix:** In a separate bowl, whisk together the eggs, milk, salt, pepper, garlic powder, mustard powder, and smoked paprika.\n4.  **Combine:** Add 3/4 of the shredded cheese and all of the chopped pimentos to the pasta. Pour the egg/milk mixture over the top and stir gently until everything is combined.\n5.  **Bake:** Transfer the mixture to a greased 9x13 baking dish. Sprinkle the remaining cheese over the top.\n6.  **Crisp:** Bake for 25-30 minutes until the top is golden brown and the edges are bubbling. For an extra-crispy top, broil for the final 60 seconds.\n7.  **Rest:** Let the dish stand for 5 minutes before serving. This allows the custard to set.\n",
+    "after": "\n## Chef's Note\n\nEggs and milk set around the pasta while the two cheddars and pimentos remain distinct ingredients. Toss in all the melted butter, then let the pasta stop steaming before adding the egg mixture so it does not scramble on contact. Bubbling edges and a browned top are useful cues, but check the center before resting and serving.\n\n## Directions\n\n1. **Heat and boil:** Heat the oven to 375°F. Bring a roomy pot of water to a boil and salt it with the listed cooking allowance. Cook all the pasta about 2 minutes short of its package’s al-dente time, until firm but hydrated, then drain.\n\n2. **Butter and cool slightly:** Return pasta to the pot and coat it with all the melted butter. Let it stop steaming hot, stirring occasionally, while preparing the egg mixture. This brief cooling helps avoid scrambling the eggs; butter coating does not guarantee that pasta cannot soften further.\n\n3. **Mix the custard:** In a separate bowl whisk all the beaten eggs, whole milk, measured kosher salt, black pepper, garlic powder, dry mustard and smoked paprika until evenly combined. Keep raw-egg utensils separate from ready-to-eat food.\n\n4. **Combine:** Mix three-quarters of EACH cheddar with all the pimentos into the buttered pasta. Stir in all the egg-milk mixture so there are no isolated pockets of custard. Reserve the remaining quarter of each cheese for the top.\n\n5. **Load the dish:** Grease the baking dish with the separate allowance. The original batch uses a 9-by-13-inch dish, but actualdepth/capacity matters. Use additional or appropriately smaller oven-safe dishes if needed to keep a similar shallow layer with headroom. Distribute the full mixture and all remaining cheese across the dishes; do not overfill or discard custard to make it fit.\n\n6. **Bake and check:** Bake, starting checks around 25–30 minutes for the original-size load, until the top is golden, edges bubble and the center is set without flowing egg mixture. Measure several central locations in every dish: each must reach 165°F. Continue baking if needed, shielding an already-browned top with suitable foil. For an optional crisp finish, use a broiler-rated vessel and the appliance’s clearance, watching continuously for up to about 60 seconds and stopping before scorching; a broil does not replace the center check.\n\n7. **Rest and serve:** Rest 5 minutes before serving. The original batch is planned for six portions; use the listed portion count when scaling and portion according to appetite.\n"
+  },
+  "findings": [
+    {
+      "id": "PB04-custard-mac-and-pimento-cheese",
+      "rationale": "Preserve all current rich measured quantities while making the existing¾/¼ cheese allocation explicit for EACHcheddar, adding genuine method-only cooking/pangrease supplies and measured165meatless-casserole center endpoint. Current full pimento formula is a6565 wholesale rewrite of the differently measured older recipe credited to the Gwock Family in the earlier HTML; original remains privately retained with unresolvedmilkvolume, not silently merged or promoted. No actual publisher or boundnative original for this current formula, no authorship/date invented. Remove unsupported custardchronology/Carolinas and butterbarrier claims; no formula dose inferred.",
+      "confidence": "High exact history/dose preservation; moderate editorial safety/category/timing/capacity applications; untested",
+      "applicableSources": [
+        {
+          "key": "FDAHandling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Producewash/clean rawcontact separation,cold40/twohouronehour exposure,165storedleftovers/reheat saucesaboil, shallowcool; no ratio/yield certification."
+        },
+        {
+          "key": "FoodSafetyTemp",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Rawgroundbeef/pork160,poultry165,meatANDmeatlesscasseroles165,storedleftovers165. Custard pasta and slow-cooker casserole category editorial moderateapplication, not exactformula validation."
+        },
+        {
+          "key": "USDALeftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "General cooked-leftover guidance supports prompt shallow cooling, refrigeration for 3–4 days and reheating to 165°F; it does not establish recipe-specific shelf life, ratio, yield, texture or first-cook validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "vibe",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "The retained earlier HTML credits the Gwock Family for the older 8 oz pasta, four-egg and margarine recipe. Is that incomplete route wanted separately, and what milk amount and pan fill were used? The later pimento rewrite is not established as a Gwock Family recipe.",
+        "Actual current9x13dishdepth/capacity, egg texture at165 and elapsedtime/portion sizes need kitchen testing."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Macaroni%20and%20Cheese.html",
+    "introductionScope": "Actual earlier cooking HTML directly read from durable Git; canonical followed lineage retained separately",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Preserve all current rich measured quantities while making the existing¾/¼ cheese allocation explicit for EACHcheddar, adding genuine method-only cooking/pangrease supplies and measured165meatless-casserole center endpoint. Current full pimento formula is a6565 wholesale rewrite of the differently measured older recipe credited to the Gwock Family in the earlier HTML; original remains privately retained with unresolvedmilkvolume, not silently merged or promoted. No actual publisher or boundnative original for this current formula, no authorship/date invented. Remove unsupported custardchronology/Carolinas and butterbarrier claims; no formula dose inferred.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Elbow Macaroni or Cavatappi pasta",
+        "destination": "1 boilfullpasta"
+      },
+      {
+        "ingredient": "4 tablespoons Unsalted Butter (melted)",
+        "destination": "2 fullmeltedbutter"
+      },
+      {
+        "ingredient": "3 large Eggs, beaten",
+        "destination": "3 whiskfullraw eggs→4"
+      },
+      {
+        "ingredient": "2 cups Whole Milk",
+        "destination": "3 fullmilk→4"
+      },
+      {
+        "ingredient": "12 oz Sharp White Cheddar, shredded",
+        "destination": "4 combinedcheddar3/4 inside;5 remaining1/4top"
+      },
+      {
+        "ingredient": "4 oz Sharp Yellow Cheddar, shredded",
+        "destination": "4 combinedcheddar3/4 inside;5 remaining1/4top"
+      },
+      {
+        "ingredient": "4 oz Pimentos (from a jar), drained and chopped",
+        "destination": "4 allpimentos"
+      },
+      {
+        "ingredient": "1/2 tsp Dry Mustard Powder",
+        "destination": "3 allmustard"
+      },
+      {
+        "ingredient": "1/2 tsp Garlic Powder",
+        "destination": "3 allgarlicpowder"
+      },
+      {
+        "ingredient": "1/4 tsp Smoked Paprika",
+        "destination": "3 allpaprika"
+      },
+      {
+        "ingredient": "1 tsp Kosher Salt",
+        "destination": "3 fullkosherdose"
+      },
+      {
+        "ingredient": "1/2 tsp Black Pepper",
+        "destination": "3 fullpepper"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 lb Elbow Macaroni or Cavatappi pasta",
+        "destination": "1 all drypasta"
+      },
+      {
+        "ingredient": "4 tablespoons Unsalted Butter (melted)",
+        "destination": "2 fullmeltedbutter"
+      },
+      {
+        "ingredient": "3 large Eggs, beaten",
+        "destination": "3 fullraw eggs→4→6 center165"
+      },
+      {
+        "ingredient": "2 cups Whole Milk",
+        "destination": "3 allmilk→4"
+      },
+      {
+        "ingredient": "12 oz Sharp White Cheddar, shredded",
+        "destination": "4 threequarters whitecheddar,5 remainingquarter"
+      },
+      {
+        "ingredient": "4 oz Sharp Yellow Cheddar, shredded",
+        "destination": "4 threequarters yellowcheddar,5 remainingquarter"
+      },
+      {
+        "ingredient": "4 oz Pimentos (from a jar), drained and chopped",
+        "destination": "4 allpimentos"
+      },
+      {
+        "ingredient": "1/2 tsp Dry Mustard Powder",
+        "destination": "3 allmustard"
+      },
+      {
+        "ingredient": "1/2 tsp Garlic Powder",
+        "destination": "3 allgarlicpowder"
+      },
+      {
+        "ingredient": "1/4 tsp Smoked Paprika",
+        "destination": "3 allpaprika"
+      },
+      {
+        "ingredient": "1 tsp Kosher Salt",
+        "destination": "3 measuredkosherdose"
+      },
+      {
+        "ingredient": "1/2 tsp Black Pepper",
+        "destination": "3 allpepper"
+      },
+      {
+        "ingredient": "Water and salt, for cooking the pasta",
+        "destination": "1 cookingwaterand salt"
+      },
+      {
+        "ingredient": "Butter or cooking spray, for greasing the baking dish",
+        "destination": "5 separatepangrease"
+      }
+    ],
+    "variants": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Heat and boil: Heat the oven to 375°F. Bring a roomy pot of water to a boil and salt it with the listed cooking allowance. Cook all the pasta about 2 minutes short of its package’s al-dente time, until firm but hydrated, then drain."
+    },
+    {
+      "step": 2,
+      "text": "Butter and cool slightly: Return pasta to the pot and coat it with all the melted butter. Let it stop steaming hot, stirring occasionally, while preparing the egg mixture. This brief cooling helps avoid scrambling the eggs; butter coating does not guarantee that pasta cannot soften further."
+    },
+    {
+      "step": 3,
+      "text": "Mix the custard: In a separate bowl whisk all the beaten eggs, whole milk, measured kosher salt, black pepper, garlic powder, dry mustard and smoked paprika until evenly combined. Keep raw-egg utensils separate from ready-to-eat food."
+    },
+    {
+      "step": 4,
+      "text": "Combine: Mix three-quarters of EACH cheddar with all the pimentos into the buttered pasta. Stir in all the egg-milk mixture so there are no isolated pockets of custard. Reserve the remaining quarter of each cheese for the top."
+    },
+    {
+      "step": 5,
+      "text": "Load the dish: Grease the baking dish with the separate allowance. The original batch uses a 9-by-13-inch dish, but actualdepth/capacity matters. Use additional or appropriately smaller oven-safe dishes if needed to keep a similar shallow layer with headroom. Distribute the full mixture and all remaining cheese across the dishes; do not overfill or discard custard to make it fit."
+    },
+    {
+      "step": 6,
+      "text": "Bake and check: Bake, starting checks around 25–30 minutes for the original-size load, until the top is golden, edges bubble and the center is set without flowing egg mixture. Measure several central locations in every dish: each must reach 165°F. Continue baking if needed, shielding an already-browned top with suitable foil. For an optional crisp finish, use a broiler-rated vessel and the appliance’s clearance, watching continuously for up to about 60 seconds and stopping before scorching; a broil does not replace the center check."
+    },
+    {
+      "step": 7,
+      "text": "Rest and serve: Rest 5 minutes before serving. The original batch is planned for six portions; use the listed portion count when scaling and portion according to appetite."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["anadama-bread", "cinnamon-sweet-potatoes", "garlic-mashed-mock-potatoes"],
+    "incomingMeals": [],
+    "scope": "Whole linked recipes read; separate preparation/elapsed clocks and actual meal contradictions recorded without granting review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": "Measured main totals preserved except the explicitly proposed complete Anelletti source-rich route; no measured cooked yield or capacity invented. Listed portions are original planning. Actual pan/manual governs and extra vessels do not multiply clocks.",
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Allow about 50–70 minutes including oven and water heating, pasta cooking, brief cooling before eggs, assembly, roughly 25–35 minutes baking or until the measured center endpoint, and 5 minutes resting. Extra dishes/rounds extend elapsed time; the original 40-minute total excludes several required stages."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Elbow Macaroni or Cavatappi pasta",
+        "1 tablespoon Unsalted Butter (melted)",
+        "3/4 large Egg, beaten",
+        "1/2 cup Whole Milk",
+        "3 oz Sharp White Cheddar, shredded",
+        "1 oz Sharp Yellow Cheddar, shredded",
+        "1 oz Pimentos (from a jar), drained and chopped",
+        "1/8 tsp Dry Mustard Powder",
+        "1/8 tsp Garlic Powder",
+        "0.0625 tsp Smoked Paprika",
+        "1/4 tsp Kosher Salt",
+        "1/8 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 1 1/2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Elbow Macaroni or Cavatappi pasta",
+        "2 tablespoons Unsalted Butter (melted)",
+        "1 1/2 large Eggs, beaten",
+        "1 cup Whole Milk",
+        "6 oz Sharp White Cheddar, shredded",
+        "2 oz Sharp Yellow Cheddar, shredded",
+        "2 oz Pimentos (from a jar), drained and chopped",
+        "1/4 tsp Dry Mustard Powder",
+        "1/4 tsp Garlic Powder",
+        "1/8 tsp Smoked Paprika",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 3",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Elbow Macaroni or Cavatappi pasta",
+        "4 tablespoons Unsalted Butter (melted)",
+        "3 large Eggs, beaten",
+        "2 cups Whole Milk",
+        "12 oz Sharp White Cheddar, shredded",
+        "4 oz Sharp Yellow Cheddar, shredded",
+        "4 oz Pimentos (from a jar), drained and chopped",
+        "1/2 tsp Dry Mustard Powder",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Smoked Paprika",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Elbow Macaroni or Cavatappi pasta",
+        "6 tablespoons Unsalted Butter (melted)",
+        "4 1/2 large Eggs, beaten",
+        "3 cups Whole Milk",
+        "18 oz Sharp White Cheddar, shredded",
+        "6 oz Sharp Yellow Cheddar, shredded",
+        "6 oz Pimentos (from a jar), drained and chopped",
+        "3/4 tsp Dry Mustard Powder",
+        "3/4 tsp Garlic Powder",
+        "3/8 tsp Smoked Paprika",
+        "1 1/2 tsp Kosher Salt",
+        "3/4 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 9",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Elbow Macaroni or Cavatappi pasta",
+        "8 tablespoons Unsalted Butter (melted)",
+        "6 large Eggs, beaten",
+        "4 cups Whole Milk",
+        "24 oz Sharp White Cheddar, shredded",
+        "8 oz Sharp Yellow Cheddar, shredded",
+        "8 oz Pimentos (from a jar), drained and chopped",
+        "1 tsp Dry Mustard Powder",
+        "1 tsp Garlic Powder",
+        "1/2 tsp Smoked Paprika",
+        "2 tsp Kosher Salt",
+        "1 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Elbow Macaroni or Cavatappi pasta",
+        "12 tablespoons Unsalted Butter (melted)",
+        "9 large Eggs, beaten",
+        "6 cups Whole Milk",
+        "36 oz Sharp White Cheddar, shredded",
+        "12 oz Sharp Yellow Cheddar, shredded",
+        "12 oz Pimentos (from a jar), drained and chopped",
+        "1 1/2 tsp Dry Mustard Powder",
+        "1 1/2 tsp Garlic Powder",
+        "3/4 tsp Smoked Paprika",
+        "3 tsp Kosher Salt",
+        "1 1/2 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 18",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Elbow Macaroni or Cavatappi pasta",
+        "4 tablespoons Unsalted Butter (melted)",
+        "3 large Eggs, beaten",
+        "2 cups Whole Milk",
+        "12 oz Sharp White Cheddar, shredded",
+        "4 oz Sharp Yellow Cheddar, shredded",
+        "4 oz Pimentos (from a jar), drained and chopped",
+        "1/2 tsp Dry Mustard Powder",
+        "1/2 tsp Garlic Powder",
+        "1/4 tsp Smoked Paprika",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Black Pepper",
+        "Water and salt, for cooking the pasta",
+        "Butter or cooking spray, for greasing the baking dish"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "All existing measured richness, source URLs/credits/ratings/identities and enabled scaling behavior preserved; old proposals do not establish acceptance.",
+  "remainingQuestions": [
+    "The retained earlier HTML credits the Gwock Family for the older 8 oz pasta, four-egg and margarine recipe. Is that incomplete route wanted separately, and what milk amount and pan fill were used? The later pimento rewrite is not established as a Gwock Family recipe.",
+    "Actual current9x13dishdepth/capacity, egg texture at165 and elapsedtime/portion sizes need kitchen testing."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

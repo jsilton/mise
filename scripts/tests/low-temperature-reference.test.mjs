@@ -71,6 +71,57 @@ test('ambiguous holding and missing finished endpoints remain flagged', () => {
 });
 
 test('sliced pork with a three-minute wait is distinct from its poultry alternative', () => {
+  const shrimp =
+    'Cook the shrimp separately until firm, pearly and opaque throughout; check thick centers for 145°F.';
+  assert.equal(
+    hasLowTemperatureReference(
+      shrimp + ' Raw chicken sausage needs a separate complete method to 165°F.',
+      words
+    ),
+    false
+  );
+  for (const unsafe of [
+    'Cook raw chicken to 145°F.',
+    'Cook turkey to 140°F.',
+    'Use a sous-vide bath.',
+  ]) {
+    assert.equal(
+      hasLowTemperatureReference(shrimp + ' ' + unsafe + ' Reheat leftovers to 165°F.', words),
+      true
+    );
+  }
+  assert.equal(
+    hasLowTemperatureReference('Cook shrimp to 145°F. Chicken reaches 165°F.', words),
+    true
+  );
+  assert.equal(
+    hasLowTemperatureReference(
+      'Cook shrimp and chicken until opaque at 145°F. Reheat leftovers to 165°F.',
+      words
+    ),
+    true
+  );
+  assert.equal(
+    hasLowTemperatureReference('Cook shrimp until opaque at 140°F. Chicken reaches 165°F.', words),
+    true
+  );
+  assert.equal(hasLowTemperatureReference(shrimp, words), true);
+  for (const ambiguous of [
+    'Cook shrimp until still translucent, not opaque; check thick centers for 145°F. Chicken reaches 165°F.',
+    'Cook shrimp at 145°F for 30 minutes until opaque. Chicken reaches 165°F.',
+    'Cook shrimp at 145°F for 30 minutes, then continue until firm, pearly and opaque throughout; check thick centers for 145°F. Chicken reaches 165°F.',
+  ]) {
+    assert.equal(hasLowTemperatureReference(ambiguous, words), true, ambiguous);
+  }
+  const actual = fs
+    .readFileSync(
+      new URL('../../src/content/recipes/crispy-sheet-pan-gnocchi-and-veggies.md', import.meta.url),
+      'utf8'
+    )
+    .split(/^---\s*$/m)
+    .slice(2)
+    .join('---');
+  assert.equal(hasLowTemperatureReference(actual, words), false);
   const pork =
     'Check sliced pork reaches at least 145°F / 63°C; give it at least 3 minutes before serving.';
   assert.equal(

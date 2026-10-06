@@ -5,9 +5,12 @@ import matter from 'gray-matter';
 const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8'));
 
 test('pie keeps both blind bake stages hot and chills the egg custard promptly', () => {
-  const { content } = read('apple-cider-cream-pie');
-  assert.match(content, /15 mins more at 425°F/);
-  assert.match(content, /reduce the oven to 350°F/);
+  const { data, content } = read('apple-cider-cream-pie');
+  const shell = data.formula.steps.find((step) => step.id === 'shell');
+  assert.match(shell.text, /Heat the oven to 425°F/);
+  assert.match(shell.text, /about 15 minutes until barely set/);
+  assert.match(shell.text, /about 15 minutes more at 425°F until set but not browned/);
+  assert.match(content, /[Rr]educe the oven to 350°F/);
   assert.match(content, /refrigerate within 2 hours/);
   assert.doesNotMatch(content, /intensifying its flavor tenfold/);
 });

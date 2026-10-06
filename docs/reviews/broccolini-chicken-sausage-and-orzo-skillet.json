@@ -1,0 +1,521 @@
+{
+  "slug": "broccolini-chicken-sausage-and-orzo-skillet",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "e33bea43eaa4d8afc3d67df50d48d2a5adc0ff52a0eef880e97c340c156cd50f",
+  "acceptedSourceSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 20–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1 cup Orzo pasta",
+        "2 bunches broccolini (about 1 lb), trimmed and coarsely chopped",
+        "2 1/2 cups Chicken Broth",
+        "2 tbsp Olive Oil",
+        "2 cloves Garlic, minced",
+        "1/2 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1 cup frozen peas, optional replacement for the broccolini; do not add both"
+      ],
+      "after": [
+        "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1 cup Orzo pasta",
+        "2 bunches broccolini (about 1 lb total), trimmed and coarsely chopped",
+        "2 1/2 cups Chicken Broth",
+        "2 tbsp Olive Oil",
+        "2 cloves Garlic, minced",
+        "1/2 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 505,
+        "protein": 21.5,
+        "carbs": 50,
+        "fat": 25,
+        "fiber": 5.5,
+        "sugar": 3,
+        "sodium": 990
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep pasta hydration separate from vegetable tenderness",
+        "outcome": "Tender orzo coated with Parmesan, hot sausage and broccolini with some bite.",
+        "techniques": ["temperature", "starch"],
+        "before": [
+          "Use a skillet with room for the pasta to expand and for stirring under a fully closing lid. The source uses a 10-inch skillet for the original batch; larger batches need suitable larger or separate vessels, while smaller batches may evaporate faster.",
+          "All the measured oil starts in the skillet and remains available for the subsequent vegetable and pasta stages. Do not add another measured oil dose."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The orzo center is tender before the broth adjustment is finished.",
+            "why": "Broth absorption and pasta tenderness can finish at different times."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pasta is firm but the mixture is drying out",
+            "cause": "Liquid evaporated before the starch hydrated, or the load and heat differed.",
+            "fix": "Use the recipe’s specified adjustment route and check tenderness before treating surface color as completion."
+          }
+        ],
+        "timing": "Allow about 30–45 minutes including chopping, 3–4 minutes sausage browning, about 5 minutes vegetable cooking, the short garlic stage, broth heat-up, package-dependent orzo cooking and finishing. Peas replace the separate broccolini sauté; extra vessels add work and elapsed time.",
+        "storage": "Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. For meal prep, plan to use airtight refrigerated leftovers within 3 days. General cooked-leftover guidance is 3–4 days; reheat the portion being served to 165°F / 74°C throughout. Stored pasta softens; reheating does not reproduce the first-cook texture.",
+        "substitutions": [
+          {
+            "ingredient": "Separate vegetable and sausage removal",
+            "alternative": "Source one-skillet sequence",
+            "effect": "For the original batch, use the same full oil, cooked sausage, broccolini, garlic, orzo, broth and Parmesan. Brown the sausage in the oil, then leave it in the pan while the broccolini sautés to almost tender with salt and pepper. Add garlic and orzo for the retained brief 30–45-second stage, then add all broth and cook covered to tender orzo, adjusting only as needed with hot water. Incorporate Parmesan off heat and serve with the separate optional extra cheese. This changes the vegetable’s time in the broth; the current removal route remains the main."
+          }
+        ],
+        "sources": [
+          {
+            "title": "KitchnOrzo",
+            "url": "https://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135"
+          },
+          {
+            "title": "FDAHandling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafetyTemp",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis skillet dinner uses fully cooked chicken sausage. Coarsely chop the broccolini so the stems can become tender during the short sauté. Cook the orzo to tenderness, adjusting for its package timing rather than relying on a fixed ten minutes.\n\n## Directions\n\n1.  **The Sear:** Heat oil in a large skillet with a lid. Brown the fully cooked sausage rounds for 3–4 minutes. Raw chicken sausage is not a direct substitute for this brief browning step. Remove to a plate.\n2.  **The Veg:** Add broccolini to the same pan. Sauté for about 5 minutes until the stems are tender-crisp; cook a little longer if still tough. Remove and keep with the sausage. If using frozen peas instead, skip this step and add them near the end of the orzo cooking, allowing a few minutes to heat through.\n3.  **The Toast:** Add the orzo and garlic to the pan. Toast for 30-45 seconds until fragrant and the orzo smells nutty.\n4.  **The Simmer:** Pour in the broth. Bring to a boil, then reduce to low and cover. Simmer for about 10 minutes, or according to the orzo package, until the pasta is al dente. If tender pasta still has pooled broth, uncover and simmer briefly to evaporate it; if the pan is dry but pasta is firm, add a little hot water and continue cooking.\n5.  **The Fold:** Return the reserved sausage and broccolini, if using, and stir over low heat until hot. Remove from heat and stir in the Parmesan.\n6.  **Finish:** If the pasta is too dry, add a splash of hot water. Season with plenty of black pepper.\n",
+    "after": "\n## Chef's Note\n\nUse fully cooked chicken sausage, then keep it and the sautéed broccolini aside while the orzo absorbs the broth. Return both only when the pasta is tender, and stir in the full Parmesan off heat. The peas option replaces the broccolini and goes into the simmer near the end.\n\n## Directions\n\n1. **Brown the cooked sausage:** Heat all the olive oil over medium-high heat in a roomy skillet with a lid. Add the fully cooked sausage rounds and brown for about 3–4 minutes, then transfer to a clean plate. Raw chicken sausage needs its own complete cooking method and is not a direct substitute.\n\n2. **Cook the vegetable:** Wash and dry broccolini, trim the woody ends and coarsely chop it. Sauté it in the same oil-coated pan with some of the listed salt and pepper for about 5 minutes, until the stems are tender-crisp; continue if still tough. Remove to the sausage plate. If choosing frozen peas instead, omit all broccolini and skip this sauté; keep the peas for the final simmer.\n\n3. **Toast briefly:** Add all the dry orzo and minced garlic to the pan. Stir for 30–45 seconds until fragrant; stop before the garlic darkens.\n\n4. **Simmer the pasta:** Pour in all the chicken broth. Bring to a boil, cover and reduce to a gentle simmer. Begin checking around 10 minutes, guided by the orzo package, until the center is tender with a little bite. If tender pasta has pooled broth, uncover and simmer briefly. If the pan is dry while the center is firm, add a little of the hot-water allowance and continue. When using the frozen-peas option, add the full chosen amount near the end and allow enough time to heat it through.\n\n5. **Return and enrich:** Return all the reserved fully cooked sausage and broccolini, if used. Stir over low heat until hot throughout, then remove from heat and incorporate all the measured Parmesan.\n\n6. **Finish:** Use a little hot water only if needed to loosen the pasta. Taste and adjust with the listed salt and black pepper. Serve promptly, with the separate optional extra Parmesan or chile flakes.\n"
+  },
+  "findings": [
+    {
+      "id": "PB04-broccolini-chicken-sausage-and-orzo-skillet",
+      "rationale": "Preserve858 fully-cooked identity, chopped stem/peas route, current separate removal, proportional full oil/broth/cheese and2b01 short aromatic stage. Give stranded salt a destination and list actual method-only hot-water allowance; restore exact saved optional extra Parmesan and retained earlier serving chile flakes without removing main richness.",
+      "confidence": "High exact history/dose preservation; moderate editorial safety/category/timing/capacity applications; untested",
+      "applicableSources": [
+        {
+          "key": "KitchnOrzo",
+          "url": "https://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135",
+          "scope": "Full measured oil/broth/pasta/cooked sausage/vegetables/Parmesan, source simultaneous-skillet method; current separate-removal858 adaptation preserved."
+        },
+        {
+          "key": "FDAHandling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Producewash/clean rawcontact separation,cold40/twohouronehour exposure,165storedleftovers/reheat saucesaboil, shallowcool; no ratio/yield certification."
+        },
+        {
+          "key": "FoodSafetyTemp",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Rawgroundbeef/pork160,poultry165,meatANDmeatlesscasseroles165,storedleftovers165. Custard pasta and slow-cooker casserole category editorial moderateapplication, not exactformula validation."
+        },
+        {
+          "key": "USDALeftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "General cooked-leftover guidance supports prompt shallow cooling, refrigeration for 3–4 days and reheating to 165°F; it does not establish recipe-specific shelf life, ratio, yield, texture or first-cook validation."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual skillet diameter/depth, brand orzo heat-up and evaporation; measured cooked portion size remains untested."
+      ]
+    },
+    {
+      "id": "PSS01-broccolini-chicken-sausage-and-orzo-skillet",
+      "rationale": "The exact bound original and actually opened current publisher both retain an up-to-three-day airtight refrigerator note. The frozen candidate only offers the broader generic 3–4-day guidance. Preserve the shorter recipe planning note explicitly without declaring a tested shelf life or reducing richness/changing method. Calling it a meal-prep plan is an editorial presentation of the source recommendation, not evidence of a measured quality threshold.",
+      "confidence": "High for native/publisher three-day recommendation; no physical shelf-life or quality testing claimed.",
+      "applicableSources": [
+        {
+          "nativeNotes": "Storage: Leftovers can be stored in an airtight container and refrigerated for up to 3 days.",
+          "currentPublisher": {
+            "url": "https://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135",
+            "section": "Recipe Notes — Storage",
+            "line": 205,
+            "fetched": "2026-10-06",
+            "finding": "Current primary page independently repeats the up-to-three-day airtight refrigerator note."
+          },
+          "generalHandling": {
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+            "scope": "Previously read primary leftover guidance supplies general 3–4-day refrigeration, prompt shallow cooling and 165°F reheating. It does not measure either recipe shelf life."
+          }
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Broccolini,%20Chicken%20Sausage,%20and%20Orzo%20Skillet.html",
+    "introductionScope": "Actual earlier cooking HTML directly read from durable Git; canonical followed lineage retained separately",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Preserve858 fully-cooked identity, chopped stem/peas route, current separate removal, proportional full oil/broth/cheese and2b01 short aromatic stage. Give stranded salt a destination and list actual method-only hot-water allowance; restore exact saved optional extra Parmesan and retained earlier serving chile flakes without removing main richness. The exact bound saved source and currently read Kitchn Recipe Notes retain a three-day airtight refrigerator meal-prep plan, distinguished here from general 3–4-day cooked-leftover handling. This is not a tested shelf-life claim.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "destination": "1 cooked sausage browned→reserved→5 return"
+      },
+      {
+        "ingredient": "1 cup Orzo pasta",
+        "destination": "3 dry orzo→4 broth hydration"
+      },
+      {
+        "ingredient": "2 bunches broccolini (about 1 lb), trimmed and coarsely chopped",
+        "destination": "2 broccolini sauté→reserved→5 return"
+      },
+      {
+        "ingredient": "2 1/2 cups Chicken Broth",
+        "destination": "4 entire broth"
+      },
+      {
+        "ingredient": "2 tbsp Olive Oil",
+        "destination": "1 entire oil, retained in pan"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "3 garlic briefly"
+      },
+      {
+        "ingredient": "1/2 cup Grated Parmesan",
+        "destination": "5 entire Parmesan off heat"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": "Salt not explicitly spent; pepper6"
+      },
+      {
+        "ingredient": "1 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "destination": "2 exclusive peas instead of broccolini, end4"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "destination": "1→5 all cooked sausage"
+      },
+      {
+        "ingredient": "1 cup Orzo pasta",
+        "destination": "3→4 all dry orzo"
+      },
+      {
+        "ingredient": "2 bunches broccolini (about 1 lb total), trimmed and coarsely chopped",
+        "destination": "2→5 full broccolini OR omit for peas"
+      },
+      {
+        "ingredient": "2 1/2 cups Chicken Broth",
+        "destination": "4 all broth"
+      },
+      {
+        "ingredient": "2 tbsp Olive Oil",
+        "destination": "1 full oil retained through2/3"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "3 all garlic"
+      },
+      {
+        "ingredient": "1/2 cup Grated Parmesan",
+        "destination": "5 all measured cheese"
+      },
+      {
+        "ingredient": "Salt and Black Pepper",
+        "destination": "2 seasoning and6 final taste allowance"
+      },
+      {
+        "ingredient": "1 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "destination": "4 full exclusive peas near end"
+      },
+      {
+        "ingredient": "Hot water, as needed for firm or dry orzo",
+        "destination": "4 firm center or6 finishing only as needed"
+      },
+      {
+        "ingredient": "Additional grated Parmesan, for serving, optional",
+        "destination": "6 optional separate cheese"
+      },
+      {
+        "ingredient": "Chile flakes, for serving, optional",
+        "destination": "6 optional separate flakes"
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Separate vegetable and sausage removal",
+        "alternative": "Source one-skillet sequence",
+        "effect": "For the original batch, use the same full oil, cooked sausage, broccolini, garlic, orzo, broth and Parmesan. Brown the sausage in the oil, then leave it in the pan while the broccolini sautés to almost tender with salt and pepper. Add garlic and orzo for the retained brief 30–45-second stage, then add all broth and cook covered to tender orzo, adjusting only as needed with hot water. Incorporate Parmesan off heat and serve with the separate optional extra cheese. This changes the vegetable’s time in the broth; the current removal route remains the main."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Brown the cooked sausage: Heat all the olive oil over medium-high heat in a roomy skillet with a lid. Add the fully cooked sausage rounds and brown for about 3–4 minutes, then transfer to a clean plate. Raw chicken sausage needs its own complete cooking method and is not a direct substitute."
+    },
+    {
+      "step": 2,
+      "text": "Cook the vegetable: Wash and dry broccolini, trim the woody ends and coarsely chop it. Sauté it in the same oil-coated pan with some of the listed salt and pepper for about 5 minutes, until the stems are tender-crisp; continue if still tough. Remove to the sausage plate. If choosing frozen peas instead, omit all broccolini and skip this sauté; keep the peas for the final simmer."
+    },
+    {
+      "step": 3,
+      "text": "Toast briefly: Add all the dry orzo and minced garlic to the pan. Stir for 30–45 seconds until fragrant; stop before the garlic darkens."
+    },
+    {
+      "step": 4,
+      "text": "Simmer the pasta: Pour in all the chicken broth. Bring to a boil, cover and reduce to a gentle simmer. Begin checking around 10 minutes, guided by the orzo package, until the center is tender with a little bite. If tender pasta has pooled broth, uncover and simmer briefly. If the pan is dry while the center is firm, add a little of the hot-water allowance and continue. When using the frozen-peas option, add the full chosen amount near the end and allow enough time to heat it through."
+    },
+    {
+      "step": 5,
+      "text": "Return and enrich: Return all the reserved fully cooked sausage and broccolini, if used. Stir over low heat until hot throughout, then remove from heat and incorporate all the measured Parmesan."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Use a little hot water only if needed to loosen the pasta. Taste and adjust with the listed salt and black pepper. Serve promptly, with the separate optional extra Parmesan or chile flakes."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Separate vegetable and sausage removal",
+      "alternative": "Source one-skillet sequence",
+      "effect": "For the original batch, use the same full oil, cooked sausage, broccolini, garlic, orzo, broth and Parmesan. Brown the sausage in the oil, then leave it in the pan while the broccolini sautés to almost tender with salt and pepper. Add garlic and orzo for the retained brief 30–45-second stage, then add all broth and cook covered to tender orzo, adjusting only as needed with hot water. Incorporate Parmesan off heat and serve with the separate optional extra cheese. This changes the vegetable’s time in the broth; the current removal route remains the main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "everyday-arugula-salad",
+      "arugula-feta-salad",
+      "charred-asparagus-with-parmesan"
+    ],
+    "incomingMeals": [],
+    "scope": "Whole linked recipes read; separate preparation/elapsed clocks and actual meal contradictions recorded without granting review status."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": "Measured main totals preserved except the explicitly proposed complete Anelletti source-rich route; no measured cooked yield or capacity invented. Listed portions are original planning. Actual pan/manual governs and extra vessels do not multiply clocks.",
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Allow about 30–45 minutes including chopping, 3–4 minutes sausage browning, about 5 minutes vegetable cooking, the short garlic stage, broth heat-up, package-dependent orzo cooking and finishing. Peas replace the separate broccolini sauté; extra vessels add work and elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1/4 cup Orzo pasta",
+        "1/2 bunch broccolini (about 1/4 lb total), trimmed and coarsely chopped",
+        "5/8 cup Chicken Broth",
+        "1/2 tbsp Olive Oil",
+        "1/2 clove Garlic, minced",
+        "1/8 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1/4 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1/2 cup Orzo pasta",
+        "1 bunch broccolini (about 1/2 lb total), trimmed and coarsely chopped",
+        "1 1/4 cups Chicken Broth",
+        "1 tbsp Olive Oil",
+        "1 clove Garlic, minced",
+        "1/4 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1/2 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1 cup Orzo pasta",
+        "2 bunches broccolini (about 1 lb total), trimmed and coarsely chopped",
+        "2 1/2 cups Chicken Broth",
+        "2 tbsp Olive Oil",
+        "2 cloves Garlic, minced",
+        "1/2 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1 1/2 cups Orzo pasta",
+        "3 bunches broccolini (about 1 1/2 lb total), trimmed and coarsely chopped",
+        "3 3/4 cups Chicken Broth",
+        "3 tbsp Olive Oil",
+        "3 cloves Garlic, minced",
+        "3/4 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1 1/2 cups frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "2 cups Orzo pasta",
+        "4 bunches broccolini (about 2 lb total), trimmed and coarsely chopped",
+        "5 cups Chicken Broth",
+        "4 tbsp Olive Oil",
+        "4 cloves Garlic, minced",
+        "1 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "2 cups frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "3 cups Orzo pasta",
+        "6 bunches broccolini (about 3 lb total), trimmed and coarsely chopped",
+        "7 1/2 cups Chicken Broth",
+        "6 tbsp Olive Oil",
+        "6 cloves Garlic, minced",
+        "1 1/2 cups Grated Parmesan",
+        "Salt and Black Pepper",
+        "3 cups frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz fully cooked hot Italian chicken sausage, sliced into 1/4-inch rounds",
+        "1 cup Orzo pasta",
+        "2 bunches broccolini (about 1 lb total), trimmed and coarsely chopped",
+        "2 1/2 cups Chicken Broth",
+        "2 tbsp Olive Oil",
+        "2 cloves Garlic, minced",
+        "1/2 cup Grated Parmesan",
+        "Salt and Black Pepper",
+        "1 cup frozen peas, optional replacement for the broccolini; do not add both",
+        "Hot water, as needed for firm or dry orzo",
+        "Additional grated Parmesan, for serving, optional",
+        "Chile flakes, for serving, optional"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "858 fullycookedsausage/choppedbroccolini/peas/tenderorzo/water/offheatParmesan and2b01shortgarlic stage retained. Targetedstatusnotcomplete endorsement.",
+  "remainingQuestions": [
+    "Actual skillet diameter/depth, brand orzo heat-up and evaporation; measured cooked portion size remains untested."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

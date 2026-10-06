@@ -1,0 +1,1059 @@
+{
+  "slug": "tomato-and-goat-cheese-tart",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "ce39bded2a91a1cb21dc101fa3c01f701a5fca46e1ee2e8c7d86e3bea6f9c531",
+  "acceptedSourceSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "140 min",
+      "after": "About 70–95 min baking"
+    },
+    {
+      "field": "totalTime",
+      "before": "160 min",
+      "after": "About 2 hr 20 min–3 hr"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups All-Purpose Flour, plus more for rolling",
+        "3/4 cup (6 oz) Cold Butter, cubed",
+        "1/2 tsp Baking Powder",
+        "1 tbsp Cold Cider Vinegar",
+        "3-4 tbsp Ice Water, as needed",
+        "3 tsp Kosher Salt, divided",
+        "4 tbsp Olive Oil, divided",
+        "1 tsp Black Pepper, divided",
+        "12 oz Goat Cheese, crumbled; 4 oz for the crust and 8 oz for the filling",
+        "1 cup Whole-milk Ricotta",
+        "1/2 tsp Garlic, grated",
+        "4 tsp Fresh Thyme, divided",
+        "3 lbs Heirloom Tomatoes, thinly sliced",
+        "Fresh Green and Purple Basil"
+      ],
+      "after": [
+        "--- Tart ingredients ---",
+        "2 cups all-purpose flour",
+        "all-purpose flour, for rolling",
+        "3/4 cup (6 oz) cold unsalted butter, cubed",
+        "1/2 tsp baking powder",
+        "1 tbsp cold apple cider vinegar",
+        "3–4 tbsp ice water, add only as needed; unused maximum may remain",
+        "3 tsp kosher salt",
+        "4 tbsp olive oil",
+        "1 tsp black pepper",
+        "12 oz goat cheese, crumbled",
+        "1 cup whole-milk ricotta",
+        "1/2 tsp grated garlic",
+        "4 tsp fresh thyme leaves",
+        "3 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "France",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Allocate pastry, roasting and filling ingredients proportionally",
+        "outcome": "A set goat-cheese pastry shell with browned roasted tomatoes and a warm cheese filling.",
+        "techniques": ["temperature"],
+        "before": [
+          "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+          "For the original batch reserve one-third of goat cheese for pastry and two-thirds for filling; salt is divided into thirds, thyme and pepper into halves, and oil into three-quarters for roasting and one-quarter for assembly. The listed amounts govern at every scale.",
+          "Check the tart pan permits the transition from the freezer to a 450°F oven. Use foil for the blind-bake liner; ordinary 425°F-rated parchment is not a 450°F liner."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Tomato surfaces are dry to the touch and slices have visibly shrunk.",
+            "why": "Roasting before assembly removes some water before the tomatoes meet the cheese and pastry."
+          },
+          {
+            "step": 4,
+            "cue": "The shell is set and just coloring at the edge after weighted baking.",
+            "why": "This is a partial blind-bake, followed by a separate filling bake; it does not need an invented extra unweighted stage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pastry breaks when the tart rim is removed",
+            "cause": "The tart is too hot or shell was damaged during handling.",
+            "fix": "Give it the 20–30-minute cooling period and release the rim gently. Serve broken portions from the pan; extra cooling cannot mend a torn shell."
+          }
+        ],
+        "timing": "Allow about 2 hours 20 minutes to 3 hours: dough mixing and 30-minute chilling, tomatoes 30–45 minutes overlapping the chill, roll/freeze 20 minutes, blind-bake 20–25 minutes, shell cooling 10 minutes, filling/assembly, final bake 20–25 minutes and 20–30 minutes cooling. Oven changes, extra sheets or tart rounds add time.",
+        "substitutions": [],
+        "storage": "Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Keep covered once cold. Use within 3–4 days, or sooner if a dairy ingredient needs using sooner. For hot leftovers, reheat the served portion to 165°F throughout; pastry will soften in storage.",
+        "sources": [
+          {
+            "title": "Food & Wine — Tomato and Goat Cheese Tart",
+            "url": "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "Reynolds — Baking with parchment",
+            "url": "https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "tart",
+            "name": "Tart ingredients",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rolling-flour",
+                "key": "rolling-flour",
+                "name": "all-purpose flour",
+                "allowance": "for rolling",
+                "uses": [
+                  {
+                    "step": "shape",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "cold unsalted butter",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 6,
+                    "unit": "oz"
+                  }
+                ],
+                "preparation": "cubed"
+              },
+              {
+                "id": "baking-powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "cold apple cider vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "ice water",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp",
+                  "max": 4
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ],
+                "preparation": "add only as needed; unused maximum may remain"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "roast",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "assemble",
+                    "share": "1/3"
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": "3/4"
+                  },
+                  {
+                    "step": "assemble",
+                    "share": "1/4"
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "black pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "assemble",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "goat",
+                "key": "goat",
+                "name": "goat cheese",
+                "quantity": {
+                  "amount": 12,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "filling",
+                    "share": "2/3"
+                  }
+                ],
+                "preparation": "crumbled"
+              },
+              {
+                "id": "ricotta",
+                "key": "ricotta",
+                "name": "whole-milk ricotta",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "filling",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "grated garlic",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "filling",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "fresh thyme leaves",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "filling",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "tomatoes",
+                "key": "tomatoes",
+                "name": "heirloom tomatoes",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and evenly thinly sliced"
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "fresh green and purple basil",
+                "allowance": "for garnish",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "dough",
+            "title": "Make dough",
+            "text": "Use {{ingredients}} for the pastry: pulse flour, baking powder, assigned thyme and assigned salt together. Add all the cold butter and assigned goat cheese and pulse until crumbly. Pulse in all vinegar, then the ice-water supply gradually just until dough gathers; unused water may remain. Form a disk, wrap and refrigerate at least 30 minutes."
+          },
+          {
+            "id": "roast",
+            "title": "Roast tomatoes",
+            "text": "Heat the oven to 425°F with racks in the upper and lower thirds. Divide {{ingredients}} across two large rimmed sheets for the original batch, spreading the slices without crowded piles and dividing the assigned oil, salt and pepper over every sheet. Roast until slices shrink and their surfaces are dry to the touch, beginning checks around 30 minutes and often taking 30–45 minutes. Rotate sheets between racks halfway through; extra sheets may require more oven rounds. Retain all tomato slices and their oil for the tart."
+          },
+          {
+            "id": "shape",
+            "title": "Shape and freeze shell",
+            "text": "Use {{ingredients}} lightly on the work surface. Roll dough to a 12-inch circle about 1/4 inch thick for the original 11-inch removable-bottom tart pan; press into the bottom and sides. Use suitable extra or smaller pans when scaling, with similar pastry thickness and enough room for the full filling. Freeze the shaped shell 20 minutes. Increase oven temperature to 450°F."
+          },
+          {
+            "id": "blind-bake",
+            "title": "Blind-bake",
+            "text": "Put the tart pan on a rimmed baking sheet. Line the frozen shell with foil and pie weights filling to the edge. Bake at 450°F for about 20–25 minutes until set and beginning to turn golden at the edges. Carefully lift out weights and foil and cool about 10 minutes. Reduce the oven to 425°F. Do not replace foil with parchment unless that actual product is rated for 450°F."
+          },
+          {
+            "id": "filling",
+            "title": "Make cheese filling",
+            "text": "Whisk all {{ingredients}} until combined. Scrape the entire mixture across the baked shell; this uses every remaining portion of goat cheese and thyme, not another full measured batch."
+          },
+          {
+            "id": "assemble",
+            "title": "Add tomatoes and finish seasoning",
+            "text": "Arrange all the roasted tomato slices over the cheese, overlapping slightly as needed. Divide all {{ingredients}} over the tomatoes. The earlier roasting oil remains with the tomatoes; this is only the reserved final oil and seasoning."
+          },
+          {
+            "id": "bake",
+            "title": "Finish baking",
+            "text": "Bake at 425°F, starting checks around 20–25 minutes for the original tart, until the tomatoes and pastry are browned and the filling is hot. Shield pastry if its edge colors early; actual pan depth and additional tart rounds alter the clock."
+          },
+          {
+            "id": "serve",
+            "title": "Cool and serve",
+            "text": "Cool 20–30 minutes until just warm before releasing the removable rim and slicing. Finish with {{ingredients}}. Refrigerate remaining portions promptly."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is the ultimate holiday tart. The key is roasting the sliced heirloom tomatoes at 425°F for 40 minutes before adding them to the tart. This concentrates their flavor into a tender consistency and prevents the bottom crust from turning into a soggy mess. For the crust, adding cider vinegar inhibits gluten development, resulting in a tart shell that is shatteringly tender.\n\n## Directions\n\n1.  **The Crust:** In a food processor, pulse flour, baking powder, 2 tsp thyme, and 1 tsp salt. Add butter and 4 oz goat cheese; pulse until crumbly. Pulse in vinegar, then add ice water 1 tbsp at a time just until the dough comes together; you may not need all 4 tbsp. Wrap and **refrigerate for 30 minutes**.\n2.  **The Roast:** Preheat oven to 425°F. While the dough chills, arrange tomato slices across two large rimmed sheet pans. Drizzle with 3 tbsp oil and season with 1 tsp salt and 1/2 tsp pepper. Roast for 30-45 minutes until shrunk and dry to the touch. Remove.\n3.  **Thermal Prep:** Roll dough into a 12-inch circle. Press into an 11-inch tart pan. **Freeze for 20 minutes** (mandatory for structure).\n4.  **Blind Bake:** Line the frozen crust with foil and pie weights. Bake at 450°F for 20-25 minutes until set and beginning to turn golden at the edges. Carefully remove the weights and foil; cool for about 10 minutes. Reduce the oven to 425°F.\n5.  **The Emulsion:** Whisk ricotta, garlic, the remaining 2 tsp thyme, and the remaining 8 oz goat cheese until smooth. Spread evenly over the bottom of the crust.\n6.  **Assemble:** Layer the roasted tomatoes in a beautiful overlapping pattern over the cheese. Drizzle with the remaining 1 tbsp oil and sprinkle with the remaining 1 tsp salt and 1/2 tsp pepper.\n7.  **Final Bake:** Bake at 425°F for 20-25 minutes until the tomatoes and crust are browned.\n8.  **Serve:** Cool for 20-30 minutes until just warm before removing from the tart pan and slicing. Garnish with fresh purple and green basil for the aromatic **High Note**.\n",
+    "after": "\n## Chef's Note\n\nRoast the tomatoes before layering so their surface moisture has time to evaporate. Goat cheese belongs in both the pastry and the ricotta filling, while the salt, oil, pepper and thyme have separate measured destinations. The baked tart needs its short cooling period before the rim comes off.\n\n## Directions\n\n1. **Make dough:** Use all-purpose flour, cold unsalted butter, baking powder, cold apple cider vinegar, ice water, 1/3 of the kosher salt, 1/3 of the goat cheese, and 1/2 of the fresh thyme leaves for the pastry: pulse flour, baking powder, assigned thyme and assigned salt together. Add all the cold butter and assigned goat cheese and pulse until crumbly. Pulse in all vinegar, then the ice-water supply gradually just until dough gathers; unused water may remain. Form a disk, wrap and refrigerate at least 30 minutes.\n2. **Roast tomatoes:** Heat the oven to 425°F with racks in the upper and lower thirds. Divide 1/3 of the kosher salt, 3/4 of the olive oil, 1/2 of the black pepper, and heirloom tomatoes across two large rimmed sheets for the original batch, spreading the slices without crowded piles and dividing the assigned oil, salt and pepper over every sheet. Roast until slices shrink and their surfaces are dry to the touch, beginning checks around 30 minutes and often taking 30–45 minutes. Rotate sheets between racks halfway through; extra sheets may require more oven rounds. Retain all tomato slices and their oil for the tart.\n3. **Shape and freeze shell:** Use all-purpose flour lightly on the work surface. Roll dough to a 12-inch circle about 1/4 inch thick for the original 11-inch removable-bottom tart pan; press into the bottom and sides. Use suitable extra or smaller pans when scaling, with similar pastry thickness and enough room for the full filling. Freeze the shaped shell 20 minutes. Increase oven temperature to 450°F.\n4. **Blind-bake:** Put the tart pan on a rimmed baking sheet. Line the frozen shell with foil and pie weights filling to the edge. Bake at 450°F for about 20–25 minutes until set and beginning to turn golden at the edges. Carefully lift out weights and foil and cool about 10 minutes. Reduce the oven to 425°F. Do not replace foil with parchment unless that actual product is rated for 450°F.\n5. **Make cheese filling:** Whisk all 2/3 of the goat cheese, whole-milk ricotta, grated garlic, and 1/2 of the fresh thyme leaves until combined. Scrape the entire mixture across the baked shell; this uses every remaining portion of goat cheese and thyme, not another full measured batch.\n6. **Add tomatoes and finish seasoning:** Arrange all the roasted tomato slices over the cheese, overlapping slightly as needed. Divide all 1/3 of the kosher salt, 1/4 of the olive oil, and 1/2 of the black pepper over the tomatoes. The earlier roasting oil remains with the tomatoes; this is only the reserved final oil and seasoning.\n7. **Finish baking:** Bake at 425°F, starting checks around 20–25 minutes for the original tart, until the tomatoes and pastry are browned and the filling is hot. Shield pastry if its edge colors early; actual pan depth and additional tart rounds alter the clock.\n8. **Cool and serve:** Cool 20–30 minutes until just warm before releasing the removable rim and slicing. Finish with fresh green and purple basil. Refrigerate remaining portions promptly.\n"
+  },
+  "findings": [
+    {
+      "id": "PT05-tomato-and-goat-cheese-tart",
+      "rationale": "856 repaired the previously lost measured ingredients and exact4oz/8oz goat allocation, three salt shares and oil/pepper/thyme divisions. October5 no-change was narrow; preserve every repaired amount/temperature/foil/geometry/cool stage. Author allocations instead of fixed1tsp/3tbsp/4oz prose so enabled ingredient arithmetic remains useful. Native/publisher identifies butter as unsalted; current generic butter narrowed to that exact source state without reducing fat. Source original11-inch tart and12-inch roll remain contextual; no scaling override. Remove unsupported country-of-origin and guaranteed vinegar/tomato moisture claims while preserving French cuisine and source credit.",
+      "confidence": "High exact quantity/history preservation; moderate planning, sensory/capacity and safety application. Kitchen untested.",
+      "applicableSources": [
+        {
+          "key": "Goat",
+          "title": "Food & Wine — Tomato and Goat Cheese Tart",
+          "url": "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart",
+          "scope": "Publisher and bound original agree with repaired amounts and divisions; original11-inch pan, partial blind-bake and staged temperatures retained."
+        },
+        {
+          "key": "FDA",
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, separation, refrigerated40°F/perishable2h or1h above90°F and leftover165°F guidance only; no pastry formula or timing validation."
+        },
+        {
+          "key": "Paper",
+          "title": "Reynolds — Baking with parchment",
+          "url": "https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper",
+          "scope": "This manufacturer limits its parchment to425°F. Actual450°F goat blind-bake keeps repaired foil rather than unqualified parchment."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual11-inch tart depth/cheese and tomato volume, kosher-salt crystals and freezing-to-hot-oven pan rating remain kitchen/equipment questions.",
+        "Moisture and tomato slice thickness affect roast and final bake; no guaranteed dry or crisp result."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Tomato%20and%20Goat%20Cheese%20Tart.html",
+    "introductionScope": "Actual earlier cooking HTML directly inspected; full canonical followed history retained",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "856 repaired the previously lost measured ingredients and exact4oz/8oz goat allocation, three salt shares and oil/pepper/thyme divisions. October5 no-change was narrow; preserve every repaired amount/temperature/foil/geometry/cool stage. Author allocations instead of fixed1tsp/3tbsp/4oz prose so enabled ingredient arithmetic remains useful. Native/publisher identifies butter as unsalted; current generic butter narrowed to that exact source state without reducing fat. Source original11-inch tart and12-inch roll remain contextual; no scaling override. Remove unsupported country-of-origin and guaranteed vinegar/tomato moisture claims while preserving French cuisine and source credit.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "2 cups All-Purpose Flour, plus more for rolling",
+        "actualMethodDestination": "Dough1 flour plus rolling3"
+      },
+      {
+        "text": "3/4 cup (6 oz) Cold Butter, cubed",
+        "actualMethodDestination": "Dough1 butter"
+      },
+      {
+        "text": "1/2 tsp Baking Powder",
+        "actualMethodDestination": "Dough1 baking powder"
+      },
+      {
+        "text": "1 tbsp Cold Cider Vinegar",
+        "actualMethodDestination": "Dough1 vinegar"
+      },
+      {
+        "text": "3-4 tbsp Ice Water, as needed",
+        "actualMethodDestination": "Dough1 water as needed"
+      },
+      {
+        "text": "3 tsp Kosher Salt, divided",
+        "actualMethodDestination": "Salt1/2/6 three fixed1tsp shares"
+      },
+      {
+        "text": "4 tbsp Olive Oil, divided",
+        "actualMethodDestination": "Oil2 three tbsp and6 one tbsp"
+      },
+      {
+        "text": "1 tsp Black Pepper, divided",
+        "actualMethodDestination": "Pepper2/6 half tsp each"
+      },
+      {
+        "text": "12 oz Goat Cheese, crumbled; 4 oz for the crust and 8 oz for the filling",
+        "actualMethodDestination": "Goat1 four oz and5 eight oz"
+      },
+      {
+        "text": "1 cup Whole-milk Ricotta",
+        "actualMethodDestination": "Filling5 full ricotta"
+      },
+      {
+        "text": "1/2 tsp Garlic, grated",
+        "actualMethodDestination": "Filling5 full garlic"
+      },
+      {
+        "text": "4 tsp Fresh Thyme, divided",
+        "actualMethodDestination": "Thyme1/5 two tsp each"
+      },
+      {
+        "text": "3 lbs Heirloom Tomatoes, thinly sliced",
+        "actualMethodDestination": "Roast2→assemble6 all tomatoes"
+      },
+      {
+        "text": "Fresh Green and Purple Basil",
+        "actualMethodDestination": "Serve8 basil"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "2 cups all-purpose flour",
+        "id": "tart.flour",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "all-purpose flour, for rolling",
+        "id": "tart.rolling-flour",
+        "quantity": null,
+        "allowance": "for rolling",
+        "uses": [
+          {
+            "step": "shape",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "3/4 cup (6 oz) cold unsalted butter, cubed",
+        "id": "tart.butter",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "preparation": "cubed"
+      },
+      {
+        "text": "1/2 tsp baking powder",
+        "id": "tart.baking-powder",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tbsp cold apple cider vinegar",
+        "id": "tart.vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "3–4 tbsp ice water, add only as needed; unused maximum may remain",
+        "id": "tart.water",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp",
+          "max": 4
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "preparation": "add only as needed; unused maximum may remain"
+      },
+      {
+        "text": "3 tsp kosher salt",
+        "id": "tart.salt",
+        "quantity": {
+          "amount": 3,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": "1/3"
+          },
+          {
+            "step": "roast",
+            "share": "1/3"
+          },
+          {
+            "step": "assemble",
+            "share": "1/3"
+          }
+        ]
+      },
+      {
+        "text": "4 tbsp olive oil",
+        "id": "tart.oil",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "roast",
+            "share": "3/4"
+          },
+          {
+            "step": "assemble",
+            "share": "1/4"
+          }
+        ]
+      },
+      {
+        "text": "1 tsp black pepper",
+        "id": "tart.pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "roast",
+            "share": "1/2"
+          },
+          {
+            "step": "assemble",
+            "share": "1/2"
+          }
+        ]
+      },
+      {
+        "text": "12 oz goat cheese, crumbled",
+        "id": "tart.goat",
+        "quantity": {
+          "amount": 12,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": "1/3"
+          },
+          {
+            "step": "filling",
+            "share": "2/3"
+          }
+        ],
+        "preparation": "crumbled"
+      },
+      {
+        "text": "1 cup whole-milk ricotta",
+        "id": "tart.ricotta",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "filling",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/2 tsp grated garlic",
+        "id": "tart.garlic",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "filling",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "4 tsp fresh thyme leaves",
+        "id": "tart.thyme",
+        "quantity": {
+          "amount": 4,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": "1/2"
+          },
+          {
+            "step": "filling",
+            "share": "1/2"
+          }
+        ]
+      },
+      {
+        "text": "3 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "id": "tart.tomatoes",
+        "quantity": {
+          "amount": 3,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "roast",
+            "share": 1
+          }
+        ],
+        "preparation": "washed and evenly thinly sliced"
+      },
+      {
+        "text": "fresh green and purple basil, for garnish",
+        "id": "tart.basil",
+        "quantity": null,
+        "allowance": "for garnish",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [],
+    "methodOnlyFrozen": "Rolling flour, topping or finishing supplies are separate genuine allowances where explicitly authored; complete exact formula enumerates each."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Make dough: Use all-purpose flour, cold unsalted butter, baking powder, cold apple cider vinegar, ice water, 1/3 of the kosher salt, 1/3 of the goat cheese, and 1/2 of the fresh thyme leaves for the pastry: pulse flour, baking powder, assigned thyme and assigned salt together. Add all the cold butter and assigned goat cheese and pulse until crumbly. Pulse in all vinegar, then the ice-water supply gradually just until dough gathers; unused water may remain. Form a disk, wrap and refrigerate at least 30 minutes."
+    },
+    {
+      "step": 2,
+      "text": "Roast tomatoes: Heat the oven to 425°F with racks in the upper and lower thirds. Divide 1/3 of the kosher salt, 3/4 of the olive oil, 1/2 of the black pepper, and heirloom tomatoes across two large rimmed sheets for the original batch, spreading the slices without crowded piles and dividing the assigned oil, salt and pepper over every sheet. Roast until slices shrink and their surfaces are dry to the touch, beginning checks around 30 minutes and often taking 30–45 minutes. Rotate sheets between racks halfway through; extra sheets may require more oven rounds. Retain all tomato slices and their oil for the tart."
+    },
+    {
+      "step": 3,
+      "text": "Shape and freeze shell: Use all-purpose flour lightly on the work surface. Roll dough to a 12-inch circle about 1/4 inch thick for the original 11-inch removable-bottom tart pan; press into the bottom and sides. Use suitable extra or smaller pans when scaling, with similar pastry thickness and enough room for the full filling. Freeze the shaped shell 20 minutes. Increase oven temperature to 450°F."
+    },
+    {
+      "step": 4,
+      "text": "Blind-bake: Put the tart pan on a rimmed baking sheet. Line the frozen shell with foil and pie weights filling to the edge. Bake at 450°F for about 20–25 minutes until set and beginning to turn golden at the edges. Carefully lift out weights and foil and cool about 10 minutes. Reduce the oven to 425°F. Do not replace foil with parchment unless that actual product is rated for 450°F."
+    },
+    {
+      "step": 5,
+      "text": "Make cheese filling: Whisk all 2/3 of the goat cheese, whole-milk ricotta, grated garlic, and 1/2 of the fresh thyme leaves until combined. Scrape the entire mixture across the baked shell; this uses every remaining portion of goat cheese and thyme, not another full measured batch."
+    },
+    {
+      "step": 6,
+      "text": "Add tomatoes and finish seasoning: Arrange all the roasted tomato slices over the cheese, overlapping slightly as needed. Divide all 1/3 of the kosher salt, 1/4 of the olive oil, and 1/2 of the black pepper over the tomatoes. The earlier roasting oil remains with the tomatoes; this is only the reserved final oil and seasoning."
+    },
+    {
+      "step": 7,
+      "text": "Finish baking: Bake at 425°F, starting checks around 20–25 minutes for the original tart, until the tomatoes and pastry are browned and the filling is hot. Shield pastry if its edge colors early; actual pan depth and additional tart rounds alter the clock."
+    },
+    {
+      "step": 8,
+      "text": "Cool and serve: Cool 20–30 minutes until just warm before releasing the removable rim and slicing. Finish with fresh green and purple basil. Refrigerate remaining portions promptly."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["sweet-and-white-potato-gratin", "tarragon-potatoes", "garlic-bread"],
+    "incomingMeals": [],
+    "scope": "All linked current recipes read in full; metadata pairings are optional separate recipes, not ingredient substitutions or a combined service review. Ice cream, cakes and pudding need their own long cooling/churn/chill plans; goat tart shares an oven with400/425°F bread/gratin and350°F Tarragon potatoes and needs scheduling rather than implied simultaneous clocks.",
+    "componentPreparation": "Prepared pesto is an ingredient only in the galette; no linked recipe substitutes automatically. No incoming composed meal references found for these six."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": {
+      "formulaReview": "856 repaired the previously lost measured ingredients and exact4oz/8oz goat allocation, three salt shares and oil/pepper/thyme divisions. October5 no-change was narrow; preserve every repaired amount/temperature/foil/geometry/cool stage. Author allocations instead of fixed1tsp/3tbsp/4oz prose so enabled ingredient arithmetic remains useful. Native/publisher identifies butter as unsalted; current generic butter narrowed to that exact source state without reducing fat. Source original11-inch tart and12-inch roll remain contextual; no scaling override. Remove unsupported country-of-origin and guaranteed vinegar/tomato moisture claims while preserving French cuisine and source credit.",
+      "capacity": "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+      "yield": "Existing original-batch planning count retained; structured portions make no precision/weight claim. KeyLime retains one9-inch pie.",
+      "timing": "Allow about 2 hours 20 minutes to 3 hours: dough mixing and 30-minute chilling, tomatoes 30–45 minutes overlapping the chill, roll/freeze 20 minutes, blind-bake 20–25 minutes, shell cooling 10 minutes, filling/assembly, final bake 20–25 minutes and 20–30 minutes cooling. Oven changes, extra sheets or tart rounds add time."
+    },
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Allow about 2 hours 20 minutes to 3 hours: dough mixing and 30-minute chilling, tomatoes 30–45 minutes overlapping the chill, roll/freeze 20 minutes, blind-bake 20–25 minutes, shell cooling 10 minutes, filling/assembly, final bake 20–25 minutes and 20–30 minutes cooling. Oven changes, extra sheets or tart rounds add time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "1/2 cup all-purpose flour",
+        "all-purpose flour, for rolling",
+        "0.19 cup (1 1/2 oz) cold unsalted butter, cubed",
+        "1/8 tsp baking powder",
+        "1/4 tbsp cold apple cider vinegar",
+        "3/4–1 tbsp ice water, add only as needed; unused maximum may remain",
+        "3/4 tsp kosher salt",
+        "1 tbsp olive oil",
+        "1/4 tsp black pepper",
+        "3 oz goat cheese, crumbled",
+        "1/4 cup whole-milk ricotta",
+        "1/8 tsp grated garlic",
+        "1 tsp fresh thyme leaves",
+        "3/4 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "1 1/2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "1 cup all-purpose flour",
+        "all-purpose flour, for rolling",
+        "3/8 cup (3 oz) cold unsalted butter, cubed",
+        "1/4 tsp baking powder",
+        "1/2 tbsp cold apple cider vinegar",
+        "1 1/2–2 tbsp ice water, add only as needed; unused maximum may remain",
+        "1 1/2 tsp kosher salt",
+        "2 tbsp olive oil",
+        "1/2 tsp black pepper",
+        "6 oz goat cheese, crumbled",
+        "1/2 cup whole-milk ricotta",
+        "1/4 tsp grated garlic",
+        "2 tsp fresh thyme leaves",
+        "1 1/2 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "3 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "2 cups all-purpose flour",
+        "all-purpose flour, for rolling",
+        "3/4 cup (6 oz) cold unsalted butter, cubed",
+        "1/2 tsp baking powder",
+        "1 tbsp cold apple cider vinegar",
+        "3–4 tbsp ice water, add only as needed; unused maximum may remain",
+        "3 tsp kosher salt",
+        "4 tbsp olive oil",
+        "1 tsp black pepper",
+        "12 oz goat cheese, crumbled",
+        "1 cup whole-milk ricotta",
+        "1/2 tsp grated garlic",
+        "4 tsp fresh thyme leaves",
+        "3 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "3 cups all-purpose flour",
+        "all-purpose flour, for rolling",
+        "1 1/8 cups (9 oz) cold unsalted butter, cubed",
+        "3/4 tsp baking powder",
+        "1 1/2 tbsp cold apple cider vinegar",
+        "4 1/2–6 tbsp ice water, add only as needed; unused maximum may remain",
+        "4 1/2 tsp kosher salt",
+        "6 tbsp olive oil",
+        "1 1/2 tsp black pepper",
+        "18 oz goat cheese, crumbled",
+        "1 1/2 cups whole-milk ricotta",
+        "3/4 tsp grated garlic",
+        "6 tsp fresh thyme leaves",
+        "4 1/2 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "9 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "4 cups all-purpose flour",
+        "all-purpose flour, for rolling",
+        "1 1/2 cups (12 oz) cold unsalted butter, cubed",
+        "1 tsp baking powder",
+        "2 tbsp cold apple cider vinegar",
+        "6–8 tbsp ice water, add only as needed; unused maximum may remain",
+        "6 tsp kosher salt",
+        "8 tbsp olive oil",
+        "2 tsp black pepper",
+        "24 oz goat cheese, crumbled",
+        "2 cups whole-milk ricotta",
+        "1 tsp grated garlic",
+        "8 tsp fresh thyme leaves",
+        "6 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "6 cups all-purpose flour",
+        "all-purpose flour, for rolling",
+        "2 1/4 cups (18 oz) cold unsalted butter, cubed",
+        "1 1/2 tsp baking powder",
+        "3 tbsp cold apple cider vinegar",
+        "9–12 tbsp ice water, add only as needed; unused maximum may remain",
+        "9 tsp kosher salt",
+        "12 tbsp olive oil",
+        "3 tsp black pepper",
+        "36 oz goat cheese, crumbled",
+        "3 cups whole-milk ricotta",
+        "1 1/2 tsp grated garlic",
+        "12 tsp fresh thyme leaves",
+        "9 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "18 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Tart ingredients ---",
+        "2 cups all-purpose flour",
+        "all-purpose flour, for rolling",
+        "3/4 cup (6 oz) cold unsalted butter, cubed",
+        "1/2 tsp baking powder",
+        "1 tbsp cold apple cider vinegar",
+        "3–4 tbsp ice water, add only as needed; unused maximum may remain",
+        "3 tsp kosher salt",
+        "4 tbsp olive oil",
+        "1 tsp black pepper",
+        "12 oz goat cheese, crumbled",
+        "1 cup whole-milk ricotta",
+        "1/2 tsp grated garlic",
+        "4 tsp fresh thyme leaves",
+        "3 lb heirloom tomatoes, washed and evenly thinly sliced",
+        "fresh green and purple basil, for garnish"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "856 measured missing supplies and all goat/oil/seasoning divisions plus source geometry/temperature/foil/cooling retained. October5 no-change narrow only.",
+  "remainingQuestions": [
+    "Actual11-inch tart depth/cheese and tomato volume, kosher-salt crystals and freezing-to-hot-oven pan rating remain kitchen/equipment questions.",
+    "Moisture and tomato slice thickness affect roast and final bake; no guaranteed dry or crisp result."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}

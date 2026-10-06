@@ -280,6 +280,19 @@
       "reviewer": "baking_editor",
       "inputCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "status": "assigned; whole author/independent/root pending"
+    },
+    "chocolate_frozen_desserts_04": {
+      "slugs": [
+        "chocolate-souffle",
+        "flourless-chocolate-cake",
+        "classic-peach-ice-cream",
+        "eggless-strawberry-ice-cream",
+        "key-lime-pie-ice-cream",
+        "easy-oreo-truffles"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+      "status": "assigned; whole author/independent/root pending"
     }
   },
   "recipes": [
@@ -359,17 +372,22 @@
       "source": "Adapted from saveur.com",
       "sourceUrl": "https://www.saveur.com/recipes/anelletti-al-forno-recipe/",
       "group": "pasta_bakes_skillets_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/anelletti-al-forno.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Independent/root choice of the source-rich primary and explicitly completed current variation remains pending; actual cooked ragù output, sauce coverage and dish headroom require kitchen evaluation.",
+        "Actual pancetta product completion must follow its label; no cured/raw equivalence is established."
       ],
       "inputSha256": "96702b6535964961e5ba9ede929a83f006227ec4fd58779d1f07cd0f875d5211",
       "plannedBatch": "stir-fry-and-pan-cooking-01",
       "assignment": "coverage_check",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication"
+      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "acceptedSourceSha256": "6ab10140b6e20d35a4bada6d0bc1a8a40802afcc25b93a925e1692401987638c",
+      "productionVerification": "pending"
     },
     {
       "slug": "apple-banana-and-carrot-muffin",
@@ -431,17 +449,22 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/apple-cider-cream-pie",
       "group": "pies_tarts_05",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/apple-cider-cream-pie.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual pie-plate depth, custard thickness at160°F, reduction elapsed time and fully cold set need kitchen evaluation.",
+        "Current publisher heavy-cream display1½cup differs from exact saved1cup; no intentional household change established."
       ],
       "inputSha256": "87f8509feb4fa3a50a08de91540fcba82b851c005193f10111f7350c14b75228",
       "plannedBatch": "baked-sweets-01",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "87f8509feb4fa3a50a08de91540fcba82b851c005193f10111f7350c14b75228"
+      "assignmentInputSha256": "87f8509feb4fa3a50a08de91540fcba82b851c005193f10111f7350c14b75228",
+      "acceptedSourceSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467",
+      "productionVerification": "pending"
     },
     {
       "slug": "apple-pie",
@@ -450,17 +473,23 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/food-network-kitchen/apple-pie-recipe-2011423",
       "group": "pies_tarts_05",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/apple-pie.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual current vodka-dough hydration and ability to gather with its listed4tbsp total liquid need kitchen checking; do not infer an extra dose.",
+        "Actual9-inch pan depth, cooked apple volume, apple variety and slice thickness affect capacity and timing.",
+        "Saved egg-dough source and current vodka route remain distinct proposals, not accepted equivalent textures or salt amounts."
       ],
       "inputSha256": "bddc43ad787fd61a9135ed8d45e2bcced26662a9be33b39ff92682b3abeab4e5",
       "plannedBatch": "baked-sweets-01",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "bddc43ad787fd61a9135ed8d45e2bcced26662a9be33b39ff92682b3abeab4e5"
+      "assignmentInputSha256": "bddc43ad787fd61a9135ed8d45e2bcced26662a9be33b39ff92682b3abeab4e5",
+      "acceptedSourceSha256": "33c9e96d9bbb9bbee49c4243d0701e4357281785064e9bf2c2d7618b9e0ddb13",
+      "productionVerification": "pending"
     },
     {
       "slug": "avgolemono-soup",
@@ -1353,17 +1382,21 @@
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "http://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135",
       "group": "pasta_bakes_skillets_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/broccolini-chicken-sausage-and-orzo-skillet.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual skillet diameter/depth, brand orzo heat-up and evaporation; measured cooked portion size remains untested."
       ],
       "inputSha256": "e33bea43eaa4d8afc3d67df50d48d2a5adc0ff52a0eef880e97c340c156cd50f",
       "plannedBatch": "simmer-boil-and-steam-01",
       "assignment": "coverage_check",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication"
+      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "acceptedSourceSha256": "46370a3fd9aa4d2c657d17a14d3272bba4df34774f45e7c03bea2c27637fffe1",
+      "productionVerification": "pending"
     },
     {
       "slug": "brown-butter-carrot-cake",
@@ -1501,17 +1534,22 @@
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127",
       "group": "pasta_bakes_skillets_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/butternut-squash-fettuccine-alfredo.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual blender/processor model permitted temperature/load and cooling/rewarm clock; actual squash weight and portions not measured.",
+        "Does household prefer current¼tsp nutmeg or saved pinch? Neither amount is normalized."
       ],
       "inputSha256": "85c40ed3c90277eae7f70af8a7e23dc8c9050dfe39eb1e32bbc1473793ff9e0a",
       "plannedBatch": "baked-savory-and-breads-03",
       "assignment": "coverage_check",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication"
+      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "acceptedSourceSha256": "e910437b032dbdf242eab5614a90639deb8cf92dff94cb35472b6c6fe3a0c0e5",
+      "productionVerification": "pending"
     },
     {
       "slug": "cantonese-fish",
@@ -2449,8 +2487,8 @@
       "title": "Chocolate Soufflé",
       "source": "Adapted from Epicurious.com",
       "sourceUrl": "http://www.epicurious.com/recipes/food/views/chocolate-souffle-106173",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_frozen_desserts_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2620,8 +2658,8 @@
       "title": "Classic Peach Ice Cream",
       "source": "Adapted from Saveur.com",
       "sourceUrl": "https://www.saveur.com/article/Recipes/Peach-Ice-Cream",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_frozen_desserts_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2943,17 +2981,24 @@
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-crispy-sheet-pan-gnocchi-and-veggies-247360",
       "group": "pasta_bakes_skillets_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/crispy-sheet-pan-gnocchi-and-veggies.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual gnocchi product, tray capacity, preferred shrimp or fully cooked sausage and resulting total clock/portion size require kitchen evaluation.",
+        "Saved unmeasured shrimp did not establish an original½lb amount; current explicit½lb retained as imported adaptation.",
+        "The linked Sheet Pan Gnocchi Night meal specifies 425°F and a 20–25-minute roast, while this recipe uses 450°F with center checks. Its separate salad, optional protein work and full elapsed clock have not been reconciled; the meal remains unreviewed.",
+        "Does the household prefer the current salt-to-taste main or the separately available saved kosher-salt dose? This preference does not block preserving both documented choices."
       ],
       "inputSha256": "aa4b6037daddccfe7b485bfe84be60449025270feee6ebb83714edc719dcb3cd",
       "plannedBatch": "baked-savory-and-breads-04",
       "assignment": "coverage_check",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication"
+      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "acceptedSourceSha256": "5c6a371e86189edf5da6ad1093a8afc666431a6cf97fb02223d72a73dfb5a040",
+      "productionVerification": "pending"
     },
     {
       "slug": "crispy-smashed-potatoes",
@@ -3014,17 +3059,22 @@
       "source": "Adapted from amandascookin.com",
       "sourceUrl": "https://amandascookin.com/crockpot-macaroni-and-cheese/",
       "group": "pasta_bakes_skillets_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/crockpot-mac-and-cheese.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cooker model, measured fill before/after expansion, kosher crystal type, noodle brand thickness and first successfulclock/texture;165casserole category application editorial, no physical validation.",
+        "The linked Playoff Football Party meal treats the mac as hands-off, starts it only 2.5 hours before service and promises creamy texture on WARM for hours. This recipe may need up to 3 hours on LOW plus its rest, requires checks and stirring, and verifies hot holding at 140°F. Those meal clocks, texture claims and combined equipment remain unresolved; no meal approval is conferred."
       ],
       "inputSha256": "6b3c432d55317d7d66bdd6fe9cb5ea372f85ac6a6bb41ba37650f228442fb68e",
       "plannedBatch": "braises-and-slow-cooking-01",
       "assignment": "coverage_check",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication"
+      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "acceptedSourceSha256": "ec9bdb742aeb8edf19d353d6b0192c2e91c286168c473f8bd3591bcce8365822",
+      "productionVerification": "pending"
     },
     {
       "slug": "crustless-sausage-and-spinach-quiche",
@@ -3133,17 +3183,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "pasta_bakes_skillets_04",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/custard-mac-and-pimento-cheese.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "The retained earlier HTML credits the Gwock Family for the older 8 oz pasta, four-egg and margarine recipe. Is that incomplete route wanted separately, and what milk amount and pan fill were used? The later pimento rewrite is not established as a Gwock Family recipe.",
+        "Actual current9x13dishdepth/capacity, egg texture at165 and elapsedtime/portion sizes need kitchen testing."
       ],
       "inputSha256": "416362d4241a94ae14b9289fa672fb3560e174de81c6a3dec2a58c69f490fa05",
       "plannedBatch": "baked-savory-and-breads-04",
       "assignment": "coverage_check",
-      "reviewPhase": "Whole author review in progress; no acceptance or publication"
+      "reviewPhase": "Whole author review in progress; no acceptance or publication",
+      "acceptedSourceSha256": "0a327a2fccb254fdd6560e24b17cac10e5c3f43151c63be697ad528bbeb29591",
+      "productionVerification": "pending"
     },
     {
       "slug": "custard-peach-ice-cream",
@@ -3497,8 +3552,8 @@
       "title": "Chocolate Sandwich Cookie Truffles",
       "source": "Adapted from allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/127491/easy-oreo-truffles/",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_frozen_desserts_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3514,8 +3569,8 @@
       "title": "Spinach Gnocchi",
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/gnocchi-recipe-easy-spinach/",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_dough_filled_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3523,7 +3578,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "fdc8159b83695ddc823b5e1d95d1e50c3706657d2763336b36b1a400588fd585",
-      "plannedBatch": "simmer-boil-and-steam-04"
+      "plannedBatch": "simmer-boil-and-steam-04",
+      "owner": "coverage_check"
     },
     {
       "slug": "egg-in-a-hole",
@@ -3548,8 +3604,8 @@
       "title": "Eggless Spinach and Ricotta Stuffed Shells",
       "source": "loveandlemons.com",
       "sourceUrl": "https://www.loveandlemons.com/stuffed-shells-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_dough_filled_05",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3557,7 +3613,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "00ab2f763a4b574923425649f262a79b878b45a3dee4324ae55c623e842bd036",
-      "plannedBatch": "baked-savory-and-breads-05"
+      "plannedBatch": "baked-savory-and-breads-05",
+      "owner": "coverage_check"
     },
     {
       "slug": "eggless-strawberry-ice-cream",
@@ -3565,8 +3622,8 @@
       "title": "Eggless Strawberry Ice Cream",
       "source": "Allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_frozen_desserts_04",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/eggless-strawberry-ice-cream.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3769,8 +3826,8 @@
       "title": "Flourless Chocolate Cake",
       "source": "Adapted from kingarthurbaking.com",
       "sourceUrl": "https://www.kingarthurbaking.com/blog/2008/04/10/flour-takes-a-passover-break-and-chocolate-steps-into-the-breach",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_frozen_desserts_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3896,8 +3953,8 @@
       "title": "Pasta Dough",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "https://www.bonappetit.com/recipe/fresh-pasta-dough",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_dough_filled_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3905,7 +3962,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b06c46df61bd1e343d60481051b375ccf0630befea91f984543020993d320230",
-      "plannedBatch": "cold-preparations-02"
+      "plannedBatch": "cold-preparations-02",
+      "owner": "coverage_check"
     },
     {
       "slug": "fresh-wonton-wrappers",
@@ -3913,8 +3971,8 @@
       "title": "Wonton Wrappers",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "pasta_dough_filled_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3922,7 +3980,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1e6cb4fccc8bf841bfe240b259c7761a8b488aa4734ba710daca401cb6e959e7",
-      "plannedBatch": "simmer-boil-and-steam-04"
+      "plannedBatch": "simmer-boil-and-steam-04",
+      "owner": "coverage_check"
     },
     {
       "slug": "fried-plantains",
@@ -4332,8 +4391,8 @@
       "title": "Gnocchi with Zucchini Ribbons & Brown Butter",
       "source": "Adapted from Eatingwell.com",
       "sourceUrl": "http://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_dough_filled_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4341,7 +4400,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "eac9f4bad5fd3d4f46edb96a650dc288e889698061b5e1beafc5330bdd9427d1",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "owner": "coverage_check"
     },
     {
       "slug": "golden-veil",
@@ -4672,8 +4732,8 @@
       "title": "Har Gow (Shrimp Dumplings)",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/har-gow/",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_dough_filled_05",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4681,7 +4741,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "269194d11942f9b165fbb42b7868798ff0bfdb03b3706607a7e9f62430c0d0f8",
-      "plannedBatch": "simmer-boil-and-steam-05"
+      "plannedBatch": "simmer-boil-and-steam-05",
+      "owner": "coverage_check"
     },
     {
       "slug": "harvest-sheet-pan-gnocchi-with-crispy-kale",
@@ -4768,17 +4829,22 @@
       "source": "Adapted from abrightmoment.com",
       "sourceUrl": "https://www.abrightmoment.com/recipes/heirloom-tomato-pesto-ricotta-galette",
       "group": "pies_tarts_05",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/heirloom-tomato-pesto-and-ricotta-galette.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual tomato size/juice, ricotta moisture, rolled pastry thickness and oven/base browning need kitchen evaluation.",
+        "Sea-salt density and current sharp-cheddar/Gruyère choices remain; no equal-volume fine/kosher conversion inferred."
       ],
       "inputSha256": "ca69202cbe527b63f6cb16a206fad7adfbb8dbd7263898af4b546643543e1524",
       "plannedBatch": "baked-savory-and-breads-06",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "ca69202cbe527b63f6cb16a206fad7adfbb8dbd7263898af4b546643543e1524"
+      "assignmentInputSha256": "ca69202cbe527b63f6cb16a206fad7adfbb8dbd7263898af4b546643543e1524",
+      "acceptedSourceSha256": "fd47060d458b2930a59c33b0f6ef5eee3797494573389742452970d4aef37d83",
+      "productionVerification": "pending"
     },
     {
       "slug": "herb-marinated-pork-tenderloins",
@@ -5243,8 +5309,8 @@
       "title": "Key Lime Pie Ice Cream",
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "https://www.myrecipes.com/recipe/key-lime-pie-ice-cream-0",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_frozen_desserts_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5261,17 +5327,22 @@
       "source": "food52.com",
       "sourceUrl": "https://food52.com/recipes/33481-key-lime-pie",
       "group": "pies_tarts_05",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/key-lime-pie-with-lime-zest.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/key-lime-pie-with-lime-zest.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cracker sheet size and measured crumb volume,9-inch dish depth, time to160°F and fully cold set need kitchen testing.",
+        "No current publisher comparison established becauseFood52 returned403; exact bound original/native import retained."
       ],
       "inputSha256": "57bfc7ce855ea12e2f2dd5f954242972ce3ad6d4f668c74258a8a87a47525251",
       "plannedBatch": "baked-sweets-04",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "57bfc7ce855ea12e2f2dd5f954242972ce3ad6d4f668c74258a8a87a47525251"
+      "assignmentInputSha256": "57bfc7ce855ea12e2f2dd5f954242972ce3ad6d4f668c74258a8a87a47525251",
+      "acceptedSourceSha256": "1387b31491c636c09291231c565f3bd0b778d9400111f7d1583fd691ec30c26e",
+      "productionVerification": "pending"
     },
     {
       "slug": "key-lime-pie",
@@ -9179,17 +9250,23 @@
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart",
       "group": "pies_tarts_05",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/tomato-and-goat-cheese-tart.md",
+        "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual11-inch tart depth/cheese and tomato volume, kosher-salt crystals and freezing-to-hot-oven pan rating remain kitchen/equipment questions.",
+        "Moisture and tomato slice thickness affect roast and final bake; no guaranteed dry or crisp result."
       ],
       "inputSha256": "ce39bded2a91a1cb21dc101fa3c01f701a5fca46e1ee2e8c7d86e3bea6f9c531",
       "plannedBatch": "baked-savory-and-breads-12",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "ce39bded2a91a1cb21dc101fa3c01f701a5fca46e1ee2e8c7d86e3bea6f9c531"
+      "assignmentInputSha256": "ce39bded2a91a1cb21dc101fa3c01f701a5fca46e1ee2e8c7d86e3bea6f9c531",
+      "acceptedSourceSha256": "da1974307b5a37b496dc0073f32f5e82e9d4937626b59a10c5d8f387e205589f",
+      "productionVerification": "pending"
     },
     {
       "slug": "tomato-cobbler-with-cornmeal-cheddar-biscuits",
@@ -10308,9 +10385,10 @@
   "statusCounts": {
     "production-verified": 180,
     "held": 18,
-    "assigned": 36,
-    "proposed": 39,
-    "queued": 134,
+    "accepted": 11,
+    "proposed": 34,
+    "assigned": 42,
+    "queued": 122,
     "held-awaiting-evidence": 2
   }
 }

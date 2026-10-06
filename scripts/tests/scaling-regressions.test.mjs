@@ -293,6 +293,56 @@ for (const row of confirmed) {
           assert.match(scaled, /cups for the original batch/);
           if (factor === 1) assert.equal(scaled, liveIngredient);
         }
+      } else if (row.slug === 'anelletti-al-forno' && row.caseId === 70) {
+        // Keep the original compound parser input and every numeric oracle below.
+        // The source-rich live formula has separate counted vegetables.
+        assert.equal(data.formula?.version, 1);
+        const ragu = data.formula.components.find((c) => c.id === 'ragu');
+        for (const [id, amount] of [
+          ['carrot', 1],
+          ['celery', 1],
+          ['onion', '1/2'],
+        ]) {
+          const ingredient = ragu.ingredients.find((i) => i.id === id);
+          assert.deepEqual(ingredient.quantity, { amount, unit: 'count' });
+          assert.deepEqual(ingredient.uses, [{ step: 'ragu', share: 1 }]);
+          assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
+          for (const factor of factors) {
+            const scaled = formatFormulaIngredient(ingredient, factor);
+            assert.deepEqual(
+              [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+              [numeric(String(amount)) * factor]
+            );
+            if (factor === 1) assert.equal(scaled, formatFormulaIngredient(ingredient));
+          }
+        }
+        assert.ok(!data.ingredients.includes(component.input));
+      } else if (row.slug === 'tomato-and-goat-cheese-tart' && row.caseId === 75) {
+        // Keep the original total/allocated parser input and all oracles below.
+        // The live authored formula preserves twelve ounces split four/eight.
+        assert.equal(data.formula?.version, 1);
+        const goat = data.formula.components
+          .find((c) => c.id === 'tart')
+          .ingredients.find((i) => i.id === 'goat');
+        assert.deepEqual(goat.quantity, { amount: 12, unit: 'oz' });
+        assert.deepEqual(goat.uses, [
+          { step: 'dough', share: '1/3' },
+          { step: 'filling', share: '2/3' },
+        ]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(goat)));
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(goat, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [12 * factor]
+          );
+          assert.deepEqual(
+            goat.uses.map(({ share }) => numeric(share) * 12 * factor),
+            [4 * factor, 8 * factor]
+          );
+          if (factor === 1) assert.equal(scaled, formatFormulaIngredient(goat));
+        }
+        assert.ok(!data.ingredients.includes(component.input));
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

@@ -1,0 +1,1107 @@
+{
+  "slug": "apple-cider-cream-pie",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "9a7ed8589969fc93620bea99438ad123036ba69a",
+  "inputSha256": "87f8509feb4fa3a50a08de91540fcba82b851c005193f10111f7350c14b75228",
+  "acceptedSourceSha256": "818f2af4921c960362c3d4c5081065c5ecfccc84e3cc4976d159ec0f11f9d467",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "180 min",
+      "after": "About 65–85 min of baking and reduction"
+    },
+    {
+      "field": "totalTime",
+      "before": "225 min",
+      "after": "About 4–6 hr, until fully chilled"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup All-purpose flour",
+        "1 tbsp Cornstarch",
+        "1 tbsp Sugar, for the crust",
+        "1 tsp Kosher salt, for the crust",
+        "1 stick Unsalted butter, chilled and diced",
+        "3 tbsp Cold milk",
+        "1 tsp Apple cider vinegar",
+        "2 cups Apple cider (unfiltered preferred)",
+        "3/4 cup Granulated sugar, for the custard",
+        "1/2 cup Sour cream",
+        "1/4 tsp Salt, for the custard",
+        "4 large Eggs",
+        "1 cup Heavy cream",
+        "1/4 cup Granulated sugar, for the topping",
+        "1/2 tsp Ground cinnamon"
+      ],
+      "after": [
+        "--- Crust ---",
+        "1 cup all-purpose flour",
+        "1 tbsp cornstarch",
+        "1 tbsp granulated sugar",
+        "1 tsp kosher salt",
+        "1 stick unsalted butter, chilled and diced",
+        "3 tbsp cold milk",
+        "1 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "2 cups apple cider, unfiltered preferred",
+        "3/4 cup granulated sugar",
+        "1/2 cup sour cream",
+        "1/4 tsp salt",
+        "4 large eggs",
+        "--- Cinnamon cream ---",
+        "1 cup heavy cream",
+        "1/4 cup granulated sugar",
+        "1/2 tsp ground cinnamon"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 760,
+        "protein": 6,
+        "carbs": 123.5,
+        "fat": 30,
+        "fiber": 1.5,
+        "sugar": 108.5,
+        "sodium": 760
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reduce cider by measured volume and set a chilled custard",
+        "outcome": "A set cold center and whipped cinnamon cream over an intact baked shell.",
+        "techniques": ["temperature"],
+        "before": [
+          "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+          "Make refrigerator space before baking. The full filling must fit with headroom; actual pie-plate depth matters. Keep both distinct salt and sugar components separate."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Measured cider reduction is one-quarter of the starting volume.",
+            "why": "A timer cannot account for pan width and batch size."
+          },
+          {
+            "step": 5,
+            "cue": "Central custard reaches 160°F while the center moves slightly without liquid sloshing.",
+            "why": "Movement helps judge texture but does not establish egg cooking."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The crust browns before the custard is ready",
+            "cause": "The shell is already baked and its rim is exposed to heat.",
+            "fix": "Keep the foil rim shield and continue gently until the custard temperature passes; a brown crust does not replace that check."
+          }
+        ],
+        "timing": "Allow roughly 4–6 hours including dough 30 minutes, shaped-shell 15 minutes, two 15-minute blind-bake stages, cider reduction and cooling, custard 35–40 minutes or until the endpoint, and full refrigerator chilling. Reduction can overlap pastry work; extra pie rounds or slow chilling extend elapsed time.",
+        "substitutions": [
+          {
+            "ingredient": "Heavy cream topping",
+            "alternative": "Larger cinnamon-cream topping",
+            "effect": "For a larger topping on the original-size pie, use 1½ cups heavy cream instead of the listed 1 cup. Use that larger cream amount with the same ¼ cup topping sugar and ½ tsp cinnamon, scaled proportionally. Keep the entire filling and crust unchanged; the topping is larger and less sweet per spoonful."
+          }
+        ],
+        "storage": "Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Keep covered once cold. Use within 3–4 days, or sooner if a dairy ingredient needs using sooner. Keep the cream-topped pie cold for serving. Freezing can damage custard and whipped-cream texture. For make-ahead serving, Food & Wine recommends refrigerating the baked, untopped pie for up to 2 days and adding the cinnamon cream shortly before serving. This shorter preparation plan is separate from the general leftover limit; keep the same prompt refrigeration and cold-storage conditions.",
+        "sources": [
+          {
+            "title": "Food & Wine — Apple Cider Cream Pie",
+            "url": "https://www.foodandwine.com/recipes/apple-cider-cream-pie"
+          },
+          {
+            "title": "FDA — Egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FoodSafety.gov — Cold food storage chart",
+            "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "crust",
+            "name": "Crust",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "stick"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chilled and diced"
+              },
+              {
+                "id": "milk",
+                "key": "milk",
+                "name": "cold milk",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "apple cider vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rolling-flour",
+                "key": "rolling-flour",
+                "name": "all-purpose flour",
+                "allowance": "for rolling",
+                "uses": [
+                  {
+                    "step": "shell",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "filling",
+            "name": "Cider custard",
+            "ingredients": [
+              {
+                "id": "cider",
+                "key": "cider",
+                "name": "apple cider",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "unfiltered preferred"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "sour cream",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              }
+            ]
+          },
+          {
+            "id": "topping",
+            "name": "Cinnamon cream",
+            "ingredients": [
+              {
+                "id": "cream",
+                "key": "cream",
+                "name": "heavy cream",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "dough",
+            "title": "Make and chill dough",
+            "text": "Pulse {{ingredients}} as follows: combine flour, cornstarch, crust sugar and crust salt, then pulse in all the cold butter until coarse meal with visible butter pieces remains. Mix all milk and vinegar, drizzle over the flour and pulse briefly until the dough holds together when pressed. Gather into a disk, wrap and refrigerate for 30 minutes."
+          },
+          {
+            "id": "shell",
+            "title": "Shape and blind-bake",
+            "text": "Use {{ingredients}} lightly on the work surface. For the original batch, roll an 11-inch circle and fit a 9-inch oven-safe pie plate, folding under the overhang and crimping. Chill until firm, about 15 minutes. Heat the oven to 425°F. Line with oven-rated parchment and pie weights; bake in the lower third about 15 minutes until barely set. Carefully remove weights and parchment, shield the edge with foil and bake about 15 minutes more at 425°F until set but not browned. Gently deflate any puffed base and let the shell cool. Reduce the oven to 350°F."
+          },
+          {
+            "id": "reduce",
+            "title": "Reduce and cool cider",
+            "text": "Boil {{ingredients}} in a saucepan until one-quarter of its starting volume remains: 1/2 cup for the original 2-cup batch, scaled proportionally. Measure the reduction rather than relying on a roughly 10–12-minute estimate; pan width and batch size alter evaporation. Transfer to a bowl and cool completely before adding eggs."
+          },
+          {
+            "id": "custard",
+            "title": "Mix custard",
+            "text": "Whisk {{ingredients}} into all the cooled cider reduction: start with sugar, sour cream and salt, then whisk in all the eggs until smooth. Keep raw-egg tools separate from the clean topping utensils."
+          },
+          {
+            "id": "bake",
+            "title": "Bake custard",
+            "text": "Pour all the custard into the cooled shell, keeping the foil edge shield in place. Bake in the lower third at 350°F, starting checks around 35–40 minutes for the original pie. The edges should be set while the center moves slightly as one area, not sloshes. Probe the central custard for at least 160°F / 71°C and continue gently if needed. Shield browned pastry rather than stopping with an undercooked center."
+          },
+          {
+            "id": "chill",
+            "title": "Cool and chill",
+            "text": "Cool briefly on a rack, then refrigerate within 2 hours after baking, or 1 hour above 90°F / 32°C. Continue chilling until completely cold and set through the center; do not wait for several hours on the counter. Cooling and refrigerator performance determine the actual elapsed time."
+          },
+          {
+            "id": "finish",
+            "title": "Whip and finish",
+            "text": "Beat {{ingredients}} with clean tools until firm peaks form. Spread all the cream over the fully cold pie shortly before serving, then keep it refrigerated until needed."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis pie concentrates two cups of unfiltered apple cider down to 1/2 cup syrup, reducing its volume to one quarter. The apple cider vinegar in the crust inhibits gluten development, creating a tender, flaky pastry that contrasts beautifully with the rich custard filling. Chill fully before slicing so the custard can set; do not leave the finished pie on the counter for several hours.\n\n## Directions\n\n1.  **The Crust:** In a food processor, pulse flour, cornstarch, the crust sugar, and the crust salt. Add butter and pulse until it looks like coarse meal. Drizzle in milk and vinegar; pulse until dough just forms. Pat into a disk, wrap in plastic, and chill for 30 minutes.\n2.  **Blind Bake:** Roll dough to an 11-inch round and fit into a 9-inch pie plate. Crimp edges and chill until firm (15 mins). Preheat oven to 425°F. Line with parchment and weights; bake for 15 mins. Remove weights and parchment. Cover edges with foil and bake 15 mins more at 425°F until set but not browned. Let the shell cool and reduce the oven to 350°F for the custard bake.\n3.  **The Reduction:** While the crust cools, boil the apple cider in a saucepan until reduced to 1/2 cup (about 10-12 mins). Let it cool completely.\n4.  **The Custard:** Whisk the reduced cider with the custard sugar, sour cream, and custard salt. Whisk in the eggs until smooth.\n5.  **Bake:** Pour custard into the cooled shell. Bake at 350°F for 35-40 minutes until the edges are set but the center is still slightly jiggly. Cool briefly on a rack, then refrigerate within 2 hours of leaving the oven (within 1 hour above 90°F / 32°C). Continue chilling in the refrigerator until completely cold and set.\n6.  **Finish:** Whip heavy cream with the topping sugar and cinnamon until firm peaks form. Mound over the cooled pie before serving.\n",
+    "after": "\n## Chef's Note\n\nReduce the cider to one-quarter of its starting volume, then cool it before whisking in the sour cream and eggs. The pastry has two stages at 425°F before the custard bake at 350°F. A gently moving center still needs the thermometer check, and the pie finishes setting as it chills.\n\n## Directions\n\n1. **Make and chill dough:** Pulse all-purpose flour, cornstarch, granulated sugar, kosher salt, unsalted butter, cold milk, and apple cider vinegar as follows: combine flour, cornstarch, crust sugar and crust salt, then pulse in all the cold butter until coarse meal with visible butter pieces remains. Mix all milk and vinegar, drizzle over the flour and pulse briefly until the dough holds together when pressed. Gather into a disk, wrap and refrigerate for 30 minutes.\n2. **Shape and blind-bake:** Use all-purpose flour lightly on the work surface. For the original batch, roll an 11-inch circle and fit a 9-inch oven-safe pie plate, folding under the overhang and crimping. Chill until firm, about 15 minutes. Heat the oven to 425°F. Line with oven-rated parchment and pie weights; bake in the lower third about 15 minutes until barely set. Carefully remove weights and parchment, shield the edge with foil and bake about 15 minutes more at 425°F until set but not browned. Gently deflate any puffed base and let the shell cool. Reduce the oven to 350°F.\n3. **Reduce and cool cider:** Boil apple cider in a saucepan until one-quarter of its starting volume remains: 1/2 cup for the original 2-cup batch, scaled proportionally. Measure the reduction rather than relying on a roughly 10–12-minute estimate; pan width and batch size alter evaporation. Transfer to a bowl and cool completely before adding eggs.\n4. **Mix custard:** Whisk granulated sugar, sour cream, salt, and large eggs into all the cooled cider reduction: start with sugar, sour cream and salt, then whisk in all the eggs until smooth. Keep raw-egg tools separate from the clean topping utensils.\n5. **Bake custard:** Pour all the custard into the cooled shell, keeping the foil edge shield in place. Bake in the lower third at 350°F, starting checks around 35–40 minutes for the original pie. The edges should be set while the center moves slightly as one area, not sloshes. Probe the central custard for at least 160°F / 71°C and continue gently if needed. Shield browned pastry rather than stopping with an undercooked center.\n6. **Cool and chill:** Cool briefly on a rack, then refrigerate within 2 hours after baking, or 1 hour above 90°F / 32°C. Continue chilling until completely cold and set through the center; do not wait for several hours on the counter. Cooling and refrigerator performance determine the actual elapsed time.\n7. **Whip and finish:** Beat heavy cream, granulated sugar, and ground cinnamon with clean tools until firm peaks form. Spread all the cream over the fully cold pie shortly before serving, then keep it refrigerated until needed.\n"
+  },
+  "findings": [
+    {
+      "id": "PT05-apple-cider-cream-pie",
+      "rationale": "Preserve ee9c crust temperature, explicit sugar/salt components and prompt-refrigeration repairs. Add the applicable160°F egg-dish check to the whole cider custard; jiggle alone is not an operating endpoint. Proportional reduction target and authored components preserve all saved/current quantities. Total225min is not a reliable guarantee of full cold set; honest planning includes chilling. Saved/native1cup cream kept; current publisher1½cup option remains distinct, not silently imported. Rolling flour is genuinely method-only source allowance.",
+      "confidence": "High exact quantity/history preservation; moderate planning, sensory/capacity and safety application. Kitchen untested.",
+      "applicableSources": [
+        {
+          "key": "Cider",
+          "title": "Food & Wine — Apple Cider Cream Pie",
+          "url": "https://www.foodandwine.com/recipes/apple-cider-cream-pie",
+          "scope": "Actual publisher fetched; saved one-cup cream baseline differs from current 1½-cup display. Exact durable saved formula governs primary; modern cream option separate."
+        },
+        {
+          "key": "Egg",
+          "title": "FDA — Egg safety",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Home egg-containing dishes160°F and prompt refrigeration; application to cider custard editorial, retained Lime endpoint unchanged. Not evidence for dough hydration, set texture or pan capacity."
+        },
+        {
+          "key": "FDA",
+          "title": "FDA — Safe food handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Produce washing, separation, refrigerated40°F/perishable2h or1h above90°F and leftover165°F guidance only; no pastry formula or timing validation."
+        },
+        {
+          "key": "Cold",
+          "title": "FoodSafety.gov — Cold food storage chart",
+          "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+          "scope": "Baked custard/chiffon and pecan pies refrigerated3–4days. Freezer limits concern quality; no newly certified recipe shelf life."
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Actual pie-plate depth, custard thickness at160°F, reduction elapsed time and fully cold set need kitchen evaluation.",
+        "Current publisher heavy-cream display1½cup differs from exact saved1cup; no intentional household change established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Apple%20Cider%20Cream%20Pie.html",
+    "introductionScope": "Actual earlier cooking HTML directly inspected; full canonical followed history retained",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.foodandwine.com/recipes/apple-cider-cream-pie",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Preserve ee9c crust temperature, explicit sugar/salt components and prompt-refrigeration repairs. Add the applicable160°F egg-dish check to the whole cider custard; jiggle alone is not an operating endpoint. Proportional reduction target and authored components preserve all saved/current quantities. Total225min is not a reliable guarantee of full cold set; honest planning includes chilling. Saved/native1cup cream kept; current publisher1½cup option remains distinct, not silently imported. Rolling flour is genuinely method-only source allowance.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 cup All-purpose flour",
+        "actualMethodDestination": "Crust1 flour"
+      },
+      {
+        "text": "1 tbsp Cornstarch",
+        "actualMethodDestination": "Crust1 starch"
+      },
+      {
+        "text": "1 tbsp Sugar, for the crust",
+        "actualMethodDestination": "Crust1 sugar"
+      },
+      {
+        "text": "1 tsp Kosher salt, for the crust",
+        "actualMethodDestination": "Crust1 kosher salt"
+      },
+      {
+        "text": "1 stick Unsalted butter, chilled and diced",
+        "actualMethodDestination": "Crust1 butter"
+      },
+      {
+        "text": "3 tbsp Cold milk",
+        "actualMethodDestination": "Crust1 milk"
+      },
+      {
+        "text": "1 tsp Apple cider vinegar",
+        "actualMethodDestination": "Crust1 vinegar"
+      },
+      {
+        "text": "2 cups Apple cider (unfiltered preferred)",
+        "actualMethodDestination": "Reduction3 all cider→4 custard"
+      },
+      {
+        "text": "3/4 cup Granulated sugar, for the custard",
+        "actualMethodDestination": "Custard4 sugar"
+      },
+      {
+        "text": "1/2 cup Sour cream",
+        "actualMethodDestination": "Custard4 sour cream"
+      },
+      {
+        "text": "1/4 tsp Salt, for the custard",
+        "actualMethodDestination": "Custard4 salt"
+      },
+      {
+        "text": "4 large Eggs",
+        "actualMethodDestination": "Custard4 all eggs"
+      },
+      {
+        "text": "1 cup Heavy cream",
+        "actualMethodDestination": "Finish6 all cream"
+      },
+      {
+        "text": "1/4 cup Granulated sugar, for the topping",
+        "actualMethodDestination": "Finish6 sugar"
+      },
+      {
+        "text": "1/2 tsp Ground cinnamon",
+        "actualMethodDestination": "Finish6 cinnamon"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 cup all-purpose flour",
+        "id": "crust.flour",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tbsp cornstarch",
+        "id": "crust.starch",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tbsp granulated sugar",
+        "id": "crust.sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tsp kosher salt",
+        "id": "crust.salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 stick unsalted butter, chilled and diced",
+        "id": "crust.butter",
+        "quantity": {
+          "amount": 1,
+          "unit": "stick"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "preparation": "chilled and diced"
+      },
+      {
+        "text": "3 tbsp cold milk",
+        "id": "crust.milk",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 tsp apple cider vinegar",
+        "id": "crust.vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "all-purpose flour, for rolling",
+        "id": "crust.rolling-flour",
+        "quantity": null,
+        "allowance": "for rolling",
+        "uses": [
+          {
+            "step": "shell",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "2 cups apple cider, unfiltered preferred",
+        "id": "filling.cider",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "reduce",
+            "share": 1
+          }
+        ],
+        "preparation": "unfiltered preferred"
+      },
+      {
+        "text": "3/4 cup granulated sugar",
+        "id": "filling.sugar",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/2 cup sour cream",
+        "id": "filling.sour-cream",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/4 tsp salt",
+        "id": "filling.salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "4 large eggs",
+        "id": "filling.eggs",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1 cup heavy cream",
+        "id": "topping.cream",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/4 cup granulated sugar",
+        "id": "topping.sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "text": "1/2 tsp ground cinnamon",
+        "id": "topping.cinnamon",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Heavy cream topping",
+        "alternative": "Larger cinnamon-cream topping",
+        "effect": "For a larger topping on the original-size pie, use 1½ cups heavy cream instead of the listed 1 cup. Use that larger cream amount with the same ¼ cup topping sugar and ½ tsp cinnamon, scaled proportionally. Keep the entire filling and crust unchanged; the topping is larger and less sweet per spoonful."
+      }
+    ],
+    "methodOnlyFrozen": "Rolling flour, topping or finishing supplies are separate genuine allowances where explicitly authored; complete exact formula enumerates each."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Make and chill dough: Pulse all-purpose flour, cornstarch, granulated sugar, kosher salt, unsalted butter, cold milk, and apple cider vinegar as follows: combine flour, cornstarch, crust sugar and crust salt, then pulse in all the cold butter until coarse meal with visible butter pieces remains. Mix all milk and vinegar, drizzle over the flour and pulse briefly until the dough holds together when pressed. Gather into a disk, wrap and refrigerate for 30 minutes."
+    },
+    {
+      "step": 2,
+      "text": "Shape and blind-bake: Use all-purpose flour lightly on the work surface. For the original batch, roll an 11-inch circle and fit a 9-inch oven-safe pie plate, folding under the overhang and crimping. Chill until firm, about 15 minutes. Heat the oven to 425°F. Line with oven-rated parchment and pie weights; bake in the lower third about 15 minutes until barely set. Carefully remove weights and parchment, shield the edge with foil and bake about 15 minutes more at 425°F until set but not browned. Gently deflate any puffed base and let the shell cool. Reduce the oven to 350°F."
+    },
+    {
+      "step": 3,
+      "text": "Reduce and cool cider: Boil apple cider in a saucepan until one-quarter of its starting volume remains: 1/2 cup for the original 2-cup batch, scaled proportionally. Measure the reduction rather than relying on a roughly 10–12-minute estimate; pan width and batch size alter evaporation. Transfer to a bowl and cool completely before adding eggs."
+    },
+    {
+      "step": 4,
+      "text": "Mix custard: Whisk granulated sugar, sour cream, salt, and large eggs into all the cooled cider reduction: start with sugar, sour cream and salt, then whisk in all the eggs until smooth. Keep raw-egg tools separate from the clean topping utensils."
+    },
+    {
+      "step": 5,
+      "text": "Bake custard: Pour all the custard into the cooled shell, keeping the foil edge shield in place. Bake in the lower third at 350°F, starting checks around 35–40 minutes for the original pie. The edges should be set while the center moves slightly as one area, not sloshes. Probe the central custard for at least 160°F / 71°C and continue gently if needed. Shield browned pastry rather than stopping with an undercooked center."
+    },
+    {
+      "step": 6,
+      "text": "Cool and chill: Cool briefly on a rack, then refrigerate within 2 hours after baking, or 1 hour above 90°F / 32°C. Continue chilling until completely cold and set through the center; do not wait for several hours on the counter. Cooling and refrigerator performance determine the actual elapsed time."
+    },
+    {
+      "step": 7,
+      "text": "Whip and finish: Beat heavy cream, granulated sugar, and ground cinnamon with clean tools until firm peaks form. Spread all the cream over the fully cold pie shortly before serving, then keep it refrigerated until needed."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Heavy cream topping",
+      "alternative": "Larger cinnamon-cream topping",
+      "effect": "For a larger topping on the original-size pie, use 1½ cups heavy cream instead of the listed 1 cup. Use that larger cream amount with the same ¼ cup topping sugar and ½ tsp cinnamon, scaled proportionally. Keep the entire filling and crust unchanged; the topping is larger and less sweet per spoonful."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "apple-pie",
+      "blackout-chocolate-cake",
+      "classic-peach-ice-cream",
+      "cranberry-crunch"
+    ],
+    "incomingMeals": [],
+    "scope": "All linked current recipes read in full; metadata pairings are optional separate recipes, not ingredient substitutions or a combined service review. Ice cream, cakes and pudding need their own long cooling/churn/chill plans; goat tart shares an oven with400/425°F bread/gratin and350°F Tarragon potatoes and needs scheduling rather than implied simultaneous clocks.",
+    "componentPreparation": "Prepared pesto is an ingredient only in the galette; no linked recipe substitutes automatically. No incoming composed meal references found for these six."
+  },
+  "ratiosYieldAndCapacity": {
+    "formulaReview": {
+      "formulaReview": "Preserve ee9c crust temperature, explicit sugar/salt components and prompt-refrigeration repairs. Add the applicable160°F egg-dish check to the whole cider custard; jiggle alone is not an operating endpoint. Proportional reduction target and authored components preserve all saved/current quantities. Total225min is not a reliable guarantee of full cold set; honest planning includes chilling. Saved/native1cup cream kept; current publisher1½cup option remains distinct, not silently imported. Rolling flour is genuinely method-only source allowance.",
+      "capacity": "Pan dimensions and rolling circles describe the original batch. Multiples need separate original-size pies or tarts; smaller batches need appropriately smaller dishes with similar layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time scales with ingredients.",
+      "yield": "Existing original-batch planning count retained; structured portions make no precision/weight claim. KeyLime retains one9-inch pie.",
+      "timing": "Allow roughly 4–6 hours including dough 30 minutes, shaped-shell 15 minutes, two 15-minute blind-bake stages, cider reduction and cooling, custard 35–40 minutes or until the endpoint, and full refrigerator chilling. Reduction can overlap pastry work; extra pie rounds or slow chilling extend elapsed time."
+    },
+    "capacity": "Original geometry is a source planning context; actual depth, headroom, uncrowded layer or cooker manual determines vessels. No cooked volume, weight or linear clock is certified.",
+    "yield": "Listed source/repository planning portions retained; no weighed kitchen yield.",
+    "timing": "Allow roughly 4–6 hours including dough 30 minutes, shaped-shell 15 minutes, two 15-minute blind-bake stages, cider reduction and cooling, custard 35–40 minutes or until the endpoint, and full refrigerator chilling. Reduction can overlap pastry work; extra pie rounds or slow chilling extend elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Crust ---",
+        "1/4 cup all-purpose flour",
+        "1/4 tbsp cornstarch",
+        "1/4 tbsp granulated sugar",
+        "1/4 tsp kosher salt",
+        "1/4 stick unsalted butter, chilled and diced",
+        "3/4 tbsp cold milk",
+        "1/4 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "1/2 cup apple cider, unfiltered preferred",
+        "0.19 cup granulated sugar",
+        "1/8 cup sour cream",
+        "0.0625 tsp salt",
+        "1 large egg",
+        "--- Cinnamon cream ---",
+        "1/4 cup heavy cream",
+        "0.0625 cup granulated sugar",
+        "1/8 tsp ground cinnamon"
+      ],
+      "yield": "2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Crust ---",
+        "1/2 cup all-purpose flour",
+        "1/2 tbsp cornstarch",
+        "1/2 tbsp granulated sugar",
+        "1/2 tsp kosher salt",
+        "1/2 stick unsalted butter, chilled and diced",
+        "1 1/2 tbsp cold milk",
+        "1/2 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "1 cup apple cider, unfiltered preferred",
+        "3/8 cup granulated sugar",
+        "1/4 cup sour cream",
+        "1/8 tsp salt",
+        "2 large eggs",
+        "--- Cinnamon cream ---",
+        "1/2 cup heavy cream",
+        "1/8 cup granulated sugar",
+        "1/4 tsp ground cinnamon"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Crust ---",
+        "1 cup all-purpose flour",
+        "1 tbsp cornstarch",
+        "1 tbsp granulated sugar",
+        "1 tsp kosher salt",
+        "1 stick unsalted butter, chilled and diced",
+        "3 tbsp cold milk",
+        "1 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "2 cups apple cider, unfiltered preferred",
+        "3/4 cup granulated sugar",
+        "1/2 cup sour cream",
+        "1/4 tsp salt",
+        "4 large eggs",
+        "--- Cinnamon cream ---",
+        "1 cup heavy cream",
+        "1/4 cup granulated sugar",
+        "1/2 tsp ground cinnamon"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Crust ---",
+        "1 1/2 cups all-purpose flour",
+        "1 1/2 tbsp cornstarch",
+        "1 1/2 tbsp granulated sugar",
+        "1 1/2 tsp kosher salt",
+        "1 1/2 sticks unsalted butter, chilled and diced",
+        "4 1/2 tbsp cold milk",
+        "1 1/2 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "3 cups apple cider, unfiltered preferred",
+        "1 1/8 cups granulated sugar",
+        "3/4 cup sour cream",
+        "3/8 tsp salt",
+        "6 large eggs",
+        "--- Cinnamon cream ---",
+        "1 1/2 cups heavy cream",
+        "3/8 cup granulated sugar",
+        "3/4 tsp ground cinnamon"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Crust ---",
+        "2 cups all-purpose flour",
+        "2 tbsp cornstarch",
+        "2 tbsp granulated sugar",
+        "2 tsp kosher salt",
+        "2 sticks unsalted butter, chilled and diced",
+        "6 tbsp cold milk",
+        "2 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "4 cups apple cider, unfiltered preferred",
+        "1 1/2 cups granulated sugar",
+        "1 cup sour cream",
+        "1/2 tsp salt",
+        "8 large eggs",
+        "--- Cinnamon cream ---",
+        "2 cups heavy cream",
+        "1/2 cup granulated sugar",
+        "1 tsp ground cinnamon"
+      ],
+      "yield": "16 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Crust ---",
+        "3 cups all-purpose flour",
+        "3 tbsp cornstarch",
+        "3 tbsp granulated sugar",
+        "3 tsp kosher salt",
+        "3 sticks unsalted butter, chilled and diced",
+        "9 tbsp cold milk",
+        "3 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "6 cups apple cider, unfiltered preferred",
+        "2 1/4 cups granulated sugar",
+        "1 1/2 cups sour cream",
+        "3/4 tsp salt",
+        "12 large eggs",
+        "--- Cinnamon cream ---",
+        "3 cups heavy cream",
+        "3/4 cup granulated sugar",
+        "1 1/2 tsp ground cinnamon"
+      ],
+      "yield": "24 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Crust ---",
+        "1 cup all-purpose flour",
+        "1 tbsp cornstarch",
+        "1 tbsp granulated sugar",
+        "1 tsp kosher salt",
+        "1 stick unsalted butter, chilled and diced",
+        "3 tbsp cold milk",
+        "1 tsp apple cider vinegar",
+        "all-purpose flour, for rolling",
+        "--- Cider custard ---",
+        "2 cups apple cider, unfiltered preferred",
+        "3/4 cup granulated sugar",
+        "1/2 cup sour cream",
+        "1/4 tsp salt",
+        "4 large eggs",
+        "--- Cinnamon cream ---",
+        "1 cup heavy cream",
+        "1/4 cup granulated sugar",
+        "1/2 tsp ground cinnamon"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": "ee9c retained two425°F blind-bake stages, separated source sugar/salt components and prompt refrigerator finish; no regression.",
+  "remainingQuestions": [
+    "Actual pie-plate depth, custard thickness at160°F, reduction elapsed time and fully cold set need kitchen evaluation.",
+    "Current publisher heavy-cream display1½cup differs from exact saved1cup; no intentional household change established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven written versions with complete richness, source/current variants, prior repairs and useful make-ahead notes preserved. Whole Pecan and older Gwock holds remain unresolved; no kitchen or native-app testing. Actual timing, pan capacity, current vodka hydration and household choices remain questions.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 85,
+    "targetedLint": "Zero errors; two existing Key Lime metadata warnings (unannotated chilling time gap and missing pairings) preserved and disclosed. The full refrigerator chill remains explicit in its clock and method.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12226,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 70,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print controls enabled on all11 pages; shared print styles unchanged; actual print preview not performed.",
+    "compatibilityTests": "4 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged narrow recognition of a separate measured shrimp endpoint; negative opacity, low-temperature duration, preceding low-temperature token and mixed poultry remain flagged. Existing165/74token presence guard is unchanged and is not safety certification. Recipe cooking instructions remain unchanged by this software amendment."
+  }
+}
