@@ -1,5 +1,9 @@
 # Current campaign state — October 6, 2026
 
+380 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 614 recorded complete / 29 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 4 accepted source versions match exact remote commit [dfa8198e](https://github.com/jsilton/mise/commit/dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37495637524) and all 4 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/final-evidence-four.md).
+
+## Earlier acceptance checkpoint
+
 614 recorded complete / 29 pending across 643 sources. The prior 376 campaign versions remain verified live; four resolved full versions are accepted locally and await release verification. [Final source evidence](editorial-campaign/2026-10-05/final-evidence-four.md). No kitchen tests or native-app sync.
 
 ## Previous verified checkpoint

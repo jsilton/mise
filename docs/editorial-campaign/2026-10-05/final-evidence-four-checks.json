@@ -1,5 +1,5 @@
 {
-  "status": "Combined release checks passed; publication and exact live verification pending",
+  "status": "Combined checks passed; exact release implemented and verified live",
   "inputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
   "recipes": [
     {
@@ -85,5 +85,7 @@
     "nativeAppSynced": false
   },
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+  "productionEvidence": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
 }

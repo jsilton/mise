@@ -2,6 +2,8 @@
 
 29 distinct recipes remain held over unresolved formula, source or equipment evidence. Every current source is unchanged. These holds do not endorse questionable existing claims and receive no complete-review acceptance or new production credit. Held optional branches of other recipes are separate. No kitchen testing or native-app sync has occurred.
 
+The [final source-evidence pass](final-hold-evidence-pass.json) records the narrow remaining question for each recipe and distinguishes missing precision from a consequential formula or complete-method gap.
+
 ## Baked Chicken and Broccoli
 
 Current source: `src/content/recipes/baked-chicken-and-broccoli.md`.
@@ -225,4 +227,4 @@ Exact unchanged source hashes and six before/after question updates: [machine ev
 
 ## Resolved source holds
 
-Almond Zucchini Bread, Japanese-Style Trout with Dashi, Red Zone Margarita and Salsa Verde Chicken Casserole passed independent challenge and complete root inspection. Their accepted versions await publication verification; source disagreements and physical-test questions are retained in individual records. Minestrone remains held. [Final evidence release](final-evidence-four.md). Earlier hold decisions remain in Git history.
+Almond Zucchini Bread, Japanese-Style Trout with Dashi, Red Zone Margarita and Salsa Verde Chicken Casserole passed independent challenge and complete root inspection. All four accepted versions are implemented and verified live; source disagreements and physical-test questions are retained in individual records. Minestrone remains held. [Final evidence release](final-evidence-four.md). Earlier hold decisions remain in Git history.

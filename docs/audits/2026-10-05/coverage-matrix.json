@@ -27,8 +27,9 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "376 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 610 recorded complete / 33 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 86 accepted source versions match exact remote commit [ea110e5b](https://github.com/jsilton/mise/commit/ea110e5b118002fc9aea578a2ae6b3dc2babaff8), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37471533695) and all 86 live pages. Zero kitchen tests; no native-app sync.",
-    "latestAcceptanceInputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3"
+    "productionReconciliation": "380 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 614 recorded complete / 29 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 4 accepted source versions match exact remote commit [dfa8198e](https://github.com/jsilton/mise/commit/dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37495637524) and all 4 live pages. Zero kitchen tests; no native-app sync.",
+    "latestAcceptanceInputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
+    "latestRecipeCommitReconciledAtCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -115,11 +116,11 @@
       "completeEditorialReview": {
         "status": "editorial-review",
         "record": "docs/reviews/almond-zucchini-bread.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
       "acceptedChange": {
-        "status": "accepted locally; implementation and production pending",
+        "status": "implemented and verified live",
         "sourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
         "evidence": "docs/reviews/almond-zucchini-bread.json"
       },
@@ -128,14 +129,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
       ],
       "productionVerification": {
-        "status": "pending for accepted full version",
-        "previous": {
-          "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-          "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
-        }
+        "status": "verified live",
+        "sourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+        "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
       },
       "remainingQuestions": [
         "Actual pan interior dimensions, material and batter depth.",
@@ -217,7 +219,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/anadama-bread.json",
@@ -263,7 +265,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/anelletti-al-forno.json",
@@ -309,7 +311,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/apple-banana-and-carrot-muffin.json",
@@ -356,7 +358,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/apple-chai-oatmeal-cups.json",
@@ -406,7 +408,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/apple-cider-cream-pie.json",
@@ -459,7 +461,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/apple-pie.json",
@@ -790,7 +792,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/avocado-toast.json",
@@ -836,7 +838,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/babys-first-smash-cake.json",
@@ -895,6 +897,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Does Lisa Gwock mean four bone-in split breast halves, two bone-in halves, or two boneless breasts, and what total chicken weight fits with the full broccoli/sauce in the nine-inch square pan for the recorded two servings?",
         "Held: family split-breast cut/count and pan fit require clarification; existing claims are not endorsed."
       ],
       "kitchenTesting": {
@@ -997,7 +1000,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/baked-creamy-mac-and-pimento-cheese.json",
@@ -1154,7 +1157,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/banana-egg-oat-pancakes.json",
@@ -1203,7 +1206,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/banana-nut-bread.json",
@@ -1266,7 +1269,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/banana-oat-greek-yogurt-muffins.json",
@@ -1313,7 +1316,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/banana-pancakes.json",
@@ -1402,7 +1405,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/basic-crepes.json",
@@ -1487,7 +1490,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/bbq-chicken-sliders.json",
@@ -1619,7 +1622,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/beef-pad-see-ew.json",
@@ -1669,7 +1672,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/beef-tenderloin-dogs-with-corn-relish.json",
@@ -1720,7 +1723,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/beef-with-snow-peas.json",
@@ -1766,7 +1769,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/best-cinnamon-roll-recipe-cinnabon-copycat.json",
@@ -1819,7 +1822,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/best-homemade-brownies.json",
@@ -1871,7 +1874,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/bibimbap.json",
@@ -2053,7 +2056,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/blistered-shishito-peppers.json",
@@ -2099,7 +2102,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-baked-oatmeal.json",
@@ -2149,7 +2152,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-banana-pancake-muffins.json",
@@ -2251,7 +2254,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-oat-breakfast-bars.json",
@@ -2301,7 +2304,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/blueberry-pancakes.json",
@@ -2364,6 +2367,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Is the two-cup cabbage measured before or after draining, what salt amount cures it separately from the listed filling teaspoon, and are the pan oil/water amounts for every cooking batch or the whole recipe? Supply the intended dipping-sauce method.",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -2395,7 +2399,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/boulevardier.json",
@@ -2441,7 +2445,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/braised-french-lentils.json",
@@ -2488,7 +2492,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-burrito.json",
@@ -2533,7 +2537,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-carrot-cake.json",
@@ -2586,7 +2590,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-egg-cups.json",
@@ -2633,7 +2637,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-protein-biscuits.json",
@@ -2681,7 +2685,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/breakfast-quesadilla.json",
@@ -2817,7 +2821,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/broccoli-cheddar-quinoa-bites.json",
@@ -2868,7 +2872,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/broccolini-chicken-sausage-and-orzo-skillet.json",
@@ -3022,7 +3026,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/brownie-baked-oatmeal.json",
@@ -3069,7 +3073,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/brownie-protein-balls.json",
@@ -3245,7 +3249,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/buttermilk-waffles.json",
@@ -3298,7 +3302,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/butternut-squash-fettuccine-alfredo.json",
@@ -3344,7 +3348,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cantonese-fish.json",
@@ -3394,7 +3398,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cantonese-shrimp-and-pork-wontons.json",
@@ -3452,7 +3456,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cantonese-shumai-siu-mai.json",
@@ -3598,7 +3602,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/carnitas-bowl.json",
@@ -3647,7 +3651,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cast-iron-buttermilk-biscuits.json",
@@ -3816,7 +3820,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chana-begoon.json",
@@ -3939,7 +3943,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/charred-asparagus-with-parmesan.json",
@@ -4021,7 +4025,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/charred-guacamole-with-pomegranate.json",
@@ -4068,7 +4072,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cheese-fondue.json",
@@ -4186,6 +4190,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What are the intended ketchup bottle net amount, carrot-bag net weight and brisket weight/thickness, and should the2–4tbsp Worcestershire/Dijon/jelly source ranges or the current chosen amounts be used?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -4220,7 +4225,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chewy-chocolate-meringues.json",
@@ -4306,7 +4311,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.json",
@@ -4477,7 +4482,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chicken-chile-enchiladas.json",
@@ -4923,7 +4928,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chicken-quesadillas-with-quick-pico.json",
@@ -5197,7 +5202,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chicken-tinga.json",
@@ -5245,7 +5250,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chicken-tortilla-soup-iii.json",
@@ -5570,7 +5575,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chinese-sausage-fried-rice.json",
@@ -5624,7 +5629,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chinese-steamed-fish.json",
@@ -5678,7 +5683,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chinese-style-snapper.json",
@@ -5790,7 +5795,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-blended-oats-with-raspberry-chia-jam.json",
@@ -5851,6 +5856,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What is the intended split of the listed 1 1/2 cups cream, and which vessel/load and baking route is supported for the full 13 cups brioche mixture?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -5882,7 +5888,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chia-pudding.json",
@@ -5927,7 +5933,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-beet-muffins.json",
@@ -5973,7 +5979,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-cookie-cake.json",
@@ -6025,7 +6031,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-muffins-with-zucchini.json",
@@ -6072,7 +6078,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-walnut-cookies.json",
@@ -6118,7 +6124,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-crinkle-cookies.json",
@@ -6228,7 +6234,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-protein-zucchini-muffins.json",
@@ -6274,7 +6280,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-souffle.json",
@@ -6322,7 +6328,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-vanilla-swirl-layer-cake.json",
@@ -6490,7 +6496,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-carrot-cake.json",
@@ -6538,7 +6544,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-chocolate-chip-cookies.json",
@@ -6590,7 +6596,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-french-toast.json",
@@ -6692,7 +6698,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-manhattan.json",
@@ -6738,7 +6744,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-martini.json",
@@ -6784,7 +6790,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-peach-ice-cream.json",
@@ -6835,7 +6841,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/classic-wonton-soup.json",
@@ -7202,7 +7208,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/corn-casserole.json",
@@ -7253,7 +7259,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/corn-shrimp-dumplings.json",
@@ -7335,7 +7341,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cottage-cheese-banana-oatmeal-protein-pancakes.json",
@@ -7382,7 +7388,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cranberry-crunch.json",
@@ -7502,7 +7508,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/creamy-avocado-pasta.json",
@@ -7684,7 +7690,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/creamy-spinach-lemon-chicken-dinnner.json",
@@ -7734,7 +7740,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/creamy-whole-wheat-mac-and-cheese.json",
@@ -7909,7 +7915,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/crispy-oven-zucchini-fries.json",
@@ -8027,7 +8033,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/crispy-shallots.json",
@@ -8073,7 +8079,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/crispy-sheet-pan-gnocchi-and-veggies.json",
@@ -8184,7 +8190,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/crock-pot-hot-chocolate.json",
@@ -8231,7 +8237,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/crockpot-mac-and-cheese.json",
@@ -8319,7 +8325,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/crustless-sausage-and-spinach-quiche.json",
@@ -8382,6 +8388,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What cheese amount, yogurt variation, oil and seasoning quantities did Rebecca Cybulsky intend or the family explicitly adopt, and which nine-inch plate depth/portion plan is used?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -8413,7 +8420,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/cu-chao-mian.json",
@@ -8559,7 +8566,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/custard-mac-and-pimento-cheese.json",
@@ -8732,6 +8739,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Is noodle cooking water 3–4 tbsp total or 3–4 tbsp per bowl, and what actual source establishes complete fresh-noodle, sesame-paste/tahini and extra chili-oil routes?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -8826,7 +8834,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/doc-cheys-chicken-lo-mein.json",
@@ -8873,7 +8881,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/double-chocolate-cookies.json",
@@ -8920,7 +8928,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/double-chocolate-layer-cake.json",
@@ -9013,7 +9021,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/dutch-baby-pancake.json",
@@ -9061,7 +9069,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-baked-turkey-meatballs.json",
@@ -9111,7 +9119,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-breakfast-yogurt-popsicles.json",
@@ -9157,7 +9165,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-chia-pudding.json",
@@ -9258,7 +9266,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-cinnamon-french-toast-sticks.json",
@@ -9304,7 +9312,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-homemade-pumpkin-pancakes.json",
@@ -9350,7 +9358,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-oreo-truffles.json",
@@ -9433,7 +9441,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/easy-spinach-gnocchi.json",
@@ -9517,7 +9525,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/egg-in-a-hole.json",
@@ -9605,7 +9613,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/eggless-spinach-and-ricotta-stuffed-shells.json",
@@ -9654,7 +9662,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/eggless-strawberry-ice-cream.json",
@@ -9743,7 +9751,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/elderberry-syrup.json",
@@ -9796,7 +9804,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/elote-style-corn-on-the-cob.json",
@@ -9844,7 +9852,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/enchilada-skillet.json",
@@ -9889,7 +9897,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/enchiladas-suizas.json",
@@ -9972,7 +9980,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/extraordinary-chocolate-chip-cookie.json",
@@ -10057,7 +10065,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/farfel-muffins.json",
@@ -10144,7 +10152,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/favorite-cream-cheese-frosting.json",
@@ -10195,7 +10203,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/favorite-pumpkin-oatmeal-muffins.json",
@@ -10245,7 +10253,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/fennel-and-carrot-soup.json",
@@ -10301,7 +10309,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/flourless-chocolate-cake.json",
@@ -10404,6 +10412,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Can a concrete full-batch loaf capacity and complete-cooling/freezing route be supported for this exact one-egg, no-added-fat formula without importing another bread’s pan or schedule?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -10435,7 +10444,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/freezer-date-cookies.json",
@@ -10536,7 +10545,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/french-toast.json",
@@ -10603,6 +10612,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Which kosher-salt product/crystal density was intended for the half-cup cure, what is the drained/squeezed finished yield and acceptable retained salinity, and is this intended only as a fresh refrigerated preparation?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Held: salt density, drained yield and unsupported preservation claims. Original drains/squeezes without rinsing.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
@@ -10675,7 +10685,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/fresh-pasta-dough.json",
@@ -10777,6 +10787,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What actual authored or tested primary recipe supports this egg/flour/water dough, intended rolling thickness and approximately sixty 3.5-inch wrappers, including its raw-storage route?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -10808,7 +10819,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/fried-plantains.json",
@@ -10909,7 +10920,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/funfetti-cake-from-scratch-and-an-unbirthday.json",
@@ -10960,7 +10971,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/gambas-al-ajillo.json",
@@ -11078,7 +11089,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/garlic-butter-green-beans.json",
@@ -11407,7 +11418,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/garlic-paste-toum-the-washington-post.json",
@@ -11569,7 +11580,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/garlicky-lemon-kale-with-carrots.json",
@@ -11616,7 +11627,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/gefilte-fish-terrine.json",
@@ -11668,7 +11679,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/general-tsos-cauliflower.json",
@@ -11721,7 +11732,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/general-tsos-tofu.json",
@@ -11778,7 +11789,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/glazed-carrots.json",
@@ -11878,7 +11889,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/gluten-free-lemon-cupcakes.json",
@@ -11930,7 +11941,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/gnocchi-with-zucchini-ribbons-and-parsley-brown-butter.json",
@@ -11994,6 +12005,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "How many glasses of what size does this full batch make, is six fluid ounces prosecco for the batch or each glass, and what shaker working capacity is used?",
         "Whole-recipe acceptance held; current questionable claims are not endorsed.",
         "What are the intended number and size of servings? The saved recipe has no yield and uses plural glasses; the current one-serving claim conflicts with 9.5 fl oz shaken base plus 6 fl oz prosecco before dilution.",
         "Does the 6 fl oz prosecco belong to the whole batch or each glass? Preserve all ingredients while this is unresolved.",
@@ -12082,6 +12094,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Which family fat/seasoning/nut method is intended, and what actual shell preparation and usable capacity accommodate the full filling for two pies?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -12132,6 +12145,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Is the intended family route the saved half-pound butter plus one stick margarine with alternating flour/eggs, or the later all-butter route, and what cake/three-loaf capacities support its respective baking schedules?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -12202,7 +12216,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/granola.json",
@@ -12248,7 +12262,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/grapefruit-basil-gin-fizz.json",
@@ -12402,7 +12416,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/greek-yogurt-bowl.json",
@@ -12520,7 +12534,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/green-smoothie-for-kids-with-2-hidden-veggies.json",
@@ -12603,7 +12617,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/grilled-chicken-with-herbed-corn-salsa.json",
@@ -12649,7 +12663,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/grilled-corn-salad-with-feta.json",
@@ -12753,7 +12767,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/grilled-pork-banh-mi.json",
@@ -12876,7 +12890,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/gwock-family-macaroni-and-cheese.json",
@@ -12923,7 +12937,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/ham-and-cheese-green-bean-casserole.json",
@@ -12978,7 +12992,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/ham-and-cheese-quiche.json",
@@ -13025,7 +13039,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/hamantaschen.json",
@@ -13070,7 +13084,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/har-gow-dim-sum-shrimp-dumplings.json",
@@ -13121,7 +13135,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/harvest-sheet-pan-gnocchi-with-crispy-kale.json",
@@ -13167,7 +13181,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/family-frozen-desserts-eleven-review.md",
         "recordImplementationCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dbfd49098a096dc683268b96ab32ebf2e34b4b68",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/healthy-apple-muffins.json",
@@ -13217,7 +13231,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/baking-eleven-review.md",
         "recordImplementationCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "4224e9fe99402d69949f9595c30e45bc5c85add5",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/healthy-banana-bread.json",
@@ -13264,7 +13278,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/healthy-carrot-cake-muffins-with-cream-cheese-glaze.json",
@@ -13309,7 +13323,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/heirloom-tomato-pesto-and-ricotta-galette.json",
@@ -13419,7 +13433,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/herby-chicken-meatball-bowl.json",
@@ -13478,7 +13492,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/homemade-chicken-stock.json",
@@ -13527,7 +13541,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/homemade-chili-oil.json",
@@ -13589,7 +13603,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/homemade-enchilada-sauce.json",
@@ -13723,7 +13737,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/homemade-sugar-free-ketchup.json",
@@ -13846,7 +13860,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/honey-glazed-carrots.json",
@@ -13915,6 +13929,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What exact pressure-cooker make, model, capacity and manual are used for the full four-pound load, and do its minimum watery liquid, thick-sauce/fat, fill and release instructions permit this formula?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -14057,7 +14072,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/hot-and-sour-soup.json",
@@ -14111,7 +14126,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/hot-mulled-apple-cider.json",
@@ -14158,7 +14173,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/how-to-make-frittatas-stovetop-or-baked.json",
@@ -14205,7 +14220,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/in-the-park.json",
@@ -14319,6 +14334,7 @@
         "commit": "5741495b479d1891066e004ed07aa4b5f830db66"
       },
       "remainingQuestions": [
+        "Which exact electric pressure-cooker model/capacity/manual permits the full bacon/rendered-fat, four-cup-stock and produce load, and what are the actual rendered-fat amount and loaded starting volume under its soup fill rule?",
         "Whole-recipe acceptance held; current questionable claims are not endorsed.",
         "Which exact pressure-cooker model, capacity and manual permit the full bacon/rendered-fat, four-cup stock and produce load with applicable soup fill and release rules?",
         "Establish actual rendered-fat and starting volume rather than guessing dilution, removing richness or inventing minimum liquid. The unavailable model PDF was not certified as read.",
@@ -14386,6 +14402,7 @@
         "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
       },
       "remainingQuestions": [
+        "What exact cooker model/capacity/manual supports the full3tbsp butter+2tbsp oil,2tbsp prepressure flour and5cups broth, and which saved salt crystals and measured leek-volume route are intended?",
         "Whole-recipe acceptance held; current questionable claims are not endorsed.",
         "Which exact model/manual permits the full three tablespoons butter plus two tablespoons oil, prepressure two tablespoons flour and five-cup broth route? No extra water, fat reduction or universal flour prohibition is established.",
         "Confirm the intended saved salt crystals and leek-volume alternative. Modern 1½-pound potatoes/five-to-six-cup broth is a different formula, not evidence of household equivalence.",
@@ -14516,6 +14533,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What brown-sugar/water proportions replace the quarter cup mirin, and what fat or measured cooking-liquid allocation is intended for the onion stage?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -14615,20 +14633,21 @@
       "completeEditorialReview": {
         "status": "editorial-review",
         "record": "docs/reviews/japanese-style-trout-with-dashi.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
       "acceptedChange": {
-        "status": "accepted locally; implementation and production pending",
+        "status": "implemented and verified live",
         "sourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27",
         "evidence": "docs/reviews/japanese-style-trout-with-dashi.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"],
       "productionVerification": {
-        "status": "pending for accepted full version",
-        "previous": {
-          "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-        }
+        "status": "verified live",
+        "sourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27",
+        "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
       },
       "remainingQuestions": [
         "Record actual fillet thickness, starting temperature, broiler model/rated sheet/food-to-element distance and batch fit.",
@@ -14690,6 +14709,7 @@
         "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
       },
       "remainingQuestions": [
+        "For vegetarian japchae, omit or redirect the beef marinade shares; for shrimp, what amount and marinade/cooking sequence replaces the beef?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -14727,7 +14747,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/jeris-lentil-soup.json",
@@ -14858,7 +14878,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/kalbi-grilled-korean-style-short-ribs.json",
@@ -14910,7 +14930,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/kale-caesar-with-crispy-chickpeas.json",
@@ -14992,7 +15012,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/katharine-hepburns-brownies.json",
@@ -15037,7 +15057,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/keto-egg-muffins.json",
@@ -15107,6 +15127,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Which exact cracker quantity/size and complete allocation is intended: the source six pieces totaling 1 1/2 sheets with 1/3 cup mixed in and teaspoon toppings, or the current half-in/half-top description?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -15138,7 +15159,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/key-lime-pie-with-lime-zest.json",
@@ -15253,7 +15274,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/kimchi-jjigae-kimchi-stew.json",
@@ -15343,7 +15364,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/korean-mung-bean-sprouts-salad.json",
@@ -15437,7 +15458,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/korean-style-tacos-with-kogi-bbq-sauce.json",
@@ -15485,7 +15506,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/lamb-keema-matar.json",
@@ -15572,7 +15593,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/lemon-basil-shrimp-risotto.json",
@@ -15698,7 +15719,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/lemon-garlic-broccolini.json",
@@ -15816,7 +15837,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/lemon-miso-tofu-with-broccoli.json",
@@ -16054,7 +16075,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/loaded-baked-omelet-muffins.json",
@@ -16101,7 +16122,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/made-in-the-pan-chocolate-cake.json",
@@ -16163,6 +16184,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What are the gelatin box type/weight, both fruit-can sizes and intended pineapple liquid, including whether the original “with rice” means “with juice”?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -16230,7 +16252,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mango-rita-green-smoothie.json",
@@ -16276,7 +16298,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/maple-roasted-sweet-potato-wedges.json",
@@ -16331,7 +16353,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mapo-tofu.json",
@@ -16378,7 +16400,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/marinated-flank-steak-salad.json",
@@ -16424,7 +16446,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/marinated-cakes-ten-review.md",
         "recordImplementationCommit": "a462568681053177e82f27af229f54e18c447861"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "a462568681053177e82f27af229f54e18c447861",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/marinated-korean-ribeye.json",
@@ -16553,7 +16575,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mediterranean-chicken-bowls.json",
@@ -16635,7 +16657,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mediterranean-grain-salad.json",
@@ -16682,7 +16704,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options.json",
@@ -16765,7 +16787,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/melon-daiquiri.json",
@@ -17001,7 +17023,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/miriams-melt-in-your-mouth-rosh-hashanah-brisket.json",
@@ -17050,7 +17072,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/misir-wot.json",
@@ -17104,7 +17126,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/miso-glazed-roasted-cauliflower.json",
@@ -17288,7 +17310,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/miso-soup.json",
@@ -17334,7 +17356,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mm-cookies.json",
@@ -17415,7 +17437,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/moms-famous-chocolate-cake.json",
@@ -17500,7 +17522,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/mongolian-chicken.json",
@@ -17628,7 +17650,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/my-favorite-challah.json",
@@ -17726,6 +17748,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What actual honey amount did the quarter-jar mean, what water unit/level did “1/4 water” mean, and how much less than three-quarters of a lemon was intended?",
         "Whole-recipe acceptance held; current questionable claims are not endorsed.",
         "What jar size and actual quarter-jar honey amount did Nana Ruth use?",
         "What does the saved “¼ water” mean, in which pot, and how much of the less-than-three-quarter lemon juice is intended? The d330 rewrite’s quarter cup honey, quarter-inch water and whole lemon are not established equivalents or family decisions.",
@@ -17759,7 +17782,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/nanas-biscuits.json",
@@ -17856,7 +17879,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/no-cook-playdough.json",
@@ -17902,7 +17925,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/noodle-pudding.json",
@@ -17978,6 +18001,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Which complete topping allocation is intended: the source drained-raisin route (including any remaining hydrated raisins), or an explicitly approved free-vinegar finish?",
         "Whole recipe excluded over RM01 and other unapplied findings; the saved vinegar drains with the oats, and no finishing-vinegar route is endorsed.",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
@@ -18010,7 +18034,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/old-fashioned-soft-pumpkin-cookies.json",
@@ -18058,7 +18082,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/old-fashioned-strawberry-ice-cream.json",
@@ -18168,7 +18192,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/old-fashioned.json",
@@ -18250,7 +18274,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/one-pan-lemon-herb-chicken-thighs.json",
@@ -18306,7 +18330,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/one-pot-chicken-meatballs-with-greens.json",
@@ -18394,7 +18418,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/one-pot-spicy-thai-noodles.json",
@@ -18448,7 +18472,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/onigiri-japanese-rice-balls.json",
@@ -18593,7 +18617,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/overnight-oats.json",
@@ -18675,7 +18699,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pad-thai.json",
@@ -18722,7 +18746,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pad-woon-sen.json",
@@ -18769,7 +18793,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pan-fried-noodles-with-shrimp.json",
@@ -18852,7 +18876,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/parishs-blueberry-crisp.json",
@@ -18899,7 +18923,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/parmigiano-reggiano-cheesecake.json",
@@ -18953,7 +18977,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pasta-with-abruzzi-style-lamb-sauce.json",
@@ -19046,7 +19070,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/patatas-bravas.json",
@@ -19097,7 +19121,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/patate-al-forno.json",
@@ -19152,7 +19176,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/peach-pie-biscuit-bombs.json",
@@ -19198,7 +19222,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/peach-pie-pancakes.json",
@@ -19280,7 +19304,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/peanut-noodles.json",
@@ -19379,6 +19403,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What is the duck’s fresh/refrigerator-thawed starting age and intended cold-drying duration, and what primary safety evidence explicitly permits this skin-blanch-to-cold-storage route, or what independently supported different preparation will be chosen?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -19571,7 +19596,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pho-bo-beef-pho.json",
@@ -19665,7 +19690,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pizza-beans.json",
@@ -19759,7 +19784,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/play-dough.json",
@@ -19852,7 +19877,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pork-and-greens-dumplings.json",
@@ -19917,6 +19942,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What exact electric pressure-cooker make/model/capacity and manual establish its operating pressure, minimum watery liquid, fill and thick-tomato/fat/burn constraints for this recipe? The saved stovetop formula cannot be converted until those facts are known.",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Held: stovetop original versus electric model, pressure, minimum liquid and burn constraints. No guessed water amount.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
@@ -19952,7 +19978,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/prohibition-style-gin-lemon-fizz.json",
@@ -19999,7 +20025,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/puffy-muffin-chicken-salad.json",
@@ -20082,7 +20108,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pumpkin-breakfast-cookies.json",
@@ -20127,7 +20153,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/pumpkin-cheesecake-cookies.json",
@@ -20219,7 +20245,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/quadruple-chocolate-brownies.json",
@@ -20267,7 +20293,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/queso-fundido-with-chorizo.json",
@@ -20350,7 +20376,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/quick-and-easy-drop-biscuits.json",
@@ -20439,7 +20465,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/biscuits-chocolate-beef-twelve-review.md",
         "recordImplementationCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "09da71e2a129a8c0b2ff601e55eca5c0dc95c878",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/quick-lamb-ragu.json",
@@ -20528,7 +20554,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/quick-pickled-cucumber-salad.json",
@@ -20611,7 +20637,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/quick-wonton-soup.json",
@@ -20709,7 +20735,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/ratatouille.json",
@@ -20760,7 +20786,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/real-alfredo-sauce.json",
@@ -20823,7 +20849,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/real-spaghetti-carbonara.json",
@@ -20881,7 +20907,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/red-velvet-cupcakes.json",
@@ -20921,20 +20947,21 @@
       "completeEditorialReview": {
         "status": "editorial-review",
         "record": "docs/reviews/red-zone-margarita.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
       "acceptedChange": {
-        "status": "accepted locally; implementation and production pending",
+        "status": "implemented and verified live",
         "sourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
         "evidence": "docs/reviews/red-zone-margarita.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"],
       "productionVerification": {
-        "status": "pending for accepted full version",
-        "previous": {
-          "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-        }
+        "status": "verified live",
+        "sourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+        "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
       },
       "remainingQuestions": [
         "Measure strained yield, remaining batch volume after tasting and dilution, and actual glass/shaker capacity.",
@@ -20969,7 +20996,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/restaurant-style-chicken-lo-mein.json",
@@ -21016,7 +21043,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/rice-bowl-station-buddha-bowls.json",
@@ -21106,7 +21133,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/ricotta-toast-with-honey.json",
@@ -21192,7 +21219,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-asparagus.json",
@@ -21247,7 +21274,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-broccolini-with-lemon.json",
@@ -21307,7 +21334,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-brussels-sprouts-with-balsamic.json",
@@ -21363,7 +21390,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/roasted-butternut-squash-mac-and-cheese.json",
@@ -21475,6 +21502,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "How is the source quarter-cup oil split between roasting and pot, and should the complete current formula remain primary alongside that distinct richer source route?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -21509,7 +21537,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/roasted-fall-harvest-salad.json",
@@ -21563,7 +21591,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/roasted-green-bean-fries.json",
@@ -21609,7 +21637,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/roasted-red-pepper-and-sweet-potato-soup.json",
@@ -21656,7 +21684,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-root-vegetables.json",
@@ -21711,7 +21739,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/roasted-vegetables-independent.md",
         "recordImplementationCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "ffa1a9e7cb33dd6a59c2a06e1907cba865eded5e",
       "acceptedChange": {
         "status": "implemented after independent challenge and complete root inspection",
         "record": "docs/reviews/roasted-sunchokes-with-brown-butter-cider-vinaigrette.json",
@@ -21766,7 +21794,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/roasted-sweet-potatoes.json",
@@ -21904,7 +21932,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/royal-icing.json",
@@ -22022,7 +22050,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sage-brown-butter-sauce-butternut-squash-ravioli.json",
@@ -22067,20 +22095,21 @@
       "completeEditorialReview": {
         "status": "editorial-review",
         "record": "docs/reviews/salsa-verde-chicken-casserole.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
       "acceptedChange": {
-        "status": "accepted locally; implementation and production pending",
+        "status": "implemented and verified live",
         "sourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
         "evidence": "docs/reviews/salsa-verde-chicken-casserole.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"],
       "productionVerification": {
-        "status": "pending for accepted full version",
-        "previous": {
-          "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-        }
+        "status": "verified live",
+        "sourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+        "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
       },
       "remainingQuestions": [
         "Actual dish depth, full filled volume/headroom, time to 165°F and portions remain kitchen observations; no test result is claimed."
@@ -22116,7 +22145,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/san-marzano-tomato-sauce.json",
@@ -22170,7 +22199,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sausage-and-white-bean-skillet.json",
@@ -22217,7 +22246,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sausage-breakfast-casserole.json",
@@ -22263,7 +22292,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sausage-shrimp-and-quinoa-skillet.json",
@@ -22313,7 +22342,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
         "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "10f6d4912699427693e5494d728ba72b8697a970",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sauteed-mushrooms-with-thyme.json",
@@ -22360,7 +22389,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/savory-oatmeal-with-egg.json",
@@ -22412,7 +22441,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/savory-thai-turkey-lettuce-wraps.json",
@@ -22458,7 +22487,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sazerac.json",
@@ -22543,7 +22572,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/seafood-chorizo-tacos.json",
@@ -22628,7 +22657,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/seared-scallops-with-a-corn-bacon-and-avocado-relish.json",
@@ -22809,7 +22838,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shakshuka.json",
@@ -23054,7 +23083,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-italian-sausage-dinner.json",
@@ -23113,7 +23142,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-pancakes.json",
@@ -23159,7 +23188,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-pesto-chicken-meal-prep-bowls.json",
@@ -23220,7 +23249,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-pineapple-shrimp-tacos.json",
@@ -23274,7 +23303,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sheet-pan-shrimp-fajitas.json",
@@ -23396,7 +23425,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-and-corn-chowder.json",
@@ -23488,7 +23517,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-and-mango-tacos.json",
@@ -23571,7 +23600,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-and-sweet-potato-noodle-stir-fry.json",
@@ -23618,7 +23647,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-fettuccine-alfredo.json",
@@ -23701,7 +23730,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-lobster-sauce.json",
@@ -23823,7 +23852,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-with-black-bean-sauce.json",
@@ -23880,7 +23909,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-wonton-soup.json",
@@ -23938,7 +23967,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/shruffs-end.json",
@@ -24179,7 +24208,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/griddle-cheesy-ten-review.md",
         "recordImplementationCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/skinny-baked-broccoli-macaroni-and-cheese.json",
@@ -24234,7 +24263,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/slow-cooker-cheesy-mushroom-quinoa.json",
@@ -24757,7 +24786,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/smoked-salmon-toast.json",
@@ -24804,7 +24833,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/smoky-spanish-rice-and-chickpeas.json",
@@ -24853,7 +24882,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-dough-eleven-review.md",
         "recordImplementationCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "dc4362e6c5dc2ab7786208dec919438f980cdc6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/snickerdoodles.json",
@@ -24902,7 +24931,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.json",
@@ -24948,7 +24977,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/soft-batch-chocolate-chip-cookies.json",
@@ -25096,7 +25125,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
         "recordImplementationCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e5276b6f1e0a8e59ba8210eece70a7eb36efead3",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.json",
@@ -25143,7 +25172,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-and-tofu-meatballs.json",
@@ -25200,7 +25229,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.json",
@@ -25246,7 +25275,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-with-clams.json",
@@ -25297,7 +25326,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spanish-rice-chorizo.json",
@@ -25352,7 +25381,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/mains-ten-review.md",
         "recordImplementationCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2f3e85d1b99a7c67f9da4a3f85db7fcc83d339b0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spatchcocked-roast-chicken.json",
@@ -25407,7 +25436,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spiced-butternut-squash-puree.json",
@@ -25621,6 +25650,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Should the complete saved crustless route be represented alongside the current crusted main, and which actual crust preparation and usable pan capacity supports the full filling in the crusted route?",
         "Whole-recipe acceptance held; current questionable claims are not endorsed.",
         "Which crust recipe or package, prebake state and pie-pan depth are intended, and does the full filling fit with headroom?",
         "Does the household want the complete saved/current-publisher crustless route alongside the later crusted main? No explicit later rejection of that source route was established.",
@@ -25654,7 +25684,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/spindrift-gin-fizz.json",
@@ -25700,7 +25730,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/starbucks-egg-bites.json",
@@ -25865,7 +25895,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8029b0bdb068c8cfdef5bc1a3f1a8a7ce6fbd9b2",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/steamed-mussels-chorizo.json",
@@ -26044,7 +26074,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/stevens-margs.json",
@@ -26127,7 +26157,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sticky-peking-meatball-rice-bowls.json",
@@ -26260,7 +26290,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/stovetop-macaroni-and-cheese.json",
@@ -26309,7 +26339,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-cheesecake-overnight-oatmeal.json",
@@ -26381,6 +26411,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "What gelatin type/weight and pineapple-can amount are intended, which banana/optional-pecan amounts and title are accepted, and what cold handling allows the reserved second layer to remain pourable?",
         "Whole-recipe acceptance held; current questionable claims are not endorsed.",
         "What are the exact gelatin box weight/type and pineapple can size/drained quantity?",
         "Confirm three medium versus large bananas, optional one cup versus half cup pecans, intended dish capacity, portion plan and strawberry/orange title.",
@@ -26414,7 +26445,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-quinoa-breakfast-bars.json",
@@ -26463,7 +26494,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-rhubarb-shortcake-with-whipped-mascarpone.json",
@@ -26522,7 +26553,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "c7570d86bc1a926fc3d248e4310a4bfa7232a5f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/strawberry-rhubarb-yogurt-pops.json",
@@ -26626,7 +26657,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/strozzapreti-with-spinach-and-preserved-lemon.json",
@@ -26722,7 +26753,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sugar-cookie.json",
@@ -26844,7 +26875,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/super-lemony-olive-oil-cake.json",
@@ -26889,7 +26920,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "e2652b8c4e5c1a9aaf941f23877e18ebb54d41fa",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.json",
@@ -26939,7 +26970,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-and-white-potato-gratin.json",
@@ -26998,7 +27029,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
         "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-chili-chicken-sliders.json",
@@ -27044,7 +27075,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-potato-fries.json",
@@ -27090,7 +27121,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-potato-latkes.json",
@@ -27136,7 +27167,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/casseroles-vegetables-twelve-review.md",
         "recordImplementationCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "0099ae5b414d7ab6c4e08004944dbb6e1b2eeba0",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-potato-sausage-breakfast-casserole.json",
@@ -27184,7 +27215,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/sweet-spinach-muffins.json",
@@ -27352,7 +27383,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "2667c6a0e14007fd1b7e38e3a67e3bf2b68e2e6c",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/tamagoyaki-japanese-rolled-omelet.json",
@@ -27413,6 +27444,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Are the current measured potato/oil/tarragon/seasoning quantities and six portions approved, and should Craig’s initial-butter/unpeeled 1–1.5-inch route remain distinct?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -27480,7 +27512,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/thai-basil-ginger-spritzer.json",
@@ -27534,7 +27566,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/noodles-stews-nine-review.md",
         "recordImplementationCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8d7edaeaa51f009f9f67aefe2c5f6efbf999039d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/thai-basil-noodles.json",
@@ -27689,7 +27721,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/thai-red-curry-shrimp.json",
@@ -27736,7 +27768,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "637ba74500734929ec1a2ce3b64a87eff3cb168d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/the-best-belgian-waffles.json",
@@ -27783,7 +27815,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "79e4ea75ab84a13e1793b4cf5f0fc4680e800f72",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/the-easiest-spinach-lasagna.json",
@@ -27829,7 +27861,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/the-moistest-chocolate-mug-cake.json",
@@ -27874,7 +27906,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d4f4b33a45cc391502355f7d5d2f10d3e6625e6e",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/the-new-england-express.json",
@@ -27921,7 +27953,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/the-original-rice-krispies-treatstm.json",
@@ -28088,7 +28120,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-pies-eleven-review.md",
         "recordImplementationCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bc7c88ea8b07fff4e37c2d59be342ea0c03bf6a9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/tomato-and-goat-cheese-tart.json",
@@ -28141,7 +28173,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8ef88e0292b824f7ade19ab23444377eb20a7324",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/tomato-cobbler-with-cornmeal-cheddar-biscuits.json",
@@ -28385,7 +28417,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/tuscan-spaghetti-squash.json",
@@ -28467,7 +28499,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/vanilla-earl-grey-overnight-oats.json",
@@ -28512,7 +28544,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/vegan-caesar-pasta-salad.json",
@@ -28581,6 +28613,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "For the retained optional no-canned-tomato branch only: move the base2tbsp paste to the finish, or add2tbsp for4total?",
         "Whole-recipe approval held: saved Without tomatoes variant does not establish whether ending2tbsp paste replaces primary2tbsp or is additional4tbsp total. No formula interpretation or prior-repair rollback accepted.",
         "Other branch allocations and inherited claims are unaccepted findings in docs/reviews/vegetable-minestrone.md; current questionable claims are not endorsed."
       ],
@@ -28615,7 +28648,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cold-salads-muffins-ten-review.md",
         "recordImplementationCommit": "804a0f855ed438459c78245d85002eda2f495175"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "804a0f855ed438459c78245d85002eda2f495175",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/vegetable-muffin.json",
@@ -28748,7 +28781,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/vieux-carre.json",
@@ -28833,7 +28866,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9"
       },
-      "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
+      "latestRecipeCommit": "d3f98b46bc87c6791a4decad8e832ca7bd8e76e9",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.json",
@@ -28889,7 +28922,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/soups-noodles-nine-review.md",
         "recordImplementationCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d1ad45b086f2b6a9c7020107bc9d26e2d8505029",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/warm-spiced-butternut-squash-soup.json",
@@ -28953,6 +28986,7 @@
         "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
       },
       "remainingQuestions": [
+        "Which actual Bomba/Calasparra rice package, pan diameter/depth and burner coverage are intended, and is the Spanish chorizo fully cooked/ready-to-eat or raw/partly cured?",
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
@@ -29020,7 +29054,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f2a5d9d1cb02b87d625fc9827a7ad5866ce635f7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/whiskey-sour.json",
@@ -29116,7 +29150,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/whole-spelt-pumpkin-muffins.json",
@@ -29161,7 +29195,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cakes-fruit-bakes-twelve-review.md",
         "recordImplementationCommit": "d77d164073216a069027876729791703c6750044"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d77d164073216a069027876729791703c6750044",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/whole-wheat-muffins-fruit-nut-or-berry.json",
@@ -29206,7 +29240,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
         "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/yaki-udon.json",
@@ -29405,7 +29439,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
         "recordImplementationCommit": "db6965376e6f4a13033202c5901217ef2e96b084"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "db6965376e6f4a13033202c5901217ef2e96b084",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/zucchini-herb-fritters-with-garlic-yogurt.json",
@@ -29451,7 +29485,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/eggs-shrimp-twelve-review.md",
         "recordImplementationCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/zucchini-noodles-with-avocado-pesto-and-shrimp.json",
@@ -29499,7 +29533,7 @@
         "independentChallenge": "docs/editorial-campaign/2026-10-05/grain-meat-soups-twelve-review.md",
         "recordImplementationCommit": "b393985858696b052504f6e6a81845e812a93826"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b393985858696b052504f6e6a81845e812a93826",
       "acceptedChange": {
         "status": "implemented and verified live",
         "record": "docs/reviews/zuppa-toscana.json",

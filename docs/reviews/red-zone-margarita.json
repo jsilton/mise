@@ -1,7 +1,7 @@
 {
   "slug": "red-zone-margarita",
   "title": "Red Zone Margarita",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "577b1ceebd1b5876a0dce445679da64222c6a4d3",
   "inputSha256": "7deaea28faf0984fde200fc2484413105b846376dd554e77d2e57f41f911672e",
   "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
@@ -461,6 +461,7 @@
   "independentSelfAcceptance": false,
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "implementationCommit": null,
-  "productionVerification": "pending"
+  "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json",
+  "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
 }

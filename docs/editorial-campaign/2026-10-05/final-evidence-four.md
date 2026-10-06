@@ -16,3 +16,9 @@ All remaining 29 whole-recipe holds, including pressure Bolognese, kimchi and Mi
 ## Scaling correction
 
 Fluid-ounce batch amounts and their cup equivalents now scale together; alcohol strength stays fixed. All 73 original parser fixture cases remain unchanged. The current lime and liqueur quantities are separately checked at every supported factor and exact reset. Three stale source assertions were updated to the accepted cooking instructions. [Exact compatibility and independent evidence](final-evidence-four-scaling.json).
+
+## Verified publication
+
+380 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 614 recorded complete / 29 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 4 accepted source versions match exact remote commit [dfa8198e](https://github.com/jsilton/mise/commit/dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37495637524) and all 4 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](final-evidence-four-production.json).

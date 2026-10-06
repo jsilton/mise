@@ -1,0 +1,256 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+  "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37495637524",
+  "ci": {
+    "headSha": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+  "rendered": [
+    {
+      "slug": "almond-zucchini-bread",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "japanese-style-trout-with-dashi",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "red-zone-margarita",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "salsa-verde-chicken-casserole",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T16:29:47.898Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "almond-zucchini-bread",
+      "acceptedSourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
+    },
+    {
+      "slug": "japanese-style-trout-with-dashi",
+      "acceptedSourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
+    },
+    {
+      "slug": "red-zone-margarita",
+      "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
+    },
+    {
+      "slug": "salsa-verde-chicken-casserole",
+      "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "No physical cooking performed",
+    "No native-app sync performed",
+    "Actual print pagination is not exposed by the in-app browser; print controls and styles verified",
+    "All four local pages checked at mobile width with scaling and cooking progress; all four full live pages matched the approved build, and fluid-ounce doubling/reset also passed live"
+  ],
+  "interactionChecks": {
+    "browser": "Codex In-app Browser",
+    "representatives": [
+      {
+        "slug": "almond-zucchini-bread",
+        "mobileWidth": 375,
+        "scales": [
+          {
+            "factor": 0.5,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 2,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 1,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          }
+        ],
+        "cooking": {
+          "checked": true,
+          "reloadAndReopenRetainsProgress": true,
+          "resetClearsProgress": true,
+          "exitWorks": true,
+          "noOverflow": true
+        }
+      },
+      {
+        "slug": "japanese-style-trout-with-dashi",
+        "mobileWidth": 375,
+        "scales": [
+          {
+            "factor": 0.5,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 2,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 1,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          }
+        ],
+        "cooking": {
+          "checked": true,
+          "reloadAndReopenRetainsProgress": true,
+          "resetClearsProgress": true,
+          "exitWorks": true,
+          "noOverflow": true
+        }
+      },
+      {
+        "slug": "red-zone-margarita",
+        "mobileWidth": 375,
+        "scales": [
+          {
+            "factor": 0.5,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 2,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 1,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          }
+        ],
+        "cooking": {
+          "checked": true,
+          "reloadAndReopenRetainsProgress": true,
+          "resetClearsProgress": true,
+          "exitWorks": true,
+          "noOverflow": true
+        }
+      },
+      {
+        "slug": "salsa-verde-chicken-casserole",
+        "mobileWidth": 375,
+        "scales": [
+          {
+            "factor": 0.5,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 2,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          },
+          {
+            "factor": 1,
+            "ingredientsMatch": true,
+            "yieldMatches": true,
+            "methodsUnchanged": true,
+            "noOverflow": true
+          }
+        ],
+        "cooking": {
+          "checked": true,
+          "reloadAndReopenRetainsProgress": true,
+          "resetClearsProgress": true,
+          "exitWorks": true,
+          "noOverflow": true
+        }
+      }
+    ],
+    "print": {
+      "controlPresent": true,
+      "sharedPrintStylesPresent": true,
+      "actualPaginationVerified": false
+    },
+    "consoleErrors": 0,
+    "limitations": [
+      "Actual print pagination not exposed by in-app browser",
+      "No physical cooking or native-app sync"
+    ],
+    "productionScaling": {
+      "slug": "red-zone-margarita",
+      "doubleIngredientsMatch": true,
+      "doubleYieldMatch": true,
+      "resetIngredientsMatch": true,
+      "methodsUnchanged": true,
+      "noOverflow": true
+    }
+  }
+}

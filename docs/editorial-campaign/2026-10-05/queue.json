@@ -593,7 +593,7 @@
       "source": "Adapted from Gina Matsoukas, Running to the Kitchen",
       "sourceUrl": "https://www.runningtothekitchen.com/almond-zucchini-bread-paleo/",
       "group": "quick_breads_02",
-      "status": "accepted-locally",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/almond-zucchini-bread.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -607,7 +607,9 @@
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
       "assignmentInputSha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374",
       "acceptedSourceSha256": "c69f8b0fdfe092b29b5fe972341c4880a4c66ec5851b9e44bfe3d96d058f939e",
-      "reviewPhase": "Complete editorial review accepted; implementation and production pending"
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+      "productionVerification": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
     },
     {
       "slug": "anadama-bread",
@@ -6498,7 +6500,7 @@
       "source": "Adapted from Grace Parisi at Food & Wine",
       "sourceUrl": "http://www.foodandwine.com/recipes/japanese-style-trout-dashi",
       "group": "stock_linked_mains_01",
-      "status": "accepted-locally",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/poke-batch-decision.md",
         {
@@ -6518,8 +6520,10 @@
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "ae7c30606bbfbabcdbf06d998104b54f47d9cd7d924fcbf8f88cee0155edd659",
-      "reviewPhase": "Complete editorial review accepted; implementation and production pending",
-      "acceptedSourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27"
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
+      "acceptedSourceSha256": "21c8d5adc29dc8b6476683e24c63cf838cb914b432f604d9d6f9dbcb43139c27",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+      "productionVerification": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
     },
     {
       "slug": "japchae-korean-glass-noodle-stir-fry",
@@ -8922,7 +8926,7 @@
       "path": "src/content/recipes/red-zone-margarita.md",
       "title": "Red Zone Margarita",
       "group": "shaken_drinks_02",
-      "status": "accepted-locally",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/red-zone-margarita.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8933,7 +8937,9 @@
       "inputSha256": "7deaea28faf0984fde200fc2484413105b846376dd554e77d2e57f41f911672e",
       "plannedBatch": "simmer-boil-and-steam-08",
       "acceptedSourceSha256": "e8768e31b4f380453fe7406b34f69046aecf42843982346c52d63ad7074117ce",
-      "reviewPhase": "Complete editorial review accepted; implementation and production pending"
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+      "productionVerification": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
     },
     {
       "slug": "restaurant-style-chicken-lo-mein",
@@ -9483,7 +9489,7 @@
       "source": "Adapted from Janet McCormick, Taste of Home",
       "sourceUrl": "https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/",
       "group": "poultry_assembled_mains_02",
-      "status": "accepted-locally",
+      "status": "production-verified",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_02/records/salsa-verde-chicken-casserole.json",
@@ -9497,8 +9503,10 @@
       ],
       "inputSha256": "99c10adea41bf8352cf2fc48c6207a88896adfeab8dc3fb95a4d4866bfa16f22",
       "plannedBatch": "baked-savory-and-breads-09",
-      "reviewPhase": "Complete editorial review accepted; implementation and production pending",
-      "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f"
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
+      "acceptedSourceSha256": "4b47a021bc63d8da66d077a07ac846a9d573779af0af4c2a5a4ff89b8bad110f",
+      "implementationCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f",
+      "productionVerification": "docs/editorial-campaign/2026-10-05/final-evidence-four-production.json"
     },
     {
       "slug": "san-marzano-tomato-sauce",
@@ -13168,8 +13176,7 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 376,
-    "accepted-locally": 4,
+    "production-verified": 380,
     "held": 27,
     "held-awaiting-evidence": 2
   }
