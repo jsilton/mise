@@ -1,0 +1,694 @@
+{
+  "slug": "shrimp-wonton-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "78e68d27d77ffa23764e341e3c85a3addd9aff2717021b964c37f520c2d5a815",
+  "acceptedSourceSha256": "d22cb09190fe9f09a140287c45367de5e44998ac9517517e909ab90041074336",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["boil", "no-cook"],
+      "after": ["boil"]
+    },
+    {
+      "field": "prepTime",
+      "before": "30 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–20 min, depending on batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min with prepared broth and wrappers",
+      "after": "About 40–65 min with prepared broth and wrappers"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "200g Ground Pork",
+        "100g Shrimp, minced",
+        "1 Egg White (as binder)",
+        "1 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "4 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1 inch Fresh Ginger, grated",
+        "3 Scallions, chopped",
+        "1 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "4 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1 tbsp Black Vinegar, for serving, optional"
+      ],
+      "after": [
+        "200g Ground Pork",
+        "100g Shrimp, minced",
+        "1 Egg White (as binder)",
+        "1 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "4 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1 inch Fresh Ginger, grated",
+        "3 Scallions, chopped",
+        "1 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "4 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1 tbsp Black Vinegar, for serving, optional",
+        "1 tsp Salt, for the filling",
+        "1 small bunch Fresh Coriander, finely chopped, for the filling"
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep filling and bowl seasonings separate",
+        "outcome": "Fully cooked pork-shrimp wontons with filling seasonings and bowl seasonings used once in their own components.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "For the original batch, 1 tsp sesame oil and 1 tbsp soy belong to the filling; 4 tsp bowl soy is the entire original batch maximum, not another filling dose. At any batch size, divide the listed bowl-soy total among the portions and taste with the seasoned broth. Additional bowl sesame oil is a separate allowance.",
+          "Measure all the listed finished prepared broth, plus extra only if desired. The original batch uses 4 cups; the linked broth begins with 6 cups and loses liquid during infusion and straining, so starting volume does not establish finished output.",
+          "Keep the original small 1 tsp filling scoop with thin wrappers when scaling. The original 1 lb wrapper purchase amount does not promise a particular count or that every wrapper will be used. Scratch wrappers and broth take separate work."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Both the measured filling salt and the chopped filling coriander are incorporated with the egg white and meat.",
+            "why": "Filling coriander is distinct from the optional serving garnish."
+          },
+          {
+            "step": 4,
+            "cue": "Several larger fillings reach 165°F and the greens are tender for their state.",
+            "why": "Check the filled centers; flotation and a fixed greens clock do not prove completion."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wrappers split or leak filling",
+            "cause": "Overfilling, trapped air, a dry sealing edge or overcrowded cooking batches",
+            "fix": "Reduce the filling scoop enough to seal the chosen wrapper, press out air and keep wrappers covered while working. Cook manageable batches with room to move; check filling temperature rather than relying on flotation."
+          }
+        ],
+        "substitutions": [],
+        "timing": "Plan about 40–65 minutes with prepared broth and wrappers, including roughly 30–45 minutes active preparation. Heat-up, wrapper thickness and batch count govern the cooking interval; scratch component work is additional.",
+        "storage": "Keep raw filling and waiting uncooked dumplings refrigerated at 40°F /4°C or below, bringing out small wrapping batches. Use clean utensils and plates for cooked dumplings. When making ahead, freeze uncooked dumplings promptly in a single layer on a lined tray, then transfer once firm to an airtight freezer container. Assembly does not restart the storage clock of the raw meat or seafood. Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C; use within 3–4 days and reheat to 165°F /74°C throughout. Store soup broth separately and bring reheated soup to a rolling boil.",
+        "sources": [
+          {
+            "title": "China Sichuan Food — Chinese Shrimp Wonton Soup",
+            "url": "https://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/"
+          },
+          {
+            "title": "FDA Food Code — filled pasta cooking endpoint",
+            "url": "https://www.fda.gov/media/194741/download"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCantonese wontons rely on a filling that's sticky and cohesive, achieved by stirring ground pork and shrimp vigorously in one direction until proteins bind into a tacky paste. This traditional technique prevents the filling from crumbling during boiling. The clear broth is finished with sesame oil and shredded nori for an aromatic base.\n\n## Directions\n\n1.  **The Filling:** In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, and the filling sesame oil. Stir vigorously in one direction for 3 minutes until sticky.\n2.  **Assemble:** Place 1 tsp filling in the center of a prepared wonton wrapper. If making [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers), allow their preparation and resting time separately. Dab edges with water, fold into a triangle, and pinch the corners together.\n3.  **The Base:** Heat the prepared broth in a saucepan. Divide the nori among four serving bowls and add a few drops of sesame oil to each. Add up to 1 tsp of the bowl soy sauce per bowl, tasting with a little broth first because the broth is already seasoned.\n4.  **Boil:** Bring a separate pot of water to a gentle boil. Add the wontons in batches without crowding. Start checking after 3-4 minutes; floating alone does not establish doneness. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue until they reach 165°F / 74°C. Cook the greens in the hot broth until tender.\n5.  **Bind:** Ladle 1 cup of the hot prepared broth into each serving bowl to \"wake up\" the seasonings.\n6.  **Serve:** Transfer the cooked wontons and greens to the bowls. Garnish with fresh coriander and offer the black vinegar at the table. Refrigerate unused wrappers according to their package instructions.\n",
+    "after": "\n## Chef's Note\n\nCantonese wontons rely on a filling that's sticky and cohesive, achieved by stirring ground pork and shrimp vigorously in one direction until proteins bind into a tacky paste. This traditional technique prevents the filling from crumbling during boiling. The clear broth is finished with sesame oil and shredded nori for an aromatic base.\n\nKeep waiting raw filling and assembled dumplings refrigerated, working with small batches and clean serving utensils.\n\n## Directions\n\n1.  **The Filling:** In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, the filling sesame oil, the filling salt and the finely chopped filling coriander. Stir vigorously in one direction for 3 minutes until sticky.\n2.  **Assemble:** Place 1 tsp filling in the center of a prepared wonton wrapper. If making [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers), allow their preparation and resting time separately. Dab edges with water, fold into a triangle, and pinch the corners together.\n3.  **The Base:** Heat the prepared broth in a saucepan. Divide the nori among the listed number of serving bowls and add a few drops of sesame oil to each. Divide the total bowl soy sauce among the servings, using less if needed, tasting with a little broth first because the broth is already seasoned.\n4.  **Boil:** Bring a separate pot of water to a gentle boil. Add the wontons in batches without crowding. Start checking after 3-4 minutes; floating alone does not establish doneness. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue until they reach 165°F / 74°C. Cook the greens in the hot broth until tender.\n5.  **Bind:** Divide all the measured hot prepared broth among the serving bowls and stir the bowl seasonings through it.\n6.  **Serve:** Transfer the cooked wontons and greens to the bowls. Garnish with fresh coriander and offer the black vinegar at the table. Refrigerate unused wrappers according to their package instructions.\n"
+  },
+  "findings": [
+    {
+      "id": "DUMP-shrimp-wonton-soup-0",
+      "title": "whole formula, states and destinations",
+      "rationale": "Restore exact saved1tsp filling salt and small bunch filling coriander removed in eab6f8bb; later85691102 repaired broth/bowl destinations without an explicit accepted omission decision.\nPreserve all a2c9e280165°F and85691102 prepared-broth/unusedwrapper repairs. Original per-serving garlic/salt/nori in plain boiling water is not added to the accepted current pre-seasoned-broth route.\nReplace four-bowl/literal1cup instructions with total measured broth and bowl soy allocation so existing ingredient scaling keeps the same ratios.",
+      "confidence": "High for exact retained amounts and history; restorations are proposals requiring independent challenge",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Taste restored filling salt/coriander without adding the original per-bowl salt on top of already seasoned broth.",
+        "Confirm package size/count, cold handling workflow and actual assembly time."
+      ]
+    },
+    {
+      "id": "DUMP-shrimp-wonton-soup-1",
+      "title": "whole method, endpoints and scaling",
+      "rationale": "Keep every published cold/165°F/multiple-center repair; make preparation, component allocation, selected method and original count/capacity context executable.",
+      "confidence": "High for endpoints and arithmetic; moderate for untested planning times",
+      "applicableSources": [
+        {
+          "title": "FDA Food Code — filled pasta cooking endpoint",
+          "url": "https://www.fda.gov/media/194741/download"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        "privately retained evidence"
+      ],
+      "sourceApplicability": "FDA165°F applies to meat/seafood-filled pasta, not ingredient substitutions. FoodCode is retail model guidance rather than a claim of home law or zero risk. USDA applies to cooked leftovers; raw preparation does not reset ingredient storage clocks.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Taste restored filling salt/coriander without adding the original per-bowl salt on top of already seasoned broth.",
+        "Confirm package size/count, cold handling workflow and actual assembly time."
+      ]
+    },
+    {
+      "id": "DUMP-shrimp-wonton-soup-2",
+      "title": "Authorized v2 source/record precision",
+      "rationale": "",
+      "confidence": "High for exact retained source/field fidelity; source counts and clocks remain untested planning estimates.",
+      "applicableSources": [],
+      "sourceApplicability": [],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/shrimp-wonton-soup.md",
+    "introductionScope": "Earliest followed canonical recipe cooking source in retained independent proof; earlier cooking HTML not reconciled in this legacy frozen packet.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Restore exact saved1tsp filling salt and small bunch filling coriander removed in eab6f8bb; later85691102 repaired broth/bowl destinations without an explicit accepted omission decision.",
+    "Preserve all a2c9e280165°F and85691102 prepared-broth/unusedwrapper repairs. Original per-serving garlic/salt/nori in plain boiling water is not added to the accepted current pre-seasoned-broth route.",
+    "Replace four-bowl/literal1cup instructions with total measured broth and bowl soy allocation so existing ingredient scaling keeps the same ratios."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "200g Ground Pork",
+        "destinationOrQuestion": "Step1 pork"
+      },
+      {
+        "row": 2,
+        "ingredient": "100g Shrimp, minced",
+        "destinationOrQuestion": "Step1 mincedshrimp"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 Egg White (as binder)",
+        "destinationOrQuestion": "Step1 eggwhite"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 tsp Toasted Sesame Oil, for the filling",
+        "destinationOrQuestion": "Step1 fullfilling sesame"
+      },
+      {
+        "row": 5,
+        "ingredient": "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "destinationOrQuestion": "Step3 bowl sesameallowance"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tbsp Light Soy Sauce, for the filling",
+        "destinationOrQuestion": "Step1 fullfillsoy"
+      },
+      {
+        "row": 7,
+        "ingredient": "4 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "destinationOrQuestion": "Step3 total4tsp bowlsoy ORLESS splitservings"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 inch Fresh Ginger, grated",
+        "destinationOrQuestion": "Step1 gratedginger"
+      },
+      {
+        "row": 9,
+        "ingredient": "3 Scallions, chopped",
+        "destinationOrQuestion": "Step1 all3scallions"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "destinationOrQuestion": "Step2 package wrappers asneeded;unusedpackagehandled"
+      },
+      {
+        "row": 11,
+        "ingredient": "4 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "destinationOrQuestion": "Steps3/5 FINISHED4cup servingbroth +genuineextra"
+      },
+      {
+        "row": 12,
+        "ingredient": "Water, for sealing wrappers and boiling wontons",
+        "destinationOrQuestion": "Steps2/4 sealing/boilwater"
+      },
+      {
+        "row": 13,
+        "ingredient": "1 sheet Nori, shredded",
+        "destinationOrQuestion": "Step3 totalsingleNORIsheet divided"
+      },
+      {
+        "row": 14,
+        "ingredient": "Baby Bok Choy or Spinach, as desired",
+        "destinationOrQuestion": "Step4 desiredgreens;stems/leafstate"
+      },
+      {
+        "row": 15,
+        "ingredient": "Chopped Fresh Coriander, for garnish",
+        "destinationOrQuestion": "Step6 garnishcoriander separatefromfilledbunch"
+      },
+      {
+        "row": 16,
+        "ingredient": "1 tbsp Black Vinegar, for serving, optional",
+        "destinationOrQuestion": "Step6 optionaltablespoon vinegar"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "ingredient": "200g Ground Pork",
+        "destination": "Step1 pork"
+      },
+      {
+        "row": 2,
+        "ingredient": "100g Shrimp, minced",
+        "destination": "Step1 mincedshrimp"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 Egg White (as binder)",
+        "destination": "Step1 eggwhite"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 tsp Toasted Sesame Oil, for the filling",
+        "destination": "Step1 fullfilling sesame"
+      },
+      {
+        "row": 5,
+        "ingredient": "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "destination": "Step3 bowl sesameallowance"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tbsp Light Soy Sauce, for the filling",
+        "destination": "Step1 fullfillsoy"
+      },
+      {
+        "row": 7,
+        "ingredient": "4 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "destination": "Step3 total4tsp bowlsoy ORLESS splitservings"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 inch Fresh Ginger, grated",
+        "destination": "Step1 gratedginger"
+      },
+      {
+        "row": 9,
+        "ingredient": "3 Scallions, chopped",
+        "destination": "Step1 all3scallions"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "destination": "Step2 package wrappers asneeded;unusedpackagehandled"
+      },
+      {
+        "row": 11,
+        "ingredient": "4 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "destination": "Steps3/5 FINISHED4cup servingbroth +genuineextra"
+      },
+      {
+        "row": 12,
+        "ingredient": "Water, for sealing wrappers and boiling wontons",
+        "destination": "Steps2/4 sealing/boilwater"
+      },
+      {
+        "row": 13,
+        "ingredient": "1 sheet Nori, shredded",
+        "destination": "Step3 totalsingleNORIsheet divided"
+      },
+      {
+        "row": 14,
+        "ingredient": "Baby Bok Choy or Spinach, as desired",
+        "destination": "Step4 desiredgreens;stems/leafstate"
+      },
+      {
+        "row": 15,
+        "ingredient": "Chopped Fresh Coriander, for garnish",
+        "destination": "Step6 garnishcoriander separatefromfilledbunch"
+      },
+      {
+        "row": 16,
+        "ingredient": "1 tbsp Black Vinegar, for serving, optional",
+        "destination": "Step6 optionaltablespoon vinegar"
+      },
+      {
+        "row": 17,
+        "ingredient": "1 tsp Salt, for the filling",
+        "destination": "Step1 saved1tsp fillingsalt"
+      },
+      {
+        "row": 18,
+        "ingredient": "1 small bunch Fresh Coriander, finely chopped, for the filling",
+        "destination": "Step1 saved1small bunchchoppedcoriander"
+      }
+    ],
+    "variants": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "The Filling: In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, and the filling sesame oil. Stir vigorously in one direction for 3 minutes until sticky.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 2,
+        "text": "Assemble: Place 1 tsp filling in the center of a prepared wonton wrapper. If making Fresh Wonton Wrappers, allow their preparation and resting time separately. Dab edges with water, fold into a triangle, and pinch the corners together.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 3,
+        "text": "The Base: Heat the prepared broth in a saucepan. Divide the nori among four serving bowls and add a few drops of sesame oil to each. Add up to 1 tsp of the bowl soy sauce per bowl, tasting with a little broth first because the broth is already seasoned.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 4,
+        "text": "Boil: Bring a separate pot of water to a gentle boil. Add the wontons in batches without crowding. Start checking after 3-4 minutes; floating alone does not establish doneness. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue until they reach 165°F / 74°C. Cook the greens in the hot broth until tender.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 5,
+        "text": "Bind: Ladle 1 cup of the hot prepared broth into each serving bowl to \"wake up\" the seasonings.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Transfer the cooked wontons and greens to the bowls. Garnish with fresh coriander and offer the black vinegar at the table. Refrigerate unused wrappers according to their package instructions.",
+        "reference": "current source full content"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "The Filling: In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, the filling sesame oil, the filling salt and the finely chopped filling coriander. Stir vigorously in one direction for 3 minutes until sticky.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 2,
+        "text": "Assemble: Place 1 tsp filling in the center of a prepared wonton wrapper. If making Fresh Wonton Wrappers, allow their preparation and resting time separately. Dab edges with water, fold into a triangle, and pinch the corners together.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 3,
+        "text": "The Base: Heat the prepared broth in a saucepan. Divide the nori among the listed number of serving bowls and add a few drops of sesame oil to each. Divide the total bowl soy sauce among the servings, using less if needed, tasting with a little broth first because the broth is already seasoned.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 4,
+        "text": "Boil: Bring a separate pot of water to a gentle boil. Add the wontons in batches without crowding. Start checking after 3-4 minutes; floating alone does not establish doneness. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue until they reach 165°F / 74°C. Cook the greens in the hot broth until tender.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 5,
+        "text": "Bind: Divide all the measured hot prepared broth among the serving bowls and stir the bowl seasonings through it.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Transfer the cooked wontons and greens to the bowls. Garnish with fresh coriander and offer the black vinegar at the table. Refrigerate unused wrappers according to their package instructions.",
+        "reference": "exactChanges.content.after"
+      }
+    ]
+  },
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["steamed-bok-choy-with-oyster-sauce", "smashed-cucumber-salad"],
+    "dependencies": [
+      "Measure the listed finished Cantonese Wonton Broth (original4cups), plus optional extra; its original6cup starting amount is not the finished yield.",
+      "Prepared thin wrappers are purchased by the listed mass, used as needed for all filling and handled cold. Scratch wrapper preparation is optional extra work, with no conversion from package mass to60 homemade wrappers."
+    ],
+    "mealAmounts": "Side suggestions remain separate; no unrecorded broth/wrapper yield conversion"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Retained planning claim; no weighed yield or kitchen test",
+    "capacity": [
+      "The 1 tsp sesame oil and 1 tbsp soy are filling ingredients. Additional sesame is an allowance for bowls;4 tsp bowl soy is the entire original batch maximum, not another filling dose. Divide that total across the listed servings and taste with seasoned broth.",
+      "Measure 4 cups FINISHED prepared broth, plus extra only if desired. The linked broth starts with 6 cups and loses liquid to simmering/straining; do not equate input volume with prepared output.",
+      "Use the original small 1 tsp filling scoop with thin wrappers when scaling. Wrapper 1 lb is a package amount, not a promise of exact count or that all wrappers will be consumed. Scratch wrappers/broth take separate work."
+    ],
+    "timing": "Plan about 40–65 minutes with prepared broth and wrappers, including roughly 30–45 minutes active preparation. Heat-up, wrapper thickness and batch count govern the cooking interval; scratch component work is additional.",
+    "scaling": "Existing legacy ingredient controls and scaling overrides preserved; original scoop/skin size and batch endpoint govern method, not proportional timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "50 g Ground Pork",
+        "25 g Shrimp, minced",
+        "1/4 Egg White (as binder)",
+        "1/4 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1/4 tbsp Light Soy Sauce, for the filling",
+        "1 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1/4 inch Fresh Ginger, grated",
+        "3/4 Scallion, chopped",
+        "1/4 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "1 cup prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/4 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1/4 tbsp Black Vinegar, for serving, optional",
+        "1/4 tsp Salt, for the filling",
+        "1/4 small bunch Fresh Coriander, finely chopped, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "100 g Ground Pork",
+        "50 g Shrimp, minced",
+        "1/2 Egg White (as binder)",
+        "1/2 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1/2 tbsp Light Soy Sauce, for the filling",
+        "2 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1/2 inch Fresh Ginger, grated",
+        "1 1/2 Scallions, chopped",
+        "1/2 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "2 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/2 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1/2 tbsp Black Vinegar, for serving, optional",
+        "1/2 tsp Salt, for the filling",
+        "1/2 small bunch Fresh Coriander, finely chopped, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "200g Ground Pork",
+        "100g Shrimp, minced",
+        "1 Egg White (as binder)",
+        "1 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "4 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1 inch Fresh Ginger, grated",
+        "3 Scallions, chopped",
+        "1 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "4 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1 tbsp Black Vinegar, for serving, optional",
+        "1 tsp Salt, for the filling",
+        "1 small bunch Fresh Coriander, finely chopped, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "300 g Ground Pork",
+        "150 g Shrimp, minced",
+        "1 1/2 Egg Whites (as binder)",
+        "1 1/2 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1 1/2 tbsp Light Soy Sauce, for the filling",
+        "6 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1 1/2 inch Fresh Ginger, grated",
+        "4 1/2 Scallions, chopped",
+        "1 1/2 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "6 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1 1/2 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1 1/2 tbsp Black Vinegar, for serving, optional",
+        "1 1/2 tsp Salt, for the filling",
+        "1 1/2 small bunches Fresh Coriander, finely chopped, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "400 g Ground Pork",
+        "200 g Shrimp, minced",
+        "2 Egg Whites (as binder)",
+        "2 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "2 tbsp Light Soy Sauce, for the filling",
+        "8 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "2 inch Fresh Ginger, grated",
+        "6 Scallions, chopped",
+        "2 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "8 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "2 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "2 tbsp Black Vinegar, for serving, optional",
+        "2 tsp Salt, for the filling",
+        "2 small bunches Fresh Coriander, finely chopped, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "600 g Ground Pork",
+        "300 g Shrimp, minced",
+        "3 Egg Whites (as binder)",
+        "3 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "3 tbsp Light Soy Sauce, for the filling",
+        "12 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "3 inch Fresh Ginger, grated",
+        "9 Scallions, chopped",
+        "3 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "12 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "3 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "3 tbsp Black Vinegar, for serving, optional",
+        "3 tsp Salt, for the filling",
+        "3 small bunches Fresh Coriander, finely chopped, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "200g Ground Pork",
+        "100g Shrimp, minced",
+        "1 Egg White (as binder)",
+        "1 tsp Toasted Sesame Oil, for the filling",
+        "Additional Toasted Sesame Oil, a few drops per serving bowl",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "4 tsp Light Soy Sauce, for the bowls, or less to taste",
+        "1 inch Fresh Ginger, grated",
+        "3 Scallions, chopped",
+        "1 lb prepared Wonton Wrappers; use as many as needed for the filling",
+        "4 cups prepared [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste",
+        "Water, for sealing wrappers and boiling wontons",
+        "1 sheet Nori, shredded",
+        "Baby Bok Choy or Spinach, as desired",
+        "Chopped Fresh Coriander, for garnish",
+        "1 tbsp Black Vinegar, for serving, optional",
+        "1 tsp Salt, for the filling",
+        "1 small bunch Fresh Coriander, finely chopped, for the filling"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "All85691102 soy/sesame component allocations/4cups prepared broth/unusedwrapper handling and a2c9e280165°F"
+  ],
+  "remainingQuestions": [
+    "Taste restored filling salt/coriander without adding the original per-bowl salt on top of already seasoned broth.",
+    "Confirm package size/count, cold handling workflow and actual assembly time."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

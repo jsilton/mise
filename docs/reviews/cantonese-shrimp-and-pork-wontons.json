@@ -1,0 +1,657 @@
+{
+  "slug": "cantonese-shrimp-and-pork-wontons",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "3e5e4efe0dc011d11757e737e8768fdee3496d22ae0c6af64b00b1d78e8bbd0c",
+  "acceptedSourceSha256": "7a2260abf55542926dab1e0e94b537f4b57a06701225810b70cbf909151163e7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["fry", "boil"],
+      "after": ["boil"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Ground Pork (20% fat is ideal)",
+        "1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1/2 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "3 stalks Green Onion, finely minced",
+        "1 tbsp Ginger, freshly grated",
+        "2 cloves Garlic, minced",
+        "1 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1 tbsp Soy Sauce",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp Sugar",
+        "1/2 tsp White Pepper",
+        "1 tsp Kosher Salt",
+        "1 Egg, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)"
+      ],
+      "after": [
+        "1 lb Ground Pork (20% fat is ideal)",
+        "1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1/2 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "3 stalks Green Onion, finely minced",
+        "1 tbsp Ginger, freshly grated",
+        "2 cloves Garlic, minced",
+        "1 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1 tbsp Soy Sauce",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp Sugar",
+        "1/2 tsp White Pepper",
+        "1 tsp Kosher Salt",
+        "1 Egg, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a cohesive cold filling while preserving distinct shrimp pieces",
+        "outcome": "A sticky pork filling with distinct shrimp pieces, securely sealed wrappers and fully cooked centers.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Keep the original small filling scoop and thin wrapper size when scaling; use more wrappers and cooking batches, rather than multiplying the boiling clock. Six portions are a planning yield, not a verified wrapper count.",
+          "Prepare the chosen chestnut, celery or apple alternative finely before mixing. Keep the chunky shrimp half separate until step 3.",
+          "Store-bought wrappers are separate from the linked scratch recipe. If making them, allow kneading, resting and rolling time separately; its 60-wrapper claim does not establish how many this filling needs."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The paste is sticky before the chunky shrimp, scallions and chestnuts are folded in.",
+            "why": "Adding the chunks later keeps their texture instead of grinding them into the paste."
+          },
+          {
+            "step": 6,
+            "cue": "Several larger wonton fillings measure 165°F; wrappers are cooked and intact.",
+            "why": "Floating and the 4–5 minute first check do not establish the cold center’s temperature."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wrappers split or leak filling",
+            "cause": "Overfilling, trapped air, a dry sealing edge or overcrowded cooking batches",
+            "fix": "Reduce the filling scoop enough to seal the chosen wrapper, press out air and keep wrappers covered while working. Cook manageable batches with room to move; check filling temperature rather than relying on flotation."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Water chestnuts",
+            "alternative": "The same listed volume of finely minced celery or Fuji apple",
+            "effect": "Celery is more herbal and apple sweeter; fold in at the same late stage rather than changing the meat formula."
+          },
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "The listed dry-sherry fallback",
+            "effect": "Use instead of Shaoxing, not a second wine dose."
+          }
+        ],
+        "timing": "Allow about 60–90 minutes for mixing, wrapping and cooking the original batch; approximately 45–60 minutes is active preparation, with cooking and heat-up depending on batch count. Scratch wrappers and broth take additional time.",
+        "storage": "Keep raw filling and waiting uncooked dumplings refrigerated at 40°F /4°C or below, bringing out small wrapping batches. Use clean utensils and plates for cooked dumplings. When making ahead, freeze uncooked dumplings promptly in a single layer on a lined tray, then transfer once firm to an airtight freezer container. Assembly does not restart the storage clock of the raw meat or seafood. Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C; use within 3–4 days and reheat to 165°F /74°C throughout. If serving with soup broth, store it separately and bring reheated soup to a rolling boil.",
+        "sources": [
+          {
+            "title": "FDA Food Code — filled pasta cooking endpoint",
+            "url": "https://www.fda.gov/media/194741/download"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese wontons pair a springy pork filling with distinct pieces of shrimp and the crunch of water chestnuts. Stir the cold, seasoned meat until it becomes sticky and holds together, then fold in the chunky ingredients so they keep their texture. Finely minced celery or Fuji apple can replace the water chestnuts; celery adds a fresh herbal note, while apple makes the filling a little sweeter.\n\nPlan on 60–90 minutes for mixing, wrapping, and cooking the batch, depending on your wrapping speed and pot capacity. Wrapper size and filling scoops determine the final count. Use the filling across six portions, and have extra wrappers available rather than relying on an unspecified package size.\n\n## Directions\n\nWork with small batches: keep unused filling and waiting uncooked wontons refrigerated throughout mixing, wrapping, and cooking. Use clean utensils for serving.\n\n1.  **The Paste:** In a large bowl, combine the pork, the **finely chopped** half of the shrimp, ginger, garlic, soy sauce, Shaoxing wine, sesame oil, sugar, white pepper, salt, and egg.\n2.  **The Texture:** Stir the mixture **vigorously in one direction** for 3-5 minutes until it becomes pale, sticky, and forms a cohesive paste. Do not skip this!\n3.  **Add Texture:** Fold in the water chestnuts (or celery), green onions, and the remaining **shrimp chunks**.\n4.  **The Test:** Cook a small flattened portion of filling in a small nonstick skillet until the center reaches 165°F / 74°C. Taste only after it is fully cooked, then adjust the remaining filling with a clean utensil if needed.\n5.  **Assemble:** Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a \"nurse's cap.\" Press out all air.\n\n6.  **Cook:** Bring a large pot of water to a boil. Add a batch of wontons with enough space to move freely and stir gently to keep them from sticking. Once the water returns to a boil, reduce the heat to maintain a gentle boil. Fresh wontons of this size often take about 4–5 minutes, but check several larger ones with a thin thermometer and continue cooking until the center reaches 165°F / 74°C; floating alone does not establish doneness. Lift out with a slotted spoon and serve promptly in hot broth or with dipping sauce. Repeat with the remaining batches.\n7.  **Freeze Extras:** Freeze uncooked wontons promptly in a single layer, then transfer them to a freezer container once firm.\n",
+    "after": "\n## Chef's Note\n\nThese wontons pair a springy pork filling with distinct pieces of shrimp and the crunch of water chestnuts. Stir the cold, seasoned meat until it becomes sticky and holds together, then fold in the chunky ingredients so they keep their texture. Finely minced celery or Fuji apple can replace the water chestnuts; celery adds a fresh herbal note, while apple makes the filling a little sweeter.\n\nPlan on 60–90 minutes for mixing, wrapping, and cooking the batch, depending on your wrapping speed and pot capacity. Wrapper size and filling scoops determine the final count. Divide the filling among the listed portions, and have extra wrappers available rather than relying on an unspecified package size.\n\n## Directions\n\nWork with small batches: keep unused filling and waiting uncooked wontons refrigerated throughout mixing, wrapping, and cooking. Use clean utensils for serving.\n\n1.  **The Paste:** In a large bowl, combine the pork, the **finely chopped** half of the shrimp, ginger, garlic, soy sauce, Shaoxing wine, sesame oil, sugar, white pepper, salt, and egg.\n2.  **The Texture:** Stir the mixture **vigorously in one direction** for 3-5 minutes until it becomes pale, sticky, and forms a cohesive paste. Do not skip this!\n3.  **Add Texture:** Fold in the water chestnuts (or the finely minced celery or Fuji apple alternative), green onions, and the remaining **shrimp chunks**.\n4.  **The Test:** Cook a small flattened portion of filling in a small nonstick skillet until the center reaches 165°F / 74°C. Taste only after it is fully cooked, then adjust the remaining filling with a clean utensil if needed.\n5.  **Assemble:** Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a \"nurse's cap.\" Press out all air.\n\n6.  **Cook:** Bring a large pot of water to a boil. Add a batch of wontons with enough space to move freely and stir gently to keep them from sticking. Once the water returns to a boil, reduce the heat to maintain a gentle boil. Fresh wontons of this size often take about 4–5 minutes, but check several larger ones with a thin thermometer and continue cooking until the center reaches 165°F / 74°C; floating alone does not establish doneness. Lift out with a slotted spoon and serve promptly in hot broth or with dipping sauce. Repeat with the remaining batches.\n7.  **Freeze Extras:** Freeze uncooked wontons promptly in a single layer, then transfer them to a freezer container once firm.\n"
+  },
+  "findings": [
+    {
+      "id": "DUMP-cantonese-shrimp-and-pork-wontons-0",
+      "title": "whole formula, states and destinations",
+      "rationale": "Preserve the deliberately authored family formula and all493885bb cold/165°F repairs.\nApple already exists as a genuine chestnut alternative; give it the same step3 destination as celery. Water sealing/boiling allowance is explicit; fry metadata is removed because the tester is not a second serving method.",
+      "confidence": "High for exact retained amounts and history; restorations are proposals requiring independent challenge",
+      "applicableSources": ["privately retained evidence", "privately retained evidence"],
+      "exactBeforeAfterReferences": ["cookingMethods", "ingredients", "learning", "content"],
+      "questions": [
+        "Confirm actual wrapper count, steamer/pot loads and household portions.",
+        "Record celery versus apple texture and chosen kosher-salt crystal brand; no weight conversion invented."
+      ]
+    },
+    {
+      "id": "DUMP-cantonese-shrimp-and-pork-wontons-1",
+      "title": "whole method, endpoints and scaling",
+      "rationale": "Keep every published cold/165°F/multiple-center repair; make preparation, component allocation, selected method and original count/capacity context executable.",
+      "confidence": "High for endpoints and arithmetic; moderate for untested planning times",
+      "applicableSources": [
+        {
+          "title": "FDA Food Code — filled pasta cooking endpoint",
+          "url": "https://www.fda.gov/media/194741/download"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        "privately retained evidence"
+      ],
+      "sourceApplicability": "FDA165°F applies to meat/seafood-filled pasta, not ingredient substitutions. FoodCode is retail model guidance rather than a claim of home law or zero risk. USDA applies to cooked leftovers; raw preparation does not reset ingredient storage clocks.",
+      "exactBeforeAfterReferences": ["cookingMethods", "ingredients", "learning", "content"],
+      "questions": [
+        "Confirm actual wrapper count, steamer/pot loads and household portions.",
+        "Record celery versus apple texture and chosen kosher-salt crystal brand; no weight conversion invented."
+      ]
+    },
+    {
+      "id": "DUMP-cantonese-shrimp-and-pork-wontons-2",
+      "title": "Authorized v2 source/record precision",
+      "rationale": "",
+      "confidence": "High for exact retained source/field fidelity; source counts and clocks remain untested planning estimates.",
+      "applicableSources": [],
+      "sourceApplicability": [],
+      "exactBeforeAfterReferences": ["cookingMethods", "ingredients", "learning", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/6565bfe1fef37b87d40199b95526c00f929d2eaa/src/content/recipes/cantonese-shrimp-and-pork-wontons.md",
+    "introductionScope": "Earliest followed canonical recipe cooking source in retained independent proof; earlier cooking HTML not reconciled in this legacy frozen packet.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Preserve the deliberately authored family formula and all493885bb cold/165°F repairs.",
+    "Apple already exists as a genuine chestnut alternative; give it the same step3 destination as celery. Water sealing/boiling allowance is explicit; fry metadata is removed because the tester is not a second serving method."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1 lb Ground Pork (20% fat is ideal)",
+        "destinationOrQuestion": "Step1 pork paste"
+      },
+      {
+        "row": 2,
+        "ingredient": "1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "destinationOrQuestion": "Step1 finely chopped half;step3 chunky half"
+      },
+      {
+        "row": 3,
+        "ingredient": "1/2 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "destinationOrQuestion": "Step3 all chestnuts OR same listed volume celery/apple"
+      },
+      {
+        "row": 4,
+        "ingredient": "3 stalks Green Onion, finely minced",
+        "destinationOrQuestion": "Step3 all scallions"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 tbsp Ginger, freshly grated",
+        "destinationOrQuestion": "Step1 ginger"
+      },
+      {
+        "row": 6,
+        "ingredient": "2 cloves Garlic, minced",
+        "destinationOrQuestion": "Step1 garlic"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "destinationOrQuestion": "Step1 wine OR sherry"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 tbsp Soy Sauce",
+        "destinationOrQuestion": "Step1 soy"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 tsp Toasted Sesame Oil",
+        "destinationOrQuestion": "Step1 sesame"
+      },
+      {
+        "row": 10,
+        "ingredient": "1/2 tsp Sugar",
+        "destinationOrQuestion": "Step1 sugar"
+      },
+      {
+        "row": 11,
+        "ingredient": "1/2 tsp White Pepper",
+        "destinationOrQuestion": "Step1 white pepper"
+      },
+      {
+        "row": 12,
+        "ingredient": "1 tsp Kosher Salt",
+        "destinationOrQuestion": "Step1 kosher salt; optional adjustment only after cooked tester"
+      },
+      {
+        "row": 13,
+        "ingredient": "1 Egg, beaten",
+        "destinationOrQuestion": "Step1 beaten egg"
+      },
+      {
+        "row": 14,
+        "ingredient": "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "destinationOrQuestion": "Step5 enough thin wrappers for full filling"
+      },
+      {
+        "row": 15,
+        "ingredient": "Hot broth or dipping sauce, for serving (optional)",
+        "destinationOrQuestion": "Step6 optional hot broth/dipping sauce"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "ingredient": "1 lb Ground Pork (20% fat is ideal)",
+        "destination": "Step1 pork paste"
+      },
+      {
+        "row": 2,
+        "ingredient": "1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "destination": "Step1 finely chopped half;step3 chunky half"
+      },
+      {
+        "row": 3,
+        "ingredient": "1/2 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "destination": "Step3 all chestnuts OR same listed volume celery/apple"
+      },
+      {
+        "row": 4,
+        "ingredient": "3 stalks Green Onion, finely minced",
+        "destination": "Step3 all scallions"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 tbsp Ginger, freshly grated",
+        "destination": "Step1 ginger"
+      },
+      {
+        "row": 6,
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "Step1 garlic"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "destination": "Step1 wine OR sherry"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 tbsp Soy Sauce",
+        "destination": "Step1 soy"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 tsp Toasted Sesame Oil",
+        "destination": "Step1 sesame"
+      },
+      {
+        "row": 10,
+        "ingredient": "1/2 tsp Sugar",
+        "destination": "Step1 sugar"
+      },
+      {
+        "row": 11,
+        "ingredient": "1/2 tsp White Pepper",
+        "destination": "Step1 white pepper"
+      },
+      {
+        "row": 12,
+        "ingredient": "1 tsp Kosher Salt",
+        "destination": "Step1 kosher salt; optional adjustment only after cooked tester"
+      },
+      {
+        "row": 13,
+        "ingredient": "1 Egg, beaten",
+        "destination": "Step1 beaten egg"
+      },
+      {
+        "row": 14,
+        "ingredient": "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "destination": "Step5 enough thin wrappers for full filling"
+      },
+      {
+        "row": 15,
+        "ingredient": "Hot broth or dipping sauce, for serving (optional)",
+        "destination": "Step6 optional hot broth/dipping sauce"
+      },
+      {
+        "row": 16,
+        "ingredient": "Water, for sealing wrappers and boiling wontons",
+        "destination": "Step5 sealing and step6 boiling water"
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Water chestnuts",
+        "alternative": "The same listed volume of finely minced celery or Fuji apple",
+        "effect": "Celery is more herbal and apple sweeter; fold in at the same late stage rather than changing the meat formula."
+      },
+      {
+        "ingredient": "Shaoxing wine",
+        "alternative": "The listed dry-sherry fallback",
+        "effect": "Use instead of Shaoxing, not a second wine dose."
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "The Paste: In a large bowl, combine the pork, the finely chopped half of the shrimp, ginger, garlic, soy sauce, Shaoxing wine, sesame oil, sugar, white pepper, salt, and egg.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 2,
+        "text": "The Texture: Stir the mixture vigorously in one direction for 3-5 minutes until it becomes pale, sticky, and forms a cohesive paste. Do not skip this!",
+        "reference": "current source full content"
+      },
+      {
+        "step": 3,
+        "text": "Add Texture: Fold in the water chestnuts (or celery), green onions, and the remaining shrimp chunks.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 4,
+        "text": "The Test: Cook a small flattened portion of filling in a small nonstick skillet until the center reaches 165°F / 74°C. Taste only after it is fully cooked, then adjust the remaining filling with a clean utensil if needed.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 5,
+        "text": "Assemble: Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a \"nurse's cap.\" Press out all air.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 6,
+        "text": "Cook: Bring a large pot of water to a boil. Add a batch of wontons with enough space to move freely and stir gently to keep them from sticking. Once the water returns to a boil, reduce the heat to maintain a gentle boil. Fresh wontons of this size often take about 4–5 minutes, but check several larger ones with a thin thermometer and continue cooking until the center reaches 165°F / 74°C; floating alone does not establish doneness. Lift out with a slotted spoon and serve promptly in hot broth or with dipping sauce. Repeat with the remaining batches.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 7,
+        "text": "Freeze Extras: Freeze uncooked wontons promptly in a single layer, then transfer them to a freezer container once firm.",
+        "reference": "current source full content"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "The Paste: In a large bowl, combine the pork, the finely chopped half of the shrimp, ginger, garlic, soy sauce, Shaoxing wine, sesame oil, sugar, white pepper, salt, and egg.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 2,
+        "text": "The Texture: Stir the mixture vigorously in one direction for 3-5 minutes until it becomes pale, sticky, and forms a cohesive paste. Do not skip this!",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 3,
+        "text": "Add Texture: Fold in the water chestnuts (or the finely minced celery or Fuji apple alternative), green onions, and the remaining shrimp chunks.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 4,
+        "text": "The Test: Cook a small flattened portion of filling in a small nonstick skillet until the center reaches 165°F / 74°C. Taste only after it is fully cooked, then adjust the remaining filling with a clean utensil if needed.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 5,
+        "text": "Assemble: Place 1 tsp of filling in a wrapper. Moisten edges, fold into a triangle, and bring the two side corners together to form a \"nurse's cap.\" Press out all air.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 6,
+        "text": "Cook: Bring a large pot of water to a boil. Add a batch of wontons with enough space to move freely and stir gently to keep them from sticking. Once the water returns to a boil, reduce the heat to maintain a gentle boil. Fresh wontons of this size often take about 4–5 minutes, but check several larger ones with a thin thermometer and continue cooking until the center reaches 165°F / 74°C; floating alone does not establish doneness. Lift out with a slotted spoon and serve promptly in hot broth or with dipping sauce. Repeat with the remaining batches.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 7,
+        "text": "Freeze Extras: Freeze uncooked wontons promptly in a single layer, then transfer them to a freezer container once firm.",
+        "reference": "exactChanges.content.after"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Water chestnuts",
+      "alternative": "The same listed volume of finely minced celery or Fuji apple",
+      "effect": "Celery is more herbal and apple sweeter; fold in at the same late stage rather than changing the meat formula."
+    },
+    {
+      "ingredient": "Shaoxing wine",
+      "alternative": "The listed dry-sherry fallback",
+      "effect": "Use instead of Shaoxing, not a second wine dose."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["fresh-wonton-wrappers", "homemade-chili-oil", "classic-wonton-soup"],
+    "dependencies": [
+      "Prepared thin square wrappers; the explicitly linked scratch wrapper recipe is a separate, still-pending preparation with additional resting/rolling time and no verified conversion from its60-wrapper claim to this filling.",
+      "Optional chosen hot broth or dipping sauce is a separate serving component; Classic Wonton Soup in pairsWith is a separate suggestion, not an instruction to cook this filling twice."
+    ],
+    "mealAmounts": "Side suggestions remain separate; no unrecorded broth/wrapper yield conversion"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "6",
+    "scope": "Retained planning claim; no weighed yield or kitchen test",
+    "capacity": [
+      "Keep the original small filling scoop and thin wrapper size when scaling; use more wrappers and cooking batches, rather than multiplying the boiling clock. Six portions are a planning yield, not a verified wrapper count.",
+      "Prepare the chosen chestnut, celery or apple alternative finely before mixing. Keep the chunky shrimp half separate until step 3.",
+      "Store-bought wrappers are separate from the linked scratch recipe. If making them, allow kneading, resting and rolling time separately; its 60-wrapper claim does not establish how many this filling needs."
+    ],
+    "timing": "The current 60–90 minute range includes mixing, wrapping and cooking; approximately 45–60 minutes is active preparation, with cooking and heat-up depending on batch count. Scratch wrappers and broth are separate projects.",
+    "scaling": "Existing legacy ingredient controls and scaling overrides preserved; original scoop/skin size and batch endpoint govern method, not proportional timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "1/4 lb Ground Pork (20% fat is ideal)",
+        "1/8 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1/8 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "3/4 stalks Green Onion, finely minced",
+        "1/4 tbsp Ginger, freshly grated",
+        "1/2 clove Garlic, minced",
+        "1/4 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1/4 tbsp Soy Sauce",
+        "1/4 tsp Toasted Sesame Oil",
+        "1/8 tsp Sugar",
+        "1/8 tsp White Pepper",
+        "1/4 tsp Kosher Salt",
+        "1/4 Egg, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1/2 lb Ground Pork (20% fat is ideal)",
+        "1/4 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1/4 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "1 1/2 stalks Green Onion, finely minced",
+        "1/2 tbsp Ginger, freshly grated",
+        "1 clove Garlic, minced",
+        "1/2 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1/2 tbsp Soy Sauce",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/4 tsp Sugar",
+        "1/4 tsp White Pepper",
+        "1/2 tsp Kosher Salt",
+        "1/2 Egg, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1 lb Ground Pork (20% fat is ideal)",
+        "1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1/2 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "3 stalks Green Onion, finely minced",
+        "1 tbsp Ginger, freshly grated",
+        "2 cloves Garlic, minced",
+        "1 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1 tbsp Soy Sauce",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp Sugar",
+        "1/2 tsp White Pepper",
+        "1 tsp Kosher Salt",
+        "1 Egg, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "1 1/2 lb Ground Pork (20% fat is ideal)",
+        "3/4 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "3/4 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "4 1/2 stalks Green Onion, finely minced",
+        "1 1/2 tbsp Ginger, freshly grated",
+        "3 cloves Garlic, minced",
+        "1 1/2 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1 1/2 tbsp Soy Sauce",
+        "1 1/2 tsp Toasted Sesame Oil",
+        "3/4 tsp Sugar",
+        "3/4 tsp White Pepper",
+        "1 1/2 tsp Kosher Salt",
+        "1 1/2 Eggs, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "2 lb Ground Pork (20% fat is ideal)",
+        "1 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "6 stalks Green Onion, finely minced",
+        "2 tbsp Ginger, freshly grated",
+        "4 cloves Garlic, minced",
+        "2 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "2 tbsp Soy Sauce",
+        "2 tsp Toasted Sesame Oil",
+        "1 tsp Sugar",
+        "1 tsp White Pepper",
+        "2 tsp Kosher Salt",
+        "2 Eggs, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "3 lb Ground Pork (20% fat is ideal)",
+        "1 1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1 1/2 cups Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "9 stalks Green Onion, finely minced",
+        "3 tbsp Ginger, freshly grated",
+        "6 cloves Garlic, minced",
+        "3 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "3 tbsp Soy Sauce",
+        "3 tsp Toasted Sesame Oil",
+        "1 1/2 tsp Sugar",
+        "1 1/2 tsp White Pepper",
+        "3 tsp Kosher Salt",
+        "3 Eggs, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Ground Pork (20% fat is ideal)",
+        "1/2 lb Shrimp, peeled and deveined (half finely chopped, half kept in chunks)",
+        "1/2 cup Water Chestnuts, finely minced (See Chef’s Note for substitution)",
+        "3 stalks Green Onion, finely minced",
+        "1 tbsp Ginger, freshly grated",
+        "2 cloves Garlic, minced",
+        "1 tbsp Shaoxing Wine (Fallback: Dry Sherry)",
+        "1 tbsp Soy Sauce",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp Sugar",
+        "1/2 tsp White Pepper",
+        "1 tsp Kosher Salt",
+        "1 Egg, beaten",
+        "Thin square wonton wrappers, as needed for all the filling (package counts vary; have extra available), or [Homemade Wrappers](/mise/recipes/fresh-wonton-wrappers)",
+        "Hot broth or dipping sauce, for serving (optional)",
+        "Water, for sealing wrappers and boiling wontons"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "All493885bb family quantities, cold work, cooked165°F tester and multiple165°F boiled fillings"
+  ],
+  "remainingQuestions": [
+    "Confirm actual wrapper count, steamer/pot loads and household portions.",
+    "Record celery versus apple texture and chosen kosher-salt crystal brand; no weight conversion invented."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

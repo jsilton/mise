@@ -1,0 +1,1910 @@
+{
+  "slug": "cantonese-shumai-siu-mai",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "48d3cf84fe4bb051a9820dc386ad78c8d724c9f22a172064b7c2f1ac6cbed728",
+  "acceptedSourceSha256": "79c707b61fa7d878baecdbaf5f094c7d5b9d856c00e36c16850f01029aa18783",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["boil", "steam"],
+      "after": ["steam"]
+    },
+    {
+      "field": "prepTime",
+      "before": "60 min",
+      "after": "About 60–75 min, plus separate soaking if needed"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 15–25 min, depending on racks and batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "70 min",
+      "after": "About 75–100 min, plus mushroom or optional scallop soaking"
+    },
+    {
+      "field": "servings",
+      "before": "25 shumai",
+      "after": "25 pieces"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 lb Ground Pork (80/20 fat ratio)",
+        "1/2 lb Shrimp, peeled and deveined (finely chopped)",
+        "1/2 cup Water Chestnuts, finely minced",
+        "2/3 cup Dried Shiitake Mushrooms, soaked and minced",
+        "1 tbsp Oyster Sauce",
+        "1 tbsp Shaoxing Wine",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp White Pepper",
+        "1 tsp Sugar",
+        "1 tbsp Cornstarch",
+        "25-30 Siu Mai Wrappers (Yellow egg wrappers)",
+        "1/4 cup Finely diced carrots or Goji berries"
+      ],
+      "after": [
+        "--- Rich filling and carrot topping ---",
+        "1/2 lb Ground pork (80/20)",
+        "1 1/2 tbsp Tapioca starch or cornstarch",
+        "1/4 cup Water for filling",
+        "1 1/2 tbsp Peanut or canola oil",
+        "1/2 tbsp Toasted sesame oil",
+        "1/2 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1/2 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "2/3 cup Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "1 tbsp Fresh ginger, minced",
+        "1/4 cup Scallions, sliced",
+        "2 tbsp Oyster sauce",
+        "1 tsp Kosher salt",
+        "1 tsp Sugar",
+        "1/2 tsp White pepper",
+        "6–8 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "2 Large dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "25–30 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "1/4 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 30,
+        "protein": 4.5,
+        "carbs": 1.5,
+        "fat": 1,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 90
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Hydrate and enrich pork before shaping open-topped shumai",
+        "outcome": "Upright open-topped dumplings with moist pork-shrimp filling, carrots divided over the tops and fully cooked centers on every rack.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "For the original batch, measure 2/3 cup mushrooms after hydrating, draining and chopping. At any batch size, measure the listed prepared amount. Mushroom/scallop soaking water and steamer water are separate from the measured filling water.",
+          "The original 25-shumai yield and 25–30 wrappers are source planning claims. Keep the original wrapper diameter and mound size when scaling; use additional racks/batches and check each rack rather than multiplying the steam clock.",
+          "Optional dried scallops need a refrigerated soak at 40°F /4°C or below for at least 4 hours or overnight, until soft enough to shred. Allow that soaking time before assembly; it is additional to the ready-ingredient schedule.",
+          "The optional small and large dried-scallop rows are exclusive choices. Choose one size or neither, and use that row’s listed count; never add both."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The pork absorbs the full filling water and becomes sticky before the oils and chunky ingredients enter.",
+            "why": "The measured water and oils belong to the rich filling, not the steamer or an unlisted pan."
+          },
+          {
+            "step": 7,
+            "cue": "Several larger fillings from each rack reach 165°F, and the skins are cooked.",
+            "why": "Basket position and filling size change heating; one timer or one lower-rack measurement does not establish all centers."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Shumai lose their shape or the wrapper slumps",
+            "cause": "Too much filling for the chosen wrapper, a loose wrapper cup or a crowded steamer",
+            "fix": "Use a scoop the wrapper can support, press the cup gently around the filling and make a flat base. Leave space between dumplings and keep waiting batches cold. Check several filling centers on every rack."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Tapioca starch or peanut oil",
+            "alternative": "The same listed amount of cornstarch or canola oil respectively",
+            "effect": "Use the selected alternative once; the full filling water and measured sesame oil remain separate."
+          },
+          {
+            "ingredient": "Wine-seasoned filling variation",
+            "alternative": "For the original batch, use 1/2 lb pork, 1/2 lb shrimp, 1/2 cup finely minced chestnuts and 2/3 cup shiitakes measured after soaking, draining and chopping; use 1 tbsp cornstarch, 1 tbsp oyster sauce, 1 tbsp Shaoxing wine, 1 tsp toasted sesame oil, 1/2 tsp white pepper and 1 tsp sugar. Use 25–30 prepared siu-mai wrappers and 1/4 cup finely diced carrots. Scale every variation ingredient with the chosen batch factor while keeping wrapper size and filling scoop similar. Omit the rich filling’s water, peanut/canola oil, ginger, scallions, kosher salt, optional scallops and optional extra pork fat.",
+            "effect": "Replace mixing steps 2–4: combine the pork, chopped shrimp, cornstarch, oyster sauce, Shaoxing wine, sesame oil, white pepper and sugar; stir until sticky, then fold in the prepared chestnuts and mushrooms. Keep the filling cold. Shape with the original approximately 1 1/2 tbsp scoop, reducing it only enough to fit the wrapper, and use all the filling. Divide all the carrots over the tops and cook with the same rack-specific 165°F checks. The retained 1/4-cup goji topping option needs its product and preparation established before selecting it; use the carrot topping until then."
+          },
+          {
+            "ingredient": "Water chestnuts in the rich filling",
+            "alternative": "If unavailable, omit them from the rich filling without adding a replacement ingredient.",
+            "effect": "The filling will have less chestnut crunch. Keep all other listed rich-route amounts, use all the prepared filling and adjust the wrapper count to what can be filled; retain the same every-rack 165°F checks. This option does not change the separate wine-seasoned variation."
+          }
+        ],
+        "timing": "Allow about 75–100 minutes for the original batch with already hydrated mushrooms, including roughly 60–75 minutes active preparation and 15–25 minutes for heat-up and steaming. Optional scallop or mushroom soaking is additional. More racks or cooking batches extend elapsed time; frozen cooking takes longer and remains endpoint-led.",
+        "storage": "Keep raw filling and waiting uncooked dumplings refrigerated at 40°F /4°C or below, bringing out small wrapping batches. Use clean utensils and plates for cooked dumplings. When making ahead, freeze uncooked dumplings promptly in a single layer on a lined tray, then transfer once firm to an airtight freezer container. Assembly does not restart the storage clock of the raw meat or seafood. Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C; use within 3–4 days and reheat to 165°F /74°C throughout.",
+        "sources": [
+          {
+            "title": "Healthy Nibbles — Cantonese Shumai",
+            "url": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/"
+          },
+          {
+            "title": "FDA Food Code — filled pasta cooking endpoint",
+            "url": "https://www.fda.gov/media/194741/download"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 25,
+          "unit": "piece"
+        },
+        "components": [
+          {
+            "id": "filling",
+            "name": "Rich filling and carrot topping",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Ground pork (80/20)",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "starch",
+                "name": "Tapioca starch or cornstarch",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "filling-water",
+                "key": "filling-water",
+                "name": "Water for filling",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "neutral-oil",
+                "key": "neutral-oil",
+                "name": "Peanut or canola oil",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "oil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame-oil",
+                "key": "sesame-oil",
+                "name": "Toasted sesame oil",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "oil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "Raw shrimp",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "oil",
+                    "share": 1
+                  }
+                ],
+                "preparation": "peeled, deveined and finely chopped"
+              },
+              {
+                "id": "chestnuts",
+                "key": "chestnuts",
+                "name": "Water chestnuts",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely minced; peel and rinse fresh chestnuts before chopping"
+              },
+              {
+                "id": "mushrooms",
+                "key": "mushrooms",
+                "name": "Shiitake mushrooms",
+                "quantity": {
+                  "amount": 0.6666666666666666,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "measured after soaking dried mushrooms, draining, removing tough stems and chopping"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "Fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "Scallions",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "sliced"
+              },
+              {
+                "id": "oyster",
+                "key": "oyster",
+                "name": "Oyster sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "White pepper",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "small-scallops",
+                "key": "small-scallops",
+                "name": "Small dried scallop (choose one scallop size only)",
+                "quantity": {
+                  "amount": 6,
+                  "max": 8,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "plural": "Small dried scallops (choose one scallop size only)",
+                "optional": true,
+                "preparation": "refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops"
+              },
+              {
+                "id": "large-scallops",
+                "key": "large-scallops",
+                "name": "Large dried scallop (choose one scallop size only)",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "plural": "Large dried scallops (choose one scallop size only)",
+                "optional": true,
+                "preparation": "refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops"
+              },
+              {
+                "id": "backfat",
+                "key": "backfat",
+                "name": "Finely diced pork back fat or fat from pork belly",
+                "allowance": "a few tablespoons if desired",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "wrappers",
+                "key": "wrappers",
+                "name": "Thin round siu-mai wrapper",
+                "quantity": {
+                  "amount": 25,
+                  "max": 30,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "shape",
+                    "share": 1
+                  }
+                ],
+                "plural": "Thin round siu-mai wrappers",
+                "preparation": "about 3¼ inches across; original size stays fixed when scaling"
+              },
+              {
+                "id": "carrots",
+                "key": "carrots",
+                "name": "Carrots",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "garnish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely diced"
+              },
+              {
+                "id": "chili-oil",
+                "key": "chili-oil",
+                "name": "Chili oil",
+                "allowance": "for serving if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              }
+            ]
+          },
+          {
+            "id": "water",
+            "name": "Separate preparation and steamer water",
+            "ingredients": [
+              {
+                "id": "mushroom-water",
+                "key": "mushroom-water",
+                "name": "Water for soaking mushrooms",
+                "allowance": "as needed",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "scallop-water",
+                "key": "scallop-water",
+                "name": "Water for soaking optional scallops",
+                "allowance": "as needed if using",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "cooking-water"
+              },
+              {
+                "id": "steamer-water",
+                "key": "steamer-water",
+                "name": "Water below the steamer basket",
+                "allowance": "as needed to maintain steam without touching dumplings",
+                "uses": [
+                  {
+                    "step": "steam",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare mushrooms and chosen scallops",
+            "text": "Have {{ingredients}} ready. Soak dried shiitakes until fully softened, then drain, remove tough stems and chop before measuring {{name:filling.mushrooms}}. If selecting optional scallops, choose either the small count OR the large count, never both. Soak that chosen amount in water in the refrigerator at 40°F /4°C or below for at least 4 hours or overnight until soft enough to shred, allowing longer as needed. Drain and shred, and keep prepared scallops refrigerated. Soaking water is discarded, not part of the filling’s measured water."
+          },
+          {
+            "id": "mix",
+            "title": "Hydrate the pork",
+            "text": "Stir {{ingredients}} in a bowl for several minutes until the pork becomes sticky and absorbs the full measured filling water. Keep the mixture cold; this is the rich route, not the separately specified wine route."
+          },
+          {
+            "id": "oil",
+            "title": "Add oils and shrimp",
+            "text": "From {{ingredients}}, stir in both listed oils first, then fold in the finely chopped shrimp. Keep the mixture cold."
+          },
+          {
+            "id": "finish",
+            "title": "Complete the rich filling",
+            "text": "Fold in {{ingredients}}, adding optional shredded scallops of the chosen size and optional diced pork fat only if selected. Never combine both scallop-size rows. All mushroom and chestnut quantities refer to their prepared state. Refrigerate waiting filling."
+          },
+          {
+            "id": "shape",
+            "title": "Form open cups",
+            "text": "Use {{ingredients}} to hold approximately 2 tbsp filling per original-size dumpling, reducing the scoop only enough for the chosen wrapper to support it. Press the wrapper into an open cup with a flat base. Use all the prepared filling; the listed wrapper range and piece yield are approximate planning counts. Keep wrapper size and scoop similar when scaling, using additional trays/racks."
+          },
+          {
+            "id": "garnish",
+            "title": "Distribute carrots",
+            "text": "Divide all {{ingredients}} across the dumpling tops and press gently into the filling. Arrange in lined steamer racks with space between dumplings; keep uncooked waiting batches refrigerated."
+          },
+          {
+            "id": "steam",
+            "title": "Steam and check each rack",
+            "text": "Bring {{ingredients}} to a boil below the basket without touching the dumplings. Cover and maintain steam, ensuring the pot does not boil dry. Begin checking fresh dumplings after about 8–10 minutes. Use a thin-tip thermometer in the center of several larger fillings on every rack; continue until each checked filling reaches 165°F /74°C and the wrappers are cooked. Check upper racks independently. Lift the lid away from you and protect hands from steam; repeat in batches as needed."
+          },
+          {
+            "id": "serve",
+            "title": "Serve or freeze",
+            "text": "Serve hot with {{ingredients}} separately if desired. For make-ahead dumplings, freeze uncooked shumai promptly in a single layer and pack once firm. Steam from frozen without thawing, beginning checks after about 9–10 minutes and allowing longer as needed with the same multiple-center, every-rack 165°F checks."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nShumai (also spelled siu mai) are open-topped Cantonese dumplings, a dim sum staple from Guangdong province. The distinctive bouncy texture comes from stirring the pork and shrimp mixture vigorously in one direction for several minutes until it becomes sticky - this develops the protein and gives it that characteristic snap. Dried shiitake mushrooms are essential for their concentrated umami flavor. The yellow egg wrappers and the small diced carrot or goji berry garnish on top are traditional touches.\n\n## Directions\n\n1.  **The Paste:** In a large bowl, combine pork, chopped shrimp, cornstarch, wine, and seasonings. Stir **vigorously in one direction** until the meat is pale and very sticky.\n2.  **Add Texture:** Fold in the mushrooms and water chestnuts.\n3.  **Shape:** Place a wrapper in your palm. Scoop 1.5 tbsp of filling. Squeeze the wrapper around the meat to form a \"cup\" with the meat exposed at the top. Flatten the base so it stands up.\n4.  **Garnish:** Press a tiny amount of diced carrot into the center of each top.\n5.  **Steam:** Place in a bamboo steamer lined with parchment. Steam over boiling water for 8-10 minutes until the internal temp is 165°F.\n6.  **Serve:** Serve immediately with hot chili oil.\n\n## Cooking Notes\n\nFresh water chestnuts add crunch; peel, rinse and chop them finely if using. A ten-inch steamer typically holds about fifteen shumai with space between them. Upper baskets can cook more slowly, so check dumplings from each rack rather than assuming one timer covers both.\n",
+    "after": "\n## Chef's Note\n\nShumai are open-topped Cantonese pork-and-shrimp dumplings. Mix the pork with the starch and measured filling water until sticky, then work in the oils before folding in the shrimp and vegetables. Dried shiitakes are hydrated and chopped before measuring; their soaking water is separate from the measured filling water. Thin round wrappers form cups around the filling rather than enclosing it like a wonton.\n\n## Directions\n\n1. **Prepare mushrooms and chosen scallops:** Have Water for soaking mushrooms and Water for soaking optional scallops (if using) ready. Soak dried shiitakes until fully softened, then drain, remove tough stems and chop before measuring Shiitake mushrooms. If selecting optional scallops, choose either the small count OR the large count, never both. Soak that chosen amount in water in the refrigerator at 40°F /4°C or below for at least 4 hours or overnight until soft enough to shred, allowing longer as needed. Drain and shred, and keep prepared scallops refrigerated. Soaking water is discarded, not part of the filling’s measured water.\n2. **Hydrate the pork:** Stir Ground pork (80/20), Tapioca starch or cornstarch, and Water for filling in a bowl for several minutes until the pork becomes sticky and absorbs the full measured filling water. Keep the mixture cold; this is the rich route, not the separately specified wine route.\n3. **Add oils and shrimp:** From Peanut or canola oil, Toasted sesame oil, and Raw shrimp, stir in both listed oils first, then fold in the finely chopped shrimp. Keep the mixture cold.\n4. **Complete the rich filling:** Fold in Water chestnuts, Shiitake mushrooms, Fresh ginger, Scallions, Oyster sauce, Kosher salt, Sugar, White pepper, Small dried scallops (choose one scallop size only) (if using), Large dried scallops (choose one scallop size only) (if using), and Finely diced pork back fat or fat from pork belly (if using), adding optional shredded scallops of the chosen size and optional diced pork fat only if selected. Never combine both scallop-size rows. All mushroom and chestnut quantities refer to their prepared state. Refrigerate waiting filling.\n5. **Form open cups:** Use Thin round siu-mai wrappers to hold approximately 2 tbsp filling per original-size dumpling, reducing the scoop only enough for the chosen wrapper to support it. Press the wrapper into an open cup with a flat base. Use all the prepared filling; the listed wrapper range and piece yield are approximate planning counts. Keep wrapper size and scoop similar when scaling, using additional trays/racks.\n6. **Distribute carrots:** Divide all Carrots across the dumpling tops and press gently into the filling. Arrange in lined steamer racks with space between dumplings; keep uncooked waiting batches refrigerated.\n7. **Steam and check each rack:** Bring Water below the steamer basket to a boil below the basket without touching the dumplings. Cover and maintain steam, ensuring the pot does not boil dry. Begin checking fresh dumplings after about 8–10 minutes. Use a thin-tip thermometer in the center of several larger fillings on every rack; continue until each checked filling reaches 165°F /74°C and the wrappers are cooked. Check upper racks independently. Lift the lid away from you and protect hands from steam; repeat in batches as needed.\n8. **Serve or freeze:** Serve hot with Chili oil (if using) separately if desired. For make-ahead dumplings, freeze uncooked shumai promptly in a single layer and pack once firm. Steam from frozen without thawing, beginning checks after about 9–10 minutes and allowing longer as needed with the same multiple-center, every-rack 165°F checks.\n\n## Cooking Notes\n\nA 10-inch basket held about 15 dumplings in the source’s setup; use the actual spacing and rack capacity rather than forcing that count. Two racks can cook unevenly. Optional dried scallops add a concentrated seafood flavor; the source also permits a few tablespoons of finely diced pork back fat or fat from pork belly for a richer filling, folded in with the vegetables. That addition is a separate optional amount, not a replacement for the measured oils.\n"
+  },
+  "findings": [
+    {
+      "id": "DUMP-cantonese-shumai-siu-mai-0",
+      "title": "whole formula, states and destinations",
+      "rationale": "Exact bound native and045e5ba2 agree on source-rich quantities;59a6188e replaced them in a bulk refinement, with no later individually established removal acceptance in full history. Restore all exact oils/water/aromatics/salt/starch/oyster and optional scallop/backfat routes as peer-pending proposals; preserve the full smaller wine formula separately.\nClarify hydrated chopped mushroom measurement from exact saved note, not inferred dry density. Original source and current165°F preserved with multiple rack checks.\nRetain goji option but explicitly hold its unestablished product preparation; do not invent a soaking amount or normalize its¼cup to one berry per dumpling.",
+      "confidence": "High for exact retained amounts and history; restorations are proposals requiring independent challenge",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Independent editor must challenge exact source-rich restoration versus fully retained current variant; no inferred household approval.",
+        "Clarify goji product/preparation for the existing alternate garnish before selecting it.",
+        "Confirm measured hydrated-mushroom volume, wrapper count, rack loads and final filling texture.",
+        "Record kosher-salt crystal brand; retain teaspoon without guessed weight."
+      ]
+    },
+    {
+      "id": "DUMP-cantonese-shumai-siu-mai-1",
+      "title": "whole method, endpoints and scaling",
+      "rationale": "Keep every published cold/165°F/multiple-center repair; make preparation, component allocation, selected method and original count/capacity context executable.",
+      "confidence": "High for endpoints and arithmetic; moderate for untested planning times",
+      "applicableSources": [
+        {
+          "title": "FDA Food Code — filled pasta cooking endpoint",
+          "url": "https://www.fda.gov/media/194741/download"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        "privately retained evidence"
+      ],
+      "sourceApplicability": "FDA165°F applies to meat/seafood-filled pasta, not ingredient substitutions. FoodCode is retail model guidance rather than a claim of home law or zero risk. USDA applies to cooked leftovers; raw preparation does not reset ingredient storage clocks.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Independent editor must challenge exact source-rich restoration versus fully retained current variant; no inferred household approval.",
+        "Clarify goji product/preparation for the existing alternate garnish before selecting it.",
+        "Confirm measured hydrated-mushroom volume, wrapper count, rack loads and final filling texture.",
+        "Record kosher-salt crystal brand; retain teaspoon without guessed weight."
+      ]
+    },
+    {
+      "id": "DUMP-cantonese-shumai-siu-mai-2",
+      "title": "unestablished nutrition",
+      "rationale": "Inherited automated estimate has no established full formula/yield calculation; no replacement nutrition precision invented.",
+      "confidence": "High",
+      "applicableSources": ["Complete ingredient and yield ledger"],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "DUMP-cantonese-shumai-siu-mai-3",
+      "title": "Authorized v2 source/record precision",
+      "rationale": "The exact bound native note and 045 introduction permit leaving out the water chestnuts when unavailable. That complete note disappeared in the same 59a6188e bulk rewrite as the richer source ingredients. No later individual household rejection of this option appears in the exact followed history.,Keep the current primary half-cup amount and the complete wine variant. Retaining an explicitly separate optional source branch avoids making the restored rich-source route narrower than its saved source. Do not replace chestnuts with another vegetable, infer equal yield, or omit them from the frozen wine route by implication.\nThe newly generated step 5 leaves a fixed 25-shumai count beside a listed count that changes to 12½/50/6¼/37½/75 pieces. Referencing the listed piece yield keeps the original planning count in authored formula and the already explicit original-batch preparation note. Geometry, wrapper range, yield amount and scoop size do not change.,Step 3 currently says “oils from Peanut …, Toasted …, and Raw shrimp.” Its destination and following shrimp clause are correct, but the generated list reads as though shrimp is an oil. The advisory rewrite preserves the exact same three allocations and oil-before-shrimp sequence.,The choose-one instruction is sufficient cooking prose. Software/display implementation details can remain in the private representation record. The timing clarification adds original-batch and variable-batch context without inventing a soak, heat-up or extra-cooking duration.\nThe newly generated step 5 leaves a fixed 25-shumai count beside a listed count that changes to 12½/50/6¼/37½/75 pieces. Referencing the listed piece yield keeps the original planning count in authored formula and the already explicit original-batch preparation note. Geometry, wrapper range, yield amount and scoop size do not change.,Step 3 currently says “oils from Peanut …, Toasted …, and Raw shrimp.” Its destination and following shrimp clause are correct, but the generated list reads as though shrimp is an oil. The advisory rewrite preserves the exact same three allocations and oil-before-shrimp sequence.,The choose-one instruction is sufficient cooking prose. Software/display implementation details can remain in the private representation record. The timing clarification adds original-batch and variable-batch context without inventing a soak, heat-up or extra-cooking duration.\nThe newly generated step 5 leaves a fixed 25-shumai count beside a listed count that changes to 12½/50/6¼/37½/75 pieces. Referencing the listed piece yield keeps the original planning count in authored formula and the already explicit original-batch preparation note. Geometry, wrapper range, yield amount and scoop size do not change.,Step 3 currently says “oils from Peanut …, Toasted …, and Raw shrimp.” Its destination and following shrimp clause are correct, but the generated list reads as though shrimp is an oil. The advisory rewrite preserves the exact same three allocations and oil-before-shrimp sequence.,The choose-one instruction is sufficient cooking prose. Software/display implementation details can remain in the private representation record. The timing clarification adds original-batch and variable-batch context without inventing a soak, heat-up or extra-cooking duration.\nThe newly generated step 5 leaves a fixed 25-shumai count beside a listed count that changes to 12½/50/6¼/37½/75 pieces. Referencing the listed piece yield keeps the original planning count in authored formula and the already explicit original-batch preparation note. Geometry, wrapper range, yield amount and scoop size do not change.,Step 3 currently says “oils from Peanut …, Toasted …, and Raw shrimp.” Its destination and following shrimp clause are correct, but the generated list reads as though shrimp is an oil. The advisory rewrite preserves the exact same three allocations and oil-before-shrimp sequence.,The choose-one instruction is sufficient cooking prose. Software/display implementation details can remain in the private representation record. The timing clarification adds original-batch and variable-batch context without inventing a soak, heat-up or extra-cooking duration.\nThe private capacity object still contains the original ambiguous four-hour/overnight cold-soak wording and the pre-migration “legacy ingredient controls” description. The actual final authored route correctly refrigerates the entire scallop soak and uses formula controls.,Keep chronology and prior checkpoints unchanged. Label the current capacity object with the actual candidate; if further authorized learning edits are applied, refresh this object to those final bytes rather than copying a stale earlier snapshot. Keep the original native 25-shumai planning label separately in provenance, without declaring measured yield.\nThe private capacity object still contains the original ambiguous four-hour/overnight cold-soak wording and the pre-migration “legacy ingredient controls” description. The actual final authored route correctly refrigerates the entire scallop soak and uses formula controls.,Keep chronology and prior checkpoints unchanged. Label the current capacity object with the actual candidate; if further authorized learning edits are applied, refresh this object to those final bytes rather than copying a stale earlier snapshot. Keep the original native 25-shumai planning label separately in provenance, without declaring measured yield.\nThe private capacity object still contains the original ambiguous four-hour/overnight cold-soak wording and the pre-migration “legacy ingredient controls” description. The actual final authored route correctly refrigerates the entire scallop soak and uses formula controls.,Keep chronology and prior checkpoints unchanged. Label the current capacity object with the actual candidate; if further authorized learning edits are applied, refresh this object to those final bytes rather than copying a stale earlier snapshot. Keep the original native 25-shumai planning label separately in provenance, without declaring measured yield.\nThe existing held-branch label “Exact source option retained” is underspecified beside a source-rich/native restoration claim. The rich saved publisher/native recipe uses carrots. The goji choice enters the 59a6188e repository rewrite and persists in frozen/current ingredients.,Keep all quarter-cup original and proportional held amounts. This is an attribution clarification, not approval to buy a particular product, soak berries, infer one berry per dumpling, or release the branch. The candidate’s choose-carrot guidance and record hold stay intact.\nBoth incoming meals were read whole. The existing relationships correctly describe wrappers/broth and sides but omit the incoming meal’s contrary clock/cooking route. This finding requests a record boundary and household question; it authorizes no meal edits and no recipe temperature or ingredient changes.",
+      "confidence": "High for exact retained source/field fidelity; source counts and clocks remain untested planning estimates.",
+      "applicableSources": [
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "088bd5276084a28dbd0d0bbd158135afb9a418ca0de1feeb1cc851b630203d46",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Actual full followed Git source history",
+          "path": "privately retained evidence",
+          "sha256": "d09b048096ea98e8bdf327f153ca275ab1d5d72cb953717c351c0765ac6a0b69",
+          "applicability": "Complete history matches actual Git bytes at the frozen commit. Establishes recorded changes, not household taste approval or kitchen testing."
+        },
+        {
+          "title": "Healthy Nibbles by Lisa Lin — Cantonese Shumai",
+          "url": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
+          "applicability": "Directly reopened current primary card and notes corroborate the saved rich route, optional chestnut omission/scallops/backfat, wrapper geometry and source planning count. No household default or equal scallop-size weights established."
+        },
+        {
+          "title": "Actual review and public cooking presentation contract",
+          "path": "docs/RECIPE_STANDARD.md",
+          "sha256": "c54a765043d24fcfe3f72e5f7f3c5f1ae19590dca0a469ec95132eaf46e89b19",
+          "applicability": "Preserve exact source/family variants and use recipe-specific cooking prose. Review provenance belongs in records."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "088bd5276084a28dbd0d0bbd158135afb9a418ca0de1feeb1cc851b630203d46",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Healthy Nibbles by Lisa Lin — Cantonese Shumai",
+          "url": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
+          "applicability": "Directly reopened current primary card and notes corroborate the saved rich route, optional chestnut omission/scallops/backfat, wrapper geometry and source planning count. No household default or equal scallop-size weights established."
+        },
+        {
+          "title": "Actual review and public cooking presentation contract",
+          "path": "docs/RECIPE_STANDARD.md",
+          "sha256": "c54a765043d24fcfe3f72e5f7f3c5f1ae19590dca0a469ec95132eaf46e89b19",
+          "applicability": "Preserve exact source/family variants and use recipe-specific cooking prose. Review provenance belongs in records."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "088bd5276084a28dbd0d0bbd158135afb9a418ca0de1feeb1cc851b630203d46",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Healthy Nibbles by Lisa Lin — Cantonese Shumai",
+          "url": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
+          "applicability": "Directly reopened current primary card and notes corroborate the saved rich route, optional chestnut omission/scallops/backfat, wrapper geometry and source planning count. No household default or equal scallop-size weights established."
+        },
+        {
+          "title": "Actual review and public cooking presentation contract",
+          "path": "docs/RECIPE_STANDARD.md",
+          "sha256": "c54a765043d24fcfe3f72e5f7f3c5f1ae19590dca0a469ec95132eaf46e89b19",
+          "applicability": "Preserve exact source/family variants and use recipe-specific cooking prose. Review provenance belongs in records."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "088bd5276084a28dbd0d0bbd158135afb9a418ca0de1feeb1cc851b630203d46",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Healthy Nibbles by Lisa Lin — Cantonese Shumai",
+          "url": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
+          "applicability": "Directly reopened current primary card and notes corroborate the saved rich route, optional chestnut omission/scallops/backfat, wrapper geometry and source planning count. No household default or equal scallop-size weights established."
+        },
+        {
+          "title": "Actual review and public cooking presentation contract",
+          "path": "docs/RECIPE_STANDARD.md",
+          "sha256": "c54a765043d24fcfe3f72e5f7f3c5f1ae19590dca0a469ec95132eaf46e89b19",
+          "applicability": "Preserve exact source/family variants and use recipe-specific cooking prose. Review provenance belongs in records."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "088bd5276084a28dbd0d0bbd158135afb9a418ca0de1feeb1cc851b630203d46",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Healthy Nibbles by Lisa Lin — Cantonese Shumai",
+          "url": "https://healthynibblesandbits.com/cantonese-shumai-siu-mai/",
+          "applicability": "Directly reopened current primary card and notes corroborate the saved rich route, optional chestnut omission/scallops/backfat, wrapper geometry and source planning count. No household default or equal scallop-size weights established."
+        },
+        {
+          "title": "Actual review and public cooking presentation contract",
+          "path": "docs/RECIPE_STANDARD.md",
+          "sha256": "c54a765043d24fcfe3f72e5f7f3c5f1ae19590dca0a469ec95132eaf46e89b19",
+          "applicability": "Preserve exact source/family variants and use recipe-specific cooking prose. Review provenance belongs in records."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "FoodSafety.gov — four food-safety steps",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Cold holding at 40°F or below, clean/raw separation and two-hour/one-hour hot-ambient cooling limits. Refrigerated scallop rehydration is an editorial application of perishable-food holding, not a publisher-tested refrigerated duration."
+        },
+        {
+          "title": "Independently executed current mechanical gates",
+          "path": "privately retained evidence",
+          "sha256": "b04557a1b772344d06d6bf3389ddbbb64361e9a474ec86c91d1fbd593928444a",
+          "applicability": "Actual schema/compile/numerical outputs; these gates do not establish culinary success."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "FoodSafety.gov — four food-safety steps",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Cold holding at 40°F or below, clean/raw separation and two-hour/one-hour hot-ambient cooling limits. Refrigerated scallop rehydration is an editorial application of perishable-food holding, not a publisher-tested refrigerated duration."
+        },
+        {
+          "title": "Independently executed current mechanical gates",
+          "path": "privately retained evidence",
+          "sha256": "b04557a1b772344d06d6bf3389ddbbb64361e9a474ec86c91d1fbd593928444a",
+          "applicability": "Actual schema/compile/numerical outputs; these gates do not establish culinary success."
+        },
+        {
+          "title": "Actual authored and generated recipe contract",
+          "path": "docs/STRUCTURED_RECIPE_AUTHORING.md",
+          "sha256": "6b6088870493fea6b47ef42defb6b65b3575beee479ea91eaef9dc7a39fde77e",
+          "applicability": "One authored formula; regenerate ingredients, yield and numbered Directions together. Fixed prose must agree with scaled ingredients; the schema is not culinary testing."
+        },
+        {
+          "title": "FoodSafety.gov — four food-safety steps",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+          "applicability": "Cold holding at 40°F or below, clean/raw separation and two-hour/one-hour hot-ambient cooling limits. Refrigerated scallop rehydration is an editorial application of perishable-food holding, not a publisher-tested refrigerated duration."
+        },
+        {
+          "title": "Independently executed current mechanical gates",
+          "path": "privately retained evidence",
+          "sha256": "b04557a1b772344d06d6bf3389ddbbb64361e9a474ec86c91d1fbd593928444a",
+          "applicability": "Actual schema/compile/numerical outputs; these gates do not establish culinary success."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "088bd5276084a28dbd0d0bbd158135afb9a418ca0de1feeb1cc851b630203d46",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Actual full followed Git source history",
+          "path": "privately retained evidence",
+          "sha256": "d09b048096ea98e8bdf327f153ca275ab1d5d72cb953717c351c0765ac6a0b69",
+          "applicability": "Complete history matches actual Git bytes at the frozen commit. Establishes recorded changes, not household taste approval or kitchen testing."
+        },
+        {
+          "title": "Current composed meal",
+          "path": "src/content/meals/dim-sum-feast.md",
+          "sha256": "181b03baeff173bfe28b4952e4599512364aaedff8d12a5214dd0a3116be5ed9",
+          "applicability": "Exact current relationship, stated component clock/state and cooking instructions; meal is not certified by this recipe review."
+        },
+        {
+          "title": "FDA Food Code 2026 §3-401.11(A)(3)",
+          "url": "https://www.fda.gov/media/194741/download",
+          "applicability": "Direct primary PDF supports instantaneous 165°F for stuffed pasta and meat/fish stuffing. Retail model guidance conservatively applied to these filled dumplings; not home law, formula authority, or a zero-risk guarantee."
+        }
+      ],
+      "sourceApplicability": [null, null, null, null, null, null, null, null, null, null],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": [
+        "Does the household want this genuine optional source choice, or does it prefer keeping chestnuts mandatory? No current preference has been established.",
+        "Actual wrapper count/rack load and batch duration remain kitchen questions.",
+        "Actual wrapper count/rack load and batch duration remain kitchen questions.",
+        "Actual wrapper count/rack load and batch duration remain kitchen questions.",
+        "Actual wrapper count/rack load and batch duration remain kitchen questions.",
+        "No new cooking amount or yield decision is requested.",
+        "No new cooking amount or yield decision is requested.",
+        "No new cooking amount or yield decision is requested.",
+        "Fresh, dried or ready-to-eat goji product, preparation and application stage remain unresolved.",
+        "Root needs a separate whole-meal review before treating this linked meal as executable or accepted."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/cantonese-shumai-siu-mai.md",
+    "introductionScope": "Earliest followed canonical recipe cooking source in retained independent proof; earlier cooking HTML not reconciled in this legacy frozen packet.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact bound native and045e5ba2 agree on source-rich quantities;59a6188e replaced them in a bulk refinement, with no later individually established removal acceptance in full history. Restore all exact oils/water/aromatics/salt/starch/oyster and optional scallop/backfat routes as peer-pending proposals; preserve the full smaller wine formula separately.",
+    "Clarify hydrated chopped mushroom measurement from exact saved note, not inferred dry density. Original source and current165°F preserved with multiple rack checks.",
+    "Retain goji option but explicitly hold its unestablished product preparation; do not invent a soaking amount or normalize its¼cup to one berry per dumpling.",
+    "The saved source lists1/4cup carrots but its approximately1/4tsp-per-dumpling instruction would not use that entire amount at the inherited25-shumai planning count. The migrated garnish step6 deliberately divides all the listed carrots among the actual dumplings; it preserves the ingredient quantity without claiming a measured per-dumpling yield."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1/2 lb Ground Pork (80/20 fat ratio)",
+        "destinationOrQuestion": "Step1current porkpaste"
+      },
+      {
+        "row": 2,
+        "ingredient": "1/2 lb Shrimp, peeled and deveined (finely chopped)",
+        "destinationOrQuestion": "Step1current choppedshrimp"
+      },
+      {
+        "row": 3,
+        "ingredient": "1/2 cup Water Chestnuts, finely minced",
+        "destinationOrQuestion": "Step2current chestnut fold"
+      },
+      {
+        "row": 4,
+        "ingredient": "2/3 cup Dried Shiitake Mushrooms, soaked and minced",
+        "destinationOrQuestion": "Step2current mushroomfold;state afterhydrate not drypurchase"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 tbsp Oyster Sauce",
+        "destinationOrQuestion": "Step1current oyster1tbsp"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tbsp Shaoxing Wine",
+        "destinationOrQuestion": "Step1current wine1tbsp"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tsp Toasted Sesame Oil",
+        "destinationOrQuestion": "Step1current sesame1tsp"
+      },
+      {
+        "row": 8,
+        "ingredient": "1/2 tsp White Pepper",
+        "destinationOrQuestion": "Step1currentwhitepepper½tsp"
+      },
+      {
+        "row": 9,
+        "ingredient": "1 tsp Sugar",
+        "destinationOrQuestion": "Step1currentsugar1tsp"
+      },
+      {
+        "row": 10,
+        "ingredient": "1 tbsp Cornstarch",
+        "destinationOrQuestion": "Step1currentcornstarch1tbsp"
+      },
+      {
+        "row": 11,
+        "ingredient": "25-30 Siu Mai Wrappers (Yellow egg wrappers)",
+        "destinationOrQuestion": "Step3current25–30wrappers with1½tbsp scoop"
+      },
+      {
+        "row": 12,
+        "ingredient": "1/4 cup Finely diced carrots or Goji berries",
+        "destinationOrQuestion": "Step4currentcarrot;goji alternate lackedmethoddestination"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Ground pork (80/20)",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "pork",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Tapioca starch or cornstarch",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "starch",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water for filling",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "filling-water",
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Peanut or canola oil",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "neutral-oil",
+        "destinations": [
+          {
+            "step": "oil",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Toasted sesame oil",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "sesame-oil",
+        "destinations": [
+          {
+            "step": "oil",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Raw shrimp",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "peeled, deveined and finely chopped",
+        "optional": false,
+        "key": "shrimp",
+        "destinations": [
+          {
+            "step": "oil",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water chestnuts",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "finely minced; peel and rinse fresh chestnuts before chopping",
+        "optional": false,
+        "key": "chestnuts",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Shiitake mushrooms",
+        "quantity": {
+          "amount": 0.6666666666666666,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "optional": false,
+        "key": "mushrooms",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "optional": false,
+        "key": "ginger",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Scallions",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "optional": false,
+        "key": "scallions",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Oyster sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "oyster",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Kosher salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "salt",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "sugar",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "White pepper",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "key": "pepper",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Small dried scallop (choose one scallop size only)",
+        "quantity": {
+          "amount": 6,
+          "max": 8,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops",
+        "optional": true,
+        "key": "small-scallops",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Large dried scallop (choose one scallop size only)",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops",
+        "optional": true,
+        "key": "large-scallops",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Finely diced pork back fat or fat from pork belly",
+        "quantity": null,
+        "allowance": "a few tablespoons if desired",
+        "preparation": null,
+        "optional": true,
+        "key": "backfat",
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Thin round siu-mai wrapper",
+        "quantity": {
+          "amount": 25,
+          "max": 30,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "about 3¼ inches across; original size stays fixed when scaling",
+        "optional": false,
+        "key": "wrappers",
+        "destinations": [
+          {
+            "step": "shape",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Carrots",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "finely diced",
+        "optional": false,
+        "key": "carrots",
+        "destinations": [
+          {
+            "step": "garnish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Chili oil",
+        "quantity": null,
+        "allowance": "for serving if desired",
+        "preparation": null,
+        "optional": true,
+        "key": "chili-oil",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water for soaking mushrooms",
+        "quantity": null,
+        "allowance": "as needed",
+        "preparation": null,
+        "optional": false,
+        "key": "mushroom-water",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water for soaking optional scallops",
+        "quantity": null,
+        "allowance": "as needed if using",
+        "preparation": null,
+        "optional": true,
+        "key": "scallop-water",
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water below the steamer basket",
+        "quantity": null,
+        "allowance": "as needed to maintain steam without touching dumplings",
+        "preparation": null,
+        "optional": false,
+        "key": "steamer-water",
+        "destinations": [
+          {
+            "step": "steam",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Tapioca starch or peanut oil",
+        "alternative": "The same listed amount of cornstarch or canola oil respectively",
+        "effect": "Use the selected alternative once; the full filling water and measured sesame oil remain separate."
+      },
+      {
+        "ingredient": "Wine-seasoned filling variation",
+        "alternative": "For the original batch, use 1/2 lb pork, 1/2 lb shrimp, 1/2 cup finely minced chestnuts and 2/3 cup shiitakes measured after soaking, draining and chopping; use 1 tbsp cornstarch, 1 tbsp oyster sauce, 1 tbsp Shaoxing wine, 1 tsp toasted sesame oil, 1/2 tsp white pepper and 1 tsp sugar. Use 25–30 prepared siu-mai wrappers and 1/4 cup finely diced carrots. Scale every variation ingredient with the chosen batch factor while keeping wrapper size and filling scoop similar. Omit the rich filling’s water, peanut/canola oil, ginger, scallions, kosher salt, optional scallops and optional extra pork fat.",
+        "effect": "Replace mixing steps 2–4: combine the pork, chopped shrimp, cornstarch, oyster sauce, Shaoxing wine, sesame oil, white pepper and sugar; stir until sticky, then fold in the prepared chestnuts and mushrooms. Keep the filling cold. Shape with the original approximately 1 1/2 tbsp scoop, reducing it only enough to fit the wrapper, and use all the filling. Divide all the carrots over the tops and cook with the same rack-specific 165°F checks. The retained 1/4-cup goji topping option needs its product and preparation established before selecting it; use the carrot topping until then."
+      },
+      {
+        "ingredient": "Water chestnuts in the rich filling",
+        "alternative": "If unavailable, omit them from the rich filling without adding a replacement ingredient.",
+        "effect": "The filling will have less chestnut crunch. Keep all other listed rich-route amounts, use all the prepared filling and adjust the wrapper count to what can be filled; retain the same every-rack 165°F checks. This option does not change the separate wine-seasoned variation."
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "The Paste: In a large bowl, combine pork, chopped shrimp, cornstarch, wine, and seasonings. Stir vigorously in one direction until the meat is pale and very sticky.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 2,
+        "text": "Add Texture: Fold in the mushrooms and water chestnuts.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 3,
+        "text": "Shape: Place a wrapper in your palm. Scoop 1.5 tbsp of filling. Squeeze the wrapper around the meat to form a \"cup\" with the meat exposed at the top. Flatten the base so it stands up.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 4,
+        "text": "Garnish: Press a tiny amount of diced carrot into the center of each top.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 5,
+        "text": "Steam: Place in a bamboo steamer lined with parchment. Steam over boiling water for 8-10 minutes until the internal temp is 165°F.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Serve immediately with hot chili oil.",
+        "reference": "current source full content"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "Prepare mushrooms and chosen scallops: Have Water for soaking mushrooms and Water for soaking optional scallops (if using) ready. Soak dried shiitakes until fully softened, then drain, remove tough stems and chop before measuring Shiitake mushrooms. If selecting optional scallops, choose either the small count OR the large count, never both. Soak that chosen amount in water in the refrigerator at 40°F /4°C or below for at least 4 hours or overnight until soft enough to shred, allowing longer as needed. Drain and shred, and keep prepared scallops refrigerated. Soaking water is discarded, not part of the filling’s measured water.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 2,
+        "text": "Hydrate the pork: Stir Ground pork (80/20), Tapioca starch or cornstarch, and Water for filling in a bowl for several minutes until the pork becomes sticky and absorbs the full measured filling water. Keep the mixture cold; this is the rich route, not the separately specified wine route.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 3,
+        "text": "Add oils and shrimp: From Peanut or canola oil, Toasted sesame oil, and Raw shrimp, stir in both listed oils first, then fold in the finely chopped shrimp. Keep the mixture cold.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 4,
+        "text": "Complete the rich filling: Fold in Water chestnuts, Shiitake mushrooms, Fresh ginger, Scallions, Oyster sauce, Kosher salt, Sugar, White pepper, Small dried scallops (choose one scallop size only) (if using), Large dried scallops (choose one scallop size only) (if using), and Finely diced pork back fat or fat from pork belly (if using), adding optional shredded scallops of the chosen size and optional diced pork fat only if selected. Never combine both scallop-size rows. All mushroom and chestnut quantities refer to their prepared state. Refrigerate waiting filling.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 5,
+        "text": "Form open cups: Use Thin round siu-mai wrappers to hold approximately 2 tbsp filling per original-size dumpling, reducing the scoop only enough for the chosen wrapper to support it. Press the wrapper into an open cup with a flat base. Use all the prepared filling; the listed wrapper range and piece yield are approximate planning counts. Keep wrapper size and scoop similar when scaling, using additional trays/racks.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 6,
+        "text": "Distribute carrots: Divide all Carrots across the dumpling tops and press gently into the filling. Arrange in lined steamer racks with space between dumplings; keep uncooked waiting batches refrigerated.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 7,
+        "text": "Steam and check each rack: Bring Water below the steamer basket to a boil below the basket without touching the dumplings. Cover and maintain steam, ensuring the pot does not boil dry. Begin checking fresh dumplings after about 8–10 minutes. Use a thin-tip thermometer in the center of several larger fillings on every rack; continue until each checked filling reaches 165°F /74°C and the wrappers are cooked. Check upper racks independently. Lift the lid away from you and protect hands from steam; repeat in batches as needed.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 8,
+        "text": "Serve or freeze: Serve hot with Chili oil (if using) separately if desired. For make-ahead dumplings, freeze uncooked shumai promptly in a single layer and pack once firm. Steam from frozen without thawing, beginning checks after about 9–10 minutes and allowing longer as needed with the same multiple-center, every-rack 165°F checks.",
+        "reference": "exactChanges.content.after"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Tapioca starch or peanut oil",
+      "alternative": "The same listed amount of cornstarch or canola oil respectively",
+      "effect": "Use the selected alternative once; the full filling water and measured sesame oil remain separate."
+    },
+    {
+      "ingredient": "Wine-seasoned filling variation",
+      "alternative": "For the original batch, use 1/2 lb pork, 1/2 lb shrimp, 1/2 cup finely minced chestnuts and 2/3 cup shiitakes measured after soaking, draining and chopping; use 1 tbsp cornstarch, 1 tbsp oyster sauce, 1 tbsp Shaoxing wine, 1 tsp toasted sesame oil, 1/2 tsp white pepper and 1 tsp sugar. Use 25–30 prepared siu-mai wrappers and 1/4 cup finely diced carrots. Scale every variation ingredient with the chosen batch factor while keeping wrapper size and filling scoop similar. Omit the rich filling’s water, peanut/canola oil, ginger, scallions, kosher salt, optional scallops and optional extra pork fat.",
+      "effect": "Replace mixing steps 2–4: combine the pork, chopped shrimp, cornstarch, oyster sauce, Shaoxing wine, sesame oil, white pepper and sugar; stir until sticky, then fold in the prepared chestnuts and mushrooms. Keep the filling cold. Shape with the original approximately 1 1/2 tbsp scoop, reducing it only enough to fit the wrapper, and use all the filling. Divide all the carrots over the tops and cook with the same rack-specific 165°F checks. The retained 1/4-cup goji topping option needs its product and preparation established before selecting it; use the carrot topping until then."
+    },
+    {
+      "ingredient": "Water chestnuts in the rich filling",
+      "alternative": "If unavailable, omit them from the rich filling without adding a replacement ingredient.",
+      "effect": "The filling will have less chestnut crunch. Keep all other listed rich-route amounts, use all the prepared filling and adjust the wrapper count to what can be filled; retain the same every-rack 165°F checks. This option does not change the separate wine-seasoned variation."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["steamed-broccoli"],
+    "dependencies": [
+      "Prepared thin round siu-mai wrappers; no requirement to make the linked square wonton-wrapper recipe.",
+      "Hydrated, drained, chopped shiitakes and optional refrigerated-soaked/shredded scallops must be ready before assembly. No broth is an ingredient or required serving component of this recipe."
+    ],
+    "mealAmounts": "Side suggestions remain separate; no unrecorded broth/wrapper yield conversion",
+    "incomingMeals": [
+      {
+        "slug": "dim-sum-feast",
+        "status": "pending separate whole-meal review",
+        "note": "Dim Sum Feast is separately pending: its common 8–10-minute steam clock does not establish every Shumai/Har Gow filling or rack endpoint. Its 90-minute prep/30-minute cooking plan does not include the optional refrigerated scallop soak or establish shared basket capacity, ingredient states or portions. Preserve the linked meal and require separate whole-meal review rather than inheriting acceptance from the dumpling recipe."
+      }
+    ]
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "25 pieces",
+    "scope": "Retained planning claim; no weighed yield or kitchen test",
+    "capacity": [
+      "For the original batch, measure 2/3 cup mushrooms after hydrating, draining and chopping. At any batch size, measure the listed prepared amount. Mushroom/scallop soaking water and steamer water are separate from the measured filling water.",
+      "The original 25-shumai yield and 25–30 wrappers are source planning claims. Keep the original wrapper diameter and mound size when scaling; use additional racks/batches and check each rack rather than multiplying the steam clock.",
+      "Optional dried scallops need a refrigerated soak at 40°F /4°C or below for at least 4 hours or overnight, until soft enough to shred. Allow that soaking time before assembly; it is additional to the ready-ingredient schedule.",
+      "The optional small and large dried-scallop rows are exclusive choices. Choose one size or neither; never add both. Both counts scale independently, but shopping lists display both optional rows rather than automatically choosing a size."
+    ],
+    "timing": "About 75–100 minutes with already hydrated mushrooms, including roughly 60–75 minutes active preparation and 15–25 minutes heat-up/steam batches. Optional scallop or mushroom soaking is additional; frozen cooking takes longer and remains endpoint-led.",
+    "scaling": "Authored version-1 formula compiles the ingredient list, 25-piece original planning yield and all numbered Directions together. Independent ingredient/range/yield arithmetic and cooking/shopping views pass .25/.5/1/1.5/2/3/reset; both optional scallop counts scale with distinct keys and the method requires one size or neither. Wrapper size, scoop, temperature and per-rack checks remain fixed; more batches change elapsed time."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "1/8 lb Ground pork (80/20)",
+        "3/8 tbsp Tapioca starch or cornstarch",
+        "0.0625 cup Water for filling",
+        "3/8 tbsp Peanut or canola oil",
+        "1/8 tbsp Toasted sesame oil",
+        "1/8 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1/8 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "1/6 cup Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "1/4 tbsp Fresh ginger, minced",
+        "0.0625 cup Scallions, sliced",
+        "1/2 tbsp Oyster sauce",
+        "1/4 tsp Kosher salt",
+        "1/4 tsp Sugar",
+        "1/8 tsp White pepper",
+        "1 1/2–2 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "1/2 Large dried scallop (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "6 1/4–7 1/2 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "0.0625 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "6 1/4 pieces",
+      "shopping": [
+        "1/8 lb Ground pork (80/20)",
+        "3/8 tbsp Tapioca starch or cornstarch",
+        "3/8 tbsp Peanut or canola oil",
+        "1/8 tbsp Toasted sesame oil",
+        "1/8 lb Raw shrimp",
+        "1/8 cup Water chestnuts",
+        "1/6 cup Shiitake mushrooms",
+        "1/4 tbsp Fresh ginger",
+        "0.0625 cup Scallions",
+        "1/2 tbsp Oyster sauce",
+        "1/4 tsp Kosher salt",
+        "1/4 tsp Sugar",
+        "1/8 tsp White pepper",
+        "1 1/2–2 Small dried scallops (choose one scallop size only), optional",
+        "1/2 Large dried scallop (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "6 1/4–7 1/2 Thin round siu-mai wrappers",
+        "0.0625 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "1/4 lb Ground pork (80/20)",
+        "3/4 tbsp Tapioca starch or cornstarch",
+        "1/8 cup Water for filling",
+        "3/4 tbsp Peanut or canola oil",
+        "1/4 tbsp Toasted sesame oil",
+        "1/4 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1/4 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "1/3 cup Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "1/2 tbsp Fresh ginger, minced",
+        "1/8 cup Scallions, sliced",
+        "1 tbsp Oyster sauce",
+        "1/2 tsp Kosher salt",
+        "1/2 tsp Sugar",
+        "1/4 tsp White pepper",
+        "3–4 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "1 Large dried scallop (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "12 1/2–15 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "1/8 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "12 1/2 pieces",
+      "shopping": [
+        "1/4 lb Ground pork (80/20)",
+        "3/4 tbsp Tapioca starch or cornstarch",
+        "3/4 tbsp Peanut or canola oil",
+        "1/4 tbsp Toasted sesame oil",
+        "1/4 lb Raw shrimp",
+        "1/4 cup Water chestnuts",
+        "1/3 cup Shiitake mushrooms",
+        "1/2 tbsp Fresh ginger",
+        "1/8 cup Scallions",
+        "1 tbsp Oyster sauce",
+        "1/2 tsp Kosher salt",
+        "1/2 tsp Sugar",
+        "1/4 tsp White pepper",
+        "3–4 Small dried scallops (choose one scallop size only), optional",
+        "1 Large dried scallop (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "12 1/2–15 Thin round siu-mai wrappers",
+        "1/8 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "1/2 lb Ground pork (80/20)",
+        "1 1/2 tbsp Tapioca starch or cornstarch",
+        "1/4 cup Water for filling",
+        "1 1/2 tbsp Peanut or canola oil",
+        "1/2 tbsp Toasted sesame oil",
+        "1/2 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1/2 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "2/3 cup Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "1 tbsp Fresh ginger, minced",
+        "1/4 cup Scallions, sliced",
+        "2 tbsp Oyster sauce",
+        "1 tsp Kosher salt",
+        "1 tsp Sugar",
+        "1/2 tsp White pepper",
+        "6–8 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "2 Large dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "25–30 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "1/4 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "25 pieces",
+      "shopping": [
+        "1/2 lb Ground pork (80/20)",
+        "1 1/2 tbsp Tapioca starch or cornstarch",
+        "1 1/2 tbsp Peanut or canola oil",
+        "1/2 tbsp Toasted sesame oil",
+        "1/2 lb Raw shrimp",
+        "1/2 cup Water chestnuts",
+        "2/3 cup Shiitake mushrooms",
+        "1 tbsp Fresh ginger",
+        "1/4 cup Scallions",
+        "2 tbsp Oyster sauce",
+        "1 tsp Kosher salt",
+        "1 tsp Sugar",
+        "1/2 tsp White pepper",
+        "6–8 Small dried scallops (choose one scallop size only), optional",
+        "2 Large dried scallops (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "25–30 Thin round siu-mai wrappers",
+        "1/4 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "3/4 lb Ground pork (80/20)",
+        "2 1/4 tbsp Tapioca starch or cornstarch",
+        "3/8 cup Water for filling",
+        "2 1/4 tbsp Peanut or canola oil",
+        "3/4 tbsp Toasted sesame oil",
+        "3/4 lb Raw shrimp, peeled, deveined and finely chopped",
+        "3/4 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "1 cup Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "1 1/2 tbsp Fresh ginger, minced",
+        "3/8 cup Scallions, sliced",
+        "3 tbsp Oyster sauce",
+        "1 1/2 tsp Kosher salt",
+        "1 1/2 tsp Sugar",
+        "3/4 tsp White pepper",
+        "9–12 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "3 Large dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "37 1/2–45 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "3/8 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "37 1/2 pieces",
+      "shopping": [
+        "3/4 lb Ground pork (80/20)",
+        "2 1/4 tbsp Tapioca starch or cornstarch",
+        "2 1/4 tbsp Peanut or canola oil",
+        "3/4 tbsp Toasted sesame oil",
+        "3/4 lb Raw shrimp",
+        "3/4 cup Water chestnuts",
+        "1 cup Shiitake mushrooms",
+        "1 1/2 tbsp Fresh ginger",
+        "3/8 cup Scallions",
+        "3 tbsp Oyster sauce",
+        "1 1/2 tsp Kosher salt",
+        "1 1/2 tsp Sugar",
+        "3/4 tsp White pepper",
+        "9–12 Small dried scallops (choose one scallop size only), optional",
+        "3 Large dried scallops (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "37 1/2–45 Thin round siu-mai wrappers",
+        "3/8 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "1 lb Ground pork (80/20)",
+        "3 tbsp Tapioca starch or cornstarch",
+        "1/2 cup Water for filling",
+        "3 tbsp Peanut or canola oil",
+        "1 tbsp Toasted sesame oil",
+        "1 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "1 1/3 cups Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "2 tbsp Fresh ginger, minced",
+        "1/2 cup Scallions, sliced",
+        "4 tbsp Oyster sauce",
+        "2 tsp Kosher salt",
+        "2 tsp Sugar",
+        "1 tsp White pepper",
+        "12–16 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "4 Large dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "50–60 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "1/2 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "50 pieces",
+      "shopping": [
+        "1 lb Ground pork (80/20)",
+        "3 tbsp Tapioca starch or cornstarch",
+        "3 tbsp Peanut or canola oil",
+        "1 tbsp Toasted sesame oil",
+        "1 lb Raw shrimp",
+        "1 cup Water chestnuts",
+        "1 1/3 cups Shiitake mushrooms",
+        "2 tbsp Fresh ginger",
+        "1/2 cup Scallions",
+        "4 tbsp Oyster sauce",
+        "2 tsp Kosher salt",
+        "2 tsp Sugar",
+        "1 tsp White pepper",
+        "12–16 Small dried scallops (choose one scallop size only), optional",
+        "4 Large dried scallops (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "50–60 Thin round siu-mai wrappers",
+        "1/2 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "1 1/2 lb Ground pork (80/20)",
+        "4 1/2 tbsp Tapioca starch or cornstarch",
+        "3/4 cup Water for filling",
+        "4 1/2 tbsp Peanut or canola oil",
+        "1 1/2 tbsp Toasted sesame oil",
+        "1 1/2 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1 1/2 cups Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "2 cups Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "3 tbsp Fresh ginger, minced",
+        "3/4 cup Scallions, sliced",
+        "6 tbsp Oyster sauce",
+        "3 tsp Kosher salt",
+        "3 tsp Sugar",
+        "1 1/2 tsp White pepper",
+        "18–24 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "6 Large dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "75–90 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "3/4 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "75 pieces",
+      "shopping": [
+        "1 1/2 lb Ground pork (80/20)",
+        "4 1/2 tbsp Tapioca starch or cornstarch",
+        "4 1/2 tbsp Peanut or canola oil",
+        "1 1/2 tbsp Toasted sesame oil",
+        "1 1/2 lb Raw shrimp",
+        "1 1/2 cups Water chestnuts",
+        "2 cups Shiitake mushrooms",
+        "3 tbsp Fresh ginger",
+        "3/4 cup Scallions",
+        "6 tbsp Oyster sauce",
+        "3 tsp Kosher salt",
+        "3 tsp Sugar",
+        "1 1/2 tsp White pepper",
+        "18–24 Small dried scallops (choose one scallop size only), optional",
+        "6 Large dried scallops (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "75–90 Thin round siu-mai wrappers",
+        "3/4 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Rich filling and carrot topping ---",
+        "1/2 lb Ground pork (80/20)",
+        "1 1/2 tbsp Tapioca starch or cornstarch",
+        "1/4 cup Water for filling",
+        "1 1/2 tbsp Peanut or canola oil",
+        "1/2 tbsp Toasted sesame oil",
+        "1/2 lb Raw shrimp, peeled, deveined and finely chopped",
+        "1/2 cup Water chestnuts, finely minced; peel and rinse fresh chestnuts before chopping",
+        "2/3 cup Shiitake mushrooms, measured after soaking dried mushrooms, draining, removing tough stems and chopping",
+        "1 tbsp Fresh ginger, minced",
+        "1/4 cup Scallions, sliced",
+        "2 tbsp Oyster sauce",
+        "1 tsp Kosher salt",
+        "1 tsp Sugar",
+        "1/2 tsp White pepper",
+        "6–8 Small dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing large scallops, optional",
+        "2 Large dried scallops (choose one scallop size only), refrigerator-soaked until shreddable, drained and shredded; omit if choosing small scallops, optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "25–30 Thin round siu-mai wrappers, about 3¼ inches across; original size stays fixed when scaling",
+        "1/4 cup Carrots, finely diced",
+        "Chili oil, for serving if desired, optional",
+        "--- Separate preparation and steamer water ---",
+        "Water for soaking mushrooms, as needed",
+        "Water for soaking optional scallops, as needed if using, optional",
+        "Water below the steamer basket, as needed to maintain steam without touching dumplings"
+      ],
+      "yield": "25 pieces",
+      "shopping": [
+        "1/2 lb Ground pork (80/20)",
+        "1 1/2 tbsp Tapioca starch or cornstarch",
+        "1 1/2 tbsp Peanut or canola oil",
+        "1/2 tbsp Toasted sesame oil",
+        "1/2 lb Raw shrimp",
+        "1/2 cup Water chestnuts",
+        "2/3 cup Shiitake mushrooms",
+        "1 tbsp Fresh ginger",
+        "1/4 cup Scallions",
+        "2 tbsp Oyster sauce",
+        "1 tsp Kosher salt",
+        "1 tsp Sugar",
+        "1/2 tsp White pepper",
+        "6–8 Small dried scallops (choose one scallop size only), optional",
+        "2 Large dried scallops (choose one scallop size only), optional",
+        "Finely diced pork back fat or fat from pork belly, a few tablespoons if desired, optional",
+        "25–30 Thin round siu-mai wrappers",
+        "1/4 cup Carrots",
+        "Chili oil, for serving if desired, optional"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Preserve the frozen165°F steam endpoint, distinct reduced-wine ingredients and source-credit/round-wrapper/peeled-water-chestnut/rack-check notes. The frozen Shumai method has steaming only. Restored water, neutral oil, ginger, scallions, salt, larger starch/oyster/sesame and optional scallops/backfat are proposed rich-source restorations, not quantities already present in the frozen primary."
+  ],
+  "remainingQuestions": [
+    "Independent editor must challenge exact source-rich restoration versus fully retained current variant; no inferred household approval.",
+    "Clarify goji product/preparation for the existing alternate garnish before selecting it.",
+    "Confirm measured hydrated-mushroom volume, wrapper count, rack loads and final filling texture.",
+    "Record kosher-salt crystal brand; retain teaspoon without guessed weight."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

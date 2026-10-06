@@ -1,0 +1,634 @@
+{
+  "slug": "corn-shrimp-dumplings",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "b601d0362bad4b754dcabbf439ac99d3dfeb986ea4247dd95c600025ab1ce05a",
+  "acceptedSourceSha256": "3af52e042830aaceb972bb05dc7bb66417c9f0bb2e1622990caf38b1b057d361",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "40 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–20 min, depending on batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "50 min",
+      "after": "About 40–65 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "1 ear Fresh Corn, kernels cut off the cob",
+        "2 Scallions, minced",
+        "2 tsp Fresh Ginger, minced",
+        "2 tsp Garlic, minced",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp White Pepper",
+        "20 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping"
+      ],
+      "after": [
+        "1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "1 ear Fresh Corn, kernels cut off the cob",
+        "2 Scallions, minced",
+        "2 tsp Fresh Ginger, minced",
+        "2 tsp Garlic, minced",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp White Pepper",
+        "20 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 35,
+        "protein": 5.5,
+        "carbs": 1.5,
+        "fat": 1,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 140
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook the corn-shrimp filling in either complete dumpling route",
+        "outcome": "Tender wrappers around fully cooked shrimp and sweet corn, using either the steam or boil route.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "The original 20-dumpling count assumes small round wrappers and roughly 1 tbsp filling. Keep wrapper size and filling scoop similar when scaling, use the listed scaled count as a guide and have extras if the chosen wrappers require smaller scoops. Do not force overflowing dumplings to reach an exact count.",
+          "Choose steaming OR boiling for each batch. Thin round gyoza or siu-mai wrappers are wheat-based and can be tender without becoming translucent.",
+          "Keep chopped raw shrimp and waiting assembled dumplings refrigerated; freeze promptly in a single layer if making ahead."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Several larger fillings on each steamer rack reach 165°F; wrappers are tender.",
+            "why": "Wheat or egg wrappers can be cooked and tender without becoming translucent."
+          },
+          {
+            "step": 5,
+            "cue": "Several boiled fillings reach 165°F before draining.",
+            "why": "The alternate boiled route needs the same endpoint as the steamed route; flotation alone is insufficient."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wrappers split or leak filling",
+            "cause": "Overfilling, trapped air, a dry sealing edge or overcrowded cooking batches",
+            "fix": "Reduce the filling scoop enough to seal the chosen wrapper, press out air and keep wrappers covered while working. Cook manageable batches with room to move; check filling temperature rather than relying on flotation."
+          }
+        ],
+        "substitutions": [],
+        "timing": "Plan about 40–65 minutes for a batch with ready-made wrappers, roughly 30–45 minutes active preparation and 10–20 minutes cooking including batches/heat-up. Frozen dumplings need longer to heat than fresh; use the same filling endpoint rather than the fresh first-check clock.",
+        "storage": "Keep raw filling and waiting uncooked dumplings refrigerated at 40°F /4°C or below, bringing out small wrapping batches. Use clean utensils and plates for cooked dumplings. When making ahead, freeze uncooked dumplings promptly in a single layer on a lined tray, then transfer once firm to an airtight freezer container. Assembly does not restart the storage clock of the raw meat or seafood. Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C; use within 3–4 days and reheat to 165°F /74°C throughout.",
+        "sources": [
+          {
+            "title": "Food & Wine — Corn-Shrimp Dumplings",
+            "url": "http://www.foodandwine.com/recipes/corn-shrimp-dumplings"
+          },
+          {
+            "title": "FDA Food Code — filled pasta cooking endpoint",
+            "url": "https://www.fda.gov/media/194741/download"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCorn and shrimp dumplings are a modern dim sum creation showcasing summer sweetness. The key to bouncy texture: stir the shrimp mixture vigorously in one direction for 2 minutes before adding the corn. This develops the protein structure that gives the filling its characteristic snap. Fresh corn kernels provide sweet crunch that contrasts beautifully with the savory shrimp. These freeze well for make-ahead entertaining.\n\n## Directions\n\n1.  **The Paste:** In a large bowl, combine the chopped shrimp, scallions, ginger, garlic, sesame oil, and white pepper. Stir **vigorously in one direction** for 2 minutes until the mixture is sticky and pale.\n2.  **Add Snap:** Fold in the fresh corn kernels.\n3.  **Shape:** Place a wrapper in your palm. Spoon 1 tbsp of filling into the center. Moisten the edges with water. Fold into a half-moon and pleat the edges to seal tightly.\n4.  **Steam:** Place in a bamboo steamer lined with parchment. Steam over boiling water for 4-5 minutes until the internal temp is 165°F and the wrappers are translucent.\n5.  **Option (Boil):** Alternatively, drop into boiling water for 3 minutes until they float.\n6.  **Serve:** Serve immediately with a side of soy sauce and [quick Pickled Red Onions](/mise/recipes/pickled-red-onions) or chili oil.\n",
+    "after": "\n## Chef's Note\n\nFresh corn gives these shrimp dumplings sweetness and crunch. The key to bouncy texture: stir the shrimp mixture vigorously in one direction for 2 minutes before adding the corn. This develops the protein structure that gives the filling its characteristic snap. Fresh corn kernels provide sweet crunch that contrasts with the savory shrimp. Freeze uncooked dumplings promptly if making them ahead.\n\nKeep waiting raw filling and assembled dumplings refrigerated, working with small batches and clean serving utensils.\n\n## Directions\n\n1.  **The Paste:** In a large bowl, combine the chopped shrimp, scallions, ginger, garlic, sesame oil, white pepper and the filling kosher-salt allowance. Stir **vigorously in one direction** for 2 minutes until the mixture is sticky and pale. If checking the salt level, cook a small flattened tester in a nonstick skillet to 165°F /74°C and taste only after it is fully cooked; use a clean utensil for any adjustment to the remaining filling.\n2.  **Add Snap:** Fold in the fresh corn kernels.\n3.  **Shape:** Place a wrapper in your palm. Use the original approximately 1 tbsp filling scoop, adjusting only enough to seal the chosen wrapper; spoon the filling into the center. Moisten the edges with water. Fold into a half-moon and pleat the edges to seal tightly.\n4.  **Steam:** Place in a bamboo steamer lined with parchment. Leave space between dumplings and steam covered over boiling water, keeping the basket above the water and checking that the pot does not boil dry. Begin checking after 4–5 minutes; check several larger fillings with a thin-tip thermometer and continue until each reaches 165°F /74°C. The wrappers should be cooked and tender; gyoza or egg wrappers need not become translucent. Check each rack and repeat batches as needed.\n5.  **Option (Boil):** Alternatively, bring a separate pot of water to a boil and add uncrowded batches. Stir gently to prevent sticking, then maintain a gentle boil. Begin checking after about 3 minutes and continue until several larger filling centers measure 165°F /74°C; floating alone is not a doneness test. Drain with a slotted spoon and serve.\n6.  **Serve:** Serve immediately with a side of soy sauce and [quick Pickled Red Onions](/mise/recipes/pickled-red-onions) or chili oil.\n"
+  },
+  "findings": [
+    {
+      "id": "DUMP-corn-shrimp-dumplings-0",
+      "title": "whole formula, states and destinations",
+      "rationale": "Return exact original kosher-salt allowance omitted ind65d0891 while preserving the newer measured sesame oil and white pepper additions.\nFix alternate boil float-only endpoint and incompatible wheat-wrapper translucency promise without rewriting full recipe quantities.\nWater and existing optional pickled-onion serving allowance are explicit ledger items; no guessed quantity. Preserve soy/chili options and both routes.",
+      "confidence": "High for exact retained amounts and history; restorations are proposals requiring independent challenge",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual count with available wrappers and ear size.",
+        "Confirm frozen cooking texture; no tested from-frozen time supplied."
+      ]
+    },
+    {
+      "id": "DUMP-corn-shrimp-dumplings-1",
+      "title": "whole method, endpoints and scaling",
+      "rationale": "Keep every published cold/165°F/multiple-center repair; make preparation, component allocation, selected method and original count/capacity context executable.",
+      "confidence": "High for endpoints and arithmetic; moderate for untested planning times",
+      "applicableSources": [
+        {
+          "title": "FDA Food Code — filled pasta cooking endpoint",
+          "url": "https://www.fda.gov/media/194741/download"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        "privately retained evidence"
+      ],
+      "sourceApplicability": "FDA165°F applies to meat/seafood-filled pasta, not ingredient substitutions. FoodCode is retail model guidance rather than a claim of home law or zero risk. USDA applies to cooked leftovers; raw preparation does not reset ingredient storage clocks.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm actual count with available wrappers and ear size.",
+        "Confirm frozen cooking texture; no tested from-frozen time supplied."
+      ]
+    },
+    {
+      "id": "DUMP-corn-shrimp-dumplings-2",
+      "title": "unestablished nutrition",
+      "rationale": "Inherited automated estimate has no established full formula/yield calculation; no replacement nutrition precision invented.",
+      "confidence": "High",
+      "applicableSources": ["Complete ingredient and yield ledger"],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "DUMP-corn-shrimp-dumplings-3",
+      "title": "Authorized v2 source/record precision",
+      "rationale": "The exact saved native and first Git recipe have the Food & Wine source credit and complete corn/shrimp formula but no country-of-origin statement. The retained China field enters 2a7f3853’s bulk metadata pass. Source retrieval remains unavailable; the later unsourced “modern dim sum creation” introduction is not independent geographic evidence.,Preserve Chinese cuisine/style, title, full defining corn/shrimp/oil/pepper formula, all routes, source credit/URL and pairings. This does not claim a different origin or remove useful dim-sum style. Root should omit this field unless it supplies applicable geographic evidence for this particular recipe. No metadata changes are proposed for the held Boston source in this review.",
+      "confidence": "High for exact retained source/field fidelity; source counts and clocks remain untested planning estimates.",
+      "applicableSources": [
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "ce77a44ba4460474c015acf8870ec2609eb9473b9c347b10f8dc0474f66952be",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Actual full followed Git source history",
+          "path": "privately retained evidence",
+          "sha256": "e4ccf83b9f6402d72c76e22219dc2e72f3428b8d0f32701db7239dc849b11048",
+          "applicability": "Complete history matches actual Git bytes at the frozen commit. Establishes recorded changes, not household taste approval or kitchen testing."
+        },
+        {
+          "title": "Actual review and public cooking presentation contract",
+          "path": "docs/RECIPE_STANDARD.md",
+          "sha256": "c54a765043d24fcfe3f72e5f7f3c5f1ae19590dca0a469ec95132eaf46e89b19",
+          "applicability": "Preserve exact source/family variants and use recipe-specific cooking prose. Review provenance belongs in records."
+        },
+        {
+          "title": "Food & Wine — attributed Corn-Shrimp Dumplings",
+          "url": "http://www.foodandwine.com/recipes/corn-shrimp-dumplings",
+          "applicability": "Direct retrieval failed again; not certified current publisher evidence. Exact durable saved source is available. The URL alone cannot establish a country origin."
+        }
+      ],
+      "sourceApplicability": [null],
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Root can retain the country only if it has additional explicit applicable origin evidence. No replacement country is invented."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/corn-shrimp-dumplings.md",
+    "introductionScope": "Earliest followed canonical recipe cooking source in retained independent proof; earlier cooking HTML not reconciled in this legacy frozen packet.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Return exact original kosher-salt allowance omitted ind65d0891 while preserving the newer measured sesame oil and white pepper additions.",
+    "Fix alternate boil float-only endpoint and incompatible wheat-wrapper translucency promise without rewriting full recipe quantities.",
+    "Water and existing optional pickled-onion serving allowance are explicit ledger items; no guessed quantity. Preserve soy/chili options and both routes."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "destinationOrQuestion": "Step1 all½lb choppedshrimp"
+      },
+      {
+        "row": 2,
+        "ingredient": "1 ear Fresh Corn, kernels cut off the cob",
+        "destinationOrQuestion": "Step2 entireear kernels"
+      },
+      {
+        "row": 3,
+        "ingredient": "2 Scallions, minced",
+        "destinationOrQuestion": "Step1 bothscallions"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 tsp Fresh Ginger, minced",
+        "destinationOrQuestion": "Step1 ginger"
+      },
+      {
+        "row": 5,
+        "ingredient": "2 tsp Garlic, minced",
+        "destinationOrQuestion": "Step1 garlic"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tsp Toasted Sesame Oil",
+        "destinationOrQuestion": "Step1 sesame"
+      },
+      {
+        "row": 7,
+        "ingredient": "1/2 tsp White Pepper",
+        "destinationOrQuestion": "Step1 whitepepper"
+      },
+      {
+        "row": 8,
+        "ingredient": "20 Gyoza or Siu Mai Wrappers",
+        "destinationOrQuestion": "Step3 listedwrappers acrossfullfilling"
+      },
+      {
+        "row": 9,
+        "ingredient": "Soy Sauce and Chili Oil for dipping",
+        "destinationOrQuestion": "Step6 dippingsoy/chili allowances"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "ingredient": "1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "destination": "Step1 all½lb choppedshrimp"
+      },
+      {
+        "row": 2,
+        "ingredient": "1 ear Fresh Corn, kernels cut off the cob",
+        "destination": "Step2 entireear kernels"
+      },
+      {
+        "row": 3,
+        "ingredient": "2 Scallions, minced",
+        "destination": "Step1 bothscallions"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 tsp Fresh Ginger, minced",
+        "destination": "Step1 ginger"
+      },
+      {
+        "row": 5,
+        "ingredient": "2 tsp Garlic, minced",
+        "destination": "Step1 garlic"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tsp Toasted Sesame Oil",
+        "destination": "Step1 sesame"
+      },
+      {
+        "row": 7,
+        "ingredient": "1/2 tsp White Pepper",
+        "destination": "Step1 whitepepper"
+      },
+      {
+        "row": 8,
+        "ingredient": "20 Gyoza or Siu Mai Wrappers",
+        "destination": "Step3 listedwrappers acrossfullfilling"
+      },
+      {
+        "row": 9,
+        "ingredient": "Soy Sauce and Chili Oil for dipping",
+        "destination": "Step6 dippingsoy/chili allowances"
+      },
+      {
+        "row": 10,
+        "ingredient": "Kosher Salt, to taste, for the filling",
+        "destination": "Step1 originalkosher salt allowance"
+      },
+      {
+        "row": 11,
+        "ingredient": "Water, for sealing wrappers and steaming or boiling dumplings",
+        "destination": "Step3 seal/step4steamORstep5boil water"
+      },
+      {
+        "row": 12,
+        "ingredient": "Quick Pickled Red Onions, for serving, optional",
+        "destination": "Step6 optionalpickledonion servingallowance"
+      }
+    ],
+    "variants": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "The Paste: In a large bowl, combine the chopped shrimp, scallions, ginger, garlic, sesame oil, and white pepper. Stir vigorously in one direction for 2 minutes until the mixture is sticky and pale.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 2,
+        "text": "Add Snap: Fold in the fresh corn kernels.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 3,
+        "text": "Shape: Place a wrapper in your palm. Spoon 1 tbsp of filling into the center. Moisten the edges with water. Fold into a half-moon and pleat the edges to seal tightly.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 4,
+        "text": "Steam: Place in a bamboo steamer lined with parchment. Steam over boiling water for 4-5 minutes until the internal temp is 165°F and the wrappers are translucent.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 5,
+        "text": "Option (Boil): Alternatively, drop into boiling water for 3 minutes until they float.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Serve immediately with a side of soy sauce and quick Pickled Red Onions or chili oil.",
+        "reference": "current source full content"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "The Paste: In a large bowl, combine the chopped shrimp, scallions, ginger, garlic, sesame oil, white pepper and the filling kosher-salt allowance. Stir vigorously in one direction for 2 minutes until the mixture is sticky and pale. If checking the salt level, cook a small flattened tester in a nonstick skillet to 165°F /74°C and taste only after it is fully cooked; use a clean utensil for any adjustment to the remaining filling.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 2,
+        "text": "Add Snap: Fold in the fresh corn kernels.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 3,
+        "text": "Shape: Place a wrapper in your palm. Use the original approximately 1 tbsp filling scoop, adjusting only enough to seal the chosen wrapper; spoon the filling into the center. Moisten the edges with water. Fold into a half-moon and pleat the edges to seal tightly.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 4,
+        "text": "Steam: Place in a bamboo steamer lined with parchment. Leave space between dumplings and steam covered over boiling water, keeping the basket above the water and checking that the pot does not boil dry. Begin checking after 4–5 minutes; check several larger fillings with a thin-tip thermometer and continue until each reaches 165°F /74°C. The wrappers should be cooked and tender; gyoza or egg wrappers need not become translucent. Check each rack and repeat batches as needed.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 5,
+        "text": "Option (Boil): Alternatively, bring a separate pot of water to a boil and add uncrowded batches. Stir gently to prevent sticking, then maintain a gentle boil. Begin checking after about 3 minutes and continue until several larger filling centers measure 165°F /74°C; floating alone is not a doneness test. Drain with a slotted spoon and serve.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Serve immediately with a side of soy sauce and quick Pickled Red Onions or chili oil.",
+        "reference": "exactChanges.content.after"
+      }
+    ]
+  },
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["smashed-cucumber-salad", "steamed-broccoli"],
+    "dependencies": [
+      "Prepared small round gyoza or siu-mai wrappers; no required square scratch-wonton-wrapper recipe or Cantonese broth.",
+      "Optional linked Quick Pickled Red Onions are a separate serving preparation with its own timing; no quantity or finished yield conversion is certified."
+    ],
+    "mealAmounts": "Side suggestions remain separate; no unrecorded broth/wrapper yield conversion"
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "20 dumplings",
+    "scope": "Retained planning claim; no weighed yield or kitchen test",
+    "capacity": [
+      "The original 20-dumpling count assumes small round wrappers and roughly 1 tbsp filling. Keep wrapper size and filling scoop similar when scaling, use the listed scaled count as a guide and have extras if the chosen wrappers require smaller scoops. Do not force overflowing dumplings to reach an exact count.",
+      "Choose steaming OR boiling for each batch. Thin round gyoza or siu-mai wrappers are wheat-based and can be tender without becoming translucent.",
+      "Keep chopped raw shrimp and waiting assembled dumplings refrigerated; freeze promptly in a single layer if making ahead. The saved one-month freezer recommendation is an untested publisher quality estimate, not a safety guarantee."
+    ],
+    "timing": "Plan about 40–65 minutes for a batch with ready-made wrappers, roughly 30–45 minutes active preparation and 10–20 minutes cooking including batches/heat-up. Frozen dumplings need longer to heat than fresh; use the same filling endpoint rather than the fresh first-check clock.",
+    "scaling": "Existing legacy ingredient controls and scaling overrides preserved; original scoop/skin size and batch endpoint govern method, not proportional timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "1/8 lb Shrimp, peeled, deveined, and finely chopped",
+        "1/4 ear Fresh Corn, kernels cut off the cob",
+        "1/2 Scallion, minced",
+        "1/2 tsp Fresh Ginger, minced",
+        "1/2 tsp Garlic, minced",
+        "1/4 tsp Toasted Sesame Oil",
+        "1/8 tsp White Pepper",
+        "5 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "1/4 lb Shrimp, peeled, deveined, and finely chopped",
+        "1/2 ear Fresh Corn, kernels cut off the cob",
+        "1 Scallion, minced",
+        "1 tsp Fresh Ginger, minced",
+        "1 tsp Garlic, minced",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/4 tsp White Pepper",
+        "10 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "1 ear Fresh Corn, kernels cut off the cob",
+        "2 Scallions, minced",
+        "2 tsp Fresh Ginger, minced",
+        "2 tsp Garlic, minced",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp White Pepper",
+        "20 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "3/4 lb Shrimp, peeled, deveined, and finely chopped",
+        "1 1/2 ear Fresh Corn, kernels cut off the cob",
+        "3 Scallions, minced",
+        "3 tsp Fresh Ginger, minced",
+        "3 tsp Garlic, minced",
+        "1 1/2 tsp Toasted Sesame Oil",
+        "3/4 tsp White Pepper",
+        "30 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "1 lb Shrimp, peeled, deveined, and finely chopped",
+        "2 ear Fresh Corn, kernels cut off the cob",
+        "4 Scallions, minced",
+        "4 tsp Fresh Ginger, minced",
+        "4 tsp Garlic, minced",
+        "2 tsp Toasted Sesame Oil",
+        "1 tsp White Pepper",
+        "40 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "1 1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "3 ear Fresh Corn, kernels cut off the cob",
+        "6 Scallions, minced",
+        "6 tsp Fresh Ginger, minced",
+        "6 tsp Garlic, minced",
+        "3 tsp Toasted Sesame Oil",
+        "1 1/2 tsp White Pepper",
+        "60 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1/2 lb Shrimp, peeled, deveined, and finely chopped",
+        "1 ear Fresh Corn, kernels cut off the cob",
+        "2 Scallions, minced",
+        "2 tsp Fresh Ginger, minced",
+        "2 tsp Garlic, minced",
+        "1 tsp Toasted Sesame Oil",
+        "1/2 tsp White Pepper",
+        "20 Gyoza or Siu Mai Wrappers",
+        "Soy Sauce and Chili Oil for dipping",
+        "Kosher Salt, to taste, for the filling",
+        "Water, for sealing wrappers and steaming or boiling dumplings",
+        "Quick Pickled Red Onions, for serving, optional"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Existing measured richer ingredients, both available methods and any165°F endpoint"
+  ],
+  "remainingQuestions": [
+    "Confirm actual count with available wrappers and ear size.",
+    "Confirm frozen cooking texture; no tested from-frozen time supplied."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

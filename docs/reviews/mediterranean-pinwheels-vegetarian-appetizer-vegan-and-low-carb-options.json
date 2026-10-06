@@ -1,0 +1,340 @@
+{
+  "slug": "mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "74edc4d1fc228860d0e0418e0089bfbc437472a1b7238cd8ce0dc827f191ca48",
+  "acceptedSourceSha256": "440b49a164aa5ca86286e4a4232b2e595b939643299d695c956d05404d3d76f5",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "0 min",
+      "after": "Spinach cooking, as directed by its package"
+    },
+    {
+      "field": "totalTime",
+      "before": "15 min",
+      "after": "About 45 min, plus spinach cooking and cooling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "6 large Spinach or Sun-dried Tomato Tortillas",
+        "8 oz Cream Cheese, softened",
+        "2 tbsp Oil (reserved from sun-dried tomato jar)",
+        "2 cloves Garlic, minced",
+        "6 oz Sun-dried Tomatoes in oil, chopped",
+        "10 oz Frozen Spinach, thawed and squeezed bone-dry",
+        "1/4 cup Grated Parmesan",
+        "1/3 cup Feta Cheese, crumbled",
+        "1 cup Fresh Basil leaves"
+      ],
+      "after": [
+        "6 large Spinach or Sun-dried Tomato Tortillas",
+        "8 oz Cream Cheese, softened",
+        "2 tbsp Oil (reserved from sun-dried tomato jar)",
+        "2 cloves Garlic, minced",
+        "6 oz Sun-dried Tomatoes in oil, chopped",
+        "10 oz frozen spinach, cooked according to its package, cooled, squeezed dry and chopped",
+        "1/4 cup Grated Parmesan",
+        "1/3 cup Feta Cheese, crumbled",
+        "1 cup Fresh Basil leaves",
+        "Salt and black pepper, optional, to taste in the cream cheese spread"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 75,
+        "protein": 2.5,
+        "carbs": 5,
+        "fat": 5.5,
+        "fiber": 1,
+        "sugar": 1,
+        "sodium": 150
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook and cool the spinach, then divide the full filling before rolling.",
+        "outcome": "Chilled tortilla spirals with all three cheeses, tomato, spinach and basil.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Cook the spinach as directed on the actual package, then cool it before adding cream cheese.",
+          "Keep the same tortilla size and layer thickness as the batch grows. Use more tortillas following the list, not thicker overfilled rolls."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Every tortilla has a share of the full spread, spinach, tomatoes, cheeses and basil.",
+            "why": "Dividing before assembly avoids leaving the last tortillas bare or omitting measured cheese."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The tortillas become soggy and slip while slicing.",
+            "cause": "Cooked spinach retained water or the rolls were sliced before their cold rest.",
+            "fix": "Squeeze cooled spinach dry before layering and refrigerate the wrapped rolls for at least 30 minutes before using a serrated knife."
+          }
+        ],
+        "timing": "Allow about 45 minutes for preparation and the 30-minute roll chill, plus the actual spinach cooking and cooling. The actual package and cooling load govern the extra time.",
+        "storage": "Refrigerate promptly at 40°F or below, in shallow covered containers. Count preparation and serving time together; discard perishable food left out over 2 hours, or 1 hour above 90°F. The publisher’s overnight refrigerated make-ahead plan remains available; keep rolls wrapped and slice near service.",
+        "sources": [
+          {
+            "title": "Domestic Superhero — Mediterranean pinwheels",
+            "url": "https://domesticsuperhero.com/mediterranean-pinwheels-vegetarian-appetizer/"
+          },
+          {
+            "title": "FDA — Cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Garlic and spinach preparation",
+            "alternative": "For the original six-tortilla batch, use the source 2 tbsp minced garlic instead of the main 2 cloves, and 10–12 oz frozen spinach, cooked according to its package, cooled, squeezed dry and chopped instead of the main 10 oz. Keep all other full main amounts. Blend a small portion of the listed basil with the cream cheese, garlic, tomato portion and full 2 tbsp tomato-jar oil; use the remaining basil in the rolls. Add the source pinch of salt and black pepper to taste. Scale the chosen amounts with the batch and retain the same cooling, portioning, rolling and cold-service steps.",
+            "effect": "This separate source route does not equate minced-garlic volume with clove count or add its spinach to the main supply."
+          },
+          {
+            "ingredient": "Vegan and tortilla options",
+            "alternative": "For the vegan route, replace the full listed cream cheese and Parmesan amounts with vegan counterparts, omit the feta, and use tortillas labeled vegan. Plain flour tortillas are also a separate option using the same listed count of large tortillas. For the lower-carb tortilla route, use the same listed count of suitable large tortillas. Follow the same complete spinach preparation, spread, assembly and refrigeration steps.",
+            "effect": "The main three-cheese formula stays intact; these are exclusive publisher substitutions, with actual labels and tortilla size governing suitability."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese quick appetizers or lunch components require proper technique to avoid falling apart. Blending cream cheese with flavored oil from sun-dried tomatoes creates a tacky, flavor-rich spread that binds the fillings to the tortilla. Squeeze spinach until bone-dry - wet spinach makes tortillas soggy and causes rolls to unravel.\n\n## Directions\n\n1.  **The Bind:** In a food processor, blend cream cheese, garlic, a few sun-dried tomatoes, and 2 tbsp of the tomato oil until completely smooth.\n2.  **Prep:** Lay out the 6 tortillas. Spread a thick, even layer of the cream cheese mixture over each, leaving a 1/2-inch border at the top.\n3.  **Layer:** Scatter the chopped spinach, remaining sun-dried tomatoes, Parmesan, and feta over the cream cheese. Place a single line of fresh basil leaves across the center of each tortilla.\n4.  **The Roll:** Starting from the edge parallel to the basil, roll the tortilla **very tightly**, squeezing gently as you go to ensure the \"Emulsion\" binds the layers.\n5.  **The Finish:** Wrap each log tightly in plastic wrap and **refrigerate for at least 30 minutes** (mandatory for clean slicing).\n6.  **Cut:** Using a sharp serrated knife, slice into 1-inch pinwheels.\n",
+    "after": "\n## Chef's Note\n\nCook and cool the spinach before squeezing it dry: residual water can soak the tortillas. The full cream cheese and tomato-jar oil make the spread; divide all the cheeses and vegetables across the tortillas so the last rolls have the same filling as the first. Refrigerating the rolled tortillas before slicing makes them easier to cut.\n\n## Directions\n\n1. **Prepare spinach:** Cook all the spinach according to the actual package instructions. Spread it shallowly and refrigerate promptly to cool before cold assembly, then squeeze small handfuls to remove water and chop. Wash the basil under running water and dry it.\n2. **Mix spread:** In a food processor, blend all the softened cream cheese, all the listed minced garlic, a portion of the chopped tomatoes and all the measured tomato-jar oil until combined, scraping the bowl as needed. Use the separate optional salt and pepper allowance if wanted. Reserve the remaining tomatoes for the rolls.\n3. **Divide and layer:** Set out the listed number of tortillas. Divide the full spread, spinach, remaining tomatoes, Parmesan, feta and basil among them. Spread the cream cheese mixture on each, leaving about a half-inch border; layer the spinach, tomatoes and cheeses, with basil in a line along the center.\n4. **Roll:** Start at an edge parallel to the basil line and roll firmly without tearing the tortilla. Wrap each roll and refrigerate for at least 30 minutes before slicing.\n5. **Cut and serve:** Use a serrated knife to cut about one-inch pieces, holding each roll gently. The original six-tortilla batch plans about 32 pieces; actual tortilla size and trimmed ends determine the count. Keep refrigerated until serving.\n"
+  },
+  "findings": [
+    {
+      "id": "ASR20-mediterranean-pinwheels-vegetarian-appetizer-vegan-and-low-carb-options",
+      "rationale": "Exact native,045 and current publisher explicitly specify cooked spinach; d330 bulk rewrite changes to thawed,2garliccloves/10oz and omits salt/pepper/blended basil, without established later explicit rejection. Restore source cooking state, full ingredient allocation and the existing30min chill in elapsed plan. Preserve current two-clove/10oz main, with complete separate saved garlic/spinach and publisher vegan/low-carb choices. No clove-volume, package clock, vegetarian rennet or exact32yield equivalence claimed. Measured core formula unchanged; legacy retained with preparation/allocation clarification and separate options.",
+      "confidence": "High exact input/source dose and lineage; moderate editorial capacity/clock/sensory applications, not kitchen-tested.",
+      "applicableSources": [
+        {
+          "title": "Domestic Superhero — Mediterranean pinwheels",
+          "url": "https://domesticsuperhero.com/mediterranean-pinwheels-vegetarian-appetizer/"
+        },
+        {
+          "title": "FDA — Cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Actual frozen-spinach package cooking/cooling time and tortilla dimensions govern the untested plan/count.",
+        "Current two-clove versus source2Tb garlic strength is a household choice, not a conversion.",
+        "For a vegetarian or vegan need, confirm the actual cheese rennet and product labels; no dose removal from the main."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Mediterranean%20Pinwheels%20-%20Vegetarian%20Appetizer%20(Vegan%20and%20Low%20Carb%20Options).html",
+    "introductionScope": "Actual retained earlier HTML cooking introduction; bound native name used only after exact registry/archive identity join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact native,045 and current publisher explicitly specify cooked spinach; d330 bulk rewrite changes to thawed,2garliccloves/10oz and omits salt/pepper/blended basil, without established later explicit rejection. Restore source cooking state, full ingredient allocation and the existing30min chill in elapsed plan. Preserve current two-clove/10oz main, with complete separate saved garlic/spinach and publisher vegan/low-carb choices. No clove-volume, package clock, vegetarian rennet or exact32yield equivalence claimed. Measured core formula unchanged; legacy retained with preparation/allocation clarification and separate options.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "6 large Spinach or Sun-dried Tomato Tortillas",
+        "destination": "Tortillas laid out and spread in frozen Directions 2, layered in 3, rolled in 4, wrapped/chilled in 5 and sliced in 6.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "8 oz Cream Cheese, softened",
+        "destination": "All current cream cheese blended in frozen Directions 1, then spread across tortillas in 2.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 tbsp Oil (reserved from sun-dried tomato jar)",
+        "destination": "The full listed 2 tbsp tomato-jar oil enters the frozen Directions 1 spread.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "All current 2 cloves garlic enter the frozen Directions 1 spread; the separate 2 tbsp source choice is not in this frozen method.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "6 oz Sun-dried Tomatoes in oil, chopped",
+        "destination": "A few chopped tomatoes enter the frozen Directions 1 spread; the remainder is layered in 3.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "10 oz Frozen Spinach, thawed and squeezed bone-dry",
+        "destination": "Frozen ingredient requires thawing/squeezing; chopped spinach is layered in frozen Directions 3. No package-cook/cool step appears in that frozen method.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Grated Parmesan",
+        "destination": "The listed Parmesan is scattered in frozen Directions 3.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/3 cup Feta Cheese, crumbled",
+        "destination": "The listed feta is scattered in frozen Directions 3; the complete separate vegan option is proposed later.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 cup Fresh Basil leaves",
+        "destination": "All listed basil is placed in a line in frozen Directions 3; that frozen spread omits the source basil-blending portion.",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "6 large Spinach or Sun-dried Tomato Tortillas",
+        "destination": "tortillas2→3 layer→4 roll→5 slice"
+      },
+      {
+        "ingredient": "8 oz Cream Cheese, softened",
+        "destination": "allcream2 spread"
+      },
+      {
+        "ingredient": "2 tbsp Oil (reserved from sun-dried tomato jar)",
+        "destination": "fulljar oil2 spread"
+      },
+      {
+        "ingredient": "2 cloves Garlic, minced",
+        "destination": "allcurrent2clove garlic2 spread; source2Tb exclusive"
+      },
+      {
+        "ingredient": "6 oz Sun-dried Tomatoes in oil, chopped",
+        "destination": "some tomatoes2 spread, remainder3"
+      },
+      {
+        "ingredient": "10 oz frozen spinach, cooked according to its package, cooled, squeezed dry and chopped",
+        "destination": "frozen thaw/squeeze only in frozen3; proposedcook/cool1→3"
+      },
+      {
+        "ingredient": "1/4 cup Grated Parmesan",
+        "destination": "fullParm3"
+      },
+      {
+        "ingredient": "1/3 cup Feta Cheese, crumbled",
+        "destination": "fullFeta3; omittedvegan"
+      },
+      {
+        "ingredient": "1 cup Fresh Basil leaves",
+        "destination": "fullbasil3; sourceportionblend2/rest3"
+      },
+      {
+        "ingredient": "Salt and black pepper, optional, to taste in the cream cheese spread",
+        "destination": "Separate optional seasoning2 spread"
+      }
+    ],
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare spinach: Cook all the spinach according to the actual package instructions. Spread it shallowly and refrigerate promptly to cool before cold assembly, then squeeze small handfuls to remove water and chop. Wash the basil under running water and dry it."
+    },
+    {
+      "step": 2,
+      "text": "Mix spread: In a food processor, blend all the softened cream cheese, all the listed minced garlic, a portion of the chopped tomatoes and all the measured tomato-jar oil until combined, scraping the bowl as needed. Use the separate optional salt and pepper allowance if wanted. Reserve the remaining tomatoes for the rolls."
+    },
+    {
+      "step": 3,
+      "text": "Divide and layer: Set out the listed number of tortillas. Divide the full spread, spinach, remaining tomatoes, Parmesan, feta and basil among them. Spread the cream cheese mixture on each, leaving about a half-inch border; layer the spinach, tomatoes and cheeses, with basil in a line along the center."
+    },
+    {
+      "step": 4,
+      "text": "Roll: Start at an edge parallel to the basil line and roll firmly without tearing the tortilla. Wrap each roll and refrigerate for at least 30 minutes before slicing."
+    },
+    {
+      "step": 5,
+      "text": "Cut and serve: Use a serrated knife to cut about one-inch pieces, holding each roll gently. The original six-tortilla batch plans about 32 pieces; actual tortilla size and trimmed ends determine the count. Keep refrigerated until serving."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "learning.substitutions",
+      "ingredient": "Garlic and spinach preparation",
+      "alternative": "For the original six-tortilla batch, use the source 2 tbsp minced garlic instead of the main 2 cloves, and 10–12 oz frozen spinach, cooked according to its package, cooled, squeezed dry and chopped instead of the main 10 oz. Keep all other full main amounts. Blend a small portion of the listed basil with the cream cheese, garlic, tomato portion and full 2 tbsp tomato-jar oil; use the remaining basil in the rolls. Add the source pinch of salt and black pepper to taste. Scale the chosen amounts with the batch and retain the same cooling, portioning, rolling and cold-service steps.",
+      "effect": "This separate source route does not equate minced-garlic volume with clove count or add its spinach to the main supply."
+    },
+    {
+      "reference": "learning.substitutions",
+      "ingredient": "Vegan and tortilla options",
+      "alternative": "For the vegan route, replace the full listed cream cheese and Parmesan amounts with vegan counterparts, omit the feta, and use tortillas labeled vegan. Plain flour tortillas are also a separate option using the same listed count of large tortillas. For the lower-carb tortilla route, use the same listed count of suitable large tortillas. Follow the same complete spinach preparation, spread, assembly and refrigeration steps.",
+      "effect": "The main three-cheese formula stays intact; these are exclusive publisher substitutions, with actual labels and tortilla size governing suitability."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "charred-asparagus-with-parmesan",
+      "everyday-arugula-salad",
+      "garlic-butter-couscous"
+    ],
+    "scope": "All existing pairings preserved. No incoming composed-meal reference found; pairings do not certify linked components."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "All current full measured doses and existing ingredient controls preserved; options exclusive as written.",
+    "yield": "32 pinwheels",
+    "capacity": "Original cut sizes remain fixed; sufficient uncrowded vessels, no invented dimensions or load certification.",
+    "timing": "Allow about 45 minutes for preparation and the 30-minute roll chill, plus the actual spinach cooking and cooling. The actual package and cooling load govern the extra time."
+  },
+  "preservedPriorRepairs": "Current full-rich formula/identity/pairings protected.",
+  "remainingQuestions": [
+    "Actual frozen-spinach package cooking/cooling time and tortilla dimensions govern the untested plan/count.",
+    "Current two-clove versus source2Tb garlic strength is a household choice, not a conversion.",
+    "For a vegetarian or vegan need, confirm the actual cheese rennet and product labels; no dose removal from the main."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

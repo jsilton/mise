@@ -1,0 +1,365 @@
+{
+  "slug": "roasted-fall-harvest-salad",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "0771574a2dcfa8bb3e724d096c1c1524a0e210eaf360889618c681694bc6938a",
+  "acceptedSourceSha256": "18611a0104c62e12482376de9910d21d98e8509fabb324495441f957f08f6e57",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "1 can (15 oz) Chickpeas, patted bone-dry",
+        "200 g Honeynut or Butternut Squash, seeded and cubed",
+        "1/2 cup Dry Quinoa",
+        "70 g Dino Kale, stems removed and chopped",
+        "1 tsp Cumin + 1 tsp Coriander",
+        "1/2 tsp Cinnamon + 1/2 tsp Cayenne",
+        "1/4 cup Tahini",
+        "1/4 cup Fresh Lemon Juice",
+        "3 tbsp Apple Cider",
+        "1 tbsp Maple Syrup",
+        "1/4 cup Toasted Pepitas",
+        "1/4 cup Golden Raisins, optional",
+        "Olive Oil, as needed for roasting and massaging kale",
+        "Kosher Salt, to taste"
+      ],
+      "after": [
+        "1 can (15 oz) Chickpeas, patted bone-dry",
+        "200 g Honeynut or Butternut Squash, seeded and cubed",
+        "1/2 cup Dry Quinoa",
+        "70 g Dino Kale, stems removed and chopped",
+        "1 tsp Cumin + 1 tsp Coriander",
+        "1/2 tsp Cinnamon + 1/2 tsp Cayenne",
+        "1/4 cup Tahini",
+        "1/4 cup Fresh Lemon Juice",
+        "3 tbsp Apple Cider",
+        "1 tbsp Maple Syrup",
+        "1/4 cup Toasted Pepitas",
+        "1/4 cup Golden Raisins, optional",
+        "Olive Oil, as needed for roasting and massaging kale",
+        "Kosher Salt, to taste",
+        "1 cup water, for cooking quinoa",
+        "Additional unsweetened apple cider, optional, to thin dressing"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep drinking cider distinct from vinegar and reserve dressing for serving.",
+        "outcome": "Tender squash and quinoa with spiced chickpeas, kale and the full tahini dressing.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "The listed 200 g squash is prepared from a larger squash, not a whole large butternut. Keep similar cubes at every scale and use enough uncrowded sheet pans.",
+          "Use unsweetened apple cider, not apple-cider vinegar. The water is a separate quinoa supply, preserving the existing one-part grain/two-part water method."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Quinoa is tender without a hard core, before its covered rest.",
+            "why": "Liquid absorption alone can happen before the actual product is tender."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The chickpeas soften before serving.",
+            "cause": "Dressing and moisture from the vegetables coated them early.",
+            "fix": "Keep the roasted chickpeas separate until the final topping step, and serve remaining dressing alongside."
+          }
+        ],
+        "timing": "Allow roughly 50 minutes for the parallel preparation/roast/quinoa plan, including the 10-minute covered quinoa rest; actual product cooking or additional trays may take longer.",
+        "storage": "Refrigerate promptly at 40°F or below, in shallow covered containers. Count preparation and serving time together; discard perishable food left out over 2 hours, or 1 hour above 90°F. The publisher’s refrigerated four-day make-ahead plan applies to promptly cooled salad. Keep unused dressing cold separately; if reheating stored portions, reach 165°F with the time depending on portion depth.",
+        "sources": [
+          {
+            "title": "Yasmeen Ali — Fall harvest salad",
+            "url": "https://munchingwithmariyah.com/roasted-fall-harvest-salad/"
+          },
+          {
+            "title": "USDA — Leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fuller seasoning and fruit choice",
+            "alternative": "For the original batch, keep the main 200 g squash, half-cup dry quinoa, 70 g kale, quarter-cup tahini, quarter-cup lemon juice, 3 tbsp cider, 1 tbsp maple syrup and quarter-cup pepitas. For the separate source chickpea option, use one 13.4 oz can instead of the main 15 oz can; drain, rinse and dry it. Keep the main 1 tsp each cumin/coriander and half-teaspoon each cinnamon/cayenne, adding half-teaspoon each onion granules and garlic granules to the roasting mix. Add quarter-teaspoon each garlic granules, cayenne and cinnamon plus quarter-teaspoon kosher salt to the dressing; the remaining cooking and kale salt stays to taste. Use the optional quarter-cup chopped dates instead of raisins if wanted. Scale the chosen supplies proportionally, follow the same uncrowded roasting/quinoa/massage steps and add half the dressing before serving the remainder alongside.",
+            "effect": "The extra onion and garlic season the roasted vegetables; cinnamon and cayenne also season the dressing. Dates offer a different dried-fruit sweetness. Keep kosher salt in its stated form."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMassaging kale with olive oil and salt softens the leaves and reduces their bulk. Roasting well-dried chickpeas and squash at 450°F gives the chickpeas browned, crisp edges that contrast fluffy quinoa and soft roasted squash. Apple cider in the tahini dressing adds tangy brightness that balances the earthy quinoa and sweet squash.\n\n## Directions\n\n1.  **Roast:** Preheat oven to 450°F. Drain and rinse the chickpeas, then dry them well. Toss chickpeas and squash with the cumin, coriander, cinnamon, cayenne, enough oil to coat lightly, and salt. Spread in one uncrowded layer on a metal sheet pan. Roast for 25-30 minutes, until the squash is tender and the chickpeas are browned with crisp edges; give them more time if needed.\n2.  **Quinoa:** Bring quinoa and twice its volume of water to a boil with a pinch of salt, then reduce the heat and simmer, partly covered, for 10-12 minutes until the water is absorbed. Let stand, covered, for 10 minutes (The Steam Cycle) for maximum fluff.\n3.  **Massage:** Place kale in a large bowl with a little oil and salt. **Massage for 2 minutes** until soft and dark green.\n4.  **Dress:** Whisk tahini, lemon juice, cider, and syrup until creamy.\n5.  **Assemble:** Toss kale with quinoa and half the dressing.\n6.  **Finish:** Top with the roasted chickpeas, squash, pepitas, and optional raisins. Serve the remaining dressing alongside, adding only as much as wanted.\n\n## Cooking Notes\n\nThe squash amount is a small portion of a larger butternut squash, not a whole large squash. Prepare the kale and dressing while the quinoa cooks and the vegetables roast. The stated batch serves four as a side. Chickpeas soften after dressing, so add them just before serving.\n",
+    "after": "\n## Chef's Note\n\nMassaging kale with olive oil and salt softens the leaves and reduces their bulk. Roasting well-dried chickpeas and squash at 450°F gives the chickpeas browned, crisp edges that contrast fluffy quinoa and soft roasted squash. Apple cider in the tahini dressing adds tangy brightness that balances the earthy quinoa and sweet squash.\n\n## Directions\n\n1.  **Roast:** Preheat oven to 450°F. Drain and rinse the chickpeas, then dry them well. Toss chickpeas and squash with the cumin, coriander, cinnamon, cayenne, enough oil to coat lightly, and salt. Spread in one uncrowded layer on a metal sheet pan. Roast for 25-30 minutes, until the squash is tender and the chickpeas are browned with crisp edges; give them more time if needed.\n2.  **Quinoa:** Bring all the quinoa and listed cooking water to a boil with a pinch of salt, then reduce the heat and simmer, partly covered, beginning to check at 10–12 minutes, until the water is absorbed and the grains are tender with no hard center; follow longer actual package instructions if needed. Let stand, covered, for 10 minutes before fluffing.\n3.  **Massage:** Place kale in a large bowl with a little oil and salt. **Massage for 2 minutes** until soft and dark green.\n4.  **Dress:** Whisk all the tahini, lemon juice, measured cider and syrup until creamy. If needed, add only the separate additional cider allowance a little at a time to loosen it. The original batch’s optional thinning guide is an additional 1–2 tbsp; scale that guide proportionally and add only as much as needed.\n5.  **Assemble:** Toss kale with quinoa and half the dressing.\n6.  **Finish:** Top with the roasted chickpeas, squash, pepitas, and optional raisins. Serve the remaining dressing alongside, adding only as much as wanted.\n\n## Cooking Notes\n\nThe squash amount is a small portion of a larger butternut squash, not a whole large squash. Prepare the kale and dressing while the quinoa cooks and the vegetables roast. The original batch plans four side portions; follow the listed portion count when scaling. Chickpeas soften after dressing, so add them just before serving.\n"
+  },
+  "findings": [
+    {
+      "id": "ASR20-roasted-fall-harvest-salad",
+      "rationale": "Allee9c7078 current safety/pan/yield/toppings repairs and full main amounts preserved. Exact native/current publisher confirm drinking apple cider, not vinegar; no generic acid addition. Existing1:2 quinoa-water method is now an explicit water row, not invented hydration. eab6 bulk omission of seasoning granules/dressing spices and optional dates is disclosed through a complete exclusive richer source option; the old targeted decision retained the current main, not a blanket source rejection. Publisher4day quality and reheat clock distinguished from applicable USDA cold/165 guidance. No exact prepared yield or source volume/gram equivalence certified.",
+      "confidence": "High exact input/source dose and lineage; moderate editorial capacity/clock/sensory applications, not kitchen-tested.",
+      "applicableSources": [
+        {
+          "title": "Yasmeen Ali — Fall harvest salad",
+          "url": "https://munchingwithmariyah.com/roasted-fall-harvest-salad/"
+        },
+        {
+          "title": "USDA — Leftover handling",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "origin", "learning", "content"],
+      "questions": [
+        "Which full seasoning/can route is preferred remains open; actual chickpea can draining output is unmeasured.",
+        "Actual squash cube/pan loading, quinoa brand and tenderness determine the clock.",
+        "The source older whole-apple dressing is a separate modern-publisher note, not a saved main replacement; no automatic adoption."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Roasted%20Fall%20Harvest%20Salad.html",
+    "introductionScope": "Actual retained earlier HTML cooking introduction; bound native name used only after exact registry/archive identity join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Allee9c7078 current safety/pan/yield/toppings repairs and full main amounts preserved. Exact native/current publisher confirm drinking apple cider, not vinegar; no generic acid addition. Existing1:2 quinoa-water method is now an explicit water row, not invented hydration. eab6 bulk omission of seasoning granules/dressing spices and optional dates is disclosed through a complete exclusive richer source option; the old targeted decision retained the current main, not a blanket source rejection. Publisher4day quality and reheat clock distinguished from applicable USDA cold/165 guidance. No exact prepared yield or source volume/gram equivalence certified.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 can (15 oz) Chickpeas, patted bone-dry",
+        "destination": "chickpeas1 drain/rinse/dry roast→6",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "200 g Honeynut or Butternut Squash, seeded and cubed",
+        "destination": "squash1 roast→6",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/2 cup Dry Quinoa",
+        "destination": "quinoa2→5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "70 g Dino Kale, stems removed and chopped",
+        "destination": "kale3→5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 tsp Cumin + 1 tsp Coriander",
+        "destination": "bothspices1 roast",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/2 tsp Cinnamon + 1/2 tsp Cayenne",
+        "destination": "bothspices1 roast",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Tahini",
+        "destination": "tahini4 full dress→half5/remainder6",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Fresh Lemon Juice",
+        "destination": "lemon4 dress",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "3 tbsp Apple Cider",
+        "destination": "cider4 dress",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 tbsp Maple Syrup",
+        "destination": "maple4 dress",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Toasted Pepitas",
+        "destination": "pepitas6",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Golden Raisins, optional",
+        "destination": "optionalraisins6",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Olive Oil, as needed for roasting and massaging kale",
+        "destination": "roast oil1/massage3 genuineallowance",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Kosher Salt, to taste",
+        "destination": "salt1/2/3 taste allowance",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 can (15 oz) Chickpeas, patted bone-dry",
+        "destination": "chickpeas1 drain/rinse/dry roast→6"
+      },
+      {
+        "ingredient": "200 g Honeynut or Butternut Squash, seeded and cubed",
+        "destination": "squash1 roast→6"
+      },
+      {
+        "ingredient": "1/2 cup Dry Quinoa",
+        "destination": "quinoa2→5"
+      },
+      {
+        "ingredient": "70 g Dino Kale, stems removed and chopped",
+        "destination": "kale3→5"
+      },
+      {
+        "ingredient": "1 tsp Cumin + 1 tsp Coriander",
+        "destination": "bothspices1 roast"
+      },
+      {
+        "ingredient": "1/2 tsp Cinnamon + 1/2 tsp Cayenne",
+        "destination": "bothspices1 roast"
+      },
+      {
+        "ingredient": "1/4 cup Tahini",
+        "destination": "tahini4 full dress→half5/remainder6"
+      },
+      {
+        "ingredient": "1/4 cup Fresh Lemon Juice",
+        "destination": "lemon4 dress"
+      },
+      {
+        "ingredient": "3 tbsp Apple Cider",
+        "destination": "cider4 dress"
+      },
+      {
+        "ingredient": "1 tbsp Maple Syrup",
+        "destination": "maple4 dress"
+      },
+      {
+        "ingredient": "1/4 cup Toasted Pepitas",
+        "destination": "pepitas6"
+      },
+      {
+        "ingredient": "1/4 cup Golden Raisins, optional",
+        "destination": "optionalraisins6"
+      },
+      {
+        "ingredient": "Olive Oil, as needed for roasting and massaging kale",
+        "destination": "roast oil1/massage3 genuineallowance"
+      },
+      {
+        "ingredient": "Kosher Salt, to taste",
+        "destination": "salt1/2/3 taste allowance"
+      },
+      {
+        "ingredient": "1 cup water, for cooking quinoa",
+        "destination": "Full measured cooking water2, absorbed or evaporated during quinoa cooking"
+      },
+      {
+        "ingredient": "Additional unsweetened apple cider, optional, to thin dressing",
+        "destination": "Dress: Whisk all the tahini, lemon juice, measured cider and syrup until creamy. If needed, add only the separate additional cider allowance a little at a time to loosen it. The original batch’s optional thinning guide is an additional 1–2 tbsp; scale that guide proportionally and add only as much as needed."
+      }
+    ],
+    "frozenMethodOnly": [
+      "Quinoa twice-volume water2; exactoriginal1cup forhalfcuppreparedry",
+      "Salttoquinoa2"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Roast: Preheat oven to 450°F. Drain and rinse the chickpeas, then dry them well. Toss chickpeas and squash with the cumin, coriander, cinnamon, cayenne, enough oil to coat lightly, and salt. Spread in one uncrowded layer on a metal sheet pan. Roast for 25-30 minutes, until the squash is tender and the chickpeas are browned with crisp edges; give them more time if needed."
+    },
+    {
+      "step": 2,
+      "text": "Quinoa: Bring all the quinoa and listed cooking water to a boil with a pinch of salt, then reduce the heat and simmer, partly covered, beginning to check at 10–12 minutes, until the water is absorbed and the grains are tender with no hard center; follow longer actual package instructions if needed. Let stand, covered, for 10 minutes before fluffing."
+    },
+    {
+      "step": 3,
+      "text": "Massage: Place kale in a large bowl with a little oil and salt. Massage for 2 minutes until soft and dark green."
+    },
+    {
+      "step": 4,
+      "text": "Dress: Whisk all the tahini, lemon juice, measured cider and syrup until creamy. If needed, add only the separate additional cider allowance a little at a time to loosen it. The original batch’s optional thinning guide is an additional 1–2 tbsp; scale that guide proportionally and add only as much as needed."
+    },
+    {
+      "step": 5,
+      "text": "Assemble: Toss kale with quinoa and half the dressing."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Top with the roasted chickpeas, squash, pepitas, and optional raisins. Serve the remaining dressing alongside, adding only as much as wanted."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "learning.substitutions",
+      "ingredient": "Fuller seasoning and fruit choice",
+      "alternative": "For the original batch, keep the main 200 g squash, half-cup dry quinoa, 70 g kale, quarter-cup tahini, quarter-cup lemon juice, 3 tbsp cider, 1 tbsp maple syrup and quarter-cup pepitas. For the separate source chickpea option, use one 13.4 oz can instead of the main 15 oz can; drain, rinse and dry it. Keep the main 1 tsp each cumin/coriander and half-teaspoon each cinnamon/cayenne, adding half-teaspoon each onion granules and garlic granules to the roasting mix. Add quarter-teaspoon each garlic granules, cayenne and cinnamon plus quarter-teaspoon kosher salt to the dressing; the remaining cooking and kale salt stays to taste. Use the optional quarter-cup chopped dates instead of raisins if wanted. Scale the chosen supplies proportionally, follow the same uncrowded roasting/quinoa/massage steps and add half the dressing before serving the remainder alongside.",
+      "effect": "The extra onion and garlic season the roasted vegetables; cinnamon and cayenne also season the dressing. Dates offer a different dried-fruit sweetness. Keep kosher salt in its stated form."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "herb-marinated-pork-tenderloins",
+      "one-pan-citrus-beets-roasted-chicken",
+      "garlic-butter-roasted-salmon-with-potatoes-and-asparagus"
+    ],
+    "scope": "All existing pairings preserved. No incoming composed-meal reference found; pairings do not certify linked components."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "All current full measured doses and existing ingredient controls preserved; options exclusive as written.",
+    "yield": "4",
+    "capacity": "Original cut sizes remain fixed; sufficient uncrowded vessels, no invented dimensions or load certification.",
+    "timing": "Allow roughly 50 minutes for the parallel preparation/roast/quinoa plan, including the 10-minute covered quinoa rest; actual product cooking or additional trays may take longer."
+  },
+  "preservedPriorRepairs": "ee9c7078 measured squash/kale/seeds/raisins, uncrowded metalpan, four-side context, optional remaining dressing, and full current spices/can preserved.",
+  "remainingQuestions": [
+    "Which full seasoning/can route is preferred remains open; actual chickpea can draining output is unmeasured.",
+    "Actual squash cube/pan loading, quinoa brand and tenderness determine the clock.",
+    "The source older whole-apple dressing is a separate modern-publisher note, not a saved main replacement; no automatic adoption."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

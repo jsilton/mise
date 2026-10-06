@@ -1,0 +1,797 @@
+{
+  "slug": "classic-wonton-soup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "125718be0ab2d30493c160d80fb33411a90c7b688b9c93957cbd34d52cf53d5a",
+  "acceptedSourceSha256": "ea7af4c1bf5dcc6f8cb9ceed9758787843aec6fd61e29a9da80471be0a899a60",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["boil", "no-cook"],
+      "after": ["boil"]
+    },
+    {
+      "field": "prepTime",
+      "before": "30 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10-15 min",
+      "after": "About 10–20 min, depending on batches"
+    },
+    {
+      "field": "totalTime",
+      "before": "40-45 min with prepared broth and wrappers",
+      "after": "About 40–65 min with prepared broth and wrappers"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "300g Ground Pork",
+        "1 tsp Ginger, minced",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "1 tsp Shaoxing Wine, for the filling",
+        "2 Scallions, finely chopped",
+        "3 tbsp Chicken Broth (as binder)",
+        "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1 liter prepared Wonton Broth (See note below)",
+        "2 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons"
+      ],
+      "after": [
+        "300g Ground Pork",
+        "1 tsp Ginger, minced",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "1 tsp Shaoxing Wine, for the filling",
+        "2 Scallions, finely chopped",
+        "3 tbsp Chicken Broth (as binder)",
+        "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1 liter prepared Wonton Broth (See note below)",
+        "2 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/4 tsp Salt, for the filling",
+        "1 pinch Ground White Pepper, for the filling"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 30,
+        "protein": 3,
+        "carbs": 3,
+        "fat": 0.5,
+        "fiber": 1,
+        "sugar": 0.5,
+        "sodium": 970
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Hydrate pork filling without spending the serving broth twice",
+        "outcome": "A sticky pork filling, intact tender wrappers and measured serving broth kept separate from the binder liquid.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "For the original batch, 3 tbsp binder broth is separate from 1 liter prepared serving broth. At any batch size, measure the listed finished serving broth after infusion and straining; the linked broth’s original 6 cups starting liquid does not promise a particular finished volume.",
+          "Use small roughly 3.5 inch wrappers for the original approximately 40-wonton planning count. Scale the listed count with the filling, but seal securely and have extras available; larger wrappers change the count.",
+          "Prepare scratch broth/wrappers before this schedule. Keep their source alternatives distinct rather than assuming a stock quantity or wrapper batch supplies the soup."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "All the measured binder broth is absorbed and the pork becomes sticky.",
+            "why": "That liquid hydrates the filling and is separate from the measured broth heated for serving."
+          },
+          {
+            "step": 4,
+            "cue": "Several fillings reach 165°F and bok choy stems are tender-crisp.",
+            "why": "Floating does not establish filling temperature, and whole bok choy stems take longer to soften than leaves."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wrappers split or leak filling",
+            "cause": "Overfilling, trapped air, a dry sealing edge or overcrowded cooking batches",
+            "fix": "Reduce the filling scoop enough to seal the chosen wrapper, press out air and keep wrappers covered while working. Cook manageable batches with room to move; check filling temperature rather than relying on flotation."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Ground pork",
+            "alternative": "The same listed amount of ground chicken, ground beef or minced raw shrimp",
+            "effect": "These alternatives change flavor and texture; keep the filled-dumpling 165°F endpoint and the rest of the filling allocation."
+          },
+          {
+            "ingredient": "Baby bok choy",
+            "alternative": "Other leafy greens, such as spinach or choy sum",
+            "effect": "Prepare and cook for their own tenderness; a quick leaf wilt does not establish a thick stalk’s doneness."
+          },
+          {
+            "ingredient": "Filling white pepper",
+            "alternative": "The same pinch of ground Sichuan pepper or five-spice powder",
+            "effect": "Use the same listed pinch amount in the filling, instead of its white pepper."
+          }
+        ],
+        "timing": "Allow about 40–65 minutes with prepared broth and wrappers; roughly 30–45 minutes is active preparation. More cooking batches or thicker wrappers can extend elapsed time. The wrapper count is approximate, and filling 165°F governs completion.",
+        "storage": "Keep raw filling and waiting uncooked dumplings refrigerated at 40°F /4°C or below, bringing out small wrapping batches. Use clean utensils and plates for cooked dumplings. When making ahead, freeze uncooked dumplings promptly in a single layer on a lined tray, then transfer once firm to an airtight freezer container. Assembly does not restart the storage clock of the raw meat or seafood. Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C; use within 3–4 days and reheat to 165°F /74°C throughout. Store soup broth separately and bring reheated soup to a rolling boil.",
+        "sources": [
+          {
+            "title": "Red House Spice — Wonton Soup",
+            "url": "https://redhousespice.com/pork-wonton-soup/"
+          },
+          {
+            "title": "FDA Food Code — filled pasta cooking endpoint",
+            "url": "https://www.fda.gov/media/194741/download"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCantonese wonton soup features delicate pork wontons in clear, aromatic broth. Stirring the pork filling vigorously in one direction until it becomes sticky and tacky is a traditional technique that ensures the filling stays cohesive during boiling.\n\n**The Broth:** This recipe relies on [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth). You can use high-quality chicken stock infused with ginger/scallion in a pinch. Broth and wrappers must be ready before starting; making either from scratch takes additional time. Allow longer if your pot requires several wonton batches.\n\n## Directions\n\n1.  **The Filling:** In a large bowl, whisk pork, scallions, ginger, soy, wine, and broth in one direction until sticky.\n2.  **Assemble:** Divide all the filling among the small wrappers, using only as much as each can seal securely; the count may vary with wrapper size. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a \"hat.\"\n3.  **The Base:** Bring the prepared broth to a boil in a separate saucepan, then keep it hot. In 4 serving bowls, add a few drops of sesame oil and white pepper to taste. Taste the prepared broth before adding salt; the linked broth is already seasoned.\n4.  **Boil:** Bring a large pot of water to a boil. Add wontons in uncrowded batches and stir gently to prevent sticking. Begin checking after 3-4 minutes; floating alone is not a doneness test. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue cooking until they reach 165°F / 74°C. Halve or quarter the bok choy lengthwise, rinse well, and cook it in the hot broth until its stems are tender-crisp; do not rely on 20 seconds for whole heads.\n5.  **Bind:** Bring the [Wonton Broth](/mise/recipes/cantonese-wonton-broth) back to a boil if needed. Ladle the hot broth into the serving bowls.\n6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and optional chili oil.\n",
+    "after": "\n## Chef's Note\n\nThis pork wonton soup features delicate pork wontons in clear, aromatic broth. Stirring the pork filling vigorously in one direction until it becomes sticky and tacky is a traditional technique that ensures the filling stays cohesive during boiling.\n\n**The Broth:** This recipe relies on [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth). You can use high-quality chicken stock infused with ginger/scallion in a pinch. Broth and wrappers must be ready before starting; making either from scratch takes additional time. Allow longer if your pot requires several wonton batches.\n\nKeep waiting raw filling and assembled dumplings refrigerated, working with small batches and clean serving utensils.\n\n## Directions\n\n1.  **The Filling:** In a large bowl, whisk pork, scallions, ginger, the filling soy and wine, all the measured binder broth, the filling salt and the filling white pepper in one direction until sticky.\n2.  **Assemble:** Divide all the filling among the small wrappers, using only as much as each can seal securely; the count may vary with wrapper size. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a \"hat.\"\n3.  **The Base:** Bring the prepared broth to a boil in a separate saucepan, then keep it hot. In the listed number of serving bowls, add a few drops of sesame oil and white pepper to taste; keep the broth in the saucepan until the bok choy is cooked and step 5 is ready. Taste the prepared broth before adding salt; the linked broth is already seasoned.\n4.  **Boil:** Bring a large pot of water to a boil. Add wontons in uncrowded batches and stir gently to prevent sticking. Begin checking after 3-4 minutes; floating alone is not a doneness test. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue cooking until they reach 165°F / 74°C. Halve or quarter the bok choy lengthwise, rinse well, and cook it in the hot broth until its stems are tender-crisp; do not rely on 20 seconds for whole heads. Cook uncooked wontons from frozen without thawing, in uncrowded batches in the same separate pot of water; allow longer than for fresh wontons and keep checking several filling centers to 165°F / 74°C and the wrappers for tenderness.\n5.  **Bind:** Bring the [Wonton Broth](/mise/recipes/cantonese-wonton-broth) back to a boil if needed. Ladle the hot broth into the serving bowls.\n6.  **Serve:** Transfer the wontons and bok choy to the bowls. Garnish with scallions and optional chili oil.\n"
+  },
+  "findings": [
+    {
+      "id": "DUMP-classic-wonton-soup-0",
+      "title": "whole formula, states and destinations",
+      "rationale": "Exact identity-bound native and the actual045e5ba2 introduction at src/content/recipes/wonton-soup.md include 1/4 tsp filling salt and one pinch filling white pepper. f6128211 removes those filling seasonings during its broad rewrite;799028b2 later renames that already shortened recipe to classic-wonton-soup.md. Full --follow history through the frozen input contains no individually established household acceptance of those omissions. Restoring the exact saved amounts remains a peer-pending proposal while all5741495b broth/binder/temperature/greens repairs remain protected.\nKeep5741495b prepared-broth/separate binder liquid, all-filling wrapping, multiple165°F and tender-stem repairs. Source scratch whole-chicken broth is not reauthored here because it has no measured water.",
+      "confidence": "High for exact retained amounts and history; restorations are proposals requiring independent challenge",
+      "applicableSources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Taste the restored¼tsp filling salt with the household light soy and chosen broth.",
+        "Confirm40-small-wrapper count and actual assembly time."
+      ]
+    },
+    {
+      "id": "DUMP-classic-wonton-soup-1",
+      "title": "whole method, endpoints and scaling",
+      "rationale": "Keep every published cold/165°F/multiple-center repair; make preparation, component allocation, selected method and original count/capacity context executable.",
+      "confidence": "High for endpoints and arithmetic; moderate for untested planning times",
+      "applicableSources": [
+        {
+          "title": "FDA Food Code — filled pasta cooking endpoint",
+          "url": "https://www.fda.gov/media/194741/download"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers cooling and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        "privately retained evidence"
+      ],
+      "sourceApplicability": "FDA165°F applies to meat/seafood-filled pasta, not ingredient substitutions. FoodCode is retail model guidance rather than a claim of home law or zero risk. USDA applies to cooked leftovers; raw preparation does not reset ingredient storage clocks.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Taste the restored¼tsp filling salt with the household light soy and chosen broth.",
+        "Confirm40-small-wrapper count and actual assembly time."
+      ]
+    },
+    {
+      "id": "DUMP-classic-wonton-soup-2",
+      "title": "unestablished nutrition",
+      "rationale": "Inherited automated estimate has no established full formula/yield calculation; no replacement nutrition precision invented.",
+      "confidence": "High",
+      "applicableSources": ["Complete ingredient and yield ledger"],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "DUMP-classic-wonton-soup-3",
+      "title": "Authorized v2 source/record precision",
+      "rationale": "The new scaling correction changes an unambiguous original bowl-seasoning instruction into “Divide among … bowls” immediately after the broth sentence. Its unstated object can be read as the full serving broth. Step 4 still needs that hot broth for the bok choy and step 5 still ladles it.,Restore the intended bowl-seasoning operation while retaining the scaled bowl reference. This does not spend the serving broth twice, alter the separate binder, add broth, or undo the accepted clean-water/165°F/stem-tenderness repair.\nThe candidate instructs cooks to freeze raw wontons, but does not say how to cook that retained make-ahead branch. The exact bound native, actual 045 introduction and directly reopened Red House recipe explicitly specify cooking uncooked wontons from frozen without defrosting. f6128211 removed that branch during the broad rewrite.,Preserve that source choice with the current repaired clean-water/thermometer procedure. No fixed extra minutes, thawing formula or return to the source flotation rule is justified. The cook remains responsible for multiple checked centers and cooked wrappers.\nThe corrected actual introduction, completeFollowHistory and canonicalOnlyHistory are accurate. The retained completeLaterHistory field still points to the old canonical-only file. That label remains false even though a second correct field now exists.,The complete followed artifact includes the pre-rename source, f612 omission and 799 rename; the canonical-only artifact omits that older path. The old canonical artifacts should stay under their explicitly historical/canonical-only labels; do not overwrite or erase them.\nBoth incoming meals were read whole. The existing relationships correctly describe wrappers/broth and sides but omit the incoming meal’s contrary clock/cooking route. This finding requests a record boundary and household question; it authorizes no meal edits and no recipe temperature or ingredient changes.",
+      "confidence": "High for exact retained source/field fidelity; source counts and clocks remain untested planning estimates.",
+      "applicableSources": [
+        {
+          "title": "Actual full followed Git source history",
+          "path": "privately retained evidence",
+          "sha256": "6005837c5baf1fc137b33aaa85c59256e19351c938a18564bea1954e721045a9",
+          "applicability": "Complete history matches actual Git bytes at the frozen commit. Establishes recorded changes, not household taste approval or kitchen testing."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "dd438d7f66539ae45674ac5fcb31ecd40df180cf271d238a77d78d3b27b0ff20",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Red House Spice by Wei Guo — Wonton Soup",
+          "url": "https://redhousespice.com/pork-wonton-soup/",
+          "applicability": "Directly reopened primary recipe corroborates filling seasonings, separate broth/wonton cooking, bowl-seasoning order and cooking frozen wontons without thawing. Current inherited 165°F and tender-stem repairs supersede source float-only/20-second cues."
+        },
+        {
+          "title": "Exact durable identity-bound saved cooking original",
+          "path": "privately retained evidence",
+          "sha256": "dd438d7f66539ae45674ac5fcb31ecd40df180cf271d238a77d78d3b27b0ff20",
+          "applicability": "Exact saved ingredient/method/notes evidence, independently bound in memory to the committed archive and current registry. This file is private; no identity values or images are copied to this report."
+        },
+        {
+          "title": "Actual full followed Git source history",
+          "path": "privately retained evidence",
+          "sha256": "6005837c5baf1fc137b33aaa85c59256e19351c938a18564bea1954e721045a9",
+          "applicability": "Complete history matches actual Git bytes at the frozen commit. Establishes recorded changes, not household taste approval or kitchen testing."
+        },
+        {
+          "title": "Red House Spice by Wei Guo — Wonton Soup",
+          "url": "https://redhousespice.com/pork-wonton-soup/",
+          "applicability": "Directly reopened primary recipe corroborates filling seasonings, separate broth/wonton cooking, bowl-seasoning order and cooking frozen wontons without thawing. Current inherited 165°F and tender-stem repairs supersede source float-only/20-second cues."
+        },
+        {
+          "title": "FDA Food Code 2026 §3-401.11(A)(3)",
+          "url": "https://www.fda.gov/media/194741/download",
+          "applicability": "Direct primary PDF supports instantaneous 165°F for stuffed pasta and meat/fish stuffing. Retail model guidance conservatively applied to these filled dumplings; not home law, formula authority, or a zero-risk guarantee."
+        },
+        {
+          "title": "Actual full followed Git source history",
+          "path": "privately retained evidence",
+          "sha256": "6005837c5baf1fc137b33aaa85c59256e19351c938a18564bea1954e721045a9",
+          "applicability": "Complete history matches actual Git bytes at the frozen commit. Establishes recorded changes, not household taste approval or kitchen testing."
+        },
+        {
+          "title": "Canonical-only retained artifact",
+          "path": "privately retained evidence",
+          "sha256": "16291215186bb2c2b87e4c92d0f5cebd0493a3a4aabf485aab340a1eabe71374",
+          "applicability": "Older path-only snapshot: valid canonical-path history, not the complete source lineage."
+        },
+        {
+          "title": "Independent exact Git/archive proof",
+          "path": "privately retained evidence",
+          "sha256": "63682e91f10a8f0f6bdf5cd1dbcfff02e75a1284710184e0ec9cb697b7e424b9",
+          "applicability": "Complete actual commit sets and artifact hashes; no identity values written."
+        },
+        {
+          "title": "Current composed meal",
+          "path": "src/content/meals/quick-wonton-soup-supper.md",
+          "sha256": "9a31f5e729415ccff8f90f021c04d501d9ad09b637a24afb68995af3142693c0",
+          "applicability": "Exact current relationship, stated component clock/state and cooking instructions; meal is not certified by this recipe review."
+        },
+        {
+          "title": "FDA Food Code 2026 §3-401.11(A)(3)",
+          "url": "https://www.fda.gov/media/194741/download",
+          "applicability": "Direct primary PDF supports instantaneous 165°F for stuffed pasta and meat/fish stuffing. Retail model guidance conservatively applied to these filled dumplings; not home law, formula authority, or a zero-risk guarantee."
+        }
+      ],
+      "sourceApplicability": [null, null, null, null],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm frozen wrapper texture and actual batch load; the report does not establish a tested from-frozen clock.",
+        "Root needs a separate whole-meal review before treating this linked meal as executable or accepted."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/wonton-soup.md",
+    "introductionScope": "Earliest followed canonical recipe cooking source in retained independent proof; earlier cooking HTML not reconciled in this legacy frozen packet.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact identity-bound native and the actual045e5ba2 introduction at src/content/recipes/wonton-soup.md include 1/4 tsp filling salt and one pinch filling white pepper. f6128211 removes those filling seasonings during its broad rewrite;799028b2 later renames that already shortened recipe to classic-wonton-soup.md. Full --follow history through the frozen input contains no individually established household acceptance of those omissions. Restoring the exact saved amounts remains a peer-pending proposal while all5741495b broth/binder/temperature/greens repairs remain protected.",
+    "Keep5741495b prepared-broth/separate binder liquid, all-filling wrapping, multiple165°F and tender-stem repairs. Source scratch whole-chicken broth is not reauthored here because it has no measured water."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "300g Ground Pork",
+        "destinationOrQuestion": "Step1 all300g pork; meat substitutions separately"
+      },
+      {
+        "row": 2,
+        "ingredient": "1 tsp Ginger, minced",
+        "destinationOrQuestion": "Step1 minced ginger"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 tbsp Light Soy Sauce, for the filling",
+        "destinationOrQuestion": "Step1 filling soy"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 tsp Shaoxing Wine, for the filling",
+        "destinationOrQuestion": "Step1 filling wine"
+      },
+      {
+        "row": 5,
+        "ingredient": "2 Scallions, finely chopped",
+        "destinationOrQuestion": "Step1 both chopped scallions; garnish allowance separate"
+      },
+      {
+        "row": 6,
+        "ingredient": "3 tbsp Chicken Broth (as binder)",
+        "destinationOrQuestion": "Step1 full3tbsp binder broth, separate from serving liter"
+      },
+      {
+        "row": 7,
+        "ingredient": "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "destinationOrQuestion": "Step2 small wrappers across all filling; count can vary"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 liter prepared Wonton Broth (See note below)",
+        "destinationOrQuestion": "Steps3–6 full1liter FINISHEDbroth"
+      },
+      {
+        "row": 9,
+        "ingredient": "2 heads Baby Bok Choy",
+        "destinationOrQuestion": "Step4 both babybok heads stems tendercrisp"
+      },
+      {
+        "row": 10,
+        "ingredient": "Sesame Oil and Scallions for garnish",
+        "destinationOrQuestion": "Steps3/6 sesame and scallion garnish allowances"
+      },
+      {
+        "row": 11,
+        "ingredient": "Salt and Ground White Pepper, to taste, for the broth",
+        "destinationOrQuestion": "Step3 broth salt/whitepepper allowance, after tasting"
+      },
+      {
+        "row": 12,
+        "ingredient": "Chili Oil, optional, for serving",
+        "destinationOrQuestion": "Step6 optionalchili"
+      },
+      {
+        "row": 13,
+        "ingredient": "Water, for sealing wrappers and boiling wontons",
+        "destinationOrQuestion": "Step2 sealing/step4 clean boiling water"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "ingredient": "300g Ground Pork",
+        "destination": "Step1 all300g pork; meat substitutions separately"
+      },
+      {
+        "row": 2,
+        "ingredient": "1 tsp Ginger, minced",
+        "destination": "Step1 minced ginger"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 tbsp Light Soy Sauce, for the filling",
+        "destination": "Step1 filling soy"
+      },
+      {
+        "row": 4,
+        "ingredient": "1 tsp Shaoxing Wine, for the filling",
+        "destination": "Step1 filling wine"
+      },
+      {
+        "row": 5,
+        "ingredient": "2 Scallions, finely chopped",
+        "destination": "Step1 both chopped scallions; garnish allowance separate"
+      },
+      {
+        "row": 6,
+        "ingredient": "3 tbsp Chicken Broth (as binder)",
+        "destination": "Step1 full3tbsp binder broth, separate from serving liter"
+      },
+      {
+        "row": 7,
+        "ingredient": "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "destination": "Step2 small wrappers across all filling; count can vary"
+      },
+      {
+        "row": 8,
+        "ingredient": "1 liter prepared Wonton Broth (See note below)",
+        "destination": "Steps3–6 full1liter FINISHEDbroth"
+      },
+      {
+        "row": 9,
+        "ingredient": "2 heads Baby Bok Choy",
+        "destination": "Step4 both babybok heads stems tendercrisp"
+      },
+      {
+        "row": 10,
+        "ingredient": "Sesame Oil and Scallions for garnish",
+        "destination": "Steps3/6 sesame and scallion garnish allowances"
+      },
+      {
+        "row": 11,
+        "ingredient": "Salt and Ground White Pepper, to taste, for the broth",
+        "destination": "Step3 broth salt/whitepepper allowance, after tasting"
+      },
+      {
+        "row": 12,
+        "ingredient": "Chili Oil, optional, for serving",
+        "destination": "Step6 optionalchili"
+      },
+      {
+        "row": 13,
+        "ingredient": "Water, for sealing wrappers and boiling wontons",
+        "destination": "Step2 sealing/step4 clean boiling water"
+      },
+      {
+        "row": 14,
+        "ingredient": "1/4 tsp Salt, for the filling",
+        "destination": "Step1 source¼tspFILLINGsalt"
+      },
+      {
+        "row": 15,
+        "ingredient": "1 pinch Ground White Pepper, for the filling",
+        "destination": "Step1 sourcepinchFILLINGwhitepepper"
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Ground pork",
+        "alternative": "The same listed amount of ground chicken, ground beef or minced raw shrimp",
+        "effect": "These alternatives change flavor and texture; keep the filled-dumpling 165°F endpoint and the rest of the filling allocation."
+      },
+      {
+        "ingredient": "Baby bok choy",
+        "alternative": "Other leafy greens, such as spinach or choy sum",
+        "effect": "Prepare and cook for their own tenderness; a quick leaf wilt does not establish a thick stalk’s doneness."
+      },
+      {
+        "ingredient": "Filling white pepper",
+        "alternative": "The same pinch of ground Sichuan pepper or five-spice powder",
+        "effect": "Use the same listed pinch amount in the filling, instead of its white pepper."
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "text": "The Filling: In a large bowl, whisk pork, scallions, ginger, soy, wine, and broth in one direction until sticky.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 2,
+        "text": "Assemble: Divide all the filling among the small wrappers, using only as much as each can seal securely; the count may vary with wrapper size. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a \"hat.\"",
+        "reference": "current source full content"
+      },
+      {
+        "step": 3,
+        "text": "The Base: Bring the prepared broth to a boil in a separate saucepan, then keep it hot. In 4 serving bowls, add a few drops of sesame oil and white pepper to taste. Taste the prepared broth before adding salt; the linked broth is already seasoned.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 4,
+        "text": "Boil: Bring a large pot of water to a boil. Add wontons in uncrowded batches and stir gently to prevent sticking. Begin checking after 3-4 minutes; floating alone is not a doneness test. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue cooking until they reach 165°F / 74°C. Halve or quarter the bok choy lengthwise, rinse well, and cook it in the hot broth until its stems are tender-crisp; do not rely on 20 seconds for whole heads.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 5,
+        "text": "Bind: Bring the Wonton Broth back to a boil if needed. Ladle the hot broth into the serving bowls.",
+        "reference": "current source full content"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Transfer the wontons and bok choy to the bowls. Garnish with scallions and optional chili oil.",
+        "reference": "current source full content"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "text": "The Filling: In a large bowl, whisk pork, scallions, ginger, the filling soy and wine, all the measured binder broth, the filling salt and the filling white pepper in one direction until sticky.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 2,
+        "text": "Assemble: Divide all the filling among the small wrappers, using only as much as each can seal securely; the count may vary with wrapper size. Wet the edges with water. Fold into a rectangle, then pinch the two corners together to form a \"hat.\"",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 3,
+        "text": "The Base: Bring the prepared broth to a boil in a separate saucepan, then keep it hot. In the listed number of serving bowls, add a few drops of sesame oil and white pepper to taste; keep the broth in the saucepan until the bok choy is cooked and step 5 is ready. Taste the prepared broth before adding salt; the linked broth is already seasoned.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 4,
+        "text": "Boil: Bring a large pot of water to a boil. Add wontons in uncrowded batches and stir gently to prevent sticking. Begin checking after 3-4 minutes; floating alone is not a doneness test. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue cooking until they reach 165°F / 74°C. Halve or quarter the bok choy lengthwise, rinse well, and cook it in the hot broth until its stems are tender-crisp; do not rely on 20 seconds for whole heads. Cook uncooked wontons from frozen without thawing, in uncrowded batches in the same separate pot of water; allow longer than for fresh wontons and keep checking several filling centers to 165°F / 74°C and the wrappers for tenderness.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 5,
+        "text": "Bind: Bring the Wonton Broth back to a boil if needed. Ladle the hot broth into the serving bowls.",
+        "reference": "exactChanges.content.after"
+      },
+      {
+        "step": 6,
+        "text": "Serve: Transfer the wontons and bok choy to the bowls. Garnish with scallions and optional chili oil.",
+        "reference": "exactChanges.content.after"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Ground pork",
+      "alternative": "The same listed amount of ground chicken, ground beef or minced raw shrimp",
+      "effect": "These alternatives change flavor and texture; keep the filled-dumpling 165°F endpoint and the rest of the filling allocation."
+    },
+    {
+      "ingredient": "Baby bok choy",
+      "alternative": "Other leafy greens, such as spinach or choy sum",
+      "effect": "Prepare and cook for their own tenderness; a quick leaf wilt does not establish a thick stalk’s doneness."
+    },
+    {
+      "ingredient": "Filling white pepper",
+      "alternative": "The same pinch of ground Sichuan pepper or five-spice powder",
+      "effect": "Use the same listed pinch amount in the filling, instead of its white pepper."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["steamed-bok-choy-with-oyster-sauce", "steamed-broccoli"],
+    "dependencies": [
+      "Measure the listed finished prepared Wonton Broth (original1liter) after infusion/straining, independently of binder broth (original3tbsp). The accepted linked broth’s6cups input is not a certified output conversion.",
+      "Use the listed small prepared wrappers; scratch wrappers are only an expressly chosen additional preparation, not a required batch or a certified60-piece supply."
+    ],
+    "mealAmounts": "Side suggestions remain separate; no unrecorded broth/wrapper yield conversion",
+    "incomingMeals": [
+      {
+        "slug": "quick-wonton-soup-supper",
+        "status": "pending separate whole-meal review",
+        "note": "Quick Wonton Soup Supper is separately pending: it tells cooks to boil wontons in the serving broth for 5–6 minutes and gives a fixed frozen add-2–3-minutes rule, contrary to this recipe’s separate clean-water pot and measured 165°F checks. Its broth-making overlap, component portions and total clock require a whole-meal review; recipe review does not certify that meal."
+      }
+    ]
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "scope": "Retained planning claim; no weighed yield or kitchen test",
+    "capacity": [
+      "The 3 tbsp binder broth is separate from the 1 liter prepared serving broth. Measure finished linked broth after infusion and straining; its 6 cups starting liquid does not promise a particular finished volume.",
+      "Use small roughly 3.5 inch wrappers for the original approximately 40-wonton planning count. Scale the listed count with the filling, but seal securely and have extras available; larger wrappers change the count.",
+      "Prepare scratch broth/wrappers before this schedule. Keep their source alternatives distinct rather than assuming a stock quantity or wrapper batch supplies the soup."
+    ],
+    "timing": "Allow about 40–65 minutes with prepared broth and wrappers; roughly 30–45 minutes is active preparation. More cooking batches or thicker wrappers can extend elapsed time. The wrapper count is approximate, and filling 165°F governs completion.",
+    "scaling": "Existing legacy ingredient controls and scaling overrides preserved; original scoop/skin size and batch endpoint govern method, not proportional timing."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "75 g Ground Pork",
+        "1/4 tsp Ginger, minced",
+        "1/4 tbsp Light Soy Sauce, for the filling",
+        "1/4 tsp Shaoxing Wine, for the filling",
+        "1/2 Scallion, finely chopped",
+        "3/4 tbsp Chicken Broth (as binder)",
+        "10 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1/4 liter prepared Wonton Broth (See note below)",
+        "1/2 head Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "0.0625 tsp Salt, for the filling",
+        "1/4 pinch Ground White Pepper, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "150 g Ground Pork",
+        "1/2 tsp Ginger, minced",
+        "1/2 tbsp Light Soy Sauce, for the filling",
+        "1/2 tsp Shaoxing Wine, for the filling",
+        "1 Scallion, finely chopped",
+        "1 1/2 tbsp Chicken Broth (as binder)",
+        "20 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1/2 liter prepared Wonton Broth (See note below)",
+        "1 head Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/8 tsp Salt, for the filling",
+        "1/2 pinch Ground White Pepper, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "300g Ground Pork",
+        "1 tsp Ginger, minced",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "1 tsp Shaoxing Wine, for the filling",
+        "2 Scallions, finely chopped",
+        "3 tbsp Chicken Broth (as binder)",
+        "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1 liter prepared Wonton Broth (See note below)",
+        "2 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/4 tsp Salt, for the filling",
+        "1 pinch Ground White Pepper, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "450 g Ground Pork",
+        "1 1/2 tsp Ginger, minced",
+        "1 1/2 tbsp Light Soy Sauce, for the filling",
+        "1 1/2 tsp Shaoxing Wine, for the filling",
+        "3 Scallions, finely chopped",
+        "4 1/2 tbsp Chicken Broth (as binder)",
+        "60 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1 1/2 liters prepared Wonton Broth (See note below)",
+        "3 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "3/8 tsp Salt, for the filling",
+        "1 1/2 pinch Ground White Pepper, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "600 g Ground Pork",
+        "2 tsp Ginger, minced",
+        "2 tbsp Light Soy Sauce, for the filling",
+        "2 tsp Shaoxing Wine, for the filling",
+        "4 Scallions, finely chopped",
+        "6 tbsp Chicken Broth (as binder)",
+        "80 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "2 liters prepared Wonton Broth (See note below)",
+        "4 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/2 tsp Salt, for the filling",
+        "2 pinch Ground White Pepper, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "900 g Ground Pork",
+        "3 tsp Ginger, minced",
+        "3 tbsp Light Soy Sauce, for the filling",
+        "3 tsp Shaoxing Wine, for the filling",
+        "6 Scallions, finely chopped",
+        "9 tbsp Chicken Broth (as binder)",
+        "120 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "3 liters prepared Wonton Broth (See note below)",
+        "6 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "3/4 tsp Salt, for the filling",
+        "3 pinch Ground White Pepper, for the filling"
+      ],
+      "scope": "Actual current legacy ingredient scaler; original wrapper/scoop size and endpoints stay fixed, pan loads change"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "300g Ground Pork",
+        "1 tsp Ginger, minced",
+        "1 tbsp Light Soy Sauce, for the filling",
+        "1 tsp Shaoxing Wine, for the filling",
+        "2 Scallions, finely chopped",
+        "3 tbsp Chicken Broth (as binder)",
+        "40 small Wonton Wrappers (about 3.5 inches / 9 cm square)",
+        "1 liter prepared Wonton Broth (See note below)",
+        "2 heads Baby Bok Choy",
+        "Sesame Oil and Scallions for garnish",
+        "Salt and Ground White Pepper, to taste, for the broth",
+        "Chili Oil, optional, for serving",
+        "Water, for sealing wrappers and boiling wontons",
+        "1/4 tsp Salt, for the filling",
+        "1 pinch Ground White Pepper, for the filling"
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "All5741495b prepared serving broth/separate binder, all-filling wrapper allocation, clean boiling/multiple165°F and stem tenderness"
+  ],
+  "remainingQuestions": [
+    "Taste the restored¼tsp filling salt with the household light soy and chosen broth.",
+    "Confirm40-small-wrapper count and actual assembly time."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

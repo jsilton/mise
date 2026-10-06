@@ -1,0 +1,502 @@
+{
+  "slug": "rice-bowl-station-buddha-bowls",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "794659d7379173e00962af26220398ae4367fe49fe5b9902d03270343cb2cb5e",
+  "acceptedSourceSha256": "5496a48f02c948291de27ed01d257cbc3992e6fe52c562d47120cabe290bd1e2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Hawaii / California Fusion",
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "--- The Base Grain (Choose 1) ---",
+        "2 cups Cooked Rice (jasmine, brown, sushi rice, or cilantro-lime rice)",
+        "2 cups Cooked Quinoa (fluffy and nutty)",
+        "2 cups Cooked Farro (earthy and chewy)",
+        "--- The Protein (Choose 1-2, cooked and ready to eat) ---",
+        "1 cup Roasted Chickpeas (crispy and seasoned)",
+        "1 lb Baked Tofu (cubed and marinated)",
+        "4 Soft-Boiled Eggs (halved)",
+        "1 lb Grilled Chicken or Fish (diced)",
+        "8 oz Shredded Rotisserie Chicken",
+        "--- The Vegetables (Fresh, roasted, or raw) ---",
+        "2 cups Fresh Spinach or Arugula",
+        "1 Large Carrot (shredded or thinly sliced)",
+        "1 Cucumber (diced)",
+        "1 Red Bell Pepper (thinly sliced)",
+        "1 cup Cherry Tomatoes (halved)",
+        "1 cup Shredded Red Cabbage",
+        "1 Avocado (sliced, dressed with lime)",
+        "--- The Extras ---",
+        "1/4 cup Toasted Sesame Seeds or Sunflower Seeds",
+        "1/4 cup Sliced Scallions",
+        "Crispy Fried Onions or Wonton Strips (for crunch)'",
+        "Fresh Herbs (cilantro, basil, mint)'",
+        "--- The Sauce (Choose 1) ---",
+        "Tahini Sauce (nutty and rich)",
+        "Lemon-Herb Vinaigrette (bright and light)",
+        "Miso-Ginger Dressing (umami-forward)",
+        "Cilantro-Lime Crema (fresh and creamy)"
+      ],
+      "after": [
+        "--- The Base Grain (Choose 1) ---",
+        "2 cups Cooked Rice (jasmine, brown, sushi rice, or cilantro-lime rice)",
+        "2 cups Cooked Quinoa (fluffy and nutty)",
+        "2 cups Cooked Farro (earthy and chewy)",
+        "--- The Protein (Choose 1-2, cooked and ready to eat) ---",
+        "1 cup Roasted Chickpeas (crispy and seasoned)",
+        "1 lb Baked Tofu (cubed and marinated)",
+        "4 Soft-Boiled Eggs (halved)",
+        "1 lb Grilled Chicken or Fish (diced)",
+        "8 oz Shredded Rotisserie Chicken",
+        "--- The Vegetables (Fresh, roasted, or raw) ---",
+        "2 cups Fresh Spinach or Arugula",
+        "1 Large Carrot (shredded or thinly sliced)",
+        "1 Cucumber (diced)",
+        "1 Red Bell Pepper (thinly sliced)",
+        "1 cup Cherry Tomatoes (halved)",
+        "1 cup Shredded Red Cabbage",
+        "1 Avocado (sliced, dressed with lime)",
+        "--- The Extras ---",
+        "1/4 cup Toasted Sesame Seeds or Sunflower Seeds",
+        "1/4 cup Sliced Scallions",
+        "Crispy Fried Onions or Wonton Strips (for crunch)",
+        "Fresh Herbs (cilantro, basil, mint)",
+        "--- The Sauce (Choose 1) ---",
+        "Tahini Sauce (nutty and rich)",
+        "Lemon-Herb Vinaigrette (bright and light)",
+        "Miso-Ginger Dressing (umami-forward)",
+        "Cilantro-Lime Crema (fresh and creamy)",
+        "Lime juice, as needed for the avocado",
+        "Additional salt or acid, optional, to taste after assembly",
+        "Nuts, optional, for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 945,
+        "protein": 78.5,
+        "carbs": 78,
+        "fat": 42,
+        "fiber": 20.5,
+        "sugar": 12.5,
+        "sodium": 640
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep prepared-component clocks and exclusive choices visible.",
+        "outcome": "Grain bowls assembled from cold or properly reheated cooked components, with full chosen toppings.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Choose one of the listed grain supplies and one or two cooked proteins; the rows are alternatives, not a single combined formula.",
+          "The original four-bowl count is a flexible assembly plan. Actual protein and vegetable choices need roomy bowls, and some prepared components may remain unused."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The grain is served cold from refrigeration or reaches 165°F when reheated for hot service.",
+            "why": "Waiting on the counter to temper a cooked grain is not a cold-storage plan."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The crunchy toppings become wet.",
+            "cause": "They were mixed with sauce or moist vegetables well before service.",
+            "fix": "Keep crunchy seeds and optional onions or strips separate and add them just before eating."
+          }
+        ],
+        "timing": "Allow roughly 25 minutes for preparation/assembly plan only when grains, proteins and sauces are already prepared. Their own cooking, cooling and chilling clocks are additional.",
+        "storage": "Refrigerate promptly at 40°F or below, in shallow covered containers. Count preparation and serving time together; discard perishable food left out over 2 hours, or 1 hour above 90°F. Keep cooked grains, tofu, chickpeas and animal proteins cold; use within 3–4 days from the earliest component preparation, or a shorter product-specific limit. Keep the unserved components refrigerated during assembly.",
+        "sources": [
+          {
+            "title": "FDA — Cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Undercooked egg handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA — Leftover storage and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe Buddha Bowl is not a bowl in the religious sense - it's a concept: whole grains + protein + vegetables + sauce = a meal that feels composed but comes together in 15 minutes. The magic is in texture contrast (soft rice, crispy seeds, tender vegetables, something crunchy on top) and in choosing a sauce that actually ties the flavors together instead of sitting on the side. Batch cook your grains on Sunday, prep vegetables the night before, keep a few proteins ready, and you can assemble four different bowls from the same components in minutes. Kids love the \"build your own\" aspect, and adults appreciate that it's a plate-level lesson in nutrition and balance.\n\n## Directions\n\n1. **Start the Base:** Scoop 1/2 cup cooked grain into each bowl (about 3/4 of the way full). If the grain is cold, warm gently or let it come to room temperature.\n\n2. **Add the Protein:** Place your chosen protein in a section of the bowl - soft-boiled eggs on one side, roasted chickpeas in a pile, grilled chicken strips arranged, or tofu cubes clustered. Use 1/4 to 1/3 of the bowl's surface.\n\n3. **Layer the Vegetables:** Arrange vegetables in sections around the grain and protein - create little piles and lines so each component is visible. Start with softer items (greens, avocado), then add fresh vegetables (cucumber, tomato, pepper). This makes the bowl look intentional, not chaotic.\n\n4. **Add Crunch:** Scatter toasted seeds, crispy fried onions, wonton strips, or nuts over the top. This is non-negotiable - the textural contrast is what makes the bowl exciting to eat.\n\n5. **Dress:** Drizzle sauce over the entire bowl, or serve it on the side for people to control their own ratio. A bowl should glisten, not be drowned.\n\n6. **Finish:** Top with fresh herbs (cilantro, basil, mint depending on your chosen direction) and sliced scallions. Taste before serving, adjust salt and acid if needed.\n\n### Assembly Ideas (Mix and Match)\n\n**Asian-Inspired:** Jasmine rice + shredded rotisserie chicken + cucumber + shredded red cabbage + scallions + sesame seeds + miso-ginger dressing\n\n**Mediterranean:** Farro + soft-boiled eggs + arugula + roasted red pepper + cherry tomatoes + Kalamata olives + crumbled feta + lemon-herb vinaigrette\n\n**Mexican-Forward:** Cilantro-lime rice + black beans + grilled chicken + sliced avocado + shredded red cabbage + radishes + cilantro + crispy fried onions + cilantro-lime crema\n\n**Vegan:** Quinoa + roasted chickpeas + spinach + shredded carrot + cucumber + avocado + toasted pumpkin seeds + tahini sauce\n\n### Pro Tips for Batch Prep\n\n- Cook grains in bulk on Sunday (they keep 5 days refrigerated)\n- Wash and chop vegetables the night before in airtight containers\n- Roast chickpeas and store in an airtight container (they stay crispy for 3 days)\n- Make dressing in a jar (shakes before serving)\n- Soft-boil eggs on Sunday morning, peel and refrigerate\n- Assemble bowls fresh each time - don't let vegetables sit in grain or they'll release moisture.\n",
+    "after": "\n## Chef's Note\n\nSet out prepared grains, cooked proteins, vegetables and sauces so each person can build a bowl. Choose one grain and one or two cooked proteins rather than treating every alternative as one shopping total. Keep the full chosen supplies available and use bowls large enough for the toppings; store any unused prepared components cold. Children can choose from the same prepared components, with an adult managing hot food and any chopping.\n\n## Directions\n\n1. **Start the Base:** Divide the full listed supply of one cooked grain across the listed portions; the original four-bowl batch begins with about half a cup per bowl. Serve properly refrigerated grain cold, or reheat stored cooked grain to 165°F if serving hot. Do not leave a large batch on the counter waiting for room temperature.\n\n2. **Add the Protein:** Place your chosen protein in a section of the bowl - soft-boiled eggs on one side, roasted chickpeas in a pile, grilled chicken strips arranged, or tofu cubes clustered. Divide the full chosen protein supplies across the portions, or keep unused prepared protein refrigerated. If serving soft-boiled eggs with undercooked yolks, use pasteurized-in-shell eggs; people at higher risk should choose thoroughly cooked eggs. No raw protein belongs in this assembly step.\n\n3. **Layer the Vegetables:** Arrange vegetables in sections around the grain and protein - create little piles and lines so each component is visible. Start with softer items (greens, avocado), then add fresh vegetables (cucumber, tomato, pepper). Wash fresh produce under running water before preparing it. Use the separate lime-juice allowance on the avocado if wanted. Keep any unused prepared vegetables refrigerated.\n\n4. **Add Crunch:** Scatter toasted seeds, crispy fried onions, wonton strips, or nuts over the top. Use the full listed seed supply and the separate unmeasured optional crunchy toppings as wanted. Keep unused toppings separate so they do not become wet.\n\n5. **Dress:** Drizzle sauce over the entire bowl, or serve it on the side for people to control their own ratio. Use your separately prepared sauce as wanted; no sauce batch volume or equal yield across choices is assumed. Keep any unused perishable sauce refrigerated.\n\n6. **Finish:** Top with fresh herbs (cilantro, basil, mint depending on your chosen direction) and sliced scallions. Use the full listed scallion supply, with the unmeasured herbs as wanted. Taste before serving and use only the separate optional salt or acid allowance if needed.\n\n### Assembly Ideas (Mix and Match)\n\n**Asian-Inspired:** Jasmine rice + shredded rotisserie chicken + cucumber + shredded red cabbage + scallions + sesame seeds + miso-ginger dressing\n\n**Mediterranean:** Farro + soft-boiled eggs + arugula + roasted red pepper + cherry tomatoes + Kalamata olives + crumbled feta + lemon-herb vinaigrette\n\n**Mexican-Forward:** Cilantro-lime rice + black beans + grilled chicken + sliced avocado + shredded red cabbage + radishes + cilantro + crispy fried onions + cilantro-lime crema\n\n**Vegan:** Quinoa + roasted chickpeas + spinach + shredded carrot + cucumber + avocado + toasted pumpkin seeds + tahini sauce\n\n### Batch Preparation\n\n- Cook grains and proteins separately using their own complete recipes and package instructions; the 25-minute plan here covers assembly, not those cooking clocks.\n- Cool cooked components promptly in shallow containers and refrigerate at 40°F or below. Use refrigerated cooked leftovers within 3–4 days, counting from the earliest preparation rather than restarting the clock when assembled; freeze portions for later.\n- Keep roasted chickpeas refrigerated rather than assuming three days at room temperature. Their crispness after storage is a quality question; add them near serving.\n- Wash and prepare vegetables ahead only with clean equipment and cold storage. Keep sauces cold and stir or shake before use.\n- Assemble near service. Count preparation and serving together and discard perishable food left out over 2 hours, or 1 hour above 90°F.\n\nThe assembly ideas above use separately prepared optional olives, feta, black beans, radishes or pumpkin seeds where named; those amounts are unmeasured and do not replace a listed protein or sauce recipe.\n"
+  },
+  "findings": [
+    {
+      "id": "ASR20-rice-bowl-station-buddha-bowls",
+      "rationale": "Git-only actual introduction and followed histories, no original450/publisher formula. Preserve all listed full amounts, choose-one grain/choose1–2 cooked-protein rows, all four actual assembly ideas, unmeasured toppings and previously accepted cooked/ready-to-eat repair. USDA supports replacing five-day grains and ambient chickpea assumptions with cold3–4day leftovers counted from earliest preparation; FDA undercooked-egg scope distinct from measured whole mixed-dish cooking. Assembly clock excludes separately cooked components. Remove unsupported religious/origin/nutrition claims while retaining cuisines, title and family-friendly station use. No ingredient reduction or fabricated sauce/cooked-grain yield.",
+      "confidence": "High exact input/source dose and lineage; moderate editorial capacity/clock/sensory applications, not kitchen-tested.",
+      "applicableSources": [
+        {
+          "title": "FDA — Cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "FDA — Undercooked egg handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+        },
+        {
+          "title": "USDA — Leftover storage and reheating",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "exactBeforeAfterReferences": [
+        "exactChanges[0]",
+        "exactChanges[1]",
+        "exactChanges[2]",
+        "exactChanges[3]",
+        "exactChanges[4]"
+      ],
+      "questions": [
+        "Actual bowl size, chosen components and leftover prepared amounts determine portions; no route-specific nutrition certified.",
+        "Prepared sauces and optional black beans/olives/feta/radishes/pumpkin seeds have no measured batch formula here.",
+        "Actual products and earlier component dates may require a shorter holding limit."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/rice-bowl-station-buddha-bowls.md",
+    "introductionScope": "Actual earliest available followed Git cooking introduction; no original450 identity match",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-only actual introduction and followed histories, no original450/publisher formula. Preserve all listed full amounts, choose-one grain/choose1–2 cooked-protein rows, all four actual assembly ideas, unmeasured toppings and previously accepted cooked/ready-to-eat repair. USDA supports replacing five-day grains and ambient chickpea assumptions with cold3–4day leftovers counted from earliest preparation; FDA undercooked-egg scope distinct from measured whole mixed-dish cooking. Assembly clock excludes separately cooked components. Remove unsupported religious/origin/nutrition claims while retaining cuisines, title and family-friendly station use. No ingredient reduction or fabricated sauce/cooked-grain yield.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 cups Cooked Rice (jasmine, brown, sushi rice, or cilantro-lime rice)",
+        "destination": "chooseonegrain1; frozen½cup×4 bowls",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 cups Cooked Quinoa (fluffy and nutty)",
+        "destination": "chooseonegrain1",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 cups Cooked Farro (earthy and chewy)",
+        "destination": "chooseonegrain1",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 cup Roasted Chickpeas (crispy and seasoned)",
+        "destination": "chosenchickpea2 plusVeganidea; frozenroomcrisp3daysunsafe",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 lb Baked Tofu (cubed and marinated)",
+        "destination": "chosentofu2",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "4 Soft-Boiled Eggs (halved)",
+        "destination": "chosenegg2 Mediterraneanidea; frozenno pasteurization scope",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 lb Grilled Chicken or Fish (diced)",
+        "destination": "chosenchicken/fish2 no raw allowed acceptedrepair",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "8 oz Shredded Rotisserie Chicken",
+        "destination": "chosenrotisserie2 Asianidea",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 cups Fresh Spinach or Arugula",
+        "destination": "greens3 selectedroutes",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 Large Carrot (shredded or thinly sliced)",
+        "destination": "carrot3",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 Cucumber (diced)",
+        "destination": "cucumber3",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 Red Bell Pepper (thinly sliced)",
+        "destination": "pepper3; Mediterraneanroastedoption separateprepared",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 cup Cherry Tomatoes (halved)",
+        "destination": "tomatoes3",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 cup Shredded Red Cabbage",
+        "destination": "cabbage3",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 Avocado (sliced, dressed with lime)",
+        "destination": "avocado3 withunlistedlime",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Toasted Sesame Seeds or Sunflower Seeds",
+        "destination": "seeds4; exclusive types",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/4 cup Sliced Scallions",
+        "destination": "scallions6 full",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Crispy Fried Onions or Wonton Strips (for crunch)'",
+        "destination": "unmeasuredcrunch4",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Fresh Herbs (cilantro, basil, mint)'",
+        "destination": "unmeasuredherbs6",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Tahini Sauce (nutty and rich)",
+        "destination": "chooseonepreparedsauce5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Lemon-Herb Vinaigrette (bright and light)",
+        "destination": "chooseonepreparedsauce5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Miso-Ginger Dressing (umami-forward)",
+        "destination": "chooseonepreparedsauce5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Cilantro-Lime Crema (fresh and creamy)",
+        "destination": "chooseonepreparedsauce5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 cups Cooked Rice (jasmine, brown, sushi rice, or cilantro-lime rice)",
+        "destination": "chooseonegrain1; frozen½cup×4 bowls"
+      },
+      {
+        "ingredient": "2 cups Cooked Quinoa (fluffy and nutty)",
+        "destination": "chooseonegrain1"
+      },
+      {
+        "ingredient": "2 cups Cooked Farro (earthy and chewy)",
+        "destination": "chooseonegrain1"
+      },
+      {
+        "ingredient": "1 cup Roasted Chickpeas (crispy and seasoned)",
+        "destination": "chosenchickpea2 plusVeganidea; frozenroomcrisp3daysunsafe"
+      },
+      {
+        "ingredient": "1 lb Baked Tofu (cubed and marinated)",
+        "destination": "chosentofu2"
+      },
+      {
+        "ingredient": "4 Soft-Boiled Eggs (halved)",
+        "destination": "chosenegg2 Mediterraneanidea; frozenno pasteurization scope"
+      },
+      {
+        "ingredient": "1 lb Grilled Chicken or Fish (diced)",
+        "destination": "chosenchicken/fish2 no raw allowed acceptedrepair"
+      },
+      {
+        "ingredient": "8 oz Shredded Rotisserie Chicken",
+        "destination": "chosenrotisserie2 Asianidea"
+      },
+      {
+        "ingredient": "2 cups Fresh Spinach or Arugula",
+        "destination": "greens3 selectedroutes"
+      },
+      {
+        "ingredient": "1 Large Carrot (shredded or thinly sliced)",
+        "destination": "carrot3"
+      },
+      {
+        "ingredient": "1 Cucumber (diced)",
+        "destination": "cucumber3"
+      },
+      {
+        "ingredient": "1 Red Bell Pepper (thinly sliced)",
+        "destination": "pepper3; Mediterraneanroastedoption separateprepared"
+      },
+      {
+        "ingredient": "1 cup Cherry Tomatoes (halved)",
+        "destination": "tomatoes3"
+      },
+      {
+        "ingredient": "1 cup Shredded Red Cabbage",
+        "destination": "cabbage3"
+      },
+      {
+        "ingredient": "1 Avocado (sliced, dressed with lime)",
+        "destination": "avocado3 withunlistedlime"
+      },
+      {
+        "ingredient": "1/4 cup Toasted Sesame Seeds or Sunflower Seeds",
+        "destination": "seeds4; exclusive types"
+      },
+      {
+        "ingredient": "1/4 cup Sliced Scallions",
+        "destination": "scallions6 full"
+      },
+      {
+        "ingredient": "Crispy Fried Onions or Wonton Strips (for crunch)",
+        "destination": "unmeasuredcrunch4"
+      },
+      {
+        "ingredient": "Fresh Herbs (cilantro, basil, mint)",
+        "destination": "unmeasuredherbs6"
+      },
+      {
+        "ingredient": "Tahini Sauce (nutty and rich)",
+        "destination": "chooseonepreparedsauce5"
+      },
+      {
+        "ingredient": "Lemon-Herb Vinaigrette (bright and light)",
+        "destination": "chooseonepreparedsauce5"
+      },
+      {
+        "ingredient": "Miso-Ginger Dressing (umami-forward)",
+        "destination": "chooseonepreparedsauce5"
+      },
+      {
+        "ingredient": "Cilantro-Lime Crema (fresh and creamy)",
+        "destination": "chooseonepreparedsauce5"
+      },
+      {
+        "ingredient": "Lime juice, as needed for the avocado",
+        "destination": "Separate lime allowance3 avocado"
+      },
+      {
+        "ingredient": "Additional salt or acid, optional, to taste after assembly",
+        "destination": "Separate optional taste allowance6"
+      },
+      {
+        "ingredient": "Nuts, optional, for serving",
+        "destination": "Separate optional crunch4"
+      }
+    ],
+    "frozenMethodOnly": [
+      "Avocado lime3 impliedingredient",
+      "Optional nuts4",
+      "Final salt/acid6",
+      "Olives/feta/blackbeans/radishes/pumpkinseeds in distinct assembly ideas"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Start the Base: Divide the full listed supply of one cooked grain across the listed portions; the original four-bowl batch begins with about half a cup per bowl. Serve properly refrigerated grain cold, or reheat stored cooked grain to 165°F if serving hot. Do not leave a large batch on the counter waiting for room temperature."
+    },
+    {
+      "step": 2,
+      "text": "Add the Protein: Place your chosen protein in a section of the bowl - soft-boiled eggs on one side, roasted chickpeas in a pile, grilled chicken strips arranged, or tofu cubes clustered. Divide the full chosen protein supplies across the portions, or keep unused prepared protein refrigerated. If serving soft-boiled eggs with undercooked yolks, use pasteurized-in-shell eggs; people at higher risk should choose thoroughly cooked eggs. No raw protein belongs in this assembly step."
+    },
+    {
+      "step": 3,
+      "text": "Layer the Vegetables: Arrange vegetables in sections around the grain and protein - create little piles and lines so each component is visible. Start with softer items (greens, avocado), then add fresh vegetables (cucumber, tomato, pepper). Wash fresh produce under running water before preparing it. Use the separate lime-juice allowance on the avocado if wanted. Keep any unused prepared vegetables refrigerated."
+    },
+    {
+      "step": 4,
+      "text": "Add Crunch: Scatter toasted seeds, crispy fried onions, wonton strips, or nuts over the top. Use the full listed seed supply and the separate unmeasured optional crunchy toppings as wanted. Keep unused toppings separate so they do not become wet."
+    },
+    {
+      "step": 5,
+      "text": "Dress: Drizzle sauce over the entire bowl, or serve it on the side for people to control their own ratio. Use your separately prepared sauce as wanted; no sauce batch volume or equal yield across choices is assumed. Keep any unused perishable sauce refrigerated."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Top with fresh herbs (cilantro, basil, mint depending on your chosen direction) and sliced scallions. Use the full listed scallion supply, with the unmeasured herbs as wanted. Taste before serving and use only the separate optional salt or acid allowance if needed."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "Full preserved Assembly Ideas section",
+      "scope": "Four named grain/protein/vegetable/sauce assemblies preserved; additional olives/feta/black beans/radishes/pumpkin seeds are separately prepared unmeasured serving options, no invented equal protein dose or sauce batch yield."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "tahini-sauce",
+      "cilantro-lime-rice",
+      "steamed-white-rice",
+      "lemon-herb-quinoa",
+      "master-sushi-rice"
+    ],
+    "scope": "All existing pairings preserved. No incoming composed-meal reference found; pairings do not certify linked components."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "All current full measured doses and existing ingredient controls preserved; options exclusive as written.",
+    "yield": "4",
+    "capacity": "Original cut sizes remain fixed; sufficient uncrowded vessels, no invented dimensions or load certification.",
+    "timing": "Allow roughly 25 minutes for preparation/assembly plan only when grains, proteins and sauces are already prepared. Their own cooking, cooling and chilling clocks are additional."
+  },
+  "preservedPriorRepairs": "Published cooked/ready-to-eat protein choice retained; no raw protein assembly revived.",
+  "remainingQuestions": [
+    "Actual bowl size, chosen components and leftover prepared amounts determine portions; no route-specific nutrition certified.",
+    "Prepared sauces and optional black beans/olives/feta/radishes/pumpkin seeds have no measured batch formula here.",
+    "Actual products and earlier component dates may require a shorter holding limit."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

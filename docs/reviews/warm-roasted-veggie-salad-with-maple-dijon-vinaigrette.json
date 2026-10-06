@@ -1,0 +1,313 @@
+{
+  "slug": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "0b6d8aaa123124a51d7c00371260d7dc756a5a88699ee8d514090eafc65e9005",
+  "acceptedSourceSha256": "157d847a52d8b609cb8ae3faff35bebd1d814b6432dea4ca6c3dd15ebdc85bb7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "45 min",
+      "after": "About 45 min, plus any remaining preheating"
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate roasting oil, dressing oil and cold holding.",
+        "outcome": "Fork-tender vegetables with pliable kale and the full maple-Dijon dressing available for serving.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Keep half-inch sweet-potato dice at every scale. Add uncrowded trays as the load increases and divide all roasting ingredients proportionally.",
+          "The original six-side plan depends on actual potato and onion size. Scale full ingredients and portion count without treating the source approximate vegetable cup estimates as measured yields."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Sweet potato centers are fork-tender and sprouts are browned, without chasing black edges.",
+            "why": "A clock or surface color alone does not establish tender centers."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The vinaigrette separates while the vegetables roast.",
+            "cause": "Oil and vinegar can separate after standing.",
+            "fix": "Whisk it again before adding part to the salad; keep the remainder cold for later serving."
+          }
+        ],
+        "timing": "Allow roughly 45 minutes for preparation and roasting, plus any preheating still needed after preparation. The oven must reach 375°F before loading. Mix the dressing and massage kale while roasting; larger pieces or additional tray loads can extend elapsed time.",
+        "storage": "Refrigerate promptly at 40°F or below, in shallow covered containers. Count preparation and serving time together; discard perishable food left out over 2 hours, or 1 hour above 90°F. Use within three refrigerated days. The garlic-containing dressing stays refrigerated separately; its vinegar is not a measured preservation process.",
+        "sources": [
+          {
+            "title": "Nicole Modic — Warm roasted vegetable salad",
+            "url": "https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/"
+          },
+          {
+            "title": "FDA — Cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Seasoning variation",
+            "alternative": "For the original batch, keep every listed vegetable, kale, cheese, cranberry and oil/vinegar/maple/Dijon amount. Add 2 additional mashed garlic cloves to the roasting vegetables with 1 tsp kosher salt and 1/2 tsp ground black pepper, replacing the roasting salt-and-pepper-to-taste choice. Add 1/2 tsp dried thyme to the dressing, keeping its listed 2 mashed garlic cloves and seasoning it to taste. Keep the kale pinch of salt. Scale these separate source seasoning additions with the ingredients; follow the same tenderness, dressing allocation and cold-handling steps.",
+            "effect": "The extra roasting garlic and dried thyme change the vegetables and dressing’s flavor. Use kosher salt for the measured roasting amount; dressing and kale seasoning remain to taste."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWarm sweet potato and Brussels sprouts soften the kale slightly, while cranberries and Parmesan provide sweet and salty accents. Keep the roasting oil separate from the vinaigrette, and add the dressing in stages so the vegetables stay lightly coated rather than swimming in it.\n\n## Directions\n\n1. **Prepare:** Heat the oven to 375°F / 190°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired.\n2. **Roast:** Toss sweet potato, sprouts and onion with the 2 tablespoons roasting oil, salt and pepper. Spread in a single layer with space between pieces. Roast, turning once, starting to check at 20–25 minutes and allowing about 30 minutes or longer as needed. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges.\n3. **Whisk dressing:** While the vegetables roast, whisk the 1/3 cup dressing oil with vinegar, maple syrup, Dijon and garlic. Taste and season with salt and pepper. Stir again if it separates.\n4. **Soften kale:** Wash, dry, stem and chop kale before measuring. Put the leaves in a large bowl with a small pinch of salt and rub gently for 1–2 minutes until pliable.\n5. **Combine:** Let the roasted vegetables stop steaming fiercely, then add to the kale with Parmesan and cranberries. Add about half the dressing and toss with tongs; add more only as needed to coat. Refrigerate any unused dressing separately.\n6. **Serve:** Divide into six side portions and serve warm. Refrigerate leftovers promptly rather than leaving the bowl at room temperature.\n\n## Cooking Notes\n\nAbout 45 minutes allows 15 minutes for preheating and preparation plus roughly 25–30 minutes roasting. Make dressing and massage kale while vegetables roast; large pieces or crowded trays take longer.\n\nRefrigerate in a shallow covered container at 40°F / 4°C or below within 2 hours, or 1 hour above 90°F / 32°C. Use within 3 days. For best make-ahead texture, store dressing separately and assemble near serving.\n\n## Sources\n\n- [Nicole Modic — Warm roasted veggie salad with maple Dijon vinaigrette](https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n",
+    "after": "\n## Chef's Note\n\nWarm sweet potato and Brussels sprouts soften the kale slightly, while cranberries and Parmesan provide sweet and salty accents. Keep the roasting oil separate from the vinaigrette, and add the dressing in stages so the vegetables stay lightly coated rather than swimming in it.\n\n## Directions\n\n1. **Prepare:** Heat the oven to 375°F / 190°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired.\n2. **Roast:** Toss sweet potato, sprouts and onion with all the listed roasting oil, salt and pepper. Spread in a single layer with space between pieces. Roast, turning once, starting to check at 20–25 minutes and allowing about 30 minutes or longer as needed. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges.\n3. **Whisk dressing:** While the vegetables roast, whisk all the listed dressing oil with vinegar, maple syrup, Dijon and garlic. Taste and season with salt and pepper. Stir again if it separates.\n4. **Soften kale:** Wash, dry, stem and chop kale before measuring. Put the leaves in a large bowl with a small pinch of salt and rub gently for 1–2 minutes until pliable.\n5. **Combine:** Let the roasted vegetables stop steaming fiercely, then add to the kale with Parmesan and cranberries. Add about half the dressing and toss with tongs; add more only as needed to coat. Refrigerate any unused dressing separately.\n6. **Serve:** Divide into the listed side portions and serve warm. Refrigerate leftovers promptly rather than leaving the bowl at room temperature.\n\n## Cooking Notes\n\nAbout 45 minutes is a preparation-and-roasting plan: allow about 15 minutes for preparation and roughly 25–30 minutes roasting, plus any remaining preheating. The oven must reach 375°F before loading. Make dressing and massage kale while vegetables roast; large pieces or additional tray loads take longer.\n\nRefrigerate in a shallow covered container at 40°F / 4°C or below within 2 hours, or 1 hour above 90°F / 32°C. Use within 3 days. For best make-ahead texture, store dressing separately and assemble near serving.\n\n## Sources\n\n- [Nicole Modic — Warm roasted veggie salad with maple Dijon vinaigrette](https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/)\n- [FoodSafety.gov — Four steps to food safety](https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety)\n"
+  },
+  "findings": [
+    {
+      "id": "ASR20-warm-roasted-veggie-salad-with-maple-dijon-vinaigrette",
+      "rationale": "Exact native/045/current publisher richer garlic/thyme route was removed in f612 bulk rewrite;706 restores only dressing garlic.574 targeted work explicitly preserved the current main and disclosed disagreement; that narrow decision is preserved, while the fully specified publisher seasoning route is now a distinct option. All existing doses, tender-first endpoint, cold handling and three-day source plan preserved. Literal method oil/count references now follow the listed scaled amounts. Origin omitted because American style/publisher location does not establish geographic birth.",
+      "confidence": "High exact input/source dose and lineage; moderate editorial capacity/clock/sensory applications, not kitchen-tested.",
+      "applicableSources": [
+        {
+          "title": "Nicole Modic — Warm roasted vegetable salad",
+          "url": "https://kalejunkie.com/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette/"
+        },
+        {
+          "title": "FDA — Cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin", "learning", "content"],
+      "questions": [
+        "Which seasoning route is preferred in the household remains open; neither is kitchen-tested.",
+        "Kosher salt crystal brand and actual potato/onion size are unspecified; no density conversion or pan-volume claim.",
+        "Test uncrowded tray load, dressing amount used and storage texture."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Warm%20Roasted%20Veggie%20Salad%20with%20Maple%20Dijon%20Vinaigrette.html",
+    "introductionScope": "Actual retained earlier HTML cooking introduction; bound native name used only after exact registry/archive identity join",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Exact native/045/current publisher richer garlic/thyme route was removed in f612 bulk rewrite;706 restores only dressing garlic.574 targeted work explicitly preserved the current main and disclosed disagreement; that narrow decision is preserved, while the fully specified publisher seasoning route is now a distinct option. All existing doses, tender-first endpoint, cold handling and three-day source plan preserved. Literal method oil/count references now follow the listed scaled amounts. Origin omitted because American style/publisher location does not establish geographic birth.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 medium sweet potato, cut into 1/2-inch cubes",
+        "destination": "sweet potato1 prepare→2 roast→5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "6 oz Brussels sprouts, trimmed and halved",
+        "destination": "sprouts1→2→5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 medium red onion, sliced",
+        "destination": "onion2→5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 tbsp extra-virgin olive oil, for roasting",
+        "destination": "all roast oil2",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/3 cup extra-virgin olive oil, for dressing",
+        "destination": "all dressing oil3→half5/remainder5 or refrigerated",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 tbsp apple cider vinegar",
+        "destination": "vinegar3 dressing",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 tbsp pure maple syrup",
+        "destination": "maple3 dressing",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1 tbsp Dijon mustard",
+        "destination": "Dijon3 dressing",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "2 cloves garlic, mashed, for dressing",
+        "destination": "garlic3 dressing",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Salt and black pepper, to taste",
+        "destination": "season roasting2/dressing3/kale4 genuine allowance",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "3 cups curly kale leaves, stems removed, chopped and loosely packed",
+        "destination": "kale4→5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/2 cup Parmesan, grated",
+        "destination": "Parm5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/2 cup dried cranberries",
+        "destination": "cranberries5",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "1 medium sweet potato, cut into 1/2-inch cubes",
+        "destination": "sweet potato1 prepare→2 roast→5"
+      },
+      {
+        "ingredient": "6 oz Brussels sprouts, trimmed and halved",
+        "destination": "sprouts1→2→5"
+      },
+      {
+        "ingredient": "1 medium red onion, sliced",
+        "destination": "onion2→5"
+      },
+      {
+        "ingredient": "2 tbsp extra-virgin olive oil, for roasting",
+        "destination": "all roast oil2"
+      },
+      {
+        "ingredient": "1/3 cup extra-virgin olive oil, for dressing",
+        "destination": "all dressing oil3→half5/remainder5 or refrigerated"
+      },
+      {
+        "ingredient": "2 tbsp apple cider vinegar",
+        "destination": "vinegar3 dressing"
+      },
+      {
+        "ingredient": "2 tbsp pure maple syrup",
+        "destination": "maple3 dressing"
+      },
+      {
+        "ingredient": "1 tbsp Dijon mustard",
+        "destination": "Dijon3 dressing"
+      },
+      {
+        "ingredient": "2 cloves garlic, mashed, for dressing",
+        "destination": "garlic3 dressing"
+      },
+      {
+        "ingredient": "Salt and black pepper, to taste",
+        "destination": "season roasting2/dressing3/kale4 genuine allowance"
+      },
+      {
+        "ingredient": "3 cups curly kale leaves, stems removed, chopped and loosely packed",
+        "destination": "kale4→5"
+      },
+      {
+        "ingredient": "1/2 cup Parmesan, grated",
+        "destination": "Parm5"
+      },
+      {
+        "ingredient": "1/2 cup dried cranberries",
+        "destination": "cranberries5"
+      }
+    ],
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Heat the oven to 375°F / 190°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired."
+    },
+    {
+      "step": 2,
+      "text": "Roast: Toss sweet potato, sprouts and onion with all the listed roasting oil, salt and pepper. Spread in a single layer with space between pieces. Roast, turning once, starting to check at 20–25 minutes and allowing about 30 minutes or longer as needed. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges."
+    },
+    {
+      "step": 3,
+      "text": "Whisk dressing: While the vegetables roast, whisk all the listed dressing oil with vinegar, maple syrup, Dijon and garlic. Taste and season with salt and pepper. Stir again if it separates."
+    },
+    {
+      "step": 4,
+      "text": "Soften kale: Wash, dry, stem and chop kale before measuring. Put the leaves in a large bowl with a small pinch of salt and rub gently for 1–2 minutes until pliable."
+    },
+    {
+      "step": 5,
+      "text": "Combine: Let the roasted vegetables stop steaming fiercely, then add to the kale with Parmesan and cranberries. Add about half the dressing and toss with tongs; add more only as needed to coat. Refrigerate any unused dressing separately."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Divide into the listed side portions and serve warm. Refrigerate leftovers promptly rather than leaving the bowl at room temperature."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "learning.substitutions",
+      "ingredient": "Seasoning variation",
+      "alternative": "For the original batch, keep every listed vegetable, kale, cheese, cranberry and oil/vinegar/maple/Dijon amount. Add 2 additional mashed garlic cloves to the roasting vegetables with 1 tsp kosher salt and 1/2 tsp ground black pepper, replacing the roasting salt-and-pepper-to-taste choice. Add 1/2 tsp dried thyme to the dressing, keeping its listed 2 mashed garlic cloves and seasoning it to taste. Keep the kale pinch of salt. Scale these separate source seasoning additions with the ingredients; follow the same tenderness, dressing allocation and cold-handling steps.",
+      "effect": "The extra roasting garlic and dried thyme change the vegetables and dressing’s flavor. Use kosher salt for the measured roasting amount; dressing and kale seasoning remain to taste."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "honey-lime-chicken-thighs",
+      "sweet-chili-chicken-sliders",
+      "instant-pot-butternut-squash-soup"
+    ],
+    "scope": "All existing pairings preserved. No incoming composed-meal reference found; pairings do not certify linked components."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "All current full measured doses and existing ingredient controls preserved; options exclusive as written.",
+    "yield": "6 side portions",
+    "capacity": "Original cut sizes remain fixed; sufficient uncrowded vessels, no invented dimensions or load certification.",
+    "timing": "Allow roughly 45 minutes for preparation and roasting, plus any preheating still needed after preparation. The oven must reach 375°F before loading. Mix the dressing and massage kale while roasting; larger pieces or additional tray loads can extend elapsed time."
+  },
+  "preservedPriorRepairs": "706 dressing garlic/574 oil split, measured kale state, tenderness-first/45min, prompt three-day coldholding preserved; source seasoning option remains separate.",
+  "remainingQuestions": [
+    "Which seasoning route is preferred in the household remains open; neither is kitchen-tested.",
+    "Kosher salt crystal brand and actual potato/onion size are unspecified; no density conversion or pan-volume claim.",
+    "Test uncrowded tray load, dressing amount used and storage texture."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

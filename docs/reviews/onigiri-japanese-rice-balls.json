@@ -1,0 +1,296 @@
+{
+  "slug": "onigiri-japanese-rice-balls",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "c6cb3338ddb099c0c05c3c97c33d032d97f4406c5e28352cf365d4ab2cf6bb05",
+  "acceptedSourceSha256": "65104ca14aaa2242d8a3dab1bd20ad40f8f49699c7c1947b9a1df82a73a68ef6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 35,
+        "protein": 4,
+        "carbs": 0.5,
+        "fat": 2,
+        "fiber": 0.5,
+        "sugar": 0,
+        "sodium": 600
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Measure cooked rice and distinguish the four filling batches.",
+        "outcome": "Compact rice balls with modest filling, salted surfaces and separate nori.",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "The ingredient volume is cooked rice, not dry rice. Prepare extra rice separately only as needed to reach that measured cooked supply.",
+          "Scale the listed ingredients and rice-ball count while keeping the same original-size pockets. The tuna preparation can leave unused filling; no eaten-weight or equal filling-yield claim is made."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The filling fits within the rice without breaking through, and the sesame choice is shared across the batch.",
+            "why": "The four alternative supplies do not produce equal volumes; a universal tablespoon would exhaust the smaller sesame batch."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "A rice ball breaks open around its filling.",
+            "cause": "The pocket was overfilled or its rice shell was too thin.",
+            "fix": "Use a modest filling and close the rice around it gently; refrigerate unused prepared tuna rather than forcing all of it into the rice balls."
+          }
+        ],
+        "timing": "The original ten-minute assembly plan starts with cooked rice and prepared filling. Cooking rice, its covered rest, chilling and thawing are additional elapsed time.",
+        "storage": "Refrigerate promptly at 40°F or below, in shallow covered containers. Count preparation and serving time together; discard perishable food left out over 2 hours, or 1 hour above 90°F. For later service, transport cold with an ice pack and thaw frozen rice balls in the refrigerator. Use promptly refrigerated perishable rice balls or unused tuna filling within 3–4 days, counting from the earliest cooked component; freeze before that limit if needed, with texture quality untested.",
+        "sources": [
+          {
+            "title": "FDA — Cold handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA — Cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "MAFF — Onigiri cultural context",
+            "url": "https://www.gov-online.go.jp/hlj/en/february_2026/february_2026-09.html"
+          }
+        ],
+        "substitutions": [],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nOnigiri are Japanese rice balls - simple, transportable, and a staple of bentos and home cooking for centuries. What makes them special is the ritual: the rice is still warm when shaped, and the small amount of salt on your hands seasons the outside just enough. You can fill them with whatever you like (pickled plume, tuna mayo, salmon, sesame), wrap nori around the outside, and pack them for school, work, or a picnic. They're best when still warm, but keep perishable rice balls cold when preparing them ahead or packing them for later. A squeeze of warm rice in your palm wrapped by a sheet of nori is one of the most comforting things to eat.\n\n## Directions\n\n1. **Cook the Rice:** If starting from scratch, prepare 1 cup Japanese short-grain rice according to package directions (usually 1:1 ratio with water). Let rest for 10 minutes after cooking. Use warm rice for the best texture when shaping.\n\n2. **Prepare the Work Surface:** Have a small bowl of water nearby. Wet your hands slightly and sprinkle a pinch of salt into your palm. This is crucial - it prevents sticking and adds a subtle salty flavor to the outer rice.\n\n3. **Form the Triangle (Basic Shape):** Take about 1/2 cup cooked rice in your palm. Make a small indent in the center with your thumb, creating a pocket about the size of a marble. Place 1 tbsp of your chosen filling into the pocket.\n\n4. **Encase the Filling:** Cup your hand to gently bring rice up and around the filling, enclosing it completely. You should have a ball of rice with filling inside. Squeeze gently but firmly - you want it compact enough to hold together but not so tight that it becomes dense.\n\n5. **Shape into Triangle:** Place the rice ball on your work surface. Using both hands (re-wet and re-salt if needed), gently shape it into a triangle by applying even pressure on three sides. The shape comes from your hands, not from pressing into a mold. A triangular onigiri is iconic and practical - it sits flat and is easy to wrap.\n\n6. **Wrap with Nori:** Cut nori into strips about 1 inch wide and 3-4 inches long. Wrap one strip around the middle of the onigiri, like a belt. The nori will stick to the rice from its slight moisture. If wrapping right before serving, the nori stays crispy; if you wrap earlier, it softens slightly from the rice moisture.\n\n7. **Garnish and Store:** Sprinkle with sesame seeds if desired. Serve warm or at room temperature. For make-ahead service, refrigerate promptly at 40°F or below and transport with an ice pack. Count preparation and service together: discard perishable onigiri left out over 2 hours, or 1 hour above 90°F. If frozen, thaw in the refrigerator rather than on the counter. Keep nori separate until serving for crispness.\n\n**Filling Ideas:** Keep fillings minimal - a single flavor is more traditional. Tuna mayo, umeboshi (pickled plum), grilled salmon, kombu (kelp), or just sesame salt all work beautifully.\n\n**Hand Temperature:** Warm hands make shaping easier and prevent the rice from cooling too much. If your hands get cold, re-wet with warm water and re-salt.\n\n**Nori Texture:** For maximum crispness, wrap nori just before serving. For softer nori, wrap 30 minutes ahead and let the moisture from the rice soften it slightly.\n",
+    "after": "\n## Chef's Note\n\nOnigiri are Japanese rice balls, shaped with lightly salted wet hands and filled with tuna mayonnaise, pickled plum, salmon or sesame salt. Use warm rice that is comfortable to handle, enclosing a modest filling rather than overpacking the pocket. Keep the nori separate for a crisp wrapper, and keep perishable rice balls cold when preparing them ahead or packing them for later.\n\n## Directions\n\n1. **Cook the Rice:** Use the listed volume of cooked Japanese short-grain rice. If starting from dry rice, follow the actual rice or rice-cooker instructions and measure the cooked output; do not assume a cup of dry rice produces the required cooked volume or shares a universal water ratio. Allow the package-directed covered rest after cooking, then use warm rice that is comfortable to handle. Cooking and resting from dry rice are extra time.\n\n2. **Prepare the Work Surface:** Have a small bowl of water nearby. Wash your hands, then wet them slightly using clean water. Use small pinches from the listed kosher-salt supply across the whole batch, keeping it separate from the sesame filling’s sea salt. Rewet only as needed.\n\n3. **Form the Triangle (Basic Shape):** Divide the full rice among the listed rice-ball portions; the original four-ball batch uses about half a cup per ball. Make a small indent for the chosen filling. For tuna, mix its full listed tuna, mayonnaise and soy sauce supplies, spoon about one tablespoon into each original-size rice pocket, and refrigerate any unused prepared mixture promptly rather than overfilling. For umeboshi, use one of the listed pitted plums per original-size ball. For salmon or sesame salt, mix the full listed supplies for that one choice and divide the mixture across the listed rice-ball portions; the sesame mixture is smaller than a tablespoon per ball. Choose one filling batch, or plan proportional smaller filling batches for a variety; do not combine all four ingredient options into every ball.\n\n4. **Encase the Filling:** Cup your hand to gently bring rice up and around the filling, enclosing it completely. You should have a ball of rice with filling inside. Squeeze gently but firmly - you want it compact enough to hold together but not so tight that it becomes dense.\n\n5. **Shape into Triangle:** Place the rice ball on your work surface. Using both hands (re-wet and use the remaining listed hand-seasoning salt only as needed), gently shape it into a triangle by applying even pressure on three sides. The shape comes from your hands, not from pressing into a mold. A triangular onigiri is iconic and practical - it sits flat and is easy to wrap.\n\n6. **Wrap with Nori:** Cut nori into strips about 1 inch wide and 3-4 inches long. Wrap one strip around the middle of the onigiri, like a belt. The nori will stick to the rice from its slight moisture. If wrapping right before serving, the nori stays crispy; if you wrap earlier, it softens slightly from the rice moisture.\n\n7. **Garnish and Store:** Sprinkle with sesame seeds if desired. Serve warm or at room temperature. For make-ahead service, refrigerate promptly at 40°F or below and transport with an ice pack. Count preparation and service together: discard perishable onigiri left out over 2 hours, or 1 hour above 90°F. If frozen, thaw in the refrigerator rather than on the counter. Keep nori separate until serving for crispness.\n\n**Filling Ideas:** Keep fillings minimal - a single flavor is more traditional. Tuna mayo, umeboshi (pickled plum), grilled salmon, kombu (kelp), or just sesame salt all work beautifully.\n\n**Handling:** Use rice warm enough to shape but comfortable against your hands. Keep the hand-seasoning salt separate from the chosen filling salt, and avoid handling another food or raw ingredients with unwashed hands.\n\n**Nori Texture:** For maximum crispness, wrap nori just before serving. For softer nori, wrap 30 minutes ahead and let the moisture from the rice soften it slightly.\n"
+  },
+  "findings": [
+    {
+      "id": "ASR20-onigiri-japanese-rice-balls",
+      "rationale": "Git-only actual first recipe, no original450/publisher formula established. Main measured supplies, four exclusive fillings, nori range and published cold/ice-pack/fridge-thaw repair preserved. Remove unsupported dry-to-cooked/water equivalence and generic one-tablespoon filling instruction where it contradicts sesame total; keep original tuna tablespoon pocket plan with explicit unused prepared supply, not an invented larger rice dose. Kosher hand salt no longer a repeated unbounded re-salt instruction. Source-style cultural context supported separately by MAFF, not used as formula authority. Nutrition lacks a route-specific calculation and is omitted. Legacy measured formula unchanged; allocations are narrow method repair.",
+      "confidence": "High exact input/source dose and lineage; moderate editorial capacity/clock/sensory applications, not kitchen-tested.",
+      "applicableSources": [
+        {
+          "title": "FDA — Cold handling",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+        },
+        {
+          "title": "USDA — Cooked leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "MAFF — Onigiri cultural context",
+          "url": "https://www.gov-online.go.jp/hlj/en/february_2026/february_2026-09.html"
+        }
+      ],
+      "exactBeforeAfterReferences": ["exactChanges[0]", "exactChanges[1]", "exactChanges[2]"],
+      "questions": [
+        "Confirm intended number/size of nori strips versus the large written whole-sheet supply; no dose reduced.",
+        "Measure actual tuna mixture yield and household filling preference; original source may intentionally prepare surplus.",
+        "Fractional plum and rice-ball counts at small scales require practical division; no exact mass equivalence or tested frozen texture."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/onigiri-japanese-rice-balls.md",
+    "introductionScope": "Actual earliest available followed Git cooking introduction; no original450 identity match",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Git-only actual first recipe, no original450/publisher formula established. Main measured supplies, four exclusive fillings, nori range and published cold/ice-pack/fridge-thaw repair preserved. Remove unsupported dry-to-cooked/water equivalence and generic one-tablespoon filling instruction where it contradicts sesame total; keep original tuna tablespoon pocket plan with explicit unused prepared supply, not an invented larger rice dose. Kosher hand salt no longer a repeated unbounded re-salt instruction. Source-style cultural context supported separately by MAFF, not used as formula authority. Nutrition lacks a route-specific calculation and is omitted. Legacy measured formula unchanged; allocations are narrow method repair.",
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "2 cups Cooked Japanese Short-Grain Rice (warm or room temperature)",
+        "destination": "fullcookedrice3 divided4originalballs; frozen1drycup instruction conflicts volume",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt",
+        "destination": "handKsaltsupply2/5; separate fromDsea salt",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Filling A: 4 oz Canned Tuna, drained and mixed with 1 tbsp Mayo + 1 tsp Soy Sauce",
+        "destination": "Apreparedmix3 filling1Tbperball; surplus not resolved frozen",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Filling B: 4 Umeboshi (pickled plums), pitted",
+        "destination": "B3 onepittedplum perball; frozen universal1Tbconflict",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Filling C: 1/4 cup Salmon Flakes (fresh cooked or canned) mixed with 1/2 tsp Soy Sauce",
+        "destination": "C3 preparedmix; dividefullsupply proposed",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Filling D: 2 tbsp Sesame Seeds mixed with 1/2 tsp Sea Salt",
+        "destination": "D3 preparedmix; frozen1Tb×4 exceeds2Tb+salt supply",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "4-8 Sheets Nori (seaweed), cut into strips",
+        "destination": "nori6 strips; unused sheets remain dry stored",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Sesame Seeds for garnish (optional)",
+        "destination": "optionalgarnish7",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      },
+      {
+        "ingredient": "Water in a small bowl (for wet hands)",
+        "destination": "handwater2/5 never filling",
+        "scope": "Actual frozen ingredient destination; any separate proposed preparation correction is recorded in exactChanges."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "2 cups Cooked Japanese Short-Grain Rice (warm or room temperature)",
+        "destination": "fullcookedrice3 divided4originalballs; frozen1drycup instruction conflicts volume"
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt",
+        "destination": "handKsaltsupply2/5; separate fromDsea salt"
+      },
+      {
+        "ingredient": "Filling A: 4 oz Canned Tuna, drained and mixed with 1 tbsp Mayo + 1 tsp Soy Sauce",
+        "destination": "Apreparedmix3 filling1Tbperball; surplus not resolved frozen"
+      },
+      {
+        "ingredient": "Filling B: 4 Umeboshi (pickled plums), pitted",
+        "destination": "B3 onepittedplum perball; frozen universal1Tbconflict"
+      },
+      {
+        "ingredient": "Filling C: 1/4 cup Salmon Flakes (fresh cooked or canned) mixed with 1/2 tsp Soy Sauce",
+        "destination": "C3 preparedmix; dividefullsupply proposed"
+      },
+      {
+        "ingredient": "Filling D: 2 tbsp Sesame Seeds mixed with 1/2 tsp Sea Salt",
+        "destination": "D3 preparedmix; frozen1Tb×4 exceeds2Tb+salt supply"
+      },
+      {
+        "ingredient": "4-8 Sheets Nori (seaweed), cut into strips",
+        "destination": "nori6 strips; unused sheets remain dry stored"
+      },
+      {
+        "ingredient": "Sesame Seeds for garnish (optional)",
+        "destination": "optionalgarnish7"
+      },
+      {
+        "ingredient": "Water in a small bowl (for wet hands)",
+        "destination": "handwater2/5 never filling"
+      }
+    ],
+    "frozenMethodOnly": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Cook the Rice: Use the listed volume of cooked Japanese short-grain rice. If starting from dry rice, follow the actual rice or rice-cooker instructions and measure the cooked output; do not assume a cup of dry rice produces the required cooked volume or shares a universal water ratio. Allow the package-directed covered rest after cooking, then use warm rice that is comfortable to handle. Cooking and resting from dry rice are extra time."
+    },
+    {
+      "step": 2,
+      "text": "Prepare the Work Surface: Have a small bowl of water nearby. Wash your hands, then wet them slightly using clean water. Use small pinches from the listed kosher-salt supply across the whole batch, keeping it separate from the sesame filling’s sea salt. Rewet only as needed."
+    },
+    {
+      "step": 3,
+      "text": "Form the Triangle (Basic Shape): Divide the full rice among the listed rice-ball portions; the original four-ball batch uses about half a cup per ball. Make a small indent for the chosen filling. For tuna, mix its full listed tuna, mayonnaise and soy sauce supplies, spoon about one tablespoon into each original-size rice pocket, and refrigerate any unused prepared mixture promptly rather than overfilling. For umeboshi, use one of the listed pitted plums per original-size ball. For salmon or sesame salt, mix the full listed supplies for that one choice and divide the mixture across the listed rice-ball portions; the sesame mixture is smaller than a tablespoon per ball. Choose one filling batch, or plan proportional smaller filling batches for a variety; do not combine all four ingredient options into every ball."
+    },
+    {
+      "step": 4,
+      "text": "Encase the Filling: Cup your hand to gently bring rice up and around the filling, enclosing it completely. You should have a ball of rice with filling inside. Squeeze gently but firmly - you want it compact enough to hold together but not so tight that it becomes dense."
+    },
+    {
+      "step": 5,
+      "text": "Shape into Triangle: Place the rice ball on your work surface. Using both hands (re-wet and use the remaining listed hand-seasoning salt only as needed), gently shape it into a triangle by applying even pressure on three sides. The shape comes from your hands, not from pressing into a mold. A triangular onigiri is iconic and practical - it sits flat and is easy to wrap."
+    },
+    {
+      "step": 6,
+      "text": "Wrap with Nori: Cut nori into strips about 1 inch wide and 3-4 inches long. Wrap one strip around the middle of the onigiri, like a belt. The nori will stick to the rice from its slight moisture. If wrapping right before serving, the nori stays crispy; if you wrap earlier, it softens slightly from the rice moisture."
+    },
+    {
+      "step": 7,
+      "text": "Garnish and Store: Sprinkle with sesame seeds if desired. Serve warm or at room temperature. For make-ahead service, refrigerate promptly at 40°F or below and transport with an ice pack. Count preparation and service together: discard perishable onigiri left out over 2 hours, or 1 hour above 90°F. If frozen, thaw in the refrigerator rather than on the counter. Keep nori separate until serving for crispness."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "reference": "ingredients and Directions3",
+      "supply": "Filling A: 4 oz Canned Tuna, drained and mixed with 1 tbsp Mayo + 1 tsp Soy Sauce",
+      "scope": "Choose one complete filling or proportional smaller choices; all supplies exclusive, actual larger tuna preparation may leave separately cold-stored surplus."
+    },
+    {
+      "reference": "ingredients and Directions3",
+      "supply": "Filling B: 4 Umeboshi (pickled plums), pitted",
+      "scope": "Choose one complete filling or proportional smaller choices; all supplies exclusive, actual larger tuna preparation may leave separately cold-stored surplus."
+    },
+    {
+      "reference": "ingredients and Directions3",
+      "supply": "Filling C: 1/4 cup Salmon Flakes (fresh cooked or canned) mixed with 1/2 tsp Soy Sauce",
+      "scope": "Choose one complete filling or proportional smaller choices; all supplies exclusive, actual larger tuna preparation may leave separately cold-stored surplus."
+    },
+    {
+      "reference": "ingredients and Directions3",
+      "supply": "Filling D: 2 tbsp Sesame Seeds mixed with 1/2 tsp Sea Salt",
+      "scope": "Choose one complete filling or proportional smaller choices; all supplies exclusive, actual larger tuna preparation may leave separately cold-stored surplus."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["japanese-cucumber-sunomono", "steamed-white-rice"],
+    "scope": "All existing pairings preserved. No incoming composed-meal reference found; pairings do not certify linked components."
+  },
+  "ratiosYieldAndCapacity": {
+    "formula": "All current full measured doses and existing ingredient controls preserved; options exclusive as written.",
+    "yield": "4",
+    "capacity": "Original cut sizes remain fixed; sufficient uncrowded vessels, no invented dimensions or load certification.",
+    "timing": "The original ten-minute assembly plan starts with cooked rice and prepared filling. Cooking rice, its covered rest, chilling and thawing are additional elapsed time."
+  },
+  "preservedPriorRepairs": "Published prompt40 cold/icepack/2h1h90/fridge-thaw/nori separation paragraph preserved exactly.",
+  "remainingQuestions": [
+    "Confirm intended number/size of nori strips versus the large written whole-sheet supply; no dose reduced.",
+    "Measure actual tuna mixture yield and household filling preference; original source may intentionally prepare surplus.",
+    "Fractional plum and rice-ball counts at small scales require practical division; no exact mass equivalence or tested frozen texture."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
