@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "135 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "147 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 381 recorded complete / 262 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [87e10cbd](https://github.com/jsilton/mise/commit/87e10cbd4a4eca57ca3a5edbfd853d73736f95cc), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37418831631) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -6052,17 +6052,21 @@
         "record": "docs/reviews/chocolate-chip-walnut-cookies.md",
         "acceptedSha256": "c389db25d92e20b433a0cd9582e202c05a8acd7938653b2c710faf1e6e8defc5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-chip-walnut-cookies.json",
         "sourceSha256": "c389db25d92e20b433a0cd9582e202c05a8acd7938653b2c710faf1e6e8defc5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "c389db25d92e20b433a0cd9582e202c05a8acd7938653b2c710faf1e6e8defc5",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "What is the actual large-spoonful weight, cookie count and number of loads on the household sheets?",
@@ -6094,17 +6098,21 @@
         "record": "docs/reviews/chocolate-crinkle-cookies.md",
         "acceptedSha256": "4b65a2a815d1644be20311a35641b92592811781a3eed087860dd66f234d2c1b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/chocolate-crinkle-cookies.json",
         "sourceSha256": "4b65a2a815d1644be20311a35641b92592811781a3eed087860dd66f234d2c1b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4b65a2a815d1644be20311a35641b92592811781a3eed087860dd66f234d2c1b",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm the small-cookie count, actual tablespoon scoop and coating sugar consumed.",
@@ -8828,17 +8836,21 @@
         "record": "docs/reviews/double-chocolate-cookies.md",
         "acceptedSha256": "e012e8227431755be510893db6479f79bb686f27eef6f1f0e744b8b42ba69ede",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/double-chocolate-cookies.json",
         "sourceSha256": "e012e8227431755be510893db6479f79bb686f27eef6f1f0e744b8b42ba69ede"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e012e8227431755be510893db6479f79bb686f27eef6f1f0e744b8b42ba69ede",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm actual 9–10 count with the exact flour/chocolate weights and 3 1/2-oz portions.",
@@ -9006,17 +9018,21 @@
         "record": "docs/reviews/easy-baked-turkey-meatballs.md",
         "acceptedSha256": "94afecaf3ab7f9cc76504701d19c1ccd739f446f2a7b8dca8672033f99ef9d4a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-baked-turkey-meatballs.json",
         "sourceSha256": "94afecaf3ab7f9cc76504701d19c1ccd739f446f2a7b8dca8672033f99ef9d4a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "94afecaf3ab7f9cc76504701d19c1ccd739f446f2a7b8dca8672033f99ef9d4a",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Measure actual number and cooked portion weight of two-tablespoon meatballs and whether12 portions suits dinner service.",
@@ -9898,17 +9914,21 @@
         "record": "docs/reviews/extraordinary-chocolate-chip-cookie.md",
         "acceptedSha256": "8778d206737241c36ebe41f896985432014b3f3ab464fbdd895336f35f5ca6f2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/extraordinary-chocolate-chip-cookie.json",
         "sourceSha256": "8778d206737241c36ebe41f896985432014b3f3ab464fbdd895336f35f5ca6f2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8778d206737241c36ebe41f896985432014b3f3ab464fbdd895336f35f5ca6f2",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Compare immediate, overnight and 24–36-hour dough for actual spread and bake time; no tested flavor advantage is established.",
@@ -12512,17 +12532,21 @@
         "record": "docs/reviews/grilled-chicken-with-herbed-corn-salsa.md",
         "acceptedSha256": "402f16eafe422b7e50ec691900995c2e8527497ded4d5ad86b5d3692cc4b0677",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/grilled-chicken-with-herbed-corn-salsa.json",
         "sourceSha256": "402f16eafe422b7e50ec691900995c2e8527497ded4d5ad86b5d3692cc4b0677"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "402f16eafe422b7e50ec691900995c2e8527497ded4d5ad86b5d3692cc4b0677",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Check actual thigh size, grill flare behavior, four portions and chicken/corn parallel capacity.",
@@ -18108,11 +18132,11 @@
         "record": "docs/reviews/one-pan-lemon-herb-chicken-thighs.md",
         "acceptedSha256": "dcd46a42509c40c8dfe6fd5028a9246463eb74cb191198a876fb8fc69db7dc3d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/one-pan-lemon-herb-chicken-thighs.json",
         "sourceSha256": "dcd46a42509c40c8dfe6fd5028a9246463eb74cb191198a876fb8fc69db7dc3d"
       },
@@ -18121,10 +18145,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "dcd46a42509c40c8dfe6fd5028a9246463eb74cb191198a876fb8fc69db7dc3d",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Which potatoes/root vegetables and actual oven-safe vessel fit all8 thighs plus1lb vegetables without crowding? Confirm earlier removal and sauce/vegetable endpoint checks.",
@@ -18159,17 +18188,21 @@
         "record": "docs/reviews/one-pot-chicken-meatballs-with-greens.md",
         "acceptedSha256": "cb1617e707f239ad1356fa306cd412319a0e0e5ee1f79bd935e5913d1ecbbc02",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/one-pot-chicken-meatballs-with-greens.json",
         "sourceSha256": "cb1617e707f239ad1356fa306cd412319a0e0e5ee1f79bd935e5913d1ecbbc02"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cb1617e707f239ad1356fa306cd412319a0e0e5ee1f79bd935e5913d1ecbbc02",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm preferred mixing-salt crystal type, extra oil actually used for palms/pan, approximate14-ball count/size and lid/pot capacity.",
@@ -22256,17 +22289,21 @@
         "record": "docs/reviews/savory-thai-turkey-lettuce-wraps.md",
         "acceptedSha256": "9c98b8235a5a6d22ae290b580f454b588401481548868e560718d6433030a30b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/savory-thai-turkey-lettuce-wraps.json",
         "sourceSha256": "9c98b8235a5a6d22ae290b580f454b588401481548868e560718d6433030a30b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9c98b8235a5a6d22ae290b580f454b588401481548868e560718d6433030a30b",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm fish-sauce/sugar-or-hoisin balance, lettuce type and actual leaf/portion count; no leaf quantity or new yield is invented.",
@@ -24766,17 +24803,21 @@
         "record": "docs/reviews/soft-batch-chocolate-chip-cookies.md",
         "acceptedSha256": "1a78ea49281d6775f2ecedaef3d860b7264ec391c87c132125da7dd8c6e49b89",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/soft-batch-chocolate-chip-cookies.json",
         "sourceSha256": "1a78ea49281d6775f2ecedaef3d860b7264ec391c87c132125da7dd8c6e49b89"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1a78ea49281d6775f2ecedaef3d860b7264ec391c87c132125da7dd8c6e49b89",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm 36 count and load count with the actual 2-tablespoon portions.",
@@ -26538,17 +26579,21 @@
         "record": "docs/reviews/sugar-cookie.md",
         "acceptedSha256": "cc51e68eb956f01042569146aebc778b51a0767996de1d2dfee9d8d90a12f374",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sugar-cookie.json",
         "sourceSha256": "cc51e68eb956f01042569146aebc778b51a0767996de1d2dfee9d8d90a12f374"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "cc51e68eb956f01042569146aebc778b51a0767996de1d2dfee9d8d90a12f374",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm actual 36 count, number of loads and cooling with 2 1/2-inch cutters.",
@@ -26807,17 +26852,21 @@
         "record": "docs/reviews/sweet-chili-chicken-sliders.md",
         "acceptedSha256": "6c07cd09cbf1331fccc9298baad8a4a97fd174ac3f9faeb7ae85e3931b105711",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sweet-chili-chicken-sliders.json",
         "sourceSha256": "6c07cd09cbf1331fccc9298baad8a4a97fd174ac3f9faeb7ae85e3931b105711"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6c07cd09cbf1331fccc9298baad8a4a97fd174ac3f9faeb7ae85e3931b105711",
+        "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+        "evidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json"
       },
       "remainingQuestions": [
         "What is the intended salad-kit package size/composition and actual quantity per12 sliders?",

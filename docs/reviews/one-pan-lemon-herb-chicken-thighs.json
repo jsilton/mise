@@ -1,6 +1,6 @@
 {
   "slug": "one-pan-lemon-herb-chicken-thighs",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
   "inputSha256": "9bc2e000ff06c511a0486a4ff1e3b4b984e36f5f3e8d284d68e66af650225b65",
   "acceptedSourceSha256": "dcd46a42509c40c8dfe6fd5028a9246463eb74cb191198a876fb8fc69db7dc3d",
@@ -1002,7 +1002,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1026,5 +1026,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+  "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
 }

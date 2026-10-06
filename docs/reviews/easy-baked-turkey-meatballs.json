@@ -1,6 +1,6 @@
 {
   "slug": "easy-baked-turkey-meatballs",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
   "inputSha256": "a0ea0d809a38dc3cf2d2ed141dbda3f0fbf428406403825a82bf46ef0adf71ce",
   "acceptedSourceSha256": "94afecaf3ab7f9cc76504701d19c1ccd739f446f2a7b8dca8672033f99ef9d4a",
@@ -507,7 +507,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -531,5 +531,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+  "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
 }

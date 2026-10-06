@@ -1,6 +1,6 @@
 {
   "slug": "grilled-chicken-with-herbed-corn-salsa",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
   "inputSha256": "c0c482e16b818bc9c26c9368e3fd6bf5c867379e64821b94c17065bcc2a65ee3",
   "acceptedSourceSha256": "402f16eafe422b7e50ec691900995c2e8527497ded4d5ad86b5d3692cc4b0677",
@@ -445,7 +445,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -469,5 +469,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+  "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
 }

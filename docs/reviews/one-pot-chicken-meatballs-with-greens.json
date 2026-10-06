@@ -1,6 +1,6 @@
 {
   "slug": "one-pot-chicken-meatballs-with-greens",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "667227656817789e45e59e88419a7f0505f7d6a6",
   "inputSha256": "17a1016ba1c967f1c60e52692fdfae86fe3859aa09d142b14854787903c02177",
   "acceptedSourceSha256": "cb1617e707f239ad1356fa306cd412319a0e0e5ee1f79bd935e5913d1ecbbc02",
@@ -1193,7 +1193,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-review.md",
   "rootDisposition": "Root accepts all twelve full versions. Complete saved formulas, richness, distinct variants and earlier safety/allocation repairs remain; source disagreements are explicit, actual kitchen yields/timing are untested and linked meals remain separately unapproved.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/cookies-poultry-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1217,5 +1217,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc",
+  "releaseCommit": "87e10cbd4a4eca57ca3a5edbfd853d73736f95cc"
 }
