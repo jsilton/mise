@@ -9,7 +9,7 @@
   "otherRegisterAndMatrixReviewCreditPreserved": true,
   "onlyFiveExportSchemasChanged": true,
   "allPriorTestsAndFixturesUnchanged": true,
-  "status": "accepted and locally validated; implementation and exact production pending",
+  "status": "implemented and locally validated; production verification pending",
   "recipes": [
     {
       "slug": "rosemary-pork-tenderloin",
@@ -105,5 +105,7 @@
   },
   "productionVerification": "pending",
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+  "postCommitAcceptedHashesMatch": true
 }
