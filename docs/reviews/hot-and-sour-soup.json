@@ -1,6 +1,6 @@
 {
   "slug": "hot-and-sour-soup",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
   "inputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408",
   "acceptedSourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
@@ -1430,7 +1430,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -1454,5 +1454,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+  "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
 }

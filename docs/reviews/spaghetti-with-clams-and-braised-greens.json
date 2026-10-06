@@ -1,6 +1,6 @@
 {
   "slug": "spaghetti-with-clams-and-braised-greens",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
   "inputSha256": "6c9e9f076c79f8cd47925f260a6cfc486b20481b70dc43b3d8f7fa6b70d41c69",
   "acceptedSourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
@@ -889,7 +889,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -913,5 +913,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+  "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
 }

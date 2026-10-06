@@ -1,6 +1,6 @@
 {
   "slug": "garlic-paste-toum-the-washington-post",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "909276429ddfb30649f4384fd9d1271c9966087c",
   "inputSha256": "ea1a5073eed04a6e413f4ef4a7d6f507ed4a8a96472497930d46657cfbf90df2",
   "acceptedSourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
@@ -637,7 +637,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
   "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -661,5 +661,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+  "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
 }

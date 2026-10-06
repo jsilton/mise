@@ -538,7 +538,9 @@
       ],
       "reviewer": "baking_editor",
       "inputCommit": "633825861e9687843b532d4f9fdfa0273e6a5e15",
-      "status": "assigned; whole author/independent/root pending"
+      "status": "whole author frozen; independent/root pending",
+      "manifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "manifestSha256": "25a3efcc6142202cb1f2e7e0ed2d7f105ba6ce83b4101332536abdf819a0685c"
     },
     "sides_pressure_preservation_24": {
       "slugs": [
@@ -553,7 +555,9 @@
       ],
       "reviewer": "poultry_editor",
       "inputCommit": "e6d50f7dfb56e20a93346dae5e07584637b29559",
-      "status": "assigned; whole author/independent/root pending"
+      "status": "whole author frozen; independent/root pending",
+      "manifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "manifestSha256": "7e86f0868430f2e9f11781419f3a197e179749b1804f51319001145c441ce2a5"
     }
   },
   "recipes": [
@@ -3492,7 +3496,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3501,7 +3505,10 @@
       ],
       "inputSha256": "44243d503dcfbb00fba4aefcac9ddc2421a2add61d0dc2b9c25fdf25b4930e1e",
       "plannedBatch": "stir-fry-and-pan-cooking-02",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "57e927a35747875f42b20d34d383d5df6792242780a4ccc42374733558146f02"
     },
     {
       "slug": "crispy-sheet-pan-gnocchi-and-veggies",
@@ -4288,7 +4295,7 @@
       "source": "Adapted from Wellnessmama.com",
       "sourceUrl": "https://wellnessmama.com/1888/elderberry-syrup/",
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4297,7 +4304,10 @@
       ],
       "inputSha256": "8184652b1085f842ff6b7ae722f85c1c8a1f810d7bcaca59997efc585deddbf1",
       "plannedBatch": "simmer-boil-and-steam-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d"
     },
     {
       "slug": "elote-style-corn-on-the-cob",
@@ -5010,7 +5020,7 @@
       "source": "Adapted from Washingtonpost.com",
       "sourceUrl": "https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a",
       "group": "sauces_oils_08",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/garlic-paste-toum-the-washington-post.json",
@@ -5036,7 +5046,9 @@
         "recordSha256": "9ab503c02adcdc6aed01bc95003c2193ba07a0bdd96c57a3855ce314dc3eee81"
       },
       "acceptedSourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "garlicky-lemon-kale-with-carrots",
@@ -5929,7 +5941,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "sauces_oils_08",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-chili-oil.json",
@@ -5955,7 +5967,9 @@
         "recordSha256": "31d2e1887ef69441d0b6686f2a45baf408e946128a41ce7ee4673abb00e478ea"
       },
       "acceptedSourceSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "homemade-enchilada-sauce",
@@ -5964,7 +5978,7 @@
       "source": "Adapted from Cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/2016/enchilada-sauce-recipe/",
       "group": "sauces_oils_08",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-enchilada-sauce.json",
@@ -5989,7 +6003,9 @@
         "recordSha256": "14d483031c21eddc70f9a7b606e313a03dd9fa04b1e964f5307feb0d518e4394"
       },
       "acceptedSourceSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "homemade-sugar-free-ketchup",
@@ -5998,7 +6014,7 @@
       "source": "Adapted from Sugarfreelondoner.com",
       "sourceUrl": "http://sugarfreelondoner.com/sugar-free-ketchup/",
       "group": "sauces_oils_08",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/homemade-sugar-free-ketchup.json",
@@ -6025,7 +6041,9 @@
         "recordSha256": "67be489527aae3632d30cfa482a16b2c3861b9d3fdecf37bfabb97693fd0c1c5"
       },
       "acceptedSourceSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "honey-glazed-carrots",
@@ -6091,7 +6109,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "http://www.foodnetwork.com/recipes/tyler-florence/hot-and-sour-soup-recipe-1914206",
       "group": "stock_linked_mains_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/hot-and-sour-soup.md",
         "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
@@ -6106,9 +6124,10 @@
       "plannedBatch": "simmer-boil-and-steam-05",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "c04a531d082bed9229bf08ef884227d51d0cff1897246595f13e09b7ac685408",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
     },
     {
       "slug": "hot-mulled-apple-cider",
@@ -6186,16 +6205,19 @@
       "source": "Adapted from damndelicious.net",
       "sourceUrl": "https://damndelicious.net/2019/12/29/instant-pot-butternut-squash-soup/",
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What exactpressuremodel/capacity/manual permitsactualbaconfat/full4cupstock+produce load withappropriate soup fill/release rules?",
+        "Howmuchrenderedfat andstartingvolume actualbatchhas? Cannot guessfatdilution or claimPDFmanual read."
       ],
       "inputSha256": "0022268054110fabe3a82245e8a6c1518381990e561b92580606cd8405724301",
       "plannedBatch": "context-screening-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "0022268054110fabe3a82245e8a6c1518381990e561b92580606cd8405724301"
     },
     {
       "slug": "instant-pot-potato-leek-soup",
@@ -6204,16 +6226,19 @@
       "source": "Adapted from simplyhappyfoodie.com",
       "sourceUrl": "https://www.simplyhappyfoodie.com/instant-pot-potato-leek-soup/",
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": ["docs/reviews/bounded-recipe-batch-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What exactmodel/manual permitsfull3Tbbutter+2Tböl andprepressure2Tbflour/5broth route?",
+        "Whatnative saltcrystals/leekvolume option isintended? Modern1½lbpotatoes/5–6broth isdifferentformula, nothouseequivalence."
       ],
       "inputSha256": "c850af87ebe661990045ea4eebf2e74a8852d602871dd70d65d9b59d80a26715",
       "plannedBatch": "simmer-boil-and-steam-05",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "c850af87ebe661990045ea4eebf2e74a8852d602871dd70d65d9b59d80a26715"
     },
     {
       "slug": "japanese-beef-rice-bowl-gyudon",
@@ -6656,7 +6681,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share",
       "group": "stock_linked_mains_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/lemon-miso-tofu-with-broccoli.md",
         "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
@@ -6670,9 +6695,10 @@
       "plannedBatch": "stir-fry-and-pan-cooking-04",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "bdc89b93d2245d979fff2b4297be758b8fa7cdf296d36e1f00f24a6c06f77824",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
     },
     {
       "slug": "loaded-baked-omelet-muffins",
@@ -7241,7 +7267,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/7199-my-favorite-challah",
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7250,7 +7276,10 @@
       ],
       "inputSha256": "4edd459bf8b258fb943d07d0ddc9ecce5472facce7d96b7b2938fc58f62e9dfc",
       "plannedBatch": "baked-savory-and-breads-07",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c"
     },
     {
       "slug": "nana-ruths-applesauce",
@@ -7259,16 +7288,20 @@
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "What jarsize/actual¼jarhoney amount didNana use?",
+        "What “¼water” unitandpot geometry, andhowmuchless-than¾lemonjuice? Is currentd330¼cup/¼inch/fulllemon anexplicitwanted separatevariation?",
+        "Nativeyieldunknown: doesfull6lbpeeledMcIntosh batchserve6oractualfamilyportionplan? PreserveRoshHashanah/Thanksgiving/Hanukkah/Ruthcredit."
       ],
       "inputSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236",
       "plannedBatch": "simmer-boil-and-steam-07",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236"
     },
     {
       "slug": "nanas-biscuits",
@@ -7304,7 +7337,7 @@
       "source": "Adapted from tinkerlab.com",
       "sourceUrl": "https://tinkerlab.com/no-cook-play-dough/",
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification", "non-food-content"],
       "remainingQuestions": [
@@ -7314,7 +7347,10 @@
       "inputSha256": "342258d03dad918835f4f8efec9013503b6a018998953750f158f7b7e2bb64ea",
       "scope": "existing craft; non-food editorial disposition required",
       "plannedBatch": "non-food-disposition-01",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c"
     },
     {
       "slug": "noodle-pudding",
@@ -7800,7 +7836,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7809,7 +7845,10 @@
       ],
       "inputSha256": "4eee8e05625aea853037aa5f5771b3a63ac649fd11e46da1567daa2f24a5f3e1",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "a6b215286288add4cab0ef7636472e7b6505e1b7679863c76d55482269cfcad4"
     },
     {
       "slug": "patate-al-forno",
@@ -8004,7 +8043,7 @@
       "source": "Adapted from Gracy Ann",
       "sourceUrl": null,
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification", "non-food-content"],
       "remainingQuestions": [
@@ -8014,7 +8053,10 @@
       "inputSha256": "8d6157beba45cc2df6ede83eea7a0a384c9fb787a833f7802c5b52a75a57a252",
       "scope": "existing craft; non-food editorial disposition required",
       "plannedBatch": "non-food-disposition-01",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f"
     },
     {
       "slug": "pork-and-greens-dumplings",
@@ -8023,7 +8065,7 @@
       "source": "thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/dumpling-recipe-youll-ever-need/",
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/pork-and-greens-dumplings.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -8032,7 +8074,10 @@
       ],
       "inputSha256": "e40114e26ecb2dd5035e81550a197466cd2f8cdfc9d9dad23ad4e7fca880a366",
       "plannedBatch": "stir-fry-and-pan-cooking-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77"
     },
     {
       "slug": "pressure-cooker-bolognase",
@@ -8395,7 +8440,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8404,7 +8449,10 @@
       ],
       "inputSha256": "9cf67061e710024e753b38c8393c455f37e063f03a77c3c73a85cd866374fb20",
       "plannedBatch": "simmer-boil-and-steam-08",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027"
     },
     {
       "slug": "red-velvet-cupcakes",
@@ -8926,7 +8974,7 @@
       "source": "Adapted from preppykitchen.com",
       "sourceUrl": "https://preppykitchen.com/royal-icing/",
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -8935,7 +8983,10 @@
       ],
       "inputSha256": "a8e1f76db3399ab137ee7fa6bb2dcb371e527679fd8ee806e4f3c6e8ee618e78",
       "plannedBatch": "cold-preparations-04",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703"
     },
     {
       "slug": "sage-brown-butter-sauce-butternut-squash-ravioli",
@@ -8992,7 +9043,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "sauces_oils_08",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/manifest.json",
         ".mise/editorial-campaign/2026-10-05/sauces_oils_08/records/san-marzano-tomato-sauce.json",
@@ -9018,7 +9069,9 @@
         "recordSha256": "9a04396272a4f24e68aa2edc7bfbbfefc47c9428e9d79314af16a6654d6dd590"
       },
       "acceptedSourceSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "sausage-and-white-bean-skillet",
@@ -9472,7 +9525,7 @@
       "source": "Adapted from foodandwine.com",
       "sourceUrl": "https://www.foodandwine.com/recipes/shrimp-and-corn-chowder",
       "group": "seafood_soups_10",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/shrimp-and-corn-chowder.json",
@@ -9504,7 +9557,9 @@
         "recordSha256": "8c51aa5a9764665c491847539beea07067dd4c799f8938b67f1fb79d0901afb9"
       },
       "acceptedSourceSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "shrimp-and-mango-tacos",
@@ -9989,7 +10044,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share",
       "group": "stock_linked_mains_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.md",
         "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
@@ -10003,9 +10058,10 @@
       "plannedBatch": "stir-fry-and-pan-cooking-06",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "8e5cb8f9d9f5d07aadae64543d27e2a00ae88b8fbdb7aceb14645c1521087f38",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
     },
     {
       "slug": "soft-batch-chocolate-chip-cookies",
@@ -10131,7 +10187,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens",
       "group": "seafood_soups_10",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams-and-braised-greens.json",
@@ -10156,7 +10212,9 @@
         "recordSha256": "35b657a87d5c9e02dd9c4cf21f462bf631b003004717786ca16bcd5f32f4d8fb"
       },
       "acceptedSourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "spaghetti-with-clams",
@@ -10165,7 +10223,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams",
       "group": "seafood_soups_10",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/spaghetti-with-clams.json",
@@ -10192,7 +10250,9 @@
         "recordSha256": "84daca9f198b3346e92697b841afe7f133363966f8e19b68da8996d5e48a7765"
       },
       "acceptedSourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live"
     },
     {
       "slug": "spanish-rice-chorizo",
@@ -10253,7 +10313,7 @@
       "source": "Adapted from Silton Family",
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10262,7 +10322,10 @@
       ],
       "inputSha256": "25a593639c733af3c69aaab5fea922f4ab211c21579bbfd2cf5b8b9d0f35af3a",
       "plannedBatch": "baked-savory-and-breads-10",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "2e28f2262fcbbcbf44c606e0964336901ad71ee6400ed32acbe66d98df807ecd"
     },
     {
       "slug": "spinach-and-mushroom-quiche",
@@ -10496,16 +10559,19 @@
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
       "group": "breads_crafts_dumplings_23",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "All missing-dose/title/capacity/gelatinproduct/reservedlayer questions remain whole blockers. No candidateacceptance, partialcompletionor kitchenclaim.",
+        "What exact large gelatin box weight/strength and pineapplecan size/drainedquantity? Confirm3mediumversuslargebananas,optional1cupversus½cuppecans, intendeddish/yield/title. How was reservedsecondlayerkeptcoldandreliquifiedifnecessary withoutnewliquid? No vegetarianclaim untilgelatinproductverified."
       ],
       "inputSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674",
       "plannedBatch": "simmer-boil-and-steam-10",
-      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
+      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
+      "authorSourceSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674"
     },
     {
       "slug": "strawberry-quinoa-breakfast-bars",
@@ -10719,7 +10785,7 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce",
       "group": "sides_pressure_preservation_24",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -10728,7 +10794,10 @@
       ],
       "inputSha256": "e5e504cdca1548b3b24b2980dde02c388f56d2cf648938270462fd835ac58f30",
       "plannedBatch": "braises-and-slow-cooking-03",
-      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json"
+      "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
+      "reviewPhase": "Whole author proposal frozen; independent/root acceptance pending",
+      "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
+      "authorSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db"
     },
     {
       "slug": "sweet-and-white-potato-gratin",
@@ -11525,7 +11594,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share",
       "group": "stock_linked_mains_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/yaki-udon.md",
         "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md"
@@ -11540,9 +11609,10 @@
       "plannedBatch": "simmer-boil-and-steam-11",
       "assignmentInputCommit": "c84083a3cc09d1c28e1cb838abc4214ba9bed2fc",
       "assignmentInputSha256": "23d3b8a64b25df74a4177e29494b81f360f525ebdd79c6cf892939d6eb2c6604",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json",
+      "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
     },
     {
       "slug": "yellow-cake-with-chocolate-frosting",
@@ -12398,11 +12468,9 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 257,
-    "held": 27,
-    "proposed": 96,
-    "assigned": 15,
-    "held-awaiting-evidence": 2,
-    "accepted": 12
+    "production-verified": 269,
+    "held": 31,
+    "proposed": 107,
+    "held-awaiting-evidence": 2
   }
 }

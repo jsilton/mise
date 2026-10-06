@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "257 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "269 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 503 recorded complete / 140 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [8bbde922](https://github.com/jsilton/mise/commit/8bbde922fd3ec820b5c8f57b6c0b063a599e91c7), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37460085760) and all 12 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -11396,11 +11396,11 @@
         "record": "docs/reviews/garlic-paste-toum-the-washington-post.md",
         "acceptedSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/garlic-paste-toum-the-washington-post.json",
         "sourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1"
       },
@@ -11409,10 +11409,15 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
-        }
+        },
+        "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bb87a2b101ac6c88525cf848cbcdf1d1b9b05a3124834352ccbf31ce028003a1",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
@@ -13513,11 +13518,11 @@
         "record": "docs/reviews/homemade-chili-oil.md",
         "acceptedSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/homemade-chili-oil.json",
         "sourceSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9"
       },
@@ -13531,10 +13536,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "1a9d14456862acbfc7f3f47830ebad5472c9bc637fbac48232965dcaa5c5e0a9",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
@@ -13570,11 +13580,11 @@
         "record": "docs/reviews/homemade-enchilada-sauce.md",
         "acceptedSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/homemade-enchilada-sauce.json",
         "sourceSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb"
       },
@@ -13583,10 +13593,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6adef29e557d1ef535b7fc01cd06f32ce747d20a38b38b8a48163b898a0931cb",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
@@ -13699,17 +13714,21 @@
         "record": "docs/reviews/homemade-sugar-free-ketchup.md",
         "acceptedSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/homemade-sugar-free-ketchup.json",
         "sourceSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "8aa8d749f0171e086b91f5764e1a92e3df2717906747100a57d941c213ed3c77",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
@@ -14029,11 +14048,11 @@
         "record": "docs/reviews/hot-and-sour-soup.md",
         "acceptedSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "5741495b479d1891066e004ed07aa4b5f830db66",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/hot-and-sour-soup.json",
         "sourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87"
       },
@@ -14042,10 +14061,15 @@
           "commit": "5741495b479d1891066e004ed07aa4b5f830db66",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "e2355d881ba53b9d44f7ddd19072465650742f071d5e2515a58ea844a0f37d87",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "What was the household tofu square/package size?",
@@ -15771,17 +15795,21 @@
         "record": "docs/reviews/lemon-miso-tofu-with-broccoli.md",
         "acceptedSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/lemon-miso-tofu-with-broccoli.json",
         "sourceSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "2466aa3f1510319cfa13b759ceb94c49d23bfa812cff11c004c8d4de030b8488",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Record actual tofu batch count and elapsed time in the household pan.",
@@ -22070,11 +22098,11 @@
         "record": "docs/reviews/san-marzano-tomato-sauce.md",
         "acceptedSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/san-marzano-tomato-sauce.json",
         "sourceSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900"
       },
@@ -22083,10 +22111,15 @@
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
-        }
+        },
+        "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       ],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b9f0d4d3ffdc091b7e7b2846dfe3547de77f8b4d9501a7c2c8cb316ea96b3900",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Actual cooked yield, vessel capacity and active/elapsed times remain kitchen questions; no physical testing.",
@@ -23344,17 +23377,21 @@
         "record": "docs/reviews/shrimp-and-corn-chowder.md",
         "acceptedSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/shrimp-and-corn-chowder.json",
         "sourceSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "27dc6cd5da25905737e9a3c704158ed247902ce165055dba71a07daed8529889",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Which salt crystal type is used in the current household marinade? The retained source dose is a teaspoon, not a weight or a conversion to another salt.",
@@ -24840,17 +24877,21 @@
         "record": "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.md",
         "acceptedSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/soba-noodles-with-shiitakes-broccoli-and-tofu.json",
         "sourceSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "0b6738e62393fc87efc4f8f203e4569769456b721fc743321301f4e129e5d1ff",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Verify household soba brand, its package cooking time and pan batch size.",
@@ -25134,17 +25175,21 @@
         "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.md",
         "acceptedSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-with-clams-and-braised-greens.json",
         "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "61603081713595b8278f78e3cf4677f50a4ece49dd3593768fcc9d9e10a8ba43",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm the actual collard tenderness clock, clam load/pot size and preferred whole-lemon versus measured-lemon balance.",
@@ -25176,17 +25221,21 @@
         "record": "docs/reviews/spaghetti-with-clams.md",
         "acceptedSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/spaghetti-with-clams.json",
         "sourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "b64828c9dad873cf6a80eed6c3cddb52811967d16795c9e6eb4b374fb1c2b53d",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Which clam size and edible yield correspond to the current two-pound shell-on purchase?",
@@ -29134,17 +29183,21 @@
         "record": "docs/reviews/yaki-udon.md",
         "acceptedSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/yaki-udon.json",
         "sourceSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["8bbde922fd3ec820b5c8f57b6c0b063a599e91c7"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "7637870c1b8454106a50767127bc9102d968d31ca73ae9bbaf63be6176f6a17b",
+        "implementationCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "releaseCommit": "8bbde922fd3ec820b5c8f57b6c0b063a599e91c7",
+        "evidence": "docs/editorial-campaign/2026-10-05/sauces-stock-seafood-twelve-production.json"
       },
       "remainingQuestions": [
         "Confirm household choice between source-rich sauce and current lighter sauce after peer review; no deliberate reduction documented in later history.",
