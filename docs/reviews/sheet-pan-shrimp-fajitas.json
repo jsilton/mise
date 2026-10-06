@@ -1,0 +1,475 @@
+{
+  "slug": "sheet-pan-shrimp-fajitas",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "fe0d95c52890bd20edc03cd71253b406dfda8a3a213518691a76967725ce9ecb",
+  "acceptedSourceSha256": "ffc031f819de52b68e0483c6fa382a561ee9dec9f0319137b1a4ed818ab063fa",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 pounds raw jumbo shrimp, peeled and deveined",
+        "2 bell peppers, seeded and thinly sliced",
+        "1 large red or sweet onion, thinly sliced",
+        "2 tablespoons olive oil",
+        "1 lime, juiced",
+        "12 small corn tortillas, optional lime wedges",
+        "--- Seasoning ---",
+        "1/2 tbsp chili powder",
+        "1 1/2 tsp ground cumin",
+        "1 tsp kosher salt",
+        "1/4 tsp ground black pepper",
+        "1 tbsp smoked paprika",
+        "1/2 tsp garlic powder",
+        "1/4 tsp onion powder",
+        "1/2 tsp dried oregano"
+      ],
+      "after": [
+        "1.5 pounds raw jumbo shrimp, peeled and deveined",
+        "2 bell peppers, seeded and thinly sliced",
+        "1 large red or sweet onion, thinly sliced",
+        "2 tablespoons olive oil",
+        "1 lime, juiced",
+        "12 small corn tortillas",
+        "Lime wedges, for serving, optional",
+        "--- Seasoning ---",
+        "1/2 tbsp chili powder",
+        "1 1/2 tsp ground cumin",
+        "1 tsp kosher salt",
+        "1/4 tsp ground black pepper",
+        "1 tbsp smoked paprika",
+        "1/2 tsp garlic powder",
+        "1/4 tsp onion powder",
+        "1/2 tsp dried oregano"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "healthyfitnessmeals.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Give sliced vegetables a head start before adding jumbo shrimp.",
+        "outcome": "Softened peppers and onion with shrimp cooked through and removed promptly.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Start with thawed raw jumbo shrimp and thinly sliced vegetables. Cooked shrimp would overcook in this two-stage method.",
+          "Use enough rimmed pan space for single layers. Divide all the measured oil and seasoning approximately half for vegetables and half for shrimp; pan dimensions and cook times do not scale."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Vegetables begin to soften before shrimp are added.",
+            "why": "Starting the vegetables first accounts for their different cooking rates."
+          },
+          {
+            "step": 4,
+            "cue": "A thick shrimp reaches 145°F and is pearly and opaque throughout.",
+            "why": "Size and tray heat vary; the 6–10-minute stage is a first-check window."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Shrimp finish before vegetables soften.",
+            "cause": "Vegetables were thickly cut or crowded.",
+            "fix": "Move finished shrimp to a clean plate and continue the vegetables; next time slice more thinly and allow more pan area."
+          },
+          {
+            "problem": "The coating is uneven.",
+            "cause": "Seasoning remained in the mixing bowl or the pan was crowded.",
+            "fix": "Mix each coating thoroughly and transfer it all with its ingredients, then spread them evenly."
+          }
+        ],
+        "timing": "Allow about 40 minutes for the original batch: about 15 minutes prep and 18–25 minutes oven time, with oven heating and tortilla warming overlapping where practical. Additional pan loads extend elapsed time. Four portions and twelve tortillas are planning quantities for the original batch.",
+        "storage": "Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate. Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. Warm tortillas separately; toppings stay cold.",
+        "sources": [
+          {
+            "title": "Rena Awada: Sheet Pan Shrimp Fajitas",
+            "url": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/"
+          },
+          {
+            "title": "FDA: Seafood handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FDA: Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA: Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Bell peppers",
+            "alternative": "Different pepper colors",
+            "effect": "The source allows any colors without changing the measured total; sweetness varies."
+          },
+          {
+            "ingredient": "Raw jumbo shrimp",
+            "alternative": "Raw large shrimp",
+            "effect": "Smaller raw shrimp may finish earlier. Use the same weight and endpoint, not an identical clock."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPeppers and onions take longer than shrimp. Roast the vegetables first, then add the shrimp and cook only until opaque. This staging keeps the vegetables tender without leaving the shrimp in the oven for their whole cook.\n\n## Directions\n\n1. **Prepare:** Heat oven to 425°F. Line a large rimmed sheet pan with parchment rated for that temperature. Mix the measured spices in a small bowl.\n\n2. **Toss:** Toss sliced peppers and onion with one tablespoon of the oil and about half the seasoning. Spread in one layer and roast about 12–15 minutes, until beginning to soften.\n\n3. **Toss:** Toss peeled, deveined shrimp with the remaining oil and seasoning and the lime juice. Add to the vegetables, spreading shrimp in one layer; use a second pan if crowded.\n\n4. **Continue:** Roast about 6–10 minutes more, checking early, until shrimp are pearly white and opaque throughout. Remove as soon as done. Warm tortillas separately and serve with the shrimp, vegetables and optional lime wedges.\n",
+    "after": "\n## Chef's Note\n\nPeppers and onions take longer than shrimp. Roast the vegetables first, then add the shrimp and cook only until opaque. This staging keeps the vegetables tender without leaving the shrimp in the oven for their whole cook.\n\n## Directions\n\n1. **Prepare:** Heat oven to 425°F. Line a large rimmed sheet pan with parchment rated for that temperature, or use a suitable bare rimmed pan. Mix all the measured spices in a small bowl. Thaw frozen shrimp in the refrigerator and pat dry; remove tails if preferred for tacos.\n\n2. **Roast the Vegetables:** Toss sliced peppers and onion with half the measured oil and about half the seasoning. Spread in one layer, using additional pans if crowded, and roast about 12–15 minutes, until beginning to soften.\n\n3. **Add the Shrimp:** Toss peeled, deveined shrimp with the remaining oil and seasoning and all the measured lime juice. Add to the vegetables, spreading shrimp in one layer; use a second pan if crowded. Divide the full supplies proportionally across the pans.\n\n4. **Finish:** Roast about 6–10 minutes more, checking early, until the thickest shrimp reach 145°F with pearly, opaque flesh throughout. Remove as soon as done. Warm the measured tortillas separately and serve with all the shrimp and vegetables and optional lime wedges.\n"
+  },
+  "findings": [
+    {
+      "id": "SF02-3-1",
+      "rationale": "Preserve staged method, quantities and 40-minute planning; replace literal one-tablespoon allocation with proportional half/remaining oil and add scoped FDA endpoint/cold handling.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "native",
+        "9faedba5",
+        "e3001d04",
+        "HealthyFitnessMeals",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "content", "learning"],
+      "questions": [
+        "Confirm actual jumbo size, tray and vegetable thickness, 40-minute elapsed/active plan and twelve-tortilla dinner service.",
+        "Which kosher-salt product is intended? Saved publisher says fine kosher sea salt; no density conversion or brand equivalence is established.",
+        "Store-bought seasoning and alternate proteins in publisher notes lack a saved measured substitution dose/validated clock. Keep those choices unresolved rather than silently replacing the full spice blend."
+      ]
+    },
+    {
+      "id": "SF02-3-2",
+      "rationale": "Separate optional lime wedges from the scaled measured tortilla count; preserve source raw-size/color notes. Remove publisher-domain origin while retaining Mexican cuisine and source/URL.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "native",
+        "9faedba5",
+        "e3001d04",
+        "HealthyFitnessMeals",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["origin", "content", "learning"],
+      "questions": [
+        "Confirm actual jumbo size, tray and vegetable thickness, 40-minute elapsed/active plan and twelve-tortilla dinner service.",
+        "Which kosher-salt product is intended? Saved publisher says fine kosher sea salt; no density conversion or brand equivalence is established.",
+        "Store-bought seasoning and alternate proteins in publisher notes lack a saved measured substitution dose/validated clock. Keep those choices unresolved rather than silently replacing the full spice blend."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/sheet-pan-shrimp-fajitas.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Accepted staged vegetables-first route",
+      "status": "preserved primary",
+      "difference": "9fa first canonical Git already has vegetables 12–15 plus shrimp 6–10, divided full oil/spices, parchment temperature rating and endpoint; e300 retains it. It differs from original450/modern publisher toss-all 16–18 plus broil. Preserve the prior staging repair; do not revert it or put rated parchment under a broiler."
+    },
+    {
+      "route": "Original source alternatives",
+      "status": "bounded options / unresolved dose routes",
+      "difference": "Color and raw-large-shrimp options remain public. Store-seasoning/alternate protein unspecified doses and clocks stay questions. Exact toss-all/broil original remains retained evidence, not a silently blended approved method."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1.5 pounds raw jumbo shrimp, peeled and deveined",
+        "destination": "Step3 coating then4 pearly/opaque current endpoint.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 bell peppers, seeded and thinly sliced",
+        "destination": "Step2 full peppers first12–15min.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 large red or sweet onion, thinly sliced",
+        "destination": "Step2 full onion.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 tablespoons olive oil",
+        "destination": "Literal1tbsp step2, remaining oil step3; full2tbsp only at1x.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 lime, juiced",
+        "destination": "Step3 full lime juice.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "12 small corn tortillas, optional lime wedges",
+        "destination": "Step4 twelve tortillas plus unmeasured optional wedges; compound ingredient.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "--- Seasoning ---",
+        "destination": "Divider only.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/2 tbsp chili powder",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 1/2 tsp ground cumin",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp kosher salt",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/4 tsp ground black pepper",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp smoked paprika",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/2 tsp garlic powder",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/4 tsp onion powder",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/2 tsp dried oregano",
+        "destination": "Measured blend step1; about half step2 vegetables, rest step3 shrimp.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [],
+    "proposed": [
+      {
+        "ingredient": "1.5 pounds raw jumbo shrimp, peeled and deveined",
+        "destination": "Steps1/3 thawed raw shrimp;4 measured145°F and opacity.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 bell peppers, seeded and thinly sliced",
+        "destination": "Step2 full peppers in single layer.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 large red or sweet onion, thinly sliced",
+        "destination": "Step2 full onion in single layer.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 tablespoons olive oil",
+        "destination": "Half step2 and remaining half step3 at all scales.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 lime, juiced",
+        "destination": "Step3 full measured lime juice.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "12 small corn tortillas",
+        "destination": "Step4 full measured tortilla count.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "Lime wedges, for serving, optional",
+        "destination": "Step4 independent genuine optional lime wedges.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "--- Seasoning ---",
+        "destination": "Divider only.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/2 tbsp chili powder",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 1/2 tsp ground cumin",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 tsp kosher salt",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/4 tsp ground black pepper",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 tbsp smoked paprika",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/2 tsp garlic powder",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/4 tsp onion powder",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/2 tsp dried oregano",
+        "destination": "Full measured blend step1; about half step2, remaining half step3.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Staged current primary",
+        "ingredients": "Full frozen doses, divided oil/spices, complete vegetables/lime/shrimp/tortillas.",
+        "destinations": "Vegetables2 then shrimp3/4; source raw-large option same weight with earlier endpoint checks.",
+        "status": "public, accepted staging repair preserved"
+      },
+      {
+        "name": "Original toss-all/broil route",
+        "ingredients": "Exact native/publisher full measured formula retained at evidence, not silently substituted for accepted staged route.",
+        "destinations": "Original mixes all then16–18min plus broil; original parchment/broiler compatibility and simultaneous shrink/vegetable clocks are not endorsed.",
+        "status": "archival source disagreement, prior repair remains primary"
+      },
+      {
+        "name": "Store-seasoning/alternate-protein notes",
+        "ingredients": "No saved replacement blend quantity or actual protein clock; no dose supplied.",
+        "destinations": "Not newly approved as a complete cooking alternative.",
+        "status": "narrow unresolved questions"
+      }
+    ],
+    "quantityScope": "Every measured current dose is retained or explicitly source-restored with a separate complete current variation. No invented amount, weight equivalent or output yield; frozen ledger is not retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Heat oven to 425°F. Line a large rimmed sheet pan with parchment rated for that temperature, or use a suitable bare rimmed pan. Mix all the measured spices in a small bowl. Thaw frozen shrimp in the refrigerator and pat dry; remove tails if preferred for tacos.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 2,
+      "text": "Roast the Vegetables: Toss sliced peppers and onion with half the measured oil and about half the seasoning. Spread in one layer, using additional pans if crowded, and roast about 12–15 minutes, until beginning to soften.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 3,
+      "text": "Add the Shrimp: Toss peeled, deveined shrimp with the remaining oil and seasoning and all the measured lime juice. Add to the vegetables, spreading shrimp in one layer; use a second pan if crowded. Divide the full supplies proportionally across the pans.",
+      "dependencies": [2],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 4,
+      "text": "Finish: Roast about 6–10 minutes more, checking early, until the thickest shrimp reach 145°F with pearly, opaque flesh throughout. Remove as soon as done. Warm the measured tortillas separately and serve with all the shrimp and vegetables and optional lime wedges.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Staged current primary",
+      "ingredients": "Full frozen doses, divided oil/spices, complete vegetables/lime/shrimp/tortillas.",
+      "destinations": "Vegetables2 then shrimp3/4; source raw-large option same weight with earlier endpoint checks.",
+      "status": "public, accepted staging repair preserved"
+    },
+    {
+      "name": "Original toss-all/broil route",
+      "ingredients": "Exact native/publisher full measured formula retained at evidence, not silently substituted for accepted staged route.",
+      "destinations": "Original mixes all then16–18min plus broil; original parchment/broiler compatibility and simultaneous shrink/vegetable clocks are not endorsed.",
+      "status": "archival source disagreement, prior repair remains primary"
+    },
+    {
+      "name": "Store-seasoning/alternate-protein notes",
+      "ingredients": "No saved replacement blend quantity or actual protein clock; no dose supplied.",
+      "destinations": "Not newly approved as a complete cooking alternative.",
+      "status": "narrow unresolved questions"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "preparation": "15 min",
+    "cooking": "18–25 min",
+    "elapsed": "40 min, planning estimate",
+    "planningScope": "Allow about 40 minutes for the original batch: about 15 minutes prep and 18–25 minutes oven time, with oven heating and tortilla warming overlapping where practical. Additional pan loads extend elapsed time. Four portions and twelve tortillas are planning quantities for the original batch.",
+    "active": "Not measured; attended preparation and cooking distinguished from refrigerator wait/cooling.",
+    "capacity": "No exact pan/cooker capacity or model clock certified; actual load/single layers and proportional batch guidance.",
+    "storage": "Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate. Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. Warm tortillas separately; toppings stay cold.",
+    "ratioAndYield": "Current planning portions retained. Actual cooked weight, taco count, shell-on edible yield and broth output are not measured."
+  },
+  "preservedPriorRepairs": [
+    "Full two tablespoons oil, all eight seasoning doses, 1.5 pounds shrimp, full vegetables/lime/twelve tortilla plan unchanged.",
+    "9fa staged 12–15 and 6–10 windows, cold endpoint and e300 cooking method/labels preserved."
+  ],
+  "remainingQuestions": [
+    "Confirm actual jumbo size, tray and vegetable thickness, 40-minute elapsed/active plan and twelve-tortilla dinner service.",
+    "Which kosher-salt product is intended? Saved publisher says fine kosher sea salt; no density conversion or brand equivalence is established.",
+    "Store-bought seasoning and alternate proteins in publisher notes lack a saved measured substitution dose/validated clock. Keep those choices unresolved rather than silently replacing the full spice blend."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

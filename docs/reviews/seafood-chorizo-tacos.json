@@ -1,0 +1,1126 @@
+{
+  "slug": "seafood-chorizo-tacos",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "988b9811179aca1e98303248559d3020c2bde9994cbdc260efaacd6ad742c75e",
+  "acceptedSourceSha256": "d5d0ce7760a2b4afdfed574e40b3e87a5e0a6055f426ba161df18287e09f1f81",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 lb Fresh Chorizo, crumbled",
+        "1/2 lb Medium Shrimp, chopped",
+        "1/2 lb Small Squid (Calamari), sliced into rings",
+        "1 small Red Onion, minced",
+        "1 clove Garlic, minced",
+        "2 tbsp Mexican Lager for depth",
+        "2 tbsp Fresh Lime Juice (The Acid Balance)",
+        "Pinch of Cumin",
+        "Corn Tortillas, charred",
+        "Avocado, Cilantro, and Sour Cream"
+      ],
+      "after": [
+        "--- Filling and serving ---",
+        "2 tbsp extra-virgin olive oil",
+        "1/2 lb fresh uncooked chorizo, casings removed and meat crumbled",
+        "salt, a pinch, for the chorizo",
+        "black pepper, a pinch, for the chorizo",
+        "1 small red onion, minced",
+        "ground cumin, a pinch",
+        "1 garlic clove, minced",
+        "1/2 lb raw medium shrimp, shelled, deveined and chopped",
+        "1/2 lb cleaned small squid, cut into thin rings",
+        "2 tbsp Mexican lager",
+        "2 tbsp fresh lime juice",
+        "salt, to taste",
+        "black pepper, to taste",
+        "corn tortillas, for serving",
+        "avocado, for serving, sliced",
+        "fresh cilantro, for serving",
+        "sour cream, for serving",
+        "lime wedges, for serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mexico",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 165,
+        "protein": 27,
+        "carbs": 10,
+        "fat": 3,
+        "fiber": 2,
+        "sugar": 1.5,
+        "sodium": 480
+      },
+      "after": null
+    },
+    {
+      "field": "kb",
+      "before": null,
+      "after": {
+        "disable": ["kb.low-temp-poultry"],
+        "disableReason": "The 145°F endpoint applies only to shrimp and squid added after fresh sausage is fully cooked. Pork/beef chorizo must reach 160°F, and poultry chorizo must reach 165°F before the seafood stage. No low-temperature poultry process is prescribed."
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Finish fresh sausage before introducing quick-cooking shrimp and thin squid rings.",
+        "outcome": "Fully cooked filling that keeps all its chorizo fat, with shrimp and squid removed promptly.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Check the chorizo label: this is fresh raw sausage, not dried ready-to-eat Spanish chorizo. Pork/beef and poultry sausages have different required endpoints.",
+          "Thaw, shell and devein the shrimp and use cleaned squid cut into thin rings. Prepare raw seafood away from the cold garnishes. Choose a skillet/load that can cook evenly; scale ingredients rather than pan size or minutes."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The crumbled sausage is browned and has reached its applicable 160°F or 165°F endpoint.",
+            "why": "Cooking it fully first avoids relying on a short seafood stage to finish raw sausage."
+          },
+          {
+            "step": 4,
+            "cue": "Seafood reaches 145°F; shrimp are firm, pearly and opaque.",
+            "why": "The source three-minute check is not an exact universal cooking duration."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sausage still needs cooking after the seafood is ready.",
+            "cause": "It was added to seafood before reaching its endpoint.",
+            "fix": "Continue cooking the filling safely; next time finish sausage first. Already overcooked seafood cannot be restored."
+          },
+          {
+            "problem": "Squid turns chewy.",
+            "cause": "It stayed in the pan too long or rings were thick.",
+            "fix": "Cut thin rings and remove the completed filling promptly; do not add a new long simmer to this quick taco method."
+          }
+        ],
+        "timing": "The 25-minute original-batch plan starts with thawed, cleaned seafood and prepared toppings. Sausage doneness, onion softening and separate 30–45-second garlic cooking precede the seafood stage; allow longer for actual sausage, preparation or pan loads. Four portions is a planning count; actual taco yield depends on tortilla and filling size.",
+        "storage": "Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate. Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. Store tortillas, avocado, cilantro and sour cream separately from the cooked filling; the full fat is retained when reheating.",
+        "sources": [
+          {
+            "title": "Food & Wine Editors: Seafood-Chorizo Tacos",
+            "url": "https://www.foodandwine.com/recipes/seafood-chorizo-tacos"
+          },
+          {
+            "title": "FDA: Seafood handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FoodSafety.gov: Safe minimum temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA: Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA: Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Full olive-oil main",
+            "alternative": "The separate half-oil variation",
+            "effect": "The original batch uses one tablespoon in this variation. Keep all chorizo fat and use only the selected oil dose."
+          },
+          {
+            "ingredient": "Fresh chorizo",
+            "alternative": "No automatic dried-chorizo swap",
+            "effect": "Dried Spanish chorizo has a different state, texture and fat-release behavior; the fresh-sausage method does not establish an equivalent substitution."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "tacos",
+            "name": "Filling and serving",
+            "ingredients": [
+              {
+                "id": "olive-oil",
+                "key": "olive-oil",
+                "name": "extra-virgin olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chorizo",
+                "key": "chorizo",
+                "name": "fresh uncooked chorizo",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "preparation": "casings removed and meat crumbled",
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "initial-salt",
+                "key": "initial-salt",
+                "name": "salt",
+                "allowance": "a pinch, for the chorizo",
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "initial-pepper",
+                "key": "initial-pepper",
+                "name": "black pepper",
+                "allowance": "a pinch, for the chorizo",
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "small red onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "small red onions"
+              },
+              {
+                "id": "cumin",
+                "key": "cumin",
+                "name": "ground cumin",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves"
+              },
+              {
+                "id": "shrimp",
+                "key": "shrimp",
+                "name": "raw medium shrimp",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "preparation": "shelled, deveined and chopped",
+                "uses": [
+                  {
+                    "step": "seafood",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "squid",
+                "key": "squid",
+                "name": "cleaned small squid",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "lb"
+                },
+                "preparation": "cut into thin rings",
+                "uses": [
+                  {
+                    "step": "seafood",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lager",
+                "key": "lager",
+                "name": "Mexican lager",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "seafood",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime-juice",
+                "key": "lime-juice",
+                "name": "fresh lime juice",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finish-salt",
+                "key": "finish-salt",
+                "name": "salt",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finish-pepper",
+                "key": "finish-pepper",
+                "name": "black pepper",
+                "allowance": "to taste",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "tortillas",
+                "key": "tortillas",
+                "name": "corn tortillas",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "avocado",
+                "key": "avocado",
+                "name": "avocado",
+                "allowance": "for serving",
+                "preparation": "sliced",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "fresh cilantro",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "sour cream",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime-wedges",
+                "key": "lime-wedges",
+                "name": "lime wedges",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "assemble",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "render",
+            "title": "Cook the Chorizo",
+            "text": "Use {{ingredients}} at the sausage stage. Heat the oil in a large skillet over moderately high heat, then add the chorizo and its initial salt and pepper. Break up the chorizo as it browns; about 4 minutes is an early check, not guaranteed doneness. Cook fresh pork/beef chorizo to 160°F, or 165°F if its label identifies poultry. Keep the full oil and rendered fat in the pan. Use enough pan area for the actual load, or cook separate proportionate batches with their own full supplies."
+          },
+          {
+            "id": "aromatics",
+            "title": "Soften the Onion",
+            "text": "Add {{ingredients}} and cook about 2 minutes, until onion begins to soften."
+          },
+          {
+            "id": "garlic",
+            "title": "Add the Garlic",
+            "text": "Add {{ingredients}} and sauté for 30–45 seconds, until fragrant."
+          },
+          {
+            "id": "seafood",
+            "title": "Cook the Seafood",
+            "text": "Add {{ingredients}} and toss over moderately high heat. Begin checking around 3 minutes; continue as needed for the seafood to reach 145°F. Shrimp should be firm, pearly and opaque, and squid cooked through. Raw size, thin rings and pan loading determine the time; do not stop solely because 3 minutes have passed."
+          },
+          {
+            "id": "finish",
+            "title": "Finish the Filling",
+            "text": "Once sausage and seafood are cooked, stir in {{ingredients}}, season to taste and take the skillet off the heat."
+          },
+          {
+            "id": "assemble",
+            "title": "Serve",
+            "text": "Use {{ingredients}} for serving. Warm or char the tortillas in a dry skillet or carefully over a suitable flame, then fill with all the seafood-chorizo mixture and top with the avocado, cilantro and sour cream. Keep the toppings cold until assembly and serve the lime wedges alongside."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese Mexican-style tacos combine spicy chorizo with delicate seafood by rendering the chorizo first to release its spicy orange fat, then quickly cooking shrimp and squid in that same fat. This infuses the seafood with smoky flavor without overcooking. A splash of Mexican lager deglazes the pan, and lime juice adds brightness.\n\n## Directions\n\n1.  **The Render:** In a large skillet, heat 1 tbsp oil. Add chorizo. Cook over high heat for 4 minutes, breaking it up until crispy and the fat is released.\n2.  **Aromatics:** Add the onion and cumin. Sauté for 2 minutes until soft. Add garlic and sauté for 30-45 seconds.\n3.  **The Crunch:** Add the shrimp, squid, and lager to the skillet. Toss vigorously over **moderately high** heat for exactly 3 minutes until the seafood is opaque. **Do not overcook.**\n4.  **Finish:** Stir in the lime juice. Remove from heat. Season with salt and pepper.\n5.  **Assemble:** Warm corn tortillas over an open flame until charred.\n6.  **Serve:** Fill each tortilla with the seafood-chorizo mix. Top with sliced avocado and cilantro for the final **High Note**.\n",
+    "after": "\n## Chef's Note\n\nFresh Mexican-style chorizo seasons these shrimp-and-squid tacos with its full rendered fat. Cook the sausage before adding the seafood so its endpoint does not force a longer seafood cook. Lager and lime stay in the filling; avocado, cilantro, sour cream and lime wedges complete the tacos.\n\n## Directions\n\n1. **Cook the Chorizo:** Use extra-virgin olive oil, fresh uncooked chorizo, salt, and black pepper at the sausage stage. Heat the oil in a large skillet over moderately high heat, then add the chorizo and its initial salt and pepper. Break up the chorizo as it browns; about 4 minutes is an early check, not guaranteed doneness. Cook fresh pork/beef chorizo to 160°F, or 165°F if its label identifies poultry. Keep the full oil and rendered fat in the pan. Use enough pan area for the actual load, or cook separate proportionate batches with their own full supplies.\n2. **Soften the Onion:** Add small red onion and ground cumin and cook about 2 minutes, until onion begins to soften.\n3. **Add the Garlic:** Add garlic clove and sauté for 30–45 seconds, until fragrant.\n4. **Cook the Seafood:** Add raw medium shrimp, cleaned small squid, and Mexican lager and toss over moderately high heat. Begin checking around 3 minutes; continue as needed for the seafood to reach 145°F. Shrimp should be firm, pearly and opaque, and squid cooked through. Raw size, thin rings and pan loading determine the time; do not stop solely because 3 minutes have passed.\n5. **Finish the Filling:** Once sausage and seafood are cooked, stir in fresh lime juice, salt, and black pepper, season to taste and take the skillet off the heat.\n6. **Serve:** Use corn tortillas, avocado, fresh cilantro, sour cream, and lime wedges for serving. Warm or char the tortillas in a dry skillet or carefully over a suitable flame, then fill with all the seafood-chorizo mixture and top with the avocado, cilantro and sour cream. Keep the toppings cold until assembly and serve the lime wedges alongside.\n\n## Oil Variation\n\nTo make the preparation with half the oil (one tablespoon in the original batch), use half the listed olive oil at the chorizo stage and omit the other half. Keep the full chorizo, seafood and rendered fat, all aromatics, lager and lime, and the same cooking checks and toppings. This is a separate choice; the main preparation uses all the listed oil.\n"
+  },
+  "findings": [
+    {
+      "id": "SF02-6-1",
+      "rationale": "Recover full exact original two-tablespoon olive oil with a separate current one-tablespoon variant; restore source salts/peppers, sour-cream destination and lime wedges. Migrate authored filling/serving components and generate all views together.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "native",
+        "b7ae012d",
+        "045e5ba2",
+        "eab6f8bb",
+        "2b01ffbb",
+        "FoodWine",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "servings", "content", "learning"],
+      "questions": [
+        "Which fresh chorizo composition, casing state, squid preparation and actual piece size are used? Check the label rather than assuming every chorizo is ready to eat.",
+        "Measure skillet capacity, full rendered fat, stage/active time and cooked filling/taco yield at the intended dinner scale. Compare source two-tablespoon and later one-tablespoon routes without blending."
+      ]
+    },
+    {
+      "id": "SF02-6-2",
+      "rationale": "Add actual fresh-sausage and seafood endpoints, preserve short garlic repair and all fat, remove exactly-three-minute guarantee and audit jargon. Omit unsupported recipe-birth origin/nutrition while retaining Mexican context, credits and links.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "native",
+        "b7ae012d",
+        "045e5ba2",
+        "eab6f8bb",
+        "2b01ffbb",
+        "FoodWine",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "content", "learning"],
+      "questions": [
+        "Which fresh chorizo composition, casing state, squid preparation and actual piece size are used? Check the label rather than assuming every chorizo is ready to eat.",
+        "Measure skillet capacity, full rendered fat, stage/active time and cooked filling/taco yield at the intended dinner scale. Compare source two-tablespoon and later one-tablespoon routes without blending."
+      ]
+    },
+    {
+      "id": "RELEASE-METADATA-1",
+      "rationale": "The whole-recipe keyword heuristic conflates seafood at 145°F with poultry sausage explicitly cooked first to 165°F. Keep the applicable separate endpoints and document this examined exception using existing repository support.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "sourceApplicability": "Bounded exact release correction independently challenged; all complete cooking prose and ingredient amounts remain unchanged.",
+      "exactBeforeAfterReferences": ["kb"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Seafood-Chorizo%20Tacos.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.foodandwine.com/recipes/seafood-chorizo-tacos",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Original full oil/source serving options",
+      "status": "restored primary, current oil alternative retained",
+      "difference": "Exact b7/045/native/publisher have two tablespoons base olive oil and salt/pepper at initial/final stages, sour cream and lime wedges. eab6 deleted the oil list and replaced method with one tablespoon, omitted sour-cream destination/lime wedges and shortened source 45-minute plan. No later explicit household quantity rejection was established; full source oil primary, complete one-tablespoon variation public."
+    },
+    {
+      "route": "Aromatic repair and yield",
+      "status": "protected current structure",
+      "difference": "Keep 2b01ffbb two-minute onion then 30–45-second garlic. Current four planning portions retained instead of falsely measuring or automatically changing to source four–six. Fully cooking fresh sausage before seafood is a scoped safety editorial change, not original publisher sequence certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1/2 lb Fresh Chorizo, crumbled",
+        "destination": "Step1 fresh chorizo4min high heat crispy/fat released; no raw-meat endpoint.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/2 lb Medium Shrimp, chopped",
+        "destination": "Step3 shrimp, exactly3min seafood-only opacity.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/2 lb Small Squid (Calamari), sliced into rings",
+        "destination": "Step3 squid same exact3min; listed cleaned state absent.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 small Red Onion, minced",
+        "destination": "Step2 full onion.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 clove Garlic, minced",
+        "destination": "Step2 garlic30–45sec prior repair.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Mexican Lager for depth",
+        "destination": "Step3 full2tbsp lager.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Fresh Lime Juice (The Acid Balance)",
+        "destination": "Step4 full2tbsp lime juice.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "Pinch of Cumin",
+        "destination": "Step2 genuine pinch cumin.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "Corn Tortillas, charred",
+        "destination": "Step5 tortilla char,6 fill.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "Avocado, Cilantro, and Sour Cream",
+        "destination": "Step6 avocado/cilantro used; listed sour cream has no destination.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [
+      {
+        "methodOnly": "Step1 says1tbsp oil, missing from frozen list; exact original2tbsp. Step4 salt/pepper unlisted; initial source pinches and lime wedges omitted."
+      }
+    ],
+    "proposed": [
+      {
+        "ref": "tacos.olive-oil",
+        "ingredient": "2 tbsp extra-virgin olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 1,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.chorizo",
+        "ingredient": "1/2 lb fresh uncooked chorizo, casings removed and meat crumbled",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "casings removed and meat crumbled",
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 1,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.initial-salt",
+        "ingredient": "salt, a pinch, for the chorizo",
+        "quantity": null,
+        "allowance": "a pinch, for the chorizo",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 1,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.initial-pepper",
+        "ingredient": "black pepper, a pinch, for the chorizo",
+        "quantity": null,
+        "allowance": "a pinch, for the chorizo",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "render",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 1,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.onion",
+        "ingredient": "1 small red onion, minced",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 2,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.cumin",
+        "ingredient": "ground cumin, a pinch",
+        "quantity": null,
+        "allowance": "a pinch",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 2,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.garlic",
+        "ingredient": "1 garlic clove, minced",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "uses": [
+          {
+            "step": "garlic",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 3,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.shrimp",
+        "ingredient": "1/2 lb raw medium shrimp, shelled, deveined and chopped",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "shelled, deveined and chopped",
+        "uses": [
+          {
+            "step": "seafood",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 4,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.squid",
+        "ingredient": "1/2 lb cleaned small squid, cut into thin rings",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "cut into thin rings",
+        "uses": [
+          {
+            "step": "seafood",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 4,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.lager",
+        "ingredient": "2 tbsp Mexican lager",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "seafood",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 4,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.lime-juice",
+        "ingredient": "2 tbsp fresh lime juice",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 5,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.finish-salt",
+        "ingredient": "salt, to taste",
+        "quantity": null,
+        "allowance": "to taste",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 5,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.finish-pepper",
+        "ingredient": "black pepper, to taste",
+        "quantity": null,
+        "allowance": "to taste",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 5,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.tortillas",
+        "ingredient": "corn tortillas, for serving",
+        "quantity": null,
+        "allowance": "for serving",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 6,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.avocado",
+        "ingredient": "avocado, for serving, sliced",
+        "quantity": null,
+        "allowance": "for serving",
+        "preparation": "sliced",
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 6,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.cilantro",
+        "ingredient": "fresh cilantro, for serving",
+        "quantity": null,
+        "allowance": "for serving",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 6,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.sour-cream",
+        "ingredient": "sour cream, for serving",
+        "quantity": null,
+        "allowance": "for serving",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 6,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      },
+      {
+        "ref": "tacos.lime-wedges",
+        "ingredient": "lime wedges, for serving",
+        "quantity": null,
+        "allowance": "for serving",
+        "preparation": null,
+        "uses": [
+          {
+            "step": "assemble",
+            "share": 1
+          }
+        ],
+        "destination": [
+          {
+            "step": 6,
+            "share": 1
+          }
+        ],
+        "optional": false,
+        "role": "ingredient"
+      }
+    ],
+    "variants": [
+      {
+        "name": "Full original oil primary",
+        "ingredients": "All authored doses incl restored2tbsp oil; all three proteins and full rendered fat remain.",
+        "destinations": "Oil/fully cooked chorizo1, onion/cumin2, garlic3, shrimp/squid/lager4, lime/final seasoning5, all serving supplies6.",
+        "status": "proposed primary restoration; independent challenge pending"
+      },
+      {
+        "name": "Later half-oil variation",
+        "ingredients": "Exactly half listed olive oil used and remaining half deliberately omitted;1tbsp original. Full other measured doses/rendered fat/cold garnishes unchanged.",
+        "destinations": "Selected half oil1; same complete stages2–6 and endpoints. No unallocated extra oil falsely consumed.",
+        "status": "complete public preserved current route"
+      }
+    ],
+    "quantityScope": "Every measured current dose is retained or explicitly source-restored with a separate complete current variation. No invented amount, weight equivalent or output yield; frozen ledger is not retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Cook the Chorizo: Use extra-virgin olive oil, fresh uncooked chorizo, salt, and black pepper at the sausage stage. Heat the oil in a large skillet over moderately high heat, then add the chorizo and its initial salt and pepper. Break up the chorizo as it browns; about 4 minutes is an early check, not guaranteed doneness. Cook fresh pork/beef chorizo to 160°F, or 165°F if its label identifies poultry. Keep the full oil and rendered fat in the pan. Use enough pan area for the actual load, or cook separate proportionate batches with their own full supplies.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 2,
+      "text": "Soften the Onion: Add small red onion and ground cumin and cook about 2 minutes, until onion begins to soften.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 3,
+      "text": "Add the Garlic: Add garlic clove and sauté for 30–45 seconds, until fragrant.",
+      "dependencies": [2],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 4,
+      "text": "Cook the Seafood: Add raw medium shrimp, cleaned small squid, and Mexican lager and toss over moderately high heat. Begin checking around 3 minutes; continue as needed for the seafood to reach 145°F. Shrimp should be firm, pearly and opaque, and squid cooked through. Raw size, thin rings and pan loading determine the time; do not stop solely because 3 minutes have passed.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 5,
+      "text": "Finish the Filling: Once sausage and seafood are cooked, stir in fresh lime juice, salt, and black pepper, season to taste and take the skillet off the heat.",
+      "dependencies": [4],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Use corn tortillas, avocado, fresh cilantro, sour cream, and lime wedges for serving. Warm or char the tortillas in a dry skillet or carefully over a suitable flame, then fill with all the seafood-chorizo mixture and top with the avocado, cilantro and sour cream. Keep the toppings cold until assembly and serve the lime wedges alongside.",
+      "dependencies": [5],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Full original oil primary",
+      "ingredients": "All authored doses incl restored2tbsp oil; all three proteins and full rendered fat remain.",
+      "destinations": "Oil/fully cooked chorizo1, onion/cumin2, garlic3, shrimp/squid/lager4, lime/final seasoning5, all serving supplies6.",
+      "status": "proposed primary restoration; independent challenge pending"
+    },
+    {
+      "name": "Later half-oil variation",
+      "ingredients": "Exactly half listed olive oil used and remaining half deliberately omitted;1tbsp original. Full other measured doses/rendered fat/cold garnishes unchanged.",
+      "destinations": "Selected half oil1; same complete stages2–6 and endpoints. No unallocated extra oil falsely consumed.",
+      "status": "complete public preserved current route"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["mexican-street-corn-salad", "cilantro-lime-rice", "quick-seasoned-black-beans"],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "preparation": "10 min",
+    "cooking": "15 min",
+    "elapsed": "25 min",
+    "planningScope": "The 25-minute original-batch plan starts with thawed, cleaned seafood and prepared toppings. Sausage doneness, onion softening and separate 30–45-second garlic cooking precede the seafood stage; allow longer for actual sausage, preparation or pan loads. Four portions is a planning count; actual taco yield depends on tortilla and filling size.",
+    "active": "Not measured; attended preparation and cooking distinguished from refrigerator wait/cooling.",
+    "capacity": "No exact pan/cooker capacity or model clock certified; actual load/single layers and proportional batch guidance.",
+    "storage": "Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate. Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. Store tortillas, avocado, cilantro and sour cream separately from the cooked filling; the full fat is retained when reheating.",
+    "ratioAndYield": "Current planning portions retained. Actual cooked weight, taco count, shell-on edible yield and broth output are not measured."
+  },
+  "preservedPriorRepairs": [
+    "All three half-pound proteins, current onion/garlic/cumin, lager/lime, full toppings and corn tortillas retained. Full source two-tablespoon oil primary; complete current half-oil variation separate.",
+    "2b01ffbb onion/short-garlic sequence preserved; no draining, dilution, new simmer, invented taco number or sausage-state equivalence."
+  ],
+  "remainingQuestions": [
+    "Which fresh chorizo composition, casing state, squid preparation and actual piece size are used? Check the label rather than assuming every chorizo is ready to eat.",
+    "Measure skillet capacity, full rendered fat, stage/active time and cooked filling/taco yield at the intended dinner scale. Compare source two-tablespoon and later one-tablespoon routes without blending."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "releaseMetadataAmendment": {
+    "previousAcceptedSourceSha256": "6bfb46934b0171a2cdafbb3ed394ba39d33f4f7ff083780689b7fd00a0c944b0",
+    "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+    "fields": ["kb"],
+    "bodyAndIngredientsUnchanged": true,
+    "kitchenTested": false
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

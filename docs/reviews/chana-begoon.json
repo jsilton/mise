@@ -1,0 +1,778 @@
+{
+  "slug": "chana-begoon",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "80f197c8918a877d66d9b3a20a0b6e2489c7668e45055d283c18e65640e68193",
+  "acceptedSourceSha256": "5b03f431eb63d694ab84a38955bc3a5714b9dd1f58c358ae40602de670591ae4",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "India",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "30–40 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 45–60 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Chinese Eggplant, cut into 1-inch cubes",
+        "2 cans (15 oz) Chickpeas, rinsed and drained",
+        "1 large Yellow Onion, finely diced",
+        "1 tbsp Fresh Ginger, grated",
+        "3 cloves Garlic, minced",
+        "1 tsp Cumin Seeds",
+        "1 tsp Turmeric",
+        "1 tsp Garam Masala",
+        "1 tsp Ground Coriander",
+        "1/2 tsp Kashmiri Chili Powder",
+        "1 (14 oz) can Crushed Tomatoes",
+        "Neutral Oil, as needed for roasting and sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "after": [
+        "1 lb Chinese Eggplant, cut into 1-inch cubes",
+        "2 cans (15 oz) Chickpeas, rinsed and drained",
+        "1 large Yellow Onion, finely diced",
+        "1 tbsp Fresh Ginger, grated",
+        "3 cloves Garlic, minced",
+        "1 tsp Cumin Seeds",
+        "1 tsp Turmeric",
+        "1 tsp Garam Masala",
+        "1 tsp Ground Coriander",
+        "1/2 tsp Kashmiri Chili Powder",
+        "1 (14 oz) can Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Finish roasted eggplant in a separately cooked gravy",
+        "outcome": "Tender eggplant pieces and hot chickpeas in a thick spiced tomato gravy.",
+        "techniques": ["browning", "seasoning"],
+        "before": [
+          "Rinse and drain canned chickpeas; dry chickpeas require separate preparation and are not a same-clock substitution.",
+          "Roasting oil and sautéing oil are distinct genuine allowances. Use enough sheet-pan area to spread the cubes without piling."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A knife enters an eggplant cube easily; color alone is not tenderness.",
+            "why": "Surface browning can arrive before a large cube softens."
+          },
+          {
+            "step": 3,
+            "cue": "The tomato gravy thickens without spices blackening at the pan bottom.",
+            "why": "Heat and stirring control scorching; the prior spice-bloom step remains separate."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Eggplant is brown but firm.",
+            "cause": "Large pieces or insufficient roasting time.",
+            "fix": "Continue until a center yields before folding into the gravy."
+          },
+          {
+            "problem": "Spices blacken.",
+            "cause": "Heat is too high or the gravy is dry against the base.",
+            "fix": "Lower heat and use a little listed water allowance before scorching; bitter burnt spices require restarting that base."
+          }
+        ],
+        "substitutions": [],
+        "timing": "Allow about 45–60 minutes including 15–20 minutes preparation, oven heat-up and around 30–40 minutes gravy/finishing work. Roast while cooking the gravy; onion browning and extra sheet pans may extend the plan.",
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above 90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or stew to a boil when reheating, stirring so the center heats too; this is separate from the first-cook instructions.",
+        "sources": [
+          {
+            "title": "Mise — Chickpea and eggplant curry",
+            "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Indian chickpea and eggplant curry keeps the eggplant from turning mushy by roasting it separately at 425°F until browned and tender, then folding it into the gravy at the end. Chinese eggplant works especially well because it's less watery than globe eggplant. Lemon juice stirred in at the finish brightens the spiced tomato gravy.\n\n## Directions\n\n1.  **Roast Eggplant:** Preheat oven to 425°F. Toss eggplant cubes with enough oil to lightly coat their surfaces and salt to taste. Roast on a sheet pan for 15-20 minutes until golden and tender. Set aside.\n2.  **The Gravy:** In a large skillet over medium heat, heat enough oil to coat the bottom in a thin film. Add the onion and sauté until deep golden brown (10 mins). Add ginger and garlic; sauté for 2 minutes.\n3.  **Bloom:** Add all dry spices and sauté in the oil for 1 minute to bloom. Add the crushed tomatoes and simmer for 10 minutes until the tomatoes thicken into a gravy; add a splash of water if the spices begin to catch.\n4.  **Chickpeas:** Stir in the chickpeas and a splash of water. Simmer for 5 minutes.\n5.  **Fold:** Gently fold the roasted eggplant into the gravy. Let it sit for 2 minutes to absorb the spices (do not over-stir).\n6.  **Finish:** Stir in cilantro and lemon juice a little at a time, tasting between additions. Adjust salt before serving.\n",
+    "after": "\n## Chef's Note\n\nRoast the eggplant separately until its center is tender and the surfaces have some color, then fold it into the chickpea-and-tomato gravy. That keeps the two cooking stages controllable; it does not guarantee that every eggplant variety holds its shape. Keep the full spices and finish with the listed cilantro and lemon allowance to taste.\n\n## Directions\n\n1. **Roast eggplant:** Wash the eggplant before cutting. Preheat oven to 425°F. Toss all cubes with enough of the roasting oil allowance to lightly coat their surfaces and salt to taste. Spread without piling on enough sheet pans for the listed amount. Roast 15–20 minutes as a first check, turning as needed, until golden in places and tender through the center; continue if firm.\n2. **Cook the onion:** While eggplant roasts, heat the separate sautéing oil allowance in a large skillet over medium heat, enough to coat its bottom in a thin film. Add all diced onion and stir until softened and golden, starting checks around 10 minutes; deep browning may take longer. Add all ginger and garlic and stir about 2 minutes without scorching.\n3. **Bloom and simmer:** Add all cumin seeds, turmeric, garam masala, coriander and Kashmiri chili powder and stir 1 minute in the onion base. Add the complete crushed-tomato can and simmer about 10 minutes until thickened, using a little of the listed water allowance if the base catches. Keep heat low enough that spices do not burn.\n4. **Warm the chickpeas:** Add all rinsed, drained canned chickpeas and a splash of the water allowance if needed. Simmer about 5 minutes until the chickpeas are hot and the gravy coats them. This route uses already-cooked canned chickpeas, not dry beans.\n5. **Fold in eggplant:** Fold in all the fully tender roasted eggplant gently and let it warm in the sauce about 2 minutes. Avoid repeated stirring that crushes tender cubes; use additional vessels with the full ingredients divided proportionally for larger batches.\n6. **Finish:** Wash and chop the cilantro. Stir it and the lemon juice in a little at a time using the listed finish allowances. Taste and adjust the listed salt allowance, then serve with separately prepared rice or raita.\n"
+  },
+  "findings": [
+    {
+      "id": "TL-1",
+      "field": "origin",
+      "rationale": "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+      ]
+    },
+    {
+      "id": "TL-2",
+      "field": "cookTime",
+      "rationale": "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+      ]
+    },
+    {
+      "id": "TL-3",
+      "field": "totalTime",
+      "rationale": "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+      ]
+    },
+    {
+      "id": "TL-4",
+      "field": "ingredients",
+      "rationale": "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+      ]
+    },
+    {
+      "id": "TL-5",
+      "field": "learning",
+      "rationale": "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+      ]
+    },
+    {
+      "id": "TL-6",
+      "field": "content",
+      "rationale": "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b244f4b22965414b9ec9fe0c95c8cb6fb661714d/src/content/recipes/chana-begoon.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact Git-created formula and prior856 allowance/2b01 separate spice bloom remain; no independent native or publisher attribution established. Main timed stages10+2+1+10+5+2=30minutes before heating, so25cook promise insufficient. Preserve roasting parallel with gravy; correct elapsed plan and readiness. Chinese-versus-globe water claim unsupported, remove universal guarantee without switching species or oil/spice doses. Separate genuine oil allowances represent already-published roast/sauté destinations."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Chinese Eggplant, cut into 1-inch cubes",
+        "actualMethodDestination": "roast1/fold5"
+      },
+      {
+        "text": "2 cans (15 oz) Chickpeas, rinsed and drained",
+        "actualMethodDestination": "rinsed/drained canned chickpeas4"
+      },
+      {
+        "text": "1 large Yellow Onion, finely diced",
+        "actualMethodDestination": "all onion2"
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, grated",
+        "actualMethodDestination": "all ginger2"
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic2"
+      },
+      {
+        "text": "1 tsp Cumin Seeds",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 tsp Turmeric",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 tsp Garam Masala",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 tsp Ground Coriander",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1/2 tsp Kashmiri Chili Powder",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 (14 oz) can Crushed Tomatoes",
+        "actualMethodDestination": "full can3"
+      },
+      {
+        "text": "Neutral Oil, as needed for roasting and sautéing",
+        "actualMethodDestination": "roast1/sauté2 genuine unmeasured allowance"
+      },
+      {
+        "text": "Salt, to taste",
+        "actualMethodDestination": "roast1/finish6 to taste"
+      },
+      {
+        "text": "Water, as needed to loosen the gravy",
+        "actualMethodDestination": "splash3/4 as needed"
+      },
+      {
+        "text": "Chopped Fresh Cilantro, to taste",
+        "actualMethodDestination": "finish6 to taste"
+      },
+      {
+        "text": "Fresh Lemon Juice, to taste",
+        "actualMethodDestination": "finish6 to taste"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 lb Chinese Eggplant, cut into 1-inch cubes",
+        "actualMethodDestination": "washed/roast1; all tender cubes5"
+      },
+      {
+        "text": "2 cans (15 oz) Chickpeas, rinsed and drained",
+        "actualMethodDestination": "all rinsed/drained canned chickpeas4"
+      },
+      {
+        "text": "1 large Yellow Onion, finely diced",
+        "actualMethodDestination": "all onion2"
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, grated",
+        "actualMethodDestination": "all ginger2"
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic2"
+      },
+      {
+        "text": "1 tsp Cumin Seeds",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 tsp Turmeric",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 tsp Garam Masala",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 tsp Ground Coriander",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1/2 tsp Kashmiri Chili Powder",
+        "actualMethodDestination": "all spices3"
+      },
+      {
+        "text": "1 (14 oz) can Crushed Tomatoes",
+        "actualMethodDestination": "full fixed14oz can3"
+      },
+      {
+        "text": "Neutral oil, as needed for roasting",
+        "actualMethodDestination": "genuine roasting allowance1, no invented dose"
+      },
+      {
+        "text": "Neutral oil, as needed for sautéing",
+        "actualMethodDestination": "distinct genuine sautéing allowance2, no invented dose"
+      },
+      {
+        "text": "Salt, to taste",
+        "actualMethodDestination": "roast1 and final6 same unmeasured seasoning allowance"
+      },
+      {
+        "text": "Water, as needed to loosen the gravy",
+        "actualMethodDestination": "genuine as-needed cooking water3/4"
+      },
+      {
+        "text": "Chopped Fresh Cilantro, to taste",
+        "actualMethodDestination": "washed/chopped finish6 to taste"
+      },
+      {
+        "text": "Fresh Lemon Juice, to taste",
+        "actualMethodDestination": "finish6 to taste"
+      }
+    ],
+    "methodOnlyFrozenInputs": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Roast eggplant: Wash the eggplant before cutting. Preheat oven to 425°F. Toss all cubes with enough of the roasting oil allowance to lightly coat their surfaces and salt to taste. Spread without piling on enough sheet pans for the listed amount. Roast 15–20 minutes as a first check, turning as needed, until golden in places and tender through the center; continue if firm."
+    },
+    {
+      "step": 2,
+      "text": "Cook the onion: While eggplant roasts, heat the separate sautéing oil allowance in a large skillet over medium heat, enough to coat its bottom in a thin film. Add all diced onion and stir until softened and golden, starting checks around 10 minutes; deep browning may take longer. Add all ginger and garlic and stir about 2 minutes without scorching."
+    },
+    {
+      "step": 3,
+      "text": "Bloom and simmer: Add all cumin seeds, turmeric, garam masala, coriander and Kashmiri chili powder and stir 1 minute in the onion base. Add the complete crushed-tomato can and simmer about 10 minutes until thickened, using a little of the listed water allowance if the base catches. Keep heat low enough that spices do not burn."
+    },
+    {
+      "step": 4,
+      "text": "Warm the chickpeas: Add all rinsed, drained canned chickpeas and a splash of the water allowance if needed. Simmer about 5 minutes until the chickpeas are hot and the gravy coats them. This route uses already-cooked canned chickpeas, not dry beans."
+    },
+    {
+      "step": 5,
+      "text": "Fold in eggplant: Fold in all the fully tender roasted eggplant gently and let it warm in the sauce about 2 minutes. Avoid repeated stirring that crushes tender cubes; use additional vessels with the full ingredients divided proportionally for larger batches."
+    },
+    {
+      "step": 6,
+      "text": "Finish: Wash and chop the cilantro. Stir it and the lemon juice in a little at a time using the listed finish allowances. Taste and adjust the listed salt allowance, then serve with separately prepared rice or raita."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["cucumber-raita", "basmati-rice"],
+    "scope": "Prepared side pairings; no listed main ingredient substitution or automatic combined quantity. Linked meal/component gains no review credit.",
+    "mapoMeal": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "sourceMeasureScope": "Written planning count; no measured edible output, absorbed-oil estimate or pan-load certification",
+    "timing": "Allow about 45–60 minutes including 15–20 minutes preparation, oven heat-up and around 30–40 minutes gravy/finishing work. Roast while cooking the gravy; onion browning and extra sheet pans may extend the plan. The written stages already exceed a 25-minute cooking promise.",
+    "before": [
+      "Rinse and drain canned chickpeas; dry chickpeas require separate preparation and are not a same-clock substitution.",
+      "Roasting oil and sautéing oil are distinct genuine allowances. Use enough sheet-pan area to spread the cubes without piling."
+    ],
+    "formulaReview": "1lb eggplant plus two fixed15oz chickpea cans and one fixed14oz tomato can; drain/rinse state preserved. Oil/water/finish amounts remain genuine allowances; no drained-weight equivalence invented."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Chinese Eggplant, cut into 1-inch cubes",
+        "1/2 can (15 oz) Chickpeas, rinsed and drained",
+        "1/4 large Yellow Onion, finely diced",
+        "1/4 tbsp Fresh Ginger, grated",
+        "3/4 clove Garlic, minced",
+        "1/4 tsp Cumin Seeds",
+        "1/4 tsp Turmeric",
+        "1/4 tsp Garam Masala",
+        "1/4 tsp Ground Coriander",
+        "1/8 tsp Kashmiri Chili Powder",
+        "1/4 (14 oz) can Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Chinese Eggplant, cut into 1-inch cubes",
+        "1 can (15 oz) Chickpeas, rinsed and drained",
+        "1/2 large Yellow Onion, finely diced",
+        "1/2 tbsp Fresh Ginger, grated",
+        "1 1/2 cloves Garlic, minced",
+        "1/2 tsp Cumin Seeds",
+        "1/2 tsp Turmeric",
+        "1/2 tsp Garam Masala",
+        "1/2 tsp Ground Coriander",
+        "1/4 tsp Kashmiri Chili Powder",
+        "1/2 (14 oz) can Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Chinese Eggplant, cut into 1-inch cubes",
+        "2 cans (15 oz) Chickpeas, rinsed and drained",
+        "1 large Yellow Onion, finely diced",
+        "1 tbsp Fresh Ginger, grated",
+        "3 cloves Garlic, minced",
+        "1 tsp Cumin Seeds",
+        "1 tsp Turmeric",
+        "1 tsp Garam Masala",
+        "1 tsp Ground Coriander",
+        "1/2 tsp Kashmiri Chili Powder",
+        "1 (14 oz) can Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Chinese Eggplant, cut into 1-inch cubes",
+        "3 cans (15 oz) Chickpeas, rinsed and drained",
+        "1 1/2 large Yellow Onions, finely diced",
+        "1 1/2 tbsp Fresh Ginger, grated",
+        "4 1/2 cloves Garlic, minced",
+        "1 1/2 tsp Cumin Seeds",
+        "1 1/2 tsp Turmeric",
+        "1 1/2 tsp Garam Masala",
+        "1 1/2 tsp Ground Coriander",
+        "3/4 tsp Kashmiri Chili Powder",
+        "1 1/2 (14 oz) cans Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Chinese Eggplant, cut into 1-inch cubes",
+        "4 cans (15 oz) Chickpeas, rinsed and drained",
+        "2 large Yellow Onions, finely diced",
+        "2 tbsp Fresh Ginger, grated",
+        "6 cloves Garlic, minced",
+        "2 tsp Cumin Seeds",
+        "2 tsp Turmeric",
+        "2 tsp Garam Masala",
+        "2 tsp Ground Coriander",
+        "1 tsp Kashmiri Chili Powder",
+        "2 (14 oz) cans Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Chinese Eggplant, cut into 1-inch cubes",
+        "6 cans (15 oz) Chickpeas, rinsed and drained",
+        "3 large Yellow Onions, finely diced",
+        "3 tbsp Fresh Ginger, grated",
+        "9 cloves Garlic, minced",
+        "3 tsp Cumin Seeds",
+        "3 tsp Turmeric",
+        "3 tsp Garam Masala",
+        "3 tsp Ground Coriander",
+        "1 1/2 tsp Kashmiri Chili Powder",
+        "3 (14 oz) cans Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Chinese Eggplant, cut into 1-inch cubes",
+        "2 cans (15 oz) Chickpeas, rinsed and drained",
+        "1 large Yellow Onion, finely diced",
+        "1 tbsp Fresh Ginger, grated",
+        "3 cloves Garlic, minced",
+        "1 tsp Cumin Seeds",
+        "1 tsp Turmeric",
+        "1 tsp Garam Masala",
+        "1 tsp Ground Coriander",
+        "1/2 tsp Kashmiri Chili Powder",
+        "1 (14 oz) can Crushed Tomatoes",
+        "Neutral oil, as needed for roasting",
+        "Neutral oil, as needed for sautéing",
+        "Salt, to taste",
+        "Water, as needed to loosen the gravy",
+        "Chopped Fresh Cilantro, to taste",
+        "Fresh Lemon Juice, to taste"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "856 genuine roast/sauté oil/water/salt/finish allowances retained;2b01 separate spice bloom retained"
+  ],
+  "remainingQuestions": [
+    "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+    "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+    "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

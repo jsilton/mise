@@ -278,6 +278,21 @@ for (const row of confirmed) {
           assert.match(scaled, /Pasteurized Egg Whites, suitable for whipping/);
           if (factor === 1) assert.equal(scaled, liveIngredient);
         }
+      } else if (row.slug === 'misir-wot' && row.caseId === 39) {
+        // Keep the original total-volume parser input and its numeric oracles below.
+        // The current recipe states the onion volume as original-batch context.
+        const liveIngredient =
+          '2 large Red Onions, finely diced (about 3 cups for the original batch)';
+        assert.ok(data.ingredients.includes(liveIngredient));
+        for (const factor of factors) {
+          const scaled = scaleIngredient(liveIngredient, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [2 * factor, 3]
+          );
+          assert.match(scaled, /cups for the original batch/);
+          if (factor === 1) assert.equal(scaled, liveIngredient);
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

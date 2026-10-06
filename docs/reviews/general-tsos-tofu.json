@@ -1,0 +1,1818 @@
+{
+  "slug": "general-tsos-tofu",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "7430bc03878cb160a751799e7366e7dd0b669367af0ae128b59f8191668bb866",
+  "acceptedSourceSha256": "89e3d354239f8b8fe79c4db82eafd672a81a2e56e1a6da9d3910e713a9d8d111",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "comfort"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "20–35 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "35–55 min, plus any tofu pressing and rice preparation"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares",
+        "1 1/2 tbsp Honey",
+        "2 tsp thin vinegar-based red-pepper hot sauce",
+        "3 tbsp Cornstarch (the crunch Guard)",
+        "1 1/2 tbsp Sesame Seeds",
+        "1 cup Vegetable Stock",
+        "1 1/2 tbsp Light Soy Sauce",
+        "1 tsp Dark Soy Sauce (for color)",
+        "2 tsp Rice Vinegar",
+        "1 tbsp Granulated Sugar",
+        "1 1/2 tbsp Cornstarch, for the slurry",
+        "1 tbsp Cold Water, for the slurry",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/2 tbsp Shaoxing Wine, optional",
+        "2 cups Broccoli Florets",
+        "1/2 Red Bell Pepper, sliced",
+        "1 tbsp Fresh Ginger, minced",
+        "2 cloves Garlic, minced",
+        "7 Dried Chinese Red Chilies",
+        "1/3 cup Peanut Oil, for shallow frying; reuse 1 tbsp for the aromatics"
+      ],
+      "after": [
+        "--- Tofu and coating ---",
+        "1 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "1 1/2 tbsp honey",
+        "2 tsp thin vinegar-based red-pepper hot sauce",
+        "1 1/2 tbsp sesame seeds",
+        "3 tbsp cornstarch",
+        "1/3 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "1 tbsp fresh ginger, minced",
+        "2 garlic cloves, minced",
+        "7 dried Chinese red chilies",
+        "1/2 red bell pepper, sliced",
+        "1/2 tbsp Shaoxing wine, optional",
+        "1 cup vegetable stock",
+        "2 cups broccoli florets",
+        "1 1/2 tbsp light soy sauce",
+        "1 tsp dark soy sauce",
+        "2 tsp rice vinegar",
+        "1/4 tsp salt",
+        "1 tbsp granulated sugar",
+        "1/2 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "1 1/2 tbsp cornstarch",
+        "1 tbsp cold water"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 250,
+        "protein": 15,
+        "carbs": 31,
+        "fat": 11,
+        "fiber": 5,
+        "sugar": 12,
+        "sodium": 820
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "tofu",
+            "name": "Tofu and coating",
+            "ingredients": [
+              {
+                "id": "tofu",
+                "key": "tofu",
+                "name": "extra-firm tofu",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ],
+                "preparation": "pressed dry and cut into 1-inch squares"
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": "3/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "hot-sauce",
+                "key": "hot-sauce",
+                "name": "thin vinegar-based red-pepper hot sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame-seeds",
+                "key": "sesame-seeds",
+                "name": "sesame seeds",
+                "quantity": {
+                  "amount": "3/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "coating-starch",
+                "key": "cornstarch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "coat",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "frying-oil",
+                "key": "frying-oil",
+                "name": "peanut oil",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for shallow frying; part is reused for aromatics"
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Sauce and vegetables",
+            "ingredients": [
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "chilies",
+                "key": "chilies",
+                "name": "dried Chinese red chili",
+                "quantity": {
+                  "amount": 7,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "dried Chinese red chilies"
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "red bell pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "red bell peppers",
+                "preparation": "sliced"
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "Shaoxing wine",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "stock",
+                "key": "stock",
+                "name": "vegetable stock",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broccoli",
+                "key": "broccoli",
+                "name": "broccoli florets",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "light-soy",
+                "key": "light-soy",
+                "name": "light soy sauce",
+                "quantity": {
+                  "amount": "3/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dark-soy",
+                "key": "dark-soy",
+                "name": "dark soy sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "rice vinegar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame-oil",
+                "key": "sesame-oil",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "slurry",
+            "name": "Separate slurry",
+            "ingredients": [
+              {
+                "id": "starch",
+                "key": "cornstarch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": "3/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "slurry",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "cold water",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "slurry",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "slurry",
+            "title": "Mix the slurry",
+            "text": "Mix {{ingredients}} in a small bowl. Keep this separate from the tofu coating; re-stir just before adding it to the sauce."
+          },
+          {
+            "id": "coat",
+            "title": "Coat the tofu",
+            "text": "For the coating, use {{ingredients}}. Wash and drain the vegetables before cutting. Mix the honey and hot sauce, gently toss in the dry tofu, then add all the sesame seeds and coating cornstarch. Lift and turn rather than crushing the pieces; aim for a light coating, not a pool of wet batter."
+          },
+          {
+            "id": "fry",
+            "title": "Fry in batches",
+            "text": "Heat {{ingredients}} in a shallow-frying skillet to about 350°F. Carefully add coated tofu in a single layer with space between pieces. Fry about 4–5 minutes per original-size round, turning once, until golden with a formed crust; lower heat if the coating darkens too quickly. Lift to a sheet pan with a slotted spoon. Repeat without crowding, allowing the oil to recover its heat."
+          },
+          {
+            "id": "aromatics",
+            "title": "Cook the aromatics",
+            "text": "Have {{ingredients}} ready. Transfer a portion of the used frying oil to a wok or saucepan: 3/16 of the listed frying-oil amount, which is 1 tbsp for the original batch. This comes from the frying supply, not an additional dose; do not add the remaining frying oil to the sauce. Heat over medium and stir the ginger, garlic and chilies about 30 seconds until fragrant, without scorching. Add all the bell pepper and optional wine."
+          },
+          {
+            "id": "simmer",
+            "title": "Cook the broccoli",
+            "text": "Use {{ingredients}} in sequence: bring all the stock to a boil first, then add all the broccoli. Keep enough room to turn the vegetables; use additional vessels with the complete ingredients divided proportionally for larger batches."
+          },
+          {
+            "id": "season",
+            "title": "Season and thicken",
+            "text": "Add {{ingredients}} and return the sauce to a boil. Re-stir the separate slurry, then pour it in gradually while stirring. Simmer 30–60 seconds after each addition before deciding whether more is needed; stop when it coats a spoon and leave any unused slurry out of the dish. Continue until a broccoli stem yields with slight resistance."
+          },
+          {
+            "id": "finish",
+            "title": "Glaze and serve",
+            "text": "Return all the fried tofu to the ready sauce and fold gently about 30 seconds to coat without breaking the pieces. Serve promptly over separately prepared rice. Holding glazed tofu softens its coating."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep coating starch separate from sauce slurry",
+        "outcome": "Golden tofu pieces coated just before serving, with tender-crisp broccoli and a spoon-coating sauce.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Press tofu ahead if the product needs it; draining, pressing and rice cooking may extend the clock. Keep the two starch measures separate.",
+          "Choose a pan suitable for shallow frying the listed oil; oil depth depends on pan geometry. Work in uncrowded rounds, with all sauce ingredients ready."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Tofu pieces are separated and the coating is golden rather than blackening.",
+            "why": "Crowding cools the oil and extends the fry; honey-coated pieces can burn before their neighbors are ready."
+          },
+          {
+            "step": 6,
+            "cue": "The re-stirred slurry thickens the bubbling sauce before another addition; broccoli stems yield with slight resistance.",
+            "why": "Cornstarch settles and needs heat and time to thicken. The full prepared slurry is a maximum supply, not a requirement to add all of it."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Coating turns dark before a crust forms.",
+            "cause": "Oil is too hot or the pieces were left against the pan too long.",
+            "fix": "Lower the heat and turn pieces promptly; blackened coating cannot be restored by glazing."
+          },
+          {
+            "problem": "Sauce becomes pasty.",
+            "cause": "All slurry was added without pausing for thickening.",
+            "fix": "Stop adding slurry. Next time add it gradually; do not force the entire prepared supply into the sauce."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Extra-firm tofu and coating",
+            "alternative": "Regular or firm tofu; 2–3 tbsp coating starch for the original batch",
+            "effect": "Drain and pat dry, then handle gently. The same honey, hot sauce and sesame coating remains; start with the lower coating-starch amount and add only until lightly coated, scaling that range proportionally. This is separate from the measured slurry."
+          },
+          {
+            "ingredient": "Ginger",
+            "alternative": "1/2 tsp minced ginger for the original batch, scaled proportionally",
+            "effect": "This gives a milder ginger base than the listed tablespoon; all remaining sauce quantities and the short aromatic stage stay the same."
+          },
+          {
+            "ingredient": "Peanut oil and vegetable stock",
+            "alternative": "Same-volume canola oil and water",
+            "effect": "Use oil suitable for frying; retain the same frying supply and its reused aromatic portion. Water changes the stock flavor but does not alter the liquid amount."
+          },
+          {
+            "ingredient": "Dried chilies",
+            "alternative": "Omit the chilies if wanted",
+            "effect": "The original source makes them optional. Keep the rest of the sauce intact; honey-containing tofu is not vegan unless a separately chosen sweetener is used."
+          },
+          {
+            "ingredient": "Shallow-frying oil supply",
+            "alternative": "More-oil deep-frying option",
+            "effect": "For the deep-frying option, use additional suitable frying oil as needed in a vessel intended for deep frying, following its fill and operating limits; no volume or universal depth is specified here. Keep the coating, about 350°F oil temperature and uncrowded rounds, cooking until the pieces are golden with a formed crust. For the aromatics, still take 3/16 of the listed main frying-oil amount from the used oil, which is 1 tbsp for the original batch. Do not calculate this reuse from the larger deep-frying volume or add the remaining frying oil to the sauce. Keep the stock, seasonings, slurry and finishing steps unchanged."
+          }
+        ],
+        "timing": "Allow about 35–55 minutes with dry ready-to-coat tofu: 15–20 minutes preparation and about 20–35 minutes frying and finishing, depending on the number of pan rounds. Pressing tofu and cooking rice are additional; more vessels and oil recovery can extend elapsed time.",
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above 90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or stew to a boil when reheating, stirring so the center heats too; this is separate from the first-cook instructions.",
+        "sources": [
+          {
+            "title": "Kaitlin Leung — General Tso’s Tofu",
+            "url": "https://thewoksoflife.com/general-tsos-tofu/"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGeneral Tso's tofu brings the classic Chinese-American sauce to plant-based protein. The trick to crispy tofu that isn't soggy: toss the pressed tofu cubes in honey and hot sauce before coating with cornstarch and sesame seeds. This creates a sticky surface that the starch can fuse to, resulting in maximum crispiness even after glazing. Dark soy sauce gives the signature deep amber color. Serve immediately for best texture.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **The Bind:** First mix the slurry cornstarch with the measured cold water in a small bowl and set aside. Toss dry tofu cubes with honey and hot sauce. Sprinkle with sesame seeds and 3 tbsp cornstarch. Toss until every cube is \"crusty.\"\n2.  **The Fry:** Heat oil in a cast-iron skillet until 350°F. Fry tofu in a single layer for 4-5 minutes, turning once, until golden and very crisp. Remove to a sheet pan.\n3.  **The Aromatics:** Heat 1 tbsp of the oil left from frying the tofu in a wok. Sauté ginger, garlic, and dried chilies for 30 seconds. Add bell peppers and the optional measured Shaoxing wine.\n4.  **The Simmer:** Pour in the vegetable stock and bring to a boil. Add the broccoli.\n5.  **The Glaze:** Immediately add the soy sauces, vinegar, sugar, and sesame oil. Re-stir the slurry, then add it gradually while stirring the boiling sauce.\n6.  **Bind:** Simmer for 30-60 seconds after each slurry addition before deciding whether to add more; stop when the sauce coats a spoon. Continue until the broccoli is tender-crisp before returning the tofu to the pan.\n7.  **Toss:** Add the crispy tofu back to the wok. Toss vigorously for 30 seconds until perfectly coated. Serve immediately over rice.\n\n## Sources\n\n- [Source comparison for ingredient and method corrections](https://thewoksoflife.com/general-tsos-tofu/). This version retains other existing adaptations; it has not been kitchen-tested.\n",
+    "after": "\n## Chef's Note\n\nThis tofu adaptation brings a Chinese-American takeout sauce to plant-based protein. Coat the dry tofu gently with honey, thin red-pepper hot sauce, sesame seeds and cornstarch, then fry uncrowded pieces before making the glaze. The coating softens once it meets sauce, so finish the broccoli first and return the tofu only when ready to eat. Keep the frying oil separate from the finished dish except for the portion reused for the aromatics.\nFor kids, serve the heat on the side or reduce or omit the spicy elements.\n\n## Directions\n\n1. **Mix the slurry:** Mix cornstarch and cold water in a small bowl. Keep this separate from the tofu coating; re-stir just before adding it to the sauce.\n2. **Coat the tofu:** For the coating, use extra-firm tofu, honey, thin vinegar-based red-pepper hot sauce, sesame seeds, and cornstarch. Wash and drain the vegetables before cutting. Mix the honey and hot sauce, gently toss in the dry tofu, then add all the sesame seeds and coating cornstarch. Lift and turn rather than crushing the pieces; aim for a light coating, not a pool of wet batter.\n3. **Fry in batches:** Heat peanut oil in a shallow-frying skillet to about 350°F. Carefully add coated tofu in a single layer with space between pieces. Fry about 4–5 minutes per original-size round, turning once, until golden with a formed crust; lower heat if the coating darkens too quickly. Lift to a sheet pan with a slotted spoon. Repeat without crowding, allowing the oil to recover its heat.\n4. **Cook the aromatics:** Have fresh ginger, garlic cloves, dried Chinese red chilies, red bell pepper, and Shaoxing wine (if using) ready. Transfer a portion of the used frying oil to a wok or saucepan: 3/16 of the listed frying-oil amount, which is 1 tbsp for the original batch. This comes from the frying supply, not an additional dose; do not add the remaining frying oil to the sauce. Heat over medium and stir the ginger, garlic and chilies about 30 seconds until fragrant, without scorching. Add all the bell pepper and optional wine.\n5. **Cook the broccoli:** Use vegetable stock and broccoli florets in sequence: bring all the stock to a boil first, then add all the broccoli. Keep enough room to turn the vegetables; use additional vessels with the complete ingredients divided proportionally for larger batches.\n6. **Season and thicken:** Add light soy sauce, dark soy sauce, rice vinegar, salt, granulated sugar, and toasted sesame oil and return the sauce to a boil. Re-stir the separate slurry, then pour it in gradually while stirring. Simmer 30–60 seconds after each addition before deciding whether more is needed; stop when it coats a spoon and leave any unused slurry out of the dish. Continue until a broccoli stem yields with slight resistance.\n7. **Glaze and serve:** Return all the fried tofu to the ready sauce and fold gently about 30 seconds to coat without breaking the pieces. Serve promptly over separately prepared rice. Holding glazed tofu softens its coating.\n"
+  },
+  "findings": [
+    {
+      "id": "TL-1",
+      "field": "vibe",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["vibe"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-2",
+      "field": "cookTime",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-3",
+      "field": "totalTime",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-4",
+      "field": "servings",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-5",
+      "field": "ingredients",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-6",
+      "field": "origin",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-7",
+      "field": "nutrition",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-8",
+      "field": "formula",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-9",
+      "field": "learning",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    },
+    {
+      "id": "TL-10",
+      "field": "content",
+      "rationale": "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-tofu.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://thewoksoflife.com/general-tsos-tofu/",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/General%20Tso's%20Tofu.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://thewoksoflife.com/general-tsos-tofu/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "0d970ef4 bulk omitted exact native/045/publisher¼tsp salt and changed ginger½tsp to1tbsp, tofu firmness and coating range. No later explicit household rejection of salt established. Restore source salt; preserve current ginger/extra-firm/3tbsp coating and ee9 oil reuse/separate slurry/boiling staged binding/wine/broccoli endpoints. Disclose source alternatives separately rather than normalize current formula.",
+    "Exact saved more-oil deep-frying option is preserved separately. Aromatic reuse stays 3/16 of the listed main frying amount, not the larger optional frying volume; extra oil is an unmeasured source allowance."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Extra-firm Tofu, pressed dry and cut into 1-inch squares",
+        "actualMethodDestination": "dry tofu coated1/fried2/returned7"
+      },
+      {
+        "text": "1 1/2 tbsp Honey",
+        "actualMethodDestination": "all coating1"
+      },
+      {
+        "text": "2 tsp thin vinegar-based red-pepper hot sauce",
+        "actualMethodDestination": "all coating1"
+      },
+      {
+        "text": "3 tbsp Cornstarch (the crunch Guard)",
+        "actualMethodDestination": "all coating1; separate slurry starch later"
+      },
+      {
+        "text": "1 1/2 tbsp Sesame Seeds",
+        "actualMethodDestination": "all coating1"
+      },
+      {
+        "text": "1 cup Vegetable Stock",
+        "actualMethodDestination": "all simmer4"
+      },
+      {
+        "text": "1 1/2 tbsp Light Soy Sauce",
+        "actualMethodDestination": "all sauce5"
+      },
+      {
+        "text": "1 tsp Dark Soy Sauce (for color)",
+        "actualMethodDestination": "all sauce5"
+      },
+      {
+        "text": "2 tsp Rice Vinegar",
+        "actualMethodDestination": "all sauce5"
+      },
+      {
+        "text": "1 tbsp Granulated Sugar",
+        "actualMethodDestination": "all sauce5"
+      },
+      {
+        "text": "1 1/2 tbsp Cornstarch, for the slurry",
+        "actualMethodDestination": "slurry mixed1; gradually5/6; unused maximum possible"
+      },
+      {
+        "text": "1 tbsp Cold Water, for the slurry",
+        "actualMethodDestination": "slurry mixed1/5/6; separate from stock"
+      },
+      {
+        "text": "1/2 tsp Toasted Sesame Oil",
+        "actualMethodDestination": "all sauce5"
+      },
+      {
+        "text": "1/2 tbsp Shaoxing Wine, optional",
+        "actualMethodDestination": "optional measured3"
+      },
+      {
+        "text": "2 cups Broccoli Florets",
+        "actualMethodDestination": "all broccoli4 until tender-crisp6"
+      },
+      {
+        "text": "1/2 Red Bell Pepper, sliced",
+        "actualMethodDestination": "all bell pepper3"
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, minced",
+        "actualMethodDestination": "all ginger3"
+      },
+      {
+        "text": "2 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic3"
+      },
+      {
+        "text": "7 Dried Chinese Red Chilies",
+        "actualMethodDestination": "all chilies3; child omission note"
+      },
+      {
+        "text": "1/3 cup Peanut Oil, for shallow frying; reuse 1 tbsp for the aromatics",
+        "actualMethodDestination": "full frying supply2; reused1tbsp3, not extra dose"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "tofu.tofu",
+        "name": "extra-firm tofu",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "pressed dry and cut into 1-inch squares",
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "tofu.honey",
+        "name": "honey",
+        "quantity": {
+          "amount": "3/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "tofu.hot-sauce",
+        "name": "thin vinegar-based red-pepper hot sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "tofu.sesame-seeds",
+        "name": "sesame seeds",
+        "quantity": {
+          "amount": "3/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "tofu.coating-starch",
+        "name": "cornstarch",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "coat",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "tofu.frying-oil",
+        "name": "peanut oil",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "for shallow frying; part is reused for aromatics",
+        "destinations": [
+          {
+            "step": "fry",
+            "share": 1
+          }
+        ],
+        "role": null,
+        "downstreamReuse": "All purchased oil enters fry step3; 3/16 of the original measured supply is transferred after frying to aromatics step4. Shopping includes the oil only once; absorption/remaining oil are unmeasured."
+      },
+      {
+        "id": "sauce.ginger",
+        "name": "fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.chilies",
+        "name": "dried Chinese red chili",
+        "quantity": {
+          "amount": 7,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.pepper",
+        "name": "red bell pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "sliced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.wine",
+        "name": "Shaoxing wine",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.stock",
+        "name": "vegetable stock",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.broccoli",
+        "name": "broccoli florets",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.light-soy",
+        "name": "light soy sauce",
+        "quantity": {
+          "amount": "3/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.dark-soy",
+        "name": "dark soy sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.vinegar",
+        "name": "rice vinegar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.sesame-oil",
+        "name": "toasted sesame oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "slurry.starch",
+        "name": "cornstarch",
+        "quantity": {
+          "amount": "3/2",
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "slurry",
+            "share": 1
+          }
+        ],
+        "role": null,
+        "processAllocation": "Complete starch measure prepared in its distinct sauce component; Tofu uses maximum gradually and may leave unused slurry; Cauliflower returns entire dispersed source starch."
+      },
+      {
+        "id": "slurry.water",
+        "name": "cold water",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "slurry",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water"
+      }
+    ],
+    "methodOnlyFrozenInputs": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix the slurry: Mix cornstarch and cold water in a small bowl. Keep this separate from the tofu coating; re-stir just before adding it to the sauce."
+    },
+    {
+      "step": 2,
+      "text": "Coat the tofu: For the coating, use extra-firm tofu, honey, thin vinegar-based red-pepper hot sauce, sesame seeds, and cornstarch. Wash and drain the vegetables before cutting. Mix the honey and hot sauce, gently toss in the dry tofu, then add all the sesame seeds and coating cornstarch. Lift and turn rather than crushing the pieces; aim for a light coating, not a pool of wet batter."
+    },
+    {
+      "step": 3,
+      "text": "Fry in batches: Heat peanut oil in a shallow-frying skillet to about 350°F. Carefully add coated tofu in a single layer with space between pieces. Fry about 4–5 minutes per original-size round, turning once, until golden with a formed crust; lower heat if the coating darkens too quickly. Lift to a sheet pan with a slotted spoon. Repeat without crowding, allowing the oil to recover its heat."
+    },
+    {
+      "step": 4,
+      "text": "Cook the aromatics: Have fresh ginger, garlic cloves, dried Chinese red chilies, red bell pepper, and Shaoxing wine (if using) ready. Transfer a portion of the used frying oil to a wok or saucepan: 3/16 of the listed frying-oil amount, which is 1 tbsp for the original batch. This comes from the frying supply, not an additional dose; do not add the remaining frying oil to the sauce. Heat over medium and stir the ginger, garlic and chilies about 30 seconds until fragrant, without scorching. Add all the bell pepper and optional wine."
+    },
+    {
+      "step": 5,
+      "text": "Cook the broccoli: Use vegetable stock and broccoli florets in sequence: bring all the stock to a boil first, then add all the broccoli. Keep enough room to turn the vegetables; use additional vessels with the complete ingredients divided proportionally for larger batches."
+    },
+    {
+      "step": 6,
+      "text": "Season and thicken: Add light soy sauce, dark soy sauce, rice vinegar, salt, granulated sugar, and toasted sesame oil and return the sauce to a boil. Re-stir the separate slurry, then pour it in gradually while stirring. Simmer 30–60 seconds after each addition before deciding whether more is needed; stop when it coats a spoon and leave any unused slurry out of the dish. Continue until a broccoli stem yields with slight resistance."
+    },
+    {
+      "step": 7,
+      "text": "Glaze and serve: Return all the fried tofu to the ready sauce and fold gently about 30 seconds to coat without breaking the pieces. Serve promptly over separately prepared rice. Holding glazed tofu softens its coating."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Extra-firm tofu and coating",
+      "alternative": "Regular or firm tofu; 2–3 tbsp coating starch for the original batch",
+      "effect": "Drain and pat dry, then handle gently. The same honey, hot sauce and sesame coating remains; start with the lower coating-starch amount and add only until lightly coated, scaling that range proportionally. This is separate from the measured slurry."
+    },
+    {
+      "ingredient": "Ginger",
+      "alternative": "1/2 tsp minced ginger for the original batch, scaled proportionally",
+      "effect": "This gives a milder ginger base than the listed tablespoon; all remaining sauce quantities and the short aromatic stage stay the same."
+    },
+    {
+      "ingredient": "Peanut oil and vegetable stock",
+      "alternative": "Same-volume canola oil and water",
+      "effect": "Use oil suitable for frying; retain the same frying supply and its reused aromatic portion. Water changes the stock flavor but does not alter the liquid amount."
+    },
+    {
+      "ingredient": "Dried chilies",
+      "alternative": "Omit the chilies if wanted",
+      "effect": "The original source makes them optional. Keep the rest of the sauce intact; honey-containing tofu is not vegan unless a separately chosen sweetener is used."
+    },
+    {
+      "ingredient": "Shallow-frying oil supply",
+      "alternative": "More-oil deep-frying option",
+      "effect": "For the deep-frying option, use additional suitable frying oil as needed in a vessel intended for deep frying, following its fill and operating limits; no volume or universal depth is specified here. Keep the coating, about 350°F oil temperature and uncrowded rounds, cooking until the pieces are golden with a formed crust. For the aromatics, still take 3/16 of the listed main frying-oil amount from the used oil, which is 1 tbsp for the original batch. Do not calculate this reuse from the larger deep-frying volume or add the remaining frying oil to the sauce. Keep the stock, seasonings, slurry and finishing steps unchanged."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "steamed-broccoli", "garlic-sesame-spinach"],
+    "scope": "Prepared side pairings; no listed main ingredient substitution or automatic combined quantity. Linked meal/component gains no review credit.",
+    "mapoMeal": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "sourceMeasureScope": "Written planning count; no measured edible output, absorbed-oil estimate or pan-load certification",
+    "timing": "Allow about 35–55 minutes with dry ready-to-coat tofu: 15–20 minutes preparation and about 20–35 minutes frying and finishing, depending on the number of pan rounds. Pressing tofu and cooking rice are additional; more vessels and oil recovery can extend elapsed time.",
+    "before": [
+      "Press tofu ahead if the product needs it; draining, pressing and rice cooking may extend the clock. Keep the two starch measures separate.",
+      "Choose a pan suitable for shallow frying the listed oil; oil depth depends on pan geometry. Work in uncrowded rounds, with all sauce ingredients ready."
+    ],
+    "formulaReview": "1lb tofu and2cups broccoli; coating3tbsp and sauce1½tbsp starch remain distinct.⅓cup frying supply and3/16 downstream reuse counted once.1cup stock remains; no absorption/finished sauce volume estimated."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "1/4 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "3/8 tbsp honey",
+        "1/2 tsp thin vinegar-based red-pepper hot sauce",
+        "3/8 tbsp sesame seeds",
+        "3/4 tbsp cornstarch",
+        "0.0833 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "1/4 tbsp fresh ginger, minced",
+        "1/2 garlic clove, minced",
+        "1 3/4 dried Chinese red chilies",
+        "1/8 red bell pepper, sliced",
+        "1/8 tbsp Shaoxing wine, optional",
+        "1/4 cup vegetable stock",
+        "1/2 cup broccoli florets",
+        "3/8 tbsp light soy sauce",
+        "1/4 tsp dark soy sauce",
+        "1/2 tsp rice vinegar",
+        "0.0625 tsp salt",
+        "1/4 tbsp granulated sugar",
+        "1/8 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "3/8 tbsp cornstarch",
+        "1/4 tbsp cold water"
+      ],
+      "yield": "1 portion",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "1/2 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "3/4 tbsp honey",
+        "1 tsp thin vinegar-based red-pepper hot sauce",
+        "3/4 tbsp sesame seeds",
+        "1 1/2 tbsp cornstarch",
+        "1/6 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "1/2 tbsp fresh ginger, minced",
+        "1 garlic clove, minced",
+        "3 1/2 dried Chinese red chilies",
+        "1/4 red bell pepper, sliced",
+        "1/4 tbsp Shaoxing wine, optional",
+        "1/2 cup vegetable stock",
+        "1 cup broccoli florets",
+        "3/4 tbsp light soy sauce",
+        "1/2 tsp dark soy sauce",
+        "1 tsp rice vinegar",
+        "1/8 tsp salt",
+        "1/2 tbsp granulated sugar",
+        "1/4 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "3/4 tbsp cornstarch",
+        "1/2 tbsp cold water"
+      ],
+      "yield": "2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "1 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "1 1/2 tbsp honey",
+        "2 tsp thin vinegar-based red-pepper hot sauce",
+        "1 1/2 tbsp sesame seeds",
+        "3 tbsp cornstarch",
+        "1/3 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "1 tbsp fresh ginger, minced",
+        "2 garlic cloves, minced",
+        "7 dried Chinese red chilies",
+        "1/2 red bell pepper, sliced",
+        "1/2 tbsp Shaoxing wine, optional",
+        "1 cup vegetable stock",
+        "2 cups broccoli florets",
+        "1 1/2 tbsp light soy sauce",
+        "1 tsp dark soy sauce",
+        "2 tsp rice vinegar",
+        "1/4 tsp salt",
+        "1 tbsp granulated sugar",
+        "1/2 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "1 1/2 tbsp cornstarch",
+        "1 tbsp cold water"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "1 1/2 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "2 1/4 tbsp honey",
+        "3 tsp thin vinegar-based red-pepper hot sauce",
+        "2 1/4 tbsp sesame seeds",
+        "4 1/2 tbsp cornstarch",
+        "1/2 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "1 1/2 tbsp fresh ginger, minced",
+        "3 garlic cloves, minced",
+        "10 1/2 dried Chinese red chilies",
+        "3/4 red bell pepper, sliced",
+        "3/4 tbsp Shaoxing wine, optional",
+        "1 1/2 cups vegetable stock",
+        "3 cups broccoli florets",
+        "2 1/4 tbsp light soy sauce",
+        "1 1/2 tsp dark soy sauce",
+        "3 tsp rice vinegar",
+        "3/8 tsp salt",
+        "1 1/2 tbsp granulated sugar",
+        "3/4 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "2 1/4 tbsp cornstarch",
+        "1 1/2 tbsp cold water"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "2 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "3 tbsp honey",
+        "4 tsp thin vinegar-based red-pepper hot sauce",
+        "3 tbsp sesame seeds",
+        "6 tbsp cornstarch",
+        "2/3 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "2 tbsp fresh ginger, minced",
+        "4 garlic cloves, minced",
+        "14 dried Chinese red chilies",
+        "1 red bell pepper, sliced",
+        "1 tbsp Shaoxing wine, optional",
+        "2 cups vegetable stock",
+        "4 cups broccoli florets",
+        "3 tbsp light soy sauce",
+        "2 tsp dark soy sauce",
+        "4 tsp rice vinegar",
+        "1/2 tsp salt",
+        "2 tbsp granulated sugar",
+        "1 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "3 tbsp cornstarch",
+        "2 tbsp cold water"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "3 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "4 1/2 tbsp honey",
+        "6 tsp thin vinegar-based red-pepper hot sauce",
+        "4 1/2 tbsp sesame seeds",
+        "9 tbsp cornstarch",
+        "1 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "3 tbsp fresh ginger, minced",
+        "6 garlic cloves, minced",
+        "21 dried Chinese red chilies",
+        "1 1/2 red bell peppers, sliced",
+        "1 1/2 tbsp Shaoxing wine, optional",
+        "3 cups vegetable stock",
+        "6 cups broccoli florets",
+        "4 1/2 tbsp light soy sauce",
+        "3 tsp dark soy sauce",
+        "6 tsp rice vinegar",
+        "3/4 tsp salt",
+        "3 tbsp granulated sugar",
+        "1 1/2 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "4 1/2 tbsp cornstarch",
+        "3 tbsp cold water"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Tofu and coating ---",
+        "1 lb extra-firm tofu, pressed dry and cut into 1-inch squares",
+        "1 1/2 tbsp honey",
+        "2 tsp thin vinegar-based red-pepper hot sauce",
+        "1 1/2 tbsp sesame seeds",
+        "3 tbsp cornstarch",
+        "1/3 cup peanut oil, for shallow frying; part is reused for aromatics",
+        "--- Sauce and vegetables ---",
+        "1 tbsp fresh ginger, minced",
+        "2 garlic cloves, minced",
+        "7 dried Chinese red chilies",
+        "1/2 red bell pepper, sliced",
+        "1/2 tbsp Shaoxing wine, optional",
+        "1 cup vegetable stock",
+        "2 cups broccoli florets",
+        "1 1/2 tbsp light soy sauce",
+        "1 tsp dark soy sauce",
+        "2 tsp rice vinegar",
+        "1/4 tsp salt",
+        "1 tbsp granulated sugar",
+        "1/2 tsp toasted sesame oil",
+        "--- Separate slurry ---",
+        "1 1/2 tbsp cornstarch",
+        "1 tbsp cold water"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": [
+    "ee9 exact separate slurry/water, reused frying oil, thin hot sauce, optional measured wine, sesame oil and broccoli-ready before tofu; all retained"
+  ],
+  "remainingQuestions": [
+    "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+    "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+    "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

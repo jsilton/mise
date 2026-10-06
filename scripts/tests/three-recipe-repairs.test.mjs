@@ -97,16 +97,51 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
 test('tofu separates coating from slurry and reuses the frying oil', () => {
   const { data, content } = read('general-tsos-tofu');
   for (const ingredient of [
-    '3 tbsp Cornstarch (the crunch Guard)',
-    '1 1/2 tbsp Cornstarch, for the slurry',
-    '1 tbsp Cold Water, for the slurry',
-    '1/2 tsp Toasted Sesame Oil',
-    '1/2 tbsp Shaoxing Wine, optional',
+    '3 tbsp cornstarch',
+    '1 1/2 tbsp cornstarch',
+    '1 tbsp cold water',
+    '1/2 tsp toasted sesame oil',
+    '1/2 tbsp Shaoxing wine, optional',
+    '1/4 tsp salt',
   ])
     assert.ok(data.ingredients.includes(ingredient), ingredient);
-  assert.ok(data.ingredients.some((line) => line.startsWith('1/3 cup Peanut Oil')));
-  assert.match(content, /oil left from frying the tofu/);
-  assert.match(content, /30-60 seconds after each slurry addition/);
-  assert.match(content, /broccoli is tender-crisp/);
+  assert.ok(data.ingredients.some((line) => line.startsWith('1/3 cup peanut oil')));
+  assert.equal(data.formula.version, 1);
+  const slurry = data.formula.components.find((c) => c.id === 'slurry');
+  assert.deepEqual(
+    slurry.ingredients.map((i) => ({
+      id: i.id,
+      name: i.name,
+      quantity: i.quantity,
+      uses: i.uses,
+    })),
+    [
+      {
+        id: 'starch',
+        name: 'cornstarch',
+        quantity: { amount: '3/2', unit: 'tbsp' },
+        uses: [{ step: 'slurry', share: 1 }],
+      },
+      {
+        id: 'water',
+        name: 'cold water',
+        quantity: { amount: 1, unit: 'tbsp' },
+        uses: [{ step: 'slurry', share: 1 }],
+      },
+    ]
+  );
+  const coatingStarch = data.formula.components
+    .find((c) => c.id === 'tofu')
+    .ingredients.find((i) => i.id === 'coating-starch');
+  assert.equal(coatingStarch.name, 'cornstarch');
+  assert.deepEqual(coatingStarch.quantity, { amount: 3, unit: 'tbsp' });
+  assert.deepEqual(coatingStarch.uses, [{ step: 'coat', share: 1 }]);
+  assert.match(
+    content,
+    /3\/16 of the listed frying-oil amount, which is 1 tbsp for the original batch/
+  );
+  assert.match(content, /This comes from the frying supply, not an additional dose/);
+  assert.match(content, /30–60 seconds after each addition/);
+  assert.match(content, /broccoli stem yields with slight resistance/);
   assert.equal(data.sourceUrl, 'https://thewoksoflife.com/general-tsos-tofu/');
 });

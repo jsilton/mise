@@ -1,0 +1,443 @@
+{
+  "slug": "steamed-mussels-chorizo",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "b4d8ec87a19af6f17dae6a2b7ab70bc551941a59cc8879a3de18e3cb99c6d34c",
+  "acceptedSourceSha256": "9e7b9f2f99a998b9b70bc2d055c7fb5996bcb2f52519ce770fcb523c9a04f601",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "17–22 min, planning estimate"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "35–45 min, planning estimate"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 lbs Fresh Mussels, scrubbed and debearded",
+        "2 oz Dried Spanish Chorizo, thinly sliced",
+        "1 pint Cherry Tomatoes, halved",
+        "3/4 cup Dry White Wine",
+        "3 cloves Garlic, crushed",
+        "1 tsp Fennel Seeds, crushed (The \"Sea\" Pulse)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "2 tbsp Fresh Tarragon, chopped",
+        "Thick country-style bread, charred"
+      ],
+      "after": [
+        "4 lbs fresh live mussels, scrubbed and debearded",
+        "2 oz dried Spanish chorizo, casing removed, thinly sliced",
+        "1 pint cherry tomatoes, halved",
+        "3/4 cup dry white wine",
+        "3 garlic cloves, crushed",
+        "1 tsp fennel seeds, crushed",
+        "2 tbsp extra-virgin olive oil, for the pot",
+        "2 tbsp fresh tarragon or parsley, chopped",
+        "Thick country-style bread, as needed, toasted or charred",
+        "Extra-virgin olive oil, as needed for generously drizzling the bread",
+        "Freshly ground black pepper, to taste"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Spain",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 535,
+        "protein": 65,
+        "carbs": 24,
+        "fat": 18.5,
+        "fiber": 1,
+        "sugar": 1,
+        "sodium": 4620
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reduce the base before steaming live mussels, then keep their released broth.",
+        "outcome": "Opened mussels with fragrant tomato-chorizo broth and herb-topped, generously oiled toast.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use dried Spanish chorizo as listed; check that it is ready to eat. Fresh raw Mexican chorizo is a different product with different cooking requirements.",
+          "Choose a covered pot that can contain and turn the actual mussel load. Divide all chorizo, oil, aromatics, wine, tomatoes and mussels proportionally for more pots; no extra water or wine is prescribed."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The wine-and-tomato liquid is visibly reduced but the base is still moist.",
+            "why": "Mussels release more liquid, so base reduction and finished broth consistency are different stages."
+          },
+          {
+            "step": 4,
+            "cue": "Shells open during cooking; unopened ones are discarded.",
+            "why": "Trying to force every shell open can overcook those already done, and closed shells are not a reason to extend the whole pot indefinitely."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The base begins to catch before mussels go in.",
+            "cause": "Heat or pan area drove off liquid faster than the reference time.",
+            "fix": "Lower the heat and add the mussels once the base is reduced and moist. Burnt garlic or tomatoes cannot be undone."
+          },
+          {
+            "problem": "Some mussels do not open.",
+            "cause": "They have not opened during cooking.",
+            "fix": "Discard them; do not serve or pry them open to recover portions."
+          }
+        ],
+        "timing": "Allow about 35–45 minutes for the original batch, including about 15–20 minutes sorting/preparation and roughly 17–22 minutes for rendering, aromatics, reduction and steaming, with toast overlapping where practical. Sorting and additional pots or batches can extend the plan. Four portions is the original planning yield; the edible yield of shell-on mussels varies.",
+        "storage": "Cook live mussels promptly and keep them at 40°F or below before cooking. Refrigerate cooked mussels and broth in shallow containers within 2 hours, or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. For leftovers, reheat the mussels to 165°F throughout and bring the separate broth to a boil. Prolonged reheating toughens mussels and further reduces broth; reheat only what you will serve. Keep toast separate.",
+        "sources": [
+          {
+            "title": "Chris Morocco: Steamed Mussels with Tomato and Chorizo Broth",
+            "url": "https://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth"
+          },
+          {
+            "title": "FDA: Seafood handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FDA: Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA: Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Tarragon",
+            "alternative": "The same measured amount of fresh parsley",
+            "effect": "Parsley gives a milder herb finish; use one herb choice."
+          },
+          {
+            "ingredient": "Bread as needed",
+            "alternative": "One thick toasted slice per listed portion",
+            "effect": "The original batch uses four slices. This is a serving option, not a measured appetite or bread weight."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Spanish-style mussel dish builds flavor by cooking chorizo, garlic, and cherry tomatoes until the tomatoes burst and the wine reduces by half before adding mussels. This creates a thick, concentrated broth rather than a thin, watery one. Crushed fennel seeds add herbal notes that echo the oceanic sweetness of mussels. Serve with charred bread to soak up the flavorful broth.\n\n## Directions\n\n1.  **The Render:** In a large heavy pot, heat oil. Sauté chorizo for 4 minutes until crispy. Add garlic and fennel seeds; cook for 30-45 seconds.\n2.  **The Glaze:** Add tomatoes and wine. Season with black pepper. Simmer for 6-8 minutes over medium-high until the liquid has reduced by 3/4 and looks like a thick syrup.\n3.  **The Crunch:** Add the mussels to the pot. Cover tightly.\n4.  **Steam:** Cook for 6-8 minutes, shaking the pot occasionally, until all mussels have popped open.\n5.  **Refine:** Discard any mussels that did not open.\n6.  **Serve:** Ladle mussels and the thick chorizo broth into deep bowls. Garnish with fresh tarragon for the mandatory aromatic **High Note**.\n7.  **Toast:** Serve with heavily oiled, charred country bread.\n",
+    "after": "\n## Chef's Note\n\nThis Spanish-style dish reduces wine and tomato juices before steaming the mussels. The mussels then release their own liquid into the full chorizo-and-olive-oil base, so the finished broth need not resemble the concentrated base. Tarragon or parsley and oiled toast complete the dish.\n\n## Directions\n\n1. **Prepare:** Scrub and debeard the live mussels just before cooking. Discard shells that are cracked or broken, and open mussels that do not close when tapped. Keep them refrigerated until ready. Use a heavy pot with a tight lid and enough room to turn the mussels; divide the full measured base and mussels proportionally among additional pots or batches if needed.\n\n2. **Render:** Heat the full measured pot oil with the dried Spanish chorizo over medium heat. Stir for about 4 minutes, until it begins to brown and crisp. Add garlic and fennel seeds; cook for 30–45 seconds until fragrant. Keep all the oil and rendered chorizo fat in the pot.\n\n3. **Reduce:** Add all the tomatoes and wine, and season with pepper. Simmer over medium-high for about 6–8 minutes, until the liquid has reduced by about three-quarters and the tomatoes soften. This is the base before mussel juices enter; do not cook it dry or require the finished broth to be a syrup.\n\n4. **Steam:** Add all the mussels and cover tightly. Cook about 6–8 minutes, stirring or shaking the pot occasionally, until shells open during cooking. Check them rather than waiting for every shell to open; discard any that remain closed. Keep finished mussels with their broth.\n\n5. **Serve:** Ladle mussels and all the chorizo broth among deep bowls. Add all the measured tarragon or parsley. Toast or char the bread separately and drizzle it generously with its separate oil allowance; serve alongside. The original four-slice bread option uses one thick slice per listed portion; use the scaled portion count as a planning guide rather than a fixed four slices.\n"
+  },
+  "findings": [
+    {
+      "id": "SF02-5-1",
+      "rationale": "Give full pot oil, independent generous bread oil, pepper, casing state and herb/bread options actual destinations; distinguish reduced base from shellfish-released finished broth.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "native",
+        "b7ae012d",
+        "045e5ba2",
+        "2f2553cd",
+        "2b01ffbb",
+        "BonAppetit",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": ["ingredients", "content", "learning"],
+      "questions": [
+        "Confirm the actual live-mussel load, pot capacity, ready-to-eat dried chorizo label, reduction appearance and shell-open/elapsed timing.",
+        "Record edible mussel and finished broth yield and oil used on toast. Neither shell-on weight nor reduced input liquid establishes a measured finished broth volume."
+      ]
+    },
+    {
+      "id": "SF02-5-2",
+      "rationale": "Keep source shell-opening/discard guidance with FDA live-shell checks, proportional actual pot loading and complete stage clock; remove unsupported syrup guarantee, origin and nutrition.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "native",
+        "b7ae012d",
+        "045e5ba2",
+        "2f2553cd",
+        "2b01ffbb",
+        "BonAppetit",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "nutrition",
+        "cookTime",
+        "totalTime",
+        "content",
+        "learning"
+      ],
+      "questions": [
+        "Confirm the actual live-mussel load, pot capacity, ready-to-eat dried chorizo label, reduction appearance and shell-open/elapsed timing.",
+        "Record edible mussel and finished broth yield and oil used on toast. Neither shell-on weight nor reduced input liquid establishes a measured finished broth volume."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Steamed%20Mussels%20with%20Tomato%20and%20Chorizo%20Broth.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Full original oil/herb/bread options",
+      "status": "restored distinct uses",
+      "difference": "b7/045/native/publisher have full two tablespoons pot oil plus independent bread drizzle, pepper, herb alternative and four toast slices. 2f2553 omitted ingredient labels and parsley/count while its method retained heavily oiled bread. Current as-needed charred bread stays available; four-slice/toasted/parsley route is explicit."
+    },
+    {
+      "route": "Reduction and aroma repair",
+      "status": "current method/source endpoint retained",
+      "difference": "2f2553 body said wine reduces by half but directions and exact original say three-quarters; correct the introduction to avoid contradiction. Keep 2b01ffbb 30–45-second aroma repair and the three-quarter base reduction. No extra steaming water or invented minimum liquid."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "4 lbs Fresh Mussels, scrubbed and debearded",
+        "destination": "Steps3–5 full scrubbed/debearded mussels; waits until all open then discards unopened. No live-shell sorting in method.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 oz Dried Spanish Chorizo, thinly sliced",
+        "destination": "Step1 full dried Spanish chorizo; casing state omitted.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 pint Cherry Tomatoes, halved",
+        "destination": "Step2 tomatoes.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "3/4 cup Dry White Wine",
+        "destination": "Step2 wine, three-quarter reduction conflicts half-reduction note; syrup target.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "3 cloves Garlic, crushed",
+        "destination": "Step1 short garlic repair.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Fennel Seeds, crushed (The \"Sea\" Pulse)",
+        "destination": "Step1 full crushed fennel.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Extra-Virgin Olive Oil",
+        "destination": "Step1 full2tbsp pot oil; unlisted extra oil to bread step7.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Fresh Tarragon, chopped",
+        "destination": "Step6 full tarragon; original parsley alternative absent.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "Thick country-style bread, charred",
+        "destination": "Step7 charred/heavily oiled as-needed bread; no bread count or separate oil ingredient.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [
+      {
+        "methodOnly": "Black pepper step2 and heavily oiled bread step7 missing in frozen ingredient list; source genuine unmeasured amounts recovered."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "4 lbs fresh live mussels, scrubbed and debearded",
+        "destination": "Step1 live sorting/cold wait;4 shell opening/discard;5 full broth served.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 oz dried Spanish chorizo, casing removed, thinly sliced",
+        "destination": "Step2 full dried Spanish chorizo with casing removed; label ready-to-eat state required.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 pint cherry tomatoes, halved",
+        "destination": "Step3 full pint tomatoes.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "3/4 cup dry white wine",
+        "destination": "Step3 full3/4cup wine, reduced base then mussel juices enter; no water added/output volume claimed.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "3 garlic cloves, crushed",
+        "destination": "Step2 full garlic;30–45sec retained.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 tsp fennel seeds, crushed",
+        "destination": "Step2 full fennel.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 tbsp extra-virgin olive oil, for the pot",
+        "destination": "Step2 full2tbsp pot oil plus all rendered fat.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 tbsp fresh tarragon or parsley, chopped",
+        "destination": "Step5 full2tbsp one herb choice.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "Thick country-style bread, as needed, toasted or charred",
+        "destination": "Step5 current as-needed toasted/charred bread; complete one-slice-per-listed-portion original option.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "Extra-virgin olive oil, as needed for generously drizzling the bread",
+        "destination": "Step5 independent genuine generous bread drizzle.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "Freshly ground black pepper, to taste",
+        "destination": "Step3 genuine pepper seasoning.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Herb choice",
+        "ingredients": "Scaled full2tbsp tarragon OR same measured parsley; no combined double herb dose.",
+        "destinations": "Step5 full herb garnish.",
+        "status": "public source choice"
+      },
+      {
+        "name": "As-needed charred bread or source toast portion",
+        "ingredients": "Current unmeasured bread remains; source option one thick toasted slice per listed portion (four slices original), with separate genuine generous oil drizzle. Full pot formula unchanged.",
+        "destinations": "Step5 bread toasted/charred, oiled and served with all broth.",
+        "status": "complete public choices; no bread-weight certification"
+      }
+    ],
+    "quantityScope": "Every measured current dose is retained or explicitly source-restored with a separate complete current variation. No invented amount, weight equivalent or output yield; frozen ledger is not retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Scrub and debeard the live mussels just before cooking. Discard shells that are cracked or broken, and open mussels that do not close when tapped. Keep them refrigerated until ready. Use a heavy pot with a tight lid and enough room to turn the mussels; divide the full measured base and mussels proportionally among additional pots or batches if needed.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 2,
+      "text": "Render: Heat the full measured pot oil with the dried Spanish chorizo over medium heat. Stir for about 4 minutes, until it begins to brown and crisp. Add garlic and fennel seeds; cook for 30–45 seconds until fragrant. Keep all the oil and rendered chorizo fat in the pot.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 3,
+      "text": "Reduce: Add all the tomatoes and wine, and season with pepper. Simmer over medium-high for about 6–8 minutes, until the liquid has reduced by about three-quarters and the tomatoes soften. This is the base before mussel juices enter; do not cook it dry or require the finished broth to be a syrup.",
+      "dependencies": [2],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 4,
+      "text": "Steam: Add all the mussels and cover tightly. Cook about 6–8 minutes, stirring or shaking the pot occasionally, until shells open during cooking. Check them rather than waiting for every shell to open; discard any that remain closed. Keep finished mussels with their broth.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 5,
+      "text": "Serve: Ladle mussels and all the chorizo broth among deep bowls. Add all the measured tarragon or parsley. Toast or char the bread separately and drizzle it generously with its separate oil allowance; serve alongside. The original four-slice bread option uses one thick slice per listed portion; use the scaled portion count as a planning guide rather than a fixed four slices.",
+      "dependencies": [4],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Herb choice",
+      "ingredients": "Scaled full2tbsp tarragon OR same measured parsley; no combined double herb dose.",
+      "destinations": "Step5 full herb garnish.",
+      "status": "public source choice"
+    },
+    {
+      "name": "As-needed charred bread or source toast portion",
+      "ingredients": "Current unmeasured bread remains; source option one thick toasted slice per listed portion (four slices original), with separate genuine generous oil drizzle. Full pot formula unchanged.",
+      "destinations": "Step5 bread toasted/charred, oiled and served with all broth.",
+      "status": "complete public choices; no bread-weight certification"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "smoky-spanish-rice-and-chickpeas",
+      "lemon-herb-couscous",
+      "roasted-broccolini-with-lemon"
+    ],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "preparation": "15 min",
+    "cooking": "17–22 min, planning estimate",
+    "elapsed": "35–45 min, planning estimate",
+    "planningScope": "Allow about 35–45 minutes for the original batch, including about 15–20 minutes sorting/preparation and roughly 17–22 minutes for rendering, aromatics, reduction and steaming, with toast overlapping where practical. Sorting and additional pots or batches can extend the plan. Four portions is the original planning yield; the edible yield of shell-on mussels varies.",
+    "active": "Not measured; attended preparation and cooking distinguished from refrigerator wait/cooling.",
+    "capacity": "No exact pan/cooker capacity or model clock certified; actual load/single layers and proportional batch guidance.",
+    "storage": "Cook live mussels promptly and keep them at 40°F or below before cooking. Refrigerate cooked mussels and broth in shallow containers within 2 hours, or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. For leftovers, reheat the mussels to 165°F throughout and bring the separate broth to a boil. Prolonged reheating toughens mussels and further reduces broth; reheat only what you will serve. Keep toast separate.",
+    "ratioAndYield": "Current planning portions retained. Actual cooked weight, taco count, shell-on edible yield and broth output are not measured."
+  },
+  "preservedPriorRepairs": [
+    "Full four pounds shell-on mussels, dried two ounces chorizo, three-quarter cup wine, two tablespoons pot oil, pint tomatoes, all garlic/fennel/herbs and generously oiled bread retained.",
+    "2b01ffbb 30–45-second aromatics, source three-quarter reduction and shell-opening/discard endpoint preserved; current charred bread stays available."
+  ],
+  "remainingQuestions": [
+    "Confirm the actual live-mussel load, pot capacity, ready-to-eat dried chorizo label, reduction appearance and shell-open/elapsed timing.",
+    "Record edible mussel and finished broth yield and oil used on toast. Neither shell-on weight nor reduced input liquid establishes a measured finished broth volume."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

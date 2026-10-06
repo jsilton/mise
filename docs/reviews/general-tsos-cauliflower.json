@@ -1,0 +1,1807 @@
+{
+  "slug": "general-tsos-cauliflower",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "6fdb84bef083fee77e46d955483a54fa51cb8d9ae87f14e5d734cf8f9f9f55b4",
+  "acceptedSourceSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "30–45 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "About 60–80 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 head Cauliflower, cut into bite-sized florets",
+        "1/2 cup All-Purpose Flour",
+        "1/3 cup Cornstarch (the crunch Guard)",
+        "3/4 tsp Baking Powder",
+        "2 large Eggs",
+        "3 tbsp Soy Sauce",
+        "1 tbsp Rice Vinegar",
+        "1/4 cup Soy Sauce",
+        "3 tbsp Rice Vinegar",
+        "2 tbsp Mirin",
+        "3 tbsp Granulated Sugar",
+        "1 tbsp Cornstarch (for the bind)",
+        "1/4 cup Vegetable Broth",
+        "6 Scallions, sliced (whites and greens separated)",
+        "3 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, minced",
+        "5 Dried Red Chilies",
+        "Peanut Oil (for frying)"
+      ],
+      "after": [
+        "--- Cauliflower and batter ---",
+        "1 cauliflower head, washed, well drained and cut into bite-sized florets",
+        "1/2 cup all-purpose flour",
+        "1/3 cup cornstarch",
+        "3/4 tsp baking powder",
+        "1 tsp salt",
+        "2 large eggs",
+        "3 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1/2 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "2 tsp sesame oil",
+        "6 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "3 garlic cloves, minced",
+        "1 tbsp fresh ginger, minced",
+        "5 small dried red chilies, optional",
+        "1/4 cup vegetable broth",
+        "1/4 cup soy sauce",
+        "3 tbsp rice vinegar",
+        "2 tbsp mirin",
+        "3 tbsp granulated sugar",
+        "1 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 425,
+        "protein": 15,
+        "carbs": 74,
+        "fat": 6.5,
+        "fiber": 2.5,
+        "sugar": 11,
+        "sodium": 5520
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Cauliflower and batter",
+            "ingredients": [
+              {
+                "id": "cauliflower",
+                "key": "cauliflower",
+                "name": "cauliflower head",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ],
+                "plural": "cauliflower heads",
+                "preparation": "washed, well drained and cut into bite-sized florets"
+              },
+              {
+                "id": "flour",
+                "key": "flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "cornstarch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": "1/3",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "rice vinegar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thinning-water",
+                "key": "thinning-water",
+                "name": "water",
+                "allowance": "as needed to thin overly stiff batter",
+                "uses": [
+                  {
+                    "step": "batter",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "frying-oil",
+                "key": "frying-oil",
+                "name": "peanut or vegetable oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "for shallow frying"
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Sauce",
+            "ingredients": [
+              {
+                "id": "sesame-oil",
+                "key": "sesame-oil",
+                "name": "sesame oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "washed; whites finely sliced and greens cut into 1-inch pieces, reserved"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "chilies",
+                "key": "chilies",
+                "name": "small dried red chili",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "small dried red chilies",
+                "optional": true
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "vegetable broth",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "vinegar",
+                "name": "rice vinegar",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "mirin",
+                "key": "mirin",
+                "name": "mirin",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "simmer",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "temper",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "starch",
+                "key": "cornstarch",
+                "name": "cornstarch",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "temper",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame-seeds",
+                "key": "sesame-seeds",
+                "name": "sesame seeds",
+                "allowance": "for garnish, if wanted",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "batter",
+            "title": "Mix the batter",
+            "text": "For the batter, use {{ingredients}}. Whisk the flour, coating cornstarch, baking powder and salt. Separately whisk the eggs, batter soy sauce and batter vinegar, then pour into the dry mixture while whisking. If too stiff to coat a floret, stir in a little of the thinning-water allowance until thick but dip-able. Do not taste raw egg/flour batter."
+          },
+          {
+            "id": "fry",
+            "title": "Fry the cauliflower",
+            "text": "Use {{ingredients}} for this stage. For the measured-oil route, heat the full listed frying oil in a skillet suitable for shallow frying. The separate oil-to-depth option uses a different, unmeasured frying supply. A small drop of batter should sizzle and float promptly without burning. Dip florets and fry in uncrowded rounds, turning until golden on all sides, starting checks around 4–5 minutes per original-size round. Cut a large sample: the coating should be set without wet batter and the center tender. Check 160°F in large coated pieces with a thin probe from the side; color alone is not an egg-batter endpoint. Lift onto absorbent paper towels; do not pour unused raw batter into the sauce."
+          },
+          {
+            "id": "aromatics",
+            "title": "Start the sauce",
+            "text": "Have {{ingredients}} ready. Heat the sesame oil over medium heat in a saucepan with room for the finished dish. Stir scallion whites, garlic, ginger and optional chilies about 30 seconds until fragrant, lowering heat if garlic browns. Keep all the scallion greens aside for the thickened sauce."
+          },
+          {
+            "id": "simmer",
+            "title": "Simmer the sauce liquids",
+            "text": "Add {{ingredients}}, bring to a simmer and cook about 5 minutes over medium heat. The distinct batter and sauce soy/vinegar measures are both used."
+          },
+          {
+            "id": "temper",
+            "title": "Disperse the sauce starch",
+            "text": "Whisk {{ingredients}} together in a small bowl. For the original batch, gradually whisk about 1/4 cup of hot sauce from the saucepan into this mixture until smooth; for a scaled batch take the corresponding proportional amount from that same sauce supply. Return all this mixture to the pot, bring to a simmer and add all the reserved scallion greens. This is recirculated sauce, not extra broth."
+          },
+          {
+            "id": "thicken",
+            "title": "Finish thickening",
+            "text": "Cook, stirring occasionally, about 7–9 minutes more, checking for a glossy sauce that clings to a spoon without scorching. Lower heat as needed; do not treat the clock as a requirement to boil a nearly dry pot."
+          },
+          {
+            "id": "glaze",
+            "title": "Glaze the cauliflower",
+            "text": "Add all the fried cauliflower and fold gently until coated and rewarmed, starting checks around 4–5 minutes for the original batch. Use enough uncrowded vessels for larger batches, dividing the entire batter, frying oil and sauce quantities proportionally. Serve promptly; extended holding softens the coating."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Garnish with {{ingredients}} and serve with separately prepared steamed rice."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate batter seasoning from sauce seasoning",
+        "outcome": "Tender florets with a set golden coating, scallion greens and a clinging glaze.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Prepare washed, drained florets of similar size. Both sets of soy sauce, vinegar and cornstarch belong to distinct components; do not combine the batter and sauce measures.",
+          "The listed half-cup frying oil belongs to the original batch and scales with the ingredient list; pan depth depends on geometry. Use additional rounds or suitable separate pans, without multiplying the temperature or promising the same clock."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "A cut large floret is tender with set coating; checked coated pieces reach 160°F.",
+            "why": "A dark exterior does not prove the egg-containing coating and thick piece have cooked through."
+          },
+          {
+            "step": 5,
+            "cue": "The starch-sugar mixture is smooth before it returns to the saucepan.",
+            "why": "Whisking with a portion of the actual sauce disperses starch; it is not a second liquid dose."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce has lumps.",
+            "cause": "Dry starch reached the hot pot without first being dispersed.",
+            "fix": "Use the tempering or complete cold-premix route next time; do not add more dry starch directly to hot sauce."
+          },
+          {
+            "problem": "Coating is golden but the floret center is firm.",
+            "cause": "Pieces were too large for their frying round.",
+            "fix": "Continue cooking at controlled heat and check a cut large piece; use smaller, similar florets next time."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Tempered sauce route",
+            "alternative": "Cold-premixed sauce route",
+            "effect": "Instead of simmering, tempering and thickening as steps 4–6, whisk all listed sauce broth, sauce soy, sauce vinegar, mirin, sugar and sauce cornstarch together cold. Re-stir immediately before pouring into the cooked aromatics. Bring to a simmer, stirring; begin checking around 5–7 minutes, until thick enough to coat a spoon without scorching. Add all scallion greens. Fold in all the fried cauliflower gently, beginning checks around 30 seconds and continuing until coated and hot, then garnish and serve promptly; this replaces step 7’s longer rewarming route. Keep batter soy/vinegar/starch separate and use the same complete sauce oil, aromatics and garnish quantities. Choose either the measured-oil frying route or the separate oil-to-depth option; do not combine their frying supplies."
+          },
+          {
+            "ingredient": "Measured shallow-frying oil",
+            "alternative": "Half-inch oil-to-depth frying route",
+            "effect": "Instead of the measured frying-oil supply, use enough peanut oil for a 1/2-inch layer in the cast-iron skillet being used. This is an unmeasured alternative supply whose volume depends on the skillet; do not add it to or equate it with the listed half cup. Heat until a small batter drop sizzles promptly, then fry in uncrowded rounds, turning and starting checks around 4–5 minutes until the coating is set and florets are tender. Keep the 160°F coated-piece check and raw-batter separation in step 2. Keep the full separate sesame oil, aromatics and sauce supplies; the cold-premixed sauce option provides the quick glaze finish."
+          }
+        ],
+        "timing": "Allow about 60–80 minutes: around 30 minutes preparation and 30–45 minutes frying, sauce simmering, tempering/thickening and reheating, with some sauce work alongside frying. Extra rounds and different floret sizes extend the plan.",
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above 90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or stew to a boil when reheating, stirring so the center heats too; this is separate from the first-cook instructions.",
+        "sources": [
+          {
+            "title": "PureWow Editors — General Tso’s Cauliflower",
+            "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower"
+          },
+          {
+            "title": "FDA — Egg safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGeneral Tso's chicken was invented in the 1970s by Taiwanese chef Peng Chang-kuei and became a Chinese-American takeout staple. This vegetarian version uses cauliflower with a high ratio of cornstarch and baking powder in the batter, creating a light, crispy coating that stays crunchy even after being tossed in the sticky-sweet glaze. Rice vinegar in both the batter and sauce keeps the flavors balanced and bright.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **The Batter:** Whisk flour, 1/3 cup cornstarch, baking powder, and salt. In a separate jar, whisk eggs, 3 tbsp soy sauce, and 1 tbsp vinegar. Slowly pour the wet into the dry, whisking until a thick, dip-able batter forms.\n2.  **The Crunch:** Heat 1/2 inch of oil in a cast-iron skillet until a drop of batter sizzles immediately. Dip each floret into the batter and fry for 4-5 minutes until deep golden on all sides. Drain on paper towels.\n3.  **The Sauce:** In a small bowl, whisk all General Tso sauce ingredients until the sugar and cornstarch are dissolved.\n4.  **Aromatics:** Heat 2 tsp sesame oil in a pot. Sauté the scallion whites, garlic, ginger, and chilies for 30 seconds until fragrant.\n5.  **Bind:** Pour the sauce into the pot. Bring to a simmer for 5-7 minutes until thick enough to coat a spoon and mirror-glossy. Stir in the scallion greens.\n6.  **Glaze:** Add the crispy cauliflower to the pot. Toss vigorously for 30 seconds until every floret is coated in the glaze.\n7.  **Serve:** Garnish with sesame seeds and serve immediately over steamed rice.\n",
+    "after": "\n## Chef's Note\n\nThis vegetarian General Tso adaptation brings a Chinese-American takeout sauce to cauliflower. The cauliflower gets an egg-and-starch coating and a separate soy, vinegar and mirin glaze. Fry uncrowded florets until the coating is set and their centers are tender, then coat them only when the sauce is ready. The coating softens in sauce; serving promptly matters more than promising lasting crunch.\nFor kids, serve the heat on the side or reduce or omit the spicy elements.\n\n## Directions\n\n1. **Mix the batter:** For the batter, use all-purpose flour, cornstarch, baking powder, salt, large eggs, soy sauce, rice vinegar, and water. Whisk the flour, coating cornstarch, baking powder and salt. Separately whisk the eggs, batter soy sauce and batter vinegar, then pour into the dry mixture while whisking. If too stiff to coat a floret, stir in a little of the thinning-water allowance until thick but dip-able. Do not taste raw egg/flour batter.\n2. **Fry the cauliflower:** Use cauliflower head and peanut or vegetable oil for this stage. For the measured-oil route, heat the full listed frying oil in a skillet suitable for shallow frying. The separate oil-to-depth option uses a different, unmeasured frying supply. A small drop of batter should sizzle and float promptly without burning. Dip florets and fry in uncrowded rounds, turning until golden on all sides, starting checks around 4–5 minutes per original-size round. Cut a large sample: the coating should be set without wet batter and the center tender. Check 160°F in large coated pieces with a thin probe from the side; color alone is not an egg-batter endpoint. Lift onto absorbent paper towels; do not pour unused raw batter into the sauce.\n3. **Start the sauce:** Have sesame oil, scallions, garlic cloves, fresh ginger, and small dried red chilies (if using) ready. Heat the sesame oil over medium heat in a saucepan with room for the finished dish. Stir scallion whites, garlic, ginger and optional chilies about 30 seconds until fragrant, lowering heat if garlic browns. Keep all the scallion greens aside for the thickened sauce.\n4. **Simmer the sauce liquids:** Add vegetable broth, soy sauce, rice vinegar, and mirin, bring to a simmer and cook about 5 minutes over medium heat. The distinct batter and sauce soy/vinegar measures are both used.\n5. **Disperse the sauce starch:** Whisk granulated sugar and cornstarch together in a small bowl. For the original batch, gradually whisk about 1/4 cup of hot sauce from the saucepan into this mixture until smooth; for a scaled batch take the corresponding proportional amount from that same sauce supply. Return all this mixture to the pot, bring to a simmer and add all the reserved scallion greens. This is recirculated sauce, not extra broth.\n6. **Finish thickening:** Cook, stirring occasionally, about 7–9 minutes more, checking for a glossy sauce that clings to a spoon without scorching. Lower heat as needed; do not treat the clock as a requirement to boil a nearly dry pot.\n7. **Glaze the cauliflower:** Add all the fried cauliflower and fold gently until coated and rewarmed, starting checks around 4–5 minutes for the original batch. Use enough uncrowded vessels for larger batches, dividing the entire batter, frying oil and sauce quantities proportionally. Serve promptly; extended holding softens the coating.\n8. **Serve:** Garnish with sesame seeds (if using) and serve with separately prepared steamed rice.\n"
+  },
+  "findings": [
+    {
+      "id": "TL-1",
+      "field": "cookTime",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-2",
+      "field": "totalTime",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-3",
+      "field": "servings",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["servings"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-4",
+      "field": "ingredients",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-5",
+      "field": "origin",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-6",
+      "field": "nutrition",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-7",
+      "field": "formula",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["formula"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-8",
+      "field": "learning",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    },
+    {
+      "id": "TL-9",
+      "field": "content",
+      "rationale": "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/general-tsos-cauliflower.md"
+        },
+        {
+          "title": "Exact bound original native evidence, privately retained",
+          "scope": "Exact existing registry binding joined to durable original450; private full native remains private."
+        },
+        {
+          "url": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+          "scope": "Egg-containing cauliflower160 and raw-contact separation, moderate editorial application; not tested frying validation."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/General%20Tso's%20Cauliflower.html",
+    "introductionScope": "Actual earlier saved cooking HTML independently fetched from Git and read in full.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "0d970ef4 bulk omitted exact source1tsp salt,½cup frying oil,2tsp sesame oil and optional garnish, while still spending salt/oil/seeds in method. Native/045/PureWow agree. Restore full formula and complete tempering route; preserve current all-in cold-premix sauce as an exclusive option and accepted2b01 short garlic stage. Egg160 checks are moderate editorial application of FDA egg-dish guidance, not publisher/kitchen-tested fried-cauliflower validation.",
+    "Current 0d970 half-inch cast-iron frying supply and cold-premixed sauce with a roughly 30-second first glaze check are preserved as complete exclusive options. They do not equate the unmeasured depth supply with the restored measured half-cup source supply or impose the saved longer rewarming finish on the quick-glaze route."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 head Cauliflower, cut into bite-sized florets",
+        "actualMethodDestination": "all batter/fry2/glaze6"
+      },
+      {
+        "text": "1/2 cup All-Purpose Flour",
+        "actualMethodDestination": "all batter1"
+      },
+      {
+        "text": "1/3 cup Cornstarch (the crunch Guard)",
+        "actualMethodDestination": "all batter1; separate sauce starch"
+      },
+      {
+        "text": "3/4 tsp Baking Powder",
+        "actualMethodDestination": "all batter1"
+      },
+      {
+        "text": "2 large Eggs",
+        "actualMethodDestination": "all batter1"
+      },
+      {
+        "text": "3 tbsp Soy Sauce",
+        "actualMethodDestination": "3tbsp batter1"
+      },
+      {
+        "text": "1 tbsp Rice Vinegar",
+        "actualMethodDestination": "1tbsp batter1"
+      },
+      {
+        "text": "1/4 cup Soy Sauce",
+        "actualMethodDestination": "¼cup sauce3/5"
+      },
+      {
+        "text": "3 tbsp Rice Vinegar",
+        "actualMethodDestination": "3tbsp sauce3/5"
+      },
+      {
+        "text": "2 tbsp Mirin",
+        "actualMethodDestination": "all sauce3/5"
+      },
+      {
+        "text": "3 tbsp Granulated Sugar",
+        "actualMethodDestination": "all sauce3/5"
+      },
+      {
+        "text": "1 tbsp Cornstarch (for the bind)",
+        "actualMethodDestination": "all sauce3/5"
+      },
+      {
+        "text": "1/4 cup Vegetable Broth",
+        "actualMethodDestination": "all sauce3/5"
+      },
+      {
+        "text": "6 Scallions, sliced (whites and greens separated)",
+        "actualMethodDestination": "whites4/greens5"
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "actualMethodDestination": "all aromatics4"
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, minced",
+        "actualMethodDestination": "all aromatics4"
+      },
+      {
+        "text": "5 Dried Red Chilies",
+        "actualMethodDestination": "all aromatics4; child omission note"
+      },
+      {
+        "text": "Peanut Oil (for frying)",
+        "actualMethodDestination": "unmeasured frying oil2; method additionally spends unlisted2tsp sesame oil4"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "batter.cauliflower",
+        "name": "cauliflower head",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed, well drained and cut into bite-sized florets",
+        "destinations": [
+          {
+            "step": "fry",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.starch",
+        "name": "cornstarch",
+        "quantity": {
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.salt",
+        "name": "salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.soy",
+        "name": "soy sauce",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.vinegar",
+        "name": "rice vinegar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "batter.thinning-water",
+        "name": "water",
+        "quantity": null,
+        "allowance": "as needed to thin overly stiff batter",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "batter",
+            "share": 1
+          }
+        ],
+        "role": "cooking-water"
+      },
+      {
+        "id": "batter.frying-oil",
+        "name": "peanut or vegetable oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "for shallow frying",
+        "destinations": [
+          {
+            "step": "fry",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.sesame-oil",
+        "name": "sesame oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.scallions",
+        "name": "scallion",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null,
+        "anatomicalAllocation": "Whites step3 aromatics; all reserved green parts step5. Count measures whole scallions, not duplicate shopping."
+      },
+      {
+        "id": "sauce.garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.ginger",
+        "name": "fresh ginger",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.chilies",
+        "name": "small dried red chili",
+        "quantity": {
+          "amount": 5,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.broth",
+        "name": "vegetable broth",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.soy",
+        "name": "soy sauce",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.vinegar",
+        "name": "rice vinegar",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.mirin",
+        "name": "mirin",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "simmer",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "temper",
+            "share": 1
+          }
+        ],
+        "role": null
+      },
+      {
+        "id": "sauce.starch",
+        "name": "cornstarch",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "temper",
+            "share": 1
+          }
+        ],
+        "role": null,
+        "processAllocation": "Complete starch measure prepared in its distinct sauce component; Tofu uses maximum gradually and may leave unused slurry; Cauliflower returns entire dispersed source starch."
+      },
+      {
+        "id": "sauce.sesame-seeds",
+        "name": "sesame seeds",
+        "quantity": null,
+        "allowance": "for garnish, if wanted",
+        "preparation": null,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish"
+      }
+    ],
+    "methodOnlyFrozenInputs": [
+      "Salt is spent in frozen batter step 1 without a listed ingredient or measured dose.",
+      "The frozen aromatic step 4 spends 2 tsp sesame oil, absent from the ingredient list.",
+      "Frozen serving step 7 uses sesame seeds, unmeasured and absent from the ingredient list."
+    ],
+    "restoredSourceInputs": [
+      {
+        "text": "water, as needed to thin overly stiff batter",
+        "origin": "Exact native, first HTML, 045 Markdown and actual PureWow method",
+        "destination": "Proposed batter step 1",
+        "quantity": null,
+        "scope": "Absent from the frozen current method; this is a restored source allowance, not a frozen method-only input."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix the batter: For the batter, use all-purpose flour, cornstarch, baking powder, salt, large eggs, soy sauce, rice vinegar, and water. Whisk the flour, coating cornstarch, baking powder and salt. Separately whisk the eggs, batter soy sauce and batter vinegar, then pour into the dry mixture while whisking. If too stiff to coat a floret, stir in a little of the thinning-water allowance until thick but dip-able. Do not taste raw egg/flour batter."
+    },
+    {
+      "step": 2,
+      "text": "Fry the cauliflower: Use cauliflower head and peanut or vegetable oil for this stage. For the measured-oil route, heat the full listed frying oil in a skillet suitable for shallow frying. The separate oil-to-depth option uses a different, unmeasured frying supply. A small drop of batter should sizzle and float promptly without burning. Dip florets and fry in uncrowded rounds, turning until golden on all sides, starting checks around 4–5 minutes per original-size round. Cut a large sample: the coating should be set without wet batter and the center tender. Check 160°F in large coated pieces with a thin probe from the side; color alone is not an egg-batter endpoint. Lift onto absorbent paper towels; do not pour unused raw batter into the sauce."
+    },
+    {
+      "step": 3,
+      "text": "Start the sauce: Have sesame oil, scallions, garlic cloves, fresh ginger, and small dried red chilies (if using) ready. Heat the sesame oil over medium heat in a saucepan with room for the finished dish. Stir scallion whites, garlic, ginger and optional chilies about 30 seconds until fragrant, lowering heat if garlic browns. Keep all the scallion greens aside for the thickened sauce."
+    },
+    {
+      "step": 4,
+      "text": "Simmer the sauce liquids: Add vegetable broth, soy sauce, rice vinegar, and mirin, bring to a simmer and cook about 5 minutes over medium heat. The distinct batter and sauce soy/vinegar measures are both used."
+    },
+    {
+      "step": 5,
+      "text": "Disperse the sauce starch: Whisk granulated sugar and cornstarch together in a small bowl. For the original batch, gradually whisk about 1/4 cup of hot sauce from the saucepan into this mixture until smooth; for a scaled batch take the corresponding proportional amount from that same sauce supply. Return all this mixture to the pot, bring to a simmer and add all the reserved scallion greens. This is recirculated sauce, not extra broth."
+    },
+    {
+      "step": 6,
+      "text": "Finish thickening: Cook, stirring occasionally, about 7–9 minutes more, checking for a glossy sauce that clings to a spoon without scorching. Lower heat as needed; do not treat the clock as a requirement to boil a nearly dry pot."
+    },
+    {
+      "step": 7,
+      "text": "Glaze the cauliflower: Add all the fried cauliflower and fold gently until coated and rewarmed, starting checks around 4–5 minutes for the original batch. Use enough uncrowded vessels for larger batches, dividing the entire batter, frying oil and sauce quantities proportionally. Serve promptly; extended holding softens the coating."
+    },
+    {
+      "step": 8,
+      "text": "Serve: Garnish with sesame seeds (if using) and serve with separately prepared steamed rice."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Tempered sauce route",
+      "alternative": "Cold-premixed sauce route",
+      "effect": "Instead of simmering, tempering and thickening as steps 4–6, whisk all listed sauce broth, sauce soy, sauce vinegar, mirin, sugar and sauce cornstarch together cold. Re-stir immediately before pouring into the cooked aromatics. Bring to a simmer, stirring; begin checking around 5–7 minutes, until thick enough to coat a spoon without scorching. Add all scallion greens. Fold in all the fried cauliflower gently, beginning checks around 30 seconds and continuing until coated and hot, then garnish and serve promptly; this replaces step 7’s longer rewarming route. Keep batter soy/vinegar/starch separate and use the same complete sauce oil, aromatics and garnish quantities. Choose either the measured-oil frying route or the separate oil-to-depth option; do not combine their frying supplies."
+    },
+    {
+      "ingredient": "Measured shallow-frying oil",
+      "alternative": "Half-inch oil-to-depth frying route",
+      "effect": "Instead of the measured frying-oil supply, use enough peanut oil for a 1/2-inch layer in the cast-iron skillet being used. This is an unmeasured alternative supply whose volume depends on the skillet; do not add it to or equate it with the listed half cup. Heat until a small batter drop sizzles promptly, then fry in uncrowded rounds, turning and starting checks around 4–5 minutes until the coating is set and florets are tender. Keep the 160°F coated-piece check and raw-batter separation in step 2. Keep the full separate sesame oil, aromatics and sauce supplies; the cold-premixed sauce option provides the quick glaze finish."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "steamed-broccoli"],
+    "scope": "Prepared side pairings; no listed main ingredient substitution or automatic combined quantity. Linked meal/component gains no review credit.",
+    "mapoMeal": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "sourceMeasureScope": "Written planning count; no measured edible output, absorbed-oil estimate or pan-load certification",
+    "timing": "Allow about 60–80 minutes: around 30 minutes preparation and 30–45 minutes frying, sauce simmering, tempering/thickening and reheating, with some sauce work alongside frying. Extra rounds and different floret sizes extend the plan.",
+    "before": [
+      "Prepare washed, drained florets of similar size. Both sets of soy sauce, vinegar and cornstarch belong to distinct components; do not combine the batter and sauce measures.",
+      "The listed half-cup frying oil belongs to the original batch and scales with the ingredient list; pan depth depends on geometry. Use additional rounds or suitable separate pans, without multiplying the temperature or promising the same clock."
+    ],
+    "formulaReview": "One unspecified head; batter½cup flour/⅓cup starch/2eggs and full1tsp salt; sauce¼cup broth+¼cup soy+3tbsp vinegar+2tbsp mirin plus3tbsp sugar/1tbsp starch. Both soy/vinegar measures preserved; hot¼cup sauce is recirculated original context, no extra liquid."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "1/4 cauliflower head, washed, well drained and cut into bite-sized florets",
+        "1/8 cup all-purpose flour",
+        "0.0833 cup cornstarch",
+        "0.19 tsp baking powder",
+        "1/4 tsp salt",
+        "1/2 large egg",
+        "3/4 tbsp soy sauce",
+        "1/4 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1/8 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "1/2 tsp sesame oil",
+        "1 1/2 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "3/4 garlic clove, minced",
+        "1/4 tbsp fresh ginger, minced",
+        "1 1/4 small dried red chilies, optional",
+        "0.0625 cup vegetable broth",
+        "0.0625 cup soy sauce",
+        "3/4 tbsp rice vinegar",
+        "1/2 tbsp mirin",
+        "3/4 tbsp granulated sugar",
+        "1/4 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "1 portion",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "1/2 cauliflower head, washed, well drained and cut into bite-sized florets",
+        "1/4 cup all-purpose flour",
+        "1/6 cup cornstarch",
+        "3/8 tsp baking powder",
+        "1/2 tsp salt",
+        "1 large egg",
+        "1 1/2 tbsp soy sauce",
+        "1/2 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1/4 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "1 tsp sesame oil",
+        "3 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "1 1/2 garlic cloves, minced",
+        "1/2 tbsp fresh ginger, minced",
+        "2 1/2 small dried red chilies, optional",
+        "1/8 cup vegetable broth",
+        "1/8 cup soy sauce",
+        "1 1/2 tbsp rice vinegar",
+        "1 tbsp mirin",
+        "1 1/2 tbsp granulated sugar",
+        "1/2 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "2 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "1 cauliflower head, washed, well drained and cut into bite-sized florets",
+        "1/2 cup all-purpose flour",
+        "1/3 cup cornstarch",
+        "3/4 tsp baking powder",
+        "1 tsp salt",
+        "2 large eggs",
+        "3 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1/2 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "2 tsp sesame oil",
+        "6 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "3 garlic cloves, minced",
+        "1 tbsp fresh ginger, minced",
+        "5 small dried red chilies, optional",
+        "1/4 cup vegetable broth",
+        "1/4 cup soy sauce",
+        "3 tbsp rice vinegar",
+        "2 tbsp mirin",
+        "3 tbsp granulated sugar",
+        "1 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "1 1/2 cauliflower heads, washed, well drained and cut into bite-sized florets",
+        "3/4 cup all-purpose flour",
+        "1/2 cup cornstarch",
+        "1 1/8 tsp baking powder",
+        "1 1/2 tsp salt",
+        "3 large eggs",
+        "4 1/2 tbsp soy sauce",
+        "1 1/2 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "3/4 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "3 tsp sesame oil",
+        "9 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "4 1/2 garlic cloves, minced",
+        "1 1/2 tbsp fresh ginger, minced",
+        "7 1/2 small dried red chilies, optional",
+        "3/8 cup vegetable broth",
+        "3/8 cup soy sauce",
+        "4 1/2 tbsp rice vinegar",
+        "3 tbsp mirin",
+        "4 1/2 tbsp granulated sugar",
+        "1 1/2 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "6 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "2 cauliflower heads, washed, well drained and cut into bite-sized florets",
+        "1 cup all-purpose flour",
+        "2/3 cup cornstarch",
+        "1 1/2 tsp baking powder",
+        "2 tsp salt",
+        "4 large eggs",
+        "6 tbsp soy sauce",
+        "2 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "4 tsp sesame oil",
+        "12 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "6 garlic cloves, minced",
+        "2 tbsp fresh ginger, minced",
+        "10 small dried red chilies, optional",
+        "1/2 cup vegetable broth",
+        "1/2 cup soy sauce",
+        "6 tbsp rice vinegar",
+        "4 tbsp mirin",
+        "6 tbsp granulated sugar",
+        "2 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "8 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "3 cauliflower heads, washed, well drained and cut into bite-sized florets",
+        "1 1/2 cups all-purpose flour",
+        "1 cup cornstarch",
+        "2 1/4 tsp baking powder",
+        "3 tsp salt",
+        "6 large eggs",
+        "9 tbsp soy sauce",
+        "3 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1 1/2 cups peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "6 tsp sesame oil",
+        "18 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "9 garlic cloves, minced",
+        "3 tbsp fresh ginger, minced",
+        "15 small dried red chilies, optional",
+        "3/4 cup vegetable broth",
+        "3/4 cup soy sauce",
+        "9 tbsp rice vinegar",
+        "6 tbsp mirin",
+        "9 tbsp granulated sugar",
+        "3 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "12 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Cauliflower and batter ---",
+        "1 cauliflower head, washed, well drained and cut into bite-sized florets",
+        "1/2 cup all-purpose flour",
+        "1/3 cup cornstarch",
+        "3/4 tsp baking powder",
+        "1 tsp salt",
+        "2 large eggs",
+        "3 tbsp soy sauce",
+        "1 tbsp rice vinegar",
+        "water, as needed to thin overly stiff batter",
+        "1/2 cup peanut or vegetable oil, for shallow frying",
+        "--- Sauce ---",
+        "2 tsp sesame oil",
+        "6 scallions, washed; whites finely sliced and greens cut into 1-inch pieces, reserved",
+        "3 garlic cloves, minced",
+        "1 tbsp fresh ginger, minced",
+        "5 small dried red chilies, optional",
+        "1/4 cup vegetable broth",
+        "1/4 cup soy sauce",
+        "3 tbsp rice vinegar",
+        "2 tbsp mirin",
+        "3 tbsp granulated sugar",
+        "1 tbsp cornstarch",
+        "sesame seeds, for garnish, if wanted, optional"
+      ],
+      "yield": "4 portions",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": ["2b01 short garlic30sec retained"],
+  "remainingQuestions": [
+    "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+    "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+    "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

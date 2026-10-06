@@ -1,0 +1,792 @@
+{
+  "slug": "misir-wot",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "e4cc6b96e1a96156ca5cbb23ed2e3f06f67a4824f0eb04bead81dfe71fe19bde",
+  "acceptedSourceSha256": "daf8090079592009d5b88e98b047a2632a2a47b9ac8b0e3cf8c53d318358eec8",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "45 min",
+      "after": "45–60 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "60 min",
+      "after": "About 60–75 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 cups Red Lentils, rinsed until water runs clear",
+        "3 cups Water",
+        "3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "2 large Red Onions, finely diced (about 3 cups total)",
+        "4 cloves Garlic, minced",
+        "1 (1-inch) piece Fresh Ginger, grated",
+        "3 tbsp Berbere Spice Blend",
+        "2 tbsp Tomato Paste",
+        "1 tsp Kosher Salt, plus more to taste",
+        "1/2 tsp Ground Cardamom",
+        "1/4 tsp Ground Fenugreek",
+        "1 tbsp Fresh Lemon Juice, for finishing"
+      ],
+      "after": [
+        "1.5 cups Red Lentils, rinsed until water runs clear",
+        "3 cups Water",
+        "3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "2 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "4 cloves Garlic, minced",
+        "1 (1-inch) piece Fresh Ginger, grated",
+        "3 tbsp Berbere Spice Blend",
+        "2 tbsp Tomato Paste",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Ground Cardamom",
+        "1/4 tsp Ground Fenugreek",
+        "1 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 105,
+        "protein": 6,
+        "carbs": 21,
+        "fat": 0.5,
+        "fiber": 5.5,
+        "sugar": 5,
+        "sodium": 170
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control lentil hydration and concentrated onion base",
+        "outcome": "Soft red lentils without firm centers, thick enough to scoop, with the full spiced fat and lemon finish.",
+        "techniques": ["starch", "seasoning"],
+        "before": [
+          "The two-onion/about 3 cups reference describes the original batch, not a fixed scaled equivalent. Follow listed onion, water and spice totals when scaling.",
+          "Rinse the lentils as listed; have all spices ready before the short garlic stage. Niter kibbeh and olive oil are distinct flavor choices, not reasons to reduce fat."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Onions soften as their own moisture reduces, without blackened patches.",
+            "why": "A softened dry-start base is different from a guaranteed ten-minute deep caramelization."
+          },
+          {
+            "step": 3,
+            "cue": "A tasted lentil has no firm center; the bottom is stirred regularly.",
+            "why": "An old lentil or leaky lid can outlast the written covered clock."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Stew catches while lentils are still firm.",
+            "cause": "Pot evaporation or stirring did not reach the base.",
+            "fix": "Use the listed extra-water allowance in small additions and continue gently; a burnt base cannot be corrected by lemon."
+          },
+          {
+            "problem": "Stew is too loose.",
+            "cause": "The lentils are tender but free liquid remains.",
+            "fix": "Simmer uncovered while stirring until scoopable; do not remove the full fat to alter consistency."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Niter kibbeh",
+            "alternative": "The same listed volume of extra-virgin olive oil",
+            "effect": "The existing dairy-free option keeps all fat; it loses the spiced-butter aroma. Check berbere and remaining ingredients for dietary suitability."
+          },
+          {
+            "ingredient": "Berbere",
+            "alternative": "A berbere blend with a different heat level",
+            "effect": "Blends vary in heat and salt; this changes the stew’s spice character. The measured 3 tbsp for the original batch is the written main, not a universal tolerance or a generic curry-powder substitution."
+          }
+        ],
+        "timing": "About 60–75 minutes including 15 minutes preparation, 8–10 minutes onion softening, 3–4 minutes after fat, 30–45 seconds garlic, 2 minutes spices, water heat-up and 25–30 minutes covered lentil cooking, plus any consistency correction. Extra vessels or older lentils can extend it; rice or injera preparation is separate.",
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above 90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or stew to a boil when reheating, stirring so the center heats too; this is separate from the first-cook instructions.",
+        "sources": [
+          {
+            "title": "Mise — Misir Wot",
+            "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+          },
+          {
+            "title": "GBC Kitchen — A distinct onion-in-fat Misir Wot route",
+            "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMisir wot gets its soul from two things: deeply caramelized onions and berbere spice. The onions must be cooked low and slow without any oil for the first 10 minutes -- this dry-sauteing technique is traditional and concentrates their sweetness before the niter kibbeh is added. Do not rush this step. Berbere is a complex Ethiopian spice blend (chili, fenugreek, coriander, cardamom, and more); it is available at most spice shops or online. There is no adequate substitute -- it defines the dish.\n\n## Directions\n\n1.  **Dry-Saute the Onions:** Place the diced red onions in a large, heavy-bottomed pot or Dutch oven over medium heat with no oil. Cook, stirring frequently, for 8-10 minutes. The onions will release their moisture and begin to dry out, soften, and concentrate in flavor. This traditional step is essential.\n\n2.  **Add the Fat and Spices:** Add the niter kibbeh (or olive oil) to the softened onions. Cook for 3-4 minutes until the onions begin to turn golden. Add the garlic and ginger, stirring for 30-45 seconds. Stir in the berbere spice blend, tomato paste, cardamom, and fenugreek. Cook for 2 minutes, stirring constantly to prevent burning. The pot should be deeply red and intensely fragrant.\n\n3.  **Cook the Lentils:** Add the rinsed red lentils, 3 cups water, and salt. Stir well to combine. Bring to a boil, then reduce to a gentle simmer. Cover and cook for 25-30 minutes, stirring every 5-7 minutes to prevent sticking, until the lentils have completely broken down into a thick, porridge-like stew.\n\n4.  **Adjust the Consistency:** The wot should be thick and scoopable, not soupy. If it thickens too much, add water a few tablespoons at a time. If it is too thin, simmer uncovered for a few more minutes.\n\n5.  **Finish:** Stir in the lemon juice. Taste and adjust salt and berbere to your heat preference.\n\n6.  **Serve:** Traditionally served on injera (Ethiopian sourdough flatbread) for scooping. Alternatively, serve over steamed basmati rice. The wot should be vibrant red, thick, and deeply spiced.\n",
+    "after": "\n## Chef's Note\n\nBerbere and niter kibbeh give this Ethiopian lentil stew its spiced, buttery character; the same-volume olive-oil option gives a different, dairy-free base. Start the finely diced onions without fat until softened and concentrated, then add the full listed fat before the aromatics. This stage is not a promise of deep caramelization in ten minutes. Cook the lentils until they lose their firm centers, then adjust the stew to a thick, scoopable consistency.\n\n## Directions\n\n1. **Soften the onions:** Put all diced onions in a heavy pot over medium heat without oil. Stir frequently for 8–10 minutes as a first check, until their released moisture has reduced and the onions soften. Lower heat if they catch; stop at softened onions with reduced moisture rather than waiting for deep caramelization.\n2. **Add fat and spices:** Add all the listed niter kibbeh or olive oil and cook 3–4 minutes until onions begin to turn golden. Add all garlic and grated ginger and stir 30–45 seconds. Add all the measured berbere, tomato paste, cardamom and fenugreek and stir 2 minutes without scorching.\n3. **Cook the lentils:** Add all rinsed red lentils, all the listed cooking water and measured kosher salt. Bring to a boil, lower to a gentle simmer and cover. Cook 25–30 minutes as a first check, stirring every 5–7 minutes and reaching the bottom to prevent sticking, until the lentils have broken down with no firm centers. For scaled batches follow the listed water and salt amounts.\n4. **Adjust consistency:** If too thick before the lentils are tender, use the separate water allowance a few tablespoons at a time and continue the gentle simmer. If tender but too thin, simmer uncovered briefly until thick and scoopable. Use a vessel with room to stir the full batch; divide the complete formula proportionally among more pots if needed.\n5. **Finish:** Stir in all the measured lemon juice. Taste the fully cooked stew and use the separate additional salt and berbere allowances only if wanted; simmer briefly after an extra spice addition to incorporate it. Keep the full listed berbere and fat in the main formula.\n6. **Serve:** Serve thick and scoopable with injera, or over separately prepared basmati rice. The starch accompaniment has its own preparation and clock.\n"
+  },
+  "findings": [
+    {
+      "id": "TL-1",
+      "field": "cookTime",
+      "rationale": "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe",
+          "scope": "Distinct chef onion-in-fat route contradicts universal dry-onion requirement; its formula not substituted."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
+      ]
+    },
+    {
+      "id": "TL-2",
+      "field": "totalTime",
+      "rationale": "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe",
+          "scope": "Distinct chef onion-in-fat route contradicts universal dry-onion requirement; its formula not substituted."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
+      ]
+    },
+    {
+      "id": "TL-3",
+      "field": "ingredients",
+      "rationale": "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe",
+          "scope": "Distinct chef onion-in-fat route contradicts universal dry-onion requirement; its formula not substituted."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
+      ]
+    },
+    {
+      "id": "TL-4",
+      "field": "nutrition",
+      "rationale": "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe",
+          "scope": "Distinct chef onion-in-fat route contradicts universal dry-onion requirement; its formula not substituted."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
+      ]
+    },
+    {
+      "id": "TL-5",
+      "field": "learning",
+      "rationale": "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe",
+          "scope": "Distinct chef onion-in-fat route contradicts universal dry-onion requirement; its formula not substituted."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
+      ]
+    },
+    {
+      "id": "TL-6",
+      "field": "content",
+      "rationale": "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.greatbritishchefs.com/recipes/misir-wot-recipe",
+          "scope": "Distinct chef onion-in-fat route contradicts universal dry-onion requirement; its formula not substituted."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Exact Git-created fd4 measured formula preserved. a2/322 counted1-inch ginger and2b01 short garlic stage remain; no independent original450 match/actual original publisher attribution. Current8–10min onion stage does not prove deeply caramelized onions or universal mandatory dry method; actual chef-publisher Misir recipe cooks onions in fat, demonstrating source-specific methods. Keep this dry-start route and full niter/olive amount. Add only current genuine water/salt/extra-berbere allowances and clarify scales. No liquid ratio normalization."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1.5 cups Red Lentils, rinsed until water runs clear",
+        "actualMethodDestination": "rinsed lentils3"
+      },
+      {
+        "text": "3 cups Water",
+        "actualMethodDestination": "3cups listed main3; extra water4 unlisted allowance"
+      },
+      {
+        "text": "3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "actualMethodDestination": "all fat2, niter OR olive exclusive"
+      },
+      {
+        "text": "2 large Red Onions, finely diced (about 3 cups total)",
+        "actualMethodDestination": "dry onion1/with fat2; about3cups original estimate"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic2 30–45sec repair"
+      },
+      {
+        "text": "1 (1-inch) piece Fresh Ginger, grated",
+        "actualMethodDestination": "all ginger2 counted1inch fixed cut"
+      },
+      {
+        "text": "3 tbsp Berbere Spice Blend",
+        "actualMethodDestination": "all berbere2; extra spice5 unlisted allowance"
+      },
+      {
+        "text": "2 tbsp Tomato Paste",
+        "actualMethodDestination": "all paste2"
+      },
+      {
+        "text": "1 tsp Kosher Salt, plus more to taste",
+        "actualMethodDestination": "measured salt3/additional5 same listed allowance"
+      },
+      {
+        "text": "1/2 tsp Ground Cardamom",
+        "actualMethodDestination": "all spice2"
+      },
+      {
+        "text": "1/4 tsp Ground Fenugreek",
+        "actualMethodDestination": "all spice2"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon Juice, for finishing",
+        "actualMethodDestination": "all finish5"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1.5 cups Red Lentils, rinsed until water runs clear",
+        "actualMethodDestination": "all rinsed lentils3; no firm centers"
+      },
+      {
+        "text": "3 cups Water",
+        "actualMethodDestination": "all listed main water3; extra water is separate allowance4"
+      },
+      {
+        "text": "3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "actualMethodDestination": "all niter OR olive fat2, exclusive same measure"
+      },
+      {
+        "text": "2 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "actualMethodDestination": "all dry onion1/fat2; about3cups explicitly original context"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic2 30–45sec retained"
+      },
+      {
+        "text": "1 (1-inch) piece Fresh Ginger, grated",
+        "actualMethodDestination": "all counted ginger2; fixed1inch size retained"
+      },
+      {
+        "text": "3 tbsp Berbere Spice Blend",
+        "actualMethodDestination": "all measured berbere2"
+      },
+      {
+        "text": "2 tbsp Tomato Paste",
+        "actualMethodDestination": "all paste2"
+      },
+      {
+        "text": "1 tsp Kosher Salt",
+        "actualMethodDestination": "all measured kosher salt3"
+      },
+      {
+        "text": "1/2 tsp Ground Cardamom",
+        "actualMethodDestination": "all cardamom2"
+      },
+      {
+        "text": "1/4 tsp Ground Fenugreek",
+        "actualMethodDestination": "all fenugreek2"
+      },
+      {
+        "text": "1 tbsp Fresh Lemon Juice, for finishing",
+        "actualMethodDestination": "all measured lemon5"
+      },
+      {
+        "text": "Additional water, as needed to adjust the stew consistency",
+        "actualMethodDestination": "genuine consistency allowance4 as needed"
+      },
+      {
+        "text": "Additional kosher salt, to taste after cooking",
+        "actualMethodDestination": "genuine final salt allowance5, no new dose"
+      },
+      {
+        "text": "Additional berbere, to taste after cooking",
+        "actualMethodDestination": "genuine optional final spice allowance5, simmer to incorporate"
+      }
+    ],
+    "methodOnlyFrozenInputs": [
+      "Additional water4 and optional berbere5 existing method allowances now listed; no new measured dose"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Soften the onions: Put all diced onions in a heavy pot over medium heat without oil. Stir frequently for 8–10 minutes as a first check, until their released moisture has reduced and the onions soften. Lower heat if they catch; stop at softened onions with reduced moisture rather than waiting for deep caramelization."
+    },
+    {
+      "step": 2,
+      "text": "Add fat and spices: Add all the listed niter kibbeh or olive oil and cook 3–4 minutes until onions begin to turn golden. Add all garlic and grated ginger and stir 30–45 seconds. Add all the measured berbere, tomato paste, cardamom and fenugreek and stir 2 minutes without scorching."
+    },
+    {
+      "step": 3,
+      "text": "Cook the lentils: Add all rinsed red lentils, all the listed cooking water and measured kosher salt. Bring to a boil, lower to a gentle simmer and cover. Cook 25–30 minutes as a first check, stirring every 5–7 minutes and reaching the bottom to prevent sticking, until the lentils have broken down with no firm centers. For scaled batches follow the listed water and salt amounts."
+    },
+    {
+      "step": 4,
+      "text": "Adjust consistency: If too thick before the lentils are tender, use the separate water allowance a few tablespoons at a time and continue the gentle simmer. If tender but too thin, simmer uncovered briefly until thick and scoopable. Use a vessel with room to stir the full batch; divide the complete formula proportionally among more pots if needed."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Stir in all the measured lemon juice. Taste the fully cooked stew and use the separate additional salt and berbere allowances only if wanted; simmer briefly after an extra spice addition to incorporate it. Keep the full listed berbere and fat in the main formula."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve thick and scoopable with injera, or over separately prepared basmati rice. The starch accompaniment has its own preparation and clock."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Niter kibbeh",
+      "alternative": "The same listed volume of extra-virgin olive oil",
+      "effect": "The existing dairy-free option keeps all fat; it loses the spiced-butter aroma. Check berbere and remaining ingredients for dietary suitability."
+    },
+    {
+      "ingredient": "Berbere",
+      "alternative": "A berbere blend with a different heat level",
+      "effect": "Blends vary in heat and salt; this changes the stew’s spice character. The measured 3 tbsp for the original batch is the written main, not a universal tolerance or a generic curry-powder substitution."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "steamed-white-rice", "everyday-arugula-salad"],
+    "scope": "Prepared side pairings; no listed main ingredient substitution or automatic combined quantity. Linked meal/component gains no review credit.",
+    "mapoMeal": null
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "sourceMeasureScope": "Written planning count; no measured edible output, absorbed-oil estimate or pan-load certification",
+    "timing": "About 60–75 minutes including 15 minutes preparation,8–10 minutes onion softening,3–4 minutes after fat,30–45 seconds garlic,2 minutes spices, water heat-up and 25–30 minutes covered lentil cooking, plus any consistency correction. Extra vessels or older lentils can extend it; rice or injera preparation is separate.",
+    "before": [
+      "The two-onion/about 3 cups reference describes the original batch, not a fixed scaled equivalent. Follow listed onion, water and spice totals when scaling.",
+      "Rinse the lentils as listed; have all spices ready before the short garlic stage. Niter kibbeh and olive oil are distinct flavor choices, not reasons to reduce fat."
+    ],
+    "formulaReview": "1½cups dry red lentils and3cups measured main water,full3tbsp niter/olive fat,3tbsp berbere. Actual age/evaporation govern genuine extra water. No universal hydration or measured edible yield claimed."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/8 cup Red Lentils, rinsed until water runs clear",
+        "3/4 cup Water",
+        "3/4 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "1/2 large Red Onion, finely diced (about 3 cups for the original batch)",
+        "1 clove Garlic, minced",
+        "1/4 (1-inch) piece Fresh Ginger, grated",
+        "3/4 tbsp Berbere Spice Blend",
+        "1/2 tbsp Tomato Paste",
+        "1/4 tsp Kosher Salt",
+        "1/8 tsp Ground Cardamom",
+        "0.0625 tsp Ground Fenugreek",
+        "1/4 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 cup Red Lentils, rinsed until water runs clear",
+        "1 1/2 cups Water",
+        "1 1/2 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "1 large Red Onion, finely diced (about 3 cups for the original batch)",
+        "2 cloves Garlic, minced",
+        "1/2 (1-inch) piece Fresh Ginger, grated",
+        "1 1/2 tbsp Berbere Spice Blend",
+        "1 tbsp Tomato Paste",
+        "1/2 tsp Kosher Salt",
+        "1/4 tsp Ground Cardamom",
+        "1/8 tsp Ground Fenugreek",
+        "1/2 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1.5 cups Red Lentils, rinsed until water runs clear",
+        "3 cups Water",
+        "3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "2 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "4 cloves Garlic, minced",
+        "1 (1-inch) piece Fresh Ginger, grated",
+        "3 tbsp Berbere Spice Blend",
+        "2 tbsp Tomato Paste",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Ground Cardamom",
+        "1/4 tsp Ground Fenugreek",
+        "1 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "2 1/4 cups Red Lentils, rinsed until water runs clear",
+        "4 1/2 cups Water",
+        "4 1/2 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "3 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "6 cloves Garlic, minced",
+        "1 1/2 (1-inch) pieces Fresh Ginger, grated",
+        "4 1/2 tbsp Berbere Spice Blend",
+        "3 tbsp Tomato Paste",
+        "1 1/2 tsp Kosher Salt",
+        "3/4 tsp Ground Cardamom",
+        "3/8 tsp Ground Fenugreek",
+        "1 1/2 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "3 cups Red Lentils, rinsed until water runs clear",
+        "6 cups Water",
+        "6 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "4 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "8 cloves Garlic, minced",
+        "2 (1-inch) pieces Fresh Ginger, grated",
+        "6 tbsp Berbere Spice Blend",
+        "4 tbsp Tomato Paste",
+        "2 tsp Kosher Salt",
+        "1 tsp Ground Cardamom",
+        "1/2 tsp Ground Fenugreek",
+        "2 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 cups Red Lentils, rinsed until water runs clear",
+        "9 cups Water",
+        "9 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "6 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "12 cloves Garlic, minced",
+        "3 (1-inch) pieces Fresh Ginger, grated",
+        "9 tbsp Berbere Spice Blend",
+        "6 tbsp Tomato Paste",
+        "3 tsp Kosher Salt",
+        "1 1/2 tsp Ground Cardamom",
+        "3/4 tsp Ground Fenugreek",
+        "3 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1.5 cups Red Lentils, rinsed until water runs clear",
+        "3 cups Water",
+        "3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan",
+        "2 large Red Onions, finely diced (about 3 cups for the original batch)",
+        "4 cloves Garlic, minced",
+        "1 (1-inch) piece Fresh Ginger, grated",
+        "3 tbsp Berbere Spice Blend",
+        "2 tbsp Tomato Paste",
+        "1 tsp Kosher Salt",
+        "1/2 tsp Ground Cardamom",
+        "1/4 tsp Ground Fenugreek",
+        "1 tbsp Fresh Lemon Juice, for finishing",
+        "Additional water, as needed to adjust the stew consistency",
+        "Additional kosher salt, to taste after cooking",
+        "Additional berbere, to taste after cooking"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": ["a2 counted fixed1inch ginger and2b01 short garlic30–45sec retained"],
+  "remainingQuestions": [
+    "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+    "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+    "No tested cooling, edible yield, storage quality or batch capacity established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

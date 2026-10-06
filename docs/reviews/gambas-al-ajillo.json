@@ -1,0 +1,379 @@
+{
+  "slug": "gambas-al-ajillo",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "d70ada86c837fca3a1588d47b4687e4af9f62eded2c84c6ea51358eb2e7ebaef",
+  "acceptedSourceSha256": "b32987b06ec031c542679e823d198af5d0b62d702e8a3bc10d4a0359cbb060bc",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "dietary",
+      "before": ["dairy-free", "nut-free", "low-carb", "pescatarian"],
+      "after": ["dairy-free", "nut-free", "pescatarian"]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 620,
+        "protein": 27,
+        "carbs": 6.5,
+        "fat": 55.5,
+        "fiber": 1.5,
+        "sugar": 1.5,
+        "sodium": 1040
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control garlic color while bringing large shrimp to their endpoint.",
+        "outcome": "Pale golden garlic, shrimp cooked through and the full aromatic olive-oil sauce.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use the listed large shrimp; 16–20 count describes their size per pound, not the scaled batch count. Thaw before cooking and keep raw shrimp away from bread and finished garnishes.",
+          "Use a pan that allows one layer, with enough space to turn the shrimp. Additional batches use proportional shares of the listed supplies; pan size and times do not multiply."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Garlic is pale golden and fragrant, with no dark edges.",
+            "why": "It continues heating after the shrimp enter, so catch it before the oil becomes bitter."
+          },
+          {
+            "step": 4,
+            "cue": "A thick shrimp reaches 145°F and its center is firm, pearly and opaque.",
+            "why": "The short listed checks depend on size and pan heat; a C-shaped curl is not a temperature measurement."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Garlic darkens before the shrimp finish.",
+            "cause": "The pan is too hot or the garlic was already deeply colored.",
+            "fix": "Lower the heat and finish the shrimp to their endpoint. Burnt garlic cannot be made sweet again."
+          },
+          {
+            "problem": "Shrimp are rubbery.",
+            "cause": "They remained over heat after cooking through.",
+            "fix": "Remove finished shrimp promptly; reheating cannot restore their original tenderness."
+          }
+        ],
+        "timing": "The 18-minute original-batch plan starts with thawed, peeled shrimp and prepared bread. Allow about 10 minutes of preparation and an attended, short pan cook; extra batches or thawing extend elapsed time. The 1-minute, 30-second and 30–45-second stages are first checks, not guaranteed doneness clocks.",
+        "storage": "Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate. Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. This dish is best freshly cooked; bread should be stored separately.",
+        "sources": [
+          {
+            "title": "FDA: Seafood handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FDA: Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "Dani García: Gambas al ajillo, RTVE",
+            "url": "https://www.rtve.es/television/20190725/receta-gambas-ajillo-dani-garcia/1976087.shtml"
+          },
+          {
+            "title": "USDA: Nutrient retention factors, alcohol table",
+            "url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/retn/retn06.pdf"
+          },
+          {
+            "title": "USDA: Handling leftovers safely",
+            "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely"
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dried guindilla peppers",
+            "alternative": "The listed red pepper flakes alternative",
+            "effect": "Use one chile choice. The measured amounts are the listed recipe options, not equal heat guarantees."
+          },
+          {
+            "ingredient": "Dry sherry",
+            "alternative": "Fino or amontillado",
+            "effect": "Both are the listed dry-sherry choices; their aromas differ. The brief cooking does not make the dish alcohol-free."
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nGambas al ajillo is the ultimate proof that Spanish cooking is about restraint and great ingredients rather than complex technique. The entire dish cooks in under 5 minutes, so everything must be prepped and within arm's reach before you heat the pan. The most common mistake is overcooking the garlic -- it should be golden and fragrant, never brown or bitter. Use the best olive oil you have; it becomes the sauce. Serve it still bubbling in the pan with crusty bread to soak up every drop.\n\n## Directions\n\n1.  **Prep Everything First:** Pat the shrimp dry with paper towels and season with 1/2 tsp salt and the smoked paprika. Have the sliced garlic, dried peppers, sherry, parsley, and lemon juice ready beside the stove. This dish moves fast.\n\n2.  **Heat the Oil:** Pour the olive oil into a cast-iron skillet or cazuela over medium heat. When the oil begins to shimmer, add the sliced garlic and dried guindilla peppers. Cook for 30-45 seconds, swirling constantly, until the garlic is pale golden. Do not walk away.\n\n3.  **Add the Shrimp:** Increase heat to medium-high. Add the shrimp in a single layer and cook for 1 minute without moving them. Flip and cook for 30 seconds more.\n\n4.  **Deglaze:** Pour in the sherry. It will bubble vigorously. Cook for 30 seconds to burn off the raw alcohol while the shrimp finish cooking through.\n\n5.  **Finish:** Remove from heat immediately. The shrimp should be just pink and curled into a C-shape (not a tight O, which means overcooked). Squeeze the lemon juice over the pan and scatter with parsley.\n\n6.  **Serve:** Bring the sizzling skillet directly to the table. Serve with plenty of crusty bread to mop up the garlicky, paprika-stained oil. The bread-dipping is the best part.\n",
+    "after": "\n## Chef's Note\n\nGambas al ajillo puts garlic and chile into the olive oil that becomes the sauce. Have everything ready before heating the pan: pale golden garlic can turn bitter quickly, and shrimp need to come off the heat as soon as their centers are cooked. Serve with crusty bread for the full garlicky oil and sherry sauce.\n\n## Directions\n\n1. **Prep Everything First:** Thaw frozen shrimp in the refrigerator, then pat dry with paper towels. Season with the measured salt and smoked paprika. Have sliced garlic, your chosen dried peppers or pepper flakes, sherry, parsley and measured lemon juice beside the stove. Keep the shrimp refrigerated until the pan is ready.\n\n2. **Heat the Oil:** Pour the full measured olive oil into a cast-iron skillet or a cazuela suitable for your hob over medium heat. When it shimmers, add the garlic and dried guindilla peppers, or the alternative pepper flakes. Cook for 30–45 seconds, swirling, until the garlic is pale golden; lower the heat if it colors too quickly.\n\n3. **Add the Shrimp:** Increase to medium-high. Add the shrimp in a single layer, cook for about 1 minute, then turn and begin checking after another 30 seconds. These are first checks, not a required stopping point. For a larger batch, use additional suitable pans or cook separate proportionate batches, dividing all measured oil, seasonings and liquids among them.\n\n4. **Add the Sherry:** Pour in the measured sherry carefully and let it bubble, about 30 seconds as a first check. Continue only as needed for the thickest shrimp to reach 145°F, with firm, pearly, opaque flesh through the center. Lower the heat if the garlic darkens before the shrimp finish. A brief simmer does not remove all the alcohol.\n\n5. **Finish:** Take the pan off the heat as soon as the shrimp are cooked. Add all the measured lemon juice and parsley. Curl and outside color alone do not establish that the centers are done.\n\n6. **Serve:** Serve promptly with crusty bread and all the garlicky oil and sherry sauce. Set a hot skillet on a heatproof trivet and keep its handle out of reach.\n"
+  },
+  "findings": [
+    {
+      "id": "SF02-1-1",
+      "rationale": "Preserve all doses and the 2b01ffbb short garlic repair; replace curl-only/stop-immediately and guaranteed short clocks with applicable FDA endpoint. Remove the all-alcohol-burns-off claim without changing sherry.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "fd4f07a8",
+        "2b01ffbb",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "RTVE"
+      ],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": [
+        "Confirm actual shrimp size, pan/cazuela suitability, garlic thickness, full oil sauce and elapsed/active time at the desired scale.",
+        "Which dried peppers and kosher-salt crystal size are used? No equal-heat or salt-density equivalence is established."
+      ]
+    },
+    {
+      "id": "SF02-1-2",
+      "rationale": "Add preparation, proportional pan/batch guidance, full sauce destination and recipe-specific handling; remove unsupported legacy nutrition and the unqualified low-carb label for a dish served with bread. No forced extra acid or sear rule.",
+      "confidence": "High for exact supplied/current/source lineage and primary scope; moderate for editorial mechanism, endpoint sequence, planning/capacity/texture guidance; untested.",
+      "applicableSources": [
+        "fd4f07a8",
+        "2b01ffbb",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+        "RTVE"
+      ],
+      "exactBeforeAfterReferences": ["nutrition", "dietary", "content", "learning"],
+      "questions": [
+        "Confirm actual shrimp size, pan/cazuela suitability, garlic thickness, full oil sauce and elapsed/active time at the desired scale.",
+        "Which dried peppers and kosher-salt crystal size are used? No equal-heat or salt-density equivalence is established."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/gambas-al-ajillo.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "route": "Git-created formula",
+      "status": "preserved primary",
+      "difference": "fd4 introduces the complete full 1/3 cup oil, 1/4 cup sherry, paprika/lemon recipe; no exact original450 binding or external original author established. RTVE is a mechanism comparison, not attribution or formula certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "ingredient": "1 lb Large Shrimp (16-20 count), peeled and deveined, tails on",
+        "destination": "Step1 dry, season; steps3–5 cook with outside color/C-shape stopping cue.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/3 cup Extra-Virgin Olive Oil",
+        "destination": "All step2 pan oil; served as full sauce step6.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "8 cloves Garlic, thinly sliced",
+        "destination": "Step2 sliced garlic; 30–45 sec current repair.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 Dried Guindilla Peppers (or 1 tsp red pepper flakes)",
+        "destination": "Guindilla step2; listed alternative flakes have no explicit method destination.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/4 cup Dry Sherry (fino or amontillado)",
+        "destination": "Step4 sherry; falsely claims complete raw-alcohol burn-off after30 sec.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 tsp Smoked Paprika (pimenton de la Vera)",
+        "destination": "Step1 all paprika.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt",
+        "destination": "Literal 1/2 tsp salt in step1, even when list scaled.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "2 tbsp Fresh Flat-Leaf Parsley, roughly chopped",
+        "destination": "Step5 all parsley.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "1 tbsp Fresh Lemon Juice",
+        "destination": "Step5 squeezes lemon juice; measured juice is input, not an extra whole lemon.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      },
+      {
+        "ingredient": "Crusty Bread, for serving",
+        "destination": "Step6 as-needed bread.",
+        "stateAndMeasure": "Exact ingredient string is the frozen state/measure; destination reflects the old method, including unresolved defects."
+      }
+    ],
+    "frozenMethodOnlySupplies": [],
+    "proposed": [
+      {
+        "ingredient": "1 lb Large Shrimp (16-20 count), peeled and deveined, tails on",
+        "destination": "Steps1 then3–4 thawed, dried, seasoned raw shrimp;145°F endpoint.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/3 cup Extra-Virgin Olive Oil",
+        "destination": "All step2 pan oil; full sauce served step6.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "8 cloves Garlic, thinly sliced",
+        "destination": "Step2 full garlic;30–45 sec first check.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 Dried Guindilla Peppers (or 1 tsp red pepper flakes)",
+        "destination": "One chosen chile option reaches step2.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/4 cup Dry Sherry (fino or amontillado)",
+        "destination": "Step4 full measured sherry, brief bubble then endpoint; no all-alcohol guarantee.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 tsp Smoked Paprika (pimenton de la Vera)",
+        "destination": "Step1 full paprika.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1/2 tsp Kosher Salt",
+        "destination": "Step1 full measured salt, amount follows list.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "2 tbsp Fresh Flat-Leaf Parsley, roughly chopped",
+        "destination": "Step5 full parsley.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "1 tbsp Fresh Lemon Juice",
+        "destination": "Step5 full measured juice.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      },
+      {
+        "ingredient": "Crusty Bread, for serving",
+        "destination": "Step6 genuine unmeasured bread.",
+        "stateAndMeasure": "Exact listed state/measure; independent allowances remain unmeasured."
+      }
+    ],
+    "variants": [
+      {
+        "name": "Guindilla or pepper-flake choice",
+        "ingredients": "Choose scaled guindilla count OR scaled listed1tsp flakes per original batch; retain all other current quantities.",
+        "destinations": "Step2 chosen chile; full oil/sherry/garlic/seasoning/shrimp steps1–4 and full lemon/parsley/bread5–6.",
+        "status": "public exclusive source option; heat equivalence not claimed"
+      }
+    ],
+    "quantityScope": "Every measured current dose is retained or explicitly source-restored with a separate complete current variation. No invented amount, weight equivalent or output yield; frozen ledger is not retroactively repaired."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prep Everything First: Thaw frozen shrimp in the refrigerator, then pat dry with paper towels. Season with the measured salt and smoked paprika. Have sliced garlic, your chosen dried peppers or pepper flakes, sherry, parsley and measured lemon juice beside the stove. Keep the shrimp refrigerated until the pan is ready.",
+      "dependencies": [],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 2,
+      "text": "Heat the Oil: Pour the full measured olive oil into a cast-iron skillet or a cazuela suitable for your hob over medium heat. When it shimmers, add the garlic and dried guindilla peppers, or the alternative pepper flakes. Cook for 30–45 seconds, swirling, until the garlic is pale golden; lower the heat if it colors too quickly.",
+      "dependencies": [1],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 3,
+      "text": "Add the Shrimp: Increase to medium-high. Add the shrimp in a single layer, cook for about 1 minute, then turn and begin checking after another 30 seconds. These are first checks, not a required stopping point. For a larger batch, use additional suitable pans or cook separate proportionate batches, dividing all measured oil, seasonings and liquids among them.",
+      "dependencies": [2],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 4,
+      "text": "Add the Sherry: Pour in the measured sherry carefully and let it bubble, about 30 seconds as a first check. Continue only as needed for the thickest shrimp to reach 145°F, with firm, pearly, opaque flesh through the center. Lower the heat if the garlic darkens before the shrimp finish. A brief simmer does not remove all the alcohol.",
+      "dependencies": [3],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 5,
+      "text": "Finish: Take the pan off the heat as soon as the shrimp are cooked. Add all the measured lemon juice and parsley. Curl and outside color alone do not establish that the centers are done.",
+      "dependencies": [4],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve promptly with crusty bread and all the garlicky oil and sherry sauce. Set a hot skillet on a heatproof trivet and keep its handle out of reach.",
+      "dependencies": [5],
+      "attended": true,
+      "capacity": "Actual single layers or turnable covered load as written; no numeric certified capacity."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Guindilla or pepper-flake choice",
+      "ingredients": "Choose scaled guindilla count OR scaled listed1tsp flakes per original batch; retain all other current quantities.",
+      "destinations": "Step2 chosen chile; full oil/sherry/garlic/seasoning/shrimp steps1–4 and full lemon/parsley/bread5–6.",
+      "status": "public exclusive source option; heat equivalence not claimed"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["patatas-bravas", "garlic-bread", "everyday-arugula-salad"],
+    "incomingComposedMeals": [],
+    "scope": "Existing valid pairings retained; no dependent recipe or meal approval."
+  },
+  "ratiosYieldAndCapacity": {
+    "preparation": "10 min",
+    "cooking": "8 min",
+    "elapsed": "18 min",
+    "planningScope": "The 18-minute original-batch plan starts with thawed, peeled shrimp and prepared bread. Allow about 10 minutes of preparation and an attended, short pan cook; extra batches or thawing extend elapsed time. The 1-minute, 30-second and 30–45-second stages are first checks, not guaranteed doneness clocks.",
+    "active": "Not measured; attended preparation and cooking distinguished from refrigerator wait/cooling.",
+    "capacity": "No exact pan/cooker capacity or model clock certified; actual load/single layers and proportional batch guidance.",
+    "storage": "Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate. Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. This dish is best freshly cooked; bread should be stored separately.",
+    "ratioAndYield": "Current planning portions retained. Actual cooked weight, taco count, shell-on edible yield and broth output are not measured."
+  },
+  "preservedPriorRepairs": [
+    "Full 1/3 cup oil, 1/4 cup dry sherry, all paprika/garlic/lemon/parsley and current chile options retained.",
+    "2b01ffbb 30–45-second garlic first check retained; identity, Spanish cuisine, links and current main role unchanged."
+  ],
+  "remainingQuestions": [
+    "Confirm actual shrimp size, pan/cazuela suitability, garlic thickness, full oil sauce and elapsed/active time at the desired scale.",
+    "Which dried peppers and kosher-salt crystal size are used? No equal-heat or salt-density equivalence is established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

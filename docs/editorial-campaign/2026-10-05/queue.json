@@ -241,7 +241,20 @@
       "double-chocolate-layer-cake",
       "funfetti-cake-from-scratch-and-an-unbirthday",
       "grandmommys-pound-cake"
-    ]
+    ],
+    "glazed_corn_vegetables_06": {
+      "slugs": [
+        "glazed-carrots",
+        "honey-glazed-carrots",
+        "elote-style-corn-on-the-cob",
+        "grilled-corn-salad-with-feta",
+        "fried-plantains",
+        "ratatouille"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+      "status": "assigned; whole author/independent/root pending"
+    }
   },
   "recipes": [
     {
@@ -494,7 +507,7 @@
       "source": "Adapted from fitmamarealfood.com",
       "sourceUrl": "http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/",
       "group": "layer_family_cakes_05",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -504,7 +517,9 @@
       "inputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716",
       "plannedBatch": "baked-sweets-01",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716"
+      "assignmentInputSha256": "05ea3ad97d3206e153e27cfd122248a38d535e5f5530c372428b70c09a791716",
+      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
     },
     {
       "slug": "baked-chicken-and-broccoli",
@@ -1701,18 +1716,25 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/chana-begoon.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
       ],
       "inputSha256": "80f197c8918a877d66d9b3a20a0b6e2489c7668e45055d283c18e65640e68193",
       "plannedBatch": "baked-savory-and-breads-03",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "5b03f431eb63d694ab84a38955bc3a5714b9dd1f58c358ae40602de670591ae4",
+      "productionVerification": "pending"
     },
     {
       "slug": "charred-asparagus-with-parmesan",
@@ -2394,7 +2416,7 @@
       "source": "Adapted from Foodiewithfamily.com",
       "sourceUrl": "https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/",
       "group": "layer_family_cakes_05",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2404,7 +2426,9 @@
       "inputSha256": "931cc56bb9132c5979447567fc03107b58f22f2bda76fbbbf5117394d3d14f89",
       "plannedBatch": "baked-sweets-02",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "931cc56bb9132c5979447567fc03107b58f22f2bda76fbbbf5117394d3d14f89"
+      "assignmentInputSha256": "931cc56bb9132c5979447567fc03107b58f22f2bda76fbbbf5117394d3d14f89",
+      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
     },
     {
       "slug": "classic-carrot-cake",
@@ -2413,7 +2437,7 @@
       "source": "Adapted from ajc.com",
       "sourceUrl": "https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc",
       "group": "layer_family_cakes_05",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2423,7 +2447,9 @@
       "inputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9",
       "plannedBatch": "baked-sweets-02",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9"
+      "assignmentInputSha256": "f67d594863c722cfbdbabd08fb66beb94b6a15d4495b5b3aafe1ec8b464289c9",
+      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
     },
     {
       "slug": "classic-chocolate-chip-cookies",
@@ -3205,7 +3231,7 @@
       "source": "Ed Kasky, Gourmet (March 1999), via Epicurious",
       "sourceUrl": "https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275",
       "group": "layer_family_cakes_05",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": ["docs/reviews/double-chocolate-layer-cake.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3215,7 +3241,9 @@
       "inputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1",
       "plannedBatch": "baked-sweets-03",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1"
+      "assignmentInputSha256": "aa1343bf9fdd11683ba23dd254018c41b588281c705b085b822200d2ad7a1fd1",
+      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
     },
     {
       "slug": "dutch-baby-pancake",
@@ -3516,8 +3544,8 @@
       "title": "Elote-Style Corn on the Cob",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "glazed_corn_vegetables_06",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3525,7 +3553,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "4e8ce35fa8d29946f218cc0e831f8f469068466ed2c48f17926920a0eedc6940",
-      "plannedBatch": "roast-grill-and-sear-01"
+      "plannedBatch": "roast-grill-and-sear-01",
+      "owner": "coverage_check",
+      "reviewPhase": "Complete author review assigned; independent/root acceptance pending"
     },
     {
       "slug": "enchilada-skillet",
@@ -3835,8 +3865,8 @@
       "title": "Fried Sweet Plantains (Maduros)",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "glazed_corn_vegetables_06",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3844,7 +3874,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c8386d7ba8b25e8afe3ec8a1fa1cecba2b4cee6f149c76320210f531c4a79086",
-      "plannedBatch": "stir-fry-and-pan-cooking-03"
+      "plannedBatch": "stir-fry-and-pan-cooking-03",
+      "owner": "coverage_check",
+      "reviewPhase": "Complete author review assigned; independent/root acceptance pending"
     },
     {
       "slug": "frozen-blueberry-muffins",
@@ -3878,7 +3910,7 @@
       "source": "Adapted from sugarspunrun.com",
       "sourceUrl": "https://sugarspunrun.com/funfetti-cake-scratch/",
       "group": "layer_family_cakes_05",
-      "status": "assigned",
+      "status": "proposed",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -3888,7 +3920,9 @@
       "inputSha256": "512ff47b1a410aa7b6ace06c17b56cc63f3ea552fd1c0ee886ca51298b5f9677",
       "plannedBatch": "baked-sweets-03",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "512ff47b1a410aa7b6ace06c17b56cc63f3ea552fd1c0ee886ca51298b5f9677"
+      "assignmentInputSha256": "512ff47b1a410aa7b6ace06c17b56cc63f3ea552fd1c0ee886ca51298b5f9677",
+      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
     },
     {
       "slug": "gambas-al-ajillo",
@@ -3897,18 +3931,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "seafood_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/gambas-al-ajillo.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual shrimp size, pan/cazuela suitability, garlic thickness, full oil sauce and elapsed/active time at the desired scale.",
+        "Which dried peppers and kosher-salt crystal size are used? No equal-heat or salt-density equivalence is established."
       ],
       "inputSha256": "d70ada86c837fca3a1588d47b4687e4af9f62eded2c84c6ea51358eb2e7ebaef",
       "plannedBatch": "context-screening-02",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "b32987b06ec031c542679e823d198af5d0b62d702e8a3bc10d4a0359cbb060bc",
+      "productionVerification": "pending"
     },
     {
       "slug": "garlic-butter-green-beans",
@@ -4110,18 +4149,24 @@
       "source": "Adapted from purewow.com",
       "sourceUrl": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
       "group": "tofu_legumes_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/general-tsos-cauliflower.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
       ],
       "inputSha256": "6fdb84bef083fee77e46d955483a54fa51cb8d9ae87f14e5d734cf8f9f9f55b4",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d",
+      "productionVerification": "pending"
     },
     {
       "slug": "general-tsos-tofu",
@@ -4130,18 +4175,24 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/general-tsos-tofu/",
       "group": "tofu_legumes_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/general-tsos-tofu.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
       ],
       "inputSha256": "7430bc03878cb160a751799e7366e7dd0b669367af0ae128b59f8191668bb866",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "89e3d354239f8b8fe79c4db82eafd672a81a2e56e1a6da9d3910e713a9d8d111",
+      "productionVerification": "pending"
     },
     {
       "slug": "glazed-carrots",
@@ -4149,8 +4200,8 @@
       "title": "Glazed Carrots",
       "source": "Adapted from Allrecipes.com",
       "sourceUrl": "https://www.allrecipes.com/recipe/229669/glazed-carrots/",
-      "group": null,
-      "status": "queued",
+      "group": "glazed_corn_vegetables_06",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4158,7 +4209,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c7a061c263ddb9ac4242a31688fa332c8f1a8061d43aa5ae8a695f49aef05ead",
-      "plannedBatch": "simmer-boil-and-steam-04"
+      "plannedBatch": "simmer-boil-and-steam-04",
+      "owner": "coverage_check",
+      "reviewPhase": "Complete author review assigned; independent/root acceptance pending"
     },
     {
       "slug": "glazed-chicken-and-broccoli-sheet-pan-dinner",
@@ -4265,7 +4318,7 @@
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": "layer_family_cakes_05",
-      "status": "assigned",
+      "status": "held",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4275,7 +4328,9 @@
       "inputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
       "plannedBatch": "baked-sweets-04",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b"
+      "assignmentInputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
+      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
     },
     {
       "slug": "granola",
@@ -4392,8 +4447,8 @@
       "title": "Grilled Corn Salad with Feta",
       "source": "Skinnytaste.com",
       "sourceUrl": "https://www.skinnytaste.com/grilled-corn-salad-with-feta/",
-      "group": null,
-      "status": "queued",
+      "group": "glazed_corn_vegetables_06",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/grilled-corn-salad-with-feta.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -4401,7 +4456,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a03cab9edddd02fd31bdbc0edd260d6ef9d73bb38cd851fad6a4a3d1b7f4e34d",
-      "plannedBatch": "roast-grill-and-sear-02"
+      "plannedBatch": "roast-grill-and-sear-02",
+      "owner": "coverage_check",
+      "reviewPhase": "Complete author review assigned; independent/root acceptance pending"
     },
     {
       "slug": "grilled-pork-and-peaches",
@@ -4787,8 +4844,8 @@
       "title": "Honey-Glazed Carrots",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "glazed_corn_vegetables_06",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4796,7 +4853,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "2e8e0d4e8aa6e7de1c4e77c35397d983af0082831736d5073bdf9eec4e0f7583",
-      "plannedBatch": "roast-grill-and-sear-02"
+      "plannedBatch": "roast-grill-and-sear-02",
+      "owner": "coverage_check",
+      "reviewPhase": "Complete author review assigned; independent/root acceptance pending"
     },
     {
       "slug": "honey-glazed-spareribs",
@@ -5433,18 +5492,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/mapo-tofu.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
       ],
       "inputSha256": "bcd334bb7c1adac2c6a57287ce25cc2516dd6719a972251ca9c955aa193245b8",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "8cab410faa71a2b3e4af9d5384d4131d3f937f3d5ff9f61585a74059194568f3",
+      "productionVerification": "pending"
     },
     {
       "slug": "marinated-flank-steak-salad",
@@ -5595,18 +5660,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "tofu_legumes_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/misir-wot.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
       ],
       "inputSha256": "e4cc6b96e1a96156ca5cbb23ed2e3f06f67a4824f0eb04bead81dfe71fe19bde",
       "plannedBatch": "simmer-boil-and-steam-06",
       "assignedTo": "coverage_check",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "daf8090079592009d5b88e98b047a2632a2a47b9ac8b0e3cf8c53d318358eec8",
+      "productionVerification": "pending"
     },
     {
       "slug": "miso-glazed-roasted-cauliflower",
@@ -6651,8 +6722,8 @@
       "title": "Ratatouille",
       "source": "Adapted from cookieandkate.com",
       "sourceUrl": "https://cookieandkate.com/best-ratatouille-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "glazed_corn_vegetables_06",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6660,7 +6731,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "938dafdbcb862188f9c8150124460a9903accb2d36b16cd02e2d8e9e412288da",
-      "plannedBatch": "baked-savory-and-breads-08"
+      "plannedBatch": "baked-savory-and-breads-08",
+      "owner": "coverage_check",
+      "reviewPhase": "Complete author review assigned; independent/root acceptance pending"
     },
     {
       "slug": "real-alfredo-sauce",
@@ -7375,18 +7448,23 @@
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/seafood-chorizo-tacos",
       "group": "seafood_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/seafood-chorizo-tacos.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which fresh chorizo composition, casing state, squid preparation and actual piece size are used? Check the label rather than assuming every chorizo is ready to eat.",
+        "Measure skillet capacity, full rendered fat, stage/active time and cooked filling/taco yield at the intended dinner scale. Compare source two-tablespoon and later one-tablespoon routes without blending."
       ],
       "inputSha256": "988b9811179aca1e98303248559d3020c2bde9994cbdc260efaacd6ad742c75e",
       "plannedBatch": "stir-fry-and-pan-cooking-05",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "d5d0ce7760a2b4afdfed574e40b3e87a5e0a6055f426ba161df18287e09f1f81",
+      "productionVerification": "pending"
     },
     {
       "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
@@ -7395,18 +7473,23 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/seared-scallops-with-a-corn-bacon-and-avocado-relish-3414406",
       "group": "seafood_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/seared-scallops-with-a-corn-bacon-and-avocado-relish.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual scallop weight/thickness, pan loads, oil allowances, bacon cooking/preparation time and elapsed/active service time.",
+        "Which relish route is intended: current small onion/one-tablespoon corn oil or original medium onion/pan-coating oil? Neither amount is silently normalized."
       ],
       "inputSha256": "77da2044fd53103d4937c3e5b67b56a8fc6f7557deb7f79a6f4a6f1aead4e314",
       "plannedBatch": "context-screening-04",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "920b72fe4186938ae41cf93722711bca0bdd5762360870bcf296246c4bf6a51a",
+      "productionVerification": "pending"
     },
     {
       "slug": "seasoned-bean-sprouts",
@@ -7563,21 +7646,25 @@
       "source": "Adapted from delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/",
       "group": "seafood_pan_02",
-      "status": "proposed",
+      "status": "accepted",
       "reviewEvidence": [
         "docs/repairs/2026-09-10/changed-files.json",
-        "docs/repairs/2026-09-15/changed-files.json"
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/sheet-pan-pineapple-shrimp-tacos.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
       ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual shrimp size, tray dimensions, batch loading, whole-pineapple versus measured two-cup route and final taco/portion yield.",
+        "Measure active/elapsed time and whether six inherited portions provide the intended dinner size; no new count or exact fruit-equivalence claim."
       ],
       "inputSha256": "17a5eb8a596f921ba5b804a03eabad9f3d767a36f1c04aa9082c5e677cf961c7",
       "plannedBatch": "baked-savory-and-breads-10",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "1897512d1925ff842d46e8efa24a1ba903d5c9b76ec52ef8f5ded9fc320ebe5c",
+      "productionVerification": "pending"
     },
     {
       "slug": "sheet-pan-shrimp-fajitas",
@@ -7586,18 +7673,24 @@
       "source": "healthyfitnessmeals.com",
       "sourceUrl": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/",
       "group": "seafood_pan_02",
-      "status": "proposed",
-      "reviewEvidence": ["docs/reviews/sheet-pan-shrimp-fajitas.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/sheet-pan-shrimp-fajitas.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual jumbo size, tray and vegetable thickness, 40-minute elapsed/active plan and twelve-tortilla dinner service.",
+        "Which kosher-salt product is intended? Saved publisher says fine kosher sea salt; no density conversion or brand equivalence is established.",
+        "Store-bought seasoning and alternate proteins in publisher notes lack a saved measured substitution dose/validated clock. Keep those choices unresolved rather than silently replacing the full spice blend."
       ],
       "inputSha256": "fe0d95c52890bd20edc03cd71253b406dfda8a3a213518691a76967725ce9ecb",
       "plannedBatch": "roast-grill-and-sear-04",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "ffc031f819de52b68e0483c6fa382a561ee9dec9f0319137b1a4ed818ab063fa",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-and-corn-chowder",
@@ -8342,18 +8435,23 @@
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth",
       "group": "seafood_pan_02",
-      "status": "proposed",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/steamed-mussels-chorizo.md",
+        "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm the actual live-mussel load, pot capacity, ready-to-eat dried chorizo label, reduction appearance and shell-open/elapsed timing.",
+        "Record edible mussel and finished broth yield and oil used on toast. Neither shell-on weight nor reduced input liquid establishes a measured finished broth volume."
       ],
       "inputSha256": "b4d8ec87a19af6f17dae6a2b7ab70bc551941a59cc8879a3de18e3cb99c6d34c",
       "plannedBatch": "simmer-boil-and-steam-10",
       "assignedTo": "poultry_editor",
       "assignmentScope": "Complete author review; independent challenge and root acceptance pending",
-      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending"
+      "reviewPhase": "Whole author review frozen; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "9e7b9f2f99a998b9b70bc2d055c7fb5996bcb2f52519ce770fcb523c9a04f601",
+      "productionVerification": "pending"
     },
     {
       "slug": "steel-cut-oatmeal",
@@ -10071,10 +10169,11 @@
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
     "production-verified": 159,
-    "held": 17,
+    "held": 18,
     "assigned": 34,
-    "proposed": 45,
-    "queued": 152,
+    "proposed": 39,
+    "queued": 146,
+    "accepted": 11,
     "held-awaiting-evidence": 2
   }
 }

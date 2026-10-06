@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 393,
-    "completeEditorialPending": 250,
+    "recordedCompleteEditorial": 404,
+    "completeEditorialPending": 239,
     "originalBaseline": 612,
-    "originalReviewed": 369,
+    "originalReviewed": 379,
     "consideredConsolidations": 10,
-    "originalPending": 233,
+    "originalPending": 223,
     "additionalSources": 41,
-    "additionalReviewed": 24,
-    "additionalPending": 17,
+    "additionalReviewed": 25,
+    "additionalPending": 16,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 393,
+      "editoriallyReviewed": 404,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 469
+      "reviewItems": 450
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "159 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 393 recorded complete / 250 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [09da71e2](https://github.com/jsilton/mise/commit/09da71e2a129a8c0b2ff601e55eca5c0dc95c878), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37421483418) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "159 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -3795,13 +3795,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -3809,19 +3803,26 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chana-begoon.md",
+        "acceptedSha256": "5b03f431eb63d694ab84a38955bc3a5714b9dd1f58c358ae40602de670591ae4",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chana-begoon.json",
+        "sourceSha256": "5b03f431eb63d694ab84a38955bc3a5714b9dd1f58c358ae40602de670591ae4"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual roasting pans, eggplant size, onion browning and final gravy thickness require cooking trials.",
+        "No evidence establishes a geographic origin for this particular Git-authored formulation; Indian cuisine/style remains.",
+        "All additional water, oil, salt, cilantro and lemon allowances are genuinely unmeasured in current recipe; no manufactured yield or doses."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -10891,18 +10892,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -10910,19 +10900,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/gambas-al-ajillo.md",
+        "acceptedSha256": "b32987b06ec031c542679e823d198af5d0b62d702e8a3bc10d4a0359cbb060bc",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/gambas-al-ajillo.json",
+        "sourceSha256": "b32987b06ec031c542679e823d198af5d0b62d702e8a3bc10d4a0359cbb060bc"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual shrimp size, pan/cazuela suitability, garlic thickness, full oil sauce and elapsed/active time at the desired scale.",
+        "Which dried peppers and kosher-salt crystal size are used? No equal-heat or salt-density equivalence is established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11599,18 +11595,7 @@
       "baseline": "original canonical",
       "source": "Adapted from purewow.com",
       "sourceUrl": "https://www.purewow.com/recipes/General-Tsos-Cauliflower",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -11618,19 +11603,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/general-tsos-cauliflower.md",
+        "acceptedSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/general-tsos-cauliflower.json",
+        "sourceSha256": "9697d7dbdff5eb4aa0a1960f329bdfefe7b98f317ee787235ec9d88cdda9069d"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cauliflower head weight, floret size and skillet volume remain unknown; no exact pan fill, oil depth or edible yield inferred.",
+        "Fried large-piece160°F is moderate application of egg-containing-dish guidance; actual probe geometry/coating texture needs kitchen testing.",
+        "Source hot-sauce temper and current cold premix are distinct; neither grants a universal starch-freeze stability or lasting-crunch promise."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -11649,18 +11641,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/general-tsos-tofu/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -11671,12 +11652,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/general-tsos-tofu.md",
+        "acceptedSha256": "89e3d354239f8b8fe79c4db82eafd672a81a2e56e1a6da9d3910e713a9d8d111",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/general-tsos-tofu.json",
+        "sourceSha256": "89e3d354239f8b8fe79c4db82eafd672a81a2e56e1a6da9d3910e713a9d8d111"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -11685,12 +11672,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual tofu pressing time/product and frying-pan dimensions are unknown.",
+        "The 3/16 reuse is exact same-unit arithmetic from the source1tbsp out of⅓cup, not a measured oil-absorption claim.",
+        "Do source lower ginger and regular tofu or current adaptations taste preferable? No kitchen trial established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16214,18 +16201,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16233,19 +16209,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/mapo-tofu.md",
+        "acceptedSha256": "8cab410faa71a2b3e4af9d5384d4131d3f937f3d5ff9f61585a74059194568f3",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/mapo-tofu.json",
+        "sourceSha256": "8cab410faa71a2b3e4af9d5384d4131d3f937f3d5ff9f61585a74059194568f3"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16933,18 +16916,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16952,12 +16924,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/misir-wot.md",
+        "acceptedSha256": "daf8090079592009d5b88e98b047a2632a2a47b9ac8b0e3cf8c53d318358eec8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/misir-wot.json",
+        "sourceSha256": "daf8090079592009d5b88e98b047a2632a2a47b9ac8b0e3cf8c53d318358eec8"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -16966,11 +16944,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual red-lentil age/size and covered pot evaporation govern whether the three-cup main needs its genuine additional-water allowance.",
+        "Salt crystal type and berbere product/heat are unspecified; no equal-volume fine-salt conversion or universal blend formula claimed.",
+        "No tested cooling, edible yield, storage quality or batch capacity established."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22418,18 +22397,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/seafood-chorizo-tacos",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -22437,19 +22405,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/seafood-chorizo-tacos.md",
+        "acceptedSha256": "d5d0ce7760a2b4afdfed574e40b3e87a5e0a6055f426ba161df18287e09f1f81",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/seafood-chorizo-tacos.json",
+        "sourceSha256": "d5d0ce7760a2b4afdfed574e40b3e87a5e0a6055f426ba161df18287e09f1f81"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which fresh chorizo composition, casing state, squid preparation and actual piece size are used? Check the label rather than assuming every chorizo is ready to eat.",
+        "Measure skillet capacity, full rendered fat, stage/active time and cooked filling/taco yield at the intended dinner scale. Compare source two-tablespoon and later one-tablespoon routes without blending."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22504,18 +22478,7 @@
       "baseline": "original canonical",
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/seared-scallops-with-a-corn-bacon-and-avocado-relish-3414406",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -22523,19 +22486,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/seared-scallops-with-a-corn-bacon-and-avocado-relish.md",
+        "acceptedSha256": "920b72fe4186938ae41cf93722711bca0bdd5762360870bcf296246c4bf6a51a",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/seared-scallops-with-a-corn-bacon-and-avocado-relish.json",
+        "sourceSha256": "920b72fe4186938ae41cf93722711bca0bdd5762360870bcf296246c4bf6a51a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual scallop weight/thickness, pan loads, oil allowances, bacon cooking/preparation time and elapsed/active service time.",
+        "Which relish route is intended: current small onion/one-tablespoon corn oil or original medium onion/pan-coating oil? Neither amount is silently normalized."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23090,13 +23059,7 @@
       "baseline": "original canonical",
       "source": "Adapted from delish.com",
       "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23107,19 +23070,25 @@
         ]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/sheet-pan-pineapple-shrimp-tacos.md",
+        "acceptedSha256": "1897512d1925ff842d46e8efa24a1ba903d5c9b76ec52ef8f5ded9fc320ebe5c",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sheet-pan-pineapple-shrimp-tacos.json",
+        "sourceSha256": "1897512d1925ff842d46e8efa24a1ba903d5c9b76ec52ef8f5ded9fc320ebe5c"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual shrimp size, tray dimensions, batch loading, whole-pineapple versus measured two-cup route and final taco/portion yield.",
+        "Measure active/elapsed time and whether six inherited portions provide the intended dinner size; no new count or exact fruit-equivalence claim."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -23143,13 +23112,7 @@
       "baseline": "addition",
       "source": "healthyfitnessmeals.com",
       "sourceUrl": "https://healthyfitnessmeals.com/sheet-pan-shrimp-fajitas/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -23157,19 +23120,26 @@
         "evidence": ["docs/reviews/sheet-pan-shrimp-fajitas.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/sheet-pan-shrimp-fajitas.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "ffc031f819de52b68e0483c6fa382a561ee9dec9f0319137b1a4ed818ab063fa",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sheet-pan-shrimp-fajitas.json",
+        "sourceSha256": "ffc031f819de52b68e0483c6fa382a561ee9dec9f0319137b1a4ed818ab063fa"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual jumbo size, tray and vegetable thickness, 40-minute elapsed/active plan and twelve-tortilla dinner service.",
+        "Which kosher-salt product is intended? Saved publisher says fine kosher sea salt; no density conversion or brand equivalence is established.",
+        "Store-bought seasoning and alternate proteins in publisher notes lack a saved measured substitution dose/validated clock. Keep those choices unresolved rather than silently replacing the full spice blend."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25718,18 +25688,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Bonappetit.com",
       "sourceUrl": "http://www.bonappetit.com/recipe/steamed-mussels-with-tomato-and-chorizo-broth",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25737,19 +25696,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/steamed-mussels-chorizo.md",
+        "acceptedSha256": "9e7b9f2f99a998b9b70bc2d055c7fb5996bcb2f52519ce770fcb523c9a04f601",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/steamed-mussels-chorizo.json",
+        "sourceSha256": "9e7b9f2f99a998b9b70bc2d055c7fb5996bcb2f52519ce770fcb523c9a04f601"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm the actual live-mussel load, pot capacity, ready-to-eat dried chorizo label, reduction appearance and shell-open/elapsed timing.",
+        "Record edible mussel and finished broth yield and oil used on toast. Neither shell-on weight nor reduced input liquid establishes a measured finished broth volume."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

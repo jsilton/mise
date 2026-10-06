@@ -1,11 +1,11 @@
 {
   "summary": {
     "recipes": 643,
-    "editoriallyReviewed": 393,
+    "editoriallyReviewed": 404,
     "kitchenTested": 0,
     "errors": 0,
     "priorityReviews": 0,
-    "reviewItems": 469
+    "reviewItems": 450
   },
   "limitations": "Automated triage only. Does not establish culinary quality, food safety, source validity, or kitchen testing.",
   "recipes": [
@@ -782,15 +782,9 @@
     {
       "slug": "chana-begoon",
       "title": "Chana Begoon",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "chana-masala",
@@ -2480,20 +2474,9 @@
     {
       "slug": "gambas-al-ajillo",
       "title": "Gambas al Ajillo",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "garlic-bread",
@@ -2614,38 +2597,16 @@
     {
       "slug": "general-tsos-cauliflower",
       "title": "General Tso's Cauliflower",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 8,
+      "issues": []
     },
     {
       "slug": "general-tsos-tofu",
       "title": "General Tso's Tofu",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "glazed-carrots",
@@ -3822,20 +3783,9 @@
     {
       "slug": "mapo-tofu",
       "title": "Mapo Tofu",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "marinated-flank-steak-salad",
@@ -4007,20 +3957,9 @@
     {
       "slug": "misir-wot",
       "title": "Misir Wot (Ethiopian Red Lentil Stew)",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "miso-glazed-roasted-cauliflower",
@@ -5402,20 +5341,9 @@
     {
       "slug": "seafood-chorizo-tacos",
       "title": "Seafood-Chorizo Tacos",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "seared-salmon-with-summer-vegetables",
@@ -5427,20 +5355,9 @@
     {
       "slug": "seared-scallops-with-a-corn-bacon-and-avocado-relish",
       "title": "Seared Scallops with Corn & Avocado Relish",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "seasoned-bean-sprouts",
@@ -5557,28 +5474,16 @@
     {
       "slug": "sheet-pan-pineapple-shrimp-tacos",
       "title": "Sheet Pan Pineapple Shrimp Tacos",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 6,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "sheet-pan-shrimp-fajitas",
       "title": "Sheet Pan Shrimp Fajitas",
-      "status": "collection",
+      "status": "editorial-review",
       "stepCount": 4,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ]
+      "issues": []
     },
     {
       "slug": "shoyu-tuna-poke-bowl",
@@ -6135,20 +6040,9 @@
     {
       "slug": "steamed-mussels-chorizo",
       "title": "Mussels with Chorizo Broth",
-      "status": "collection",
-      "stepCount": 7,
-      "issues": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ]
+      "status": "editorial-review",
+      "stepCount": 5,
+      "issues": []
     },
     {
       "slug": "steamed-noodles-with-green-beans",

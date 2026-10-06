@@ -1,0 +1,874 @@
+{
+  "slug": "mapo-tofu",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "5a6058c91b13b1b1f94703cfb446961a0f0f22bb",
+  "inputSha256": "bcd334bb7c1adac2c6a57287ce25cc2516dd6719a972251ca9c955aa193245b8",
+  "acceptedSourceSha256": "8cab410faa71a2b3e4af9d5384d4131d3f937f3d5ff9f61585a74059194568f3",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "35–45 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "6 oz Ground Pork",
+        "2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1 tbsp Sichuan Peppercorns, toasted and ground",
+        "4 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, minced",
+        "2 Green Onions, white and green parts separated, thinly sliced",
+        "2 tbsp Neutral Oil",
+        "1 tbsp Soy Sauce",
+        "1 tsp Sugar",
+        "3/4 cup Low-Sodium Chicken Broth",
+        "1 tbsp cornstarch, mixed with the separately measured slurry water",
+        "2 tbsp water, for the cornstarch slurry",
+        "1 tsp Toasted Sesame Oil",
+        "1 tsp Chili Oil, for drizzling"
+      ],
+      "after": [
+        "1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "6 oz Ground Pork",
+        "2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1 tbsp Sichuan Peppercorns, toasted and ground",
+        "4 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, minced",
+        "2 Green Onions, white and green parts separated, thinly sliced",
+        "2 tbsp Neutral Oil",
+        "1 tbsp Soy Sauce",
+        "1 tsp Sugar",
+        "3/4 cup Low-Sodium Chicken Broth",
+        "1 tbsp cornstarch, mixed with the separately measured slurry water",
+        "2 tbsp water, for the cornstarch slurry",
+        "1 tsp Toasted Sesame Oil",
+        "1 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 260,
+        "protein": 7,
+        "carbs": 26.5,
+        "fat": 14.5,
+        "fiber": 4,
+        "sugar": 5,
+        "sodium": 1400
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Thicken pork sauce while keeping tofu cubes intact",
+        "outcome": "Warm intact tofu cubes with cooked pork, a clinging sauce and all the Sichuan-pepper and scallion finish.",
+        "techniques": ["starch", "gentle-proteins"],
+        "before": [
+          "Have the slurry mixed before cooking; its cold water is separate from the discarded tofu bath.",
+          "Medium-firm tofu is this written formula, not a universal Mapo requirement. Keep raw-pork utensils away from the uncooked scallion garnish."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Pork-containing areas check 160°F while tofu stays intact.",
+            "why": "Browning and a five-minute sauce clock do not replace a measured ground-pork endpoint."
+          },
+          {
+            "step": 6,
+            "cue": "The re-stirred slurry thickens the simmering sauce without vigorous tofu stirring.",
+            "why": "Cornstarch settles; gentle movements protect the cubes."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Tofu crumbles.",
+            "cause": "Aggressive stirring or a softer product.",
+            "fix": "Use spooning and gentle nudging; broken cubes cannot be put back together."
+          },
+          {
+            "problem": "Paste or garlic tastes burnt.",
+            "cause": "High heat after the liquid has reduced or while spices sit against the pan.",
+            "fix": "Lower heat promptly; scorched paste is not repaired by adding more broth."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Medium-firm tofu",
+            "alternative": "Soft or silken tofu",
+            "effect": "Mapo tofu can use softer tofu; lift with a wide spoon and avoid vigorous stirring. Texture and breakage differ. Keep the same full broth, pork, fat and seasoning amounts."
+          }
+        ],
+        "timing": "Plan about 35–45 minutes including 15 minutes preparation, water heat-up, the 2–3-minute tofu bath and roughly 15–25 minutes sauce cooking and finishing. Use enough roomy vessels for the listed batch; rice and bok choy, if serving them, have separate preparation and clocks.",
+        "storage": "Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above 90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or stew to a boil when reheating, stirring so the center heats too; this is separate from the first-cook instructions.",
+        "sources": [
+          {
+            "title": "Mise — Mapo Tofu",
+            "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+          },
+          {
+            "title": "Kaitlin Leung — Softer tofu and gentle Mapo handling",
+            "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/"
+          },
+          {
+            "title": "FoodSafety.gov — Ground-meat temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Safe food handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "FDA — Produce preparation",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA FSIS — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMapo tofu is defined by its ma la -- the numbing tingle of Sichuan peppercorn combined with the deep, complex heat of doubanjiang. The biggest mistake home cooks make is using silken tofu, which disintegrates. Medium-firm holds its shape while still being custardy inside. Parcooking the tofu in salted water firms it up and seasons it through. The doubanjiang must be fried in oil until the oil turns red -- this step is called \"chao\" and is the foundation of the dish's color and flavor.\n\n## Directions\n\n1.  **Parcook the Tofu:** Bring a medium saucepan of salted water to a gentle boil. Carefully slide in the tofu cubes and simmer for 2-3 minutes. This firms the tofu and removes any raw bean flavor. Drain very gently and set aside.\n\n2.  **Cook the Pork:** Heat the neutral oil in a wok or large skillet over high heat. Add the ground pork and cook for 3-4 minutes, breaking it into small crumbles, until browned and the fat has rendered.\n\n3.  **Fry the Doubanjiang:** Push the pork to the side. Add the doubanjiang and fermented black beans to the oil in the wok. Stir-fry for 1-2 minutes until the oil turns a deep red and the paste is very fragrant. This is the critical step.\n\n4.  **Build the Sauce:** Add the garlic, ginger, and green onion whites. Stir-fry for 30 seconds. Pour in the chicken broth, soy sauce, and sugar. Bring to a simmer.\n\n5.  **Add the Tofu:** Gently slide the parcocked tofu into the sauce. Do not stir aggressively. Instead, gently push the tofu around with the back of a ladle or by shaking the wok. Simmer for 5 minutes to let the tofu absorb the sauce.\n\n6.  **Thicken:** Give the cornstarch slurry a stir and drizzle it into the wok in two additions, gently swirling between each. The sauce should coat the tofu in a glossy, clinging glaze.\n\n7.  **Finish:** Drizzle with sesame oil and chili oil. Sprinkle generously with the ground Sichuan peppercorn and green onion greens. Serve immediately over steamed white rice.\n",
+    "after": "\n## Chef's Note\n\nSichuan peppercorns and doubanjiang give mapo tofu its numbing, spicy character. This version uses medium-firm tofu, briefly warmed in salted water and then handled gently in the pork sauce. Softer tofu can also be used for mapo tofu, but needs more careful handling; it is not inherently a mistake. Cook the bean paste in the existing oil and pork fat until fragrant without scorching, and keep the tofu intact with gentle spooning rather than vigorous stirring.\n\n## Directions\n\n1. **Parcook the tofu:** Wash the scallions before slicing. Mix the separately measured slurry cornstarch and cold water in a small bowl and set aside. Bring enough tofu-bath water to cover the cubes to a gentle boil and season it with the bath salt allowance to taste. Slide in all the tofu and simmer 2–3 minutes, then lift and drain gently; discard this bath water.\n2. **Cook the pork:** Heat all the neutral oil in a wok or large skillet over medium-high heat. Add all ground pork and break into small crumbles, beginning checks around 3–4 minutes. Retain all rendered fat. Brown color is a cooking cue, not proof of 160°F; continue cooking the pork with the sauce.\n3. **Fry the bean paste:** Push pork aside and add all doubanjiang and rinsed, chopped fermented black beans to the existing oil and fat. Stir 1–2 minutes until fragrant and the oil takes on red color, reducing heat before the paste scorches.\n4. **Build the sauce:** Stir in all garlic, ginger and scallion whites about 30 seconds, then add all measured broth, soy sauce and sugar and bring to a simmer.\n5. **Warm the tofu:** Gently slide in all drained tofu. Spoon sauce over the cubes or nudge with the back of a ladle rather than stirring hard. Simmer about 5 minutes; check representative pork-containing sauce areas for at least 160°F before tasting or finishing. Use enough vessels for the complete scaled formula, divided proportionally, without crowding the cubes.\n6. **Thicken:** Re-stir the entire separate slurry and drizzle it in two additions, gently swirling between them. Let the sauce simmer after each addition until thickening is visible; use the full listed mixture for this route and cook until the sauce clings without raw-starch taste.\n7. **Finish:** Add all measured sesame oil and chili oil, then all the toasted, ground Sichuan peppercorns and scallion greens. Fold gently and serve promptly over separately prepared white rice.\n"
+  },
+  "findings": [
+    {
+      "id": "TL-1",
+      "field": "cookTime",
+      "rationale": "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "scope": "Soft/silken Mapo counterexample and gentle handling; different recipe amounts not imported."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["cookTime"],
+      "questions": [
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+      ]
+    },
+    {
+      "id": "TL-2",
+      "field": "totalTime",
+      "rationale": "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "scope": "Soft/silken Mapo counterexample and gentle handling; different recipe amounts not imported."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["totalTime"],
+      "questions": [
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+      ]
+    },
+    {
+      "id": "TL-3",
+      "field": "ingredients",
+      "rationale": "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "scope": "Soft/silken Mapo counterexample and gentle handling; different recipe amounts not imported."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["ingredients"],
+      "questions": [
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+      ]
+    },
+    {
+      "id": "TL-4",
+      "field": "nutrition",
+      "rationale": "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "scope": "Soft/silken Mapo counterexample and gentle handling; different recipe amounts not imported."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["nutrition"],
+      "questions": [
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+      ]
+    },
+    {
+      "id": "TL-5",
+      "field": "learning",
+      "rationale": "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "scope": "Soft/silken Mapo counterexample and gentle handling; different recipe amounts not imported."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["learning"],
+      "questions": [
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+      ]
+    },
+    {
+      "id": "TL-6",
+      "field": "content",
+      "rationale": "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here.",
+      "confidence": "High written ingredient/history evidence; moderate untested process/planning application",
+      "applicableSources": [
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Exact retained Git formula and method; no native claim unless independently bound.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "title": "Exact saved Git introduction and followed cooking history",
+          "scope": "Whole followed cooking history and prior corrections.",
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md"
+        },
+        {
+          "url": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "scope": "Soft/silken Mapo counterexample and gentle handling; different recipe amounts not imported."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+          "scope": "Handling/cooling/leftover165 and stored-sauce boil only, not formula/texture or absolute risk elimination."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "scope": "Produce washing only."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "scope": "Recipe-specific written formula/process evidence or primary endpoint category as identified."
+        }
+      ],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": [
+        "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+        "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+        "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md",
+    "introductionScope": "Actual retained canonical Git cooking introduction independently fetched and read in full; no original native claim unless exactly bound.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Git fd4 creates this distinct measured formula; no exact independent native original or attributed publisher established.264053fc slurry split retained. Add explicit mixing/destinations and genuine unmeasured bath allowances; raw ground-pork160 endpoint fromFDA/FoodSafety, never color-only. Woks recipe explicitly uses silken tofu, contradicting universal “biggest mistake” claim; its different oil/pork/tofu amounts are not substituted here."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "actualMethodDestination": "gentle bath1 drained; sauce5"
+      },
+      {
+        "text": "6 oz Ground Pork",
+        "actualMethodDestination": "raw pork2 and later sauce; color cue only, no measured endpoint"
+      },
+      {
+        "text": "2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "actualMethodDestination": "all paste3"
+      },
+      {
+        "text": "1 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "actualMethodDestination": "rinsed/chopped beans3"
+      },
+      {
+        "text": "1 tbsp Sichuan Peppercorns, toasted and ground",
+        "actualMethodDestination": "all toasted/ground pepper7; no toasting clock"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic4"
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, minced",
+        "actualMethodDestination": "all ginger4"
+      },
+      {
+        "text": "2 Green Onions, white and green parts separated, thinly sliced",
+        "actualMethodDestination": "whites4/greens7"
+      },
+      {
+        "text": "2 tbsp Neutral Oil",
+        "actualMethodDestination": "all oil2; rendered pork fat retained implicitly"
+      },
+      {
+        "text": "1 tbsp Soy Sauce",
+        "actualMethodDestination": "all sauce4"
+      },
+      {
+        "text": "1 tsp Sugar",
+        "actualMethodDestination": "all sauce4"
+      },
+      {
+        "text": "3/4 cup Low-Sodium Chicken Broth",
+        "actualMethodDestination": "all broth4"
+      },
+      {
+        "text": "1 tbsp cornstarch, mixed with the separately measured slurry water",
+        "actualMethodDestination": "slurry6 references mixing but has no explicit mixing action"
+      },
+      {
+        "text": "2 tbsp water, for the cornstarch slurry",
+        "actualMethodDestination": "separate measured slurry water6; no explicit mixing action"
+      },
+      {
+        "text": "1 tsp Toasted Sesame Oil",
+        "actualMethodDestination": "all finish7"
+      },
+      {
+        "text": "1 tsp Chili Oil, for drizzling",
+        "actualMethodDestination": "all finish7"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "actualMethodDestination": "gentle bath1 drained; full tofu sauce5"
+      },
+      {
+        "text": "6 oz Ground Pork",
+        "actualMethodDestination": "all pork2, sauce5 checks160 before tasting"
+      },
+      {
+        "text": "2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "actualMethodDestination": "all paste3"
+      },
+      {
+        "text": "1 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "actualMethodDestination": "rinsed/chopped beans3"
+      },
+      {
+        "text": "1 tbsp Sichuan Peppercorns, toasted and ground",
+        "actualMethodDestination": "all already-toasted/ground pepper7"
+      },
+      {
+        "text": "4 cloves Garlic, minced",
+        "actualMethodDestination": "all garlic4"
+      },
+      {
+        "text": "1 tbsp Fresh Ginger, minced",
+        "actualMethodDestination": "all ginger4"
+      },
+      {
+        "text": "2 Green Onions, white and green parts separated, thinly sliced",
+        "actualMethodDestination": "white parts4/green parts7"
+      },
+      {
+        "text": "2 tbsp Neutral Oil",
+        "actualMethodDestination": "all oil2; all rendered pork fat retained"
+      },
+      {
+        "text": "1 tbsp Soy Sauce",
+        "actualMethodDestination": "all sauce4"
+      },
+      {
+        "text": "1 tsp Sugar",
+        "actualMethodDestination": "all sauce4"
+      },
+      {
+        "text": "3/4 cup Low-Sodium Chicken Broth",
+        "actualMethodDestination": "all measured broth4"
+      },
+      {
+        "text": "1 tbsp cornstarch, mixed with the separately measured slurry water",
+        "actualMethodDestination": "slurry explicitly mixed1, full two-addition supply6"
+      },
+      {
+        "text": "2 tbsp water, for the cornstarch slurry",
+        "actualMethodDestination": "separate measured slurry water mixed1/added6; not bath water"
+      },
+      {
+        "text": "1 tsp Toasted Sesame Oil",
+        "actualMethodDestination": "all finish7"
+      },
+      {
+        "text": "1 tsp Chili Oil, for drizzling",
+        "actualMethodDestination": "all finish7"
+      },
+      {
+        "text": "Water, enough for the tofu bath; drained and discarded",
+        "actualMethodDestination": "genuine unmeasured bath1 discarded; no invented volume"
+      },
+      {
+        "text": "Salt, to taste, for the tofu bath; drained and discarded",
+        "actualMethodDestination": "genuine unmeasured bath salt1 discarded; no invented concentration"
+      }
+    ],
+    "methodOnlyFrozenInputs": [
+      "Salted bath water1 unlisted; genuine unmeasured bath water/salt added separately, discarded"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Parcook the tofu: Wash the scallions before slicing. Mix the separately measured slurry cornstarch and cold water in a small bowl and set aside. Bring enough tofu-bath water to cover the cubes to a gentle boil and season it with the bath salt allowance to taste. Slide in all the tofu and simmer 2–3 minutes, then lift and drain gently; discard this bath water."
+    },
+    {
+      "step": 2,
+      "text": "Cook the pork: Heat all the neutral oil in a wok or large skillet over medium-high heat. Add all ground pork and break into small crumbles, beginning checks around 3–4 minutes. Retain all rendered fat. Brown color is a cooking cue, not proof of 160°F; continue cooking the pork with the sauce."
+    },
+    {
+      "step": 3,
+      "text": "Fry the bean paste: Push pork aside and add all doubanjiang and rinsed, chopped fermented black beans to the existing oil and fat. Stir 1–2 minutes until fragrant and the oil takes on red color, reducing heat before the paste scorches."
+    },
+    {
+      "step": 4,
+      "text": "Build the sauce: Stir in all garlic, ginger and scallion whites about 30 seconds, then add all measured broth, soy sauce and sugar and bring to a simmer."
+    },
+    {
+      "step": 5,
+      "text": "Warm the tofu: Gently slide in all drained tofu. Spoon sauce over the cubes or nudge with the back of a ladle rather than stirring hard. Simmer about 5 minutes; check representative pork-containing sauce areas for at least 160°F before tasting or finishing. Use enough vessels for the complete scaled formula, divided proportionally, without crowding the cubes."
+    },
+    {
+      "step": 6,
+      "text": "Thicken: Re-stir the entire separate slurry and drizzle it in two additions, gently swirling between them. Let the sauce simmer after each addition until thickening is visible; use the full listed mixture for this route and cook until the sauce clings without raw-starch taste."
+    },
+    {
+      "step": 7,
+      "text": "Finish: Add all measured sesame oil and chili oil, then all the toasted, ground Sichuan peppercorns and scallion greens. Fold gently and serve promptly over separately prepared white rice."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Medium-firm tofu",
+      "alternative": "Soft or silken tofu",
+      "effect": "Mapo tofu can use softer tofu; lift with a wide spoon and avoid vigorous stirring. Texture and breakage differ. Keep the same full broth, pork, fat and seasoning amounts."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "steamed-white-rice",
+      "smashed-cucumber-salad",
+      "chinese-eggplant-with-garlic-sauce"
+    ],
+    "scope": "Prepared side pairings; no listed main ingredient substitution or automatic combined quantity. Linked meal/component gains no review credit.",
+    "mapoMeal": "Mapo Tofu Night allows soft/silken versus this medium-firm main and reverses pork/paste order; its numeric clock omits rice heat/steam/rest and bath heat-up. Whole meal remains pending."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4",
+    "sourceMeasureScope": "Written planning count; no measured edible output, absorbed-oil estimate or pan-load certification",
+    "timing": "Plan about 35–45 minutes including 15 minutes preparation, water heat-up,2–3-minute bath and roughly 15–25 minutes sauce cooking/finishing. Scale with enough roomy vessels; rice and the linked bok choy are separate. The former 15-minute cook excludes bath heat-up and final thickening.",
+    "before": [
+      "Have the slurry mixed before cooking; its cold water is separate from the discarded tofu bath.",
+      "Medium-firm tofu is this written formula, not a universal Mapo requirement. Keep raw-pork utensils away from the uncooked scallion garnish."
+    ],
+    "formulaReview": "Fixed14oz tofu block,6oz raw pork,2tbsp oil plus retained pork fat,¾cup broth and1tbsp starch/2tbsp slurry water. Source is Git-only; no ratio borrowed from the different Woks recipe."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "1 1/2 oz Ground Pork",
+        "1/2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1/4 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1/4 tbsp Sichuan Peppercorns, toasted and ground",
+        "1 clove Garlic, minced",
+        "1/4 tbsp Fresh Ginger, minced",
+        "1/2 Green Onion, white and green parts separated, thinly sliced",
+        "1/2 tbsp Neutral Oil",
+        "1/4 tbsp Soy Sauce",
+        "1/4 tsp Sugar",
+        "0.19 cup Low-Sodium Chicken Broth",
+        "1/4 tbsp cornstarch, mixed with the separately measured slurry water",
+        "1/2 tbsp water, for the cornstarch slurry",
+        "1/4 tsp Toasted Sesame Oil",
+        "1/4 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 1",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "3 oz Ground Pork",
+        "1 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1/2 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1/2 tbsp Sichuan Peppercorns, toasted and ground",
+        "2 cloves Garlic, minced",
+        "1/2 tbsp Fresh Ginger, minced",
+        "1 Green Onion, white and green parts separated, thinly sliced",
+        "1 tbsp Neutral Oil",
+        "1/2 tbsp Soy Sauce",
+        "1/2 tsp Sugar",
+        "3/8 cup Low-Sodium Chicken Broth",
+        "1/2 tbsp cornstarch, mixed with the separately measured slurry water",
+        "1 tbsp water, for the cornstarch slurry",
+        "1/2 tsp Toasted Sesame Oil",
+        "1/2 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 2",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "6 oz Ground Pork",
+        "2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1 tbsp Sichuan Peppercorns, toasted and ground",
+        "4 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, minced",
+        "2 Green Onions, white and green parts separated, thinly sliced",
+        "2 tbsp Neutral Oil",
+        "1 tbsp Soy Sauce",
+        "1 tsp Sugar",
+        "3/4 cup Low-Sodium Chicken Broth",
+        "1 tbsp cornstarch, mixed with the separately measured slurry water",
+        "2 tbsp water, for the cornstarch slurry",
+        "1 tsp Toasted Sesame Oil",
+        "1 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "9 oz Ground Pork",
+        "3 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1 1/2 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1 1/2 tbsp Sichuan Peppercorns, toasted and ground",
+        "6 cloves Garlic, minced",
+        "1 1/2 tbsp Fresh Ginger, minced",
+        "3 Green Onions, white and green parts separated, thinly sliced",
+        "3 tbsp Neutral Oil",
+        "1 1/2 tbsp Soy Sauce",
+        "1 1/2 tsp Sugar",
+        "1 1/8 cups Low-Sodium Chicken Broth",
+        "1 1/2 tbsp cornstarch, mixed with the separately measured slurry water",
+        "3 tbsp water, for the cornstarch slurry",
+        "1 1/2 tsp Toasted Sesame Oil",
+        "1 1/2 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 6",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "12 oz Ground Pork",
+        "4 tbsp Doubanjiang (Pixian chili bean paste)",
+        "2 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "2 tbsp Sichuan Peppercorns, toasted and ground",
+        "8 cloves Garlic, minced",
+        "2 tbsp Fresh Ginger, minced",
+        "4 Green Onions, white and green parts separated, thinly sliced",
+        "4 tbsp Neutral Oil",
+        "2 tbsp Soy Sauce",
+        "2 tsp Sugar",
+        "1 1/2 cups Low-Sodium Chicken Broth",
+        "2 tbsp cornstarch, mixed with the separately measured slurry water",
+        "4 tbsp water, for the cornstarch slurry",
+        "2 tsp Toasted Sesame Oil",
+        "2 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 8",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "18 oz Ground Pork",
+        "6 tbsp Doubanjiang (Pixian chili bean paste)",
+        "3 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "3 tbsp Sichuan Peppercorns, toasted and ground",
+        "12 cloves Garlic, minced",
+        "3 tbsp Fresh Ginger, minced",
+        "6 Green Onions, white and green parts separated, thinly sliced",
+        "6 tbsp Neutral Oil",
+        "3 tbsp Soy Sauce",
+        "3 tsp Sugar",
+        "2 1/4 cups Low-Sodium Chicken Broth",
+        "3 tbsp cornstarch, mixed with the separately measured slurry water",
+        "6 tbsp water, for the cornstarch slurry",
+        "3 tsp Toasted Sesame Oil",
+        "3 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 12",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes",
+        "6 oz Ground Pork",
+        "2 tbsp Doubanjiang (Pixian chili bean paste)",
+        "1 tbsp Fermented Black Beans, rinsed and roughly chopped",
+        "1 tbsp Sichuan Peppercorns, toasted and ground",
+        "4 cloves Garlic, minced",
+        "1 tbsp Fresh Ginger, minced",
+        "2 Green Onions, white and green parts separated, thinly sliced",
+        "2 tbsp Neutral Oil",
+        "1 tbsp Soy Sauce",
+        "1 tsp Sugar",
+        "3/4 cup Low-Sodium Chicken Broth",
+        "1 tbsp cornstarch, mixed with the separately measured slurry water",
+        "2 tbsp water, for the cornstarch slurry",
+        "1 tsp Toasted Sesame Oil",
+        "1 tsp Chili Oil, for drizzling",
+        "Water, enough for the tofu bath; drained and discarded",
+        "Salt, to taste, for the tofu bath; drained and discarded"
+      ],
+      "yield": "Serves 4",
+      "methodsReference": "Final source method remains static; listed amounts govern, original-size pieces and pan batches do not multiply temperature or promise linear time."
+    }
+  ],
+  "preservedPriorRepairs": ["264053fc separate measured slurry water retained"],
+  "remainingQuestions": [
+    "Actual paste salt strength, tofu product and toasted-pepper intensity vary. Full1tbsp pepper stays; no generic reduction imposed.",
+    "Mapo Tofu Night offers soft/silken tofu and reverses pork/paste order versus this component; meal whole-review status remains pending.",
+    "Actual bath salt concentration is unmeasured; no teaspoons or density conversion invented."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/tofu-seafood-eleven-review.md",
+  "rootDisposition": "Root accepts these eleven complete written versions. Full defining ingredients, richness, cultural context, source/current variants and all earlier safety/allocation repairs remain. Exact originals and identities stay private. Yield and timing are plans, optional missing-evidence questions and linked meals remain unapproved, and no kitchen testing occurred.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 79,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12181,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 67,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print buttons enabled and shared print styles preserved; actual print preview not exercised.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
