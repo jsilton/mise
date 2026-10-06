@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 288,
-    "completeEditorialPending": 355,
+    "recordedCompleteEditorial": 293,
+    "completeEditorialPending": 350,
     "originalBaseline": 612,
-    "originalReviewed": 273,
+    "originalReviewed": 278,
     "consideredConsolidations": 10,
-    "originalPending": 329,
+    "originalPending": 324,
     "additionalSources": 41,
     "additionalReviewed": 15,
     "additionalPending": 26,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 288,
+      "editoriallyReviewed": 293,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 663
+      "reviewItems": 653
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. The latest six grain and vegetable versions are implemented at 92a85aba and verified at exact remote release 0f61abae, successful Pages run 37391061846 and all affected live pages. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. Five pork versions are accepted locally after two independent challenges and whole root inspection; integrated validation, implementation and exact production verification remain pending. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1084,18 +1084,7 @@
       "baseline": "original canonical",
       "source": "Adapted from halfbakedharvest.com",
       "sourceUrl": "https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1103,12 +1092,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/balsamic-peach-pork.md",
+        "acceptedSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and root inspection; implementation pending",
+        "record": "docs/reviews/balsamic-peach-pork.json",
+        "sourceSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -1117,11 +1112,11 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+        "Confirm pan area/broiler rating and actual glaze reduction with household balsamic."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -5674,18 +5669,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5693,19 +5677,26 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chipotle-pork-and-sweet-corn-tamale-bowls.md",
+        "acceptedSha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and root inspection; implementation pending",
+        "record": "docs/reviews/chipotle-pork-and-sweet-corn-tamale-bowls.json",
+        "sourceSha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual polenta grind and frozen-corn package requirements; no product endpoint/time invented.",
+        "Record skillet capacity and actual active/elapsed schedule.",
+        "Clarify preferred source variant versus deliberate current toppings; no old proposal automatically accepted."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12573,18 +12564,7 @@
       "baseline": "original canonical",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12592,19 +12572,27 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/grilled-pork-and-peaches.md",
+        "acceptedSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and root inspection; implementation pending",
+        "record": "docs/reviews/grilled-pork-and-peaches.json",
+        "sourceSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+        "Record grill heating strength and completion times for meat and peaches separately.",
+        "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred.",
+        "Can the actual pan rapidly boil its pooled aqueous juices without scorching garlic? If not, use the separate clean fruit pan."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -13213,18 +13201,7 @@
       "baseline": "original canonical",
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -13232,12 +13209,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/herb-marinated-pork-tenderloins.md",
+        "acceptedSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and root inspection; implementation pending",
+        "record": "docs/reviews/herb-marinated-pork-tenderloins.json",
+        "sourceSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -13246,11 +13229,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+        "Record kosher-salt crystal brand without guessed gram conversion.",
+        "Confirm skillet loads and sear/roast elapsed time."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -21637,18 +21621,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -21656,19 +21629,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/rosemary-pork-tenderloin.md",
+        "acceptedSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally after whole independent challenge and root inspection; implementation pending",
+        "record": "docs/reviews/rosemary-pork-tenderloin.json",
+        "sourceSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify accepted whole editorial version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+        "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on.",
+        "Verify actual maple-bacon package state/instructions and its separate completion when the tenderloin first reaches145°F; no invented bacon endpoint."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

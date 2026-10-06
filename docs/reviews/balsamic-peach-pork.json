@@ -1,0 +1,1197 @@
+{
+  "slug": "balsamic-peach-pork",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "acceptance": "Root accepted exact v2 source after both independent challenges and complete final inspection.",
+  "physicalCooking": false,
+  "inputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
+  "inputSha256": "22532690897bf7e270f728ed105127e577af59133752f6bd7db780091bc6e6d9",
+  "proposedSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc",
+  "sourceProvenance": {
+    "firstCanonicalCommit": "b8b63c122343a69ede97b046e678cab3e44723df",
+    "exactVerifiedGitIntroduction": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactIntroductionPath": "src/content/recipes/balsamic-peach-pork-chops-with-feta-and-basil.md",
+    "introductionEvidence": "privately retained evidence",
+    "completeFollowHistory": "privately retained evidence",
+    "originalNative": "privately retained evidence",
+    "bindingEvidence": "privately retained evidence",
+    "scope": "All five exact private identity matches in durable original archive; no title matching or website-as-native-test claim"
+  },
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10–15 min preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20–35 min stove and broiler cooking, plus 5 min rest"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 35–55 min prep/cooking/rest subtotal, plus any remaining broiler heating or extra pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 Bone-in Pork Chops (1-inch thick)",
+        "2 Fresh Peaches, sliced",
+        "6 oz Feta Cheese, crumbled",
+        "1/2 cup Balsamic Vinegar",
+        "1 tbsp Honey",
+        "1 tbsp Fresh Thyme",
+        "1/2 cup Fresh Basil, torn",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Balsamic–honey sauce ---",
+        "1/2 cup Balsamic vinegar",
+        "1 tbsp Honey",
+        "1 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "4 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "2 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "2 Fresh peaches, washed, pitted and sliced",
+        "1/4 cup Water, optional",
+        "--- Feta and herbs ---",
+        "6 oz Feta cheese, crumbled",
+        "1/2 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Mediterranean",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 200,
+        "protein": 8,
+        "carbs": 20,
+        "fat": 9,
+        "fiber": 1.5,
+        "sugar": 15,
+        "sodium": 500
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "glaze",
+            "name": "Balsamic–honey sauce",
+            "ingredients": [
+              {
+                "id": "balsamic",
+                "key": "balsamic",
+                "name": "Balsamic vinegar",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "Honey",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "Fresh thyme leaves",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Chops and peaches",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Bone-in pork chop",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ],
+                "plural": "Bone-in pork chops",
+                "preparation": "about 1 inch thick; keep thickness similar when scaling"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Extra-virgin olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "allowance": "to taste for chops",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Black pepper",
+                "allowance": "to taste for chops",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "peaches",
+                "key": "peaches",
+                "name": "Fresh peach",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "peaches",
+                    "share": 1
+                  }
+                ],
+                "plural": "Fresh peaches",
+                "preparation": "washed, pitted and sliced"
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Water",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "loosen",
+                    "share": 1
+                  }
+                ],
+                "optional": true,
+                "role": "cooking-water"
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Feta and herbs",
+            "ingredients": [
+              {
+                "id": "feta",
+                "key": "feta",
+                "name": "Feta cheese",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "crumbled"
+              },
+              {
+                "id": "basil",
+                "key": "basil",
+                "name": "Fresh basil",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "torn"
+              },
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "Crushed red pepper flakes",
+                "allowance": "to taste at serving",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "mix",
+            "title": "Heat broiler and mix sauce",
+            "text": "Preheat the broiler to high using the oven’s instructions. Whisk {{ingredients}} in a small clean bowl and keep separate from raw-pork utensils."
+          },
+          {
+            "id": "sear",
+            "title": "Sear and gently finish chops",
+            "text": "Have {{ingredients}} ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook."
+          },
+          {
+            "id": "peaches",
+            "title": "Add sauce and peaches",
+            "text": "When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange {{ingredients}} over and around the chops."
+          },
+          {
+            "id": "loosen",
+            "title": "Keep sauce from reducing too far",
+            "text": "Keep {{ingredients}} ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening."
+          },
+          {
+            "id": "broil",
+            "title": "Broil and verify centers",
+            "text": "Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze."
+          },
+          {
+            "id": "finish",
+            "title": "Add feta and rest",
+            "text": "Top with {{ingredients}}. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce."
+          }
+        ]
+      }
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["broiler-safe-skillet", "instant-read-thermometer"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Finish pork without scorching its sweet glaze",
+        "outcome": "Pork chops at their measured endpoint with saucy balsamic–honey glaze, lightly charred peaches, feta and basil",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "For the original four-chop batch, keep 1-inch bone-in chops and full sauce/fruit/cheese amounts as the main planning batch. The two-chop version is a separate option with the same sauce, fruit and cheese, not a reason to silently halve them.",
+          "Use a skillet and handles rated for the broiler, with enough room for a single layer. Four chops may require additional pan space or searing batches; divide the whole measured oil and sauce across the chosen pans.",
+          "Choose thyme or the oregano alternative before mixing. Keep the sweet sauce out of prolonged high heat; use the listed optional water only when it is needed to keep the glaze saucy."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Sauce remains glossy and saucy rather than blackened or solidly reduced.",
+            "why": "Balsamic thickness and burner/broiler strength vary; sweet coating cannot safely supply an unlimited finishing clock."
+          },
+          {
+            "step": 5,
+            "cue": "Every thickest center away from bone measures 145°F before removal.",
+            "why": "Golden faces and charred peaches do not establish pork doneness; preserve the existing 5-minute rest."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The outside darkens before the center is ready",
+            "cause": "Heat is too intense, the piece is thick or the pan is crowded",
+            "fix": "Lower or move away from intense heat and finish the center gently, checking temperature. Give larger batches more pan area. Burnt balsamic–honey glaze cannot be repaired by insisting on the stated timer."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Thyme",
+            "alternative": "The same listed amount of chopped fresh oregano leaves",
+            "effect": "The herb alternative replaces thyme rather than adding another herb dose."
+          },
+          {
+            "ingredient": "Four-chop main batch",
+            "alternative": "For the original batch quantities, use two bone-in chops with the same listed peaches, balsamic, honey, herbs,2 tbsp oil,6 oz feta and ½ cup basil.",
+            "effect": "This is the two-chop version with more sauce and cheese per chop, not an asserted equal serving size. The same 145°F/5 minute-rest and sauce checks apply; scale the chosen variant together."
+          },
+          {
+            "ingredient": "Late sauce finish",
+            "alternative": "The existing earlier-glaze sequence: after searing, reduce to medium and add the mixed sauce before the peaches; begin checking its consistency after about 3 minutes, then add peaches and broil.",
+            "effect": "All ingredient totals stay the same. Maintain a saucy consistency using the same optional water and check pork temperature; if centers need a long finish, lower the heat and finish gently rather than treating three minutes of reduction or 4–5 minutes broiling as proof of doneness."
+          }
+        ],
+        "timing": "About 10–15 minutes preparation, 20–35 minutes stove/broiler cooking and 5 minutes resting gives a 35–55 minute planning subtotal. Heat the broiler before use according to its instructions; any heating still needed beyond preparation or additional pan loads extends elapsed time. Mixing the sauce can overlap heating. Chop thickness, center temperature, peach readiness and sauce consistency govern the finish.",
+        "storage": "Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C throughout. For leftover balsamic pan sauce, USDA additionally recommends bringing sauces to a rolling boil. Stir while heating and keep that boil brief; prolonged boiling can concentrate the glaze and soften the peaches. Keep raw-pork preparation tools separate from cooked meat, fruit and toppings; refrigerate raw waiting meat.",
+        "sources": [
+          {
+            "title": "Half Baked Harvest — Balsamic Peach Pork Chops",
+            "url": "https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/"
+          },
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBalsamic and peaches is an Italian pairing - sweet fruit cutting through savory pork, with the vinegar providing acidity that bridges the two. Cook these pork chops to at least 145°F in the thickest part, away from the bone, then rest for 5 minutes before serving. Watch the balsamic-honey glaze closely so it thickens without burning.\n\n## Directions\n\n1.  **Sear:** Heat oil in a large cast-iron skillet over high heat. Season pork with salt and pepper. Sear for 3-4 minutes per side until golden.\n2.  **The Glaze:** Reduce heat to medium. Pour in the balsamic vinegar, honey, and thyme. Simmer for 3 minutes until the liquid is thick and syrupy.\n3.  **Peaches:** Place peach slices on top of and around the pork chops.\n4.  **Broil:** Transfer the skillet to the oven (under the broiler). Broil for 4-5 minutes until the peaches are charred at the edges and the pork hits 145°F.\n5.  **Finish:** Remove from oven. Sprinkle with feta, fresh basil, and chili flakes. Let rest for 5 minutes.\n",
+    "after": "\n## Chef's Note\n\nKeep the full balsamic–honey sauce, feta and basil with these peach-topped pork chops. Give the chops a gentle stove finish before the brief broiler stage instead of trying to finish a cold center while a thick glaze scorches. Watch the peaches and sauce closely. Cook the pork chops to at least 145°F before removal, checking every thickest center away from the bone, then rest for 5 minutes before serving.\n\n## Directions\n\n1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.\n"
+  },
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "4 Bone-in Pork Chops (1-inch thick)",
+        "destinationAndReview": "Sear, stove/broiler finish, measured center away from bone, rest"
+      },
+      {
+        "row": 2,
+        "ingredient": "2 Fresh Peaches, sliced",
+        "destinationAndReview": "Sliced fruit around pork before broiler"
+      },
+      {
+        "row": 3,
+        "ingredient": "6 oz Feta Cheese, crumbled",
+        "destinationAndReview": "Finish before serving"
+      },
+      {
+        "row": 4,
+        "ingredient": "1/2 cup Balsamic Vinegar",
+        "destinationAndReview": "Glaze"
+      },
+      {
+        "row": 5,
+        "ingredient": "1 tbsp Honey",
+        "destinationAndReview": "Glaze"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 tbsp Fresh Thyme",
+        "destinationAndReview": "Glaze"
+      },
+      {
+        "row": 7,
+        "ingredient": "1/2 cup Fresh Basil, torn",
+        "destinationAndReview": "Finish"
+      },
+      {
+        "row": 8,
+        "ingredient": "Salt and Black Pepper",
+        "destinationAndReview": "Season pork before searing"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Balsamic vinegar",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Honey",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh thyme leaves",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "chopped",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Bone-in pork chop",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "about 1 inch thick; keep thickness similar when scaling",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Extra-virgin olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": null,
+        "allowance": "to taste for chops",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Black pepper",
+        "quantity": null,
+        "allowance": "to taste for chops",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh peach",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed, pitted and sliced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "peaches",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Water",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": true,
+        "destinations": [
+          {
+            "step": "loosen",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Feta cheese",
+        "quantity": {
+          "amount": 6,
+          "unit": "oz"
+        },
+        "allowance": null,
+        "preparation": "crumbled",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh basil",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": "torn",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Crushed red pepper flakes",
+        "quantity": null,
+        "allowance": "to taste at serving",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Thyme",
+        "alternative": "The same listed amount of chopped fresh oregano leaves",
+        "effect": "The herb alternative replaces thyme rather than adding another herb dose."
+      },
+      {
+        "ingredient": "Four-chop main batch",
+        "alternative": "For the original batch quantities, use two bone-in chops with the same listed peaches, balsamic, honey, herbs,2 tbsp oil,6 oz feta and ½ cup basil.",
+        "effect": "This is the two-chop version with more sauce and cheese per chop, not an asserted equal serving size. The same 145°F/5 minute-rest and sauce checks apply; scale the chosen variant together."
+      },
+      {
+        "ingredient": "Late sauce finish",
+        "alternative": "The existing earlier-glaze sequence: after searing, reduce to medium and add the mixed sauce before the peaches; begin checking its consistency after about 3 minutes, then add peaches and broil.",
+        "effect": "All ingredient totals stay the same. Maintain a saucy consistency using the same optional water and check pork temperature; if centers need a long finish, lower the heat and finish gently rather than treating three minutes of reduction or 4–5 minutes broiling as proof of doneness."
+      }
+    ],
+    "frozenUnlistedMethodAllowances": [
+      {
+        "ingredient": "Olive oil",
+        "destination": "Sear; exact source restores 2 tbsp, current method amount unlisted"
+      },
+      {
+        "ingredient": "Red pepper flakes",
+        "destination": "Finish; genuine allowance, no invented dose"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "category": "whole formula and variant destinations",
+      "rationale": [
+        "Actual045e5ba2 introduction follows the former balsamic-peach-pork-chops-with-feta-and-basil path.1684c29f changed2→4chops without doubling glaze/fruit/cheese and removed measured2tbsp oil, optional¼cup water, chili allowance and oregano option. Preserve current four-chop main and retain saved complete two-chop variant distinctly; no normalization to current publisher counts.",
+        "Restore exact source oil/water allowance and missing garnish destination, preserving full6oz feta/½cup basil/½cup balsamic/honey. Source late sauce method reduces scorching risk; retain existing earlier-glaze route separately with measured checks.",
+        "Keep a2c9e280145°F away-from-bone and5-minute rest repair. No return to old135°F/tenderloin prose."
+      ],
+      "sources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "confidence": "High for exact amounts/history; source-restoration choices and household preferences require independent/root disposition",
+      "questions": [
+        "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+        "Confirm pan area/broiler rating and actual glaze reduction with household balsamic.",
+        "Independent challenge of source-supported2tbsp oil and optional¼cup water restoration."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "whole method and applicable safety",
+      "rationale": "Trace all ingredient states/destinations, preserve rich amounts and prior endpoint repairs, separate whole-cut145°F/rest from ground-pork160°F, qualify clocks/capacity and product instructions.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "applicability": "Whole pork-cut145°F before removal followed by at least3minutes rest; the written5/10minute rest remains; FoodSafety.gov temperature guidance also supports165°F leftover reheating. FoodSafety.gov handling guidance supports prompt shallow cooling and raw/cooked separation; the cold-storage chart/USDA leftovers guidance supports3–4days at refrigerator temperature. Raw/cooked separation and refrigerated waiting apply to the listed pork route, not to unrelated ground-meat or corn stages. Formula amounts, allocations and original check windows come from this recipe’s verified native/first/current/followed Git evidence. Pan-load and heat-up arithmetic are editorial planning inferences, not FDA/USDA proof of completion time, culinary mechanism or tested capacity.",
+      "confidence": "High for applicable endpoints and arithmetic; moderate for untested planning times",
+      "questions": [
+        "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+        "Confirm pan area/broiler rating and actual glaze reduction with household balsamic.",
+        "Independent challenge of source-supported2tbsp oil and optional¼cup water restoration."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "unverified nutrition",
+      "rationale": "Legacy automated estimates lack demonstrated ingredient-weight/yield evidence; no replacement precision manufactured.",
+      "sources": ["Full ingredient/variant ledger"],
+      "confidence": "High",
+      "questions": [],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "Authorized v2 source/record precision",
+      "rationale": [
+        "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "Uniformly reheated leftovers at 165°F remains supported; the current field is not rendered inaccurate by USDA’s additional sauce recommendation. Balsamic and Chipotle have identifiable liquid sauces, so the recommendation can be added narrowly for those stored sauces. Stirring/brief-versus-prolonged heat advice is an editorial texture/concentration judgement, not a USDA-tested duration. No instruction is added to the initial cook, plain tenderloin, polenta, toppings or fresh fruit; no dilution or fat reduction is proposed. This also removes nonexistent marinating-stage prose in these two recipes."
+      ],
+      "sources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original independent recommendations before author application"
+        },
+        {
+          "title": "USDA FSIS — Leftovers and Food Safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "applicability": [
+        "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "Stored leftover sauces only; distinct from FDA raw-contact liquid reuse and from whole-cut first-cook 145°F/rest or ground-pork 160°F. No zero-risk claim."
+      ],
+      "confidence": "High for exact field/passage fidelity and primary leftover guidance; moderate aqueous-juice inference; no household pan validation.",
+      "questions": [
+        "If root adopts the additional sauce recommendation, confirm that the actual pan and serving portion heat evenly without a prolonged reduction; no timed boil is established."
+      ],
+      "exactBeforeAfterReferences": "version2CorrectionApplication.changes and exactChangedFields/exactBodyChange"
+    }
+  ],
+  "sourceDisagreements": [
+    "Actual045e5ba2 introduction follows the former balsamic-peach-pork-chops-with-feta-and-basil path.1684c29f changed2→4chops without doubling glaze/fruit/cheese and removed measured2tbsp oil, optional¼cup water, chili allowance and oregano option. Preserve current four-chop main and retain saved complete two-chop variant distinctly; no normalization to current publisher counts.",
+    "Restore exact source oil/water allowance and missing garnish destination, preserving full6oz feta/½cup basil/½cup balsamic/honey. Source late sauce method reduces scorching risk; retain existing earlier-glaze route separately with measured checks.",
+    "Keep a2c9e280145°F away-from-bone and5-minute rest repair. No return to old135°F/tenderloin prose."
+  ],
+  "acceptedPriorRepairsPreserved": [
+    "a2c9e280 measured145°F before removal and existing longer rest"
+  ],
+  "ratiosYieldCapacity": {
+    "yield": "4 portions",
+    "scope": "Retained repository/source planning yield, not weighed output or kitchen certification",
+    "capacity": [
+      "For the original four-chop batch, keep 1-inch bone-in chops and full sauce/fruit/cheese amounts as the main planning batch. The two-chop version is a separate option with the same sauce, fruit and cheese, not a reason to silently halve them.",
+      "Use a skillet and handles rated for the broiler, with enough room for a single layer. Four chops may require additional pan space or searing batches; divide the whole measured oil and sauce across the chosen pans.",
+      "Choose thyme or the oregano alternative before mixing. Keep the sweet sauce out of prolonged high heat; use the listed optional water only when it is needed to keep the glaze saucy."
+    ],
+    "timing": "About 10–15 minutes preparation, 20–35 minutes stove/broiler cooking and 5 minutes resting gives a 35–55 minute planning subtotal. Heat the broiler before use according to its instructions; any heating still needed beyond preparation or additional pan loads extends elapsed time. Mixing the sauce can overlap heating. Chop thickness, center temperature, peach readiness and sauce consistency govern the finish.",
+    "scaling": "Authored formula and all three compiled views stay together; comparable piece geometry/product states, additional pan area/batches and measured endpoints govern"
+  },
+  "relationships": {
+    "pairsWith": ["greek-village-salad", "garlicky-lemon-kale-with-carrots", "lemon-herb-couscous"],
+    "wholeLinkedMealReview": null,
+    "scope": "Pairings remain separate recipes; no automatic whole meal or dependency complete-review status",
+    "rootAssessment": "Pork Tenderloin Dinner was inspected whole against the tenderloin and side recipes. Its oven schedule, marinade/rest omissions and portion mismatch remain separate unresolved work. Carnitas Bowl was read whole and remains in a separate author batch. Pairings retain existing references and receive no review credit from this batch."
+  },
+  "remainingQuestions": [
+    "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+    "Confirm pan area/broiler rating and actual glaze reduction with household balsamic."
+  ],
+  "kitchenTesting": {
+    "performed": false,
+    "needs": [
+      "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+      "Confirm pan area/broiler rating and actual glaze reduction with household balsamic.",
+      "Independent challenge of source-supported2tbsp oil and optional¼cup water restoration."
+    ]
+  },
+  "chronology": {
+    "authorCheckpoint": "25c04a32f318625c66c0c67e52c67d3a257daf7f8219e16c282e07499ffcd038",
+    "independentAdvice": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "rootAuthorization": "All26findinggroups/48exactfields privately authorized; no final acceptance",
+    "application": "Author applied exact authorized fields and regenerated formula-owned output",
+    "rootFinalWholeRecipeInspection": "pending",
+    "independentSelfAcceptance": false,
+    "physicalCooking": false,
+    "production": "not published",
+    "version2": "coverage_check applied root-authorized bounded second-peer fields; not independent acceptance",
+    "rootIntegration": "pending final complete inspection"
+  },
+  "privacyCheck": {
+    "nativeValuesInPublicCookingProse": false,
+    "nativeArchives": "Private evidence only",
+    "scope": "No native-app import or physical cooking test"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "1/8 cup Balsamic vinegar",
+        "1/4 tbsp Honey",
+        "1/4 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "1 Bone-in pork chop, about 1 inch thick; keep thickness similar when scaling",
+        "1/2 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "1/2 Fresh peach, washed, pitted and sliced",
+        "0.0625 cup Water, optional",
+        "--- Feta and herbs ---",
+        "1 1/2 oz Feta cheese, crumbled",
+        "1/8 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.",
+      "shopping": [
+        "1/8 cup Balsamic vinegar",
+        "1/4 tbsp Honey",
+        "1/4 tbsp Fresh thyme leaves",
+        "1 Bone-in pork chop",
+        "1/2 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "1/2 Fresh peach",
+        "1 1/2 oz Feta cheese",
+        "1/8 cup Fresh basil",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "1/4 cup Balsamic vinegar",
+        "1/2 tbsp Honey",
+        "1/2 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "2 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "1 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "1 Fresh peach, washed, pitted and sliced",
+        "1/8 cup Water, optional",
+        "--- Feta and herbs ---",
+        "3 oz Feta cheese, crumbled",
+        "1/4 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.",
+      "shopping": [
+        "1/4 cup Balsamic vinegar",
+        "1/2 tbsp Honey",
+        "1/2 tbsp Fresh thyme leaves",
+        "2 Bone-in pork chops",
+        "1 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "1 Fresh peach",
+        "3 oz Feta cheese",
+        "1/4 cup Fresh basil",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "1/2 cup Balsamic vinegar",
+        "1 tbsp Honey",
+        "1 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "4 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "2 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "2 Fresh peaches, washed, pitted and sliced",
+        "1/4 cup Water, optional",
+        "--- Feta and herbs ---",
+        "6 oz Feta cheese, crumbled",
+        "1/2 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.",
+      "shopping": [
+        "1/2 cup Balsamic vinegar",
+        "1 tbsp Honey",
+        "1 tbsp Fresh thyme leaves",
+        "4 Bone-in pork chops",
+        "2 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "2 Fresh peaches",
+        "6 oz Feta cheese",
+        "1/2 cup Fresh basil",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "3/4 cup Balsamic vinegar",
+        "1 1/2 tbsp Honey",
+        "1 1/2 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "6 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "3 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "3 Fresh peaches, washed, pitted and sliced",
+        "3/8 cup Water, optional",
+        "--- Feta and herbs ---",
+        "9 oz Feta cheese, crumbled",
+        "3/4 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.",
+      "shopping": [
+        "3/4 cup Balsamic vinegar",
+        "1 1/2 tbsp Honey",
+        "1 1/2 tbsp Fresh thyme leaves",
+        "6 Bone-in pork chops",
+        "3 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "3 Fresh peaches",
+        "9 oz Feta cheese",
+        "3/4 cup Fresh basil",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "1 cup Balsamic vinegar",
+        "2 tbsp Honey",
+        "2 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "8 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "4 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "4 Fresh peaches, washed, pitted and sliced",
+        "1/2 cup Water, optional",
+        "--- Feta and herbs ---",
+        "12 oz Feta cheese, crumbled",
+        "1 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.",
+      "shopping": [
+        "1 cup Balsamic vinegar",
+        "2 tbsp Honey",
+        "2 tbsp Fresh thyme leaves",
+        "8 Bone-in pork chops",
+        "4 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "4 Fresh peaches",
+        "12 oz Feta cheese",
+        "1 cup Fresh basil",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "1 1/2 cups Balsamic vinegar",
+        "3 tbsp Honey",
+        "3 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "12 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "6 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "6 Fresh peaches, washed, pitted and sliced",
+        "3/4 cup Water, optional",
+        "--- Feta and herbs ---",
+        "18 oz Feta cheese, crumbled",
+        "1 1/2 cups Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Heat broiler and mix sauce:** Preheat the broiler to high using the oven’s instructions. Whisk Balsamic vinegar, Honey, and Fresh thyme leaves in a small clean bowl and keep separate from raw-pork utensils.\n2. **Sear and gently finish chops:** Have Bone-in pork chops, Extra-virgin olive oil, Salt, and Black pepper ready. Season the chops with the listed salt and pepper allowances. Heat the measured oil in a broiler-safe skillet over medium-high heat until shimmering. Sear the chops about 3–4 minutes per side until golden, using more pan space or batches if crowded. Reduce to medium and continue gently cooking, beginning checks during the next 8–10 minutes. Check each thickest center away from the bone; allow longer as needed rather than adding a thick sweet glaze while the centers still require a long cook.\n3. **Add sauce and peaches:** When the chops are close to their 145°F endpoint and need only a short finish, pour the prepared sauce over them and simmer gently about 2 minutes, watching its consistency. Remove the pan from the burner and arrange Fresh peaches over and around the chops.\n4. **Keep sauce from reducing too far:** Keep Water (if using) ready as an optional whole-batch amount. Add only if the sauce is becoming too thick to remain saucy. If using multiple pans, divide the selected whole amount rather than adding it anew to each pan. Watch again during broiling; reduce exposure or remove the pan promptly if the glaze is blackening.\n5. **Broil and verify centers:** Transfer the broiler-safe pan under the broiler and begin checking after a couple of minutes, using approximately 4–5 minutes only as a check window. Peaches should be lightly charred at the edges and every chop must reach at least 145°F /63°C in its thickest center, away from bone, before removal. If a chop is ready before the fruit, move it with clean utensils to a clean resting plate and finish the fruit separately; if fruit is ready before a chop, move the whole pan to gentle stove heat and finish the chop with the fruit and sauce still in the pan, watching the sauce instead of continuing to burn the glaze.\n6. **Add feta and rest:** Top with Feta cheese, Fresh basil, and Crushed red pepper flakes. Rest every ready chop for 5 minutes after reaching 145°F, at least the minimum 3 minutes, then serve with peaches and all the pan sauce.",
+      "shopping": [
+        "1 1/2 cups Balsamic vinegar",
+        "3 tbsp Honey",
+        "3 tbsp Fresh thyme leaves",
+        "12 Bone-in pork chops",
+        "6 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "6 Fresh peaches",
+        "18 oz Feta cheese",
+        "1 1/2 cups Fresh basil",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Balsamic–honey sauce ---",
+        "1/2 cup Balsamic vinegar",
+        "1 tbsp Honey",
+        "1 tbsp Fresh thyme leaves, chopped",
+        "--- Chops and peaches ---",
+        "4 Bone-in pork chops, about 1 inch thick; keep thickness similar when scaling",
+        "2 tbsp Extra-virgin olive oil",
+        "Salt, to taste for chops",
+        "Black pepper, to taste for chops",
+        "2 Fresh peaches, washed, pitted and sliced",
+        "1/4 cup Water, optional",
+        "--- Feta and herbs ---",
+        "6 oz Feta cheese, crumbled",
+        "1/2 cup Fresh basil, torn",
+        "Crushed red pepper flakes, to taste at serving"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "checks": {
+    "actualContentSchema": true,
+    "formulaSchema": true,
+    "allThreeGeneratedViews": true,
+    "quarterHalfOriginalOneHalfDoubleTripleReset": true,
+    "focusLint": true,
+    "triageIssues": [],
+    "mainStillFrozen": true,
+    "identityTitleRatingSourcePairsScalingOverridePreserved": true,
+    "actualFirstFollowedGitBytes": true,
+    "physicalCooking": false
+  },
+  "peerCorrectionApplication": {
+    "independentReportSha256": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "findingGroups": [
+      "PORK-01-ORIGIN",
+      "PORK-02-OUTCOME",
+      "PORK-03-2",
+      "PORK-04-2",
+      "PORK-06-BALSAMIC-SCALING",
+      "PORK-10-BALSAMIC-DESTINATION",
+      "PORK-14-2"
+    ],
+    "rootAuthorization": "All PORK01–15 specified corrections; private application only",
+    "selfAcceptance": false
+  },
+  "referenceCheck": {
+    "bodyTargets": [],
+    "allExist": true
+  },
+  "version2CorrectionApplication": {
+    "authorization": "Root authorized PV1-01/02 required and PV1-03/04/05 advisories, PRIVATE NEW v2 only",
+    "changes": [
+      {
+        "findingId": "PV1-02",
+        "slug": "balsamic-peach-pork",
+        "field": "ratiosYieldCapacity.timing",
+        "target": "record",
+        "before": "About 10–15 min preparation; About 20–35 min stove and broiler cooking, plus 5 min rest; About 35–55 min, longer if the chops need separate pan loads. These are untested planning ranges. Preparation overlaps oven/pan heating and some component work; rest and mandatory refrigeration remain part of elapsed time. Scaling changes loads, not individual-cut thickness or clock multiples.",
+        "after": "About 10–15 minutes preparation, 20–35 minutes stove/broiler cooking and 5 minutes resting gives a 35–55 minute planning subtotal. Heat the broiler before use according to its instructions; any heating still needed beyond preparation or additional pan loads extends elapsed time. Mixing the sauce can overlap heating. Chop thickness, center temperature, peach readiness and sauce consistency govern the finish.",
+        "rationale": "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "sources": [
+          {
+            "path": "privately retained evidence",
+            "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+          },
+          {
+            "path": "privately retained evidence",
+            "scope": "Original independent recommendations before author application"
+          }
+        ],
+        "applicability": "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "confidence": "high",
+        "questions": []
+      },
+      {
+        "findingId": "PV1-04",
+        "slug": "balsamic-peach-pork",
+        "field": "learning.storage",
+        "target": "authored recipe",
+        "before": "Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C throughout. Keep raw pork and its marinade utensils separate from cooked meat, fruit and toppings; refrigerate raw waiting meat rather than use room-temperature exposure limits as a marinating method.",
+        "after": "Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C throughout. For leftover balsamic pan sauce, USDA additionally recommends bringing sauces to a rolling boil. Stir while heating and keep that boil brief; prolonged boiling can concentrate the glaze and soften the peaches. Keep raw-pork preparation tools separate from cooked meat, fruit and toppings; refrigerate raw waiting meat.",
+        "rationale": "Uniformly reheated leftovers at 165°F remains supported; the current field is not rendered inaccurate by USDA’s additional sauce recommendation. Balsamic and Chipotle have identifiable liquid sauces, so the recommendation can be added narrowly for those stored sauces. Stirring/brief-versus-prolonged heat advice is an editorial texture/concentration judgement, not a USDA-tested duration. No instruction is added to the initial cook, plain tenderloin, polenta, toppings or fresh fruit; no dilution or fat reduction is proposed. This also removes nonexistent marinating-stage prose in these two recipes.",
+        "sources": [
+          {
+            "title": "USDA FSIS — Leftovers and Food Safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FoodSafety.gov — Safe Minimum Internal Temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          }
+        ],
+        "applicability": "Stored leftover sauces only; distinct from FDA raw-contact liquid reuse and from whole-cut first-cook 145°F/rest or ground-pork 160°F. No zero-risk claim.",
+        "confidence": "high for primary recommendation and supported endpoint; moderate for recipe texture inference",
+        "questions": [
+          "If root adopts the additional sauce recommendation, confirm that the actual pan and serving portion heat evenly without a prolonged reduction; no timed boil is established."
+        ]
+      }
+    ],
+    "oldManifestSha256": "a6aadcbc80f95e0668acd058211ec1ccab55837034b7baedee2c157ea35ec352",
+    "oldSecondPeerSha256": "71383400eb7c94497455ead354ce534d35219747d41179157638affbd82dcb2c",
+    "scope": "New private preparation, not independent/root acceptance or physical cooking."
+  },
+  "acceptedSourceSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc",
+  "rootFinalAcceptance": "accepted after whole independent challenges and complete final root inspection",
+  "rootIntegrationRequirements": [],
+  "integrationInputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pork-five-sources.json",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "rootWholeInspection": "Accept exact v2 candidates after original whole independent challenge, a second independent challenge and complete root source/diff inspection. FDA raw-marinade guidance supports a bounded editorial inference for rapidly boiling pooled aqueous pork-contact juices; it does not validate this exact pan. The clean fruit pan is the primary route and the fallback when the actual pan cannot rapidly boil those juices. Never boil oil or invent added liquid. Source pepper and optional-water restorations have been independently challenged and are accepted with complete distinct smaller-pepper and current early-glaze variants. Bacon must satisfy its actual package preparation separately from the pork center endpoint. Original richness, all allocations, current repairs, authorship and distinct variants remain.",
+  "resolvedIndependentQuestions": [
+    "Independent challenge of source-supported2tbsp oil and optional¼cup water restoration."
+  ],
+  "rootCopyClarification": {
+    "priorAcceptedSourceSha256": "8a01d4e86508c4ea845639379a6b2811ba056cf43dd225fa0acac1a1e508e7c8",
+    "exactFields": [
+      {
+        "field": "content.chefNote",
+        "before": "Watch the peaches and sauce closely, and remove each chop only after its thickest center, away from the bone, measures 145°F. Rest 5 minutes before serving.",
+        "after": "Watch the peaches and sauce closely. Cook the pork chops to at least 145°F before removal, checking every thickest center away from the bone, then rest for 5 minutes before serving."
+      }
+    ],
+    "scope": "Only equivalent safety wording/formatting is clarified to preserve existing literal safety regression checks. All endpoints, rests, formulas, allocations and previous independent dispositions remain. The safety tests are unchanged."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 37,
+    "targetedLint": "Five pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11910,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 sources; only five public recipe schemas changed",
+    "stableBindings": "All 643 current private bindings verified; every existing identity preserved",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 5,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 183,
+    "scaledYieldDisplays": 15,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All five ingredient/step checks persist after reload; normal mode on reload; reset and exit pass",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

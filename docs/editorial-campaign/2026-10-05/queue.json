@@ -180,7 +180,20 @@
       "real-alfredo-sauce",
       "shrimp-fettuccine-alfredo",
       "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce"
-    ]
+    ],
+    "rice_mixed_mains_03": {
+      "slugs": [
+        "chinese-sausage-fried-rice",
+        "spanish-rice-chorizo",
+        "sausage-shrimp-and-quinoa-skillet",
+        "lemon-basil-shrimp-risotto",
+        "oatmeal-risotto",
+        "sticky-peking-meatball-rice-bowls"
+      ],
+      "reviewer": "coverage_check",
+      "inputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
+      "status": "assigned; complete author/independent/root acceptance pending"
+    }
   },
   "recipes": [
     {
@@ -468,17 +481,22 @@
       "source": "Adapted from halfbakedharvest.com",
       "sourceUrl": "https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/",
       "group": "pork_tenderloin_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/balsamic-peach-pork.md",
+        "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+        "Confirm pan area/broiler rating and actual glaze reduction with household balsamic."
       ],
       "inputSha256": "22532690897bf7e270f728ed105127e577af59133752f6bd7db780091bc6e6d9",
       "plannedBatch": "baked-savory-and-breads-01",
       "proposedSourceSha256": "02b4ec5bb17f82fd8ca764f15ed5a9afeb62b2fa1609255af70fa51530add0a1",
-      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
+      "reviewPhase": "Complete independent whole challenges and final root acceptance; implementation and production pending",
+      "acceptedSourceSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc",
+      "productionVerification": "pending"
     },
     {
       "slug": "banana-egg-oat-pancakes",
@@ -579,8 +597,8 @@
       "title": "BBQ Chicken Sliders",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "meat_assembled_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -588,7 +606,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "39225be90e6213bdec1b8e27c1e087d68822502cf1e2c10bd27aa90c6c96ec47",
-      "plannedBatch": "roast-grill-and-sear-01"
+      "plannedBatch": "meat_assembled_mains_03",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "beef-pad-see-ew",
@@ -1206,8 +1225,8 @@
       "title": "Cantonese Steamed Fish",
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/cantonese-steamed-fish/",
-      "group": null,
-      "status": "queued",
+      "group": "fish_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1215,7 +1234,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
-      "plannedBatch": "simmer-boil-and-steam-01"
+      "plannedBatch": "fish_mains_02",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "cantonese-shrimp-and-pork-wontons",
@@ -1296,8 +1316,8 @@
       "title": "Carnitas Bowl",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "meat_assembled_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1305,7 +1325,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7366395204b34c0fe76205cb1cd50bb1259673989d2f3d8d1718f1398f249f11",
-      "plannedBatch": "braises-and-slow-cooking-01"
+      "plannedBatch": "meat_assembled_mains_03",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "cast-iron-buttermilk-biscuits",
@@ -1557,8 +1578,8 @@
       "title": "Chicken Chile Enchiladas",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-chicken-chile-enchiladas-223930",
-      "group": null,
-      "status": "queued",
+      "group": "meat_assembled_mains_03",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1566,7 +1587,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "2d9204f64e95e51a26b8552465e283ab06c1e6ae562e86ba5b327ad0bc421ec8",
-      "plannedBatch": "stir-fry-and-pan-cooking-01"
+      "plannedBatch": "meat_assembled_mains_03",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "chicken-fingers",
@@ -1602,8 +1624,8 @@
       "title": "Chicken Quesadillas with Quick Pico",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "meat_assembled_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1611,7 +1633,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "8f3214eebfc446a223ee1e2d6dbb489b02e97b9ebbd277db6f83697fdae0d105",
-      "plannedBatch": "context-screening-01"
+      "plannedBatch": "meat_assembled_mains_03",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "chicken-tinga",
@@ -1619,8 +1642,8 @@
       "title": "Chicken Tinga",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "meat_assembled_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1628,7 +1651,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "460887e9df01d049b55d042396cb2780cd88c6052acfb277fb87f0932de2eea8",
-      "plannedBatch": "simmer-boil-and-steam-02"
+      "plannedBatch": "meat_assembled_mains_03",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "chicken-tortilla-soup-iii",
@@ -1687,8 +1711,8 @@
       "title": "Chinese Sausage Fried Rice",
       "source": "Adapted from Taste.com.au",
       "sourceUrl": "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
-      "group": null,
-      "status": "queued",
+      "group": "rice_mixed_mains_03",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1696,7 +1720,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "13b89ab85624b2039ee41d881efee3c2b421d197899925dc7fb3cc713c6ba17d",
-      "plannedBatch": "stir-fry-and-pan-cooking-02"
+      "plannedBatch": "stir-fry-and-pan-cooking-02",
+      "reviewPhase": "Whole author review assigned; independent challenge/root acceptance pending"
     },
     {
       "slug": "chinese-steamed-fish",
@@ -1704,8 +1729,8 @@
       "title": "Steamed Fish",
       "source": "Adapted from rasamalaysia.com",
       "sourceUrl": "https://rasamalaysia.com/steamed-fish-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "fish_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1713,7 +1738,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
-      "plannedBatch": "simmer-boil-and-steam-02"
+      "plannedBatch": "fish_mains_02",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "chinese-style-snapper",
@@ -1721,8 +1747,8 @@
       "title": "Chinese-Style Snapper",
       "source": "Adapted from taste.com.au",
       "sourceUrl": "https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3",
-      "group": null,
-      "status": "queued",
+      "group": "fish_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1730,7 +1756,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
-      "plannedBatch": "baked-savory-and-breads-03"
+      "plannedBatch": "fish_mains_02",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
@@ -1739,17 +1766,24 @@
       "source": null,
       "sourceUrl": null,
       "group": "pork_tenderloin_mains_01",
-      "status": "proposed",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/chipotle-pork-and-sweet-corn-tamale-bowls.md",
+        "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual polenta grind and frozen-corn package requirements; no product endpoint/time invented.",
+        "Record skillet capacity and actual active/elapsed schedule.",
+        "Clarify preferred source variant versus deliberate current toppings; no old proposal automatically accepted."
       ],
       "inputSha256": "bc2a23db89cf99dad54f2d696c62d435178b96ea725ee601baefa96cb79c1ca9",
       "plannedBatch": "stir-fry-and-pan-cooking-02",
       "proposedSourceSha256": "a4cf1458d5d0bd58a2b449fdc8e20b11a08ab7f0ba83c2aeab15320723fb0406",
-      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
+      "reviewPhase": "Complete independent whole challenges and final root acceptance; implementation and production pending",
+      "acceptedSourceSha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718",
+      "productionVerification": "pending"
     },
     {
       "slug": "chocolate-blended-oats-with-raspberry-chia-jam",
@@ -3476,8 +3510,8 @@
       "title": "Gefilte Fish Terrine",
       "source": "Adapted from Saveur.com",
       "sourceUrl": "http://www.saveur.com/article/recipes/jewish-gefilte-fish-terrine-recipe",
-      "group": null,
-      "status": "queued",
+      "group": "fish_mains_02",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -3485,7 +3519,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "73c0c04dcc02d78eee02287bc61943425f8054d394ba3fa6655b2af64590ca8e",
-      "plannedBatch": "baked-savory-and-breads-05"
+      "plannedBatch": "fish_mains_02",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "general-tsos-cauliflower",
@@ -3760,17 +3795,24 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches",
       "group": "pork_tenderloin_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/grilled-pork-and-peaches.md",
+        "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+        "Record grill heating strength and completion times for meat and peaches separately.",
+        "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred.",
+        "Can the actual pan rapidly boil its pooled aqueous juices without scorching garlic? If not, use the separate clean fruit pan."
       ],
       "inputSha256": "8eb6424c595694c72c0c05c4a6f26606dd2568d6381635b7eaab306480f6eed9",
       "plannedBatch": "roast-grill-and-sear-02",
       "proposedSourceSha256": "99fd1f7d95f618e474e92c969fffab413074e063c86ebb3d2da4eb679ea27ca1",
-      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
+      "reviewPhase": "Complete independent whole challenges and final root acceptance; implementation and production pending",
+      "acceptedSourceSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81",
+      "productionVerification": "pending"
     },
     {
       "slug": "grilled-pork-banh-mi",
@@ -3970,17 +4012,23 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375",
       "group": "pork_tenderloin_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/herb-marinated-pork-tenderloins.md",
+        "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+        "Record kosher-salt crystal brand without guessed gram conversion.",
+        "Confirm skillet loads and sear/roast elapsed time."
       ],
       "inputSha256": "efecfce0bead82d08c0b98a09435d7a33e5b371ced342af5093278b8d18f33cf",
       "plannedBatch": "baked-savory-and-breads-07",
       "proposedSourceSha256": "3236d7a27996826faffa15744e83dc8677e5c9f4418772b07e14cd71ec46b4e2",
-      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
+      "reviewPhase": "Complete independent whole challenges and final root acceptance; implementation and production pending",
+      "acceptedSourceSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7",
+      "productionVerification": "pending"
     },
     {
       "slug": "herby-chicken-meatball-bowl",
@@ -4487,8 +4535,8 @@
       "title": "Lemon Basil Shrimp Risotto",
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-basil-shrimp-risotto/",
-      "group": null,
-      "status": "queued",
+      "group": "rice_mixed_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4496,7 +4544,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "ace4f27fa27ed22222a86580984bd9489d870ed2539a3297587806d89981df3a",
-      "plannedBatch": "context-screening-03"
+      "plannedBatch": "context-screening-03",
+      "reviewPhase": "Whole author review assigned; independent challenge/root acceptance pending"
     },
     {
       "slug": "lemon-garlic-broccolini",
@@ -5024,8 +5073,8 @@
       "title": "Oatmeal Risotto",
       "source": "Adapted from Richard Blaise",
       "sourceUrl": "https://smile.amazon.com/Try-This-Home-Recipes-Plate-ebook/dp/B009JU6UPQ",
-      "group": null,
-      "status": "queued",
+      "group": "rice_mixed_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5033,7 +5082,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "85d98845f0ace77004a5beaec0c676c0807e2fe8560206065461631aa5debfad",
-      "plannedBatch": "simmer-boil-and-steam-07"
+      "plannedBatch": "simmer-boil-and-steam-07",
+      "reviewPhase": "Whole author review assigned; independent challenge/root acceptance pending"
     },
     {
       "slug": "old-fashioned-soft-pumpkin-cookies",
@@ -6145,17 +6195,23 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514",
       "group": "pork_tenderloin_mains_01",
-      "status": "proposed",
-      "reviewEvidence": [],
-      "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/rosemary-pork-tenderloin.md",
+        "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
+      ],
+      "automatedFlags": [],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+        "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on.",
+        "Verify actual maple-bacon package state/instructions and its separate completion when the tenderloin first reaches145°F; no invented bacon endpoint."
       ],
       "inputSha256": "a6273843c924486a3eb8f308b1acf14c6e3c404b8ea31bf7680138bc348b2355",
       "plannedBatch": "baked-savory-and-breads-09",
       "proposedSourceSha256": "d9b21736bcd6c31977f702c8b996348b1e9c83a87e513ccaf7d392925d2e9d9f",
-      "reviewPhase": "Whole independent challenge corrections privately applied and frozen; complete final root inspection pending."
+      "reviewPhase": "Complete independent whole challenges and final root acceptance; implementation and production pending",
+      "acceptedSourceSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe",
+      "productionVerification": "pending"
     },
     {
       "slug": "royal-icing",
@@ -6269,8 +6325,8 @@
       "title": "Sausage, Shrimp & Quinoa Skillet",
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/sausage-shrimp-quinoa-skillet",
-      "group": null,
-      "status": "queued",
+      "group": "rice_mixed_mains_03",
+      "status": "assigned",
       "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6278,7 +6334,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "329fe5e71f9694399dab1dcaa09c48dd09e0f879f25080c25324ea46ae95b3cc",
-      "plannedBatch": "stir-fry-and-pan-cooking-05"
+      "plannedBatch": "stir-fry-and-pan-cooking-05",
+      "reviewPhase": "Whole author review assigned; independent challenge/root acceptance pending"
     },
     {
       "slug": "sauteed-mushrooms-with-thyme",
@@ -6920,8 +6977,8 @@
       "title": "Smoked Salmon Toast",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "fish_mains_02",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -6929,7 +6986,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
-      "plannedBatch": "cold-preparations-04"
+      "plannedBatch": "fish_mains_02",
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
     },
     {
       "slug": "smoky-spanish-rice-and-chickpeas",
@@ -7115,8 +7173,8 @@
       "title": "Spanish Rice with Chorizo and Chickpeas",
       "source": "Adapted from saveur.com",
       "sourceUrl": "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
-      "group": null,
-      "status": "queued",
+      "group": "rice_mixed_mains_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -7124,7 +7182,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "b89cfc607a9f52a54751490104213ddb2ea6fb800e6f20bb9d9a7aaf2adfef94",
-      "plannedBatch": "stir-fry-and-pan-cooking-06"
+      "plannedBatch": "stir-fry-and-pan-cooking-06",
+      "reviewPhase": "Whole author review assigned; independent challenge/root acceptance pending"
     },
     {
       "slug": "spatchcocked-roast-chicken",
@@ -7286,8 +7345,8 @@
       "title": "Sticky Peking Meatball Rice Bowls",
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "rice_mixed_mains_03",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/sticky-peking-meatball-rice-bowls.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -7295,7 +7354,8 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "23183d64d4af6c2bd824fcdcb84a890e6cb60af83658c827fb634246f964109c",
-      "plannedBatch": "simmer-boil-and-steam-10"
+      "plannedBatch": "simmer-boil-and-steam-10",
+      "reviewPhase": "Whole author review assigned; independent challenge/root acceptance pending"
     },
     {
       "slug": "stovetop-macaroni-and-cheese",
@@ -8869,11 +8929,12 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "assigned": 17,
+    "accepted": 5,
+    "assigned": 33,
     "held": 9,
     "held-awaiting-evidence": 2,
     "production-verified": 54,
-    "proposed": 60,
-    "queued": 267
+    "proposed": 55,
+    "queued": 251
   }
 }

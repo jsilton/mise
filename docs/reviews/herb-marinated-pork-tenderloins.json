@@ -1,0 +1,1195 @@
+{
+  "slug": "herb-marinated-pork-tenderloins",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "acceptance": "Root accepted exact v2 source after both independent challenges and complete final inspection.",
+  "physicalCooking": false,
+  "inputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
+  "inputSha256": "efecfce0bead82d08c0b98a09435d7a33e5b371ced342af5093278b8d18f33cf",
+  "proposedSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7",
+  "sourceProvenance": {
+    "firstCanonicalCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactVerifiedGitIntroduction": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactIntroductionPath": "src/content/recipes/herb-marinated-pork-tenderloins.md",
+    "introductionEvidence": "privately retained evidence",
+    "completeFollowHistory": "privately retained evidence",
+    "originalNative": "privately retained evidence",
+    "bindingEvidence": "privately retained evidence",
+    "scope": "All five exact private identity matches in durable original archive; no title matching or website-as-native-test claim"
+  },
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["large-skillet"],
+      "after": ["oven-safe-skillet", "instant-read-thermometer"]
+    },
+    {
+      "field": "vibe",
+      "before": "quick",
+      "after": "technical"
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 15–20 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20–35 min searing and roasting, plus 10 min rest"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 3 hr 45 min–4 hr 5 min with the minimum 3 hr marinade, plus any remaining oven heating or extra loads; overnight marinating extends elapsed time"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 Pork Tenderloins (about 1 lb each)",
+        "3/4 cup Fresh Lemon Juice",
+        "1 tbsp Lemon Zest",
+        "1/2 cup Extra-Virgin Olive Oil",
+        "2 tbsp Garlic, minced",
+        "1 1/2 tbsp Fresh Rosemary, minced",
+        "1 tbsp Fresh Thyme, chopped",
+        "2 tsp Dijon Mustard (The Finishing Touch)",
+        "Kosher Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Lemon–herb marinade ---",
+        "3/4 cup Fresh lemon juice",
+        "1 tbsp Lemon zest",
+        "1/2 cup Extra-virgin olive oil for marinade",
+        "2 tbsp Garlic, minced",
+        "1 1/2 tbsp Fresh rosemary, minced",
+        "1 tbsp Fresh thyme, chopped",
+        "2 tsp Dijon mustard",
+        "2 tsp Kosher salt for marinade",
+        "3 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "3 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 355,
+        "protein": 4,
+        "carbs": 5,
+        "fat": 37,
+        "fiber": 2,
+        "sugar": 1,
+        "sodium": 100
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "marinade",
+            "name": "Lemon–herb marinade",
+            "ingredients": [
+              {
+                "id": "lemon-juice",
+                "key": "lemon-juice",
+                "name": "Fresh lemon juice",
+                "quantity": {
+                  "amount": 0.75,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "zest",
+                "key": "zest",
+                "name": "Lemon zest",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Extra-virgin olive oil for marinade",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "rosemary",
+                "key": "rosemary",
+                "name": "Fresh rosemary",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "thyme",
+                "key": "thyme",
+                "name": "Fresh thyme",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "chopped"
+              },
+              {
+                "id": "mustard",
+                "key": "mustard",
+                "name": "Dijon mustard",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Kosher salt for marinade",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Pork tenderloin",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "plural": "Pork tenderloins",
+                "preparation": "about 1 lb each in the original batch; keep individual diameter similar when scaling"
+              }
+            ]
+          },
+          {
+            "id": "pan",
+            "name": "Separate searing oil and seasoning",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Extra-virgin olive oil for searing",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Kosher salt for meat seasoning",
+                "allowance": "as needed before searing",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Black pepper",
+                "allowance": "to taste before searing",
+                "uses": [
+                  {
+                    "step": "sear",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "mix",
+            "title": "Mix the coating or marinade",
+            "text": "Mix {{ingredients}} in a clean bowl or raw-meat container before adding the pork."
+          },
+          {
+            "id": "marinate",
+            "title": "Coat and refrigerate",
+            "text": "Add {{ingredients}} to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients."
+          },
+          {
+            "id": "sear",
+            "title": "Discard marinade and sear",
+            "text": "Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have {{ingredients}} ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet."
+          },
+          {
+            "id": "roast",
+            "title": "Roast and check every piece",
+            "text": "Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature."
+          },
+          {
+            "id": "rest",
+            "title": "Rest on a clean platter",
+            "text": "Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel."
+          },
+          {
+            "id": "serve",
+            "title": "Slice and serve",
+            "text": "Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the coating, cold waiting time and each tenderloin’s endpoint distinct",
+        "outcome": "Lemon–herb tenderloins with browned surfaces and each center checked before its 10-minute rest",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "The listed marinade oil and listed searing oil are separate allocations: ½ cup and 3 tbsp respectively in the original batch. The listed measured marinade salt is also separate from the extra meat-seasoning allowance: 2 tsp in the original batch. Scale these measured amounts together with the batch.",
+          "Refrigerate the marinade for at least 3 hours or overnight. Elapsed time includes the refrigerated wait and rest; keep raw pork refrigerated while the oven heats.",
+          "Keep original about 1 lb tenderloins of comparable diameter when scaling. Use more skillet space or sear in batches, then roast with room between pieces; check every thick center."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Raw marinade is discarded, and the listed searing oil remains separate from the listed marinade oil.",
+            "why": "The two oil portions have distinct jobs; marinade oil is not a pan reserve."
+          },
+          {
+            "step": 4,
+            "cue": "Every thickest center measures 145°F before leaving the oven.",
+            "why": "Rest cannot justify removing pork before its written cooking endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The outside darkens before the center is ready",
+            "cause": "Heat is too intense, the piece is thick or the pan is crowded",
+            "fix": "Lower or move away from intense heat and finish the center gently, checking temperature. Give larger batches more pan area. Blackened garlic cannot be repaired by insisting on the stated timer."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Measured tablespoon lemon zest",
+            "alternative": "The grated zest of one lemon for the original batch",
+            "effect": "A lemon’s zest yield varies; one lemon does not always yield a tablespoon. Choose one zest expression, not both; the listed lemon-juice amount remains unchanged."
+          }
+        ],
+        "timing": "Allow about 15–20 minutes active preparation, at least 3 hours refrigerated marinating, roughly 20–35 minutes searing and roasting, and 10 minutes resting: a 3 hour 45 minute–4 hour 5 minute planning subtotal for the minimum marinade. Overnight marinating extends elapsed time. Start heating the oven while waiting pork remains refrigerated and load only once it reaches 400°F; any remaining heating or additional pan loads extends the subtotal. Keep searing and roasting in one continuous cooking session, checking every tenderloin rather than multiplying the clock.",
+        "storage": "Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C throughout. Keep raw pork and its marinade utensils separate from cooked meat, fruit and toppings; refrigerate raw waiting meat rather than use room-temperature exposure limits as a marinating method.",
+        "sources": [
+          {
+            "title": "Ina Garten — Herb-Marinated Pork Tenderloins",
+            "url": "https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375"
+          },
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nMost recipes overcook pork to 160°F, producing dry meat. Sear to develop a crust, then roast until each tenderloin reaches 145°F before removing it from the oven. Rest for 10 minutes before slicing; do not rely on an assumed rise in temperature during the rest. The lemon and Dijon marinade provides acidity that cuts through rich pork fat.\n\n## Directions\n\n1.  **Marinate:** Combine lemon juice, zest, olive oil, garlic, herbs, mustard, and 2 tsp salt in a large sealable bag. Add pork and toss to coat. **Marinate for at least 3 hours** (ideally overnight) to allow the enzymes to tenderize the meat.\n2.  **The Sear:** Preheat oven to 400°F. Remove pork from marinade (discard liquid). Season aggressively with salt and pepper. Heat 3 tbsp oil in a large oven-proof skillet over medium-high. Sear pork on all sides until deep golden brown.\n3.  **Roast:** Transfer the skillet directly to the oven. Roast, beginning to check after 10 minutes, until every tenderloin reaches at least 145°F in its thickest center before removal from the oven.\n4.  **The Finish:** Remove to a platter and cover tightly with foil. **Rest for 10 minutes** - this is mandatory for the juices to redistribute.\n5.  **Serve:** Carve into 1/2-inch thick diagonal slices. Serve warm with the accumulated juices from the platter.\n",
+    "after": "\n## Chef's Note\n\nLemon juice, zest, rosemary and thyme flavor the refrigerated marinade. Its olive oil is separate from the oil used for searing. Discard the raw-contact liquid while leaving the herbs that cling to the pork, then cook each tenderloin to 145°F before removing it from the oven and rest 10 minutes. The marinade’s acidity does not justify an enzyme claim or a lower cooking endpoint.\n\n## Directions\n\n1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.\n"
+  },
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "3 Pork Tenderloins (about 1 lb each)",
+        "destinationAndReview": "Marinates for at least3hours/ideally overnight, then sears, roasts to145°F before removal, rests10minutes and is carved. The frozen method does not explicitly state refrigeration."
+      },
+      {
+        "row": 2,
+        "ingredient": "3/4 cup Fresh Lemon Juice",
+        "destinationAndReview": "Marinade"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 tbsp Lemon Zest",
+        "destinationAndReview": "Measured1tbsp zest enters the marinade. The frozen source does not include a whole-lemon zest option."
+      },
+      {
+        "row": 4,
+        "ingredient": "1/2 cup Extra-Virgin Olive Oil",
+        "destinationAndReview": "Marinade only, not the unlisted searing oil"
+      },
+      {
+        "row": 5,
+        "ingredient": "2 tbsp Garlic, minced",
+        "destinationAndReview": "Minced marinade garlic"
+      },
+      {
+        "row": 6,
+        "ingredient": "1 1/2 tbsp Fresh Rosemary, minced",
+        "destinationAndReview": "Marinade rosemary"
+      },
+      {
+        "row": 7,
+        "ingredient": "1 tbsp Fresh Thyme, chopped",
+        "destinationAndReview": "Marinade thyme"
+      },
+      {
+        "row": 8,
+        "ingredient": "2 tsp Dijon Mustard (The Finishing Touch)",
+        "destinationAndReview": "Marinade Dijon"
+      },
+      {
+        "row": 9,
+        "ingredient": "Kosher Salt and Black Pepper",
+        "destinationAndReview": "Current combined allowance: method explicitly 2 tsp kosher marinade salt, then additional meat seasoning"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Fresh lemon juice",
+        "quantity": {
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Lemon zest",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Extra-virgin olive oil for marinade",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh rosemary",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh thyme",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "chopped",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Dijon mustard",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Kosher salt for marinade",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Pork tenderloin",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Extra-virgin olive oil for searing",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Kosher salt for meat seasoning",
+        "quantity": null,
+        "allowance": "as needed before searing",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Black pepper",
+        "quantity": null,
+        "allowance": "to taste before searing",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sear",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Measured tablespoon lemon zest",
+        "alternative": "The grated zest of one lemon for the original batch",
+        "effect": "A lemon’s zest yield varies; one lemon does not always yield a tablespoon. Choose one zest expression, not both; the listed lemon-juice amount remains unchanged."
+      }
+    ],
+    "frozenUnlistedMethodAllowances": [
+      {
+        "ingredient": "3 tbsp olive oil",
+        "destination": "Searing; exact original/native and current body support separate oil, not subtracted from marinade"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "category": "whole formula and variant destinations",
+      "rationale": [
+        "Native and actual045e5ba2 method explicitly use½cup marinade oil PLUS3tbsp searing oil and2tsp marinade kosher salt; current ingredient row exposes only½cup oil and a combined allowance. Restore method-supported separate rows without reducing marinade richness.",
+        "Current1tbsp zest remains main; original1lemon zest is a distinct choice, not a standardized conversion.",
+        "Keep a2c9e280145°F before-removal and10min-rest repair over source137°F. Add missing refrigerated state, honest3hr/overnight elapsed clock and remove unsupported enzyme-tenderizing claim."
+      ],
+      "sources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "confidence": "High for exact amounts/history; source-restoration choices and household preferences require independent/root disposition",
+      "questions": [
+        "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+        "Record kosher-salt crystal brand without guessed gram conversion.",
+        "Confirm skillet loads and sear/roast elapsed time."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "whole method and applicable safety",
+      "rationale": "Trace all ingredient states/destinations, preserve rich amounts and prior endpoint repairs, separate whole-cut145°F/rest from ground-pork160°F, qualify clocks/capacity and product instructions.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "applicability": "Whole pork-cut145°F before removal followed by at least3minutes rest; the written5/10minute rest remains; FoodSafety.gov temperature guidance also supports165°F leftover reheating. FoodSafety.gov handling guidance supports prompt shallow cooling and raw/cooked separation; the cold-storage chart/USDA leftovers guidance supports3–4days at refrigerator temperature. Raw/cooked separation and refrigerated waiting apply to the listed pork route, not to unrelated ground-meat or corn stages. Formula amounts, allocations and original check windows come from this recipe’s verified native/first/current/followed Git evidence. Pan-load and heat-up arithmetic are editorial planning inferences, not FDA/USDA proof of completion time, culinary mechanism or tested capacity.",
+      "confidence": "High for applicable endpoints and arithmetic; moderate for untested planning times",
+      "questions": [
+        "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+        "Record kosher-salt crystal brand without guessed gram conversion.",
+        "Confirm skillet loads and sear/roast elapsed time."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "unverified nutrition",
+      "rationale": "Legacy automated estimates lack demonstrated ingredient-weight/yield evidence; no replacement precision manufactured.",
+      "sources": ["Full ingredient/variant ledger"],
+      "confidence": "High",
+      "questions": [],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "Timing-related classification",
+      "rationale": "The truthful elapsed range fails the quick classification lint. Technical reflects refrigerated marinade/sear/roast stages; comfort reflects the existing comfort-food bowl context, not a nutrition claim.",
+      "confidence": "High",
+      "questions": [],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "Authorized v2 source/record precision",
+      "rationale": [
+        "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged."
+      ],
+      "sources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original independent recommendations before author application"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original independent recommendations before author application"
+        }
+      ],
+      "applicability": [
+        "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges."
+      ],
+      "confidence": "High for exact field/passage fidelity and primary leftover guidance; moderate aqueous-juice inference; no household pan validation.",
+      "questions": [],
+      "exactBeforeAfterReferences": "version2CorrectionApplication.changes and exactChangedFields/exactBodyChange"
+    }
+  ],
+  "sourceDisagreements": [
+    "Native and actual045e5ba2 method explicitly use½cup marinade oil PLUS3tbsp searing oil and2tsp marinade kosher salt; current ingredient row exposes only½cup oil and a combined allowance. Restore method-supported separate rows without reducing marinade richness.",
+    "Current1tbsp zest remains main; original1lemon zest is a distinct choice, not a standardized conversion.",
+    "Keep a2c9e280145°F before-removal and10min-rest repair over source137°F. Add missing refrigerated state, honest3hr/overnight elapsed clock and remove unsupported enzyme-tenderizing claim."
+  ],
+  "acceptedPriorRepairsPreserved": [
+    "a2c9e280 measured145°F before removal and existing longer rest"
+  ],
+  "ratiosYieldCapacity": {
+    "yield": "6 portions",
+    "scope": "Retained repository/source planning yield, not weighed output or kitchen certification",
+    "capacity": [
+      "The listed marinade oil and listed searing oil are separate allocations: ½ cup and 3 tbsp respectively in the original batch. The listed measured marinade salt is also separate from the extra meat-seasoning allowance: 2 tsp in the original batch. Scale these measured amounts together with the batch.",
+      "Refrigerate the marinade for at least 3 hours or overnight. Elapsed time includes the refrigerated wait and rest; keep raw pork refrigerated while the oven heats.",
+      "Keep original about 1 lb tenderloins of comparable diameter when scaling. Use more skillet space or sear in batches, then roast with room between pieces; check every thick center."
+    ],
+    "timing": "Allow about 15–20 minutes active preparation, at least 3 hours refrigerated marinating, roughly 20–35 minutes searing and roasting, and 10 minutes resting: a 3 hour 45 minute–4 hour 5 minute planning subtotal for the minimum marinade. Overnight marinating extends elapsed time. Start heating the oven while waiting pork remains refrigerated and load only once it reaches 400°F; any remaining heating or additional pan loads extends the subtotal. Keep searing and roasting in one continuous cooking session, checking every tenderloin rather than multiplying the clock.",
+    "scaling": "Authored formula and all three compiled views stay together; comparable piece geometry/product states, additional pan area/batches and measured endpoints govern"
+  },
+  "relationships": {
+    "pairsWith": [
+      "roasted-fall-harvest-salad",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+      "cinnamon-sweet-potatoes"
+    ],
+    "wholeLinkedMealReview": null,
+    "scope": "Pairings remain separate recipes; no automatic whole meal or dependency complete-review status",
+    "rootAssessment": "Pork Tenderloin Dinner was inspected whole against the tenderloin and side recipes. Its oven schedule, marinade/rest omissions and portion mismatch remain separate unresolved work. Carnitas Bowl was read whole and remains in a separate author batch. Pairings retain existing references and receive no review credit from this batch."
+  },
+  "remainingQuestions": [
+    "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+    "Record kosher-salt crystal brand without guessed gram conversion.",
+    "Confirm skillet loads and sear/roast elapsed time."
+  ],
+  "kitchenTesting": {
+    "performed": false,
+    "needs": [
+      "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+      "Record kosher-salt crystal brand without guessed gram conversion.",
+      "Confirm skillet loads and sear/roast elapsed time."
+    ]
+  },
+  "chronology": {
+    "authorCheckpoint": "25c04a32f318625c66c0c67e52c67d3a257daf7f8219e16c282e07499ffcd038",
+    "independentAdvice": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "rootAuthorization": "All26findinggroups/48exactfields privately authorized; no final acceptance",
+    "application": "Author applied exact authorized fields and regenerated formula-owned output",
+    "rootFinalWholeRecipeInspection": "pending",
+    "independentSelfAcceptance": false,
+    "physicalCooking": false,
+    "production": "not published",
+    "version2": "coverage_check applied root-authorized bounded second-peer fields; not independent acceptance",
+    "rootIntegration": "pending final complete inspection"
+  },
+  "privacyCheck": {
+    "nativeValuesInPublicCookingProse": false,
+    "nativeArchives": "Private evidence only",
+    "scope": "No native-app import or physical cooking test"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "0.19 cup Fresh lemon juice",
+        "1/4 tbsp Lemon zest",
+        "1/8 cup Extra-virgin olive oil for marinade",
+        "1/2 tbsp Garlic, minced",
+        "3/8 tbsp Fresh rosemary, minced",
+        "1/4 tbsp Fresh thyme, chopped",
+        "1/2 tsp Dijon mustard",
+        "1/2 tsp Kosher salt for marinade",
+        "3/4 Pork tenderloin, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "3/4 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.",
+      "shopping": [
+        "0.19 cup Fresh lemon juice",
+        "1/4 tbsp Lemon zest",
+        "1/8 cup Extra-virgin olive oil for marinade",
+        "1/2 tbsp Garlic",
+        "3/8 tbsp Fresh rosemary",
+        "1/4 tbsp Fresh thyme",
+        "1/2 tsp Dijon mustard",
+        "1/2 tsp Kosher salt for marinade",
+        "3/4 Pork tenderloin",
+        "3/4 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "3/8 cup Fresh lemon juice",
+        "1/2 tbsp Lemon zest",
+        "1/4 cup Extra-virgin olive oil for marinade",
+        "1 tbsp Garlic, minced",
+        "3/4 tbsp Fresh rosemary, minced",
+        "1/2 tbsp Fresh thyme, chopped",
+        "1 tsp Dijon mustard",
+        "1 tsp Kosher salt for marinade",
+        "1 1/2 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "1 1/2 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.",
+      "shopping": [
+        "3/8 cup Fresh lemon juice",
+        "1/2 tbsp Lemon zest",
+        "1/4 cup Extra-virgin olive oil for marinade",
+        "1 tbsp Garlic",
+        "3/4 tbsp Fresh rosemary",
+        "1/2 tbsp Fresh thyme",
+        "1 tsp Dijon mustard",
+        "1 tsp Kosher salt for marinade",
+        "1 1/2 Pork tenderloins",
+        "1 1/2 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "3/4 cup Fresh lemon juice",
+        "1 tbsp Lemon zest",
+        "1/2 cup Extra-virgin olive oil for marinade",
+        "2 tbsp Garlic, minced",
+        "1 1/2 tbsp Fresh rosemary, minced",
+        "1 tbsp Fresh thyme, chopped",
+        "2 tsp Dijon mustard",
+        "2 tsp Kosher salt for marinade",
+        "3 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "3 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.",
+      "shopping": [
+        "3/4 cup Fresh lemon juice",
+        "1 tbsp Lemon zest",
+        "1/2 cup Extra-virgin olive oil for marinade",
+        "2 tbsp Garlic",
+        "1 1/2 tbsp Fresh rosemary",
+        "1 tbsp Fresh thyme",
+        "2 tsp Dijon mustard",
+        "2 tsp Kosher salt for marinade",
+        "3 Pork tenderloins",
+        "3 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "1 1/8 cups Fresh lemon juice",
+        "1 1/2 tbsp Lemon zest",
+        "3/4 cup Extra-virgin olive oil for marinade",
+        "3 tbsp Garlic, minced",
+        "2 1/4 tbsp Fresh rosemary, minced",
+        "1 1/2 tbsp Fresh thyme, chopped",
+        "3 tsp Dijon mustard",
+        "3 tsp Kosher salt for marinade",
+        "4 1/2 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "4 1/2 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "9 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.",
+      "shopping": [
+        "1 1/8 cups Fresh lemon juice",
+        "1 1/2 tbsp Lemon zest",
+        "3/4 cup Extra-virgin olive oil for marinade",
+        "3 tbsp Garlic",
+        "2 1/4 tbsp Fresh rosemary",
+        "1 1/2 tbsp Fresh thyme",
+        "3 tsp Dijon mustard",
+        "3 tsp Kosher salt for marinade",
+        "4 1/2 Pork tenderloins",
+        "4 1/2 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "1 1/2 cups Fresh lemon juice",
+        "2 tbsp Lemon zest",
+        "1 cup Extra-virgin olive oil for marinade",
+        "4 tbsp Garlic, minced",
+        "3 tbsp Fresh rosemary, minced",
+        "2 tbsp Fresh thyme, chopped",
+        "4 tsp Dijon mustard",
+        "4 tsp Kosher salt for marinade",
+        "6 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "6 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.",
+      "shopping": [
+        "1 1/2 cups Fresh lemon juice",
+        "2 tbsp Lemon zest",
+        "1 cup Extra-virgin olive oil for marinade",
+        "4 tbsp Garlic",
+        "3 tbsp Fresh rosemary",
+        "2 tbsp Fresh thyme",
+        "4 tsp Dijon mustard",
+        "4 tsp Kosher salt for marinade",
+        "6 Pork tenderloins",
+        "6 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "2 1/4 cups Fresh lemon juice",
+        "3 tbsp Lemon zest",
+        "1 1/2 cups Extra-virgin olive oil for marinade",
+        "6 tbsp Garlic, minced",
+        "4 1/2 tbsp Fresh rosemary, minced",
+        "3 tbsp Fresh thyme, chopped",
+        "6 tsp Dijon mustard",
+        "6 tsp Kosher salt for marinade",
+        "9 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "9 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "18 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for at least 3 hours, preferably overnight. Keep the container separate from ready-to-eat ingredients.\n3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.\n4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.\n5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.\n6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.",
+      "shopping": [
+        "2 1/4 cups Fresh lemon juice",
+        "3 tbsp Lemon zest",
+        "1 1/2 cups Extra-virgin olive oil for marinade",
+        "6 tbsp Garlic",
+        "4 1/2 tbsp Fresh rosemary",
+        "3 tbsp Fresh thyme",
+        "6 tsp Dijon mustard",
+        "6 tsp Kosher salt for marinade",
+        "9 Pork tenderloins",
+        "9 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Lemon–herb marinade ---",
+        "3/4 cup Fresh lemon juice",
+        "1 tbsp Lemon zest",
+        "1/2 cup Extra-virgin olive oil for marinade",
+        "2 tbsp Garlic, minced",
+        "1 1/2 tbsp Fresh rosemary, minced",
+        "1 tbsp Fresh thyme, chopped",
+        "2 tsp Dijon mustard",
+        "2 tsp Kosher salt for marinade",
+        "3 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when scaling",
+        "--- Separate searing oil and seasoning ---",
+        "3 tbsp Extra-virgin olive oil for searing",
+        "Kosher salt for meat seasoning, as needed before searing",
+        "Black pepper, to taste before searing"
+      ],
+      "yield": "6 portions"
+    }
+  ],
+  "checks": {
+    "actualContentSchema": true,
+    "formulaSchema": true,
+    "allThreeGeneratedViews": true,
+    "quarterHalfOriginalOneHalfDoubleTripleReset": true,
+    "focusLint": true,
+    "triageIssues": [],
+    "mainStillFrozen": true,
+    "identityTitleRatingSourcePairsScalingOverridePreserved": true,
+    "actualFirstFollowedGitBytes": true,
+    "physicalCooking": false
+  },
+  "peerCorrectionApplication": {
+    "independentReportSha256": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "findingGroups": [
+      "PORK-01-ORIGIN",
+      "PORK-02-OUTCOME",
+      "PORK-03-1",
+      "PORK-04-1",
+      "PORK-05-HERB-SCALING",
+      "PORK-13-FROZEN-LEDGERS",
+      "PORK-14-1"
+    ],
+    "rootAuthorization": "All PORK01–15 specified corrections; private application only",
+    "selfAcceptance": false
+  },
+  "referenceCheck": {
+    "bodyTargets": [],
+    "allExist": true
+  },
+  "version2CorrectionApplication": {
+    "authorization": "Root authorized PV1-01/02 required and PV1-03/04/05 advisories, PRIVATE NEW v2 only",
+    "changes": [
+      {
+        "findingId": "PV1-02",
+        "slug": "herb-marinated-pork-tenderloins",
+        "field": "ratiosYieldCapacity.timing",
+        "target": "record",
+        "before": "About 15–20 min active preparation; About 20–35 min searing and roasting, plus 10 min rest; About 3 hr 45 min–4 hr 5 min with the minimum 3 hr marinade, or overnight plus cooking. These are untested planning ranges. Preparation overlaps oven/pan heating and some component work; rest and mandatory refrigeration remain part of elapsed time. Scaling changes loads, not individual-cut thickness or clock multiples.",
+        "after": "Allow about 15–20 minutes active preparation, at least 3 hours refrigerated marinating, roughly 20–35 minutes searing and roasting, and 10 minutes resting: a 3 hour 45 minute–4 hour 5 minute planning subtotal for the minimum marinade. Overnight marinating extends elapsed time. Start heating the oven while waiting pork remains refrigerated and load only once it reaches 400°F; any remaining heating or additional pan loads extends the subtotal. Keep searing and roasting in one continuous cooking session, checking every tenderloin rather than multiplying the clock.",
+        "rationale": "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "sources": [
+          {
+            "path": "privately retained evidence",
+            "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+          },
+          {
+            "path": "privately retained evidence",
+            "scope": "Original independent recommendations before author application"
+          }
+        ],
+        "applicability": "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "confidence": "high",
+        "questions": []
+      },
+      {
+        "findingId": "PV1-02",
+        "slug": "herb-marinated-pork-tenderloins",
+        "field": "ratiosYieldCapacity.capacity",
+        "target": "record",
+        "before": [
+          "The ½ cup marinade oil and 3 tbsp pan oil are separate measured components. Neither is taken from the other. The measured 2 tsp kosher salt enters the marinade; additional meat seasoning is a separate genuine allowance.",
+          "Refrigerate the marinade for at least 3 hours or overnight. Elapsed time includes the refrigerated wait and rest; keep raw pork refrigerated while the oven heats.",
+          "Keep original about 1 lb tenderloins of comparable diameter when scaling. Use more skillet space or sear in batches, then roast with room between pieces; check every thick center."
+        ],
+        "after": [
+          "The listed marinade oil and listed searing oil are separate allocations: ½ cup and 3 tbsp respectively in the original batch. The listed measured marinade salt is also separate from the extra meat-seasoning allowance: 2 tsp in the original batch. Scale these measured amounts together with the batch.",
+          "Refrigerate the marinade for at least 3 hours or overnight. Elapsed time includes the refrigerated wait and rest; keep raw pork refrigerated while the oven heats.",
+          "Keep original about 1 lb tenderloins of comparable diameter when scaling. Use more skillet space or sear in batches, then roast with room between pieces; check every thick center."
+        ],
+        "rationale": "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "sources": [
+          {
+            "path": "privately retained evidence",
+            "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+          },
+          {
+            "path": "privately retained evidence",
+            "scope": "Original independent recommendations before author application"
+          }
+        ],
+        "applicability": "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "confidence": "high",
+        "questions": []
+      }
+    ],
+    "oldManifestSha256": "a6aadcbc80f95e0668acd058211ec1ccab55837034b7baedee2c157ea35ec352",
+    "oldSecondPeerSha256": "71383400eb7c94497455ead354ce534d35219747d41179157638affbd82dcb2c",
+    "scope": "New private preparation, not independent/root acceptance or physical cooking."
+  },
+  "acceptedSourceSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7",
+  "rootFinalAcceptance": "accepted after whole independent challenges and complete final root inspection",
+  "rootIntegrationRequirements": [],
+  "integrationInputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pork-five-sources.json",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "rootWholeInspection": "Accept exact v2 candidates after original whole independent challenge, a second independent challenge and complete root source/diff inspection. FDA raw-marinade guidance supports a bounded editorial inference for rapidly boiling pooled aqueous pork-contact juices; it does not validate this exact pan. The clean fruit pan is the primary route and the fallback when the actual pan cannot rapidly boil those juices. Never boil oil or invent added liquid. Source pepper and optional-water restorations have been independently challenged and are accepted with complete distinct smaller-pepper and current early-glaze variants. Bacon must satisfy its actual package preparation separately from the pork center endpoint. Original richness, all allocations, current repairs, authorship and distinct variants remain.",
+  "resolvedIndependentQuestions": [],
+  "rootCopyClarification": {
+    "priorAcceptedSourceSha256": "33cc0b5b9ff5579b251ece09d9b23fc0e44979e28bb3c50e4296113137f7db19",
+    "exactFields": [
+      {
+        "field": "formula.steps.rest.text",
+        "before": "Transfer ready tenderloins to a clean platter, cover with foil and rest each for 10 minutes before carving. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.",
+        "after": "Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel."
+      }
+    ],
+    "scope": "Only equivalent safety wording/formatting is clarified to preserve existing literal safety regression checks. All endpoints, rests, formulas, allocations and previous independent dispositions remain. The safety tests are unchanged."
+  },
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 37,
+    "targetedLint": "Five pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11910,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 sources; only five public recipe schemas changed",
+    "stableBindings": "All 643 current private bindings verified; every existing identity preserved",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 5,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 183,
+    "scaledYieldDisplays": 15,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All five ingredient/step checks persist after reload; normal mode on reload; reset and exit pass",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

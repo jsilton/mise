@@ -1,0 +1,960 @@
+{
+  "slug": "rosemary-pork-tenderloin",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "acceptance": "Root accepted exact v2 source after both independent challenges and complete final inspection.",
+  "physicalCooking": false,
+  "inputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
+  "inputSha256": "a6273843c924486a3eb8f308b1acf14c6e3c404b8ea31bf7680138bc348b2355",
+  "proposedSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe",
+  "sourceProvenance": {
+    "firstCanonicalCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactVerifiedGitIntroduction": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactIntroductionPath": "src/content/recipes/rosemary-pork-tenderloin.md",
+    "introductionEvidence": "privately retained evidence",
+    "completeFollowHistory": "privately retained evidence",
+    "originalNative": "privately retained evidence",
+    "bindingEvidence": "privately retained evidence",
+    "scope": "All five exact private identity matches in durable original archive; no title matching or website-as-native-test claim"
+  },
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["roasting-pan"],
+      "after": ["roasting-pan", "instant-read-thermometer", "kitchen-twine"]
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–20 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "30 min",
+      "after": "About 25–35 min roasting, plus 10 min rest"
+    },
+    {
+      "field": "totalTime",
+      "before": "105 min",
+      "after": "About 1 hr 50 min–2 hr 5 min prep/marinade/roast/rest subtotal, plus any remaining oven heating or extra pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 Pork Tenderloins (1 lb each)",
+        "1/3 cup Dijon Mustard (The Finishing Touch)",
+        "1 tbsp Fresh Rosemary, minced",
+        "2 cloves Garlic, minced",
+        "2 tsp Black Pepper",
+        "4 slices Maple Bacon",
+        "4 sprigs Fresh Rosemary (whole)",
+        "3 cloves Garlic, smashed"
+      ],
+      "after": [
+        "--- Dijon–rosemary coating ---",
+        "1/3 cup Dijon mustard",
+        "1 tbsp Fresh rosemary, minced",
+        "2 Garlic cloves, minced",
+        "2 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "2 Pork tenderloins, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "4 Maple bacon slices",
+        "4 Fresh rosemary sprigs, whole, with woody stems",
+        "3 Garlic cloves, smashed"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 130,
+        "protein": 6.5,
+        "carbs": 2,
+        "fat": 10.5,
+        "fiber": 0.5,
+        "sugar": 0,
+        "sodium": 730
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "coating",
+            "name": "Dijon–rosemary coating",
+            "ingredients": [
+              {
+                "id": "mustard",
+                "key": "mustard",
+                "name": "Dijon mustard",
+                "quantity": {
+                  "amount": 0.3333333333333333,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "rosemary",
+                "key": "rosemary",
+                "name": "Fresh rosemary",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Freshly ground black pepper",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "roast",
+            "name": "Pork and roast aromatics",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Pork tenderloin",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "marinate",
+                    "share": 1
+                  }
+                ],
+                "plural": "Pork tenderloins",
+                "preparation": "about 1 lb each in the original batch; keep individual size similar when scaling"
+              },
+              {
+                "id": "bacon",
+                "key": "bacon",
+                "name": "Maple bacon slice",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wrap",
+                    "share": 1
+                  }
+                ],
+                "plural": "Maple bacon slices"
+              },
+              {
+                "id": "rosemary-sprig",
+                "key": "rosemary-sprig",
+                "name": "Fresh rosemary sprig",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "pan",
+                    "share": 1
+                  }
+                ],
+                "plural": "Fresh rosemary sprigs",
+                "preparation": "whole, with woody stems"
+              },
+              {
+                "id": "garlic-smashed",
+                "key": "garlic-smashed",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "pan",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "smashed"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "mix",
+            "title": "Mix the coating or marinade",
+            "text": "Mix {{ingredients}} in a clean bowl or raw-meat container before adding the pork."
+          },
+          {
+            "id": "marinate",
+            "title": "Coat and refrigerate",
+            "text": "Spread the prepared Dijon–rosemary coating over {{ingredients}}. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board."
+          },
+          {
+            "id": "wrap",
+            "title": "Heat the oven and add bacon",
+            "text": "Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute {{ingredients}} over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan."
+          },
+          {
+            "id": "pan",
+            "title": "Arrange the roast",
+            "text": "Set {{ingredients}} in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch."
+          },
+          {
+            "id": "roast",
+            "title": "Check each center",
+            "text": "Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and remove twine",
+            "text": "Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color."
+          },
+          {
+            "id": "serve",
+            "title": "Slice and serve",
+            "text": "Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the coating, cold waiting time and each tenderloin’s endpoint distinct",
+        "outcome": "Peppery Dijon–rosemary pork with cooked maple bacon and every tenderloin checked before its 10-minute rest",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Keep individual tenderloins near the original about 1 lb size when scaling; use additional pans with space between the pieces. Their count and coating scale, but oven temperature, roast interval and center checks do not.",
+          "This coating is pepper-forward. Choose its full measured pepper or the milder alternative before mixing, rather than adding both.",
+          "If planning Pork Tenderloin Dinner, allow for this recipe’s 375°F bacon roasting and 1 hr refrigeration; the linked potatoes and sprouts need separate oven planning at their own temperatures."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Every thickest center measures at least 145°F before removal.",
+            "why": "Bacon browning cannot show the pork center’s temperature."
+          },
+          {
+            "step": 6,
+            "cue": "Each cooked piece has rested 10 minutes on a clean board before slicing.",
+            "why": "A separate cooked-piece rest is needed if the tenderloins finish at different times."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The outside darkens before the center is ready",
+            "cause": "Heat is too intense, the piece is thick or the pan is crowded",
+            "fix": "Lower or move away from intense heat and finish the center gently, checking temperature. Give larger batches more pan area. Blackened garlic or Dijon coating cannot be repaired by insisting on the stated timer."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Black pepper",
+            "alternative": "For a milder coating, use one-third of the listed pepper amount:2 tsp for the original batch instead of 2 tbsp.",
+            "effect": "This gives a less peppery coating; all Dijon, garlic, rosemary, bacon and roast ingredients remain unchanged. Scale the chosen pepper amount with the batch."
+          }
+        ],
+        "timing": "Allow about 15–20 minutes active preparation, 1 hour refrigerated coating time, roughly 25–35 minutes roasting and 10 minutes resting: a 1 hour 50 minute–2 hour 5 minute planning subtotal. The oven must reach 375°F before loading; heating still needed after preparation or refrigeration extends elapsed time. Keep waiting raw pork refrigerated. Additional pans or loads can take longer; individual tenderloin size and measured centers govern the roasting checks.",
+        "storage": "Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C throughout. Keep raw pork and its marinade utensils separate from cooked meat, fruit and toppings; refrigerate raw waiting meat rather than use room-temperature exposure limits as a marinating method.",
+        "sources": [
+          {
+            "title": "Claire Robinson — Rosemary Pork Tenderloin",
+            "url": "https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514"
+          },
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWrapping lean pork tenderloins in maple bacon prevents them from drying out - the bacon fat renders and bastes the meat as it roasts. Marinating in Dijon mustard, garlic, and rosemary for an hour before cooking tenderizes the meat while creating a flavorful crust. Pulling the pork at 145°F ensures a blush-pink center; the 10-minute rest allows juices to redistribute without overcooking.\n\n## Directions\n\n1.  **Glue:** Whisk Dijon, minced garlic, pepper, and minced rosemary. Rub heavily over the pork. Wrap in plastic and **refrigerate for 1 hour**.\n2.  **Wrap:** Preheat oven to 375°F. Remove pork from plastic. Lay 2 bacon slices over each tenderloin. Secure with kitchen twine.\n3.  **Thermal Prep:** Place whole rosemary sprigs and smashed garlic in a roasting pan. Lay the pork directly on top of the herbs.\n4.  **Roast:** Bake for 25-30 minutes until an instant-read thermometer hits **145°F**.\n5.  **Rest:** Transfer to a board and **let rest for 10 minutes** (mandatory).\n6.  **Serve:** Remove twine, slice into 1-inch rounds, and garnish with the roasted rosemary.\n",
+    "after": "\n## Chef's Note\n\nMaple bacon, Dijon, rosemary and garlic flavor these oven-roasted tenderloins. The hour in the refrigerator gives the coating time on the surface; mustard does not provide a guaranteed enzyme-tenderizing treatment. Check each tenderloin’s thickest center before removing it from the oven, then give it the full 10-minute rest. Bacon browning and a pink center are not substitutes for a thermometer.\n\n## Directions\n\n1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.\n"
+  },
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "2 Pork Tenderloins (1 lb each)",
+        "destinationAndReview": "Coat, refrigerate, wrap, roast to measured center, rest and slice"
+      },
+      {
+        "row": 2,
+        "ingredient": "1/3 cup Dijon Mustard (The Finishing Touch)",
+        "destinationAndReview": "Dijon coating before refrigerated hour"
+      },
+      {
+        "row": 3,
+        "ingredient": "1 tbsp Fresh Rosemary, minced",
+        "destinationAndReview": "Minced rosemary in coating"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 cloves Garlic, minced",
+        "destinationAndReview": "Two minced cloves in coating"
+      },
+      {
+        "row": 5,
+        "ingredient": "2 tsp Black Pepper",
+        "destinationAndReview": "Black pepper enters the coating; frozen ingredient list specifies2tsp."
+      },
+      {
+        "row": 6,
+        "ingredient": "4 slices Maple Bacon",
+        "destinationAndReview": "Bacon wrapping before oven"
+      },
+      {
+        "row": 7,
+        "ingredient": "4 sprigs Fresh Rosemary (whole)",
+        "destinationAndReview": "Whole rosemary sprigs sit beneath the roast; the frozen serving step uses roasted rosemary as garnish."
+      },
+      {
+        "row": 8,
+        "ingredient": "3 cloves Garlic, smashed",
+        "destinationAndReview": "Smashed garlic sits beneath the roast; the frozen serving step does not expressly assign it as platter garnish."
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Dijon mustard",
+        "quantity": {
+          "amount": 0.3333333333333333,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh rosemary",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Freshly ground black pepper",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Pork tenderloin",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "about 1 lb each in the original batch; keep individual size similar when scaling",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "marinate",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Maple bacon slice",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "wrap",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh rosemary sprig",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "whole, with woody stems",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "pan",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "smashed",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "pan",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Black pepper",
+        "alternative": "For a milder coating, use one-third of the listed pepper amount:2 tsp for the original batch instead of 2 tbsp.",
+        "effect": "This gives a less peppery coating; all Dijon, garlic, rosemary, bacon and roast ingredients remain unchanged. Scale the chosen pepper amount with the batch."
+      }
+    ],
+    "frozenUnlistedMethodAllowances": []
+  },
+  "findings": [
+    {
+      "category": "whole formula and variant destinations",
+      "rationale": [
+        "Exact native/045e5ba2 original has2tbsp pepper; eab6f8bb replaced it with2tsp in a bulk formula rewrite. All followed later changes inspected; no explicit subsequent measured pepper decision establishes deliberate reduction. Propose exact original with the existing smaller option preserved distinctly, pending independent acceptance.",
+        "Saved160°F endpoint is superseded by the already-current145°F plus10min rest. Preserve that repair,1hr refrigerated marinade, all4bacon slices and full5garlic cloves in separate preparation states.",
+        "Current105min total omits10min rest if15prep+60marinade+30roast. Use honest elapsed range including rest."
+      ],
+      "sources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "confidence": "High for exact amounts/history; source-restoration choices and household preferences require independent/root disposition",
+      "questions": [
+        "Independent challenge of2tbsp source pepper restoration versus smaller current option.",
+        "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+        "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "whole method and applicable safety",
+      "rationale": "Trace all ingredient states/destinations, preserve rich amounts and prior endpoint repairs, separate whole-cut145°F/rest from ground-pork160°F, qualify clocks/capacity and product instructions.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "applicability": "Whole pork-cut145°F before removal followed by at least3minutes rest; the written5/10minute rest remains; FoodSafety.gov temperature guidance also supports165°F leftover reheating. FoodSafety.gov handling guidance supports prompt shallow cooling and raw/cooked separation; the cold-storage chart/USDA leftovers guidance supports3–4days at refrigerator temperature. Raw/cooked separation and refrigerated waiting apply to the listed pork route, not to unrelated ground-meat or corn stages. Formula amounts, allocations and original check windows come from this recipe’s verified native/first/current/followed Git evidence. Pan-load and heat-up arithmetic are editorial planning inferences, not FDA/USDA proof of completion time, culinary mechanism or tested capacity.",
+      "confidence": "High for applicable endpoints and arithmetic; moderate for untested planning times",
+      "questions": [
+        "Independent challenge of2tbsp source pepper restoration versus smaller current option.",
+        "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+        "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "unverified nutrition",
+      "rationale": "Legacy automated estimates lack demonstrated ingredient-weight/yield evidence; no replacement precision manufactured.",
+      "sources": ["Full ingredient/variant ledger"],
+      "confidence": "High",
+      "questions": [],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "Authorized v2 source/record precision",
+      "rationale": [
+        "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged."
+      ],
+      "sources": [
+        {
+          "path": "privately retained evidence",
+          "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original independent recommendations before author application"
+        }
+      ],
+      "applicability": [
+        "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges."
+      ],
+      "confidence": "High for exact field/passage fidelity and primary leftover guidance; moderate aqueous-juice inference; no household pan validation.",
+      "questions": [],
+      "exactBeforeAfterReferences": "version2CorrectionApplication.changes and exactChangedFields/exactBodyChange"
+    }
+  ],
+  "sourceDisagreements": [
+    "Exact native/045e5ba2 original has2tbsp pepper; eab6f8bb replaced it with2tsp in a bulk formula rewrite. All followed later changes inspected; no explicit subsequent measured pepper decision establishes deliberate reduction. Propose exact original with the existing smaller option preserved distinctly, pending independent acceptance.",
+    "Saved160°F endpoint is superseded by the already-current145°F plus10min rest. Preserve that repair,1hr refrigerated marinade, all4bacon slices and full5garlic cloves in separate preparation states.",
+    "Current105min total omits10min rest if15prep+60marinade+30roast. Use honest elapsed range including rest."
+  ],
+  "acceptedPriorRepairsPreserved": [
+    "All current measured ingredient richness except exact sourced/restored quantities documented as separate options",
+    "Existing145°F/rest where present; no invented carryover assumption",
+    "Chipotle ee6efd56 deliberate current main preserved where applicable"
+  ],
+  "ratiosYieldCapacity": {
+    "yield": "6 portions",
+    "scope": "Retained repository/source planning yield, not weighed output or kitchen certification",
+    "capacity": [
+      "Keep individual tenderloins near the original about 1 lb size when scaling; use additional pans with space between the pieces. Their count and coating scale, but oven temperature, roast interval and center checks do not.",
+      "This coating is pepper-forward. Choose its full measured pepper or the milder alternative before mixing, rather than adding both.",
+      "If planning Pork Tenderloin Dinner, allow for this recipe’s 375°F bacon roasting and 1 hr refrigeration; the linked potatoes and sprouts need separate oven planning at their own temperatures."
+    ],
+    "timing": "Allow about 15–20 minutes active preparation, 1 hour refrigerated coating time, roughly 25–35 minutes roasting and 10 minutes resting: a 1 hour 50 minute–2 hour 5 minute planning subtotal. The oven must reach 375°F before loading; heating still needed after preparation or refrigeration extends elapsed time. Keep waiting raw pork refrigerated. Additional pans or loads can take longer; individual tenderloin size and measured centers govern the roasting checks.",
+    "scaling": "Authored formula and all three compiled views stay together; comparable piece geometry/product states, additional pan area/batches and measured endpoints govern"
+  },
+  "relationships": {
+    "pairsWith": ["perfect-mashed-potatoes", "garlic-mashed-red-potatoes", "steamed-broccoli"],
+    "wholeLinkedMealReview": "privately retained evidence",
+    "scope": "Pairings remain separate recipes; no automatic whole meal or dependency complete-review status",
+    "rootAssessment": "Pork Tenderloin Dinner was inspected whole against the tenderloin and side recipes. Its oven schedule, marinade/rest omissions and portion mismatch remain separate unresolved work. Carnitas Bowl was read whole and remains in a separate author batch. Pairings retain existing references and receive no review credit from this batch."
+  },
+  "remainingQuestions": [
+    "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+    "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on.",
+    "Verify actual maple-bacon package state/instructions and its separate completion when the tenderloin first reaches145°F; no invented bacon endpoint."
+  ],
+  "kitchenTesting": {
+    "performed": false,
+    "needs": [
+      "Independent challenge of2tbsp source pepper restoration versus smaller current option.",
+      "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+      "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on."
+    ]
+  },
+  "chronology": {
+    "authorCheckpoint": "25c04a32f318625c66c0c67e52c67d3a257daf7f8219e16c282e07499ffcd038",
+    "independentAdvice": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "rootAuthorization": "All26findinggroups/48exactfields privately authorized; no final acceptance",
+    "application": "Author applied exact authorized fields and regenerated formula-owned output",
+    "rootFinalWholeRecipeInspection": "pending",
+    "independentSelfAcceptance": false,
+    "physicalCooking": false,
+    "production": "not published",
+    "version2": "coverage_check applied root-authorized bounded second-peer fields; not independent acceptance",
+    "rootIntegration": "pending final complete inspection"
+  },
+  "privacyCheck": {
+    "nativeValuesInPublicCookingProse": false,
+    "nativeArchives": "Private evidence only",
+    "scope": "No native-app import or physical cooking test"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "0.0833 cup Dijon mustard",
+        "1/4 tbsp Fresh rosemary, minced",
+        "1/2 Garlic clove, minced",
+        "1/2 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "1/2 Pork tenderloin, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "1 Maple bacon slice",
+        "1 Fresh rosemary sprig, whole, with woody stems",
+        "3/4 Garlic clove, smashed"
+      ],
+      "yield": "1 1/2 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.",
+      "shopping": [
+        "0.0833 cup Dijon mustard",
+        "1/4 tbsp Fresh rosemary",
+        "1/2 Garlic clove",
+        "1/2 tbsp Freshly ground black pepper",
+        "1/2 Pork tenderloin",
+        "1 Maple bacon slice",
+        "1 Fresh rosemary sprig",
+        "3/4 Garlic clove"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "1/6 cup Dijon mustard",
+        "1/2 tbsp Fresh rosemary, minced",
+        "1 Garlic clove, minced",
+        "1 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "1 Pork tenderloin, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "2 Maple bacon slices",
+        "2 Fresh rosemary sprigs, whole, with woody stems",
+        "1 1/2 Garlic cloves, smashed"
+      ],
+      "yield": "3 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.",
+      "shopping": [
+        "1/6 cup Dijon mustard",
+        "1/2 tbsp Fresh rosemary",
+        "1 Garlic clove",
+        "1 tbsp Freshly ground black pepper",
+        "1 Pork tenderloin",
+        "2 Maple bacon slices",
+        "2 Fresh rosemary sprigs",
+        "1 1/2 Garlic cloves"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "1/3 cup Dijon mustard",
+        "1 tbsp Fresh rosemary, minced",
+        "2 Garlic cloves, minced",
+        "2 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "2 Pork tenderloins, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "4 Maple bacon slices",
+        "4 Fresh rosemary sprigs, whole, with woody stems",
+        "3 Garlic cloves, smashed"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.",
+      "shopping": [
+        "1/3 cup Dijon mustard",
+        "1 tbsp Fresh rosemary",
+        "2 Garlic cloves",
+        "2 tbsp Freshly ground black pepper",
+        "2 Pork tenderloins",
+        "4 Maple bacon slices",
+        "4 Fresh rosemary sprigs",
+        "3 Garlic cloves"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "1/2 cup Dijon mustard",
+        "1 1/2 tbsp Fresh rosemary, minced",
+        "3 Garlic cloves, minced",
+        "3 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "3 Pork tenderloins, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "6 Maple bacon slices",
+        "6 Fresh rosemary sprigs, whole, with woody stems",
+        "4 1/2 Garlic cloves, smashed"
+      ],
+      "yield": "9 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.",
+      "shopping": [
+        "1/2 cup Dijon mustard",
+        "1 1/2 tbsp Fresh rosemary",
+        "3 Garlic cloves",
+        "3 tbsp Freshly ground black pepper",
+        "3 Pork tenderloins",
+        "6 Maple bacon slices",
+        "6 Fresh rosemary sprigs",
+        "4 1/2 Garlic cloves"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "2/3 cup Dijon mustard",
+        "2 tbsp Fresh rosemary, minced",
+        "4 Garlic cloves, minced",
+        "4 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "4 Pork tenderloins, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "8 Maple bacon slices",
+        "8 Fresh rosemary sprigs, whole, with woody stems",
+        "6 Garlic cloves, smashed"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.",
+      "shopping": [
+        "2/3 cup Dijon mustard",
+        "2 tbsp Fresh rosemary",
+        "4 Garlic cloves",
+        "4 tbsp Freshly ground black pepper",
+        "4 Pork tenderloins",
+        "8 Maple bacon slices",
+        "8 Fresh rosemary sprigs",
+        "6 Garlic cloves"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "1 cup Dijon mustard",
+        "3 tbsp Fresh rosemary, minced",
+        "6 Garlic cloves, minced",
+        "6 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "6 Pork tenderloins, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "12 Maple bacon slices",
+        "12 Fresh rosemary sprigs, whole, with woody stems",
+        "9 Garlic cloves, smashed"
+      ],
+      "yield": "18 portions",
+      "directions": "1. **Mix the coating or marinade:** Mix Dijon mustard, Fresh rosemary, Garlic cloves, and Freshly ground black pepper in a clean bowl or raw-meat container before adding the pork.\n2. **Coat and refrigerate:** Spread the prepared Dijon–rosemary coating over Pork tenderloins. Wrap or cover in a raw-meat container and refrigerate for 1 hour. Keep raw-contact dishes and utensils separate from the serving board.\n3. **Heat the oven and add bacon:** Heat the oven to 375°F. Remove the pork’s plastic or cover. Distribute Maple bacon slices over the tenderloins, using two slices per original-size tenderloin in the original batch; tie with kitchen twine. For scaled or partial batches, divide the full listed bacon amount across the meat rather than automatically using four slices per pan.\n4. **Arrange the roast:** Set Fresh rosemary sprigs and Garlic cloves in a roasting pan large enough to leave space between tenderloins. Lay the bacon-topped meat on these aromatics; use more pan area when increasing the batch.\n5. **Check each center:** Roast, beginning checks after about 25 minutes. Insert an instant-read thermometer into the thickest center of every tenderloin and continue until each reaches at least 145°F /63°C before removal;25–30 minutes is an original first-check range, not a guarantee. Remove a ready piece to a clean board rather than overcook it while a thicker one finishes. Check that the maple bacon is cooked according to its package guidance as well; the tenderloin-center reading does not certify the bacon. If a tenderloin is ready first, remove its twine and bacon with clean utensils, let the pork rest, and finish the bacon separately before serving it with that pork.\n6. **Rest and remove twine:** Rest each cooked tenderloin for 10 minutes before slicing, meeting the minimum 3-minute rest after its measured 145°F endpoint. Remove all twine. Do not rely on assumed carryover heat or meat color.\n7. **Slice and serve:** Slice across the grain into roughly 1-inch rounds and serve. The roasted rosemary sprigs and smashed garlic may garnish the platter; avoid serving woody stems as edible pieces.",
+      "shopping": [
+        "1 cup Dijon mustard",
+        "3 tbsp Fresh rosemary",
+        "6 Garlic cloves",
+        "6 tbsp Freshly ground black pepper",
+        "6 Pork tenderloins",
+        "12 Maple bacon slices",
+        "12 Fresh rosemary sprigs",
+        "9 Garlic cloves"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Dijon–rosemary coating ---",
+        "1/3 cup Dijon mustard",
+        "1 tbsp Fresh rosemary, minced",
+        "2 Garlic cloves, minced",
+        "2 tbsp Freshly ground black pepper",
+        "--- Pork and roast aromatics ---",
+        "2 Pork tenderloins, about 1 lb each in the original batch; keep individual size similar when scaling",
+        "4 Maple bacon slices",
+        "4 Fresh rosemary sprigs, whole, with woody stems",
+        "3 Garlic cloves, smashed"
+      ],
+      "yield": "6 portions"
+    }
+  ],
+  "checks": {
+    "actualContentSchema": true,
+    "formulaSchema": true,
+    "allThreeGeneratedViews": true,
+    "quarterHalfOriginalOneHalfDoubleTripleReset": true,
+    "focusLint": true,
+    "triageIssues": [],
+    "mainStillFrozen": true,
+    "identityTitleRatingSourcePairsScalingOverridePreserved": true,
+    "actualFirstFollowedGitBytes": true,
+    "physicalCooking": false
+  },
+  "peerCorrectionApplication": {
+    "independentReportSha256": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "findingGroups": [
+      "PORK-01-ORIGIN",
+      "PORK-02-OUTCOME",
+      "PORK-03-0",
+      "PORK-04-0",
+      "PORK-11-ROSEMARY-BACON",
+      "PORK-13-FROZEN-LEDGERS",
+      "PORK-14-0"
+    ],
+    "rootAuthorization": "All PORK01–15 specified corrections; private application only",
+    "selfAcceptance": false
+  },
+  "referenceCheck": {
+    "bodyTargets": [],
+    "allExist": true
+  },
+  "version2CorrectionApplication": {
+    "authorization": "Root authorized PV1-01/02 required and PV1-03/04/05 advisories, PRIVATE NEW v2 only",
+    "changes": [
+      {
+        "findingId": "PV1-02",
+        "slug": "rosemary-pork-tenderloin",
+        "field": "ratiosYieldCapacity.timing",
+        "target": "record",
+        "before": "About 15–20 min active preparation; About 25–35 min roasting, plus 10 min rest; About 1 hr 50 min–2 hr 5 min, including 1 hr refrigerated marinade. These are untested planning ranges. Preparation overlaps oven/pan heating and some component work; rest and mandatory refrigeration remain part of elapsed time. Scaling changes loads, not individual-cut thickness or clock multiples.",
+        "after": "Allow about 15–20 minutes active preparation, 1 hour refrigerated coating time, roughly 25–35 minutes roasting and 10 minutes resting: a 1 hour 50 minute–2 hour 5 minute planning subtotal. The oven must reach 375°F before loading; heating still needed after preparation or refrigeration extends elapsed time. Keep waiting raw pork refrigerated. Additional pans or loads can take longer; individual tenderloin size and measured centers govern the roasting checks.",
+        "rationale": "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "sources": [
+          {
+            "path": "privately retained evidence",
+            "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+          },
+          {
+            "path": "privately retained evidence",
+            "scope": "Original independent recommendations before author application"
+          }
+        ],
+        "applicability": "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "confidence": "high",
+        "questions": []
+      }
+    ],
+    "oldManifestSha256": "a6aadcbc80f95e0668acd058211ec1ccab55837034b7baedee2c157ea35ec352",
+    "oldSecondPeerSha256": "71383400eb7c94497455ead354ce534d35219747d41179157638affbd82dcb2c",
+    "scope": "New private preparation, not independent/root acceptance or physical cooking."
+  },
+  "acceptedSourceSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe",
+  "rootFinalAcceptance": "accepted after whole independent challenges and complete final root inspection",
+  "rootIntegrationRequirements": [],
+  "integrationInputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pork-five-sources.json",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "rootWholeInspection": "Accept exact v2 candidates after original whole independent challenge, a second independent challenge and complete root source/diff inspection. FDA raw-marinade guidance supports a bounded editorial inference for rapidly boiling pooled aqueous pork-contact juices; it does not validate this exact pan. The clean fruit pan is the primary route and the fallback when the actual pan cannot rapidly boil those juices. Never boil oil or invent added liquid. Source pepper and optional-water restorations have been independently challenged and are accepted with complete distinct smaller-pepper and current early-glaze variants. Bacon must satisfy its actual package preparation separately from the pork center endpoint. Original richness, all allocations, current repairs, authorship and distinct variants remain.",
+  "resolvedIndependentQuestions": [
+    "Independent challenge of2tbsp source pepper restoration versus smaller current option."
+  ],
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 37,
+    "targetedLint": "Five pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11910,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 sources; only five public recipe schemas changed",
+    "stableBindings": "All 643 current private bindings verified; every existing identity preserved",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 5,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 183,
+    "scaledYieldDisplays": 15,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All five ingredient/step checks persist after reload; normal mode on reload; reset and exit pass",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

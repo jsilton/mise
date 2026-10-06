@@ -1,0 +1,109 @@
+{
+  "inputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
+  "changed": 5,
+  "unchanged": 638,
+  "all643Protected": true,
+  "acceptedHashesMatch": true,
+  "exactPairedFieldBody": true,
+  "registerPromotions": 5,
+  "otherRegisterAndMatrixReviewCreditPreserved": true,
+  "onlyFiveExportSchemasChanged": true,
+  "allPriorTestsAndFixturesUnchanged": true,
+  "status": "accepted and locally validated; implementation and exact production pending",
+  "recipes": [
+    {
+      "slug": "rosemary-pork-tenderloin",
+      "acceptedSourceSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe",
+      "remainingQuestions": [
+        "Record bacon doneness, actual tenderloin diameters and roast completion times.",
+        "Linked meal needs root-owned oven/quantity/schedule reconciliation before its timing is relied on.",
+        "Verify actual maple-bacon package state/instructions and its separate completion when the tenderloin first reaches145°F; no invented bacon endpoint."
+      ]
+    },
+    {
+      "slug": "herb-marinated-pork-tenderloins",
+      "acceptedSourceSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7",
+      "remainingQuestions": [
+        "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
+        "Record kosher-salt crystal brand without guessed gram conversion.",
+        "Confirm skillet loads and sear/roast elapsed time."
+      ]
+    },
+    {
+      "slug": "balsamic-peach-pork",
+      "acceptedSourceSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc",
+      "remainingQuestions": [
+        "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
+        "Confirm pan area/broiler rating and actual glaze reduction with household balsamic."
+      ]
+    },
+    {
+      "slug": "grilled-pork-and-peaches",
+      "acceptedSourceSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81",
+      "remainingQuestions": [
+        "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+        "Record grill heating strength and completion times for meat and peaches separately.",
+        "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred.",
+        "Can the actual pan rapidly boil its pooled aqueous juices without scorching garlic? If not, use the separate clean fruit pan."
+      ]
+    },
+    {
+      "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
+      "acceptedSourceSha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718",
+      "remainingQuestions": [
+        "Confirm actual polenta grind and frozen-corn package requirements; no product endpoint/time invented.",
+        "Record skillet capacity and actual active/elapsed schedule.",
+        "Clarify preferred source variant versus deliberate current toppings; no old proposal automatically accepted."
+      ]
+    }
+  ],
+  "validation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 37,
+    "targetedLint": "Five pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11910,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 sources; only five public recipe schemas changed",
+    "stableBindings": "All 643 current private bindings verified; every existing identity preserved",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 5,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 183,
+    "scaledYieldDisplays": 15,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All five ingredient/step checks persist after reload; normal mode on reload; reset and exit pass",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  },
+  "originalManifestSha256": "751a32a64d9b85c338c24ff2d88710dcef188b5a18863f8445307797fd4d1218",
+  "rootNativeProofSha256": "4d11f683b8f451ebf9b764e18acaa178f33e0f7df4eeb405f3f51309abb1dbe0",
+  "boundedRootCopyClarification": {
+    "scope": "Equivalent wording/formatting of existing145°F and5-/10-minute rest instructions; no test weakening or culinary change.",
+    "sourceFields": [
+      {
+        "slug": "balsamic-peach-pork",
+        "field": "content.chefNote",
+        "before": "Watch the peaches and sauce closely, and remove each chop only after its thickest center, away from the bone, measures 145°F. Rest 5 minutes before serving.",
+        "after": "Watch the peaches and sauce closely. Cook the pork chops to at least 145°F before removal, checking every thickest center away from the bone, then rest for 5 minutes before serving."
+      },
+      {
+        "slug": "herb-marinated-pork-tenderloins",
+        "field": "formula.steps.rest.text",
+        "before": "Transfer ready tenderloins to a clean platter, cover with foil and rest each for 10 minutes before carving. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.",
+        "after": "Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel."
+      }
+    ],
+    "preservedQuantitiesIngredientsYieldAllocations": true,
+    "priorPeerAcceptedHashesRetained": true
+  },
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

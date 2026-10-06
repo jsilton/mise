@@ -1,5 +1,9 @@
 # Current campaign state — October 5, 2026
 
+293 recorded complete / 350 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. Five pork versions are accepted locally after two independent challenges and whole root inspection; integrated validation, implementation and exact production verification remain pending. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Five pork acceptance](editorial-campaign/2026-10-05/pork-five.md).
+
+## Previous verified checkpoint
+
 288 implemented recorded complete / 355 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. The latest six grain and vegetable versions are implemented at 92a85aba and verified at exact remote release 0f61abae, successful Pages run 37391061846 and all affected live pages. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Six grain and vegetable production evidence](editorial-campaign/2026-10-05/boiled-six-production.json).
 
 # Historical campaign checkpoint — October 5, 2026

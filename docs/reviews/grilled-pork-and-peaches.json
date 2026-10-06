@@ -1,0 +1,1391 @@
+{
+  "slug": "grilled-pork-and-peaches",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "acceptance": "Root accepted exact v2 source after both independent challenges and complete final inspection.",
+  "physicalCooking": false,
+  "inputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
+  "inputSha256": "8eb6424c595694c72c0c05c4a6f26606dd2568d6381635b7eaab306480f6eed9",
+  "proposedSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81",
+  "sourceProvenance": {
+    "firstCanonicalCommit": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactVerifiedGitIntroduction": "045e5ba276b560e4f7d3d485b4860f610d295bac",
+    "exactIntroductionPath": "src/content/recipes/grilled-pork-and-peaches.md",
+    "introductionEvidence": "privately retained evidence",
+    "completeFollowHistory": "privately retained evidence",
+    "originalNative": "privately retained evidence",
+    "bindingEvidence": "privately retained evidence",
+    "scope": "All five exact private identity matches in durable original archive; no title matching or website-as-native-test claim"
+  },
+  "exactChangedFields": [
+    {
+      "field": "equipment",
+      "before": ["grill", "cast-iron-skillet"],
+      "after": ["cast-iron-pan-or-griddle", "meat-mallet", "instant-read-thermometer"]
+    },
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–25 min active preparation"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 15–25 min cooking, plus 5 min rest and grill/pan heating"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 40–65 min, depending on heating and pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 lbs Boneless Pork Butt (or Shoulder), butterflied",
+        "6 Fresh Peaches, halved and pitted",
+        "8-10 cloves Garlic, minced",
+        "2 tbsp Fresh Rosemary, minced",
+        "8 tbsp Extra-Virgin Olive Oil (divided)",
+        "4 tbsp Unsalted Butter, diced",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Pork and seasoning ---",
+        "2 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "8–10 Garlic cloves, peeled and minced",
+        "2 tbsp Fresh rosemary, minced",
+        "8 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "6 Fresh peaches, washed, skin on, halved and pitted",
+        "4 tbsp Unsalted butter, diced"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 810,
+        "protein": 44.5,
+        "carbs": 2,
+        "fat": 69,
+        "fiber": 1,
+        "sugar": 0,
+        "sodium": 650
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "pork",
+            "name": "Pork and seasoning",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "pork",
+                "name": "Boneless pork butt or shoulder",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "preparation": "butterflied and trimmed"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "allowance": "to taste for pork",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Black pepper",
+                "allowance": "to taste for pork",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "paste",
+            "name": "Garlic–rosemary paste and pan oil",
+            "ingredients": [
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 8,
+                  "max": 10,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "paste",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "peeled and minced"
+              },
+              {
+                "id": "rosemary",
+                "key": "rosemary",
+                "name": "Fresh rosemary",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "paste",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Extra-virgin olive oil",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "paste",
+                    "share": 0.75
+                  },
+                  {
+                    "step": "heat",
+                    "share": 0.25
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fruit",
+            "name": "Buttered peaches",
+            "ingredients": [
+              {
+                "id": "peaches",
+                "key": "peaches",
+                "name": "Fresh peach",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ],
+                "plural": "Fresh peaches",
+                "preparation": "washed, skin on, halved and pitted"
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "Unsalted butter",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "fruit",
+                    "share": 1
+                  }
+                ],
+                "preparation": "diced"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Pound and season",
+            "text": "Prepare {{ingredients}} on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill."
+          },
+          {
+            "id": "paste",
+            "title": "Coat both sides",
+            "text": "Mix {{ingredients}} into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface."
+          },
+          {
+            "id": "heat",
+            "title": "Heat solid cooking surface",
+            "text": "Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with {{ingredients}}, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking."
+          },
+          {
+            "id": "pork",
+            "title": "Brown the pork",
+            "text": "Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools."
+          },
+          {
+            "id": "fruit",
+            "title": "Cook buttered peaches",
+            "text": "While the pork cooks, arrange {{ingredients}} in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools."
+          },
+          {
+            "id": "finish-pork",
+            "title": "Finish and rest",
+            "text": "Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches."
+          },
+          {
+            "id": "serve",
+            "title": "Slice and serve",
+            "text": "Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the full oil and butter on a solid cooking surface",
+        "outcome": "Garlic–rosemary pork shoulder and buttered peach halves, cooked on solid surfaces and checked separately",
+        "techniques": ["temperature", "seasoning"],
+        "before": [
+          "Keep pork roughly ¾ inch thick and peaches as comparable halves when scaling. Use additional solid cooking surface or batches, without forcing every peach around the meat or multiplying its brief cooking clock.",
+          "Three-quarters of the listed oil goes into the garlic–rosemary paste; one-quarter brushes the chosen pan/griddle area. All the listed butter goes with the peaches. In the original batch these totals are 8 tbsp oil and 4 tbsp butter. Use a solid surface so the butter stays with the fruit.",
+          "For a separate peach pan, divide the same pan-oil allocation across both solid pans; no second full oil dose. Keep raw-pork tools away from the cooked peach platter and resting board."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The remaining quarter of oil coats a solid pan or griddle; butter will stay under the peaches.",
+            "why": "An open-grate-only method loses the measured cooking fats and changes the method."
+          },
+          {
+            "step": 6,
+            "cue": "Several thick centers reach 145°F and the pork rests 5 minutes on a clean board.",
+            "why": "Pounding evens thickness but does not make a fixed sear time an endpoint or guarantee braised-shoulder tenderness."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The outside darkens before the center is ready",
+            "cause": "Heat is too intense, the piece is thick or the pan is crowded",
+            "fix": "Lower or move away from intense heat and finish the center gently, checking temperature. Give larger batches more pan area. Blackened garlic cannot be repaired by insisting on the stated timer."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Separate pork and peach pans",
+            "alternative": "A single solid pan or griddle, cooking pork first and peaches after it is removed",
+            "effect": "Use the same paste and full pan-oil total. After pork reaches 145°F and moves with clean utensils to a clean board for its 5-minute rest, keep the solid pan hot. Bring any pooled aqueous raw-pork-contact juices—the watery juices, not the oil—to a rapid boil before adding the peaches and all the measured butter; manage heat to avoid burning the garlic. Do not add liquid to create a boil. Then cook the fruit to tender centers and browned faces with clean utensils. Allow additional elapsed time for this sequential fruit cooking. Do not return raw paste or raw-contact utensils to the cooked fruit; if raw-contact residue cannot be adequately cooked, use the separate clean fruit pan."
+          },
+          {
+            "ingredient": "Outdoor grill heat",
+            "alternative": "The stovetop cast-iron pan or two-burner griddle route with strong ventilation",
+            "effect": "Heat the solid surface, then manage the burner around medium as it cooks. Keep the same paste/pan-oil/butter quantities, measured pork endpoint and clean fruit/pork utensils; never use an outdoor charcoal or gas grill indoors."
+          }
+        ],
+        "timing": "Plan roughly 15–25 minutes active preparation, 15–25 minutes cooking and a 5-minute pork rest. Grill or pan heating adds elapsed time unless it actually overlaps preparation. The 40–65 minute total is an approximate plan, not an upper limit for a slow fire or extra loads. The separate-pan route lets peaches cook alongside pork; the single-pan route adds fruit cooking and any required handling after pork removal. Keep the same thickness, full oil/butter allocations and separate doneness checks when scaling.",
+        "storage": "Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C throughout. Keep raw pork and its marinade utensils separate from cooked meat, fruit and toppings; refrigerate raw waiting meat rather than use room-temperature exposure limits as a marinating method.",
+        "sources": [
+          {
+            "title": "The New York Times — Grilled Pork and Peaches",
+            "url": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches"
+          },
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — refrigerated marinating and reuse of raw-contact liquid",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPounding pork butt to uniform 3/4-inch thickness breaks down tough connective tissue and ensures it sears at the same rate as the fruit. Grilling peaches in butter until soft and slightly charred caramelizes their sugars while developing acidity that cuts through the rich, rosemary-crusted pork. This classic American summer pairing showcases stone fruit at peak season.\n\n## Directions\n\n1.  **Prep:** Place butterflied pork on a board. Use a meat mallet to pound to an even 3/4-inch thickness. Season aggressively with salt and pepper.\n2.  **The Paste:** In a small bowl, whisk garlic, rosemary, and 6 tbsp of the olive oil into a thick paste. Rub the paste over both sides of the pork.\n3.  **The Sear:** Heat a large cast-iron griddle or grill to high. Brush with remaining oil. Place pork on the heat and sear **without moving** for 8-10 minutes until a deep crust forms.\n4.  **The Fruit:** While pork sears, place the peach halves (cut-side down) around the meat. Dot the fruit with the diced butter. Grill for 5 minutes until soft and charred. Transfer peaches to a platter.\n5.  **Flip:** Turn the pork over and cook for another 5-7 minutes until the internal temp reaches 145°F (for a perfect blush pink).\n6.  **Rest:** Remove meat to a carving board and **rest for 5 minutes** (mandatory for structure).\n7.  **Serve:** Slice the pork and serve immediately with the buttery, charred peaches and any pan juices.\n",
+    "after": "\n## Chef's Note\n\nButterflied pork shoulder is pounded to an even thickness so its centers cook more evenly. Cook it and the skin-on peach halves on a solid cast-iron pan or griddle over the grill, where the full butter and pan oil can stay with the food. Pounding does not turn this into a slow-braised cut, and buttered peaches need not finish at the same time as the pork. Keep a clean resting board and check the pork before its 5-minute rest.\n\n## Directions\n\n1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.\n"
+  },
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "ingredient": "2 lbs Boneless Pork Butt (or Shoulder), butterflied",
+        "destinationAndReview": "Butterfly, pound, season, cook to measured center, rest"
+      },
+      {
+        "row": 2,
+        "ingredient": "6 Fresh Peaches, halved and pitted",
+        "destinationAndReview": "Halves cooked around raw meat in frozen version; removed early, contact risk unresolved by clock"
+      },
+      {
+        "row": 3,
+        "ingredient": "8-10 cloves Garlic, minced",
+        "destinationAndReview": "Garlic paste"
+      },
+      {
+        "row": 4,
+        "ingredient": "2 tbsp Fresh Rosemary, minced",
+        "destinationAndReview": "Rosemary paste"
+      },
+      {
+        "row": 5,
+        "ingredient": "8 tbsp Extra-Virgin Olive Oil (divided)",
+        "destinationAndReview": "Frozen method uses6tbsp in the paste and the remaining2tbsp on the cooking surface."
+      },
+      {
+        "row": 6,
+        "ingredient": "4 tbsp Unsalted Butter, diced",
+        "destinationAndReview": "Frozen method dots all4tbsp diced butter on fruit cooking around raw pork; it does not include a clean separate fruit pan."
+      },
+      {
+        "row": 7,
+        "ingredient": "Salt and Black Pepper",
+        "destinationAndReview": "Pork seasoning"
+      }
+    ],
+    "proposed": [
+      {
+        "ingredient": "Boneless pork butt or shoulder",
+        "quantity": {
+          "amount": 2,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "preparation": "butterflied and trimmed",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Salt",
+        "quantity": null,
+        "allowance": "to taste for pork",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Black pepper",
+        "quantity": null,
+        "allowance": "to taste for pork",
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Garlic clove",
+        "quantity": {
+          "amount": 8,
+          "max": 10,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "peeled and minced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "paste",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh rosemary",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "minced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "paste",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Extra-virgin olive oil",
+        "quantity": {
+          "amount": 8,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "paste",
+            "share": 0.75
+          },
+          {
+            "step": "heat",
+            "share": 0.25
+          }
+        ]
+      },
+      {
+        "ingredient": "Fresh peach",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "allowance": null,
+        "preparation": "washed, skin on, halved and pitted",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "fruit",
+            "share": 1
+          }
+        ]
+      },
+      {
+        "ingredient": "Unsalted butter",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "preparation": "diced",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "fruit",
+            "share": 1
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Separate pork and peach pans",
+        "alternative": "A single solid pan or griddle, cooking pork first and peaches after it is removed",
+        "effect": "Use the same paste and full pan-oil total. After pork reaches 145°F and moves with clean utensils to a clean board for its 5-minute rest, keep the solid pan hot. Bring any pooled aqueous raw-pork-contact juices—the watery juices, not the oil—to a rapid boil before adding the peaches and all the measured butter; manage heat to avoid burning the garlic. Do not add liquid to create a boil. Then cook the fruit to tender centers and browned faces with clean utensils. Allow additional elapsed time for this sequential fruit cooking. Do not return raw paste or raw-contact utensils to the cooked fruit; if raw-contact residue cannot be adequately cooked, use the separate clean fruit pan."
+      },
+      {
+        "ingredient": "Outdoor grill heat",
+        "alternative": "The stovetop cast-iron pan or two-burner griddle route with strong ventilation",
+        "effect": "Heat the solid surface, then manage the burner around medium as it cooks. Keep the same paste/pan-oil/butter quantities, measured pork endpoint and clean fruit/pork utensils; never use an outdoor charcoal or gas grill indoors."
+      }
+    ],
+    "frozenUnlistedMethodAllowances": []
+  },
+  "findings": [
+    {
+      "category": "whole formula and variant destinations",
+      "rationale": [
+        "Exact native/045e5ba2 original specifies solid cast-iron pan or griddle over grill/stove and reduces gas/stove heat;38b29fc2 rewrote that as high griddle OR grill, losing how full butter stays with peaches. Restore complete solid-surface route without removing all8tbsp oil or4tbsp butter.",
+        "Current oil6+2tbsp split is source-supported; author it as¾/¼ shares so .5/2scaling does not leave literal6tbsp instructions. Keep original porkbutt/shoulder cut,¾inch pounding,6skin-on peaches and separatepan option.",
+        "The source two-pan alternative is the main concurrent route. The retained one-surface option cooks fruit after pork removal, with rapid boiling of any pooled aqueous raw-contact juices and a separate clean fruit-pan fallback if raw-contact residue cannot be adequately cooked. Removing pork at 145°F does not establish that the pan or residue is adequately cooked. FDA directly addresses reused raw-contact marinade; applying that liquid-control principle to pooled aqueous pork juices is an editorial inference, not a tested household process or a zero-risk guarantee. All 8 tbsp oil and 4 tbsp butter stay, and the exact concurrent original remains retained privately.",
+        "Current145°F/5minute rest stays; remove unsupported claims that pounding breaks down collagen to braised tenderness, fruit heat develops acid or pink color is guaranteed."
+      ],
+      "sources": [
+        "privately retained evidence",
+        "privately retained evidence",
+        "privately retained evidence"
+      ],
+      "confidence": "High for exact amounts/history; source-restoration choices and household preferences require independent/root disposition",
+      "questions": [
+        "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+        "Record grill heating strength and completion times for meat and peaches separately.",
+        "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "whole method and applicable safety",
+      "rationale": "Trace all ingredient states/destinations, preserve rich amounts and prior endpoint repairs, separate whole-cut145°F/rest from ground-pork160°F, qualify clocks/capacity and product instructions.",
+      "sources": [
+        {
+          "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        },
+        {
+          "title": "FoodSafety.gov — clean, separate, cook and chill",
+          "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+        },
+        {
+          "title": "USDA — leftovers and food safety",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        }
+      ],
+      "applicability": "Whole pork-cut145°F before removal followed by at least3minutes rest; the written5/10minute rest remains; FoodSafety.gov temperature guidance also supports165°F leftover reheating. FoodSafety.gov handling guidance supports prompt shallow cooling and raw/cooked separation; the cold-storage chart/USDA leftovers guidance supports3–4days at refrigerator temperature. Raw/cooked separation and refrigerated waiting apply to the listed pork route, not to unrelated ground-meat or corn stages. Formula amounts, allocations and original check windows come from this recipe’s verified native/first/current/followed Git evidence. Pan-load and heat-up arithmetic are editorial planning inferences, not FDA/USDA proof of completion time, culinary mechanism or tested capacity.",
+      "confidence": "High for applicable endpoints and arithmetic; moderate for untested planning times",
+      "questions": [
+        "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+        "Record grill heating strength and completion times for meat and peaches separately.",
+        "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred."
+      ],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "unverified nutrition",
+      "rationale": "Legacy automated estimates lack demonstrated ingredient-weight/yield evidence; no replacement precision manufactured.",
+      "sources": ["Full ingredient/variant ledger"],
+      "confidence": "High",
+      "questions": [],
+      "exactBeforeAfterReferences": {
+        "metadata": "exactChangedFields",
+        "directions": "exactBodyChange"
+      }
+    },
+    {
+      "category": "Authorized v2 source/record precision",
+      "rationale": [
+        "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "The final cooking text adds a rapid-boil application from FDA, but its normal source list and finding-specific primary sources omit FDA. The correct narrow scope is already in safetyInference and the addendum. Retain that private distinction and add the normal direct source label; do not claim FDA tested this pork-peach formula or household pan.",
+        "The final cooking text adds a rapid-boil application from FDA, but its normal source list and finding-specific primary sources omit FDA. The correct narrow scope is already in safetyInference and the addendum. Retain that private distinction and add the normal direct source label; do not claim FDA tested this pork-peach formula or household pan."
+      ],
+      "sources": [
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "safetyInference"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "safetyInference"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "safetyInference"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "safetyInference"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "path": "privately retained evidence",
+          "field": "safetyInference"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original independent recommendations before author application"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+        },
+        {
+          "path": "privately retained evidence",
+          "scope": "Original independent recommendations before author application"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        },
+        {
+          "title": "FDA — Are You Storing Food Safely?",
+          "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+        },
+        {
+          "path": "privately retained evidence"
+        }
+      ],
+      "applicability": [
+        "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        null,
+        null
+      ],
+      "confidence": "High for exact field/passage fidelity and primary leftover guidance; moderate aqueous-juice inference; no household pan validation.",
+      "questions": [
+        "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route.",
+        "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route.",
+        "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route.",
+        "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route.",
+        "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route."
+      ],
+      "exactBeforeAfterReferences": "version2CorrectionApplication.changes and exactChangedFields/exactBodyChange"
+    }
+  ],
+  "sourceDisagreements": [
+    "Exact native/045e5ba2 original specifies solid cast-iron pan or griddle over grill/stove and reduces gas/stove heat;38b29fc2 rewrote that as high griddle OR grill, losing how full butter stays with peaches. Restore complete solid-surface route without removing all8tbsp oil or4tbsp butter.",
+    "Current oil6+2tbsp split is source-supported; author it as¾/¼ shares so .5/2scaling does not leave literal6tbsp instructions. Keep original porkbutt/shoulder cut,¾inch pounding,6skin-on peaches and separatepan option.",
+    "The source two-pan alternative is the main concurrent route. The retained one-surface option cooks fruit after pork removal, with rapid boiling of any pooled aqueous raw-contact juices and a separate clean fruit-pan fallback if raw-contact residue cannot be adequately cooked. Removing pork at 145°F does not establish that the pan or residue is adequately cooked. FDA directly addresses reused raw-contact marinade; applying that liquid-control principle to pooled aqueous pork juices is an editorial inference, not a tested household process or a zero-risk guarantee. All 8 tbsp oil and 4 tbsp butter stay, and the exact concurrent original remains retained privately.",
+    "Current145°F/5minute rest stays; remove unsupported claims that pounding breaks down collagen to braised tenderness, fruit heat develops acid or pink color is guaranteed."
+  ],
+  "acceptedPriorRepairsPreserved": [
+    "All current measured ingredient richness except exact sourced/restored quantities documented as separate options",
+    "Existing145°F/rest where present; no invented carryover assumption",
+    "Chipotle ee6efd56 deliberate current main preserved where applicable"
+  ],
+  "ratiosYieldCapacity": {
+    "yield": "4 portions",
+    "scope": "Retained repository/source planning yield, not weighed output or kitchen certification",
+    "capacity": [
+      "Keep pork roughly ¾ inch thick and peaches as comparable halves when scaling. Use additional solid cooking surface or batches, without forcing every peach around the meat or multiplying its brief cooking clock.",
+      "Three-quarters of the listed oil goes into the garlic–rosemary paste; one-quarter brushes the chosen pan/griddle area. All the listed butter goes with the peaches. In the original batch these totals are 8 tbsp oil and 4 tbsp butter. Use a solid surface so the butter stays with the fruit.",
+      "For a separate peach pan, divide the same pan-oil allocation across both solid pans; no second full oil dose. Keep raw-pork tools away from the cooked peach platter and resting board."
+    ],
+    "timing": "Plan roughly 15–25 minutes active preparation, 15–25 minutes cooking and a 5-minute pork rest. Grill or pan heating adds elapsed time unless it actually overlaps preparation. The 40–65 minute total is an approximate plan, not an upper limit for a slow fire or extra loads. The separate-pan route lets peaches cook alongside pork; the single-pan route adds fruit cooking and any required handling after pork removal. Keep the same thickness, full oil/butter allocations and separate doneness checks when scaling.",
+    "scaling": "Authored formula and all three compiled views stay together; comparable piece geometry/product states, additional pan area/batches and measured endpoints govern"
+  },
+  "relationships": {
+    "pairsWith": [
+      "avocado-kale-caesar-salad",
+      "cinnamon-sweet-potatoes",
+      "green-beans-with-shallots-and-lemon"
+    ],
+    "wholeLinkedMealReview": null,
+    "scope": "Pairings remain separate recipes; no automatic whole meal or dependency complete-review status",
+    "rootAssessment": "Pork Tenderloin Dinner was inspected whole against the tenderloin and side recipes. Its oven schedule, marinade/rest omissions and portion mismatch remain separate unresolved work. Carnitas Bowl was read whole and remains in a separate author batch. Pairings retain existing references and receive no review credit from this batch."
+  },
+  "remainingQuestions": [
+    "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+    "Record grill heating strength and completion times for meat and peaches separately.",
+    "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred.",
+    "Can the actual pan rapidly boil its pooled aqueous juices without scorching garlic? If not, use the separate clean fruit pan."
+  ],
+  "kitchenTesting": {
+    "performed": false,
+    "needs": [
+      "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
+      "Record grill heating strength and completion times for meat and peaches separately.",
+      "Modern NYT publisher could not be fetched; no modern formula or household cut substitution inferred."
+    ]
+  },
+  "chronology": {
+    "authorCheckpoint": "25c04a32f318625c66c0c67e52c67d3a257daf7f8219e16c282e07499ffcd038",
+    "independentAdvice": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "rootAuthorization": "All26findinggroups/48exactfields privately authorized; no final acceptance",
+    "application": "Author applied exact authorized fields and regenerated formula-owned output",
+    "rootFinalWholeRecipeInspection": "pending",
+    "independentSelfAcceptance": false,
+    "physicalCooking": false,
+    "production": "not published",
+    "version2": "coverage_check applied root-authorized bounded second-peer fields; not independent acceptance",
+    "rootIntegration": "pending final complete inspection"
+  },
+  "privacyCheck": {
+    "nativeValuesInPublicCookingProse": false,
+    "nativeArchives": "Private evidence only",
+    "scope": "No native-app import or physical cooking test"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "1/2 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "2–2 1/2 Garlic cloves, peeled and minced",
+        "1/2 tbsp Fresh rosemary, minced",
+        "2 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "1 1/2 Fresh peaches, washed, skin on, halved and pitted",
+        "1 tbsp Unsalted butter, diced"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+      "shopping": [
+        "1/2 lb Boneless pork butt or shoulder",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "2–2 1/2 Garlic cloves",
+        "1/2 tbsp Fresh rosemary",
+        "2 tbsp Extra-virgin olive oil",
+        "1 1/2 Fresh peaches",
+        "1 tbsp Unsalted butter"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "1 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "4–5 Garlic cloves, peeled and minced",
+        "1 tbsp Fresh rosemary, minced",
+        "4 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "3 Fresh peaches, washed, skin on, halved and pitted",
+        "2 tbsp Unsalted butter, diced"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+      "shopping": [
+        "1 lb Boneless pork butt or shoulder",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "4–5 Garlic cloves",
+        "1 tbsp Fresh rosemary",
+        "4 tbsp Extra-virgin olive oil",
+        "3 Fresh peaches",
+        "2 tbsp Unsalted butter"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "2 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "8–10 Garlic cloves, peeled and minced",
+        "2 tbsp Fresh rosemary, minced",
+        "8 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "6 Fresh peaches, washed, skin on, halved and pitted",
+        "4 tbsp Unsalted butter, diced"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+      "shopping": [
+        "2 lb Boneless pork butt or shoulder",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "8–10 Garlic cloves",
+        "2 tbsp Fresh rosemary",
+        "8 tbsp Extra-virgin olive oil",
+        "6 Fresh peaches",
+        "4 tbsp Unsalted butter"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "3 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "12–15 Garlic cloves, peeled and minced",
+        "3 tbsp Fresh rosemary, minced",
+        "12 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "9 Fresh peaches, washed, skin on, halved and pitted",
+        "6 tbsp Unsalted butter, diced"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+      "shopping": [
+        "3 lb Boneless pork butt or shoulder",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "12–15 Garlic cloves",
+        "3 tbsp Fresh rosemary",
+        "12 tbsp Extra-virgin olive oil",
+        "9 Fresh peaches",
+        "6 tbsp Unsalted butter"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "4 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "16–20 Garlic cloves, peeled and minced",
+        "4 tbsp Fresh rosemary, minced",
+        "16 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "12 Fresh peaches, washed, skin on, halved and pitted",
+        "8 tbsp Unsalted butter, diced"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+      "shopping": [
+        "4 lb Boneless pork butt or shoulder",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "16–20 Garlic cloves",
+        "4 tbsp Fresh rosemary",
+        "16 tbsp Extra-virgin olive oil",
+        "12 Fresh peaches",
+        "8 tbsp Unsalted butter"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "6 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "24–30 Garlic cloves, peeled and minced",
+        "6 tbsp Fresh rosemary, minced",
+        "24 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "18 Fresh peaches, washed, skin on, halved and pitted",
+        "12 tbsp Unsalted butter, diced"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Pound and season:** Prepare Boneless pork butt or shoulder, Salt, and Black pepper on a raw-meat board. Pound the butterflied pork with a meat mallet to an even approximately ¾ inch thickness and season with the salt and pepper allowances. Keep it refrigerated if waiting while preparing the grill.\n2. **Coat both sides:** Mix Garlic cloves, Fresh rosemary, and 3/4 of the Extra-virgin olive oil into a paste in a small bowl and spread over both sides of the prepared pork, dividing evenly. This is three-quarters of the total olive oil; the remaining quarter is reserved for the cooking surface.\n3. **Heat solid cooking surface:** Heat a large cast-iron pan or griddle over the grill. Once hot, reduce a gas grill to medium or move away from an intense fire as needed. Brush the solid surface with 1/4 of the Extra-virgin olive oil, shared across the chosen pan area. For two pans, divide this allocation across both. Use shimmering oil as the cue and manage heat rather than insisting on prolonged smoking.\n4. **Brown the pork:** Place the coated pork on the hot solid surface. Leave it long enough to form a golden crust, beginning checks before the original approximately 8–10 minute first-side interval if the heat is strong. Lower or move away from intense heat if garlic is blackening before the pork center cooks. Turn with raw-pork tongs, then keep those tools separate from serving tools.\n5. **Cook buttered peaches:** While the pork cooks, arrange Fresh peaches and Unsalted butter in a separate solid pan brushed with part of the reserved pan oil. The separate pan keeps ready fruit apart from raw pork juices. Put peaches cut-side down and dot with all the diced butter. Begin checking after about 5 minutes for softened fruit and browned faces; remove ready peaches with clean utensils to a clean platter. If the pan cannot hold a single layer, cook fruit in additional loads, sharing the full butter across them. Keep the fruit pan and its utensils separate from the raw-pork paste and cooking tools.\n6. **Finish and rest:** Continue cooking pork on its second side, beginning checks during the original 5–7 minute interval and allowing longer if needed. Check several thick centers for at least 145°F /63°C before removal. Transfer with clean utensils to a clean board and rest 5 minutes, meeting the minimum 3-minute rest. Do not infer doneness from color or assume it finishes with the peaches.\n7. **Slice and serve:** Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+      "shopping": [
+        "6 lb Boneless pork butt or shoulder",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "24–30 Garlic cloves",
+        "6 tbsp Fresh rosemary",
+        "24 tbsp Extra-virgin olive oil",
+        "18 Fresh peaches",
+        "12 tbsp Unsalted butter"
+      ],
+      "geometry": "Original cut thickness and individual tenderloin size, product guidance and endpoints stay fixed; pan space/loads change."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Pork and seasoning ---",
+        "2 lb Boneless pork butt or shoulder, butterflied and trimmed",
+        "Salt, to taste for pork",
+        "Black pepper, to taste for pork",
+        "--- Garlic–rosemary paste and pan oil ---",
+        "8–10 Garlic cloves, peeled and minced",
+        "2 tbsp Fresh rosemary, minced",
+        "8 tbsp Extra-virgin olive oil",
+        "--- Buttered peaches ---",
+        "6 Fresh peaches, washed, skin on, halved and pitted",
+        "4 tbsp Unsalted butter, diced"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "checks": {
+    "actualContentSchema": true,
+    "formulaSchema": true,
+    "allThreeGeneratedViews": true,
+    "quarterHalfOriginalOneHalfDoubleTripleReset": true,
+    "focusLint": true,
+    "triageIssues": [],
+    "mainStillFrozen": true,
+    "identityTitleRatingSourcePairsScalingOverridePreserved": true,
+    "actualFirstFollowedGitBytes": true,
+    "physicalCooking": false
+  },
+  "peerCorrectionApplication": {
+    "independentReportSha256": "8a7ba076bab6e5db21e17b44d3cd5e023f6473f6a93964e8bac9ae87bab40d02",
+    "findingGroups": [
+      "PORK-01-ORIGIN",
+      "PORK-02-OUTCOME",
+      "PORK-03-3",
+      "PORK-04-3",
+      "PORK-07-GRILLED-SCALING",
+      "PORK-09-GRILLED-RAWCONTACT",
+      "PORK-13-FROZEN-LEDGERS",
+      "PORK-14-3"
+    ],
+    "rootAuthorization": "All PORK01–15 specified corrections; private application only",
+    "selfAcceptance": false
+  },
+  "safetyInference": {
+    "claim": "Rapid boiling of pooled aqueous raw-pork-contact juices before reusing/serving",
+    "sourceScope": "FDA says rapidly boil raw-contact marinade; applying that liquid-control principle to pooled pork juices is an editorial inference",
+    "limits": "No boiling oil, added water/oil, invented165°F fresh-fruit target or absolute guarantee. Retain separate clean fruit-pan primary with full8tbsp oil/4tbsp butter.",
+    "question": "Can the actual pan rapidly boil its pooled aqueous juices without scorching garlic? If not, use the separate clean fruit pan."
+  },
+  "referenceCheck": {
+    "bodyTargets": [],
+    "allExist": true
+  },
+  "version2CorrectionApplication": {
+    "authorization": "Root authorized PV1-01/02 required and PV1-03/04/05 advisories, PRIVATE NEW v2 only",
+    "changes": [
+      {
+        "findingId": "PV1-01",
+        "slug": "grilled-pork-and-peaches",
+        "field": "formula.steps[6].text",
+        "target": "authored recipe",
+        "before": "Slice the rested pork across the grain and serve with the buttered peaches. If serving juices from the pork-cooking pan, bring any liquid that contacted raw pork to a rapid boil before serving and use clean utensils. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+        "after": "Slice the rested pork across the grain and serve with the buttered peaches. If serving pooled aqueous juices from the pork-cooking pan, bring those juices to a rapid boil before serving and use clean utensils. This means the watery juices, not the oil; do not add liquid to create a boil. Juices from the clean resting board may be served with the rested pork. Never add liquid from the raw-pork board or paste bowl.",
+        "applicationNote": "Regenerate ingredients, yield and Directions together from the authored formula; do not hand-edit generated prose.",
+        "rationale": "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          },
+          {
+            "path": "privately retained evidence",
+            "field": "safetyInference"
+          }
+        ],
+        "applicability": "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "confidence": {
+          "textMismatch": "high",
+          "FDA_scope": "high",
+          "aqueous_pork_juice_application": "moderate",
+          "actual_pan_completion": "unverified"
+        },
+        "questions": [
+          "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route."
+        ]
+      },
+      {
+        "findingId": "PV1-01",
+        "slug": "grilled-pork-and-peaches",
+        "field": "learning.substitutions[0].effect",
+        "target": "authored recipe",
+        "before": "Use the same paste and full pan-oil total. After pork reaches 145°F and moves with clean utensils to a clean board for its 5-minute rest, keep the solid pan hot. Bring any pooled raw-pork-contact juices to a rapid boil before adding the peaches and all the measured butter; manage heat to avoid burning the garlic. Then cook the fruit to tender centers and browned faces with clean utensils. Allow additional elapsed time for this sequential fruit cooking. Do not return raw paste or raw-contact utensils to the cooked fruit; if raw-contact residue cannot be adequately cooked, use the separate clean fruit pan.",
+        "after": "Use the same paste and full pan-oil total. After pork reaches 145°F and moves with clean utensils to a clean board for its 5-minute rest, keep the solid pan hot. Bring any pooled aqueous raw-pork-contact juices—the watery juices, not the oil—to a rapid boil before adding the peaches and all the measured butter; manage heat to avoid burning the garlic. Do not add liquid to create a boil. Then cook the fruit to tender centers and browned faces with clean utensils. Allow additional elapsed time for this sequential fruit cooking. Do not return raw paste or raw-contact utensils to the cooked fruit; if raw-contact residue cannot be adequately cooked, use the separate clean fruit pan.",
+        "rationale": "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          },
+          {
+            "path": "privately retained evidence",
+            "field": "safetyInference"
+          }
+        ],
+        "applicability": "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "confidence": {
+          "textMismatch": "high",
+          "FDA_scope": "high",
+          "aqueous_pork_juice_application": "moderate",
+          "actual_pan_completion": "unverified"
+        },
+        "questions": [
+          "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route."
+        ]
+      },
+      {
+        "findingId": "PV1-01",
+        "slug": "grilled-pork-and-peaches",
+        "field": "ledger.variants[0].effect",
+        "target": "record",
+        "before": "Use the same paste and full pan-oil total. After pork reaches 145°F and moves with clean utensils to a clean board for its 5-minute rest, keep the solid pan hot. Bring any pooled raw-pork-contact juices to a rapid boil before adding the peaches and all the measured butter; manage heat to avoid burning the garlic. Then cook the fruit to tender centers and browned faces with clean utensils. Allow additional elapsed time for this sequential fruit cooking. Do not return raw paste or raw-contact utensils to the cooked fruit; if raw-contact residue cannot be adequately cooked, use the separate clean fruit pan.",
+        "after": "Use the same paste and full pan-oil total. After pork reaches 145°F and moves with clean utensils to a clean board for its 5-minute rest, keep the solid pan hot. Bring any pooled aqueous raw-pork-contact juices—the watery juices, not the oil—to a rapid boil before adding the peaches and all the measured butter; manage heat to avoid burning the garlic. Do not add liquid to create a boil. Then cook the fruit to tender centers and browned faces with clean utensils. Allow additional elapsed time for this sequential fruit cooking. Do not return raw paste or raw-contact utensils to the cooked fruit; if raw-contact residue cannot be adequately cooked, use the separate clean fruit pan.",
+        "rationale": "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          },
+          {
+            "path": "privately retained evidence",
+            "field": "safetyInference"
+          }
+        ],
+        "applicability": "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "confidence": {
+          "textMismatch": "high",
+          "FDA_scope": "high",
+          "aqueous_pork_juice_application": "moderate",
+          "actual_pan_completion": "unverified"
+        },
+        "questions": [
+          "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route."
+        ]
+      },
+      {
+        "findingId": "PV1-01",
+        "slug": "grilled-pork-and-peaches",
+        "field": "sourceDisagreements[2]",
+        "target": "record",
+        "before": "The source two-pan alternative is the main concurrent route; the existing one-surface option is retained with sequential fruit cooking after pork removal to avoid ready fruit contacting uncooked pork juices. This consequential process change requires peer challenge; all8tbsp oil/4tbsp butter stay, and the exact concurrent original remains retained privately.",
+        "after": "The source two-pan alternative is the main concurrent route. The retained one-surface option cooks fruit after pork removal, with rapid boiling of any pooled aqueous raw-contact juices and a separate clean fruit-pan fallback if raw-contact residue cannot be adequately cooked. Removing pork at 145°F does not establish that the pan or residue is adequately cooked. FDA directly addresses reused raw-contact marinade; applying that liquid-control principle to pooled aqueous pork juices is an editorial inference, not a tested household process or a zero-risk guarantee. All 8 tbsp oil and 4 tbsp butter stay, and the exact concurrent original remains retained privately.",
+        "rationale": "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          },
+          {
+            "path": "privately retained evidence",
+            "field": "safetyInference"
+          }
+        ],
+        "applicability": "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "confidence": {
+          "textMismatch": "high",
+          "FDA_scope": "high",
+          "aqueous_pork_juice_application": "moderate",
+          "actual_pan_completion": "unverified"
+        },
+        "questions": [
+          "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route."
+        ]
+      },
+      {
+        "findingId": "PV1-01",
+        "slug": "grilled-pork-and-peaches",
+        "field": "findings[0].rationale[2]",
+        "target": "record",
+        "before": "The source two-pan alternative is the main concurrent route; the existing one-surface option is retained with sequential fruit cooking after pork removal to avoid ready fruit contacting uncooked pork juices. This consequential process change requires peer challenge; all8tbsp oil/4tbsp butter stay, and the exact concurrent original remains retained privately.",
+        "after": "The source two-pan alternative is the main concurrent route. The retained one-surface option cooks fruit after pork removal, with rapid boiling of any pooled aqueous raw-contact juices and a separate clean fruit-pan fallback if raw-contact residue cannot be adequately cooked. Removing pork at 145°F does not establish that the pan or residue is adequately cooked. FDA directly addresses reused raw-contact marinade; applying that liquid-control principle to pooled aqueous pork juices is an editorial inference, not a tested household process or a zero-risk guarantee. All 8 tbsp oil and 4 tbsp butter stay, and the exact concurrent original remains retained privately.",
+        "rationale": "The private safetyInference and source addendum correctly exclude oil boiling and invented added liquid, but the serving step says any liquid and the single-pan effect omits aqueous. This is consequential with the full measured oil and butter. The recorded claim that fruit cooking after pork removal avoids uncooked pork juices is also incomplete when read alone. Make the existing inference and its limits consistent; retain the clean separate fruit-pan primary, sequential-branch residue fallback, full richness, measured meat endpoint/rest and clean tools. This wording clarification adds no dose, first-cook fruit temperature or completion guarantee.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          },
+          {
+            "path": "privately retained evidence",
+            "field": "safetyInference"
+          }
+        ],
+        "applicability": "FDA directly addresses raw-contact marinade reuse. Applying it to pooled watery pork juices is an editorial application with moderate confidence; it does not validate arbitrary oily residue or test this household pan. Meat-center 145°F plus rest remains a separate control.",
+        "confidence": {
+          "textMismatch": "high",
+          "FDA_scope": "high",
+          "aqueous_pork_juice_application": "moderate",
+          "actual_pan_completion": "unverified"
+        },
+        "questions": [
+          "Can the actual single pan rapidly boil its pooled watery juices without scorching the paste, and can remaining raw-contact residue be adequately cooked? If uncertain, use the already written separate clean fruit-pan route."
+        ]
+      },
+      {
+        "findingId": "PV1-02",
+        "slug": "grilled-pork-and-peaches",
+        "field": "ratiosYieldCapacity.timing",
+        "target": "record",
+        "before": "About 15–25 min active preparation; About 15–25 min cooking, plus 5 min rest and grill/pan heating; About 40–65 min, depending on heating and pan loads. These are untested planning ranges. Preparation overlaps oven/pan heating and some component work; rest and mandatory refrigeration remain part of elapsed time. Scaling changes loads, not individual-cut thickness or clock multiples.",
+        "after": "Plan roughly 15–25 minutes active preparation, 15–25 minutes cooking and a 5-minute pork rest. Grill or pan heating adds elapsed time unless it actually overlaps preparation. The 40–65 minute total is an approximate plan, not an upper limit for a slow fire or extra loads. The separate-pan route lets peaches cook alongside pork; the single-pan route adds fruit cooking and any required handling after pork removal. Keep the same thickness, full oil/butter allocations and separate doneness checks when scaling.",
+        "rationale": "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "sources": [
+          {
+            "path": "privately retained evidence",
+            "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+          },
+          {
+            "path": "privately retained evidence",
+            "scope": "Original independent recommendations before author application"
+          }
+        ],
+        "applicability": "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "confidence": "high",
+        "questions": []
+      },
+      {
+        "findingId": "PV1-02",
+        "slug": "grilled-pork-and-peaches",
+        "field": "ratiosYieldCapacity.capacity",
+        "target": "record",
+        "before": [
+          "Keep pork roughly ¾ inch thick and peaches as comparable halves when scaling. Use additional solid cooking surface or batches, without forcing every peach around the meat or multiplying its brief cooking clock.",
+          "Three-quarters of the 8 tbsp oil goes into the garlic–rosemary paste; one-quarter brushes the pan/griddle. All 4 tbsp butter goes with the peaches. Use a solid surface rather than letting that butter fall through open grill grates.",
+          "For a separate peach pan, divide the same pan-oil allocation across both solid pans; no second full oil dose. Keep raw-pork tools away from the cooked peach platter and resting board."
+        ],
+        "after": [
+          "Keep pork roughly ¾ inch thick and peaches as comparable halves when scaling. Use additional solid cooking surface or batches, without forcing every peach around the meat or multiplying its brief cooking clock.",
+          "Three-quarters of the listed oil goes into the garlic–rosemary paste; one-quarter brushes the chosen pan/griddle area. All the listed butter goes with the peaches. In the original batch these totals are 8 tbsp oil and 4 tbsp butter. Use a solid surface so the butter stays with the fruit.",
+          "For a separate peach pan, divide the same pan-oil allocation across both solid pans; no second full oil dose. Keep raw-pork tools away from the cooked peach platter and resting board."
+        ],
+        "rationale": "All five records retain their author-era ratiosYieldCapacity.timing. Chipotle still says 35–60 minutes and mentions mandatory refrigeration/rest, while its correctly authored final timing says 40–70 minutes and explicitly has neither stage. Herb, Grilled and Chipotle capacity arrays also preserve unqualified fixed amounts which were corrected to scaled listed amounts with original-batch context in the final source. These are real paired-record inconsistencies, not a request for another timing estimate. Rosemary and Balsamic capacity arrays already match and should stay unchanged.",
+        "sources": [
+          {
+            "path": "privately retained evidence",
+            "scope": "Root-authorized PORK05/PORK07/PORK08/PORK14 changes and exact final-source values"
+          },
+          {
+            "path": "privately retained evidence",
+            "scope": "Original independent recommendations before author application"
+          }
+        ],
+        "applicability": "Pure exact-source and record comparison; no primary safety document establishes these untested culinary planning ranges.",
+        "confidence": "high",
+        "questions": []
+      },
+      {
+        "findingId": "PV1-05",
+        "slug": "grilled-pork-and-peaches",
+        "field": "learning.sources",
+        "target": "authored recipe",
+        "before": [
+          {
+            "title": "The New York Times — Grilled Pork and Peaches",
+            "url": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches"
+          },
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "The New York Times — Grilled Pork and Peaches",
+            "url": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches"
+          },
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — refrigerated marinating and reuse of raw-contact liquid",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "rationale": "The final cooking text adds a rapid-boil application from FDA, but its normal source list and finding-specific primary sources omit FDA. The correct narrow scope is already in safetyInference and the addendum. Retain that private distinction and add the normal direct source label; do not claim FDA tested this pork-peach formula or household pan.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          }
+        ],
+        "confidence": "high",
+        "questions": []
+      },
+      {
+        "findingId": "PV1-05",
+        "slug": "grilled-pork-and-peaches",
+        "field": "findings[1].sources",
+        "target": "record",
+        "before": [
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "after": [
+          {
+            "title": "FoodSafety.gov — pork cuts, ground meat and leftover temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FoodSafety.gov — clean, separate, cook and chill",
+            "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+          },
+          {
+            "title": "USDA — leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          }
+        ],
+        "rationale": "The final cooking text adds a rapid-boil application from FDA, but its normal source list and finding-specific primary sources omit FDA. The correct narrow scope is already in safetyInference and the addendum. Retain that private distinction and add the normal direct source label; do not claim FDA tested this pork-peach formula or household pan.",
+        "sources": [
+          {
+            "title": "FDA — Are You Storing Food Safely?",
+            "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely"
+          },
+          {
+            "path": "privately retained evidence"
+          }
+        ],
+        "confidence": "high",
+        "questions": []
+      }
+    ],
+    "oldManifestSha256": "a6aadcbc80f95e0668acd058211ec1ccab55837034b7baedee2c157ea35ec352",
+    "oldSecondPeerSha256": "71383400eb7c94497455ead354ce534d35219747d41179157638affbd82dcb2c",
+    "scope": "New private preparation, not independent/root acceptance or physical cooking."
+  },
+  "acceptedSourceSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81",
+  "rootFinalAcceptance": "accepted after whole independent challenges and complete final root inspection",
+  "rootIntegrationRequirements": [],
+  "integrationInputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pork-five-sources.json",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "rootWholeInspection": "Accept exact v2 candidates after original whole independent challenge, a second independent challenge and complete root source/diff inspection. FDA raw-marinade guidance supports a bounded editorial inference for rapidly boiling pooled aqueous pork-contact juices; it does not validate this exact pan. The clean fruit pan is the primary route and the fallback when the actual pan cannot rapidly boil those juices. Never boil oil or invent added liquid. Source pepper and optional-water restorations have been independently challenged and are accepted with complete distinct smaller-pepper and current early-glaze variants. Bacon must satisfy its actual package preparation separately from the pork center endpoint. Original richness, all allocations, current repairs, authorship and distinct variants remain.",
+  "resolvedIndependentQuestions": [],
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 37,
+    "targetedLint": "Five pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11910,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 sources; only five public recipe schemas changed",
+    "stableBindings": "All 643 current private bindings verified; every existing identity preserved",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 5,
+    "visibleMethodSteps": 32,
+    "scaledIngredientDisplays": 183,
+    "scaledYieldDisplays": 15,
+    "scaleFactors": [0.5, 2, 1],
+    "mobileWidth": 375,
+    "noOverflow": true,
+    "cooking": "All five ingredient/step checks persist after reload; normal mode on reload; reset and exit pass",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Controls enabled; shared styles unchanged; print preview unverified",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
