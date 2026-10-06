@@ -3,61 +3,74 @@ miseId: 46697772-9229-4c4b-8732-1ff6f7842ece
 title: Play-Dough
 difficulty: intermediate
 cookingMethods:
-  - no-cook
-dietary:
-  - vegetarian
+  - mix
 occasions:
-  - kid-friendly
+  - make-ahead
 seasons:
   - year-round
-nutritionalDensity: light
-leftovers: excellent
 equipment:
   - saucepan
 advancePrep:
   - make-ahead
-flavorProfile:
-  - rich
-cuisines:
-  - American
-role: base
-vibe: nutritious
 prepTime: 5 min
 cookTime: 5 min
-totalTime: 10 min
+totalTime: 'About 10 min preparation and stirring, plus cooling'
 servings: 1 large batch
-pairsWith:
-  - blueberry-baked-oatmeal
-  - blueberry-banana-pancake-muffins
-  - blueberry-oat-breakfast-bars
 ingredients:
-  - 1 cup All-Purpose Flour
-  - 1/2 cup Fine Salt
-  - 2 tsp Cream of Tartar
-  - 1 cup Water
-  - 1 tbsp Vegetable Oil
-  - Food Coloring or Liquid Watercolors
-origin: United States
-nutrition:
-  calories: 795
-  protein: 13.5
-  carbs: 96
-  fat: 38.5
-  fiber: 3.5
-  sugar: 0.5
-  sodium: 111620
+  - 1 cup all-purpose flour
+  - 1/2 cup fine salt
+  - 2 tsp cream of tartar
+  - 1 cup water
+  - 1 tbsp vegetable oil
+  - 'Food coloring OR liquid watercolors, as desired for craft use; follow the actual label, not for ingestion'
 source: Adapted from Gracy Ann
+categories:
+  - Crafts
+learning:
+  focus: Stir a saucepan craft dough to its texture cue and cool it
+  outcome: 'A cohesive, comfortably cooled nonfood craft mixture.'
+  techniques:
+    - starch
+    - temperature
+  before:
+    - Adults handle the hot pan and stirring. Keep this high-salt craft dough and its tools separate from food.
+    - Do not taste it or give raw-flour dough to children for play. A cohesive ball does not certify flour decontamination.
+  checkpoints:
+    - step: 4
+      cue: The mixture gathers into one ball and pulls away from the sides while stirring.
+      why: This observes the craft texture directly instead of assuming a fixed short heating time works for every pan.
+    - step: 5
+      cue: The center is comfortably cool before kneading.
+      why: The thick dough retains heat even after removal from the stove.
+  troubleshooting:
+    - problem: The mixture scorches before gathering
+      cause: The pan is too hot or stirring leaves portions against its base.
+      fix: Lower the heat and keep stirring. Scorched material cannot be made unscorched by kneading; discard unsuitable dough.
+  timing: 'The existing five-minute preparation/five-minute cooking plan is approximate. Stirring continues to the actual texture cue, and complete safe handling cool-down adds elapsed time. Larger pans and batches have different heating and cooling behavior.'
+  storage: Use an airtight labeled nonfood container away from food. Inspect before each use and discard unsuitable material. Do not eat it or give raw-flour dough to children for play.
+  sources:
+    - title: FDA raw-flour handling
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
+    - title: CDC raw-flour crafts
+      url: 'https://www.cdc.gov/food-safety/foods/no-raw-dough.html'
+  review:
+    status: editorial-review
+    date: '2026-10-06'
 ---
 
 ## Chef's Note
 
-Homemade play-dough is a rainy-day project that's actually food science at work - a cooked dough that stays pliable for months. The cream of tartar is the key: it acts as a preservative and keeps the dough soft, so it won't crack or harden in an airtight container. The oil and salt also help preserve texture.
+This is a nonfood craft dough. Do not eat or taste it, and do not give dough made with raw flour to children for play. A hot-water or short stovetop texture change is not a validated treatment that makes this formula edible; adults handle the hot equipment and dough. This saucepan version is attributed to Gracy Ann; stir until the mixture pulls together, then cool it before handling.
 
 ## Directions
 
-1.  **Combine:** In a medium non-stick saucepan, whisk together the flour, salt, and cream of tartar.
-2.  **Emulsify:** Add the water, oil, and food coloring. Whisk until no lumps remain.
-3.  **The Cook:** Place over medium heat. Stir constantly with a wooden spoon for 3-5 minutes.
-4.  **The Pull:** The mixture will look like a liquid, then suddenly clump together. Continue stirring until the dough pulls away from the sides of the pan and forms a single, non-sticky ball.
-5.  **Knead:** Remove from heat and place on a clean surface. Once cool enough to touch, knead for 1 minute until perfectly smooth.
-6.  **Store:** Store in an airtight container for up to 6 months to maintain the "Bounce."
+1. **Dry supplies:** In a non-stick saucepan, whisk together all the flour, fine salt and cream of tartar. Keep flour dust away from ready-to-eat food.
+2. **Wet supplies:** Add all the water and vegetable oil and the selected coloring according to its label. Mix until evenly combined.
+3. **Heat and stir:** An adult places the pan over medium heat and stirs continuously with a wooden spoon, beginning checks after about 3 minutes.
+4. **Texture:** Continue stirring until the mixture gathers into a ball and pulls away from the pan. This is a texture cue, not a verified flour decontamination endpoint.
+5. **Cool and knead:** Remove from the heat and put the dough on a clean, heatproof surface. Let its center as well as its surface cool enough for comfortable handling, then knead for about 1 minute until smoother. Do not taste it or give raw-flour dough to children for play.
+6. **Store and clean:** Store cooled dough in an airtight, clearly labeled nonfood container away from food. Wash hands, tools and surfaces after use. Discard if mold, off odors or unsuitable texture develops.
+
+## Cooking Notes
+
+The coloring is a genuinely unmeasured craft supply, not an ingredient to eat. Do not add essential oils to this mixture.

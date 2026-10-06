@@ -1,0 +1,915 @@
+{
+  "slug": "real-spaghetti-carbonara",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "9cf67061e710024e753b38c8393c455f37e063f03a77c3c73a85cd866374fb20",
+  "acceptedSourceSha256": "892e66b72473b1d129d6c331d46e56722e73ec1e339d8accbb680b5671091027",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 20 min, plus pasta-water heating that does not overlap preparation"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Spaghetti or Rigatoni",
+        "4 oz Guanciale or Pancetta (thickly diced)",
+        "2 large pasteurized whole eggs",
+        "2 large pasteurized egg yolks",
+        "1 cup Pecorino Romano or Parmesan, freshly grated",
+        "1 tsp Freshly Cracked Black Pepper (lots!)",
+        "Salt for pasta water"
+      ],
+      "after": [
+        "--- Pasta and sauce ---",
+        "1 lb spaghetti or rigatoni",
+        "--- Egg and pork sauce ---",
+        "4 oz guanciale or pancetta, thickly diced; check the product cooking instructions",
+        "2 large pasteurized whole eggs",
+        "2 large pasteurized egg yolks",
+        "1 cup Pecorino Romano or Parmesan, freshly grated",
+        "1 tsp freshly cracked black pepper",
+        "water, enough to cook the pasta; reserve some before draining",
+        "salt, for the pasta water",
+        "additional Pecorino, as desired at serving, separate from the measured sauce cheese",
+        "additional black pepper, as desired at serving, separate from the measured sauce pepper"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 100,
+        "protein": 7,
+        "carbs": 7,
+        "fat": 5.5,
+        "fiber": 1,
+        "sugar": 0.5,
+        "sodium": 70
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Pasta and sauce",
+            "ingredients": [
+              {
+                "id": "pasta",
+                "key": "spaghetti-or-rigatoni",
+                "name": "spaghetti or rigatoni",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sauce",
+            "name": "Egg and pork sauce",
+            "ingredients": [
+              {
+                "id": "pork",
+                "key": "guanciale-or-pancetta",
+                "name": "guanciale or pancetta",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "render",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thickly diced; check the product cooking instructions"
+              },
+              {
+                "id": "eggs",
+                "key": "pasteurized-egg",
+                "name": "large pasteurized whole egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "warm",
+                    "share": 1
+                  }
+                ],
+                "plural": "large pasteurized whole eggs"
+              },
+              {
+                "id": "yolks",
+                "key": "pasteurized-egg-yolk",
+                "name": "large pasteurized egg yolk",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "warm",
+                    "share": 1
+                  }
+                ],
+                "plural": "large pasteurized egg yolks"
+              },
+              {
+                "id": "cheese",
+                "key": "pecorino-or-parmesan",
+                "name": "Pecorino Romano or Parmesan",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "warm",
+                    "share": 1
+                  }
+                ],
+                "preparation": "freshly grated"
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "freshly cracked black pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "warm",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "allowance": "enough to cook the pasta; reserve some before draining",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "for the pasta water",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "extra-cheese",
+                "key": "pecorino",
+                "name": "additional Pecorino",
+                "allowance": "as desired at serving, separate from the measured sauce cheese",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "extra-pepper",
+                "key": "black-pepper",
+                "name": "additional black pepper",
+                "allowance": "as desired at serving, separate from the measured sauce pepper",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "pasta",
+            "title": "Cook pasta",
+            "text": "Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks."
+          },
+          {
+            "id": "render",
+            "title": "Render pork",
+            "text": "Cook {{ingredients}} in a roomy skillet over medium heat until the fat renders and the pieces are crisp, following any product-specific cooking instructions. Remove the skillet from the heat and retain all the rendered fat and pork for the pasta."
+          },
+          {
+            "id": "warm",
+            "title": "Warm sauce",
+            "text": "Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint."
+          },
+          {
+            "id": "reserve",
+            "title": "Reserve water",
+            "text": "Before draining, reserve starchy cooking water in a heatproof container: the original 1 lb pasta batch reserves 1 cup. Keep a proportional reserve for other batches, but add only what the sauce needs. Drain the al dente pasta."
+          },
+          {
+            "id": "toss",
+            "title": "Combine off heat",
+            "text": "Keep the pork skillet off the heat. Add all the hot pasta to all the pork and rendered fat, then add all the warm egg-and-cheese mixture. Toss immediately."
+          },
+          {
+            "id": "emulsify",
+            "title": "Adjust sauce",
+            "text": "Toss vigorously, beginning with about ¼ cup of the reserved pasta water for the original 1 lb batch and proportionally smaller or larger additions for another batch. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more of the reserve only as needed until the sauce coats the pasta without a pool of water."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Serve immediately with {{ingredients}} if desired. Do not put the egg sauce back over high direct heat to hold it."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Combine a rich egg-and-cheese sauce off direct heat",
+        "outcome": "Al dente pasta with crisp pork and a glossy coating rather than curds or watery sauce.",
+        "techniques": ["emulsions", "temperature"],
+        "before": [
+          "Prepare the complete egg/cheese/pepper mixture and heatproof reserve container before draining. Use a bowl that rests securely above boiling water and handle it with a mitt.",
+          "Both whole eggs and separate yolks must be pasteurized for this lightly heated method. Read actual pork and egg-product labels.",
+          "Use a skillet large enough to toss the listed pasta with all the pork fat and sauce; divide complete proportionate loads if necessary."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The mixture is warm and cheese softens without egg curds forming.",
+            "why": "The brief gentle warming helps blending; a fixed minute does not certify egg cooking."
+          },
+          {
+            "step": 5,
+            "cue": "The skillet is off direct heat before all the egg mixture is added.",
+            "why": "Hot direct heat can set the eggs faster than they spread through the pasta."
+          },
+          {
+            "step": 6,
+            "cue": "The sauce coats the pasta with no loose pool and no curds.",
+            "why": "Small water additions loosen the full cheese-and-fat mixture without diluting it at once."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The egg sauce becomes grainy or scrambled",
+            "cause": "The bowl or skillet was too hot, or tossing was delayed.",
+            "fix": "Remove direct heat immediately. A small water addition may loosen the coating, but fully set egg curds cannot be returned to a smooth emulsion."
+          },
+          {
+            "problem": "The sauce is thin and pools",
+            "cause": "Too much reserved water was added at once.",
+            "fix": "Keep tossing briefly with the hot pasta off heat. Do not add extra unlisted cheese or boil the egg sauce to force it thick; a badly diluted coating cannot be repaired by the original formula alone."
+          }
+        ],
+        "timing": "The 5-minute preparation/15-minute cooking plan assumes the cooking and rendering work overlap. Water heating that does not overlap preparation, actual package times, bowl warming and extra pan loads extend elapsed time. This is an immediate-service sauce, not a holding plan.",
+        "storage": "Serve promptly. If keeping leftovers, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below, and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout; their eggs will set further and the fresh silky texture may not return. That leftover endpoint is separate from the first-cook pasteurized-egg method.",
+        "sources": [
+          {
+            "title": "FDA pasteurized eggs for raw/lightly cooked dishes",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Guanciale",
+            "alternative": "Same listed full amount of pancetta",
+            "effect": "Render the chosen pork following its product instructions and retain all the fat for the same complete sauce."
+          },
+          {
+            "ingredient": "Pecorino Romano",
+            "alternative": "Same listed full amount of Parmesan",
+            "effect": "Use the complete measured cheese in the pasteurized egg mixture and adjust with reserved water by the same coating cue."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCarbonara is a Roman dish that dates to the 1940s, with debates about whether it was invented by coal miners (carbonari) or simply uses lots of black pepper resembling coal dust. What's certain: authentic carbonara contains no cream - the silky sauce comes from tempering eggs with hot pasta water and rendered pork fat. Guanciale (cured pork jowl) is traditional, but pancetta works well; never use bacon as its smokiness overwhelms the dish. The key is working quickly off-heat so the eggs create a creamy sauce without scrambling.\n\n## Directions\n\n1.  **Boil:** Bring a large pot of salted water to a boil. Cook pasta for 1 minute **less** than package instructions.\n2.  **Render:** While pasta boils, sauté the guanciale/pancetta in a large skillet over medium heat until the fat has rendered and the meat is crispy. Remove from heat.\n3.  **The Temper:** In a medium stainless steel or glass bowl, whisk the pasteurized whole eggs and yolks, cheese, and pepper. Place the bowl over the pot of boiling pasta for 1 minute (like a double boiler), whisking constantly until the mixture is warm and the cheese starts to melt.\n4.  **Bind:** Reserve 1 cup of starchy pasta water. Drain the pasta.\n5.  **Toss:** Add the hot pasta to the skillet with the rendered fat. Pour the warm egg/cheese mixture over the pasta.\n6.  **Emulsify:** Add 1/4 cup of pasta water. Toss vigorously and constantly. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more water if it looks too thick.\n7.  **Serve:** Serve immediately with extra Pecorino and pepper.\n",
+    "after": "\n## Chef's Note\n\nRendered guanciale or pancetta, the full grated cheese and pasteurized eggs make this egg-and-cheese sauce. Keep the skillet off direct heat when the egg mixture goes in, then use reserved starchy water in small additions to turn it into a glossy coating. This lightly heated sauce uses pasteurized eggs rather than relying on its appearance as evidence that ordinary raw eggs have cooked.\n\n## Directions\n\n1. **Cook pasta:** Use spaghetti or rigatoni, water, and salt. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks.\n2. **Render pork:** Cook guanciale or pancetta in a roomy skillet over medium heat until the fat renders and the pieces are crisp, following any product-specific cooking instructions. Remove the skillet from the heat and retain all the rendered fat and pork for the pasta.\n3. **Warm sauce:** Whisk large pasteurized whole eggs, large pasteurized egg yolks, Pecorino Romano or Parmesan, and freshly cracked black pepper in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint.\n4. **Reserve water:** Before draining, reserve starchy cooking water in a heatproof container: the original 1 lb pasta batch reserves 1 cup. Keep a proportional reserve for other batches, but add only what the sauce needs. Drain the al dente pasta.\n5. **Combine off heat:** Keep the pork skillet off the heat. Add all the hot pasta to all the pork and rendered fat, then add all the warm egg-and-cheese mixture. Toss immediately.\n6. **Adjust sauce:** Toss vigorously, beginning with about ¼ cup of the reserved pasta water for the original 1 lb batch and proportionally smaller or larger additions for another batch. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more of the reserve only as needed until the sauce coats the pasta without a pool of water.\n7. **Serve:** Serve immediately with additional Pecorino and additional black pepper if desired. Do not put the egg sauce back over high direct heat to hold it.\n\n## Cooking Notes\n\nUse shell eggs labeled pasteurized, or a suitable pasteurized egg product following its label, for both the whole-egg and yolk supplies. For fractional quantities, use the corresponding fraction of a beaten pasteurized egg or yolk rather than rounding. A glossy sauce does not establish a measured 160°F egg-dish endpoint; diners requiring a fully cooked egg dish need that separate preparation.\n"
+  },
+  "findings": [
+    {
+      "id": "BCD23-C01",
+      "title": "BCD23-C01",
+      "rationale": "Migrate the complete current repaired carbonara with all full sauce amounts, all rendered fat and pasteurized whole eggs/yolks. Preserve first gentle above-water warming and off-heat toss; explicitly keep reserve/additions original-batch/proportional rather than forced consumption. Add genuinely unmeasured cooking water and source optional extra cheese/pepper. Replace automatic package-minus-one drain with an al-dente check starting one minute early. Remove unsupported generated origin/coal-miner history and absolute bacon claims without inventing an author. Distinguish separate165°F leftovers from fresh lightly heated pasteurized sauce.",
+      "confidence": "High for exact preserved ingredients and prior repairs; moderate for cooking/usability inference; no birthplace/authorship evidence",
+      "applicableSources": [
+        "actual-introduction",
+        "e70d098f3313e29087470fda5e9f65e7336b4bc4",
+        "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
+        "493885bb88fa96b1ab626b20a5c8ec78830f9145",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Actual first retained Git cooking has no sourceUrl/author or exact original450 join. It supports full formula and original water guides, not historical authenticity. FDA recommends pasteurized eggs for raw/lightly cooked service; existing brief warming is not a measured160endpoint. Off-heat emulsion/al-dente/load guidance is editorial cooking inference. USDA165applies only actual stored leftovers.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "content",
+        "learning",
+        "totalTime"
+      ],
+      "questions": [
+        "Confirm actual cured-pork package cooking instructions and pasteurized egg product suitable for this method. Larger/fractional loads and actual total clock are untested. Incoming Carbonara Night omits pasteurization/gentle warm and remains unapproved."
+      ]
+    },
+    {
+      "id": "BCD23-META",
+      "title": "BCD23-META",
+      "rationale": "Omit unsupported geographic-origin and unverified numerical-nutrition fields; preserve actual source, food style, identity and full rich doses.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "First Git is unattributed and contains no origin evidence. Italian/Roman style wording is not a documented birthplace of this particular method. Full sauce amounts are preserved; numerical nutrition was bulk-added without a verified calculation.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/e70d098f3313e29087470fda5e9f65e7336b4bc4/src/content/recipes/real-spaghetti-carbonara.md",
+    "introductionScope": "Earliest retained cooking introduction when no earlier exact HTML binding is established.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "BCD23-C01",
+      "rationale": "Migrate the complete current repaired carbonara with all full sauce amounts, all rendered fat and pasteurized whole eggs/yolks. Preserve first gentle above-water warming and off-heat toss; explicitly keep reserve/additions original-batch/proportional rather than forced consumption. Add genuinely unmeasured cooking water and source optional extra cheese/pepper. Replace automatic package-minus-one drain with an al-dente check starting one minute early. Remove unsupported generated origin/coal-miner history and absolute bacon claims without inventing an author. Distinguish separate165°F leftovers from fresh lightly heated pasteurized sauce.",
+      "applicability": "Actual first retained Git cooking has no sourceUrl/author or exact original450 join. It supports full formula and original water guides, not historical authenticity. FDA recommends pasteurized eggs for raw/lightly cooked service; existing brief warming is not a measured160endpoint. Off-heat emulsion/al-dente/load guidance is editorial cooking inference. USDA165applies only actual stored leftovers."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 lb Spaghetti or Rigatoni",
+        "destination": "Full1lbpasta cooked in saltedwater.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 1,
+        "text": "4 oz Guanciale or Pancetta (thickly diced)",
+        "destination": "All4ozchosenpork rendered; allfat retained.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 2,
+        "text": "2 large pasteurized whole eggs",
+        "destination": "Full2pasteurizedwholeeggs gentlywarmed inbowl.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 3,
+        "text": "2 large pasteurized egg yolks",
+        "destination": "Full2pasteurizedyolks gentlywarmed inbowl.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 4,
+        "text": "1 cup Pecorino Romano or Parmesan, freshly grated",
+        "destination": "Full1cupchosencheese samebowl.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 5,
+        "text": "1 tsp Freshly Cracked Black Pepper (lots!)",
+        "destination": "Full1tsppepper samebowl.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 6,
+        "text": "Salt for pasta water",
+        "destination": "Saltforpastawaterunmeasured; waterrequired butunlisted; source1cupreserve/¼cupfirstaddition; extraPecorino/pepperatservingunlisted.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      }
+    ],
+    "saved": [
+      {
+        "index": 0,
+        "text": "1 lb Spaghetti or Rigatoni",
+        "destination": "Full1lbchosenpasta.",
+        "scope": "Exact actual first Git cooking ingredient field; no original450 join"
+      },
+      {
+        "index": 1,
+        "text": "4 oz Guanciale or Pancetta (thickly diced)",
+        "destination": "Full4ozchosenpork + allrenderedfat.",
+        "scope": "Exact actual first Git cooking ingredient field; no original450 join"
+      },
+      {
+        "index": 2,
+        "text": "4 large Eggs (2 whole, 2 yolks)",
+        "destination": "Four shell egg supplies yield2whole+2yolks,not4whole; a2nowpasteurizedsplit.",
+        "scope": "Exact actual first Git cooking ingredient field; no original450 join"
+      },
+      {
+        "index": 3,
+        "text": "1 cup Pecorino Romano or Parmesan, freshly grated",
+        "destination": "Full1cupchosencheese warmbowl.",
+        "scope": "Exact actual first Git cooking ingredient field; no original450 join"
+      },
+      {
+        "index": 4,
+        "text": "1 tsp Freshly Cracked Black Pepper (lots!)",
+        "destination": "Full1tsppepper warmbowl.",
+        "scope": "Exact actual first Git cooking ingredient field; no original450 join"
+      },
+      {
+        "index": 5,
+        "text": "Salt for pasta water",
+        "destination": "Saltpastawaterunmeasured.",
+        "scope": "Exact actual first Git cooking ingredient field; no original450 join"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.pasta",
+        "name": "spaghetti or rigatoni",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pasta",
+            "share": 1,
+            "text": "Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.pork",
+        "name": "guanciale or pancetta",
+        "quantity": {
+          "amount": 4,
+          "unit": "oz"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "thickly diced; check the product cooking instructions",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "render",
+            "share": 1,
+            "text": "Cook {{ingredients}} in a roomy skillet over medium heat until the fat renders and the pieces are crisp, following any product-specific cooking instructions. Remove the skillet from the heat and retain all the rendered fat and pork for the pasta."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.eggs",
+        "name": "large pasteurized whole egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "warm",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.yolks",
+        "name": "large pasteurized egg yolk",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "warm",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.cheese",
+        "name": "Pecorino Romano or Parmesan",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "freshly grated",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "warm",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.pepper",
+        "name": "freshly cracked black pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "warm",
+            "share": 1,
+            "text": "Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.water",
+        "name": "water",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "enough to cook the pasta; reserve some before draining",
+        "state": "",
+        "optional": false,
+        "role": "cooking-water",
+        "destinations": [
+          {
+            "step": "pasta",
+            "share": 1,
+            "text": "Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.salt",
+        "name": "salt",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "for the pasta water",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "pasta",
+            "share": 1,
+            "text": "Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.extra-cheese",
+        "name": "additional Pecorino",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "as desired at serving, separate from the measured sauce cheese",
+        "state": "",
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Serve immediately with {{ingredients}} if desired. Do not put the egg sauce back over high direct heat to hold it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "sauce.extra-pepper",
+        "name": "additional black pepper",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "as desired at serving, separate from the measured sauce pepper",
+        "state": "",
+        "optional": false,
+        "role": "garnish",
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Serve immediately with {{ingredients}} if desired. Do not put the egg sauce back over high direct heat to hold it."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "unlistedBefore": ["Cookingwater/reserve/optionalextraservingcheeseandpepper appear in method."]
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "pasta",
+      "title": "Cook pasta",
+      "text": "Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks.",
+      "generatedText": "1. **Cook pasta:** Use spaghetti or rigatoni, water, and salt. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks.",
+      "dependsOn": [],
+      "assigned": ["main.pasta", "sauce.water", "sauce.salt"]
+    },
+    {
+      "index": 2,
+      "id": "render",
+      "title": "Render pork",
+      "text": "Cook {{ingredients}} in a roomy skillet over medium heat until the fat renders and the pieces are crisp, following any product-specific cooking instructions. Remove the skillet from the heat and retain all the rendered fat and pork for the pasta.",
+      "generatedText": "2. **Render pork:** Cook guanciale or pancetta in a roomy skillet over medium heat until the fat renders and the pieces are crisp, following any product-specific cooking instructions. Remove the skillet from the heat and retain all the rendered fat and pork for the pasta.",
+      "dependsOn": [],
+      "assigned": ["sauce.pork"],
+      "parallelWith": ["pasta"]
+    },
+    {
+      "index": 3,
+      "id": "warm",
+      "title": "Warm sauce",
+      "text": "Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint.",
+      "generatedText": "3. **Warm sauce:** Whisk large pasteurized whole eggs, large pasteurized egg yolks, Pecorino Romano or Parmesan, and freshly cracked black pepper in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint.",
+      "dependsOn": [],
+      "assigned": ["sauce.eggs", "sauce.yolks", "sauce.cheese", "sauce.pepper"],
+      "requires": "Pasta water is boiling; warm the bowl while pasta cooks.",
+      "parallelWith": ["pasta"]
+    },
+    {
+      "index": 4,
+      "id": "reserve",
+      "title": "Reserve water",
+      "text": "Before draining, reserve starchy cooking water in a heatproof container: the original 1 lb pasta batch reserves 1 cup. Keep a proportional reserve for other batches, but add only what the sauce needs. Drain the al dente pasta.",
+      "generatedText": "4. **Reserve water:** Before draining, reserve starchy cooking water in a heatproof container: the original 1 lb pasta batch reserves 1 cup. Keep a proportional reserve for other batches, but add only what the sauce needs. Drain the al dente pasta.",
+      "dependsOn": ["pasta", "warm"],
+      "assigned": []
+    },
+    {
+      "index": 5,
+      "id": "toss",
+      "title": "Combine off heat",
+      "text": "Keep the pork skillet off the heat. Add all the hot pasta to all the pork and rendered fat, then add all the warm egg-and-cheese mixture. Toss immediately.",
+      "generatedText": "5. **Combine off heat:** Keep the pork skillet off the heat. Add all the hot pasta to all the pork and rendered fat, then add all the warm egg-and-cheese mixture. Toss immediately.",
+      "dependsOn": ["reserve", "render", "warm"],
+      "assigned": []
+    },
+    {
+      "index": 6,
+      "id": "emulsify",
+      "title": "Adjust sauce",
+      "text": "Toss vigorously, beginning with about ¼ cup of the reserved pasta water for the original 1 lb batch and proportionally smaller or larger additions for another batch. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more of the reserve only as needed until the sauce coats the pasta without a pool of water.",
+      "generatedText": "6. **Adjust sauce:** Toss vigorously, beginning with about ¼ cup of the reserved pasta water for the original 1 lb batch and proportionally smaller or larger additions for another batch. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more of the reserve only as needed until the sauce coats the pasta without a pool of water.",
+      "dependsOn": ["toss"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "serve",
+      "title": "Serve",
+      "text": "Serve immediately with {{ingredients}} if desired. Do not put the egg sauce back over high direct heat to hold it.",
+      "generatedText": "7. **Serve:** Serve immediately with additional Pecorino and additional black pepper if desired. Do not put the egg sauce back over high direct heat to hold it.",
+      "dependsOn": ["emulsify"],
+      "assigned": ["sauce.extra-cheese", "sauce.extra-pepper"]
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Spaghetti OR rigatoni",
+      "status": "complete",
+      "scope": "Same1lboriginalfullpasta; actualpackagetime/aldentecue, no inventedexactduration.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "main.pasta",
+        "sauce.pork",
+        "sauce.eggs",
+        "sauce.yolks",
+        "sauce.cheese",
+        "sauce.pepper",
+        "sauce.water",
+        "sauce.salt",
+        "sauce.extra-cheese",
+        "sauce.extra-pepper"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Guanciale OR pancetta",
+      "status": "complete",
+      "scope": "Full4ozchosenpork/renderedfat, actualproductcookinglabel.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "main.pasta",
+        "sauce.pork",
+        "sauce.eggs",
+        "sauce.yolks",
+        "sauce.cheese",
+        "sauce.pepper",
+        "sauce.water",
+        "sauce.salt",
+        "sauce.extra-cheese",
+        "sauce.extra-pepper"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Pecorino OR Parmesan",
+      "status": "complete",
+      "scope": "Full1cupchosencheese, full2whole+2yolk/1tsppepper; extracheese/peppergarnishunmeasured.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "main.pasta",
+        "sauce.pork",
+        "sauce.eggs",
+        "sauce.yolks",
+        "sauce.cheese",
+        "sauce.pepper",
+        "sauce.water",
+        "sauce.salt",
+        "sauce.extra-cheese",
+        "sauce.extra-pepper"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Pasteurized product",
+      "status": "conditional-label-option",
+      "scope": "Fullsameegg/yolkallocations; no arbitrarycartonvolume orordinaryrawreplacement.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "main.pasta",
+        "sauce.pork",
+        "sauce.eggs",
+        "sauce.yolks",
+        "sauce.cheese",
+        "sauce.pepper",
+        "sauce.water",
+        "sauce.salt",
+        "sauce.extra-cheese",
+        "sauce.extra-pepper"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Old bulk-added lemon",
+      "status": "excluded-by-accepted-repair",
+      "scope": "2a7introduced1–2lemonsunsupported;493explicitlyremoved. Not restored.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "main.pasta",
+        "sauce.pork",
+        "sauce.eggs",
+        "sauce.yolks",
+        "sauce.cheese",
+        "sauce.pepper",
+        "sauce.water",
+        "sauce.salt",
+        "sauce.extra-cheese",
+        "sauce.extra-pepper"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [
+      {
+        "path": "src/content/meals/carbonara-night.md",
+        "sha256": "d0171e2779ac70213372f9049c856d60be8779ba733073bc61f87eaae9ee0bd8",
+        "status": "relationship only; whole meal not accepted"
+      }
+    ],
+    "existingPairsWith": ["avocado-kale-caesar-salad", "garlic-bread"],
+    "proposedPairsWith": ["avocado-kale-caesar-salad", "garlic-bread"],
+    "scope": "IncomingCarbonaraNight omits pasteurizedegg specification and gentlebowlwarming and has independent apparatus/clock questions. Complete meal remains unresolved; source acceptance cannot certify meal."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratios": "Git-only first introduction:1lbpasta:4ozpork:2wholeeggs+2yolks:1cupcheese:1tsppepper, saltwaterasneeded; reserve1cup/add¼cupstartguide. a2 split/pasteurized eggs and493removedunsupportedlemons remain. No imported publisher formula or source birth-country certification. Full rendered fat retained; no cream/acid/richness reduction.",
+    "capacity": "Secureheatproofbowlaboveboilingwater, roomyskilletforfullpasta/fat/sauce; splitcompleteproportionalservingloads ifneeded. No kettle/pan dimension or microbial first-cook endpoint invented.",
+    "planningYield": "4 portions",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [
+    {
+      "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
+      "scope": "Pasteurized whole eggs/yolks and no appearance=fullycooked promise."
+    },
+    {
+      "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
+      "scope": "Removed unsupported1–2lemons."
+    }
+  ],
+  "remainingQuestions": [
+    "Git-only culinary original; no direct attributed publisher. Carbonara Night is a separate unresolved combined meal, no meal-certified claim.",
+    "Confirm actual cured-pork package cooking instructions and pasteurized egg product suitable for this method. Larger/fractional loads and actual total clock are untested. Incoming Carbonara Night omits pasteurization/gentle warm and remains unapproved."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,1614 @@
+{
+  "slug": "sheet-pan-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "893da67a0b8fd7a3872654c52d962d286892f65fc9c3d7f0fe04ddd34c11b313",
+  "acceptedSourceSha256": "394cc66b25f0958c02d5660759f97b2e24d1bebf189624923bb5e2479ca02027",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 35 min, plus any remaining preheating or extra pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups all-purpose flour",
+        "1/4 cup brown sugar",
+        "2 tablespoons granulated sugar",
+        "1 tablespoon baking powder",
+        "1/4 teaspoon kosher salt",
+        "2 large eggs",
+        "1 1/4 cups whole milk",
+        "1/4 cup unsalted butter , melted",
+        "1 teaspoon vanilla",
+        "For the Toppings:",
+        "1 1/2 tablespoons seedless strawberry jam , slightly warmed",
+        "1/4 cup sliced strawberries",
+        "1/4 cup chocolate chips",
+        "1/4 cup blueberries",
+        "1 1/2 tablespoons unsalted butter , melted",
+        "1 tablespoon brown sugar",
+        "1/4 teaspoon cinnamon",
+        "maple syrup, butter, or powered sugar , for serving",
+        "Nonstick spray, for greasing the pan"
+      ],
+      "after": [
+        "--- Pancake batter ---",
+        "2 cups all-purpose flour",
+        "1/4 cup brown sugar",
+        "2 tbsp granulated sugar",
+        "1 tbsp baking powder",
+        "1/4 tsp kosher salt",
+        "2 large eggs",
+        "1 1/4 cups whole milk",
+        "1/4 cup unsalted butter, melted and cooled until lukewarm",
+        "1 tsp vanilla",
+        "--- Four topping regions ---",
+        "1 1/2 tbsp seedless strawberry jam, slightly warmed",
+        "1/4 cup fresh strawberries, hulled and sliced",
+        "1/4 cup chocolate chips",
+        "1/4 cup blueberries, washed and drained",
+        "1 1/2 tbsp unsalted butter, melted",
+        "1 tbsp brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "bellyfull.net",
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "batter",
+            "name": "Pancake batter",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "brown",
+                "key": "brown-sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "milk",
+                "key": "whole-milk",
+                "name": "whole milk",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted and cooled until lukewarm"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla",
+                "name": "vanilla",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "toppings",
+            "name": "Four topping regions",
+            "ingredients": [
+              {
+                "id": "jam",
+                "key": "strawberry-jam",
+                "name": "seedless strawberry jam",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "strawberry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "slightly warmed"
+              },
+              {
+                "id": "strawberries",
+                "key": "strawberries",
+                "name": "fresh strawberries",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "strawberry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "hulled and sliced"
+              },
+              {
+                "id": "chips",
+                "key": "chocolate-chips",
+                "name": "chocolate chips",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "chocolate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "blueberries",
+                "key": "blueberries",
+                "name": "blueberries",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "blueberry",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and drained"
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cinnamon",
+                    "share": 1
+                  }
+                ],
+                "preparation": "melted"
+              },
+              {
+                "id": "brown",
+                "key": "brown-sugar",
+                "name": "brown sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "cinnamon",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cinnamon",
+                "key": "cinnamon",
+                "name": "ground cinnamon",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "cinnamon",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "extras",
+            "name": "Greasing and serving",
+            "ingredients": [
+              {
+                "id": "spray",
+                "key": "nonstick-spray",
+                "name": "nonstick spray",
+                "allowance": "as needed for the bottom, sides and corners of the pan",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "serve",
+                "key": "pancake-toppings",
+                "name": "maple syrup, butter or powdered sugar",
+                "allowance": "as desired for serving",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare pan",
+            "text": "Preheat to 425°F. Coat the original 9-by-13-inch rimmed sheet pan with {{ingredients}}. For larger batches use enough original-size pans, dividing all batter and toppings proportionally. For a smaller batch choose a smaller oven-safe rimmed pan with similar batter depth and adequate headroom, and check the center earlier. Dimensions and baking times do not scale with ingredients."
+          },
+          {
+            "id": "mix",
+            "title": "Mix batter",
+            "text": "For the batter, use {{ingredients}}. In a large bowl, whisk the flour, both sugars, baking powder and salt. Add the eggs, milk, lukewarm melted butter and vanilla and whisk until combined and smooth. Stop once no dry pockets remain rather than continuing to beat; do not taste raw batter."
+          },
+          {
+            "id": "spread",
+            "title": "Spread",
+            "text": "Pour the batter into the prepared pan or divide it proportionally among the chosen pans. Tap gently on the counter to level it. Imagine four equal topping regions in each pan."
+          },
+          {
+            "id": "strawberry",
+            "title": "Strawberry region",
+            "text": "Use {{ingredients}} for one region. Dollop small spoonfuls of the jam and swirl gently with a toothpick, then arrange the sliced berries over it. Divide these supplies proportionally among pans if using more than one."
+          },
+          {
+            "id": "blueberry",
+            "title": "Blueberry region",
+            "text": "Scatter {{ingredients}} over a second region, sharing them proportionally among pans."
+          },
+          {
+            "id": "chocolate",
+            "title": "Chocolate region",
+            "text": "Scatter {{ingredients}} over a third region, sharing them proportionally among pans."
+          },
+          {
+            "id": "cinnamon",
+            "title": "Cinnamon region",
+            "text": "Whisk {{ingredients}} together. Dollop small spoonfuls over the fourth region and swirl with a toothpick; share the full mixture proportionally among pans."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Bake about 15–18 minutes for the original batch and pan, until the center springs back and a toothpick comes out without wet batter. Check both a plain area and beneath fruit rather than mistaking a melted chocolate chip for raw batter. If baking several pans, check each; a changed load or depth can alter the time."
+          },
+          {
+            "id": "serve",
+            "title": "Slice and serve",
+            "text": "Cool for about a minute, then slice into portions and serve with {{ingredients}}."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a full batter and four toppings organized",
+        "outcome": "Evenly baked portions with set centers and distinct fruit, chocolate and cinnamon regions.",
+        "techniques": ["leavening", "starch"],
+        "before": [
+          "The original batch uses a 9-by-13-inch rimmed pan. Plan proportionate surface area, batter depth and headroom before mixing; larger batches can need multiple pans.",
+          "Measure the batter butter and topping butter separately, and do the same for the two brown-sugar supplies. Melt the batter butter ahead so it is lukewarm before meeting the eggs.",
+          "Wash, hull and slice strawberries; drain washed blueberries so they do not add a puddle of water."
+        ],
+        "checkpoints": [
+          {
+            "step": 7,
+            "cue": "The cinnamon mixture occupies its own quarter without the butter spreading across the whole pan.",
+            "why": "Keeping the topping localized preserves four distinct flavors and the intended full topping dose."
+          },
+          {
+            "step": 8,
+            "cue": "The center springs back and there is no wet batter around or beneath the fruit.",
+            "why": "Fruit can insulate a wet pocket while an exposed plain region has already baked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Edges dry out while the center stays wet",
+            "cause": "The batter was piled too deeply or the pan/load differs from the original.",
+            "fix": "Continue until the center is baked, shielding browned areas if needed. For the next batch divide among pans with a shallower, similar depth; slicing underbaked batter does not finish cooking it."
+          }
+        ],
+        "timing": "The original 35-minute plan covers preparation, a 15–18-minute bake and a brief cooling minute, with some preheating overlap. Extra pans and oven loading add time; do not multiply the stated baking window by the scale factor.",
+        "storage": "Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F / 74°C throughout, checking the center and more than one portion. Prefer the source’s shorter 3-day refrigerator quality plan or its 2-month wrapped-freezer plan.",
+        "sources": [
+          {
+            "title": "Belly Full: Sheet Pan Pancakes",
+            "url": "https://bellyfull.net/sheet-pan-pancakes/"
+          },
+          {
+            "title": "USDA cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nA single 9-by-13-inch rimmed pan replaces individual griddle batches. Divide the toppings into four areas and keep the batter depth even so all portions bake together.\n\n## Directions\n\n1. **Prepare:** Preheat oven to 425 degrees F. Coat a 9×13 rimmed sheet pan with nonstick spray, making sure to get the sides and corners. Set aside.\n\n2. **Mix:** In a large bowl, whisk together the flour, brown sugar, granulated sugar, baking powder, and salt. Whisk in the eggs, milk, butter, and vanilla until combined and smooth.\n\n3. **Continue:** Pour batter onto the prepared pan. Tap the pan on the counter a few times to even out and flatten the batter.\n\n4. **Continue:** Now imagine the batter divided into four equal sections.\n\n5. **Continue:** In one section, dollop teaspoons of the strawberry jam, then swirl into the batter using a toothpick, making a marbled pattern. Top with sliced strawberries.\n\n6. **Continue:** In another section, sprinkle with the blueberries.\n\n7. **Continue:** In another section, sprinkle chocolate chips.\n\n8. **Continue:** For the last section, whisk together the melted butter, brown sugar, and cinnamon. Dollop teaspoons of the mixture, then swirl into the batter using a toothpick, making a marbled pattern.\n\n9. **Cook:** Bake for 15-18 minutes until a toothpick inserted into the center comes out clean and the pancake springs back to the touch.\n\n10. **Finish:** Allow to cool for a minute or so, then slice into portions.\n\n11. **Finish:** Serve with your choice of syrup, butter, powdered sugar, or all three!\n",
+    "after": "\n## Chef's Note\n\nA rimmed pan replaces individual griddle batches, with strawberry, blueberry, chocolate and cinnamon-sugar regions. Keep the batter depth even, and keep the batter butter and cinnamon-topping butter separate so both reach their intended places.\n\n## Directions\n\n1. **Prepare pan:** Preheat to 425°F. Coat the original 9-by-13-inch rimmed sheet pan with nonstick spray. For larger batches use enough original-size pans, dividing all batter and toppings proportionally. For a smaller batch choose a smaller oven-safe rimmed pan with similar batter depth and adequate headroom, and check the center earlier. Dimensions and baking times do not scale with ingredients.\n2. **Mix batter:** For the batter, use all-purpose flour, brown sugar, granulated sugar, baking powder, kosher salt, large eggs, whole milk, unsalted butter, and vanilla. In a large bowl, whisk the flour, both sugars, baking powder and salt. Add the eggs, milk, lukewarm melted butter and vanilla and whisk until combined and smooth. Stop once no dry pockets remain rather than continuing to beat; do not taste raw batter.\n3. **Spread:** Pour the batter into the prepared pan or divide it proportionally among the chosen pans. Tap gently on the counter to level it. Imagine four equal topping regions in each pan.\n4. **Strawberry region:** Use seedless strawberry jam and fresh strawberries for one region. Dollop small spoonfuls of the jam and swirl gently with a toothpick, then arrange the sliced berries over it. Divide these supplies proportionally among pans if using more than one.\n5. **Blueberry region:** Scatter blueberries over a second region, sharing them proportionally among pans.\n6. **Chocolate region:** Scatter chocolate chips over a third region, sharing them proportionally among pans.\n7. **Cinnamon region:** Whisk unsalted butter, brown sugar, and ground cinnamon together. Dollop small spoonfuls over the fourth region and swirl with a toothpick; share the full mixture proportionally among pans.\n8. **Bake:** Bake about 15–18 minutes for the original batch and pan, until the center springs back and a toothpick comes out without wet batter. Check both a plain area and beneath fruit rather than mistaking a melted chocolate chip for raw batter. If baking several pans, check each; a changed load or depth can alter the time.\n9. **Slice and serve:** Cool for about a minute, then slice into portions and serve with maple syrup, butter or powdered sugar.\n\n## Cooking Notes\n\nCool cooked portions promptly before storing. The refrigerator quality plan is up to 3 days; wrapped portions can be frozen for up to 2 months. Refrigerator-thaw frozen portions before warming. These storage plans do not require leaving a warm pan out until completely cold.\n"
+  },
+  "findings": [
+    {
+      "id": "SBB21-P01",
+      "title": "SBB21-P01",
+      "rationale": "Migrate samefull16measured inputs +2allowances toexplicitbatter/fourtoppings/grease-service. No butterfly/alternativequantityloss. Compiledviewsregeneratedtogether; supplynames retainactualchoice.",
+      "confidence": "high",
+      "applicableSources": ["exactnative/b7/045", "currentimport", "BellyFull"],
+      "exactBeforeAfterReferences": ["formula", "ingredients", "servings", "content"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-P02",
+      "title": "SBB21-P02",
+      "rationale": "Qualifyoriginalpan forscale; distributefullbatter+alltoppingsacrossselectedpans, no fixedpanforallloads orprecisecapacity. Preserve15–18originalcheck+spring/toothpick andaddedfruitwetpocketcheck.",
+      "confidence": "high preservation; moderate mechanism/actualdepth",
+      "applicableSources": ["BellyFull", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["content", "learning", "totalTime"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-P03",
+      "title": "SBB21-P03",
+      "rationale": "Omitpublisherdomainorigin, fixpowderedtypo/hullstrawberries, retainmodern3day/2monthqualityplanswithpromptcool. Source-importpendingrecordisnotcompletedwholeeditorial.",
+      "confidence": "high",
+      "applicableSources": [
+        "e3001d04",
+        "BellyFull",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": ["origin", "ingredients", "learning", "content"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sheet%20Pan%20Pancakes.html",
+    "introductionScope": "Earlier exact named HTML cooking after stable native original join; HTML is not native identity proof.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Complete four-region source/main",
+      "base": "formula",
+      "scope": "All16 measuredentries plus2allowances; batter butter¼cup and cinnamon butter1½Tb both full;4regions geometryfixed/dosesdistributed across chosenpans."
+    },
+    {
+      "name": "Storage quality",
+      "base": "body Cooking Notes",
+      "scope": "Modern3dayfridge/2monthfreezer plan plusprimarypromptcool/reheat; not claimed native notes."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "2 cups all-purpose flour",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "1/4 cup brown sugar",
+        "destination": "mix2 batter",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 tablespoons granulated sugar",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 tablespoon baking powder",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/4 teaspoon kosher salt",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "2 large eggs",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 1/4 cups whole milk",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/4 cup unsalted butter , melted",
+        "destination": "mix2 fullbatterdose distincttopping",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 teaspoon vanilla",
+        "destination": "mix2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "For the Toppings:",
+        "destination": "noningredient topping heading",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 10,
+        "ingredient": "1 1/2 tablespoons seedless strawberry jam , slightly warmed",
+        "destination": "swirl5",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 11,
+        "ingredient": "1/4 cup sliced strawberries",
+        "destination": "5 sliced unhullstate",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 12,
+        "ingredient": "1/4 cup chocolate chips",
+        "destination": "scatter7",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 13,
+        "ingredient": "1/4 cup blueberries",
+        "destination": "scatter6",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 14,
+        "ingredient": "1 1/2 tablespoons unsalted butter , melted",
+        "destination": "mix8 distinctdose",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 15,
+        "ingredient": "1 tablespoon brown sugar",
+        "destination": "mix8 distinctdose",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 16,
+        "ingredient": "1/4 teaspoon cinnamon",
+        "destination": "mix8",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 17,
+        "ingredient": "maple syrup, butter, or powered sugar , for serving",
+        "destination": "serve11 genuineexclusive/orcombined options",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 18,
+        "ingredient": "Nonstick spray, for greasing the pan",
+        "destination": "grease1 allowance",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "id": "batter.flour",
+        "key": "all-purpose-flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.brown",
+        "key": "brown-sugar",
+        "name": "brown sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.sugar",
+        "key": "sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.powder",
+        "key": "baking-powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.salt",
+        "key": "kosher-salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "plural": "large eggs",
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.milk",
+        "key": "whole-milk",
+        "name": "whole milk",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.butter",
+        "key": "unsalted-butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "preparation": "melted and cooled until lukewarm",
+        "component": "Pancake batter"
+      },
+      {
+        "id": "batter.vanilla",
+        "key": "vanilla",
+        "name": "vanilla",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Pancake batter"
+      },
+      {
+        "id": "toppings.jam",
+        "key": "strawberry-jam",
+        "name": "seedless strawberry jam",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "strawberry",
+            "share": 1
+          }
+        ],
+        "preparation": "slightly warmed",
+        "component": "Four topping regions"
+      },
+      {
+        "id": "toppings.strawberries",
+        "key": "strawberries",
+        "name": "fresh strawberries",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "strawberry",
+            "share": 1
+          }
+        ],
+        "preparation": "hulled and sliced",
+        "component": "Four topping regions"
+      },
+      {
+        "id": "toppings.chips",
+        "key": "chocolate-chips",
+        "name": "chocolate chips",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "chocolate",
+            "share": 1
+          }
+        ],
+        "component": "Four topping regions"
+      },
+      {
+        "id": "toppings.blueberries",
+        "key": "blueberries",
+        "name": "blueberries",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "blueberry",
+            "share": 1
+          }
+        ],
+        "preparation": "washed and drained",
+        "component": "Four topping regions"
+      },
+      {
+        "id": "toppings.butter",
+        "key": "unsalted-butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "cinnamon",
+            "share": 1
+          }
+        ],
+        "preparation": "melted",
+        "component": "Four topping regions"
+      },
+      {
+        "id": "toppings.brown",
+        "key": "brown-sugar",
+        "name": "brown sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "cinnamon",
+            "share": 1
+          }
+        ],
+        "component": "Four topping regions"
+      },
+      {
+        "id": "toppings.cinnamon",
+        "key": "cinnamon",
+        "name": "ground cinnamon",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "cinnamon",
+            "share": 1
+          }
+        ],
+        "component": "Four topping regions"
+      },
+      {
+        "id": "extras.spray",
+        "key": "nonstick-spray",
+        "name": "nonstick spray",
+        "allowance": "as needed for the bottom, sides and corners of the pan",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "component": "Greasing and serving"
+      },
+      {
+        "id": "extras.serve",
+        "key": "pancake-toppings",
+        "name": "maple syrup, butter or powdered sugar",
+        "allowance": "as desired for serving",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Greasing and serving"
+      }
+    ],
+    "native": [
+      {
+        "path": "privately retained evidence",
+        "sha256": "7c7c4faad749d75828588194f1f0e5f0780fe5ac8312d7d745243bed6e426c25",
+        "bindingKind": "primary",
+        "ingredients": [
+          {
+            "index": 0,
+            "ingredient": "2 cups all-purpose flour",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "batter",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 1,
+            "ingredient": "1/4 cup brown sugar",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "batterbrownsugar",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 2,
+            "ingredient": "2 tablespoons granulated sugar",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "battergranulated",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 3,
+            "ingredient": "1 tablespoon baking powder",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "batterleavener",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 4,
+            "ingredient": "1/4 teaspoon kosher salt",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "battersalt",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 5,
+            "ingredient": "2 large eggs",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "battereggs",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 6,
+            "ingredient": "1 1/4 cups whole milk",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "battermilk",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 7,
+            "ingredient": "1/4 cup unsalted butter , melted",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "batterbutter",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 8,
+            "ingredient": "1 teaspoon vanilla",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "battervanilla",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 9,
+            "ingredient": "For the Toppings:",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "noningredientheading",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 10,
+            "ingredient": "1 1/2 tablespoons seedless strawberry jam , slightly warmed",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "jamquadrant",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 11,
+            "ingredient": "1/4 cup sliced strawberries",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "strawberryquadrant",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 12,
+            "ingredient": "1/4 cup chocolate chips",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "chocolatequadrant",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 13,
+            "ingredient": "1/4 cup blueberries",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "blueberryquadrant",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 14,
+            "ingredient": "1 1/2 tablespoons unsalted butter , melted",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "cinnamonquadrantbutter",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 15,
+            "ingredient": "1 tablespoon brown sugar",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "cinnamonquadrantsugar",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 16,
+            "ingredient": "1/4 teaspoon cinnamon",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "cinnamonquadrantspice",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 17,
+            "ingredient": "maple syrup, butter, or powered sugar , for serving",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "unmeasuredservingchoices",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          }
+        ]
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "d0f75d9194b60c516ddf0038636b991f38124a0477cb8116550f9ca9d15057a9"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "733025585e1eac61d42b2708c69c5af69f366f2cdc029e71f4ffcb80b6f36875"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "ba7c6b79a6a6473795e30e7e2a7aed94c694a4773a6dd725c6491f1d60581db1"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "5a1d842199089bfb67295e4a845ebf6560e291a5b65ba0e85d7c5d54ce1f9e1c"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "da9e4cb7818ec125f88d5bee48fb545eeae2d7273c556f8051c3f0a0e518d7df"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "037d30d2230e87ad52ebca03bcd4a40f858b09df3114a2228f72f5df0c72691b"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "0b0a8f42719e19f95957ce270b82e04a5781c729cd71723e710a000060ea7eb9"
+      },
+      {
+        "step": 8,
+        "textReference": "privately retained evidence#directions-8",
+        "sha256": "1a277591a86895c1a407f7e2427980ed93cd2b9b9b4ca3132881380bb267ed4c"
+      },
+      {
+        "step": 9,
+        "textReference": "privately retained evidence#directions-9",
+        "sha256": "f3746608565fb475a3aea6251c45351cf937610042f450428f0dcbbc0ca3c24c"
+      },
+      {
+        "step": 10,
+        "textReference": "privately retained evidence#directions-10",
+        "sha256": "d80f28e16a719f7f6c8038e74bc73bb52134c837efd90f06beb8b11c1d707297"
+      },
+      {
+        "step": 11,
+        "textReference": "privately retained evidence#directions-11",
+        "sha256": "b9a26b9587e344c2986c3768f83212d11e45fdd0e197427fc7b4e282c7a0fc06"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "prep",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["extras.spray"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "mix",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": [
+          "batter.flour",
+          "batter.brown",
+          "batter.sugar",
+          "batter.powder",
+          "batter.salt",
+          "batter.eggs",
+          "batter.milk",
+          "batter.butter",
+          "batter.vanilla"
+        ],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "spread",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "strawberry",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["toppings.jam", "toppings.strawberries"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "blueberry",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": ["toppings.blueberries"],
+        "cue": []
+      },
+      {
+        "step": 6,
+        "id": "chocolate",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["toppings.chips"],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "cinnamon",
+        "textReference": "privately retained evidence#formula.steps[6].text",
+        "ingredients": ["toppings.butter", "toppings.brown", "toppings.cinnamon"],
+        "cue": [
+          "The cinnamon mixture occupies its own quarter without the butter spreading across the whole pan."
+        ]
+      },
+      {
+        "step": 8,
+        "id": "bake",
+        "textReference": "privately retained evidence#formula.steps[7].text",
+        "ingredients": [],
+        "cue": ["The center springs back and there is no wet batter around or beneath the fruit."]
+      },
+      {
+        "step": 9,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[8].text",
+        "ingredients": ["extras.serve"],
+        "cue": []
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Complete four-region source/main",
+      "base": "formula",
+      "scope": "All16 measuredentries plus2allowances; batter butter¼cup and cinnamon butter1½Tb both full;4regions geometryfixed/dosesdistributed across chosenpans."
+    },
+    {
+      "name": "Serving toppings",
+      "base": "extras.serve",
+      "scope": "Maple syrup,butter,powdered sugar genuine unmeasured choices/orcombined; no fabricated tablespoon dose."
+    },
+    {
+      "name": "Storage quality",
+      "base": "body Cooking Notes",
+      "scope": "Modern3dayfridge/2monthfreezer plan plusprimarypromptcool/reheat; not claimed native notes."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [],
+    "incomingMeals": [],
+    "disposition": "No incoming composed meal references this recipe. Outgoing recipe links and styles preserved; no meal approval."
+  },
+  "ratiosYieldAndCapacity": [
+    "2cupflour/2eggs/1¼milk/¼cupbatterbutter; toppingadditional1½Tb butter notfirstdose allocation.",
+    "Brown sugar¼cupbatter+1Tbtopping;2Tbgranulatedfull; four regions eachdistinctnot totalbatterdivisionintoquantifiedindividualyields.",
+    "Original6portionplan/9x13pan, allrichnesspreserved; suitablepan depth atscale notmeasuredcapacity."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "1/2 cup all-purpose flour",
+        "0.0625 cup brown sugar",
+        "1/2 tbsp granulated sugar",
+        "1/4 tbsp baking powder",
+        "0.0625 tsp kosher salt",
+        "1/2 large egg",
+        "0.31 cup whole milk",
+        "0.0625 cup unsalted butter, melted and cooled until lukewarm",
+        "1/4 tsp vanilla",
+        "--- Four topping regions ---",
+        "3/8 tbsp seedless strawberry jam, slightly warmed",
+        "0.0625 cup fresh strawberries, hulled and sliced",
+        "0.0625 cup chocolate chips",
+        "0.0625 cup blueberries, washed and drained",
+        "3/8 tbsp unsalted butter, melted",
+        "1/4 tbsp brown sugar",
+        "0.0625 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "1 1/2 portions",
+      "shopping": [
+        "1/2 cup all-purpose flour",
+        "0.0625 cup brown sugar",
+        "1/2 tbsp granulated sugar",
+        "1/4 tbsp baking powder",
+        "0.0625 tsp kosher salt",
+        "1/2 large egg",
+        "0.31 cup whole milk",
+        "0.0625 cup unsalted butter",
+        "1/4 tsp vanilla",
+        "3/8 tbsp seedless strawberry jam",
+        "0.0625 cup fresh strawberries",
+        "0.0625 cup chocolate chips",
+        "0.0625 cup blueberries",
+        "3/8 tbsp unsalted butter",
+        "1/4 tbsp brown sugar",
+        "0.0625 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "1 cup all-purpose flour",
+        "1/8 cup brown sugar",
+        "1 tbsp granulated sugar",
+        "1/2 tbsp baking powder",
+        "1/8 tsp kosher salt",
+        "1 large egg",
+        "5/8 cup whole milk",
+        "1/8 cup unsalted butter, melted and cooled until lukewarm",
+        "1/2 tsp vanilla",
+        "--- Four topping regions ---",
+        "3/4 tbsp seedless strawberry jam, slightly warmed",
+        "1/8 cup fresh strawberries, hulled and sliced",
+        "1/8 cup chocolate chips",
+        "1/8 cup blueberries, washed and drained",
+        "3/4 tbsp unsalted butter, melted",
+        "1/2 tbsp brown sugar",
+        "1/8 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "1 cup all-purpose flour",
+        "1/8 cup brown sugar",
+        "1 tbsp granulated sugar",
+        "1/2 tbsp baking powder",
+        "1/8 tsp kosher salt",
+        "1 large egg",
+        "5/8 cup whole milk",
+        "1/8 cup unsalted butter",
+        "1/2 tsp vanilla",
+        "3/4 tbsp seedless strawberry jam",
+        "1/8 cup fresh strawberries",
+        "1/8 cup chocolate chips",
+        "1/8 cup blueberries",
+        "3/4 tbsp unsalted butter",
+        "1/2 tbsp brown sugar",
+        "1/8 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "2 cups all-purpose flour",
+        "1/4 cup brown sugar",
+        "2 tbsp granulated sugar",
+        "1 tbsp baking powder",
+        "1/4 tsp kosher salt",
+        "2 large eggs",
+        "1 1/4 cups whole milk",
+        "1/4 cup unsalted butter, melted and cooled until lukewarm",
+        "1 tsp vanilla",
+        "--- Four topping regions ---",
+        "1 1/2 tbsp seedless strawberry jam, slightly warmed",
+        "1/4 cup fresh strawberries, hulled and sliced",
+        "1/4 cup chocolate chips",
+        "1/4 cup blueberries, washed and drained",
+        "1 1/2 tbsp unsalted butter, melted",
+        "1 tbsp brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "2 cups all-purpose flour",
+        "1/4 cup brown sugar",
+        "2 tbsp granulated sugar",
+        "1 tbsp baking powder",
+        "1/4 tsp kosher salt",
+        "2 large eggs",
+        "1 1/4 cups whole milk",
+        "1/4 cup unsalted butter",
+        "1 tsp vanilla",
+        "1 1/2 tbsp seedless strawberry jam",
+        "1/4 cup fresh strawberries",
+        "1/4 cup chocolate chips",
+        "1/4 cup blueberries",
+        "1 1/2 tbsp unsalted butter",
+        "1 tbsp brown sugar",
+        "1/4 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "3 cups all-purpose flour",
+        "3/8 cup brown sugar",
+        "3 tbsp granulated sugar",
+        "1 1/2 tbsp baking powder",
+        "3/8 tsp kosher salt",
+        "3 large eggs",
+        "1 7/8 cups whole milk",
+        "3/8 cup unsalted butter, melted and cooled until lukewarm",
+        "1 1/2 tsp vanilla",
+        "--- Four topping regions ---",
+        "2 1/4 tbsp seedless strawberry jam, slightly warmed",
+        "3/8 cup fresh strawberries, hulled and sliced",
+        "3/8 cup chocolate chips",
+        "3/8 cup blueberries, washed and drained",
+        "2 1/4 tbsp unsalted butter, melted",
+        "1 1/2 tbsp brown sugar",
+        "3/8 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "9 portions",
+      "shopping": [
+        "3 cups all-purpose flour",
+        "3/8 cup brown sugar",
+        "3 tbsp granulated sugar",
+        "1 1/2 tbsp baking powder",
+        "3/8 tsp kosher salt",
+        "3 large eggs",
+        "1 7/8 cups whole milk",
+        "3/8 cup unsalted butter",
+        "1 1/2 tsp vanilla",
+        "2 1/4 tbsp seedless strawberry jam",
+        "3/8 cup fresh strawberries",
+        "3/8 cup chocolate chips",
+        "3/8 cup blueberries",
+        "2 1/4 tbsp unsalted butter",
+        "1 1/2 tbsp brown sugar",
+        "3/8 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "4 cups all-purpose flour",
+        "1/2 cup brown sugar",
+        "4 tbsp granulated sugar",
+        "2 tbsp baking powder",
+        "1/2 tsp kosher salt",
+        "4 large eggs",
+        "2 1/2 cups whole milk",
+        "1/2 cup unsalted butter, melted and cooled until lukewarm",
+        "2 tsp vanilla",
+        "--- Four topping regions ---",
+        "3 tbsp seedless strawberry jam, slightly warmed",
+        "1/2 cup fresh strawberries, hulled and sliced",
+        "1/2 cup chocolate chips",
+        "1/2 cup blueberries, washed and drained",
+        "3 tbsp unsalted butter, melted",
+        "2 tbsp brown sugar",
+        "1/2 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "4 cups all-purpose flour",
+        "1/2 cup brown sugar",
+        "4 tbsp granulated sugar",
+        "2 tbsp baking powder",
+        "1/2 tsp kosher salt",
+        "4 large eggs",
+        "2 1/2 cups whole milk",
+        "1/2 cup unsalted butter",
+        "2 tsp vanilla",
+        "3 tbsp seedless strawberry jam",
+        "1/2 cup fresh strawberries",
+        "1/2 cup chocolate chips",
+        "1/2 cup blueberries",
+        "3 tbsp unsalted butter",
+        "2 tbsp brown sugar",
+        "1/2 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "6 cups all-purpose flour",
+        "3/4 cup brown sugar",
+        "6 tbsp granulated sugar",
+        "3 tbsp baking powder",
+        "3/4 tsp kosher salt",
+        "6 large eggs",
+        "3 3/4 cups whole milk",
+        "3/4 cup unsalted butter, melted and cooled until lukewarm",
+        "3 tsp vanilla",
+        "--- Four topping regions ---",
+        "4 1/2 tbsp seedless strawberry jam, slightly warmed",
+        "3/4 cup fresh strawberries, hulled and sliced",
+        "3/4 cup chocolate chips",
+        "3/4 cup blueberries, washed and drained",
+        "4 1/2 tbsp unsalted butter, melted",
+        "3 tbsp brown sugar",
+        "3/4 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "18 portions",
+      "shopping": [
+        "6 cups all-purpose flour",
+        "3/4 cup brown sugar",
+        "6 tbsp granulated sugar",
+        "3 tbsp baking powder",
+        "3/4 tsp kosher salt",
+        "6 large eggs",
+        "3 3/4 cups whole milk",
+        "3/4 cup unsalted butter",
+        "3 tsp vanilla",
+        "4 1/2 tbsp seedless strawberry jam",
+        "3/4 cup fresh strawberries",
+        "3/4 cup chocolate chips",
+        "3/4 cup blueberries",
+        "4 1/2 tbsp unsalted butter",
+        "3 tbsp brown sugar",
+        "3/4 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Pancake batter ---",
+        "2 cups all-purpose flour",
+        "1/4 cup brown sugar",
+        "2 tbsp granulated sugar",
+        "1 tbsp baking powder",
+        "1/4 tsp kosher salt",
+        "2 large eggs",
+        "1 1/4 cups whole milk",
+        "1/4 cup unsalted butter, melted and cooled until lukewarm",
+        "1 tsp vanilla",
+        "--- Four topping regions ---",
+        "1 1/2 tbsp seedless strawberry jam, slightly warmed",
+        "1/4 cup fresh strawberries, hulled and sliced",
+        "1/4 cup chocolate chips",
+        "1/4 cup blueberries, washed and drained",
+        "1 1/2 tbsp unsalted butter, melted",
+        "1 tbsp brown sugar",
+        "1/4 tsp ground cinnamon",
+        "--- Greasing and serving ---",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "2 cups all-purpose flour",
+        "1/4 cup brown sugar",
+        "2 tbsp granulated sugar",
+        "1 tbsp baking powder",
+        "1/4 tsp kosher salt",
+        "2 large eggs",
+        "1 1/4 cups whole milk",
+        "1/4 cup unsalted butter",
+        "1 tsp vanilla",
+        "1 1/2 tbsp seedless strawberry jam",
+        "1/4 cup fresh strawberries",
+        "1/4 cup chocolate chips",
+        "1/4 cup blueberries",
+        "1 1/2 tbsp unsalted butter",
+        "1 tbsp brown sugar",
+        "1/4 tsp ground cinnamon",
+        "nonstick spray, as needed for the bottom, sides and corners of the pan",
+        "maple syrup, butter or powdered sugar, as desired for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    }
+  ],
+  "preservedPriorRepairs": "9fa native reintroduction/spraylisting ande300 directChefcopy/headings protected; allfull16 measured supplies match.",
+  "remainingQuestions": [
+    "Whatactualrimmedpan depth and bakewindowproduce fullycookedfruitpockets?",
+    "Howmanyoriginalsizepansfitovenatlargerloads? Sixportions areinheritedplanningnotmeasured."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,1324 @@
+{
+  "slug": "shakshuka",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "941a2ca997a31e15cfe08f289f10c3d28bbb6668512d3216a1ae8e19ea9cd14f",
+  "acceptedSourceSha256": "43ba7668f85c724354e97af83b7645f33b49bdbe500f676a1f5ddb7390802e6c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "North Africa / Israel",
+      "after": null
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 25 min, longer if needed to set the eggs"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 35 min, plus any extra skillet batches"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 tbsp Olive Oil",
+        "1 medium Yellow Onion, diced",
+        "1 Red Bell Pepper, diced",
+        "4 cloves Garlic, thinly sliced",
+        "1 tsp Ground Cumin",
+        "1 tsp Smoked Paprika",
+        "1/2 tsp Ground Coriander",
+        "1/4 tsp Cayenne Pepper (or to taste)",
+        "1 (28 oz) can Crushed Tomatoes (San Marzano preferred)",
+        "1 tsp Sugar",
+        "1 tsp Kosher Salt",
+        "6 large Eggs",
+        "1/4 cup Fresh Cilantro or Parsley, chopped",
+        "2 tbsp Crumbled Feta (optional)",
+        "Crusty bread for serving"
+      ],
+      "after": [
+        "--- Shakshuka ---",
+        "2 tbsp olive oil",
+        "1 medium yellow onion, diced",
+        "1 red bell pepper, stemmed, seeded and diced",
+        "4 garlic cloves, thinly sliced",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp ground coriander",
+        "1/4 tsp cayenne pepper, or adjust to taste",
+        "1 can (28 oz) crushed tomatoes, with their juices",
+        "1 tsp sugar",
+        "1 tsp kosher salt",
+        "6 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "1/4 cup fresh cilantro or parsley, washed and chopped",
+        "2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 195,
+        "protein": 10,
+        "carbs": 7,
+        "fat": 14.5,
+        "fiber": 1,
+        "sugar": 4,
+        "sodium": 690
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Shakshuka",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onion",
+                "key": "yellow-onion",
+                "name": "medium yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium yellow onions",
+                "preparation": "diced"
+              },
+              {
+                "id": "pepper",
+                "key": "red-bell-pepper",
+                "name": "red bell pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "plural": "red bell peppers",
+                "preparation": "stemmed, seeded and diced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "spices",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "thinly sliced"
+              },
+              {
+                "id": "cumin",
+                "key": "ground-cumin",
+                "name": "ground cumin",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "spices",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "smoked-paprika",
+                "name": "smoked paprika",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "spices",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "coriander",
+                "key": "ground-coriander",
+                "name": "ground coriander",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "spices",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cayenne",
+                "key": "cayenne",
+                "name": "cayenne pepper",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "spices",
+                    "share": 1
+                  }
+                ],
+                "preparation": "or adjust to taste"
+              },
+              {
+                "id": "tomatoes",
+                "key": "crushed-tomatoes",
+                "name": "crushed tomatoes",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 28,
+                  "unit": "oz"
+                },
+                "preparation": "with their juices"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wells",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "refrigerated; pasteurized shell eggs for the soft-yolk option"
+              },
+              {
+                "id": "herbs",
+                "key": "cilantro-or-parsley",
+                "name": "fresh cilantro or parsley",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "preparation": "washed and chopped"
+              },
+              {
+                "id": "feta",
+                "key": "feta",
+                "name": "crumbled feta",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "bread",
+                "key": "crusty-bread",
+                "name": "crusty bread",
+                "allowance": "for serving",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "base",
+            "title": "Soften vegetables",
+            "text": "Have {{ingredients}} ready. Warm the olive oil in a large 10–12-inch skillet with a lid over medium heat, then add the onion and pepper. Cook about 5–6 minutes until softened and the onion is translucent. For larger batches, divide the whole sauce and egg supplies proportionally among enough covered skillets; smaller batches need a suitably smaller pan to avoid a thin, quickly drying sauce."
+          },
+          {
+            "id": "spices",
+            "title": "Bloom spices",
+            "text": "Have {{ingredients}} ready. Add the cumin, paprika, coriander and cayenne first and stir for about 1 minute until fragrant, lowering the heat if they threaten to scorch. Add the sliced garlic and cook another 30–45 seconds until fragrant."
+          },
+          {
+            "id": "sauce",
+            "title": "Reduce sauce",
+            "text": "Add {{ingredients}}. Bring to a gentle simmer and cook uncovered for about 10 minutes, stirring occasionally, until a spoon drawn through the sauce briefly reveals the pan. Continue until it is thick enough to cradle the eggs, rather than relying on the clock alone."
+          },
+          {
+            "id": "wells",
+            "title": "Add eggs",
+            "text": "Make one shallow well for each of the listed {{ingredients}}. Crack each egg into a small clean cup, then slide it into its well without letting shell fragments enter the sauce. Space the wells across the pan rather than crowding them together."
+          },
+          {
+            "id": "poach",
+            "title": "Cover and poach",
+            "text": "Cover, reduce to medium-low and begin checking at about 5 minutes. For ordinary shell eggs, continue until both whites and yolks are firm; the sauce and egg dish should reach 160°F / 71°C. The original 5–8-minute range is a first-check window, not a guaranteed endpoint. For the intentionally runny or jammy yolk option, use pasteurized shell eggs and check that the whites have set; this retains a softer texture and does not turn the clock into a safety guarantee."
+          },
+          {
+            "id": "finish",
+            "title": "Serve",
+            "text": "Take the skillet off the heat. Finish with {{ingredients}} and serve immediately. Omit the feta for a dairy-free preparation."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reduce sauce before adding delicate eggs",
+        "outcome": "Egg whites set in separate wells above a thick sauce that remains moist.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use a skillet with a well-fitting lid and enough surface area for one well per egg. Scale the complete sauce and eggs together; pan geometry does not multiply automatically.",
+          "Keep eggs refrigerated and prepare herbs with clean tools before handling shells. Select pasteurized shell eggs in advance for deliberately soft yolks.",
+          "Feta is an optional dairy finish. Without it, check bread/hummus labels as applicable for a dairy-free serving."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "A spoon briefly exposes the skillet through the thickened sauce.",
+            "why": "A thin sauce lets the whites spread, while over-reduction can scorch beneath the eggs."
+          },
+          {
+            "step": 5,
+            "cue": "Ordinary eggs have firm whites and yolks; the dish reaches the measured endpoint.",
+            "why": "An opaque white alone does not establish a fully cooked yolk. The pasteurized soft-yolk option is a separate texture choice."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The sauce scorches while the egg tops stay unset",
+            "cause": "Heat is too high beneath a reduced sauce or the lid does not retain steam.",
+            "fix": "Lower the heat and cover properly. Do not stir through the eggs; finish the egg endpoint before serving. Burnt sauce cannot be repaired by mixing it through."
+          }
+        ],
+        "timing": "Allow about 35 minutes for the original main batch: 10 minutes preparation and about 25 minutes of softening, spices, simmering and egg cooking. Firm eggs can need longer. The distinct hummus version starts with a longer 10–12-minute softening and 15-minute reduction, so allow roughly 45 minutes or longer; extra skillets/batches extend the schedule.",
+        "storage": "The egg-free tomato base can be made ahead for a 3-day refrigerator plan: promptly chill in shallow containers at 40°F / 4°C or below. Reheat it to 165°F throughout and bring the separately reheated sauce briefly to a rolling boil before reducing to a simmer and adding fresh eggs. Cooked eggs are best freshly served; if keeping leftovers, divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F / 74°C throughout, checking the center and more than one portion. Reheating will firm a previously soft yolk.",
+        "sources": [
+          {
+            "title": "FDA egg cooking and pasteurized egg choices",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "USDA leftovers and reheated sauces",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "Shakshuka: cultural and sauce context",
+            "url": "https://www.seriouseats.com/shakshuka-north-african-shirred-eggs-tomato-pepper-recipe"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nShakshuka is a North African dish of eggs poached in spiced tomato sauce that has become a staple across the Middle East, especially in Israeli cuisine. The sauce must be thick enough to cradle the eggs -- if it is too thin, the whites spread and cook unevenly. Building the spice base by blooming cumin, paprika, and coriander in hot oil before adding tomatoes creates a deeper, rounder flavor than simply stirring spices into sauce. The tomato base (without eggs) can be made ahead and refrigerated for up to 3 days, making this an ideal make-ahead weeknight dinner or weekend brunch.\n\n## Directions\n\n1.  **Build the Base:** Heat olive oil in a large (10-12 inch) skillet over medium heat. Add onion and bell pepper. Cook for 5-6 minutes, stirring occasionally, until softened and the onion is translucent.\n2.  **Bloom Spices:** Add cumin, paprika, coriander, and cayenne. Stir for 1 minute until very fragrant -- the spices should darken slightly and smell toasty. Add garlic and stir for 30-45 seconds.\n3.  **Simmer the Sauce:** Pour in crushed tomatoes. Add sugar and salt. Stir well and bring to a gentle simmer. Cook uncovered for 10 minutes, stirring occasionally, until the sauce has thickened and reduced slightly. You should be able to drag a spoon through it and see the bottom of the pan for a moment.\n4.  **Create Wells:** Using the back of a large spoon, make 6 evenly spaced wells in the sauce. Crack one egg into each well.\n5.  **Poach the Eggs:** Cover the skillet with a lid. Reduce heat to medium-low. Cook for 5-8 minutes depending on your preference: 5 minutes for very runny yolks, 7-8 minutes for yolks that are jammy and just set. Check at 5 minutes -- the whites should be fully opaque.\n6.  **Finish:** Remove from heat. Scatter with cilantro and feta. Serve immediately, straight from the skillet, with crusty bread for scooping.\n",
+    "after": "\n## Chef's Note\n\nShakshuka brings together eggs and spiced tomato sauce in a dish with North African roots and a broad place in Middle Eastern cooking, including Israeli tables. Reduce the sauce enough to hold shallow egg wells, then cover gently so the whites set without scorching the bottom. Cilantro or parsley and optional feta finish the pan.\n\n## Directions\n\n1. **Soften vegetables:** Have olive oil, medium yellow onion, and red bell pepper ready. Warm the olive oil in a large 10–12-inch skillet with a lid over medium heat, then add the onion and pepper. Cook about 5–6 minutes until softened and the onion is translucent. For larger batches, divide the whole sauce and egg supplies proportionally among enough covered skillets; smaller batches need a suitably smaller pan to avoid a thin, quickly drying sauce.\n2. **Bloom spices:** Have garlic cloves, ground cumin, smoked paprika, ground coriander, and cayenne pepper ready. Add the cumin, paprika, coriander and cayenne first and stir for about 1 minute until fragrant, lowering the heat if they threaten to scorch. Add the sliced garlic and cook another 30–45 seconds until fragrant.\n3. **Reduce sauce:** Add crushed tomatoes, sugar, and kosher salt. Bring to a gentle simmer and cook uncovered for about 10 minutes, stirring occasionally, until a spoon drawn through the sauce briefly reveals the pan. Continue until it is thick enough to cradle the eggs, rather than relying on the clock alone.\n4. **Add eggs:** Make one shallow well for each of the listed large eggs. Crack each egg into a small clean cup, then slide it into its well without letting shell fragments enter the sauce. Space the wells across the pan rather than crowding them together.\n5. **Cover and poach:** Cover, reduce to medium-low and begin checking at about 5 minutes. For ordinary shell eggs, continue until both whites and yolks are firm; the sauce and egg dish should reach 160°F / 71°C. The original 5–8-minute range is a first-check window, not a guaranteed endpoint. For the intentionally runny or jammy yolk option, use pasteurized shell eggs and check that the whites have set; this retains a softer texture and does not turn the clock into a safety guarantee.\n6. **Serve:** Take the skillet off the heat. Finish with fresh cilantro or parsley, crumbled feta (if using), and crusty bread and serve immediately. Omit the feta for a dairy-free preparation.\n\n## Hummus and Cumin-Seed Version\n\nFor an original batch of four planned portions, this complete version uses 4 large eggs, ½ cup prepared hummus, 2 tablespoons olive oil, 1 large red bell pepper sliced into thin strips, 1 small yellow onion thinly sliced, 3 sliced garlic cloves, 1 teaspoon cumin seeds, 1 teaspoon smoked paprika, ¼ teaspoon cayenne, one 28-ounce can whole peeled tomatoes crushed by hand with its juices, 1 tablespoon tomato paste, salt and black pepper to taste, and chopped cilantro and crumbled feta as desired. Scale these supplies proportionally together. It uses no ground coriander, added sugar or bread supply.\n\nSoften the pepper and onion in the oil over medium heat for about 10–12 minutes. Stir in the garlic, tomato paste, cumin seeds, paprika and cayenne and cook about 2 minutes until fragrant, lowering the heat if needed to avoid scorched garlic. Add the tomatoes and juices, simmer uncovered about 15 minutes until thick and season with the salt and pepper. Make one well per egg and use the covered egg-cooking and pasteurized soft-yolk choice above. Divide all the hummus among the portions, ladle the sauce and eggs on top, and finish with the cilantro and optional feta. This is a separate complete formula, rather than additional ingredients for the main sauce.\n"
+  },
+  "findings": [
+    {
+      "id": "SBB21-K01",
+      "title": "SBB21-K01",
+      "rationale": "Usefirmordinaryeggs/160egg-dish route; preserve intentionally softyolk choice withpasteurizedshellandfirstcheckclock distinction; no guarantee5minutes. Scalingnumberwells follows listedeggs.",
+      "confidence": "high endpoint; moderate recipe application",
+      "applicableSources": [
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "exactBeforeAfterReferences": ["formula", "content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-K02",
+      "title": "SBB21-K02",
+      "rationale": "FirstGitcf538 hummus/cuminseed/paste4egg formula remainscomplete distinctoption; currentfd4sixegg/crushedcan/sugar/corianderbread preserved. No title/native/publishercertification.",
+      "confidence": "high",
+      "applicableSources": ["cf53871c", "fd4f07a8", "wholefollowedhistory"],
+      "exactBeforeAfterReferences": ["content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-K03",
+      "title": "SBB21-K03",
+      "rationale": "Preserve existing dairy-free main classification and explicit omit-feta caveat: optional feta alone establishes no household decision to replace the main tag. Full feta supply and method destination retained.",
+      "confidence": "high",
+      "applicableSources": ["frozeningredients", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["dietary", "ingredients", "formula"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-K04",
+      "title": "SBB21-K04",
+      "rationale": "Region/slash origin isnot singleestablishedcountry; broadculturalcontext/Israelicooking preserved usingprimaryauthor. Storage3daybaseplan retained withreheatedsauceprimaryscope. Unsupportednutritionremoved.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.seriouseats.com/shakshuka-north-african-shirred-eggs-tomato-pepper-recipe",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "fd4metadata"
+      ],
+      "exactBeforeAfterReferences": ["origin", "nutrition", "learning", "content"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-I01",
+      "title": "Whole independent literal correction",
+      "rationale": "The frozen main already lists feta as optional. Its addition to the full method does not establish a household decision to replace the existing main classification. Root explicitly directed preserving broad main classifications when a separate optional dairy variation is honestly exposed. Author confirms the replacement was an editorial inference, with no established household decision. Retain the explicit existing sentence 'Omit the feta for a dairy-free preparation.' and every measured ingredient.",
+      "confidence": "high",
+      "applicableSources": [
+        "Frozen src/content/recipes/shakshuka.md dietary and optional-feta ingredient",
+        "Root instruction on optional-dairy main classification",
+        "poultry_editor clarification received during this review",
+        "src/content/config.ts dietary vocabulary (permits both; does not prescribe a rule requiring this replacement)"
+      ],
+      "exactBeforeAfterReferences": ["dietary"],
+      "questions": [
+        "Any future site-wide policy distinguishing optional-dairy classifications should be separately established, rather than inferred in this batch."
+      ]
+    },
+    {
+      "id": "SBB21-A03",
+      "title": "Whole independent literal correction",
+      "rationale": "Capitalization only; cold-handling and reheating statements stay unchanged.",
+      "confidence": "high",
+      "applicableSources": ["Actual proposed storage text"],
+      "exactBeforeAfterReferences": ["learning.storage"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/cf53871c99aa9edff6b426756165214524649f97/src/content/recipes/shakshuka.md",
+    "introductionScope": "Actual first Git cooking introduction; no exact original native binding established.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Hummus and cumin-seed version",
+      "base": "complete separate original Git formula in body",
+      "changes": "4egg/½cup hummus/2Tb oil/largepepper/smallonion/3garlic/1tspcuminseeds/1tspsmokedpaprika/¼tspcayenne/28ozwholecan/1Tbtomatopaste/saltpepperallowance/cilantrofetaallowance; no coriander, sugar or bread",
+      "destination": "Full body Hummus and Cumin-Seed Version; all hummus→plates, seed/paste→bloom, other full ingredients→their same named stages",
+      "source": "cf53871c actualfirstGit, laterfd4 completecurrentformula retained separately",
+      "status": "proposed complete variation with current egg safety routes"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "2 tbsp Olive Oil",
+        "destination": "base1",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 medium Yellow Onion, diced",
+        "destination": "base1 diced",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "1 Red Bell Pepper, diced",
+        "destination": "base1 diced",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "4 cloves Garlic, thinly sliced",
+        "destination": "2 after spices30–45seconds",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "1 tsp Ground Cumin",
+        "destination": "bloom2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 tsp Smoked Paprika",
+        "destination": "bloom2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1/2 tsp Ground Coriander",
+        "destination": "bloom2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1/4 tsp Cayenne Pepper (or to taste)",
+        "destination": "bloom2 measured/or-taste alternative",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 (28 oz) can Crushed Tomatoes (San Marzano preferred)",
+        "destination": "sauce3 fullcan",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "1 tsp Sugar",
+        "destination": "sauce3",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 10,
+        "ingredient": "1 tsp Kosher Salt",
+        "destination": "sauce3",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 11,
+        "ingredient": "6 large Eggs",
+        "destination": "fixed6wells4; softyolk preference5 5–8min",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 12,
+        "ingredient": "1/4 cup Fresh Cilantro or Parsley, chopped",
+        "destination": "finish6 cilantroonly despiteparsley alternative listed",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 13,
+        "ingredient": "2 tbsp Crumbled Feta (optional)",
+        "destination": "finish6 optionaldairy",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 14,
+        "ingredient": "Crusty bread for serving",
+        "destination": "serve6 genuine allowance",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "id": "main.oil",
+        "key": "olive-oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.onion",
+        "key": "yellow-onion",
+        "name": "medium yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "plural": "medium yellow onions",
+        "preparation": "diced",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.pepper",
+        "key": "red-bell-pepper",
+        "name": "red bell pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "base",
+            "share": 1
+          }
+        ],
+        "plural": "red bell peppers",
+        "preparation": "stemmed, seeded and diced",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "spices",
+            "share": 1
+          }
+        ],
+        "plural": "garlic cloves",
+        "preparation": "thinly sliced",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.cumin",
+        "key": "ground-cumin",
+        "name": "ground cumin",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "spices",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.paprika",
+        "key": "smoked-paprika",
+        "name": "smoked paprika",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "spices",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.coriander",
+        "key": "ground-coriander",
+        "name": "ground coriander",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "spices",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.cayenne",
+        "key": "cayenne",
+        "name": "cayenne pepper",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "spices",
+            "share": 1
+          }
+        ],
+        "preparation": "or adjust to taste",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.tomatoes",
+        "key": "crushed-tomatoes",
+        "name": "crushed tomatoes",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "packageSize": {
+          "amount": 28,
+          "unit": "oz"
+        },
+        "preparation": "with their juices",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.sugar",
+        "key": "sugar",
+        "name": "sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.salt",
+        "key": "kosher-salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 6,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "wells",
+            "share": 1
+          }
+        ],
+        "plural": "large eggs",
+        "preparation": "refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.herbs",
+        "key": "cilantro-or-parsley",
+        "name": "fresh cilantro or parsley",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "preparation": "washed and chopped",
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.feta",
+        "key": "feta",
+        "name": "crumbled feta",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "optional": true,
+        "component": "Shakshuka"
+      },
+      {
+        "id": "main.bread",
+        "key": "crusty-bread",
+        "name": "crusty bread",
+        "allowance": "for serving",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "component": "Shakshuka"
+      }
+    ],
+    "native": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "f81e90556f0d5efcaf108117f7a589e74f61d50cd16bee70c032cd0d91e218d4"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "961bd066fef6018217a62f252aa95217853a958a7d3d5b49225bd49e5aeb5f68"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "7510416fa6987df7e4daa42628e582f72740f451c34bdbf8b422da3decae9357"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "82f4a6b17f107e0959c3b1ce10acaa18ed60a0e88d5315f0a9ad9e713552f896"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "b14b59f45fab2ed25c8ec9eae75c64c56737561b98850d8fc012706f0cbdab9d"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "dacdb88daff795c4aabf4b912101110957bc2b0d2cbc4a635e9c13badc2cdf9c"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "base",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.oil", "main.onion", "main.pepper"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "spices",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": [
+          "main.garlic",
+          "main.cumin",
+          "main.paprika",
+          "main.coriander",
+          "main.cayenne"
+        ],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "sauce",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["main.tomatoes", "main.sugar", "main.salt"],
+        "cue": ["A spoon briefly exposes the skillet through the thickened sauce."]
+      },
+      {
+        "step": 4,
+        "id": "wells",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.eggs"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "poach",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": [],
+        "cue": ["Ordinary eggs have firm whites and yolks; the dish reaches the measured endpoint."]
+      },
+      {
+        "step": 6,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["main.herbs", "main.feta", "main.bread"],
+        "cue": []
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Current six-egg bread version",
+      "base": "formula",
+      "scope": "Full2Tb oil/sugar/salt/6eggs/28ozcan/¼cupherbs/optional2Tb feta; late garlic2b01 retained."
+    },
+    {
+      "name": "Hummus and cumin-seed version",
+      "base": "complete separate original Git formula in body",
+      "changes": "4egg/½cup hummus/2Tb oil/largepepper/smallonion/3garlic/1tspcuminseeds/1tspsmokedpaprika/¼tspcayenne/28ozwholecan/1Tbtomatopaste/saltpepperallowance/cilantrofetaallowance; no coriander, sugar or bread",
+      "destination": "Full body Hummus and Cumin-Seed Version; all hummus→plates, seed/paste→bloom, other full ingredients→their same named stages",
+      "source": "cf53871c actualfirstGit, laterfd4 completecurrentformula retained separately",
+      "status": "proposed complete variation with current egg safety routes"
+    },
+    {
+      "name": "Pasteurized runny or jammy yolks",
+      "base": "main or hummus version",
+      "changes": "Pasteurized shell eggs for deliberately undercooked service; original5–8min firstcheck not endpoint",
+      "source": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+      "status": "proposed distinct texture option; no zero-risk guarantee"
+    },
+    {
+      "name": "Dairy-free serving",
+      "base": "main",
+      "changes": "Omit optional feta; bread/hummus label suitability as applicable",
+      "status": "proposed option; tags honestly dairy-free-option"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "tahini-sauce",
+        "path": "src/content/recipes/tahini-sauce.md",
+        "sha256": "e7dcf5f3caaa5b65cb9aadc4dde6c520138395d17c97f949c6b37408b3c5b2ad",
+        "scope": "Link exists, not whole component or meal acceptance"
+      }
+    ],
+    "incomingMeals": [
+      {
+        "path": "src/content/meals/shakshuka-brunch.md",
+        "sha256": "b524c09bc379e57dcb08cbe524f9b3266b0d7289e4527d0c6b7421d26cf57f20"
+      }
+    ],
+    "disposition": "Shakshuka Brunch wholly unendorsed: fixed5–7minute/runnyordinaryeggs and extra pita/fattoush scheduling/amounts require separate review; sourcecurrentoptional feta doesnotapproveallmealclaims."
+  },
+  "ratiosYieldAndCapacity": [
+    "Current6eggs/28ozcan with2Tb oil;4plannedportions not oneeggpereveryportion.",
+    "FirstGit4eggs+½hummus is separatecompleteformula, notquantityrestoration into main.",
+    "Onewellperlistedegg/appropriatepan area; fractions require cookhandlingjudgement; no enlarged pan dimensions invented."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "1/2 tbsp olive oil",
+        "1/4 medium yellow onion, diced",
+        "1/4 red bell pepper, stemmed, seeded and diced",
+        "1 garlic clove, thinly sliced",
+        "1/4 tsp ground cumin",
+        "1/4 tsp smoked paprika",
+        "1/8 tsp ground coriander",
+        "0.0625 tsp cayenne pepper, or adjust to taste",
+        "1/4 can (28 oz) crushed tomatoes, with their juices",
+        "1/4 tsp sugar",
+        "1/4 tsp kosher salt",
+        "1 1/2 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "0.0625 cup fresh cilantro or parsley, washed and chopped",
+        "1/2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/2 tbsp olive oil",
+        "1/4 medium yellow onion",
+        "1/4 red bell pepper",
+        "1 garlic clove",
+        "1/4 tsp ground cumin",
+        "1/4 tsp smoked paprika",
+        "1/8 tsp ground coriander",
+        "0.0625 tsp cayenne pepper",
+        "1/4 can (28 oz) crushed tomatoes",
+        "1/4 tsp sugar",
+        "1/4 tsp kosher salt",
+        "1 1/2 large eggs",
+        "0.0625 cup fresh cilantro or parsley",
+        "1/2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "1 tbsp olive oil",
+        "1/2 medium yellow onion, diced",
+        "1/2 red bell pepper, stemmed, seeded and diced",
+        "2 garlic cloves, thinly sliced",
+        "1/2 tsp ground cumin",
+        "1/2 tsp smoked paprika",
+        "1/4 tsp ground coriander",
+        "1/8 tsp cayenne pepper, or adjust to taste",
+        "1/2 can (28 oz) crushed tomatoes, with their juices",
+        "1/2 tsp sugar",
+        "1/2 tsp kosher salt",
+        "3 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "1/8 cup fresh cilantro or parsley, washed and chopped",
+        "1 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1 tbsp olive oil",
+        "1/2 medium yellow onion",
+        "1/2 red bell pepper",
+        "2 garlic cloves",
+        "1/2 tsp ground cumin",
+        "1/2 tsp smoked paprika",
+        "1/4 tsp ground coriander",
+        "1/8 tsp cayenne pepper",
+        "1/2 can (28 oz) crushed tomatoes",
+        "1/2 tsp sugar",
+        "1/2 tsp kosher salt",
+        "3 large eggs",
+        "1/8 cup fresh cilantro or parsley",
+        "1 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "2 tbsp olive oil",
+        "1 medium yellow onion, diced",
+        "1 red bell pepper, stemmed, seeded and diced",
+        "4 garlic cloves, thinly sliced",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp ground coriander",
+        "1/4 tsp cayenne pepper, or adjust to taste",
+        "1 can (28 oz) crushed tomatoes, with their juices",
+        "1 tsp sugar",
+        "1 tsp kosher salt",
+        "6 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "1/4 cup fresh cilantro or parsley, washed and chopped",
+        "2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "2 tbsp olive oil",
+        "1 medium yellow onion",
+        "1 red bell pepper",
+        "4 garlic cloves",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp ground coriander",
+        "1/4 tsp cayenne pepper",
+        "1 can (28 oz) crushed tomatoes",
+        "1 tsp sugar",
+        "1 tsp kosher salt",
+        "6 large eggs",
+        "1/4 cup fresh cilantro or parsley",
+        "2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "3 tbsp olive oil",
+        "1 1/2 medium yellow onions, diced",
+        "1 1/2 red bell peppers, stemmed, seeded and diced",
+        "6 garlic cloves, thinly sliced",
+        "1 1/2 tsp ground cumin",
+        "1 1/2 tsp smoked paprika",
+        "3/4 tsp ground coriander",
+        "3/8 tsp cayenne pepper, or adjust to taste",
+        "1 1/2 cans (28 oz) crushed tomatoes, with their juices",
+        "1 1/2 tsp sugar",
+        "1 1/2 tsp kosher salt",
+        "9 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "3/8 cup fresh cilantro or parsley, washed and chopped",
+        "3 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "3 tbsp olive oil",
+        "1 1/2 medium yellow onions",
+        "1 1/2 red bell peppers",
+        "6 garlic cloves",
+        "1 1/2 tsp ground cumin",
+        "1 1/2 tsp smoked paprika",
+        "3/4 tsp ground coriander",
+        "3/8 tsp cayenne pepper",
+        "1 1/2 cans (28 oz) crushed tomatoes",
+        "1 1/2 tsp sugar",
+        "1 1/2 tsp kosher salt",
+        "9 large eggs",
+        "3/8 cup fresh cilantro or parsley",
+        "3 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "4 tbsp olive oil",
+        "2 medium yellow onions, diced",
+        "2 red bell peppers, stemmed, seeded and diced",
+        "8 garlic cloves, thinly sliced",
+        "2 tsp ground cumin",
+        "2 tsp smoked paprika",
+        "1 tsp ground coriander",
+        "1/2 tsp cayenne pepper, or adjust to taste",
+        "2 cans (28 oz) crushed tomatoes, with their juices",
+        "2 tsp sugar",
+        "2 tsp kosher salt",
+        "12 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "1/2 cup fresh cilantro or parsley, washed and chopped",
+        "4 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "4 tbsp olive oil",
+        "2 medium yellow onions",
+        "2 red bell peppers",
+        "8 garlic cloves",
+        "2 tsp ground cumin",
+        "2 tsp smoked paprika",
+        "1 tsp ground coriander",
+        "1/2 tsp cayenne pepper",
+        "2 cans (28 oz) crushed tomatoes",
+        "2 tsp sugar",
+        "2 tsp kosher salt",
+        "12 large eggs",
+        "1/2 cup fresh cilantro or parsley",
+        "4 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "6 tbsp olive oil",
+        "3 medium yellow onions, diced",
+        "3 red bell peppers, stemmed, seeded and diced",
+        "12 garlic cloves, thinly sliced",
+        "3 tsp ground cumin",
+        "3 tsp smoked paprika",
+        "1 1/2 tsp ground coriander",
+        "3/4 tsp cayenne pepper, or adjust to taste",
+        "3 cans (28 oz) crushed tomatoes, with their juices",
+        "3 tsp sugar",
+        "3 tsp kosher salt",
+        "18 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "3/4 cup fresh cilantro or parsley, washed and chopped",
+        "6 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "6 tbsp olive oil",
+        "3 medium yellow onions",
+        "3 red bell peppers",
+        "12 garlic cloves",
+        "3 tsp ground cumin",
+        "3 tsp smoked paprika",
+        "1 1/2 tsp ground coriander",
+        "3/4 tsp cayenne pepper",
+        "3 cans (28 oz) crushed tomatoes",
+        "3 tsp sugar",
+        "3 tsp kosher salt",
+        "18 large eggs",
+        "3/4 cup fresh cilantro or parsley",
+        "6 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Shakshuka ---",
+        "2 tbsp olive oil",
+        "1 medium yellow onion, diced",
+        "1 red bell pepper, stemmed, seeded and diced",
+        "4 garlic cloves, thinly sliced",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp ground coriander",
+        "1/4 tsp cayenne pepper, or adjust to taste",
+        "1 can (28 oz) crushed tomatoes, with their juices",
+        "1 tsp sugar",
+        "1 tsp kosher salt",
+        "6 large eggs, refrigerated; pasteurized shell eggs for the soft-yolk option",
+        "1/4 cup fresh cilantro or parsley, washed and chopped",
+        "2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "2 tbsp olive oil",
+        "1 medium yellow onion",
+        "1 red bell pepper",
+        "4 garlic cloves",
+        "1 tsp ground cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp ground coriander",
+        "1/4 tsp cayenne pepper",
+        "1 can (28 oz) crushed tomatoes",
+        "1 tsp sugar",
+        "1 tsp kosher salt",
+        "6 large eggs",
+        "1/4 cup fresh cilantro or parsley",
+        "2 tbsp crumbled feta, optional",
+        "crusty bread, for serving"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    }
+  ],
+  "preservedPriorRepairs": "2b01 garlicafter spices30–45sec preserved; current6eggfullformula not overwritten byfirstGit.",
+  "remainingQuestions": [
+    "Which current main or separatehummus route is wanted for serving? Are pasteurizedshell eggs available forsoftyolks?",
+    "Howmanycoveredskillets fitallscaledeggswithoutcrowding? Shakshuka Brunch still instructsrunnyunpasteurizedeggs and additionalcomponents needseparatemealreview."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

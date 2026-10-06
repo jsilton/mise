@@ -1,0 +1,653 @@
+{
+  "slug": "royal-icing",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "a8e1f76db3399ab137ee7fa6bb2dcb371e527679fd8ee806e4f3c6e8ee618e78",
+  "acceptedSourceSha256": "cff40bfee7d76008fbd422c46af21bd89f22e7f354a6b765e3bc97d2bda4f703",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "5 min",
+      "after": "About 5 min mixing, plus coloring, decorating and drying"
+    },
+    {
+      "field": "servings",
+      "before": "36 cookies",
+      "after": "36 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 large Pasteurized Egg Whites (room temp)",
+        "1 lb Confectioners’ Sugar, sifted",
+        "1 tsp Pure Vanilla Extract"
+      ],
+      "after": [
+        "--- Icing ---",
+        "3 large pasteurized egg whites, separated cold if using pasteurized shell eggs; briefly let the measured whites lose their chill",
+        "1 lb (450 g) confectioners’ sugar, sifted",
+        "1 tsp pure vanilla extract",
+        "gel or liquid food coloring, as desired for selected colors, optional",
+        "water, small additions as needed to thin a separate flooding portion"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 0,
+        "protein": 0.5,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 0
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 36,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "icing",
+            "name": "Icing",
+            "ingredients": [
+              {
+                "id": "whites",
+                "key": "pasteurized-egg-white",
+                "name": "large pasteurized egg white",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "froth",
+                    "share": 1
+                  }
+                ],
+                "plural": "large pasteurized egg whites",
+                "preparation": "separated cold if using pasteurized shell eggs; briefly let the measured whites lose their chill"
+              },
+              {
+                "id": "sugar",
+                "key": "confectioners-sugar",
+                "name": "confectioners’ sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "incorporate",
+                    "share": 1
+                  }
+                ],
+                "equivalents": [
+                  {
+                    "amount": 450,
+                    "unit": "g"
+                  }
+                ],
+                "preparation": "sifted"
+              },
+              {
+                "id": "vanilla",
+                "key": "vanilla-extract",
+                "name": "pure vanilla extract",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "incorporate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "color",
+                "key": "food-coloring",
+                "name": "gel or liquid food coloring",
+                "allowance": "as desired for selected colors",
+                "uses": [
+                  {
+                    "step": "color",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "allowance": "small additions as needed to thin a separate flooding portion",
+                "uses": [
+                  {
+                    "step": "consistency",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "froth",
+            "title": "Froth",
+            "text": "Use {{ingredients}} in a clean, grease-free mixing bowl. With a stand mixer, beat on medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is possible but takes more effort and time. Check actual mixer bowl capacity for the batch."
+          },
+          {
+            "id": "incorporate",
+            "title": "Add sugar",
+            "text": "With the mixer on low, gradually add all {{ingredients}}. Scrape as needed and let the sugar incorporate without dumping it in at once."
+          },
+          {
+            "id": "peaks",
+            "title": "Beat to peaks",
+            "text": "Once fully incorporated, increase to medium-high and beat until stiff, shiny peaks form, beginning checks after 2–3 minutes. Avoid continuing to beat after the cue merely to complete a fixed time."
+          },
+          {
+            "id": "color",
+            "title": "Color",
+            "text": "Divide the icing into the colors needed and stir in {{ingredients}}. Gel is concentrated; liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered while working."
+          },
+          {
+            "id": "consistency",
+            "title": "Outline and flood",
+            "text": "Use thick icing for outlines, then move the amount needed for flooding into a separate bowl. Add {{ingredients}} a few drops or a small spoonful at a time; the original batch uses approximately ½ tsp additions as a guide, not a required full water dose. Stir with a spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the cue for the design instead of requiring exactly 15 seconds at every scale."
+          },
+          {
+            "id": "cover",
+            "title": "Cover and decorate",
+            "text": "Keep bowls or piping bags tightly covered when not immediately in use; the surface dries quickly. Apply outlines to completely cool cookies before filling their centers with the thinner portion. Let the decorated icing dry thoroughly before stacking; allow about 6–8 hours at room temperature, with actual humidity and design affecting the time."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep separate outline and flooding consistencies",
+        "outcome": "Stiff base icing and a controlled thinner portion that stays within its outline and dries before stacking.",
+        "techniques": ["cold-preparation"],
+        "before": [
+          "Use pasteurized whites for uncooked icing; carton products must be suitable for whipping and handled according to their label. Use the product’s stated equivalent only if it is suitable for whipping.",
+          "Have completely cool cookies, a grease-free bowl and tools, and covers ready before mixing.",
+          "The original batch plans 36 coverage portions; cookie size and design govern actual coverage."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Stiff shiny peaks stand without continued excessive beating.",
+            "why": "The icing needs the peak state; extra mixing beyond it can add unwanted air."
+          },
+          {
+            "step": 5,
+            "cue": "A ribbon in the flooding portion levels in about 15 seconds without immediately running like water.",
+            "why": "This is a practical consistency cue for filling a bordered shape, not an exact universal timing law."
+          },
+          {
+            "step": 6,
+            "cue": "Decorations are dry before the cookies are stacked.",
+            "why": "Wet icing can smear even when its surface looks shiny."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Icing runs beyond the outline",
+            "cause": "Too much water or liquid color thinned the flooding portion, or the outline was not suitable.",
+            "fix": "Stop flooding, preserve the thick base and retest a small portion. Further water cannot thicken a runny batch; let a small test establish the design before covering all cookies."
+          },
+          {
+            "problem": "Hard flakes clog the piping tip",
+            "cause": "Uncovered icing dried on the surface.",
+            "fix": "Keep unused icing covered and gently loosen a still-soft portion with a drop or two of water; hardened flakes may need removal rather than more beating."
+          }
+        ],
+        "timing": "Five minutes is the mixing plan. Coloring, outlining, flooding and the approximately 6–8 hour drying interval are additional; actual design and humidity affect drying. Hand whisking and larger mixer loads add work.",
+        "storage": "Keep unused wet icing tightly covered and refrigerated at 40°F / 4°C or below between work sessions, following the shortest applicable egg-product label limit. Drying decorated cookies is a different state from storing wet icing; follow the storage requirements of the actual cookie and any other filling or topping.",
+        "sources": [
+          {
+            "title": "Preppy Kitchen exact icing and decorating notes",
+            "url": "https://preppykitchen.com/royal-icing/"
+          },
+          {
+            "title": "FDA pasteurized egg handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Gel food coloring",
+            "alternative": "Liquid food coloring in small additions for the selected shade",
+            "effect": "Liquid coloring may thin the icing more; retest consistency before flooding. The color allowance is unmeasured."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRoyal icing is the traditional coating for decorated sugar cookies, gingerbread houses, and wedding cakes because it dries to a hard, glossy finish. Beating egg whites on low speed until frothy before adding sugar breaks down protein chains without creating large air bubbles, producing smooth icing that doesn't crack. Use thick icing for borders; thin it with water to \"15-second consistency\" (where a ribbon of icing disappears back into the bowl in 15 seconds) for flooding centers.\n\n## Directions\n\n1.  **Froth:** In a stand mixer, beat egg whites on medium-low for 1 minute until bubbly but not peaking.\n2.  **Incorporate:** Switch to low speed. Slowly add the sifted sugar and vanilla.\n3.  **Emulsify:** Once combined, increase speed to medium-high. Beat for 2-3 minutes until the icing is stiff, glossy, and holds a Crunch peak.\n4.  **Dye:** Divide into small bowls. Stir in gel food coloring (The Finishing Touch).\n5.  **Consistency:** For flooding, add water 1/2 tsp at a time until a ribbon of icing disappears back into the bowl in exactly 15 seconds.\n6.  **Store:** Keep bowls tightly covered with plastic wrap - this icing sets instantly when exposed to air.\n\n## Cooking Notes\n\nUse pasteurized egg whites for this uncooked icing. If separating pasteurized shell eggs, separate them while cold. Keep mixing tools free of grease. Pipe a thicker outline first, then thin a separate portion with water a few drops at a time for flooding.\n",
+    "after": "\n## Chef's Note\n\nRoyal icing forms a firm coating for decorated cookies. Make a thick base first, then thin only the portion needed for flooding so the outlines can contain it. Use pasteurized egg whites for this uncooked icing and keep the tools free of grease.\n\n## Directions\n\n1. **Froth:** Use large pasteurized egg whites in a clean, grease-free mixing bowl. With a stand mixer, beat on medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is possible but takes more effort and time. Check actual mixer bowl capacity for the batch.\n2. **Add sugar:** With the mixer on low, gradually add all confectioners’ sugar and pure vanilla extract. Scrape as needed and let the sugar incorporate without dumping it in at once.\n3. **Beat to peaks:** Once fully incorporated, increase to medium-high and beat until stiff, shiny peaks form, beginning checks after 2–3 minutes. Avoid continuing to beat after the cue merely to complete a fixed time.\n4. **Color:** Divide the icing into the colors needed and stir in gel or liquid food coloring (if using). Gel is concentrated; liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered while working.\n5. **Outline and flood:** Use thick icing for outlines, then move the amount needed for flooding into a separate bowl. Add water a few drops or a small spoonful at a time; the original batch uses approximately ½ tsp additions as a guide, not a required full water dose. Stir with a spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the cue for the design instead of requiring exactly 15 seconds at every scale.\n6. **Cover and decorate:** Keep bowls or piping bags tightly covered when not immediately in use; the surface dries quickly. Apply outlines to completely cool cookies before filling their centers with the thinner portion. Let the decorated icing dry thoroughly before stacking; allow about 6–8 hours at room temperature, with actual humidity and design affecting the time.\n\n## Cooking Notes\n\nSeparate pasteurized shell eggs while cold, then allow only the measured whites to lose their chill briefly before mixing. Keep the remaining product refrigerated and follow its label. You can whisk by hand, with more time and effort. Add sugar gradually, and use pure vanilla for its flavor. A drop or two of water can loosen a portion whose surface has begun to dry; already hardened flakes may spoil a smooth piping line. Too much water can create a runny icing that escapes its outline. Liquid color can thin the mixture more than gel.\n\nThe original batch lists 36 planning portions; cookie size, outline/flood depth and design change how many it decorates. Follow the listed supplies when scaling; decorating and drying do not multiply arithmetically.\n"
+  },
+  "findings": [
+    {
+      "id": "BCD23-R01",
+      "title": "BCD23-R01",
+      "rationale": "Migrate all full current icing amounts and actual pasteurized-white/coldseparation repairs. Preserve native hand-whisk, gradualsugar, cleanbowl, gelORliquidcolor, realvanilla and outlined/thinnedflood options. Correct Crunch/emulsify/instantset and exact-universal15sec claims to actual stiff shiny peaks and approximate practical cue. Add genuine optional color and small water allowance, retain separate floodportion and no invented fixedsplit. Correct36cookies precision to source36planningportions; add actual decorating/drying elapsed scope.",
+      "confidence": "High for complete source notes and preserved doses; moderate for coverage/drying inference",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "eab6",
+        "9faedba5",
+        "https://preppykitchen.com/royal-icing/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact native and direct current primary supply all three doses/approx450g and full process notes. FDA supports pasteurized whites/label/coldhandling, not royal-icing exact keeping life. Source6–8hrdrying is an actual decorating plan, not wet-icing storage or measured wateractivity.36is sourceplanningservings, not tested36-cookiecoverage.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "servings",
+        "content",
+        "learning",
+        "totalTime"
+      ],
+      "questions": [
+        "Actual pasteurized white product whipping suitability and cookie/design coverage remain unresolved. Current publisher coveredfridgeupto2weeks is preserved privately as a separate storage option/question: exact sugar/water/color/product and handling limits have not been validated here."
+      ]
+    },
+    {
+      "id": "BCD23-META",
+      "title": "BCD23-META",
+      "rationale": "Omit unsupported geographic-origin and unverified numerical-nutrition fields; preserve actual source, food style, identity and full rich doses.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "American style and a publisher location do not establish this icing’s birthplace. Source36planningservings does not establish measured coverage for nutrient calculations.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Royal%20Icing.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "BCD23-R01",
+      "rationale": "Migrate all full current icing amounts and actual pasteurized-white/coldseparation repairs. Preserve native hand-whisk, gradualsugar, cleanbowl, gelORliquidcolor, realvanilla and outlined/thinnedflood options. Correct Crunch/emulsify/instantset and exact-universal15sec claims to actual stiff shiny peaks and approximate practical cue. Add genuine optional color and small water allowance, retain separate floodportion and no invented fixedsplit. Correct36cookies precision to source36planningportions; add actual decorating/drying elapsed scope.",
+      "applicability": "Exact native and direct current primary supply all three doses/approx450g and full process notes. FDA supports pasteurized whites/label/coldhandling, not royal-icing exact keeping life. Source6–8hrdrying is an actual decorating plan, not wet-icing storage or measured wateractivity.36is sourceplanningservings, not tested36-cookiecoverage."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "3 large Pasteurized Egg Whites (room temp)",
+        "destination": "Full3largepasteurizedwhites froth; existingcoldseparationnote.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 1,
+        "text": "1 lb Confectioners’ Sugar, sifted",
+        "destination": "Full1lbsiftedsugar addedgradually.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 2,
+        "text": "1 tsp Pure Vanilla Extract",
+        "destination": "Full1tspvanilla addedwithsugar.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      }
+    ],
+    "saved": [
+      {
+        "index": 0,
+        "text": "3 egg whites",
+        "destination": "Full3whites froth; currentpasteurizedrepairpreserved.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 1,
+        "text": "1 pound confectioners’ sugar (450g)",
+        "destination": "Full1lbsugarwith explicit sourceapprox450g,gradualincorporation.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 2,
+        "text": "1 teaspoon vanilla extract",
+        "destination": "Full1tspvanilla incorporation.",
+        "scope": "Exact bound original450 cooking field"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "icing.whites",
+        "name": "large pasteurized egg white",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "separated cold if using pasteurized shell eggs; briefly let the measured whites lose their chill",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "froth",
+            "share": 1,
+            "text": "Use {{ingredients}} in a clean, grease-free mixing bowl. With a stand mixer, beat on medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is possible but takes more effort and time. Check actual mixer bowl capacity for the batch."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "icing.sugar",
+        "name": "confectioners’ sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "equivalents": [
+          {
+            "amount": 450,
+            "unit": "g"
+          }
+        ],
+        "allowance": null,
+        "state": "sifted",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "incorporate",
+            "share": 1,
+            "text": "With the mixer on low, gradually add all {{ingredients}}. Scrape as needed and let the sugar incorporate without dumping it in at once."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "icing.vanilla",
+        "name": "pure vanilla extract",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "incorporate",
+            "share": 1,
+            "text": "With the mixer on low, gradually add all {{ingredients}}. Scrape as needed and let the sugar incorporate without dumping it in at once."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "icing.color",
+        "name": "gel or liquid food coloring",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "as desired for selected colors",
+        "state": "",
+        "optional": true,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "color",
+            "share": 1,
+            "text": "Divide the icing into the colors needed and stir in {{ingredients}}. Gel is concentrated; liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered while working."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "icing.water",
+        "name": "water",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "small additions as needed to thin a separate flooding portion",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "consistency",
+            "share": 1,
+            "text": "Use thick icing for outlines, then move the amount needed for flooding into a separate bowl. Add {{ingredients}} a few drops or a small spoonful at a time; the original batch uses approximately ½ tsp additions as a guide, not a required full water dose. Stir with a spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the cue for the design instead of requiring exactly 15 seconds at every scale."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "unlistedBefore": ["Optionalgelcolor/smallthinningwater appear in method, not ingredient list."]
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "froth",
+      "title": "Froth",
+      "text": "Use {{ingredients}} in a clean, grease-free mixing bowl. With a stand mixer, beat on medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is possible but takes more effort and time. Check actual mixer bowl capacity for the batch.",
+      "generatedText": "1. **Froth:** Use large pasteurized egg whites in a clean, grease-free mixing bowl. With a stand mixer, beat on medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is possible but takes more effort and time. Check actual mixer bowl capacity for the batch.",
+      "dependsOn": [],
+      "assigned": ["icing.whites"]
+    },
+    {
+      "index": 2,
+      "id": "incorporate",
+      "title": "Add sugar",
+      "text": "With the mixer on low, gradually add all {{ingredients}}. Scrape as needed and let the sugar incorporate without dumping it in at once.",
+      "generatedText": "2. **Add sugar:** With the mixer on low, gradually add all confectioners’ sugar and pure vanilla extract. Scrape as needed and let the sugar incorporate without dumping it in at once.",
+      "dependsOn": ["froth"],
+      "assigned": ["icing.sugar", "icing.vanilla"]
+    },
+    {
+      "index": 3,
+      "id": "peaks",
+      "title": "Beat to peaks",
+      "text": "Once fully incorporated, increase to medium-high and beat until stiff, shiny peaks form, beginning checks after 2–3 minutes. Avoid continuing to beat after the cue merely to complete a fixed time.",
+      "generatedText": "3. **Beat to peaks:** Once fully incorporated, increase to medium-high and beat until stiff, shiny peaks form, beginning checks after 2–3 minutes. Avoid continuing to beat after the cue merely to complete a fixed time.",
+      "dependsOn": ["incorporate"],
+      "assigned": []
+    },
+    {
+      "index": 4,
+      "id": "color",
+      "title": "Color",
+      "text": "Divide the icing into the colors needed and stir in {{ingredients}}. Gel is concentrated; liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered while working.",
+      "generatedText": "4. **Color:** Divide the icing into the colors needed and stir in gel or liquid food coloring (if using). Gel is concentrated; liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered while working.",
+      "dependsOn": ["peaks"],
+      "assigned": ["icing.color"]
+    },
+    {
+      "index": 5,
+      "id": "consistency",
+      "title": "Outline and flood",
+      "text": "Use thick icing for outlines, then move the amount needed for flooding into a separate bowl. Add {{ingredients}} a few drops or a small spoonful at a time; the original batch uses approximately ½ tsp additions as a guide, not a required full water dose. Stir with a spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the cue for the design instead of requiring exactly 15 seconds at every scale.",
+      "generatedText": "5. **Outline and flood:** Use thick icing for outlines, then move the amount needed for flooding into a separate bowl. Add water a few drops or a small spoonful at a time; the original batch uses approximately ½ tsp additions as a guide, not a required full water dose. Stir with a spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the cue for the design instead of requiring exactly 15 seconds at every scale.",
+      "dependsOn": ["color"],
+      "assigned": ["icing.water"]
+    },
+    {
+      "index": 6,
+      "id": "cover",
+      "title": "Cover and decorate",
+      "text": "Keep bowls or piping bags tightly covered when not immediately in use; the surface dries quickly. Apply outlines to completely cool cookies before filling their centers with the thinner portion. Let the decorated icing dry thoroughly before stacking; allow about 6–8 hours at room temperature, with actual humidity and design affecting the time.",
+      "generatedText": "6. **Cover and decorate:** Keep bowls or piping bags tightly covered when not immediately in use; the surface dries quickly. Apply outlines to completely cool cookies before filling their centers with the thinner portion. Let the decorated icing dry thoroughly before stacking; allow about 6–8 hours at room temperature, with actual humidity and design affecting the time.",
+      "dependsOn": ["consistency"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Gel OR liquidcolor",
+      "status": "complete",
+      "scope": "Wholefullbase; optionalunmeasuredcolor, liquidgraduallybecauseitthins. No secondfullsugardose.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "icing.whites",
+        "icing.sugar",
+        "icing.vanilla",
+        "icing.color",
+        "icing.water"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Outline / separately thinnedflood",
+      "status": "complete",
+      "scope": "Wholefullbase; preparethickoutlines, thinonlydesiredportion withunmeasuredsmallwater additions. No inventedshare/forced½tspfullformulaaddition.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "icing.whites",
+        "icing.sugar",
+        "icing.vanilla",
+        "icing.color",
+        "icing.water"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Handwhisk",
+      "status": "complete-source-option",
+      "scope": "Samewholefullbasewithmoretime/effort; no newmixduration.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "icing.whites",
+        "icing.sugar",
+        "icing.vanilla",
+        "icing.color",
+        "icing.water"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Publisher6–8hrdrying",
+      "status": "complete-source-option",
+      "scope": "Applieddecorationsdrybeforestacking; humidity/designaffecttime. Not wet-icingfridgestorage.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "icing.whites",
+        "icing.sugar",
+        "icing.vanilla",
+        "icing.color",
+        "icing.water"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Publisher wet-icing2weekrefrigerated makeahead",
+      "status": "held-storage-option",
+      "scope": "Direct current primary names coveredfridgeupto2weeks. Exact weticing/addedwater/color/eggproductstorage applicability notvalidated. Preserve note privately, no generic3–4day substitution and no room-safe cookie duration certified.",
+      "entries": [],
+      "questions": [
+        "Does actual pasteurized product label permit this prepared high-sugar icing duration? What added water/color and storage conditions were intended?"
+      ],
+      "completeMainReferences": [
+        "icing.whites",
+        "icing.sugar",
+        "icing.vanilla",
+        "icing.color",
+        "icing.water"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "sugar-cookie",
+      "blueberry-baked-oatmeal",
+      "breakfast-carrot-cake",
+      "chocolate-chip-beet-muffins"
+    ],
+    "proposedPairsWith": [
+      "sugar-cookie",
+      "blueberry-baked-oatmeal",
+      "breakfast-carrot-cake",
+      "chocolate-chip-beet-muffins"
+    ],
+    "scope": "All current incoming meal files searched; none found. Existing pairing metadata preserved, not meal-certified."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratios": "Full3largepasteurizedwhites:1lbsugar(sourceapprox450gexplicit):1tspvanilla. Optionalcolor/waterareunmeasuredprocesssupplies; separatefloodportionavoidsinventedfixedshare. Native36servings vs current36cookies; retain36planningportions, actualcoverageunknown. Sugargramapproxsource preserved, not an invented precise pound conversion.",
+    "capacity": "Actualstandmixercapacity, cleanbowl, coolcookies; proportionalfullicingbatch, outline/floodamountbyactualdesign nota guessedfraction.",
+    "planningYield": "36 portions",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [
+    {
+      "commit": "9faedba59b21bb230dcddd530489dc6e86d51bde",
+      "scope": "Actual current pasteurized whites and cold-separation/clean-tools/outline-then-flood note retained; exact followed diff scope independently inspected."
+    }
+  ],
+  "remainingQuestions": [
+    "No testedfinishedicingyield,shelflifeorwateractivity.2weekpublisherwetstorageoption held separately; original36servingsnotfixedcookies.",
+    "Actual pasteurized white product whipping suitability and cookie/design coverage remain unresolved. Current publisher coveredfridgeupto2weeks is preserved privately as a separate storage option/question: exact sugar/water/color/product and handling limits have not been validated here."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

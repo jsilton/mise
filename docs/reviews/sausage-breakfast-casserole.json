@@ -1,0 +1,1243 @@
+{
+  "slug": "sausage-breakfast-casserole",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "8803dd7bb5b9a64b20dddc99f7f6c347391c677534b5272367b9d7e4943f865b",
+  "acceptedSourceSha256": "4b35b8ca4245c6faa0e311aac1d72578024b394e1434c5cb26db2ece182a1e3b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "60 min",
+      "after": "About 70–80 min, including skillet cooking"
+    },
+    {
+      "field": "totalTime",
+      "before": "75 min",
+      "after": "About 85–90 min, plus any remaining preheating or extra pan loads"
+    },
+    {
+      "field": "servings",
+      "before": "10",
+      "after": "10 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Breakfast Sausage (Jimmy Dean Standard)",
+        "30 oz Frozen Shredded Hash Browns, thawed",
+        "10 large Eggs",
+        "1 1/4 cups Heavy Cream (for richness)",
+        "2 cups Sharp Cheddar, shredded",
+        "4 Scallions, chopped (whites and greens divided)",
+        "1 Red Bell Pepper, chopped",
+        "1 tbsp Dijon Mustard",
+        "2 tsp Hot Sauce (The Finishing Touch)",
+        "Salt and Black Pepper"
+      ],
+      "after": [
+        "--- Casserole ---",
+        "1 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "30 oz frozen shredded hash browns, thawed in the refrigerator",
+        "10 large eggs",
+        "1 1/4 cups heavy cream",
+        "2 cups sharp Cheddar, shredded",
+        "4 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "1 red bell pepper, stemmed, seeded and chopped",
+        "1 tbsp Dijon mustard",
+        "2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 505,
+        "protein": 26,
+        "carbs": 3.5,
+        "fat": 43.5,
+        "fiber": 0,
+        "sugar": 1.5,
+        "sodium": 720
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 10,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Casserole",
+            "ingredients": [
+              {
+                "id": "sausage",
+                "key": "breakfast-sausage",
+                "name": "raw bulk breakfast sausage",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "sausage",
+                    "share": 1
+                  }
+                ],
+                "preparation": "refrigerated; check whether pork/beef or poultry"
+              },
+              {
+                "id": "potatoes",
+                "key": "hash-browns",
+                "name": "frozen shredded hash browns",
+                "quantity": {
+                  "amount": 30,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thawed in the refrigerator"
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 10,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "cream",
+                "key": "heavy-cream",
+                "name": "heavy cream",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cheese",
+                "key": "sharp-cheddar",
+                "name": "sharp Cheddar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "fold",
+                    "share": "3/4"
+                  },
+                  {
+                    "step": "uncover",
+                    "share": "1/4"
+                  }
+                ],
+                "preparation": "shredded"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "scallion",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ],
+                "plural": "scallions",
+                "preparation": "washed; white/light-green and dark-green parts chopped and kept separate"
+              },
+              {
+                "id": "pepper",
+                "key": "red-bell-pepper",
+                "name": "red bell pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sausage",
+                    "share": 1
+                  }
+                ],
+                "plural": "red bell peppers",
+                "preparation": "stemmed, seeded and chopped"
+              },
+              {
+                "id": "mustard",
+                "key": "dijon",
+                "name": "Dijon mustard",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "hot-sauce",
+                "key": "hot-sauce",
+                "name": "hot sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste for the custard",
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "black-pepper",
+                "key": "black-pepper",
+                "name": "black pepper",
+                "allowance": "to taste for the custard",
+                "uses": [
+                  {
+                    "step": "custard",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "grease",
+                "key": "butter-or-spray",
+                "name": "butter or nonstick spray",
+                "allowance": "as needed to grease the baking dish",
+                "uses": [
+                  {
+                    "step": "prep",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare",
+            "text": "Preheat the oven to 350°F. Prepare {{ingredients}}: reserve the chopped dark-green scallion parts for the finish and use the white/light-green parts in the skillet. Grease a 9-by-13-inch or other 3-quart baking dish for the original batch. Check space for the full mixture and baking headroom; scaled batches need proportionate pan area/depth, sometimes separate dishes. Do not simply pile a larger batch deeper into one dish."
+          },
+          {
+            "id": "sausage",
+            "title": "Brown sausage",
+            "text": "Have {{ingredients}} ready. In a large skillet over medium-high heat, brown the sausage, breaking it into small pieces. The original sausage browning takes about 6–8 minutes; check several thicker pieces for 160°F / 71°C for pork/beef sausage or 165°F / 74°C for poultry sausage. Add the red bell pepper and chopped white/light-green {{name:main.scallions}} parts and cook about 3 minutes until the pepper starts to soften. Keep the rendered fat with the mixture. Transfer to a heatproof plate to cool slightly while you whisk the custard; do not leave it out for an extended cooling period."
+          },
+          {
+            "id": "custard",
+            "title": "Whisk custard",
+            "text": "Whisk {{ingredients}} in a large bowl until well combined. Do not taste the raw egg mixture."
+          },
+          {
+            "id": "fold",
+            "title": "Combine",
+            "text": "Use the fully thawed hash browns for this step. Fold {{ingredients}} and all of the cooked sausage, vegetables and rendered fat into the custard. The cheese allocation is three quarters here and one quarter reserved for the top at every batch size."
+          },
+          {
+            "id": "assemble",
+            "title": "Assemble",
+            "text": "Transfer the full mixture to the prepared dish or divide proportionally among enough dishes, keeping a similar depth and baking headroom. Smooth into an even layer. For overnight assembly, promptly cover and refrigerate at 40°F / 4°C or below, then bake within 24 hours. Follow the dish manufacturer’s cold-to-hot oven instructions; a fixed counter wait is not a substitute."
+          },
+          {
+            "id": "covered",
+            "title": "Bake covered",
+            "text": "Cover with foil and bake at 350°F for about 50 minutes for the original batch and dish."
+          },
+          {
+            "id": "uncover",
+            "title": "Finish uncovered",
+            "text": "Remove the foil and scatter {{ingredients}} over the top. Increase the oven to 400°F and bake about 10–15 minutes more for the original batch, until the top is golden, the center is set and the casserole reaches 165°F / 74°C in the center and other thick areas of each dish. A cold assembled casserole or changed pan depth can need longer; color alone is not the endpoint."
+          },
+          {
+            "id": "serve",
+            "title": "Rest and serve",
+            "text": "Let stand for 10 minutes, then garnish with all of the reserved dark-green {{name:main.scallions}} parts and serve."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Match the center to the browned top",
+        "outcome": "A set, moist center with melted, golden cheese and slices that hold after resting.",
+        "techniques": ["temperature", "gentle-proteins"],
+        "before": [
+          "Thaw the hash browns in the refrigerator and keep sausage, eggs and cream cold until preparation.",
+          "Choose enough baking dishes before mixing. The 9-by-13-inch/3-quart suggestion applies to the original batch; actual dish depth and scaled loads matter.",
+          "The original ten portions are planning. Overnight assembly adds refrigeration time and can extend baking."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Sausage is broken up, browned and checked at its product-specific endpoint before entering the egg mixture.",
+            "why": "Brown color or disappearance of pink does not establish the center temperature; poultry sausage has a different endpoint."
+          },
+          {
+            "step": 7,
+            "cue": "The center is set and measures 165°F, even if the top is already golden.",
+            "why": "The exposed top browns faster than heat reaches the thick center, especially from a refrigerated start."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The top is browning while the center remains underdone",
+            "cause": "A deeper or colder load heats unevenly.",
+            "fix": "Loosely shield the top with foil and continue baking, checking the center and other thick areas. Let every dish reach the endpoint before resting."
+          }
+        ],
+        "timing": "Plan about 85–90 minutes for the original same-day batch, including roughly 15 minutes of preparation, skillet cooking that overlaps whisking, 50 minutes covered plus 10–15 uncovered and a 10-minute rest. Remaining preheating, a cold start or extra dishes can extend elapsed time. Overnight refrigeration is additional.",
+        "storage": "Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F / 74°C throughout, checking the center and more than one portion. Unbaked mixed eggs must be refrigerated promptly and baked within 24 hours. The separate 3-month baked-freezer plan concerns quality.",
+        "sources": [
+          {
+            "title": "Pioneer Woman: Sausage Breakfast Casserole",
+            "url": "https://www.thepioneerwoman.com/food-cooking/recipes/a37215621/sausage-breakfast-casserole-recipe/"
+          },
+          {
+            "title": "Product-specific sausage and casserole temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "Raw egg assembly and leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table"
+          },
+          {
+            "title": "USDA cooling and reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis breakfast casserole is ideal for holiday mornings because it feeds a crowd and can be assembled the night before. Baking covered first sets the egg custard without drying it out, then uncovering and increasing heat to 400°F for the final 15 minutes crisps the hash brown crust on top. Whisking Dijon mustard into the cream cuts through the heavy sausage fat, adding tangy brightness that prevents the dish from feeling overly rich.\n\n## Directions\n\n1.  **The Sear:** In a large skillet, brown the sausage over medium-high until no pink remains. Add the bell pepper and scallion whites; sauté for 3 minutes. Let cool slightly.\n2.  **The Emulsion:** In a massive bowl, whisk eggs, heavy cream, mustard, hot sauce, salt, and pepper until very frothy.\n3.  **Combine:** Fold in the sausage mixture, 1 1/2 cups of the cheese, and the thawed hash browns.\n4.  **Assemble:** Pour into a greased 9x13-inch baking dish. Smooth into an even layer.\n5.  **Stage 1:** Cover with foil. Bake at 350°F for 50 minutes.\n6.  **Stage 2:** Remove foil. Top with the remaining 1/2 cup cheese. **Increase oven to 400°F**. Bake for 10-15 minutes until the top is deep golden and the center is firm.\n7.  **Serve:** Let rest for 10 minutes. Garnish with scallion greens and serve.\n",
+    "after": "\n## Chef's Note\n\nSausage, thawed hash browns, full heavy cream and sharp Cheddar make a rich breakfast bake for a crowd. Foil protects the custard during the first stage; the uncovered hotter finish browns the cheese. Dijon and hot sauce provide tang, while a short rest helps the slices hold together.\n\n## Directions\n\n1. **Prepare:** Preheat the oven to 350°F. Prepare scallions and butter or nonstick spray: reserve the chopped dark-green scallion parts for the finish and use the white/light-green parts in the skillet. Grease a 9-by-13-inch or other 3-quart baking dish for the original batch. Check space for the full mixture and baking headroom; scaled batches need proportionate pan area/depth, sometimes separate dishes. Do not simply pile a larger batch deeper into one dish.\n2. **Brown sausage:** Have raw bulk breakfast sausage and red bell pepper ready. In a large skillet over medium-high heat, brown the sausage, breaking it into small pieces. The original sausage browning takes about 6–8 minutes; check several thicker pieces for 160°F / 71°C for pork/beef sausage or 165°F / 74°C for poultry sausage. Add the red bell pepper and chopped white/light-green scallion parts and cook about 3 minutes until the pepper starts to soften. Keep the rendered fat with the mixture. Transfer to a heatproof plate to cool slightly while you whisk the custard; do not leave it out for an extended cooling period.\n3. **Whisk custard:** Whisk large eggs, heavy cream, Dijon mustard, hot sauce, salt, and black pepper in a large bowl until well combined. Do not taste the raw egg mixture.\n4. **Combine:** Use the fully thawed hash browns for this step. Fold frozen shredded hash browns and 3/4 of the sharp Cheddar and all of the cooked sausage, vegetables and rendered fat into the custard. The cheese allocation is three quarters here and one quarter reserved for the top at every batch size.\n5. **Assemble:** Transfer the full mixture to the prepared dish or divide proportionally among enough dishes, keeping a similar depth and baking headroom. Smooth into an even layer. For overnight assembly, promptly cover and refrigerate at 40°F / 4°C or below, then bake within 24 hours. Follow the dish manufacturer’s cold-to-hot oven instructions; a fixed counter wait is not a substitute.\n6. **Bake covered:** Cover with foil and bake at 350°F for about 50 minutes for the original batch and dish.\n7. **Finish uncovered:** Remove the foil and scatter 1/4 of the sharp Cheddar over the top. Increase the oven to 400°F and bake about 10–15 minutes more for the original batch, until the top is golden, the center is set and the casserole reaches 165°F / 74°C in the center and other thick areas of each dish. A cold assembled casserole or changed pan depth can need longer; color alone is not the endpoint.\n8. **Rest and serve:** Let stand for 10 minutes, then garnish with all of the reserved dark-green scallion parts and serve.\n\n## Cooking Notes\n\nFor a scallion-in-custard version, cook the white and light-green parts as above, whisk about half of the remaining chopped green parts into the eggs and reserve the other half for garnishing. In this version the hot sauce can be omitted. The measured seasoning option is 1½ teaspoons salt and 1 teaspoon black pepper for the original batch; scale proportionally instead of using the main to-taste allowances. The salt crystal size is unspecified, so these are not equal-volume fine-salt/kosher-salt alternatives. All sausage, fat, cream, eggs, potatoes and cheese remain unchanged.\n\nThe baked casserole can be frozen in wrapped portions for up to 3 months as a quality plan. Cool and refrigerate promptly before packaging for the freezer; refrigerator-thaw before reheating.\n"
+  },
+  "findings": [
+    {
+      "id": "SBB21-S01",
+      "title": "SBB21-S01",
+      "rationale": "Add explicit raw species/state and temperaturechecks: sausage160pork/beefor165poultry; meatcasserolecenter165, not no-pink/topcolor alone. Full fat stays in mixture.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+      ],
+      "exactBeforeAfterReferences": ["formula", "content", "ingredients"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-S02",
+      "title": "SBB21-S02",
+      "rationale": "List genuinegreasing supply, proportionalcheesesplit and explicit scallionprep destinations. Preserve mainallgreensfinish; sourcehalfgreenscustard/seasoning/hotsauceoptional completealternative with no salt densityequivalence.",
+      "confidence": "high for lineage, moderate unspecifiedsource salt identity",
+      "applicableSources": ["native/b7/045", "eab6f8bb", "modernPioneer card"],
+      "exactBeforeAfterReferences": ["ingredients", "formula", "content"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-S03",
+      "title": "SBB21-S03",
+      "rationale": "Include skillet/50+10–15bake/10rest,preheat/coldstart/extraarea dependencies; overnight rawassembly≤24h actualdishtransition; preservemodern3monthfreezerqualityplan.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "modernPioneer"
+      ],
+      "exactBeforeAfterReferences": ["cookTime", "totalTime", "learning", "content"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-S04",
+      "title": "SBB21-S04",
+      "rationale": "Countryfrom2a automaticwithoutparticularrecipegeographyproof removed whileAmericanstyle/sourcecredits intact. Existingnutritionunsupportedforcompleteformula/allowances removed.",
+      "confidence": "high",
+      "applicableSources": ["completefollowedhistory", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-A01",
+      "title": "Whole independent literal correction",
+      "rationale": "The generated sentence names the frozen product without its preparation, although the ingredient and learning already correctly require refrigerator thawing. This optional clarification prevents a skimming reader mistaking product naming for use-from-frozen instructions. Preserve product name, 30 oz and preparation; regenerate all three views if chosen.",
+      "confidence": "high",
+      "applicableSources": [
+        "Exact native/Pioneer Woman thawed hash browns and existing proposed ingredient preparation"
+      ],
+      "exactBeforeAfterReferences": ["formula.steps[3].text"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sausage%20Breakfast%20Casserole.html",
+    "introductionScope": "Earlier exact named HTML cooking after stable native original join; HTML is not native identity proof.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Scallion-in-custard and measured source seasoning",
+      "base": "same full main core",
+      "changes": "About half prepared darkgreens→custard, rest→serve;2tsp hotsauce may be omitted; original1½tsp unnamed salt+1tspblackpepper replaces main allowances, proportionally scaled with density limitation.",
+      "destination": "Cooking Notes paragraph1; custard/serve; no extra scallion dose",
+      "source": "native/b7/045 and modernpublishercard",
+      "status": "proposed separate complete variation"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 lb Breakfast Sausage (Jimmy Dean Standard)",
+        "destination": "brown1; unspecified species/raw state; color-only cue",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "30 oz Frozen Shredded Hash Browns, thawed",
+        "destination": "fold3; thawed location unspecified",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "10 large Eggs",
+        "destination": "whisk2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 1/4 cups Heavy Cream (for richness)",
+        "destination": "whisk2 full heavy cream",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "2 cups Sharp Cheddar, shredded",
+        "destination": "3 receives fixed1½cups;6 fixed½cup",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "4 Scallions, chopped (whites and greens divided)",
+        "destination": "whites1/greens7; no green-in-custard source branch",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1 Red Bell Pepper, chopped",
+        "destination": "saute1 about3min",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tbsp Dijon Mustard",
+        "destination": "whisk2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "2 tsp Hot Sauce (The Finishing Touch)",
+        "destination": "whisk2 measuredmain",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "Salt and Black Pepper",
+        "destination": "whisk2 genuine shared allowances",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": ["Butter/spray forgreasing4"],
+    "proposed": [
+      {
+        "id": "main.sausage",
+        "key": "breakfast-sausage",
+        "name": "raw bulk breakfast sausage",
+        "quantity": {
+          "amount": 1,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "sausage",
+            "share": 1
+          }
+        ],
+        "preparation": "refrigerated; check whether pork/beef or poultry",
+        "component": "Casserole"
+      },
+      {
+        "id": "main.potatoes",
+        "key": "hash-browns",
+        "name": "frozen shredded hash browns",
+        "quantity": {
+          "amount": 30,
+          "unit": "oz"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": 1
+          }
+        ],
+        "preparation": "thawed in the refrigerator",
+        "component": "Casserole"
+      },
+      {
+        "id": "main.eggs",
+        "key": "eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 10,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "plural": "large eggs",
+        "component": "Casserole"
+      },
+      {
+        "id": "main.cream",
+        "key": "heavy-cream",
+        "name": "heavy cream",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "Casserole"
+      },
+      {
+        "id": "main.cheese",
+        "key": "sharp-cheddar",
+        "name": "sharp Cheddar",
+        "quantity": {
+          "amount": 2,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "fold",
+            "share": "3/4"
+          },
+          {
+            "step": "uncover",
+            "share": "1/4"
+          }
+        ],
+        "preparation": "shredded",
+        "component": "Casserole"
+      },
+      {
+        "id": "main.scallions",
+        "key": "scallions",
+        "name": "scallion",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "plural": "scallions",
+        "preparation": "washed; white/light-green and dark-green parts chopped and kept separate",
+        "component": "Casserole"
+      },
+      {
+        "id": "main.pepper",
+        "key": "red-bell-pepper",
+        "name": "red bell pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "sausage",
+            "share": 1
+          }
+        ],
+        "plural": "red bell peppers",
+        "preparation": "stemmed, seeded and chopped",
+        "component": "Casserole"
+      },
+      {
+        "id": "main.mustard",
+        "key": "dijon",
+        "name": "Dijon mustard",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "Casserole"
+      },
+      {
+        "id": "main.hot-sauce",
+        "key": "hot-sauce",
+        "name": "hot sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "Casserole"
+      },
+      {
+        "id": "main.salt",
+        "key": "salt",
+        "name": "salt",
+        "allowance": "to taste for the custard",
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "Casserole"
+      },
+      {
+        "id": "main.black-pepper",
+        "key": "black-pepper",
+        "name": "black pepper",
+        "allowance": "to taste for the custard",
+        "uses": [
+          {
+            "step": "custard",
+            "share": 1
+          }
+        ],
+        "component": "Casserole"
+      },
+      {
+        "id": "main.grease",
+        "key": "butter-or-spray",
+        "name": "butter or nonstick spray",
+        "allowance": "as needed to grease the baking dish",
+        "uses": [
+          {
+            "step": "prep",
+            "share": 1
+          }
+        ],
+        "component": "Casserole"
+      }
+    ],
+    "native": [
+      {
+        "path": "privately retained evidence",
+        "sha256": "8ec340844fc213bce249a06182d730bd4ef26dc9289fd41840dff05f458c3a70",
+        "bindingKind": "primary",
+        "ingredients": [
+          {
+            "index": 0,
+            "ingredient": "Butter or nonstick spray",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "greasepan",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 1,
+            "ingredient": "1 lb. breakfast sausage, such as Jimmy Dean",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "brownsausage",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 2,
+            "ingredient": "4 scallions, chopped, white and green parts divided",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "white/lightgreenskillet;halfremaininggreenscustard;restgarnish",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 3,
+            "ingredient": "1 red bell pepper, chopped",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "pepperaftermeat",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 4,
+            "ingredient": "10 eggs",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "custard",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 5,
+            "ingredient": "1 1/4 c. heavy cream",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "custard",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 6,
+            "ingredient": "1 tbsp. Dijon mustard",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "custard",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 7,
+            "ingredient": "2 tsp. hot sauce, optional",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "optionalcustard",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 8,
+            "ingredient": "1 1/2 tsp. salt",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "custardmeasuredsalt",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 9,
+            "ingredient": "1 tsp. black pepper",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "custardmeasuredpepper",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 10,
+            "ingredient": "2 c. shredded sharp cheddar cheese, divided (8oz package)",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "3/4fold;1/4top",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 11,
+            "ingredient": "30 oz. package of frozen, shredded hash browns, thawed",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "foldpotatoes",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          }
+        ]
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "b1d8a69943e07dac8342e1aa196aa7e01acb45da7af355a0a36c67bf7a6c1084"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "4385c728f66e8c6f58726a5708ce2deced5324244a4e1237292f6cbfe88aed65"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "256106faef2753898ac3f46ec06f95fb3aecbbb2367e6a6c41cdcde3255a8c59"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "20a27036444cd490b466342fee086ed8920d0f1f5b6a4bb1c866763b74baf87b"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "30f2ed026cecf9a3c83007a839817943789f5852bb4819616e2433a9bbd1ebe5"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "57d1717ec0fc7aa68514c59e4a4d366516dc72a7c53115d178759edd166ffa84"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "cdf932c4916eab0d88cfd649b95678288903ef13252a95bcd664a751101b86c2"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "prep",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["main.scallions", "main.grease"],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "sausage",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.sausage", "main.pepper"],
+        "cue": [
+          "Sausage is broken up, browned and checked at its product-specific endpoint before entering the egg mixture."
+        ]
+      },
+      {
+        "step": 3,
+        "id": "custard",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [
+          "main.eggs",
+          "main.cream",
+          "main.mustard",
+          "main.hot-sauce",
+          "main.salt",
+          "main.black-pepper"
+        ],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "fold",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["main.potatoes", "main.cheese"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "assemble",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 6,
+        "id": "covered",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "uncover",
+        "textReference": "privately retained evidence#formula.steps[6].text",
+        "ingredients": ["main.cheese"],
+        "cue": ["The center is set and measures 165°F, even if the top is already golden."]
+      },
+      {
+        "step": 8,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[7].text",
+        "ingredients": [],
+        "cue": []
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Current main",
+      "base": "formula",
+      "scope": "Full1lb sausage/allrenderedfat/30oz potatoes/10eggs/1¼cream/2cup cheese; allgreensgarnish and2tsp hot sauce retained; main salt/pepper remain genuine allowances."
+    },
+    {
+      "name": "Scallion-in-custard and measured source seasoning",
+      "base": "same full main core",
+      "changes": "About half prepared darkgreens→custard, rest→serve;2tsp hotsauce may be omitted; original1½tsp unnamed salt+1tspblackpepper replaces main allowances, proportionally scaled with density limitation.",
+      "destination": "Cooking Notes paragraph1; custard/serve; no extra scallion dose",
+      "source": "native/b7/045 and modernpublishercard",
+      "status": "proposed separate complete variation"
+    },
+    {
+      "name": "Overnight assembled / baked freezer",
+      "changes": "Raw assembled≤24h refrigerated; actualdishcold-to-hot; baked portions up3months quality withpromptcool+refrigeratorthaw",
+      "source": "modern publisher/USDA raw egg scope",
+      "status": "proposed"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "cinnamon-sweet-potatoes",
+        "path": "src/content/recipes/cinnamon-sweet-potatoes.md",
+        "sha256": "8420b657162ee3d1e1852b10f26782220c37aa95691f2f46a93d014e21b72fa5",
+        "scope": "Link exists, not whole component or meal acceptance"
+      },
+      {
+        "slug": "green-beans-with-shallots-and-lemon",
+        "path": "src/content/recipes/green-beans-with-shallots-and-lemon.md",
+        "sha256": "556f4130b47fba3d17cc86d4da6a99db7c595765e9040eb9b17f69a89e357f2a",
+        "scope": "Link exists, not whole component or meal acceptance"
+      },
+      {
+        "slug": "roasted-sunchokes-with-brown-butter-cider-vinaigrette",
+        "path": "src/content/recipes/roasted-sunchokes-with-brown-butter-cider-vinaigrette.md",
+        "sha256": "ce8ab6d233ee92280696209b6dde723d575494cc28d85dc6349607a26dddff4d",
+        "scope": "Link exists, not whole component or meal acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "No incoming composed meal references this recipe. Outgoing recipe links and styles preserved; no meal approval."
+  },
+  "ratiosYieldAndCapacity": [
+    "10eggs/1¼cupcream/30ozpotatoes/1lbsausage/full2cupcheese; denseoriginal9x13/3q sourcegeometryisplanning, no certifiedpanfit.",
+    "Cheese3/4custard+1/4top; scallionsfullprep thenwhite/greenanatomicaldestinations, no false count-to-greens fraction.",
+    "Inherited10current portions vsnative10–12 estimate, notmeasured output."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Casserole ---",
+        "1/4 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "7 1/2 oz frozen shredded hash browns, thawed in the refrigerator",
+        "2 1/2 large eggs",
+        "0.31 cup heavy cream",
+        "1/2 cup sharp Cheddar, shredded",
+        "1 scallion, washed; white/light-green and dark-green parts chopped and kept separate",
+        "1/4 red bell pepper, stemmed, seeded and chopped",
+        "1/4 tbsp Dijon mustard",
+        "1/2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "2 1/2 portions",
+      "shopping": [
+        "1/4 lb raw bulk breakfast sausage",
+        "7 1/2 oz frozen shredded hash browns",
+        "2 1/2 large eggs",
+        "0.31 cup heavy cream",
+        "1/2 cup sharp Cheddar",
+        "1 scallion",
+        "1/4 red bell pepper",
+        "1/4 tbsp Dijon mustard",
+        "1/2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Casserole ---",
+        "1/2 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "15 oz frozen shredded hash browns, thawed in the refrigerator",
+        "5 large eggs",
+        "5/8 cup heavy cream",
+        "1 cup sharp Cheddar, shredded",
+        "2 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "1/2 red bell pepper, stemmed, seeded and chopped",
+        "1/2 tbsp Dijon mustard",
+        "1 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "5 portions",
+      "shopping": [
+        "1/2 lb raw bulk breakfast sausage",
+        "15 oz frozen shredded hash browns",
+        "5 large eggs",
+        "5/8 cup heavy cream",
+        "1 cup sharp Cheddar",
+        "2 scallions",
+        "1/2 red bell pepper",
+        "1/2 tbsp Dijon mustard",
+        "1 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Casserole ---",
+        "1 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "30 oz frozen shredded hash browns, thawed in the refrigerator",
+        "10 large eggs",
+        "1 1/4 cups heavy cream",
+        "2 cups sharp Cheddar, shredded",
+        "4 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "1 red bell pepper, stemmed, seeded and chopped",
+        "1 tbsp Dijon mustard",
+        "2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "10 portions",
+      "shopping": [
+        "1 lb raw bulk breakfast sausage",
+        "30 oz frozen shredded hash browns",
+        "10 large eggs",
+        "1 1/4 cups heavy cream",
+        "2 cups sharp Cheddar",
+        "4 scallions",
+        "1 red bell pepper",
+        "1 tbsp Dijon mustard",
+        "2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Casserole ---",
+        "1 1/2 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "45 oz frozen shredded hash browns, thawed in the refrigerator",
+        "15 large eggs",
+        "1 7/8 cups heavy cream",
+        "3 cups sharp Cheddar, shredded",
+        "6 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "1 1/2 red bell peppers, stemmed, seeded and chopped",
+        "1 1/2 tbsp Dijon mustard",
+        "3 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "15 portions",
+      "shopping": [
+        "1 1/2 lb raw bulk breakfast sausage",
+        "45 oz frozen shredded hash browns",
+        "15 large eggs",
+        "1 7/8 cups heavy cream",
+        "3 cups sharp Cheddar",
+        "6 scallions",
+        "1 1/2 red bell peppers",
+        "1 1/2 tbsp Dijon mustard",
+        "3 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Casserole ---",
+        "2 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "60 oz frozen shredded hash browns, thawed in the refrigerator",
+        "20 large eggs",
+        "2 1/2 cups heavy cream",
+        "4 cups sharp Cheddar, shredded",
+        "8 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "2 red bell peppers, stemmed, seeded and chopped",
+        "2 tbsp Dijon mustard",
+        "4 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "20 portions",
+      "shopping": [
+        "2 lb raw bulk breakfast sausage",
+        "60 oz frozen shredded hash browns",
+        "20 large eggs",
+        "2 1/2 cups heavy cream",
+        "4 cups sharp Cheddar",
+        "8 scallions",
+        "2 red bell peppers",
+        "2 tbsp Dijon mustard",
+        "4 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Casserole ---",
+        "3 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "90 oz frozen shredded hash browns, thawed in the refrigerator",
+        "30 large eggs",
+        "3 3/4 cups heavy cream",
+        "6 cups sharp Cheddar, shredded",
+        "12 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "3 red bell peppers, stemmed, seeded and chopped",
+        "3 tbsp Dijon mustard",
+        "6 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "30 portions",
+      "shopping": [
+        "3 lb raw bulk breakfast sausage",
+        "90 oz frozen shredded hash browns",
+        "30 large eggs",
+        "3 3/4 cups heavy cream",
+        "6 cups sharp Cheddar",
+        "12 scallions",
+        "3 red bell peppers",
+        "3 tbsp Dijon mustard",
+        "6 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Casserole ---",
+        "1 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry",
+        "30 oz frozen shredded hash browns, thawed in the refrigerator",
+        "10 large eggs",
+        "1 1/4 cups heavy cream",
+        "2 cups sharp Cheddar, shredded",
+        "4 scallions, washed; white/light-green and dark-green parts chopped and kept separate",
+        "1 red bell pepper, stemmed, seeded and chopped",
+        "1 tbsp Dijon mustard",
+        "2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "yield": "10 portions",
+      "shopping": [
+        "1 lb raw bulk breakfast sausage",
+        "30 oz frozen shredded hash browns",
+        "10 large eggs",
+        "1 1/4 cups heavy cream",
+        "2 cups sharp Cheddar",
+        "4 scallions",
+        "1 red bell pepper",
+        "1 tbsp Dijon mustard",
+        "2 tsp hot sauce",
+        "salt, to taste for the custard",
+        "black pepper, to taste for the custard",
+        "butter or nonstick spray, as needed to grease the baking dish"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    }
+  ],
+  "preservedPriorRepairs": "No later explicit safety/formula dose repair overwritten; fullcurrentrichness/protectedsourcefields preserved.",
+  "remainingQuestions": [
+    "What actual sausage species,label and salt strength are used? Source measured salt has unspecified crystal size.",
+    "Which dish depth and cold-to-hot instructions apply? What elapsed bake/center/slicingtexture results with30oz thawedpotatoes and fullcream?"
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

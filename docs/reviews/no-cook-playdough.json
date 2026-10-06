@@ -1,0 +1,521 @@
+{
+  "slug": "no-cook-playdough",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "342258d03dad918835f4f8efec9013503b6a018998953750f158f7b7e2bb64ea",
+  "acceptedSourceSha256": "638d2fd47396dd05eda8d5c3a887c248ab875c8103b1589345cf8dfe62e4288c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["boil", "no-cook"],
+      "after": ["boil", "mix"]
+    },
+    {
+      "field": "dietary",
+      "before": ["vegetarian"],
+      "after": null
+    },
+    {
+      "field": "occasions",
+      "before": ["kid-friendly"],
+      "after": ["make-ahead"]
+    },
+    {
+      "field": "nutritionalDensity",
+      "before": "light",
+      "after": null
+    },
+    {
+      "field": "leftovers",
+      "before": "excellent",
+      "after": null
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["acidic", "rich"],
+      "after": null
+    },
+    {
+      "field": "cuisines",
+      "before": ["American"],
+      "after": null
+    },
+    {
+      "field": "role",
+      "before": "base",
+      "after": null
+    },
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10 min mixing, plus cooling and kneading"
+    },
+    {
+      "field": "cookTime",
+      "before": "0 min",
+      "after": "No stovetop dough cooking; water must be boiled"
+    },
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "About 10 min mixing, plus water heating, cooling and kneading"
+    },
+    {
+      "field": "pairsWith",
+      "before": [
+        "healthy-carrot-cake-muffins-with-cream-cheese-glaze",
+        "whole-wheat-muffins-fruit-nut-or-berry",
+        "avocado-toast"
+      ],
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2.5 cups All-Purpose Flour",
+        "1 1/4 cups Fine Salt",
+        "1 1/2 tbsp Cream of Tartar",
+        "2.5 cups Boiling Water",
+        "5 tbsp Vegetable Oil",
+        "Liquid Watercolors or Wilton Icing Colors"
+      ],
+      "after": [
+        "2.5 cups all-purpose flour",
+        "1 1/4 cups fine salt",
+        "1 1/2 tbsp cream of tartar",
+        "2.5 cups boiling water",
+        "5 tbsp vegetable oil",
+        "Food coloring OR liquid watercolors, as desired for craft use; follow the actual label, not for ingestion"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1245,
+        "protein": 13.5,
+        "carbs": 96,
+        "fat": 90.5,
+        "fiber": 3.5,
+        "sugar": 0.5,
+        "sodium": 139510
+      },
+      "after": null
+    },
+    {
+      "field": "categories",
+      "before": null,
+      "after": ["Crafts"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Mix and cool a nonfood craft dough",
+        "outcome": "A cooled, cohesive dough that can be shaped without confusing it with food.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Use heatproof equipment and adult handling for the boiling water. Keep raw-flour craft work separate from ready-to-eat food.",
+          "Do not taste this high-salt craft mixture or let children play with dough made from raw flour. Color products have their own labeling limits."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The spoon brings the supplies into one mixture without hands contacting hot liquid.",
+            "why": "The hot-water method requires adult handling even though the dough is not cooked on the stove."
+          },
+          {
+            "step": 4,
+            "cue": "The center is comfortably cool before kneading begins.",
+            "why": "A cool surface can conceal retained heat inside the dough."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The cooled mixture is sticky",
+            "cause": "The written water level, flour properties and local humidity can leave a wetter mixture.",
+            "fix": "First knead longer. A little extra flour or the separately described stovetop texture option may help; do not claim either makes the craft dough edible."
+          }
+        ],
+        "timing": "The ten-minute subtotal concerns mixing. Boiling water, actual cooling, kneading and divided coloring add elapsed time; larger loads retain heat longer. Check the center rather than relying on a fixed cooling interval.",
+        "storage": "Keep cooled dough in a labeled nonfood closed container apart from food. Discard moldy, discolored, off-smelling or otherwise unsuitable dough.",
+        "sources": [
+          {
+            "title": "TinkerLab craft supplies and texture alternatives",
+            "url": "https://tinkerlab.com/no-cook-play-dough/"
+          },
+          {
+            "title": "FDA raw-flour handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "CDC raw-flour crafts",
+            "url": "https://www.cdc.gov/food-safety/foods/no-raw-dough.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWhile not edible, this no-cook playdough stays soft and pliable for months. Cream of tartar acts as preservative and stiffener, preventing stickiness. Boiling water instantly gelatinizes flour starch, eliminating the need for stovetop cooking.\n\n## Directions\n\n1.  **Dry Mix:** In a large bowl, whisk together the flour, salt, and cream of tartar until perfectly combined.\n2.  **The Emulsion:** In a separate heatproof jug, mix the boiling water and vegetable oil. If using one color for the whole batch, add the coloring to the liquid now.\n3.  **Combine:** Slowly pour the liquid into the dry ingredients. Stir with a large spoon until a shaggy dough forms.\n4.  **Knead:** Once cool enough to handle, dump the dough onto a clean surface. Knead vigorously for 2-3 minutes until it becomes completely smooth, elastic, and non-sticky.\n5.  **Finish:** If you want multiple colors, divide the white dough and knead the colors into each portion separately.\n6.  **Store:** Keep in an airtight container or a zip-top bag to maintain the \"Bounce.\"\n",
+    "after": "\n## Chef's Note\n\nThis is a nonfood craft dough. Do not eat or taste it, and do not give dough made with raw flour to children for play. A hot-water or short stovetop texture change is not a validated treatment that makes this formula edible; adults handle the hot equipment and dough. Keep this activity and its tools separate from food preparation.\n\n## Directions\n\n1. **Dry supplies:** In a large bowl, mix all the flour, fine salt and cream of tartar. Avoid spreading flour dust onto ready-to-eat food or food utensils.\n2. **Hot supplies:** An adult boils the listed water and combines it with all the vegetable oil in a heatproof jug. For one color throughout, add the selected coloring according to its label now.\n3. **Mix:** An adult slowly pours the hot liquid into the dry supplies and stirs with a long-handled spoon until the mixture comes together. Keep hands away from the hot liquid and bowl.\n4. **Cool and knead:** Let the entire dough cool enough for comfortable handling, including its center, before kneading. Begin checking after 2–3 minutes of kneading for a smoother, cohesive texture; timing alone does not establish coolness or a flour safety endpoint.\n5. **Color portions:** For several colors, divide the cooled uncolored dough into the portions wanted and knead the separate selected colors into them. Do not add a second full coloring allowance to an already colored batch.\n6. **Store and clean:** Store the cooled craft dough in a closed, clearly labeled nonfood container, separate from food. Wash hands, tools and work surfaces after handling it. Discard it if it develops mold, off odors or unsuitable texture.\n\n## Cooking Notes\n\n### Less-water variation\n\nA separate less-water version keeps the full original 2½ cups flour, 1¼ cups salt, 1½ tbsp cream of tartar and 5 tbsp oil, but begins with 1½ cups boiling water and adds more water only as needed to bring the dough together. These are original-batch supplies; scale them proportionally for a different batch. Use the same adult hot-liquid handling and complete cooling before kneading.\n\nIf sticky, knead the cooled dough longer before adding a little extra flour as needed. If dry, add small amounts of water as needed. A stovetop option cooks the mixture while stirring until it comes together, followed by cooling before handling. These adjustments change texture; none certifies decontamination or edibility.\n"
+  },
+  "findings": [
+    {
+      "id": "BCD23-NC01",
+      "title": "BCD23-NC01",
+      "rationale": "Keep the full saved2½cup-water craft route and add the separately complete current-publisher less-water option. Restore adult hot-liquid/complete cooling/cleaning instructions and identify the dough as nonfood. Remove automatic food diet/nutrition/flavor/meal-pairing context and kid-friendly claim; preserve identity, attribution and full supplies. No new child-safety, edibility, months shelf life or DIY flour-decontamination guarantee.",
+      "confidence": "High for source supplies and nonfood/raw-flour scope; moderate for texture adjustments and timing",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "d3300d7e",
+        "https://tinkerlab.com/no-cook-play-dough/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+        "https://www.cdc.gov/food-safety/foods/no-raw-dough.html"
+      ],
+      "sourceApplicability": "TinkerLab supports craft quantities/options and texture handling but currently differs in starting water. FDA/CDC expressly address raw-flour crafts/children and cleanup; they do not validate this brief hot-water mixture as a decontamination process. Adult hot-liquid burn avoidance and cooled-center cue are editorial handling, not a food-safety certification.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "content",
+        "learning",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "categories",
+        "occasions",
+        "cookingMethods",
+        "dietary",
+        "nutritionalDensity",
+        "leftovers",
+        "flavorProfile",
+        "cuisines",
+        "role",
+        "vibe",
+        "pairsWith"
+      ],
+      "questions": [
+        "No tested cooling time or keeping life. Coloring must follow the actual craft-product label. Root may choose a clearer site-wide craft presentation later; no shared discovery/export rule changed."
+      ]
+    },
+    {
+      "id": "BCD23-META",
+      "title": "BCD23-META",
+      "rationale": "Omit unsupported geographic-origin and unverified numerical-nutrition fields; preserve actual source, food style, identity and full rich doses.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "This TinkerLab material is a nonfood craft formula. Automatic country and nutrient values are inapplicable; source recipe nationality and edible yield are not established.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/No%20Cook%20Playdough.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "BCD23-NC01",
+      "rationale": "Keep the full saved2½cup-water craft route and add the separately complete current-publisher less-water option. Restore adult hot-liquid/complete cooling/cleaning instructions and identify the dough as nonfood. Remove automatic food diet/nutrition/flavor/meal-pairing context and kid-friendly claim; preserve identity, attribution and full supplies. No new child-safety, edibility, months shelf life or DIY flour-decontamination guarantee.",
+      "applicability": "TinkerLab supports craft quantities/options and texture handling but currently differs in starting water. FDA/CDC expressly address raw-flour crafts/children and cleanup; they do not validate this brief hot-water mixture as a decontamination process. Adult hot-liquid burn avoidance and cooled-center cue are editorial handling, not a food-safety certification."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "2.5 cups All-Purpose Flour",
+        "destination": "Full flour with dry salt/tartar step1.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 1,
+        "text": "1 1/4 cups Fine Salt",
+        "destination": "Full fine salt in dry supplies.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 2,
+        "text": "1 1/2 tbsp Cream of Tartar",
+        "destination": "Full tartar in dry supplies.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 3,
+        "text": "2.5 cups Boiling Water",
+        "destination": "Full2½cupsboilingwater combines withoil step2.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 4,
+        "text": "5 tbsp Vegetable Oil",
+        "destination": "Full5tbspoil combines withwater.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 5,
+        "text": "Liquid Watercolors or Wilton Icing Colors",
+        "destination": "Singlecolor inhotliquid ormulti-colorsaftercooling; genuinely unmeasured coloring.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      }
+    ],
+    "saved": [
+      {
+        "index": 0,
+        "text": "Supplies",
+        "destination": "Heading only, not a dose.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 1,
+        "text": "1 1/4 c. salt",
+        "destination": "Full1¼cup salt into dry.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 2,
+        "text": "1 1/2 tbsp. cream of tartar",
+        "destination": "Full1½tbsp tartar into dry.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 3,
+        "text": "2.5 cups flour",
+        "destination": "Full2½cup flour into dry.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 4,
+        "text": "5 tbsp. vegetable oil",
+        "destination": "Full5tbsp oil into hot liquids.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 5,
+        "text": "2.5 cups water",
+        "destination": "Full2½cup water boiled; no current-publisher1½+ import into main.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 6,
+        "text": "Food coloring or liquid watercolors. I’m a fan Sax Concentrated Liquid Watercolors andWilton Icing Colors, which make gorgeous shades of play dough to match any occasion, mood, or toddler request.",
+        "destination": "Unmeasured food color OR liquid watercolors; named Sax/Wilton choices remain craft-only.",
+        "scope": "Exact bound original450 cooking field"
+      }
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "2.5 cups all-purpose flour",
+        "destinations": ["dry"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 1,
+        "text": "1 1/4 cups fine salt",
+        "destinations": ["dry"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 2,
+        "text": "1 1/2 tbsp cream of tartar",
+        "destinations": ["dry"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 3,
+        "text": "2.5 cups boiling water",
+        "destinations": ["hot supplies"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 4,
+        "text": "5 tbsp vegetable oil",
+        "destinations": ["hot supplies"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 5,
+        "text": "Food coloring OR liquid watercolors, as desired for craft use; follow the actual label, not for ingestion",
+        "destinations": ["single-color hot supplies OR multi-color cooled portions"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      }
+    ],
+    "unlistedBefore": []
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "text": "Dry supplies: In a large bowl, mix all the flour, fine salt and cream of tartar. Avoid spreading flour dust onto ready-to-eat food or food utensils.",
+      "dependsOn": [],
+      "route": "main"
+    },
+    {
+      "index": 2,
+      "text": "Hot supplies: An adult boils the listed water and combines it with all the vegetable oil in a heatproof jug. For one color throughout, add the selected coloring according to its label now.",
+      "dependsOn": [1],
+      "route": "main"
+    },
+    {
+      "index": 3,
+      "text": "Mix: An adult slowly pours the hot liquid into the dry supplies and stirs with a long-handled spoon until the mixture comes together. Keep hands away from the hot liquid and bowl.",
+      "dependsOn": [2],
+      "route": "main"
+    },
+    {
+      "index": 4,
+      "text": "Cool and knead: Let the entire dough cool enough for comfortable handling, including its center, before kneading. Begin checking after 2–3 minutes of kneading for a smoother, cohesive texture; timing alone does not establish coolness or a flour safety endpoint.",
+      "dependsOn": [3],
+      "route": "main"
+    },
+    {
+      "index": 5,
+      "text": "Color portions: For several colors, divide the cooled uncolored dough into the portions wanted and knead the separate selected colors into them. Do not add a second full coloring allowance to an already colored batch.",
+      "dependsOn": [4],
+      "route": "main"
+    },
+    {
+      "index": 6,
+      "text": "Store and clean: Store the cooled craft dough in a closed, clearly labeled nonfood container, separate from food. Wash hands, tools and work surfaces after handling it. Discard it if it develops mold, off odors or unsuitable texture.",
+      "dependsOn": [5],
+      "route": "main"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Saved full-water main",
+      "status": "complete",
+      "scope": "All original/current measured supplies retained, water2½cups. Single versus multi-color routes exclusive.",
+      "entries": [
+        {
+          "ingredient": "flour",
+          "amount": 2.5,
+          "unit": "cup",
+          "destination": "dry"
+        },
+        {
+          "ingredient": "salt",
+          "amount": 1.25,
+          "unit": "cup",
+          "destination": "dry"
+        },
+        {
+          "ingredient": "tartar",
+          "amount": 1.5,
+          "unit": "tbsp",
+          "destination": "dry"
+        },
+        {
+          "ingredient": "oil",
+          "amount": 5,
+          "unit": "tbsp",
+          "destination": "hot supplies"
+        },
+        {
+          "ingredient": "water",
+          "amount": 2.5,
+          "unit": "cup",
+          "destination": "hot supplies"
+        }
+      ],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Current TinkerLab less-water route",
+      "status": "complete-source-option",
+      "scope": "Full same flour/salt/tartar/oil, water begins1½cups then extra as needed (publisher1.5+). Original-batch values scale proportionally; no additive second water dose.",
+      "entries": [
+        {
+          "ingredient": "water",
+          "amount": 1.5,
+          "unit": "cup",
+          "destination": "hot supplies",
+          "additional": "as needed"
+        }
+      ],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Sticky/dry/stovetop texture adjustments",
+      "status": "unmeasured-source-options",
+      "scope": "Knead cooled dough first; extra flour/water as needed or separately stir over stove until cohesive then cool. No new numeric allowance or heat kill claim.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "healthy-carrot-cake-muffins-with-cream-cheese-glaze",
+      "whole-wheat-muffins-fruit-nut-or-berry",
+      "avocado-toast"
+    ],
+    "proposedPairsWith": [],
+    "scope": "Food pairings are inapplicable to nonfoodcraft and omitted privately. Existing site index/standards/culinary QA already explicitly exclude these craft slugs; shared discovery/export rules are untouched."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratios": "Saved/current full craft formula flour2½cups:salt1¼cups:tartar1½tbsp:oil5tbsp:water2½cups. Current TinkerLab primary instead starts1½+cupwater. Those water routes are not averaged or silently exchanged. No food serving yield or microbial kill endpoint is established.",
+    "capacity": "Large heatproof bowl/jug, long-handled spoon, safe adult handling; choose actual capacity for hot full batch. No volume yield measured.",
+    "planningYield": "1 large batch",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm intended water route and actual craft storage conditions. Neither route is certified edible or suitable raw-flour play for children.",
+    "No tested cooling time or keeping life. Coloring must follow the actual craft-product label. Root may choose a clearer site-wide craft presentation later; no shared discovery/export rule changed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "slug": "pork-and-greens-dumplings",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "e40114e26ecb2dd5035e81550a197466cd2f8cdfc9d9dad23ad4e7fca880a366",
+  "acceptedSourceSha256": "52562957c8382ebc93224395f2e38d063626cc32152bf4f5e4a00ae6d36a8d77",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "60 min",
+      "after": "About 2 hr for the original batch"
+    },
+    {
+      "field": "cookTime",
+      "before": "6–10 min per batch",
+      "after": "6–10 min first checks per cooking batch; pan-frying also needs crisping"
+    },
+    {
+      "field": "totalTime",
+      "before": "1 hr 30 min–2 hr, depending on batch count",
+      "after": "About 2 hr 15 min or longer, depending on cooking loads; freezing adds time"
+    },
+    {
+      "field": "servings",
+      "before": "16, as recorded",
+      "after": "16 planned portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "3 lbs green leafy vegetable (like shepherd’s purse, baby bok choy, or napa cabbage)",
+        "1 ½ pounds ground pork (can substitute ground chicken or beef, as long as they aren’t too lean)",
+        "2/3 cup shaoxing wine (or dry cooking sherry)",
+        "½ cup neutral oil (such as canola, vegetable, or avocado oil)",
+        "3 tablespoons sesame oil",
+        "1 tablespoon salt",
+        "3 tablespoons soy sauce",
+        "¼ teaspoon white pepper",
+        "2/3 cup water (plus more for assembly)",
+        "3 packages dumpling wrappers",
+        "2 tbsp neutral oil, for pan-frying each batch if choosing that method",
+        "Water, enough for the chosen cooking method"
+      ],
+      "after": [
+        "3 lbs green leafy vegetables, such as shepherd’s purse, baby bok choy or napa cabbage, weighed before blanching",
+        "1 1/2 lb ground pork OR ground chicken OR ground beef, not too lean",
+        "2/3 cup Shaoxing wine OR dry cooking sherry",
+        "1/2 cup neutral oil (canola, vegetable or avocado), for the filling",
+        "3 tbsp sesame oil, for the filling",
+        "1 tbsp salt",
+        "3 tbsp soy sauce",
+        "1/4 tsp white pepper",
+        "2/3 cup water, for the filling",
+        "3 packages round dumpling wrappers; package counts vary",
+        "Neutral oil for pan-frying, 2 tbsp for each actual pan load if choosing that method",
+        "Water, as needed separately for blanching, cooling, sealing and the chosen cooking method",
+        "Steamer lining, as needed: damp cheesecloth OR perforated parchment OR thin cabbage leaves, if steaming",
+        "Soy-ginger dipping sauce OR chili oil OR Chinese black vinegar, separately prepared as desired for serving",
+        "Ice, as needed if choosing ice-bath cooling",
+        "Parchment paper, as needed for shaping and freezing trays"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "thewoksoflife.com",
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control greens moisture and check the full dumpling filling",
+        "outcome": "A cohesive juicy filling inside sealed wrappers, fully cooked with the chosen boiled, steamed or crisp-bottom texture.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Choose raw meat species and the corresponding measured endpoint before starting. Keep raw filling and completed trays refrigerated in small working batches.",
+          "Have enough wrappers and cooking capacity for the full filling. The original batch lists three packages and 16 planning portions; follow the listed amounts for another batch, and buy enough wrappers for the full filling by actual package contents.",
+          "Keep the full measured filling oils separate from the oil needed for actual pan-frying loads; boiling and steaming do not use that frying allowance."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "The finely chopped greens and meat form a cohesive paste-like filling.",
+            "why": "Squeezing the greens and mixing thoroughly helps avoid a loose watery filling without cutting its full oil or water."
+          },
+          {
+            "step": 3,
+            "cue": "The test dumpling reaches the correct center endpoint before tasting.",
+            "why": "A cooked sample supports seasoning decisions without raw-meat tasting."
+          },
+          {
+            "step": 7,
+            "cue": "Representative centers reach 160°F for pork/beef or 165°F for chicken in each batch.",
+            "why": "Wrappers can brown or float before the enclosed ground meat reaches its endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Wrappers open during cooking",
+            "cause": "Edges dried or too much filling prevented a complete seal.",
+            "fix": "Keep unused wrappers covered, dampen the edge lightly and use a little less filling. Recheck the center of any dumpling that remains intact rather than judging by floating."
+          },
+          {
+            "problem": "Pan bottoms crisp before the filling is cooked",
+            "cause": "The pan has dried before the covered steaming stage finishes the center.",
+            "fix": "Add a little of the separate cooking water, cover and continue until the center endpoint is reached; uncover to crisp afterward."
+          }
+        ],
+        "timing": "Plan about 2 hours to prepare and wrap the original large batch, plus a 15-minute cooking subtotal. Actual 6–10 minute first checks apply per load; many loads, wrapper rehydration and final pan crisping can extend the plan substantially. Tray freezing takes overnight separately. Preparation may overlap cooking only while raw filling and completed dumplings are kept cold.",
+        "storage": "Count refrigerated raw filling or uncooked dumplings within the remaining 1–2 day raw-ground-meat handling window, including time before mixing; freeze promptly rather than resetting that age. Keep frozen dumplings at 0°F / −18°C or below; the three-month option concerns best taste. Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days and reheat centers to 165°F / 74°C. Keep raw preparation out of contact with dipping sauces.",
+        "sources": [
+          {
+            "title": "The Woks of Life family dumplings",
+            "url": "https://thewoksoflife.com/dumpling-recipe-youll-ever-need/"
+          },
+          {
+            "title": "FDA ground-meat and poultry endpoints/handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling"
+          },
+          {
+            "title": "USDA cooked leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        },
+        "substitutions": [
+          {
+            "ingredient": "Ground pork",
+            "alternative": "Same listed full weight of ground beef or ground chicken, not too lean",
+            "effect": "Keep every full filling ingredient. Beef uses the same 160°F center endpoint; chicken requires 165°F before tasting and serving."
+          },
+          {
+            "ingredient": "Shaoxing wine",
+            "alternative": "Same listed amount of dry cooking sherry",
+            "effect": "An exclusive wine replacement in the whole filling; retain both full filling oils and the separate per-pan frying allowance."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBlanch, drain and squeeze the greens before chopping them finely. Stir the filling until cohesive, then cook a small test dumpling completely before tasting for seasoning. Wrapper counts and cooking batches depend on package size.\n\n## Directions\n\n1. **Prepare greens:** Wash and blanch the greens in boiling water: about one minute for delicate leaves or two minutes for cabbage or bok choy. Cool in ice water, drain and squeeze out excess water. Chop finely.\n\n2. **Mix filling:** Combine greens, ground meat, wine, the measured half cup neutral oil, sesame oil, salt, soy sauce, white pepper and the measured two-thirds cup water. Stir vigorously for 6–8 minutes, until cohesive and paste-like.\n\n3. **Test seasoning:** Wrap a small test dumpling and boil it until its filling reaches 160°F / 71°C for pork or beef, or 165°F / 74°C for chicken. Taste only after it is fully cooked, then adjust the remaining filling if necessary.\n\n4. **Shape:** Dampen a wrapper edge with a little water. Add slightly less than one tablespoon filling, fold in half, then pleat and pinch to seal. Keep completed dumplings on a parchment-lined tray without touching; keep filling refrigerated during pauses.\n\n5. **Freeze if desired:** Freeze shaped dumplings in a single layer, then transfer to a sealed freezer bag. Freeze unused wrappers in an airtight bag. This time is additional to the fresh-dumpling total.\n\n6. **Choose a cooking method:** For boiling, bring a large pot of water to a boil, add dumplings and simmer about 6–8 minutes. For pan-frying, heat the separately measured two tablespoons neutral oil over medium-high heat, fry dumplings about two minutes, add a thin layer of water, cover and steam until the water evaporates, then uncover to crisp the bottoms. For steaming, use a lined basket above simmering water for about 8–10 minutes. Frozen dumplings need longer.\n\n7. **Check and serve:** For every cooking method and batch, check a dumpling center for 160°F / 71°C with pork or beef, or 165°F / 74°C with chicken. Floating and browned wrappers alone do not establish doneness. Serve with soy-ginger dipping sauce, chili oil or Chinese black vinegar.\n",
+    "after": "\n## Chef's Note\n\nSarah of The Woks of Life describes a family dumpling recipe learned while folding with her grandmother. Blanch, squeeze and finely chop the greens, then stir the full rich filling until cohesive. A cooked test dumpling lets you adjust seasoning before wrapping the rest without tasting raw meat.\n\n## Directions\n\n1. **Prepare greens:** Wash the greens and blanch in a large pot of boiling water, about 1 minute for delicate leaves or 2 minutes for cabbage or bok choy as first checks. Cool in an ice bath or under cold running water, drain, squeeze out excess water and chop very finely. Use a food processor in small pulses if desired, scraping and stopping before a puree forms.\n2. **Mix filling:** Combine all the prepared greens, chosen ground meat, wine, filling neutral oil, sesame oil, salt, soy sauce, white pepper and measured filling water. Stir vigorously for 6–8 minutes, or up to about 10 minutes if needed, until very well combined and paste-like. Keep raw filling refrigerated at 40°F / 4°C or below except for a small working amount.\n3. **Test seasoning:** Wrap a small test dumpling and boil it until its filling reaches 160°F / 71°C for pork or beef, or 165°F / 74°C for chicken. Taste only after it is fully cooked, then adjust the remaining filling if necessary.\n4. **Shape:** Dampen each wrapper edge with the separate sealing-water allowance. Put slightly less than 1 tablespoon of filling in the center, fold in half and pinch the top together, then make two folds on each side for a fan shape and pinch to seal. Keep completed dumplings on parchment-lined trays without touching, and keep the main filling and completed trays refrigerated during pauses. Use all filling across enough wrappers; three packages do not establish a wrapper count. Follow package instructions for wrappers. If unused wrapper edges dry, cover them with a damp paper towel in a sealed bag for a couple of hours in the refrigerator before retrying; this adds preparation time.\n5. **Freeze if desired:** Cover the separated shaped dumplings on their trays and freeze overnight until solid, then promptly transfer to sealed freezer bags and return to the freezer. Freeze unused wrappers in an airtight bag. This freezing time is additional to the fresh-dumpling total.\n6. **Choose one cooking method:** Cook manageable batches. For boiling, bring water to a boil, add dumplings, return to the boil and simmer, beginning checks after 6–8 minutes. For pan-frying, use 2 tbsp of the separate neutral oil for each actual pan load in a non-stick pan over medium-high heat, fry for about 2 minutes, add a thin layer of the separate cooking water, cover, lower to medium-low and steam until the water evaporates. Uncover and raise the heat to crisp the bottoms, adding cooking water again if needed to finish the filling before crisping. This oil allowance follows actual pan loads, not a multiplied recipe-wide dose. For steaming, use the selected lining, keep dumplings separated above simmering water and begin checks after 8–10 minutes. Frozen dumplings need longer; the intervals are first checks.\n7. **Check and serve:** For every cooking method and batch, check representative dumpling centers for 160°F / 71°C with pork or beef, or 165°F / 74°C with chicken, and continue cooking until that endpoint is reached. Floating or browned wrappers alone do not establish doneness. Use clean serving utensils and serve with the separately prepared dipping sauce, chili oil or black vinegar as desired.\n\n## Cooking Notes\n\nThe original full batch plans 16 portions, about 7–8 dozen dumplings. These are planning estimates; wrapper size, drained greens and filling portions determine the actual count. Buy by actual package contents and keep enough wrappers for the full filling. Scale the full filling supplies together; extra dumplings mean extra cooking loads with their own pan oil and water. The full listed neutral oil and sesame oil for the filling remain distinct from the pan-frying oil.\n\nKeep frozen dumplings at 0°F / −18°C or below; use within 3 months for best taste. Cook from frozen or thaw under refrigeration; a frozen dumpling takes longer than the fresh first-check interval.\n"
+  },
+  "findings": [
+    {
+      "id": "BCD23-D01",
+      "title": "BCD23-D01",
+      "rationale": "Preserve the full rich filling and earlier e300 species endpoints/cooked tasting. Restore native overnight tray freezing, unused-wrapper freezing/rehydration and all three lining choices; clarify the already listed assembly/cooking waters and add genuinely unmeasured blanch/cooling, liner and dipping choices required in directions. Make per-actual-pan frying oil explicit so legacy quantity scaling does not multiply an oil spoon dose in each same-size pan. Source2hr prep+15mincook differs from current1½–2hr plan; retain actual load/first-check/rest-freezer scope instead of promising all dumplings cook in one short load.",
+      "confidence": "High for dose/route/source notes and prior endpoints; moderate for timing/capacity planning",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "9faedba5",
+        "e300",
+        "https://thewoksoflife.com/dumpling-recipe-youll-ever-need/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Bound full Woks native and direct current primary establish full doses, wrapping/freezing/liner options and source planning clocks. FoodSafety.gov supplies ground160/poultry165 and rawground1–2day scope; USDA supports cooked-leftover handling only. Proportional loads, per-pan practical context and prepared greens/count caveats are editorial inference; no measured household yield or pan test.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "content",
+        "learning",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings"
+      ],
+      "questions": [
+        "What are actual wrapper package contents and preferred filling portions? Actual cooked count/preparedgreenmass/loading and total batch clock remain unmeasured. Chinese chive/frozen shepherd’s purse prepared-weight conversion not established."
+      ]
+    },
+    {
+      "id": "BCD23-META",
+      "title": "BCD23-META",
+      "rationale": "Omit unsupported geographic-origin and unverified numerical-nutrition fields; preserve actual source, food style, identity and full rich doses.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "The existing origin is a publisher domain, not a geographical origin. Chinese cuisine and Sarah’s family context remain; no verified ingredient-weight/drained-yield nutrient calculation exists.",
+      "exactBeforeAfterReferences": ["origin"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/The%20ONLY%20DUMPLING%20RECIPE%20YOU%E2%80%99LL%20EVER%20NEED.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "BCD23-D01",
+      "rationale": "Preserve the full rich filling and earlier e300 species endpoints/cooked tasting. Restore native overnight tray freezing, unused-wrapper freezing/rehydration and all three lining choices; clarify the already listed assembly/cooking waters and add genuinely unmeasured blanch/cooling, liner and dipping choices required in directions. Make per-actual-pan frying oil explicit so legacy quantity scaling does not multiply an oil spoon dose in each same-size pan. Source2hr prep+15mincook differs from current1½–2hr plan; retain actual load/first-check/rest-freezer scope instead of promising all dumplings cook in one short load.",
+      "applicability": "Bound full Woks native and direct current primary establish full doses, wrapping/freezing/liner options and source planning clocks. FoodSafety.gov supplies ground160/poultry165 and rawground1–2day scope; USDA supports cooked-leftover handling only. Proportional loads, per-pan practical context and prepared greens/count caveats are editorial inference; no measured household yield or pan test."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "3 lbs green leafy vegetable (like shepherd’s purse, baby bok choy, or napa cabbage)",
+        "destination": "Greens3lbraw washed/blanched/cooled/squeezed/chopped.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 1,
+        "text": "1 ½ pounds ground pork (can substitute ground chicken or beef, as long as they aren’t too lean)",
+        "destination": "Chosen full1½lbground meat into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 2,
+        "text": "2/3 cup shaoxing wine (or dry cooking sherry)",
+        "destination": "Full⅔cupchosenwine into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 3,
+        "text": "½ cup neutral oil (such as canola, vegetable, or avocado oil)",
+        "destination": "Full½cupneutraloil into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 4,
+        "text": "3 tablespoons sesame oil",
+        "destination": "Full3tbsp sesameoil into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 5,
+        "text": "1 tablespoon salt",
+        "destination": "Full1tbsp salt into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 6,
+        "text": "3 tablespoons soy sauce",
+        "destination": "Full3tbspsoy into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 7,
+        "text": "¼ teaspoon white pepper",
+        "destination": "Full¼tspwhitepepper into filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 8,
+        "text": "2/3 cup water (plus more for assembly)",
+        "destination": "Full⅔cupwater into filling, extra assembly water included in this row; separate cooking water has another current row.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 9,
+        "text": "3 packages dumpling wrappers",
+        "destination": "Three unspecified wrapper packages; use enough across full filling.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 10,
+        "text": "2 tbsp neutral oil, for pan-frying each batch if choosing that method",
+        "destination": "2tbspoil PERpan-frying batch, not recipe-wide filling oil; boiling/steaming omit.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 11,
+        "text": "Water, enough for the chosen cooking method",
+        "destination": "Separate cookingwater asneeded for selected cookingmethod.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      }
+    ],
+    "saved": [
+      {
+        "index": 0,
+        "text": "3 lbs green leafy vegetable (like shepherd’s purse, baby bok choy, or napa cabbage)",
+        "destination": "Full3lbrawgreens blanch/cool/squeeze/chop; not3lbprepared.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 1,
+        "text": "1 ½ pounds ground pork (can substitute ground chicken or beef, as long as they aren’t too lean)",
+        "destination": "Full1½lb chosen porkORchickenORbeef filling.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 2,
+        "text": "2/3 cup shaoxing wine (or dry cooking sherry)",
+        "destination": "Full⅔cup wineORsherry filling.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 3,
+        "text": "½ cup neutral oil (such as canola, vegetable, or avocado oil)",
+        "destination": "Full½cupneutraloil filling, distinct2tbspperpanloadmethodallowance.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 4,
+        "text": "3 tablespoons sesame oil",
+        "destination": "Full3tbsp sesameoil filling.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 5,
+        "text": "1 tablespoon salt",
+        "destination": "Full1tbsp salt filling.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 6,
+        "text": "3 tablespoons soy sauce",
+        "destination": "Full3tbspsoy filling.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 7,
+        "text": "¼ teaspoon white pepper",
+        "destination": "Full¼tspwhitepepper filling.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 8,
+        "text": "2/3 cup water (plus more for assembly)",
+        "destination": "Full⅔cupwater filling; extraassembly/cookingwaterunmeasured.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 9,
+        "text": "3 packages dumpling wrappers",
+        "destination": "Three packages wrappercountsunknown; useenoughforfullfilling.",
+        "scope": "Exact bound original450 cooking field"
+      }
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "3 lbs green leafy vegetables, such as shepherd’s purse, baby bok choy or napa cabbage, weighed before blanching",
+        "destinations": ["prepare greens", "mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 1,
+        "text": "1 1/2 lb ground pork OR ground chicken OR ground beef, not too lean",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 2,
+        "text": "2/3 cup Shaoxing wine OR dry cooking sherry",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup neutral oil (canola, vegetable or avocado), for the filling",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 4,
+        "text": "3 tbsp sesame oil, for the filling",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 5,
+        "text": "1 tbsp salt",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 6,
+        "text": "3 tbsp soy sauce",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 7,
+        "text": "1/4 tsp white pepper",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 8,
+        "text": "2/3 cup water, for the filling",
+        "destinations": ["mix filling"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 9,
+        "text": "3 packages round dumpling wrappers; package counts vary",
+        "destinations": ["test and shape"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 10,
+        "text": "Neutral oil for pan-frying, 2 tbsp for each actual pan load if choosing that method",
+        "destinations": ["pan-frying branch only, actual pan loads"],
+        "allocationScope": "Fixed2tbspperactualpanload;notproportionalrecipe-wideoil"
+      },
+      {
+        "index": 11,
+        "text": "Water, as needed separately for blanching, cooling, sealing and the chosen cooking method",
+        "destinations": ["prepare greens", "shape", "chosen cooking branch"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 12,
+        "text": "Steamer lining, as needed: damp cheesecloth OR perforated parchment OR thin cabbage leaves, if steaming",
+        "destinations": ["steaming branch only"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 13,
+        "text": "Soy-ginger dipping sauce OR chili oil OR Chinese black vinegar, separately prepared as desired for serving",
+        "destinations": ["serve"],
+        "allocationScope": "Separatelypreparedoptionalservingchoice"
+      },
+      {
+        "index": 14,
+        "text": "Ice, as needed if choosing ice-bath cooling",
+        "destinations": ["ice-bath cooling only"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 15,
+        "text": "Parchment paper, as needed for shaping and freezing trays",
+        "destinations": ["shape", "freeze"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      }
+    ],
+    "unlistedBefore": [
+      "Blanch/cooling water and ice, trayparchment/steamerlinings and optional dips are required by directions but not separately listed; extra assembly water and cooking water already appear in exact frozen rows."
+    ]
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "text": "Prepare greens: Wash the greens and blanch in a large pot of boiling water, about 1 minute for delicate leaves or 2 minutes for cabbage or bok choy as first checks. Cool in an ice bath or under cold running water, drain, squeeze out excess water and chop very finely. Use a food processor in small pulses if desired, scraping and stopping before a puree forms.",
+      "dependsOn": [],
+      "route": "main"
+    },
+    {
+      "index": 2,
+      "text": "Mix filling: Combine all the prepared greens, chosen ground meat, wine, filling neutral oil, sesame oil, salt, soy sauce, white pepper and measured filling water. Stir vigorously for 6–8 minutes, or up to about 10 minutes if needed, until very well combined and paste-like. Keep raw filling refrigerated at 40°F / 4°C or below except for a small working amount.",
+      "dependsOn": [1],
+      "route": "main"
+    },
+    {
+      "index": 3,
+      "text": "Test seasoning: Wrap a small test dumpling and boil it until its filling reaches 160°F / 71°C for pork or beef, or 165°F / 74°C for chicken. Taste only after it is fully cooked, then adjust the remaining filling if necessary.",
+      "dependsOn": [2],
+      "route": "main"
+    },
+    {
+      "index": 4,
+      "text": "Shape: Dampen each wrapper edge with the separate sealing-water allowance. Put slightly less than 1 tablespoon of filling in the center, fold in half and pinch the top together, then make two folds on each side for a fan shape and pinch to seal. Keep completed dumplings on parchment-lined trays without touching, and keep the main filling and completed trays refrigerated during pauses. Use all filling across enough wrappers; three packages do not establish a wrapper count. Follow package instructions for wrappers. If unused wrapper edges dry, cover them with a damp paper towel in a sealed bag for a couple of hours in the refrigerator before retrying; this adds preparation time.",
+      "dependsOn": [3],
+      "route": "main"
+    },
+    {
+      "index": 5,
+      "text": "Freeze if desired: Cover the separated shaped dumplings on their trays and freeze overnight until solid, then promptly transfer to sealed freezer bags and return to the freezer. Freeze unused wrappers in an airtight bag. This freezing time is additional to the fresh-dumpling total.",
+      "dependsOn": [4],
+      "route": "main",
+      "optional": true
+    },
+    {
+      "index": 6,
+      "text": "Choose one cooking method: Cook manageable batches. For boiling, bring water to a boil, add dumplings, return to the boil and simmer, beginning checks after 6–8 minutes. For pan-frying, use 2 tbsp of the separate neutral oil for each actual pan load in a non-stick pan over medium-high heat, fry for about 2 minutes, add a thin layer of the separate cooking water, cover, lower to medium-low and steam until the water evaporates. Uncover and raise the heat to crisp the bottoms, adding cooking water again if needed to finish the filling before crisping. This oil allowance follows actual pan loads, not a multiplied recipe-wide dose. For steaming, use the selected lining, keep dumplings separated above simmering water and begin checks after 8–10 minutes. Frozen dumplings need longer; the intervals are first checks.",
+      "dependsOn": [4],
+      "route": "Choose exactly one boiling/pan-frying/steaming route",
+      "alternativePrerequisite": "Freshshapecomplete OR frozenrawtrayroute",
+      "exclusiveRoutes": ["boil", "pan-fry", "steam"]
+    },
+    {
+      "index": 7,
+      "text": "Check and serve: For every cooking method and batch, check representative dumpling centers for 160°F / 71°C with pork or beef, or 165°F / 74°C with chicken, and continue cooking until that endpoint is reached. Floating or browned wrappers alone do not establish doneness. Use clean serving utensils and serve with the separately prepared dipping sauce, chili oil or black vinegar as desired.",
+      "dependsOn": [6],
+      "route": "main"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Neutral filling oil choices",
+      "status": "complete",
+      "scope": "Same full½cuporiginalfillingoil from canolaORvegetableORavocado; no addition to full3tbsp sesame or separatepanloads.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Ground pork OR beef",
+      "status": "complete",
+      "scope": "Full same filling/oils/wine/wrappers; representativecenter160°Fbeforetaste/serve.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Ground chicken",
+      "status": "complete",
+      "scope": "Full same filling/oils/wine/wrappers; representativecenter165°Fbeforetaste/serve.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Boiled",
+      "status": "complete",
+      "scope": "Fullchosenfilling; cookingwaterunmeasured;6–8minfirstcheck afterreturnboil; speciesendpointoverridesfloating.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Pan-fried",
+      "status": "complete",
+      "scope": "Fullchosenfilling;2tbspseparateoilforeachactualpanload,2minfry,thinwatercoveredmediumlowuntilcenterdone/watergone,uncovercrisp; oilnotmultiplied peridenticalpan.",
+      "entries": [
+        {
+          "ingredient": "frying oil",
+          "amount": 2,
+          "unit": "tbsp",
+          "destination": "actual pan load",
+          "scaleRule": "fixed per actual load; total depends on number of loads"
+        }
+      ],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Steamed",
+      "status": "complete",
+      "scope": "Fullchosenfilling; dampcheeseclothORperforatedparchmentORthin cabbageleaves,8–10minfirstcheck/speciesendpoint.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Freeze dumplings/unused wrappers",
+      "status": "complete-source-option",
+      "scope": "Coverseparatedtraysfreezeovernightthenbags; source3monthsbesttaste0°F; cookfrozenlongerorthaw in the refrigerator. Doesnotreset raw-groundmeatage.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Native wrapper rehydration",
+      "status": "complete-source-option",
+      "scope": "Damp towel/sealedbagcouplehours, kept refrigerated as editorial raw/prep handling. Timeadditional.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Modern Chinese chives / frozen shepherd’s purse",
+      "status": "held-prepared-weight-option",
+      "scope": "Named directpublisher branch; do not replace3lbrawfreshgreens with a guessed prepared weight. Full filling conversion unresolved.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [],
+    "proposedPairsWith": [],
+    "scope": "All current incoming meal files searched; none found. Existing pairing metadata preserved, not meal-certified."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratios": "Exact source/current filling:3lbrawfreshgreens:1½lbgroundmeat:⅔cupwine:½cupneutraloil+3tbsp sesameoil:1tbsp salt:3tbspsoy:¼tsppepper:⅔cupwater. Prepared greens mass changes with blanch/squeeze. Three wrapper packages unspecified;16portion/7–8dozensource are planning labels, not a measured output. Per-pan2tbsp remains fixed actual-load allowance distinct from proportional filling.",
+    "capacity": "Large greens pot, squeezing/draining, enough wrappers/trays for full filling and chosen separated pan/steamer loads. Do not infer threepackage count or drained mass. Fixed2tbspperpan allowance follows actual loads.",
+    "planningYield": "16 planned portions",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [
+    {
+      "commit": "e3001d043956c6c5b5a2fc16b65647d69a3be64f",
+      "scope": "Actual followed cooking diff retains separate pan-frying2tbsp and cooked tasting/160pork-beef/165chicken. Exact full commit recorded from followed history before freeze."
+    }
+  ],
+  "remainingQuestions": [
+    "No household test of full batch time/capacity/count. Source16portions is planning. Named unprovided dipping recipes are not invented links/formulas.",
+    "What are actual wrapper package contents and preferred filling portions? Actual cooked count/preparedgreenmass/loading and total batch clock remain unmeasured. Chinese chive/frozen shepherd’s purse prepared-weight conversion not established."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "slug": "play-dough",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "8d6157beba45cc2df6ede83eea7a0a384c9fb787a833f7802c5b52a75a57a252",
+  "acceptedSourceSha256": "bafd10eb0530a2ce660b7b0aa51fb958469900c99b3c8d16029e1836aada1c3f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["no-cook"],
+      "after": ["mix"]
+    },
+    {
+      "field": "dietary",
+      "before": ["vegetarian"],
+      "after": null
+    },
+    {
+      "field": "occasions",
+      "before": ["kid-friendly"],
+      "after": ["make-ahead"]
+    },
+    {
+      "field": "nutritionalDensity",
+      "before": "light",
+      "after": null
+    },
+    {
+      "field": "leftovers",
+      "before": "excellent",
+      "after": null
+    },
+    {
+      "field": "flavorProfile",
+      "before": ["rich"],
+      "after": null
+    },
+    {
+      "field": "cuisines",
+      "before": ["American"],
+      "after": null
+    },
+    {
+      "field": "role",
+      "before": "base",
+      "after": null
+    },
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "10 min",
+      "after": "About 10 min preparation and stirring, plus cooling"
+    },
+    {
+      "field": "pairsWith",
+      "before": [
+        "blueberry-baked-oatmeal",
+        "blueberry-banana-pancake-muffins",
+        "blueberry-oat-breakfast-bars"
+      ],
+      "after": null
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 cup All-Purpose Flour",
+        "1/2 cup Fine Salt",
+        "2 tsp Cream of Tartar",
+        "1 cup Water",
+        "1 tbsp Vegetable Oil",
+        "Food Coloring or Liquid Watercolors"
+      ],
+      "after": [
+        "1 cup all-purpose flour",
+        "1/2 cup fine salt",
+        "2 tsp cream of tartar",
+        "1 cup water",
+        "1 tbsp vegetable oil",
+        "Food coloring OR liquid watercolors, as desired for craft use; follow the actual label, not for ingestion"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 795,
+        "protein": 13.5,
+        "carbs": 96,
+        "fat": 38.5,
+        "fiber": 3.5,
+        "sugar": 0.5,
+        "sodium": 111620
+      },
+      "after": null
+    },
+    {
+      "field": "categories",
+      "before": null,
+      "after": ["Crafts"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Stir a saucepan craft dough to its texture cue and cool it",
+        "outcome": "A cohesive, comfortably cooled nonfood craft mixture.",
+        "techniques": ["starch", "temperature"],
+        "before": [
+          "Adults handle the hot pan and stirring. Keep this high-salt craft dough and its tools separate from food.",
+          "Do not taste it or give raw-flour dough to children for play. A cohesive ball does not certify flour decontamination."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "The mixture gathers into one ball and pulls away from the sides while stirring.",
+            "why": "This observes the craft texture directly instead of assuming a fixed short heating time works for every pan."
+          },
+          {
+            "step": 5,
+            "cue": "The center is comfortably cool before kneading.",
+            "why": "The thick dough retains heat even after removal from the stove."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The mixture scorches before gathering",
+            "cause": "The pan is too hot or stirring leaves portions against its base.",
+            "fix": "Lower the heat and keep stirring. Scorched material cannot be made unscorched by kneading; discard unsuitable dough."
+          }
+        ],
+        "timing": "The existing five-minute preparation/five-minute cooking plan is approximate. Stirring continues to the actual texture cue, and complete safe handling cool-down adds elapsed time. Larger pans and batches have different heating and cooling behavior.",
+        "storage": "Use an airtight labeled nonfood container away from food. Inspect before each use and discard unsuitable material. Do not eat it or give raw-flour dough to children for play.",
+        "sources": [
+          {
+            "title": "FDA raw-flour handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "CDC raw-flour crafts",
+            "url": "https://www.cdc.gov/food-safety/foods/no-raw-dough.html"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nHomemade play-dough is a rainy-day project that's actually food science at work - a cooked dough that stays pliable for months. The cream of tartar is the key: it acts as a preservative and keeps the dough soft, so it won't crack or harden in an airtight container. The oil and salt also help preserve texture.\n\n## Directions\n\n1.  **Combine:** In a medium non-stick saucepan, whisk together the flour, salt, and cream of tartar.\n2.  **Emulsify:** Add the water, oil, and food coloring. Whisk until no lumps remain.\n3.  **The Cook:** Place over medium heat. Stir constantly with a wooden spoon for 3-5 minutes.\n4.  **The Pull:** The mixture will look like a liquid, then suddenly clump together. Continue stirring until the dough pulls away from the sides of the pan and forms a single, non-sticky ball.\n5.  **Knead:** Remove from heat and place on a clean surface. Once cool enough to touch, knead for 1 minute until perfectly smooth.\n6.  **Store:** Store in an airtight container for up to 6 months to maintain the \"Bounce.\"\n",
+    "after": "\n## Chef's Note\n\nThis is a nonfood craft dough. Do not eat or taste it, and do not give dough made with raw flour to children for play. A hot-water or short stovetop texture change is not a validated treatment that makes this formula edible; adults handle the hot equipment and dough. This saucepan version is attributed to Gracy Ann; stir until the mixture pulls together, then cool it before handling.\n\n## Directions\n\n1. **Dry supplies:** In a non-stick saucepan, whisk together all the flour, fine salt and cream of tartar. Keep flour dust away from ready-to-eat food.\n2. **Wet supplies:** Add all the water and vegetable oil and the selected coloring according to its label. Mix until evenly combined.\n3. **Heat and stir:** An adult places the pan over medium heat and stirs continuously with a wooden spoon, beginning checks after about 3 minutes.\n4. **Texture:** Continue stirring until the mixture gathers into a ball and pulls away from the pan. This is a texture cue, not a verified flour decontamination endpoint.\n5. **Cool and knead:** Remove from the heat and put the dough on a clean, heatproof surface. Let its center as well as its surface cool enough for comfortable handling, then knead for about 1 minute until smoother. Do not taste it or give raw-flour dough to children for play.\n6. **Store and clean:** Store cooled dough in an airtight, clearly labeled nonfood container away from food. Wash hands, tools and surfaces after use. Discard if mold, off odors or unsuitable texture develops.\n\n## Cooking Notes\n\nThe coloring is a genuinely unmeasured craft supply, not an ingredient to eat. Do not add essential oils to this mixture.\n"
+  },
+  "findings": [
+    {
+      "id": "BCD23-PD01",
+      "title": "BCD23-PD01",
+      "rationale": "Preserve Gracy Ann’s full saucepan craft formula and a2c9e280 wintergreen omission. Keep adult stovetop stirring and actual pull-away texture cue, but cool the center before kneading; the original knead-immediately instruction is not preserved literally because of hot-dough handling. Remove false food/kid-friendly/6month context and distinguish nonfood texture change from verified flour treatment.",
+      "confidence": "High for full family supplies and retained deletion; moderate for elapsed/cooling instructions",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "23b28",
+        "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+        "https://www.cdc.gov/food-safety/foods/no-raw-dough.html"
+      ],
+      "sourceApplicability": "Exact bound family recipe supports all five measured supplies and stovetop/airtight sequence. a2 deliberate optional wintergreen removal retained. FDA/CDC address raw-flour craft handling; no temperature study of this pan or child-safety claim. Cooling is an editorial burn-avoidance sequence.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "content",
+        "learning",
+        "totalTime",
+        "categories",
+        "occasions",
+        "cookingMethods",
+        "dietary",
+        "nutritionalDensity",
+        "leftovers",
+        "flavorProfile",
+        "cuisines",
+        "role",
+        "vibe",
+        "pairsWith"
+      ],
+      "questions": [
+        "No measured saucepan capacity, cool-down or craft keeping life; texture cue is not a validated microbial endpoint."
+      ]
+    },
+    {
+      "id": "BCD23-META",
+      "title": "BCD23-META",
+      "rationale": "Omit unsupported geographic-origin and unverified numerical-nutrition fields; preserve actual source, food style, identity and full rich doses.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "This Gracy Ann family material is a nonfood craft formula. No food origin or nutrition is established by its actual source or current generated metadata.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Play%20Dough.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "BCD23-PD01",
+      "rationale": "Preserve Gracy Ann’s full saucepan craft formula and a2c9e280 wintergreen omission. Keep adult stovetop stirring and actual pull-away texture cue, but cool the center before kneading; the original knead-immediately instruction is not preserved literally because of hot-dough handling. Remove false food/kid-friendly/6month context and distinguish nonfood texture change from verified flour treatment.",
+      "applicability": "Exact bound family recipe supports all five measured supplies and stovetop/airtight sequence. a2 deliberate optional wintergreen removal retained. FDA/CDC address raw-flour craft handling; no temperature study of this pan or child-safety claim. Cooling is an editorial burn-avoidance sequence."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 cup All-Purpose Flour",
+        "destination": "Full flour in dry saucepan mixture.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup Fine Salt",
+        "destination": "Full fine salt in dry saucepan mixture.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 2,
+        "text": "2 tsp Cream of Tartar",
+        "destination": "Full tartar in dry saucepan mixture.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 3,
+        "text": "1 cup Water",
+        "destination": "Full water joins wet supplies.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp Vegetable Oil",
+        "destination": "Full tablespoon oil joins wet supplies.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 5,
+        "text": "Food Coloring or Liquid Watercolors",
+        "destination": "Unmeasured color joins wet supplies.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      }
+    ],
+    "saved": [
+      {
+        "index": 0,
+        "text": "1 cup flour",
+        "destination": "Full1cup flour dry.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup salt",
+        "destination": "Full½cup salt dry.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 2,
+        "text": "2 tsp cream of tartar",
+        "destination": "Full2tsp tartar dry.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 3,
+        "text": "1 cup water",
+        "destination": "Full1cup water wet.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp cooking oil",
+        "destination": "Full1tbsp cooking oil wet.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 5,
+        "text": "Oil of wintergreen",
+        "destination": "Optionalwintergreen intentionallyremoved at a2, notrestored.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 6,
+        "text": "Food coloring",
+        "destination": "Unmeasuredfoodcolor wet.",
+        "scope": "Exact bound original450 cooking field"
+      }
+    ],
+    "proposed": [
+      {
+        "index": 0,
+        "text": "1 cup all-purpose flour",
+        "destinations": ["dry"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 1,
+        "text": "1/2 cup fine salt",
+        "destinations": ["dry"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 2,
+        "text": "2 tsp cream of tartar",
+        "destinations": ["dry"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 3,
+        "text": "1 cup water",
+        "destinations": ["wet"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 4,
+        "text": "1 tbsp vegetable oil",
+        "destinations": ["wet"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      },
+      {
+        "index": 5,
+        "text": "Food coloring OR liquid watercolors, as desired for craft use; follow the actual label, not for ingestion",
+        "destinations": ["wet"],
+        "allocationScope": "Full listed supply to named destination, or genuinely unmeasured process allowance"
+      }
+    ],
+    "unlistedBefore": []
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "text": "Dry supplies: In a non-stick saucepan, whisk together all the flour, fine salt and cream of tartar. Keep flour dust away from ready-to-eat food.",
+      "dependsOn": [],
+      "route": "main"
+    },
+    {
+      "index": 2,
+      "text": "Wet supplies: Add all the water and vegetable oil and the selected coloring according to its label. Mix until evenly combined.",
+      "dependsOn": [1],
+      "route": "main"
+    },
+    {
+      "index": 3,
+      "text": "Heat and stir: An adult places the pan over medium heat and stirs continuously with a wooden spoon, beginning checks after about 3 minutes.",
+      "dependsOn": [2],
+      "route": "main"
+    },
+    {
+      "index": 4,
+      "text": "Texture: Continue stirring until the mixture gathers into a ball and pulls away from the pan. This is a texture cue, not a verified flour decontamination endpoint.",
+      "dependsOn": [3],
+      "route": "main"
+    },
+    {
+      "index": 5,
+      "text": "Cool and knead: Remove from the heat and put the dough on a clean, heatproof surface. Let its center as well as its surface cool enough for comfortable handling, then knead for about 1 minute until smoother. Do not taste it or give raw-flour dough to children for play.",
+      "dependsOn": [4],
+      "route": "main"
+    },
+    {
+      "index": 6,
+      "text": "Store and clean: Store cooled dough in an airtight, clearly labeled nonfood container away from food. Wash hands, tools and surfaces after use. Discard if mold, off odors or unsuitable texture develops.",
+      "dependsOn": [5],
+      "route": "main"
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Family saucepan route",
+      "status": "complete",
+      "scope": "Full samefive measured supplies, optionalcolor, stir untilpullaway, coolthenknead. GracyAnn retained.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Native optional wintergreen",
+      "status": "excluded-by-accepted-repair",
+      "scope": "Actual native names oilofwintergreen and severaldropsoptional; a2c9e280 deliberately deleted it. Not restored and not available as public substitute.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [0, 1, 2, 3, 4, 5],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "blueberry-baked-oatmeal",
+      "blueberry-banana-pancake-muffins",
+      "blueberry-oat-breakfast-bars"
+    ],
+    "proposedPairsWith": [],
+    "scope": "Food pairings are inapplicable to nonfoodcraft and omitted privately. Existing site index/standards/culinary QA already explicitly exclude these craft slugs; shared discovery/export rules are untouched."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratios": "Saved/current flour1cup:salt½cup:tartar2tsp:water1cup:oil1tbsp; craft color unmeasured. Native optional wintergreen was deliberately removed at a2c9e280. Preserve that safety decision; never reintroduce a drop count or an edible/child-safe claim.",
+    "capacity": "Non-stick saucepan large enough to stir the complete batch; no pan volume inferred. Adult only hot stage; cool center before handling.",
+    "planningYield": "1 large batch",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [
+    {
+      "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
+      "scope": "Remove optional oil of wintergreen; no restoration."
+    }
+  ],
+  "remainingQuestions": [
+    "Gracy Ann name/formula preserved without invented publisher. Actual nonfood storage and handling conditions remain unresolved.",
+    "No measured saucepan capacity, cool-down or craft keeping life; texture cue is not a validated microbial endpoint."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

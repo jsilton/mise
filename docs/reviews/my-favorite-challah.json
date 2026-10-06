@@ -1,0 +1,1060 @@
+{
+  "slug": "my-favorite-challah",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "4edd459bf8b258fb943d07d0ddc9ecce5472facce7d96b7b2938fc58f62e9dfc",
+  "acceptedSourceSha256": "90ae887df7a4b8329a2c6fa878935c5a49da7c52e07e162d82995f62d1c0742c",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Israel",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "120 min",
+      "after": "Mixing, kneading and shaping, plus about 2½ hr rising"
+    },
+    {
+      "field": "cookTime",
+      "before": "40 min",
+      "after": "35–40 min per oven load"
+    },
+    {
+      "field": "totalTime",
+      "before": "160 min",
+      "after": "About 3½ hr or longer, plus complete cooling"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/2 tbsp Active Dry Yeast",
+        "8 to 8 1/2 cups All-Purpose Flour",
+        "5 large Eggs",
+        "1/2 cup Vegetable Oil",
+        "1/2 cup + 1 tbsp Granulated Sugar",
+        "1 tbsp Kosher Salt",
+        "1 egg (for wash)",
+        "Poppy or Sesame Seeds"
+      ],
+      "after": [
+        "--- Yeast mixture ---",
+        "1 1/2 tbsp active dry yeast",
+        "1 tbsp granulated sugar",
+        "1 3/4 cups water, lukewarm, not hot",
+        "--- Dough ---",
+        "1/2 cup vegetable oil",
+        "4 large eggs",
+        "1/2 cup granulated sugar",
+        "1 tbsp kosher salt",
+        "8–8 1/2 cups all-purpose flour",
+        "all-purpose flour, only as needed for the kneading surface, separate from the measured dough flour",
+        "vegetable oil, a light coating for the rising bowl and baking sheets",
+        "--- Finish ---",
+        "1 large egg, for preparing the egg wash used for both coatings",
+        "poppy or sesame seeds, as desired for sprinkling"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 3390,
+        "protein": 70.5,
+        "carbs": 484.5,
+        "fat": 131,
+        "fiber": 14,
+        "sugar": 102,
+        "sodium": 3710
+      },
+      "after": null
+    },
+    {
+      "field": "advancePrep",
+      "before": null,
+      "after": ["rise-dough", "freeze-ahead"]
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 2,
+          "unit": "loaf"
+        },
+        "components": [
+          {
+            "id": "yeast",
+            "name": "Yeast mixture",
+            "ingredients": [
+              {
+                "id": "yeast",
+                "key": "active-dry-yeast",
+                "name": "active dry yeast",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "activate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "granulated-sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "activate",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "water",
+                "quantity": {
+                  "amount": "1 3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "activate",
+                    "share": 1
+                  }
+                ],
+                "preparation": "lukewarm, not hot"
+              }
+            ]
+          },
+          {
+            "id": "dough",
+            "name": "Dough",
+            "ingredients": [
+              {
+                "id": "oil",
+                "key": "vegetable-oil",
+                "name": "vegetable oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "enrich",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "eggs",
+                "key": "large-egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "enrich",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "sugar",
+                "key": "granulated-sugar",
+                "name": "granulated sugar",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "enrich",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "kosher-salt",
+                "name": "kosher salt",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "enrich",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "cup",
+                  "max": "8 1/2"
+                },
+                "uses": [
+                  {
+                    "step": "flour",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "dusting",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "allowance": "only as needed for the kneading surface, separate from the measured dough flour",
+                "uses": [
+                  {
+                    "step": "knead",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "grease",
+                "key": "vegetable-oil",
+                "name": "vegetable oil",
+                "allowance": "a light coating for the rising bowl and baking sheets",
+                "uses": [
+                  {
+                    "step": "first-rise",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "finish",
+            "name": "Finish",
+            "ingredients": [
+              {
+                "id": "egg",
+                "key": "large-egg",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wash",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs",
+                "preparation": "for preparing the egg wash used for both coatings"
+              },
+              {
+                "id": "seeds",
+                "key": "poppy-or-sesame-seeds",
+                "name": "poppy or sesame seeds",
+                "allowance": "as desired for sprinkling",
+                "uses": [
+                  {
+                    "step": "bake",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "activate",
+            "title": "Activate yeast",
+            "text": "Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies."
+          },
+          {
+            "id": "enrich",
+            "title": "Enrich",
+            "text": "Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time."
+          },
+          {
+            "id": "flour",
+            "title": "Add flour",
+            "text": "Gradually incorporate {{ingredients}}, beginning with the lower end of the listed range and adding from the remaining measured allowance only as needed until the dough holds together. Do not automatically add the maximum if the dough is already workable."
+          },
+          {
+            "id": "knead",
+            "title": "Knead",
+            "text": "Use {{ingredients}} to lightly dust the surface, then knead the dough until smooth and elastic, starting to check after about 10 minutes. A mixer with a dough hook is an alternative: use its actual capacity and instructions, or divide into complete proportionate dough loads rather than overloading it."
+          },
+          {
+            "id": "first-rise",
+            "title": "First rise",
+            "text": "Use {{ingredients}} to grease the cleaned rising bowl and sheets. Put the dough in the bowl, cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as a guide. Keep the separately greased sheets ready for shaping."
+          },
+          {
+            "id": "second-rise",
+            "title": "Rise again",
+            "text": "Gently deflate the dough, cover and let it rise again for about half an hour before shaping."
+          },
+          {
+            "id": "shape",
+            "title": "Shape and braid",
+            "text": "For the original two-loaf batch, divide the dough in half and each half into six equal pieces. Roll each piece into a strand about 12 inches long and 1½ inches wide, then braid using the pattern below. Tuck the ends under for straight loaves, or form each braid into a ring and pinch its ends together. Use enough greased baking-sheet space to keep original-size loaves at least 2 inches apart. Make additional similar loaves when scaling up; a batch smaller than one original-size loaf makes a smaller braid whose dimensions and baking time will differ."
+          },
+          {
+            "id": "wash",
+            "title": "Prepare wash and final rise",
+            "text": "Beat {{ingredients}} in a clean small bowl to prepare the whole wash. Brush a light coating onto the braided loaves, then cover and refrigerate the remaining wash for the second coating; no fixed division between coatings is required. Loosely cover the loaves and let them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this rise."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Brush the risen loaves with the remaining egg wash and sprinkle with {{ingredients}}. Load only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35 minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in the seams between strands and a loaf that feels set. If the washed surface darkens before the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate oven loads add time."
+          },
+          {
+            "id": "cool",
+            "title": "Cool",
+            "text": "Transfer to racks and cool completely before slicing. Discard any unused egg wash; do not use raw wash as a serving sauce."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Judge an enriched dough through rising, braiding and baking",
+        "outcome": "An evenly risen braid with colored seams, a set interior and a soft crumb after cooling.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "The original batch makes two loaves and uses four eggs in the dough plus one egg to prepare both washes. Follow the listed amounts for other batches.",
+          "Choose mixer, bowl and baking-sheet capacity before mixing. The original braid dimensions apply to full-size loaves; fractional loaves need a different shape and earlier observation.",
+          "Kosher-salt crystal densities differ. Keep the stated salt type; do not substitute a denser fine salt by the same spoon volume."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The dough holds together before all of the flour-range maximum has necessarily been added.",
+            "why": "Humidity and flour measurement affect how much of the listed range the dough needs; forcing the upper limit can make it dry."
+          },
+          {
+            "step": 8,
+            "cue": "The final braid looks puffy without tight strands restraining expansion.",
+            "why": "The rise is a dough-state decision, not a guarantee from elapsed minutes."
+          },
+          {
+            "step": 9,
+            "cue": "The paler braid seams have taken on color and the loaf feels set.",
+            "why": "Egg glaze browns readily and can darken before the interior is baked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "The dough is dry and hard to knead",
+            "cause": "Too much flour was incorporated or the surface was heavily dusted.",
+            "fix": "Stop adding flour from the listed range and keep dusting light. A finished dry dough cannot be corrected by additional proofing alone."
+          },
+          {
+            "problem": "The top is dark but the loaf feels underbaked",
+            "cause": "The egg-washed surface has browned faster than the thicker center.",
+            "fix": "Loosely shield the surface with oven-safe foil and continue baking and checking the loaf."
+          }
+        ],
+        "timing": "The fresh route includes the existing 10-minute yeast check, kneading, about 1 hour first rise, another half-hour rise, about 1 hour final rise and 35–40 minutes baking. Mixing, shaping, actual proof conditions, extra oven loads and complete cooling extend elapsed time; about 3½ hours or longer before cooling is a planning estimate. Frozen shaped loaves have a separate approximately five-hour thaw/rise plan, not an additional fresh final rise.",
+        "storage": "Cool completely before wrapping. Keep plain baked bread well wrapped at room temperature for several days for quality, or freeze for longer storage; discard moldy bread. Refrigerate raw egg wash promptly and follow its product limits. The shaped-dough freezer option has its own thaw/rise process above.",
+        "sources": [
+          {
+            "title": "Saved My Favorite Challah source",
+            "url": "https://cooking.nytimes.com/recipes/7199-my-favorite-challah"
+          },
+          {
+            "title": "King Arthur enriched-bread shaping and storage",
+            "url": "https://www.kingarthurbaking.com/blog/2018/01/03/classic-challah-bakealong-2"
+          },
+          {
+            "title": "King Arthur baked-loaf cues",
+            "url": "https://www.kingarthurbaking.com/blog/2023/05/31/how-to-tell-if-bread-is-done"
+          },
+          {
+            "title": "FDA raw-flour handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          },
+          {
+            "title": "FDA egg handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChallah is traditional Jewish bread for Shabbat and holidays. Using five eggs creates rich, brioche-like crumb. Braiding strands tightly creates internal tension that forces the bread to rise vertically, producing tall, majestic loaves with crispy golden crust. Let dough rise in a warm, draft-free spot to ensure yeast fully activates.\n\n## Directions\n\n1.  **Activate:** In a massive bowl, whisk yeast and 1 tbsp sugar into 1 3/4 cups lukewarm water. Let stand for 10 minutes until foamy.\n2.  **The Emulsion:** Whisk in the oil, 4 eggs, and the remaining sugar and salt.\n3.  **Incorporate:** Gradually add the flour, 1 cup at a time, until a shaggy dough forms.\n4.  **Knead:** Transfer to a floured surface. Knead by hand for 10 minutes until smooth and elastic (or use a stand mixer with a dough hook).\n5.  **First Rise:** Place in a greased bowl, cover with plastic, and let rise in a warm spot for 1 hour until doubled.\n6.  **Shape:** Punch down the dough. Divide into two halves. Divide each half into 6 balls. Roll each ball into a 12-inch strand.\n7.  **The Braid:** Braid into two 6-strand loaves (see notes for braiding pattern). Place on a greased sheet.\n8.  **Second Rise:** Brush with beaten egg. Let rise for another 45-60 minutes.\n9.  **Bake:** Preheat oven to 375°F. Brush once more with egg and sprinkle with seeds. Bake for 35-40 minutes until deep mahogany brown.\n10. **Cool:** Let cool completely on a rack before slicing.\n",
+    "after": "\n## Chef's Note\n\nChallah is a braided bread traditionally served for the Jewish Sabbath and holidays. This egg-and-oil dough needs room to expand and time for its rises; braid evenly without pulling the strands tightly. The egg wash gives the crust its color, so check the paler seams as well as the glazed surface.\n\n## Directions\n\n1. **Activate yeast:** Dissolve active dry yeast, granulated sugar, and water in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies.\n2. **Enrich:** Whisk vegetable oil, large eggs, granulated sugar, and kosher salt into the yeast mixture, beating in the dough eggs one at a time.\n3. **Add flour:** Gradually incorporate all-purpose flour, beginning with the lower end of the listed range and adding from the remaining measured allowance only as needed until the dough holds together. Do not automatically add the maximum if the dough is already workable.\n4. **Knead:** Use all-purpose flour to lightly dust the surface, then knead the dough until smooth and elastic, starting to check after about 10 minutes. A mixer with a dough hook is an alternative: use its actual capacity and instructions, or divide into complete proportionate dough loads rather than overloading it.\n5. **First rise:** Use vegetable oil to grease the cleaned rising bowl and sheets. Put the dough in the bowl, cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as a guide. Keep the separately greased sheets ready for shaping.\n6. **Rise again:** Gently deflate the dough, cover and let it rise again for about half an hour before shaping.\n7. **Shape and braid:** For the original two-loaf batch, divide the dough in half and each half into six equal pieces. Roll each piece into a strand about 12 inches long and 1½ inches wide, then braid using the pattern below. Tuck the ends under for straight loaves, or form each braid into a ring and pinch its ends together. Use enough greased baking-sheet space to keep original-size loaves at least 2 inches apart. Make additional similar loaves when scaling up; a batch smaller than one original-size loaf makes a smaller braid whose dimensions and baking time will differ.\n8. **Prepare wash and final rise:** Beat large egg in a clean small bowl to prepare the whole wash. Brush a light coating onto the braided loaves, then cover and refrigerate the remaining wash for the second coating; no fixed division between coatings is required. Loosely cover the loaves and let them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this rise.\n9. **Bake:** Brush the risen loaves with the remaining egg wash and sprinkle with poppy or sesame seeds. Load only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35 minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in the seams between strands and a loaf that feels set. If the washed surface darkens before the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate oven loads add time.\n10. **Cool:** Transfer to racks and cool completely before slicing. Discard any unused egg wash; do not use raw wash as a serving sauce.\n\n## Cooking Notes\n\n### Six-strand braid\n\nLine up six strands and pinch their top ends together. Move the outside right strand over two strands. Move the second strand from the left to the far right. Move the outside left strand over two. Move the second strand from the right to the far left. Repeat from the outside right strand until braided, then tuck or join the ends. If a strand resists rolling, briefly let it relax before stretching it again.\n\n### Make ahead\n\nThe shaped, first-washed loaves can be frozen instead of taking their final rise. For frozen loaves of the original size, allow about 5 hours before baking for thawing and rising; actual room conditions and loaf size affect the interval. Keep them loosely covered as they thaw and rise, and bake only when thawed and puffy, using the same 375°F oven and baked-loaf cues. Keep any reserved egg wash refrigerated and within its product handling limits. Freezing and this thaw/rise interval are additional to the fresh-loaf plan.\n\nFor a gently warm proofing spot, an oven may be warmed to 150°F and then switched off. Let it cool to a gentle warmth before placing the dough inside; never leave the heat on for proofing. A draft-free room-temperature spot is also suitable, with rising judged by the dough rather than the clock.\n\nFor seed clusters instead of a scattered topping, place seeds onto the individual mounds of the braid while the wash is wet, using a clean utensil.\n\nFor fractional egg quantities, beat an egg and measure the requested fraction rather than rounding the amount to a whole egg.\n"
+  },
+  "findings": [
+    {
+      "id": "BCD23-CH01",
+      "title": "BCD23-CH01",
+      "rationale": "Restore the source water and exact five-total-egg allocation, omitted second half-hour rise, complete six-strand braid, straight/ring choices, optional off-heat proofing and shaped-loaf freezer plan. Current d330 list duplicated a wash egg while its method retained only four dough eggs; correcting that unallocated entry is not a reduction of the saved egg dough. Preserve current kosher salt, yeast tablespoon equivalent and all other full current edible quantities. Separate genuinely unmeasured dusting/greasing/seed supplies. Authored migration is required for the consequential allocation/process restoration. Original rise/bake plan exceeds160min before cooling; give its actual staged plan and original-size context rather than a guaranteed clock.",
+      "confidence": "High for exact saved restorations and duplicate allocation; moderate for elapsed/capacity and sensory guidance",
+      "applicableSources": [
+        "native-original",
+        "actual-introduction",
+        "045e5ba2",
+        "d3300d7e",
+        "https://cooking.nytimes.com/recipes/7199-my-favorite-challah",
+        "https://www.kingarthurbaking.com/blog/2018/01/03/classic-challah-bakealong-2",
+        "https://www.kingarthurbaking.com/blog/2023/05/31/how-to-tell-if-bread-is-done",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "Exact bound saved NYT-attributed native recipe and actual b7/045 establish every restored amount, rise, braid and freezer note. NYT access failed: no current NYT-page certification. King Arthur supports cultural context and enriched-bread crust cues/storage, not this formula or its five-hour thaw plan. FDA supports flour/egg handling only. Proportional loads/fractional eggs and elapsed estimate are editorial planning, untested.",
+      "exactBeforeAfterReferences": [
+        "formula",
+        "ingredients",
+        "content",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "advancePrep",
+        "learning"
+      ],
+      "questions": [
+        "Confirm the intended kosher salt brand versus saved unspecified salt; equal spoon volumes are not density conversions. Confirm preferred straight or ring shape and actual cool-down time. Source five-hour thaw/proof is original-size guidance, not a measured household or universal ambient interval."
+      ]
+    },
+    {
+      "id": "BCD23-META",
+      "title": "BCD23-META",
+      "rationale": "Omit unsupported geographic-origin and unverified numerical-nutrition fields; preserve actual source, food style, identity and full rich doses.",
+      "confidence": "High",
+      "applicableSources": ["actual-introduction", "complete-followed-history"],
+      "sourceApplicability": "Israeli style and Jewish Sabbath/holiday tradition do not establish the geographic birthplace of this saved NYT adaptation. No verified weight/yield nutrition calculation exists.",
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/My%20Favorite%20Challah.html",
+    "introductionScope": "Actual earlier cooking HTML exactly named by the bound original; native cooking fields checked independently.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "id": "BCD23-CH01",
+      "rationale": "Restore the source water and exact five-total-egg allocation, omitted second half-hour rise, complete six-strand braid, straight/ring choices, optional off-heat proofing and shaped-loaf freezer plan. Current d330 list duplicated a wash egg while its method retained only four dough eggs; correcting that unallocated entry is not a reduction of the saved egg dough. Preserve current kosher salt, yeast tablespoon equivalent and all other full current edible quantities. Separate genuinely unmeasured dusting/greasing/seed supplies. Authored migration is required for the consequential allocation/process restoration. Original rise/bake plan exceeds160min before cooling; give its actual staged plan and original-size context rather than a guaranteed clock.",
+      "applicability": "Exact bound saved NYT-attributed native recipe and actual b7/045 establish every restored amount, rise, braid and freezer note. NYT access failed: no current NYT-page certification. King Arthur supports cultural context and enriched-bread crust cues/storage, not this formula or its five-hour thaw plan. FDA supports flour/egg handling only. Proportional loads/fractional eggs and elapsed estimate are editorial planning, untested."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "text": "1 1/2 tbsp Active Dry Yeast",
+        "destination": "Yeast activated in step1 with water unlisted in ingredient list.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 1,
+        "text": "8 to 8 1/2 cups All-Purpose Flour",
+        "destination": "Flour incorporated in step2 and surface dusting unlisted.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 2,
+        "text": "5 large Eggs",
+        "destination": "Five eggs listed, but step2 uses four; step6 uses separate wash. One listed egg has no additional destination.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 3,
+        "text": "1/2 cup Vegetable Oil",
+        "destination": "Full half-cup oil in dough; bowl/sheet grease required but unlisted.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 4,
+        "text": "1/2 cup + 1 tbsp Granulated Sugar",
+        "destination": "One tablespoon sugar activates yeast; remaining half-cup goes into dough.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 5,
+        "text": "1 tbsp Kosher Salt",
+        "destination": "Full tablespoon current kosher salt goes into dough; crystal brand unspecified.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 6,
+        "text": "1 egg (for wash)",
+        "destination": "Separate wash egg prepares both coatings, though step6 says remaining egg.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      },
+      {
+        "index": 7,
+        "text": "Poppy or Sesame Seeds",
+        "destination": "Seeds optional final sprinkle.",
+        "scope": "Exact frozen current ingredient text; not a restored proposal mislabeled before."
+      }
+    ],
+    "saved": [
+      {
+        "index": 0,
+        "text": "1 ½ packages active dry yeast (1 1/2 tablespoons)",
+        "destination": "All1½tbsp yeast activates with source1tbsp sugar and1¾cup water.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 1,
+        "text": "1 tablespoon plus 1/2 cup sugar",
+        "destination": "1tbsp activation +½cup dough sugar, whole allowance.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 2,
+        "text": "½ cup vegetable oil, more for greasing bowl",
+        "destination": "Full½cup in dough; unmeasured bowl/sheet grease separate.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 3,
+        "text": "5 large eggs",
+        "destination": "Five total eggs: four dough, one prepares both washcoats.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 4,
+        "text": "1 tablespoon salt",
+        "destination": "Full1tbsp saved unspecified salt in dough, differs from current kosher.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 5,
+        "text": "8 to 8 ½ cups all-purpose flour",
+        "destination": "8–8½cups dough range, additional unmeasured surface flour.",
+        "scope": "Exact bound original450 cooking field"
+      },
+      {
+        "index": 6,
+        "text": "Poppy or sesame seeds for sprinkling",
+        "destination": "Optional unmeasured seeds after wash.",
+        "scope": "Exact bound original450 cooking field"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "yeast.yeast",
+        "name": "active dry yeast",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "activate",
+            "share": 1,
+            "text": "Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "yeast.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "activate",
+            "share": 1,
+            "text": "Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "yeast.water",
+        "name": "water",
+        "quantity": {
+          "amount": "1 3/4",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "lukewarm, not hot",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "activate",
+            "share": 1,
+            "text": "Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.oil",
+        "name": "vegetable oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "enrich",
+            "share": 1,
+            "text": "Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.eggs",
+        "name": "large egg",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "enrich",
+            "share": 1,
+            "text": "Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.sugar",
+        "name": "granulated sugar",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "enrich",
+            "share": 1,
+            "text": "Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.salt",
+        "name": "kosher salt",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "enrich",
+            "share": 1,
+            "text": "Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": 8,
+          "unit": "cup",
+          "max": "8 1/2"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "flour",
+            "share": 1,
+            "text": "Gradually incorporate {{ingredients}}, beginning with the lower end of the listed range and adding from the remaining measured allowance only as needed until the dough holds together. Do not automatically add the maximum if the dough is already workable."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.dusting",
+        "name": "all-purpose flour",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "only as needed for the kneading surface, separate from the measured dough flour",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "knead",
+            "share": 1,
+            "text": "Use {{ingredients}} to lightly dust the surface, then knead the dough until smooth and elastic, starting to check after about 10 minutes. A mixer with a dough hook is an alternative: use its actual capacity and instructions, or divide into complete proportionate dough loads rather than overloading it."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "dough.grease",
+        "name": "vegetable oil",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "a light coating for the rising bowl and baking sheets",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "first-rise",
+            "share": 1,
+            "text": "Use {{ingredients}} to grease the cleaned rising bowl and sheets. Put the dough in the bowl, cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as a guide. Keep the separately greased sheets ready for shaping."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.egg",
+        "name": "large egg",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "equivalents": [],
+        "allowance": null,
+        "state": "for preparing the egg wash used for both coatings",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "wash",
+            "share": 1,
+            "text": "Beat {{ingredients}} in a clean small bowl to prepare the whole wash. Brush a light coating onto the braided loaves, then cover and refrigerate the remaining wash for the second coating; no fixed division between coatings is required. Loosely cover the loaves and let them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this rise."
+          }
+        ],
+        "allocationTotal": 1
+      },
+      {
+        "id": "finish.seeds",
+        "name": "poppy or sesame seeds",
+        "quantity": null,
+        "equivalents": [],
+        "allowance": "as desired for sprinkling",
+        "state": "",
+        "optional": false,
+        "role": "ingredient",
+        "destinations": [
+          {
+            "step": "bake",
+            "share": 1,
+            "text": "Brush the risen loaves with the remaining egg wash and sprinkle with {{ingredients}}. Load only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35 minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in the seams between strands and a loaf that feels set. If the washed surface darkens before the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate oven loads add time."
+          }
+        ],
+        "allocationTotal": 1
+      }
+    ],
+    "unlistedBefore": [
+      "Water1¾cups in direction1; greasing/dusting allowances; actual4dough+1wash eggs versus current5+1ingredientlist."
+    ]
+  },
+  "processGraph": [
+    {
+      "index": 1,
+      "id": "activate",
+      "title": "Activate yeast",
+      "text": "Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies.",
+      "generatedText": "1. **Activate yeast:** Dissolve active dry yeast, granulated sugar, and water in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies.",
+      "dependsOn": [],
+      "assigned": ["yeast.yeast", "yeast.sugar", "yeast.water"]
+    },
+    {
+      "index": 2,
+      "id": "enrich",
+      "title": "Enrich",
+      "text": "Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time.",
+      "generatedText": "2. **Enrich:** Whisk vegetable oil, large eggs, granulated sugar, and kosher salt into the yeast mixture, beating in the dough eggs one at a time.",
+      "dependsOn": ["activate"],
+      "assigned": ["dough.oil", "dough.eggs", "dough.sugar", "dough.salt"]
+    },
+    {
+      "index": 3,
+      "id": "flour",
+      "title": "Add flour",
+      "text": "Gradually incorporate {{ingredients}}, beginning with the lower end of the listed range and adding from the remaining measured allowance only as needed until the dough holds together. Do not automatically add the maximum if the dough is already workable.",
+      "generatedText": "3. **Add flour:** Gradually incorporate all-purpose flour, beginning with the lower end of the listed range and adding from the remaining measured allowance only as needed until the dough holds together. Do not automatically add the maximum if the dough is already workable.",
+      "dependsOn": ["enrich"],
+      "assigned": ["dough.flour"]
+    },
+    {
+      "index": 4,
+      "id": "knead",
+      "title": "Knead",
+      "text": "Use {{ingredients}} to lightly dust the surface, then knead the dough until smooth and elastic, starting to check after about 10 minutes. A mixer with a dough hook is an alternative: use its actual capacity and instructions, or divide into complete proportionate dough loads rather than overloading it.",
+      "generatedText": "4. **Knead:** Use all-purpose flour to lightly dust the surface, then knead the dough until smooth and elastic, starting to check after about 10 minutes. A mixer with a dough hook is an alternative: use its actual capacity and instructions, or divide into complete proportionate dough loads rather than overloading it.",
+      "dependsOn": ["flour"],
+      "assigned": ["dough.dusting"]
+    },
+    {
+      "index": 5,
+      "id": "first-rise",
+      "title": "First rise",
+      "text": "Use {{ingredients}} to grease the cleaned rising bowl and sheets. Put the dough in the bowl, cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as a guide. Keep the separately greased sheets ready for shaping.",
+      "generatedText": "5. **First rise:** Use vegetable oil to grease the cleaned rising bowl and sheets. Put the dough in the bowl, cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as a guide. Keep the separately greased sheets ready for shaping.",
+      "dependsOn": ["knead"],
+      "assigned": ["dough.grease"]
+    },
+    {
+      "index": 6,
+      "id": "second-rise",
+      "title": "Rise again",
+      "text": "Gently deflate the dough, cover and let it rise again for about half an hour before shaping.",
+      "generatedText": "6. **Rise again:** Gently deflate the dough, cover and let it rise again for about half an hour before shaping.",
+      "dependsOn": ["first-rise"],
+      "assigned": []
+    },
+    {
+      "index": 7,
+      "id": "shape",
+      "title": "Shape and braid",
+      "text": "For the original two-loaf batch, divide the dough in half and each half into six equal pieces. Roll each piece into a strand about 12 inches long and 1½ inches wide, then braid using the pattern below. Tuck the ends under for straight loaves, or form each braid into a ring and pinch its ends together. Use enough greased baking-sheet space to keep original-size loaves at least 2 inches apart. Make additional similar loaves when scaling up; a batch smaller than one original-size loaf makes a smaller braid whose dimensions and baking time will differ.",
+      "generatedText": "7. **Shape and braid:** For the original two-loaf batch, divide the dough in half and each half into six equal pieces. Roll each piece into a strand about 12 inches long and 1½ inches wide, then braid using the pattern below. Tuck the ends under for straight loaves, or form each braid into a ring and pinch its ends together. Use enough greased baking-sheet space to keep original-size loaves at least 2 inches apart. Make additional similar loaves when scaling up; a batch smaller than one original-size loaf makes a smaller braid whose dimensions and baking time will differ.",
+      "dependsOn": ["second-rise"],
+      "assigned": []
+    },
+    {
+      "index": 8,
+      "id": "wash",
+      "title": "Prepare wash and final rise",
+      "text": "Beat {{ingredients}} in a clean small bowl to prepare the whole wash. Brush a light coating onto the braided loaves, then cover and refrigerate the remaining wash for the second coating; no fixed division between coatings is required. Loosely cover the loaves and let them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this rise.",
+      "generatedText": "8. **Prepare wash and final rise:** Beat large egg in a clean small bowl to prepare the whole wash. Brush a light coating onto the braided loaves, then cover and refrigerate the remaining wash for the second coating; no fixed division between coatings is required. Loosely cover the loaves and let them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this rise.",
+      "dependsOn": ["shape"],
+      "assigned": ["finish.egg"],
+      "parallelTask": "Preheat375°Fduringfinalrise; waitforoventemperaturebeforebake."
+    },
+    {
+      "index": 9,
+      "id": "bake",
+      "title": "Bake",
+      "text": "Brush the risen loaves with the remaining egg wash and sprinkle with {{ingredients}}. Load only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35 minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in the seams between strands and a loaf that feels set. If the washed surface darkens before the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate oven loads add time.",
+      "generatedText": "9. **Bake:** Brush the risen loaves with the remaining egg wash and sprinkle with poppy or sesame seeds. Load only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35 minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in the seams between strands and a loaf that feels set. If the washed surface darkens before the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate oven loads add time.",
+      "dependsOn": ["wash"],
+      "assigned": ["finish.seeds"]
+    },
+    {
+      "index": 10,
+      "id": "cool",
+      "title": "Cool",
+      "text": "Transfer to racks and cool completely before slicing. Discard any unused egg wash; do not use raw wash as a serving sauce.",
+      "generatedText": "10. **Cool:** Transfer to racks and cool completely before slicing. Discard any unused egg wash; do not use raw wash as a serving sauce.",
+      "dependsOn": ["bake"],
+      "assigned": []
+    }
+  ],
+  "variantLedgers": [
+    {
+      "name": "Straight or circular six-strand loaves",
+      "status": "complete",
+      "scope": "Same full dough and finish; original two loaves, six strands per loaf. No new strand weights or fractional-loaf time.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "yeast.yeast",
+        "yeast.sugar",
+        "yeast.water",
+        "dough.oil",
+        "dough.eggs",
+        "dough.sugar",
+        "dough.salt",
+        "dough.flour",
+        "dough.dusting",
+        "dough.grease",
+        "finish.egg",
+        "finish.seeds"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Freeze shaped first-washed loaves",
+      "status": "complete-source-option",
+      "scope": "Same whole formula; replaces fresh final rise. Source allows about5hr before baking original-size frozen loaves, actual thawed/puffy endpoint, then375°F35–40min first checks. Reserve wash cold within product limits; no new freezer duration. Full source option preserved, not independently tested.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "yeast.yeast",
+        "yeast.sugar",
+        "yeast.water",
+        "dough.oil",
+        "dough.eggs",
+        "dough.sugar",
+        "dough.salt",
+        "dough.flour",
+        "dough.dusting",
+        "dough.grease",
+        "finish.egg",
+        "finish.seeds"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Off-heat warm proofing spot",
+      "status": "complete-source-option",
+      "scope": "Source warms oven150°F then turns itOFF; editorial instruction lets it cool to gentle warmth first. Same full dough; no claimed chamber temperature or kill step.",
+      "entries": [],
+      "questions": [],
+      "completeMainReferences": [
+        "yeast.yeast",
+        "yeast.sugar",
+        "yeast.water",
+        "dough.oil",
+        "dough.eggs",
+        "dough.sugar",
+        "dough.salt",
+        "dough.flour",
+        "dough.dusting",
+        "dough.grease",
+        "finish.egg",
+        "finish.seeds"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    },
+    {
+      "name": "Saved unspecified salt",
+      "status": "held-interpretation",
+      "scope": "Source1tbsp plain salt differs from current1tbsp kosher. Current base retained; no guessed brand, mass or equal-volume fine-salt substitution.",
+      "entries": [
+        {
+          "ingredient": "salt",
+          "amount": 1,
+          "unit": "tbsp",
+          "destination": "dough",
+          "sourceState": "unspecified crystals"
+        }
+      ],
+      "questions": [],
+      "completeMainReferences": [
+        "yeast.yeast",
+        "yeast.sugar",
+        "yeast.water",
+        "dough.oil",
+        "dough.eggs",
+        "dough.sugar",
+        "dough.salt",
+        "dough.flour",
+        "dough.dusting",
+        "dough.grease",
+        "finish.egg",
+        "finish.seeds"
+      ],
+      "baseScope": "Use whole chosen main supplies; replacement or exclusive cooking routes do not add a second complete main."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "incomingMeals": [],
+    "existingPairsWith": [
+      "naan",
+      "peach-salad-with-tomatoes-and-beets",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "proposedPairsWith": [
+      "naan",
+      "peach-salad-with-tomatoes-and-beets",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "scope": "All current incoming meal files searched; none found. Existing pairing metadata preserved, not meal-certified."
+  },
+  "ratiosYieldAndCapacity": {
+    "ratios": "Saved formula: flour8–8½cups, water1¾cups, dough eggs4, oil½cup, sugar1tbsp+½cup, salt1tbsp, one wash egg. Current ingredient list has5eggs plus1wash but current dough method still only uses4. Proposed authored formula restores the exact saved5total eggs and water; no flour-to-mass or salt-density conversion. Source2loaves is a planning yield; proof/cooling and fractional-loaf geometry are not measured here.",
+    "capacity": "Two original loaves, each six approximately12×1½-inch strands, original sheet spacing≥2in. Scale complete loaf/pan loads; fractional-loaf dimensions and clocks differ. No pan capacity certification.",
+    "planningYield": "2 loaves",
+    "notKitchenMeasured": true
+  },
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "NYT current page unavailable; exact original cooking evidence is retained. Source salt state and household mixer/pan/proof/cooling behavior remain questions, not invented grams or testing.",
+    "Confirm the intended kosher salt brand versus saved unspecified salt; equal spoon volumes are not density conversions. Confirm preferred straight or ring shape and actual cool-down time. Source five-hour thaw/proof is original-size guidance, not a measured household or universal ambient interval."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

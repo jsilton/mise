@@ -1,0 +1,1518 @@
+{
+  "slug": "tomato-cobbler-with-cornmeal-cheddar-biscuits",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "3c52a891ca585e41b05b25d892a643b450e09eba49fca666f23b89f29b1e0f2b",
+  "acceptedSourceSha256": "60ff4fb1e00e71a06075cea02241f24f76db14cad6096f61211e829b43288450",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "saute", "simmer", "steam", "blend"],
+      "after": ["bake", "roast", "saute", "simmer", "blend"]
+    },
+    {
+      "field": "cookTime",
+      "before": "60 min",
+      "after": "About 75–85 min, plus any extra onion browning"
+    },
+    {
+      "field": "totalTime",
+      "before": "80 min",
+      "after": "About 1 hr 45 min–2 hr, including 15 min rest; longer for extra loads"
+    },
+    {
+      "field": "servings",
+      "before": "8",
+      "after": "8 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 lbs Cherry Tomatoes, whole",
+        "2 Red Onions, thinly sliced",
+        "1/4 cup Red Wine",
+        "1/4 cup All-Purpose Flour",
+        "4 cloves Garlic, minced",
+        "1 1/4 cups All-Purpose Flour + 3/4 cup Cornmeal",
+        "6 tbsp Unsalted Butter, cold and cubed",
+        "1 1/2 cups Sharp Cheddar, shredded",
+        "1 cup Whole Buttermilk",
+        "1 tbsp Baking Powder"
+      ],
+      "after": [
+        "--- Tomato filling ---",
+        "4 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1/2 tbsp olive oil",
+        "2 medium red onions, peeled and thinly sliced",
+        "1 1/2 tsp salt",
+        "4 garlic cloves, minced",
+        "1/4 cup red wine",
+        "1/4 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "1 1/4 cups all-purpose flour",
+        "3/4 cup cornmeal",
+        "1 tbsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "6 tbsp unsalted butter, cold and cubed",
+        "1 1/2 cups sharp Cheddar, shredded",
+        "1 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 595,
+        "protein": 15.5,
+        "carbs": 32.5,
+        "fat": 46,
+        "fiber": 2,
+        "sugar": 3,
+        "sodium": 680
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 8,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "filling",
+            "name": "Tomato filling",
+            "ingredients": [
+              {
+                "id": "tomatoes",
+                "key": "cherry-tomatoes",
+                "name": "cherry tomatoes",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ],
+                "preparation": "stems removed, washed; whole, or halve unusually large ones"
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "onions",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "onions",
+                "key": "red-onions",
+                "name": "medium red onion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "onions",
+                    "share": 1
+                  }
+                ],
+                "plural": "medium red onions",
+                "preparation": "peeled and thinly sliced"
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "onions",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "tomatoes",
+                    "share": "2/3"
+                  }
+                ]
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "wine",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "wine",
+                "key": "red-wine",
+                "name": "red wine",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "tomatoes",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "biscuit",
+            "name": "Cornmeal-Cheddar biscuits",
+            "ingredients": [
+              {
+                "id": "flour",
+                "key": "all-purpose-flour",
+                "name": "all-purpose flour",
+                "quantity": {
+                  "amount": "1 1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "cornmeal",
+                "key": "cornmeal",
+                "name": "cornmeal",
+                "quantity": {
+                  "amount": "3/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "powder",
+                "key": "baking-powder",
+                "name": "baking powder",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soda",
+                "key": "baking-soda",
+                "name": "baking soda",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "salt",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": 6,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "dough",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cold and cubed"
+              },
+              {
+                "id": "cheese",
+                "key": "sharp-cheddar",
+                "name": "sharp Cheddar",
+                "quantity": {
+                  "amount": "1 1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": "2/3"
+                  },
+                  {
+                    "step": "finish",
+                    "share": "1/3"
+                  }
+                ],
+                "preparation": "shredded"
+              },
+              {
+                "id": "buttermilk",
+                "key": "whole-buttermilk",
+                "name": "whole buttermilk",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mix",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "brush",
+                "key": "whole-buttermilk",
+                "name": "additional buttermilk",
+                "allowance": "as needed to brush the biscuit tops",
+                "uses": [
+                  {
+                    "step": "drop",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "prep",
+            "title": "Prepare oven and pans",
+            "text": "Preheat to 375°F with a rack in the middle. For the original batch, use a 12-inch high-sided oven-safe stainless skillet or well-seasoned cast iron, or prepare the filling in a skillet and transfer it to a 9-by-13-inch/3-quart baking dish. Check room for all filling, dough and bubbling headroom before starting. Larger batches may need several complete, proportionate dishes; smaller batches need similar filling depth and biscuit size, rather than a deep oversized pot."
+          },
+          {
+            "id": "onions",
+            "title": "Soften and brown onions",
+            "text": "Have {{ingredients}} ready. Warm the oil over medium-high heat, then add the onions and the assigned one third of the filling salt. Stir and cook until the onions are very soft and browned, beginning to check around 20 minutes for this main version. Lower the heat if they scorch; the clock does not guarantee mahogany color."
+          },
+          {
+            "id": "wine",
+            "title": "Add garlic and wine",
+            "text": "Have {{ingredients}} ready. Stir the garlic into the onions for 30–60 seconds until fragrant, then add the wine and cook until it has mostly evaporated."
+          },
+          {
+            "id": "tomatoes",
+            "title": "Thicken filling",
+            "text": "Have {{ingredients}} ready. Stir the filling flour into the onions until paste-like, then remove from the heat. Gently fold in all the tomatoes and the remaining two thirds of the filling salt. Transfer the full mixture to the chosen baking dish if the skillet is not the baking vessel."
+          },
+          {
+            "id": "dough",
+            "title": "Cut in butter",
+            "text": "Have {{ingredients}} ready. Pulse the flour, cornmeal, baking powder, baking soda and biscuit salt together in a food processor. Add the cold butter and pulse until it remains in pea-sized pieces. If the processor cannot hold the batch comfortably, mix in a bowl and use fingers or a pastry cutter to cut in the full butter instead."
+          },
+          {
+            "id": "mix",
+            "title": "Mix biscuits",
+            "text": "Transfer to a bowl and stir in {{ingredients}}, gently mixing until no dry flour remains and a shaggy, sticky dough forms. Reserve the other third of the cheese for the top."
+          },
+          {
+            "id": "drop",
+            "title": "Top filling",
+            "text": "Drop all the dough in walnut-sized mounds over the tomatoes, leaving gaps rather than sealing the surface. For multiple dishes, distribute all filling and dough proportionally first. Brush the tops lightly with {{ingredients}}. Set each baking vessel on an oven-safe baking sheet to catch drips."
+          },
+          {
+            "id": "bake",
+            "title": "Bake",
+            "text": "Begin baking. The original batch takes about 55–60 minutes in total, with the following cheese finish included in that window. Changed dough size or dish depth can alter the time; look for bubbling tomatoes and cooked biscuit centers rather than following the clock alone."
+          },
+          {
+            "id": "finish",
+            "title": "Finish cheese",
+            "text": "About 10 minutes before the expected end of baking, scatter {{ingredients}} over the biscuits and return to the oven. Treat this as part of the preceding baking window, not an additional 10 minutes after the cobbler is done. Finish until the tomatoes bubble strongly and biscuits are browned and cooked through, with no gummy raw dough in the center."
+          },
+          {
+            "id": "rest",
+            "title": "Rest",
+            "text": "Let rest for at least 15 minutes before serving so the hot tomato filling settles."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep filling and biscuit ingredients in their own stages",
+        "outcome": "Bubbling tomatoes beneath cooked, tender biscuits with melted Cheddar and spaces between the mounds.",
+        "techniques": ["leavening", "starch"],
+        "before": [
+          "Choose a vessel that fits all tomatoes and biscuit dough with bubbling headroom. The 12-inch high-sided skillet or 9-by-13-inch/3-quart dish describes original-batch options, not every scaled load.",
+          "Separate the filling flour from biscuit flour, the filling salt from biscuit salt, and the cheese portions before cooking. Filling salt is one third with onions and two thirds with tomatoes; cheese is two thirds in dough and one third on top.",
+          "Keep butter cold and cubed. Prepare extra buttermilk only as an unmeasured brushing supply; it is separate from the full measured dough milk."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "Butter remains in visible pea-sized pieces in the dry biscuit mixture.",
+            "why": "A smooth paste means the cold fat has been overworked; do not continue processing once the pieces are small."
+          },
+          {
+            "step": 8,
+            "cue": "Filling bubbles strongly and a biscuit center contains no gummy raw dough.",
+            "why": "Golden cheese and a brown crust can appear before a thick biscuit center is fully baked."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Biscuits look brown but are gummy inside",
+            "cause": "Large mounds, a deep load or surface cheese browning outpaces the center.",
+            "fix": "Continue baking, shielding browned tops loosely if needed. Check a biscuit center and the bubbling filling; a rest does not cook raw dough reliably."
+          }
+        ],
+        "timing": "Plan about 1 hour 45 minutes to 2 hours for the original main batch: preparation, roughly 20 minutes or more for onions, short garlic/wine/flour stages, a 55–60-minute bake and at least a 15-minute rest. The final 10 minutes with cheese overlaps baking. Biscuit mixing can overlap onion cooking. Deeper caramelization and extra vessels extend elapsed time.",
+        "storage": "Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F / 74°C throughout, checking the center and more than one portion. Store biscuit and tomato portions so they can cool promptly; reheating softens the biscuit underside.",
+        "sources": [
+          {
+            "title": "Kitchn: Tomato Cobbler with Cornmeal-Cheddar Biscuits",
+            "url": "https://www.thekitchn.com/recipe-tomato-cobbler-with-cornmeal-cheddar-biscuits-206816"
+          },
+          {
+            "title": "USDA leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nTomato cobbler is a Southern riff on savory fruit cobblers, where long-caramelized onions create depth and cherry tomatoes collapse into a jammy, bittersweet sauce. The cornmeal-cheddar biscuits are pure Southern technique - cornmeal for texture and corn flavor, shredded cheddar for savory richness, and buttermilk for tang that bridges sweet fruit and cheese.\n\n## Directions\n\n1.  **Reduction:** In a massive skillet, sauté onions in oil for 20 minutes until mahogany brown. Add garlic and wine; simmer until the wine has vanished.\n2.  **The Paste:** Stir in 1/4 cup flour until paste-like. Remove from heat. Gently fold in the cherry tomatoes and salt. Pour into a large baking dish.\n3.  **The Dough:** In a food processor, pulse flour, cornmeal, baking powder, and cold butter until pea-sized. Transfer to a bowl.\n4.  **Emulsify:** Stir in 1 cup of the cheese and the buttermilk until a shaggy, sticky dough forms.\n5.  **Drop:** Spoon walnut-sized mounds of dough over the tomatoes - you want gaps for the steam to escape (The Steam Cycle).\n6.  **Bake:** Preheat oven to 375°F. Bake for 55-60 minutes until the tomatoes are bubbling and the biscuits are deep golden.\n7.  **The Crunch:** During the final 10 minutes, sprinkle the remaining cheese over the biscuits.\n8.  **Set:** Let rest for 15 minutes (mandatory) before serving.\n",
+    "after": "\n## Chef's Note\n\nThis savory cobbler pairs a tomato-onion filling with cornmeal-Cheddar biscuits, keeping its Southern-style contrast of soft filling and buttery topping. Soften the onions before folding in the tomatoes, and leave gaps between the biscuit mounds for the bubbling filling. The full butter, Cheddar and whole buttermilk make a rich biscuit cap.\n\n## Directions\n\n1. **Prepare oven and pans:** Preheat to 375°F with a rack in the middle. For the original batch, use a 12-inch high-sided oven-safe stainless skillet or well-seasoned cast iron, or prepare the filling in a skillet and transfer it to a 9-by-13-inch/3-quart baking dish. Check room for all filling, dough and bubbling headroom before starting. Larger batches may need several complete, proportionate dishes; smaller batches need similar filling depth and biscuit size, rather than a deep oversized pot.\n2. **Soften and brown onions:** Have olive oil, medium red onions, and 1/3 of the salt ready. Warm the oil over medium-high heat, then add the onions and the assigned one third of the filling salt. Stir and cook until the onions are very soft and browned, beginning to check around 20 minutes for this main version. Lower the heat if they scorch; the clock does not guarantee mahogany color.\n3. **Add garlic and wine:** Have garlic cloves and red wine ready. Stir the garlic into the onions for 30–60 seconds until fragrant, then add the wine and cook until it has mostly evaporated.\n4. **Thicken filling:** Have cherry tomatoes, 2/3 of the salt, and all-purpose flour ready. Stir the filling flour into the onions until paste-like, then remove from the heat. Gently fold in all the tomatoes and the remaining two thirds of the filling salt. Transfer the full mixture to the chosen baking dish if the skillet is not the baking vessel.\n5. **Cut in butter:** Have all-purpose flour, cornmeal, baking powder, baking soda, salt, and unsalted butter ready. Pulse the flour, cornmeal, baking powder, baking soda and biscuit salt together in a food processor. Add the cold butter and pulse until it remains in pea-sized pieces. If the processor cannot hold the batch comfortably, mix in a bowl and use fingers or a pastry cutter to cut in the full butter instead.\n6. **Mix biscuits:** Transfer to a bowl and stir in 2/3 of the sharp Cheddar and whole buttermilk, gently mixing until no dry flour remains and a shaggy, sticky dough forms. Reserve the other third of the cheese for the top.\n7. **Top filling:** Drop all the dough in walnut-sized mounds over the tomatoes, leaving gaps rather than sealing the surface. For multiple dishes, distribute all filling and dough proportionally first. Brush the tops lightly with additional buttermilk. Set each baking vessel on an oven-safe baking sheet to catch drips.\n8. **Bake:** Begin baking. The original batch takes about 55–60 minutes in total, with the following cheese finish included in that window. Changed dough size or dish depth can alter the time; look for bubbling tomatoes and cooked biscuit centers rather than following the clock alone.\n9. **Finish cheese:** About 10 minutes before the expected end of baking, scatter 1/3 of the sharp Cheddar over the biscuits and return to the oven. Treat this as part of the preceding baking window, not an additional 10 minutes after the cobbler is done. Finish until the tomatoes bubble strongly and biscuits are browned and cooked through, with no gummy raw dough in the center.\n10. **Rest:** Let rest for at least 15 minutes before serving so the hot tomato filling settles.\n\n## Larger Biscuit and Buttermilk Options\n\nFor the larger-biscuit version, the original batch uses 3½–4 pounds of tomatoes and ¾–1 cup buttermilk: the smaller milk amount makes firmer biscuits, while the full cup makes a looser dough. Keep every other measured filling and biscuit supply, including all the butter, both salt components, leaveners and Cheddar. Drop all the dough as 7–8 larger biscuits for that original batch, leaving gaps and brushing with the additional buttermilk; at another scale, keep the biscuit size similar and adjust the number of pieces to use the full dough. Use the same 375°F oven and 55–60-minute original-batch first-check window, finishing by bubbling tomatoes and cooked biscuit centers.\n\nFor softer onions with less browning, cook until very tender for at least 10 minutes. For deeper caramelization, lower the heat and allow another 20–30 minutes as needed before the garlic and wine stage. Both routes keep the full oil and filling salt.\n\nTwo tablespoons balsamic vinegar can replace the ¼ cup red wine for the original batch; scale that replacement proportionally and use it in the same garlic-and-liquid stage, without adding both. Biscuits can be mixed entirely in a bowl using fingers or a pastry cutter for the butter. A well-seasoned cast-iron pan is the cast-iron choice for acidic tomatoes; use high-sided stainless steel or the baking-dish route if preferred.\n"
+  },
+  "findings": [
+    {
+      "id": "SBB21-T01",
+      "title": "SBB21-T01",
+      "rationale": "Restoreexact lost½Tb oil, filling1½tsp salt½+1 andbiscuits½tsp soda+½tsp salt, brushingallowance fromnative/b7/045andactualpublisher; no later explicitrejectionfoundincompletehistory. Keep4lb/1cupcurrentcore.",
+      "confidence": "high omittedingredients/splits; moderate untestedcombinedcurrentgeometry",
+      "applicableSources": ["f6128211actualdiff", "native/b7/045", "Kitchn"],
+      "exactBeforeAfterReferences": ["ingredients", "formula", "content"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-T02",
+      "title": "SBB21-T02",
+      "rationale": "Separatefillingflour/salt fromdough,Cheddar⅔+⅓; keepcurrentwalnut mounds andcompletedistinctsource7–8/¾–1cup/3½–4lb/wineorbalsamic/handmix routes.",
+      "confidence": "high",
+      "applicableSources": ["native/b7/045", "Kitchn", "currentf612"],
+      "exactBeforeAfterReferences": ["formula", "content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-T03",
+      "title": "SBB21-T03",
+      "rationale": "Preheatbeforeloading,choosecapacityearly,55–60originalbakeincludesfinal10mincheese plus15rest;20minonionsischecknotmahoganyguarantee. Fullprocessorbutterpreserved andgummycentercheck;weekstoragecannotreplaceUSDA3–4days.",
+      "confidence": "high clock/dose; moderate actualgeometry",
+      "applicableSources": [
+        "Kitchn",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": ["cookTime", "totalTime", "formula", "content", "learning"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-T04",
+      "title": "SBB21-T04",
+      "rationale": "Removeunsupportedcountryfrombulkmetadataandnutrition, retainingSouthernstyle/fullfat/sourceURL/links.",
+      "confidence": "high",
+      "applicableSources": ["completehistory", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": ["origin", "nutrition"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-A02",
+      "title": "Whole independent literal correction",
+      "rationale": "Spacing/readability only; retain the correctly overlapping total 55–60-minute bake.",
+      "confidence": "high",
+      "applicableSources": [
+        "Proposed authored bake and finish stages; exact native cheese finish included in bake window"
+      ],
+      "exactBeforeAfterReferences": ["learning.timing"],
+      "questions": []
+    },
+    {
+      "id": "SBB21-A04",
+      "title": "Whole independent literal correction",
+      "rationale": "No dedicated steaming method exists in either complete route; f612 'Steam Cycle' described gaps in baked biscuit coverage. Optional metadata correction only; do not remove processor blending or change the baking method.",
+      "confidence": "high",
+      "applicableSources": [
+        "Complete native and current/proposed directions; f612 followed cooking diff"
+      ],
+      "exactBeforeAfterReferences": ["cookingMethods"],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Tomato%20Cobbler%20with%20Cornmeal-Cheddar%20Biscuits.html",
+    "introductionScope": "Earlier exact named HTML cooking after stable native original join; HTML is not native identity proof.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Larger original biscuit/milk/tomato route",
+      "base": "same full main except explicit replacements",
+      "changes": "3½–4lbtomatoes instead4;¾–1cupmilk instead1;allfulldough7–8largerbiscuitsoriginalbatch, scalednumberwithsimilarsize; cook375F55–60 firstcheck; fullfat/leaveners/salt retained",
+      "destination": "Body Larger Biscuit and Buttermilk Options paragraph1",
+      "source": "native/b7/045+actualKitchn",
+      "status": "proposed distinct complete original-batch route"
+    },
+    {
+      "name": "Source one-week leftovers",
+      "status": "held/not adopted",
+      "unresolved": "Primary3–4dayguidance supersedes unspecificoneweekclaim; richnessunchanged."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "4 lbs Cherry Tomatoes, whole",
+        "destination": "fold2 full4lb whole",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "2 Red Onions, thinly sliced",
+        "destination": "saute1 unlistedoil20min",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "1/4 cup Red Wine",
+        "destination": "reduce1",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1/4 cup All-Purpose Flour",
+        "destination": "paste2 fixed¼cup",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "4 cloves Garlic, minced",
+        "destination": "afteronions1 no standalone30–60clock",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 1/4 cups All-Purpose Flour + 3/4 cup Cornmeal",
+        "destination": "dough3 combinedflour+cornmeal separatefillingflour2",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "6 tbsp Unsalted Butter, cold and cubed",
+        "destination": "pulse3 full6Tb",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 1/2 cups Sharp Cheddar, shredded",
+        "destination": "1cupdough4/remaining½cup7",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "1 cup Whole Buttermilk",
+        "destination": "dough4 full1cup",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      },
+      {
+        "index": 9,
+        "ingredient": "1 tbsp Baking Powder",
+        "destination": "pulse3; native½tsp soda omitted",
+        "scope": "Actual frozen states/destinations, including omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": ["Oil1", "Salt2"],
+    "proposed": [
+      {
+        "id": "filling.tomatoes",
+        "key": "cherry-tomatoes",
+        "name": "cherry tomatoes",
+        "quantity": {
+          "amount": 4,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "tomatoes",
+            "share": 1
+          }
+        ],
+        "preparation": "stems removed, washed; whole, or halve unusually large ones",
+        "component": "Tomato filling"
+      },
+      {
+        "id": "filling.oil",
+        "key": "olive-oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "onions",
+            "share": 1
+          }
+        ],
+        "component": "Tomato filling"
+      },
+      {
+        "id": "filling.onions",
+        "key": "red-onions",
+        "name": "medium red onion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "onions",
+            "share": 1
+          }
+        ],
+        "plural": "medium red onions",
+        "preparation": "peeled and thinly sliced",
+        "component": "Tomato filling"
+      },
+      {
+        "id": "filling.salt",
+        "key": "salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "onions",
+            "share": "1/3"
+          },
+          {
+            "step": "tomatoes",
+            "share": "2/3"
+          }
+        ],
+        "component": "Tomato filling"
+      },
+      {
+        "id": "filling.garlic",
+        "key": "garlic",
+        "name": "garlic clove",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "wine",
+            "share": 1
+          }
+        ],
+        "plural": "garlic cloves",
+        "preparation": "minced",
+        "component": "Tomato filling"
+      },
+      {
+        "id": "filling.wine",
+        "key": "red-wine",
+        "name": "red wine",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "wine",
+            "share": 1
+          }
+        ],
+        "component": "Tomato filling"
+      },
+      {
+        "id": "filling.flour",
+        "key": "all-purpose-flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "tomatoes",
+            "share": 1
+          }
+        ],
+        "component": "Tomato filling"
+      },
+      {
+        "id": "biscuit.flour",
+        "key": "all-purpose-flour",
+        "name": "all-purpose flour",
+        "quantity": {
+          "amount": "1 1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.cornmeal",
+        "key": "cornmeal",
+        "name": "cornmeal",
+        "quantity": {
+          "amount": "3/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.powder",
+        "key": "baking-powder",
+        "name": "baking powder",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.soda",
+        "key": "baking-soda",
+        "name": "baking soda",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.salt",
+        "key": "salt",
+        "name": "salt",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.butter",
+        "key": "unsalted-butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": 6,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "dough",
+            "share": 1
+          }
+        ],
+        "preparation": "cold and cubed",
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.cheese",
+        "key": "sharp-cheddar",
+        "name": "sharp Cheddar",
+        "quantity": {
+          "amount": "1 1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": "2/3"
+          },
+          {
+            "step": "finish",
+            "share": "1/3"
+          }
+        ],
+        "preparation": "shredded",
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.buttermilk",
+        "key": "whole-buttermilk",
+        "name": "whole buttermilk",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mix",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      },
+      {
+        "id": "biscuit.brush",
+        "key": "whole-buttermilk",
+        "name": "additional buttermilk",
+        "allowance": "as needed to brush the biscuit tops",
+        "uses": [
+          {
+            "step": "drop",
+            "share": 1
+          }
+        ],
+        "component": "Cornmeal-Cheddar biscuits"
+      }
+    ],
+    "native": [
+      {
+        "path": "privately retained evidence",
+        "sha256": "b0aaff3685702d4954a02823f5163d926b7906c2c69d9c7dc3dea6935a935d41",
+        "bindingKind": "primary",
+        "ingredients": [
+          {
+            "index": 0,
+            "ingredient": "3 1/2 to 4 pounds cherry tomatoes",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "foldtomatoes",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 1,
+            "ingredient": "1/2 tablespoon olive oil",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "onionoil",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 2,
+            "ingredient": "2 medium red onions, peeled and thinly sliced",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "sauteonions",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 3,
+            "ingredient": "1 1/2 teaspoons salt, divided",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "1/3onions;2/3tomatoes",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 4,
+            "ingredient": "4 cloves garlic, minced",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "afteronions",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 5,
+            "ingredient": "1/4 cup red wine (or 2 tablespoons balsamic vinegar)",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "exclusivewineorbalsamicreduce",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 6,
+            "ingredient": "1/4 cup all-purpose flour",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "fillingpaste",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 7,
+            "ingredient": "FOR THE BISCUITS:",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "noningredientheading",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 8,
+            "ingredient": "1 1/4 cups all-purpose flour",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "drydoughflour",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 9,
+            "ingredient": "3/4 cup cornmeal",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "drydoughcornmeal",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 10,
+            "ingredient": "1 tablespoon baking powder",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "drydoughpowder",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 11,
+            "ingredient": "1/2 teaspoon baking soda",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "drydoughsoda",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 12,
+            "ingredient": "1/2 teaspoon salt",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "drydoughsalt",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 13,
+            "ingredient": "6 tablespoons cold unsalted butter",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "fullcoldbuttercutin",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 14,
+            "ingredient": "1 1/2 cups grated cheddar cheese, divided",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "2/3dough;1/3topping",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          },
+          {
+            "index": 15,
+            "ingredient": "3/4 to 1 cup buttermilk, plus extra for brushing",
+            "methodEvidence": "privately retained evidence#directions",
+            "destination": "measuredmilkchoiceintodough;genuineextrabrushing",
+            "preparation": "Exact ingredient string state preserved; no conversion guessed"
+          }
+        ]
+      }
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "5180c4c61ae69c787fec46722068e406dc32820db2d40c8ec0498c0d279a7fa6"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "7bbcd1087372a59f3534237207ac971c5b5aa8e354fa46c47dbfd36c8106987e"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "5ae781fc6384efacdd3bc41ad712c8e03e0789e9c9b5489d1bae1cf7fad135e7"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "c9e3c06cace4bc0adc312c4b7ad5e6815589ee391ddcc1a38b0991ede55df20e"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "a0ed99938a0f3eb76a09d9346f8d9c9642c1f0ef9ab8fbe23d1adfcf403b169f"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "be05a546aefe5aa91ba8c37198c77f2875bef5779cfaa4906015467cf0620fe7"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "baa428342368ad61021b47f64eac3fa61a9407319f8f2f3f4c52c97abaca6189"
+      },
+      {
+        "step": 8,
+        "textReference": "privately retained evidence#directions-8",
+        "sha256": "3f64f44c3e35fa4f1f38b93b4198e403fb7c047f793b52321e4f3bf6f3558c38"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "prep",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "onions",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["filling.oil", "filling.onions", "filling.salt"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "wine",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["filling.garlic", "filling.wine"],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "tomatoes",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["filling.tomatoes", "filling.salt", "filling.flour"],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "dough",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": [
+          "biscuit.flour",
+          "biscuit.cornmeal",
+          "biscuit.powder",
+          "biscuit.soda",
+          "biscuit.salt",
+          "biscuit.butter"
+        ],
+        "cue": ["Butter remains in visible pea-sized pieces in the dry biscuit mixture."]
+      },
+      {
+        "step": 6,
+        "id": "mix",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["biscuit.cheese", "biscuit.buttermilk"],
+        "cue": []
+      },
+      {
+        "step": 7,
+        "id": "drop",
+        "textReference": "privately retained evidence#formula.steps[6].text",
+        "ingredients": ["biscuit.brush"],
+        "cue": []
+      },
+      {
+        "step": 8,
+        "id": "bake",
+        "textReference": "privately retained evidence#formula.steps[7].text",
+        "ingredients": [],
+        "cue": ["Filling bubbles strongly and a biscuit center contains no gummy raw dough."]
+      },
+      {
+        "step": 9,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[8].text",
+        "ingredients": ["biscuit.cheese"],
+        "cue": []
+      },
+      {
+        "step": 10,
+        "id": "rest",
+        "textReference": "privately retained evidence#formula.steps[9].text",
+        "ingredients": [],
+        "cue": []
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Current whole milk/walnut mounds main with missing supplies restored",
+      "base": "formula",
+      "scope": "Full4lbtomatoes,1cupwholebuttermilk,walnutmounds;½Tb oil,1½tsp fillingsalt1/3+2/3,½tspbiscuitsalt,½tsp soda andextra brush allowance recovered;6Tb butter/1½cupCheddar untouched."
+    },
+    {
+      "name": "Larger original biscuit/milk/tomato route",
+      "base": "same full main except explicit replacements",
+      "changes": "3½–4lbtomatoes instead4;¾–1cupmilk instead1;allfulldough7–8largerbiscuitsoriginalbatch, scalednumberwithsimilarsize; cook375F55–60 firstcheck; fullfat/leaveners/salt retained",
+      "destination": "Body Larger Biscuit and Buttermilk Options paragraph1",
+      "source": "native/b7/045+actualKitchn",
+      "status": "proposed distinct complete original-batch route"
+    },
+    {
+      "name": "Balsamic instead wine",
+      "base": "main or larger route",
+      "changes": "Original2Tb balsamic replaces¼cupwine; scalealltogether, notboth",
+      "destination": "Garlic/liquidstage3",
+      "source": "native/b7/045/currentKitchn",
+      "status": "proposed exclusive replacement"
+    },
+    {
+      "name": "Tender onions / deeper caramelization; hand cutting",
+      "base": "main orlarger route",
+      "changes": "Atleast10minsoft OR10+20–30 lowerheatlonger;handcutfullbutter alternativeprocessor;sameallmeasuredsupplies",
+      "status": "proposed source process choices"
+    },
+    {
+      "name": "Source one-week leftovers",
+      "status": "held/not adopted",
+      "unresolved": "Primary3–4dayguidance supersedes unspecificoneweekclaim; richnessunchanged."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "cornbread",
+        "path": "src/content/recipes/cornbread.md",
+        "sha256": "096aac4bf4880889b224dfa56eb4f4b956ada894a02b7565aec6f34e9201fa51",
+        "scope": "Link exists, not whole component or meal acceptance"
+      },
+      {
+        "slug": "nanas-biscuits",
+        "path": "src/content/recipes/nanas-biscuits.md",
+        "sha256": "82cd1bfb66b2acef1b44b47199101912b476a8efd18973b4fd8c748643da901a",
+        "scope": "Link exists, not whole component or meal acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "No incoming composed meal references this recipe. Outgoing recipe links and styles preserved; no meal approval."
+  },
+  "ratiosYieldAndCapacity": [
+    "¼cupfillingflour separate1¼cupdoughflour+¾cornmeal; no flour4:1conversion or gramguess.",
+    "Filling1½tspsalt⅓+⅔; biscuit½tsp distinct;6Tb butterfull;cheese1½cups⅔dough+⅓top.",
+    "Current8planned portions vsnative6–8; walnutmounds current preserved andsource7–8larger originalcountscalespieces notsize;dishfit isactualcheck."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "1 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1/8 tbsp olive oil",
+        "1/2 medium red onion, peeled and thinly sliced",
+        "3/8 tsp salt",
+        "1 garlic clove, minced",
+        "0.0625 cup red wine",
+        "0.0625 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "0.31 cup all-purpose flour",
+        "0.19 cup cornmeal",
+        "1/4 tbsp baking powder",
+        "1/8 tsp baking soda",
+        "1/8 tsp salt",
+        "1 1/2 tbsp unsalted butter, cold and cubed",
+        "3/8 cup sharp Cheddar, shredded",
+        "1/4 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1 lb cherry tomatoes",
+        "1/8 tbsp olive oil",
+        "1/2 medium red onion",
+        "1/2 tsp salt",
+        "1 garlic clove",
+        "0.0625 cup red wine",
+        "3/8 cup all-purpose flour",
+        "0.19 cup cornmeal",
+        "1/4 tbsp baking powder",
+        "1/8 tsp baking soda",
+        "1 1/2 tbsp unsalted butter",
+        "3/8 cup sharp Cheddar",
+        "1/4 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "2 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1/4 tbsp olive oil",
+        "1 medium red onion, peeled and thinly sliced",
+        "3/4 tsp salt",
+        "2 garlic cloves, minced",
+        "1/8 cup red wine",
+        "1/8 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "5/8 cup all-purpose flour",
+        "3/8 cup cornmeal",
+        "1/2 tbsp baking powder",
+        "1/4 tsp baking soda",
+        "1/4 tsp salt",
+        "3 tbsp unsalted butter, cold and cubed",
+        "3/4 cup sharp Cheddar, shredded",
+        "1/2 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "2 lb cherry tomatoes",
+        "1/4 tbsp olive oil",
+        "1 medium red onion",
+        "1 tsp salt",
+        "2 garlic cloves",
+        "1/8 cup red wine",
+        "3/4 cup all-purpose flour",
+        "3/8 cup cornmeal",
+        "1/2 tbsp baking powder",
+        "1/4 tsp baking soda",
+        "3 tbsp unsalted butter",
+        "3/4 cup sharp Cheddar",
+        "1/2 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "4 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1/2 tbsp olive oil",
+        "2 medium red onions, peeled and thinly sliced",
+        "1 1/2 tsp salt",
+        "4 garlic cloves, minced",
+        "1/4 cup red wine",
+        "1/4 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "1 1/4 cups all-purpose flour",
+        "3/4 cup cornmeal",
+        "1 tbsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "6 tbsp unsalted butter, cold and cubed",
+        "1 1/2 cups sharp Cheddar, shredded",
+        "1 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "4 lb cherry tomatoes",
+        "1/2 tbsp olive oil",
+        "2 medium red onions",
+        "2 tsp salt",
+        "4 garlic cloves",
+        "1/4 cup red wine",
+        "1 1/2 cups all-purpose flour",
+        "3/4 cup cornmeal",
+        "1 tbsp baking powder",
+        "1/2 tsp baking soda",
+        "6 tbsp unsalted butter",
+        "1 1/2 cups sharp Cheddar",
+        "1 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "6 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "3/4 tbsp olive oil",
+        "3 medium red onions, peeled and thinly sliced",
+        "2 1/4 tsp salt",
+        "6 garlic cloves, minced",
+        "3/8 cup red wine",
+        "3/8 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "1 7/8 cups all-purpose flour",
+        "1 1/8 cups cornmeal",
+        "1 1/2 tbsp baking powder",
+        "3/4 tsp baking soda",
+        "3/4 tsp salt",
+        "9 tbsp unsalted butter, cold and cubed",
+        "2 1/4 cups sharp Cheddar, shredded",
+        "1 1/2 cups whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "6 lb cherry tomatoes",
+        "3/4 tbsp olive oil",
+        "3 medium red onions",
+        "3 tsp salt",
+        "6 garlic cloves",
+        "3/8 cup red wine",
+        "2 1/4 cups all-purpose flour",
+        "1 1/8 cups cornmeal",
+        "1 1/2 tbsp baking powder",
+        "3/4 tsp baking soda",
+        "9 tbsp unsalted butter",
+        "2 1/4 cups sharp Cheddar",
+        "1 1/2 cups whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "8 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1 tbsp olive oil",
+        "4 medium red onions, peeled and thinly sliced",
+        "3 tsp salt",
+        "8 garlic cloves, minced",
+        "1/2 cup red wine",
+        "1/2 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "2 1/2 cups all-purpose flour",
+        "1 1/2 cups cornmeal",
+        "2 tbsp baking powder",
+        "1 tsp baking soda",
+        "1 tsp salt",
+        "12 tbsp unsalted butter, cold and cubed",
+        "3 cups sharp Cheddar, shredded",
+        "2 cups whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "16 portions",
+      "shopping": [
+        "8 lb cherry tomatoes",
+        "1 tbsp olive oil",
+        "4 medium red onions",
+        "4 tsp salt",
+        "8 garlic cloves",
+        "1/2 cup red wine",
+        "3 cups all-purpose flour",
+        "1 1/2 cups cornmeal",
+        "2 tbsp baking powder",
+        "1 tsp baking soda",
+        "12 tbsp unsalted butter",
+        "3 cups sharp Cheddar",
+        "2 cups whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "12 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1 1/2 tbsp olive oil",
+        "6 medium red onions, peeled and thinly sliced",
+        "4 1/2 tsp salt",
+        "12 garlic cloves, minced",
+        "3/4 cup red wine",
+        "3/4 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "3 3/4 cups all-purpose flour",
+        "2 1/4 cups cornmeal",
+        "3 tbsp baking powder",
+        "1 1/2 tsp baking soda",
+        "1 1/2 tsp salt",
+        "18 tbsp unsalted butter, cold and cubed",
+        "4 1/2 cups sharp Cheddar, shredded",
+        "3 cups whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "24 portions",
+      "shopping": [
+        "12 lb cherry tomatoes",
+        "1 1/2 tbsp olive oil",
+        "6 medium red onions",
+        "6 tsp salt",
+        "12 garlic cloves",
+        "3/4 cup red wine",
+        "4 1/2 cups all-purpose flour",
+        "2 1/4 cups cornmeal",
+        "3 tbsp baking powder",
+        "1 1/2 tsp baking soda",
+        "18 tbsp unsalted butter",
+        "4 1/2 cups sharp Cheddar",
+        "3 cups whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Tomato filling ---",
+        "4 lb cherry tomatoes, stems removed, washed; whole, or halve unusually large ones",
+        "1/2 tbsp olive oil",
+        "2 medium red onions, peeled and thinly sliced",
+        "1 1/2 tsp salt",
+        "4 garlic cloves, minced",
+        "1/4 cup red wine",
+        "1/4 cup all-purpose flour",
+        "--- Cornmeal-Cheddar biscuits ---",
+        "1 1/4 cups all-purpose flour",
+        "3/4 cup cornmeal",
+        "1 tbsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "6 tbsp unsalted butter, cold and cubed",
+        "1 1/2 cups sharp Cheddar, shredded",
+        "1 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "4 lb cherry tomatoes",
+        "1/2 tbsp olive oil",
+        "2 medium red onions",
+        "2 tsp salt",
+        "4 garlic cloves",
+        "1/4 cup red wine",
+        "1 1/2 cups all-purpose flour",
+        "3/4 cup cornmeal",
+        "1 tbsp baking powder",
+        "1/2 tsp baking soda",
+        "6 tbsp unsalted butter",
+        "1 1/2 cups sharp Cheddar",
+        "1 cup whole buttermilk",
+        "additional buttermilk, as needed to brush the biscuit tops"
+      ],
+      "scope": "Actual compiler/share conservation; recipe-specific fixed geometry/time and full distinct original-batch variants remain descriptive"
+    }
+  ],
+  "preservedPriorRepairs": "No later explicit safety/formula dose repair overwritten; fullcurrentrichness/protectedsourcefields preserved.",
+  "remainingQuestions": [
+    "Which high-sided vesselactualdepth fits4lbtomatoes/alldoughwithheadroom? Howmany walnutmounds areproduced fromthefullcurrentdough?",
+    "Is the current1cupmilk/walnut route orcomplete7–8larger/¾–1cupsource route preferred? Saltcrystaltype unspecified.",
+    "Howlongdotheonionsactuallybrownandbiscuitsfullycook? No texture/capacitytestclaimed."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
