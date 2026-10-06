@@ -8,4 +8,8 @@ The Italian 2023 Academy gram quantities prevail over inconsistent English pound
 
 The two linked dinner pages receive dependency and timing repairs only. Their full editorial status is not promoted. Current originals and all other 642 recipe sources are preserved. Kitchen questions remain: final yield, portion fit, actual active/elapsed time, pan/burner behavior and flavor balance of the selected pork belly, broth and wine. No kitchen tests or native-app sync.
 
-Implementation and exact production verification pending.
+The initial acceptance checkpoint preceded publication; verified production evidence follows.
+
+## Verified production
+
+Accepted source a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43, implemented in commit f94694b44ff1533f39bc0d7dccc904550dbcd407, is verified at remote release commit f94694b44ff1533f39bc0d7dccc904550dbcd407, successful CI/deployment and its complete live page. [Production evidence](../editorial-campaign/2026-10-05/classic-bolognese-production.json). No kitchen tests or native-app sync.

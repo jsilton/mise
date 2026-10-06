@@ -27,9 +27,9 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "380 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 614 recorded complete / 29 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 4 accepted source versions match exact remote commit [dfa8198e](https://github.com/jsilton/mise/commit/dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37495637524) and all 4 live pages. Zero kitchen tests; no native-app sync.",
+    "productionReconciliation": "381 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 615 recorded complete / 28 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s accepted recipe version matches exact remote commit [f94694b4](https://github.com/jsilton/mise/commit/f94694b44ff1533f39bc0d7dccc904550dbcd407), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37505837494) and its live recipe page. Zero kitchen tests; no native-app sync.",
     "latestAcceptanceInputCommit": "26fad4c13e2e1fde6051ee8a83e1a06396cbf407",
-    "latestRecipeCommitReconciledAtCommit": "dfa8198e90408ce15acf50ef4c5f0fc5a9002c3f"
+    "latestRecipeCommitReconciledAtCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407"
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -19924,17 +19924,21 @@
         "record": "docs/reviews/pressure-cooker-bolognase.md",
         "acceptedSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/classic-bolognese-independent.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
       "acceptedChange": {
-        "status": "accepted locally; implementation and exact production pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/pressure-cooker-bolognase.md",
         "sourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["f94694b44ff1533f39bc0d7dccc904550dbcd407"],
       "productionVerification": {
-        "status": "pending for accepted classic source"
+        "status": "verified live",
+        "sourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
+        "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+        "releaseCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+        "evidence": "docs/editorial-campaign/2026-10-05/classic-bolognese-production.json"
       },
       "remainingQuestions": [
         "Actual final sauce mass/volume and whether the six source portions match the intended household meal.",

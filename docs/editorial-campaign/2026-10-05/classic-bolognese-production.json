@@ -1,0 +1,74 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+  "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37505837494",
+  "ci": {
+    "headSha": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+  "rendered": [
+    {
+      "slug": "pressure-cooker-bolognase",
+      "url": "https://jordansilton.com/mise/recipes/pressure-cooker-bolognase/",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "noOverflow": true,
+      "printEnabled": true,
+      "mainHash": "f405bbe07d1bc0d7"
+    }
+  ],
+  "verifiedDate": "2026-10-06T17:46:39.899Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "pressure-cooker-bolognase",
+      "acceptedSourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
+      "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Complete production content checked on the recipe and two affected meals; recipe mobile scaling/cooking interactions verified locally."
+  ],
+  "linkedMealDependencyRepairs": {
+    "fullMealEditorialReview": false,
+    "pages": [
+      {
+        "slug": "spaghetti-night",
+        "url": "https://jordansilton.com/mise/meals/spaghetti-night/",
+        "titleMatches": true,
+        "fullMainMatches": true,
+        "noOverflow": true,
+        "mainHash": "c1ff8fd5684b6752"
+      },
+      {
+        "slug": "sunday-italian-comfort",
+        "url": "https://jordansilton.com/mise/meals/sunday-italian-comfort/",
+        "titleMatches": true,
+        "fullMainMatches": true,
+        "noOverflow": true,
+        "mainHash": "bee150b599840f80"
+      }
+    ]
+  }
+}

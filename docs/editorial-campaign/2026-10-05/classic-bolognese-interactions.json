@@ -62,5 +62,7 @@
   "limitations": [
     "Actual print pagination not exposed by in-app browser",
     "No physical cooking or native-app sync"
-  ]
+  ],
+  "cleanReloadMainHash": "f405bbe07d1bc0d7",
+  "productionBaseline": "Fresh normal-mode local reload matched complete live main. The earlier post-interaction hash includes a hidden wake-lock status changed during cooking mode."
 }

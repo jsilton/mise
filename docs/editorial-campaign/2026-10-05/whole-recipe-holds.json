@@ -639,9 +639,11 @@
           "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
         }
       },
-      "status": "Accepted classic replacement; implementation and production pending",
+      "status": "Classic replacement implemented and verified live; archived pressure route remains unapproved",
       "decision": "User explicitly chose classic slow-stovetop Bolognese instead of the pressure-cooker recipe and agreed to change the defining formula. Exact current and earliest saved originals remain privately retained; the original pressure method remains unapproved.",
-      "review": "docs/reviews/pressure-cooker-bolognase.json"
+      "review": "docs/reviews/pressure-cooker-bolognase.json",
+      "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+      "productionEvidence": "docs/editorial-campaign/2026-10-05/classic-bolognese-production.json"
     }
   ]
 }

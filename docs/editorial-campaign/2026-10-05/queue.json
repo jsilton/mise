@@ -8497,7 +8497,7 @@
       "source": "Adapted from Accademia Italiana della Cucina, 2023 Bologna recipe",
       "sourceUrl": "https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20ricetta%20aggiornata%2020%20aprile%202023.pdf",
       "group": null,
-      "status": "accepted-local",
+      "status": "production-verified",
       "reviewEvidence": ["docs/reviews/pressure-cooker-bolognase.md"],
       "automatedFlags": [],
       "remainingQuestions": [
@@ -8508,7 +8508,9 @@
       "inputSha256": "512fdd43bd71fefce8c34e160364f8d1907de46d987ea39142e778a0e0945ec0",
       "plannedBatch": null,
       "acceptedSourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
-      "reviewPhase": "Complete classic replacement accepted; implementation and exact production pending"
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
+      "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+      "productionVerification": "docs/editorial-campaign/2026-10-05/classic-bolognese-production.json"
     },
     {
       "slug": "prohibition-style-gin-lemon-fizz",
@@ -13178,9 +13180,8 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 380,
+    "production-verified": 381,
     "held": 27,
-    "held-awaiting-evidence": 1,
-    "accepted-local": 1
+    "held-awaiting-evidence": 1
   }
 }

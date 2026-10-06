@@ -1,7 +1,7 @@
 {
   "slug": "pressure-cooker-bolognase",
   "title": "Ragù alla Bolognese",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "26fad4c13e2e1fde6051ee8a83e1a06396cbf407",
   "inputSha256": "512fdd43bd71fefce8c34e160364f8d1907de46d987ea39142e778a0e0945ec0",
   "acceptedSourceSha256": "a8bf393a53afcbf23f9770b1688a82b454f4c838a72a253a1f6c8f89ff8c6d43",
@@ -1006,12 +1006,13 @@
   },
   "kitchenTested": false,
   "nativeAppSynced": false,
-  "implementationCommit": null,
-  "productionVerification": "pending",
+  "implementationCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/classic-bolognese-production.json",
   "rootPresentationCorrection": {
     "before": "Plan 20–30 minutes preparation and 2½–3½ hours cooking, about 3–4 hours total with 45–60 minutes active work. The covered ragù simmer alone takes 2–3 hours; milk enters halfway within that interval. Chop and measure before rendering, heat broth alongside the earlier stages, and stir/check moisture during the simmer. Final uncovered reduction or unusually slow meat tenderness can extend cooking. Pasta cooking, fresh-pasta preparation, cooling and later reheating are additional service or storage work. These are planning ranges, not measured kitchen times.",
     "after": "Plan 20–30 minutes preparation and 2½–3½ hours cooking, about 3–4 hours total with 45–60 minutes active work. The covered ragù simmer alone takes 2–3 hours; milk enters halfway within that interval. Chop and measure before rendering, heat broth alongside the earlier stages, and stir/check moisture during the simmer. Final uncovered reduction or unusually slow meat tenderness can extend cooking. Pasta cooking, fresh-pasta preparation, cooling and later reheating are additional service or storage work.",
     "rationale": "Keep kitchen-test disclosures in review evidence, per HOUSEHOLD_PREFERENCES; retain all useful planning ranges and cooking dependencies.",
     "ingredientsYieldAndDirectionsUnchanged": true
-  }
+  },
+  "releaseCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407"
 }

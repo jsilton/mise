@@ -1,5 +1,9 @@
 # Current campaign state — October 6, 2026
 
+381 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 615 recorded complete / 28 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s accepted recipe version matches exact remote commit [f94694b4](https://github.com/jsilton/mise/commit/f94694b44ff1533f39bc0d7dccc904550dbcd407), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37505837494) and its live recipe page. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/classic-bolognese.md).
+
+## Earlier acceptance checkpoint
+
 Classic Bolognese is accepted locally after explicit user direction and complete independent/root review. Coverage is 615 complete / 28 pending across 643 sources; 380/409 campaign source versions remain verified live until this release is verified. [Bounded release scope](editorial-campaign/2026-10-05/classic-bolognese.md). No kitchen tests or native-app sync.
 
 ## Previous verified checkpoint

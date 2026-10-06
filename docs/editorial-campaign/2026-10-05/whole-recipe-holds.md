@@ -224,4 +224,4 @@ Almond Zucchini Bread, Japanese-Style Trout with Dashi, Red Zone Margarita and S
 
 ## Classic Bolognese replacement
 
-The user chose classic slow-stovetop ragù and explicitly authorized the defining formula change. [Complete review](../../reviews/pressure-cooker-bolognase.md) is accepted; implementation and production verification are pending. The old pressure-cooker source remains privately preserved and its operating-pressure/liquid/burn questions remain unresolved for that archived route. The other 28 held sources are unchanged.
+The user chose classic slow-stovetop ragù and explicitly authorized the defining formula change. [Complete review](../../reviews/pressure-cooker-bolognase.md) is implemented and [verified live](classic-bolognese-production.json). The old pressure-cooker source remains privately preserved and its operating-pressure/liquid/burn questions remain unresolved for that archived route. The other 28 held sources are unchanged.
