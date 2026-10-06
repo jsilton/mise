@@ -1,0 +1,530 @@
+{
+  "slug": "cottage-cheese-banana-oatmeal-protein-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "711525879e45b3ccc11d88c2651db13043fff9f99fbc1a05f9c4bb9cffb5df15",
+  "acceptedSourceSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["blend"],
+      "after": ["blend", "griddle"]
+    },
+    {
+      "field": "equipment",
+      "before": ["blender"],
+      "after": ["blender", "nonstick-skillet", "spatula"]
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "3–4 pancakes (approximate)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1/2 cup Old-fashioned Rolled Oats",
+        "1/2 medium Banana, very ripe",
+        "1/4 cup Low-fat Cottage Cheese",
+        "1 large Egg",
+        "1 tsp Baking Powder",
+        "1/2 tsp Ground Cinnamon",
+        "1/2 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips"
+      ],
+      "after": [
+        "1/2 cup Old-fashioned Rolled Oats",
+        "1/2 medium Banana, very ripe",
+        "1/4 cup Low-fat Cottage Cheese",
+        "1 large Egg",
+        "1 tsp Baking Powder",
+        "1/2 tsp Ground Cinnamon",
+        "1/2 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 340,
+        "protein": 18.5,
+        "carbs": 23.5,
+        "fat": 19.5,
+        "fiber": 3,
+        "sugar": 6,
+        "sodium": 540
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Blend a small oat-and-cottage-cheese batter, then control browning while its egg sets.",
+        "outcome": "Small tender pancakes that lift intact and have cooked centers beneath golden surfaces.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+          "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The batter is smooth, without large oat flakes or cottage-cheese curds.",
+            "why": "Blending supplies the fine texture in this batter; leaving lumps is not the wheat-flour mixing goal."
+          },
+          {
+            "step": 4,
+            "cue": "Set edges support the spatula; the cooked center has no liquid batter.",
+            "why": "Banana can brown before the egg sets, and surface bubbles alone may be sparse."
+          },
+          {
+            "step": 5,
+            "cue": "The next batch starts on a lightly greased surface without burnt flecks.",
+            "why": "Sugar residue can scorch and mark otherwise fresh pancakes."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Blender spins above the ingredients",
+            "cause": "The jug is too wide for this small batch.",
+            "fix": "Stop, scrape down and use a narrower blending cup. Do not automatically dilute the batter."
+          },
+          {
+            "problem": "Pancakes tear or have wet centers",
+            "cause": "Flipping too soon, high heat or large thick portions.",
+            "fix": "Let the first side set, support the whole pancake and finish on lower heat. Keep the quarter-cup scoop for the next batch."
+          },
+          {
+            "problem": "Dark spots on later pancakes",
+            "cause": "Sugary residue remains in the pan.",
+            "fix": "Remove the residue carefully off the heat and renew the light coating of spray."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Rolled oats",
+            "alternative": "Certified gluten-free rolled oats, at the listed amount",
+            "effect": "Useful when gluten must be avoided; check the other ingredients and toppings too. Steel-cut oats do not blend and cook the same way."
+          },
+          {
+            "ingredient": "Fresh blueberries",
+            "alternative": "Dark chocolate chips as the optional mix-in",
+            "effect": "Either is sprinkled onto each wet pancake; melted chocolate is distinct from uncooked batter when checking the center."
+          }
+        ],
+        "timing": "Allow about 20 minutes: around 10 minutes to prepare and blend, then about 10 minutes to cook this small batch in one or two rounds. A small pan or a doubled batch needs more rounds; temperatures, scoop size and each pancake’s cooking time stay the same.",
+        "storage": "Refrigerate cooked pancakes within 2 hours (1 hour above 90°F), at 40°F or below, for 3–4 days. Freeze separated pancakes airtight for up to 3 months for quality; reheat to 165°F throughout. Keep yogurt separate.",
+        "sources": [
+          {
+            "title": "Monique Volz — Cottage Cheese Pancakes, Ambitious Kitchen",
+            "url": "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBlending cottage cheese and oats creates a high-protein batter that mimics traditional flour pancakes. Cook over medium-low heat - the natural sugars in banana and proteins in cheese brown quickly, so lower temperature ensures the center cooks through before the outside burns.\n\n## Directions\n\n1.  **The Batter:** Place oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla into a high-powered blender. Blend for 30-45 seconds until completely smooth.\n2.  **Prep:** Heat a large non-stick skillet over **medium-low** heat. Lightly coat with oil spray.\n3.  **Pour:** Drop the batter by 1/4 cupfuls onto the skillet. If using mix-ins, sprinkle them onto the wet surface of the pancake now.\n4.  **Flip:** Cook until bubbles appear on the surface and the edges look set (about 2-3 mins). Flip gently and cook for another 2 minutes until golden brown.\n5.  **Finish:** Wipe the skillet clean between batches to prevent the residual sugars from burning.\n6.  **Serve:** Serve immediately with a dollop of Greek yogurt or a drizzle of peanut butter.\n",
+    "after": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Yield label",
+      "field": null,
+      "rationale": "Unchanged small formula cannot reasonably stand for four full breakfast portions; committed and native method explicitly support approximately 3–4 quarter-cup pancakes. Human portion labels differ, so use piece count.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/"
+      ],
+      "sourceApplicability": "Unchanged small formula cannot reasonably stand for four full breakfast portions; committed and native method explicitly support approximately 3–4 quarter-cup pancakes. Human portion labels differ, so use piece count.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": ["Measure finished batter and pancake count in the actual blender/pan."]
+    },
+    {
+      "id": "GR-2",
+      "title": "Doneness",
+      "field": null,
+      "rationale": "Golden surfaces can precede cooked egg centers; set edges, support and a measured egg-dish endpoint apply to this blended oat/egg batter.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Golden surfaces can precede cooked egg centers; set edges, support and a measured egg-dish endpoint apply to this blended oat/egg batter.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-3",
+      "title": "Classification",
+      "field": null,
+      "rationale": "Blending prepares batter; the whole method also cooks on a hot skillet.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/"
+      ],
+      "sourceApplicability": "Blending prepares batter; the whole method also cooks on a hot skillet.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "equipment",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/cottage-cheese-banana-oatmeal-protein-pancakes.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native archive and first committed source 045e5ba2 say two servings and 3–4 pancakes. d65d0891 relabeled four without doubling quantities. Current Monique Volz card says one serving, still 3–4 pancakes. Proposal chooses the supported approximate piece count; it does not average portion labels.",
+    "Publisher nutrition/protein marketing is not adopted. Existing title is preserved; unsupported quantitative nutrition is removed."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1/2 cup Old-fashioned Rolled Oats",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 medium Banana, very ripe",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 cup Low-fat Cottage Cheese",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 large Egg",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Baking Powder",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Ground Cinnamon",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Vanilla Extract",
+        "originalDestination": "blend step 1",
+        "proposedDestination": "blend step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "Fresh Blueberries or Dark Chocolate Chips",
+        "originalDestination": "optional sprinkle step 3",
+        "proposedDestination": "optional sprinkle step 3; no fixed mix-in quantity",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Oil spray for the skillet",
+        "destination": "grease step 2; renew after wiping step 5",
+        "provenance": "frozen steps 2 and 5; native method repeats spray",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      },
+      {
+        "ingredient": "Greek yogurt or peanut butter for serving (optional)",
+        "destination": "serve step 6",
+        "provenance": "frozen step 6; peanut butter also native topping",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Blend: Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter."
+    },
+    {
+      "step": 2,
+      "text": "Heat: Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions."
+    },
+    {
+      "step": 3,
+      "text": "Pour: Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size."
+    },
+    {
+      "step": 4,
+      "text": "Cook and flip: Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F."
+    },
+    {
+      "step": 5,
+      "text": "Repeat: Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve immediately, with Greek yogurt or peanut butter if desired."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Rolled oats",
+      "alternative": "Certified gluten-free rolled oats, at the listed amount",
+      "effect": "Useful when gluten must be avoided; check the other ingredients and toppings too. Steel-cut oats do not blend and cook the same way."
+    },
+    {
+      "ingredient": "Fresh blueberries",
+      "alternative": "Dark chocolate chips as the optional mix-in",
+      "effect": "Either is sprinkled onto each wet pancake; melted chocolate is distinct from uncooked batter when checking the center."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": [
+      "avocado-kale-caesar-salad",
+      "brownie-protein-balls",
+      "banana-oat-greek-yogurt-muffins"
+    ],
+    "preservedBodyRecipeLinks": [],
+    "incomingRecipes": [],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "The unchanged small batch contains 1/2 cup oats, 1/4 cup cottage cheese, half medium banana and one egg; oats:cottage cheese is 2:1 by cup. One tsp baking powder remains; no milk, flour, fat or extra eggs are invented. Roughly 3–4 quarter-cup pancakes is an approximate count, not four people. Pan capacity is one or two rounds with flipping room; no mandatory rest is imposed.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/8 cup Old-fashioned Rolled Oats",
+        "1/8 medium Banana, very ripe",
+        "0.0625 cup Low-fat Cottage Cheese",
+        "1/4 large Egg",
+        "1/4 tsp Baking Powder",
+        "1/8 tsp Ground Cinnamon",
+        "1/8 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "3/4–1 pancake (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/4 cup Old-fashioned Rolled Oats",
+        "1/4 medium Banana, very ripe",
+        "1/8 cup Low-fat Cottage Cheese",
+        "1/2 large Egg",
+        "1/2 tsp Baking Powder",
+        "1/4 tsp Ground Cinnamon",
+        "1/4 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "1 1/2–2 pancakes (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup Old-fashioned Rolled Oats",
+        "1/2 medium Banana, very ripe",
+        "1/4 cup Low-fat Cottage Cheese",
+        "1 large Egg",
+        "1 tsp Baking Powder",
+        "1/2 tsp Ground Cinnamon",
+        "1/2 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "3–4 pancakes (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 cup Old-fashioned Rolled Oats",
+        "3/4 medium Banana, very ripe",
+        "3/8 cup Low-fat Cottage Cheese",
+        "1 1/2 large Eggs",
+        "1 1/2 tsp Baking Powder",
+        "3/4 tsp Ground Cinnamon",
+        "3/4 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "4 1/2–6 pancakes (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "1 cup Old-fashioned Rolled Oats",
+        "1 medium Banana, very ripe",
+        "1/2 cup Low-fat Cottage Cheese",
+        "2 large Eggs",
+        "2 tsp Baking Powder",
+        "1 tsp Ground Cinnamon",
+        "1 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "6–8 pancakes (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 cups Old-fashioned Rolled Oats",
+        "1 1/2 medium Bananas, very ripe",
+        "3/4 cup Low-fat Cottage Cheese",
+        "3 large Eggs",
+        "3 tsp Baking Powder",
+        "1 1/2 tsp Ground Cinnamon",
+        "1 1/2 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "9–12 pancakes (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1/2 cup Old-fashioned Rolled Oats",
+        "1/2 medium Banana, very ripe",
+        "1/4 cup Low-fat Cottage Cheese",
+        "1 large Egg",
+        "1 tsp Baking Powder",
+        "1/2 tsp Ground Cinnamon",
+        "1/2 tsp Vanilla Extract",
+        "Fresh Blueberries or Dark Chocolate Chips",
+        "Oil spray for the skillet",
+        "Greek yogurt or peanut butter for serving (optional)"
+      ],
+      "yield": "3–4 pancakes (approximate)",
+      "methods": "\n## Chef's Note\n\nBlend the oats and cottage cheese smooth before cooking this small batch. Medium-low heat gives the egg-rich centers time to set as the banana sweetens and browns the outside. Keep the pancakes small and flip when their edges hold together.\n\n## Directions\n\n1. **Blend:** Place the oats, banana, cottage cheese, egg, baking powder, cinnamon, and vanilla in a blender. Blend for about 30–45 seconds until smooth, stopping and scraping with the blender off if needed. Use a small blender cup if a wide jug cannot catch this small amount of batter.\n2. **Heat:** Heat a large nonstick skillet over medium-low heat. Lightly coat it with oil spray suitable for the pan, following the spray and pan instructions.\n3. **Pour:** Drop batter by 1/4 cupfuls, leaving room to slide a spatula underneath. If using blueberries or dark chocolate chips, sprinkle them onto the wet surface now. The original batch makes roughly 3–4 pancakes; the count depends on scoop size.\n4. **Cook and flip:** Cook until the underside is golden and the edges look set, about 2–3 minutes; there may be only a few bubbles. Slide a spatula fully underneath and flip gently. Cook about 2 minutes more, until the middle is set with no wet batter. Lower the heat if the outside colors before the center sets. If checking with a thin thermometer from the side, the center should reach 160°F.\n5. **Repeat:** Between batches, move the skillet off the heat and carefully remove browned residue with a heatproof utensil and a folded towel held with tongs. Reapply a light coating of spray as directed, then return the pan to medium-low heat and cook the remaining batter.\n6. **Serve:** Serve immediately, with Greek yogurt or peanut butter if desired.\n",
+      "capacity": [
+        "Use rolled oats and very ripe banana. Have a small blender cup or a spatula ready for scraping a larger jug; no extra liquid is required by the formula.",
+        "Keep cottage cheese and eggs refrigerated until preparation. Have the optional mix-ins and serving toppings ready before cooking."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Record banana edible mass, blended batter volume, blender cup and actual pancake count.",
+    "Measure center temperature, browning and time with the chosen skillet; avoid treating dark melted chocolate as raw batter.",
+    "At half batch, beat the egg and divide proportionally; a narrow cup may be necessary."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

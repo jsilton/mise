@@ -1,0 +1,598 @@
+{
+  "slug": "the-best-belgian-waffles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "2638291dd92a78015f27ce83ae10ac638a2f8fa042bd3795495e30c4b618fe42",
+  "acceptedSourceSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "steam"],
+      "after": ["griddle"]
+    },
+    {
+      "field": "vibe",
+      "before": "nutritious",
+      "after": "comfort"
+    },
+    {
+      "field": "cookTime",
+      "before": "25 min",
+      "after": "About 25 min or longer (iron-dependent)"
+    },
+    {
+      "field": "totalTime",
+      "before": "40 min",
+      "after": "About 40 min or longer (iron-dependent)"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions (waffle count depends on iron)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups All-Purpose Flour",
+        "2 large Eggs, separated",
+        "2 cups Whole Milk",
+        "1/2 cup Vegetable Oil",
+        "1/4 cup Granulated Sugar",
+        "4 tsp Baking Powder",
+        "1 tsp Pure Vanilla Extract",
+        "1/2 tsp Sea Salt"
+      ],
+      "after": [
+        "2 cups All-Purpose Flour",
+        "2 large Eggs, separated",
+        "2 cups Whole Milk",
+        "1/2 cup Vegetable Oil",
+        "1/4 cup Granulated Sugar",
+        "4 tsp Baking Powder",
+        "1 tsp Pure Vanilla Extract",
+        "1/2 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 675,
+        "protein": 9,
+        "carbs": 70,
+        "fat": 41,
+        "fiber": 1,
+        "sugar": 38,
+        "sodium": 770
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["waffle-iron", "mixer", "mixing-bowl", "cooling-rack"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Preserve whipped-white foam while folding and cooking waffle batter.",
+        "outcome": "Golden waffles that release intact, with aerated, cooked centers and crisp edges when served.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+          "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Whipped whites hold upright peaks and remain smooth rather than dry and grainy.",
+            "why": "The foam carries air into the batter; grease or excessive whipping interferes with it."
+          },
+          {
+            "step": 6,
+            "cue": "No large streaks of unmixed white remain, but the batter still looks aerated.",
+            "why": "Folding distributes the whites without beating out their air."
+          },
+          {
+            "step": 7,
+            "cue": "The waffle releases readily, with a golden exterior and a center free of wet batter.",
+            "why": "An iron light or dark surface alone may precede a cooked interior."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Whites will not form stable peaks",
+            "cause": "Yolk or oil contaminated the bowl or beaters.",
+            "fix": "Use clean grease-free equipment for the next batch. Extra baking powder is not a repair for failed foam; keep the listed formula."
+          },
+          {
+            "problem": "Waffles are dense",
+            "cause": "Whites were overbeaten, left waiting or beaten into the batter.",
+            "fix": "Whip to smooth stiff peaks, fold gently and cook promptly. More mixing cannot restore air already lost."
+          },
+          {
+            "problem": "Batter overflows or waffles are underfilled",
+            "cause": "A universal scoop was used for an iron with a different capacity.",
+            "fix": "Use the manufacturer’s fill amount on the next cycle; keep expansion room and the original batter quantities."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Separated eggs",
+            "alternative": "Keep both the yolks and whipped whites from the listed eggs",
+            "effect": "Whole eggs stirred directly into batter omit this recipe’s foam stage. When scaling, separate the listed egg count rather than always whipping two whites."
+          },
+          {
+            "ingredient": "Plate-greasing oil",
+            "alternative": "Follow the iron’s manual if its plates require no added fat",
+            "effect": "This changes only the separate plate allowance; the measured half cup in the original batter stays in the wet mixture."
+          }
+        ],
+        "timing": "Allow about 15 minutes for preparation and roughly 25 minutes or longer for the batch, depending on iron capacity and cycle time. The 5–10 minute guide is per cycle, not for all the batter. Preheat while preparing; cook promptly after folding. Larger batches need more cycles, and temperatures and manual fill do not multiply.",
+        "storage": "Refrigerate cooked waffles within 2 hours (1 hour above 90°F), at 40°F or below, for 3–4 days. Freeze separated waffles airtight for longer storage. Reheat to 165°F throughout, then use a rack or toaster to refresh the edges. Store cranberry sauce separately.",
+        "sources": [
+          {
+            "title": "Marie — The Best Belgian Waffles, Food.com",
+            "url": "https://www.food.com/recipe/the-best-belgian-waffles-63071"
+          },
+          {
+            "title": "Annabelle Shippee — Meringue rules, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2018/05/17/meringue-rules"
+          },
+          {
+            "title": "Kye Ameden — Don’t make this pancake mistake, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe secret to exceptional Belgian waffles is beating the egg whites to stiff peaks separately and folding them into the batter at the very end. This introduces millions of tiny air pockets that expand instantly in the waffle iron, creating a shatteringly crisp exterior with a cloud-like interior. We use a higher ratio of baking powder to ensure the vertical rise needed for deep Belgian pockets.\n\n## Directions\n\n1.  **Aeration:** In a clean bowl, beat the 2 egg whites until stiff peaks form. Set aside.\n2.  **Dry Mix:** Sift together flour, baking powder, sugar, and salt in a large bowl.\n3.  **The Emulsion:** In a separate bowl, whisk together egg yolks, milk, oil, and vanilla until smooth.\n4.  **Combine:** Pour the wet ingredients into the dry. Stir with a whisk until **just combined** (small lumps are mandatory).\n5.  **The Fold:** Gently fold the whipped egg whites into the batter using a rubber spatula. Do not over-mix, or you will deflate the \"Bounce.\"\n6.  **Bake:** Pour 1/2 cup portions into a preheated, oiled waffle iron. Cook for 5-7 minutes until deep golden brown and the steam stops.\n7.  **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce).\n",
+    "after": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Scaling the separated eggs",
+      "field": null,
+      "rationale": "Method prose does not scale automatically. Whip the whites from the ingredient list so half and double batches use one and four whites, while preserving the original two eggs.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.food.com/recipe/the-best-belgian-waffles-63071",
+        "https://www.kingarthurbaking.com/blog/2018/05/17/meringue-rules"
+      ],
+      "sourceApplicability": "Method prose does not scale automatically. Whip the whites from the ingredient list so half and double batches use one and four whites, while preserving the original two eggs.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "vibe",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-2",
+      "title": "Iron capacity",
+      "field": null,
+      "rationale": "The unidentified iron does not establish a universal half-cup capacity or fixed 5–7 minute cycle. Publisher/native supplies a 5–10 minute guide; manual fill and cooked-center cues govern actual use.",
+      "confidence": "high",
+      "applicableSources": ["https://www.food.com/recipe/the-best-belgian-waffles-63071"],
+      "sourceApplicability": "The unidentified iron does not establish a universal half-cup capacity or fixed 5–7 minute cycle. Publisher/native supplies a 5–10 minute guide; manual fill and cooked-center cues govern actual use.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "vibe",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": ["Record iron model, fill, cycles, waffle count and elapsed time."]
+    },
+    {
+      "id": "GR-3",
+      "title": "Complete mixing",
+      "field": null,
+      "rationale": "Combine wheat batter fully, without dry flour pockets or mandatory lumps, then preserve whipped-white foam during folding.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake",
+        "https://www.food.com/recipe/the-best-belgian-waffles-63071"
+      ],
+      "sourceApplicability": "Combine wheat batter fully, without dry flour pockets or mandatory lumps, then preserve whipped-white foam during folding.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "vibe",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-4",
+      "title": "Classification",
+      "field": null,
+      "rationale": "This recipe uses an electrically heated waffle iron, not an oven bake or steaming setup; griddle follows the accepted waffle classification.",
+      "confidence": "high",
+      "applicableSources": ["https://www.food.com/recipe/the-best-belgian-waffles-63071"],
+      "sourceApplicability": "This recipe uses an electrically heated waffle iron, not an oven bake or steaming setup; griddle follows the accepted waffle classification.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "vibe",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/the-best-belgian-waffles.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Marie’s Food.com recipe and native archive have the same eight measured amounts, separated-white mechanism and four-to-six portions. Frozen Mise labels six; retain its six planning portions while exposing iron-dependent waffle count.",
+    "Native/publisher says 5–10 minutes per iron cycle; frozen hard 5–7 minutes and universal half-cup portions were narrower assumptions. Proposal follows the actual manual and cooked-center cues, retaining 25/40 only as approximate planning that may take longer.",
+    "No current/native variant replaces the half cup vegetable oil or four teaspoons baking powder. Community comment modifications are not source formula and are not imported."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "2 cups All-Purpose Flour",
+        "originalDestination": "dry step 2",
+        "proposedDestination": "dry step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs, separated",
+        "originalDestination": "whites step 1; yolks step 3",
+        "proposedDestination": "separate step 1; all yolks wet step 3; all whites whipped step 4 then folded step 6",
+        "allocationFinding": "Full listed amount preserved; Eggs deliberately split: yolks and whites are parts of the same listed count; no extra eggs."
+      },
+      {
+        "originalQuantityAndPreparation": "2 cups Whole Milk",
+        "originalDestination": "wet step 3",
+        "proposedDestination": "wet step 3",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 cup Vegetable Oil",
+        "originalDestination": "wet step 3; oiled iron unmeasured extra absent",
+        "proposedDestination": "wet step 3; entire measured oil in batter",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 cup Granulated Sugar",
+        "originalDestination": "dry step 2",
+        "proposedDestination": "dry step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "4 tsp Baking Powder",
+        "originalDestination": "dry step 2",
+        "proposedDestination": "dry step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Pure Vanilla Extract",
+        "originalDestination": "wet step 3",
+        "proposedDestination": "wet step 3",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Sea Salt",
+        "originalDestination": "dry step 2",
+        "proposedDestination": "dry step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "destination": "plates step 1",
+        "provenance": "frozen step 6 oiled iron; native first instruction oils maker",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      },
+      {
+        "ingredient": "Maple syrup and Perfect Cranberry Sauce for serving (optional)",
+        "destination": "serve step 8 with original recipe link",
+        "provenance": "frozen serving step 7; body link preserved",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites."
+    },
+    {
+      "step": 2,
+      "text": "Dry mix: Sift together the flour, baking powder, sugar, and salt into a large bowl."
+    },
+    {
+      "step": 3,
+      "text": "Wet mix: In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended."
+    },
+    {
+      "step": 4,
+      "text": "Whip the whites: Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy."
+    },
+    {
+      "step": 5,
+      "text": "Combine: Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain."
+    },
+    {
+      "step": 6,
+      "text": "Fold: Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly."
+    },
+    {
+      "step": 7,
+      "text": "Cook the batch: Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them."
+    },
+    {
+      "step": 8,
+      "text": "Serve: Serve immediately with warm maple syrup and Perfect Cranberry Sauce if desired."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Separated eggs",
+      "alternative": "Keep both the yolks and whipped whites from the listed eggs",
+      "effect": "Whole eggs stirred directly into batter omit this recipe’s foam stage. When scaling, separate the listed egg count rather than always whipping two whites."
+    },
+    {
+      "ingredient": "Plate-greasing oil",
+      "alternative": "Follow the iron’s manual if its plates require no added fat",
+      "effect": "This changes only the separate plate allowance; the measured half cup in the original batter stays in the wet mixture."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": [
+      "naan",
+      "peach-salad-with-tomatoes-and-beets",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "preservedBodyRecipeLinks": ["perfect-cranberry-sauce"],
+    "incomingRecipes": [],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "Unchanged flour two cups, milk two cups, oil half cup, sugar quarter cup, powder four teaspoons, eggs two separated, vanilla one teaspoon and salt half teaspoon. The rich fat level and high powder amount are not reduced or normalized; no other waffle’s ratio is imported. Egg yolks and whites exhaust the listed eggs once. Six retains the frozen planning portions; native/current publisher four-to-six is documented without forcing six waffles. Iron model/fill/cycle are unknown; source 5–10 minute cycle is a guide, and the original 25 cook/40 total become approximate capacity-dependent allowances rather than a fixed half-cup geometry.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup All-Purpose Flour",
+        "1/2 large Egg, separated",
+        "1/2 cup Whole Milk",
+        "1/8 cup Vegetable Oil",
+        "0.0625 cup Granulated Sugar",
+        "1 tsp Baking Powder",
+        "1/4 tsp Pure Vanilla Extract",
+        "1/8 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "1 1/2 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup All-Purpose Flour",
+        "1 large Egg, separated",
+        "1 cup Whole Milk",
+        "1/4 cup Vegetable Oil",
+        "1/8 cup Granulated Sugar",
+        "2 tsp Baking Powder",
+        "1/2 tsp Pure Vanilla Extract",
+        "1/4 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "3 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 cups All-Purpose Flour",
+        "2 large Eggs, separated",
+        "2 cups Whole Milk",
+        "1/2 cup Vegetable Oil",
+        "1/4 cup Granulated Sugar",
+        "4 tsp Baking Powder",
+        "1 tsp Pure Vanilla Extract",
+        "1/2 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "6 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 cups All-Purpose Flour",
+        "3 large Eggs, separated",
+        "3 cups Whole Milk",
+        "3/4 cup Vegetable Oil",
+        "3/8 cup Granulated Sugar",
+        "6 tsp Baking Powder",
+        "1 1/2 tsp Pure Vanilla Extract",
+        "3/4 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "9 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 cups All-Purpose Flour",
+        "4 large Eggs, separated",
+        "4 cups Whole Milk",
+        "1 cup Vegetable Oil",
+        "1/2 cup Granulated Sugar",
+        "8 tsp Baking Powder",
+        "2 tsp Pure Vanilla Extract",
+        "1 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "12 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 cups All-Purpose Flour",
+        "6 large Eggs, separated",
+        "6 cups Whole Milk",
+        "1 1/2 cups Vegetable Oil",
+        "3/4 cup Granulated Sugar",
+        "12 tsp Baking Powder",
+        "3 tsp Pure Vanilla Extract",
+        "1 1/2 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "18 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 cups All-Purpose Flour",
+        "2 large Eggs, separated",
+        "2 cups Whole Milk",
+        "1/2 cup Vegetable Oil",
+        "1/4 cup Granulated Sugar",
+        "4 tsp Baking Powder",
+        "1 tsp Pure Vanilla Extract",
+        "1/2 tsp Sea Salt",
+        "Vegetable oil for greasing the waffle iron, if its manual recommends it",
+        "Maple syrup and Perfect Cranberry Sauce for serving (optional)"
+      ],
+      "yield": "6 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nWhip the separated egg whites to stiff peaks, then fold them into the flour batter just before cooking. The foam adds air, so fold gently and use a fully heated iron. Let each waffle release readily with a golden exterior and a cooked center before lifting it out.\n\n## Directions\n\n1. **Prepare:** Preheat the waffle iron according to its manual. Lightly grease the plates with the separate vegetable-oil allowance if recommended; the measured oil all goes into the batter. Separate the listed eggs, keeping yolks apart from whites. Use a clean, dry bowl and beaters without grease for the whites.\n2. **Dry mix:** Sift together the flour, baking powder, sugar, and salt into a large bowl.\n3. **Wet mix:** In another bowl, whisk the egg yolks, milk, measured vegetable oil, and vanilla until evenly blended.\n4. **Whip the whites:** Beat the whites from the listed eggs until stiff peaks stand upright when the beaters are lifted. Stop before the foam becomes dry and grainy.\n5. **Combine:** Add the yolk mixture to the dry ingredients. Stir gently with a whisk just until all flour is moistened, scraping the bowl bottom and sides. Small hydrated lumps may remain.\n6. **Fold:** Use a rubber spatula to fold in the whipped whites gently until evenly incorporated, without large pockets of unmixed white. Avoid beating or stirring away the foam, and begin cooking promptly.\n7. **Cook the batch:** Fill the hot iron with the amount specified in its manual, leaving expansion room. Cook according to the iron’s settings and readiness guidance; the cycle may be around 5–10 minutes, depending on the iron. Wait until steam has mostly subsided, the waffle releases readily and it is golden with no wet batter in the middle. Repeat with the remaining batter. Keep finished waffles separately on a rack while the next ones cook rather than stacking them.\n8. **Serve:** Serve immediately with warm maple syrup and [Perfect Cranberry Sauce](/mise/recipes/perfect-cranberry-sauce) if desired.\n\n## Cooking Notes\n\nThe original batch plans six portions, not six waffles of a fixed size. About 40 minutes is a starting allowance for preparation and cooking; a smaller iron or longer cycle can extend the batch. Use the iron’s actual fill amount and cycle count to plan service.\n",
+      "capacity": [
+        "Check the iron manual for fill amount, heat setting, greasing and readiness. Preheat before the whites are folded in so the finished foam does not wait on a cold iron.",
+        "Separate eggs carefully; keep the yolks, measured oil and wet-mixture utensils away from the clean white-whipping bowl and beaters."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Verified five-star native/frozen rating preserved; original Perfect Cranberry Sauce body link preserved."
+  ],
+  "remainingQuestions": [
+    "Record the actual iron model, manual fill amount and finished waffle count from this whole batch.",
+    "Measure whole-batch duration and center doneness; determine whether the 40-minute starting allowance covers the appliance.",
+    "At larger scale, compare foam stability by cooking separately mixed batches rather than holding a large folded batter for many cycles."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

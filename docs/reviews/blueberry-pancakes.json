@@ -1,0 +1,578 @@
+{
+  "slug": "blueberry-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "e904eb1d0b49ce7461533b0271a4f0486476585a5fb85b1976df943759e39e68",
+  "acceptedSourceSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30 min (longer for a small skillet)"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 large Eggs",
+        "1 cup Whole Milk",
+        "2 tsp Vanilla Extract",
+        "3 tbsp Unsalted Butter, melted and cooled",
+        "1 1/2 cups All-Purpose Flour",
+        "3/4 tsp Fine Sea Salt",
+        "2 tsp Baking Powder",
+        "2 tbsp Honey",
+        "3/4 cup Fresh Blueberries"
+      ],
+      "after": [
+        "2 large Eggs",
+        "1 cup Whole Milk",
+        "2 tsp Vanilla Extract",
+        "3 tbsp Unsalted Butter, melted and cooled",
+        "1 1/2 cups All-Purpose Flour",
+        "3/4 tsp Fine Sea Salt",
+        "2 tsp Baking Powder",
+        "2 tbsp Honey",
+        "3/4 cup Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 120,
+        "protein": 3.5,
+        "carbs": 16,
+        "fat": 4.5,
+        "fiber": 0.5,
+        "sugar": 4,
+        "sodium": 700
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["griddle", "mixing-bowl", "spatula", "oven-safe-platter"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Combine a foamy wet mixture with flour briefly, then distribute berries on the griddle.",
+        "outcome": "Tender pancakes with golden surfaces, evenly distributed berries and cooked central crumb.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+          "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Eggs, milk and vanilla are foamy before the butter and honey are evenly mixed in.",
+            "why": "Aerating the wet ingredients precedes flour; avoid prolonged beating once flour enters."
+          },
+          {
+            "step": 3,
+            "cue": "No dry flour remains on the bowl bottom or sides; small hydrated lumps may remain.",
+            "why": "Brief complete mixing preserves tenderness without leaving raw flour pockets."
+          },
+          {
+            "step": 6,
+            "cue": "The underside releases golden, and the center is cooked after the second side.",
+            "why": "Berry-filled pancakes need cooked batter around the fruit, not just colored surfaces."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Dry flour spots in the cooked pancake",
+            "cause": "Mixing stopped before the bowl bottom and sides were incorporated.",
+            "fix": "Scrape and gently fold remaining batter only until the dry spots disappear. Small hydrated lumps can remain."
+          },
+          {
+            "problem": "Outside darkens before the center cooks",
+            "cause": "Griddle is too hot or portions are too thick.",
+            "fix": "Lower the heat and finish until the center sets; keep the quarter-cup portion for the next round."
+          },
+          {
+            "problem": "Pancakes have uneven numbers of berries",
+            "cause": "Berries were dumped into one part of the batter.",
+            "fix": "Sprinkle the tablespoon of berries onto each wet pancake and distribute the listed total across the batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fresh blueberries",
+            "alternative": "Fresh blackberries at the same listed berry volume",
+            "effect": "Their larger size changes distribution; cut large berries as needed before dividing them among the pancakes."
+          },
+          {
+            "ingredient": "Melted butter in the batter",
+            "alternative": "Vegetable oil at the same listed tablespoon amount",
+            "effect": "Gives a different flavor while keeping the measured fat volume; use the separate pan allowance to grease."
+          },
+          {
+            "ingredient": "Vanilla",
+            "alternative": "Omit it if desired",
+            "effect": "Changes aroma without requiring a replacement liquid. Keep the honey in the wet mixture."
+          }
+        ],
+        "timing": "Allow about 30 minutes including the five-minute rest: 10 minutes preparation, 5 minutes resting and roughly 15 minutes cooking on a griddle that holds several pancakes. Heating overlaps preparation and rest. A small skillet or doubled batch needs additional rounds; the scoop, berry amount per pancake and temperature stay the same.",
+        "storage": "Refrigerate cooked pancakes within 2 hours (1 hour above 90°F), at 40°F or below, for 3–4 days. Freeze separated pancakes airtight for longer storage. Reheat to 165°F throughout before adding fresh toppings.",
+        "sources": [
+          {
+            "title": "PJ Hamel — Blueberry Pancakes, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/recipes/blueberry-pancakes-recipe"
+          },
+          {
+            "title": "Kye Ameden — Don’t make this pancake mistake, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nLetting the batter rest for 5 minutes after mixing allows flour to hydrate and gluten to relax, creating fluffier pancakes. Honey instead of granulated sugar produces deeper caramelization on the edges. Sprinkle blueberries onto each pancake after pouring it on the griddle rather than mixing them into batter - this prevents purple streaking from berry juice.\n\n## Directions\n\n1.  **Prep:** Heat a griddle to 350°F (or a large non-stick skillet over medium-low heat). Lightly grease with butter.\n2.  **Aeration:** In a large bowl, whisk eggs, milk, and vanilla until light and frothy (about 2-3 minutes). Whisk in the melted butter and honey.\n3.  **Combine:** Sift in the flour, salt, and baking powder. Stir with a spatula until **just combined**. A few lumps are mandatory - do not overmix!\n4.  **The Rest:** Let the batter sit for 5 minutes. It will thicken and become slightly bubbly.\n5.  **Pour:** Use a 1/4 cup scoop to drop batter onto the hot griddle. Immediately sprinkle 1 tbsp of blueberries onto the wet surface of each pancake.\n6.  **Flip:** Cook for 2 minutes until bubbles form and pop on the surface and the bottom is golden. Flip and cook for another 2 minutes.\n7.  **Serve:** Serve immediately with salted butter and warm maple syrup.\n",
+    "after": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Preserve optional brief warm hold",
+      "field": null,
+      "rationale": "Native and attributed King Arthur method allow a covered-platter hold in a 200°F oven while finishing the pancakes. Restore this optional cooking route with a softening cue and prompt service; this is not a guaranteed or indefinite safe hot-hold process.",
+      "confidence": "high",
+      "applicableSources": ["https://www.kingarthurbaking.com/recipes/blueberry-pancakes-recipe"],
+      "sourceApplicability": "Native and attributed King Arthur method allow a covered-platter hold in a 200°F oven while finishing the pancakes. Restore this optional cooking route with a softening cue and prompt service; this is not a guaranteed or indefinite safe hot-hold process.",
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Observe texture during the brief covered hold while the remaining griddle rounds finish."
+      ]
+    },
+    {
+      "id": "GR-2",
+      "title": "Complete mixing",
+      "field": null,
+      "rationale": "Small lumps may remain, but complete gentle mixing must remove dry flour pockets. This applies only once wheat flour has been added.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake",
+        "https://www.kingarthurbaking.com/recipes/blueberry-pancakes-recipe"
+      ],
+      "sourceApplicability": "Small lumps may remain, but complete gentle mixing must remove dry flour pockets. This applies only once wheat flour has been added.",
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-3",
+      "title": "Elapsed timing",
+      "field": null,
+      "rationale": "Ten minutes preparation plus five minutes resting plus the retained 15-minute griddle cooking budget is approximately thirty elapsed minutes; actual rounds depend on pan capacity.",
+      "confidence": "high",
+      "applicableSources": ["https://www.kingarthurbaking.com/recipes/blueberry-pancakes-recipe"],
+      "sourceApplicability": "Ten minutes preparation plus five minutes resting plus the retained 15-minute griddle cooking budget is approximately thirty elapsed minutes; actual rounds depend on pan capacity.",
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record the actual whole-batch duration and pancake count on the household griddle."
+      ]
+    },
+    {
+      "id": "GR-4",
+      "title": "Allocation disclosure",
+      "field": null,
+      "rationale": "Pan fat is an unmeasured existing method allowance; it must not divert the batter’s three tablespoons.",
+      "confidence": "high",
+      "applicableSources": ["https://www.kingarthurbaking.com/recipes/blueberry-pancakes-recipe"],
+      "sourceApplicability": "Pan fat is an unmeasured existing method allowance; it must not divert the batter’s three tablespoons.",
+      "exactBeforeAfterReferences": [
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/blueberry-pancakes.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native ingredients say 2 tbsp honey but copied native directions say sugar; current publisher says 2 tbsp granulated sugar. Accepted frozen honey-in-wet method is preserved with 2 tbsp honey; neither substitution nor averaging is made.",
+    "Native offers fresh blackberries, vegetable oil and optional vanilla; preserved in learning without changing the base ingredients. Current publisher offers frozen blueberries; not required for the fresh-berry base.",
+    "Native and frozen rating are 5. Parent’s initial remembered four-star assignment was corrected before editing; website aggregate rating is not the household rating.",
+    "The older Blueberry clause-only raw-byte reconstruction is UNKNOWN. Only the complete current-to-final pair in exactChanges and the stated current/final hashes is verified."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Whole Milk",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Vanilla Extract",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "3 tbsp Unsalted Butter, melted and cooled",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2; whole measured amount, cooled",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 1/2 cups All-Purpose Flour",
+        "originalDestination": "dry step 3",
+        "proposedDestination": "dry step 3",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "3/4 tsp Fine Sea Salt",
+        "originalDestination": "dry step 3",
+        "proposedDestination": "dry step 3",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Baking Powder",
+        "originalDestination": "dry step 3",
+        "proposedDestination": "dry step 3",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tbsp Honey",
+        "originalDestination": "wet step 2 (accepted honey repair)",
+        "proposedDestination": "wet step 2; honey retained",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "3/4 cup Fresh Blueberries",
+        "originalDestination": "1 tbsp onto each wet pancake step 5",
+        "proposedDestination": "sprinkle step 5; original 12 tbsp total; per-pancake allocation scales by count",
+        "allocationFinding": "Full listed amount preserved; 3/4 cup = 12 tbsp; tablespoon-per-quarter-cup-pancake allocation preserved."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Butter for greasing the griddle",
+        "destination": "grease step 1 and refresh step 6",
+        "provenance": "frozen prep step 1; separate from measured batter butter",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      },
+      {
+        "ingredient": "Salted butter and maple syrup for serving (optional)",
+        "destination": "serve step 7",
+        "provenance": "frozen serving step 7",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare: Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter."
+    },
+    {
+      "step": 2,
+      "text": "Whisk the wet ingredients: In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Add the dry ingredients: Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth."
+    },
+    {
+      "step": 4,
+      "text": "Rest: Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again."
+    },
+    {
+      "step": 5,
+      "text": "Portion and add berries: Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions."
+    },
+    {
+      "step": 6,
+      "text": "Cook and turn: Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed."
+    },
+    {
+      "step": 7,
+      "text": "Serve: Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Fresh blueberries",
+      "alternative": "Fresh blackberries at the same listed berry volume",
+      "effect": "Their larger size changes distribution; cut large berries as needed before dividing them among the pancakes."
+    },
+    {
+      "ingredient": "Melted butter in the batter",
+      "alternative": "Vegetable oil at the same listed tablespoon amount",
+      "effect": "Gives a different flavor while keeping the measured fat volume; use the separate pan allowance to grease."
+    },
+    {
+      "ingredient": "Vanilla",
+      "alternative": "Omit it if desired",
+      "effect": "Changes aroma without requiring a replacement liquid. Keep the honey in the wet mixture."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": ["anadama-bread", "cinnamon-sweet-potatoes", "honey-glazed-carrots"],
+    "preservedBodyRecipeLinks": [],
+    "incomingRecipes": ["banana-nut-bread.md", "crispy-smashed-potatoes.md"],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "Original flour 1 1/2 cups, milk 1 cup, eggs 2, fat 3 tbsp, powder 2 tsp and honey 2 tbsp remain. Berry total is 3/4 cup = 12 tbsp for twelve original quarter-cup pancakes; these are piece counts, not twelve breakfast portions. No sugar is imported from the current publisher. Heating and five-minute rest are separate dependencies; 15-minute whole cooking assumes a broad griddle holding several at once. The twelve-piece yield is publisher/native planning, not a measured Mise test.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 large Egg",
+        "1/4 cup Whole Milk",
+        "1/2 tsp Vanilla Extract",
+        "3/4 tbsp Unsalted Butter, melted and cooled",
+        "3/8 cup All-Purpose Flour",
+        "0.19 tsp Fine Sea Salt",
+        "1/2 tsp Baking Powder",
+        "1/2 tbsp Honey",
+        "0.19 cup Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "3 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 large Egg",
+        "1/2 cup Whole Milk",
+        "1 tsp Vanilla Extract",
+        "1 1/2 tbsp Unsalted Butter, melted and cooled",
+        "3/4 cup All-Purpose Flour",
+        "3/8 tsp Fine Sea Salt",
+        "1 tsp Baking Powder",
+        "1 tbsp Honey",
+        "3/8 cup Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "6 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 large Eggs",
+        "1 cup Whole Milk",
+        "2 tsp Vanilla Extract",
+        "3 tbsp Unsalted Butter, melted and cooled",
+        "1 1/2 cups All-Purpose Flour",
+        "3/4 tsp Fine Sea Salt",
+        "2 tsp Baking Powder",
+        "2 tbsp Honey",
+        "3/4 cup Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "12 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 large Eggs",
+        "1 1/2 cups Whole Milk",
+        "3 tsp Vanilla Extract",
+        "4 1/2 tbsp Unsalted Butter, melted and cooled",
+        "2 1/4 cups All-Purpose Flour",
+        "1 1/8 tsp Fine Sea Salt",
+        "3 tsp Baking Powder",
+        "3 tbsp Honey",
+        "1 1/8 cups Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "18 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 large Eggs",
+        "2 cups Whole Milk",
+        "4 tsp Vanilla Extract",
+        "6 tbsp Unsalted Butter, melted and cooled",
+        "3 cups All-Purpose Flour",
+        "1 1/2 tsp Fine Sea Salt",
+        "4 tsp Baking Powder",
+        "4 tbsp Honey",
+        "1 1/2 cups Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "24 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 large Eggs",
+        "3 cups Whole Milk",
+        "6 tsp Vanilla Extract",
+        "9 tbsp Unsalted Butter, melted and cooled",
+        "4 1/2 cups All-Purpose Flour",
+        "2 1/4 tsp Fine Sea Salt",
+        "6 tsp Baking Powder",
+        "6 tbsp Honey",
+        "2 1/4 cups Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "36 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 large Eggs",
+        "1 cup Whole Milk",
+        "2 tsp Vanilla Extract",
+        "3 tbsp Unsalted Butter, melted and cooled",
+        "1 1/2 cups All-Purpose Flour",
+        "3/4 tsp Fine Sea Salt",
+        "2 tsp Baking Powder",
+        "2 tbsp Honey",
+        "3/4 cup Fresh Blueberries",
+        "Butter for greasing the griddle",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "12 pancakes",
+      "methods": "\n## Chef's Note\n\nWhisk the eggs and milk until foamy, then stir the flour in briefly and let the batter rest for five minutes. Sprinkle berries onto each wet pancake so they stay evenly distributed. The goal is tender golden pancakes with cooked centers and berries in every bite.\n\n## Directions\n\n1. **Prepare:** Heat a griddle to 350°F, or a large nonstick skillet over medium-low heat. Lightly grease with the separate butter allowance; the measured melted butter all goes into the batter.\n2. **Whisk the wet ingredients:** In a large bowl, whisk the eggs, milk, and vanilla until light and foamy, about 2–3 minutes. Whisk in the cooled melted butter and honey until evenly combined.\n3. **Add the dry ingredients:** Whisk the flour, salt, and baking powder together in another bowl, then add them to the wet mixture. Stir with a spatula just until no dry flour pockets remain. Small lumps are fine; scrape the bottom and sides, then stop rather than beating the batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle finishes heating. Do not vigorously stir it again.\n5. **Portion and add berries:** Drop batter by 1/4 cupfuls, leaving room to turn each pancake. Immediately sprinkle 1 tbsp blueberries onto each wet surface. Distribute the listed berries across the batch; the original 3/4 cup supplies twelve tablespoon portions.\n6. **Cook and turn:** Cook until the underside is golden and the edges begin to set, with bubbles forming and popping, about 2 minutes. Flip gently and cook about 2–2 1/2 minutes more, until the center has no wet batter. Lower the heat if the exterior darkens before the center cooks. Repeat with the remaining batter, lightly renewing the griddle butter as needed.\n7. **Serve:** Serve immediately, with salted butter and warm maple syrup if desired. If finishing another griddle round, hold the cooked pancakes briefly on a covered oven-safe platter in a 200°F oven. Covered pancakes may soften; serve promptly once the batch is ready.\n",
+      "capacity": [
+        "Cool the melted batter butter so it does not cook the eggs. Measure the griddle butter separately.",
+        "Wash fresh blueberries and let them drain. Have a quarter-cup scoop and tablespoon ready; these measures describe each pancake and do not multiply when the batch is scaled."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "Prior targeted honey-in-wet and berry-allocation repair retained; 2 tbsp honey, 3/4 cup berries and 1 tbsp per original quarter-cup pancake unchanged.",
+    "Verified five-star rating retained; no title/source changes."
+  ],
+  "remainingQuestions": [
+    "Confirm actual pancake count and full cooking duration with the household griddle.",
+    "Compare final center/berry distribution at the fixed quarter-cup scoop without changing the honey formula.",
+    "Observe softening during the optional brief covered-platter hold; record how long the remaining rounds take."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

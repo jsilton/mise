@@ -1,0 +1,529 @@
+{
+  "slug": "buttermilk-waffles",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "eda1ed24ae20ed3dbb3083c8f0bf52696900b0791c2515f01b3fe3a922399d62",
+  "acceptedSourceSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups All-Purpose Flour",
+        "2 tbsp Sugar",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Sea Salt",
+        "2 cups Whole Buttermilk",
+        "1/3 cup Unsalted Butter, melted",
+        "2 large Eggs",
+        "1 tsp Vanilla Extract"
+      ],
+      "after": [
+        "2 cups All-Purpose Flour",
+        "2 tbsp Sugar",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Sea Salt",
+        "2 cups Whole Buttermilk",
+        "1/3 cup Unsalted Butter, melted",
+        "2 large Eggs",
+        "1 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 995,
+        "protein": 7,
+        "carbs": 36.5,
+        "fat": 94,
+        "fiber": 1,
+        "sugar": 4.5,
+        "sodium": 1440
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["waffle-iron", "mixing-bowl", "cooling-rack", "sheet-pan"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Rest a buttermilk waffle batter, then manage iron capacity and escaping steam.",
+        "outcome": "Golden waffles with cooked, tender centers and edges that stay crisp until serving.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+          "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "All flour is moistened; small hydrated lumps may remain.",
+            "why": "Brief complete mixing avoids both dry pockets and excessive working of the flour."
+          },
+          {
+            "step": 4,
+            "cue": "Ten minutes pass while the empty iron fully preheats.",
+            "why": "The rest hydrates the flour while the iron comes to cooking temperature."
+          },
+          {
+            "step": 6,
+            "cue": "Steam decreases, the waffle releases readily, and the center has no wet batter.",
+            "why": "Plate browning and a readiness light alone may precede a cooked center."
+          },
+          {
+            "step": 7,
+            "cue": "Waffles sit separately on a rack instead of in a steaming stack.",
+            "why": "Airflow limits trapped moisture and softening of the crust."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Waffle sticks or splits on opening",
+            "cause": "The iron was not fully hot, opened early or needed greasing.",
+            "fix": "Follow its plate instructions and allow the waffle to release before lifting. Check the center rather than repeatedly opening early."
+          },
+          {
+            "problem": "Edges turn soft while the batch finishes",
+            "cause": "Waffles were stacked or held against a solid surface.",
+            "fix": "Move them to a rack in a single layer; the 225°F oven is a short batch hold."
+          },
+          {
+            "problem": "Overflowing iron",
+            "cause": "Fill amount exceeds the iron’s capacity.",
+            "fix": "Use the manual’s amount on the next cycle and leave expansion room. Do not change the whole batter formula to fit one iron."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Plate-greasing butter",
+            "alternative": "Neutral oil if compatible with the iron’s manual",
+            "effect": "Changes only the separate greasing allowance; keep the measured melted butter in the batter."
+          }
+        ],
+        "timing": "Allow 45–60 minutes for the original batch: about 10 minutes mixing, the full 10-minute rest with preheating, then roughly 25–40 minutes for a single iron’s cycles. A smaller iron may take longer. More portions require additional cycles; iron fill, temperature and the ten-minute rest do not multiply.",
+        "storage": "Refrigerate cooked waffles within 2 hours (1 hour above 90°F), at 40°F or below, for 3–4 days. Freeze separated waffles airtight for 2–3 months for quality. Reheat to 165°F throughout; finish on a rack or in a toaster to refresh the edges.",
+        "sources": [
+          {
+            "title": "Kristyn Merkley — Buttermilk Waffles, Lil’ Luna",
+            "url": "https://lilluna.com/buttermilk-waffles/"
+          },
+          {
+            "title": "Kye Ameden — Don’t make this pancake mistake, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nButtermilk's acidity reacts with baking soda for extra lift and tang. Rest the batter for 10 minutes before cooking so flour fully absorbs the liquid - this produces waffles that are crispy outside and airy inside. The batter should become slightly bubbly during the rest.\n\n## Directions\n\n1.  **Dry Mix:** In a large bowl, whisk together flour, sugar, baking powder, baking soda, and salt.\n2.  **Wet Mix:** In a separate bowl, whisk the buttermilk and melted butter. Whisk in the eggs until just combined.\n3.  **Combine:** Pour the wet ingredients into the dry. Whisk until **just combined** - a few small lumps are essential for a light texture. Fold in the vanilla.\n4.  **The Rest:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. It should become slightly bubbly.\n5.  **Cook:** Lightly grease the hot plates if recommended for your iron. Use the manufacturer's batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for the batter to expand rather than filling to the edge.\n6.  **Finish:** Cook until the steam has mostly subsided and the waffle releases readily and is golden, following the iron's readiness guidance. Check that the middle is cooked through rather than wet with batter. Repeat with the remaining batter; do not treat the first waffle's cooking time as the time for the whole batch.\n7.  **Serve:** Serve immediately with salted butter, maple syrup, and fresh berries.\n\n## Cooking Notes\n\nThe quantities and ten-minute rest match the saved Lil' Luna recipe by Kristyn Merkley. Six means portions, not six waffles of a fixed size. Allow roughly 25-40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer. Keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven while finishing, rather than stacking and trapping steam.\n",
+    "after": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Public review disclosure",
+      "field": null,
+      "rationale": "Archive matching is private review context. Exact source/sourceUrl remain; usable ten-minute rest, portion context and capacity instructions remain in public cooking prose.",
+      "confidence": "high",
+      "applicableSources": ["https://lilluna.com/buttermilk-waffles/"],
+      "sourceApplicability": "Archive matching is private review context. Exact source/sourceUrl remain; usable ten-minute rest, portion context and capacity instructions remain in public cooking prose.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-2",
+      "title": "Mixing endpoint",
+      "field": null,
+      "rationale": "Lumps are acceptable, not mandatory; complete gentle mixing should remove dry flour pockets.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake",
+        "https://lilluna.com/buttermilk-waffles/"
+      ],
+      "sourceApplicability": "Lumps are acceptable, not mandatory; complete gentle mixing should remove dry flour pockets.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-3",
+      "title": "Fat allocation",
+      "field": null,
+      "rationale": "Separate the existing plate allowance from the whole measured 1/3 cup batter butter.",
+      "confidence": "high",
+      "applicableSources": ["https://lilluna.com/buttermilk-waffles/"],
+      "sourceApplicability": "Separate the existing plate allowance from the whole measured 1/3 cup batter butter.",
+      "exactBeforeAfterReferences": [
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/buttermilk-waffles.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Kristyn Merkley’s publisher header says 10 prep/10 cook/20 total while also requiring a 10-minute rest and iron cycles. Prior accepted whole-batch repair 858ff2c5 budgets 45–60 minutes and remains.",
+    "Current publisher specifies warm buttermilk; native/frozen whole buttermilk has no such required temperature. Proposal specifies lukewarm melted butter before eggs without adding prolonged ingredient warming or overnight room-temperature holding."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "2 cups All-Purpose Flour",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tbsp Sugar",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Baking Powder",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Baking Soda",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Sea Salt",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 cups Whole Buttermilk",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/3 cup Unsalted Butter, melted",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2; full 1/3 cup in batter, lukewarm",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Vanilla Extract",
+        "originalDestination": "fold step 3",
+        "proposedDestination": "fold step 3",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "destination": "plates step 5",
+        "provenance": "frozen step 5; measured batter butter remains separate",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      },
+      {
+        "ingredient": "Salted butter, maple syrup, and fresh berries for serving (optional)",
+        "destination": "serve step 7",
+        "provenance": "frozen step 7",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Dry mix: In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt."
+    },
+    {
+      "step": 2,
+      "text": "Wet mix: Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Combine: Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla."
+    },
+    {
+      "step": 4,
+      "text": "Rest and preheat: Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again."
+    },
+    {
+      "step": 5,
+      "text": "Fill the iron: Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge."
+    },
+    {
+      "step": 6,
+      "text": "Cook the batch: Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch."
+    },
+    {
+      "step": 7,
+      "text": "Serve or hold briefly: Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Plate-greasing butter",
+      "alternative": "Neutral oil if compatible with the iron’s manual",
+      "effect": "Changes only the separate greasing allowance; keep the measured melted butter in the batter."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": ["anadama-bread", "cinnamon-sweet-potatoes", "honey-glazed-carrots"],
+    "preservedBodyRecipeLinks": [],
+    "incomingRecipes": [],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "Unchanged two cups flour/two cups whole buttermilk/two eggs/1/3 cup butter, with 2 tsp powder and 1 tsp soda. No acid normalization or fat reduction. Six is a planning portion count; actual waffle count depends on manual fill and plate size. The accepted 10-minute rest, 25–40 minute single-iron cooking and 45–60 minute total are retained. Small iron 1/3–1/2 cup examples remain explicitly examples, not universal capacity.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup All-Purpose Flour",
+        "1/2 tbsp Sugar",
+        "1/2 tsp Baking Powder",
+        "1/4 tsp Baking Soda",
+        "1/8 tsp Sea Salt",
+        "1/2 cup Whole Buttermilk",
+        "0.0833 cup Unsalted Butter, melted",
+        "1/2 large Egg",
+        "1/4 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "1 1/2 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup All-Purpose Flour",
+        "1 tbsp Sugar",
+        "1 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1/4 tsp Sea Salt",
+        "1 cup Whole Buttermilk",
+        "1/6 cup Unsalted Butter, melted",
+        "1 large Egg",
+        "1/2 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "3 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 cups All-Purpose Flour",
+        "2 tbsp Sugar",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Sea Salt",
+        "2 cups Whole Buttermilk",
+        "1/3 cup Unsalted Butter, melted",
+        "2 large Eggs",
+        "1 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "6 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 cups All-Purpose Flour",
+        "3 tbsp Sugar",
+        "3 tsp Baking Powder",
+        "1 1/2 tsp Baking Soda",
+        "3/4 tsp Sea Salt",
+        "3 cups Whole Buttermilk",
+        "1/2 cup Unsalted Butter, melted",
+        "3 large Eggs",
+        "1 1/2 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "9 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 cups All-Purpose Flour",
+        "4 tbsp Sugar",
+        "4 tsp Baking Powder",
+        "2 tsp Baking Soda",
+        "1 tsp Sea Salt",
+        "4 cups Whole Buttermilk",
+        "2/3 cup Unsalted Butter, melted",
+        "4 large Eggs",
+        "2 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "12 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 cups All-Purpose Flour",
+        "6 tbsp Sugar",
+        "6 tsp Baking Powder",
+        "3 tsp Baking Soda",
+        "1 1/2 tsp Sea Salt",
+        "6 cups Whole Buttermilk",
+        "1 cup Unsalted Butter, melted",
+        "6 large Eggs",
+        "3 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "18 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 cups All-Purpose Flour",
+        "2 tbsp Sugar",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Sea Salt",
+        "2 cups Whole Buttermilk",
+        "1/3 cup Unsalted Butter, melted",
+        "2 large Eggs",
+        "1 tsp Vanilla Extract",
+        "Butter or neutral oil for lightly greasing the waffle iron, if its manual recommends it",
+        "Salted butter, maple syrup, and fresh berries for serving (optional)"
+      ],
+      "yield": "6 portions (waffle count depends on iron)",
+      "methods": "\n## Chef's Note\n\nKristyn Merkley’s buttermilk waffles get their tang from buttermilk, while the baking soda and powder provide lift. Mix the flour in briefly, rest the batter for ten minutes, and let each waffle cook until its middle is set. Keep finished waffles on a rack so steam can escape and the edges stay crisp.\n\n## Directions\n\n1. **Dry mix:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.\n2. **Wet mix:** Let the melted batter butter cool until lukewarm. In a separate bowl, whisk it with the buttermilk, then whisk in the eggs until evenly combined.\n3. **Combine:** Add the wet ingredients to the dry. Whisk gently just until no dry flour pockets remain, scraping the bowl bottom and sides. Small hydrated lumps can remain. Fold in the vanilla.\n4. **Rest and preheat:** Let the batter rest for 10 minutes while the waffle iron preheats according to its instructions. Avoid beating the rested batter again.\n5. **Fill the iron:** Lightly grease the hot plates with the separate butter or oil allowance if recommended for your iron. Use the manufacturer’s batter amount; 1/3 to 1/2 cup suits some small irons, but a large Belgian iron may need more. Leave room for expansion rather than filling to the edge.\n6. **Cook the batch:** Follow the iron’s readiness guidance and cook until steam has mostly subsided, the waffle releases readily and the exterior is golden. Check that the middle is cooked through with no wet batter. Repeat with the remaining batter; the first waffle’s cycle is not the cooking time for the whole batch.\n7. **Serve or hold briefly:** Serve with salted butter, maple syrup, and fresh berries if desired. While finishing the batch, keep cooked waffles in a single layer on a rack over a sheet pan in a 225°F oven, rather than stacking them and trapping steam.\n\n## Cooking Notes\n\nFor the original batch, six means portions, not six waffles of a fixed size. Allow roughly 25–40 minutes to cook the batch on a single iron; its capacity and cycle time control the schedule. A smaller iron may take longer.\n",
+      "capacity": [
+        "Melt the batter butter and let it become lukewarm before whisking in eggs. Keep the plate-greasing allowance separate.",
+        "Check the iron’s fill amount, readiness guidance and greasing instructions. Set out a rack and sheet pan if holding finished waffles in the oven."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "858ff2c5 accepted classification, six-portion explanation, manufacturer fill, 25–40/45–60 schedule, ten-minute rest, center check and rack/225°F holding all retained."
+  ],
+  "remainingQuestions": [
+    "Record the iron model, actual fill amount, cycle duration and finished waffle count.",
+    "Check whether 45–60 minutes covers the household single-iron batch and whether a larger batch needs multiple batter portions mixed separately."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

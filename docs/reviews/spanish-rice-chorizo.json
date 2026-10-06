@@ -1,0 +1,1318 @@
+{
+  "slug": "spanish-rice-chorizo",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "b89cfc607a9f52a54751490104213ddb2ea6fb800e6f20bb9d9a7aaf2adfef94",
+  "acceptedSourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1.5 cups Arborio rice",
+        "1/2 lb Spanish Chorizo (cured), sliced into rounds",
+        "15 oz can Chickpeas, drained",
+        "1 Red Bell Pepper, diced",
+        "1 Yellow Onion, diced",
+        "4 cloves Garlic, sliced",
+        "1 tbsp Tomato Paste",
+        "1 tsp Smoked Paprika (Pimentón)",
+        "Pinch of Saffron threads (optional)",
+        "3 cups Chicken Broth",
+        "1/4 cup Dry Sherry or White Wine",
+        "1/2 cup Raisins (for sweetness balance)"
+      ],
+      "after": [
+        "--- Current covered Arborio route ---",
+        "1 1/2 cups Arborio rice",
+        "1/2 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "1 can (15 oz) chickpeas, drained",
+        "1 red bell pepper, seeded and diced",
+        "1 yellow onion, diced",
+        "4 garlic cloves, sliced",
+        "1 tbsp tomato paste",
+        "1 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "3 cups chicken broth",
+        "1/4 cup dry sherry or white wine",
+        "1/2 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 1045,
+        "protein": 56.5,
+        "carbs": 174.5,
+        "fat": 16.5,
+        "fiber": 46,
+        "sugar": 33,
+        "sodium": 1460
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Current covered Arborio route",
+            "ingredients": [
+              {
+                "id": "rice",
+                "key": "rice",
+                "name": "Arborio rice",
+                "quantity": {
+                  "amount": 1.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "rice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chorizo",
+                "key": "chorizo",
+                "name": "Spanish-style chorizo",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "lb"
+                },
+                "preparation": "cured, sliced into rounds; check product label",
+                "uses": [
+                  {
+                    "step": "chorizo",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "chickpeas",
+                "key": "chickpeas",
+                "name": "chickpeas",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "can"
+                },
+                "preparation": "drained",
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ],
+                "packageSize": {
+                  "amount": 15,
+                  "unit": "oz"
+                }
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "red bell pepper",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "seeded and diced",
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "red bell peppers"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "yellow onion",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "diced",
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "yellow onions"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "count"
+                },
+                "preparation": "sliced",
+                "uses": [
+                  {
+                    "step": "vegetables",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves"
+              },
+              {
+                "id": "paste",
+                "key": "paste",
+                "name": "tomato paste",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "paste",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "paprika",
+                "key": "paprika",
+                "name": "smoked paprika (pimentón)",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "paste",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "saffron",
+                "key": "saffron",
+                "name": "saffron threads",
+                "allowance": "a pinch",
+                "uses": [
+                  {
+                    "step": "paste",
+                    "share": 1
+                  }
+                ],
+                "optional": true
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "chicken broth",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "dry sherry or white wine",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "wine",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "raisins",
+                "key": "raisins",
+                "name": "raisins",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "liquid",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "hot water",
+                "allowance": "a little only if rice is firm and pan is dry",
+                "uses": [
+                  {
+                    "step": "bake",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "chorizo",
+            "title": "Render chorizo",
+            "text": "Use {{ingredients}} for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route."
+          },
+          {
+            "id": "vegetables",
+            "title": "Soften vegetables",
+            "text": "Add {{ingredients}} to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below."
+          },
+          {
+            "id": "paste",
+            "title": "Add paste and spices",
+            "text": "Stir in {{ingredients}} and cook about 1 minute until fragrant without scorching."
+          },
+          {
+            "id": "rice",
+            "title": "Coat rice",
+            "text": "Add {{ingredients}} and stir about 2 minutes to coat the grains in the spiced fat."
+          },
+          {
+            "id": "wine",
+            "title": "Add wine",
+            "text": "Add {{ingredients}}, scrape the bottom and let bubble about 1 minute."
+          },
+          {
+            "id": "liquid",
+            "title": "Bring to a boil",
+            "text": "Add {{ingredients}} and all the reserved chorizo. Bring to a boil before moving to the oven."
+          },
+          {
+            "id": "bake",
+            "title": "Bake covered",
+            "text": "Use {{ingredients}} for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here."
+          },
+          {
+            "id": "rest",
+            "title": "Rest and serve",
+            "text": "Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep the two complete chorizo-rice routes separate",
+        "outcome": "Rice finishes tender after its covered bake and rest, without a dry hard center.",
+        "techniques": ["temperature"],
+        "before": [
+          "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+          "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+          "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+        ],
+        "checkpoints": [
+          {
+            "step": 7,
+            "cue": "Rice center is tender and most liquid is absorbed; if dry and firm, use the genuine hot-water allowance and continue covered.",
+            "why": "The first 20–25 minute check is not proof every rice brand and vessel finishes then."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Rice is firm when the current covered pan looks dry",
+            "cause": "The rice/pan/heat combination used liquid before the center finished.",
+            "fix": "Use the listed hot-water allowance and continue covered until the rice center is tender. Do not switch halfway to the richer branch’s uncovered method or stock dose."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Current covered route",
+            "alternative": "The complete source-rich uncovered route below",
+            "effect": "Choose one complete formula and method, including its stock, chorizo, oil, vegetables, seasonings and rice. The two versions make different-sized portions."
+          }
+        ],
+        "timing": "Current route: about 80 minutes planning including 20 minutes preparation, 50 minutes cooking and 10 minutes covered rest. Source-rich route: source estimates 90 minutes; more chorizo browning batches and pan heat-up can extend this. Neither route has tested scaled pan loads.",
+        "storage": "Refrigerate promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C throughout. Proper rice cooling matters; reheating does not replace prompt refrigeration.",
+        "sources": [
+          {
+            "title": "Benjamin Kemper — Baked Spanish Rice, Saveur",
+            "url": "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/"
+          },
+          {
+            "title": "FoodSafety.gov — Cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1.  **Render:** Preheat the oven to 400°F. In a large oven-safe skillet or Dutch oven with a tight-fitting lid, cook the chorizo rounds over medium heat until they are crispy and have released their red oil. Remove chorizo to a plate.\n2.  **Sauté:** Add the onion, bell pepper, and garlic to the chorizo fat. Cook for about 8–10 minutes until softened, stirring and lowering the heat if the garlic browns too quickly.\n3.  **The Bloom:** Stir in the tomato paste, smoked paprika, and saffron. Fry for 1 minute until fragrant.\n4.  **Toast:** Add the dry rice to the pan. Stir for 2 minutes to coat every grain in the spiced oil.\n5.  **Deglaze:** Pour in the sherry, scraping the bottom of the pan. Let it bubble for 1 minute.\n6.  **Simmer:** Add the broth, chickpeas, raisins, and the reserved chorizo. Bring to a boil.\n7.  **Bake:** Cover tightly and transfer to a 400°F oven. Bake for about 20–25 minutes, then check for absorbed liquid and a tender rice center. If the rice is firm and the pan is dry, add a little hot water, cover, and continue baking; if still wet and firm, keep cooking before adding liquid.\n8.  **Rest:** Remove from oven and let sit, covered, for 10 minutes. Fluff gently before serving. Allow about 80 minutes overall: 20 minutes preparation, roughly 50 minutes for rendering, sautéing, heating liquid and baking, plus the 10-minute rest. Extra browning batches or firm rice extend this estimate.\n",
+    "after": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n"
+  },
+  "findings": [
+    {
+      "id": "RI-1",
+      "title": null,
+      "field": "exactChanges.servings",
+      "rationale": "Preserve full published current covered Arborio route and858center/hotwater/rest/clock repairs; retain complete exclusive original rich formula rather than treatingc105bulk reduction as accepted intent. No version preference accepted by root authorization to prepare both. Remove unsupported nutrition without replacement.",
+      "confidence": "High exact written lineage/formula; moderate editorial state/batch planning; no physical test",
+      "applicableSources": [
+        "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Exact bound native/045 and liveSaveur support full source-rich branch, uncovered method and source-specific Bomba/Calasparra option. They do not certify the current covered formula ratio or matched4portion size. USDA/FoodSafety.gov sausage state/leftover handling does not validate either pan capacity, richness choice or timing. Current source is saved adaptation, not silently normalized.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-2",
+      "title": null,
+      "field": "exactChanges.ingredients",
+      "rationale": "Preserve full published current covered Arborio route and858center/hotwater/rest/clock repairs; retain complete exclusive original rich formula rather than treatingc105bulk reduction as accepted intent. No version preference accepted by root authorization to prepare both. Remove unsupported nutrition without replacement.",
+      "confidence": "High exact written lineage/formula; moderate editorial state/batch planning; no physical test",
+      "applicableSources": [
+        "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Exact bound native/045 and liveSaveur support full source-rich branch, uncovered method and source-specific Bomba/Calasparra option. They do not certify the current covered formula ratio or matched4portion size. USDA/FoodSafety.gov sausage state/leftover handling does not validate either pan capacity, richness choice or timing. Current source is saved adaptation, not silently normalized.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-3",
+      "title": null,
+      "field": "exactChanges.nutrition",
+      "rationale": "Preserve full published current covered Arborio route and858center/hotwater/rest/clock repairs; retain complete exclusive original rich formula rather than treatingc105bulk reduction as accepted intent. No version preference accepted by root authorization to prepare both. Remove unsupported nutrition without replacement.",
+      "confidence": "High exact written lineage/formula; moderate editorial state/batch planning; no physical test",
+      "applicableSources": [
+        "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Exact bound native/045 and liveSaveur support full source-rich branch, uncovered method and source-specific Bomba/Calasparra option. They do not certify the current covered formula ratio or matched4portion size. USDA/FoodSafety.gov sausage state/leftover handling does not validate either pan capacity, richness choice or timing. Current source is saved adaptation, not silently normalized.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-4",
+      "title": null,
+      "field": "exactChanges.formula",
+      "rationale": "Preserve full published current covered Arborio route and858center/hotwater/rest/clock repairs; retain complete exclusive original rich formula rather than treatingc105bulk reduction as accepted intent. No version preference accepted by root authorization to prepare both. Remove unsupported nutrition without replacement.",
+      "confidence": "High exact written lineage/formula; moderate editorial state/batch planning; no physical test",
+      "applicableSources": [
+        "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Exact bound native/045 and liveSaveur support full source-rich branch, uncovered method and source-specific Bomba/Calasparra option. They do not certify the current covered formula ratio or matched4portion size. USDA/FoodSafety.gov sausage state/leftover handling does not validate either pan capacity, richness choice or timing. Current source is saved adaptation, not silently normalized.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-5",
+      "title": null,
+      "field": "exactChanges.learning",
+      "rationale": "Preserve full published current covered Arborio route and858center/hotwater/rest/clock repairs; retain complete exclusive original rich formula rather than treatingc105bulk reduction as accepted intent. No version preference accepted by root authorization to prepare both. Remove unsupported nutrition without replacement.",
+      "confidence": "High exact written lineage/formula; moderate editorial state/batch planning; no physical test",
+      "applicableSources": [
+        "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Exact bound native/045 and liveSaveur support full source-rich branch, uncovered method and source-specific Bomba/Calasparra option. They do not certify the current covered formula ratio or matched4portion size. USDA/FoodSafety.gov sausage state/leftover handling does not validate either pan capacity, richness choice or timing. Current source is saved adaptation, not silently normalized.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-6",
+      "title": null,
+      "field": "exactChanges.content",
+      "rationale": "Preserve full published current covered Arborio route and858center/hotwater/rest/clock repairs; retain complete exclusive original rich formula rather than treatingc105bulk reduction as accepted intent. No version preference accepted by root authorization to prepare both. Remove unsupported nutrition without replacement.",
+      "confidence": "High exact written lineage/formula; moderate editorial state/batch planning; no physical test",
+      "applicableSources": [
+        "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "sourceApplicability": "Exact bound native/045 and liveSaveur support full source-rich branch, uncovered method and source-specific Bomba/Calasparra option. They do not certify the current covered formula ratio or matched4portion size. USDA/FoodSafety.gov sausage state/leftover handling does not validate either pan capacity, richness choice or timing. Current source is saved adaptation, not silently normalized.",
+      "exactBeforeAfterReferences": [
+        "servings",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Baked%20Spanish%20Rice%20with%20Chorizo,%20Chickpeas,%20and%20Raisins.html",
+    "introductionScope": "Actual earlier retained HTML cooking introduction; blob hash includes complete original HTML; no native identity or photo content copied",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Full source/current comparisons and fetch limitations retained in frozen author and independent records; no new source choice accepted by this draft.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native and045/liveSaveur rich/uncovered formula versusc105bulk currentlighter/covered. No later deliberate dose acceptance found;858targetedrepair retained as current route. Root authorized dual-route preparation only, not source selection. Rich source redpepperpaste/cinnamon/oil/chives/sourcewine/liquid/garlic/onion are all explicitly retained in full alternate."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "text": "1.5 cups Arborio rice",
+        "destination": "step4rice"
+      },
+      {
+        "row": 2,
+        "text": "1/2 lb Spanish Chorizo (cured), sliced into rounds",
+        "destination": "steps1/6chorizo"
+      },
+      {
+        "row": 3,
+        "text": "15 oz can Chickpeas, drained",
+        "destination": "step6drainedchickpeas"
+      },
+      {
+        "row": 4,
+        "text": "1 Red Bell Pepper, diced",
+        "destination": "step2pepper"
+      },
+      {
+        "row": 5,
+        "text": "1 Yellow Onion, diced",
+        "destination": "step2onion"
+      },
+      {
+        "row": 6,
+        "text": "4 cloves Garlic, sliced",
+        "destination": "step2garlic"
+      },
+      {
+        "row": 7,
+        "text": "1 tbsp Tomato Paste",
+        "destination": "step3tomatopaste"
+      },
+      {
+        "row": 8,
+        "text": "1 tsp Smoked Paprika (Pimentón)",
+        "destination": "step3paprika"
+      },
+      {
+        "row": 9,
+        "text": "Pinch of Saffron threads (optional)",
+        "destination": "step3optionalsaffron"
+      },
+      {
+        "row": 10,
+        "text": "3 cups Chicken Broth",
+        "destination": "step6broth"
+      },
+      {
+        "row": 11,
+        "text": "1/4 cup Dry Sherry or White Wine",
+        "destination": "step5wine"
+      },
+      {
+        "row": 12,
+        "text": "1/2 cup Raisins (for sweetness balance)",
+        "destination": "step6raisins"
+      }
+    ],
+    "methodOnly": ["step7hotwaterasneeded"],
+    "sourceIngredients": [
+      "¼ cup plus 1 Tbsp. extra-virgin olive oil, divided",
+      "2½ lb. Spanish-style chorizo, sliced ¾-in. thick",
+      "6 garlic cloves, thinly sliced",
+      "2 medium yellow onions, finely chopped",
+      "1 large red bell pepper, seeded and coarsely chopped (1 cup)",
+      "1 Tbsp. red pepper paste, such as choricero, ñora, or ají panca, or 1 tsp. sweet (unsmoked) paprika",
+      "1 Tbsp. tomato paste",
+      "¼ cup dry sherry",
+      "3¼ cup chicken or vegetable stock, or water",
+      "Pinch cinnamon",
+      "Large pinch saffron threads",
+      "One 15-oz. can chickpeas, drained (1½ cups)",
+      "½ cup raisins",
+      "Kosher salt",
+      "1½ cups short- or medium-grain rice, such as carnaroli, arborio, or Goya medium-grain (see footnote)",
+      "Finely chopped chives, for garnish"
+    ],
+    "proposed": [
+      {
+        "id": "main.rice",
+        "key": "rice",
+        "text": "Arborio rice",
+        "quantity": {
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "rice",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "rice",
+            "share": 1,
+            "text": "Add {{ingredients}} and stir about 2 minutes to coat the grains in the spiced fat."
+          }
+        ]
+      },
+      {
+        "id": "main.chorizo",
+        "key": "chorizo",
+        "text": "Spanish-style chorizo",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "chorizo",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "chorizo",
+            "share": 1,
+            "text": "Use {{ingredients}} for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route."
+          }
+        ]
+      },
+      {
+        "id": "main.chickpeas",
+        "key": "chickpeas",
+        "text": "chickpeas",
+        "quantity": {
+          "amount": 1,
+          "unit": "can"
+        },
+        "allowance": null,
+        "packageSize": {
+          "amount": 15,
+          "unit": "oz"
+        },
+        "optional": false,
+        "uses": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Add {{ingredients}} and all the reserved chorizo. Bring to a boil before moving to the oven."
+          }
+        ]
+      },
+      {
+        "id": "main.pepper",
+        "key": "pepper",
+        "text": "red bell pepper",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1,
+            "text": "Add {{ingredients}} to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below."
+          }
+        ]
+      },
+      {
+        "id": "main.onion",
+        "key": "onion",
+        "text": "yellow onion",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1,
+            "text": "Add {{ingredients}} to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below."
+          }
+        ]
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "text": "garlic clove",
+        "quantity": {
+          "amount": 4,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "vegetables",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "vegetables",
+            "share": 1,
+            "text": "Add {{ingredients}} to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below."
+          }
+        ]
+      },
+      {
+        "id": "main.paste",
+        "key": "paste",
+        "text": "tomato paste",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "paste",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "paste",
+            "share": 1,
+            "text": "Stir in {{ingredients}} and cook about 1 minute until fragrant without scorching."
+          }
+        ]
+      },
+      {
+        "id": "main.paprika",
+        "key": "paprika",
+        "text": "smoked paprika (pimentón)",
+        "quantity": {
+          "amount": 1,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "paste",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "paste",
+            "share": 1,
+            "text": "Stir in {{ingredients}} and cook about 1 minute until fragrant without scorching."
+          }
+        ]
+      },
+      {
+        "id": "main.saffron",
+        "key": "saffron",
+        "text": "saffron threads",
+        "quantity": null,
+        "allowance": "a pinch",
+        "packageSize": null,
+        "optional": true,
+        "uses": [
+          {
+            "step": "paste",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "paste",
+            "share": 1,
+            "text": "Stir in {{ingredients}} and cook about 1 minute until fragrant without scorching."
+          }
+        ]
+      },
+      {
+        "id": "main.broth",
+        "key": "broth",
+        "text": "chicken broth",
+        "quantity": {
+          "amount": 3,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Add {{ingredients}} and all the reserved chorizo. Bring to a boil before moving to the oven."
+          }
+        ]
+      },
+      {
+        "id": "main.wine",
+        "key": "wine",
+        "text": "dry sherry or white wine",
+        "quantity": {
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "wine",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "wine",
+            "share": 1,
+            "text": "Add {{ingredients}}, scrape the bottom and let bubble about 1 minute."
+          }
+        ]
+      },
+      {
+        "id": "main.raisins",
+        "key": "raisins",
+        "text": "raisins",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "liquid",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "liquid",
+            "share": 1,
+            "text": "Add {{ingredients}} and all the reserved chorizo. Bring to a boil before moving to the oven."
+          }
+        ]
+      },
+      {
+        "id": "main.water",
+        "key": "water",
+        "text": "hot water",
+        "quantity": null,
+        "allowance": "a little only if rice is firm and pan is dry",
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "bake",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "bake",
+            "share": 1,
+            "text": "Use {{ingredients}} for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here."
+          }
+        ]
+      }
+    ],
+    "fullExclusiveVariantBody": "\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+    "variants": [
+      {
+        "ingredient": "Current covered route",
+        "alternative": "The complete source-rich uncovered route below",
+        "effect": "Choose one entire formula and method. Its stock, chorizo, oil, vegetables, seasonings and rice choices differ; do not merge shopping amounts or claim equal portion sizes."
+      }
+    ],
+    "exclusiveSavedRoute": [
+      {
+        "originalBatchIngredient": "¼ cup plus 1 Tbsp. extra-virgin olive oil, divided",
+        "destination": "sourcechorizobrowning1tbspandvegetables4tbspoil",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "2½ lb. Spanish-style chorizo, sliced ¾-in. thick",
+        "destination": "sourceuncrowdedchorizobrowning,returnedbeforeoven",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "6 garlic cloves, thinly sliced",
+        "destination": "sourcevegetables",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "2 medium yellow onions, finely chopped",
+        "destination": "sourcevegetables",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "1 large red bell pepper, seeded and coarsely chopped (1 cup)",
+        "destination": "sourcevegetables",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "1 Tbsp. red pepper paste, such as choricero, ñora, or ají panca, or 1 tsp. sweet (unsmoked) paprika",
+        "destination": "sourcepaste5min,choosepasteORsweetpaprika",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "1 Tbsp. tomato paste",
+        "destination": "sourcepaste5min",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "¼ cup dry sherry",
+        "destination": "sourcesherryboil",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "3¼ cup chicken or vegetable stock, or water",
+        "destination": "sourcebringliquidboil",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "Pinch cinnamon",
+        "destination": "sourceliquidcinnamon",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "Large pinch saffron threads",
+        "destination": "sourceliquidsaffron",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "One 15-oz. can chickpeas, drained (1½ cups)",
+        "destination": "sourceliquiddrainedchickpeas",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "½ cup raisins",
+        "destination": "sourceliquidraisins",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "Kosher salt",
+        "destination": "sourceliquidsalt",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "1½ cups short- or medium-grain rice, such as carnaroli, arborio, or Goya medium-grain (see footnote)",
+        "destination": "sourcericeafterliquidboil/uncoveredbake",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      },
+      {
+        "originalBatchIngredient": "Finely chopped chives, for garnish",
+        "destination": "sourceafterrestchives",
+        "scaling": "Manual exclusive source amount scales proportionally; primary compiler/shopping excludes this alternative; do not combine both routes."
+      }
+    ],
+    "alternativeShoppingScope": "The enabled primary ingredient/shopping list scales only the main formula. The clearly separate full source branch remains an original-batch manual formula, requiring all its amounts to scale together; no branch-selection UI is claimed."
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Render chorizo: Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route."
+    },
+    {
+      "step": 2,
+      "text": "Soften vegetables: Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below."
+    },
+    {
+      "step": 3,
+      "text": "Add paste and spices: Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching."
+    },
+    {
+      "step": 4,
+      "text": "Coat rice: Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat."
+    },
+    {
+      "step": 5,
+      "text": "Add wine: Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute."
+    },
+    {
+      "step": 6,
+      "text": "Bring to a boil: Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven."
+    },
+    {
+      "step": 7,
+      "text": "Bake covered: Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here."
+    },
+    {
+      "step": 8,
+      "text": "Rest and serve: Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Current covered route",
+      "alternative": "The complete source-rich uncovered route below",
+      "effect": "Choose one complete formula and method, including its stock, chorizo, oil, vegetables, seasonings and rice. The two versions make different-sized portions."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "smoky-spanish-rice-and-chickpeas",
+      "sesame-tomato-salad",
+      "charred-asparagus-with-parmesan"
+    ],
+    "incomingMeals": [],
+    "scope": "Pairings remain metadata, not ingredient or timing certification."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "capacity": [
+      "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+      "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+      "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+    ],
+    "timing": "Current route: about 80 minutes planning including 20 minutes preparation, 50 minutes cooking and 10 minutes covered rest. Source-rich route: source estimates 90 minutes; more chorizo browning batches and pan heat-up can extend this. Neither route has tested scaled pan loads.",
+    "scaling": "Main compiler scales full current ingredients; manual exclusive variant amounts must all scale together. Main shopping view does not include alternate full formula. No samepan/lineartime claim."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "3/8 cup Arborio rice",
+        "1/8 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "1/4 can (15 oz) chickpeas, drained",
+        "1/4 red bell pepper, seeded and diced",
+        "1/4 yellow onion, diced",
+        "1 garlic clove, sliced",
+        "1/4 tbsp tomato paste",
+        "1/4 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "3/4 cup chicken broth",
+        "0.0625 cup dry sherry or white wine",
+        "1/8 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "1 portion",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "3/4 cup Arborio rice",
+        "1/4 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "1/2 can (15 oz) chickpeas, drained",
+        "1/2 red bell pepper, seeded and diced",
+        "1/2 yellow onion, diced",
+        "2 garlic cloves, sliced",
+        "1/2 tbsp tomato paste",
+        "1/2 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "1 1/2 cups chicken broth",
+        "1/8 cup dry sherry or white wine",
+        "1/4 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "2 portions",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "1 1/2 cups Arborio rice",
+        "1/2 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "1 can (15 oz) chickpeas, drained",
+        "1 red bell pepper, seeded and diced",
+        "1 yellow onion, diced",
+        "4 garlic cloves, sliced",
+        "1 tbsp tomato paste",
+        "1 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "3 cups chicken broth",
+        "1/4 cup dry sherry or white wine",
+        "1/2 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "2 1/4 cups Arborio rice",
+        "3/4 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "1 1/2 cans (15 oz) chickpeas, drained",
+        "1 1/2 red bell peppers, seeded and diced",
+        "1 1/2 yellow onions, diced",
+        "6 garlic cloves, sliced",
+        "1 1/2 tbsp tomato paste",
+        "1 1/2 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "4 1/2 cups chicken broth",
+        "3/8 cup dry sherry or white wine",
+        "3/4 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "6 portions",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "3 cups Arborio rice",
+        "1 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "2 cans (15 oz) chickpeas, drained",
+        "2 red bell peppers, seeded and diced",
+        "2 yellow onions, diced",
+        "8 garlic cloves, sliced",
+        "2 tbsp tomato paste",
+        "2 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "6 cups chicken broth",
+        "1/2 cup dry sherry or white wine",
+        "1 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "8 portions",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "4 1/2 cups Arborio rice",
+        "1 1/2 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "3 cans (15 oz) chickpeas, drained",
+        "3 red bell peppers, seeded and diced",
+        "3 yellow onions, diced",
+        "12 garlic cloves, sliced",
+        "3 tbsp tomato paste",
+        "3 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "9 cups chicken broth",
+        "3/4 cup dry sherry or white wine",
+        "1 1/2 cups raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "12 portions",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Current covered Arborio route ---",
+        "1 1/2 cups Arborio rice",
+        "1/2 lb Spanish-style chorizo, cured, sliced into rounds; check product label",
+        "1 can (15 oz) chickpeas, drained",
+        "1 red bell pepper, seeded and diced",
+        "1 yellow onion, diced",
+        "4 garlic cloves, sliced",
+        "1 tbsp tomato paste",
+        "1 tsp smoked paprika (pimentón)",
+        "saffron threads, a pinch, optional",
+        "3 cups chicken broth",
+        "1/4 cup dry sherry or white wine",
+        "1/2 cup raisins",
+        "hot water, a little only if rice is firm and pan is dry"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nChorizo seasons the vegetables before the rice bakes in broth with chickpeas and raisins. This covered method uses Arborio rice. Bomba and Calasparra absorb differently and need their own liquid and timing adjustments; do not substitute them directly in this version.\n\n## Directions\n\n1. **Render chorizo:** Use Spanish-style chorizo for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label: cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage according to its package, checking 160°F / 71°C, before using this rendering route. A raw poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared rounds over medium heat until crisped and their red fat is released; remove to a clean plate. Keep the rendered fat for the current main route.\n2. **Soften vegetables:** Add red bell pepper, yellow onion, and garlic cloves to the chorizo fat. Cook about 8–10 minutes until softened, stirring and lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the vegetables without catching. For the olive-oil version, choose the complete uncovered variation below.\n3. **Add paste and spices:** Stir in tomato paste, smoked paprika (pimentón), and saffron threads (if using) and cook about 1 minute until fragrant without scorching.\n4. **Coat rice:** Add Arborio rice and stir about 2 minutes to coat the grains in the spiced fat.\n5. **Add wine:** Add dry sherry or white wine, scrape the bottom and let bubble about 1 minute.\n6. **Bring to a boil:** Add chickpeas, chicken broth, and raisins and all the reserved chorizo. Bring to a boil before moving to the oven.\n7. **Bake covered:** Use hot water for this stage. Cover tightly and bake at 400°F about 20–25 minutes, then check absorbed liquid and a tender rice center. If the center is firm and the pan is dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source variant’s uncovered method here.\n8. **Rest and serve:** Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50 minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend the estimate. Larger quantities need sufficient pan space or separate original-size pans, not proportional oven times.\n\n## Source-Rich Uncovered Variation\n\nThis Saveur variation uses 2½ lb chorizo and 5 tablespoons olive oil in its original four-portion batch. Cook it instead of the covered recipe. Scale every ingredient together for other batch sizes, use suitably roomy pans and judge the rice center rather than multiplying oven time.\n\nUse ¼ cup plus 1 tablespoon extra-virgin olive oil (5 tablespoons total), 2½ lb Spanish-style chorizo sliced ¾ inch thick, 6 thinly sliced garlic cloves, 2 medium yellow onions finely chopped, 1 large red bell pepper seeded and coarsely chopped (the source describes about 1 cup), 1 tablespoon red pepper paste such as choricero, ñora or ají panca OR 1 teaspoon sweet unsmoked paprika, 1 tablespoon tomato paste, ¼ cup dry sherry, 3¼ cups chicken or vegetable stock OR water, a pinch of cinnamon, a large pinch of saffron threads, one 15-ounce can chickpeas drained (the source describes 1½ cups), ½ cup raisins, kosher salt to taste, 1½ cups short- or medium-grain rice such as carnaroli, Arborio or Goya medium-grain, and finely chopped chives for garnish. Use the listed whole pepper and 15-ounce can; their cup descriptions are approximate. This variation uses its own rice, chorizo, oil and spice choices.\n\nRead the chorizo label and complete any required raw-pork cooking to 160°F / 71°C before this browning sequence; package directions apply. Use a large oven-safe Dutch oven, leaving room for stirring the full rice/liquid/meat load. Over medium-high heat, use 1 tablespoon of the total olive oil across uncrowded chorizo batches. Turn until crisped on both sides, beginning checks around 5–7 minutes; move to a clean lined plate. Discard accumulated rendered fat; keep the remaining olive oil for the vegetables.\n\nSet a center oven rack and preheat to 400°F. Add the remaining ¼ cup olive oil, garlic, onions and pepper to the empty pot. Cook over medium heat, stirring, until jammy and browned, beginning checks around 20 minutes. Stir in the chosen red pepper paste OR sweet paprika and tomato paste; cook about 5 minutes, lowering heat if it catches. Add sherry and bring to a boil. Add all the chosen stock OR water, cinnamon, saffron, chickpeas, raisins, reserved chorizo and salt to taste; return to a boil. Add the rice and return to a boil again. Bake uncovered about 20–25 minutes, checking that liquid is absorbed and the rice is al dente. Remove, cover and rest about 10 minutes until just tender; finish with all the chives and serve. Rice and pan differences can require longer cooking.\n\nFor the source’s distinct Bomba OR Calasparra choice, use 4½ cups stock instead of 3¼ cups and allow roughly 10 minutes longer cooking, judging the center rather than treating that addition as a guarantee. This applies only to this source-rich uncovered branch; it does not authorize direct substitution in the repaired covered main.\n",
+      "capacity": [
+        "Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured appearance is not a ready-to-eat claim.",
+        "Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients do not certify pan capacity.",
+        "Choose either the current covered Arborio route or the complete richer uncovered variation; the latter uses its own full olive oil and much more chorizo."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "858ff2cArborionotdirectBomba/Calasparra",
+    "covered400°Fand20–25firstcheck/tendercenter",
+    "hotwateronlyifdryandfirm",
+    "10minrest/~80minhonestplanning"
+  ],
+  "remainingQuestions": [
+    "Which full route does household prefer?",
+    "Which actual chorizo label and Dutch oven capacity?",
+    "How much fat does half-pound product release for the current no-added-oil route?",
+    "Actual covered/uncovered rice outcomes, portion size and scaledpan performance remain untested."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

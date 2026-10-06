@@ -1,0 +1,1316 @@
+{
+  "slug": "chinese-sausage-fried-rice",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "13b89ab85624b2039ee41d881efee3c2b421d197899925dc7fb3cc713c6ba17d",
+  "acceptedSourceSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "10–15 min with cold cooked rice"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "15–25 min, plus sausage package preparation if needed"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 25–40 min with prepared ingredients; rice cooking/chilling extra"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "equipment",
+      "before": ["wok"],
+      "after": ["large-skillet", "food-thermometer", "wok"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "4 cups Cooked Rice (Day-old, cold Jasmine)",
+        "5 Chinese Sausages (Lap Cheong), thinly sliced",
+        "3 large Eggs",
+        "3 Green Onions, thinly sliced",
+        "2 cloves Garlic, minced",
+        "1 Red Chili, finely chopped",
+        "1/2 cup Frozen Peas, thawed",
+        "2 tbsp Light Soy Sauce",
+        "1 tbsp Oyster Sauce",
+        "2 tsp Toasted Sesame Oil",
+        "3 tsp Peanut Oil"
+      ],
+      "after": [
+        "--- Recipe ---",
+        "4 cups cooked jasmine rice, cold, properly refrigerated",
+        "5 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "3 large eggs, beaten",
+        "3 green onions, thinly sliced",
+        "2 garlic cloves, minced",
+        "1 red chili, finely chopped",
+        "1/2 cup frozen peas, thawed",
+        "2 tbsp light soy sauce",
+        "1 tbsp oyster sauce",
+        "2 tsp toasted sesame oil",
+        "3 tsp peanut oil"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 390,
+        "protein": 14.5,
+        "carbs": 15,
+        "fat": 31,
+        "fiber": 3,
+        "sugar": 6,
+        "sodium": 960
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Recipe",
+            "ingredients": [
+              {
+                "id": "rice",
+                "key": "rice",
+                "name": "cooked jasmine rice",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "cup"
+                },
+                "preparation": "cold, properly refrigerated",
+                "uses": [
+                  {
+                    "step": "rice",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sausage",
+                "key": "sausage",
+                "name": "Chinese sausage (lap cheong)",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "count"
+                },
+                "preparation": "thinly sliced after any package-required preparation",
+                "uses": [
+                  {
+                    "step": "sausage",
+                    "share": 1
+                  }
+                ],
+                "plural": "Chinese sausages (lap cheong)"
+              },
+              {
+                "id": "eggs",
+                "key": "eggs",
+                "name": "large egg",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "preparation": "beaten",
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": 1
+                  }
+                ],
+                "plural": "large eggs"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "green onion",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "preparation": "thinly sliced",
+                "uses": [
+                  {
+                    "step": "sausage",
+                    "share": 1
+                  }
+                ],
+                "plural": "green onions"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "garlic clove",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "preparation": "minced",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "garlic cloves"
+              },
+              {
+                "id": "chili",
+                "key": "chili",
+                "name": "red chili",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "preparation": "finely chopped",
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "red chilies"
+              },
+              {
+                "id": "peas",
+                "key": "peas",
+                "name": "frozen peas",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "preparation": "thawed",
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "light soy sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "oyster",
+                "key": "oyster",
+                "name": "oyster sauce",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "toasted sesame oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "season",
+                    "share": "1/2"
+                  }
+                ]
+              },
+              {
+                "id": "peanut",
+                "key": "peanut",
+                "name": "peanut oil",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "eggs",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "sausage",
+                    "share": "2/3"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "rice",
+            "title": "Prepare the rice",
+            "text": "Break up {{ingredients}} gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice."
+          },
+          {
+            "id": "eggs",
+            "title": "Make the egg ribbons",
+            "text": "Use {{ingredients}} for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside."
+          },
+          {
+            "id": "sausage",
+            "title": "Cook the sausage",
+            "text": "Use {{ingredients}} for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch."
+          },
+          {
+            "id": "aromatics",
+            "title": "Add the aromatics",
+            "text": "Add {{ingredients}} and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions."
+          },
+          {
+            "id": "fry",
+            "title": "Fry the rice",
+            "text": "Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check."
+          },
+          {
+            "id": "season",
+            "title": "Season and heat through",
+            "text": "Add {{ingredients}}, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain."
+          },
+          {
+            "id": "serve",
+            "title": "Fold and serve",
+            "text": "Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate the egg ribbons and heat cold rice throughout",
+        "outcome": "Egg ribbons are set, the sausage is cooked for its labeled state, and hot rice grains are coated without large cold clumps.",
+        "techniques": ["temperature"],
+        "before": [
+          "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+          "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+          "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+        ],
+        "checkpoints": [
+          {
+            "step": 6,
+            "cue": "Egg ribbons are set, the sausage is cooked for its labeled state, and hot rice grains are coated without large cold clumps.",
+            "why": "The clock is a starting check; actual product state, load and center doneness govern completion."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Rice remains cold in clumps",
+            "cause": "The wok was crowded or cold grains were not separated.",
+            "fix": "Break clumps gently and finish heating in smaller batches, checking 165°F throughout; keep the full ingredient shares for each batch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cold cooked rice",
+            "alternative": "Cook rice in advance using its package absorption instructions, then refrigerate promptly in shallow containers until cold",
+            "effect": "The saved original starts with 1½ cups dry long-grain rice and chills it for about 3 hours. That is a separate starting quantity, not a verified conversion to the current four cups cooked rice; measure the listed cooked quantity for this route."
+          },
+          {
+            "ingredient": "Red chili",
+            "alternative": "Reduce, omit or serve separately",
+            "effect": "Leave the other measured ingredients unchanged when reducing or omitting the chili."
+          }
+        ],
+        "timing": "About 25–40 min with prepared ingredients; rice cooking/chilling extra; 10–15 min with cold cooked rice. Additional pans/batches change elapsed time; no linear clock scaling is implied.",
+        "storage": "Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C throughout. Prompt cooling matters for cooked grains as well as meat; reheating is not a substitute for proper storage.",
+        "sources": [
+          {
+            "title": "Adapted from Taste.com.au",
+            "url": "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab"
+          },
+          {
+            "title": "FoodSafety.gov — Cooking temperatures",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "USDA — Leftovers and food safety",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nFried rice is a Cantonese classic for using up leftover rice. The secret to separated grains instead of mushy clumps: use day-old refrigerated rice - fresh rice is too moist and sticky. Lap cheong (Chinese sausage) adds sweet-savory flavor. Cook the eggs into thin omelets first, then slice and fold them back in at the end - this keeps them bright yellow and distinct instead of coating the rice in a gray film.\nFor kids, serve the heat on the side or reduce/omit the spicy elements.\n\n## Directions\n\n1.  **Prep Rice:** Use your fingers to break up any large clumps of the cold rice so the grains are distinct.\n2.  **The Ribbons:** Whisk eggs with 1 tsp sesame oil. Heat 1 tsp peanut oil in a wok. Pour in 1/3 of the egg, swirl to coat, and cook until just set. Remove, roll up, and slice into thin ribbons. Repeat with remaining egg.\n3.  **The Sear:** Add remaining peanut oil to the wok. Stir-fry the sausage slices for 2-3 minutes until the fat renders and the edges are crispy. Add green onions, garlic, and chili; stir-fry for 1 minute.\n4.  **The Fry:** Increase heat to high. Add the rice. Stir-fry for 2-3 minutes, pressing the rice against the sides of the wok to \"toast\" it.\n5.  **Season:** Add soy sauce, oyster sauce, peas, and the remaining sesame oil. Toss vigorously for 2 minutes until everything is heated through and the rice is coated in a glossy glaze.\n6.  **Fold:** Gently fold the egg ribbons back into the rice. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n"
+  },
+  "findings": [
+    {
+      "id": "RI-1",
+      "title": null,
+      "field": "exactChanges.prepTime",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-2",
+      "title": null,
+      "field": "exactChanges.cookTime",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-3",
+      "title": null,
+      "field": "exactChanges.totalTime",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-4",
+      "title": null,
+      "field": "exactChanges.servings",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-5",
+      "title": null,
+      "field": "exactChanges.equipment",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-6",
+      "title": null,
+      "field": "exactChanges.ingredients",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-7",
+      "title": null,
+      "field": "exactChanges.nutrition",
+      "rationale": "Legacy estimate has no verified ingredient-weight/yield analysis; remove without replacing or claiming nutrition testing.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-8",
+      "title": null,
+      "field": "exactChanges.formula",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High written amounts and allocation; consequential source/state changes need independent/root challenge",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-9",
+      "title": null,
+      "field": "exactChanges.learning",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "RI-10",
+      "title": null,
+      "field": "exactChanges.content",
+      "rationale": "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula.",
+      "confidence": "High exact history/state guidance; moderate planning and practical cues",
+      "applicableSources": [
+        "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Exact source/history establishes written formula and oil disagreement. FDA eggs supports160 egg dish; FoodSafety.gov raw pork sausage160/poultry165 and leftovers165 are separate state categories. Product-specific preparation and original-size pan batches are editorial application, not evidence of a universal two-minute sausage cook. General leftovers guidance addresses rice handling, not measured dry-to-cooked ratio.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "equipment",
+        "ingredients",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Chinese%20Sausage%20Fried%20Rice.html",
+    "introductionScope": "Actual earlier retained HTML cooking introduction; blob hash includes complete original HTML; no native identity or photo content copied",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Full source/current comparisons and fetch limitations retained in frozen author and independent records; no new source choice accepted by this draft.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "2c07c669 bulk changed saved1½cups dry long-grain rice/three omelets using all3tsp peanut oil into4cups cooked jasmine and1tsp egg plus2tsp sausage allocation. No later explicit conversion/quantity decision established. Preserve current cooked-rice amount and full3tsp oil; record source preparation separately without asserting dry-to-cooked equivalence.493885bb removed unsupported black vinegar and remains preserved. Native source cannot establish actual sausage product state. Current Taste publisher fetch failed twice; no borrowed alternate publisher formula."
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "text": "4 cups Cooked Rice (Day-old, cold Jasmine)",
+        "destination": "step1 rice; later fry"
+      },
+      {
+        "row": 2,
+        "text": "5 Chinese Sausages (Lap Cheong), thinly sliced",
+        "destination": "step3 sausage, raw/ready-to-eat state unqualified"
+      },
+      {
+        "row": 3,
+        "text": "3 large Eggs",
+        "destination": "step2 eggs"
+      },
+      {
+        "row": 4,
+        "text": "3 Green Onions, thinly sliced",
+        "destination": "step3 all scallions"
+      },
+      {
+        "row": 5,
+        "text": "2 cloves Garlic, minced",
+        "destination": "step3 garlic"
+      },
+      {
+        "row": 6,
+        "text": "1 Red Chili, finely chopped",
+        "destination": "step3 chili"
+      },
+      {
+        "row": 7,
+        "text": "1/2 cup Frozen Peas, thawed",
+        "destination": "step5 peas"
+      },
+      {
+        "row": 8,
+        "text": "2 tbsp Light Soy Sauce",
+        "destination": "step5 soy"
+      },
+      {
+        "row": 9,
+        "text": "1 tbsp Oyster Sauce",
+        "destination": "step5 oyster"
+      },
+      {
+        "row": 10,
+        "text": "2 tsp Toasted Sesame Oil",
+        "destination": "step2 1tsp and step5 1tsp sesame"
+      },
+      {
+        "row": 11,
+        "text": "3 tsp Peanut Oil",
+        "destination": "step2 1tsp and step3 remaining2tsp peanut"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "main.rice",
+        "key": "rice",
+        "text": "cooked jasmine rice",
+        "quantity": {
+          "amount": 4,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "rice",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "rice",
+            "share": 1,
+            "text": "Break up {{ingredients}} gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice."
+          }
+        ]
+      },
+      {
+        "id": "main.sausage",
+        "key": "sausage",
+        "text": "Chinese sausage (lap cheong)",
+        "quantity": {
+          "amount": 5,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "sausage",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "sausage",
+            "share": 1,
+            "text": "Use {{ingredients}} for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch."
+          }
+        ]
+      },
+      {
+        "id": "main.eggs",
+        "key": "eggs",
+        "text": "large egg",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "eggs",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "eggs",
+            "share": 1,
+            "text": "Use {{ingredients}} for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside."
+          }
+        ]
+      },
+      {
+        "id": "main.scallions",
+        "key": "scallions",
+        "text": "green onion",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "sausage",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "sausage",
+            "share": 1,
+            "text": "Use {{ingredients}} for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch."
+          }
+        ]
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "text": "garlic clove",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1,
+            "text": "Add {{ingredients}} and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions."
+          }
+        ]
+      },
+      {
+        "id": "main.chili",
+        "key": "chili",
+        "text": "red chili",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "aromatics",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1,
+            "text": "Add {{ingredients}} and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions."
+          }
+        ]
+      },
+      {
+        "id": "main.peas",
+        "key": "peas",
+        "text": "frozen peas",
+        "quantity": {
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1,
+            "text": "Add {{ingredients}}, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain."
+          }
+        ]
+      },
+      {
+        "id": "main.soy",
+        "key": "soy",
+        "text": "light soy sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1,
+            "text": "Add {{ingredients}}, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain."
+          }
+        ]
+      },
+      {
+        "id": "main.oyster",
+        "key": "oyster",
+        "text": "oyster sauce",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "destinations": [
+          {
+            "step": "season",
+            "share": 1,
+            "text": "Add {{ingredients}}, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain."
+          }
+        ]
+      },
+      {
+        "id": "main.sesame",
+        "key": "sesame",
+        "text": "toasted sesame oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "eggs",
+            "share": "1/2"
+          },
+          {
+            "step": "season",
+            "share": "1/2"
+          }
+        ],
+        "destinations": [
+          {
+            "step": "eggs",
+            "share": "1/2",
+            "text": "Use {{ingredients}} for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside."
+          },
+          {
+            "step": "season",
+            "share": "1/2",
+            "text": "Add {{ingredients}}, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain."
+          }
+        ]
+      },
+      {
+        "id": "main.peanut",
+        "key": "peanut",
+        "text": "peanut oil",
+        "quantity": {
+          "amount": 3,
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "packageSize": null,
+        "optional": false,
+        "uses": [
+          {
+            "step": "eggs",
+            "share": "1/3"
+          },
+          {
+            "step": "sausage",
+            "share": "2/3"
+          }
+        ],
+        "destinations": [
+          {
+            "step": "eggs",
+            "share": "1/3",
+            "text": "Use {{ingredients}} for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside."
+          },
+          {
+            "step": "sausage",
+            "share": "2/3",
+            "text": "Use {{ingredients}} for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch."
+          }
+        ]
+      }
+    ],
+    "variants": [
+      {
+        "ingredient": "Cold cooked rice",
+        "alternative": "Cook rice in advance using its package absorption instructions, then refrigerate promptly in shallow containers until cold",
+        "effect": "The saved original starts with 1½ cups dry long-grain rice and chills it for about 3 hours. That is a separate starting quantity, not a verified conversion to the current four cups cooked rice; measure the listed cooked quantity for this route."
+      },
+      {
+        "ingredient": "Red chili",
+        "alternative": "Reduce, omit or serve separately",
+        "effect": "The retained family heat option leaves the other measured ingredients unchanged."
+      }
+    ],
+    "fullExclusiveVariantBody": null,
+    "frozenMethodOnly": [],
+    "exactSourceIngredients": [
+      "1 1/2 cups white long-grain rice",
+      "3 eggs",
+      "2 teaspoons sesame oil",
+      "3 teaspoons peanut oil",
+      "5 Chinese sausages, thinly sliced (see note)",
+      "3 green onions, thinly sliced",
+      "2 garlic cloves, crushed",
+      "1 long red chilli, finely chopped",
+      "2 tablespoons salt-reduced soy sauce",
+      "1 tablespoon oyster sauce",
+      "1/2 cup frozen peas, thawed"
+    ]
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Prepare the rice: Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice."
+    },
+    {
+      "step": 2,
+      "text": "Make the egg ribbons: Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside."
+    },
+    {
+      "step": 3,
+      "text": "Cook the sausage: Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch."
+    },
+    {
+      "step": 4,
+      "text": "Add the aromatics: Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions."
+    },
+    {
+      "step": 5,
+      "text": "Fry the rice: Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check."
+    },
+    {
+      "step": 6,
+      "text": "Season and heat through: Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain."
+    },
+    {
+      "step": 7,
+      "text": "Fold and serve: Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Cold cooked rice",
+      "alternative": "Cook rice in advance using its package absorption instructions, then refrigerate promptly in shallow containers until cold",
+      "effect": "The saved original starts with 1½ cups dry long-grain rice and chills it for about 3 hours. That is a separate starting quantity, not a verified conversion to the current four cups cooked rice; measure the listed cooked quantity for this route."
+    },
+    {
+      "ingredient": "Red chili",
+      "alternative": "Reduce, omit or serve separately",
+      "effect": "Leave the other measured ingredients unchanged when reducing or omitting the chili."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "smashed-cucumber-salad"],
+    "incomingMeals": [],
+    "scope": "Whole actual meal directory scanned: no composed meal inputs for these six. Pairings are metadata, not coordinated ingredient/timing certification."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "scope": "Current written portions retained as unmeasured planning; no finished-weight/nutrition invention.",
+    "capacity": [
+      "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+      "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+      "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+    ],
+    "timing": "About 25–40 min with prepared ingredients; rice cooking/chilling extra; 10–15 min with cold cooked rice. Additional pans/batches change elapsed time; no linear clock scaling is implied.",
+    "scaling": "Ingredient controls preserved; original-size pan depth and product sizes, extra batches and center checks instead of proportional timer."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Recipe ---",
+        "1 cup cooked jasmine rice, cold, properly refrigerated",
+        "1 1/4 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "3/4 large egg, beaten",
+        "3/4 green onion, thinly sliced",
+        "1/2 garlic clove, minced",
+        "1/4 red chili, finely chopped",
+        "1/8 cup frozen peas, thawed",
+        "1/2 tbsp light soy sauce",
+        "1/4 tbsp oyster sauce",
+        "1/2 tsp toasted sesame oil",
+        "3/4 tsp peanut oil"
+      ],
+      "yield": "1 portion",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Recipe ---",
+        "2 cups cooked jasmine rice, cold, properly refrigerated",
+        "2 1/2 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "1 1/2 large eggs, beaten",
+        "1 1/2 green onions, thinly sliced",
+        "1 garlic clove, minced",
+        "1/2 red chili, finely chopped",
+        "1/4 cup frozen peas, thawed",
+        "1 tbsp light soy sauce",
+        "1/2 tbsp oyster sauce",
+        "1 tsp toasted sesame oil",
+        "1 1/2 tsp peanut oil"
+      ],
+      "yield": "2 portions",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Recipe ---",
+        "4 cups cooked jasmine rice, cold, properly refrigerated",
+        "5 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "3 large eggs, beaten",
+        "3 green onions, thinly sliced",
+        "2 garlic cloves, minced",
+        "1 red chili, finely chopped",
+        "1/2 cup frozen peas, thawed",
+        "2 tbsp light soy sauce",
+        "1 tbsp oyster sauce",
+        "2 tsp toasted sesame oil",
+        "3 tsp peanut oil"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Recipe ---",
+        "6 cups cooked jasmine rice, cold, properly refrigerated",
+        "7 1/2 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "4 1/2 large eggs, beaten",
+        "4 1/2 green onions, thinly sliced",
+        "3 garlic cloves, minced",
+        "1 1/2 red chilies, finely chopped",
+        "3/4 cup frozen peas, thawed",
+        "3 tbsp light soy sauce",
+        "1 1/2 tbsp oyster sauce",
+        "3 tsp toasted sesame oil",
+        "4 1/2 tsp peanut oil"
+      ],
+      "yield": "6 portions",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Recipe ---",
+        "8 cups cooked jasmine rice, cold, properly refrigerated",
+        "10 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "6 large eggs, beaten",
+        "6 green onions, thinly sliced",
+        "4 garlic cloves, minced",
+        "2 red chilies, finely chopped",
+        "1 cup frozen peas, thawed",
+        "4 tbsp light soy sauce",
+        "2 tbsp oyster sauce",
+        "4 tsp toasted sesame oil",
+        "6 tsp peanut oil"
+      ],
+      "yield": "8 portions",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Recipe ---",
+        "12 cups cooked jasmine rice, cold, properly refrigerated",
+        "15 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "9 large eggs, beaten",
+        "9 green onions, thinly sliced",
+        "6 garlic cloves, minced",
+        "3 red chilies, finely chopped",
+        "1 1/2 cups frozen peas, thawed",
+        "6 tbsp light soy sauce",
+        "3 tbsp oyster sauce",
+        "6 tsp toasted sesame oil",
+        "9 tsp peanut oil"
+      ],
+      "yield": "12 portions",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Recipe ---",
+        "4 cups cooked jasmine rice, cold, properly refrigerated",
+        "5 Chinese sausages (lap cheong), thinly sliced after any package-required preparation",
+        "3 large eggs, beaten",
+        "3 green onions, thinly sliced",
+        "2 garlic cloves, minced",
+        "1 red chili, finely chopped",
+        "1/2 cup frozen peas, thawed",
+        "2 tbsp light soy sauce",
+        "1 tbsp oyster sauce",
+        "2 tsp toasted sesame oil",
+        "3 tsp peanut oil"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nCold, separated rice is easier to toss without crushing it. Cook the eggs into ribbons before combining them with the sausage and rice. Lap cheong products differ: the cured appearance does not establish that a sausage is ready to eat; its label determines the preparation needed.\n\n## Directions\n\n1. **Prepare the rice:** Break up cooked jasmine rice gently. Keep it cold until ready to add it to the pan. The listed amount is cooked rice, not dry rice.\n2. **Make the egg ribbons:** Use large eggs, 1/2 of the toasted sesame oil, and 1/3 of the peanut oil for this stage. Whisk the eggs with their half of the sesame oil. Use the egg-stage peanut oil across the omelet batches. In a hot wok, cook thin omelets with roughly one-third of the original three-egg mixture at a time, adjusting the number of omelets for the listed quantity. Cook until fully set without liquid egg; an egg-dish center is 160°F / 71°C. Move to a clean board, roll and slice into ribbons. Set aside.\n3. **Cook the sausage:** Use Chinese sausages (lap cheong), green onions, and 2/3 of the peanut oil for this stage. Add this stage’s peanut oil to the wok. Add the prepared sausage and all the green onions. Stir-fry over medium-high heat until browned and the labeled cooking requirements are met; 2–3 minutes is a browning check, not proof raw sausage is cooked. Reduce the heat if sugars scorch.\n4. **Add the aromatics:** Add garlic cloves and red chili and stir-fry for about a minute until fragrant, lowering the heat if the garlic catches. Omit the chili or serve it separately for milder portions.\n5. **Fry the rice:** Add the separated rice and turn it over high heat in an uncrowded pan, pressing out remaining clumps gently. Work in batches rather than packing the wok; 2–3 minutes is a first check.\n6. **Season and heat through:** Add frozen peas, light soy sauce, oyster sauce, and 1/2 of the toasted sesame oil, including the remaining half of the sesame oil. Toss until peas and rice are hot throughout, checking the cold-rice mixture at 165°F / 74°C in several places. Do not stop at a fixed two-minute clock if cold clumps remain.\n7. **Fold and serve:** Fold in all the fully cooked egg ribbons and serve promptly among the listed portions. More omelets, sausage preparation or rice batches lengthen the schedule.\n",
+      "capacity": [
+        "Use properly refrigerated cooked jasmine rice; break cold clumps gently with clean hands or a utensil. A day on the counter is not a rice-chilling method.",
+        "Read the lap cheong package before slicing. Raw pork sausage needs 160°F / 71°C; a poultry sausage needs 165°F / 74°C. Follow package cooking directions, preparing whole links first if needed to measure the center reliably.",
+        "Have a wok with enough room to turn the rice; use additional pans or batches at larger scales. Split every ingredient proportionally between batches."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": ["493885bbunsupportedblackvinegarremoved"],
+  "remainingQuestions": [
+    "Which lap cheong product, meat type and cook-before-eating label is used?",
+    "Does the original three-omelet allocation or current one-teaspoon egg-stage allocation release cleanly in the actual wok?",
+    "Measure batch capacity and elapsed time; four portions and cooked-to-dry rice conversion are not kitchen measured."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

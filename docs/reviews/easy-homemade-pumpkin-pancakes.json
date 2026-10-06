@@ -1,0 +1,602 @@
+{
+  "slug": "easy-homemade-pumpkin-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "983567216ab4057665a1d7d3b59cb2a758814935b39cfce3ebbda1784cde99c7",
+  "acceptedSourceSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["no-cook"],
+      "after": ["griddle"]
+    },
+    {
+      "field": "totalTime",
+      "before": "30 min",
+      "after": "About 35 min (longer for a small skillet)"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2 cups All-Purpose Flour",
+        "1 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "1 3/4 cups Whole Milk",
+        "1 large Egg",
+        "2 tbsp Vegetable or Avocado Oil",
+        "3 tbsp Light Brown Sugar, packed",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "2 tsp Pumpkin Pie Spice",
+        "1/2 tsp Sea Salt"
+      ],
+      "after": [
+        "2 cups All-Purpose Flour",
+        "1 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "1 3/4 cups Whole Milk",
+        "1 large Egg",
+        "2 tbsp Vegetable or Avocado Oil",
+        "3 tbsp Light Brown Sugar, packed",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "2 tsp Pumpkin Pie Spice",
+        "1/2 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 410,
+        "protein": 11.5,
+        "carbs": 63.5,
+        "fat": 12,
+        "fiber": 1.5,
+        "sugar": 15.5,
+        "sodium": 1210
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["griddle", "mixing-bowl", "spatula"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Moisten a pumpkin batter fully, then cook its thick centers before they overbrown.",
+        "outcome": "Tender pumpkin pancakes with evenly distributed spice and cooked centers beneath lightly browned surfaces.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+          "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "Brown-sugar lumps are broken up and the dry mixture looks even.",
+            "why": "Sugar, salt and leaveners must be distributed before they meet the wet pumpkin."
+          },
+          {
+            "step": 3,
+            "cue": "All flour is moistened, with no dry pockets on the bowl bottom.",
+            "why": "Small hydrated lumps are acceptable; dry flour pockets are not a tenderness technique."
+          },
+          {
+            "step": 7,
+            "cue": "Both surfaces are lightly browned and the middle has no wet batter.",
+            "why": "Pumpkin’s moisture and thicker portions can leave an uncooked center behind a browned surface."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Raw middle beneath a browned outside",
+            "cause": "High heat or a thick mound of batter.",
+            "fix": "Lower the heat and keep cooking until the center is set. Use the quarter-cup scoop and gently spread a mound for the next pancake."
+          },
+          {
+            "problem": "Tough or rubbery pancakes",
+            "cause": "Too much mixing after flour entered or a center that has not finished cooking.",
+            "fix": "Check whether the center is cooked first. For the next batch, stop mixing once all flour is moistened; extra cooking cannot undo overworked flour."
+          },
+          {
+            "problem": "Sweet gritty spots",
+            "cause": "Packed brown sugar remained in lumps.",
+            "fix": "Break up sugar in the dry mixture before adding it to the pumpkin batter."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Vegetable oil in the batter",
+            "alternative": "Avocado oil at the same listed amount",
+            "effect": "Retains the measured fat volume; flavor depends on the oil. This is separate from pan grease."
+          },
+          {
+            "ingredient": "Pure pumpkin puree",
+            "alternative": "Unsweetened homemade pumpkin puree",
+            "effect": "Moisture and thickness may differ from canned puree. Keep the listed amount and record texture rather than replacing it with pumpkin pie filling."
+          }
+        ],
+        "timing": "Allow about 35 minutes: 10 minutes preparation, the five-minute rest with griddle heating, then about 20 minutes to cook the original four planning portions in rounds. Smaller pans and larger batches need more rounds. Keep the quarter-cup scoop and check each center; the resting time and heat setting do not multiply.",
+        "storage": "Refrigerate cooked pancakes within 2 hours (1 hour above 90°F), at 40°F or below, for 3–4 days. Freeze separated pancakes airtight for longer storage. Reheat to 165°F throughout before adding butter or syrup.",
+        "sources": [
+          {
+            "title": "Joanne Gallagher — Pumpkin Pancakes, Inspired Taste",
+            "url": "https://www.inspiredtaste.net/8896/pumpkin-pancakes/"
+          },
+          {
+            "title": "Kye Ameden — Don’t make this pancake mistake, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nPumpkin puree adds weight and moisture that can make pancakes rubbery. Mix dry into wet ingredients until just combined - a few small lumps are fine and actually prevent tough, overworked gluten. Whisking until completely smooth destroys the fluffy texture.\n\n## Directions\n\n1.  **Dry Mix:** In a medium bowl, whisk together flour, brown sugar, baking powder, baking soda, spice mix, and salt.\n2.  **Wet Mix:** In a large bowl, whisk milk, pumpkin puree, egg, and oil until perfectly smooth and emulsified.\n3.  **Combine:** Gradually add the dry mix to the pumpkin mixture. Stir with a spatula until the large clumps disappear. **Stop stirring immediately** - even if there are tiny lumps.\n4.  **The Rest:** Let the batter sit for 5 minutes while you heat the griddle (The Hydration Rest).\n5.  **Prep:** Heat a skillet or griddle over medium heat. Lightly grease with butter or oil spray.\n6.  **Pour:** Use a 1/4 cup scoop to drop batter onto the skillet.\n7.  **Flip:** Cook for about 2 minutes until bubbles form on the surface and the edges look matte and dry. Flip and cook for 1-2 more minutes until golden brown.\n8.  **Serve:** Serve with salted butter and warm maple syrup.\n",
+    "after": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Classification",
+      "field": null,
+      "rationale": "The full recipe requires skillet/griddle heat; no-cook directly mislabels the method.",
+      "confidence": "high",
+      "applicableSources": ["https://www.inspiredtaste.net/8896/pumpkin-pancakes/"],
+      "sourceApplicability": "The full recipe requires skillet/griddle heat; no-cook directly mislabels the method.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-2",
+      "title": "Complete mixing",
+      "field": null,
+      "rationale": "A gentle mixing stop is appropriate only after all dry flour is moistened. The wet puree can be whisked smooth before flour enters.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake",
+        "https://www.inspiredtaste.net/8896/pumpkin-pancakes/"
+      ],
+      "sourceApplicability": "A gentle mixing stop is appropriate only after all dry flour is moistened. The wet puree can be whisked smooth before flour enters.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-3",
+      "title": "Doneness",
+      "field": null,
+      "rationale": "The primary recipe explicitly requires a cooked middle; exterior color alone is incomplete for thick moist pumpkin batter.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.inspiredtaste.net/8896/pumpkin-pancakes/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+      ],
+      "sourceApplicability": "The primary recipe explicitly requires a cooked middle; exterior color alone is incomplete for thick moist pumpkin batter.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-4",
+      "title": "Elapsed timing",
+      "field": null,
+      "rationale": "Ten preparation plus five resting plus twenty cooking minutes includes the retained rest without pretending the first pancake cycle is the whole batch.",
+      "confidence": "high",
+      "applicableSources": ["https://www.inspiredtaste.net/8896/pumpkin-pancakes/"],
+      "sourceApplicability": "Ten preparation plus five resting plus twenty cooking minutes includes the retained rest without pretending the first pancake cycle is the whole batch.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": ["Measure actual count/capacity/batch duration."]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/easy-homemade-pumpkin-pancakes.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native ingredient quantities and four approximate portions match frozen. Current Joanne Gallagher recipe still uses these measured quantities but labels ten pancakes; keep four planning portions without inventing a new physical piece count.",
+    "Native brown sugar is in the dry mixture, current publisher in wet. Retain the original dry destination, breaking lumps. The current Mise five-minute rest is not a publisher mandate; it is retained, included in timing, and not propagated to other batters."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "2 cups All-Purpose Flour",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2; puree not pie filling",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 3/4 cups Whole Milk",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 large Egg",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tbsp Vegetable or Avocado Oil",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2; full measured oil in batter",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "3 tbsp Light Brown Sugar, packed",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1; break lumps",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Baking Powder",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Baking Soda",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Pumpkin Pie Spice",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Sea Salt",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Butter or oil spray for the skillet",
+        "destination": "grease step 5; refresh step 7",
+        "provenance": "frozen step 5 and native pan-greasing instruction",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      },
+      {
+        "ingredient": "Salted butter and maple syrup for serving (optional)",
+        "destination": "serve step 8",
+        "provenance": "frozen step 8",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Dry mix: Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed."
+    },
+    {
+      "step": 2,
+      "text": "Wet mix: In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth."
+    },
+    {
+      "step": 3,
+      "text": "Combine: Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth."
+    },
+    {
+      "step": 4,
+      "text": "Rest: Let the batter sit for 5 minutes while the griddle heats."
+    },
+    {
+      "step": 5,
+      "text": "Prepare the pan: Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter."
+    },
+    {
+      "step": 6,
+      "text": "Portion: Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges."
+    },
+    {
+      "step": 7,
+      "text": "Cook and turn: Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed."
+    },
+    {
+      "step": 8,
+      "text": "Serve: Serve immediately with salted butter and warm maple syrup if desired."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Vegetable oil in the batter",
+      "alternative": "Avocado oil at the same listed amount",
+      "effect": "Retains the measured fat volume; flavor depends on the oil. This is separate from pan grease."
+    },
+    {
+      "ingredient": "Pure pumpkin puree",
+      "alternative": "Unsweetened homemade pumpkin puree",
+      "effect": "Moisture and thickness may differ from canned puree. Keep the listed amount and record texture rather than replacing it with pumpkin pie filling."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": [
+      "honey-glazed-carrots",
+      "avocado-kale-caesar-salad",
+      "roasted-sunchokes-with-brown-butter-cider-vinaigrette"
+    ],
+    "preservedBodyRecipeLinks": [],
+    "incomingRecipes": ["old-fashioned.md"],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "Two cups flour, one cup pumpkin, 1 3/4 cups whole milk, one egg and two tablespoons oil remain. Brown sugar 3 tbsp, powder 2 tsp, soda 1 tsp, spice 2 tsp and salt 1/2 tsp remain; no acid or leavener normalization. Four is a planning portion count, not four pancakes. Current publisher ten-piece claim is not imported into this whole-batch geometry. Quarter-cup scoop and set-center cues remain; five-minute frozen rest is retained and counted in approximate 35-minute elapsed planning.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 cup All-Purpose Flour",
+        "1/4 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "0.44 cup Whole Milk",
+        "1/4 large Egg",
+        "1/2 tbsp Vegetable or Avocado Oil",
+        "3/4 tbsp Light Brown Sugar, packed",
+        "1/2 tsp Baking Powder",
+        "1/4 tsp Baking Soda",
+        "1/2 tsp Pumpkin Pie Spice",
+        "1/8 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "1 portion",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup All-Purpose Flour",
+        "1/2 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "7/8 cup Whole Milk",
+        "1/2 large Egg",
+        "1 tbsp Vegetable or Avocado Oil",
+        "1 1/2 tbsp Light Brown Sugar, packed",
+        "1 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1 tsp Pumpkin Pie Spice",
+        "1/4 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "2 portions",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 cups All-Purpose Flour",
+        "1 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "1 3/4 cups Whole Milk",
+        "1 large Egg",
+        "2 tbsp Vegetable or Avocado Oil",
+        "3 tbsp Light Brown Sugar, packed",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "2 tsp Pumpkin Pie Spice",
+        "1/2 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 cups All-Purpose Flour",
+        "1 1/2 cups Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "2 5/8 cups Whole Milk",
+        "1 1/2 large Eggs",
+        "3 tbsp Vegetable or Avocado Oil",
+        "4 1/2 tbsp Light Brown Sugar, packed",
+        "3 tsp Baking Powder",
+        "1 1/2 tsp Baking Soda",
+        "3 tsp Pumpkin Pie Spice",
+        "3/4 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "6 portions",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 cups All-Purpose Flour",
+        "2 cups Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "3 1/2 cups Whole Milk",
+        "2 large Eggs",
+        "4 tbsp Vegetable or Avocado Oil",
+        "6 tbsp Light Brown Sugar, packed",
+        "4 tsp Baking Powder",
+        "2 tsp Baking Soda",
+        "4 tsp Pumpkin Pie Spice",
+        "1 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "8 portions",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 cups All-Purpose Flour",
+        "3 cups Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "5 1/4 cups Whole Milk",
+        "3 large Eggs",
+        "6 tbsp Vegetable or Avocado Oil",
+        "9 tbsp Light Brown Sugar, packed",
+        "6 tsp Baking Powder",
+        "3 tsp Baking Soda",
+        "6 tsp Pumpkin Pie Spice",
+        "1 1/2 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "12 portions",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 cups All-Purpose Flour",
+        "1 cup Pure Pumpkin Puree (Not pumpkin pie filling)",
+        "1 3/4 cups Whole Milk",
+        "1 large Egg",
+        "2 tbsp Vegetable or Avocado Oil",
+        "3 tbsp Light Brown Sugar, packed",
+        "2 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "2 tsp Pumpkin Pie Spice",
+        "1/2 tsp Sea Salt",
+        "Butter or oil spray for the skillet",
+        "Salted butter and maple syrup for serving (optional)"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nPumpkin puree gives the batter moisture and body. Whisk the pumpkin mixture smooth before flour enters, then stir the dry ingredients in only until fully moistened. Small hydrated lumps are fine; cook modest portions until their middles are set as well as their surfaces browned.\n\n## Directions\n\n1. **Dry mix:** Whisk together the flour, brown sugar, baking powder, baking soda, pumpkin pie spice, and salt in a medium bowl. Break up any brown-sugar lumps so the sugar and leaveners are evenly distributed.\n2. **Wet mix:** In a large bowl, whisk the milk, pumpkin puree, egg, and the measured vegetable or avocado oil until evenly blended and smooth.\n3. **Combine:** Add the dry mixture gradually to the pumpkin mixture, stirring with a spatula until no dry flour pockets remain on the bottom or sides. Stop once combined; small hydrated lumps may remain. Do not beat the flour batter smooth.\n4. **Rest:** Let the batter sit for 5 minutes while the griddle heats.\n5. **Prepare the pan:** Heat a skillet or griddle over medium heat. Lightly grease with the separate butter or oil-spray allowance; the measured oil all belongs in the batter.\n6. **Portion:** Drop batter by 1/4 cupfuls, leaving space to turn the pancakes. If it mounds, spread each portion gently with the back of the scoop so its center is not much thicker than the edges.\n7. **Cook and turn:** Cook until the edges look set and the underside is lightly browned, with small bubbles on top, about 2 minutes. Flip gently and cook about 1–2 minutes more, until the middle is cooked through with no wet batter. If the outside browns too quickly, lower the heat and keep cooking the center. Repeat with the remaining batter, renewing the light pan coating as needed.\n8. **Serve:** Serve immediately with salted butter and warm maple syrup if desired.\n",
+      "capacity": [
+        "Use pure pumpkin puree, not sweetened pumpkin pie filling. Stir any separated puree together before measuring.",
+        "Measure the pan-greasing allowance separately from the two tablespoons of oil in the original batter. Have a quarter-cup scoop and a spatula ready."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Measure finished batter volume, quarter-cup pancake count and actual time on the household pan.",
+    "Compare canned versus homemade pure puree moisture without silently changing flour, milk or leavening."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

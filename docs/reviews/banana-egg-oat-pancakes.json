@@ -1,0 +1,495 @@
+{
+  "slug": "banana-egg-oat-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "5e6222db1834cf33db49a9a2608be6c811c110fc83cb4f22e6684b2a7245b4e5",
+  "acceptedSourceSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["pan-fry"],
+      "after": ["griddle"]
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 large ripe Banana (the spottier the better)",
+        "2 large Eggs",
+        "1/4 cup Rolled Oats (Old Fashioned)",
+        "1 tbsp Almond Butter or Peanut Butter",
+        "1/2 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing"
+      ],
+      "after": [
+        "1 large ripe Banana (the spottier the better)",
+        "2 large Eggs",
+        "1/4 cup Rolled Oats (Old Fashioned)",
+        "1 tbsp Almond Butter or Peanut Butter",
+        "1/2 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 810,
+        "protein": 28.5,
+        "carbs": 100,
+        "fat": 38,
+        "fiber": 14,
+        "sugar": 23.5,
+        "sodium": 2540
+      },
+      "after": null
+    },
+    {
+      "field": "equipment",
+      "before": null,
+      "after": ["nonstick-skillet", "mixing-bowl", "spatula"]
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Set a delicate banana-and-egg pancake before turning it.",
+        "outcome": "Small pancakes that flip intact, with lightly browned surfaces and fully set egg centers.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+          "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Egg is evenly mixed through the banana; visible rolled-oat flakes are fine.",
+            "why": "The binding comes from cooked egg; wheat-flour lump rules do not apply."
+          },
+          {
+            "step": 4,
+            "cue": "The edges hold their shape and the underside is golden before the spatula slides underneath.",
+            "why": "The delicate batter needs a set first side to support the turn."
+          },
+          {
+            "step": 5,
+            "cue": "No liquid egg batter remains in the center.",
+            "why": "A browned outside is not enough to establish cooked egg."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Pancakes fall apart during turning",
+            "cause": "The first side is unset or the circles are too wide.",
+            "fix": "Wait for set edges and support the whole pancake with a thin spatula. Make the next circles roughly 3 inches wide."
+          },
+          {
+            "problem": "Outside burns while the middle is loose",
+            "cause": "Heat is too high for the banana-rich egg batter.",
+            "fix": "Lower the heat and finish the current pancakes gently; refresh the pan fat rather than letting residue scorch."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Almond butter",
+            "alternative": "Peanut butter at the same listed amount",
+            "effect": "Preserves the nut-butter addition with a different flavor; both carry their own allergen considerations."
+          },
+          {
+            "ingredient": "Nut butter",
+            "alternative": "Omit it if needed",
+            "effect": "Changes flavor and richness. Keep the pancakes small and cook until set without changing the listed oats or eggs."
+          },
+          {
+            "ingredient": "Butter for the pan",
+            "alternative": "Coconut oil",
+            "effect": "Use it only as the separate cooking allowance; it changes flavor without replacing the nut butter."
+          }
+        ],
+        "timing": "Allow about 15 minutes for the original single portion: roughly 5 minutes mixing and 10 minutes for skillet heating and several small pancakes. Each round takes about 2–3 minutes on the first side and a shorter second side, continuing until set. More batter needs more rounds; no batter rest is required here.",
+        "storage": "Refrigerate cooked pancakes promptly within 2 hours (1 hour above 90°F), at 40°F or below, and use within 3 days. Freeze in separated airtight layers for longer storage; reheat to 165°F. Add fresh fruit after reheating.",
+        "sources": [
+          {
+            "title": "Erin Collins — Banana Oat Egg Pancakes, Meaningful Eats",
+            "url": "https://meaningfuleats.com/banana-egg-almond-butter-pancakes-grain-free-dairy-free/"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are a gym staple made famous by bodybuilders - a high-protein, no-flour pancake that blends banana, eggs, and oats into a batter with the texture of crepes. The banana provides natural sweetness and moisture, so these need almost no oil; cook them at medium heat or the outside browns before the inside sets.\n\n## Directions\n\n1.  **Mash:** In a medium bowl, mash the banana until almost liquid.\n2.  **Mix:** Whisk in the eggs, oats, nut butter, cinnamon, and salt until a cohesive batter forms.\n3.  **Heat:** Heat a non-stick skillet over medium heat. Add a tiny amount of butter or oil.\n4.  **Sear:** Drop 3-inch circles of batter into the pan. **Do not move them** for 3 minutes until the edges are set and bubbles appear.\n5.  **Flip:** Carefully flip and cook for only 60 seconds on the other side.\n6.  **Serve:** Serve hot with fresh fruit and a drizzle of maple syrup.\n",
+    "after": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Unsupported provenance",
+      "field": null,
+      "rationale": "Attributed primary recipe supports the hand-mixed banana/egg/oat method but does not establish the asserted bodybuilding origin or calculated protein claim.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://meaningfuleats.com/banana-egg-almond-butter-pancakes-grain-free-dairy-free/"
+      ],
+      "sourceApplicability": "Attributed primary recipe supports the hand-mixed banana/egg/oat method but does not establish the asserted bodybuilding origin or calculated protein claim.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-2",
+      "title": "Heat and doneness",
+      "field": null,
+      "rationale": "Delicate egg-rich pancakes need lower heat and set centers; a hard maximum of 60 seconds could stop cooking before the egg sets.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://meaningfuleats.com/banana-egg-almond-butter-pancakes-grain-free-dairy-free/",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+      ],
+      "sourceApplicability": "Delicate egg-rich pancakes need lower heat and set centers; a hard maximum of 60 seconds could stop cooking before the egg sets.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "ingredients",
+        "nutrition",
+        "equipment",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/banana-egg-oat-pancakes.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "Native and current publisher specify a pinch of cinnamon and an optional spoonful of nut butter; frozen Mise has 1/2 tsp cinnamon and 1 tbsp nut butter. Preserve the measured Mise adaptation rather than reversing it.",
+    "Native medium-high heat/2-minute first side/30-second second side differs from current publisher’s lower heat and frozen rigid 3-minute/60-second schedule. Proposal uses lower heat and set-center cues with approximate ranges."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1 large ripe Banana (the spottier the better)",
+        "originalDestination": "mash step 1",
+        "proposedDestination": "mash step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "mix step 2",
+        "proposedDestination": "mix step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 cup Rolled Oats (Old Fashioned)",
+        "originalDestination": "mix step 2",
+        "proposedDestination": "mix step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tbsp Almond Butter or Peanut Butter",
+        "originalDestination": "mix step 2",
+        "proposedDestination": "mix step 2; optional omission explained in learning",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Cinnamon",
+        "originalDestination": "mix step 2",
+        "proposedDestination": "mix step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "Pinch of Kosher Salt",
+        "originalDestination": "mix step 2",
+        "proposedDestination": "mix step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "Butter or Coconut Oil for searing",
+        "originalDestination": "grease step 3",
+        "proposedDestination": "light pan coating step 3 and refresh step 5",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Fresh fruit and maple syrup for serving (optional)",
+        "destination": "serve step 6",
+        "provenance": "frozen serving step 6; native bananas/maple syrup",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      },
+      {
+        "ingredient": "Chocolate chips for an optional add-in",
+        "destination": "sprinkle onto wet pancake step 4",
+        "provenance": "native original method explicitly offers a few chocolate chips",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mash: In a medium bowl, mash the banana with a fork until mostly smooth."
+    },
+    {
+      "step": 2,
+      "text": "Mix: Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended."
+    },
+    {
+      "step": 3,
+      "text": "Heat: Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface."
+    },
+    {
+      "step": 4,
+      "text": "Cook the first side: Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal."
+    },
+    {
+      "step": 5,
+      "text": "Flip and finish: Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed."
+    },
+    {
+      "step": 6,
+      "text": "Serve: Serve hot with fresh fruit and maple syrup if desired."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Almond butter",
+      "alternative": "Peanut butter at the same listed amount",
+      "effect": "Preserves the nut-butter addition with a different flavor; both carry their own allergen considerations."
+    },
+    {
+      "ingredient": "Nut butter",
+      "alternative": "Omit it if needed",
+      "effect": "Changes flavor and richness. Keep the pancakes small and cook until set without changing the listed oats or eggs."
+    },
+    {
+      "ingredient": "Butter for the pan",
+      "alternative": "Coconut oil",
+      "effect": "Use it only as the separate cooking allowance; it changes flavor without replacing the nut butter."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": [
+      "avocado-kale-caesar-salad",
+      "brownie-protein-balls",
+      "banana-oat-greek-yogurt-muffins"
+    ],
+    "preservedBodyRecipeLinks": [],
+    "incomingRecipes": [
+      "crock-pot-hot-chocolate.md",
+      "glazed-carrots.md",
+      "green-smoothie-for-kids-with-2-hidden-veggies.md"
+    ],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "One large ripe banana, two large eggs and 1/4 cup rolled oats remain unchanged, with 1 tbsp nut butter and 1/2 tsp cinnamon. This is an egg-bound hand-mixed batter, with no wheat flour or leavener. One portion is retained; no pancake count or batter volume is invented. Small 3-inch geometry and nonstick pan support replace fragile wide pancakes. Native nut-butter omission and chocolate-chip variation are retained without importing spoonful/pinch quantities.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 large ripe Banana (the spottier the better)",
+        "1/2 large Egg",
+        "0.0625 cup Rolled Oats (Old Fashioned)",
+        "1/4 tbsp Almond Butter or Peanut Butter",
+        "1/8 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 1/4",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 large ripe Banana (the spottier the better)",
+        "1 large Egg",
+        "1/8 cup Rolled Oats (Old Fashioned)",
+        "1/2 tbsp Almond Butter or Peanut Butter",
+        "1/4 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 1/2",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 large ripe Banana (the spottier the better)",
+        "2 large Eggs",
+        "1/4 cup Rolled Oats (Old Fashioned)",
+        "1 tbsp Almond Butter or Peanut Butter",
+        "1/2 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 1",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 large ripe Bananas (the spottier the better)",
+        "3 large Eggs",
+        "3/8 cup Rolled Oats (Old Fashioned)",
+        "1 1/2 tbsp Almond Butter or Peanut Butter",
+        "3/4 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 1 1/2",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 large ripe Bananas (the spottier the better)",
+        "4 large Eggs",
+        "1/2 cup Rolled Oats (Old Fashioned)",
+        "2 tbsp Almond Butter or Peanut Butter",
+        "1 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 2",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 large ripe Bananas (the spottier the better)",
+        "6 large Eggs",
+        "3/4 cup Rolled Oats (Old Fashioned)",
+        "3 tbsp Almond Butter or Peanut Butter",
+        "1 1/2 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 3",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 large ripe Banana (the spottier the better)",
+        "2 large Eggs",
+        "1/4 cup Rolled Oats (Old Fashioned)",
+        "1 tbsp Almond Butter or Peanut Butter",
+        "1/2 tsp Cinnamon",
+        "Pinch of Kosher Salt",
+        "Butter or Coconut Oil for searing",
+        "Fresh fruit and maple syrup for serving (optional)",
+        "Chocolate chips for an optional add-in"
+      ],
+      "yield": "Serves 1",
+      "methods": "\n## Chef's Note\n\nMash the ripe banana well, then whisk in the eggs and rolled oats. These small pancakes are delicate: let the first side set before moving them and use medium-low heat so the banana browns while the egg cooks through.\n\n## Directions\n\n1. **Mash:** In a medium bowl, mash the banana with a fork until mostly smooth.\n2. **Mix:** Whisk in the eggs, rolled oats, nut butter, cinnamon, and salt until evenly combined. Small oat flakes may remain; this batter is mixed by hand rather than blended.\n3. **Heat:** Heat a nonstick skillet over medium-low heat. Add enough of the separate butter or coconut oil allowance to lightly coat the surface.\n4. **Cook the first side:** Spoon small, roughly 3-inch circles into the pan, leaving room to flip. Add a few chocolate chips to the wet surface if using. Leave the pancakes undisturbed until the edges are set and the underside is golden, about 2–3 minutes. If the bottom darkens while the top is still loose, lower the heat; do not wait for bubbles as the only signal.\n5. **Flip and finish:** Slide a thin spatula fully underneath each pancake and flip gently. Cook for about 30–60 seconds more, then continue as needed until the center is set with no liquid egg batter. A thin thermometer inserted from the side should read 160°F. Repeat with the remaining batter, refreshing the light coating of butter or coconut oil as needed.\n6. **Serve:** Serve hot with fresh fruit and maple syrup if desired.\n",
+      "capacity": [
+        "Use a very ripe banana and mash it before adding eggs. Have a thin spatula and a nonstick skillet; broad pancakes are harder to support.",
+        "Keep eggs refrigerated until mixing. Nut butter belongs in the batter; butter or coconut oil is a separate pan allowance."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Measure actual banana mass, number of 3-inch pancakes and center doneness at the chosen heat.",
+    "Compare texture with and without the optional nut butter; do not change the measured base during the test."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

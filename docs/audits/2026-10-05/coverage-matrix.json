@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 643,
-    "recordedCompleteEditorial": 346,
-    "completeEditorialPending": 297,
+    "recordedCompleteEditorial": 358,
+    "completeEditorialPending": 285,
     "originalBaseline": 612,
-    "originalReviewed": 326,
+    "originalReviewed": 337,
     "consideredConsolidations": 10,
-    "originalPending": 276,
+    "originalPending": 265,
     "additionalSources": 41,
-    "additionalReviewed": 20,
-    "additionalPending": 21,
+    "additionalReviewed": 21,
+    "additionalPending": 20,
     "automatedAudit": {
       "recipes": 643,
-      "editoriallyReviewed": 346,
+      "editoriallyReviewed": 358,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 556
+      "reviewItems": 533
     },
     "accelerated": {
       "implemented": 42,
@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "112 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 346 recorded complete / 297 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 12 accepted source versions match exact remote commit [d23c5335](https://github.com/jsilton/mise/commit/d23c5335f515947ac3e91cbfbc9fd1ac87b4be8d), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37414190838) and all 12 live pages. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "112 campaign versions are verified live; 12 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1144,18 +1144,7 @@
       "baseline": "original canonical",
       "source": "Adapted from meaningfuleats.com",
       "sourceUrl": "https://meaningfuleats.com/banana-egg-almond-butter-pancakes-grain-free-dairy-free/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1163,19 +1152,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/banana-egg-oat-pancakes.md",
+        "acceptedSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/banana-egg-oat-pancakes.json",
+        "sourceSha256": "85ceee5e30ff8e23a691773847c86a22edcd37a09ccfb94b1eee3f48e7289fde"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure actual banana mass, number of 3-inch pancakes and center doneness at the chosen heat.",
+        "Compare texture with and without the optional nut butter; do not change the measured base during the test."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -1304,18 +1299,7 @@
       "baseline": "original canonical",
       "source": null,
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -1323,12 +1307,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/banana-pancakes.md",
+        "acceptedSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/banana-pancakes.json",
+        "sourceSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -1337,11 +1327,11 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Weigh the peeled two large bananas and record mashed volume to evaluate the retained approximate 3/4 cup total without silently changing the formula.",
+        "Record pancake count and full-batch duration on the 325°F griddle."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -2270,18 +2260,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Kingarthurflour.com",
       "sourceUrl": "http://www.kingarthurflour.com/recipes/blueberry-pancakes-recipe",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "no change in bounded pass",
         "acceleratedEvidence": {
@@ -2292,19 +2271,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/blueberry-pancakes.md",
+        "acceptedSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/blueberry-pancakes.json",
+        "sourceSha256": "cfbb4fb6bfb7bbbd5e11210c54baac1374a4f73eb63217ff5b93c89c0ed29a6f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual pancake count and full cooking duration with the household griddle.",
+        "Compare final center/berry distribution at the fixed quarter-cup scoop without changing the honey formula.",
+        "Observe softening during the optional brief covered-platter hold; record how long the remaining rounds take."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -3221,18 +3207,7 @@
       "baseline": "original canonical",
       "source": "Adapted from lilluna.com",
       "sourceUrl": "https://lilluna.com/buttermilk-waffles/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -3243,12 +3218,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/buttermilk-waffles.md",
+        "acceptedSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/buttermilk-waffles.json",
+        "sourceSha256": "7c235487e0a223ffe5aa6841f6e53359d73ea4aca1a477f77f6c5d9b0a5b3224"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -3257,12 +3238,11 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record the iron model, actual fill amount, cycle duration and finished waffle count.",
+        "Check whether 45–60 minutes covers the household single-iron batch and whether a larger batch needs multiple batter portions mixed separately."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -5538,18 +5518,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Taste.com.au",
       "sourceUrl": "http://www.taste.com.au/recipes/chinese-fried-rice-2/5f3be212-27bf-45a8-abae-7c2e3581f5ab",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5557,12 +5526,18 @@
         "evidence": ["docs/reviews/source-restorations-2026-10-05.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/chinese-sausage-fried-rice.md",
+        "acceptedSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/chinese-sausage-fried-rice.json",
+        "sourceSha256": "329ee17e80211ef0dd205685f853e18be7e1ee5f07177892d2119748ce23229b"
+      },
       "implementationCommits": [
         {
           "commit": "493885bb88fa96b1ab626b20a5c8ec78830f9145",
@@ -5571,11 +5546,12 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which lap cheong product, meat type and cook-before-eating label is used?",
+        "Does the original three-omelet allocation or current one-teaspoon egg-stage allocation release cleanly in the actual wok?",
+        "Measure batch capacity and elapsed time; four portions and cooked-to-dry rice conversion are not kitchen measured."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -7298,18 +7274,7 @@
       "baseline": "original canonical",
       "source": "Adapted from ambitiouskitchen.com",
       "sourceUrl": "https://www.ambitiouskitchen.com/cottage-cheese-banana-oatmeal-protein-pancakes/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -7317,19 +7282,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/cottage-cheese-banana-oatmeal-protein-pancakes.md",
+        "acceptedSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/cottage-cheese-banana-oatmeal-protein-pancakes.json",
+        "sourceSha256": "a7dcdc72c04bbfea7c4f490b5bd9efa61fb4139b01bbaa4c40c6b2af6bcacf16"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record banana edible mass, blended batter volume, blender cup and actual pancake count.",
+        "Measure center temperature, browning and time with the chosen skillet; avoid treating dark melted chocolate as raw batter.",
+        "At half batch, beat the egg and divide proportionally; a narrow cup may be necessary."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -9252,18 +9224,7 @@
       "baseline": "original canonical",
       "source": "Adapted from inspiredtaste.net",
       "sourceUrl": "https://www.inspiredtaste.net/8896/pumpkin-pancakes/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -9271,19 +9232,25 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/easy-homemade-pumpkin-pancakes.md",
+        "acceptedSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/easy-homemade-pumpkin-pancakes.json",
+        "sourceSha256": "8f5da69a70b05ba3e4d606aab029aaccc4ad02dc39df7b37680b144b0b602022"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure finished batter volume, quarter-cup pancake count and actual time on the household pan.",
+        "Compare canned versus homemade pure puree moisture without silently changing flour, milk or leavening."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -15447,18 +15414,7 @@
       "baseline": "original canonical",
       "source": "Adapted from thepioneerwoman.com",
       "sourceUrl": "https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-basil-shrimp-risotto/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -15469,12 +15425,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/lemon-basil-shrimp-risotto.md",
+        "acceptedSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/lemon-basil-shrimp-risotto.json",
+        "sourceSha256": "5300f1d1a2c68b08a0a93b92957292351db0b6c4b699603638cbac656db65732"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -15483,12 +15445,12 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual main-portion yield rather than treating publisher12servings as equal to4main servings.",
+        "Which broth concentration, rice brand and pan are used, and how much of the5–6cups is consumed?",
+        "Is the full half-cup cheese preferred stirred in or sprinkled?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -22137,18 +22099,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Myrecipes.com",
       "sourceUrl": "http://www.myrecipes.com/recipe/sausage-shrimp-quinoa-skillet",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -22156,19 +22107,26 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/sausage-shrimp-and-quinoa-skillet.md",
+        "acceptedSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sausage-shrimp-and-quinoa-skillet.json",
+        "sourceSha256": "84124c07b3b0ee12a3524813eac687bf5cc8f7a5bb1e56f773b5aef01be35476"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which chicken sausage and frozen cooked quinoa product is used?",
+        "Confirm quinoa package heat time and wide-pan capacity.",
+        "Does the household prefer the current fuller-oil/sliced route or the saved crumbled route?"
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25143,18 +25101,7 @@
       "baseline": "original canonical",
       "source": "Adapted from saveur.com",
       "sourceUrl": "https://www.saveur.com/recipes/baked-spanish-chorizo-rice/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -25165,12 +25112,18 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/spanish-rice-chorizo.md",
+        "acceptedSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/spanish-rice-chorizo.json",
+        "sourceSha256": "9fbad7178c226651c765f9f608a102e7fdeb5a1bcc38e17644cb35ad1bf374f8"
+      },
       "implementationCommits": [
         {
           "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346",
@@ -25179,12 +25132,13 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "858ff2c5458cac2663ba21fb8d1867d1986ec346"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which full route does household prefer?",
+        "Which actual chorizo label and Dutch oven capacity?",
+        "How much fat does half-pound product release for the current no-added-oil route?",
+        "Actual covered/uncovered rice outcomes, portion size and scaledpan performance remain untested."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25977,13 +25931,7 @@
       "baseline": "addition",
       "source": "Saved Paprika recipe",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25991,19 +25939,27 @@
         "evidence": ["docs/reviews/sticky-peking-meatball-rice-bowls.md"]
       },
       "completeEditorialReview": {
-        "status": "pending",
+        "status": "editorial-review",
         "record": "docs/reviews/sticky-peking-meatball-rice-bowls.md",
-        "recordImplementationCommit": "9faedba59b21bb230dcddd530489dc6e86d51bde"
+        "acceptedSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+        "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/sticky-peking-meatball-rice-bowls.json",
+        "sourceSha256": "7876ab45f031cb1f94f4c099bdee9c9ab3795d583851585ae0783ad73944af34"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which rice cooker/manual permits this coconut-milk load and ratio, including its rest cycle?",
+        "Which fully cooked frozen meatball package and piece sizes are used?",
+        "Does the saved13.5oz can mean the actual purchased label ounce convention? No inferred fluid-ounce equivalence is added.",
+        "Confirm cooked rice capacity and actual five-portion distribution."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27576,18 +27532,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Food.com",
       "sourceUrl": "http://www.food.com/recipe/the-best-belgian-waffles-63071",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -27595,19 +27540,26 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "editorial-review",
+        "record": "docs/reviews/the-best-belgian-waffles.md",
+        "acceptedSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7",
+        "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "accepted locally; implementation pending",
+        "record": "docs/reviews/the-best-belgian-waffles.json",
+        "sourceSha256": "cb132406c43a4bd63d84a3df54b39a35a1b8bfc13bf1f3b761b40b171dc4e2c7"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "pending; existing live version does not certify this accepted version"
       },
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record the actual iron model, manual fill amount and finished waffle count from this whole batch.",
+        "Measure whole-batch duration and center doneness; determine whether the 40-minute starting allowance covers the appliance.",
+        "At larger scale, compare foam stability by cooking separately mixed batches rather than holding a large folded batter for many cycles."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",

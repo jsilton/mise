@@ -34,7 +34,20 @@ test('almond loaf restores excess-water handling and complete cooling without in
 });
 test('waffles preserve formula and budget machine-dependent batches', () => {
   const { data, content } = read('buttermilk-waffles');
-  assert.equal(data.ingredients.length, 9);
+  assert.deepEqual(data.ingredients.slice(0, 9), [
+    '2 cups All-Purpose Flour',
+    '2 tbsp Sugar',
+    '2 tsp Baking Powder',
+    '1 tsp Baking Soda',
+    '1/2 tsp Sea Salt',
+    '2 cups Whole Buttermilk',
+    '1/3 cup Unsalted Butter, melted',
+    '2 large Eggs',
+    '1 tsp Vanilla Extract',
+  ]);
+  assert.equal(data.ingredients.length, 11);
+  assert.match(data.ingredients[9], /Butter or neutral oil for lightly greasing the waffle iron/);
+  assert.match(data.ingredients[10], /Salted butter, maple syrup, and fresh berries for serving/);
   assert.equal(data.cookTime, '25-40 min');
   assert.equal(data.totalTime, '45-60 min');
   assert.deepEqual(data.cookingMethods, ['griddle']);
@@ -48,7 +61,8 @@ test('blueberry pancakes preserve saved honey, exact berry allocation and rating
   assert.ok(data.ingredients.includes('2 tbsp Honey'));
   assert.ok(data.ingredients.includes('3/4 cup Fresh Blueberries'));
   assert.equal(data.rating, 5);
-  assert.match(content, /1 tbsp of blueberries/);
+  assert.match(content, /1 tbsp blueberries onto each wet surface/);
+  assert.match(content, /the original 3\/4 cup supplies twelve tablespoon portions/);
 });
 test('anadama retains its source formula, cooling-before-yeast and loaf geometry', () => {
   const { data, content } = read('anadama-bread');

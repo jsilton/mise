@@ -56,7 +56,7 @@ test('avocado sauce reserves optional water without mandatory dilution', () => {
 test('risotto uses center doneness and flexible hydration', () => {
   const { content } = read('lemon-basil-shrimp-risotto');
   assert.match(content, /opaque through the center/);
-  assert.match(content, /checking the thickest shrimp/);
+  assert.match(content, /until the thickest flesh is firm, pearly and opaque through the center/);
   assert.match(content, /center is tender with a slight bite/);
   assert.match(content, /continue with a little hot water/);
 });
@@ -69,8 +69,15 @@ test('Thai noodles restore oil and keep raw optional proteins out of the quick t
 });
 test('covered Spanish rice does not claim a direct Bomba substitution', () => {
   const { data, content } = read('spanish-rice-chorizo');
-  assert.ok(data.ingredients.includes('1.5 cups Arborio rice'));
-  assert.match(content, /Bomba and Calasparra absorb differently/);
+  const rice = data.formula.components
+    .find((c) => c.id === 'main')
+    .ingredients.find((i) => i.id === 'rice');
+  assert.deepEqual(rice.quantity, { amount: 1.5, unit: 'cup' });
+  assert.deepEqual(rice.uses, [{ step: 'rice', share: 1 }]);
+  assert.ok(data.ingredients.includes('1 1/2 cups Arborio rice'));
+  const coveredDirections = content.split('## Source-Rich Uncovered Variation')[0];
+  assert.match(coveredDirections, /Do not replace Arborio directly with Bomba or Calasparra/);
+  assert.match(coveredDirections, /or use the source variant’s uncovered method here/);
   assert.match(content, /tight-fitting lid/);
   assert.match(content, /Allow about 80 minutes/);
 });

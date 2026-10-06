@@ -1,0 +1,590 @@
+{
+  "slug": "banana-pancakes",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "8f4891bffc71deffc6131835538e763f02cba6db",
+  "inputSha256": "31545799b7fb8cd346cf91b10fcbc20e2fd42ab2e8658f8ab179bed6bcb4459d",
+  "acceptedSourceSha256": "20a64a8120e3bc04308e7ac06d5a090ac63f95f4d52a93e507dcd52f8e57d176",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["saute"],
+      "after": ["griddle"]
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30 min (longer for a small skillet)"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 1/2 cups All-Purpose Flour",
+        "2 tbsp Granulated Sugar",
+        "2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1/4 tsp Kosher Salt",
+        "1/4 tsp Ground Cinnamon",
+        "1 cup Buttermilk",
+        "2 large Ripe Bananas, mashed (about 3/4 cup total)",
+        "2 large Eggs",
+        "3 tbsp Unsalted Butter, melted and slightly cooled",
+        "1 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving"
+      ],
+      "after": [
+        "1 1/2 cups All-Purpose Flour",
+        "2 tbsp Granulated Sugar",
+        "2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1/4 tsp Kosher Salt",
+        "1/4 tsp Ground Cinnamon",
+        "1 cup Buttermilk",
+        "2 large Ripe Bananas, mashed (about 3/4 cup total)",
+        "2 large Eggs",
+        "3 tbsp Unsalted Butter, melted and slightly cooled",
+        "1 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 815,
+        "protein": 9.5,
+        "carbs": 63,
+        "fat": 60.5,
+        "fiber": 3.5,
+        "sugar": 17.5,
+        "sodium": 1590
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Fold a banana-buttermilk flour batter completely without beating it smooth.",
+        "outcome": "Tender banana pancakes with golden surfaces and fully cooked centers.",
+        "techniques": ["leavening", "temperature"],
+        "before": [
+          "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+          "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "No dry flour remains at the bottom or sides; small banana or hydrated batter lumps are visible.",
+            "why": "Complete gentle mixing avoids flour pockets without working the wheat batter excessively."
+          },
+          {
+            "step": 5,
+            "cue": "Set edges and a golden underside support the turn; the second side finishes a cooked center.",
+            "why": "Banana moisture can leave a loose center even when the outside looks browned."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Flour streaks remain inside pancakes",
+            "cause": "The fold stopped before the bottom of the bowl was incorporated.",
+            "fix": "Gently fold the remaining batter until dry pockets disappear; leave small hydrated lumps."
+          },
+          {
+            "problem": "Pancakes are dark outside and wet inside",
+            "cause": "The pan is too hot or pancakes are thick.",
+            "fix": "Lower the heat and continue cooking until the center is set. Keep the third-cup scoop rather than making larger pancakes."
+          },
+          {
+            "problem": "Pancakes are tough",
+            "cause": "The flour batter was beaten too long.",
+            "fix": "Fold the next batch briefly once flour enters. More resting or cooking cannot undo an already tough crumb."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Butter for greasing",
+            "alternative": "Neutral oil",
+            "effect": "Use it as the separate griddle allowance; keep the measured melted butter in the batter."
+          },
+          {
+            "ingredient": "Ripe bananas",
+            "alternative": "Use similarly ripe bananas at the listed batch amount",
+            "effect": "Green bananas mash and sweeten differently; extra syrup does not repair an underripe banana texture."
+          }
+        ],
+        "timing": "Allow about 30 minutes for the original four planning portions: 10 minutes preparation, 5 minutes rest with griddle heating and about 15 minutes cooking on a broad griddle. A smaller skillet takes more rounds. The third-cup scoop and per-round cooking do not grow when ingredients are scaled.",
+        "storage": "Refrigerate cooked pancakes within 2 hours (1 hour above 90°F), at 40°F or below, for 3–4 days. Freeze separated pancakes airtight for up to 2 months for quality. Reheat to 165°F throughout; add sliced banana after reheating.",
+        "sources": [
+          {
+            "title": "Kye Ameden — Don’t make this pancake mistake, King Arthur Baking",
+            "url": "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+          },
+          {
+            "title": "FDA — What You Need to Know About Egg Safety",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety"
+          },
+          {
+            "title": "FDA — Handling Flour Safely",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThese are real pancakes with real batter -- not the two-ingredient banana-egg variety that falls apart on the griddle. Mashing ripe bananas into a proper buttermilk batter gives you fluffy, tender pancakes with unmistakable banana flavor throughout. The key to height and fluffiness is not overmixing: lumps in the batter are fine and even desirable. Overmixing activates gluten, which makes pancakes tough and flat. Let the batter rest for 5 minutes after mixing so the baking powder can start working.\n\n## Directions\n\n1.  **Mix Dry:** In a large bowl, whisk together flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2.  **Mix Wet:** In a separate bowl, combine buttermilk, mashed bananas, eggs, melted butter, and vanilla. Stir until just combined.\n3.  **Combine:** Pour the wet ingredients into the dry ingredients. Fold gently with a spatula until just combined -- the batter should be lumpy with a few streaks of flour still visible. Do not whisk. Let the batter rest for 5 minutes.\n4.  **Heat the Griddle:** Heat a griddle or large nonstick skillet over medium heat (325°F if using an electric griddle). Lightly grease with butter. Test with a drop of water -- it should sizzle and evaporate within a second.\n5.  **Cook:** Pour 1/3 cup batter per pancake. Cook until the surface is covered in bubbles that begin to pop and the edges look set, about 2-3 minutes. Flip and cook for 1-2 minutes more until golden brown on the bottom and cooked through.\n6.  **Serve:** Stack pancakes and top with sliced bananas, a pat of butter, and warm maple syrup. Leftover pancakes freeze well -- cool completely, layer between parchment paper, and store in a freezer bag for up to 2 months. Reheat in a toaster.\n",
+    "after": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n"
+  },
+  "findings": [
+    {
+      "id": "GR-1",
+      "title": "Complete mixing",
+      "field": null,
+      "rationale": "Small hydrated lumps can remain; intentionally visible dry flour can leave raw flour pockets. This is a hand-folded wheat batter, not the blended oat batter.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+      ],
+      "sourceApplicability": "Small hydrated lumps can remain; intentionally visible dry flour can leave raw flour pockets. This is a hand-folded wheat batter, not the blended oat batter.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "GR-2",
+      "title": "Elapsed timing",
+      "field": null,
+      "rationale": "The retained five-minute rest is additional to ten minutes preparation and the fifteen-minute broad-griddle cooking allowance.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+      ],
+      "sourceApplicability": "The retained five-minute rest is additional to ten minutes preparation and the fifteen-minute broad-griddle cooking allowance.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": ["Record whole-batch timing and actual number of third-cup pancakes."]
+    },
+    {
+      "id": "GR-3",
+      "title": "Classification",
+      "field": null,
+      "rationale": "The method cooks portioned batter on a griddle or skillet rather than tossing ingredients in sauté.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.kingarthurbaking.com/blog/2017/04/20/dont-make-this-pancake-mistake"
+      ],
+      "sourceApplicability": "The method cooks portioned batter on a griddle or skillet rather than tossing ingredients in sauté.",
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/banana-pancakes.md",
+    "introductionScope": "Verified earliest retained canonical Markdown for this path; not a claim of oldest HTML introduction",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": "Recipe-specific publisher comparisons and source differences retained in the author evidence and independent whole challenge.",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    "No external author or source URL exists in the frozen recipe or first committed fd4f07a8 addition. King Arthur supports only gentle wheat-batter mixing, not this recipe’s authorship or quantities.",
+    "Two large bananas and approximately 3/4 cup total are a retained approximation, not a newly verified weight. Prior accepted a2c9e280 clarified total; no substitute mass or fruit quantity is invented."
+  ],
+  "ledger": {
+    "frozenInput": [
+      {
+        "originalQuantityAndPreparation": "1 1/2 cups All-Purpose Flour",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tbsp Granulated Sugar",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 tsp Baking Powder",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/2 tsp Baking Soda",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 tsp Kosher Salt",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1/4 tsp Ground Cinnamon",
+        "originalDestination": "dry step 1",
+        "proposedDestination": "dry step 1",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 cup Buttermilk",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Ripe Bananas, mashed (about 3/4 cup total)",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2; approximately 3/4 cup total remains original-batch equivalent",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "2 large Eggs",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "3 tbsp Unsalted Butter, melted and slightly cooled",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2; all measured butter in batter",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "1 tsp Vanilla Extract",
+        "originalDestination": "wet step 2",
+        "proposedDestination": "wet step 2",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "Butter or oil for the griddle",
+        "originalDestination": "griddle step 4",
+        "proposedDestination": "grease step 4 and refresh step 5",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      },
+      {
+        "originalQuantityAndPreparation": "Maple syrup and sliced bananas for serving",
+        "originalDestination": "serve step 6",
+        "proposedDestination": "serve step 6",
+        "allocationFinding": "Full listed amount preserved; single destination or explicitly distinct optional use."
+      }
+    ],
+    "addedAllowances": [
+      {
+        "ingredient": "Butter for serving (optional)",
+        "destination": "serve step 6",
+        "provenance": "frozen step 6 pat of butter; separate from batter/griddle fat",
+        "quantity": null,
+        "reason": "Unmeasured cooking/serving allowance already present in the method or saved optional variant; no measured batter amount diverted."
+      }
+    ],
+    "unassignedIngredients": [],
+    "multiplyUsedMeasuredAmounts": []
+  },
+  "processGraph": [
+    {
+      "step": 1,
+      "text": "Mix the dry ingredients: In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon."
+    },
+    {
+      "step": 2,
+      "text": "Mix the wet ingredients: In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined."
+    },
+    {
+      "step": 3,
+      "text": "Fold and rest: Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes."
+    },
+    {
+      "step": 4,
+      "text": "Heat the griddle: During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance."
+    },
+    {
+      "step": 5,
+      "text": "Cook: Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed."
+    },
+    {
+      "step": 6,
+      "text": "Serve or freeze: Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout."
+    }
+  ],
+  "variantLedgers": [
+    {
+      "ingredient": "Butter for greasing",
+      "alternative": "Neutral oil",
+      "effect": "Use it as the separate griddle allowance; keep the measured melted butter in the batter."
+    },
+    {
+      "ingredient": "Ripe bananas",
+      "alternative": "Use similarly ripe bananas at the listed batch amount",
+      "effect": "Green bananas mash and sweeten differently; extra syrup does not repair an underripe banana texture."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "preservedPairsWith": [
+      "classic-french-toast",
+      "easy-breakfast-yogurt-popsicles",
+      "pumpkin-breakfast-cookies"
+    ],
+    "preservedBodyRecipeLinks": [],
+    "incomingRecipes": [],
+    "incomingMeals": [],
+    "mealDependencyFinding": "No incoming composed-meal reference found in canonical meal files; pairings remain suggestions."
+  },
+  "ratiosYieldAndCapacity": "One and a half cups flour, one cup buttermilk, two large bananas, two eggs and three tablespoons melted butter remain unchanged, with 2 tsp powder and 1/2 tsp soda. The a2c9e280 accepted approximately 3/4 cup TOTAL banana equivalent remains exactly, although actual edible mass of two large bananas needs kitchen confirmation. Four means planning portions; no new pancake count is inferred. The 1/3 cup scoop and 325°F original griddle setting remain fixed. Ten preparation + five resting + fifteen cooking minutes explains the approximate thirty-minute schedule.",
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3/8 cup All-Purpose Flour",
+        "1/2 tbsp Granulated Sugar",
+        "1/2 tsp Baking Powder",
+        "1/8 tsp Baking Soda",
+        "0.0625 tsp Kosher Salt",
+        "0.0625 tsp Ground Cinnamon",
+        "1/4 cup Buttermilk",
+        "1/2 large Ripe Banana, mashed (about 0.19 cup total)",
+        "1/2 large Egg",
+        "3/4 tbsp Unsalted Butter, melted and slightly cooled",
+        "1/4 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "1 portion",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "3/4 cup All-Purpose Flour",
+        "1 tbsp Granulated Sugar",
+        "1 tsp Baking Powder",
+        "1/4 tsp Baking Soda",
+        "1/8 tsp Kosher Salt",
+        "1/8 tsp Ground Cinnamon",
+        "1/2 cup Buttermilk",
+        "1 large Ripe Banana, mashed (about 3/8 cup total)",
+        "1 large Egg",
+        "1 1/2 tbsp Unsalted Butter, melted and slightly cooled",
+        "1/2 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "2 portions",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 cups All-Purpose Flour",
+        "2 tbsp Granulated Sugar",
+        "2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1/4 tsp Kosher Salt",
+        "1/4 tsp Ground Cinnamon",
+        "1 cup Buttermilk",
+        "2 large Ripe Bananas, mashed (about 3/4 cup total)",
+        "2 large Eggs",
+        "3 tbsp Unsalted Butter, melted and slightly cooled",
+        "1 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "2 1/4 cups All-Purpose Flour",
+        "3 tbsp Granulated Sugar",
+        "3 tsp Baking Powder",
+        "3/4 tsp Baking Soda",
+        "3/8 tsp Kosher Salt",
+        "3/8 tsp Ground Cinnamon",
+        "1 1/2 cups Buttermilk",
+        "3 large Ripe Bananas, mashed (about 1 1/8 cups total)",
+        "3 large Eggs",
+        "4 1/2 tbsp Unsalted Butter, melted and slightly cooled",
+        "1 1/2 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "6 portions",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "3 cups All-Purpose Flour",
+        "4 tbsp Granulated Sugar",
+        "4 tsp Baking Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Kosher Salt",
+        "1/2 tsp Ground Cinnamon",
+        "2 cups Buttermilk",
+        "4 large Ripe Bananas, mashed (about 1 1/2 cups total)",
+        "4 large Eggs",
+        "6 tbsp Unsalted Butter, melted and slightly cooled",
+        "2 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "8 portions",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "4 1/2 cups All-Purpose Flour",
+        "6 tbsp Granulated Sugar",
+        "6 tsp Baking Powder",
+        "1 1/2 tsp Baking Soda",
+        "3/4 tsp Kosher Salt",
+        "3/4 tsp Ground Cinnamon",
+        "3 cups Buttermilk",
+        "6 large Ripe Bananas, mashed (about 2 1/4 cups total)",
+        "6 large Eggs",
+        "9 tbsp Unsalted Butter, melted and slightly cooled",
+        "3 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "12 portions",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 1/2 cups All-Purpose Flour",
+        "2 tbsp Granulated Sugar",
+        "2 tsp Baking Powder",
+        "1/2 tsp Baking Soda",
+        "1/4 tsp Kosher Salt",
+        "1/4 tsp Ground Cinnamon",
+        "1 cup Buttermilk",
+        "2 large Ripe Bananas, mashed (about 3/4 cup total)",
+        "2 large Eggs",
+        "3 tbsp Unsalted Butter, melted and slightly cooled",
+        "1 tsp Vanilla Extract",
+        "Butter or oil for the griddle",
+        "Maple syrup and sliced bananas for serving",
+        "Butter for serving (optional)"
+      ],
+      "yield": "4 portions",
+      "methods": "\n## Chef's Note\n\nRipe banana adds flavor and moisture to this buttermilk batter. Fold the wet and dry mixtures together until all flour is moistened, then stop while small lumps remain. A five-minute rest gives the flour time to hydrate before the pancakes meet the hot griddle.\n\n## Directions\n\n1. **Mix the dry ingredients:** In a large bowl, whisk together the flour, sugar, baking powder, baking soda, salt, and cinnamon.\n2. **Mix the wet ingredients:** In another bowl, whisk together the buttermilk, mashed bananas, eggs, cooled melted butter, and vanilla until evenly combined.\n3. **Fold and rest:** Add the wet mixture to the dry and fold gently with a spatula until no dry flour pockets remain, scraping the bowl bottom and sides. Small banana lumps and hydrated batter lumps are fine. Stop mixing and let the batter rest for 5 minutes.\n4. **Heat the griddle:** During the rest, heat a griddle or large nonstick skillet over medium heat, about 325°F for an electric griddle. Lightly grease with the separate butter or oil allowance.\n5. **Cook:** Pour 1/3 cup batter per pancake, leaving room to turn them. Cook until bubbles form and begin to pop, the edges look set and the underside is golden, about 2–3 minutes. Flip gently and cook about 1–2 minutes more, until golden underneath and cooked through with no wet batter in the center. Lower the heat if the surface colors too quickly. Repeat with the remaining batter, refreshing the light coating of griddle fat as needed.\n6. **Serve or freeze:** Serve with sliced bananas, maple syrup and optional serving butter. For freezing, separate cooked pancakes on a rack to cool promptly, layer between parchment and seal in a freezer bag. Freeze for up to 2 months for quality. Reheat in a toaster or oven until hot throughout.\n",
+      "capacity": [
+        "Mash the bananas and let melted batter butter cool before combining with eggs. Measure griddle and serving fat separately from the three tablespoons in the original batter.",
+        "Use the listed banana amount; its approximate mashed total describes the original batch. When scaling, follow the listed amounts and keep the third-cup pancake scoop unchanged."
+      ]
+    }
+  ],
+  "preservedPriorRepairs": [
+    "a2c9e280 explicit approximate mashed banana TOTAL preserved byte-for-byte in the ingredient line.",
+    "Existing two-month freezing option retained as quality guidance; no recipe merger with the distinct egg/oat pancakes."
+  ],
+  "remainingQuestions": [
+    "Weigh the peeled two large bananas and record mashed volume to evaluate the retained approximate 3/4 cup total without silently changing the formula.",
+    "Record pancake count and full-batch duration on the 325°F griddle."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/rice-griddle-twelve-review.md",
+  "rootDisposition": "Root accepted all twelve complete current/final recipes after whole independent challenges and complete cooking/source-disagreement inspection. Bounded note restorations preserve prior useful portions, cultural context and Cooking Notes. Two record-only metadata fields were corrected and reversed exactly by root. Oatmeal Risotto remains wholly held; Blueberry’s historical raw-clause reversal remains unknown, so acceptance rests on verified exact full current/final text.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 67,
+    "targetedLint": "Zero errors; 1 existing missing-pairing metadata warning(s), preserved and disclosed. Linked meals remain separately unapproved.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12070,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 12 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 12,
+    "visibleMethodSteps": 84,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "Print buttons enabled on all twelve pages and shared print styles/runtime unchanged; actual print preview unverified.",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}
