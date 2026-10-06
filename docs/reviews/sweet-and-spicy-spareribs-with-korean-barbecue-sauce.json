@@ -1,0 +1,1199 @@
+{
+  "slug": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "e5e504cdca1548b3b24b2980dde02c388f56d2cf648938270462fd835ac58f30",
+  "acceptedSourceSha256": "f2952c972f72307e8f70a338641972f1bbbca5681c00940ca5fa29164d81a9db",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookTime",
+      "before": "150 min",
+      "after": "About 2 hours baking plus grilling and a 3-minute rest; longer if needed"
+    },
+    {
+      "field": "totalTime",
+      "before": "180 min",
+      "after": "About 2½–3 hours, plus remaining preheating, tenderness cooking or extra loads"
+    },
+    {
+      "field": "servings",
+      "before": "10",
+      "after": "10 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 lbs Pork Spareribs, membranes removed",
+        "1 cup Gochujang (Fermented Hot Pepper Paste)",
+        "1/2 cup Hoisin Sauce",
+        "1/2 cup Honey + 1/2 cup Soy Sauce",
+        "1/2 cup Sake (The complex flavor Pulse)",
+        "2 tbsp Rice Vinegar (The Acid Balance)",
+        "2 tbsp Fresh Ginger, grated",
+        "1 tbsp Fresh Garlic, minced",
+        "2 tbsp White Pepper"
+      ],
+      "after": [
+        "--- Ribs and current sauce ---",
+        "8 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "1 cup gochujang",
+        "1/2 cup hoisin sauce",
+        "1/2 cup honey",
+        "1/2 cup soy sauce",
+        "1/2 cup sake",
+        "2 tbsp unseasoned rice vinegar",
+        "2 tbsp fresh ginger, finely grated",
+        "1 tbsp fresh garlic, minced",
+        "2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Korea",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 80,
+        "protein": 3.5,
+        "carbs": 14.5,
+        "fat": 0,
+        "fiber": 0.5,
+        "sugar": 7,
+        "sodium": 2040
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate tenderness cooking from glaze finishing",
+        "outcome": "Tender ribs still hold together while a sticky glaze caramelizes without a burnt bitter surface.",
+        "techniques": ["braising", "browning", "temperature"],
+        "before": [
+          "Thaw ribs in the refrigerator and plan foil packets and rimmed baking sheets for the actual racks.",
+          "Reserve the clean grilling sauce and separate utensils before raw meat contact.",
+          "The original ten portions and three racks/about eight pounds are planning; actual rack dimensions and oven/grill area govern loads."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Thick meat is checked away from bone and is tender while still holding together.",
+            "why": "Minimum pork temperature and connective-tissue tenderness are different checks; time alone establishes neither."
+          },
+          {
+            "step": 5,
+            "cue": "Glaze bubbles and caramelizes without blackening.",
+            "why": "Honey and the other sweet sauces can scorch before a crowded grill load is evenly finished."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Glaze darkens too quickly",
+            "cause": "Heat is too high, sauce too thick on the surface or the grill has hot spots.",
+            "fix": "Move the ribs away from the hottest area, turn and brush lightly with a clean working sauce portion. Burnt sauce cannot be reversed by more honey or vinegar."
+          }
+        ],
+        "timing": "About 30 minutes active preparation, roughly 2 hours foil baking and 3–4 minutes per side for each current grill load, plus a 3-minute final rest. Tenderness checks, preheating and additional oven/grill loads can extend the original 2½–3-hour elapsed plan. The source high-heat version uses a separate about-4-minute total first check; it is not the current per-side schedule.",
+        "storage": "Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F / 74°C throughout, checking the center and more than one portion. The source overnight-after-baking plan is retained with measured reheating before glazing. Reheat retained leftover sauce while stirring to 165°F throughout; USDA additionally recommends a rolling boil for sauces. Keep boiling brief, since prolonged boiling concentrates this sweet glaze and can scorch it. This is leftover handling, not an initial-cook instruction or a new dilution/fat-reduction formula.",
+        "sources": [
+          {
+            "title": "Whole pork and leftover endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "Clean reserved marinade",
+            "url": "https://ask.fsis.usda.gov/article/Can-you-reuse-meat-marinade"
+          },
+          {
+            "title": "USDA cooling and sauce reheating",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "Mei Lin ribs and make-ahead option",
+            "url": "http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 10,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "main",
+            "name": "Ribs and current sauce",
+            "ingredients": [
+              {
+                "id": "ribs",
+                "key": "pork-spareribs",
+                "name": "pork spareribs",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "lb"
+                },
+                "uses": [
+                  {
+                    "step": "pack",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary"
+              },
+              {
+                "id": "gochujang",
+                "key": "gochujang",
+                "name": "gochujang",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "hoisin",
+                "key": "hoisin",
+                "name": "hoisin sauce",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "honey",
+                "key": "honey",
+                "name": "honey",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy-sauce",
+                "name": "soy sauce",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sake",
+                "key": "sake",
+                "name": "sake",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "vinegar",
+                "key": "rice-vinegar",
+                "name": "unseasoned rice vinegar",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "ginger",
+                "key": "fresh-ginger",
+                "name": "fresh ginger",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "finely grated"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "fresh garlic",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "minced"
+              },
+              {
+                "id": "pepper",
+                "key": "white-pepper",
+                "name": "ground white pepper",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "lime",
+                "key": "lime",
+                "name": "lime wedges",
+                "allowance": "for serving, if desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "sauce",
+            "title": "Mix and reserve clean sauce",
+            "text": "Whisk {{ingredients}} together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing."
+          },
+          {
+            "id": "pack",
+            "title": "Wrap the ribs",
+            "text": "Preheat the oven to 325°F. Prepare {{ingredients}}. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction."
+          },
+          {
+            "id": "bake",
+            "title": "Bake until tender",
+            "text": "Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce."
+          },
+          {
+            "id": "portion",
+            "title": "Prepare for the grill",
+            "text": "Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn."
+          },
+          {
+            "id": "glaze",
+            "title": "Glaze without scorching",
+            "text": "Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce."
+          },
+          {
+            "id": "serve",
+            "title": "Rest and serve",
+            "text": "Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with {{ingredients}}. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThe key to restaurant-quality spareribs is baking the ribs tightly sealed in heavy-duty foil. This allows the meat to steam in the gochujang marinade, breaking down the tough connective tissue into succulent meat without losing any flavor to a pot of water. We finish by grilling the sections at medium-low heat to ensure the sugar-rich sauce sets into a sticky, mahogany glaze without burning.\n\n## Directions\n\n1.  **The Sauce:** In a large bowl, whisk together gochujang, hoisin, honey, soy sauce, sake, vinegar, and all aromatics until smooth.\n2.  **Braise:** Preheat oven to 325°F. Layout three double-layers of heavy-duty foil. Place 1 rack of ribs in the center of each.\n3.  **Seal:** Brush each rack with 3/4 cup of the sauce. Wrap tightly to ensure no steam escapes. Place on rimmed baking sheets.\n4.  **Bake:** Bake for 2 hours until the meat is tender but not quite falling off the bone.\n5.  **The Crunch:** Preheat a grill to medium-low. Remove ribs from foil, wipe off excess marinade, and cut into 4-rib sections.\n6.  **Glaze:** Brush lightly with remaining sauce. Grill for 3-4 minutes per side until caramelized; watch carefully so the sugar doesn't burn.\n7.  **Serve:** Transfer to a platter. Serve with extra lime wedges for the mandatory **Acid Balance**.\n",
+    "after": "\n## Chef's Note\n\nAdapted from Mei Lin’s Food & Wine ribs, this version bakes foil-wrapped pork until tender, then glazes it over medium-low heat to limit scorching. Gochujang, honey, soy sauce and the full white pepper make the sauce sweet, spicy and savory. Reserve clean glaze before handling the raw ribs so it can finish the cooked meat.\n\n## Directions\n\n1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.\n\n## Ketchup and Finishing-Salt Version\n\nFor the complete original sauce, add 1/2 cup ketchup for the original batch, scaled proportionally, to the same full gochujang, hoisin, honey, soy sauce, sake, vinegar, ginger, garlic and white pepper before dividing the sauce. This is an additional supply for this exclusive version; the current main is ketchup-free. Bake in foil at 325°F as above. After unwrapping, cut into 3- or 4-rib sections and season with kosher salt as needed. The source used high grill heat and about 4 minutes total, turning and brushing with clean reserved sauce until glazed and lightly charred; watch closely, because this sweeter sauce burns quickly. The current medium-low grilling route can instead be used, with its longer first checks. Keep the same meat endpoint, clean-sauce handling and rest. Lime is the current optional serving addition, not part of the original sauce.\n\n## Make Ahead\n\nThe source allows baking through the foil stage, then refrigerating overnight. Complete cooking and check the meat endpoint before cooling; do not refrigerate partially cooked ribs. Divide and cool promptly in shallow containers, retaining the cooked juices with the ribs if desired, and refrigerate at 40°F / 4°C or below. For next-day service, reheat the ribs and any retained cooked juices to 165°F throughout in the oven or another suitable reheating method before the brief grill finish. A room-temperature wait or quick glaze is not a reheat endpoint. Keep the full clean reserved sauce cold separately, then glaze and rest as above.\n"
+  },
+  "findings": [
+    {
+      "id": "SPP24-R01",
+      "rationale": "Keep the full current ketchup-free main and repaired medium-low three-to-four-minutes-per-side grill route. Preserve the exact original half-cup ketchup and genuine kosher finishing salt as an exclusive complete source variation, with its different high-heat/about-four-minutes-total schedule. Full followed history establishes omission, not an explicit household rejection of the source route.",
+      "confidence": "high omission/repair; moderate restoredoptioncooking",
+      "applicableSources": [
+        "2f2553cdactualdiff",
+        "2b01ffbb",
+        "exactnative/b7/045",
+        "MeiLinFoodWine"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SPP24-R02",
+      "rationale": "Mix every full measured sauce supply once, then reserve clean refrigerated glaze before raw-rib contact. Trace prepared sauce to baking and grilling without inventing allocation fractions or finished volume. Keep original three-quarter-cup-per-original-rack context without static three-packet scaling; give the existing lime option an explicit destination.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://ask.fsis.usda.gov/article/Can-you-reuse-meat-marinade",
+        "current/nativeingredients"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SPP24-R03",
+      "rationale": "Distinguish whole-pork minimum 145°F plus three-minute rest from tender-rib cooking. Preserve the publisher’s overnight-after-complete-baking plan with prompt shallow cooling and uniformly checked 165°F reheating before a brief glaze. Add USDA’s separate leftover-sauce rolling-boil recommendation with brief-versus-prolonged texture caution, not initial boiling or dilution.",
+      "confidence": "high endpoints; moderate recipe application",
+      "applicableSources": [
+        "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "MeiLinFoodWine"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SPP24-R04",
+      "rationale": "Omit automatically assigned Korea birthplace without losing Korean style, Mei Lin attribution or the exact Food & Wine URL. Remove unsupported nutrition while preserving all gochujang, honey, pepper, sauce supplies and pork.",
+      "confidence": "high",
+      "applicableSources": ["2a7f3853", "MeiLin primary", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": [
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Sweet-And-Spicy%20Spareribs%20with%20Korean%20Barbecue%20Sauce.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Current ketchup-free/medium-low main",
+      "base": "formula",
+      "scope": "All8lbribs/full1gochu/½eachhoisin,honey,soy,sake/2Tvin,ging,pepper/1Tgarlic; limegenuineservice;2b01mediumlow3–4perSIDEprotected."
+    },
+    {
+      "name": "Complete source ketchup/salt/high-grill route",
+      "base": "samefullmainplusstatedadditionalsupplies",
+      "changes": "Additional½cupketchuporiginalbatch scaled→mix1; genuinekoshersalt→postbakepregrill;3–4ribsections/highgrill~4minTOTAL ORcurrentmediumlow option;allcorefullamountsretained",
+      "destination": "body Ketchup and Finishing-Salt Version",
+      "source": "native/b7/045/modernMeiLin",
+      "status": "separate original option; not silent main restoration"
+    },
+    {
+      "name": "Bake ahead overnight",
+      "base": "eithersauce route",
+      "destination": "completebake/shallowchill/reheat165/grill/rest",
+      "scope": "Fullcookbeforechill,notrawpartial; alloriginalfullsupplies/juicesretainedwithcoldhandling; cleanreservedglazeseparate; sourcewarmroomwaitnotreheatendpoint."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "8 lbs Pork Spareribs, membranes removed",
+        "destination": "pack2 fixed3racks evenat scale",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "1 cup Gochujang (Fermented Hot Pepper Paste)",
+        "destination": "sauce1;¾cuprack3 thenremaining6",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "1/2 cup Hoisin Sauce",
+        "destination": "sauce1",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1/2 cup Honey + 1/2 cup Soy Sauce",
+        "destination": "sauce1 fullhoney+soy twoexplicitdistinctsupplies",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/2 cup Sake (The complex flavor Pulse)",
+        "destination": "sauce1",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "2 tbsp Rice Vinegar (The Acid Balance)",
+        "destination": "sauce1",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "2 tbsp Fresh Ginger, grated",
+        "destination": "sauce1",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "1 tbsp Fresh Garlic, minced",
+        "destination": "sauce1",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 8,
+        "ingredient": "2 tbsp White Pepper",
+        "destination": "sauce1",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": ["Limewedges7"],
+    "proposed": [
+      {
+        "id": "main.ribs",
+        "key": "pork-spareribs",
+        "name": "pork spareribs",
+        "quantity": {
+          "amount": 8,
+          "unit": "lb"
+        },
+        "uses": [
+          {
+            "step": "pack",
+            "share": 1
+          }
+        ],
+        "preparation": "thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.gochujang",
+        "key": "gochujang",
+        "name": "gochujang",
+        "quantity": {
+          "amount": 1,
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.hoisin",
+        "key": "hoisin",
+        "name": "hoisin sauce",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.honey",
+        "key": "honey",
+        "name": "honey",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.soy",
+        "key": "soy-sauce",
+        "name": "soy sauce",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.sake",
+        "key": "sake",
+        "name": "sake",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.vinegar",
+        "key": "rice-vinegar",
+        "name": "unseasoned rice vinegar",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.ginger",
+        "key": "fresh-ginger",
+        "name": "fresh ginger",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "preparation": "finely grated",
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.garlic",
+        "key": "garlic",
+        "name": "fresh garlic",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "preparation": "minced",
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.pepper",
+        "key": "white-pepper",
+        "name": "ground white pepper",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "sauce",
+            "share": 1
+          }
+        ],
+        "component": "Ribs and current sauce"
+      },
+      {
+        "id": "main.lime",
+        "key": "lime",
+        "name": "lime wedges",
+        "allowance": "for serving, if desired",
+        "uses": [
+          {
+            "step": "serve",
+            "share": 1
+          }
+        ],
+        "role": "garnish",
+        "component": "Ribs and current sauce"
+      }
+    ],
+    "native": [
+      {
+        "path": "privately retained evidence",
+        "sha256": "7a353540edc51f1e1d594fdb23a06c47e5d48db4552a4915f02ca24884a848aa",
+        "bindingKind": "primary",
+        "ingredients": [
+          {
+            "index": 0,
+            "ingredient": "1 cup gochujang (see Note) 1/2 cup hoisin sauce 1/2 cup ketchup 1/2 cup honey 1/2 cup soy sauce 1/2 cup sake 2 tablespoons unseasoned rice vinegar 2 tablespoons finely grated fresh ginger 1 tablespoon finely grated garlic 2 tablespoons ground white pepper 3 racks pork spareribs (about 8 pounds), membranes removed Kosher salt",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "singlecombinednativeingredientline:all10sauceamountsmixed;fullribsfoil;kosherfinish. Exact differentiatedsupplies extractedbelow.",
+            "methodEvidence": "privately retained evidence#directions"
+          }
+        ],
+        "notesAndInstructionsReference": "privately retained evidence#directions,notes",
+        "scope": "Exact stable identity binding to durable original450; native cooking is evidence, not kitchen verification",
+        "differentiatedSupplies": [
+          {
+            "ingredient": "1 cup gochujang",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "1/2 cup hoisin sauce",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "1/2 cup ketchup",
+            "destination": "mix sauce, omitted current main, exclusive source option",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "1/2 cup honey",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "1/2 cup soy sauce",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "1/2 cup sake",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "2 tablespoons unseasoned rice vinegar",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "2 tablespoons finely grated fresh ginger",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "1 tablespoon finely grated garlic",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "2 tablespoons ground white pepper",
+            "destination": "mix sauce",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "3 racks pork spareribs (about 8 pounds), membranes removed",
+            "destination": "foil then 3- or 4-rib sections then grill",
+            "source": "privately retained evidence#ingredients,directions"
+          },
+          {
+            "ingredient": "Kosher salt",
+            "destination": "season cooked ribs before source high grill",
+            "source": "privately retained evidence#ingredients,directions"
+          }
+        ]
+      }
+    ],
+    "nativeMethodOwned": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "099ab992335b0168aca8bf958515bb1a3867337ff243286a5befa6fcfd7e8974"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "1cf7bbeb564f749b61f69113da438e20645d26c1b8f541a8f49701049082cb31"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "fcade8fc0a7f9d7bfe50a72845b257fc477ad7f78aec28a8706908eee4e5ffd3"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "41211d3f364168c5767308980b5c87af53d2ec14aab9c6e718fe4b37329df3fb"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "0a86fd708f5d1f843983d41f2d2ddba21cde16141f7f23de56553030bb7aeeb7"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "c53e3c9774896b4d99394666820f00818cd5da6d8e0ee697791559a200275e7b"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "ad9f89a7382ca3f4a209dad980ca69a2bcbc6aa2a919d0964f940d94ea1b0eca"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "sauce",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": [
+          "main.gochujang",
+          "main.hoisin",
+          "main.honey",
+          "main.soy",
+          "main.sake",
+          "main.vinegar",
+          "main.ginger",
+          "main.garlic",
+          "main.pepper"
+        ],
+        "cue": []
+      },
+      {
+        "step": 2,
+        "id": "pack",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["main.ribs"],
+        "cue": []
+      },
+      {
+        "step": 3,
+        "id": "bake",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": [],
+        "cue": ["Thick meat is checked away from bone and is tender while still holding together."]
+      },
+      {
+        "step": 4,
+        "id": "portion",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": [],
+        "cue": []
+      },
+      {
+        "step": 5,
+        "id": "glaze",
+        "textReference": "privately retained evidence#formula.steps[4].text",
+        "ingredients": [],
+        "cue": ["Glaze bubbles and caramelizes without blackening."]
+      },
+      {
+        "step": 6,
+        "id": "serve",
+        "textReference": "privately retained evidence#formula.steps[5].text",
+        "ingredients": ["main.lime"],
+        "cue": []
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Current ketchup-free/medium-low main",
+      "base": "formula",
+      "scope": "All8lbribs/full1gochu/½eachhoisin,honey,soy,sake/2Tvin,ging,pepper/1Tgarlic; limegenuineservice;2b01mediumlow3–4perSIDEprotected."
+    },
+    {
+      "name": "Complete source ketchup/salt/high-grill route",
+      "base": "samefullmainplusstatedadditionalsupplies",
+      "changes": "Additional½cupketchuporiginalbatch scaled→mix1; genuinekoshersalt→postbakepregrill;3–4ribsections/highgrill~4minTOTAL ORcurrentmediumlow option;allcorefullamountsretained",
+      "destination": "body Ketchup and Finishing-Salt Version",
+      "source": "native/b7/045/modernMeiLin",
+      "status": "separate original option; not silent main restoration"
+    },
+    {
+      "name": "Bake ahead overnight",
+      "base": "eithersauce route",
+      "destination": "completebake/shallowchill/reheat165/grill/rest",
+      "scope": "Fullcookbeforechill,notrawpartial; alloriginalfullsupplies/juicesretainedwithcoldhandling; cleanreservedglazeseparate; sourcewarmroomwaitnotreheatendpoint."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "korean-pickled-cucumbers",
+        "path": "src/content/recipes/korean-pickled-cucumbers.md",
+        "sha256": "00cd306aab3fac7924fd92d17646e50001e4e80704b93c14f0e68824abe8d90b",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
+        "path": "src/content/recipes/fresh-cabbage-cucumber-and-radish-kimchi.md",
+        "sha256": "ded5b4ef731066c810febb99df17ea4cd2296acd909fd0740e5d8f12658f2275",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "seasoned-bean-sprouts",
+        "path": "src/content/recipes/seasoned-bean-sprouts.md",
+        "sha256": "c30d5d214d9679499d1c8ab6f184515671346b89461919d46c4a1fc4257d2548",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "No incoming composed meal references this source; all outgoing component/pairing identities remain, without certifying their cooking."
+  },
+  "ratiosYieldAndCapacity": [
+    "Original3racks~8lb vscurrent8lb; do notscale literal3rackpackets orassume each2⅔lb.",
+    "Fullsaucepreparedonce; original¾cuppereachof3racks+remainingglaze, no exacttotalvolume/fraction guessed; ketchupadditional½onlysourceoption."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "2 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "1/4 cup gochujang",
+        "1/8 cup hoisin sauce",
+        "1/8 cup honey",
+        "1/8 cup soy sauce",
+        "1/8 cup sake",
+        "1/2 tbsp unseasoned rice vinegar",
+        "1/2 tbsp fresh ginger, finely grated",
+        "1/4 tbsp fresh garlic, minced",
+        "1/2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "2 1/2 portions",
+      "shopping": [
+        "2 lb pork spareribs",
+        "1/4 cup gochujang",
+        "1/8 cup hoisin sauce",
+        "1/8 cup honey",
+        "1/8 cup soy sauce",
+        "1/8 cup sake",
+        "1/2 tbsp unseasoned rice vinegar",
+        "1/2 tbsp fresh ginger",
+        "1/4 tbsp fresh garlic",
+        "1/2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "4 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "1/2 cup gochujang",
+        "1/4 cup hoisin sauce",
+        "1/4 cup honey",
+        "1/4 cup soy sauce",
+        "1/4 cup sake",
+        "1 tbsp unseasoned rice vinegar",
+        "1 tbsp fresh ginger, finely grated",
+        "1/2 tbsp fresh garlic, minced",
+        "1 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "5 portions",
+      "shopping": [
+        "4 lb pork spareribs",
+        "1/2 cup gochujang",
+        "1/4 cup hoisin sauce",
+        "1/4 cup honey",
+        "1/4 cup soy sauce",
+        "1/4 cup sake",
+        "1 tbsp unseasoned rice vinegar",
+        "1 tbsp fresh ginger",
+        "1/2 tbsp fresh garlic",
+        "1 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "8 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "1 cup gochujang",
+        "1/2 cup hoisin sauce",
+        "1/2 cup honey",
+        "1/2 cup soy sauce",
+        "1/2 cup sake",
+        "2 tbsp unseasoned rice vinegar",
+        "2 tbsp fresh ginger, finely grated",
+        "1 tbsp fresh garlic, minced",
+        "2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "10 portions",
+      "shopping": [
+        "8 lb pork spareribs",
+        "1 cup gochujang",
+        "1/2 cup hoisin sauce",
+        "1/2 cup honey",
+        "1/2 cup soy sauce",
+        "1/2 cup sake",
+        "2 tbsp unseasoned rice vinegar",
+        "2 tbsp fresh ginger",
+        "1 tbsp fresh garlic",
+        "2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "12 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "1 1/2 cups gochujang",
+        "3/4 cup hoisin sauce",
+        "3/4 cup honey",
+        "3/4 cup soy sauce",
+        "3/4 cup sake",
+        "3 tbsp unseasoned rice vinegar",
+        "3 tbsp fresh ginger, finely grated",
+        "1 1/2 tbsp fresh garlic, minced",
+        "3 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "15 portions",
+      "shopping": [
+        "12 lb pork spareribs",
+        "1 1/2 cups gochujang",
+        "3/4 cup hoisin sauce",
+        "3/4 cup honey",
+        "3/4 cup soy sauce",
+        "3/4 cup sake",
+        "3 tbsp unseasoned rice vinegar",
+        "3 tbsp fresh ginger",
+        "1 1/2 tbsp fresh garlic",
+        "3 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "16 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "2 cups gochujang",
+        "1 cup hoisin sauce",
+        "1 cup honey",
+        "1 cup soy sauce",
+        "1 cup sake",
+        "4 tbsp unseasoned rice vinegar",
+        "4 tbsp fresh ginger, finely grated",
+        "2 tbsp fresh garlic, minced",
+        "4 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "20 portions",
+      "shopping": [
+        "16 lb pork spareribs",
+        "2 cups gochujang",
+        "1 cup hoisin sauce",
+        "1 cup honey",
+        "1 cup soy sauce",
+        "1 cup sake",
+        "4 tbsp unseasoned rice vinegar",
+        "4 tbsp fresh ginger",
+        "2 tbsp fresh garlic",
+        "4 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "24 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "3 cups gochujang",
+        "1 1/2 cups hoisin sauce",
+        "1 1/2 cups honey",
+        "1 1/2 cups soy sauce",
+        "1 1/2 cups sake",
+        "6 tbsp unseasoned rice vinegar",
+        "6 tbsp fresh ginger, finely grated",
+        "3 tbsp fresh garlic, minced",
+        "6 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "30 portions",
+      "shopping": [
+        "24 lb pork spareribs",
+        "3 cups gochujang",
+        "1 1/2 cups hoisin sauce",
+        "1 1/2 cups honey",
+        "1 1/2 cups soy sauce",
+        "1 1/2 cups sake",
+        "6 tbsp unseasoned rice vinegar",
+        "6 tbsp fresh ginger",
+        "3 tbsp fresh garlic",
+        "6 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Ribs and current sauce ---",
+        "8 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3 racks, actual rack sizes vary",
+        "1 cup gochujang",
+        "1/2 cup hoisin sauce",
+        "1/2 cup honey",
+        "1/2 cup soy sauce",
+        "1/2 cup sake",
+        "2 tbsp unseasoned rice vinegar",
+        "2 tbsp fresh ginger, finely grated",
+        "1 tbsp fresh garlic, minced",
+        "2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "yield": "10 portions",
+      "shopping": [
+        "8 lb pork spareribs",
+        "1 cup gochujang",
+        "1/2 cup hoisin sauce",
+        "1/2 cup honey",
+        "1/2 cup soy sauce",
+        "1/2 cup sake",
+        "2 tbsp unseasoned rice vinegar",
+        "2 tbsp fresh ginger",
+        "1 tbsp fresh garlic",
+        "2 tbsp ground white pepper",
+        "lime wedges, for serving, if desired"
+      ],
+      "directions": "1. **Mix and reserve clean sauce:** Whisk gochujang, hoisin sauce, honey, soy sauce, sake, unseasoned rice vinegar, fresh ginger, fresh garlic, and ground white pepper together. Before touching raw ribs, divide the sauce into a baking portion and a separate clean glazing portion. Keep the glazing portion covered and refrigerated until needed; use separate clean utensils for it. For the original roughly three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together and distribute its baking portion across the actual ribs, retaining sauce for glazing.\n2. **Wrap the ribs:** Preheat the oven to 325°F. Prepare pork spareribs. Lay double layers of heavy-duty foil for each actual rack or section and set the meat meaty-side up. Brush with the baking sauce portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange on enough rimmed baking sheets to support the packets and catch leaks; the original used two large sheets. More ribs need more packets and oven loads, not a fixed three-packet instruction.\n3. **Bake until tender:** Bake about 2 hours as a first check, continuing until the meat is tender but still holds to the bones. Check thick meat away from bone with a thermometer: whole pork must reach at least 145°F before heat removal, and ultimately rest at least 3 minutes before eating; tenderness may need much more cooking than that minimum. Open foil carefully away from your face. Keep foil juices separate from the clean glazing sauce.\n4. **Prepare for the grill:** Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into 4-rib sections as the current version does. Use enough grill area or successive loads so the pieces are easy to turn.\n5. **Glaze without scorching:** Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first check, turning and watching until the glaze caramelizes without burning. Keep utensils that touch the cooked ribs out of the clean sauce bowl, using a separate small working portion for brushing. The char and clock do not replace the meat endpoint. Discard any remaining contaminated working sauce.\n6. **Rest and serve:** Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve with lime wedges. Keep any unused clean sauce separate; do not serve raw-contact marinade or unheated foil juices as extra sauce.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    }
+  ],
+  "preservedPriorRepairs": "2b01ffbb medium-low grill/3–4 minutes per side/scorch watch retained in current ketchup-free main. Exact omitted ketchup/finishing salt and different high-heat total-time route remain an exclusive original option, not a silent primary replacement.",
+  "remainingQuestions": [
+    "Which ketchup-freecurrent versus½cupketchup/sourcefinish-salt route iswanted? No householdintentinvented.",
+    "What actualrackcount/dimensions and sauceyield permitbakingportion/cleanreservedglaze across8lb? Exact¾peroriginal3racks iscontext, notnewweightconversion.",
+    "What originaloven/grillloads andtendernessclock result? Sourcehigh~4TOTAL differsprotectedcurrentmediumlow3–4perSIDE."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

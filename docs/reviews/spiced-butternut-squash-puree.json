@@ -1,0 +1,1008 @@
+{
+  "slug": "spiced-butternut-squash-puree",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "25a593639c733af3c69aaab5fea922f4ab211c21579bbfd2cf5b8b9d0f35af3a",
+  "acceptedSourceSha256": "acb25f35f6d68b46d791acbde46a03fd3b1ad8c4ddf4f50c6c2dbc3ec0500999",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "USA",
+      "after": null
+    },
+    {
+      "field": "totalTime",
+      "before": "55 min",
+      "after": "About 55 min, plus remaining preheating, processing or extra roasting batches"
+    },
+    {
+      "field": "servings",
+      "before": "6",
+      "after": "6 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 large butternut squash (about 3-4 pounds), peeled, seeded, and cut into 1-inch cubes",
+        "2 tablespoons olive oil (for roasting)",
+        "1/2 cup unsalted butter, cut into pieces, room temperature",
+        "1/4 cup sugar (adjust gradually to taste)",
+        "1/8 cup pure maple syrup",
+        "1/2 teaspoon freshly grated nutmeg",
+        "1/2 teaspoon freshly ground black pepper",
+        "Salt to taste"
+      ],
+      "after": [
+        "--- Purée ---",
+        "1 (3–4 lb) large butternut squash, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/2 cup unsalted butter, cut into pieces, at room temperature",
+        "1/4 cup sugar",
+        "1/8 cup pure maple syrup",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ]
+    },
+    {
+      "field": "cookingMethods",
+      "before": ["bake", "roast", "boil", "blend"],
+      "after": ["roast", "blend", "simmer"]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 465,
+        "protein": 0.5,
+        "carbs": 36,
+        "fat": 37,
+        "fiber": 0,
+        "sugar": 33,
+        "sodium": 240
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Check tenderness before mashing",
+        "outcome": "Soft squash blends with the full butter and sweeteners into a rich mash, with no firm chunks.",
+        "techniques": ["starch", "seasoning"],
+        "before": [
+          "Choose enough roasting area for a single layer before loading; the 3–4-pound whole-squash range describes the original squash supply, not peeled yield.",
+          "Have butter at room temperature and choose the hand masher unless the actual processor permits the hot-food load.",
+          "Choose roasted cubes or the complete boiled-quarter variation before preparing the squash."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "A fork slides easily into the centers, with golden edges in the roasting route.",
+            "why": "The exterior can brown while the interior still resists; firm centers leave lumps."
+          },
+          {
+            "step": 2,
+            "cue": "Butter melts through soft squash as it is mashed.",
+            "why": "The hot squash incorporates the full butter without needing added water or a new dairy dose."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Firm pieces remain after mashing",
+            "cause": "Squash browned before the centers softened.",
+            "fix": "Continue cooking the firm squash until easily pierced. Do not rely on extra blending to repair an undercooked center; match the actual processor temperature and load limits."
+          }
+        ],
+        "timing": "The current original batch has about 15 minutes preparation and 30–40 minutes roasting, followed by mashing and seasoning. Preheating, extra trays or a model-required cooling pause add elapsed time. The boiled-quarter route starts checking around 25 minutes after adding squash to boiling water; neither route has a tested finish yield.",
+        "storage": "Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F / 74°C throughout, checking the center and more than one portion. Warm gently while stirring and check several dense portions at 165°F; no new liquid or fat reduction is needed.",
+        "sources": [
+          {
+            "title": "USDA dense leftovers handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 6,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "puree",
+            "name": "Purée",
+            "ingredients": [
+              {
+                "id": "squash",
+                "key": "butternut-squash",
+                "name": "large butternut squash",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ],
+                "plural": "large butternut squashes",
+                "equivalents": [
+                  {
+                    "amount": 3,
+                    "unit": "lb",
+                    "max": 4
+                  }
+                ],
+                "preparation": "approximate whole weight; peeled, seeded and cut into 1-inch cubes"
+              },
+              {
+                "id": "oil",
+                "key": "olive-oil",
+                "name": "olive oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "roast-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "a pinch for roasting",
+                "uses": [
+                  {
+                    "step": "roast",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "butter",
+                "key": "unsalted-butter",
+                "name": "unsalted butter",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "mash",
+                    "share": 1
+                  }
+                ],
+                "preparation": "cut into pieces, at room temperature"
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "sugar",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "maple",
+                "key": "maple-syrup",
+                "name": "pure maple syrup",
+                "quantity": {
+                  "amount": "1/8",
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "nutmeg",
+                "key": "nutmeg",
+                "name": "freshly grated nutmeg",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "black-pepper",
+                "name": "freshly ground black pepper",
+                "quantity": {
+                  "amount": "1/2",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "season",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "finish-salt",
+                "key": "salt",
+                "name": "salt",
+                "allowance": "to taste at the finish",
+                "uses": [
+                  {
+                    "step": "finish",
+                    "share": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "roast",
+            "title": "Roast until tender",
+            "text": "Preheat the oven to 400°F. Toss {{ingredients}} on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile."
+          },
+          {
+            "id": "mash",
+            "title": "Mash with all the butter",
+            "text": "Transfer the hot squash to a large bowl and add {{ingredients}}. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher."
+          },
+          {
+            "id": "season",
+            "title": "Add sweeteners and spices",
+            "text": "Stir in {{ingredients}}. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below."
+          },
+          {
+            "id": "finish",
+            "title": "Warm and finish",
+            "text": "If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add {{ingredients}}. Serve hot."
+          }
+        ]
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nWe have evolved this family tradition from boiling to roasting. Boiling the squash dilutes its natural sugars with water; roasting at high heat evaporates moisture and triggers the Maillard reaction, concentrating the squash into a deeper, sweeter version of itself. This is our classic Thanksgiving side.\n\n## Directions\n\n1.  **Roast:** Preheat oven to 400°F. Toss the squash cubes with olive oil and a pinch of salt on a large baking sheet. Spread in a single layer. Roast for 30-40 minutes cook until caramelized and golden brown and starting to caramelize at the edges.\n2.  **Purée:** Transfer the hot, roasted squash to a large bowl (or food processor for a silkier texture).\n3.  **Mash:** Add the room-temperature butter and mash/process until smooth.\n4.  **Season:** Stir in the sugar, maple syrup, nutmeg, and black pepper.\n5.  **Finish:** If needed, transfer to a saucepan over low heat to serve piping hot. Taste and adjust salt or sweetness as desired.\n",
+    "after": "\n## Chef's Note\n\nThis Silton family Thanksgiving side keeps its full butter, sugar, maple syrup, nutmeg and pepper. Roasting gives the current version golden edges; the original boiled-and-coarsely-mashed version remains an option. For either route, squash that yields easily to a fork makes the mash smoother than squash that is only brown outside.\n\n## Directions\n\n1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.\n\n## Original Boiled and Mashed Version\n\nUse the same whole squash, butter, sugar, maple syrup, nutmeg and pepper. Omit the roasting oil and roasting salt; peel, seed and quarter the squash instead of cubing it. Bring enough water to cover it in a large pot to a boil, add the squash and begin checking around 25 minutes, continuing until easily pierced with a knife or fork. Drain well, transfer to a heavy saucepan and coarsely mash. Mix in all the butter, sugar, maple syrup, nutmeg and pepper, then stir over low heat until heated through. The original has no separate measured salt. The original batch’s six portions are an inherited plan; doubling or tripling needs enough pots and draining space and does not guarantee the same elapsed time.\n\nFor the original gradually-to-taste sugar option, add the listed sugar gradually and stop at the desired sweetness; the listed amount is the full supply, not a new smaller measured dose. All the butter and maple syrup remain. Bottled ground nutmeg can replace the listed freshly grated nutmeg, with a less fresh aroma.\n"
+  },
+  "findings": [
+    {
+      "id": "SPP24-B01",
+      "rationale": "Preserve the full half-cup butter, quarter-cup sugar, eighth-cup maple syrup and both half-teaspoon spices. Keep current two-tablespoon-oil/one-inch/400°F roasting main. Restore the complete original quartered-boil, tenderness, drain, coarse-mash and low-heat finish as a separate option without roasting oil or salt. Preserve gradual sugar and ground-nutmeg choices.",
+      "confidence": "high",
+      "applicableSources": ["exactnative/b7/045", "d607033factualdiff"],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "cookingMethods",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SPP24-B02",
+      "rationale": "Repair the broken browning sentence with both tender centers and golden-edge cues. Provide enough single-layer tray area with proportional supplies, and use the hand masher or an actual hot-food-permitted processor. Do not invent processor capacity, cooling temperature, added water or shorter cooking time. Include finishing and storage.",
+      "confidence": "high conservation; moderate actualgeometry",
+      "applicableSources": [
+        "045/d607/2aactualdiffs",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+      ],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "cookingMethods",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SPP24-B03",
+      "rationale": "Omit automatically assigned country/nutrition without erasing American style or Silton Thanksgiving context. The inherited six portions and original three-to-four-pound whole squash range are planning, not measured peeled yield. No dilution or claim that browning universally improves the family formula is added.",
+      "confidence": "high",
+      "applicableSources": ["ec691311", "completehistory", "RECIPE_STANDARD"],
+      "exactBeforeAfterReferences": [
+        "origin",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "cookingMethods",
+        "nutrition",
+        "learning",
+        "formula",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SP24-A01-content",
+      "title": "Bounded independent correction",
+      "rationale": "Clarifies that a literal inherited count is the original batch context when ingredient/yield controls scale. No dose, yield or clock change.",
+      "confidence": "high",
+      "applicableSources": [],
+      "exactBeforeAfterReferences": ["content"],
+      "questions": ["Actual finished serving size remains untested."]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Spiced%20Butternut%20Squash%20Pur%C3%A9e.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Current roasted main",
+      "base": "formula",
+      "scope": "1large/about3–4lbwhole/2Tböl/full½butter/¼sugar/⅛maple/½nutmeg/½pepper; separatelygenuinesaltstages."
+    },
+    {
+      "name": "Complete original boiled and coarsely mashed",
+      "base": "samefullsquash+6originalsupplies",
+      "changes": "Omitroastöl/salt;quarteredinsteadcube; genuinecoveringwater→boil25firstchecktillpierce/drain→coarsemash→fullbutter/sweeteners/spices→lowwarm",
+      "destination": "Original Boiled and Mashed Version",
+      "source": "exactnative/b7/045",
+      "status": "complete distinct public route"
+    },
+    {
+      "name": "Original sugar-to-taste and bottled nutmeg",
+      "base": "mainorboiled",
+      "changes": "Gradualsugarfromfull¼suppliesnoinventednewsmalldose; bottledgroundnutmegsame½sourceamount; allbutter/mapleremain",
+      "destination": "bodylastparagraph",
+      "status": "original options"
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "1 large butternut squash (about 3-4 pounds), peeled, seeded, and cut into 1-inch cubes",
+        "destination": "roast1 wholeapprox3–4lb cut1inch",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "2 tablespoons olive oil (for roasting)",
+        "destination": "roast1full2Tb",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "1/2 cup unsalted butter, cut into pieces, room temperature",
+        "destination": "mash3full½cup",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1/4 cup sugar (adjust gradually to taste)",
+        "destination": "season4 gradualdose¼",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/8 cup pure maple syrup",
+        "destination": "season4 full⅛",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1/2 teaspoon freshly grated nutmeg",
+        "destination": "season4",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 6,
+        "ingredient": "1/2 teaspoon freshly ground black pepper",
+        "destination": "season4",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 7,
+        "ingredient": "Salt to taste",
+        "destination": "pinch1 andtaste5 sharedunmeasured",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "id": "puree.squash",
+        "key": "butternut-squash",
+        "name": "large butternut squash",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "uses": [
+          {
+            "step": "roast",
+            "share": 1
+          }
+        ],
+        "plural": "large butternut squashes",
+        "equivalents": [
+          {
+            "amount": 3,
+            "unit": "lb",
+            "max": 4
+          }
+        ],
+        "preparation": "approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "component": "Purée"
+      },
+      {
+        "id": "puree.oil",
+        "key": "olive-oil",
+        "name": "olive oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "uses": [
+          {
+            "step": "roast",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      },
+      {
+        "id": "puree.roast-salt",
+        "key": "salt",
+        "name": "salt",
+        "allowance": "a pinch for roasting",
+        "uses": [
+          {
+            "step": "roast",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      },
+      {
+        "id": "puree.butter",
+        "key": "unsalted-butter",
+        "name": "unsalted butter",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "mash",
+            "share": 1
+          }
+        ],
+        "preparation": "cut into pieces, at room temperature",
+        "component": "Purée"
+      },
+      {
+        "id": "puree.sugar",
+        "key": "sugar",
+        "name": "sugar",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      },
+      {
+        "id": "puree.maple",
+        "key": "maple-syrup",
+        "name": "pure maple syrup",
+        "quantity": {
+          "amount": "1/8",
+          "unit": "cup"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      },
+      {
+        "id": "puree.nutmeg",
+        "key": "nutmeg",
+        "name": "freshly grated nutmeg",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      },
+      {
+        "id": "puree.pepper",
+        "key": "black-pepper",
+        "name": "freshly ground black pepper",
+        "quantity": {
+          "amount": "1/2",
+          "unit": "tsp"
+        },
+        "uses": [
+          {
+            "step": "season",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      },
+      {
+        "id": "puree.finish-salt",
+        "key": "salt",
+        "name": "salt",
+        "allowance": "to taste at the finish",
+        "uses": [
+          {
+            "step": "finish",
+            "share": 1
+          }
+        ],
+        "component": "Purée"
+      }
+    ],
+    "native": [
+      {
+        "path": "privately retained evidence",
+        "sha256": "b9c0e8775f1e16bab831585b028fc6d48b38a0e74b881940d671cbde7c57bff0",
+        "bindingKind": "primary",
+        "ingredients": [
+          {
+            "index": 0,
+            "ingredient": "1 large butternut squash (about 3-4 pounds) cored, peeled and quartered",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "peelseedquarter/boil/drain/coarsemash",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 1,
+            "ingredient": "1/2 cup unsalted butter, but into pieces, room temperature",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "mixfull½butter",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 2,
+            "ingredient": "1/4 cup sugar (gradually to taste)",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "mix¼gradualsugar",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 3,
+            "ingredient": "1/8 cup pure maple syrup",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "mix⅛maple",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 4,
+            "ingredient": "1/2 teaspoon freshly grated nutmeg (can be bottled nutmeg)",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "mix½nutmeg freshORbottled",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 5,
+            "ingredient": "1/2 teaspoon freshly ground pepper",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "mix½pepper",
+            "methodEvidence": "privately retained evidence#directions"
+          }
+        ],
+        "notesAndInstructionsReference": "privately retained evidence#directions,notes",
+        "scope": "Exact stable identity binding to durable original450; native cooking is evidence, not kitchen verification"
+      }
+    ],
+    "nativeMethodOwned": [
+      "Water to boil original quarters: genuine covering allowance, drained before full butter/sweeteners"
+    ]
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "b41dbe10d36aa71de826752591d58ef5d5379182c92d78a763f73a1e7da17b7e"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "b2835caa6b193f99d7a514d0339087ceda76f8cd6ee2c3a2ac2de458d2631616"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "e6c46bed9bcd13172c599c5f9ce29e1f7289651e1c097f9a2e621e840095c542"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "b2856a63d666154258bfee25e70a1af39b6ce711b1a09ced12beeee467e3df6f"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "558f7641bae5b1ce5ee911dd562144e93246d45c71b3af5d67fc82123c7c1590"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "id": "roast",
+        "textReference": "privately retained evidence#formula.steps[0].text",
+        "ingredients": ["puree.squash", "puree.oil", "puree.roast-salt"],
+        "cue": ["A fork slides easily into the centers, with golden edges in the roasting route."]
+      },
+      {
+        "step": 2,
+        "id": "mash",
+        "textReference": "privately retained evidence#formula.steps[1].text",
+        "ingredients": ["puree.butter"],
+        "cue": ["Butter melts through soft squash as it is mashed."]
+      },
+      {
+        "step": 3,
+        "id": "season",
+        "textReference": "privately retained evidence#formula.steps[2].text",
+        "ingredients": ["puree.sugar", "puree.maple", "puree.nutmeg", "puree.pepper"],
+        "cue": []
+      },
+      {
+        "step": 4,
+        "id": "finish",
+        "textReference": "privately retained evidence#formula.steps[3].text",
+        "ingredients": ["puree.finish-salt"],
+        "cue": []
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Current roasted main",
+      "base": "formula",
+      "scope": "1large/about3–4lbwhole/2Tböl/full½butter/¼sugar/⅛maple/½nutmeg/½pepper; separatelygenuinesaltstages."
+    },
+    {
+      "name": "Complete original boiled and coarsely mashed",
+      "base": "samefullsquash+6originalsupplies",
+      "changes": "Omitroastöl/salt;quarteredinsteadcube; genuinecoveringwater→boil25firstchecktillpierce/drain→coarsemash→fullbutter/sweeteners/spices→lowwarm",
+      "destination": "Original Boiled and Mashed Version",
+      "source": "exactnative/b7/045",
+      "status": "complete distinct public route"
+    },
+    {
+      "name": "Original sugar-to-taste and bottled nutmeg",
+      "base": "mainorboiled",
+      "changes": "Gradualsugarfromfull¼suppliesnoinventednewsmalldose; bottledgroundnutmegsame½sourceamount; allbutter/mapleremain",
+      "destination": "bodylastparagraph",
+      "status": "original options"
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "chicken-apple-and-butternut-stew",
+        "path": "src/content/recipes/chicken-apple-and-butternut-stew.md",
+        "sha256": "1ed7650444d756c215e112edaa5d1b435e35faaa39468b1242063a7cb1c99229",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "good-eats-roast-turkey",
+        "path": "src/content/recipes/good-eats-roast-turkey.md",
+        "sha256": "1949074e3e7f7032f4e0e2d6f611b65a28d9f974a8ac88445a3e45b162d461f0",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "simple-roast-turkey",
+        "path": "src/content/recipes/simple-roast-turkey.md",
+        "sha256": "3186d794a9174025cfceb6b34ef95b2d829c373dc1b4da3feb4bd0c62f71ce22",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "No incoming composed meal references this source; all outgoing component/pairing identities remain, without certifying their cooking."
+  },
+  "ratiosYieldAndCapacity": [
+    "1largesquashoriginalwholeabout3–4lb vspeeledyieldunmeasured; full½butter/¼sugar/⅛maple.",
+    "Roastöl2Tb absentoriginalboilroute; no oil-to-water equivalence;6portion estimate nottested."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Purée ---",
+        "1/4 (3/4–1 lb) large butternut squash, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "1/2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/8 cup unsalted butter, cut into pieces, at room temperature",
+        "0.0625 cup sugar",
+        "0.0313 cup pure maple syrup",
+        "1/8 tsp freshly grated nutmeg",
+        "1/8 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "1 1/2 portions",
+      "shopping": [
+        "1/4 (3/4–1 lb) large butternut squash",
+        "1/2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/8 cup unsalted butter",
+        "0.0625 cup sugar",
+        "0.0313 cup pure maple syrup",
+        "1/8 tsp freshly grated nutmeg",
+        "1/8 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Purée ---",
+        "1/2 (1 1/2–2 lb) large butternut squash, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "1 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/4 cup unsalted butter, cut into pieces, at room temperature",
+        "1/8 cup sugar",
+        "0.0625 cup pure maple syrup",
+        "1/4 tsp freshly grated nutmeg",
+        "1/4 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "3 portions",
+      "shopping": [
+        "1/2 (1 1/2–2 lb) large butternut squash",
+        "1 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/4 cup unsalted butter",
+        "1/8 cup sugar",
+        "0.0625 cup pure maple syrup",
+        "1/4 tsp freshly grated nutmeg",
+        "1/4 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Purée ---",
+        "1 (3–4 lb) large butternut squash, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/2 cup unsalted butter, cut into pieces, at room temperature",
+        "1/4 cup sugar",
+        "1/8 cup pure maple syrup",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 (3–4 lb) large butternut squash",
+        "2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/2 cup unsalted butter",
+        "1/4 cup sugar",
+        "1/8 cup pure maple syrup",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Purée ---",
+        "1 1/2 (4 1/2–6 lb) large butternut squashes, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "3 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "3/4 cup unsalted butter, cut into pieces, at room temperature",
+        "3/8 cup sugar",
+        "0.19 cup pure maple syrup",
+        "3/4 tsp freshly grated nutmeg",
+        "3/4 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "9 portions",
+      "shopping": [
+        "1 1/2 (4 1/2–6 lb) large butternut squashes",
+        "3 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "3/4 cup unsalted butter",
+        "3/8 cup sugar",
+        "0.19 cup pure maple syrup",
+        "3/4 tsp freshly grated nutmeg",
+        "3/4 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Purée ---",
+        "2 (6–8 lb) large butternut squashes, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "4 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1 cup unsalted butter, cut into pieces, at room temperature",
+        "1/2 cup sugar",
+        "1/4 cup pure maple syrup",
+        "1 tsp freshly grated nutmeg",
+        "1 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "2 (6–8 lb) large butternut squashes",
+        "4 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1 cup unsalted butter",
+        "1/2 cup sugar",
+        "1/4 cup pure maple syrup",
+        "1 tsp freshly grated nutmeg",
+        "1 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Purée ---",
+        "3 (9–12 lb) large butternut squashes, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "6 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1 1/2 cups unsalted butter, cut into pieces, at room temperature",
+        "3/4 cup sugar",
+        "3/8 cup pure maple syrup",
+        "1 1/2 tsp freshly grated nutmeg",
+        "1 1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "18 portions",
+      "shopping": [
+        "3 (9–12 lb) large butternut squashes",
+        "6 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1 1/2 cups unsalted butter",
+        "3/4 cup sugar",
+        "3/8 cup pure maple syrup",
+        "1 1/2 tsp freshly grated nutmeg",
+        "1 1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Purée ---",
+        "1 (3–4 lb) large butternut squash, approximate whole weight; peeled, seeded and cut into 1-inch cubes",
+        "2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/2 cup unsalted butter, cut into pieces, at room temperature",
+        "1/4 cup sugar",
+        "1/8 cup pure maple syrup",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 (3–4 lb) large butternut squash",
+        "2 tbsp olive oil",
+        "salt, a pinch for roasting",
+        "1/2 cup unsalted butter",
+        "1/4 cup sugar",
+        "1/8 cup pure maple syrup",
+        "1/2 tsp freshly grated nutmeg",
+        "1/2 tsp freshly ground black pepper",
+        "salt, to taste at the finish"
+      ],
+      "directions": "1. **Roast until tender:** Preheat the oven to 400°F. Toss large butternut squash, olive oil, and salt on enough rimmed baking sheets to spread the cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers and the edges are golden. Browning alone is not proof that the centers are soft; larger loads need more trays or batches, rather than a deeper pile.\n2. **Mash with all the butter:** Transfer the hot squash to a large bowl and add unsalted butter. Mash until smooth or leave it slightly coarse. For a processor finish, use only a model that permits the actual hot-food temperature and load; otherwise let the squash cool to its permitted temperature or use the hand masher.\n3. **Add sweeteners and spices:** Stir in sugar, pure maple syrup, freshly grated nutmeg, and freshly ground black pepper. The measured sugar and syrup are separate full supplies; the original gradually-to-taste sugar option is below.\n4. **Warm and finish:** If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add salt. Serve hot.",
+      "scope": "Actual compiler, conserved shares and shopping; cut sizes/heat/clocks remain fixed, actual vessel/load capacity unresolved"
+    }
+  ],
+  "preservedPriorRepairs": "Keep d607033f current roasted route, full olive oil and all original richness, alongside the exact complete boiled family option. No unrecorded household rejection inferred from broad rewrites.",
+  "remainingQuestions": [
+    "Which roasted versus originalboiled familyroute ispreferred? What whole/trimmedsquash weights and actualfinishedvolume?",
+    "Whichpan area/hotprocessor model actually applies? No genericprocessorpermission, addedwater or shortenedclock."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}

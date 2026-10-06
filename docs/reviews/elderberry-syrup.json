@@ -1,0 +1,635 @@
+{
+  "slug": "elderberry-syrup",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "fb7e607fa5e50ee1dc44554f9f5be31bbbe1b75e",
+  "inputSha256": "8184652b1085f842ff6b7ae722f85c1c8a1f810d7bcaca59997efc585deddbf1",
+  "acceptedSourceSha256": "8ea02a9fe3efbc94d9e09d87a9ed1ca4274d201e049058bd09f842803690187d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "cookingMethods",
+      "before": ["simmer", "boil", "blend"],
+      "after": ["boil", "simmer"]
+    },
+    {
+      "field": "cookTime",
+      "before": "60 min",
+      "after": "About 45–60 min, plus any remaining reduction"
+    },
+    {
+      "field": "totalTime",
+      "before": "65 min",
+      "after": "About 50–65 min, plus cooling, straining and freezing"
+    },
+    {
+      "field": "servings",
+      "before": "1 quart",
+      "after": "Yield not recorded"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "2/3 cup Dried Black Elderberries",
+        "3 1/2 cups Water",
+        "2 tbsp Fresh Ginger, minced",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Whole Cloves",
+        "1 cup Raw Honey (Local preferred)"
+      ],
+      "after": [
+        "2/3 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "3 1/2 cups Water",
+        "2 tbsp Fresh Ginger, minced",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Whole Cloves",
+        "1 cup Raw Honey (local preferred)"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 970,
+        "protein": 2,
+        "carbs": 279,
+        "fat": 0,
+        "fiber": 2,
+        "sugar": 264,
+        "sodium": 20
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate reduction from preservation",
+        "outcome": "Cooked berries yield a strained, spiced syrup that blends smoothly with the full honey.",
+        "techniques": ["temperature", "cold-preparation"],
+        "before": [
+          "Obtain food-grade dried ripe black elderberries and check their actual cooking instructions before beginning.",
+          "Choose the covered saved route or the uncovered publisher route before cooking; neither supports raw fruit or an unidentified plant.",
+          "Prepare clean heatproof straining equipment and small freezer-safe containers; the finished yield has not been measured."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The mixture has boiled, then simmered according to the berry product instructions; the remaining liquid is roughly half the starting liquid.",
+            "why": "Heating and reduction are separate requirements. A fixed clock or tightly covered lid does not establish the remaining volume."
+          },
+          {
+            "step": 4,
+            "cue": "Honey dissolves completely into lukewarm strained liquid.",
+            "why": "Honey is added after straining; this timing does not make the syrup shelf-stable."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Liquid has hardly reduced under the lid",
+            "cause": "Condensation returns water to the pan.",
+            "fix": "Continue monitoring the liquid and avoid boiling it dry. The complete uncovered option can be selected for reduction; do not infer a different medicinal concentration or finished volume from extra cooking."
+          }
+        ],
+        "timing": "The saved simmer is 45–60 minutes after boiling; the uncovered modern option begins checking around 30 minutes. Heating, reduction, handling, straining, cooling and freezing add elapsed time. Scale supplies together but allow for evaporation and pan surface area.",
+        "storage": "Retain prompt cooling and portioned freezing; thaw only a needed portion in the refrigerator. No canned, room-temperature, 2-month refrigerator or recipe-specific shelf-life claim is established. Use a clean spoon and avoid repeatedly warming the bulk syrup.",
+        "sources": [
+          {
+            "title": "Elderberry toxicity and evidence limits",
+            "url": "https://www.nccih.nih.gov/health/elderberry"
+          },
+          {
+            "title": "Elderberry syrup heat and freezing guidance",
+            "url": "https://extension.umaine.edu/food-health/2025/02/20/how-to-make-and-preserve-elderberry-syrup-safely/"
+          },
+          {
+            "title": "Honey and infants",
+            "url": "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be"
+          },
+          {
+            "title": "Original recipe and modern cooking option",
+            "url": "https://wellnessmama.com/1888/elderberry-syrup/"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-06"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis spiced elderberry-and-honey syrup is a culinary preparation. Use food-grade dried ripe elderberries and follow their cooking instructions; raw or unripe berries and other plant parts can cause illness. Do not treat it as a medicine or a shelf-stable preserve. Freeze the finished syrup in small portions for storage, and do not serve honey-containing syrup to children under 12 months.\n\n## Directions\n\n1.  **Concentrate:** In a medium saucepan, combine water, elderberries, ginger, cinnamon, and cloves.\n2.  **Simmer:** Bring to a boil, then reduce heat to low and cover. Simmer for 45-60 minutes until the liquid has reduced by half.\n3.  **Mash:** Remove from heat. Use a flat utensil or potato masher to crush the berries, releasing any remaining juice.\n4.  **Strain:** Pour the mixture through a fine-mesh sieve or cheesecloth into a clean glass jar. Press firmly on the solids. Discard the berries.\n5.  **Sweeten:** Let the liquid cool until it is lukewarm (below 110°F). Stir in the raw honey until completely dissolved and integrated.\n6.  **Freeze for storage:** Cool promptly in small, clean containers and freeze in portions suitable for later use, leaving freezer-safe headspace. Thaw only the portion needed in the refrigerator. Do not can this syrup or try to make it shelf-stable by adding alcohol or citric acid.\n7.  **Serve as a food:** Use a little for flavor in a drink or with food if desired. This homemade syrup has no established standard medicinal dose for children or adults.\n",
+    "after": "\n## Chef's Note\n\nThis spiced elderberry-and-honey syrup is a culinary preparation. Use food-grade dried ripe elderberries and follow their cooking instructions; raw or unripe berries and other plant parts can cause illness. Do not treat it as medicine or a shelf-stable preserve. Freeze in small portions, and do not serve honey-containing syrup to children under 12 months.\n\n## Directions\n\n1. **Cook and reduce the berries:** Combine the water, elderberries, fresh ginger, cinnamon and whole cloves in a saucepan with room for bubbling. Use food-grade dried ripe berries and their cooking instructions; do not use unidentified plants, raw or unripe fruit, leaves or stems. Bring to a boil, then lower to a simmer and cover for the saved 45–60-minute route, checking that liquid remains. Follow any more specific cooking requirements on the berry package. The aim is about half the starting liquid remaining; a tight lid may slow reduction, so do not treat the clock as proof of concentration or add honey yet.\n2. **Mash after cooking:** Remove from the heat and cool enough to handle. Carefully mash the cooked berries with a spoon or potato masher; avoid splashing the hot liquid.\n3. **Strain and discard the solids:** Strain into a clean heatproof bowl or jar through a fine-mesh sieve or cheesecloth, pressing carefully. Discard all berry and spice solids.\n4. **Add honey:** When the strained liquid is lukewarm, stir in all the honey until fully dissolved. Lukewarm is a mixing cue, not a preservation process or a medicinal claim.\n5. **Freeze in small portions:** Cool promptly in small, clean freezer-safe containers, leaving the container’s recommended headspace, and freeze. Thaw only a portion needed in the refrigerator. Do not can this syrup or make it shelf-stable by adding alcohol or citric acid.\n6. **Use as a food:** Use a little for flavor with food or in a drink. Do not serve honey-containing syrup to children under 12 months. There is no established standard medicinal dose for this homemade syrup.\n\n## Cooking Options\n\nFor the current publisher’s uncovered reduction route, use the same complete formula but leave the pan uncovered after bringing it to a boil. Begin checking around 30 minutes and continue until about half the starting liquid remains, following the actual berry product’s cooking requirements. Mash, strain, cool to lukewarm, add the full honey and freeze as above. This replaces the covered 45–60-minute route.\n\nThe ginger can instead be the original same-volume dried ginger root, and ground cloves can replace the same listed volume of whole cloves. These are separate source options with different flavor strength; dried ginger root is not a same-volume powdered-ginger substitute.\n\nThe pressure-cooker shortcut is unresolved for the actual berry product and cooker. Use the stovetop route rather than assuming a sealed 9-minute cycle is equivalent. The quart-sized storage jar is a container choice, not a measured finished yield.\n"
+  },
+  "findings": [
+    {
+      "id": "SPP24-E01",
+      "rationale": "Preserve all six current doses and the fresh-ginger/whole-clove main. Specify edible dried ripe product state and actual product heating requirements. Keep the covered 45–60-minute route distinct from the complete modern uncovered-reduction route. No fixed toxin-destruction clock or pressure-cycle equivalence is established.",
+      "confidence": "high state/lineage; moderate product-specific mechanism",
+      "applicableSources": [
+        "https://www.nccih.nih.gov/health/elderberry",
+        "https://extension.umaine.edu/food-health/2025/02/20/how-to-make-and-preserve-elderberry-syrup-safely/",
+        "exactnative/b7/045",
+        "WellnessMama current"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": ["What exact dried food-grade berry product and cooking instructions are used?"]
+    },
+    {
+      "id": "SPP24-E02",
+      "rationale": "Preserve the earlier culinary-only, portion-freezing, no medicinal dose, no canning and no honey-under-twelve-months repairs. Remove unsupported 110°F precision and describe lukewarm as a mixing cue. Include reduction, straining, cooling and freezing in elapsed timing; a hand masher does not require blender metadata.",
+      "confidence": "high",
+      "applicableSources": [
+        "https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be",
+        "https://www.nccih.nih.gov/health/elderberry",
+        "https://extension.umaine.edu/food-health/2025/02/20/how-to-make-and-preserve-elderberry-syrup-safely/",
+        "a2c9e280"
+      ],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    },
+    {
+      "id": "SPP24-E03",
+      "rationale": "A quart jar and a sixteen-ounce bottle are container suggestions, not a measured strained output. Retain an unmeasured yield and legacy format rather than inventing formula output. Preserve the exact dried-root/ground-clove source options without powdered-ginger equivalence, local-honey preference and full honey. Omit unsupported country and nutrition claims while retaining American style.",
+      "confidence": "high unknownyield andlineage",
+      "applicableSources": ["exactnative/b7/045", "567cbf0a", "2a7f3853", "currentpublisher"],
+      "exactBeforeAfterReferences": [
+        "cookingMethods",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": []
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/b7ae012dc180e5f9796a9f5d9d388d8e09f1679b/My%20Recipes/Recipes/Elderberry%20Syrup.html",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": [
+    {
+      "name": "Current/saved covered stovetop main",
+      "base": "completelegacy6supplies",
+      "scope": "Full⅔berries/3½water/2Tb freshginger/1cinnamon/½wholecloves/1honey. Covered45–60thenactualproductrequirements; remainingvolumeendpointnotmeasuredyield."
+    },
+    {
+      "name": "Modern uncovered reduction",
+      "base": "samefullmain",
+      "changes": "Uncoveredafterboil, ~30minfirstcheck→halfreduction→samecookedmash/strain/lukewarm/fullhoney/freezer",
+      "destination": "Cooking Options paragraph1",
+      "status": "complete exclusive option, no actualproductkillclock claim"
+    },
+    {
+      "name": "Saved dried root / ground cloves",
+      "base": "samefullmain",
+      "changes": "Sameoriginal2Tb DRIEDgingerroot ORfresh; same½tspgroundclovesORwhole, separatechoices",
+      "destination": "load1/strain3",
+      "status": "sourceoption; no driedpowder equivalence"
+    },
+    {
+      "name": "Saved pressure shortcut",
+      "status": "held",
+      "changes": "Nativeallingredients9minsealed/vent vsmodernexcepthoney; actualberryproduct/model/reduction/toxinprocess notestablished; explicitlyunresolvedpublicnote, notendorsed"
+    },
+    {
+      "name": "Medicinal dose / long refrigeration / shelf-stable",
+      "status": "rejectedunsupportedclaimsnotfoodrestriction",
+      "scope": "Earliera2repairsprotected; primarynoinfanthoney/noncanning/freezing. Maineotherformula2week/8monthclaimnotimported."
+    }
+  ],
+  "ledger": {
+    "frozen": [
+      {
+        "index": 0,
+        "ingredient": "2/3 cup Dried Black Elderberries",
+        "destination": "simmer1–2/mash3/strain4discard",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 1,
+        "ingredient": "3 1/2 cups Water",
+        "destination": "load1/reduce2 inputnotoutput",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 tbsp Fresh Ginger, minced",
+        "destination": "load1/strain4discard",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 tsp Ground Cinnamon",
+        "destination": "load1/strain4discard",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/2 tsp Whole Cloves",
+        "destination": "load1/strain4discard",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 cup Raw Honey (Local preferred)",
+        "destination": "lukewarm5fullhoney",
+        "scope": "Actual frozen states/destinations and omissions; not pre-repaired"
+      }
+    ],
+    "unlistedFrozenSupplies": [],
+    "proposed": [
+      {
+        "index": 0,
+        "ingredient": "2/3 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "destination": "reduce1, mash2, strain3 then discard cooked berries",
+        "status": "complete legacy destination"
+      },
+      {
+        "index": 1,
+        "ingredient": "3 1/2 cups Water",
+        "destination": "reduce1 input water, not measured output",
+        "status": "complete legacy destination"
+      },
+      {
+        "index": 2,
+        "ingredient": "2 tbsp Fresh Ginger, minced",
+        "destination": "reduce1, strain3 discard spice solids",
+        "status": "complete legacy destination"
+      },
+      {
+        "index": 3,
+        "ingredient": "1 tsp Ground Cinnamon",
+        "destination": "reduce1, strain3 discard spice solids",
+        "status": "complete legacy destination"
+      },
+      {
+        "index": 4,
+        "ingredient": "1/2 tsp Whole Cloves",
+        "destination": "reduce1, strain3 discard spice solids",
+        "status": "complete legacy destination"
+      },
+      {
+        "index": 5,
+        "ingredient": "1 cup Raw Honey (local preferred)",
+        "destination": "sweeten4 full honey after straining",
+        "status": "complete legacy destination"
+      }
+    ],
+    "native": [
+      {
+        "path": "privately retained evidence",
+        "sha256": "fda1640ac31f501d60669d4d754df0655b13baea72682653de99f22131f9bede",
+        "bindingKind": "primary",
+        "ingredients": [
+          {
+            "index": 0,
+            "ingredient": "2/3 cup dried black elderberries (about 3 ounces)",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "load/reduce/mash/straindiscard",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 1,
+            "ingredient": "3 1/2 cups of water",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "load/inputwater halfreductionnotquartoutput",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 2,
+            "ingredient": "2 Tablespoons fresh or dried ginger root",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "load2TbfreshORDRIEDroot",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 3,
+            "ingredient": "1 teaspoon cinnamon powder",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "loadcinnamon",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 4,
+            "ingredient": "1/2 teaspoon cloves or clove powder",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "loadwholeORgroundclove",
+            "methodEvidence": "privately retained evidence#directions"
+          },
+          {
+            "index": 5,
+            "ingredient": "1 cup raw honey (we get from our farmer's market)",
+            "preparation": "Exact native ingredient state retained; no equivalence guessed",
+            "destination": "lukewarmafterstrainfull1cuphoney",
+            "methodEvidence": "privately retained evidence#directions"
+          }
+        ],
+        "notesAndInstructionsReference": "privately retained evidence#directions,notes",
+        "scope": "Exact stable identity binding to durable original450; native cooking is evidence, not kitchen verification"
+      }
+    ],
+    "nativeMethodOwned": []
+  },
+  "processGraph": {
+    "frozen": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "3c9174dbe6f92a3f1d917208464af844ecc07d4b4d419e3bc0616da3db8057af"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "977cafe559490aad1e2bcd7a7310d3c3739fb0cd6c7e116b021977da9ffe3f98"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "f2b50bb56add7a6d6e4dfb102e7d9c25350ca21bbd5bf16d76971d27abe93494"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "34c414b0e7ce12d653c9ff24cfffefb9100f7c34e5ded74197f4e6df297b6844"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "6f76a506ef99712b40f07278d8e07ec1c72a84d99786cb7458c222e45c555afc"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "3baa7231b64ad19c4c4260ea37fa3645b6088c081ce4eb05d97c51023a1b28c7"
+      },
+      {
+        "step": 7,
+        "textReference": "privately retained evidence#directions-7",
+        "sha256": "bc4a609ad73eb3d9003da2611994881b591ad6a59a9e438af462fc96db4247ca"
+      }
+    ],
+    "proposed": [
+      {
+        "step": 1,
+        "textReference": "privately retained evidence#directions-1",
+        "sha256": "6045c082abf836e12f69d61580712edea5d59a84250c3cf373adfa95306ead35"
+      },
+      {
+        "step": 2,
+        "textReference": "privately retained evidence#directions-2",
+        "sha256": "5ecd4c03a8f98793477417f140ead2882ef46d0fa98889d6e5b30930646ae001"
+      },
+      {
+        "step": 3,
+        "textReference": "privately retained evidence#directions-3",
+        "sha256": "d20cb75fdf1969c55570fe434ec1d359eae828f96b04878b6f37a16e27a1ee57"
+      },
+      {
+        "step": 4,
+        "textReference": "privately retained evidence#directions-4",
+        "sha256": "f3f07a5f5ef85ce2085cb16d92daf1f445a27112a1d1fbc54727fe4ecf9c858a"
+      },
+      {
+        "step": 5,
+        "textReference": "privately retained evidence#directions-5",
+        "sha256": "1b1d3b9993295b3ba1da5d26f27e405d1ad8a7cb53bf835ed9bcebe58b5784d8"
+      },
+      {
+        "step": 6,
+        "textReference": "privately retained evidence#directions-6",
+        "sha256": "e9ed04740543aa346f7b0965e13f0f955b6388a16bfbe0173d1e371720588655"
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "name": "Current/saved covered stovetop main",
+      "base": "completelegacy6supplies",
+      "scope": "Full⅔berries/3½water/2Tb freshginger/1cinnamon/½wholecloves/1honey. Covered45–60thenactualproductrequirements; remainingvolumeendpointnotmeasuredyield."
+    },
+    {
+      "name": "Modern uncovered reduction",
+      "base": "samefullmain",
+      "changes": "Uncoveredafterboil, ~30minfirstcheck→halfreduction→samecookedmash/strain/lukewarm/fullhoney/freezer",
+      "destination": "Cooking Options paragraph1",
+      "status": "complete exclusive option, no actualproductkillclock claim"
+    },
+    {
+      "name": "Saved dried root / ground cloves",
+      "base": "samefullmain",
+      "changes": "Sameoriginal2Tb DRIEDgingerroot ORfresh; same½tspgroundclovesORwhole, separatechoices",
+      "destination": "load1/strain3",
+      "status": "sourceoption; no driedpowder equivalence"
+    },
+    {
+      "name": "Saved pressure shortcut",
+      "status": "held",
+      "changes": "Nativeallingredients9minsealed/vent vsmodernexcepthoney; actualberryproduct/model/reduction/toxinprocess notestablished; explicitlyunresolvedpublicnote, notendorsed"
+    },
+    {
+      "name": "Medicinal dose / long refrigeration / shelf-stable",
+      "status": "rejectedunsupportedclaimsnotfoodrestriction",
+      "scope": "Earliera2repairsprotected; primarynoinfanthoney/noncanning/freezing. Maineotherformula2week/8monthclaimnotimported."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "outgoing": [
+      {
+        "slug": "almond-zucchini-bread",
+        "path": "src/content/recipes/almond-zucchini-bread.md",
+        "sha256": "d8bd8e668ca6a6d498176c49d1ce213e05565727a538c8811f122696c5f1e374",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "apple-chai-oatmeal-cups",
+        "path": "src/content/recipes/apple-chai-oatmeal-cups.md",
+        "sha256": "ae1c15fc8d4bd5b1b3a66371e69013d806fb5760a691c917cb3b852aba30100b",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "avocado-kale-caesar-salad",
+        "path": "src/content/recipes/avocado-kale-caesar-salad.md",
+        "sha256": "d21c60f0631124f18240ffd61a3fedd9b0c83ad2eaa08311bbd29fe84faaf1c4",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      },
+      {
+        "slug": "bakery-style-chocolate-chip-muffins",
+        "path": "src/content/recipes/bakery-style-chocolate-chip-muffins.md",
+        "sha256": "b52d25a753a75762cd2d3e785f4b20d9c6ce53be5c237a5fbdacc957baca1473",
+        "scope": "Link exists; no whole dependency or meal acceptance"
+      }
+    ],
+    "incomingMeals": [],
+    "disposition": "No incoming composed meal references this source; all outgoing component/pairing identities remain, without certifying their cooking."
+  },
+  "ratiosYieldAndCapacity": [
+    "Input3½cupswater/⅔driedberries; reductionabout½ then1cuphoney, strainingevaporation prevents1quartoutput certification.",
+    "All6inputs full; pressuresealed9 cannotproveequivalent openreduction. Legacyunmeasuredoutput notguessedformula.yield."
+  ],
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/6 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "7/8 cup Water",
+        "1/2 tbsp Fresh Ginger, minced",
+        "1/4 tsp Ground Cinnamon",
+        "1/8 tsp Whole Cloves",
+        "1/4 cup Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded · 0.25× ingredients",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/3 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "1 3/4 cups Water",
+        "1 tbsp Fresh Ginger, minced",
+        "1/2 tsp Ground Cinnamon",
+        "1/4 tsp Whole Cloves",
+        "1/2 cup Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded · 0.5× ingredients",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2/3 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "3 1/2 cups Water",
+        "2 tbsp Fresh Ginger, minced",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Whole Cloves",
+        "1 cup Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "5 1/4 cups Water",
+        "3 tbsp Fresh Ginger, minced",
+        "1 1/2 tsp Ground Cinnamon",
+        "3/4 tsp Whole Cloves",
+        "1 1/2 cups Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded · 1.5× ingredients",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "1 1/3 cups Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "7 cups Water",
+        "4 tbsp Fresh Ginger, minced",
+        "2 tsp Ground Cinnamon",
+        "1 tsp Whole Cloves",
+        "2 cups Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded · 2× ingredients",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "2 cups Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "10 1/2 cups Water",
+        "6 tbsp Fresh Ginger, minced",
+        "3 tsp Ground Cinnamon",
+        "1 1/2 tsp Whole Cloves",
+        "3 cups Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded · 3× ingredients",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2/3 cup Food-grade Dried Ripe Black Elderberries, free of leaves and stems; follow product cooking instructions",
+        "3 1/2 cups Water",
+        "2 tbsp Fresh Ginger, minced",
+        "1 tsp Ground Cinnamon",
+        "1/2 tsp Whole Cloves",
+        "1 cup Raw Honey (local preferred)"
+      ],
+      "yield": "Original yield: Yield not recorded",
+      "scope": "Legacy amounts scale; unmeasured finished syrup yield remains unmeasured and evaporation need not scale linearly"
+    }
+  ],
+  "preservedPriorRepairs": "a2c9e280 culinary-only/no medicinal dose/no canning/portion freezing/no honey under 12 months repairs retained. All six current doses remain full; local-honey preference is not an ingredient requirement or preservation validation.",
+  "remainingQuestions": [
+    "What exact edible dried-ripe black berry product and heating instructions apply? No unidentified/wildplantpermission.",
+    "What strained finished volume actually results, and does the savedcoveredrouteachievehalf reduction? Pressure9minnotvalidated/adopted; no medicinal dose or preservationpromise."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/remaining-eighty-six-review.md",
+  "rootDisposition": "Complete author and independent whole reviews and root full cooking/source diff inspection were completed in the frozen groups. Recipe-specific consequential corrections received bounded nonself review. Reuse this finished evidence without repeating unchanged intake gates. Planning ranges, sensory cues and source disagreements remain explicit; no kitchen test, native sync or blanket linked-meal acceptance.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 256,
+    "recipeSources": 643,
+    "authoredFormulas": 180,
+    "targetedLint": "Zero errors and11 independently inspected metadata warnings: five existing absent pairings and three omitted food-role/cuisine/pairing fields on each of two nonfood crafts. No cooking, timing or formula warning. Exact warning list and source bindings were checked; no invented food metadata is added to satisfy lint.",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 12665,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 86 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 86,
+    "visibleMethodSteps": 506,
+    "mobileScaling": "9 representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "9 representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All affected Print controls enabled; shared print styles/runtime unchanged. Shared Print interaction exercised earlier in this campaign; native print preview remains unverified while the Mac is locked.",
+    "compatibilityTests": "5 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
+    "kitchenTests": 0,
+    "nativeAppSynced": false,
+    "editorialTriage": "Independently challenged recognition of a commercial pasteurized-in-shell egg product-use instruction, with conservative home-process guards. Actual low-temperature poultry, mixed methods, home egg treatment and ambiguous claims remain flagged. Cooking prose, rule words and prior stock/shrimp/pork/holding controls are preserved; this is editorial triage, not safety certification."
+  }
+}
