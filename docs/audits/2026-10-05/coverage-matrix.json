@@ -27,13 +27,13 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "381/409 original campaign versions remain verified live. Seven newly authored classics and one resolved kimchi version are accepted locally, pending exact release verification. Coverage is 623 complete / 27 pending across 650 sources; additions are counted separately from original campaign progress. The 42 accelerated targeted repairs remain a separate overlapping scope. No kitchen tests or native-app sync.",
+    "productionReconciliation": "382 new complete editorial versions from the original 409-source campaign are verified live. Seven newly authored Italian classics are also verified live and are counted separately. Coverage is 623 complete / 27 pending across 650 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping historical scope. All eight accepted recipe versions match exact remote source commit [b673ed5c](https://github.com/jsilton/mise/commit/b673ed5c3da1277c99af5ff48994d0be74521c45), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37522877469) and their complete live pages. The two targeted Korean BBQ Night dependency repairs also match live content. Zero kitchen tests; no native-app sync.",
     "latestAcceptanceInputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
-    "latestRecipeCommitReconciledAtCommit": "f94694b44ff1533f39bc0d7dccc904550dbcd407",
+    "latestRecipeCommitReconciledAtCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
     "newlyAuthoredOctober6": {
       "recipes": 7,
       "completeEditorial": 7,
-      "productionVerified": 0
+      "productionVerified": 7
     }
   },
   "collectionEvidence": [
@@ -10595,20 +10595,25 @@
         "evidence": ["docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.md"]
       },
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.md",
-        "acceptedSourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e"
+        "acceptedSourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "original 409-source campaign",
         "sourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
         "evidence": "docs/reviews/fresh-cabbage-cucumber-and-radish-kimchi.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "How salty and crisp are the four vegetable mixtures after this weighed cure with the chosen produce sizes and drainage?",
@@ -29565,25 +29570,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Adapted from the World Pesto Championship, Pesto Genovese al Mortaio",
       "sourceUrl": "https://www.pestochampionship.it/la-ricetta-del-pesto-genovese-al-mortaio/",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/pesto-alla-genovese.md",
-        "acceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932"
+        "acceptedSourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
         "evidence": "docs/reviews/pesto-alla-genovese.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Actual mortar fit and finished mass/volume of one complete batch.",
@@ -29606,25 +29616,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Adapted from Accademia Italiana della Cucina, Pasta alla Norma",
       "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/pasta-alla-norma.md",
-        "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b"
+        "acceptedSourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
         "evidence": "docs/reviews/pasta-alla-norma.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Net weights of the three counted medium eggplants and two onions; actual frying loads and oil uptake.",
@@ -29647,25 +29662,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Adapted from Regione Siciliana, Visit Sicily — Caponata",
       "sourceUrl": "https://www.visitsicily.info/ricetta/la-caponata/",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/caponata.md",
-        "acceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e"
+        "acceptedSourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
         "evidence": "docs/reviews/caponata.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Actual drained vegetable yield, retained frying oil and whether four source portions match the intended meal.",
@@ -29688,25 +29708,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Accademia Italiana della Cucina — Ribollita (Toscana)",
       "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/ribollita",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/ribollita.md",
-        "acceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4"
+        "acceptedSourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
         "evidence": "docs/reviews/ribollita.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Refine water needed for the chosen bean age, bread dryness and pot; observe final thickness and portion sizes.",
@@ -29728,25 +29753,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Accademia Italiana della Cucina — Risotto alla Milanese (Lombardia)",
       "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/risotto-alla-milanese",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/risotto-alla-milanese.md",
-        "acceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f"
+        "acceptedSourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
         "evidence": "docs/reviews/risotto-alla-milanese.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Refine saffron intensity, cheese finish and actual stock absorption in the selected pan/rice variety; observe serving portion and final wave."
@@ -29767,25 +29797,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Pellegrino Artusi, La scienza in cucina e l’arte di mangiar bene, recipe 20, first formula; broth method informed by Emilia-Romagna tourism",
       "sourceUrl": "https://www.pellegrinoartusi.it/20-minestra-di-passatelli/",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/passatelli-in-brodo.md",
-        "acceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af"
+        "acceptedSourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
         "evidence": "docs/reviews/passatelli-in-brodo.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Check cohesion and extrudability with the household's unseasoned breadcrumbs, eggs and large-hole tool; source's reserved crumbs may be partly unused.",
@@ -29807,25 +29842,30 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "latestRecipeCommit": null,
-      "implementationCommits": [],
+      "latestRecipeCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+      "implementationCommits": ["b673ed5c3da1277c99af5ff48994d0be74521c45"],
       "historicalEvidence": [],
       "source": "Accademia Italiana della Cucina — Brasato di bue al Barolo, all’uso di Cuneo (Piemonte)",
       "sourceUrl": "https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/brasato-di-bue-al-barolo",
       "automatedFlags": [],
       "completeEditorialReview": {
-        "status": "complete editorial review accepted locally; publication pending",
+        "status": "complete editorial review; implemented and verified live",
         "record": "docs/reviews/brasato-al-barolo.md",
-        "acceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838"
+        "acceptedSourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+        "recordImplementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45"
       },
       "acceptedChange": {
-        "status": "accepted locally; publication pending",
+        "status": "implemented and verified live",
         "scope": "seven additions",
         "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
         "evidence": "docs/reviews/brasato-al-barolo.json"
       },
       "productionVerification": {
-        "status": "pending exact release verification"
+        "status": "verified live",
+        "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+        "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+        "evidence": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
       },
       "remainingQuestions": [
         "Refine tenderness time for the butcher's chosen shoulder cut and pot; check final sauce reduction and salt.",

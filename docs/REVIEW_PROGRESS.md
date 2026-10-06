@@ -1,3 +1,11 @@
+# Current campaign state — October 6, 2026
+
+382 new complete editorial versions from the original 409-source campaign are verified live. Seven newly authored Italian classics are also verified live and are counted separately. Coverage is 623 complete / 27 pending across 650 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping historical scope. All eight accepted recipe versions match exact remote source commit [b673ed5c](https://github.com/jsilton/mise/commit/b673ed5c3da1277c99af5ff48994d0be74521c45), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37522877469) and their complete live pages. The two targeted Korean BBQ Night dependency repairs also match live content. Zero kitchen tests; no native-app sync.
+
+[Verified release](editorial-campaign/2026-10-06/italian-classics-and-kimchi.md).
+
+## Earlier acceptance checkpoint
+
 # Current acceptance checkpoint — October 6, 2026
 
 623 complete editorial reviews / 27 pending across 650 sources. Seven authorized Italian classics and a resolved fresh kimchi version are accepted locally after complete independent challenge and integration-owner inspection. The seven additions are separate from the original 409-source campaign; 381 campaign versions remain verified live until this release is verified. 642 existing source files, every existing identity and every private binding are preserved exactly. [Italian additions](editorial-campaign/2026-10-06/italian-classics.md), [kimchi exact review](reviews/fresh-cabbage-cucumber-and-radish-kimchi.json). No kitchen tests or native-app sync.

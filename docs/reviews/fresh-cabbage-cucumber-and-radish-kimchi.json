@@ -2,7 +2,7 @@
   "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
   "title": "Fresh Cabbage, Cucumber and Radish Kimchi",
   "date": "2026-10-06",
-  "status": "complete editorial review; accepted locally; publication pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
   "inputSha256": "ded5b4ef731066c810febb99df17ea4cd2296acd909fd0740e5d8f12658f2275",
   "acceptedSourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
@@ -398,5 +398,8 @@
   ],
   "sourceLimitations": "Publisher live page inaccessible; exact retained source cooking text is complete and hash-bound. No missing ingredient, allocation or mandatory step remains.",
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+  "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
 }

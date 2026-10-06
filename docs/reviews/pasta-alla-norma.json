@@ -1,7 +1,7 @@
 {
   "slug": "pasta-alla-norma",
   "title": "Pasta alla Norma",
-  "status": "complete editorial review; accepted locally; publication pending",
+  "status": "complete editorial review; implemented and verified live",
   "date": "2026-10-06",
   "inputCommit": "195e62ed015a90d5832188e4a8005287ce46afd6",
   "inputSha256": null,
@@ -771,5 +771,8 @@
     "Measured two-burner time and whether 300 g ricotta salata gives the intended salty finish with the selected cheese."
   ],
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+  "releaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+  "productionVerification": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json"
 }

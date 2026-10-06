@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-06",
+  "status": "verified live",
+  "sourceReleaseCommit": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+  "remoteCommitVerified": "b673ed5c3da1277c99af5ff48994d0be74521c45",
+  "ci": {
+    "id": 37522877469,
+    "url": "https://github.com/jsilton/mise/actions/runs/37522877469",
+    "status": "completed",
+    "conclusion": "success",
+    "build": "success",
+    "deployment": "success"
+  },
+  "recipes": [
+    {
+      "slug": "pesto-alla-genovese",
+      "title": "Pesto alla Genovese",
+      "scope": "seven additions",
+      "sourceSha256": "c0b4105100da821880ae71dc60b6dc8e66b5c211201aead660d7cb69b6621932",
+      "url": "https://jordansilton.com/mise/recipes/pesto-alla-genovese/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 4705
+    },
+    {
+      "slug": "pasta-alla-norma",
+      "title": "Pasta alla Norma",
+      "scope": "seven additions",
+      "sourceSha256": "5aca891cfaa4372d5cac7704b7f9128e13d4cefcc86fab1e3cacae5ad510cf2b",
+      "url": "https://jordansilton.com/mise/recipes/pasta-alla-norma/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 6953
+    },
+    {
+      "slug": "caponata",
+      "title": "Caponata",
+      "scope": "seven additions",
+      "sourceSha256": "8a975cc8ecc3895ef87a600ebe11e42d8e74c5f8008d398de6ced4c7ad8fd79e",
+      "url": "https://jordansilton.com/mise/recipes/caponata/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 6599
+    },
+    {
+      "slug": "ribollita",
+      "title": "Ribollita",
+      "scope": "seven additions",
+      "sourceSha256": "2f489c827d3ae341d366902fc8ccac883499b8ae81ca82bc5e30dded276796f4",
+      "url": "https://jordansilton.com/mise/recipes/ribollita/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 6082
+    },
+    {
+      "slug": "risotto-alla-milanese",
+      "title": "Risotto alla Milanese",
+      "scope": "seven additions",
+      "sourceSha256": "6551a10d3f9ba6162f77334d4f63cb0989e55b3638e8644a42b153b5958b6b6f",
+      "url": "https://jordansilton.com/mise/recipes/risotto-alla-milanese/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 5684
+    },
+    {
+      "slug": "passatelli-in-brodo",
+      "title": "Passatelli in brodo",
+      "scope": "seven additions",
+      "sourceSha256": "5ff909374b3a94752eac76a2c6d655c34616ff57b3f08d99cb0a883937a0f4af",
+      "url": "https://jordansilton.com/mise/recipes/passatelli-in-brodo/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 5952
+    },
+    {
+      "slug": "brasato-al-barolo",
+      "title": "Brasato al Barolo",
+      "scope": "seven additions",
+      "sourceSha256": "b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838",
+      "url": "https://jordansilton.com/mise/recipes/brasato-al-barolo/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 6079
+    },
+    {
+      "slug": "fresh-cabbage-cucumber-and-radish-kimchi",
+      "title": "Fresh Cabbage, Cucumber and Radish Kimchi",
+      "scope": "original 409-source campaign",
+      "sourceSha256": "277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e",
+      "url": "https://jordansilton.com/mise/recipes/fresh-cabbage-cucumber-and-radish-kimchi/",
+      "wholeRenderedMainMatches": true,
+      "ingredientsMatch": true,
+      "schemaMatches": true,
+      "renderedMainCharacters": 5117,
+      "comparisonState": "Both pages reset to1×; initial header uses About12cups and reset header identifies the original yield."
+    }
+  ],
+  "targetedMeal": {
+    "slug": "korean-bbq-night",
+    "url": "https://jordansilton.com/mise/meals/korean-bbq-night/",
+    "wholeRenderedMainMatches": true
+  },
+  "validation": "docs/editorial-campaign/2026-10-06/italian-classics-and-kimchi-validation.json",
+  "preservation": {
+    "unchangedExistingSourceFiles": 642,
+    "existingSourceFiles": 643,
+    "allExistingIdentitiesPreserved": true,
+    "allExistingPrivateBindingsPreserved": true,
+    "newPrivateBindings": 7,
+    "draftsPreserved": true
+  },
+  "coverage": {
+    "recipes": 650,
+    "completeEditorial": 623,
+    "pending": 27,
+    "originalCampaignVerified": 382,
+    "originalCampaignScope": 409,
+    "newlyAuthoredVerified": 7
+  },
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

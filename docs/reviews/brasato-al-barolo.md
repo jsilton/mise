@@ -7,3 +7,7 @@ This is a newly authored recipe, recorded separately from the original campaign.
 The complete selected formula is preserved. Source variants are explained in the individual record; planning ranges and sensory cues are editorial guidance, rather than measured cooking results. Recipe-specific kitchen questions remain in that record.
 
 Accepted source SHA-256: b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838.
+
+## Verified production
+
+Accepted source b4244ee35aa0c74fe97c1d9a31b9548ca97c50cdb26c082faa0dd2c1fc384838, implemented in commit b673ed5c3da1277c99af5ff48994d0be74521c45, matches its complete live page after successful exact-commit CI/deployment. [Production evidence](../editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json). No kitchen test or native-app sync.

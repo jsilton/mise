@@ -37,3 +37,7 @@ High confidence in timing-category repair and removal of preservation claims. Lo
 ## Integration disposition
 
 The kimchi recipe is excluded from this batch and remains byte-unchanged. No new three-to-four-day storage claim or revised preservation method is published. Current unsupported immediate-readiness, fermentation-start and one-week wording are known open issues; this hold is not approval of those claims. Resolve reproducible salt specifications and a supported refrigerated process before a full recipe replacement.
+
+## Verified production
+
+Accepted source 277c53ef128da85528c864bdb3cedf74a81e7341dae3dfd2f3a2c97b82ed3e0e, implemented in commit b673ed5c3da1277c99af5ff48994d0be74521c45, matches its complete live page after successful exact-commit CI/deployment. [Production evidence](../editorial-campaign/2026-10-06/italian-classics-and-kimchi-production.json). No kitchen test or native-app sync.
