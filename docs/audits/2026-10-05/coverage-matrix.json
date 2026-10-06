@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. Five additional pork versions are implemented and locally validated; exact remote release, successful CI/deployment and all five affected live pages remain to be verified. No physical kitchen testing or native-app sync occurred."
+    "productionReconciliation": "The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-nine new complete editorial versions from the original 409-source campaign are verified live. The latest five pork versions are implemented at 6d9f9169 and verified at exact remote release c215c0f3, successful Pages run 37398240844 and all affected live pages. No physical kitchen testing or native-app sync occurred."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -1116,7 +1116,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Confirm preferred two-versus-four-chop portion plan without invented weight or yield equivalence.",
@@ -5700,7 +5708,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Confirm actual polenta grind and frozen-corn package requirements; no product endpoint/time invented.",
@@ -12600,7 +12616,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Confirm actual butterflied shoulder thickness/chew and suitable pan area.",
@@ -13247,7 +13271,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Confirm original1lemon zest versus current1tbsp preference; no yield equivalence certified.",
@@ -21666,7 +21698,15 @@
         }
       ],
       "productionVerification": {
-        "status": "pending; exact remote release, successful deployment and affected live pages required"
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Record bacon doneness, actual tenderloin diameters and roast completion times.",

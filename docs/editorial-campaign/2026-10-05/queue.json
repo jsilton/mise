@@ -481,7 +481,7 @@
       "source": "Adapted from halfbakedharvest.com",
       "sourceUrl": "https://www.halfbakedharvest.com/skillet-balsamic-peach-pork-chops/",
       "group": "pork_tenderloin_mains_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/balsamic-peach-pork.md",
         "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
@@ -496,7 +496,17 @@
       "proposedSourceSha256": "02b4ec5bb17f82fd8ca764f15ed5a9afeb62b2fa1609255af70fa51530add0a1",
       "reviewPhase": "Complete whole independent challenges, root acceptance and source implementation; exact production pending",
       "acceptedSourceSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617"
     },
     {
@@ -1767,7 +1777,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "pork_tenderloin_mains_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/repairs/2026-09-15/changed-files.json",
         "docs/reviews/chipotle-pork-and-sweet-corn-tamale-bowls.md",
@@ -1784,7 +1794,17 @@
       "proposedSourceSha256": "a4cf1458d5d0bd58a2b449fdc8e20b11a08ab7f0ba83c2aeab15320723fb0406",
       "reviewPhase": "Complete whole independent challenges, root acceptance and source implementation; exact production pending",
       "acceptedSourceSha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617"
     },
     {
@@ -3797,7 +3817,7 @@
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/12690-grilled-pork-and-peaches",
       "group": "pork_tenderloin_mains_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/grilled-pork-and-peaches.md",
         "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
@@ -3814,7 +3834,17 @@
       "proposedSourceSha256": "99fd1f7d95f618e474e92c969fffab413074e063c86ebb3d2da4eb679ea27ca1",
       "reviewPhase": "Complete whole independent challenges, root acceptance and source implementation; exact production pending",
       "acceptedSourceSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617"
     },
     {
@@ -4015,7 +4045,7 @@
       "source": "Adapted from foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375",
       "group": "pork_tenderloin_mains_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/herb-marinated-pork-tenderloins.md",
         "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
@@ -4031,7 +4061,17 @@
       "proposedSourceSha256": "3236d7a27996826faffa15744e83dc8677e5c9f4418772b07e14cd71ec46b4e2",
       "reviewPhase": "Complete whole independent challenges, root acceptance and source implementation; exact production pending",
       "acceptedSourceSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617"
     },
     {
@@ -6199,7 +6239,7 @@
       "source": "Adapted from Foodnetwork.com",
       "sourceUrl": "https://www.foodnetwork.com/recipes/claire-robinson/rosemary-pork-tenderloin-recipe-1917514",
       "group": "pork_tenderloin_mains_01",
-      "status": "implemented",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/rosemary-pork-tenderloin.md",
         "docs/editorial-campaign/2026-10-05/pork-five-independent.md"
@@ -6215,7 +6255,17 @@
       "proposedSourceSha256": "d9b21736bcd6c31977f702c8b996348b1e9c83a87e513ccaf7d392925d2e9d9f",
       "reviewPhase": "Complete whole independent challenges, root acceptance and source implementation; exact production pending",
       "acceptedSourceSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe",
-      "productionVerification": "pending",
+      "productionVerification": {
+        "status": "verified live",
+        "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+        "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+        "deploymentRun": 37398240844,
+        "ci": "build, public privacy check and deployment success",
+        "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+        "verifiedDate": "2026-10-05",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      },
       "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617"
     },
     {
@@ -8937,8 +8987,7 @@
     "assigned": 33,
     "held": 9,
     "held-awaiting-evidence": 2,
-    "implemented": 5,
-    "production-verified": 54,
+    "production-verified": 59,
     "proposed": 55,
     "queued": 251
   }

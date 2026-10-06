@@ -1,0 +1,201 @@
+{
+  "status": "verified live",
+  "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+  "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+  "deploymentRun": 37398240844,
+  "ci": {
+    "conclusion": "success",
+    "databaseId": 37398240844,
+    "headSha": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+    "jobs": [
+      {
+        "completedAt": "2026-10-06T01:16:44Z",
+        "conclusion": "success",
+        "databaseId": 112059244478,
+        "name": "build",
+        "startedAt": "2026-10-06T01:15:32Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-06T01:15:34Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-06T01:15:32Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:15:37Z",
+            "conclusion": "success",
+            "name": "Checkout your repository using git",
+            "number": 2,
+            "startedAt": "2026-10-06T01:15:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:35Z",
+            "conclusion": "success",
+            "name": "Install, build, and upload your site",
+            "number": 3,
+            "startedAt": "2026-10-06T01:15:37Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:40Z",
+            "conclusion": "success",
+            "name": "Check private recipe metadata is absent",
+            "number": 4,
+            "startedAt": "2026-10-06T01:16:35Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:42Z",
+            "conclusion": "success",
+            "name": "Post Install, build, and upload your site",
+            "number": 7,
+            "startedAt": "2026-10-06T01:16:40Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:42Z",
+            "conclusion": "success",
+            "name": "Post Checkout your repository using git",
+            "number": 8,
+            "startedAt": "2026-10-06T01:16:42Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:42Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 9,
+            "startedAt": "2026-10-06T01:16:42Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37398240844/job/112059244478"
+      },
+      {
+        "completedAt": "2026-10-06T01:16:58Z",
+        "conclusion": "success",
+        "databaseId": 112059582062,
+        "name": "deploy",
+        "startedAt": "2026-10-06T01:16:48Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-06T01:16:49Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-06T01:16:48Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:56Z",
+            "conclusion": "success",
+            "name": "Deploy to GitHub Pages",
+            "number": 2,
+            "startedAt": "2026-10-06T01:16:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-06T01:16:56Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 3,
+            "startedAt": "2026-10-06T01:16:56Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/jsilton/mise/actions/runs/37398240844/job/112059582062"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/jsilton/mise/actions/runs/37398240844"
+  },
+  "rendered": [
+    {
+      "slug": "rosemary-pork-tenderloin",
+      "url": "https://jordansilton.com/mise/recipes/rosemary-pork-tenderloin/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleMainTextMatches": true,
+      "methodsMatch": true,
+      "visibleSteps": 7
+    },
+    {
+      "slug": "herb-marinated-pork-tenderloins",
+      "url": "https://jordansilton.com/mise/recipes/herb-marinated-pork-tenderloins/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleMainTextMatches": true,
+      "methodsMatch": true,
+      "visibleSteps": 6
+    },
+    {
+      "slug": "balsamic-peach-pork",
+      "url": "https://jordansilton.com/mise/recipes/balsamic-peach-pork/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleMainTextMatches": true,
+      "methodsMatch": true,
+      "visibleSteps": 6
+    },
+    {
+      "slug": "grilled-pork-and-peaches",
+      "url": "https://jordansilton.com/mise/recipes/grilled-pork-and-peaches/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleMainTextMatches": true,
+      "methodsMatch": true,
+      "visibleSteps": 7
+    },
+    {
+      "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
+      "url": "https://jordansilton.com/mise/recipes/chipotle-pork-and-sweet-corn-tamale-bowls/",
+      "titleMatches": true,
+      "schemaMatches": true,
+      "ingredientsMatch": true,
+      "fullVisibleMainTextMatches": true,
+      "methodsMatch": true,
+      "visibleSteps": 6
+    }
+  ],
+  "verifiedDate": "2026-10-05",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "remote": {
+    "exactRemoteCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+    "ref": "refs/heads/main",
+    "verifiedUTC": "2026-10-06T01:19:23.215Z"
+  },
+  "acceptedRecipeSources": [
+    {
+      "slug": "rosemary-pork-tenderloin",
+      "acceptedSourceSha256": "037141e9b0366692e1728bc2fe474f20cacfd3232864624189d105aa3d0efefe"
+    },
+    {
+      "slug": "herb-marinated-pork-tenderloins",
+      "acceptedSourceSha256": "1ecdac3efb74858e78fb7f250cc9144855a961d8cb2e52448ca13bd86189b4e7"
+    },
+    {
+      "slug": "balsamic-peach-pork",
+      "acceptedSourceSha256": "ae0c7d966c22c95666d2b91ff28cb26c251167d4582c8564e65cf3e0b647e8cc"
+    },
+    {
+      "slug": "grilled-pork-and-peaches",
+      "acceptedSourceSha256": "b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580740c3aa81"
+    },
+    {
+      "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
+      "acceptedSourceSha256": "87daa025cd132039c6b98e2d9f59949557231bf85b11cc2bb28f25e9c34e8718"
+    }
+  ],
+  "consoleEntries": 0,
+  "limitations": "Local mobile/scaling/cooking checks passed on all five. Print preview remains unverified; no kitchen testing or native-app sync."
+}

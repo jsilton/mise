@@ -9,7 +9,7 @@
   "otherRegisterAndMatrixReviewCreditPreserved": true,
   "onlyFiveExportSchemasChanged": true,
   "allPriorTestsAndFixturesUnchanged": true,
-  "status": "implemented and locally validated; production verification pending",
+  "status": "implemented and verified live; physical kitchen testing remains pending",
   "recipes": [
     {
       "slug": "rosemary-pork-tenderloin",
@@ -103,7 +103,17 @@
     "preservedQuantitiesIngredientsYieldAllocations": true,
     "priorPeerAcceptedHashesRetained": true
   },
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+    "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+    "deploymentRun": 37398240844,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "kitchenTested": false,
   "nativeAppSynced": false,
   "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",

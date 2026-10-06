@@ -9,3 +9,7 @@ Accepted source SHA-256: b9bbff522364ce2c126e38a4ac3b8e7c063372347b00b9e837dd580
 ## Local integrated validation
 
 All 252 tests, 37 authored formula checks, 643-recipe validation and 30 aggregate QA checks pass. Five targeted lints have zero errors or warnings. All three exports match 643 sources; all stable bindings, public privacy and 11,910 built anchors pass. The other 638 recipe sources and export schemas, all prior tests and fixtures, and all unrelated review credit remain unchanged. All five complete rendered pages, 183 scaled ingredient displays, 15 yields, 375-pixel layouts and cooking checkmark/reload/reset/exit paths pass. No browser warnings or errors. Print controls and shared styles are preserved; print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote commit, CI/deployment and live-page verification remain pending. [Preservation and validation evidence](../editorial-campaign/2026-10-05/pork-five-preservation.json).
+
+## Verified production release
+
+Source implementation `6d9f9169bb0b540660dca02c171a49412fa9f617` is verified at exact remote release `c215c0f3f836df7cf225611acd2d04a4850bbdc6`, successful [Pages run 37398240844](https://github.com/jsilton/mise/actions/runs/37398240844) and this live affected page. All five complete visible cooking texts, ingredients, exact built schemas and 32 method steps match production. [Production evidence](../editorial-campaign/2026-10-05/pork-five-production.json). No physical kitchen test or native-app sync; print preview remains unverified.

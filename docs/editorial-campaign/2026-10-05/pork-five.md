@@ -29,3 +29,7 @@ All 252 tests, 37 authored formula checks, 643-recipe validation and 30 aggregat
 ## Implemented checkpoint
 
 Source commit `6d9f9169bb0b540660dca02c171a49412fa9f617` preserves all five accepted source hashes after commit hooks. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. Five additional pork versions are implemented and locally validated; exact remote release, successful CI/deployment and all five affected live pages remain to be verified. No physical kitchen testing or native-app sync occurred. [Preservation and local validation](pork-five-preservation.json).
+
+## Verified production release
+
+The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-nine new complete editorial versions from the original 409-source campaign are verified live. The latest five pork versions are implemented at 6d9f9169 and verified at exact remote release c215c0f3, successful Pages run 37398240844 and all affected live pages. No physical kitchen testing or native-app sync occurred. [Exact production evidence](pork-five-production.json). Earlier pending statements above describe historical checkpoints. Print preview remains unverified.

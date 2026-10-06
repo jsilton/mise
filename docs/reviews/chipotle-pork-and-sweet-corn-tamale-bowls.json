@@ -1,6 +1,6 @@
 {
   "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
-  "status": "implemented complete editorial review; production verification pending",
+  "status": "implemented complete editorial review; verified live",
   "acceptance": "Root accepted exact v2 source after both independent challenges and complete final inspection.",
   "physicalCooking": false,
   "inputCommit": "782d2a6f58e293ca7d099405bb15eb753fd95e42",
@@ -1762,7 +1762,17 @@
   "integrationInputCommit": "c3ad0041519fa3683430a8dc385de77ae7981fd4",
   "independentChallenge": "docs/editorial-campaign/2026-10-05/pork-five-independent.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/pork-five-sources.json",
-  "productionVerification": "pending",
+  "productionVerification": {
+    "status": "verified live",
+    "releaseCommit": "c215c0f3f836df7cf225611acd2d04a4850bbdc6",
+    "implementationCommit": "6d9f9169bb0b540660dca02c171a49412fa9f617",
+    "deploymentRun": 37398240844,
+    "ci": "build, public privacy check and deployment success",
+    "rendered": "All five exact built JSON-LD objects, complete visible cooking text, ingredients and 32 method steps match production",
+    "verifiedDate": "2026-10-05",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  },
   "kitchenTested": false,
   "nativeAppSynced": false,
   "rootWholeInspection": "Accept exact v2 candidates after original whole independent challenge, a second independent challenge and complete root source/diff inspection. FDA raw-marinade guidance supports a bounded editorial inference for rapidly boiling pooled aqueous pork-contact juices; it does not validate this exact pan. The clean fruit pan is the primary route and the fallback when the actual pan cannot rapidly boil those juices. Never boil oil or invent added liquid. Source pepper and optional-water restorations have been independently challenged and are accepted with complete distinct smaller-pepper and current early-glaze variants. Bacon must satisfy its actual package preparation separately from the pork center endpoint. Original richness, all allocations, current repairs, authorship and distinct variants remain.",

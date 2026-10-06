@@ -1,6 +1,6 @@
 # Current campaign state — October 5, 2026
 
-293 implemented recorded complete / 350 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-four new complete editorial versions from the original 409-source campaign are verified live. Five additional pork versions are implemented and locally validated; exact remote release, successful CI/deployment and all five affected live pages remain to be verified. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Five pork implementation](editorial-campaign/2026-10-05/pork-five.md).
+293 implemented recorded complete / 350 pending across 643 sources; zero kitchen tests. The 42 accelerated targeted repairs remain verified live as a separate overlapping scope. Fifty-nine new complete editorial versions from the original 409-source campaign are verified live. The latest five pork versions are implemented at 6d9f9169 and verified at exact remote release c215c0f3, successful Pages run 37398240844 and all affected live pages. No physical kitchen testing or native-app sync occurred. Three subagents continue whole authorship and independent challenge; root alone integrates and publishes. [Five pork production evidence](editorial-campaign/2026-10-05/pork-five-production.json).
 
 ## Previous verified checkpoint
 
