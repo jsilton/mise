@@ -1,4 +1,4 @@
-# 11 mains — complete editorial acceptance
+# 11 breakfast bakes and quick breads — complete editorial acceptance
 
 Seven breakfast bakes and four quick breads retain complete richness, deliberate variants and family authorship while resolving ingredient destinations, pan context, blending, center checks, resting and elapsed timing.
 

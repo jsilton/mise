@@ -401,16 +401,23 @@
       "title": "Avocado Toast",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "cold_breakfast_01",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
+          "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "0ecd3b590bcca5addf631be4aef54c76ea4c269752732d278a163cd1e52922bb",
-      "plannedBatch": "context-screening-01"
+      "plannedBatch": "context-screening-01",
+      "owner": "coverage_check",
+      "reviewPhase": "Frozen author proposal; independent whole review pending"
     },
     {
       "slug": "babys-first-smash-cake",
@@ -452,17 +459,23 @@
       "source": "Adapted from Rebecca Crump",
       "sourceUrl": "http://www.ezrapoundcake.com/archives/26010",
       "group": "creamy_pasta_mains_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/baked-creamy-mac-and-pimento-cheese.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
       ],
       "inputSha256": "e0d4835a97f09e08f1c3270615083d68a13b6c5390f1f69fd0955959d0a642fd",
       "plannedBatch": "baked-savory-and-breads-01",
       "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
-      "assignmentInputSha256": "e0d4835a97f09e08f1c3270615083d68a13b6c5390f1f69fd0955959d0a642fd"
+      "assignmentInputSha256": "e0d4835a97f09e08f1c3270615083d68a13b6c5390f1f69fd0955959d0a642fd",
+      "acceptedSourceSha256": "dab54d060336008765283e90887b0a07048a07c33e77e8abba3cee4d818421f2",
+      "productionVerification": "pending"
     },
     {
       "slug": "bakery-style-chocolate-chip-muffins",
@@ -740,8 +753,8 @@
       "title": "Brownies",
       "source": "Love and Lemons, adapted from Michelle Lopez’s Weeknight Baking",
       "sourceUrl": "https://www.loveandlemons.com/brownies-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_bakes_03",
+      "status": "assigned",
       "reviewEvidence": ["docs/reviews/best-homemade-brownies.md"],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
@@ -749,7 +762,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c510264a25bd5b52da184bf95589de8c293b60088c5d1ca660eca15a3789bff6",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "owner": "coverage_check",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "bibimbap",
@@ -1325,16 +1340,22 @@
       "source": "Adapted from thewoksoflife.com",
       "sourceUrl": "https://thewoksoflife.com/cantonese-steamed-fish/",
       "group": "fish_mains_02",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/cantonese-fish.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
       ],
       "inputSha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
       "plannedBatch": "fish_mains_02",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "089e31969c8c511f0b906dfb756bdb5131130904cd2c4542f6501eaca2a55d5d",
+      "productionVerification": "pending"
     },
     {
       "slug": "cantonese-shrimp-and-pork-wontons",
@@ -1654,8 +1675,8 @@
       "title": "Chewy Chocolate Meringues",
       "source": "Adapted from Riki Shore",
       "sourceUrl": "https://food52.com/recipes/16997-chewy-chocolate-meringues",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_bakes_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1663,7 +1684,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c7bd7951578473b18594e4f163f40b1a92ab432156a4ae7bad4a15c749dae4ba",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "owner": "coverage_check",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce",
@@ -1879,16 +1902,22 @@
       "source": "Adapted from rasamalaysia.com",
       "sourceUrl": "https://rasamalaysia.com/steamed-fish-recipe/",
       "group": "fish_mains_02",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chinese-steamed-fish.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
       ],
       "inputSha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
       "plannedBatch": "fish_mains_02",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "55fc3f725c199681267423b557f175ec356bf3dddb4e36b666166f3e7c6380a6",
+      "productionVerification": "pending"
     },
     {
       "slug": "chinese-style-snapper",
@@ -1897,16 +1926,21 @@
       "source": "Adapted from taste.com.au",
       "sourceUrl": "https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3",
       "group": "fish_mains_02",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/chinese-style-snapper.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
       ],
       "inputSha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
       "plannedBatch": "fish_mains_02",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "1fbcee124870bba47595ff8ae0f7af21f0d55bc48c54c346df5813fc92f0dec6",
+      "productionVerification": "pending"
     },
     {
       "slug": "chipotle-pork-and-sweet-corn-tamale-bowls",
@@ -1968,8 +2002,8 @@
       "title": "Chocolate Bread Pudding",
       "source": "Adapted from The Ritz-Carlton, Cancun",
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_bakes_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1977,7 +2011,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
-      "plannedBatch": "baked-sweets-01"
+      "plannedBatch": "baked-sweets-01",
+      "owner": "coverage_check",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "chocolate-chia-pudding",
@@ -2433,17 +2469,23 @@
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE",
       "group": "creamy_pasta_mains_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/creamy-avocado-pasta.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
       ],
       "inputSha256": "660ee29e335bca41edaf8c554290995561e3ee6d5c1be461077f6133a699f56e",
       "plannedBatch": "simmer-boil-and-steam-03",
       "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
-      "assignmentInputSha256": "660ee29e335bca41edaf8c554290995561e3ee6d5c1be461077f6133a699f56e"
+      "assignmentInputSha256": "660ee29e335bca41edaf8c554290995561e3ee6d5c1be461077f6133a699f56e",
+      "acceptedSourceSha256": "a08894fc91b72f9423162573ff5b5cc3a44ef625b83eceebb1215ba9398849bc",
+      "productionVerification": "pending"
     },
     {
       "slug": "creamy-slow-cooker-chicken-and-wild-rice-soup",
@@ -2514,17 +2556,23 @@
       "source": "Adapted from 100daysofrealfood.com",
       "sourceUrl": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/",
       "group": "creamy_pasta_mains_01",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/source-restorations-2026-10-05.md",
+        "docs/reviews/creamy-whole-wheat-mac-and-cheese.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
       ],
       "inputSha256": "1e49ffe03bcf373f3af6f39239bc1524ecc1bf3eaefbf50a2d5429c373229fb2",
       "plannedBatch": "simmer-boil-and-steam-03",
       "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
-      "assignmentInputSha256": "1e49ffe03bcf373f3af6f39239bc1524ecc1bf3eaefbf50a2d5429c373229fb2"
+      "assignmentInputSha256": "1e49ffe03bcf373f3af6f39239bc1524ecc1bf3eaefbf50a2d5429c373229fb2",
+      "acceptedSourceSha256": "25a70fdee26779c8ddf288f81bca368afe1097a97d4d66ac079a87a1197de565",
+      "productionVerification": "pending"
     },
     {
       "slug": "crispy-baked-chicken-sliders",
@@ -2943,16 +2991,24 @@
       "title": "Turkey Meatballs",
       "source": "Adapted from Blog.myfitnesspal.com",
       "sourceUrl": "http://blog.myfitnesspal.com/easy-baked-turkey-meatballs/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "group": "poultry_assembled_mains_03",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
+          "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "a0ea0d809a38dc3cf2d2ed141dbda3f0fbf428406403825a82bf46ef0adf71ce",
-      "plannedBatch": "baked-savory-and-breads-05"
+      "plannedBatch": "baked-savory-and-breads-05",
+      "owner": "poultry_editor",
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
     },
     {
       "slug": "easy-breakfast-yogurt-popsicles",
@@ -2960,16 +3016,23 @@
       "title": "Yogurt Popsicles",
       "source": "Adapted from Iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/breakfast-popsicles/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "cold_breakfast_01",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
+          "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9fb94b818e56caaecb1850606e98bc4e97a3f5c2b7b4fa7178607313f39edff2",
-      "plannedBatch": "cold-preparations-01"
+      "plannedBatch": "cold-preparations-01",
+      "owner": "coverage_check",
+      "reviewPhase": "Frozen author proposal; independent whole review pending"
     },
     {
       "slug": "easy-chia-pudding",
@@ -2977,16 +3040,23 @@
       "title": "Chia Pudding",
       "source": "Adapted from eatingbirdfood.com",
       "sourceUrl": "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "cold_breakfast_01",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
+          "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "39d9ee5c0ac77dc390d738bf6f081073e709db462bdbc1bb225ef8c066bf0bd9",
-      "plannedBatch": "context-screening-02"
+      "plannedBatch": "context-screening-02",
+      "owner": "coverage_check",
+      "reviewPhase": "Frozen author proposal; independent whole review pending"
     },
     {
       "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
@@ -3698,16 +3768,23 @@
       "source": "Adapted from Saveur.com",
       "sourceUrl": "http://www.saveur.com/article/recipes/jewish-gefilte-fish-terrine-recipe",
       "group": "fish_mains_02",
-      "status": "assigned",
-      "reviewEvidence": ["docs/repairs/2026-09-10/changed-files.json"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-10/changed-files.json",
+        "docs/reviews/gefilte-fish-terrine.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Confirm actual loaf-pan headroom for full1cup cream/¾cup water and24oz fish.",
+        "Which kosher crystal density and horseradish measure does the household use?",
+        "Observe actual cooling-to-cold time, slice texture, prepared yield and optional reheated texture."
       ],
       "inputSha256": "73c0c04dcc02d78eee02287bc61943425f8054d394ba3fa6655b2af64590ca8e",
       "plannedBatch": "fish_mains_02",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "9f0af553bfe308a66cfca5ea650cf00ce58f795444121ab1d9877ff47ee6b024",
+      "productionVerification": "pending"
     },
     {
       "slug": "general-tsos-cauliflower",
@@ -3913,16 +3990,23 @@
       "title": "Greek Yogurt Bowl",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "cold_breakfast_01",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
+          "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "1e90896a1a78ae007bbd3df9a92a373047434650991e2998a123f9077f673fa3",
-      "plannedBatch": "cold-preparations-02"
+      "plannedBatch": "cold-preparations-02",
+      "owner": "coverage_check",
+      "reviewPhase": "Frozen author proposal; independent whole review pending"
     },
     {
       "slug": "green-smoothie-for-kids-with-2-hidden-veggies",
@@ -3947,16 +4031,23 @@
       "title": "Chicken with Herbed Corn Salsa",
       "source": "Adapted from Goodhousekeeping.com",
       "sourceUrl": "http://www.goodhousekeeping.com/food-recipes/a40851/grilled-chicken-with-herbed-corn-salsa-recipe/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "poultry_assembled_mains_03",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
+          "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "c0c482e16b818bc9c26c9368e3fd6bf5c867379e64821b94c17065bcc2a65ee3",
-      "plannedBatch": "roast-grill-and-sear-02"
+      "plannedBatch": "roast-grill-and-sear-02",
+      "owner": "poultry_editor",
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
     },
     {
       "slug": "grilled-corn-salad-with-feta",
@@ -4595,8 +4686,8 @@
       "title": "Katharine Hepburn’s Brownies",
       "source": "Adapted from Cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/10782-katharine-hepburns-brownies",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_bakes_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -4604,7 +4695,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "516dd4337fbce7a9cd853db6cceb7ba4e89ccfd90ed02950e35fdd82c1cea8e8",
-      "plannedBatch": "baked-sweets-04"
+      "plannedBatch": "baked-sweets-04",
+      "owner": "coverage_check",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "keto-egg-muffins",
@@ -5407,16 +5500,24 @@
       "title": "One-Pan Lemon Herb Chicken Thighs",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "group": "poultry_assembled_mains_03",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
+          "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "9bc2e000ff06c511a0486a4ff1e3b4b984e36f5f3e8d284d68e66af650225b65",
-      "plannedBatch": "roast-grill-and-sear-03"
+      "plannedBatch": "roast-grill-and-sear-03",
+      "owner": "poultry_editor",
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
     },
     {
       "slug": "one-pot-chicken-meatballs-with-greens",
@@ -5424,16 +5525,24 @@
       "title": "One-Pot Chicken Meatballs with Greens",
       "source": "Adapted from cooking.nytimes.com",
       "sourceUrl": "https://cooking.nytimes.com/recipes/1025342-one-pot-chicken-meatballs-with-greens?smid=ck-recipe-iOS-share",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "group": "poultry_assembled_mains_03",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
+          "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "17a1016ba1c967f1c60e52692fdfae86fe3859aa09d142b14854787903c02177",
-      "plannedBatch": "braises-and-slow-cooking-02"
+      "plannedBatch": "braises-and-slow-cooking-02",
+      "owner": "poultry_editor",
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
     },
     {
       "slug": "one-pot-spicy-thai-noodles",
@@ -5911,8 +6020,8 @@
       "title": "Quadruple Chocolate Brownies",
       "source": "Adapted from Foodandwine.com",
       "sourceUrl": "http://www.foodandwine.com/recipes/quadruple-chocolate-brownies",
-      "group": null,
-      "status": "queued",
+      "group": "chocolate_bakes_03",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -5920,7 +6029,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "7984acda6b8027d889407192dc2698490ea098c80556b30116cd8dac566075c3",
-      "plannedBatch": "baked-sweets-06"
+      "plannedBatch": "baked-sweets-06",
+      "owner": "coverage_check",
+      "reviewPhase": "Whole editorial author review in progress"
     },
     {
       "slug": "queso-fundido-with-chorizo",
@@ -6031,17 +6142,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "creamy_pasta_mains_01",
-      "status": "assigned",
-      "reviewEvidence": ["docs/reviews/source-restorations-2026-10-05.md"],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/source-restorations-2026-10-05.md",
+        "docs/reviews/real-alfredo-sauce.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Measure sauce output and preferred pasta loading; no measured batch volume exists.",
+        "Record Parmesan grind, product and actual water used; no emulsification guarantee or reheating-quality promise."
       ],
       "inputSha256": "8538d3de7e6c3563ccf5de197277026971392629d631b08f975af17d2ddf7fbc",
       "plannedBatch": "simmer-boil-and-steam-08",
       "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
-      "assignmentInputSha256": "8538d3de7e6c3563ccf5de197277026971392629d631b08f975af17d2ddf7fbc"
+      "assignmentInputSha256": "8538d3de7e6c3563ccf5de197277026971392629d631b08f975af17d2ddf7fbc",
+      "acceptedSourceSha256": "035805d0e8130517df2547b2092a7a9904d50771c7138f66b1d517766977d4ef",
+      "productionVerification": "pending"
     },
     {
       "slug": "real-spaghetti-carbonara",
@@ -6140,16 +6257,23 @@
       "title": "Ricotta Toast with Honey",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "cold_breakfast_01",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
+          "sha256": "480ee03ad5188e1401e868ebba60da902aa10cc0b47e2cf58490fa4fcd1983ea"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "0406d911700cf243f1149d50a7ecec8774d88a764e74cade4ad2fe6e6ae4f8d8",
-      "plannedBatch": "cold-preparations-04"
+      "plannedBatch": "cold-preparations-04",
+      "owner": "coverage_check",
+      "reviewPhase": "Frozen author proposal; independent whole review pending"
     },
     {
       "slug": "roasted-asparagus",
@@ -6637,16 +6761,24 @@
       "title": "Savory Thai Turkey Lettuce Wraps",
       "source": "Goodhousekeeping.com",
       "sourceUrl": "http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/",
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": ["docs/reviews/savory-thai-turkey-lettuce-wraps.md"],
+      "group": "poultry_assembled_mains_03",
+      "status": "proposed",
+      "reviewEvidence": [
+        "docs/reviews/savory-thai-turkey-lettuce-wraps.md",
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
+          "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6906ee5286377d41572cd6f14985ab55d3aa13f41b2e5e4e03d54209391f40d3",
-      "plannedBatch": "context-screening-04"
+      "plannedBatch": "context-screening-04",
+      "owner": "poultry_editor",
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
     },
     {
       "slug": "sazerac",
@@ -6950,17 +7082,23 @@
       "source": null,
       "sourceUrl": null,
       "group": "creamy_pasta_mains_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/shrimp-fettuccine-alfredo.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
       ],
       "inputSha256": "7873a8aa6be855a51fd42567e38124087de8fd20ffa72eed94487c451dc83573",
       "plannedBatch": "simmer-boil-and-steam-09",
       "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
-      "assignmentInputSha256": "7873a8aa6be855a51fd42567e38124087de8fd20ffa72eed94487c451dc83573"
+      "assignmentInputSha256": "7873a8aa6be855a51fd42567e38124087de8fd20ffa72eed94487c451dc83573",
+      "acceptedSourceSha256": "797dd6704959c1b39ee868436660eec1118b655229453fcf5dafe631d5c7af16",
+      "productionVerification": "pending"
     },
     {
       "slug": "shrimp-lobster-sauce",
@@ -7248,16 +7386,22 @@
       "source": null,
       "sourceUrl": null,
       "group": "fish_mains_02",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/smoked-salmon-toast.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
       ],
       "inputSha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
       "plannedBatch": "fish_mains_02",
-      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending"
+      "reviewPhase": "whole editorial authorship assigned; independent challenge and root acceptance pending",
+      "acceptedSourceSha256": "1b2cea172e4c34c800c822489a47d965c05648d960d0bd52e18a7a4f48545824",
+      "productionVerification": "pending"
     },
     {
       "slug": "smoky-spanish-rice-and-chickpeas",
@@ -7376,17 +7520,23 @@
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/",
       "group": "creamy_pasta_mains_01",
-      "status": "assigned",
-      "reviewEvidence": [],
+      "status": "accepted",
+      "reviewEvidence": [
+        "docs/reviews/spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.md",
+        "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
       ],
       "inputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a",
       "plannedBatch": "simmer-boil-and-steam-09",
       "assignmentInputCommit": "7eec1146b5f7bd65495c750a8312303d8d9d5b83",
-      "assignmentInputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a"
+      "assignmentInputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a",
+      "acceptedSourceSha256": "7ae28e640a6076541ea399dffbcacf5e03c6db938260a59703040c001cb087e9",
+      "productionVerification": "pending"
     },
     {
       "slug": "spaghetti-and-tofu-meatballs",
@@ -7861,16 +8011,23 @@
       "title": "Sweet Chili Chicken Sliders",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
-      "reviewEvidence": [],
+      "group": "poultry_assembled_mains_03",
+      "status": "proposed",
+      "reviewEvidence": [
+        {
+          "path": ".mise/editorial-campaign/2026-10-05/poultry_assembled_mains_03/v2/manifest.json",
+          "sha256": "75bd7bb4ec9a1fcb6db83142ff200c800efa75a7dfe0f2bc9be335b6a69a5bb3"
+        }
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
         "Complete editorial review pending; automated absence of flags is not approval.",
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "935541d002da362fe9b9bb81132c88ae7ce23b89899fee21086309629e9b4d08",
-      "plannedBatch": "roast-grill-and-sear-04"
+      "plannedBatch": "roast-grill-and-sear-04",
+      "owner": "poultry_editor",
+      "reviewPhase": "Frozen whole author proposal; independent challenge pending"
     },
     {
       "slug": "sweet-potato-fries",
@@ -9217,9 +9374,10 @@
   "statusCounts": {
     "production-verified": 80,
     "held": 10,
-    "queued": 229,
-    "assigned": 35,
-    "proposed": 53,
+    "queued": 213,
+    "proposed": 64,
+    "accepted": 11,
+    "assigned": 29,
     "held-awaiting-evidence": 2
   }
 }

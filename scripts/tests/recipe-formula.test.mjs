@@ -127,6 +127,14 @@ test('split allocations generate portions; allowances and cooking water have exp
   });
   assert(formulaDirections(schema.parse(f)).includes('1/4 of the unsalted butter'));
   assert(!formulaShoppingList(f).some((s) => s.includes('water')));
+  f.components[0].ingredients[0].uses = [
+    { step: 'mix', share: '1/9' },
+    { step: 'frost', share: '8/9' },
+  ];
+  const exactDirections = formulaDirections(schema.parse(f));
+  assert(exactDirections.includes('1/9 of the unsalted butter'));
+  assert(exactDirections.includes('8/9 of the unsalted butter'));
+  assert(!exactDirections.includes('0.11') && !exactDirections.includes('0.89'));
 });
 
 test('compiler detects stale generated ingredients and directions before publishing', async () => {

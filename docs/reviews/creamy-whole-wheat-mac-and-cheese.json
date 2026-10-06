@@ -1,0 +1,711 @@
+{
+  "slug": "creamy-whole-wheat-mac-and-cheese",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "1e49ffe03bcf373f3af6f39239bc1524ecc1bf3eaefbf50a2d5429c373229fb2",
+  "acceptedSourceSha256": "25a70fdee26779c8ddf288f81bca368afe1097a97d4d66ac079a87a1197de565",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "About 5–10 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 15–25 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "15 min",
+      "after": "About 20–35 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Whole-Wheat Elbow Macaroni",
+        "2 tbsp Unsalted Butter",
+        "1/3 cup + 1 tbsp Heavy Cream",
+        "1 1/4 cups Sharp Cheddar, freshly grated",
+        "1/4 cup Parmesan, freshly grated",
+        "1/4 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)"
+      ],
+      "after": [
+        "8 oz Whole-Wheat Elbow Macaroni",
+        "2 tbsp Unsalted Butter",
+        "1/3 cup + 1 tbsp Heavy Cream",
+        "1 1/4 cups Sharp Cheddar, freshly grated",
+        "1/4 cup Parmesan, freshly grated",
+        "1/4 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 540,
+        "protein": 19,
+        "carbs": 4.5,
+        "fat": 50,
+        "fiber": 0.5,
+        "sugar": 2,
+        "sodium": 1090
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control the heat before melting cheese",
+        "outcome": "Both cheeses have melted before the separate finishing cream goes in.",
+        "techniques": ["emulsions", "starch"],
+        "before": [
+          "The original batch uses 8 oz dry pasta, 1¼ cups cheddar and ¼ cup Parmesan. Keep those full amounts for the main version.",
+          "Scale both cream portions separately, preserving ⅓ cup for melting and 1 tbsp for finishing in the original batch. Use a pot with room to stir; heat-up and cheese-melting time are not proportional to portion count."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Both cheeses have melted before the separate finishing cream goes in.",
+            "why": "Melt both cheeses gently before adding the separate finishing cream, keeping its portion available for the final stage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce is grainy or splitting",
+            "cause": "Cheese mixture was heated too aggressively or reheated after chilling.",
+            "fix": "During the first cheese-melting stage, lower the heat or take the pot off the heat and stir gently. For stored leftovers, follow the reheating instructions below even if the sauce texture changes."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Dry-volume pasta and mixed-cheese alternative",
+            "alternative": "At the original four-serving scale, use 1½ cups DRY whole-wheat macaroni, then cook it; use 1¼ cups TOTAL freshly grated cheese, chosen from cheddar, Monterey Jack and a little Parmesan within that total. Keep 2 tbsp butter, ⅓ cup cream followed by 1 tbsp finishing cream, ¼ tsp salt and pepper to taste; omit the nutmeg for this alternative. Cook pasta first, melt butter with the larger cream portion, fold in pasta and cheese on low heat, then finish with the remaining cream and seasonings.",
+            "effect": "The dry pasta volume and total cheese amount differ from the main version. Scale the entire alternative together, keeping both cream portions separate; do not combine its cheese total with the main version."
+          }
+        ],
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate.",
+        "timing": "About 10–20 minutes active work;20–35 minutes elapsed including water heating and package pasta cooking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+        "sources": [
+          {
+            "title": "Saved Adapted from 100daysofrealfood.com",
+            "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+          },
+          {
+            "title": "USDA — storing and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis whole-wheat version keeps pasta starch by not draining completely dry - combining hot noodles directly with butter and cream creates a natural, creamy emulsion. Freshly grated cheddar melts more smoothly than pre-shredded cheese, which contains anti-caking agents. A pinch of nutmeg complements the earthy wheat and rich cream.\n\n## Directions\n\n1.  **Boil:** Cook macaroni in salted water until **al dente**. Drain, but do not rinse - you want the surface starch to remain.\n2.  **Melt:** Return the hot noodles to the pot. Add the butter and 1/3 cup of cream. Stir over medium-low heat until the butter is completely melted and coating the pasta.\n3.  **Bind:** Turn the heat to low. Add the Cheddar and Parmesan one handful at a time, stirring constantly until the cheese has melted into a silky, thick sauce.\n4.  **Finish:** Stir in the final tablespoon of cream, salt, plenty of black pepper, and the pinch of nutmeg.\n5.  **Serve:** Serve immediately while the sauce is at its glossiest.\n",
+    "after": "\n## Chef's Note\n\nUse the full cheddar and Parmesan amounts, and separate the cream before heating: the larger portion goes in with the butter and the smaller finishing portion finishes the sauce. Melt cheese over low heat, stirring; if the sauce starts bubbling hard, take the pot off the heat while continuing to stir.\n\n## Directions\n\n1. Cook the dry macaroni in boiling water seasoned with the separate pasta-water salt allowance until al dente according to the package. Drain without rinsing.\n2. Return the hot noodles to the pot. Add all the butter and the larger cream portion (⅓ cup in the original batch), keeping the smaller finishing cream portion separate. Stir over medium-low heat until the butter melts and coats the pasta.\n3. Turn the heat to low. Add all the cheddar and Parmesan gradually, stirring until melted. Take the pot off the heat if the cheese mixture bubbles hard; return briefly to low heat only as needed to finish melting.\n4. Stir in the remaining cream (1 tbsp in the original batch), measured sea salt, black pepper and nutmeg. Do not spend the finishing cream twice.\n5. Serve immediately; the sauce thickens as it stands.\n"
+  },
+  "findings": [
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-1",
+      "title": "origin",
+      "field": "origin",
+      "rationale": "No source-specific origin evidence for this exact formula; cuisine labels/source attribution retained.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The complete followed Git history records the origin metadata addition, but the exact saved formula has no source-specific geographic-origin evidence. Omission preserves every existing cuisine/style tag and attribution; FDA/USDA and publisher location do not establish recipe origin.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-2",
+      "title": "prepTime",
+      "field": "prepTime",
+      "rationale": "Preserve e556 full current richer cheese amounts, but disclose original1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-3",
+      "title": "cookTime",
+      "field": "cookTime",
+      "rationale": "Preserve e556 full current richer cheese amounts, but disclose original1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-4",
+      "title": "totalTime",
+      "field": "totalTime",
+      "rationale": "Preserve e556 full current richer cheese amounts, but disclose original1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-5",
+      "title": "ingredients",
+      "field": "ingredients",
+      "rationale": "Preserve e556 full current richer cheese amounts, but disclose original1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish measured amounts and method-only allowances. Current retained repairs and proposed allocation text distinguish one shared pool from extra doses. FDA/USDA do not establish the formula or intended quantities.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-6",
+      "title": "nutrition",
+      "field": "nutrition",
+      "rationale": "Prior generic estimate lacks formula-specific validated analysis; remove rather than manufacture replacement.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The followed Git history establishes the bulk numerical estimate and the exact current formula. No formula-specific nutrition analysis is established, so removing the numerical estimate avoids inventing a replacement. Origin geography and FDA/USDA handling guidance are not nutrition validation.",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-7",
+      "title": "learning",
+      "field": "learning",
+      "rationale": "Preserve e 556 full current richer cheese amounts, but disclose original 1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain 493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+      "confidence": "Editorial planning estimates, source-specific mechanisms; no kitchen measurement",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope. ",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    },
+    {
+      "id": "creamy-whole-wheat-mac-and-cheese-8",
+      "title": "body",
+      "field": "body",
+      "rationale": "Preserve e 556 full current richer cheese amounts, but disclose original 1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain 493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+      "confidence": "High exact source/destination; clocks need kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from 100daysofrealfood.com",
+          "url": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope. ",
+      "exactBeforeAfterReferences": [
+        "origin",
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+        "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/creamy-whole-wheat-mac-and-cheese.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Preserve e556 full current richer cheese amounts, but disclose original1¼-cup total and dry-volume source clarification as a complete distinct alternative. Follow both cream portions; retain493 unsupported-lemon removal. Clock includes boiling rather than only the five-minute sauce finish.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Whole-Wheat Elbow Macaroni",
+        "destination": "step 1 boiled/drained",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "2 tbsp Unsalted Butter",
+        "destination": "step 2 melted with pasta",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/3 cup + 1 tbsp Heavy Cream",
+        "destination": "step 2⅓ cup and step 4 final 1 tbsp; total conserved",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 1/4 cups Sharp Cheddar, freshly grated",
+        "destination": "step 3 melted",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 cup Parmesan, freshly grated",
+        "destination": "step 3 melted",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "destination": "step 4 finish",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Plenty of Black Pepper",
+        "destination": "step 4 finish",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Pinch of Nutmeg (The Finishing Touch)",
+        "destination": "step 4 finish",
+        "state": "Exact frozen string",
+        "question": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz Whole-Wheat Elbow Macaroni",
+        "destination": 1,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "2 tbsp Unsalted Butter",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/3 cup + 1 tbsp Heavy Cream",
+        "destination": "2/4",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 1/4 cups Sharp Cheddar, freshly grated",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 cup Parmesan, freshly grated",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 tsp Sea Salt",
+        "destination": 4,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Plenty of Black Pepper",
+        "destination": 4,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Pinch of Nutmeg (The Finishing Touch)",
+        "destination": 4,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, as needed to boil pasta",
+        "destination": "step 1 pasta boiling; drained",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "destination": "step 1 pasta-water salt allowance, separate from measured finishing sea salt",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, a little as needed when reheating leftovers",
+        "destination": "learning.storage only; unmeasured leftover-reheating allowance",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      }
+    ],
+    "frozenUnlistedAllowances": ["Step1 salted pasta water lacks separate allowance"]
+  },
+  "processGraph": {
+    "scope": "Exact accepted ordered method stages; complete ingredient destinations remain in the ledger and distinct variant ledgers.",
+    "nodes": [
+      {
+        "step": 1,
+        "text": "Cook the dry macaroni in boiling water seasoned with the separate pasta-water salt allowance until al dente according to the package. Drain without rinsing."
+      },
+      {
+        "step": 2,
+        "text": "Return the hot noodles to the pot. Add all the butter and the larger cream portion (⅓ cup in the original batch), keeping the smaller finishing cream portion separate. Stir over medium-low heat until the butter melts and coats the pasta."
+      },
+      {
+        "step": 3,
+        "text": "Turn the heat to low. Add all the cheddar and Parmesan gradually, stirring until melted. Take the pot off the heat if the cheese mixture bubbles hard; return briefly to low heat only as needed to finish melting."
+      },
+      {
+        "step": 4,
+        "text": "Stir in the remaining cream (1 tbsp in the original batch), measured sea salt, black pepper and nutmeg. Do not spend the finishing cream twice."
+      },
+      {
+        "step": 5,
+        "text": "Serve immediately; the sauce thickens as it stands."
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Dry-volume pasta and mixed-cheese alternative",
+      "alternative": "At the original four-serving scale, use 1½ cups DRY whole-wheat macaroni, then cook it; use 1¼ cups TOTAL freshly grated cheese, chosen from cheddar, Monterey Jack and a little Parmesan within that total. Keep 2 tbsp butter, ⅓ cup cream followed by 1 tbsp finishing cream, ¼ tsp salt and pepper to taste; omit the nutmeg for this alternative. Cook pasta first, melt butter with the larger cream portion, fold in pasta and cheese on low heat, then finish with the remaining cream and seasonings.",
+      "effect": "The dry pasta volume and total cheese amount differ from the main version. Scale the entire alternative together, keeping both cream portions separate; do not combine its cheese total with the main version."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "garlic-mashed-mock-potatoes",
+      "garlic-mashed-red-potatoes",
+      "avocado-kale-caesar-salad"
+    ],
+    "wholePairingsEvidence": "privately retained evidence",
+    "scope": "Paired current files retained and read for process/portion compatibility; no paired recipe status promotion. No actual meal file references these six slugs.",
+    "notes": "Current mac4; mock4, red mash6, Caesar4. Mashes are extra side pairings, not substitutes/ingredients in cheese sauce."
+  },
+  "ratiosYieldAndCapacity": {
+    "capacity": [
+      "The current original batch uses8 oz dry pasta,1¼ cups cheddar and¼ cup Parmesan. Keep those full amounts for the main version.",
+      "Scale both cream portions separately, preserving⅓ cup for melting and1 tbsp for finishing in the original batch. Use a pot with room to stir; heat-up and cheese-melting time are not proportional to portion count."
+    ],
+    "timing": "About 10–20 minutes active work;20–35 minutes elapsed including water heating and package pasta cooking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+    "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz Whole-Wheat Elbow Macaroni",
+        "1/2 tbsp Unsalted Butter",
+        "0.0833 cup + 1/4 tbsp Heavy Cream",
+        "0.31 cup Sharp Cheddar, freshly grated",
+        "0.0625 cup Parmesan, freshly grated",
+        "0.0625 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz Whole-Wheat Elbow Macaroni",
+        "1 tbsp Unsalted Butter",
+        "1/6 cup + 1/2 tbsp Heavy Cream",
+        "5/8 cup Sharp Cheddar, freshly grated",
+        "1/8 cup Parmesan, freshly grated",
+        "1/8 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz Whole-Wheat Elbow Macaroni",
+        "2 tbsp Unsalted Butter",
+        "1/3 cup + 1 tbsp Heavy Cream",
+        "1 1/4 cups Sharp Cheddar, freshly grated",
+        "1/4 cup Parmesan, freshly grated",
+        "1/4 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz Whole-Wheat Elbow Macaroni",
+        "3 tbsp Unsalted Butter",
+        "1/2 cup + 1 1/2 tbsp Heavy Cream",
+        "1 7/8 cups Sharp Cheddar, freshly grated",
+        "3/8 cup Parmesan, freshly grated",
+        "3/8 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz Whole-Wheat Elbow Macaroni",
+        "4 tbsp Unsalted Butter",
+        "2/3 cup + 2 tbsp Heavy Cream",
+        "2 1/2 cups Sharp Cheddar, freshly grated",
+        "1/2 cup Parmesan, freshly grated",
+        "1/2 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz Whole-Wheat Elbow Macaroni",
+        "6 tbsp Unsalted Butter",
+        "1 cup + 3 tbsp Heavy Cream",
+        "3 3/4 cups Sharp Cheddar, freshly grated",
+        "3/4 cup Parmesan, freshly grated",
+        "3/4 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz Whole-Wheat Elbow Macaroni",
+        "2 tbsp Unsalted Butter",
+        "1/3 cup + 1 tbsp Heavy Cream",
+        "1 1/4 cups Sharp Cheddar, freshly grated",
+        "1/4 cup Parmesan, freshly grated",
+        "1/4 tsp Sea Salt",
+        "Plenty of Black Pepper",
+        "Pinch of Nutmeg (The Finishing Touch)",
+        "Water, as needed to boil pasta",
+        "Salt, as needed for pasta water, separate from the measured finishing salt",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    }
+  ],
+  "preservedPriorRepairs": "493 unsupported lemon removal retained; no imposed acid",
+  "remainingQuestions": [
+    "Measure current four portions and actual dry-pasta shape; no dry volume-to-weight conversion inferred.",
+    "Record actual cream/cheese melting behavior; nutritional estimates are not a measured formula analysis."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

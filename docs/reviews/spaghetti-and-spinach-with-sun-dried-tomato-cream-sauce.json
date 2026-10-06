@@ -1,0 +1,1233 @@
+{
+  "slug": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "6890927a6c4af893d3c499eb69fc5203ebd49d97b86a3b5b84aa1f0e09b22b6a",
+  "acceptedSourceSha256": "7ae28e640a6076541ea399dffbcacf5e03c6db938260a59703040c001cb087e9",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Whole-wheat Spaghetti",
+        "5 oz Fresh Baby Spinach",
+        "1/2 cup Sun-dried Tomatoes in oil, slivered",
+        "1/2 cup Sour Cream (for richness)",
+        "1 cup Low-sodium Chicken Broth",
+        "1/4 cup Parmesan, grated",
+        "1/2 cup Red Onion, sliced",
+        "3 cloves Garlic, minced",
+        "1 tbsp Unsalted Butter",
+        "1/4 tsp Red Pepper Flakes"
+      ],
+      "after": [
+        "--- Ingredients ---",
+        "8 oz Dry whole-wheat spaghetti",
+        "5 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1/2 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "1 tbsp Oil from the sun-dried tomato jar",
+        "1/2 cup Sour cream",
+        "1 cup Low-sodium chicken broth",
+        "1/4 cup Parmesan cheese, grated",
+        "1/2 cup Red onion, thinly sliced",
+        "3 Garlic cloves, minced",
+        "1 tbsp Unsalted butter",
+        "1/4 tsp Crushed red pepper",
+        "1/4 tsp Salt",
+        "1/4 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 165,
+        "protein": 4,
+        "carbs": 9,
+        "fat": 13.5,
+        "fiber": 2,
+        "sugar": 4,
+        "sodium": 340
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "dish",
+            "name": "Ingredients",
+            "ingredients": [
+              {
+                "id": "pasta",
+                "key": "pasta",
+                "name": "Dry whole-wheat spaghetti",
+                "quantity": {
+                  "amount": 8,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "spinach",
+                "key": "spinach",
+                "name": "Fresh baby spinach",
+                "quantity": {
+                  "amount": 5,
+                  "unit": "oz"
+                },
+                "uses": [
+                  {
+                    "step": "spinach",
+                    "share": 1
+                  }
+                ],
+                "preparation": "rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained"
+              },
+              {
+                "id": "tomatoes",
+                "key": "tomatoes",
+                "name": "Oil-packed sun-dried tomatoes",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "preparation": "slivered; reserve jar oil separately"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Oil from the sun-dried tomato jar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sour-cream",
+                "key": "sour-cream",
+                "name": "Sour cream",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "broth",
+                "key": "broth",
+                "name": "Low-sodium chicken broth",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "reduce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "parmesan",
+                "key": "parmesan",
+                "name": "Parmesan cheese",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "cream",
+                    "share": 1
+                  }
+                ],
+                "preparation": "grated"
+              },
+              {
+                "id": "onion",
+                "key": "onion",
+                "name": "Red onion",
+                "quantity": {
+                  "amount": 0.5,
+                  "unit": "cup"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ],
+                "preparation": "thinly sliced"
+              },
+              {
+                "id": "garlic",
+                "key": "garlic",
+                "name": "Garlic clove",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ],
+                "plural": "Garlic cloves",
+                "preparation": "minced"
+              },
+              {
+                "id": "butter",
+                "key": "butter",
+                "name": "Unsalted butter",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "base",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "flakes",
+                "key": "flakes",
+                "name": "Crushed red pepper",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "salt",
+                "key": "salt",
+                "name": "Salt",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "Ground black pepper",
+                "quantity": {
+                  "amount": 0.25,
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "garlic",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Water",
+                "allowance": "as needed to boil pasta",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "pasta-salt",
+                "key": "pasta-salt",
+                "name": "Salt for pasta water",
+                "allowance": "as desired, separate from measured sauce salt",
+                "uses": [
+                  {
+                    "step": "pasta",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "reheat-water",
+                "key": "reheat-water",
+                "name": "Water for reheating",
+                "allowance": "a little as needed for leftovers",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "pasta",
+            "title": "Cook pasta",
+            "text": "From {{ingredients}}, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente."
+          },
+          {
+            "id": "spinach",
+            "title": "Wilt washed spinach",
+            "text": "Prepare {{ingredients}} in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss."
+          },
+          {
+            "id": "base",
+            "title": "Soften the sauce base",
+            "text": "In the same emptied pasta pot, heat {{ingredients}} over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed."
+          },
+          {
+            "id": "garlic",
+            "title": "Season",
+            "text": "Add {{ingredients}} and stir about 45 seconds until fragrant, without scorching garlic."
+          },
+          {
+            "id": "reduce",
+            "title": "Reduce broth by observation",
+            "text": "Add {{ingredients}} and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation."
+          },
+          {
+            "id": "cream",
+            "title": "Finish gently",
+            "text": "Reduce heat to low and stir in {{ingredients}} until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard."
+          },
+          {
+            "id": "toss",
+            "title": "Coat pasta and spinach",
+            "text": "Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out."
+          },
+          {
+            "id": "serve",
+            "title": "Serve and reserve leftovers",
+            "text": "Serve hot. The listed {{ingredients}} is only for reheating leftovers, not an extra dose during this first cooking."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Reduce broth before adding sour cream",
+        "outcome": "The broth is roughly half its starting volume before sour cream enters.",
+        "techniques": ["emulsions", "starch"],
+        "before": [
+          "The full original-batch sauce uses ½ cup tomatoes PLUS 1 tbsp jar oil,1 tbsp butter,½ cup sour cream and ¼ cup Parmesan. Keep each separate ingredient and its destination.",
+          "Use a colander and pot with room for pasta and spinach. Larger batches may need divided pots; a doubled batch does not reduce by half in the same two minutes."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "The broth is roughly half its starting volume before sour cream enters.",
+            "why": "The reduction cue governs consistency; time varies with pot width."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce is grainy or splitting",
+            "cause": "Cheese mixture was heated too aggressively or reheated after chilling.",
+            "fix": "After adding sour cream and Parmesan, lower the heat or take the pot off the heat and stir gently. Reheat stored pasta using the instructions below; the sauce may separate."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Separate skillet, butter added at the finish",
+            "alternative": "Use the same full ingredient amounts. While pasta cooks, sauté onion and tomatoes in only the listed jar oil in a separate large skillet. Add garlic, red pepper, measured salt and pepper, then broth and reduce by about half. Turn heat down and stir in the entire listed butter with the sour cream and Parmesan; combine with cooked pasta and wilted spinach. Vegetable broth can replace chicken broth at the same listed volume in either route.",
+            "effect": "A separate skillet lets the sauce cook while the pasta boils. In this variation all the butter goes in with the sour cream and Parmesan. Use only one butter amount and one tomato amount."
+          }
+        ],
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3 days. Reheat this pasta dish to 165°F /74°C throughout, stirring for even heating and using the listed reheating-water allowance only as needed. Sour cream and cheese may separate on reheating.",
+        "timing": "About 20–30 minutes active work and 30–45 minutes elapsed when making the sauce in the same pot after cooking and draining the pasta. A separate skillet lets pasta and sauce work overlap. Reduction time depends on pot width, heat and batch size; use the change in liquid level. Ingredient controls do not multiply timers.",
+        "sources": [
+          {
+            "title": "Saved Adapted from eatingwell.com",
+            "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+          },
+          {
+            "title": "USDA — storing and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — preparing fresh produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis lighter pasta became popular in Italian-American cooking during the 1990s health-food movement. The clever trick: place raw spinach in a colander and drain the boiling pasta water directly over it. The hot water wilts the spinach perfectly while keeping it bright green. Sour cream instead of heavy cream adds tangy brightness that cuts through the rich, oily sun-dried tomatoes.\n\n## Directions\n\n1.  **Boil:** Cook pasta in salted water according to package directions.\n2.  **The Wilt:** Place raw spinach in a large colander. Pour the boiling pasta and its water directly over the spinach. Toss gently to wilt. Drain well.\n3.  **The Base:** In the same pot, heat 1 tbsp of the tomato oil and the butter. Sauté onion and tomatoes for 3 minutes until soft. Add garlic and red pepper flakes; cook for 45 seconds.\n4.  **Simmer:** Pour in the broth. Simmer for 2 minutes until reduced by half.\n5.  **Emulsify:** Whisk in the sour cream and Parmesan until a thick, creamy sauce forms.\n6.  **Bind:** Return the spaghetti and spinach to the pot. Toss for 1 minute over low heat until the sauce is completely absorbed.\n7.  **Serve:** Season with plenty of black pepper and serve hot.\n",
+    "after": "\n## Chef's Note\n\nUse the listed tomato-jar oil and butter in the sauté, then reduce the broth before gently adding sour cream and Parmesan. Put the prepared fresh spinach in a clean heat-safe colander and drain the hot pasta carefully over it. Toss to wilt and drain thoroughly.\n\n## Directions\n\n1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.\n"
+  },
+  "findings": [
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-1",
+      "title": "prepTime",
+      "field": "prepTime",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-2",
+      "title": "cookTime",
+      "field": "cookTime",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-3",
+      "title": "totalTime",
+      "field": "totalTime",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-4",
+      "title": "servings",
+      "field": "servings",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope; FDA produce guidance supports fresh-produce handling where applicable. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-5",
+      "title": "ingredients",
+      "field": "ingredients",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish measured amounts and method-only allowances. Current retained repairs and proposed allocation text distinguish one shared pool from extra doses. The current EatingWell card also corroborates jar oil and measured seasonings, while butter timing differs. FDA/USDA do not establish the formula or intended quantities.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-6",
+      "title": "origin",
+      "field": "origin",
+      "rationale": "No source-specific origin evidence for this exact formula; cuisine labels/source attribution retained.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The complete followed Git history records the origin metadata addition, but the exact saved formula has no source-specific geographic-origin evidence. Omission preserves every existing cuisine/style tag and attribution; FDA/USDA and publisher location do not establish recipe origin.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-7",
+      "title": "nutrition",
+      "field": "nutrition",
+      "rationale": "Prior generic estimate lacks formula-specific validated analysis; remove rather than manufacture replacement.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The followed Git history establishes the bulk numerical estimate and the exact current formula. No formula-specific nutrition analysis is established, so removing the numerical estimate avoids inventing a replacement. Origin geography and FDA/USDA handling guidance are not nutrition validation.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-8",
+      "title": "formula",
+      "field": "formula",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "High exact saved amounts and authored allocations; independent/root acceptance pending",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — preparing fresh produce",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope; FDA produce guidance supports fresh-produce handling where applicable. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-9",
+      "title": "learning",
+      "field": "learning",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact ¼ tsp sauce salt/pepper omitted at 2 f 2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "Editorial planning estimates, source-specific mechanisms; no kitchen measurement",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — preparing fresh produce",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope; FDA produce guidance supports fresh-produce handling where applicable. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    },
+    {
+      "id": "spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce-10",
+      "title": "body",
+      "field": "body",
+      "rationale": "Restore source-proven jar oil already spent by frozen method and exact ¼ tsp sauce salt/pepper omitted at 2 f 2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views.",
+      "confidence": "High exact source/destination; clocks need kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from eatingwell.com",
+          "url": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — preparing fresh produce",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope; FDA produce guidance supports fresh-produce handling where applicable. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "servings",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "formula",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+        "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+        "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/spaghetti-and-spinach-with-sun-dried-tomato-cream-sauce.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Restore source-proven jar oil already spent by frozen method and exact¼ tsp sauce salt/pepper omitted at2f2553; retain full later butter-in-sauté main and separately specify saved finishing-butter route. No later explicit household removal decision established by followed history. Source half reduction remains the goal, not two-minute guarantee. Migrate substantive ingredient/destination repair to authored formula and compile all views. The current publisher gives three refrigerated days and a 20-minute parallel-method card; exact saved prep/cook metadata totals 40 minutes, while the proposed sequential one-pot route estimates 30–45 minutes. These are separate written estimates, not measured household clocks. The current publisher frozen-spinach option uses 5 oz frozen spinach, thawed and drained, and skips the colander step; it remains unadopted pending actual product cooking instructions; the fresh-spinach main remains intact.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Whole-wheat Spaghetti",
+        "destination": "step 1 cook",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "5 oz Fresh Baby Spinach",
+        "destination": "step 2 raw colander pour/wilt; washing not specified",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/2 cup Sun-dried Tomatoes in oil, slivered",
+        "destination": "step 3 sauté with method-only 1 tbsp jar oil",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/2 cup Sour Cream (for richness)",
+        "destination": "step 5 sauce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 cup Low-sodium Chicken Broth",
+        "destination": "step 4 reduce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 cup Parmesan, grated",
+        "destination": "step 5 sauce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/2 cup Red Onion, sliced",
+        "destination": "step 3 sauté",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "3 cloves Garlic, minced",
+        "destination": "step 3 aromatic",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 tbsp Unsalted Butter",
+        "destination": "step 3 sauté; differs exact original finish-butter route",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 tsp Red Pepper Flakes",
+        "destination": "step 3 aromatic",
+        "state": "Exact frozen string",
+        "question": "Measured sauce salt/pepper absent; method-only black pepper remains allowance, not a prior listed measured dose"
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz Dry whole-wheat spaghetti",
+        "destination": ["pasta"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "5 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "destination": ["spinach"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "destination": ["base"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 tbsp Oil from the sun-dried tomato jar",
+        "destination": ["base"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Sour cream",
+        "destination": ["cream"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 cup Low-sodium chicken broth",
+        "destination": ["reduce"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 cup Parmesan cheese, grated",
+        "destination": ["cream"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Red onion, thinly sliced",
+        "destination": ["base"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "3 Garlic cloves, minced",
+        "destination": ["garlic"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 tbsp Unsalted butter",
+        "destination": ["base"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 tsp Crushed red pepper",
+        "destination": ["garlic"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 tsp Salt",
+        "destination": ["garlic"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 tsp Ground black pepper",
+        "destination": ["garlic"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, as needed to boil pasta",
+        "destination": ["pasta"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Salt for pasta water, as desired, separate from measured sauce salt",
+        "destination": ["pasta"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water for reheating, a little as needed for leftovers",
+        "destination": ["serve"],
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      }
+    ],
+    "frozenUnlistedAllowances": [
+      "Step3 uses1tbsp jar oil without ingredient listing; step1 salted water unlisted; step7 pepper allowance unlisted; measured original¼tsp salt/pepper not frozen listed"
+    ]
+  },
+  "processGraph": {
+    "scope": "Exact accepted ordered method stages; complete ingredient destinations remain in the ledger and distinct variant ledgers.",
+    "nodes": [
+      {
+        "step": 1,
+        "text": "Cook pasta: From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente."
+      },
+      {
+        "step": 2,
+        "text": "Wilt washed spinach: Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss."
+      },
+      {
+        "step": 3,
+        "text": "Soften the sauce base: In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed."
+      },
+      {
+        "step": 4,
+        "text": "Season: Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic."
+      },
+      {
+        "step": 5,
+        "text": "Reduce broth by observation: Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation."
+      },
+      {
+        "step": 6,
+        "text": "Finish gently: Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard."
+      },
+      {
+        "step": 7,
+        "text": "Coat pasta and spinach: Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out."
+      },
+      {
+        "step": 8,
+        "text": "Serve and reserve leftovers: Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking."
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Separate skillet, butter added at the finish",
+      "alternative": "Use the same full ingredient amounts. While pasta cooks, sauté onion and tomatoes in only the listed jar oil in a separate large skillet. Add garlic, red pepper, measured salt and pepper, then broth and reduce by about half. Turn heat down and stir in the entire listed butter with the sour cream and Parmesan; combine with cooked pasta and wilted spinach. Vegetable broth can replace chicken broth at the same listed volume in either route.",
+      "effect": "A separate skillet lets the sauce cook while the pasta boils. In this variation all the butter goes in with the sour cream and Parmesan. Use only one butter amount and one tomato amount."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": [
+      "vietnamese-grilled-chicken",
+      "garlic-butter-roasted-salmon-with-potatoes-and-asparagus"
+    ],
+    "wholePairingsEvidence": "privately retained evidence",
+    "scope": "Paired current files retained and read for process/portion compatibility; no paired recipe status promotion. No actual meal file references these six slugs.",
+    "notes": "Pasta4 side portions; chicken4 and salmon tray4 mains; salmon already supplies potato starch/asparagus. These links do not prescribe every component as one complete plate."
+  },
+  "ratiosYieldAndCapacity": {
+    "capacity": [
+      "The full original-batch sauce uses½ cup tomatoes PLUS1 tbsp jar oil,1 tbsp butter,½ cup sour cream and¼ cup Parmesan. Keep each separate ingredient and its destination.",
+      "Use a colander and pot with room for pasta and spinach. Larger batches may need divided pots; a doubled batch does not reduce by half in the same two minutes."
+    ],
+    "timing": "About 20–30 minutes active work and 30–45 minutes elapsed when making the sauce in the same pot after cooking and draining the pasta. A separate skillet lets pasta and sauce work overlap. Reduction time depends on pot width, heat and batch size; use the change in liquid level. Ingredient controls do not multiply timers.",
+    "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3 days. Reheat this pasta dish to 165°F /74°C throughout, stirring for even heating and using the listed reheating-water allowance only as needed. Sour cream and cheese may separate on reheating."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "ingredients": [
+        "--- Ingredients ---",
+        "2 oz Dry whole-wheat spaghetti",
+        "1 1/4 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1/8 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "1/4 tbsp Oil from the sun-dried tomato jar",
+        "1/8 cup Sour cream",
+        "1/4 cup Low-sodium chicken broth",
+        "0.0625 cup Parmesan cheese, grated",
+        "1/8 cup Red onion, thinly sliced",
+        "3/4 Garlic clove, minced",
+        "1/4 tbsp Unsalted butter",
+        "0.0625 tsp Crushed red pepper",
+        "0.0625 tsp Salt",
+        "0.0625 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "1 portion",
+      "directions": "1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.",
+      "geometry": "Comparable pan depth/headroom, actual product state and endpoints remain fixed; capacity and loads change."
+    },
+    {
+      "factor": 0.5,
+      "ingredients": [
+        "--- Ingredients ---",
+        "4 oz Dry whole-wheat spaghetti",
+        "2 1/2 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1/4 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "1/2 tbsp Oil from the sun-dried tomato jar",
+        "1/4 cup Sour cream",
+        "1/2 cup Low-sodium chicken broth",
+        "1/8 cup Parmesan cheese, grated",
+        "1/4 cup Red onion, thinly sliced",
+        "1 1/2 Garlic cloves, minced",
+        "1/2 tbsp Unsalted butter",
+        "1/8 tsp Crushed red pepper",
+        "1/8 tsp Salt",
+        "1/8 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "2 portions",
+      "directions": "1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.",
+      "geometry": "Comparable pan depth/headroom, actual product state and endpoints remain fixed; capacity and loads change."
+    },
+    {
+      "factor": 1,
+      "ingredients": [
+        "--- Ingredients ---",
+        "8 oz Dry whole-wheat spaghetti",
+        "5 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1/2 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "1 tbsp Oil from the sun-dried tomato jar",
+        "1/2 cup Sour cream",
+        "1 cup Low-sodium chicken broth",
+        "1/4 cup Parmesan cheese, grated",
+        "1/2 cup Red onion, thinly sliced",
+        "3 Garlic cloves, minced",
+        "1 tbsp Unsalted butter",
+        "1/4 tsp Crushed red pepper",
+        "1/4 tsp Salt",
+        "1/4 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "4 portions",
+      "directions": "1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.",
+      "geometry": "Comparable pan depth/headroom, actual product state and endpoints remain fixed; capacity and loads change."
+    },
+    {
+      "factor": 1.5,
+      "ingredients": [
+        "--- Ingredients ---",
+        "12 oz Dry whole-wheat spaghetti",
+        "7 1/2 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "3/4 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "1 1/2 tbsp Oil from the sun-dried tomato jar",
+        "3/4 cup Sour cream",
+        "1 1/2 cups Low-sodium chicken broth",
+        "3/8 cup Parmesan cheese, grated",
+        "3/4 cup Red onion, thinly sliced",
+        "4 1/2 Garlic cloves, minced",
+        "1 1/2 tbsp Unsalted butter",
+        "3/8 tsp Crushed red pepper",
+        "3/8 tsp Salt",
+        "3/8 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "6 portions",
+      "directions": "1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.",
+      "geometry": "Comparable pan depth/headroom, actual product state and endpoints remain fixed; capacity and loads change."
+    },
+    {
+      "factor": 2,
+      "ingredients": [
+        "--- Ingredients ---",
+        "16 oz Dry whole-wheat spaghetti",
+        "10 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "2 tbsp Oil from the sun-dried tomato jar",
+        "1 cup Sour cream",
+        "2 cups Low-sodium chicken broth",
+        "1/2 cup Parmesan cheese, grated",
+        "1 cup Red onion, thinly sliced",
+        "6 Garlic cloves, minced",
+        "2 tbsp Unsalted butter",
+        "1/2 tsp Crushed red pepper",
+        "1/2 tsp Salt",
+        "1/2 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "8 portions",
+      "directions": "1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.",
+      "geometry": "Comparable pan depth/headroom, actual product state and endpoints remain fixed; capacity and loads change."
+    },
+    {
+      "factor": 3,
+      "ingredients": [
+        "--- Ingredients ---",
+        "24 oz Dry whole-wheat spaghetti",
+        "15 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1 1/2 cups Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "3 tbsp Oil from the sun-dried tomato jar",
+        "1 1/2 cups Sour cream",
+        "3 cups Low-sodium chicken broth",
+        "3/4 cup Parmesan cheese, grated",
+        "1 1/2 cups Red onion, thinly sliced",
+        "9 Garlic cloves, minced",
+        "3 tbsp Unsalted butter",
+        "3/4 tsp Crushed red pepper",
+        "3/4 tsp Salt",
+        "3/4 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "12 portions",
+      "directions": "1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.\n2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.\n3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.\n4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.\n5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.\n6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.\n7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.\n8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.",
+      "geometry": "Comparable pan depth/headroom, actual product state and endpoints remain fixed; capacity and loads change."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Ingredients ---",
+        "8 oz Dry whole-wheat spaghetti",
+        "5 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained",
+        "1/2 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately",
+        "1 tbsp Oil from the sun-dried tomato jar",
+        "1/2 cup Sour cream",
+        "1 cup Low-sodium chicken broth",
+        "1/4 cup Parmesan cheese, grated",
+        "1/2 cup Red onion, thinly sliced",
+        "3 Garlic cloves, minced",
+        "1 tbsp Unsalted butter",
+        "1/4 tsp Crushed red pepper",
+        "1/4 tsp Salt",
+        "1/4 tsp Ground black pepper",
+        "Water, as needed to boil pasta",
+        "Salt for pasta water, as desired, separate from measured sauce salt",
+        "Water for reheating, a little as needed for leftovers"
+      ],
+      "yield": "4 portions"
+    }
+  ],
+  "preservedPriorRepairs": "Measured richness preserved; targeted dispositions do not confer complete status",
+  "remainingQuestions": [
+    "Record reduction time in actual pot and packed cooked yield; four portions remain planning count, not1¼-cup measured output.",
+    "Source current page repeats tomatoes within step2; use the one listed½-cup total, not two doses.",
+    "Frozen-spinach publisher variant is not added without actual product cooking instructions; source thaw-and-stir alone cannot certify an unknown frozen product."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "slug": "chinese-style-snapper",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+  "acceptedSourceSha256": "1fbcee124870bba47595ff8ae0f7af21f0d55bc48c54c346df5813fc92f0dec6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "20 min",
+      "after": "20–30 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "50 min",
+      "after": "About 40–55 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "70 min",
+      "after": "About 60–80 min"
+    },
+    {
+      "field": "origin",
+      "before": "China",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 135,
+        "protein": 4.5,
+        "carbs": 3,
+        "fat": 11.5,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 2810
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Cook a covered whole fish and handle its aromatic finish",
+        "outcome": "Thick flesh is fully cooked and separates easily; the fish remains supported and the drained aromatics become fragrant.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools separate from cooked fish and garnishes.",
+          "Use a pan and a heatproof serving platter that fit the whole fish. Confirm parchment and pan temperature ratings; scales do not multiply pan dimensions.",
+          "The 1.8-kg whole fish and six portions are original-batch planning claims, including bones; larger or smaller fish need different checks.",
+          "For the optional two-hour advance preparation, clean, dry and slash the fish, then cover and refrigerate at 40°F / 4°C or below. Preheat the oven when ready to bake and continue with seasoning about 1 hour before intended serving; that lead time is a planning cue, and the measured flesh and juice checks still determine completion."
+        ],
+        "checkpoints": [
+          {
+            "step": 4,
+            "cue": "Both thick sides read 145°F /63°C away from bone and the flesh separates easily.",
+            "why": "A foil cover changes the cooking environment but does not establish the center endpoint."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Fish breaks during transfer",
+            "cause": "A whole fish is lifted by its head or one narrow spatula",
+            "fix": "Use two broad spatulas to support the body and a platter large enough for it; broken flesh cannot be reassembled perfectly."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Chinese rice wine",
+            "alternative": "The same listed amount of dry sherry",
+            "effect": "Dry sherry changes the wine aroma; keep the other dressing quantities unchanged."
+          },
+          {
+            "ingredient": "Ginger allocation and oil finish",
+            "alternative": "Spread all the listed ginger with all the garlic before covering and baking; pour the hot oil over the cooked fish, then the checked hot juices, and finally add the scallions and cilantro.",
+            "effect": "This complete ordering keeps all ingredient amounts; choose it instead of the half-ginger garnish route."
+          }
+        ],
+        "timing": "Allow roughly 20–30 minutes active and 60–80 minutes elapsed for the original cleaned, thawed fish, including preparation, covered baking and finishing. Follow measured doneness; larger pan loads change the clock. Thawing is additional.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers at 40°F /4°C or below, within 2 hours (1 hour above 90°F /32°C). Use within 3–4 days; reheat hot leftovers to 165°F /74°C throughout. Delicate fish can dry on reheating; do not leave it warm to protect its texture.",
+        "sources": [
+          {
+            "title": "Adapted from taste.com.au",
+            "url": "https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3"
+          },
+          {
+            "title": "FDA — Fish handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Species and egg-dish endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Produce handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA — Leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nBaking whole fish Chinese-style creates a restaurant-quality presentation. Cutting three deep slashes into the thickest part of the fish allows heat and seasoning to penetrate evenly, preventing the outside from overcooking before the middle is done. Baking covered with foil creates a steam chamber that keeps the fish moist. The dramatic finish: pour smoking-hot peanut oil over fresh scallions piled on the fish to release their aroma directly into the skin.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 425°F (220°C). Line a roasting pan with foil and then parchment paper.\n2.  **Slash:** Rinse the snapper and pat **extremely dry**. Cut 3 slashes (1cm deep) into each side of the fish. Place in the prepared pan.\n3.  **Season:** Spread half the ginger and garlic into the slits. Whisk soy sauce, broth, rice wine, and sesame oil; pour over the fish.\n4.  **Bake:** Cover the pan tightly with foil to create a steam chamber. Bake for 45-50 minutes until the flesh flakes easily with a fork.\n5.  **Garnish Prep:** Carefully transfer the fish to a warm platter. Reserve the juices from the pan. Pile the scallions and the remaining ginger on top of the fish.\n6.  **The Sizzle:** Heat peanut oil in a small saucepan until just smoking. Carefully pour it over the scallion/ginger pile - it should sizzle loudly.\n7.  **Finish:** Pour the reserved pan juices over the fish. Garnish with cilantro and serve immediately.\n",
+    "after": "\n## Chef's Note\n\nThis covered whole-snapper preparation uses ginger, garlic and a soy-wine dressing, followed by a hot peanut-oil finish. Slashes expose thicker flesh to the seasoning; they do not guarantee that every fish cooks in the same time. Keep the whole fish supported on a large heatproof platter when transferring it.\n\n## Directions\n\n1. **Prep:** Preheat the oven to 425°F /220°C. Choose a roasting pan that holds the original-size whole snapper without bending it; for multiples use additional pans. Line it with foil and nonstick baking parchment rated for the temperature, keeping the paper inside the covered pan.\n\n2. **Slash:** Use a scaled, gutted fish with the gills removed. Pat the inside and outside dry, keeping raw-contact tools separate from the serving platter. Cut three approximately 1-cm-deep slashes into the thick flesh on each side. Put it in the pan. Rinse fresh ginger, scallions and cilantro under running water as appropriate and drain thoroughly.\n\n3. **Season:** Spread all the garlic and half the listed ginger into and over the slits. Mix all the soy sauce, broth, rice wine and sesame oil and pour over the fish.\n\n4. **Bake:** Cover the pan tightly with foil. Begin checking before the original 45–50-minute planning range is complete and continue as needed until thick flesh on both sides reaches 145°F /63°C without touching bone, and is no longer translucent and separates easily. Fish thickness, starting temperature and pan load change the time.\n\n5. **Transfer:** With broad spatulas, carefully move the cooked fish to a warmed heatproof platter. Reserve all the cooking juices in the roasting pan, taking care with steam. Put all the scallions and the remaining ginger on the fish.\n\n6. **Oil:** Heat all the peanut oil in a small dry saucepan over controlled heat until hot and shimmering; do not maintain smoking oil. Carefully pour it over the well-drained scallions and ginger, keeping hands and face clear of splashes.\n\n7. **Finish:** Check the reserved raw-contact pan juices at 145°F /63°C before pouring them over the cooked fish. If needed, return the pan to the oven or transfer juices to a saucepan to finish heating. Add all the cilantro and serve promptly. When scaling, use additional original-size fish and roomy pans; do not multiply the oven clock or assume a fractional fish has the same geometry.\n"
+  },
+  "findings": [
+    {
+      "id": "chinese-style-snapper-1",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested planning range follows complete preparation and product state.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen prepTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    },
+    {
+      "id": "chinese-style-snapper-2",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested cooking range is subordinate to the measured center endpoint.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen cookTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    },
+    {
+      "id": "chinese-style-snapper-3",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Elapsed includes required chilling/rest/heat-up/batches where applicable; no time multiplication.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen totalTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    },
+    {
+      "id": "chinese-style-snapper-4",
+      "title": "unsupported geographic metadata",
+      "field": "unsupported geographic metadata",
+      "rationale": "No source-specific origin evidence; style and source credits preserved",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen origin before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        }
+      ],
+      "sourceApplicability": "Git/source context establishes the unsupported assertion and exact removal. No source-specific geographic origin or ingredient-weight/finished-yield nutrition analysis is invented.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    },
+    {
+      "id": "chinese-style-snapper-5",
+      "title": "unsupported numerical nutrition",
+      "field": "unsupported numerical nutrition",
+      "rationale": "No ingredient-weight/finished-yield analysis supports legacy numerical estimate; remove without replacement",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen nutrition before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        }
+      ],
+      "sourceApplicability": "Git/source context establishes the unsupported assertion and exact removal. No source-specific geographic origin or ingredient-weight/finished-yield nutrition analysis is invented.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    },
+    {
+      "id": "chinese-style-snapper-6",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Recipe-specific preparation, cues, troubleshooting, product/state distinctions and source-scoped storage; no generic lesson or tested claim.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen learning before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3",
+          "applicability": "Specific full quantities, all-ginger source ordering, sherry option and optional refrigerated preparation note; not a source-tested pan-juice temperature or shimmer-equivalence claim."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Reserved fish-contact juice at 145°F is a moderate editorial transfer, not direct sauce guidance or publisher testing. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. Fish-contact juice at 145°F and controlled oil shimmer are untested editorial applications; no oil-temperature or zero-risk equivalence.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    },
+    {
+      "id": "chinese-style-snapper-7",
+      "title": "complete ingredient and measured-state method",
+      "field": "complete ingredient and measured-state method",
+      "rationale": "Follow the complete ingredient destinations, measured species/product endpoint, original-size geometry and sensory cues; preserve defining current ingredients and separate saved variants. See sourceDisagreements for exact lineage.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "f492824da72d1c3bc4fa366489c19e6f820082197eb1856eb881b54fa8b7fa5a",
+          "applicability": "Exact frozen content before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "b8ac8adf3ed9553038aee23b0c5e08985150c201220145209d6d98a1ccfa3ac5",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3",
+          "applicability": "Specific full quantities, all-ginger source ordering, sherry option and optional refrigerated preparation note; not a source-tested pan-juice temperature or shimmer-equivalence claim."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Reserved fish-contact juice at 145°F is a moderate editorial transfer, not direct sauce guidance or publisher testing. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. Fish-contact juice at 145°F and controlled oil shimmer are untested editorial applications; no oil-temperature or zero-risk equivalence.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+        "Observe hot-oil aroma below smoke and full pan-juice heating."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/chinese-style-snapper.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "2c07c669 changed the saved all-ginger-before-bake/garnish-after-oil sequence to the current half-ginger-finish route, and removed the dry-sherry choice. No later deliberate household decision found; keep current main and restore the complete ordering alternative separately. Australian source “shallots” are threaded green alliums in this method; current scallions remain, not6 bulb shallots. Native7.5cm ginger/current3-inch descriptor is original-piece context, not a fabricated yield conversion. Current source says just-smoking oil; controlled hot shimmer is editorial handling clarification, not a measured oil-temperature equivalence.145°F pan-juice application is a moderate transfer of raw fish-contact handling, not source-tested sauce thermometry. Omit unsupported country origin while retaining Chinese cuisine/style. The exact first Git Notes section and current Taste recipe retain an optional prepare-through-slashing, covered two-hour refrigerator lead, followed by seasoning/baking about one hour before service. 2c07c669 removed this note together with the whole body rewrite; no later deliberate rejection was found. Restore the supported optional preparation note separately, retaining 40°F cold handling and completion checks rather than a guaranteed one-hour service clock.",
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "text": "1.8 kg Whole Snapper, scaled and gutted",
+        "destination": "steps2–4 fish"
+      },
+      {
+        "row": 2,
+        "text": "3 cloves Garlic, finely chopped",
+        "destination": "step3 all garlic"
+      },
+      {
+        "row": 3,
+        "text": "1 (3-inch) piece Fresh Ginger, finely shredded",
+        "destination": "steps3 and5 half/half ginger"
+      },
+      {
+        "row": 4,
+        "text": "1/4 cup Soy Sauce",
+        "destination": "step3 soy"
+      },
+      {
+        "row": 5,
+        "text": "1/4 cup Chicken Broth",
+        "destination": "step3 broth"
+      },
+      {
+        "row": 6,
+        "text": "2 tbsp Chinese Rice Wine (Shaoxing)",
+        "destination": "step3 wine"
+      },
+      {
+        "row": 7,
+        "text": "3 tsp Toasted Sesame Oil",
+        "destination": "step3 sesame oil"
+      },
+      {
+        "row": 8,
+        "text": "2 tbsp Peanut Oil",
+        "destination": "step6 peanut oil"
+      },
+      {
+        "row": 9,
+        "text": "6 Scallions, shredded into 4-inch threads",
+        "destination": "step5 scallions"
+      },
+      {
+        "row": 10,
+        "text": "1/2 cup Fresh Cilantro",
+        "destination": "step7 cilantro"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "text": "1.8 kg Whole Snapper, scaled and gutted",
+        "destination": "steps2–4 fish"
+      },
+      {
+        "row": 2,
+        "text": "3 cloves Garlic, finely chopped",
+        "destination": "step3 all garlic"
+      },
+      {
+        "row": 3,
+        "text": "1 (3-inch) piece Fresh Ginger, finely shredded",
+        "destination": "steps3 and5 half/half ginger"
+      },
+      {
+        "row": 4,
+        "text": "1/4 cup Soy Sauce",
+        "destination": "step3 soy"
+      },
+      {
+        "row": 5,
+        "text": "1/4 cup Chicken Broth",
+        "destination": "step3 broth"
+      },
+      {
+        "row": 6,
+        "text": "2 tbsp Chinese Rice Wine (Shaoxing)",
+        "destination": "step3 wine"
+      },
+      {
+        "row": 7,
+        "text": "3 tsp Toasted Sesame Oil",
+        "destination": "step3 sesame oil"
+      },
+      {
+        "row": 8,
+        "text": "2 tbsp Peanut Oil",
+        "destination": "step6 peanut oil"
+      },
+      {
+        "row": 9,
+        "text": "6 Scallions, shredded into 4-inch threads",
+        "destination": "step5 scallions"
+      },
+      {
+        "row": 10,
+        "text": "1/2 cup Fresh Cilantro",
+        "destination": "step7 cilantro"
+      }
+    ],
+    "nativeIngredientsRetainedPrivately": "Exact native ingredients and all body/notes retained in private evidence; no title-only match",
+    "frozenUnlistedAllowances": [],
+    "variants": [
+      {
+        "ingredient": "Chinese rice wine",
+        "alternative": "The same listed amount of dry sherry",
+        "effect": "Dry sherry changes the wine aroma; keep the other dressing quantities unchanged."
+      },
+      {
+        "ingredient": "Ginger allocation and oil finish",
+        "alternative": "Spread all the listed ginger with all the garlic before covering and baking; pour the hot oil over the cooked fish, then the checked hot juices, and finally add the scallions and cilantro.",
+        "effect": "This complete ordering keeps all ingredient amounts; choose it instead of the half-ginger garnish route."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "text": "1. **Prep:** Preheat the oven to 425°F /220°C. Choose a roasting pan that holds the original-size whole snapper without bending it; for multiples use additional pans. Line it with foil and nonstick baking parchment rated for the temperature, keeping the paper inside the covered pan."
+    },
+    {
+      "text": "2. **Slash:** Use a scaled, gutted fish with the gills removed. Pat the inside and outside dry, keeping raw-contact tools separate from the serving platter. Cut three approximately 1-cm-deep slashes into the thick flesh on each side. Put it in the pan. Rinse fresh ginger, scallions and cilantro under running water as appropriate and drain thoroughly."
+    },
+    {
+      "text": "3. **Season:** Spread all the garlic and half the listed ginger into and over the slits. Mix all the soy sauce, broth, rice wine and sesame oil and pour over the fish."
+    },
+    {
+      "text": "4. **Bake:** Cover the pan tightly with foil. Begin checking before the original 45–50-minute planning range is complete and continue as needed until thick flesh on both sides reaches 145°F /63°C without touching bone, and is no longer translucent and separates easily. Fish thickness, starting temperature and pan load change the time."
+    },
+    {
+      "text": "5. **Transfer:** With broad spatulas, carefully move the cooked fish to a warmed heatproof platter. Reserve all the cooking juices in the roasting pan, taking care with steam. Put all the scallions and the remaining ginger on the fish."
+    },
+    {
+      "text": "6. **Oil:** Heat all the peanut oil in a small dry saucepan over controlled heat until hot and shimmering; do not maintain smoking oil. Carefully pour it over the well-drained scallions and ginger, keeping hands and face clear of splashes."
+    },
+    {
+      "text": "7. **Finish:** Check the reserved raw-contact pan juices at 145°F /63°C before pouring them over the cooked fish. If needed, return the pan to the oven or transfer juices to a saucepan to finish heating. Add all the cilantro and serve promptly. When scaling, use additional original-size fish and roomy pans; do not multiply the oven clock or assume a fractional fish has the same geometry."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["corn-shrimp-dumplings", "smashed-cucumber-salad", "cantonese-wonton-broth"],
+    "incomingMeals": [],
+    "scope": "Actual meal directory has no incoming composed meal for these five. Pairings remain separate metadata suggestions; do not import their ingredients or certify coordinated portions/clocks."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "6",
+    "sourceYield": "Current planning count preserved; no measured finished yield",
+    "capacity": [
+      "Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools separate from cooked fish and garnishes.",
+      "Use a pan and a heatproof serving platter that fit the whole fish. Confirm parchment and pan temperature ratings; scales do not multiply pan dimensions.",
+      "The 1.8-kg whole fish and six portions are original-batch planning claims, including bones; larger or smaller fish need different checks.",
+      "For the optional two-hour advance preparation, clean, dry and slash the fish, then cover and refrigerate at 40°F / 4°C or below. Preheat the oven when ready to bake and continue with seasoning about 1 hour before intended serving; that lead time is a planning cue, and the measured flesh and juice checks still determine completion."
+    ],
+    "timing": "Allow roughly 20–30 minutes active and 60–80 minutes elapsed for the original cleaned, thawed fish, including preparation, covered baking and finishing. Follow measured doneness; larger pan loads change the clock. Thawing is additional.",
+    "scaling": "Preserve ingredient controls, original-size fish/pan geometry and endpoint; elapsed time changes with actual batches"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "0.45 kg Whole Snapper, scaled and gutted",
+        "3/4 clove Garlic, finely chopped",
+        "1/4 (3-inch) piece Fresh Ginger, finely shredded",
+        "0.0625 cup Soy Sauce",
+        "0.0625 cup Chicken Broth",
+        "1/2 tbsp Chinese Rice Wine (Shaoxing)",
+        "3/4 tsp Toasted Sesame Oil",
+        "1/2 tbsp Peanut Oil",
+        "1 1/2 Scallions, shredded into 4-inch threads",
+        "1/8 cup Fresh Cilantro"
+      ],
+      "yield": "Serves 1 1/2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "0.9 kg Whole Snapper, scaled and gutted",
+        "1 1/2 cloves Garlic, finely chopped",
+        "1/2 (3-inch) piece Fresh Ginger, finely shredded",
+        "1/8 cup Soy Sauce",
+        "1/8 cup Chicken Broth",
+        "1 tbsp Chinese Rice Wine (Shaoxing)",
+        "1 1/2 tsp Toasted Sesame Oil",
+        "1 tbsp Peanut Oil",
+        "3 Scallions, shredded into 4-inch threads",
+        "1/4 cup Fresh Cilantro"
+      ],
+      "yield": "Serves 3",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1.8 kg Whole Snapper, scaled and gutted",
+        "3 cloves Garlic, finely chopped",
+        "1 (3-inch) piece Fresh Ginger, finely shredded",
+        "1/4 cup Soy Sauce",
+        "1/4 cup Chicken Broth",
+        "2 tbsp Chinese Rice Wine (Shaoxing)",
+        "3 tsp Toasted Sesame Oil",
+        "2 tbsp Peanut Oil",
+        "6 Scallions, shredded into 4-inch threads",
+        "1/2 cup Fresh Cilantro"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "2.7 kg Whole Snapper, scaled and gutted",
+        "4 1/2 cloves Garlic, finely chopped",
+        "1 1/2 (3-inch) pieces Fresh Ginger, finely shredded",
+        "3/8 cup Soy Sauce",
+        "3/8 cup Chicken Broth",
+        "3 tbsp Chinese Rice Wine (Shaoxing)",
+        "4 1/2 tsp Toasted Sesame Oil",
+        "3 tbsp Peanut Oil",
+        "9 Scallions, shredded into 4-inch threads",
+        "3/4 cup Fresh Cilantro"
+      ],
+      "yield": "Serves 9",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "3.6 kg Whole Snapper, scaled and gutted",
+        "6 cloves Garlic, finely chopped",
+        "2 (3-inch) pieces Fresh Ginger, finely shredded",
+        "1/2 cup Soy Sauce",
+        "1/2 cup Chicken Broth",
+        "4 tbsp Chinese Rice Wine (Shaoxing)",
+        "6 tsp Toasted Sesame Oil",
+        "4 tbsp Peanut Oil",
+        "12 Scallions, shredded into 4-inch threads",
+        "1 cup Fresh Cilantro"
+      ],
+      "yield": "Serves 12",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "5.4 kg Whole Snapper, scaled and gutted",
+        "9 cloves Garlic, finely chopped",
+        "3 (3-inch) pieces Fresh Ginger, finely shredded",
+        "3/4 cup Soy Sauce",
+        "3/4 cup Chicken Broth",
+        "6 tbsp Chinese Rice Wine (Shaoxing)",
+        "9 tsp Toasted Sesame Oil",
+        "6 tbsp Peanut Oil",
+        "18 Scallions, shredded into 4-inch threads",
+        "1 1/2 cups Fresh Cilantro"
+      ],
+      "yield": "Serves 18",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1.8 kg Whole Snapper, scaled and gutted",
+        "3 cloves Garlic, finely chopped",
+        "1 (3-inch) piece Fresh Ginger, finely shredded",
+        "1/4 cup Soy Sauce",
+        "1/4 cup Chicken Broth",
+        "2 tbsp Chinese Rice Wine (Shaoxing)",
+        "3 tsp Toasted Sesame Oil",
+        "2 tbsp Peanut Oil",
+        "6 Scallions, shredded into 4-inch threads",
+        "1/2 cup Fresh Cilantro"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm actual fish thickness, pan fit and6-diner edible yield.",
+    "Observe hot-oil aroma below smoke and full pan-juice heating."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

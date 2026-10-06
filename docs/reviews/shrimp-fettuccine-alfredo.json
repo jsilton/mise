@@ -1,0 +1,738 @@
+{
+  "slug": "shrimp-fettuccine-alfredo",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "7873a8aa6be855a51fd42567e38124087de8fd20ffa72eed94487c451dc83573",
+  "acceptedSourceSha256": "797dd6704959c1b39ee868436660eec1118b655229453fcf5dafe631d5c7af16",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 20–30 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "25 min",
+      "after": "About 30–45 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Fettuccine Pasta",
+        "1 lb Jumbo Shrimp, peeled and deveined",
+        "2 tbsp Olive Oil",
+        "1 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped"
+      ],
+      "after": [
+        "1 lb Fettuccine Pasta",
+        "1 lb Raw Jumbo Shrimp, peeled and deveined",
+        "2 tbsp Olive Oil",
+        "1 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1/2 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 580,
+        "protein": 39.5,
+        "carbs": 82,
+        "fat": 11.5,
+        "fiber": 5,
+        "sugar": 1,
+        "sodium": 460
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Coordinate shrimp, pasta and a full sauce batch",
+        "outcome": "Several of the largest shrimp have firm, pearly opaque centers.",
+        "techniques": ["emulsions", "starch"],
+        "before": [
+          "One full scratch sauce batch at the original scale means 8 tbsp butter, 1 cup cream and 1½ cups Parmesan, plus its listed garlic, optional nutmeg, seasoning and up to ¼ cup water. Those sauce ingredients are a dependency, not an additional second batch.",
+          "Scale the full sauce and shared water pool with the pasta. Cook shrimp in more loads instead of crowding the skillet or doubling their cooking time."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Several of the largest shrimp have firm, pearly opaque centers.",
+            "why": "Shrimp center texture matters more than a fixed pink-color clock."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce is grainy or splitting",
+            "cause": "Cheese mixture was heated too aggressively or reheated after chilling.",
+            "fix": "During the first Parmesan-melting stage, lower the heat or take the pan off the heat and stir gently. Reheat stored pasta and shrimp using the instructions below; reheating can change the sauce texture."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Scratch Alfredo batch",
+            "alternative": "Replace the entire scratch Alfredo batch with one 15 oz jar Alfredo sauce at the original four-serving scale; scale that amount with the recipe. Cook the pasta and reserve its listed water as in step 1, then season and fully cook the shrimp as in steps 2–3. Heat the jarred sauce in a separate clean saucepan following its product instructions. Combine with hot pasta and fully cooked shrimp in steps 5–6, using only the same shared water reserve as needed.",
+            "effect": "Use one sauce route. Do not add a jar to the full scratch batch; the jarred product may have different consistency and seasoning."
+          }
+        ],
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate.",
+        "timing": "About 20–30 minutes active work and 30–45 minutes elapsed, with pasta work overlapping some shrimp/sauce preparation. Additional skillet loads or thawing add time. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+        "sources": [
+          {
+            "title": "Saved butter–cream Alfredo recipe",
+            "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+          },
+          {
+            "title": "USDA — storing and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — cooking and handling shrimp",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nItalian-American fettuccine Alfredo with shrimp traces back to Alfredo di Lelio's 1908 Rome original - just butter and Parmigiano-Reggiano, no cream. Americans added cream for richness and stability, then added shrimp because this is what we do. The key is a quick high-heat sear on the shrimp (2 minutes per side until pink with light char) - overcooking turns them rubbery. If making the [Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce) from scratch, use the same skillet you seared the shrimp in - those browned bits dissolve into the butter and become free flavor.\n\n## Directions\n\n1.  **Pasta:** Bring a large pot of heavily salted water to a boil. Cook fettuccine according to package directions. **Reserve 1/2 cup of pasta water before draining.**\n2.  **Shrimp:** While pasta boils, toss shrimp with garlic powder, salt, and pepper.\n3.  **Sear:** Heat oil in a large skillet over medium-high heat. Sear shrimp for 2 minutes per side until pink and opaque. Remove to a plate.\n4.  **Sauce:**\n    - If using **[Real Alfredo Sauce](/mise/recipes/real-alfredo-sauce)**: Prepare it in the same skillet used for the shrimp (scrape up those browned bits!).\n    - If using **Jarred Sauce**: Pour into the skillet and heat until bubbling.\n5.  **Combine:** Toss the hot pasta and the seared shrimp into the sauce. If it's too thick, add a splash of the reserved pasta water to loosen it up.\n6.  **Garnish:** Top with fresh parsley and serve immediately.\n",
+    "after": "\n## Chef's Note\n\nPrepare the full linked Alfredo batch and cook the shrimp just until firm and pearly opaque through their thickest centers. Pasta, shrimp and sauce can overlap, but the scratch sauce needs its own preparation time. The same-skillet route keeps the browned shrimp bits; finish heating the cream base before taking the pan off the heat for the Parmesan.\n\n## Directions\n\n1. For the scratch version, read the complete [Alfredo Sauce](/mise/recipes/real-alfredo-sauce) first and grate its Parmesan. Make one full linked batch for this original four-serving pasta recipe, matching the same scaling factor for both recipes. Use its full butter, cream and Parmesan amounts. Bring pasta water to a boil, using part of the listed salt allowance, and cook fettuccine according to its package. Reserve the listed pasta-water supply before draining.\n2. Use raw peeled, deveined shrimp; if frozen, thaw in the refrigerator first and drain. Toss with the garlic powder and some of the remaining salt and black pepper. Keep the raw-shrimp bowl and utensils separate from the cooked-shrimp plate.\n3. Heat some of the total olive oil in a large skillet over medium-high heat. Cook shrimp in uncrowded loads, dividing the same total oil across loads. Turn as needed, beginning checks around 2 minutes per side; time depends on size and pan heat. Continue until the thick centers are firm and pearly opaque. Move fully cooked shrimp to a clean plate.\n4. For scratch sauce, follow the linked complete butter–cream–garlic stage in the shrimp skillet. Before the offheat Parmesan stage, simmer the cream base as directed and verify it reaches at least 145°F /63°C so liquid in the raw-contact pan is heated as well; then melt the Parmesan gently as the linked recipe directs. Alternatively, prepare that same complete batch in a separate clean saucepan. The sauce recipe can use up to ¼ cup of the original ½-cup shared pasta-water reserve; keep the rest for the final toss. Do not add the sauce allowance on top of the pasta reserve.\n5. Toss the hot pasta and fully cooked shrimp with the sauce. Add remaining shared pasta water a little at a time if needed to loosen; not all of it may be necessary. Adjust with the remaining salt and pepper allowance without adding another fixed dose.\n6. Top with the chopped parsley and serve immediately.\n"
+  },
+  "findings": [
+    {
+      "id": "shrimp-fettuccine-alfredo-1",
+      "title": "prepTime",
+      "field": "prepTime",
+      "rationale": "Restore actual original15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve2 tbsp oil across loads and shared½-cup pasta water including linked sauce¼. Whole sauce dependency reviewed. Same-pan cream145 control is explicitly an editorial application of FDA seafood145 general guidance, not source-tested sauce temperature; require independent challenge.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-2",
+      "title": "cookTime",
+      "field": "cookTime",
+      "rationale": "Restore actual original15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve2 tbsp oil across loads and shared½-cup pasta water including linked sauce¼. Whole sauce dependency reviewed. Same-pan cream145 control is explicitly an editorial application of FDA seafood145 general guidance, not source-tested sauce temperature; require independent challenge.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-3",
+      "title": "totalTime",
+      "field": "totalTime",
+      "rationale": "Restore actual original15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve2 tbsp oil across loads and shared½-cup pasta water including linked sauce¼. Whole sauce dependency reviewed. Same-pan cream145 control is explicitly an editorial application of FDA seafood145 general guidance, not source-tested sauce temperature; require independent challenge.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-4",
+      "title": "ingredients",
+      "field": "ingredients",
+      "rationale": "Restore actual original15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve2 tbsp oil across loads and shared½-cup pasta water including linked sauce¼. Whole sauce dependency reviewed. Same-pan cream145 control is explicitly an editorial application of FDA seafood145 general guidance, not source-tested sauce temperature; require independent challenge.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The exact first and followed Git sources establish measured amounts and method-only allowances. Current retained repairs and proposed allocation text distinguish one shared pool from extra doses. FDA/USDA do not establish the formula or intended quantities.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-5",
+      "title": "origin",
+      "field": "origin",
+      "rationale": "No source-specific origin evidence for this exact formula; cuisine labels/source attribution retained.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The complete followed Git history records the origin metadata addition, but the exact saved formula has no source-specific geographic-origin evidence. Omission preserves every existing cuisine/style tag and attribution; FDA/USDA and publisher location do not establish recipe origin.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-6",
+      "title": "nutrition",
+      "field": "nutrition",
+      "rationale": "Prior generic estimate lacks formula-specific validated analysis; remove rather than manufacture replacement.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The followed Git history establishes the bulk numerical estimate and the exact current formula. No formula-specific nutrition analysis is established, so removing the numerical estimate avoids inventing a replacement. Origin geography and FDA/USDA handling guidance are not nutrition validation.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-7",
+      "title": "learning",
+      "field": "learning",
+      "rationale": "Restore actual original 15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve 2 tbsp oil across loads and shared ½-cup pasta water including linked sauce ¼. Whole sauce dependency reviewed. Same-pan cream 145 control is explicitly an editorial application of FDA seafood 145 general guidance, not source-tested sauce temperature; require independent challenge.",
+      "confidence": "Editorial planning estimates, source-specific mechanisms; no kitchen measurement",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The exact first and followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope, and FDA seafood guidance supports raw-shrimp handling and center cues only. Applying 145°F to a raw-contact cream base is a moderate editorial transfer of general seafood guidance, not a source-validated or tested sauce method; the separate clean saucepan avoids that contact. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    },
+    {
+      "id": "shrimp-fettuccine-alfredo-8",
+      "title": "body",
+      "field": "body",
+      "rationale": "Restore actual original 15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve 2 tbsp oil across loads and shared ½-cup pasta water including linked sauce ¼. Whole sauce dependency reviewed. Same-pan cream 145 control is explicitly an editorial application of FDA seafood 145 general guidance, not source-tested sauce temperature; require independent challenge.",
+      "confidence": "Medium for raw-contact145 cream-base application; other quantity/state preservation high",
+      "applicableSources": [
+        {
+          "title": "Saved butter–cream Alfredo recipe",
+          "url": "https://github.com/jsilton/mise/commit/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — cooking and handling shrimp",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+        }
+      ],
+      "sourceApplicability": "The exact first and followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope, and FDA seafood guidance supports raw-shrimp handling and center cues only. Applying 145°F to a raw-contact cream base is a moderate editorial transfer of general seafood guidance, not a source-validated or tested sauce method; the separate clean saucepan avoids that contact. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+        "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+        "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/0269301e5d8f38ec4330c40e2ec1b14f1ac7ea88/src/content/recipes/shrimp-fettuccine-alfredo.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Restore actual original15-oz jar alternative, specify raw state/FDA endpoint instead of pink/two-minute guarantee, conserve2 tbsp oil across loads and shared½-cup pasta water including linked sauce¼. Whole sauce dependency reviewed. Same-pan cream145 control is explicitly an editorial application of FDA seafood145 general guidance, not source-tested sauce temperature; require independent challenge.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "1 lb Fettuccine Pasta",
+        "destination": "step 1 cooked; pasta water method-only",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 lb Jumbo Shrimp, peeled and deveined",
+        "destination": "step 2 seasoning,3 cooking; listed state does not say raw/cooked",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "2 tbsp Olive Oil",
+        "destination": "step 3 skillet; no explicit multi-load allocation",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 tsp Garlic Powder",
+        "destination": "step 2 shrimp seasoning",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "step 1 pot salt,2 shrimp seasoning; no final allocation specified",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 batch Alfredo Sauce (See note)",
+        "destination": "step 4 scratch full sauce dependency OR jarred amount unspecified in frozen list; method alternative retained",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Fresh Parsley, chopped",
+        "destination": "step 6 garnish",
+        "state": "Exact frozen string",
+        "question": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "1 lb Fettuccine Pasta",
+        "destination": 1,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 lb Raw Jumbo Shrimp, peeled and deveined",
+        "destination": "step 2 raw seasoning; step 3 fully cook; step 5 return only fully cooked shrimp",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "2 tbsp Olive Oil",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 tsp Garlic Powder",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "1/2/5",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 batch Alfredo Sauce (See note)",
+        "destination": 4,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Fresh Parsley, chopped",
+        "destination": 6,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, as needed to boil pasta",
+        "destination": "step 1 pasta boiling; the shared reserve is drawn before draining",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "destination": "step 1 reserve; step 4 scratch sauce and step 5 final toss share this same scaled pool",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, a little as needed when reheating leftovers",
+        "destination": "learning.storage only; separate unmeasured leftover-reheating allowance",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      }
+    ],
+    "frozenUnlistedAllowances": [
+      "Step1½cup reserve unlisted; scratch sauce¼cup water potentially duplicates shared reserve"
+    ]
+  },
+  "processGraph": {
+    "scope": "Exact accepted ordered method stages; complete ingredient destinations remain in the ledger and distinct variant ledgers.",
+    "nodes": [
+      {
+        "step": 1,
+        "text": "For the scratch version, read the complete Alfredo Sauce first and grate its Parmesan. Make one full linked batch for this original four-serving pasta recipe, matching the same scaling factor for both recipes. Use its full butter, cream and Parmesan amounts. Bring pasta water to a boil, using part of the listed salt allowance, and cook fettuccine according to its package. Reserve the listed pasta-water supply before draining."
+      },
+      {
+        "step": 2,
+        "text": "Use raw peeled, deveined shrimp; if frozen, thaw in the refrigerator first and drain. Toss with the garlic powder and some of the remaining salt and black pepper. Keep the raw-shrimp bowl and utensils separate from the cooked-shrimp plate."
+      },
+      {
+        "step": 3,
+        "text": "Heat some of the total olive oil in a large skillet over medium-high heat. Cook shrimp in uncrowded loads, dividing the same total oil across loads. Turn as needed, beginning checks around 2 minutes per side; time depends on size and pan heat. Continue until the thick centers are firm and pearly opaque. Move fully cooked shrimp to a clean plate."
+      },
+      {
+        "step": 4,
+        "text": "For scratch sauce, follow the linked complete butter–cream–garlic stage in the shrimp skillet. Before the offheat Parmesan stage, simmer the cream base as directed and verify it reaches at least 145°F /63°C so liquid in the raw-contact pan is heated as well; then melt the Parmesan gently as the linked recipe directs. Alternatively, prepare that same complete batch in a separate clean saucepan. The sauce recipe can use up to ¼ cup of the original ½-cup shared pasta-water reserve; keep the rest for the final toss. Do not add the sauce allowance on top of the pasta reserve."
+      },
+      {
+        "step": 5,
+        "text": "Toss the hot pasta and fully cooked shrimp with the sauce. Add remaining shared pasta water a little at a time if needed to loosen; not all of it may be necessary. Adjust with the remaining salt and pepper allowance without adding another fixed dose."
+      },
+      {
+        "step": 6,
+        "text": "Top with the chopped parsley and serve immediately."
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Scratch Alfredo batch",
+      "alternative": "Replace the entire scratch Alfredo batch with one 15 oz jar Alfredo sauce at the original four-serving scale; scale that amount with the recipe. Cook the pasta and reserve its listed water as in step 1, then season and fully cook the shrimp as in steps 2–3. Heat the jarred sauce in a separate clean saucepan following its product instructions. Combine with hot pasta and fully cooked shrimp in steps 5–6, using only the same shared water reserve as needed.",
+      "effect": "Use one sauce route. Do not add a jar to the full scratch batch; the jarred product may have different consistency and seasoning."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["real-alfredo-sauce", "avocado-kale-caesar-salad", "garlic-bread"],
+    "wholePairingsEvidence": "privately retained evidence",
+    "scope": "Paired current files retained and read for process/portion compatibility; no paired recipe status promotion. No actual meal file references these six slugs.",
+    "notes": "One FULL sauce batch serves original four-portions pasta; match the two scale factors.½cup pasta reserve includes sauce use up to¼cup, not¾cup aggregate. Sauce is component, salad/bread are metadata suggestions."
+  },
+  "ratiosYieldAndCapacity": {
+    "capacity": [
+      "One full scratch sauce batch at the original scale means8 tbsp butter,1 cup cream and1½ cups Parmesan, plus its listed garlic, optional nutmeg, seasoning and up to¼ cup water. Those sauce ingredients are a dependency, not an additional second batch.",
+      "Scale the full sauce and shared water pool with the pasta. Cook shrimp in more loads instead of crowding the skillet or doubling their cooking time."
+    ],
+    "timing": "About 20–30 minutes active work and 30–45 minutes elapsed, with pasta work overlapping some shrimp/sauce preparation. Additional skillet loads or thawing add time. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+    "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Fettuccine Pasta",
+        "1/4 lb Raw Jumbo Shrimp, peeled and deveined",
+        "1/2 tbsp Olive Oil",
+        "1/4 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1/4 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1/8 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Fettuccine Pasta",
+        "1/2 lb Raw Jumbo Shrimp, peeled and deveined",
+        "1 tbsp Olive Oil",
+        "1/2 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1/2 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1/4 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Fettuccine Pasta",
+        "1 lb Raw Jumbo Shrimp, peeled and deveined",
+        "2 tbsp Olive Oil",
+        "1 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1/2 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Fettuccine Pasta",
+        "1 1/2 lb Raw Jumbo Shrimp, peeled and deveined",
+        "3 tbsp Olive Oil",
+        "1 1/2 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1 1/2 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "3/4 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Fettuccine Pasta",
+        "2 lb Raw Jumbo Shrimp, peeled and deveined",
+        "4 tbsp Olive Oil",
+        "2 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "2 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Fettuccine Pasta",
+        "3 lb Raw Jumbo Shrimp, peeled and deveined",
+        "6 tbsp Olive Oil",
+        "3 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "3 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1 1/2 cups Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Fettuccine Pasta",
+        "1 lb Raw Jumbo Shrimp, peeled and deveined",
+        "2 tbsp Olive Oil",
+        "1 tsp Garlic Powder",
+        "Salt and Black Pepper",
+        "1 batch Alfredo Sauce (See note)",
+        "Fresh Parsley, chopped",
+        "Water, as needed to boil pasta",
+        "1/2 cup Pasta cooking water, reserved before draining; one shared supply for sauce and final toss",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    }
+  ],
+  "preservedPriorRepairs": "Measured richness preserved; targeted dispositions do not confer complete status",
+  "remainingQuestions": [
+    "Independent challenge required for raw-contact skillet cream-base145 endpoint application and separate-clean-pan alternative; no absolute safety promise.",
+    "Record actual shrimp size, number of loads and sauce-to1lb pasta coverage; original-four yield remains a planning count.",
+    "No source supports1908/1960s shrimp origin story; omit manufactured chronology rather than infer origins from cuisine label."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

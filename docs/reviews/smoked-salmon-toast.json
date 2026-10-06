@@ -1,0 +1,631 @@
+{
+  "slug": "smoked-salmon-toast",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+  "acceptedSourceSha256": "1b2cea172e4c34c800c822489a47d965c05648d960d0bd52e18a7a4f48545824",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "origin",
+      "before": "Scandinavia",
+      "after": null
+    },
+    {
+      "field": "prepTime",
+      "before": "8 min",
+      "after": "8–12 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "3 min",
+      "after": "About 3 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "11 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 325,
+        "protein": 19,
+        "carbs": 32.5,
+        "fat": 14.5,
+        "fiber": 3.5,
+        "sugar": 6,
+        "sodium": 390
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Keep a cold topping separate until crisp toast is ready",
+        "outcome": "Toast remains crisp, cream cheese spreads without tearing it, and every slice receives its share of the toppings.",
+        "techniques": ["cold-preparation", "temperature"],
+        "before": [
+          "Select ready-to-eat cold-smoked salmon and follow its label; a product labeled cook-before-eating cannot be served by this no-cook method.",
+          "FDA advises pregnant people to avoid refrigerated smoked seafood unless it is in a cooked dish; this toast leaves it uncooked. Canned or shelf-stable smoked seafood is a separate permitted choice under that guidance.",
+          "Keep salmon and dairy refrigerated at 40°F /4°C or below until needed; original two-slice/two-portion amounts scale, toaster capacity does not."
+        ],
+        "checkpoints": [
+          {
+            "step": 2,
+            "cue": "Cream cheese spreads in a thin continuous layer without tearing the golden toast.",
+            "why": "Gentle spreading preserves the toast structure before the cold toppings are added."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Toast turns soggy",
+            "cause": "Toppings sit on toast too long or capers/dill carry excess water",
+            "fix": "Drain toppings and assemble just before eating; toasted bread already softened by toppings cannot regain its original crispness without changing the assembled dish."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Cold-smoked salmon",
+            "alternative": "The same listed weight of ready-to-eat canned or shelf-stable smoked salmon, following its label",
+            "effect": "This is a separate product option; texture may be flaky rather than wide cold-smoked folds. Do not assume a refrigerated hot-smoked product is shelf-stable."
+          }
+        ],
+        "timing": "About 8–12 minutes active and 10–15 minutes elapsed for the original two portions, depending on the toaster. Additional toast cycles lengthen elapsed time; brief cream-cheese softening happens during preparation, not hours on the counter.",
+        "storage": "Assemble only what will be eaten promptly. Keep unused salmon and cream cheese separate at 40°F /4°C or below and follow each product’s label, including any shorter opened-package window. Refrigerate perishable toppings within 2 hours (1 hour above 90°F /32°C). Toast quality deteriorates after assembly.",
+        "sources": [
+          {
+            "title": "FDA — Refrigerated smoked seafood during pregnancy",
+            "url": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be"
+          },
+          {
+            "title": "FDA — Produce handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis is essentially a deconstructed bagel and lox on better bread. Sourdough provides a sturdier, tangier base than a bagel, and toasting it until deeply golden means it can support the weight of the toppings without going limp. Softened cream cheese is essential -- cold cream cheese tears the bread apart when you try to spread it. The acid from capers and lemon juice cuts through the richness of the salmon and cream cheese, and the red onion adds a sharp bite. Keep the salmon in wide, draped folds rather than laying it flat so you get texture in every bite.\n\n## Directions\n\n1.  **Toast:** Toast the bread until deeply golden and structurally rigid -- it should not bend when held horizontally.\n2.  **Spread:** Spread a generous layer of softened cream cheese across each toast, edge to edge.\n3.  **Layer the Salmon:** Drape the smoked salmon over the cream cheese in loose, ruffled folds -- do not lay it flat. This creates more surface area and better texture.\n4.  **Top:** Scatter capers and thinly sliced red onion over the salmon. Squeeze lemon juice directly over the top. Add a few grinds of black pepper and fresh dill fronds.\n5.  **Finish:** Sprinkle with everything bagel seasoning if desired.\n6.  **Serve:** Eat immediately with a knife and fork. The combination of textures and temperatures is best within the first few minutes.\n",
+    "after": "\n## Chef's Note\n\nToast the bread until it is crisp enough to support the cream cheese and toppings. Spread the full measured cream cheese over the warm toast, then add cold smoked salmon in loose folds. Capers, red onion, dill and the listed lemon juice finish each portion; assemble just before eating.\n\n## Directions\n\n1. **Toast:** Use cold-smoked salmon labeled ready-to-eat for uncooked serving; follow its refrigeration, opening and use-by instructions. Keep salmon cold while preparing the bread. Soften only the listed cream cheese needed for this batch. Rinse the dill, red onion and lemon under running water before cutting or juicing, and drain well. Toast all the bread until golden and firm enough to support the toppings, without scorching.\n\n2. **Spread:** Divide all the listed cream cheese across the toast, spreading it gently to the edges.\n\n3. **Salmon:** Divide all the salmon across the toast in loose folds. This preparation does not cook the salmon.\n\n4. **Top:** Divide all the drained capers, sliced onion, dill and measured lemon juice over the toast. Add the black-pepper allowance to taste.\n\n5. **Finish:** Use the optional everything-bagel seasoning allowance if desired.\n\n6. **Serve:** Eat promptly after assembly, while the toast is crisp. Larger batches need more toaster cycles; hold the fish and dairy refrigerated rather than assembling early and leaving them warm.\n"
+  },
+  "findings": [
+    {
+      "id": "smoked-salmon-toast-1",
+      "title": "unsupported geographic metadata",
+      "field": "unsupported geographic metadata",
+      "rationale": "No source-specific origin evidence; style and source credits preserved",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen origin before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        }
+      ],
+      "sourceApplicability": "Git/source context establishes the unsupported assertion and exact removal. No source-specific geographic origin or ingredient-weight/finished-yield nutrition analysis is invented.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    },
+    {
+      "id": "smoked-salmon-toast-2",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested planning range follows complete preparation and product state.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen prepTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Bread/toaster cycles, topping preparation and brief softening/assembly; no salmon cooking endpoint."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    },
+    {
+      "id": "smoked-salmon-toast-3",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Retain the original roughly 3-minute bread-toasting plan as approximate; toaster, slice thickness and cycles change it. Salmon remains uncooked and label-required ready-to-eat; no salmon center endpoint is measured by this method.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen cookTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Bread/toaster cycles, topping preparation and brief softening/assembly; no salmon cooking endpoint."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    },
+    {
+      "id": "smoked-salmon-toast-4",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested elapsed plan includes topping preparation, brief cream-cheese softening overlapping bread toasting, and prompt assembly. Additional toaster cycles extend elapsed time; no required fish-cooking rest or chill is added.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen totalTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Bread/toaster cycles, topping preparation and brief softening/assembly; no salmon cooking endpoint."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    },
+    {
+      "id": "smoked-salmon-toast-5",
+      "title": "unsupported numerical nutrition",
+      "field": "unsupported numerical nutrition",
+      "rationale": "No ingredient-weight/finished-yield analysis supports legacy numerical estimate; remove without replacement",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen nutrition before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        }
+      ],
+      "sourceApplicability": "Git/source context establishes the unsupported assertion and exact removal. No source-specific geographic origin or ingredient-weight/finished-yield nutrition analysis is invented.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    },
+    {
+      "id": "smoked-salmon-toast-6",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Recipe-specific preparation, cues, troubleshooting, product/state distinctions and source-scoped storage; no generic lesson or tested claim.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen learning before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "url": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be",
+          "applicability": "Pregnancy-specific refrigerated smoked seafood avoidance, cooked-dish exception and canned/shelf-stable distinction;40°F/2-hour/1-hour holding. Not proof that any ready-to-eat salmon is risk-free."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Recipe-state/label and FDA pregnancy-specific cold-smoked scope are separate. Bread browning and spreading/texture are culinary cues, not a salmon cooking endpoint.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    },
+    {
+      "id": "smoked-salmon-toast-7",
+      "title": "complete ingredient and measured-state method",
+      "field": "complete ingredient and measured-state method",
+      "rationale": "Follow the complete ingredient destinations, measured species/product endpoint, original-size geometry and sensory cues; preserve defining current ingredients and separate saved variants. See sourceDisagreements for exact lineage.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "457f70e1e980001c7b741b2827065e34016a309da48f1f2b30c43d55d90fef35",
+          "applicability": "Exact frozen content before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6c067e89830db6bc15f82f8d12cdb9060f712e2d0fe855cced113a879bbf0078",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "url": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be",
+          "applicability": "Pregnancy-specific refrigerated smoked seafood avoidance, cooked-dish exception and canned/shelf-stable distinction;40°F/2-hour/1-hour holding. Not proof that any ready-to-eat salmon is risk-free."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Recipe-state/label and FDA pregnancy-specific cold-smoked scope are separate. Bread browning and spreading/texture are culinary cues, not a salmon cooking endpoint.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Which actual salmon label and opening window apply?",
+        "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+        "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/smoked-salmon-toast.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "No original native binding established. Later Mise-sync copies do not establish an independent original.",
+    "externalPublisher": null,
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "Repository-authored fd4f07a8 introduction, no bound native or external recipe established. Origin Scandinavia was asserted at introduction without recipe-specific evidence; omit country/region field and preserve both Scandinavian/American cuisine tags. Source-free per-serving nutrition added902e and changed2f34 is not ingredient-weight analysis; remove without replacement.",
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "text": "2 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "destination": "step1 toast"
+      },
+      {
+        "row": 2,
+        "text": "4 oz Smoked Salmon (lox-style, cold-smoked)",
+        "destination": "step3 all salmon"
+      },
+      {
+        "row": 3,
+        "text": "3 tbsp Cream Cheese, softened",
+        "destination": "step2 all cream cheese"
+      },
+      {
+        "row": 4,
+        "text": "1 tbsp Capers, drained",
+        "destination": "step4 capers"
+      },
+      {
+        "row": 5,
+        "text": "2 tbsp Red Onion, very thinly sliced",
+        "destination": "step4 onion"
+      },
+      {
+        "row": 6,
+        "text": "1 tbsp Fresh Dill Fronds",
+        "destination": "step4 dill"
+      },
+      {
+        "row": 7,
+        "text": "1 tsp Fresh Lemon Juice",
+        "destination": "step4 full measured lemon"
+      },
+      {
+        "row": 8,
+        "text": "Freshly Ground Black Pepper",
+        "destination": "step4 pepper allowance"
+      },
+      {
+        "row": 9,
+        "text": "Everything Bagel Seasoning (optional)",
+        "destination": "step5 optional seasoning"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "text": "2 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "destination": "step1 toast"
+      },
+      {
+        "row": 2,
+        "text": "4 oz Smoked Salmon (lox-style, cold-smoked)",
+        "destination": "step3 all salmon",
+        "ingredientState": "Recipe requires ready-to-eat cold-smoked product per actual label; no cooking occurs"
+      },
+      {
+        "row": 3,
+        "text": "3 tbsp Cream Cheese, softened",
+        "destination": "step2 all cream cheese"
+      },
+      {
+        "row": 4,
+        "text": "1 tbsp Capers, drained",
+        "destination": "step4 capers"
+      },
+      {
+        "row": 5,
+        "text": "2 tbsp Red Onion, very thinly sliced",
+        "destination": "step4 onion"
+      },
+      {
+        "row": 6,
+        "text": "1 tbsp Fresh Dill Fronds",
+        "destination": "step4 dill"
+      },
+      {
+        "row": 7,
+        "text": "1 tsp Fresh Lemon Juice",
+        "destination": "step4 full measured lemon"
+      },
+      {
+        "row": 8,
+        "text": "Freshly Ground Black Pepper",
+        "destination": "step4 pepper allowance"
+      },
+      {
+        "row": 9,
+        "text": "Everything Bagel Seasoning (optional)",
+        "destination": "step5 optional seasoning"
+      }
+    ],
+    "nativeIngredientsRetainedPrivately": null,
+    "frozenUnlistedAllowances": [],
+    "variants": [
+      {
+        "ingredient": "Cold-smoked salmon",
+        "alternative": "The same listed weight of ready-to-eat canned or shelf-stable smoked salmon, following its label",
+        "effect": "This is a separate product option; texture may be flaky rather than wide cold-smoked folds. Do not assume a refrigerated hot-smoked product is shelf-stable."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "text": "1. **Toast:** Use cold-smoked salmon labeled ready-to-eat for uncooked serving; follow its refrigeration, opening and use-by instructions. Keep salmon cold while preparing the bread. Soften only the listed cream cheese needed for this batch. Rinse the dill, red onion and lemon under running water before cutting or juicing, and drain well. Toast all the bread until golden and firm enough to support the toppings, without scorching."
+    },
+    {
+      "text": "2. **Spread:** Divide all the listed cream cheese across the toast, spreading it gently to the edges."
+    },
+    {
+      "text": "3. **Salmon:** Divide all the salmon across the toast in loose folds. This preparation does not cook the salmon."
+    },
+    {
+      "text": "4. **Top:** Divide all the drained capers, sliced onion, dill and measured lemon juice over the toast. Add the black-pepper allowance to taste."
+    },
+    {
+      "text": "5. **Finish:** Use the optional everything-bagel seasoning allowance if desired."
+    },
+    {
+      "text": "6. **Serve:** Eat promptly after assembly, while the toast is crisp. Larger batches need more toaster cycles; hold the fish and dairy refrigerated rather than assembling early and leaving them warm."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["avocado-toast", "everyday-arugula-salad", "shakshuka"],
+    "incomingMeals": [],
+    "scope": "Actual meal directory has no incoming composed meal for these five. Pairings remain separate metadata suggestions; do not import their ingredients or certify coordinated portions/clocks."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "2",
+    "sourceYield": "Current planning count preserved; no measured finished yield",
+    "capacity": [
+      "Select ready-to-eat cold-smoked salmon and follow its label; a product labeled cook-before-eating cannot be served by this no-cook method.",
+      "FDA advises pregnant people to avoid refrigerated smoked seafood unless it is in a cooked dish; this toast leaves it uncooked. Canned or shelf-stable smoked seafood is a separate permitted choice under that guidance.",
+      "Keep salmon and dairy refrigerated at 40°F /4°C or below until needed; original two-slice/two-portion amounts scale, toaster capacity does not."
+    ],
+    "timing": "About 8–12 minutes active and 10–15 minutes elapsed for the original two portions, depending on the toaster. Additional toast cycles lengthen elapsed time; brief cream-cheese softening happens during preparation, not hours on the counter.",
+    "scaling": "Preserve ingredient controls and original bread-slice/topping proportions; toaster slots and cycles determine batch staging, while the salmon remains cold and uncooked."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/2 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "1 oz Smoked Salmon (lox-style, cold-smoked)",
+        "3/4 tbsp Cream Cheese, softened",
+        "1/4 tbsp Capers, drained",
+        "1/2 tbsp Red Onion, very thinly sliced",
+        "1/4 tbsp Fresh Dill Fronds",
+        "1/4 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 1/2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "2 oz Smoked Salmon (lox-style, cold-smoked)",
+        "1 1/2 tbsp Cream Cheese, softened",
+        "1/2 tbsp Capers, drained",
+        "1 tbsp Red Onion, very thinly sliced",
+        "1/2 tbsp Fresh Dill Fronds",
+        "1/2 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "2 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "4 oz Smoked Salmon (lox-style, cold-smoked)",
+        "3 tbsp Cream Cheese, softened",
+        "1 tbsp Capers, drained",
+        "2 tbsp Red Onion, very thinly sliced",
+        "1 tbsp Fresh Dill Fronds",
+        "1 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "3 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "6 oz Smoked Salmon (lox-style, cold-smoked)",
+        "4 1/2 tbsp Cream Cheese, softened",
+        "1 1/2 tbsp Capers, drained",
+        "3 tbsp Red Onion, very thinly sliced",
+        "1 1/2 tbsp Fresh Dill Fronds",
+        "1 1/2 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 3",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "4 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "8 oz Smoked Salmon (lox-style, cold-smoked)",
+        "6 tbsp Cream Cheese, softened",
+        "2 tbsp Capers, drained",
+        "4 tbsp Red Onion, very thinly sliced",
+        "2 tbsp Fresh Dill Fronds",
+        "2 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "6 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "12 oz Smoked Salmon (lox-style, cold-smoked)",
+        "9 tbsp Cream Cheese, softened",
+        "3 tbsp Capers, drained",
+        "6 tbsp Red Onion, very thinly sliced",
+        "3 tbsp Fresh Dill Fronds",
+        "3 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "2 slices Thick-Cut Sourdough or Pumpernickel Bread",
+        "4 oz Smoked Salmon (lox-style, cold-smoked)",
+        "3 tbsp Cream Cheese, softened",
+        "1 tbsp Capers, drained",
+        "2 tbsp Red Onion, very thinly sliced",
+        "1 tbsp Fresh Dill Fronds",
+        "1 tsp Fresh Lemon Juice",
+        "Freshly Ground Black Pepper",
+        "Everything Bagel Seasoning (optional)"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which actual salmon label and opening window apply?",
+    "For anyone avoiding refrigerated smoked seafood, confirm the selected separate product meets FDA scope.",
+    "Observe bread slice size, cream-cheese spreadability and actual two-portion appetite."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

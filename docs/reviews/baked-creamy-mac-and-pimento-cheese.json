@@ -1,0 +1,790 @@
+{
+  "slug": "baked-creamy-mac-and-pimento-cheese",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "e0d4835a97f09e08f1c3270615083d68a13b6c5390f1f69fd0955959d0a642fd",
+  "acceptedSourceSha256": "dab54d060336008765283e90887b0a07048a07c33e77e8abba3cee4d818421f2",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "15 min",
+      "after": "About 15–20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "20 min",
+      "after": "About 25–35 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "35 min",
+      "after": "About 40–55 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "8 oz Elbow Macaroni",
+        "3 tbsp Unsalted Butter",
+        "1/4 cup All-Purpose Flour",
+        "2 cups Whole Milk",
+        "1 tsp Salt",
+        "1/4 tsp Cayenne Pepper (or Red Pepper)",
+        "1/8 tsp Garlic Powder",
+        "8 oz Sharp Cheddar Cheese, freshly shredded",
+        "4 oz Diced Pimentos, drained",
+        "1/2 cup Panko Breadcrumbs",
+        "3/4 cup Freshly Grated Parmesan"
+      ],
+      "after": [
+        "8 oz Elbow Macaroni",
+        "3 tbsp Unsalted Butter",
+        "1/4 cup All-Purpose Flour",
+        "2 cups Whole Milk",
+        "1 tsp Salt",
+        "1/4 tsp Cayenne Pepper (or Red Pepper)",
+        "1/8 tsp Garlic Powder",
+        "8 oz Sharp Cheddar Cheese, freshly shredded",
+        "4 oz Diced Pimentos, drained",
+        "1/2 cup Panko Breadcrumbs",
+        "3/4 cup Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "United States",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 345,
+        "protein": 15,
+        "carbs": 24,
+        "fat": 21.5,
+        "fiber": 1.5,
+        "sugar": 5,
+        "sodium": 730
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Control the heat before melting cheese",
+        "outcome": "The milk sauce coats a spoon before adding cheese.",
+        "techniques": ["emulsions", "starch"],
+        "before": [
+          "The 13-by-9-inch pan is the original-batch pan, even though 8 oz dry macaroni makes a relatively shallow bake. Do not substitute a smaller pan merely to make the layer thicker.",
+          "For multiples, use separate original-size pans; smaller batches need an appropriately smaller pan and earlier center checks. Ingredient controls do not scale pan dimensions or baking times."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "The milk sauce coats a spoon before adding cheese.",
+            "why": "Thicken the milk and flour before lowering the heat for the cheddar; cheese melting does not replace this roux stage."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce is grainy or splitting",
+            "cause": "Cheese mixture was heated too aggressively or reheated after chilling.",
+            "fix": "While melting cheddar into the milk sauce, lower the heat or take the pot off the heat and stir gently. For stored leftovers, follow the reheating instructions below even if the sauce texture changes."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Pimento and cheddar",
+            "alternative": "Use the same listed amount of diced, drained roasted red pepper instead of pimento. For the Southwestern version, use green chiles in place of pimento and pepper jack in place of cheddar, keeping each listed quantity.",
+            "effect": "These are separate flavor choices; do not add a second dose of peppers or cheese."
+          },
+          {
+            "ingredient": "Panko–Parmesan topping",
+            "alternative": "For the no-topping version, omit both the panko and its entire Parmesan amount. Fine dry breadcrumbs can replace panko at the same listed volume.",
+            "effect": "The no-topping bake still needs a hot, bubbling center; it will not have the same crumb crust."
+          }
+        ],
+        "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate.",
+        "timing": "About 25–35 minutes active work, overlapping pasta and roux preparation;40–55 minutes elapsed including baking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+        "sources": [
+          {
+            "title": "Saved Adapted from Rebecca Crump",
+            "url": "http://www.ezrapoundcake.com/archives/26010"
+          },
+          {
+            "title": "USDA — storing and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nThis Southern staple combines pimento cheese with a classic French Mornay sauce (roux plus cheese). Shred cheddar fresh from the block - pre-shredded cheese contains cellulose that prevents smooth melting. The panko-parmesan topping adds textural contrast to the creamy pasta.\n\n## Directions\n\n1.  **Pasta:** Preheat oven to 350°F. Cook macaroni according to package directions until **al dente**. Drain and set aside.\n2.  **The Roux:** In a large skillet, melt butter over medium heat. Whisk in flour and cook for 1 minute until fragrant but not browned.\n3.  **The Sauce:** Gradually whisk in milk, salt, cayenne, and garlic powder. Cook, whisking constantly, for 3-5 minutes until the sauce thickens and coats the back of a spoon.\n4.  **Fold:** Stir in the shredded Cheddar and drained pimentos until completely melted and glossy. Remove from heat and fold in the cooked pasta.\n5.  **Bake:** Pour the mixture into a greased 9x13 baking dish.\n6.  **Topping:** Mix panko and Parmesan in a small bowl. Sprinkle evenly over the top.\n7.  **Finish:** Bake for 15-20 minutes until the edges are bubbling and the topping is golden brown.\n",
+    "after": "\n## Chef's Note\n\nThe roux thickens the milk before the cheddar goes in. Whisk out flour lumps while adding the milk gradually, then fold in the hot pasta and bake without chilling. Keep the full panko–Parmesan topping for a crisp surface, or choose the complete no-topping option below.\n\n## Directions\n\n1. Heat the oven to 350°F. Lightly grease a 13-by-9-inch baking dish with the listed pan-greasing allowance. Bring pasta water to a boil and cook the macaroni according to its package until al dente; drain. While the pasta cooks, begin the sauce.\n2. In a large skillet with room to fold in all the cooked pasta, melt the measured butter over medium heat. Whisk in the flour and cook, whisking, about 1 minute; do not brown the roux.\n3. Gradually whisk in the milk, salt, cayenne and garlic powder. Cook, whisking constantly, about 3–5 minutes, until smooth and thick enough to coat a spoon; continue as needed rather than stopping with a thin, floury sauce.\n4. Reduce the heat and stir in all the cheddar and drained pimentos until the cheese melts and the sauce is smooth. Remove from the heat and fold in the drained pasta.\n5. Transfer the hot mixture to the greased dish; do not chill it before this bake. Mix the full panko and Parmesan amounts and spread evenly over the pasta.\n6. Bake about 15–20 minutes, until the center reaches 165°F /74°C, the pasta mixture is hot and bubbling and the topping is golden. If the topping darkens before the center is hot, shield it loosely with foil and continue checking. Serve hot.\n"
+  },
+  "findings": [
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-1",
+      "title": "prepTime",
+      "field": "prepTime",
+      "rationale": "The saved original gives the whole topping as optional and the actual13x9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-2",
+      "title": "cookTime",
+      "field": "cookTime",
+      "rationale": "The saved original gives the whole topping as optional and the actual13x9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-3",
+      "title": "totalTime",
+      "field": "totalTime",
+      "rationale": "The saved original gives the whole topping as optional and the actual13x9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-4",
+      "title": "ingredients",
+      "field": "ingredients",
+      "rationale": "The saved original gives the whole topping as optional and the actual13x9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish measured amounts and method-only allowances. Current retained repairs and proposed allocation text distinguish one shared pool from extra doses. FDA/USDA do not establish the formula or intended quantities.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-5",
+      "title": "origin",
+      "field": "origin",
+      "rationale": "No source-specific origin evidence for this exact formula; cuisine labels/source attribution retained.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The complete followed Git history records the origin metadata addition, but the exact saved formula has no source-specific geographic-origin evidence. Omission preserves every existing cuisine/style tag and attribution; FDA/USDA and publisher location do not establish recipe origin.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-6",
+      "title": "nutrition",
+      "field": "nutrition",
+      "rationale": "Prior generic estimate lacks formula-specific validated analysis; remove rather than manufacture replacement.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The followed Git history establishes the bulk numerical estimate and the exact current formula. No formula-specific nutrition analysis is established, so removing the numerical estimate avoids inventing a replacement. Origin geography and FDA/USDA handling guidance are not nutrition validation.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-7",
+      "title": "learning",
+      "field": "learning",
+      "rationale": "The saved original gives the whole topping as optional and the actual 13 x 9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+      "confidence": "Editorial planning estimates, source-specific mechanisms; no kitchen measurement",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    },
+    {
+      "id": "baked-creamy-mac-and-pimento-cheese-8",
+      "title": "body",
+      "field": "body",
+      "rationale": "The saved original gives the whole topping as optional and the actual 13 x 9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+      "confidence": "High exact source/destination; clocks need kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Rebecca Crump",
+          "url": "http://www.ezrapoundcake.com/archives/26010"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+        "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+        "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/baked-macaroni-and-pimento-cheese.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.ezrapoundcake.com/archives/26010",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "The saved original gives the whole topping as optional and the actual13x9 pan; butter, milk and both cheese amounts remain unchanged. Pan grease and cooking/reheating water were method-only allowances. Timing now includes stovetop sauce and baking, with overlapping pasta work.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "8 oz Elbow Macaroni",
+        "destination": "step 1 boiled and drained",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "3 tbsp Unsalted Butter",
+        "destination": "step 2 roux",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 cup All-Purpose Flour",
+        "destination": "step 2 roux",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "2 cups Whole Milk",
+        "destination": "step 3 milk sauce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 tsp Salt",
+        "destination": "step 3 sauce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 tsp Cayenne Pepper (or Red Pepper)",
+        "destination": "step 3 sauce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/8 tsp Garlic Powder",
+        "destination": "step 3 sauce",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "8 oz Sharp Cheddar Cheese, freshly shredded",
+        "destination": "step 4 melted cheese",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "4 oz Diced Pimentos, drained",
+        "destination": "step 4 drained pimentos",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/2 cup Panko Breadcrumbs",
+        "destination": "step 6 topping",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "3/4 cup Freshly Grated Parmesan",
+        "destination": "step 6 topping",
+        "state": "Exact frozen string",
+        "question": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "8 oz Elbow Macaroni",
+        "destination": "step 1 cook and drain; step 4 fold into sauce; steps 5–6 transfer and bake",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "3 tbsp Unsalted Butter",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 cup All-Purpose Flour",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "2 cups Whole Milk",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 tsp Salt",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 tsp Cayenne Pepper (or Red Pepper)",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/8 tsp Garlic Powder",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "8 oz Sharp Cheddar Cheese, freshly shredded",
+        "destination": 4,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "4 oz Diced Pimentos, drained",
+        "destination": 4,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Panko Breadcrumbs",
+        "destination": 5,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "3/4 cup Freshly Grated Parmesan",
+        "destination": 5,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Butter or oil, as needed to lightly grease the baking dish",
+        "destination": "step 1 pan greasing, separate unmeasured butter OR oil allowance",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, as needed to boil pasta",
+        "destination": "step 1 boiling water; drained, not part of the milk sauce",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, a little as needed when reheating leftovers",
+        "destination": "learning.storage only; separate unmeasured leftover-reheating allowance",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      }
+    ],
+    "frozenUnlistedAllowances": ["Step5 grease unspecified; step1 cooking water unlisted"]
+  },
+  "processGraph": {
+    "scope": "Exact accepted ordered method stages; complete ingredient destinations remain in the ledger and distinct variant ledgers.",
+    "nodes": [
+      {
+        "step": 1,
+        "text": "Heat the oven to 350°F. Lightly grease a 13-by-9-inch baking dish with the listed pan-greasing allowance. Bring pasta water to a boil and cook the macaroni according to its package until al dente; drain. While the pasta cooks, begin the sauce."
+      },
+      {
+        "step": 2,
+        "text": "In a large skillet with room to fold in all the cooked pasta, melt the measured butter over medium heat. Whisk in the flour and cook, whisking, about 1 minute; do not brown the roux."
+      },
+      {
+        "step": 3,
+        "text": "Gradually whisk in the milk, salt, cayenne and garlic powder. Cook, whisking constantly, about 3–5 minutes, until smooth and thick enough to coat a spoon; continue as needed rather than stopping with a thin, floury sauce."
+      },
+      {
+        "step": 4,
+        "text": "Reduce the heat and stir in all the cheddar and drained pimentos until the cheese melts and the sauce is smooth. Remove from the heat and fold in the drained pasta."
+      },
+      {
+        "step": 5,
+        "text": "Transfer the hot mixture to the greased dish; do not chill it before this bake. Mix the full panko and Parmesan amounts and spread evenly over the pasta."
+      },
+      {
+        "step": 6,
+        "text": "Bake about 15–20 minutes, until the center reaches 165°F /74°C, the pasta mixture is hot and bubbling and the topping is golden. If the topping darkens before the center is hot, shield it loosely with foil and continue checking. Serve hot."
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Pimento and cheddar",
+      "alternative": "Use the same listed amount of diced, drained roasted red pepper instead of pimento. For the Southwestern version, use green chiles in place of pimento and pepper jack in place of cheddar, keeping each listed quantity.",
+      "effect": "These are separate flavor choices; do not add a second dose of peppers or cheese."
+    },
+    {
+      "ingredient": "Panko–Parmesan topping",
+      "alternative": "For the no-topping version, omit both the panko and its entire Parmesan amount. Fine dry breadcrumbs can replace panko at the same listed volume.",
+      "effect": "The no-topping bake still needs a hot, bubbling center; it will not have the same crumb crust."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["buttermilk-baked-chicken", "quick-and-easy-drop-biscuits", "shrimp-and-grits"],
+    "wholePairingsEvidence": "privately retained evidence",
+    "scope": "Paired current files retained and read for process/portion compatibility; no paired recipe status promotion. No actual meal file references these six slugs.",
+    "notes": "Pimento6 side portions; chicken/grits4 mains and biscuits12. Pimento350 oven differs chicken400/biscuits400; prepare sides independently rather than imply shared bake."
+  },
+  "ratiosYieldAndCapacity": {
+    "capacity": [
+      "The 13-by-9-inch pan is the saved original-batch pan, even though 8 oz dry macaroni makes a relatively shallow bake. Do not substitute a smaller pan merely to make the layer thicker.",
+      "For multiples, use separate original-size pans; smaller batches need an appropriately smaller pan and earlier center checks. Ingredient controls do not scale pan dimensions or baking times."
+    ],
+    "timing": "About 25–35 minutes active work, overlapping pasta and roux preparation;40–55 minutes elapsed including baking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+    "storage": "Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "2 oz Elbow Macaroni",
+        "3/4 tbsp Unsalted Butter",
+        "0.0625 cup All-Purpose Flour",
+        "1/2 cup Whole Milk",
+        "1/4 tsp Salt",
+        "0.0625 tsp Cayenne Pepper (or Red Pepper)",
+        "0.0313 tsp Garlic Powder",
+        "2 oz Sharp Cheddar Cheese, freshly shredded",
+        "1 oz Diced Pimentos, drained",
+        "1/8 cup Panko Breadcrumbs",
+        "0.19 cup Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "4 oz Elbow Macaroni",
+        "1 1/2 tbsp Unsalted Butter",
+        "1/8 cup All-Purpose Flour",
+        "1 cup Whole Milk",
+        "1/2 tsp Salt",
+        "1/8 tsp Cayenne Pepper (or Red Pepper)",
+        "0.0625 tsp Garlic Powder",
+        "4 oz Sharp Cheddar Cheese, freshly shredded",
+        "2 oz Diced Pimentos, drained",
+        "1/4 cup Panko Breadcrumbs",
+        "3/8 cup Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "8 oz Elbow Macaroni",
+        "3 tbsp Unsalted Butter",
+        "1/4 cup All-Purpose Flour",
+        "2 cups Whole Milk",
+        "1 tsp Salt",
+        "1/4 tsp Cayenne Pepper (or Red Pepper)",
+        "1/8 tsp Garlic Powder",
+        "8 oz Sharp Cheddar Cheese, freshly shredded",
+        "4 oz Diced Pimentos, drained",
+        "1/2 cup Panko Breadcrumbs",
+        "3/4 cup Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "12 oz Elbow Macaroni",
+        "4 1/2 tbsp Unsalted Butter",
+        "3/8 cup All-Purpose Flour",
+        "3 cups Whole Milk",
+        "1 1/2 tsp Salt",
+        "3/8 tsp Cayenne Pepper (or Red Pepper)",
+        "0.19 tsp Garlic Powder",
+        "12 oz Sharp Cheddar Cheese, freshly shredded",
+        "6 oz Diced Pimentos, drained",
+        "3/4 cup Panko Breadcrumbs",
+        "1 1/8 cups Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "16 oz Elbow Macaroni",
+        "6 tbsp Unsalted Butter",
+        "1/2 cup All-Purpose Flour",
+        "4 cups Whole Milk",
+        "2 tsp Salt",
+        "1/2 tsp Cayenne Pepper (or Red Pepper)",
+        "1/4 tsp Garlic Powder",
+        "16 oz Sharp Cheddar Cheese, freshly shredded",
+        "8 oz Diced Pimentos, drained",
+        "1 cup Panko Breadcrumbs",
+        "1 1/2 cups Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "24 oz Elbow Macaroni",
+        "9 tbsp Unsalted Butter",
+        "3/4 cup All-Purpose Flour",
+        "6 cups Whole Milk",
+        "3 tsp Salt",
+        "3/4 tsp Cayenne Pepper (or Red Pepper)",
+        "3/8 tsp Garlic Powder",
+        "24 oz Sharp Cheddar Cheese, freshly shredded",
+        "12 oz Diced Pimentos, drained",
+        "1 1/2 cups Panko Breadcrumbs",
+        "2 1/4 cups Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "8 oz Elbow Macaroni",
+        "3 tbsp Unsalted Butter",
+        "1/4 cup All-Purpose Flour",
+        "2 cups Whole Milk",
+        "1 tsp Salt",
+        "1/4 tsp Cayenne Pepper (or Red Pepper)",
+        "1/8 tsp Garlic Powder",
+        "8 oz Sharp Cheddar Cheese, freshly shredded",
+        "4 oz Diced Pimentos, drained",
+        "1/2 cup Panko Breadcrumbs",
+        "3/4 cup Freshly Grated Parmesan",
+        "Butter or oil, as needed to lightly grease the baking dish",
+        "Water, as needed to boil pasta",
+        "Water, a little as needed when reheating leftovers"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    }
+  ],
+  "preservedPriorRepairs": "Measured richness preserved; targeted dispositions do not confer complete status",
+  "remainingQuestions": [
+    "Confirm six side portions and actual depth in the household13x9 pan; no cooked yield measured.",
+    "Live Rebecca Crump publisher page inaccessible on both HTTP/HTTPS attempts; exact bound native and first followed Git provide the saved formula, not current publisher verification.",
+    "Record cheddar product and time to thicken; no absolute claim that anti-caking agents prevent melting."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

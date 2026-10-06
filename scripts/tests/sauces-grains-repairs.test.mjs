@@ -47,7 +47,10 @@ test('avocado sauce reserves optional water without mandatory dilution', () => {
       '1 cup pasta cooking water, reserved before draining; use only as needed'
     )
   );
-  assert.match(content, /Reserve the listed amount/);
+  assert.match(content, /Reserve the listed pasta-water amount before draining/);
+  assert.match(content, /a little of the shared reserved water/);
+  assert.match(content, /Add more of the same reserve a little at a time/);
+  assert.match(content, /You may not need it all/);
   assert.doesNotMatch(content, /olive oil and 1\/2 cup/);
 });
 test('risotto uses center doneness and flexible hydration', () => {

@@ -1,0 +1,693 @@
+{
+  "slug": "cantonese-fish",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+  "acceptedSourceSha256": "089e31969c8c511f0b906dfb756bdb5131130904cd2c4542f6501eaca2a55d5d",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "5 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "15 min",
+      "after": "About 10–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 20–35 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "3 tbsp Fresh Ginger, julienned",
+        "3 Green Onions, thinly sliced (white and green separated)",
+        "1/2 cup Fresh Cilantro",
+        "3 tbsp Light Soy Sauce",
+        "1 tsp Sugar",
+        "3 tbsp Neutral Oil (Avocado or Grapeseed)"
+      ],
+      "after": [
+        "1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "3 tbsp Fresh Ginger, julienned",
+        "3 Green Onions, thinly sliced (white and green separated)",
+        "1/2 cup Fresh Cilantro",
+        "3 tbsp Light Soy Sauce",
+        "1 tsp Sugar",
+        "3 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 555,
+        "protein": 56,
+        "carbs": 20.5,
+        "fat": 28.5,
+        "fiber": 2.5,
+        "sugar": 9.5,
+        "sodium": 1990
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Steam fish according to thickness, then finish its aromatics",
+        "outcome": "Fish separates into moist flakes at the measured center endpoint; ginger and scallions smell fragrant after the hot oil.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools separate from cooked fish and garnishes.",
+          "Prepare the plate, stable rack and lid before heating water; the plate must remain above the water and the lid must close. Allow more plates or batches at larger ingredient scales.",
+          "The original 1-lb fish and two-portion yield are planning amounts; a whole fish includes bones and cannot be equated to 1 lb boneless fillet for edible yield."
+        ],
+        "checkpoints": [
+          {
+            "step": 1,
+            "cue": "The thickest flesh is 145°F /63°C, no longer translucent and separates easily; check a whole fish away from bone.",
+            "why": "Thickness and bones change steaming time; an 8–10-minute clock cannot cover every listed fish form."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Fish is dry before the aromatics are ready",
+            "cause": "The timer replaced thickness checks or the finish was prepared late",
+            "fix": "Have the sauce and aromatics ready before steaming finishes. Stop steaming at the measured endpoint; already dry fish will not become juicy again."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Fillet or whole fish",
+            "alternative": "Use the listed weight of the selected form and original-size portions; whole fish must be scaled and gutted.",
+            "effect": "Bones and head change edible yield and steaming time. Use 145°F in thick flesh and adequate plate space rather than treating the two forms as equal geometry."
+          }
+        ],
+        "timing": "Allow roughly 15–25 minutes active and 20–35 minutes elapsed for the original batch with cleaned, thawed fish. Steamer heat-up, fish thickness and additional plates change elapsed time; thawing is additional.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers at 40°F /4°C or below, within 2 hours (1 hour above 90°F /32°C). Use within 3–4 days; reheat hot leftovers to 165°F /74°C throughout. Delicate fish can dry on reheating; do not leave it warm to protect its texture.",
+        "sources": [
+          {
+            "title": "Adapted from thewoksoflife.com",
+            "url": "https://thewoksoflife.com/cantonese-steamed-fish/"
+          },
+          {
+            "title": "FDA — Fish handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Species and egg-dish endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Produce handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA — Leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nCantonese steamed fish is a classic from Guangdong province, prized for its delicate simplicity. The fish is steamed with ginger to infuse flavor, then the real magic happens: smoking-hot oil is poured over raw scallions and cilantro on top of the fish. This flash-cooks the herbs and releases their aromatics directly into the fish. Light soy sauce with a touch of sugar balances the seasoning perfectly.\n\n## Directions\n\n1.  **Steam:** Place the fish on a heat-proof plate. Scatter half the ginger on top. Steam over boiling water for 8-10 minutes until the fish flakes easily.\n2.  **Drain:** Carefully pour off any excess liquid from the plate (this liquid can be \"fishy\").\n3.  **Layer:** Arrange the remaining ginger, scallion greens, and cilantro in a pile on top of the cooked fish.\n4.  **The Sauce:** Whisk the soy sauce and sugar. Pour it around the base of the fish.\n5.  **The Sizzle:** In a small saucepan, heat the oil until it is literally smoking.\n6.  **Finish:** Carefully pour the hot oil directly over the herbs and ginger. It should sizzle loudly. Serve immediately.\n",
+    "after": "\n## Chef's Note\n\nGinger, scallions and cilantro give Cantonese steamed fish its fragrance. The plate must fit inside the covered steamer above the water, and the thickest flesh determines when steaming is finished. The hot-oil finish releases aroma; it does not require deliberately smoking the oil or replace the fish’s measured endpoint.\n\n## Directions\n\n1. **Steam:** Keep the prepared fish cold until the steamer is ready. For a whole fish, have it scaled, gutted and its gills removed; check fillets for bones. Rinse the ginger, scallions and cilantro under running water before peeling or cutting, and drain well. Put the fish on a heatproof plate that fits on a stable rack inside the covered steamer, above its cooking water. Scatter half the listed ginger on top. Bring the water to a boil, cover and steam. Begin checking thin fillets after 4–5 minutes and thicker fillets or a whole fish around 8–10 minutes; these are first checks, not completion promises. Continue until the thickest flesh reaches 145°F /63°C, checking away from bone, and is no longer translucent and separates easily. Whole fish and overlapping loads can take longer; keep pieces uncrowded.\n\n2. **Drain:** Turn off the steam and carefully lift the plate with suitable gloves or a plate lifter. Drain the steaming liquid without tipping the fish onto a raw-contact surface.\n\n3. **Layer:** Arrange the remaining half of the listed ginger, all the scallion whites and greens, and all the cilantro over the cooked fish. Drain washed aromatics well before the oil finish.\n\n4. **Sauce:** Whisk all the listed soy sauce and sugar until the sugar dissolves; pour around the fish.\n\n5. **Oil:** Heat all the listed neutral oil in a small dry saucepan over controlled heat until hot and shimmering. Do not leave it unattended or keep heating it to sustained smoke; if it smokes, remove it from the heat.\n\n6. **Finish:** Carefully pour the hot oil over the drained aromatics, keeping hands and face clear of splashes. Serve immediately, dividing the fish and all the sauce among the listed portions. Scale ingredients while keeping original-size fish or pieces and enough steamer space; additional steaming batches extend elapsed time.\n"
+  },
+  "findings": [
+    {
+      "id": "cantonese-fish-1",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested planning range follows complete preparation and product state.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen prepTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    },
+    {
+      "id": "cantonese-fish-2",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested cooking range is subordinate to the measured center endpoint.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen cookTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    },
+    {
+      "id": "cantonese-fish-3",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Elapsed includes required chilling/rest/heat-up/batches where applicable; no time multiplication.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen totalTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    },
+    {
+      "id": "cantonese-fish-4",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Make the genuine steamer-water allowance explicit without inventing a sauce dose.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen ingredients before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://thewoksoflife.com/cantonese-steamed-fish/",
+          "applicability": "Saved medium-fillet/cooked-aromatic source differs from the larger current whole-or-fillet hot-oil route; no automatic source reset."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    },
+    {
+      "id": "cantonese-fish-5",
+      "title": "unsupported numerical nutrition",
+      "field": "unsupported numerical nutrition",
+      "rationale": "No ingredient-weight/finished-yield analysis supports legacy numerical estimate; remove without replacement",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen nutrition before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        }
+      ],
+      "sourceApplicability": "Git/source context establishes the unsupported assertion and exact removal. No source-specific geographic origin or ingredient-weight/finished-yield nutrition analysis is invented.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    },
+    {
+      "id": "cantonese-fish-6",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Recipe-specific preparation, cues, troubleshooting, product/state distinctions and source-scoped storage; no generic lesson or tested claim.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen learning before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://thewoksoflife.com/cantonese-steamed-fish/",
+          "applicability": "Saved medium-fillet/cooked-aromatic source differs from the larger current whole-or-fillet hot-oil route; no automatic source reset."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Steaming liquid is discarded; this recipe does not retain fish-contact juices for service. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    },
+    {
+      "id": "cantonese-fish-7",
+      "title": "complete ingredient and measured-state method",
+      "field": "complete ingredient and measured-state method",
+      "rationale": "Follow the complete ingredient destinations, measured species/product endpoint, original-size geometry and sensory cues; preserve defining current ingredients and separate saved variants. See sourceDisagreements for exact lineage.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "ed58c7fb0a6a116ae4484d68c8bfcaea4d9e9c05ba1f50876b26fe5061136f1b",
+          "applicability": "Exact frozen content before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "43b7cbaca33ab0dde76f2a785898736bfd1ac9e3fd6640796b02b45be2b707ce",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://thewoksoflife.com/cantonese-steamed-fish/",
+          "applicability": "Saved medium-fillet/cooked-aromatic source differs from the larger current whole-or-fillet hot-oil route; no automatic source reset."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Steaming liquid is discarded; this recipe does not retain fish-contact juices for service. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Which fish form and edible portion does the household intend?",
+        "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+        "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/cantonese-steamed-fish-a-20-minute.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://thewoksoflife.com/cantonese-steamed-fish/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "59a6188e replaced the saved medium-fillet formula (2 scallions,2 tbsp ginger, small bunch cilantro,1½ tbsp soy,⅛ tsp salt,⅛ tsp sugar,2 tbsp water,2 tbsp oil) with the larger current1-lb/3-scallion/3-tbsp-ginger/½-cup-cilantro/3-tbsp-soy/1-tsp-sugar/3-tbsp-oil main and hot-oil route. No later explicit quantity decision was found. Retain the full current richer main without silently adding saved salt/water or reducing sugar/oil; retain the exact saved route privately for household disposition. Current publisher10-oz fillet and cooked-aromatic route do not certify current weights or raw-aromatic route. Omitted native method variant remains separately unresolved rather than invented into a scaled recipe.",
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "text": "1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "destination": "step1 fish"
+      },
+      {
+        "row": 2,
+        "text": "3 tbsp Fresh Ginger, julienned",
+        "destination": "steps1/3 half ginger"
+      },
+      {
+        "row": 3,
+        "text": "3 Green Onions, thinly sliced (white and green separated)",
+        "destination": "step3 greens; whites orphaned"
+      },
+      {
+        "row": 4,
+        "text": "1/2 cup Fresh Cilantro",
+        "destination": "step3 cilantro"
+      },
+      {
+        "row": 5,
+        "text": "3 tbsp Light Soy Sauce",
+        "destination": "step4 soy"
+      },
+      {
+        "row": 6,
+        "text": "1 tsp Sugar",
+        "destination": "step4 sugar"
+      },
+      {
+        "row": 7,
+        "text": "3 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "destination": "step5/6 all oil"
+      }
+    ],
+    "proposed": [
+      {
+        "row": 1,
+        "text": "1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "destination": "step1 fish"
+      },
+      {
+        "row": 2,
+        "text": "3 tbsp Fresh Ginger, julienned",
+        "destination": "steps1 and3 half/half ginger"
+      },
+      {
+        "row": 3,
+        "text": "3 Green Onions, thinly sliced (white and green separated)",
+        "destination": "step3 all whites and greens"
+      },
+      {
+        "row": 4,
+        "text": "1/2 cup Fresh Cilantro",
+        "destination": "step3 cilantro"
+      },
+      {
+        "row": 5,
+        "text": "3 tbsp Light Soy Sauce",
+        "destination": "step4 all soy"
+      },
+      {
+        "row": 6,
+        "text": "1 tsp Sugar",
+        "destination": "step4 all sugar"
+      },
+      {
+        "row": 7,
+        "text": "3 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "destination": "steps5–6 all oil"
+      },
+      {
+        "row": 8,
+        "text": "Water for steaming, as needed to keep the plate above the water",
+        "destination": "step1 separate steamer water"
+      }
+    ],
+    "nativeIngredientsRetainedPrivately": "Exact native ingredients and all body/notes retained in private evidence; no title-only match",
+    "frozenUnlistedAllowances": ["Water below plate for steamer"],
+    "variants": [
+      {
+        "ingredient": "Fillet or whole fish",
+        "alternative": "Use the listed weight of the selected form and original-size portions; whole fish must be scaled and gutted.",
+        "effect": "Bones and head change edible yield and steaming time. Use 145°F in thick flesh and adequate plate space rather than treating the two forms as equal geometry."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "text": "1. **Steam:** Keep the prepared fish cold until the steamer is ready. For a whole fish, have it scaled, gutted and its gills removed; check fillets for bones. Rinse the ginger, scallions and cilantro under running water before peeling or cutting, and drain well. Put the fish on a heatproof plate that fits on a stable rack inside the covered steamer, above its cooking water. Scatter half the listed ginger on top. Bring the water to a boil, cover and steam. Begin checking thin fillets after 4–5 minutes and thicker fillets or a whole fish around 8–10 minutes; these are first checks, not completion promises. Continue until the thickest flesh reaches 145°F /63°C, checking away from bone, and is no longer translucent and separates easily. Whole fish and overlapping loads can take longer; keep pieces uncrowded."
+    },
+    {
+      "text": "2. **Drain:** Turn off the steam and carefully lift the plate with suitable gloves or a plate lifter. Drain the steaming liquid without tipping the fish onto a raw-contact surface."
+    },
+    {
+      "text": "3. **Layer:** Arrange the remaining half of the listed ginger, all the scallion whites and greens, and all the cilantro over the cooked fish. Drain washed aromatics well before the oil finish."
+    },
+    {
+      "text": "4. **Sauce:** Whisk all the listed soy sauce and sugar until the sugar dissolves; pour around the fish."
+    },
+    {
+      "text": "5. **Oil:** Heat all the listed neutral oil in a small dry saucepan over controlled heat until hot and shimmering. Do not leave it unattended or keep heating it to sustained smoke; if it smokes, remove it from the heat."
+    },
+    {
+      "text": "6. **Finish:** Carefully pour the hot oil over the drained aromatics, keeping hands and face clear of splashes. Serve immediately, dividing the fish and all the sauce among the listed portions. Scale ingredients while keeping original-size fish or pieces and enough steamer space; additional steaming batches extend elapsed time."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "steamed-broccoli", "garlic-sesame-spinach"],
+    "incomingMeals": [],
+    "scope": "Actual meal directory has no incoming composed meal for these five. Pairings remain separate metadata suggestions; do not import their ingredients or certify coordinated portions/clocks."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "2",
+    "sourceYield": "Saved medium-fillet weight/yield unresolved; current2 retained",
+    "capacity": [
+      "Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools separate from cooked fish and garnishes.",
+      "Prepare the plate, stable rack and lid before heating water; the plate must remain above the water and the lid must close. Allow more plates or batches at larger ingredient scales.",
+      "The original 1-lb fish and two-portion yield are planning amounts; a whole fish includes bones and cannot be equated to 1 lb boneless fillet for edible yield."
+    ],
+    "timing": "Allow roughly 15–25 minutes active and 20–35 minutes elapsed for the original batch with cleaned, thawed fish. Steamer heat-up, fish thickness and additional plates change elapsed time; thawing is additional.",
+    "scaling": "Preserve ingredient controls, original-size fish/pan geometry and endpoint; elapsed time changes with actual batches"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "1/4 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "3/4 tbsp Fresh Ginger, julienned",
+        "3/4 Green Onion, thinly sliced (white and green separated)",
+        "1/8 cup Fresh Cilantro",
+        "3/4 tbsp Light Soy Sauce",
+        "1/4 tsp Sugar",
+        "3/4 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 1/2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "1/2 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "1 1/2 tbsp Fresh Ginger, julienned",
+        "1 1/2 Green Onions, thinly sliced (white and green separated)",
+        "1/4 cup Fresh Cilantro",
+        "1 1/2 tbsp Light Soy Sauce",
+        "1/2 tsp Sugar",
+        "1 1/2 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 1",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "3 tbsp Fresh Ginger, julienned",
+        "3 Green Onions, thinly sliced (white and green separated)",
+        "1/2 cup Fresh Cilantro",
+        "3 tbsp Light Soy Sauce",
+        "1 tsp Sugar",
+        "3 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "1 1/2 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "4 1/2 tbsp Fresh Ginger, julienned",
+        "4 1/2 Green Onions, thinly sliced (white and green separated)",
+        "3/4 cup Fresh Cilantro",
+        "4 1/2 tbsp Light Soy Sauce",
+        "1 1/2 tsp Sugar",
+        "4 1/2 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 3",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "2 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "6 tbsp Fresh Ginger, julienned",
+        "6 Green Onions, thinly sliced (white and green separated)",
+        "1 cup Fresh Cilantro",
+        "6 tbsp Light Soy Sauce",
+        "2 tsp Sugar",
+        "6 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 4",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "3 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "9 tbsp Fresh Ginger, julienned",
+        "9 Green Onions, thinly sliced (white and green separated)",
+        "1 1/2 cups Fresh Cilantro",
+        "9 tbsp Light Soy Sauce",
+        "3 tsp Sugar",
+        "9 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 6",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)",
+        "3 tbsp Fresh Ginger, julienned",
+        "3 Green Onions, thinly sliced (white and green separated)",
+        "1/2 cup Fresh Cilantro",
+        "3 tbsp Light Soy Sauce",
+        "1 tsp Sugar",
+        "3 tbsp Neutral Oil (Avocado or Grapeseed)",
+        "Water for steaming, as needed to keep the plate above the water"
+      ],
+      "yield": "Serves 2",
+      "shopping": null,
+      "directions": null,
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Which fish form and edible portion does the household intend?",
+    "Should the exact medium-fillet saved formula and cooked-aromatic route return as a separate public variant? Its fish weight and yield are not given by the native original.",
+    "Observe actual plate depth, fish thickness, oil behavior and active/elapsed times."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

@@ -1,0 +1,1393 @@
+{
+  "slug": "chinese-steamed-fish",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+  "acceptedSourceSha256": "55fc3f725c199681267423b557f175ec356bf3dddb4e36b666166f3e7c6380a6",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "10–20 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 25–40 min"
+    },
+    {
+      "field": "servings",
+      "before": "4",
+      "after": "4 portions"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "1 Whole Fish (Snapper or Sea Bass), 1.5 lbs",
+        "1 (2-inch) piece Fresh Ginger, julienned",
+        "2 Scallions, cut into silken threads",
+        "Fresh Cilantro leaves",
+        "2 tbsp Peanut Oil (or high-heat oil)",
+        "4 tbsp Light Soy Sauce",
+        "2 tbsp Shaoxing Wine",
+        "2 tbsp Water",
+        "1/4 tsp Toasted Sesame Oil",
+        "1 tbsp Rock Sugar, powdered",
+        "3 dashes White Pepper"
+      ],
+      "after": [
+        "--- Fish and sauce ---",
+        "1 (1 1/2 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "1 Fresh ginger piece, original 2-inch piece, peeled and julienned",
+        "2 Scallions, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "2 tbsp Peanut or other high-heat oil",
+        "4 tbsp Light soy sauce",
+        "3 tbsp Shaoxing or Chinese rice wine",
+        "2 tbsp Water for sauce",
+        "1/4 tsp Toasted sesame oil",
+        "1 tbsp Rock sugar, powdered",
+        "3 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ]
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 145,
+        "protein": 4.5,
+        "carbs": 9,
+        "fat": 10.5,
+        "fiber": 1.5,
+        "sugar": 5,
+        "sodium": 1040
+      },
+      "after": null
+    },
+    {
+      "field": "formula",
+      "before": null,
+      "after": {
+        "version": 1,
+        "yield": {
+          "amount": 4,
+          "unit": "portion"
+        },
+        "components": [
+          {
+            "id": "fish",
+            "name": "Fish and sauce",
+            "ingredients": [
+              {
+                "id": "fish",
+                "key": "fish",
+                "name": "Whole fish (snapper or sea bass)",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "fish",
+                    "share": 1
+                  }
+                ],
+                "plural": "Whole fish (snapper or sea bass)",
+                "equivalents": [
+                  {
+                    "amount": 1.5,
+                    "unit": "lb"
+                  }
+                ],
+                "preparation": "scaled, gutted, gills removed; original-size fish"
+              },
+              {
+                "id": "ginger",
+                "key": "ginger",
+                "name": "Fresh ginger piece",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "fish",
+                    "share": "1/2"
+                  },
+                  {
+                    "step": "aromatics",
+                    "share": "1/2"
+                  }
+                ],
+                "plural": "Fresh ginger pieces",
+                "preparation": "original 2-inch piece, peeled and julienned"
+              },
+              {
+                "id": "scallions",
+                "key": "scallions",
+                "name": "Scallion",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "aromatics",
+                    "share": 1
+                  }
+                ],
+                "plural": "Scallions",
+                "preparation": "cut into fine threads"
+              },
+              {
+                "id": "cilantro",
+                "key": "cilantro",
+                "name": "Fresh cilantro leaves",
+                "allowance": "as desired",
+                "uses": [
+                  {
+                    "step": "serve",
+                    "share": 1
+                  }
+                ],
+                "role": "garnish"
+              },
+              {
+                "id": "oil",
+                "key": "oil",
+                "name": "Peanut or other high-heat oil",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "oil",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "soy",
+                "key": "soy",
+                "name": "Light soy sauce",
+                "quantity": {
+                  "amount": 4,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "wine",
+                "key": "wine",
+                "name": "Shaoxing or Chinese rice wine",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "fish",
+                    "share": "1/3"
+                  },
+                  {
+                    "step": "sauce",
+                    "share": "2/3"
+                  }
+                ]
+              },
+              {
+                "id": "water",
+                "key": "water",
+                "name": "Water for sauce",
+                "quantity": {
+                  "amount": 2,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              },
+              {
+                "id": "sesame",
+                "key": "sesame",
+                "name": "Toasted sesame oil",
+                "quantity": {
+                  "amount": "1/4",
+                  "unit": "tsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ]
+              },
+              {
+                "id": "sugar",
+                "key": "sugar",
+                "name": "Rock sugar",
+                "quantity": {
+                  "amount": 1,
+                  "unit": "tbsp"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "preparation": "powdered"
+              },
+              {
+                "id": "pepper",
+                "key": "pepper",
+                "name": "White-pepper dash",
+                "quantity": {
+                  "amount": 3,
+                  "unit": "count"
+                },
+                "uses": [
+                  {
+                    "step": "sauce",
+                    "share": 1
+                  }
+                ],
+                "plural": "White-pepper dashes"
+              },
+              {
+                "id": "steam-water",
+                "key": "steam-water",
+                "name": "Water for steaming",
+                "allowance": "as needed with the plate above the water",
+                "uses": [
+                  {
+                    "step": "steam",
+                    "share": 1
+                  }
+                ],
+                "role": "cooking-water"
+              }
+            ]
+          }
+        ],
+        "steps": [
+          {
+            "id": "fish",
+            "title": "Prepare the fish",
+            "text": "Prepare {{ingredients}}. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce."
+          },
+          {
+            "id": "sauce",
+            "title": "Mix the sauce",
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          },
+          {
+            "id": "steam",
+            "title": "Steam",
+            "text": "Use {{ingredients}} under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish."
+          },
+          {
+            "id": "drain",
+            "title": "Drain",
+            "text": "Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes."
+          },
+          {
+            "id": "aromatics",
+            "title": "Add aromatics",
+            "text": "Rinse and drain {{ingredients}} well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger."
+          },
+          {
+            "id": "oil",
+            "title": "Hot oil",
+            "text": "Heat {{ingredients}} in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes."
+          },
+          {
+            "id": "finish",
+            "title": "Heat the sauce",
+            "text": "Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine."
+          },
+          {
+            "id": "serve",
+            "title": "Serve",
+            "text": "Garnish with {{ingredients}} and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock."
+          }
+        ]
+      }
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Separate steaming seasoning from the finishing sauce",
+        "outcome": "Whole fish reaches its measured thick-flesh endpoint and receives the full fragrant, dissolved sauce.",
+        "techniques": ["gentle-proteins", "temperature"],
+        "before": [
+          "Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools separate from cooked fish and garnishes.",
+          "Use a heatproof plate above the water on a stable rack, with a lid that closes; additional fish need roomy plates or separate batches.",
+          "The wine has two destinations:1/3 on the fish and 2/3 in the sauce. Keep the sauce bowl and garnish tools free from raw-fish contact."
+        ],
+        "checkpoints": [
+          {
+            "step": 3,
+            "cue": "Thick flesh is 145°F /63°C away from bone and separates easily, without translucent flesh.",
+            "why": "The fish shape and thickness determine the completion point; source 8–10 minutes is a first-check window."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sugar stays gritty in the sauce",
+            "cause": "Rock sugar was not powdered or the clean sauce was not fully dissolved",
+            "fix": "Powder the sugar before mixing, then stir the separate sauce as it heats; keep it away from raw fish and pour only after it dissolves."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Sauce sugar and sesame oil",
+            "alternative": "For the original batch, use 2 tbsp powdered rock sugar with the listed ¼ tsp sesame oil for the sweeter sauce option. Keep all other ingredients and the separate 1 tbsp steaming wine plus 2 tbsp sauce wine; scale the option together.",
+            "effect": "This is sweeter than the main sauce with 1 tbsp sugar; the sesame-oil amount stays the same. Dissolve the powdered sugar fully before pouring the heated sauce."
+          }
+        ],
+        "timing": "Allow about 15–25 minutes active and 25–40 minutes elapsed for the original cleaned, thawed fish, including steamer heat-up and finish. Actual fish thickness and extra plates change the clock; thawing is additional.",
+        "storage": "Refrigerate cooked leftovers promptly in shallow containers at 40°F /4°C or below, within 2 hours (1 hour above 90°F /32°C). Use within 3–4 days; reheat hot leftovers to 165°F /74°C throughout. Delicate fish can dry on reheating; do not leave it warm to protect its texture.",
+        "sources": [
+          {
+            "title": "Adapted from rasamalaysia.com",
+            "url": "https://rasamalaysia.com/steamed-fish-recipe/"
+          },
+          {
+            "title": "FDA — Fish handling and cooking",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely"
+          },
+          {
+            "title": "FoodSafety.gov — Species and egg-dish endpoints",
+            "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+          },
+          {
+            "title": "FDA — Produce handling",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          },
+          {
+            "title": "USDA — Leftover handling",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nSteamed whole fish is a cornerstone of Cantonese cuisine, showcasing the fish's natural flavor. The finishing touch: pour smoking-hot oil over raw ginger and scallions on top of the cooked fish. This flash-cooks the aromatics and releases their fragrant oils directly into the fish. Always discard the liquid that collects on the steaming plate - it contains off-flavors from the fish. Use the freshest fish possible, ideally snapper or sea bass.\n\n## Directions\n\n1.  **Prep:** Clean and scale the fish. Pat it **bone-dry**. Whisk the seasoning sauce ingredients in a small bowl until the sugar dissolves.\n2.  **Steam Prep:** Drizzle 1 tbsp Shaoxing wine over the fish. Top with half of the ginger strips.\n3.  **Steam:** Place the fish in a steamer (or on a plate propped up in a wok). Steam over high heat for 8-10 minutes until the flesh just flakes at the thickest part.\n4.  **Drain:** Carefully remove the plate. **Discard the liquid** that has collected on the plate - this is critical for a clean flavor.\n5.  **Aromatics:** Top the hot fish with the remaining ginger and the scallion threads.\n6.  **The Sizzle:** Heat 2 tbsp oil in a small pan until it is smoking. Carefully pour the hot oil directly over the scallions and ginger. You should hear a loud sizzle.\n7.  **Season:** Pour the seasoning sauce into the same hot oil pan, let it bubble for 5 seconds, then pour it over the fish.\n8.  **Serve:** Garnish with cilantro and serve immediately with white rice.\n",
+    "after": "\n## Chef's Note\n\nWhole steamed fish has a short, thickness-dependent cooking window. Ginger and wine season the fish before steaming; a separate clean soy mixture and hot oil finish it. Keep the steaming wine and sauce wine separate so both reach their intended stages.\n\n## Directions\n\n1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.\n"
+  },
+  "findings": [
+    {
+      "id": "chinese-steamed-fish-1",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested planning range follows complete preparation and product state.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen prepTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[0]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-2",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Untested cooking range is subordinate to the measured center endpoint.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen cookTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[1]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-3",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Elapsed includes required chilling/rest/heat-up/batches where applicable; no time multiplication.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen totalTime before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "type": "editorial time/process inference",
+          "applicability": "Complete preparation, heat-up, original cooking first-check window and oil/sauce finish; actual thickness/batches change timing. FDA/USDA do not validate these minute ranges."
+        }
+      ],
+      "sourceApplicability": "Untested recipe-specific time/process planning, anchored to the exact original/current written clock. Primary handling guidance is separate from quantitative timing evidence.",
+      "exactBeforeAfterReferences": ["exactChanges[2]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-4",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Generated yield retains the current original planning count; no measured yield claim.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen servings before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        }
+      ],
+      "sourceApplicability": "The exact current four-portion planning count is retained as 4 portions; no measured edible yield or guaranteed four-person appetite is asserted.",
+      "exactBeforeAfterReferences": ["exactChanges[3]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-5",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Make the genuine steamer-water allowance explicit without inventing a sauce dose.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen ingredients before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://rasamalaysia.com/steamed-fish-recipe/",
+          "applicability": "Actual card independently confirms 1-tbsp fish wine plus 2-tbsp sauce wine; its 1-tbsp sugar and 1-tsp sesame differ from the saved seasoning. Do not normalize source versions."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[4]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-6",
+      "title": "unsupported numerical nutrition",
+      "field": "unsupported numerical nutrition",
+      "rationale": "No ingredient-weight/finished-yield analysis supports legacy numerical estimate; remove without replacement",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen nutrition before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        }
+      ],
+      "sourceApplicability": "Git/source context establishes the unsupported assertion and exact removal. No source-specific geographic origin or ingredient-weight/finished-yield nutrition analysis is invented.",
+      "exactBeforeAfterReferences": ["exactChanges[5]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-7",
+      "title": "formula/destination conservation",
+      "field": "formula/destination conservation",
+      "rationale": "Recover saved separate1tbsp steaming wine without taking it from2tbsp sauce wine; conserve3tbsp total in explicit1/3–2/3 shares. Other full current seasoning retained.",
+      "confidence": "High exact written evidence; household/product/geometry questions remain",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen formula before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://rasamalaysia.com/steamed-fish-recipe/",
+          "applicability": "Actual card independently confirms 1-tbsp fish wine plus 2-tbsp sauce wine; its 1-tbsp sugar and 1-tsp sesame differ from the saved seasoning. Do not normalize source versions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Steaming liquid is discarded; this recipe does not retain fish-contact juices for service. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[6]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-8",
+      "title": "recipe-specific planning/learning",
+      "field": "recipe-specific planning/learning",
+      "rationale": "Recipe-specific preparation, cues, troubleshooting, product/state distinctions and source-scoped storage; no generic lesson or tested claim.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen learning before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://rasamalaysia.com/steamed-fish-recipe/",
+          "applicability": "Actual card independently confirms 1-tbsp fish wine plus 2-tbsp sauce wine; its 1-tbsp sugar and 1-tsp sesame differ from the saved seasoning. Do not normalize source versions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Steaming liquid is discarded; this recipe does not retain fish-contact juices for service. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[7]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    },
+    {
+      "id": "chinese-steamed-fish-9",
+      "title": "complete ingredient and measured-state method",
+      "field": "complete ingredient and measured-state method",
+      "rationale": "Follow the complete ingredient destinations, measured species/product endpoint, original-size geometry and sensory cues; preserve defining current ingredients and separate saved variants. See sourceDisagreements for exact lineage.",
+      "confidence": "Moderate editorial planning/mechanism; primary temperature scope high",
+      "applicableSources": [
+        {
+          "path": "privately retained evidence",
+          "sha256": "7c55ca13c4a472e3e74abfcefd27ff640a25ecad6f8f35cfc3c256062747a2fd",
+          "applicability": "Exact frozen content before value; establishes the current household/repository baseline, not kitchen validation."
+        },
+        {
+          "path": "privately retained evidence",
+          "sha256": "6a7f2c41666890d78618db952d22c84d589831fb28c138a6975bec6c2e7b46e2",
+          "applicability": "Actual retained followed changes; household intention is not inferred from persistence or a bulk edit."
+        },
+        {
+          "path": "privately retained evidence",
+          "applicability": "Exact bound retained original payload, corroborated against first available Git. Created timestamp does not date an unchanged recipe version; member/binding proof is private."
+        },
+        {
+          "url": "https://rasamalaysia.com/steamed-fish-recipe/",
+          "applicability": "Actual card independently confirms 1-tbsp fish wine plus 2-tbsp sauce wine; its 1-tbsp sugar and 1-tsp sesame differ from the saved seasoning. Do not normalize source versions."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+          "applicability": "Raw-seafood separation, refrigerator thawing/cold handling and ordinary finfish145°F. No published oil-shimmer temperature or recipe-specific pan capacity."
+        },
+        {
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+          "applicability": "Finfish 145°F applies directly to thick flesh. Steaming liquid is discarded; this recipe does not retain fish-contact juices for service. Reheated leftovers 165°F."
+        },
+        {
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "applicability": "Prompt shallow-container cooling, cooked-leftover3–4 days and165°F reheating; liquid-sauce boil recommendation pertains to reheating only. No recipe shelf-life, chilling time or texture guarantee."
+        },
+        {
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+          "applicability": "Fresh produce washing before peeling/cutting and raw-contact separation, including uncooked garnishes. Not sterilization or a hot-oil kill-step."
+        }
+      ],
+      "sourceApplicability": "Exact original/current/publisher quantities and route differences are distinct from handling/endpoints. The flesh endpoint is primary finfish guidance; controlled hot-oil shimmer is an untested editorial cue, not measured oil-temperature equivalence or a guarantee of sterilized aromatics.",
+      "exactBeforeAfterReferences": ["exactChanges[8]"],
+      "questions": [
+        "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+        "Which source sugar choice is desired? No household intent inferred from persistence.",
+        "Oil splash behavior and seasoning acceptance require cooking observation."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/chinese-steamed-fish.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "https://rasamalaysia.com/steamed-fish-recipe/",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "2c07c669 removed the separate1tbsp steaming-wine ingredient while retaining that dose in the method; restore3tbsp TOTAL with1/3 fish and2/3 sauce shares. The same bulk rewrite reduced source2tbsp sugar to1tbsp and increased scallion1 to2; no later deliberate quantity decision found. Preserve current1tbsp sugar and two scallions, return saved2tbsp sugar as a distinct option without replacing the main. Current Rasa card confirms two wine destinations and1tbsp sugar but now1tsp sesame oil; native/current¼tsp retained, disagreement explicit. Current aromatics-before-oil retained; native scallions after sauce remains exact privately as ordering evidence, not a second compulsory addition.",
+  "ledger": {
+    "frozen": [
+      {
+        "row": 1,
+        "text": "1 Whole Fish (Snapper or Sea Bass), 1.5 lbs",
+        "destination": "step3 fish"
+      },
+      {
+        "row": 2,
+        "text": "1 (2-inch) piece Fresh Ginger, julienned",
+        "destination": "step2 half/step5 half ginger"
+      },
+      {
+        "row": 3,
+        "text": "2 Scallions, cut into silken threads",
+        "destination": "step5 scallions"
+      },
+      {
+        "row": 4,
+        "text": "Fresh Cilantro leaves",
+        "destination": "step8 garnish"
+      },
+      {
+        "row": 5,
+        "text": "2 tbsp Peanut Oil (or high-heat oil)",
+        "destination": "step6 full oil"
+      },
+      {
+        "row": 6,
+        "text": "4 tbsp Light Soy Sauce",
+        "destination": "step1/7 sauce"
+      },
+      {
+        "row": 7,
+        "text": "2 tbsp Shaoxing Wine",
+        "destination": "step2 1tbsp plus sauce allocation ambiguous from2tbsp total"
+      },
+      {
+        "row": 8,
+        "text": "2 tbsp Water",
+        "destination": "step1/7 sauce"
+      },
+      {
+        "row": 9,
+        "text": "1/4 tsp Toasted Sesame Oil",
+        "destination": "step1/7 sauce"
+      },
+      {
+        "row": 10,
+        "text": "1 tbsp Rock Sugar, powdered",
+        "destination": "step1/7 sauce"
+      },
+      {
+        "row": 11,
+        "text": "3 dashes White Pepper",
+        "destination": "step1/7 sauce"
+      }
+    ],
+    "proposed": [
+      {
+        "id": "fish.fish",
+        "text": "Whole fish (snapper or sea bass)",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "fish",
+            "share": 1,
+            "text": "Prepare {{ingredients}}. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce."
+          }
+        ],
+        "preparation": "scaled, gutted, gills removed; original-size fish",
+        "ingredientState": "Raw fish; kept cold before cooking"
+      },
+      {
+        "id": "fish.ginger",
+        "text": "Fresh ginger piece",
+        "quantity": {
+          "amount": 1,
+          "unit": "count"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "fish",
+            "share": "1/2",
+            "text": "Prepare {{ingredients}}. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce."
+          },
+          {
+            "step": "aromatics",
+            "share": "1/2",
+            "text": "Rinse and drain {{ingredients}} well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger."
+          }
+        ],
+        "preparation": "original 2-inch piece, peeled and julienned",
+        "ingredientState": null
+      },
+      {
+        "id": "fish.scallions",
+        "text": "Scallion",
+        "quantity": {
+          "amount": 2,
+          "unit": "count"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "aromatics",
+            "share": 1,
+            "text": "Rinse and drain {{ingredients}} well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger."
+          }
+        ],
+        "preparation": "cut into fine threads",
+        "ingredientState": null
+      },
+      {
+        "id": "fish.cilantro",
+        "text": "Fresh cilantro leaves",
+        "quantity": null,
+        "allowance": "as desired",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "serve",
+            "share": 1,
+            "text": "Garnish with {{ingredients}} and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.oil",
+        "text": "Peanut or other high-heat oil",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "oil",
+            "share": 1,
+            "text": "Heat {{ingredients}} in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.soy",
+        "text": "Light soy sauce",
+        "quantity": {
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.wine",
+        "text": "Shaoxing or Chinese rice wine",
+        "quantity": {
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "fish",
+            "share": "1/3",
+            "text": "Prepare {{ingredients}}. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce."
+          },
+          {
+            "step": "sauce",
+            "share": "2/3",
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.water",
+        "text": "Water for sauce",
+        "quantity": {
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.sesame",
+        "text": "Toasted sesame oil",
+        "quantity": {
+          "amount": "1/4",
+          "unit": "tsp"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.sugar",
+        "text": "Rock sugar",
+        "quantity": {
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          }
+        ],
+        "preparation": "powdered",
+        "ingredientState": null
+      },
+      {
+        "id": "fish.pepper",
+        "text": "White-pepper dash",
+        "quantity": {
+          "amount": 3,
+          "unit": "count"
+        },
+        "allowance": null,
+        "optional": false,
+        "destinations": [
+          {
+            "step": "sauce",
+            "share": 1,
+            "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      },
+      {
+        "id": "fish.steam-water",
+        "text": "Water for steaming",
+        "quantity": null,
+        "allowance": "as needed with the plate above the water",
+        "optional": false,
+        "destinations": [
+          {
+            "step": "steam",
+            "share": 1,
+            "text": "Use {{ingredients}} under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish."
+          }
+        ],
+        "preparation": null,
+        "ingredientState": null
+      }
+    ],
+    "nativeIngredientsRetainedPrivately": "Exact native ingredients and all body/notes retained in private evidence; no title-only match",
+    "frozenUnlistedAllowances": ["Water below plate for steamer"],
+    "variants": [
+      {
+        "ingredient": "Sauce sugar and sesame oil",
+        "alternative": "For the original batch, use 2 tbsp powdered rock sugar with the listed ¼ tsp sesame oil for the sweeter sauce option. Keep all other ingredients and the separate 1 tbsp steaming wine plus 2 tbsp sauce wine; scale the option together.",
+        "effect": "This is sweeter than the main sauce with 1 tbsp sugar; the sesame-oil amount stays the same. Dissolve the powdered sugar fully before pouring the heated sauce."
+      }
+    ]
+  },
+  "processGraph": [
+    {
+      "id": "fish",
+      "title": "Prepare the fish",
+      "text": "Prepare {{ingredients}}. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce."
+    },
+    {
+      "id": "sauce",
+      "title": "Mix the sauce",
+      "text": "Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it."
+    },
+    {
+      "id": "steam",
+      "title": "Steam",
+      "text": "Use {{ingredients}} under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish."
+    },
+    {
+      "id": "drain",
+      "title": "Drain",
+      "text": "Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes."
+    },
+    {
+      "id": "aromatics",
+      "title": "Add aromatics",
+      "text": "Rinse and drain {{ingredients}} well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger."
+    },
+    {
+      "id": "oil",
+      "title": "Hot oil",
+      "text": "Heat {{ingredients}} in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes."
+    },
+    {
+      "id": "finish",
+      "title": "Heat the sauce",
+      "text": "Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine."
+    },
+    {
+      "id": "serve",
+      "title": "Serve",
+      "text": "Garnish with {{ingredients}} and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock."
+    }
+  ],
+  "variantLedgers": [],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["basmati-rice", "garlic-sesame-spinach", "steamed-bok-choy-with-oyster-sauce"],
+    "incomingMeals": [],
+    "scope": "Actual meal directory has no incoming composed meal for these five. Pairings remain separate metadata suggestions; do not import their ingredients or certify coordinated portions/clocks."
+  },
+  "ratiosYieldAndCapacity": {
+    "yield": "4 portions",
+    "sourceYield": "Current planning count preserved; no measured finished yield",
+    "capacity": [
+      "Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools separate from cooked fish and garnishes.",
+      "Use a heatproof plate above the water on a stable rack, with a lid that closes; additional fish need roomy plates or separate batches.",
+      "The wine has two destinations:1/3 on the fish and 2/3 in the sauce. Keep the sauce bowl and garnish tools free from raw-fish contact."
+    ],
+    "timing": "Allow about 15–25 minutes active and 25–40 minutes elapsed for the original cleaned, thawed fish, including steamer heat-up and finish. Actual fish thickness and extra plates change the clock; thawing is additional.",
+    "scaling": "Preserve ingredient controls, original-size fish/pan geometry and endpoint; elapsed time changes with actual batches"
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "1/4 (3/8 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "1/4 Fresh ginger piece, original 2-inch piece, peeled and julienned",
+        "1/2 Scallion, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "1/2 tbsp Peanut or other high-heat oil",
+        "1 tbsp Light soy sauce",
+        "3/4 tbsp Shaoxing or Chinese rice wine",
+        "1/2 tbsp Water for sauce",
+        "0.0625 tsp Toasted sesame oil",
+        "1/4 tbsp Rock sugar, powdered",
+        "3/4 White-pepper dash",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "1 portion",
+      "shopping": [
+        "1/4 (3/8 lb) Whole fish (snapper or sea bass)",
+        "1/4 Fresh ginger piece",
+        "1/2 Scallion",
+        "Fresh cilantro leaves, as desired",
+        "1/2 tbsp Peanut or other high-heat oil",
+        "1 tbsp Light soy sauce",
+        "3/4 tbsp Shaoxing or Chinese rice wine",
+        "0.0625 tsp Toasted sesame oil",
+        "1/4 tbsp Rock sugar",
+        "3/4 White-pepper dash"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "1/2 (3/4 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "1/2 Fresh ginger piece, original 2-inch piece, peeled and julienned",
+        "1 Scallion, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "1 tbsp Peanut or other high-heat oil",
+        "2 tbsp Light soy sauce",
+        "1 1/2 tbsp Shaoxing or Chinese rice wine",
+        "1 tbsp Water for sauce",
+        "1/8 tsp Toasted sesame oil",
+        "1/2 tbsp Rock sugar, powdered",
+        "1 1/2 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "2 portions",
+      "shopping": [
+        "1/2 (3/4 lb) Whole fish (snapper or sea bass)",
+        "1/2 Fresh ginger piece",
+        "1 Scallion",
+        "Fresh cilantro leaves, as desired",
+        "1 tbsp Peanut or other high-heat oil",
+        "2 tbsp Light soy sauce",
+        "1 1/2 tbsp Shaoxing or Chinese rice wine",
+        "1/8 tsp Toasted sesame oil",
+        "1/2 tbsp Rock sugar",
+        "1 1/2 White-pepper dashes"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "1 (1 1/2 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "1 Fresh ginger piece, original 2-inch piece, peeled and julienned",
+        "2 Scallions, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "2 tbsp Peanut or other high-heat oil",
+        "4 tbsp Light soy sauce",
+        "3 tbsp Shaoxing or Chinese rice wine",
+        "2 tbsp Water for sauce",
+        "1/4 tsp Toasted sesame oil",
+        "1 tbsp Rock sugar, powdered",
+        "3 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 (1 1/2 lb) Whole fish (snapper or sea bass)",
+        "1 Fresh ginger piece",
+        "2 Scallions",
+        "Fresh cilantro leaves, as desired",
+        "2 tbsp Peanut or other high-heat oil",
+        "4 tbsp Light soy sauce",
+        "3 tbsp Shaoxing or Chinese rice wine",
+        "1/4 tsp Toasted sesame oil",
+        "1 tbsp Rock sugar",
+        "3 White-pepper dashes"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "1 1/2 (2 1/4 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "1 1/2 Fresh ginger pieces, original 2-inch piece, peeled and julienned",
+        "3 Scallions, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "3 tbsp Peanut or other high-heat oil",
+        "6 tbsp Light soy sauce",
+        "4 1/2 tbsp Shaoxing or Chinese rice wine",
+        "3 tbsp Water for sauce",
+        "3/8 tsp Toasted sesame oil",
+        "1 1/2 tbsp Rock sugar, powdered",
+        "4 1/2 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "6 portions",
+      "shopping": [
+        "1 1/2 (2 1/4 lb) Whole fish (snapper or sea bass)",
+        "1 1/2 Fresh ginger pieces",
+        "3 Scallions",
+        "Fresh cilantro leaves, as desired",
+        "3 tbsp Peanut or other high-heat oil",
+        "6 tbsp Light soy sauce",
+        "4 1/2 tbsp Shaoxing or Chinese rice wine",
+        "3/8 tsp Toasted sesame oil",
+        "1 1/2 tbsp Rock sugar",
+        "4 1/2 White-pepper dashes"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "2 (3 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "2 Fresh ginger pieces, original 2-inch piece, peeled and julienned",
+        "4 Scallions, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "4 tbsp Peanut or other high-heat oil",
+        "8 tbsp Light soy sauce",
+        "6 tbsp Shaoxing or Chinese rice wine",
+        "4 tbsp Water for sauce",
+        "1/2 tsp Toasted sesame oil",
+        "2 tbsp Rock sugar, powdered",
+        "6 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "8 portions",
+      "shopping": [
+        "2 (3 lb) Whole fish (snapper or sea bass)",
+        "2 Fresh ginger pieces",
+        "4 Scallions",
+        "Fresh cilantro leaves, as desired",
+        "4 tbsp Peanut or other high-heat oil",
+        "8 tbsp Light soy sauce",
+        "6 tbsp Shaoxing or Chinese rice wine",
+        "1/2 tsp Toasted sesame oil",
+        "2 tbsp Rock sugar",
+        "6 White-pepper dashes"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "3 (4 1/2 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "3 Fresh ginger pieces, original 2-inch piece, peeled and julienned",
+        "6 Scallions, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "6 tbsp Peanut or other high-heat oil",
+        "12 tbsp Light soy sauce",
+        "9 tbsp Shaoxing or Chinese rice wine",
+        "6 tbsp Water for sauce",
+        "3/4 tsp Toasted sesame oil",
+        "3 tbsp Rock sugar, powdered",
+        "9 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "12 portions",
+      "shopping": [
+        "3 (4 1/2 lb) Whole fish (snapper or sea bass)",
+        "3 Fresh ginger pieces",
+        "6 Scallions",
+        "Fresh cilantro leaves, as desired",
+        "6 tbsp Peanut or other high-heat oil",
+        "12 tbsp Light soy sauce",
+        "9 tbsp Shaoxing or Chinese rice wine",
+        "3/4 tsp Toasted sesame oil",
+        "3 tbsp Rock sugar",
+        "9 White-pepper dashes"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "--- Fish and sauce ---",
+        "1 (1 1/2 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish",
+        "1 Fresh ginger piece, original 2-inch piece, peeled and julienned",
+        "2 Scallions, cut into fine threads",
+        "Fresh cilantro leaves, as desired",
+        "2 tbsp Peanut or other high-heat oil",
+        "4 tbsp Light soy sauce",
+        "3 tbsp Shaoxing or Chinese rice wine",
+        "2 tbsp Water for sauce",
+        "1/4 tsp Toasted sesame oil",
+        "1 tbsp Rock sugar, powdered",
+        "3 White-pepper dashes",
+        "Water for steaming, as needed with the plate above the water"
+      ],
+      "yield": "4 portions",
+      "shopping": [
+        "1 (1 1/2 lb) Whole fish (snapper or sea bass)",
+        "1 Fresh ginger piece",
+        "2 Scallions",
+        "Fresh cilantro leaves, as desired",
+        "2 tbsp Peanut or other high-heat oil",
+        "4 tbsp Light soy sauce",
+        "3 tbsp Shaoxing or Chinese rice wine",
+        "1/4 tsp Toasted sesame oil",
+        "1 tbsp Rock sugar",
+        "3 White-pepper dashes"
+      ],
+      "directions": "1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.\n2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.\n3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.\n4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.\n5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.\n6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.\n7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.\n8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.",
+      "scope": "Arithmetic output only; original fish/pan geometry and temperatures do not multiply."
+    }
+  ],
+  "preservedPriorRepairs": [],
+  "remainingQuestions": [
+    "Confirm fish thickness/plate capacity and actual four-person edible yield.",
+    "Which source sugar choice is desired? No household intent inferred from persistence.",
+    "Oil splash behavior and seasoning acceptance require cooking observation."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

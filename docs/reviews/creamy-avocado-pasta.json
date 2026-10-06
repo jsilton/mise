@@ -1,0 +1,781 @@
+{
+  "slug": "creamy-avocado-pasta",
+  "status": "accepted complete editorial review; implementation and production pending",
+  "inputCommit": "226aff2d668744295f087f0d387da6c7bc6845ed",
+  "inputSha256": "660ee29e335bca41edaf8c554290995561e3ee6d5c1be461077f6133a699f56e",
+  "acceptedSourceSha256": "a08894fc91b72f9423162573ff5b5cc3a44ef625b83eceebb1215ba9398849bc",
+  "rootFinalAcceptance": "accepted after complete author review, independent challenge and complete integration diff inspection",
+  "exactChangedFields": [
+    {
+      "field": "prepTime",
+      "before": "10 min",
+      "after": "About 10–15 min"
+    },
+    {
+      "field": "cookTime",
+      "before": "10 min",
+      "after": "About 10–20 min"
+    },
+    {
+      "field": "totalTime",
+      "before": "20 min",
+      "after": "About 20–35 min"
+    },
+    {
+      "field": "ingredients",
+      "before": [
+        "12 oz Dry Spaghetti or Fettuccine",
+        "2 ripe Medium Avocados",
+        "1/2 cup Fresh Basil, packed",
+        "1/2 cup Baby Spinach, packed",
+        "2 cloves Garlic",
+        "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "1 cup pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved",
+        "Parmesan Shavings"
+      ],
+      "after": [
+        "12 oz Dry Spaghetti or Fettuccine",
+        "2 ripe Medium Avocados",
+        "1/2 cup Fresh Basil, packed",
+        "1/2 cup Baby Spinach, packed",
+        "2 cloves Garlic",
+        "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "1 cup pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ]
+    },
+    {
+      "field": "origin",
+      "before": "Italy",
+      "after": null
+    },
+    {
+      "field": "nutrition",
+      "before": {
+        "calories": 725,
+        "protein": 9,
+        "carbs": 48,
+        "fat": 58,
+        "fiber": 6,
+        "sugar": 2,
+        "sodium": 20
+      },
+      "after": null
+    },
+    {
+      "field": "learning",
+      "before": null,
+      "after": {
+        "focus": "Loosen avocado sauce off the heat",
+        "outcome": "The sauce coats the strands; it is not a pool beneath them.",
+        "techniques": ["emulsions", "starch"],
+        "before": [
+          "Use ripe avocados that give slightly to gentle pressure. An underripe fruit is not corrected by simply blending longer.",
+          "Keep the same pasta-water reserve shared between blender and bowl at every scale. Blend in loads that fit the appliance, then combine off the heat in a roomy bowl; neither blender loads nor boiling time scale proportionally."
+        ],
+        "checkpoints": [
+          {
+            "step": 5,
+            "cue": "The sauce coats the strands; it is not a pool beneath them.",
+            "why": "Toss after each water addition so the shared reserve loosens the coating without leaving a pool."
+          }
+        ],
+        "troubleshooting": [
+          {
+            "problem": "Sauce is too thick to coat pasta",
+            "cause": "The avocado sauce needs a little of its shared water reserve.",
+            "fix": "Toss off the heat, adding a little of the same reserve and checking after each addition."
+          }
+        ],
+        "substitutions": [
+          {
+            "ingredient": "Salt and herbs",
+            "alternative": "For lightly packed herbs and measured sauce salt, use 1 tsp kosher salt in the sauce at the original four-serving scale, with separate salt for pasta water and black pepper to taste. Use ½ cup each lightly packed basil and spinach.",
+            "effect": "This is a separate seasoning and herb-packing choice; it does not convert salt crystal types or tightly packed leaves. Scale these measures with the batch."
+          }
+        ],
+        "storage": "Refrigerate promptly in shallow covered containers within 2 hours (1 hour above 90°F /32°C) at 40°F /4°C or below. Use within 3 days; the color can darken. This is best freshly made. Do not leave dressed pasta at room temperature to preserve its color.",
+        "timing": "About 10–20 minutes active work;20–35 minutes elapsed including water heating and package pasta cooking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+        "sources": [
+          {
+            "title": "Saved Adapted from Thekitchn.com",
+            "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+          },
+          {
+            "title": "USDA — storing and reheating leftovers",
+            "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+          },
+          {
+            "title": "FDA — preparing fresh produce",
+            "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+          }
+        ],
+        "review": {
+          "status": "editorial-review",
+          "date": "2026-10-05"
+        }
+      }
+    }
+  ],
+  "exactBodyChange": {
+    "before": "\n## Chef's Note\n\nRipe avocado, basil, spinach, and olive oil make a creamy sauce without cream. Toss it with drained pasta in a bowl off the heat, and add reserved pasta water only until the sauce coats the noodles.\n\n## Directions\n\n1.  **Boil:** Cook pasta in a large pot of salted water until **al dente**. **Reserve the listed amount of pasta water** before draining.\n2.  **The Emulsion:** While pasta boils, place avocado flesh, basil, spinach, garlic, lemon juice, and salt in a blender.\n3.  **Blend:** Start blending on low. Slowly drizzle in the olive oil. Blend until smooth, about 1 minute, adding a little reserved pasta water only if needed to help the blender turn.\n4.  **Combine:** Place the hot, drained pasta in a large bowl. Pour the green sauce over the top and toss vigorously until the noodles are glossy and fully coated.\n5.  **Adjust:** If the sauce is too thick, add reserved pasta water a little at a time, tossing after each addition; you may not need it all.\n6.  **Serve:** Top immediately with halved cherry tomatoes and Parmesan for color and contrast.\n",
+    "after": "\n## Chef's Note\n\nRipe avocado, basil, spinach and the full olive-oil amount make this sauce creamy without cream. Blend while the pasta cooks, then toss in a bowl off the heat. The reserved pasta water is one shared supply for blending and tossing: add only enough to loosen the sauce, rather than spending the full reserve twice.\n\n## Directions\n\n1. Wash the avocados under running water before cutting. Rinse fresh basil, spinach and optional tomatoes under running water; produce labeled prewashed or ready-to-eat may be used as directed. Drain the leaves. Cook pasta in a large pot of salted water until al dente according to its package. Use some of the listed salt allowance for the pot and keep the rest for the sauce. Reserve the listed pasta-water amount before draining.\n2. While pasta cooks, scoop avocado flesh into a blender. Add basil, spinach, garlic, lemon juice and some of the remaining salt allowance.\n3. Start on low, drizzle in the full olive-oil amount and blend until smooth, about 1 minute. If the blender needs help turning, add a little of the shared reserved water. Follow the actual blender instructions for warm liquids; cool any water destined for a sealed or heat-restricted blender first.\n4. Put hot drained pasta in a large bowl off the heat. Add the green sauce and toss until the noodles are coated.\n5. Add more of the same reserve a little at a time if needed, tossing after each addition. You may not need it all. Season with the remaining salt as desired and the listed black pepper.\n6. Serve immediately, offering halved cherry tomatoes, Parmesan shavings and chopped fresh basil as optional toppings.\n"
+  },
+  "findings": [
+    {
+      "id": "creamy-avocado-pasta-1",
+      "title": "prepTime",
+      "field": "prepTime",
+      "rationale": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-2",
+      "title": "cookTime",
+      "field": "cookTime",
+      "rationale": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-3",
+      "title": "totalTime",
+      "field": "totalTime",
+      "rationale": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The current written process and package-dependent pasta cooking underpin editorial active/elapsed planning ranges, with the complete followed Git clocks retained as comparison. These ranges were not measured in a kitchen. FDA/USDA handling guidance does not establish these clock values.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-4",
+      "title": "ingredients",
+      "field": "ingredients",
+      "rationale": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish measured amounts and method-only allowances. Current retained repairs and proposed allocation text distinguish one shared pool from extra doses. FDA/USDA do not establish the formula or intended quantities.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-5",
+      "title": "origin",
+      "field": "origin",
+      "rationale": "No source-specific origin evidence for this exact formula; cuisine labels/source attribution retained.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The complete followed Git history records the origin metadata addition, but the exact saved formula has no source-specific geographic-origin evidence. Omission preserves every existing cuisine/style tag and attribution; FDA/USDA and publisher location do not establish recipe origin.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-6",
+      "title": "nutrition",
+      "field": "nutrition",
+      "rationale": "Prior generic estimate lacks formula-specific validated analysis; remove rather than manufacture replacement.",
+      "confidence": "high for exact bytes/allocations; planning clocks and mechanism applications require peer and kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "sourceApplicability": "The followed Git history establishes the bulk numerical estimate and the exact current formula. No formula-specific nutrition analysis is established, so removing the numerical estimate avoids inventing a replacement. Origin geography and FDA/USDA handling guidance are not nutrition validation.",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-7",
+      "title": "learning",
+      "field": "learning",
+      "rationale": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+      "confidence": "Editorial planning estimates, source-specific mechanisms; no kitchen measurement",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — preparing fresh produce",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope; FDA produce guidance supports fresh-produce handling where applicable. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    },
+    {
+      "id": "creamy-avocado-pasta-8",
+      "title": "body",
+      "field": "body",
+      "rationale": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+      "confidence": "High exact source/destination; clocks need kitchen observation",
+      "applicableSources": [
+        {
+          "title": "Saved Adapted from Thekitchn.com",
+          "url": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE"
+        },
+        {
+          "title": "USDA — storing and reheating leftovers",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        },
+        {
+          "title": "FDA — preparing fresh produce",
+          "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+        }
+      ],
+      "sourceApplicability": "The exact independently rebound native payload and exact first/followed Git sources establish amounts, routes, source variants and actual prior edits; where a live primary recipe was actually available, it corroborates only the recipe-specific comparisons noted in the source packet. Capacity, sensory explanations and revised clocks are editorial interpretation, not kitchen measurements. USDA supports only cooling/refrigeration and reheating scope; FDA produce guidance supports fresh-produce handling where applicable. ",
+      "exactBeforeAfterReferences": [
+        "prepTime",
+        "cookTime",
+        "totalTime",
+        "ingredients",
+        "origin",
+        "nutrition",
+        "learning",
+        "content"
+      ],
+      "questions": [
+        "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+        "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+        "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+      ]
+    }
+  ],
+  "sourceProvenance": {
+    "actualCookingIntroduction": "https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/creamy-avocado-pasta.md",
+    "introductionScope": "Exact retained committed introduction and complete followed cooking history independently verified and reused.",
+    "originalNativeBinding": "Exact original native binding independently verified; privately retained.",
+    "externalPublisher": "http://www.thekitchn.com/how-to-make-creamy-avocado-pasta-242477?utm_medium=email&utm_campaign=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn&utm_content=TK%252520Daily%25252032417%252520-%252520Creamy%252520Avocado%252520Pasta%252520Our%252520Smartest%252520Takeout%252520Tip%252520%252520More%252520from%252520The%252520Kitchn+CID_75fc2b7d54221a9aab02dbe50784f59b&utm_source=email_newsletter&utm_term=READ%252520MORE",
+    "followedHistory": "Complete actual followed history reviewed by author and independent editor; retained privately."
+  },
+  "sourceDisagreements": "858 offheat/water repair remains. Black pepper now has a destination, salt allowance covers pot and sauce, original optional extra basil returns, and shared water is conserved. Current salt-to-taste/packed-herb main is preserved beside the exact source choice without claiming a deliberate household change.",
+  "ledger": {
+    "frozen": [
+      {
+        "text": "12 oz Dry Spaghetti or Fettuccine",
+        "destination": "step 1 boiled/drained",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "2 ripe Medium Avocados",
+        "destination": "step 2 avocado flesh blended",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/2 cup Fresh Basil, packed",
+        "destination": "step 2 blended",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/2 cup Baby Spinach, packed",
+        "destination": "step 2 blended",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "2 cloves Garlic",
+        "destination": "step 2 blended",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": "step 2 blended",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": "step 3 blended, full ¼ cup",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "1 cup pasta cooking water, reserved before draining; use only as needed",
+        "destination": "step 1 reserved; same reserve spent as needed in 3 and 5",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "salt used 1/2; black pepper has NO explicit frozen method destination",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Cherry Tomatoes, halved",
+        "destination": "step 6 topping; frozen list does not mark optional",
+        "state": "Exact frozen string",
+        "question": null
+      },
+      {
+        "text": "Parmesan Shavings",
+        "destination": "step 6 topping; frozen list does not mark optional",
+        "state": "Exact frozen string",
+        "question": null
+      }
+    ],
+    "proposed": [
+      {
+        "text": "12 oz Dry Spaghetti or Fettuccine",
+        "destination": 1,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "2 ripe Medium Avocados",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Fresh Basil, packed",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/2 cup Baby Spinach, packed",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "2 cloves Garlic",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "destination": 2,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1/4 cup Extra-Virgin Olive Oil",
+        "destination": 3,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "1 cup pasta cooking water, reserved before draining; use only as needed",
+        "destination": "step 1 reserve; steps 3 and 5 draw from this same scaled pool as needed",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Salt and Black Pepper",
+        "destination": "1/2/5",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Cherry Tomatoes, halved, optional for serving",
+        "destination": 6,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Parmesan Shavings, optional for serving",
+        "destination": 6,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Fresh basil, chopped, optional for serving",
+        "destination": 6,
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      },
+      {
+        "text": "Water, as needed to boil pasta",
+        "destination": "step 1 pasta boiling; the measured reserved water is drawn from this cooking water, not an additional liquid dose",
+        "allocation": "One total; any multiple-step destination shares the same pool, not another dose"
+      }
+    ],
+    "frozenUnlistedAllowances": [
+      "Pasta water for cooking not quantified; salt allowance shared across pot/sauce"
+    ]
+  },
+  "processGraph": {
+    "scope": "Exact accepted ordered method stages; complete ingredient destinations remain in the ledger and distinct variant ledgers.",
+    "nodes": [
+      {
+        "step": 1,
+        "text": "Wash the avocados under running water before cutting. Rinse fresh basil, spinach and optional tomatoes under running water; produce labeled prewashed or ready-to-eat may be used as directed. Drain the leaves. Cook pasta in a large pot of salted water until al dente according to its package. Use some of the listed salt allowance for the pot and keep the rest for the sauce. Reserve the listed pasta-water amount before draining."
+      },
+      {
+        "step": 2,
+        "text": "While pasta cooks, scoop avocado flesh into a blender. Add basil, spinach, garlic, lemon juice and some of the remaining salt allowance."
+      },
+      {
+        "step": 3,
+        "text": "Start on low, drizzle in the full olive-oil amount and blend until smooth, about 1 minute. If the blender needs help turning, add a little of the shared reserved water. Follow the actual blender instructions for warm liquids; cool any water destined for a sealed or heat-restricted blender first."
+      },
+      {
+        "step": 4,
+        "text": "Put hot drained pasta in a large bowl off the heat. Add the green sauce and toss until the noodles are coated."
+      },
+      {
+        "step": 5,
+        "text": "Add more of the same reserve a little at a time if needed, tossing after each addition. You may not need it all. Season with the remaining salt as desired and the listed black pepper."
+      },
+      {
+        "step": 6,
+        "text": "Serve immediately, offering halved cherry tomatoes, Parmesan shavings and chopped fresh basil as optional toppings."
+      }
+    ]
+  },
+  "variantLedgers": [
+    {
+      "ingredient": "Salt and herbs",
+      "alternative": "For lightly packed herbs and measured sauce salt, use 1 tsp kosher salt in the sauce at the original four-serving scale, with separate salt for pasta water and black pepper to taste. Use ½ cup each lightly packed basil and spinach.",
+      "effect": "This is a separate seasoning and herb-packing choice; it does not convert salt crystal types or tightly packed leaves. Scale these measures with the batch."
+    }
+  ],
+  "heldOptionalVariants": [],
+  "relationships": {
+    "pairsWith": ["vietnamese-grilled-chicken"],
+    "wholePairingsEvidence": "privately retained evidence",
+    "scope": "Paired current files retained and read for process/portion compatibility; no paired recipe status promotion. No actual meal file references these six slugs.",
+    "notes": "Chicken4 requires fridge marination and separate165 endpoint; avocado pasta4 is an additional starch, not the chicken marinade."
+  },
+  "ratiosYieldAndCapacity": {
+    "capacity": [
+      "Use ripe avocados that give slightly to gentle pressure. An underripe fruit is not corrected by simply blending longer.",
+      "Keep the same pasta-water reserve shared between blender and bowl at every scale. Blend in loads that fit the appliance, then combine off the heat in a roomy bowl; neither blender loads nor boiling time scale proportionally."
+    ],
+    "timing": "About 10–20 minutes active work;20–35 minutes elapsed including water heating and package pasta cooking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.",
+    "storage": "Refrigerate promptly in shallow covered containers within 2 hours (1 hour above 90°F /32°C) at 40°F /4°C or below. Use within 3 days; the color can darken. This is best freshly made. Do not leave dressed pasta at room temperature to preserve its color."
+  },
+  "scalingEvidence": [
+    {
+      "factor": 0.25,
+      "action": "scale",
+      "ingredients": [
+        "3 oz Dry Spaghetti or Fettuccine",
+        "1/2 ripe Medium Avocado",
+        "1/8 cup Fresh Basil, packed",
+        "1/8 cup Baby Spinach, packed",
+        "1/2 clove Garlic",
+        "1/2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "0.0625 cup Extra-Virgin Olive Oil",
+        "1/4 cup pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 0.5,
+      "action": "scale",
+      "ingredients": [
+        "6 oz Dry Spaghetti or Fettuccine",
+        "1 ripe Medium Avocado",
+        "1/4 cup Fresh Basil, packed",
+        "1/4 cup Baby Spinach, packed",
+        "1 clove Garlic",
+        "1 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/8 cup Extra-Virgin Olive Oil",
+        "1/2 cup pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "scale",
+      "ingredients": [
+        "12 oz Dry Spaghetti or Fettuccine",
+        "2 ripe Medium Avocados",
+        "1/2 cup Fresh Basil, packed",
+        "1/2 cup Baby Spinach, packed",
+        "2 cloves Garlic",
+        "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "1 cup pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1.5,
+      "action": "scale",
+      "ingredients": [
+        "18 oz Dry Spaghetti or Fettuccine",
+        "3 ripe Medium Avocados",
+        "3/4 cup Fresh Basil, packed",
+        "3/4 cup Baby Spinach, packed",
+        "3 cloves Garlic",
+        "3 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "3/8 cup Extra-Virgin Olive Oil",
+        "1 1/2 cups pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 2,
+      "action": "scale",
+      "ingredients": [
+        "24 oz Dry Spaghetti or Fettuccine",
+        "4 ripe Medium Avocados",
+        "1 cup Fresh Basil, packed",
+        "1 cup Baby Spinach, packed",
+        "4 cloves Garlic",
+        "4 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/2 cup Extra-Virgin Olive Oil",
+        "2 cups pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 3,
+      "action": "scale",
+      "ingredients": [
+        "36 oz Dry Spaghetti or Fettuccine",
+        "6 ripe Medium Avocados",
+        "1 1/2 cups Fresh Basil, packed",
+        "1 1/2 cups Baby Spinach, packed",
+        "6 cloves Garlic",
+        "6 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "3/4 cup Extra-Virgin Olive Oil",
+        "3 cups pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    },
+    {
+      "factor": 1,
+      "action": "reset",
+      "ingredients": [
+        "12 oz Dry Spaghetti or Fettuccine",
+        "2 ripe Medium Avocados",
+        "1/2 cup Fresh Basil, packed",
+        "1/2 cup Baby Spinach, packed",
+        "2 cloves Garlic",
+        "2 tbsp Fresh Lemon Juice (The Acid Balance)",
+        "1/4 cup Extra-Virgin Olive Oil",
+        "1 cup pasta cooking water, reserved before draining; use only as needed",
+        "Salt and Black Pepper",
+        "Cherry Tomatoes, halved, optional for serving",
+        "Parmesan Shavings, optional for serving",
+        "Fresh basil, chopped, optional for serving",
+        "Water, as needed to boil pasta"
+      ],
+      "scope": "Legacy saved approximate volume; no formula migration or measured output claim"
+    }
+  ],
+  "preservedPriorRepairs": "858 exact avocado offheat bowl and one shared reserved-water pool retained, with warm-liquid blender handling constrained by the actual appliance instructions. No Alfredo leftover-boiling claim applies to this recipe.",
+  "remainingQuestions": [
+    "Record actual avocado size, pack density and water used; no precision yield or blender model established.",
+    "Confirm how much1 tsp source kosher salt tastes with actual pasta-water salinity; no guessed gram equivalence.",
+    "Best freshly made; source allows up to3 refrigerated days with color darkening, not a guarantee against all deterioration."
+  ],
+  "independentChallenge": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "sourceEvidence": "docs/editorial-campaign/2026-10-05/pasta-fish-eleven-review.md",
+  "rootDisposition": "Complete author reviews and independent whole challenges reused, final bounded source/record corrections independently checked; root read all eleven complete current-to-final cooking diffs. Exact corrected record payloads replayed from frozen evidence. All measured ingredients and deliberate variants remain; retained original adaptations are distinguished from actual publisher versions. Native IDs and archives remain private. Physical cooking, pan/product/appliance questions and actual print preview remain untested.",
+  "productionVerification": "pending",
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "integratedValidation": {
+    "tests": 252,
+    "recipeSources": 643,
+    "authoredFormulas": 52,
+    "targetedLint": "All 11 pass; zero errors or warnings",
+    "aggregateQA": 30,
+    "builtHTML": 758,
+    "internalAnchors": 11987,
+    "missingDestinations": 0,
+    "exports": "All three exports match 643 recipes; only 11 public recipe schemas changed",
+    "stableBindings": "All 643 private bindings verified; every existing identity retained",
+    "privacy": "Public evidence, exports and built assets pass",
+    "renderedRecipes": 11,
+    "visibleMethodSteps": 73,
+    "mobileScaling": "Three representative recipes, 375px, half/double/reset ingredient arrays and yields; no overflow",
+    "cooking": "Two representatives: ingredient and step persistence after reload, normal mode on reload, reset and exit",
+    "browserConsoleErrorsOrWarnings": 0,
+    "print": "All eleven Print controls enabled; shared print styles retained and tests pass; actual print preview not inspected",
+    "compatibilityTests": "2 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged; an independently checked exact-fraction regression extends the existing formula split-allocation test, preserving its earlier assertions",
+    "kitchenTests": 0,
+    "nativeAppSynced": false
+  }
+}

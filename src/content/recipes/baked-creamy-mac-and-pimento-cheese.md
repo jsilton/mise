@@ -15,9 +15,9 @@ cuisines:
   - Southern
 role: side
 vibe: comfort
-prepTime: 15 min
-cookTime: 20 min
-totalTime: 35 min
+prepTime: About 15–20 min
+cookTime: About 25–35 min
+totalTime: About 40–55 min
 servings: '6'
 pairsWith:
   - buttermilk-baked-chicken
@@ -35,33 +35,60 @@ ingredients:
   - '4 oz Diced Pimentos, drained'
   - 1/2 cup Panko Breadcrumbs
   - 3/4 cup Freshly Grated Parmesan
-origin: United States
+  - 'Butter or oil, as needed to lightly grease the baking dish'
+  - 'Water, as needed to boil pasta'
+  - 'Water, a little as needed when reheating leftovers'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-nutrition:
-  calories: 345
-  protein: 15
-  carbs: 24
-  fat: 21.5
-  fiber: 1.5
-  sugar: 5
-  sodium: 730
 source: Adapted from Rebecca Crump
 sourceUrl: 'http://www.ezrapoundcake.com/archives/26010'
+learning:
+  focus: Control the heat before melting cheese
+  outcome: The milk sauce coats a spoon before adding cheese.
+  techniques:
+    - emulsions
+    - starch
+  before:
+    - 'The 13-by-9-inch pan is the original-batch pan, even though 8 oz dry macaroni makes a relatively shallow bake. Do not substitute a smaller pan merely to make the layer thicker.'
+    - 'For multiples, use separate original-size pans; smaller batches need an appropriately smaller pan and earlier center checks. Ingredient controls do not scale pan dimensions or baking times.'
+  checkpoints:
+    - step: 3
+      cue: The milk sauce coats a spoon before adding cheese.
+      why: Thicken the milk and flour before lowering the heat for the cheddar; cheese melting does not replace this roux stage.
+  troubleshooting:
+    - problem: Sauce is grainy or splitting
+      cause: Cheese mixture was heated too aggressively or reheated after chilling.
+      fix: 'While melting cheddar into the milk sauce, lower the heat or take the pot off the heat and stir gently. For stored leftovers, follow the reheating instructions below even if the sauce texture changes.'
+  substitutions:
+    - ingredient: Pimento and cheddar
+      alternative: 'Use the same listed amount of diced, drained roasted red pepper instead of pimento. For the Southwestern version, use green chiles in place of pimento and pepper jack in place of cheddar, keeping each listed quantity.'
+      effect: These are separate flavor choices; do not add a second dose of peppers or cheese.
+    - ingredient: Panko–Parmesan topping
+      alternative: 'For the no-topping version, omit both the panko and its entire Parmesan amount. Fine dry breadcrumbs can replace panko at the same listed volume.'
+      effect: 'The no-topping bake still needs a hot, bubbling center; it will not have the same crumb crust.'
+  storage: 'Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate.'
+  timing: 'About 25–35 minutes active work, overlapping pasta and roux preparation;40–55 minutes elapsed including baking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.'
+  sources:
+    - title: Saved Adapted from Rebecca Crump
+      url: 'http://www.ezrapoundcake.com/archives/26010'
+    - title: USDA — storing and reheating leftovers
+      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+  review:
+    status: editorial-review
+    date: '2026-10-05'
 ---
 
 ## Chef's Note
 
-This Southern staple combines pimento cheese with a classic French Mornay sauce (roux plus cheese). Shred cheddar fresh from the block - pre-shredded cheese contains cellulose that prevents smooth melting. The panko-parmesan topping adds textural contrast to the creamy pasta.
+The roux thickens the milk before the cheddar goes in. Whisk out flour lumps while adding the milk gradually, then fold in the hot pasta and bake without chilling. Keep the full panko–Parmesan topping for a crisp surface, or choose the complete no-topping option below.
 
 ## Directions
 
-1.  **Pasta:** Preheat oven to 350°F. Cook macaroni according to package directions until **al dente**. Drain and set aside.
-2.  **The Roux:** In a large skillet, melt butter over medium heat. Whisk in flour and cook for 1 minute until fragrant but not browned.
-3.  **The Sauce:** Gradually whisk in milk, salt, cayenne, and garlic powder. Cook, whisking constantly, for 3-5 minutes until the sauce thickens and coats the back of a spoon.
-4.  **Fold:** Stir in the shredded Cheddar and drained pimentos until completely melted and glossy. Remove from heat and fold in the cooked pasta.
-5.  **Bake:** Pour the mixture into a greased 9x13 baking dish.
-6.  **Topping:** Mix panko and Parmesan in a small bowl. Sprinkle evenly over the top.
-7.  **Finish:** Bake for 15-20 minutes until the edges are bubbling and the topping is golden brown.
+1. Heat the oven to 350°F. Lightly grease a 13-by-9-inch baking dish with the listed pan-greasing allowance. Bring pasta water to a boil and cook the macaroni according to its package until al dente; drain. While the pasta cooks, begin the sauce.
+2. In a large skillet with room to fold in all the cooked pasta, melt the measured butter over medium heat. Whisk in the flour and cook, whisking, about 1 minute; do not brown the roux.
+3. Gradually whisk in the milk, salt, cayenne and garlic powder. Cook, whisking constantly, about 3–5 minutes, until smooth and thick enough to coat a spoon; continue as needed rather than stopping with a thin, floury sauce.
+4. Reduce the heat and stir in all the cheddar and drained pimentos until the cheese melts and the sauce is smooth. Remove from the heat and fold in the drained pasta.
+5. Transfer the hot mixture to the greased dish; do not chill it before this bake. Mix the full panko and Parmesan amounts and spread evenly over the pasta.
+6. Bake about 15–20 minutes, until the center reaches 165°F /74°C, the pasta mixture is hot and bubbling and the topping is golden. If the topping darkens before the center is hot, shield it loosely with foil and continue checking. Serve hot.

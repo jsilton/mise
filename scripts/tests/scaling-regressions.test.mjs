@@ -130,6 +130,40 @@ for (const row of confirmed) {
             assert.match(scaled, /12 oz total in the original two-bunch batch/);
           }
         }
+      } else if (
+        (row.slug === 'chinese-steamed-fish' && row.caseId === 16) ||
+        (row.slug === 'gefilte-fish-terrine' && row.caseId === 35)
+      ) {
+        // Keep all original parser inputs and numeric oracles below unchanged.
+        // Ginger piece count scales while its original two-inch size stays fixed.
+        // Lemon zest count scales independently from the separately measured juice.
+        assert.equal(data.formula?.version, 1);
+        const ginger = row.caseId === 16;
+        const ingredient = data.formula.components
+          .find((c) => c.id === (ginger ? 'fish' : 'terrine'))
+          .ingredients.find((i) => i.id === (ginger ? 'ginger' : 'lemons'));
+        assert.deepEqual(ingredient.quantity, { amount: ginger ? 1 : 2, unit: 'count' });
+        assert.match(
+          ingredient.preparation,
+          ginger ? /original 2-inch piece/ : /zest only; measured juice separate/
+        );
+        assert.deepEqual(
+          ingredient.uses,
+          ginger
+            ? [
+                { step: 'fish', share: '1/2' },
+                { step: 'aromatics', share: '1/2' },
+              ]
+            : [{ step: 'bind', share: 1 }]
+        );
+        for (const factor of factors) {
+          const scaled = formatFormulaIngredient(ingredient, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            ginger ? [factor, 2] : [2 * factor]
+          );
+        }
+        assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
       } else if (row.slug === 'banana-nut-bread' && row.caseId === 2) {
         // Retain the original parser input and every numeric oracle below.
         // The formula keeps both the three-banana count and approximate total grams.

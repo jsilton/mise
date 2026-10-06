@@ -173,7 +173,7 @@ export function formulaDirections(formula) {
           .filter((u) => u.step === s.id)
           .map(
             (u) =>
-              `${amount(u.share) === 1 ? '' : formatQuantity(amount(u.share)) + ' of the '}${i.quantity?.unit === 'count' && amount(i.quantity.max || i.quantity.amount) > 1 ? i.plural : i.name}${i.optional ? ' (if using)' : ''}`
+              `${amount(u.share) === 1 ? '' : (typeof u.share === 'string' ? u.share : formatQuantity(amount(u.share))) + ' of the '}${i.quantity?.unit === 'count' && amount(i.quantity.max || i.quantity.amount) > 1 ? i.plural : i.name}${i.optional ? ' (if using)' : ''}`
           )
       );
       const text = s.text

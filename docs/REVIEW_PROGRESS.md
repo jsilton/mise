@@ -1,5 +1,11 @@
 # Current campaign state — October 5, 2026
 
+325 recorded complete / 318 pending across 643 sources. 80 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync. [Combined review](editorial-campaign/2026-10-05/pasta-fish-eleven.md).
+
+## Previous verified checkpoint
+
+# Current campaign state — October 5, 2026
+
 80 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 314 recorded complete / 329 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [4224e9fe](https://github.com/jsilton/mise/commit/4224e9fe99402d69949f9595c30e45bc5c85add5), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37408041493) and all 11 live pages. Zero kitchen tests; no native-app sync. [Verified release](editorial-campaign/2026-10-05/baking-eleven.md).
 
 ## Earlier acceptance checkpoint
