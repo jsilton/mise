@@ -297,8 +297,8 @@
       "title": "Anelletti Al Forno",
       "source": "Adapted from saveur.com",
       "sourceUrl": "https://www.saveur.com/recipes/anelletti-al-forno-recipe/",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_bakes_skillets_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -306,7 +306,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "96702b6535964961e5ba9ede929a83f006227ec4fd58779d1f07cd0f875d5211",
-      "plannedBatch": "stir-fry-and-pan-cooking-01"
+      "plannedBatch": "stir-fry-and-pan-cooking-01",
+      "assignment": "coverage_check",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "apple-banana-and-carrot-muffin",
@@ -437,7 +439,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_breakfast_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
@@ -454,9 +456,10 @@
       "inputSha256": "0ecd3b590bcca5addf631be4aef54c76ea4c269752732d278a163cd1e52922bb",
       "plannedBatch": "context-screening-01",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "babys-first-smash-cake",
@@ -877,7 +880,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/blistered-shishito-peppers.md",
         "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
@@ -889,10 +892,11 @@
       ],
       "inputSha256": "18d41406fa01d69f5a30070a45df1552c9e9c2b12c7156d5cf8d7cdab35b1375",
       "plannedBatch": "roast-grill-and-sear-01",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "owner": "coverage_check",
       "acceptedSourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "blueberry-baked-oatmeal",
@@ -1266,8 +1270,8 @@
       "title": "Broccolini, Chicken Sausage, and Orzo Skillet",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "http://www.thekitchn.com/recipe-broccolini-chicken-sausage-and-orzo-skillet-234135",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_bakes_skillets_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1275,7 +1279,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "e33bea43eaa4d8afc3d67df50d48d2a5adc0ff52a0eef880e97c340c156cd50f",
-      "plannedBatch": "simmer-boil-and-steam-01"
+      "plannedBatch": "simmer-boil-and-steam-01",
+      "assignment": "coverage_check",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "brown-butter-carrot-cake",
@@ -1412,8 +1418,8 @@
       "title": "Butternut Squash Fettuccine Alfredo",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-butternut-squash-fettucine-alfredo-238127",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_bakes_skillets_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -1421,7 +1427,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "85c40ed3c90277eae7f70af8a7e23dc8c9050dfe39eb1e32bbc1473793ff9e0a",
-      "plannedBatch": "baked-savory-and-breads-03"
+      "plannedBatch": "baked-savory-and-breads-03",
+      "assignment": "coverage_check",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "cantonese-fish",
@@ -1667,7 +1675,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/charred-asparagus-with-parmesan.md",
         "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
@@ -1679,10 +1687,11 @@
       ],
       "inputSha256": "63533d5e85bd40337508420d0428f2f8510750c6747caa8c67c2d3afaeba94bc",
       "plannedBatch": "roast-grill-and-sear-01",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "owner": "coverage_check",
       "acceptedSourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "charred-guacamole-with-pomegranate",
@@ -2788,8 +2797,8 @@
       "title": "Sheet Pan Gnocchi & Veggies",
       "source": "Adapted from Thekitchn.com",
       "sourceUrl": "https://www.thekitchn.com/recipe-crispy-sheet-pan-gnocchi-and-veggies-247360",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_bakes_skillets_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2797,7 +2806,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "aa4b6037daddccfe7b485bfe84be60449025270feee6ebb83714edc719dcb3cd",
-      "plannedBatch": "baked-savory-and-breads-04"
+      "plannedBatch": "baked-savory-and-breads-04",
+      "assignment": "coverage_check",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "crispy-smashed-potatoes",
@@ -2857,8 +2868,8 @@
       "title": "Slow-Cooker Mac and Cheese",
       "source": "Adapted from amandascookin.com",
       "sourceUrl": "https://amandascookin.com/crockpot-macaroni-and-cheese/",
-      "group": null,
-      "status": "queued",
+      "group": "pasta_bakes_skillets_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2866,7 +2877,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "6b3c432d55317d7d66bdd6fe9cb5ea372f85ac6a6bb41ba37650f228442fb68e",
-      "plannedBatch": "braises-and-slow-cooking-01"
+      "plannedBatch": "braises-and-slow-cooking-01",
+      "assignment": "coverage_check",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "crustless-sausage-and-spinach-quiche",
@@ -2974,8 +2987,8 @@
       "title": "Custard Macaroni and Pimento Cheese",
       "source": null,
       "sourceUrl": null,
-      "group": null,
-      "status": "queued",
+      "group": "pasta_bakes_skillets_04",
+      "status": "assigned",
       "reviewEvidence": [],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
@@ -2983,7 +2996,9 @@
         "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
       ],
       "inputSha256": "416362d4241a94ae14b9289fa672fb3560e174de81c6a3dec2a58c69f490fa05",
-      "plannedBatch": "baked-savory-and-breads-04"
+      "plannedBatch": "baked-savory-and-breads-04",
+      "assignment": "coverage_check",
+      "reviewPhase": "Whole author review in progress; no acceptance or publication"
     },
     {
       "slug": "custard-peach-ice-cream",
@@ -3182,7 +3197,7 @@
       "source": "Adapted from Iheartnaptime.net",
       "sourceUrl": "https://www.iheartnaptime.net/breakfast-popsicles/",
       "group": "cold_breakfast_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
@@ -3199,9 +3214,10 @@
       "inputSha256": "9fb94b818e56caaecb1850606e98bc4e97a3f5c2b7b4fa7178607313f39edff2",
       "plannedBatch": "cold-preparations-01",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "easy-chia-pudding",
@@ -3210,7 +3226,7 @@
       "source": "Adapted from eatingbirdfood.com",
       "sourceUrl": "https://www.eatingbirdfood.com/basic-chia-seed-pudding/",
       "group": "cold_breakfast_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
@@ -3228,9 +3244,10 @@
       "inputSha256": "39d9ee5c0ac77dc390d738bf6f081073e709db462bdbc1bb225ef8c066bf0bd9",
       "plannedBatch": "context-screening-02",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "easy-chopped-pesto-salad-with-cannellini-beans",
@@ -3815,7 +3832,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/garlic-butter-green-beans.md",
         "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
@@ -3827,10 +3844,11 @@
       ],
       "inputSha256": "9e5c0c5e1b4f487bbd070cdc9e1e10d2c2bd3f1d04ee4da327641086c698fad3",
       "plannedBatch": "context-screening-02",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "owner": "coverage_check",
       "acceptedSourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "garlic-mashed-mock-potatoes",
@@ -3955,7 +3973,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/garlicky-lemon-kale-with-carrots.md",
         "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
@@ -3968,10 +3986,11 @@
       ],
       "inputSha256": "2ea65585f70b53db5d8bd7b95d29a4fe4be6605c15ba93d4238d644d9eaa2694",
       "plannedBatch": "simmer-boil-and-steam-04",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "owner": "coverage_check",
       "acceptedSourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "gefilte-fish-terrine",
@@ -4210,7 +4229,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_breakfast_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
@@ -4227,9 +4246,10 @@
       "inputSha256": "1e90896a1a78ae007bbd3df9a92a373047434650991e2998a123f9077f673fa3",
       "plannedBatch": "cold-preparations-02",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "green-smoothie-for-kids-with-2-hidden-veggies",
@@ -5141,7 +5161,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/lemon-garlic-broccolini.md",
         "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
@@ -5153,10 +5173,11 @@
       ],
       "inputSha256": "2ae47142363dd1b5c4cad08688b69f2d828236be294238aa96756199c8f548f3",
       "plannedBatch": "context-screening-03",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "owner": "coverage_check",
       "acceptedSourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "lemon-miso-tofu-with-broccoli",
@@ -6607,7 +6628,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "cold_breakfast_01",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         {
           "path": ".mise/editorial-campaign/2026-10-05/cold_breakfast_01/manifest.json",
@@ -6624,9 +6645,10 @@
       "inputSha256": "0406d911700cf243f1149d50a7ecec8774d88a764e74cade4ad2fe6e6ae4f8d8",
       "plannedBatch": "cold-preparations-04",
       "owner": "coverage_check",
-      "reviewPhase": "Frozen author proposal; independent whole review pending",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "acceptedSourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "roasted-asparagus",
@@ -7098,7 +7120,7 @@
       "source": null,
       "sourceUrl": null,
       "group": "vegetables_pan_02",
-      "status": "accepted",
+      "status": "production-verified",
       "reviewEvidence": [
         "docs/reviews/sauteed-mushrooms-with-thyme.md",
         "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md"
@@ -7111,10 +7133,11 @@
       ],
       "inputSha256": "a19d51ba23941041e67fb2ec372f3947fbdc3c6786e4e9e4a5b671f2d3396409",
       "plannedBatch": "context-screening-04",
-      "reviewPhase": "Frozen author proposal; independent and root completion remain separate",
+      "reviewPhase": "Complete editorial review accepted, implemented and verified live",
       "owner": "coverage_check",
       "acceptedSourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699",
-      "productionVerification": "pending"
+      "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
+      "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
     },
     {
       "slug": "savory-oatmeal-with-egg",
@@ -9860,12 +9883,11 @@
   ],
   "routingLimitations": "Provisional routing uses current metadata to reduce coordination work. Reviewer must confirm actual process from complete recipe before starting; tags never establish method applicability or a recipe defect.",
   "statusCounts": {
-    "production-verified": 124,
+    "production-verified": 135,
     "held": 16,
     "proposed": 64,
-    "queued": 176,
-    "accepted": 11,
-    "assigned": 16,
+    "assigned": 22,
+    "queued": 170,
     "held-awaiting-evidence": 2
   }
 }

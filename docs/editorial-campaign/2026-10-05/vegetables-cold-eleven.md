@@ -21,3 +21,9 @@ Six vegetable sides and five cold breakfast recipes received complete author rev
 ## Locally validated checkpoint
 
 All 252 tests, 68 authored formula checks, 643-recipe validation, 11 targeted lints and 30 aggregate QA checks pass. Targeted lint: All 11 pass; zero errors or warnings All three exports match 643 sources; private bindings, public privacy and 12,094 built anchors pass. The other 632 recipe sources/export schemas and unrelated review credit remain unchanged. 1 compatibility tests were independently challenged; all 73 parser fixture inputs/oracles remain unchanged. Every other test remains unchanged. All 11 complete rendered pages and 60 method steps match. Three 375-pixel representative pages pass half/double/reset scaling; two pass cooking checkmark persistence, reload, reset and exit. No browser warnings or errors. Print controls and shared styles are preserved; actual print preview remains unverified. No physical kitchen testing or native-app sync. Exact remote release, CI/deployment and live-page verification remain pending. [Preservation evidence](vegetables-cold-eleven-preservation.json).
+
+## Verified publication
+
+135 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 369 recorded complete / 274 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [10f6d491](https://github.com/jsilton/mise/commit/10f6d4912699427693e5494d728ba72b8697a970), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37417741193) and all 11 live pages. Zero kitchen tests; no native-app sync.
+
+[Exact production evidence](vegetables-cold-eleven-production.json).

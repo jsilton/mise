@@ -1,6 +1,6 @@
 {
   "slug": "avocado-toast",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
   "inputSha256": "0ecd3b590bcca5addf631be4aef54c76ea4c269752732d278a163cd1e52922bb",
   "acceptedSourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
@@ -381,7 +381,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
   "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -405,5 +405,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+  "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970"
 }

@@ -27,7 +27,7 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "124 campaign versions are verified live; 11 further versions are accepted locally and await exact production verification. The 42 accelerated targeted repairs remain a separate overlapping scope. Zero kitchen tests; no native-app sync."
+    "productionReconciliation": "135 new complete editorial versions from the original 409-source campaign are verified live. Coverage is 369 recorded complete / 274 pending across 643 sources, including 234 earlier complete reviews. The 42 accelerated targeted repairs remain a separate overlapping scope. This release’s 11 accepted source versions match exact remote commit [10f6d491](https://github.com/jsilton/mise/commit/10f6d4912699427693e5494d728ba72b8697a970), its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37417741193) and all 11 live pages. Zero kitchen tests; no native-app sync."
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -792,17 +792,21 @@
         "record": "docs/reviews/avocado-toast.md",
         "acceptedSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/avocado-toast.json",
         "sourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual toaster cycle and bread thickness vary.",
@@ -2030,17 +2034,21 @@
         "record": "docs/reviews/blistered-shishito-peppers.md",
         "acceptedSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/blistered-shishito-peppers.json",
         "sourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual skillet diameter and number of rounds are unknown.",
@@ -3904,17 +3912,21 @@
         "record": "docs/reviews/charred-asparagus-with-parmesan.md",
         "acceptedSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/charred-asparagus-with-parmesan.json",
         "sourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual broiler clearance, power and pan rating require appliance verification.",
@@ -9053,17 +9065,21 @@
         "record": "docs/reviews/easy-breakfast-yogurt-popsicles.md",
         "acceptedSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-breakfast-yogurt-popsicles.json",
         "sourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual mold volume, filled count and expansion gap remain unknown.",
@@ -9095,17 +9111,21 @@
         "record": "docs/reviews/easy-chia-pudding.md",
         "acceptedSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/easy-chia-pudding.json",
         "sourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Chosen milk product, chia freshness and final thickness are untested.",
@@ -10989,17 +11009,21 @@
         "record": "docs/reviews/garlic-butter-green-beans.md",
         "acceptedSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/garlic-butter-green-beans.json",
         "sourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Direct raw-bean route with this full butter amount requires kitchen checking for butter browning versus bean tenderness.",
@@ -11475,17 +11499,21 @@
         "record": "docs/reviews/garlicky-lemon-kale-with-carrots.md",
         "acceptedSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/garlicky-lemon-kale-with-carrots.json",
         "sourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual kale bunch size and carrot thickness determine capacity and cook time.",
@@ -12301,17 +12329,21 @@
         "record": "docs/reviews/greek-yogurt-bowl.md",
         "acceptedSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/greek-yogurt-bowl.json",
         "sourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Granola composition and gluten-free certification are product-specific.",
@@ -15548,17 +15580,21 @@
         "record": "docs/reviews/lemon-garlic-broccolini.md",
         "acceptedSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/lemon-garlic-broccolini.json",
         "sourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual broccolini stem thickness and pan capacity need kitchen timing checks.",
@@ -20949,17 +20985,21 @@
         "record": "docs/reviews/ricotta-toast-with-honey.md",
         "acceptedSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/ricotta-toast-with-honey.json",
         "sourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Ricotta curd size and actual fork-stirring texture need kitchen observation.",
@@ -22149,17 +22189,21 @@
         "record": "docs/reviews/sauteed-mushrooms-with-thyme.md",
         "acceptedSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699",
         "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "10f6d4912699427693e5494d728ba72b8697a970"
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
       "acceptedChange": {
-        "status": "accepted locally; implementation pending",
+        "status": "implemented and verified live",
         "record": "docs/reviews/sauteed-mushrooms-with-thyme.json",
         "sourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699"
       },
-      "implementationCommits": [],
+      "implementationCommits": ["10f6d4912699427693e5494d728ba72b8697a970"],
       "productionVerification": {
-        "status": "pending; existing live version does not certify this accepted version"
+        "status": "verified live",
+        "sourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699",
+        "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+        "evidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json"
       },
       "remainingQuestions": [
         "Actual skillet size, number of batches and mixed mushroom yield need kitchen measurements.",

@@ -1,6 +1,6 @@
 {
   "slug": "garlicky-lemon-kale-with-carrots",
-  "status": "accepted complete editorial review; implementation and production pending",
+  "status": "complete editorial review; implemented and verified live",
   "inputCommit": "6a6bcd06f2c244ab80cd9dfea0ba877ac97997a0",
   "inputSha256": "2ea65585f70b53db5d8bd7b95d29a4fe4be6605c15ba93d4238d644d9eaa2694",
   "acceptedSourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57",
@@ -546,7 +546,7 @@
   "independentChallenge": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
   "sourceEvidence": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-review.md",
   "rootDisposition": "Root accepts the eleven complete current/final versions. Every measured base ingredient, deliberate richness, source link and distinct supported variant is retained. Shishito’s earlier user-rejected formula is kept as historical evidence and is not restored as an accepted variation. Granola and linked meals remain separately unapproved; actual kitchen yields, appliance capacities and timing remain untested.",
-  "productionVerification": "pending",
+  "productionVerification": "docs/editorial-campaign/2026-10-05/vegetables-cold-eleven-production.json",
   "kitchenTested": false,
   "nativeAppSynced": false,
   "integratedValidation": {
@@ -570,5 +570,7 @@
     "compatibilityTests": "1 tests updated with independent challenge; all 73 original parser fixture inputs/oracles and all other tests unchanged",
     "kitchenTests": 0,
     "nativeAppSynced": false
-  }
+  },
+  "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+  "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970"
 }

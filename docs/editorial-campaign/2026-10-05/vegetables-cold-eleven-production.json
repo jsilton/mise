@@ -1,0 +1,201 @@
+{
+  "status": "Verified live complete editorial versions",
+  "releaseCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+  "implementationCommit": "10f6d4912699427693e5494d728ba72b8697a970",
+  "deploymentRun": "https://github.com/jsilton/mise/actions/runs/37417741193",
+  "ci": {
+    "headSha": "10f6d4912699427693e5494d728ba72b8697a970",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "remote": "10f6d4912699427693e5494d728ba72b8697a970",
+  "rendered": [
+    {
+      "slug": "blistered-shishito-peppers",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 4,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "charred-asparagus-with-parmesan",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "garlic-butter-green-beans",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "garlicky-lemon-kale-with-carrots",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 7,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "lemon-garlic-broccolini",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "sauteed-mushrooms-with-thyme",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "avocado-toast",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "ricotta-toast-with-honey",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "greek-yogurt-bowl",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 5,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "easy-breakfast-yogurt-popsicles",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    },
+    {
+      "slug": "easy-chia-pudding",
+      "titleMatches": true,
+      "ingredientsMatch": true,
+      "methodsMatch": true,
+      "schemaMatches": true,
+      "fullMainMatches": true,
+      "methodCount": 6,
+      "noOverflow": true,
+      "printEnabled": true
+    }
+  ],
+  "verifiedDate": "2026-10-06T05:20:00.099Z",
+  "acceptedRecipeSources": [
+    {
+      "slug": "blistered-shishito-peppers",
+      "acceptedSourceSha256": "4b68616e9346aa2e4def10b7d3e9d09631e250c9a6ad97ac63b019e6a8f67388"
+    },
+    {
+      "slug": "charred-asparagus-with-parmesan",
+      "acceptedSourceSha256": "fdbbf797df4dbe78faa9e12539f9b5840321c36325fa756e791e7e301b1bc7fb"
+    },
+    {
+      "slug": "garlic-butter-green-beans",
+      "acceptedSourceSha256": "9fbf1ef4c28b4a8abdf9054c136a989864930d7b444c322e3494f4d01aeda8b2"
+    },
+    {
+      "slug": "garlicky-lemon-kale-with-carrots",
+      "acceptedSourceSha256": "bd5ea65c2c4ec5188bacc41ce5e995f976454f54bc975122be3f82023f205d57"
+    },
+    {
+      "slug": "lemon-garlic-broccolini",
+      "acceptedSourceSha256": "62b6c6a700999780ab5f4dc77f0a9eb685d42e47ed0744d51297392d0adb9cd5"
+    },
+    {
+      "slug": "sauteed-mushrooms-with-thyme",
+      "acceptedSourceSha256": "5f836ff78a1b82067850f3a28debb35610d7e00294465a1908d9e96e6b2fb699"
+    },
+    {
+      "slug": "avocado-toast",
+      "acceptedSourceSha256": "ad0fb1e4a791debfe43b057b1498a18e537599902d32f35110b1f7b7e6c15f26"
+    },
+    {
+      "slug": "ricotta-toast-with-honey",
+      "acceptedSourceSha256": "6afc19f1d8ac0db443aa497d32cff57a89bc75860c921a678766bf631037d85a"
+    },
+    {
+      "slug": "greek-yogurt-bowl",
+      "acceptedSourceSha256": "f20f536247d2135f5fbf192c8defdc94440be750729fcc10e8720afbece301a4"
+    },
+    {
+      "slug": "easy-breakfast-yogurt-popsicles",
+      "acceptedSourceSha256": "dfc137d1d80223bb692ea5025eace1e7baaf2ef8edff9a08c5911501bd55e3dd"
+    },
+    {
+      "slug": "easy-chia-pudding",
+      "acceptedSourceSha256": "81138469087225dab807355de7281a95151a922f18cf94123434f59434db6846"
+    }
+  ],
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "limitations": [
+    "Actual physical cooking untested",
+    "Actual print preview not inspected; controls and shared styles verified",
+    "Production content/rendering checked on all 11; mobile scaling/cooking interactions sampled on three/two locally"
+  ]
+}
