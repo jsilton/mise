@@ -25,7 +25,7 @@ servings: 4 portions
 pairsWith:
   - spanish-rice-chorizo
   - steamed-mussels-chorizo
-  - weeknight-paella
+  - paella-valenciana
 ingredients:
   - '--- Ingredients ---'
   - 2 tbsp Olive oil

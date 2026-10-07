@@ -38,3 +38,43 @@ test('external recipe provenance may retain an alias while stale local reference
   ])
     assert.equal(containsRecipeSlugReference(text, slug, site), true, text);
 });
+
+test('a same-slug meal URL is not a reference to the retired recipe', () => {
+  const slug = 'weeknight-paella';
+  const site = 'https://jordansilton.com/mise/';
+  for (const text of [
+    `<loc>https://jordansilton.com/mise/meals/${slug}/</loc>`,
+    `[Dinner](/mise/meals/${slug}/?scale=2#strategy)`,
+    `[Dinner](/meals/${slug})`,
+    `[Dinner](../meals/${slug})`,
+    `[Dinner](meals/${slug})`,
+    `[Dinner](//jordansilton.com/mise/meals/${slug}/)`,
+    `[Dinner](/mise/meals/another-meal/?recipe=${slug}#${slug})`,
+  ])
+    assert.equal(containsRecipeSlugReference(text, slug, site), false, text);
+});
+
+test('meal URLs cannot hide bare slugs or actual recipe URLs', () => {
+  const slug = 'weeknight-paella';
+  const site = 'https://jordansilton.com/mise/';
+  const meal = `<loc>https://jordansilton.com/mise/meals/${slug}/</loc>`;
+  for (const reference of [
+    `main: '${slug}'`,
+    `pairsWith: [${slug}]`,
+    `<loc>https://jordansilton.com/mise/recipes/${slug}/</loc>`,
+    `[Recipe](/recipes/${slug}?scale=2#directions)`,
+    `[Recipe](../recipes/${slug})`,
+    `[Recipe](recipes/${slug})`,
+    `[Recipe](/mise/meals/../recipes/${slug}/)`,
+    `[Recipe](/mise/recipes/%77eeknight-paella/)`,
+  ])
+    assert.equal(containsRecipeSlugReference(`${meal}\n${reference}`, slug, site), true, reference);
+  assert.equal(
+    containsRecipeSlugReference(
+      `${meal}\n[Source](https://example.com/recipes/${slug}/)`,
+      slug,
+      site
+    ),
+    false
+  );
+});

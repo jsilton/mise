@@ -5,16 +5,22 @@ export function containsSlugToken(text, slug) {
   return new RegExp(`(^|[^a-zA-Z0-9_-])${escaped}(?![a-zA-Z0-9_-])`).test(text);
 }
 
-// A publisher's source URL can legitimately retain a recipe's former name.
-// Exclude those URLs while still checking local slugs and same-host URLs.
+// A publisher's source URL or a meal URL can legitimately share a recipe slug.
+// Check the recipe namespace in URLs, and keep bare tokens for YAML references.
 export function containsRecipeSlugReference(text, slug, siteUrl) {
   const hostname = new URL(siteUrl).hostname;
-  const localContent = text.replace(/https?:\/\/[^\s<>"')\]]+/g, (url) => {
-    try {
-      return new URL(url).hostname === hostname ? url : '';
-    } catch {
-      return url;
+  const localContent = text.replace(
+    /https?:\/\/[^\s<>"')\]]+|\/\/[^\s<>"')\]]+|(?:\.{1,2}\/|\/)[^\s<>"')\]]+|(?<![a-zA-Z0-9_-])(?:recipes|meals)\/[^\s<>"')\]]+/g,
+    (url) => {
+      try {
+        const parsed = new URL(url, siteUrl);
+        if (parsed.hostname !== hostname) return '';
+        const recipe = parsed.pathname.match(/(?:^|\/)recipes\/([^/]+)(?:\/|$)/);
+        return recipe ? decodeURIComponent(recipe[1]) : '';
+      } catch {
+        return url;
+      }
     }
-  });
+  );
   return containsSlugToken(localContent, slug);
 }
