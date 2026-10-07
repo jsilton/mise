@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "weeknight-paella",
   "title": "Weeknight Paella",
-  "status": "retired-by-user; publication pending",
+  "status": "retired-by-user; production verified; no complete editorial approval",
   "retirement": {
     "title": "Weeknight Paella",
     "date": "2026-10-06",
@@ -47,5 +47,16 @@
     "sourceReassessment": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json",
     "disposition": "Historical questions retained; user retirement does not resolve or approve the old formula"
   },
-  "newClassicIdentityStatus": "Paella Valenciana independently accepted and new identity registered once; publication pending"
+  "newClassicIdentityStatus": "Paella Valenciana independently accepted, distinct new identity registered once, and exact implementation/CI/live release verified",
+  "implementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+  "productionVerification": {
+    "status": "user retirement production verified",
+    "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/weeknight-paella/",
+    "verification": "Exact remote source deletion and notice, successful build/privacy/deployment, live noindex notice without Recipe JSON-LD or scaler; active collection and exports exclude it. Same-slug meal remains available.",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

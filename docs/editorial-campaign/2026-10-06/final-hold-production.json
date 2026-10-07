@@ -1,0 +1,425 @@
+{
+  "date": "2026-10-06",
+  "verifiedAtUtc": "2026-10-07T00:51:04.319Z",
+  "status": "production verified",
+  "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
+  "exactRemoteSourceReleaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+  "implementationCommits": [
+    {
+      "commit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+      "message": "Preserve Craig’s exact tarragon-potato original at user request"
+    },
+    {
+      "commit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "message": "Resolve butter-based family baking and quiche formulas"
+    },
+    {
+      "commit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "message": "Resolve measured family dishes and brisket dinner dependencies"
+    },
+    {
+      "commit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "message": "Resolve noodles, dumplings and Golden Veil with complete allocations"
+    },
+    {
+      "commit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "message": "Replace retired weeknight paella with distinct classic Valenciana"
+    },
+    {
+      "commit": "bead5a8a707c16290792200d3700b3a850186d24",
+      "message": "Reconcile complete editorial coverage and verified release gates"
+    }
+  ],
+  "ci": {
+    "url": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "headSha": "bead5a8a707c16290792200d3700b3a850186d24",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-07T00:48:15Z"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-07T00:48:30Z"
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "slug": "grandmommys-pound-cake",
+      "sourceSha256": "b82c3d51305fefebde4b309b4dbb486f2cf3fe01e10eaadd7cd748aa77479c0e",
+      "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "grandmommys-pecan-pie",
+      "sourceSha256": "1e56c4832977abb791c8d69152eaf3d9e1748f86366dcddf50635777d50f0dc7",
+      "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "chef-krigers-recipe-shabbat-brisket",
+      "sourceSha256": "4e57522842472280f0b08fbb2210d3416fe1e8b325f6fc2c7e582c0a6e560a3f",
+      "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "nana-ruths-applesauce",
+      "sourceSha256": "2a75e3b4c0e17e59f1d9529c4385f0ee8912099a5d21dffe59de2d04a57c809f",
+      "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "mandarinpineapple-organge-salad",
+      "sourceSha256": "0932ae77f59f3bd2936451e9f3a1280bd50f1076568290c89fe20d9ec7c223b6",
+      "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "strawberry-congealed-salad",
+      "sourceSha256": "6edc97110a3e870cda0a8e684c831dbdf467e84461468c578f702ba178678f99",
+      "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "japanese-beef-rice-bowl-gyudon",
+      "sourceSha256": "114e2ca7bc2492ec199955f9aa6f9e69b15af6c1ca9c2c2e6fc9d0eed46ee764",
+      "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "japchae-korean-glass-noodle-stir-fry",
+      "sourceSha256": "9072d7a7403d462fca1dec8f7bd8c1872b5b6bd8528e78d43e9eda73fd3a587e",
+      "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "boston-style-peking-ravioli",
+      "sourceSha256": "80e2b12db5fbd9f46163045fea76bfebf56d1d65283a060219a0040739ab6047",
+      "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "dan-dan-noodles",
+      "sourceSha256": "4210b47e739875567c11c5703afe97ca846815f048b69e1c0899a195e1251d71",
+      "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "golden-veil",
+      "sourceSha256": "79476272bfaea0ac2bfc500ce29383565c1d9ed7360a8aeb5d3cffe03c9148d0",
+      "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "crustless-spinach-quiche",
+      "sourceSha256": "ff9a9634594efb77658aa7f18070ee283f943a316e202d435e4fe5742c2febe4",
+      "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "spinach-and-mushroom-quiche",
+      "sourceSha256": "565aa357c98b240dbdd6665733e650053e211a20e381ab5e901fad72932bfe8a",
+      "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
+      "sourceSha256": "99dffdabdd7dea8ba204ea27ff9b8417a205f41e3cdc7f84156f516d62697f26",
+      "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "completeEditorialReview": true
+    },
+    {
+      "slug": "paella-valenciana",
+      "sourceSha256": "d5295343e8c3efd278da36504376fa5007d83bef7e65ba789b0b07a14b87b1f8",
+      "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "completeEditorialReview": true
+    }
+  ],
+  "preservations": [
+    {
+      "slug": "tarragon-potatoes",
+      "sourceSha256": "cea9295841ffaf07d80e120c9d465f62ada47878f978090d5eb49b7c4e037091",
+      "sourceCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+      "completeEditorialReview": false
+    }
+  ],
+  "retirement": {
+    "slug": "weeknight-paella",
+    "sourceDeletionCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+    "exactOriginalRetainedPrivately": true,
+    "existingBindingRetained": true,
+    "completeEditorialReview": false,
+    "liveNoticeNoindex": true,
+    "liveRecipeSchemaAbsent": true,
+    "replacementAlias": null
+  },
+  "linkedMeals": [
+    {
+      "slug": "brisket-dinner",
+      "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "completeMealReviewGranted": false,
+      "dependencyCorrectionVerified": true
+    },
+    {
+      "slug": "dan-dan-noodle-night",
+      "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "completeMealReviewGranted": false,
+      "dependencyCorrectionVerified": true
+    },
+    {
+      "slug": "weeknight-paella",
+      "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "completeMealReviewGranted": false,
+      "dependencyCorrectionVerified": true
+    }
+  ],
+  "browser": {
+    "type": "Codex internal browser",
+    "pages": [
+      {
+        "url": "https://jordansilton.com/mise/recipes/grandmommys-pound-cake/",
+        "renderedMainCharacters": 5879,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/grandmommys-pecan-pie/",
+        "renderedMainCharacters": 5392,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/chef-krigers-recipe-shabbat-brisket/",
+        "renderedMainCharacters": 5545,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/nana-ruths-applesauce/",
+        "renderedMainCharacters": 4334,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/mandarinpineapple-organge-salad/",
+        "renderedMainCharacters": 4666,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/strawberry-congealed-salad/",
+        "renderedMainCharacters": 7133,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/japanese-beef-rice-bowl-gyudon/",
+        "renderedMainCharacters": 5046,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/japchae-korean-glass-noodle-stir-fry/",
+        "renderedMainCharacters": 8804,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/boston-style-peking-ravioli/",
+        "renderedMainCharacters": 10049,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/dan-dan-noodles/",
+        "renderedMainCharacters": 8076,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/golden-veil/",
+        "renderedMainCharacters": 5290,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/crustless-spinach-quiche/",
+        "renderedMainCharacters": 5143,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/spinach-and-mushroom-quiche/",
+        "renderedMainCharacters": 9954,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/chocolate-bread-pudding-with-vanilla-ice-cream/",
+        "renderedMainCharacters": 6636,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/paella-valenciana/",
+        "renderedMainCharacters": 8470,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/tarragon-potatoes/",
+        "renderedMainCharacters": 669,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/smoky-spanish-rice-and-chickpeas/",
+        "renderedMainCharacters": 6476,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/recipes/weeknight-paella/",
+        "renderedMainCharacters": 100,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/meals/brisket-dinner/",
+        "renderedMainCharacters": 3389,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/meals/dan-dan-noodle-night/",
+        "renderedMainCharacters": 3083,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      },
+      {
+        "url": "https://jordansilton.com/mise/meals/weeknight-paella/",
+        "renderedMainCharacters": 2702,
+        "wholeMainTextMatch": true,
+        "ingredientLabelsMatch": true,
+        "recipeJsonLdMatch": true,
+        "linksMatch": true,
+        "robotsMatch": true,
+        "desktopHorizontalOverflow": false
+      }
+    ],
+    "affectedPageCount": 21,
+    "liveInteractions": {
+      "puddingDoubleAndReset": "PASS; 6 eggs -> 12 eggs -> 6 eggs; original operating instructions retained",
+      "cookMode": "PASS; nine steps available and exit restored",
+      "collectionMembership": "New paella listed; retired recipe excluded;649 food listings retain existing exclusion of two craft sources"
+    },
+    "mobileRenderingVerified": false,
+    "printedPaginationVerified": false
+  },
+  "coverage": {
+    "activeSources": 651,
+    "completeEditorial": 650,
+    "preservedUnreviewed": 1,
+    "activeHolds": 0,
+    "userRetirements": 3,
+    "original409": {
+      "productionVerifiedEditorial": 405,
+      "userRetirements": 3,
+      "preservedOriginal": 1
+    },
+    "newOctober6Recipes": {
+      "count": 11,
+      "productionVerified": 11
+    }
+  },
+  "localValidation": "docs/editorial-campaign/2026-10-06/final-hold-validation.json",
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

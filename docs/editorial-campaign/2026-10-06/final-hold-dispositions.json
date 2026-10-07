@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "Accepted and integrated locally; publication pending",
+  "status": "Implemented and production verified",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "recipes": [
     {
@@ -10,7 +10,18 @@
       "sourceSha256": "b82c3d51305fefebde4b309b4dbb486f2cf3fe01e10eaadd7cd748aa77479c0e",
       "review": "docs/reviews/grandmommys-pound-cake.json",
       "peerEvidenceSha256": "9f41a1064526b069a350f96956f659517cd4b8a0f0c97be8f479be4dc8463ac7",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/grandmommys-pound-cake/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "grandmommys-pecan-pie",
@@ -19,7 +30,18 @@
       "sourceSha256": "1e56c4832977abb791c8d69152eaf3d9e1748f86366dcddf50635777d50f0dc7",
       "review": "docs/reviews/grandmommys-pecan-pie.json",
       "peerEvidenceSha256": "9f41a1064526b069a350f96956f659517cd4b8a0f0c97be8f479be4dc8463ac7",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/grandmommys-pecan-pie/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "chef-krigers-recipe-shabbat-brisket",
@@ -28,7 +50,18 @@
       "sourceSha256": "4e57522842472280f0b08fbb2210d3416fe1e8b325f6fc2c7e582c0a6e560a3f",
       "review": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
       "peerEvidenceSha256": "15b1661493fd22dba05dff000c415c15ac223686a6e5a48c8d426e94dd3f1aa8",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/chef-krigers-recipe-shabbat-brisket/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "nana-ruths-applesauce",
@@ -37,7 +70,18 @@
       "sourceSha256": "2a75e3b4c0e17e59f1d9529c4385f0ee8912099a5d21dffe59de2d04a57c809f",
       "review": "docs/reviews/nana-ruths-applesauce.json",
       "peerEvidenceSha256": "15b1661493fd22dba05dff000c415c15ac223686a6e5a48c8d426e94dd3f1aa8",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/nana-ruths-applesauce/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "mandarinpineapple-organge-salad",
@@ -46,7 +90,18 @@
       "sourceSha256": "0932ae77f59f3bd2936451e9f3a1280bd50f1076568290c89fe20d9ec7c223b6",
       "review": "docs/reviews/mandarinpineapple-organge-salad.json",
       "peerEvidenceSha256": "15b1661493fd22dba05dff000c415c15ac223686a6e5a48c8d426e94dd3f1aa8",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/mandarinpineapple-organge-salad/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "strawberry-congealed-salad",
@@ -55,7 +110,18 @@
       "sourceSha256": "6edc97110a3e870cda0a8e684c831dbdf467e84461468c578f702ba178678f99",
       "review": "docs/reviews/strawberry-congealed-salad.json",
       "peerEvidenceSha256": "15b1661493fd22dba05dff000c415c15ac223686a6e5a48c8d426e94dd3f1aa8",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/strawberry-congealed-salad/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "japanese-beef-rice-bowl-gyudon",
@@ -64,7 +130,18 @@
       "sourceSha256": "114e2ca7bc2492ec199955f9aa6f9e69b15af6c1ca9c2c2e6fc9d0eed46ee764",
       "review": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
       "peerEvidenceSha256": "bc8a6c6e5ef61e522997563aea4a1602923cd01488fd6b976485368bfd9cc714",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/japanese-beef-rice-bowl-gyudon/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "japchae-korean-glass-noodle-stir-fry",
@@ -73,7 +150,18 @@
       "sourceSha256": "9072d7a7403d462fca1dec8f7bd8c1872b5b6bd8528e78d43e9eda73fd3a587e",
       "review": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
       "peerEvidenceSha256": "bc8a6c6e5ef61e522997563aea4a1602923cd01488fd6b976485368bfd9cc714",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/japchae-korean-glass-noodle-stir-fry/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "boston-style-peking-ravioli",
@@ -82,7 +170,18 @@
       "sourceSha256": "80e2b12db5fbd9f46163045fea76bfebf56d1d65283a060219a0040739ab6047",
       "review": "docs/reviews/boston-style-peking-ravioli.json",
       "peerEvidenceSha256": "bc8a6c6e5ef61e522997563aea4a1602923cd01488fd6b976485368bfd9cc714",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/boston-style-peking-ravioli/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "dan-dan-noodles",
@@ -91,7 +190,18 @@
       "sourceSha256": "4210b47e739875567c11c5703afe97ca846815f048b69e1c0899a195e1251d71",
       "review": "docs/reviews/dan-dan-noodles.json",
       "peerEvidenceSha256": "bc8a6c6e5ef61e522997563aea4a1602923cd01488fd6b976485368bfd9cc714",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/dan-dan-noodles/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "golden-veil",
@@ -100,7 +210,18 @@
       "sourceSha256": "79476272bfaea0ac2bfc500ce29383565c1d9ed7360a8aeb5d3cffe03c9148d0",
       "review": "docs/reviews/golden-veil.json",
       "peerEvidenceSha256": "f06b6e6c71ff561923ead1d49aebac953d5e778b1d11becbbc550240362f4d8e",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/golden-veil/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "crustless-spinach-quiche",
@@ -109,7 +230,18 @@
       "sourceSha256": "ff9a9634594efb77658aa7f18070ee283f943a316e202d435e4fe5742c2febe4",
       "review": "docs/reviews/crustless-spinach-quiche.json",
       "peerEvidenceSha256": "c8abdaaf7d1348fde5e61d881f96f729eec81f18bd965d6e259464383470e3c6",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/crustless-spinach-quiche/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "spinach-and-mushroom-quiche",
@@ -118,7 +250,18 @@
       "sourceSha256": "565aa357c98b240dbdd6665733e650053e211a20e381ab5e901fad72932bfe8a",
       "review": "docs/reviews/spinach-and-mushroom-quiche.json",
       "peerEvidenceSha256": "c8abdaaf7d1348fde5e61d881f96f729eec81f18bd965d6e259464383470e3c6",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/spinach-and-mushroom-quiche/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     },
     {
       "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
@@ -127,7 +270,18 @@
       "sourceSha256": "99dffdabdd7dea8ba204ea27ff9b8417a205f41e3cdc7f84156f516d62697f26",
       "review": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
       "peerEvidenceSha256": "c8abdaaf7d1348fde5e61d881f96f729eec81f18bd965d6e259464383470e3c6",
-      "existingIdentityPreserved": true
+      "existingIdentityPreserved": true,
+      "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/chocolate-bread-pudding-with-vanilla-ice-cream/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     }
   ],
   "preservations": [
@@ -138,7 +292,18 @@
       "review": "docs/reviews/tarragon-potatoes.json",
       "peerEvidenceSha256": "0a19e83f47d9a2f0f398509577a7a6d25549dedcb297e741ffde66ca277d329e",
       "existingIdentityPreserved": true,
-      "completeEditorialReviewGranted": false
+      "completeEditorialReviewGranted": false,
+      "implementationCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/tarragon-potatoes/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     }
   ],
   "retirements": [
@@ -148,7 +313,18 @@
       "lastSourceSha256": "be3af8ab0cd28cc3bdfcd88537a1fd2a5e3daadbac6b5b368271e763cbb4b0d9",
       "review": "docs/reviews/weeknight-paella.json",
       "existingPrivateIdentityPreserved": true,
-      "completeEditorialReviewGranted": false
+      "completeEditorialReviewGranted": false,
+      "implementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "productionVerification": {
+        "status": "user retirement production verified",
+        "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/weeknight-paella/",
+        "verification": "Exact remote source deletion and notice, successful build/privacy/deployment, live noindex notice without Recipe JSON-LD or scaler; active collection and exports exclude it. Same-slug meal remains available.",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     }
   ],
   "newRecipes": [
@@ -159,7 +335,18 @@
       "sourceSha256": "d5295343e8c3efd278da36504376fa5007d83bef7e65ba789b0b07a14b87b1f8",
       "review": "docs/reviews/paella-valenciana.json",
       "peerEvidenceSha256": "c8abdaaf7d1348fde5e61d881f96f729eec81f18bd965d6e259464383470e3c6",
-      "newIdentityRegisteredOnce": true
+      "newIdentityRegisteredOnce": true,
+      "implementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "productionVerification": {
+        "status": "production verified",
+        "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/paella-valenciana/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
+      }
     }
   ],
   "coverage": {
@@ -172,8 +359,8 @@
   },
   "originalCampaign": {
     "scope": 409,
-    "productionVerified": 391,
-    "acceptedPendingPublication": 14,
+    "productionVerified": 405,
+    "acceptedPendingPublication": 0,
     "retiredByUser": 3,
     "originalPreservedByUser": 1,
     "activeHolds": 0
@@ -181,5 +368,53 @@
   "sourceOriginalsRetainedPrivately": true,
   "existingIdentitiesAndBindingsPreserved": true,
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "meals": [
+    {
+      "slug": "brisket-dinner",
+      "sourcePath": "src/content/meals/brisket-dinner.md",
+      "sourceSha256": "d138842184a84fa49440d548ab1ec599d4e91e6b723275a777c9b37309cecd0b",
+      "review": "docs/editorial-campaign/2026-10-06/linked-meal-dependencies.json",
+      "completeMealEditorialGranted": false,
+      "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "productionVerification": {
+        "status": "dependency corrections production verified; no complete-meal review promotion",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/meals/brisket-dinner/",
+        "wholeMainAndLinksMatch": true
+      }
+    },
+    {
+      "slug": "dan-dan-noodle-night",
+      "sourcePath": "src/content/meals/dan-dan-noodle-night.md",
+      "sourceSha256": "ca94bb426a87fcebfdb346ea1661d538d9b3b8f12eb061d566df4af23a325c0f",
+      "review": "docs/editorial-campaign/2026-10-06/linked-meal-dependencies.json",
+      "completeMealEditorialGranted": false,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "dependency corrections production verified; no complete-meal review promotion",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/meals/dan-dan-noodle-night/",
+        "wholeMainAndLinksMatch": true
+      }
+    },
+    {
+      "slug": "weeknight-paella",
+      "sourcePath": "src/content/meals/weeknight-paella.md",
+      "sourceSha256": "616d0942774b7a38b0dbb0ba58fe932d5440281bacdec75c28347540100acf98",
+      "review": "docs/editorial-campaign/2026-10-06/linked-meal-dependencies.json",
+      "completeMealEditorialGranted": false,
+      "implementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "productionVerification": {
+        "status": "dependency corrections production verified; no complete-meal review promotion",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/meals/weeknight-paella/",
+        "wholeMainAndLinksMatch": true
+      }
+    }
+  ],
+  "productionEvidence": "docs/editorial-campaign/2026-10-06/final-hold-production.json"
 }

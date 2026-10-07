@@ -1,3 +1,11 @@
+# Verified final campaign checkpoint — October 6, 2026
+
+All 16 former active holds have verified dispositions: 14 complete editorial repairs, Craig’s exact-original preservation at your request, and retirement of Weeknight Paella. A distinct classic Paella Valenciana is live. The original 409 campaign is fully accounted for: 405 complete editorial versions verified live, three user retirements and one deliberately unreviewed preserved original. All eleven newly authored October 6 recipes are verified separately. Active coverage is 650 complete editorial entries and one preserved original across 651 sources, including the two existing crafts; zero active holds remain. All 265 tests and 13 release gates passed. All 21 affected live pages match the validated build’s complete rendered cooking text, ingredient labels, Recipe JSON-LD, links and robots. No physical kitchen tests or native-app sync; actual mobile rendering and printed pagination remain unverified.
+
+[Verified final release](editorial-campaign/2026-10-06/final-hold-production.json). [Decisions and next kitchen observations](editorial-campaign/2026-10-06/final-hold-dispositions.md). [Organization comparison prompt](editorial-campaign/2026-10-06/organization-review-prompt.md).
+
+## Earlier accepted checkpoint
+
 # Current accepted checkpoint — October 6, 2026
 
 All 16 former active holds have local accepted dispositions: 14 complete editorial repairs, Craig’s exact-original preservation at the user’s request, and retirement of Weeknight Paella. A distinct newly authored classic Paella Valenciana is also accepted. Active coverage is 650 complete editorial recipes and one intentional, unreviewed preserved original across 651 sources; zero active holds remain. The original 409 campaign accounts for391 already production-verified reviews,14 accepted reviews pending publication,3 user retirements (one pending publication), and1 original preservation pending publication. None of these repairs is kitchen-tested; no native-app sync. Exact remote CI/deployment and live-page verification remain required.

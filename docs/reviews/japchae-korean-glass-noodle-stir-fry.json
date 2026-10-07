@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "japchae-korean-glass-noodle-stir-fry",
   "title": "Japchae (Korean Glass Noodle Stir-Fry)",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "cf745793fbe13185df81f4076c119dd27b32aaa09ccb8a2ba49b1ea6e177f001",
@@ -1604,5 +1604,16 @@
   "exactNativeOriginalRetainedPrivately": true,
   "identityPreserved": true,
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/japchae-korean-glass-noodle-stir-fry/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

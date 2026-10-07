@@ -1,6 +1,6 @@
 # Weeknight Paella: user-authorized retirement
 
-Date: 2026-10-06. Implemented locally; publication pending.
+Date: 2026-10-06. Implemented locally; production verified.
 
 User explicitly retired the weeknight shrimp/chorizo formula and requested a distinct proper classic paella. Its exact last source, attribution, internal identity and private binding remain archived. Native originals remain intact. It leaves the active collection and current exports; its old recipe URL presents a noindex retirement notice with no Recipe schema. No native-app deletion or sync occurred.
 
@@ -17,3 +17,5 @@ How does the chosen load bring every shrimp thick center to145°F before finishi
 The linked meal also permits generic short-grain rice and gives45minutes versus source50; hold linked meal acceptance rather than certifying it from this recipe review.
 
 The full earlier held record and source reassessment are retained in [this disposition](weeknight-paella.json). Retirement grants no culinary approval.
+
+[Verified source deletion, live notice and retained meal](../editorial-campaign/2026-10-06/final-hold-production.json). No complete editorial or kitchen-test status is granted.

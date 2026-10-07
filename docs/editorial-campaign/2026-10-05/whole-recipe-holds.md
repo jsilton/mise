@@ -1,6 +1,6 @@
 # Current active holds — October 6, 2026
 
-Zero active holds remain. Fourteen local complete editorial repairs, one intentional unreviewed original preservation and one user retirement resolve the final 16. Publication pending; no physical kitchen testing. [Current machine record](whole-recipe-holds.json). Historical questions below remain as evidence, not active questions or approved old formulas.
+Zero active holds remain. Fourteen complete editorial repairs, one intentional unreviewed original preservation and one user retirement resolve the final 16, with exact production verification complete. No physical kitchen testing. [Current machine record](whole-recipe-holds.json). Historical questions below remain as evidence, not active questions or approved old formulas.
 
 # Current active holds — October 6, 2026
 

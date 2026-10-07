@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "Dependency corrections accepted locally; publication pending",
+  "status": "Dependency corrections implemented and production verified; no complete-meal editorial promotion",
   "completeMealEditorialGranted": false,
   "kitchenTested": false,
   "meals": [
@@ -73,7 +73,15 @@
         ]
       },
       "completeMealEditorialGranted": false,
-      "kitchenTested": false
+      "kitchenTested": false,
+      "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+      "productionVerification": {
+        "status": "dependency corrections production verified; no complete-meal review promotion",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/meals/brisket-dinner/",
+        "wholeMainAndLinksMatch": true
+      }
     },
     {
       "slug": "dan-dan-noodle-night",
@@ -85,26 +93,15 @@
           "template": "one-pot",
           "main": "dan-dan-noodles",
           "sides": ["smashed-cucumber-salad"],
-          "totalPrepTime": "About 20–25 min",
-          "totalCookTime": "About 20–25 min",
-          "totalActiveTime": "About 35–45 min",
+          "totalPrepTime": "15 min",
+          "totalCookTime": "15 min",
+          "totalActiveTime": "20 min",
           "overallDifficulty": "intermediate",
           "cuisines": ["Chinese"],
           "occasions": ["weeknight", "date-night"],
           "seasons": ["fall", "winter"],
           "nutritionalDensity": "hearty",
-          "servings": "4",
-          "componentPreparation": {
-            "dan-dan-noodles": {
-              "state": "from-scratch",
-              "note": "One full four-generous-portion main batch, using prepared chili oil; optional flavor routes are separate complete choices."
-            },
-            "smashed-cucumber-salad": {
-              "state": "from-scratch",
-              "note": "One full four-side-portion batch; start its 15-minute salt-and-drain step before noodle cooking and dress near service."
-            }
-          },
-          "totalTime": "About 40–50 min, with prepared chili oil"
+          "servings": "4"
         },
         "body": "\n## Meal Overview\n\nSichuan street food at its finest - springy noodles in a numbing, spicy, savory sauce topped with crispy pork. The smashed cucumber salad is the perfect cooling counterpoint to all that heat and complexity.\n\n## Cooking Strategy\n\n1. **Make sauce** - sesame paste, chili oil, soy, vinegar, Sichuan peppercorn\n2. **Cook pork** - crispy, crumbled, with ya cai\n3. **Boil noodles** - wheat noodles, just until done\n4. **Make cucumber salad** - smash, salt, dress\n5. **Assemble** - sauce in bowl, noodles on top, crispy pork, garnish\n6. **Serve** - mix everything together before eating\n\n## Notes\n\n- The quality of the chili oil makes or breaks this dish\n- Sichuan peppercorn creates the signature numbing tingle\n- Adjust heat to taste - start with less chili oil, add more\n"
       },
@@ -164,7 +161,22 @@
         ]
       },
       "completeMealEditorialGranted": false,
-      "kitchenTested": false
+      "kitchenTested": false,
+      "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+      "productionVerification": {
+        "status": "dependency corrections production verified; no complete-meal review promotion",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/meals/dan-dan-noodle-night/",
+        "wholeMainAndLinksMatch": true
+      },
+      "rootEvidenceCorrection": {
+        "rationale": "The retained before file matches exact input Git source. Restore its before metadata; an earlier authored record shared a mutable metadata object and displayed later timing/components as before. No current recipe/meal or accepted candidate changes.",
+        "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
+        "inputSourceSha256": "9daffb73fe8a624e85f78bb557a66e18cdd14bcfbb47681ce7a66c07e6a1c828",
+        "sourcePath": "src/content/meals/dan-dan-noodle-night.md",
+        "afterAndSourceUnchanged": true
+      }
     },
     {
       "slug": "weeknight-paella",
@@ -224,7 +236,21 @@
         "evidenceSha256": "c8abdaaf7d1348fde5e61d881f96f729eec81f18bd965d6e259464383470e3c6"
       },
       "completeMealEditorialGranted": false,
-      "kitchenTested": false
+      "kitchenTested": false,
+      "implementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+      "productionVerification": {
+        "status": "dependency corrections production verified; no complete-meal review promotion",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/meals/weeknight-paella/",
+        "wholeMainAndLinksMatch": true
+      }
     }
-  ]
+  ],
+  "productionVerification": {
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "wholeRenderedMealsMatch": true,
+    "completeMealReviewGranted": false
+  }
 }

@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
   "title": "Chocolate Bread Pudding",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "d422fc6f6c8d754adc1b8f33ea4adf94cc5bd56fa3e25a80d8b317ae75d190bd",
@@ -729,5 +729,16 @@
     "FDA/USDA safety guidance supersedes the source’s five-day fridge guidance. The original 12-hour make-ahead note is retained under prompt refrigeration; no fermentation/preservation claim."
   ],
   "oldSourceConflictUnresolvedAsHistory": true,
-  "historicalSourceDisposition": "A new measured chocolate bread pudding was explicitly authored from applicable complete primary recipes; it does not certify or reconstruct the conflicting saved Ritz formula. Exact originals remain private."
+  "historicalSourceDisposition": "A new measured chocolate bread pudding was explicitly authored from applicable complete primary recipes; it does not certify or reconstruct the conflicting saved Ritz formula. Exact originals remain private.",
+  "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/chocolate-bread-pudding-with-vanilla-ice-cream/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

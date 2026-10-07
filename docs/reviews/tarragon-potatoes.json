@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "tarragon-potatoes",
   "title": "Tarragon Potatoes",
-  "status": "original-preserved-by-user; implemented locally; publication pending",
+  "status": "original-preserved-by-user; production verified; no complete editorial approval",
   "completeEditorialReviewGranted": false,
   "authorization": "Direct user instruction to restore Craig’s joke recipe exactly as original, without added notes or changes.",
   "exactBefore": {
@@ -75,5 +75,16 @@
   "remainingQuestions": [
     "Deliberately unmeasured original; user preservation excludes reconstruction. Automated prompts and physical cooking observations are not resolved by this disposition."
   ],
-  "formattingProof": "Trailing EOF whitespace normalized; every parsed field and trimmed original cooking text is unchanged; preservation hash remains exact."
+  "formattingProof": "Trailing EOF whitespace normalized; every parsed field and trimmed original cooking text is unchanged; preservation hash remains exact.",
+  "implementationCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/tarragon-potatoes/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

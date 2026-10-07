@@ -27,21 +27,22 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "All 16 former active holds have local accepted dispositions: 14 complete editorial repairs, Craig’s exact-original preservation at the user’s request, and retirement of Weeknight Paella. A distinct newly authored classic Paella Valenciana is also accepted. Active coverage is 650 complete editorial recipes and one intentional, unreviewed preserved original across 651 sources; zero active holds remain. The original 409 campaign accounts for391 already production-verified reviews,14 accepted reviews pending publication,3 user retirements (one pending publication), and1 original preservation pending publication. None of these repairs is kitchen-tested; no native-app sync. Exact remote CI/deployment and live-page verification remain required.",
+    "productionReconciliation": "All 16 former active holds have verified dispositions: 14 complete editorial repairs, one exact-original preservation and one user retirement. The original 409 campaign is 405 production-verified complete editorial versions, three user retirements and one preserved unreviewed original. All eleven new October 6 recipes are verified live separately. Active coverage: 650 complete editorial entries plus one preserved original across 651 sources, including two existing crafts; zero active holds, no physical kitchen tests or native-app sync.",
     "latestAcceptanceInputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
-    "latestRecipeCommitReconciledAtCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
+    "latestRecipeCommitReconciledAtCommit": "bead5a8a707c16290792200d3700b3a850186d24",
     "newlyAuthoredOctober6": {
       "recipes": 11,
       "completeEditorial": 11,
-      "productionVerified": 10,
-      "publicationPending": 1
+      "productionVerified": 11,
+      "publicationPending": 0
     },
     "originalRetiredByUser": 2,
     "additionalSourcesConsidered": 52,
     "additionalRetiredByUser": 1,
     "retiredByUser": 3,
     "preservedByUser": 1,
-    "originalsPreservedByUser": 1
+    "originalsPreservedByUser": 1,
+    "latestProductionEvidence": "docs/editorial-campaign/2026-10-06/final-hold-production.json"
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2315,19 +2316,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/boston-style-peking-ravioli.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/boston-style-peking-ravioli.json",
         "sourceSha256": "80e2b12db5fbd9f46163045fea76bfebf56d1d65283a060219a0040739ab6047"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+          "evidence": "docs/reviews/boston-style-peking-ravioli.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/boston-style-peking-ravioli/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Texture/crispness and the32-piece operating plan are untasted; actual cabbage drain volume/pan fit need not be fabricated or demanded as household memory."
@@ -4220,19 +4234,32 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
         "sourceSha256": "4e57522842472280f0b08fbb2210d3416fe1e8b325f6fc2c7e582c0a6e560a3f"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+          "evidence": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/chef-krigers-recipe-shabbat-brisket/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Kitchen check: sauce thickness, vessel fit and actual cooked yield for the authored 4½-lb batch.",
@@ -5878,19 +5905,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
         "sourceSha256": "99dffdabdd7dea8ba204ea27ff9b8417a205f41e3cdc7f84156f516d62697f26"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+          "evidence": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/chocolate-bread-pudding-with-vanilla-ice-cream/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Actual cup size, portion count, finished yield and sensory result remain useful cooking observations; no measured outcome is claimed."
@@ -8448,19 +8488,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/crustless-spinach-quiche.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/crustless-spinach-quiche.json",
         "sourceSha256": "ff9a9634594efb77658aa7f18070ee283f943a316e202d435e4fe5742c2febe4"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+          "evidence": "docs/reviews/crustless-spinach-quiche.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/crustless-spinach-quiche/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Actual plate fit, measured bake time and texture can refine the operating plan after cooking."
@@ -8784,13 +8837,13 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/dan-dan-noodles.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/dan-dan-noodles.json",
         "sourceSha256": "4210b47e739875567c11c5703afe97ca846815f048b69e1c0899a195e1251d71"
       },
@@ -8799,10 +8852,22 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+          "evidence": "docs/reviews/dan-dan-noodles.json",
+          "scope": "Complete recipe review and authored formula integration"
         }
       ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/dan-dan-noodles/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Paste/noodle brands affect sauce loosening and serving density; no family memory or tested exact yield is required."
@@ -12036,19 +12101,32 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/golden-veil.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/golden-veil.json",
         "sourceSha256": "79476272bfaea0ac2bfc500ce29383565c1d9ed7360a8aeb5d3cffe03c9148d0"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+          "evidence": "docs/reviews/golden-veil.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/golden-veil/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Final sweetness, smoke, dilution, and glass fill remain untasted; they are not invented source facts or a household memory blocker."
@@ -12114,19 +12192,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/grandmommys-pecan-pie.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/grandmommys-pecan-pie.json",
         "sourceSha256": "1e56c4832977abb791c8d69152eaf3d9e1748f86366dcddf50635777d50f0dc7"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+          "evidence": "docs/reviews/grandmommys-pecan-pie.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/grandmommys-pecan-pie/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
@@ -12156,19 +12247,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/grandmommys-pound-cake.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/grandmommys-pound-cake.json",
         "sourceSha256": "b82c3d51305fefebde4b309b4dbb486f2cf3fe01e10eaadd7cd748aa77479c0e"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+          "evidence": "docs/reviews/grandmommys-pound-cake.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/grandmommys-pound-cake/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
@@ -14518,13 +14622,13 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
         "sourceSha256": "114e2ca7bc2492ec199955f9aa6f9e69b15af6c1ca9c2c2e6fc9d0eed46ee764"
       },
@@ -14533,10 +14637,22 @@
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
           "evidence": "actual recipe diff retained privately",
           "scope": "historical safety/scaling/source repair; file touch is not complete review"
+        },
+        {
+          "commit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+          "evidence": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
+          "scope": "Complete recipe review and authored formula integration"
         }
       ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/japanese-beef-rice-bowl-gyudon/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Exact evaporation and thin-beef tenderness in the household pan are unmeasured; these are not blockers to honest source-based planning."
@@ -14684,13 +14800,13 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
         "sourceSha256": "9072d7a7403d462fca1dec8f7bd8c1872b5b6bd8528e78d43e9eda73fd3a587e"
       },
@@ -14699,10 +14815,22 @@
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
           "evidence": "actual recipe diff retained privately",
           "scope": "accelerated targeted repair"
+        },
+        {
+          "commit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+          "evidence": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
+          "scope": "Complete recipe review and authored formula integration"
         }
       ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/japchae-korean-glass-noodle-stir-fry/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Household pan-load time and the richer shrimp proportion are untested observations, not required to invent a remembered yield."
@@ -16154,19 +16282,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/mandarinpineapple-organge-salad.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/mandarinpineapple-organge-salad.json",
         "sourceSha256": "0932ae77f59f3bd2936451e9f3a1280bd50f1076568290c89fe20d9ec7c223b6"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+          "evidence": "docs/reviews/mandarinpineapple-organge-salad.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/mandarinpineapple-organge-salad/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Historical package sizes and native with-rice wording remain unknown and are not asserted recovered.",
@@ -17710,19 +17851,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/nana-ruths-applesauce.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/nana-ruths-applesauce.json",
         "sourceSha256": "2a75e3b4c0e17e59f1d9529c4385f0ee8912099a5d21dffe59de2d04a57c809f"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+          "evidence": "docs/reviews/nana-ruths-applesauce.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/nana-ruths-applesauce/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Kitchen check: preferred lemon/spice balance and final reduction at the authored measurements.",
@@ -25860,19 +26014,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/spinach-and-mushroom-quiche.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/spinach-and-mushroom-quiche.json",
         "sourceSha256": "565aa357c98b240dbdd6665733e650053e211a20e381ab5e901fad72932bfe8a"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+          "evidence": "docs/reviews/spinach-and-mushroom-quiche.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/spinach-and-mushroom-quiche/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Actual pastry recipe, fitted plate capacity and measured bake time will refine the chosen route, without being portrayed as recovered source geometry."
@@ -26610,19 +26777,32 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/strawberry-congealed-salad.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/strawberry-congealed-salad.json",
         "sourceSha256": "6edc97110a3e870cda0a8e684c831dbdf467e84461468c578f702ba178678f99"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+          "evidence": "docs/reviews/strawberry-congealed-salad.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/strawberry-congealed-salad/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Historical gelatin/can package sizes remain unknown and are not claimed recovered.",
@@ -27662,17 +27842,30 @@
       "completeEditorialReview": {
         "status": "not granted; original-preserved-by-user",
         "record": "docs/reviews/tarragon-potatoes.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "503491e43e4477d94219e30efdf56bfd6284ce32"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
       "acceptedChange": {
-        "status": "exact original restored by explicit user choice; no complete culinary approval",
+        "status": "exact original restored by explicit user choice; production verified; no complete culinary approval",
         "evidence": "docs/reviews/tarragon-potatoes.json",
         "sourceSha256": "cea9295841ffaf07d80e120c9d465f62ada47878f978090d5eb49b7c4e037091"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+          "evidence": "docs/reviews/tarragon-potatoes.json",
+          "scope": "User exact-original restoration; no complete review"
+        }
+      ],
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "503491e43e4477d94219e30efdf56bfd6284ce32",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/tarragon-potatoes/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Deliberately unmeasured original; user preservation excludes reconstruction. Automated prompts and physical cooking observations are not resolved by this disposition."
@@ -29753,20 +29946,33 @@
         "historicalCommitTouches": 0,
         "evidence": []
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+          "evidence": "docs/reviews/paella-valenciana.json",
+          "scope": "Complete recipe review and authored formula integration"
+        }
+      ],
       "historicalEvidence": [],
       "completeEditorialReview": {
-        "status": "complete editorial review; accepted locally; publication pending",
+        "status": "complete editorial review; implementation and production verified",
         "record": "docs/reviews/paella-valenciana.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9"
       },
       "acceptedChange": {
-        "status": "complete authored recipe accepted and integrated locally",
+        "status": "complete authored recipe implemented and production verified",
         "evidence": "docs/reviews/paella-valenciana.json",
         "sourceSha256": "d5295343e8c3efd278da36504376fa5007d83bef7e65ba789b0b07a14b87b1f8"
       },
       "productionVerification": {
-        "status": "Publication pending; exact new remote source/CI/live page verification required"
+        "status": "production verified",
+        "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/paella-valenciana/",
+        "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Actual finished yield, salt dose, timing and texture require kitchen observation;not a publication prerequisite if peer accepts the explicit operating assumptions"
@@ -29775,7 +29981,8 @@
         "status": "not performed / no recorded test",
         "testNotes": null
       },
-      "automatedFlags": []
+      "automatedFlags": [],
+      "latestRecipeCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9"
     }
   ],
   "retiredRecipes": [
@@ -29942,16 +30149,29 @@
       "completeEditorialReview": {
         "status": "incomplete; retired by explicit user choice",
         "record": "docs/reviews/weeknight-paella.json",
-        "recordImplementationCommit": null
+        "recordImplementationCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9"
       },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "latestRecipeCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
       "acceptedChange": {
-        "status": "user-authorized retirement; locally implemented",
+        "status": "user-authorized retirement; production verified",
         "evidence": "docs/reviews/weeknight-paella.json"
       },
-      "implementationCommits": [],
+      "implementationCommits": [
+        {
+          "commit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+          "evidence": "docs/reviews/weeknight-paella.json",
+          "scope": "Explicit user retirement; no complete review promotion"
+        }
+      ],
       "productionVerification": {
-        "status": "retirement publication pending"
+        "status": "user retirement production verified",
+        "sourceCommit": "bb9a9c06213f4142e7a6be4277a8fadcc83c8ec9",
+        "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+        "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+        "liveUrl": "https://jordansilton.com/mise/recipes/weeknight-paella/",
+        "verification": "Exact remote source deletion and notice, successful build/privacy/deployment, live noindex notice without Recipe JSON-LD or scaler; active collection and exports exclude it. Same-slug meal remains available.",
+        "kitchenTested": false,
+        "nativeAppSynced": false
       },
       "remainingQuestions": [
         "Which actual Bomba/Calasparra rice package, pan diameter/depth and burner coverage are intended, and is the Spanish chorizo fully cooked/ready-to-eat or raw/partly cured?",

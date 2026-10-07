@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "status": "All local release gates passed; exact remote CI/deployment/live verification pending",
+  "status": "All local release gates passed; exact remote CI/deployment/live verification complete",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "tests": {
     "passed": 265,
@@ -132,5 +132,6 @@
     "retirementCheck": "Distinguish same-slug meal URLs from recipe URLs while retaining bare YAML and actual recipe checks; four focused tests pass"
   },
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "productionEvidence": "docs/editorial-campaign/2026-10-06/final-hold-production.json"
 }

@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "chef-krigers-recipe-shabbat-brisket",
   "title": "Chef Kriger’s Recipe Shabbat Brisket",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "ef024e8cb840f6d270e63d7e3e74035166a1b4e2015a604d55891a82a224aea3",
@@ -713,5 +713,16 @@
   "exactNativeOriginalRetainedPrivately": true,
   "identityPreserved": true,
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/chef-krigers-recipe-shabbat-brisket/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

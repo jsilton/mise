@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "grandmommys-pecan-pie",
   "title": "Grandmommy’s Pecan Pie",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "d660526601e6307e0ce1ae16edde5f2409abb9ea538596571d21ac68a3c6e223",
@@ -589,5 +589,16 @@
         "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
       ]
     }
-  ]
+  ],
+  "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/grandmommys-pecan-pie/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

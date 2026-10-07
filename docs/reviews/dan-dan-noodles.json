@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "dan-dan-noodles",
   "title": "Dan Dan Noodles",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "99bb89e35a3a8babb640cc3132fed9bca9d3b2508884c3cd23174ad120fea83c",
@@ -1601,5 +1601,16 @@
       "confidence": "High",
       "remainingQuestions": []
     }
-  ]
+  ],
+  "implementationCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "1fbd8e018b836733f5628a28f8920c9c960f3e66",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/dan-dan-noodles/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

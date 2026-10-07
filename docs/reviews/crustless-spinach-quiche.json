@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "crustless-spinach-quiche",
   "title": "Crustless Spinach & Gruyère Quiche",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "de35552eb2704a44403c160e1dafcaee840698d148a576f7bfaa3628f834ee0f",
@@ -536,5 +536,16 @@
     "All cheese is mixed with the vegetables and eggs, following the original full mixing route instead of carrying the later three-quarter/one-quarter topping allocation.",
     "The half-cup yogurt is omitted from the main, not described as replacing original cream. FAGE’s full yogurt quiche uses materially different yogurt/egg/cheese amounts and does not establish a beneficial change to Rebecca’s formula. No yogurt variation is certified.",
     "Six portions is the current planning yield within the original 6–8 range, not a weighed kitchen yield."
-  ]
+  ],
+  "implementationCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "374288c89eaefcbb6624045eef83c94ad7d5b9ab",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/crustless-spinach-quiche/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }

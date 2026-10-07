@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "slug": "strawberry-congealed-salad",
   "title": "Strawberry Congealed Salad",
-  "status": "Complete editorial review; accepted locally; publication pending",
+  "status": "Complete editorial review; implemented and production verified",
   "scope": "Resolution of an individually held recipe following direct user decisions; no kitchen test",
   "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
   "acceptedCandidateSha256": "6461e9076b8393ea0b39ce5138c05ad4a686ecfaebf04fe59185412eb1988f5b",
@@ -635,5 +635,16 @@
   "exactNativeOriginalRetainedPrivately": true,
   "identityPreserved": true,
   "kitchenTested": false,
-  "nativeAppSynced": false
+  "nativeAppSynced": false,
+  "implementationCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+  "productionVerification": {
+    "status": "production verified",
+    "sourceCommit": "1d3c6dec43b101d81ad956bf79a9b1a49a6b35b6",
+    "releaseCommit": "bead5a8a707c16290792200d3700b3a850186d24",
+    "ci": "https://github.com/jsilton/mise/actions/runs/37553715539",
+    "liveUrl": "https://jordansilton.com/mise/recipes/strawberry-congealed-salad/",
+    "verification": "Exact remote main SHA, successful build/privacy/deployment, and internal-browser live whole-main text, ingredient labels, Recipe JSON-LD, links and robots match the validated local build",
+    "kitchenTested": false,
+    "nativeAppSynced": false
+  }
 }
