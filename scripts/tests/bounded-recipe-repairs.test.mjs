@@ -95,12 +95,30 @@ test('enchiladas make the sauce before allocation and heat filling through', () 
 });
 test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil', () => {
   const { data, content } = read('japchae-korean-glass-noodle-stir-fry');
-  assert.ok(data.ingredients.includes('1 tsp Cornstarch'));
-  assert.match(content, /remaining 2 tsp sesame oil/);
-  assert.match(content, /Scallions: Cook/);
+  const ingredients = data.formula.components.flatMap((component) => component.ingredients);
+  const ingredient = (id) => ingredients.find((entry) => entry.id === id);
+  const step = (id) => data.formula.steps.find((entry) => entry.id === id).text;
+  assert.deepEqual(ingredient('cornstarch').quantity, { amount: 1, unit: 'tsp' });
+  assert.deepEqual(ingredient('cornstarch').uses, [{ step: 'marinate', share: 1 }]);
+  assert.deepEqual(ingredient('sesame').quantity, { amount: 1, unit: 'tbsp' });
+  assert.deepEqual(ingredient('sesame').uses, [
+    { step: 'marinate', share: '1/3' },
+    { step: 'sauce', share: '2/3' },
+  ]);
+  assert.match(step('sauce'), /remaining 2 tbsp soy and 2 tsp sesame oil/);
+  assert.deepEqual(ingredient('oil').quantity, { amount: 1, unit: 'tbsp' });
+  assert.deepEqual(ingredient('oil').uses, [{ step: 'beef', share: 1 }]);
+  assert.match(ingredient('vegetable-oil').allowance, /light film between vegetable loads/);
+  assert.deepEqual(ingredient('vegetable-oil').uses, [{ step: 'vegetables', share: 1 }]);
+  assert.deepEqual(ingredient('scallions').quantity, { amount: 3, unit: 'count' });
+  assert.deepEqual(ingredient('scallions').uses, [{ step: 'vegetables', share: 1 }]);
+  assert.match(step('vegetables'), /scallions about 1 minute/);
+  assert.match(step('beef'), /145°F \/ 63°C/);
+  assert.match(step('beef'), /clean plate and rest at least 3 minutes/);
+  assert.match(step('beef'), /Each load must be fully cooked before removal/);
+  assert.match(step('combine'), /all cooked vegetables, rested beef/);
+  assert.match(data.learning.storage, /Reheat leftovers to 165°F/);
   assert.match(content, /145°F \/ 63°C/);
-  assert.match(content, /rest at least 3 minutes/);
-  assert.match(content, /reheat to 165°F/);
   const lamb = read('pasta-with-abruzzi-style-lamb-sauce');
   const oil = lamb.data.formula.components
     .find((component) => component.id === 'main')

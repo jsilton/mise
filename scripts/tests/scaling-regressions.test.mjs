@@ -618,6 +618,29 @@ for (const row of confirmed) {
           assert.equal(numeric(formatFormulaIngredient(pork, factor).match(number)[0]), 4 * factor);
           assert.match(formatFormulaIngredient(pork, factor), /cut into 3-rib sections/);
         }
+      } else if (row.slug === 'dan-dan-noodles' && row.caseId === 27) {
+        // Keep the historical bok-choy input and every numeric oracle below.
+        // Its current wording changed during the complete source reformulation.
+        const review = JSON.parse(fs.readFileSync('docs/reviews/dan-dan-noodles.json', 'utf8'));
+        assert.ok(review.exactBefore.frontmatter.ingredients.includes(component.input));
+        const ingredients = data.formula.components.flatMap((c) => c.ingredients);
+        const bokChoy = ingredients.find((i) => i.id === 'bok-choy');
+        assert.deepEqual(bokChoy.quantity, { amount: 4, unit: 'count' });
+        assert.equal(bokChoy.optional, true);
+        assert.deepEqual(bokChoy.uses, [{ step: 'noodles', share: 1 }]);
+        const oil = ingredients.find((i) => i.id === 'oil');
+        assert.deepEqual(oil.quantity, { amount: 3, unit: 'tsp' });
+        assert.deepEqual(oil.uses, [
+          { step: 'pork', share: '1/3' },
+          { step: 'yacai', share: '2/3' },
+        ]);
+        for (const factor of factors) {
+          assert.equal(
+            numeric(formatFormulaIngredient(bokChoy, factor).match(number)[0]),
+            4 * factor
+          );
+          assert.equal(numeric(formatFormulaIngredient(oil, factor).match(number)[0]), 3 * factor);
+        }
       } else if (row.slug === 'vegetable-minestrone' && [64, 65, 66].includes(row.caseId)) {
         // The user chose a complete new primary-source formula; retain old parser oracles.
         const ingredients = data.formula.components.flatMap((c) => c.ingredients);
@@ -630,7 +653,10 @@ for (const row of confirmed) {
           assert.ok(ingredient.allowance && !ingredient.quantity);
         } else {
           const amount = row.caseId === 64 ? 1 : 100;
-          assert.deepEqual(ingredient.quantity, { amount, unit: row.caseId === 64 ? 'tbsp' : 'g' });
+          assert.deepEqual(ingredient.quantity, {
+            amount,
+            unit: row.caseId === 64 ? 'tbsp' : 'g',
+          });
           for (const factor of factors)
             assert.equal(
               numeric(formatFormulaIngredient(ingredient, factor).match(number)[0]),

@@ -185,9 +185,10 @@ const cases = [
     'japanese-beef-rice-bowl-gyudon',
     ['so the warm rice cooks it slightly', 'A soft-boiled egg (6-7 minutes)'],
     [
-      'pasteurized shell eggs soft-boiled or poached',
-      'pasteurized shell egg',
-      'cook both the yolk and white until firm',
+      'ordinary eggs fully cooked, or pasteurized shell eggs for a soft yolk',
+      'Cook ordinary eggs until both white and yolk are firm',
+      'A soft-yolk option requires shell eggs labeled pasteurized',
+      'warm rice is not a reliable egg-cooking method',
     ],
   ],
   [

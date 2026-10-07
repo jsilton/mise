@@ -91,10 +91,16 @@ test('all current sources have nonempty, aligned schema and export representatio
   }
 });
 
-test('all seven known method mismatches have their actual authored step counts', async () => {
+test('known method mismatches retain parser coverage and accepted current step counts', async () => {
   const recipes = new Map((await loadRecipes()).map((recipe) => [recipe.slug, recipe]));
+  // Preserve the original ten-step parser oracle after the independently
+  // reviewed Boston main was replaced with a complete seven-step source route.
+  const bostonReview = JSON.parse(
+    await fs.readFile('docs/reviews/boston-style-peking-ravioli.json', 'utf8')
+  );
+  assert.equal(parseRecipeContent(bostonReview.exactBefore.body).steps.length, 10);
   for (const [slug, count] of Object.entries({
-    'boston-style-peking-ravioli': 10,
+    'boston-style-peking-ravioli': 7,
     'homemade-pizza-night': 9,
     'instant-pot-butternut-squash-soup': 8,
     'instant-pot-potato-leek-soup': 9,
@@ -119,7 +125,12 @@ test('export policy preserves attributed sources, notes, quantities and uncertai
   const body =
     "## Chef's Note\n\nFamily history.\n\n## Directions\n\nUse a 6-quart pot.\n\n1. **Cook:** Simmer.\n\n## Variation\n\nUse the oven for a double batch.";
   const parsed = parseRecipeContent(body);
-  const recipe = { data, body, parsed, url: 'https://jordansilton.com/mise/recipes/family/' };
+  const recipe = {
+    data,
+    body,
+    parsed,
+    url: 'https://jordansilton.com/mise/recipes/family/',
+  };
   const schema = buildRecipeSchema(data, body, recipe.url);
   const paprika = createPaprikaRecipe(recipe);
   assert.deepEqual(schema.recipeIngredient, ['1 cup cream']);
