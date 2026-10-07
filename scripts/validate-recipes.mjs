@@ -7,6 +7,7 @@ import {
   hasPoultryMeatReference,
 } from '../src/lib/low-temperature-reference.mjs';
 import { extractRecipeTargets } from './lib/recipe-link-targets.mjs';
+import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const allowedRoles = new Set(['main', 'side', 'dessert', 'base', 'drink', 'condiment']);
@@ -402,6 +403,8 @@ function normalizeKey(str) {
     const { data, content } = matter(raw);
     const slug = path.basename(file, '.md');
 
+    const preservedOriginal = assertOriginalPreservation({ slug, data, content });
+
     // frontmatter existence
     if (!data.title) report.missing.title.push(slug);
     if (!data.role) report.missing.role.push(slug);
@@ -420,7 +423,8 @@ function normalizeKey(str) {
       report.invalidValues.vibe.push({ slug, value: data.vibe });
 
     // sections
-    if (!/##\s*Chef's Note/i.test(content)) report.missing.chefNote.push(slug);
+    if (!/##\s*Chef's Note/i.test(content) && !preservedOriginal)
+      report.missing.chefNote.push(slug);
     if (!/##\s*Directions/i.test(content)) report.missing.directions.push(slug);
 
     // directions formatting (numbered steps with bold header)

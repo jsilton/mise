@@ -60,6 +60,8 @@ The serving control intentionally leaves method prose unchanged. It scales recog
 
 An explicitly user-authorized retirement is recorded separately in `src/data/recipe-retirements.json` and its individual decision record. Preserve the exact source, native originals and existing identities privately before removing the active source. Keep a short notice at its old URL, with no recipe schema, and exclude it from the collection, sitemap and current exports. The register retains both original and additional retired rows; retirement does not count as a complete editorial review, consolidation or kitchen test. The alias checker also verifies these distinct retirement requirements.
 
+An explicit user request to preserve an exact original without additions is a separate `original-preserved-by-user` disposition in `src/data/recipe-preservations.json`. Retain identity and attribution; pin the cooking text and record the decision individually. Only the added Chef’s Note requirement is waived for the matching original. Missing source measures and unresolved claims remain visible in the audit. Preservation does not certify complete editorial review or kitchen testing, and later edits require reconsidering the disposition.
+
 Newly authored recipes are tracked in the register separately from the original baseline. Each needs its own individual review record; it must not reduce the original pending count.
 
 ## Batch publication and delegation

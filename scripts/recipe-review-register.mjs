@@ -1,21 +1,26 @@
 import fs from 'node:fs';
 import matter from 'gray-matter';
+import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
 const baseline = JSON.parse(fs.readFileSync('docs/recipe-review-baseline.json', 'utf8'));
 const aliases = JSON.parse(fs.readFileSync('src/data/recipe-aliases.json', 'utf8'));
 const retirements = JSON.parse(fs.readFileSync('src/data/recipe-retirements.json', 'utf8'));
 const originals = baseline.slugs.map((slug) => {
   const canonical = aliases[slug] || slug;
   const file = `src/content/recipes/${canonical}.md`;
-  const data = fs.existsSync(file) ? matter(fs.readFileSync(file, 'utf8')).data : null;
+  const parsed = fs.existsSync(file) ? matter(fs.readFileSync(file, 'utf8')) : null;
+  const data = parsed?.data;
+  const preserved = parsed && assertOriginalPreservation({ slug: canonical, ...parsed });
   const hasRecord = fs.existsSync(`docs/reviews/${slug}.md`);
   const status =
     retirements[slug] && hasRecord
       ? 'retired-by-user'
       : aliases[slug] && hasRecord
         ? 'consolidated'
-        : data?.learning?.review && hasRecord
-          ? data.learning.review.status
-          : 'pending';
+        : preserved && hasRecord
+          ? 'original-preserved-by-user'
+          : data?.learning?.review && hasRecord
+            ? data.learning.review.status
+            : 'pending';
   return {
     slug,
     ...(retirements[slug] ? { retirementDate: retirements[slug].date } : { canonical }),
@@ -37,18 +42,22 @@ const additionalRecords = [
 ]
   .sort()
   .map((slug) => {
-    const data = retirements[slug]
+    const parsed = retirements[slug]
       ? null
-      : matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8')).data;
+      : matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8'));
+    const data = parsed?.data;
+    const preserved = parsed && assertOriginalPreservation({ slug, ...parsed });
     const hasRecord = fs.existsSync(`docs/reviews/${slug}.md`);
     return {
       slug,
       status:
         retirements[slug] && hasRecord
           ? 'retired-by-user'
-          : data?.learning?.review && hasRecord
-            ? data.learning.review.status
-            : 'pending',
+          : preserved && hasRecord
+            ? 'original-preserved-by-user'
+            : data?.learning?.review && hasRecord
+              ? data.learning.review.status
+              : 'pending',
       ...(retirements[slug] ? { retirementDate: retirements[slug].date } : {}),
       ...(hasRecord ? { record: `docs/reviews/${slug}.md` } : {}),
     };
@@ -60,12 +69,17 @@ const report = {
   ).length,
   consolidatedAfterReview: originals.filter((r) => r.status === 'consolidated').length,
   retiredByUser: originals.filter((r) => r.status === 'retired-by-user').length,
+  originalsPreservedByUser: originals.filter((r) => r.status === 'original-preserved-by-user')
+    .length,
   pending: originals.filter((r) => r.status === 'pending').length,
   kitchenTested: originals.filter((r) => r.status === 'kitchen-tested').length,
   records: originals,
   additionalRecipes: additionalRecords.length,
   activeAdditionalRecipes: activeAdditionalSlugs.length,
   additionalRetiredByUser: additionalRecords.filter((r) => r.status === 'retired-by-user').length,
+  additionalPreservedByUser: additionalRecords.filter(
+    (r) => r.status === 'original-preserved-by-user'
+  ).length,
   additionalIndividuallyReviewed: additionalRecords.filter((r) =>
     ['editorial-review', 'kitchen-tested'].includes(r.status)
   ).length,

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-06",
+  "slug": "tarragon-potatoes",
+  "title": "Tarragon Potatoes",
+  "status": "original-preserved-by-user; implemented locally; publication pending",
+  "completeEditorialReviewGranted": false,
+  "authorization": "Direct user instruction to restore Craig’s joke recipe exactly as original, without added notes or changes.",
+  "exactBefore": {
+    "frontmatter": {
+      "title": "Tarragon Potatoes",
+      "difficulty": "easy",
+      "cookingMethods": ["bake", "roast"],
+      "occasions": ["weeknight", "entertaining", "holiday"],
+      "flavorProfile": ["acidic", "rich"],
+      "cuisines": ["French"],
+      "role": "side",
+      "vibe": "nutritious",
+      "season": ["spring", "summer", "fall", "winter"],
+      "leftovers": "good",
+      "healthiness": "moderate",
+      "pairsWith": [
+        "buttermilk-baked-chicken",
+        "baked-cod-with-lemon-panko",
+        "rosemary-pork-tenderloin"
+      ],
+      "prepTime": "10 min",
+      "cookTime": "45 min",
+      "totalTime": "55 min",
+      "servings": "6",
+      "ingredients": [
+        "2 lbs Russet Potatoes, cubed (1.5-inch chunks)",
+        "2 tbsp Extra-Virgin Olive Oil",
+        "2 tbsp Unsalted Butter (Cold)",
+        "1 tbsp Dried Tarragon (The \"High Note\")",
+        "1 tsp Sea Salt",
+        "1/2 tsp Black Pepper"
+      ],
+      "origin": "France",
+      "seasons": ["year-round"],
+      "nutritionalDensity": "moderate",
+      "nutrition": {
+        "calories": 110,
+        "protein": 1,
+        "carbs": 8,
+        "fat": 8.5,
+        "fiber": 1,
+        "sugar": 0.5,
+        "sodium": 420
+      },
+      "source": "Adapted from Craig Plummer"
+    },
+    "body": "\n## Chef's Note\n\nThe secret to excellent tarragon potatoes is the butter-finish technique. Tarragon has a powerful, anise-like flavor that can become bitter if burned; we toss the potatoes in oil and herbs first, then add cold butter cubes to the pan halfway through roasting. This creates a foaming butter that bastes the potatoes, ensuring a rich interior inside a crispy golden crust. Be precise with the tarragon - its bright flavor defines the dish.\n\n## Directions\n\n1.  **Prep:** Preheat oven to 350°F. Line a baking dish with parchment.\n2.  **Toss:** Combine potato cubes, olive oil, salt, pepper, and tarragon in a large bowl. Toss vigorously until every chunk is heavily coated.\n3.  **Roast:** Arrange in a **single layer** (The Single-Layer Guard). Bake for 25 minutes.\n4.  **The Sizzle:** Remove pan. Add the cold butter cubes to the dish and toss the potatoes to coat in the melting fat.\n5.  **Finish:** Return to oven. Bake for 20 more minutes, tossing once, until the potatoes are deep golden brown and the edges are crispy.\n6.  **Serve:** Serve immediately while the herb aroma is at its peak.\n"
+  },
+  "exactAfter": {
+    "frontmatter": {
+      "title": "Tarragon Potatoes",
+      "ingredients": ["Russet Potatoes", "Olive Oil", "Butter", "Dried Tarragon"],
+      "source": "Craig Plummer"
+    },
+    "body": "\n## Directions\n\n1. Cut potatoes into 1-1.5 inch cubes (do not peel).\n2. Arrange in a rose single layer in baking dish and add enough olive oil to coat. I also add a tablespoon or two of butter just because. Sprinkle with tarragon.\n3. Important note: tarragon can get surprising “hot” and spicy if used in excess, be careful.\n4. Bake for about 45 minutes at 350 degrees, turning potatoes once about half way through and again with about 5 minutes to go.\n"
+  },
+  "rationale": "Remove later measured quantities, added ingredients, yield, temperature changes and editorial notes. Preserve the literal original wording and deliberate imprecision. The source remains an intentional family original; missing quantities, sensory endpoints and explicit handling guidance remain unreviewed, not approved.",
+  "confidence": "High for byte-exact original cooking-field comparison; no complete culinary approval or kitchen result.",
+  "independentChallenge": {
+    "verdict": "PASS",
+    "evidenceSha256": "0a19e83f47d9a2f0f398509577a7a6d25549dedcb297e741ffde66ca277d329e",
+    "exactOriginalCookingFieldsMatch": true,
+    "privateIdentityPreserved": true
+  },
+  "sourceSha256": "cea9295841ffaf07d80e120c9d465f62ada47878f978090d5eb49b7c4e037091",
+  "exactNativeOriginalRetainedPrivately": true,
+  "identityPreserved": true,
+  "kitchenTested": false,
+  "nativeAppSynced": false,
+  "remainingQuestions": [
+    "Deliberately unmeasured original; user preservation excludes reconstruction. Automated prompts and physical cooking observations are not resolved by this disposition."
+  ],
+  "formattingProof": "Trailing EOF whitespace normalized; every parsed field and trimmed original cooking text is unchanged; preservation hash remains exact."
+}

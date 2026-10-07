@@ -1,67 +1,17 @@
 ---
 miseId: 33892310-9300-4e4f-bef7-abf4b8af19b2
 title: Tarragon Potatoes
-difficulty: easy
-cookingMethods:
-  - bake
-  - roast
-occasions:
-  - weeknight
-  - entertaining
-  - holiday
-flavorProfile:
-  - acidic
-  - rich
-cuisines:
-  - French
-role: side
-vibe: nutritious
-season:
-  - spring
-  - summer
-  - fall
-  - winter
-leftovers: good
-healthiness: moderate
-pairsWith:
-  - buttermilk-baked-chicken
-  - baked-cod-with-lemon-panko
-  - rosemary-pork-tenderloin
-prepTime: 10 min
-cookTime: 45 min
-totalTime: 55 min
-servings: '6'
 ingredients:
-  - '2 lbs Russet Potatoes, cubed (1.5-inch chunks)'
-  - 2 tbsp Extra-Virgin Olive Oil
-  - 2 tbsp Unsalted Butter (Cold)
-  - 1 tbsp Dried Tarragon (The "High Note")
-  - 1 tsp Sea Salt
-  - 1/2 tsp Black Pepper
-origin: France
-seasons:
-  - year-round
-nutritionalDensity: moderate
-nutrition:
-  calories: 110
-  protein: 1
-  carbs: 8
-  fat: 8.5
-  fiber: 1
-  sugar: 0.5
-  sodium: 420
-source: Adapted from Craig Plummer
+  - Russet Potatoes
+  - Olive Oil
+  - Butter
+  - Dried Tarragon
+source: Craig Plummer
 ---
-
-## Chef's Note
-
-The secret to excellent tarragon potatoes is the butter-finish technique. Tarragon has a powerful, anise-like flavor that can become bitter if burned; we toss the potatoes in oil and herbs first, then add cold butter cubes to the pan halfway through roasting. This creates a foaming butter that bastes the potatoes, ensuring a rich interior inside a crispy golden crust. Be precise with the tarragon - its bright flavor defines the dish.
 
 ## Directions
 
-1.  **Prep:** Preheat oven to 350°F. Line a baking dish with parchment.
-2.  **Toss:** Combine potato cubes, olive oil, salt, pepper, and tarragon in a large bowl. Toss vigorously until every chunk is heavily coated.
-3.  **Roast:** Arrange in a **single layer** (The Single-Layer Guard). Bake for 25 minutes.
-4.  **The Sizzle:** Remove pan. Add the cold butter cubes to the dish and toss the potatoes to coat in the melting fat.
-5.  **Finish:** Return to oven. Bake for 20 more minutes, tossing once, until the potatoes are deep golden brown and the edges are crispy.
-6.  **Serve:** Serve immediately while the herb aroma is at its peak.
+1. Cut potatoes into 1-1.5 inch cubes (do not peel).
+2. Arrange in a rose single layer in baking dish and add enough olive oil to coat. I also add a tablespoon or two of butter just because. Sprinkle with tarragon.
+3. Important note: tarragon can get surprising “hot” and spicy if used in excess, be careful.
+4. Bake for about 45 minutes at 350 degrees, turning potatoes once about half way through and again with about 5 minutes to go.

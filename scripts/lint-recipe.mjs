@@ -23,6 +23,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { execSync } from 'child_process';
+import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
 
 // ─── Configuration ───────────────────────────────────────────────────────────
 
@@ -188,13 +189,14 @@ function lintRecipe(filePath) {
   const { data, content: body } = matter(content);
   const slug = path.basename(filePath, '.md');
   const titleLower = (data.title || slug).toLowerCase();
+  const preservedOriginal = assertOriginalPreservation({ slug, data, content: body });
 
   // ── Template Chef's Notes ──────────────────────────────────────────────
 
   const noteMatch = body.match(/## Chef's Note\s*\n\n?([\s\S]*?)(?=\n## |\n---|\n$)/);
   const noteText = noteMatch ? noteMatch[1].trim() : '';
 
-  if (!noteText || noteText.length < 20) {
+  if ((!noteText || noteText.length < 20) && !preservedOriginal) {
     errors.push("Chef's Note is missing or too short (< 20 chars)");
   }
 
