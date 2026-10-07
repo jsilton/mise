@@ -1,3 +1,11 @@
+# Current accepted checkpoint — October 6, 2026
+
+All 16 former active holds have local accepted dispositions: 14 complete editorial repairs, Craig’s exact-original preservation at the user’s request, and retirement of Weeknight Paella. A distinct newly authored classic Paella Valenciana is also accepted. Active coverage is 650 complete editorial recipes and one intentional, unreviewed preserved original across 651 sources; zero active holds remain. The original 409 campaign accounts for391 already production-verified reviews,14 accepted reviews pending publication,3 user retirements (one pending publication), and1 original preservation pending publication. None of these repairs is kitchen-tested; no native-app sync. Exact remote CI/deployment and live-page verification remain required.
+
+[Final dispositions](editorial-campaign/2026-10-06/final-hold-dispositions.json).
+
+## Earlier verified checkpoint
+
 # Verified campaign state — October 6, 2026
 
 391 complete editorial versions from the original 409-source campaign are verified live; 16 active recipes remain held and two recipes were retired by explicit user choice. The retirements do not grant complete editorial review. All ten newly authored October 6 additions, counted separately, are now verified live. Active coverage is 635 complete / 16 pending across 651 sources. The two skin-on duck breast pages and two old-URL retirement notices match exact remote source commit [f24e176a](https://github.com/jsilton/mise/commit/f24e176a52ca80c31b0836054ec39a3a68a195b0) and its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37532758346). All 649 retained recipe sources and prior private identities/bindings are preserved. The 42 accelerated repairs remain a separate overlapping historical scope. Zero kitchen tests; no native-app sync. Desktop rendering, scaling and cooking interactions were verified; actual mobile rendering and printer/PDF pagination remain unverified.

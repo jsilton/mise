@@ -2,22 +2,22 @@
   "summary": {
     "inputCommit": "bacc1e4bdbd0e2715960d84f48a8eea57d4501b4",
     "recipes": 651,
-    "recordedCompleteEditorial": 635,
-    "completeEditorialPending": 16,
+    "recordedCompleteEditorial": 650,
+    "completeEditorialPending": 0,
     "originalBaseline": 612,
-    "originalReviewed": 585,
+    "originalReviewed": 599,
     "consideredConsolidations": 10,
-    "originalPending": 16,
-    "additionalSources": 50,
-    "additionalReviewed": 50,
+    "originalPending": 0,
+    "additionalSources": 51,
+    "additionalReviewed": 51,
     "additionalPending": 0,
     "automatedAudit": {
       "recipes": 651,
-      "editoriallyReviewed": 635,
+      "editoriallyReviewed": 650,
       "kitchenTested": 0,
       "errors": 0,
       "priorityReviews": 0,
-      "reviewItems": 38
+      "reviewItems": 11
     },
     "accelerated": {
       "implemented": 42,
@@ -27,19 +27,21 @@
     },
     "uniquePathsInSixRepairCommits": 105,
     "kitchenTested": 0,
-    "productionReconciliation": "391 complete editorial versions from the original 409-source campaign are verified live; 16 active recipes remain held and two recipes were retired by explicit user choice. The retirements do not grant complete editorial review. All ten newly authored October 6 additions, counted separately, are now verified live. Active coverage is 635 complete / 16 pending across 651 sources. The two skin-on duck breast pages and two old-URL retirement notices match exact remote source commit [f24e176a](https://github.com/jsilton/mise/commit/f24e176a52ca80c31b0836054ec39a3a68a195b0) and its [successful CI/deployment](https://github.com/jsilton/mise/actions/runs/37532758346). All 649 retained recipe sources and prior private identities/bindings are preserved. The 42 accelerated repairs remain a separate overlapping historical scope. Zero kitchen tests; no native-app sync. Desktop rendering, scaling and cooking interactions were verified; actual mobile rendering and printer/PDF pagination remain unverified.",
-    "latestAcceptanceInputCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
+    "productionReconciliation": "All 16 former active holds have local accepted dispositions: 14 complete editorial repairs, Craig’s exact-original preservation at the user’s request, and retirement of Weeknight Paella. A distinct newly authored classic Paella Valenciana is also accepted. Active coverage is 650 complete editorial recipes and one intentional, unreviewed preserved original across 651 sources; zero active holds remain. The original 409 campaign accounts for391 already production-verified reviews,14 accepted reviews pending publication,3 user retirements (one pending publication), and1 original preservation pending publication. None of these repairs is kitchen-tested; no native-app sync. Exact remote CI/deployment and live-page verification remain required.",
+    "latestAcceptanceInputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
     "latestRecipeCommitReconciledAtCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
     "newlyAuthoredOctober6": {
-      "recipes": 10,
-      "completeEditorial": 10,
+      "recipes": 11,
+      "completeEditorial": 11,
       "productionVerified": 10,
-      "publicationPending": 0
+      "publicationPending": 1
     },
-    "originalRetiredByUser": 1,
-    "additionalSourcesConsidered": 51,
+    "originalRetiredByUser": 2,
+    "additionalSourcesConsidered": 52,
     "additionalRetiredByUser": 1,
-    "retiredByUser": 2
+    "retiredByUser": 3,
+    "preservedByUser": 1,
+    "originalsPreservedByUser": 1
   },
   "collectionEvidence": [
     "docs/REVIEW_PROGRESS.md",
@@ -2300,23 +2302,12 @@
     {
       "currentPath": "src/content/recipes/boston-style-peking-ravioli.md",
       "slug": "boston-style-peking-ravioli",
-      "title": "Peking Ravioli",
+      "title": "Boston-Style Peking Ravioli",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Joyce Chen’s Peking ravioli handout, retained by GBH",
+      "sourceUrl": "https://www.wgbh.org/lifestyle/food/recipes/2018-02-15/joyce-chens-sweet-and-sour-pork-and-peking-ravioli",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -2324,20 +2315,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/boston-style-peking-ravioli.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/boston-style-peking-ravioli.json",
+        "sourceSha256": "80e2b12db5fbd9f46163045fea76bfebf56d1d65283a060219a0040739ab6047"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "Is the two-cup cabbage measured before or after draining, what salt amount cures it separately from the listed filling teaspoon, and are the pan oil/water amounts for every cooking batch or the whole recipe? Supply the intended dipping-sauce method.",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Texture/crispness and the32-piece operating plan are untasted; actual cabbage drain volume/pan fit need not be fabricated or demanded as household memory."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -4217,20 +4210,9 @@
       "title": "Chef Kriger’s Recipe Shabbat Brisket",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from campmicah.com",
+      "source": "Adapted from Chef Kriger, Camp Micah",
       "sourceUrl": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -4238,20 +4220,23 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
+        "sourceSha256": "4e57522842472280f0b08fbb2210d3416fe1e8b325f6fc2c7e582c0a6e560a3f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What are the intended ketchup bottle net amount, carrot-bag net weight and brisket weight/thickness, and should the2–4tbsp Worcestershire/Dijon/jelly source ranges or the current chosen amounts be used?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Kitchen check: sauce thickness, vessel fit and actual cooked yield for the authored 4½-lb batch.",
+        "Tenderness timing varies with cut/thickness; endpoint controls."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -5883,20 +5868,9 @@
       "title": "Chocolate Bread Pudding",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from The Ritz-Carlton, Cancun",
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Mise double-chocolate adaptation of King Arthur Test Kitchen’s bread pudding",
+      "sourceUrl": "https://www.kingarthurbaking.com/recipes/dark-chocolate-bread-pudding-recipe",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -5904,20 +5878,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
+        "sourceSha256": "99dffdabdd7dea8ba204ea27ff9b8417a205f41e3cdc7f84156f516d62697f26"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What is the intended split of the listed 1 1/2 cups cream, and which vessel/load and baking route is supported for the full 13 cups brioche mixture?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual cup size, portion count, finished yield and sensory result remain useful cooking observations; no measured outcome is claimed."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8464,18 +8440,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Rebecca Cybulsky",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8483,20 +8448,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/crustless-spinach-quiche.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/crustless-spinach-quiche.json",
+        "sourceSha256": "ff9a9634594efb77658aa7f18070ee283f943a316e202d435e4fe5742c2febe4"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What cheese amount, yogurt variation, oil and seasoning quantities did Rebecca Cybulsky intend or the family explicitly adopt, and which nine-inch plate depth/portion plan is used?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual plate fit, measured bake time and texture can refine the operating plan after cooking."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -8807,20 +8774,9 @@
       "title": "Dan Dan Noodles",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Judy Leung, The Woks of Life",
+      "sourceUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -8828,12 +8784,16 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/dan-dan-noodles.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/dan-dan-noodles.json",
+        "sourceSha256": "4210b47e739875567c11c5703afe97ca846815f048b69e1c0899a195e1251d71"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -8842,12 +8802,10 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "Is noodle cooking water 3–4 tbsp total or 3–4 tbsp per bowl, and what actual source establishes complete fresh-noodle, sesame-paste/tahini and extra chili-oil routes?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Paste/noodle brands affect sauce loosening and serving density; no family memory or tested exact yield is required."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12068,20 +12026,9 @@
       "title": "Golden Veil",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Mise authored Golden Veil adaptation; sparkling structure informed by French 75",
+      "sourceUrl": "https://www.mainespirits.com/recipes/french-75",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12089,22 +12036,22 @@
         "evidence": ["docs/repairs/2026-09-15/changed-files.json"]
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/golden-veil.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/golden-veil.json",
+        "sourceSha256": "79476272bfaea0ac2bfc500ce29383565c1d9ed7360a8aeb5d3cffe03c9148d0"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "How many glasses of what size does this full batch make, is six fluid ounces prosecco for the batch or each glass, and what shaker working capacity is used?",
-        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
-        "What are the intended number and size of servings? The saved recipe has no yield and uses plural glasses; the current one-serving claim conflicts with 9.5 fl oz shaken base plus 6 fl oz prosecco before dilution.",
-        "Does the 6 fl oz prosecco belong to the whole batch or each glass? Preserve all ingredients while this is unresolved.",
-        "Which shaker and glasses accommodate the actual intended load and ice/dilution? Do not invent a serving count or silently divide the formula."
+        "Final sweetness, smoke, dilution, and glass fill remain untasted; they are not invented source facts or a household memory blocker."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12159,18 +12106,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12178,20 +12114,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/grandmommys-pecan-pie.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/grandmommys-pecan-pie.json",
+        "sourceSha256": "1e56c4832977abb791c8d69152eaf3d9e1748f86366dcddf50635777d50f0dc7"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "Which family fat/seasoning/nut method is intended, and what actual shell preparation and usable capacity accommodate the full filling for two pies?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -12210,18 +12148,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -12229,20 +12156,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/grandmommys-pound-cake.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/grandmommys-pound-cake.json",
+        "sourceSha256": "b82c3d51305fefebde4b309b4dbb486f2cf3fe01e10eaadd7cd748aa77479c0e"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "Is the intended family route the saved half-pound butter plus one stick margarine with alternating flour/eggs, or the later all-butter route, and what cake/three-loaf capacities support its respective baking schedules?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14576,23 +14505,12 @@
     {
       "currentPath": "src/content/recipes/japanese-beef-rice-bowl-gyudon.md",
       "slug": "japanese-beef-rice-bowl-gyudon",
-      "title": "Japanese Beef Rice Bowl (Gyudon)",
+      "title": "Gyudon (Japanese Beef and Rice Bowls)",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Adapted from Sarah Leung, The Woks of Life",
+      "sourceUrl": "https://thewoksoflife.com/gyudon-recipe-beef-rice/",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -14600,12 +14518,16 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "historical implemented diff; acceptance scope requires linked record, not inferred from file touch",
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
+        "sourceSha256": "114e2ca7bc2492ec199955f9aa6f9e69b15af6c1ca9c2c2e6fc9d0eed46ee764"
+      },
       "implementationCommits": [
         {
           "commit": "a2c9e28069faa57c7bb7fe4ac5e7ca02b6462861",
@@ -14614,12 +14536,10 @@
         }
       ],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What brown-sugar/water proportions replace the quarter cup mirin, and what fat or measured cooking-liquid allocation is intended for the onion stage?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Exact evaporation and thin-beef tenderness in the household pan are unmeasured; these are not blockers to honest source-based planning."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -14751,20 +14671,9 @@
       "title": "Japchae (Korean Glass Noodle Stir-Fry)",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "source": "Mise household adaptation; shrimp option informed by Andrew Zimmern",
+      "sourceUrl": "https://andrewzimmern.com/recipes/shrimp-japchae/",
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": "targeted repair",
         "acceleratedEvidence": {
@@ -14775,12 +14684,16 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": "accepted accelerated targeted repair",
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
+        "sourceSha256": "9072d7a7403d462fca1dec8f7bd8c1872b5b6bd8528e78d43e9eda73fd3a587e"
+      },
       "implementationCommits": [
         {
           "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5",
@@ -14789,13 +14702,10 @@
         }
       ],
       "productionVerification": {
-        "status": "retained handoff verified deployment; not rechecked live in this reconciliation",
-        "commit": "ee9c707878074d7d56dcb3fb737afb537051aba5"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "For vegetarian japchae, omit or redirect the beef marinade shares; for shrimp, what amount and marinade/cooking sequence replaces the beef?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Household pan-load time and the richer shrimp proportion are untested observations, not required to invent a remembered yield."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -16236,18 +16146,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -16255,20 +16154,23 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/mandarinpineapple-organge-salad.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/mandarinpineapple-organge-salad.json",
+        "sourceSha256": "0932ae77f59f3bd2936451e9f3a1280bd50f1076568290c89fe20d9ec7c223b6"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What are the gelatin box type/weight, both fruit-can sizes and intended pineapple liquid, including whether the original “with rice” means “with juice”?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Historical package sizes and native with-rice wording remain unknown and are not asserted recovered.",
+        "Kitchen check: soft-set firmness, actual dish load and portion volume with these explicit products."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -17800,18 +17702,7 @@
       "baseline": "original canonical",
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -17819,22 +17710,23 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/nana-ruths-applesauce.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/nana-ruths-applesauce.json",
+        "sourceSha256": "2a75e3b4c0e17e59f1d9529c4385f0ee8912099a5d21dffe59de2d04a57c809f"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What actual honey amount did the quarter-jar mean, what water unit/level did “1/4 water” mean, and how much less than three-quarters of a lemon was intended?",
-        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
-        "What jar size and actual quarter-jar honey amount did Nana Ruth use?",
-        "What does the saved “¼ water” mean, in which pot, and how much of the less-than-three-quarter lemon juice is intended? The d330 rewrite’s quarter cup honey, quarter-inch water and whole lemon are not established equivalents or family decisions.",
-        "What is the actual portion plan for the full six-pound McIntosh batch? Preserve Ruth Shankman’s Rosh Hashanah, Thanksgiving and Hanukkah context; native yield is unrecorded."
+        "Kitchen check: preferred lemon/spice balance and final reduction at the authored measurements.",
+        "Actual cooked volume and side-portion size have not been measured."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -25958,20 +25850,9 @@
       "title": "Spinach & Mushroom Quiche",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from eatingwell.com",
+      "source": "Adapted from Julia Levy, EatingWell; pastry version",
       "sourceUrl": "https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/",
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -25979,22 +25860,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/spinach-and-mushroom-quiche.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/spinach-and-mushroom-quiche.json",
+        "sourceSha256": "565aa357c98b240dbdd6665733e650053e211a20e381ab5e901fad72932bfe8a"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "Should the complete saved crustless route be represented alongside the current crusted main, and which actual crust preparation and usable pan capacity supports the full filling in the crusted route?",
-        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
-        "Which crust recipe or package, prebake state and pie-pan depth are intended, and does the full filling fit with headroom?",
-        "Does the household want the complete saved/current-publisher crustless route alongside the later crusted main? No explicit later rejection of that source route was established.",
-        "Resolve the route before restoring oil, seasoning and source garnish destinations; the saved and publisher formulas establish a crustless quiche, not the current crust’s capacity."
+        "Actual pastry recipe, fitted plate capacity and measured bake time will refine the chosen route, without being portrayed as recovered source geometry."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -26716,23 +26597,12 @@
     {
       "currentPath": "src/content/recipes/strawberry-congealed-salad.md",
       "slug": "strawberry-congealed-salad",
-      "title": "Strawberry Orange Jello Salad",
+      "title": "Strawberry Congealed Salad",
       "legacyAliases": [],
       "baseline": "original canonical",
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
+      "automatedFlags": [],
       "targetedReview": {
         "acceleratedDisposition": null,
         "acceleratedEvidence": null,
@@ -26740,22 +26610,24 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/strawberry-congealed-salad.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/strawberry-congealed-salad.json",
+        "sourceSha256": "6edc97110a3e870cda0a8e684c831dbdf467e84461468c578f702ba178678f99"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "What gelatin type/weight and pineapple-can amount are intended, which banana/optional-pecan amounts and title are accepted, and what cold handling allows the reserved second layer to remain pourable?",
-        "Whole-recipe acceptance held; current questionable claims are not endorsed.",
-        "What are the exact gelatin box weight/type and pineapple can size/drained quantity?",
-        "Confirm three medium versus large bananas, optional one cup versus half cup pecans, intended dish capacity, portion plan and strawberry/orange title.",
-        "How was the reserved second layer kept cold and, if necessary, reliquefied without an invented liquid amount? No formula, dietary or chilling claim is endorsed while these questions remain unresolved."
+        "Historical gelatin/can package sizes remain unknown and are not claimed recovered.",
+        "Kitchen check: actual finished volume, firm slicing, full dish headroom and remelt/layer adhesion at the authored contemporary products.",
+        "No shelf-stable/preservation validation is claimed; cold holding uses a conservative generic leftover window."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -27752,18 +27624,33 @@
       "title": "Tarragon Potatoes",
       "legacyAliases": [],
       "baseline": "original canonical",
-      "source": "Adapted from Craig Plummer",
+      "source": "Craig Plummer",
       "sourceUrl": null,
       "automatedFlags": [
+        {
+          "code": "missing-prepTime",
+          "severity": "review",
+          "message": "prepTime needs a useful value."
+        },
+        {
+          "code": "missing-cookTime",
+          "severity": "review",
+          "message": "cookTime needs a useful value."
+        },
+        {
+          "code": "missing-totalTime",
+          "severity": "review",
+          "message": "totalTime needs a useful value."
+        },
+        {
+          "code": "missing-servings",
+          "severity": "review",
+          "message": "servings needs a useful value."
+        },
         {
           "code": "teaching-review-needed",
           "severity": "review",
           "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
         }
       ],
       "targetedReview": {
@@ -27773,20 +27660,22 @@
         "evidence": []
       },
       "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
+        "status": "not granted; original-preserved-by-user",
+        "record": "docs/reviews/tarragon-potatoes.json",
         "recordImplementationCommit": null
       },
       "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
+      "acceptedChange": {
+        "status": "exact original restored by explicit user choice; no complete culinary approval",
+        "evidence": "docs/reviews/tarragon-potatoes.json",
+        "sourceSha256": "cea9295841ffaf07d80e120c9d465f62ada47878f978090d5eb49b7c4e037091"
+      },
       "implementationCommits": [],
       "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
       },
       "remainingQuestions": [
-        "Are the current measured potato/oil/tarragon/seasoning quantities and six portions approved, and should Craig’s initial-butter/unpeeled 1–1.5-inch route remain distinct?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Deliberately unmeasured original; user preservation excludes reconstruction. Automated prompts and physical cooking observations are not resolved by this disposition."
       ],
       "kitchenTesting": {
         "status": "not performed / no recorded test",
@@ -29289,54 +29178,6 @@
       "historicalEvidence": []
     },
     {
-      "currentPath": "src/content/recipes/weeknight-paella.md",
-      "slug": "weeknight-paella",
-      "title": "Weeknight Paella",
-      "legacyAliases": [],
-      "baseline": "original canonical",
-      "source": null,
-      "sourceUrl": null,
-      "automatedFlags": [
-        {
-          "code": "teaching-review-needed",
-          "severity": "review",
-          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
-        },
-        {
-          "code": "nutrition-verification",
-          "severity": "review",
-          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
-        }
-      ],
-      "targetedReview": {
-        "acceleratedDisposition": null,
-        "acceleratedEvidence": null,
-        "historicalCommitTouches": 0,
-        "evidence": []
-      },
-      "completeEditorialReview": {
-        "status": "pending",
-        "record": null,
-        "recordImplementationCommit": null
-      },
-      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
-      "acceptedChange": null,
-      "implementationCommits": [],
-      "productionVerification": {
-        "status": "unknown per-recipe; main e24cf89a deployment failed; last successful main deployment ba7d01d7 run 37346376561"
-      },
-      "remainingQuestions": [
-        "Which actual Bomba/Calasparra rice package, pan diameter/depth and burner coverage are intended, and is the Spanish chorizo fully cooked/ready-to-eat or raw/partly cured?",
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
-      ],
-      "kitchenTesting": {
-        "status": "not performed / no recorded test",
-        "testNotes": null
-      },
-      "historicalEvidence": ["docs/audits/2026-09-07-one-time-consistency.json"]
-    },
-    {
       "currentPath": "src/content/recipes/whipped-feta-with-honey.md",
       "slug": "whipped-feta-with-honey",
       "title": "Whipped Feta with Honey and Pistachios",
@@ -29897,6 +29738,44 @@
         "testNotes": null
       },
       "historicalEvidence": ["docs/audits/2026-09-07-one-time-consistency.json"]
+    },
+    {
+      "currentPath": "src/content/recipes/paella-valenciana.md",
+      "slug": "paella-valenciana",
+      "title": "Paella Valenciana",
+      "legacyAliases": [],
+      "baseline": "additional source outside immutable original baseline",
+      "source": "Adapted from Turisme Comunitat Valenciana’s Paella Valenciana, with documented ingredient-state and cooking guidance",
+      "sourceUrl": "https://multimedia.comunitatvalenciana.com/02DE7ACEB70B406FB083C79314A85B50/doc/7791B45ACAB1455ABAB179442017C123/Paella_Valenciana_EN.pdf",
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "implementationCommits": [],
+      "historicalEvidence": [],
+      "completeEditorialReview": {
+        "status": "complete editorial review; accepted locally; publication pending",
+        "record": "docs/reviews/paella-valenciana.json",
+        "recordImplementationCommit": null
+      },
+      "acceptedChange": {
+        "status": "complete authored recipe accepted and integrated locally",
+        "evidence": "docs/reviews/paella-valenciana.json",
+        "sourceSha256": "d5295343e8c3efd278da36504376fa5007d83bef7e65ba789b0b07a14b87b1f8"
+      },
+      "productionVerification": {
+        "status": "Publication pending; exact new remote source/CI/live page verification required"
+      },
+      "remainingQuestions": [
+        "Actual finished yield, salt dose, timing and texture require kitchen observation;not a publication prerequisite if peer accepts the explicit operating assumptions"
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "automatedFlags": []
     }
   ],
   "retiredRecipes": [
@@ -30033,6 +29912,70 @@
       },
       "latestDispositionCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
       "remainingQuestionsDisposition": "Historical unresolved recipe questions retained as evidence; user retirement removes this recipe from the active review queue."
+    },
+    {
+      "currentPath": null,
+      "slug": "weeknight-paella",
+      "title": "Weeknight Paella",
+      "legacyAliases": [],
+      "baseline": "original canonical",
+      "source": null,
+      "sourceUrl": null,
+      "automatedFlags": [
+        {
+          "code": "teaching-review-needed",
+          "severity": "review",
+          "message": "Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources."
+        },
+        {
+          "code": "nutrition-verification",
+          "severity": "review",
+          "message": "Legacy nutrition is withheld from the page pending ingredient-weight and yield verification."
+        }
+      ],
+      "targetedReview": {
+        "acceleratedDisposition": null,
+        "acceleratedEvidence": null,
+        "historicalCommitTouches": 0,
+        "evidence": []
+      },
+      "completeEditorialReview": {
+        "status": "incomplete; retired by explicit user choice",
+        "record": "docs/reviews/weeknight-paella.json",
+        "recordImplementationCommit": null
+      },
+      "latestRecipeCommit": "322c9b0f250155fb35eabf1c52fa1da17b0a8c79",
+      "acceptedChange": {
+        "status": "user-authorized retirement; locally implemented",
+        "evidence": "docs/reviews/weeknight-paella.json"
+      },
+      "implementationCommits": [],
+      "productionVerification": {
+        "status": "retirement publication pending"
+      },
+      "remainingQuestions": [
+        "Which actual Bomba/Calasparra rice package, pan diameter/depth and burner coverage are intended, and is the Spanish chorizo fully cooked/ready-to-eat or raw/partly cured?",
+        "Complete editorial review pending; automated absence of flags is not approval.",
+        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+      ],
+      "kitchenTesting": {
+        "status": "not performed / no recorded test",
+        "testNotes": null
+      },
+      "historicalEvidence": ["docs/audits/2026-09-07-one-time-consistency.json"],
+      "lastSourcePath": "src/content/recipes/weeknight-paella.md",
+      "retirement": {
+        "title": "Weeknight Paella",
+        "date": "2026-10-06",
+        "status": "retired-by-user",
+        "reason": "User explicitly retired the weeknight shrimp/chorizo formula and requested a distinct proper classic paella.",
+        "record": "docs/reviews/weeknight-paella.md",
+        "lastSourcePath": "src/content/recipes/weeknight-paella.md",
+        "lastSourceCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
+        "lastSourceSha256": "be3af8ab0cd28cc3bdfcd88537a1fd2a5e3daadbac6b5b368271e763cbb4b0d9",
+        "source": null,
+        "sourceUrl": null
+      }
     }
   ]
 }

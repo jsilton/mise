@@ -1515,14 +1515,28 @@
       "source": null,
       "sourceUrl": null,
       "group": "dumplings_wonton_mains_01",
-      "status": "held",
-      "reviewEvidence": ["private author assignment; independent/root gate pending"],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": [
+        "private author assignment; independent/root gate pending",
+        "docs/reviews/boston-style-peking-ravioli.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Whole hold: saved first source does not resolve cabbage salting versus listed filling salt, cabbage before/after drain, pan oil/water or missing sauce method. Existing questionable claims are not approved."
+        "Texture/crispness and the32-piece operating plan are untasted; actual cabbage drain volume/pan fit need not be fabricated or demanded as household memory."
       ],
       "inputSha256": "1ebf696c5b96559f90bc5c2e13b395107aec4a4ee1ef56e95129b7dcb9e82a59",
-      "plannedBatch": "stir-fry-and-pan-cooking-01"
+      "plannedBatch": "stir-fry-and-pan-cooking-01",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Whole hold: saved first source does not resolve cabbage salting versus listed filling salt, cabbage before/after drain, pan oil/water or missing sauce method. Existing questionable claims are not approved."
+        ]
+      },
+      "acceptedSha256": "80e2b12db5fbd9f46163045fea76bfebf56d1d65283a060219a0040739ab6047",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "boulevardier",
@@ -2386,17 +2400,32 @@
       "source": "Adapted from campmicah.com",
       "sourceUrl": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/",
       "group": "beef_lamb_mains_01",
-      "status": "held",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/chef-krigers-recipe-shabbat-brisket.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Ketchup bottle and carrot-bag sizes are absent in exactnative, earlierHTML, firstMarkdown and complete laterhistory; liveCampMicah fetch unavailable. Source brisket has no weight;4–5 lb/12 portions are bulk 59 a 6188 e additions. No reliable sauce-to-meat/capacity or 1½–2 hour tender guarantee is established."
+        "Kitchen check: sauce thickness, vessel fit and actual cooked yield for the authored 4½-lb batch.",
+        "Tenderness timing varies with cut/thickness; endpoint controls."
       ],
       "inputSha256": "9245bcdd9c037f5f9e9a7b284213c4353009a1d533a013a7347a32ae4f3ba921",
       "plannedBatch": "braises-and-slow-cooking-01",
       "owner": "poultry_editor",
-      "reviewPhase": "Author whole hold; no acceptance or endorsement",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Ketchup bottle and carrot-bag sizes are absent in exactnative, earlierHTML, firstMarkdown and complete laterhistory; liveCampMicah fetch unavailable. Source brisket has no weight;4–5 lb/12 portions are bulk 59 a 6188 e additions. No reliable sauce-to-meat/capacity or 1½–2 hour tender guarantee is established."
+        ],
+        "reviewPhase": "Author whole hold; no acceptance or endorsement"
+      },
+      "acceptedSha256": "4e57522842472280f0b08fbb2210d3416fe1e8b325f6fc2c7e582c0a6e560a3f",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "chewy-chocolate-meringues",
@@ -2765,19 +2794,30 @@
       "source": "Adapted from The Ritz-Carlton, Cancun",
       "sourceUrl": null,
       "group": "chocolate_bakes_03",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Confirm exact intended cream reservation from1½cups total, or actual original author correction.",
-        "Confirm prepared filled volume/headroom and intended eight6ozcups versus later9×13dish; different baking schedules cannot be assumed equivalent.",
-        "Confirm all2cupsicecream serve allocation and actual portion yield; current45minute total does not account clearly for15minute soaking."
+        "Actual cup size, portion count, finished yield and sensory result remain useful cooking observations; no measured outcome is claimed."
       ],
       "inputSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
       "plannedBatch": "baked-sweets-01",
       "owner": "coverage_check",
-      "reviewPhase": "Author whole hold; no acceptance or endorsement",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json"
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/chocolate_bakes_03/results.json",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Confirm exact intended cream reservation from1½cups total, or actual original author correction.",
+          "Confirm prepared filled volume/headroom and intended eight6ozcups versus later9×13dish; different baking schedules cannot be assumed equivalent.",
+          "Confirm all2cupsicecream serve allocation and actual portion yield; current45minute total does not account clearly for15minute soaking."
+        ],
+        "reviewPhase": "Author whole hold; no acceptance or endorsement"
+      },
+      "acceptedSha256": "99dffdabdd7dea8ba204ea27ff9b8417a205f41e3cdc7f84156f516d62697f26",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "chocolate-chia-pudding",
@@ -3820,17 +3860,28 @@
       "source": "Adapted from Rebecca Cybulsky",
       "sourceUrl": null,
       "group": "egg_bakes_01",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/crustless-spinach-quiche.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual plate fit, measured bake time and texture can refine the operating plan after cooking."
       ],
       "inputSha256": "213f4cd793a6e307be985e9391cc83b7e3e1be7f93779dd40442b009e4736793",
       "plannedBatch": "baked-savory-and-breads-04",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "213f4cd793a6e307be985e9391cc83b7e3e1be7f93779dd40442b009e4736793"
+      "assignmentInputSha256": "213f4cd793a6e307be985e9391cc83b7e3e1be7f93779dd40442b009e4736793",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Complete editorial review pending; automated absence of flags is not approval.",
+          "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        ]
+      },
+      "acceptedSha256": "ff9a9634594efb77658aa7f18070ee283f943a316e202d435e4fe5742c2febe4",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "cu-chao-mian",
@@ -3953,17 +4004,29 @@
       "source": null,
       "sourceUrl": null,
       "group": "noodle_pan_mains_02",
-      "status": "held",
+      "status": "accepted-pending-publication",
       "reviewEvidence": [
-        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending"
+        "private whole-recipe noodle_pan_mains_02 proposal/record; independent/root gate pending",
+        "docs/reviews/dan-dan-noodles.json"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Paste/noodle brands affect sauce loosening and serving density; no family memory or tested exact yield is required."
       ],
       "inputSha256": "0e4c8da4c1088bc6738e673c11fbf25952e416a062e42174c9a5432844872480",
-      "plannedBatch": "simmer-boil-and-steam-03"
+      "plannedBatch": "simmer-boil-and-steam-03",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Complete editorial review pending; automated absence of flags is not approval.",
+          "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        ]
+      },
+      "acceptedSha256": "4210b47e739875567c11c5703afe97ca846815f048b69e1c0899a195e1251d71",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "dashi-japanese-sea-stock",
@@ -5488,20 +5551,34 @@
       "source": null,
       "sourceUrl": null,
       "group": "beverages_mixes_22",
-      "status": "held",
-      "reviewEvidence": ["docs/repairs/2026-09-15/changed-files.json"],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": [
+        "docs/repairs/2026-09-15/changed-files.json",
+        "docs/reviews/golden-veil.json"
+      ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "What is the intended number and size of servings?",
-        "Does the 6 fl oz prosecco belong to the whole batch or each glass?",
-        "Which shaker and glasses safely accommodate the actual intended load?"
+        "Final sweetness, smoke, dilution, and glass fill remain untasted; they are not invented source facts or a household memory blocker."
       ],
       "inputSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df",
       "plannedBatch": "cold-preparations-02",
       "assignment": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/assignment.json",
-      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/beverages_mixes_22/manifest.json",
-      "authorSourceSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df"
+      "authorSourceSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "What is the intended number and size of servings?",
+          "Does the 6 fl oz prosecco belong to the whole batch or each glass?",
+          "Which shaker and glasses safely accommodate the actual intended load?"
+        ],
+        "reviewPhase": "Whole author evidence hold; no acceptance of current claims"
+      },
+      "acceptedSha256": "79476272bfaea0ac2bfc500ce29383565c1d9ed7360a8aeb5d3cffe03c9148d0",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "grandmommys-pecan-pie",
@@ -5510,17 +5587,28 @@
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": "pies_tarts_05",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/grandmommys-pecan-pie.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
       ],
       "inputSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07",
       "plannedBatch": "baked-sweets-04",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
-      "assignmentInputSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07"
+      "assignmentInputSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Complete editorial review pending; automated absence of flags is not approval.",
+          "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        ]
+      },
+      "acceptedSha256": "1e56c4832977abb791c8d69152eaf3d9e1748f86366dcddf50635777d50f0dc7",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "grandmommys-pound-cake",
@@ -5529,19 +5617,30 @@
       "source": "Adapted from Miriam Hamilton",
       "sourceUrl": null,
       "group": "layer_family_cakes_05",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/grandmommys-pound-cake.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Complete editorial review pending; automated absence of flags is not approval.",
-        "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        "Actual vessel dimensions, finished yield, measured bake/cooling clocks and sensory outcome can refine this recipe after cooking; they are not claimed recovered or tested."
       ],
       "inputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
       "plannedBatch": "baked-sweets-04",
       "assignmentInputCommit": "f14b15b846b3cac895cc09c7830250c1a48d27d3",
       "assignmentInputSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
-      "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json"
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/layer_family_cakes_05/manifest.json",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Complete editorial review pending; automated absence of flags is not approval.",
+          "Recipe-specific open questions remain in linked review records; historical audit findings require current-source recheck."
+        ],
+        "reviewPhase": "Whole author disposition frozen; independent/root acceptance pending"
+      },
+      "acceptedSha256": "b82c3d51305fefebde4b309b4dbb486f2cf3fe01e10eaadd7cd748aa77479c0e",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "granola",
@@ -6503,17 +6602,28 @@
       "source": null,
       "sourceUrl": null,
       "group": "beef_lamb_mains_01",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/japanese-beef-rice-bowl-gyudon.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "The exactGit-created mirin alternative says brown sugar+water without proportions. The original/current onion sauté uses unlistedpinchsalt and no specifiedfat or cookingliquid. Adding oil or spending an invented fraction of the measuredstock would silently create a new formula; a complete alternative/cooking clarification is needed."
+        "Exact evaporation and thin-beef tenderness in the household pan are unmeasured; these are not blockers to honest source-based planning."
       ],
       "inputSha256": "bebd1baa852b87e45ffa6c4639b0a8477afcd79d9e47a42201e2b5af99a3404d",
       "plannedBatch": "simmer-boil-and-steam-06",
       "owner": "poultry_editor",
-      "reviewPhase": "Author whole hold; no acceptance or endorsement",
-      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json"
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "authorEvidence": ".mise/editorial-campaign/2026-10-05/beef_lamb_mains_01/results.json",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "The exactGit-created mirin alternative says brown sugar+water without proportions. The original/current onion sauté uses unlistedpinchsalt and no specifiedfat or cookingliquid. Adding oil or spending an invented fraction of the measuredstock would silently create a new formula; a complete alternative/cooking clarification is needed."
+        ],
+        "reviewPhase": "Author whole hold; no acceptance or endorsement"
+      },
+      "acceptedSha256": "114e2ca7bc2492ec199955f9aa6f9e69b15af6c1ca9c2c2e6fc9d0eed46ee764",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "japanese-style-trout-with-dashi",
@@ -6554,15 +6664,26 @@
       "source": null,
       "sourceUrl": null,
       "group": "noodle_pan_mains_04",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/japchae-korean-glass-noodle-stir-fry.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Alternate vegetarian/shrimp route marinade quantities and destinations not established; current primary targeted repair remains unchanged."
+        "Household pan-load time and the richer shrimp proportion are untested observations, not required to invent a remembered yield."
       ],
       "inputSha256": "3f3637cf5ee2ede91408e3976edcaabd1021ab6ecbe633bfe9112d5e14fb8a45",
       "plannedBatch": "stir-fry-and-pan-cooking-03",
-      "reviewPhase": "Whole author hold; prior targeted repair preserved; independent hold challenge pending"
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Alternate vegetarian/shrimp route marinade quantities and destinations not established; current primary targeted repair remains unchanged."
+        ],
+        "reviewPhase": "Whole author hold; prior targeted repair preserved; independent hold challenge pending"
+      },
+      "acceptedSha256": "9072d7a7403d462fca1dec8f7bd8c1872b5b6bd8528e78d43e9eda73fd3a587e",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "jeris-lentil-soup",
@@ -7055,21 +7176,21 @@
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
       "group": "cold_salads_03",
-      "status": "held",
+      "status": "accepted-pending-publication",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/cold_salads_03/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/cold_salads_03/records/mandarinpineapple-organge-salad.json"
+        ".mise/editorial-campaign/2026-10-05/cold_salads_03/records/mandarinpineapple-organge-salad.json",
+        "docs/reviews/mandarinpineapple-organge-salad.json"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "What actual orange Jell-O box weight/type and both fruit can net/drained sizes are intended?",
-        "Does family pineapple notewithrice meanwithjuice, and what liquidquantity reachesgelatin? Currentinterpretation notindependentlycertified.",
-        "What actual bowl/mold volume, portions and chilling endpoint are intended? No nutrition/yield precision or tested4hguarantee."
+        "Historical package sizes and native with-rice wording remain unknown and are not asserted recovered.",
+        "Kitchen check: soft-set firmness, actual dish load and portion volume with these explicit products."
       ],
       "inputSha256": "1ef61dd8cf9bf18618d995246ee624927f6d306c6f6ff2d2023c71df72e39c2f",
       "plannedBatch": "simmer-boil-and-steam-06",
       "reviewer": "coverage_check",
-      "completeEditorialReview": false,
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/cold_salads_03/manifest.json",
         "manifestSha256": "5273f742440464916245bd8700a4601841f3965346d11ceb539a6365d3aed4b3",
@@ -7077,6 +7198,18 @@
         "sourceSha256": "1ef61dd8cf9bf18618d995246ee624927f6d306c6f6ff2d2023c71df72e39c2f",
         "recordPath": ".mise/editorial-campaign/2026-10-05/cold_salads_03/records/mandarinpineapple-organge-salad.json",
         "recordSha256": "120cc1780bb046f3fa0baead8ee920c3b61fefccfd76eb087ea103b4bb03c857"
+      },
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "What actual orange Jell-O box weight/type and both fruit can net/drained sizes are intended?",
+          "Does family pineapple notewithrice meanwithjuice, and what liquidquantity reachesgelatin? Currentinterpretation notindependentlycertified.",
+          "What actual bowl/mold volume, portions and chilling endpoint are intended? No nutrition/yield precision or tested4hguarantee."
+        ]
+      },
+      "acceptedSha256": "0932ae77f59f3bd2936451e9f3a1280bd50f1076568290c89fe20d9ec7c223b6",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
       }
     },
     {
@@ -7604,20 +7737,32 @@
       "source": "Adapted from Ruth Shankman",
       "sourceUrl": null,
       "group": "sides_pressure_preservation_24",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/nana-ruths-applesauce.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "What jarsize/actual¼jarhoney amount didNana use?",
-        "What “¼water” unitandpot geometry, andhowmuchless-than¾lemonjuice? Is currentd330¼cup/¼inch/fulllemon anexplicitwanted separatevariation?",
-        "Nativeyieldunknown: doesfull6lbpeeledMcIntosh batchserve6oractualfamilyportionplan? PreserveRoshHashanah/Thanksgiving/Hanukkah/Ruthcredit."
+        "Kitchen check: preferred lemon/spice balance and final reduction at the authored measurements.",
+        "Actual cooked volume and side-portion size have not been measured."
       ],
       "inputSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236",
       "plannedBatch": "simmer-boil-and-steam-07",
       "assignment": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/assignment.json",
-      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/sides_pressure_preservation_24/manifest.json",
-      "authorSourceSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236"
+      "authorSourceSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "What jarsize/actual¼jarhoney amount didNana use?",
+          "What “¼water” unitandpot geometry, andhowmuchless-than¾lemonjuice? Is currentd330¼cup/¼inch/fulllemon anexplicitwanted separatevariation?",
+          "Nativeyieldunknown: doesfull6lbpeeledMcIntosh batchserve6oractualfamilyportionplan? PreserveRoshHashanah/Thanksgiving/Hanukkah/Ruthcredit."
+        ],
+        "reviewPhase": "Whole author evidence hold; no acceptance of current claims"
+      },
+      "acceptedSha256": "2a75e3b4c0e17e59f1d9529c4385f0ee8912099a5d21dffe59de2d04a57c809f",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "nanas-biscuits",
@@ -10923,20 +11068,31 @@
       "source": "Adapted from eatingwell.com",
       "sourceUrl": "https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/",
       "group": "savory_breakfast_bakes_21",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/spinach-and-mushroom-quiche.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Which crustrecipe/package, blindbake state and piepan depth are intended, and does the fullfilling fitwithheadroom?",
-        "Does the household wantthecompletecrustlesssource option alongsidecrustedmain? No laterexplicitsupersedingdecisionestablished.",
-        "Oil/saltpepper/sourcegarnish canbe restoredoncechosenrouteisresponsiblyrepresented; native/currentpublisherprovidecrustlessformula only."
+        "Actual pastry recipe, fitted plate capacity and measured bake time will refine the chosen route, without being portrayed as recovered source geometry."
       ],
       "inputSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e",
       "plannedBatch": "baked-savory-and-breads-10",
       "assignment": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/assignment.json",
-      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/savory_breakfast_bakes_21/manifest.json",
-      "authorSourceSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e"
+      "authorSourceSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Which crustrecipe/package, blindbake state and piepan depth are intended, and does the fullfilling fitwithheadroom?",
+          "Does the household wantthecompletecrustlesssource option alongsidecrustedmain? No laterexplicitsupersedingdecisionestablished.",
+          "Oil/saltpepper/sourcegarnish canbe restoredoncechosenrouteisresponsiblyrepresented; native/currentpublisherprovidecrustlessformula only."
+        ],
+        "reviewPhase": "Whole author evidence hold; no acceptance of current claims"
+      },
+      "acceptedSha256": "565aa357c98b240dbdd6665733e650053e211a20e381ab5e901fad72932bfe8a",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "spindrift-gin-fizz",
@@ -11181,19 +11337,32 @@
       "source": "Adapted from Gwock Family",
       "sourceUrl": null,
       "group": "breads_crafts_dumplings_23",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "accepted-pending-publication",
+      "reviewEvidence": ["docs/reviews/strawberry-congealed-salad.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "All missing-dose/title/capacity/gelatinproduct/reservedlayer questions remain whole blockers. No candidateacceptance, partialcompletionor kitchenclaim.",
-        "What exact large gelatin box weight/strength and pineapplecan size/drainedquantity? Confirm3mediumversuslargebananas,optional1cupversus½cuppecans, intendeddish/yield/title. How was reservedsecondlayerkeptcoldandreliquifiedifnecessary withoutnewliquid? No vegetarianclaim untilgelatinproductverified."
+        "Historical gelatin/can package sizes remain unknown and are not claimed recovered.",
+        "Kitchen check: actual finished volume, firm slicing, full dish headroom and remelt/layer adhesion at the authored contemporary products.",
+        "No shelf-stable/preservation validation is claimed; cold holding uses a conservative generic leftover window."
       ],
       "inputSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674",
       "plannedBatch": "simmer-boil-and-steam-10",
       "assignment": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/assignment.json",
-      "reviewPhase": "Whole author evidence hold; no acceptance of current claims",
+      "reviewPhase": "Whole author, independent editor and root acceptance; publication pending",
       "authorManifest": ".mise/editorial-campaign/2026-10-05/breads_crafts_dumplings_23/manifest.json",
-      "authorSourceSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674"
+      "authorSourceSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "All missing-dose/title/capacity/gelatinproduct/reservedlayer questions remain whole blockers. No candidateacceptance, partialcompletionor kitchenclaim.",
+          "What exact large gelatin box weight/strength and pineapplecan size/drainedquantity? Confirm3mediumversuslargebananas,optional1cupversus½cuppecans, intendeddish/yield/title. How was reservedsecondlayerkeptcoldandreliquifiedifnecessary withoutnewliquid? No vegetarianclaim untilgelatinproductverified."
+        ],
+        "reviewPhase": "Whole author evidence hold; no acceptance of current claims"
+      },
+      "acceptedSha256": "6edc97110a3e870cda0a8e684c831dbdf467e84461468c578f702ba178678f99",
+      "completeEditorialReview": "editorial-review; kitchen testing not performed",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "strawberry-quinoa-breakfast-bars",
@@ -11656,18 +11825,29 @@
       "source": "Adapted from Craig Plummer",
       "sourceUrl": null,
       "group": "potatoes_cauliflower_01",
-      "status": "held",
-      "reviewEvidence": [],
+      "status": "original-preserved-pending-publication",
+      "reviewEvidence": ["docs/reviews/tarragon-potatoes.json"],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
-        "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
-        "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
+        "Deliberately unmeasured original; user preservation excludes reconstruction. Automated prompts and physical cooking observations are not resolved by this disposition."
       ],
       "inputSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
       "plannedBatch": "baked-savory-and-breads-11",
       "assignmentInputCommit": "95b37f8bca5008657a668e52a1d970b1d03367d3",
-      "assignmentInputSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc"
+      "assignmentInputSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
+          "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
+          "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
+        ]
+      },
+      "acceptedSha256": "cea9295841ffaf07d80e120c9d465f62ada47878f978090d5eb49b7c4e037091",
+      "completeEditorialReview": "not granted",
+      "reviewPhase": "Explicit user disposition; publication pending; no complete editorial approval",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
+      }
     },
     {
       "slug": "thai-basil-ginger-spritzer",
@@ -12197,22 +12377,20 @@
       "source": null,
       "sourceUrl": null,
       "group": "seafood_soups_10",
-      "status": "held",
+      "status": "retired-pending-publication",
       "reviewEvidence": [
         ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
-        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/weeknight-paella.json"
+        ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/weeknight-paella.json",
+        "docs/reviews/weeknight-paella.json"
       ],
       "automatedFlags": ["teaching-review-needed", "nutrition-verification"],
       "remainingQuestions": [
-        "Identify the actual Bomba or Calasparra rice product/package instructions, pan dimensions and burner coverage used with1½cups rice/3cups broth plus½cup tomato puree.",
-        "Is the Spanish chorizo labeled fully cooked/ready to eat, or is it raw/partly cured? Preserve its full½lb; raw ground-meat endpoints differ from ready-to-eat rendering.",
-        "How does the chosen load bring every shrimp thick center to145°F before finishing/resting, while the rice becomes tender and the bottom toasts without burning?",
-        "The linked meal also permits generic short-grain rice and gives45minutes versus source50; hold linked meal acceptance rather than certifying it from this recipe review."
+        "No physical kitchen testing; historical questions are retained as evidence."
       ],
       "inputSha256": "be3af8ab0cd28cc3bdfcd88537a1fd2a5e3daadbac6b5b368271e763cbb4b0d9",
       "plannedBatch": "stir-fry-and-pan-cooking-07",
       "assignment": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/assignment.json",
-      "completeEditorialReview": false,
+      "completeEditorialReview": "not granted",
       "authorCheckpoint": {
         "manifestPath": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/manifest.json",
         "manifestSha256": "707eb6a904005e53325d787305afa735b4cc22a6635e43dd905ab40e19f32286",
@@ -12220,6 +12398,19 @@
         "sourceSha256": "be3af8ab0cd28cc3bdfcd88537a1fd2a5e3daadbac6b5b368271e763cbb4b0d9",
         "recordPath": ".mise/editorial-campaign/2026-10-05/seafood_soups_10/v2/records/weeknight-paella.json",
         "recordSha256": "8ac90206a3209fcc83cc6b1d090eee078cfe5923907aadd16289f713a9ab65d9"
+      },
+      "priorHeldEvidence": {
+        "remainingQuestions": [
+          "Identify the actual Bomba or Calasparra rice product/package instructions, pan dimensions and burner coverage used with1½cups rice/3cups broth plus½cup tomato puree.",
+          "Is the Spanish chorizo labeled fully cooked/ready to eat, or is it raw/partly cured? Preserve its full½lb; raw ground-meat endpoints differ from ready-to-eat rendering.",
+          "How does the chosen load bring every shrimp thick center to145°F before finishing/resting, while the rice becomes tender and the bottom toasts without burning?",
+          "The linked meal also permits generic short-grain rice and gives45minutes versus source50; hold linked meal acceptance rather than certifying it from this recipe review."
+        ]
+      },
+      "acceptedSha256": null,
+      "reviewPhase": "Explicit user disposition; publication pending; no complete editorial approval",
+      "productionVerification": {
+        "status": "Publication pending; prior website does not certify accepted changes"
       }
     },
     {
@@ -13214,6 +13405,8 @@
   "statusCounts": {
     "production-verified": 391,
     "retired-by-user": 2,
-    "held": 16
+    "accepted-pending-publication": 14,
+    "original-preserved-pending-publication": 1,
+    "retired-pending-publication": 1
   }
 }

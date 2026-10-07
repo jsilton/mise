@@ -2804,101 +2804,72 @@
     {
       "@context": "https://schema.org",
       "@type": "Recipe",
-      "name": "Peking Ravioli",
-      "description": "Peking ravioli (also called potstickers) were popularized in Boston by Joyce Chen's restaurant in the 1950s-60s. The Boston style is distinctive for its thick, chewy wrapper - more like pasta than delicate dim sum.",
+      "name": "Boston-Style Peking Ravioli",
+      "description": "Pork and cabbage dumplings with a resilient homemade wrapper, steamed in the skillet and finished with golden bottoms.",
       "url": "https://jordansilton.com/mise/recipes/boston-style-peking-ravioli/",
       "recipeIngredient": [
-        "1 lb Ground Pork (not too lean)",
-        "2 cups Napa Cabbage, finely minced and squeezed dry",
-        "3 stalks Green Onion, minced",
-        "1 tbsp Ginger, freshly grated",
-        "2 cloves Garlic, minced",
-        "1 tbsp Shaoxing Wine",
-        "1 tbsp Soy Sauce",
-        "1 tsp Toasted Sesame Oil",
-        "1/2 tsp White Pepper",
-        "1 tsp Salt",
-        "2 cups All-Purpose Flour",
-        "3/4 cup Boiling Water",
-        "1/4 cup Soy Sauce",
-        "2 tbsp Chinkiang Black Vinegar (or Balsamic fallback)",
-        "1 tbsp Brown Sugar or Molasses",
-        "1 tbsp Ginger, finely grated",
-        "1 tsp Chili Crisp (optional)"
+        "2 cups all-purpose flour, level cups",
+        "2/3 cup water, lukewarm or cold",
+        "1 tbsp additional water, only if dry; original two-cup flour batch allowance, scaled with flour, optional",
+        "additional all-purpose flour, for light dusting of the board and tray",
+        "1 lb Napa cabbage, raw, weighed before chopping and squeezing; washed and drained",
+        "1 tsp fine salt for the cabbage",
+        "3/4 lb ground pork, not too lean",
+        "1 1/2 tbsp soy sauce",
+        "1 tbsp dry sherry",
+        "1/2 tsp fine salt for the filling",
+        "1/2 tsp MSG",
+        "1/2 tsp sugar",
+        "1 tbsp neutral cooking oil, melted lard, or bacon drippings",
+        "1 tbsp additional neutral oil, melted lard, or bacon drippings, use if the pork is lean, optional",
+        "1 tbsp toasted sesame oil",
+        "1/4 cup soy sauce",
+        "2 tbsp Chinkiang black vinegar, or balsamic vinegar for a different, sweeter flavor",
+        "1 tbsp brown sugar or molasses",
+        "1 tbsp fresh ginger, finely grated",
+        "1 tsp chili crisp, optional",
+        "neutral cooking oil, 1 tbsp per 8–9-inch skillet load, not per recipe batch",
+        "cold water, ½ cup per 8–9-inch skillet load, plus a little more only if needed to finish cooking"
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToSection",
-          "name": "The Thick Wrappers",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Mix: Place flour in a bowl. Slowly pour in the boiling water while stirring with chopsticks until a shaggy dough forms."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Knead: Knead for 5-8 minutes until smooth. Cover with a damp cloth and let rest for 30 minutes."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Roll: Divide into small balls. Roll each into a circle about 3.5 inches wide. They should be significantly thicker than a standard wonton wrapper (about 1/8 inch)."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Make and rest the dough: Combine the all-purpose flour, water, and additional water (if using), starting with the measured main water and reserving the optional additional water. Stir, then knead about 3–4 minutes until smooth and pliable; add the optional water gradually only if dry flour remains. Cover with a damp towel and rest at least 30 minutes while preparing the filling and sauce."
         },
         {
-          "@type": "HowToSection",
-          "name": "The Filling",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Squeeze: Ensure the minced cabbage is salted and squeezed in a towel to remove ALL moisture. (Watery cabbage = soggy ravioli)."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Mix: Combine all filling ingredients. Stir vigorously in one direction for 3 minutes until the meat is sticky and emulsified."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Salt and squeeze the cabbage: Have the Napa cabbage and fine salt for the cabbage ready. Finely chop the cabbage, sprinkling its curing salt over it as you chop. Enclose in a clean cloth and squeeze firmly to remove released liquid. Discard that liquid and keep all the squeezed cabbage for the filling. The drained volume varies; do not add more raw cabbage or discard solids merely to reach a cup mark."
         },
         {
-          "@type": "HowToSection",
-          "name": "Assembly",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Portion: Place a large tablespoon of filling in each wrapper."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Seal: Fold in half and pleat only 3-4 times (the Boston style is more rustic and \"chunky\" than delicate). Press hard to seal."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Mix the filling: Mix the ground pork, soy sauce, dry sherry, fine salt for the filling, MSG, sugar, neutral cooking oil, melted lard, or bacon drippings, additional neutral oil, melted lard, or bacon drippings (if using), and toasted sesame oil with all the squeezed cabbage until evenly combined and slightly tacky. Include the additional fat only if the pork is lean. Cover and refrigerate while rolling; keep waiting raw filling cold, bringing out only what you will wrap soon."
         },
         {
-          "@type": "HowToSection",
-          "name": "The \"Boston Fry\"",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Sear: Heat 2 tbsp oil in a large flat-bottomed skillet over medium-high heat. Place ravioli in the pan and fry undisturbed for 2-3 minutes until the bottoms are dark golden."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Steam: Pour in 1/2 cup of water and immediately cover with a tight lid. Reduce heat to medium and steam for 6-8 minutes until the water is gone."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Crisp: Remove lid. Add 1 more tsp of oil. Fry for 1 more minute until the bottoms \"crackle\" and are perfectly crisp."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Mix the dipping sauce: Stir the soy sauce, Chinkiang black vinegar, brown sugar or molasses, fresh ginger, and chili crisp (if using) until the sweetener disperses, using the chili crisp only if desired. Keep the sauce separate from raw-filling utensils and set aside for serving."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Roll and fill: Use the additional all-purpose flour sparingly to prevent sticking. For the original two-cup flour batch, divide the rested dough into about 32 equal pieces and distribute all the filling among them. Scale that planned piece count with the formula rather than making larger dumplings. Roll a few pieces at a time to roughly 3-inch rounds, leaving the center a little thicker and the rim thinner. Keep unused dough covered. Place a small mound of filling in each center, leaving a clean margin; fold into a half moon and pinch the edge firmly shut, adding a few pleats if desired. If a wrapper will not close comfortably, roll it a little wider rather than forcing in more filling. Keep finished dumplings covered on a lightly floured tray and refrigerated between wrapping rounds."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Steam and brown one load: Have the neutral cooking oil and cold water measured for this skillet load. Heat an 8–9-inch skillet over medium-high heat and coat it with the oil. Arrange one flat layer of dumplings; Joyce Chen’s example holds about 16 lightly touching pieces, but use fewer if the shapes crowd. Carefully add the cold water, cover immediately, and cook about 6–7 minutes. When most water has evaporated, lower the heat and continue about 2 minutes, checking the largest fillings with a thin-tip thermometer: at least 165°F / 74°C throughout, with tender cooked dough at the seams. If filling or wrapper is not ready, add a little more water, cover, and keep cooking. Once cooked and the water is gone, uncover briefly if needed to finish golden bottoms. Loosen with a spatula; do not rely on the clock or color alone."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Serve and repeat: Transfer the cooked load to a clean plate and serve promptly with the dipping sauce. Repeat with the same per-skillet oil and water amounts for each new load, lowering the heat if the emptied pan overheats. Four main portions are a planning serving choice; the finished piece count depends on how you divide and roll the dough."
         }
       ],
-      "prepTime": "PT60M",
-      "cookTime": "PT20M",
-      "totalTime": "PT80M",
-      "recipeYield": "6",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Chinese"],
-      "keywords": "Chinese, spicy, sweet, savory, acidic, umami, weekend-project, entertaining, comfort-food, fry, boil, steam"
+      "keywords": "Chinese, spicy, sweet, savory, acidic, umami, weekend-project, entertaining, comfort-food, fry, boil, steam",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Adapted from Joyce Chen’s Peking ravioli handout, retained by GBH",
+        "url": "https://www.wgbh.org/lifestyle/food/recipes/2018-02-15/joyce-chens-sweet-and-sour-pork-and-peking-ravioli"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -5091,61 +5062,57 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Chef Kriger’s Recipe Shabbat Brisket",
-      "description": "Shabbat brisket is the Friday ritual that defines Jewish home cooking - it goes into the oven before sundown and emerges fall-apart tender hours later. The slow braise at low temperature (275-300°F) breaks down collagen without drying the meat.",
+      "description": "Chef Kriger’s Camp Micah brisket carries the familiar Shabbat combination of ketchup, Dijon, grape jelly, carrots and onion. This measured home adaptation keeps the generous sweet-savory sauce and uses a covered braise, an overnight refrigerated rest and thin cold slicing to make tender portions that reheat well.",
       "url": "https://jordansilton.com/mise/recipes/chef-krigers-recipe-shabbat-brisket/",
       "recipeIngredient": [
-        "1 First-cut Brisket (4-5 lbs)",
-        "1 bag Baby Carrots",
-        "1 large Yellow Onion, chopped",
-        "1 large bottle Ketchup",
-        "1/4 cup Worcestershire Sauce",
-        "4 tbsp Dijon Mustard",
-        "4 tbsp Grape Jelly (The secret sweetness)",
-        "2 tbsp Brown Sugar",
-        "1 tbsp Garlic Powder",
-        "1 tbsp Onion Powder",
-        "Salt and Black Pepper"
+        "4 1/2 lb first-cut beef brisket, one piece; keep track of the grain",
+        "kosher salt, to taste",
+        "black pepper, to taste",
+        "1 lb baby carrots",
+        "1 large yellow onion, cut into thick slices",
+        "3 cups ketchup",
+        "1/4 cup Worcestershire sauce",
+        "4 tbsp Dijon mustard",
+        "4 tbsp grape jelly",
+        "2 tbsp brown sugar",
+        "1 tbsp garlic powder",
+        "1 tbsp onion powder",
+        "1 cup water",
+        "hot water, small splashes only if the sauce begins drying at the edges"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Season: Season the brisket generously with salt and pepper on both sides. Place fat-side up in a heavy foil pan or Dutch oven."
+          "text": "Season the brisket: Heat the oven to 325°F / 163°C. Use a heavy covered roasting pan or Dutch oven that holds the meat flat with the vegetables and sauce and at least 1 inch of headroom; an approximately 8-quart vessel is a starting point, but check the fit. Have first-cut beef brisket, kosher salt, and black pepper ready. Season the meat on both sides with the salt and pepper. Place it fat-side up. If needed, cut it into two pieces to fit without stacking."
         },
         {
           "@type": "HowToStep",
-          "text": "Vegetables: Scatter the onions and carrots over and around the meat."
+          "text": "Add the vegetables: Arrange baby carrots and large yellow onion around and over the meat."
         },
         {
           "@type": "HowToStep",
-          "text": "Sauce: In a bowl, whisk all sauce ingredients together. Pour over the entire brisket, ensuring it is fully covered. Add 1 cup of water around the edges."
+          "text": "Mix the full sauce: Whisk together ketchup, Worcestershire sauce, Dijon mustard, grape jelly, brown sugar, garlic powder, onion powder, and water until the jelly is dispersed. Pour over the meat and vegetables, coating the top. The meat need not be submerged. Cover tightly with a lid or foil."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Cover tightly with foil. Bake at 350°F for 1.5 to 2 hours until tender."
+          "text": "Braise until genuinely tender: Braise covered, starting tenderness checks around 3½ hours and allowing roughly 3½–5 hours, sometimes longer for a thick or firm piece. Check that the sauce is gently bubbling rather than drying or scorching; use hot water only if needed to keep the edges moist. A fork should enter the thickest part easily and turn with little resistance. The minimum whole-beef safety endpoint is 145°F / 63°C with a 3-minute rest; brisket needs further cooking for this tender braise. Continue cooking until the thickest meat reaches that tenderness."
         },
         {
           "@type": "HowToStep",
-          "text": "The Chill: Remove from oven. Let cool, then refrigerate the entire pan overnight."
+          "text": "Cool safely and refrigerate overnight: Move the cooked meat, every bit of sauce and the vegetables into shallow containers. Divide the meat into smaller pieces as needed and keep it in a single layer; retain its grain direction for slicing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of finishing cooking, or 1 hour above 90°F / 32°C. Do not cool the entire deep pan on the counter. Refrigerate overnight, about 8–12 hours, until cold throughout."
         },
         {
           "@type": "HowToStep",
-          "text": "Slice: Remove the cold meat from the sauce. Slice very thin against the grain."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Return the slices to the sauce. Re-bake, covered, at 325°F for 30-45 minutes until hot and the sauce is bubbling."
+          "text": "Slice and reheat with all the sauce: Heat the oven to 325°F / 163°C. Slice the cold brisket thinly across the grain and arrange in a shallow roasting dish. Bring all the sauce to a boil in a saucepan, stirring so the sweet sauce does not scorch; pour it and the carrots and onions over the slices. Cover and heat, checking around 45 minutes and allowing about 45–60 minutes or longer, until the meat reaches 165°F / 74°C throughout. Serve with the full sauce."
         }
       ],
-      "prepTime": "PT30M",
-      "cookTime": "PT120M",
-      "totalTime": "PT720M",
-      "recipeYield": "12",
+      "recipeYield": "8 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Jewish"],
       "keywords": "Jewish, sweet, savory, holiday, bake, braise",
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from campmicah.com",
+        "name": "Adapted from Chef Kriger, Camp Micah",
         "url": "https://campmicah.com/chef-krigers-recipe-shabbat-brisket/"
       }
     },
@@ -7402,60 +7369,69 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Chocolate Bread Pudding",
-      "description": "Bread pudding is a way to honor stale bread - brioche is rich and tender, so it soaks up custard without becoming mushy. The double chocolate (bittersweet and white) creates complexity: dark chocolate for depth, white chocolate for sweetness.",
+      "description": "Brioche absorbs a chocolate custard while bittersweet and white chocolate leave contrasting pockets in the crumb. Weigh the bread, let every cube soak through, and bake each center gently.",
       "url": "https://jordansilton.com/mise/recipes/chocolate-bread-pudding-with-vanilla-ice-cream/",
       "recipeIngredient": [
-        "13 cups Brioche bread, 3/4-inch cubes (stale preferred)",
-        "6 oz Bittersweet Chocolate (70% cacao), chopped",
-        "6 oz White Chocolate Chips",
-        "4 large Eggs",
-        "1/2 cup + 4 tbsp Granulated Sugar",
-        "2 tsp Vanilla Extract",
-        "1 1/2 cups Heavy Cream",
-        "1/2 cup Whole Milk",
-        "2 cups Vanilla Bean Ice Cream"
+        "nonstick cooking spray, enough to coat all baking dishes",
+        "453 g (1 lb) brioche, cut into ½-inch cubes; measure the bread by weight",
+        "6 oz bittersweet chocolate (70% cacao), chopped",
+        "6 oz white chocolate chips",
+        "1 1/2 cups heavy cream",
+        "1/2 cup unsweetened cocoa powder, Dutch-process or natural",
+        "3/4 cup granulated sugar",
+        "1 1/2 cups whole milk",
+        "6 large eggs",
+        "1/2 tsp fine salt",
+        "2 tsp vanilla extract",
+        "2 cups vanilla bean ice cream"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 350°F. Spray eight 6-oz ramekins (or a 9x13 baking dish) with non-stick spray."
+          "text": "Choose dishes with room for the full batch: Use oven-safe individual soufflé cups with at least 12 fluid ounces (1½ cups) capacity each. Coat them with nonstick cooking spray and set them on a rimmed baking sheet. Use enough cups for the whole batch. Fill no cup above three-quarters of its capacity after soaking, and have an extra cup or small dish ready if needed. For a larger pudding, use a coated 2-quart baking dish only if the complete soaked mixture fits with space below its rim; use an extra dish for any excess."
         },
         {
           "@type": "HowToStep",
-          "text": "The Mix: In a large bowl, toss the brioche cubes with the chopped bittersweet chocolate and white chocolate chips."
+          "text": "Combine the bread and chocolate pieces: In a large bowl, toss brioche, 2/3 of the bittersweet chocolate (70% cacao), and white chocolate chips until the chocolate pieces are distributed through the brioche. The remaining third of the dark chocolate belongs to the chocolate custard."
         },
         {
           "@type": "HowToStep",
-          "text": "The Custard: In a mixer, beat eggs, 1/2 cup sugar, and vanilla until pale. Gradually whisk in the heavy cream and milk until smooth."
+          "text": "Make the chocolate cream: In a saucepan over low heat, whisk 1/3 of the bittersweet chocolate (70% cacao), heavy cream, unsweetened cocoa powder, and granulated sugar until the chocolate has melted and the mixture is smooth. Stir frequently, scraping the bottom; do not scorch or boil the cream."
         },
         {
           "@type": "HowToStep",
-          "text": "The Soak: Pour the custard over the bread mixture. Toss gently to coat. Let stand for 15 minutes to allow the brioche to hydrate."
+          "text": "Cool the chocolate mixture: Transfer the chocolate cream to a large bowl. Whisk in whole milk until smooth; let it cool to lukewarm before adding the eggs."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Transfer the mixture to the prepared ramekins, spreading evenly. Drizzle the remaining 4 tbsp of sugar over the tops."
+          "text": "Add eggs and vanilla: In a second bowl, whisk large eggs, fine salt, and vanilla extract just until blended, then whisk in the lukewarm chocolate dairy mixture until uniform. Use the full listed cream and milk in this custard."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 15-20 minutes until the edges are golden and the custard is set in the center but still has a slight wobble."
+          "text": "Soak the brioche fully: Pour the complete chocolate custard over the bread mixture and fold gently to wet every cube. Let stand for about 30 minutes, folding once or twice, until the bread has absorbed custard and no dry centers remain. Keep total room-temperature handling of the raw egg mixture within 2 hours, or 1 hour above 90°F; cover and refrigerate if the wait will extend. Heat the oven to 325°F during the soak."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Serve warm with a generous scoop of vanilla bean ice cream."
+          "text": "Divide the full mixture: Stir gently before each scoop so every dish gets bread, chocolate and custard. Divide the entire mixture among the prepared cups, keeping the stated headroom. If it will not fit the cups, use the prepared extra dish. A larger-dish batch follows the same complete ingredient allocation; do not discard custard or chocolate to make a vessel fit."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake by each center: Bake cups at 325°F, starting the first center checks around 30 minutes; roughly 35–60 minutes is a planning range for these roomy cups. For the 2-quart dish, start checking around 45 minutes and plan roughly 45–60 minutes, continuing as needed. The middle must be set with no liquid custard wave and reach at least 160°F in the egg custard, away from a melted chocolate pocket and the dish. A moist bread crumb and melted chocolate can look wet, so use both the texture and the temperature. Check each dish independently and shield a darkening top loosely with foil."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Rest and serve warm: Rest on a rack for 10 minutes so the custard settles, then serve warm with vanilla bean ice cream, shared across the batch. Refrigerate leftover pudding within 2 hours of cooking, or 1 hour above 90°F; keep the ice cream in the freezer."
         }
       ],
-      "prepTime": "PT25M",
-      "cookTime": "PT15M",
-      "totalTime": "PT45M",
-      "recipeYield": "8",
+      "recipeYield": "1 batch",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["American"],
-      "keywords": "American, sweet, rich, comfort-food, bake, no-cook",
+      "keywords": "American, sweet, rich, comfort-food, bake, mix",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from The Ritz-Carlton, Cancun"
+        "name": "Mise double-chocolate adaptation of King Arthur Test Kitchen’s bread pudding",
+        "url": "https://www.kingarthurbaking.com/recipes/dark-chocolate-bread-pudding-recipe"
       }
     },
     {
@@ -10586,52 +10562,49 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Crustless Spinach & Gruyère Quiche",
-      "description": "This French-style quiche sautés onions over high heat until edges char and caramelize, adding smokiness that balances earthy spinach. Greek yogurt replaces heavy cream for a firmer, protein-rich custard that doesn't turn watery.",
+      "description": "Rebecca’s crustless spinach quiche pairs browned onion with nutty Gruyère. Cook the spinach until its free water is gone, then fold the warm vegetables into the eggs and cheese.",
       "url": "https://jordansilton.com/mise/recipes/crustless-spinach-quiche/",
       "recipeIngredient": [
-        "10 oz Fresh Baby Spinach",
-        "1 large Yellow Onion, thinly sliced",
-        "6 large Eggs",
-        "1 cup Gruyère Cheese, freshly grated",
-        "1/2 cup Plain Greek Yogurt for richness",
-        "1/2 tsp Sea Salt",
-        "1/4 tsp Black Pepper",
-        "1 tbsp Olive Oil"
+        "cooking spray, enough to coat the baking vessel and any extra dish",
+        "1 tbsp olive oil",
+        "1 large yellow onion, thinly sliced",
+        "10 oz fresh baby spinach, washed and dried",
+        "6 large eggs",
+        "1/2 tsp fine sea salt",
+        "1/4 tsp ground black pepper",
+        "1 cup Gruyère cheese, freshly grated"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "The Blacken: In a large skillet, heat oil over high heat. Add the sliced onion and sauté for 5-7 minutes, stirring occasionally, until deeply browned and slightly charred at the edges."
+          "text": "Prepare the baking dish: Heat the oven to 350°F. Coat a 9-inch pie plate with cooking spray. Choose a plate deep enough for the full filling below its rim; prepare an extra small oven-safe dish if necessary."
         },
         {
           "@type": "HowToStep",
-          "text": "The Wilt: Add the spinach to the onions. Toss for 1 minute until just wilted. Discard any excess liquid from the pan."
+          "text": "Brown the onion deeply: Heat olive oil and large yellow onion in a wide skillet over medium-high heat. Cook, stirring often and adjusting the heat, until the onion softens and becomes deeply browned with a few charred edges. Start checking after about 5 minutes and allow roughly 8–12 minutes; avoid a black, bitter layer on the bottom of the pan."
         },
         {
           "@type": "HowToStep",
-          "text": "The Custard: In a medium bowl, whisk together the eggs, Greek yogurt, salt, and pepper until perfectly smooth."
+          "text": "Cook the spinach without leaving water: Add fresh baby spinach in handfuls as space becomes available. Toss until fully wilted, then keep cooking until free moisture has evaporated. If a large puddle remains, drain the cooked vegetables in a sieve, pressing gently without discarding vegetables. Spread the vegetables out and let them cool until only warm before mixing with the eggs."
         },
         {
           "@type": "HowToStep",
-          "text": "Fold: Stir the onion-spinach mixture and 3/4 of the Gruyère into the egg custard."
+          "text": "Mix the eggs and seasoning: Whisk large eggs, fine sea salt, and ground black pepper just until evenly blended; there is no need to beat in a thick foam."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Preheat oven to 350°F. Spray a 9-inch pie plate with oil. Pour the mixture into the plate and sprinkle the remaining cheese over the top."
+          "text": "Mix in the cheese and vegetables: Stir Gruyère cheese and all the cooled onion-spinach mixture into the eggs. Spread the full filling evenly in the prepared plate, keeping it below the rim. Put any excess in the extra coated dish rather than forcing the plate full."
         },
         {
           "@type": "HowToStep",
-          "text": "Finish: Bake for 25-30 minutes until the top is golden brown and the center is set."
+          "text": "Bake by the center: Bake at 350°F, beginning the first check around 25 minutes; about 25–40 minutes is a planning range. The top should be lightly browned and the center fully set, with no liquid egg movement. Measure at least 160°F in the central egg filling, keeping the sensing part of the thermometer away from the pan. Check any extra dish separately. Depth, starting temperature and oven heat can require longer."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Serve warm or at room temperature with a side of greens."
+          "text": "Rest briefly, then serve: Rest for 10 minutes before slicing. Serve warm with a fresh salad. Refrigerate remaining portions within 2 hours of cooking, or 1 hour above 90°F, while still warm if needed."
         }
       ],
-      "prepTime": "PT10M",
-      "cookTime": "PT30M",
-      "totalTime": "PT40M",
-      "recipeYield": "6",
+      "recipeYield": "6 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["French"],
       "keywords": "French, sweet, rich, meal-prep, weekend-project, bake, saute",
@@ -10984,59 +10957,67 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Dan Dan Noodles",
-      "description": "Dan dan noodles are about the sauce that coats every strand, not a soupy broth. The sauce is assembled raw in the bottom of each bowl -- the hot noodle cooking water emulsifies it into a silky, clinging paste.",
+      "description": "Sichuan sesame-chili noodles with seasoned pork, sui mi ya cai, and a measured whole-batch noodle-water sauce.",
       "url": "https://jordansilton.com/mise/recipes/dan-dan-noodles/",
       "recipeIngredient": [
-        "12 oz Dried Chinese Wheat Noodles (or fresh if available)",
-        "8 oz Ground Pork",
-        "2 tbsp Yacai (Sichuan preserved mustard greens), rinsed and minced",
-        "1 tbsp Neutral Oil",
-        "1 tbsp Shaoxing Wine",
-        "2 tbsp Chinese Sesame Paste (or tahini)",
-        "1 tbsp Soy Sauce",
-        "1 tbsp Chinkiang Black Vinegar",
-        "2 tsp Chili Oil with Sediment",
-        "1/2 tsp Ground Sichuan Peppercorn",
-        "1 clove Garlic, finely grated",
-        "1 tsp Sugar",
-        "3-4 tbsp Noodle Cooking Water",
-        "2 Green Onions, thinly sliced",
-        "1/4 cup Roasted Peanuts, roughly chopped",
-        "4 small heads Baby Bok Choy, halved (optional)"
+        "8 oz ground pork",
+        "3 tsp neutral oil",
+        "2 tsp Chinese sweet bean sauce or hoisin",
+        "2 tsp Shaoxing wine",
+        "1 tsp dark soy sauce",
+        "1/2 tsp five-spice powder",
+        "1/3 cup sui mi ya cai (Sichuan preserved mustard greens), finely chopped, ready to use; follow its label",
+        "2 tbsp Chinese roasted sesame paste, stir the jar smooth before measuring",
+        "3 tbsp light soy sauce",
+        "2 tsp sugar",
+        "1/4 tsp five-spice powder",
+        "1/2 tsp ground Sichuan peppercorn",
+        "1/2 cup prepared Sichuan chili oil with its fine sediment",
+        "2 garlic cloves, very finely minced",
+        "1/4 cup hot noodle cooking water, total for the whole formula, reserved before draining",
+        "additional hot noodle cooking water, only as needed to loosen the sauce, optional",
+        "1 lb dried medium-thickness Chinese wheat noodles",
+        "water, enough for package-directed noodle cooking and blanching",
+        "4 small baby bok choy, washed and halved, optional",
+        "1/4 cup roasted peanuts, roughly chopped, optional",
+        "2 scallions, thinly sliced, optional",
+        "additional chili oil, to taste, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prepare the Sauce Base: Divide the following among four serving bowls: sesame paste, soy sauce, Chinkiang vinegar, chili oil, ground Sichuan peppercorn, grated garlic, and sugar. Do not stir yet -- the hot noodle water will bring it together."
+          "text": "Mix the sauce base: Stir the Chinese roasted sesame paste, light soy sauce, sugar, five-spice powder, ground Sichuan peppercorn, prepared Sichuan chili oil with its fine sediment, and garlic cloves together in one bowl until the paste is smoothly dispersed. Leave out the measured noodle water until it is available. This is the whole-batch sauce; do not repeat its amounts for each serving bowl."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook the Pork Topping: Heat the neutral oil in a wok or skillet over high heat. Add the ground pork and cook for 3-4 minutes, breaking it into very small, crispy crumbles. When browned, add the Shaoxing wine and minced yacai. Stir-fry for 1-2 minutes until the pork is deeply savory and slightly caramelized. Set aside."
+          "text": "Brown and season the pork: Have the ground pork, 1/3 of the neutral oil, Chinese sweet bean sauce or hoisin, Shaoxing wine, dark soy sauce, and five-spice powder ready. Heat the allocated oil over medium heat and brown the pork, breaking it into small crumbles. Add the bean sauce, wine, dark soy, and five-spice powder; stir until excess liquid evaporates. Check the pork reaches 160°F / 71°C, then transfer to a clean bowl. In the original batch, this stage uses 1 tsp of the oil."
         },
         {
           "@type": "HowToStep",
-          "text": "Cook the Noodles: Bring a large pot of water to a rolling boil. If using bok choy, blanch it for 60 seconds, remove with a spider, and divide among the bowls. Cook the noodles according to package directions until just al dente. Before draining, ladle 3-4 tbsp of the starchy cooking water into each bowl."
+          "text": "Cook the preserved greens: Have the 2/3 of the neutral oil and sui mi ya cai (Sichuan preserved mustard greens) ready. Heat the allocated oil over medium heat, then stir-fry the yacai for a few minutes until fragrant. In the original batch, this stage uses the remaining 2 tsp oil. Keep as a separate topping or combine with the fully cooked pork."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify the Sauce: Using chopsticks, vigorously stir the cooking water into the sauce base in each bowl until the sesame paste dissolves and the sauce becomes creamy and emulsified."
+          "text": "Blanch the greens and cook the noodles: Have the dried medium-thickness Chinese wheat noodles, water, and small baby bok choy (if using) ready. Bring the water to a boil. If using bok choy, blanch until the leaves wilt and stems are tender with a little bite, about 1 minute for small halves; remove and drain. Cook the noodles according to their package until tender and springy. Reserve hot cooking water before draining, then drain the noodles well."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Drain the noodles and divide among the bowls. Toss with the sauce until every strand is coated. Top with the crispy pork and yacai mixture."
+          "text": "Finish the measured sauce: Whisk the hot noodle cooking water and additional hot noodle cooking water (if using) into the sauce base. Start with the listed measured total; use the extra allowance only if needed for a smooth sauce that flows and coats, rather than a stiff paste. Divide this finished whole sauce among the serving bowls."
         },
         {
           "@type": "HowToStep",
-          "text": "Garnish: Scatter with sliced green onions and chopped peanuts. Drizzle with additional chili oil to taste. Serve immediately -- these do not wait well."
+          "text": "Build and serve: Have the roasted peanuts (if using), scallions (if using), and additional chili oil (if using) ready, using them as desired. Divide noodles, drained greens, fully cooked pork, and yacai among the sauced bowls. Add the optional garnishes, then toss thoroughly in each bowl and serve immediately. The original formula makes four generous main bowls, or six smaller portions."
         }
       ],
-      "prepTime": "PT15M",
-      "cookTime": "PT15M",
-      "totalTime": "PT30M",
-      "recipeYield": "4",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Chinese"],
-      "keywords": "Chinese, spicy, savory, umami, rich, weeknight, comfort-food, saute, boil, simmer"
+      "keywords": "Chinese, spicy, savory, umami, rich, weeknight, comfort-food, saute, boil, simmer",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Adapted from Judy Leung, The Woks of Life",
+        "url": "https://thewoksoflife.com/dan-dan-noodles/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -14885,53 +14866,51 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Golden Veil",
-      "description": "Slap the thyme sprig sharply in your palm before garnishing - this ruptures oil glands and releases the herb's essence without the bitterness of muddling. Add Prosecco only after shaking and straining the base so bubbles stay effervescent, cutting through smoky mezcal and rich cognac.",
+      "description": "A gin-led sparkling cocktail with cognac, a little smoky mezcal, lemon, honeyed herbs, and Prosecco.",
       "url": "https://jordansilton.com/mise/recipes/golden-veil/",
       "recipeIngredient": [
-        "2 oz soft, juniper-forward dry gin",
-        "1.5 oz unaged mezcal",
-        "2 oz cognac",
-        "2.5 oz Fresh Lemon Juice (The Acid Balance)",
-        "1 oz French honeyed herbal liqueur (40% ABV)",
-        "0.5 oz Agave Syrup",
-        "3 dashes Orange Bitters",
-        "6 oz Prosecco, chilled",
-        "Lemon Peel Twist",
-        "Fresh Thyme Sprig"
+        "1 oz soft juniper-forward dry gin",
+        "1/4 oz unaged mezcal",
+        "1/4 oz cognac",
+        "1/2 oz fresh lemon juice",
+        "1/4 oz French honeyed herbal liqueur (40% ABV)",
+        "1/4 oz light agave nectar, undiluted; not a premixed water-diluted syrup",
+        "1 dash orange bitters",
+        "ice cubes, enough to chill and dilute the base while leaving room to shake",
+        "3 oz brut Prosecco, well chilled; fluid volume",
+        "1 lemon peel twist",
+        "1 fresh thyme sprig"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Chill a large coupe or wine glass in the freezer for 10 minutes."
+          "text": "Chill the glasses: Chill a stemmed wine glass with at least 10 US fluid ounces capacity for each full-size drink, about 10 minutes. Have the sparkling wine cold. The listed one-portion drink is 5½ fluid ounces before ice dilution; allow generous headroom."
         },
         {
           "@type": "HowToStep",
-          "text": "The Base: Combine gin, mezcal, cognac, lemon juice, French honeyed herbal liqueur, agave, and orange bitters in a shaker filled with large ice cubes."
+          "text": "Shake each base: Measure the soft juniper-forward dry gin, unaged mezcal, cognac, fresh lemon juice, French honeyed herbal liqueur (40% ABV), light agave nectar, dash orange bitters, and ice cubes for the selected servings. For whole servings, divide the liquid base and bitters into equal drink portions; the listed one-portion base is 2½ fluid ounces plus 1 dash bitters. Shake one portion at a time with moving ice, leaving room in the closed shaker, about 15 seconds until very cold. For a fractional serving, prepare one smaller drink with its scaled base rather than a fractional number of glasses. Do not put Prosecco in the shaker."
         },
         {
           "@type": "HowToStep",
-          "text": "Aeration: Shake vigorously for 15 seconds until the shaker is frosted and the mixture is perfectly emulsified."
+          "text": "Strain and top: Double-strain each shaken portion into its chilled glass. Divide the brut Prosecco among the corresponding drink portions, pouring slowly: 3 fluid ounces per listed full-size drink, or the corresponding fraction for a smaller drink. Give one gentle lift with a bar spoon if needed to combine, preserving the bubbles."
         },
         {
           "@type": "HowToStep",
-          "text": "Strain: Double strain into the chilled glass to ensure a silky mouthfeel."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Crown: Top with the chilled Prosecco. Do not stir - let the bubbles naturally integrate the layers."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Slap: Take the thyme sprig, slap it between your palms, and place it in the glass. Express the lemon peel over the rim and drop it in for the mandatory High Note."
+          "text": "Add the aromas: Divide the lemon peel twist and fresh thyme sprig among the drinks. Express each lemon peel over its drink and add it. Lightly tap each thyme sprig between your palms and place it at the rim. Serve immediately."
         }
       ],
       "prepTime": "PT10M",
       "totalTime": "PT10M",
-      "recipeYield": "1",
+      "recipeYield": "1 portion",
       "recipeCategory": "Beverage",
       "recipeCuisine": ["American"],
       "keywords": "American, acidic, rich, herbaceous, smoky, date-night, entertaining, no-cook",
-      "suitableForDiet": ["https://schema.org/VegetarianDiet"]
+      "suitableForDiet": ["https://schema.org/VegetarianDiet"],
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Mise authored Golden Veil adaptation; sparkling structure informed by French 75",
+        "url": "https://www.mainespirits.com/recipes/french-75"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -14999,51 +14978,52 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Grandmommy’s Pecan Pie",
-      "description": "Southern pecan pie is built on a simple syrup custard that's meant to barely set - you're aiming for that wobbling center that firms up completely as it cools. Karo syrup is traditional for a reason: it creates the right balance of sweetness and texture without crystallizing.",
+      "description": "Pecans, light corn syrup and vanilla make a rich filling that firms as it chills. Give the center time to set while protecting the pastry edges, then refrigerate promptly and let the pies cool completely before slicing.",
       "url": "https://jordansilton.com/mise/recipes/grandmommys-pecan-pie/",
       "recipeIngredient": [
-        "2 Pie Shells (unbaked)",
-        "2 cups Whole Pecans (halved)",
-        "1 1/4 cups Granulated Sugar",
-        "1/2 cup White Karo Syrup",
-        "4 large Eggs, slightly beaten",
-        "1/2 stick (4 tbsp) Unsalted Butter, melted",
-        "1 tsp Pure Vanilla Extract",
-        "Pinch of Sea Salt"
+        "2 unbaked pastry pie shells, prepared and ready to fill; choose shells that can hold the filling below their rims",
+        "1 1/4 cups granulated sugar",
+        "1/2 cup light corn syrup",
+        "4 large eggs, slightly beaten",
+        "4 tbsp (1/2 stick) unsalted butter, melted and cooled until warm",
+        "1 tsp vanilla extract",
+        "2 cups pecan halves",
+        "sea salt, a pinch"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 350°F. Place the unbaked pie shells on a baking sheet."
+          "text": "Prepare the shells: Heat the oven to 350°F. Set unbaked pastry pie shells on a rimmed baking sheet. Prepare or handle the pastry according to its dough recipe or package instructions; this route uses unbaked pastry shells. Leave enough space below the rims for the filling to move slightly during baking. For the original batch, each shell must hold half the complete filling; do not force a deep mound into a small shell."
         },
         {
           "@type": "HowToStep",
-          "text": "The Mix: In a large bowl, whisk together the sugar, Karo syrup, and slightly beaten eggs until well combined."
+          "text": "Mix the syrup filling: Combine granulated sugar, light corn syrup, and large eggs in the bowl in this order: stir the sugar and syrup together, then mix in the slightly beaten eggs until evenly blended."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: Slowly whisk in the melted butter, vanilla, and salt until the filling is glossy and uniform."
+          "text": "Add the melted fat and vanilla: Stir in unsalted butter, vanilla extract, and sea salt until uniform. The melted fat should be warm enough to remain liquid but not hot enough to cook the eggs."
         },
         {
           "@type": "HowToStep",
-          "text": "Layer: Divide the pecans evenly between the two pie shells. Pour the syrup mixture over the pecans - they will naturally float to the top to create the Crunch layer."
+          "text": "Stir in all the pecans: Stir in pecan halves last, keeping all the nuts and syrup mixture together."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 40-45 minutes until the edges are set and the center has a slight, stable wobble (the Texture)."
+          "text": "Divide the complete filling: Share the whole nut-and-syrup mixture equally among the prepared shells, stirring between pours so each receives nuts as well as syrup. Check that the filling stays below the rims; if the chosen shells are too small, use larger shells rather than discarding filling."
         },
         {
           "@type": "HowToStep",
-          "text": "Cool: Let cool completely (at least 2 hours) before slicing. This is mandatory for the structure to set."
+          "text": "Bake until the filling is set: Bake at 350°F, beginning the first check around 40 minutes. Continue until the edges are set and the center moves together with only a gentle tremble, rather than a liquid wave. A food thermometer placed in the central filling, away from a nut or the pan, must read at least 160°F; keep baking until the filling also has the set texture. Shield the pastry edges with foil if they brown too quickly. Shell depth, frozen pastry and oven heat can change the time, so check each pie separately and remove it when ready."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool, then chill completely: Set the baked pies on a rack until the initial steam subsides, then refrigerate them while still warm if necessary. Get them into the refrigerator within 2 hours of baking, or within 1 hour above 90°F. Leave them in the refrigerator until completely cool and firm before slicing; do not extend counter cooling to wait for a clean slice."
         }
       ],
-      "prepTime": "PT15M",
-      "cookTime": "PT40M",
-      "totalTime": "PT55M",
-      "recipeYield": "2 pies",
+      "recipeYield": "1 batch",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["Southern"],
-      "keywords": "Southern, sweet, rich, holiday, bake",
+      "keywords": "Southern, sweet, rich, holiday, bake, mix",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
@@ -15054,54 +15034,57 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Grandmommy’s Pound Cake",
-      "description": "Grandmommy’s pound cake has a rich, buttery crumb. The key is baking at 275°F for a full 90 minutes; this ensures the cake rises evenly without a tough outer crust, resulting in a dense, velvety texture that defines a true pound cake.",
+      "description": "Lemon, almond and vanilla give this rich pound cake its familiar flavor. Cream the softened butter and sugar until light, then mix the flour gently.",
       "url": "https://jordansilton.com/mise/recipes/grandmommys-pound-cake/",
       "recipeIngredient": [
-        "3/4 lb (3 sticks) Unsalted Butter, softened",
-        "6 large Eggs, room temperature",
-        "2 cups Granulated Sugar",
-        "3 cups All-Purpose Flour, pre-sifted",
-        "1 tsp Lemon Extract",
-        "1 tsp Almond Extract",
-        "1 tsp Pure Vanilla Extract"
+        "3/4 lb (3 sticks) unsalted butter, softened, not melted",
+        "2 cups granulated sugar",
+        "6 large eggs, at room temperature",
+        "3 cups all-purpose flour, pre-sifted",
+        "1 tsp lemon extract",
+        "1 tsp almond extract",
+        "1 tsp vanilla extract",
+        "baking pan spray, enough to grease all baking pans thoroughly",
+        "additional flour, enough to dust the greased pans; tap out the excess"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 275°F. Generously grease and flour a large Bundt pan or three 9x5 loaf pans."
+          "text": "Choose the pans and oven route: For one large cake, heat the oven to 275°F and use a roomy tube or Bundt pan. For the three-loaf route, heat the oven to 300°F and use three loaf pans for the original batch. Prepare every pan with baking pan spray and additional flour, reaching corners and the center tube. Have an extra small cake pan ready if needed; the batter must not fill any pan more than two-thirds full."
         },
         {
           "@type": "HowToStep",
-          "text": "Cream: In a stand mixer, cream the butter and sugar on medium-high for 5-7 minutes until the mixture is pale, light, and doubled in volume."
+          "text": "Cream the butter and sugar: Beat unsalted butter and granulated sugar at medium speed until noticeably paler and fluffy, scraping the sides and bottom of the bowl several times. Start checking after about 5 minutes; the texture matters more than a fixed volume increase. The butter should hold air rather than look oily or melted."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Add the eggs one at a time, beating for 30 seconds after each addition to ensure a stable structure."
+          "text": "Add the eggs gradually: Add large eggs one at a time at medium-low speed, allowing each to incorporate before adding the next. Scrape the bowl between additions."
         },
         {
           "@type": "HowToStep",
-          "text": "Incorporate: Reduce speed to low. Gradually add the pre-sifted flour in three parts, mixing until just combined."
+          "text": "Add the flour gently: At low speed, mix in all-purpose flour in several small additions. Stop as soon as the flour disappears, then check the bottom of the bowl for unmixed streaks."
         },
         {
           "@type": "HowToStep",
-          "text": "Flavor: Fold in the lemon, almond, and vanilla extracts by hand."
+          "text": "Add all three extracts: Fold in lemon extract, almond extract, and vanilla extract by hand until evenly distributed."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Pour the thick batter into the prepared pan. Bake at 275°F for 1.5 hours (or at 300°F for 1 hour if using loaf pans) until a toothpick inserted in the center comes out clean."
+          "text": "Fill with room to rise: Scrape the batter into the prepared pan or divide it evenly among the loaf pans. Smooth the tops. Keep the batter level at or below two-thirds of each pan’s depth; if it exceeds that level, put the excess in the prepared extra pan rather than packing the main pan. A shallower loaf will bake more quickly than a deeper one."
         },
         {
           "@type": "HowToStep",
-          "text": "Cool: Let cool in the pan for 20 minutes before inverting onto a rack."
+          "text": "Bake by the center: Bake a large cake at 275°F, using 90 minutes as the starting plan and beginning checks around 75 minutes. Bake the loaf route at 300°F, using 60 minutes as the starting plan and beginning checks around 45 minutes if the loaves are shallow. Keep the chosen temperature fixed as ingredient quantities change. Continue until the cake is set, the top springs back under a light touch, and a long tester or thin knife inserted into the thickest crumb in several places comes out without wet batter. Avoid the center tube, pan and surface cracks when checking. Tent loosely with foil if the top darkens before the middle finishes. Check individual loaves separately and remove each as it finishes. Start checking small overflow cakes earlier; their shallower depth can shorten the bake considerably."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cool before slicing or wrapping: Rest in the pan on a rack for about 20 minutes. Loosen accessible edges, turn out carefully and cool completely on the rack before slicing or wrapping. If the cake is still fragile, let it settle a few minutes longer before turning it out."
         }
       ],
-      "prepTime": "PT20M",
-      "cookTime": "PT90M",
-      "totalTime": "PT110M",
-      "recipeYield": "1 large bundt cake",
+      "recipeYield": "1 batch",
       "recipeCategory": "Dessert",
       "recipeCuisine": ["Southern"],
-      "keywords": "Southern, sweet, acidic, rich, holiday, entertaining, weekend-project, comfort-food, bake",
+      "keywords": "Southern, sweet, acidic, rich, holiday, entertaining, weekend-project, comfort-food, bake, mix",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
@@ -18072,63 +18055,58 @@
     {
       "@context": "https://schema.org",
       "@type": "Recipe",
-      "name": "Japanese Beef Rice Bowl (Gyudon)",
-      "description": "Gyudon is Tokyo comfort food - beef and onions simmered in a slightly sweet, deeply savory broth served over rice. The dish came from the Meiji era when beef became part of Japanese home cooking, and it became an iconic fast-food staple.",
+      "name": "Gyudon (Japanese Beef and Rice Bowls)",
+      "description": "Thin beef and softened onions in a sweet soy-mirin broth, served over warm rice.",
       "url": "https://jordansilton.com/mise/recipes/japanese-beef-rice-bowl-gyudon/",
       "recipeIngredient": [
-        "1 lb Beef Sirloin or Ribeye (thinly sliced)",
-        "2 Large Onions (sliced into thin half-moons)",
-        "1/2 cup Soy Sauce",
-        "1/4 cup Mirin (or brown sugar + water)",
-        "2 tbsp Sake (or dry sherry)",
-        "2 cloves Garlic, minced",
-        "1 tbsp Fresh Ginger, grated",
-        "1 cup Beef Stock or Water",
-        "4 Cups Cooked Steamed Rice (warm)",
-        "4 Eggs, fully cooked, or pasteurized shell eggs soft-boiled or poached (optional)",
-        "4 Green Onions, sliced (for garnish)",
-        "Shichimi Togarashi (Japanese 7-spice), optional"
+        "2 tbsp neutral oil",
+        "2 medium onions, thinly sliced",
+        "1 lb fatty chuck or ribeye beef, very thinly sliced across the grain",
+        "2 tsp sugar",
+        "2 tbsp mirin",
+        "2 tbsp light soy sauce",
+        "1 cup prepared dashi, beef stock, or chicken stock",
+        "4 cups cooked short-grain white rice, warm; prepared separately",
+        "4 eggs, ordinary eggs fully cooked, or pasteurized shell eggs for a soft yolk, optional",
+        "water, as needed for poaching the optional eggs, optional",
+        "1 scallion, thinly sliced",
+        "2 tsp toasted sesame seeds, optional",
+        "shichimi togarashi, to taste, optional"
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToSection",
-          "name": "Directions",
-          "description": "Egg Note: A soft yolk mixes into the broth and rice. For this option, use shell eggs labeled as pasteurized; otherwise cook both the yolk and white until firm. The egg is optional.",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Make the Sauce: In a small bowl, whisk together soy sauce, mirin, sake, garlic, ginger, and beef stock. Set aside."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Cook the Onions: Heat a large skillet over medium-high heat. Add sliced onions with a pinch of salt. Sauté for 5-6 minutes, stirring occasionally, until they soften and start to caramelize at the edges. They should be golden and fragrant."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Add the Beef: Increase heat to high. Add sliced beef to the pan in a single layer. Let it sit for 1 minute without stirring - this develops a slight crust. Toss and cook another 1 minute until the beef is mostly cooked through but still slightly pink inside (it will finish cooking in the broth)."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Simmer: Pour the sauce over the beef and onions. Reduce heat to medium and simmer for 4-5 minutes. The sauce should reduce slightly and become glossy. Taste and adjust soy sauce or mirin if needed."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Assemble: Place warm rice in a bowl. Pour the beef and onion mixture with all its broth over the rice. If using an egg, top with a fully cooked egg or a soft-boiled or poached pasteurized shell egg. Warm rice is not a reliable way to cook an egg safely."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Garnish: Sprinkle with sliced green onions and a pinch of shichimi togarashi if desired."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Soften the onions: Heat the neutral oil and medium onions in a large skillet over medium-high heat, stirring frequently, until the onions are soft and beginning to color, about 10 minutes. Start with the oil, then add the onions; lower the heat if their edges darken before they soften."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Brown the beef: Add the fatty chuck or ribeye beef and sugar. Separate the thin slices and stir until the meat loses its raw surface color. This is an intermediate stage; keep cooking in the broth."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Reduce the broth: Add the mirin, light soy sauce, and prepared dashi, beef stock, or chicken stock and bring to a gentle simmer. Cook about 10–15 minutes, stirring occasionally, until the onions are tender and a thin, lightly reduced sauce remains. Avoid boiling it dry. Check a thicker beef slice with a thin-tip thermometer inserted from the side: at least 145°F / 63°C. Remove the skillet from the heat and allow at least 3 minutes before serving."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Prepare the optional eggs: If using the eggs (if using) and water (if using), poach in a separate saucepan while the beef simmers. Cook ordinary eggs until both white and yolk are firm. A soft-yolk option requires shell eggs labeled pasteurized. Transfer with a clean slotted spoon; warm rice is not a reliable egg-cooking method."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Fill the bowls: Divide the cooked short-grain white rice, scallion, toasted sesame seeds (if using), and shichimi togarashi (if using) among the bowls, using the sesame and shichimi only if desired. Spoon the beef, onions, and remaining broth over the rice, then add the prepared eggs if using. Serve promptly."
         }
       ],
-      "prepTime": "PT5M",
-      "cookTime": "PT15M",
-      "totalTime": "PT20M",
-      "recipeYield": "4",
+      "prepTime": "PT10M",
+      "cookTime": "PT30M",
+      "totalTime": "PT40M",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Japanese"],
-      "keywords": "Japanese, savory, sweet, umami, weeknight, simmer, saute"
+      "keywords": "Japanese, savory, sweet, umami, weeknight, simmer, saute",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Adapted from Sarah Leung, The Woks of Life",
+        "url": "https://thewoksoflife.com/gyudon-recipe-beef-rice/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -18306,77 +18284,74 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Japchae (Korean Glass Noodle Stir-Fry)",
-      "description": "Japchae is Korean mixed stir-fry with sweet potato glass noodles - a dish that shows up at celebrations and fancy dinners because it's elegant and looks harder than it is. The glass noodles (also called dangmyeon) have a silky, slightly gelatinous texture that's completely different from wheat or rice noodles.",
+      "description": "Sweet-potato glass noodles with separately cooked vegetables and fully cooked beef, with a complete shrimp alternative.",
       "url": "https://jordansilton.com/mise/recipes/japchae-korean-glass-noodle-stir-fry/",
       "recipeIngredient": [
-        "8 oz Sweet Potato Glass Noodles (dangmyeon), also called Korean glass noodles",
-        "8 oz Beef Sirloin or Tenderloin, thinly sliced",
-        "2 Medium Carrots, cut into thin matchsticks",
-        "1 Medium Zucchini, cut into thin matchsticks",
-        "4 oz Mushrooms (shiitake or cremini), thinly sliced",
-        "1 Medium Onion, thinly sliced",
-        "1 cup Fresh Spinach (or 4 oz frozen spinach, thawed and squeezed dry)",
-        "3 cloves Garlic, minced, divided",
-        "3 Green Onions (scallions), cut into 2-inch pieces",
-        "3 tbsp Soy Sauce, divided",
-        "1 tbsp Sesame Oil, divided",
-        "1 tsp Cornstarch",
-        "1 tbsp Brown Sugar",
-        "1 tbsp Rice Vinegar",
-        "2 tsp Gochugaru (Korean red chili flakes, optional)",
-        "1/4 tsp Black Pepper",
-        "1 tbsp Vegetable Oil, plus more as needed for the vegetables",
-        "Sesame Seeds",
-        "Additional Sesame Oil (optional drizzle)"
+        "8 oz dried sweet-potato glass noodles (dangmyeon)",
+        "water, enough for package-directed noodle cooking",
+        "8 oz beef sirloin or tenderloin, thinly sliced across the grain",
+        "3 garlic cloves, minced",
+        "2 medium carrots, thin matchsticks",
+        "1 medium zucchini, thin matchsticks",
+        "4 oz shiitake or cremini mushrooms, thinly sliced",
+        "1 medium onion, thinly sliced",
+        "3 scallions, cut into 2-inch pieces",
+        "1 cup fresh spinach, washed; frozen option below",
+        "3 tbsp soy sauce",
+        "1 tbsp toasted sesame oil",
+        "1 tsp cornstarch",
+        "1/4 tsp black pepper",
+        "1 tbsp brown sugar",
+        "1 tbsp rice vinegar",
+        "1 tbsp neutral vegetable oil",
+        "additional neutral vegetable oil, as needed for a light film between vegetable loads",
+        "1–2 tsp gochugaru, optional",
+        "toasted sesame seeds, to taste",
+        "additional toasted sesame oil, a little for loosening noodles and finishing, if needed, optional"
       ],
       "recipeInstructions": [
         {
-          "@type": "HowToSection",
-          "name": "Directions",
-          "description": "Glass Noodle Sourcing: Also labeled as \"Korean sweet potato noodles\" or \"dangmyeon.\" They're available at any Asian market and increasingly at regular grocery stores. Do not confuse with rice noodles or tapioca noodles.\n\nVegetable Flexibility: This dish is forgiving. Use whatever vegetables need using: bell peppers, green beans, broccoli, shiitake mushrooms, cabbage. The principle is the same - cook each vegetable separately, then combine.\n\nBeef Alternative: Shrimp can replace the beef; cook until the flesh is firm, pearly and opaque rather than following the beef time. Or skip the protein entirely for a vegetarian version - the noodles and vegetables are hearty enough.\n\nMake-Ahead: Japchae tastes equally good warm or at room temperature and is perfect for meal prep. Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), and keep for up to 3 days. Serve cold or reheat to 165°F / 74°C.\n\nTiming: Allow about 40 minutes as a planning estimate, with the noodle cooking and beef marinade overlapping vegetable preparation. Sequential vegetable batches alone take about 10-14 minutes; more batches or slower knife work take longer. This estimate has not been kitchen-tested.\n\nTexture Key: The reason to cook vegetables separately is texture. If you dump everything together and cook it, the vegetables become mushy. Separate cooking preserves the bite of each ingredient.",
-          "itemListElement": [
-            {
-              "@type": "HowToStep",
-              "text": "Cook the Noodles: Bring a large pot of water to a boil. Add the glass noodles and cook according to the package directions until translucent and tender with a slight chew. Drain in a colander, rinse under cool water, and set aside. If needed, use a little of the optional additional sesame oil to prevent sticking."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Marinate the Beef: While the noodles cook, combine the thinly sliced beef with 1 tbsp soy sauce, 1 tsp sesame oil, 1/2 tsp minced garlic, 1/4 tsp black pepper, and 1 tsp cornstarch in a small bowl. This cornstarch coating (velveting) protects the meat from the high heat of the skillet. Refrigerate for 15 minutes while you prep vegetables."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Cook the Beef: Heat 1 tbsp vegetable oil in a large skillet over high heat until it shimmers. Add the marinated beef in a single layer and let it sit for 1 minute without stirring to develop color. Stir and continue cooking until the thickest slices reach 145°F / 63°C; use a thin-tip thermometer inserted from the side. Transfer to a clean plate and rest at least 3 minutes while cooking the vegetables. Do not stop at partly cooked beef: the final toss is brief."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Cook the Vegetables (Separately): In the same skillet, add a little more oil if needed. Cook the harder vegetables first, one type at a time, for speed and texture control: - Carrots: 2-3 minutes, then transfer to a bowl - Zucchini: 2-3 minutes, then transfer to the bowl - Mushrooms: 2-3 minutes, then transfer to the bowl - Onion: 2-3 minutes until softened, then transfer to the bowl - Scallions: Cook about 1 minute until slightly softened, then transfer - Spinach: Cook until wilted (about 1 minute), drain excess liquid, then transfer. If using thawed, squeezed frozen spinach, warm it through instead."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Make the Sauce: In a small bowl, whisk together the remaining 2 tbsp soy sauce, remaining 2 tsp sesame oil, brown sugar, rice vinegar, and all the remaining minced garlic. Taste and adjust - it should be balanced between salty, sweet, and tangy."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Combine: Add the cooked glass noodles and all vegetables back to the large skillet. Return the cooked beef to the pan. Pour the sauce over everything and toss gently but thoroughly for 1-2 minutes until everything is coated and heated through. The heat should be low - you're just combining and warming, not cooking further."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Optional Heat: If you want spice, add 1-2 tsp gochugaru (Korean red chili flakes) when tossing with the sauce."
-            },
-            {
-              "@type": "HowToStep",
-              "text": "Serve: Transfer to a serving plate or individual bowls. Garnish generously with sesame seeds and a light drizzle of sesame oil. Serve at room temperature or warm."
-            }
-          ]
+          "@type": "HowToStep",
+          "text": "Prepare the divided garlic: Mince the garlic cloves. For the original three-clove batch, measure ½ tsp from the actual minced supply into the protein bowl and keep every bit of the remainder for the sauce. Scale that measured reservation with the formula; do not assume a fixed teaspoon yield per clove."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Marinate the beef: Combine the beef sirloin or tenderloin, 1/3 of the soy sauce, 1/3 of the toasted sesame oil, cornstarch, and black pepper with the reserved minced garlic. In the original batch, the soy and sesame shares are 1 tbsp soy and 1 tsp sesame oil. Toss to coat and refrigerate 15 minutes while preparing the vegetables. Keep the remaining measured soy, sesame oil, and garlic separate for the sauce."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook and drain the noodles: Have the dried sweet-potato glass noodles (dangmyeon), water, and additional toasted sesame oil (if using) ready. Cook the noodles in the water according to the noodle package until translucent, tender, and pleasantly chewy. Keep the optional additional sesame oil out of the boiling pot: drain the noodles well, rinse under cool water, and use a little of this allowance to loosen them if needed. Reserve any unused part of that allowance for finishing; do not assume a universal noodle cooking time."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook the beef fully: Heat the neutral vegetable oil in a large skillet over high heat until shimmering. Add the marinated beef in a single layer; use separate loads if crowded, dividing the listed oil between them. Let it color about 1 minute, then stir and continue until thicker slices reach 145°F / 63°C, probing from the side with a thin-tip thermometer. Transfer to a clean plate and rest at least 3 minutes. Each load must be fully cooked before removal; the final toss is brief."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook each vegetable separately: Cook the medium carrots, medium zucchini, shiitake or cremini mushrooms, medium onion, scallions, fresh spinach, and additional neutral vegetable oil one type at a time over medium-high heat, refreshing the light oil film as needed and transferring each finished vegetable to a large clean bowl. Carrots and zucchini each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3 minutes until their released moisture cooks away; onion about 2–3 minutes until softened; scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess spinach liquid. Use more loads rather than crowding the skillet."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Mix the sauce: Whisk the 2/3 of the soy sauce, 2/3 of the toasted sesame oil, brown sugar, and rice vinegar with all the remaining prepared garlic until the sugar disperses. In the original batch, these shares are the remaining 2 tbsp soy and 2 tsp sesame oil. Keep every measured part of the seasoning in its assigned protein or sauce destination."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Toss and warm: Use the gochugaru (if using) only if you want heat. Over low heat, toss the cooked noodles, all cooked vegetables, rested beef and its clean-plate juices, sauce, and optional gochugaru together for about 1–2 minutes until evenly coated and warm. If the skillet cannot hold everything comfortably, divide noodles, vegetables, beef, and sauce proportionally between loads, then combine in the serving bowl."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Finish and serve: Sprinkle with the toasted sesame seeds and use any remaining optional additional sesame oil for a light finish. Serve warm or freshly brought to room temperature; the cooling limits still apply."
         }
       ],
-      "prepTime": "PT20M",
-      "cookTime": "PT20M",
-      "totalTime": "PT40M",
-      "recipeYield": "4",
+      "recipeYield": "4 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["Korean"],
-      "keywords": "Korean, savory, sweet, nutty, umami, weeknight, entertaining, meal-prep, stir-fry, boil, saute"
+      "keywords": "Korean, savory, sweet, nutty, umami, weeknight, entertaining, meal-prep, stir-fry, boil, saute",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Mise household adaptation; shrimp option informed by Andrew Zimmern",
+        "url": "https://andrewzimmern.com/recipes/shrimp-japchae/"
+      }
     },
     {
       "@context": "https://schema.org",
@@ -20229,48 +20204,42 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Mandarin/Pineapple Orange Salad",
-      "description": "Citrus salads are a Southern and Caribbean tradition - canned or fresh fruit with a bright dressing and sometimes nuts for crunch. The trick is draining fruit well so the salad doesn't turn watery.",
+      "description": "The Gwock family’s orange gelatin salad brings crushed pineapple, mandarin oranges and a generous sour-cream finish to the holiday or potluck table. Keep the pineapple juice in this version and drain the mandarin packing liquid.",
       "url": "https://jordansilton.com/mise/recipes/mandarinpineapple-organge-salad/",
       "recipeIngredient": [
-        "1 small box Orange Jello",
-        "1 small can Crushed Pineapple (with juice)",
-        "1 small can Mandarin Oranges, drained",
-        "3/4 cup Sour Cream (for richness)",
-        "1/2 cup Granulated Sugar",
-        "1 cup Boiling Water"
+        "1 package (3 oz) regular orange gelatin dessert mix",
+        "1/2 cup granulated sugar",
+        "1 cup boiling water",
+        "3/4 cup full-fat sour cream",
+        "1 can (8 oz) canned crushed pineapple in juice, undrained; include all fruit and juice",
+        "1 can (11 oz) canned mandarin oranges, drained; discard the packing liquid"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Dissolve: In a large bowl, whisk the Orange Jello and sugar into the boiling water until no crystals remain."
+          "text": "Prepare for cold holding: Clear refrigerator space for a shallow 2-quart serving dish or bowl with room for the complete salad and some headroom. Chill the sour cream until needed. Clean the can lids before opening; drain canned mandarin oranges, keeping the pineapple juice with its fruit. Keep the fruit covered and cold until mixing."
         },
         {
           "@type": "HowToStep",
-          "text": "Emulsify: Add the sour cream to the hot liquid. Whisk vigorously until the mixture is completely smooth and pale orange."
+          "text": "Dissolve the gelatin and sugar: Combine regular orange gelatin dessert mix, granulated sugar, and boiling water in a heatproof mixing bowl. Stir for about 2 minutes and continue until no dry grains remain. Do not add the plain-gelatin package’s separate cold-water amount; this family route uses fruit, juice and sour cream instead."
         },
         {
           "@type": "HowToStep",
-          "text": "Texture: Fold in the crushed pineapple (with its juice) and the drained mandarin oranges."
+          "text": "Whisk in the sour cream: Let the dissolved mixture lose its steaming heat while still fluid. Whisk a few spoonfuls of full-fat sour cream into the still-fluid gelatin base, then gradually whisk in the remaining sour cream until evenly blended."
         },
         {
           "@type": "HowToStep",
-          "text": "The Finish: Pour the mixture into a glass bowl or a decorative mold."
+          "text": "Fold in both fruits: Fold in canned crushed pineapple in juice and canned mandarin oranges gently, including all the pineapple juice and keeping the orange segments as intact as practical. Pour the complete mixture into the prepared serving dish; do not discard fruit or cream to make it fit."
         },
         {
           "@type": "HowToStep",
-          "text": "Chill: Refrigerate for at least 4 hours (ideally overnight) until perfectly congealed and firm."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Serve chilled as a bright side dish or a light dessert."
+          "text": "Chill until set: Cover and refrigerate at 40°F / 4°C or below promptly. Allow about 4–6 hours or overnight, continuing until the center holds a soft jiggle with no freely sloshing liquid. Serve cold from the bowl rather than relying on a clean unmold. If the center is still loose, continue chilling."
         }
       ],
-      "prepTime": "PT10M",
-      "totalTime": "PT240M",
-      "recipeYield": "8",
+      "recipeYield": "8 portions",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["American"],
-      "keywords": "American, sweet, rich, holiday, potluck, entertaining, boil",
+      "keywords": "American, sweet, rich, holiday, potluck, entertaining, boil, mix",
       "citation": {
         "@type": "CreativeWork",
         "name": "Adapted from Gwock Family"
@@ -22265,54 +22234,41 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Nana Ruth’s Applesauce",
-      "description": "This traditional applesauce appears on Jewish holiday tables for Rosh Hashanah, Thanksgiving, and Hanukkah. McIntosh apples have thin skin and high water content, allowing them to break down into naturally velvety texture without needing a blender.",
+      "description": "Ruth Shankman’s McIntosh applesauce belongs with the family’s Rosh Hashanah, Thanksgiving and Hanukkah meals. McIntosh apples soften readily into a sauce with gentle texture; sugar, honey, cinnamon, nutmeg and lemon keep its familiar sweet, warmly spiced character.",
       "url": "https://jordansilton.com/mise/recipes/nana-ruths-applesauce/",
       "recipeIngredient": [
-        "6 lbs McIntosh Apples",
-        "1/2 cup Granulated Sugar",
-        "1/4 cup Honey",
-        "1 Lemon, juiced (The Acid Balance)",
-        "3 shakes Ground Cinnamon",
-        "1 shake Ground Nutmeg",
-        "Filtered Water"
+        "6 lb McIntosh apples, weighed before peeling and coring",
+        "1/2 cup water",
+        "1/2 cup granulated sugar",
+        "1/4 cup honey",
+        "2 tbsp fresh lemon juice",
+        "3/4 tsp ground cinnamon",
+        "1/8 tsp ground nutmeg",
+        "extra water, small splashes only if the bottom begins drying before the apples soften",
+        "ground cinnamon, to taste, for serving, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Core and peel the apples. Cut into large chunks."
+          "text": "Prepare the full apple batch: Wash McIntosh apples under running water before peeling. Peel and core, then cut into roughly 1-inch chunks. Use a heavy approximately 8-quart pot with room to stir the full batch without overflowing."
         },
         {
           "@type": "HowToStep",
-          "text": "The Rinse: Place apple chunks in a heavy nonstick pot. Fill with water, rinse, and repeat, leaving about 1/4 inch of water at the bottom of the pot."
+          "text": "Soften gently: Add the apple chunks to the pot with water, granulated sugar, honey, fresh lemon juice, ground cinnamon, ground nutmeg, and extra water, holding back the unmeasured extra water for small splashes only if needed. Stir, cover and heat until the liquid begins bubbling. Lower the heat to maintain a very gentle covered simmer. Stir the bottom often, starting softness checks after 20–25 minutes and continuing until the apples crush readily with a spoon. Do not let a dry bottom scorch."
         },
         {
           "@type": "HowToStep",
-          "text": "Season: Squeeze the lemon over the apples. Add the honey, sugar, cinnamon, and nutmeg."
+          "text": "Mash and cook down: Mash the tender apples to the texture you like. Simmer uncovered over low heat, stirring often, for roughly 5–15 minutes as needed until the sauce is thick enough to mound softly on a spoon. Stop while it is moist; it thickens further when cold."
         },
         {
           "@type": "HowToStep",
-          "text": "Boil: Bring to a boil over high heat. Immediately cover and reduce heat to very low."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Simmer: Cook for 20-25 minutes, stirring occasionally. The apples should be very soft and falling apart."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Crush: Use a potato masher or the side of a heavy spoon to crush the apples against the side of the pot into a chunky, uniform sauce."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Best served warm with a dusting of extra cinnamon."
+          "text": "Serve warm or cold: Serve warm, or cool promptly in shallow containers and refrigerate. Add ground cinnamon (if using) if desired."
         }
       ],
-      "prepTime": "PT10M",
-      "cookTime": "PT30M",
-      "totalTime": "PT40M",
-      "recipeYield": "6",
+      "recipeYield": "12 portions",
       "recipeCategory": "Base",
       "recipeCuisine": ["Jewish"],
-      "keywords": "Jewish, sweet, acidic, holiday, simmer, boil, blend",
+      "keywords": "Jewish, sweet, acidic, holiday, simmer",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
@@ -23542,6 +23498,70 @@
         "@type": "CreativeWork",
         "name": "Adapted from cooking.nytimes.com",
         "url": "https://cooking.nytimes.com/recipes/1025396-pad-woon-sen"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      "name": "Paella Valenciana",
+      "description": "Valencian paella builds its broth from chicken, rabbit and beans in the same broad pan that cooks the rice. Browning and reducing the tomato happen first; after the rice is spread, leave it still.",
+      "url": "https://jordansilton.com/mise/recipes/paella-valenciana/",
+      "recipeIngredient": [
+        "120 ml extra-virgin olive oil",
+        "480 g bone-in chicken pieces, thigh or leg pieces, cut through the joints into small serving pieces; thawed and patted dry",
+        "320 g bone-in rabbit pieces, cut into small serving pieces; thawed and patted dry",
+        "200 g flat green beans, trimmed and cut into short lengths",
+        "2 ripe tomatoes, grated on the coarse side of a grater, skins discarded",
+        "3/4 tsp sweet paprika",
+        "150 g shelled garrofó beans, fresh or frozen, thawed; not dried beans",
+        "2.6 L water, add 1.2 L first to mark the rice-cooking level, then the remaining 1.4 L for the meat broth",
+        "32 saffron strands, crushed",
+        "kosher salt, to taste; the regional source suggests about 28 g for this four-person batch",
+        "400 g Spanish round white rice of the Senia/Bahía type, dry; use the stated variety for this liquid level and cooking schedule",
+        "additional boiling water, as needed to restore the marked broth level or finish hard rice"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "text": "Set up the pan and ingredients: Use a level 42–45 cm traditional shallow paella pan over a matched gas ring or another heat source that heats the whole rice bed evenly. Follow the burner’s indoor/outdoor rating. This is one four-portion pan: a small stove burner under this wide pan leaves the edges undercooked. Prepare the meat, beans and grated tomatoes before starting. Have a heatproof way to mark the liquid level, a kettle and a food thermometer ready. Keep the raw meat separate from the vegetables and finished food."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Brown the chicken and rabbit: Start with extra-virgin olive oil, bone-in chicken pieces, and bone-in rabbit pieces. Warm the oil over medium heat, then add the chicken and rabbit in a loose single layer. Turn as each surface browns, letting the meat color without scorching the pan; allow roughly 20–30 minutes. Use batches if necessary, retaining all the meat and oil. Browning is the start of cooking, not the final meat endpoint."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Cook the green beans: Add flat green beans and turn them in the oil for about 3–5 minutes, until their color brightens and they begin to soften. Move the meat and beans toward the perimeter to leave room for the tomato in the middle."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Reduce the tomato without burning the paprika: Use ripe tomatoes and sweet paprika for the sofrito. Lower the heat. Stir the paprika into the oil briefly, then immediately add the tomatoes. Cook the tomato until its loose water has evaporated and the mixture is thick, roughly 5–10 minutes. Stir this mixture as needed; if the paprika catches before the tomato is added, its bitterness will carry into the rice."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Mark the broth level, then simmer the meat: Use shelled garrofó beans, water, and kosher salt in stages. For this four-portion pan, add the garrofó, then pour in 1.2 L of the water first and mark that liquid level on a clean metal utensil held consistently in the pan. Add the remaining 1.4 L. Add the salt gradually; it will become more concentrated as the broth reduces. Simmer uncovered until the broth returns to the mark, the beans are tender and the meat is cooked through, allowing roughly 25–45 minutes. Probe several thick chicken pieces away from bone for at least 165°F and rabbit pieces for at least 160°F. If the broth reaches the mark first, replenish with boiling water and continue until those endpoints are met. If the meat finishes first, continue reducing to the mark. Taste a cooled spoonful: the broth should be well seasoned, without a harsh salt taste."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add the saffron: Put saffron strands in a small heatproof cup and dissolve it in a few spoonfuls of hot broth taken from the pan. Return the whole infusion to the pan; it adds no extra unmeasured liquid. Bring the broth back to a lively, even boil."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Spread the rice, then leave it still: Have Spanish round white rice of the Senia/Bahía type and additional boiling water ready. Scatter the rice evenly into the boiling broth and spread it once so no mound remains. Cook uncovered at a lively boil for about 5 minutes, at medium heat for about 5 minutes, then at low heat for about 5–8 minutes. Keep the heat even across the pan and do not stir after distributing the rice. Start tasting a few grains from both center and edge around 15 minutes: they should be tender with a slight firmness and no chalky core, while the pan has no loose broth. If the liquid disappears while the grains remain hard, add a little of the boiling water over the dry areas and continue gently; do not fry hard rice to make a crust. These are checkpoints, not a guaranteed finish time."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Rest briefly and serve from the pan: Take the pan off the heat when the rice is cooked and the broth has been absorbed. A faint toasted smell and gentle crackle can signal socarrat underneath; an acrid smell or dark smoke means remove the pan immediately. A crust is optional, not a reason to burn otherwise finished rice. Rest away from the heat for about 5 minutes, then serve, sharing both meat and rice among the four portions. Keep the rice layer undisturbed until serving."
+        }
+      ],
+      "recipeYield": "4 portions",
+      "recipeCategory": "Main course",
+      "recipeCuisine": ["Spanish"],
+      "keywords": "Spanish, savory, rich, aromatic, entertaining, family-meal, weekend-project, saute, simmer",
+      "citation": {
+        "@type": "CreativeWork",
+        "name": "Adapted from Turisme Comunitat Valenciana’s Paella Valenciana, with documented ingredient-state and cooking guidance",
+        "url": "https://multimedia.comunitatvalenciana.com/02DE7ACEB70B406FB083C79314A85B50/doc/7791B45ACAB1455ABAB179442017C123/Paella_Valenciana_EN.pdf"
       }
     },
     {
@@ -32440,62 +32460,76 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Spinach & Mushroom Quiche",
-      "description": "Quiche is a savory French tart from the Lorraine region, traditionally made with eggs, cream, and bacon. Searing mushrooms until browned and dry, sautéing onions until tender, and wilting spinach separately before mixing into the custard prevents excess moisture that would make the quiche watery.",
+      "description": "Brown the mushrooms before adding the onion, and add the garlic near the end so it stays fragrant. Dry vegetables and a prebaked pastry base keep this Gruyère quiche from turning watery.",
       "url": "https://jordansilton.com/mise/recipes/spinach-and-mushroom-quiche/",
       "recipeIngredient": [
-        "1 Pie Crust (Homemade or Store-bought)",
-        "8 oz Fresh Mixed Mushrooms, sliced",
-        "5 oz Fresh Baby Spinach, chopped",
-        "6 large Eggs",
-        "1/4 cup Whole Milk",
-        "1/4 cup Half-and-Half",
-        "1 1/2 cups Gruyère Cheese, shredded",
-        "1 tbsp Dijon Mustard (The Finishing Touch)",
-        "1 tbsp Fresh Thyme",
-        "1 1/2 cups Sweet Onion, thinly sliced",
-        "1 tbsp Garlic, sliced"
+        "1 portion of unbaked single-crust pastry dough, one original-batch portion supplies a 9-inch deep pie plate; divide unrolled dough when scaling and fit appropriately sized vessels; prebake according to its dough recipe or package for an egg filling",
+        "2 tbsp extra-virgin olive oil",
+        "8 oz fresh mixed mushrooms, sliced",
+        "1 1/2 cups sweet onion, thinly sliced",
+        "1 tbsp garlic, thinly sliced",
+        "5 oz fresh baby spinach, coarsely chopped",
+        "6 large eggs",
+        "1/4 cup whole milk",
+        "1/4 cup half-and-half",
+        "1 tbsp Dijon mustard",
+        "1 tbsp fresh thyme leaves",
+        "1/4 tsp fine salt",
+        "1/4 tsp ground black pepper",
+        "1 1/2 cups Gruyère cheese, freshly grated",
+        "cooking spray, enough to coat an extra small oven-safe dish if filling exceeds the crust capacity",
+        "fresh thyme leaves, a little extra for garnish, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Thermal Prep: Preheat oven to 375°F. Line a 9-inch pie pan with the crust and prick with a fork."
+          "text": "Prebake the pastry: Fit portion of unbaked single-crust pastry dough to appropriately sized pie plates, then follow the dough recipe or package’s custard-pie prebaking instructions, using weights if directed. The pastry sides must be set and the base dry before the egg filling is added; remove any weights and lining, and cool it while cooking the vegetables. The original six-portion batch uses one 9-inch plate with enough depth to keep the complete mixture below the pastry rim. When scaling, divide unrolled dough among suitable vessels; do not halve a formed shell or multiply its diameter. Set it on a rimmed baking sheet. Once the pastry is ready, heat the oven to 375°F."
         },
         {
           "@type": "HowToStep",
-          "text": "The Crunch: In a large skillet, sauté mushrooms in oil until deep golden and all moisture has evaporated (8 mins). Add onion and cook for 5 minutes until soft. Add garlic and cook for 30-45 seconds until fragrant."
+          "text": "Prepare a dish for excess filling: Coat a small extra oven-safe dish with cooking spray and set it aside. Use it if the full filling will not fit below the pastry rim."
         },
         {
           "@type": "HowToStep",
-          "text": "The Wilt: Add the spinach. Toss for 1 minute until just collapsed. Remove from heat and let cool."
+          "text": "Brown the mushrooms: Heat extra-virgin olive oil and fresh mixed mushrooms in a wide skillet over medium-high heat. Cook, stirring occasionally, until the mushrooms are browned and tender and released moisture has cooked away, starting from about 8 minutes. Cook in batches if necessary so they brown rather than stew."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: In a large bowl, whisk eggs, milk, half-and-half, mustard, thyme, salt, and pepper until very frothy."
+          "text": "Soften the onion: Add sweet onion and cook, stirring, until soft and lightly golden, about 5 minutes. Reduce the heat if the mushrooms or onion threaten to scorch."
         },
         {
           "@type": "HowToStep",
-          "text": "Assemble: Fold the mushroom-spinach mixture and the cheese into the egg base. Pour into the prepared crust."
+          "text": "Add the garlic late: Stir in garlic and cook for 30–45 seconds, just until fragrant. Do not brown or burn it."
         },
         {
           "@type": "HowToStep",
-          "text": "Bake: Bake for 30-35 minutes until the center is set and the top is deep golden brown."
+          "text": "Wilt and dry the spinach: Add fresh baby spinach and toss until fully wilted, about 1–2 minutes. Cook off any free liquid, then spread the vegetables out and cool them until only warm."
         },
         {
           "@type": "HowToStep",
-          "text": "Set: Let stand for 10 minutes before slicing - this is mandatory for the structural integrity of the \"Bounce.\""
+          "text": "Mix the complete custard: Whisk large eggs, whole milk, half-and-half, Dijon mustard, fresh thyme leaves, fine salt, and ground black pepper just until smooth and evenly blended, without beating in a thick foam."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Add cheese and fill: Fold Gruyère cheese and all the cooled vegetables into the custard. Pour the complete mixture into the prebaked pastry, leaving space below its rim; bake any excess in the extra dish rather than overfilling or discarding it."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Bake to a set center: Bake at 375°F, beginning the first check around 30 minutes. The top should be lightly golden and the center set, with at most a small unified tremble and no liquid wave. The central egg filling must reach at least 160°F; keep the thermometer’s sensing area away from the pan. Continue until both the temperature and set texture agree. Shield darkening pastry edges or the top with foil if needed. Check an extra dish independently; depth and starting temperature change the time."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Rest and slice: Rest for 10 minutes before slicing. Add fresh thyme leaves (if using) if desired. Serve warm. Refrigerate leftovers within 2 hours of cooking, or 1 hour above 90°F, while still warm if needed."
         }
       ],
-      "prepTime": "PT25M",
-      "cookTime": "PT65M",
-      "totalTime": "PT90M",
-      "recipeYield": "6",
+      "recipeYield": "6 portions",
       "recipeCategory": "Main course",
       "recipeCuisine": ["French"],
-      "keywords": "French, sweet, acidic, rich, comfort-food, bake, saute, no-cook",
+      "keywords": "French, sweet, acidic, rich, comfort-food, bake, saute",
       "suitableForDiet": ["https://schema.org/VegetarianDiet"],
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from eatingwell.com",
+        "name": "Adapted from Julia Levy, EatingWell; pastry version",
         "url": "https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/"
       }
     },
@@ -33355,55 +33389,53 @@
     {
       "@context": "https://schema.org",
       "@type": "Recipe",
-      "name": "Strawberry Orange Jello Salad",
-      "description": "Congealed salads are a Southern tradition - aspic-based dishes that served as both side dish and dessert at mid-century dinners. Despite their reputation, they work because the gelatin provides a light texture that carries fruit and nuts without heaviness.",
+      "name": "Strawberry Congealed Salad",
+      "description": "This Southern congealed salad keeps two strawberry-fruit layers around a full sour-cream layer. Drained strawberries and pineapple bring bright fruit, mashed bananas give body, and the optional full pecan amount adds crunch.",
       "url": "https://jordansilton.com/mise/recipes/strawberry-congealed-salad/",
       "recipeIngredient": [
-        "1 large box Strawberry Jello",
-        "20 oz Frozen Strawberries, thawed and drained",
-        "1 can (20 oz) Crushed Pineapple, drained",
-        "3 large Ripe Bananas, mashed",
-        "1 pint Sour Cream (for richness)",
-        "1 cup Boiling Water",
-        "1/2 cup Pecans, chopped (Optional)"
+        "1 package (6 oz) regular strawberry gelatin dessert mix",
+        "1 cup boiling water",
+        "2 packages (10 oz) frozen strawberries, thawed in the refrigerator and drained; discard the released liquid",
+        "1 can (20 oz) canned crushed pineapple, drained; discard the packing liquid",
+        "3 medium bananas, peeled and mashed",
+        "1 cup pecans, chopped, optional",
+        "2 cups full-fat sour cream",
+        "water for an external warm-water bath, warm, not boiling; only if the refrigerated reserved mixture needs gently reliquefying; do not add it to the salad, optional"
       ],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Dissolve: In a large bowl, whisk the Jello into the boiling water until no crystals remain."
+          "text": "Prepare the dish and fruit: Make refrigerator space for a 9×13-inch dish at least 2 inches deep with about 3-quart capacity and a covered heatproof bowl for the reserved mixture. Clean the pineapple can lid before opening. Drain frozen strawberries and canned crushed pineapple well, discarding their free liquid; peel and mash medium banana. Keep the fruit and sour cream cold until needed."
         },
         {
           "@type": "HowToStep",
-          "text": "Combine: Stir in the thawed strawberries, drained pineapple, and mashed bananas. Fold in the pecans if using."
+          "text": "Dissolve the gelatin completely: Put regular strawberry gelatin dessert mix and boiling water in a heatproof bowl. Stir about 2 minutes and continue until all dry grains dissolve. This concentrated family mixture uses the listed boiling water only; do not add the plain-package cold-water amount. Let it lose its steaming heat while it remains fluid."
         },
         {
           "@type": "HowToStep",
-          "text": "Stage 1: Pour exactly half of the mixture into a 9x13 glass dish. Refrigerate for 1-2 hours until firm. Keep the remaining half at room temperature."
+          "text": "Combine the complete fruit mixture: Fold in frozen strawberries, canned crushed pineapple, medium bananas, and pecans (if using), including the full chopped pecan amount if using. Stir until the fruit is evenly distributed. All of this mixture is used across the two gelatin layers."
         },
         {
           "@type": "HowToStep",
-          "text": "The Emulsion: Once the first layer is set, spread the sour cream in an even layer over the top."
+          "text": "Chill both halves: Divide the complete fruit-gelatin mixture into two equal halves, stirring between transfers so the fruit and nuts are shared evenly. Spread one half in the prepared dish, cover, and refrigerate at 40°F / 4°C or below. Cover the entire reserved second half in its separate heatproof bowl and refrigerate it too. Begin checking the first layer around 1–2 hours, continuing until it is firm enough to support the sour-cream layer without flowing."
         },
         {
           "@type": "HowToStep",
-          "text": "Stage 2: Carefully pour the remaining Jello mixture over the sour cream."
+          "text": "Add all the sour cream: Once the bottom layer is firm, spread full-fat sour cream gently and evenly over it, keeping the sour cream in a distinct layer. Return the dish to refrigeration while preparing the reserved mixture."
         },
         {
           "@type": "HowToStep",
-          "text": "Set: Return to the fridge for at least 2 more hours (ideally 4) until completely congealed."
+          "text": "Keep the reserved half pourable and add it: Take the reserved mixture from the refrigerator. If it has set, place its bowl in water for an external warm-water bath (if using) and stir gently just until the gelatin becomes pourable; keep bath water out of the bowl and do not boil the mixture. Remove from the bath and let it become no longer warm to the touch while still pourable. Stir to redistribute fruit, then spoon or pour all of it gently over the cold sour-cream layer. If it is already fluid, use it directly. Keep total preparation time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C."
         },
         {
           "@type": "HowToStep",
-          "text": "Serve: Slice into squares and serve cold."
+          "text": "Finish setting and serve cold: Cover and refrigerate promptly. Allow at least 4 more hours or overnight, continuing until the upper layer holds a gentle jiggle without freely flowing liquid and the center supports a cut or spooned portion. Keep refrigerated until serving."
         }
       ],
-      "prepTime": "PT15M",
-      "totalTime": "PT240M",
-      "recipeYield": "8",
+      "recipeYield": "12 portions",
       "recipeCategory": "Side dish",
       "recipeCuisine": ["Southern"],
-      "keywords": "Southern, sweet, acidic, rich, holiday, entertaining, make-ahead, boil",
-      "suitableForDiet": ["https://schema.org/VegetarianDiet"],
+      "keywords": "Southern, sweet, acidic, rich, holiday, entertaining, make-ahead, boil, mix",
       "citation": {
         "@type": "CreativeWork",
         "name": "Adapted from Gwock Family"
@@ -34694,52 +34726,30 @@
       "@context": "https://schema.org",
       "@type": "Recipe",
       "name": "Tarragon Potatoes",
-      "description": "The secret to excellent tarragon potatoes is the butter-finish technique. Tarragon has a powerful, anise-like flavor that can become bitter if burned; we toss the potatoes in oil and herbs first, then add cold butter cubes to the pan halfway through roasting.",
+      "description": "Tarragon Potatoes recipe",
       "url": "https://jordansilton.com/mise/recipes/tarragon-potatoes/",
-      "recipeIngredient": [
-        "2 lbs Russet Potatoes, cubed (1.5-inch chunks)",
-        "2 tbsp Extra-Virgin Olive Oil",
-        "2 tbsp Unsalted Butter (Cold)",
-        "1 tbsp Dried Tarragon (The \"High Note\")",
-        "1 tsp Sea Salt",
-        "1/2 tsp Black Pepper"
-      ],
+      "recipeIngredient": ["Russet Potatoes", "Olive Oil", "Butter", "Dried Tarragon"],
       "recipeInstructions": [
         {
           "@type": "HowToStep",
-          "text": "Prep: Preheat oven to 350°F. Line a baking dish with parchment."
+          "text": "Cut potatoes into 1-1.5 inch cubes (do not peel)."
         },
         {
           "@type": "HowToStep",
-          "text": "Toss: Combine potato cubes, olive oil, salt, pepper, and tarragon in a large bowl. Toss vigorously until every chunk is heavily coated."
+          "text": "Arrange in a rose single layer in baking dish and add enough olive oil to coat. I also add a tablespoon or two of butter just because. Sprinkle with tarragon."
         },
         {
           "@type": "HowToStep",
-          "text": "Roast: Arrange in a single layer (The Single-Layer Guard). Bake for 25 minutes."
+          "text": "Important note: tarragon can get surprising “hot” and spicy if used in excess, be careful."
         },
         {
           "@type": "HowToStep",
-          "text": "The Sizzle: Remove pan. Add the cold butter cubes to the dish and toss the potatoes to coat in the melting fat."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Return to oven. Bake for 20 more minutes, tossing once, until the potatoes are deep golden brown and the edges are crispy."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Serve: Serve immediately while the herb aroma is at its peak."
+          "text": "Bake for about 45 minutes at 350 degrees, turning potatoes once about half way through and again with about 5 minutes to go."
         }
       ],
-      "prepTime": "PT10M",
-      "cookTime": "PT45M",
-      "totalTime": "PT55M",
-      "recipeYield": "6",
-      "recipeCategory": "Side dish",
-      "recipeCuisine": ["French"],
-      "keywords": "French, acidic, rich, weeknight, entertaining, holiday, bake, roast",
       "citation": {
         "@type": "CreativeWork",
-        "name": "Adapted from Craig Plummer"
+        "name": "Craig Plummer"
       }
     },
     {
@@ -36735,71 +36745,6 @@
         "name": "Adapted from Myrecipes.com",
         "url": "http://www.myrecipes.com/recipe/warm-spiced-butternut-squash-soup"
       }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Recipe",
-      "name": "Weeknight Paella",
-      "description": "Paella is not a \"stir-fry. \" The soul of this dish is the Socarrat: the layer of toasted, crispy rice at the bottom of the pan.",
-      "url": "https://jordansilton.com/mise/recipes/weeknight-paella/",
-      "recipeIngredient": [
-        "1.5 cups Bomba or Calasparra Rice (Short-grain Spanish rice)",
-        "1 small Yellow Onion, grated or finely diced",
-        "1 Red Bell Pepper, diced",
-        "2 cloves Garlic, minced",
-        "1/2 cup Tomato Puree",
-        "1 tsp Pimentón (Smoked Paprika)",
-        "3 cups Chicken Broth (warm)",
-        "Pinch of Saffron threads",
-        "1/2 lb Large Shrimp, peeled",
-        "1/2 lb Spanish Chorizo, sliced",
-        "Fresh Parsley and Lemon wedges"
-      ],
-      "recipeInstructions": [
-        {
-          "@type": "HowToStep",
-          "text": "Chorizo: In a large wide skillet (paella pan or cast iron), sear the chorizo rounds until crispy. Remove to a plate."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Sofrito: In the same fat, sauté the onion and bell pepper until soft (8 mins). Stir in the pimentón and tomato puree. Cook for 5 minutes until it becomes a thick, dark jam. Stir in the garlic and cook for 30-45 seconds."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Rice: Add the rice to the pan. Stir for 2 minutes to toast the grains in the sofrito."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Simmer: Add the saffron to the warm broth. Pour the broth over the rice. Shake the pan to distribute the rice evenly. DO NOT STIR AGAIN."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Cook: Simmer over medium-low heat for 15 minutes until the liquid is almost gone."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Proteins: Press the raw shrimp and seared chorizo into the surface of the rice."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "The Socarrat: Increase heat to medium-high for the final 2 minutes. Listen for a \"crackling\" sound. This is the bottom crisping."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Rest: Turn off the heat. Cover with a clean towel and let rest for 5 minutes."
-        },
-        {
-          "@type": "HowToStep",
-          "text": "Finish: Garnish with parsley and lots of lemon."
-        }
-      ],
-      "prepTime": "PT20M",
-      "cookTime": "PT30M",
-      "totalTime": "PT50M",
-      "recipeYield": "4",
-      "recipeCategory": "Main course",
-      "recipeCuisine": ["Spanish"],
-      "keywords": "Spanish, acidic, herbaceous, smoky, entertaining, weekend-project, fry, saute, simmer"
     },
     {
       "@context": "https://schema.org",

@@ -1,5 +1,9 @@
 # Current active holds — October 6, 2026
 
+Zero active holds remain. Fourteen local complete editorial repairs, one intentional unreviewed original preservation and one user retirement resolve the final 16. Publication pending; no physical kitchen testing. [Current machine record](whole-recipe-holds.json). Historical questions below remain as evidence, not active questions or approved old formulas.
+
+# Current active holds — October 6, 2026
+
 16 active holds remain after 9 verified complete repairs and 2 user-authorized retirements. The retired chicken-and-broccoli and whole-duck records remain separately preserved; neither is a completed editorial review. [Current machine register](whole-recipe-holds.json) and [retirement evidence](../2026-10-06/user-retirements.json). The earlier snapshots below are historical.
 
 # Remaining whole-recipe holds — October 6, 2026

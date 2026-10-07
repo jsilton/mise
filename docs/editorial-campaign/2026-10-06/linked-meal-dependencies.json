@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-06",
+  "status": "Dependency corrections accepted locally; publication pending",
+  "completeMealEditorialGranted": false,
+  "kitchenTested": false,
+  "meals": [
+    {
+      "slug": "brisket-dinner",
+      "sourcePath": "src/content/meals/brisket-dinner.md",
+      "sourceSha256": "d138842184a84fa49440d548ab1ec599d4e91e6b723275a777c9b37309cecd0b",
+      "exactBefore": {
+        "frontmatter": {
+          "title": "Brisket Dinner",
+          "template": "plate",
+          "main": "chef-krigers-recipe-shabbat-brisket",
+          "sides": ["garlic-mashed-red-potatoes", "glazed-carrots"],
+          "totalPrepTime": "20 min",
+          "totalCookTime": "240 min",
+          "totalActiveTime": "30 min",
+          "overallDifficulty": "intermediate",
+          "cuisines": ["American"],
+          "occasions": ["holiday", "entertaining", "comfort-food"],
+          "seasons": ["fall", "winter"],
+          "nutritionalDensity": "hearty",
+          "servings": "8"
+        },
+        "body": "\n## Meal Overview\n\nA weekend centerpiece meal - the brisket braises low and slow until it's fork-tender and deeply flavored. Creamy mashed potatoes soak up the rich braising liquid, and glazed carrots add sweetness and color. This is the kind of dinner that brings everyone to the table.\n\n## Cooking Strategy\n\n1. **Morning: prep and start brisket** - sear, add aromatics, braise at 325°F for 3-4 hours\n2. **1 hour before serving: start potatoes** - peel, boil, mash\n3. **45 min before: prep carrots** - glaze and roast\n4. **Rest brisket** - 15 minutes before slicing against the grain\n5. **Make gravy** - reduce braising liquid\n6. **Plate** - sliced brisket, potatoes, carrots, spoon gravy over everything\n\n## Notes\n\n- Always slice against the grain for tender brisket\n- The braising liquid is liquid gold - strain and reduce for gravy\n- Leftovers make incredible sandwiches the next day\n"
+      },
+      "exactAfter": {
+        "frontmatter": {
+          "title": "Brisket Dinner",
+          "template": "plate",
+          "main": "chef-krigers-recipe-shabbat-brisket",
+          "sides": ["garlic-mashed-red-potatoes", "glazed-carrots"],
+          "componentPreparation": {
+            "chef-krigers-recipe-shabbat-brisket": {
+              "state": "reheat",
+              "note": "Braise the day before, cool promptly in shallow containers and refrigerate overnight; cold-slice and reheat for dinner."
+            },
+            "garlic-mashed-red-potatoes": {
+              "state": "from-scratch",
+              "note": "Make twice the six-side-portion recipe for eight diners and generous sides; retain any excess as leftovers."
+            },
+            "glazed-carrots": {
+              "state": "from-scratch",
+              "note": "Make the full eight-portion recipe on the stove; its measured glaze salt is separate from boiling-water salt."
+            }
+          },
+          "totalPrepTime": "About 50–70 min across both days",
+          "totalCookTime": "About 4–6 hr across both days",
+          "totalActiveTime": "About 75–105 min across both days",
+          "totalTime": "About 14–20 hr, including overnight refrigeration",
+          "overallDifficulty": "intermediate",
+          "cuisines": ["Jewish"],
+          "occasions": ["holiday", "entertaining", "comfort-food"],
+          "seasons": ["fall", "winter"],
+          "nutritionalDensity": "hearty",
+          "servings": "8"
+        },
+        "body": "\n## Meal Overview\n\nChef Kriger’s sweet-savory brisket, garlic-and-Parmesan mashed red potatoes and butter-glazed carrots. Cook the brisket a day ahead so it can be sliced cold, then reheat it with every bit of its sauce.\n\n## Cooking Strategy\n\n1. **The day before:** Make one full brisket batch. Follow its covered braise to fork tenderness; it does not need a preliminary sear. Transfer meat, sauce and vegetables to shallow containers and refrigerate promptly for the overnight rest. Keep its carrots and onion with the sauce.\n2. **About 75–100 minutes before dinner:** Heat the oven to 325°F. Slice the cold brisket across the grain. Bring all its sauce to a boil, stirring against scorching, and pour it and the vegetables over the meat. Cover and reheat, checking around 45 minutes, until the meat reaches 165°F throughout. Allow longer if needed.\n3. **While the brisket reheats:** Start a double batch of the mashed-potato recipe: 16 medium red potatoes, 6 large garlic cloves, 4 tbsp butter, 1 cup whole milk and ½ cup Parmesan, plus its salt and pepper allowance. Use a pot with expansion/stirring room or two complete pots. The recipe’s doubled planned yield is twelve standard side portions, so eight diners can have generous helpings with some left over. Start about an hour before serving to allow for the larger water load. Keep the skins on, simmer quarters and garlic until both crush easily, drain, steam-dry briefly and hand-mash with all the butter, warmed milk and cheese.\n4. **About 35 minutes before dinner:** Prepare one full glazed-carrot recipe. Simmer its matchsticks on the stove to tenderness, drain without rinsing, then toss with the full butter, brown sugar, glaze salt and white pepper; thyme is optional. It is a stovetop glaze, so the oven remains available for the brisket.\n5. **Finish and serve:** Check the brisket’s measured reheat endpoint before plating. Spoon its sauce over the slices; it needs neither straining nor a separate gravy reduction. Finish the mash and carrots close to serving so they arrive hot. If any component finishes early, hold it at 140°F or above, or refrigerate promptly and reheat to 165°F before serving.\n\n## Notes\n\n- The full brisket batch and carrot batch each plan eight portions. The larger potato batch intentionally provides generous sides and possible leftovers; those portions are planning estimates, not a measured service yield.\n- The brisket’s overnight rest counts against its 3–4-day refrigerated storage period. Cool meal leftovers in shallow containers promptly rather than leaving deep pots on the counter.\n"
+      },
+      "rationale": "Replace incompatible same-day sear/rest/strain workflow with accepted covered braise, overnight chill and full-sauce reheat. Keep the existing sides and richness. Inspect complete side quantities and stove/oven dependencies; make side yield explicit. Meal editorial label not granted by this dependency correction.",
+      "independentChallenge": {
+        "verdict": "PASS",
+        "candidateSha256": "d138842184a84fa49440d548ab1ec599d4e91e6b723275a777c9b37309cecd0b",
+        "evidenceSha256": "15b1661493fd22dba05dff000c415c15ac223686a6e5a48c8d426e94dd3f1aa8",
+        "findings": [
+          "The mash trace doubles all five measured ingredients exactly: sixteen medium skin-on red potatoes, six garlic cloves, four tablespoons butter, one cup milk, half cup Parmesan; salt/pepper remain allowance. Twelve planned standard sides support eight generous helpings and possible leftovers, not a certified service yield.",
+          "The full carrot recipe uses two pounds matchsticks with all butter/sugar/glaze salt/white pepper, separately optional boiling salt and thyme. It simmers on the stove and is drained without rinsing before glazing.",
+          "The brisket’s overnight rest, shallow cooling, full-sauce boil and measured165°F meat reheat are carried into the dinner, with no same-day/rest-only workflow. Component overlap and flexible time ranges fit the two-day preparation.",
+          "Hot holding140°F or prompt cold handling/reheat165°F is compatible with applicable USDA/FDA consumer guidance. The overnight rest remains part of the three-to-four-day leftover period.",
+          "Family v2 changed only agreed instruction prose and provenance; no meal quantity, timing, pan or handling dependency changed."
+        ]
+      },
+      "completeMealEditorialGranted": false,
+      "kitchenTested": false
+    },
+    {
+      "slug": "dan-dan-noodle-night",
+      "sourcePath": "src/content/meals/dan-dan-noodle-night.md",
+      "sourceSha256": "ca94bb426a87fcebfdb346ea1661d538d9b3b8f12eb061d566df4af23a325c0f",
+      "exactBefore": {
+        "frontmatter": {
+          "title": "Dan Dan Noodle Night",
+          "template": "one-pot",
+          "main": "dan-dan-noodles",
+          "sides": ["smashed-cucumber-salad"],
+          "totalPrepTime": "About 20–25 min",
+          "totalCookTime": "About 20–25 min",
+          "totalActiveTime": "About 35–45 min",
+          "overallDifficulty": "intermediate",
+          "cuisines": ["Chinese"],
+          "occasions": ["weeknight", "date-night"],
+          "seasons": ["fall", "winter"],
+          "nutritionalDensity": "hearty",
+          "servings": "4",
+          "componentPreparation": {
+            "dan-dan-noodles": {
+              "state": "from-scratch",
+              "note": "One full four-generous-portion main batch, using prepared chili oil; optional flavor routes are separate complete choices."
+            },
+            "smashed-cucumber-salad": {
+              "state": "from-scratch",
+              "note": "One full four-side-portion batch; start its 15-minute salt-and-drain step before noodle cooking and dress near service."
+            }
+          },
+          "totalTime": "About 40–50 min, with prepared chili oil"
+        },
+        "body": "\n## Meal Overview\n\nSichuan street food at its finest - springy noodles in a numbing, spicy, savory sauce topped with crispy pork. The smashed cucumber salad is the perfect cooling counterpoint to all that heat and complexity.\n\n## Cooking Strategy\n\n1. **Make sauce** - sesame paste, chili oil, soy, vinegar, Sichuan peppercorn\n2. **Cook pork** - crispy, crumbled, with ya cai\n3. **Boil noodles** - wheat noodles, just until done\n4. **Make cucumber salad** - smash, salt, dress\n5. **Assemble** - sauce in bowl, noodles on top, crispy pork, garnish\n6. **Serve** - mix everything together before eating\n\n## Notes\n\n- The quality of the chili oil makes or breaks this dish\n- Sichuan peppercorn creates the signature numbing tingle\n- Adjust heat to taste - start with less chili oil, add more\n"
+      },
+      "exactAfter": {
+        "frontmatter": {
+          "title": "Dan Dan Noodle Night",
+          "template": "one-pot",
+          "main": "dan-dan-noodles",
+          "sides": ["smashed-cucumber-salad"],
+          "totalPrepTime": "About 20–25 min",
+          "totalCookTime": "About 20–25 min",
+          "totalActiveTime": "About 35–45 min",
+          "overallDifficulty": "intermediate",
+          "cuisines": ["Chinese"],
+          "occasions": ["weeknight", "date-night"],
+          "seasons": ["fall", "winter"],
+          "nutritionalDensity": "hearty",
+          "servings": "4",
+          "componentPreparation": {
+            "dan-dan-noodles": {
+              "state": "from-scratch",
+              "note": "One full four-generous-portion main batch, using prepared chili oil; optional flavor routes are separate complete choices."
+            },
+            "smashed-cucumber-salad": {
+              "state": "from-scratch",
+              "note": "One full four-side-portion batch; start its 15-minute salt-and-drain step before noodle cooking and dress near service."
+            }
+          },
+          "totalTime": "About 40–50 min, with prepared chili oil"
+        },
+        "body": "\n## Meal Overview\n\nSichuan sesame-chili noodles with seasoned pork and preserved mustard greens, alongside crisp garlic-and-vinegar cucumber salad. Prepare the sauce and toppings before cooking the noodles so each bowl can be mixed and eaten promptly.\n\n## Cooking Strategy\n\n1. **Start the cucumber salad:** Make one full four-side-portion recipe, using its 600 g cucumber and separate measured draining salt. Crack and cut the cucumber, then begin its 15-minute salt-and-drain step, preferably chilled. Mix its complete dressing during the drain; keep raw-pork tools separate.\n2. **Prepare the noodle sauce:** Make the full four-generous-portion Dan Dan formula with Chinese roasted sesame paste, light soy, sugar, five-spice powder, Sichuan pepper, prepared chili oil and garlic. Keep its measured whole-batch noodle water out until cooking water is available. Vinegar is optional in the noodle recipe; it is part of the cucumber dressing.\n3. **Cook the toppings:** Follow the main recipe's separately allocated pork and yacai oil. Brown and season the pork to 160°F, then cook the preserved greens as directed. Keep the ready toppings and sauce at hand before starting the noodles.\n4. **Finish the salad:** Drain and blot the cucumber without squeezing it into pulp. Follow its taste-and-dress instruction, then add scallion and sesame seeds. Keep chilled briefly if noodle cooking is not finished.\n5. **Cook and assemble the noodles:** Blanch optional bok choy and cook the noodles by their package. Reserve hot cooking water before draining. Whisk the main recipe's measured whole-batch water into the whole sauce, loosening only as needed, then divide sauce, noodles, greens and toppings among four bowls. The water amount is not repeated in every bowl.\n6. **Serve promptly:** Add the optional peanut, scallion and chili-oil garnishes. Toss each noodle bowl thoroughly just before eating and serve the cucumber salad alongside.\n\n## Notes\n\n- Prepared chili oil is included in this timing. Making a separate chili oil recipe adds time; follow its own complete method and storage guidance.\n- The main plans four generous bowls and the salad four side portions. For the main's complete milder saved variation, use all of that variation's quantities and method rather than selectively reducing the main formula.\n- Store prepared noodle components separately as directed by their recipe. The cucumber salad is best freshly dressed; its overnight texture differs. Follow each recipe's cooling and leftover guidance.\n"
+      },
+      "rationale": "Coordinate accepted traditional main and complete milder option with actual four-side cucumber recipe. Replace mandatory noodle vinegar, arbitrary chili reduction and optimistic 20-minute active claim with real sauce/water allocation, separate toppings and a 15-minute cucumber drain. Dependency correction only; no complete meal editorial label.",
+      "independentChallenge": {
+        "verdict": "PASS",
+        "candidateSha256": "ca94bb426a87fcebfdb346ea1661d538d9b3b8f12eb061d566df4af23a325c0f",
+        "evidenceSha256": "5201c435953b6d6dbebfe2f3cc5ef9ce3dfe61fa09ceee3b14f6c50dcfa67c24",
+        "findings": [
+          {
+            "before": "15minprep+15mincook/20minactive and sauce-vinegar main/lesschilioil strategy.",
+            "after": "40–50minelapsed,20–25prep20–25cook/35–45active planning, preparedchilioil explicit;sourcefull½cupchilioilmain and optionalvinegar separate complete mildchoice.",
+            "rationale": "Preserves accepted traditional richness while distinguishing saved milder route. Side10minprep/15mindrain/25elapsed overlaps main35–45; plan is honest approximate not measured serviceclock.",
+            "confidence": "high dependency conservation; moderate planning ranges"
+          },
+          {
+            "before": "Cucumber smash/salt/dress without15min drain or specific serving quantity.",
+            "after": "Full600gcucumber/four-side recipe, separate½tspdraining salt,15minpreferablychilled drain,complete dressing during drain,tasteanddress,scallion/seedsfinish.",
+            "rationale": "All side ingredients remain governed by linked full method including excesssalt conditional rinse/half dressing; no automaticall-dressing substitution or changed salad formula.",
+            "confidence": "high complete current source trace"
+          },
+          {
+            "before": "Sauce/bowlwater could repeat perportion; porkcrispy alone used.",
+            "after": "Wholebatch¼cupnoodlewater reserved beforedrain intoWHOLEsauce,loosenonlyifneededthenfourbowls;separatepork1tsp/yacai2tspoil,fully160Fgroundpork,cleanutensilsseparatefromsalad.",
+            "rationale": "Keeps allocations and protected safety exactly. Meat/yacai/fullrichsauce/garnishes all used; no sourceclock/crispness surrogate.",
+            "confidence": "high allocations/endpoints"
+          }
+        ]
+      },
+      "completeMealEditorialGranted": false,
+      "kitchenTested": false
+    },
+    {
+      "slug": "weeknight-paella",
+      "sourcePath": "src/content/meals/weeknight-paella.md",
+      "sourceSha256": "616d0942774b7a38b0dbb0ba58fe932d5440281bacdec75c28347540100acf98",
+      "exactBefore": {
+        "frontmatter": {
+          "title": "Weeknight Paella",
+          "template": "one-pot",
+          "main": "weeknight-paella",
+          "salad": "everyday-arugula-salad",
+          "totalPrepTime": "15 min",
+          "totalCookTime": "30 min",
+          "totalActiveTime": "20 min",
+          "overallDifficulty": "intermediate",
+          "cuisines": ["Spanish"],
+          "occasions": ["weeknight", "entertaining", "date-night"],
+          "seasons": ["spring", "summer"],
+          "nutritionalDensity": "hearty",
+          "servings": "4"
+        },
+        "body": "\n## Meal Overview\n\nA simplified paella with golden saffron rice, chorizo, shrimp, and the prized crispy bottom (socarrat). One pan, Mediterranean flavors, impressive results. The arugula salad with lemon adds a simple, fresh complement.\n\n## Cooking Strategy\n\n1. **Bloom saffron** - steep in warm broth\n2. **Cook chorizo** - render fat, set aside\n3. **Build rice** - toast in chorizo fat, add saffron broth\n4. **Add proteins** - nestle shrimp and chorizo into rice\n5. **Cook undisturbed** - for the socarrat to form\n6. **Toss salad** - while paella finishes\n7. **Serve** - at the table, straight from the pan with lemon wedges\n\n## Notes\n\n- Don't stir once the rice is in - that's how socarrat forms\n- Listen for the crackling sound that tells you the bottom is crispy\n- Bomba rice is traditional, but short-grain works\n"
+      },
+      "exactAfter": {
+        "frontmatter": {
+          "title": "Paella Dinner",
+          "template": "one-pot",
+          "main": "paella-valenciana",
+          "salad": "everyday-arugula-salad",
+          "componentPreparation": {
+            "paella-valenciana": {
+              "state": "from-scratch",
+              "note": "One fixed four-portion batch in the specified wide paella pan and matched heat source."
+            },
+            "everyday-arugula-salad": {
+              "state": "from-scratch",
+              "note": "One four-side-portion batch; wash/dry and prepare dressing ahead, then toss during the paella’s five-minute rest."
+            }
+          },
+          "totalPrepTime": "About 30–40 min",
+          "totalCookTime": "About 75–115 min",
+          "totalActiveTime": "About 55–85 min",
+          "totalTime": "About 1¾–2¾ hr",
+          "overallDifficulty": "intermediate",
+          "cuisines": ["Spanish"],
+          "occasions": ["entertaining", "family-meal", "weekend-dinner"],
+          "seasons": ["year-round"],
+          "nutritionalDensity": "hearty",
+          "servings": "4"
+        },
+        "body": "\n## Meal Overview\n\nValencian chicken, rabbit and bean paella with a simple arugula salad. The rice cooks in a broad, shallow layer after its meat broth reduces; the salad is dressed at the last moment.\n\n## Cooking Strategy\n\n1. **Set up:** Make one full four-portion Paella Valenciana batch in its specified 42–45 cm pan over even, matched heat. Use its stated Senia/Bahía-type rice and ingredient states. Prepare one full arugula-salad recipe: 5 oz baby arugula, 2 tbsp olive oil, 1 tbsp lemon juice, 20 g Parmesan and its measured salt and pepper. Keep the clean, dry greens refrigerated while cooking.\n2. **Build the paella:** Brown the chicken and rabbit, cook the green beans and reduce the tomato/paprika sofrito. Follow the paella’s two-stage water measurement, broth-level mark and separate meat/bean endpoints. Do not replace the measured broth stage with a generic rice-to-liquid rule.\n3. **During broth simmering:** Whisk the salad dressing and shave the cheese using clean tools, away from raw-meat preparation. Return the greens to the refrigerator until serving.\n4. **Cook the rice:** Spread it once into evenly boiling broth, then leave it undisturbed. Adjust heat as the main recipe directs and taste grains at the center and edge. Cooked grains with no loose broth determine the finish; a crust is optional.\n5. **During the five-minute rest:** Take the finished paella off the heat. Toss the arugula with most of its dressing, adding more only if the leaves need it, then finish with Parmesan.\n6. **Serve:** Share the paella among four diners and give each a side salad. For more diners, use additional complete paella pans with suitable heat rather than doubling rice into this one; scale the salad independently.\n\n## Notes\n\n- The paella pan and heat source are part of the recipe, not interchangeable with a small deep skillet. The salad needs a separate bowl and no burner.\n- Keep the timing range flexible: broth evaporation, meat-piece size, wind and burner coverage govern the paella’s elapsed time. Salad washing may add a few minutes.\n- Cool leftovers promptly in shallow containers. Follow each component’s storage instructions; dressed arugula wilts, while reheated paella loses its first serving’s texture.\n"
+      },
+      "rationale": "Retain the original meal URL/baseline while replacing its explicitly retired main with a distinct new classic. Remove former shrimp/chorizo/generic-rice and crust guarantees. Inspect the complete unchanged four-portion arugula recipe; coordinate dressing during the real five-minute rest. Meal editorial label not granted by this dependency correction. Independent challenge corrects elapsed/active planning to match serial meat/broth/rice ranges.",
+      "independentChallenge": {
+        "verdict": "PASS",
+        "candidateSha256": "616d0942774b7a38b0dbb0ba58fe932d5440281bacdec75c28347540100acf98",
+        "evidenceSha256": "c8abdaaf7d1348fde5e61d881f96f729eec81f18bd965d6e259464383470e3c6"
+      },
+      "completeMealEditorialGranted": false,
+      "kitchenTested": false
+    }
+  ]
+}

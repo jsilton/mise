@@ -1,272 +1,6 @@
 {
-  "scope": "16 distinct active whole recipes remain held after nine newly verified complete repairs and two separate user-authorized retirements; earlier held proposals do not grant complete review.",
-  "recipes": [
-    {
-      "slug": "boston-style-peking-ravioli",
-      "title": "Peking Ravioli",
-      "currentPath": "src/content/recipes/boston-style-peking-ravioli.md",
-      "currentSourceSha256": "1ebf696c5b96559f90bc5c2e13b395107aec4a4ee1ef56e95129b7dcb9e82a59",
-      "status": "held",
-      "remainingQuestions": [
-        "Whole hold: saved first source does not resolve cabbage salting versus listed filling salt, cabbage before/after drain, pan oil/water or missing sauce method. Existing questionable claims are not approved."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Is the two-cup cabbage measured before or after draining, what salt amount cures it separately from the listed filling teaspoon, and are the pan oil/water amounts for every cooking batch or the whole recipe? Supply the intended dipping-sauce method.",
-        "assessment": "Actual first Git formula shares the current ambiguity: cabbage is listed squeezed dry, then salting is required without a measured salting supply; the filling separately lists one teaspoon salt. Earliest source supplies pan2tbsp oil, half-cup water and finishing1tsp oil but not batch allocation, and lists dipping sauce without its method. No external formula author is established.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "chef-krigers-recipe-shabbat-brisket",
-      "title": "Chef Kriger’s Recipe Shabbat Brisket",
-      "currentPath": "src/content/recipes/chef-krigers-recipe-shabbat-brisket.md",
-      "currentSourceSha256": "9245bcdd9c037f5f9e9a7b284213c4353009a1d533a013a7347a32ae4f3ba921",
-      "status": "held",
-      "remainingQuestions": [
-        "Ketchup bottle and carrot-bag sizes are absent in exactnative, earlierHTML, firstMarkdown and complete laterhistory; liveCampMicah fetch unavailable. Source brisket has no weight;4–5 lb/12 portions are bulk 59 a 6188 e additions. No reliable sauce-to-meat/capacity or 1½–2 hour tender guarantee is established."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What are the intended ketchup bottle net amount, carrot-bag net weight and brisket weight/thickness, and should the2–4tbsp Worcestershire/Dijon/jelly source ranges or the current chosen amounts be used?",
-        "assessment": "Exact retained cooking original gives a first-cut brisket, small bag carrots and large bottle ketchup without sizes. It provides sauce2–4tbsp ranges and about one cup process water. Later4–5lb and twelve portions are additions, not recovered original quantities. Current primary page remains inaccessible and exact-domain follow-up gives no recipe content.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
-      "title": "Chocolate Bread Pudding",
-      "currentPath": "src/content/recipes/chocolate-bread-pudding-with-vanilla-ice-cream.md",
-      "currentSourceSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
-      "status": "held",
-      "remainingQuestions": [
-        "Confirm exact intended cream reservation from1½cups total, or actual original author correction.",
-        "Confirm prepared filled volume/headroom and intended eight6ozcups versus later9×13dish; different baking schedules cannot be assumed equivalent.",
-        "Confirm all2cupsicecream serve allocation and actual portion yield; current45minute total does not account clearly for15minute soaking."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What is the intended split of the listed 1 1/2 cups cream, and which vessel/load and baking route is supported for the full 13 cups brioche mixture?",
-        "assessment": "Exact original reserves a remaining half-cup cream without first specifying that reservation and supplies eight 6-ounce cups; current method consumes the cream in the custard and adds a 9x13 alternative. No original correction or exact publisher page was recovered. Both the formula split and materially different load/clock remain real blockers.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "crustless-spinach-quiche",
-      "title": "Crustless Spinach & Gruyère Quiche",
-      "currentPath": "src/content/recipes/crustless-spinach-quiche.md",
-      "currentSourceSha256": "213f4cd793a6e307be985e9391cc83b7e3e1be7f93779dd40442b009e4736793",
-      "status": "held",
-      "remainingQuestions": [
-        "Confirm the family-intended cheese amount and whether yogurt is an accepted household variation.",
-        "Confirm the oil, salt and pepper amounts; a bulk rewrite does not establish family approval.",
-        "Confirm the original 6–8 versus current six portions and actual nine-inch plate depth."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What cheese amount, yogurt variation, oil and seasoning quantities did Rebecca Cybulsky intend or the family explicitly adopt, and which nine-inch plate depth/portion plan is used?",
-        "assessment": "Exact saved family formula lists one onion, 10 oz spinach, six eggs and unquantified Gruyère. It lists 6–8 servings and a nine-inch plate, without depth. The current cup cheese, half-cup yogurt, tablespoon oil and measured seasoning cannot be established from this original. Yogurt replacing cream is unsupported: the original contains neither.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "dan-dan-noodles",
-      "title": "Dan Dan Noodles",
-      "currentPath": "src/content/recipes/dan-dan-noodles.md",
-      "currentSourceSha256": "0e4c8da4c1088bc6738e673c11fbf25952e416a062e42174c9a5432844872480",
-      "status": "held",
-      "remainingQuestions": [
-        "Does the listed 3–4 tbsp noodle cooking water mean the entire batch or each of four bowls? Both interpretations cannot be assumed; the earliest recorded method shares this contradiction.",
-        "Recover the actual household/source formula and complete sesame-paste or fresh-noodle alternatives; do not invent a water amount or purchase-weight equivalence.",
-        "The hold does not endorse the current ground-pork clock, unsupported tahini dry-toasting claim or incomplete additional chili-oil allocation."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Is noodle cooking water 3–4 tbsp total or 3–4 tbsp per bowl, and what actual source establishes complete fresh-noodle, sesame-paste/tahini and extra chili-oil routes?",
-        "assessment": "First fd4f07a8 Git source already lists 3–4 tbsp water while its four-bowl method uses that amount in EACH bowl. Later history does not settle it. Retained later native snapshot credits Mise and duplicates the contradiction; it is not an independent original. No named publisher source exists to retry.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "golden-veil",
-      "title": "Golden Veil",
-      "currentPath": "src/content/recipes/golden-veil.md",
-      "currentSourceSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df",
-      "status": "held",
-      "remainingQuestions": [
-        "What are the intended number and size of servings? The saved recipe has no yield and uses plural glasses; the current one-serving claim conflicts with 9.5 fl oz shaken base plus 6 fl oz prosecco before dilution.",
-        "Does the 6 fl oz prosecco belong to the whole batch or each glass? Preserve all ingredients while this is unresolved.",
-        "Which shaker and glasses accommodate the actual intended load and ice/dilution? Do not invent a serving count or silently divide the formula."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "How many glasses of what size does this full batch make, is six fluid ounces prosecco for the batch or each glass, and what shaker working capacity is used?",
-        "assessment": "Exact saved original has blank yield and plural coupe or wine glasses. History introduces Unknown then one serving through a bulk rewrite, without an explicit portion decision. Full base is 9.5 fl oz plus 6 fl oz prosecco before dilution. Arithmetic cannot determine intended pour count or prosecco-per-glass allocation.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "grandmommys-pecan-pie",
-      "title": "Grandmommy’s Pecan Pie",
-      "currentPath": "src/content/recipes/grandmommys-pecan-pie.md",
-      "currentSourceSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07",
-      "status": "held",
-      "remainingQuestions": [
-        "What exact shell diameter, depth and prebake state did Miriam Hamilton use for the two pies?",
-        "Confirm the saved half-stick margarine product/amount and whether later butter, added salt and nut-layering changes are accepted family variations.",
-        "A resolved formula must establish filling capacity and actual egg-containing bake, cooling and refrigeration schedule; the hold does not approve current jiggle-only or timing claims."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Which family fat/seasoning/nut method is intended, and what actual shell preparation and usable capacity accommodate the full filling for two pies?",
-        "assessment": "Exact Miriam Hamilton original uses half a stick margarine, no added salt and nuts mixed into the filling; later bulk adaptation changes those choices and supplies unbaked shells without establishing shell capacity. No new family acceptance or primary correction was found. Egg endpoint/cooling safety can be repaired from primary safety guidance after the route is resolved; it does not establish either fat choice or shell fit.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "grandmommys-pound-cake",
-      "title": "Grandmommy’s Pound Cake",
-      "currentPath": "src/content/recipes/grandmommys-pound-cake.md",
-      "currentSourceSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
-      "status": "held",
-      "remainingQuestions": [
-        "Which family fat formula is intended: the saved half-pound butter plus one stick soft margarine or the later all-butter formula?",
-        "What are the actual large-cake and three-loaf pan shapes, sizes, depths and batter capacities?",
-        "Confirm the original alternating flour/egg method and 300°F loaf route after geometry is known; bulk Bundt/9×5 substitutions are not established family decisions."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Is the intended family route the saved half-pound butter plus one stick margarine with alternating flour/eggs, or the later all-butter route, and what cake/three-loaf capacities support its respective baking schedules?",
-        "assessment": "The exact original and history preserve conflicting fat and mixing routes. A bulk rewrite introduced Bundt and three 9x5 pans without original geometry or an explicit later family choice. This is a formula and alternate-vessel applicability blocker, not merely a demand for incidental pan precision.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "japanese-beef-rice-bowl-gyudon",
-      "title": "Japanese Beef Rice Bowl (Gyudon)",
-      "currentPath": "src/content/recipes/japanese-beef-rice-bowl-gyudon.md",
-      "currentSourceSha256": "bebd1baa852b87e45ffa6c4639b0a8477afcd79d9e47a42201e2b5af99a3404d",
-      "status": "held",
-      "remainingQuestions": [
-        "The exactGit-created mirin alternative says brown sugar+water without proportions. The original/current onion sauté uses unlistedpinchsalt and no specifiedfat or cookingliquid. Adding oil or spending an invented fraction of the measuredstock would silently create a new formula; a complete alternative/cooking clarification is needed."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What brown-sugar/water proportions replace the quarter cup mirin, and what fat or measured cooking-liquid allocation is intended for the onion stage?",
-        "assessment": "Actual first 2a7f3853 source already has the unspecified brown-sugar/water mirin alternative and salt-only dry onion sauté. Later history preserves both. A generic gyudon formula would not bind this recipe. Current pasteurized/fully cooked egg repair is protected.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "japchae-korean-glass-noodle-stir-fry",
-      "title": "Japchae (Korean Glass Noodle Stir-Fry)",
-      "currentPath": "src/content/recipes/japchae-korean-glass-noodle-stir-fry.md",
-      "currentSourceSha256": "3f3637cf5ee2ede91408e3976edcaabd1021ab6ecbe633bfe9112d5e14fb8a45",
-      "status": "held",
-      "remainingQuestions": [
-        "Alternate vegetarian/shrimp route marinade quantities and destinations not established; current primary targeted repair remains unchanged."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "For vegetarian japchae, omit or redirect the beef marinade shares; for shrimp, what amount and marinade/cooking sequence replaces the beef?",
-        "assessment": "First 2a7f3853 source and complete later history contain incomplete vegetarian and shrimp branches. The primary main allocations were deliberately repaired in ee9c7078; all current beef endpoint/rest, garlic remainder, oil, scallion, cooling and reheating repairs remain protected. No exact archived native original or named publisher source was established.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "mandarinpineapple-organge-salad",
-      "title": "Mandarin/Pineapple Orange Salad",
-      "currentPath": "src/content/recipes/mandarinpineapple-organge-salad.md",
-      "currentSourceSha256": "1ef61dd8cf9bf18618d995246ee624927f6d306c6f6ff2d2023c71df72e39c2f",
-      "status": "held",
-      "remainingQuestions": [
-        "What actual orange Jell-O box weight/type and both fruit can net/drained sizes are intended?",
-        "Does family pineapple notewithrice meanwithjuice, and what liquidquantity reachesgelatin? Currentinterpretation notindependentlycertified.",
-        "What actual bowl/mold volume, portions and chilling endpoint are intended? No nutrition/yield precision or tested4hguarantee."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What are the gelatin box type/weight, both fruit-can sizes and intended pineapple liquid, including whether the original “with rice” means “with juice”?",
-        "assessment": "Exact Gwock Family recipe omits package sizes and has the unresolved pineapple wording. Later juice interpretation, eight portions and four-hour plan are not independent family/source evidence. The full sour cream and sugar must be preserved. Unknown container dimensions need not be demanded as separate precision once a source-supported full formula and practical fit/set route is available.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "nana-ruths-applesauce",
-      "title": "Nana Ruth’s Applesauce",
-      "currentPath": "src/content/recipes/nana-ruths-applesauce.md",
-      "currentSourceSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236",
-      "status": "held",
-      "remainingQuestions": [
-        "What jar size and actual quarter-jar honey amount did Nana Ruth use?",
-        "What does the saved “¼ water” mean, in which pot, and how much of the less-than-three-quarter lemon juice is intended? The d330 rewrite’s quarter cup honey, quarter-inch water and whole lemon are not established equivalents or family decisions.",
-        "What is the actual portion plan for the full six-pound McIntosh batch? Preserve Ruth Shankman’s Rosh Hashanah, Thanksgiving and Hanukkah context; native yield is unrecorded."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What actual honey amount did the quarter-jar mean, what water unit/level did “1/4 water” mean, and how much less than three-quarters of a lemon was intended?",
-        "assessment": "Exact Ruth Shankman original still supplies these ambiguous amounts. Later quarter-cup honey, quarter-inch water and whole-lemon interpretation appears in the bulk rewrite rather than a recovered explicit family decision. Rosh Hashanah, Thanksgiving and Hanukkah context is retained; no generic applesauce formula can answer these dose questions.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "spinach-and-mushroom-quiche",
-      "title": "Spinach & Mushroom Quiche",
-      "currentPath": "src/content/recipes/spinach-and-mushroom-quiche.md",
-      "currentSourceSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e",
-      "status": "held",
-      "remainingQuestions": [
-        "Which crust recipe or package, prebake state and pie-pan depth are intended, and does the full filling fit with headroom?",
-        "Does the household want the complete saved/current-publisher crustless route alongside the later crusted main? No explicit later rejection of that source route was established.",
-        "Resolve the route before restoring oil, seasoning and source garnish destinations; the saved and publisher formulas establish a crustless quiche, not the current crust’s capacity."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Should the complete saved crustless route be represented alongside the current crusted main, and which actual crust preparation and usable pan capacity supports the full filling in the crusted route?",
-        "assessment": "The current publisher remains a directly applicable primary source for the saved crustless formula, including omitted oil and seasonings. It cannot establish a later pie crust’s fit, prebake state or finish. The retained history does not establish a household rejection of the source route. The prior later-garlic repair must be retained if either route is integrated.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "strawberry-congealed-salad",
-      "title": "Strawberry Orange Jello Salad",
-      "currentPath": "src/content/recipes/strawberry-congealed-salad.md",
-      "currentSourceSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674",
-      "status": "held",
-      "remainingQuestions": [
-        "What are the exact gelatin box weight/type and pineapple can size/drained quantity?",
-        "Confirm three medium versus large bananas, optional one cup versus half cup pecans, intended dish capacity, portion plan and strawberry/orange title.",
-        "How was the reserved second layer kept cold and, if necessary, reliquefied without an invented liquid amount? No formula, dietary or chilling claim is endorsed while these questions remain unresolved."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "What gelatin type/weight and pineapple-can amount are intended, which banana/optional-pecan amounts and title are accepted, and what cold handling allows the reserved second layer to remain pourable?",
-        "assessment": "Native original supplies three medium bananas, optional one cup pecans, unspecified large gelatin package/pineapple can and long dish. Bulk rewrite introduces three large bananas, half-cup pecans, 20-ounce can, 9x13 pan, eight portions and Orange title. No explicit family decisions or source-supported second-layer refrigeration/reliquefying route recovered. Preserve full strawberries and sour cream; do not invent liquid or vegetarian gelatin composition.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "tarragon-potatoes",
-      "title": "Tarragon Potatoes",
-      "currentPath": "src/content/recipes/tarragon-potatoes.md",
-      "currentSourceSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
-      "status": "held",
-      "remainingQuestions": [
-        "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
-        "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
-        "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Are the current measured potato/oil/tarragon/seasoning quantities and six portions approved, and should Craig’s initial-butter/unpeeled 1–1.5-inch route remain distinct?",
-        "assessment": "Exact Craig Plummer original is unmeasured except optional tablespoon or two butter, added initially; potatoes unpeeled at 1–1.5 inches, oil enough to coat, tarragon sparingly. f6128211 invents measured two-pound/oil/tarragon/seasoning/six-portion and halfway-butter adaptation; cddf123c retains it. Attribution added later does not establish Craig approval.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    },
-    {
-      "slug": "weeknight-paella",
-      "title": "Weeknight Paella",
-      "currentPath": "src/content/recipes/weeknight-paella.md",
-      "currentSourceSha256": "be3af8ab0cd28cc3bdfcd88537a1fd2a5e3daadbac6b5b368271e763cbb4b0d9",
-      "status": "held",
-      "remainingQuestions": [
-        "Identify the actual Bomba or Calasparra rice product/package instructions, pan dimensions and burner coverage used with1½cups rice/3cups broth plus½cup tomato puree.",
-        "Is the Spanish chorizo labeled fully cooked/ready to eat, or is it raw/partly cured? Preserve its full½lb; raw ground-meat endpoints differ from ready-to-eat rendering.",
-        "How does the chosen load bring every shrimp thick center to145°F before finishing/resting, while the rice becomes tender and the bottom toasts without burning?",
-        "The linked meal also permits generic short-grain rice and gives45minutes versus source50; hold linked meal acceptance rather than certifying it from this recipe review."
-      ],
-      "latestEvidenceReassessment": {
-        "minimumRemainingQuestion": "Which actual Bomba/Calasparra rice package, pan diameter/depth and burner coverage are intended, and is the Spanish chorizo fully cooked/ready-to-eat or raw/partly cured?",
-        "assessment": "Retained Git-only formula has no recovered external author. Current manufacturer page distinguishes rice varieties, product instructions and heat/vessel effects; its Bomba3:1 example does not validate either unspecified offered rice in the current2:1 broth route. The chorizo label and two-minute raw-shrimp finish remain unknown.",
-        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
-      }
-    }
-  ],
+  "scope": "Zero active holds;14 complete local repairs,1 deliberate exact-original preservation and1 retirement resolve the last16 queue entries. Historical questions remain in resolved/retired/preserved records. Publication pending; zero kitchen tests.",
+  "recipes": [],
   "matrixChanges": [
     {
       "slug": "spinach-and-mushroom-quiche",
@@ -553,6 +287,264 @@
       "review": "docs/reviews/fresh-wonton-wrappers.json",
       "implementationCommit": "abfbbb36d62af80bbffc0734d274cccda942ba1b",
       "productionVerification": "docs/editorial-campaign/2026-10-06/soups-ribs-oats-ice-cream-production.json"
+    },
+    {
+      "slug": "boston-style-peking-ravioli",
+      "title": "Peking Ravioli",
+      "currentPath": "src/content/recipes/boston-style-peking-ravioli.md",
+      "currentSourceSha256": "1ebf696c5b96559f90bc5c2e13b395107aec4a4ee1ef56e95129b7dcb9e82a59",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Whole hold: saved first source does not resolve cabbage salting versus listed filling salt, cabbage before/after drain, pan oil/water or missing sauce method. Existing questionable claims are not approved."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Is the two-cup cabbage measured before or after draining, what salt amount cures it separately from the listed filling teaspoon, and are the pan oil/water amounts for every cooking batch or the whole recipe? Supply the intended dipping-sauce method.",
+        "assessment": "Actual first Git formula shares the current ambiguity: cabbage is listed squeezed dry, then salting is required without a measured salting supply; the filling separately lists one teaspoon salt. Earliest source supplies pan2tbsp oil, half-cup water and finishing1tsp oil but not batch allocation, and lists dipping sauce without its method. No external formula author is established.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/boston-style-peking-ravioli.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "chef-krigers-recipe-shabbat-brisket",
+      "title": "Chef Kriger’s Recipe Shabbat Brisket",
+      "currentPath": "src/content/recipes/chef-krigers-recipe-shabbat-brisket.md",
+      "currentSourceSha256": "9245bcdd9c037f5f9e9a7b284213c4353009a1d533a013a7347a32ae4f3ba921",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Ketchup bottle and carrot-bag sizes are absent in exactnative, earlierHTML, firstMarkdown and complete laterhistory; liveCampMicah fetch unavailable. Source brisket has no weight;4–5 lb/12 portions are bulk 59 a 6188 e additions. No reliable sauce-to-meat/capacity or 1½–2 hour tender guarantee is established."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What are the intended ketchup bottle net amount, carrot-bag net weight and brisket weight/thickness, and should the2–4tbsp Worcestershire/Dijon/jelly source ranges or the current chosen amounts be used?",
+        "assessment": "Exact retained cooking original gives a first-cut brisket, small bag carrots and large bottle ketchup without sizes. It provides sauce2–4tbsp ranges and about one cup process water. Later4–5lb and twelve portions are additions, not recovered original quantities. Current primary page remains inaccessible and exact-domain follow-up gives no recipe content.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/chef-krigers-recipe-shabbat-brisket.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
+      "title": "Chocolate Bread Pudding",
+      "currentPath": "src/content/recipes/chocolate-bread-pudding-with-vanilla-ice-cream.md",
+      "currentSourceSha256": "9b01c842b4b3c88255f0a3419a7e71a04eacc8b0142ac9c1b048a2f1f617b789",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Confirm exact intended cream reservation from1½cups total, or actual original author correction.",
+        "Confirm prepared filled volume/headroom and intended eight6ozcups versus later9×13dish; different baking schedules cannot be assumed equivalent.",
+        "Confirm all2cupsicecream serve allocation and actual portion yield; current45minute total does not account clearly for15minute soaking."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What is the intended split of the listed 1 1/2 cups cream, and which vessel/load and baking route is supported for the full 13 cups brioche mixture?",
+        "assessment": "Exact original reserves a remaining half-cup cream without first specifying that reservation and supplies eight 6-ounce cups; current method consumes the cream in the custard and adds a 9x13 alternative. No original correction or exact publisher page was recovered. Both the formula split and materially different load/clock remain real blockers.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "crustless-spinach-quiche",
+      "title": "Crustless Spinach & Gruyère Quiche",
+      "currentPath": "src/content/recipes/crustless-spinach-quiche.md",
+      "currentSourceSha256": "213f4cd793a6e307be985e9391cc83b7e3e1be7f93779dd40442b009e4736793",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Confirm the family-intended cheese amount and whether yogurt is an accepted household variation.",
+        "Confirm the oil, salt and pepper amounts; a bulk rewrite does not establish family approval.",
+        "Confirm the original 6–8 versus current six portions and actual nine-inch plate depth."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What cheese amount, yogurt variation, oil and seasoning quantities did Rebecca Cybulsky intend or the family explicitly adopt, and which nine-inch plate depth/portion plan is used?",
+        "assessment": "Exact saved family formula lists one onion, 10 oz spinach, six eggs and unquantified Gruyère. It lists 6–8 servings and a nine-inch plate, without depth. The current cup cheese, half-cup yogurt, tablespoon oil and measured seasoning cannot be established from this original. Yogurt replacing cream is unsupported: the original contains neither.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/crustless-spinach-quiche.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "dan-dan-noodles",
+      "title": "Dan Dan Noodles",
+      "currentPath": "src/content/recipes/dan-dan-noodles.md",
+      "currentSourceSha256": "0e4c8da4c1088bc6738e673c11fbf25952e416a062e42174c9a5432844872480",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Does the listed 3–4 tbsp noodle cooking water mean the entire batch or each of four bowls? Both interpretations cannot be assumed; the earliest recorded method shares this contradiction.",
+        "Recover the actual household/source formula and complete sesame-paste or fresh-noodle alternatives; do not invent a water amount or purchase-weight equivalence.",
+        "The hold does not endorse the current ground-pork clock, unsupported tahini dry-toasting claim or incomplete additional chili-oil allocation."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Is noodle cooking water 3–4 tbsp total or 3–4 tbsp per bowl, and what actual source establishes complete fresh-noodle, sesame-paste/tahini and extra chili-oil routes?",
+        "assessment": "First fd4f07a8 Git source already lists 3–4 tbsp water while its four-bowl method uses that amount in EACH bowl. Later history does not settle it. Retained later native snapshot credits Mise and duplicates the contradiction; it is not an independent original. No named publisher source exists to retry.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/dan-dan-noodles.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "golden-veil",
+      "title": "Golden Veil",
+      "currentPath": "src/content/recipes/golden-veil.md",
+      "currentSourceSha256": "d83855fa59ebb5d369387734e2e6613fd483bfe0521f0bcf65e6eb04bcc0f7df",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "What are the intended number and size of servings? The saved recipe has no yield and uses plural glasses; the current one-serving claim conflicts with 9.5 fl oz shaken base plus 6 fl oz prosecco before dilution.",
+        "Does the 6 fl oz prosecco belong to the whole batch or each glass? Preserve all ingredients while this is unresolved.",
+        "Which shaker and glasses accommodate the actual intended load and ice/dilution? Do not invent a serving count or silently divide the formula."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "How many glasses of what size does this full batch make, is six fluid ounces prosecco for the batch or each glass, and what shaker working capacity is used?",
+        "assessment": "Exact saved original has blank yield and plural coupe or wine glasses. History introduces Unknown then one serving through a bulk rewrite, without an explicit portion decision. Full base is 9.5 fl oz plus 6 fl oz prosecco before dilution. Arithmetic cannot determine intended pour count or prosecco-per-glass allocation.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/golden-veil.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "grandmommys-pecan-pie",
+      "title": "Grandmommy’s Pecan Pie",
+      "currentPath": "src/content/recipes/grandmommys-pecan-pie.md",
+      "currentSourceSha256": "76ac5f4d0f661b7c3c4b7f304d5c0ad2d2bdecd006e5dfcfd55a751fcc431a07",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "What exact shell diameter, depth and prebake state did Miriam Hamilton use for the two pies?",
+        "Confirm the saved half-stick margarine product/amount and whether later butter, added salt and nut-layering changes are accepted family variations.",
+        "A resolved formula must establish filling capacity and actual egg-containing bake, cooling and refrigeration schedule; the hold does not approve current jiggle-only or timing claims."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Which family fat/seasoning/nut method is intended, and what actual shell preparation and usable capacity accommodate the full filling for two pies?",
+        "assessment": "Exact Miriam Hamilton original uses half a stick margarine, no added salt and nuts mixed into the filling; later bulk adaptation changes those choices and supplies unbaked shells without establishing shell capacity. No new family acceptance or primary correction was found. Egg endpoint/cooling safety can be repaired from primary safety guidance after the route is resolved; it does not establish either fat choice or shell fit.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/grandmommys-pecan-pie.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "grandmommys-pound-cake",
+      "title": "Grandmommy’s Pound Cake",
+      "currentPath": "src/content/recipes/grandmommys-pound-cake.md",
+      "currentSourceSha256": "ea661a21a7f3ae12696e2e36b62c345ef7957704ac7ba831ad9b5700de37d72b",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Which family fat formula is intended: the saved half-pound butter plus one stick soft margarine or the later all-butter formula?",
+        "What are the actual large-cake and three-loaf pan shapes, sizes, depths and batter capacities?",
+        "Confirm the original alternating flour/egg method and 300°F loaf route after geometry is known; bulk Bundt/9×5 substitutions are not established family decisions."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Is the intended family route the saved half-pound butter plus one stick margarine with alternating flour/eggs, or the later all-butter route, and what cake/three-loaf capacities support its respective baking schedules?",
+        "assessment": "The exact original and history preserve conflicting fat and mixing routes. A bulk rewrite introduced Bundt and three 9x5 pans without original geometry or an explicit later family choice. This is a formula and alternate-vessel applicability blocker, not merely a demand for incidental pan precision.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/grandmommys-pound-cake.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "japanese-beef-rice-bowl-gyudon",
+      "title": "Japanese Beef Rice Bowl (Gyudon)",
+      "currentPath": "src/content/recipes/japanese-beef-rice-bowl-gyudon.md",
+      "currentSourceSha256": "bebd1baa852b87e45ffa6c4639b0a8477afcd79d9e47a42201e2b5af99a3404d",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "The exactGit-created mirin alternative says brown sugar+water without proportions. The original/current onion sauté uses unlistedpinchsalt and no specifiedfat or cookingliquid. Adding oil or spending an invented fraction of the measuredstock would silently create a new formula; a complete alternative/cooking clarification is needed."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What brown-sugar/water proportions replace the quarter cup mirin, and what fat or measured cooking-liquid allocation is intended for the onion stage?",
+        "assessment": "Actual first 2a7f3853 source already has the unspecified brown-sugar/water mirin alternative and salt-only dry onion sauté. Later history preserves both. A generic gyudon formula would not bind this recipe. Current pasteurized/fully cooked egg repair is protected.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/japanese-beef-rice-bowl-gyudon.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "japchae-korean-glass-noodle-stir-fry",
+      "title": "Japchae (Korean Glass Noodle Stir-Fry)",
+      "currentPath": "src/content/recipes/japchae-korean-glass-noodle-stir-fry.md",
+      "currentSourceSha256": "3f3637cf5ee2ede91408e3976edcaabd1021ab6ecbe633bfe9112d5e14fb8a45",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Alternate vegetarian/shrimp route marinade quantities and destinations not established; current primary targeted repair remains unchanged."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "For vegetarian japchae, omit or redirect the beef marinade shares; for shrimp, what amount and marinade/cooking sequence replaces the beef?",
+        "assessment": "First 2a7f3853 source and complete later history contain incomplete vegetarian and shrimp branches. The primary main allocations were deliberately repaired in ee9c7078; all current beef endpoint/rest, garlic remainder, oil, scallion, cooling and reheating repairs remain protected. No exact archived native original or named publisher source was established.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/japchae-korean-glass-noodle-stir-fry.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "mandarinpineapple-organge-salad",
+      "title": "Mandarin/Pineapple Orange Salad",
+      "currentPath": "src/content/recipes/mandarinpineapple-organge-salad.md",
+      "currentSourceSha256": "1ef61dd8cf9bf18618d995246ee624927f6d306c6f6ff2d2023c71df72e39c2f",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "What actual orange Jell-O box weight/type and both fruit can net/drained sizes are intended?",
+        "Does family pineapple notewithrice meanwithjuice, and what liquidquantity reachesgelatin? Currentinterpretation notindependentlycertified.",
+        "What actual bowl/mold volume, portions and chilling endpoint are intended? No nutrition/yield precision or tested4hguarantee."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What are the gelatin box type/weight, both fruit-can sizes and intended pineapple liquid, including whether the original “with rice” means “with juice”?",
+        "assessment": "Exact Gwock Family recipe omits package sizes and has the unresolved pineapple wording. Later juice interpretation, eight portions and four-hour plan are not independent family/source evidence. The full sour cream and sugar must be preserved. Unknown container dimensions need not be demanded as separate precision once a source-supported full formula and practical fit/set route is available.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/mandarinpineapple-organge-salad.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "nana-ruths-applesauce",
+      "title": "Nana Ruth’s Applesauce",
+      "currentPath": "src/content/recipes/nana-ruths-applesauce.md",
+      "currentSourceSha256": "d493a186b4c9b57a17670d36cbdefb9ed50f219f18b66be12acc1971e1e44236",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "What jar size and actual quarter-jar honey amount did Nana Ruth use?",
+        "What does the saved “¼ water” mean, in which pot, and how much of the less-than-three-quarter lemon juice is intended? The d330 rewrite’s quarter cup honey, quarter-inch water and whole lemon are not established equivalents or family decisions.",
+        "What is the actual portion plan for the full six-pound McIntosh batch? Preserve Ruth Shankman’s Rosh Hashanah, Thanksgiving and Hanukkah context; native yield is unrecorded."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What actual honey amount did the quarter-jar mean, what water unit/level did “1/4 water” mean, and how much less than three-quarters of a lemon was intended?",
+        "assessment": "Exact Ruth Shankman original still supplies these ambiguous amounts. Later quarter-cup honey, quarter-inch water and whole-lemon interpretation appears in the bulk rewrite rather than a recovered explicit family decision. Rosh Hashanah, Thanksgiving and Hanukkah context is retained; no generic applesauce formula can answer these dose questions.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/nana-ruths-applesauce.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "spinach-and-mushroom-quiche",
+      "title": "Spinach & Mushroom Quiche",
+      "currentPath": "src/content/recipes/spinach-and-mushroom-quiche.md",
+      "currentSourceSha256": "b61e53c127ba9e581ce9eeb507ed8079ce1f1804be417c2e5d2417588617646e",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "Which crust recipe or package, prebake state and pie-pan depth are intended, and does the full filling fit with headroom?",
+        "Does the household want the complete saved/current-publisher crustless route alongside the later crusted main? No explicit later rejection of that source route was established.",
+        "Resolve the route before restoring oil, seasoning and source garnish destinations; the saved and publisher formulas establish a crustless quiche, not the current crust’s capacity."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Should the complete saved crustless route be represented alongside the current crusted main, and which actual crust preparation and usable pan capacity supports the full filling in the crusted route?",
+        "assessment": "The current publisher remains a directly applicable primary source for the saved crustless formula, including omitted oil and seasonings. It cannot establish a later pie crust’s fit, prebake state or finish. The retained history does not establish a household rejection of the source route. The prior later-garlic repair must be retained if either route is integrated.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/spinach-and-mushroom-quiche.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
+    },
+    {
+      "slug": "strawberry-congealed-salad",
+      "title": "Strawberry Orange Jello Salad",
+      "currentPath": "src/content/recipes/strawberry-congealed-salad.md",
+      "currentSourceSha256": "cef3bdb6cf720cbc3e95c0aa328d71c8d4342921954ecd12a37c7e1d0cf75674",
+      "status": "Complete editorial adaptation accepted; publication pending",
+      "remainingQuestions": [
+        "What are the exact gelatin box weight/type and pineapple can size/drained quantity?",
+        "Confirm three medium versus large bananas, optional one cup versus half cup pecans, intended dish capacity, portion plan and strawberry/orange title.",
+        "How was the reserved second layer kept cold and, if necessary, reliquefied without an invented liquid amount? No formula, dietary or chilling claim is endorsed while these questions remain unresolved."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "What gelatin type/weight and pineapple-can amount are intended, which banana/optional-pecan amounts and title are accepted, and what cold handling allows the reserved second layer to remain pourable?",
+        "assessment": "Native original supplies three medium bananas, optional one cup pecans, unspecified large gelatin package/pineapple can and long dish. Bulk rewrite introduces three large bananas, half-cup pecans, 20-ounce can, 9x13 pan, eight portions and Orange title. No explicit family decisions or source-supported second-layer refrigeration/reliquefying route recovered. Preserve full strawberries and sour cream; do not invent liquid or vegetarian gelatin composition.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/strawberry-congealed-salad.json",
+      "remainingQuestionsDisposition": "Former reconstruction question resolved through explicit user-authorized measured adaptation; exact originals and historical uncertainty retained. Kitchen questions remain untested."
     }
   ],
   "retiredByUser": [
@@ -621,6 +613,47 @@
       "implementationCommit": "f24e176a52ca80c31b0836054ec39a3a68a195b0",
       "productionVerification": "docs/editorial-campaign/2026-10-06/duck-and-retirements-production.json",
       "remainingQuestionsDisposition": "Historical evidence retained; not an active household question."
+    },
+    {
+      "slug": "weeknight-paella",
+      "title": "Weeknight Paella",
+      "currentPath": "src/content/recipes/weeknight-paella.md",
+      "currentSourceSha256": "be3af8ab0cd28cc3bdfcd88537a1fd2a5e3daadbac6b5b368271e763cbb4b0d9",
+      "status": "retired-by-user; publication pending",
+      "remainingQuestions": [
+        "Identify the actual Bomba or Calasparra rice product/package instructions, pan dimensions and burner coverage used with1½cups rice/3cups broth plus½cup tomato puree.",
+        "Is the Spanish chorizo labeled fully cooked/ready to eat, or is it raw/partly cured? Preserve its full½lb; raw ground-meat endpoints differ from ready-to-eat rendering.",
+        "How does the chosen load bring every shrimp thick center to145°F before finishing/resting, while the rice becomes tender and the bottom toasts without burning?",
+        "The linked meal also permits generic short-grain rice and gives45minutes versus source50; hold linked meal acceptance rather than certifying it from this recipe review."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Which actual Bomba/Calasparra rice package, pan diameter/depth and burner coverage are intended, and is the Spanish chorizo fully cooked/ready-to-eat or raw/partly cured?",
+        "assessment": "Retained Git-only formula has no recovered external author. Current manufacturer page distinguishes rice varieties, product instructions and heat/vessel effects; its Bomba3:1 example does not validate either unspecified offered rice in the current2:1 broth route. The chorizo label and two-minute raw-shrimp finish remain unknown.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/weeknight-paella.json",
+      "completeEditorialReviewGranted": false
+    }
+  ],
+  "preservedByUser": [
+    {
+      "slug": "tarragon-potatoes",
+      "title": "Tarragon Potatoes",
+      "currentPath": "src/content/recipes/tarragon-potatoes.md",
+      "currentSourceSha256": "903070120e6211b4b338db29a3801a17d308572ebd59e220328c293c750efefc",
+      "status": "original-preserved-by-user; publication pending",
+      "remainingQuestions": [
+        "ConfirmCraig-intendedpotato/oil/tarragon/salt amounts andportionplan.",
+        "Restoreexplicitunpeeled1–1.5inchcontext afterformuladecision;preservenativeexactoriginal.",
+        "Confirmbutterinitialversushalfwayvariant andactualdishcapacity."
+      ],
+      "latestEvidenceReassessment": {
+        "minimumRemainingQuestion": "Are the current measured potato/oil/tarragon/seasoning quantities and six portions approved, and should Craig’s initial-butter/unpeeled 1–1.5-inch route remain distinct?",
+        "assessment": "Exact Craig Plummer original is unmeasured except optional tablespoon or two butter, added initially; potatoes unpeeled at 1–1.5 inches, oil enough to coat, tarragon sparingly. f6128211 invents measured two-pound/oil/tarragon/seasoning/six-portion and halfway-butter adaptation; cddf123c retains it. Attribution added later does not establish Craig approval.",
+        "evidence": "docs/editorial-campaign/2026-10-05/final-hold-evidence-pass.json"
+      },
+      "evidence": "docs/reviews/tarragon-potatoes.json",
+      "completeEditorialReviewGranted": false
     }
   ]
 }

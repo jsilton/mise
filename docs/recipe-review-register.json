@@ -1,9 +1,10 @@
 {
   "originalRecipes": 612,
-  "individuallyReviewed": 585,
+  "individuallyReviewed": 599,
   "consolidatedAfterReview": 10,
-  "retiredByUser": 1,
-  "pending": 16,
+  "retiredByUser": 2,
+  "originalsPreservedByUser": 1,
+  "pending": 0,
   "kitchenTested": 0,
   "records": [
     {
@@ -273,7 +274,8 @@
     {
       "slug": "boston-style-peking-ravioli",
       "canonical": "boston-style-peking-ravioli",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/boston-style-peking-ravioli.md"
     },
     {
       "slug": "boulevardier",
@@ -482,7 +484,8 @@
     {
       "slug": "chef-krigers-recipe-shabbat-brisket",
       "canonical": "chef-krigers-recipe-shabbat-brisket",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/chef-krigers-recipe-shabbat-brisket.md"
     },
     {
       "slug": "chewy-chocolate-meringues",
@@ -715,7 +718,8 @@
     {
       "slug": "chocolate-bread-pudding-with-vanilla-ice-cream",
       "canonical": "chocolate-bread-pudding-with-vanilla-ice-cream",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/chocolate-bread-pudding-with-vanilla-ice-cream.md"
     },
     {
       "slug": "chocolate-chia-pudding",
@@ -1032,7 +1036,8 @@
     {
       "slug": "crustless-spinach-quiche",
       "canonical": "crustless-spinach-quiche",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/crustless-spinach-quiche.md"
     },
     {
       "slug": "cu-chao-mian",
@@ -1073,7 +1078,8 @@
     {
       "slug": "dan-dan-noodles",
       "canonical": "dan-dan-noodles",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/dan-dan-noodles.md"
     },
     {
       "slug": "dashi-japanese-sea-stock",
@@ -1468,7 +1474,8 @@
     {
       "slug": "golden-veil",
       "canonical": "golden-veil",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/golden-veil.md"
     },
     {
       "slug": "good-eats-roast-turkey",
@@ -1479,12 +1486,14 @@
     {
       "slug": "grandmommys-pecan-pie",
       "canonical": "grandmommys-pecan-pie",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/grandmommys-pecan-pie.md"
     },
     {
       "slug": "grandmommys-pound-cake",
       "canonical": "grandmommys-pound-cake",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/grandmommys-pound-cake.md"
     },
     {
       "slug": "grandmommys-turkey-dressing",
@@ -1783,7 +1792,8 @@
     {
       "slug": "japanese-beef-rice-bowl-gyudon",
       "canonical": "japanese-beef-rice-bowl-gyudon",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/japanese-beef-rice-bowl-gyudon.md"
     },
     {
       "slug": "japanese-chicken-curry-kare-raisu",
@@ -1818,7 +1828,8 @@
     {
       "slug": "japchae-korean-glass-noodle-stir-fry",
       "canonical": "japchae-korean-glass-noodle-stir-fry",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/japchae-korean-glass-noodle-stir-fry.md"
     },
     {
       "slug": "jeris-lentil-soup",
@@ -2003,7 +2014,8 @@
     {
       "slug": "mandarinpineapple-organge-salad",
       "canonical": "mandarinpineapple-organge-salad",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/mandarinpineapple-organge-salad.md"
     },
     {
       "slug": "mango-cabbage-slaw",
@@ -2200,7 +2212,8 @@
     {
       "slug": "nana-ruths-applesauce",
       "canonical": "nana-ruths-applesauce",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/nana-ruths-applesauce.md"
     },
     {
       "slug": "nanas-biscuits",
@@ -3177,7 +3190,8 @@
     {
       "slug": "spinach-and-mushroom-quiche",
       "canonical": "spinach-and-mushroom-quiche",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/spinach-and-mushroom-quiche.md"
     },
     {
       "slug": "spindrift-gin-fizz",
@@ -3272,7 +3286,8 @@
     {
       "slug": "strawberry-congealed-salad",
       "canonical": "strawberry-congealed-salad",
-      "status": "pending"
+      "status": "editorial-review",
+      "record": "docs/reviews/strawberry-congealed-salad.md"
     },
     {
       "slug": "strawberry-quinoa-breakfast-bars",
@@ -3397,7 +3412,8 @@
     {
       "slug": "tarragon-potatoes",
       "canonical": "tarragon-potatoes",
-      "status": "pending"
+      "status": "original-preserved-by-user",
+      "record": "docs/reviews/tarragon-potatoes.md"
     },
     {
       "slug": "thai-basil-chicken-pad-kra-pao",
@@ -3593,8 +3609,9 @@
     },
     {
       "slug": "weeknight-paella",
-      "canonical": "weeknight-paella",
-      "status": "pending"
+      "retirementDate": "2026-10-06",
+      "status": "retired-by-user",
+      "record": "docs/reviews/weeknight-paella.md"
     },
     {
       "slug": "whipped-feta-with-honey",
@@ -3663,10 +3680,11 @@
       "record": "docs/reviews/zuppa-toscana.md"
     }
   ],
-  "additionalRecipes": 51,
-  "activeAdditionalRecipes": 50,
+  "additionalRecipes": 52,
+  "activeAdditionalRecipes": 51,
   "additionalRetiredByUser": 1,
-  "additionalIndividuallyReviewed": 50,
+  "additionalPreservedByUser": 0,
+  "additionalIndividuallyReviewed": 51,
   "additionalPending": 0,
   "additionalRecords": [
     {
@@ -3819,6 +3837,11 @@
       "slug": "orange-and-paprika-pulled-pork",
       "status": "editorial-review",
       "record": "docs/reviews/orange-and-paprika-pulled-pork.md"
+    },
+    {
+      "slug": "paella-valenciana",
+      "status": "editorial-review",
+      "record": "docs/reviews/paella-valenciana.md"
     },
     {
       "slug": "pan-seared-duck-breasts-with-cherry-and-port-sauce",

@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-06",
+  "status": "All local release gates passed; exact remote CI/deployment/live verification pending",
+  "inputCommit": "a895d0146a63b35850bc01b6aec007f1f87f4755",
+  "tests": {
+    "passed": 265,
+    "failed": 0,
+    "skipped": 0
+  },
+  "gates": [
+    {
+      "gate": "tests",
+      "status": "PASS",
+      "evidenceSha256": "80f5c1c51b15b50fae72c5aebb9a2d4e8500eb55fcd764b2043bbbf7ba4b416d"
+    },
+    {
+      "gate": "lint",
+      "status": "PASS",
+      "evidenceSha256": "f328ca9aae109afcb65b0adab3386e8346739b0ea9d4f407a56adc98e2c661cc"
+    },
+    {
+      "gate": "validation",
+      "status": "PASS",
+      "evidenceSha256": "c27c649f940e76cc1444605fe17607f8cebaae1ec8fee4409424c82d5df92d00"
+    },
+    {
+      "gate": "formulas",
+      "status": "PASS",
+      "evidenceSha256": "60b9133ebefb8ad43a0ff2f22e1947c91aaaf652d3f64ef1c5366a638f505ff2"
+    },
+    {
+      "gate": "json-export",
+      "status": "PASS",
+      "evidenceSha256": "f87ea7233b13ea1e06442a7548ed8672eaefed74cb05ceb92b2327e15f3b2925"
+    },
+    {
+      "gate": "paprika-export",
+      "status": "PASS",
+      "evidenceSha256": "50cd58b36fd248753626eb57c14f8a60341095a52a94ef33001d11216c849b61"
+    },
+    {
+      "gate": "text-export",
+      "status": "PASS",
+      "evidenceSha256": "7b06f2f348aa0dfe1ba84f72c4b7cb93ac1d00d4e0b3d60299f40b04d8626834"
+    },
+    {
+      "gate": "qa",
+      "status": "PASS",
+      "evidenceSha256": "2b3035a7ca837dc196b2635adf85da8e1a2a0ae225e687b6cd640165db545ae2"
+    },
+    {
+      "gate": "build",
+      "status": "PASS",
+      "evidenceSha256": "c7d0054646b164f99f7409ad1a624f2045cf57640b16d414a68ae12e4fa1ae09"
+    },
+    {
+      "gate": "export-parity",
+      "status": "PASS",
+      "evidenceSha256": "e7dfd17b7a9bedbefd029e4668d72e01c9b1bc69205b6eb14b4fcdd3503d65e8"
+    },
+    {
+      "gate": "identity-bindings",
+      "status": "PASS",
+      "evidenceSha256": "d3df0f7113519e901bca782ebcadbe68c61fd46a0633282b437ed59863f1dad2"
+    },
+    {
+      "gate": "privacy",
+      "status": "PASS",
+      "evidenceSha256": "3331c8a0c7286d02590ef60c923ceaf058e3098aef9c738b959952b06ec7b7a5"
+    },
+    {
+      "gate": "built-links",
+      "status": "PASS",
+      "evidenceSha256": "40553080504862722ff6cab700563174496e24e05ed29c1674ac4fe427289e47"
+    }
+  ],
+  "sourcePreservation": {
+    "baselineSources": 651,
+    "unaffectedByteIdentical": 634,
+    "changedExistingSources": 16,
+    "userRetirement": 1,
+    "newDistinctRecipe": 1,
+    "activeSources": 651,
+    "priorPrivateBindingsUnchanged": 653,
+    "newPrivateBinding": 1,
+    "priorDraftBindingsUnchanged": 3,
+    "existingMiseIdsPreserved": true,
+    "retiredExactOriginalRetainedPrivately": true
+  },
+  "independentReview": "All fourteen recipe repairs, distinct new paella, preservation and retirement passed independent and root acceptance; protected variants and exact originals retained",
+  "renderedPages": {
+    "browser": "Codex internal browser",
+    "routes": [
+      "recipes/grandmommys-pound-cake/",
+      "recipes/grandmommys-pecan-pie/",
+      "recipes/chef-krigers-recipe-shabbat-brisket/",
+      "recipes/nana-ruths-applesauce/",
+      "recipes/mandarinpineapple-organge-salad/",
+      "recipes/strawberry-congealed-salad/",
+      "recipes/japanese-beef-rice-bowl-gyudon/",
+      "recipes/japchae-korean-glass-noodle-stir-fry/",
+      "recipes/boston-style-peking-ravioli/",
+      "recipes/dan-dan-noodles/",
+      "recipes/golden-veil/",
+      "recipes/crustless-spinach-quiche/",
+      "recipes/spinach-and-mushroom-quiche/",
+      "recipes/chocolate-bread-pudding-with-vanilla-ice-cream/",
+      "recipes/paella-valenciana/",
+      "recipes/tarragon-potatoes/",
+      "recipes/smoky-spanish-rice-and-chickpeas/",
+      "recipes/weeknight-paella/",
+      "meals/brisket-dinner/",
+      "meals/dan-dan-noodle-night/",
+      "meals/weeknight-paella/"
+    ],
+    "inspection": "Whole rendered main text, ingredient labels, links and Recipe JSON-LD captured for exact subsequent live comparison; no desktop horizontal overflow across affected pages",
+    "interactions": {
+      "puddingDoubleAndReset": "PASS; quantities double and restore, temperature and vessel guidance retain original operating meaning",
+      "ingredientCheckbox": "PASS; checked and restored",
+      "cookMode": "PASS; step count advances 0 to 1, resets to 0 and exits",
+      "paellaFixedPan": "PASS; no quantity-multiplier buttons, explicit four-person pan and additional-complete-pan message"
+    },
+    "limits": [
+      "Actual mobile viewport remained 1280×720 despite requested override; mobile rendering not verified",
+      "Print control and responsive/print source rules inspected; actual printed pagination not verified",
+      "No physical kitchen testing",
+      "No native-app sync"
+    ]
+  },
+  "rootIntegrationCorrections": {
+    "baseRecipeLinks": 4,
+    "retirementCheck": "Distinguish same-slug meal URLs from recipe URLs while retaining bare YAML and actual recipe checks; four focused tests pass"
+  },
+  "kitchenTested": false,
+  "nativeAppSynced": false
+}

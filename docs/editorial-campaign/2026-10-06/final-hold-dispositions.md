@@ -1,0 +1,5 @@
+# Final hold dispositions — October 6, 2026
+
+All 16 former active holds have local accepted dispositions: 14 complete editorial repairs, Craig’s exact-original preservation at the user’s request, and retirement of Weeknight Paella. A distinct newly authored classic Paella Valenciana is also accepted. Active coverage is 650 complete editorial recipes and one intentional, unreviewed preserved original across 651 sources; zero active holds remain. The original 409 campaign accounts for 391 already production-verified reviews, 14 accepted reviews pending publication, 3 user retirements (one pending publication), and 1 original preservation pending publication. None of these repairs is kitchen-tested; no native-app sync. Exact remote CI/deployment and live-page verification remain required.
+
+[Per-recipe decisions and complete source evidence](final-hold-dispositions.json). The narrow 42-repair accelerated campaign remains a separate overlapping historical scope. Targeted review does not grant complete-review status. Native original archives and identity bindings remain private.
