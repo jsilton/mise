@@ -40,3 +40,8 @@ yarn-error.log*
 # macOS
 .DS_Store
 .fuse_hidden*
+
+# Native reconciliation inputs and decoded private working data
+tmp/paprika-sync*/
+*.paprikarecipe
+*.paprikarecipes

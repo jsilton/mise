@@ -68,11 +68,17 @@ export async function checkPublicPaprikaEvidence(registry = null, sourceIds = []
     if (id) allowed.set(file, id);
   }
   await checkPaprikaPrivacy('docs', registry, sourceIds, allowed);
-  const trackedExports = execFileSync('git', ['ls-files', '-z', 'exports', 'public'], {
+  const trackedExports = execFileSync('git', ['ls-files', '-z'], {
     encoding: 'utf8',
   })
     .split('\0')
-    .filter(Boolean);
+    .filter(Boolean)
+    .filter(
+      (file) =>
+        /\.paprikarecipes?$|(?:^|\/)paprika-identities\.json$/.test(file) ||
+        /^(?:exports|public)\//.test(file) ||
+        /^tmp\/paprika-sync/.test(file)
+    );
   await checkPaprikaPrivacyFiles(trackedExports, registry, sourceIds);
 }
 
