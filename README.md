@@ -128,44 +128,17 @@ scripts/
 
 ## Adding Recipes
 
-New recipes are added as `.md` files in `src/content/recipes/`.
+New recipes are added as `.md` files in `src/content/recipes/`. Use a natural recipe name such as `Recipe Name`, without a “(The [X] Standard)” suffix.
 
-### Frontmatter Schema (Mandatory)
+Follow [structured recipe authoring](docs/STRUCTURED_RECIPE_AUTHORING.md):
 
-```yaml
----
-title: 'Recipe Name (The [X] Standard)'
-role: 'main | side | dessert | base | drink | condiment'
-vibe: 'nutritious | comfort | technical | holiday | quick'
-prepTime: '15 min'
-cookTime: '20 min'
-totalTime: '35 min'
-servings: '4'
-ingredients:
-  - '--- Section Header ---'
-  - 'Item 1'
-  - '[Related Recipe](/mise/recipes/related-slug)'
----
-```
+1. Start with `npm run new-recipe -- "Recipe Name"` and complete the generated placeholders and relevant metadata.
+2. Author `formula` version 1 with `formula.components`, `formula.steps` and `formula.yield`.
+3. Run `npm run recipe:compile -- recipe-slug`. This generates `ingredients`, `servings` and the Markdown `## Directions` section; do not edit those generated fields directly.
+4. Author the Chef's Note, learning/checkpoints, troubleshooting and attribution normally. Use the [Chef's Note guidelines](CHEFS_NOTE_GUIDELINES.md) for cultural context and practical insight, without promotional “Standard” language.
+5. Inspect the compiled ingredients and directions, then run `npm run validate-recipes` and `npm run build`.
 
-### Content Structure
-
-Every file **must** include a `## Chef's Note` explaining the technical techniques applied and a `## Directions` section with bolded step headers.
-
-```markdown
-## Chef's Note
-
-The key to this dish is **Culinary Technique** through **The [Method Name]**.
-
-## Directions
-
-1. **The Prep:** Step details...
-2. **The Sear:** Step details...
-
-## Serving Suggestions
-
-- [Everyday Arugula Salad](/mise/recipes/everyday-arugula-salad)
-```
+When substantially changing an existing formula, migrate ingredients and method together. Small corrections do not require migration; unresolved legacy recipes remain readable without invented quantities. Preserve the explicit [`original-preserved-by-user` exception](docs/RECIPE_STANDARD.md#consolidation-and-coverage): only the added Chef's Note requirement is waived for the matching original; preservation does not certify editorial review or kitchen testing.
 
 ## The learning kitchen
 
@@ -192,9 +165,9 @@ Exports use the current complete recipe collection, including existing craft ent
 
 `npm test` includes parser, recipe-set, serialization, failed-packaging and deployment-base regressions. Run `node scripts/check-built-links.mjs dist` after building to reject same-origin links outside the configured deployment base. The default base remains `/mise/`; intentional same-host links outside this app would require an explicitly scoped checker exception.
 
-For the existing Paprika library, use the [October 5, 2026 reconciliation](docs/paprika-sync/2026-10-05.md) and its merged archive, which retains original recipe identities, photos and ratings. Replay that reviewed baseline with `node scripts/sync-paprika.mjs '/path/to/My Recipes.zip'`; the script requires Python 3, `zip` and `unzip`. A changed Paprika export stops replay and needs a new comparison. Test one existing recipe before the full import, then compare a fresh native export with `node scripts/verify-paprika-sync.mjs '/path/to/fresh-export.paprikarecipes'`. File verification alone does not establish that the live Paprika library was updated.
+The [October 5, 2026 reconciliation](docs/paprika-sync/2026-10-05.md) records a completed baseline import and fresh-export comparison of 653 Paprika identities, including cooking text, ratings and photos. Its later 37-recipe update instructions are historical, not a current import handoff: the website has advanced and recipes have been deliberately retired. Native-app synchronization requires a separate explicit request and a new retirement-aware comparison; do not replay or import those historical archives as the current library.
 
-The October 5 baseline import and fresh-export comparison are complete: 653 Paprika identities matched the reconciled library, including cooking text, ratings and photos. Three later mise repair commits changed 37 recipes; the private update file still needs importing and a fresh-export check. Follow the [current handoff](docs/paprika-sync/2026-10-05.md#current-handoff), which supplies the latest expected archive explicitly rather than using the verifier’s historical default. The unmodified fresh export is retained privately under `.mise/paprika-exports/retained-2026-10-05/paprika-sync-2026-10-05/`; redacted verification evidence remains in `exports/paprika-sync-2026-10-05/`. Category membership is compared as a set; repeated native category labels are reported separately.
+The unmodified baseline export is retained privately under `.mise/paprika-exports/retained-2026-10-05/paprika-sync-2026-10-05/`; redacted verification evidence remains in `exports/paprika-sync-2026-10-05/`. Category membership is compared as a set; repeated native category labels are reported separately. File verification alone does not establish that the live Paprika library was updated. See [private identity maintenance](#private-paprika-identities) for the existing recovery constraints.
 
 ## Private Paprika identities
 

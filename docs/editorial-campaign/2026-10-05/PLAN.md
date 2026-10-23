@@ -1,5 +1,7 @@
 # Complete editorial review campaign — October 5, 2026
 
+**Historical campaign plan.** The assignments, release instructions and 59-complete/350-pending checkpoint below describe October 5, not active work. The [verified final October 6 checkpoint](../../REVIEW_PROGRESS.md#verified-final-campaign-checkpoint--october-6-2026) accounts for all 409 campaign sources: 405 complete editorial versions, three user retirements and one deliberately unreviewed preserved original. Later additions are separate from this frozen campaign queue. Original checkpoints below are retained as dated history.
+
 Jordan explicitly requested delegation and complete editorial review of the 409 recipes lacking that recorded status, after approving the dessert follow-up. This is a new authorization for the full pending queue and supersedes the September 6 phase’s no-agents, twelve-exception and two-release limits. It does not accept historical proposals, waive source evidence or certify kitchen testing.
 
 [Queue](queue.json) freezes the 409 unique canonical paths at `e922e95ee275aee6289e7225914045d273154791`. The private queue retains their existing miseId values; public records omit identities. Aliases are mapped to canonical sources. The existing 234 recorded complete reviews remain outside this queue. Previously targeted repairs still need their remaining whole-recipe review.

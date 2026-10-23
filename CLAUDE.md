@@ -4,8 +4,8 @@ Mise is a culinary knowledge base and AI-assisted cooking system. The static sit
 
 ## What's in the Repo
 
-- **550+ recipes** in `src/content/recipes/*.md` with 30+ metadata fields each
-- **23 curated meals** in `src/content/meals/*.md` (multi-recipe compositions)
+- **Recipe and craft sources** in `src/content/recipes/*.md` with 30+ metadata fields each
+- **Curated meals** in `src/content/meals/*.md` (multi-recipe compositions)
 - **Knowledge codex** in `src/knowledge/codex/*.json` (automated quality rules)
 - **Technique references** in `src/knowledge/techniques/*.md` (reusable culinary techniques)
 - **Astro 5 static site** with search, filtering, and recipe detail pages
@@ -135,6 +135,8 @@ Every great food tradition achieves balance — they just achieve it differently
 
 Every recipe is a `.md` file in `src/content/recipes/` with this structure:
 
+For new recipes, follow [structured recipe authoring](docs/STRUCTURED_RECIPE_AUTHORING.md): author `formula` version 1 and compile `ingredients`, `servings` and Directions rather than editing generated fields directly. The examples below describe the compatible rendered/legacy representation. Small corrections do not require migration; unresolved quantities must not be guessed. Preserve the [user-requested original exception](docs/RECIPE_STANDARD.md#consolidation-and-coverage), which waives only the added Chef’s Note requirement for the matching original.
+
 ### Required Frontmatter
 
 ```yaml
@@ -219,17 +221,17 @@ Keep composed meals with ingredient portions, timing and preparation guidance. W
 1. Run `npm run culinary-qa` to get the quality report
 2. Read the lowest-scoring recipes
 3. Apply the 4-lens critique
-4. Rewrite Chef's Notes, flesh out Directions, complete frontmatter
+4. Revise authored content and complete frontmatter; for structured recipes, edit the formula and compile generated ingredients, servings and Directions
 5. Run `npm run validate-recipes` to confirm fixes pass
 
 ### "Add a new recipe"
 
-1. Create `src/content/recipes/recipe-name.md` (kebab-case)
-2. Fill complete frontmatter (all relevant fields)
+1. Run `npm run new-recipe -- "Recipe Name"` using a natural recipe name
+2. Complete metadata and `formula` version 1 following `docs/STRUCTURED_RECIPE_AUTHORING.md`
 3. Write Chef's Note following `CHEFS_NOTE_GUIDELINES.md`
-4. Write Directions with bold step headers, temperatures, visual cues
+4. Author formula steps with temperatures and visual cues, then run `npm run recipe:compile -- recipe-slug`; do not hand-edit generated ingredients, servings or Directions
 5. Add `pairsWith` referencing existing recipe slugs
-6. Run `npm run validate-recipes`
+6. Inspect compiled output and run `npm run validate-recipes` and `npm run build`
 
 ### "What should I cook tonight?"
 
