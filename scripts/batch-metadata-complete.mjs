@@ -3,7 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -137,10 +137,10 @@ function inferCookingMethods(data, content) {
   // Check for no-cook
   if (
     inferred.length === 0 ||
-    (fullContent.includes('no cook') ||
-      fullContent.includes('no-cook') ||
-      fullContent.includes('assemble') ||
-      fullContent.includes('toast'))
+    fullContent.includes('no cook') ||
+    fullContent.includes('no-cook') ||
+    fullContent.includes('assemble') ||
+    fullContent.includes('toast')
   ) {
     if (fullContent.includes('toast')) {
       inferred.push('toast');
@@ -236,12 +236,7 @@ function inferAdvancePrep(content) {
     'make-ahead-sauce': ['make.*sauce.*ahead', 'sauce.*can be made ahead'],
     'make-ahead': ['make ahead', 'can be made ahead', 'prepare.*ahead'],
     'freeze-ahead': ['freeze', 'freezer', 'can be frozen'],
-    'components-ahead': [
-      'prep.*ahead',
-      'prepare.*component',
-      'can prep ahead',
-      'prep.*in advance',
-    ],
+    'components-ahead': ['prep.*ahead', 'prepare.*component', 'can prep ahead', 'prep.*in advance'],
     'refrigerate-overnight': ['refrigerate overnight', 'rest overnight', 'chill overnight'],
   };
 

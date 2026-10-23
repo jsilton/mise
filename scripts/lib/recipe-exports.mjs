@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { isDeepStrictEqual } from 'node:util';
-import matter from 'gray-matter';
+import matter from '../../src/lib/frontmatter.mjs';
 import { parseRecipeContent, isIngredientDivider } from '../../src/lib/recipe-content.mjs';
 import { buildRecipeSchema } from '../../src/lib/recipe-schema.mjs';
 import { applyIdentities, readIdentities } from './paprika-identities.mjs';

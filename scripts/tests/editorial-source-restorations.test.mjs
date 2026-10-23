@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import matter from 'gray-matter';
+import matter from '../../src/lib/frontmatter.mjs';
 import { z } from 'astro/zod';
 import {
   createFormulaSchema,

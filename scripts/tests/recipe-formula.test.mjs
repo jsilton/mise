@@ -142,7 +142,7 @@ test('compiler detects stale generated ingredients and directions before publish
   const { tmpdir } = await import('node:os');
   const { join } = await import('node:path');
   const { spawnSync } = await import('node:child_process');
-  const { default: matter } = await import('gray-matter');
+  const { default: matter } = await import('../../src/lib/frontmatter.mjs');
   const dir = mkdtempSync(join(tmpdir(), 'mise-formula-'));
   try {
     mkdirSync(join(dir, 'src/content/recipes'), { recursive: true });

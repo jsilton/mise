@@ -18,7 +18,7 @@
  * Always run with --dry-run on the inner script first.
  */
 
-import { execSync } from 'child_process';
+import { execSync, execFileSync } from 'child_process';
 
 const args = process.argv.slice(2);
 const autoAccept = args.includes('--auto-accept');
@@ -70,9 +70,8 @@ try {
 
 console.log('\n📊 Change Summary:');
 
-const changedFiles = run('git diff --name-only')
-  .trim()
-  .split('\n')
+const changedFiles = execFileSync('git', ['diff', '--name-only', '-z'], { encoding: 'utf8' })
+  .split('\0')
   .filter((f) => f.startsWith('src/content/recipes/') && f.endsWith('.md'));
 
 if (changedFiles.length === 0) {
@@ -94,7 +93,7 @@ console.log(`   Total: +${added} lines added, -${removed} lines removed\n`);
 // Show first 3 changed files as samples
 const sampleFiles = changedFiles.slice(0, 3);
 for (const f of sampleFiles) {
-  const fileDiff = run(`git diff -- "${f}"`);
+  const fileDiff = execFileSync('git', ['diff', '--', f], { encoding: 'utf8' });
   const addedLines = fileDiff.match(/^\+[^+].*/gm) || [];
   if (addedLines.length > 0) {
     console.log(`   Sample from ${f}:`);
@@ -111,7 +110,9 @@ console.log('🔍 Running quality checks on changed files...\n');
 
 let lintPassed = true;
 try {
-  execSync(`node scripts/lint-recipe.mjs ${changedFiles.join(' ')}`, { stdio: 'inherit' });
+  execFileSync(process.execPath, ['scripts/lint-recipe.mjs', ...changedFiles], {
+    stdio: 'inherit',
+  });
 } catch {
   lintPassed = false;
 }

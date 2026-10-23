@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import matter from 'gray-matter';
+import matter from '../../src/lib/frontmatter.mjs';
 const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8'));
 
 test('pie keeps both blind bake stages hot and chills the egg custard promptly', () => {

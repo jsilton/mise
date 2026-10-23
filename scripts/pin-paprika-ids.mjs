@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 import { loadRecipes, RECIPES_DIR } from './lib/recipe-exports.mjs';
 import { readPaprika } from './sync-paprika.mjs';
 import { nativeIdentityDigest, decisionIdentityDigest } from './lib/paprika-plan.mjs';

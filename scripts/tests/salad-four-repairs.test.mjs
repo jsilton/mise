@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
-import matter from 'gray-matter';
+import matter from '../../src/lib/frontmatter.mjs';
 const read = (slug) => matter(fs.readFileSync(`src/content/recipes/${slug}.md`, 'utf8'));
 const slugs = [
   'korean-mung-bean-sprouts-salad',

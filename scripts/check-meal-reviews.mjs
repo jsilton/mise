@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 import path from 'node:path';
 import { validateMealCoverage } from './lib/meal-coverage.mjs';
 

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
-import matter from 'gray-matter';
+import matter from '../../src/lib/frontmatter.mjs';
 import { scaleIngredient, scaleIngredientParts } from '../../src/lib/quantities.mjs';
 import {
   formulaEntries,

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from 'fs/promises';
 import path from 'path';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 
 const RECIPES_DIR = path.resolve('src/content/recipes');
 const args = process.argv.slice(2);

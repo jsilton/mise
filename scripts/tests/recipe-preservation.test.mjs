@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { spawnSync } from 'node:child_process';
-import matter from 'gray-matter';
+import matter from '../../src/lib/frontmatter.mjs';
 import { cookingHash, assertOriginalPreservation } from '../lib/recipe-preservation.mjs';
 
 const slug = 'tarragon-potatoes';

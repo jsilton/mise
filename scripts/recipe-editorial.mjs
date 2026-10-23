@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 import path from 'node:path';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 import { timeToMinutes } from '../src/lib/time.mjs';
 
 export function reviewRecipe({ slug, data, content }, knownSlugs) {

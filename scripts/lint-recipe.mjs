@@ -21,7 +21,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 import { execSync } from 'child_process';
 import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
 

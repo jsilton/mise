@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import matter from 'gray-matter';
+import matter from '../src/lib/frontmatter.mjs';
 import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
 const baseline = JSON.parse(fs.readFileSync('docs/recipe-review-baseline.json', 'utf8'));
 const aliases = JSON.parse(fs.readFileSync('src/data/recipe-aliases.json', 'utf8'));
