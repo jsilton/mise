@@ -30,6 +30,7 @@ on:
       - 'src/lib/**'
       - 'src/content/config.ts'
       - '.github/workflows/validate-recipes.yml'
+      - '.github/workflows/deploy.yml'
 
 jobs:
   validate:
