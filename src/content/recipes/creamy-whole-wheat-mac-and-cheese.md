@@ -84,8 +84,8 @@ Use the full cheddar and Parmesan amounts, and separate the cream before heating
 
 ## Directions
 
-1. Cook the dry macaroni in boiling water seasoned with the separate pasta-water salt allowance until al dente according to the package. Drain without rinsing.
+1. Cook the dry macaroni in boiling water seasoned with the separate pasta-water salt allowance until al dente according to the package. Scoop out about 1/2 cup of the cooking water, then drain without rinsing.
 2. Return the hot noodles to the pot. Add all the butter and the larger cream portion (⅓ cup in the original batch), keeping the smaller finishing cream portion separate. Stir over medium-low heat until the butter melts and coats the pasta.
-3. Turn the heat to low. Add all the cheddar and Parmesan gradually, stirring until melted. Take the pot off the heat if the cheese mixture bubbles hard; return briefly to low heat only as needed to finish melting.
+3. Turn the heat to low. Add all the cheddar and Parmesan gradually, stirring until melted. Take the pot off the heat if the cheese mixture bubbles hard; return briefly to low heat only as needed to finish melting. If the sauce looks tight or grainy, stir in a splash of the reserved cooking water until smooth.
 4. Stir in the remaining cream (1 tbsp in the original batch), measured sea salt, black pepper and nutmeg. Do not spend the finishing cream twice.
 5. Serve immediately; the sauce thickens as it stands.
