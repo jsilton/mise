@@ -118,11 +118,11 @@ Watch the butter’s milk solids rather than waiting for all foaming to stop: th
 
 ## Directions
 
-1. **Cook gnocchi:** Bring a large pot of salted water to a boil. Cook the fresh or frozen gnocchi according to its package, generally 3–5 minutes as a starting point, until floating and cooked through. Drain; do not automatically thaw a product whose package says to cook from frozen.
+1. **Cook gnocchi:** Bring a large pot of salted water to a boil. Cook the fresh or frozen gnocchi according to its package, generally 3–5 minutes as a starting point, until floating and cooked through. Scoop out about 1/2 cup of the cooking water, then drain; do not automatically thaw a product whose package says to cook from frozen.
 2. **Brown butter:** Meanwhile, melt all the butter in a large skillet over medium-high heat. Cook until the milk solids begin turning golden and smell nutty, around 2 minutes as a guide. Lower the heat if they darken rapidly; do not wait for a fixed clock or complete cessation of foam.
 3. **Cook vegetables:** Add all the minced shallots and washed, ribbon-thin zucchini. Cook, stirring often, about 2–3 minutes until softened. Use enough skillet batches for the full scaled vegetables, dividing the full butter and seasonings among them.
 4. **Add tomatoes:** Add all the washed halved tomatoes, the salt from your chosen seasoning route, all the nutmeg and pepper to taste. Cook about 1–2 minutes until the tomatoes begin to release juices and break down.
-5. **Combine:** Add all the drained gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. Combine all cooked batches for serving if a bowl gives more room than the skillet.
+5. **Combine:** Add all the drained gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. If the cheese clumps instead of coating, add a splash of the reserved cooking water and toss again. Combine all cooked batches for serving if a bowl gives more room than the skillet.
 6. **Serve:** Serve promptly, keeping the gnocchi intact rather than tossing vigorously against a crowded pan.
 
 ## Cooking Notes
