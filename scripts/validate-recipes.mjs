@@ -6,6 +6,7 @@ import {
   hasLowTemperatureReference,
   hasPoultryMeatReference,
 } from '../src/lib/low-temperature-reference.mjs';
+import { findUnmentionedIngredients, isIngredientHeadingLine } from './lib/ingredient-mentions.mjs';
 import { extractRecipeTargets } from './lib/recipe-link-targets.mjs';
 import { assertOriginalPreservation } from './lib/recipe-preservation.mjs';
 
@@ -58,104 +59,6 @@ const INVALID_INGREDIENTS = new Set([
   'aged-cheese',
   'dark-chocolate',
 ]);
-
-const STRIP_WORDS = new Set([
-  'and',
-  'the',
-  'for',
-  'with',
-  'into',
-  'from',
-  'about',
-  'some',
-  'any',
-  'such',
-  'very',
-  'tbsp',
-  'tsp',
-  'cup',
-  'cups',
-  'oz',
-  'lbs',
-  'lb',
-  'can',
-  'cans',
-  'pinch',
-  'pinches',
-  'clove',
-  'cloves',
-  'head',
-  'heads',
-  'medium',
-  'large',
-  'small',
-  'softened',
-  'diced',
-  'minced',
-  'sliced',
-  'peeled',
-  'cubed',
-  'grated',
-  'to',
-  'taste',
-  'divided',
-  'optional',
-  'fresh',
-  'freshly',
-  'ground',
-  'chopped',
-  'finely',
-  'coarsely',
-  'thinly',
-  'shredded',
-  'package',
-  'packages',
-  'warmed',
-  'melted',
-  'dry',
-  'kosher',
-  'sea',
-  'fine',
-  'black',
-  'white',
-  'neutral',
-  'cooking',
-  'extra',
-  'virgin',
-  'olive',
-  'oil',
-  'plus',
-  'extra',
-  'serving',
-  'servings',
-  'halved',
-  'quartered',
-  'crushed',
-  'beaten',
-  'drained',
-  'rinsed',
-  'extra-virgin',
-  'for-serving',
-  'sliced-into-thin-strips',
-]);
-
-function getIngredientKeywords(ingredientStr) {
-  if (
-    ingredientStr.startsWith('---') ||
-    ingredientStr.includes('(optional') ||
-    ingredientStr.includes('(for serving')
-  ) {
-    if (ingredientStr.startsWith('---')) return [];
-  }
-  const clean = ingredientStr
-    .toLowerCase()
-    .replace(/[0-9]+/g, ' ')
-    .replace(/[\/\\()\[\].,:;!@#\$%\^&\*\+=\?]/g, ' ')
-    .trim();
-  const words = clean.split(/\s+/).filter((w) => w.length > 2);
-  const keywords = words.filter((w) => !STRIP_WORDS.has(w));
-  return keywords;
-}
 
 async function listMdFiles(dir) {
   const entries = await fs.readdir(dir, { withFileTypes: true });
@@ -508,25 +411,36 @@ function normalizeKey(str) {
       console.warn(`KB check failed for ${slug}: ${err && err.message}`);
     }
 
+    // Section headings written as plain ingredient lines show up as checkbox
+    // ingredients and in structured data, so they block the build.
+    if (Array.isArray(data.ingredients)) {
+      for (const ingredientLine of data.ingredients) {
+        if (!isIngredientHeadingLine(String(ingredientLine))) continue;
+        report.suggestions[slug] = report.suggestions[slug] || [];
+        report.suggestions[slug].push({
+          ruleId: 'ingredient-heading-format',
+          title: 'Ingredient section heading needs the divider form',
+          severity: 'fail',
+          suggestion: `"${ingredientLine}" reads as a section heading. Write it as '--- Label ---' so it renders as a heading, not an ingredient.`,
+        });
+      }
+    }
+
     // Verify that ingredients listed in frontmatter are mentioned in directions
     if (data.ingredients && Array.isArray(data.ingredients)) {
       const directionsMatch = content.match(/##\s*Directions[\s\S]*$/i);
       if (directionsMatch) {
-        const directionsText = directionsMatch[0].toLowerCase();
-        for (const ingredientLine of data.ingredients) {
-          if (ingredientLine.startsWith('---')) continue;
-          const keywords = getIngredientKeywords(ingredientLine);
-          if (keywords.length === 0) continue;
-          const found = keywords.some((keyword) => directionsText.includes(keyword));
-          if (!found) {
-            report.suggestions[slug] = report.suggestions[slug] || [];
-            report.suggestions[slug].push({
-              ruleId: 'kb.missing-ingredient-in-directions',
-              title: 'Ingredient potentially missing from directions',
-              severity: 'hint',
-              suggestion: `The ingredient "${ingredientLine}" is listed in the frontmatter but doesn't seem to be mentioned in the directions. Verify it is used in the instructions.`,
-            });
-          }
+        for (const ingredientLine of findUnmentionedIngredients(
+          data.ingredients,
+          directionsMatch[0]
+        )) {
+          report.suggestions[slug] = report.suggestions[slug] || [];
+          report.suggestions[slug].push({
+            ruleId: 'kb.missing-ingredient-in-directions',
+            title: 'Ingredient potentially missing from directions',
+            severity: 'hint',
+            suggestion: `The ingredient "${ingredientLine}" is listed in the frontmatter but doesn't seem to be mentioned in the directions. Verify it is used in the instructions.`,
+          });
         }
       }
     }
