@@ -15,6 +15,7 @@ import {
   validateCombinedText,
   assertRecipeSet,
 } from '../lib/recipe-exports.mjs';
+import { loadTestRecipes } from './fixtures/test-identities.mjs';
 
 function flatten(items) {
   return items.flatMap((item) =>
@@ -67,7 +68,7 @@ test('missing methods and empty ordered-list items are not fabricated', () => {
 });
 
 test('all current sources have nonempty, aligned schema and export representations', async () => {
-  const recipes = await loadRecipes();
+  const recipes = await loadTestRecipes();
   assert.equal(
     recipes.length,
     (await fs.readdir('src/content/recipes')).filter((name) => name.endsWith('.md')).length
@@ -92,7 +93,7 @@ test('all current sources have nonempty, aligned schema and export representatio
 });
 
 test('known method mismatches retain parser coverage and accepted current step counts', async () => {
-  const recipes = new Map((await loadRecipes()).map((recipe) => [recipe.slug, recipe]));
+  const recipes = new Map((await loadTestRecipes()).map((recipe) => [recipe.slug, recipe]));
   // Preserve the original ten-step parser oracle after the independently
   // reviewed Boston main was replaced with a complete seven-step source route.
   const bostonReview = JSON.parse(
@@ -158,7 +159,7 @@ test('validation rejects empty, missing, legacy, duplicate and stale recipe expo
     /extra \[old-beans\]/
   );
   assert.throws(() => assertRecipeSet(['rice', 'rice'], ['rice']), /Duplicate/);
-  const recipes = (await loadRecipes()).slice(0, 2);
+  const recipes = (await loadTestRecipes()).slice(0, 2);
   const stale = createJsonCollection(recipes);
   stale.recipes[0].recipeInstructions = [];
   assert.throws(() => validateJsonCollection(stale, recipes), /incomplete/);
@@ -230,7 +231,7 @@ test('Paprika ingredient links retain quantities and labels while applying the s
 });
 
 test('every corpus ingredient link exports its existing target as an absolute URL', async () => {
-  const recipes = await loadRecipes();
+  const recipes = await loadTestRecipes();
   let links = 0;
   let legacyBaseLinks = 0;
   for (const recipe of recipes) {
@@ -302,7 +303,7 @@ test('Paprika marks only recognized ingredient dividers as colon-ended headings'
     'Plain label',
     '---Unrecognized---',
   ]);
-  for (const recipe of await loadRecipes()) {
+  for (const recipe of await loadTestRecipes()) {
     const exported = createPaprikaRecipe(recipe).ingredients.split('\n');
     for (const [index, ingredient] of recipe.data.ingredients.entries()) {
       const divider = ingredient.match(/^-{3}\s+(.+?)\s+-{3}$/);
@@ -348,7 +349,7 @@ test('combined text preserves selected frontmatter attribution without dumping l
 });
 
 test('combined text retains every current source credit, including frontmatter-only URLs', async () => {
-  const recipes = await loadRecipes();
+  const recipes = await loadTestRecipes();
   const combined = createCombinedText(recipes);
   const blocks = combined.split(`${'='.repeat(70)}\n`).filter(Boolean);
   assert.equal(blocks.length, recipes.length);
