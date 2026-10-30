@@ -221,7 +221,8 @@ formula:
       text: >-
         Cook {{ingredients}} until al dente according to the actual fresh or
         dried pasta package; the source’s roughly 5-minute fresh-pasta reference
-        is not a dried-cavatappi clock. Drain.
+        is not a dried-cavatappi clock. Scoop out about 1/2 cup of the cooking
+        water, then drain.
     - id: wilt
       title: Brown and wilt
       text: >-
@@ -234,8 +235,10 @@ formula:
         Finish with {{ingredients}} and all the drained pasta: add the measured
         peel and juice, remaining flakes and spinach, then toss until the
         spinach wilts and the pasta is coated, checking after about 1 minute
-        rather than assuming 30 seconds works for every load. Season to taste,
-        using additional peel or juice only if desired.
+        rather than assuming 30 seconds works for every load. If the pasta
+        looks dry, toss in a splash of the reserved cooking water so the brown
+        butter clings. Season to taste, using additional peel or juice only if
+        desired.
     - id: serve
       title: Serve
       text: >-
@@ -329,7 +332,7 @@ Strozzapreti ("priest stranglers") is a hand-rolled pasta shape associated with 
 ## Directions
 
 1. **Toast crumbs:** Make the topping with 1/4 of the unsalted butter, panko breadcrumbs, garlic clove, 1/2 of the red pepper flakes, lemon zest, olive oil, and kosher salt and black pepper for crumbs in a wide skillet: melt the butter with the oil over medium heat. Add garlic and pepper flakes; as they become fragrant, stir in the panko and stir until golden and crisp, checking after about 2 minutes. Stir in the zest, season with the listed crumb seasoning and transfer all the crumbs to a dry plate. Wipe out stray crumbs from the pan before browning butter.
-2. **Boil:** Cook fresh strozzapreti OR cavatappi and water and salt for boiling pasta until al dente according to the actual fresh or dried pasta package; the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Drain.
+2. **Boil:** Cook fresh strozzapreti OR cavatappi and water and salt for boiling pasta until al dente according to the actual fresh or dried pasta package; the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Scoop out about 1/2 cup of the cooking water, then drain.
 3. **Brown and wilt:** Use 3/4 of the unsalted butter and 1/2 of the bunches of flat-leaf spinach for the first wilt: melt the butter in the cleaned skillet over medium heat, swirling until golden and nutty rather than dark or black. Add this spinach portion and toss until wilted.
-4. **Combine:** Finish with preserved lemon peel, fresh lemon juice, 1/2 of the bunches of flat-leaf spinach, 1/2 of the red pepper flakes, kosher salt and black pepper for finishing, additional preserved lemon peel for optional finishing (if using), and additional lemon juice for optional finishing (if using) and all the drained pasta: add the measured peel and juice, remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated, checking after about 1 minute rather than assuming 30 seconds works for every load. Season to taste, using additional peel or juice only if desired.
+4. **Combine:** Finish with preserved lemon peel, fresh lemon juice, 1/2 of the bunches of flat-leaf spinach, 1/2 of the red pepper flakes, kosher salt and black pepper for finishing, additional preserved lemon peel for optional finishing (if using), and additional lemon juice for optional finishing (if using) and all the drained pasta: add the measured peel and juice, remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated, checking after about 1 minute rather than assuming 30 seconds works for every load. If the pasta looks dry, toss in a splash of the reserved cooking water so the brown butter clings. Season to taste, using additional peel or juice only if desired.
 5. **Serve:** Divide all the pasta and spinach among bowls and distribute all the reserved crumbs over the top.

@@ -160,7 +160,7 @@ formula:
             amount: 2
             unit: tsp
           uses:
-            - step: soup
+            - step: flour
               share: 1
         - id: fajita
           key: fajita
@@ -217,8 +217,11 @@ formula:
         minutes, until the onion softens. Choose a pot with room for all the
         liquid, chicken and corn, plus stirring headroom.
     - id: flour
-      title: Cook flour
-      text: 'Stir in {{ingredients}} and cook, stirring, for 1 minute.'
+      title: Cook flour and cumin
+      text: >-
+        Stir in {{ingredients}} and cook, stirring, for 1 minute, until the
+        cumin smells toasted. Cooking it in the fat brings out more flavor than
+        adding it to the broth.
     - id: liquid
       title: Add liquid
       text: >-
@@ -315,7 +318,7 @@ This creamy tortilla soup starts with fully cooked chicken and keeps all the hal
 ## Directions
 
 1. **Soften aromatics:** In a large pot over medium heat, sauté garlic cloves, onion, and margarine for about 5 minutes, until the onion softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring headroom.
-2. **Cook flour:** Stir in all-purpose flour and cook, stirring, for 1 minute.
+2. **Cook flour and cumin:** Stir in all-purpose flour and ground cumin and cook, stirring, for 1 minute, until the cumin smells toasted. Cooking it in the fat brings out more flavor than adding it to the broth.
 3. **Add liquid:** Gradually stir in chicken broth and half-and-half until the flour disperses. Bring to a boil while stirring along the bottom, then reduce heat to low.
-4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, ground cumin, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.
+4. **Heat soup:** Add condensed cream of chicken soup, fresh salsa, creamed corn, boneless chicken breast halves, dry fajita seasoning, and 2/3 of the fresh cilantro. Heat gently for about 15 minutes, stirring regularly, until the finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not stand in for the whole pot; cold cooked chicken may take longer.
 5. **Build bowls:** Divide all 1/3 of the fresh cilantro, tortilla chips, and Monterey Jack cheese among the listed portions. Crumble some of the chips into the bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1 oz cheese total, half below and half above; use proportional shares for other batches.
