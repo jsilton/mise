@@ -13,18 +13,18 @@ cookingMethods:
 categories: []
 source: food52.com
 ingredients:
-  - 'For the filling:'
+  - '--- Filling ---'
   - 1 14-ounce can sweetened condensed milk
   - 1/2 cup lime juice
   - 4 teaspoons lime zest
   - 4 large egg yolks
   - 1 pinch salt
-  - 'For the crust:'
+  - '--- Crust ---'
   - 11 graham crackers or 1 1/4 cups crumbs (approximate volume)
   - 3 tablespoons granulated sugar
   - 1 pinch salt
   - '5 tablespoons unsalted butter, melted and cooled'
-  - 'to serve:'
+  - '--- To serve ---'
   - 1 cup heavy cream
 sourceUrl: 'https://food52.com/recipes/33481-key-lime-pie'
 cuisines:
