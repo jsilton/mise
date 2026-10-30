@@ -10,18 +10,60 @@ permissions:
   pages: write
   id-token: write
 
+# Never cancel a deployment part-way; queue the next push behind it.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          package-manager: pnpm@10
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Nothing is published unless the same checks as pull requests pass.
+      - name: Check recipe foundations
+        run: pnpm test
+
+      - name: Audit editorial integrity
+        run: pnpm run editorial-audit
+
+      - name: Build the site
+        run: pnpm run build
+
+      - name: Verify built links, aliases and meal reviews
+        run: |
+          node scripts/check-built-links.mjs
+          node scripts/check-recipe-aliases.mjs
+          node scripts/check-meal-reviews.mjs
+
+      - name: Run recipe validator
+        run: pnpm run validate-recipes
+        env:
+          NODE_OPTIONS: '--max-old-space-size=1024'
+
       - name: Check private recipe metadata is absent
         run: node scripts/check-paprika-privacy.mjs dist
+
+      - name: Upload the built site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
   deploy:
     needs: build

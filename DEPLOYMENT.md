@@ -12,7 +12,8 @@ This document outlines the deployment process for the Mise recipe codex, includi
 
 - **Hosting:** Static site (Astro)
 - **Build Output:** `/dist/` directory
-- **Trigger:** Manual (run `npm run deploy` when ready)
+- **Trigger:** Every push to `main` deploys to GitHub Pages through `.github/workflows/deploy.yml`
+- **Gate:** The deploy workflow runs `pnpm test`, the editorial audit, the build, the built-link, alias and meal-review checks, the recipe validator and the Paprika privacy check. If any step fails, nothing is published and the live site stays as it was.
 
 ### Deployment Checklist
 

@@ -5,7 +5,8 @@ import path from 'node:path';
 import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { gzipSync } from 'node:zlib';
-import { loadRecipes, createPaprikaRecipe } from '../lib/recipe-exports.mjs';
+import { createPaprikaRecipe } from '../lib/recipe-exports.mjs';
+import { loadTestRecipes } from './fixtures/test-identities.mjs';
 import { exportJsonLd } from '../export-jsonld.mjs';
 import { exportText } from '../export-text.mjs';
 import { exportPaprika, validatePaprikaArchive } from '../export-paprika.mjs';
@@ -13,7 +14,7 @@ import { exportPaprika, validatePaprikaArchive } from '../export-paprika.mjs';
 test('both exporters and combined text round-trip validated source content', async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'mise-export-'));
   try {
-    const recipes = (await loadRecipes()).slice(0, 2);
+    const recipes = (await loadTestRecipes()).slice(0, 2);
     assert.equal(await exportJsonLd(path.join(dir, 'recipes.json'), recipes), 2);
     assert.equal(await exportText(path.join(dir, 'recipes.txt'), recipes), 2);
     const archive = path.join(dir, 'recipes.paprikarecipes');
@@ -36,7 +37,7 @@ test('both exporters and combined text round-trip validated source content', asy
 test('packaging failures reject and leave the prior artifact intact', async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'mise-failed-'));
   try {
-    const recipes = (await loadRecipes()).slice(0, 1);
+    const recipes = (await loadTestRecipes()).slice(0, 1);
     const output = path.join(dir, 'recipes.paprikarecipes');
     await fs.writeFile(output, 'prior artifact');
     await assert.rejects(
@@ -55,7 +56,7 @@ test('packaging failures reject and leave the prior artifact intact', async () =
 test('valid ZIP containers with missing recipes or empty directions still fail validation', async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'mise-bad-archive-'));
   try {
-    const recipes = (await loadRecipes()).slice(0, 2);
+    const recipes = (await loadTestRecipes()).slice(0, 2);
     const output = path.join(dir, 'bad.zip');
     const first = createPaprikaRecipe(recipes[0]);
     first.directions = '';
