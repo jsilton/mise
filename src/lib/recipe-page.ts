@@ -55,6 +55,9 @@ function updateProgress() {
     if (c.dataset.stepCheck !== undefined)
       c.closest('li')?.classList.toggle('completed-step', c.checked);
   });
+  // Mark the first unfinished step so cook mode can highlight where you are.
+  const current = steps.find((step) => !step.classList.contains('completed-step'));
+  steps.forEach((step) => step.classList.toggle('current-step', step === current));
 }
 checkboxes.forEach((c) => {
   const key =

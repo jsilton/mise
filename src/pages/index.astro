@@ -6,6 +6,7 @@ import FilterPanel from '../components/FilterPanel.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import { getCollection } from 'astro:content';
 import { getTechniquesForRecipe } from '../data/techniques';
+import { timeBand, formatMinutes } from '../lib/time-band.mjs';
 import type { RecipeSearchItem } from '../lib/fuzzySearch';
 
 const recipes = (await getCollection('recipes')).filter(
@@ -87,7 +88,10 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
               <h3>{recipe.data.title}</h3>
               <p>{recipe.data.learning.outcome}</p>
               <span class="feature-meta">
-                {recipe.data.totalTime} <span aria-hidden="true">·</span> {recipe.data.difficulty}{' '}
+                <span class="time-chip" data-band={timeBand(recipe.data.totalTime).band}>
+                  {formatMinutes(timeBand(recipe.data.totalTime).minutes) || recipe.data.totalTime}
+                </span>
+                <span class="capitalize">{recipe.data.difficulty}</span>
                 <span aria-hidden="true">↗</span>
               </span>
             </>
@@ -399,30 +403,45 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 </script>
 
 <style>
+  /* A full-width slate band: the calm Mise blue frame, with apricot only on the one line that matters. */
   .home-hero {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     gap: 3rem;
-    padding: 1.5rem 0 4.5rem;
+    padding: 3rem 0 3.5rem;
+    margin: -2.5rem 0 1rem;
     align-items: center;
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 0 100vmax var(--accent);
+    clip-path: inset(0 -100vmax);
+  }
+  .home-hero .hero-copy .eyebrow {
+    color: #e6eef1;
   }
   h1 {
     font:
-      500 clamp(3.1rem, 5.5vw, 5.3rem)/0.99 'Cormorant Garamond',
+      650 clamp(2.9rem, 5.2vw, 5rem)/1.12 'Fraunces',
       Georgia,
       serif;
-    letter-spacing: -0.035em;
-    margin: 1.7rem 0;
+    letter-spacing: -0.03em;
+    margin: 1.4rem 0;
   }
   h1 em {
-    color: var(--accent-gold);
-    font-weight: 400;
+    color: var(--on-apricot);
+    background: var(--apricot);
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 0.12em;
+    border-radius: 0.12em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
   .hero-description {
-    max-width: 365px;
-    color: var(--text-secondary);
-    line-height: 1.85;
-    font-size: 0.95rem;
+    max-width: 380px;
+    color: #f7f6f2;
+    line-height: 1.7;
+    font-size: 1rem;
   }
   .hero-actions {
     display: flex;
@@ -430,23 +449,38 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     gap: 1.3rem;
     align-items: center;
     margin-top: 2rem;
-    font-size: 0.78rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+  .hero-actions a:not(.primary-link) {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .home-hero :focus-visible {
+    outline-color: #fff;
   }
   .primary-link {
-    background: var(--accent-gold);
-    color: var(--bg-deep);
-    padding: 1rem 1.2rem;
+    background: #fff;
+    color: var(--text-primary);
+    padding: 0.85rem 1.4rem;
     display: flex;
-    gap: 1rem;
-    font-weight: 600;
-    border-radius: 3px;
+    gap: 0.8rem;
+    font-weight: 700;
+    border-radius: var(--pill);
   }
   .hero-study {
     background: var(--bg-surface);
-    border: 1px solid var(--border-emphasis);
+    color: var(--text-primary);
+    border: 0;
+    border-radius: var(--radius);
     display: block;
     padding: 1.5rem 1.8rem 2rem;
     position: relative;
+    box-shadow: 0 10px 30px rgba(20, 35, 44, 0.25);
   }
   .hero-study:hover {
     border-color: var(--accent-gold);
@@ -466,7 +500,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   }
   .study-caption h2 {
     font:
-      500 2.5rem/1.1 'Cormorant Garamond',
+      650 2.3rem/1.1 'Fraunces',
       Georgia,
       serif;
     margin: 0.8rem 0;
@@ -493,7 +527,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   .section-heading h2,
   .collection-heading h2 {
     font:
-      500 clamp(2rem, 3vw, 2.6rem)/1.15 'Cormorant Garamond',
+      650 clamp(2rem, 3vw, 2.6rem)/1.15 'Fraunces',
       Georgia,
       serif;
     margin: 0.6rem 0;
@@ -506,23 +540,22 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   .featured-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    border: 1px solid var(--border-subtle);
+    gap: 1rem;
   }
   .featured-recipe {
     display: flex;
     flex-direction: column;
     padding: 1.6rem;
     background: var(--bg-surface);
-  }
-  .featured-recipe + .featured-recipe {
-    border-left: 1px solid var(--border-subtle);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius);
   }
   .featured-recipe:hover {
     background: var(--bg-elevated);
   }
   .feature-number {
     font:
-      500 2rem 'Cormorant Garamond',
+      500 2rem 'Fraunces',
       Georgia,
       serif;
     color: var(--text-tertiary);
@@ -530,7 +563,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   }
   .featured-recipe h3 {
     font:
-      500 1.75rem/1.15 'Cormorant Garamond',
+      650 1.7rem/1.15 'Fraunces',
       Georgia,
       serif;
     margin: 0.8rem 0;
@@ -542,9 +575,11 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   }
   .feature-meta {
     display: flex;
+    align-items: center;
     gap: 0.6rem;
-    font-size: 0.72rem;
-    color: var(--accent-gold);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-secondary);
     margin-top: auto;
     padding-top: 1.5rem;
   }
@@ -588,18 +623,18 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
       padding-top: 0.5rem;
       gap: 2.5rem;
     }
+    .home-hero {
+      padding: 2rem 0 2.5rem;
+      margin-top: -2.5rem;
+    }
     h1 {
-      font-size: 3.8rem;
+      font-size: 2.6rem;
     }
     .hero-study {
       padding: 1.5rem;
     }
     .featured-grid {
       grid-template-columns: 1fr;
-    }
-    .featured-recipe + .featured-recipe {
-      border-left: 0;
-      border-top: 1px solid var(--border-subtle);
     }
     .section-heading {
       align-items: start;

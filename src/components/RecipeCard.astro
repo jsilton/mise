@@ -5,6 +5,7 @@
 import DishArt from './DishArt.astro';
 import TagBadge from './TagBadge.astro';
 import { getTechniquesForRecipe } from '../data/techniques';
+import { timeBand, formatMinutes } from '../lib/time-band.mjs';
 
 interface Recipe {
   slug: string;
@@ -37,13 +38,16 @@ const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
 const lessons = getTechniquesForRecipe(recipe);
 
 // Extract primary dietary tag (prioritize vegetarian/vegan)
+const time = timeBand(recipe.data.totalTime);
+const timeText = time.minutes ? formatMinutes(time.minutes) : recipe.data.totalTime;
+
 const primaryDietaryTag =
   recipe.data.dietary?.find((d) => d === 'vegetarian' || d === 'vegan') || recipe.data.dietary?.[0];
 ---
 
 <a
   href={`${baseUrl}recipes/${recipe.slug}`}
-  class="recipe-card group rounded-sm transition-all duration-200 overflow-hidden flex flex-col h-full min-h-[13rem]"
+  class="recipe-card group transition-all duration-200 overflow-hidden flex flex-col h-full min-h-[13rem]"
   style="background: var(--bg-surface); border: 1px solid var(--border-subtle);"
   data-difficulty={recipe.data.difficulty}
   data-role={recipe.data.role}
@@ -89,28 +93,23 @@ const primaryDietaryTag =
       )
     }
 
-    <!-- Time metadata -->
-    <div
-      class="mt-auto pt-3 flex items-center justify-between text-xs font-medium"
-      style="border-top: 1px solid var(--border-subtle); color: var(--text-tertiary);"
-    >
-      <div class="flex items-center gap-2">
-        {
-          recipe.data.totalTime ? (
-            <span>{recipe.data.totalTime} total</span>
-          ) : (
-            recipe.data.prepTime && <span>{recipe.data.prepTime} prep</span>
-          )
-        }
-        {
-          !recipe.data.totalTime && recipe.data.cookTime && (
-            <span class="flex items-center gap-1">
-              <span style="color: var(--border-emphasis);">·</span>
-              {recipe.data.cookTime} cook
-            </span>
-          )
-        }
-      </div>
+    <!-- Time: the one warm accent on a card. Minutes are always printed beside the colour. -->
+    <div class="card-time mt-auto pt-3">
+      {
+        timeText ? (
+          <span class="time-chip" data-band={time.band} title={time.label}>
+            {timeText}
+          </span>
+        ) : (
+          <span class="time-chip" data-band="none">
+            {recipe.data.prepTime
+              ? `${recipe.data.prepTime} prep`
+              : recipe.data.cookTime
+                ? `${recipe.data.cookTime} cook`
+                : 'Time not listed'}
+          </span>
+        )
+      }
     </div>
   </div>
 
@@ -138,8 +137,15 @@ const primaryDietaryTag =
     color: var(--accent-gold);
     margin-right: 0.35rem;
   }
+  .recipe-card {
+    border-radius: var(--radius);
+  }
+  .recipe-card :global(.dish-art) {
+    background: var(--bg-elevated);
+  }
   .recipe-card:hover {
     border-color: var(--accent-gold-muted) !important;
+    box-shadow: 0 6px 18px rgba(31, 52, 64, 0.08);
   }
   .recipe-card:hover h2 {
     color: var(--accent-gold) !important;

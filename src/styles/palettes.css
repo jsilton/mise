@@ -1,4 +1,24 @@
-/* Paper and pigment. Legacy accent-gold aliases keep older pages on the same palette. */
+/* Paper and pigment. Legacy accent-gold aliases keep older pages on the same palette.
+ * Mise blue: a calm porcelain and slate frame so the food art carries the colour,
+ * with one warm accent (apricot) kept for what matters while cooking: times and the current step. */
+:root {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --radius: 18px;
+  --radius-sm: 12px;
+  --pill: 999px;
+  --apricot: #ffb36b;
+  --apricot-wash: #fff0d9;
+  --apricot-deep: #c96a28;
+  --on-apricot: #1f3440;
+  /* Time bands run light to dark so their order survives greyscale and colour blindness;
+   * minutes are always printed beside them. No listed time is a dashed outline, not a colour. */
+  --time-quick: #d4e9f2;
+  --time-hour: #f9d27e;
+  --time-long: #ffb07e;
+  --time-none: transparent;
+  --on-time: #1f3440;
+}
 :root, :root[data-palette='porcelain'] {
   --bg-deep: #f7f6f2;
   --bg-surface: #fcfbf8;
@@ -6,7 +26,7 @@
   --bg-hover: #e5ebe9;
   --border-subtle: #d9dedb;
   --border-emphasis: #a9b7ba;
-  --text-primary: #263a49;
+  --text-primary: #1f3440;
   --text-secondary: #52616a;
   --text-tertiary: #657078;
   --accent: #486b7b;

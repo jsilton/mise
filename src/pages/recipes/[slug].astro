@@ -247,21 +247,34 @@ function parseIngredientHtml(str: string): string {
     flex-wrap: wrap;
   }
   .jump-links a {
-    font-size: 0.8rem;
-    padding: 0.6rem 0.4rem;
-    color: var(--text-secondary);
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.4rem 0.85rem;
+    border-radius: var(--pill);
+    color: var(--text-primary);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+  }
+  .jump-links a:hover {
+    border-color: var(--accent);
   }
   .recipe-actions button {
     min-height: 44px;
-    padding: 0.6rem 1rem;
-    font-size: 0.8rem;
+    padding: 0.6rem 1.1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
     border: 1px solid var(--border-emphasis);
-    border-radius: 4px;
+    border-radius: var(--pill);
   }
   #cook-mode-toggle {
-    background: var(--accent-gold);
-    color: var(--bg-deep);
-    font-weight: 600;
+    background: var(--accent-strong);
+    border-color: var(--accent-strong);
+    color: #fff;
+    font-weight: 700;
+    padding-inline: 1.4rem;
   }
   .recipe-body {
     display: grid;
@@ -273,10 +286,11 @@ function parseIngredientHtml(str: string): string {
     padding: 1.4rem;
     background: var(--bg-surface);
     border: 1px solid var(--border-subtle);
+    border-radius: var(--radius);
   }
   .ingredients-panel h2 {
     font:
-      500 2rem/1.2 'Cormorant Garamond',
+      650 1.9rem/1.2 'Fraunces',
       Georgia,
       serif;
   }
@@ -287,17 +301,17 @@ function parseIngredientHtml(str: string): string {
   .ingredient-row {
     display: flex;
     align-items: flex-start;
-    gap: 0.7rem;
-    font-size: 0.9rem;
-    line-height: 1.65;
+    gap: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.55;
     padding: 0.65rem 0;
     border-bottom: 1px solid var(--border-subtle);
   }
   .ingredient-row input {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     flex-shrink: 0;
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
     accent-color: var(--accent-gold);
     cursor: pointer;
   }
@@ -306,10 +320,11 @@ function parseIngredientHtml(str: string): string {
     color: var(--text-secondary);
   }
   .ingredient-divider {
-    font-size: 0.7rem;
+    font-size: 0.72rem;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    color: var(--accent-gold);
+    color: var(--accent-strong);
     margin-top: 1.5rem;
   }
   .before-cooking {
@@ -320,7 +335,7 @@ function parseIngredientHtml(str: string): string {
     font-weight: 600;
   }
   .before-cooking li {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     line-height: 1.7;
     margin-top: 0.8rem;
@@ -332,15 +347,21 @@ function parseIngredientHtml(str: string): string {
     padding-top: 0.5rem;
     padding-bottom: 0.9rem;
     border-bottom: 1px solid var(--border-subtle);
+    font-size: 1.06rem;
+    line-height: 1.7;
+    color: var(--text-primary);
   }
   .recipe-method ol > li::before {
-    top: 0.5rem;
+    top: 0.65rem;
   }
   .checkpoint {
-    border-left: 2px solid var(--accent-gold-muted);
-    background: var(--bg-surface);
+    background: var(--wash);
+    border-radius: var(--radius-sm);
     padding: 1rem 1.1rem;
     margin: 1.3rem 0;
+  }
+  .checkpoint .eyebrow {
+    color: var(--accent-strong);
   }
   .checkpoint p {
     margin-bottom: 0.6rem;
@@ -398,6 +419,22 @@ function parseIngredientHtml(str: string): string {
   }
   .cook-mode-active .ingredient-row {
     font-size: 1rem;
+  }
+  /* The step you're on gets the warm accent, so it's easy to find again after looking away. */
+  .cook-mode-active .recipe-method ol > li.current-step {
+    background: var(--apricot-wash);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 0.85rem 1rem 3.2rem;
+    border-bottom-color: transparent;
+  }
+  .cook-mode-active .recipe-method ol > li.current-step::before {
+    left: 0.8rem;
+    top: 0.95rem;
+    background: var(--apricot);
+    color: var(--on-apricot);
+  }
+  .cook-mode-active .recipe-method ol > li.completed-step {
+    opacity: 0.6;
   }
   .cook-mode-active .completed-step > .step-copy {
     text-decoration: line-through;

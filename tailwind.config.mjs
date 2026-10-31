@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sans: [
-          'Inter',
+          'Plus Jakarta Sans',
           'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',
@@ -13,14 +13,17 @@ export default {
           'Roboto',
           'sans-serif',
         ],
-        display: ['Cormorant Garamond', 'Georgia', 'serif'],
+        display: ['Fraunces', 'Georgia', 'serif'],
+      },
+      fontSize: {
+        '2xs': ['0.68rem', { lineHeight: '1rem' }],
       },
       letterSpacing: {
         tighter: '-0.04em',
       },
       boxShadow: {
-        soft: '0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2)',
-        'soft-lg': '0 4px 12px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.3)',
+        soft: '0 1px 3px rgba(31, 52, 64, 0.08), 0 1px 2px rgba(31, 52, 64, 0.06)',
+        'soft-lg': '0 6px 18px rgba(31, 52, 64, 0.12), 0 2px 4px rgba(31, 52, 64, 0.08)',
         glow: '0 0 20px rgba(201, 169, 97, 0.08)',
         'glow-lg': '0 0 30px rgba(201, 169, 97, 0.12)',
       },
