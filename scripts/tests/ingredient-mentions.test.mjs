@@ -58,3 +58,10 @@ test('colon-ended section labels are headings, real ingredient lines are not', (
   ])
     assert.equal(isIngredientHeadingLine(line), false, line);
 });
+
+test('a doubled consonant before -ing still matches the plain verb', () => {
+  const ingredients = ['8 Whole Cloves (for studding)'];
+  const directions = `## Directions
+1. Stud the orange wedges with the garnish cloves.`;
+  assert.deepEqual(findUnmentionedIngredients(ingredients, directions), []);
+});
