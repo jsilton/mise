@@ -9,6 +9,7 @@ import {
 import { buildRecipeSchema } from '../../lib/recipe-schema.mjs';
 import RecipeLearning from '../../components/RecipeLearning.astro';
 import RecipeScaler from '../../components/RecipeScaler.astro';
+import { splitLeadingQuantity } from '../../lib/ingredient-quantity.mjs';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -26,6 +27,13 @@ const BASE = import.meta.env.BASE_URL;
 const learning = recipe.data.learning;
 const allRecipes = await getCollection('recipes');
 const recipeTitles = new Map(allRecipes.map((r) => [r.slug, r.data.title]));
+const pairings = (recipe.data.pairsWith || []).filter((slug) => recipeTitles.has(slug));
+const hasTips = Boolean(
+  learning?.troubleshooting?.length ||
+  learning?.substitutions?.length ||
+  learning?.storage ||
+  pairings.length
+);
 const canonicalUrl = new URL(`${BASE}recipes/${recipe.slug}/`, Astro.site).href;
 
 const isDivider = isIngredientDivider;
@@ -38,14 +46,17 @@ function getDividerLabel(str: string): string {
   return match ? match[1] : str;
 }
 
-function parseIngredientHtml(str: string): string {
-  let html = str
+function escapeHtml(str: string): string {
+  return str
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, text, url) => {
+}
+
+function linkify(html: string): string {
+  return html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, text, url) => {
     let href = url;
     if (!/^(?:https?:\/\/|\/(?!\/))/.test(href)) return text;
     if (href.startsWith('/recipes/')) {
@@ -53,7 +64,13 @@ function parseIngredientHtml(str: string): string {
     }
     return `<a href="${href}" style="color: var(--accent-link);" class="hover:underline font-medium">${text}</a>`;
   });
-  return html;
+}
+
+// The amount is set in bold so it can be read at a glance from across the counter.
+function parseIngredientHtml(str: string): string {
+  const [quantity, rest] = splitLeadingQuantity(str);
+  const lead = quantity ? `<b class="qty">${escapeHtml(quantity)}</b>` : '';
+  return lead + linkify(escapeHtml(rest));
 }
 ---
 
@@ -64,21 +81,46 @@ function parseIngredientHtml(str: string): string {
 >
   <RecipeHeader {recipe} />
   <RecipeLearning {recipe} />
+  {
+    learning && (
+      <section class="learn-card" aria-labelledby="learn-title">
+        <h2 id="learn-title">What you'll learn</h2>
+        <p>
+          <strong>{learning.focus.replace(/^./, (c) => c.toUpperCase())}.</strong>{' '}
+          {learning.outcome}
+        </p>
+      </section>
+    )
+  }
   <nav class="recipe-toolbar" aria-label="Recipe navigation">
     <div class="jump-links">
       <a href="#ingredients">Ingredients</a><a href="#directions">Method</a>{
-        learning && <a href="#troubleshooting">Troubleshooting</a>
+        hasTips && <a href="#tips">Tips</a>
+      }
+    </div>
+    <div class="section-switch" role="group" aria-label="Show recipe section">
+      <button type="button" data-show="ingredients" aria-pressed="true">Ingredients</button>
+      <button type="button" data-show="steps" aria-pressed="false">Steps</button>
+      {
+        hasTips && (
+          <button type="button" data-show="tips" aria-pressed="false">
+            Tips
+          </button>
+        )
       }
     </div>
     <div class="recipe-actions">
-      <button id="print-recipe" hidden>Print</button><button
-        id="cook-mode-toggle"
-        hidden
-        aria-pressed="false">Cook mode</button
+      <button id="print-recipe" hidden>Print</button><button id="cook-mode-toggle" hidden
+        >Cook mode <span aria-hidden="true">→</span></button
       >
     </div>
   </nav>
-  <article class="recipe-body" data-recipe-slug={recipe.slug} data-url={canonicalUrl}>
+  <article
+    class="recipe-body"
+    data-recipe-slug={recipe.slug}
+    data-url={canonicalUrl}
+    data-section="ingredients"
+  >
     <aside class="ingredients-panel" aria-labelledby="ingredients">
       <h2 id="ingredients">Ingredients</h2>
       {
@@ -129,48 +171,68 @@ function parseIngredientHtml(str: string): string {
           </section>
         )
       }
-      <div class="cook-progress" hidden>
-        <p id="cook-progress" role="status" aria-live="polite"></p><button id="reset-progress"
-          >Reset checkmarks</button
-        ><p id="wake-status">Keep your recipe close as you cook.</p>
-      </div>
+      <button type="button" class="next-section" data-show="steps">
+        Next: the steps <span aria-hidden="true">→</span>
+      </button>
     </aside>
     <div class="recipe-main">
-      <div class="recipe-method prose-refined"><Content /></div>
-      {
-        learning && (
-          <>
+      <div class="recipe-steps">
+        <button type="button" class="cook-start" data-cook hidden>
+          Start cook mode <span aria-hidden="true">→</span>
+          <span class="cook-start-note">One big step at a time, screen stays on</span>
+        </button>
+        <div class="recipe-method prose-refined"><Content /></div>
+        {
+          learning && (
             <section id="checkpoints" class="prose-refined checkpoint-section">
               <h2>What to watch for</h2>
-              <p class="recipe-outcome">{learning.outcome}</p>
               {learning.checkpoints.map((checkpoint) => (
                 <div class="checkpoint" data-checkpoint-step={checkpoint.step}>
-                  <p class="eyebrow">Step {checkpoint.step} · Look for</p>
-                  <p>{checkpoint.cue}</p>
-                  <details>
-                    <summary>Why this matters</summary>
-                    <p>{checkpoint.why}</p>
-                  </details>
+                  <p class="callout-label">Perfect your technique</p>
+                  <p class="cue">
+                    <strong>Look for:</strong> {checkpoint.cue}
+                  </p>
+                  <p class="why">{checkpoint.why}</p>
                 </div>
               ))}
             </section>
-            <section id="troubleshooting" class="prose-refined troubleshooting">
-              <h2>Something not quite right?</h2>
-              {learning.troubleshooting.map((item) => (
-                <details>
-                  <summary>{item.problem}</summary>
-                  <p>
-                    <strong>Likely cause:</strong> {item.cause}
-                  </p>
-                  <p>
-                    <strong>What to do:</strong> {item.fix}
-                  </p>
-                </details>
-              ))}
-            </section>
-            {learning.substitutions?.length > 0 && (
-              <section class="prose-refined">
-                <h2>Substitutions & tradeoffs</h2>
+          )
+        }
+        {
+          recipe.data.source && (
+            <p class="attribution">
+              Recipe source:{' '}
+              {recipe.data.sourceUrl ? (
+                <a href={recipe.data.sourceUrl}>{recipe.data.source}</a>
+              ) : (
+                recipe.data.source
+              )}
+            </p>
+          )
+        }
+      </div>
+      {
+        hasTips && (
+          <div class="recipe-tips" id="tips">
+            {learning?.troubleshooting?.length > 0 && (
+              <section id="troubleshooting" class="prose-refined troubleshooting">
+                <h2>If it goes wrong</h2>
+                {learning.troubleshooting.map((item) => (
+                  <details>
+                    <summary>{item.problem}</summary>
+                    <p>
+                      <strong>Likely cause:</strong> {item.cause}
+                    </p>
+                    <p>
+                      <strong>What to do:</strong> {item.fix}
+                    </p>
+                  </details>
+                ))}
+              </section>
+            )}
+            {learning?.substitutions?.length > 0 && (
+              <section class="prose-refined tip-card">
+                <h2>Swaps</h2>
                 {learning.substitutions.map((item) => (
                   <div class="substitution">
                     <h3>
@@ -181,43 +243,25 @@ function parseIngredientHtml(str: string): string {
                 ))}
               </section>
             )}
-            <section class="prose-refined">
-              <>
-                <h2>Make ahead & store</h2>
+            {learning?.storage && (
+              <section class="prose-refined tip-card">
+                <h2>Make ahead and store</h2>
                 <p>{learning.storage}</p>
-              </>
-            </section>
-          </>
-        )
-      }
-      {
-        recipe.data.pairsWith?.length > 0 && (
-          <section class="prose-refined pairings">
-            <>
-              <h2>Build the meal</h2>
-              <ul>
-                {recipe.data.pairsWith
-                  .filter((slug) => recipeTitles.has(slug))
-                  .map((slug) => (
+              </section>
+            )}
+            {pairings.length > 0 && (
+              <section class="prose-refined pairings tip-card">
+                <h2>Build the meal</h2>
+                <ul>
+                  {pairings.map((slug) => (
                     <li>
                       <a href={`${BASE}recipes/${slug}`}>{recipeTitles.get(slug)}</a>
                     </li>
                   ))}
-              </ul>
-            </>
-          </section>
-        )
-      }
-      {
-        recipe.data.source && (
-          <p class="attribution">
-            Recipe source:{' '}
-            {recipe.data.sourceUrl ? (
-              <a href={recipe.data.sourceUrl}>{recipe.data.source}</a>
-            ) : (
-              recipe.data.source
+                </ul>
+              </section>
             )}
-          </p>
+          </div>
         )
       }
     </div>
@@ -376,7 +420,7 @@ function parseIngredientHtml(str: string): string {
     font-size: 0.85rem;
   }
   .troubleshooting {
-    margin-top: 3rem;
+    margin-top: 0;
   }
   .troubleshooting h2 {
     margin-top: 0.5rem;
@@ -401,62 +445,311 @@ function parseIngredientHtml(str: string): string {
     line-height: 1.7;
     margin-top: 2.5rem;
   }
-  .step-check {
+  .qty {
+    font-weight: 750;
+    color: var(--text-primary);
+  }
+  .learn-card {
+    margin: 1.4rem 0 0;
+    padding: 1.1rem 1.3rem;
+    border-radius: var(--radius);
+    background: var(--wash);
+  }
+  .learn-card h2 {
+    font:
+      650 1.25rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 0.4rem;
+  }
+  .learn-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .section-switch,
+  .next-section,
+  .cook-start {
     display: none;
   }
-  .cook-mode-active .step-check {
+  /* "Perfect your technique": the cue to look for, right under the step it belongs to. */
+  .checkpoint .callout-label {
     display: inline-block;
-    width: 22px;
-    height: 22px;
-    accent-color: var(--accent-gold);
-    margin: 0 0.7rem 0.4rem 0;
-    vertical-align: middle;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--accent-strong);
+    border-radius: var(--pill);
+    padding: 0.2rem 0.65rem;
+    margin: 0 0 0.6rem;
   }
-  .cook-mode-active .recipe-method ol > li {
-    font-size: 1.15rem;
-    line-height: 1.8;
-    padding-bottom: 1.5rem;
-  }
-  .cook-mode-active .ingredient-row {
+  .checkpoint .cue {
     font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 0.4rem;
   }
-  /* The step you're on gets the warm accent, so it's easy to find again after looking away. */
-  .cook-mode-active .recipe-method ol > li.current-step {
-    background: var(--apricot-wash);
-    border-radius: var(--radius-sm);
-    padding: 0.75rem 0.85rem 1rem 3.2rem;
-    border-bottom-color: transparent;
+  .checkpoint .why {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
   }
-  .cook-mode-active .recipe-method ol > li.current-step::before {
-    left: 0.8rem;
-    top: 0.95rem;
+  .recipe-tips {
+    margin-top: 3rem;
+    display: grid;
+    gap: 1.2rem;
+  }
+  .recipe-tips h2 {
+    font:
+      650 1.5rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 0.6rem;
+  }
+  .tip-card {
+    padding: 1.1rem 1.3rem;
+    border-radius: var(--radius);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+  }
+  .tip-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.2rem;
+  }
+  .tip-card p {
+    margin: 0;
+  }
+  .recipe-actions #cook-mode-toggle {
+    min-height: 48px;
+    font-size: 0.95rem;
+  }
+
+  /* Cook mode: one big step at a time, with the ingredients a tap away. */
+  .cook-dialog {
+    width: 100%;
+    max-width: 760px;
+    height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+  }
+  .cook-dialog::backdrop {
+    background: rgba(20, 35, 44, 0.6);
+  }
+  .cook-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .cook-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem 1rem;
+    background: var(--accent);
+    color: #fff;
+  }
+  .cook-title {
+    font:
+      650 1.05rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0;
+  }
+  .cook-awake {
+    font-size: 0.78rem;
+    margin: 0.15rem 0 0;
+    color: #e6eef1;
+  }
+  .cook-head-actions {
+    display: flex;
+    gap: 0.4rem;
+    flex: none;
+  }
+  .cook-head button {
+    min-height: 44px;
+    padding: 0.4rem 0.9rem;
+    border-radius: var(--pill);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.88rem;
+  }
+  .cook-head .cook-ings[aria-expanded='true'] {
+    background: #fff;
+    color: var(--text-primary);
+  }
+  .cook-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.4rem 1.2rem 2rem;
+  }
+  .cook-count {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 0.85rem;
     background: var(--apricot);
     color: var(--on-apricot);
+    border-radius: var(--pill);
+    padding: 0.25rem 0.8rem;
+    margin: 0 0 1rem;
   }
-  .cook-mode-active .recipe-method ol > li.completed-step {
-    opacity: 0.6;
-  }
-  .cook-mode-active .completed-step > .step-copy {
-    text-decoration: line-through;
+  .cook-scaled {
+    font-size: 0.85rem;
     color: var(--text-secondary);
+    margin: 0 0 0.8rem;
   }
-  .cook-progress {
-    margin-top: 1.5rem;
-    font-size: 0.8rem;
+  .cook-text .step-copy {
+    font-size: 1.45rem;
+    line-height: 1.55;
   }
-  #reset-progress {
-    color: var(--accent-gold);
-    text-decoration: underline;
-    padding: 0.75rem 0;
+  .cook-text .step-copy p {
+    margin: 0 0 0.8rem;
   }
-  #wake-status {
-    font-size: 0.7rem;
-    color: var(--text-secondary);
+  .cook-text .checkpoint {
+    margin-top: 1.4rem;
+  }
+  .cook-ing-panel {
+    margin-bottom: 1.4rem;
+    padding: 1rem 1.1rem;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius);
+  }
+  .cook-ing-h {
+    font-weight: 800;
+    margin: 0 0 0.4rem;
+  }
+  .cook-ing-panel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .cook-ing-panel li {
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 1.05rem;
+  }
+  .cook-ing-panel li.divider {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-strong);
+    border: 0;
+    padding-top: 0.9rem;
+  }
+  .cook-foot {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 0.6rem;
+    padding: 0.8rem 1rem calc(0.8rem + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+  }
+  .cook-foot button {
+    min-height: 56px;
+    border-radius: var(--pill);
+    font-weight: 800;
+    font-size: 1.05rem;
+    border: 2px solid var(--accent-strong);
+    color: var(--accent-strong);
+  }
+  .cook-foot .cook-next {
+    background: var(--accent-strong);
+    color: #fff;
+  }
+  .cook-foot button:disabled {
+    opacity: 0.35;
   }
   @media (max-width: 760px) {
     .recipe-body {
       grid-template-columns: 1fr;
       gap: 2rem;
+    }
+    /* On a phone the recipe is three short sections, not one long scroll. */
+    .jump-links {
+      display: none !important;
+    }
+    .section-switch {
+      display: flex;
+      flex: 1;
+      gap: 0.3rem;
+      background: var(--bg-elevated);
+      border-radius: var(--pill);
+      padding: 0.25rem;
+    }
+    .section-switch button {
+      flex: 1;
+      min-height: 44px;
+      border-radius: var(--pill);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+    }
+    .section-switch button[aria-pressed='true'] {
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      box-shadow: 0 1px 4px rgba(31, 52, 64, 0.15);
+    }
+    /* Only the section switch stays pinned on a phone; cook mode starts from the Steps section. */
+    .recipe-actions {
+      display: none;
+    }
+    .recipe-toolbar {
+      padding: 0.5rem 0;
+      margin: 1.2rem 0 1.4rem;
+    }
+    .cook-start:not([hidden]) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 0 0 1.4rem;
+      padding: 0.8rem 1rem;
+      border-radius: var(--radius);
+      background: var(--accent-strong);
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.1rem;
+    }
+    .cook-start-note {
+      font-weight: 500;
+      font-size: 0.82rem;
+      color: #e6eef1;
+    }
+    .next-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.4rem;
+      width: 100%;
+      min-height: 48px;
+      margin-top: 1.4rem;
+      border-radius: var(--pill);
+      border: 2px solid var(--accent-strong);
+      color: var(--accent-strong);
+      font-weight: 800;
+    }
+    .recipe-body[data-section='ingredients'] .recipe-main,
+    .recipe-body[data-section='steps'] .ingredients-panel,
+    .recipe-body[data-section='steps'] .recipe-tips,
+    .recipe-body[data-section='tips'] .ingredients-panel,
+    .recipe-body[data-section='tips'] .recipe-steps {
+      display: none;
+    }
+    .recipe-body[data-section='tips'] .recipe-tips {
+      margin-top: 0;
+    }
+    .cook-text .step-copy {
+      font-size: 1.3rem;
     }
     .recipe-toolbar {
       top: 64px;
@@ -474,6 +767,13 @@ function parseIngredientHtml(str: string): string {
     }
   }
   @media print {
+    .recipe-body .recipe-main,
+    .recipe-body .ingredients-panel,
+    .recipe-body .recipe-tips,
+    .recipe-body .recipe-steps {
+      display: block !important;
+    }
+    .next-section,
     .recipe-toolbar,
     .step-check,
     .cook-progress,
@@ -495,8 +795,7 @@ function parseIngredientHtml(str: string): string {
     .ingredient-row input {
       display: none;
     }
-    .ingredient-row:has(input:checked) [data-ingredient-text],
-    .completed-step > .step-copy {
+    .ingredient-row:has(input:checked) [data-ingredient-text] {
       text-decoration: none !important;
       color: black !important;
     }

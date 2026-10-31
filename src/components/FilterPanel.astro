@@ -52,7 +52,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
         class="text-xs font-semibold uppercase tracking-wide"
         style="color: var(--text-tertiary);"
       >
-        Filters & Sort
+        Narrow it down
       </h3>
       <button
         id="resetFilters"
@@ -66,7 +66,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
     </div>
 
     <!-- Filter Controls Grid -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-9 gap-3">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
       <!-- Difficulty Filter -->
       <div class="flex flex-col gap-1.5">
         <label
@@ -190,20 +190,6 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
           {uniqueFilters.flavorProfiles.map((f) => <option value={f}>{formatLabel(f)}</option>)}
         </select>
       </div>
-
-      <!-- Sort By -->
-      <div class="flex flex-col gap-1.5">
-        <label
-          for="sortBy"
-          class="text-2xs font-medium uppercase tracking-wide"
-          style="color: var(--text-tertiary);">Sort By</label
-        >
-        <select id="sortBy" class="filter-select text-xs rounded-lg px-2.5 py-2 transition-all">
-          <option value="title">Alphabetical</option>
-          <option value="prepTime">Prep Time</option>
-          <option value="difficulty">Difficulty</option>
-        </select>
-      </div>
     </div>
   </div>
 </div>
@@ -236,7 +222,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
     cookingMethod: '',
     occasion: '',
     flavor: '',
-    sortMode: 'title',
+    sortMode: 'pick',
   };
 
   window.updateFilterState = function () {
@@ -248,7 +234,7 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
     window.filterState.cookingMethod = document.getElementById('filterCookingMethod').value;
     window.filterState.occasion = document.getElementById('filterOccasion').value;
     window.filterState.flavor = document.getElementById('filterFlavor').value;
-    window.filterState.sortMode = document.getElementById('sortBy').value;
+    window.filterState.sortMode = document.getElementById('sortBy')?.value || 'pick';
   };
 
   // Handler for filter/sort changes
@@ -267,7 +253,8 @@ const formatLabel = (val: string) => val.charAt(0).toUpperCase() + val.slice(1).
     document.getElementById('filterCookingMethod').value = '';
     document.getElementById('filterOccasion').value = '';
     document.getElementById('filterFlavor').value = '';
-    document.getElementById('sortBy').value = 'title';
+    const sort = document.getElementById('sortBy');
+    if (sort) sort.value = 'pick';
     handleFilterChange();
   };
 

@@ -1,9 +1,5 @@
 const article = document.querySelector<HTMLElement>('[data-recipe-slug]');
 const toggle = document.getElementById('cook-mode-toggle');
-const progress = document.getElementById('cook-progress');
-let active = false;
-let wakeLock: WakeLockSentinel | null = null;
-let wakeRequest = false;
 const directionHeading = document.querySelector('.recipe-method #directions');
 const steps: HTMLLIElement[] = [];
 let sibling = directionHeading?.nextElementSibling;
@@ -12,6 +8,7 @@ while (sibling && sibling.tagName !== 'H2') {
     steps.push(...sibling.querySelectorAll<HTMLLIElement>(':scope > li'));
   sibling = sibling.nextElementSibling;
 }
+
 // Version the local checklist by method text, so an edited recipe doesn't inherit stale steps.
 const signature = [...steps, ...document.querySelectorAll('[data-ingredient-text]')]
   .map((element) => element.textContent)
@@ -26,113 +23,238 @@ try {
 } catch {
   /* Storage is optional. */
 }
+function save() {
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(saved));
+  } catch {
+    /* The checklist still works in memory. */
+  }
+}
+
+// Each step keeps its own "Perfect your technique" callout right under it.
 steps.forEach((step, index) => {
   const copy = document.createElement('div');
   copy.className = 'step-copy';
   while (step.firstChild) copy.appendChild(step.firstChild);
-  const checkbox = document.createElement('input');
-  checkbox.type = 'checkbox';
-  checkbox.className = 'step-check';
-  checkbox.setAttribute('aria-label', `Mark step ${index + 1} complete`);
-  checkbox.dataset.stepCheck = String(index);
-  step.append(checkbox, copy);
+  step.append(copy);
   document
     .querySelectorAll<HTMLElement>(`[data-checkpoint-step="${index + 1}"]`)
     .forEach((checkpoint) => step.append(checkpoint));
 });
 const checkpointSection = document.getElementById('checkpoints');
-const outcome = checkpointSection?.querySelector('.recipe-outcome');
-if (directionHeading && outcome) directionHeading.insertAdjacentElement('afterend', outcome);
-if (checkpointSection && !checkpointSection.querySelector('.checkpoint, .recipe-outcome'))
+if (checkpointSection && !checkpointSection.querySelector('.checkpoint'))
   checkpointSection.hidden = true;
-const checkboxes = Array.from(
-  document.querySelectorAll<HTMLInputElement>('[data-step-check], [data-ingredient-check]')
-);
-function updateProgress() {
-  const complete = checkboxes.filter((c) => c.dataset.stepCheck !== undefined && c.checked).length;
-  if (progress) progress.textContent = `${complete} of ${steps.length} steps complete`;
-  checkboxes.forEach((c) => {
-    if (c.dataset.stepCheck !== undefined)
-      c.closest('li')?.classList.toggle('completed-step', c.checked);
-  });
-  // Mark the first unfinished step so cook mode can highlight where you are.
-  const current = steps.find((step) => !step.classList.contains('completed-step'));
-  steps.forEach((step) => step.classList.toggle('current-step', step === current));
-}
-checkboxes.forEach((c) => {
-  const key =
-    c.dataset.stepCheck !== undefined
-      ? `step-${c.dataset.stepCheck}`
-      : `ingredient-${c.dataset.ingredientCheck}`;
+
+document.querySelectorAll<HTMLInputElement>('[data-ingredient-check]').forEach((c) => {
+  const key = `ingredient-${c.dataset.ingredientCheck}`;
   c.checked = saved[key] === true;
   c.addEventListener('change', () => {
     saved[key] = c.checked;
-    try {
-      localStorage.setItem(storageKey, JSON.stringify(saved));
-    } catch {
-      /* Checklist still works in memory. */
-    }
-    updateProgress();
+    save();
   });
 });
-updateProgress();
-function setWakeMessage(message: string) {
-  const el = document.getElementById('wake-status');
-  if (el) el.textContent = message;
-}
-async function requestWakeLock() {
-  if (!active || document.visibilityState !== 'visible' || wakeLock || wakeRequest) return;
-  if (!('wakeLock' in navigator)) {
-    setWakeMessage('Screen wake lock is unavailable. Your device may dim.');
-    return;
-  }
-  wakeRequest = true;
-  try {
-    const lock = await navigator.wakeLock.request('screen');
-    if (!active || document.visibilityState !== 'visible') {
-      await lock.release();
-      return;
-    }
-    wakeLock = lock;
-    setWakeMessage('Keeping your screen awake while cook mode is open.');
-    lock.addEventListener('release', () => {
-      if (wakeLock === lock) wakeLock = null;
-      if (active) setWakeMessage('Screen wake lock released. Your device may dim.');
-    });
-  } catch {
-    setWakeMessage('Screen wake lock is unavailable. Your device may dim.');
-  } finally {
-    wakeRequest = false;
+
+// ---------- Ingredients / Steps / Tips on a phone ----------
+const phone = window.matchMedia('(max-width: 760px)');
+function showSection(name: string, scroll: boolean) {
+  if (!article) return;
+  article.dataset.section = name;
+  document
+    .querySelectorAll<HTMLButtonElement>('.section-switch [data-show]')
+    .forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.show === name)));
+  if (scroll && phone.matches) {
+    const bar = document.querySelector('.recipe-toolbar');
+    const top = article.getBoundingClientRect().top + window.scrollY;
+    const offset = (bar?.getBoundingClientRect().height || 0) + 72;
+    window.scrollTo({ top: top - offset, behavior: 'auto' });
   }
 }
-function toggleCookMode() {
-  active = !active;
-  article?.classList.toggle('cook-mode-active', active);
-  toggle?.setAttribute('aria-pressed', String(active));
-  if (toggle) toggle.textContent = active ? 'Exit cook mode' : 'Cook mode';
-  document.querySelector<HTMLElement>('.cook-progress')?.toggleAttribute('hidden', !active);
-  if (active) void requestWakeLock();
-  else {
+document.addEventListener('click', (event) => {
+  const button = (event.target as HTMLElement).closest<HTMLElement>('[data-show]');
+  if (button) showSection(button.dataset.show!, true);
+});
+// A link to #tips or #directions opens the matching section first.
+function sectionForHash() {
+  const id = location.hash.slice(1);
+  if (!id) return;
+  const target = document.getElementById(id);
+  if (!target) return;
+  if (target.closest('.recipe-tips')) showSection('tips', false);
+  else if (target.closest('.recipe-steps')) showSection('steps', false);
+  else if (target.closest('.ingredients-panel')) showSection('ingredients', false);
+}
+window.addEventListener('hashchange', sectionForHash);
+sectionForHash();
+
+// ---------- Cook mode: one big step at a time ----------
+let wakeLock: WakeLockSentinel | null = null;
+let dialog: HTMLDialogElement | null = null;
+let index = 0;
+let factor = 1;
+let opener: HTMLElement | null = null;
+document.addEventListener('mise:scaled', (event) => {
+  factor = (event as CustomEvent).detail?.factor || 1;
+});
+
+async function keepAwake(on: boolean) {
+  const note = dialog?.querySelector('.cook-awake');
+  if (!on) {
     void wakeLock?.release();
     wakeLock = null;
+    return;
   }
-}
-if (toggle && steps.length) {
-  toggle.hidden = false;
-  toggle.addEventListener('click', toggleCookMode);
-}
-document.getElementById('reset-progress')?.addEventListener('click', () => {
-  saved = {};
-  checkboxes.forEach((c) => {
-    c.checked = false;
-  });
+  if (!('wakeLock' in navigator)) {
+    if (note) note.textContent = 'Your screen may dim. Tap it now and then.';
+    return;
+  }
   try {
-    localStorage.removeItem(storageKey);
+    wakeLock = await navigator.wakeLock.request('screen');
+    if (note) note.textContent = 'Your screen stays on while you cook.';
   } catch {
-    /* Optional storage. */
+    if (note) note.textContent = 'Your screen may dim. Tap it now and then.';
   }
-  updateProgress();
+}
+
+function buildDialog() {
+  const title = document.querySelector('h1')?.textContent?.trim() || 'Recipe';
+  const d = document.createElement('dialog');
+  d.className = 'cook-dialog';
+  d.setAttribute('aria-label', `Cook mode: ${title}`);
+  d.innerHTML = `
+    <div class="cook-inner">
+      <header class="cook-head">
+        <div><p class="cook-title"></p><p class="cook-awake"></p></div>
+        <div class="cook-head-actions">
+          <button type="button" class="cook-ings" aria-expanded="false">Ingredients</button>
+          <button type="button" class="cook-close">Close</button>
+        </div>
+      </header>
+      <div class="cook-body">
+        <div class="cook-ing-panel" hidden><p class="cook-ing-h">Ingredients</p><ul></ul></div>
+        <div class="cook-step" aria-live="polite" aria-atomic="true">
+          <p class="cook-count"></p>
+          <p class="cook-scaled" hidden></p>
+          <div class="cook-text"></div>
+        </div>
+      </div>
+      <footer class="cook-foot">
+        <button type="button" class="cook-prev">Back</button>
+        <button type="button" class="cook-next">Next step</button>
+      </footer>
+    </div>`;
+  d.querySelector('.cook-title')!.textContent = title;
+  document.body.appendChild(d);
+  d.querySelector('.cook-close')!.addEventListener('click', closeCook);
+  d.querySelector('.cook-prev')!.addEventListener('click', () => {
+    if (index > 0) {
+      index--;
+      draw();
+    }
+  });
+  d.querySelector('.cook-next')!.addEventListener('click', () => {
+    saved[`step-${index}`] = true;
+    save();
+    if (index < steps.length - 1) {
+      index++;
+      draw();
+    } else {
+      steps.forEach((_, i) => delete saved[`step-${i}`]);
+      save();
+      closeCook();
+    }
+  });
+  d.querySelector('.cook-ings')!.addEventListener('click', (event) => {
+    const button = event.currentTarget as HTMLButtonElement;
+    const panel = d.querySelector<HTMLElement>('.cook-ing-panel')!;
+    const open = panel.hidden;
+    if (open) {
+      const list = panel.querySelector('ul')!;
+      list.innerHTML = '';
+      document.querySelectorAll<HTMLElement>('.ingredient-list > li').forEach((li) => {
+        const item = document.createElement('li');
+        const label = li.querySelector('[data-ingredient-text]');
+        if (label) item.innerHTML = label.innerHTML;
+        else {
+          item.className = 'divider';
+          item.textContent = li.textContent?.trim() || '';
+        }
+        item.querySelectorAll('a').forEach((a) => a.replaceWith(a.textContent || ''));
+        list.appendChild(item);
+      });
+    }
+    panel.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+    button.textContent = open ? 'Back to step' : 'Ingredients';
+    d.querySelector('.cook-body')!.scrollTop = 0;
+  });
+  d.addEventListener('cancel', (event) => {
+    event.preventDefault();
+    closeCook();
+  });
+  d.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowRight') d.querySelector<HTMLButtonElement>('.cook-next')!.click();
+    if (event.key === 'ArrowLeft') d.querySelector<HTMLButtonElement>('.cook-prev')!.click();
+  });
+  return d;
+}
+
+function draw() {
+  if (!dialog) return;
+  const step = steps[index];
+  dialog.querySelector('.cook-count')!.textContent = `Step ${index + 1} of ${steps.length}`;
+  const text = dialog.querySelector('.cook-text')!;
+  text.innerHTML = '';
+  const copy = step.querySelector('.step-copy')?.cloneNode(true);
+  if (copy) text.appendChild(copy);
+  step.querySelectorAll('.checkpoint').forEach((c) => text.appendChild(c.cloneNode(true)));
+  const scaled = dialog.querySelector<HTMLElement>('.cook-scaled')!;
+  scaled.hidden = factor === 1;
+  scaled.textContent = `You scaled the ingredients to ${factor}×. Amounts written in the steps are for the original recipe.`;
+  dialog.querySelector<HTMLButtonElement>('.cook-prev')!.disabled = index === 0;
+  dialog.querySelector('.cook-next')!.textContent =
+    index === steps.length - 1 ? 'Done' : 'Next step';
+  dialog.querySelector('.cook-body')!.scrollTop = 0;
+}
+
+function openCook() {
+  if (!steps.length) return;
+  dialog ||= buildDialog();
+  // Pick up where you left off.
+  const resume = steps.findIndex((_, i) => !saved[`step-${i}`]);
+  index = resume === -1 ? 0 : resume;
+  const panel = dialog.querySelector<HTMLElement>('.cook-ing-panel')!;
+  panel.hidden = true;
+  const ings = dialog.querySelector('.cook-ings')!;
+  ings.setAttribute('aria-expanded', 'false');
+  ings.textContent = 'Ingredients';
+  dialog.showModal();
+  document.documentElement.style.overflow = 'hidden';
+  draw();
+  void keepAwake(true);
+  dialog.querySelector<HTMLButtonElement>('.cook-next')!.focus();
+}
+
+function closeCook() {
+  dialog?.close();
+  document.documentElement.style.overflow = '';
+  void keepAwake(false);
+  (opener || toggle)?.focus();
+}
+
+if (steps.length && 'HTMLDialogElement' in window) {
+  [toggle, ...document.querySelectorAll<HTMLElement>('[data-cook]')].forEach((button) => {
+    if (!button) return;
+    button.hidden = false;
+    button.addEventListener('click', () => {
+      opener = button;
+      openCook();
+    });
+  });
+}
+document.addEventListener('visibilitychange', () => {
+  if (dialog?.open && document.visibilityState === 'visible') void keepAwake(true);
 });
+
 const printButton = document.getElementById('print-recipe');
 if (printButton) {
   printButton.hidden = false;
@@ -144,7 +266,8 @@ document.addEventListener('keydown', (event) => {
     event.metaKey ||
     event.ctrlKey ||
     event.altKey ||
-    event.repeat
+    event.repeat ||
+    dialog?.open
   )
     return;
   if (
@@ -153,12 +276,5 @@ document.addEventListener('keydown', (event) => {
     )
   )
     return;
-  if (steps.length) toggleCookMode();
-});
-document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible') void requestWakeLock();
-  else {
-    void wakeLock?.release();
-    wakeLock = null;
-  }
+  if (steps.length && toggle && !toggle.hidden) openCook();
 });

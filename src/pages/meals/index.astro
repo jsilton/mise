@@ -1,218 +1,461 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import DishArt from '../../components/DishArt.astro';
 import { getCollection } from 'astro:content';
+import { timeBand } from '../../lib/time-band.mjs';
 
 const meals = await getCollection('meals');
 const recipes = await getCollection('recipes');
 const recipeMap = new Map(recipes.map((r) => [r.slug, r]));
+const BASE = import.meta.env.BASE_URL;
 
 meals.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
-// Group by template
-const mealsByTemplate = meals.reduce(
-  (acc, meal) => {
-    const template = meal.data.template || 'other';
-    if (!acc[template]) acc[template] = [];
-    acc[template].push(meal);
-    return acc;
-  },
-  {} as Record<string, typeof meals>
-);
-
-const templateLabels: Record<string, string> = {
+const TYPES: Record<string, string> = {
   plate: 'Plates',
   bowl: 'Bowls',
-  'pasta-night': 'Pasta Nights',
-  'soup-and-side': 'Soup & Sides',
-  'one-pot': 'One-Pot Meals',
-  grazing: 'Grazing & Feasts',
-  other: 'Other',
+  'pasta-night': 'Pasta nights',
+  'soup-and-side': 'Soup and a side',
+  'one-pot': 'One pot',
+  grazing: 'Grazing',
 };
 
-const templateDescriptions: Record<string, string> = {
-  plate: 'Classic protein + sides combinations',
-  bowl: 'Everything-in-one-bowl meals',
-  'pasta-night': 'Italian-inspired pasta dinners',
-  'soup-and-side': 'Warming soup with accompaniments',
-  'one-pot': 'Simple meals, minimal cleanup',
-  grazing: 'Spread-style meals for sharing',
-  other: 'Unique meal combinations',
-};
-
-const templateIcons: Record<string, string> = {
-  plate: '🍽️',
-  bowl: '🥣',
-  'pasta-night': '🍝',
-  'soup-and-side': '🍲',
-  'one-pot': '🥘',
-  grazing: '🧀',
-  other: '🍴',
-};
-
-const templateOrder = [
-  'plate',
-  'bowl',
-  'pasta-night',
-  'soup-and-side',
-  'one-pot',
-  'grazing',
-  'other',
+// Quick picks for planning a meal. They combine.
+const has = (list: string[] | undefined, ...keys: string[]) =>
+  keys.some((k) => (list || []).includes(k));
+const PICKS = [
+  {
+    key: 'under60',
+    label: 'Under an hour',
+    test: (m: (typeof meals)[number]) => {
+      const t = timeBand(m.data.totalTime).minutes;
+      return t > 0 && t <= 60;
+    },
+  },
+  {
+    key: 'weeknight',
+    label: 'Weeknight',
+    test: (m: (typeof meals)[number]) => has(m.data.occasions, 'weeknight'),
+  },
+  {
+    key: 'family',
+    label: 'Family dinner',
+    test: (m: (typeof meals)[number]) =>
+      has(m.data.occasions, 'family', 'family-meal', 'kids-approved', 'sunday-dinner'),
+  },
+  {
+    key: 'company',
+    label: 'Having people over',
+    test: (m: (typeof meals)[number]) =>
+      has(
+        m.data.occasions,
+        'entertaining',
+        'date-night',
+        'game-day',
+        'potluck',
+        'special-occasion'
+      ),
+  },
+  {
+    key: 'comfort',
+    label: 'Comfort',
+    test: (m: (typeof meals)[number]) => has(m.data.occasions, 'comfort-food', 'comfort'),
+  },
+  {
+    key: 'light',
+    label: 'Light & fresh',
+    test: (m: (typeof meals)[number]) =>
+      has(m.data.occasions, 'light-and-fresh') || m.data.nutritionalDensity === 'light',
+  },
 ];
 
-function getRecipeTitle(slug: string): string {
-  const recipe = recipeMap.get(slug);
-  return recipe?.data.title || slug;
-}
+const title = (slug?: string) => (slug ? recipeMap.get(slug)?.data.title : undefined);
+const cards = meals.map((meal) => {
+  const d = meal.data;
+  const parts = [
+    ...(d.base ? [d.base] : []),
+    ...(d.sides || []),
+    ...(d.salad ? [d.salad] : []),
+    ...(d.sauce ? [d.sauce] : []),
+  ]
+    .map(title)
+    .filter(Boolean) as string[];
+  const art = [d.main, d.base, ...(d.sides || []), d.salad].find(Boolean);
+  const time = timeBand(d.totalTime);
+  return {
+    meal,
+    main: title(d.main),
+    parts,
+    dessert: title(d.dessert),
+    art,
+    time,
+    picks: PICKS.filter((p) => p.test(meal)).map((p) => p.key),
+  };
+});
+const pickCounts = Object.fromEntries(
+  PICKS.map((p) => [p.key, cards.filter((c) => c.picks.includes(p.key)).length])
+);
+const typeCounts = Object.fromEntries(
+  Object.keys(TYPES).map((k) => [k, meals.filter((m) => m.data.template === k).length])
+);
 ---
 
-<Layout title="Meals | Mise">
-  <div class="max-w-3xl mx-auto">
-    {/* Page Header */}
-    <header class="mb-12">
-      <h1
-        class="font-display text-3xl font-bold tracking-tight mb-2"
-        style="color: var(--text-primary);"
-      >
-        Meal Compositions
-      </h1>
-      <p class="text-base" style="color: var(--text-secondary);">
-        Complete meals combining recipes for balanced, delicious dining.
-        <span style="color: var(--text-tertiary);" class="ml-1"
-          >{meals.length} meals available.</span
-        >
-      </p>
-    </header>
+<Layout
+  title="Meals | Mise"
+  description="Whole dinners from the Mise recipe box, planned so every part lands on the table together."
+>
+  <section class="meals-hero" aria-labelledby="meals-title">
+    <p class="eyebrow">Whole dinners · {meals.length} meals</p>
+    <h1 id="meals-title">What's for <em>dinner</em>?</h1>
+    <p class="lede">A main and its sides, with one plan so everything is ready at once.</p>
+    <ul class="chips" role="list" aria-label="Quick picks, choose any">
+      {
+        PICKS.map((p) => (
+          <li>
+            <button type="button" class="chip" data-pick={p.key} aria-pressed="false">
+              <span class="lbl">{p.label}</span>
+              <span class="n">{pickCounts[p.key]}</span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 
-    {/* Template Sections */}
-    {
-      templateOrder
-        .filter((t) => mealsByTemplate[t]?.length)
-        .map((template) => (
-          <section class="mb-12">
-            {/* Section Header */}
-            <div
-              class="flex items-center gap-3 mb-5 pb-3"
-              style={`border-bottom: 1px solid var(--border-subtle);`}
-            >
-              <span class="text-xl">{templateIcons[template]}</span>
-              <div>
-                <h2 class="text-lg font-semibold" style="color: var(--text-primary);">
-                  {templateLabels[template]}
-                </h2>
-                <p class="text-sm" style="color: var(--text-tertiary);">
-                  {templateDescriptions[template]}
+  <section class="types-row" aria-labelledby="types-title">
+    <h2 class="sec-h" id="types-title">Kind of meal</h2>
+    <ul class="types" role="list">
+      {
+        Object.entries(TYPES)
+          .filter(([k]) => typeCounts[k])
+          .map(([k, label]) => (
+            <li>
+              <button type="button" data-type={k} aria-pressed="false">
+                <span class="lbl">{label}</span>
+                <span class="n">{typeCounts[k]}</span>
+              </button>
+            </li>
+          ))
+      }
+    </ul>
+  </section>
+
+  <section class="meal-list" aria-labelledby="meal-count">
+    <h2 class="count" id="meal-count" aria-live="polite">All {meals.length} meals</h2>
+    <ul class="meal-grid" role="list">
+      {
+        cards.map((c) => (
+          <li data-picks={c.picks.join(',')} data-type={c.meal.data.template || ''}>
+            <a class="meal-card" href={`${BASE}meals/${c.meal.slug}`}>
+              {c.art && <DishArt slug={c.art} />}
+              <div class="meal-body">
+                <p class="meal-kind">{TYPES[c.meal.data.template || ''] || 'Meal'}</p>
+                <h3>{c.meal.data.title}</h3>
+                <p class="meal-parts">
+                  {c.main && <span class="main">{c.main}</span>}
+                  {c.parts.length > 0 && <span> with {c.parts.join(', ')}</span>}
+                  {c.dessert && <span>; {c.dessert} to finish</span>}
+                </p>
+                <p class="meal-meta">
+                  {c.time.minutes > 0 && (
+                    <span class="time-chip" data-band={c.time.band}>
+                      {c.time.short}
+                    </span>
+                  )}
+                  {c.meal.data.servings && (
+                    <span data-meal-servings>Serves {c.meal.data.servings}</span>
+                  )}
                 </p>
               </div>
-            </div>
-
-            {/* Meal Cards */}
-            <div class="space-y-3">
-              {mealsByTemplate[template].map((meal) => (
-                <a
-                  href={`${import.meta.env.BASE_URL}meals/${meal.slug}`}
-                  class="meal-card block rounded-xl p-5 transition-all duration-200 group"
-                  style={`background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);`}
-                >
-                  <div class="flex items-start justify-between gap-4">
-                    <div class="flex-1 min-w-0">
-                      <h3
-                        class="meal-card-title font-semibold text-base transition-colors mb-2"
-                        style="color: var(--text-primary);"
-                      >
-                        {meal.data.title}
-                      </h3>
-
-                      {meal.data.servings && (
-                        <p
-                          class="text-sm mb-3"
-                          style="color: var(--text-secondary);"
-                          data-meal-servings
-                        >
-                          Serves {meal.data.servings}
-                        </p>
-                      )}
-
-                      {/* Recipe Components Preview */}
-                      <div class="flex flex-wrap gap-2 text-sm">
-                        {meal.data.main && (
-                          <span
-                            class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs"
-                            style={`background: var(--bg-hover); color: var(--text-secondary);`}
-                          >
-                            <span class="font-medium" style="color: var(--text-tertiary);">
-                              Main:
-                            </span>
-                            <span class="font-medium" style="color: var(--text-secondary);">
-                              {getRecipeTitle(meal.data.main)}
-                            </span>
-                          </span>
-                        )}
-                        {meal.data.sides && meal.data.sides.length > 0 && (
-                          <span
-                            class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium"
-                            style={`background: var(--bg-hover); color: var(--text-secondary);`}
-                          >
-                            +{meal.data.sides.length} side{meal.data.sides.length > 1 ? 's' : ''}
-                          </span>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Arrow */}
-                    <div class="flex-shrink-0 mt-1">
-                      <svg
-                        class="meal-card-arrow w-4 h-4 group-hover:translate-x-0.5 transition-all"
-                        style="color: var(--text-tertiary);"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9 5l7 7-7 7"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </section>
+            </a>
+          </li>
         ))
-    }
-
-    {/* Empty State */}
-    {
-      meals.length === 0 && (
-        <div class="text-center py-20">
-          <div
-            class="w-14 h-14 mx-auto mb-4 rounded-2xl flex items-center justify-center"
-            style="background: var(--bg-elevated);"
-          >
-            <span class="text-2xl">🍽️</span>
-          </div>
-          <p class="font-medium" style="color: var(--text-secondary);">
-            No meals created yet.
-          </p>
-          <p class="text-sm mt-1" style="color: var(--text-tertiary);">
-            Meal compositions will appear here.
-          </p>
-        </div>
-      )
-    }
-  </div>
+      }
+    </ul>
+    <p class="empty" hidden>
+      Nothing matches all of those. <button type="button" data-clear>Clear the picks</button>
+    </p>
+  </section>
 </Layout>
 
+<script>
+  const picks = new Set<string>();
+  let type = '';
+  const items = Array.from(document.querySelectorAll<HTMLElement>('.meal-grid > li'));
+  const count = document.getElementById('meal-count')!;
+  const empty = document.querySelector<HTMLElement>('.meal-list .empty')!;
+  function render() {
+    let n = 0;
+    items.forEach((li) => {
+      const mine = (li.dataset.picks || '').split(',');
+      const show = [...picks].every((p) => mine.includes(p)) && (!type || li.dataset.type === type);
+      li.hidden = !show;
+      if (show) n++;
+    });
+    count.textContent = n === items.length ? `All ${n} meals` : `${n} meal${n === 1 ? '' : 's'}`;
+    empty.hidden = n > 0;
+    document
+      .querySelectorAll<HTMLElement>('[data-pick]')
+      .forEach((b) => b.setAttribute('aria-pressed', String(picks.has(b.dataset.pick!))));
+    document
+      .querySelectorAll<HTMLElement>('button[data-type]')
+      .forEach((b) => b.setAttribute('aria-pressed', String(type === b.dataset.type)));
+  }
+  document.addEventListener('click', (event) => {
+    const t = event.target as HTMLElement;
+    const pick = t.closest<HTMLElement>('[data-pick]');
+    if (pick) {
+      const k = pick.dataset.pick!;
+      picks.has(k) ? picks.delete(k) : picks.add(k);
+      render();
+      return;
+    }
+    const tb = t.closest<HTMLElement>('button[data-type]');
+    if (tb) {
+      type = type === tb.dataset.type ? '' : tb.dataset.type!;
+      render();
+      return;
+    }
+    if (t.closest('[data-clear]')) {
+      picks.clear();
+      type = '';
+      render();
+    }
+  });
+</script>
+
 <style>
+  .meals-hero {
+    margin: -2.5rem 0 0;
+    padding: 2.4rem 0 2.2rem;
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 0 100vmax var(--accent);
+    clip-path: inset(0 -100vmax);
+    text-align: center;
+  }
+  .meals-hero .eyebrow {
+    color: #e6eef1;
+  }
+  h1 {
+    font:
+      650 clamp(2.4rem, 5.5vw, 4rem)/1.1 'Fraunces',
+      Georgia,
+      serif;
+    letter-spacing: -0.03em;
+    margin: 0.7rem 0 0.6rem;
+  }
+  h1 em {
+    color: var(--on-apricot);
+    background: var(--apricot);
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 0.14em;
+    border-radius: 0.14em;
+  }
+  .lede {
+    color: #f7f6f2;
+    max-width: 30rem;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1.3rem auto 0;
+    padding: 0;
+    list-style: none;
+    max-width: 760px;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 44px;
+    padding: 0.45rem 1rem;
+    border-radius: var(--pill);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+  .chip[aria-pressed='true'] {
+    background: #fff;
+    border-color: #fff;
+    color: var(--text-primary);
+  }
+  .chip[aria-pressed='true']::before {
+    content: '✓';
+  }
+  .meals-hero :focus-visible {
+    outline-color: #fff;
+  }
+  .n {
+    font-weight: 500;
+    opacity: 0.75;
+    font-size: 0.85em;
+  }
+  .sec-h {
+    font:
+      650 1.5rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 0.8rem;
+  }
+  .types-row {
+    padding-top: 2rem;
+  }
+  .types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .types button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 48px;
+    padding: 0.5rem 1.1rem;
+    border-radius: var(--pill);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+  .types button[aria-pressed='true'] {
+    background: var(--accent-strong);
+    border-color: var(--accent-strong);
+    color: #fff;
+  }
+  .meal-list {
+    padding-top: 2rem;
+  }
+  .count {
+    font:
+      650 1.5rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 1rem;
+  }
+  .meal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .meal-grid > li[hidden] {
+    display: none;
+  }
+  .meal-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
   .meal-card:hover {
-    border-color: var(--accent-gold) !important;
+    border-color: var(--accent-muted);
+    box-shadow: 0 6px 18px rgba(31, 52, 64, 0.08);
   }
-  .meal-card:hover .meal-card-title {
-    color: var(--accent-gold) !important;
+  .meal-card :global(.dish-art) {
+    background: var(--bg-elevated);
   }
-  .meal-card:hover .meal-card-arrow {
-    color: var(--accent-gold) !important;
+  .meal-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem 1.15rem 1.15rem;
+  }
+  .meal-kind {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin: 0 0 0.3rem;
+  }
+  .meal-card h3 {
+    font:
+      650 1.3rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 0.5rem;
+  }
+  .meal-parts {
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    margin: 0 0 0.9rem;
+  }
+  .meal-parts .main {
+    color: var(--text-primary);
+    font-weight: 700;
+  }
+  .meal-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    margin: auto 0 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+  }
+  .empty {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .empty[hidden] {
+    display: none;
+  }
+  .empty button {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  @media (max-width: 640px) {
+    .chips,
+    .types {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin-left: -1rem;
+      margin-right: -1rem;
+      padding: 0.2rem 1rem;
+    }
+    .chips::-webkit-scrollbar,
+    .types::-webkit-scrollbar {
+      display: none;
+    }
+    .chips li,
+    .types li {
+      flex: none;
+    }
+    .meal-card {
+      flex-direction: row;
+    }
+    .meal-card :global(.dish-art) {
+      flex: none;
+      width: 104px;
+      display: flex;
+      align-items: center;
+    }
+    .meal-card h3 {
+      font-size: 1.12rem;
+    }
+    .meal-parts {
+      font-size: 0.85rem;
+      margin-bottom: 0.6rem;
+    }
   }
 </style>
