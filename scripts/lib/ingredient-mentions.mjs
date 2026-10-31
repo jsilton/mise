@@ -151,7 +151,11 @@ export function stem(word) {
   if (word.length > 4 && word.endsWith('y')) return word.slice(0, -1);
   if (word.length > 4 && /(ches|shes|sses|xes|oes)$/.test(word)) return word.slice(0, -2);
   if (word.length > 3 && word.endsWith('s') && !word.endsWith('ss')) return word.slice(0, -1);
-  if (word.length > 5 && word.endsWith('ing')) return word.slice(0, -3);
+  if (word.length > 5 && word.endsWith('ing')) {
+    const base = word.slice(0, -3);
+    // "studding" → "stud", "chopping" → "chop": drop the doubled consonant a suffix adds.
+    return /([bdgmnprt])\1$/.test(base) ? base.slice(0, -1) : base;
+  }
   return word;
 }
 
