@@ -5,7 +5,8 @@
 import DishArt from './DishArt.astro';
 import TagBadge from './TagBadge.astro';
 import { getTechniquesForRecipe } from '../data/techniques';
-import { timeBand, formatMinutes } from '../lib/time-band.mjs';
+import { timeBand } from '../lib/time-band.mjs';
+import { quickPicksFor } from '../lib/quick-picks.mjs';
 
 interface Recipe {
   slug: string;
@@ -39,7 +40,7 @@ const lessons = getTechniquesForRecipe(recipe);
 
 // Extract primary dietary tag (prioritize vegetarian/vegan)
 const time = timeBand(recipe.data.totalTime);
-const timeText = time.minutes ? formatMinutes(time.minutes) : recipe.data.totalTime;
+const timeText = time.short || recipe.data.totalTime;
 
 const primaryDietaryTag =
   recipe.data.dietary?.find((d) => d === 'vegetarian' || d === 'vegan') || recipe.data.dietary?.[0];
@@ -58,11 +59,14 @@ const primaryDietaryTag =
   data-occasions={recipe.data.occasions?.join(',')}
   data-flavor-profile={recipe.data.flavorProfile?.join(',')}
   data-prep-time={recipe.data.prepTime}
+  data-minutes={time.minutes || undefined}
+  data-picks={quickPicksFor(recipe.data).join(',')}
+  data-title={recipe.data.title}
 >
   <DishArt slug={recipe.slug} />
-  <div class="p-4 flex flex-col h-full">
+  <div class="card-body p-4 flex flex-col h-full">
     <h2
-      class="text-xl font-display font-semibold mb-3 leading-snug tracking-tight transition-colors"
+      class="card-title text-xl font-display font-semibold mb-3 leading-snug tracking-tight transition-colors"
       style="color: var(--text-primary);"
     >
       {recipe.data.title}
@@ -112,12 +116,6 @@ const primaryDietaryTag =
       }
     </div>
   </div>
-
-  <!-- Hidden search data for filtering -->
-  <div class="hidden search-data">
-    {recipe.data.title.toLowerCase()}
-    {recipe.data.ingredients?.join(' ').toLowerCase()}
-  </div>
 </a>
 
 <style>
@@ -149,5 +147,35 @@ const primaryDietaryTag =
   }
   .recipe-card:hover h2 {
     color: var(--accent-gold) !important;
+  }
+  /* On a phone a card is a row: a small painting, the name, the tags and the time.
+     Twelve of them fit in a few thumb-scrolls instead of twelve screens. */
+  @media (max-width: 640px) {
+    .recipe-card {
+      flex-direction: row;
+      min-height: 0;
+    }
+    .recipe-card :global(.dish-art) {
+      flex: none;
+      width: 104px;
+      display: flex;
+      align-items: center;
+    }
+    .card-body {
+      padding: 0.85rem 1rem;
+      min-width: 0;
+    }
+    .card-title {
+      font-size: 1.12rem;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+    }
+    .card-description,
+    .card-lesson {
+      display: none;
+    }
+    .card-time {
+      padding-top: 0.2rem;
+    }
   }
 </style>

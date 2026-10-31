@@ -10,7 +10,8 @@ interface Props {
 const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
 const { data } = recipe;
 const time = timeBand(data.totalTime);
-const totalText = time.minutes ? formatMinutes(time.minutes) : data.totalTime;
+// A cook-written time keeps its own words ("plus cooling"); only the colour comes from the estimate.
+const totalText = time.exact ? formatMinutes(time.minutes) : data.totalTime;
 const splitTimes = [
   data.prepTime && `Prep ${data.prepTime}`,
   data.cookTime && `Cook ${data.cookTime}`,

@@ -6,7 +6,8 @@ import FilterPanel from '../components/FilterPanel.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import { getCollection } from 'astro:content';
 import { getTechniquesForRecipe } from '../data/techniques';
-import { timeBand, formatMinutes } from '../lib/time-band.mjs';
+import { timeBand } from '../lib/time-band.mjs';
+import { QUICK_PICKS, COURSES, countPicks } from '../lib/quick-picks.mjs';
 import type { RecipeSearchItem } from '../lib/fuzzySearch';
 
 const recipes = (await getCollection('recipes')).filter(
@@ -16,13 +17,34 @@ const BASE = import.meta.env.BASE_URL;
 const featuredSlugs = ['authentic-roman-alfredo', 'crispy-parmesan-roasted-broccoli', 'dal-tadka'];
 const featured = featuredSlugs.map((slug) => recipes.find((r) => r.slug === slug)).filter(Boolean);
 recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
+const { picks, courses, topCuisines } = countPicks(recipes);
 
-// Prepare search index data - convert recipes to searchable format
+// Search matches ingredient names, not amounts: "2 cups (250 g) flour, sifted" → "flour".
+const ingredientName = (line: string) =>
+  line
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/^[\d\s/.,½¼¾⅓⅔⅛-]+/, '')
+    .replace(
+      /^(cups?|tablespoons?|tbsp|teaspoons?|tsp|pounds?|lbs?|ounces?|oz|grams?|g|kg|ml|liters?|l|cloves?|pinch|dash|cans?|large|medium|small|whole|bunch)\b\.?\s*/g,
+      ''
+    )
+    .split(',')[0]
+    .replace(/\s+/g, ' ')
+    .trim();
+
 const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   slug: recipe.slug,
   title: recipe.data.title,
   cuisines: recipe.data.cuisines,
-  ingredients: recipe.data.ingredients,
+  ingredients: [
+    ...new Set(
+      (recipe.data.ingredients || [])
+        .filter((line) => !/^---/.test(line))
+        .map(ingredientName)
+        .filter(Boolean)
+    ),
+  ],
   flavorProfile: recipe.data.flavorProfile,
   cookingMethods: [
     ...(recipe.data.cookingMethods || []),
@@ -35,133 +57,138 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
 <Layout
   title="Mise | Cook with understanding"
-  description="A recipe collection and learning kitchen. Explore the science, recognize the cues, and understand what makes your cooking work."
+  description="The family recipe box. Find tonight's dinner by course, occasion, cuisine or time, then learn why it works."
 >
-  <section class="home-hero" aria-labelledby="home-title">
-    <div class="hero-copy">
-      <p class="eyebrow">A collection. A practice. A better cook.</p><h1 id="home-title">
-        Good food starts<br />with a recipe.<br /><em>Great cooking<br />starts with why.</em>
-      </h1><p class="hero-description">
-        Learn what the heat is doing. Know what to look for. Find the confidence to make a recipe
-        your own.
-      </p><div class="hero-actions">
-        <a class="primary-link" href="#collection"
-          >Find your next recipe <span aria-hidden="true">↓</span></a
-        ><a href={`${BASE}learn`}>Explore the learning kitchen ↗</a>
-      </div>
+  <section class="finder-hero" aria-labelledby="home-title">
+    <p class="eyebrow hero-eyebrow">The family recipe box · {recipes.length} recipes</p>
+    <h1 id="home-title">What are we <em>cooking</em>?</h1>
+    <div class="hero-search" role="search">
+      <SearchBar id="searchInput" placeholder="Dal, tacos, chicken, browning…" />
     </div>
-    <a
-      class="hero-study"
-      href={`${BASE}learn/emulsions`}
-      aria-label="Inside a silky sauce: explore the emulsion lesson"
-    >
-      <div class="study-header">
-        <span class="eyebrow">A closer look · 01</span><span class="study-arrow" aria-hidden="true"
-          >↗</span
-        >
-      </div>
-      <DishArt slug="authentic-roman-alfredo" eager />
-      <div class="study-caption">
-        <p class="eyebrow">Fat + water + movement</p><h2>Inside a silky sauce.</h2><p>
-          Butter and water want to separate.<br />Your technique brings them together.
-        </p><span class="study-foot">Understand emulsions <span aria-hidden="true">→</span></span>
-      </div>
-    </a>
+    <ul class="chips" role="list" aria-label="Quick picks, choose any">
+      {
+        QUICK_PICKS.map((p) => (
+          <li>
+            <button type="button" class="chip" data-pick={p.key} aria-pressed="false">
+              <span class="lbl">{p.label}</span>
+              <span class="n">{picks[p.key]}</span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+    <div class="hero-actions">
+      <a class="see-results" id="heroCount" href="#collection">
+        See all {recipes.length} recipes <span aria-hidden="true">↓</span>
+      </a>
+      <button type="button" class="surprise" data-surprise>Surprise me</button>
+    </div>
   </section>
+
+  <section class="browse" aria-labelledby="course-title">
+    <h2 class="sec-h" id="course-title">Pick a course</h2>
+    <ul class="courses" role="list" aria-label="Course">
+      {
+        COURSES.map((c) => (
+          <li>
+            <button type="button" data-course={c.key} aria-pressed="false">
+              <span class="lbl">{c.label}</span>
+              <span class="n">{courses[c.key]}</span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="legend">
+      <span class="legend-label">Total time</span>
+      <span class="time-chip" data-band="quick">30 min or less</span>
+      <span class="time-chip" data-band="hour">Up to an hour</span>
+      <span class="time-chip" data-band="long">Longer</span>
+    </p>
+  </section>
+
+  <section id="collection" class="collection" aria-labelledby="result-count">
+    <div class="list-head">
+      <h2 id="result-count" class="count" aria-live="polite">All {recipes.length} recipes</h2>
+      <label class="sort">
+        <span>Sort</span>
+        <select id="sortBy">
+          <option value="pick">Mixed</option>
+          <option value="time">Quickest first</option>
+          <option value="difficulty">Easiest first</option>
+          <option value="title">A to Z</option>
+        </select>
+      </label>
+    </div>
+    <div id="activeFilters" class="active-filters"></div>
+    <details class="more-filters">
+      <summary
+        >More filters <span class="hint">difficulty, cuisine, diet, method, flavor</span></summary
+      >
+      <FilterPanel {recipes} />
+    </details>
+
+    <div id="recipeGrid" class="recipe-grid">
+      {recipes.map((recipe) => <RecipeCard {recipe} />)}
+    </div>
+    <button type="button" id="showMore" class="show-more" hidden>Show more recipes</button>
+
+    <div id="noResults" class="no-results" hidden>
+      <h3>Nothing matches all of those.</h3>
+      <p>Try removing a filter, or search for one ingredient.</p>
+      <button id="clearSearch" type="button">Clear search and filters</button>
+    </div>
+  </section>
+
+  <section class="cuisine-band" aria-labelledby="cuisine-title">
+    <h2 class="sec-h" id="cuisine-title">Around the world</h2>
+    <ul class="cuisines" role="list" aria-label="Cuisine">
+      {
+        topCuisines.map(([name, n]) => (
+          <li>
+            <button type="button" data-cuisine={name} aria-pressed="false">
+              <span class="lbl">{name}</span>
+              <span class="n">{n}</span>
+            </button>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
   <section class="featured-section" aria-labelledby="featured-title">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">Cook something. Learn something.</p><h2 id="featured-title">
-          Three recipes, three useful lessons.
-        </h2>
-      </div><a href={`${BASE}learn`}>All lessons ↗</a>
-    </div><div class="featured-grid">
+        <p class="eyebrow">Cook something. Learn something.</p>
+        <h2 id="featured-title">Three recipes, three useful lessons.</h2>
+      </div>
+      <a href={`${BASE}learn`}>All lessons ↗</a>
+    </div>
+    <div class="featured-grid">
       {
-        featured.map((recipe, i) => (
+        featured.map((recipe) => (
           <a class="featured-recipe" href={`${BASE}recipes/${recipe.slug}`}>
-            <>
-              <>
-                <DishArt slug={recipe.slug} />
-                <span class="feature-number">0{i + 1}</span>
-              </>
+            <DishArt slug={recipe.slug} />
+            <div class="featured-body">
               <p class="eyebrow">{recipe.data.learning.focus}</p>
               <h3>{recipe.data.title}</h3>
               <p>{recipe.data.learning.outcome}</p>
               <span class="feature-meta">
                 <span class="time-chip" data-band={timeBand(recipe.data.totalTime).band}>
-                  {formatMinutes(timeBand(recipe.data.totalTime).minutes) || recipe.data.totalTime}
+                  {timeBand(recipe.data.totalTime).short || recipe.data.totalTime}
                 </span>
                 <span class="capitalize">{recipe.data.difficulty}</span>
-                <span aria-hidden="true">↗</span>
               </span>
-            </>
+            </div>
           </a>
         ))
       }
     </div>
   </section>
-  <section id="collection" aria-labelledby="collection-title">
-    <div class="collection-heading">
-      <div>
-        <p class="eyebrow">The recipe collection</p><h2 id="collection-title">
-          What will you cook next?
-        </h2><p>
-          {recipes.length} recipes to explore. Search an ingredient, a dish, or a technique.
-        </p>
-      </div><div class="collection-search">
-        <SearchBar id="searchInput" placeholder="Try chicken, lentils, or browning…" />
-      </div>
-    </div>
-    <!-- Filter and Sort UI -->
-    <FilterPanel {recipes} />
 
-    <p
-      id="result-count"
-      role="status"
-      aria-live="polite"
-      class="text-sm mb-4"
-      style="color:var(--text-secondary)"
-    >
-      {recipes.length} recipes
-    </p>
-    <!-- Recipe Grid -->
-    <div id="recipeGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {recipes.map((recipe) => <RecipeCard {recipe} />)}
-    </div>
-
-    <!-- No Results State -->
-    <div id="noResults" class="hidden text-center py-20">
-      <div
-        class="inline-flex items-center justify-center w-16 h-16 rounded-full mb-4"
-        style="background: var(--bg-elevated);"
-      >
-        <svg
-          class="w-8 h-8"
-          style="color: var(--text-tertiary);"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          ></path>
-        </svg>
-      </div>
-      <h3 class="text-lg font-medium" style="color: var(--text-primary);">No recipes found</h3>
-      <p class="mt-1" style="color: var(--text-secondary);">
-        Try adjusting your search terms or filters.
-      </p>
-      <button
-        id="clearSearch"
-        class="mt-4 text-sm font-medium hover:underline"
-        style="color: var(--accent-gold);"
-      >
-        Reset search and filters
-      </button>
-    </div>
+  <section class="closer" aria-labelledby="closer-title">
+    <h2 id="closer-title">Can't decide? <span>Let Mise pick.</span></h2>
+    <button type="button" class="surprise" data-surprise>Surprise me</button>
   </section>
 </Layout>
 
@@ -171,9 +198,8 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
 <script>
   import Fuse from 'fuse.js';
-  import { timeToMinutes } from '../lib/time.mjs';
 
-  // Initialize fuzzy search index from server-injected data
+  const PAGE = 12;
   const searchIndexData = (window as any).__searchIndexData;
   const fuse = new Fuse(searchIndexData, {
     keys: [
@@ -186,355 +212,625 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     ],
     threshold: 0.35,
     minMatchCharLength: 2,
-    includeScore: true,
+    ignoreLocation: true,
   });
 
-  const searchInput = document.getElementById('searchInput') as HTMLInputElement | null;
-  const recipeCards = document.querySelectorAll('.recipe-card');
-  const noResults = document.getElementById('noResults');
-  const clearSearchBtn = document.getElementById('clearSearch');
+  const $ = <T extends Element = HTMLElement>(sel: string) => document.querySelector<T>(sel);
+  const $$ = <T extends Element = HTMLElement>(sel: string) =>
+    Array.from(document.querySelectorAll<T>(sel));
 
-  function updateUrlParams() {
+  const searchInput = $<HTMLInputElement>('#searchInput');
+  const grid = $('#recipeGrid')!;
+  const cards = $$<HTMLAnchorElement>('#recipeGrid .recipe-card');
+  const sortSelect = $<HTMLSelectElement>('#sortBy')!;
+  const showMore = $<HTMLButtonElement>('#showMore')!;
+  const countEl = $('#result-count')!;
+  const heroCount = $('#heroCount')!;
+  const active = $('#activeFilters')!;
+  const noResults = $('#noResults')!;
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // The selects in "More filters" stay the source of truth for single-choice filters,
+  // so the course and cuisine buttons simply set them.
+  const SELECTS: Record<string, { id: string; param: string; label: string }> = {
+    role: { id: 'filterRole', param: 'role', label: 'Course' },
+    cuisine: { id: 'filterCuisine', param: 'cuisine', label: 'Cuisine' },
+    difficulty: { id: 'filterDifficulty', param: 'difficulty', label: 'Level' },
+    vibe: { id: 'filterVibe', param: 'vibe', label: 'Vibe' },
+    dietary: { id: 'filterDietary', param: 'dietary', label: 'Diet' },
+    cookingMethod: { id: 'filterCookingMethod', param: 'method', label: 'Method' },
+    occasion: { id: 'filterOccasion', param: 'occasion', label: 'Occasion' },
+    flavor: { id: 'filterFlavor', param: 'flavor', label: 'Flavor' },
+  };
+  const select = (key: string) => document.getElementById(SELECTS[key].id) as HTMLSelectElement;
+
+  const picks = new Set<string>();
+  let shown = PAGE;
+
+  type CardInfo = {
+    el: HTMLAnchorElement;
+    slug: string;
+    title: string;
+    minutes: number;
+    difficulty: string;
+    picks: string[];
+    hasArt: boolean;
+    rank: number;
+    data: DOMStringMap;
+  };
+  const hash = (s: string) => {
+    let h = 7;
+    for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 100003;
+    return h;
+  };
+  const info: CardInfo[] = cards.map((el) => {
+    const slug = el.getAttribute('href')?.split('/').filter(Boolean).pop() || '';
+    return {
+      el,
+      slug,
+      title: el.dataset.title || '',
+      minutes: Number(el.dataset.minutes) || 0,
+      difficulty: el.dataset.difficulty || '',
+      picks: (el.dataset.picks || '').split(',').filter(Boolean),
+      hasArt: !!el.querySelector('.dish-art'),
+      rank: hash(slug),
+      data: el.dataset,
+    };
+  });
+  const DIFF: Record<string, number> = {
+    easy: 0,
+    intermediate: 1,
+    medium: 1,
+    hard: 2,
+    advanced: 2,
+  };
+  const list = (v?: string) => (v || '').split(',').filter(Boolean);
+
+  function matches(c: CardInfo, searchHits: Set<string> | null) {
+    if (searchHits && !searchHits.has(c.slug)) return false;
+    for (const p of picks) if (!c.picks.includes(p)) return false;
+    const st = (window as any).filterState || {};
+    const d = c.data;
+    if (st.difficulty && d.difficulty !== st.difficulty) return false;
+    if (st.role && d.role !== st.role) return false;
+    if (st.vibe && d.vibe !== st.vibe) return false;
+    if (st.cuisine && !list(d.cuisines).includes(st.cuisine)) return false;
+    if (st.dietary && !list(d.dietary).includes(st.dietary)) return false;
+    if (st.cookingMethod && !list(d.cookingMethods).includes(st.cookingMethod)) return false;
+    if (st.occasion && !list(d.occasions).includes(st.occasion)) return false;
+    if (st.flavor && !list(d.flavorProfile).includes(st.flavor)) return false;
+    return true;
+  }
+
+  function sortCards(items: CardInfo[], mode: string) {
+    const byTitle = (a: CardInfo, b: CardInfo) => a.title.localeCompare(b.title);
+    const byTime = (a: CardInfo, b: CardInfo) => (a.minutes || 1e9) - (b.minutes || 1e9);
+    if (mode === 'title') return items.sort(byTitle);
+    if (mode === 'time') return items.sort((a, b) => byTime(a, b) || byTitle(a, b));
+    if (mode === 'difficulty')
+      return items.sort(
+        (a, b) => (DIFF[a.difficulty] ?? 9) - (DIFF[b.difficulty] ?? 9) || byTime(a, b)
+      );
+    // Mixed: painted recipes first, then a stable shuffle so the page isn't all "A".
+    return items.sort((a, b) => Number(b.hasArt) - Number(a.hasArt) || a.rank - b.rank);
+  }
+
+  function currentMatches() {
+    const query = searchInput?.value.trim() || '';
+    const hits = query ? new Set<string>(fuse.search(query).map((r: any) => r.item.slug)) : null;
+    return { query, items: info.filter((c) => matches(c, hits)) };
+  }
+
+  function labelFor(key: string) {
+    const s = select(key);
+    return s?.selectedOptions[0]?.textContent?.trim() || s?.value || '';
+  }
+
+  function render() {
+    (window as any).updateFilterState?.();
+    const { query, items } = currentMatches();
+    const sorted =
+      query && sortSelect.value === 'pick' ? items : sortCards(items, sortSelect.value);
+    if (query && sortSelect.value === 'pick') {
+      // With a search, Mixed keeps the best matches first.
+      const order = new Map(fuse.search(query).map((r: any, i: number) => [r.item.slug, i]));
+      sorted.sort((a, b) => (order.get(a.slug) ?? 1e9) - (order.get(b.slug) ?? 1e9));
+    }
+    const visible = new Set(sorted.slice(0, shown).map((c) => c.el));
+    info.forEach((c) => (c.el.style.display = visible.has(c.el) ? 'flex' : 'none'));
+    sorted.forEach((c) => grid.appendChild(c.el));
+
+    const n = sorted.length;
+    const filtered = n !== info.length;
+    countEl.textContent = filtered
+      ? `${n} recipe${n === 1 ? '' : 's'}${query ? ` for “${query}”` : ''}`
+      : `All ${n} recipes`;
+    heroCount.innerHTML = `${filtered ? `See ${n} recipe${n === 1 ? '' : 's'}` : `See all ${n} recipes`} <span aria-hidden="true">↓</span>`;
+    showMore.hidden = n <= shown;
+    showMore.textContent = `Show more recipes (${n - Math.min(n, shown)} left)`;
+    noResults.hidden = n !== 0;
+
+    $$('[data-pick]').forEach((b) =>
+      b.setAttribute('aria-pressed', String(picks.has(b.dataset.pick!)))
+    );
+    const st = (window as any).filterState || {};
+    $$('[data-course]').forEach((b) =>
+      b.setAttribute('aria-pressed', String(st.role === b.dataset.course))
+    );
+    $$('[data-cuisine]').forEach((b) =>
+      b.setAttribute('aria-pressed', String(st.cuisine === b.dataset.cuisine))
+    );
+
+    const bits: string[] = [];
+    const esc = (s: string) => s.replace(/[&<>"]/g, (ch) => `&#${ch.charCodeAt(0)};`);
+    if (query)
+      bits.push(
+        `<button type="button" data-unset="q">“${esc(query)}” <span aria-hidden="true">×</span><span class="sr-only"> (clear search)</span></button>`
+      );
+    picks.forEach((p) => {
+      const lbl = $(`[data-pick="${p}"] .lbl`)?.textContent || p;
+      bits.push(
+        `<button type="button" data-unset="pick" data-value="${p}">${esc(lbl)} <span aria-hidden="true">×</span><span class="sr-only"> (remove filter)</span></button>`
+      );
+    });
+    Object.keys(SELECTS).forEach((k) => {
+      if (st[k])
+        bits.push(
+          `<button type="button" data-unset="${k}">${esc(labelFor(k))} <span aria-hidden="true">×</span><span class="sr-only"> (remove ${SELECTS[k].label.toLowerCase()} filter)</span></button>`
+        );
+    });
+    if (bits.length > 1)
+      bits.push('<button type="button" class="clear" data-clear>Clear all</button>');
+    active.innerHTML = bits.join(' ');
+
+    updateUrl(query, st);
+  }
+
+  function updateUrl(query: string, st: Record<string, string>) {
     const params = new URLSearchParams();
-    const query = searchInput?.value?.trim() || '';
-    if (query) {
-      params.set('q', query);
-    }
-
-    const state = (window as any).filterState || {};
-    if (state.difficulty) params.set('difficulty', state.difficulty);
-    if (state.role) params.set('role', state.role);
-    if (state.vibe) params.set('vibe', state.vibe);
-    if (state.cuisine) params.set('cuisine', state.cuisine);
-    if (state.dietary) params.set('dietary', state.dietary);
-    if (state.cookingMethod) params.set('method', state.cookingMethod);
-    if (state.occasion) params.set('occasion', state.occasion);
-    if (state.flavor) params.set('flavor', state.flavor);
-    if (state.sortMode && state.sortMode !== 'title') {
-      params.set('sort', state.sortMode);
-    }
-
-    const queryString = params.toString();
-    const newUrl = queryString ? `?${queryString}` : window.location.pathname;
-    history.replaceState(null, '', newUrl);
+    if (query) params.set('q', query);
+    if (picks.size) params.set('picks', [...picks].join(','));
+    Object.entries(SELECTS).forEach(([k, s]) => st[k] && params.set(s.param, st[k]));
+    if (sortSelect.value !== 'pick') params.set('sort', sortSelect.value);
+    const qs = params.toString();
+    history.replaceState(null, '', qs ? `?${qs}#collection` : window.location.pathname);
   }
 
-  function applyFiltersAndSort() {
-    const query = searchInput?.value?.toLowerCase() || '';
-    const state = (window as any).filterState || {};
+  const goToResults = () =>
+    $('#collection')?.scrollIntoView({
+      behavior: reduceMotion ? 'auto' : 'smooth',
+      block: 'start',
+    });
+  const reset = () => {
+    shown = PAGE;
+    render();
+  };
+  const setSelect = (key: string, value: string) => {
+    const s = select(key);
+    if (s) s.value = Array.from(s.options).some((o) => o.value === value) ? value : '';
+  };
 
-    let visibleCards: { card: Element; difficulty: string; prepTime: string }[] = [];
+  // FilterPanel calls this when one of its selects changes.
+  (window as any).applyFiltersAndSort = reset;
 
-    if (query.trim()) {
-      const fuzzyResults = fuse.search(query.trim());
-      const fuzzySlugSet = new Set(fuzzyResults.map((r) => r.item.slug));
-
-      recipeCards.forEach((card) => {
-        const el = card as HTMLElement;
-        const slug = el.getAttribute('href')?.split('/').pop();
-        const cardDifficulty = el.dataset.difficulty || '';
-        const cardRole = el.dataset.role || '';
-        const cardVibe = el.dataset.vibe || '';
-        const cardCuisines = el.dataset.cuisines?.split(',').filter((c) => c) || [];
-        const cardDietary = el.dataset.dietary?.split(',').filter((d) => d) || [];
-        const cardMethods = el.dataset.cookingMethods?.split(',').filter((m) => m) || [];
-        const cardOccasions = el.dataset.occasions?.split(',').filter((o) => o) || [];
-        const cardFlavors = el.dataset.flavorProfile?.split(',').filter((f) => f) || [];
-
-        const matchesFuzzySearch = fuzzySlugSet.has(slug);
-        const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
-        const matchesRole = !state.role || cardRole === state.role;
-        const matchesVibe = !state.vibe || cardVibe === state.vibe;
-        const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
-        const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
-        const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
-        const matchesOccasion = !state.occasion || cardOccasions.includes(state.occasion);
-        const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
-
-        const isVisible =
-          matchesFuzzySearch &&
-          matchesDifficulty &&
-          matchesRole &&
-          matchesVibe &&
-          matchesCuisine &&
-          matchesDietary &&
-          matchesMethod &&
-          matchesOccasion &&
-          matchesFlavor;
-
-        if (isVisible) {
-          el.style.display = 'flex';
-          visibleCards.push({
-            card: el,
-            difficulty: cardDifficulty,
-            prepTime: el.dataset.prepTime || '',
-          });
-        } else {
-          el.style.display = 'none';
-        }
-      });
-    } else {
-      recipeCards.forEach((card) => {
-        const el = card as HTMLElement;
-        const cardDifficulty = el.dataset.difficulty || '';
-        const cardRole = el.dataset.role || '';
-        const cardVibe = el.dataset.vibe || '';
-        const cardCuisines = el.dataset.cuisines?.split(',').filter((c) => c) || [];
-        const cardDietary = el.dataset.dietary?.split(',').filter((d) => d) || [];
-        const cardMethods = el.dataset.cookingMethods?.split(',').filter((m) => m) || [];
-        const cardOccasions = el.dataset.occasions?.split(',').filter((o) => o) || [];
-        const cardFlavors = el.dataset.flavorProfile?.split(',').filter((f) => f) || [];
-
-        const matchesDifficulty = !state.difficulty || cardDifficulty === state.difficulty;
-        const matchesRole = !state.role || cardRole === state.role;
-        const matchesVibe = !state.vibe || cardVibe === state.vibe;
-        const matchesCuisine = !state.cuisine || cardCuisines.includes(state.cuisine);
-        const matchesDietary = !state.dietary || cardDietary.includes(state.dietary);
-        const matchesMethod = !state.cookingMethod || cardMethods.includes(state.cookingMethod);
-        const matchesOccasion = !state.occasion || cardOccasions.includes(state.occasion);
-        const matchesFlavor = !state.flavor || cardFlavors.includes(state.flavor);
-
-        const isVisible =
-          matchesDifficulty &&
-          matchesRole &&
-          matchesVibe &&
-          matchesCuisine &&
-          matchesDietary &&
-          matchesMethod &&
-          matchesOccasion &&
-          matchesFlavor;
-
-        if (isVisible) {
-          el.style.display = 'flex';
-          visibleCards.push({
-            card: el,
-            difficulty: cardDifficulty,
-            prepTime: el.dataset.prepTime || '',
-          });
-        } else {
-          el.style.display = 'none';
-        }
-      });
+  document.addEventListener('click', (ev) => {
+    const t = ev.target as HTMLElement;
+    const pick = t.closest<HTMLElement>('[data-pick]');
+    if (pick) {
+      const k = pick.dataset.pick!;
+      picks.has(k) ? picks.delete(k) : picks.add(k);
+      return reset();
     }
-
-    // Apply sorting
-    if (state.sortMode === 'prepTime') {
-      visibleCards.sort(
-        (a, b) => (timeToMinutes(a.prepTime) ?? Infinity) - (timeToMinutes(b.prepTime) ?? Infinity)
-      );
-    } else if (state.sortMode === 'difficulty') {
-      const diffOrder: Record<string, number> = {
-        easy: 0,
-        intermediate: 1,
-        medium: 1,
-        hard: 2,
-        advanced: 2,
-      };
-      visibleCards.sort(
-        (a, b) => (diffOrder[a.difficulty] ?? 99) - (diffOrder[b.difficulty] ?? 99)
-      );
+    const course = t.closest<HTMLElement>('[data-course]');
+    if (course) {
+      const on = select('role')?.value === course.dataset.course;
+      setSelect('role', on ? '' : course.dataset.course!);
+      reset();
+      if (!on) goToResults();
+      return;
     }
-
-    if (!state.sortMode || state.sortMode === 'title')
-      visibleCards.sort((a, b) =>
-        (a.card.querySelector('h2')?.textContent || '').localeCompare(
-          b.card.querySelector('h2')?.textContent || ''
-        )
-      );
-    const count = document.getElementById('result-count');
-    if (count)
-      count.textContent = `${visibleCards.length} recipes${query.trim() ? ` matching “${query.trim()}”` : ''}`;
-
-    // Reorder cards in grid
-    const grid = document.getElementById('recipeGrid');
-    visibleCards.forEach(({ card }) => grid?.appendChild(card));
-
-    // Toggle no results message
-    if (noResults) {
-      noResults.style.display = visibleCards.length === 0 ? 'block' : 'none';
+    const cuisine = t.closest<HTMLElement>('[data-cuisine]');
+    if (cuisine) {
+      const on = select('cuisine')?.value === cuisine.dataset.cuisine;
+      setSelect('cuisine', on ? '' : cuisine.dataset.cuisine!);
+      reset();
+      if (!on) goToResults();
+      return;
     }
+    const unset = t.closest<HTMLElement>('[data-unset]');
+    if (unset) {
+      const k = unset.dataset.unset!;
+      if (k === 'q' && searchInput) searchInput.value = '';
+      else if (k === 'pick') picks.delete(unset.dataset.value!);
+      else setSelect(k, '');
+      return reset();
+    }
+    if (t.closest('[data-clear]') || t.closest('#clearSearch')) {
+      if (searchInput) searchInput.value = '';
+      picks.clear();
+      Object.keys(SELECTS).forEach((k) => setSelect(k, ''));
+      reset();
+      if (t.closest('#clearSearch')) searchInput?.focus();
+      return;
+    }
+    if (t.closest('[data-surprise]')) {
+      const pool = currentMatches().items;
+      const from = pool.length ? pool : info;
+      const choice = from[Math.floor(Math.random() * from.length)];
+      window.location.href = choice.el.href;
+    }
+  });
 
-    // Synchronize to URL query parameters
-    updateUrlParams();
-  }
+  showMore.addEventListener('click', () => {
+    const firstNew = shown;
+    shown += PAGE;
+    render();
+    const next = Array.from(grid.children).filter(
+      (el) => (el as HTMLElement).style.display !== 'none'
+    )[firstNew] as HTMLElement | undefined;
+    next?.focus({ preventScroll: true });
+  });
+  sortSelect.addEventListener('change', reset);
 
-  // Expose globally so FilterPanel can call it
-  (window as any).applyFiltersAndSort = applyFiltersAndSort;
-
-  // Search input listener
-  searchInput?.addEventListener('input', applyFiltersAndSort);
-
-  function setSelectFromParam(id: string, value: string | null) {
-    if (!value) return;
-    const select = document.getElementById(id) as HTMLSelectElement | null;
-    if (!select) return;
-    const hasOption = Array.from(select.options).some((option) => option.value === value);
-    if (hasOption) select.value = value;
-  }
+  let timer: number | undefined;
+  searchInput?.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = window.setTimeout(reset, 150);
+  });
+  searchInput?.addEventListener('keydown', (ev) => {
+    if (ev.key !== 'Enter') return;
+    ev.preventDefault();
+    clearTimeout(timer);
+    reset();
+    searchInput.blur();
+    goToResults();
+  });
 
   function applyInitialUrlState() {
     const params = new URLSearchParams(window.location.search);
     const query = params.get('q') || params.get('search');
     if (query && searchInput) searchInput.value = query;
-
-    setSelectFromParam('filterDifficulty', params.get('difficulty'));
-    setSelectFromParam('filterRole', params.get('role'));
-    setSelectFromParam('filterVibe', params.get('vibe'));
-    setSelectFromParam('filterCuisine', params.get('cuisine'));
-    setSelectFromParam('filterDietary', params.get('dietary'));
-    setSelectFromParam('filterCookingMethod', params.get('method') || params.get('cookingMethod'));
-    setSelectFromParam('filterOccasion', params.get('occasion'));
-    setSelectFromParam('filterFlavor', params.get('flavor'));
-    setSelectFromParam('sortBy', params.get('sort') || params.get('sortMode'));
+    (params.get('picks') || '')
+      .split(',')
+      .forEach((p) => p && $(`[data-pick="${p}"]`) && picks.add(p));
+    Object.entries(SELECTS).forEach(([k, s]) => {
+      const v = params.get(s.param) || (k === 'cookingMethod' ? params.get('cookingMethod') : null);
+      if (v) setSelect(k, v);
+    });
+    const sort = params.get('sort') || params.get('sortMode');
+    const legacy: Record<string, string> = { prepTime: 'time' };
+    const mode = sort ? legacy[sort] || sort : '';
+    if (mode && Array.from(sortSelect.options).some((o) => o.value === mode))
+      sortSelect.value = mode;
+    // Open "More filters" when the link set one of its filters.
+    if (
+      ['difficulty', 'vibe', 'dietary', 'cookingMethod', 'occasion', 'flavor'].some(
+        (k) => select(k)?.value
+      )
+    )
+      $<HTMLDetailsElement>('.more-filters')!.open = true;
   }
 
-  // Clear search button
-  clearSearchBtn?.addEventListener('click', () => {
-    if (searchInput) searchInput.value = '';
-    document.getElementById('resetFilters')?.click();
-    applyFiltersAndSort();
-    searchInput?.focus();
-  });
-
-  // Initial state update and render
   applyInitialUrlState();
-  (window as any).updateFilterState?.();
-  applyFiltersAndSort();
+  render();
 </script>
 
 <style>
-  /* A full-width slate band: the calm Mise blue frame, with apricot only on the one line that matters. */
-  .home-hero {
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
-    gap: 3rem;
-    padding: 3rem 0 3.5rem;
-    margin: -2.5rem 0 1rem;
-    align-items: center;
+  /* The hero is the finder: one question, one search box, and the everyday quick picks. */
+  .finder-hero {
+    margin: -2.5rem 0 0;
+    padding: 2.6rem 0 2.4rem;
     background: var(--accent);
     color: #fff;
     box-shadow: 0 0 0 100vmax var(--accent);
     clip-path: inset(0 -100vmax);
+    text-align: center;
   }
-  .home-hero .hero-copy .eyebrow {
+  .hero-eyebrow {
     color: #e6eef1;
   }
   h1 {
     font:
-      650 clamp(2.9rem, 5.2vw, 5rem)/1.12 'Fraunces',
+      650 clamp(2.6rem, 6vw, 4.6rem)/1.08 'Fraunces',
       Georgia,
       serif;
     letter-spacing: -0.03em;
-    margin: 1.4rem 0;
+    margin: 0.8rem 0 1.4rem;
   }
   h1 em {
     color: var(--on-apricot);
     background: var(--apricot);
     font-style: italic;
     font-weight: 600;
-    padding: 0 0.12em;
-    border-radius: 0.12em;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    padding: 0 0.14em;
+    border-radius: 0.14em;
   }
-  .hero-description {
-    max-width: 380px;
-    color: #f7f6f2;
-    line-height: 1.7;
-    font-size: 1rem;
+  .hero-search {
+    max-width: 620px;
+    margin: 0 auto;
+    color: var(--text-primary);
+  }
+  .hero-search :global(.search-input) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.05rem;
+    border: 0 !important;
+    box-shadow: 0 8px 24px rgba(20, 35, 44, 0.22);
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    max-width: 820px;
+    margin: 1.2rem auto 0;
+    padding: 0;
+    list-style: none;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 44px;
+    padding: 0.45rem 1rem;
+    border-radius: var(--pill);
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+  .chip:hover {
+    background: rgba(255, 255, 255, 0.12);
+  }
+  .chip[aria-pressed='true'] {
+    background: #fff;
+    border-color: #fff;
+    color: var(--text-primary);
+  }
+  .chip[aria-pressed='true']::before {
+    content: '✓';
+  }
+  .n {
+    font-weight: 500;
+    opacity: 0.75;
+    font-size: 0.85em;
   }
   .hero-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.3rem;
+    justify-content: center;
+    gap: 0.8rem 1.4rem;
     align-items: center;
-    margin-top: 2rem;
-    font-size: 0.88rem;
-    font-weight: 600;
+    margin-top: 1.4rem;
   }
-  .hero-actions a:not(.primary-link) {
+  .see-results {
     color: #fff;
+    font-weight: 700;
     text-decoration: underline;
     text-underline-offset: 4px;
     min-height: 44px;
     display: inline-flex;
     align-items: center;
+    gap: 0.4rem;
   }
-  .home-hero :focus-visible {
-    outline-color: #fff;
-  }
-  .primary-link {
+  .surprise {
+    min-height: 44px;
+    padding: 0.6rem 1.3rem;
+    border-radius: var(--pill);
     background: #fff;
     color: var(--text-primary);
-    padding: 0.85rem 1.4rem;
-    display: flex;
-    gap: 0.8rem;
     font-weight: 700;
+  }
+  .finder-hero :focus-visible {
+    outline-color: #fff;
+  }
+
+  .sec-h {
+    font:
+      650 1.6rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 0.9rem;
+  }
+  .browse {
+    padding: 2rem 0 0.5rem;
+  }
+  .courses,
+  .cuisines {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .courses button,
+  .cuisines button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 48px;
+    padding: 0.5rem 1.1rem;
     border-radius: var(--pill);
-  }
-  .hero-study {
     background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
     color: var(--text-primary);
-    border: 0;
-    border-radius: var(--radius);
-    display: block;
-    padding: 1.5rem 1.8rem 2rem;
-    position: relative;
-    box-shadow: 0 10px 30px rgba(20, 35, 44, 0.25);
+    font-weight: 700;
+    font-size: 1rem;
   }
-  .hero-study:hover {
-    border-color: var(--accent-gold);
+  .cuisines button {
+    min-height: 44px;
+    font-size: 0.92rem;
   }
-  .study-header {
+  .courses button:hover,
+  .cuisines button:hover {
+    background: var(--wash);
+  }
+  .courses button[aria-pressed='true'],
+  .cuisines button[aria-pressed='true'] {
+    background: var(--accent-strong);
+    border-color: var(--accent-strong);
+    color: #fff;
+  }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.5rem;
+    margin: 1rem 0 0;
+    font-size: 0.8rem;
+  }
+  .legend-label {
+    color: var(--text-secondary);
+    font-weight: 600;
+    margin-right: 0.2rem;
+  }
+
+  .collection {
+    padding-top: 1.6rem;
+    scroll-margin-top: 1rem;
+  }
+  .list-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
-  .study-arrow {
-    color: var(--accent-gold);
-    font-size: 1.3rem;
-  }
-  .study-caption {
-    border-top: 1px solid var(--border-emphasis);
-    padding-top: 1.6rem;
-  }
-  .study-caption h2 {
+  .count {
     font:
-      650 2.3rem/1.1 'Fraunces',
+      650 1.6rem/1.2 'Fraunces',
       Georgia,
       serif;
-    margin: 0.8rem 0;
+    margin: 0;
   }
-  .study-caption > p:not(.eyebrow) {
+  .sort {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
     color: var(--text-secondary);
-    font-size: 0.85rem;
-    line-height: 1.8;
   }
-  .study-foot {
+  .sort select {
+    min-height: 44px;
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--pill);
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+  .active-filters {
     display: flex;
-    justify-content: space-between;
-    color: var(--accent-gold);
-    font-size: 0.75rem;
-    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.8rem 0 0;
+  }
+  .active-filters:empty {
+    display: none;
+  }
+  .active-filters :global(button) {
+    min-height: 40px;
+    padding: 0.35rem 0.9rem;
+    border-radius: var(--pill);
+    background: var(--wash);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+  .active-filters :global(.clear) {
+    background: transparent;
+    text-decoration: underline;
+  }
+  .more-filters {
+    margin: 0.9rem 0 1.2rem;
+  }
+  .more-filters summary {
+    cursor: pointer;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-weight: 700;
+    color: var(--accent-link);
+  }
+  .more-filters .hint {
+    font-weight: 500;
+    font-size: 0.82rem;
+    color: var(--text-tertiary);
+  }
+  .more-filters[open] summary {
+    margin-bottom: 0.6rem;
+  }
+  .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+    gap: 1rem;
+  }
+  .show-more {
+    display: block;
+    margin: 1.6rem auto 0;
+    min-height: 48px;
+    padding: 0.7rem 1.6rem;
+    border-radius: var(--pill);
+    background: var(--accent-strong);
+    color: #fff;
+    font-weight: 700;
+  }
+  .show-more[hidden],
+  .no-results[hidden] {
+    display: none;
+  }
+  .no-results {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .no-results h3 {
+    font:
+      650 1.4rem 'Fraunces',
+      Georgia,
+      serif;
+  }
+  .no-results p {
+    color: var(--text-secondary);
+    margin: 0.4rem 0 1rem;
+  }
+  .no-results button {
+    min-height: 44px;
+    padding: 0.5rem 1.2rem;
+    border-radius: var(--pill);
+    border: 1px solid var(--border-emphasis);
+    font-weight: 700;
+  }
+
+  .cuisine-band {
+    padding: 3.5rem 0 0;
+  }
+
+  .featured-section {
+    padding-top: 3.5rem;
   }
   .section-heading {
     display: flex;
     justify-content: space-between;
     align-items: end;
     gap: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
   }
-  .section-heading h2,
-  .collection-heading h2 {
+  .section-heading h2 {
     font:
-      650 clamp(2rem, 3vw, 2.6rem)/1.15 'Fraunces',
+      650 clamp(1.7rem, 3vw, 2.3rem)/1.15 'Fraunces',
       Georgia,
       serif;
-    margin: 0.6rem 0;
+    margin: 0.5rem 0 0;
   }
   .section-heading > a {
-    color: var(--accent-gold);
-    font-size: 0.8rem;
+    color: var(--accent-link);
+    font-weight: 600;
+    font-size: 0.9rem;
     white-space: nowrap;
   }
   .featured-grid {
@@ -545,102 +841,114 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   .featured-recipe {
     display: flex;
     flex-direction: column;
-    padding: 1.6rem;
     background: var(--bg-surface);
     border: 1px solid var(--border-subtle);
     border-radius: var(--radius);
+    overflow: hidden;
   }
   .featured-recipe:hover {
     background: var(--bg-elevated);
   }
-  .feature-number {
-    font:
-      500 2rem 'Fraunces',
-      Georgia,
-      serif;
-    color: var(--text-tertiary);
-    margin-bottom: 1.5rem;
+  .featured-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.1rem 1.3rem 1.3rem;
   }
   .featured-recipe h3 {
     font:
-      650 1.7rem/1.15 'Fraunces',
+      650 1.45rem/1.2 'Fraunces',
       Georgia,
       serif;
-    margin: 0.8rem 0;
+    margin: 0.5rem 0;
   }
-  .featured-recipe > p:not(.eyebrow) {
+  .featured-body > p:not(.eyebrow) {
     color: var(--text-secondary);
-    font-size: 0.85rem;
-    line-height: 1.7;
+    font-size: 0.9rem;
+    line-height: 1.6;
   }
   .feature-meta {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: var(--text-secondary);
     margin-top: auto;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
-  .collection-heading {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    gap: 2rem;
-    padding-top: 4.5rem;
-    margin-bottom: 1.8rem;
+
+  .closer {
+    margin: 3.5rem 0 -2.5rem;
+    padding: 2.6rem 0;
+    text-align: center;
+    background: var(--wash);
+    box-shadow: 0 0 0 100vmax var(--wash);
+    clip-path: inset(0 -100vmax);
   }
-  .collection-heading p:not(.eyebrow) {
-    color: var(--text-secondary);
-    font-size: 0.85rem;
-    line-height: 1.7;
+  .closer h2 {
+    font:
+      650 clamp(1.7rem, 4vw, 2.4rem)/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 1rem;
   }
-  .collection-search {
-    width: 350px;
-    max-width: 100%;
-    flex-shrink: 0;
+  .closer h2 span {
+    font-style: italic;
   }
-  @media (max-width: 850px) {
-    .home-hero {
-      gap: 2rem;
-      grid-template-columns: 1fr 1fr;
-    }
-    .hero-study {
-      padding: 1.2rem;
-    }
-    .collection-heading {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    .collection-search {
-      width: 100%;
-    }
+  .closer .surprise {
+    background: var(--accent-strong);
+    color: #fff;
   }
-  @media (max-width: 640px) {
-    .home-hero {
-      grid-template-columns: 1fr;
-      padding-top: 0.5rem;
-      gap: 2.5rem;
-    }
-    .home-hero {
-      padding: 2rem 0 2.5rem;
-      margin-top: -2.5rem;
-    }
-    h1 {
-      font-size: 2.6rem;
-    }
-    .hero-study {
-      padding: 1.5rem;
-    }
+
+  @media (max-width: 760px) {
     .featured-grid {
       grid-template-columns: 1fr;
     }
+  }
+  @media (max-width: 640px) {
+    .finder-hero {
+      padding: 1.8rem 0 1.8rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    /* On a phone the quick picks scroll sideways in one row instead of stacking four deep. */
+    .chips {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin: 1rem -1rem 0;
+      padding: 0.2rem 1rem;
+      -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+      mask-image: linear-gradient(90deg, #000 85%, transparent);
+    }
+    .chips::-webkit-scrollbar {
+      display: none;
+    }
+    .chips li {
+      flex: none;
+    }
+    .courses,
+    .cuisines {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scrollbar-width: none;
+      margin: 0 -1rem;
+      padding: 0.1rem 1rem 0.3rem;
+    }
+    .courses::-webkit-scrollbar,
+    .cuisines::-webkit-scrollbar {
+      display: none;
+    }
+    .courses li,
+    .cuisines li {
+      flex: none;
+    }
     .section-heading {
       align-items: start;
-    }
-    .feature-number {
-      margin-bottom: 0.8rem;
+      flex-direction: column;
     }
   }
 </style>
