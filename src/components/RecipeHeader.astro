@@ -2,12 +2,21 @@
 import DishArt from './DishArt.astro';
 import { dishVisuals } from '../data/dish-visuals';
 import type { CollectionEntry } from 'astro:content';
+import { timeBand, formatMinutes } from '../lib/time-band.mjs';
 interface Props {
   recipe: CollectionEntry<'recipes'>;
   baseUrl?: string;
 }
 const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
 const { data } = recipe;
+const time = timeBand(data.totalTime);
+const totalText = time.minutes ? formatMinutes(time.minutes) : data.totalTime;
+const splitTimes = [
+  data.prepTime && `Prep ${data.prepTime}`,
+  data.cookTime && `Cook ${data.cookTime}`,
+]
+  .filter(Boolean)
+  .join(' · ');
 ---
 
 <div data-recipe-header class:list={{ 'has-art': !!dishVisuals[recipe.slug] }}>
@@ -26,22 +35,37 @@ const { data } = recipe;
     <h1>{data.title}</h1>
     {data.description && <p class="recipe-description">{data.description}</p>}
     <dl class="recipe-facts">
+      <div class="fact fact-time" data-band={time.band}>
+        <dt>Total</dt>
+        <dd>
+          {totalText || 'Not listed'}
+          {
+            time.level > 0 && (
+              <span class="time-meter" data-level={time.level} aria-hidden="true">
+                <i />
+                <i />
+                <i />
+              </span>
+            )
+          }
+        </dd>
+        {splitTimes && <p class="fact-note">{splitTimes}</p>}
+      </div>
       {
-        [
-          ['Prep', data.prepTime],
-          ['Cook', data.cookTime],
-          ['Total', data.totalTime],
-          ['Serves / makes', data.servings],
-        ]
-          .filter(([, value]) => value)
-          .map(([label, value]) => (
-            <div>
-              <>
-                <dt>{label}</dt>
-                <dd data-header-yield={label === 'Serves / makes' ? '' : undefined}>{value}</dd>
-              </>
-            </div>
-          ))
+        data.servings && (
+          <div class="fact">
+            <dt>Serves / makes</dt>
+            <dd data-header-yield="">{data.servings}</dd>
+          </div>
+        )
+      }
+      {
+        data.difficulty && (
+          <div class="fact">
+            <dt>Level</dt>
+            <dd class="capitalize">{data.difficulty}</dd>
+          </div>
+        )
       }
     </dl>
     {data.learning && <p class="timing-note">{data.learning.timing}</p>}
@@ -108,8 +132,21 @@ const { data } = recipe;
     .has-art {
       grid-template-columns: 1fr;
     }
+    /* On a phone the dish comes first: the food is the colour on the page. */
+    .has-art .breadcrumb {
+      order: -2;
+    }
     .recipe-art {
-      padding-top: 1rem;
+      order: -1;
+      padding-top: 0.75rem;
+      width: min(300px, 100%);
+      justify-self: center;
+    }
+    .recipe-art :global(figcaption) {
+      display: none;
+    }
+    .recipe-intro {
+      padding-top: 0.5rem;
     }
   }
   @media print {
@@ -132,7 +169,7 @@ const { data } = recipe;
   }
   h1 {
     font:
-      500 clamp(2.4rem, 5vw, 4.4rem)/1.05 'Cormorant Garamond',
+      650 clamp(2.4rem, 5vw, 4.2rem)/1.05 'Fraunces',
       Georgia,
       serif;
     letter-spacing: -0.025em;
@@ -146,22 +183,61 @@ const { data } = recipe;
     max-width: 660px;
   }
   .recipe-facts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem 2.5rem;
-    border-block: 1px solid var(--border-subtle);
-    padding: 1.3rem 0;
-    margin-top: 1.8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 0.6rem;
+    margin-top: 1.6rem;
+    max-width: 620px;
+  }
+  .fact {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    padding: 0.75rem 0.9rem;
+    min-width: 0;
+  }
+  /* The total time card carries the time band: the one warm accent in the header. */
+  .fact-time {
+    background: var(--time-quick);
+    border-color: transparent;
+  }
+  .fact-time[data-band='hour'] {
+    background: var(--time-hour);
+  }
+  .fact-time[data-band='long'] {
+    background: var(--time-long);
+  }
+  .fact-time[data-band='none'] {
+    background: var(--bg-surface);
+    border: 1.5px dashed var(--border-emphasis);
+  }
+  .fact-time dt,
+  .fact-time .fact-note {
+    color: var(--on-time);
   }
   dt {
     color: var(--text-secondary);
-    font-size: 0.72rem;
+    font-size: 0.68rem;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.08em;
   }
   dd {
+    margin-top: 0.3rem;
+    font:
+      600 1.25rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.6rem;
+    overflow-wrap: anywhere;
+  }
+  .fact-note {
+    font-size: 0.75rem;
     margin-top: 0.35rem;
-    font-size: 1rem;
+    line-height: 1.4;
   }
   .timing-note {
     font-size: 0.82rem;
@@ -177,6 +253,9 @@ const { data } = recipe;
     cursor: pointer;
     padding: 0.6rem 0;
     color: var(--accent-gold);
+  }
+  .recipe-details summary {
+    font-weight: 600;
   }
   .recipe-details dl {
     display: grid;

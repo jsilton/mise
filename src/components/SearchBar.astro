@@ -16,11 +16,11 @@ const { placeholder = 'Search...', id = 'searchInput' } = Astro.props;
     type="search"
     aria-label="Search recipes by dish, ingredient, or technique"
     {placeholder}
-    class="search-input w-full pl-9 pr-4 py-2 rounded-xl text-sm focus:outline-none shadow-soft transition-all"
+    class="search-input w-full pl-10 pr-4 py-3 rounded-full text-base focus:outline-none transition-all"
     style={`background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-primary);`}
   />
   <div
-    class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
+    class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none"
     style="color: var(--text-tertiary);"
   >
     <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -39,7 +39,7 @@ const { placeholder = 'Search...', id = 'searchInput' } = Astro.props;
   }
 
   .search-input:focus {
-    box-shadow: 0 0 0 2px rgba(201, 169, 97, 0.3);
-    border-color: var(--accent-gold-muted) !important;
+    box-shadow: 0 0 0 3px var(--wash);
+    border-color: var(--accent) !important;
   }
 </style>
