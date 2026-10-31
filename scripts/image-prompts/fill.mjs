@@ -30,7 +30,7 @@ const BACKGROUND = {
 
 // Ingredients that never make a good hero or prop.
 const PANTRY =
-  /\b(salt|pepper|water|ice|oil|sugar|flour|cornstarch|baking (soda|powder)|stock|broth|vinegar|yeast|cooking spray|vanilla|extract)\b/i;
+  /\b(salt|pepper|water|ice|oil|sugar|flour|cornstarch|baking (soda|powder)|stock|broth|vinegar|yeast|cooking spray|vanilla|extract|eggs?|egg (yolks?|whites?)|butter|milk|buttermilk|breadcrumbs|panko|molasses|honey|maple syrup|agave|mayonnaise|cornmeal|cocoa|gelatin|xanthan)\b/i;
 const GARNISH_WORDS =
   /\b(garnish|for serving|to serve|cilantro|parsley|basil|mint|chives|scallions?|green onions?|sesame seeds|dill|lime wedges?|lemon wedges?|flaky salt)\b/i;
 const BOWL_WORDS =
@@ -107,9 +107,9 @@ export function derive(slug, data) {
       `${title}, ready to eat`,
     hero: list(heroes) || title,
     texture,
-    colours: 'true to the real ingredients',
+    colours: 'natural, true to the real ingredients',
     vessel,
-    garnish: list(garnish) || 'only what the recipe uses',
+    garnish: list(garnish) || 'nothing extra',
     props: heroes[0] ? `a small bowl of ${heroes[0]}` : 'none',
     raw_ingredients: list(names.filter((n) => !PANTRY.test(n)).slice(0, 5)),
     setting: cuisine ? `${cuisine} home cooking, simple and everyday` : 'everyday home cooking',
