@@ -7,9 +7,10 @@
   --radius: 18px;
   --radius-sm: 12px;
   --pill: 999px;
-  --apricot: #ffb36b;
+  /* One orange everywhere: the logo dot, the highlighted word, the current page and the current step.
+   * Ink on apricot is 5.7:1. */
+  --apricot: #f59443;
   --apricot-wash: #fff0d9;
-  --apricot-deep: #c96a28;
   --on-apricot: #1f3440;
   /* Time bands run light to dark so their order survives greyscale and colour blindness;
    * minutes are always printed beside them. No listed time is a dashed outline, not a colour. */
@@ -19,7 +20,7 @@
   --time-none: transparent;
   --on-time: #1f3440;
 }
-:root, :root[data-palette='porcelain'] {
+:root {
   --bg-deep: #f7f6f2;
   --bg-surface: #fcfbf8;
   --bg-elevated: #f0f1ee;
@@ -39,40 +40,4 @@
   --accent-gold: var(--accent);
   --accent-gold-muted: var(--accent-muted);
   --accent-gold-bright: var(--accent-strong);
-}
-:root[data-palette='sage'] {
-  --bg-deep: #f4f6f0;
-  --bg-surface: #fafbf7;
-  --bg-elevated: #edf0e8;
-  --bg-hover: #e0e7dc;
-  --border-subtle: #d6ded1;
-  --border-emphasis: #a3b29e;
-  --text-primary: #303c35;
-  --text-secondary: #566459;
-  --text-tertiary: #657165;
-  --accent: #4b6a5b;
-  --accent-muted: #8da491;
-  --accent-strong: #304f40;
-  --accent-link: #3a6551;
-  --accent-link-bright: #274b38;
-  --wash: #dbe5d6;
-  --wash-secondary: #e9e5df;
-}
-:root[data-palette='rose'] {
-  --bg-deep: #f8f4f3;
-  --bg-surface: #fdfaf9;
-  --bg-elevated: #f1eae9;
-  --bg-hover: #eadee1;
-  --border-subtle: #e0d6d8;
-  --border-emphasis: #b9a7b0;
-  --text-primary: #40343f;
-  --text-secondary: #695c65;
-  --text-tertiary: #786871;
-  --accent: #85586c;
-  --accent-muted: #b69ba6;
-  --accent-strong: #684256;
-  --accent-link: #794b65;
-  --accent-link-bright: #5c354b;
-  --wash: #ebdee3;
-  --wash-secondary: #dfe6e9;
 }

@@ -13,7 +13,6 @@ const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
   description="Practical lessons in heat, proteins, starch, leavening, emulsions, and seasoning, with cooking cues and recipes to practice."
 >
   <section class="learn-hero">
-    <p class="eyebrow">The learning kitchen · {techniques.length} lessons</p>
     <h1>A better cook, <em>one idea</em> at a time.</h1>
     <p class="intro">
       Recipes get dinner on the table. Understanding helps you adapt when the pan, the ingredients,
@@ -76,16 +75,13 @@ const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
     box-shadow: 0 0 0 100vmax var(--accent);
     clip-path: inset(0 -100vmax);
   }
-  .learn-hero .eyebrow {
-    color: #e6eef1;
-  }
   h1 {
     font:
       650 clamp(2.5rem, 5vw, 4.2rem)/1.08 'Fraunces',
       Georgia,
       serif;
     letter-spacing: -0.03em;
-    margin: 0.8rem 0 1rem;
+    margin: 0 0 1rem;
     max-width: 14em;
   }
   h1 em {

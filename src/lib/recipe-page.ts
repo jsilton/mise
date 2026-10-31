@@ -31,7 +31,8 @@ function save() {
   }
 }
 
-// Each step keeps its own "Perfect your technique" callout right under it.
+// Each step keeps its own callouts right under it: "Perfect your technique" first, then
+// "Back on track" for when things aren't quite right.
 steps.forEach((step, index) => {
   const copy = document.createElement('div');
   copy.className = 'step-copy';
@@ -41,8 +42,15 @@ steps.forEach((step, index) => {
     .querySelectorAll<HTMLElement>(`[data-checkpoint-step="${index + 1}"]`)
     .forEach((checkpoint) => step.append(checkpoint));
 });
+steps.forEach((step, index) => {
+  const isLast = index === steps.length - 1;
+  document.querySelectorAll<HTMLElement>('[data-fix-step]').forEach((fix) => {
+    const n = Number(fix.dataset.fixStep);
+    if (n === index + 1 || (isLast && fix.closest('#checkpoints'))) step.append(fix);
+  });
+});
 const checkpointSection = document.getElementById('checkpoints');
-if (checkpointSection && !checkpointSection.querySelector('.checkpoint'))
+if (checkpointSection && !checkpointSection.querySelector('.checkpoint, .fix-callout'))
   checkpointSection.hidden = true;
 
 document.querySelectorAll<HTMLInputElement>('[data-ingredient-check]').forEach((c) => {
@@ -206,7 +214,9 @@ function draw() {
   text.innerHTML = '';
   const copy = step.querySelector('.step-copy')?.cloneNode(true);
   if (copy) text.appendChild(copy);
-  step.querySelectorAll('.checkpoint').forEach((c) => text.appendChild(c.cloneNode(true)));
+  step
+    .querySelectorAll('.checkpoint, .fix-callout')
+    .forEach((c) => text.appendChild(c.cloneNode(true)));
   const scaled = dialog.querySelector<HTMLElement>('.cook-scaled')!;
   scaled.hidden = factor === 1;
   scaled.textContent = `You scaled the ingredients to ${factor}×. Amounts written in the steps are for the original recipe.`;

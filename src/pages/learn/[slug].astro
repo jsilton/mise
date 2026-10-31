@@ -28,15 +28,15 @@ const practice = technique.recipes.map((slug) => {
     >
   </nav>
   <div class="lesson-hero">
-    <p class="eyebrow">{technique.category}</p><h1>{technique.title}</h1><p>{technique.summary}</p>
+    <h1>{technique.title}</h1><p>{technique.summary}</p>
   </div>
   <div class="lesson-layout">
     <aside class="lesson-toc">
-      <p class="eyebrow">In this lesson</p><nav aria-label="Lesson sections">
+      <nav aria-label="Lesson sections">
         <a href="#principle">The science</a>
         {technique.slug === 'leavening' && <a href="#leaveners">Compare leaveners</a>}
         <a href="#controls">What you control</a><a href="#cues">Read the cues</a><a href="#rescue"
-          >Troubleshoot</a
+          >Back on track</a
         ><a href="#experiment">Try a comparison</a><a href="#practice">Cook to learn</a>
       </nav>
     </aside>
@@ -50,7 +50,7 @@ const practice = technique.recipes.map((slug) => {
           technique.controls.map((control, i) => (
             <div class="control">
               <>
-                <span class="control-number">0{i + 1}</span>
+                <span class="control-number">{i + 1}</span>
                 <div>
                   <>
                     <h3>{control.name}</h3>
@@ -80,7 +80,7 @@ const practice = technique.recipes.map((slug) => {
         </div>
       </section>
       <section id="rescue">
-        <h2>When it goes differently</h2>{
+        <h2>Get back on track</h2>{
           technique.troubleshooting.map((item) => (
             <details>
               <>
@@ -97,9 +97,9 @@ const practice = technique.recipes.map((slug) => {
         }
       </section>
       <section id="experiment" class="experiment">
-        <p class="eyebrow">Build your cooking intuition</p><h2>
-          Change one thing. Notice the difference.
-        </h2><p>{technique.experiment}</p><p class="experiment-note">
+        <h2>Change one thing. Notice the difference.</h2><p>{technique.experiment}</p><p
+          class="experiment-note"
+        >
           This is a suggested comparison for your kitchen, not a claim of a completed Mise test.
         </p>
       </section>
@@ -161,9 +161,6 @@ const practice = technique.recipes.map((slug) => {
     box-shadow: 0 0 0 100vmax var(--accent);
     clip-path: inset(0 -100vmax);
   }
-  .lesson-hero .eyebrow {
-    color: #e6eef1;
-  }
   h1 {
     font:
       650 clamp(2.5rem, 5vw, 4.2rem)/1.08 'Fraunces',
@@ -214,8 +211,7 @@ const practice = technique.recipes.map((slug) => {
   .control {
     display: flex;
     gap: 1rem;
-    padding: 1.2rem 0;
-    border-bottom: 1px solid var(--border-subtle);
+    padding: 1rem 0;
   }
   .control h3 {
     margin-top: 0;
@@ -248,10 +244,8 @@ const practice = technique.recipes.map((slug) => {
   }
   .cue-stage {
     display: inline-block;
-    font-size: 0.72rem;
+    font-size: 0.8rem;
     font-weight: 800;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: #fff;
     background: var(--accent-strong);
     border-radius: var(--pill);
@@ -261,16 +255,18 @@ const practice = technique.recipes.map((slug) => {
     margin: 0.5rem 0 0;
   }
   details {
-    border-bottom: 1px solid var(--border-subtle);
+    background: var(--apricot-wash);
+    border-radius: var(--radius-sm);
+    padding: 0 1.1rem;
+    margin-bottom: 0.7rem;
   }
   summary {
-    padding: 1rem 0;
+    padding: 0.9rem 0;
     cursor: pointer;
     font-weight: 600;
   }
   .experiment {
-    background: var(--bg-surface);
-    border: 1px solid var(--border-subtle);
+    background: var(--wash);
     border-radius: var(--radius);
     padding: 1.6rem;
   }
@@ -335,9 +331,6 @@ const practice = technique.recipes.map((slug) => {
       background: var(--bg-deep);
       margin: 0 -1rem;
       padding: 0.4rem 0;
-    }
-    .lesson-toc > .eyebrow {
-      display: none;
     }
     .lesson-toc nav {
       flex-direction: row;

@@ -60,7 +60,6 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   description="The family recipe box. Find tonight's dinner by course, occasion, cuisine or time, then learn why it works."
 >
   <section class="finder-hero" aria-labelledby="home-title">
-    <p class="eyebrow hero-eyebrow">The family recipe box · {recipes.length} recipes</p>
     <h1 id="home-title">What are we <em>cooking</em>?</h1>
     <div class="hero-search" role="search">
       <SearchBar id="searchInput" placeholder="Dal, tacos, chicken, browning…" />
@@ -158,10 +157,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
 
   <section class="featured-section" aria-labelledby="featured-title">
     <div class="section-heading">
-      <div>
-        <p class="eyebrow">Cook something. Learn something.</p>
-        <h2 id="featured-title">Three recipes, three useful lessons.</h2>
-      </div>
+      <h2 id="featured-title">Three recipes, three useful lessons.</h2>
       <a href={`${BASE}learn`}>All lessons ↗</a>
     </div>
     <div class="featured-grid">
@@ -170,9 +166,10 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
           <a class="featured-recipe" href={`${BASE}recipes/${recipe.slug}`}>
             <DishArt slug={recipe.slug} />
             <div class="featured-body">
-              <p class="eyebrow">{recipe.data.learning.focus}</p>
               <h3>{recipe.data.title}</h3>
-              <p>{recipe.data.learning.outcome}</p>
+              <p>
+                <strong>{recipe.data.learning.focus}.</strong> {recipe.data.learning.outcome}
+              </p>
               <span class="feature-meta">
                 <span class="time-chip" data-band={timeBand(recipe.data.totalTime).band}>
                   {timeBand(recipe.data.totalTime).short || recipe.data.totalTime}
@@ -526,16 +523,13 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
     clip-path: inset(0 -100vmax);
     text-align: center;
   }
-  .hero-eyebrow {
-    color: #e6eef1;
-  }
   h1 {
     font:
       650 clamp(2.6rem, 6vw, 4.6rem)/1.08 'Fraunces',
       Georgia,
       serif;
     letter-spacing: -0.03em;
-    margin: 0.8rem 0 1.4rem;
+    margin: 0 0 1.4rem;
   }
   h1 em {
     color: var(--on-apricot);
@@ -862,7 +856,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
       serif;
     margin: 0.5rem 0;
   }
-  .featured-body > p:not(.eyebrow) {
+  .featured-body > p {
     color: var(--text-secondary);
     font-size: 0.9rem;
     line-height: 1.6;
