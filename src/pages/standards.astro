@@ -18,12 +18,15 @@ const reviewedMeals = meals.filter(
   title="Our recipe standard | Mise"
   description="How Mise develops, reviews, and teaches recipes, and what editorial review and kitchen testing actually mean."
 >
-  <div class="standards prose-refined">
-    <p class="eyebrow">Our recipe standard</p><h1>Good recipes earn your trust.</h1><p>
+  <section class="standards-hero">
+    <h1>Good recipes <em>earn</em> your trust.</h1>
+    <p>
       Mise is growing from a family recipe collection into a kitchen that teaches. That means being
-      specific about what works, explaining why, and being honest about what has—and has not—been
+      specific about what works, explaining why, and being honest about what has, and has not, been
       tested.
     </p>
+  </section>
+  <div class="standards prose-refined">
     <div class="review-counts">
       <div><strong>{recipes.length}</strong><span>recipes in the collection</span></div><div>
         <strong>{reviewed}</strong><span>with detailed editorial review</span>
@@ -118,39 +121,79 @@ const reviewedMeals = meals.filter(
   </div>
 </Layout>
 <style>
-  .standards {
-    max-width: 800px;
-    margin: auto;
+  /* Same frame as the home page: a slate band with one apricot word, then calm reading width. */
+  .standards-hero {
+    margin: -2.5rem 0 2.4rem;
+    padding: 2.6rem 0 2.4rem;
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 0 100vmax var(--accent);
+    clip-path: inset(0 -100vmax);
   }
-  h1 {
+  .standards-hero h1 {
     font:
-      500 clamp(2.5rem, 5vw, 4.4rem)/1.1 'Fraunces',
+      650 clamp(2.5rem, 6vw, 4.4rem)/1.08 'Fraunces',
       Georgia,
       serif;
-    margin: 1.5rem 0;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.03em;
+    margin: 0 0 1rem;
+    max-width: 800px;
+    text-wrap: balance;
+  }
+  .standards-hero h1 em {
+    color: var(--on-apricot);
+    background: var(--apricot);
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 0.14em;
+    border-radius: 0.14em;
+  }
+  .standards-hero p {
+    max-width: 680px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #eef3f5;
+    margin: 0;
+  }
+  .standards {
+    max-width: 800px;
   }
   .review-counts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.2rem;
-    border-block: 1px solid var(--border-subtle);
-    padding: 1.5rem 0;
-    margin: 2rem 0;
+    gap: 0.7rem;
+    margin: 0 0 2rem;
+  }
+  .review-counts > div {
+    background: var(--time-quick);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.1rem 1.2rem;
+  }
+  .review-counts > div:nth-child(2) {
+    background: var(--time-hour);
+  }
+  .review-counts > div:nth-child(3) {
+    background: var(--time-long);
   }
   .review-counts strong {
     display: block;
     font:
-      500 2.6rem/1 'Fraunces',
+      650 2.4rem/1 'Fraunces',
       Georgia,
       serif;
-    color: var(--accent-gold);
+    color: var(--on-time);
   }
   .review-counts span {
     display: block;
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    line-height: 1.6;
-    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--on-time);
+    line-height: 1.4;
+    margin-top: 0.5rem;
+  }
+  @media (max-width: 560px) {
+    .review-counts {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

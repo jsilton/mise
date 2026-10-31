@@ -105,7 +105,6 @@ const typeCounts = Object.fromEntries(
   description="Whole dinners from the Mise recipe box, planned so every part lands on the table together."
 >
   <section class="meals-hero" aria-labelledby="meals-title">
-    <p class="eyebrow">Whole dinners · {meals.length} meals</p>
     <h1 id="meals-title">What's for <em>dinner</em>?</h1>
     <p class="lede">A main and its sides, with one plan so everything is ready at once.</p>
     <ul class="chips" role="list" aria-label="Quick picks, choose any">
@@ -234,16 +233,13 @@ const typeCounts = Object.fromEntries(
     clip-path: inset(0 -100vmax);
     text-align: center;
   }
-  .meals-hero .eyebrow {
-    color: #e6eef1;
-  }
   h1 {
     font:
       650 clamp(2.4rem, 5.5vw, 4rem)/1.1 'Fraunces',
       Georgia,
       serif;
     letter-spacing: -0.03em;
-    margin: 0.7rem 0 0.6rem;
+    margin: 0 0 0.6rem;
   }
   h1 em {
     color: var(--on-apricot);

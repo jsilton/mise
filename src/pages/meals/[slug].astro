@@ -66,7 +66,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
     <header
       data-meal-header
       class="mb-8 rounded-2xl overflow-hidden"
-      style={`background: linear-gradient(to bottom, var(--bg-elevated), var(--bg-surface)); border: 1px solid var(--border-subtle);`}
+      style={`background: var(--bg-surface);`}
     >
       <div class="p-6 sm:p-8">
         <img
@@ -84,7 +84,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
           {
             meal.data.template && (
               <span
-                class="shrink-0 inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide"
+                class="shrink-0 inline-flex items-center px-3 py-1 rounded-full text-sm font-bold"
                 style={`background: ${templateColors[meal.data.template]?.bg || 'var(--bg-hover)'}; color: ${templateColors[meal.data.template]?.text || 'var(--text-secondary)'};`}
               >
                 {templateLabels[meal.data.template] || meal.data.template}
@@ -185,12 +185,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
       )
     }
     <section data-meal-components class="mb-8">
-      <h2
-        class="text-xs font-semibold uppercase tracking-wider mb-3"
-        style="color: var(--text-tertiary);"
-      >
-        Recipes in This Meal
-      </h2>
+      <h2 class="sec-h">Recipes in this meal</h2>
       <div
         class="rounded-xl overflow-hidden"
         style={`background: var(--bg-surface); border: 1px solid var(--border-subtle);`}
@@ -200,14 +195,8 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
             <a
               href={`${import.meta.env.BASE_URL}recipes/${meal.data.main}`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
-              style={`border-bottom: 1px solid var(--border-subtle);`}
             >
-              <span
-                class="w-20 flex-shrink-0 text-xs font-semibold uppercase tracking-wider"
-                style="color: var(--text-tertiary);"
-              >
-                Main
-              </span>
+              <span class="role-tag">Main</span>
               <span
                 class="recipe-link-name flex-1 font-medium transition-colors"
                 style="color: var(--text-primary);"
@@ -238,14 +227,8 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
               <a
                 href={`${import.meta.env.BASE_URL}recipes/${side}`}
                 class="recipe-link flex items-center gap-4 p-4 transition-colors group"
-                style={`border-bottom: 1px solid var(--border-subtle);`}
               >
-                <span
-                  class="w-20 flex-shrink-0 text-xs font-semibold uppercase tracking-wider"
-                  style="color: var(--text-tertiary);"
-                >
-                  Side
-                </span>
+                <span class="role-tag">Side</span>
                 <span
                   class="recipe-link-name flex-1 font-medium transition-colors"
                   style="color: var(--text-primary);"
@@ -275,14 +258,8 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
             <a
               href={`${import.meta.env.BASE_URL}recipes/${meal.data.base}`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
-              style={`border-bottom: 1px solid var(--border-subtle);`}
             >
-              <span
-                class="w-20 flex-shrink-0 text-xs font-semibold uppercase tracking-wider"
-                style="color: var(--text-tertiary);"
-              >
-                Base
-              </span>
+              <span class="role-tag">Base</span>
               <span
                 class="recipe-link-name flex-1 font-medium transition-colors"
                 style="color: var(--text-primary);"
@@ -312,14 +289,8 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
             <a
               href={`${import.meta.env.BASE_URL}recipes/${meal.data.salad}`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
-              style={`border-bottom: 1px solid var(--border-subtle);`}
             >
-              <span
-                class="w-20 flex-shrink-0 text-xs font-semibold uppercase tracking-wider"
-                style="color: var(--text-tertiary);"
-              >
-                Salad
-              </span>
+              <span class="role-tag">Salad</span>
               <span
                 class="recipe-link-name flex-1 font-medium transition-colors"
                 style="color: var(--text-primary);"
@@ -349,14 +320,8 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
             <a
               href={`${import.meta.env.BASE_URL}recipes/${meal.data.sauce}`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
-              style={`border-bottom: 1px solid var(--border-subtle);`}
             >
-              <span
-                class="w-20 flex-shrink-0 text-xs font-semibold uppercase tracking-wider"
-                style="color: var(--text-tertiary);"
-              >
-                Sauce
-              </span>
+              <span class="role-tag">Sauce</span>
               <span
                 class="recipe-link-name flex-1 font-medium transition-colors"
                 style="color: var(--text-primary);"
@@ -387,12 +352,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
               href={`${import.meta.env.BASE_URL}recipes/${meal.data.dessert}`}
               class="recipe-link flex items-center gap-4 p-4 transition-colors group"
             >
-              <span
-                class="w-20 flex-shrink-0 text-xs font-semibold uppercase tracking-wider"
-                style="color: var(--text-tertiary);"
-              >
-                Dessert
-              </span>
+              <span class="role-tag">Dessert</span>
               <span
                 class="recipe-link-name flex-1 font-medium transition-colors"
                 style="color: var(--text-primary);"
@@ -423,12 +383,7 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
     {
       meal.data.cuisines && meal.data.cuisines.length > 0 && (
         <section data-meal-tags class="mb-8">
-          <h2
-            class="text-xs font-semibold uppercase tracking-wider mb-3"
-            style="color: var(--text-tertiary);"
-          >
-            Cuisines
-          </h2>
+          <h2 class="sec-h">Cuisines</h2>
           <div class="flex flex-wrap gap-2">
             {meal.data.cuisines.map((cuisine) => (
               <span
@@ -455,6 +410,26 @@ const templateColors: Record<string, { bg: string; text: string }> = Object.from
 </Layout>
 
 <style>
+  .sec-h {
+    font:
+      650 1.4rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    color: var(--text-primary);
+    margin: 0 0 0.8rem;
+  }
+  /* The course sits in a small pill beside the recipe name, in sentence case like the rest of the site. */
+  .role-tag {
+    flex: none;
+    width: 4.6rem;
+    text-align: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: var(--wash);
+    color: var(--accent-strong);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
   .print-wordmark {
     display: none;
   }

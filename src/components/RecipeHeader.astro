@@ -28,11 +28,6 @@ const splitTimes = [
     >
   </nav>
   <div class="recipe-intro">
-    <p class="eyebrow">
-      {data.learning ? 'Cook & understand' : 'From the collection'}
-      <span aria-hidden="true"> / </span>
-      {data.difficulty || 'All levels'}
-    </p>
     <h1>{data.title}</h1>
     {data.description && <p class="recipe-description">{data.description}</p>}
     <dl class="recipe-facts">
@@ -55,7 +50,7 @@ const splitTimes = [
       {
         data.servings && (
           <div class="fact">
-            <dt>Serves / makes</dt>
+            <dt>{/^[\d\s–-]+$/.test(String(data.servings)) ? 'Serves' : 'Makes'}</dt>
             <dd data-header-yield="">{data.servings}</dd>
           </div>
         )
@@ -174,7 +169,7 @@ const splitTimes = [
       Georgia,
       serif;
     letter-spacing: -0.025em;
-    margin: 0.8rem 0 1.2rem;
+    margin: 0.4rem 0 1.2rem;
     text-wrap: balance;
   }
   .recipe-description {
@@ -218,10 +213,8 @@ const splitTimes = [
   }
   dt {
     color: var(--text-secondary);
-    font-size: 0.68rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    font-size: 0.85rem;
+    font-weight: 600;
   }
   dd {
     margin-top: 0.3rem;
