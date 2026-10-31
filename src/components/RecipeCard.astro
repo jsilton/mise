@@ -73,7 +73,7 @@ const primaryDietaryTag =
     </h2>
 
     <!-- Key Tags -->
-    <div class="flex flex-wrap gap-2 mb-3">
+    <div class="card-tags flex flex-wrap gap-2 mb-3">
       {
         recipe.data.cuisines?.[0] && (
           <TagBadge tag={recipe.data.cuisines[0]} category="cuisine" size="sm" />
@@ -173,6 +173,11 @@ const primaryDietaryTag =
     .card-description,
     .card-lesson {
       display: none;
+    }
+    .card-tags {
+      flex-wrap: nowrap;
+      overflow: hidden;
+      margin-bottom: 0.4rem;
     }
     .card-time {
       padding-top: 0.2rem;

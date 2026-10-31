@@ -1,41 +1,65 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { techniques } from '../../data/techniques';
+import DishArt from '../../components/DishArt.astro';
+import { dishVisuals } from '../../data/dish-visuals';
 const BASE = import.meta.env.BASE_URL;
+// Each lesson shows the painting of a recipe that practises it, when one exists.
+const artFor = (slugs: string[]) => slugs.find((slug) => dishVisuals[slug]);
 ---
 
 <Layout
   title="Learn to cook with understanding | Mise"
   description="Practical lessons in heat, proteins, starch, leavening, emulsions, and seasoning, with cooking cues and recipes to practice."
 >
-  <p class="eyebrow">The learning kitchen</p>
-  <h1>A better cook.<br /><em>One understanding at a time.</em></h1>
-  <p class="intro">
-    Recipes get dinner on the table. Understanding helps you adapt when the pan, the ingredients, or
-    the evening has other ideas.
-  </p>
-  <div class="learning-path">
-    <span class="eyebrow">A good place to begin</span><a href={`${BASE}learn/browning`}
-      >01 · Manage heat</a
-    ><span aria-hidden="true">→</span><a href={`${BASE}learn/emulsions`}>02 · Build a sauce</a><span
-      aria-hidden="true">→</span
-    ><a href={`${BASE}learn/seasoning`}>03 · Trust your taste</a>
-  </div>
+  <section class="learn-hero">
+    <p class="eyebrow">The learning kitchen · {techniques.length} lessons</p>
+    <h1>A better cook, <em>one idea</em> at a time.</h1>
+    <p class="intro">
+      Recipes get dinner on the table. Understanding helps you adapt when the pan, the ingredients,
+      or the evening has other ideas.
+    </p>
+  </section>
+  <section class="path" aria-labelledby="path-title">
+    <h2 class="sec-h" id="path-title">A good place to begin</h2>
+    <ol class="path-steps">
+      <li>
+        <a href={`${BASE}learn/browning`}
+          ><span class="num" aria-hidden="true">1</span><span>Manage heat</span></a
+        >
+      </li>
+      <li>
+        <a href={`${BASE}learn/emulsions`}
+          ><span class="num" aria-hidden="true">2</span><span>Build a sauce</span></a
+        >
+      </li>
+      <li>
+        <a href={`${BASE}learn/seasoning`}
+          ><span class="num" aria-hidden="true">3</span><span>Trust your taste</span></a
+        >
+      </li>
+    </ol>
+  </section>
+  <h2 class="sec-h">Every lesson</h2>
   <div class="technique-grid">
     {
-      techniques.map((technique, i) => (
-        <a class="technique-card" href={`${BASE}learn/${technique.slug}`}>
-          <>
-            <span class="lesson-number">{String(i + 1).padStart(2, '0')}</span>
-            <p class="eyebrow">{technique.category}</p>
-            <h2>{technique.title}</h2>
-            <p>{technique.summary}</p>
-            <span class="read-link">
-              Explore the lesson <span aria-hidden="true">↗</span>
-            </span>
-          </>
-        </a>
-      ))
+      techniques.map((technique) => {
+        const art = artFor(technique.recipes);
+        return (
+          <a class="technique-card" href={`${BASE}learn/${technique.slug}`}>
+            {art && <DishArt slug={art} />}
+            <div class="technique-body">
+              <p class="category">{technique.category}</p>
+              <h3>{technique.title}</h3>
+              <p>{technique.summary}</p>
+              <span class="read-link">
+                {technique.recipes.length} recipe{technique.recipes.length === 1 ? '' : 's'} to
+                practise <span aria-hidden="true">→</span>
+              </span>
+            </div>
+          </a>
+        );
+      })
     }
   </div>
   <p class="editorial-note">
@@ -44,80 +68,134 @@ const BASE = import.meta.env.BASE_URL;
   </p>
 </Layout>
 <style>
+  .learn-hero {
+    margin: -2.5rem 0 0;
+    padding: 2.6rem 0 2.4rem;
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 0 100vmax var(--accent);
+    clip-path: inset(0 -100vmax);
+  }
+  .learn-hero .eyebrow {
+    color: #e6eef1;
+  }
   h1 {
     font:
-      500 clamp(2.5rem, 5vw, 4.6rem)/1.05 'Fraunces',
+      650 clamp(2.5rem, 5vw, 4.2rem)/1.08 'Fraunces',
       Georgia,
       serif;
     letter-spacing: -0.03em;
-    margin: 1.5rem 0;
+    margin: 0.8rem 0 1rem;
+    max-width: 14em;
   }
   h1 em {
-    color: var(--accent-gold);
-    font-weight: 400;
+    color: var(--on-apricot);
+    background: var(--apricot);
+    font-weight: 600;
+    padding: 0 0.14em;
+    border-radius: 0.14em;
   }
   .intro {
     max-width: 640px;
-    color: var(--text-secondary);
-    line-height: 1.8;
+    color: #f7f6f2;
+    line-height: 1.7;
     font-size: 1.05rem;
   }
-  .learning-path {
-    display: flex;
-    gap: 1rem 1.5rem;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 1.5rem 0;
-    margin: 2.5rem 0;
-    border-block: 1px solid var(--border-subtle);
-    font-size: 0.85rem;
+  .sec-h {
+    font:
+      650 1.5rem/1.2 'Fraunces',
+      Georgia,
+      serif;
+    margin: 0 0 0.9rem;
   }
-  .learning-path > span[aria-hidden] {
-    color: var(--accent-gold);
+  .path {
+    padding: 2rem 0 2.5rem;
+  }
+  .path-steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.7rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .path-steps a {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-height: 56px;
+    padding: 0.7rem 1rem;
+    border-radius: var(--radius);
+    background: var(--wash);
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .path-steps a:hover {
+    background: var(--bg-hover);
+  }
+  .num {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--accent-strong);
+    color: #fff;
+    font-size: 0.85rem;
   }
   .technique-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 1rem;
   }
   .technique-card {
-    position: relative;
-    border: 1px solid var(--border-subtle);
-    padding: 2rem;
-    background: var(--bg-surface);
     display: flex;
     flex-direction: column;
-    transition: border-color 0.2s;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius);
+    background: var(--bg-surface);
+    overflow: hidden;
   }
   .technique-card:hover {
-    border-color: var(--accent-gold);
+    border-color: var(--accent-muted);
+    box-shadow: 0 6px 18px rgba(31, 52, 64, 0.08);
   }
-  .lesson-number {
-    font:
-      400 2rem/1 'Fraunces',
-      Georgia,
-      serif;
+  .technique-card :global(.dish-art) {
+    background: var(--bg-elevated);
+  }
+  .technique-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.1rem 1.25rem 1.25rem;
+  }
+  .category {
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: var(--text-tertiary);
-    margin-bottom: 2rem;
+    margin: 0;
   }
-  h2 {
+  h3 {
     font:
-      500 2.1rem/1.15 'Fraunces',
+      650 1.45rem/1.2 'Fraunces',
       Georgia,
       serif;
-    margin: 0.8rem 0;
+    margin: 0.4rem 0 0.5rem;
   }
-  .technique-card > p:not(.eyebrow) {
+  .technique-body > p:not(.category) {
     color: var(--text-secondary);
-    line-height: 1.7;
-    max-width: 350px;
+    line-height: 1.6;
     font-size: 0.95rem;
   }
   .read-link {
     margin-top: auto;
-    padding-top: 1.8rem;
-    font-size: 0.8rem;
-    color: var(--accent-gold);
+    padding-top: 1rem;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--accent-link);
   }
   .editorial-note {
     color: var(--text-secondary);
@@ -126,14 +204,11 @@ const BASE = import.meta.env.BASE_URL;
     margin-top: 2rem;
   }
   .editorial-note a {
-    color: var(--accent-gold);
+    color: var(--accent-link);
   }
-  @media (max-width: 600px) {
-    .technique-grid {
+  @media (max-width: 640px) {
+    .path-steps {
       grid-template-columns: 1fr;
-    }
-    .technique-card {
-      padding: 1.5rem;
     }
   }
 </style>
