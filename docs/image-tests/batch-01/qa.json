@@ -1,0 +1,888 @@
+{
+  "checked_at_utc": "2026-10-31T18:51:00Z",
+  "stage": "local visual review; not deployed",
+  "method": "Every original and central-half crop visually inspected; 64x64 RGB means sampled at four corners excluding dish/shadow. Optional props omitted. No final image pixel manipulation.",
+  "limits": "Backgrounds are visually flat but generated RGB colors are not pixel-exact matches to requested hex codes.",
+  "images": [
+    {
+      "recipe": "dal-tadka",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "bc89ab073d87ffe4e32a43864b04563f490ea93ac23314ca8beb9222aea34576",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          251.69,
+          210.29,
+          115.59
+        ],
+        [
+          251.8,
+          210.41,
+          115.91
+        ],
+        [
+          251.55,
+          210.33,
+          116.53
+        ],
+        [
+          251.8,
+          210.93,
+          117.22
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.63,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "beef-and-broccoli-stir-fry",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fdf106730064b9b544a17b77487e10fa6e32ff4c4c152d5ff5a018add1f78ea0",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.5,
+          210.47,
+          114.79
+        ],
+        [
+          252.61,
+          210.73,
+          115.14
+        ],
+        [
+          252.41,
+          210.39,
+          115.2
+        ],
+        [
+          252.57,
+          210.51,
+          114.92
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.41,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "real-spaghetti-carbonara",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "e40c2c7f098b2a496db43051fbd17d553f118938ddc4fd90c7533d19bce6a295",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          190.6,
+          230.34,
+          248.62
+        ],
+        [
+          190.2,
+          230.1,
+          248.48
+        ],
+        [
+          190.77,
+          230.32,
+          248.62
+        ],
+        [
+          190.65,
+          230.3,
+          248.55
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.57,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "smashed-cucumber-salad",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "516a294cee1167d63f676b1e000913f984ed612e24a5b266a4ff50406ce63efe",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          192.86,
+          231.24,
+          248.6
+        ],
+        [
+          192.42,
+          231.09,
+          248.54
+        ],
+        [
+          193.36,
+          231.4,
+          248.72
+        ],
+        [
+          193.04,
+          231.33,
+          248.56
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.95,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "blueberry-pancakes",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "708d8402dec7c60450084f7b2f86cac6bfd906ff4981287588e32c608800b384",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          197.12,
+          229.67,
+          244.29
+        ],
+        [
+          197.23,
+          229.76,
+          244.31
+        ],
+        [
+          197.8,
+          229.97,
+          244.54
+        ],
+        [
+          197.71,
+          230.05,
+          244.57
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.68,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "gambas-al-ajillo",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "e4ac5a3a1c1472759cae0236fd8589bb97d818379c2bef2a10ba576d235b78ff",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          193.41,
+          229.29,
+          245.77
+        ],
+        [
+          193.23,
+          229.27,
+          245.69
+        ],
+        [
+          193.98,
+          229.51,
+          246.06
+        ],
+        [
+          193.89,
+          229.56,
+          245.97
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.74,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "old-fashioned",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "b02ff805e43790f2ce50ecb7d1fc84d62fcedcb7b8fb58cb130fc59f945d60fd",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          198.32,
+          229.37,
+          242.62
+        ],
+        [
+          198.26,
+          229.42,
+          242.66
+        ],
+        [
+          199.15,
+          229.67,
+          243.02
+        ],
+        [
+          198.76,
+          229.61,
+          242.94
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.89,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "roasted-asparagus",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "4a4792f58388eeb8537397bc7add59def44225b9c25501abd393a49c94330638",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          204.07,
+          230.97,
+          243.62
+        ],
+        [
+          203.96,
+          231.03,
+          243.67
+        ],
+        [
+          204.47,
+          231.09,
+          243.67
+        ],
+        [
+          204.52,
+          231.26,
+          243.79
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.55,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "chicken-katsu-curry",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f31af5605f6b9ee85a6a33f1adf19bb8b1e7f48bc4ac6b0a849d8d517bedbfd1",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          249.85,
+          209.78,
+          120.16
+        ],
+        [
+          249.87,
+          209.73,
+          120.22
+        ],
+        [
+          249.81,
+          209.71,
+          120.71
+        ],
+        [
+          250.01,
+          210.24,
+          120.99
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.83,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "crustless-spinach-quiche",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2e618aaf62724c27c385619b8f8c0ea337fb82604216ac5cd0a7220493be5c91",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          251.26,
+          209.98,
+          116.85
+        ],
+        [
+          251.24,
+          209.67,
+          116.43
+        ],
+        [
+          251.29,
+          210.17,
+          117.59
+        ],
+        [
+          251.37,
+          209.99,
+          116.76
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.16,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "moms-famous-chocolate-cake",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fd520a64c583bc818fa8cbd2d53b74ea8a73221447c27bbe28df77cb8ed6e658",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          250.83,
+          210.5,
+          116.14
+        ],
+        [
+          250.82,
+          210.58,
+          116.6
+        ],
+        [
+          250.61,
+          210.28,
+          116.38
+        ],
+        [
+          250.9,
+          210.63,
+          116.58
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.47,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "kimchi-jjigae-kimchi-stew",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "5d3a62354099b7fff3cde9c8087a98d6835330bd81e6ef85b35610e660ada741",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.59,
+          211.04,
+          117.02
+        ],
+        [
+          252.55,
+          210.82,
+          116.97
+        ],
+        [
+          252.57,
+          211.15,
+          117.68
+        ],
+        [
+          252.66,
+          211.46,
+          118.01
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.04,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "cast-iron-buttermilk-biscuits",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "7870a67f09bdf3f60ea8ad6058f08a8c42542fe05b1090faa6addbcd7ab38643",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.12,
+          214.32,
+          120.02
+        ],
+        [
+          252.41,
+          214.42,
+          119.48
+        ],
+        [
+          252.0,
+          214.3,
+          120.09
+        ],
+        [
+          252.42,
+          214.33,
+          118.57
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.52,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "chicken-pho",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "8ab2b85be5c059141915bb5f8b5a0e7267d2c0bac80528fa27e380705f5ab23b",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.8,
+          176.18,
+          120.33
+        ],
+        [
+          252.8,
+          176.41,
+          120.84
+        ],
+        [
+          252.64,
+          176.38,
+          120.92
+        ],
+        [
+          252.63,
+          175.61,
+          119.97
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.95,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "grandmommys-pecan-pie",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "68db7720f6305dd2958f07be8300a57bb3ec32cd28accda47c30d16bb285e40a",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          253.04,
+          172.93,
+          121.19
+        ],
+        [
+          253.12,
+          173.08,
+          121.64
+        ],
+        [
+          252.89,
+          172.72,
+          121.31
+        ],
+        [
+          253.02,
+          172.73,
+          121.1
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.55,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "chef-krigers-recipe-shabbat-brisket",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "884f12b1005dbfb12fccc1a6ddfb632b495f293df25402f64dac395af79ad963",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.83,
+          175.91,
+          123.79
+        ],
+        [
+          252.82,
+          176.44,
+          124.82
+        ],
+        [
+          252.45,
+          175.31,
+          123.39
+        ],
+        [
+          252.61,
+          175.36,
+          123.45
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.43,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "heirloom-tomato-pesto-and-ricotta-galette",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "805974d53e74c2d3e4416a35af1a27ded100fb2bcd877159e41e830a194da12e",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.91,
+          174.86,
+          121.12
+        ],
+        [
+          252.98,
+          174.8,
+          121.11
+        ],
+        [
+          252.86,
+          174.54,
+          120.8
+        ],
+        [
+          252.92,
+          174.27,
+          120.34
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.78,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "mediterranean-grain-salad",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "1a91af372df6e0b6dc468ea2484d82a600528383290dbf98a9ee7ae768f38364",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          253.04,
+          173.16,
+          118.56
+        ],
+        [
+          253.09,
+          173.29,
+          118.83
+        ],
+        [
+          252.98,
+          173.04,
+          118.62
+        ],
+        [
+          253.09,
+          172.98,
+          118.49
+        ]
+      ],
+      "max_corner_mean_channel_range": 0.34,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "healthy-banana-bread",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "0cf72a78aadc6a2d35883a903d55f038fb5783c383b317f018a23c9b4675fd71",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.64,
+          173.59,
+          123.73
+        ],
+        [
+          252.74,
+          174.26,
+          124.73
+        ],
+        [
+          252.5,
+          173.4,
+          123.78
+        ],
+        [
+          252.62,
+          173.35,
+          123.55
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.17,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    },
+    {
+      "recipe": "chicken-tikka-masala",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "76dd247494f1a170a4691f4a635555069db3455a541b985f3cc44999475a87fb",
+      "crop_bounds": [
+        384,
+        0,
+        1152,
+        1024
+      ],
+      "corner_mean_rgb": [
+        [
+          252.64,
+          176.44,
+          122.64
+        ],
+        [
+          252.73,
+          177.04,
+          123.58
+        ],
+        [
+          252.55,
+          176.37,
+          122.71
+        ],
+        [
+          252.68,
+          176.03,
+          121.98
+        ]
+      ],
+      "max_corner_mean_channel_range": 1.6,
+      "visual_checks": {
+        "whole_vessel_inside_middle_half": true,
+        "no_steam": true,
+        "no_unlisted_food_or_garnish": true,
+        "optional_prop_count": 0,
+        "no_visible_background_gradient": true
+      }
+    }
+  ]
+}
