@@ -126,7 +126,11 @@ export function fill(templateKey, vars) {
     !vars.props || vars.props === 'none'
       ? 'No props.'
       : `At most one small prop, near the edge of the frame and well away from the dish: ${vars.props}.`;
-  const all = { ...fixed, props_line, ...vars };
+  const garnish_line =
+    !vars.garnish || vars.garnish === 'nothing extra'
+      ? 'No garnish.'
+      : `Garnish, and nothing else on the food: ${vars.garnish}.`;
+  const all = { ...fixed, props_line, garnish_line, ...vars };
   return t.text
     .join(' ')
     .replace(/\{(\w+)\}/g, (_, k) => {

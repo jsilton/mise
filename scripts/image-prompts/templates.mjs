@@ -13,7 +13,7 @@ export const templates = {
     text: [
       'Bright, true-to-life cookbook photograph of {dish}.',
       'The dish: {finished_look}. Show {hero}. Texture: {texture}.',
-      'Colours: {colours}. Serving dish: {vessel}. Garnish, and nothing else on the food: {garnish}. Setting: {setting}.',
+      'Colours: {colours}. Serving dish: {vessel}. {garnish_line} Setting: {setting}.',
       'Camera at about 40 degrees, 50mm lens, the whole dish in sharp focus.',
       'Soft, even daylight from the upper left, with one short soft shadow to the lower right.',
       'Background: a smooth, matte, seamless {background} surface and wall, one flat colour edge to edge, evenly lit, with no vignette, no gradient, no darker corners and no horizon line.',
