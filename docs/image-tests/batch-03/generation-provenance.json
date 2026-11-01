@@ -1,0 +1,2547 @@
+[
+  {
+    "worker": "worker-01",
+    "assigned_entries": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "reference": "margarita-01-cookbook.png",
+    "mode": "built-in image_gen",
+    "attempts": [
+      {
+        "entry": 1,
+        "attempt": 1,
+        "prompt": "prompts/brasato-al-barolo.txt",
+        "generated_path": "exec-d48fc58b-4b2e-4d65-a941-1df20cd4b38e.png",
+        "status": "rejected",
+        "qa": "Plate approximately70%wide, exceeds central crop; sauce too chunky.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "references": [
+          "margarita-01-cookbook.png"
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 2,
+        "prompt": "prompts/brasato-al-barolo-attempt-02.txt",
+        "generated_path": "exec-b6b88440-f747-4ffb-8e36-a61c0e95363e.png",
+        "status": "rejected",
+        "qa": "Plate x375..1149 slightly outside central crop; sauce chunky",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "references": [
+          "margarita-01-cookbook.png",
+          "exec-d48fc58b-4b2e-4d65-a941-1df20cd4b38e.png"
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 3,
+        "prompt": "prompts/brasato-al-barolo-attempt-03.txt",
+        "generated_path": "exec-e81eb212-301b-4633-ad7d-12b29e96c830.png",
+        "status": "rejected",
+        "qa": "Plate x372..1151 slightly outside crop",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "references": [
+          "margarita-01-cookbook.png",
+          "exec-b6b88440-f747-4ffb-8e36-a61c0e95363e.png"
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 4,
+        "prompt": "prompts/brasato-al-barolo-attempt-04.txt",
+        "generated_path": "exec-053a3af4-4333-442f-8687-bbedb2376a8c.png",
+        "status": "rejected",
+        "qa": "Plate only26%width, too small",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "references": [
+          "margarita-01-cookbook.png",
+          "exec-e81eb212-301b-4633-ad7d-12b29e96c830.png"
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 5,
+        "prompt": "prompts/brasato-al-barolo-attempt-05.txt",
+        "generated_path": "exec-ea8170bd-ab63-4622-b09b-c7e91a895d08.png",
+        "status": "rejected",
+        "qa": "Plate59%width, too large;food too red",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "references": [
+          "margarita-01-cookbook.png",
+          "exec-053a3af4-4333-442f-8687-bbedb2376a8c.png"
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 6,
+        "prompt": "prompts/brasato-al-barolo-attempt-06.txt",
+        "generated_path": "exec-25969e4f-5040-497c-b275-fb869f6ac1eb.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Three thick beef slices, rosemary, glossy dark burgundy sauce; ~45%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/brasato-al-barolo.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "1377fbcdb2ea891bbc0ca3cb0be1523f552bc8523ed346c0563c19a573d1184d",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 2,
+        "attempt": 1,
+        "prompt": "prompts/breakfast-burrito.txt",
+        "generated_path": "exec-64933e3b-da58-4e59-8929-9b6fd2b4d893.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Accepted with caveat: approx51%width and central-half crop loses tiny outer rim edges; all food safe. Correct egg/cheddar/bacon/pepper burrito halves, no garnish. No steam or props; blue flat backdrop. Replaced by selected attempt2.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 3,
+        "attempt": 1,
+        "prompt": "prompts/breakfast-carrot-cake.txt",
+        "generated_path": "exec-552702c2-2884-4e9b-a546-816bba53b9c2.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Approx42%width, full central crop. Square carrot cake, thin yogurt frosting, cinnamon. No steam or props; flat yellow backdrop. Replaced by selected attempt3.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 4,
+        "attempt": 1,
+        "prompt": "prompts/breakfast-egg-cups.txt",
+        "generated_path": "exec-53580520-a0e4-4ab5-8bb6-0a623b2649ff.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Accepted with caveat: approx50%width and central-half crop touches/slightly trims left rim only; all food safe. Four eggcups, one halved, correct spinach/redpepper/cheddar. No steam or props; flat yellow backdrop. Replaced by selected attempt2.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 5,
+        "attempt": 1,
+        "prompt": "prompts/breakfast-protein-biscuits.txt",
+        "generated_path": "exec-646c24bd-e65b-4fe5-a07a-5dbb7573ab43.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Three ham/cheddar/spinach biscuits with one split and chives; ~47%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/breakfast-protein-biscuits.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "9725f6274aeef8c45832bdc211b57713089c9dab5639370c7fcd141803a441cd",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 6,
+        "attempt": 1,
+        "prompt": "prompts/breakfast-quesadilla.txt",
+        "generated_path": "exec-9c152b9d-44df-4fc0-b15a-d0611ddefdd2.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Four egg/cheddar quesadilla wedges plus salsa and sourcream; ~46%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/breakfast-quesadilla.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "341223bafaa216eb47b7a9f09a8f425719ae8c5f74c91d1a8ce64e4f8d970a6d",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 7,
+        "attempt": 1,
+        "prompt": "prompts/brisket-with-carrots-and-onions.txt",
+        "generated_path": "exec-db189753-8d2e-4a72-b9f0-215e1590a916.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Thick brisket slices, carrots, onions, red sauce and parsley; ~46%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/brisket-with-carrots-and-onions.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "040bc20e79e028054a4f4135763c740e00ffed135f9de3022f681d3873dc2e62",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 8,
+        "attempt": 1,
+        "prompt": "prompts/broccoli-all-agro.txt",
+        "generated_path": "exec-eeec8d28-d441-4515-9176-e5d9a893f9a1.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Glossy broccoli florets with lemonzest; ~48%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/broccoli-all-agro.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "d5085016977021555de2f4d3775046dbfa224d657633a8a711a554d4c874af3a",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 9,
+        "attempt": 1,
+        "prompt": "prompts/broccoli-cheddar-quinoa-bites.txt",
+        "generated_path": "exec-da7ac4ce-3077-49d4-b34e-1a3761004241.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "rejected",
+        "qa": "Only seven distinct bites visible; requested eight.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 10,
+        "attempt": 1,
+        "prompt": "prompts/broccolini-chicken-sausage-and-orzo-skillet.txt",
+        "generated_path": "exec-f89b916b-e405-4bdd-bcaf-c18185896008.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Creamy orzo, broccolini, browned chicken sausage and grated Parmesan; ~46%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/broccolini-chicken-sausage-and-orzo-skillet.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "7c8ade4a81ac1a107e72db3707f6b156cba2cdb6a3f2a516f78e592e3b8d104f",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 9,
+        "attempt": 2,
+        "prompt": "prompts/broccoli-cheddar-quinoa-bites-attempt-02.txt",
+        "generated_path": "exec-a53918c4-3fbf-4c70-a5eb-5bb88270b365.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/broccoli-cheddar-quinoa-bites.png"
+        ],
+        "status": "accepted",
+        "qa": "Eight distinct broccoli/cheddar/quinoa bites after count correction, greenonions; ~45%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/broccoli-cheddar-quinoa-bites.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "f977b5f32d2bf555bd7e2bbdcdd762ea727337266b6cb7a19d06266e611a7198",
+        "final_byte_identical_to_generated": true,
+        "edit_target_source_snapshot": "exec-da7ac4ce-3077-49d4-b34e-1a3761004241.png",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 11,
+        "attempt": 1,
+        "prompt": "prompts/brown-butter-carrot-cake.txt",
+        "generated_path": "exec-4ded1556-34e2-4fef-ac00-91a2b18e3d4c.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": " Replaced by selected attempt3.",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 12,
+        "attempt": 1,
+        "prompt": "prompts/brown-butter-chocolate-souffle.txt",
+        "generated_path": "exec-94fa3f14-86bf-46ca-89ef-264b79ff353f.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Risen dark chocolate souffle in white ramekin on plate, powdered sugar only; ~42%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/brown-butter-chocolate-souffle.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "44accc3ee7e8368b3d909e39a39fde7fd7c7e4a236e5406f833059911ca9b87a",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 13,
+        "attempt": 1,
+        "prompt": "prompts/brownie-baked-oatmeal.txt",
+        "generated_path": "exec-50a8a3ec-fda5-4b88-9d6f-f2b28cf1e7ef.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Dark chocolate baked oatmeal, melted chips and saltflakes in oval baking dish; ~48%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/brownie-baked-oatmeal.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "1e7e3db9b460ab109c9f80d1a107c9c1ed8111ba4de5e80bb836e11d307b4a48",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 14,
+        "attempt": 1,
+        "prompt": "prompts/brownie-protein-balls.txt",
+        "generated_path": "exec-dbc09e93-5f09-4c12-9023-43b77aba3dea.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Dark chocolate protein balls, some cocoa-dusted, cut fudgy face visible; ~44%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/brownie-protein-balls.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "174d2f9305b0e3d8f8b385035a31b99d560972d345573cb78615253f6b3e26b0",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 15,
+        "attempt": 1,
+        "prompt": "prompts/build-your-own-taco-bar.txt",
+        "generated_path": "exec-8f20a1bc-5ac1-44ef-92c1-024c850bce27.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": " Replaced by selected attempt2.",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 16,
+        "attempt": 1,
+        "prompt": "prompts/buttered-egg-noodles.txt",
+        "generated_path": "exec-69fad9bb-d9cf-4e84-876a-cbcdc83534bc.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Wide buttery egg noodles with parsley and pepper; ~48%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/buttered-egg-noodles.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "e8b3f4dd3129503b8ff46d169fa6d79c5b2827202b4a8a9b1dcf0b05ea236bad",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 17,
+        "attempt": 1,
+        "prompt": "prompts/buttermilk-baked-chicken.txt",
+        "generated_path": "exec-3f2e95cd-4354-48bf-8a6c-eca873be1c8c.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Three cornflake-crusted chicken pieces: drumstick, thigh, breast, thyme; ~47%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/buttermilk-baked-chicken.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "653de0f5081eff4845f904eedb91813820e32a51d7bf2d3ffae20f8db34bdfae",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 2,
+        "attempt": 2,
+        "prompt": "prompts/breakfast-burrito-attempt-02.txt",
+        "generated_path": "exec-cf0569ab-b382-4dd6-b32e-73b873372336.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/breakfast-burrito.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Burrito halves with eggs/cheddar/bacon/peppers. Targeted correction preserves food and fixes tiny rim clipping; ~41%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/breakfast-burrito.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "d4eeba63e52da1bfb5c973f1ef75089dfae8f5ac5a6133ff2c2f99b010db5243",
+        "final_byte_identical_to_generated": true,
+        "edit_target_source_snapshot": "exec-64933e3b-da58-4e59-8929-9b6fd2b4d893.png",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 4,
+        "attempt": 2,
+        "prompt": "prompts/breakfast-egg-cups-attempt-02.txt",
+        "generated_path": "exec-ffd1862e-0658-434a-bdd3-206b3945bdd9.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/breakfast-egg-cups.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Four egg cups with one split, spinach/pepper/cheddar. Targeted correction fixes tiny rim clipping; ~43%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/breakfast-egg-cups.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "5b5b62e95d839feca2c196bc653ec387c6644d3fec6415642a3ddc55f9ea522f",
+        "final_byte_identical_to_generated": true,
+        "edit_target_source_snapshot": "exec-53580520-a0e4-4ab5-8bb6-0a623b2649ff.png",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 15,
+        "attempt": 2,
+        "prompt": "prompts/build-your-own-taco-bar-attempt-02.txt",
+        "generated_path": "exec-7cf2c319-4b76-445f-8f6c-23975920990d.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/build-your-own-taco-bar.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Three chicken/cabbage/tomato/onion/cilantro tacos with lime wedge. Targeted correction fixes tiny rim clipping; ~42%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/build-your-own-taco-bar.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "241939bdec57898670c5ca4f88fcc73746fffbc0199b2a18362d242c64247d32",
+        "final_byte_identical_to_generated": true,
+        "edit_target_source_snapshot": "exec-8f20a1bc-5ac1-44ef-92c1-024c850bce27.png",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 3,
+        "attempt": 2,
+        "prompt": "prompts/breakfast-carrot-cake-attempt-02.txt",
+        "generated_path": "exec-7b722a5f-61c0-44cd-af0f-47ef58a44840.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/breakfast-carrot-cake.png"
+        ],
+        "status": "superseded",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": " Replaced by selected attempt3.",
+        "edit_target_source_snapshot": "exec-552702c2-2884-4e9b-a546-816bba53b9c2.png",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 11,
+        "attempt": 2,
+        "prompt": "prompts/brown-butter-carrot-cake-attempt-02.txt",
+        "generated_path": "exec-e0279361-06b9-4fa4-b8a0-9b853bd449ee.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/brown-butter-carrot-cake.png"
+        ],
+        "status": "superseded",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": " Replaced by selected attempt3.",
+        "edit_target_source_snapshot": "exec-4ded1556-34e2-4fef-ac00-91a2b18e3d4c.png",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 3,
+        "attempt": 3,
+        "prompt": "prompts/breakfast-carrot-cake-attempt-03.txt",
+        "generated_path": "exec-705fa32d-ab4b-4712-a1a7-b7c102d50a89.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Square carrot cake with thin white yogurt topping and cinnamon. Fresh remake yields more cohesive porous crumb; ~49%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/breakfast-carrot-cake.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "477e6bf68aa9086343b82b7ba8bc88a95b9b9040b98aec53a95d3f2137295b06",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 11,
+        "attempt": 3,
+        "prompt": "prompts/brown-butter-carrot-cake-attempt-03.txt",
+        "generated_path": "exec-cc2ce557-6055-419d-b0e6-ae7af39fa504.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Three-layer carrot cake with creamcheese frosting and pecans on top. Fresh remake improves cohesive crumb but still visually coarse; ~46%width. Full1536x1024 and central-half crop visually inspected. Whole vessel and food fit central crop. No steam, smoke, props, cutlery or unlisted garnish. Centered; visually flat requestedpalette backdrop.",
+        "final_path": "images/brown-butter-carrot-cake.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "4652d226ef4c11528e87757992185e963b771b524d2a4f4af83aace53ab2cc03",
+        "final_byte_identical_to_generated": true,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      }
+    ],
+    "accepted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "caveats": [
+      "AI backdrop colors visually follow requested palette but are not certified pixel-exact hex. Subtle photographic illumination and short shadows retained.",
+      "Carrot-cake crumb entries3/11 was regenerated after a targeted edit; best chosen outputs are more cake-like but retain a coarse hearty texture, especially entry11. Parent independent review requested.",
+      "Original tiny rim-loss candidates2/4/15 have all received successful targeted framing correction; flags cleared."
+    ],
+    "strict_crop_accepted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "flagged_crop_caveat": [],
+    "total_calls": 30,
+    "status": "complete_for_parent_independent_review",
+    "selected_attempts": {
+      "1": 6,
+      "2": 2,
+      "3": 3,
+      "4": 2,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 2,
+      "10": 1,
+      "11": 3,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 2,
+      "16": 1,
+      "17": 1
+    },
+    "qa_files": [
+      "qa/worker01-final-contact.jpg",
+      "qa/worker01-final-crops.jpg"
+    ],
+    "verification": {
+      "all_prompt_files_exist": true,
+      "all_generated_sources_exist": true,
+      "all_calls_recorded": 30,
+      "all_calls_original_reference_attached": true,
+      "final_pixels_unmodified": true,
+      "scope_entries": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  },
+  {
+    "worker": "02",
+    "assigned_entries": [
+      18,
+      33
+    ],
+    "tool": "built-in image_gen only",
+    "reference": "margarita-01-cookbook.png",
+    "entries": [
+      {
+        "entry": 18,
+        "filename": "buttermilk-waffles.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-07c91014-c99b-4159-85fb-b845f0c5f6c1.png",
+            "prompt": "prompts/buttermilk-waffles-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate about 61% of width, clips central half crop"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png",
+            "prompt": "prompts/buttermilk-waffles-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-07c91014-c99b-4159-85fb-b845f0c5f6c1.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            445,
+            292,
+            1088,
+            694
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Two overlapping waffles, berries, butter and syrup; correct plate",
+          "caveats": "Backdrop visually even; generated color is approximate, not guaranteed exact hex.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-18-central-half.png"
+        },
+        "sha256": "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d",
+        "selected_prompt": "prompts/buttermilk-waffles.txt"
+      },
+      {
+        "entry": 19,
+        "filename": "butternut-squash-fettuccine-alfredo.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-f9d3c2c5-b14d-4a91-8e98-31616bb2c5c7.png",
+            "prompt": "prompts/butternut-squash-fettuccine-alfredo-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected",
+            "reason": null
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            415,
+            282,
+            1110,
+            704
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Orange squash fettuccine with parsley and Parmesan",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-19-central-half.png"
+        },
+        "sha256": "7ac659a84e2f3efae2f3810a75a7a198845a8c467e91b3799bf9ecd7bc9a622a",
+        "selected_prompt": "prompts/butternut-squash-fettuccine-alfredo.txt"
+      },
+      {
+        "entry": 20,
+        "filename": "cantonese-fish.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-605046c9-d828-458a-85bd-7be1f23ce323.png",
+            "prompt": "prompts/cantonese-fish-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "rejected",
+            "reason": "Oval platter extends to x376, clipping central half crop by about 8 px"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-4871362d-bec8-410d-9f72-d90cc9f434a0.png",
+            "prompt": "prompts/cantonese-fish-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-605046c9-d828-458a-85bd-7be1f23ce323.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            412,
+            329,
+            1114,
+            679
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "White fish fillet in amber sauce, ginger scallions cilantro",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-20-central-half.png"
+        },
+        "sha256": "5cf11e761dead7aea8c18d3261cab72a088a595001470b8f84f0d1d7c0ba59c8",
+        "selected_prompt": "prompts/cantonese-fish.txt"
+      },
+      {
+        "entry": 21,
+        "filename": "cantonese-shrimp-and-pork-wontons.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-093a2fb9-f8db-489b-a3d3-8e8dceff75f6.png",
+            "prompt": "prompts/cantonese-shrimp-and-pork-wontons-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected",
+            "reason": null
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            435,
+            268,
+            1099,
+            710
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Seven visible silky ruffled shrimp-pork wontons (requested about eight), sliced scallions and shallow broth",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-21-central-half.png"
+        },
+        "sha256": "60876669e88d4dd6479854f020c11577dc2e26722ba7d37b2a4ff418ad83ffe1",
+        "selected_prompt": "prompts/cantonese-shrimp-and-pork-wontons.txt"
+      },
+      {
+        "entry": 22,
+        "filename": "cantonese-shumai-siu-mai.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-520809f7-af2f-42ce-94de-91c913a6005e.png",
+            "prompt": "prompts/cantonese-shumai-siu-mai-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "rejected",
+            "reason": "Orange topping reads as roe-like spheres rather than carrot dot"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-ad8d5d50-1ca3-4afa-a0a8-97fad8d186e2.png",
+            "prompt": "prompts/cantonese-shumai-siu-mai-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-520809f7-af2f-42ce-94de-91c913a6005e.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            435,
+            295,
+            1098,
+            714
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Exactly six shumai with carrot cubes, scallions, yellow wrappers and pink shrimp-pork filling",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-22-central-half.png"
+        },
+        "sha256": "cd91a74e5a9af78580b5f679ad76f338b021bafd3882b9fe5da30c18240beb4e",
+        "selected_prompt": "prompts/cantonese-shumai-siu-mai.txt"
+      },
+      {
+        "entry": 23,
+        "filename": "cantonese-wonton-broth.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-830acb4c-af57-420c-a6fd-17fccbd52f9f.png",
+            "prompt": "prompts/cantonese-wonton-broth-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "rejected",
+            "reason": "Broth contains unrequested wontons; recipe calls broth, ginger, scallions only"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-bc7cfcfe-0a15-4eae-b965-c7cc957447ce.png",
+            "prompt": "prompts/cantonese-wonton-broth-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-830acb4c-af57-420c-a6fd-17fccbd52f9f.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            424,
+            235,
+            1110,
+            733
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Clear golden broth with scallions, three thin ginger slices, oil droplets; no wontons",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-23-central-half.png"
+        },
+        "sha256": "aaec9682830713f4ec29bbd424524be1ebe84163ddb5ed5f93459adb194fafdc",
+        "selected_prompt": "prompts/cantonese-wonton-broth.txt"
+      },
+      {
+        "entry": 24,
+        "filename": "caponata.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-4f7a4429-8a74-4388-88c4-93db1b138f7f.png",
+            "prompt": "prompts/caponata-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            397,
+            277,
+            1126,
+            732
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Glossy eggplant, celery, green olives, capers, tomato sauce, basil and pine nuts",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-24-central-half.png"
+        },
+        "sha256": "36c3290ffcfab916e031f1106b937990db5d9920db6abc4a2b755f21cca8e6e1",
+        "selected_prompt": "prompts/caponata.txt"
+      },
+      {
+        "entry": 25,
+        "filename": "caramelized-black-pepper-chicken.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-55e6b327-a219-4e1a-a144-cece7f86f125.png",
+            "prompt": "prompts/caramelized-black-pepper-chicken-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "superseded",
+            "reason": "Targeted remake requested to correct plate-rim loss in central-half crop"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-c25de6a7-4abb-4f59-b4b6-8eeda9712cba.png",
+            "prompt": "prompts/caramelized-black-pepper-chicken-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "images/caramelized-black-pepper-chicken.png"
+            ],
+            "reference_content_sources": [
+              "margarita-01-cookbook.png",
+              "exec-55e6b327-a219-4e1a-a144-cece7f86f125.png"
+            ],
+            "reference_target_sha256": "1e94bed767b3e5ae191ee7edfa4d4a143b70fd9d773860abc124ad173a53a6f9",
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            449,
+            307,
+            1078,
+            701
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Glossy caramel chicken thigh pieces, coarse black pepper, sliced scallions and white rice",
+          "caveats": "Framing correction succeeded; full plate now inside central-half crop. Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "status": "accepted",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-25-central-half.png"
+        },
+        "sha256": "1bb97f3e59b5c2dc9f1ed13b83b449a49ba619ca0e7c3a1643a2f3cf4d7a03b2",
+        "selected_prompt": "prompts/caramelized-black-pepper-chicken.txt"
+      },
+      {
+        "entry": 26,
+        "filename": "carnitas-bowl.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-0ba1fbad-62c7-4fe7-a5b0-3b61365d6e96.png",
+            "prompt": "prompts/carnitas-bowl-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            385,
+            252,
+            1140,
+            750
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Carnitas, white rice, black beans, charred corn with elote cream, cotija, cilantro and lime wedge",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-26-central-half.png"
+        },
+        "sha256": "67a15328e995d8b1523403b1dc2c3f94ceea82982903b720160390a200430988",
+        "selected_prompt": "prompts/carnitas-bowl.txt"
+      },
+      {
+        "entry": 27,
+        "filename": "cauliflower-alfredo-sauce.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-a1c5afca-62e8-4f13-a433-c8b335213068.png",
+            "prompt": "prompts/cauliflower-alfredo-sauce-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            420,
+            274,
+            1106,
+            695
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "White-sauced fettuccine, chopped parsley and black pepper",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-27-central-half.png"
+        },
+        "sha256": "f5a49d1a86bed3bc296e120b1cc4f2757d5e9be4b20587223e15d799922db721",
+        "selected_prompt": "prompts/cauliflower-alfredo-sauce.txt"
+      },
+      {
+        "entry": 28,
+        "filename": "cauliflower-rice.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-4f383b65-e639-4b7a-be01-5bd186f10777.png",
+            "prompt": "prompts/cauliflower-rice-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            445,
+            291,
+            1081,
+            703
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Separate light golden cauliflower grains with chopped parsley",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-28-central-half.png"
+        },
+        "sha256": "cbad2a81b302f67f9f11a9d537e12862e9f089d5609844389b64c1f3093253d2",
+        "selected_prompt": "prompts/cauliflower-rice.txt"
+      },
+      {
+        "entry": 29,
+        "filename": "chana-begoon.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-320d6960-036f-45b5-868b-49bd002d7afe.png",
+            "prompt": "prompts/chana-begoon-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            442,
+            250,
+            1093,
+            710
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Chickpeas and purple eggplant cubes in glossy tomato masala with cilantro",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-29-central-half.png"
+        },
+        "sha256": "cc84d23ecbe154ae5a0fe1c3e57f385f2fbf006cf44712a3016b9e95a807ffa3",
+        "selected_prompt": "prompts/chana-begoon.txt"
+      },
+      {
+        "entry": 30,
+        "filename": "chana-masala.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-f51a0e0b-4eda-46e8-a77d-d5f1f03cb10e.png",
+            "prompt": "prompts/chana-masala-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            438,
+            254,
+            1088,
+            714
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Whole chickpeas in thick tomato masala with cilantro, slit green chile, ginger slivers",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "status": "accepted",
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-30-central-half.png"
+        },
+        "sha256": "7327574e771f590cc139ed2c60cbc54494397b0818b740ccb3f8aa41383f665b",
+        "selected_prompt": "prompts/chana-masala.txt"
+      },
+      {
+        "entry": 31,
+        "filename": "char-siu.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-2e4e5a4b-2137-43f1-b2e4-3a0c5437720b.png",
+            "prompt": "prompts/char-siu-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "superseded",
+            "reason": "Targeted remake requested to correct plate-rim loss in central-half crop"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-c4a86e8a-ca4a-455d-a008-ba9aa9b5c8e5.png",
+            "prompt": "prompts/char-siu-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "images/char-siu.png"
+            ],
+            "reference_content_sources": [
+              "margarita-01-cookbook.png",
+              "exec-2e4e5a4b-2137-43f1-b2e4-3a0c5437720b.png"
+            ],
+            "reference_target_sha256": "c8d67bf5cc81ee4bbc2cd741768ba018735c7f19d106129b17bd705e008ec2b3",
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            424,
+            331,
+            1103,
+            672
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Thick fanned char siu pork slices, lacquered red glaze, dark charred edge, pale juicy interior, sliced scallions",
+          "status": "accepted",
+          "caveats": "Framing correction succeeded; full plate now inside central-half crop. Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-31-central-half.png"
+        },
+        "sha256": "15c23ad8464b0b14e2f51917c62b33a9370c0d1d066ba3374dfe549eff87edaf",
+        "selected_prompt": "prompts/char-siu.txt"
+      },
+      {
+        "entry": 32,
+        "filename": "charred-asparagus-with-parmesan.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-adc988e3-8d9f-4da3-903f-1b8e59aa019c.png",
+            "prompt": "prompts/charred-asparagus-with-parmesan-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "rejected",
+            "reason": "Some asparagus tip reaches x373 and clips central half; plate also oversize"
+          },
+          {
+            "attempt": 2,
+            "source": "exec-22eb97b5-04fa-4785-ad41-c2d262e1839a.png",
+            "prompt": "prompts/charred-asparagus-with-parmesan-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-adc988e3-8d9f-4da3-903f-1b8e59aa019c.png"
+            ],
+            "status": "selected"
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            347,
+            304,
+            1171,
+            714
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Charred asparagus, grated Parmesan, lemon zest and flaky sea salt",
+          "status": "flagged crop caveat",
+          "caveats": "Framing edit preserved full food inside central-half crop (leftmost asparagus tip approx x386). Crop still trims about37px of left and19px of right platter rim. Flagged crop caveat, not strict crop pass. Backdrop color approximate. Coordinator instructed not to repeat an already-targeted correction unnecessarily; retained with flag.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": false,
+          "crop_path": "qa/worker02-32-central-half.png"
+        },
+        "sha256": "e23eb876c078db99e2c5149de2bc9cc42205ba763faafbf81f069781e90839b5",
+        "selected_prompt": "prompts/charred-asparagus-with-parmesan.txt"
+      },
+      {
+        "entry": 33,
+        "filename": "charred-broccoli-with-garlic.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-a36fac3c-49c2-4a2f-8194-2f3e9b215884.png",
+            "prompt": "prompts/charred-broccoli-with-garlic-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-18172593-b7bd-455d-bf51-5391d1624eb3.png"
+            ],
+            "status": "selected",
+            "reason": null
+          }
+        ],
+        "qa": {
+          "visual": true,
+          "approx_plate_bounds": [
+            388,
+            274,
+            1138,
+            728
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Charred broccoli with golden garlic slices and red pepper flakes",
+          "status": "accepted",
+          "caveats": "Backdrop visually even; generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "crop_path": "qa/worker02-33-central-half.png"
+        },
+        "sha256": "041dad5f00a5b6beaee48553a3a492cac359e274817f3e2ab9d82fa36d6e21a5",
+        "selected_prompt": "prompts/charred-broccoli-with-garlic.txt"
+      }
+    ],
+    "summary": {
+      "assigned_count": 16,
+      "delivered_count": 16,
+      "builtin_image_gen_calls": 23,
+      "remakes": 7,
+      "strict_whole_vessel_central_crop_pass": 15,
+      "flagged_crop_caveats": [
+        32
+      ],
+      "all_food_central_crop_visible": true,
+      "all_1536x1024_png": true,
+      "all_final_bytes_equal_generated_source": true,
+      "original_reference_attached_every_call": true,
+      "final_pixel_manipulation": false,
+      "qa_only_pixel_operations": "Pillow crops, thumbnail contact sheets, dimension/hash inspection only",
+      "general_caveats": "Photographic backdrop colors are generated approximations rather than guaranteed exact hex. Backdrops visually even with no horizon or strong vignette; short contact shadows remain intentionally."
+    },
+    "qa_contact_sheets": [
+      "qa/worker02-all16-full-frames.jpg",
+      "qa/worker02-first7-central-crops.jpg",
+      "qa/worker02-next3-central-crops.jpg",
+      "qa/worker02-last6-central-crops.jpg",
+      "qa/worker02-corrected25-31-crops.jpg"
+    ]
+  },
+  {
+    "worker": "03",
+    "assigned_entries": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "mode": "built-in image_gen",
+    "original_reference_every_call": "margarita-01-cookbook.png",
+    "calls": [
+      {
+        "entry": 34,
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/charred-guacamole-with-pomegranate.txt",
+        "generated_path": "exec-0bc91412-980d-44a3-9862-5f61e63f884c.png",
+        "result": "rejected",
+        "qa": "Bowl too wide, approximately x326..1207, exceeding central half. Backdrop too cyan and uneven.",
+        "filename": "charred-guacamole-with-pomegranate.png",
+        "reference_paths": [
+          "margarita-01-cookbook.png"
+        ],
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 34,
+        "filename": "charred-guacamole-with-pomegranate.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/charred-guacamole-with-pomegranate-attempt02.txt",
+        "generated_path": "exec-a1762b66-505e-4282-a527-70a0c1d8b516.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full-frame visual pass. Whole bowl approximately x388..1148 fits central half. Correct chunky guacamole, pomegranate/cilantro/cumin; no steam or props. Pale blue backdrop, no horizon, subtle natural shadow only.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-0bc91412-980d-44a3-9862-5f61e63f884c.png"
+        ]
+      },
+      {
+        "entry": 35,
+        "filename": "cheese-fondue.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cheese-fondue.txt",
+        "generated_path": "exec-dcfa4254-2983-4826-ae70-eca620933dcf.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Food adaptation correct but whole plate approximately x251..1270, too wide for central crop; backdrop too cyan.",
+        "reference_paths": [
+          "margarita-01-cookbook.png"
+        ]
+      },
+      {
+        "entry": 35,
+        "filename": "cheese-fondue.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cheese-fondue-attempt02.txt",
+        "generated_path": "exec-7cdb579f-2b37-4b9d-beaa-0b79a9b35fa4.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full-frame pass. Whole plate approximately x389..1146, centered. Molten cheese, bread and apple correctly on plate; no fork, no suspended bread, no steam or backdrop props. Pale sky blue seamless backdrop.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-dcfa4254-2983-4826-ae70-eca620933dcf.png"
+        ]
+      },
+      {
+        "entry": 36,
+        "filename": "cheesy-cauliflower-sauce.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cheesy-cauliflower-sauce.txt",
+        "generated_path": "exec-f5cf89f8-0eee-4a0e-9300-bd94ef3c27ae.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Food correct, bowl slightly clips left of central-half crop (x379). Shrink requested.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/charred-guacamole-with-pomegranate.png"
+        ]
+      },
+      {
+        "entry": 37,
+        "filename": "chewy-chocolate-meringues.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chewy-chocolate-meringues.txt",
+        "generated_path": "exec-12d1afb4-db16-4d39-8508-675abf457191.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct meringues but plate too wide approximately x355..1167 for central-half crop.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/charred-guacamole-with-pomegranate.png"
+        ]
+      },
+      {
+        "entry": 36,
+        "filename": "cheesy-cauliflower-sauce.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cheesy-cauliflower-sauce-attempt02.txt",
+        "generated_path": "exec-699611eb-ed96-4621-9b9f-1353d6eb91ce.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole bowl approx x432..1103 fits central half, centered. Creamy golden linguine with chives and Parmesan; no steam/props; flat yellow backdrop.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-f5cf89f8-0eee-4a0e-9300-bd94ef3c27ae.png"
+        ]
+      },
+      {
+        "entry": 37,
+        "filename": "chewy-chocolate-meringues.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chewy-chocolate-meringues-attempt02.txt",
+        "generated_path": "exec-142369e2-56d7-4ace-b53e-b5f9e8ec320d.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole plate approx x402..1119 fits central half, centered. Crackly chocolate chip meringues with broken chewy center; no steam/props; flat peach backdrop.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-12d1afb4-db16-4d39-8508-675abf457191.png"
+        ]
+      },
+      {
+        "entry": 38,
+        "filename": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.txt",
+        "generated_path": "exec-517a4ab1-7e9a-4cc6-8c62-841bbf507fcc.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Photoreal food correct: penne, chicken, spinach, Parmesan and zest. Centered bowl about51% width. Tiny rim edge loss in central-half crop (approx12px left,6px right); food fully fits; retained per crop-usability guidance. Flat yellow, no steam or props. Coordinator identified ambiguous greens resembling broccoli; remake for unmistakable spinach leaves.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 39,
+        "filename": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.txt",
+        "generated_path": "exec-43e5367c-e99c-41f0-89cb-4210188d3553.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Food correct: two white-bean chicken enchiladas in green chile sauce, crema, cilantro. Plate too wide approximately x347..1174; resizing targeted.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 40,
+        "filename": "chicken-and-wild-rice-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-wild-rice-soup.txt",
+        "generated_path": "exec-e13a29d1-493a-432c-8cab-addec283fed1.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole soup bowl approx x409..1124 fits central half, centered. Clear golden broth, dark wild rice, chicken, carrot, celery, herbs; no steam or props; flat peach background.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 39,
+        "filename": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce-attempt02.txt",
+        "generated_path": "exec-cf27522f-29a1-43df-87f5-8d9e9b82aee3.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame photoreal correct two chicken-white-bean green enchiladas, crema/cilantro. Centered plate approx x358..1161, width803px (52.3%). Central-half crop loses approx26px left/9px right plate rim only; all food fits. Flat peach; no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-43e5367c-e99c-41f0-89cb-4210188d3553.png"
+        ]
+      },
+      {
+        "entry": 41,
+        "filename": "chicken-apple-and-butternut-stew.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-apple-and-butternut-stew.txt",
+        "generated_path": "exec-86fcd2e9-d4f7-4ef2-955c-c6d33ef4134f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole bowl approx x402..1133 fits central half. Chicken, butternut squash, parsnip and green apple chunks in golden broth, sage leaves. Correct peach backdrop, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 42,
+        "filename": "chicken-biryani.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-biryani.txt",
+        "generated_path": "exec-c89a04d5-2826-4c16-8686-fc4e8a40d7ee.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct photoreal multicolor long-grain biryani, chicken, onions, mint/cilantro, but plate approx x351..1185 width834px54.3%; resize requested.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 43,
+        "filename": "chicken-chile-enchiladas.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-chile-enchiladas.txt",
+        "generated_path": "exec-ab1ec07e-a8f7-4241-b8c9-d44753e5d7b2.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "superseded after coordinator requested framing correction",
+        "qa": "Correct two chicken enchiladas in red chile sauce with melted cheese, sour cream and scallions. Centered plate approx x354..1166 width812px52.9%. Central-half crop loses approx30px left/14px right rim only; all food fits. Flat yellow, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 38,
+        "filename": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan-attempt02.txt",
+        "generated_path": "exec-a78034a4-4851-4886-acca-7a5a4e485dec.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected after independent coordinator ingredient review",
+        "qa": "Remake shows silky folded broad dark-green spinach leaves rather than florets; correct penne, seared chicken, Parmesan/zest. Centered bowl approx x374..1153 width779px50.7%. Central-half crop loses about10px left rim/1px right rim only; all food fits. Flat yellow, no steam/props. Independent final review still identified broccoli-like greens; replaced by new generation attempt3 and framing edit4.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-517a4ab1-7e9a-4cc6-8c62-841bbf507fcc.png"
+        ]
+      },
+      {
+        "entry": 42,
+        "filename": "chicken-biryani.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-biryani-attempt02.txt",
+        "generated_path": "exec-a8fbf540-87d0-4b1c-a420-fcbb7213f00f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole biryani platter approx x416..1115 fits central half, centered. Long separate white/yellow/orange rice, chicken, fried onions, mint/cilantro; no steam or props. Flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-c89a04d5-2826-4c16-8686-fc4e8a40d7ee.png"
+        ]
+      },
+      {
+        "entry": 44,
+        "filename": "chicken-coq-au-vin.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-coq-au-vin.txt",
+        "generated_path": "exec-22a2d56e-27c1-4bb5-9ac7-34874cd9ca19.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "superseded after coordinator requested framing correction",
+        "qa": "Correct two burnished chicken thighs, mushrooms, lardons and onions in burgundy sauce, parsley garnish. Centered bowl approx x370..1151 width781px50.8%. Central crop clips about14px left rim only; food fits. Flat peach, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 45,
+        "filename": "chicken-fingers.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-fingers.txt",
+        "generated_path": "exec-9870455d-513d-4b42-8021-07dd84955e6c.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Food correct, ramekin correctly on plate; plate approx x320..1215 width895px58.3%, fails central crop. Targeted zoom-out needed.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 45,
+        "filename": "chicken-fingers.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-fingers-attempt02.txt",
+        "generated_path": "exec-f3be5023-e94a-43ba-861b-1ecd32dd6fca.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Correct five panko-crusted chicken fingers including broken white interior, ramekin on plate, parsley. Targeted resize completed; plate approx x380..1158 width778px50.7%, central crop loses ~4px left/6px right rim only, all food fits. Flat yellow, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-9870455d-513d-4b42-8021-07dd84955e6c.png"
+        ]
+      },
+      {
+        "entry": 46,
+        "filename": "chicken-galbi-noodle-salad.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-galbi-noodle-salad.txt",
+        "generated_path": "exec-f1d810cf-6eb8-4b4f-9aba-e4616f7037f4.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole bowl approx x389..1140 fits central half, centered. Glossy translucent glass noodles, ground chicken, red/yellow bell pepper, sesame/scallions; flat yellow, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 47,
+        "filename": "chicken-lettuce-wraps.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-lettuce-wraps.txt",
+        "generated_path": "exec-204abf8b-2ab6-476d-9c0e-9d8578a9b6b4.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct three butter-lettuce cups with hoisin ground chicken/celery, scallion/sesame, but platter approx x291..1245 width954px62.1%, food clipped in central crop. Resize required.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 48,
+        "filename": "chicken-marsala.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-marsala.txt",
+        "generated_path": "exec-a72b52f1-41b8-47e7-b1ff-548cf47f1754.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct chicken Marsala, whole dish approx x380..1151 just around50% but tiny left rim loss; one targeted framing correction per coordinator.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 49,
+        "filename": "chicken-milanese.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-milanese.txt",
+        "generated_path": "exec-fb84e9d4-869e-415d-9acb-0c5bbb0c669b.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct Milanese with arugula, Parmesan, lemon; plate approx x357..1168 width811px52.8%. Food fits but plate rim clipped; one targeted framing correction per coordinator.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/cheesy-cauliflower-sauce.png"
+        ]
+      },
+      {
+        "entry": 43,
+        "filename": "chicken-chile-enchiladas.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-chile-enchiladas-attempt02.txt",
+        "generated_path": "exec-275bd905-fa19-4bde-85da-23c95c9efcbd.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole plate approx x409..1129 fits central half after targeted correction. Exactly two clear near-end enchilada openings; red chile sauce, cheese, sour cream, scallions. Centered, flat yellow, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-ab1ec07e-a8f7-4241-b8c9-d44753e5d7b2.png"
+        ]
+      },
+      {
+        "entry": 44,
+        "filename": "chicken-coq-au-vin.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-coq-au-vin-attempt02.txt",
+        "generated_path": "exec-279c1a7e-3d77-4fea-b583-d148e5d39903.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole bowl approx x430..1103 fits central half after targeted correction. Photoreal burnished thighs, mushrooms, lardons/onions and burgundy sauce intact. Centered, flat peach, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-22a2d56e-27c1-4bb5-9ac7-34874cd9ca19.png"
+        ]
+      },
+      {
+        "entry": 47,
+        "filename": "chicken-lettuce-wraps.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-lettuce-wraps-attempt02.txt",
+        "generated_path": "exec-972ebae1-04a3-4c06-94d9-c773c7e42237.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole platter approx x393..1140 fits central half after targeted correction. Three crisp lettuce cups with ground chicken/celery, sesame/scallion intact. Centered, flat blue, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-204abf8b-2ab6-476d-9c0e-9d8578a9b6b4.png"
+        ]
+      },
+      {
+        "entry": 48,
+        "filename": "chicken-marsala.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-marsala-attempt02.txt",
+        "generated_path": "exec-664be2f1-752b-42b1-a52b-3081dc49238f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole plate approx x431..1101 fits central half after targeted correction. Two golden cutlets, sliced mushrooms, glossy Marsala sauce and parsley intact. Centered, flat yellow, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-a72b52f1-41b8-47e7-b1ff-548cf47f1754.png"
+        ]
+      },
+      {
+        "entry": 49,
+        "filename": "chicken-milanese.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-milanese-attempt02.txt",
+        "generated_path": "exec-9410a6da-b4f0-43c9-a740-e227505cc4fc.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Whole plate approx x435..1088 fits central half after targeted correction. Crisp thin cutlet, arugula, shaved Parmesan and lemon wedge intact. Centered, flat yellow, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-fb84e9d4-869e-415d-9acb-0c5bbb0c669b.png"
+        ]
+      },
+      {
+        "entry": 38,
+        "filename": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png",
+        "attempt": 3,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan-attempt03.txt",
+        "generated_path": "exec-60de5d06-5502-436e-84f6-c8fece8643f6.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Ingredient identity fixed: broad smooth dark-green whole wilted spinach leaves clearly visible, no florets. Bowl approximately x356..1164 width808px52.6%; targeted framing reduction requested before final.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "images/chicken-marsala.png"
+        ]
+      },
+      {
+        "entry": 38,
+        "filename": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png",
+        "attempt": 4,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan-attempt04.txt",
+        "generated_path": "exec-39b1d5bd-70ce-4cbe-bae1-bc84976b909c.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Broad smooth whole dark-green limp spinach leaves with visible leaf blades and central veins; no rounded florets/broccoli. Correct penne and browned chicken with Parmesan/zest. Whole bowl approximately x426..1102 (44% width) fits central-half crop with margins; centered. Full-frame and actual central crop visually checked. Flat yellow backdrop, no steam/props.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-60de5d06-5502-436e-84f6-c8fece8643f6.png"
+        ]
+      }
+    ],
+    "accepted": [
+      {
+        "entry": 34,
+        "filename": "charred-guacamole-with-pomegranate.png",
+        "attempt": 2,
+        "final_path": "images/charred-guacamole-with-pomegranate.png",
+        "qa": "Full-frame visual pass. Whole bowl approximately x388..1148 fits central half. Correct chunky guacamole, pomegranate/cilantro/cumin; no steam or props. Pale blue backdrop, no horizon, subtle natural shadow only.",
+        "sha256": "b8431b3a910eadfaa77bb293e91012b9d4b9cebb4078564470b243d989290362",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/charred-guacamole-with-pomegranate-attempt02.txt",
+        "generated_path": "exec-a1762b66-505e-4282-a527-70a0c1d8b516.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 35,
+        "filename": "cheese-fondue.png",
+        "attempt": 2,
+        "final_path": "images/cheese-fondue.png",
+        "qa": "Full-frame pass. Whole plate approximately x389..1146, centered. Molten cheese, bread and apple correctly on plate; no fork, no suspended bread, no steam or backdrop props. Pale sky blue seamless backdrop.",
+        "sha256": "f54da82b0ad23a24d73f3234a91cb75ed57f1d91575aded21e832a2d52f1f894",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/cheese-fondue-attempt02.txt",
+        "generated_path": "exec-7cdb579f-2b37-4b9d-beaa-0b79a9b35fa4.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 36,
+        "filename": "cheesy-cauliflower-sauce.png",
+        "attempt": 2,
+        "final_path": "images/cheesy-cauliflower-sauce.png",
+        "qa": "Whole bowl approx x432..1103 fits central half, centered. Creamy golden linguine with chives and Parmesan; no steam/props; flat yellow backdrop.",
+        "sha256": "2a61b3bda5931f3be724f6d554925fdc03370fd7395c23128e965960852ec15a",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/cheesy-cauliflower-sauce-attempt02.txt",
+        "generated_path": "exec-699611eb-ed96-4621-9b9f-1353d6eb91ce.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 37,
+        "filename": "chewy-chocolate-meringues.png",
+        "attempt": 2,
+        "final_path": "images/chewy-chocolate-meringues.png",
+        "qa": "Whole plate approx x402..1119 fits central half, centered. Crackly chocolate chip meringues with broken chewy center; no steam/props; flat peach backdrop.",
+        "sha256": "5f3e0b6a842436c452bc28e4a5a9c6034520b2cf618b2af23ed7d88a5e565adc",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chewy-chocolate-meringues-attempt02.txt",
+        "generated_path": "exec-142369e2-56d7-4ace-b53e-b5f9e8ec320d.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 38,
+        "filename": "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png",
+        "attempt": 4,
+        "final_path": "images/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png",
+        "qa": "Broad smooth whole dark-green limp spinach leaves with visible leaf blades and central veins; no rounded florets/broccoli. Correct penne and browned chicken with Parmesan/zest. Whole bowl approximately x426..1102 (44% width) fits central-half crop with margins; centered. Full-frame and actual central crop visually checked. Flat yellow backdrop, no steam/props.",
+        "sha256": "b11c534f75c967a969b5b01bc54be9ba6c89a1bf5d7ea92ccd89311af425505b",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan-attempt04.txt",
+        "generated_path": "exec-39b1d5bd-70ce-4cbe-bae1-bc84976b909c.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 39,
+        "filename": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.png",
+        "attempt": 2,
+        "final_path": "images/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.png",
+        "qa": "Full frame photoreal correct two chicken-white-bean green enchiladas, crema/cilantro. Centered plate approx x358..1161, width803px (52.3%). Central-half crop loses approx26px left/9px right plate rim only; all food fits. Flat peach; no steam/props.",
+        "sha256": "2244a384b7c3afe34df13f80ec6da318ea0e2930821bc7da4ffcf4771808677d",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": false,
+        "prompt_path": "prompts/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce-attempt02.txt",
+        "generated_path": "exec-cf27522f-29a1-43df-87f5-8d9e9b82aee3.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 40,
+        "filename": "chicken-and-wild-rice-soup.png",
+        "attempt": 1,
+        "final_path": "images/chicken-and-wild-rice-soup.png",
+        "qa": "Whole soup bowl approx x409..1124 fits central half, centered. Clear golden broth, dark wild rice, chicken, carrot, celery, herbs; no steam or props; flat peach background.",
+        "sha256": "ded6b5f79cea1772bbd3b791cb2e54a023008910e12f5955192130f1af404bc7",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-and-wild-rice-soup.txt",
+        "generated_path": "exec-e13a29d1-493a-432c-8cab-addec283fed1.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 41,
+        "filename": "chicken-apple-and-butternut-stew.png",
+        "attempt": 1,
+        "final_path": "images/chicken-apple-and-butternut-stew.png",
+        "qa": "Whole bowl approx x402..1133 fits central half. Chicken, butternut squash, parsnip and green apple chunks in golden broth, sage leaves. Correct peach backdrop, no steam/props.",
+        "sha256": "e18238f55964cede6b55fd9d3de0a75f64c7f3756fd9276824dbc7eacf0fd8d6",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-apple-and-butternut-stew.txt",
+        "generated_path": "exec-86fcd2e9-d4f7-4ef2-955c-c6d33ef4134f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 42,
+        "filename": "chicken-biryani.png",
+        "attempt": 2,
+        "final_path": "images/chicken-biryani.png",
+        "qa": "Whole biryani platter approx x416..1115 fits central half, centered. Long separate white/yellow/orange rice, chicken, fried onions, mint/cilantro; no steam or props. Flat peach.",
+        "sha256": "5c05b3adaac3352ce2b7992490c52b2f56c5b1dfe9c2b560d86213a7e0867ded",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-biryani-attempt02.txt",
+        "generated_path": "exec-a8fbf540-87d0-4b1c-a420-fcbb7213f00f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 43,
+        "filename": "chicken-chile-enchiladas.png",
+        "attempt": 2,
+        "final_path": "images/chicken-chile-enchiladas.png",
+        "qa": "Whole plate approx x409..1129 fits central half after targeted correction. Exactly two clear near-end enchilada openings; red chile sauce, cheese, sour cream, scallions. Centered, flat yellow, no steam/props.",
+        "sha256": "02a8b04c31e6ee981b8f0f51fffd00992fdccc2cf4cae0ac4830e15463b0299d",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-chile-enchiladas-attempt02.txt",
+        "generated_path": "exec-275bd905-fa19-4bde-85da-23c95c9efcbd.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 44,
+        "filename": "chicken-coq-au-vin.png",
+        "attempt": 2,
+        "final_path": "images/chicken-coq-au-vin.png",
+        "qa": "Whole bowl approx x430..1103 fits central half after targeted correction. Photoreal burnished thighs, mushrooms, lardons/onions and burgundy sauce intact. Centered, flat peach, no steam/props.",
+        "sha256": "74b615fe432c30305148f799f17b3be19627ee9508fc675f87357fad3935b6ae",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-coq-au-vin-attempt02.txt",
+        "generated_path": "exec-279c1a7e-3d77-4fea-b583-d148e5d39903.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 45,
+        "filename": "chicken-fingers.png",
+        "attempt": 2,
+        "final_path": "images/chicken-fingers.png",
+        "qa": "Correct five panko-crusted chicken fingers including broken white interior, ramekin on plate, parsley. Targeted resize completed; plate approx x380..1158 width778px50.7%, central crop loses ~4px left/6px right rim only, all food fits. Flat yellow, no steam/props.",
+        "sha256": "e40c8b284fbafbdef0fcddda427ffb8b9018ed9370c922dcd318ed2d8de660cd",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": false,
+        "prompt_path": "prompts/chicken-fingers-attempt02.txt",
+        "generated_path": "exec-f3be5023-e94a-43ba-861b-1ecd32dd6fca.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 46,
+        "filename": "chicken-galbi-noodle-salad.png",
+        "attempt": 1,
+        "final_path": "images/chicken-galbi-noodle-salad.png",
+        "qa": "Whole bowl approx x389..1140 fits central half, centered. Glossy translucent glass noodles, ground chicken, red/yellow bell pepper, sesame/scallions; flat yellow, no steam/props.",
+        "sha256": "4719678a0bef234578d17b5a6ce3946084261de7e5da0d5454f136be7dacbeea",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-galbi-noodle-salad.txt",
+        "generated_path": "exec-f1d810cf-6eb8-4b4f-9aba-e4616f7037f4.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 47,
+        "filename": "chicken-lettuce-wraps.png",
+        "attempt": 2,
+        "final_path": "images/chicken-lettuce-wraps.png",
+        "qa": "Whole platter approx x393..1140 fits central half after targeted correction. Three crisp lettuce cups with ground chicken/celery, sesame/scallion intact. Centered, flat blue, no steam/props.",
+        "sha256": "8c69d5ac69055027f9deb5f735f2b617fc5ed2ba7157f4c87518cb2b99932724",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-lettuce-wraps-attempt02.txt",
+        "generated_path": "exec-972ebae1-04a3-4c06-94d9-c773c7e42237.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 48,
+        "filename": "chicken-marsala.png",
+        "attempt": 2,
+        "final_path": "images/chicken-marsala.png",
+        "qa": "Whole plate approx x431..1101 fits central half after targeted correction. Two golden cutlets, sliced mushrooms, glossy Marsala sauce and parsley intact. Centered, flat yellow, no steam/props.",
+        "sha256": "a8b55d0a55ce75dc6eac6db475e39f0c28313b11bd3b88401002211ac31201df",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-marsala-attempt02.txt",
+        "generated_path": "exec-664be2f1-752b-42b1-a52b-3081dc49238f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      },
+      {
+        "entry": 49,
+        "filename": "chicken-milanese.png",
+        "attempt": 2,
+        "final_path": "images/chicken-milanese.png",
+        "qa": "Whole plate approx x435..1088 fits central half after targeted correction. Crisp thin cutlet, arugula, shaved Parmesan and lemon wedge intact. Centered, flat yellow, no steam/props.",
+        "sha256": "4db7732f352fbd3f9d67d3cb2c7ca5b6cf31d3245cdc1280aedef6889dbeea6d",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true,
+        "prompt_path": "prompts/chicken-milanese-attempt02.txt",
+        "generated_path": "exec-9410a6da-b4f0-43c9-a740-e227505cc4fc.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG"
+      }
+    ],
+    "caveats": [
+      "Entry35 adapted: fork and suspended bread omitted to satisfy shared no-cutlery/no-props restriction. Bread cubes and green apple slices are edible components on the white plate.",
+      "Entry39 close-up shows two filling openings and two parallel rolls, despite cheese ridges creating apparent extra divisions. Count QA saved in qa/worker03-green-enchilada-count.png. Entry43 additionally reinforced exactly two during its framing edit.",
+      "Backdrop QA is visual for seamless flat-color treatment, no horizon/vignette, not a claim of pixel-perfect hex values. Natural surface texture and contact shadows remain.",
+      "Bounds and widths are approximate visual observations, not segmentation-derived measurements.",
+      "Entries39 and45 retain minor plate-rim-only central crop losses after one targeted framing correction each; food fully fits. Approx widths52.3% and50.7%. Entry38 was regenerated with clear whole spinach leaves and now fully fits (attempt4)."
+    ],
+    "summary": {
+      "final_count": 16,
+      "built_in_generation_calls": 31,
+      "first_pass_count": 3,
+      "remade_count": 13,
+      "full_central_half_fit_count": 14,
+      "usable_with_rim_caveat_count": 2,
+      "rim_caveat_entries": [
+        39,
+        45
+      ],
+      "all_food_fits_central_half": true,
+      "all_finals_copied_unchanged_from_tool_output": true,
+      "all_finals_1536x1024_png": true,
+      "all_calls_original_reference_attached": true
+    }
+  }
+]
