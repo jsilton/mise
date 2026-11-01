@@ -27,6 +27,10 @@ HERE = Path(__file__).resolve().parent
 TARGET = {'quick': '#D4E9F2', 'hour': '#F9D27E', 'long': '#FFB07E', 'none': '#F9D27E'}
 TOLERANCE = 28.0  # how far from "backdrop hue" a pixel can be and still count as backdrop
 SOFTNESS = 14.0  # width of the blend between backdrop and dish
+# Only pixels about as light as the backdrop count: soft shadows stay in, while dark food that
+# happens to share the backdrop's hue (brownies on peach, crusts on yellow) is left alone.
+MIN_LIGHT = 0.62  # fraction of backdrop brightness below which a pixel is never touched
+LIGHT_SOFT = 0.10  # blend width above MIN_LIGHT
 
 
 def bands(slugs):
@@ -65,7 +69,9 @@ def even(path, target_hex):
     k = (a @ bg) / (bg @ bg)
     k3 = k[..., None]
     off_hue = np.linalg.norm(a - k3 * bg, axis=-1)
-    w = np.clip((TOLERANCE + SOFTNESS - off_hue) / SOFTNESS, 0, 1)[..., None]
+    w = np.clip((TOLERANCE + SOFTNESS - off_hue) / SOFTNESS, 0, 1)
+    w = w * np.clip((k - MIN_LIGHT) / LIGHT_SOFT, 0, 1)
+    w = w[..., None]
     out = a * (1 - w) + np.clip(k3 * target, 0, 255) * w
     return Image.fromarray(np.clip(out + 0.5, 0, 255).astype(np.uint8)), bg
 
