@@ -2,6 +2,10 @@
 
 20 original PNGs, each **1536 × 1024**. Review assets only; no site files, mappings, configuration or deployment changed.
 
+## Two-image revision
+
+Pho and banana bread were replaced after the initial batch review. [Revision details, exact prompts and proof](redos/2026-10-31/README.md). Contact sheets and current hashes below include the replacements; the other 18 originals are unchanged. The original supplied prompts remain historical, with replacement prompts in the linked revision folder.
+
 ## Review
 
 - [Full-frame contact sheet](review/full-contact-sheet.png)

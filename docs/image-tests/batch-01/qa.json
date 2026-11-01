@@ -582,7 +582,7 @@
         1536,
         1024
       ],
-      "sha256": "8ab2b85be5c059141915bb5f8b5a0e7267d2c0bac80528fa27e380705f5ab23b",
+      "sha256": "44bbf75a32f29c37770508b03a612cd4da1d2343090a9c4ccb221d6a3b03622f",
       "crop_bounds": [
         384,
         0,
@@ -591,34 +591,37 @@
       ],
       "corner_mean_rgb": [
         [
-          252.8,
-          176.18,
-          120.33
+          252.13,
+          176.0,
+          124.7
         ],
         [
-          252.8,
-          176.41,
-          120.84
+          252.1,
+          176.7,
+          125.61
         ],
         [
-          252.64,
-          176.38,
-          120.92
+          252.09,
+          176.61,
+          125.4
         ],
         [
-          252.63,
-          175.61,
-          119.97
+          251.93,
+          176.44,
+          125.47
         ]
       ],
-      "max_corner_mean_channel_range": 0.95,
+      "max_corner_mean_channel_range": 0.92,
       "visual_checks": {
         "whole_vessel_inside_middle_half": true,
         "no_steam": true,
         "no_unlisted_food_or_garnish": true,
         "optional_prop_count": 0,
-        "no_visible_background_gradient": true
-      }
+        "no_visible_background_gradient": true,
+        "requested_redo_detail": "wide flat ribbon rice noodles and clear broth"
+      },
+      "reviewed_at_utc": "2026-11-01T00:25:00Z",
+      "revision_notes": "redos/2026-10-31/README.md"
     },
     {
       "recipe": "grandmommys-pecan-pie",
@@ -802,7 +805,7 @@
         1536,
         1024
       ],
-      "sha256": "0cf72a78aadc6a2d35883a903d55f038fb5783c383b317f018a23c9b4675fd71",
+      "sha256": "16589f7d7fc069a14e0cb2167be2080a50108fff617c0c4b91e84c1f20a54cd9",
       "crop_bounds": [
         384,
         0,
@@ -811,34 +814,37 @@
       ],
       "corner_mean_rgb": [
         [
-          252.64,
-          173.59,
-          123.73
+          253.07,
+          178.72,
+          127.94
         ],
         [
-          252.74,
-          174.26,
-          124.73
+          253.38,
+          178.32,
+          127.5
         ],
         [
-          252.5,
-          173.4,
-          123.78
+          253.12,
+          179.33,
+          128.97
         ],
         [
-          252.62,
-          173.35,
-          123.55
+          253.21,
+          178.5,
+          127.82
         ]
       ],
-      "max_corner_mean_channel_range": 1.17,
+      "max_corner_mean_channel_range": 1.46,
       "visual_checks": {
         "whole_vessel_inside_middle_half": true,
         "no_steam": true,
         "no_unlisted_food_or_garnish": true,
         "optional_prop_count": 0,
-        "no_visible_background_gradient": true
-      }
+        "no_visible_background_gradient": true,
+        "requested_redo_detail": "one upright slice with cut face toward camera before loaf"
+      },
+      "reviewed_at_utc": "2026-11-01T00:25:00Z",
+      "revision_notes": "redos/2026-10-31/README.md"
     },
     {
       "recipe": "chicken-tikka-masala",
@@ -884,5 +890,7 @@
         "no_visible_background_gradient": true
       }
     }
-  ]
+  ],
+  "updated_at_utc": "2026-11-01T00:25:00Z",
+  "update_scope": "Only chicken-pho and healthy-banana-bread replaced and re-reviewed. Remaining 18 retain original checked_at_utc evidence."
 }
