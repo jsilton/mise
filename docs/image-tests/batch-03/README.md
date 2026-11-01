@@ -32,3 +32,9 @@ Source: [batch 03 at pinned source commit](https://github.com/jsilton/mise/blob/
 - `prompts/`: exact generation and correction prompts.
 
 Review assets only. No recipe mapping, merge, deployment or production-site change is included. Next batch must wait for this branch to be reported, then README and new redo manifests must be checked again.
+
+## Current replacement review — 2026-11-01
+
+Three images on this redo branch replace the original asparagus, enchiladas and chicken fingers candidates. All three now retain the full plate rim in the middle-half crop. Chicken fingers remain slightly larger than nominal (49% versus 45% width). See [redo review and exact evidence](redos/2026-11-01/README.md) and [current replacement hashes and QA](redos/2026-11-01/qa-manifest.json). The other 46 images are unchanged.
+
+The original batch review sheets, generation records and root QA manifest below are historical evidence for the original versions of these three images; they are not current hashes or crop results for the replacements. The scoped redo evidence is authoritative for these three files. No recipe mapping or deployment.

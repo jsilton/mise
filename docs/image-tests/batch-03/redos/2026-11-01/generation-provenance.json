@@ -1,0 +1,341 @@
+[
+  {
+    "worker": "worker-01",
+    "assignment": "batch-03-redos entry 1 only",
+    "reference": "margarita-01-cookbook.png",
+    "mode": "built-in image_gen",
+    "attempts": [
+      {
+        "entry": 1,
+        "attempt": 1,
+        "prompt": "prompts/charred-asparagus-with-parmesan-attempt-01.txt",
+        "generated_path": "exec-b6934eb5-b28b-4dfa-932e-412377f6fdea.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "charred-asparagus-with-parmesan.png"
+        ],
+        "status": "rejected",
+        "qa": "Only five spears visible; plate left edge outside central-half crop. Count/framing correction requested.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 2,
+        "prompt": "prompts/charred-asparagus-with-parmesan-attempt-02.txt",
+        "generated_path": "exec-9de89bb3-1ce5-4b55-af68-62bcd72adb42.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/charred-asparagus-with-parmesan.png",
+          "chinese-garlic-sauce-base.png"
+        ],
+        "status": "rejected",
+        "edit_target_source_snapshot": "exec-b6934eb5-b28b-4dfa-932e-412377f6fdea.png",
+        "qa": "Frame fits but still only five spears visible despite count correction. Fresh generation requested.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 3,
+        "prompt": "prompts/charred-asparagus-with-parmesan-attempt-03.txt",
+        "generated_path": "exec-53a132d1-c8a3-4be4-be5a-63371ad35053.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "chinese-garlic-sauce-base.png"
+        ],
+        "status": "rejected",
+        "qa": "Six spears satisfy allowed six-or-seven count, but plate about61%width would crop. Framing-only correction requested.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 4,
+        "prompt": "prompts/charred-asparagus-with-parmesan-attempt-04.txt",
+        "generated_path": "exec-a70c02a7-3545-44de-8262-5b4635b75ca0.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/charred-asparagus-with-parmesan.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "rejected",
+        "edit_target_source_snapshot": "exec-53a132d1-c8a3-4be4-be5a-63371ad35053.png",
+        "qa": "Six spears preserved but plate still about50.4%width, touches/exceeds crop edge by a few pixels; further framing correction requested for explicit redo requirement.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "source_exists": true
+      },
+      {
+        "entry": 1,
+        "attempt": 5,
+        "prompt": "prompts/charred-asparagus-with-parmesan-attempt-05.txt",
+        "generated_path": "exec-eb80da24-71fe-4d10-a64f-3c9afe7c1c93.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/charred-asparagus-with-parmesan.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-a70c02a7-3545-44de-8262-5b4635b75ca0.png",
+        "qa": "Six short asparagus spears with six visible tips and six cut stalk ends, parallel and side by side. Bright green with dark char spots. Grated Parmesan, lemon zest and sea salt only. Small angled oval white plate with thin blue rim. Full frame and actual x384..1152 crop viewed; whole plate fits with clear margin. No steam, smoke, props or utensils; pale blue seamless backdrop. Final plate width about43%, close to45% request.",
+        "final_path": "images/charred-asparagus-with-parmesan.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "86748545e39cb487827856ec295642e08e4f35de2fee5b2116bedcec0993b0a3",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          439,
+          302,
+          1105,
+          720
+        ],
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "source_exists": true
+      }
+    ],
+    "accepted": [
+      1
+    ],
+    "caveats": [
+      "Backdrop is visually pale sky blue with subtle photographic illumination, not certified pixel-exact hex."
+    ],
+    "selected_attempt": 5,
+    "total_calls": 5,
+    "status": "complete_for_parent_independent_review",
+    "verification": {
+      "png1536x1024": true,
+      "final_pixels_unmodified": true,
+      "original_reference_every_call": true,
+      "all_prompts_and_sources_exist": true,
+      "original_batch03_files_preserved": true
+    },
+    "qa_files": [
+      "qa/charred-asparagus-with-parmesan-center-half.png"
+    ]
+  },
+  {
+    "worker": "02",
+    "batch": "03-redos",
+    "assigned_entries": [
+      2
+    ],
+    "tool": "built-in image_gen only",
+    "reference": "margarita-01-cookbook.png",
+    "entries": [
+      {
+        "entry": 2,
+        "filename": "chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-68f2cd66-f35f-44a9-af05-736705ec3103.png",
+            "prompt": "prompts/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "original_reference_attached": true,
+            "status": "rejected",
+            "reason": "Whole round plate about 53% wide; both side rims clipped in x384..1152 crop.",
+            "qa": {
+              "full_frame_reviewed": true,
+              "central_half_crop_reviewed": true,
+              "approx_subject_bounds": [
+                355,
+                225,
+                1176,
+                779
+              ],
+              "crop_path": "qa/worker02-attempt01-central-half.png"
+            },
+            "source_sha256": "6ff158a002496ae0607b326a192c9447a2cd8cf98eea1a26b31ad510daac06be",
+            "prompt_sha256": "890fc4e3fabe78a9bc3085180a33306be06e79a3b56756719a05a23e9825aa2f",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ]
+          },
+          {
+            "attempt": 2,
+            "source": "exec-34d8b740-faed-4365-b27f-c435bf8f3f5a.png",
+            "prompt": "prompts/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-68f2cd66-f35f-44a9-af05-736705ec3103.png"
+            ],
+            "original_reference_attached": true,
+            "status": "selected",
+            "reason": "Targeted framing reduction; entire round plate and food fit central-half crop.",
+            "source_sha256": "9a5a46031bc47fcb561060464f77ca1f71277ec95726187d5a06fdb075e3aeff",
+            "prompt_sha256": "0dce51363695399c7b32b9e3179a5da6f7dd13ce5fda32dacb1cd6eea1d55ce3",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6ff158a002496ae0607b326a192c9447a2cd8cf98eea1a26b31ad510daac06be"
+            ]
+          }
+        ],
+        "final_path": "images/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.png",
+        "selected_prompt": "prompts/chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.txt",
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "crop_path": "qa/worker02-attempt02-central-half.png",
+          "approx_subject_bounds": [
+            434,
+            277,
+            1099,
+            738
+          ],
+          "approx_subject_width_fraction": 0.4329427083333333,
+          "centered": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "no_steam": true,
+          "no_props": true,
+          "flat_backdrop": true,
+          "food": "Exactly two short rolled enchiladas side by side pointing toward camera; visible chicken and white beans, creamy pale-green chile sauce, golden-spotted melted cheese, chopped cilantro and sour-cream drizzle only. Small round white plate with thin slate-blue rim.",
+          "caveats": "Backdrop color is a generated approximation of soft peach #FFB07E, not a guaranteed exact hex.",
+          "source_byte_identical": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG"
+        },
+        "sha256": "9a5a46031bc47fcb561060464f77ca1f71277ec95726187d5a06fdb075e3aeff"
+      }
+    ],
+    "summary": {
+      "assigned_count": 1,
+      "delivered_count": 1,
+      "builtin_calls": 2,
+      "builtin_image_gen_calls": 2,
+      "remakes": 1,
+      "original_reference_attached_every_call": true,
+      "strict_whole_vessel_central_crop_pass": 1,
+      "all_png_1536x1024": true,
+      "all_final_bytes_equal_source": true,
+      "final_pixel_manipulation": false,
+      "qa_pixel_operations": "Central-half crops only; no edits to final image pixels.",
+      "flagged_crop_caveats": [],
+      "scale_caveats": []
+    },
+    "completion": "Assigned redo entry 2 complete. Original batch03 files preserved. No Git, Library or publishing actions.",
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "source_files_sha256": {
+      "source.md": "b95a9336a31262d8010b82c6e2818ba876d994f5a7c246456fca2945f9784cad",
+      "entries.json": "bb4e1285c900bc726bc3f9d918ae0e1bf5364349982dace2aee1db2773784021",
+      "shared-style.txt": "312916e825b970dc1281c96a5018c86b51d3096e213949f61958b95f3a197ae1"
+    }
+  },
+  {
+    "worker": "worker-03",
+    "batch": "03-redos",
+    "scope": [
+      3
+    ],
+    "updated_at_utc": "2026-11-01T18:54:40.923404+00:00",
+    "calls": [
+      {
+        "entry": 3,
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/chicken-fingers.txt",
+        "references": [
+          "margarita-01-cookbook.png",
+          "classic-chocolate-chip-cookies.png"
+        ],
+        "generated_path": "exec-b5940b88-c397-4b6a-9bfa-b1e2012c45da.png",
+        "sha256": "59506f2975336eebbfecf8ea217294fa232adc7fafa6d06ed61641b9c58f989d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "status": "rejected",
+        "qa": "Full and central-half crop checked. Slight left rim loss (plate about x379..1147); intact finger count visually ambiguous due overlap, with only three clearly distinguishable. Corrected framing and four-intact-plus-one-broken count.",
+        "crop_path": "qa/chicken-fingers-attempt01-central.png"
+      },
+      {
+        "entry": 3,
+        "attempt": 2,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/chicken-fingers-attempt02.txt",
+        "references": [
+          "margarita-01-cookbook.png",
+          "exec-b5940b88-c397-4b6a-9bfa-b1e2012c45da.png"
+        ],
+        "generated_path": "exec-8547d065-16a1-477e-b8e3-1cf2b4e9d981.png",
+        "sha256": "cd915d1a845304f48f0696c3f4d4ef77d6eea154a6dc86b03d3dacf754dc4a02",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "status": "accepted",
+        "qa": "Accepted after full-frame and actual 768x1024 central-half crop inspection. Four intact chicken fingers are distinguishable behind a fifth finger broken into two matching white-chicken halves at the front. Golden panko/Parmesan crust, parsley only, red marinara in small white ramekin entirely on the plate. Entire thin blue rim, ramekin and food fit within x384..1152. No steam, props, cutlery, text or unlisted garnish. Seamless yellow backdrop visually even apart from natural contact shadow.",
+        "crop_path": "qa/chicken-fingers-attempt02-central.png"
+      }
+    ],
+    "accepted": [
+      {
+        "entry": 3,
+        "filename": "chicken-fingers.png",
+        "attempt": 2,
+        "final_path": "images/chicken-fingers.png",
+        "generated_path": "exec-8547d065-16a1-477e-b8e3-1cf2b4e9d981.png",
+        "prompt_path": "prompts/chicken-fingers-attempt02.txt",
+        "sha256": "cd915d1a845304f48f0696c3f4d4ef77d6eea154a6dc86b03d3dacf754dc4a02",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "copied_unchanged": true,
+        "qa": "Accepted after full-frame and actual 768x1024 central-half crop inspection. Four intact chicken fingers are distinguishable behind a fifth finger broken into two matching white-chicken halves at the front. Golden panko/Parmesan crust, parsley only, red marinara in small white ramekin entirely on the plate. Entire thin blue rim, ramekin and food fit within x384..1152. No steam, props, cutlery, text or unlisted garnish. Seamless yellow backdrop visually even apart from natural contact shadow.",
+        "blue_rim_pixel_bounds": [
+          389,
+          216,
+          1138,
+          752
+        ],
+        "central_half_crop_path": "qa/chicken-fingers-attempt02-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true
+      }
+    ],
+    "summary": {
+      "final_count": 1,
+      "built_in_generation_calls": 2,
+      "original_reference_every_call": true,
+      "all_finals_copied_unchanged": true,
+      "all_finals_1536x1024_png": true,
+      "full_central_half_fit_count": 1
+    },
+    "caveats": [
+      "Plate is approximately 49% of canvas width rather than the nominal 45%; the full rim fits the central half with narrow but visible margins. Bounds are blue-rim pixel measurements, not a semantic mask."
+    ],
+    "scope_guards": [
+      "Original batch-03 files untouched.",
+      "No Git or Library writes.",
+      "No batch-05 generation."
+    ]
+  }
+]
