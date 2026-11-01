@@ -20,6 +20,8 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 
 Batch 1, the batch 1 redos and batch 2 are done; don't remake them.
 
+Claude checks each batch branch as it lands. When some images need another go, a `batch-NN-redo.md` file appears in this folder and gets a row in the table above. Check here before each new batch and make any redos first, on their own branch, `images/mise-batch-NN-redos-YYYY-MM-DD`.
+
 ## How to make a batch
 
 - Each file holds one text block: the shared style, then one numbered entry per image (file name, dish, backdrop colour, moment). An image's prompt is the shared style plus its own entry.
