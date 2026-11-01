@@ -4,7 +4,7 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 
 | Order | File | Images | Status |
 |---|---|---|---|
-| 1 | batch-02-redo.md | 2 | To make (replaces two batch 2 images) |
+| 1 | batch-02-redo.md | 2 | Done, both pass |
 | 2 | batch-03.md | 49 | To make |
 | 3 | batch-04.md | 49 | To make |
 | 4 | batch-05.md | 49 | To make |
