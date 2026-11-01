@@ -5,20 +5,21 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 | Order | File | Images | Status |
 |---|---|---|---|
 | 1 | batch-02-redo.md | 2 | Done, both pass |
-| 2 | batch-03.md | 49 | To make |
-| 3 | batch-04.md | 49 | To make |
-| 4 | batch-05.md | 49 | To make |
-| 5 | batch-06.md | 49 | To make |
-| 6 | batch-07.md | 49 | To make |
-| 7 | batch-08.md | 49 | To make |
-| 8 | batch-09.md | 49 | To make |
-| 9 | batch-10.md | 49 | To make |
-| 10 | batch-11.md | 49 | To make |
-| 11 | batch-12.md | 49 | To make |
-| 12 | batch-13.md | 49 | To make |
-| 13 | batch-14.md | 43 | To make |
+| 2 | batch-03.md | 49 | Done, 46 pass, 3 redos below |
+| 3 | batch-03-redo.md | 3 | To make (do these before batch 4) |
+| 4 | batch-04.md | 49 | To make |
+| 5 | batch-05.md | 49 | To make |
+| 6 | batch-06.md | 49 | To make |
+| 7 | batch-07.md | 49 | To make |
+| 8 | batch-08.md | 49 | To make |
+| 9 | batch-09.md | 49 | To make |
+| 10 | batch-10.md | 49 | To make |
+| 11 | batch-11.md | 49 | To make |
+| 12 | batch-12.md | 49 | To make |
+| 13 | batch-13.md | 49 | To make |
+| 14 | batch-14.md | 43 | To make |
 
-Batch 1, the batch 1 redos and batch 2 are done; don't remake them.
+Batch 1, the batch 1 redos, batch 2 and batch 3 are done; don't remake them, apart from the batch 3 redos listed above.
 
 Claude checks each batch branch as it lands. When some images need another go, a `batch-NN-redo.md` file appears in this folder and gets a row in the table above. Check here before each new batch and make any redos first, on their own branch, `images/mise-batch-NN-redos-YYYY-MM-DD`.
 
