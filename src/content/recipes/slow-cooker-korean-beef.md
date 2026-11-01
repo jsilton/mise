@@ -7,10 +7,8 @@ cookingMethods:
 occasions:
   - comfort-food
 flavorProfile:
-  - spicy
   - sweet
   - savory
-  - acidic
   - umami
 cuisines:
   - Korean
@@ -225,130 +223,92 @@ formula:
   steps:
     - id: prep
       title: Prepare
-      text: >-
-        Keep fully thawed beef refrigerated until preparation. Check the actual
-        6-quart cooker’s load instructions, then cut the chuck into the listed
-        1-inch cubes. Start promptly after loading; do not use a delayed timer.
+      text: 'Cut the chuck into 1-inch cubes, trimming off any large pieces of fat.'
     - id: sauce
       title: Mix the sauce
-      text: >-
-        Whisk {{ingredients}} in a bowl until the sugar is dispersed. Sriracha
-        enters this sauce, rather than being required again at finishing.
+      text: 'Whisk {{ingredients}} in a bowl until the sugar dissolves.'
     - id: cook
       title: Slow cook
       text: >-
-        Put {{ingredients}} in the cooker and add all the sauce. Cover and cook
-        on LOW for 7–8 hours or HIGH for 3–4 hours as planning ranges, until the
-        chuck is fork-tender and pulls apart easily. Check beef has reached at
-        least 145°F / 63°C with a three-minute rest before serving; tender chuck
-        commonly needs substantially more cooking than the minimum. Keep covered
-        except for necessary doneness checks.
+        Put {{ingredients}} in a 6-quart slow cooker and pour the sauce over. Cover and cook on LOW
+        for 7 to 8 hours or HIGH for 3 to 4 hours, until the beef is fork-tender and pulls apart
+        easily.
     - id: slurry
-      title: Thicken at the end
+      title: Thicken the sauce
       text: >-
-        Whisk {{ingredients}} smooth in a small bowl immediately before adding;
-        cornstarch settles while standing. Stir all the slurry into the hot beef
-        and sauce. Cover and cook on HIGH, starting to check around 30 minutes;
-        continue until the sauce is hot and thickened enough to coat the beef,
-        allowing longer if still thin.
+        About 30 minutes before you want to eat, whisk {{ingredients}} smooth in a small bowl and
+        stir it into the beef. Cover and cook on HIGH for about 30 minutes, until the sauce is
+        glossy and thick enough to coat the beef. If it is still thin, give it another 10 to 15
+        minutes. Start the rice now so it is ready at the same time.
     - id: serve
-      title: Serve
+      title: Finish and serve
       text: >-
-        Use {{ingredients}}: distribute the scallions over the beef and add the
-        measured sesame seeds if wanted. Serve with the separately prepared
-        rice. Rice cooking time is additional if it is not already ready.
+        Serve the beef and plenty of sauce with {{ingredients}}, scattering the scallions and sesame
+        seeds on top.
 equipment:
   - slow-cooker
   - mixing-bowl
   - measuring-cup
-  - food-thermometer
 learning:
   focus: Cook chuck tender before thickening the full sauce
-  outcome: >-
-    Fork-tender chuck in soy-ginger sauce, finished with scallions and optional
-    sesame.
+  outcome: 'Fork-tender chuck in soy-ginger sauce, finished with scallions and optional sesame.'
   techniques:
     - braising
     - starch
   before:
-    - >-
-      Use a cooker whose instructions permit the actual food load, liquid and
-      meat size. Follow your cooker’s stated minimum and maximum fill limits. A
-      larger recipe needs suitable capacity or separate appropriately filled
-      cookers, with all measured ingredients divided across them. Keep the lid
-      closed except for necessary additions/checks, and do not multiply cooking
-      time with servings or cook on WARM.
-    - >-
-      Keep fully thawed beef refrigerated until preparation; add the cool slurry
-      only after the chuck is tender.
+    - Use a 6-quart slow cooker so the beef and sauce sit in an even layer.
+    - Add the cornstarch slurry only once the beef is tender; it thins out if it cooks for hours.
   checkpoints:
     - step: 3
-      cue: >-
-        Chuck cubes pull apart readily and the temperature/rest checkpoint is
-        met.
-      why: >-
-        Chuck tenderness requires connective-tissue cooking beyond merely
-        reaching the minimum.
+      cue: The beef cubes pull apart easily with a fork.
+      why: Chuck needs a long braise to turn tender; it is ready when it falls apart.
     - step: 4
-      cue: The added slurry has heated and the sauce coats the beef.
-      why: >-
-        Unheated cornstarch cannot thicken just because it was stirred into the
-        cooker.
+      cue: The sauce is glossy and coats the back of a spoon.
+      why: Cornstarch only thickens once the sauce comes back to a simmer.
   troubleshooting:
-    - problem: Sauce remains thin at the first thickening check.
-      cause: The cooker may need longer to recover heat after the slurry addition.
-      fix: >-
-        Continue covered on HIGH, checking hot thickening before deciding it
-        needs another ingredient; do not automatically double the measured
-        cornstarch.
+    - problem: The sauce is still thin after 30 minutes.
+      cause: The cooker has not yet come back to a simmer after the slurry went in.
+      fix: Keep it covered on HIGH for another 10 to 15 minutes before adding more cornstarch.
   storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below,
-    within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on
-    the stove, in the microwave or oven outside the slow cooker, stirring or
-    turning as appropriate for even heating and checking 165°F / 74°C
-    throughout; do not use the slow cooker to reheat cold leftovers. USDA
-    additionally recommends a rolling boil for reheated sauce; stir and keep the
-    boil brief, since prolonged reduction concentrates this thick, sweet-salty
-    sauce. If holding cooked food in the cooker, maintain at least 140°F / 60°C
-    and follow its holding instructions.
+    Refrigerate leftovers in covered containers within 2 hours and eat within 3 to 4 days. Reheat on
+    the stove or in the microwave until piping hot all the way through, adding a splash of water if
+    the sauce has thickened too much.
   timing: >-
-    About 7 hr 45 min–8 hr 45 min LOW or 3 hr 45 min–4 hr 45 min HIGH includes
-    preparation and finishing; cooking ranges include cooker heat-up, with
-    additional time if tenderness requires it.
+    About 8 to 9 hours on LOW or 4 to 5 hours on HIGH, including prep and the final 30 minutes of
+    thickening.
   sources:
     - title: Chungah Rhee — Slow cooker Korean beef
       url: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
     - title: USDA — Slow cookers and food safety
       url: >-
         https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf
-    - title: Crock-Pot — Example model fill limits; follow actual model instructions
-      url: >-
-        https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf
     - title: FoodSafety.gov — Safe minimum temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
     date: '2026-10-05'
+description: >-
+  Korean-inspired beef chuck braised low and slow in soy, brown sugar, garlic and ginger, thickened
+  into a glossy sauce at the end and served over rice.
 ---
 
 ## Chef's Note
 
-Chuck cubes need long cooking for tenderness. The soy, ginger and brown-sugar sauce thickens with a cool cornstarch slurry near the end; keep its water separate from the broth. The scallions and optional sesame seeds finish the bowl. For a milder portion, reduce or omit Sriracha.
+Chuck turns meltingly tender after a long, slow braise in soy, brown sugar, garlic and ginger. The sauce stays thin while it cooks, so the cornstarch slurry at the end is what makes it glossy. For a milder pot, cut or skip the Sriracha; for more kick, add a little more.
 
 ## Directions
 
-1. **Prepare:** Keep fully thawed beef refrigerated until preparation. Check the actual 6-quart cooker’s load instructions, then cut the chuck into the listed 1-inch cubes. Start promptly after loading; do not use a delayed timer.
-2. **Mix the sauce:** Whisk beef broth, low-sodium soy sauce, light brown sugar, garlic cloves, toasted sesame oil, rice wine vinegar, fresh ginger, Sriracha, onion powder, and white pepper in a bowl until the sugar is dispersed. Sriracha enters this sauce, rather than being required again at finishing.
-3. **Slow cook:** Put boneless beef chuck roast in the cooker and add all the sauce. Cover and cook on LOW for 7–8 hours or HIGH for 3–4 hours as planning ranges, until the chuck is fork-tender and pulls apart easily. Check beef has reached at least 145°F / 63°C with a three-minute rest before serving; tender chuck commonly needs substantially more cooking than the minimum. Keep covered except for necessary doneness checks.
-4. **Thicken at the end:** Whisk cornstarch and water smooth in a small bowl immediately before adding; cornstarch settles while standing. Stir all the slurry into the hot beef and sauce. Cover and cook on HIGH, starting to check around 30 minutes; continue until the sauce is hot and thickened enough to coat the beef, allowing longer if still thin.
-5. **Serve:** Use scallions, sesame seeds (if using), and cooked jasmine rice (if using): distribute the scallions over the beef and add the measured sesame seeds if wanted. Serve with the separately prepared rice. Rice cooking time is additional if it is not already ready.
+1. **Prepare:** Cut the chuck into 1-inch cubes, trimming off any large pieces of fat.
+2. **Mix the sauce:** Whisk beef broth, low-sodium soy sauce, light brown sugar, garlic cloves, toasted sesame oil, rice wine vinegar, fresh ginger, Sriracha, onion powder, and white pepper in a bowl until the sugar dissolves.
+3. **Slow cook:** Put boneless beef chuck roast in a 6-quart slow cooker and pour the sauce over. Cover and cook on LOW for 7 to 8 hours or HIGH for 3 to 4 hours, until the beef is fork-tender and pulls apart easily.
+4. **Thicken the sauce:** About 30 minutes before you want to eat, whisk cornstarch and water smooth in a small bowl and stir it into the beef. Cover and cook on HIGH for about 30 minutes, until the sauce is glossy and thick enough to coat the beef. If it is still thin, give it another 10 to 15 minutes. Start the rice now so it is ready at the same time.
+5. **Finish and serve:** Serve the beef and plenty of sauce with scallions, sesame seeds (if using), and cooked jasmine rice (if using), scattering the scallions and sesame seeds on top.
 
 ## Cooking Notes
 
-Use a cooker whose instructions permit the actual food load, liquid and meat size. Follow your cooker’s stated minimum and maximum fill limits. A larger recipe needs suitable capacity or separate appropriately filled cookers, with all measured ingredients divided across them. Keep the lid closed except for necessary additions/checks, and do not multiply cooking time with servings or cook on WARM.
+Use a 6-quart slow cooker, and add the cornstarch slurry only once the beef is tender.
 
-Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. USDA additionally recommends a rolling boil for reheated sauce; stir and keep the boil brief, since prolonged reduction concentrates this thick, sweet-salty sauce. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.
+Refrigerate leftovers in covered containers within 2 hours and eat within 3 to 4 days. Reheat on the stove or in the microwave until piping hot all the way through, adding a splash of water if the sauce has thickened too much.
