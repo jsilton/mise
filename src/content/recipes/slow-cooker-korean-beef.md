@@ -7,47 +7,55 @@ cookingMethods:
 occasions:
   - comfort-food
 flavorProfile:
-  - sweet
   - savory
+  - sweet
   - umami
+  - spicy
 cuisines:
   - Korean
 role: main
 vibe: comfort
-prepTime: About 15 min active
-cookTime: '7–8 hr LOW or 3–4 hr HIGH, plus about 30 min thickening'
-totalTime: About 7 hr 45 min–8 hr 45 min LOW or 3 hr 45 min–4 hr 45 min HIGH
+prepTime: About 40 min active
+cookTime: '4–5 hr HIGH or 7–8 hr LOW, plus about 15 min to finish'
+totalTime: About 5–6 hr on HIGH or 8–9 hr on LOW
 servings: 6 portions
 pairsWith:
   - steamed-white-rice
   - korean-pickled-cucumbers
   - fresh-cabbage-cucumber-and-radish-kimchi
 ingredients:
+  - '--- Shiitake soak ---'
+  - 6 dried shiitake mushrooms
+  - 1/2 cup warm water
   - '--- Beef ---'
-  - '3 lb boneless beef chuck roast, fully thawed, cut into 1-inch cubes'
-  - '--- Soy-ginger sauce ---'
-  - 1 cup beef broth
-  - 1/2 cup low-sodium soy sauce
-  - '1/2 cup light brown sugar, packed'
-  - '4 garlic cloves, minced'
-  - 1 tbsp toasted sesame oil
-  - 1 tbsp rice wine vinegar
+  - '3 lb boneless beef chuck roast, cut into 2-inch chunks, patted dry'
+  - 2 tbsp neutral oil
+  - '--- Pear-gochujang braising sauce ---'
+  - '1 large Asian pear, peeled and coarsely grated'
+  - '1 yellow onion, coarsely grated'
+  - '8 garlic cloves, minced'
   - '1 tbsp fresh ginger, grated'
-  - 1 tsp Sriracha
-  - 1/2 tsp onion powder
-  - 1/2 tsp white pepper
-  - '--- Cornstarch slurry ---'
+  - 1/2 cup low-sodium soy sauce
+  - 2 tbsp gochujang
+  - '3 tbsp light brown sugar, packed'
+  - '1/2 tsp black pepper, freshly ground'
+  - '--- Vegetables ---'
+  - '1 lb daikon radish, peeled, cut into 1 1/2-inch chunks'
+  - '2 large carrots, cut into 1 1/2-inch chunks'
+  - '--- Finish ---'
   - 2 tbsp cornstarch
-  - '1/4 cup water, cool, for slurry'
-  - '--- Finish and serving ---'
+  - 3 tbsp cold water
+  - 1 tbsp toasted sesame oil
+  - 1 tbsp rice vinegar
+  - '--- Serving ---'
   - '2 scallions, thinly sliced'
-  - '1 tsp sesame seeds, optional'
-  - 'cooked jasmine rice, as wanted for serving, optional'
+  - '1 tsp toasted sesame seeds, optional'
+  - 'cooked jasmine rice, about 2 cups uncooked, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-source: Adapted from damndelicious.net
+source: Mise household recipe built on Korean galbi-jjim; first adapted from damndelicious.net
 sourceUrl: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
 rating: 5
 formula:
@@ -56,6 +64,28 @@ formula:
     amount: 6
     unit: portion
   components:
+    - id: soak
+      name: Shiitake soak
+      ingredients:
+        - id: shiitake
+          key: shiitake
+          name: dried shiitake mushroom
+          quantity:
+            amount: 6
+            unit: count
+          uses:
+            - step: soak
+              share: 1
+          plural: dried shiitake mushrooms
+        - id: soakwater
+          key: soakwater
+          name: warm water
+          quantity:
+            amount: 0.5
+            unit: cup
+          uses:
+            - step: soak
+              share: 1
     - id: beef
       name: Beef
       ingredients:
@@ -66,69 +96,54 @@ formula:
             amount: 3
             unit: lb
           uses:
-            - step: cook
+            - step: sear
               share: 1
-          preparation: 'fully thawed, cut into 1-inch cubes'
+          preparation: 'cut into 2-inch chunks, patted dry'
+        - id: oil
+          key: oil
+          name: neutral oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: sear
+              share: 1
     - id: sauce
-      name: Soy-ginger sauce
+      name: Pear-gochujang braising sauce
       ingredients:
-        - id: broth
-          key: broth
-          name: beef broth
+        - id: pear
+          key: pear
+          name: large Asian pear
           quantity:
             amount: 1
-            unit: cup
+            unit: count
           uses:
             - step: sauce
               share: 1
-        - id: soy
-          key: soy
-          name: low-sodium soy sauce
+          plural: large Asian pears
+          preparation: peeled and coarsely grated
+        - id: onion
+          key: onion
+          name: yellow onion
           quantity:
-            amount: 1/2
-            unit: cup
+            amount: 1
+            unit: count
           uses:
             - step: sauce
               share: 1
-        - id: sugar
-          key: sugar
-          name: light brown sugar
-          quantity:
-            amount: 1/2
-            unit: cup
-          uses:
-            - step: sauce
-              share: 1
-          preparation: packed
+          plural: yellow onions
+          preparation: coarsely grated
         - id: garlic
           key: garlic
           name: garlic clove
           quantity:
-            amount: 4
+            amount: 8
             unit: count
           uses:
             - step: sauce
               share: 1
           plural: garlic cloves
           preparation: minced
-        - id: oil
-          key: oil
-          name: toasted sesame oil
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: sauce
-              share: 1
-        - id: vinegar
-          key: vinegar
-          name: rice wine vinegar
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: sauce
-              share: 1
         - id: ginger
           key: ginger
           name: fresh ginger
@@ -139,35 +154,70 @@ formula:
             - step: sauce
               share: 1
           preparation: grated
-        - id: sriracha
-          key: sriracha
-          name: Sriracha
+        - id: soy
+          key: soy
+          name: low-sodium soy sauce
           quantity:
-            amount: 1
-            unit: tsp
+            amount: 0.5
+            unit: cup
           uses:
             - step: sauce
               share: 1
-        - id: onion
-          key: onion
-          name: onion powder
+        - id: gochujang
+          key: gochujang
+          name: gochujang
           quantity:
-            amount: 1/2
-            unit: tsp
+            amount: 2
+            unit: tbsp
           uses:
             - step: sauce
               share: 1
+        - id: sugar
+          key: sugar
+          name: light brown sugar
+          quantity:
+            amount: 3
+            unit: tbsp
+          uses:
+            - step: sauce
+              share: 1
+          preparation: packed
         - id: pepper
           key: pepper
-          name: white pepper
+          name: black pepper
           quantity:
-            amount: 1/2
+            amount: 0.5
             unit: tsp
           uses:
             - step: sauce
               share: 1
-    - id: slurry
-      name: Cornstarch slurry
+          preparation: freshly ground
+    - id: veg
+      name: Vegetables
+      ingredients:
+        - id: daikon
+          key: daikon
+          name: daikon radish
+          quantity:
+            amount: 1
+            unit: lb
+          uses:
+            - step: cook
+              share: 1
+          preparation: 'peeled, cut into 1 1/2-inch chunks'
+        - id: carrot
+          key: carrot
+          name: large carrot
+          quantity:
+            amount: 2
+            unit: count
+          uses:
+            - step: cook
+              share: 1
+          plural: large carrots
+          preparation: cut into 1 1/2-inch chunks
+    - id: finish
+      name: Finish
       ingredients:
         - id: starch
           key: starch
@@ -176,20 +226,37 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: slurry
+            - step: thicken
               share: 1
-        - id: water
-          key: water
-          name: water
+        - id: coldwater
+          key: coldwater
+          name: cold water
           quantity:
-            amount: 1/4
-            unit: cup
+            amount: 3
+            unit: tbsp
           uses:
-            - step: slurry
+            - step: thicken
               share: 1
-          preparation: 'cool, for slurry'
+        - id: sesoil
+          key: sesoil
+          name: toasted sesame oil
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: season
+              share: 1
+        - id: vinegar
+          key: vinegar
+          name: rice vinegar
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: season
+              share: 1
     - id: serve
-      name: Finish and serving
+      name: Serving
       ingredients:
         - id: scallions
           key: scallions
@@ -204,7 +271,7 @@ formula:
           preparation: thinly sliced
         - id: sesame
           key: sesame
-          name: sesame seeds
+          name: toasted sesame seeds
           quantity:
             amount: 1
             unit: tsp
@@ -215,67 +282,103 @@ formula:
         - id: rice
           key: rice
           name: cooked jasmine rice
-          allowance: as wanted for serving
+          allowance: 'about 2 cups uncooked, for serving'
           uses:
             - step: serve
               share: 1
-          optional: true
   steps:
-    - id: prep
-      title: Prepare
-      text: 'Cut the chuck into 1-inch cubes, trimming off any large pieces of fat.'
-    - id: sauce
-      title: Mix the sauce
-      text: 'Whisk {{ingredients}} in a bowl until the sugar dissolves.'
-    - id: cook
-      title: Slow cook
+    - id: soak
+      title: Soak the mushrooms
       text: >-
-        Put {{ingredients}} in a 6-quart slow cooker and pour the sauce over. Cover and cook on LOW
-        for 7 to 8 hours or HIGH for 3 to 4 hours, until the beef is fork-tender and pulls apart
-        easily.
-    - id: slurry
+        Soak {{ingredients}} in a small bowl for about 20 minutes, until soft. Lift out the
+        mushrooms, squeeze them over the bowl, slice them and keep the soaking liquid for the sauce.
+    - id: sear
+      title: Sear the beef
+      text: >-
+        Use {{ingredients}}. Heat the oil in a large skillet over medium-high heat and brown the
+        beef in two batches, 3 to 4 minutes a side, until it has a deep brown crust. Leave space
+        between the pieces so they sear rather than stew. Move the beef to a 6-quart slow cooker.
+    - id: sauce
+      title: Make the sauce
+      text: >-
+        Whisk {{ingredients}} with the mushroom soaking liquid until the gochujang dissolves. Pour
+        it into the hot skillet and scrape up the browned bits from the bottom, then pour it all
+        over the beef.
+    - id: cook
+      title: Braise
+      text: >-
+        Tuck {{ingredients}} in around the beef with the sliced mushrooms. Cover and cook on HIGH
+        for 4 to 5 hours or LOW for 7 to 8 hours, until the beef is fork-tender and the radish has
+        turned translucent.
+    - id: skim
+      title: Skim the liquid
+      text: >-
+        Lift the beef and vegetables into a serving dish and cover to keep warm. Tip the cooker and
+        spoon off the fat that rises to the top, then pour the liquid into a saucepan and bring it
+        to a boil.
+    - id: thicken
       title: Thicken the sauce
       text: >-
-        About 30 minutes before you want to eat, whisk {{ingredients}} smooth in a small bowl and
-        stir it into the beef. Cover and cook on HIGH for about 30 minutes, until the sauce is
-        glossy and thick enough to coat the beef. If it is still thin, give it another 10 to 15
-        minutes. Start the rice now so it is ready at the same time.
-    - id: serve
-      title: Finish and serve
+        Whisk {{ingredients}} smooth, stir into the boiling liquid and boil for 1 to 2 minutes,
+        until glossy and thick enough to coat a spoon. Cook the rice while the beef braises so it is
+        ready now.
+    - id: season
+      title: Brighten and taste
       text: >-
-        Serve the beef and plenty of sauce with {{ingredients}}, scattering the scallions and sesame
-        seeds on top.
+        Off the heat, stir in {{ingredients}}. Taste: add a splash more vinegar if it tastes heavy,
+        or a little soy sauce if it needs salt. Pour the sauce over the beef and vegetables and turn
+        gently to coat.
+    - id: serve
+      title: Serve
+      text: >-
+        Serve the beef, vegetables and sauce with {{ingredients}}, scattering the scallions and
+        sesame seeds on top.
 equipment:
   - slow-cooker
+  - large-skillet
+  - saucepan
+  - box-grater
   - mixing-bowl
   - measuring-cup
 learning:
-  focus: Cook chuck tender before thickening the full sauce
-  outcome: 'Fork-tender chuck in soy-ginger sauce, finished with scallions and optional sesame.'
+  focus: 'Build browned, fruity and fermented depth, then finish the sauce on the stove'
+  outcome: >-
+    Tender seared chuck, daikon and carrots in a glossy pear-gochujang sauce, brightened at the end
+    with sesame oil and rice vinegar.
   techniques:
+    - browning
     - braising
     - starch
+    - seasoning
   before:
-    - Use a 6-quart slow cooker so the beef and sauce sit in an even layer.
-    - Add the cornstarch slurry only once the beef is tender; it thins out if it cooks for hours.
+    - Use a 6-quart slow cooker and a large skillet.
+    - >-
+      Start the shiitake soaking first; you can grate the pear and onion and sear the beef while
+      they soften.
   checkpoints:
-    - step: 3
-      cue: The beef cubes pull apart easily with a fork.
-      why: Chuck needs a long braise to turn tender; it is ready when it falls apart.
+    - step: 2
+      cue: Each piece of beef has a deep brown crust on at least two sides.
+      why: Browning builds the roasted flavor a slow cooker cannot make on its own.
     - step: 4
+      cue: The beef pulls apart with a fork and the daikon looks translucent.
+      why: Chuck needs a long braise to turn tender; it is ready when it gives way.
+    - step: 6
       cue: The sauce is glossy and coats the back of a spoon.
-      why: Cornstarch only thickens once the sauce comes back to a simmer.
+      why: Cornstarch only thickens once the liquid comes to a full boil.
   troubleshooting:
-    - problem: The sauce is still thin after 30 minutes.
-      cause: The cooker has not yet come back to a simmer after the slurry went in.
-      fix: Keep it covered on HIGH for another 10 to 15 minutes before adding more cornstarch.
+    - problem: The sauce tastes heavy or flat.
+      cause: Long cooking dulls brightness and aroma.
+      fix: 'Add rice vinegar a teaspoon at a time, and a little more sesame oil, off the heat.'
+    - problem: The sauce is too salty.
+      cause: The liquid has boiled down too far.
+      fix: Loosen it with a few tablespoons of water before pouring it over the beef.
   storage: >-
-    Refrigerate leftovers in covered containers within 2 hours and eat within 3 to 4 days. Reheat on
-    the stove or in the microwave until piping hot all the way through, adding a splash of water if
-    the sauce has thickened too much.
+    Refrigerate leftovers in covered containers within 2 hours and eat within 3 to 4 days; it tastes
+    even better the next day. Reheat on the stove or in the microwave until piping hot all the way
+    through, adding a splash of water if the sauce is too thick.
   timing: >-
-    About 8 to 9 hours on LOW or 4 to 5 hours on HIGH, including prep and the final 30 minutes of
-    thickening.
+    About 5 to 6 hours on HIGH or 8 to 9 hours on LOW, including about 40 minutes of prep and
+    searing and 15 minutes to finish.
   sources:
     - title: Chungah Rhee — Slow cooker Korean beef
       url: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
@@ -290,25 +393,48 @@ learning:
   review:
     status: editorial-review
     date: '2026-10-05'
+  substitutions:
+    - ingredient: Asian pear
+      alternative: 1 ripe Bosc or Bartlett pear
+      effect: 'Softer and less crisp, with the same sweetness and body in the sauce.'
+    - ingredient: Daikon radish
+      alternative: '1 lb baby gold potatoes, halved'
+      effect: >-
+        Creamier and starchier; they thicken the sauce a little and stay golden rather than turning
+        translucent.
+    - ingredient: Dried shiitake mushrooms and their soaking water
+      alternative: '8 oz fresh shiitake or baby bella mushrooms, sliced, plus 1/2 cup low-sodium beef broth'
+      effect: >-
+        A milder mushroom flavor; the broth makes up some of the savoriness, and the fresh mushrooms
+        add their own liquid.
+    - ingredient: Gochujang
+      alternative: 2 tsp Sriracha plus 1 tbsp white miso
+      effect: 'Keeps the heat and fermented depth, with a thinner, less red sauce.'
+    - ingredient: Boneless beef chuck roast
+      alternative: 4 lb bone-in English-cut short ribs
+      effect: Closer to classic galbi-jjim and richer from the bones; skim off more fat before thickening.
 description: >-
-  Korean-inspired beef chuck braised low and slow in soy, brown sugar, garlic and ginger, thickened
-  into a glossy sauce at the end and served over rice.
+  Chuck seared deep brown, then braised galbi-jjim style with grated Asian pear, gochujang,
+  shiitake, daikon and carrots, and finished with a glossy, bright sauce over rice.
 ---
 
 ## Chef's Note
 
-Chuck turns meltingly tender after a long, slow braise in soy, brown sugar, garlic and ginger. The sauce stays thin while it cooks, so the cornstarch slurry at the end is what makes it glossy. For a milder pot, cut or skip the Sriracha; for more kick, add a little more.
+This borrows from galbi-jjim, Korea's celebration braise. Searing first gives the slow cooker the browned depth it can't make by itself. Grated Asian pear and onion sweeten the sauce and give it body, so it needs only a little sugar, while gochujang and shiitake add a gentle, fermented heat and deep savoriness. Daikon and carrots drink up the sauce as they braise. Sesame oil and vinegar go in at the very end, because hours of cooking would flatten them, and the sauce is thickened on the stove, where it can come to a proper boil.
 
 ## Directions
 
-1. **Prepare:** Cut the chuck into 1-inch cubes, trimming off any large pieces of fat.
-2. **Mix the sauce:** Whisk beef broth, low-sodium soy sauce, light brown sugar, garlic cloves, toasted sesame oil, rice wine vinegar, fresh ginger, Sriracha, onion powder, and white pepper in a bowl until the sugar dissolves.
-3. **Slow cook:** Put boneless beef chuck roast in a 6-quart slow cooker and pour the sauce over. Cover and cook on LOW for 7 to 8 hours or HIGH for 3 to 4 hours, until the beef is fork-tender and pulls apart easily.
-4. **Thicken the sauce:** About 30 minutes before you want to eat, whisk cornstarch and water smooth in a small bowl and stir it into the beef. Cover and cook on HIGH for about 30 minutes, until the sauce is glossy and thick enough to coat the beef. If it is still thin, give it another 10 to 15 minutes. Start the rice now so it is ready at the same time.
-5. **Finish and serve:** Serve the beef and plenty of sauce with scallions, sesame seeds (if using), and cooked jasmine rice (if using), scattering the scallions and sesame seeds on top.
+1. **Soak the mushrooms:** Soak dried shiitake mushrooms and warm water in a small bowl for about 20 minutes, until soft. Lift out the mushrooms, squeeze them over the bowl, slice them and keep the soaking liquid for the sauce.
+2. **Sear the beef:** Use boneless beef chuck roast and neutral oil. Heat the oil in a large skillet over medium-high heat and brown the beef in two batches, 3 to 4 minutes a side, until it has a deep brown crust. Leave space between the pieces so they sear rather than stew. Move the beef to a 6-quart slow cooker.
+3. **Make the sauce:** Whisk large Asian pear, yellow onion, garlic cloves, fresh ginger, low-sodium soy sauce, gochujang, light brown sugar, and black pepper with the mushroom soaking liquid until the gochujang dissolves. Pour it into the hot skillet and scrape up the browned bits from the bottom, then pour it all over the beef.
+4. **Braise:** Tuck daikon radish and large carrots in around the beef with the sliced mushrooms. Cover and cook on HIGH for 4 to 5 hours or LOW for 7 to 8 hours, until the beef is fork-tender and the radish has turned translucent.
+5. **Skim the liquid:** Lift the beef and vegetables into a serving dish and cover to keep warm. Tip the cooker and spoon off the fat that rises to the top, then pour the liquid into a saucepan and bring it to a boil.
+6. **Thicken the sauce:** Whisk cornstarch and cold water smooth, stir into the boiling liquid and boil for 1 to 2 minutes, until glossy and thick enough to coat a spoon. Cook the rice while the beef braises so it is ready now.
+7. **Brighten and taste:** Off the heat, stir in toasted sesame oil and rice vinegar. Taste: add a splash more vinegar if it tastes heavy, or a little soy sauce if it needs salt. Pour the sauce over the beef and vegetables and turn gently to coat.
+8. **Serve:** Serve the beef, vegetables and sauce with scallions, toasted sesame seeds (if using), and cooked jasmine rice, scattering the scallions and sesame seeds on top.
 
 ## Cooking Notes
 
-Use a 6-quart slow cooker, and add the cornstarch slurry only once the beef is tender.
+Shopping at a regular supermarket? Every Korean ingredient here has an everyday swap in the substitutions list.
 
-Refrigerate leftovers in covered containers within 2 hours and eat within 3 to 4 days. Reheat on the stove or in the microwave until piping hot all the way through, adding a splash of water if the sauce has thickened too much.
+Refrigerate leftovers in covered containers within 2 hours and eat within 3 to 4 days; it tastes even better the next day. Reheat on the stove or in the microwave until piping hot all the way through, adding a splash of water if the sauce is too thick.
