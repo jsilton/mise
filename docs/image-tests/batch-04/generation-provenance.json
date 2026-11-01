@@ -1,0 +1,2727 @@
+[
+  {
+    "worker": "worker-01",
+    "batch": 4,
+    "assigned_entries": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "reference": "margarita-01-cookbook.png",
+    "mode": "built-in image_gen",
+    "attempts": [
+      {
+        "entry": 1,
+        "attempt": 1,
+        "prompt": "prompts/chicken-piccata-unfried.txt",
+        "generated_path": "exec-2a2f7915-ceb6-4a5c-8b9c-6ceb3030820c.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Three golden cutlets, capers, lemon-butter sauce, parsley and lemon slice. Vessel about 49% width; complete central crop. Full frame and actual central-half crop inspected. No steam, smoke, decorative props or cutlery; flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-piccata-unfried.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "5431f8f1a867b6369a2c6aab470ee3c97494b8687f468ee55d7e12afafd7a7d8",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          393,
+          243,
+          1136,
+          739
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 2,
+        "attempt": 1,
+        "prompt": "prompts/chicken-pot-pie-ix.txt",
+        "generated_path": "exec-c6a746b1-5d25-4063-b01d-1cc2882a769d.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Initial arrangement too wide; possible missing ceramic wedge appearance prompted vessel repair request.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 3,
+        "attempt": 1,
+        "prompt": "prompts/chicken-quesadillas-with-quick-pico.txt",
+        "generated_path": "exec-0e5a82ce-7ad5-455f-84fe-08f3ba4867af.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Only three quesadilla wedges; platter too wide.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 4,
+        "attempt": 1,
+        "prompt": "prompts/chicken-sausage-pasta.txt",
+        "generated_path": "exec-28219229-a6d0-4f8e-b1c8-19240eefab53.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Linguine, browned chicken sausage, red pepper strips, spinach, tomato sauce and Parmesan. Bowl about 49% width and full central crop. Full frame and actual central-half crop inspected. No steam, smoke, decorative props or cutlery; flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-sausage-pasta.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "ccc195b1f9c7832e53c1c415672ce7931eb09c9fde158e95209bf9502eda0ad5",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          392,
+          252,
+          1139,
+          717
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 5,
+        "attempt": 1,
+        "prompt": "prompts/chicken-scaloppine-with-tomato-and-white-wine.txt",
+        "generated_path": "exec-8377204a-51d4-4dab-85b9-c8223e296710.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Left plate edge approximately 2 pixels outside central crop; targeted framing correction requested.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 2,
+        "attempt": 2,
+        "prompt": "prompts/chicken-pot-pie-ix-attempt-02.txt",
+        "generated_path": "exec-9569a448-111a-45b7-933d-46165b71f148.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-pot-pie-ix.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "edit_target_source_snapshot": "exec-c6a746b1-5d25-4063-b01d-1cc2882a769d.png",
+        "qa": "Content corrected; remaining central crop overflow prompted framing-only correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 3,
+        "attempt": 2,
+        "prompt": "prompts/chicken-quesadillas-with-quick-pico-attempt-02.txt",
+        "generated_path": "exec-8cffdf03-7cb3-43eb-aee3-babdc6790086.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-quesadillas-with-quick-pico.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "edit_target_source_snapshot": "exec-0e5a82ce-7ad5-455f-84fe-08f3ba4867af.png",
+        "qa": "Content corrected; remaining central crop overflow prompted framing-only correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 5,
+        "attempt": 2,
+        "prompt": "prompts/chicken-scaloppine-with-tomato-and-white-wine-attempt-02.txt",
+        "generated_path": "exec-fc5239d3-172f-4c3f-a888-6595e1314f7c.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-scaloppine-with-tomato-and-white-wine.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-8377204a-51d4-4dab-85b9-c8223e296710.png",
+        "qa": "Three chicken pieces in rosy tomato-wine sauce with wilted spinach, no garnish. Plate about 45% width after framing correction. Full frame and actual central-half crop inspected. No steam, smoke, decorative props or cutlery; flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-scaloppine-with-tomato-and-white-wine.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "2ee1e347e9f98686d89b41e2f88e84b7417bcbe21d7804514337c5199cb767d8",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          425,
+          269,
+          1110,
+          707
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 2,
+        "attempt": 3,
+        "prompt": "prompts/chicken-pot-pie-ix-attempt-03.txt",
+        "generated_path": "exec-b5a6edb9-7794-479d-9b26-775fe236204b.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-pot-pie-ix.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted with scale caveat",
+        "edit_target_source_snapshot": "exec-9569a448-111a-45b7-933d-46165b71f148.png",
+        "qa": "Golden double-crust pie with chicken/carrot/celery/onion filling and removed slice beside it as requested. Arrangement about 38% width after framing correction, slightly smaller than the other dishes but centered and fully crop safe. Slice obscures part of the pie-dish rim. Full frame and actual central-half crop inspected. No steam, smoke, decorative props or cutlery; flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-pot-pie-ix.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "40197c0b8b35e79273793bc14a13086283071973a93b082a17987507de91575c",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          488,
+          435,
+          965,
+          580
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 3,
+        "attempt": 3,
+        "prompt": "prompts/chicken-quesadillas-with-quick-pico-attempt-03.txt",
+        "generated_path": "exec-45e831be-d768-478a-a226-1e6cf406314c.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-quesadillas-with-quick-pico.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-8cffdf03-7cb3-43eb-aee3-babdc6790086.png",
+        "qa": "Four distinct quesadilla wedges after count correction, white melted cheese, shredded chicken, pico and cilantro. Platter about 41% width after framing correction. Full frame and actual central-half crop inspected. No steam, smoke, decorative props or cutlery; flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-quesadillas-with-quick-pico.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "f9fbf74e0aeabaad8ba8ffcfe6535d90171be6915f8ed83a408e3bc5016b4185",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          449,
+          304,
+          1078,
+          674
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 6,
+        "attempt": 1,
+        "prompt": "prompts/chicken-shawarma.txt",
+        "generated_path": "exec-ffa33f43-d724-4cdf-a659-8aad503aeb4c.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Oversize vessel caused central crop loss; targeted framing remake.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 7,
+        "attempt": 1,
+        "prompt": "prompts/chicken-souvlaki.txt",
+        "generated_path": "exec-aae9022c-fe27-4dae-a4a7-1f005205c294.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Oversize vessel caused central crop loss; targeted framing remake.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 8,
+        "attempt": 1,
+        "prompt": "prompts/chicken-thigh-kebabs-with-chile-yogurt-sauce.txt",
+        "generated_path": "exec-76659937-7140-41c2-aca1-8f47bdbf3b9f.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Oversize vessel caused central crop loss; targeted framing remake.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 9,
+        "attempt": 1,
+        "prompt": "prompts/chicken-tinga.txt",
+        "generated_path": "exec-4034d2dd-560f-4f52-b352-1ce7322fa16b.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "qa": "Saucy shredded chicken, onion half-moons, cilantro and lime wedge. Bowl about 48% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery; visually flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-tinga.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "2c74cc5d80df13f59091e10ea67ecae4a218d40cd108ee6bd8b6268b9baa4a3f",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          399,
+          246,
+          1136,
+          708
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 10,
+        "attempt": 1,
+        "prompt": "prompts/chicken-tortilla-soup-iii.txt",
+        "generated_path": "exec-9646d0d6-c717-42a1-8602-89a2e7cf0977.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Contained unrequested red and green vegetable chunks; targeted ingredient correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 6,
+        "attempt": 2,
+        "prompt": "prompts/chicken-shawarma-attempt-02.txt",
+        "generated_path": "exec-2b295059-06c5-4222-a34f-5d76447d6f75.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-shawarma.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-ffa33f43-d724-4cdf-a659-8aad503aeb4c.png",
+        "qa": "Spiced sliced chicken, tahini ribbons, parsley and lemon wedge. Framing corrected to about 44% vessel width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery; visually flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-shawarma.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "d1580bb252740aebb6d640595db07bd849430f24949f1b9a9fba1743c96bea49",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          431,
+          285,
+          1105,
+          684
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 7,
+        "attempt": 2,
+        "prompt": "prompts/chicken-souvlaki-attempt-02.txt",
+        "generated_path": "exec-b5dcaf54-40b0-471a-90e9-d5df7dc99562.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-souvlaki.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-aae9022c-fe27-4dae-a4a7-1f005205c294.png",
+        "qa": "Three rows of chicken on skewers with lemon wedges and dried oregano. Integral food skewers permitted by entry. Framing corrected to about 43% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery; visually flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-souvlaki.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "d3a071e3ab0d5453768ca54bf7a4d41203d93ba3df02a9e16dc22aa0a96136b6",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          438,
+          304,
+          1095,
+          673
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 8,
+        "attempt": 2,
+        "prompt": "prompts/chicken-thigh-kebabs-with-chile-yogurt-sauce-attempt-02.txt",
+        "generated_path": "exec-f96a0388-3acc-4a6a-ae34-ff366b2e7c35.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-thigh-kebabs-with-chile-yogurt-sauce.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-76659937-7140-41c2-aca1-8f47bdbf3b9f.png",
+        "qa": "Three paprika skin-on chicken skewers beside cayenne-flecked yogurt sauce. Integral skewers permitted by entry. Framing corrected; vessel about 47% width, all skewer ends inside crop. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery; visually flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-thigh-kebabs-with-chile-yogurt-sauce.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "1fdddfca12b5b2dd42fe71ffe826d48bf2d17011a2c08926648a22c820899ec2",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          406,
+          302,
+          1129,
+          686
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 10,
+        "attempt": 2,
+        "prompt": "prompts/chicken-tortilla-soup-iii-attempt-02.txt",
+        "generated_path": "exec-2a8416bf-761c-4b01-9376-9a4052ef60e3.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-tortilla-soup-iii.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-9646d0d6-c717-42a1-8602-89a2e7cf0977.png",
+        "qa": "Creamy pale-orange chicken and corn soup with tortilla strips and cilantro. Unrequested red/green vegetable chunks removed in edit. Bowl about 46% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery; visually flat requested-palette backdrop.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "final_path": "images/chicken-tortilla-soup-iii.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "3b1d5b6c7b6f3bfa5e05e82ff7d460855779ab8e3f83970f70c8f5d1bf4eb0fc",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          413,
+          224,
+          1120,
+          671
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 11,
+        "attempt": 1,
+        "prompt": "prompts/chicken-with-snow-peas-stir-fry.txt",
+        "generated_path": "exec-4a1ca8c4-dc45-4ec3-ba61-f5e9db32347e.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Slightly oversized vessel would lose outer rim in central-half crop; targeted framing correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 12,
+        "attempt": 1,
+        "prompt": "prompts/chili.txt",
+        "generated_path": "exec-a4dcfa05-4c8a-40b9-acab-73223dcb0f7f.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Ground turkey, sweet potato cubes and black beans in thick tomato chili; sour cream, scallions and lime wedge only. Bowl about 44% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chili.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "a28a7696dd443e6ba70e7b8db426f02c1d3b397cc35cc525ab89533a412a835f",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          429,
+          241,
+          1104,
+          694
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 13,
+        "attempt": 1,
+        "prompt": "prompts/chimichurri.txt",
+        "generated_path": "exec-b3da9579-d2f1-4c1e-b2de-3a1fc549f2c5.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Slightly oversized vessel would lose outer rim in central-half crop; targeted framing correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 14,
+        "attempt": 1,
+        "prompt": "prompts/chinese-chicken.txt",
+        "generated_path": "exec-f5578a0c-4710-449a-bd7c-8dd12ab4307b.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Slightly oversized vessel would lose outer rim in central-half crop; targeted framing correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 15,
+        "attempt": 1,
+        "prompt": "prompts/chinese-chicken-broccoli.txt",
+        "generated_path": "exec-57da9b89-f096-45b7-b259-cccd31845f41.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Slightly oversized vessel would lose outer rim in central-half crop; targeted framing correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 16,
+        "attempt": 1,
+        "prompt": "prompts/chinese-eggplant-with-garlic-sauce.txt",
+        "generated_path": "exec-8ce87f43-bc27-42a8-ac18-9bf910997817.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Purple-skinned eggplant and pork crumbles in red-brown chili-bean sauce, scallions only. Bowl just under 50% width; rim is close to crop edges but whole vessel fits. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chinese-eggplant-with-garlic-sauce.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "273cb547558385fc74b0c8fe90ac7b89a1a078e377dee931dc2244ef13b90de4",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          388,
+          273,
+          1148,
+          724
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 17,
+        "attempt": 1,
+        "prompt": "prompts/chinese-garlic-sauce-base.txt",
+        "generated_path": "exec-9b9292b4-1fdc-4965-a3df-64ec2953d96e.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "superseded",
+        "qa": "Slightly oversized vessel would lose outer rim in central-half crop; targeted framing correction.",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 11,
+        "attempt": 2,
+        "prompt": "prompts/chicken-with-snow-peas-stir-fry-attempt-02.txt",
+        "generated_path": "exec-7549f61f-d3d9-4b00-8461-49914f9b707a.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-with-snow-peas-stir-fry.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-4a1ca8c4-dc45-4ec3-ba61-f5e9db32347e.png",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Chicken slices and green snow peas in light garlic sauce, no garnish. Framing corrected, vessel about 46% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chicken-with-snow-peas-stir-fry.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "9d4e4dbee2dd8df39c6c78b2e6b2045a9a9df476285408158ed7aece16843f99",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          411,
+          300,
+          1123,
+          671
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 13,
+        "attempt": 2,
+        "prompt": "prompts/chimichurri-attempt-02.txt",
+        "generated_path": "exec-a462519b-341e-4ba1-94b3-f3c4efcfa937.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chimichurri.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-b3da9579-d2f1-4c1e-b2de-3a1fc549f2c5.png",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Five distinct pink-centered steak slices with green chimichurri and fresh flat-leaf parsley. Framing corrected, plate about 44% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chimichurri.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "516e26c77816667fd8561b3f016a3c1bbdc677d5d27f03116602d7f11214390a",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          429,
+          274,
+          1104,
+          716
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 14,
+        "attempt": 2,
+        "prompt": "prompts/chinese-chicken-attempt-02.txt",
+        "generated_path": "exec-ed472860-65ca-4aa4-bc51-234a423c1d5e.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chinese-chicken.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-f5578a0c-4710-449a-bd7c-8dd12ab4307b.png",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Jasmine rice with ruby Chinese sausage slices, chicken, broccoli and onion in glossy brown sauce; no garnish. Framing corrected, bowl about 46% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chinese-chicken.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "c979bd9eb1e87660cfcaa587919d868a1306f2dd132b20581df1ee75353f9585",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          418,
+          245,
+          1117,
+          707
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 15,
+        "attempt": 2,
+        "prompt": "prompts/chinese-chicken-broccoli-attempt-02.txt",
+        "generated_path": "exec-0d672bec-90f7-4dcf-a330-afc4844d7c27.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chinese-chicken-broccoli.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-57da9b89-f096-45b7-b259-cccd31845f41.png",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Chicken and broccoli in glossy oyster-style brown sauce, no garnish. Framing corrected, platter about 48% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chinese-chicken-broccoli.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "cd2df8ca29dad9834d18d0d8e6944f872acda47d69da447457f8f68ee2537b1e",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          399,
+          298,
+          1135,
+          690
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 17,
+        "attempt": 2,
+        "prompt": "prompts/chinese-garlic-sauce-base-attempt-02.txt",
+        "generated_path": "exec-57749dc1-da6a-4261-a294-f819f22a7f76.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chinese-garlic-sauce-base.png",
+          "buttermilk-waffles.png"
+        ],
+        "status": "accepted",
+        "edit_target_source_snapshot": "exec-9b9292b4-1fdc-4965-a3df-64ec2953d96e.png",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Green beans in amber garlic-ginger glaze with visible minced garlic and ginger. Framing corrected, platter about 48% width. Full frame and actual central-half crop inspected; complete food and vessel retained. No steam, smoke, decorative props or cutlery. Flat requested-palette backdrop.",
+        "final_path": "images/chinese-garlic-sauce-base.png",
+        "format": "PNG",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "42600dac67f7e65d93f2edd5badfc6c1b7d8aa5b834d62442cc33d61b5d55aa6",
+        "final_byte_identical_to_generated": true,
+        "blue_rim_bbox_proxy": [
+          401,
+          323,
+          1133,
+          708
+        ],
+        "prompt_exists": true,
+        "generated_source_exists": true
+      },
+      {
+        "entry": 2,
+        "attempt": 4,
+        "prompt": "prompts/chicken-pot-pie-ix-attempt-04.txt",
+        "generated_path": "exec-1288b605-957f-42c2-9bd0-e5a67a00cdab.png",
+        "references": [
+          "margarita-01-cookbook.png",
+          "images/chicken-pot-pie-ix.png"
+        ],
+        "status": "rejected",
+        "edit_target_source_snapshot": "exec-b5a6edb9-7794-479d-9b26-775fe236204b.png",
+        "reference_original_attached": true,
+        "transparent_background": false,
+        "qa": "Parent-requested single targeted enlargement from 38% toward 46% instead overshot to approximately 64% combined width. Rejected; previous crop-safe attempt 3 retained per parent instruction, with scale caveat disclosed.",
+        "prompt_exists": true,
+        "generated_source_exists": true
+      }
+    ],
+    "accepted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "caveats": [
+      "Entry 2 pot pie combined arrangement remains about 38% frame width, slightly smaller than requested. A parent-requested enlargement was attempted once and overshot to 64%, so the prior crop-safe output is retained. Its removed slice partly obscures the pie-dish rim.",
+      "AI backdrop palette visually matches the request but is not certified pixel-exact hex; small photographic lighting variation and short shadows remain.",
+      "Entries 7 and 8 intentionally contain three integral food skewers specified by their recipes, not decorative props or cutlery."
+    ],
+    "strict_crop_accepted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "flagged_scale_caveat": [
+      2
+    ],
+    "flagged_crop_caveat": [],
+    "selected_attempts": {
+      "1": 1,
+      "2": 3,
+      "3": 3,
+      "4": 1,
+      "5": 2,
+      "6": 2,
+      "7": 2,
+      "8": 2,
+      "9": 1,
+      "10": 2,
+      "11": 2,
+      "12": 1,
+      "13": 2,
+      "14": 2,
+      "15": 2,
+      "16": 1,
+      "17": 2
+    },
+    "total_calls": 32,
+    "status": "complete_for_parent_independent_review",
+    "qa_files": [
+      "qa/worker01-final-contact.jpg",
+      "qa/worker01-final-crops.jpg"
+    ],
+    "verification": {
+      "all_final_png_1536x1024": true,
+      "all_final_bytes_identical_to_generated": true,
+      "all_prompts_exist": true,
+      "all_generated_sources_exist": true,
+      "all_calls_original_reference_attached": true,
+      "final_pixel_manipulation": "None. Python used only for QA crops/sheets/inspection and manifest bookkeeping."
+    }
+  },
+  {
+    "worker": "02",
+    "batch": "04",
+    "assigned_entries": [
+      18,
+      33
+    ],
+    "tool": "built-in image_gen only",
+    "reference": "margarita-01-cookbook.png",
+    "composition_reference": "buttermilk-waffles.png",
+    "entries": [
+      {
+        "entry": 18,
+        "filename": "chinese-sausage-fried-rice.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-c2740e36-9505-4b51-8ff4-a28083dc1be2.png",
+            "prompt": "prompts/chinese-sausage-fried-rice-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate rim slightly beyond central-half crop; targeted framing correction",
+            "source_sha256": "807741f7d93496d2ff6695e2b753df9c03b566f036613d3877b52c3e5f7cbeb0",
+            "prompt_sha256": "7f57804926fb74a00b35af979096ed23eaf30c1f86747588c2e2084cefb33023",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-cdd2684d-4f02-4484-96e2-dd4c7cec7c94.png",
+            "prompt": "prompts/chinese-sausage-fried-rice-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-c2740e36-9505-4b51-8ff4-a28083dc1be2.png"
+            ],
+            "status": "selected",
+            "source_sha256": "7699b5438f691d4a752294e3357c2ed968afd9c31299328f9683873e7f6486d8",
+            "prompt_sha256": "8e5c015cd3fb1694a31284e14659068398dd172aa8f44c5dd4537391778fd2cf",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 3,
+            "source": "exec-d310aff7-cbe9-4d60-8808-ef4b81042e59.png",
+            "prompt": "prompts/chinese-sausage-fried-rice-attempt-03.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "images/chinese-sausage-fried-rice.png"
+            ],
+            "reference_content_sources": [
+              "margarita-01-cookbook.png",
+              "exec-cdd2684d-4f02-4484-96e2-dd4c7cec7c94.png"
+            ],
+            "status": "rejected",
+            "reason": "Requested modest enlargement overshot to approx52% width (x368..1173), clipping central-half vessel rim",
+            "source_sha256": "ec3070a6dea85e4cfce8de967d8b56bc6404fdff3052c7063885bec2cde6f289",
+            "prompt_sha256": "2a7998ab2b6f1ebbcfee738c723878f6aa2ed75586783181a3d2e7522111a453",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "flagged smaller-scale caveat",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            492,
+            328,
+            1042,
+            660
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Rice, Chinese sausage, scrambled egg, peas, green onion, red chili",
+          "caveats": "Selected crop-safe candidate remains approx36% frame width. One targeted enlargement was attempted but overshot beyond central-half crop; no further loops per coordinator. Current selected food/count preserved.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-18-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.358
+        },
+        "sha256": "7699b5438f691d4a752294e3357c2ed968afd9c31299328f9683873e7f6486d8",
+        "selected_prompt": "prompts/chinese-sausage-fried-rice.txt",
+        "final_path": "images/chinese-sausage-fried-rice.png"
+      },
+      {
+        "entry": 19,
+        "filename": "chinese-steamed-fish.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-60a7d2a3-e339-454c-89b7-7c66244fa8da.png",
+            "prompt": "prompts/chinese-steamed-fish-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Whole fish and platter too wide for central-half crop",
+            "source_sha256": "6576eb5a08273c5173935ef422b638b4b755662230042db812a75b89ac64e4fc",
+            "prompt_sha256": "209603d34dc7c71eff539385981fc3ce0346d32ea31034e62a0258747f48356b",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-14e19466-b907-4884-977f-2c56165e0be5.png",
+            "prompt": "prompts/chinese-steamed-fish-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-60a7d2a3-e339-454c-89b7-7c66244fa8da.png"
+            ],
+            "status": "selected",
+            "source_sha256": "91ed248b3116069ee4ba176d59a23157b2b4010c89b30f85ecf9c3a075a69859",
+            "prompt_sha256": "bb00d2506bc9ff7f3d71d1f5fb176f1bb7fb68843138ce306953a442e413f4ee",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            416,
+            329,
+            1138,
+            667
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Whole snapper with head and tail, ginger/scallion threads, cilantro and soy",
+          "caveats": "Generated backdrop color approximate; slight natural photographic surface texture.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-19-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.47
+        },
+        "sha256": "91ed248b3116069ee4ba176d59a23157b2b4010c89b30f85ecf9c3a075a69859",
+        "selected_prompt": "prompts/chinese-steamed-fish.txt",
+        "final_path": "images/chinese-steamed-fish.png"
+      },
+      {
+        "entry": 20,
+        "filename": "chinese-style-snapper.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-b194bd58-e558-4ac8-8221-023b75e9c237.png",
+            "prompt": "prompts/chinese-style-snapper-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Whole fish and platter too wide for central-half crop",
+            "source_sha256": "e2e95aa45b3816fe48034963d55b1292bfb634cc8afeac338276975cd02ee28d",
+            "prompt_sha256": "487b57ff5a09419b69fa5c53e245fa9ee18946b46946e09533b751ece111ca37",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-706a5786-f38d-4680-9cb3-b75e76ef70a5.png",
+            "prompt": "prompts/chinese-style-snapper-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-b194bd58-e558-4ac8-8221-023b75e9c237.png"
+            ],
+            "status": "selected",
+            "source_sha256": "a3b0c371105193bfe9b616c61e0244e3f6e50f89b35a5291f42fc37b4a15e688",
+            "prompt_sha256": "d7fac0ee6ca6c35ba68b8d4100059ed2a8bf85d4a708a98ef3acfc0270c5390b",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            416,
+            338,
+            1139,
+            663
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Whole red-silver snapper with head and tail, long scallion/ginger threads, cilantro, amber sauce",
+          "caveats": "Generated backdrop color approximate; slight natural photographic surface texture.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-20-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.471
+        },
+        "sha256": "a3b0c371105193bfe9b616c61e0244e3f6e50f89b35a5291f42fc37b4a15e688",
+        "selected_prompt": "prompts/chinese-style-snapper.txt",
+        "final_path": "images/chinese-style-snapper.png"
+      },
+      {
+        "entry": 21,
+        "filename": "chipotle-pork-and-sweet-corn-tamale-bowls.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-12e30b8a-008e-4477-bd23-a190e388ddb0.png",
+            "prompt": "prompts/chipotle-pork-and-sweet-corn-tamale-bowls-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "source_sha256": "54f1431ff7022ada42b165d8cb70c6b76610dcd92a4a224aaa89209407e202e4",
+            "prompt_sha256": "b3039b603e979c885edf496d65e28c3fc15e37f8bb1c1c06285a4df6786244dd",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            399,
+            248,
+            1137,
+            736
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Ground pork red sauce, red pepper, creamy golden polenta, charred corn, cotija and cilantro",
+          "caveats": "Backdrop color is generated approximation; slight natural photographic surface texture.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-21-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.48
+        },
+        "sha256": "54f1431ff7022ada42b165d8cb70c6b76610dcd92a4a224aaa89209407e202e4",
+        "selected_prompt": "prompts/chipotle-pork-and-sweet-corn-tamale-bowls.txt",
+        "final_path": "images/chipotle-pork-and-sweet-corn-tamale-bowls.png"
+      },
+      {
+        "entry": 22,
+        "filename": "chocolate-blended-oats-with-raspberry-chia-jam.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-10ed8d65-125a-45fd-a2f9-5e7a12b9f9ff.png",
+            "prompt": "prompts/chocolate-blended-oats-with-raspberry-chia-jam-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "source_sha256": "e6478012e76ba9f8cc4a1aab8cb2ec821126ef340829f5ce09ec4ce64b3f3c3b",
+            "prompt_sha256": "7a0e54d5ce3bc1411a7aba035098e3e77490a201adc2180ebe939e8f652beff4",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            512,
+            182,
+            1021,
+            824
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Clear short glass with red raspberry-chia jam base, thick chocolate oats layer, dark chocolate cap, three fresh raspberries",
+          "caveats": "Backdrop color is generated approximation; slight natural photographic surface texture.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-22-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.331
+        },
+        "sha256": "e6478012e76ba9f8cc4a1aab8cb2ec821126ef340829f5ce09ec4ce64b3f3c3b",
+        "selected_prompt": "prompts/chocolate-blended-oats-with-raspberry-chia-jam.txt",
+        "final_path": "images/chocolate-blended-oats-with-raspberry-chia-jam.png"
+      },
+      {
+        "entry": 23,
+        "filename": "chocolate-bread-pudding-with-vanilla-ice-cream.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-ed2a5a43-53a5-4965-b2bf-1af545df8ca4.png",
+            "prompt": "prompts/chocolate-bread-pudding-with-vanilla-ice-cream-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "source_sha256": "8c1312ffde1f59cec01ac7fb0ed3687676b3d0c29655eefca3df6bf86b5103fc",
+            "prompt_sha256": "d0cf4dde8b7b52d660a16e27106465ebe62a5c076a551635d6cf7a3605e171f2",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            405,
+            272,
+            1128,
+            727
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Square chocolate brioche bread pudding with white chocolate pockets, single melting vanilla ice cream scoop",
+          "caveats": "Backdrop color is generated approximation; slight natural photographic surface texture.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-23-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.471
+        },
+        "sha256": "8c1312ffde1f59cec01ac7fb0ed3687676b3d0c29655eefca3df6bf86b5103fc",
+        "selected_prompt": "prompts/chocolate-bread-pudding-with-vanilla-ice-cream.txt",
+        "final_path": "images/chocolate-bread-pudding-with-vanilla-ice-cream.png"
+      },
+      {
+        "entry": 24,
+        "filename": "chocolate-chia-pudding.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-1398384d-96da-45a8-9cae-0dd9c99a9fe9.png",
+            "prompt": "prompts/chocolate-chia-pudding-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "reason": null,
+            "source_sha256": "02561160914d86d554b13950c14ad571d33cf6156b97d0737c831a699064a797",
+            "prompt_sha256": "287229a06e3dcf1849924ab00b8dcbe329030565ba72a7a2f9aaad08a8ec92a3",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            442,
+            235,
+            1089,
+            722
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Chocolate chia pudding with raspberries, blueberries, chocolate chips",
+          "caveats": "Backdrop color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-24-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.421
+        },
+        "sha256": "02561160914d86d554b13950c14ad571d33cf6156b97d0737c831a699064a797",
+        "selected_prompt": "prompts/chocolate-chia-pudding.txt",
+        "final_path": "images/chocolate-chia-pudding.png"
+      },
+      {
+        "entry": 25,
+        "filename": "chocolate-chip-beet-muffins.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-54c0eb2d-916b-4506-af50-22f662b134eb.png",
+            "prompt": "prompts/chocolate-chip-beet-muffins-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate too wide for central-half crop; targeted framing correction",
+            "source_sha256": "4cfd28e6b3d7437c3f0a51055c8e2907860865c5ed59e9b398469d49b6884f67",
+            "prompt_sha256": "20e0a4d96f2c1b87e507370dd1d8d084467c3b770a860a343cac8a2a8064ce9d",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-9b274e15-d189-41d7-be80-08dea1a9fb63.png",
+            "prompt": "prompts/chocolate-chip-beet-muffins-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-54c0eb2d-916b-4506-af50-22f662b134eb.png"
+            ],
+            "status": "selected",
+            "source_sha256": "630a16efd2e47ad17f0b92ac96ebaf96bf1e241fb9b2fe1cca2601e3de5c47cc",
+            "prompt_sha256": "8c38825eedf654936143917203fbc368f733aed4ab62a71a105602dd67b50e71",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            433,
+            293,
+            1104,
+            708
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Four whole beet-chocolate chip muffins plus one broken into two halves, red cocoa crumb",
+          "caveats": "Backdrop color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-25-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.437
+        },
+        "sha256": "630a16efd2e47ad17f0b92ac96ebaf96bf1e241fb9b2fe1cca2601e3de5c47cc",
+        "selected_prompt": "prompts/chocolate-chip-beet-muffins.txt",
+        "final_path": "images/chocolate-chip-beet-muffins.png"
+      },
+      {
+        "entry": 26,
+        "filename": "chocolate-chip-cookie-cake.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-e62d45f8-7bbf-4d72-ba91-65c9ffb973fd.png",
+            "prompt": "prompts/chocolate-chip-cookie-cake-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate too wide for central-half crop; targeted framing correction",
+            "source_sha256": "40e0bafc537d42b6fb23ffb9cb0355119aff1df0353ba427ffc80c67e126ac09",
+            "prompt_sha256": "dec64854c582f97aaa7a79fa17d6a7e57a067f60ab872c3de87672eeb40b4352",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-6feb6192-f71c-401a-97d4-93dd7b3c1239.png",
+            "prompt": "prompts/chocolate-chip-cookie-cake-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-e62d45f8-7bbf-4d72-ba91-65c9ffb973fd.png"
+            ],
+            "status": "selected",
+            "source_sha256": "73c54b175ac55e2a940193457bb1eff533602e294842204a1b7e077c7ebc41ce",
+            "prompt_sha256": "bec4329508676672ab0a177340bae2f1650044a01f47daf9832b40e323763b33",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            428,
+            260,
+            1105,
+            725
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Golden round cookie cake, chocolate and colorful candies, wedge cut and pulled away",
+          "caveats": "Backdrop color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-26-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.441
+        },
+        "sha256": "73c54b175ac55e2a940193457bb1eff533602e294842204a1b7e077c7ebc41ce",
+        "selected_prompt": "prompts/chocolate-chip-cookie-cake.txt",
+        "final_path": "images/chocolate-chip-cookie-cake.png"
+      },
+      {
+        "entry": 27,
+        "filename": "chocolate-chip-muffins-with-zucchini.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-9778486a-4ae8-4eaf-a6a3-a6b949481f50.png",
+            "prompt": "prompts/chocolate-chip-muffins-with-zucchini-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate and muffin edges too wide for central-half crop",
+            "source_sha256": "8df69269299958958f7557e9ec9950881f8d5490f85e1b9a7b5e277af3861c91",
+            "prompt_sha256": "aa4a737e7aabf3028e08d88213d24df4363e4135c88185e92b6d0762c16f9f1a",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-16ffbb5f-dd1b-4bc2-a761-c12521acc96d.png",
+            "prompt": "prompts/chocolate-chip-muffins-with-zucchini-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-9778486a-4ae8-4eaf-a6a3-a6b949481f50.png"
+            ],
+            "status": "selected",
+            "source_sha256": "2a2eb5a6f3c8ff96b43ee586950392541bb25f7e26e93b48c33d1a370014cf99",
+            "prompt_sha256": "99938f7b63d3ab7acdb3e352113863f15b0c64aef3026d0566e78931d1f59aba",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Four whole zucchini chocolate-chip muffins plus one broken into two halves, moist brown crumb with green zucchini flecks",
+          "approx_subject_bounds": [
+            419,
+            298,
+            1117,
+            721
+          ],
+          "caveats": "Backdrop color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-27-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.454
+        },
+        "sha256": "2a2eb5a6f3c8ff96b43ee586950392541bb25f7e26e93b48c33d1a370014cf99",
+        "selected_prompt": "prompts/chocolate-chip-muffins-with-zucchini.txt",
+        "final_path": "images/chocolate-chip-muffins-with-zucchini.png"
+      },
+      {
+        "entry": 28,
+        "filename": "chocolate-chip-walnut-cookies.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-710220b4-8eca-4ef0-aec2-646ed168b1a5.png",
+            "prompt": "prompts/chocolate-chip-walnut-cookies-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Only four intact cookies plus one broken (five total), need six total",
+            "source_sha256": "e2077e7279ac3c7f2f2a001c87f0ce6b541c49aa5af3804975cb61735441d5a8",
+            "prompt_sha256": "57506eda5f23f7d48242f882f87183ac9eaf4cb6564522ab0de2c42fa0d03dca",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-d2b213ab-9027-4567-8d58-73dc30760989.png",
+            "prompt": "prompts/chocolate-chip-walnut-cookies-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-710220b4-8eca-4ef0-aec2-646ed168b1a5.png"
+            ],
+            "status": "rejected",
+            "reason": "Correct six-cookie count, but composition expanded beyond central-half crop",
+            "source_sha256": "7dc496f25e2dff6213c77c62c5b6ab6d80528ab4d1f9dbd587f4e7d6a1a00818",
+            "prompt_sha256": "7f4d79a12b5cbf03964494d956e39c98d1c9539b6813dd5e5b833d9dd71864c1",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 3,
+            "source": "exec-c9028e87-2df6-4b45-9795-254f3d66fae5.png",
+            "prompt": "prompts/chocolate-chip-walnut-cookies-attempt-03.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-d2b213ab-9027-4567-8d58-73dc30760989.png"
+            ],
+            "status": "selected",
+            "source_sha256": "019b7f6f92828284811db6ae0024cef737b6faace1d7f6f31fe8a1cd45f2fd3e",
+            "prompt_sha256": "33294e7f261cd9d78a5b99c3ee4619b5d00b3dbfa89762c63eb8103ebf4634e4",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 4,
+            "source": "exec-954aa219-4195-467f-9da1-ad1e40703876.png",
+            "prompt": "prompts/chocolate-chip-walnut-cookies-attempt-04.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "images/chocolate-chip-walnut-cookies.png"
+            ],
+            "reference_content_sources": [
+              "margarita-01-cookbook.png",
+              "exec-c9028e87-2df6-4b45-9795-254f3d66fae5.png"
+            ],
+            "status": "rejected",
+            "reason": "Requested modest enlargement overshot to approx58% width (x314..1209), clipping vessel rim and far-left cookie edge",
+            "source_sha256": "7176c490243e45c386e55c61477db9099eb09e218b9d9323a08137c33da85bec",
+            "prompt_sha256": "32cc416f4cda00f80a9d7e7108b8af1501466c83bd446bba78a78a43986330bc",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "flagged smaller-scale caveat",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            486,
+            301,
+            1038,
+            672
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Exactly five whole chocolate-chip walnut cookies plus one broken into two halves (six total)",
+          "caveats": "Selected crop-safe candidate remains approx36% frame width. One targeted enlargement was attempted but overshot beyond central-half crop; no further loops per coordinator. Current selected food/count preserved.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-28-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.359
+        },
+        "sha256": "019b7f6f92828284811db6ae0024cef737b6faace1d7f6f31fe8a1cd45f2fd3e",
+        "selected_prompt": "prompts/chocolate-chip-walnut-cookies.txt",
+        "final_path": "images/chocolate-chip-walnut-cookies.png"
+      },
+      {
+        "entry": 29,
+        "filename": "chocolate-crinkle-cookies.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-fa698d3a-71e2-4e17-9276-ebbdb871b162.png",
+            "prompt": "prompts/chocolate-crinkle-cookies-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate rim slightly beyond central-half crop; targeted framing correction",
+            "source_sha256": "a77c76eb963d606a9b03c82b120e330337a756f24c4932b5c54705b31bc83914",
+            "prompt_sha256": "d6c00c9abc9692a9acfcd9cf50d0e110742d5bc7c8de8245a0ebfa8d0979724d",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-49e36cd4-6d89-4fff-ad24-228b4bac8827.png",
+            "prompt": "prompts/chocolate-crinkle-cookies-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-fa698d3a-71e2-4e17-9276-ebbdb871b162.png"
+            ],
+            "status": "selected",
+            "reason": null,
+            "source_sha256": "f0d139ec4d69c42acd149a7855400d9b01b27620e7522472337314622f68c02d",
+            "prompt_sha256": "cfaef3d139a61e947c52c1032d875e5e0f6a05c4e0f75585d6e69a07a782fd91",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            414,
+            282,
+            1106,
+            712
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Exactly seven sugar-crackled dark chocolate crinkle cookies",
+          "caveats": "Generated backdrop color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-29-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.451
+        },
+        "sha256": "f0d139ec4d69c42acd149a7855400d9b01b27620e7522472337314622f68c02d",
+        "selected_prompt": "prompts/chocolate-crinkle-cookies.txt",
+        "final_path": "images/chocolate-crinkle-cookies.png"
+      },
+      {
+        "entry": 30,
+        "filename": "chocolate-pie.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-910c73a5-2aac-4860-ae02-ebd636fecaf7.png",
+            "prompt": "prompts/chocolate-pie-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "source_sha256": "d6c2bd85cc52a7a70c14ee2dacb61c232448f4413b9517185db88547f05cefda",
+            "prompt_sha256": "bf45a3d73a44ebd41560cce6f349dc158d46c7577bb1403900544bd4b635b5da",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            397,
+            285,
+            1128,
+            767
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Chocolate cream pie slice with flaky golden crust, thick chocolate filling, whipped cream and shaved chocolate",
+          "caveats": "Generated backdrop color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-30-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.476
+        },
+        "sha256": "d6c2bd85cc52a7a70c14ee2dacb61c232448f4413b9517185db88547f05cefda",
+        "selected_prompt": "prompts/chocolate-pie.txt",
+        "final_path": "images/chocolate-pie.png"
+      },
+      {
+        "entry": 31,
+        "filename": "chocolate-protein-zucchini-muffins.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-37cdf2a2-6592-45f9-87b9-cddd05491ddd.png",
+            "prompt": "prompts/chocolate-protein-zucchini-muffins-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Only three whole muffins plus one broken (four total); unlisted chocolate chips on tops; vessel oversized",
+            "source_sha256": "0c42bdf7938e8a8cff621796a6e3bcd0510ece1ab12f27b4905066fd36f5ee82",
+            "prompt_sha256": "f6c596b2bc35158c1f4dcd9ef3674a95332981a51ce92700aed943492706bd9a",
+            "original_reference_attached": true
+          },
+          {
+            "attempt": 2,
+            "source": "exec-6b7d9107-4e8d-4d49-ab25-678c61cf69af.png",
+            "prompt": "prompts/chocolate-protein-zucchini-muffins-attempt-02.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "exec-37cdf2a2-6592-45f9-87b9-cddd05491ddd.png"
+            ],
+            "status": "selected",
+            "source_sha256": "5a19bf010a999f7b41b60f3fabf46ad869f2b77cb6bce2a13a5f3e2dec86e784",
+            "prompt_sha256": "8c35df997a6b9fe4323df2251e8a21b73690e6d9faaf2fc20dc7fcb67437359c",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            399,
+            270,
+            1148,
+            748
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Exactly four whole dark cocoa zucchini muffins and one split into two halves; no chocolate chips; green zucchini flecks visible in moist crumb.",
+          "caveats": "Backdrop generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-31-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.488
+        },
+        "sha256": "5a19bf010a999f7b41b60f3fabf46ad869f2b77cb6bce2a13a5f3e2dec86e784",
+        "selected_prompt": "prompts/chocolate-protein-zucchini-muffins.txt",
+        "final_path": "images/chocolate-protein-zucchini-muffins.png"
+      },
+      {
+        "entry": 32,
+        "filename": "chocolate-souffle.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-c3b630c1-545d-4257-895c-f7a9106f0b3a.png",
+            "prompt": "prompts/chocolate-souffle-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "reason": null,
+            "source_sha256": "b5d7bb7fba68f82315b8a7d9761c09f3c17aa90f32b91a848881d18f383d0ad8",
+            "prompt_sha256": "234f1ba29783529615217dc8283d5c550dc483ba007568ea58a5de5eeb07bc48",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            485,
+            219,
+            1047,
+            802
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Tall risen chocolate souffl\u00e9, cracked sugar-dusted top, white slate-blue-rim ramekin only",
+          "caveats": "Backdrop generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-32-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.366
+        },
+        "sha256": "b5d7bb7fba68f82315b8a7d9761c09f3c17aa90f32b91a848881d18f383d0ad8",
+        "selected_prompt": "prompts/chocolate-souffle.txt",
+        "final_path": "images/chocolate-souffle.png"
+      },
+      {
+        "entry": 33,
+        "filename": "chocolate-vanilla-swirl-layer-cake.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "exec-1ae2a314-8f24-46d1-a18f-ce4e796047fe.png",
+            "prompt": "prompts/chocolate-vanilla-swirl-layer-cake-attempt-01.txt",
+            "references": [
+              "margarita-01-cookbook.png",
+              "buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "reason": null,
+            "source_sha256": "d139a570b751f40210b490c8f7f2a27fd7f070a02d1eca879a8407d4b9ff5659",
+            "prompt_sha256": "2af780fbf600531cbca3c6e24627b9e7dc95036c002c6b451f4897f596bd0ca5",
+            "original_reference_attached": true
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "approx_subject_bounds": [
+            412,
+            196,
+            1102,
+            767
+          ],
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "food": "Three clearly marbled chocolate-vanilla sponge layers, creamy frosting between and around, no garnish",
+          "caveats": "Backdrop generated color approximate.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-33-central-half.png",
+          "central_half_crop_reviewed": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "approx_subject_width_fraction": 0.449
+        },
+        "sha256": "d139a570b751f40210b490c8f7f2a27fd7f070a02d1eca879a8407d4b9ff5659",
+        "selected_prompt": "prompts/chocolate-vanilla-swirl-layer-cake.txt",
+        "final_path": "images/chocolate-vanilla-swirl-layer-cake.png"
+      }
+    ],
+    "qa_contact_sheets": [
+      "qa/worker02-1-crops.jpg",
+      "qa/worker02-1-full.jpg",
+      "qa/worker02-2-crops.jpg",
+      "qa/worker02-2-full.jpg",
+      "qa/worker02-3-crops.jpg",
+      "qa/worker02-3-full.jpg",
+      "qa/worker02-scale-attempt-comparison.jpg"
+    ],
+    "summary": {
+      "assigned_count": 16,
+      "delivered_count": 16,
+      "builtin_calls": 28,
+      "all_png_1536x1024": true,
+      "all_final_bytes_equal_source": true,
+      "final_pixel_manipulation": false,
+      "qa_pixel_operations": "Crops and thumbnail contact sheets only",
+      "builtin_image_gen_calls": 28,
+      "remakes": 12,
+      "strict_whole_vessel_central_crop_pass": 16,
+      "flagged_crop_caveats": [],
+      "scale_caveats": [
+        18,
+        28
+      ],
+      "original_reference_attached_every_call": true,
+      "counts_ingredients_reviewed": true,
+      "general_caveats": "All selected food/vessels fit central-half crop; no steam or props. Entries18 and28 retain smaller (~36% width) compositions after one enlargement each overshot; explicitly flagged, not full specification passes. Backdrop colors generated approximations rather than guaranteed exact hex."
+    },
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "completion": "Assigned entries18\u201333 complete; no Git, Library or publishing actions."
+  },
+  {
+    "worker": "03",
+    "batch": "04",
+    "assigned_entries": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "mode": "built-in image_gen",
+    "original_reference_every_call": "margarita-01-cookbook.png",
+    "calls": [
+      {
+        "entry": 34,
+        "filename": "cilantro-lime-rice.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cilantro-lime-rice.txt",
+        "generated_path": "exec-db0e1308-0221-44e0-9b82-d793c9f3df63.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and central crop checked. Whole bowl approx x415..1111 (45% width), centered. Fluffy white rice with chopped cilantro/zest and lime; no steam/props; flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 35,
+        "filename": "cinnamon-sweet-potatoes.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cinnamon-sweet-potatoes.txt",
+        "generated_path": "exec-2777573d-06f8-49ac-b610-0e370fe09353.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Ingredients correct, but platter approx x358..1174 (~53% width), rim clipped in central crop; targeted shrink requested.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 36,
+        "filename": "classic-beef-stew.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-beef-stew.txt",
+        "generated_path": "exec-bc6f1011-4941-4add-ba35-6632947595df.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and central crop checked. Whole bowl approx x426..1100 fits. Beef chunks, carrots, celery, deep glossy gravy and parsley, no steam/props; flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 37,
+        "filename": "classic-carrot-cake.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-carrot-cake.txt",
+        "generated_path": "exec-fc06f1ea-1e0e-4093-bea0-c3e8603e89d0.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and central crop checked. Whole plate approx x417..1106 fits. Exactly two carrot-cake layers with frosting middle/top, no garnish, no steam/props; flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 35,
+        "filename": "cinnamon-sweet-potatoes.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/cinnamon-sweet-potatoes-attempt02.txt",
+        "generated_path": "exec-85356b05-f544-484d-97dc-944b68f90a8b.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Whole platter approx x407..1122 fits after framing edit. Glazed caramelized sweet-potato rounds and lime unchanged, no steam/props; flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-2777573d-06f8-49ac-b610-0e370fe09353.png"
+        ]
+      },
+      {
+        "entry": 38,
+        "filename": "classic-chocolate-chip-cookies.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-chocolate-chip-cookies.txt",
+        "generated_path": "exec-38f1e320-c7fd-48dd-8f94-2143010982ee.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Exactly five cookies with chocolate pools, sunflower seeds and flaky salt, plate approx x394..1136 fits. No steam/props, flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 39,
+        "filename": "classic-french-toast.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-french-toast.txt",
+        "generated_path": "exec-f9f578ac-2767-40c8-8b59-4e6f80fa07d5.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct three toast slices, berries, sugar and syrup. Plate approx x376..1149, tiny left rim loss in crop; one targeted framing correction requested.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 40,
+        "filename": "classic-guacamole.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-guacamole.txt",
+        "generated_path": "exec-f39a61bc-75e0-4a9b-8f1a-cdc68829b330.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Whole bowl approx x423..1118 fits. Chunky avocado, onion/tomato/jalapeno/cilantro, lime and chips IN bowl; no backdrop props or steam. Flat blue.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 39,
+        "filename": "classic-french-toast.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-french-toast-attempt02.txt",
+        "generated_path": "exec-c6338575-bbac-4a75-9542-8ce4057e84ab.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Three brioche slices intact with berries, sugar/syrup. Plate approx x417..1105 fits after framing edit. No steam/props; flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-f9f578ac-2767-40c8-8b59-4e6f80fa07d5.png"
+        ]
+      },
+      {
+        "entry": 41,
+        "filename": "classic-manhattan.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-manhattan.txt",
+        "generated_path": "exec-fc80ad53-5ba2-49c0-92c5-b41fba12f6bf.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct clear amber Manhattan, bottom cherry and orange peel on rim. Glass fits but peel extends to approx x1168, clips central crop; targeted shrink/recenter requested.",
+        "reference_paths": [
+          "margarita-01-cookbook.png"
+        ]
+      },
+      {
+        "entry": 43,
+        "filename": "classic-peach-ice-cream.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-peach-ice-cream.txt",
+        "generated_path": "exec-c2febc3c-9a4e-4807-989a-9df2ae3fb86e.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Exactly three pale-peach ice-cream scoops with peach bits, fresh slices IN bowl. Bowl approx x432..1096 fits. No steam/props; flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 41,
+        "filename": "classic-manhattan.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-manhattan-attempt02.txt",
+        "generated_path": "exec-eeb1aa1a-cdbc-4c68-848e-a011b715897b.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Garnish now fits, recipe correct, but targeted shrink overshot: glass height approx656px64%; enlarge modestly toward75%.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-fc80ad53-5ba2-49c0-92c5-b41fba12f6bf.png"
+        ]
+      },
+      {
+        "entry": 42,
+        "filename": "classic-martini.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-martini-attempt02.txt",
+        "generated_path": "exec-7d22db57-ca76-48e5-9ac1-bd10642bd202.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "All glass/garnish fits, correct martini; shrink overshot, glass height approx694px68%; enlarge toward75%.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-721ced45-edaa-435c-b28e-ea0d3f4c2391.png"
+        ]
+      },
+      {
+        "entry": 44,
+        "filename": "classic-wonton-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-wonton-soup.txt",
+        "generated_path": "exec-2fd0cc15-d66d-4472-b5cd-412bd8479c0b.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Eight distinguishable wontons and two bok-choy halves, clear broth/scallions/oil correct. Bowl approx x362..1165 width803px52.3%; targeted framing shrink requested.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 45,
+        "filename": "coconut-chicken-curry.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/coconut-chicken-curry.txt",
+        "generated_path": "exec-fd7f6879-c012-4528-ab09-b373ae21eca5.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Whole bowl approx x425..1104 fits. Creamy golden chicken curry, red/green peppers, carrot, rice and fresh mango cubes all IN bowl; cilantro only. No steam/props; flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 41,
+        "filename": "classic-manhattan.png",
+        "attempt": 3,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-manhattan-attempt03.txt",
+        "generated_path": "exec-e5bcd2c6-6182-4dfe-bcbd-d5591f411ccf.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Enlargement overshot: glass about80% height, orange peel reaches approx x1194 and clips central crop. Next correction targets peel shape only, not glass size.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-eeb1aa1a-cdbc-4c68-848e-a011b715897b.png"
+        ]
+      },
+      {
+        "entry": 42,
+        "filename": "classic-martini.png",
+        "attempt": 3,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-martini-attempt03.txt",
+        "generated_path": "exec-27651afd-dc8d-426f-912d-0e8fd2489718.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Enlargement overshot to approx85% image height. Ingredients and crop fit correct; original first attempt preferable at approx81% height.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-7d22db57-ca76-48e5-9ac1-bd10642bd202.png"
+        ]
+      },
+      {
+        "entry": 44,
+        "filename": "classic-wonton-soup.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-wonton-soup-attempt02.txt",
+        "generated_path": "exec-48d415d1-602d-4698-bc49-2edd9fc7d3cd.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Eight distinguishable wontons, two bok-choy halves, clear broth, scallions/oil. Bowl approx x466..1070 (~39% width) fits after targeted framing correction. No steam/props, flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-2fd0cc15-d66d-4472-b5cd-412bd8479c0b.png"
+        ]
+      },
+      {
+        "entry": 46,
+        "filename": "coconut-chickpea-curry.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/coconut-chickpea-curry.txt",
+        "generated_path": "exec-62952329-12d1-4988-9584-e05d10b59ac0.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Whole bowl approx x405..1121 fits. Chickpeas in orange coconut-tomato sauce, coconut-milk swirl, cilantro and lime; no steam/props, flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 47,
+        "filename": "coconut-curry-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/coconut-curry-shrimp.txt",
+        "generated_path": "exec-6f4d23a3-75d6-420f-bd2a-7d77c9c72cc0.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Whole bowl approx x402..1126 fits. Pink shrimp, zucchini half-moons, mushrooms, golden coconut sauce, basil/lime; no steam/props, flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 42,
+        "filename": "classic-martini.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-martini.txt",
+        "generated_path": "exec-721ced45-edaa-435c-b28e-ea0d3f4c2391.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Selected best after two sizing attempts. Full frame and central crop checked; all glass and lemon twist fit x457..1110. Glass approx81% frame height (slightly taller than75% brief); preserve natural photoreal form, clear drink/frosted glass, no olive or props/steam. Flat blue.",
+        "reference_paths": [
+          "margarita-01-cookbook.png"
+        ]
+      },
+      {
+        "entry": 41,
+        "filename": "classic-manhattan.png",
+        "attempt": 4,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/classic-manhattan-attempt04.txt",
+        "generated_path": "exec-f7498d4c-a905-43ee-bcfc-00a3ab061b3c.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Clear amber Manhattan, cherry rests at bottom, orange peel shortened/curl inward on rim. All glass and peel fits approx x467..1077. Height approx80% frame rather than75%; retained photoreal crop-safe result after sizing attempts. No props/steam, flat blue.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-e5bcd2c6-6182-4dfe-bcbd-d5591f411ccf.png"
+        ]
+      },
+      {
+        "entry": 48,
+        "filename": "coconut-jasmine-rice.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/coconut-jasmine-rice.txt",
+        "generated_path": "exec-fc0844ad-54aa-4057-8d51-a4745b6b250a.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and crop checked. Whole bowl approx x413..1123 fits. Ivory glossy coconut rice with visibly knotted real green pandan leaf, no additional garnish/props/steam; flat yellow.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 49,
+        "filename": "coconut-rice-and-peas.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/coconut-rice-and-peas.txt",
+        "generated_path": "exec-e6cee584-6425-44c1-b0f5-d419821f7edb.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Recipe correct: kidney beans, rice, whole orange Scotch bonnet, thyme/scallion. Bowl approx x382..1153 touches/exceeds central crop by a few pixels; one targeted shrink to provide margin.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "chicken-and-spinach-skillet-pasta-with-lemon-and-parmesan.png"
+        ]
+      },
+      {
+        "entry": 49,
+        "filename": "coconut-rice-and-peas.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "margarita-01-cookbook.png",
+        "prompt_path": "prompts/coconut-rice-and-peas-attempt02.txt",
+        "generated_path": "exec-7bfc1d01-4313-42ed-bb31-839c0dc01926.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full frame and actual central crop checked. Whole bowl approx x432..1097 fits after targeted shrink. Rice with dark red kidney beans (no green peas), whole orange Scotch bonnet, thyme and scallions. No steam/props; flat peach.",
+        "reference_paths": [
+          "margarita-01-cookbook.png",
+          "exec-e6cee584-6425-44c1-b0f5-d419821f7edb.png"
+        ]
+      }
+    ],
+    "accepted": [
+      {
+        "entry": 34,
+        "filename": "cilantro-lime-rice.png",
+        "attempt": 1,
+        "final_path": "images/cilantro-lime-rice.png",
+        "qa": "Full frame and central crop checked. Whole bowl approx x415..1111 (45% width), centered. Fluffy white rice with chopped cilantro/zest and lime; no steam/props; flat yellow.",
+        "sha256": "f6ca620ab42404cd59a0272a6528a81d49bd60c0ed8b1206d3a3f57fe230b362",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/cilantro-lime-rice.txt",
+        "generated_path": "exec-db0e1308-0221-44e0-9b82-d793c9f3df63.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 35,
+        "filename": "cinnamon-sweet-potatoes.png",
+        "attempt": 2,
+        "final_path": "images/cinnamon-sweet-potatoes.png",
+        "qa": "Full frame and crop checked. Whole platter approx x407..1122 fits after framing edit. Glazed caramelized sweet-potato rounds and lime unchanged, no steam/props; flat yellow.",
+        "sha256": "13fe0e9d29b0fdd85ded4882c1e4953eb0317087d471923c0a9a0746e7d0e78f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/cinnamon-sweet-potatoes-attempt02.txt",
+        "generated_path": "exec-85356b05-f544-484d-97dc-944b68f90a8b.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 36,
+        "filename": "classic-beef-stew.png",
+        "attempt": 1,
+        "final_path": "images/classic-beef-stew.png",
+        "qa": "Full frame and central crop checked. Whole bowl approx x426..1100 fits. Beef chunks, carrots, celery, deep glossy gravy and parsley, no steam/props; flat peach.",
+        "sha256": "fbe2682c5650f07abe0ef4f685782a112252599db1a9fd085783d412e47b2865",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-beef-stew.txt",
+        "generated_path": "exec-bc6f1011-4941-4add-ba35-6632947595df.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 37,
+        "filename": "classic-carrot-cake.png",
+        "attempt": 1,
+        "final_path": "images/classic-carrot-cake.png",
+        "qa": "Full frame and central crop checked. Whole plate approx x417..1106 fits. Exactly two carrot-cake layers with frosting middle/top, no garnish, no steam/props; flat peach.",
+        "sha256": "cd2e832861579046a9e653a3462705474c5043b7d2770b7a05fa9ef8ea148ec7",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-carrot-cake.txt",
+        "generated_path": "exec-fc06f1ea-1e0e-4093-bea0-c3e8603e89d0.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 38,
+        "filename": "classic-chocolate-chip-cookies.png",
+        "attempt": 1,
+        "final_path": "images/classic-chocolate-chip-cookies.png",
+        "qa": "Full frame and crop checked. Exactly five cookies with chocolate pools, sunflower seeds and flaky salt, plate approx x394..1136 fits. No steam/props, flat yellow.",
+        "sha256": "3989d90c810705a0618599159c6fad2c9f29e9b805857c93800567170c19d22e",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-chocolate-chip-cookies.txt",
+        "generated_path": "exec-38f1e320-c7fd-48dd-8f94-2143010982ee.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 39,
+        "filename": "classic-french-toast.png",
+        "attempt": 2,
+        "final_path": "images/classic-french-toast.png",
+        "qa": "Full frame and crop checked. Three brioche slices intact with berries, sugar/syrup. Plate approx x417..1105 fits after framing edit. No steam/props; flat yellow.",
+        "sha256": "1bde1370f6074861e472564059c7b127e57834cb7ab9713188f32f951db65058",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-french-toast-attempt02.txt",
+        "generated_path": "exec-c6338575-bbac-4a75-9542-8ce4057e84ab.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 40,
+        "filename": "classic-guacamole.png",
+        "attempt": 1,
+        "final_path": "images/classic-guacamole.png",
+        "qa": "Full frame and crop checked. Whole bowl approx x423..1118 fits. Chunky avocado, onion/tomato/jalapeno/cilantro, lime and chips IN bowl; no backdrop props or steam. Flat blue.",
+        "sha256": "58c754adc0aebba60751359943e7b12775fe3025df06ad083e60e19ad9912312",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-guacamole.txt",
+        "generated_path": "exec-f39a61bc-75e0-4a9b-8f1a-cdc68829b330.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 41,
+        "filename": "classic-manhattan.png",
+        "attempt": 4,
+        "final_path": "images/classic-manhattan.png",
+        "qa": "Full frame and crop checked. Clear amber Manhattan, cherry rests at bottom, orange peel shortened/curl inward on rim. All glass and peel fits approx x467..1077. Height approx80% frame rather than75%; retained photoreal crop-safe result after sizing attempts. No props/steam, flat blue.",
+        "sha256": "fb0f0ab7096411a27baf4821de04b3ab2cdadf36b3fcb7f47ef6fd28d6b0c6ed",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-manhattan-attempt04.txt",
+        "generated_path": "exec-f7498d4c-a905-43ee-bcfc-00a3ab061b3c.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 42,
+        "filename": "classic-martini.png",
+        "attempt": 1,
+        "final_path": "images/classic-martini.png",
+        "qa": "Selected best after two sizing attempts. Full frame and central crop checked; all glass and lemon twist fit x457..1110. Glass approx81% frame height (slightly taller than75% brief); preserve natural photoreal form, clear drink/frosted glass, no olive or props/steam. Flat blue.",
+        "sha256": "6a08a3b4c490658c3283b3c3978026efe1d2c4d32b3551184b1d8064f4c68f06",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-martini.txt",
+        "generated_path": "exec-721ced45-edaa-435c-b28e-ea0d3f4c2391.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 43,
+        "filename": "classic-peach-ice-cream.png",
+        "attempt": 1,
+        "final_path": "images/classic-peach-ice-cream.png",
+        "qa": "Full frame and crop checked. Exactly three pale-peach ice-cream scoops with peach bits, fresh slices IN bowl. Bowl approx x432..1096 fits. No steam/props; flat peach.",
+        "sha256": "8323ccb1cd90dd0a3266e4a23b862c34e5f3035595cbccc298fe80901f4f8ec2",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-peach-ice-cream.txt",
+        "generated_path": "exec-c2febc3c-9a4e-4807-989a-9df2ae3fb86e.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 44,
+        "filename": "classic-wonton-soup.png",
+        "attempt": 2,
+        "final_path": "images/classic-wonton-soup.png",
+        "qa": "Full frame and crop checked. Eight distinguishable wontons, two bok-choy halves, clear broth, scallions/oil. Bowl approx x466..1070 (~39% width) fits after targeted framing correction. No steam/props, flat peach.",
+        "sha256": "2f144796061d7212810cf84d6690c3b737a218896902426b5a4e2a29db7bf7ee",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/classic-wonton-soup-attempt02.txt",
+        "generated_path": "exec-48d415d1-602d-4698-bc49-2edd9fc7d3cd.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 45,
+        "filename": "coconut-chicken-curry.png",
+        "attempt": 1,
+        "final_path": "images/coconut-chicken-curry.png",
+        "qa": "Full frame and crop checked. Whole bowl approx x425..1104 fits. Creamy golden chicken curry, red/green peppers, carrot, rice and fresh mango cubes all IN bowl; cilantro only. No steam/props; flat peach.",
+        "sha256": "209d6a9d76a05f2375a62181ca75a942b6b71eb55bd86a032668e60d296376bc",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/coconut-chicken-curry.txt",
+        "generated_path": "exec-fd7f6879-c012-4528-ab09-b373ae21eca5.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 46,
+        "filename": "coconut-chickpea-curry.png",
+        "attempt": 1,
+        "final_path": "images/coconut-chickpea-curry.png",
+        "qa": "Full frame and crop checked. Whole bowl approx x405..1121 fits. Chickpeas in orange coconut-tomato sauce, coconut-milk swirl, cilantro and lime; no steam/props, flat yellow.",
+        "sha256": "4f20d11adcbd0692fb03e3d4d9234755fdb343ba186da9292f56310b96d6a389",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/coconut-chickpea-curry.txt",
+        "generated_path": "exec-62952329-12d1-4988-9584-e05d10b59ac0.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 47,
+        "filename": "coconut-curry-shrimp.png",
+        "attempt": 1,
+        "final_path": "images/coconut-curry-shrimp.png",
+        "qa": "Full frame and crop checked. Whole bowl approx x402..1126 fits. Pink shrimp, zucchini half-moons, mushrooms, golden coconut sauce, basil/lime; no steam/props, flat yellow.",
+        "sha256": "70b90d5f3683404f8abb8728d869f1d6f06ce2b944651d9ac47b89100345c1a5",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/coconut-curry-shrimp.txt",
+        "generated_path": "exec-6f4d23a3-75d6-420f-bd2a-7d77c9c72cc0.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 48,
+        "filename": "coconut-jasmine-rice.png",
+        "attempt": 1,
+        "final_path": "images/coconut-jasmine-rice.png",
+        "qa": "Full frame and crop checked. Whole bowl approx x413..1123 fits. Ivory glossy coconut rice with visibly knotted real green pandan leaf, no additional garnish/props/steam; flat yellow.",
+        "sha256": "135e1498f6b9a2304201931e5b2e7223af548b02aefada2a99f778952813c97c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/coconut-jasmine-rice.txt",
+        "generated_path": "exec-fc0844ad-54aa-4057-8d51-a4745b6b250a.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      },
+      {
+        "entry": 49,
+        "filename": "coconut-rice-and-peas.png",
+        "attempt": 2,
+        "final_path": "images/coconut-rice-and-peas.png",
+        "qa": "Full frame and actual central crop checked. Whole bowl approx x432..1097 fits after targeted shrink. Rice with dark red kidney beans (no green peas), whole orange Scotch bonnet, thyme and scallions. No steam/props; flat peach.",
+        "sha256": "22c4c203676961d9b4b936ca7cf285836da2cb166db777657d3221b85684775d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "prompt_path": "prompts/coconut-rice-and-peas-attempt02.txt",
+        "generated_path": "exec-7bfc1d01-4313-42ed-bb31-839c0dc01926.png",
+        "full_frame_visually_reviewed": true,
+        "central_half_crop_visually_reviewed": true,
+        "strict_central_half_fit": true
+      }
+    ],
+    "caveats": [
+      "Cocktails41 and42 are approximately80\u201381% frame height, modestly taller than the about75% brief. Multiple framing attempts oscillated in scale; selected photoreal results are fully crop-safe, with correct drink/garnish. Coordinator approved retaining approximate81% rather than repeated resizing.",
+      "Wonton bowl44 is approximately39% frame width after targeted framing correction, smaller than nominal half; all eight wontons and bok choy are clear and all vessel fits.",
+      "Framing bounds and percentages are approximate visual measurements; backdrop QA checks flat seamless treatment, not pixel-perfect hex RGB. Natural contact shadows and subtle texture remain."
+    ],
+    "summary": {
+      "final_count": 16,
+      "built_in_generation_calls": 25,
+      "selected_first_attempt_count": 11,
+      "selected_remade_count": 5,
+      "images_with_multiple_attempts": 6,
+      "full_central_half_fit_count": 16,
+      "rim_crop_caveat_count": 0,
+      "all_finals_copied_unchanged_from_tool_output": true,
+      "all_finals_1536x1024_png": true,
+      "all_calls_original_reference_attached": true
+    }
+  }
+]
