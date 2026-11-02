@@ -10,16 +10,17 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 | 4 | batch-04.md | 49 | Done, all 49 pass, no redos |
 | 5 | batch-05.md | 49 | Done, all 49 pass, no redos (Cu Chao Mian rim clip is small enough to keep) |
 | 6 | batch-06.md | 49 | Done, all 49 pass, no redos |
-| 7 | batch-07.md | 49 | To make |
-| 8 | batch-08.md | 49 | To make |
-| 9 | batch-09.md | 49 | To make |
-| 10 | batch-10.md | 49 | To make |
-| 11 | batch-11.md | 49 | To make |
-| 12 | batch-12.md | 49 | To make |
-| 13 | batch-13.md | 49 | To make |
-| 14 | batch-14.md | 43 | To make |
+| 7 | batch-07.md | 49 | Done, 48 pass, 1 redo below |
+| 8 | batch-07-redo.md | 1 | To make next, alongside batch 8 |
+| 9 | batch-08.md | 49 | To make |
+| 10 | batch-09.md | 49 | To make |
+| 11 | batch-10.md | 49 | To make |
+| 12 | batch-11.md | 49 | To make |
+| 13 | batch-12.md | 49 | To make |
+| 14 | batch-13.md | 49 | To make |
+| 15 | batch-14.md | 43 | To make |
 
-Batches 1 to 6 and the batch 1, 2 and 3 redos are done; don't remake them. There are no open redos; carry on with batch 7.
+Batches 1 to 7 and the batch 1, 2 and 3 redos are done; don't remake them. The one open redo is the rice pilaf in batch-07-redo.md: make it before or alongside batch 8, then carry on.
 
 Claude checks each batch branch as it lands. When some images need another go, a `batch-NN-redo.md` file appears in this folder and gets a row in the table above. Check here before each new batch and make any redos first, on their own branch, `images/mise-batch-NN-redos-YYYY-MM-DD`.
 
