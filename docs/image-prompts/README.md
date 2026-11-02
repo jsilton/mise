@@ -14,15 +14,15 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 | 8 | batch-07-redo.md | 1 | Done, the pilaf passes |
 | 9 | batch-08.md | 49 | Done, all 49 pass, no redos |
 | 10 | batch-09.md | 49 | Done, 48 pass; 1 redo below (pinwheels in two rows and the small chicken rim losses are fine to keep) |
-| 11 | batch-09-redo.md | 1 | To make next, before batch 11 |
+| 11 | batch-09-redo.md | 1 | Done, the crunch roll passes |
 | 12 | batch-10.md | 49 | Done, 48 pass; 1 redo below (patatas bravas size, gin fizz height and the single-row tuna roll are fine to keep) |
-| 13 | batch-10-redo.md | 1 | To make, before batch 11 |
+| 13 | batch-10-redo.md | 1 | To make next (before batch 12 if batch 11 is already underway) |
 | 14 | batch-11.md | 49 | To make |
 | 15 | batch-12.md | 49 | To make |
 | 16 | batch-13.md | 49 | To make |
 | 17 | batch-14.md | 43 | To make |
 
-Batches 1 to 10 and earlier redos are done; don't remake them. Make the batch 9 and batch 10 redos (one image each) next, before batch 11.
+Batches 1 to 10 and earlier redos are done; don't remake them. The batch 9 redo is done. Make the batch 10 queso redo (one image) next; if batch 11 is already underway, finish it and make the redo before batch 12.
 
 Claude checks each batch branch as it lands. When some images need another go, a `batch-NN-redo.md` file appears in this folder and gets a row in the table above. Check here before each new batch and make any redos first, on their own branch, `images/mise-batch-NN-redos-YYYY-MM-DD`.
 
