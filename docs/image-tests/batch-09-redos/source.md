@@ -1,0 +1,14 @@
+# Mise image prompts, batch 9 redo (1 recipe)
+
+Batch 9 is checked and 48 of 49 images pass. One needs remaking: the New York Crunch Roll's long oval platter loses about 13px of rim on the left and 8px on the right in the phone card crop, and the single row makes the dish read small. This redo moves the eight pieces onto the round house plate in a loose ring.
+
+Save the remake on its own branch, images/mise-batch-09-redos-YYYY-MM-DD (today's date), with the same filename, then carry on with batch 10.
+
+```text
+Shared style, for every image:
+Bright, true-to-life cookbook photograph. Camera at about 40 degrees, 50mm lens, the whole dish in sharp focus. Soft, even daylight from the upper left, with one short soft shadow to the lower right. Background: a smooth, matte, seamless surface and wall in the backdrop color given for the image, one flat color edge to edge, evenly lit, with no vignette, no gradient, no darker corners and no horizon line. No props: only the dish on the backdrop. Keep any accent color to slate blue (#486B7B) or apricot (#F59443), used on one small thing only. Framing: the dish sits dead centre, left to right and top to bottom, and is about half the frame width, so a tall, narrow crop of the middle half still shows all of it. A tall glass uses height instead, about three quarters of the frame height. Landscape 3:2, 1536 x 1024. Style reference: match the attached reference image for light, white balance, camera height, scale and how flat the backdrop is; change only the dish and the backdrop color, and leave out its props. Fresh, lively and appetizing, natural color, bright and airy. Avoid: steam, smoke or vapour of any kind, text, logos, hands, people, dark or moody light, wooden tables, marble, patterned surfaces, props, cutlery, napkins, garnishes not listed for the dish, cartoon or illustration style, plastic-looking food, exaggerated saturation.
+
+1. new-york-crunch-roll.png
+Dish: New York Crunch Roll (tuna and avocado sushi roll). The dish: eight sushi roll pieces arranged in a loose ring, cut side up, showing rice around red tuna, green avocado and cucumber, the outside coated in crisp golden tempura flakes. Show the cut rounds showing the bright filling and golden crunch. Texture: crunchy flakes, soft rice, silky tuna and avocado. Colors: golden tempura crumbs, white rice, ruby tuna, green avocado. Serving dish: a round white plate with a thin slate blue rim, the same plate used for the other dishes. No garnish. Setting: a sushi night at home. Backdrop: soft peach (#FFB07E). Moment: just rolled and sliced. Framing: the round plate is about 45% of the frame width, centered, with clear backdrop on both sides; the whole rim must sit well inside the middle half of the frame. Do not use a long oval platter or a single row, since that is what pushed the rim past the phone crop.
+```
+

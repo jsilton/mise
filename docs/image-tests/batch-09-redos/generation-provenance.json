@@ -1,0 +1,156 @@
+{
+  "worker": "02",
+  "batch": "09-redos",
+  "assigned_entries": [
+    1
+  ],
+  "source_provenance": {
+    "status": "Generated and coordinator reviewed; pending root QA",
+    "repository": "jsilton/mise",
+    "source_commit": "77a80c9ea6bccf795fcee557367b75c6437a013c",
+    "source_path": "docs/image-prompts/batch-09-redo.md",
+    "source_blob": "41784ecb0fee3eb2cee09ad74929cce3f0807447",
+    "reference_path": "reference/margarita-01-cookbook.png",
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "generation_calls": 2,
+    "planned_branch": "images/mise-batch-09-redos-2026-11-02",
+    "qa_requirements": [
+      "Exactly eight pieces in loose ring, cut sides up",
+      "Round white slate-rim plate, 45% frame width",
+      "Entire rim comfortably inside x384..1152",
+      "Golden tempura exterior, red tuna/avocado/cucumber, no garnish",
+      "No steam, props or text; flat peach backdrop",
+      "1536x1024 unchanged PNG, exact new-york-crunch-roll.png"
+    ],
+    "started_utc": "2026-11-02T22:20:00Z",
+    "completed_utc": "2026-11-02T22:23:00Z"
+  },
+  "reference": "reference/margarita-01-cookbook.png",
+  "composition_reference": "batch-10/images/pork-and-greens-dumplings.png",
+  "tool": "built-in image_gen only",
+  "generation_started_utc": "2026-11-02T22:20:41Z",
+  "entries": [
+    {
+      "entry": 1,
+      "filename": "new-york-crunch-roll.png",
+      "source_entry": "1. new-york-crunch-roll.png\nDish: New York Crunch Roll (tuna and avocado sushi roll). The dish: eight sushi roll pieces arranged in a loose ring, cut side up, showing rice around red tuna, green avocado and cucumber, the outside coated in crisp golden tempura flakes. Show the cut rounds showing the bright filling and golden crunch. Texture: crunchy flakes, soft rice, silky tuna and avocado. Colors: golden tempura crumbs, white rice, ruby tuna, green avocado. Serving dish: a round white plate with a thin slate blue rim, the same plate used for the other dishes. No garnish. Setting: a sushi night at home. Backdrop: soft peach (#FFB07E). Moment: just rolled and sliced. Framing: the round plate is about 45% of the frame width, centered, with clear backdrop on both sides; the whole rim must sit well inside the middle half of the frame. Do not use a long oval platter or a single row, since that is what pushed the rim past the phone crop.",
+      "attempts": [
+        {
+          "attempt": 1,
+          "source": "generated_images/exec-9daf6eab-7210-4044-9776-598da0577e64.png",
+          "prompt": "prompts/new-york-crunch-roll-attempt-01.txt",
+          "references": [
+            "reference/margarita-01-cookbook.png",
+            "batch-10/images/pork-and-greens-dumplings.png"
+          ],
+          "status": "rejected",
+          "reason": "Seven sushi pieces, not the requested eight. Framing and ingredients otherwise passed.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_sha256": "fb48461d9a0356cdd30dad0877515b3cbfef880ff156b0cc59efa73d7743df98",
+          "prompt_sha256": "2a856e83a76f8614cf8c54bead1afd0ba74dca9e2e4b122c6c276e5c4a68e354",
+          "reference_sha256": [
+            "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+            "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+          ],
+          "original_reference_attached": true,
+          "transparent_background": false,
+          "full_review": true,
+          "crop_path": "qa/new-york-crunch-roll-attempt-01-central-half.png"
+        },
+        {
+          "attempt": 2,
+          "source": "generated_images/exec-163c4515-973d-4bb9-a783-5a3016549aef.png",
+          "prompt": "prompts/new-york-crunch-roll-attempt-02.txt",
+          "references": [
+            "reference/margarita-01-cookbook.png",
+            "generated_images/exec-9daf6eab-7210-4044-9776-598da0577e64.png"
+          ],
+          "status": "selected",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_sha256": "7cc4f26aba362a799f4767b5475d2a82b06d57113149bf509e612eb5dbd28ac8",
+          "prompt_sha256": "1648cbd5224e6b086fc8426bdc6394607094fa50c67ef62b75c93520b9637ad5",
+          "reference_sha256": [
+            "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+            "fb48461d9a0356cdd30dad0877515b3cbfef880ff156b0cc59efa73d7743df98"
+          ],
+          "original_reference_attached": true,
+          "transparent_background": false,
+          "full_review": true,
+          "crop_path": "qa/new-york-crunch-roll-attempt-02-central-half.png",
+          "central_half_crop_review": true
+        }
+      ],
+      "selected_attempt": 2,
+      "qa": {
+        "full_review": true,
+        "central_half_crop_review": true,
+        "source_byte_identical": true,
+        "crop_path": "qa/new-york-crunch-roll-central-half.png",
+        "central_half_crop_bounds": [
+          384,
+          0,
+          1152,
+          1024
+        ],
+        "whole_food_and_vessel_in_central_half": true,
+        "food_and_counts_reviewed": true,
+        "count": 8,
+        "arrangement": "Eight separate cut-side-up sushi pieces in a loose ring with an empty centre.",
+        "ingredients": "Red tuna, avocado and cucumber surrounded by white rice, golden tempura flakes outside; no garnish.",
+        "vessel": "Round white plate with thin blue rim, approximately 46% full-frame width.",
+        "estimated_rim_x_bounds": [
+          405,
+          1116
+        ],
+        "no_steam_smoke_or_vapor": true,
+        "no_extra_props_cutlery_or_hands": true,
+        "flat_prescribed_backdrop": true,
+        "centered": true,
+        "acceptance": "accepted",
+        "flags": []
+      },
+      "final_path": "images/new-york-crunch-roll.png",
+      "selected_prompt": "prompts/new-york-crunch-roll.txt",
+      "sha256": "7cc4f26aba362a799f4767b5475d2a82b06d57113149bf509e612eb5dbd28ac8"
+    }
+  ],
+  "summary": {
+    "builtin_calls": 2,
+    "initial_generations": 1,
+    "remakes": 1,
+    "builtin_image_gen_calls": 2,
+    "delivered_count": 1,
+    "accepted": 1,
+    "strict_crop_pass_count": 1,
+    "flagged_entries": [],
+    "remaining_blockers": [],
+    "source_byte_identical_count": 1,
+    "exact_prompt_text_verified_calls": 2,
+    "original_reference_attached_calls": 2,
+    "all_full_and_central_half_crops_reviewed": true,
+    "unchanged_generated_pngs": true
+  },
+  "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+  "source_files_sha256": {
+    "source.md": "15d4231b5cfecb52d60d2fb5d9fd3d87d95b09b9623cae1a9a34ec358d632563",
+    "entries.json": "f4010fd7c6e3ac20e0caf937aadd32ce5ae3937ca260957d32426363786256ec",
+    "shared-style.txt": "98bb36d4893cc44116302010de80ca9961804ed3a0c2ae971b365d124bad1155",
+    "source-provenance.json": "8113cecd816e91719e4f676696ba4cf392849ce1ee9c0ce5ed59b57f035f1dbf"
+  },
+  "qa_contact_sheets": [
+    "qa/worker02-full.jpg",
+    "qa/worker02-crop.jpg"
+  ],
+  "completed_utc": "2026-11-02T22:22:45Z",
+  "status": "complete and stable",
+  "qa_method": "Full-resolution generated images inspected. Selected native central-half crop inspected for complete rim, eight pieces and ingredients. Final PNG copied unchanged from actual returned local path. Pillow used only for QA crops and proof sheets.",
+  "scope_note": "Redo only; historical batch09 and all other completed batches unchanged. No Git or Library writes."
+}

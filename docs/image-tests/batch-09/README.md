@@ -23,3 +23,7 @@ The original [margarita reference](https://github.com/jsilton/mise/blob/images/m
 133 calls for 49 selected finals (84 remakes), across three concurrent groups of 40, 49 and 44 calls. Production and coordinator review ran approximately 12:58–13:45 UTC on 2026-11-02: about 47 wall minutes including tool waits, no intentional pause. A transient worker-capacity notification was resumed without duplicate work. Packaging, Library and remote Git saving are separate stages, not implementation or publication.
 
 Exact prompts, source and generation provenance, hashes and QA are included. Six `review/` sheets show full frames and actual middle-half crops for entries 1–17, 18–33 and 34–49. Root independently reviewed all six sheets at approximately 13:50 UTC and approved saving these review candidates with all four flags retained. This is not user acceptance or a strict all-pass result. Final packaging and independent review added approximately five minutes after production; Library and Git persistence follow separately.
+
+## Current crunch-roll replacement review — 2026-11-02
+
+This redo branch replaces only new-york-crunch-roll.png. See [redo review](../batch-09-redos/README.md) and [replacement hashes and QA](../batch-09-redos/qa-manifest.json). Eight pieces form a loose ring on a round plate and fit the central-half crop. The other 48 images are unchanged. Original batch sheets and root QA manifest are historical evidence for the original roll image, not current replacement hashes/results. Review-branch saving is not site application.
