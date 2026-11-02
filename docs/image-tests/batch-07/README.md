@@ -19,3 +19,7 @@ Original [margarita reference](https://github.com/jsilton/mise/blob/images/mise-
 90 calls for 49 finals (41 remakes), in three concurrent groups of 31, 26 and 33 calls. Generation and coordinator review ran 01:46–02:20 UTC on 2026-11-02, approximately 34 wall minutes including tool waits, without an intentional pause. Packaging, Library saving and remote Git verification are separate stages, not implementation or publication.
 
 Exact attempted prompts are in `prompts/`; source/reference evidence in `source-provenance.json` and `generation-provenance.json`; final hashes and QA in `qa-manifest.json`. Six sheets in `review/` show full frames and central-half crops for entries 1–17, 18–33, 34–49. Root independently reviewed all six sheets at 02:21 UTC and released this package for review-branch saving with the rice-grain flag disclosed. This is not user acceptance.
+
+## Current rice-pilaf replacement review — 2026-11-02
+
+This redo branch replaces only homemade-rice-pilaf.png. See [redo review](../batch-07-redos/README.md) and [replacement hashes and QA](../batch-07-redos/qa-manifest.json). Longer slender grains and distinct toasted orzo were reviewed, with scale and shadow caveats retained. The other 48 images are unchanged. Original batch sheets and root QA manifest are historical evidence for the original pilaf, not current replacement hashes/results. This is review work, not user acceptance or site application.

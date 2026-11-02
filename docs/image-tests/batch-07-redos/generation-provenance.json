@@ -1,0 +1,171 @@
+{
+  "worker": "03",
+  "batch": "07-redos",
+  "scope": [
+    "homemade-rice-pilaf.png"
+  ],
+  "source_provenance": {
+    "repository": "jsilton/mise",
+    "source_branch": "images/approaches",
+    "source_commit": "fbb3932ccb841da76ecca869cdbe9dca7ab5e49c",
+    "source_path": "docs/image-prompts/batch-07-redo.md",
+    "source_blob": "08871a39b88a57ac81bf1268104b16b653553ea9",
+    "reference_branch": "images/mise-style-tests-2026-10-31",
+    "reference_path": "docs/image-tests/2026-10-31/images/margarita-01-cookbook.png",
+    "reference_blob": "0c54adbdfd3a1ae7bfd07984f80201b708731b31",
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "started_utc": "2026-11-02T12:47:18Z",
+    "planned_branch": "images/mise-batch-07-redos-2026-11-02",
+    "boundary_check": "New explicit rice-pilaf redo prioritized before09; original07 delivery unchanged."
+  },
+  "source_sha256": "f80852e6200c1cbba216ab050884f0661ae6ffa49d043b280745180b16053f63",
+  "generation_started_utc": "2026-11-02T12:49:12Z",
+  "calls": [
+    {
+      "attempt": 1,
+      "tool": "image_gen.imagegen",
+      "mode": "generate",
+      "prompt_path": "prompts/homemade-rice-pilaf.txt",
+      "prompt_sha256": "7ea28eeac1920e2e896d939e0e3da2d026c99d5163e1e7ad52e2260d27d1b853",
+      "generated_path": "generated_images/exec-bea12fde-ac9f-4626-8ba5-964251081a5b.png",
+      "sha256": "60c13e6737a29fd4294f929892c787c2433667e409391ffd10373059b6ecd589",
+      "reference_paths": [
+        "reference/margarita-01-cookbook.png",
+        "batch-08/images/mapo-tofu.png"
+      ],
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "crop_path": "qa/homemade-rice-pilaf-attempt01-central.png",
+      "result": "rejected",
+      "qa": "White rice remains short and plump rather than needle-like basmati; golden orzo distinct. Bowl over central-half limits. Need fresh generation rather than anchoring wrong grain shape.",
+      "full_frame_reviewed": true,
+      "central_half_reviewed": true,
+      "detail_reviewed": true,
+      "reference_hashes": {
+        "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+        "batch-08/images/mapo-tofu.png": "2d7182ffe25f29b7de254d8383393fd4258efb55c2d2ec5db49f7934f66aea61"
+      }
+    },
+    {
+      "attempt": 2,
+      "tool": "image_gen.imagegen",
+      "mode": "generate_with_references",
+      "prompt_path": "prompts/homemade-rice-pilaf-attempt02.txt",
+      "prompt_sha256": "a679980a72fa1a77b38930f8629ea561611a6733389593794900417cdcf55b0d",
+      "generated_path": "generated_images/exec-e6be744c-99d1-4f2f-8f4f-b7d077d7f43a.png",
+      "sha256": "9eee18da7e459a37e94b77aa75dc7c6558621d7765259797658b0d6b66bfa9f3",
+      "reference_paths": [
+        "reference/margarita-01-cookbook.png",
+        "batch-08/images/mapo-tofu.png"
+      ],
+      "reference_hashes": {
+        "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+        "batch-08/images/mapo-tofu.png": "2d7182ffe25f29b7de254d8383393fd4258efb55c2d2ec5db49f7934f66aea61"
+      },
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "crop_path": "qa/homemade-rice-pilaf-attempt02-central.png",
+      "detail_crop_path": "qa/homemade-rice-pilaf-attempt02-detail.png",
+      "result": "accepted",
+      "qa": "Full frame, central-half crop and unscaled detail crop inspected. Many clearly elongated thin tapered white basmati grains around4:1 or longer; natural foreshortening and overlap cause some shorter appearances. Distinct larger golden-brown orzo is a smaller proportion. Dry separate grains and chopped parsley only. Full bowl fits central half with narrow margin. Flat yellow, no steam/smoke/props/cutlery.",
+      "full_frame_reviewed": true,
+      "central_half_reviewed": true,
+      "detail_reviewed": true,
+      "blue_rim_bounds": [
+        389,
+        221,
+        1138,
+        740
+      ],
+      "blue_rim_width_percent": 48.8
+    }
+  ],
+  "accepted": [
+    {
+      "attempt": 2,
+      "tool": "image_gen.imagegen",
+      "mode": "generate_with_references",
+      "prompt_path": "prompts/homemade-rice-pilaf-attempt02.txt",
+      "prompt_sha256": "a679980a72fa1a77b38930f8629ea561611a6733389593794900417cdcf55b0d",
+      "generated_path": "generated_images/exec-e6be744c-99d1-4f2f-8f4f-b7d077d7f43a.png",
+      "sha256": "9eee18da7e459a37e94b77aa75dc7c6558621d7765259797658b0d6b66bfa9f3",
+      "reference_paths": [
+        "reference/margarita-01-cookbook.png",
+        "batch-08/images/mapo-tofu.png"
+      ],
+      "reference_hashes": {
+        "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+        "batch-08/images/mapo-tofu.png": "2d7182ffe25f29b7de254d8383393fd4258efb55c2d2ec5db49f7934f66aea61"
+      },
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "crop_path": "qa/homemade-rice-pilaf-attempt02-central.png",
+      "detail_crop_path": "qa/homemade-rice-pilaf-attempt02-detail.png",
+      "result": "accepted",
+      "qa": "Full frame, central-half crop and unscaled detail crop inspected. Many clearly elongated thin tapered white basmati grains around4:1 or longer; natural foreshortening and overlap cause some shorter appearances. Distinct larger golden-brown orzo is a smaller proportion. Dry separate grains and chopped parsley only. Full bowl fits central half with narrow margin. Flat yellow, no steam/smoke/props/cutlery.",
+      "full_frame_reviewed": true,
+      "central_half_reviewed": true,
+      "detail_reviewed": true,
+      "blue_rim_bounds": [
+        389,
+        221,
+        1138,
+        740
+      ],
+      "blue_rim_width_percent": 48.8,
+      "final_path": "images/homemade-rice-pilaf.png",
+      "copied_unchanged": true,
+      "full_central_half_fit": true,
+      "no_steam": true,
+      "no_extra_props": true,
+      "no_cutlery": true,
+      "flat_backdrop": true
+    }
+  ],
+  "summary": {
+    "final_count": 1,
+    "built_in_generation_calls": 2,
+    "selected_attempt": 2,
+    "all_calls_original_reference_attached": true,
+    "old_shortgrain_pilaf_attached": false,
+    "full_central_half_fit_count": 1,
+    "all_finals_1536x1024_png": true,
+    "final_copied_unchanged": true
+  },
+  "caveats": [
+    "Grain aspect ratio is a visual assessment, not per-grain segmentation; occluded or foreshortened grains naturally appear shorter. Many visible intact white grains are long, slender and pointed, unlike rejected short/plump attempt1.",
+    "Bowl measures about49% frame width rather than45%; whole rim remains inside central-half crop, so no percentage-only remake was applied.",
+    "Backdrop is visually flat and seamless with natural contact shadow and subtle surface texture, not mathematically uniform RGB."
+  ],
+  "proof_paths": [
+    "qa/homemade-rice-pilaf-full.png",
+    "qa/homemade-rice-pilaf-attempt02-central.png",
+    "qa/homemade-rice-pilaf-attempt02-detail.png",
+    "qa/worker03-final-proof.jpg"
+  ],
+  "proof_hashes": {
+    "qa/homemade-rice-pilaf-full.png": "616cc04efbf1c0990139af3cea7e446390173edbf9da13c114b1a257469626ec",
+    "qa/homemade-rice-pilaf-attempt02-central.png": "6c6045185a166e4cbbc45ef196a808d42196c1cb7a1edb869ba9d6495cf109ec",
+    "qa/homemade-rice-pilaf-attempt02-detail.png": "6d308023cea51bb97da0b451ce8d010a49bd21839aa893f1309ec25bf9e536bc",
+    "qa/worker03-final-proof.jpg": "38959e45546d4ea93f990d2ca79e0b9b2c901d2e70156319a73d20a88ba02c20"
+  },
+  "scope_guards": [
+    "Only the newly requested07redo generated.",
+    "Original07 files untouched.",
+    "No Git or Library writes.",
+    "No batch09 generation."
+  ],
+  "updated_at_utc": "2026-11-02T12:52:49.376107+00:00",
+  "generation_completed_utc": "2026-11-02T12:51:18Z",
+  "proof_reviewed": true,
+  "audit_completed_utc": "2026-11-02T12:53:43.401923+00:00"
+}
