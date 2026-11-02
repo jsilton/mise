@@ -1,0 +1,4299 @@
+[
+  {
+    "batch": "06",
+    "worker": "01",
+    "scope": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "source_verified_commit": "4510f5f3cc6024d63b298f96d35d8f1f7c3027bf",
+    "original_reference": "reference/margarita-01-cookbook.png",
+    "attempts": [
+      {
+        "entry": 1,
+        "attempt": 1,
+        "filename": "easy-spinach-gnocchi.png",
+        "prompt_path": "prompts/easy-spinach-gnocchi-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-8ee1e240-8567-4128-9f72-6818e629a753.png",
+        "sha256": "5b3cc0bf988949b6042b185d64758b1fa354d7587d0bfe801b7c9c6314faa315",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/easy-spinach-gnocchi-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "About a dozen plump spinach ricotta gnocchi with browned butter crisp sage and Parmesan only. Whole bowl fits central crop at about 48% width; no steam or props, pale blue backdrop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "fb8e6aa3ff98d222e97f713c978723b452051367d175c7f115d74985756f008a",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 2,
+        "attempt": 1,
+        "filename": "egg-fried-rice.png",
+        "prompt_path": "prompts/egg-fried-rice-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-a3d4106d-0223-44ac-aadd-d7fed8d50f8d.png",
+        "sha256": "532574a9abb8c0526fa38d78bf0afe70a0e75d9486f4ba88cf1a32e2da1a356f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/egg-fried-rice-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Separate golden rice grains, scrambled egg peas carrot scallion sesame; entire bowl fits middle-half crop at about 48% width. No steam or props; pale blue backdrop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "6d465fe6ea7aa951ce0208519671710ca7d6f9ab0b709af75d9f3fc095ddd47d",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 3,
+        "attempt": 1,
+        "filename": "egg-in-a-hole.png",
+        "prompt_path": "prompts/egg-in-a-hole-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-89eb0ce2-bcc8-49e2-bdd5-2d8e5ed65dc6.png",
+        "sha256": "72e1c1a9d1adcaa2296dab874d54591c453f665f41e8bdcd45f79a081060df39",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/egg-in-a-hole-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Correct two egg toast slices with pepper salt only; plate slightly clipped in central half.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "75dc0fff1d68aa8eeaf319ff7243806e918335073e1511b2383ffd2520e11780",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 3,
+        "attempt": 2,
+        "filename": "egg-in-a-hole.png",
+        "prompt_path": "prompts/egg-in-a-hole-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-89eb0ce2-bcc8-49e2-bdd5-2d8e5ed65dc6.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-9cd2e505-422a-4d45-a0c3-0cba5eafe597.png",
+        "sha256": "0a10b1155251d10b3373c8df5c4f303246898fc07a4b98f3b3a286e4651cf1a5",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/egg-in-a-hole-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Two golden egg-in-hole toast slices, two eggs pepper salt only. Whole plate fits central-half crop at about 46% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "96675cd8af63ba549c41f0b01ae5223fdd2b6c6353ded987c0dba003424c706e",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-89eb0ce2-bcc8-49e2-bdd5-2d8e5ed65dc6.png": "72e1c1a9d1adcaa2296dab874d54591c453f665f41e8bdcd45f79a081060df39",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 4,
+        "attempt": 1,
+        "filename": "egg-roll-in-a-bowl.png",
+        "prompt_path": "prompts/egg-roll-in-a-bowl-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-bfb0ab63-6b83-470b-8011-4adc55d1af2b.png",
+        "sha256": "bed874490b862445bb186155745e9bf9330bff24741e883a001b5233a0b1419e",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/egg-roll-in-a-bowl-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Browned pork crumbles cabbage ribbons carrot matchsticks scallion sesame; whole bowl fits central-half crop about 46% wide. No steam or props; pale blue backdrop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "d1be0cd26b0cdcdfa3688f6452c098c2e3ca5f8d02c86a9e6b0fdea5896ee2d2",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 5,
+        "attempt": 1,
+        "filename": "eggless-spinach-and-ricotta-stuffed-shells.png",
+        "prompt_path": "prompts/eggless-spinach-and-ricotta-stuffed-shells-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-1ceb77f6-e03c-426a-9dea-8ac928945575.png",
+        "sha256": "fd3c8a9d4a6c710912f8cbd3d9a2c040e0c908288473362a222af1107e21b60c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/eggless-spinach-and-ricotta-stuffed-shells-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Correct four stuffed shells with spinach ricotta marinara pecorino basil; left rim touches/slightly clips middle-half crop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "8aba868b8e9ccb1a623da13151b122395715def7579506f85e51109c32549ae6",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 5,
+        "attempt": 2,
+        "filename": "eggless-spinach-and-ricotta-stuffed-shells.png",
+        "prompt_path": "prompts/eggless-spinach-and-ricotta-stuffed-shells-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-1ceb77f6-e03c-426a-9dea-8ac928945575.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-d724e547-3ba9-4382-8223-fd029afa620c.png",
+        "sha256": "cab33079c20ddd864f64d1d60939d8f7b17855f2f9d5c426ac4c79f6e98607a8",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/eggless-spinach-and-ricotta-stuffed-shells-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Exactly four spinach ricotta stuffed shells in marinara with browned pecorino and basil. Whole rim fits central half comfortably about 46% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "914a0c7fed6c086c5c74daba47bbc726530b21efdc5beddc40bc0c7fc783d1e2",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-1ceb77f6-e03c-426a-9dea-8ac928945575.png": "fd3c8a9d4a6c710912f8cbd3d9a2c040e0c908288473362a222af1107e21b60c",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 6,
+        "attempt": 1,
+        "filename": "eggless-strawberry-ice-cream.png",
+        "prompt_path": "prompts/eggless-strawberry-ice-cream-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-f7aa5e3e-6686-4d5d-8b34-ed1f9f6b224d.png",
+        "sha256": "54906cc9a8117dd4e3593ff6435523727c1dec776dbe0cf8df40ad042fd03242",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/eggless-strawberry-ice-cream-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Three pale pink scoops with halved strawberry garnish only; bowl and all food fit central-half crop about 44% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "6e85371645c31310e6bfb563ca114da115ae4278885b8e8c1eee511f2ddd278e",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 7,
+        "attempt": 1,
+        "filename": "eggplant-with-garlic-sauce.png",
+        "prompt_path": "prompts/eggplant-with-garlic-sauce-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-b3d851ef-1ddc-4786-8628-490efc7638a4.png",
+        "sha256": "b146bf9a102401846c759364cfb5a17fae249c6029f4b8b8849beed5d78744a1",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/eggplant-with-garlic-sauce-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Eggplant batons with garlic-ginger sauce and scallion correct; oval plate slightly oversized, clips central crop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "5f88399d7baa9316caa9a9ae2b5f6db81c028a1e838002aed18edc280e08e8b2",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 7,
+        "attempt": 2,
+        "filename": "eggplant-with-garlic-sauce.png",
+        "prompt_path": "prompts/eggplant-with-garlic-sauce-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-b3d851ef-1ddc-4786-8628-490efc7638a4.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-c30b5cd6-528f-4ef3-96ca-e11e3a43798b.png",
+        "sha256": "ef232157dfa2e419eb99fb1d8e8ab455cbfb8e76044b082a98dfdf1df3bd7015",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/eggplant-with-garlic-sauce-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Silky eggplant batons in glossy garlic-ginger sauce with visible irregular garlic bits and scallion. Full oval rim fits central half about 47% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "81b329da329facdfc13809c31ad24d5697d2b65e331a9953ede46d7834dcf409",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-b3d851ef-1ddc-4786-8628-490efc7638a4.png": "b146bf9a102401846c759364cfb5a17fae249c6029f4b8b8849beed5d78744a1",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 8,
+        "attempt": 1,
+        "filename": "elderberry-syrup.png",
+        "prompt_path": "prompts/elderberry-syrup-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-d5a9766b-cd5b-4feb-8000-c157fda9bdb0.png",
+        "sha256": "672c68fb18aa544732c485e03579233f48b3367f0bfca8e863007e75c8799c6f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/elderberry-syrup-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Crop-safe jar and plate with one cinnamon stick, but dried berry pile is far more than source few.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "9b01df4d5e7eee323c7ef0f5ef25c00ad097d9f4d60417ca6c9f5af77df23f4f",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 8,
+        "attempt": 2,
+        "filename": "elderberry-syrup.png",
+        "prompt_path": "prompts/elderberry-syrup-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-d5a9766b-cd5b-4feb-8000-c157fda9bdb0.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-cfedbdec-c966-414c-8ba3-61f9e5cf8138.png",
+        "sha256": "e50f46c6df5ec3737eadf5d69b434d8908d9aa1947c4fd307cf28e19305215c7",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/elderberry-syrup-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Clear glass jar of deep purple-black syrup with six dried elderberries and one cinnamon stick on same plate as explicitly listed ingredients, not extra props. Whole plate and jar fit middle half about 48% width. No steam or other accessories.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "6da2bcb90bbc747ac973fc41c188f0df35f580f27c09f182dc2fc755d59a61c8",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-d5a9766b-cd5b-4feb-8000-c157fda9bdb0.png": "672c68fb18aa544732c485e03579233f48b3367f0bfca8e863007e75c8799c6f",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 9,
+        "attempt": 1,
+        "filename": "elote-style-corn-on-the-cob.png",
+        "prompt_path": "prompts/elote-style-corn-on-the-cob-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-6c65fdff-39e4-4ad5-afc6-1bac178ef0d0.png",
+        "sha256": "87d4e217d9498ddd3b6fc138283df1c01e2a2fb928ce4d9627018842e5b6e9f5",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/elote-style-corn-on-the-cob-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Three elote ears correct with crema cheese chili cilantro lime, but platter about 60% wide clips corn and rim in center crop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "a70dce7aa641e7d78bf8653e9ea0fb22fca22fbd070dc89e4257532c1f97527a",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 9,
+        "attempt": 2,
+        "filename": "elote-style-corn-on-the-cob.png",
+        "prompt_path": "prompts/elote-style-corn-on-the-cob-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-6c65fdff-39e4-4ad5-afc6-1bac178ef0d0.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-e52f8df6-00a0-4c40-912e-146398d161ff.png",
+        "sha256": "fe2d7ae7eaa77b2291723be5433c4c74660fc6c5560c6deab3a1515da1905380",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/elote-style-corn-on-the-cob-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Three charred corn ears dressed with crema cheese chili cilantro and lime wedge; complete platter and corn fit central-half crop about 48% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "8441d893ba2358a66e646822c5fe78e30a77f07ccb00b8e40db66e513044e6d6",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-6c65fdff-39e4-4ad5-afc6-1bac178ef0d0.png": "87d4e217d9498ddd3b6fc138283df1c01e2a2fb928ce4d9627018842e5b6e9f5",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 10,
+        "attempt": 1,
+        "filename": "enchilada-skillet.png",
+        "prompt_path": "prompts/enchilada-skillet-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-cbb6a022-e3dc-4953-995e-b2f79ce5f17d.png",
+        "sha256": "6dd07a6981372d73c5c2971c88abe1080dbed89c2918643da2c92a5af6915e8c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/enchilada-skillet-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Ground beef zucchini yellow squash corn black beans tortilla pieces red sauce melted cheese cilantro. Entire bowl fits central crop at about 46% width; no steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "e4d42e97e9586c1bd6b34fa775954eb571b40dfe8691523e303a95a38c378a6e",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 11,
+        "attempt": 1,
+        "filename": "enchiladas-suizas.png",
+        "prompt_path": "prompts/enchiladas-suizas-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-eac9c624-579d-46ec-8231-168d8ed1413c.png",
+        "sha256": "877bb72722da8c99f24062412a16c1ab3f11b1d60c2ff4d156dabebc70817be2",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/enchiladas-suizas-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Three rolled chicken enchiladas pale green sauce browned cheese onion rings cilantro correct; platter oversized clips central crop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "1b0bc141ff5f0c3c5b7cf83f6c46f7572d4dac556287fda7b2cd1cf789cda0c9",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 11,
+        "attempt": 2,
+        "filename": "enchiladas-suizas.png",
+        "prompt_path": "prompts/enchiladas-suizas-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-eac9c624-579d-46ec-8231-168d8ed1413c.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-8032f9f3-28e2-4ebc-b894-23719f4a2e81.png",
+        "sha256": "823d02479377fc661e90f1d4bcf0ac450cb21087772934db625a2107b74179c6",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/enchiladas-suizas-attempt-02-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Framing reduced but tiny rim edges still outside central crop. Preserve food and reduce once more.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "63a1f3e830c9c34646234c5e9e286a4e278568919b8fbe1eb5df6fe7290a2310",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-eac9c624-579d-46ec-8231-168d8ed1413c.png": "877bb72722da8c99f24062412a16c1ab3f11b1d60c2ff4d156dabebc70817be2",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 11,
+        "attempt": 3,
+        "filename": "enchiladas-suizas.png",
+        "prompt_path": "prompts/enchiladas-suizas-attempt-03.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-8032f9f3-28e2-4ebc-b894-23719f4a2e81.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-2b09e920-e2b2-4ad5-b940-c313de43ce49.png",
+        "sha256": "556c65ae66081877f63f6c7b1a9c4f8278b62f52b3d25491fb886aafa9d1cd7f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/enchiladas-suizas-attempt-03-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Three chicken enchiladas with pale green tomatillo cream sauce browned cheese thin onion rings cilantro. Complete oval rim fits central half about 46% width, no steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "dc048bb82aca2f8b74a2c3b12806cc4a1526aaea01bf22199e03fc1b8dd57be9",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-8032f9f3-28e2-4ebc-b894-23719f4a2e81.png": "823d02479377fc661e90f1d4bcf0ac450cb21087772934db625a2107b74179c6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 12,
+        "attempt": 1,
+        "filename": "everyday-arugula-salad.png",
+        "prompt_path": "prompts/everyday-arugula-salad-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-f13f7ccb-2330-4a83-b235-985254bb6a59.png",
+        "sha256": "8245d83a4e2e5fb29043677ba2b592bae4212ce3046411ddaeea416726011f4d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/everyday-arugula-salad-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Loose arugula with wide Parmesan shavings and pepper only, whole bowl fits central-half crop about 44% width. No steam or props. Bright pale blue backdrop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "de95cf19de289a2d9901351a1a0ed826bdf199788009ac211476b88b438d4279",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 13,
+        "attempt": 1,
+        "filename": "extraordinary-chocolate-chip-cookie.png",
+        "prompt_path": "prompts/extraordinary-chocolate-chip-cookie-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-68f315e8-963a-4cc0-94e8-2c4ac7601d15.png",
+        "sha256": "4f0789f07dc296c6c140f79fa3fd98606950d81e1806eb243ea8f08710f82773",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/extraordinary-chocolate-chip-cookie-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Correct two whole cookies and one broken into halves, golden crinkled chewy chocolate salt; plate rim clips both sides of center crop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "fa057312e0941d87a883ecca44e845a7a9a957ff33e8960549424f7307a23020",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 13,
+        "attempt": 2,
+        "filename": "extraordinary-chocolate-chip-cookie.png",
+        "prompt_path": "prompts/extraordinary-chocolate-chip-cookie-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-68f315e8-963a-4cc0-94e8-2c4ac7601d15.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-1082504b-f171-4edc-b4bd-e308f3b9cdb2.png",
+        "sha256": "3ad96fa9fd0d71a5103c970e930d03fcd0d5ffdbc5334aa72f7c7ba30b5f8ae7",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/extraordinary-chocolate-chip-cookie-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Three original cookies: two intact plus one broken into two halves. Glossy chocolate and flaky salt, whole plate fits central crop about 44% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "6a0b093cbcaa060b36c427e58e0199faf98d90ed0270c2e7e6f3f989c4eec2c1",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-68f315e8-963a-4cc0-94e8-2c4ac7601d15.png": "4f0789f07dc296c6c140f79fa3fd98606950d81e1806eb243ea8f08710f82773",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 14,
+        "attempt": 1,
+        "filename": "falafel.png",
+        "prompt_path": "prompts/falafel-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-5f1add79-762d-4995-9c6a-06b507713b16.png",
+        "sha256": "376f8627851cfec52f5bdf4160c1bac3d920a8b1917efa9263b13d5ad44ab916",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/falafel-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Only four intact falafels visible plus one broken into two halves: five original falafels, not six. Frame crop-safe.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "91ae0f52d6dbab98f2acc08d08363918d0ccb7ff07f9a89412b8a218ba1afcb7",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 14,
+        "attempt": 2,
+        "filename": "falafel.png",
+        "prompt_path": "prompts/falafel-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-5f1add79-762d-4995-9c6a-06b507713b16.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-1bbe569c-78d4-4a60-ad73-9bf504817671.png",
+        "sha256": "30ac3ecf702b34422254dc88cf074c335a6e53d0653389c194f9685e87ffea83",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/falafel-attempt-02-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Count corrected to five intact plus split sixth; frame crop-safe. Surface looks like repeated seed coating and interior like grains rather than finely ground falafel crumb, requiring texture correction.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "103d3d11aa541c23f5bfbfa5c7e190082f100e7027e3ad70ee90b438515c677e",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-5f1add79-762d-4995-9c6a-06b507713b16.png": "376f8627851cfec52f5bdf4160c1bac3d920a8b1917efa9263b13d5ad44ab916",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 14,
+        "attempt": 3,
+        "filename": "falafel.png",
+        "prompt_path": "prompts/falafel-attempt-03.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-1bbe569c-78d4-4a60-ad73-9bf504817671.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-930f8d18-8af4-4f0a-a207-81334ee1e218.png",
+        "sha256": "a5615476e11c1a399b3b73cad8520b04c82fcff038f55403ee2b5299e036bc9f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/falafel-attempt-03-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Count remains correct and texture improved slightly, but plate expanded beyond central crop and interior is too yellow/coarse rather than vivid fine green.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "ff5ddebd104831bfe222b779ba9cdac4523974fa882f0e1887cde912b4127119",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-1bbe569c-78d4-4a60-ad73-9bf504817671.png": "30ac3ecf702b34422254dc88cf074c335a6e53d0653389c194f9685e87ffea83",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 14,
+        "attempt": 4,
+        "filename": "falafel.png",
+        "prompt_path": "prompts/falafel-attempt-04.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-ad9e7180-e4b5-4f23-816a-04c13596403a.png",
+        "sha256": "0fe7d26ed48c6a7c7a994a994f3a01c1337b74f369c6c32df4697867f7e2a52c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/falafel-attempt-04-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Six original falafels: five intact plus sixth split into two halves, parsley only. Entire plate fits central-half crop about 47% width, no steam or props. Texture caveat after targeted remake: crumb remains coarser and kernel-like than ideal fine falafel crumb; green center and golden crust are visible.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "4b405b5fcf7865b48c67902c45887731045d9a1b1ce6cd7e7e5272f68016b7fd",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 15,
+        "attempt": 1,
+        "filename": "farfel-muffins.png",
+        "prompt_path": "prompts/farfel-muffins-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-cafb90ab-a8f1-4cb6-bf09-7e767477139a.png",
+        "sha256": "2254bf2c88b92dae5a8baa60ce1fff85e31e9332a3aeea5dbddd4a03fe7861da",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/farfel-muffins-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Four original muffins: three intact plus one split into two halves with melting butter. Craggy golden tops and small egg-bound pieces. Complete plate fits central half but very narrow side margins about 49.5% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "17c22303198d6a3ec1f9706c3806c1a22fd821eeb2ccd140ece3e24c25f3ada9",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 16,
+        "attempt": 1,
+        "filename": "fattoush-salad.png",
+        "prompt_path": "prompts/fattoush-salad-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-ea5efc90-e1f3-4840-a3c9-84a82c96f5a4.png",
+        "sha256": "30c94f8b0719f4817d97032f28e7e7dcf03792ac36b5ac6d18e4137254d06db6",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/fattoush-salad-attempt-01-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Tomato cucumber radish romaine scallion herbs toasted pita sumac and mint visible. Complete bowl fits central half with very narrow margins about 49.5% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "7d841cbff24a3d22a9bbeef71032dce11ada34fc9275ee32965793b990701701",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 17,
+        "attempt": 1,
+        "filename": "favorite-cream-cheese-frosting.png",
+        "prompt_path": "prompts/favorite-cream-cheese-frosting-attempt-01.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-3d03a0f1-d986-430c-ab41-8694e93d9252.png",
+        "sha256": "f90262e0cabaa4ddf0c9efa77d61f21db83e7c792d1e721646aaa0c341624ce7",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/favorite-cream-cheese-frosting-attempt-01-center-half.png",
+        "status": "rejected",
+        "qa_notes": "Three vanilla cupcakes and cream cheese swirls correct; plate clips both sides of central crop.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "684e5c1942f10b838867927fc3cf5929ff21f7049c44ad63a1728df3a105de46",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      },
+      {
+        "entry": 17,
+        "attempt": 2,
+        "filename": "favorite-cream-cheese-frosting.png",
+        "prompt_path": "prompts/favorite-cream-cheese-frosting-attempt-02.txt",
+        "references": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-3d03a0f1-d986-430c-ab41-8694e93d9252.png",
+          "batch-05/images/coleslaw.png"
+        ],
+        "generated_source": "generated_images/exec-57939bba-bd58-45ef-8af9-cfd7580407ad.png",
+        "sha256": "a9e8e474de0969569645a0fd175d3c049669d56f0490d2276cff26598147146b",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "original_reference_attached": true,
+        "center_half_crop": "qa/favorite-cream-cheese-frosting-attempt-02-center-half.png",
+        "status": "accepted",
+        "qa_notes": "Exactly three vanilla cupcakes with tall smooth cream-cheese swirls, no garnish. Whole plate comfortably fits central-half crop about 44% width. No steam or props.",
+        "full_frame_viewed": true,
+        "center_half_crop_viewed": true,
+        "prompt_sha256": "096c70d802ce65c333fd45a46847449f8d46cb341ae430a4358069cb5e00526c",
+        "reference_sha256": {
+          "reference/margarita-01-cookbook.png": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+          "generated_images/exec-3d03a0f1-d986-430c-ab41-8694e93d9252.png": "f90262e0cabaa4ddf0c9efa77d61f21db83e7c792d1e721646aaa0c341624ce7",
+          "batch-05/images/coleslaw.png": "e13543d1ec79efe256e7b8c5d15e06389619420b5739c0a81d4f058235e348cb"
+        }
+      }
+    ],
+    "selected": {
+      "1": {
+        "attempt": 1,
+        "final_path": "images/easy-spinach-gnocchi.png",
+        "sha256": "5b3cc0bf988949b6042b185d64758b1fa354d7587d0bfe801b7c9c6314faa315",
+        "generated_source": "generated_images/exec-8ee1e240-8567-4128-9f72-6818e629a753.png",
+        "qa_notes": "About a dozen plump spinach ricotta gnocchi with browned butter crisp sage and Parmesan only. Whole bowl fits central crop at about 48% width; no steam or props, pale blue backdrop.",
+        "blue_rim_proxy_bbox": [
+          393,
+          243,
+          1130,
+          785
+        ],
+        "blue_rim_proxy_width_percent": 48.05,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "2": {
+        "attempt": 1,
+        "final_path": "images/egg-fried-rice.png",
+        "sha256": "532574a9abb8c0526fa38d78bf0afe70a0e75d9486f4ba88cf1a32e2da1a356f",
+        "generated_source": "generated_images/exec-a3d4106d-0223-44ac-aadd-d7fed8d50f8d.png",
+        "qa_notes": "Separate golden rice grains, scrambled egg peas carrot scallion sesame; entire bowl fits middle-half crop at about 48% width. No steam or props; pale blue backdrop.",
+        "blue_rim_proxy_bbox": [
+          402,
+          233,
+          1151,
+          800
+        ],
+        "blue_rim_proxy_width_percent": 48.83,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "3": {
+        "attempt": 2,
+        "final_path": "images/egg-in-a-hole.png",
+        "sha256": "0a10b1155251d10b3373c8df5c4f303246898fc07a4b98f3b3a286e4651cf1a5",
+        "generated_source": "generated_images/exec-9cd2e505-422a-4d45-a0c3-0cba5eafe597.png",
+        "qa_notes": "Two golden egg-in-hole toast slices, two eggs pepper salt only. Whole plate fits central-half crop at about 46% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          413,
+          235,
+          1125,
+          786
+        ],
+        "blue_rim_proxy_width_percent": 46.42,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "4": {
+        "attempt": 1,
+        "final_path": "images/egg-roll-in-a-bowl.png",
+        "sha256": "bed874490b862445bb186155745e9bf9330bff24741e883a001b5233a0b1419e",
+        "generated_source": "generated_images/exec-bfb0ab63-6b83-470b-8011-4adc55d1af2b.png",
+        "qa_notes": "Browned pork crumbles cabbage ribbons carrot matchsticks scallion sesame; whole bowl fits central-half crop about 46% wide. No steam or props; pale blue backdrop.",
+        "blue_rim_proxy_bbox": [
+          412,
+          248,
+          1142,
+          772
+        ],
+        "blue_rim_proxy_width_percent": 47.59,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "5": {
+        "attempt": 2,
+        "final_path": "images/eggless-spinach-and-ricotta-stuffed-shells.png",
+        "sha256": "cab33079c20ddd864f64d1d60939d8f7b17855f2f9d5c426ac4c79f6e98607a8",
+        "generated_source": "generated_images/exec-d724e547-3ba9-4382-8223-fd029afa620c.png",
+        "qa_notes": "Exactly four spinach ricotta stuffed shells in marinara with browned pecorino and basil. Whole rim fits central half comfortably about 46% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          417,
+          249,
+          1115,
+          716
+        ],
+        "blue_rim_proxy_width_percent": 45.51,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "6": {
+        "attempt": 1,
+        "final_path": "images/eggless-strawberry-ice-cream.png",
+        "sha256": "54906cc9a8117dd4e3593ff6435523727c1dec776dbe0cf8df40ad042fd03242",
+        "generated_source": "generated_images/exec-f7aa5e3e-6686-4d5d-8b34-ed1f9f6b224d.png",
+        "qa_notes": "Three pale pink scoops with halved strawberry garnish only; bowl and all food fit central-half crop about 44% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          428,
+          296,
+          1100,
+          700
+        ],
+        "blue_rim_proxy_width_percent": 43.82,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "7": {
+        "attempt": 2,
+        "final_path": "images/eggplant-with-garlic-sauce.png",
+        "sha256": "ef232157dfa2e419eb99fb1d8e8ab455cbfb8e76044b082a98dfdf1df3bd7015",
+        "generated_source": "generated_images/exec-c30b5cd6-528f-4ef3-96ca-e11e3a43798b.png",
+        "qa_notes": "Silky eggplant batons in glossy garlic-ginger sauce with visible irregular garlic bits and scallion. Full oval rim fits central half about 47% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          409,
+          265,
+          1131,
+          703
+        ],
+        "blue_rim_proxy_width_percent": 47.07,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "8": {
+        "attempt": 2,
+        "final_path": "images/elderberry-syrup.png",
+        "sha256": "e50f46c6df5ec3737eadf5d69b434d8908d9aa1947c4fd307cf28e19305215c7",
+        "generated_source": "generated_images/exec-cfedbdec-c966-414c-8ba3-61f9e5cf8138.png",
+        "qa_notes": "Clear glass jar of deep purple-black syrup with six dried elderberries and one cinnamon stick on same plate as explicitly listed ingredients, not extra props. Whole plate and jar fit middle half about 48% width. No steam or other accessories.",
+        "blue_rim_proxy_bbox": [
+          396,
+          251,
+          1133,
+          788
+        ],
+        "blue_rim_proxy_width_percent": 48.05,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "9": {
+        "attempt": 2,
+        "final_path": "images/elote-style-corn-on-the-cob.png",
+        "sha256": "fe2d7ae7eaa77b2291723be5433c4c74660fc6c5560c6deab3a1515da1905380",
+        "generated_source": "generated_images/exec-e52f8df6-00a0-4c40-912e-146398d161ff.png",
+        "qa_notes": "Three charred corn ears dressed with crema cheese chili cilantro and lime wedge; complete platter and corn fit central-half crop about 48% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          396,
+          272,
+          1127,
+          759
+        ],
+        "blue_rim_proxy_width_percent": 47.66,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "10": {
+        "attempt": 1,
+        "final_path": "images/enchilada-skillet.png",
+        "sha256": "6dd07a6981372d73c5c2971c88abe1080dbed89c2918643da2c92a5af6915e8c",
+        "generated_source": "generated_images/exec-cbb6a022-e3dc-4953-995e-b2f79ce5f17d.png",
+        "qa_notes": "Ground beef zucchini yellow squash corn black beans tortilla pieces red sauce melted cheese cilantro. Entire bowl fits central crop at about 46% width; no steam or props.",
+        "blue_rim_proxy_bbox": [
+          405,
+          238,
+          1173,
+          774
+        ],
+        "blue_rim_proxy_width_percent": 50.07,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "11": {
+        "attempt": 3,
+        "final_path": "images/enchiladas-suizas.png",
+        "sha256": "556c65ae66081877f63f6c7b1a9c4f8278b62f52b3d25491fb886aafa9d1cd7f",
+        "generated_source": "generated_images/exec-2b09e920-e2b2-4ad5-b940-c313de43ce49.png",
+        "qa_notes": "Three chicken enchiladas with pale green tomatillo cream sauce browned cheese thin onion rings cilantro. Complete oval rim fits central half about 46% width, no steam or props.",
+        "blue_rim_proxy_bbox": [
+          417,
+          270,
+          1120,
+          729
+        ],
+        "blue_rim_proxy_width_percent": 45.83,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "12": {
+        "attempt": 1,
+        "final_path": "images/everyday-arugula-salad.png",
+        "sha256": "8245d83a4e2e5fb29043677ba2b592bae4212ce3046411ddaeea416726011f4d",
+        "generated_source": "generated_images/exec-f13f7ccb-2330-4a83-b235-985254bb6a59.png",
+        "qa_notes": "Loose arugula with wide Parmesan shavings and pepper only, whole bowl fits central-half crop about 44% width. No steam or props. Bright pale blue backdrop.",
+        "blue_rim_proxy_bbox": [
+          430,
+          251,
+          1143,
+          765
+        ],
+        "blue_rim_proxy_width_percent": 46.48,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "13": {
+        "attempt": 2,
+        "final_path": "images/extraordinary-chocolate-chip-cookie.png",
+        "sha256": "3ad96fa9fd0d71a5103c970e930d03fcd0d5ffdbc5334aa72f7c7ba30b5f8ae7",
+        "generated_source": "generated_images/exec-1082504b-f171-4edc-b4bd-e308f3b9cdb2.png",
+        "qa_notes": "Three original cookies: two intact plus one broken into two halves. Glossy chocolate and flaky salt, whole plate fits central crop about 44% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          428,
+          264,
+          1121,
+          753
+        ],
+        "blue_rim_proxy_width_percent": 45.18,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "14": {
+        "attempt": 4,
+        "final_path": "images/falafel.png",
+        "sha256": "0fe7d26ed48c6a7c7a994a994f3a01c1337b74f369c6c32df4697867f7e2a52c",
+        "generated_source": "generated_images/exec-ad9e7180-e4b5-4f23-816a-04c13596403a.png",
+        "qa_notes": "Six original falafels: five intact plus sixth split into two halves, parsley only. Entire plate fits central-half crop about 47% width, no steam or props. Texture caveat after targeted remake: crumb remains coarser and kernel-like than ideal fine falafel crumb; green center and golden crust are visible.",
+        "acceptance": "retained_with_food_texture_caveat",
+        "blue_rim_proxy_bbox": [
+          408,
+          246,
+          1124,
+          716
+        ],
+        "blue_rim_proxy_width_percent": 46.68,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true
+      },
+      "15": {
+        "attempt": 1,
+        "final_path": "images/farfel-muffins.png",
+        "sha256": "2254bf2c88b92dae5a8baa60ce1fff85e31e9332a3aeea5dbddd4a03fe7861da",
+        "generated_source": "generated_images/exec-cafb90ab-a8f1-4cb6-bf09-7e767477139a.png",
+        "qa_notes": "Four original muffins: three intact plus one split into two halves with melting butter. Craggy golden tops and small egg-bound pieces. Complete plate fits central half but very narrow side margins about 49.5% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          387,
+          237,
+          1148,
+          733
+        ],
+        "blue_rim_proxy_width_percent": 49.61,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "16": {
+        "attempt": 1,
+        "final_path": "images/fattoush-salad.png",
+        "sha256": "30c94f8b0719f4817d97032f28e7e7dcf03792ac36b5ac6d18e4137254d06db6",
+        "generated_source": "generated_images/exec-ea5efc90-e1f3-4840-a3c9-84a82c96f5a4.png",
+        "qa_notes": "Tomato cucumber radish romaine scallion herbs toasted pita sumac and mint visible. Complete bowl fits central half with very narrow margins about 49.5% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          387,
+          222,
+          1149,
+          799
+        ],
+        "blue_rim_proxy_width_percent": 49.67,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      },
+      "17": {
+        "attempt": 2,
+        "final_path": "images/favorite-cream-cheese-frosting.png",
+        "sha256": "a9e8e474de0969569645a0fd175d3c049669d56f0490d2276cff26598147146b",
+        "generated_source": "generated_images/exec-57939bba-bd58-45ef-8af9-cfd7580407ad.png",
+        "qa_notes": "Exactly three vanilla cupcakes with tall smooth cream-cheese swirls, no garnish. Whole plate comfortably fits central-half crop about 44% width. No steam or props.",
+        "blue_rim_proxy_bbox": [
+          423,
+          337,
+          1136,
+          777
+        ],
+        "blue_rim_proxy_width_percent": 46.48,
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "byte_identical_to_generated_source": true,
+        "all_food_vessel_center_crop_visual_pass": true,
+        "final_sha256_verified": true,
+        "acceptance": "accepted"
+      }
+    },
+    "status": "complete_for_parent_independent_review",
+    "total_calls": 29,
+    "source_provenance": {
+      "repository": "jsilton/mise",
+      "source_branch": "images/approaches",
+      "source_commit": "4510f5f3cc6024d63b298f96d35d8f1f7c3027bf",
+      "source_path": "docs/image-prompts/batch-06.md",
+      "source_blob": "1dacba61c6f44273e0a381f57fc7cf62906156be",
+      "reference_branch": "images/mise-style-tests-2026-10-31",
+      "reference_path": "docs/image-tests/2026-10-31/images/margarita-01-cookbook.png",
+      "reference_blob": "0c54adbdfd3a1ae7bfd07984f80201b708731b31",
+      "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+      "started_utc": "2026-11-01T20:07:28Z",
+      "planned_branch": "images/mise-batch-06-2026-11-01",
+      "boundary_check": "README explicitly closes 01\u201304 and all previous redos. No new redo manifest. Batch05 delivered and verified by parent; stale To make row does not reopen it."
+    },
+    "accepted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17
+    ],
+    "strict_crop_accepted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "caveats": [
+      "Photographic backdrops visually follow the requested palette but are not certified exact pixel hex; subtle illumination and short shadows remain.",
+      "Entry 14 falafel has coarse/kernel-like crust and crumb rather than ideally fine ground texture after targeted corrections. Count and crop pass; retained with food-texture caveat and parent independently reviewed.",
+      "Entries 15 and 16 have very narrow but intact central-half rim margins.",
+      "Entry 8 dried elderberries and cinnamon are explicitly listed recipe ingredients on the same plate, not unrelated props."
+    ],
+    "accepted_without_food_texture_flag": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17
+    ],
+    "flagged_food_texture_entries": [
+      14
+    ],
+    "verification": {
+      "all_17_png_1536x1024": true,
+      "all_final_pixels_unmodified": true,
+      "original_reference_every_call": true,
+      "every_attempt_full_and_center_crop_reviewed": true,
+      "all_prompts_sources_exist": true
+    },
+    "delivered_entries": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "retained_with_caveat": [
+      14
+    ],
+    "qa_contact_sheets_reviewed": [
+      "qa/worker01-final-contact.jpg",
+      "qa/worker01-final-crops.jpg"
+    ],
+    "blue_rim_proxy_note": "Automated blue-pixel bounding box is approximate and can include blue background or shadows. Visual full-frame and central-half inspection controls acceptance, not this proxy.",
+    "attempt_counts_by_entry": {
+      "1": 1,
+      "2": 1,
+      "3": 2,
+      "4": 1,
+      "5": 2,
+      "6": 1,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 1,
+      "11": 3,
+      "12": 1,
+      "13": 2,
+      "14": 4,
+      "15": 1,
+      "16": 1,
+      "17": 2
+    }
+  },
+  {
+    "worker": "02",
+    "batch": "06",
+    "assigned_entries": [
+      18,
+      33
+    ],
+    "tool": "built-in image_gen only",
+    "reference": "reference/margarita-01-cookbook.png",
+    "composition_reference": "batch-03/images/buttermilk-waffles.png",
+    "source_provenance": {
+      "repository": "jsilton/mise",
+      "source_branch": "images/approaches",
+      "source_commit": "4510f5f3cc6024d63b298f96d35d8f1f7c3027bf",
+      "source_path": "docs/image-prompts/batch-06.md",
+      "source_blob": "1dacba61c6f44273e0a381f57fc7cf62906156be",
+      "reference_branch": "images/mise-style-tests-2026-10-31",
+      "reference_path": "docs/image-tests/2026-10-31/images/margarita-01-cookbook.png",
+      "reference_blob": "0c54adbdfd3a1ae7bfd07984f80201b708731b31",
+      "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+      "started_utc": "2026-11-01T20:07:28Z",
+      "planned_branch": "images/mise-batch-06-2026-11-01",
+      "boundary_check": "README explicitly closes 01\u201304 and all previous redos. No new redo manifest. Batch05 delivered and verified by parent; stale To make row does not reopen it."
+    },
+    "entries": [
+      {
+        "entry": 18,
+        "filename": "favorite-pumpkin-oatmeal-muffins.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-d732b00d-53a6-4be6-befb-22da21cde061.png",
+            "prompt": "prompts/favorite-pumpkin-oatmeal-muffins-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Side rim crosses central-half crop boundary.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "a1b9f2797368719255bf6f705f4aa86fa743f4bfdce6240d918d1a66b73f539b",
+            "prompt_sha256": "23cca858bbf810751eb4f16261fbb657175cfbeb9363067f80d3ce893c1b8250",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-18-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-e148cfc8-c3af-4524-a2d1-c499ec32740d.png",
+            "prompt": "prompts/favorite-pumpkin-oatmeal-muffins-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-d732b00d-53a6-4be6-befb-22da21cde061.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "388fa25758fc46a82fb07ad161e89fce6d4002c2c1f7ac27a870eb36172c8730",
+            "prompt_sha256": "f415129872c113093961d553c132388fbdf3d24bec3c3727fce22edfce46d9f0",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "a1b9f2797368719255bf6f705f4aa86fa743f4bfdce6240d918d1a66b73f539b"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-18-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            431,
+            237,
+            1106,
+            741
+          ],
+          "food": "Three whole pumpkin oat chocolate-chip muffins plus two halves of fourth muffin; four total.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-18-central-half.png",
+          "approx_subject_width_fraction": 0.439453125
+        },
+        "final_path": "images/favorite-pumpkin-oatmeal-muffins.png",
+        "selected_prompt": "prompts/favorite-pumpkin-oatmeal-muffins.txt",
+        "sha256": "388fa25758fc46a82fb07ad161e89fce6d4002c2c1f7ac27a870eb36172c8730"
+      },
+      {
+        "entry": 19,
+        "filename": "fennel-and-carrot-soup.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-f5678e31-34a1-424d-8a40-91d97489e686.png",
+            "prompt": "prompts/fennel-and-carrot-soup-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "reason": "Crop-safe about-half-width bowl.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "0b9a47844ede3f0395906c60479237b3a18892d1e2190113e08c93b623b847c5",
+            "prompt_sha256": "8e4101143046c828cecc189e251f4e249d9e9e7337a3836e0be1420fe7cf457e",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-19-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            389,
+            232,
+            1136,
+            753
+          ],
+          "food": "Bright orange soup, creme fraiche swirl, chopped roasted chestnuts and thyme only.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-19-central-half.png",
+          "approx_subject_width_fraction": 0.486328125
+        },
+        "final_path": "images/fennel-and-carrot-soup.png",
+        "selected_prompt": "prompts/fennel-and-carrot-soup.txt",
+        "sha256": "0b9a47844ede3f0395906c60479237b3a18892d1e2190113e08c93b623b847c5"
+      },
+      {
+        "entry": 20,
+        "filename": "flourless-chocolate-cake.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-19f9835c-2a05-4082-adb9-fecc08a95e79.png",
+            "prompt": "prompts/flourless-chocolate-cake-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Side rim crosses central-half crop boundary.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "907f32fbfad9922ccc71d5d6330270001aa768a02c5b4e910651ff326935a089",
+            "prompt_sha256": "de60bc403451b089facc1ed345c3c756077430caa4e88e8f320743c1acc5f8f1",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-20-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-06cfb167-557f-46be-a86e-46b68df0f0e9.png",
+            "prompt": "prompts/flourless-chocolate-cake-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-19f9835c-2a05-4082-adb9-fecc08a95e79.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "3a98385ed831e8e1cdc08c39a1ff9020dea82cab550d515528357cb9dbcbc08c",
+            "prompt_sha256": "3df997e448689f52f81fb6f9564fe6fff26bbb117d126328313a87c5a90a43a7",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "907f32fbfad9922ccc71d5d6330270001aa768a02c5b4e910651ff326935a089"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-20-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            406,
+            277,
+            1113,
+            729
+          ],
+          "food": "One dense fudgy flourless chocolate cake wedge with glossy glaze and one whipped-cream dollop.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-20-central-half.png",
+          "approx_subject_width_fraction": 0.4602864583333333
+        },
+        "final_path": "images/flourless-chocolate-cake.png",
+        "selected_prompt": "prompts/flourless-chocolate-cake.txt",
+        "sha256": "3a98385ed831e8e1cdc08c39a1ff9020dea82cab550d515528357cb9dbcbc08c"
+      },
+      {
+        "entry": 21,
+        "filename": "fluffy-scrambled-eggs.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-ba152aad-b7ed-45c5-8e5c-485fff402874.png",
+            "prompt": "prompts/fluffy-scrambled-eggs-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "f47d3417eae4e05bb34bf767db7daa8d03c470981d8f2abb4b54ead472e190b0",
+            "prompt_sha256": "7061dd3b872f45e5815f19ef6ea3c48b7125abbba2d5dbf7e6ec209179ba6e5f",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-21-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            384,
+            262,
+            1138,
+            736
+          ],
+          "food": "Moist small scrambled-egg curds with snipped chives and black pepper.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-21-central-half.png",
+          "approx_subject_width_fraction": 0.4908854166666667
+        },
+        "final_path": "images/fluffy-scrambled-eggs.png",
+        "selected_prompt": "prompts/fluffy-scrambled-eggs.txt",
+        "sha256": "f47d3417eae4e05bb34bf767db7daa8d03c470981d8f2abb4b54ead472e190b0"
+      },
+      {
+        "entry": 22,
+        "filename": "freezer-banana-bread.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-36cc77bf-1d15-4f3e-b795-01d062e2458f.png",
+            "prompt": "prompts/freezer-banana-bread-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Vessel side rim outside central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "485bd58e6bf67fb58027d3e64b42e41d7e4dfbe6d0a6de5a777555d3922d7f3d",
+            "prompt_sha256": "a565f5d488f8af8cbc9f2d1148713180e870bf34b25d03cbd850c0add682bb8d",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-22-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-7a091e23-1fee-4834-9a15-bf1ffe2ef2cb.png",
+            "prompt": "prompts/freezer-banana-bread-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-36cc77bf-1d15-4f3e-b795-01d062e2458f.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "81fd4d65abbe4ed5d103b7b58f0adc7e915f59b5e85fe7507b810a6857ce2a96",
+            "prompt_sha256": "f4af985e767f6dafd02b93c9e4757d534482f931f0b7f7895ef8aebbdcf142fe",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "485bd58e6bf67fb58027d3e64b42e41d7e4dfbe6d0a6de5a777555d3922d7f3d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-22-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            433,
+            230,
+            1104,
+            721
+          ],
+          "food": "Exactly two thick whole-wheat banana bread slices leaning together; no chips, nuts or garnish.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-22-central-half.png",
+          "approx_subject_width_fraction": 0.4368489583333333
+        },
+        "final_path": "images/freezer-banana-bread.png",
+        "selected_prompt": "prompts/freezer-banana-bread.txt",
+        "sha256": "81fd4d65abbe4ed5d103b7b58f0adc7e915f59b5e85fe7507b810a6857ce2a96"
+      },
+      {
+        "entry": 23,
+        "filename": "freezer-date-cookies.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-dac9f835-9dc2-404f-963b-b8b486118d94.png",
+            "prompt": "prompts/freezer-date-cookies-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Vessel side rim outside central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "fe6b7cb45cafcfc74a0d201c1494f8cb27d803ac8b2c948a1e764971c603e383",
+            "prompt_sha256": "7dcb37f75fb88e63584c7b7f68fb6aba9622e863e23e74747f004e36b204983b",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-23-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-8c4dfbe1-6f82-4db1-91a5-bbdce3a56595.png",
+            "prompt": "prompts/freezer-date-cookies-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-dac9f835-9dc2-404f-963b-b8b486118d94.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "b2a84485918061133f569feeb47329531f6227db652e991b7b76844de4e2ea67",
+            "prompt_sha256": "363fb4b19b544bbaf6d758d2c9696ff3739b39fd986a64e4a105268983132f07",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "fe6b7cb45cafcfc74a0d201c1494f8cb27d803ac8b2c948a1e764971c603e383"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-23-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            439,
+            271,
+            1094,
+            719
+          ],
+          "food": "Five whole oat-date cookies plus two halves of sixth cookie; one central whole cookie is partially overlapped by broken half.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-23-central-half.png",
+          "approx_subject_width_fraction": 0.4264322916666667
+        },
+        "final_path": "images/freezer-date-cookies.png",
+        "selected_prompt": "prompts/freezer-date-cookies.txt",
+        "sha256": "b2a84485918061133f569feeb47329531f6227db652e991b7b76844de4e2ea67"
+      },
+      {
+        "entry": 24,
+        "filename": "french-dip-sandwiches.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-f343a52d-bf1c-49e4-9b83-3dc09a69d600.png",
+            "prompt": "prompts/french-dip-sandwiches-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Vessel side rim outside central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "8eb1fa0285f9906f41de7eb103bba524129720b5e67051a1a154db4b1df835d2",
+            "prompt_sha256": "b6223cdcfc12caac0178774b1392ebcc837af0f3754712c71f5948cdba04d004",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-24-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-0bfe06e0-79c6-4cfe-a7ff-6b598e913b5b.png",
+            "prompt": "prompts/french-dip-sandwiches-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-f343a52d-bf1c-49e4-9b83-3dc09a69d600.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate still slightly crosses central crop rim boundaries.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "a1aac94bfabc2f3b6af104ffd82e8d99e2cb2654cdc04ed47249d576b0351293",
+            "prompt_sha256": "4f94d23f70e6c88eafab5aedfafb8f9781c09b033060e72ae6e04d7734defd30",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "8eb1fa0285f9906f41de7eb103bba524129720b5e67051a1a154db4b1df835d2"
+            ],
+            "crop_path": "qa/worker02-24-attempt2-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 3,
+            "source": "generated_images/exec-028a5a74-6c40-4419-8e5d-b2cc42f94657.png",
+            "prompt": "prompts/french-dip-sandwiches-attempt-03.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-0bfe06e0-79c6-4cfe-a7ff-6b598e913b5b.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "59e8994ab7019baa805f87b325495c2346976057368bf5690145cd2301188a31",
+            "prompt_sha256": "dbadd067110a0a8b8ca8fcd76de75b7358501c5e672c607eaa441b14181e28ea",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "a1aac94bfabc2f3b6af104ffd82e8d99e2cb2654cdc04ed47249d576b0351293"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-24-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            392,
+            289,
+            1134,
+            712
+          ],
+          "food": "Four diagonal French-dip sandwich halves (two sandwiches), shredded beef and melted provolone; small ramekin of dark jus on same plate.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-24-central-half.png",
+          "approx_subject_width_fraction": 0.4830729166666667
+        },
+        "final_path": "images/french-dip-sandwiches.png",
+        "selected_prompt": "prompts/french-dip-sandwiches.txt",
+        "sha256": "59e8994ab7019baa805f87b325495c2346976057368bf5690145cd2301188a31"
+      },
+      {
+        "entry": 25,
+        "filename": "french-toast.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-927cc001-dd59-494c-a7ef-4285a6d6319f.png",
+            "prompt": "prompts/french-toast-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate rim too wide for central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "1d8cf735919f5336a671d354da314f402e7704207866a3f5f7a1160f45a0fc8b",
+            "prompt_sha256": "72db99f27b528c6881e8a448a2b9aa753b0fc0c335b153f9687fa0f58d71d5c0",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-25-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-be404501-bf90-41a4-8a5c-dbe54fdab710.png",
+            "prompt": "prompts/french-toast-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-927cc001-dd59-494c-a7ef-4285a6d6319f.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate still crosses central-half rim boundaries.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "e5973a43e1c2ce3f64e409085079c6272fc45bc0eb246dc3f8cdc4ff7abe4713",
+            "prompt_sha256": "592b949cb4d8e5e26095920d6a3647cc349065b50a4242c9034c7b0936fd097b",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "1d8cf735919f5336a671d354da314f402e7704207866a3f5f7a1160f45a0fc8b"
+            ],
+            "crop_path": "qa/worker02-25-attempt2-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 3,
+            "source": "generated_images/exec-5ae3bc74-e010-4bba-81e6-ad1b6a9c1058.png",
+            "prompt": "prompts/french-toast-attempt-03.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-be404501-bf90-41a4-8a5c-dbe54fdab710.png"
+            ],
+            "status": "rejected",
+            "reason": "Framing correction barely changed scale; rim still crosses central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "0a093addd180f9847902772c6c5dced6194b5d246af9db7fe9bb987728252950",
+            "prompt_sha256": "3f03546522e8c29f7ec34181fe9d4387b6addc2041bd02fea27329ca35373ed4",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "e5973a43e1c2ce3f64e409085079c6272fc45bc0eb246dc3f8cdc4ff7abe4713"
+            ],
+            "crop_path": "qa/worker02-25-attempt3-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 4,
+            "source": "generated_images/exec-010a1ea5-38ad-4ade-be36-15d5e24622a5.png",
+            "prompt": "prompts/french-toast-attempt-04.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-5ae3bc74-e010-4bba-81e6-ad1b6a9c1058.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "efb1690532bb67703193cb81d9eb66e234dda5a8feff22ac9743e96962247fb2",
+            "prompt_sha256": "82b5deab01d1ec2c81679b2369545151a45315391c75e7df45c132c9593a08b2",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "0a093addd180f9847902772c6c5dced6194b5d246af9db7fe9bb987728252950",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-25-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            465,
+            319,
+            1072,
+            708
+          ],
+          "food": "Three thick challah French-toast slices, maple syrup, strawberries and blueberries, light cinnamon. No butter or powdered sugar.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "caveats": "Vessel is around 40% of full frame width after framing correction; crop-safe and centered.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-25-central-half.png",
+          "approx_subject_width_fraction": 0.3951822916666667
+        },
+        "final_path": "images/french-toast.png",
+        "selected_prompt": "prompts/french-toast.txt",
+        "sha256": "efb1690532bb67703193cb81d9eb66e234dda5a8feff22ac9743e96962247fb2"
+      },
+      {
+        "entry": 26,
+        "filename": "fresh-cabbage-cucumber-and-radish-kimchi.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-76c06376-0a24-4a69-b606-f202fdef8d30.png",
+            "prompt": "prompts/fresh-cabbage-cucumber-and-radish-kimchi-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "e1721d0bdedfd385c05a348650a52abeb451c9997fa410b061177088853e4bc5",
+            "prompt_sha256": "9ca46b62e758a87c3bbcda43bfc3d51af18026116f17bc8f0d519cb0dba88220",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-26-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            398,
+            241,
+            1130,
+            760
+          ],
+          "food": "Napa cabbage, cucumber slices, daikon cubes and pink radish quarters in red chile paste, a few sesame seeds.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-26-central-half.png",
+          "approx_subject_width_fraction": 0.4765625
+        },
+        "final_path": "images/fresh-cabbage-cucumber-and-radish-kimchi.png",
+        "selected_prompt": "prompts/fresh-cabbage-cucumber-and-radish-kimchi.txt",
+        "sha256": "e1721d0bdedfd385c05a348650a52abeb451c9997fa410b061177088853e4bc5"
+      },
+      {
+        "entry": 27,
+        "filename": "fresh-egg-pasta.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-78fb6cb0-f3ba-48b6-8641-0e47f0bcc3be.png",
+            "prompt": "prompts/fresh-egg-pasta-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate marginally crosses central-half rim boundary.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "78a5a54e4356da4ec772b0ca017f8576015db940c8dfeddcfc3b17eb167f1951",
+            "prompt_sha256": "909edcd0b797409cd89abe620b354a6985b6e5d4e874ae26d710004c5614adca",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-27-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-35bc3c5e-1b23-4c4b-9dc0-9733b2873ba2.png",
+            "prompt": "prompts/fresh-egg-pasta-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-78fb6cb0-f3ba-48b6-8641-0e47f0bcc3be.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "d5be9f44f002a78c9c690ba59dbe92254194025e701c8e51d9ce7ee381ab8333",
+            "prompt_sha256": "3b0df68a3b5ea52d5d54f99d96abcacaff7ab4eb2549e660e9d413fd125088ef",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "78a5a54e4356da4ec772b0ca017f8576015db940c8dfeddcfc3b17eb167f1951"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-27-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            409,
+            256,
+            1123,
+            730
+          ],
+          "food": "Flat golden tagliatelle ribbons glossed with butter, Parmesan and cracked black pepper, no extra garnish.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-27-central-half.png",
+          "approx_subject_width_fraction": 0.46484375
+        },
+        "final_path": "images/fresh-egg-pasta.png",
+        "selected_prompt": "prompts/fresh-egg-pasta.txt",
+        "sha256": "d5be9f44f002a78c9c690ba59dbe92254194025e701c8e51d9ce7ee381ab8333"
+      },
+      {
+        "entry": 28,
+        "filename": "fresh-pasta-dough.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-7bbac33e-0a44-44b3-8fa3-de20954810a1.png",
+            "prompt": "prompts/fresh-pasta-dough-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate crosses central-half boundary; too many whole basil leaves rather than one torn leaf.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "65252544c25c746fabacf19a12d4c3229baa6d8deb5fd27ffc83f6666e008033",
+            "prompt_sha256": "f92e6ef630320847f345ae870713bd3612eaef2927a2e52bd01cd41246300699",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-28-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-de9c498f-cbe8-442b-a3a0-2f0b4a846702.png",
+            "prompt": "prompts/fresh-pasta-dough-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-7bbac33e-0a44-44b3-8fa3-de20954810a1.png"
+            ],
+            "status": "rejected",
+            "reason": "Framing correction barely changed scale; rim still crosses central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "47601c04e82f9495b8828b50f609a133d25586478e2d7999255586d19d2343e4",
+            "prompt_sha256": "fb69131e6cc779d31ae352ac253e4db1bd910b160ccf9fbe1fac3936693168b4",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "65252544c25c746fabacf19a12d4c3229baa6d8deb5fd27ffc83f6666e008033"
+            ],
+            "crop_path": "qa/worker02-28-attempt2-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 3,
+            "source": "generated_images/exec-fa9dff93-cb2c-464b-9e88-f697767760ca.png",
+            "prompt": "prompts/fresh-pasta-dough-attempt-03.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-de9c498f-cbe8-442b-a3a0-2f0b4a846702.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "da9c3b1a0c0d7df12824c264aa11ab884b584c3668d4aebb01c249374102d032",
+            "prompt_sha256": "c714961c97e0cf643c6d70912459c1bbd7477ca68c3d6b8d112f824ff5455246",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "47601c04e82f9495b8828b50f609a133d25586478e2d7999255586d19d2343e4",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-28-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            463,
+            283,
+            1073,
+            683
+          ],
+          "food": "Wide flat pappardelle ribbons with tomato sauce, grated Parmesan and two small basil pieces.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "caveats": "Vessel is around 40% of full frame width after framing correction; crop-safe and centered.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-28-central-half.png",
+          "approx_subject_width_fraction": 0.3971354166666667
+        },
+        "final_path": "images/fresh-pasta-dough.png",
+        "selected_prompt": "prompts/fresh-pasta-dough.txt",
+        "sha256": "da9c3b1a0c0d7df12824c264aa11ab884b584c3668d4aebb01c249374102d032"
+      },
+      {
+        "entry": 29,
+        "filename": "fresh-strawberry-vinaigrette-salad-dressing.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-0e521e30-6449-49d2-8a93-fb6be600a1e5.png",
+            "prompt": "prompts/fresh-strawberry-vinaigrette-salad-dressing-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Bowl rim outside central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "19c3dba6218fac23ce0d4d832fdce736a421a61cdba9ce4f413d0497ae7693b5",
+            "prompt_sha256": "090710a0bfc14bf8d6655417d0f0035fbf403a309cb4b309e8558f3e35595932",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-29-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-b8fe4b20-0e26-4457-91a6-ceafa73b4be0.png",
+            "prompt": "prompts/fresh-strawberry-vinaigrette-salad-dressing-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-0e521e30-6449-49d2-8a93-fb6be600a1e5.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "870ab1bc0f24b7055eb1fe100802292f166fe84c0dabf7a1a3885dc3594c0d52",
+            "prompt_sha256": "f04dbe0aeeb6bb07ee5378b572b845716248771f37614222054d9e5a86ffda2f",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "19c3dba6218fac23ce0d4d832fdce736a421a61cdba9ce4f413d0497ae7693b5"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-29-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            408,
+            245,
+            1125,
+            733
+          ],
+          "food": "Baby spinach leaves with sliced strawberries and glossy rosy-pink vinaigrette; no garnish.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-29-central-half.png",
+          "approx_subject_width_fraction": 0.466796875
+        },
+        "final_path": "images/fresh-strawberry-vinaigrette-salad-dressing.png",
+        "selected_prompt": "prompts/fresh-strawberry-vinaigrette-salad-dressing.txt",
+        "sha256": "870ab1bc0f24b7055eb1fe100802292f166fe84c0dabf7a1a3885dc3594c0d52"
+      },
+      {
+        "entry": 30,
+        "filename": "fresh-wonton-wrappers.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-70eb5831-e148-4947-bbdc-30e7846c1729.png",
+            "prompt": "prompts/fresh-wonton-wrappers-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Vessel side rim crosses central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "91b99328fd55f2e46ca426b2140e6ef92d7bcbc6e9bd18c2e58cecc04ac749a8",
+            "prompt_sha256": "52651308c0246e035d21932cd730d2de73ef4d9089e85cb96f8ca2c8e668165c",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-30-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-5fc38917-cd19-4917-915a-22d7df019ce4.png",
+            "prompt": "prompts/fresh-wonton-wrappers-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-70eb5831-e148-4947-bbdc-30e7846c1729.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "b0837004767a56e327c342df6542bd4f1e974c969cb423dd41424f16030a9654",
+            "prompt_sha256": "953254c0c84f572da04ca2a70d3302eadf0bc0803d8cc744e176f0d403889df9",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "91b99328fd55f2e46ca426b2140e6ef92d7bcbc6e9bd18c2e58cecc04ac749a8"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-30-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            417,
+            203,
+            1117,
+            766
+          ],
+          "food": "Exactly six wontons with thin silky wrappers in clear golden broth, scallion only.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-30-central-half.png",
+          "approx_subject_width_fraction": 0.4557291666666667
+        },
+        "final_path": "images/fresh-wonton-wrappers.png",
+        "selected_prompt": "prompts/fresh-wonton-wrappers.txt",
+        "sha256": "b0837004767a56e327c342df6542bd4f1e974c969cb423dd41424f16030a9654"
+      },
+      {
+        "entry": 31,
+        "filename": "fried-plantains.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-d47f08af-2fbd-4734-81a5-a0e2b9b65999.png",
+            "prompt": "prompts/fried-plantains-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Vessel side rim crosses central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "b024fc6c3d583d2f3b53adbef75ef542f630ca9bc11a1b7273a1cd8d2a6a75b8",
+            "prompt_sha256": "d21d9e407f1bbe94f29c67fd0c1cdfecd44764ef422761cb34071a9221235289",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-31-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-099a43a5-929a-4ba4-988e-54a1e02fd590.png",
+            "prompt": "prompts/fried-plantains-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-d47f08af-2fbd-4734-81a5-a0e2b9b65999.png"
+            ],
+            "status": "rejected",
+            "reason": "Side rim still crosses central-half boundary after reduction.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "f99c0f21815ad253baf8a87475221985e5c654ab1e06402c1ecbf8d20ed07796",
+            "prompt_sha256": "fcade1786ad920e42fe455983f9dc7d6fda7099a11a1d1e20de754ed99650190",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "b024fc6c3d583d2f3b53adbef75ef542f630ca9bc11a1b7273a1cd8d2a6a75b8"
+            ],
+            "crop_path": "qa/worker02-31-attempt2-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 3,
+            "source": "generated_images/exec-86dd63e3-afaf-4360-ae9d-bd3244abb22e.png",
+            "prompt": "prompts/fried-plantains-attempt-03.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-099a43a5-929a-4ba4-988e-54a1e02fd590.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "97716a69e18f99402769c24c51fa75d1608639cb8481c60626cc8105c40e0df3",
+            "prompt_sha256": "0518baa79a8bcb954c4db914b5927762707b3568ca20a9fbbf53000efcb5825a",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "f99c0f21815ad253baf8a87475221985e5c654ab1e06402c1ecbf8d20ed07796"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-31-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            408,
+            291,
+            1125,
+            685
+          ],
+          "food": "About ten diagonal caramelized plantain slices with flaky salt only; overlapping row.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-31-central-half.png",
+          "approx_subject_width_fraction": 0.466796875
+        },
+        "final_path": "images/fried-plantains.png",
+        "selected_prompt": "prompts/fried-plantains.txt",
+        "sha256": "97716a69e18f99402769c24c51fa75d1608639cb8481c60626cc8105c40e0df3"
+      },
+      {
+        "entry": 32,
+        "filename": "frozen-blueberry-muffins.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-5f39df16-f3aa-45aa-be68-da251e9c618b.png",
+            "prompt": "prompts/frozen-blueberry-muffins-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "rejected",
+            "reason": "Vessel side rim outside central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "f5f74a41b88725ff1f98f28e5cb219f41752b1ea17ea00a7a25b1b02a0653275",
+            "prompt_sha256": "c3deffc1b2dff9073cc1282fb7c733cdf6c20b34aa0cc89f1a35059813d14ef5",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "crop_path": "qa/worker02-32-attempt1-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 2,
+            "source": "generated_images/exec-d5dfb87c-79c6-481d-bd61-717a1d17e510.png",
+            "prompt": "prompts/frozen-blueberry-muffins-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-5f39df16-f3aa-45aa-be68-da251e9c618b.png"
+            ],
+            "status": "rejected",
+            "reason": "Plate rim still slightly crosses central-half crop.",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "bb63707ed2c560e8f814bd465841159990b80845e0fad6fa9682a97e4ab118a2",
+            "prompt_sha256": "b195e0f435df7cd99909a66139919530f76d8e4a69c518da9942d42ae57980f6",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "f5f74a41b88725ff1f98f28e5cb219f41752b1ea17ea00a7a25b1b02a0653275"
+            ],
+            "crop_path": "qa/worker02-32-attempt2-central-half.png",
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG"
+          },
+          {
+            "attempt": 3,
+            "source": "generated_images/exec-1010897c-b873-4f49-819f-777a861d5e69.png",
+            "prompt": "prompts/frozen-blueberry-muffins-attempt-03.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-d5dfb87c-79c6-481d-bd61-717a1d17e510.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "add5cd7b3024b71f1c8ea34134fec47d1f620c3c26002986d2b41fec2f0418c7",
+            "prompt_sha256": "afef8193a492f4c8621d91b1ba786581ee5c8246674846b39e10f6866580efc8",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "bb63707ed2c560e8f814bd465841159990b80845e0fad6fa9682a97e4ab118a2"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-32-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            390,
+            229,
+            1146,
+            735
+          ],
+          "food": "Three whole blueberry muffins plus two matching halves of fourth muffin; sugary nutmeg crust, purple-blue berries and fluffy crumb.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-32-central-half.png",
+          "approx_subject_width_fraction": 0.4921875
+        },
+        "final_path": "images/frozen-blueberry-muffins.png",
+        "selected_prompt": "prompts/frozen-blueberry-muffins.txt",
+        "sha256": "add5cd7b3024b71f1c8ea34134fec47d1f620c3c26002986d2b41fec2f0418c7"
+      },
+      {
+        "entry": 33,
+        "filename": "funfetti-cake-from-scratch-and-an-unbirthday.png",
+        "attempts": [
+          {
+            "attempt": 1,
+            "source": "generated_images/exec-dbbfa848-7342-4fa2-9f17-c1c40f666f2e.png",
+            "prompt": "prompts/funfetti-cake-from-scratch-and-an-unbirthday-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-03/images/buttermilk-waffles.png"
+            ],
+            "status": "selected",
+            "original_reference_attached": true,
+            "full_frame_reviewed": true,
+            "source_sha256": "236b2f92a6c4b5c6368f16da80f7c73c2ae6c2be8a113b51216c1b8eec89ffed",
+            "prompt_sha256": "f785c5c7785cf5c71758efd5efc15d232bd97363a2989bb62b355675063889a4",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "681e535203b43b0b16391a0fa4efe2d527a4f0dfe7a47f443e6740f096d56a9d"
+            ],
+            "central_half_crop_reviewed": true,
+            "transparent_background": false,
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "crop_path": "qa/worker02-33-central-half.png"
+          }
+        ],
+        "qa": {
+          "status": "accepted",
+          "full_frame_reviewed": true,
+          "central_half_crop_reviewed": true,
+          "approx_subject_bounds": [
+            401,
+            206,
+            1127,
+            797
+          ],
+          "food": "One tall three-layer vanilla cake slice, colorful sprinkles throughout, white frosting between and around layers, rainbow sprinkles on top.",
+          "no_steam": true,
+          "no_props": true,
+          "centered": true,
+          "flat_backdrop": true,
+          "all_food_inside_central_half": true,
+          "whole_vessel_inside_central_half": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-33-central-half.png",
+          "approx_subject_width_fraction": 0.47265625
+        },
+        "final_path": "images/funfetti-cake-from-scratch-and-an-unbirthday.png",
+        "selected_prompt": "prompts/funfetti-cake-from-scratch-and-an-unbirthday.txt",
+        "sha256": "236b2f92a6c4b5c6368f16da80f7c73c2ae6c2be8a113b51216c1b8eec89ffed"
+      }
+    ],
+    "summary": {
+      "assigned_count": 16,
+      "delivered_count": 16,
+      "accepted_without_material_flags": 16,
+      "builtin_calls": 34,
+      "builtin_image_gen_calls": 34,
+      "remakes": 18,
+      "all_png_1536x1024": true,
+      "all_final_bytes_equal_source": true,
+      "final_pixel_manipulation": false,
+      "qa_pixel_operations": "Crops and contact sheets only; no final image pixel changes.",
+      "strict_whole_vessel_central_crop_pass": 16,
+      "all_food_inside_central_half": true,
+      "flagged_crop_caveats": [],
+      "scale_caveats": [],
+      "minor_scale_notes": [
+        25,
+        28
+      ],
+      "original_reference_attached_every_call": true,
+      "counts_ingredients_reviewed": true,
+      "general_caveats": "All selected food and complete vessels fit the central-half crop. Entries 25 and 28 are around 40% of full-frame width after correction, on the smaller side but centered and crop-safe. Backdrop colors are generated approximations of specified hex values. Entry23 has one whole cookie partly overlapped by a broken half; six total. Entry28 basil appears as two small pieces with fairly intact outlines rather than strongly ragged tears."
+    },
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "source_files_sha256": {
+      "source.md": "876090e9176e2279158f843052e5ab3e9af00d791917f4f047d4c72f940daf74",
+      "entries.json": "03cd2473e49b944c56d54e88eb819c7ab155239ba403edbcbed4fe4eb8d41f8a",
+      "shared-style.txt": "a890be6e6be409d28d76ad8d72e0271da44944eeb5b426d1a4fbe63c2f9bf9a8",
+      "source-provenance.json": "d0a77120be1c9ab0daefaa063228f718a6330524a3f9e8f9c211d495ab3c589b"
+    },
+    "qa_contact_sheets": [
+      "qa/worker02-group1-full.jpg",
+      "qa/worker02-group1-crops.jpg",
+      "qa/worker02-group2-full.jpg",
+      "qa/worker02-group2-crops.jpg",
+      "qa/worker02-group3-full.jpg",
+      "qa/worker02-group3-crops.jpg",
+      "qa/worker02-rejected1-crops.jpg",
+      "qa/worker02-rejected2-crops.jpg",
+      "qa/worker02-rejected3-crops.jpg"
+    ],
+    "completion": "Assigned entries18\u201333 complete. Previous batches preserved. No Git, Library or publishing actions. No batch07 work."
+  },
+  {
+    "worker": "worker-03",
+    "batch": "06",
+    "scope": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "source_provenance": {
+      "repository": "jsilton/mise",
+      "source_branch": "images/approaches",
+      "source_commit": "4510f5f3cc6024d63b298f96d35d8f1f7c3027bf",
+      "source_path": "docs/image-prompts/batch-06.md",
+      "source_blob": "1dacba61c6f44273e0a381f57fc7cf62906156be",
+      "reference_branch": "images/mise-style-tests-2026-10-31",
+      "reference_path": "docs/image-tests/2026-10-31/images/margarita-01-cookbook.png",
+      "reference_blob": "0c54adbdfd3a1ae7bfd07984f80201b708731b31",
+      "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+      "started_utc": "2026-11-01T20:07:28Z",
+      "planned_branch": "images/mise-batch-06-2026-11-01",
+      "boundary_check": "README explicitly closes 01\u201304 and all previous redos. No new redo manifest. Batch05 delivered and verified by parent; stale To make row does not reopen it."
+    },
+    "calls": [
+      {
+        "entry": 34,
+        "filename": "garlic-bread.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-bread.txt",
+        "generated_path": "generated_images/exec-98795993-264f-47cb-911c-8ca5f06acf4f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct five slices and toppings; plate around 63% width, crop clips rim and bread edges.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-04/images/cinnamon-sweet-potatoes.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "e24dd74c9dc85c55956d8a74ec1dc41e956070d20f450304512a873cca09a3d3",
+        "prompt_sha256": "12999e07326bc22af11a3038f061fdcbba89745c7ac18bad162f84a16921f830",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-bread-attempt01-central.png"
+      },
+      {
+        "entry": 36,
+        "filename": "garlic-butter-green-beans.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-green-beans.txt",
+        "generated_path": "generated_images/exec-03419f6f-d6a2-4bdf-9238-da6f9287248c.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Platter too wide for central crop. Golden slices predominantly look like garlic; almonds insufficiently distinct. Correct framing and make almond flakes clear.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-04/images/cinnamon-sweet-potatoes.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "6f4f73df4f555c655fd1e187a9a5e40fd7f74949c547bcb52df39299a83e83bb",
+        "prompt_sha256": "35fa488ca0b76c95b37a8715ae6496ddc0aeefff26b901b05910793bf809a0bb",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-green-beans-attempt01-central.png"
+      },
+      {
+        "entry": 34,
+        "filename": "garlic-bread.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-bread-attempt02.txt",
+        "generated_path": "generated_images/exec-e1b770c7-c19d-445d-8c61-0b2eb793944b.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed: exactly five bread slices, garlic-parsley butter and Parmesan, no extra garnish. Complete oval plate fits. Flat blue backdrop, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-98795993-264f-47cb-911c-8ca5f06acf4f.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "01363236a16117265d8f17eccf65070a1504aaee6e7d6efb0f355e1ee416a50f",
+        "prompt_sha256": "7eed09a69870da4e737752cdb3e669cb210bb5a4e08bd277c3b0ea0040a2bea2",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-bread-attempt02-central.png"
+      },
+      {
+        "entry": 35,
+        "filename": "garlic-butter-couscous.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-couscous.txt",
+        "generated_path": "generated_images/exec-96b2b7b4-dd6e-4b59-96b1-25c8b5c691c3.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed: glossy round pearl couscous with parsley and fine lemon zest. Complete bowl fits. Flat blue backdrop, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "d296891f41073dc8040051d2bcb7a16f104774d962d00d1587c79632a7526b88",
+        "prompt_sha256": "c51852648c591dd7196627a7c544af30a0e01a515258b092b2007462aa8cbc74",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-couscous-attempt01-central.png"
+      },
+      {
+        "entry": 36,
+        "filename": "garlic-butter-green-beans.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-green-beans-attempt02.txt",
+        "generated_path": "generated_images/exec-1a4e8c16-74aa-4d32-876c-60a10299a05d.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Almonds now clearly distinct from garlic; plate still too wide around 56%, framing change not achieved.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-03419f6f-d6a2-4bdf-9238-da6f9287248c.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "e6cecb5d52160b02a9a7a73c9dbca2e71646b6359627fb7694721f67a33568da",
+        "prompt_sha256": "de3a5d086c40db59d53509ea932cd2b6d58610c7eadded0668d8991404ada220",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-green-beans-attempt02-central.png"
+      },
+      {
+        "entry": 37,
+        "filename": "garlic-butter-roasted-salmon-with-potatoes-and-asparagus.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-roasted-salmon-with-potatoes-and-asparagus.txt",
+        "generated_path": "generated_images/exec-294907c1-464f-40af-973c-8332edfbcb39.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Ingredients correct; left rim crosses central crop boundary around x365. Targeted framing reduction needed.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "158854b89bbc5b28293aa74c294fb40d761e132c9683586e25af407bf61c1ed1",
+        "prompt_sha256": "36d01a945b2b91b185b99a00b72ba593c592c3e31f069c7d3f3a3c3bfd915c29",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-roasted-salmon-with-potatoes-and-asparagus-attempt01-central.png"
+      },
+      {
+        "entry": 36,
+        "filename": "garlic-butter-green-beans.png",
+        "attempt": 3,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-green-beans-attempt03.txt",
+        "generated_path": "generated_images/exec-c68e034c-ee93-427b-ae70-1b8ce4d16810.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: glossy green beans, distinct toasted almond flakes with brown skins AND round golden garlic slices, flaky salt. Complete oval plate fits, flat blue backdrop, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-1a4e8c16-74aa-4d32-876c-60a10299a05d.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "e946c484e6508689b20b7d0441aaf33432565989faf19050de2e20b0d2e057ab",
+        "prompt_sha256": "3fcb1c69b59359be80f9d1155631e5095fcc69fe2c8f142ae2664ec3334f330f",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-green-beans-attempt03-central.png"
+      },
+      {
+        "entry": 38,
+        "filename": "garlic-butter-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-shrimp.txt",
+        "generated_path": "generated_images/exec-fdd6415e-1e32-4582-81e4-43021e9c678e.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Garlic-butter shrimp and garnish correct, but only roughly 8-9 large shrimp discernible vs about dozen, and left rim crosses crop. Correct count and framing.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "1c15666685b9227845b7fe5b49f2013d2a1a4ff8a075654bc27c147682a38e7b",
+        "prompt_sha256": "f1f03e30f6b1f011d8513bedd599a5714eaf75838fe8ec8b0184c6fb3198bf59",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-shrimp-attempt01-central.png"
+      },
+      {
+        "entry": 37,
+        "filename": "garlic-butter-roasted-salmon-with-potatoes-and-asparagus.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-roasted-salmon-with-potatoes-and-asparagus-attempt02.txt",
+        "generated_path": "generated_images/exec-2fbece87-e76b-46af-a06d-3a77ba30ec87.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed. Salmon fillet, garlic-lemon butter, halved roasted baby potatoes, asparagus, parsley and lemon wedge correct. Complete plate fits, flat yellow, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-294907c1-464f-40af-973c-8332edfbcb39.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "b59322c0f426d9432f3897ba489db60e32c293cd7dda06e440f9a839ef063f7c",
+        "prompt_sha256": "998767a03fdfec514681bd5fe8c14e89758dab12b01d9a2a82d274d2fe542ae4",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-roasted-salmon-with-potatoes-and-asparagus-attempt02-central.png"
+      },
+      {
+        "entry": 38,
+        "filename": "garlic-butter-shrimp.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-shrimp-attempt02.txt",
+        "generated_path": "generated_images/exec-c3aaec43-24f4-4c66-99fe-1808dafa49ee.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "About ten discernible shrimp now, within approximate dozen brief with overlap; correct sauce and garnishes. Framing remains oversized on left, needs framing-only correction.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-fdd6415e-1e32-4582-81e4-43021e9c678e.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "d67410595e444bed7074b3b4003f461ccf486dded84aa1dc891faf898562b00b",
+        "prompt_sha256": "7b122a6fda8306ffabed2c38598223ebd9efd7be3e5046d05179a76179572ef0",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-shrimp-attempt02-central.png"
+      },
+      {
+        "entry": 38,
+        "filename": "garlic-butter-shrimp.png",
+        "attempt": 3,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-butter-shrimp-attempt03.txt",
+        "generated_path": "generated_images/exec-56ddb587-fc55-425b-8f08-fc6fec83a6f5.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed. About ten discernible overlapping shrimp against approximate dozen brief; garlic-butter sauce, parsley and lemon zest, no wedge. Bowl fully fits at roughly 38% width after framing correction. Flat blue, no steam/props/cutlery. Count/scale caveat disclosed.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-c3aaec43-24f4-4c66-99fe-1808dafa49ee.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "bd83442c79c09a46478cec47b044c61db1261850c8b839d91d19689387d6a135",
+        "prompt_sha256": "45bb143b350483e0556c448b7d32c2d843a7650a2711ba9658424eab77d0d0d6",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-butter-shrimp-attempt03-central.png"
+      },
+      {
+        "entry": 39,
+        "filename": "garlic-honey-lime-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-honey-lime-shrimp.txt",
+        "generated_path": "generated_images/exec-7bf29471-ca73-4041-a030-95c205d775b8.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Approximately dozen glazed shrimp, cilantro and lime correct; oval platter far too wide for crop.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-04/images/cinnamon-sweet-potatoes.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "4eb7259c3caf575b35b5a0565ca2a7c5605f1fdf3c5e175ff9607e59e48f548b",
+        "prompt_sha256": "5b944abcdf60469d8e0149527761f844796a4de312f578de0d1ccd8e9566782e",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-honey-lime-shrimp-attempt01-central.png"
+      },
+      {
+        "entry": 40,
+        "filename": "garlic-mashed-mock-potatoes.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-mashed-mock-potatoes.txt",
+        "generated_path": "generated_images/exec-848b516f-7b64-4c39-85af-f43f6c07a88a.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Mash, butter pat, chives and pepper correct; tiny left rim crossing central crop. Targeted framing correction.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "f93ba0f56e803cc8ed218d8f23601507adf4744076501d36f315b918c1aae957",
+        "prompt_sha256": "f5246d82e8e0e4ab7b7b113e70e1245c04def25376960881640b278ab3a1068e",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-mashed-mock-potatoes-attempt01-central.png"
+      },
+      {
+        "entry": 39,
+        "filename": "garlic-honey-lime-shrimp.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-honey-lime-shrimp-attempt02.txt",
+        "generated_path": "generated_images/exec-977513c6-8a49-4309-9549-7ab761fc4718.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: about dozen overlapping shrimp with sticky amber glaze, cilantro and lime wedge, complete oval plate fits. Flat blue, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-7bf29471-ca73-4041-a030-95c205d775b8.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "9c2b05bd087cbd26498134a9a11edf3d8aac0a5d8903a0ab1d29cc829a7805b0",
+        "prompt_sha256": "78686830b338a634af018774a8928d2be2dae032d26e2b103ad6560dd8bd1816",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-honey-lime-shrimp-attempt02-central.png"
+      },
+      {
+        "entry": 41,
+        "filename": "garlic-mashed-red-potatoes.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-mashed-red-potatoes.txt",
+        "generated_path": "generated_images/exec-26ef1773-cd94-42fe-b052-7be2cbdec331.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct red skin potato mash and butter well, parsley and pepper. Rim crosses both crop edges, needs framing.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "a71aa83b3fccf0bd02642fbfe5ea876084654b2531f9af8f09ef8e7d146092ff",
+        "prompt_sha256": "74e2e4035c204a49b0739c1de893ee96acde0386a5937740729c016cc8493070",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-mashed-red-potatoes-attempt01-central.png"
+      },
+      {
+        "entry": 40,
+        "filename": "garlic-mashed-mock-potatoes.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-mashed-mock-potatoes-attempt02.txt",
+        "generated_path": "generated_images/exec-a2d02308-a702-4df6-87fe-14916a6ee0e5.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: white cauliflower mash swirls, melting butter pat, chopped chives and black pepper. Entire bowl fits. Flat yellow, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-848b516f-7b64-4c39-85af-f43f6c07a88a.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "407dc54116fc8b475f6b7696aa338ed2e65641ca5b259d57dd3422d665b0c106",
+        "prompt_sha256": "bcc97fb659dca53dcd00469dee0c2b49c75689d11bcbfad0ab6a1a1f7062eb7b",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-mashed-mock-potatoes-attempt02-central.png"
+      },
+      {
+        "entry": 42,
+        "filename": "garlic-parmesan-chicken-potatoes.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-parmesan-chicken-potatoes.txt",
+        "generated_path": "generated_images/exec-188e7086-7ea8-4c53-9ad9-3ffd40ab7009.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct two thighs, wilted leaf spinach, quartered potatoes and garnishes; plate about54% width clips rim in central crop.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "623bee1f1c911f578876a94a373801424f4b2a74e5c6456bee5f3fbfe568c26d",
+        "prompt_sha256": "203ab6feb672193c6394b39b564b1d978ae1b6028f2efea4455a32e02e14c4b6",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-parmesan-chicken-potatoes-attempt01-central.png"
+      },
+      {
+        "entry": 41,
+        "filename": "garlic-mashed-red-potatoes.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-mashed-red-potatoes-attempt02.txt",
+        "generated_path": "generated_images/exec-f60dad1e-3bff-47ea-83d5-7f86dd2ee71d.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: rustic red-skin mashed potatoes, melted butter well, parsley and pepper. Complete bowl fits. Flat yellow, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-26ef1773-cd94-42fe-b052-7be2cbdec331.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "3f5ad20c810fa619355381973ee7b6c41da63ce953a989625a01b12b1adadbf3",
+        "prompt_sha256": "e3b6e6586958d2c23bcc2afbd9b3b7e2ae0e76c3d9b9cf680eceddb75e7a234f",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-mashed-red-potatoes-attempt02-central.png"
+      },
+      {
+        "entry": 43,
+        "filename": "garlic-paste-toum-the-washington-post.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-paste-toum-the-washington-post.txt",
+        "generated_path": "generated_images/exec-7d928d9c-1847-4454-b894-86375f3e529f.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "White toum and pita correct, but right pita tip extends outside central half. Reduce full subject.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "6f353ce57b1964ef6ae83dba3c3da1aed03b77d11d43ec49967dbe80ea2e3655",
+        "prompt_sha256": "23f45b2c630eadb9ed9029843a909567a5f7af69be863f17e267e125a51defc9",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-paste-toum-the-washington-post-attempt01-central.png"
+      },
+      {
+        "entry": 42,
+        "filename": "garlic-parmesan-chicken-potatoes.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-parmesan-chicken-potatoes-attempt02.txt",
+        "generated_path": "generated_images/exec-93ef270c-cc87-4bf5-b22c-50bdbba19030.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed. Exactly two golden thighs, cream sauce with actual broad limp wilted spinach leaves (no broccoli), roasted quartered potatoes, Parmesan and parsley. Complete plate fits, flat peach, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-188e7086-7ea8-4c53-9ad9-3ffd40ab7009.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "dfe53c418ee1d5685861996f8f8b32ef7a1c75ff4f9ee472abde14d616528f27",
+        "prompt_sha256": "a157adb5b93dc6860bffba1b02cfb9af4794e8387e1bf307d0b8f4212064c6d5",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-parmesan-chicken-potatoes-attempt02-central.png"
+      },
+      {
+        "entry": 44,
+        "filename": "garlic-roasted-potatoes.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-roasted-potatoes.txt",
+        "generated_path": "generated_images/exec-74e1bdb8-a88d-4c95-8741-61a7be366fb5.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct crisp roasted potatoes with garlic and parsley; oval plate too wide for central crop.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-04/images/cinnamon-sweet-potatoes.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "64fce8cd5df61ac7ba1626da0cc44e6ca4084d05d56b5d6dd5fcb0c05dc95f6d",
+        "prompt_sha256": "36720510646000a95c174c58a6971a5273402dcca05e23f0515c8450cca491b0",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-roasted-potatoes-attempt01-central.png"
+      },
+      {
+        "entry": 43,
+        "filename": "garlic-paste-toum-the-washington-post.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-paste-toum-the-washington-post-attempt02.txt",
+        "generated_path": "generated_images/exec-7944bf7f-bffc-4149-9114-063ec8b7f652.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: fluffy pure white toum with olive oil drops and three pita triangles; all pita and plate fit. Flat peach, no herbs or extra garnish, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-7d928d9c-1847-4454-b894-86375f3e529f.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "2b3ee5c2cf4b598391b9e39319bd7cf5d6d68fd2adf93c71cfaaa0253a58365c",
+        "prompt_sha256": "065285441473bab64116e3bfc2099dbdd1ddf302b655387daf6796aff7689dde",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-paste-toum-the-washington-post-attempt02-central.png"
+      },
+      {
+        "entry": 45,
+        "filename": "garlic-sauteed-green-beans.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-sauteed-green-beans.txt",
+        "generated_path": "generated_images/exec-6ab326be-1be2-47b6-97c3-edeb28dd3e45.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Correct blistered beans, garlic and red pepper; no almonds. Platter too wide, crop loses rim.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-04/images/cinnamon-sweet-potatoes.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "1ee51acfffc9d78df61ee3c1e63733f8986dd34f662bdb91d7ddd70dbf40904a",
+        "prompt_sha256": "9b321ddb8c0983c65530ecff372b00c0490faeab5a04e514dad267868c801d4c",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-sauteed-green-beans-attempt01-central.png"
+      },
+      {
+        "entry": 44,
+        "filename": "garlic-roasted-potatoes.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-roasted-potatoes-attempt02.txt",
+        "generated_path": "generated_images/exec-34e1cde9-0135-4de5-93bf-381bd57a4675.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: crisp golden potato chunks with rosy skins, minced garlic and parsley. Complete oval plate fits. Flat peach, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-74e1bdb8-a88d-4c95-8741-61a7be366fb5.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "6cdc0f898d6e23ac62e22b6e850b6e6b2200161a9f91c467b8a933829dbbef87",
+        "prompt_sha256": "81ca472ea0e2509cffeb40ad4c63ae7e42d8578b9a202ebea0548ad123f9e4d1",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-roasted-potatoes-attempt02-central.png"
+      },
+      {
+        "entry": 45,
+        "filename": "garlic-sauteed-green-beans.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-sauteed-green-beans-attempt02.txt",
+        "generated_path": "generated_images/exec-534e2a4a-90d1-4c9a-b37c-0b110bec438d.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed: blistered brown patches on green beans, golden garlic and red pepper flakes; no almonds or herbs. Complete oval plate fits, flat blue, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-6ab326be-1be2-47b6-97c3-edeb28dd3e45.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "df1709e6c0d01f02af8c56209f21f20822f9aef11111e3eb8c252526c10ed9d9",
+        "prompt_sha256": "7f88f75b1c66d87b32aaaa5ab8506548affc2751bbe1d64bda3d8d6153bb76c4",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-sauteed-green-beans-attempt02-central.png"
+      },
+      {
+        "entry": 46,
+        "filename": "garlic-sesame-spinach.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlic-sesame-spinach.txt",
+        "generated_path": "generated_images/exec-b4ad6f14-e78f-4c4c-99a1-f44d1f6263f7.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop reviewed: glossy silky wilted spinach leaves and stems, toasted sesame only, no broccoli florets. Complete round shallow dish fits. Flat blue, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "dff6ffbb962b031e332f83adaab701e01ff01c72bcfb0a3b9b3b8b8cc6ac5fd1",
+        "prompt_sha256": "d4c081765db7d3ddcd1e291f78ecd49a7cb1622473e9fb228317d438f4bd7b9e",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlic-sesame-spinach-attempt01-central.png"
+      },
+      {
+        "entry": 48,
+        "filename": "gefilte-fish-terrine.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/gefilte-fish-terrine.txt",
+        "generated_path": "generated_images/exec-628d727f-6310-4434-9cbe-c0384f289b37.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Exactly two layered fish terrine slices, herb salad and garnish correct. Plate far too wide, crop clips rim and salad edges.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "c5a57d042d70cf17a9b1e364a04a9d22dc100a5dc1ff21e4741ab1a9ed156fe9",
+        "prompt_sha256": "de901bac23af2bf9512fa181e6928ecccdf86b3a51cf5df7c182cc13df6a4cd0",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/gefilte-fish-terrine-attempt01-central.png"
+      },
+      {
+        "entry": 47,
+        "filename": "garlicky-lemon-kale-with-carrots.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/garlicky-lemon-kale-with-carrots.txt",
+        "generated_path": "generated_images/exec-f83a7be1-ac62-44ff-9c90-c16991802794.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: chopped kale leaves, thin carrot coins, minced garlic and lemon wedge. Entire bowl fits with narrow margins, flat blue, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "7f817a6b9811de22397951e189202cc573d8e947de0caa2c4ff2289684008858",
+        "prompt_sha256": "f18878ca23e485e434d29bdec041dd925d7720f6d66e1759f3c6c1abb52eadf7",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/garlicky-lemon-kale-with-carrots-attempt01-central.png"
+      },
+      {
+        "entry": 48,
+        "filename": "gefilte-fish-terrine.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/gefilte-fish-terrine-attempt02.txt",
+        "generated_path": "generated_images/exec-4eb2d2b5-4efb-4096-bd5a-e97f738c32ea.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: exactly two ivory and soft pink fish terrine slices with carrot and dill flecks, small herb salad, dill sprig and lemon zest. Complete plate and salad fit. Flat peach, no steam/props/cutlery.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-628d727f-6310-4434-9cbe-c0384f289b37.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "f2fead34ab6fbce092a4b94204fd4d5d2486a9c2c817103b3cb0c31b6b0d1506",
+        "prompt_sha256": "8492de03e23b8a109f90c8656c038a173d8c8da9b6a02a390a7ec3c08a345dc6",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/gefilte-fish-terrine-attempt02-central.png"
+      },
+      {
+        "entry": 49,
+        "filename": "general-tsos-cauliflower.png",
+        "attempt": 1,
+        "mode": "generate",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/general-tsos-cauliflower.txt",
+        "generated_path": "generated_images/exec-b5112646-fa51-405c-bb97-1f135bb83a36.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Full image reviewed: correct sauced cauliflower, scallion and sesame. Bowl left rim reaches about x378, clipping the central-half crop; framing correction required.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-05/images/easy-chia-pudding.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "471781cab852205b2bbc38de6963949b34300dc9e485f2e4c405bc76d70afddb",
+        "prompt_sha256": "dbfc3415e370e5a696cfdd379b5c2d8b5e70d3db559c4a7fc233e6f06a156af9",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/general-tsos-cauliflower-attempt01-central.png"
+      },
+      {
+        "entry": 49,
+        "filename": "general-tsos-cauliflower.png",
+        "attempt": 2,
+        "mode": "edit",
+        "reference": "reference/margarita-01-cookbook.png",
+        "prompt_path": "prompts/general-tsos-cauliflower-attempt02.txt",
+        "generated_path": "generated_images/exec-cc66cb2a-3503-432e-ae31-19f0c1ba35e5.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central crop checked: battered cauliflower florets with glossy red-brown glaze, scallion greens and sesame seeds only. Complete bowl fits, flat peach, no steam/props/cutlery. Slightly small bowl about 39 percent after correction.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-b5112646-fa51-405c-bb97-1f135bb83a36.png"
+        ],
+        "tool": "image_gen.imagegen",
+        "sha256": "72bb88dc91433bddab46e31e95417e77fec29584d2586a4a94dcd8a3e6e194ae",
+        "prompt_sha256": "a39c1e58320b6051ed0440a8bf05f77d6e988abaf6424dedb28b1859cbf48181",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "crop_path": "qa/general-tsos-cauliflower-attempt02-central.png"
+      }
+    ],
+    "accepted": [
+      {
+        "entry": 34,
+        "filename": "garlic-bread.png",
+        "attempt": 2,
+        "final_path": "images/garlic-bread.png",
+        "qa": "Full and central crop reviewed: exactly five bread slices, garlic-parsley butter and Parmesan, no extra garnish. Complete oval plate fits. Flat blue backdrop, no steam/props/cutlery.",
+        "sha256": "01363236a16117265d8f17eccf65070a1504aaee6e7d6efb0f355e1ee416a50f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-e1b770c7-c19d-445d-8c61-0b2eb793944b.png",
+        "prompt_path": "prompts/garlic-bread-attempt02.txt",
+        "crop_path": "qa/garlic-bread-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          401,
+          330,
+          1133,
+          704
+        ],
+        "blue_rim_width_percent": 47.7
+      },
+      {
+        "entry": 35,
+        "filename": "garlic-butter-couscous.png",
+        "attempt": 1,
+        "final_path": "images/garlic-butter-couscous.png",
+        "qa": "Full and central crop reviewed: glossy round pearl couscous with parsley and fine lemon zest. Complete bowl fits. Flat blue backdrop, no steam/props/cutlery.",
+        "sha256": "d296891f41073dc8040051d2bcb7a16f104774d962d00d1587c79632a7526b88",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-96b2b7b4-dd6e-4b59-96b1-25c8b5c691c3.png",
+        "prompt_path": "prompts/garlic-butter-couscous.txt",
+        "crop_path": "qa/garlic-butter-couscous-attempt01-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          407,
+          218,
+          1117,
+          767
+        ],
+        "blue_rim_width_percent": 46.3
+      },
+      {
+        "entry": 36,
+        "filename": "garlic-butter-green-beans.png",
+        "attempt": 3,
+        "final_path": "images/garlic-butter-green-beans.png",
+        "qa": "Full and central crop checked: glossy green beans, distinct toasted almond flakes with brown skins AND round golden garlic slices, flaky salt. Complete oval plate fits, flat blue backdrop, no steam/props/cutlery.",
+        "sha256": "e946c484e6508689b20b7d0441aaf33432565989faf19050de2e20b0d2e057ab",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-c68e034c-ee93-427b-ae70-1b8ce4d16810.png",
+        "prompt_path": "prompts/garlic-butter-green-beans-attempt03.txt",
+        "crop_path": "qa/garlic-butter-green-beans-attempt03-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          449,
+          313,
+          1081,
+          705
+        ],
+        "blue_rim_width_percent": 41.2
+      },
+      {
+        "entry": 37,
+        "filename": "garlic-butter-roasted-salmon-with-potatoes-and-asparagus.png",
+        "attempt": 2,
+        "final_path": "images/garlic-butter-roasted-salmon-with-potatoes-and-asparagus.png",
+        "qa": "Full and central crop reviewed. Salmon fillet, garlic-lemon butter, halved roasted baby potatoes, asparagus, parsley and lemon wedge correct. Complete plate fits, flat yellow, no steam/props/cutlery.",
+        "sha256": "b59322c0f426d9432f3897ba489db60e32c293cd7dda06e440f9a839ef063f7c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-2fbece87-e76b-46af-a06d-3a77ba30ec87.png",
+        "prompt_path": "prompts/garlic-butter-roasted-salmon-with-potatoes-and-asparagus-attempt02.txt",
+        "crop_path": "qa/garlic-butter-roasted-salmon-with-potatoes-and-asparagus-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          442,
+          277,
+          1083,
+          716
+        ],
+        "blue_rim_width_percent": 41.8
+      },
+      {
+        "entry": 38,
+        "filename": "garlic-butter-shrimp.png",
+        "attempt": 3,
+        "final_path": "images/garlic-butter-shrimp.png",
+        "qa": "Full and central crop reviewed. About ten discernible overlapping shrimp against approximate dozen brief; garlic-butter sauce, parsley and lemon zest, no wedge. Bowl fully fits at roughly 38% width after framing correction. Flat blue, no steam/props/cutlery. Count/scale caveat disclosed.",
+        "sha256": "bd83442c79c09a46478cec47b044c61db1261850c8b839d91d19689387d6a135",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-56ddb587-fc55-425b-8f08-fc6fec83a6f5.png",
+        "prompt_path": "prompts/garlic-butter-shrimp-attempt03.txt",
+        "crop_path": "qa/garlic-butter-shrimp-attempt03-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          468,
+          267,
+          1054,
+          740
+        ],
+        "blue_rim_width_percent": 38.2
+      },
+      {
+        "entry": 39,
+        "filename": "garlic-honey-lime-shrimp.png",
+        "attempt": 2,
+        "final_path": "images/garlic-honey-lime-shrimp.png",
+        "qa": "Full and central crop checked: about dozen overlapping shrimp with sticky amber glaze, cilantro and lime wedge, complete oval plate fits. Flat blue, no steam/props/cutlery.",
+        "sha256": "9c2b05bd087cbd26498134a9a11edf3d8aac0a5d8903a0ab1d29cc829a7805b0",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-977513c6-8a49-4309-9549-7ab761fc4718.png",
+        "prompt_path": "prompts/garlic-honey-lime-shrimp-attempt02.txt",
+        "crop_path": "qa/garlic-honey-lime-shrimp-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          422,
+          299,
+          1102,
+          715
+        ],
+        "blue_rim_width_percent": 44.3
+      },
+      {
+        "entry": 40,
+        "filename": "garlic-mashed-mock-potatoes.png",
+        "attempt": 2,
+        "final_path": "images/garlic-mashed-mock-potatoes.png",
+        "qa": "Full and central crop checked: white cauliflower mash swirls, melting butter pat, chopped chives and black pepper. Entire bowl fits. Flat yellow, no steam/props/cutlery.",
+        "sha256": "407dc54116fc8b475f6b7696aa338ed2e65641ca5b259d57dd3422d665b0c106",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-a2d02308-a702-4df6-87fe-14916a6ee0e5.png",
+        "prompt_path": "prompts/garlic-mashed-mock-potatoes-attempt02.txt",
+        "crop_path": "qa/garlic-mashed-mock-potatoes-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          400,
+          194,
+          1128,
+          738
+        ],
+        "blue_rim_width_percent": 47.5
+      },
+      {
+        "entry": 41,
+        "filename": "garlic-mashed-red-potatoes.png",
+        "attempt": 2,
+        "final_path": "images/garlic-mashed-red-potatoes.png",
+        "qa": "Full and central crop checked: rustic red-skin mashed potatoes, melted butter well, parsley and pepper. Complete bowl fits. Flat yellow, no steam/props/cutlery.",
+        "sha256": "3f5ad20c810fa619355381973ee7b6c41da63ce953a989625a01b12b1adadbf3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-f60dad1e-3bff-47ea-83d5-7f86dd2ee71d.png",
+        "prompt_path": "prompts/garlic-mashed-red-potatoes-attempt02.txt",
+        "crop_path": "qa/garlic-mashed-red-potatoes-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          434,
+          275,
+          1093,
+          699
+        ],
+        "blue_rim_width_percent": 43.0
+      },
+      {
+        "entry": 42,
+        "filename": "garlic-parmesan-chicken-potatoes.png",
+        "attempt": 2,
+        "final_path": "images/garlic-parmesan-chicken-potatoes.png",
+        "qa": "Full and central crop reviewed. Exactly two golden thighs, cream sauce with actual broad limp wilted spinach leaves (no broccoli), roasted quartered potatoes, Parmesan and parsley. Complete plate fits, flat peach, no steam/props/cutlery.",
+        "sha256": "dfe53c418ee1d5685861996f8f8b32ef7a1c75ff4f9ee472abde14d616528f27",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-93ef270c-cc87-4bf5-b22c-50bdbba19030.png",
+        "prompt_path": "prompts/garlic-parmesan-chicken-potatoes-attempt02.txt",
+        "crop_path": "qa/garlic-parmesan-chicken-potatoes-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          445,
+          254,
+          1084,
+          738
+        ],
+        "blue_rim_width_percent": 41.7
+      },
+      {
+        "entry": 43,
+        "filename": "garlic-paste-toum-the-washington-post.png",
+        "attempt": 2,
+        "final_path": "images/garlic-paste-toum-the-washington-post.png",
+        "qa": "Full and central crop checked: fluffy pure white toum with olive oil drops and three pita triangles; all pita and plate fit. Flat peach, no herbs or extra garnish, no steam/props/cutlery.",
+        "sha256": "2b3ee5c2cf4b598391b9e39319bd7cf5d6d68fd2adf93c71cfaaa0253a58365c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-7944bf7f-bffc-4149-9114-063ec8b7f652.png",
+        "prompt_path": "prompts/garlic-paste-toum-the-washington-post-attempt02.txt",
+        "crop_path": "qa/garlic-paste-toum-the-washington-post-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          427,
+          283,
+          1102,
+          757
+        ],
+        "blue_rim_width_percent": 44.0
+      },
+      {
+        "entry": 44,
+        "filename": "garlic-roasted-potatoes.png",
+        "attempt": 2,
+        "final_path": "images/garlic-roasted-potatoes.png",
+        "qa": "Full and central crop checked: crisp golden potato chunks with rosy skins, minced garlic and parsley. Complete oval plate fits. Flat peach, no steam/props/cutlery.",
+        "sha256": "6cdc0f898d6e23ac62e22b6e850b6e6b2200161a9f91c467b8a933829dbbef87",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-34e1cde9-0135-4de5-93bf-381bd57a4675.png",
+        "prompt_path": "prompts/garlic-roasted-potatoes-attempt02.txt",
+        "crop_path": "qa/garlic-roasted-potatoes-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          426,
+          319,
+          1106,
+          665
+        ],
+        "blue_rim_width_percent": 44.3
+      },
+      {
+        "entry": 45,
+        "filename": "garlic-sauteed-green-beans.png",
+        "attempt": 2,
+        "final_path": "images/garlic-sauteed-green-beans.png",
+        "qa": "Full and central crop reviewed: blistered brown patches on green beans, golden garlic and red pepper flakes; no almonds or herbs. Complete oval plate fits, flat blue, no steam/props/cutlery.",
+        "sha256": "df1709e6c0d01f02af8c56209f21f20822f9aef11111e3eb8c252526c10ed9d9",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-534e2a4a-90d1-4c9a-b37c-0b110bec438d.png",
+        "prompt_path": "prompts/garlic-sauteed-green-beans-attempt02.txt",
+        "crop_path": "qa/garlic-sauteed-green-beans-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          424,
+          325,
+          1108,
+          707
+        ],
+        "blue_rim_width_percent": 44.6
+      },
+      {
+        "entry": 46,
+        "filename": "garlic-sesame-spinach.png",
+        "attempt": 1,
+        "final_path": "images/garlic-sesame-spinach.png",
+        "qa": "Full and central crop reviewed: glossy silky wilted spinach leaves and stems, toasted sesame only, no broccoli florets. Complete round shallow dish fits. Flat blue, no steam/props/cutlery.",
+        "sha256": "dff6ffbb962b031e332f83adaab701e01ff01c72bcfb0a3b9b3b8b8cc6ac5fd1",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-b4ad6f14-e78f-4c4c-99a1-f44d1f6263f7.png",
+        "prompt_path": "prompts/garlic-sesame-spinach.txt",
+        "crop_path": "qa/garlic-sesame-spinach-attempt01-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          399,
+          210,
+          1127,
+          780
+        ],
+        "blue_rim_width_percent": 47.5
+      },
+      {
+        "entry": 47,
+        "filename": "garlicky-lemon-kale-with-carrots.png",
+        "attempt": 1,
+        "final_path": "images/garlicky-lemon-kale-with-carrots.png",
+        "qa": "Full and central crop checked: chopped kale leaves, thin carrot coins, minced garlic and lemon wedge. Entire bowl fits with narrow margins, flat blue, no steam/props/cutlery.",
+        "sha256": "7f817a6b9811de22397951e189202cc573d8e947de0caa2c4ff2289684008858",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-f83a7be1-ac62-44ff-9c90-c16991802794.png",
+        "prompt_path": "prompts/garlicky-lemon-kale-with-carrots.txt",
+        "crop_path": "qa/garlicky-lemon-kale-with-carrots-attempt01-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          391,
+          212,
+          1143,
+          793
+        ],
+        "blue_rim_width_percent": 49.0
+      },
+      {
+        "entry": 48,
+        "filename": "gefilte-fish-terrine.png",
+        "attempt": 2,
+        "final_path": "images/gefilte-fish-terrine.png",
+        "qa": "Full and central crop checked: exactly two ivory and soft pink fish terrine slices with carrot and dill flecks, small herb salad, dill sprig and lemon zest. Complete plate and salad fit. Flat peach, no steam/props/cutlery.",
+        "sha256": "f2fead34ab6fbce092a4b94204fd4d5d2486a9c2c817103b3cb0c31b6b0d1506",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-4eb2d2b5-4efb-4096-bd5a-e97f738c32ea.png",
+        "prompt_path": "prompts/gefilte-fish-terrine-attempt02.txt",
+        "crop_path": "qa/gefilte-fish-terrine-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          425,
+          247,
+          1105,
+          716
+        ],
+        "blue_rim_width_percent": 44.3
+      },
+      {
+        "entry": 49,
+        "filename": "general-tsos-cauliflower.png",
+        "attempt": 2,
+        "final_path": "images/general-tsos-cauliflower.png",
+        "qa": "Full and central crop checked: battered cauliflower florets with glossy red-brown glaze, scallion greens and sesame seeds only. Complete bowl fits, flat peach, no steam/props/cutlery. Slightly small bowl about 39 percent after correction.",
+        "sha256": "72bb88dc91433bddab46e31e95417e77fec29584d2586a4a94dcd8a3e6e194ae",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "generated_path": "generated_images/exec-cc66cb2a-3503-432e-ae31-19f0c1ba35e5.png",
+        "prompt_path": "prompts/general-tsos-cauliflower-attempt02.txt",
+        "crop_path": "qa/general-tsos-cauliflower-attempt02-central.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "blue_rim_pixel_bounds": [
+          465,
+          276,
+          1064,
+          675
+        ],
+        "blue_rim_width_percent": 39.1
+      }
+    ],
+    "summary": {
+      "final_count": 16,
+      "built_in_generation_calls": 31,
+      "selected_first_attempt_count": 3,
+      "selected_remade_count": 13,
+      "full_central_half_fit_count": 16,
+      "rim_crop_caveat_count": 0,
+      "recipe_count_caveat_count": 1,
+      "all_finals_copied_unchanged_from_tool_output": true,
+      "all_finals_1536x1024_png": true,
+      "all_calls_original_reference_attached": true
+    },
+    "caveats": [
+      "Entry38 garlic-butter shrimp has roughly ten discernible overlapping shrimp versus the approximate-dozen brief. A count correction was attempted, then framing corrected. Do not claim exactly twelve.",
+      "Entries38 and49 have slightly smaller bowls around38-39% width after framing correction; all food and vessels fit central-half crops. Other dish widths are about41-49%.",
+      "Entry47 kale bowl fits with narrow left/right margins; no extra safety padding claimed.",
+      "Blue-rim bounds are color-threshold measurements supporting visual QA, not exact semantic masks. Whole vessel fit was checked visually in actual central-half crops.",
+      "Backdrops are visually flat and seamless with natural contact shadows and subtle surface texture, not mathematically uniform RGB."
+    ],
+    "updated_at_utc": "2026-11-01T20:36:27.613070+00:00",
+    "scope_guards": [
+      "Only batch06 entries34\u201349 generated.",
+      "No Git or Library writes.",
+      "All previous batches preserved.",
+      "No batch07 generation."
+    ],
+    "contact_sheets": [
+      "qa/worker03-final-full.jpg",
+      "qa/worker03-final-crops.jpg"
+    ]
+  }
+]
