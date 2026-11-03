@@ -1,0 +1,3159 @@
+[
+  {
+    "worker": "worker-03",
+    "batch": 14,
+    "scope": "All 43 entries, exclusively assigned",
+    "source_provenance": {
+      "repository": "jsilton/mise",
+      "source_commit": "0c8242b27d4e1d12d6783df48ee132b6fea36a72",
+      "source_path": "docs/image-prompts/batch-14.md",
+      "source_blob": "0fe2cf0b2bf20e039f644f863cb8af0192492a19",
+      "planned_branch": "images/mise-batch-14-2026-11-03",
+      "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+      "started_utc": "2026-11-03T00:56:00Z",
+      "sequencing": "User explicitly authorized batches12\u201314 in parallel at00:55:28UTC; separate QA and review branches retained"
+    },
+    "source_sha256": "a8e0fe45be84e4640ce54b492a124aad240f3a1f09fe0b139d04478b9a52d9f1",
+    "preparation_started_utc": "2026-11-03T00:58:15Z",
+    "generation_started_utc": "2026-11-03T01:00:04.986465+00:00",
+    "calls": [
+      {
+        "entry": 1,
+        "filename": "thai-chicken-curry.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-chicken-curry.txt",
+        "prompt_sha256": "d2296086f2bbf7cda98e49b164b2344d50b67cbcd08388e1691fe0f5fdf1ee87",
+        "generated_path": "generated_images/exec-ff79b123-bf37-4769-aff5-b78fc393b547.png",
+        "sha256": "bce6df9aee18247ecbfcfee8b2fcd40365ac6584c33425847f589ed3fe46f526",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Orange-red coconut curry, sliced chicken, red pepper and bamboo, Thai basil only. Complete bowl about 48 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thai-chicken-curry-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 2,
+        "filename": "thai-inspired-chicken-meatball-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-inspired-chicken-meatball-soup.txt",
+        "prompt_sha256": "2cb571ca4bd190337b4d7425c604c4d0a9aa3dbbbdded96d847d20ee2663e132",
+        "generated_path": "generated_images/exec-dfbfffe6-d197-439a-aa34-ac5c7d581478.png",
+        "sha256": "018b19556c247b475cee11782fefb995d6b1d60d3f0e9791cedda0c42befb490",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Exactly five browned chicken meatballs in pale coconut broth, broad limp spinach leaves, cilantro and lime wedge. Complete bowl about 48 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thai-inspired-chicken-meatball-soup-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 3,
+        "filename": "thai-mango-salad.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-mango-salad.txt",
+        "prompt_sha256": "cdb744c37583e25a2a47c51884f7d75a255df7810969912e1bb4faf9bc620868",
+        "generated_path": "generated_images/exec-6b169d8b-520f-42ab-a9d6-a1d071ab98d3.png",
+        "sha256": "59e84cf8b6e07fcaa7dc85753bc4f330d2ab77c095227bb0c81c8ef20be1c7b4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Pale green mango matchsticks, basil mint cilantro and scallion, chopped peanuts and red chili. Complete plate about 45 percent width, flat blue, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/thai-mango-salad-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 4,
+        "filename": "thai-red-curry-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-red-curry-shrimp.txt",
+        "prompt_sha256": "7d470938a4633bfbebd9ae64b17b03e5e883dbbf7494895d6eae5b1ecef43663",
+        "generated_path": "generated_images/exec-102f2c14-a0eb-42aa-8e6b-e5fa414de7c8.png",
+        "sha256": "3874fd7f4207d9b5283dd37f347f34c9b9fe75e753e6f42e0e110168ec6d903d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Shrimp in orange-red coconut curry with onion wedges and red pepper, white jasmine rice beside it in same bowl, cilantro only. Complete bowl about 48 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thai-red-curry-shrimp-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 5,
+        "filename": "the-best-belgian-waffles.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-best-belgian-waffles.txt",
+        "prompt_sha256": "4fc8cf2237103742bd9e5bc3e772311e804953498d8db9275589714b8bc229cc",
+        "generated_path": "generated_images/exec-80d5f6b5-435c-4435-9ddf-f97f092ae4e8.png",
+        "sha256": "2744ae2bab3aebf7a415982991d6fef01e660a8b241af8b08d79bb89dfd364cb",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Exactly two thick round deep-pocket waffles with maple syrup and cranberry sauce only. Complete plate about 45 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/the-best-belgian-waffles-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 6,
+        "filename": "the-easiest-spinach-lasagna.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-easiest-spinach-lasagna.txt",
+        "prompt_sha256": "16f182c28166767ec2dab9ad9ed6395f44f52972757054d049c039ca3b1cdd21",
+        "generated_path": "generated_images/exec-77fc4772-b1f7-409c-8722-f9b23df4e6d3.png",
+        "sha256": "8048f2507747ee91cabbbee8b471bc6ec7bd369939c6fd63d0b7bd5a1f1d3ffd",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. One tall square spinach lasagna slice, pasta ricotta spinach and marinara layers, browned mozzarella and torn basil. Complete plate about 44 percent width, flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/the-easiest-spinach-lasagna-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 7,
+        "filename": "the-moistest-chocolate-mug-cake.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-moistest-chocolate-mug-cake.txt",
+        "prompt_sha256": "53afe6fefe4cc4223acbc2fb93eca1da4bb864668c37f0daf31dcd44a673b0dd",
+        "generated_path": "generated_images/exec-bce28ba7-9d51-4365-8295-616d85928b81.png",
+        "sha256": "d3aa769b2e10071b0c2f1696cce49d8eb2aa1ff72457f96fbd58acca74c475a3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One moist dark chocolate mug cake with powdered sugar. Complete mug and integral handle crop safe; blue flat backdrop, no extra props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/the-moistest-chocolate-mug-cake-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 8,
+        "filename": "the-new-england-express.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-new-england-express.txt",
+        "prompt_sha256": "9109255a27f7528bd4a2f864980cbc9655186ec29f6351bdf411cae27c322419",
+        "generated_path": "generated_images/exec-3a52ff6b-a0dc-4c34-9ebb-053a4e6c69d1.png",
+        "sha256": "91336d70f47eb5fc28e3bba8c85b2bc7a91d4c30cc7d72d54be9c75abd14baa5",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Cloudy amber cider punch with ice, lime slice and thyme. Complete glass about 81 percent frame height plus garnish; crop safe. Slightly taller than 75 percent target retained per prior guidance; blue flat backdrop, no straw or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/the-new-england-express-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 9,
+        "filename": "the-original-rice-krispies-treatstm.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-original-rice-krispies-treatstm.txt",
+        "prompt_sha256": "7c238a6964ce8898193cbeb95ba75f85fb287a4af01cf917a596ec482a487ec2",
+        "generated_path": "generated_images/exec-f81cb56a-13f7-4d45-b390-8648d62c3d3a.png",
+        "sha256": "23e155e96389c9e56401e3ddbedead7b979d37748df02f831332feda94a29d77",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Five Rice Krispies treats: four intact in small stack, one broken into two halves with short marshmallow strands. Whole plate about 45 percent wide and crop safe; yellow flat backdrop, no garnish or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/the-original-rice-krispies-treatstm-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 10,
+        "filename": "thit-kho-vietnamese-caramelized-pork.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thit-kho-vietnamese-caramelized-pork.txt",
+        "prompt_sha256": "cc2aa25b85630eb8387b5ec2ea8c2d78e98d11553f51337fb3b561033ead88eb",
+        "generated_path": "generated_images/exec-e2686276-7ff9-4f3d-b0ad-caf93da160e4.png",
+        "sha256": "dcd45681d0cb23da4ec57d6bb390d9f2f4d7ec25f824d40eba22ac5aed5f099e",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Glossy caramel pork cubes with halved shallots and whole garlic cloves, scallion and pepper. Complete bowl about 48 percent width; no props or steam; flat peach.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thit-kho-vietnamese-caramelized-pork-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 11,
+        "filename": "three-herb-chicken-and-mushrooms.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/three-herb-chicken-and-mushrooms.txt",
+        "prompt_sha256": "610dbc92b5f482994e84936c5535c0242d8fd2d0124a9dea6230b39777d9214a",
+        "generated_path": "generated_images/exec-214562c5-c669-4e83-9fdb-3d4919f12f47.png",
+        "sha256": "7ab13d1410f78ba9a387b96c1e9d03106084d36cf7501e31b3c3af5710201737",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Three browned chicken thighs correctly rendered but cremini pieces predominantly halved rather than requested quartered; targeted ingredient cut correction needed. Complete bowl crop safe.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/three-herb-chicken-and-mushrooms-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 11,
+        "filename": "three-herb-chicken-and-mushrooms.png",
+        "attempt": 2,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/three-herb-chicken-and-mushrooms-attempt02.txt",
+        "prompt_sha256": "e0861b6d03cebac84a462f02aea94154ee6eccb21c36e412697bca919245f8cd",
+        "generated_path": "generated_images/exec-93a501b7-de97-4d09-ac9d-f6928d9d04a4.png",
+        "sha256": "2415d6b269c555514c4678b5c2fd1836dbbb1c3b4f94b2018da141f1183571f0",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "superseded",
+        "qa": "Three browned chicken thighs, creamy sauce, parsley and thyme; whole bowl crop safe. Targeted correction performed but some cremini pieces still read as halves rather than quartered wedges. Retained transparent minor cut-shape caveat.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-214562c5-c669-4e83-9fdb-3d4919f12f47.png"
+        ],
+        "crop_path": "qa/three-herb-chicken-and-mushrooms-attempt02-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 11,
+        "filename": "three-herb-chicken-and-mushrooms.png",
+        "attempt": 3,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/three-herb-chicken-and-mushrooms-attempt03.txt",
+        "prompt_sha256": "1197a7e3c962d30200904619fbebc277237042fd9b8dcf2bf3ff04ac36382d3b",
+        "generated_path": "generated_images/exec-5cf17bd0-7119-414a-ac23-629a81a4a4ab.png",
+        "sha256": "617b642ca6a5387bcad6057516a744900a02ddfaee9ea9bfa425ff600b0bd141",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Additional targeted correction makes cremini pieces chunkier, but several still read as halves rather than clear four-way quarter wedges with two cut faces. Best selected after bounded attempt; retain accurate cut-shape caveat. Three crisp chicken thighs, creamy herb sauce, parsley and thyme preserved; entire bowl remains crop safe.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-93a501b7-de97-4d09-ac9d-f6928d9d04a4.png"
+        ],
+        "crop_path": "qa/three-herb-chicken-and-mushrooms-attempt03-central.png",
+        "selected": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true
+      },
+      {
+        "entry": 12,
+        "filename": "tom-kha-gai-coconut-chicken-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tom-kha-gai-coconut-chicken-soup.txt",
+        "prompt_sha256": "73323b2c067f91dbc142976112a8af4023cffa5631a78c2b87598972ac737672",
+        "generated_path": "generated_images/exec-0e22eb52-ca97-414a-abd2-5fbbb276390e.png",
+        "sha256": "24d2ceb1a00b0ff48f609e5497b534ca58fc389143af2752a01fc2a11f984f5f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Pale coconut chicken soup with chicken slices, mushroom slices, tomato wedges, lemongrass, lime leaves, one dried red chile and cilantro. Complete bowl about 46 percent width; flat yellow, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tom-kha-gai-coconut-chicken-soup-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 13,
+        "filename": "tomato-and-goat-cheese-tart.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-and-goat-cheese-tart.txt",
+        "prompt_sha256": "c7d015b410bf55e3c40a288b51b72bbeaf321d88cd1a1ddbe5806f4caa4b8c84",
+        "generated_path": "generated_images/exec-4bd08be4-cb64-4b99-b0fc-813c460d35b3.png",
+        "sha256": "99af2c7c4dae707434a3b22896d93f9f333aaad38b5c6a46b87d5753c06c1ec4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One flaky round tomato goat cheese tart with red yellow and green tomato slices, one wedge pulled out on same plate, thyme and pepper. Whole plate about 44 percent width, crop safe; flat peach and no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/tomato-and-goat-cheese-tart-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 14,
+        "filename": "tomato-cobbler-with-cornmeal-cheddar-biscuits.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-cobbler-with-cornmeal-cheddar-biscuits.txt",
+        "prompt_sha256": "741f71c6a9580241beddf1b2f003de06073d16f703865bc4b121cd116c35a8b1",
+        "generated_path": "generated_images/exec-d765fb87-0582-41d5-a577-0a7e6b00f3d3.png",
+        "sha256": "c23c1672e136b0618d5eee946afcc4da7de9bf97711c7dde4e944c5e321dded2",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Six cheddar cornmeal biscuits over jammy cherry tomato and red onion, one scooped cavity. Correct food but oval dish handles extend outside central crop, requiring framing correction.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tomato-cobbler-with-cornmeal-cheddar-biscuits-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 14,
+        "filename": "tomato-cobbler-with-cornmeal-cheddar-biscuits.png",
+        "attempt": 2,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-cobbler-with-cornmeal-cheddar-biscuits-attempt02.txt",
+        "prompt_sha256": "a75130876ef0ae44747970385abe613d0f316e278e1281f72271e364aac23ba0",
+        "generated_path": "generated_images/exec-4ba7816f-cf32-49b4-be6e-0bda98182303.png",
+        "sha256": "ba33858df8bdc5be8894603b1313b84810519a83cc4a3d495de0f5b08e996590",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Corrected framing: complete oval dish INCLUDING handles about 47 percent wide, fully inside central half. Six cheddar cornmeal biscuits with one partly scooped cavity, tomato and red onion preserved. Flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-d765fb87-0582-41d5-a577-0a7e6b00f3d3.png"
+        ],
+        "crop_path": "qa/tomato-cobbler-with-cornmeal-cheddar-biscuits-attempt02-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 15,
+        "filename": "tomato-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-soup.txt",
+        "prompt_sha256": "024a29f3c86bbac49db7f37063fd39394adfc23586e0cf90992b803dcd30d247",
+        "generated_path": "generated_images/exec-4638496a-c7f5-4ee6-b01e-0a138e83178d.png",
+        "sha256": "945d7634069994acfe72a6521e34e821c2fb1e07917b823807a1ea03320ecfa9",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Smooth orange-red tomato soup with half-and-half swirl and black pepper only. Complete bowl about 46 percent width, central crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tomato-soup-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 16,
+        "filename": "tonkotsu-style-ramen.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tonkotsu-style-ramen.txt",
+        "prompt_sha256": "b374f9a8e5ea7589450ec02a9ec909204cd8f8c674140bdcafd8b12485f64750",
+        "generated_path": "generated_images/exec-0170d08b-0dda-4455-bfb6-5d780ea9461b.png",
+        "sha256": "86b0731dfacc5198f81a89f1ac2b538e4d6f23bfe63e139b57ca635ae87b27f2",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Milky tonkotsu broth with noodles, exactly two pork slices, one egg halved into two jammy-yolk halves, greens, scallion and sesame. Complete bowl about 47 percent width and crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tonkotsu-style-ramen-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 17,
+        "filename": "tuna-poke-bowls.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuna-poke-bowls.txt",
+        "prompt_sha256": "650d550f4a432bb134f4ad23aec052ef56fa839610eb5d631c7dccb8c388930b",
+        "generated_path": "generated_images/exec-2b32e168-2589-499f-b1f0-ee7b5cc31257.png",
+        "sha256": "592a24596942346d9296f681f985d10c60b9cb40fbb8d94da3334a87d7d2dda9",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Tuna poke has ruby raw diced tuna, sushi rice, avocado, cucumber with red flecks, edamame, nori strips, scallion and sesame in neat sections. Complete bowl about 48 percent width and crop safe; flat peach, no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tuna-poke-bowls-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 18,
+        "filename": "turkey-burgers.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/turkey-burgers.txt",
+        "prompt_sha256": "5815ed2e62c1a6cc767c30e1053a4d1d44ad92b6d669ad9a980b613559dcbb75",
+        "generated_path": "generated_images/exec-902101e6-2125-46ea-822b-774945a066dc.png",
+        "sha256": "44f93f8287724cf7fa6b423f499bda5b540f617bfe5192525ab062258704db66",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One turkey burger with Swiss cheese, avocado, baby spinach and askew soft bun. Complete plate about 45 percent width and crop safe; no fries or garnish, flat yellow, no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/turkey-burgers-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 19,
+        "filename": "turkey-pan-gravy.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/turkey-pan-gravy.txt",
+        "prompt_sha256": "e946d90a69d25eeac17ed2b3e7a62f795b5598f9d7ddb34e9ec5363695431583",
+        "generated_path": "generated_images/exec-6a38990d-311e-449e-8f8a-21e2790cfcd4.png",
+        "sha256": "efb1b01e2ba530a07a92b198861ce1b2786af6985d821306d12ecb6c56e9b459",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly three fanned turkey breast slices with glossy brown gravy, black pepper and small thyme sprig. Whole plate about 45 percent width and crop safe; flat blue, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/turkey-pan-gravy-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 20,
+        "filename": "tuscan-spaghetti-squash.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuscan-spaghetti-squash.txt",
+        "prompt_sha256": "328812813b630636893bbf7ac4b77f278a416f1bf61e98c503926e3a3eee65c9",
+        "generated_path": "generated_images/exec-be183a9c-0a0c-43ce-843e-6962eeaad3f1.png",
+        "sha256": "91da5803d2f1145c8f1c90fce9aeaf37d32c88bae38f2ccc2a36a1d2669d67bc",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "One stuffed squash half with spinach tomato bacon basil Parmesan, but inner strands look like thick curled pasta ribbons rather than fine spaghetti squash. Ingredient texture correction needed; plate crop safe.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/tuscan-spaghetti-squash-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 20,
+        "filename": "tuscan-spaghetti-squash.png",
+        "attempt": 2,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuscan-spaghetti-squash-attempt02.txt",
+        "prompt_sha256": "c17cbb431eab0ef656e737b2d9b605e9fef4daaea4b35301d537ca08ddc92296",
+        "generated_path": "generated_images/exec-d91d6bf1-d782-4422-b095-47eb723d4a7a.png",
+        "sha256": "ecdc1348b0b879ea7eb4a66ff81210c5b4996cf037e12f2c3152a3131e22d36d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Targeted edit did not materially remove thick pasta-like ribbons; rejected and fresh generation needed without mistaken food reference.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-be183a9c-0a0c-43ce-843e-6962eeaad3f1.png"
+        ],
+        "crop_path": "qa/tuscan-spaghetti-squash-attempt02-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 20,
+        "filename": "tuscan-spaghetti-squash.png",
+        "attempt": 3,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuscan-spaghetti-squash-attempt03.txt",
+        "prompt_sha256": "ac1564a76325919dc619b70a8e2703686fd3b413832029f5dd7e113167b5442e",
+        "generated_path": "generated_images/exec-1b4839db-93d2-42a7-a95b-e6c6b350b659.png",
+        "sha256": "100189b5b93615a68532e7ba8f60d72283c14b1d5c3fd331ac5d67d7a2b8acbf",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "superseded",
+        "qa": "Fresh attempt improved thinner vegetable strands but several strands remain broader and ribbon-like than ideal spaghetti squash fibers after two corrections. Selected pending parent review as explicit ingredient-texture caveat. One squash half with correct spinach, tomato, bacon, basil and Parmesan; complete plate crop safe. Superseded by improved final attempt.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/tuscan-spaghetti-squash-attempt03-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 20,
+        "filename": "tuscan-spaghetti-squash.png",
+        "attempt": 4,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuscan-spaghetti-squash-attempt04.txt",
+        "prompt_sha256": "620cdb25502d28a72d4418479f71f77b9264101e34fc52744e6ea64a19a7c84b",
+        "generated_path": "generated_images/exec-342a9647-9a3e-45aa-a342-47ad8b4d0ff7.png",
+        "sha256": "98f6514616cf548a6875684b6dcbd3a3f4f9f22a83ecf9c9dde48871a92aa35d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "rejected",
+        "qa": "Original-only fresh attempt materially improves fine fibrous squash texture but oversized plate about 64 percent width clips food and rim in central crop. Framing-only correction needed.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/tuscan-spaghetti-squash-attempt04-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": false
+      },
+      {
+        "entry": 20,
+        "filename": "tuscan-spaghetti-squash.png",
+        "attempt": 5,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuscan-spaghetti-squash-attempt05.txt",
+        "prompt_sha256": "26f19b7f6d6b6ea361e51c5b758aa2971a53a42c8a5e2a60befa7af27b83f2d9",
+        "generated_path": "generated_images/exec-5402ed0a-be57-4f31-9c3a-53da2e8e1692.png",
+        "sha256": "c5b965de0b007f0acb2f1d8811636e74ca638726d4ea51cdd200a8d8b6eb8993",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Original-only fresh generation plus framing correction resolved the pasta-like texture: fine irregular fibrous squash filling with correct toppings. Complete plate about 44 percent width, central crop safe. Camera somewhat more elevated than initial but photorealistic and cookbook-consistent.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-342a9647-9a3e-45aa-a342-47ad8b4d0ff7.png"
+        ],
+        "crop_path": "qa/tuscan-spaghetti-squash-attempt05-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 21,
+        "filename": "tzatziki-sauce.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tzatziki-sauce.txt",
+        "prompt_sha256": "102bbc8fa2a9f6e4023720b0578a5f70c0cebe48393bdb27cb6add5fb10c0321",
+        "generated_path": "generated_images/exec-69e1e10e-d7e7-4255-9a7a-ff0abe0ad23b.png",
+        "sha256": "fea7a3fc7690a65ce402fbafeaefb1e62a1fdc315fb53ff8b32b4c91eba6920b",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thick white tzatziki with fine cucumber shreds, dill and olive oil swirl. Whole bowl about 48 percent wide and crop safe; flat yellow, no dippers or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tzatziki-sauce-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 22,
+        "filename": "vanilla-earl-grey-overnight-oats.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vanilla-earl-grey-overnight-oats.txt",
+        "prompt_sha256": "9cd33091c4191ca9fb14056f911838f688773c5f382761ff87ab49e87b33fa01",
+        "generated_path": "generated_images/exec-63af07a4-f1a1-4dfa-a5a0-0028f6997458.png",
+        "sha256": "c16cf0c0b7b6836809c53db5b385d65c5a2431da06557a2cfe15074d397c7327",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Creamy rolled overnight oats with crumbled stroopwafel pieces and honey only. Whole bowl about 48 percent wide and crop safe; flat peach, no fruit or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/vanilla-earl-grey-overnight-oats-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 23,
+        "filename": "vegan-caesar-pasta-salad.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vegan-caesar-pasta-salad.txt",
+        "prompt_sha256": "b2ffb6eb0c3fa82b97b7e9160cac45db83a592ab0f56cbd44f89b329e6765def",
+        "generated_path": "generated_images/exec-5fcee24f-3ac3-461a-9a7e-9b60c539304b.png",
+        "sha256": "ebe74dd52c7d05ae850d90d37dabae34fc5d9222d534facb90b12e183ee2a497",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Vegan Caesar rotini salad with romaine, roasted chickpeas, cherry tomato halves, avocado and pepper; creamy dressing, no meat or cheese. Whole bowl about 48 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/vegan-caesar-pasta-salad-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 24,
+        "filename": "vegetable-minestrone.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vegetable-minestrone.txt",
+        "prompt_sha256": "06d6cd2aaa04671ff6f4b74e0c1cd999da1daaab44c5780f58597deb4dc6291b",
+        "generated_path": "generated_images/exec-5dcf0e0d-37b9-4450-bd22-98296eb0b212.png",
+        "sha256": "d1f9ace4226b92116a814b3e8927b106a9c71a14f426ac1de8c0fa4e1c1a5843",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Minestrone tomato broth with white beans, small tubular pasta, carrot, celery and seasonal vegetables, olive oil and Parmesan. Whole bowl about 47 percent width and crop safe; flat peach, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/vegetable-minestrone-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 25,
+        "filename": "vegetable-muffin.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vegetable-muffin.txt",
+        "prompt_sha256": "0962f9867344faeb4b0c0dc071a29754d3762f33fb6990d3843adad83ed703d6",
+        "generated_path": "generated_images/exec-173cb640-8b90-4f3a-abb2-eee15365cf60.png",
+        "sha256": "1ad907758450b581ede25f0ce4a84951c0e3dd0626a25d03ef7994b045eb0357",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly four dark cocoa vegetable muffins: three whole and one split into two halves, spinach and carrot flecks visible. No liners or garnish. Whole plate about 45 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/vegetable-muffin-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 26,
+        "filename": "vietnamese-grilled-chicken.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vietnamese-grilled-chicken.txt",
+        "prompt_sha256": "73eb6d3b7733b8de5b6c521ee400c3b403b95e366a86bb8ceafef3c8475c4fa5",
+        "generated_path": "generated_images/exec-82203191-4795-4f94-a6e6-d1923c2e58ef.png",
+        "sha256": "cf4fb1722a826405f3b1762f430b6f3237648c9a8c4cc008d0b1d759b07ff2f0",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly two flattened charred chicken thighs: one whole and one sliced, cilantro and lime wedge only. Whole plate about 45 percent width and crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/vietnamese-grilled-chicken-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 27,
+        "filename": "vietnamese-spring-rolls.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vietnamese-spring-rolls.txt",
+        "prompt_sha256": "6ded234a1114cc7843753912e7a35466545992d4f071c373b2b707e6909e6022",
+        "generated_path": "generated_images/exec-90e619ec-6de7-4f3f-aaee-d601bdb9f746.png",
+        "sha256": "259ee75978db33215214dfd70bb4cd30f20133ce752a41a1782758155d69c093",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Three translucent shrimp spring rolls: two whole and one diagonally halved, with rice vermicelli, lettuce, herbs, carrot and cucumber. Peanut-hoisin ramekin on plate only. Complete plate about 45 percent width crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/vietnamese-spring-rolls-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 28,
+        "filename": "vieux-carre.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vieux-carre.txt",
+        "prompt_sha256": "170c180d86120b10bebc34d9e2889d9c90f467c38a908e72df2a391b67b43752",
+        "generated_path": "generated_images/exec-fbc5062a-73ec-469d-bf96-e772899470b2.png",
+        "sha256": "f17e894a65fa8c982a1d0c594e60ff1823bbce489209c201426358bd5d87e888",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Deep amber Vieux Carre in clear rocks glass, exactly one large ice cube and lemon twist only. Complete glass about 75 percent height and garnish within crop; flat blue, no coaster or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/vieux-carre-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 29,
+        "filename": "warm-pita-bread.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/warm-pita-bread.txt",
+        "prompt_sha256": "083d95439eb83411c679fcd465017d542f745b286d36c4f115362d4a01a88c2a",
+        "generated_path": "generated_images/exec-3e4855f1-e0f8-4c39-bfac-c3fdf1c46f2d.png",
+        "sha256": "82872edb818bf7dc690d3cdd142aa1e9e595200188531c90197533bf8141d59d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Four warm pitas: two whole under two folded in half, with olive oil and flaky salt. Complete plate about 45 percent width and crop safe; flat blue, no extra garnish or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/warm-pita-bread-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 30,
+        "filename": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.txt",
+        "prompt_sha256": "c181c2bab03facee59b4464bf6fa3b514930e22eeebb5ce6fd42447606ac6bd6",
+        "generated_path": "generated_images/exec-b4a008ad-fbbb-4ac6-a7c8-bdd4d9ac7e04.png",
+        "sha256": "1a8a9169fffce61d755124a1e82aa4c86ea9683be8496f5e59cb5702e2d18db4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Curly kale with caramelized sweet potato cubes, halved roasted Brussels sprouts, red onion and golden vinaigrette. Complete bowl about 48 percent width and crop safe; flat yellow, no garnish or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 31,
+        "filename": "warm-spiced-butternut-squash-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/warm-spiced-butternut-squash-soup.txt",
+        "prompt_sha256": "f3f969778235ec56e21ad76d76f202428e82ec2429cbb0f6cd6d4988f2f851a1",
+        "generated_path": "generated_images/exec-3a33551a-3850-4b61-bc02-dc6002d2d499.png",
+        "sha256": "3b32195cd0c0f7247a222e13ac43a9071a80439bc5cb7f9ec2d0155eae970574",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Smooth orange butternut soup with golden olive oil swirl and thyme only, no cream swirl. Complete bowl about 47 percent width and crop safe; flat peach, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/warm-spiced-butternut-squash-soup-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 32,
+        "filename": "whipped-feta-with-honey.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whipped-feta-with-honey.txt",
+        "prompt_sha256": "9f9580d09ba88638e964fa5d17440b3713a3f8b32e74b7c1197298c5f653a01b",
+        "generated_path": "generated_images/exec-b375e711-7c1e-4a94-b04e-d8d461e51ca3.png",
+        "sha256": "9d8046fac4705d9be0a06978c0554081cfb5541b69c4ab12f8a4b037b89cc51c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Fluffy whipped white feta with honey and olive oil, chopped pistachios, dill and paprika. Complete bowl about 48 percent width, crop safe; flat yellow, no bread or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/whipped-feta-with-honey-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 33,
+        "filename": "whiskey-sour.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whiskey-sour.txt",
+        "prompt_sha256": "30136f44b2bdad05d96c2e354e23689f15bde87542ca1f7a02e9e7c1f590856c",
+        "generated_path": "generated_images/exec-1dae0adb-a811-4f4d-a876-7d39c2371845.png",
+        "sha256": "3c04b9400accfe860cfa772e3102ff51460b1d0dca8e2850360de9ce1d808424",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Pale amber whiskey sour over ice with thin foam and bitters drops, orange slice and one cherry. Glass about 78 percent frame height, full garnish fits central crop with small right margin. Flat blue, no pick, straw or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/whiskey-sour-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 34,
+        "filename": "white-chicken-chili.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/white-chicken-chili.txt",
+        "prompt_sha256": "148dd03ba7b4f5cfefdd16a1cc1b7ffb8acd4a6420df81886e53671938d4606f",
+        "generated_path": "generated_images/exec-1fef7fd1-94ea-4ed2-a947-a56dddf790ba.png",
+        "sha256": "6860d76666f7bd986d677811dd299fd12fdf58c9dda9d6bd48329398cf1fd55b",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Creamy white chicken chili with shredded chicken, white beans, distinct hominy kernels and green chiles, sour cream cilantro and lime. Complete bowl about 48 percent width, crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/white-chicken-chili-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 35,
+        "filename": "whole-spelt-pumpkin-muffins.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whole-spelt-pumpkin-muffins.txt",
+        "prompt_sha256": "3bb61a41de225c9f690e2d2eed46138107f6622a0b374984b9108a17fe535748",
+        "generated_path": "generated_images/exec-1f48a782-4d7d-4315-b4f0-01dde9708d54.png",
+        "sha256": "84f0c061c4e0286067b99863b5eeefad7b299d608550981af146f530a01744d4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Four pumpkin-spelt muffins: three whole and one split into two halves, orange spiced crumb visible, no garnish. Whole plate about 45 percent width and crop safe; flat blue.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/whole-spelt-pumpkin-muffins-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 36,
+        "filename": "whole-wheat-muffins-fruit-nut-or-berry.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whole-wheat-muffins-fruit-nut-or-berry.txt",
+        "prompt_sha256": "0aa4ff66c45e16181d03af4a598986e9a9bd51529dd9dd9bdd7f0fe51a0f7550",
+        "generated_path": "generated_images/exec-f5ebfdae-d05c-4792-806f-74897a600d67.png",
+        "sha256": "0b865e219f14f83ffedca076614550929898f1625d5c62dc0dd38407761720a4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Four whole-wheat blueberry muffins: three whole and one split into two halves, blueberries visible. Whole plate about 45 percent width and crop safe; flat blue. Whole muffins have baked paper liners, a serving wrapper rather than extra backdrop prop.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/whole-wheat-muffins-fruit-nut-or-berry-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 37,
+        "filename": "yaki-udon.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yaki-udon.txt",
+        "prompt_sha256": "50c7d6c8276239bad07666cf5959f742bbce144e01acb0d4d16f4420f7609cfa",
+        "generated_path": "generated_images/exec-cc54a58b-36f0-4cd7-b85d-17621347f5f4.png",
+        "sha256": "4b5ae2377d0e60f8637f1b3eaabbc17f5b2b8c3cd65cc34583f0f29a5e4bda74",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thick cylindrical udon noodles with pork slices, cabbage, carrot, scallion and sesame in glossy dark soy glaze. Distinctly thicker than yakisoba. Complete bowl about 48 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/yaki-udon-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 38,
+        "filename": "yakisoba-japanese-stir-fried-noodles.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yakisoba-japanese-stir-fried-noodles.txt",
+        "prompt_sha256": "d555ba9db6a4c9326da28eac688ca082a01d39d6efd1fff11cd1f90f7516d188",
+        "generated_path": "generated_images/exec-4b87284b-a19b-4474-aea3-adea9307f537.png",
+        "sha256": "c46e40a2f914b657ed8f75b94638baf6cd7a44f6e9418c4b53ee6179af9f23de",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thin wheat yakisoba noodles with chicken, cabbage, carrot matchsticks, onion, mushrooms and scallion lengths; pickled red ginger only garnish. Complete plate about 45 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/yakisoba-japanese-stir-fried-noodles-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 39,
+        "filename": "yellow-cake-with-chocolate-frosting.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yellow-cake-with-chocolate-frosting.txt",
+        "prompt_sha256": "84ec724fb5b5d370f7ca5a9dac44001941e796d2400aec84a305aaba04d753a0",
+        "generated_path": "generated_images/exec-fb07c0a3-7ad7-4de5-840a-ebf7bbf19192.png",
+        "sha256": "4ce0732181c3f924465f8efd305aac37de905ebe15dd1246657c16ef7364db49",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One tall upright slice with exactly two yellow cake layers, one chocolate filling layer and swirled chocolate frosting top and side, no garnish. Complete plate about 43 percent width and crop safe; flat peach.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/yellow-cake-with-chocolate-frosting-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 40,
+        "filename": "yogurt-dipping-sauce.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yogurt-dipping-sauce.txt",
+        "prompt_sha256": "dd139b4cf77a71a9355f6640e3f2fd52a770f2ec1d7ed109d97b86934815786d",
+        "generated_path": "generated_images/exec-e5325673-d60f-41d9-b8d8-625d15ef4a8f.png",
+        "sha256": "02e37ab83c6c3996075f6bf8c4415f0f7dccc35193a2a0e9abfb21db5311b614",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thick white yogurt with cilantro parsley, lemon zest and a little cumin, cilantro-zest garnish only. Complete bowl about 46 percent width and crop safe; flat blue, no dippers or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/yogurt-dipping-sauce-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 41,
+        "filename": "zucchini-herb-fritters-with-garlic-yogurt.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/zucchini-herb-fritters-with-garlic-yogurt.txt",
+        "prompt_sha256": "6dab461d5cf486f7abe14a9e371ccbe4d41963ad4d7491ed4d68b145ed5823c4",
+        "generated_path": "generated_images/exec-170e66e4-04d3-43be-8a68-55556c07cc51.png",
+        "sha256": "8216d59628b03a0c5162e16197bd776b91b6079406f304aecde20e4951db921f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly four golden zucchini-potato fritters overlapped with spoonful of garlic mint yogurt on top and mint garnish. Whole plate about 45 percent width and crop safe; no actual spoon or ramekin, flat peach.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/zucchini-herb-fritters-with-garlic-yogurt-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 42,
+        "filename": "zucchini-noodles-with-avocado-pesto-and-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/zucchini-noodles-with-avocado-pesto-and-shrimp.txt",
+        "prompt_sha256": "6981890ca214234d98b5fc6e81da7cae93e52bb2149ea70aa77ce76fd0123428",
+        "generated_path": "generated_images/exec-c03cafc2-c5a2-4513-8a2b-68e1d0620273.png",
+        "sha256": "a87a230553e6fd2dbac5794a77cb52b1e472df705946b4e88af9d58137dad6c3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Zucchini noodles with visible green peel edges, pale green avocado pesto, exactly six seared pink shrimp, chopped pistachios and basil. Complete bowl about 48 percent width and crop safe; flat yellow, no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/zucchini-noodles-with-avocado-pesto-and-shrimp-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      },
+      {
+        "entry": 43,
+        "filename": "zuppa-toscana.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/zuppa-toscana.txt",
+        "prompt_sha256": "62e6d173775d26586d2a8f6991b483d4eb28d88e2f4862377ccf70afef5b21f1",
+        "generated_path": "generated_images/exec-eb5ac710-c0c9-40cf-a1ac-62fb89085563.png",
+        "sha256": "f1171a3fc032d81cfe67913cd64c8f457ca6368308023bb85d7cdfb22b097ba3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Creamy Zuppa Toscana with irregular crumbled Italian sausage, potato cubes, dark kale leaves and red pepper flakes only. Complete bowl about 48 percent width and crop safe; flat yellow, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/zuppa-toscana-attempt01-central.png",
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "selected": true
+      }
+    ],
+    "accepted": [
+      {
+        "entry": 1,
+        "filename": "thai-chicken-curry.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-chicken-curry.txt",
+        "prompt_sha256": "d2296086f2bbf7cda98e49b164b2344d50b67cbcd08388e1691fe0f5fdf1ee87",
+        "generated_path": "generated_images/exec-ff79b123-bf37-4769-aff5-b78fc393b547.png",
+        "sha256": "bce6df9aee18247ecbfcfee8b2fcd40365ac6584c33425847f589ed3fe46f526",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Orange-red coconut curry, sliced chicken, red pepper and bamboo, Thai basil only. Complete bowl about 48 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thai-chicken-curry-attempt01-central.png",
+        "final_path": "images/thai-chicken-curry.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          400,
+          220,
+          1130,
+          744
+        ],
+        "blue_rim_width_percent": 47.6
+      },
+      {
+        "entry": 2,
+        "filename": "thai-inspired-chicken-meatball-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-inspired-chicken-meatball-soup.txt",
+        "prompt_sha256": "2cb571ca4bd190337b4d7425c604c4d0a9aa3dbbbdded96d847d20ee2663e132",
+        "generated_path": "generated_images/exec-dfbfffe6-d197-439a-aa34-ac5c7d581478.png",
+        "sha256": "018b19556c247b475cee11782fefb995d6b1d60d3f0e9791cedda0c42befb490",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Exactly five browned chicken meatballs in pale coconut broth, broad limp spinach leaves, cilantro and lime wedge. Complete bowl about 48 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thai-inspired-chicken-meatball-soup-attempt01-central.png",
+        "final_path": "images/thai-inspired-chicken-meatball-soup.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          397,
+          220,
+          1132,
+          741
+        ],
+        "blue_rim_width_percent": 47.9
+      },
+      {
+        "entry": 3,
+        "filename": "thai-mango-salad.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-mango-salad.txt",
+        "prompt_sha256": "cdb744c37583e25a2a47c51884f7d75a255df7810969912e1bb4faf9bc620868",
+        "generated_path": "generated_images/exec-6b169d8b-520f-42ab-a9d6-a1d071ab98d3.png",
+        "sha256": "59e84cf8b6e07fcaa7dc85753bc4f330d2ab77c095227bb0c81c8ef20be1c7b4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Pale green mango matchsticks, basil mint cilantro and scallion, chopped peanuts and red chili. Complete plate about 45 percent width, flat blue, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/thai-mango-salad-attempt01-central.png",
+        "final_path": "images/thai-mango-salad.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          413,
+          339,
+          1103,
+          707
+        ],
+        "blue_rim_width_percent": 45.0
+      },
+      {
+        "entry": 4,
+        "filename": "thai-red-curry-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thai-red-curry-shrimp.txt",
+        "prompt_sha256": "7d470938a4633bfbebd9ae64b17b03e5e883dbbf7494895d6eae5b1ecef43663",
+        "generated_path": "generated_images/exec-102f2c14-a0eb-42aa-8e6b-e5fa414de7c8.png",
+        "sha256": "3874fd7f4207d9b5283dd37f347f34c9b9fe75e753e6f42e0e110168ec6d903d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Shrimp in orange-red coconut curry with onion wedges and red pepper, white jasmine rice beside it in same bowl, cilantro only. Complete bowl about 48 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thai-red-curry-shrimp-attempt01-central.png",
+        "final_path": "images/thai-red-curry-shrimp.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          396,
+          222,
+          1133,
+          745
+        ],
+        "blue_rim_width_percent": 48.0
+      },
+      {
+        "entry": 5,
+        "filename": "the-best-belgian-waffles.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-best-belgian-waffles.txt",
+        "prompt_sha256": "4fc8cf2237103742bd9e5bc3e772311e804953498d8db9275589714b8bc229cc",
+        "generated_path": "generated_images/exec-80d5f6b5-435c-4435-9ddf-f97f092ae4e8.png",
+        "sha256": "2744ae2bab3aebf7a415982991d6fef01e660a8b241af8b08d79bb89dfd364cb",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. Exactly two thick round deep-pocket waffles with maple syrup and cranberry sauce only. Complete plate about 45 percent width, flat yellow, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/the-best-belgian-waffles-attempt01-central.png",
+        "final_path": "images/the-best-belgian-waffles.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          414,
+          338,
+          1096,
+          699
+        ],
+        "blue_rim_width_percent": 44.5
+      },
+      {
+        "entry": 6,
+        "filename": "the-easiest-spinach-lasagna.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-easiest-spinach-lasagna.txt",
+        "prompt_sha256": "16f182c28166767ec2dab9ad9ed6395f44f52972757054d049c039ca3b1cdd21",
+        "generated_path": "generated_images/exec-77fc4772-b1f7-409c-8722-f9b23df4e6d3.png",
+        "sha256": "8048f2507747ee91cabbbee8b471bc6ec7bd369939c6fd63d0b7bd5a1f1d3ffd",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Full and central-half crop reviewed. One tall square spinach lasagna slice, pasta ricotta spinach and marinara layers, browned mozzarella and torn basil. Complete plate about 44 percent width, flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/the-easiest-spinach-lasagna-attempt01-central.png",
+        "final_path": "images/the-easiest-spinach-lasagna.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          417,
+          345,
+          1096,
+          691
+        ],
+        "blue_rim_width_percent": 44.3
+      },
+      {
+        "entry": 7,
+        "filename": "the-moistest-chocolate-mug-cake.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-moistest-chocolate-mug-cake.txt",
+        "prompt_sha256": "53afe6fefe4cc4223acbc2fb93eca1da4bb864668c37f0daf31dcd44a673b0dd",
+        "generated_path": "generated_images/exec-bce28ba7-9d51-4365-8295-616d85928b81.png",
+        "sha256": "d3aa769b2e10071b0c2f1696cce49d8eb2aa1ff72457f96fbd58acca74c475a3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One moist dark chocolate mug cake with powdered sugar. Complete mug and integral handle crop safe; blue flat backdrop, no extra props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/the-moistest-chocolate-mug-cake-attempt01-central.png",
+        "final_path": "images/the-moistest-chocolate-mug-cake.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          482,
+          302,
+          984,
+          791
+        ],
+        "blue_rim_width_percent": 32.7,
+        "visual_whole_vessel_horizontal_bounds_approx": [
+          483,
+          1120
+        ],
+        "whole_vessel_width_percent_approx": 41.5
+      },
+      {
+        "entry": 8,
+        "filename": "the-new-england-express.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-new-england-express.txt",
+        "prompt_sha256": "9109255a27f7528bd4a2f864980cbc9655186ec29f6351bdf411cae27c322419",
+        "generated_path": "generated_images/exec-3a52ff6b-a0dc-4c34-9ebb-053a4e6c69d1.png",
+        "sha256": "91336d70f47eb5fc28e3bba8c85b2bc7a91d4c30cc7d72d54be9c75abd14baa5",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Cloudy amber cider punch with ice, lime slice and thyme. Complete glass about 81 percent frame height plus garnish; crop safe. Slightly taller than 75 percent target retained per prior guidance; blue flat backdrop, no straw or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/the-new-england-express-attempt01-central.png",
+        "final_path": "images/the-new-england-express.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [
+          "Glass about 81 percent frame height, slightly taller than 75 percent target; complete garnish and glass crop safe."
+        ]
+      },
+      {
+        "entry": 9,
+        "filename": "the-original-rice-krispies-treatstm.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/the-original-rice-krispies-treatstm.txt",
+        "prompt_sha256": "7c238a6964ce8898193cbeb95ba75f85fb287a4af01cf917a596ec482a487ec2",
+        "generated_path": "generated_images/exec-f81cb56a-13f7-4d45-b390-8648d62c3d3a.png",
+        "sha256": "23e155e96389c9e56401e3ddbedead7b979d37748df02f831332feda94a29d77",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Five Rice Krispies treats: four intact in small stack, one broken into two halves with short marshmallow strands. Whole plate about 45 percent wide and crop safe; yellow flat backdrop, no garnish or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/the-original-rice-krispies-treatstm-attempt01-central.png",
+        "final_path": "images/the-original-rice-krispies-treatstm.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          412,
+          347,
+          1106,
+          718
+        ],
+        "blue_rim_width_percent": 45.2
+      },
+      {
+        "entry": 10,
+        "filename": "thit-kho-vietnamese-caramelized-pork.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/thit-kho-vietnamese-caramelized-pork.txt",
+        "prompt_sha256": "cc2aa25b85630eb8387b5ec2ea8c2d78e98d11553f51337fb3b561033ead88eb",
+        "generated_path": "generated_images/exec-e2686276-7ff9-4f3d-b0ad-caf93da160e4.png",
+        "sha256": "dcd45681d0cb23da4ec57d6bb390d9f2f4d7ec25f824d40eba22ac5aed5f099e",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Glossy caramel pork cubes with halved shallots and whole garlic cloves, scallion and pepper. Complete bowl about 48 percent width; no props or steam; flat peach.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/thit-kho-vietnamese-caramelized-pork-attempt01-central.png",
+        "final_path": "images/thit-kho-vietnamese-caramelized-pork.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          399,
+          221,
+          1133,
+          743
+        ],
+        "blue_rim_width_percent": 47.9
+      },
+      {
+        "entry": 11,
+        "filename": "three-herb-chicken-and-mushrooms.png",
+        "attempt": 3,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/three-herb-chicken-and-mushrooms-attempt03.txt",
+        "prompt_sha256": "1197a7e3c962d30200904619fbebc277237042fd9b8dcf2bf3ff04ac36382d3b",
+        "generated_path": "generated_images/exec-5cf17bd0-7119-414a-ac23-629a81a4a4ab.png",
+        "sha256": "617b642ca6a5387bcad6057516a744900a02ddfaee9ea9bfa425ff600b0bd141",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Additional targeted correction makes cremini pieces chunkier, but several still read as halves rather than clear four-way quarter wedges with two cut faces. Best selected after bounded attempt; retain accurate cut-shape caveat. Three crisp chicken thighs, creamy herb sauce, parsley and thyme preserved; entire bowl remains crop safe.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-93a501b7-de97-4d09-ac9d-f6928d9d04a4.png"
+        ],
+        "crop_path": "qa/three-herb-chicken-and-mushrooms-attempt03-central.png",
+        "final_path": "images/three-herb-chicken-and-mushrooms.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [
+          "After two targeted corrections, mushrooms are chunkier but several pieces still read as halves rather than clear quarter wedges. Retained accurate ingredient cut-shape caveat."
+        ],
+        "blue_rim_pixel_bounds": [
+          397,
+          222,
+          1132,
+          742
+        ],
+        "blue_rim_width_percent": 47.9
+      },
+      {
+        "entry": 12,
+        "filename": "tom-kha-gai-coconut-chicken-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tom-kha-gai-coconut-chicken-soup.txt",
+        "prompt_sha256": "73323b2c067f91dbc142976112a8af4023cffa5631a78c2b87598972ac737672",
+        "generated_path": "generated_images/exec-0e22eb52-ca97-414a-abd2-5fbbb276390e.png",
+        "sha256": "24d2ceb1a00b0ff48f609e5497b534ca58fc389143af2752a01fc2a11f984f5f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Pale coconut chicken soup with chicken slices, mushroom slices, tomato wedges, lemongrass, lime leaves, one dried red chile and cilantro. Complete bowl about 46 percent width; flat yellow, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tom-kha-gai-coconut-chicken-soup-attempt01-central.png",
+        "final_path": "images/tom-kha-gai-coconut-chicken-soup.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          408,
+          220,
+          1119,
+          748
+        ],
+        "blue_rim_width_percent": 46.4
+      },
+      {
+        "entry": 13,
+        "filename": "tomato-and-goat-cheese-tart.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-and-goat-cheese-tart.txt",
+        "prompt_sha256": "c7d015b410bf55e3c40a288b51b72bbeaf321d88cd1a1ddbe5806f4caa4b8c84",
+        "generated_path": "generated_images/exec-4bd08be4-cb64-4b99-b0fc-813c460d35b3.png",
+        "sha256": "99af2c7c4dae707434a3b22896d93f9f333aaad38b5c6a46b87d5753c06c1ec4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One flaky round tomato goat cheese tart with red yellow and green tomato slices, one wedge pulled out on same plate, thyme and pepper. Whole plate about 44 percent width, crop safe; flat peach and no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/tomato-and-goat-cheese-tart-attempt01-central.png",
+        "final_path": "images/tomato-and-goat-cheese-tart.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          420,
+          316,
+          1096,
+          720
+        ],
+        "blue_rim_width_percent": 44.1
+      },
+      {
+        "entry": 14,
+        "filename": "tomato-cobbler-with-cornmeal-cheddar-biscuits.png",
+        "attempt": 2,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-cobbler-with-cornmeal-cheddar-biscuits-attempt02.txt",
+        "prompt_sha256": "a75130876ef0ae44747970385abe613d0f316e278e1281f72271e364aac23ba0",
+        "generated_path": "generated_images/exec-4ba7816f-cf32-49b4-be6e-0bda98182303.png",
+        "sha256": "ba33858df8bdc5be8894603b1313b84810519a83cc4a3d495de0f5b08e996590",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Corrected framing: complete oval dish INCLUDING handles about 47 percent wide, fully inside central half. Six cheddar cornmeal biscuits with one partly scooped cavity, tomato and red onion preserved. Flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-d765fb87-0582-41d5-a577-0a7e6b00f3d3.png"
+        ],
+        "crop_path": "qa/tomato-cobbler-with-cornmeal-cheddar-biscuits-attempt02-central.png",
+        "final_path": "images/tomato-cobbler-with-cornmeal-cheddar-biscuits.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          446,
+          285,
+          1084,
+          670
+        ],
+        "blue_rim_width_percent": 41.6,
+        "visual_whole_vessel_horizontal_bounds_approx": [
+          405,
+          1123
+        ],
+        "whole_vessel_width_percent_approx": 46.8
+      },
+      {
+        "entry": 15,
+        "filename": "tomato-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tomato-soup.txt",
+        "prompt_sha256": "024a29f3c86bbac49db7f37063fd39394adfc23586e0cf90992b803dcd30d247",
+        "generated_path": "generated_images/exec-4638496a-c7f5-4ee6-b01e-0a138e83178d.png",
+        "sha256": "945d7634069994acfe72a6521e34e821c2fb1e07917b823807a1ea03320ecfa9",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Smooth orange-red tomato soup with half-and-half swirl and black pepper only. Complete bowl about 46 percent width, central crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tomato-soup-attempt01-central.png",
+        "final_path": "images/tomato-soup.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          409,
+          219,
+          1110,
+          734
+        ],
+        "blue_rim_width_percent": 45.7
+      },
+      {
+        "entry": 16,
+        "filename": "tonkotsu-style-ramen.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tonkotsu-style-ramen.txt",
+        "prompt_sha256": "b374f9a8e5ea7589450ec02a9ec909204cd8f8c674140bdcafd8b12485f64750",
+        "generated_path": "generated_images/exec-0170d08b-0dda-4455-bfb6-5d780ea9461b.png",
+        "sha256": "86b0731dfacc5198f81a89f1ac2b538e4d6f23bfe63e139b57ca635ae87b27f2",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Milky tonkotsu broth with noodles, exactly two pork slices, one egg halved into two jammy-yolk halves, greens, scallion and sesame. Complete bowl about 47 percent width and crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tonkotsu-style-ramen-attempt01-central.png",
+        "final_path": "images/tonkotsu-style-ramen.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          399,
+          219,
+          1126,
+          745
+        ],
+        "blue_rim_width_percent": 47.4
+      },
+      {
+        "entry": 17,
+        "filename": "tuna-poke-bowls.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuna-poke-bowls.txt",
+        "prompt_sha256": "650d550f4a432bb134f4ad23aec052ef56fa839610eb5d631c7dccb8c388930b",
+        "generated_path": "generated_images/exec-2b32e168-2589-499f-b1f0-ee7b5cc31257.png",
+        "sha256": "592a24596942346d9296f681f985d10c60b9cb40fbb8d94da3334a87d7d2dda9",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Tuna poke has ruby raw diced tuna, sushi rice, avocado, cucumber with red flecks, edamame, nori strips, scallion and sesame in neat sections. Complete bowl about 48 percent width and crop safe; flat peach, no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tuna-poke-bowls-attempt01-central.png",
+        "final_path": "images/tuna-poke-bowls.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          395,
+          221,
+          1127,
+          743
+        ],
+        "blue_rim_width_percent": 47.7
+      },
+      {
+        "entry": 18,
+        "filename": "turkey-burgers.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/turkey-burgers.txt",
+        "prompt_sha256": "5815ed2e62c1a6cc767c30e1053a4d1d44ad92b6d669ad9a980b613559dcbb75",
+        "generated_path": "generated_images/exec-902101e6-2125-46ea-822b-774945a066dc.png",
+        "sha256": "44f93f8287724cf7fa6b423f499bda5b540f617bfe5192525ab062258704db66",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One turkey burger with Swiss cheese, avocado, baby spinach and askew soft bun. Complete plate about 45 percent width and crop safe; no fries or garnish, flat yellow, no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/turkey-burgers-attempt01-central.png",
+        "final_path": "images/turkey-burgers.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          412,
+          334,
+          1105,
+          702
+        ],
+        "blue_rim_width_percent": 45.2
+      },
+      {
+        "entry": 19,
+        "filename": "turkey-pan-gravy.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/turkey-pan-gravy.txt",
+        "prompt_sha256": "e946d90a69d25eeac17ed2b3e7a62f795b5598f9d7ddb34e9ec5363695431583",
+        "generated_path": "generated_images/exec-6a38990d-311e-449e-8f8a-21e2790cfcd4.png",
+        "sha256": "efb1b01e2ba530a07a92b198861ce1b2786af6985d821306d12ecb6c56e9b459",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly three fanned turkey breast slices with glossy brown gravy, black pepper and small thyme sprig. Whole plate about 45 percent width and crop safe; flat blue, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/turkey-pan-gravy-attempt01-central.png",
+        "final_path": "images/turkey-pan-gravy.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          415,
+          338,
+          1101,
+          721
+        ],
+        "blue_rim_width_percent": 44.7
+      },
+      {
+        "entry": 20,
+        "filename": "tuscan-spaghetti-squash.png",
+        "attempt": 5,
+        "mode": "edit",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tuscan-spaghetti-squash-attempt05.txt",
+        "prompt_sha256": "26f19b7f6d6b6ea361e51c5b758aa2971a53a42c8a5e2a60befa7af27b83f2d9",
+        "generated_path": "generated_images/exec-5402ed0a-be57-4f31-9c3a-53da2e8e1692.png",
+        "sha256": "c5b965de0b007f0acb2f1d8811636e74ca638726d4ea51cdd200a8d8b6eb8993",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Original-only fresh generation plus framing correction resolved the pasta-like texture: fine irregular fibrous squash filling with correct toppings. Complete plate about 44 percent width, central crop safe. Camera somewhat more elevated than initial but photorealistic and cookbook-consistent.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "generated_images/exec-342a9647-9a3e-45aa-a342-47ad8b4d0ff7.png"
+        ],
+        "crop_path": "qa/tuscan-spaghetti-squash-attempt05-central.png",
+        "final_path": "images/tuscan-spaghetti-squash.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [
+          "Improved fine fibrous squash texture after original-reference-only regeneration; framing corrected. Camera is somewhat more elevated than the nominal 40-degree view. Coordinator reviewed and accepted."
+        ],
+        "blue_rim_pixel_bounds": [
+          425,
+          236,
+          1105,
+          784
+        ],
+        "blue_rim_width_percent": 44.3
+      },
+      {
+        "entry": 21,
+        "filename": "tzatziki-sauce.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/tzatziki-sauce.txt",
+        "prompt_sha256": "102bbc8fa2a9f6e4023720b0578a5f70c0cebe48393bdb27cb6add5fb10c0321",
+        "generated_path": "generated_images/exec-69e1e10e-d7e7-4255-9a7a-ff0abe0ad23b.png",
+        "sha256": "fea7a3fc7690a65ce402fbafeaefb1e62a1fdc315fb53ff8b32b4c91eba6920b",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thick white tzatziki with fine cucumber shreds, dill and olive oil swirl. Whole bowl about 48 percent wide and crop safe; flat yellow, no dippers or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/tzatziki-sauce-attempt01-central.png",
+        "final_path": "images/tzatziki-sauce.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          395,
+          221,
+          1132,
+          747
+        ],
+        "blue_rim_width_percent": 48.0
+      },
+      {
+        "entry": 22,
+        "filename": "vanilla-earl-grey-overnight-oats.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vanilla-earl-grey-overnight-oats.txt",
+        "prompt_sha256": "9cd33091c4191ca9fb14056f911838f688773c5f382761ff87ab49e87b33fa01",
+        "generated_path": "generated_images/exec-63af07a4-f1a1-4dfa-a5a0-0028f6997458.png",
+        "sha256": "c16cf0c0b7b6836809c53db5b385d65c5a2431da06557a2cfe15074d397c7327",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Creamy rolled overnight oats with crumbled stroopwafel pieces and honey only. Whole bowl about 48 percent wide and crop safe; flat peach, no fruit or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/vanilla-earl-grey-overnight-oats-attempt01-central.png",
+        "final_path": "images/vanilla-earl-grey-overnight-oats.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          398,
+          222,
+          1132,
+          743
+        ],
+        "blue_rim_width_percent": 47.9
+      },
+      {
+        "entry": 23,
+        "filename": "vegan-caesar-pasta-salad.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vegan-caesar-pasta-salad.txt",
+        "prompt_sha256": "b2ffb6eb0c3fa82b97b7e9160cac45db83a592ab0f56cbd44f89b329e6765def",
+        "generated_path": "generated_images/exec-5fcee24f-3ac3-461a-9a7e-9b60c539304b.png",
+        "sha256": "ebe74dd52c7d05ae850d90d37dabae34fc5d9222d534facb90b12e183ee2a497",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Vegan Caesar rotini salad with romaine, roasted chickpeas, cherry tomato halves, avocado and pepper; creamy dressing, no meat or cheese. Whole bowl about 48 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/vegan-caesar-pasta-salad-attempt01-central.png",
+        "final_path": "images/vegan-caesar-pasta-salad.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          396,
+          222,
+          1134,
+          742
+        ],
+        "blue_rim_width_percent": 48.1
+      },
+      {
+        "entry": 24,
+        "filename": "vegetable-minestrone.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vegetable-minestrone.txt",
+        "prompt_sha256": "06d6cd2aaa04671ff6f4b74e0c1cd999da1daaab44c5780f58597deb4dc6291b",
+        "generated_path": "generated_images/exec-5dcf0e0d-37b9-4450-bd22-98296eb0b212.png",
+        "sha256": "d1f9ace4226b92116a814b3e8927b106a9c71a14f426ac1de8c0fa4e1c1a5843",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Minestrone tomato broth with white beans, small tubular pasta, carrot, celery and seasonal vegetables, olive oil and Parmesan. Whole bowl about 47 percent width and crop safe; flat peach, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/vegetable-minestrone-attempt01-central.png",
+        "final_path": "images/vegetable-minestrone.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          399,
+          220,
+          1123,
+          743
+        ],
+        "blue_rim_width_percent": 47.2
+      },
+      {
+        "entry": 25,
+        "filename": "vegetable-muffin.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vegetable-muffin.txt",
+        "prompt_sha256": "0962f9867344faeb4b0c0dc071a29754d3762f33fb6990d3843adad83ed703d6",
+        "generated_path": "generated_images/exec-173cb640-8b90-4f3a-abb2-eee15365cf60.png",
+        "sha256": "1ad907758450b581ede25f0ce4a84951c0e3dd0626a25d03ef7994b045eb0357",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly four dark cocoa vegetable muffins: three whole and one split into two halves, spinach and carrot flecks visible. No liners or garnish. Whole plate about 45 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/vegetable-muffin-attempt01-central.png",
+        "final_path": "images/vegetable-muffin.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          411,
+          336,
+          1106,
+          701
+        ],
+        "blue_rim_width_percent": 45.3
+      },
+      {
+        "entry": 26,
+        "filename": "vietnamese-grilled-chicken.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vietnamese-grilled-chicken.txt",
+        "prompt_sha256": "73eb6d3b7733b8de5b6c521ee400c3b403b95e366a86bb8ceafef3c8475c4fa5",
+        "generated_path": "generated_images/exec-82203191-4795-4f94-a6e6-d1923c2e58ef.png",
+        "sha256": "cf4fb1722a826405f3b1762f430b6f3237648c9a8c4cc008d0b1d759b07ff2f0",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly two flattened charred chicken thighs: one whole and one sliced, cilantro and lime wedge only. Whole plate about 45 percent width and crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/vietnamese-grilled-chicken-attempt01-central.png",
+        "final_path": "images/vietnamese-grilled-chicken.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          414,
+          335,
+          1097,
+          697
+        ],
+        "blue_rim_width_percent": 44.5
+      },
+      {
+        "entry": 27,
+        "filename": "vietnamese-spring-rolls.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vietnamese-spring-rolls.txt",
+        "prompt_sha256": "6ded234a1114cc7843753912e7a35466545992d4f071c373b2b707e6909e6022",
+        "generated_path": "generated_images/exec-90e619ec-6de7-4f3f-aaee-d601bdb9f746.png",
+        "sha256": "259ee75978db33215214dfd70bb4cd30f20133ce752a41a1782758155d69c093",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Three translucent shrimp spring rolls: two whole and one diagonally halved, with rice vermicelli, lettuce, herbs, carrot and cucumber. Peanut-hoisin ramekin on plate only. Complete plate about 45 percent width crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/vietnamese-spring-rolls-attempt01-central.png",
+        "final_path": "images/vietnamese-spring-rolls.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          409,
+          333,
+          1103,
+          683
+        ],
+        "blue_rim_width_percent": 45.2
+      },
+      {
+        "entry": 28,
+        "filename": "vieux-carre.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/vieux-carre.txt",
+        "prompt_sha256": "170c180d86120b10bebc34d9e2889d9c90f467c38a908e72df2a391b67b43752",
+        "generated_path": "generated_images/exec-fbc5062a-73ec-469d-bf96-e772899470b2.png",
+        "sha256": "f17e894a65fa8c982a1d0c594e60ff1823bbce489209c201426358bd5d87e888",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Deep amber Vieux Carre in clear rocks glass, exactly one large ice cube and lemon twist only. Complete glass about 75 percent height and garnish within crop; flat blue, no coaster or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/vieux-carre-attempt01-central.png",
+        "final_path": "images/vieux-carre.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": []
+      },
+      {
+        "entry": 29,
+        "filename": "warm-pita-bread.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/warm-pita-bread.txt",
+        "prompt_sha256": "083d95439eb83411c679fcd465017d542f745b286d36c4f115362d4a01a88c2a",
+        "generated_path": "generated_images/exec-3e4855f1-e0f8-4c39-bfac-c3fdf1c46f2d.png",
+        "sha256": "82872edb818bf7dc690d3cdd142aa1e9e595200188531c90197533bf8141d59d",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Four warm pitas: two whole under two folded in half, with olive oil and flaky salt. Complete plate about 45 percent width and crop safe; flat blue, no extra garnish or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/warm-pita-bread-attempt01-central.png",
+        "final_path": "images/warm-pita-bread.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          410,
+          319,
+          1103,
+          729
+        ],
+        "blue_rim_width_percent": 45.2
+      },
+      {
+        "entry": 30,
+        "filename": "warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.txt",
+        "prompt_sha256": "c181c2bab03facee59b4464bf6fa3b514930e22eeebb5ce6fd42447606ac6bd6",
+        "generated_path": "generated_images/exec-b4a008ad-fbbb-4ac6-a7c8-bdd4d9ac7e04.png",
+        "sha256": "1a8a9169fffce61d755124a1e82aa4c86ea9683be8496f5e59cb5702e2d18db4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Curly kale with caramelized sweet potato cubes, halved roasted Brussels sprouts, red onion and golden vinaigrette. Complete bowl about 48 percent width and crop safe; flat yellow, no garnish or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette-attempt01-central.png",
+        "final_path": "images/warm-roasted-veggie-salad-with-maple-dijon-vinaigrette.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          397,
+          222,
+          1132,
+          743
+        ],
+        "blue_rim_width_percent": 47.9
+      },
+      {
+        "entry": 31,
+        "filename": "warm-spiced-butternut-squash-soup.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/warm-spiced-butternut-squash-soup.txt",
+        "prompt_sha256": "f3f969778235ec56e21ad76d76f202428e82ec2429cbb0f6cd6d4988f2f851a1",
+        "generated_path": "generated_images/exec-3a33551a-3850-4b61-bc02-dc6002d2d499.png",
+        "sha256": "3b32195cd0c0f7247a222e13ac43a9071a80439bc5cb7f9ec2d0155eae970574",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Smooth orange butternut soup with golden olive oil swirl and thyme only, no cream swirl. Complete bowl about 47 percent width and crop safe; flat peach, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/warm-spiced-butternut-squash-soup-attempt01-central.png",
+        "final_path": "images/warm-spiced-butternut-squash-soup.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          399,
+          220,
+          1124,
+          743
+        ],
+        "blue_rim_width_percent": 47.3
+      },
+      {
+        "entry": 32,
+        "filename": "whipped-feta-with-honey.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whipped-feta-with-honey.txt",
+        "prompt_sha256": "9f9580d09ba88638e964fa5d17440b3713a3f8b32e74b7c1197298c5f653a01b",
+        "generated_path": "generated_images/exec-b375e711-7c1e-4a94-b04e-d8d461e51ca3.png",
+        "sha256": "9d8046fac4705d9be0a06978c0554081cfb5541b69c4ab12f8a4b037b89cc51c",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Fluffy whipped white feta with honey and olive oil, chopped pistachios, dill and paprika. Complete bowl about 48 percent width, crop safe; flat yellow, no bread or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/whipped-feta-with-honey-attempt01-central.png",
+        "final_path": "images/whipped-feta-with-honey.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          398,
+          221,
+          1130,
+          746
+        ],
+        "blue_rim_width_percent": 47.7
+      },
+      {
+        "entry": 33,
+        "filename": "whiskey-sour.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whiskey-sour.txt",
+        "prompt_sha256": "30136f44b2bdad05d96c2e354e23689f15bde87542ca1f7a02e9e7c1f590856c",
+        "generated_path": "generated_images/exec-1dae0adb-a811-4f4d-a876-7d39c2371845.png",
+        "sha256": "3c04b9400accfe860cfa772e3102ff51460b1d0dca8e2850360de9ce1d808424",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Pale amber whiskey sour over ice with thin foam and bitters drops, orange slice and one cherry. Glass about 78 percent frame height, full garnish fits central crop with small right margin. Flat blue, no pick, straw or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png"
+        ],
+        "crop_path": "qa/whiskey-sour-attempt01-central.png",
+        "final_path": "images/whiskey-sour.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [
+          "Glass about 78 percent frame height; complete orange garnish within crop with a small right margin."
+        ]
+      },
+      {
+        "entry": 34,
+        "filename": "white-chicken-chili.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/white-chicken-chili.txt",
+        "prompt_sha256": "148dd03ba7b4f5cfefdd16a1cc1b7ffb8acd4a6420df81886e53671938d4606f",
+        "generated_path": "generated_images/exec-1fef7fd1-94ea-4ed2-a947-a56dddf790ba.png",
+        "sha256": "6860d76666f7bd986d677811dd299fd12fdf58c9dda9d6bd48329398cf1fd55b",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Creamy white chicken chili with shredded chicken, white beans, distinct hominy kernels and green chiles, sour cream cilantro and lime. Complete bowl about 48 percent width, crop safe; flat peach, no props or steam.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/white-chicken-chili-attempt01-central.png",
+        "final_path": "images/white-chicken-chili.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          394,
+          222,
+          1124,
+          742
+        ],
+        "blue_rim_width_percent": 47.6
+      },
+      {
+        "entry": 35,
+        "filename": "whole-spelt-pumpkin-muffins.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whole-spelt-pumpkin-muffins.txt",
+        "prompt_sha256": "3bb61a41de225c9f690e2d2eed46138107f6622a0b374984b9108a17fe535748",
+        "generated_path": "generated_images/exec-1f48a782-4d7d-4315-b4f0-01dde9708d54.png",
+        "sha256": "84f0c061c4e0286067b99863b5eeefad7b299d608550981af146f530a01744d4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Four pumpkin-spelt muffins: three whole and one split into two halves, orange spiced crumb visible, no garnish. Whole plate about 45 percent width and crop safe; flat blue.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/whole-spelt-pumpkin-muffins-attempt01-central.png",
+        "final_path": "images/whole-spelt-pumpkin-muffins.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          412,
+          348,
+          1110,
+          735
+        ],
+        "blue_rim_width_percent": 45.5
+      },
+      {
+        "entry": 36,
+        "filename": "whole-wheat-muffins-fruit-nut-or-berry.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/whole-wheat-muffins-fruit-nut-or-berry.txt",
+        "prompt_sha256": "0aa4ff66c45e16181d03af4a598986e9a9bd51529dd9dd9bdd7f0fe51a0f7550",
+        "generated_path": "generated_images/exec-f5ebfdae-d05c-4792-806f-74897a600d67.png",
+        "sha256": "0b865e219f14f83ffedca076614550929898f1625d5c62dc0dd38407761720a4",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Four whole-wheat blueberry muffins: three whole and one split into two halves, blueberries visible. Whole plate about 45 percent width and crop safe; flat blue. Whole muffins have baked paper liners, a serving wrapper rather than extra backdrop prop.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/whole-wheat-muffins-fruit-nut-or-berry-attempt01-central.png",
+        "final_path": "images/whole-wheat-muffins-fruit-nut-or-berry.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [
+          "Whole muffins have baked paper liners as integral serving wrappers, not extra backdrop props."
+        ],
+        "blue_rim_pixel_bounds": [
+          409,
+          294,
+          1107,
+          744
+        ],
+        "blue_rim_width_percent": 45.5
+      },
+      {
+        "entry": 37,
+        "filename": "yaki-udon.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yaki-udon.txt",
+        "prompt_sha256": "50c7d6c8276239bad07666cf5959f742bbce144e01acb0d4d16f4420f7609cfa",
+        "generated_path": "generated_images/exec-cc54a58b-36f0-4cd7-b85d-17621347f5f4.png",
+        "sha256": "4b5ae2377d0e60f8637f1b3eaabbc17f5b2b8c3cd65cc34583f0f29a5e4bda74",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thick cylindrical udon noodles with pork slices, cabbage, carrot, scallion and sesame in glossy dark soy glaze. Distinctly thicker than yakisoba. Complete bowl about 48 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/yaki-udon-attempt01-central.png",
+        "final_path": "images/yaki-udon.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          398,
+          221,
+          1134,
+          744
+        ],
+        "blue_rim_width_percent": 48.0
+      },
+      {
+        "entry": 38,
+        "filename": "yakisoba-japanese-stir-fried-noodles.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yakisoba-japanese-stir-fried-noodles.txt",
+        "prompt_sha256": "d555ba9db6a4c9326da28eac688ca082a01d39d6efd1fff11cd1f90f7516d188",
+        "generated_path": "generated_images/exec-4b87284b-a19b-4474-aea3-adea9307f537.png",
+        "sha256": "c46e40a2f914b657ed8f75b94638baf6cd7a44f6e9418c4b53ee6179af9f23de",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thin wheat yakisoba noodles with chicken, cabbage, carrot matchsticks, onion, mushrooms and scallion lengths; pickled red ginger only garnish. Complete plate about 45 percent width and crop safe; flat yellow.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/yakisoba-japanese-stir-fried-noodles-attempt01-central.png",
+        "final_path": "images/yakisoba-japanese-stir-fried-noodles.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          414,
+          338,
+          1102,
+          684
+        ],
+        "blue_rim_width_percent": 44.9
+      },
+      {
+        "entry": 39,
+        "filename": "yellow-cake-with-chocolate-frosting.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yellow-cake-with-chocolate-frosting.txt",
+        "prompt_sha256": "84ec724fb5b5d370f7ca5a9dac44001941e796d2400aec84a305aaba04d753a0",
+        "generated_path": "generated_images/exec-fb07c0a3-7ad7-4de5-840a-ebf7bbf19192.png",
+        "sha256": "4ce0732181c3f924465f8efd305aac37de905ebe15dd1246657c16ef7364db49",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "One tall upright slice with exactly two yellow cake layers, one chocolate filling layer and swirled chocolate frosting top and side, no garnish. Complete plate about 43 percent width and crop safe; flat peach.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/yellow-cake-with-chocolate-frosting-attempt01-central.png",
+        "final_path": "images/yellow-cake-with-chocolate-frosting.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          431,
+          488,
+          1083,
+          780
+        ],
+        "blue_rim_width_percent": 42.5
+      },
+      {
+        "entry": 40,
+        "filename": "yogurt-dipping-sauce.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/yogurt-dipping-sauce.txt",
+        "prompt_sha256": "dd139b4cf77a71a9355f6640e3f2fd52a770f2ec1d7ed109d97b86934815786d",
+        "generated_path": "generated_images/exec-e5325673-d60f-41d9-b8d8-625d15ef4a8f.png",
+        "sha256": "02e37ab83c6c3996075f6bf8c4415f0f7dccc35193a2a0e9abfb21db5311b614",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Thick white yogurt with cilantro parsley, lemon zest and a little cumin, cilantro-zest garnish only. Complete bowl about 46 percent width and crop safe; flat blue, no dippers or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/yogurt-dipping-sauce-attempt01-central.png",
+        "final_path": "images/yogurt-dipping-sauce.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          413,
+          228,
+          1118,
+          810
+        ],
+        "blue_rim_width_percent": 46.0
+      },
+      {
+        "entry": 41,
+        "filename": "zucchini-herb-fritters-with-garlic-yogurt.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/zucchini-herb-fritters-with-garlic-yogurt.txt",
+        "prompt_sha256": "6dab461d5cf486f7abe14a9e371ccbe4d41963ad4d7491ed4d68b145ed5823c4",
+        "generated_path": "generated_images/exec-170e66e4-04d3-43be-8a68-55556c07cc51.png",
+        "sha256": "8216d59628b03a0c5162e16197bd776b91b6079406f304aecde20e4951db921f",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Exactly four golden zucchini-potato fritters overlapped with spoonful of garlic mint yogurt on top and mint garnish. Whole plate about 45 percent width and crop safe; no actual spoon or ramekin, flat peach.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/pad-thai.png"
+        ],
+        "crop_path": "qa/zucchini-herb-fritters-with-garlic-yogurt-attempt01-central.png",
+        "final_path": "images/zucchini-herb-fritters-with-garlic-yogurt.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          411,
+          335,
+          1099,
+          705
+        ],
+        "blue_rim_width_percent": 44.9
+      },
+      {
+        "entry": 42,
+        "filename": "zucchini-noodles-with-avocado-pesto-and-shrimp.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/zucchini-noodles-with-avocado-pesto-and-shrimp.txt",
+        "prompt_sha256": "6981890ca214234d98b5fc6e81da7cae93e52bb2149ea70aa77ce76fd0123428",
+        "generated_path": "generated_images/exec-c03cafc2-c5a2-4513-8a2b-68e1d0620273.png",
+        "sha256": "a87a230553e6fd2dbac5794a77cb52b1e472df705946b4e88af9d58137dad6c3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Zucchini noodles with visible green peel edges, pale green avocado pesto, exactly six seared pink shrimp, chopped pistachios and basil. Complete bowl about 48 percent width and crop safe; flat yellow, no props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/zucchini-noodles-with-avocado-pesto-and-shrimp-attempt01-central.png",
+        "final_path": "images/zucchini-noodles-with-avocado-pesto-and-shrimp.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          397,
+          222,
+          1130,
+          744
+        ],
+        "blue_rim_width_percent": 47.8
+      },
+      {
+        "entry": 43,
+        "filename": "zuppa-toscana.png",
+        "attempt": 1,
+        "mode": "generate",
+        "tool": "image_gen.imagegen",
+        "prompt_path": "prompts/zuppa-toscana.txt",
+        "prompt_sha256": "62e6d173775d26586d2a8f6991b483d4eb28d88e2f4862377ccf70afef5b21f1",
+        "generated_path": "generated_images/exec-eb5ac710-c0c9-40cf-a1ac-62fb89085563.png",
+        "sha256": "f1171a3fc032d81cfe67913cd64c8f457ca6368308023bb85d7cdfb22b097ba3",
+        "size": [
+          1536,
+          1024
+        ],
+        "format": "PNG",
+        "result": "accepted",
+        "qa": "Creamy Zuppa Toscana with irregular crumbled Italian sausage, potato cubes, dark kale leaves and red pepper flakes only. Complete bowl about 48 percent width and crop safe; flat yellow, no steam or props.",
+        "reference_paths": [
+          "reference/margarita-01-cookbook.png",
+          "batch-09/images/one-pot-chicken-quinoa-mushrooms-and-spinach.png"
+        ],
+        "crop_path": "qa/zuppa-toscana-attempt01-central.png",
+        "final_path": "images/zuppa-toscana.png",
+        "copied_unchanged": true,
+        "full_frame_reviewed": true,
+        "central_half_reviewed": true,
+        "full_central_half_fit": true,
+        "all_food_central_half_fit": true,
+        "no_steam": true,
+        "no_extra_props": true,
+        "no_cutlery": true,
+        "flat_seamless_backdrop": true,
+        "qa_caveats": [],
+        "blue_rim_pixel_bounds": [
+          398,
+          220,
+          1134,
+          744
+        ],
+        "blue_rim_width_percent": 48.0
+      }
+    ],
+    "summary": {
+      "final_count": 43,
+      "built_in_generation_calls": 50,
+      "selected_first_attempt_count": 40,
+      "selected_remade_count": 3,
+      "full_central_half_fit_count": 43,
+      "retained_tiny_rim_caveat_count": 0,
+      "retained_recipe_cut_shape_caveat_count": 1,
+      "all_food_central_half_fit_count": 43,
+      "all_finals_copied_unchanged_from_tool_output": true,
+      "all_finals_1536x1024_png": true,
+      "all_calls_original_reference_attached": true,
+      "exact_prompts_audited": 50
+    },
+    "caveats": [
+      {
+        "entry": 8,
+        "notes": [
+          "Glass about 81 percent frame height, slightly taller than 75 percent target; complete garnish and glass crop safe."
+        ]
+      },
+      {
+        "entry": 11,
+        "notes": [
+          "After two targeted corrections, mushrooms are chunkier but several pieces still read as halves rather than clear quarter wedges. Retained accurate ingredient cut-shape caveat."
+        ]
+      },
+      {
+        "entry": 20,
+        "notes": [
+          "Improved fine fibrous squash texture after original-reference-only regeneration; framing corrected. Camera is somewhat more elevated than the nominal 40-degree view. Coordinator reviewed and accepted."
+        ]
+      },
+      {
+        "entry": 33,
+        "notes": [
+          "Glass about 78 percent frame height; complete orange garnish within crop with a small right margin."
+        ]
+      },
+      {
+        "entry": 36,
+        "notes": [
+          "Whole muffins have baked paper liners as integral serving wrappers, not extra backdrop props."
+        ]
+      },
+      {
+        "general": "Color-threshold rim bounds support visual QA but are not semantic vessel masks; actual crops were viewed for all images. Backdrops are visually flat and seamless with natural contact shadows and subtle surface texture, not mathematically uniform RGB."
+      }
+    ],
+    "scope_guards": [
+      "Only batch 14 entries 1\u201343 generated in this manifest.",
+      "Original Margarita attached every built-in image generation call.",
+      "No Git, Library, external API, PR or deployment writes.",
+      "All previous batches preserved.",
+      "Final image bytes unchanged; Python used for QA crops, proof sheets and metadata only."
+    ],
+    "contact_sheets": [
+      "qa/worker03-final-01-full.jpg",
+      "qa/worker03-final-01-crops.jpg",
+      "qa/worker03-final-02-full.jpg",
+      "qa/worker03-final-02-crops.jpg",
+      "qa/worker03-final-03-full.jpg",
+      "qa/worker03-final-03-crops.jpg",
+      "qa/worker03-final-04-full.jpg",
+      "qa/worker03-final-04-crops.jpg"
+    ],
+    "proof_sheets_reviewed": true,
+    "updated_at_utc": "2026-11-03T01:44:54.651607+00:00",
+    "proof_sheet_hashes": {
+      "qa/worker03-final-01-full.jpg": "cf9af0173aa5ae0553a4a68d03f31e11218339bcb1ece08839d58cea3757907f",
+      "qa/worker03-final-01-crops.jpg": "67350246873c6d2d37701afdfebf94d61083fe6388334a23f92d8e2bfe3d607d",
+      "qa/worker03-final-02-full.jpg": "2b64d99964a614f9c1bad73e8197db7cbaf021dc31868c4881ba49910d8eceb0",
+      "qa/worker03-final-02-crops.jpg": "c2326a2782ce1306156a1f94bf59770fe7e099c3a0a24137a1209e3a497268d9",
+      "qa/worker03-final-03-full.jpg": "7f1b2afe57fe73adc4979ef312034aa888f7b2c4bb144df6f151d05bae20abfe",
+      "qa/worker03-final-03-crops.jpg": "f2aaacdc9e99ca261153a20a1ae7bec000733f84f4f6eb4be8a2e755a3a0d62a",
+      "qa/worker03-final-04-full.jpg": "26c06ad537b2aa5cd220321930747fbab6f93a965bfc684500e4331ed000852d",
+      "qa/worker03-final-04-crops.jpg": "d6f1479bf42e42c39548c0c56a96b2b1401a61c1439f041ba0ad53703b4f100f"
+    },
+    "completed_at_utc": "2026-11-03T01:45:30.445470+00:00",
+    "status": "complete_with_disclosed_caveats"
+  }
+]
