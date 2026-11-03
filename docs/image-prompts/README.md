@@ -17,7 +17,7 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 | 11 | batch-09-redo.md | 1 | Done, the crunch roll passes |
 | 12 | batch-10.md | 49 | Done, 48 pass; 1 redo below (patatas bravas size, gin fizz height and the single-row tuna roll are fine to keep) |
 | 13 | batch-10-redo.md | 1 | Not made yet: make it next (no images/mise-batch-10-redos branch exists) |
-| 14 | batch-11.md | 49 | Saved; Claude is checking it (no need to remake) |
+| 14 | batch-11.md | 49 | Done, all 49 pass, no redos |
 | 15 | batch-12.md | 49 | To make |
 | 16 | batch-13.md | 49 | To make |
 | 17 | batch-14.md | 43 | To make |
