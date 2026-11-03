@@ -1,0 +1,3600 @@
+[
+  {
+    "worker": "02",
+    "batch": "13",
+    "assigned_entries": [
+      1,
+      49
+    ],
+    "source_provenance": {
+      "repository": "jsilton/mise",
+      "source_commit": "0c8242b27d4e1d12d6783df48ee132b6fea36a72",
+      "source_path": "docs/image-prompts/batch-13.md",
+      "source_blob": "341bb5393feae734a76641be6357fb3ed8b05be1",
+      "planned_branch": "images/mise-batch-13-2026-11-03",
+      "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+      "started_utc": "2026-11-03T00:56:00Z",
+      "sequencing": "User explicitly authorized batches12\u201314 in parallel at00:55:28UTC; separate QA and review branches retained"
+    },
+    "reference": "reference/margarita-01-cookbook.png",
+    "tool": "built-in image_gen only",
+    "generation_started_utc": "2026-11-03T00:59:35Z",
+    "entries": [
+      {
+        "entry": 1,
+        "filename": "spanish-rice-chorizo.png",
+        "source_entry": "1. spanish-rice-chorizo.png\nDish: Spanish Rice with Chorizo and Chickpeas. The dish: a bowl of tender saffron and paprika-tinted rice studded with rounds of red cured Spanish chorizo, golden chickpeas, diced red pepper and plump raisins. Show the red chorizo rounds on the golden-orange rice. Texture: tender, creamy rice grains, firm chorizo slices, soft chickpeas. Colours: saffron gold and paprika orange rice, brick red chorizo, golden chickpeas, red pepper. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: chopped parsley. Setting: a Spanish family supper. Backdrop: soft peach (#FFB07E). Moment: just served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spanish-rice-chorizo-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-5dfc00b9-287a-438e-b714-8027a54816d8.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "54bd9e53e4bc8ca8d9b696e7993137ec87812bb15b6c5e13ac8381a5c10412e1",
+            "prompt_sha256": "cc1fa55450772dfbede64c2bd5aba194acd82ecf66f73080a05344d3430b9f90",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-1-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry01-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Spanish chorizo rounds, chickpeas, red pepper and raisins on saffron-paprika rice; parsley.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-1-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spanish-rice-chorizo.png",
+        "selected_prompt": "prompts/spanish-rice-chorizo.txt",
+        "sha256": "54bd9e53e4bc8ca8d9b696e7993137ec87812bb15b6c5e13ac8381a5c10412e1"
+      },
+      {
+        "entry": 2,
+        "filename": "spatchcocked-roast-chicken.png",
+        "source_entry": "2. spatchcocked-roast-chicken.png\nDish: Spatchcocked Roast Chicken. The dish: a whole flattened roast chicken lying breast side up, legs splayed, with crisp deep golden, herb-flecked skin. Show the crackling, burnished golden skin of the flattened bird. Texture: crisp, crackly skin, juicy meat. Colours: deep golden brown skin, flecks of green herbs. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: sprigs of fresh rosemary and thyme and a lemon half. Setting: a Sunday family dinner. Backdrop: soft peach (#FFB07E). Moment: fresh from the oven, rested.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spatchcocked-roast-chicken-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-53df52e9-b333-4b72-b6f5-d81e9b32c437.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "2c214e968fa7195b965e74e92ef9ad974a2be15cd7f38c3a22a8709761e2bde7",
+            "prompt_sha256": "b9407bd446cbd46da1362295cffbe8ada4166f1b0de3a09a896a58f9f0234e38",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-2-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry02-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One whole flattened roast chicken, two legs and two wings, rosemary, thyme and one lemon half.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-2-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spatchcocked-roast-chicken.png",
+        "selected_prompt": "prompts/spatchcocked-roast-chicken.txt",
+        "sha256": "2c214e968fa7195b965e74e92ef9ad974a2be15cd7f38c3a22a8709761e2bde7"
+      },
+      {
+        "entry": 3,
+        "filename": "spiced-butternut-squash-puree.png",
+        "source_entry": "3. spiced-butternut-squash-puree.png\nDish: Butternut Squash Pur\u00e9e. The dish: a generous swirled mound of smooth, bright orange butternut squash pur\u00e9e with a small pool of melting butter in the centre and a dusting of grated nutmeg. Show the glossy, velvety orange swirl with its pool of butter. Texture: silky, velvety smooth. Colours: bright saffron orange, golden butter, brown nutmeg flecks. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: a light dusting of nutmeg and cracked black pepper. Setting: an autumn holiday side dish. Backdrop: butter yellow (#F9D27E). Moment: just spooned and served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spiced-butternut-squash-puree-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-67925e20-ee6f-46a4-a189-93dbabfe8665.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "7229204bda61ff676be12b790f63a14623e62bd85131918ccd61c5452e364454",
+            "prompt_sha256": "aca78b5f51a886e04b6b728d69d61ebc19e8f0c3e85066e6908a2ed7ae7dfc3c",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-3-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry03-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Orange squash pur\u00e9e swirl with melting butter, nutmeg and black pepper.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-3-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spiced-butternut-squash-puree.png",
+        "selected_prompt": "prompts/spiced-butternut-squash-puree.txt",
+        "sha256": "7229204bda61ff676be12b790f63a14623e62bd85131918ccd61c5452e364454"
+      },
+      {
+        "entry": 4,
+        "filename": "spiced-coconut-chicken-rice.png",
+        "source_entry": "4. spiced-coconut-chicken-rice.png\nDish: Spiced Coconut Chicken and Rice. The dish: a generous portion of fluffy turmeric-yellow coconut basmati rice mixed with tender pieces of chicken thigh and wilted dark green kale, with a lime wedge at the side. Show the golden turmeric rice with tender chicken and dark green kale. Texture: fluffy, separate rice grains, tender chicken, soft kale. Colours: sunny turmeric yellow rice, golden chicken, deep green kale, bright lime. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: a lime wedge and a few cilantro leaves. Setting: a one-pot family dinner. Backdrop: soft peach (#FFB07E). Moment: just fluffed and served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spiced-coconut-chicken-rice-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "rejected",
+            "source": "generated_images/exec-77783d21-9a2b-42d1-a328-8a09f71f8fab.png",
+            "reason": "Rice grains read short/plump rather than long, separate basmati.",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "c0e7f0488adfbee3309602c9493a2dfd97e534364d3405265cdfb2ca31ca59a2",
+            "prompt_sha256": "9d6572b88854cb8472e04c09dd5f681fc035604bf3737c6e15c7c30d159aa79c",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-4-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry04-attempt01",
+            "tool": "image_gen.imagegen",
+            "rejection_reason": "Rice grains read short/plump rather than long, separate basmati."
+          },
+          {
+            "attempt": 2,
+            "prompt": "prompts/spiced-coconut-chicken-rice-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-77783d21-9a2b-42d1-a328-8a09f71f8fab.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-efa1d4fc-7d7c-43dd-9b28-e45f38b1aecc.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "0df9a75da674ae4a42408188cfd9674631229b820d7db618aba1f0f4080caaa3",
+            "prompt_sha256": "aa0a9830ba5316eaacc1fd2d493d2ba9593dc3b76f48000de9fde7152b04bf77",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "c0e7f0488adfbee3309602c9493a2dfd97e534364d3405265cdfb2ca31ca59a2"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-4-attempt2-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry04-attempt02",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "qa": {
+          "food": "Long slender turmeric basmati corrected; chicken thigh, kale, cilantro and lime preserved.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-4-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "selected_attempt": 2,
+        "final_path": "images/spiced-coconut-chicken-rice.png",
+        "selected_prompt": "prompts/spiced-coconut-chicken-rice.txt",
+        "sha256": "0df9a75da674ae4a42408188cfd9674631229b820d7db618aba1f0f4080caaa3"
+      },
+      {
+        "entry": 5,
+        "filename": "spicy-peach-and-avocado-salad.png",
+        "source_entry": "5. spicy-peach-and-avocado-salad.png\nDish: Spicy Peach and Avocado Salad. The dish: glossy wedges of ripe peach and avocado gently tumbled together, dotted with thin red Fresno chile slices, torn mint leaves and chopped green pistachios, glistening with chile-lemon dressing. Show the glistening orange peach wedges beside creamy green avocado. Texture: juicy peach, creamy avocado, crunchy pistachios. Colours: sunset orange and blush peach, pale green avocado, red chile, bright green mint and pistachio. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: torn mint leaves and chopped pistachios. Setting: a summer lunch. Backdrop: pale sky blue (#D4E9F2). Moment: just dressed.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spicy-peach-and-avocado-salad-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-20ac1dd6-7901-4e2e-850b-e02d4cb1466c.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "956cf8bee3ca9efaa355879d4c9e4aeb0afbd42f959158872de8dd8a751692d0",
+            "prompt_sha256": "ba6bd223410cbf891d76b717761d0cf48ea1e2898cb8c256ba683c7d981f3cf8",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-5-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry05-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Peach and avocado wedges, Fresno chile rings, mint and pistachios.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-5-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spicy-peach-and-avocado-salad.png",
+        "selected_prompt": "prompts/spicy-peach-and-avocado-salad.txt",
+        "sha256": "956cf8bee3ca9efaa355879d4c9e4aeb0afbd42f959158872de8dd8a751692d0"
+      },
+      {
+        "entry": 6,
+        "filename": "spicy-thai-red-curry-beef.png",
+        "source_entry": "6. spicy-thai-red-curry-beef.png\nDish: Thai Red Curry Beef. The dish: a bowl of thin tender beef slices with red bell pepper strips and onion in a light, orange-red coconut curry broth, topped with plenty of fresh basil leaves. Show the beef slices and red peppers in the bright orange-red curry, crowned with green basil. Texture: tender thin beef, soft peppers, light silky curry broth. Colours: orange-red curry, brown beef, bright red pepper, vivid green basil. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: fresh Thai basil leaves and a lime wedge. Setting: Thai home cooking. Backdrop: butter yellow (#F9D27E). Moment: just served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spicy-thai-red-curry-beef-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-9341b3c5-7e3e-464e-8a66-960795ddbc83.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "f2514c25eff73f115dff21947425deae4e94d44747a5640de2ea71c8e6ad47af",
+            "prompt_sha256": "7913fe1b7b4767a1478ed1efda6e9ff75373a1bf87c2c533d607b434653afa3e",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-6-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry06-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Thin beef slices, red pepper and onion in coconut red curry, Thai basil and lime.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-6-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spicy-thai-red-curry-beef.png",
+        "selected_prompt": "prompts/spicy-thai-red-curry-beef.txt",
+        "sha256": "f2514c25eff73f115dff21947425deae4e94d44747a5640de2ea71c8e6ad47af"
+      },
+      {
+        "entry": 7,
+        "filename": "spicy-tuna-roll.png",
+        "source_entry": "7. spicy-tuna-roll.png\nDish: Spicy Tuna Roll (sushi maki with spicy tuna filling). The dish: eight round slices of nori-wrapped sushi roll arranged in two neat rows, cut sides up showing white rice around a centre of chopped pink tuna mixed with spicy mayonnaise and scallion. Show the cut faces of the rolls showing the pink spicy tuna centre. Texture: neat, tight rolls, tender rice, soft chopped tuna. Colours: deep green-black nori, white rice, pink-orange spicy tuna, green scallion. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: a small mound of pickled ginger and a dab of wasabi. Setting: Japanese home sushi night. Backdrop: soft peach (#FFB07E). Moment: just sliced.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spicy-tuna-roll-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-ba4b5683-d68b-4449-ab76-dfe1d5cba75a.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "8578fcbb188a9b527d25c2821ad7f12940d8121ce47bd09d72545e58fb44dd3e",
+            "prompt_sha256": "fd053184d00f452f710e05201e5e0d0a29d0c88ba7de3ecabe195741261df1d5",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-7-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry07-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly eight spicy tuna nori rolls in two rows of four, pickled ginger and wasabi.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-7-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spicy-tuna-roll.png",
+        "selected_prompt": "prompts/spicy-tuna-roll.txt",
+        "sha256": "8578fcbb188a9b527d25c2821ad7f12940d8121ce47bd09d72545e58fb44dd3e"
+      },
+      {
+        "entry": 8,
+        "filename": "spinach-and-mushroom-quiche.png",
+        "source_entry": "8. spinach-and-mushroom-quiche.png\nDish: Spinach and Mushroom Quiche. The dish: one tall wedge of quiche with a flaky golden pastry crust, its cut side showing a creamy set egg custard full of spinach, sliced mushrooms and soft onions, the top lightly browned. Show the cut face of the wedge showing the creamy custard and green spinach. Texture: crisp, flaky crust, silky set custard. Colours: golden crust, pale yellow custard, dark green spinach, brown mushrooms. Serving dish: a white dinner plate with a thin slate blue rim. No garnish. Setting: a weekend brunch. Backdrop: soft peach (#FFB07E). Moment: just sliced.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spinach-and-mushroom-quiche-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-9ddc2b21-321e-4d63-be1d-fddbd0fd2dd9.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "593c7a051d2147be598f9ed40c7b3f6d60bc3bc6808a9c50bab8ce645129d8fd",
+            "prompt_sha256": "cde65cab3f2f11f23bd7f888ad1cb47ae438aee4d695d98783784161d76eecda",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-8-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry08-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One quiche wedge, golden flaky pastry, egg custard, spinach, mushrooms and onion, no garnish.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-8-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/spinach-and-mushroom-quiche.png",
+        "selected_prompt": "prompts/spinach-and-mushroom-quiche.txt",
+        "sha256": "593c7a051d2147be598f9ed40c7b3f6d60bc3bc6808a9c50bab8ce645129d8fd"
+      },
+      {
+        "entry": 9,
+        "filename": "spindrift-gin-fizz.png",
+        "source_entry": "9. spindrift-gin-fizz.png\nDish: Grapefruit Gin Fizz. The dish: a tall glass of pale pink-blush grapefruit and lime gin sparkler over ice, with fine bubbles rising and a lime wheel on the rim. Show the fizzy, pale blush drink over clear ice. Texture: crisp, bubbly and refreshing. Colours: pale grapefruit blush, clear ice, bright green lime. Serving dish: a tall clear glass. Garnish, and nothing else on the food: a lime wheel. Setting: a summer cocktail hour. Backdrop: pale sky blue (#D4E9F2). Moment: just poured, fizzing.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/spindrift-gin-fizz-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/prohibition-style-gin-lemon-fizz.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-2e501fa4-1846-4885-b697-7e1549c126a2.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "810790995cbd1ed54ab9e0eb5113537454fd52ad67af3cac9f2dba6e29e71b4d",
+            "prompt_sha256": "27f52656ca0d7c148fa60ad9d6ce17ebfcbb1199754e97dac899ad7a83767372",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "bd9092335aac193c800501f33319fd5c6385c6ea241dc21b70e941d295600c6c"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-9-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry09-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Pale pink-blush sparkling gin drink over ice with lime wheel, tall clear glass approximately 79% height including lime and 75% glass.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-9-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Tall glass approximately 75% image height; lime garnish extends overall silhouette to approximately 79%. Entire glass and garnish are crop-safe."
+        },
+        "final_path": "images/spindrift-gin-fizz.png",
+        "selected_prompt": "prompts/spindrift-gin-fizz.txt",
+        "sha256": "810790995cbd1ed54ab9e0eb5113537454fd52ad67af3cac9f2dba6e29e71b4d"
+      },
+      {
+        "entry": 10,
+        "filename": "starbucks-egg-bites.png",
+        "source_entry": "10. starbucks-egg-bites.png\nDish: Bacon and Gruy\u00e8re Egg Bites. The dish: five round, puffed egg bites with golden tops, one cut in half to show a smooth, velvety custard-like inside studded with bits of bacon. Show the smooth golden domes and the creamy cut inside. Texture: velvety, soft, custard-like egg with crisp bacon bits. Colours: pale gold egg, golden-brown tops, pink-brown bacon flecks. Serving dish: a small round white plate with a thin slate blue rim. Garnish, and nothing else on the food: a pinch of black pepper. Setting: a quick protein breakfast. Backdrop: butter yellow (#F9D27E). Moment: fresh from the oven.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/starbucks-egg-bites-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-56d31ec1-1496-4772-8258-ffe431dcdd46.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "301205f46b09ebee38c61eb4f3ba179ce5c4c5030167a0751d0b4e825b8814b2",
+            "prompt_sha256": "4011f04cf84790c0a1ec21116f218f40ce4f575077122e6c99715f30503d46db",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-10-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry10-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Five egg bites total: four whole and two halves of the fifth; bacon interior, pepper.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-10-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/starbucks-egg-bites.png",
+        "selected_prompt": "prompts/starbucks-egg-bites.txt",
+        "sha256": "301205f46b09ebee38c61eb4f3ba179ce5c4c5030167a0751d0b4e825b8814b2"
+      },
+      {
+        "entry": 11,
+        "filename": "steamed-bok-choy-with-oyster-sauce.png",
+        "source_entry": "11. steamed-bok-choy-with-oyster-sauce.png\nDish: Bok Choy with Garlic and Oyster Sauce. The dish: halved baby bok choy laid in a neat overlapping row, cut sides up, glossy with a dark oyster sauce and sliced golden garlic. Show the glossy, bright green halved bok choy with dark sauce. Texture: tender stems, silky leaves, glossy sauce. Colours: vivid jade green leaves, pale celadon stems, dark brown sauce, golden garlic. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: crisp fried shallots. Setting: Cantonese home cooking. Backdrop: pale sky blue (#D4E9F2). Moment: just dressed, glossy.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steamed-bok-choy-with-oyster-sauce-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "rejected",
+            "source": "generated_images/exec-ce1ec10e-9c64-427b-8df7-7ecd5d55e34f.png",
+            "reason": "Left plate rim exceeds central-half crop by approximately 20 pixels; food correct.",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "e2fb2617cf7b60fdfb936d9a6ad300e07266e214619c0172bad567da90bfe964",
+            "prompt_sha256": "33c25c18b8adc49ce1096ba23f1abd21434ced56d1fe50d2b5d48ae60f3b8b52",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-11-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry11-attempt01",
+            "tool": "image_gen.imagegen",
+            "rejection_reason": "Left plate rim exceeds central-half crop by approximately 20 pixels; food correct."
+          },
+          {
+            "attempt": 2,
+            "prompt": "prompts/steamed-bok-choy-with-oyster-sauce-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-ce1ec10e-9c64-427b-8df7-7ecd5d55e34f.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-0c7c9880-7ace-45c8-a1b4-34a386a99295.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "a3bad2581ce2f184ad701878127ffe7b06a23182261396921eb825934ceb2551",
+            "prompt_sha256": "bb338420ac95a13b24907779d171047cfdb0cecd4b48fa045558dd3e4fa9805c",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "e2fb2617cf7b60fdfb936d9a6ad300e07266e214619c0172bad567da90bfe964"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-11-attempt2-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry11-attempt02",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 2,
+        "qa": {
+          "food": "Halved baby bok choy, oyster sauce, golden garlic and fried shallots; full platter now crop-safe, approximately 42% frame width.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-11-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [
+            "After successful rim correction, platter is approximately 42% frame width, slightly smaller than target; all food and rim remain visible."
+          ],
+          "framing_note": "Approximately 42% frame width after a bounded crop correction; crop-safe and centred."
+        },
+        "final_path": "images/steamed-bok-choy-with-oyster-sauce.png",
+        "selected_prompt": "prompts/steamed-bok-choy-with-oyster-sauce.txt",
+        "sha256": "a3bad2581ce2f184ad701878127ffe7b06a23182261396921eb825934ceb2551"
+      },
+      {
+        "entry": 12,
+        "filename": "steamed-broccoli.png",
+        "source_entry": "12. steamed-broccoli.png\nDish: Broccoli with Garlic Oil. The dish: a pile of evenly cut, vivid green broccoli florets and sliced stems, glistening with golden garlic-infused olive oil and flecked with minced garlic. Show the bright green florets glistening with garlic oil. Texture: tender florets and stems, silky oil. Colours: vivid green broccoli, golden oil, pale garlic flecks. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: a crack of black pepper. Setting: a simple weeknight side. Backdrop: pale sky blue (#D4E9F2). Moment: just dressed, glistening.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steamed-broccoli-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-11bde6be-4054-4644-8286-07e90edff81b.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "d765756681d7cfe064b89e63128378caf60323f4501d741dbcca78a6547938ec",
+            "prompt_sha256": "91a4cd3ddd00135bac03a2677b0feeb57e44c8f4780a8f8497aba2850e121747",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-12-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry12-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Broccoli florets and sliced stems with golden garlic oil, minced garlic and black pepper.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-12-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/steamed-broccoli.png",
+        "selected_prompt": "prompts/steamed-broccoli.txt",
+        "sha256": "d765756681d7cfe064b89e63128378caf60323f4501d741dbcca78a6547938ec"
+      },
+      {
+        "entry": 13,
+        "filename": "steamed-edamame.png",
+        "source_entry": "13. steamed-edamame.png\nDish: Edamame with Sea Salt. The dish: a generous pile of bright green edamame pods, lightly glossy and sprinkled with large flakes of sea salt. Show the plump bright green pods with sparkling salt flakes. Texture: tender beans in firm, fuzzy pods, crunchy salt flakes. Colours: bright spring green, white salt flakes. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: flaky sea salt and a pinch of red pepper flakes. Setting: a Japanese izakaya-style snack. Backdrop: pale sky blue (#D4E9F2). Moment: just drained and salted.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steamed-edamame-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-29219d1c-0a3e-4c64-a2df-129e10e4f316.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "353b15c9cf9e7f25b6cd27e9e7a4b1dbe0b6ff79079bebdd383ac2311631608e",
+            "prompt_sha256": "99af7d48ed70895883702efbd9be844b47d04d66d6777369902944a9f66206ed",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-13-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry13-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Bright green edamame pods with flaky sea salt and red pepper flakes.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-13-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/steamed-edamame.png",
+        "selected_prompt": "prompts/steamed-edamame.txt",
+        "sha256": "353b15c9cf9e7f25b6cd27e9e7a4b1dbe0b6ff79079bebdd383ac2311631608e"
+      },
+      {
+        "entry": 14,
+        "filename": "steamed-mussels-chorizo.png",
+        "source_entry": "14. steamed-mussels-chorizo.png\nDish: Mussels with Chorizo Broth. The dish: a wide bowl piled with open black-shelled mussels in a golden wine broth with soft halved cherry tomatoes and slices of red chorizo, with a slice of toasted country bread tucked at the edge. Show the open glossy black shells showing plump orange mussels. Texture: tender plump mussels, light brothy sauce, crisp toasted bread. Colours: glossy blue-black shells, orange mussels, red chorizo and tomatoes, green herbs. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: chopped tarragon or parsley. Setting: a Spanish-style seafood supper. Backdrop: butter yellow (#F9D27E). Moment: just served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steamed-mussels-chorizo-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-b282fb11-475f-4ad5-8c5d-20a227b50a83.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "cff4c952343aad0f1121d43e5eb99fa1fe61d57ca3711d983c9150ef35a800d4",
+            "prompt_sha256": "02cc77e009bc3bb9fc32765ad4fe49b8754393a15c44075b6eeb763e16cb2b19",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-14-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry14-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Open black mussel shells with orange flesh, chorizo, cherry tomato halves, golden wine broth, toast tucked within bowl edge, parsley.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-14-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/steamed-mussels-chorizo.png",
+        "selected_prompt": "prompts/steamed-mussels-chorizo.txt",
+        "sha256": "cff4c952343aad0f1121d43e5eb99fa1fe61d57ca3711d983c9150ef35a800d4"
+      },
+      {
+        "entry": 15,
+        "filename": "steamed-noodles-with-green-beans.png",
+        "source_entry": "15. steamed-noodles-with-green-beans.png\nDish: Braised Noodles with Green Beans and Pork. The dish: a pile of soy-tinted medium-thin wheat noodles tossed with tender green beans, slices of pork belly and fine ginger matchsticks. Show the glossy brown braised noodles with green beans and pork. Texture: chewy, glossy noodles, tender beans, soft pork belly. Colours: light soy brown noodles, bright green beans, golden pork, pale ginger. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: scallions. Setting: Northern Chinese home cooking. Backdrop: butter yellow (#F9D27E). Moment: just served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steamed-noodles-with-green-beans-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-bcf43195-333b-4825-bc82-cfa54fc58e64.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "db3f78d3f2533f0b8e9154e595d3a0d0c0f854719def41e2e7da4dd27aea79bd",
+            "prompt_sha256": "0aa7aa9d6eb5b9a35109e9ec7772253779692ff326dee89d2a626901ae157648",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-15-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry15-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Soy-tinted wheat noodles, green beans, pork belly slices, ginger matchsticks and scallions.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-15-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/steamed-noodles-with-green-beans.png",
+        "selected_prompt": "prompts/steamed-noodles-with-green-beans.txt",
+        "sha256": "db3f78d3f2533f0b8e9154e595d3a0d0c0f854719def41e2e7da4dd27aea79bd"
+      },
+      {
+        "entry": 16,
+        "filename": "steamed-white-rice.png",
+        "source_entry": "16. steamed-white-rice.png\nDish: Gohan (plain Japanese short-grain white rice). The dish: a neat rounded mound of glossy, plump short-grain white rice, the grains distinct but cohesive. Show the shiny, pearly rice grains. Texture: tender, plump, slightly sticky grains. Colours: pearly white. Serving dish: a small white rice bowl with a thin slate blue rim. No garnish. Setting: a Japanese home meal. Backdrop: soft peach (#FFB07E). Moment: just fluffed and served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steamed-white-rice-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-45d16129-3e07-4f4a-b0dc-d18cb923f149.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "72bfb048df65774bbf26d107991b39c5036a0402581c211ea8867be123da5c0f",
+            "prompt_sha256": "e4de229673c262f76e711dbaa4cf6e691cecbba4dcc68ba4aba8a32024c4966a",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-16-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry16-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Plain glossy plump short-grain Japanese white rice, no garnish.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-16-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/steamed-white-rice.png",
+        "selected_prompt": "prompts/steamed-white-rice.txt",
+        "sha256": "72bfb048df65774bbf26d107991b39c5036a0402581c211ea8867be123da5c0f"
+      },
+      {
+        "entry": 17,
+        "filename": "steel-cut-oatmeal.png",
+        "source_entry": "17. steel-cut-oatmeal.png\nDish: Steel-Cut Oatmeal. The dish: a bowl of creamy, nubbly steel-cut oatmeal topped with fresh berries and a drizzle of maple syrup. Show the creamy, nubbly oats with bright berries on top. Texture: creamy yet chewy, nubbly oats. Colours: oatmeal beige, red and blue berries, amber maple syrup. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: fresh berries and a drizzle of maple syrup. Setting: a cosy weekend breakfast. Backdrop: butter yellow (#F9D27E). Moment: just served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/steel-cut-oatmeal-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-4f4042f0-491a-4c31-88f7-bfd88c55ec18.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "60b21588238db3e0c1ad992ee52d8b425ba81032c3d44a8de0a0749728351e9c",
+            "prompt_sha256": "c096423cdcb204ecdcb909208d29cede27f84dc8d52c800b1346849edc8dc4e8",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-17-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry17-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Creamy nubbly steel-cut oats with berries and maple syrup.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-17-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/steel-cut-oatmeal.png",
+        "selected_prompt": "prompts/steel-cut-oatmeal.txt",
+        "sha256": "60b21588238db3e0c1ad992ee52d8b425ba81032c3d44a8de0a0749728351e9c"
+      },
+      {
+        "entry": 18,
+        "filename": "sticky-miso-salmon-bowl.png",
+        "source_entry": "18. sticky-miso-salmon-bowl.png\nDish: Sticky Miso Salmon Bowl. The dish: a bowl of buttered scallion rice topped with a glossy, caramelised miso-glazed salmon fillet, sliced cucumber, fanned avocado and strips of nori. Show the sticky, caramelised glaze on the salmon fillet. Texture: flaky salmon with a sticky glaze, tender rice, crisp cucumber, creamy avocado. Colours: caramel-orange glazed salmon, white rice with green scallion, pale green avocado and cucumber, dark nori. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: sliced scallions and toasted sesame seeds. Setting: Japanese-inspired dinner. Backdrop: soft peach (#FFB07E). Moment: just glazed and assembled.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sticky-miso-salmon-bowl-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-94c96fd0-96df-40ad-8dd9-567f3d214af1.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "fdefa0d472c5494e2841f5e0d0f67147ab4bf4622dacdda1c7cb822e192160bb",
+            "prompt_sha256": "29b4044a2243a94f93f601b74d6c8f4968dbe4e74ac8f4dfe04e0996a15b0a29",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-18-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry18-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Miso-glazed salmon fillet, scallion rice, cucumber, fanned avocado, nori strips, sesame and scallion.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-18-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sticky-miso-salmon-bowl.png",
+        "selected_prompt": "prompts/sticky-miso-salmon-bowl.txt",
+        "sha256": "fdefa0d472c5494e2841f5e0d0f67147ab4bf4622dacdda1c7cb822e192160bb"
+      },
+      {
+        "entry": 19,
+        "filename": "sticky-peking-meatball-rice-bowls.png",
+        "source_entry": "19. sticky-peking-meatball-rice-bowls.png\nDish: Sticky Peking Meatball Rice Bowls. The dish: a bowl of creamy coconut jasmine rice topped with six glossy meatballs coated in a dark, sticky hoisin and duck sauce glaze, scattered with sliced scallions. Show the shiny, sticky glazed meatballs on the coconut rice. Texture: sticky glossy glaze, tender meatballs, creamy rice. Colours: deep mahogany glaze, white coconut rice, bright green scallion. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: sliced scallions and sesame seeds. Setting: an easy family weeknight dinner. Backdrop: butter yellow (#F9D27E). Moment: just served, glossy.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sticky-peking-meatball-rice-bowls-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-7e8f79e4-4db9-480a-ac0d-c20414706408.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "f73b2d2d75b366a6c658b9612b0fec2d53f0bcfabd5c5a343dea5bddb590c531",
+            "prompt_sha256": "4ee2674fae1e507aba642fc18f00f87b2caec6994b2380be2fc82022f0c8b7ab",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-19-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry19-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly six glazed meatballs on coconut rice, scallions and sesame.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-19-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sticky-peking-meatball-rice-bowls.png",
+        "selected_prompt": "prompts/sticky-peking-meatball-rice-bowls.txt",
+        "sha256": "f73b2d2d75b366a6c658b9612b0fec2d53f0bcfabd5c5a343dea5bddb590c531"
+      },
+      {
+        "entry": 20,
+        "filename": "stir-fried-chicken-and-eggplant-with-thai-basil.png",
+        "source_entry": "20. stir-fried-chicken-and-eggplant-with-thai-basil.png\nDish: Thai Basil Chicken and Eggplant. The dish: tender pieces of eggplant and thinly sliced chicken breast in a glossy savoury glaze, tossed with whole Thai basil leaves. Show the silky eggplant and chicken glistening among bright basil leaves. Texture: silky, soft eggplant, tender chicken, glossy glaze. Colours: purple-brown eggplant, golden chicken, vivid green basil. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: Thai basil leaves. Setting: Thai home cooking. Backdrop: butter yellow (#F9D27E). Moment: just tossed, glossy.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/stir-fried-chicken-and-eggplant-with-thai-basil-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-cd3409e3-5787-4c6c-aad9-371d6039f915.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "9969403811cb7ebe5e9ec947a48724f303dedf28776b9f7a1b5b8c4bd0f815f1",
+            "prompt_sha256": "b223da5029e360e803ad697ab23de844635f812eb1dbabdff0d2eb354b018ee8",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-20-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry20-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Chicken breast slices and glossy purple-skinned eggplant with Thai basil.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-20-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/stir-fried-chicken-and-eggplant-with-thai-basil.png",
+        "selected_prompt": "prompts/stir-fried-chicken-and-eggplant-with-thai-basil.txt",
+        "sha256": "9969403811cb7ebe5e9ec947a48724f303dedf28776b9f7a1b5b8c4bd0f815f1"
+      },
+      {
+        "entry": 21,
+        "filename": "stir-fried-shrimp-with-snow-peas-and-ginger.png",
+        "source_entry": "21. stir-fried-shrimp-with-snow-peas-and-ginger.png\nDish: Shrimp with Snow Peas and Ginger. The dish: plump pink shrimp and bright green snow peas tossed in a light, glossy ginger-garlic sauce, piled on a plate. Show the plump shrimp and vivid snow peas in a light, glossy sauce. Texture: tender, snappy shrimp, crisp snow peas, silky light sauce. Colours: coral pink shrimp, bright green snow peas, pale golden sauce. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: chopped scallion. Setting: Cantonese home cooking. Backdrop: butter yellow (#F9D27E). Moment: just served, glossy.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/stir-fried-shrimp-with-snow-peas-and-ginger-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-df1df8d4-cae7-4be4-b624-44f1ea3fb107.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "dbc6c37b7ec981af065d05f34aafbfaa6f247f38dee95de84dda5bb8d64f1314",
+            "prompt_sha256": "ee5becdafee64fedc9a7a0e5c13ee4397476ceecd3f653c5d7097f180f0c577d",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-21-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry21-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Pink shrimp and flat green snow peas in ginger-garlic sauce, scallions.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-21-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/stir-fried-shrimp-with-snow-peas-and-ginger.png",
+        "selected_prompt": "prompts/stir-fried-shrimp-with-snow-peas-and-ginger.txt",
+        "sha256": "dbc6c37b7ec981af065d05f34aafbfaa6f247f38dee95de84dda5bb8d64f1314"
+      },
+      {
+        "entry": 22,
+        "filename": "stovetop-macaroni-and-cheese.png",
+        "source_entry": "22. stovetop-macaroni-and-cheese.png\nDish: Stovetop Macaroni and Cheese. The dish: a bowl of elbow macaroni in a thick, glossy, deep orange-yellow sharp cheddar sauce. Show the creamy cheese sauce clinging to every elbow. Texture: creamy, silky, thick cheese sauce on tender pasta. Colours: rich golden orange. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: a crack of black pepper. Setting: a comforting family dinner. Backdrop: pale sky blue (#D4E9F2). Moment: just stirred and served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/stovetop-macaroni-and-cheese-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-dddca9a0-fe29-49ad-b993-ea1644e82811.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "4e4ef1a043e33fe2a68c85b8a0018d7371f434da1681ab57df3312286779ce53",
+            "prompt_sha256": "d773167ded9a70ba90d3b6b1ae63f6a7c7fa1266d773cda7a003a3753e5e0eee",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-22-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry22-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Elbow macaroni in thick golden-orange cheddar sauce with black pepper only.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-22-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/stovetop-macaroni-and-cheese.png",
+        "selected_prompt": "prompts/stovetop-macaroni-and-cheese.txt",
+        "sha256": "4e4ef1a043e33fe2a68c85b8a0018d7371f434da1681ab57df3312286779ce53"
+      },
+      {
+        "entry": 23,
+        "filename": "strawberry-cheesecake-overnight-oatmeal.png",
+        "source_entry": "23. strawberry-cheesecake-overnight-oatmeal.png\nDish: Strawberry Cheesecake Overnight Oats. The dish: creamy layered overnight oats speckled with chia seeds, topped with a layer of chopped fresh strawberries and a little lemon zest, seen through the side of the jar. Show the pink-red strawberries on top of the creamy cheesecake oats. Texture: thick, creamy oats, juicy strawberries. Colours: creamy white oats, bright red strawberries, black chia flecks, yellow lemon zest. Serving dish: a small clear glass jar. Garnish, and nothing else on the food: chopped strawberries and lemon zest. Setting: a make-ahead breakfast. Backdrop: soft peach (#FFB07E). Moment: chilled and ready to eat.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strawberry-cheesecake-overnight-oatmeal-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pickled-red-onions.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-32f66da6-06bb-4872-beea-a8ca5510f02b.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "3aef8aae5053404a0a4acfce58df26c1cd5f07b7781abb94873132bae1735b09",
+            "prompt_sha256": "5417d828a3e0ee056f8c530202e4b7bd0c8aaab4cc620018825bc77f1a044c3e",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "1fea2b27c9cc51ff39e0fff296b80a4f355b1658ab4f02e1aa16404aaa284c59"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-23-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry23-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Clear jar of creamy chia-speckled oats, chopped strawberries top layer and lemon zest; no lid or spoon.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-23-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strawberry-cheesecake-overnight-oatmeal.png",
+        "selected_prompt": "prompts/strawberry-cheesecake-overnight-oatmeal.txt",
+        "sha256": "3aef8aae5053404a0a4acfce58df26c1cd5f07b7781abb94873132bae1735b09"
+      },
+      {
+        "entry": 24,
+        "filename": "strawberry-congealed-salad.png",
+        "source_entry": "24. strawberry-congealed-salad.png\nDish: Strawberry Congealed Salad (Southern layered gelatin salad). The dish: a neat square slice showing a deep red strawberry-pineapple gelatin layer with banana and pecan bits, a creamy white sour cream layer, and another red layer. Show the jewel-red layers sandwiching a creamy white middle. Texture: wobbly, set gelatin, smooth creamy layer, crunchy pecans. Colours: jewel strawberry red, creamy white, golden pecan bits. Serving dish: a small round white plate with a thin slate blue rim. No garnish. Setting: a Southern holiday potluck. Backdrop: soft peach (#FFB07E). Moment: chilled and just sliced.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strawberry-congealed-salad-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-bbe9acbf-a7c4-40f1-bc00-ab028a38cedf.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "cec2a1823188f06b2217ebbf38058cb065c687c3f67c78f8a2fc56ad1b5ed50a",
+            "prompt_sha256": "35e35827ec2cf0f3aa5c6bf3d69a9ae988ddbb92a4abc82944a805100eeab11e",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-24-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry24-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One square red-white-red gelatin slice with embedded strawberry, pineapple, banana and pecan pieces, white sour cream middle.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-24-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strawberry-congealed-salad.png",
+        "selected_prompt": "prompts/strawberry-congealed-salad.txt",
+        "sha256": "cec2a1823188f06b2217ebbf38058cb065c687c3f67c78f8a2fc56ad1b5ed50a"
+      },
+      {
+        "entry": 25,
+        "filename": "strawberry-quinoa-breakfast-bars.png",
+        "source_entry": "25. strawberry-quinoa-breakfast-bars.png\nDish: Strawberry Quinoa Breakfast Bars. The dish: three rectangular baked oat and quinoa bars stacked loosely, studded with pieces of red strawberry and raisins. Show the chunky bars with visible red strawberry pieces. Texture: soft, chewy, hearty oat bars. Colours: golden oat brown, red strawberry, dark raisins. Serving dish: a small round white plate with a thin slate blue rim. No garnish. Setting: a healthy grab-and-go breakfast. Backdrop: pale sky blue (#D4E9F2). Moment: cooled and cut.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strawberry-quinoa-breakfast-bars-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-a782bc21-d200-470d-8668-9b30c1db8cc6.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "2298e4e3c29ce24166efb29e32fd6ccfaa4e41a5ac531f9f5b146d6720b48c07",
+            "prompt_sha256": "09e47059bf54a149730deb7350087f3bb3c70c8c1edd476cd624f5691f54c9ba",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-25-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry25-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly three rectangular oat-quinoa bars with strawberries and raisins, loosely stacked.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-25-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strawberry-quinoa-breakfast-bars.png",
+        "selected_prompt": "prompts/strawberry-quinoa-breakfast-bars.txt",
+        "sha256": "2298e4e3c29ce24166efb29e32fd6ccfaa4e41a5ac531f9f5b146d6720b48c07"
+      },
+      {
+        "entry": 26,
+        "filename": "strawberry-rhubarb-shortcake-with-whipped-mascarpone.png",
+        "source_entry": "26. strawberry-rhubarb-shortcake-with-whipped-mascarpone.png\nDish: Strawberry Rhubarb Shortcake with Whipped Mascarpone. The dish: one split golden buttermilk shortcake biscuit with a sparkling sugar top, filled and topped with glossy strawberry-rhubarb compote and a generous swirl of whipped mascarpone cream. Show the juicy pink-red fruit and white cream spilling from the split biscuit. Texture: flaky tender biscuit, glossy juicy fruit, airy cream. Colours: golden biscuit, ruby red and pink fruit, cream white, a few pink peppercorn flecks. Serving dish: a small round white plate with a thin slate blue rim. Garnish, and nothing else on the food: a pinch of ground pink peppercorns. Setting: a spring dessert. Backdrop: soft peach (#FFB07E). Moment: just assembled.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strawberry-rhubarb-shortcake-with-whipped-mascarpone-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-2e23fc97-c293-4bbf-a6a1-2de5762424d4.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "a1fa55171b995ad69a3e7753fc60841b76bf6a16214ffdce57dc04442453ed6c",
+            "prompt_sha256": "ca10bb309b900ae79aa4dbf97de7777be0b9baca870daba23fb68effc94d69fd",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-26-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry26-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One split sugar-topped biscuit with strawberry-rhubarb compote, whipped mascarpone and pink peppercorn flecks.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-26-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strawberry-rhubarb-shortcake-with-whipped-mascarpone.png",
+        "selected_prompt": "prompts/strawberry-rhubarb-shortcake-with-whipped-mascarpone.txt",
+        "sha256": "a1fa55171b995ad69a3e7753fc60841b76bf6a16214ffdce57dc04442453ed6c"
+      },
+      {
+        "entry": 27,
+        "filename": "strawberry-rhubarb-yogurt-pops.png",
+        "source_entry": "27. strawberry-rhubarb-yogurt-pops.png\nDish: Strawberry Rhubarb Yogurt Pops. The dish: four frozen pink yogurt ice pops on wooden sticks laid side by side, flecked with tiny bits of red strawberry and rhubarb. Show the frosty pink pops speckled with fruit. Texture: smooth, creamy frozen yogurt with tiny fruit bits, a light frost. Colours: soft strawberry pink, red fruit flecks, pale wooden sticks. Serving dish: an oval white platter with a thin slate blue rim. No garnish. Setting: a summer treat for the family. Backdrop: soft peach (#FFB07E). Moment: just unmoulded, frosty.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strawberry-rhubarb-yogurt-pops-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "rejected",
+            "source": "generated_images/exec-d2c04458-8ff3-4890-beb5-c4f32564accd.png",
+            "reason": "Correct four pops, but platter exceeds both edges of central-half crop.",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "806047b9fccd624d37ceeddade857641b50f7850cc4dc629782cbf4bce0515ae",
+            "prompt_sha256": "74e56a51337d6c609be5b2c366ca4e7d89e6fbb3b5979a6e85e6cce0588ad9c8",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-27-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry27-attempt01",
+            "tool": "image_gen.imagegen",
+            "rejection_reason": "Correct four pops, but platter exceeds both edges of central-half crop."
+          },
+          {
+            "attempt": 2,
+            "prompt": "prompts/strawberry-rhubarb-yogurt-pops-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-d2c04458-8ff3-4890-beb5-c4f32564accd.png"
+            ],
+            "status": "rejected",
+            "source": "generated_images/exec-04522bd3-ae95-4507-bd7a-531d88f2bda9.png",
+            "reason": "First framing correction improved scale, but approximately 5 pixels of left outer rim still exceed x384.",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "33e08b96dbe81d93dd551474648e6e3ed964a15d4492ea016d76ee18d2dcdb84",
+            "prompt_sha256": "8ae4a0fb8694935cb4f5ee8cdcbdd80a0a6f65143576655ef8e9cb9960761207",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "806047b9fccd624d37ceeddade857641b50f7850cc4dc629782cbf4bce0515ae"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-27-attempt2-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry27-attempt02",
+            "tool": "image_gen.imagegen",
+            "rejection_reason": "First framing correction improved scale, but approximately 5 pixels of left outer rim still exceed x384."
+          },
+          {
+            "attempt": 3,
+            "prompt": "prompts/strawberry-rhubarb-yogurt-pops-attempt-03.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-04522bd3-ae95-4507-bd7a-531d88f2bda9.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-7ac7dc68-5a16-4643-b216-82ddf6716ed5.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "860c59cac2a0faeef37e4e8df55f079a3738b4109c1a458508659f55c39ccdae",
+            "prompt_sha256": "314b5cfe50e5dabc9aa4892fb1ff405293c7d48ee79a38e98abdb35a55e5831b",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "33e08b96dbe81d93dd551474648e6e3ed964a15d4492ea016d76ee18d2dcdb84"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-27-attempt3-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry27-attempt03",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 3,
+        "qa": {
+          "food": "Exactly four pink strawberry-rhubarb yogurt pops with four wooden sticks; complete oval platter now crop-safe after two framing corrections.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-27-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strawberry-rhubarb-yogurt-pops.png",
+        "selected_prompt": "prompts/strawberry-rhubarb-yogurt-pops.txt",
+        "sha256": "860c59cac2a0faeef37e4e8df55f079a3738b4109c1a458508659f55c39ccdae"
+      },
+      {
+        "entry": 28,
+        "filename": "strawberry-summer-cake.png",
+        "source_entry": "28. strawberry-summer-cake.png\nDish: Strawberry Summer Cake. The dish: one generous wedge of golden butter cake with halved strawberries sunk into its sugary, crackly top, with a spoonful of whipped cream at the side. Show the jammy red strawberries sunk into the golden, sugar-crisp top. Texture: crisp sugary top, tender buttery crumb, soft jammy berries. Colours: golden cake, deep red jammy strawberries, cream white. Serving dish: a small round white plate with a thin slate blue rim. Garnish, and nothing else on the food: a dollop of whipped cream. Setting: a summer afternoon tea. Backdrop: soft peach (#FFB07E). Moment: cooled and just sliced.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strawberry-summer-cake-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-39af6a84-3f9d-4342-b567-0de2652ef8ad.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "fe52148f19619f39c9f9837e4f1d0c5fbee6e275060eca790633dfa26b42a324",
+            "prompt_sha256": "4e50ea01cc11ec87f714fdb54040de97c256ab98fc137891e0778d0371070ca4",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-28-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry28-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One butter cake wedge with baked strawberry halves and crackly sugar top, whipped cream dollop.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-28-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strawberry-summer-cake.png",
+        "selected_prompt": "prompts/strawberry-summer-cake.txt",
+        "sha256": "fe52148f19619f39c9f9837e4f1d0c5fbee6e275060eca790633dfa26b42a324"
+      },
+      {
+        "entry": 29,
+        "filename": "strozzapreti-with-spinach-and-preserved-lemon.png",
+        "source_entry": "29. strozzapreti-with-spinach-and-preserved-lemon.png\nDish: Strozzapreti with Preserved Lemon and Spinach. The dish: a bowl of twisted strozzapreti pasta glossy with lemony brown butter, tossed with wilted spinach and bits of preserved lemon, topped with a scattering of crisp golden garlic-chili panko crumbs. Show the golden crunchy crumbs over the glossy twisted pasta and dark greens. Texture: glossy, buttery chewy pasta, soft spinach, crunchy crumbs. Colours: pale golden pasta, deep green spinach, golden crumbs, yellow lemon peel. Serving dish: a wide shallow white pasta bowl with a thin slate blue rim. Garnish, and nothing else on the food: lemon zest. Setting: a bright Italian weeknight dinner. Backdrop: butter yellow (#F9D27E). Moment: just tossed and served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/strozzapreti-with-spinach-and-preserved-lemon-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-397cd90e-e8a4-4050-9116-6c9225806ddb.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "fba2739800e1ef3097978a29a98d5b64017ba653a1a14ef791622bd4a3a277ab",
+            "prompt_sha256": "37ee26fcf4dd8b1c50ef92a1887998faa5e6ab021a77ed4cdc0ff9ca8053bff3",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-29-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry29-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Short twisted strozzapreti with wilted spinach, preserved lemon, golden garlic-chili panko and lemon zest.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-29-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/strozzapreti-with-spinach-and-preserved-lemon.png",
+        "selected_prompt": "prompts/strozzapreti-with-spinach-and-preserved-lemon.txt",
+        "sha256": "fba2739800e1ef3097978a29a98d5b64017ba653a1a14ef791622bd4a3a277ab"
+      },
+      {
+        "entry": 30,
+        "filename": "stuffed-shells-filled-with-spinach-and-ricotta.png",
+        "source_entry": "30. stuffed-shells-filled-with-spinach-and-ricotta.png\nDish: Spinach and Ricotta Stuffed Shells. The dish: three baked jumbo pasta shells filled with green-flecked ricotta and spinach, nestled in red tomato sauce under a browned layer of melted mozzarella. Show the golden-browned cheese over the plump stuffed shells and red sauce. Texture: tender pasta, creamy filling, melted browned cheese. Colours: golden brown cheese, red tomato sauce, white ricotta with green spinach. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: torn basil leaves. Setting: an Italian-American family dinner. Backdrop: soft peach (#FFB07E). Moment: fresh from the oven.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/stuffed-shells-filled-with-spinach-and-ricotta-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-9d25cad1-84d5-4a5f-a8aa-92a6f72e5aa6.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "66b4e7559cde28c0d6d2f705f573d346f174bba0a9b7db422929fe54a9bc48b2",
+            "prompt_sha256": "f0c3b6a903f5672970a192fd68f255a8bdea5b2e4c85cc9a7a173489cb9e2904",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-30-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry30-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly three jumbo shells stuffed with spinach-ricotta, tomato sauce, browned mozzarella and torn basil.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-30-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/stuffed-shells-filled-with-spinach-and-ricotta.png",
+        "selected_prompt": "prompts/stuffed-shells-filled-with-spinach-and-ricotta.txt",
+        "sha256": "66b4e7559cde28c0d6d2f705f573d346f174bba0a9b7db422929fe54a9bc48b2"
+      },
+      {
+        "entry": 31,
+        "filename": "sugar-cookie.png",
+        "source_entry": "31. sugar-cookie.png\nDish: Sugar Cookies. The dish: five rolled cut-out sugar cookies in simple shapes (round and star), flat and pale with lightly golden edges, arranged in a loose overlapping row. Show the crisp, clean-cut shapes with pale golden edges. Texture: firm, tender cookies with crisp edges. Colours: pale buttery cream, light golden edges. Serving dish: a small round white plate with a thin slate blue rim. No garnish. Setting: holiday baking at home. Backdrop: soft peach (#FFB07E). Moment: cooled and ready to decorate.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sugar-cookie-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-a5821031-295f-433c-8827-73f0d29396c5.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "fe5a426f72c75cd5769f8861f828bb547a2f8f466168f805d9e522699a58ce91",
+            "prompt_sha256": "8d79e76a6f6da4ff20167822754e61d47f6558b8a9e2fb2828e64a5713c25803",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-31-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry31-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly five uniced sugar cookies: three rounds and two stars, overlapping row.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-31-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sugar-cookie.png",
+        "selected_prompt": "prompts/sugar-cookie.txt",
+        "sha256": "fe5a426f72c75cd5769f8861f828bb547a2f8f466168f805d9e522699a58ce91"
+      },
+      {
+        "entry": 32,
+        "filename": "sun-dried-tomato-chicken-orzo.png",
+        "source_entry": "32. sun-dried-tomato-chicken-orzo.png\nDish: Sun-Dried Tomato Chicken Orzo Bake. The dish: a generous spoonful of creamy baked orzo with pieces of chicken, chopped spinach and red sun-dried tomatoes, swirled with melted garlic-herb cheese. Show the creamy orzo flecked with red sun-dried tomato and green spinach. Texture: creamy, tender orzo, juicy chicken. Colours: creamy ivory orzo, deep red tomato, dark green spinach, golden chicken. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish, and nothing else on the food: a little lemon zest and parsley. Setting: an easy family dinner. Backdrop: butter yellow (#F9D27E). Moment: fresh from the oven.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sun-dried-tomato-chicken-orzo-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-4f292fe5-edc7-449e-a0c3-8664a9fd1e0a.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "c40af6fb1f921d8c85357911fda7fab495af98e9d3d4817f33c3426224ce09fd",
+            "prompt_sha256": "51176ca7c55c63214c89232da146d874ff5f65daa7684fa295945e6f9e641a8d",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-32-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry32-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Creamy rice-shaped orzo with chicken, spinach, sun-dried tomato, melted garlic-herb cheese, lemon zest and parsley.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-32-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sun-dried-tomato-chicken-orzo.png",
+        "selected_prompt": "prompts/sun-dried-tomato-chicken-orzo.txt",
+        "sha256": "c40af6fb1f921d8c85357911fda7fab495af98e9d3d4817f33c3426224ce09fd"
+      },
+      {
+        "entry": 33,
+        "filename": "sun-dried-tomato-pasta-with-chicken-and-mozzarella.png",
+        "source_entry": "33. sun-dried-tomato-pasta-with-chicken-and-mozzarella.png\nDish: Sun-Dried Tomato Chicken Pasta. The dish: a bowl of penne in a light pink-tinged cream sauce with tender chicken pieces, wilted spinach and red sun-dried tomatoes, with strands of melted mozzarella and fresh basil. Show the stretchy melted mozzarella over creamy penne and red tomatoes. Texture: creamy sauce, tender pasta and chicken, stretchy cheese. Colours: creamy blush sauce, deep red tomato, dark green spinach, golden chicken. Serving dish: a wide shallow white pasta bowl with a thin slate blue rim. Garnish, and nothing else on the food: chopped fresh basil. Setting: a comforting weeknight dinner. Backdrop: butter yellow (#F9D27E). Moment: just tossed and served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sun-dried-tomato-pasta-with-chicken-and-mozzarella-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-42cf63b8-0b16-463b-8e3f-de94e482aa4f.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "81f7e262220e4a2d124e8e818b339939d1a4ee8d96340fea12a1e499a1929b80",
+            "prompt_sha256": "55d5f355008762b26a73c483694bc2f9c0e995b1e2fef85ec56a39d17887ad77",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-33-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry33-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Penne in blush cream sauce with chicken, spinach, sun-dried tomatoes, melted mozzarella and basil.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-33-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sun-dried-tomato-pasta-with-chicken-and-mozzarella.png",
+        "selected_prompt": "prompts/sun-dried-tomato-pasta-with-chicken-and-mozzarella.txt",
+        "sha256": "81f7e262220e4a2d124e8e818b339939d1a4ee8d96340fea12a1e499a1929b80"
+      },
+      {
+        "entry": 34,
+        "filename": "super-lemony-olive-oil-cake.png",
+        "source_entry": "34. super-lemony-olive-oil-cake.png\nDish: Super Lemony Olive Oil Cake. The dish: one tall wedge of golden olive oil cake with a moist, tender yellow crumb and a crackly sugar-crusted top. Show the crackly, sparkling sugar top and moist golden crumb. Texture: moist, tender, fine crumb with a crisp sugary top. Colours: golden yellow crumb, deep golden crust, sparkling sugar. Serving dish: a small round white plate with a thin slate blue rim. Garnish, and nothing else on the food: a few curls of lemon zest. Setting: an Italian-style afternoon treat. Backdrop: soft peach (#FFB07E). Moment: cooled and just sliced.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/super-lemony-olive-oil-cake-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-9a90e4fb-27e6-4c79-a5ef-1f56bea4813f.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "85c9268834d53d90116710eec8fd02709681e85585fd0d6c781aea04bf077145",
+            "prompt_sha256": "d02fce3ad857a7500cb816b91666a7f4f4f3ed15c7653f98396d95d04fb872db",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-34-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry34-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One golden olive oil cake wedge with moist crumb, sugar crust and lemon zest curls.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-34-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/super-lemony-olive-oil-cake.png",
+        "selected_prompt": "prompts/super-lemony-olive-oil-cake.txt",
+        "sha256": "85c9268834d53d90116710eec8fd02709681e85585fd0d6c781aea04bf077145"
+      },
+      {
+        "entry": 35,
+        "filename": "sweet-and-spicy-spareribs-with-korean-barbecue-sauce.png",
+        "source_entry": "35. sweet-and-spicy-spareribs-with-korean-barbecue-sauce.png\nDish: Sweet and Spicy Korean Barbecue Spareribs. The dish: a stack of five individual pork spareribs lacquered in a sticky, glossy deep red gochujang-honey glaze, with lime wedges at the side. Show the sticky, lacquered red glaze on the tender ribs. Texture: fall-off-the-bone tender meat, sticky caramelised glaze. Colours: deep glossy red-brown glaze, bright green lime. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: lime wedges and sliced scallion. Setting: a Korean-style backyard dinner. Backdrop: soft peach (#FFB07E). Moment: just glazed and cut.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-and-spicy-spareribs-with-korean-barbecue-sauce-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-2f41ea94-e4e0-4385-8a6d-956dc9741f71.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "921225474da99a26ac82d61d623a603251eea27ea065b8e5fbcd57e2ac910359",
+            "prompt_sha256": "a2291e1112a2944dc80f796ea64f0b2400938580923bf8ed029988e78bd83360",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-35-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry35-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly five separate glazed spareribs in a loose stack, lime wedges and scallions.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-35-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.png",
+        "selected_prompt": "prompts/sweet-and-spicy-spareribs-with-korean-barbecue-sauce.txt",
+        "sha256": "921225474da99a26ac82d61d623a603251eea27ea065b8e5fbcd57e2ac910359"
+      },
+      {
+        "entry": 36,
+        "filename": "sweet-and-white-potato-gratin.png",
+        "source_entry": "36. sweet-and-white-potato-gratin.png\nDish: Sweet and White Potato Gratin. The dish: one neat square portion of gratin showing alternating thin layers of orange sweet potato and pale yellow Yukon Gold potato in cream, under a golden-brown crust of Gruy\u00e8re and Parmesan. Show the striped cut side of orange and pale potato layers under the golden crust. Texture: tender, creamy layers, crisp cheesy crust. Colours: orange and pale gold layers, golden-brown cheese top, green thyme. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: fresh thyme leaves. Setting: a holiday dinner side. Backdrop: soft peach (#FFB07E). Moment: fresh from the oven, set.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-and-white-potato-gratin-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-b174dd96-e549-4d96-baf4-ffe87cbb47bf.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "d2e25ffb149e61f7af0ca89200e507c7e25a893a08d53c40fddb0b1cdde732a4",
+            "prompt_sha256": "15920a6ab6b2edf6ac4cf131e74630cd75ad3607d974380b6f61bf48f30289ef",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-36-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry36-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One square portion with alternating orange sweet potato and pale Yukon potato layers, golden cheese crust and thyme.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-36-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-and-white-potato-gratin.png",
+        "selected_prompt": "prompts/sweet-and-white-potato-gratin.txt",
+        "sha256": "d2e25ffb149e61f7af0ca89200e507c7e25a893a08d53c40fddb0b1cdde732a4"
+      },
+      {
+        "entry": 37,
+        "filename": "sweet-chili-chicken-sliders.png",
+        "source_entry": "37. sweet-chili-chicken-sliders.png\nDish: Sweet Chili Chicken Sliders. The dish: three small sliders on soft golden Hawaiian rolls, each filled with a glossy sweet chili-glazed chicken thigh and a crunchy Asian-style slaw. Show the glossy sweet chili chicken peeking out under crisp slaw. Texture: soft sweet rolls, juicy glazed chicken, crunchy slaw. Colours: golden rolls, glossy red-orange glaze, pale green and purple cabbage. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: a sprinkle of sesame seeds. Setting: a casual party or game day. Backdrop: soft peach (#FFB07E). Moment: just assembled.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-chili-chicken-sliders-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "rejected",
+            "source": "generated_images/exec-a7a27c2d-ea12-41ba-9518-1f300040589b.png",
+            "rejection_reason": "Left plate rim extends approximately 6 pixels outside central-half crop; food and count otherwise correct.",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "e5b10c2e76c7dbb50df8d4b9c4fb45eeb05ef8b9f21423bd8421865913b9ae26",
+            "prompt_sha256": "47e6cf544efa65b4bc58c4969d9cccaeccda2fc84044038bde586ad7e5674006",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-37-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry37-attempt01",
+            "tool": "image_gen.imagegen"
+          },
+          {
+            "attempt": 2,
+            "prompt": "prompts/sweet-chili-chicken-sliders-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-a7a27c2d-ea12-41ba-9518-1f300040589b.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-9803e08a-a723-45f5-bd82-59cec28f59df.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "b392437df181e670cb6bbbde536bba7018de4457c53fc7f9f21eadd19c17aee8",
+            "prompt_sha256": "50bfa7de28130695668547332e99518287fc774f246527628187cddc3be4e3d4",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "e5b10c2e76c7dbb50df8d4b9c4fb45eeb05ef8b9f21423bd8421865913b9ae26"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-37-attempt2-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry37-attempt02",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 2,
+        "qa": {
+          "food": "Exactly three sweet chili chicken sliders with Hawaiian rolls, green and purple cabbage slaw and sesame. Complete plate fits central crop after modest framing correction.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-37-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-chili-chicken-sliders.png",
+        "selected_prompt": "prompts/sweet-chili-chicken-sliders.txt",
+        "sha256": "b392437df181e670cb6bbbde536bba7018de4457c53fc7f9f21eadd19c17aee8"
+      },
+      {
+        "entry": 38,
+        "filename": "sweet-potato-fries.png",
+        "source_entry": "38. sweet-potato-fries.png\nDish: Sweet Potato Fries. The dish: a loose pile of long, crisp-edged orange sweet potato fries dusted with paprika, garlic and sea salt. Show the crisp, caramelised edges of the bright orange fries. Texture: crisp outside, soft and tender inside. Colours: vivid orange, brown caramelised edges, red paprika dust. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: a pinch of flaky sea salt. Setting: a casual family side. Backdrop: butter yellow (#F9D27E). Moment: fresh from the oven.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-potato-fries-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-a7d1393c-aaa7-44b0-9fd2-b9601befdb0a.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "74bdbe9e46bf9b627fa75d93e4371d1c81628bc008425790a5297a44346c526b",
+            "prompt_sha256": "09c984393074d109a881747fa286be1e8d09fc071fa5589a21e52a13655b6acc",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-38-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry38-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Long orange sweet potato fries with browned edges, paprika seasoning and flaky salt only.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-38-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-potato-fries.png",
+        "selected_prompt": "prompts/sweet-potato-fries.txt",
+        "sha256": "74bdbe9e46bf9b627fa75d93e4371d1c81628bc008425790a5297a44346c526b"
+      },
+      {
+        "entry": 39,
+        "filename": "sweet-potato-latkes.png",
+        "source_entry": "39. sweet-potato-latkes.png\nDish: Sweet Potato Latkes. The dish: four crisp golden-orange sweet potato pancakes fanned in an overlapping row, lacy edges visible, with a spoonful of applesauce at the side. Show the crisp, lacy golden-orange edges of the latkes. Texture: crisp, lacy edges, tender inside. Colours: golden orange latkes, green scallion flecks, pale applesauce. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: chopped scallions. Setting: a Hanukkah family meal. Backdrop: butter yellow (#F9D27E). Moment: just fried and drained.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-potato-latkes-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-0b3a227d-0ae8-46e1-98a1-697c81c873df.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "70c8442358f7800c14c8eddf4c306006d4dcb7f41f1973b2b5dc0872d2df3c5d",
+            "prompt_sha256": "27ba42210ed1c6bc6be4598ec273a4b7acc58400814909b268b2a5356a70ca18",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-39-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry39-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly four overlapping sweet potato latkes with crisp lacy orange edges, sliced scallion and applesauce resting directly on plate; no spoon.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-39-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-potato-latkes.png",
+        "selected_prompt": "prompts/sweet-potato-latkes.txt",
+        "sha256": "70c8442358f7800c14c8eddf4c306006d4dcb7f41f1973b2b5dc0872d2df3c5d"
+      },
+      {
+        "entry": 40,
+        "filename": "sweet-potato-sausage-breakfast-casserole.png",
+        "source_entry": "40. sweet-potato-sausage-breakfast-casserole.png\nDish: Sweet Potato Sausage Breakfast Casserole. The dish: one square slice of baked egg casserole showing diced orange sweet potato, crumbled sausage, red bell pepper and onion set in fluffy egg, with melted white cheddar on top. Show the colourful cut side packed with sweet potato and sausage. Texture: fluffy set egg, tender sweet potato, savoury sausage. Colours: golden egg, orange sweet potato, brown sausage, red pepper, green onion. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: sliced green onion. Setting: a weekend family brunch. Backdrop: soft peach (#FFB07E). Moment: fresh from the oven, set.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-potato-sausage-breakfast-casserole-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-3745b894-df49-4706-bf9c-33e6cdb5954e.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "b88067e52f3b85cc2a44907ab79af3490c5854db5884d39ea4a6afe4816495ab",
+            "prompt_sha256": "e70fbda21f72976fa77742cca44b58e25b7b3676e028ad91944b0d1592d881a3",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-40-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry40-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "One square egg casserole with orange sweet potato cubes, sausage, red bell pepper and onion, pale melted white cheddar and green onion.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-40-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-potato-sausage-breakfast-casserole.png",
+        "selected_prompt": "prompts/sweet-potato-sausage-breakfast-casserole.txt",
+        "sha256": "b88067e52f3b85cc2a44907ab79af3490c5854db5884d39ea4a6afe4816495ab"
+      },
+      {
+        "entry": 41,
+        "filename": "sweet-spinach-muffins.png",
+        "source_entry": "41. sweet-spinach-muffins.png\nDish: Spinach Muffins. The dish: four domed, bright green spinach and banana muffins, one broken open to show a soft, moist green crumb. Show the surprising vivid green crumb of the broken muffin. Texture: soft, moist, tender crumb. Colours: bright spinach green, golden brown tops. Serving dish: a small round white plate with a thin slate blue rim. No garnish. Setting: a wholesome family snack. Backdrop: butter yellow (#F9D27E). Moment: cooled from the oven.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/sweet-spinach-muffins-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-3ca963ca-5679-41b1-ae43-5a8499995777.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "310e0748e38a32d0ea53aab95469f814c62d31a977ebab605ffb5b00c56ec951",
+            "prompt_sha256": "da6750469241f97bd218ed8911d12c4b616da0f98f3895a69b13cd01aeb1d626",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-41-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry41-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Four spinach banana muffins total: three intact and two broken halves of the fourth, bright green moist crumb and green-golden domes; no garnish.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-41-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/sweet-spinach-muffins.png",
+        "selected_prompt": "prompts/sweet-spinach-muffins.txt",
+        "sha256": "310e0748e38a32d0ea53aab95469f814c62d31a977ebab605ffb5b00c56ec951"
+      },
+      {
+        "entry": 42,
+        "filename": "szechuan-eggplant-and-tofu.png",
+        "source_entry": "42. szechuan-eggplant-and-tofu.png\nDish: Chili-Garlic Eggplant and Tofu. The dish: cubes of roasted eggplant and golden crisp-edged tofu in a glossy, red-brown sweet-sour chili-garlic sauce, scattered with sesame seeds and fresh herbs. Show the glossy sauced eggplant and golden tofu cubes. Texture: silky eggplant, crisp-edged tofu, sticky glossy sauce. Colours: deep purple-brown eggplant, golden tofu, red-brown sauce, green herbs. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: toasted sesame seeds, sliced scallion and cilantro. Setting: Sichuan-inspired vegetarian dinner. Backdrop: butter yellow (#F9D27E). Moment: just tossed, glossy.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/szechuan-eggplant-and-tofu-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-4ee2015c-a3e5-4a5a-b400-59dd8ad08c20.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "2593b8a342bc5d006f5d9b6f7fdd7b54be7fad707951e243c851af429e45b1f2",
+            "prompt_sha256": "383712b21d67de3ea2141e1f0ea79815d7ed901bdb2a662d1999b546e4e319db",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-42-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry42-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Glossy eggplant chunks and golden tofu with red-brown chili garlic sauce, sesame, scallion and cilantro.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-42-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/szechuan-eggplant-and-tofu.png",
+        "selected_prompt": "prompts/szechuan-eggplant-and-tofu.txt",
+        "sha256": "2593b8a342bc5d006f5d9b6f7fdd7b54be7fad707951e243c851af429e45b1f2"
+      },
+      {
+        "entry": 43,
+        "filename": "tacos.png",
+        "source_entry": "43. tacos.png\nDish: Weeknight Ground-Turkey Tacos. The dish: three crisp taco shells standing upright side by side, filled with seasoned ground turkey and topped with shredded lettuce, diced tomato and shredded cheese. Show the seasoned turkey filling under crisp, colourful toppings. Texture: crunchy shells, moist savoury filling, crisp lettuce. Colours: golden shells, brown spiced turkey, green lettuce, red tomato, yellow cheese. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: a lime wedge. Setting: a family taco night. Backdrop: pale sky blue (#D4E9F2). Moment: just assembled.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/tacos-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-dfe8ae75-a6fd-45e1-9444-3177f32d0442.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "c3b75f3a32d86442efc54e7c4c1b62bcebffb0d36afca2a0f11ae5390d056c56",
+            "prompt_sha256": "0448d7e90a618fcdb7cb7fc0d30abf4e4d133e7096ec6dd4f99b384f9a7a6921",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-43-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry43-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Exactly three upright crisp taco shells with ground turkey, lettuce, tomato and shredded cheese; one lime wedge; no rack or holder.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-43-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/tacos.png",
+        "selected_prompt": "prompts/tacos.txt",
+        "sha256": "c3b75f3a32d86442efc54e7c4c1b62bcebffb0d36afca2a0f11ae5390d056c56"
+      },
+      {
+        "entry": 44,
+        "filename": "tahini-sauce.png",
+        "source_entry": "44. tahini-sauce.png\nDish: Roasted Cauliflower with Tahini Sauce. The dish: golden roasted cauliflower florets piled on a plate and generously drizzled with a smooth, creamy pale tahini sauce. Show the creamy ribbons of tahini sauce over the browned cauliflower. Texture: smooth, pourable, creamy sauce; tender, browned florets. Colours: pale ivory tahini, golden-brown cauliflower, green parsley. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: chopped parsley and a pinch of cumin. Setting: a Middle Eastern-style meal. Backdrop: pale sky blue (#D4E9F2). Moment: just drizzled.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/tahini-sauce-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-835786b8-7972-4bc5-ace4-90845cb43b3d.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "130b50328d3189adbda0feaabbc82e4877630a43401ac3c9e40750167c11e56f",
+            "prompt_sha256": "2214c15f5fe4252e0159cfc34edf046bbe4ee5c0b47af0bad597572926531faf",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-44-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry44-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Roasted cauliflower florets with creamy tahini drizzle, parsley and cumin; no additional garnish.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-44-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/tahini-sauce.png",
+        "selected_prompt": "prompts/tahini-sauce.txt",
+        "sha256": "130b50328d3189adbda0feaabbc82e4877630a43401ac3c9e40750167c11e56f"
+      },
+      {
+        "entry": 45,
+        "filename": "tamagoyaki-japanese-rolled-omelet.png",
+        "source_entry": "45. tamagoyaki-japanese-rolled-omelet.png\nDish: Tamagoyaki (Japanese Rolled Omelet). The dish: five thick slices cut from a rectangular rolled omelet, standing in a neat row to show the fine spiral layers inside. Show the delicate spiral layers on the cut faces. Texture: tender, soft, layered and slightly springy. Colours: pale sunny yellow with light golden edges. Serving dish: an oval white platter with a thin slate blue rim. Garnish, and nothing else on the food: a few finely chopped chives. Setting: a Japanese breakfast or bento. Backdrop: pale sky blue (#D4E9F2). Moment: just sliced.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/tamagoyaki-japanese-rolled-omelet-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "rejected",
+            "source": "generated_images/exec-e4185562-bbc5-4fb8-bbae-67059b50a0eb.png",
+            "rejection_reason": "Plate rim slightly outside central-half crop at both sides, approximately x373..1154; count and rolled-egg layers correct.",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "fa875286664272cf015e60be8bdd3c89db4607789907152b4d2345f289d473cd",
+            "prompt_sha256": "df337249f0ac25fe747b748e1a18f1c46f396efa837dd4f68fe0341266768083",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-45-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry45-attempt01",
+            "tool": "image_gen.imagegen"
+          },
+          {
+            "attempt": 2,
+            "prompt": "prompts/tamagoyaki-japanese-rolled-omelet-attempt-02.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "generated_images/exec-e4185562-bbc5-4fb8-bbae-67059b50a0eb.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-f091d5ce-66c1-486e-b181-e93540c4dea0.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "d4ade3f5eb1346475bf6bcfa4b5bc4bdc2e3533d81eeaea2603f4af19c0b45fa",
+            "prompt_sha256": "652c558976275045d7687183e78084b26be667cb911f755c03685e4e05af0b8c",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "fa875286664272cf015e60be8bdd3c89db4607789907152b4d2345f289d473cd"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-45-attempt2-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry45-attempt02",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 2,
+        "qa": {
+          "food": "Exactly five thick rectangular rolled omelet slices with fine spiral layers and chopped chives only; plate fits central crop after modest framing correction.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-45-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/tamagoyaki-japanese-rolled-omelet.png",
+        "selected_prompt": "prompts/tamagoyaki-japanese-rolled-omelet.txt",
+        "sha256": "d4ade3f5eb1346475bf6bcfa4b5bc4bdc2e3533d81eeaea2603f4af19c0b45fa"
+      },
+      {
+        "entry": 46,
+        "filename": "tarragon-potatoes.png",
+        "source_entry": "46. tarragon-potatoes.png\nDish: Tarragon Potatoes. The dish: a pile of golden roasted russet potato chunks glistening with butter and olive oil, flecked with dried tarragon. Show the crisp golden edges of the potatoes flecked with green tarragon. Texture: crisp, golden outsides, fluffy insides. Colours: golden brown potatoes, green herb flecks. Serving dish: a shallow white bowl with a thin slate blue rim. No garnish. Setting: a simple family side dish. Backdrop: butter yellow (#F9D27E). Moment: fresh from the oven.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/tarragon-potatoes-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-09/images/miso-mashed-potatoes.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-6f8b2c7c-db45-4e2a-8c77-618d1844e79f.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "77c4d26164717f0deb017e1759460f715006e12acae4f9e2a2370fda1a396ae7",
+            "prompt_sha256": "b32bd2566f3aa80430f0f609ce99a05a9c8d93ab9d9834b3312f6c0633f99878",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "ef481ea74f4d8f8efdb22958e56e2f9b5e1571782de96de77b65c6c579a1e332"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-46-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry46-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Golden roasted russet potato chunks with butter/oil sheen and dried tarragon flecks, no additional garnish.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-46-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/tarragon-potatoes.png",
+        "selected_prompt": "prompts/tarragon-potatoes.txt",
+        "sha256": "77c4d26164717f0deb017e1759460f715006e12acae4f9e2a2370fda1a396ae7"
+      },
+      {
+        "entry": 47,
+        "filename": "thai-basil-chicken-pad-kra-pao.png",
+        "source_entry": "47. thai-basil-chicken-pad-kra-pao.png\nDish: Holy Basil Chicken (Pad Kra Pao). The dish: a mound of white jasmine rice beside a pile of glossy stir-fried ground chicken with holy basil and chiles, topped with a crisp-edged fried egg with a runny yolk. Show the crisp-edged fried egg on the basil chicken and rice. Texture: savoury, glossy ground chicken, crisp lacy egg edges, runny yolk, fluffy rice. Colours: dark savoury brown chicken, green basil, red chile, white rice, golden yolk. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: a lime wedge. Setting: Thai street-food style dinner at home. Backdrop: butter yellow (#F9D27E). Moment: just served.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/thai-basil-chicken-pad-kra-pao-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-024b6615-79e9-488d-bd18-2b1022647b2f.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "71bd6436b2e1ebbe5721c2b81d893f85d14278b228bb4371b3ae51a6ce0e9395",
+            "prompt_sha256": "b7923e83992f413387c7fd876abef3fe3af32ac14d77d14c7cfa83842d3b93bd",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-47-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry47-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Ground chicken with holy basil and chiles beside jasmine rice, topped with one crisp-edged fried egg with runny yolk, plus one lime wedge.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-47-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/thai-basil-chicken-pad-kra-pao.png",
+        "selected_prompt": "prompts/thai-basil-chicken-pad-kra-pao.txt",
+        "sha256": "71bd6436b2e1ebbe5721c2b81d893f85d14278b228bb4371b3ae51a6ce0e9395"
+      },
+      {
+        "entry": 48,
+        "filename": "thai-basil-ginger-spritzer.png",
+        "source_entry": "48. thai-basil-ginger-spritzer.png\nDish: Thai Basil-Ginger Spritzer. The dish: a glass of pale golden sparkling Prosecco with fine bubbles, a Thai basil sprig and a lime wedge in the glass. Show the sparkling pale gold drink with green basil. Texture: crisp, bubbly and light. Colours: pale gold, bright green basil, lime green. Serving dish: a clear wine glass. Garnish, and nothing else on the food: a Thai basil sprig and a lime wedge. Setting: a summer garden party. Backdrop: pale sky blue (#D4E9F2). Moment: just poured, sparkling.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/thai-basil-ginger-spritzer-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/prohibition-style-gin-lemon-fizz.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-5065f3a0-2b91-4564-ba99-9886b5ca2662.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "9a12833607d8ba213a296600c8063fa0afd080fbe4aa292f0b04407ffc9b9fb7",
+            "prompt_sha256": "d94928efc510f6aaff3c2f6696c9d7da0daabb108f94407807c9e34f59c39425",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "bd9092335aac193c800501f33319fd5c6385c6ea241dc21b70e941d295600c6c"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-48-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry48-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Stemmed clear wineglass with pale gold sparkling drink, fine bubbles, Thai basil sprig and lime wedge in the glass; no straw or extra props.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-48-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [
+            "Wineglass approximately 77% image height; basil extends overall silhouette to approximately 83%. Entire glass and garnish remain visible and crop-safe."
+          ],
+          "framing_note": "Tall glass height follows the three-quarter-height convention; basil extends above rim. Complete silhouette fits crop."
+        },
+        "final_path": "images/thai-basil-ginger-spritzer.png",
+        "selected_prompt": "prompts/thai-basil-ginger-spritzer.txt",
+        "sha256": "9a12833607d8ba213a296600c8063fa0afd080fbe4aa292f0b04407ffc9b9fb7"
+      },
+      {
+        "entry": 49,
+        "filename": "thai-basil-noodles.png",
+        "source_entry": "49. thai-basil-noodles.png\nDish: Thai Basil Noodles (Pad Kee Mao-style). The dish: a pile of wide, glossy dark soy-tinted rice noodles tossed with ground pork, strips of bell pepper, chiles and plenty of Thai basil, with a lime wedge at the side. Show the glossy wide noodles tangled with green basil. Texture: chewy, glossy wide noodles, savoury ground meat, wilted basil. Colours: deep brown glossy noodles, vivid green basil, red pepper and chile. Serving dish: a white dinner plate with a thin slate blue rim. Garnish, and nothing else on the food: Thai basil leaves and a lime wedge. Setting: Thai street-food style dinner at home. Backdrop: butter yellow (#F9D27E). Moment: just tossed, glossy.",
+        "attempts": [
+          {
+            "attempt": 1,
+            "prompt": "prompts/thai-basil-noodles-attempt-01.txt",
+            "references": [
+              "reference/margarita-01-cookbook.png",
+              "batch-10/images/pork-and-greens-dumplings.png"
+            ],
+            "status": "selected",
+            "source": "generated_images/exec-e501f237-6ed4-4990-9982-15cf371f7259.png",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "format": "PNG",
+            "source_sha256": "33de54645e191a3f35f1c294c4882b55beb36ea63973cb8e6bbf553d6dc948e9",
+            "prompt_sha256": "49a81bbeb3598aefca78c2b641a05a5b615da64825e5099b89d77b5fa150b0a5",
+            "reference_sha256": [
+              "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+              "6cc7a4bb3989bf3665c66741733631f3162d7ead894f22677e39b510cf70465d"
+            ],
+            "original_reference_attached": true,
+            "transparent_background": false,
+            "crop_path": "qa/worker02-49-attempt1-central-half.png",
+            "exact_passed_prompt_text_verified": true,
+            "local_attempt_id": "batch13-entry49-attempt01",
+            "tool": "image_gen.imagegen"
+          }
+        ],
+        "selected_attempt": 1,
+        "qa": {
+          "food": "Wide glossy dark soy-tinted flat rice noodle ribbons with ground pork, bell pepper strips, chiles, wilted Thai basil, fresh basil garnish and one lime wedge.",
+          "full_review": true,
+          "central_half_crop_review": true,
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "format": "PNG",
+          "source_byte_identical": true,
+          "crop_path": "qa/worker02-49-central-half.png",
+          "strict_crop_pass": true,
+          "crop_bounds": [
+            384,
+            0,
+            1152,
+            1024
+          ],
+          "complete_food_and_vessel_in_crop": true,
+          "no_steam_smoke_vapour": true,
+          "no_extra_props_or_cutlery": true,
+          "no_text_or_logos": true,
+          "flat_even_prescribed_backdrop": true,
+          "centred": true,
+          "recipe_and_count_review": true,
+          "photorealism_review": true,
+          "final_status": "accepted",
+          "minor_caveats": [],
+          "framing_note": "Complete food and vessel fit the central-half crop; vessel approximately half frame width. Visual estimate rather than a computed segmentation."
+        },
+        "final_path": "images/thai-basil-noodles.png",
+        "selected_prompt": "prompts/thai-basil-noodles.txt",
+        "sha256": "33de54645e191a3f35f1c294c4882b55beb36ea63973cb8e6bbf553d6dc948e9"
+      }
+    ],
+    "summary": {
+      "builtin_calls": 55,
+      "builtin_image_gen_calls": 55,
+      "delivered_count": 49,
+      "remakes": 6,
+      "initial_generations": 49,
+      "accepted_count": 49,
+      "strict_crop_pass_count": 49,
+      "unresolved_failure_count": 0,
+      "crop_flags": 0,
+      "minor_scale_caveat_entries": [
+        11,
+        48
+      ],
+      "rejected_attempts": 6,
+      "original_reference_attached_every_call": true,
+      "unchanged_final_pngs": 49,
+      "exact_prompt_text_verified_count": 55
+    },
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "source_files_sha256": {
+      "source.md": "d8ddcec3602b22e05a73bc3a06f1aa6bbd4a34ee50bbfbcfadfe99d9d7d22f93",
+      "entries.json": "181dd83d060f87b401a67dbdf73264dad8a00845fb5c26efe53236a6644a2238",
+      "shared-style.txt": "186cfcaaebfb00f56bb2e1144e6879147cafc65081b6cfbea0596938cda7ad92",
+      "source-provenance.json": "bc98a9ce7e49d4c0b3493e96f9df4cfb54f9b2b1b07cd65b446cdc09cbf6d6d1"
+    },
+    "qa_contact_sheets": [
+      "qa/worker02-group1-crops.jpg",
+      "qa/worker02-group1-full.jpg",
+      "qa/worker02-group2-crops.jpg",
+      "qa/worker02-group2-full.jpg",
+      "qa/worker02-group3-crops.jpg",
+      "qa/worker02-group3-full.jpg",
+      "qa/worker02-group4-crops.jpg",
+      "qa/worker02-group4-full.jpg",
+      "qa/worker02-group5-crops.jpg",
+      "qa/worker02-group5-full.jpg",
+      "qa/worker02-group6-crops.jpg",
+      "qa/worker02-group6-full.jpg",
+      "qa/worker02-group7-crops.jpg",
+      "qa/worker02-group7-full.jpg",
+      "qa/worker02-group8-crops.jpg",
+      "qa/worker02-group8-full.jpg",
+      "qa/worker02-group9-crops.jpg",
+      "qa/worker02-group9-full.jpg",
+      "qa/worker02-rejected1-crops.jpg"
+    ],
+    "generation_finished_utc": "2026-11-03T01:36:51Z",
+    "completed_utc": "2026-11-03T01:40:01.591977Z",
+    "status": "stable; local delivery ready for coordinator review",
+    "qa_method": "Every generated candidate was viewed full-frame. Selected finals were additionally reviewed in native central-half crops and/or crop contact sheets. Final full and crop proof sheets were checked. QA derivatives only; final pixels were not modified.",
+    "tool_constraints": {
+      "generation": "Built-in image_gen.imagegen only",
+      "final_processing": "Unchanged byte copies from actual returned local paths",
+      "qa_processing": "Pillow crop/contact-sheet derivatives only",
+      "external_writes": "None; no Git, Library, API or publication actions by this worker"
+    },
+    "integrity_audit": {
+      "all_49_exact_filenames": true,
+      "all_49_png_1536x1024": true,
+      "all_49_source_bytes_identical": true,
+      "all_49_selected_prompt_copies_identical": true,
+      "all_55_actual_passed_prompts_verified": true,
+      "all_55_reference_lists_and_hashes_verified": true,
+      "all_55_actual_returned_source_paths_recorded": true,
+      "source_file_hashes_verified": true
+    }
+  }
+]
