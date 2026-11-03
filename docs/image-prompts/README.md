@@ -18,11 +18,11 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 | 12 | batch-10.md | 49 | Done, 48 pass; 1 redo below (patatas bravas size, gin fizz height and the single-row tuna roll are fine to keep) |
 | 13 | batch-10-redo.md | 1 | Done, the queso passes |
 | 14 | batch-11.md | 49 | Done, all 49 pass, no redos |
-| 15 | batch-12.md | 49 | To make |
+| 15 | batch-12.md | 49 | Done, all 49 pass, no redos (whole snow peas are fine to keep) |
 | 16 | batch-13.md | 49 | To make |
-| 17 | batch-14.md | 43 | To make |
+| 17 | batch-14.md | 43 | Done, all 43 pass, no redos (halved mushrooms are fine to keep) |
 
-Batches 1 to 11 and all redos so far are done; don't remake them. There are no open redos; carry on with batches 12 to 14.
+Batches 1 to 12, batch 14 and all redos so far are done. Don't remake them. There are no open redos. Only batch 13 is left to save.
 
 Claude checks each batch branch as it lands. When some images need another go, a `batch-NN-redo.md` file appears in this folder and gets a row in the table above. Check here before each new batch and make any redos first, on their own branch, `images/mise-batch-NN-redos-YYYY-MM-DD`.
 
