@@ -19,3 +19,7 @@ The original [margarita reference](https://github.com/jsilton/mise/blob/images/m
 65 generation calls for 49 finals (16 remakes), in concurrent groups of 22, 26 and 17 calls. Production and coordinator QA ran approximately 15:06–15:38 UTC on 2026-11-02, about 32 wall minutes including generation tool waits, with no intentional pause. Packaging, independent root review, Library and Git persistence are separate stages.
 
 Exact prompts, hashes and source/generation provenance are included. Six `review/` sheets show full frames and actual middle-half crops in groups 1–17, 18–33 and 34–49. Root independently reviewed all six sheets and checked the source-required queso tortilla pose at approximately 15:40 UTC. These remain review candidates, not user acceptance. Final coordination and independent review added about two minutes after production; persistence follows separately.
+
+## Current queso replacement review — 2026-11-03
+
+This redo branch replaces only queso-fundido-with-chorizo.png. See [redo review](../batch-10-redos/README.md) and [replacement hashes and QA](../batch-10-redos/qa-manifest.json). Tortilla lies flat and bare; the complete skillet handle fits the central-half crop. Stronger-shadow note retained. The other 48 images are unchanged. Original batch sheets and root QA manifest are historical evidence for the original queso, not current replacement hashes/results. Review-branch saving is not site application.

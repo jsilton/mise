@@ -1,0 +1,145 @@
+{
+  "worker": "worker-03",
+  "batch": "10-redos",
+  "scope": "One queso redo only",
+  "source_provenance": {
+    "repository": "jsilton/mise",
+    "source_commit": "0c8242b27d4e1d12d6783df48ee132b6fea36a72",
+    "source_path": "docs/image-prompts/batch-10-redo.md",
+    "source_blob": "687e2e92f321381660fea6a3d30e5145c9868226",
+    "planned_branch": "images/mise-batch-10-redos-2026-11-03",
+    "reference_sha256": "ff5e1aa7955a392875151dd50565daa881fc9f088ea39a6c4e4cdf8e472a8fa6",
+    "started_utc": "2026-11-03T00:53:00Z"
+  },
+  "source_sha256": "eb25afad4fa330e16ea5d1f1894ed508fb2f8bb4d0e42b873dcd4d6d3d54d129",
+  "generation_started_utc": "2026-11-03T00:54:35.391446+00:00",
+  "calls": [
+    {
+      "entry": 1,
+      "filename": "queso-fundido-with-chorizo.png",
+      "attempt": 1,
+      "mode": "generate",
+      "tool": "image_gen.imagegen",
+      "prompt_path": "prompts/queso-fundido-with-chorizo.txt",
+      "prompt_sha256": "97355edfee347ac8744cb82545ed62cc6d4ce37c8c25cd9278f959913c07a917",
+      "generated_path": "generated_images/exec-ee285396-a368-4a0e-9fdc-bfa3dfcbb3d1.png",
+      "sha256": "80044a19ee575c8eeb5e67f7009cd7fb78514112a8949cd4ffae8bc88db69edf",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "result": "rejected",
+      "qa": "Full frame: queso ingredients correct and complete skillet handle fits. Tortilla is low and bare but reads as a folded semicircle rather than a pointed wedge; tip hovers above cheese. Targeted wedge and dipped-tip correction needed.",
+      "reference_paths": [
+        "reference/margarita-01-cookbook.png",
+        "batch-11/images/shakshuka.png"
+      ],
+      "crop_path": "qa/queso-fundido-with-chorizo-attempt01-central.png",
+      "full_frame_reviewed": true,
+      "central_half_reviewed": true
+    },
+    {
+      "entry": 1,
+      "filename": "queso-fundido-with-chorizo.png",
+      "attempt": 2,
+      "mode": "edit",
+      "tool": "image_gen.imagegen",
+      "prompt_path": "prompts/queso-fundido-with-chorizo-attempt02.txt",
+      "prompt_sha256": "167c09bef05f4502723db96b63b12509becd50a78142f5daf4e712c3038a2236",
+      "generated_path": "generated_images/exec-55834b69-f43f-46f4-8dfe-fc2839010da7.png",
+      "sha256": "d279c7897e9037d0245bb96eb54b2f5cd08d0f82323d52fd5b3b2bb9ac3c03f8",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "result": "accepted",
+      "qa": "Full and central-half crop reviewed. Single triangular tortilla wedge lies almost flat on far rim, bare, tip dipped with a few short cheese strands. Correct molten cheese, chorizo, poblano, cilantro and pickled jalapenos. Whole skillet including handle fits central half at approximately 46 percent width. Flat yellow, no steam, hands, utensils or extra props.",
+      "reference_paths": [
+        "reference/margarita-01-cookbook.png",
+        "generated_images/exec-ee285396-a368-4a0e-9fdc-bfa3dfcbb3d1.png"
+      ],
+      "crop_path": "qa/queso-fundido-with-chorizo-attempt02-central.png",
+      "full_frame_reviewed": true,
+      "central_half_reviewed": true
+    }
+  ],
+  "accepted": [
+    {
+      "entry": 1,
+      "filename": "queso-fundido-with-chorizo.png",
+      "attempt": 2,
+      "mode": "edit",
+      "tool": "image_gen.imagegen",
+      "prompt_path": "prompts/queso-fundido-with-chorizo-attempt02.txt",
+      "prompt_sha256": "167c09bef05f4502723db96b63b12509becd50a78142f5daf4e712c3038a2236",
+      "generated_path": "generated_images/exec-55834b69-f43f-46f4-8dfe-fc2839010da7.png",
+      "sha256": "d279c7897e9037d0245bb96eb54b2f5cd08d0f82323d52fd5b3b2bb9ac3c03f8",
+      "size": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "result": "accepted",
+      "qa": "Full and central-half crop reviewed. Single triangular tortilla wedge lies almost flat on far rim, bare, tip dipped with a few short cheese strands. Correct molten cheese, chorizo, poblano, cilantro and pickled jalapenos. Whole skillet including handle fits central half at approximately 46 percent width. Flat yellow, no steam, hands, utensils or extra props.",
+      "reference_paths": [
+        "reference/margarita-01-cookbook.png",
+        "generated_images/exec-ee285396-a368-4a0e-9fdc-bfa3dfcbb3d1.png"
+      ],
+      "crop_path": "qa/queso-fundido-with-chorizo-attempt02-central.png",
+      "final_path": "images/queso-fundido-with-chorizo.png",
+      "copied_unchanged": true,
+      "full_frame_reviewed": true,
+      "central_half_reviewed": true,
+      "dark_vessel_bounds": [
+        428,
+        297,
+        1127,
+        741
+      ],
+      "vessel_width_percent": 45.6,
+      "full_central_half_fit": true,
+      "all_food_central_half_fit": true,
+      "no_steam": true,
+      "no_extra_props": true,
+      "no_cutlery": true,
+      "flat_seamless_backdrop": true,
+      "qa_caveats": []
+    }
+  ],
+  "contact_sheets": [
+    "qa/worker03-final-full.jpg",
+    "qa/worker03-final-crop.jpg"
+  ],
+  "summary": {
+    "final_count": 1,
+    "built_in_generation_calls": 2,
+    "selected_attempt": 2,
+    "all_finals_1536x1024_png": true,
+    "all_finals_copied_unchanged_from_tool_output": true,
+    "all_calls_original_reference_attached": true,
+    "full_central_half_fit_count": 1,
+    "retained_flags": 0
+  },
+  "exact_prompt_audit": {
+    "passed": true,
+    "call_count": 2
+  },
+  "caveats": [
+    "Color-threshold vessel bounds support visual crop review and are not a semantic mask.",
+    "Backdrop visually flat and seamless with natural contact shadow and subtle surface texture, not mathematically uniform RGB."
+  ],
+  "scope_guards": [
+    "Only requested batch 10 queso redo generated.",
+    "Historical batch 10 preserved unchanged.",
+    "No Git or Library writes.",
+    "No batch 12 generation."
+  ],
+  "completed_at_utc": "2026-11-03T00:57:28.997480+00:00",
+  "proof_sha256": {
+    "worker03-final-full.jpg": "34bb19bc0bc78e47a24b0e7a1ed3cdca7c0af9440bcf7aff845f15f8b8bcea53",
+    "worker03-final-crop.jpg": "0f964de84bc3bc75afff04781e7117734f621abb306356f2dbd79412337ad1fa"
+  },
+  "final_sheets_reviewed": true
+}
