@@ -47,7 +47,7 @@ ingredients:
   - '8 oz beef sirloin or tenderloin, thinly sliced across the grain'
   - '3 garlic cloves, minced'
   - '2 medium carrots, thin matchsticks'
-  - '1 medium zucchini, thin matchsticks'
+  - '1 medium red bell pepper, seeded and cut into thin strips'
   - '4 oz shiitake or cremini mushrooms, thinly sliced'
   - '1 medium onion, thinly sliced'
   - '3 scallions, cut into 2-inch pieces'
@@ -200,17 +200,17 @@ formula:
               share: 1
           plural: medium carrots
           preparation: thin matchsticks
-        - id: zucchini
-          key: zucchini
-          name: medium zucchini
+        - id: bell-pepper
+          key: red-bell-pepper
+          name: medium red bell pepper
           quantity:
             amount: 1
             unit: count
           uses:
             - step: vegetables
               share: 1
-          plural: medium zucchini
-          preparation: thin matchsticks
+          plural: medium red bell peppers
+          preparation: seeded and cut into thin strips
         - id: mushrooms
           key: shiitake-mushroom
           name: shiitake or cremini mushrooms
@@ -396,7 +396,7 @@ formula:
       text: >-
         Cook the {{ingredients}} one type at a time over medium-high heat, refreshing the light oil
         film as needed and transferring each finished vegetable to a large clean bowl. Carrots and
-        zucchini each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3
+        red bell pepper each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3
         minutes until their released moisture cooks away; onion about 2–3 minutes until softened;
         scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess spinach
         liquid. Use more loads rather than crowding the skillet.
@@ -433,7 +433,7 @@ Sweet-potato noodles should keep their chew while each vegetable retains its own
 2. **Marinate the beef:** Combine the beef sirloin or tenderloin, 1/3 of the soy sauce, 1/3 of the toasted sesame oil, cornstarch, and black pepper with the reserved minced garlic. In the original batch, the soy and sesame shares are 1 tbsp soy and 1 tsp sesame oil. Toss to coat and refrigerate 15 minutes while preparing the vegetables. Keep the remaining measured soy, sesame oil, and garlic separate for the sauce.
 3. **Cook and drain the noodles:** Have the dried sweet-potato glass noodles (dangmyeon), water, and additional toasted sesame oil (if using) ready. Cook the noodles in the water according to the noodle package until translucent, tender, and pleasantly chewy. Keep the optional additional sesame oil out of the boiling pot: drain the noodles well, rinse under cool water, and use a little of this allowance to loosen them if needed. Reserve any unused part of that allowance for finishing; do not assume a universal noodle cooking time.
 4. **Cook the beef fully:** Heat the neutral vegetable oil in a large skillet over high heat until shimmering. Add the marinated beef in a single layer; use separate loads if crowded, dividing the listed oil between them. Let it color about 1 minute, then stir and continue until thicker slices reach 145°F / 63°C, probing from the side with a thin-tip thermometer. Transfer to a clean plate and rest at least 3 minutes. Each load must be fully cooked before removal; the final toss is brief.
-5. **Cook each vegetable separately:** Cook the medium carrots, medium zucchini, shiitake or cremini mushrooms, medium onion, scallions, fresh spinach, and additional neutral vegetable oil one type at a time over medium-high heat, refreshing the light oil film as needed and transferring each finished vegetable to a large clean bowl. Carrots and zucchini each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3 minutes until their released moisture cooks away; onion about 2–3 minutes until softened; scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess spinach liquid. Use more loads rather than crowding the skillet.
+5. **Cook each vegetable separately:** Cook the medium carrots, medium red bell pepper, shiitake or cremini mushrooms, medium onion, scallions, fresh spinach, and additional neutral vegetable oil one type at a time over medium-high heat, refreshing the light oil film as needed and transferring each finished vegetable to a large clean bowl. Carrots and red bell pepper each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3 minutes until their released moisture cooks away; onion about 2–3 minutes until softened; scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess spinach liquid. Use more loads rather than crowding the skillet.
 6. **Mix the sauce:** Whisk the 2/3 of the soy sauce, 2/3 of the toasted sesame oil, brown sugar, and rice vinegar with all the remaining prepared garlic until the sugar disperses. In the original batch, these shares are the remaining 2 tbsp soy and 2 tsp sesame oil. Keep every measured part of the seasoning in its assigned protein or sauce destination.
 7. **Toss and warm:** Use the gochugaru (if using) only if you want heat. Over low heat, toss the cooked noodles, all cooked vegetables, rested beef and its clean-plate juices, sauce, and optional gochugaru together for about 1–2 minutes until evenly coated and warm. If the skillet cannot hold everything comfortably, divide noodles, vegetables, beef, and sauce proportionally between loads, then combine in the serving bowl.
 8. **Finish and serve:** Sprinkle with the toasted sesame seeds and use any remaining optional additional sesame oil for a light finish. Serve warm or freshly brought to room temperature; the cooling limits still apply.
