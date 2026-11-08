@@ -37,6 +37,7 @@ pairsWith:
 ingredients:
   - 3 cups Rolled Oats (Old Fashioned)
   - 1 tsp Baking Powder
+  - 1/2 tsp Kosher Salt
   - '1 large Apple, finely minced'
   - '1 large Banana, mashed'
   - 1.5 cups Almond Milk or Whole Milk
@@ -130,7 +131,7 @@ Rolled oats stay visible in these moist apple-and-banana cups. Whisk the spices 
 
 1. **Prepare:** Preheat the oven to 350°F. Use a standard muffin tin, lining and lightly greasing enough wells for the listed planning cup count with the separate spray or oil allowance; the original batch plans twelve. Wash the apple, peel it and mince it finely; mash the banana.
 
-2. **Mix the spices and oats:** Whisk all the cinnamon, cardamom, ginger, nutmeg and allspice into the warm melted coconut oil and let stand for 2 minutes while mixing the oats and baking powder in a large bowl. The measured coconut oil all belongs in the batter.
+2. **Mix the spices and oats:** Whisk all the cinnamon, cardamom, ginger, nutmeg and allspice into the warm melted coconut oil and let stand for 2 minutes while mixing the oats, baking powder and salt in a large bowl. The measured coconut oil all belongs in the batter.
 
 3. **Combine the wet ingredients:** Whisk the banana, eggs, milk and maple syrup until combined. Stir in all the spiced oil, then pour over the oats. Fold in all the minced apple until the oats are evenly moistened; this mixture keeps whole oat pieces.
 

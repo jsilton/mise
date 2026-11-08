@@ -46,6 +46,7 @@ ingredients:
   - 2 tbsp extra-virgin olive oil
   - 1 tsp (7 g) honey
   - '1 small clove garlic, finely minced'
+  - '1–2 tsp fresh lemon juice or red wine vinegar, to taste'
   - '1/4 tsp fine salt, divided'
 description: >-
   Thick Greek yogurt with crisp diced cucumber, fresh mint, olive oil, garlic
@@ -123,13 +124,13 @@ learning:
 
 ## Chef's Note
 
-Fine cucumber dice keeps a little crunch, while thick Greek yogurt and olive oil give the sauce a cool, spoonable texture. Fresh mint should stay clear, with garlic and a little honey in the background. The honey softens the tartness without making the sauce taste sweet.
+Fine cucumber dice keeps a little crunch, while thick Greek yogurt and olive oil give the sauce a cool, spoonable texture. Fresh mint should stay clear, with garlic and a little honey in the background. A splash of lemon juice or vinegar keeps the honey and olive oil bright next to rich lamb.
 
 ## Directions
 
 1. **Prepare the cucumber and herbs:** Wash and dry the cucumber and mint. Cut the cucumber into fine dice, about 3 mm across, then pat with a clean kitchen towel. Finely chop the mint and mince the small garlic clove.
-2. **Mix:** Stir the yogurt, olive oil and honey together until evenly blended. Fold in the cucumber, mint, garlic and half the measured salt.
-3. **Taste and serve:** Taste, then add the reserved salt only if needed. Serve now, or cover and refrigerate while preparing the meal; stir and taste again before serving. For four lamb pitas, start with 2–3 tablespoons in each and offer the rest alongside. The full batch makes approximately 1 1/2 cups, depending on the yogurt and cucumber.
+2. **Mix:** Stir the yogurt, olive oil, honey and 1 tsp of the lemon juice or vinegar together until evenly blended. Fold in the cucumber, mint, garlic and half the measured salt.
+3. **Taste and serve:** Taste, then add the reserved salt and up to 1 tsp more lemon juice or vinegar if the sauce tastes flat or sweet. Serve now, or cover and refrigerate while preparing the meal; stir and taste again before serving. For four lamb pitas, start with 2–3 tablespoons in each and offer the rest alongside. The full batch makes approximately 1 1/2 cups, depending on the yogurt and cucumber.
 
 ## Another variation
 

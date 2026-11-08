@@ -196,11 +196,13 @@ formula:
       text: >-
         If the skin needs a little more color, briefly raise the heat to medium before turning. Cook
         the flesh side, adjusting the heat and turning again as needed, until the thickest part of
-        every breast reads 165°F / 74°C. Insert the probe from the side into the center; skin color
-        and elapsed minutes do not establish the core temperature. If the skin is already crisp,
-        favor flesh-side cooking and lower the heat if the outside is browning too quickly. Transfer
-        to a clean plate or rack skin-side up and rest for about 10 minutes without a tight cover
-        while making the sauce. Do not chill a partly cooked breast to finish later.
+        every breast reads 130–135°F / 54–57°C for medium-rare, usually only a few minutes. Insert
+        the probe from the side into the center; skin color and elapsed minutes do not establish the
+        core temperature. USDA advises 165°F / 74°C for poultry. Cook to that point if you prefer
+        it, knowing the meat will be firmer and grayer. If the skin is already crisp, favor
+        flesh-side cooking and lower the heat if the outside is browning too quickly. Transfer to a
+        clean plate or rack skin-side up and rest for about 10 minutes without a tight cover while
+        making the sauce. Do not chill a partly cooked breast to finish later.
     - id: reduce
       title: Reduce the wine and stock
       text: >-
@@ -221,9 +223,7 @@ formula:
         promptly, with one listed-size breast per portion.
 learning:
   focus: Render duck fat gently while building crisp skin and a rich pan sauce.
-  outcome: >-
-    Golden, thin-fat skin and a glossy orange sauce, with the breasts cooked to the stated
-    temperature.
+  outcome: 'Golden, thin-fat skin and a glossy orange sauce, with rosy medium-rare breasts.'
   techniques:
     - browning
     - temperature
@@ -240,9 +240,9 @@ learning:
       cool and empty the pan before another cold start. Leave uncooked batches refrigerated and
       allow more time.
     - >-
-      The method finishes at the USDA poultry endpoint of 165°F. Sohla’s original recipe finishes at
-      130°F for medium-rare; that lower culinary temperature is below USDA guidance. The 165°F
-      finish produces firmer meat, rather than the same rosy texture.
+      Duck breast is cooked like a steak here, pulled at 130–135°F for rosy, juicy medium-rare meat,
+      as in Sohla’s original. USDA advises 165°F for poultry. That finish is safe to choose but
+      gives firmer, grayer and drier meat.
     - >-
       Use prepared stock and have the wine, butter, measured citrus and seasoning ready before
       rendering. The orange sauce uses all the listed butter; drained duck fat is saved separately.
@@ -258,8 +258,10 @@ learning:
         Pan contact and controlled heat develop crisp skin while preventing a deep bath of retained
         fat.
     - step: 4
-      cue: The thickest center of every breast reads at least 165°F.
-      why: This is the poultry endpoint used here; a brown skin does not measure internal cooking.
+      cue: The thickest center of every breast reads 130–135°F for medium-rare.
+      why: >-
+        A few degrees separate rosy from gray in a thin breast, and a brown skin does not measure
+        internal cooking. USDA advises 165°F for poultry.
     - step: 5
       cue: The wine is concentrated without blackening the fond; the reduced stock has body.
       why: Reduction controls the strength and texture of the sauce before the butter is incorporated.
@@ -296,16 +298,15 @@ learning:
   timing: >-
     For the listed small breasts, allow 10–15 minutes to prepare, roughly 20–35 minutes to render
     and finish, and about 10 minutes for resting and sauce work in parallel. Plan 40–60 minutes
-    overall, with prepared stock and one uncrowded pan. The 165°F finish can take longer than the
-    original medium-rare schedule. Scale breast count and sauce amounts together, retaining each
-    breast’s cut weight. For half a batch, use two breasts and half every sauce amount; for double,
-    use eight breasts and enough separate cold pans or additional batches. Pan area, reduction
-    speed, breast thickness and the cooking clock do not multiply with ingredient quantities. Split
-    the stock, gelatin, wine, butter, citrus and seasoning proportionally between pans or batches so
-    each pan’s fond contributes. Sequential batches require their own sauce finish and a cooled,
-    emptied pan before the next cold start; serve each batch after its rest rather than leaving
-    crisp skin waiting through another cooking cycle. Extra sequential batches extend the total
-    time.
+    overall, with prepared stock and one uncrowded pan. Cooking to the USDA 165°F finish takes
+    longer than medium-rare. Scale breast count and sauce amounts together, retaining each breast’s
+    cut weight. For half a batch, use two breasts and half every sauce amount; for double, use eight
+    breasts and enough separate cold pans or additional batches. Pan area, reduction speed, breast
+    thickness and the cooking clock do not multiply with ingredient quantities. Split the stock,
+    gelatin, wine, butter, citrus and seasoning proportionally between pans or batches so each pan’s
+    fond contributes. Sequential batches require their own sauce finish and a cooled, emptied pan
+    before the next cold start; serve each batch after its rest rather than leaving crisp skin
+    waiting through another cooking cycle. Extra sequential batches extend the total time.
   storage: >-
     Keep raw duck refrigerated at 40°F / 4°C or below and cook within 1–2 days of purchase or
     completed refrigerator thaw. Refrigerate cooked meat and sauce separately in shallow containers
@@ -357,6 +358,6 @@ Gentle rendering turns the skin and its fat layer into a crisp surface. The brow
 1. **Dry, score and season:** Use boneless skin-on duck breasts and kosher salt. Pat the chilled breasts dry without rinsing. Score a close crosshatch through the skin and fat, with cuts about ⅛ inch apart; stop before the meat. Season the skin more generously than the flesh, keeping the salt allowance to taste. Zest the orange before squeezing it, and measure the listed zest and juice. Keep any breasts waiting for another pan refrigerated.
 2. **Prepare the sauce stock:** Have chicken stock and unflavored powdered gelatin (if using) ready. With purchased stock, scatter the gelatin over the cold measured stock and let it hydrate while the duck cooks; whisk before adding it to the pan. Gelatin-rich homemade stock needs no added gelatin. Keep all this stock for the sauce; do not add extra blooming water. Measure the remaining sauce ingredients before starting the duck.
 3. **Render from a cold pan:** Arrange the breasts skin-side down in a cold, heavy skillet with enough room for every skin to lie flat. Add no oil. Set over low to medium-low heat; use a clean small pan or cooking weight to keep curling edges in contact. Listen for gentle bubbling after about 5 minutes, adjusting the heat if the fat is silent or spits vigorously. Drain excess fat frequently into a heatproof container: move the pan off the burner and hold the breasts securely with tongs while pouring. Return to gentle heat. Watch the skin throughout; around 15 minutes is a useful starting estimate for golden, crisp skin with a much thinner fat layer. Continue to those cues, keeping the pan attended and avoiding burned browned bits.
-4. **Finish the breasts and rest:** If the skin needs a little more color, briefly raise the heat to medium before turning. Cook the flesh side, adjusting the heat and turning again as needed, until the thickest part of every breast reads 165°F / 74°C. Insert the probe from the side into the center; skin color and elapsed minutes do not establish the core temperature. If the skin is already crisp, favor flesh-side cooking and lower the heat if the outside is browning too quickly. Transfer to a clean plate or rack skin-side up and rest for about 10 minutes without a tight cover while making the sauce. Do not chill a partly cooked breast to finish later.
+4. **Finish the breasts and rest:** If the skin needs a little more color, briefly raise the heat to medium before turning. Cook the flesh side, adjusting the heat and turning again as needed, until the thickest part of every breast reads 130–135°F / 54–57°C for medium-rare, usually only a few minutes. Insert the probe from the side into the center; skin color and elapsed minutes do not establish the core temperature. USDA advises 165°F / 74°C for poultry. Cook to that point if you prefer it, knowing the meat will be firmer and grayer. If the skin is already crisp, favor flesh-side cooking and lower the heat if the outside is browning too quickly. Transfer to a clean plate or rack skin-side up and rest for about 10 minutes without a tight cover while making the sauce. Do not chill a partly cooked breast to finish later.
 5. **Reduce the wine and stock:** Pour away the remaining excess fat, keeping the browned fond in the skillet. Save the fat separately for another fully cooked dish. Add dry white wine off the flame, then return the pan to high heat. Scrape up the brown bits and reduce the wine until only a small concentrated slick remains, without scorching the pan. Add all the prepared stock, including its hydrated gelatin if used. Bring to a boil and reduce to about half its starting stock volume, until it has body. Allow roughly 5–10 minutes for the reductions, continuing to the cues; pan width and heat change the time.
 6. **Finish the sauce and serve:** Take the skillet off the heat. Swirl in unsalted butter, finely grated orange zest, fresh orange juice, freshly ground black pepper, and kosher salt, adding the butter pieces gradually and tasting for seasoning. Keep the sauce warm without a hard boil after adding butter. Slice the rested breasts across the grain into pieces about ¼ inch thick. Spoon the sauce under or alongside the duck and leave the skin facing up and uncovered by sauce. Serve promptly, with one listed-size breast per portion.

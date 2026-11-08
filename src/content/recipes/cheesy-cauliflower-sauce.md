@@ -17,12 +17,13 @@ ingredients:
   - 4 cups cauliflower florets (fresh or frozen)
   - ½ cup plain Greek yogurt (preferably whole milk)
   - ½ cup milk (warmed slightly)
-  - ½ cup shredded cheddar cheese
+  - ½ cup shredded sharp cheddar cheese
   - 2 tablespoons unsalted butter
   - ¼ cup grated Parmesan cheese
   - ½ teaspoon salt
   - ¼ teaspoon garlic powder (optional)
   - 1 pound pasta (such as linguine or fettuccine; optional for serving)
+  - '1 tablespoon kosher salt, for about 4 quarts cooking water (skip for very young toddlers)'
   - >-
     additional grated Parmesan, cracked black pepper, and salt to taste
     (optional for serving)
@@ -116,7 +117,7 @@ Greek yogurt, cheddar, butter and Parmesan give this sauce its tangy, rich finis
 
 ## Directions
 
-1. **Cook the cauliflower:** Bring a large pot of water to a boil. Add fresh or frozen cauliflower and cook about 6–8 minutes, or until easily pierced and crushed with a fork. Frozen florets may take a different time after the water returns to a boil.
+1. **Cook the cauliflower:** Bring a large pot (about 4 quarts) of water and the cooking-water salt to a boil. The salted water seasons both the cauliflower and the pasta. Leave it out when serving very young toddlers. Add fresh or frozen cauliflower and cook about 6–8 minutes, or until easily pierced and crushed with a fork. Frozen florets may take a different time after the water returns to a boil.
 
 2. **Blend the sauce:** Check the actual model’s manual before blending hot food. Use only a vessel and lid expressly approved for hot ingredients, following that model’s fill, venting and speed instructions. Never blend hot food in a sealed personal cup. If the machine is not approved, cool the mixture as its manual requires before blending, then reheat gently; this adds time. Lift the cauliflower out with a slotted spoon or strainer, draining excess water while keeping the pot for optional pasta. Add yogurt, the measured warm milk, cheddar, butter, Parmesan, measured salt and optional garlic powder. Blend according to the machine’s instructions until smooth; recombine any batches.
 

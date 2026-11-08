@@ -48,7 +48,7 @@ ingredients:
   - '300 g Persian or English cucumber, washed, ends trimmed'
   - 1 tsp cumin seeds
   - 1/4 cup chopped cilantro or mint
-  - 1/4 tsp fine salt
+  - '1/2 tsp fine salt, plus more to taste'
   - '1/4 tsp sugar, optional'
 description: >-
   A spoonable cucumber-yogurt side with toasted cumin and fresh herbs, kept cool and mixed close to
@@ -119,5 +119,5 @@ Raita can be a small condiment or a more generous yogurt side. Here, lightly squ
 
 1. **Toast cumin:** Put cumin seeds in a small dry skillet over medium-low heat. Shake or stir for about 1–2 minutes until fragrant and slightly darker. Transfer to a plate to cool, then crush finely with a mortar or the back of a spoon.
 2. **Prepare cucumber:** Grate cucumber coarsely, peeling a tough skin and removing large seed cores first if needed. Let drain in a sieve for about 5 minutes. Gently squeeze out freely dripping liquid with clean hands or a clean towel; keep the shreds moist. No extra draining salt is needed.
-3. **Mix:** Whisk chilled yogurt until smooth. Fold in cucumber, crushed cooled cumin, herbs, measured salt, and optional sugar. Taste; the result should be lightly seasoned and spoonable rather than a thick spread.
+3. **Mix:** Whisk chilled yogurt until smooth. Fold in cucumber, crushed cooled cumin, herbs, measured salt, and optional sugar. Taste and add a little more salt if needed; the result should be seasoned but gentle, and spoonable rather than a thick spread.
 4. **Chill and serve:** Refrigerate about 10 minutes, then stir gently and serve. For a small curry-bowl garnish, offer roughly two tablespoons per person; for biryani, a larger three-to-four-tablespoon serving works well. Keep the bowl cold until needed.

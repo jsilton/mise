@@ -54,11 +54,10 @@ ingredients:
   - '1 cup fresh spinach, washed; frozen option below'
   - '--- Seasoning and cooking oil ---'
   - 3 tbsp soy sauce
-  - 1 tbsp toasted sesame oil
+  - 4 tsp toasted sesame oil
   - 1 tsp cornstarch
   - 1/4 tsp black pepper
   - 1 tbsp brown sugar
-  - 1 tbsp rice vinegar
   - 1 tbsp neutral vegetable oil
   - 'additional neutral vegetable oil, as needed for a light film between vegetable loads'
   - '1–2 tsp gochugaru, optional'
@@ -271,13 +270,13 @@ formula:
           key: toasted-sesame-oil
           name: toasted sesame oil
           quantity:
-            amount: 1
-            unit: tbsp
+            amount: 4
+            unit: tsp
           uses:
             - step: marinate
-              share: 1/3
+              share: 1/4
             - step: sauce
-              share: 2/3
+              share: 3/4
         - id: cornstarch
           key: cornstarch
           name: cornstarch
@@ -299,15 +298,6 @@ formula:
         - id: sugar
           key: brown-sugar
           name: brown sugar
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: sauce
-              share: 1
-        - id: vinegar
-          key: rice-vinegar
-          name: rice vinegar
           quantity:
             amount: 1
             unit: tbsp
@@ -396,15 +386,15 @@ formula:
       text: >-
         Cook the {{ingredients}} one type at a time over medium-high heat, refreshing the light oil
         film as needed and transferring each finished vegetable to a large clean bowl. Carrots and
-        red bell pepper each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3
-        minutes until their released moisture cooks away; onion about 2–3 minutes until softened;
-        scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess spinach
-        liquid. Use more loads rather than crowding the skillet.
+        red bell pepper each need about 2–3 minutes until tender with a little bite; mushrooms about
+        2–3 minutes until their released moisture cooks away; onion about 2–3 minutes until
+        softened; scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess
+        spinach liquid. Use more loads rather than crowding the skillet.
     - id: sauce
       title: Mix the sauce
       text: >-
         Whisk the {{ingredients}} with all the remaining prepared garlic until the sugar disperses.
-        In the original batch, these shares are the remaining 2 tbsp soy and 2 tsp sesame oil. Keep
+        In the original batch, these shares are the remaining 2 tbsp soy and 1 tbsp sesame oil. Keep
         every measured part of the seasoning in its assigned protein or sauce destination.
     - id: combine
       title: Toss and warm
@@ -430,11 +420,11 @@ Sweet-potato noodles should keep their chew while each vegetable retains its own
 ## Directions
 
 1. **Prepare the divided garlic:** Mince the garlic cloves. For the original three-clove batch, measure ½ tsp from the actual minced supply into the protein bowl and keep every bit of the remainder for the sauce. Scale that measured reservation with the formula; do not assume a fixed teaspoon yield per clove.
-2. **Marinate the beef:** Combine the beef sirloin or tenderloin, 1/3 of the soy sauce, 1/3 of the toasted sesame oil, cornstarch, and black pepper with the reserved minced garlic. In the original batch, the soy and sesame shares are 1 tbsp soy and 1 tsp sesame oil. Toss to coat and refrigerate 15 minutes while preparing the vegetables. Keep the remaining measured soy, sesame oil, and garlic separate for the sauce.
+2. **Marinate the beef:** Combine the beef sirloin or tenderloin, 1/3 of the soy sauce, 1/4 of the toasted sesame oil, cornstarch, and black pepper with the reserved minced garlic. In the original batch, the soy and sesame shares are 1 tbsp soy and 1 tsp sesame oil. Toss to coat and refrigerate 15 minutes while preparing the vegetables. Keep the remaining measured soy, sesame oil, and garlic separate for the sauce.
 3. **Cook and drain the noodles:** Have the dried sweet-potato glass noodles (dangmyeon), water, and additional toasted sesame oil (if using) ready. Cook the noodles in the water according to the noodle package until translucent, tender, and pleasantly chewy. Keep the optional additional sesame oil out of the boiling pot: drain the noodles well, rinse under cool water, and use a little of this allowance to loosen them if needed. Reserve any unused part of that allowance for finishing; do not assume a universal noodle cooking time.
 4. **Cook the beef fully:** Heat the neutral vegetable oil in a large skillet over high heat until shimmering. Add the marinated beef in a single layer; use separate loads if crowded, dividing the listed oil between them. Let it color about 1 minute, then stir and continue until thicker slices reach 145°F / 63°C, probing from the side with a thin-tip thermometer. Transfer to a clean plate and rest at least 3 minutes. Each load must be fully cooked before removal; the final toss is brief.
 5. **Cook each vegetable separately:** Cook the medium carrots, medium red bell pepper, shiitake or cremini mushrooms, medium onion, scallions, fresh spinach, and additional neutral vegetable oil one type at a time over medium-high heat, refreshing the light oil film as needed and transferring each finished vegetable to a large clean bowl. Carrots and red bell pepper each need about 2–3 minutes until tender with a little bite; mushrooms about 2–3 minutes until their released moisture cooks away; onion about 2–3 minutes until softened; scallions about 1 minute; fresh spinach about 1 minute until wilted. Drain excess spinach liquid. Use more loads rather than crowding the skillet.
-6. **Mix the sauce:** Whisk the 2/3 of the soy sauce, 2/3 of the toasted sesame oil, brown sugar, and rice vinegar with all the remaining prepared garlic until the sugar disperses. In the original batch, these shares are the remaining 2 tbsp soy and 2 tsp sesame oil. Keep every measured part of the seasoning in its assigned protein or sauce destination.
+6. **Mix the sauce:** Whisk the 2/3 of the soy sauce, 3/4 of the toasted sesame oil, and brown sugar with all the remaining prepared garlic until the sugar disperses. In the original batch, these shares are the remaining 2 tbsp soy and 1 tbsp sesame oil. Keep every measured part of the seasoning in its assigned protein or sauce destination.
 7. **Toss and warm:** Use the gochugaru (if using) only if you want heat. Over low heat, toss the cooked noodles, all cooked vegetables, rested beef and its clean-plate juices, sauce, and optional gochugaru together for about 1–2 minutes until evenly coated and warm. If the skillet cannot hold everything comfortably, divide noodles, vegetables, beef, and sauce proportionally between loads, then combine in the serving bowl.
 8. **Finish and serve:** Sprinkle with the toasted sesame seeds and use any remaining optional additional sesame oil for a light finish. Serve warm or freshly brought to room temperature; the cooling limits still apply.
 
@@ -444,4 +434,4 @@ Sweet-potato noodles should keep their chew while each vegetable retains its own
 
 **Frozen spinach:** For the original batch, use 4 oz frozen spinach in place of the 1 cup fresh portion. Scale the chosen portion with the formula. Follow any package-required cooking, then cool enough to handle, drain, and squeeze dry before the vegetable stage. Merely thawing is not a substitute for required cooking.
 
-**Vegetable choices:** Bell pepper, cabbage, broccoli, or green beans can replace a similar portion of a listed vegetable. Cut for quick cooking and cook separately until the chosen vegetable is tender; its clock can differ. Preserve the measured sauce, protein seasoning, and all garlic allocations. The beef and shrimp routes are the complete main options.
+**Vegetable choices:** Zucchini, cabbage, broccoli, or green beans can replace a similar portion of a listed vegetable. Cut for quick cooking and cook separately until the chosen vegetable is tender; its clock can differ. Preserve the measured sauce, protein seasoning, and all garlic allocations. The beef and shrimp routes are the complete main options.

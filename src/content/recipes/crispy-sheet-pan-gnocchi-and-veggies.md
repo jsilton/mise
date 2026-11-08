@@ -20,7 +20,7 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 10 min
-cookTime: 'About 20–30 min, with optional protein prepared separately'
+cookTime: 'About 20–30 min'
 totalTime: About 35–50 min
 servings: '4'
 seasons:
@@ -47,7 +47,7 @@ ingredients:
   - Salt and Black Pepper
   - '1/4 tsp kosher salt, optional alternative to salt to taste; choose one salt route'
   - '1/2 lb shrimp or fully cooked chicken sausage, optional; choose one'
-  - 'Water, for separately cooking raw shrimp, if using'
+  - '1 tsp extra-virgin olive oil and a pinch of salt, for the shrimp, if using'
 source: Adapted from Thekitchn.com
 sourceUrl: 'https://www.thekitchn.com/recipe-crispy-sheet-pan-gnocchi-and-veggies-247360'
 learning:
@@ -138,7 +138,7 @@ learning:
 
 ## Chef's Note
 
-Roast the gnocchi and vegetables with room between the pieces. The tomatoes provide some pan juices while the gnocchi edges color; check the centers for tenderness as well. Add all the basil and measured Parmesan at the end. Optional shrimp or fully cooked sausage has its own cooking or heating step before joining the tray.
+Roast the gnocchi and vegetables with room between the pieces. The tomatoes provide some pan juices while the gnocchi edges color; check the centers for tenderness as well. Add all the basil and measured Parmesan at the end. Optional shrimp roast on the same tray for the last few minutes, so they pick up the pan flavors. Fully cooked sausage is heated separately.
 
 ## Directions
 
@@ -148,8 +148,8 @@ Roast the gnocchi and vegetables with room between the pieces. The tomatoes prov
 
 3. **Spread:** Spread in one layer with gaps, using more sheets or successive rounds rather than piling the mixture. Divide the same full oil-coated mixture between the pans; a larger batch does not need a hotter oven.
 
-4. **Roast:** Roast, stirring halfway through and exchanging tray positions if using more than one shelf. Begin checking around 18–20 minutes for the original-size uncrowded load; continue until gnocchi centers are tender and their edges golden, and vegetables have softened with browned edges. Actual gnocchi product, oven and tray load may need longer.
+4. **Roast:** Roast, stirring halfway through and exchanging tray positions if using more than one shelf. Begin checking around 18–20 minutes for the original-size uncrowded load; continue until gnocchi centers are tender and their edges golden, and vegetables have softened with browned edges. Actual gnocchi product, oven and tray load may need longer. If using shrimp, add them for the last 5–6 minutes as described in step 5.
 
-5. **Prepare optional protein:** If using the listed shrimp, peel and devein raw shrimp, thaw in the refrigerator if needed, and keep raw-contact tools separate from the finishing cheese and herbs. Cook the full chosen shrimp separately in gently simmering water until the flesh is firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F. Drain and use clean utensils to add it to the finished vegetables. If choosing chicken sausage instead, use fully cooked product and heat it separately according to its package before adding; refrigerated cooked leftovers must reach 165°F throughout. Raw chicken sausage needs a complete separate method to 165°F and is not a direct substitute. Cooked shrimp may instead be reheated to 165°F before adding. Do not add both proteins.
+5. **Prepare optional protein:** If using the listed shrimp, peel and devein raw shrimp, thaw in the refrigerator if needed, pat dry and toss with the 1 tsp olive oil and pinch of salt. Keep raw-contact tools separate from the finishing cheese and herbs. When the gnocchi are nearly tender, scatter the shrimp in a single layer in open spaces on the pan and roast 5–6 minutes, until the flesh is firm, pearly and opaque throughout; check thick centers with a thin probe for 145°F. If choosing chicken sausage instead, use fully cooked product and heat it separately according to its package before adding; refrigerated cooked leftovers must reach 165°F throughout. Raw chicken sausage needs a complete separate method to 165°F and is not a direct substitute. Cooked shrimp may instead be reheated to 165°F before adding. Do not add both proteins.
 
 6. **Finish and serve:** Toss the finished gnocchi and vegetables with all the chopped basil and all the measured Parmesan, then fold in the chosen cooked or heated protein if used. Serve promptly.

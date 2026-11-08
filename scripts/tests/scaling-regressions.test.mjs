@@ -663,6 +663,38 @@ for (const row of confirmed) {
               amount * factor
             );
         }
+      } else if (row.slug === 'dashi-japanese-sea-stock' && row.caseId === 28) {
+        // Keep the historical katsuobushi parser input and every numeric oracle below.
+        // The reviewed live line triples the bonito to 30 g, six 5 g packs.
+        const live =
+          '30 g Katsuo Bushi (Dried Bonito Flakes), 6 packs (5g each), approx 3 cups total';
+        assert.ok(data.ingredients.includes(live), 'current authored bonito line remains');
+        assert.ok(!data.ingredients.includes(component.input));
+        for (const factor of factors) {
+          const scaled = scaleIngredient(live, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [30 * factor, 6 * factor, 5, 3 * factor],
+            'weight, pack count and cup estimate scale while pack size stays fixed'
+          );
+          if (factor === 1) assert.equal(scaled, live, 'reset restores the exact live ingredient');
+        }
+      } else if (row.slug === 'falafel' && row.caseId === 32) {
+        // Keep the historical salt parser input and every numeric oracle below.
+        // The reviewed live line raises the base salt to 9 g with the same 3 g allowance.
+        const live =
+          '9 g salt, weighed (about 1 1/2 tsp fine salt), plus up to 3 g more only after tasting a fried test piece';
+        assert.ok(data.ingredients.includes(live), 'current authored salt line remains');
+        assert.ok(!data.ingredients.includes(component.input));
+        for (const factor of factors) {
+          const scaled = scaleIngredient(live, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [9 * factor, 1.5 * factor, 3 * factor],
+            'weighed salt, its teaspoon estimate and the tasting allowance all scale'
+          );
+          if (factor === 1) assert.equal(scaled, live, 'reset restores the exact live ingredient');
+        }
       } else {
         assert.ok(
           data.ingredients.includes(component.input),

@@ -35,9 +35,9 @@ usesBase:
   - master-sushi-rice
 ingredients:
   - '230 g trimmed boneless, skinless yellowfin tuna, weighed after removing tough connective tissue; see raw-service sourcing note'
-  - 1 tbsp Japanese mayonnaise
-  - 1 tsp sriracha
-  - 1 drop toasted sesame oil
+  - 1 1/2 tbsp Japanese mayonnaise
+  - 2 tsp sriracha, or less for milder heat
+  - 1/4 tsp toasted sesame oil
   - '2 scallions, finely sliced'
   - '320 g (about 2 cups) prepared [Sushi Rice (Shari)](/mise/recipes/master-sushi-rice)'
   - '4 full sheets unseasoned roasted nori, about 19 x 20 cm each; trim as directed'

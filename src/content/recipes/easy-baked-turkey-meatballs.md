@@ -23,8 +23,8 @@ cuisines:
 role: main
 vibe: quick
 prepTime: 15 min
-cookTime: 30 min
-totalTime: 45 min
+cookTime: 15–18 min
+totalTime: About 35 min
 servings: '12'
 pairsWith:
   - fresh-egg-pasta
@@ -32,12 +32,14 @@ pairsWith:
 ingredients:
   - 2 lbs Ground Turkey (93/7 fat ratio preferred)
   - 1/2 cup Unseasoned Breadcrumbs
+  - 1/3 cup Whole Milk
+  - '1/3 cup Parmesan, finely grated'
   - '1/2 cup Carrots, finely minced'
   - '1/4 cup Yellow Onion, finely minced'
   - 2 large Eggs
   - 1 tbsp Italian Seasoning
   - 1 tsp Garlic Powder
-  - 1 tsp Sea Salt
+  - 1 1/2 tsp Fine Sea Salt
   - 'Pinch of red pepper flakes, optional'
 source: Adapted from Blog.myfitnesspal.com
 sourceUrl: 'http://blog.myfitnesspal.com/easy-baked-turkey-meatballs/'
@@ -84,8 +86,9 @@ learning:
         This leaner option changes richness and may dry sooner; retain the eggs,
         crumbs and vegetables, and cook to the same measured endpoint.
   timing: >-
-    Allow about 45 minutes for the original batch: 15 minutes preparation and
-    25–30 minutes baking, plus oven preheating if needed. Mixing and portioning
+    Allow about 35 minutes for the original batch: 15 minutes preparation,
+    including the 5-minute breadcrumb soak, and 15–18 minutes baking, plus oven
+    preheating if needed. Mixing and portioning
     are active; baking is mostly unattended. Additional pans or loads can extend
     elapsed time. Separately prepared pasta, sauce or squash has its own clock.
   storage: >-
@@ -109,13 +112,13 @@ learning:
 
 ## Chef's Note
 
-Finely minced carrots and onion disperse through the turkey and breadcrumb mixture. Mix just until combined and keep the two-tablespoon portions uniform; use their center temperature to judge when baking is complete.
+Finely minced carrots and onion disperse through the turkey and breadcrumb mixture. Milk-soaked crumbs and a little Parmesan keep lean turkey juicy and savory, and a hot oven browns the outside before the centers dry out. Mix just until combined and keep the two-tablespoon portions uniform; use their center temperature to judge when baking is complete.
 
 ## Directions
 
-1. **Prep:** Preheat the oven to 350°F. Line enough baking sheets with parchment paper to leave space between meatballs.
+1. **Prep:** Preheat the oven to 425°F. Line enough baking sheets with parchment paper to leave space between meatballs.
 2. **Mince:** Finely mince all the measured carrots and onion by hand or in a food processor.
-3. **Combine:** In a large bowl, gently combine all the turkey, breadcrumbs, minced vegetables, eggs, Italian seasoning, garlic powder, sea salt and red pepper flakes if using. Stop when the ingredients are evenly distributed.
+3. **Combine:** In a large bowl, stir the breadcrumbs into the milk and let them soak about 5 minutes until soft. Add all the turkey, Parmesan, minced vegetables, eggs, Italian seasoning, garlic powder, sea salt and red pepper flakes if using, and combine gently. Stop when the ingredients are evenly distributed.
 4. **Shape:** Form all the mixture into two-tablespoon portions and gently roll each into a ball. Keep that size at every batch amount and arrange with space between them on the prepared sheets.
-5. **Bake:** Start checking at 25–30 minutes and continue baking until meatball centers reach 165°F / 74°C. Insert a thermometer into the center, checking large meatballs and different pan positions; use additional oven loads if needed. A lack of pink is not a substitute for the temperature check.
+5. **Bake:** Start checking at 15 minutes, usually 15–18 minutes in all, and continue baking until meatball centers reach 165°F / 74°C. Insert a thermometer into the center, checking large meatballs and different pan positions; use additional oven loads if needed. A lack of pink is not a substitute for the temperature check.
 6. **Serve:** Serve the cooked meatballs with separately prepared tomato sauce, pasta or spaghetti squash if wanted. For a vegetable serving option, add separately sautéed onion, zucchini, red pepper and grape tomatoes; these are additional serving supplies, with no amounts included in the meatball mixture.

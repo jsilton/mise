@@ -36,12 +36,13 @@ ingredients:
   - '3 tbsp water, for steaming the eggplant, plus small splashes if needed'
   - '3 cloves garlic, finely chopped'
   - 1 tbsp finely chopped fresh ginger
-  - '1 serrano chile, finely chopped, optional'
+  - '1 to 3 Thai bird chiles, stemmed; use fewer for milder heat'
   - '3 scallions, thinly sliced, whites and greens separated'
   - 20 g Thai basil leaves
   - '--- Sauce ---'
   - 1/4 cup (60 ml) unsalted chicken stock
-  - 1 tbsp fish sauce
+  - 1 tbsp oyster sauce
+  - 2 tsp fish sauce
   - 1 tsp light soy sauce
   - 1 tsp dark soy sauce
   - 1 tsp sugar
@@ -99,9 +100,13 @@ learning:
     - problem: Sauce tastes too salty
       cause: Condiment brands vary or the glaze reduced too far.
       fix: >-
-        Add a small splash of water and stop reducing. Next time reduce the fish sauce slightly;
+        Add a small splash of water and stop reducing. Next time reduce the fish sauce or oyster sauce slightly;
         rice should accompany the dish, not conceal an over-salted glaze.
   substitutions:
+    - ingredient: Thai bird chiles
+      alternative: '1 serrano chile, finely chopped with the garlic'
+      effect: >-
+        Milder, greener heat with less of the bird chile's sharp, fruity burn. Seed it for kids.
     - ingredient: Sliced chicken breast and its starch marinade
       alternative: '450 g ground chicken, without the water, cornstarch, or marinade soy'
       effect: >-
@@ -140,8 +145,8 @@ This Thai-inspired home stir-fry combines the site's two overlapping chicken-and
 ## Directions
 
 1. **Prepare the chicken:** Toss chicken with its tablespoon of water, cornstarch, and 2 tsp light soy sauce. Refrigerate while preparing the other ingredients, about 10–15 minutes.
-2. **Organize the finish:** Mix stock, fish sauce, sauce soy, dark soy, sugar, and white pepper. Prepare garlic, ginger, chile, scallion whites and greens, and basil separately. Divide eggplant into two batches.
+2. **Organize the finish:** Mix stock, oyster sauce, fish sauce, sauce soy, dark soy, sugar, and white pepper. Pound the garlic and chiles together into a coarse paste in a mortar, or chop them finely together. Prepare ginger, scallion whites and greens, and basil separately. Divide eggplant into two batches.
 3. **Brown and soften eggplant:** Heat 1 tbsp oil in a 12-inch lidded skillet over medium-high heat. Add half the eggplant in one layer; cook about 4–5 minutes, turning to brown two cut faces. Lower to medium, carefully add 1 1/2 tbsp water, cover, and cook about 3–5 minutes until the center yields easily. Uncover and let residual water evaporate. Transfer to a bowl. Repeat with the second half, another tablespoon oil, and remaining steaming water. Use small additional splashes only if the pan dries while the center is still firm.
 4. **Cook chicken:** Add 2 tsp of the remaining oil over medium-high heat. Spread chicken in one layer, using two batches if needed. Leave about 1–2 minutes, then turn and stir-fry until several thick slices reach 165°F / 74°C, usually about 4–6 minutes total per batch. Transfer to a clean bowl.
-5. **Warm aromatics:** Reduce heat to medium and add the final 1 tsp oil. Stir garlic, ginger, optional chile, and scallion whites for about 30–45 seconds until fragrant without darkening. Stir the mixed sauce again and pour it in; bring to a brief simmer.
+5. **Warm aromatics:** Reduce heat to medium and add the final 1 tsp oil. Stir the garlic-chile paste, ginger, and scallion whites for about 30–45 seconds until fragrant without darkening. Stir the mixed sauce again and pour it in; bring to a brief simmer.
 6. **Glaze and finish:** Return chicken and eggplant. Fold gently for about 1–2 minutes until hot and lightly glazed; add a small splash of water if the coating becomes sticky. Turn off heat, fold in basil and scallion greens, and serve promptly in four portions with separately prepared rice.

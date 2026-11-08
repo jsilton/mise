@@ -50,6 +50,7 @@ ingredients:
   - 1 tsp ground cinnamon
   - 1 tsp baking powder
   - 1/2 tsp baking soda
+  - 1/2 tsp fine salt
   - 1 tsp vanilla extract
   - 'nonstick spray, enough to grease the loaf pan or pans'
 description: >-
@@ -142,6 +143,15 @@ formula:
         - id: baking-soda
           key: baking-soda
           name: baking soda
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: dry
+              share: 1
+        - id: salt
+          key: fine-salt
+          name: fine salt
           quantity:
             amount: 1/2
             unit: tsp
@@ -287,7 +297,7 @@ Ripe bananas, maple syrup and Greek yogurt make this a simple whole-wheat loaf w
 
 1. **Prepare:** Heat the oven to 350°F. Grease a loaf pan with nonstick spray. Have a second small loaf pan available if the batter would come close to the rim; the batter needs clear space to rise.
 2. **Blend the wet ingredients:** Combine medium ripe bananas, maple syrup, large egg, plain Greek yogurt, milk of choice, ground cinnamon, and vanilla extract in a blender. Blend just until smooth, about 30 seconds, scraping the container as needed.
-3. **Mix the dry ingredients:** In a large bowl, whisk whole-wheat flour, baking powder, and baking soda together until the leaveners are evenly distributed.
+3. **Mix the dry ingredients:** In a large bowl, whisk whole-wheat flour, baking powder, baking soda, and fine salt together until the leaveners are evenly distributed.
 4. **Fold and fill:** Pour the wet mixture into the dry ingredients. Fold with a spatula just until no dry flour remains. Scrape into the greased loaf pan and level gently. If there is insufficient space above the batter for it to rise, divide the batch between the prepared pans instead of filling to the rim.
 5. **Bake through the center:** Bake at 350°F. For a full-batch loaf, begin checking at about 50 minutes; use 50–55 minutes as a starting range. Check smaller loaves earlier and remove them separately as they finish. The center should be set, and a thin knife inserted into the middle in a few places should come out without wet batter; moist crumbs are fine. A food thermometer provides another check: look for 200–205°F in the center, with no cooler raw section nearby. Avoid touching the pan with the probe. Continue baking until these cues agree; loosely tent the top with foil if it browns before the center is done.
 6. **Cool completely:** Let the bread rest in its pan for about 15 minutes. Loosen the edges, turn out carefully onto a rack, and leave until completely cool before slicing or wrapping.

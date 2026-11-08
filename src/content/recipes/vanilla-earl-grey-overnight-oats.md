@@ -35,7 +35,7 @@ pairsWith:
   - granola
 ingredients:
   - '--- Tea oats ---'
-  - 2 cups old-fashioned rolled oats
+  - 1 1/4 cups old-fashioned rolled oats
   - 1 cup boiling water
   - 1 Earl Grey tea bag
   - 1/2 cup almond or whole milk
@@ -61,7 +61,7 @@ formula:
           key: oats
           name: old-fashioned rolled oats
           quantity:
-            amount: 2
+            amount: 1 1/4
             unit: cup
           uses:
             - step: combine
@@ -154,10 +154,9 @@ formula:
     - id: steep
       title: Steep
       text: >-
-        Use {{ingredients}} for the infusion: put the tea bag in a heatproof
-        mixing bowl, pour in the boiling water and steep for 5 minutes. Remove
-        and discard the tea bag. Follow the vessel’s hot-liquid instructions; do
-        not pour boiling tea into cold glass jars.
+        Use {{ingredients}} for the infusion: put the tea bag in a heatproof mixing bowl, pour in
+        the boiling water and steep for 5 minutes. Remove and discard the tea bag. Follow the
+        vessel’s hot-liquid instructions; do not pour boiling tea into cold glass jars.
     - id: sweeten
       title: Sweeten tea
       text: 'Stir {{ingredients}} into the hot tea until dissolved.'
@@ -170,11 +169,10 @@ formula:
     - id: chill
       title: Refrigerate
       text: >-
-        Divide the entire mixture into clean containers with enough room for the
-        mixture and later stirring; use more containers for a larger batch. The
-        original batch makes two planned portions. Cover and refrigerate
-        promptly at 40°F / 4°C or below for at least 6 hours, preferably 12. If
-        the mixture is still warm, use shallow containers and cool it in the
+        Divide the entire mixture into clean containers with enough room for the mixture and later
+        stirring; use more containers for a larger batch. The original batch makes two planned
+        portions. Cover and refrigerate promptly at 40°F / 4°C or below for at least 6 hours,
+        preferably 12. If the mixture is still warm, use shallow containers and cool it in the
         refrigerator rather than waiting for complete counter cooling.
     - id: adjust
       title: Check texture
@@ -182,49 +180,43 @@ formula:
     - id: serve
       title: Finish
       text: >-
-        Top with {{ingredients}}, distributing the full cookie amount across the
-        batch. Add the extra honey only if desired.
+        Top with {{ingredients}}, distributing the full cookie amount across the batch. Add the
+        extra honey only if desired.
 learning:
   focus: >-
-    Infusing tea separately, then refrigerating the complete oat batch in
-    containers that actually fit.
+    Infusing tea separately, then refrigerating the complete oat batch in containers that actually
+    fit.
   outcome: >-
-    Tea-flavored softened oats, with the full cookie distributed at service and
-    texture adjusted after soaking.
+    Tea-flavored softened oats, with the full cookie distributed at service and texture adjusted
+    after soaking.
   techniques:
     - cold-preparation
     - temperature
   before:
     - >-
-      The listed water is already boiling; water heating is additional to the
-      ten-minute preparation reference. Use a vessel suitable for hot liquid.
+      The listed water is already boiling; water heating is additional to the ten-minute preparation
+      reference. Use a vessel suitable for hot liquid.
     - >-
-      The original two-portion batch contains 2 cups dry oats and 1½ cups
-      combined water and milk. Use containers that fit the entire mixture with
-      stirring room.
+      The two-portion batch contains 1 1/4 cups dry oats and 1½ cups combined water and milk, about
+      1 part oats to 1.2 parts liquid. Use containers that fit the entire mixture with stirring
+      room.
   checkpoints:
     - step: 1
       cue: Tea has steeped and the bag is removed.
-      why: >-
-        The bag infuses the listed water and is discarded; it is not an edible
-        topping.
+      why: The bag infuses the listed water and is discarded; it is not an edible topping.
     - step: 5
       cue: All mixture is promptly refrigerated in suitable containers.
       why: Neither honey nor tea replaces cold handling of milk and hydrated oats.
     - step: 7
       cue: The listed cookie is shared across the whole batch.
-      why: >-
-        One cookie is the original full garnish amount, not one cookie per
-        scaled portion.
+      why: 'One cookie is the original full garnish amount, not one cookie per scaled portion.'
   troubleshooting:
     - problem: The mixture will not fit the planned jars.
       cause: Jar count was assumed from a smaller capacity.
       fix: Use larger or additional containers; retain the full oats and liquids.
     - problem: The oats are thick after soaking.
-      cause: The written oat-to-liquid ratio is relatively dense.
-      fix: >-
-        Stir in the optional milk splash after chilling; do not silently reduce
-        the oats.
+      cause: 'Some oats absorb more liquid, or the jars sat longer than planned.'
+      fix: Stir in the optional milk splash after chilling.
   substitutions:
     - ingredient: Old-fashioned oats
       alternative: Same full volume of quick oats
@@ -233,15 +225,14 @@ learning:
       alternative: Same full milk volume of another milk
       effect: Check the chosen cookie and other labels if avoiding dairy.
   storage: >-
-    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined
-    preparation and serving time out of refrigeration within 2 hours, or 1 hour
-    above 90°F / 32°C. Use within the shortest after-opening storage instruction
-    for the milk used. Keep the cookie separate until serving so it stays crisp.
+    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving
+    time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Use within the shortest
+    after-opening storage instruction for the milk used. Keep the cookie separate until serving so
+    it stays crisp.
   timing: >-
-    Ten minutes preparation includes the five-minute steep once water is
-    boiling; at least 6 hours refrigerated soaking gives a 6-hour-10-minute
-    minimum subtotal. Heating the water, cooling warm larger loads in the
-    refrigerator and a preferred 12-hour soak extend the actual plan. No
+    Ten minutes preparation includes the five-minute steep once water is boiling; at least 6 hours
+    refrigerated soaking gives a 6-hour-10-minute minimum subtotal. Heating the water, cooling warm
+    larger loads in the refrigerator and a preferred 12-hour soak extend the actual plan. No
     jar-volume or heating-duration measurement is implied.
   sources:
     - title: Yay! For Food — full tea/oat ratio and quick-oat option
@@ -255,7 +246,7 @@ learning:
 
 ## Chef's Note
 
-Steep the tea in boiling water before adding the milk and vanilla. This batch has more oats than milk-and-tea liquid by volume and can be quite thick after soaking, so stir and use the optional milk splash afterward. The full oats, tea liquid and honey remain in the mixture; choose containers by the actual amount rather than a fixed jar count.
+Steep the tea in boiling water before adding the milk and vanilla. This batch has a little more tea-and-milk liquid than oats, which gives a creamy, spoonable set. Stir after soaking and use the optional milk splash if it is still thick. The full oats, tea liquid and honey remain in the mixture; choose containers by the actual amount rather than a fixed jar count.
 
 ## Directions
 

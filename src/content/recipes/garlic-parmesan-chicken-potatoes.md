@@ -49,7 +49,7 @@ ingredients:
   - '2 tbsp unsalted butter, for searing'
   - '1 tbsp unsalted butter, for the spinach'
   - '3 cups baby spinach, roughly chopped'
-  - '1 lb baby potatoes, quartered'
+  - '2 lb baby potatoes, quartered'
   - 'salt, to taste for roasted potatoes'
   - '--- Garlic-Parmesan cream sauce ---'
   - '4 tbsp unsalted butter, for the sauce'
@@ -161,7 +161,7 @@ formula:
           key: potatoes
           name: baby potatoes
           quantity:
-            amount: 1
+            amount: 2
             unit: lb
           preparation: quartered
           uses:
@@ -287,12 +287,12 @@ formula:
       text: >-
         Preheat the oven to 425°F. Set out {{ingredients}}. Quarter the baby potatoes into similar
         pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a
-        rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that
-        yields easily to a knife; continue as needed. Check that all the measured thighs fit without
-        overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed.
-        Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for
-        the baking-dish variation below, which uses a different oven temperature and omits the
-        separate potato roast.
+        large rimmed sheet pan, using a second pan if they crowd. Roast about 20–25 minutes,
+        checking for browned edges and a center that yields easily to a knife; continue as needed.
+        Check that all the measured thighs fit without overlap in your oven-safe skillet; use a
+        baking dish for the chicken finish if needed. Prepare the chicken and sauce while the
+        potatoes roast. The optional cooking spray is for the baking-dish variation below, which
+        uses a different oven temperature and omits the separate potato roast.
     - id: sear
       title: Brown the chicken
       text: >-
@@ -434,7 +434,7 @@ These chicken thighs finish in a garlic-Parmesan cream sauce with spinach, while
 
 ## Directions
 
-1. **Start the potatoes:** Preheat the oven to 425°F. Set out cooking spray (if using), olive oil, baby potatoes, and salt. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a rimmed sheet pan. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast.
+1. **Start the potatoes:** Preheat the oven to 425°F. Set out cooking spray (if using), olive oil, baby potatoes, and salt. Quarter the baby potatoes into similar pieces, toss with enough olive oil to coat and salt to taste, and spread in one layer on a large rimmed sheet pan, using a second pan if they crowd. Roast about 20–25 minutes, checking for browned edges and a center that yields easily to a knife; continue as needed. Check that all the measured thighs fit without overlap in your oven-safe skillet; use a baking dish for the chicken finish if needed. Prepare the chicken and sauce while the potatoes roast. The optional cooking spray is for the baking-dish variation below, which uses a different oven temperature and omits the separate potato roast.
 2. **Brown the chicken:** Use bone-in skin-on chicken thighs, Italian seasoning, salt, black pepper, and unsalted butter: pat chicken dry with paper towels, then season with Italian seasoning, salt and pepper. Melt the butter in a large skillet over medium-high heat. Sear chicken skin-side down until deep golden, about 5–7 minutes, then brown the other side for about 2 minutes. Work in batches if needed, reducing heat if the butter or fond begins to burn. Transfer to a plate reserved for partly cooked chicken; continue directly with the recipe.
 3. **Wilt the spinach:** Use unsalted butter and baby spinach: melt the butter for this step in the skillet, add spinach and stir until it begins to wilt, about 2 minutes. Transfer spinach to a bowl. Pour off excessive rendered chicken fat, keeping the browned fond and leaving no burned bits.
 4. **Make the roux:** Use unsalted butter, garlic cloves, and all-purpose flour: melt the sauce butter over medium heat. Add garlic and stir until fragrant, about 1–2 minutes, without browning it. Whisk in flour and cook about 1 minute, stirring until smooth and lightly colored.
@@ -445,4 +445,4 @@ These chicken thighs finish in a garlic-Parmesan cream sauce with spinach, while
 
 ## Potatoes Baked in the Sauce
 
-For the baking-dish variation, omit the separate potato roast and its oil. Preheat to 400°F and lightly coat a 9-by-13-inch baking dish with the optional cooking spray. Sear the chicken and make the spinach and sauce as directed. Put chicken skin-side up in the dish, arrange the raw quartered potatoes and spinach around it and pour in the sauce. Bake about 25–30 minutes as a first check, then continue until every thigh and the sauce center reach 165°F / 74°C and potatoes are easily pierced. If safely cooked chicken finishes first, move it to a clean plate while the potatoes finish. Rest cooked chicken five minutes, then taste and season the safe sauce. Potatoes baked this way are soft and sauced. Add dishes as needed to keep the scaled chicken in one layer.
+For the baking-dish variation, omit the separate potato roast and its oil. Preheat to 400°F and lightly coat a 9-by-13-inch baking dish with the optional cooking spray. Sear the chicken and make the spinach and sauce as directed. Put chicken skin-side up in the dish, arrange the raw quartered potatoes and spinach around it and pour in the sauce. With the full 2 lb of potatoes, use a large roasting pan or a second dish so the potatoes sit in one layer. Bake about 25–30 minutes as a first check, then continue until every thigh and the sauce center reach 165°F / 74°C and potatoes are easily pierced. If safely cooked chicken finishes first, move it to a clean plate while the potatoes finish. Rest cooked chicken five minutes, then taste and season the safe sauce. Potatoes baked this way are soft and sauced. Add dishes as needed to keep the scaled chicken in one layer.

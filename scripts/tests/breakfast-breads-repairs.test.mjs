@@ -36,7 +36,8 @@ test('almond loaf restores excess-water handling and complete cooling without in
   assert.match(content, /Treat 35–40 minutes as the first checking window/);
   assert.match(content, /the center is set, and a tester has no wet batter/);
   assert.doesNotMatch(content, /bone-dry|absolutely dry|9x5|8x4/);
-  assert.ok(data.ingredients.includes('1 1/2 tsp Baking Soda'));
+  assert.ok(data.ingredients.includes('3/4 tsp Baking Soda'));
+  assert.ok(data.ingredients.includes('2 tsp Apple Cider Vinegar or Fresh Lemon Juice'));
 });
 test('waffles preserve formula and budget machine-dependent batches', () => {
   const { data, content } = read('buttermilk-waffles');
@@ -80,7 +81,7 @@ test('anadama retains its source formula, cooling-before-yeast and loaf geometry
     '1 pkg (.25 oz) Active Dry Yeast',
     '1/2 cup Warm Water (110°F)',
     '3 cups All-Purpose Flour',
-    '1 tsp Kosher Salt',
+    '1 1/2 tsp Kosher Salt',
   ]);
   assert.equal(data.ingredients.filter((line) => /^\d/.test(line)).length, 8);
   assert.deepEqual(data.ingredients.slice(8), [

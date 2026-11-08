@@ -40,6 +40,7 @@ ingredients:
   - '4 cloves garlic, minced, divided'
   - '2 tbsp grated fresh ginger, divided'
   - 1 tbsp soy sauce
+  - 1 tsp kosher salt
   - '2 scallions, finely sliced, whites and greens separated'
   - 1/2 tsp black pepper
   - 1/3 cup (80 ml) hoisin sauce
@@ -66,8 +67,8 @@ learning:
       Set the oven to 400°F / 205°C and line a rimmed sheet pan with parchment rated for that
       temperature.
     - >-
-      Read the sauce labels: plum sauce and sweet bean hoisin vary in salt and sweetness; this
-      recipe does not add extra salt.
+      Read the sauce labels: plum sauce and sweet bean hoisin vary in salt and sweetness. The
+      meatballs get a measured teaspoon of salt, and the glaze gets none.
   checkpoints:
     - step: 2
       cue: 'The mixture holds together but still looks loose, not kneaded into a smooth paste.'
@@ -120,7 +121,7 @@ This is a Chinese-American-inspired meatball with ginger, scallion, and bottled 
 
 ## Directions
 
-1. **Prepare the binder:** Heat the oven to 400°F / 205°C. Line a rimmed sheet pan. Soak panko in milk for 5 minutes, then stir in the egg, half the garlic, half the ginger, soy sauce, scallion whites, and pepper.
+1. **Prepare the binder:** Heat the oven to 400°F / 205°C. Line a rimmed sheet pan. Soak panko in milk for 5 minutes, then stir in the egg, half the garlic, half the ginger, soy sauce, salt, scallion whites, and pepper.
 2. **Shape gently:** Add the meat and mix just until evenly combined. Divide into 24 portions, about 35 g each including the binder, and roll gently. Arrange with gaps on the sheet pan. Wash hands and clean surfaces after handling raw meat.
 3. **Bake and check:** Bake about 15–20 minutes. Check several of the largest meatballs through the center: beef must reach 160°F / 71°C; turkey must reach 165°F / 74°C. Continue baking if needed; color alone is not the endpoint.
 4. **Reduce the glaze:** Meanwhile, combine hoisin, plum sauce, vinegar, water, remaining garlic, and remaining ginger in a wide skillet. Bring to a gentle simmer and cook 4–6 minutes, stirring, until it lightly coats a spoon. Add water if it becomes pasty.

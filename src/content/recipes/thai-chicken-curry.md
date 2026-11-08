@@ -118,3 +118,7 @@ Red curry paste supplies the chile and aromatic foundation; coconut milk carries
 2. **Make the curry liquid:** Gradually stir in the rest of the coconut milk and the stock or water until paste is dispersed. Bring to a gentle simmer.
 3. **Cook chicken and vegetables:** Add chicken and bamboo shoots. Simmer about 6 minutes, then add pepper and continue about 4–6 minutes until pepper is tender-crisp and several of the thickest chicken pieces reach 165°F / 74°C. Cook longer if needed.
 4. **Balance and finish:** Stir in half the fish sauce and half the sugar. Taste, adding the remainder only as needed. Turn off heat and stir in Thai basil. Serve promptly with plain rice prepared separately.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Add 4 to 5 torn makrut lime leaves with the coconut milk for the classic Thai red curry aroma, and leave them uneaten. If you can't find them, stir in 1 tsp lime zest at the end.

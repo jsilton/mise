@@ -25,7 +25,7 @@ pairsWith:
   - garlicky-lemon-kale-with-carrots
 ingredients:
   - 8 small bone-in skin-on chicken thighs (about 175 g each)
-  - '1 tsp fine salt, divided'
+  - '1 3/4 tsp fine salt, divided, plus a pinch more to taste'
   - 1/2 tsp ground black pepper
   - '1 tbsp neutral oil, used only as needed to supplement rendered chicken fat'
   - '450 g cremini mushrooms, trimmed and quartered'
@@ -142,10 +142,10 @@ This French-inspired roast uses three herbs in two stages. Rosemary and thyme si
 
 ## Directions
 
-1. **Prepare:** Heat the oven to 400°F / 205°C with a rack in the middle. Pat chicken dry. Season with three-quarters of the measured salt and the pepper. Quarter mushrooms and prepare herbs before handling chicken, or clean the board and tools thoroughly between them. Set out a rimmed half-sheet pan.
+1. **Prepare:** Heat the oven to 400°F / 205°C with a rack in the middle. Pat chicken dry. Season with 1 1/2 tsp of the salt and the pepper. Quarter mushrooms and prepare herbs before handling chicken, or clean the board and tools thoroughly between them. Set out a rimmed half-sheet pan.
 2. **Render and brown in two batches:** Place four thighs skin-side down in a cool 12-inch skillet, with space between them. Turn heat to medium and cook about 8–12 minutes until skin is golden and some fat has rendered, adjusting heat to prevent scorching. Turn and cook the flesh side about 1 minute. Transfer skin-side up to the sheet pan. Brown the remaining four in the warm skillet over medium heat, about 6–9 minutes skin-side down and 1 minute on the other side. Use a little of the measured neutral oil only if the pan is dry. Proceed directly to roasting after both batches are seared.
 3. **Roast and check:** Arrange all thighs skin-side up with space between them and roast about 25–35 minutes. Check each at its thickest meat away from bone: all must reach at least 165°F / 74°C; for more yielding thigh meat, continue toward 175–185°F / 79–85°C. Remove smaller pieces sooner if needed. Rest uncovered about 5 minutes while finishing the sauce.
-4. **Brown mushrooms during roasting:** Pour off excess skillet fat into a heatproof container, leaving about 2 tbsp in the pan; supplement with the remaining measured oil only if necessary. Add mushrooms over medium-high heat and cook about 8–10 minutes, stirring occasionally, until their released liquid mostly evaporates and surfaces brown.
+4. **Brown mushrooms during roasting:** Pour off excess skillet fat into a heatproof container, leaving about 2 tbsp in the pan; supplement with the remaining measured oil only if necessary. Add mushrooms and the remaining 1/4 tsp salt over medium-high heat and cook about 8–10 minutes, stirring occasionally, until their released liquid mostly evaporates and surfaces brown.
 5. **Add herbs, flour and wine:** Reduce heat to medium. Stir in rosemary and thyme for about 30 seconds, then sprinkle flour evenly and stir for 1 minute. Add wine gradually, stirring and scraping the brown residue from the pan. Simmer about 2–3 minutes until the wine reduces by roughly half.
-6. **Finish the sauce:** Stir in broth gradually and simmer gently about 5–7 minutes, stirring, until lightly thickened. Reduce heat to low and stir in Dijon. Add any juices from the rested chicken and bring back to a brief simmer. Taste, adding the reserved salt only if needed, and loosen with a little broth if thick. Turn off heat and stir in parsley.
+6. **Finish the sauce:** Stir in broth gradually and simmer gently about 5–7 minutes, stirring, until lightly thickened. Reduce heat to low and stir in Dijon. Add any juices from the rested chicken and bring back to a brief simmer. Taste, adding a pinch more salt only if needed, and loosen with a little broth if thick. Turn off heat and stir in parsley.
 7. **Serve:** Divide into four portions of two small thighs. Spoon mushrooms and sauce around or beneath the chicken, leaving the skin exposed. Serve with a separately prepared potato side and a green vegetable if desired.

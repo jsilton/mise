@@ -97,6 +97,11 @@ learning:
         Loosen with a little water if over-reduced. Next time stage sugar and fish sauce; brands
         vary too much for an automatic full addition.
   substitutions:
+    - ingredient: Makrut lime leaves
+      alternative: Finely grated zest of 1 lime, stirred in all at once at the end
+      effect: >-
+        Gives a bright citrus aroma, though less floral and resinous than the leaves. Skip the
+        step 3 addition and fold the zest in during the final 30 seconds so it stays fresh.
     - ingredient: Ground roasted peanuts
       alternative: 2 tbsp finely ground unsalted toasted sunflower seeds
       effect: >-

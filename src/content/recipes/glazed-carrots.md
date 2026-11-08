@@ -26,14 +26,14 @@ role: side
 vibe: quick
 prepTime: 10 min
 cookTime: 15 min
-totalTime: 'About 25–35 min, including bringing water to the boil'
+totalTime: 'About 25–30 min, including bringing water to the boil'
 servings: '8'
 pairsWith:
   - herb-marinated-pork-tenderloins
   - one-pan-citrus-beets-roasted-chicken
   - banana-egg-oat-pancakes
 ingredients:
-  - '2 lbs carrots, peeled and cut into matchsticks'
+  - '2 lbs carrots, peeled and cut into matchsticks about 1/4 inch thick'
   - 1/4 cup unsalted butter
   - '1/4 cup light brown sugar, packed'
   - '1/4 tsp sea salt, for glaze'
@@ -73,8 +73,9 @@ learning:
         coating clings. Stop before the sugar scorches; do not add extra butter
         or sugar automatically.
   timing: >-
-    About 10 minutes cutting, bringing water to the boil, 8–10 minutes or less
-    simmering and 2–5 minutes glazing: plan 25–35 minutes overall. More carrots
+    About 10 minutes cutting, bringing water to the boil, 3–4 minutes
+    simmering for matchsticks (6–8 for 1/4-inch coins) and 2–3 minutes
+    glazing: plan 25–30 minutes overall. More carrots
     or a slower burner add heat-up time.
   substitutions:
     - ingredient: Thyme
@@ -104,7 +105,7 @@ Simmer the carrot sticks until tender, drain well and return them to the full bu
 ## Directions
 
 1. Wash and peel the carrots, then cut even matchsticks. Put them in a large saucepan and add water to a 1-inch depth. Use plain water, or add the separate optional boiling-salt allowance if you prefer salted water. The measured glaze salt stays reserved.
-2. Bring to a boil, reduce heat to low and cover. Start checking around 8–10 minutes, sooner for very thin sticks. A fork should enter a center readily without raw hardness; stop before the sticks fall apart. Boiling and actual cut thickness determine the clock.
+2. Bring to a boil, reduce heat to low and cover. Start checking matchsticks at about 3 minutes; they are usually just tender in 3–4 minutes. If you prefer 1/4-inch coins, which hold up to longer cooking, start checking at about 6 minutes. A fork should enter a center readily without raw hardness; stop while the carrots still have a little bite, since they keep cooking in the glaze.
 3. Drain and transfer the carrots to a bowl without rinsing. Melt all the butter in the same saucepan over low heat, then stir in all the brown sugar, glaze salt and white pepper until dissolved and glossy.
-4. Return all the drained carrots and toss gently over medium-low heat until hot and coated. Start checking at 2–3 minutes; the carrots may need up to about 5 minutes to heat through and take on the glaze. Follow the clinging glaze rather than driving the sugar to a burnt crust.
+4. Return all the drained carrots and toss gently over medium-low heat until hot and coated. Toss about 2–3 minutes, until hot and glossy; stop before the carrots soften further. Follow the clinging glaze rather than driving the sugar to a burnt crust.
 5. Stir in all the optional listed thyme if using and serve promptly.

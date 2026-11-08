@@ -45,7 +45,7 @@ ingredients:
   - '3 to 4 tbsp Thai green curry paste, according to its strength'
   - '1 tbsp neutral oil, only if needed when frying the paste'
   - '1 cup (240 ml) unsalted chicken stock, plus a little hot water only if needed to loosen'
-  - '250 g Japanese or Chinese eggplant, trimmed, halved lengthwise and sliced 1/2 inch thick'
+  - '250 g Thai eggplant (small round green), stems removed and quartered just before cooking'
   - '150 g red bell pepper, sliced'
   - '75 g canned bamboo shoots, drained and rinsed'
   - '4 makrut lime leaves, torn into large pieces'
@@ -107,6 +107,17 @@ learning:
         Add a little hot water to restore a fluid sauce. Next time use less paste or fish sauce;
         sugar alone does not undo excessive salt or heat.
   substitutions:
+    - ingredient: Thai eggplant
+      alternative: >-
+        250 g Japanese or Chinese eggplant, trimmed, halved lengthwise and sliced 1/2 inch thick
+      effect: >-
+        Easier to find. It turns soft and silky rather than keeping the slight crunch and pleasant
+        bitterness of Thai eggplant.
+    - ingredient: Thai basil
+      alternative: 20 g Italian basil plus 4 or 5 fresh mint leaves
+      effect: >-
+        The mint adds some of the cool, anise-like edge that Italian basil lacks. It is close but
+        not identical to Thai basil.
     - ingredient: Makrut lime leaves
       alternative: 1/2 tsp finely grated ordinary lime zest at the finish
       effect: >-
@@ -143,7 +154,7 @@ learning:
 
 ## Chef's Note
 
-Chicken, Asian eggplant, red pepper and bamboo shoots sit in a fragrant coconut sauce with Thai basil. Leave enough sauce to spoon around the solids and over rice. Cook the paste until fragrant without scorching it; some canned coconut milks will not visibly split into oil.
+Chicken, Thai eggplant, red pepper and bamboo shoots sit in a fragrant coconut sauce with Thai basil. Leave enough sauce to spoon around the solids and over rice. Cook the paste until fragrant without scorching it; some canned coconut milks will not visibly split into oil.
 
 ## Directions
 

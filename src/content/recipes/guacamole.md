@@ -45,19 +45,19 @@ ingredients:
   - 3 ripe Hass avocados
   - 1 large lime, juiced, divided
   - 1/2 medium red onion, finely diced
-  - 1/2 jalapeño, seeded and finely minced
+  - '1 jalapeño or serrano, seeded and finely minced'
   - 2 Roma tomatoes, cored, seeded and finely diced
   - 1 clove garlic, finely minced
-  - 1 tbsp fresh cilantro, chopped
+  - 1/4 cup fresh cilantro, chopped
   - 1/2 tsp kosher salt, divided
-  - 1/2 tsp ground cumin
-  - 1/2 tsp ground cayenne pepper
-description: Chunky avocado with tomato, red onion, garlic, cumin and a warm cayenne kick. Add
+  - 1/4 tsp ground cumin
+description:
+  Chunky avocado with tomato, red onion, garlic, fresh chile, cilantro and a light touch of cumin. Add
   lime and salt in stages, then taste with the food it will accompany.
 learning:
   focus: Balance a chunky avocado mash without making it watery
-  outcome: Creamy avocado holds the diced vegetables, with some soft chunks, a noticeable spice
-    warmth and lime that brightens without pooling in the bowl.
+  outcome: Creamy avocado holds the diced vegetables, with some soft chunks, fresh chile heat
+    and lime that brightens without pooling in the bowl.
   techniques:
     - cold-preparation
     - seasoning
@@ -65,8 +65,8 @@ learning:
     - Avocados should yield gently to palm pressure and mash readily. Three fruits do not give
       a fixed flesh weight or finished volume; larger fruit may need more of the reserved
       seasoning.
-    - Drain loose juice from the diced tomatoes. Jalapeño and cayenne together make a spicy
-      dip; omit both for a mild version.
+    - Drain loose juice from the diced tomatoes. The whole seeded chile gives a fresh,
+      moderate heat. Use half, or omit it, for a mild version.
   checkpoints:
     - step: 2
       cue: The mash is mostly creamy with small soft avocado chunks remaining.
@@ -92,9 +92,9 @@ learning:
       fix: Choose different ripe fruit; extra lime, mashing or a room-temperature rest will not
         repair it.
   substitutions:
-    - ingredient: Jalapeño and cayenne
-      alternative: Omit both for a mild version
-      effect: Keeps the tomato, garlic and cumin character without the two hot-pepper ingredients.
+    - ingredient: Jalapeño or serrano
+      alternative: Use half the chile, or omit it, for a mild version
+      effect: Keeps the avocado, lime, tomato and garlic character with little or no heat.
     - ingredient: Red onion
       alternative: The same amount of finely diced white onion
       effect: Changes the onion bite and appearance while retaining fresh diced texture.
@@ -119,12 +119,12 @@ learning:
 
 ## Chef's Note
 
-Adapted from Alton Brown's guacamole, this version combines avocado with tomato, garlic, cumin and cayenne. Keep the tomatoes well drained and fold them in after mashing. Add lime and salt in stages, and cover the surface closely during a refrigerated rest to limit exposure to air.
+Adapted from Alton Brown's guacamole, this version combines avocado with tomato, garlic, fresh chile and plenty of cilantro. Fresh chile replaces his cayenne, and the cumin is cut back to a background note so the avocado and lime lead. Keep the tomatoes well drained and fold them in after mashing. Add lime and salt in stages, and cover the surface closely during a refrigerated rest to limit exposure to air.
 
 ## Directions
 
-1. **Prepare:** Rinse produce before cutting. Dice the onion and tomatoes, removing tomato cores and loose seed pulp; drain excess tomato juice. Mince jalapeño and garlic, chop cilantro, and juice the lime.
-2. **Mash:** Halve and pit the avocados and scoop the flesh into a bowl. Toss with half the lime juice. Add half the measured salt, the cumin and cayenne, then mash with a fork or potato masher until creamy with small soft chunks.
-3. **Fold:** Gently fold in the onion, tomatoes, jalapeño, garlic and cilantro until distributed. Keep the vegetables in distinct pieces rather than puréeing them into the mash.
+1. **Prepare:** Rinse produce before cutting. Dice the onion and tomatoes, removing tomato cores and loose seed pulp; drain excess tomato juice. Mince the chile and garlic, chop cilantro, and juice the lime.
+2. **Mash:** Halve and pit the avocados and scoop the flesh into a bowl. Toss with half the lime juice. Add half the measured salt and the cumin, then mash with a fork or potato masher until creamy with small soft chunks.
+3. **Fold:** Gently fold in the onion, tomatoes, chile, garlic and cilantro until distributed. Keep the vegetables in distinct pieces rather than puréeing them into the mash.
 4. **Rest and season:** Smooth the surface, press food wrap against it and refrigerate for about one hour. Stir gently and taste with a tortilla or other accompaniment. Add remaining lime and salt gradually only as needed. For immediate service, skip the rest and make the same seasoning check.
 5. **Serve:** Share as four generous dip portions or use smaller spoonfuls as a taco or fajita topping. Finished volume varies with avocado size. Keep covered and refrigerated until needed.

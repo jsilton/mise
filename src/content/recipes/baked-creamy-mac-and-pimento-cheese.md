@@ -51,7 +51,7 @@ learning:
     - emulsions
     - starch
   before:
-    - 'The 13-by-9-inch pan is the original-batch pan, even though 8 oz dry macaroni makes a relatively shallow bake. Do not substitute a smaller pan merely to make the layer thicker.'
+    - 'Bake the original batch in an 11-by-7-inch or 9-by-9-inch dish (about 2 1/2 quarts). A 13-by-9-inch pan spreads 8 oz macaroni about an inch deep, and the edges dry out before the center is hot. An 8-inch square dish is too full and can bubble over.'
     - 'For multiples, use separate original-size pans; smaller batches need an appropriately smaller pan and earlier center checks. Ingredient controls do not scale pan dimensions or baking times.'
   checkpoints:
     - step: 3
@@ -86,7 +86,7 @@ The roux thickens the milk before the cheddar goes in. Whisk out flour lumps whi
 
 ## Directions
 
-1. Heat the oven to 350°F. Lightly grease a 13-by-9-inch baking dish with the listed pan-greasing allowance. Bring pasta water to a boil and cook the macaroni according to its package until al dente; drain. While the pasta cooks, begin the sauce.
+1. Heat the oven to 350°F. Lightly grease an 11-by-7-inch or 9-by-9-inch baking dish (about 2 1/2 quarts) with the listed pan-greasing allowance. Bring pasta water to a boil and cook the macaroni according to its package until al dente; drain. While the pasta cooks, begin the sauce.
 2. In a large skillet with room to fold in all the cooked pasta, melt the measured butter over medium heat. Whisk in the flour and cook, whisking, about 1 minute; do not brown the roux.
 3. Gradually whisk in the milk, salt, cayenne and garlic powder. Cook, whisking constantly, about 3–5 minutes, until smooth and thick enough to coat a spoon; continue as needed rather than stopping with a thin, floury sauce.
 4. Reduce the heat and stir in all the cheddar and drained pimentos until the cheese melts and the sauce is smooth. Remove from the heat and fold in the drained pasta.

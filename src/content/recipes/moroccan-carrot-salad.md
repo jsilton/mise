@@ -53,7 +53,7 @@ ingredients:
   - 1/4 tsp sweet paprika
   - 1/8 tsp ground cinnamon
   - '1/8 tsp cayenne, optional'
-  - '1/2 tsp fine salt, divided and partly added to taste'
+  - '1 tsp fine salt, divided, the second half added to taste'
   - '1/4 cup fresh mint, thinly sliced just before serving'
   - 2 tbsp chopped parsley
   - '20 g golden raisins, optional'
@@ -131,4 +131,4 @@ Carrot, orange and orange-blossom water appear together in Moroccan salads. This
 1. **Grate carrots:** Use the coarse holes of a box grater or a food-processor shredding disc. Transfer to a bowl. If loose liquid has already collected, pour it away without squeezing the shreds dry.
 2. **Mix and taste the dressing:** Whisk orange juice, lemon juice, olive oil, cumin, paprika, cinnamon, optional cayenne and half the salt. Add the optional quarter-teaspoon orange-blossom water and taste a small amount with a carrot shred. Add sugar or more blossom water only if the balance needs it.
 3. **Dress and chill:** Toss dressing through carrots, adding the optional raisins if chosen. Cover and refrigerate for about 20 minutes to let the shreds soften lightly. There is no need for a long warm countertop rest.
-4. **Finish freshly:** Slice mint and chop parsley just before serving, fold them through and taste. Add remaining salt only if needed. Toss up any dressing from the bottom and divide into six side portions. If excess water has accumulated, drain a little before the final seasoning check.
+4. **Finish freshly:** Slice mint and chop parsley just before serving, fold them through and taste. Add the remaining salt a little at a time, tasting as you go. Enough salt keeps the citrus from tasting sour and flat. Toss up any dressing from the bottom and divide into six side portions. If excess water has accumulated, drain a little before the final seasoning check.

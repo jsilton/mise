@@ -35,8 +35,8 @@ pairsWith:
 ingredients:
   - '8 medium Red Potatoes, quartered (Skin-on)'
   - '3 large Garlic Cloves, peeled'
-  - 2 tbsp Unsalted Butter
-  - '1/2 cup Whole Milk, warmed'
+  - 4 tbsp Unsalted Butter
+  - '1/2 to 3/4 cup Whole Milk, warmed'
   - 1/4 cup Freshly Grated Parmesan
   - Salt and Black Pepper
 origin: United States
@@ -54,8 +54,9 @@ learning:
       Scrub skin-on potatoes and cut similar quarters; eight medium is a count,
       not a supported new weight.
     - >-
-      Warm the milk while potatoes cook. All measured milk/butter/Parmesan
-      belongs in the mash; warm the milk before adding it.
+      Warm the milk while potatoes cook. All the butter and Parmesan belong in
+      the mash. Start with 1/2 cup milk and add up to 1/4 cup more only as
+      needed.
     - >-
       Larger batches need a suitably larger pot or separate batches; keep pieces
       similar and judge tenderness, not multiplied time.
@@ -119,6 +120,6 @@ Keep the red skins on and cook the potato quarters with whole garlic cloves unti
 
 4. **Mash:** Add all the butter and mash potatoes and garlic together by hand. Season with the listed salt and pepper to taste. Keep skin pieces and some rustic texture rather than beating vigorously.
 
-5. **Finish the mash:** Gradually add all the warmed milk and Parmesan, mashing just enough to combine. Avoid a blender or food processor for the potatoes; stop at the desired rustic texture.
+5. **Finish the mash:** Add the Parmesan and 1/2 cup of the warmed milk, mashing just enough to combine. Add up to 1/4 cup more milk only if the mash needs loosening. Avoid a blender or food processor for the potatoes; stop at the desired rustic texture.
 
 6. **Serve:** Serve promptly. Refrigerate leftovers in shallow containers and reheat gently to the measured leftover endpoint, stirring for even heating.

@@ -41,10 +41,10 @@ ingredients:
   - '2 tsp Fresh Ginger, minced'
   - '2 tsp Garlic, minced'
   - 1 tsp Toasted Sesame Oil
-  - 1/2 tsp White Pepper
+  - 1/4 tsp White Pepper
   - 20 Gyoza or Siu Mai Wrappers
   - Soy Sauce and Chili Oil for dipping
-  - 'Kosher Salt, to taste, for the filling'
+  - '1/2 tsp Kosher Salt, for the filling'
   - 'Water, for sealing wrappers and steaming or boiling dumplings'
   - 'Quick Pickled Red Onions, for serving, optional'
 source: Adapted from Foodandwine.com
@@ -131,7 +131,7 @@ Keep waiting raw filling and assembled dumplings refrigerated, working with smal
 
 ## Directions
 
-1.  **The Paste:** In a large bowl, combine the chopped shrimp, scallions, ginger, garlic, sesame oil, white pepper and the filling kosher-salt allowance. Stir **vigorously in one direction** for 2 minutes until the mixture is sticky and pale. If checking the salt level, cook a small flattened tester in a nonstick skillet to 165°F /74°C and taste only after it is fully cooked; use a clean utensil for any adjustment to the remaining filling.
+1.  **The Paste:** In a large bowl, combine the chopped shrimp, scallions, ginger, garlic, sesame oil, white pepper and the 1/2 tsp kosher salt. Stir **vigorously in one direction** for 2 minutes until the mixture is sticky and pale. If checking the salt level, cook a small flattened tester in a nonstick skillet to 165°F /74°C and taste only after it is fully cooked; use a clean utensil for any adjustment to the remaining filling.
 2.  **Add Snap:** Fold in the fresh corn kernels.
 3.  **Shape:** Place a wrapper in your palm. Use the original approximately 1 tbsp filling scoop, adjusting only enough to seal the chosen wrapper; spoon the filling into the center. Moisten the edges with water. Fold into a half-moon and pleat the edges to seal tightly.
 4.  **Steam:** Place in a bamboo steamer lined with parchment. Leave space between dumplings and steam covered over boiling water, keeping the basket above the water and checking that the pot does not boil dry. Begin checking after 4–5 minutes; check several larger fillings with a thin-tip thermometer and continue until each reaches 165°F /74°C. The wrappers should be cooked and tender; gyoza or egg wrappers need not become translucent. Check each rack and repeat batches as needed.

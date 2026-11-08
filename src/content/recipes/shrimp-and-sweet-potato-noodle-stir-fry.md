@@ -56,7 +56,7 @@ ingredients:
   - 3 tbsp soy sauce
   - 1 tbsp fresh lime juice
   - 1 tbsp honey
-  - 1 tsp toasted sesame oil
+  - 1 tbsp toasted sesame oil
   - 1 tsp fish sauce
   - '--- Finish ---'
   - '1 lime, cut into wedges'
@@ -73,7 +73,7 @@ learning:
   before:
     - 'Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.'
     - Cut vegetables and whisk sauce before pan cooking; allow boiling water/package time.
-    - Split the high-smoke-point oil in half. Noodle sesame oil and sauce sesame oil are separate full teaspoon amounts at the original batch.
+    - Split the high-smoke-point oil in half. Noodle sesame oil (1 tsp) and sauce sesame oil (1 tbsp) are separate amounts at the original batch.
   checkpoints:
     - step: 2
       cue: 'Noodles are springy and drained, without a hard center.'

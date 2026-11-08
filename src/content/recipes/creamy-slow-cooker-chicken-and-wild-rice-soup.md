@@ -27,7 +27,7 @@ ingredients:
   - 1/2 teaspoon dried rosemary
   - 2 bay leaves
   - '1 pound cremini mushrooms, thinly sliced'
-  - 1/4 cup unsalted butter
+  - '5 tablespoons unsalted butter, divided'
   - 1/4 cup all-purpose flour
   - 1 cup milk
   - 1 cup half-and-half
@@ -38,7 +38,7 @@ cuisines:
   - American
 equipment:
   - 6-quart-slow-cooker
-  - saucepan
+  - large-deep-skillet
   - whisk
   - food-thermometer
 learning:
@@ -65,11 +65,12 @@ learning:
   checkpoints:
     - step: 3
       cue: >-
-        Rice and vegetables are tender, mushrooms are cooked, and chicken
-        reaches 165°F / 74°C.
+        Rice and vegetables are tender and chicken reaches 165°F / 74°C.
       why: Grain tenderness and chicken safety are separate checks.
     - step: 5
-      cue: 'The sauce is hot and slightly thickened, without dry flour pockets.'
+      cue: >-
+        Mushrooms are browned with no liquid left in the pan, and the sauce is
+        hot and slightly thickened, without dry flour pockets.
       why: >-
         A fixed whisking clock does not prove starch has thickened in cold
         dairy.
@@ -119,7 +120,7 @@ learning:
 
 ## Chef's Note
 
-Check the rice product before starting: whole wild rice, processed grain and rice blends do not share an identical cooking window. Use the dry wild rice listed here. Make the full butter-and-flour sauce separately near the end, then stir in the milk and half-and-half without simmering dairy for the whole slow-cooker cycle.
+Check the rice product before starting: whole wild rice, processed grain and rice blends do not share an identical cooking window. Use the dry wild rice listed here. Near the end, brown the mushrooms in butter and build the butter-and-flour sauce in the same pan, so the mushrooms taste roasted rather than steamed and the dairy never simmers for the whole slow-cooker cycle.
 
 ## Directions
 
@@ -127,13 +128,13 @@ Check the rice product before starting: whole wild rice, processed grain and ric
 
 2. **Start the soup:** Add all the measured stock, dry wild rice, garlic, onion, carrots, celery, thyme, rosemary and bay leaves. Add seasoning as wanted from the unmeasured allowance, cover and start promptly on LOW. Plan 6–8 hours, checking actual rice tenderness and vegetables as well as chicken; processed rice may finish sooner than unprocessed grain.
 
-3. **Add mushrooms and check doneness:** Add all the sliced mushrooms for roughly the final 30 minutes, covering again. The rice and vegetables must be tender, the mushrooms cooked and the thickest chicken pieces must reach 165°F /74°C before removal and shredding. Continue if any endpoint is unmet; do not infer safe chicken from tender rice.
+3. **Check doneness:** The rice and vegetables must be tender and the thickest chicken pieces must reach 165°F /74°C before removal and shredding. Continue if any endpoint is unmet; do not infer safe chicken from tender rice.
 
 4. **Shred:** Transfer the cooked chicken to a clean board and shred with two forks. Remove and discard all the bay leaves from the soup.
 
-5. **Make the sauce:** Melt all the measured butter in a saucepan over medium heat. Whisk in all the flour and cook until lightly golden, about 1 minute. Gradually whisk in all the measured milk and half-and-half; cook while whisking until slightly thickened, about 4–5 minutes after adding them, allowing longer if the mixture has not heated and thickened. Season from the salt/pepper allowance to taste.
+5. **Brown the mushrooms and make the sauce:** Melt 2 tablespoons of the butter in a large, deep skillet over medium-high heat. Add all the sliced mushrooms and a pinch of salt and cook, stirring occasionally, about 10–12 minutes until their liquid has evaporated and they are well browned. Lower the heat to medium and add the remaining 3 tablespoons butter. When it melts, stir in all the flour and cook until lightly golden, about 1 minute. Gradually whisk in all the measured milk and half-and-half; cook while whisking until slightly thickened, about 4–5 minutes after adding them, allowing longer if the mixture has not heated and thickened. Season from the salt/pepper allowance to taste.
 
-6. **Combine and serve:** Stir all the chicken and hot milk mixture into the cooker. If too thick, add a little additional half-and-half from its separate allowance. Stir until the soup is hot throughout; cold added dairy can require more heating. Taste before adding more seasoning and serve with the measured parsley if wanted.
+6. **Combine and serve:** Stir all the chicken and the hot mushroom sauce into the cooker. If too thick, add a little additional half-and-half from its separate allowance. Stir until the soup is hot throughout; cold added dairy can require more heating. Taste before adding more seasoning and serve with the measured parsley if wanted.
 
 ## Cooking Notes
 

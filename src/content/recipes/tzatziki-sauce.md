@@ -42,7 +42,7 @@ ingredients:
   - '2 small cloves garlic, finely grated'
   - 2 tbsp extra-virgin olive oil
   - 1 tbsp fresh lemon juice
-  - 1 tbsp finely chopped fresh dill
+  - 3 tbsp finely chopped fresh dill
   - '1/2 tsp fine salt, divided'
 description: >-
   Thick yogurt, drained cucumber, garlic, dill, and lemon. Learn to remove

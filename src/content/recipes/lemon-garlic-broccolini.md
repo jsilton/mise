@@ -42,6 +42,7 @@ ingredients:
   - '4 cloves Garlic, sliced thin'
   - 1 Lemon
   - 1/4 tsp Red Pepper Flakes
+  - 2–3 tbsp Water, for steaming
   - 1/2 tsp Kosher Salt
   - Black Pepper
 learning:
@@ -62,8 +63,8 @@ learning:
     - problem: Garlic darkens before stems soften
       cause: The heat is too high or stalk thickness is uneven.
       fix: >-
-        Lower the heat and keep tossing. Discard burned garlic if separable; next time split thick
-        stalks before cooking.
+        Add the garlic only after the covered steam, for the last minute. Discard burned garlic if
+        separable. Next time split thick stalks before cooking.
   timing: >-
     Plan about 10–25 minutes for preparation and one roomy batch. The original 3–4-minute broccolini
     stage is an early check, not a promise for every stem thickness. Extra rounds take longer.
@@ -94,9 +95,9 @@ Check broccolini at the thicker stems, where tenderness takes longer than the le
 
 1. **Prepare:** Wash and dry the broccolini and lemon. Trim dry stalk ends and split unusually thick stems lengthwise so the pieces cook more evenly. Zest all the listed lemon and reserve all the zest. Set aside half of the listed lemon amount for squeezing and cut the other half into serving wedges.
 
-2. **Heat:** Heat all the measured olive oil in enough roomy skillets for uncrowded cooking over medium heat. Divide the same oil, garlic and flakes across vessels or rounds. Add sliced garlic and all red-pepper flakes and cook about 30–45 seconds until fragrant; do not let garlic blacken.
+2. **Heat:** Heat all the measured olive oil in enough roomy skillets for uncrowded cooking over medium-high heat. Divide the same oil, water, garlic and flakes across vessels or rounds.
 
-3. **Cook broccolini:** Add all broccolini and toss about 3–4 minutes as an initial check. Continue until thick stems yield to a fork but retain some bite, adjusting heat down if garlic darkens. Thick stems can take longer. Season with all the measured kosher salt and the listed unmeasured black pepper.
+3. **Cook broccolini:** Add the broccolini in a single layer and cook, tossing occasionally, about 3–4 minutes until spotted brown. Add 2–3 tbsp water, cover and steam about 2 minutes, until thick stems yield to a fork but retain some bite. Thick stems can take a minute or two longer. Uncover, lower the heat to medium and add the sliced garlic and all red-pepper flakes. Toss about 1 minute, until the garlic is fragrant and pale gold and the water has cooked off. Season with all the measured kosher salt and the listed unmeasured black pepper.
 
 4. **Finish with juice:** Remove from heat and squeeze the reserved half of the listed lemon amount over the whole batch; toss. This is half the listed lemon amount, not an additional half beyond the serving wedges.
 

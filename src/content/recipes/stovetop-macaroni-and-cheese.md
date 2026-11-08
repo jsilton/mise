@@ -36,8 +36,8 @@ pairsWith:
   - skinny-baked-broccoli-macaroni-and-cheese
 ingredients:
   - 1 lb Elbow Macaroni or Shells
-  - 1 1/2 cups Whole Milk
-  - 2 tbsp All-Purpose Flour
+  - 3 cups Whole Milk
+  - 3 tbsp All-Purpose Flour
   - '3 cups Sharp Cheddar, shredded'
   - 1/2 tsp Sea Salt
   - 1/4 tsp Dry Mustard Powder (The Finishing Touch)
@@ -81,7 +81,8 @@ learning:
     - ingredient: Saved sauce formula
       alternative: >-
         For the complete saved sauce instead of the main, use the same listed
-        pasta weight, milk volume, flour, mustard and salt volume, but choose
+        pasta weight, mustard and salt volume with the saved 1 1/2 cups milk
+        and 2 tbsp flour (a tighter sauce), but choose
         whole or 2% milk, 2–3 cups cheddar, Monterey Jack or Colby for the
         original batch (scale that range proportionally), and omit the listed
         main butter. The saved salt is unnamed; that is not a kosher-to-sea-salt
@@ -158,8 +159,8 @@ Whisk the flour smoothly into one third of the cold milk before adding the rest.
 
 2. **Whisk:** In a large saucepan, whisk one third of the measured milk with all the flour until smooth. Stir in all the remaining milk.
 
-3. **Thicken:** Cook over medium heat, whisking across the bottom, until it lightly coats a spoon, checking from about 3–4 minutes; a cold pan and milk can take longer.
+3. **Thicken:** Cook over medium heat, whisking across the bottom, until it lightly coats a spoon, checking from about 5–7 minutes; a cold pan and milk can take longer.
 
-4. **Melt and season:** Reduce heat to low. Add all the cheese in handfuls, stirring until each melts. Stir in all the salt, mustard powder and measured butter, then take off heat; avoid a hard boil after the cheese is added.
+4. **Melt and season:** Reduce heat to low. Add all the cheese in handfuls, stirring until each melts. Stir in all the salt, mustard powder and measured butter, taste and add a pinch more salt if needed, then take off heat. Avoid a hard boil after the cheese is added.
 
 5. **Combine and serve:** Fold in all the drained pasta until coated. Serve hot. For the quick broiled finish, transfer to a broiler-rated dish, scatter the optional breadcrumbs over it and broil with frequent checks from about 2 minutes, until the top colors; do not leave it unattended.

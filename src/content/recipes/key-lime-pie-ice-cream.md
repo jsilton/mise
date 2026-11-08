@@ -33,9 +33,10 @@ totalTime: 'Chilling and churning, then at least 4 hr freezing'
 servings: 6 portions
 ingredients:
   - '--- Ice cream ---'
-  - 1 can (14 oz) fat-free sweetened condensed milk
+  - 1 can (14 oz) sweetened condensed milk
   - '1/2 cup Key lime juice, bottled or freshly squeezed and strained'
-  - 1 1/2 cups 2% milk
+  - '2 tsp finely grated lime zest, from Key limes or regular limes'
+  - 1 1/2 cups whole milk
   - 1/2 cup heavy whipping cream
   - 'sea salt, a pinch'
   - >-
@@ -60,8 +61,8 @@ formula:
       name: Ice cream
       ingredients:
         - id: condensed-milk
-          key: fat-free-sweetened-condensed-milk
-          name: fat-free sweetened condensed milk
+          key: sweetened-condensed-milk
+          name: sweetened condensed milk
           quantity:
             amount: 1
             unit: can
@@ -81,9 +82,19 @@ formula:
             - step: base
               share: 1
           preparation: bottled or freshly squeezed and strained
+        - id: zest
+          key: lime-zest
+          name: finely grated lime zest
+          quantity:
+            amount: 2
+            unit: tsp
+          uses:
+            - step: base
+              share: 1
+          preparation: from Key limes or regular limes
         - id: milk
-          key: two-percent-milk
-          name: 2% milk
+          key: whole-milk
+          name: whole milk
           quantity:
             amount: 1 1/2
             unit: cup
@@ -178,7 +189,8 @@ learning:
       prechilling and maximum working fill. Allow extra churns and any bowl-refreezing time if
       scaling.
     - >-
-      Use the full listed condensed milk, 2% milk and cream. The six cracker pieces are
+      Use the full listed regular (not fat-free) condensed milk, whole milk and cream. Their fat and
+      solids keep the ice cream creamy and scoopable instead of icy. The six cracker pieces are
       quarter-sheet pieces, totaling 1½ full sheets in the original six-portion batch.
     - >-
       Crush all the listed pieces and divide them equally; keep the topping half dry in a closed
@@ -207,6 +219,11 @@ learning:
         Reserve half of the full counted supply dry before folding the other half into ice cream;
         add the dry half only when serving.
   substitutions:
+    - ingredient: Regular condensed milk and whole milk
+      alternative: Fat-free sweetened condensed milk and 2% milk in the same amounts
+      effect: >-
+        A lighter version, but the lean base churns icier and freezes much harder. Let it soften
+        longer before scooping.
     - ingredient: Key lime juice
       alternative: Bottled Key lime juice or freshly squeezed strained Key lime juice in the same listed volume
       effect: >-
@@ -238,11 +255,11 @@ learning:
 
 ## Chef's Note
 
-Sweetened condensed milk gives this [Key lime pie](/mise/recipes/key-lime-pie)-inspired ice cream sweetness and body, while the full cream and milk round out the lime. Fold half the coarsely crushed graham crackers into the churned ice cream and keep half dry for serving: the mix-ins soften, while the topping stays crisp.
+Regular sweetened condensed milk gives this [Key lime pie](/mise/recipes/key-lime-pie)-inspired ice cream sweetness and body, while whole milk and cream round out the lime and keep the texture creamy. Lime zest whisked into the base carries bright lime aroma that juice alone loses once frozen. Fold half the coarsely crushed graham crackers into the churned ice cream and keep half dry for serving: the mix-ins soften, while the topping stays crisp.
 
 ## Directions
 
-1. **Whisk and chill the base:** Whisk fat-free sweetened condensed milk, Key lime juice, 2% milk, heavy whipping cream, and sea salt in a bowl until smooth. Use pasteurized milk and cream. Cover and refrigerate at 40°F / 4°C or below until thoroughly cold; keep the base refrigerated until churning. Prepare the ice-cream machine’s freezer bowl or compressor according to its manual before starting.
+1. **Whisk and chill the base:** Whisk sweetened condensed milk, Key lime juice, finely grated lime zest, whole milk, heavy whipping cream, and sea salt in a bowl until smooth. Use pasteurized milk and cream. Cover and refrigerate at 40°F / 4°C or below until thoroughly cold; keep the base refrigerated until churning. Prepare the ice-cream machine’s freezer bowl or compressor according to its manual before starting.
 2. **Churn within the machine limit:** Pour the cold base into the prepared ice-cream maker, staying below its maximum working fill so there is room as it churns. Churn according to the machine instructions until thick and soft-serve-like. If the batch exceeds capacity, use complete smaller churns and keep the waiting base refrigerated; a freezer bowl may need to be fully refrozen between batches.
 3. **Fold in half the crumbs:** Use 1/2 of the quarter-sheet graham cracker pieces for this stage. Divide the complete crushed-cracker supply into equal halves; keep the other half dry for serving. Fold this half gently into the churned ice cream after churning, or add near the end only if the machine manual permits mix-ins. Use the complete listed cracker supply for these two equal portions.
 4. **Freeze until firm:** Transfer to a chilled freezer-safe container with room for the complete batch. Cover closely and freeze at 0°F / −18°C until firm enough to scoop, planning at least 4 hours and preferably overnight. Container depth, freezer temperature and batch size affect firming; four hours is a starting plan rather than a guarantee.

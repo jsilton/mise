@@ -35,8 +35,8 @@ ingredients:
   - '--- Chocolate-chip muffin batter ---'
   - 'butter or neutral oil, for greasing the muffin cups and rims'
   - 2 1/2 cups all-purpose flour
-  - 1 tbsp baking powder
-  - 1 tsp baking soda
+  - 2 1/2 tsp baking powder
+  - 1/2 tsp baking soda
   - 1/2 tsp salt
   - 1 1/2 cups semisweet chocolate chips
   - '1/2 cup unsalted butter, melted and cooled to lukewarm'
@@ -78,8 +78,8 @@ formula:
           key: baking-powder
           name: baking powder
           quantity:
-            amount: 1
-            unit: tbsp
+            amount: 2 1/2
+            unit: tsp
           uses:
             - step: dry
               share: 1
@@ -87,7 +87,7 @@ formula:
           key: baking-soda
           name: baking soda
           quantity:
-            amount: 1
+            amount: 1/2
             unit: tsp
           uses:
             - step: dry

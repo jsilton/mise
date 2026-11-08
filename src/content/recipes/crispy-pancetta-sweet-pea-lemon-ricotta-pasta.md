@@ -46,7 +46,7 @@ ingredients:
   - '2 cloves garlic, finely minced'
   - '1 cup sweet peas, fresh or frozen'
   - 1/4 cup dry white wine or unsalted chicken stock
-  - 1/2 cup whole-milk ricotta
+  - 1–1 1/4 cups whole-milk ricotta
   - 1/2 cup freshly grated Parmesan
   - '1 lemon, finely grated zest'
   - '2 tbsp fresh lemon juice, taken from the zested fruit if possible'

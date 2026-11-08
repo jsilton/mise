@@ -37,8 +37,8 @@ ingredients:
   - '6 ripe Roma tomatoes, cored, seeded and chopped'
   - 6 tbsp extra-virgin olive oil
   - '2 cloves garlic, minced'
-  - 2 tsp dried Italian seasoning
-  - '1/2 cup fresh basil, roughly chopped'
+  - '1 pinch dried oregano, optional'
+  - '1 cup fresh basil, roughly chopped'
   - '1 tbsp fresh lemon juice, added to taste'
   - 'Salt and freshly ground black pepper, to taste'
   - >-
@@ -154,7 +154,7 @@ Warm the tomatoes just enough to release some juice, then toss with the pasta aw
 ## Directions
 
 1. **Prepare before boiling pasta:** Bring a large pot of water to a boil. Core, seed and chop tomatoes, mince garlic, drain and cut mozzarella, and chop basil. Season water with salt.
-2. **Warm tomatoes:** Heat olive oil in a large skillet over medium-low to medium. Stir in garlic and Italian seasoning for **30–60 seconds**, until fragrant without browning. Add tomatoes and a little salt; cook about **2–3 minutes** until warm but still distinct. Remove from heat.
+2. **Warm tomatoes:** Heat olive oil in a large skillet over medium-low to medium. Stir in garlic and the oregano, if using, for **30–60 seconds**, until fragrant without browning. Add tomatoes and a little salt; cook about **2–3 minutes** until warm but still distinct. Remove from heat.
 3. **Cook angel hair:** Add pasta to the boiling water and stir gently. Cook according to its package until tender with a little bite, tasting near the end. Reserve **the listed cooking water** before draining without rinsing.
 4. **Combine and cool briefly:** Add pasta to the tomato mixture away from heat, transferring to a serving bowl if the skillet is crowded or retains strong heat. Add **half the lemon juice** and lift gently to coat, using a small splash of cooking water only if dry. Let stand about **1–2 minutes**, until no longer steaming fiercely.
 5. **Fold and serve:** Fold in mozzarella and basil gently. Taste, then add the remaining lemon juice, salt and pepper only as needed. Serve promptly while the cheese is softened but still in distinct pieces; do not return to the burner to force melting.

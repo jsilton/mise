@@ -21,11 +21,11 @@ pairsWith: [simple-roast-turkey, chicken-marsala, chicken-coq-au-vin]
 ingredients:
   - '1360 g peeled Yukon Gold potatoes, cut into even 1-inch pieces'
   - '3 L cold water, or enough to cover potatoes by about 1 inch'
-  - '12 g salt, for the cooking water'
+  - '30 g salt, for the cooking water'
   - '75 g unsalted butter, cut into small pieces'
   - '115 g cream cheese, cut into small pieces'
   - '3/4 cup (180 ml) half-and-half, plus up to 1/4 cup (60 ml) more if needed'
-  - '1/2 tsp fine salt, for finishing, divided'
+  - '1 1/2 tsp fine salt, for finishing, added to taste'
   - 1/2 tsp coarsely ground black pepper
 origin: United States
 description: >-
@@ -101,11 +101,11 @@ Cream cheese gives these American-style mashed potatoes a rich, mildly tangy fin
 
 ## Directions
 
-1. **Cut and cover:** Peel and trim enough potatoes to weigh 1360 g, then cut into even one-inch pieces. Briefly rinse, put in a large pot and add about three liters cold water to cover by an inch. Add the twelve grams of cooking-water salt.
+1. **Cut and cover:** Peel and trim enough potatoes to weigh 1360 g, then cut into even one-inch pieces. Briefly rinse, put in a large pot and add about three liters cold water to cover by an inch. Add the thirty grams of cooking-water salt. The water should taste pleasantly salty.
 2. **Simmer until fully tender:** Bring to a boil, reduce to a steady simmer and cook about eighteen to twenty-two minutes. Test several pieces with a knife and taste a cooled piece; the centers should be fully soft, not just puncturable. While they cook, warm butter, cream cheese and the initial 180 ml half-and-half together over low heat, stirring until the butter melts and the cream cheese softens. Do not boil the dairy.
 3. **Drain and dry briefly:** Drain thoroughly. Return the potatoes to the pot over low heat for one to two minutes, shaking or turning gently until the surfaces lose their wet sheen. Remove from heat before they brown or stick.
 4. **Mash gently:** Pass hot potatoes through a ricer or use a hand masher until the large pieces are gone. Fold in the warm dairy mixture in two additions with a spatula. Stop when combined. If too stiff, warm and add the optional extra half-and-half a tablespoon at a time until it holds a soft mound.
-5. **Taste and serve:** Fold in pepper and half the finishing salt, then taste; add the rest only if needed. The cooking-water salt was largely drained away, while cream cheese contributes its own seasoning. Serve about three-quarters of a cup per person alongside the main.
+5. **Taste and serve:** Fold in pepper and 1/2 tsp of the finishing salt, then taste. Add the rest a little at a time until the potatoes taste fully seasoned, stopping when they do. Cream cheese contributes its own seasoning. Serve about three-quarters of a cup per person alongside the main.
 
 ## A short hold
 

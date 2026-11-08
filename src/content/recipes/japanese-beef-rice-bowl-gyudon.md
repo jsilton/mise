@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: quick
 prepTime: 10 min
-cookTime: 30 min
-totalTime: 40 min
+cookTime: 20 min
+totalTime: 30 min
 servings: 4 portions
 seasons:
   - year-round
@@ -36,9 +36,10 @@ ingredients:
   - 2 tbsp neutral oil
   - '2 medium onions, thinly sliced'
   - '1 lb fatty chuck or ribeye beef, very thinly sliced across the grain'
-  - 2 tsp sugar
+  - 2 tbsp sugar
   - 2 tbsp mirin
-  - 2 tbsp light soy sauce
+  - 2 tbsp sake
+  - 1/4 cup light soy sauce
   - '1 cup prepared dashi, beef stock, or chicken stock'
   - '--- For serving ---'
   - '4 cups cooked short-grain white rice, warm; prepared separately'
@@ -67,7 +68,7 @@ learning:
       prepared broth rather than assuming one stock recipe yields exactly the required amount.
   checkpoints:
     - step: 1
-      cue: Onions bend easily and have soft centers.
+      cue: Onions are wilted and just beginning to soften.
       why: The onion stage precedes the short reduction with thin beef.
     - step: 3
       cue: A thin sauce remains around the cooked beef; the pan is not dry.
@@ -82,14 +83,17 @@ learning:
     - ingredient: Light soy sauce
       alternative: Gluten-free tamari
       effect: Check mirin and broth labels too; replacing soy alone does not establish a gluten-free dish.
+    - ingredient: Sake
+      alternative: 'The same amount of dry sherry, or more dashi'
+      effect: Sherry is close in savory depth. Extra dashi keeps the balance but tastes a little flatter.
   storage: >-
     Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
     below. Use within 3 days, including any earlier storage of cooked components. Reheat leftovers
     to 165°F / 74°C throughout. Keep rice and beef in separate shallow containers if practical.
   timing: >-
-    About 40 minutes with cooked rice ready: 10 minutes preparation and about 30 minutes for the
-    onion, beef, reduction, and rest stages. Prepare the optional eggs during the simmer. Larger
-    batches need a wider pan or separate pans and can take longer.
+    About 30 minutes with cooked rice ready: 10 minutes preparation and about 20 minutes for the
+    onion, beef, reduction, and rest stages. Prepare the optional eggs while the onions simmer.
+    Larger batches need a wider pan or separate pans and can take longer.
   sources:
     - title: Sarah Leung — Gyudon
       url: 'https://thewoksoflife.com/gyudon-recipe-beef-rice/'
@@ -149,9 +153,9 @@ formula:
           name: sugar
           quantity:
             amount: 2
-            unit: tsp
+            unit: tbsp
           uses:
-            - step: beef
+            - step: simmer
               share: 1
         - id: mirin
           key: mirin
@@ -162,12 +166,21 @@ formula:
           uses:
             - step: simmer
               share: 1
+        - id: sake
+          key: sake
+          name: sake
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: simmer
+              share: 1
         - id: soy
           key: light-soy-sauce
           name: light soy sauce
           quantity:
-            amount: 2
-            unit: tbsp
+            amount: 1/4
+            unit: cup
           uses:
             - step: simmer
               share: 1
@@ -249,29 +262,29 @@ formula:
     - id: onions
       title: Soften the onions
       text: >-
-        Heat the {{ingredients}} in a large skillet over medium-high heat, stirring frequently,
-        until the onions are soft and beginning to color, about 10 minutes. Start with the oil, then
-        add the onions; lower the heat if their edges darken before they soften.
-    - id: beef
-      title: Brown the beef
-      text: >-
-        Add the {{ingredients}}. Separate the thin slices and stir until the meat loses its raw
-        surface color. This is an intermediate stage; keep cooking in the broth.
+        Heat the {{ingredients}} in a large skillet over medium heat, stirring frequently, until the
+        onions are wilted and just beginning to soften, about 5 minutes. Start with the oil, then
+        add the onions; lower the heat if their edges darken.
     - id: simmer
-      title: Reduce the broth
+      title: Simmer the onions in the sauce
       text: >-
-        Add the {{ingredients}} and bring to a gentle simmer. Cook about 10–15 minutes, stirring
-        occasionally, until the onions are tender and a thin, lightly reduced sauce remains. Avoid
-        boiling it dry. Check a thicker beef slice with a thin-tip thermometer inserted from the
-        side: at least 145°F / 63°C. Remove the skillet from the heat and allow at least 3 minutes
-        before serving.
+        Add the {{ingredients}} and bring to a gentle simmer. Cook about 5–8 minutes, stirring
+        occasionally, until the onions are tender and sweet and the sauce has reduced slightly.
+        Avoid boiling it dry.
+    - id: beef
+      title: Cook the beef briefly
+      text: >-
+        Add the {{ingredients}}, separating the thin slices into the simmering sauce. Cook 2–3
+        minutes, turning, just until no pink remains. Longer simmering toughens and dries thin beef.
+        Check a thicker slice with a thin-tip thermometer inserted from the side: at least 145°F /
+        63°C. Remove the skillet from the heat and allow at least 3 minutes before serving.
     - id: eggs
       title: Prepare the optional eggs
       text: >-
-        If using the {{ingredients}}, poach in a separate saucepan while the beef simmers. Cook
-        ordinary eggs until both white and yolk are firm. A soft-yolk option requires shell eggs
-        labeled pasteurized. Transfer with a clean slotted spoon; warm rice is not a reliable
-        egg-cooking method.
+        If using the {{ingredients}}, poach in a separate saucepan while the onions simmer in the
+        sauce. Cook ordinary eggs until both white and yolk are firm. A soft-yolk option requires
+        shell eggs labeled pasteurized. Transfer with a clean slotted spoon; warm rice is not a
+        reliable egg-cooking method.
     - id: serve
       title: Fill the bowls
       text: >-
@@ -283,18 +296,18 @@ miseId: 066540c6-77bf-42eb-aa44-7650bd4c65a7
 
 ## Chef's Note
 
-Thinly sliced fatty beef and well-softened onions carry this bowl. The sauce is sweetened with mirin and a little sugar, then gently reduced so there is broth to spoon over the rice.
+Thinly sliced fatty beef and well-softened onions carry this bowl. The onions simmer in a savory-sweet soy, mirin, sake and dashi sauce until tender, and the beef goes in only for the last 2–3 minutes so it stays tender. There is plenty of broth to spoon over the rice.
 
 ## Directions
 
-1. **Soften the onions:** Heat the neutral oil and medium onions in a large skillet over medium-high heat, stirring frequently, until the onions are soft and beginning to color, about 10 minutes. Start with the oil, then add the onions; lower the heat if their edges darken before they soften.
-2. **Brown the beef:** Add the fatty chuck or ribeye beef and sugar. Separate the thin slices and stir until the meat loses its raw surface color. This is an intermediate stage; keep cooking in the broth.
-3. **Reduce the broth:** Add the mirin, light soy sauce, and prepared dashi, beef stock, or chicken stock and bring to a gentle simmer. Cook about 10–15 minutes, stirring occasionally, until the onions are tender and a thin, lightly reduced sauce remains. Avoid boiling it dry. Check a thicker beef slice with a thin-tip thermometer inserted from the side: at least 145°F / 63°C. Remove the skillet from the heat and allow at least 3 minutes before serving.
-4. **Prepare the optional eggs:** If using the eggs (if using) and water (if using), poach in a separate saucepan while the beef simmers. Cook ordinary eggs until both white and yolk are firm. A soft-yolk option requires shell eggs labeled pasteurized. Transfer with a clean slotted spoon; warm rice is not a reliable egg-cooking method.
+1. **Soften the onions:** Heat the neutral oil and medium onions in a large skillet over medium heat, stirring frequently, until the onions are wilted and just beginning to soften, about 5 minutes. Start with the oil, then add the onions; lower the heat if their edges darken.
+2. **Simmer the onions in the sauce:** Add the sugar, mirin, sake, light soy sauce, and prepared dashi, beef stock, or chicken stock and bring to a gentle simmer. Cook about 5–8 minutes, stirring occasionally, until the onions are tender and sweet and the sauce has reduced slightly. Avoid boiling it dry.
+3. **Cook the beef briefly:** Add the fatty chuck or ribeye beef, separating the thin slices into the simmering sauce. Cook 2–3 minutes, turning, just until no pink remains. Longer simmering toughens and dries thin beef. Check a thicker slice with a thin-tip thermometer inserted from the side: at least 145°F / 63°C. Remove the skillet from the heat and allow at least 3 minutes before serving.
+4. **Prepare the optional eggs:** If using the eggs (if using) and water (if using), poach in a separate saucepan while the onions simmer in the sauce. Cook ordinary eggs until both white and yolk are firm. A soft-yolk option requires shell eggs labeled pasteurized. Transfer with a clean slotted spoon; warm rice is not a reliable egg-cooking method.
 5. **Fill the bowls:** Divide the cooked short-grain white rice, scallion, toasted sesame seeds (if using), and shichimi togarashi (if using) among the bowls, using the sesame and shichimi only if desired. Spoon the beef, onions, and remaining broth over the rice, then add the prepared eggs if using. Serve promptly.
 
 ## Variations and serving notes
 
-**Aromatic variation:** For the original four-portion batch, add 2 minced garlic cloves and 1 tbsp grated fresh ginger during the last minute of the onion stage. Add 2 tbsp sake or dry sherry with the mirin, soy, and broth; simmer to the same thin-sauce cue. You may use 4 sliced scallions instead of 1 for a fuller garnish. All other main-recipe quantities and the egg precautions stay the same. Scale these additions in proportion to the main formula.
+**Aromatic variation:** For the original four-portion batch, add 2 minced garlic cloves and 1 tbsp grated fresh ginger during the last minute of the onion stage. You may use 4 sliced scallions instead of 1 for a fuller garnish. All other main-recipe quantities and the egg precautions stay the same. Scale these additions in proportion to the main formula.
 
 **Rice dependency:** Measure 4 cups prepared, warm rice for the original batch. [Plain short-grain rice](/mise/recipes/steamed-white-rice/) has its own soak, cooking, and rest time; its four-side-portion label is not a promise of this measured cooked volume.

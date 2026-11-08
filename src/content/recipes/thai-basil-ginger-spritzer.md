@@ -47,8 +47,8 @@ learning:
     - seasoning
   before:
     - >-
-      Strip the syrup basil leaves before steeping the stems, reserving the
-      leaves cold for the separate source service or another use.
+      Steep the syrup basil sprigs whole, leaves included; the leaves carry most
+      of the basil aroma.
     - >-
       At the original six-drink scale only 12 tablespoons of syrup are needed
       for service. The input water and sugar do not certify the final strained
@@ -79,19 +79,18 @@ learning:
     - title: FDA — Cold handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   substitutions:
-    - ingredient: Reserved-leaf and crushed-ice service
+    - ingredient: Crushed-ice service
       alternative: >-
-        Instead of the separate bruising-leaf supply and no-ice service, divide
-        the leaves reserved from the syrup basil sprigs among the drinks. Put
-        half a cup crushed ice into each original-size glass, add its reserved
-        basil leaves and gently bruise them. Add the same 2 tablespoons chilled
+        Instead of the no-ice service, put half a cup crushed ice into each
+        original-size glass, add its share of the listed bruising basil leaves
+        and gently bruise them. Add the same 2 tablespoons chilled
         syrup, half a cup sparkling wine and one lime wedge per original-size
         drink. Scale the number of drinks, crushed-ice supply and full formula
         together; leave enough glass space for both ice and drink. Keep surplus
         syrup separate.
       effect: >-
-        This is the complete original reserved-leaf and crushed-ice route,
-        exclusive of the main additional-leaf/no-ice service. The original six
+        This is the complete original crushed-ice route, exclusive of the main
+        no-ice service. The original six
         drinks use three cups crushed ice in total; that is an ice supply, not
         measured dilution or finished yield.
   review:
@@ -101,15 +100,15 @@ learning:
 
 ## Chef's Note
 
-Steep the ginger, basil stems and lime leaves off heat, then chill the strained syrup before adding cold sparkling wine. Use only the syrup needed for the drinks and keep the remainder separate. Stir gently after the wine goes in.
+Steep the ginger, whole basil sprigs and lime leaves off heat, then chill the strained syrup before adding cold sparkling wine. Use only the syrup needed for the drinks and keep the remainder separate. Stir gently after the wine goes in.
 
 ## Directions
 
-1. Wash the ginger, basil and lime leaves, peel the ginger and measure the full listed sliced amount. Strip the leaves from the listed basil sprigs, reserving those leaves separately. Keep the listed additional bruising leaves separate from the syrup stems.
+1. Wash the ginger, basil and lime leaves, peel the ginger and measure the full listed sliced amount. Keep the listed basil sprigs whole for the syrup, and keep the additional bruising leaves separate.
 
 2. Combine all the listed water and sugar in a saucepan with room for boiling. Bring to a boil and cook for 1 minute, stirring until the sugar is dissolved. Remove from heat.
 
-3. Add all the listed ginger, stripped basil stems and lime leaves. Cover and let stand for 10 minutes. Strain into a clean heat-safe container and discard the steeped solids. Cool promptly, then cover and refrigerate until cold; do not count this chilling as part of the infusion clock. Keep the reserved basil leaves cold for the alternative service or another use.
+3. Add all the listed ginger, whole basil sprigs (leaves included) and lime leaves, pressing the basil under the syrup. Cover and let stand for 10 minutes. Strain into a clean heat-safe container and discard the steeped solids. Cool promptly, then cover and refrigerate until cold; do not count this chilling as part of the infusion clock.
 
 4. For the main service, use chilled glasses with room for the full wine portion, syrup and wedge. Divide all the separately listed bruising basil leaves among the listed servings and gently press them with a spoon.
 

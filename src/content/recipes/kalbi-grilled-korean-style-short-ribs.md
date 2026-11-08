@@ -33,7 +33,8 @@ ingredients:
   - '--- Soy marinade ---'
   - 1 cup soy sauce
   - 3 tbsp dark brown sugar
-  - 1/2 tsp toasted sesame oil
+  - 2 tbsp toasted sesame oil
+  - '1 large Asian pear, peeled, cored and finely grated, with its juice'
   - '4 scallions, washed and finely chopped'
   - '7 garlic cloves, peeled and minced'
   - 1/4 tsp black pepper
@@ -114,8 +115,19 @@ formula:
           key: sesame-oil
           name: toasted sesame oil
           quantity:
-            amount: 1/2
-            unit: tsp
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: marinade
+              share: 1
+        - id: pear
+          key: asian-pear
+          name: large Asian pear
+          plural: large Asian pears
+          quantity:
+            amount: 1
+            unit: count
+          preparation: 'peeled, cored and finely grated, with its juice'
           uses:
             - step: marinade
               share: 1
@@ -184,8 +196,9 @@ formula:
     - id: marinade
       title: Mix the soy marinade
       text: >-
-        Whisk {{ingredients}} until the brown sugar dissolves. This main marinade has no added
-        water; the water-diluted alternative below is a separate choice.
+        Whisk {{ingredients}} until the brown sugar dissolves. The grated pear adds fruity sweetness
+        and helps tenderize the meat. This main marinade has no added water; the water-diluted
+        alternative below is a separate choice.
     - id: chill
       title: Marinate cold
       text: >-
@@ -198,15 +211,16 @@ formula:
         Set up a charcoal grill with medium-high direct heat and a cooler zone, following its
         operating instructions. Use {{ingredients}} as needed for the grates. Drain the ribs and
         wipe away excess marinade just before grilling; discard the raw-contact marinade. Grill
-        uncrowded ribs over direct heat, starting checks around 2–3 minutes per side, until seared
-        without blackening the sugar. Work in loads and keep waiting raw ribs refrigerated.
+        uncrowded ribs over direct heat for about 2–3 minutes per side, until seared without
+        blackening the sugar. Work in loads and keep waiting raw ribs refrigerated.
     - id: finish
-      title: Finish on the cooler zone
+      title: Pull promptly and check
       text: >-
-        Move the ribs to the cooler zone and begin checking after about 5 minutes, turning as
-        needed. Continue until the meat is cooked through to at least 145°F in its thickest part
-        away from bone, using a probe suitable for thin meat from the side. The fat and edges should
-        be cooked to your liking; a clock or char alone does not establish the center temperature.
+        Pull the ribs off the grill as soon as both sides are seared. Half-inch flanken ribs are
+        cooked through by then, and extra time on the grill makes them tough and dry. Use the cooler
+        zone only to tame flare-ups or to slow a piece whose coating is darkening too fast. Check a
+        thicker piece from the side with a probe suitable for thin meat: at least 145°F away from
+        bone.
     - id: rest
       title: Rest and serve
       text: >-
@@ -232,8 +246,8 @@ learning:
     - step: 5
       cue: Edges sear while the sweet coating stays brown rather than black.
       why: >-
-        Direct heat builds color quickly; the cooler zone provides more finishing time without
-        leaving the sugary exterior over the coals.
+        Direct heat builds color quickly and cooks thin ribs through in the same few minutes. The
+        cooler zone is a refuge from flare-ups, not a second cooking stage.
     - step: 6
       cue: Thin-food readings reach at least 145°F away from bone before the five-minute rest.
       why: Surface char and softened fat do not measure the meat center.
@@ -244,6 +258,11 @@ learning:
         Move to the cooler zone and finish by temperature. Burnt coating cannot be restored; drain
         and wipe excess marinade before the next load.
   substitutions:
+    - ingredient: Asian pear
+      alternative: '1 large Bosc pear or 1 sweet apple such as Fuji, grated the same way'
+      effect: >-
+        Easier to find at the supermarket. Both add similar fruity sweetness, with a little less
+        tenderizing effect than Asian pear.
     - ingredient: Main soy marinade without water
       alternative: Water-diluted marinade
       effect: >-
@@ -251,9 +270,9 @@ learning:
         with the full recipe. Keep every sake, sugar, soy, oil and aromatic amount. Use scallion
         whites and the first 2 inches of greens and choose large garlic cloves for the measured
         clove count if following this route. Refrigerate at least 8 hours; discard the raw-contact
-        marinade. The more diluted marinade seasons differently. Grill over direct heat until
-        seared, then turn on the cooler zone with about 5 minutes per side as first checks,
-        continuing to the same temperature and five-minute rest.
+        marinade. The more diluted marinade seasons differently. Grill over direct heat for about
+        2–3 minutes per side, using the cooler zone only for flare-ups, and finish with the same
+        temperature check and five-minute rest.
     - ingredient: Charcoal grill
       alternative: Broiler for the thin flanken ribs
       effect: >-
@@ -293,14 +312,14 @@ learning:
 
 ## Chef's Note
 
-Kalbi brings a soy, sake and sugar marinade to flanken-cut Korean barbecue ribs. Keep the 1/2-inch cut consistent and use both a direct-heat and a cooler grilling zone: the sweet coating can darken before the meat finishes. The sake-sugar rub is a separate preparation stage; its short rest does not guarantee tender meat.
+Kalbi brings a soy, sake, sugar, sesame and Asian pear marinade to flanken-cut Korean barbecue ribs. The pear adds fruity sweetness and helps tenderize, and the sesame oil gives the nutty aroma of classic galbi. Keep the 1/2-inch cut consistent and grill fast over direct heat, keeping a cooler zone ready for flare-ups, since thin ribs overcook quickly. The sake-sugar rub is a separate preparation stage; its short rest does not guarantee tender meat.
 
 ## Directions
 
 1. **Inspect and prepare:** Inspect the cut ribs for loose bone fragments; remove visible fragments with a damp paper towel and pat dry, keeping raw juices away from ready-to-eat foods. Use covered food-safe vessels with room to turn the entire listed batch; divide all ingredients proportionally if more vessels are needed.
 2. **Apply the sake-sugar rub:** Use flanken-style beef short ribs, sake, and granulated sugar. Stir the sake and granulated sugar together and rub the mixture onto both sides of the ribs. Cover and refrigerate for 15 minutes while preparing the soy marinade.
-3. **Mix the soy marinade:** Whisk soy sauce, dark brown sugar, toasted sesame oil, scallions, garlic cloves, black pepper, and vegetable oil until the brown sugar dissolves. This main marinade has no added water; the water-diluted alternative below is a separate choice.
+3. **Mix the soy marinade:** Whisk soy sauce, dark brown sugar, toasted sesame oil, large Asian pear, scallions, garlic cloves, black pepper, and vegetable oil until the brown sugar dissolves. The grated pear adds fruity sweetness and helps tenderize the meat. This main marinade has no added water; the water-diluted alternative below is a separate choice.
 4. **Marinate cold:** Pour the entire soy marinade over the ribs and turn to coat every slice. Cover and refrigerate at 40°F or below for at least 8 hours or overnight. Turn with clean utensils if needed for even contact; do not leave the ribs on the counter to warm through.
-5. **Set up the grill and sear:** Set up a charcoal grill with medium-high direct heat and a cooler zone, following its operating instructions. Use suitable grilling oil as needed for the grates. Drain the ribs and wipe away excess marinade just before grilling; discard the raw-contact marinade. Grill uncrowded ribs over direct heat, starting checks around 2–3 minutes per side, until seared without blackening the sugar. Work in loads and keep waiting raw ribs refrigerated.
-6. **Finish on the cooler zone:** Move the ribs to the cooler zone and begin checking after about 5 minutes, turning as needed. Continue until the meat is cooked through to at least 145°F in its thickest part away from bone, using a probe suitable for thin meat from the side. The fat and edges should be cooked to your liking; a clock or char alone does not establish the center temperature.
+5. **Set up the grill and sear:** Set up a charcoal grill with medium-high direct heat and a cooler zone, following its operating instructions. Use suitable grilling oil as needed for the grates. Drain the ribs and wipe away excess marinade just before grilling; discard the raw-contact marinade. Grill uncrowded ribs over direct heat for about 2–3 minutes per side, until seared without blackening the sugar. Work in loads and keep waiting raw ribs refrigerated.
+6. **Pull promptly and check:** Pull the ribs off the grill as soon as both sides are seared. Half-inch flanken ribs are cooked through by then, and extra time on the grill makes them tough and dry. Use the cooler zone only to tame flare-ups or to slow a piece whose coating is darkening too fast. Check a thicker piece from the side with a probe suitable for thin meat: at least 145°F away from bone.
 7. **Rest and serve:** Transfer to a clean platter and rest 5 minutes before cutting between the bones with clean kitchen shears and serving. For larger batches use enough grill space or more loads; keep the cut size, heat zones and endpoint the same.

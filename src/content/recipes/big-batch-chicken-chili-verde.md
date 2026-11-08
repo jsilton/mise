@@ -48,7 +48,8 @@ ingredients:
   - '3 tbsp olive oil, divided'
   - '200 g yellow onion, finely diced'
   - '4 cloves garlic, minced'
-  - '1 1/2 tsp fine salt, divided and partly added to taste'
+  - '2 tsp fine salt, for the chicken'
+  - '1 to 2 tsp fine salt, for the sauce, plus more to taste'
   - 2 tsp ground cumin
   - 1 tsp ground coriander
   - '1/4 tsp cayenne, optional'
@@ -161,10 +162,10 @@ Roasted tomatillos and poblanos give this home chili verde its character. Brown 
 1. **Roast peppers:** Heat the broiler and position a rimmed tray about 6 inches from the element, following the oven's guidance. Broil whole poblanos and optional jalapeños, turning regularly, about 12–20 minutes until blistered. Put them in a heatproof bowl and cover for 10 minutes. Peel loose charred skin, remove stems and seed cores, and chop; handle hot chiles with care and wash hands before touching eyes.
 2. **Roast tomatillos:** Arrange halved tomatillos cut-side down on the tray, retaining their juices. Broil about 10–15 minutes until soft with browned or blistered tops. Use two batches if they cannot fit in one layer. Watch rather than following the clock past burning.
 3. **Blend the sauce:** Let vegetables cool enough for your blender's warm-liquid guidance. Blend tomatillos and collected juices with peeled peppers and 1 cup of the measured broth, in batches as needed. Vent as the appliance directs; do not seal steaming liquid in a personal blender. Have this sauce ready before beginning the chicken.
-4. **Brown chicken:** Pat chicken dry and season with two-thirds of the listed salt. Heat 2 tsp oil in a roomy Dutch oven over medium-high heat. Brown one-third of the chicken on two sides, about 5–6 minutes, then transfer to a bowl. Repeat twice with 2 tsp oil per batch. The centers need the following braise; continue directly.
-5. **Build aromatics:** Lower heat to medium and add the remaining 1 tbsp oil. Cook onion about 6–8 minutes until softened. Add garlic, cumin, coriander and optional cayenne and stir about 30 seconds. Pour in the remaining initial 1 cup broth and scrape up brown residue, then add the blended green sauce and chicken with its juices.
+4. **Brown chicken:** Pat chicken dry and season with the 2 tsp chicken salt. Heat 2 tsp oil in a roomy Dutch oven over medium-high heat. Brown one-third of the chicken on two sides, about 5–6 minutes, then transfer to a bowl. Repeat twice with 2 tsp oil per batch. The centers need the following braise; continue directly.
+5. **Build aromatics:** Lower heat to medium and add the remaining 1 tbsp oil. Cook onion about 6–8 minutes until softened. Add garlic, cumin, coriander and optional cayenne and stir about 30 seconds. Pour in the remaining initial 1 cup broth and scrape up brown residue, then add the blended green sauce, 1 tsp of the sauce salt and the chicken with its juices.
 6. **Braise and check:** Bring to a gentle simmer, partly cover and cook about 25–35 minutes, stirring occasionally, until thick chicken pieces reach 165°F / 74°C and are tender. Add a little of the extra broth only if sauce is too thick before the meat is ready. Stir in drained beans for the final 5 minutes to heat through.
-7. **Finish:** If sauce needs further reduction, remove finished chicken briefly and simmer the sauce alone, then return it. Turn off heat. Taste and add the remaining salt only if needed. Stir in cilantro and start with just a little lime juice, adding more only if the sauce benefits.
+7. **Finish:** If sauce needs further reduction, remove finished chicken briefly and simmer the sauce alone, then return it. Turn off heat. Taste and add up to 1 tsp more sauce salt, then more to taste if it still tastes flat or sour. Stir in cilantro and start with just a little lime juice, adding more only if the sauce benefits.
 8. **Serve and portion:** Divide into eight servings. Offer the listed sour cream, radishes and tortilla strips as optional full-batch supplies. Omit sour cream for a dairy-free version and check packaged ingredients. Bread or slaw is prepared separately.
 
 ## Scaling and make-ahead

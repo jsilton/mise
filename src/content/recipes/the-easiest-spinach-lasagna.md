@@ -38,8 +38,9 @@ ingredients:
   - '10 oz frozen spinach, thawed and squeezed of free liquid'
   - 1 large egg
   - >-
-    3 cups (25 oz) marinara sauce, source companion volume/weight; original
-    batch described as one 25 oz jar
+    3 cups (25 oz) marinara sauce, source companion volume/weight; original batch described as one
+    25 oz jar
+  - 3/4 cup water
   - 8 oz whole-wheat no-boil lasagna sheets
   - 1/2 tsp kosher salt
   - 1/4 tsp black pepper
@@ -121,9 +122,16 @@ formula:
           equivalents:
             - amount: 25
               unit: oz
-          preparation: >-
-            source companion volume/weight; original batch described as one 25
-            oz jar
+          preparation: source companion volume/weight; original batch described as one 25 oz jar
+        - id: water
+          key: water
+          name: water
+          quantity:
+            amount: 3/4
+            unit: cup
+          uses:
+            - step: thin
+              share: 1
         - id: sheets
           key: sheets
           name: whole-wheat no-boil lasagna sheets
@@ -157,48 +165,47 @@ formula:
     - id: mix
       title: Mix
       text: >-
-        Preheat the oven to 375°F. Thaw the spinach under refrigeration, follow
-        any required product preparation, and squeeze out free liquid; cool any
-        cooked spinach before mixing it with egg. Combine {{ingredients}} in a
-        large bowl: whisk the egg first, then fold in the cheeses, prepared
-        spinach and seasonings until the cheese and spinach are evenly
-        distributed.
+        Preheat the oven to 375°F. Thaw the spinach under refrigeration, follow any required product
+        preparation, and squeeze out free liquid; cool any cooked spinach before mixing it with egg.
+        Combine {{ingredients}} in a large bowl: whisk the egg first, then fold in the cheeses,
+        prepared spinach and seasonings until the cheese and spinach are evenly distributed.
+    - id: thin
+      title: Thin the sauce
+      text: >-
+        Stir {{ingredients}} into all of the {{name:main.sauce}} until smooth. Whole-wheat no-boil
+        sheets drink up liquid as they bake. The base and tiers below use this thinned sauce, so the
+        edges and corners cook tender instead of leathery.
     - id: base
       title: Base
       text: >-
-        Spread {{ingredients}} over the bottom of a 9×13-inch baking dish for
-        the original batch. At other scales use enough separate original-size
-        dishes or an appropriately smaller dish with similar layer depth and
-        headroom; do not force the scaled mixture into the same pan.
+        Spread {{ingredients}} over the bottom of a 9×13-inch baking dish for the original batch. At
+        other scales use enough separate original-size dishes or an appropriately smaller dish with
+        similar layer depth and headroom; do not force the scaled mixture into the same pan.
     - id: first
       title: First tier
       text: >-
-        Build the first tier with {{ingredients}}: arrange the noodle portion
-        over the base without excessive overlap, spread one third of the full
-        cheese mixture over the noodles, then add this sauce portion.
+        Build the first tier with {{ingredients}}: arrange the noodle portion over the base without
+        excessive overlap, spread one third of the full cheese mixture over the noodles, then add
+        this sauce portion.
     - id: repeat
       title: Remaining tiers
       text: >-
-        Build two more tiers with {{ingredients}} and the remaining cheese
-        mixture, dividing each of those supplies into two equal portions. In
-        each tier arrange noodles, then cheese mixture, then sauce. Use all the
-        remaining sauce, ending with sauce on top; do not add an extra noodle
-        layer.
+        Build two more tiers with {{ingredients}} and the remaining cheese mixture, dividing each of
+        those supplies into two equal portions. In each tier arrange noodles, then cheese mixture,
+        then sauce. Use all the remaining sauce, ending with sauce on top that covers every sheet
+        edge and corner; do not add an extra noodle layer.
     - id: top
       title: Cover
-      text: >-
-        Scatter {{ingredients}} over the final sauce. Cover the dish tightly
-        with foil.
+      text: 'Scatter {{ingredients}} over the final sauce. Cover the dish tightly with foil.'
     - id: covered
       title: Bake covered
       text: Bake at 375°F for about 30 minutes for the original pan.
     - id: uncovered
       title: Finish uncovered
       text: >-
-        Remove foil and continue baking, checking after about 20–25 minutes,
-        until bubbling, the sheets are tender through all layers and several
-        center locations reach 165°F / 74°C. A chilled or differently loaded
-        dish can take longer.
+        Remove foil and continue baking, checking after about 20–25 minutes, until bubbling, the
+        sheets are tender through all layers and several center locations reach 165°F / 74°C. A
+        chilled or differently loaded dish can take longer.
     - id: rest
       title: Rest
       text: Rest 10 minutes before cutting and serving.
@@ -210,82 +217,68 @@ learning:
     - temperature
   before:
     - >-
-      The original batch uses a 9×13-inch dish; its depth is not documented.
-      Leave headroom and keep the three-tier structure. Multiples work in
-      separate original-size dishes; smaller batches need an appropriate smaller
-      pan, with earlier center checks rather than a promised proportional time.
+      The original batch uses a 9×13-inch dish; its depth is not documented. Leave headroom and keep
+      the three-tier structure. Multiples work in separate original-size dishes; smaller batches
+      need an appropriate smaller pan, with earlier center checks rather than a promised
+      proportional time.
     - >-
-      Use the actual no-boil noodle manufacturer’s suitable sauce/bake method.
-      The source describes the original 3 cups sauce as a 25 oz jar; use the
-      listed sauce amount for each scale. Separate the sauce into four equal
-      shares and Parmesan into three-quarters filling/one-quarter top.
+      Use the actual no-boil noodle manufacturer’s suitable sauce/bake method. The source describes
+      the original 3 cups sauce as a 25 oz jar; use the listed sauce amount for each scale and thin
+      it with the listed water. Separate the thinned sauce into four equal shares and Parmesan into
+      three-quarters filling/one-quarter top.
   checkpoints:
     - step: 1
       cue: Spinach is evenly distributed without puddles in the filling.
       why: >-
-        Squeezing free water limits leakage between layers; the spinach is not
-        literally moisture-free.
-    - step: 7
-      cue: >-
-        Noodles are tender through every tier and multiple centers reach 165°F /
-        74°C.
-      why: >-
-        Bubbling edges alone do not show that the center or sheets have
-        finished.
+        Squeezing free water limits leakage between layers; the spinach is not literally
+        moisture-free.
+    - step: 8
+      cue: Noodles are tender through every tier and multiple centers reach 165°F / 74°C.
+      why: Bubbling edges alone do not show that the center or sheets have finished.
   troubleshooting:
     - problem: Center sheets remain firm
       cause: The covered hydration stage or product suitability was inadequate.
       fix: >-
-        Re-cover and continue checking tenderness and center temperature; do not
-        assume browning the top fixes dry sheets. Confirm the noodle package
-        method before the next batch.
+        Re-cover and continue checking tenderness and center temperature; do not assume browning the
+        top fixes dry sheets. Confirm the noodle package method before the next batch.
   substitutions:
     - ingredient: Saved seasoning and rest
       alternative: >-
-        For the saved seasoning option, replace the main listed kosher salt with
-        ¼ tsp unnamed salt for the original batch, scaled proportionally, and
-        omit the main pepper. Keep all cheese, spinach, egg, sauce and pasta
-        amounts and the same layer proportions and center checks. The source
-        rests 5 minutes; the main 10-minute rest remains available for firmer
-        slicing.
-      effect: >-
-        This is a distinct source volume, not a conversion between unnamed salt
-        and kosher crystals.
+        For the saved seasoning option, replace the main listed kosher salt with ¼ tsp unnamed salt
+        for the original batch, scaled proportionally, and omit the main pepper. Keep all cheese,
+        spinach, egg, sauce and pasta amounts and the same layer proportions and center checks. The
+        source rests 5 minutes; the main 10-minute rest remains available for firmer slicing.
+      effect: 'This is a distinct source volume, not a conversion between unnamed salt and kosher crystals.'
     - ingredient: Make ahead
       alternative: >-
-        Assemble, cover and refrigerate at 40°F / 4°C or below, then cook within
-        24 hours. Use a vessel whose manufacturer permits the intended
-        refrigerator-to-oven transition. Keep the same oven setting and check
-        noodles and centers; do not assume exactly 10 extra minutes.
+        Assemble, cover and refrigerate at 40°F / 4°C or below, then cook within 24 hours. Use a
+        vessel whose manufacturer permits the intended refrigerator-to-oven transition. Keep the
+        same oven setting and check noodles and centers; do not assume exactly 10 extra minutes.
       effect: >-
-        This retains the current one-day preparation plan without certifying a
-        cold glass dish or a universal added clock.
+        This retains the current one-day preparation plan without certifying a cold glass dish or a
+        universal added clock.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and
-    reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.
-    For an assembled raw-egg dish, refrigerate and cook within 24 hours; use the
-    vessel maker’s transition instructions.
+    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw
+    frozen portions in the refrigerator. For an assembled raw-egg dish, refrigerate and cook within
+    24 hours; use the vessel maker’s transition instructions.
   timing: >-
-    About 75–80 minutes includes 15 minutes assembly, 50–55 minutes baking and
-    10 minutes rest for the original pan. Thawing/required spinach preparation,
-    preheat still pending, chilled assembly and other pan loads can add time.
+    About 75–80 minutes includes 15 minutes assembly, 50–55 minutes baking and 10 minutes rest for
+    the original pan. Thawing/required spinach preparation, preheat still pending, chilled assembly
+    and other pan loads can add time.
   sources:
     - title: 100 Days of Real Food — Spinach lasagna
       url: 'https://www.100daysofrealfood.com/easiest-spinach-lasagna/'
     - title: FDA — Egg safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
     - title: FoodSafety.gov — Casserole temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: 'FoodSafety.gov — Clean, separate, cook and chill'
       url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
     - title: FoodSafety.gov — Leftover handling
       url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
     - title: USDA — Refrigerated raw egg dishes
-      url: >-
-        https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely
+      url: 'https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely'
   review:
     status: editorial-review
     date: '2026-10-06'
@@ -293,15 +286,16 @@ learning:
 
 ## Chef's Note
 
-Squeeze the thawed spinach until free water stops dripping, then distribute it throughout the cheese mixture. Divide the sauce before layering so the bottom and all three noodle tiers receive their share. No-boil sheets hydrate inside the covered dish; use a product suitable for this sauce-and-bake method and check every layer for tenderness.
+Squeeze the thawed spinach until free water stops dripping, then distribute it throughout the cheese mixture. Thin the sauce with a little water and divide it before layering so the bottom and all three noodle tiers receive their share, with every sheet edge covered. No-boil sheets hydrate inside the covered dish; use a product suitable for this sauce-and-bake method and check every layer for tenderness.
 
 ## Directions
 
 1. **Mix:** Preheat the oven to 375°F. Thaw the spinach under refrigeration, follow any required product preparation, and squeeze out free liquid; cool any cooked spinach before mixing it with egg. Combine ricotta cheese, mozzarella cheese, 3/4 of the Parmesan cheese, frozen spinach, large egg, kosher salt, and black pepper in a large bowl: whisk the egg first, then fold in the cheeses, prepared spinach and seasonings until the cheese and spinach are evenly distributed.
-2. **Base:** Spread 1/4 of the marinara sauce over the bottom of a 9×13-inch baking dish for the original batch. At other scales use enough separate original-size dishes or an appropriately smaller dish with similar layer depth and headroom; do not force the scaled mixture into the same pan.
-3. **First tier:** Build the first tier with 1/4 of the marinara sauce and 1/3 of the whole-wheat no-boil lasagna sheets: arrange the noodle portion over the base without excessive overlap, spread one third of the full cheese mixture over the noodles, then add this sauce portion.
-4. **Remaining tiers:** Build two more tiers with 1/2 of the marinara sauce and 2/3 of the whole-wheat no-boil lasagna sheets and the remaining cheese mixture, dividing each of those supplies into two equal portions. In each tier arrange noodles, then cheese mixture, then sauce. Use all the remaining sauce, ending with sauce on top; do not add an extra noodle layer.
-5. **Cover:** Scatter 1/4 of the Parmesan cheese over the final sauce. Cover the dish tightly with foil.
-6. **Bake covered:** Bake at 375°F for about 30 minutes for the original pan.
-7. **Finish uncovered:** Remove foil and continue baking, checking after about 20–25 minutes, until bubbling, the sheets are tender through all layers and several center locations reach 165°F / 74°C. A chilled or differently loaded dish can take longer.
-8. **Rest:** Rest 10 minutes before cutting and serving.
+2. **Thin the sauce:** Stir water into all of the marinara sauce until smooth. Whole-wheat no-boil sheets drink up liquid as they bake. The base and tiers below use this thinned sauce, so the edges and corners cook tender instead of leathery.
+3. **Base:** Spread 1/4 of the marinara sauce over the bottom of a 9×13-inch baking dish for the original batch. At other scales use enough separate original-size dishes or an appropriately smaller dish with similar layer depth and headroom; do not force the scaled mixture into the same pan.
+4. **First tier:** Build the first tier with 1/4 of the marinara sauce and 1/3 of the whole-wheat no-boil lasagna sheets: arrange the noodle portion over the base without excessive overlap, spread one third of the full cheese mixture over the noodles, then add this sauce portion.
+5. **Remaining tiers:** Build two more tiers with 1/2 of the marinara sauce and 2/3 of the whole-wheat no-boil lasagna sheets and the remaining cheese mixture, dividing each of those supplies into two equal portions. In each tier arrange noodles, then cheese mixture, then sauce. Use all the remaining sauce, ending with sauce on top that covers every sheet edge and corner; do not add an extra noodle layer.
+6. **Cover:** Scatter 1/4 of the Parmesan cheese over the final sauce. Cover the dish tightly with foil.
+7. **Bake covered:** Bake at 375°F for about 30 minutes for the original pan.
+8. **Finish uncovered:** Remove foil and continue baking, checking after about 20–25 minutes, until bubbling, the sheets are tender through all layers and several center locations reach 165°F / 74°C. A chilled or differently loaded dish can take longer.
+9. **Rest:** Rest 10 minutes before cutting and serving.

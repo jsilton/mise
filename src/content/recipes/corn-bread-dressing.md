@@ -142,3 +142,7 @@ For a defined starting bread, make [Buttermilk Cornbread](/mise/recipes/cornbrea
 5. **Fold and moisten:** Heat the oven to 350°F / 177°C. Grease a roughly 3-quart 9-by-13-inch baking dish with the separate teaspoon of butter. Transfer cooled dried bread to a large bowl and fold in the mushroom mixture with a broad spatula. Add one and a half cups of stock in two additions, folding gently between them. Wait five minutes, then break open a piece. If its middle is firm or dry, add more stock a quarter-cup at a time until moist through, stopping before liquid pools in the bowl. Taste a cooled spoonful and add the remaining salt only if needed.
 6. **Bake immediately:** Spread loosely in the dish, leaving an uneven surface and some exposed pieces. Bake uncovered about 30–40 minutes, until the center reaches at least 165°F / 74°C and the top is golden. If the surface browns first, cover loosely with foil and continue until the center is ready.
 7. **Rest and serve:** Rest 10 minutes, then spoon into eight side portions. Serve beside roast turkey or chicken, with cranberry sauce or a tart green salad to balance the butter.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Use 1 tsp fine salt with the vegetables, then taste the moistened bread and add up to 1/2 tsp more before baking. For a clearer sage flavor, use 1 tbsp chopped fresh sage or 1 1/2 tsp rubbed dried sage in place of the ground sage.

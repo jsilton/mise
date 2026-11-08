@@ -36,10 +36,12 @@ pairsWith:
 ingredients:
   - '900 g boneless skinless chicken thighs, fully thawed, excess surface fat trimmed'
   - 1/4 cup (60 ml) hoisin sauce
+  - 2 tbsp soy sauce
   - 1 tbsp tomato paste
   - '1/2 cup (120 ml) water, plus a little only to adjust the finished sauce'
   - '1 tbsp balsamic vinegar, divided'
   - '6 cloves garlic, finely minced'
+  - 1 tbsp finely grated fresh ginger
   - '1/4 tsp red pepper flakes, optional'
   - '2 scallions, thinly sliced'
 origin: Chinese-inspired home cooking
@@ -125,7 +127,7 @@ Separate the chicken's cooking endpoint from the sauce's concentration. Remove t
 
 ## Directions
 
-1. **Combine:** Stir hoisin, tomato paste, 120 ml water, 2 tsp balsamic vinegar, minced garlic and optional pepper flakes in a 3–4-quart slow cooker. Add thawed whole thighs and turn to coat. Cover and start cooking immediately.
+1. **Combine:** Stir hoisin, soy sauce, tomato paste, 120 ml water, 2 tsp balsamic vinegar, minced garlic, ginger and optional pepper flakes in a 3–4-quart slow cooker. Add thawed whole thighs and turn to coat. Cover and start cooking immediately.
 2. **Cook:** Cook on LOW about 4–5 hours or HIGH about 2–3 hours, checking that several thick thighs reach 165°F / 74°C and pull apart readily. Extend if needed for tenderness. Transfer chicken to a clean platter and cover loosely.
 3. **Reduce carefully:** Pour liquid and garlic into a wide saucepan and skim excess fat. Bring to a lively simmer, stirring regularly, until it lightly coats a spoon, usually about 8–12 minutes. Roughly 250–300 ml is a useful target, not a reason to oversalt it: taste as it reduces and stop earlier if already concentrated. Add a little water if too sticky or salty.
 4. **Pull and coat:** Pull the chicken into large strands, discarding any unwanted gristle. Stir the reserved 1 tsp balsamic into the sauce gradually to taste. Add chicken and plate juices, then fold over low heat just until hot and coated.

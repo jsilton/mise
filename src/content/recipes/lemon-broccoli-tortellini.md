@@ -44,8 +44,8 @@ ingredients:
   - '4 cloves garlic, minced, divided equally between broccoli and sauce'
   - 3 cups fresh baby spinach
   - >-
-    1 large lemon, zested before juicing, juice divided between broccoli and
-    finish
+    1 large lemon, zested before juicing, juice divided between roasted
+    broccoli and finish
   - 1/2 cup freshly grated Parmesan
   - 1/4 tsp red pepper flakes
   - 'Salt and freshly ground black pepper, to taste'
@@ -110,9 +110,9 @@ learning:
     - problem: Broccoli garlic burns
       cause: Small pieces sat exposed on a hot tray.
       fix: >-
-        Tuck garlic among the broccoli rather than on bare metal and stir during
-        roasting. Remove blackened bits; do not disguise their bitterness with
-        more lemon.
+        Add the garlic only for the last 5 minutes and tuck it among the
+        broccoli rather than on bare metal. Remove blackened bits. Do not
+        disguise their bitterness with more lemon.
     - problem: Tortellini split
       cause: They boiled aggressively or were tossed roughly.
       fix: >-
@@ -168,7 +168,7 @@ Roast broccoli for browned edges, then fold it through cheese tortellini and wil
 ## Directions
 
 1. **Prepare:** Heat the oven to **400°F / 205°C**. Cut broccoli into similar bite-sized florets and slice thick stems thinner. Mince shallot and garlic, zest then juice the lemon, and set a large pot of water on to boil.
-2. **Roast broccoli:** Toss broccoli with olive oil, **half the garlic and half the lemon juice**, salt and pepper. Spread on a rimmed half-sheet pan in one layer, using a second tray if crowded. Keep garlic among the florets rather than scattered on bare metal. Roast **20–25 minutes**, turning once, until stems are tender and edges browned. Remove any pieces that finish early.
+2. **Roast broccoli:** Toss broccoli with olive oil, salt and pepper only. Spread on a rimmed half-sheet pan in one layer, using a second tray if crowded. Roast **20–25 minutes**, turning once, until stems are tender and edges browned. For the **last 5 minutes**, scatter **half the garlic** among the florets rather than on bare metal. Remove any pieces that finish early. As soon as the tray comes out, toss the broccoli with **half the lemon juice**. Adding acid after roasting keeps the florets bright green and lets them brown.
 3. **Start the sauce:** Near the end of roasting, melt butter in a large deep skillet over medium-low. Soften shallot for about **3–5 minutes**. Add **the remaining garlic** and pepper flakes for **30–45 seconds**, then spinach. Turn gently for about **2 minutes** until wilted. Lower heat or turn it off while waiting for pasta.
 4. **Cook tortellini:** Time this stage by the package so it finishes near the vegetables. Season the boiling water moderately, add tortellini and cook as directed, avoiding a violent boil. Meet any specified filling temperature. Reserve **the listed amount of cooking water** before draining.
 5. **Combine gently:** Add drained tortellini and broccoli to the spinach skillet. Add zest and about **half the reserved water**. Fold over low heat just until hot, then remove from the burner. Add Parmesan gradually and **half of the remaining lemon juice**. Fold gently, adding further water only until lightly coated. Taste before adding the rest of the lemon juice, salt or pepper. Serve promptly.

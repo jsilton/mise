@@ -15,10 +15,10 @@ categories: []
 source: Saved Paprika recipe
 ingredients:
   - 2 large heads Broccoli (florets only)
-  - 2 tbsp Extra Virgin Olive Oil
-  - 1 Lemon (Juice and Zest)
+  - 4 tbsp Extra Virgin Olive Oil
+  - 1 Lemon (Zest, plus juice added to taste)
   - 1 small clove Garlic (grated into paste)
-  - 1/2 tsp Salt
+  - '3/4 tsp Kosher Salt, plus more to taste'
   - 'Water, as needed for steaming'
 rating: 5
 cuisines:
@@ -89,11 +89,11 @@ Lemon juice and zest dress the steamed broccoli, with raw grated garlic for a sh
 
 1. **Prepare:** Wash the broccoli and cut the listed florets to similar sizes. Wash the lemon, zest it before juicing, and grate the garlic into a paste. Set up a steamer following its instructions, with cooking water below the basket and enough headroom for the florets; bring the water to a simmer.
 
-2. **Make the dressing:** Whisk all the measured olive oil, lemon juice and zest, garlic and salt in a large serving bowl. This dressing keeps the garlic raw; do not hold a garlic-and-oil mixture at room temperature for later storage.
+2. **Make the dressing:** Whisk all the measured olive oil, the lemon zest, about half the lemon juice, the garlic and the salt in a large serving bowl. This dressing keeps the garlic raw; do not hold a garlic-and-oil mixture at room temperature for later storage.
 
 3. **Steam:** Add the broccoli to the basket, cover and steam. Start checking at 4–5 minutes: a fork should enter the thickest floret stem with slight resistance and the florets should remain intact. Continue as needed for their actual size. Use separate loads if the steamer is crowded.
 
-4. **Drain and toss:** Lift out carefully, keeping clear of steam, and let excess surface water drain briefly. Add the hot broccoli to the dressing and toss gently until coated, scraping the bowl so the measured dressing reaches the whole batch. Serve promptly.
+4. **Drain and toss:** Lift out carefully, keeping clear of steam, and let excess surface water drain briefly. Add the hot broccoli to the dressing and toss gently until coated, scraping the bowl so the measured dressing reaches the whole batch. Taste a floret and add more lemon juice and salt to taste. Serve promptly.
 
 ## Cooking Notes
 

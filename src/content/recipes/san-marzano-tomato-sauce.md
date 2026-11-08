@@ -36,8 +36,8 @@ pairsWith:
   - baked-chicken-parmesan
 ingredients:
   - >-
-    1 can (28 oz) Crushed San Marzano Tomatoes (look for DOP certification;
-    ingredient list should be just tomatoes and salt)
+    1 can (28 oz) Whole Peeled San Marzano Tomatoes (look for DOP
+    certification), crushed by hand with their juices
   - 3 tbsp Extra Virgin Olive Oil
   - >-
     3 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder
@@ -74,6 +74,13 @@ learning:
     preparation/heating and roughly 10–15 minutes simmering. Extra vessels or
     larger liquid loads can add time.
   substitutions:
+    - ingredient: DOP San Marzano tomatoes
+      alternative: >-
+        The same 28 oz can of any good whole peeled plum tomatoes, crushed by
+        hand
+      effect: >-
+        Flavor varies by brand. Some are more acidic or less sweet. Taste after
+        simmering and adjust the salt.
     - ingredient: Silk Sauce for ravioli
       alternative: >-
         Use the same full listed tomato amount as puree or passata, with all the
@@ -112,9 +119,9 @@ This quick Italian-American tomato sauce works with stuffed shells, baked ziti, 
 
 ## Directions
 
-1. **The Garlic:** Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color.
-2. **The Tomatoes:** Pour in the crushed San Marzano tomatoes. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt.
-3. **The Simmer:** Let the sauce bubble gently for 10-15 minutes, stirring occasionally. The sauce will darken slightly and thicken just enough to coat the back of a spoon.
+1. **The Garlic:** Before you start, empty the can into a bowl and crush the tomatoes by hand into small pieces, pulling out any tough cores or stray skin. Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color.
+2. **The Tomatoes:** Pour the crushed tomatoes and all their juices into the pan. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt.
+3. **The Simmer:** Let the sauce bubble gently for 10–15 minutes, stirring occasionally, and a few minutes longer if the hand-crushed tomatoes are watery. The sauce will darken slightly and thicken just enough to coat the back of a spoon.
 4. **Finish:** Remove the whole basil sprig if used. Remove smashed garlic cloves if you want a subtler sauce; leave sliced garlic and dried oregano in the sauce. Taste and adjust salt. Use immediately, or refrigerate promptly in shallow containers within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze; when reheating, bring the sauce to a rolling boil while stirring. This is a cooked refrigerator sauce, not a canning formula.
 
 ## Variations

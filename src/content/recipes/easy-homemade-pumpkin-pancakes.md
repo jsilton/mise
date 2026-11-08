@@ -32,7 +32,7 @@ ingredients:
   - 2 tbsp Vegetable or Avocado Oil
   - '3 tbsp Light Brown Sugar, packed'
   - 2 tsp Baking Powder
-  - 1 tsp Baking Soda
+  - 1/2 tsp Baking Soda
   - 2 tsp Pumpkin Pie Spice
   - 1/2 tsp Sea Salt
   - Butter or oil spray for the skillet

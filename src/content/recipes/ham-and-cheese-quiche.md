@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: About 30–45 min (plus any longer shell preparation)
-totalTime: About 55–70 min (includes 10 min rest; shell preparation may add time)
+cookTime: About 40–55 min (plus any longer shell preparation)
+totalTime: About 65–80 min (includes 10 min rest; shell preparation may add time)
 servings: '8'
 pairsWith:
   - sweet-and-white-potato-gratin
@@ -33,8 +33,9 @@ ingredients:
   - '1/2 cup Fresh Spinach, chopped'
   - '1/2 cup Yellow Onion, minced'
   - 1 tbsp Unsalted Butter
-  - 5 large Eggs
-  - 1/2 cup Half-and-Half (for texture)
+  - 3 large Eggs
+  - 1 1/2 cups Half-and-Half
+  - 1/2 tsp kosher salt
   - 1/2 tsp Dried Parsley
   - 1/4 tsp Black Pepper
   - Pinch of Nutmeg
@@ -105,8 +106,8 @@ learning:
       alternative: Omit it
       effect: Keeps the ham-and-cheese base with less smoky flavor.
   timing: >-
-    About 15 minutes preparation, 5–7 minutes short parbake, 25–35 minutes
-    filling bake and 10 minutes rest: plan about 55–70 minutes. Onion
+    About 15 minutes preparation, 5–7 minutes short parbake, 35–45 minutes
+    filling bake and 10 minutes rest: plan about 65–80 minutes. Onion
     preparation can overlap the crust. Shell-specific longer partial baking,
     oven heating and any separate excess dish add time.
   storage: >-
@@ -131,7 +132,7 @@ learning:
 
 ## Chef's Note
 
-Sauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a relatively egg-heavy filling. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.
+Sauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a classic custard of about one egg per 1/2 cup half-and-half, which bakes silky rather than firm. The custard is salted lightly because the ham and cheese bring salt of their own. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.
 
 ## Directions
 
@@ -139,10 +140,10 @@ Sauté the onion in butter before adding the cooked ham, then whisk parsley, pep
 
 2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.
 
-3. **The Custard:** Whisk the eggs and half-and-half with all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.
+3. **The Custard:** Whisk the eggs and half-and-half with the salt and all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.
 
 4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.
 
-5. **Bake:** Reduce the oven to 375 °F. Bake for about 25–35 minutes as a first range, until the center is set with no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.
+5. **Bake:** Reduce the oven to 375 °F. Bake for about 35–45 minutes as a first range, until the center is set with only a slight wobble and no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.
 
 6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.

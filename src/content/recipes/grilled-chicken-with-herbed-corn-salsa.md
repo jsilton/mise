@@ -32,8 +32,8 @@ ingredients:
   - '1/2 cup Fresh Mint, packed'
   - 1/4 cup Freshly Grated Parmesan
   - 1 clove Garlic
-  - 1/4 cup Fresh Lemon Juice
-  - 2 tbsp Extra-Virgin Olive Oil
+  - '3 tbsp Fresh Lemon Juice, plus more to taste'
+  - 1/3 cup Extra-Virgin Olive Oil
   - Salt and Black Pepper
 seasons:
   - year-round
@@ -125,6 +125,6 @@ This Mexican-inspired grilled chicken showcases summer corn charred directly on 
 
 1. **Grill chicken:** Preheat the grill to medium-high. Season all the thighs with the listed salt and pepper allowance. Grill skin-side down first, turning as the surface browns; start checking at 15–20 minutes total and continue until the thickest part of each thigh reaches 165°F / 74°C, away from the bone. Move away from flare-ups or excessive direct heat. Transfer cooked chicken with clean utensils to a clean platter.
 2. **Grill corn:** Grill all the shucked corn, rotating occasionally, for about 10 minutes, until the kernels are tender and charred in spots. Keep ready-to-eat corn away from raw chicken and its utensils.
-3. **Make herb sauce:** While grilling, pulse all the basil, mint, Parmesan and garlic in a clean food processor until finely chopped. Add all the lemon juice and olive oil and pulse just to combine. Season with the listed salt allowance to taste.
+3. **Make herb sauce:** While grilling, pulse all the basil, mint, Parmesan and garlic in a clean food processor until finely chopped. Add the olive oil and 3 tbsp lemon juice and pulse just to combine. Season with the listed salt allowance and more lemon to taste.
 4. **Combine:** When the corn is safe to handle, cut all its kernels off the cobs into a bowl and mix them with all the herb sauce.
 5. **Serve:** Divide the chicken and complete corn-herb topping among the listed portions and serve promptly.

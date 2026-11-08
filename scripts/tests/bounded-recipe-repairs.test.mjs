@@ -32,7 +32,7 @@ test('oats use their listed sweetener and shortcakes define six-square geometry'
     'About 90 min, plus any remaining preheating or fruit cooling'
   );
   assert.match(shortcake.content, /6-by-9-inch rectangle/);
-  assert.match(shortcake.content, /25–30 minutes/);
+  assert.match(shortcake.content, /Bake at 425°F for 15–18 minutes/);
 });
 test('muffins prepare the oven before mixing and retain the stated alternatives', () => {
   const { data, content } = read('vegetable-muffin');
@@ -100,12 +100,12 @@ test('japchae accounts for its oil and scallions, lamb sauce lists cooking oil',
   const step = (id) => data.formula.steps.find((entry) => entry.id === id).text;
   assert.deepEqual(ingredient('cornstarch').quantity, { amount: 1, unit: 'tsp' });
   assert.deepEqual(ingredient('cornstarch').uses, [{ step: 'marinate', share: 1 }]);
-  assert.deepEqual(ingredient('sesame').quantity, { amount: 1, unit: 'tbsp' });
+  assert.deepEqual(ingredient('sesame').quantity, { amount: 4, unit: 'tsp' });
   assert.deepEqual(ingredient('sesame').uses, [
-    { step: 'marinate', share: '1/3' },
-    { step: 'sauce', share: '2/3' },
+    { step: 'marinate', share: '1/4' },
+    { step: 'sauce', share: '3/4' },
   ]);
-  assert.match(step('sauce'), /remaining 2 tbsp soy and 2 tsp sesame oil/);
+  assert.match(step('sauce'), /remaining 2 tbsp soy and 1 tbsp sesame oil/);
   assert.deepEqual(ingredient('oil').quantity, { amount: 1, unit: 'tbsp' });
   assert.deepEqual(ingredient('oil').uses, [{ step: 'beef', share: 1 }]);
   assert.match(ingredient('vegetable-oil').allowance, /light film between vegetable loads/);

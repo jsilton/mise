@@ -14,9 +14,9 @@ cuisines:
   - Indian
 role: main
 vibe: comfort
-prepTime: 20 min
+prepTime: 25 min
 cookTime: 4 hr
-totalTime: 4 hr 20 min
+totalTime: 4 hr 25 min
 servings: '4'
 pairsWith: []
 ingredients:
@@ -26,9 +26,11 @@ ingredients:
   - '150 g green bell pepper, diced'
   - '150 g red bell pepper, diced'
   - '2 cloves garlic, minced'
+  - 1 tbsp minced fresh ginger
+  - 1 tbsp neutral oil
   - 1 cup (240 ml) full-fat unsweetened coconut milk
   - 2 tbsp tomato paste
-  - 1 tbsp curry powder
+  - 2 tbsp mild curry powder
   - '1 tsp garam masala, for finishing'
   - '1/2 tsp fine salt, plus more only if needed'
   - '4 cups (about 780 g) cooked brown rice, prepared separately'
@@ -45,6 +47,7 @@ description: >-
   mango-and-rice serving.
 equipment:
   - 4-to-5-quart-slow-cooker
+  - skillet
   - instant-read-thermometer
 learning:
   focus: Manage vegetable moisture and finish with fresh seasoning
@@ -90,7 +93,7 @@ learning:
         Leaner meat can dry before the vegetables soften. Begin checking earlier and remove pieces
         at 165°F / 74°C if vegetables need longer.
   timing: >-
-    About 4 hr 20 min using HIGH, including 20 minutes preparation. LOW may require 5–6 hours of
+    About 4 hr 25 min using HIGH, including 25 minutes preparation and a short sauté of the aromatics. LOW may require 5–6 hours of
     cooking. Cook brown rice separately during that period; its time is not added if it overlaps.
   storage: >-
     Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
@@ -118,8 +121,8 @@ This is an Indian-inspired home curry built with curry powder, tomato paste, and
 
 ## Directions
 
-1. **Load vegetables:** Put finely diced onion, small carrot pieces, garlic, and peppers in a 4–5 quart slow cooker. Keep the chicken refrigerated until ready to add.
-2. **Mix sauce:** Whisk coconut milk, tomato paste, curry powder, and the measured salt. Place chicken over vegetables and pour sauce over it. Cover and start cooking immediately.
+1. **Bloom the aromatics:** Heat the oil in a skillet over medium heat. Cook the onion about 4–5 minutes until softened. Add garlic, ginger and curry powder and stir 1–2 minutes until fragrant, lowering the heat if the spices start to darken. Scrape into a 4–5 quart slow cooker and add the small carrot pieces and peppers. Keep the chicken refrigerated until ready to add.
+2. **Mix sauce:** Whisk coconut milk, tomato paste and the measured salt, pour it into the warm skillet and stir to pick up any spices left behind. Place chicken over vegetables and pour sauce over it. Cover and start cooking immediately.
 3. **Cook and check:** Cook on HIGH about 3–4 hours or LOW about 5–6 hours, until several of the largest chicken pieces reach 165°F / 74°C and the carrots are tender. Keep the lid closed between checks. Extend cooking as needed; do not rely on color alone.
 4. **Finish:** Stir in garam masala and cook another 5 minutes. Stir gently, taste, and add salt only if needed. If the sauce is excessively thin, reduce some liquid separately as described in troubleshooting.
 5. **Serve:** Divide the prepared brown rice among four bowls. Add curry and finish with cilantro. Serve mango and lime wedges alongside, letting diners add lime to taste.

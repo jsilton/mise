@@ -38,8 +38,8 @@ ingredients:
   - 2 tbsp all-purpose flour
   - 2 tbsp whole milk
   - '--- Chocolate batter additions ---'
-  - '2 tbsp dark cocoa powder, level measures'
-  - 2 tbsp whole milk
+  - '1/4 cup Dutch-process cocoa powder, level measures'
+  - '3 tbsp whole milk, hot (or hot brewed coffee)'
   - '--- Ganache and optional finish ---'
   - '16 oz bittersweet chocolate, finely chopped'
   - 2 cups heavy cream
@@ -54,30 +54,28 @@ pairsWith:
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
 source: Adapted from Foodiewithfamily.com
-sourceUrl: >-
-  https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/
+sourceUrl: 'https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/'
 learning:
   focus: Keep the two batter additions separate
   outcome: >-
-    Contrasting chocolate and vanilla rings through set layers, with smooth
-    ganache that spreads between the completely cooled layers.
+    Contrasting chocolate and vanilla rings through set layers, with smooth ganache that spreads
+    between the completely cooled layers.
   techniques:
     - temperature
   before:
     - >-
-      Pan dimensions describe the original batch. Make multiples as separate
-      original-size cakes with similar batter depth and headroom; smaller
-      amounts need appropriately smaller pans and earlier center checks.
-      Ingredient scaling does not multiply temperatures, pan dimensions or
+      Pan dimensions describe the original batch. Make multiples as separate original-size cakes
+      with similar batter depth and headroom; smaller amounts need appropriately smaller pans and
+      earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or
       cooling and baking times.
     - >-
-      The shared milk is separate from the white and chocolate finishing milk.
-      Reserve each listed addition before mixing.
+      The shared milk is separate from the white and chocolate finishing milk. Reserve each listed
+      addition before mixing.
   checkpoints:
     - step: 7
       cue: >-
-        Equal contrasting pours land in the center; both batters are used
-        without stirring the rings together.
+        Equal contrasting pours land in the center; both batters are used without stirring the rings
+        together.
       why: The pouring pattern makes the swirl.
     - step: 9
       cue: Layers are completely cool and ganache is spreadable before assembly.
@@ -86,52 +84,40 @@ learning:
     - problem: Frosting slides or melts
       cause: The cake is still warm or the topping is too loose.
       fix: >-
-        Wait for completely cool layers; chill the topping until it holds a
-        spreadable shape, then stir gently.
+        Wait for completely cool layers; chill the topping until it holds a spreadable shape, then
+        stir gently.
     - problem: Uneven ganache coating
       cause: Small gaps remain after frosting the layered cake.
-      fix: >-
-        Chill the frosted cake for about 10 minutes, then fill gaps with the
-        remaining ganache.
+      fix: 'Chill the frosted cake for about 10 minutes, then fill gaps with the remaining ganache.'
   timing: >-
-    About 45 minutes active mixing, assembly and topping work, roughly 35
-    minutes baking, full layer cooling, ganache thickening and at least 1 hour
-    refrigerator setting: allow about 3–4 hours, longer with slow cooling or
-    more cakes.
+    About 45 minutes active mixing, assembly and topping work, roughly 35 minutes baking, full layer
+    cooling, ganache thickening and at least 1 hour refrigerator setting: allow about 3–4 hours,
+    longer with slow cooling or more cakes.
   substitutions:
     - ingredient: Assembly
       alternative: >-
-        For a two-thick-layer presentation, level but do not split the cooled
-        cakes. Spread some ganache between them and the rest over the top and
-        sides, then refrigerate at least 1 hour.
-      effect: >-
-        Two thicker layers use all the same ganache; cutting and assembly
-        differ.
+        For a two-thick-layer presentation, level but do not split the cooled cakes. Spread some
+        ganache between them and the rest over the top and sides, then refrigerate at least 1 hour.
+      effect: Two thicker layers use all the same ganache; cutting and assembly differ.
     - ingredient: Simplified white batter
       alternative: >-
-        Keep the shared batter quantities and chocolate half’s cocoa plus its
-        listed milk addition. For a simplified white half, omit only the
-        separate white-batter flour and white-batter milk. Keep the ganache
-        formula and the full-batch pan plan unchanged. Omitting those additions
-        changes the white half’s formula and can change its texture.
-      effect: >-
-        Changes only the white half’s finishing formula; no texture equivalence
-        is established.
+        Keep the shared batter quantities and chocolate half’s cocoa plus its listed milk addition.
+        For a simplified white half, omit only the separate white-batter flour and white-batter
+        milk. Keep the ganache formula and the full-batch pan plan unchanged. Omitting those
+        additions changes the white half’s formula and can change its texture.
+      effect: Changes only the white half’s finishing formula; no texture equivalence is established.
     - ingredient: Mixing order
       alternative: >-
-        For a milk-first mixing order, alternate the shared milk and shared dry
-        mixture in thirds, starting with milk. Use all the shared milk and dry
-        mixture.
+        For a milk-first mixing order, alternate the shared milk and shared dry mixture in thirds,
+        starting with milk. Use all the shared milk and dry mixture.
       effect: Changes mixing order while using every shared ingredient.
   storage: >-
-    Keep the frosted cake covered in the refrigerator at 40°F /4°C or below.
-    Return ganache to the refrigerator within 2 hours of cumulative preparation
-    and serving time, or 1 hour above 90°F /32°C. Refrigerate ganache while
-    waiting for layers to cool.
+    Keep the frosted cake covered in the refrigerator at 40°F /4°C or below. Return ganache to the
+    refrigerator within 2 hours of cumulative preparation and serving time, or 1 hour above 90°F
+    /32°C. Refrigerate ganache while waiting for layers to cool.
   sources:
     - title: Foodie with Family — Chocolate Vanilla Swirl Layer Cake
-      url: >-
-        https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/
+      url: 'https://www.foodiewithfamily.com/chocolate-vanilla-swirl-layer-cake-with-ganache/'
     - title: FDA — Safe Food Handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:
@@ -271,10 +257,10 @@ formula:
       ingredients:
         - id: cocoa
           key: cocoa
-          name: dark cocoa powder
+          name: Dutch-process cocoa powder
           quantity:
-            amount: 2
-            unit: tbsp
+            amount: 1/4
+            unit: cup
           uses:
             - step: chocolate
               share: 1
@@ -283,11 +269,12 @@ formula:
           key: choc-milk
           name: whole milk
           quantity:
-            amount: 2
+            amount: 3
             unit: tbsp
           uses:
             - step: chocolate
               share: 1
+          preparation: hot (or hot brewed coffee)
     - id: ganache
       name: Ganache and optional finish
       ingredients:
@@ -323,59 +310,53 @@ formula:
     - id: prep
       title: Prepare pans
       text: >-
-        Use {{ingredients}} to grease and lightly flour two 8- or 9-inch round
-        pans for the original batch. Heat the oven to 325°F.
+        Use {{ingredients}} to grease and lightly flour two 8- or 9-inch round pans for the original
+        batch. Heat the oven to 325°F.
     - id: dry
       title: Mix dry batter ingredients
-      text: >-
-        Whisk {{ingredients}} together. Keep the separate white-batter flour
-        aside.
+      text: 'Whisk {{ingredients}} together. Keep the separate white-batter flour aside.'
     - id: cream
       title: Cream and add eggs
       text: >-
-        Using {{ingredients}}, cream the softened butter and sugar until pale
-        and fluffy, scraping the bowl. Beat in the eggs one at a time until
-        incorporated, then the vanilla.
+        Using {{ingredients}}, cream the softened butter and sugar until pale and fluffy, scraping
+        the bowl. Beat in the eggs one at a time until incorporated, then the vanilla.
     - id: mix
       title: Combine and divide
       text: >-
-        Alternate the shared dry mixture and {{ingredients}} in several
-        additions, beginning and ending with the dry mixture, just until smooth.
-        Divide the batter equally between two bowls.
+        Alternate the shared dry mixture and {{ingredients}} in several additions, beginning and
+        ending with the dry mixture, just until smooth. Divide the batter equally between two bowls.
     - id: white
       title: Finish white batter
       text: 'Whisk {{ingredients}} into one half of the batter until smooth.'
     - id: chocolate
       title: Finish chocolate batter
-      text: 'Whisk {{ingredients}} into the other half until smooth.'
+      text: >-
+        Stir {{ingredients}} into a smooth paste and let it stand 2 minutes so the cocoa blooms.
+        Whisk the paste into the other half of the batter until smooth.
     - id: bake
       title: Build swirls and bake
       text: >-
-        Alternate small equal scoops of white and chocolate batter directly into
-        the center of each pan until both batches of batter have been used.
-        About 1/3 cup per pour is an original-batch patterning guide, not a dose
-        multiplied by the ingredient scaler. Bake at 325°F, starting checks
-        around 35 minutes for the original pans; rotate partway through if the
-        oven browns unevenly. Centers should be set and a tester should have no
-        wet batter. Cool in pans on racks 5 minutes, then turn out and cool
-        completely.
+        Alternate small equal scoops of white and chocolate batter directly into the center of each
+        pan until both batches of batter have been used. About 1/3 cup per pour is an original-batch
+        patterning guide, not a dose multiplied by the ingredient scaler. Bake at 325°F, starting
+        checks around 35 minutes for the original pans; rotate partway through if the oven browns
+        unevenly. Centers should be set and a tester should have no wet batter. Cool in pans on
+        racks 5 minutes, then turn out and cool completely.
     - id: ganache
       title: Make ganache
       text: >-
-        For {{ingredients}}, heat the cream in a heavy saucepan just until about
-        to boil. Pour over all the chopped bittersweet chocolate in a heatproof
-        bowl and wait 5 minutes. Stir gently in one direction until smooth and
-        glossy. Cool until spreadable; refrigerate if needed and while waiting
-        for the cakes, stirring occasionally. Do not hold the cream ganache on
-        the counter throughout a long cooling schedule.
+        For {{ingredients}}, heat the cream in a heavy saucepan just until about to boil. Pour over
+        all the chopped bittersweet chocolate in a heatproof bowl and wait 5 minutes. Stir gently in
+        one direction until smooth and glossy. Cool until spreadable; refrigerate if needed and
+        while waiting for the cakes, stirring occasionally. Do not hold the cream ganache on the
+        counter throughout a long cooling schedule.
     - id: assemble
       title: 'Layer, frost and chill'
       text: >-
-        Level the fully cool cakes, then cut each into two even layers for four
-        layers altogether. Spread some ganache between each layer and all the
-        remaining ganache over the top and sides. Drizzle {{ingredients}} over
-        the finished cake if desired. Cover and refrigerate at least 1 hour
-        before slicing.
+        Level the fully cool cakes, then cut each into two even layers for four layers altogether.
+        Spread some ganache between each layer and all the remaining ganache over the top and sides.
+        Drizzle {{ingredients}} over the finished cake if desired. Cover and refrigerate at least 1
+        hour before slicing.
 ---
 
 ## Chef's Note
@@ -389,7 +370,7 @@ The white batter gets its own flour and milk additions, while the chocolate half
 3. **Cream and add eggs:** Using unsalted butter, superfine sugar, large eggs, and vanilla extract, cream the softened butter and sugar until pale and fluffy, scraping the bowl. Beat in the eggs one at a time until incorporated, then the vanilla.
 4. **Combine and divide:** Alternate the shared dry mixture and whole milk in several additions, beginning and ending with the dry mixture, just until smooth. Divide the batter equally between two bowls.
 5. **Finish white batter:** Whisk all-purpose flour and whole milk into one half of the batter until smooth.
-6. **Finish chocolate batter:** Whisk dark cocoa powder and whole milk into the other half until smooth.
+6. **Finish chocolate batter:** Stir Dutch-process cocoa powder and whole milk into a smooth paste and let it stand 2 minutes so the cocoa blooms. Whisk the paste into the other half of the batter until smooth.
 7. **Build swirls and bake:** Alternate small equal scoops of white and chocolate batter directly into the center of each pan until both batches of batter have been used. About 1/3 cup per pour is an original-batch patterning guide, not a dose multiplied by the ingredient scaler. Bake at 325°F, starting checks around 35 minutes for the original pans; rotate partway through if the oven browns unevenly. Centers should be set and a tester should have no wet batter. Cool in pans on racks 5 minutes, then turn out and cool completely.
 8. **Make ganache:** For bittersweet chocolate and heavy cream, heat the cream in a heavy saucepan just until about to boil. Pour over all the chopped bittersweet chocolate in a heatproof bowl and wait 5 minutes. Stir gently in one direction until smooth and glossy. Cool until spreadable; refrigerate if needed and while waiting for the cakes, stirring occasionally. Do not hold the cream ganache on the counter throughout a long cooling schedule.
 9. **Layer, frost and chill:** Level the fully cool cakes, then cut each into two even layers for four layers altogether. Spread some ganache between each layer and all the remaining ganache over the top and sides. Drizzle white chocolate (if using) over the finished cake if desired. Cover and refrigerate at least 1 hour before slicing.

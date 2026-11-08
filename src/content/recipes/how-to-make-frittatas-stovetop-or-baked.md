@@ -40,7 +40,7 @@ ingredients:
   - '1 cup (4 oz) Cheese, freshly grated (Gruyère or Sharp Cheddar)'
   - '3-5 cups Fresh Vegetables (Spinach, Zucchini, Peppers), chopped'
   - 1 tbsp Extra-Virgin Olive Oil
-  - 1/2 tsp Sea Salt
+  - '1 tsp Fine Sea Salt, plus a pinch for the vegetables'
   - 'Fresh Herbs (Basil, Chives, or Cilantro)'
   - >-
     Butter or oil, as needed to grease the casserole dish or muffin cups for
@@ -138,9 +138,9 @@ Cook the vegetables until tender and let excess moisture evaporate before adding
 
 ## Directions
 
-1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and measured salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.
+1. **Choose the method and blend:** Preheat to 425 °F for the stovetop-to-oven method, or 350 °F for a baked variant. Whisk eggs, dairy and the 1 tsp fine sea salt just until yolks and whites blend. Fold in half the cheese, reserving half for topping. The original skillet batch uses a 12-inch oven-safe skillet; the pan and handle must tolerate the oven temperature.
 
-2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.
+2. **Cook the vegetables:** Heat the measured olive oil in the skillet over medium heat. Add dense vegetables such as peppers first, then zucchini and finally spinach. Season them lightly with a pinch of salt as they cook. Cook until tender rather than merely tender-crisp, letting released water evaporate so there is no puddle before adding eggs. Use the listed raw vegetable amount; its cooked volume depends on the mix.
 
 3. **Set the skillet edges:** For the stovetop method, pour the eggs over the cooked vegetables and stir briefly to distribute. Let the outside edge become pale and opaque, about 30 seconds to 1 minute. For a baked variant, skip to its method below after cooking the vegetables.
 

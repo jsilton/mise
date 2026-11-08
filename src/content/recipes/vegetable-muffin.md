@@ -49,7 +49,7 @@ ingredients:
   - 1 cup white whole-wheat flour
   - 1/4 cup cocoa powder
   - 1 tsp ground cinnamon
-  - 1 tsp baking soda
+  - 1/2 tsp baking soda
   - 1 tsp baking powder
   - 1/4 tsp salt
   - 1/4 cup dark chocolate chips
@@ -174,7 +174,7 @@ formula:
           key: soda
           name: baking soda
           quantity:
-            amount: 1
+            amount: 1/2
             unit: tsp
           uses:
             - step: dry

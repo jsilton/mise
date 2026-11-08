@@ -121,6 +121,14 @@ learning:
         Use a larger slow cooker or cook the shoulder in a separate batch. Do
         not cook with an ajar lid, which changes the heat and moisture conditions.
   substitutions:
+    - ingredient: Hickory smoked salt
+      alternative: >-
+        1 1/2 tbsp Diamond Crystal kosher salt (or 1 tbsp Morton kosher salt)
+        plus 1 tsp more smoked paprika in the rub
+      effect: >-
+        Matches the rub’s salt level. The smoke is gentler and comes from the
+        paprika rather than the salt, so the pork tastes a little less like
+        hickory.
     - ingredient: Worcestershire sauce
       alternative: A gluten-free Worcestershire sauce
       effect: >-

@@ -29,12 +29,14 @@ ingredients:
   - '--- Filling ---'
   - '450 g (1 lb) ground turkey, preferably 93% lean'
   - 1 tbsp neutral oil
-  - '2 tsp mild chili powder blend, not pure hot chile powder'
+  - '1 tbsp mild chili powder blend, not pure hot chile powder'
   - 1 tsp ground cumin
   - 1/2 tsp sweet paprika
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder
-  - '1/2 tsp fine salt, divided'
+  - 1/2 tsp dried Mexican oregano
+  - 1 tbsp tomato paste
+  - '3/4 tsp fine salt, divided'
   - 1/2 cup (120 ml) low-sodium chicken broth
   - '--- Shells and toppings, for the whole batch ---'
   - '12 small taco shells total: hard shells, 6-inch soft tortillas, or a mixture'
@@ -109,11 +111,16 @@ learning:
         Brown in the same pan, remove excess rendered fat as needed, then continue with the
         seasonings and broth. Ground beef must reach 160°F / 71°C; its flavor and fat content differ
         from turkey.
-    - ingredient: Five measured ground spices
-      alternative: 1 tbsp mild salt-free taco seasoning
+    - ingredient: Five measured ground spices and oregano
+      alternative: 2 tbsp mild salt-free taco seasoning
       effect: >-
         Blends vary. Use the same staged salt allowance and taste after simmering; a salted blend
-        also requires reducing the added salt.
+        also requires reducing the added salt. Keep the tomato paste.
+    - ingredient: Dried Mexican oregano
+      alternative: 1/2 tsp regular dried oregano
+      effect: >-
+        Mediterranean oregano is sweeter and more minty. Mexican oregano is more
+        citrusy and earthy. Either works here.
   timing: >-
     Allow about thirty minutes for one cook, including topping preparation, browning, a brief simmer
     and shell warming. Extra side dishes have their own preparation time.
@@ -147,7 +154,7 @@ These are Tex-Mex-style family tacos with a ground-turkey base. Browning develop
 
 1. **Prepare the table components:** Grate Cheddar, dice and drain tomatoes, shred lettuce and cut the lime. Measure sour cream and optional hot sauce. Keep perishable toppings chilled. Set out twelve shells total. If using hard shells, preheat the oven as their package directs.
 2. **Brown the turkey:** Heat the oil in a 12-inch skillet over medium-high. Add turkey in several flattened pieces and leave about 2 minutes for the underside to color. Turn and break into coarse crumbles, cooking another 4–5 minutes and adjusting heat to avoid scorching.
-3. **Season and finish:** Lower to medium. Stir in all five spices and half the measured salt for about 20 seconds, then add broth and scrape up the brown residue. Simmer 3–5 minutes, stirring and breaking up large pieces, until the coating clings without a watery pool. Check several substantial clumps with a thin-tip thermometer: turkey must reach 165°F / 74°C. Taste and add the remaining salt only if needed. Add a tablespoon of water if the filling dries before reaching its endpoint.
+3. **Season and finish:** Lower to medium. Stir in all five spices, the oregano, the tomato paste and 1/2 tsp of the salt. Cook about 1 minute, stirring, until the paste darkens slightly and coats the meat, then add broth and scrape up the brown residue. Simmer 3–5 minutes, stirring and breaking up large pieces, until the coating clings without a watery pool. Check several substantial clumps with a thin-tip thermometer: turkey must reach 165°F / 74°C. Taste and add the remaining 1/4 tsp salt only if needed. Add a tablespoon of water if the filling dries before reaching its endpoint.
 4. **Warm the shells:** Heat hard shells according to their package. For soft tortillas, use a dry skillet over medium-high, usually 10–30 seconds per side until hot and flexible; work in batches and wrap in a clean towel. Alternatively, microwave stacks of four to six between damp paper towels for 30–45 seconds, extending briefly if still cool. Keep filling covered off heat during this short warming step.
 5. **Assemble just before eating:** Slice avocado. Divide the filling among twelve small tacos, about one-twelfth per shell, and offer the measured toppings. Serve three per person. Add lime and hot sauce to individual taste rather than soaking every shell in advance.
 

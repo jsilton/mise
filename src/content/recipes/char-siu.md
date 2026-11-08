@@ -43,11 +43,13 @@ ingredients:
   - 2 tbsp soy sauce
   - 1 tbsp dark soy sauce
   - 1 tbsp Shaoxing wine
+  - '2 cubes red fermented bean curd (nam yu), mashed, plus 1 tbsp of its liquid'
   - 1 tbsp brown sugar
   - 1 tsp five-spice powder
   - '3 garlic cloves, finely minced'
   - 1/2 tsp white pepper
   - '1 tsp beet juice, optional for color'
+  - '2 tbsp maltose, warmed with 1 tbsp hot water, for the glaze'
   - '1 cup water, for the roasting pan, plus more as needed'
 description: >-
   Cantonese-style roast pork with a glossy sweet-savory glaze. Learn to manage sugar, meat
@@ -87,6 +89,16 @@ learning:
         Slice thinly across the grain. For future batches use consistent 2-inch strips; this sliced
         roast should not be judged by pulled-pork tenderness.
   substitutions:
+    - ingredient: Red fermented bean curd (nam yu)
+      alternative: 1 tbsp white miso
+      effect: >-
+        Adds a similar fermented, savory depth but not the red tint. Use the optional beet juice
+        for color.
+    - ingredient: Maltose
+      alternative: 2 tbsp honey, thinned with 1 tbsp hot water
+      effect: >-
+        Easier to find and to brush. The glaze is a little less glassy and browns faster, so watch
+        it closely.
     - ingredient: Pork shoulder
       alternative: Pork tenderloin
       effect: >-
@@ -115,13 +127,13 @@ sourceUrl: 'https://thewoksoflife.com/chinese-bbq-pork-cha-siu/'
 
 ## Chef's Note
 
-Char siu is a Cantonese roast pork preparation known for its sweet-savory lacquer and charred edges. This home-oven version suspends strips above a little water to keep drippings from scorching; the water does not guarantee juicy meat. Uniform strips, careful glazing, and temperature checks are the useful controls.
+Char siu is a Cantonese roast pork preparation known for its sweet-savory lacquer and charred edges. This home-oven version suspends strips above a little water to keep drippings from scorching; the water does not guarantee juicy meat. Uniform strips, careful glazing, and temperature checks are the useful controls. Red fermented bean curd gives the marinade its savory depth and red tint, and maltose gives the glaze its lacquer.
 
 ## Directions
 
-1. **Mix and reserve:** Whisk hoisin, honey, soy sauces, wine, sugar, five-spice, garlic, pepper, and optional beet juice. Before touching raw pork, place 3 tbsp in a separate covered container and refrigerate for glazing. Coat pork strips with the remaining marinade and refrigerate, covered, at least 8 hours or overnight.
+1. **Mix and reserve:** Whisk hoisin, honey, soy sauces, wine, mashed red fermented bean curd and its liquid, sugar, five-spice, garlic, pepper, and optional beet juice. Before touching raw pork, place 3 tbsp in a separate covered container and refrigerate for glazing. Coat pork strips with the remaining marinade and refrigerate, covered, at least 8 hours or overnight.
 2. **Prepare the oven:** Heat to 425°F / 220°C. Line a rimmed roasting pan with foil and set a rack inside. Add 1 cup water beneath the rack, without touching the meat. Set pork strips on the rack with space between them. Discard raw-contact marinade.
 3. **Start roasting:** Roast 15 minutes, then turn the strips and reduce oven to 375°F / 190°C. Continue 20 minutes. Check the pan occasionally and carefully add hot water if the bottom is drying out.
-4. **Glaze and measure:** Brush with the reserved clean glaze. Roast another 10–20 minutes, turning and glazing once more, until the thickest part of each strip reaches at least 145°F / 63°C. Times vary with thickness. Do not use raw marinade or pan drippings as an uncooked finishing sauce.
+4. **Glaze and measure:** Warm the maltose with its hot water until fluid, stir in the reserved clean glaze and brush it over the pork. Roast another 10–20 minutes, turning and glazing once more, until the thickest part of each strip reaches at least 145°F / 63°C. Times vary with thickness. Do not use raw marinade or pan drippings as an uncooked finishing sauce.
 5. **Char briefly:** If the glaze needs more color, broil briefly, checking every 30 seconds and turning as needed, usually 1–3 minutes total. Skip this if the glaze is already dark. Avoid blackening the entire surface.
 6. **Rest and slice:** Rest for 10 minutes before slicing; whole pork cuts require at least a 3-minute rest after reaching 145°F / 63°C. Slice thinly across the grain and serve with rice and greens.

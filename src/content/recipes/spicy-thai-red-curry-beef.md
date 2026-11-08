@@ -30,7 +30,8 @@ ingredients:
   - '1/4 tsp crushed red pepper flakes, optional for extra heat'
   - '1 1/2 cups red bell pepper, stem and seeds removed, sliced into 1/4-inch / 6 mm strips'
   - '1 cup yellow onion, peeled and thinly sliced'
-  - '1 cup loosely packed fresh basil leaves, washed and dried, large leaves torn'
+  - '3 to 4 makrut lime leaves, center ribs removed, torn'
+  - '1 cup loosely packed fresh Thai basil leaves, washed and dried, large leaves torn'
   - '1 tbsp fresh lime juice, added gradually to taste'
   - 'Hot water, only if needed to correct excessive reduction'
   - '4 lime wedges, for serving'
@@ -100,9 +101,14 @@ learning:
       effect: >-
         Makes a richer curry with more body. Keep the same moist-paste method; no separate
         cream-frying step or additional oil is required.
-    - ingredient: Sweet Italian basil
-      alternative: The same loosely packed volume of Thai basil
-      effect: Thai basil brings an anise-like aroma. Either works in this light curry; add it off heat.
+    - ingredient: Thai basil
+      alternative: The same loosely packed volume of sweet Italian basil
+      effect: Sweeter and softer, without Thai basil's anise-like bite. Add it off heat the same way.
+    - ingredient: Makrut lime leaves
+      alternative: One 2-inch strip of lime zest, removed with a vegetable peeler
+      effect: >-
+        Gives a citrus lift but not the leaves' floral, perfumed aroma. Simmer it the same way
+        and lift it out before serving.
     - ingredient: Crushed red pepper flakes
       alternative: Omit them
       effect: Leaves the curry paste as the heat source; its strength still varies.
@@ -142,8 +148,8 @@ Light coconut milk gives this curry a fluid broth rather than a thick cream sauc
 ## Directions
 
 1. **Prepare everything:** Stir the coconut milk together. Slice pepper and onion, pick and dry the basil, and measure the remaining ingredients. Slice cold tenderloin across the grain into pieces about **1/8 inch / 3 mm thick** and roughly 2 inches long. If it is too soft to slice evenly, firm it in the freezer for about 20–30 minutes first without freezing it solid. Keep sliced beef refrigerated while starting the broth and clean the raw-meat tools.
-2. **Simmer the paste:** Put **one-quarter of the measured coconut milk** in the deep skillet with the curry paste. Whisk over medium heat until the paste disperses and the milk begins to bubble. Simmer gently for about **2 minutes**, stirring; do not reduce it to a dry paste or wait for oil to separate. Stir in the remaining milk, brown sugar, **half the fish sauce** and the optional crushed red pepper. Return to a gentle simmer.
+2. **Simmer the paste:** Put **one-quarter of the measured coconut milk** in the deep skillet with the curry paste. Whisk over medium heat until the paste disperses and the milk begins to bubble. Simmer gently for about **2 minutes**, stirring; do not reduce it to a dry paste or wait for oil to separate. Stir in the remaining milk, makrut lime leaves, brown sugar, **half the fish sauce** and the optional crushed red pepper. Return to a gentle simmer.
 3. **Cook the vegetables:** Add pepper and onion. Simmer uncovered over medium-low for about **6–8 minutes**, stirring occasionally, until the onion softens and the pepper is tender with a little bite. Use a little hot water only if the pan becomes too dry; there should still be a fluid broth around the vegetables.
 4. **Finish the beef:** Add the cold beef a few slices at a time, separating them in the hot broth. Return to a gentle simmer and cook about **2–3 minutes**, stirring so no folded clumps remain. Check representative thicker slices with a fine-tip thermometer inserted from the edge: **at least 145°F / 63°C** at their centers. Continue briefly if needed; color alone does not establish this endpoint.
-5. **Rest and season:** Turn off the heat and allow **at least 3 minutes after the beef reaches temperature before serving**. During this rest, fold in basil and **half the lime juice**. Taste the broth with a slice of beef. Add the remaining fish sauce and lime juice in small amounts only as needed. The broth should remain fluid; add a little hot water only to correct excessive reduction.
-6. **Serve promptly:** Divide the beef and vegetables evenly among the serving bowls and ladle over the broth. Serve with separately prepared rice and a vegetable side. Plain [Basmati Rice](/mise/recipes/basmati-rice) lets the curry's seasoning stand out, while [Coconut Jasmine Rice](/mise/recipes/coconut-jasmine-rice) makes a richer accompaniment. Offer the lime wedges at the table.
+5. **Rest and season:** Turn off the heat and allow **at least 3 minutes after the beef reaches temperature before serving**. During this rest, fold in Thai basil and **half the lime juice**. Taste the broth with a slice of beef. Add the remaining fish sauce and lime juice in small amounts only as needed. The broth should remain fluid; add a little hot water only to correct excessive reduction.
+6. **Serve promptly:** Divide the beef and vegetables evenly among the serving bowls and ladle over the broth. Serve with separately prepared rice and a vegetable side. Plain [Basmati Rice](/mise/recipes/basmati-rice) lets the curry's seasoning stand out, while [Coconut Jasmine Rice](/mise/recipes/coconut-jasmine-rice) makes a richer accompaniment. Offer the lime wedges at the table. The lime leaves are for aroma. Set them aside as you eat.

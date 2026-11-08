@@ -28,7 +28,7 @@ pairsWith:
 ingredients:
   - 3 tbsp Extra-Virgin Olive Oil
   - 3 tbsp All-Purpose Flour (or GF blend)
-  - 1 tbsp mild American-style chili powder blend (not pure cayenne)
+  - '3 tbsp pure ancho chile powder, or half ancho and half guajillo'
   - 1 tsp Ground Cumin
   - 1/2 tsp Garlic Powder
   - 1/4 tsp Dried Oregano
@@ -60,9 +60,9 @@ learning:
       proportionally. Temperatures do not scale and heating/reduction times are
       not linear.
     - >-
-      Use the mild American-style chili powder blend specified in the
-      ingredients, not the same quantity of pure cayenne. Reserve black pepper
-      and vinegar for the finish.
+      Use pure ancho or guajillo chile powder, which is ground dried chiles
+      only. It gives a deep, fruity, mildly hot red sauce. Never use the same
+      quantity of cayenne. Reserve black pepper and vinegar for the finish.
   checkpoints:
     - step: 1
       cue: >-
@@ -79,6 +79,11 @@ learning:
     the pan. Start simmer checks at 5–7 minutes; use consistency rather than
     multiplying the clock.
   substitutions:
+    - ingredient: Pure ancho or guajillo chile powder
+      alternative: 2 tbsp mild American-style chili powder blend
+      effect: >-
+        Easier to find, but thinner in chile flavor. The blend already contains
+        cumin, garlic and salt, so taste before adding more salt at the finish.
     - ingredient: Flour
       alternative: >-
         Use the same full listed flour volume of whole-wheat flour, all-purpose
@@ -91,7 +96,7 @@ learning:
       effect: 'An exact source alternative, not extra acid.'
     - ingredient: Tomato-free version
       alternative: >-
-        Omit all the tomato paste; keep the full oil, flour, chili powder,
+        Omit all the tomato paste; keep the full oil, flour, chile powder,
         cumin, garlic, broth and remaining seasonings and follow the same
         stages.
       effect: >-
@@ -121,11 +126,11 @@ learning:
 
 ## Chef's Note
 
-Have the flour and spices measured before heating the full oil supply. Whisk constantly through the brief flour-and-spice stage, then add the broth gradually to avoid lumps. The sauce thickens further as it cools; finish with the listed vinegar and black pepper after taking it off heat.
+Pure ancho or guajillo chile powder gives the sauce real dried-chile depth instead of a thin, mild red gravy. Have the flour and spices measured before heating the full oil supply. Whisk constantly through the brief flour-and-spice stage, then add the broth gradually to avoid lumps. The sauce thickens further as it cools; finish with the listed vinegar and black pepper after taking it off heat.
 
 ## Directions
 
-1.  **The Roux:** Measure flour, chili powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens.
+1.  **The Roux:** Measure flour, chile powder, cumin, garlic powder, oregano, salt and optional cinnamon together before starting. In a medium saucepan, heat oil over medium. When a small pinch sizzles in the oil, whisk in that mixture; reserve black pepper for the finish. Cook, whisking constantly, for 1 minute until fragrant and the color deepens.
 2.  **Emulsify:** Whisk in the tomato paste until smooth.
 3.  **The Liquid:** Slowly pour in the broth while whisking vigorously to remove all lumps.
 4.  **Simmer:** Increase heat to medium-high and bring to a boil. Reduce heat and simmer for 5-7 minutes until the sauce thickens and coats the back of a spoon.
@@ -134,4 +139,4 @@ Have the flour and spices measured before heating the full oil supply. Whisk con
 
 ## Cooking Notes
 
-A gluten-free all-purpose flour blend can replace the flour. Tomato paste can be omitted for a tomato-free version, with a different flavor; keep the chili powder, cumin and garlic as the seasoning base.
+A gluten-free all-purpose flour blend can replace the flour. Tomato paste can be omitted for a tomato-free version, with a different flavor; keep the chile powder, cumin and garlic as the seasoning base.

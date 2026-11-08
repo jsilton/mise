@@ -41,7 +41,7 @@ ingredients:
   - '1.5 lb boneless pork shoulder or skinless pork belly, cut into 1-inch cubes'
   - '2 medium shallots, halved lengthwise'
   - '4 cloves garlic, peeled'
-  - '2 tsp fish sauce, for the braise'
+  - '2 tbsp fish sauce, for the braise'
   - '3 tbsp brown sugar, or finely shaved palm sugar'
   - >-
     1 cup unsweetened coconut water or water, plus hot water as needed during
@@ -49,7 +49,7 @@ ingredients:
   - 1 tbsp neutral oil
   - '2 whole dried chilies, optional'
   - 1 tsp black pepper
-  - '3 tbsp additional fish sauce, maximum finishing allowance; use only as needed'
+  - '1 tbsp additional fish sauce, maximum finishing allowance; use only as needed'
   - 'Fresh cilantro and scallions, chopped, for serving'
   - 'Lime wedges, for serving'
 description: >-
@@ -73,7 +73,8 @@ learning:
       of coconut. Have hot water ready in case the sauce reduces before the meat
       softens.
     - >-
-      Keep initial fish sauce separate from the optional finishing allowance.
+      Most of the fish sauce goes into the braise so it mellows and melds with
+      the caramel. Keep it separate from the small optional finishing allowance.
       The finishing portion is a maximum allowance, not an
       amount that must all enter the pot.
     - >-

@@ -36,7 +36,8 @@ ingredients:
     thick
   - '1/2 cup (60 g) all-purpose flour, for dredging; excess will be discarded'
   - '3 tbsp olive oil, divided'
-  - 1/2 tsp fine salt
+  - '1 tsp fine salt, for seasoning the cutlets'
+  - '1/4 tsp fine salt, for the flour'
   - 1/4 tsp black pepper
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder
@@ -106,8 +107,8 @@ A chicken cutlet cooks quickly because its center is close to the hot surface. E
 
 ## Directions
 
-1. **Prepare:** Butterfly thick breasts into 4–6 cutlets about 1/2 inch thick, evening them gently if necessary. Pat dry with paper towels. Wash hands and clean surfaces after handling raw chicken.
-2. **Dredge lightly:** Mix flour, salt, pepper, garlic powder, onion powder, and herbs in a shallow dish. Coat each cutlet and shake off excess. Discard flour that contacted raw chicken.
+1. **Prepare:** Butterfly thick breasts into 4–6 cutlets about 1/2 inch thick, evening them gently if necessary. Pat dry with paper towels and season both sides with the 1 tsp salt. Wash hands and clean surfaces after handling raw chicken.
+2. **Dredge lightly:** Mix flour, the 1/4 tsp salt, pepper, garlic powder, onion powder, and herbs in a shallow dish. Coat each cutlet and shake off excess. Discard flour that contacted raw chicken.
 3. **Sear in batches:** Heat 1.5 tbsp oil in a 12-inch skillet over medium-high until shimmering. Add only enough cutlets to fit without touching. Cook about 3–4 minutes until the bottom is golden; lower heat if flour specks darken rapidly.
 4. **Finish by temperature:** Turn and cook about 2–4 minutes more, adjusting heat as needed. Insert a thermometer from the side into the thickest part and remove each cutlet when it reaches 165°F / 74°C. Thick pieces may take longer. Set on a clean plate. Carefully remove scorched residue, add remaining oil, and repeat with the second batch.
 5. **Rest and serve:** Rest the cooked chicken for 5 minutes, loosely covered. Serve with lemon wedges. The rest is for serving quality; do not remove under-temperature chicken in the hope that resting will make it safe.

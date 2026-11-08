@@ -17,11 +17,11 @@ source: Allrecipes.com
 ingredients:
   - 2 cups whole milk
   - 2 cups heavy cream
-  - 3/4 cup white sugar
+  - 1 1/4 cups white sugar
   - 1/4 teaspoon salt
   - 2 teaspoons vanilla extract
   - 2 cups pureed fresh strawberries
-  - 4 tablespoons lemon juice
+  - 2 tablespoons lemon juice
 sourceUrl: 'https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/'
 cuisines:
   - American
@@ -72,7 +72,7 @@ learning:
         and freeze until firm. Optional red food coloring is 2 drops for the
         original batch, scaled proportionally only if desired.
       effect: >-
-        For the original batch, the main uses ¾ cup sugar and 4 tablespoons
+        For the original batch, the main uses 1 ¼ cups sugar and 2 tablespoons
         lemon juice; its listed amounts scale with the batch. The separate
         publisher formula omits lemon and uses its own sugar amount. Coloring is
         optional.

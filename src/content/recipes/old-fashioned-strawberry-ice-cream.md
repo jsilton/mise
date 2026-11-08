@@ -16,6 +16,7 @@ leftovers: excellent
 equipment:
   - ice-cream-maker
   - saucepan
+  - blender
 advancePrep:
   - make-ahead
   - freeze-ahead
@@ -111,7 +112,7 @@ Macerate the fruit in the refrigerator while making and chilling the custard. Us
 3. **Temper:** In a bowl, whisk the yolks, salt, remaining two-thirds of the granulated sugar and all the brown sugar. Gradually whisk some hot dairy into the yolk mixture, then return the entire tempered mixture to the pan.
 4. **Cook the custard:** Stir constantly over medium-low heat, scraping the bottom, until the base reaches 160°F / 71°C and coats a spoon. Measure without touching the pan. Do not boil; stop heating at the endpoint rather than relying on a finger or visual coat alone.
 5. **Cool and chill:** Transfer the base to shallow heat-safe containers and cool promptly over an ice-water bath, stirring. Refrigerate at 40°F / 4°C or below for at least 4 hours and until thoroughly cold. Keep cumulative time outside refrigeration within 2 hours, or 1 hour above 90°F / 32°C. An alternative is to continue the ice-water bath until the base is thoroughly cold before churning; cooling time varies, and the base must reach refrigerator-cold conditions rather than merely lukewarm. Remove and discard the vanilla pod once the base is cold.
-6. **Churn:** Stir in all the macerated strawberries and all their juice. Churn according to the actual machine instructions and maximum fill. The 25–35-minute churning time is a reference; use separate cold loads if the whole mixture exceeds capacity, keeping the remainder refrigerated. Finished volume depends on the machine and air incorporation.
+6. **Churn:** Puree about two-thirds of the macerated strawberries with all their juice and stir the puree into the cold base. Chop the remaining berries into small pieces and keep them cold. Pureed fruit flavors the whole base, while large frozen slices turn hard and icy. Churn according to the actual machine instructions and maximum fill. The 25–35-minute churning time is a reference; use separate cold loads if the whole mixture exceeds capacity, keeping the remainder refrigerated. If churning in more than one load, divide the puree-enriched base and the chopped berries proportionally between the loads. Add the chopped berries during the last minute of churning, or fold them in as you transfer the ice cream to containers. Finished volume depends on the machine and air incorporation.
 7. **Harden:** Transfer all the ice cream to covered freezer containers and freeze at 0°F / −18°C or below for at least 2 hours, or longer until firm enough to scoop. Keep frozen until serving.
 
 ## Cooking Notes

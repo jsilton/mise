@@ -41,7 +41,7 @@ ingredients:
   - '3/4 tsp dried rosemary, finely crushed'
   - 1/2 tsp smoked paprika
   - '1 tbsp olive oil, divided'
-  - '1/2 tsp fine salt, divided'
+  - '1 3/4 tsp fine salt, divided, plus more to taste'
   - 1/2 tsp ground black pepper
   - '2 tbsp fresh lemon juice, added to taste'
 origin: United States
@@ -127,9 +127,9 @@ Mushrooms need a chance to lose water and brown before the grains and broth arri
 
 ## Directions
 
-1. **Sear in batches:** Pat chicken dry and season with half the salt, pepper, rosemary, and paprika. Heat two teaspoons oil in a wide deep sauté pan over medium-high heat. Sear three thighs at a time for about 2–3 minutes per side, lowering heat if spices darken too quickly. Transfer to a plate; the centers are not yet cooked.
-2. **Brown mushrooms:** Add remaining oil, mushrooms, onion, and remaining salt. Cook about 8–10 minutes, stirring occasionally, until mushroom liquid has mostly evaporated and golden patches appear. Scrape up browned material without burning it.
-3. **Add grains and broth:** Stir in drained quinoa and broth. Bring to a gentle simmer, then nestle chicken and its juices into the quinoa in one layer. Cover tightly and reduce to a gentle simmer.
+1. **Sear in batches:** Pat chicken dry and season with 1 tsp of the salt, the pepper, rosemary, and paprika. Heat two teaspoons oil in a wide deep sauté pan over medium-high heat. Sear three thighs at a time for about 2–3 minutes per side, lowering heat if spices darken too quickly. Transfer to a plate; the centers are not yet cooked.
+2. **Brown mushrooms:** Add remaining oil, mushrooms, onion, and 1/2 tsp of the salt. Cook about 8–10 minutes, stirring occasionally, until mushroom liquid has mostly evaporated and golden patches appear. Scrape up browned material without burning it.
+3. **Add grains and broth:** Stir in drained quinoa, broth and the last 1/4 tsp salt. Bring to a gentle simmer, then nestle chicken and its juices into the quinoa in one layer. Cover tightly and reduce to a gentle simmer.
 4. **Check both components:** Cook about 18–22 minutes. Probe each thigh for 165°F / 74°C and check quinoa in several places for the same temperature before tasting it. The seeds should be tender with a little bite and most free liquid absorbed. Extend gently if needed, using the component-specific fixes in troubleshooting rather than overcooking everything together.
 5. **Wilt and rest:** When chicken and quinoa meet their checks, scatter spinach over the pan. Cover and heat gently for about 2 minutes until wilted. Remove from heat and rest covered for 5 minutes.
-6. **Finish with lemon:** Lift chicken briefly to a clean plate, fold spinach through quinoa, and stir in half the lemon juice. Taste and add the remainder as needed. Divide quinoa and vegetables into six portions and add one thigh to each.
+6. **Finish with lemon:** Lift chicken briefly to a clean plate, fold spinach through quinoa, and stir in half the lemon juice. Taste and add the remainder as needed, along with more salt to taste. The low-sodium broth leaves room for this final adjustment. Divide quinoa and vegetables into six portions and add one thigh to each.

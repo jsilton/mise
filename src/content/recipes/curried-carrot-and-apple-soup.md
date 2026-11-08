@@ -32,7 +32,7 @@ ingredients:
   - '1 medium Onion, chopped'
   - '1 leek, halved lengthwise, washed between layers and sliced'
   - '1 fennel bulb, cored and chopped'
-  - 1 tbsp Madras Curry Powder
+  - 2 tbsp Madras Curry Powder
   - 7 gingersnap cookies
   - '2 cloves Garlic, crushed'
   - '1 tsp Fresh Ginger, grated'
@@ -147,7 +147,7 @@ Carrots, celery root and tart apple make the base, while gingersnaps add ginger-
 
 1. **Aromatics:** Melt all the measured butter in a pot large enough for the roots, aromatics and stock with stirring room. Add onion, washed sliced leek and cored fennel with salt and pepper from the listed allowance. Cook over medium-high heat, stirring, about 9 minutes as a first check, until softened and just starting to brown; lower heat if butter or edges scorch.
 
-2. **Build the base:** Add carrots, peeled chopped celery root, prepared apple, all the gingersnaps, curry powder, garlic, ginger and thyme sprigs. Cook while stirring for about 10 minutes, until the roots begin to soften and the cookies break down. Keep the bottom from catching rather than insisting every vegetable is already tender.
+2. **Build the base:** Stir all the curry powder into the buttery aromatics and cook about 30 seconds, until fragrant, without letting it scorch. Add carrots, peeled chopped celery root, prepared apple, all the gingersnaps, garlic, ginger and thyme sprigs. Cook while stirring for about 10 minutes, until the roots begin to soften and the cookies break down. Keep the bottom from catching rather than insisting every vegetable is already tender.
 
 3. **Simmer:** Add all the chicken stock, bring to a boil, then reduce to a simmer. Stir occasionally and cook about 25 minutes as a first check, continuing until both carrots and celery root crush easily with a fork. Remove the thyme stems before blending.
 

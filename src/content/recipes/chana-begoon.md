@@ -75,7 +75,17 @@ learning:
       fix: >-
         Lower heat and use a little listed water allowance before scorching; bitter burnt spices
         require restarting that base.
-  substitutions: []
+  substitutions:
+    - ingredient: Kashmiri chili powder
+      alternative: 1/2 tsp sweet paprika plus a pinch of cayenne
+      effect: >-
+        Matches the bright red color and mild warmth. Add cayenne a pinch at a time, since it is
+        much hotter than Kashmiri chili.
+    - ingredient: Chinese eggplant
+      alternative: 1 lb globe or Italian eggplant, cut into 1-inch cubes
+      effect: >-
+        Thicker skin and more seeds. Peel strips of skin if it is tough, and expect a few more
+        minutes of roasting before the centers are tender.
   timing: >-
     Allow about 45–60 minutes including 15–20 minutes preparation, oven heat-up and around 30–40
     minutes gravy/finishing work. Roast while cooking the gravy; onion browning and extra sheet pans

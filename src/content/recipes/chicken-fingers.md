@@ -289,3 +289,7 @@ This panko-Parmesan adaptation of Lisa Gwock’s chicken fingers uses three shal
 2. **Bread:** Set out all-purpose flour, large eggs, water, panko breadcrumbs, grated Parmesan cheese, garlic powder, dried oregano, salt, and black pepper in three shallow dishes: flour with salt and pepper in the first; eggs beaten with the measured water in the second; panko, Parmesan, garlic powder and oregano in the third. Dip each strip in flour, shake off excess, dip in egg and let excess drip off, then press into crumbs on all sides. Arrange on the rack with gaps. Discard coating ingredients left after raw-chicken contact and wash hands and utensils.
 3. **Bake and check:** Apply cooking spray lightly to the tops. Bake about 15–20 minutes, checking earlier for thin strips. The coating should be golden and the thickest part of every strip must reach 165°F / 74°C, measured from the side. Continue baking as needed. If the underside remains pale, turn the pieces carefully during cooking; a rack does not guarantee equal browning on every side.
 4. **Serve promptly:** Serve hot with lemon wedges (if using) and dipping sauce (if using) alongside. Keep pieces unstacked so steam does not soften the bottoms.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Season the flour with 3/4 tsp kosher salt rather than salting to taste. For a golden, crisp coating, toast the panko in 2 tbsp olive oil or melted butter in a skillet until light golden before mixing in the Parmesan.

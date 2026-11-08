@@ -50,8 +50,10 @@ ingredients:
   - 2 tbsp Japanese curry powder
   - 1 tbsp tomato paste
   - '2 cups (480 ml) unsalted chicken stock, plus a little water if needed'
-  - 1 tbsp soy sauce
+  - '1 tbsp soy sauce, plus more to taste'
   - 1 tbsp mirin
+  - '1/2 small apple (about 75 g), peeled and finely grated'
+  - '3/4 tsp fine salt, for the sauce'
   - '100 g carrot, cut into 1/4-inch dice'
   - '150 g potato, peeled and cut into 1/2-inch dice'
   - 75 g frozen peas
@@ -120,6 +122,11 @@ learning:
         Let excess egg drip off, press panko on gently, and avoid repeatedly moving the cutlet
         before its first side firms.
   substitutions:
+    - ingredient: Grated apple
+      alternative: 1 tbsp honey
+      effect: >-
+        Gives the same rounded sweetness that balances the curry spices, without the fruity
+        freshness. Stir it in with the stock.
     - ingredient: Mirin
       alternative: 1 tsp sugar mixed with 2 tsp water
       effect: Adds sweetness without mirin aroma. Add it with the stock so it dissolves through the sauce.
@@ -153,9 +160,9 @@ Katsu curry depends on contrast: a crisp cutlet, soft vegetables, and a smooth s
 ## Directions
 
 1. **Start the sauce:** Melt butter in a saucepan over medium heat. Add onion and cook about 6–8 minutes until soft and lightly golden. Stir in garlic and ginger for 30 seconds. Add the 30 g sauce flour and stir for 2 minutes. Lower the heat, stir in curry powder and tomato paste, and cook about 30 seconds without scorching.
-2. **Simmer vegetables:** Gradually whisk in stock, then soy sauce and mirin. Add carrot and potato. Bring to a gentle simmer and cook about 18–22 minutes, stirring the bottom regularly, until both vegetables are tender and sauce coats a spoon. Add peas and simmer 2 minutes more. Add a small splash of water if the sauce is too thick. Cover and take off heat while frying; rewarm before serving.
+2. **Simmer vegetables:** Gradually whisk in stock, then soy sauce, mirin, grated apple and the 3/4 tsp sauce salt. Add carrot and potato. Bring to a gentle simmer and cook about 18–22 minutes, stirring the bottom regularly, until both vegetables are tender and sauce coats a spoon. Add peas and simmer 2 minutes more. Add a small splash of water if the sauce is too thick. Cover and take off heat while frying; rewarm before serving.
 3. **Prepare cutlets:** While the sauce simmers, put each chicken portion between sheets of food-safe wrap and pound with a meat mallet to an even 1/2-inch thickness. Pat dry and season with the measured salt and pepper. Keep raw chicken and its tools away from the sauce and cooked food.
 4. **Bread:** Set out separate shallow dishes of the 60 g coating flour, beaten eggs, and panko. Coat each cutlet lightly in flour and shake off excess. Dip in egg, let excess drip away, then press both sides into panko. Place on a clean tray and refrigerate until the oil is ready. Discard leftover coating ingredients that touched raw chicken.
 5. **Heat oil:** Set a wire rack over a rimmed tray. For holding the first batch briefly, heat the oven to 225°F / 110°C. Add oil to a deep skillet to reach about 1/2 inch, keeping the pan less than half full. Heat to about 350°F / 175°C. Use the pan depth as the guide; the required oil volume varies with its shape.
 6. **Fry in batches:** Lower in two cutlets without overlapping. Fry about 3–4 minutes per side, adjusting heat to keep oil around 325–350°F / 165–175°C. Check each cutlet from the side for 165°F / 74°C in its thickest center; cook longer if needed. Transfer to the rack and hold the first batch in the low oven while the second fries. Skim loose crumbs and let the oil return to temperature between batches.
-7. **Finish and serve:** Rest the last cutlets on the rack for about 3 minutes. Rewarm the sauce, adding a little water if needed. Slice chicken into strips and divide sauce among four plates, pouring it alongside rather than over the whole crust. Serve with rice prepared separately.
+7. **Finish and serve:** Rest the last cutlets on the rack for about 3 minutes. Rewarm the sauce, adding a little water if needed. Taste and add a few drops more soy sauce if it tastes flat. Slice chicken into strips and divide sauce among four plates, pouring it alongside rather than over the whole crust. Serve with rice prepared separately.

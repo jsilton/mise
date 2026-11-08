@@ -112,6 +112,14 @@ learning:
     - ingredient: Sweet bean sauce
       alternative: 'Hoisin, same measured amount'
       effect: A source option with a different sweet-spiced flavor.
+    - ingredient: Sui mi ya cai
+      alternative: >-
+        Finely chopped Sichuan zha cai (preserved mustard stem, often canned or in pouches in the
+        Asian aisle), same amount. Failing that, use 1/4 cup napa cabbage kimchi, squeezed well and
+        finely chopped, or leave the greens out and add a pinch of salt to the pork, to taste.
+      effect: >-
+        Zha cai is crunchier and saltier, without ya cai's molasses-sweet depth. Kimchi adds a sour,
+        garlicky tang. Leaving it out keeps the dish good but less savory.
   storage: >-
     Best immediately assembled. Refrigerate cooked pork and other prepared components in separate
     shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or below. Use cooked

@@ -23,8 +23,10 @@ ingredients:
   - 1 medium onion (cut into small wedges or large diced)
   - ½ red bell pepper (thinly sliced)
   - 13.5 ounces full-fat coconut milk (1 can)
+  - '2 makrut lime leaves, center ribs removed, torn'
+  - 1 handful Thai basil leaves (about 1/2 cup loosely packed)
   - cilantro (optional garnish)
-  - 'salt (optional, to taste after the shrimp and sauce finish cooking)'
+  - '1 to 2 tsp fish sauce, to taste after the shrimp and sauce finish cooking'
 sourceUrl: 'https://thewoksoflife.com/coconut-curry-shrimp/'
 cuisines:
   - Thai
@@ -58,7 +60,13 @@ learning:
       effect: Disperse into the curry stage; flavor changes without removing sweetness.
     - ingredient: Thai red curry paste
       alternative: 'Use the lower end of the listed paste range for less heat. In the original batch, this is half of a 4 oz/115 g can instead of the full can; scale both ends proportionally.'
-      effect: 'This replaces the stronger paste amount, rather than adding another dose. Taste the cooked finished sauce before adding the optional salt; paste composition and strength vary.'
+      effect: 'This replaces the stronger paste amount, rather than adding another dose. Taste the cooked finished sauce before adding the fish sauce; paste composition and strength vary.'
+    - ingredient: Makrut lime leaves
+      alternative: 1 tsp finely grated lime zest, stirred in with the basil at the end
+      effect: Gives a citrus lift but not the leaves' floral aroma. Zest fades with long simmering, so add it last.
+    - ingredient: Thai basil
+      alternative: The same amount of Italian basil
+      effect: Fresh and sweet but without Thai basil's anise note.
   timing: 'About 15–20 min active preparation; About 10–15 min cooking; About 25–35 min, excluding shrimp thawing and separate rice. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.'
   storage: "Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F / 74°C throughout. USDA additionally recommends bringing leftover sauces to a rolling boil; stir so heat reaches the whole curry and stop after that brief boil rather than reducing it for a long time. Prolonged boiling may change the coconut sauce's texture and firm the shrimp. These are handling recommendations, not a promise of unchanged texture."
   sources:
@@ -83,6 +91,6 @@ Use the full-fat coconut milk and choose the listed curry-paste amount before co
 
 2. **Cook curry base:** Over medium heat, add the other half of the listed oil with all the garlic and ginger. Stir about 30 seconds until fragrant without scorching. Add the selected listed curry-paste amount (half to one 4 oz/115 g can at the original batch; scale the amount, not the can size) and fry about 1 minute, stirring. Add all the brown or palm sugar, then the onion and red bell pepper; cook about 2 minutes, stirring.
 
-3. **Simmer sauce:** Stir in all the full-fat coconut milk and bring to a gentle simmer. Start checking after about 2 minutes; continue until the onion and pepper are as tender as wanted before returning shrimp. Reduce heat rather than boil vigorously if the sauce starts to separate or turn grainy.
+3. **Simmer sauce:** Stir in all the full-fat coconut milk and the torn lime leaves and bring to a gentle simmer. Start checking after about 2 minutes; continue until the onion and pepper are as tender as wanted before returning shrimp. Reduce heat rather than boil vigorously if the sauce starts to separate or turn grainy.
 
-4. **Finish shrimp and serve:** Return all shrimp and collected juices. Simmer, beginning to check after about 1 minute, until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Only after the shrimp and raw-contact sauce finish cooking, taste and add the optional salt as needed. The upper end of the listed paste range may supply enough salt; paste composition varies. Use all the optional cilantro you chose to prepare as garnish. Transfer to a clean serving dish and serve promptly, with separately prepared rice if wanted.
+4. **Finish shrimp and serve:** Return all shrimp and collected juices. Simmer, beginning to check after about 1 minute, until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Only after the shrimp and raw-contact sauce finish cooking, taste and add fish sauce 1 tsp at a time as needed. The upper end of the listed paste range may supply enough salt; paste composition varies. Turn off the heat and stir in the Thai basil until just wilted. The lime leaf pieces are for aroma and are not eaten. Use all the optional cilantro you chose to prepare as garnish. Transfer to a clean serving dish and serve promptly, with separately prepared rice if wanted.

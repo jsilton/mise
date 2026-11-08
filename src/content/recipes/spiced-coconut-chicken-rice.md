@@ -31,9 +31,12 @@ ingredients:
   - 1 tbsp neutral oil
   - '80 g shallot, finely chopped'
   - '2 cloves garlic, minced'
+  - 1 tbsp finely grated fresh ginger
+  - 1 tsp cumin seeds
   - 1 tsp ground turmeric
+  - 1 tsp garam masala
   - '1/4 tsp cayenne pepper, or less to taste'
-  - '3/4 tsp fine salt, divided'
+  - '2 tsp fine salt, divided'
   - '200 g kale leaves, tough stems removed, cut into thin ribbons'
   - '1 lime, cut into wedges'
   - '2 tbsp drained sliced pickled red chiles, optional'
@@ -97,6 +100,12 @@ learning:
       fix: >-
         Move unburned food to another heavy pan without scraping the scorched layer. Add a little
         hot water if needed and finish to the same temperature and texture endpoints.
+  substitutions:
+    - ingredient: Cumin seeds
+      alternative: 3/4 tsp ground cumin, stirred in with the turmeric
+      effect: >-
+        Ground cumin gives the same warm flavor but without the toasted pops of whole seeds. Do not
+        bloom it alone in hot oil, because it scorches quickly.
   timing: >-
     About 85 minutes includes the 30-minute rice soak overlapping preparation, two short chicken
     batches, covered cooking, kale wilting, and a ten-minute rest. Rice or burner variation can
@@ -128,7 +137,7 @@ This is a full dinner: basmati, chicken, and kale share a coconut-spiced cooking
 
 1. **Soak and prepare:** Rinse rice, cover with cool water, and soak for 30 minutes. Meanwhile prepare vegetables and season chicken with half the salt. Drain rice well. Keep raw chicken and its tools away from the lime and optional table garnish.
 2. **Start chicken:** Heat oil in a wide heavy 4-quart pot over medium-high heat. Sauté chicken in two batches for about 4–5 minutes per batch, turning for lightly browned patches. Transfer to a plate; it is still partially cooked and must return to the pot immediately after the next step.
-3. **Build the liquid:** Lower heat to medium. Cook shallot in the same pot for 3–4 minutes until softened, then stir in garlic, turmeric, and cayenne for about 30 seconds. Stir in coconut milk, measured water, remaining salt, drained rice, and chicken with its juices. Spread the rice evenly around the chicken.
+3. **Build the liquid:** Lower heat to medium. Add cumin seeds to the fat in the pot and let them sizzle about 30 seconds until fragrant. Cook shallot in the same pot for 3–4 minutes until softened, then stir in garlic, ginger, turmeric, garam masala, and cayenne for about 30 seconds. Stir in coconut milk, measured water, remaining salt, drained rice, and chicken with its juices. Spread the rice evenly around the chicken.
 4. **Cook under a lid:** Bring to a gentle simmer, cover tightly, and reduce heat to maintain quiet bubbling. Cook about 15–18 minutes. Avoid repeatedly opening or stirring the pot.
 5. **Add kale and verify:** Spread the thin kale ribbons over the top, cover, and cook gently about 5 minutes more. Probe several thick chicken pieces and the rice in several places for 165°F / 74°C. Only after that temperature check, taste a rice grain for a tender center. If rice is hard or chicken is short of temperature, follow troubleshooting and continue cooking before resting.
 6. **Rest and finish:** Once chicken and rice meet the checks, remove from heat and rest covered for 10 minutes. Fold kale through gently, divide into four bowls, and serve with lime wedges and optional pickled chiles.

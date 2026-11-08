@@ -29,9 +29,7 @@ ingredients:
   - 1 lb Fresh wide rice noodles
   - 4 tbsp Vegetable cooking oil
   - '3 Garlic cloves, thinly sliced'
-  - >-
-    3 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced
-    to cook evenly
+  - '3 cups Chinese broccoli, cut into roughly 2-inch pieces; thick stems sliced to cook evenly'
   - 'Water, a small splash for steaming broccoli only if needed'
   - '2 Large eggs, lightly beaten'
   - '--- Optional finish ---'
@@ -220,113 +218,111 @@ formula:
     - id: marinate
       title: Marinate the beef
       text: >-
-        Toss {{ingredients}} until evenly coated. Keep refrigerated while
-        preparing the remaining ingredients.
+        Toss {{ingredients}} until evenly coated. Keep refrigerated while preparing the remaining
+        ingredients.
     - id: sauce
       title: Prepare the sauce
       text: 'Mix {{ingredients}} in a separate bowl until the sugar dissolves.'
     - id: noodles
       title: Loosen fresh noodles
       text: >-
-        Prepare {{ingredients}} following their package guidance immediately
-        before stir-frying. If chilled noodles are stiff, briefly rinse with hot
-        water to loosen, then drain thoroughly. Keep hands away from the hot
-        pan.
+        Prepare {{ingredients}} following their package guidance immediately before stir-frying. If
+        chilled noodles are stiff, briefly rinse with hot water to loosen, then drain thoroughly.
+        Keep hands away from the hot pan.
     - id: beef
       title: Cook the beef
       text: >-
-        Heat {{ingredients}} in a wok or large skillet over medium-high heat
-        until shimmering. Add marinated beef in a thin layer, cooking manageable
-        batches. Turn and check the thickest pieces for 145°F /63°C. Transfer to
-        a clean plate and rest at least 3 minutes while cooking the vegetables;
-        keep raw-contact dishes and utensils separate.
+        Heat {{ingredients}} in a wok or large skillet over medium-high heat until shimmering. Add
+        marinated beef in a thin layer, cooking manageable batches. Turn and check the thickest
+        pieces for 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking
+        the vegetables; keep raw-contact dishes and utensils separate.
     - id: vegetables
       title: Cook vegetables and noodles
       text: >-
-        Use {{ingredients}}. Add this step’s cooking oil, garlic and broccoli to
-        the wok. Stir until stems begin to soften, starting checks after about 2
-        minutes; add the small steaming-water allowance and briefly cover only
-        if the stems remain tough. Add loosened noodles and all the prepared
-        sauce. Fold gently until coated, then add the cooked, rested beef.
+        Use {{ingredients}}. Add this step’s cooking oil, garlic and broccoli to the wok. Stir until
+        stems begin to soften, starting checks after about 2 minutes; add the small steaming-water
+        allowance and briefly cover only if the stems remain tough. Add loosened noodles and all the
+        prepared sauce. Fold gently until coated, then add the cooked, rested beef.
     - id: egg
       title: Cook and fold the eggs
       text: >-
-        Have {{ingredients}} ready. Push noodles aside, add this step’s cooking
-        oil and the beaten eggs, and scramble until fully set. Fold through the
-        noodles and continue cooking until evenly hot and the mixed egg-and-beef
-        dish measures 165°F /74°C. Cook longer if needed rather than relying on
-        a brief timer.
+        Have {{ingredients}} ready. Push noodles aside, add this step’s cooking oil and the beaten
+        eggs, and scramble until fully set. Fold through the noodles and continue cooking until
+        evenly hot and the mixed egg-and-beef dish measures 165°F /74°C. Cook longer if needed
+        rather than relying on a brief timer.
     - id: serve
       title: Serve
       text: 'Serve hot and offer {{ingredients}} separately.'
 learning:
-  focus: >-
-    This beef version keeps Thai black soy sauce, oyster sauce and fish sauce
-    distinct
-  outcome: >-
-    Wide rice noodles, fully set egg and beef evenly coated in a savory
-    soy-sauce mixture.
+  focus: 'This beef version keeps Thai black soy sauce, oyster sauce and fish sauce distinct'
+  outcome: 'Wide rice noodles, fully set egg and beef evenly coated in a savory soy-sauce mixture.'
   techniques:
     - stir-frying
     - temperature
   before:
     - >-
-      At the original batch, plan three portions. Keep the noodle widths and
-      beef slices similar when scaling; cook more batches rather than crowding
-      the pan or multiplying brief stir-fry clocks.
+      At the original batch, plan three portions. Keep the noodle widths and beef slices similar
+      when scaling; cook more batches rather than crowding the pan or multiplying brief stir-fry
+      clocks.
     - >-
-      For the original batch, the marinade teaspoon of oil is separate from the
-      four tablespoons cooking oil. The fresh-noodle route uses one-quarter
-      cooking oil for beef, one-quarter for vegetables and one-half for eggs;
-      the dried route uses one-quarter each for noodle coating, beef, vegetables
-      and eggs.
+      For the original batch, the marinade teaspoon of oil is separate from the four tablespoons
+      cooking oil. The fresh-noodle route uses one-quarter cooking oil for beef, one-quarter for
+      vegetables and one-half for eggs; the dried route uses one-quarter each for noodle coating,
+      beef, vegetables and eggs.
     - >-
-      Keep marinated raw beef refrigerated while preparing other ingredients. Do
-      not return cooked beef to the raw marinade bowl.
+      Keep marinated raw beef refrigerated while preparing other ingredients. Do not return cooked
+      beef to the raw marinade bowl.
   checkpoints:
     - step: 4
       cue: Beef reaches 145°F and rests at least 3 minutes on a clean plate.
       why: >-
-        Use a clean plate and utensils for the cooked beef so raw-contact
-        marinade and tools do not touch it.
+        Use a clean plate and utensils for the cooked beef so raw-contact marinade and tools do not
+        touch it.
     - step: 6
       cue: Egg is fully set and the mixed dish reaches 165°F.
-      why: >-
-        An egg-and-meat dish needs its own endpoint; beef color or 145°F alone
-        does not check it.
+      why: An egg-and-meat dish needs its own endpoint; beef color or 145°F alone does not check it.
   troubleshooting:
     - problem: Rice noodles stick together or break
       cause: 'Noodles are stiff, poorly drained or the pan is crowded'
       fix: >-
-        Loosen fresh noodles just before cooking using their package guidance.
-        Drain dried noodles thoroughly and use their oil-coating allocation.
-        Lift and fold manageable pan batches instead of stirring hard.
+        Loosen fresh noodles just before cooking using their package guidance. Drain dried noodles
+        thoroughly and use their oil-coating allocation. Lift and fold manageable pan batches
+        instead of stirring hard.
   substitutions:
     - ingredient: Fresh wide rice noodles
       alternative: >-
-        For the original batch, use 8 oz dried wide rice noodles instead of 1 lb
-        fresh. Prepare to a just-tender bite per package, drain well and coat
-        with 1 tbsp from the 4 tbsp cooking-oil total.
+        For the original batch, use 8 oz dried wide rice noodles instead of 1 lb fresh. Prepare to a
+        just-tender bite per package, drain well and coat with 1 tbsp from the 4 tbsp cooking-oil
+        total.
       effect: >-
-        Complete dried route: use 1 tbsp cooking oil each for noodles, beef,
-        vegetables and eggs; marinade 1 tsp oil remains separate. Scale chosen
-        allocations together, and do not add the fresh-route 2 tbsp egg dose on
-        top.
+        Complete dried route: use 1 tbsp cooking oil each for noodles, beef, vegetables and eggs;
+        marinade 1 tsp oil remains separate. Scale chosen allocations together, and do not add the
+        fresh-route 2 tbsp egg dose on top.
+    - ingredient: Chinese broccoli (gai lan)
+      alternative: 'The same volume of broccolini, cut into 2-inch pieces'
+      effect: >-
+        Sweeter and milder, with less of gai lan's bitter edge. Thin stems cook a little faster, so
+        start checking sooner.
+    - ingredient: Thai black soy sauce
+      alternative: >-
+        The same amount of Chinese dark soy sauce plus 1/2 tsp more sugar in the sauce, or the same
+        amount of kecap manis with no extra sugar
+      effect: >-
+        Either gives the deep color and caramel sweetness of the original. Chinese dark soy alone is
+        less sweet, which is why it needs the extra sugar.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours
-    (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F
-    throughout; noodles soften in storage.
+    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
+    Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.
   timing: >-
-    Plan about 15–25 min preparation with noodles ready; about 15–30 min
-    cooking, depending on batches; about 35–60 min overall, plus any separate
-    noodle preparation. Pan heating, beef checks and the 3-minute rest affect
-    elapsed time; product preparation and extra pan batches can extend it.
+    Plan about 15–25 min preparation with noodles ready; about 15–30 min cooking, depending on
+    batches; about 35–60 min overall, plus any separate noodle preparation. Pan heating, beef checks
+    and the 3-minute rest affect elapsed time; product preparation and extra pan batches can extend
+    it.
   sources:
     - title: The Woks of Life — Pad See Ew
       url: 'https://thewoksoflife.com/pad-see-ew/'
     - title: FoodSafety.gov — state-specific minimum cooking temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety

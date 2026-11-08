@@ -63,11 +63,11 @@ learning:
       Carton coconut beverages and sweetened cream of coconut do not provide the same sauce.
   checkpoints:
     - step: 2
-      cue: The onion is soft and the tomato liquid has reduced to a thick, moist base.
-      why: Evaporating water before adding coconut milk concentrates the vegetables without prolonged boiling of the finished sauce.
+      cue: The onion is soft and golden at the edges.
+      why: Browning in fat before any tomato goes in builds sweetness that a wet base cannot.
     - step: 3
-      cue: The spice mixture smells aromatic, without black flecks or a scorched smell.
-      why: Ground spices need only a brief stir into the hot, moist base before the liquid goes in.
+      cue: The spices smell aromatic without black flecks, and the tomato has cooked down to a thick, moist base.
+      why: Ground spices bloom in hot oil within seconds, then the tomato stops them from scorching. Evaporating its water before adding coconut milk concentrates the base without prolonged boiling of the finished sauce.
     - step: 4
       cue: Sauce lightly coats a spoon but still runs around the chickpeas when stirred.
       why: A curry needs enough fluid to spoon over rice; optional coconut flour can make it too thick if overused.
@@ -89,7 +89,7 @@ learning:
     - problem: Spices taste bitter
       cause: Garlic or ground spices scorched, or the chosen garam masala is unusually clove-heavy.
       fix: >-
-        Scorching cannot be removed with lime. Use gentler heat and add coconut milk promptly
+        Scorching cannot be removed with lime. Use gentler heat and add the tomatoes promptly
         next time. If the spices are merely strong, let the full simmer finish before judging;
         changing the amount of a strongly flavored blend will change this curry's character.
   substitutions:
@@ -111,7 +111,8 @@ learning:
         try to restore creaminess by adding a large unmeasured dose of coconut flour.
   timing: >-
     About 45 minutes includes 15 minutes for opening cans, draining, chopping and measuring,
-    roughly 10–12 minutes for the onion-tomato base, a short spice stage, heating to a simmer,
+    roughly 8–10 minutes to brown the onion, a short spice stage, 5–7 minutes to cook down the
+    tomatoes, heating to a simmer,
     a 10–12-minute simmer and final seasoning. Hands-on work is about 25–30 minutes.
     A narrow pot or watery tomatoes can extend the reduction. Rice or bread is separate.
   storage: >-
@@ -134,12 +135,12 @@ learning:
 
 ## Chef's Note
 
-Jessica Hylton's coconut chickpea curry gets its character from a generous measure of garam masala and a lime finish. Cook the onion and tomato into a thick, moist base before adding the coconut milk. Keep the simmer gentle and finish with lime a little at a time so the rich sauce stays balanced.
+Jessica Hylton's coconut chickpea curry gets its character from a generous measure of garam masala and a lime finish. Brown the onion in coconut oil, bloom the spices in that fat, then cook the tomatoes into a thick, moist base before adding the coconut milk. Keep the simmer gentle and finish with lime a little at a time so the rich sauce stays balanced.
 
 ## Directions
 
 1. **Prepare the ingredients:** Drain and rinse the canned chickpeas. Finely dice the onion, mince the garlic and measure all spices. Stir the coconut milk together before measuring. If using coconut flour, whisk the measured amount into a few spoonfuls of that milk and keep it with the remaining milk. Juice the lime into a small bowl so you can control the final addition.
-2. **Cook the onion and tomato base:** Heat the coconut oil in the wide pot over medium heat. Add onion, tomatoes with their juices, the initial fine salt and the black pepper. Cook uncovered for about **10–12 minutes**, stirring regularly, until the onion is soft and the tomatoes have formed a thick, moist mixture. Turn down the heat if it starts sticking. Some canned tomato pieces may retain their shape; press them with the spoon rather than waiting for every piece to dissolve.
-3. **Add the spices:** Stir in garlic, garam masala, curry powder, cumin and optional red pepper flakes for **30–60 seconds**, until aromatic. Keep the base moist and do not let the spices blacken. Promptly stir in the drained chickpeas and all the coconut milk, scraping in all of the prepared coconut-flour mixture if using it.
+2. **Brown the onion:** Heat the coconut oil in the wide pot over medium heat. Add the onion and cook, stirring often, for about **8–10 minutes**, until soft and golden at the edges. Turn down the heat if it browns too fast.
+3. **Bloom the spices and cook the tomato base:** Stir in garlic, garam masala, curry powder, cumin and optional red pepper flakes for about **30 seconds**, until aromatic, without letting them blacken. Promptly add the tomatoes with their juices, the initial fine salt and the black pepper, scraping the bottom. Cook uncovered for about **5–7 minutes**, stirring regularly, until the tomatoes form a thick, moist mixture. Some canned tomato pieces may retain their shape; press them with the spoon rather than waiting for every piece to dissolve. Stir in the drained chickpeas and all the coconut milk, scraping in all of the prepared coconut-flour mixture if using it.
 4. **Simmer:** Bring to a gentle simmer, allowing a few minutes for the whole pot to heat. Reduce to medium-low and cook **uncovered for 10–12 minutes**, stirring occasionally. The chickpeas should be hot throughout and the sauce creamy and spoonable. Use the reserved hot water a tablespoon at a time only if it becomes too thick. If it is still watery, give it a few extra uncovered minutes rather than serving a thin layer of liquid around the beans.
 5. **Balance and serve:** Turn off the heat. Stir in **half the measured lime juice**, taste, then add the remainder in small amounts as needed. Add the reserved fine salt only after tasting; canned chickpeas and tomatoes vary in saltiness. Fold in the optional cilantro. Divide into four portions, about **1 1/4 cups each**, with plain rice or bread to catch the sauce.

@@ -7,17 +7,17 @@ difficulty: easy
 prepTime: About 20–30 min active preparation with cooked noodles and edamame
 cookTime: 'About 15–25 min cooking, depending on chicken batches'
 totalTime: 'About 35–55 min, plus any separate noodle or edamame cooking'
-servings: 2 portions
+servings: 4 portions
 cookingMethods:
   - stir-fry
 categories: []
 source: ajc.com
 ingredients:
   - '--- Cantonese sauce ---'
-  - 1/4 cup Soy sauce
-  - 1/4 cup Shaoxing cooking wine
-  - 1/4 cup Oyster sauce
-  - 2 tbsp Granulated sugar
+  - 3 tbsp Soy sauce
+  - 2 tbsp Shaoxing cooking wine
+  - 3 tbsp Oyster sauce
+  - 1 1/2 tbsp Granulated sugar
   - '--- Chicken and vegetables ---'
   - '1 lb Boneless chicken breast, thin strips'
   - 'Salt and pepper, to season the chicken'
@@ -27,11 +27,10 @@ ingredients:
   - '1 cup Onion, sliced'
   - '1 cup Carrot, sliced'
   - '1 cup Bok choy, sliced'
-  - >-
-    1 cup Edamame, edible shelled beans, fully cooked per actual package
-    instructions
+  - '1 cup Edamame, edible shelled beans, fully cooked per actual package instructions'
   - 4 cups Cooked egg noodles
   - '2 tbsp Scallions, sliced'
+  - 1 tsp Toasted sesame oil
 sourceUrl: >-
   https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/
 cuisines:
@@ -39,7 +38,7 @@ cuisines:
 formula:
   version: 1
   yield:
-    amount: 2
+    amount: 4
     unit: portion
   components:
     - id: sauce
@@ -49,8 +48,8 @@ formula:
           key: soy
           name: Soy sauce
           quantity:
-            amount: 0.25
-            unit: cup
+            amount: 3
+            unit: tbsp
           uses:
             - step: sauce
               share: 1
@@ -58,8 +57,8 @@ formula:
           key: wine
           name: Shaoxing cooking wine
           quantity:
-            amount: 0.25
-            unit: cup
+            amount: 2
+            unit: tbsp
           uses:
             - step: sauce
               share: 1
@@ -67,8 +66,8 @@ formula:
           key: oyster
           name: Oyster sauce
           quantity:
-            amount: 0.25
-            unit: cup
+            amount: 3
+            unit: tbsp
           uses:
             - step: sauce
               share: 1
@@ -76,7 +75,7 @@ formula:
           key: sugar
           name: Granulated sugar
           quantity:
-            amount: 2
+            amount: 1.5
             unit: tbsp
           uses:
             - step: sauce
@@ -189,104 +188,101 @@ formula:
             - step: serve
               share: 1
           preparation: sliced
+        - id: sesame
+          key: sesame-oil
+          name: Toasted sesame oil
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: serve
+              share: 1
   steps:
     - id: sauce
       title: Make the sauce
       text: >-
-        Whisk {{ingredients}} until the sugar dissolves. Set aside the complete
-        prepared batch for the final toss.
+        Whisk {{ingredients}} until the sugar dissolves. Set aside the complete prepared batch for
+        the final toss.
     - id: chicken
       title: Cook the chicken
       text: >-
-        Use {{ingredients}}. Season chicken; if preparing ahead, cover and
-        refrigerate. Heat the oil in a wok or skillet over medium-high heat.
-        Cook chicken in uncrowded batches, starting checks around 3 minutes,
-        until the thickest pieces reach 165°F /74°C. Transfer to a clean plate;
-        keep raw-contact utensils away from cooked food.
+        Use {{ingredients}}. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil
+        in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting
+        checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean
+        plate; keep raw-contact utensils away from cooked food.
     - id: vegetables
       title: Cook the vegetables
       text: >-
-        Have {{ingredients}} ready. Add garlic and ginger to the pan and stir
-        for about 30 seconds until fragrant without burning. Add onions, carrots
-        and bok choy, and stir until crisp-tender, starting checks around 4
-        minutes. Fold in the already-cooked edamame to heat through; lower heat
-        if the pan catches rather than leaving aromatics to burn.
+        Have {{ingredients}} ready. Add garlic and ginger to the pan and stir for about 30 seconds
+        until fragrant without burning. Add onions, carrots and bok choy, and stir until
+        crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat
+        through; lower heat if the pan catches rather than leaving aromatics to burn.
     - id: finish
       title: Combine
       text: >-
-        Add {{ingredients}}, the full prepared sauce batch and cooked chicken.
-        Lift and toss gently until evenly coated and hot, starting checks around
-        3 minutes. Let the sauce reduce until it coats the noodles. For multiple
-        pan batches, divide cooked components and sauce proportionally.
+        Add {{ingredients}}, the full prepared sauce batch and cooked chicken. Lift and toss gently
+        until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it
+        coats the noodles. For multiple pan batches, divide cooked components and sauce
+        proportionally.
     - id: serve
       title: Serve
-      text: 'Divide among bowls and garnish with {{ingredients}}.'
+      text: >-
+        Use {{ingredients}}. Off the heat, drizzle the sesame oil over the noodles and toss once.
+        Divide among bowls and garnish with the scallions.
 learning:
   focus: >-
-    Doc Chey’s chicken lo mein uses one prepared soy-wine-oyster sauce with all
-    the listed vegetables and noodles
-  outcome: >-
-    Cooked chicken and all the vegetables evenly coated with one prepared
-    Cantonese sauce.
+    Doc Chey’s chicken lo mein uses one prepared soy-wine-oyster sauce with all the listed
+    vegetables and noodles
+  outcome: Cooked chicken and all the vegetables evenly coated with one prepared Cantonese sauce.
   techniques:
     - stir-frying
     - temperature
   before:
     - >-
-      At the original batch, plan two portions. Use a wok or skillet large
-      enough to toss the listed cooked noodles with all the vegetables; split
-      into batches if needed. The original batch uses four cups cooked noodles,
-      and actual bowl size depends on how the dish is served.
+      At the original batch, plan four portions. Use a wok or skillet large enough to toss the
+      listed cooked noodles with all the vegetables; split into batches if needed. The original
+      batch uses four cups cooked noodles, and actual bowl size depends on how the dish is served.
     - >-
-      Make one complete batch of the listed sauce and add it at the final toss.
-      The soy sauce, wine, oyster sauce and sugar listed in that component are
-      all its ingredients.
+      Make one complete batch of the listed sauce and add it at the final toss. The soy sauce, wine,
+      oyster sauce and sugar listed in that component are all its ingredients.
     - >-
-      Cook frozen edamame according to its actual package, then shell and
-      measure the listed edible beans. Do not assume a brief vegetable stir-fry
-      cooks a frozen product that requires longer preparation.
+      Cook frozen edamame according to its actual package, then shell and measure the listed edible
+      beans. Do not assume a brief vegetable stir-fry cooks a frozen product that requires longer
+      preparation.
   checkpoints:
     - step: 2
       cue: Thickest chicken pieces reach 165°F and move to a clean plate.
-      why: >-
-        Browning and elapsed time do not establish the chicken’s internal
-        temperature.
+      why: Browning and elapsed time do not establish the chicken’s internal temperature.
     - step: 4
       cue: 'All noodles, chicken and vegetables are hot and evenly coated.'
       why: >-
-        Add the prepared sauce once and stop reducing when it coats the noodles;
-        reducing by a fixed fraction can overconcentrate it.
+        Add the prepared sauce once and stop reducing when it coats the noodles; reducing by a fixed
+        fraction can overconcentrate it.
   troubleshooting:
     - problem: Chicken steams or noodles are hard to toss
       cause: Pan is overcrowded or noodles were not prepared in advance
       fix: >-
-        Cook chicken in smaller loads, keep cooked food on a clean plate and
-        toss the complete noodle mixture in manageable batches with sauce
-        divided proportionally.
+        Cook chicken in smaller loads, keep cooked food on a clean plate and toss the complete
+        noodle mixture in manageable batches with sauce divided proportionally.
   substitutions:
     - ingredient: Freshly cooked egg noodles
-      alternative: >-
-        Use chilled cooked noodles prepared ahead at the same listed cooked
-        volume.
+      alternative: Use chilled cooked noodles prepared ahead at the same listed cooked volume.
       effect: >-
-        Refrigerate promptly and use within 3–4 days. Loosen gently and heat the
-        finished leftovers to 165°F; no dried-weight conversion is supplied.
+        Refrigerate promptly and use within 3–4 days. Loosen gently and heat the finished leftovers
+        to 165°F; no dried-weight conversion is supplied.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours
-    (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F
-    throughout; noodles soften in storage.
+    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
+    Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.
   timing: >-
-    About 20–30 min active preparation with cooked noodles and edamame; About
-    15–25 min cooking, depending on chicken batches; About 35–55 min, plus any
-    separate noodle or edamame cooking. Plan for extra time if the actual pan
-    loads or component preparation take longer.
+    About 20–30 min active preparation with cooked noodles and edamame; About 15–25 min cooking,
+    depending on chicken batches; About 35–55 min, plus any separate noodle or edamame cooking. Plan
+    for extra time if the actual pan loads or component preparation take longer.
   sources:
     - title: AJC — Doc Chey’s Chicken Lo Mein
       url: >-
         https://www.ajc.com/lifestyles/food--cooking/lomein-dish-can-made-from-ingredients-hand/nm6EiZJQkRfSmBI9T8PUUK/
     - title: FoodSafety.gov — state-specific minimum cooking temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -305,4 +301,4 @@ Doc Chey’s chicken lo mein uses one prepared soy-wine-oyster sauce with all th
 2. **Cook the chicken:** Use Boneless chicken breast, Salt and pepper, and Vegetable oil. Season chicken; if preparing ahead, cover and refrigerate. Heat the oil in a wok or skillet over medium-high heat. Cook chicken in uncrowded batches, starting checks around 3 minutes, until the thickest pieces reach 165°F /74°C. Transfer to a clean plate; keep raw-contact utensils away from cooked food.
 3. **Cook the vegetables:** Have Garlic, Ginger, Onion, Carrot, Bok choy, and Edamame ready. Add garlic and ginger to the pan and stir for about 30 seconds until fragrant without burning. Add onions, carrots and bok choy, and stir until crisp-tender, starting checks around 4 minutes. Fold in the already-cooked edamame to heat through; lower heat if the pan catches rather than leaving aromatics to burn.
 4. **Combine:** Add Cooked egg noodles, the full prepared sauce batch and cooked chicken. Lift and toss gently until evenly coated and hot, starting checks around 3 minutes. Let the sauce reduce until it coats the noodles. For multiple pan batches, divide cooked components and sauce proportionally.
-5. **Serve:** Divide among bowls and garnish with Scallions.
+5. **Serve:** Use Scallions and Toasted sesame oil. Off the heat, drizzle the sesame oil over the noodles and toss once. Divide among bowls and garnish with the scallions.

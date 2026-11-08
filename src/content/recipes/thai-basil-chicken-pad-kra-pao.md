@@ -36,12 +36,14 @@ pairsWith:
   - steamed-white-rice
 ingredients:
   - '680 g ground chicken, preferably thigh meat'
-  - 2 tbsp fish sauce
+  - 1 1/2 tbsp fish sauce
+  - 1 tbsp oyster sauce
   - 1 tbsp light soy sauce
+  - 1 tsp Thai dark soy sauce, for color
   - 2 tsp palm sugar or brown sugar
   - 1/4 cup (60 ml) unsalted chicken stock or water
-  - '4 cloves garlic, finely chopped'
-  - '1 to 4 Thai bird chiles, finely chopped, to suit your heat preference'
+  - '4 cloves garlic, peeled'
+  - '1 to 4 Thai bird chiles, to suit your heat preference'
   - '30 g holy basil leaves, tough stems removed'
   - '4 tbsp neutral oil, divided between chicken and eggs'
   - 4 large eggs
@@ -102,8 +104,19 @@ learning:
     - ingredient: Light soy sauce
       alternative: Gluten-free tamari
       effect: >-
-        Use a labeled gluten-free fish sauce too and check all packaged ingredients. Salt
-        concentration can differ, so taste the cooked glaze.
+        Use a labeled gluten-free fish sauce and oyster sauce too, and replace the dark soy with
+        1/2 tsp molasses, since most oyster and dark soy sauces contain wheat. Check all packaged
+        ingredients. Salt concentration can differ, so taste the cooked glaze.
+    - ingredient: Thai dark soy sauce
+      alternative: 1/2 tsp molasses, or omit it
+      effect: >-
+        Dark soy adds color and a faint caramel note rather than much salt. Molasses gives similar
+        color. Omitting it leaves a paler but equally savory dish.
+    - ingredient: Mortar and pestle for garlic and chiles
+      alternative: Mince the garlic and chiles together very finely with a knife
+      effect: >-
+        Pounding bruises them into a paste that releases more aroma into the oil. Fine mincing
+        works but tastes a little less punchy.
   timing: >-
     About 40 minutes for the chicken and eggs, using two skillets and overlapping the eggs with the
     sauce stage. Two egg batches or a single-pan sequence takes longer. Rice preparation is
@@ -128,12 +141,12 @@ learning:
 
 ## Chef's Note
 
-Holy basil, garlic and chile give pad kra pao its character. Fish sauce and soy supply savory seasoning, with a little sugar to round it out. Thai basil is a useful substitution with a different aroma. Serve each portion with its fried egg and separately prepared rice. A shallow layer of oil is enough for the egg method here.
+Holy basil, garlic and chile give pad kra pao its character. Fish sauce, oyster sauce and soy supply savory seasoning and a glossy coating, with a little sugar to round it out. Thai basil is a useful substitution with a different aroma. Serve each portion with its fried egg and separately prepared rice. A shallow layer of oil is enough for the egg method here.
 
 ## Directions
 
-1. **Prepare everything:** Stir fish sauce, light soy, sugar, and stock until the sugar dissolves. Chop garlic and chiles and pick basil leaves. Keep chicken refrigerated until the pan is ready. Set out a second skillet for the eggs.
+1. **Prepare everything:** Stir fish sauce, oyster sauce, light soy, dark soy, sugar, and stock until the sugar dissolves. Pound the garlic and chiles together in a mortar into a coarse paste, or mince them together very finely, and pick basil leaves. Keep chicken refrigerated until the pan is ready. Set out a second skillet for the eggs.
 2. **Cook chicken in two batches:** Heat 2 tsp oil in a 12-inch skillet or wok over medium-high heat. Add half the chicken, spread it out, and leave about 1–2 minutes. Break into small pieces and continue cooking, stirring, until the chicken reaches 165°F / 74°C, usually about 5–7 minutes total. Transfer to a clean bowl. Repeat with another 2 tsp oil and the remaining chicken.
 3. **Fry the eggs near serving:** Heat 2 tbsp oil in the second skillet over medium heat. Crack in the eggs, leaving space between them; use two batches if they crowd. Cook until whites set and edges begin to color, then turn carefully and finish until both whites and yolks are firm, about 4–6 minutes depending on heat. Reduce heat if the bottoms darken too quickly. Transfer to plates as the chicken finishes.
-4. **Make the glaze:** Meanwhile reduce the chicken skillet to medium, add the remaining 2 tsp oil, and stir garlic and chiles for about 30 seconds until fragrant without blackening. Add the mixed sauce and cooked chicken. Simmer and stir about 2–3 minutes until hot and lightly glazed. Taste the cooked mixture; stop reducing if it is already strongly seasoned.
+4. **Make the glaze:** Meanwhile reduce the chicken skillet to medium, add the remaining 2 tsp oil, and stir the garlic-chile paste for about 30 seconds until fragrant without blackening. Add the mixed sauce and cooked chicken. Simmer and stir about 2–3 minutes until hot and lightly glazed. Taste the cooked mixture; stop reducing if it is already strongly seasoned.
 5. **Finish with basil:** Turn off heat and fold in basil until just wilted. Divide chicken among four plates with separately prepared rice and one fried egg per diner. Offer lime wedges only if wanted at the table.

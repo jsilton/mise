@@ -29,7 +29,9 @@ ingredients:
   - 2 1/2 cups all-purpose flour
   - 1 tsp baking soda
   - 1 tsp baking powder
-  - 1 tsp ground cinnamon
+  - 2 tsp ground cinnamon
+  - 1/2 tsp ground ginger
+  - 1/4 tsp ground cloves
   - 1/2 tsp ground nutmeg
   - 1/2 tsp sea salt
   - '--- Vanilla glaze ---'
@@ -49,8 +51,7 @@ pairsWith:
   - babys-first-smash-cake
   - best-cinnamon-roll-recipe-cinnabon-copycat
 source: Adapted from Verybestbaking.com
-sourceUrl: >-
-  https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies
+sourceUrl: 'https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies'
 formula:
   version: 1
   yield:
@@ -141,7 +142,25 @@ formula:
           key: cinnamon
           name: ground cinnamon
           quantity:
-            amount: 1
+            amount: 2
+            unit: tsp
+          uses:
+            - step: dry
+              share: 1
+        - id: ginger
+          key: ginger
+          name: ground ginger
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: dry
+              share: 1
+        - id: cloves
+          key: cloves
+          name: ground cloves
+          quantity:
+            amount: 1/4
             unit: tsp
           uses:
             - step: dry
@@ -219,13 +238,11 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F. Use {{ingredients}} to lightly grease baking
-        sheets, and have a cooling rack ready.
+        Preheat the oven to 350°F. Use {{ingredients}} to lightly grease baking sheets, and have a
+        cooling rack ready.
     - id: dry
       title: Mix dry ingredients
-      text: >-
-        Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners
-        are distributed.
+      text: 'Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed.'
     - id: cream
       title: Cream
       text: 'Beat {{ingredients}} in a large bowl until fluffy, scraping the bowl.'
@@ -235,32 +252,31 @@ formula:
     - id: combine
       title: Combine
       text: >-
-        Gradually stir the dry mixture into the pumpkin mixture just until no
-        dry flour remains. The dough is soft and scoopable.
+        Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The
+        dough is soft and scoopable.
     - id: shape
       title: Shape
       text: >-
-        Drop rounded tablespoonfuls onto the greased sheets, leaving room
-        between cookies. Use all the dough; the listed count is a planning
-        value. Keep scoop size consistent and use extra sheets or loads as the
-        batch grows.
+        Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all
+        the dough; the listed count is a planning value. Keep scoop size consistent and use extra
+        sheets or loads as the batch grows.
     - id: bake
       title: Bake
       text: >-
-        Wait for the oven to reach 350°F, then bake for 15–18 minutes per load
-        until the edges are firm and the tops are slightly golden. Keep unbaked
-        dough refrigerated at 40°F / 4°C or below between loads.
+        Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are
+        firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or
+        below between loads.
     - id: cool
       title: Cool before glazing
       text: >-
-        Cool on the sheets for 2 minutes, then transfer to a rack and cool
-        completely before adding the glaze.
+        Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding
+        the glaze.
     - id: glaze
       title: Glaze
       text: >-
-        Whisk {{ingredients}} until smooth. Drizzle the full glaze over the
-        cooled cookies, distributing it over the actual batch. Let the glaze
-        settle before packing; these are soft glazed cookies.
+        Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies,
+        distributing it over the actual batch. Let the glaze settle before packing; these are soft
+        glazed cookies.
 learning:
   focus: 'Keeping dough and glaze quantities separate, then cooling before glazing.'
   outcome: Soft pumpkin cookies with a smooth vanilla glaze on their cooled surfaces.
@@ -269,73 +285,57 @@ learning:
     - temperature
   before:
     - >-
-      Use pure pumpkin puree, not pumpkin pie filling. The dough vanilla and
-      glaze vanilla are separate full amounts; the component list gives their
-      destinations.
+      Use pure pumpkin puree, not pumpkin pie filling. The dough vanilla and glaze vanilla are
+      separate full amounts; the component list gives their destinations.
     - >-
-      Preheat to 350°F while mixing and prepare enough sheet space for rounded
-      tablespoon portions. Cooling completely before glazing is required and has
-      no fixed duration here.
+      Preheat to 350°F while mixing and prepare enough sheet space for rounded tablespoon portions.
+      Cooling completely before glazing is required and has no fixed duration here.
+    - Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.
     - >-
-      Do not taste raw dough; it contains raw flour and egg. Wash hands and
-      tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated
-      fraction; keep cookie dimensions and baking temperature fixed.
+      If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie
+      dimensions and baking temperature fixed.
   checkpoints:
     - step: 2
       cue: 'The salt, both leaveners and spices are evenly whisked into the flour.'
-      why: >-
-        Salt must have a destination alongside the flour; “spices” alone does
-        not account for it.
+      why: Salt must have a destination alongside the flour; “spices” alone does not account for it.
     - step: 7
       cue: Firm edges on cookies that are still soft.
-      why: >-
-        This pumpkin dough is a soft-cookie recipe, not a crisp-cookie or snap
-        endpoint.
+      why: 'This pumpkin dough is a soft-cookie recipe, not a crisp-cookie or snap endpoint.'
     - step: 9
       cue: A smooth glaze on cookies that are completely cool.
-      why: >-
-        Warm cookies can thin and absorb the drizzle instead of retaining a
-        surface glaze.
+      why: Warm cookies can thin and absorb the drizzle instead of retaining a surface glaze.
   troubleshooting:
     - problem: Glaze runs off or soaks in.
       cause: Cookies are still warm when glazed.
       fix: >-
-        Wait until they have cooled completely on the rack, then distribute the
-        full glaze over the batch.
+        Wait until they have cooled completely on the rack, then distribute the full glaze over the
+        batch.
     - problem: Glaze is lumpy.
-      cause: >-
-        Confectioners’ sugar was clumped or the alternate softened butter was
-        not blended smoothly.
+      cause: Confectioners’ sugar was clumped or the alternate softened butter was not blended smoothly.
       fix: >-
-        Sift the listed sugar and whisk thoroughly. Keep the stated milk and
-        butter quantities rather than guessing extra liquid.
+        Sift the listed sugar and whisk thoroughly. Keep the stated milk and butter quantities
+        rather than guessing extra liquid.
   substitutions:
     - ingredient: Melted butter in the glaze
       alternative: The same listed amount of softened butter
       effect: >-
-        The modern publisher uses softened glaze butter; this is a separate
-        state choice, retaining all glaze ingredients and the softened butter in
-        the dough.
+        The modern publisher uses softened glaze butter; this is a separate state choice, retaining
+        all glaze ingredients and the softened butter in the dough.
   storage: >-
-    Cool the cookies completely and let the glaze settle before packing. Because
-    this glaze contains milk and its room-temperature keeping quality is
-    unmeasured, refrigerate glazed cookies at 40°F / 4°C or below promptly,
-    within 2 hours or 1 hour above 90°F / 32°C. This is a conservative storage
-    plan, with no validated shelf life or crisp-shell guarantee.
+    Cool the cookies completely and let the glaze settle before packing. Because this glaze contains
+    milk and its room-temperature keeping quality is unmeasured, refrigerate glazed cookies at 40°F
+    / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C. This is a conservative
+    storage plan, with no validated shelf life or crisp-shell guarantee.
   timing: >-
-    Plan 10 minutes for mixing, 15–18 minutes per oven load and the two-minute
-    sheet rest: 27–30 minutes is a first-load subtotal. Preheating begins with
-    mixing; any remaining oven heating, later loads, complete rack cooling and
-    glazing extend the total. The cookies must be cool before glaze is added.
+    Plan 10 minutes for mixing, 15–18 minutes per oven load and the two-minute sheet rest: 27–30
+    minutes is a first-load subtotal. Preheating begins with mixing; any remaining oven heating,
+    later loads, complete rack cooling and glazing extend the total. The cookies must be cool before
+    glaze is added.
   sources:
     - title: LIBBY’S — full dough/glaze vanilla allocations and cooling sequence
-      url: >-
-        https://www.verybestbaking.com/libbys/recipes/old-fashioned-soft-pumpkin-cookies/
+      url: 'https://www.verybestbaking.com/libbys/recipes/old-fashioned-soft-pumpkin-cookies/'
     - title: FDA — raw flour and dough handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: FDA — conservative handling of perishable dairy glaze
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:
@@ -350,7 +350,7 @@ Use pure pumpkin puree rather than sweetened pumpkin pie filling. The pumpkin do
 ## Directions
 
 1. **Prepare:** Preheat the oven to 350°F. Use butter or baking spray to lightly grease baking sheets, and have a cooling rack ready.
-2. **Mix dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground nutmeg, and sea salt in a medium bowl so the spices, salt and leaveners are distributed.
+2. **Mix dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground ginger, ground cloves, ground nutmeg, and sea salt in a medium bowl so the spices, salt and leaveners are distributed.
 3. **Cream:** Beat unsalted butter and granulated sugar in a large bowl until fluffy, scraping the bowl.
 4. **Add pumpkin:** Beat in pure pumpkin puree, large egg, and pure vanilla extract until evenly mixed.
 5. **Combine:** Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable.

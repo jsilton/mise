@@ -23,9 +23,9 @@ cuisines:
   - American
 role: main
 vibe: quick
-prepTime: 10 min
+prepTime: 15 min
 cookTime: 20–25 min
-totalTime: About 35–40 min (from prepared bacon and spinach)
+totalTime: About 40–45 min (from prepared bacon and spinach)
 servings: 12 muffins
 pairsWith:
   - avocado-kale-caesar-salad
@@ -39,7 +39,8 @@ ingredients:
   - '3 tbsp Roma Tomato, finely diced'
   - '3 tbsp Onion, finely diced'
   - '3 tbsp Bell Pepper, finely diced'
-  - 1/4 tsp Kosher Salt
+  - 1 tsp Olive Oil or bacon fat, for softening the onion and pepper
+  - 1/2 tsp Kosher Salt
   - Black Pepper
   - Cooking spray
 origin: United States
@@ -90,8 +91,9 @@ learning:
         Different melting and salt intensity; keep the listed total cheese
         weight.
   timing: >-
-    From prepared bacon and spinach, about 10 minutes assembly, 20–25 minutes
-    baking and 5 minutes cooling give 35–40 minutes elapsed. Include bacon
+    From prepared bacon and spinach, about 15 minutes assembly including
+    softening the onion and pepper, 20–25 minutes baking and 5 minutes cooling
+    give 40–45 minutes elapsed. Include bacon
     cooking and package-required spinach cooking/cooling when starting earlier
     in the process.
   storage: >-
@@ -122,7 +124,7 @@ Use cooked bacon and thawed spinach squeezed free of excess water. Divide the fi
 
 1. **Prep:** Preheat the oven to 350 °F. Generously spray standard muffin cups, including the sides, and set the tin on a baking sheet. Start with cooked, chopped bacon. Prepare the frozen spinach according to its package if cooking is required, cool enough to handle, squeeze dry and measure the listed spinach amount after draining. These preparations add time if they are not already done.
 
-2. **The Base:** Divide the cooked bacon, squeezed spinach, finely diced tomato, onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.
+2. **The Base:** Warm the oil or bacon fat in a small skillet over medium heat. Cook the onion and bell pepper 3–4 minutes, until softened and no longer sharp, then let them cool for a minute. Divide the cooked bacon, squeezed spinach, finely diced tomato and the softened onion and pepper among the cups. The original batch uses about 12 standard cups; different quantities need more or fewer cups at the same size and fill depth.
 
 3. **The Eggs:** Whisk the eggs, measured kosher salt and black pepper until the whites and yolks are blended. Do not whip to a thick foam.
 

@@ -36,11 +36,9 @@ ingredients:
   - 1 tbsp Rice vinegar
   - 1 tbsp Sugar
   - '--- Noodles ---'
-  - 1 lb Frozen udon noodles
+  - 2 lb Frozen udon noodles
   - 'Water, enough to cook noodles according to package instructions'
-  - >-
-    Toasted sesame oil, a drizzle to coat drained noodles; about 1 tsp for the
-    original batch
+  - 'Toasted sesame oil, a drizzle to coat drained noodles; about 2 tsp for the original batch'
   - '--- Protein and vegetables ---'
   - 1/2 lb Ground pork or thinly sliced whole-muscle beef
   - 2 tbsp Neutral vegetable oil
@@ -132,7 +130,7 @@ formula:
           key: noodles
           name: Frozen udon noodles
           quantity:
-            amount: 1
+            amount: 2
             unit: lb
           uses:
             - step: noodles
@@ -148,9 +146,7 @@ formula:
         - id: sesame
           key: sesame
           name: Toasted sesame oil
-          allowance: >-
-            a drizzle to coat drained noodles; about 1 tsp for the original
-            batch
+          allowance: a drizzle to coat drained noodles; about 2 tsp for the original batch
           uses:
             - step: noodles
               share: 1
@@ -285,70 +281,62 @@ formula:
     - id: sauce
       title: Mix one sauce route
       text: >-
-        Whisk {{ingredients}} together until the sugar dissolves. If choosing
-        the lighter alternative, mix that complete sauce instead and omit these
-        base sauce amounts.
+        Whisk {{ingredients}} together until the sugar dissolves. If choosing the lighter
+        alternative, mix that complete sauce instead and omit these base sauce amounts.
     - id: noodles
       title: Prepare the frozen noodles
       text: >-
-        Use {{ingredients}}. Cook frozen noodles according to the package,
-        separating gently; separation alone is not sufficient if the product
-        calls for further cooking. Drain, rinse briefly under cold water and
-        drain well, then toss with a light drizzle of sesame oil.
+        Use {{ingredients}}. Cook frozen noodles according to the package, separating gently;
+        separation alone is not sufficient if the product calls for further cooking. Drain, rinse
+        briefly under cold water and drain well, then toss with a light drizzle of sesame oil.
     - id: meat
       title: Cook the protein
       text: >-
-        Use {{ingredients}}. Heat this step’s neutral-oil allocation over
-        medium-high heat. For ground pork, break into small pieces and cook
-        through to 160°F, starting checks around 5 minutes. For thinly sliced
-        whole-muscle beef, cook to 145°F and rest at least 3 minutes on a clean
-        plate while the vegetables cook. Browning is a useful texture cue, not
-        the safety endpoint. Keep raw-contact utensils away from finished food.
+        Use {{ingredients}}. Heat this step’s neutral-oil allocation over medium-high heat. For
+        ground pork, break into small pieces and cook through to 160°F, starting checks around 5
+        minutes. For thinly sliced whole-muscle beef, cook to 145°F and rest at least 3 minutes on a
+        clean plate while the vegetables cook. Browning is a useful texture cue, not the safety
+        endpoint. Keep raw-contact utensils away from finished food.
     - id: vegetables
       title: Cook vegetables and combine
       text: >-
-        Have {{ingredients}} ready for the dark-soy sauce route; omit onion,
-        garlic and cooking scallions if choosing the lighter variation. For the
-        dark-soy sauce route, add the remaining neutral-oil allocation. Cook
-        onion and mushrooms over medium-high heat until beginning to soften,
-        about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until
-        stems are crisp-tender, starting checks after about 3 minutes. Add the
-        scallion pieces. For the lighter variation, cook mushrooms and carrot in
-        the remaining neutral-oil allocation, then add bok choy stems and cook
-        until crisp-tender. In either route, add cooked meat, drained noodles
-        and all the chosen sauce. Reduce heat if the sauce catches and fold
-        until evenly coated and hot. Add reserved bok choy leaves at the end and
-        cook just until wilted.
+        Have {{ingredients}} ready for the dark-soy sauce route; omit onion, garlic and cooking
+        scallions if choosing the lighter variation. For the dark-soy sauce route, add the remaining
+        neutral-oil allocation. Cook onion and mushrooms over medium-high heat until beginning to
+        soften, about 2–3 minutes. Add carrot, bok choy stems and garlic; stir until stems are
+        crisp-tender, starting checks after about 3 minutes. Add the scallion pieces. For the
+        lighter variation, cook mushrooms and carrot in the remaining neutral-oil allocation, then
+        add bok choy stems and cook until crisp-tender. In either route, add cooked meat, drained
+        noodles and all the chosen sauce. Reduce heat if the sauce catches and fold until evenly
+        coated and hot. Add reserved bok choy leaves at the end and cook just until wilted.
     - id: serve
       title: Finish
       text: 'Divide among bowls and offer {{ingredients}}.'
 learning:
   focus: >-
-    Prepare the sauce before heating the pan and cook the frozen noodles to
-    their package instructions
-  outcome: >-
-    Chewy udon and staged vegetables with fully cooked protein and one chosen
-    sauce.
+    Prepare the sauce before heating the pan and cook the frozen noodles to their package
+    instructions
+  outcome: Chewy udon and staged vegetables with fully cooked protein and one chosen sauce.
   techniques:
     - stir-frying
     - temperature
   before:
     - >-
-      The original batch makes four planning portions. Use a large wok or
-      skillet with room to turn the noodles; scaling may require more pans or
-      batches rather than proportionally longer high-heat cooking.
+      The original batch makes four portions of about 8 oz frozen udon each (four 7–8 oz packs). Use
+      a large wok with room to turn the noodles; in a 12-inch skillet, toss the noodles, protein and
+      sauce in two halves. Scaling may require more pans or batches rather than proportionally
+      longer high-heat cooking.
     - >-
-      The base sauce uses both dark soy and low-sodium soy. Choose either this
-      sauce or the complete lighter variation below, not both.
+      The base sauce uses both dark soy and low-sodium soy. Choose either this sauce or the complete
+      lighter variation below, not both.
     - >-
-      Frozen udon is the listed noodle state. Shelf-stable or dried products
-      require their own package preparation, not the frozen noodle clock. Linked
-      Dashi remains a separate pairing.
+      Frozen udon is the listed noodle state. Shelf-stable or dried products require their own
+      package preparation, not the frozen noodle clock. Linked Dashi remains a separate pairing.
   checkpoints:
     - step: 3
       cue: >-
-        Ground pork reaches 160°F; whole-muscle beef reaches 145°F with a
-        3-minute rest on a clean plate.
+        Ground pork reaches 160°F; whole-muscle beef reaches 145°F with a 3-minute rest on a clean
+        plate.
       why: Brown color alone does not establish the state-specific endpoint.
     - step: 4
       cue: 'Stems are crisp-tender, leaves just wilted and noodles evenly coated.'
@@ -357,50 +345,43 @@ learning:
     - problem: Sauce scorches or noodles break while tossing
       cause: 'Pan is too hot, crowded or the noodles were overcooked'
       fix: >-
-        Reduce heat after the sauce enters and fold gently. Cook noodles to
-        their product instructions and work in smaller pan loads.
+        Reduce heat after the sauce enters and fold gently. Cook noodles to their product
+        instructions and work in smaller pan loads.
   substitutions:
     - ingredient: Lighter variation
       alternative: >-
-        For the original batch, use 2 tbsp soy sauce, 1 tbsp oyster sauce, 1
-        tbsp mirin, 1 tsp rice vinegar and 1 tsp sugar instead of every base
-        sauce amount. Omit the onion, garlic and cooking scallions; keep the
-        listed mushrooms, carrot, bok choy and protein. Cook mushrooms and
-        carrot first, add bok choy stems and cook until crisp-tender, then
-        combine with the properly cooked noodles, protein and chosen sauce. Add
-        bok choy leaves last.
+        For the original batch, use 3 tbsp soy sauce, 1 1/2 tbsp oyster sauce, 1 1/2 tbsp mirin, 1
+        1/2 tsp rice vinegar and 1 1/2 tsp sugar instead of every base sauce amount. Omit the onion,
+        garlic and cooking scallions; keep the listed mushrooms, carrot, bok choy and protein. Cook
+        mushrooms and carrot first, add bok choy stems and cook until crisp-tender, then combine
+        with the properly cooked noodles, protein and chosen sauce. Add bok choy leaves last.
       effect: >-
-        Scale all five chosen sauce amounts with the batch. Keep the written
-        package cooking and protein temperature/rest checks. This variation
-        omits the extra aromatics; optional serving toppings remain separate.
+        Scale all five chosen sauce amounts with the batch. Keep the written package cooking and
+        protein temperature/rest checks. This variation omits the extra aromatics; optional serving
+        toppings remain separate.
     - ingredient: Ground pork
       alternative: 'Use the same listed weight of ground beef, chicken or turkey.'
       effect: >-
-        Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are
-        separate from the whole-muscle beef route at 145°F plus a 3-minute rest.
+        Ground beef needs 160°F; ground chicken or turkey needs 165°F. These are separate from the
+        whole-muscle beef route at 145°F plus a 3-minute rest.
     - ingredient: Vegetable purchase measures
       alternative: >-
-        For the original batch, use 4 oz white or cremini mushrooms, 1 large
-        carrot and 1 medium head of bok choy instead of the listed vegetable
-        purchase measures.
+        For the original batch, use 4 oz white or cremini mushrooms, 1 large carrot and 1 medium
+        head of bok choy instead of the listed vegetable purchase measures.
       effect: >-
-        This is a separate purchase option, not an exact cup-to-weight or
-        bunch-to-head conversion. Keep staged stem/leaf cooking and all other
-        ingredients.
+        This is a separate purchase option, not an exact cup-to-weight or bunch-to-head conversion.
+        Keep staged stem/leaf cooking and all other ingredients.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours
-    (1 hour above 90°F). Use within 3–4 days. Reheat to 165°F throughout. The
-    noodles soften in storage.
+    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
+    Use within 3–4 days. Reheat to 165°F throughout. The noodles soften in storage.
   timing: >-
-    About 15–25 min preparation; About 15–25 min cooking, longer if batches are
-    needed; About 30–50 min.
+    About 15–25 min preparation; About 15–25 min cooking, longer if batches are needed; About 30–50
+    min.
   sources:
     - title: NYT Cooking — Yaki Udon
-      url: >-
-        https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share
+      url: 'https://cooking.nytimes.com/recipes/1024643-yaki-udon?smid=ck-recipe-iOS-share'
     - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety

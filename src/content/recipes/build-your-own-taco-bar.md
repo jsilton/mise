@@ -42,6 +42,10 @@ ingredients:
   - '600 g fully cooked chicken, bones and skin removed, shredded into bite-size pieces'
   - 1 tbsp neutral oil
   - 1 tsp ground cumin
+  - 1 tsp ancho chile powder
+  - 1/2 tsp garlic powder
+  - 1/2 tsp dried Mexican oregano
+  - '1 chipotle chile in adobo, minced, optional'
   - '1/4 cup (60 ml) low-sodium chicken broth, plus up to 1/4 cup (60 ml) only if needed'
   - '1 tbsp fresh lime juice, added gradually to taste'
   - '1/2 tsp fine salt, only if needed'
@@ -106,11 +110,19 @@ learning:
         Prepare cold components first and heat tortillas at the end. Put out a small amount of meat
         and replenish promptly; for an extended buffet keep hot food at 140°F / 60°C or above.
   substitutions:
+    - ingredient: Ancho chile powder
+      alternative: The same amount of standard chili powder
+      effect: >-
+        A blend with added cumin, garlic and salt rather than pure dried chile. Taste before adding
+        the listed salt.
+    - ingredient: Dried Mexican oregano
+      alternative: The same amount of ordinary dried oregano
+      effect: Slightly sweeter and more minty than the citrusy Mexican herb.
     - ingredient: 600 g cooked chicken
       alternative: 600 g fully cooked carnitas or other pulled pork
       effect: >-
-        Use the same total cooked weight. Start with 1 tsp oil instead of 1 tbsp and omit cumin if
-        already well seasoned. Reheat with broth as needed to 165°F / 74°C; taste before lime or
+        Use the same total cooked weight. Start with 1 tsp oil instead of 1 tbsp and omit the dried spices
+        if already well seasoned. Reheat with broth as needed to 165°F / 74°C; taste before lime or
         salt. This is a moist reheat, not a promise of crisp carnitas edges.
   timing: >-
     About thirty-five minutes using cooked, refrigerator-cold chicken: twenty minutes for toppings
@@ -144,7 +156,7 @@ This is a practical use for cooked chicken, with the raw-meat cooking already do
 ## Directions
 
 1. **Prepare the cold components first:** Shred cabbage, slice radishes, dice onion and chop cilantro. Portion crema, salsa, optional cheese and hot sauce. Slice the optional jalapeño and cut the serving lime. Keep perishables chilled until the bar is ready; leave the avocado whole for now.
-2. **Start the filling:** Heat oil in a 12-inch skillet over medium. Stir cumin for 15–20 seconds, then immediately add the initial measured broth and cooked chicken. Toss, cover and heat gently, stirring every couple of minutes. Add extra broth a tablespoon at a time only if the pan is drying.
+2. **Start the filling:** Heat oil in a 12-inch skillet over medium. Stir the cumin, ancho chile powder, garlic powder, oregano and optional chipotle for 15–20 seconds, then immediately add the initial measured broth and cooked chicken. Toss, cover and heat gently, stirring every couple of minutes. Add extra broth a tablespoon at a time only if the pan is drying.
 3. **Verify and season:** After roughly 6–10 minutes, check several portions with a thermometer; continue until the reheated chicken reaches 165°F / 74°C throughout. Remove the lid briefly if liquid pools. Taste before adding any measured lime or salt, since cooked chicken and broth may already be seasoned. Cover off heat for the brief tortilla warming period.
 4. **Warm tortillas and finish avocado:** Warm tortillas in a dry skillet over medium-high, about 10–30 seconds per side until hot and flexible, wrapping each batch in a clean towel. Alternatively, microwave stacks of four to six between damp paper towels for 30–45 seconds, adding short bursts if needed. Slice avocado and gently toss with its separately measured lime juice. This helps limit browning but does not preserve it indefinitely.
 5. **Set the bar and serve promptly:** Set out hot filling, warm tortillas and the chilled toppings. Offer three small tacos per person, about 33 g cooked chicken per tortilla before toppings. A thin layer of cabbage and a small spoonful of sauce are enough to start. Taste a bite before adding lime or hot sauce.

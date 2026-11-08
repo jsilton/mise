@@ -39,7 +39,7 @@ ingredients:
   - '1 cup fresh broccoli florets, cut into bite-size pieces with thin stems'
   - 4 tbsp honey
   - 3 tbsp low-sodium soy sauce
-  - '1 tsp garlic, minced'
+  - '1 tbsp garlic, minced (3 to 4 cloves)'
   - '1/2 tsp fresh ginger, minced'
   - '1 tbsp neutral oil, divided between shrimp batches'
   - '2 tsp water, for steaming broccoli, plus a little more only if needed'

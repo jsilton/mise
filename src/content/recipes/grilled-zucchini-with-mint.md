@@ -42,11 +42,12 @@ ingredients:
     680 g small-to-medium zucchini, trimmed and sliced lengthwise into 3/8-inch
     planks
   - '2 tbsp olive oil, divided between cooking and finishing'
-  - 1/4 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/4 tsp ground black pepper
   - '2 tbsp fresh mint leaves, torn'
   - '1 tbsp fresh lemon juice, plus 1 tsp more only if needed'
   - 1 tsp finely grated lemon zest
+  - 'flaky sea salt, a pinch for finishing'
 description: >-
   Even zucchini planks cooked until tender with browned patches, then finished
   with measured lemon, mint and olive oil.
@@ -140,5 +141,5 @@ Zucchini needs enough heat to brown, but an extremely hot grill can blacken the 
 1. **Heat and slice:** Preheat a clean grill or grill pan over medium-high heat. Trim zucchini and slice into even 3/8-inch lengthwise planks. Pat the surfaces dry. For a stovetop pan, plan several uncrowded rounds.
 2. **Oil and season:** Reserve 1/2 tbsp of the oil for finishing. Brush the remaining 1 1/2 tbsp over both sides of all the planks and distribute the measured salt and pepper. Oil coats the vegetables; do not add another unmeasured pour to the pan.
 3. **Cook in batches:** Lay planks across the grill bars with space, using tongs. Cook about 3–4 minutes per side, turning once they release and have browned patches. Reduce heat if they blacken quickly. Check a thick center with a fork: it should be tender with light resistance, and the plank should lift intact. Transfer to a broad platter and repeat with remaining planks; do not pile and tightly cover the finished ones.
-4. **Dress and taste:** Drizzle the cooked zucchini with the reserved 1/2 tbsp oil and initial tablespoon of lemon juice. Add mint and zest, then turn gently. Taste before adding any of the optional extra teaspoon of lemon.
+4. **Dress and taste:** Drizzle the cooked zucchini with the reserved 1/2 tbsp oil and initial tablespoon of lemon juice. Add mint and zest, then turn gently. Taste before adding any of the optional extra teaspoon of lemon. Finish with a pinch of flaky salt.
 5. **Serve:** Divide into four sides and serve warm, or after a brief hold while the main finishes. The planks will soften somewhat as they stand; this is not a promise that holding always improves them.

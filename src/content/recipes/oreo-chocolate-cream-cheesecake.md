@@ -35,7 +35,8 @@ scaling:
   mode: fixed
   reason: This batch fits one 9-inch springform pan. A different pan diameter or filling depth needs its own baking and cooling schedule.
 ingredients:
-  - '32 regular-size chocolate sandwich cookies with chocolate-flavored creme, about 14–15 g each, divided; keep the creme filling'
+  - '40 regular-size chocolate sandwich cookies with chocolate-flavored creme, about 14–15 g each, divided; keep the creme filling'
+  - '3 tbsp (42 g) unsalted butter, melted, for the crust'
   - '32 oz (907 g) full-fat block cream cheese, softened as directed'
   - '1 cup (200 g) granulated sugar'
   - 1 tsp vanilla extract
@@ -44,7 +45,7 @@ ingredients:
   - '1 tsp neutral oil, for greasing the pan'
 learning:
   focus: Make a smooth cheesecake batter with little added air and bake to a set center
-  outcome: A cold, clean-cut slice with a dense chocolate filling, distinct cookie pieces and a thin crumb base.
+  outcome: A cold, clean-cut slice with a dense chocolate filling, distinct cookie pieces and a firm crumb base.
   techniques: [gentle-proteins]
   before:
     - >-
@@ -58,7 +59,7 @@ learning:
       Keep total pre-bake counter time under 2 hours, or 1 hour above 90°F / 32°C.
     - >-
       The cookies have chocolate-flavored creme between chocolate wafers. Their size
-      matters: buy 32 cookies weighing about 450–480 g in total. Mini, thin and heavily
+      matters: buy 40 cookies weighing about 560–600 g in total. Mini, thin and heavily
       overfilled cookies change the crumb and filling balance.
     - >-
       The cheesecake contains milk and egg; cookies usually add wheat and soy, and
@@ -92,7 +93,7 @@ learning:
   substitutions:
     - ingredient: Chocolate-creme chocolate sandwich cookies
       alternative: The same total weight of similarly sized chocolate sandwich cookies with vanilla creme
-      effect: Gives a cookies-and-cream contrast instead of chocolate throughout. Keep the twelve-cookie crust and twenty-cookie inclusion allocation when the cookies have the stated size; do not substitute thin wafers without their filling.
+      effect: Gives a cookies-and-cream contrast instead of chocolate throughout. Keep the twenty-cookie crust and twenty-cookie inclusion allocation when the cookies have the stated size; do not substitute thin wafers without their filling.
     - ingredient: Semisweet baking chocolate
       alternative: The same 227 g weight of bittersweet baking chocolate around 60–70% cacao
       effect: Makes the filling darker and less sweet. Keep the sugar and cream cheese amounts; unsweetened chocolate is not an equivalent swap.
@@ -131,8 +132,8 @@ Melted semisweet chocolate gives this cheesecake its dense chocolate filling, wi
 
 ## Directions
 
-1. **Prepare the pan and cookies:** Once the cheese is softened as described above, heat the oven to 325°F / 163°C with a rack in the middle. Grease the bottom and sides of the springform pan with the measured oil. Finely crush twelve whole cookies, creme included. Quarter the other twenty cookies and keep all their crumbs. Measure a level 1 1/2 cups of these pieces and crumbs without packing for the filling; set all the remaining pieces aside for the top.
-2. **Bake the crust and melt the chocolate:** Press the fine crumbs evenly and firmly across the bottom of the pan, with no bare patches. Set the pan on a rimmed baking sheet and bake for 10 minutes. Cool on a rack while mixing the filling. Put the chopped chocolate in a dry microwave-safe bowl and heat at half power in 20–30-second bursts, stirring between each, until just melted. Let it become lukewarm but still fluid; avoid getting water in it.
+1. **Prepare the pan and cookies:** Once the cheese is softened as described above, heat the oven to 325°F / 163°C with a rack in the middle. Grease the bottom and sides of the springform pan with the measured oil. Finely crush twenty whole cookies, creme included. Quarter the other twenty cookies and keep all their crumbs. Measure a level 1 1/2 cups of these pieces and crumbs without packing for the filling; set all the remaining pieces aside for the top.
+2. **Bake the crust and melt the chocolate:** Stir the fine crumbs with the melted butter until evenly moistened. Press them evenly and firmly across the bottom of the pan, with no bare patches. Set the pan on a rimmed baking sheet and bake for 10 minutes. Cool on a rack while mixing the filling. Put the chopped chocolate in a dry microwave-safe bowl and heat at half power in 20–30-second bursts, stirring between each, until just melted. Let it become lukewarm but still fluid; avoid getting water in it.
 3. **Smooth the cheese:** Beat the softened cream cheese, sugar and vanilla at low to medium-low speed until smooth, about 2–3 minutes, stopping to scrape the bottom and sides of the bowl. Mix in the lukewarm chocolate until the color is even. Scrape again; avoid whipping the mixture fluffy.
 4. **Add eggs and cookies:** Add the eggs one at a time on low speed, mixing only until each disappears. Scrape the bowl and fold in the measured 1 1/2 cups of cookie pieces with a spatula. Do not taste the raw batter. Spread gently over the cooled crust and scatter all the remaining quartered cookies and crumbs over the top.
 5. **Bake to a set center:** Bake on the rimmed sheet for about 50–70 minutes, checking at 50 minutes. The edges should be set and the central few inches should tremble together when the pan is nudged, without a liquid wave. Check the filling in the center with an instant-read thermometer, avoiding cookie pieces and the pan base; it must reach at least 160°F / 71°C. Continue in 5-minute intervals if needed, then remove to a rack.

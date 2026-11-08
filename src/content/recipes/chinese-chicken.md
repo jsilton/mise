@@ -141,3 +141,7 @@ Lap cheong contributes sweet, savory pork flavor in a small quantity, folded thr
 6. **Finish chicken:** Add stock-sauce mixture, chicken, and plate juices. Bring to a gentle simmer and cook about 5–8 minutes, stirring, until several of the largest chicken pieces reach 165°F / 74°C. Continue as needed before adding broccoli.
 7. **Glaze:** Return broccoli. Re-stir slurry and add about half while stirring the simmering sauce. Simmer for 1 minute, then add more slurry only if needed for a light coating, simmering again after each addition. Taste before deciding whether additional seasoning is needed; soy, oyster sauce, and sausage already supply salt.
 8. **Serve:** Divide the sausage rice among six bowls and top with chicken, broccoli, and sauce. Serve promptly. The wine is an ingredient in the sauce; a short simmer does not make it reliably alcohol-free.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Instead of simmering the lap cheong in water, lay the links on top of the rice as soon as it is covered, so their fat seasons the grains while they steam. Check that they reach 160°F, then slice and fold them in.

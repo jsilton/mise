@@ -34,7 +34,7 @@ ingredients:
   - 1 lb dry mini-shell pasta
   - '10 slices smoked bacon, cut crosswise into thin slivers'
   - 2 cups frozen peas
-  - 2 tbsp crème fraîche or heavy cream
+  - 1/2 cup crème fraîche or heavy cream
   - '1 lemon, juiced, added gradually to taste'
   - '6 oz Parmesan, finely grated'
   - '2 tbsp fresh mint, finely chopped, divided between sauce and garnish'
@@ -114,8 +114,8 @@ learning:
     - ingredient: Crème fraîche
       alternative: The listed equal volume of heavy cream
       effect: >-
-        Less tangy and slightly thinner; both remain only a small addition to
-        the Parmesan-based finish.
+        Less tangy and slightly thinner. Either one gives the Parmesan finish a
+        creamy body and helps keep the cheese from clumping.
     - ingredient: Mini shells
       alternative: The same dry weight of another small pasta shape
       effect: >-

@@ -38,10 +38,11 @@ ingredients:
   - '450 g boneless, skinless yellowfin tuna suitable for intended raw service; see sourcing note'
   - 3 tbsp Japanese soy sauce
   - 1 tbsp toasted sesame oil
-  - 1 tsp unseasoned rice vinegar
   - 1/2 tsp finely grated fresh ginger
   - 1/2 tsp granulated sugar
+  - '1/3 cup Maui onion, thinly sliced'
   - '1 scallion, thinly sliced'
+  - pinch of red pepper flakes
   - '--- Rice ---'
   - '4 cups freshly cooked [Plain Short-Grain White Rice](/mise/recipes/steamed-white-rice)'
   - 2 tbsp unseasoned rice vinegar
@@ -91,6 +92,11 @@ learning:
         Lift the fish with a slotted spoon and omit extra bowl dressing. Do not
         try to rescue fish with uncertain handling by rinsing or adding vinegar.
   substitutions:
+    - ingredient: Maui onion
+      alternative: The same amount of any sweet onion, such as Vidalia or Walla Walla
+      effect: >-
+        Very close in mild sweetness and crunch. Avoid a sharp yellow onion, which
+        overpowers the fish.
     - ingredient: Plain rice plus rice seasoning
       alternative: 4 cups already prepared Sushi Rice (Shari)
       effect: >-
@@ -141,7 +147,7 @@ Raw seafood carries risk even with careful sourcing. FDA advises children, pregn
 
 1. **Prepare the rice and edamame:** Follow [Plain Short-Grain White Rice](/mise/recipes/steamed-white-rice); its batch starting with 300 g dry rice should provide approximately the four cooked cups needed here, with any extra reserved separately. During soaking/cooking, prepare shelled edamame according to its package, drain and chill promptly in a shallow container. Thaw-only directions apply only to a product explicitly ready to eat.
 2. **Season the rice:** Dissolve the rice vinegar, tablespoon of sugar and fine salt together, warming gently if necessary. Measure four cups hot plain rice and fold in this mixture. Spread gently in a wide bowl and let steam escape until the rice is barely warm, about 10 minutes. This brief cooling is part of final preparation, not an extended room-temperature hold.
-3. **Prepare the toppings and sauce during the rice process:** While rice soaks or cooks, slice cucumber and scallion using clean equipment. Dice avocado near assembly, before switching to fish. Whisk the soy sauce, sesame oil, teaspoon of vinegar, ginger, half teaspoon sugar and scallion in a separate bowl. Taste the clean dressing before it touches fish.
+3. **Prepare the toppings and sauce during the rice process:** While rice soaks or cooks, slice cucumber, sweet onion and scallion using clean equipment. Dice avocado near assembly, before switching to fish. Whisk the soy sauce, sesame oil, ginger, half teaspoon sugar, sweet onion, scallion and red pepper flakes in a separate bowl. Taste the clean dressing before it touches fish.
 4. **Cut and dress the tuna while rice cools:** During the final rice cooling period, on separate clean equipment, cut the cold tuna into 1/2-inch cubes. Fold into the dressing and refrigerate for about 5–10 minutes while setting out the bowls. Exact minute limits are not a safety control, and texture varies with the fish and dressing.
 5. **Assemble and eat promptly:** Divide rice, tuna, cucumber, chilled shelled edamame and avocado among three bowls. Lift the fish from its dressing, adding only a little of its coating to each bowl; keep it away from communal toppings. Scatter sesame seeds and offer the measured optional mayonnaise separately. Add fish to rice only when each diner is ready to eat.
 

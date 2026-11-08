@@ -42,7 +42,8 @@ ingredients:
   - 1/4 cup Whole Milk
   - 1 1/3 cups Whole-Wheat Flour
   - 1/2 cup Unsweetened Cocoa Powder
-  - 1 1/2 tsp Baking Soda
+  - 3/4 tsp Baking Soda
+  - 1 tsp Baking Powder
   - 1/4 tsp Sea Salt
   - 1/3 cup Semisweet Chocolate Chips
   - 'Whole milk, a little more only if needed for a scoopable batter'
@@ -131,7 +132,7 @@ Beet puree, cocoa and chocolate chips make a thick, scoopable batter. Fold only 
 
 2. **Wet mix:** Whisk beet puree, eggs, melted butter, honey and brown sugar together, then whisk in the listed whole milk.
 
-3. **Dry mix:** Whisk flour, cocoa, baking soda and salt together, then fold into the wet mixture just until no dry flour remains. The batter should be thick and scoopable. If it is too stiff to scoop, fold in a little of the separate extra-milk allowance at a time; stop before it becomes pourable.
+3. **Dry mix:** Whisk flour, cocoa, baking soda, baking powder and salt together, then fold into the wet mixture just until no dry flour remains. The batter should be thick and scoopable. If it is too stiff to scoop, fold in a little of the separate extra-milk allowance at a time; stop before it becomes pourable.
 
 4. **Fold:** Fold all the listed semisweet chocolate chips into the batter.
 

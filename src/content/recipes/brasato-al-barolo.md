@@ -56,6 +56,15 @@ learning:
       fix: >-
         Keep the beef warm and simmer the sauce uncovered until it coats a spoon, stirring to
         prevent scorching. Do not assume the dish becomes alcohol-free.
+  substitutions:
+    - ingredient: Barolo
+      alternative: >-
+        A full bottle of Langhe Nebbiolo, or another dry, structured red such as Barbera or Chianti
+        Classico
+      effect: >-
+        Langhe Nebbiolo is the same grape at a lower price and gives the closest result. Barbera is
+        brighter and softer, and Chianti is more savory. Avoid sweet or heavily oaked reds, which
+        concentrate as the sauce reduces.
   storage: >-
     Refrigerate in shallow containers within 2 hours, or within 1 hour above 90°F, and keep at 40°F
     or colder. Use within 3–4 days of the first cooking; reheating does not restart that clock.

@@ -37,7 +37,7 @@ ingredients:
   - '680 g (1 1/2 lb) boneless skinless chicken thighs, cut into 1 1/2-inch pieces'
   - '450 g broccoli florets, cut into even 1 1/2-inch pieces, washed and dried'
   - '2 tbsp olive oil, divided'
-  - '1/2 tsp fine salt, divided'
+  - '1 1/4 tsp fine salt, divided (1 tsp for chicken, 1/4 tsp for broccoli)'
   - '1/2 tsp ground black pepper, divided'
   - '--- Cheddar sauce ---'
   - 2 tbsp (28 g) unsalted butter
@@ -45,6 +45,8 @@ ingredients:
   - 1 1/2 cups (360 ml) low-sodium chicken broth
   - '115 g sharp Cheddar, grated'
   - 1/2 tsp garlic powder
+  - 1/2 tsp Dijon mustard
+  - '1/4 tsp fine salt, or to taste'
   - '--- Topping ---'
   - 1/2 cup (30 g) panko breadcrumbs
   - 1 tbsp olive oil
@@ -136,8 +138,8 @@ Roasting before adding sauce gives broccoli and chicken some browned flavor. The
 
 ## Directions
 
-1. **Prepare the trays and topping:** Heat oven to 425°F / 220°C with racks in the upper and lower thirds. Toss chicken on one tray with 1 tbsp oil and half the salt and pepper. Toss dry broccoli on the other tray with the remaining tablespoon oil and salt/pepper. Spread both out. Mix panko with its separate tablespoon oil.
+1. **Prepare the trays and topping:** Heat oven to 425°F / 220°C with racks in the upper and lower thirds. Toss chicken on one tray with 1 tbsp oil, 1 tsp salt and half the pepper. Toss dry broccoli on the other tray with the remaining tablespoon oil, 1/4 tsp salt and the remaining pepper. Spread both out. Mix panko with its separate tablespoon oil.
 2. **Roast independently:** Roast both trays, swapping rack positions once. Start checking broccoli at 15 minutes and chicken at 18 minutes. Remove broccoli when barely tender with browned tips, usually 15–20 minutes. Chicken may need 18–25 minutes; check thick pieces reach 165°F / 74°C. Remove each tray when ready rather than waiting for them to match.
-3. **Make sauce during roasting:** Melt butter in a saucepan over medium-low. Whisk in flour and cook 1–2 minutes without darkening. Add broth gradually, whisking smooth after each addition. Bring to a gentle simmer and cook 3–4 minutes, stirring, until thickened enough to coat a spoon. Remove from heat, wait for bubbling to subside and stir in Cheddar a handful at a time, then garlic powder.
+3. **Make sauce during roasting:** Melt butter in a saucepan over medium-low. Whisk in flour and cook 1–2 minutes without darkening. Add broth gradually, whisking smooth after each addition. Bring to a gentle simmer and cook 3–4 minutes, stirring, until thickened enough to coat a spoon. Remove from heat, wait for bubbling to subside and stir in Cheddar a handful at a time, then garlic powder, Dijon and the sauce salt. Taste and adjust the salt.
 4. **Assemble:** Put roasted chicken and broccoli in a 3-quart baking dish. Pour over the sauce and fold gently to coat. Scatter the oiled panko evenly over the top. Use a dish deep enough to contain the sauce without packing the food tightly.
 5. **Bake and serve:** Return to the 425°F oven for about 10–15 minutes, until panko is golden, edges bubble and the center reaches 165°F / 74°C. If the topping colors early, shield it loosely with foil. Let stand about 5 minutes before portioning into four servings; handle the hot dish carefully.

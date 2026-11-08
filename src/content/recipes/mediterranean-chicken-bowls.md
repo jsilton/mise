@@ -17,9 +17,7 @@ role: main
 vibe: nutritious
 prepTime: 20 min
 cookTime: 'About 10–15 min, plus a 5-minute rest'
-totalTime: >-
-  About 40 min with a 15-minute marinade; longer marination and component
-  preparation add time
+totalTime: About 40 min with a 15-minute marinade; longer marination and component preparation add time
 advancePrep:
   - marinate
 servings: 4 portions
@@ -34,16 +32,16 @@ ingredients:
   - 2 tbsp fresh lemon juice
   - 1 tbsp dried oregano
   - '2 garlic cloves, peeled and minced'
+  - 1 1/4 tsp kosher salt
+  - 1/2 tsp freshly ground black pepper
   - 1 cup hummus
   - >-
-    2 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly
-    chilled then reheated to 165°F throughout
+    2 cups cooked yellow rice or quinoa, freshly cooked and warm, or properly chilled then reheated
+    to 165°F throughout
   - '1 English cucumber, washed and diced'
   - '1 pint of cherry tomatoes, washed and halved; measure the listed volume'
   - '1/2 cup feta cheese, crumbled'
-  - >-
-    [Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for
-    serving
+  - '[Pickled Red Onions](/mise/recipes/pickled-red-onions), as desired for serving'
   - 'fresh lemon wedges, as desired for serving'
 seasons:
   - year-round
@@ -105,6 +103,24 @@ formula:
               share: 1
           plural: garlic cloves
           preparation: peeled and minced
+        - id: salt
+          key: kosher-salt
+          name: kosher salt
+          quantity:
+            amount: 1 1/4
+            unit: tsp
+          uses:
+            - step: marinate
+              share: 1
+        - id: pepper
+          key: black-pepper
+          name: freshly ground black pepper
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: marinate
+              share: 1
         - id: hummus
           key: hummus
           name: hummus
@@ -123,9 +139,7 @@ formula:
           uses:
             - step: assemble
               share: 1
-          preparation: >-
-            freshly cooked and warm, or properly chilled then reheated to 165°F
-            throughout
+          preparation: 'freshly cooked and warm, or properly chilled then reheated to 165°F throughout'
         - id: cucumber
           key: english-cucumber
           name: English cucumber
@@ -178,97 +192,83 @@ formula:
     - id: marinate
       title: Marinate
       text: >-
-        Toss {{ingredients}} in a large bowl. Refrigerate for at least 15
-        minutes, or about 2 hours for the longer option. Keep the full measured
-        oil, lemon and oregano in this marinade. Prepare the vegetables and
-        other cooked components while it chills, keeping them apart from raw
-        chicken.
+        Toss {{ingredients}} in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours
+        for the longer option. Keep the full measured oil, lemon, oregano, salt and pepper in this
+        marinade. Prepare the vegetables and other cooked components while it chills, keeping them
+        apart from raw chicken.
     - id: cook
       title: Cook chicken
       text: >-
-        Heat a large skillet or grill to medium-high. Cook the chicken in
-        uncrowded loads, checking after 5–6 minutes per side for browning.
-        Continue until each thick center reaches 165°F / 74°C; lower the heat if
-        the marinade coating darkens before the centers finish. Use clean
-        serving tools. Discard any uncooked marinade left in the raw-chicken
-        bowl; do not pour it over the finished bowls.
+        Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking
+        after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F /
+        74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean
+        serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it
+        over the finished bowls.
     - id: rest
       title: Rest
       text: >-
-        Transfer the cooked chicken to a clean board and let rest for 5 minutes,
-        then slice into strips.
+        Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into
+        strips.
     - id: assemble
       title: Build base
       text: >-
-        Divide all {{ingredients}} among the bowls for the portions being
-        served, spreading the hummus first and spooning on the warm grain.
-        Prepared rice or quinoa cooking time is separate if it is not already
-        ready.
+        Divide all {{ingredients}} among the bowls for the portions being served, spreading the
+        hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is
+        separate if it is not already ready.
     - id: layer
       title: Layer
       text: >-
-        Use {{ingredients}} for the fresh toppings, distributing their full
-        listed quantities and all the cooked sliced chicken among the bowls in
-        separate piles.
+        Use {{ingredients}} for the fresh toppings, distributing their full listed quantities and
+        all the cooked sliced chicken among the bowls in separate piles.
     - id: finish
       title: Finish
       text: >-
-        Finish with {{ingredients}}, dividing the full measured feta among the
-        bowls and using the pickled onions and lemon wedges as desired. Serve
-        promptly.
+        Finish with {{ingredients}}, dividing the full measured feta among the bowls and using the
+        pickled onions and lemon wedges as desired. Serve promptly.
 learning:
-  focus: >-
-    Plan cold marination around browning, a measured thigh endpoint and bowl
-    assembly
+  focus: 'Plan cold marination around browning, a measured thigh endpoint and bowl assembly'
   outcome: >-
-    Browned, rested chicken strips over hummus and warm grain, with fresh
-    vegetables and the full feta portion.
+    Browned, rested chicken strips over hummus and warm grain, with fresh vegetables and the full
+    feta portion.
   techniques:
     - temperature
   before:
     - >-
-      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the
-      refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep
-      them apart from raw meat and its utensils.
+      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator.
+      Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its
+      utensils.
     - >-
-      Have hummus and cooked rice or quinoa ready. Prepare the washed cucumber,
-      tomatoes, pickled onions and lemon wedges before working with raw chicken.
+      Have hummus and cooked rice or quinoa ready. Prepare the washed cucumber, tomatoes, pickled
+      onions and lemon wedges before working with raw chicken.
     - >-
-      Choose enough skillet or grill space for an uncrowded chicken layer, using
-      extra loads if needed. The original four bowls are a serving plan; divide
-      every measured component among the portions being served.
+      Choose enough skillet or grill space for an uncrowded chicken layer, using extra loads if
+      needed. The original four bowls are a serving plan; divide every measured component among the
+      portions being served.
   checkpoints:
     - step: 2
       cue: Each thigh is browned and reaches 165°F in its thick center.
-      why: >-
-        Lemon and herbs can darken at the surface before a thick piece is cooked
-        through.
+      why: Lemon and herbs can darken at the surface before a thick piece is cooked through.
     - step: 4
-      cue: >-
-        All the hummus and prepared grain are divided before the toppings are
-        added.
+      cue: All the hummus and prepared grain are divided before the toppings are added.
       why: >-
-        Measuring the already cooked grain makes it ready to divide among the
-        bowls during the chicken rest.
+        Measuring the already cooked grain makes it ready to divide among the bowls during the
+        chicken rest.
   troubleshooting:
     - problem: The coating scorches while the center is below its endpoint
       cause: 'High heat or crowded, unevenly thick pieces.'
       fix: >-
-        Lower the heat, give the pieces space and continue checking the thick
-        centers. Do not stop at char alone.
+        Lower the heat, give the pieces space and continue checking the thick centers. Do not stop
+        at char alone.
   timing: >-
-    About 40 minutes is a planning estimate when the minimum fifteen-minute
-    marinade overlaps vegetable preparation and hummus/grain are ready; it
-    includes the five-minute rest. The two-hour and overnight options add
-    cold-holding time, and extra pan loads or cooking grains add time.
+    About 40 minutes is a planning estimate when the minimum fifteen-minute marinade overlaps
+    vegetable preparation and hummus/grain are ready; it includes the five-minute rest. The two-hour
+    and overnight options add cold-holding time, and extra pan loads or cooking grains add time.
   storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or
-    freeze promptly; follow any shorter remaining limit on prepared components.
-    Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout.
-    Store the fresh vegetables, hummus, feta and pickled onions separately from
-    hot reheating components. Warmed rice and chicken soften fresh garnishes if
-    held assembled.
+    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter
+    remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F
+    / 74°C throughout. Store the fresh vegetables, hummus, feta and pickled onions separately from
+    hot reheating components. Warmed rice and chicken soften fresh garnishes if held assembled.
   sources:
     - title: 'FDA poultry, cold marination and handling'
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
@@ -289,7 +289,7 @@ Oregano and lemon season the chicken while hummus, grains and fresh vegetables f
 
 ## Directions
 
-1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, and garlic cloves in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon and oregano in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.
+1. **Marinate:** Toss boneless, skinless chicken thighs, extra-virgin olive oil, fresh lemon juice, dried oregano, garlic cloves, kosher salt, and freshly ground black pepper in a large bowl. Refrigerate for at least 15 minutes, or about 2 hours for the longer option. Keep the full measured oil, lemon, oregano, salt and pepper in this marinade. Prepare the vegetables and other cooked components while it chills, keeping them apart from raw chicken.
 2. **Cook chicken:** Heat a large skillet or grill to medium-high. Cook the chicken in uncrowded loads, checking after 5–6 minutes per side for browning. Continue until each thick center reaches 165°F / 74°C; lower the heat if the marinade coating darkens before the centers finish. Use clean serving tools. Discard any uncooked marinade left in the raw-chicken bowl; do not pour it over the finished bowls.
 3. **Rest:** Transfer the cooked chicken to a clean board and let rest for 5 minutes, then slice into strips.
 4. **Build base:** Divide all hummus and cooked yellow rice or quinoa among the bowls for the portions being served, spreading the hummus first and spooning on the warm grain. Prepared rice or quinoa cooking time is separate if it is not already ready.
@@ -298,4 +298,4 @@ Oregano and lemon season the chicken while hummus, grains and fresh vegetables f
 
 ## Longer marinade and seasoning option
 
-For a longer preparation, the chicken can marinate overnight in the refrigerator within its remaining raw-poultry storage window: use fresh or refrigerator-thawed chicken within 1–2 days, counting that time before and during marination. Salt and black pepper to taste may be mixed into this marinade before adding the chicken, as a separate optional seasoning allowance. Keep the full listed olive oil, lemon, oregano, garlic and chicken; cook to the same measured 165°F center endpoint and keep the five-minute rest. This option adds overnight cold-holding time; check the same thick-center endpoint when cooking.
+For a longer preparation, the chicken can marinate overnight in the refrigerator within its remaining raw-poultry storage window: use fresh or refrigerator-thawed chicken within 1–2 days, counting that time before and during marination. The measured salt and pepper are already part of the marinade. Keep the full listed olive oil, lemon, oregano, garlic, salt, pepper and chicken; cook to the same measured 165°F center endpoint and keep the five-minute rest. This option adds overnight cold-holding time; check the same thick-center endpoint when cooking.

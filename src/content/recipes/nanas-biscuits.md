@@ -118,3 +118,7 @@ Nana’s biscuits are mixed by hand, rolled into small balls and flattened with 
 ## Shortening Variation
 
 For the original batch, replace the ¼ cup dough butter with about ¼ cup solid vegetable shortening; scale that replacement with the listed dough butter amount. Keep the full self-rising flour, buttermilk and pinch of baking soda. Work the shortening into the sifted flour by hand, adding the listed buttermilk and soda a little at a time until the dough comes together. Use extra flour only as needed, then roll and flatten as in step 4 and bake at 425°F, with the same optional brief broil for color after the centers are baked. This is a separate fat and mixing route; keep the butter version’s cold-cutting method for the main recipe.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: For richer, more tender biscuits, try 6 tbsp cold butter instead of 1/4 cup. Bake at 450°F for 9 to 12 minutes and brush the tops with a little buttermilk first, so they brown without the broiler. Keep the broiler as a backup.

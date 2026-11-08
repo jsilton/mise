@@ -40,7 +40,7 @@ ingredients:
   - 1 pkg (.25 oz) Active Dry Yeast
   - 1/2 cup Warm Water (110°F)
   - 3 cups All-Purpose Flour
-  - 1 tsp Kosher Salt
+  - 1 1/2 tsp Kosher Salt
   - '--- For handling ---'
   - 'Oil, for coating the rising bowl'
   - 'Butter, for greasing the loaf pan'

@@ -146,3 +146,7 @@ This keeps Momma’s vegetable-rich family loaf while making its proportions and
 4. **Shape and begin baking:** Shape a free-form loaf roughly 9 by 4 inches and 2–2 1/2 inches high on the prepared tray, smoothing large cracks without packing hard. Bake about 35 minutes.
 5. **Glaze and check:** Spread all the ketchup over the top in a thin layer. Continue baking about 15–25 minutes, checking until the center reaches 165°F / 74°C in several positions. Extend as needed. If the top darkens early, tent loosely with foil; a browned glaze is not the doneness test.
 6. **Rest and portion:** Let rest for 10 minutes before cutting six portions. Each can be one thick slice or two thinner slices. Serve with separately prepared sides; the base recipe includes the loaf and its ketchup finish only.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Use 1 1/4 tsp fine salt instead of 1/2 tsp, and add 1 tbsp Worcestershire sauce to the mix for more savory depth.

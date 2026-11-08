@@ -42,7 +42,7 @@ ingredients:
   - 1 large Egg
   - 1/4 cup Milk of choice (Almond or Oat preferred)
   - 1 heaping tbsp Cocoa Powder
-  - 1/4 tsp Baking Soda
+  - 1/2 tsp Baking Powder
   - Pinch of Sea Salt
   - 1 tbsp Dark Chocolate Chips
   - Flaky Sea Salt
@@ -59,9 +59,10 @@ learning:
     - temperature
   before:
     - >-
-      Very ripe banana supplies sweetness and blends easily. Keep the listed
-      baking soda amount; banana ripeness and cocoa type do not
-      establish a measured acid balance for changing the leavener.
+      Very ripe banana supplies sweetness and blends easily. Baking powder
+      carries its own acid, so the lift does not depend on the cocoa type or
+      how ripe the banana is. Baking soda would taste soapy at this small
+      scale.
     - >-
       All the pinch salt goes into the blender. The separate flaky sea salt is
       an optional finish; the chocolate chips all go on top.
@@ -137,7 +138,7 @@ Blend the oats with the very ripe banana, egg and milk until smooth for a soft, 
 
 1. **Prepare:** Preheat the oven to 350°F. Lightly grease an oven-safe ramekin or small baking dish with the separate butter or oil allowance. Choose a dish that can hold the entire batter with room above it; banana size changes the volume.
 
-2. **Blend:** Add all the oats, ripe banana, egg, milk, cocoa, baking soda and pinch of sea salt to the blender. Blend until smooth, following the blender’s load instructions.
+2. **Blend:** Add all the oats, ripe banana, egg, milk, cocoa, baking powder and pinch of sea salt to the blender. Blend until smooth, following the blender’s load instructions.
 
 3. **Fill and top:** Pour the whole mixture into the prepared dish and add all the measured chocolate chips on top. If the vessel cannot hold the batter with headroom, use a suitable larger dish or additional prepared vessels; different depth or portion size changes cooking time.
 

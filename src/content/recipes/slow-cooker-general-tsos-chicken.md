@@ -35,14 +35,16 @@ pairsWith:
   - garlic-sesame-spinach
 ingredients:
   - '680 g boneless skinless chicken thighs, fully thawed, left whole'
-  - 1/4 cup (60 ml) hoisin sauce
   - 2 tbsp light soy sauce
+  - 1 tsp dark soy sauce
+  - 1 tbsp Shaoxing wine
+  - 2 tbsp granulated sugar, for the cooker
   - '1/2 cup (120 ml) water, plus a little only if needed to loosen the finished sauce'
   - '3 tbsp unseasoned rice vinegar, divided'
-  - '1 tbsp granulated sugar, added gradually to taste'
+  - '1 tbsp granulated sugar, for finishing, added gradually to taste'
   - 1 tbsp finely grated fresh ginger
   - '2 cloves garlic, finely minced'
-  - '1/2 tsp red pepper flakes, or less to taste'
+  - '6 to 8 whole dried red chilies, such as Tianjin or chile de árbol, fewer for milder heat'
   - 1 tbsp cornstarch
   - '2 tbsp cold water, for the slurry'
   - '2 scallions, thinly sliced'
@@ -78,8 +80,8 @@ learning:
     - step: 5
       cue: The finished sauce tastes tangy and savory before all the sugar or vinegar is used.
       why: >-
-        Hoisin already contains sugar and salt. Volume and seasoning need to be settled before
-        coating the meat.
+        The cooking liquid already contains soy and sugar. Volume and seasoning need to be settled
+        before coating the meat.
   troubleshooting:
     - problem: Sauce is gluey
       cause: Too much slurry was added for the final liquid volume.
@@ -92,6 +94,14 @@ learning:
         Coat with sauce and serve; lost moisture cannot be restored by extra cooking. Check earlier
         next time and use whole thighs.
   substitutions:
+    - ingredient: Shaoxing wine
+      alternative: The same amount of dry sherry
+      effect: Close in nutty, savory aroma. Avoid cooking sherry, which is salted.
+    - ingredient: Whole dried red chilies
+      alternative: '1/2 tsp red pepper flakes, or less to taste'
+      effect: >-
+        Gives similar heat but loses the toasty whole-chili look and aroma. Flakes spread their heat
+        through the sauce, so start with less for kids.
     - ingredient: Chicken thighs
       alternative: '680 g fully thawed boneless chicken breast, left whole'
       effect: >-
@@ -129,9 +139,9 @@ This is a slow-cooker adaptation of a Chinese-American sweet-sour chicken dish. 
 
 ## Directions
 
-1. **Load:** In a 3-quart slow cooker, stir hoisin, soy sauce, 120 ml water, 1 tbsp of the vinegar, ginger, garlic and pepper flakes. Add fully thawed whole thighs and turn to coat. Cover and start immediately.
+1. **Load:** In a 3-quart slow cooker, stir both soy sauces, Shaoxing wine, the 2 tbsp cooker sugar, 120 ml water, 1 tbsp of the vinegar, ginger, garlic and the whole dried chilies. Add fully thawed whole thighs and turn to coat. Cover and start immediately.
 2. **Cook and check:** Cook on LOW about 3–4 hours or HIGH about 2–3 hours, until several thick pieces reach 165°F / 74°C and are tender. Keep the lid closed between checks. Transfer chicken to a clean plate and cover loosely while finishing the sauce.
 3. **Set sauce volume:** Pour cooking liquid into a saucepan, scraping in the garlic and ginger. Skim excess surface fat. Aim for roughly 300–350 ml liquid: simmer briefly if much more remains, or add a little water if very concentrated. Taste only after the chicken has completed cooking; avoid reducing an already salty sauce further.
 4. **Thicken:** Mix cornstarch with its 2 tbsp cold water until smooth. Bring sauce to a simmer. Re-stir the slurry and whisk in half, simmering about 1 minute. Add more slurry gradually only if needed, letting each addition thicken. Stop when the sauce lightly coats a spoon and remains pourable.
-5. **Balance and return chicken:** Add 1 tbsp of the remaining vinegar and half the sugar. Taste, then add the remaining vinegar and sugar only as needed. Cut or pull chicken into large bite-sized pieces, return it and its plate juices to the sauce, and warm gently through without a long boil.
+5. **Balance and return chicken:** Lift out the dried chilies if the sauce is hot enough, or leave them in for show. Add 1 tbsp of the remaining vinegar and half the finishing sugar. Taste, then add the remaining vinegar and finishing sugar only as needed. Cut or pull chicken into large bite-sized pieces, return it and its plate juices to the sauce, and warm gently through without a long boil.
 6. **Serve:** Divide into four main portions and scatter over scallions. Serve with separately prepared plain rice and vegetables. This chicken is tender and saucy; it has no crisp fried coating.

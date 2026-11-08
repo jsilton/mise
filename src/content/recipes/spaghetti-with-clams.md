@@ -35,7 +35,7 @@ pairsWith:
 ingredients:
   - '--- Main recipe ---'
   - 1 lb spaghetti
-  - '2 lb live in-shell littleneck clams, scrubbed and rinsed'
+  - '3 lb live in-shell littleneck clams, scrubbed and rinsed'
   - 1/2 cup dry vermouth
   - 4 tbsp extra-virgin olive oil
   - '4 garlic cloves, minced'
@@ -47,9 +47,7 @@ ingredients:
   - 'salt, to taste after the clams are cooked'
   - 'black pepper, to taste'
   - 'extra-virgin olive oil, as desired for the final drizzle, optional'
-  - >-
-    extra-virgin olive oil, a small amount if drained pasta must wait for the
-    clams, optional
+  - 'extra-virgin olive oil, a small amount if drained pasta must wait for the clams, optional'
 source: Adapted from cooking.nytimes.com
 sourceUrl: 'https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams'
 formula:
@@ -74,7 +72,7 @@ formula:
           key: littleneck-clams
           name: live in-shell littleneck clams
           quantity:
-            amount: 2
+            amount: 3
             unit: lb
           uses:
             - step: steam
@@ -190,106 +188,92 @@ formula:
     - id: prep
       title: Clams
       text: >-
-        Use live, in-shell clams from a tagged or labeled supplier. Discard
-        cracked shells and clams that remain open after tapping. Scrub and rinse
-        before cooking; keep them cold. Follow the supplier’s purging advice
-        rather than assuming every batch needs a soak. If using the current
-        20-minute cold salted-water soak, keep it refrigerated and use the
-        supplier’s salt concentration and soaking advice, then drain and rinse.
-        The original plain-cold-water soak while the pasta water heats is a
-        separate option; neither soak is a cooking or safety endpoint.
+        Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams
+        that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the
+        supplier’s purging advice rather than assuming every batch needs a soak. If using the
+        current 20-minute cold salted-water soak, keep it refrigerated and use the supplier’s salt
+        concentration and soaking advice, then drain and rinse. The original plain-cold-water soak
+        while the pasta water heats is a separate option; neither soak is a cooking or safety
+        endpoint.
     - id: boil
       title: Pasta
       text: >-
-        Use {{ingredients}} for this stage. Bring the water, salted to taste, to
-        a boil; add the spaghetti and cook until slightly underdone, about 2
-        minutes before its package time as a first check. It finishes in the
-        clam liquid.
+        Use {{ingredients}} for this stage. Bring the water, salted to taste, to a boil; add the
+        spaghetti and cook until slightly underdone, about 2 minutes before its package time as a
+        first check. It finishes in the clam liquid.
     - id: foundation
       title: Garlic oil
       text: >-
-        In a wide skillet or saucepan with a lid and room for the measured
-        shells, heat {{ingredients}} over medium-low to medium heat. Cook about
-        1 minute until fragrant, keeping the garlic pale. Split the full
-        supplies proportionally among enough pans or complete batches if the
-        shells or pasta cannot fit.
+        In a wide skillet or saucepan with a lid and room for the measured shells, heat
+        {{ingredients}} over medium-low to medium heat. Cook about 1 minute until fragrant, keeping
+        the garlic pale. Split the full supplies proportionally among enough pans or complete
+        batches if the shells or pasta cannot fit.
     - id: steam
       title: Clams
       text: >-
-        Add {{ingredients}}. Cover and bring to a brisk simmer, shaking the pan
-        gently. Start checking at 2–3 minutes; transfer clams to a clean dish as
-        their shells open and continue cooking the remaining clams. Discard any
-        that do not open during cooking. Keep the cooking liquid in the pan.
+        Add {{ingredients}}. Cover and bring to a brisk simmer, shaking the pan gently. Start
+        checking at 2–3 minutes; transfer clams to a clean dish as their shells open and continue
+        cooking the remaining clams. Discard any that do not open during cooking. Keep the cooking
+        liquid in the pan.
     - id: hold
       title: If pasta finishes first
       text: >-
-        Drain the slightly underdone pasta. If it must wait briefly for the
-        clams, toss it with {{ingredients}} to limit sticking.
+        Drain the slightly underdone pasta. If it must wait briefly for the clams, toss it with
+        {{ingredients}} to limit sticking.
     - id: bind
       title: Finish pasta
       text: >-
-        Add the hot drained pasta to the clam liquid. Toss over medium-high
-        heat, starting to check after about 1 minute, until the pasta is done to
-        taste and coated in the sauce. Return all opened clams and their
-        collected liquid to warm through.
+        Add the hot drained pasta to the clam liquid. Toss over medium-high heat, starting to check
+        after about 1 minute, until the pasta is done to taste and coated in the sauce. Return all
+        opened clams and their collected liquid to warm through.
     - id: finish
       title: Season
       text: >-
-        Off the heat, stir in {{ingredients}}. Taste before adding salt; clam
-        liquor is already salty.
+        Off the heat, stir in {{ingredients}}. Taste before adding salt; clam liquor is already
+        salty.
     - id: serve
       title: Serve
       text: 'Garnish with {{ingredients}} and serve promptly.'
 learning:
   focus: Keep live-shell checks separate from pasta doneness
-  outcome: >-
-    Opened clams and pasta finished in their cooking liquid, with the full oil
-    retained.
+  outcome: 'Opened clams and pasta finished in their cooking liquid, with the full oil retained.'
   techniques:
     - temperature
   before:
     - >-
-      Use live, in-shell clams from a tagged or labeled supplier. Discard
-      cracked shells and clams that remain open after tapping. Scrub and rinse
-      before cooking; keep them cold. Follow the supplier’s purging advice
-      rather than assuming every batch needs a soak.
+      Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams
+      that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the
+      supplier’s purging advice rather than assuming every batch needs a soak.
     - >-
-      Choose vessels large enough for the measured shells and for tossing the
-      pasta without spilling. For larger batches, divide all supplies
-      proportionally among enough pots or complete batches; additional loads
-      change elapsed time.
+      Choose vessels large enough for the measured shells and for tossing the pasta without
+      spilling. For larger batches, divide all supplies proportionally among enough pots or complete
+      batches; additional loads change elapsed time.
     - >-
-      The four portions are the current planning yield. Shell-on pounds do not
-      establish edible clam weight, and the original small-batch clam count is
-      not a pounds-to-count conversion.
+      The four portions are the current planning yield. Shell-on pounds do not establish edible clam
+      weight, and the original small-batch clam count is not a pounds-to-count conversion.
   checkpoints:
     - step: 4
       cue: Clam shells open during cooking; unopened clams are discarded.
       why: >-
-        The clock depends on shell size and the pan load. A soak cannot
-        establish that clams are cooked.
+        The clock depends on shell size and the pan load. A soak cannot establish that clams are
+        cooked.
     - step: 6
       cue: The spaghetti is done to taste and coated in clam liquid.
-      why: >-
-        It finishes cooking in the pan; fixed tossing minutes cannot replace
-        checking the pasta.
+      why: It finishes cooking in the pan; fixed tossing minutes cannot replace checking the pasta.
   troubleshooting:
     - problem: The pasta is ready before the clams
       cause: 'Pasta shape, clam size and pan loading change the relative clocks.'
       fix: >-
-        Drain the pasta slightly underdone and keep it briefly while the clams
-        finish. Use the optional holding oil if needed, then finish in the
-        cooking liquid; discard unopened clams.
+        Drain the pasta slightly underdone and keep it briefly while the clams finish. Use the
+        optional holding oil if needed, then finish in the cooking liquid; discard unopened clams.
   storage: >-
-    Serve promptly. Refrigerate leftovers in shallow containers within 2 hours,
-    or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days.
-    Reheat to 165°F / 74°C throughout, stirring and checking more than one
-    place. Further heating can toughen clams and soften pasta.
+    Serve promptly. Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above 90°F
+    / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat to 165°F / 74°C throughout, stirring
+    and checking more than one place. Further heating can toughen clams and soften pasta.
   timing: >-
-    The listed clock is a planning estimate for the original batch, including
-    cleaning and bringing pasta water to a boil; supplier-directed purging or
-    extra pan loads take additional time. Cook the pasta alongside the shellfish
-    preparation.
+    The listed clock is a planning estimate for the original batch, including cleaning and bringing
+    pasta water to a boil; supplier-directed purging or extra pan loads take additional time. Cook
+    the pasta alongside the shellfish preparation.
   sources:
     - title: Spaghetti with clams
       url: 'https://cooking.nytimes.com/recipes/11952-spaghetti-with-clams'

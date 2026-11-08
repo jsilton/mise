@@ -33,12 +33,13 @@ ingredients:
   - 1/3 cup fresh mint leaves
   - 1/3 cup fresh chives, snipped
   - --- Dipping sauce ---
-  - 1/4 cup sugar
-  - 1/4 cup warm water
-  - 1 tbsp fresh lime juice
+  - 3 tbsp fish sauce
+  - 3 tbsp fresh lime juice
+  - 3 tbsp sugar
+  - 1/2 cup warm water
   - 1 Fresno chile, seeded and minced, or Thai bird chile to taste
   - 1 small garlic clove, minced
-  - Salt, to taste, for cooking water and dipping sauce
+  - Salt, for the shrimp cooking water
   - Asian chile-garlic sauce, optional, for serving
 origin: Vietnamese-inspired
 seasons:
@@ -51,8 +52,8 @@ equipment:
   - wide-shallow-dish
   - clean-cutting-board
   - instant-read-thermometer
-description: Shrimp, creamy avocado and three fresh herbs wrapped in rice paper, with a sweet
-  chile-lime dipping sauce. Drain the filling well and let each damp wrapper soften on the work
+description: Shrimp, creamy avocado and three fresh herbs wrapped in rice paper, with a nuoc cham
+  dipping sauce of fish sauce, lime, chile and garlic. Drain the filling well and let each damp wrapper soften on the work
   surface before rolling.
 learning:
   focus: Control filling moisture and wrapper hydration before rolling
@@ -129,13 +130,13 @@ sourceUrl: 'http://www.foodandwine.com/recipes/shrimp-and-avocado-summer-rolls'
 
 ## Chef's Note
 
-Creamy avocado, shrimp, mint, cilantro and chives fill these fresh rice-paper rolls. Their dipping sauce is sweet with lime, chile and garlic. Let the noodles and shrimp cool and drain before assembly, then wet one wrapper at a time; it should finish softening on the board rather than turn limp in the water.
+Creamy avocado, shrimp, mint, cilantro and chives fill these fresh rice-paper rolls. Their dipping sauce is a classic nuoc cham, balanced between fish sauce, lime and sugar with chile and garlic. Let the noodles and shrimp cool and drain before assembly, then wet one wrapper at a time; it should finish softening on the board rather than turn limp in the water.
 
 ## Directions
 
 1. **Prepare the noodles:** Cook or soak the rice vermicelli according to its package instructions until tender without a hard center. Drain, rinse under cool running water and drain thoroughly. Snip very long strands into manageable lengths; do not try to dry the noodles until hard.
 2. **Cook and cool the shrimp:** Bring a saucepan of water to a boil and season lightly with salt. Add the thawed shrimp and reduce to a gentle simmer. Start checking after about 2 minutes; continue until firm, pearly and opaque throughout, checking 145°F / 63°C in the thickest part with a suitable thin probe. Transfer to a clean ice-water bath just until cold, then drain and pat dry. Halve lengthwise using clean utensils.
-3. **Make the sauce:** Stir the sugar into the measured warm water until dissolved. Add lime juice, minced chile and garlic. Season with a small pinch of salt to taste. Serve the optional chile-garlic sauce separately.
+3. **Make the sauce:** Stir the sugar into the measured warm water until dissolved. Add the fish sauce, lime juice, minced chile and garlic. Taste and adjust with a little more lime or sugar to taste; it should be salty, sour and sweet in balance. Serve the optional chile-garlic sauce separately.
 4. **Portion the fillings:** Slice the avocado and prepare the herbs. Divide all noodles, avocado, cilantro, mint, chives and shrimp equally among the wrappers. Each roll gets six shrimp halves at any batch size. Keep fillings chilled if you pause before assembly.
 5. **Wet a wrapper:** Fill a wide shallow dish with water at the temperature recommended on the wrapper package. Briefly wet both sides of one sheet, then lay it flat on a clean smooth work surface. Let it become pliable and slightly tacky before folding; do not leave it soaking until limp.
 6. **Fill and roll:** Arrange one portion of noodles, avocado and herbs in a compact strip across the lower third, leaving space at the sides. Arrange its shrimp halves curved side down near the filling. Fold the bottom over, fold in both sides and roll snugly without stretching. Repeat with all fillings; use a spare wrapper if one tears or the filling will not fit comfortably.

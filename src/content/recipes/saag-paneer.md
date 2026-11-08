@@ -35,8 +35,8 @@ ingredients:
   - '1 tbsp finely diced jalapeño, seeds and inner membranes removed; optional for a mild base'
   - 1/2 tsp ground turmeric
   - 1 tsp ground coriander
-  - '1/2 tsp fine salt, for the spinach'
-  - '1/4 tsp fine salt, reserved for final seasoning'
+  - '3/4 tsp fine salt, for the spinach'
+  - '1/2 tsp fine salt, reserved for final seasoning and added to taste'
   - '1/3 cup (80 ml) heavy cream'
   - '1 tbsp kasuri methi (dried fenugreek leaves), measured loosely before crushing'
   - 1 tsp garam masala
@@ -168,7 +168,7 @@ Saag refers broadly to leafy greens, while palak means spinach. This spinach-onl
 3. **Brown and soak the paneer:** Dissolve the soaking salt in the measured hot drinking water in a snug heatproof bowl. Set aside one-third of the main ghee for browning and the remaining two-thirds for the masala. Heat the skillet over medium to medium-high with half the browning ghee. Add half the cubes in one layer and brown two faces, about 2–3 minutes per face. Transfer to the hot water. Add the remaining browning ghee and repeat with the remaining cubes. For the original batch, the two rounds use 1 tablespoon ghee in total and leave 2 tablespoons for the masala. Let the paneer soak while making the masala, about 10–20 minutes after the final batch enters. Do not keep the bowl simmering.
 4. **Cook the masala:** Lower the skillet to medium. Add the remaining masala ghee and cumin; stir about 20–30 seconds until fragrant. Add onion and cook about 8–10 minutes, stirring, until soft and golden at the edges. Add ginger, garlic and optional jalapeño; cook 1–2 minutes. Lower the heat, stir in turmeric and coriander for about 20 seconds, then immediately add the spinach and its initial salt.
 5. **Coat the greens:** Separate the chopped spinach with the spoon and turn it through the masala. Cook about 3–5 minutes, until hot and evenly seasoned, evaporating any puddle before the cream goes in. If the greens catch or look dry, add a little of the measured sauce-water reserve.
-6. **Add cream and paneer:** Lower the heat and stir in the cream and crushed kasuri methi. Let it come to a gentle bubble, about 1–2 minutes. Drain the paneer thoroughly, discard the soaking water, and fold the cubes into the spinach. Heat gently about 3–5 minutes, until a split cube is hot at the center. Use more of the remaining sauce-water reserve only if needed for moist, spoonable greens. Turn off the heat. Stir in garam masala and half the lemon juice; taste, then add the remaining lemon and reserved seasoning salt only as needed. The lemon should brighten the spinach without making the cream sauce sharply sour.
+6. **Add cream and paneer:** Lower the heat and stir in the cream and crushed kasuri methi. Let it come to a gentle bubble, about 1–2 minutes. Drain the paneer thoroughly, discard the soaking water, and fold the cubes into the spinach. Heat gently about 3–5 minutes, until a split cube is hot at the center. Use more of the remaining sauce-water reserve only if needed for moist, spoonable greens. Turn off the heat. Stir in garam masala and half the lemon juice; taste, then add the remaining lemon and the reserved seasoning salt a pinch at a time, to taste. Unsalted paneer and cream soak up seasoning, so most batches need most of it. The lemon should brighten the spinach without making the cream sauce sharply sour.
 7. **Optional chile ghee and serve:** In a small pan, melt the separate measured chile-ghee portion over low heat. Take off the heat, stir in the Kashmiri chile powder for about 5–10 seconds, and immediately spoon over the saag or offer separately. If it blackens or smells bitter, discard it. Divide the cheese and greens evenly among the servings, with rice or bread alongside.
 
 ## Smooth spinach variation

@@ -119,7 +119,7 @@ Removing the backbone and flattening the chicken exposes more skin and can short
 
 2. **Flatten:** Turn the chicken skin-side up and press firmly on the breastbone to flatten it. Use a board large enough to contain the bird and keep raw juices away from ready-to-eat food. Pat the skin dry with paper towels and discard the towels.
 
-3. **Apply the whole rub:** Mix all the kosher salt, black pepper, garlic, herbs and optional paprika with all the listed rub olive oil. Rub all of this paste over the bird, including under gently loosened breast skin, the legs and the skin surface. The original batch uses 2 tbsp fresh rosemary or thyme, or its distinct 1 tbsp dried option; scale the chosen option proportionally. Keep the full rub quantity.
+3. **Apply the whole rub:** Gently loosen the skin over the breasts and thighs. Mix the garlic and herbs with 1 tbsp of the rub olive oil and about a third of the kosher salt and pepper, and push this paste under the loosened skin, spreading it over the meat. Keep the garlic and herbs off the outer skin, where they would scorch and turn bitter at 475°F. Mix the remaining rub oil, salt, pepper and optional paprika and rub it over the outer skin and the underside of the bird. The original batch uses 2 tbsp fresh rosemary or thyme, or its distinct 1 tbsp dried option; scale the chosen option proportionally. Keep the full rub quantity.
 
 4. **Optional refrigerated seasoning:** Roast directly after preparation, or refrigerate the seasoned bird on a rimmed tray for 30–60 minutes or up to 8 hours. Leave it uncovered for drying only where it is protected from contamination and cannot drip onto other food. Do not use a counter warm-up as a substitute for refrigerator thawing.
 

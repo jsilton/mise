@@ -28,7 +28,7 @@ cuisines:
 role: side
 vibe: nutritious
 prepTime: 15 min
-cookTime: 30 min
+cookTime: 20–25 min
 totalTime: 'About 45 min, plus any remaining preheating'
 servings: 6 side portions
 pairsWith:
@@ -81,7 +81,7 @@ learning:
         for later serving.
   timing: >-
     Allow roughly 45 minutes for preparation and roasting, plus any preheating still needed after
-    preparation. The oven must reach 375°F before loading. Mix the dressing and massage kale while
+    preparation. The oven must reach 425°F before loading. Mix the dressing and massage kale while
     roasting; larger pieces or additional tray loads can extend elapsed time.
   storage: >-
     Refrigerate promptly at 40°F or below, in shallow covered containers. Count
@@ -121,8 +121,8 @@ Warm sweet potato and Brussels sprouts soften the kale slightly, while cranberri
 
 ## Directions
 
-1. **Prepare:** Heat the oven to 375°F / 190°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired.
-2. **Roast:** Toss sweet potato, sprouts and onion with all the listed roasting oil, salt and pepper. Spread in a single layer with space between pieces. Roast, turning once, starting to check at 20–25 minutes and allowing about 30 minutes or longer as needed. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges.
+1. **Prepare:** Heat the oven to 425°F / 220°C. Dry the washed vegetables, cube the sweet potato evenly and halve the sprouts; quarter unusually large sprouts. Line a large rimmed sheet pan if desired.
+2. **Roast:** Toss sweet potato, sprouts and onion with all the listed roasting oil, salt and pepper. Spread in a single layer with space between pieces, sprouts cut side down. Roast about 20–25 minutes, turning the sweet potato and onion once halfway and starting to check at 18 minutes. Remove when sweet potato is fork-tender and sprouts are browned; do not chase blackened edges.
 3. **Whisk dressing:** While the vegetables roast, whisk all the listed dressing oil with vinegar, maple syrup, Dijon and garlic. Taste and season with salt and pepper. Stir again if it separates.
 4. **Soften kale:** Wash, dry, stem and chop kale before measuring. Put the leaves in a large bowl with a small pinch of salt and rub gently for 1–2 minutes until pliable.
 5. **Combine:** Let the roasted vegetables stop steaming fiercely, then add to the kale with Parmesan and cranberries. Add about half the dressing and toss with tongs; add more only as needed to coat. Refrigerate any unused dressing separately.
@@ -130,7 +130,7 @@ Warm sweet potato and Brussels sprouts soften the kale slightly, while cranberri
 
 ## Cooking Notes
 
-About 45 minutes is a preparation-and-roasting plan: allow about 15 minutes for preparation and roughly 25–30 minutes roasting, plus any remaining preheating. The oven must reach 375°F before loading. Make dressing and massage kale while vegetables roast; large pieces or additional tray loads take longer.
+About 45 minutes is a preparation-and-roasting plan: allow about 15 minutes for preparation and roughly 20–25 minutes roasting, plus any remaining preheating. The oven must reach 425°F before loading. Make dressing and massage kale while vegetables roast; large pieces or additional tray loads take longer.
 
 Refrigerate in a shallow covered container at 40°F / 4°C or below within 2 hours, or 1 hour above 90°F / 32°C. Use within 3 days. For best make-ahead texture, store dressing separately and assemble near serving.
 

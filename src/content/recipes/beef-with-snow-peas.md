@@ -18,6 +18,7 @@ ingredients:
   - 2 tablespoons cornstarch
   - 2 tablespoons brown sugar
   - 1 tablespoon peeled and minced fresh ginger
+  - 1/2 cup water or low-sodium chicken stock, for the finishing sauce
   - >-
     1 1/2 pounds flank steak, trimmed of fat and sliced very thin against the
     grain
@@ -48,8 +49,9 @@ learning:
       size depends on the rice and how the dish is served.
     - >-
       Whisk the sauce before dividing: one-third coats raw beef and two-thirds
-      stays clean for finishing. Leave excess raw-contact marinade behind and
-      discard it.
+      stays clean for finishing. Thin the clean two-thirds with the measured
+      water or stock so it cooks into a glossy sauce, not a salty paste. Leave
+      excess raw-contact marinade behind and discard it.
     - >-
       Use one-half of the scallions with each half of the beef in the original
       batch; more pan batches should divide the full scallion amount
@@ -114,7 +116,7 @@ Slice flank steak thinly across the grain and divide the sauce before it touches
 
 ## Directions
 
-1. **Divide the sauce:** Whisk soy sauce, sherry, cornstarch, brown sugar and ginger until smooth. Pour one-third into a separate bowl with the thinly sliced beef; keep the other two-thirds clean for finishing. Toss beef to coat and keep refrigerated while preparing the pan.
+1. **Divide the sauce:** Whisk soy sauce, sherry, cornstarch, brown sugar and ginger until smooth. Pour one-third into a separate bowl with the thinly sliced beef; keep the other two-thirds clean for finishing and whisk the 1/2 cup water or low-sodium stock into it. Toss beef to coat and keep refrigerated while preparing the pan.
 2. **Cook snow peas:** Heat the full listed oil in a heavy skillet or wok over medium-high heat until shimmering, without letting it smoke. Add trimmed snow peas and stir until bright and crisp-tender, starting checks after about 45 seconds. Transfer to a plate.
 3. **Cook beef batches and all scallions:** Bring the pan back to cooking heat. Lift half the beef from its coating with tongs, leaving excess marinade in the raw bowl, and spread in a thin layer. Add half the sliced scallions. Let the first side brown, starting checks around 1 minute, then turn and continue as needed. Transfer to a clean plate. Repeat with the other half of BOTH beef and scallions. If the pan needs more than two loads, divide both ingredients across those loads rather than crowding it. Discard the unused raw-contact marinade; do not use that bowl for cooked food.
 4. **Finish and check:** Return cooked beef and snow peas to the pan. Restir the clean reserved sauce and add it with crushed red pepper. Stir over heat until the sauce gently bubbles and thickens and all the beef reaches 145°F /63°C. Remove from heat and rest at least 3 minutes before serving. Taste with a clean spoon and add the listed salt allowance only as needed.

@@ -33,6 +33,7 @@ ingredients:
   - '1 lb ground lamb, raw, fresh or fully thawed'
   - 1 cup frozen peas
   - '1 large yellow onion, peeled and finely diced'
+  - 1 tsp kosher salt
   - '1 tbsp fresh ginger, grated'
   - '1 tbsp fresh garlic, minced'
   - 1 tsp cumin seeds
@@ -43,6 +44,7 @@ ingredients:
   - '1/4 cup water, approximately, to keep the mixture saucy'
   - '1/2 lemon, washed and juiced'
   - 'fresh cilantro, as wanted for finishing, washed and chopped'
+  - 'kosher salt, more to taste at the finish'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -89,6 +91,15 @@ formula:
           uses:
             - step: aromatics
               share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: aromatics
+              share: 1
         - id: ginger
           key: ginger
           name: fresh ginger
@@ -116,7 +127,7 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: bloom
+            - step: aromatics
               share: 1
         - id: turmeric
           key: turmeric
@@ -185,6 +196,13 @@ formula:
           uses:
             - step: finish
               share: 1
+        - id: finish-salt
+          key: finish-salt
+          name: kosher salt
+          allowance: more to taste at the finish
+          uses:
+            - step: finish
+              share: 1
   steps:
     - id: brown
       title: Brown the lamb
@@ -196,9 +214,11 @@ formula:
     - id: aromatics
       title: Soften the onion
       text: >-
-        Have {{ingredients}} ready. Add the diced onion to the lamb pan and cook about 5 minutes as
-        a first check until it softens, stirring and lowering heat if it catches. Stir in all the
-        ginger and garlic and sauté 30–45 seconds until fragrant without scorching.
+        Have {{ingredients}} ready. Push the lamb to one side, add the cumin seeds to the pooled
+        rendered fat and let them sizzle 20–30 seconds until fragrant and a shade darker. Add the
+        diced onion and the measured salt and cook about 5 minutes as a first check until the onion
+        softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and
+        sauté 30–45 seconds until fragrant without scorching.
     - id: bloom
       title: Add spices and tomato paste
       text: >-
@@ -215,7 +235,7 @@ formula:
       title: Finish the seasoning
       text: >-
         Once the lamb is fully cooked, stir in {{ingredients}}, using all the juice from the
-        measured lemon, and taste.
+        measured lemon. Taste and add salt only as needed.
     - id: serve
       title: Serve
       text: >-
@@ -230,12 +250,13 @@ learning:
     - seasoning
   before:
     - >-
-      Have all spices measured and vegetables prepared before browning. Garam masala and lemon
-      belong to the finished cooked mixture; cumin, turmeric and chili cook with the tomato paste.
+      Have all spices measured and vegetables prepared before browning. Cumin seeds bloom in the
+      rendered lamb fat before the onion. Turmeric and chili cook with the tomato paste. Garam
+      masala and lemon belong to the finished cooked mixture.
     - >-
       Use enough skillet room for the full listed batch and stir the covered mixture before checking
-      its temperature. Have the cumin, turmeric, chili and tomato paste ready for their short
-      fragrant cooking stage.
+      its temperature. Have the turmeric, chili and tomato paste ready for their short fragrant
+      cooking stage.
   checkpoints:
     - step: 2
       cue: Onion softens in the retained lamb fat without blackened garlic.
@@ -255,6 +276,11 @@ learning:
         endpoints. A burnt base will make the whole mixture bitter.
   substitutions:
     - ingredient: Kashmiri chili powder
+      alternative: 3/4 tsp sweet paprika plus 1/4 tsp cayenne
+      effect: >-
+        A supermarket stand-in that gives similar red color and mild heat, with a little less of
+        Kashmiri chili's fruity depth.
+    - ingredient: 'Kashmiri chili powder, milder option'
       alternative: Reduce or omit the chili for a milder serving
       effect: >-
         Keep all remaining spices, lamb fat, peas and the lemon-cilantro finish; the dish loses some
@@ -293,8 +319,8 @@ For kids, serve the heat on the side or reduce or omit the spicy elements.
 ## Directions
 
 1. **Brown the lamb:** Heat a large skillet and use ground lamb, breaking it into small pieces as its fat renders. Cook until browned, adjusting heat to avoid blackened patches. Keep the full rendered fat in the pan. Use a vessel with room to stir the listed batch; for more meat use extra pans or loads and divide every ingredient proportionally.
-2. **Soften the onion:** Have large yellow onion, fresh ginger, and fresh garlic ready. Add the diced onion to the lamb pan and cook about 5 minutes as a first check until it softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and sauté 30–45 seconds until fragrant without scorching.
-3. **Add spices and tomato paste:** Stir in cumin seeds, turmeric, Kashmiri chili powder, and tomato paste and cook about 1 minute, stirring constantly, until fragrant without burning. The garam masala remains for the finish.
+2. **Soften the onion:** Have large yellow onion, kosher salt, fresh ginger, fresh garlic, and cumin seeds ready. Push the lamb to one side, add the cumin seeds to the pooled rendered fat and let them sizzle 20–30 seconds until fragrant and a shade darker. Add the diced onion and the measured salt and cook about 5 minutes as a first check until the onion softens, stirring and lowering heat if it catches. Stir in all the ginger and garlic and sauté 30–45 seconds until fragrant without scorching.
+3. **Add spices and tomato paste:** Stir in turmeric, Kashmiri chili powder, and tomato paste and cook about 1 minute, stirring constantly, until fragrant without burning. The garam masala remains for the finish.
 4. **Cook the peas and finish the lamb:** Add frozen peas and water, cover and simmer gently, beginning checks around 5 minutes. Stir to distribute heat and continue until peas are hot and tender, following any package cooking directions, and the ground-lamb mixture reaches 160°F in several places with a food thermometer. A brown exterior and the covered clock do not establish the meat endpoint.
-5. **Finish the seasoning:** Once the lamb is fully cooked, stir in garam masala, lemon, and fresh cilantro, using all the juice from the measured lemon, and taste.
+5. **Finish the seasoning:** Once the lamb is fully cooked, stir in garam masala, lemon, fresh cilantro, and kosher salt, using all the juice from the measured lemon. Taste and add salt only as needed.
 6. **Serve:** Serve with separately prepared warm [Naan](/mise/recipes/naan) or [Basmati Rice](/mise/recipes/basmati-rice). Those components have their own amounts and preparation clocks; four portions is the original planning yield.

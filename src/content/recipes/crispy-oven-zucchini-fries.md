@@ -24,9 +24,9 @@ nutritionalDensity: light
 leftovers: good
 equipment:
   - baking-sheet
-prepTime: 15–20 min
+prepTime: 20–25 min
 cookTime: 18–22 min
-totalTime: '35–45 min, plus any remaining preheating'
+totalTime: '40–50 min, plus any remaining preheating'
 servings: '4'
 pairsWith:
   - chicken-tinga
@@ -35,7 +35,8 @@ pairsWith:
 ingredients:
   - 2 lbs Fresh Zucchini (original batch about 4 medium)
   - 1/2 cup All-Purpose Flour
-  - 1/4 tsp Kosher Salt
+  - '1 tsp Kosher Salt, for salting the zucchini'
+  - '1/4 tsp Kosher Salt, for the flour'
   - 1/4 tsp Black Pepper
   - '2 Large Eggs, beaten'
   - 1.5 cups Panko Breadcrumbs
@@ -54,8 +55,9 @@ learning:
     - temperature
   before:
     - >-
-      Use the listed salt once, on the cut zucchini; the flour contains the
-      listed pepper without another measured salt dose.
+      Salt the cut zucchini with the larger salt amount to draw out surface
+      water and season the sticks, then season the flour with the small
+      second amount.
     - >-
       The original batch is 2 lb, about four medium zucchini; size varies. More
       batter needs more single-layer sheets or batches, not larger sticks.
@@ -79,8 +81,9 @@ learning:
         raw crumbs at service.
   substitutions: []
   timing: >-
-    Plan about 15–20 minutes preparation, including the 5-minute salting rest,
-    plus 18–22 minutes baking; roughly 35–45 minutes elapsed for one oven load.
+    Plan about 20–25 minutes preparation, including the 10-minute salting
+    rest, plus 18–22 minutes baking; roughly 40–50 minutes elapsed for one oven
+    load.
     Additional loads add cooking time. The oven must reach 400°F before loading;
     any preheating beyond preparation extends elapsed time.
   storage: >-
@@ -108,9 +111,9 @@ A dry surface helps the flour and egg coating adhere. Keep the sticks apart so t
 
 ## Directions
 
-1. **Dry the zucchini:** Wash the zucchini before cutting. Cut into roughly ½-inch-thick sticks. Sprinkle with all the listed kosher salt, stand on a clean towel for 5 minutes, then blot the surface dry. This uses the measured salt once; do not add another dose to the flour.
+1. **Dry the zucchini:** Wash the zucchini before cutting. Cut into roughly ½-inch-thick sticks. Toss with the 1 tsp kosher salt, stand on a clean towel for 10 minutes, then blot the surface dry.
 
-2. **Bread:** Preheat the oven to 400°F. Prepare enough parchment-lined baking sheets for a single uncrowded layer. Put all the flour and black pepper in one shallow bowl, all the beaten eggs in a second, and all the panko, Parmigiano-Reggiano, garlic powder and Italian seasoning in a third.
+2. **Bread:** Preheat the oven to 400°F. Prepare enough parchment-lined baking sheets for a single uncrowded layer. Put all the flour, the 1/4 tsp kosher salt and the black pepper in one shallow bowl, all the beaten eggs in a second, and all the panko, Parmigiano-Reggiano, garlic powder and Italian seasoning in a third.
 
 3. **Coat:** Coat a few sticks at a time in flour, shake off the excess, dip in egg, then press into the panko mixture. Keep the breading bowls and utensils away from ready-to-eat dips.
 

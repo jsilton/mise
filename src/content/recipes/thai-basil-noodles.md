@@ -32,9 +32,10 @@ ingredients:
   - 8 oz Wide Dried Rice Noodles
   - 1 tbsp Fish Sauce
   - 1 tbsp Soy Sauce (Thai Thin or Light)
-  - 1 tsp Dark Soy Sauce (for color)
-  - 1 tbsp Oyster Sauce
+  - 2 tsp Dark Soy Sauce (for color)
+  - 2 tbsp Oyster Sauce
   - 1 tbsp Brown Sugar
+  - 2 tbsp Water, for the sauce
   - 1 lb Ground Pork or Chicken
   - 2 cups Fresh Thai Basil (Holy Basil is ideal)
   - '3 cloves Garlic, minced'
@@ -123,10 +124,10 @@ The meat version uses the full ground-meat and richer sauce quantities listed he
 ## Directions
 
 1. **Prepare noodles and vegetables:** Wash the basil, pepper, chilies and lime. Prepare the rice noodles according to their package instructions, checking often for a cooked but still firm and chewy center; a soak alone may not cook every product. Drain well. Mince the garlic and chilies, slice the pepper, and have the basil ready.
-2. **Mix sauce:** Whisk together all the fish sauce, light soy sauce, dark soy sauce, oyster sauce and brown sugar. Keep the lime separate.
+2. **Mix sauce:** Whisk together all the fish sauce, light soy sauce, dark soy sauce, oyster sauce, brown sugar and water. The water helps the sauce reach every noodle. Keep the lime separate.
 3. **Cook meat:** Heat enough of the oil allowance to coat a wok or large skillet over medium-high heat, staying within the pan's instructions. Add all the ground pork or chicken, break into small pieces and stir until cooked through: 160°F / 71°C for ground pork, or 165°F / 74°C for ground chicken. Brown color or a two-minute crust does not establish doneness. Cook in batches if crowded, transferring cooked meat to a clean plate.
 4. **Aromatics:** Add all the garlic, chilies and pepper to the pan and stir until the garlic is fragrant and the pepper begins to soften, starting checks around 30 seconds. Return any separately cooked meat.
-5. **Toss:** Add all the drained noodles and prepared sauce. Toss and scrape the pan until hot and evenly coated, reducing heat if the garlic or sauce begins to scorch. There is no need to char the basil or evaporate every drop of sauce.
+5. **Toss:** Add all the drained noodles and prepared sauce. Toss and scrape the pan until hot and evenly coated and the noodles are a rich brown, then taste and adjust with a splash of fish sauce if needed, reducing heat if the garlic or sauce begins to scorch. There is no need to char the basil or evaporate every drop of sauce.
 6. **Wilt and finish:** Fold in all the basil just until wilted. Turn off heat. Squeeze half of the listed lime over the noodles and serve the remaining half as wedges. Serve promptly, with the optional chili crisp separately.
 
 ## Vegetable and Scallion Variation

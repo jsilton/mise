@@ -59,7 +59,8 @@ ingredients:
   - Neutral oil, enough for 1/2-inch depth in the frying pan
   - 1 pinch salt, for the wonton strips
   - --- Dressing ---
-  - 3 tbsp toasted sesame oil
+  - 2 tbsp neutral oil, for the dressing
+  - 1 tbsp toasted sesame oil
   - 2 tbsp unseasoned rice vinegar
   - 1 tbsp soy sauce
   - 1 tbsp honey or agave syrup
@@ -80,8 +81,8 @@ learning:
     - Measure cabbage after shredding and dry washed vegetables well. Keep the optional wonton
       strips away from wet vegetables until serving.
     - For frying, use a dry, deep-sided pan with ample room above the shallow oil. Keep water
-      away from hot oil and use a frying thermometer; the toasted sesame oil belongs in the
-      dressing.
+      away from hot oil and use a frying thermometer. The toasted sesame oil and the measured 2 tbsp
+      neutral oil belong in the dressing.
   checkpoints:
     - step: 1
       cue: Edamame is prepared according to its package, cooled and well drained.
@@ -144,5 +145,5 @@ Napa cabbage and edamame make a softer, fuller slaw beneath a generous toasted-s
 1. **Prepare the edamame:** Use ready-to-eat cooked shelled edamame, or cook packaged shelled edamame according to its instructions first. Cool promptly under cool running water, drain thoroughly and measure the cooked beans. Keep refrigerated if preparing ahead.
 2. **Cut the vegetables:** Core and thinly shred the napa, then measure it. Julienne the carrots and slice green onions. Combine in a large bowl with the cooled edamame.
 3. **Fry the optional strips:** Cut the wonton wrappers into thin strips. Heat neutral oil to a depth of 1/2 inch in a dry, deep-sided pan with ample space above the oil. Bring to 350°F / 175°C. Fry a small batch, stirring gently to separate, until pale golden; start checking within seconds. Lift out with a slotted spoon, drain in a single layer and sprinkle with the pinch of salt. Repeat, allowing the oil to recover between batches. Let strips cool before topping the slaw.
-4. **Mix the dressing:** Whisk or shake toasted sesame oil, vinegar, soy sauce, honey or agave, ginger, garlic and optional chile flakes until combined.
+4. **Mix the dressing:** Whisk or shake the dressing's neutral oil, toasted sesame oil, vinegar, soy sauce, honey or agave, ginger, garlic and optional chile flakes until combined.
 5. **Dress and serve:** Toss the vegetables and edamame with the dressing and toasted sesame seeds, lifting from the bottom to coat evenly. Taste a forkful before adjusting seasoning. Divide into four generous side portions and add the wonton strips just before eating.

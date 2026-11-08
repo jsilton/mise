@@ -85,6 +85,22 @@ learning:
       cause: High heat after the liquid has reduced or while spices sit against the pan.
       fix: Lower heat promptly; scorched paste is not repaired by adding more broth.
   substitutions:
+    - ingredient: Doubanjiang (Pixian chili bean paste)
+      alternative: 1 tbsp red miso plus 1 tbsp chili-garlic sauce
+      effect: >-
+        Gives a similar salty, savory heat but less of the deep fermented-bean flavor. Fry it the
+        same way over slightly lower heat, since miso scorches faster.
+    - ingredient: Fermented black beans
+      alternative: 1 tsp red miso plus 1 tsp soy sauce, or leave them out
+      effect: >-
+        Adds back some salty, funky depth. The sauce is still good without them, just a little
+        less layered.
+    - ingredient: Sichuan peppercorns
+      alternative: No true supermarket substitute
+      effect: >-
+        Nothing else gives the tingling, numbing finish. Order them online or buy them at an Asian
+        grocery, where they keep for months in a sealed jar. Leaving them out makes a tasty spicy
+        pork and tofu dish without the mala character.
     - ingredient: Medium-firm tofu
       alternative: Soft or silken tofu
       effect: >-

@@ -44,9 +44,9 @@ ingredients:
   - 1 tbsp Fresh Lemon Zest
   - 1/4 cup Fresh Lemon Juice (for the batter)
   - 1/2 cup Whole Milk
-  - 1 tbsp Vanilla Extract
-  - '1/2 cup (1 stick) Unsalted Butter, softened'
-  - 4 cups Confectioners’ Sugar
+  - 1 tsp Vanilla Extract
+  - '3/4 cup (1 1/2 sticks) Unsalted Butter, softened'
+  - 3 cups Confectioners’ Sugar
   - 2 tbsp Fresh Lemon Juice (for the frosting)
   - 2 tbsp Milk (as needed)
 pairsWith:
@@ -97,7 +97,7 @@ learning:
   substitutions:
     - ingredient: Original frosting milk
       alternative: >-
-        Instead of the main listed frosting milk, prepare 3–4 tablespoons milk
+        Instead of the main listed frosting milk, prepare 2–3 tablespoons milk
         for the original batch, scaling proportionally. Beat the same full
         butter and frosting lemon juice with the same full powdered sugar,
         alternating portions of sugar with small additions of that milk until

@@ -20,7 +20,7 @@ ingredients:
   - 1 can (28 oz / 794 g) crushed tomatoes
   - '2 cups (480 ml) low-sodium chicken broth, plus up to 1 cup (240 ml) only if needed to loosen'
   - '2 cans (15 oz / 425 g each) black beans, rinsed and drained, about 510 g total drained'
-  - '1/2 tsp fine salt, added gradually only if needed'
+  - '1 tsp fine salt, divided, plus more to taste'
   - 1/2 tsp ground black pepper
   - '1 tbsp fresh lime juice, added gradually to taste'
   - '--- Optional toppings, for the whole batch ---'
@@ -143,9 +143,9 @@ Brown the turkey before adding the wet ingredients, then simmer only until the s
 
 ## Directions
 
-1. **Brown turkey in two batches:** Heat 1 tbsp oil in a wide Dutch oven over medium-high heat. Add half the turkey in loose clumps and leave briefly to brown before breaking it into coarse pieces, about 5–6 minutes total. Transfer to a bowl. Repeat with the remaining oil and turkey. Continue directly with cooking; browning is not the final safety check.
+1. **Brown turkey in two batches:** Heat 1 tbsp oil in a wide Dutch oven over medium-high heat. Add half the turkey in loose clumps, sprinkle with 1/4 tsp salt and leave briefly to brown before breaking it into coarse pieces, about 5–6 minutes total. Transfer to a bowl. Repeat with the remaining oil, turkey and another 1/4 tsp salt. Continue directly with cooking; browning is not the final safety check.
 2. **Cook aromatics:** With turkey set aside, add onion and sweet-potato cubes to the pot. Cook about 5–7 minutes over medium heat, stirring, until onion softens. If the pan catches, add a small splash from the measured broth. Stir in garlic, chili blend, cumin, paprika and pepper for about 30 seconds until fragrant.
-3. **Add liquid:** Return turkey and its juices. Add tomatoes and the initial 480 ml broth, scraping up browned residue. Bring to a gentle simmer. Keep the additional broth for consistency adjustments.
+3. **Add liquid:** Return turkey and its juices. Add tomatoes, the initial 480 ml broth and the remaining 1/2 tsp salt, scraping up browned residue. Bring to a gentle simmer. Keep the additional broth for consistency adjustments.
 4. **Simmer and check:** Partly cover and simmer gently about 30–40 minutes, stirring occasionally, until a potato cube yields easily to a knife. Check several substantial turkey pieces for 165°F / 74°C. Add a little reserved broth if the pot becomes thick before potatoes soften.
 5. **Finish beans and consistency:** Add drained beans and simmer about 5 minutes until hot. If too thin, uncover briefly to reduce; if too thick, add reserved broth gradually. Avoid cooking until all the potato dissolves.
-6. **Season and serve:** Turn off heat. Taste and add salt only if needed. Start with half the lime juice, then add the rest to taste. Divide into six bowls. Offer the listed optional topping quantities separately, divided across the whole batch; any bread or slaw is prepared separately.
+6. **Season and serve:** Turn off heat. Taste and adjust the salt to taste. Start with half the lime juice, then add the rest to taste. Divide into six bowls. Offer the listed optional topping quantities separately, divided across the whole batch; any bread or slaw is prepared separately.
