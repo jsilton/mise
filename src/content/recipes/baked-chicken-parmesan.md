@@ -34,93 +34,55 @@ equipment:
   - instant-read-thermometer
 pairsWith:
   - everyday-arugula-salad
+  - roasted-broccolini-with-lemon
+pairingNotes:
+  everyday-arugula-salad: Peppery, lemony greens cut the cheese and sauce.
+  roasted-broccolini-with-lemon: A green vegetable that roasts in the same hot oven.
 ingredients:
-  - '1.5 lbs (680 g) boneless skinless chicken breasts, cut into 4–6 cutlets about 1/2 inch thick'
-  - 1 cup (60 g) panko breadcrumbs
-  - '2 tbsp olive oil, divided'
-  - 1/2 cup (30 g) finely grated Parmesan
+  - '1 1/2 lb boneless skinless chicken breasts, cut into 1/2-inch-thick cutlets'
+  - 2 tbsp olive oil
+  - 1 cup panko breadcrumbs
+  - '1/2 cup Parmesan, finely grated'
   - '2 large eggs, beaten'
-  - '3/4 tsp fine salt, for the chicken'
+  - 3/4 tsp fine salt
   - 1/4 tsp black pepper
-  - '1 1/2 cups (360 ml) marinara sauce, divided'
-  - '6 oz (170 g) low-moisture mozzarella, thinly sliced'
-  - 8 oz (225 g) dried spaghetti or rigatoni
-  - '1 tbsp fine salt, for 3 quarts pasta water'
-  - 2 tbsp torn fresh basil
+  - 1 1/2 cups marinara sauce
+  - '6 oz low-moisture mozzarella, thinly sliced'
+  - 8 oz dried spaghetti or rigatoni
+  - '1 tbsp fine salt, for 3 quarts of pasta water'
+  - '2 tbsp fresh basil, torn'
 origin: Italian-American
 description: >-
-  Thin chicken cutlets with toasted crumbs, melted mozzarella, and tomato sauce. Learn how to
-  protect crisp edges while cooking the center properly.
+  Thin chicken cutlets with a toasted panko crust, melted mozzarella and marinara, served with
+  pasta.
 learning:
-  focus: Protect a crisp coating
-  outcome: >-
-    Golden crumbs around the edges, melted cheese in the middle, and chicken that reaches 165°F /
-    74°C.
   techniques:
     - browning
     - temperature
-  before:
-    - >-
-      Use evenly thick cutlets. Set a wire rack over a rimmed sheet pan and oil it with 1 tsp of the
-      measured oil.
-    - >-
-      Low-moisture mozzarella releases less liquid than fresh mozzarella; the sauce goes only over
-      the center.
-  checkpoints:
-    - step: 2
-      cue: Crumbs are light golden before they touch the chicken.
-      why: >-
-        Toasting gives pale panko a head start; chicken can finish before dry crumbs brown in an
-        oven.
-    - step: 5
-      cue: Chicken centers reach 165°F / 74°C before the topping is added.
-      why: Melted cheese and browned crumbs do not reveal the temperature inside the cutlet.
-  troubleshooting:
-    - problem: Coating slips off
-      cause: The chicken was wet or the egg coating was too thick.
-      fix: >-
-        Dry the cutlets and let excess egg drip off before pressing on crumbs. Handle gently with a
-        wide spatula.
-    - problem: Crust turns soggy
-      cause: Sauce covered the whole cutlet or wet cheese released liquid.
-      fix: >-
-        Use the measured sauce only at the center and serve immediately. Keep remaining sauce with
-        the pasta.
   substitutions:
-    - ingredient: Low-moisture mozzarella
-      alternative: 'Fresh mozzarella, drained and blotted well'
-      effect: 'Softer, wetter topping; use thin slices and expect less crispness under the cheese.'
-  timing: >-
-    45 minutes assumes pasta boils while chicken bakes. Very large or thick cutlets take longer;
-    measure the center.
+    - ingredient: low-moisture mozzarella
+      alternative: Fresh mozzarella
+      effect: Softer and milkier. Blot the slices dry so the crust stays crisp.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Keep pasta separate when possible.
-    The crumb coating softens in storage.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    Keeps 3 days in the fridge, with the pasta stored separately. Reheat the chicken on a rack at
+    400°F until hot, about 10 minutes, to crisp the crust again.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from skinnytaste.com
+    date: '2026-11-09'
+source: Adapted from Skinnytaste
 sourceUrl: 'https://www.skinnytaste.com/baked-chicken-parmesan/'
 ---
 
 ## Chef's Note
 
-The challenge is matching the cooking speeds of chicken, breadcrumbs, sauce, and cheese. Toasting the crumbs first means the chicken does not have to overcook while you wait for color. A small cap of sauce and cheese leaves the perimeter exposed and crisp.
+Chicken Parmesan is an Italian-American dish, built on the eggplant parmigiana that immigrants brought from southern Italy. Toasting the panko before breading gives a crisp, golden crust in the oven with no frying. Sauce and cheese go only on the center of each cutlet, so the edges stay crunchy.
 
 ## Directions
 
-1. **Set up:** Heat the oven to 425°F / 220°C. Put a rack over a rimmed sheet pan and grease with 1 tsp oil. Bring 3 quarts water and the pasta-water salt to a boil. Even the chicken to 1/2 inch thick and pat dry.
-2. **Toast the crumbs:** Heat the remaining oil in a skillet over medium heat. Add panko and stir for 3–5 minutes until light golden. Spread in a shallow dish, cool briefly, then mix in Parmesan. Put beaten eggs in another shallow dish.
-3. **Bread:** Season chicken with its measured salt and pepper. Dip each cutlet in egg, let excess drip off, then press into crumbs on both sides. Arrange on the rack without touching. Discard egg and crumbs that contacted raw chicken; clean hands and work surfaces.
-4. **Start baking and cook the pasta:** Put the chicken tray in the oven and set a timer for 15 minutes. Meanwhile, add pasta to the boiling water. Stir and cook until just tender according to the package, then reserve 1/2 cup cooking water and drain. Warm marinara in a small pan or microwave-safe bowl.
-5. **Check the chicken:** After 15 minutes in the oven, check the thickest pieces from the side with a thermometer. Continue baking until each reaches 165°F / 74°C, usually about 15–20 minutes total.
-6. **Melt the topping:** Divide one third of the measured marinara over the centers of the cutlets, leaving edges exposed. Divide mozzarella over the sauced centers. Return to the oven for 3–5 minutes until melted; avoid prolonged baking once the cheese melts.
-7. **Serve:** Toss pasta with the remaining marinara, adding reserved water a tablespoon at a time if needed. Divide pasta and chicken among four plates, finish with basil, and serve promptly with a green salad.
+1. **Heat the oven:** Heat the oven to 425°F. Set a wire rack over a rimmed sheet pan and brush it with a little of the olive oil. Bring a large pot of water to a boil with the salt for the pasta.
+2. **Toast the crumbs:** Heat the rest of the oil in a skillet over medium heat. Add the panko and stir until light golden, 3 to 5 minutes. Tip into a shallow dish, let cool for a few minutes, then stir in the Parmesan.
+3. **Bread the chicken:** Pat the cutlets dry and season with the fine salt and pepper. Dip each one in the egg, let the extra drip off, then press it into the crumbs on both sides. Lay the cutlets on the rack without touching.
+4. **Bake the chicken:** Bake until golden and 165°F in the thickest part, 15 to 20 minutes.
+5. **Cook the pasta:** While the chicken bakes, cook the pasta in the boiling water until al dente. Scoop out a mugful of the cooking water, then drain. Warm the marinara in a small pan.
+6. **Melt the cheese:** Spoon about a third of the marinara over the centers of the cutlets, leaving the edges bare, and top with the mozzarella. Bake until the cheese melts, 3 to 5 minutes.
+7. **Serve:** Toss the pasta with the rest of the marinara, adding a splash of pasta water if it looks tight. Serve with the chicken and scatter the basil over the top.

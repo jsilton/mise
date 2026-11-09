@@ -30,84 +30,48 @@ nutritionalDensity: hearty
 leftovers: poor
 pairsWith:
   - everyday-arugula-salad
-  - garlic-bread
+  - roasted-broccolini-with-lemon
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon cut the butter and cheese.
+  roasted-broccolini-with-lemon: A bright green vegetable beside a rich pasta.
 ingredients:
-  - 8 oz (225 g) dried fettuccine
-  - '4 tbsp (55 g) unsalted butter, cubed'
-  - '3 oz (85 g) Parmigiano-Reggiano, finely grated from a block'
-  - '2 quarts (2 liters) water, for cooking pasta'
-  - '2 tsp fine salt, for the cooking water'
-  - '1 cup (240 ml) reserved pasta water, added as needed'
-  - 'Freshly ground black pepper, optional'
+  - 10 oz fresh egg fettuccine
+  - '4 tbsp unsalted butter, cubed'
+  - '3 oz Parmigiano-Reggiano, finely grated'
+  - 2 quarts water
+  - 2 tsp fine salt
+  - 'freshly ground black pepper (optional)'
 description: >-
-  Fettuccine in a glossy butter and Parmigiano sauce. Learn how water, movement, and gentle heat
-  keep it smooth.
+  Fettuccine in a glossy butter and Parmigiano sauce, the cream-free Roman original.
 equipment:
   - large-pot
   - wide-skillet
   - fine-grater
   - tongs
 learning:
-  focus: Build a stable pasta sauce
-  outcome: >-
-    Each strand wears a thin, glossy coating; no oil pools on the plate and no cheese forms rubbery
-    clumps.
   techniques:
     - emulsions
     - starch
-  before:
-    - Grate and weigh the cheese before boiling the pasta; a fluffy cup measure is unreliable.
-    - Set out warm bowls. This sauce thickens as it cools and should be served immediately.
-  checkpoints:
-    - step: 2
-      cue: The butter-water mixture looks cloudy and unified.
-      why: Tossing disperses melted butter through the water. Starch helps slow separation.
-    - step: 4
-      cue: No active bubbling when the cheese goes in; the sauce flows when you tilt the pan.
-      why: Excessive heat or too little water encourages cheese proteins to form clumps.
-  troubleshooting:
-    - problem: Oil collects under the pasta
-      cause: The sauce lost too much water or was not tossed enough.
-      fix: 'Off heat, add a tablespoon of warm water and toss vigorously. Repeat until glossy.'
-    - problem: Cheese is stringy or grainy
-      cause: The pan was too hot or the cheese was added too quickly.
-      fix: >-
-        Remove from heat and loosen with water. Firm rubbery clumps are not reliably reversible; let
-        the pan cool more next time.
   substitutions:
-    - ingredient: Dried fettuccine
-      alternative: Fresh fettuccine
-      effect: Follow its much shorter cooking time; use the same visual sauce cues.
+    - ingredient: fresh egg fettuccine
+      alternative: Dried fettuccine
+      effect: 'Use 8 oz. Boil it until it bends but is still firm in the center, about 2 minutes short of the package time.'
     - ingredient: Parmigiano-Reggiano
       alternative: Grana Padano
-      effect: A milder sauce; taste before adding any finishing salt.
-  timing: >-
-    About 25 minutes including heating the water. Fresh pasta changes the cook time. Larger batches
-    need a larger tossing vessel.
-  storage: >-
-    Best freshly made. Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C),
-    at 40°F / 4°C or below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. Reheat gently
-    with a little water; the original emulsion may not fully recover.
-  sources:
-    - title: Bartolucci et al. — Phase behavior of Cacio e Pepe sauce (related cheese-sauce research)
-      url: 'https://arxiv.org/abs/2501.00536'
-    - title: Exploratorium — How starch thickens sauces
-      url: 'https://annex.exploratorium.edu/cooking/icooks/3-24-03.html'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+      effect: 'Milder and a little less nutty. Taste before adding any salt.'
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Fettuccine al burro depends on butter, aged cheese, and pasta water rather than cream. Here, cheese is weighed so the ratio is reproducible; water is added by texture because starch concentration varies with pasta and pot size. Taking the pan off the burner is essential, but a heavy pan still holds heat, so watch for the bubbling to stop before adding cheese.
+Alfredo di Lelio made this in Rome in 1908: fresh egg fettuccine tossed with butter and Parmigiano-Reggiano, and no cream. Starchy pasta water turns the two into a glossy sauce. Taking the pan off the heat before the cheese goes in keeps it silky instead of clumpy.
 
 ## Directions
 
-1. **Cook the pasta:** Bring the water and salt to a boil. Add fettuccine and stir so it does not stick. Begin tasting 2 minutes before the package time; stop when it is flexible with a slightly firm center. Reserve 1 cup cooking water before transferring the pasta.
-2. **Start the sauce:** While the pasta cooks, melt the butter in a wide skillet over low heat. Add 1/3 cup reserved hot pasta water and swirl until cloudy. Do not brown the butter.
-3. **Finish the pasta:** Transfer pasta with tongs into the skillet. Toss over medium-low heat for about 1 minute, until the pasta reaches the texture you like. Add a splash of water if the pan looks dry.
-4. **Add cheese gently:** Move the skillet off the burner. Wait until active bubbling stops, then add cheese in three small batches, tossing thoroughly after each. Add reserved water a tablespoon at a time until the sauce flows and coats every strand. If the cheese is not melting, use a few seconds of low heat while tossing, then remove again.
-5. **Taste and serve:** Taste before adding salt; the cheese and cooking water already season the sauce. Add pepper if desired. Serve immediately in warm bowls, leaving the sauce slightly looser than you want on the plate.
+1. **Boil the pasta:** Bring the water and salt to a boil in a large pot. Add the fettuccine and stir so it doesn't stick. Cook until just tender but still a little firm, about 2 minutes. Scoop out a mugful of the cooking water.
+2. **Start the sauce:** While the pasta cooks, melt the butter in a wide skillet over low heat. Add a ladleful of the hot pasta water and swirl until cloudy. Don't let the butter brown.
+3. **Toss the pasta:** Lift the pasta into the skillet with tongs. Toss over medium-low heat until it is al dente, about 1 minute. Add a splash of pasta water if the pan looks dry.
+4. **Add the cheese:** Take the skillet off the heat and wait until the bubbling stops. Add the cheese in three batches, tossing hard after each. Add pasta water a spoonful at a time until the sauce flows and coats every strand.
+5. **Serve:** Season with pepper, if using, and serve right away in warm bowls. Leave the sauce a little loose, since it tightens as it cools.

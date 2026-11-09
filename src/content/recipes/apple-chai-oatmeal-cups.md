@@ -26,117 +26,56 @@ cuisines:
   - American
 role: main
 vibe: quick
-prepTime: 10 min
-cookTime: 19–21 min baking
-totalTime: 'About 40–45 min (includes 10 min in the tin), plus any remaining preheating'
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 45 min
 servings: 12 oatmeal cups
 pairsWith:
-  - banana-oat-greek-yogurt-muffins
-  - brownie-protein-balls
-  - easy-breakfast-yogurt-popsicles
+  - fluffy-scrambled-eggs
+  - green-smoothie-for-kids-with-2-hidden-veggies
+pairingNotes:
+  fluffy-scrambled-eggs: Adds protein for a fuller breakfast.
+  green-smoothie-for-kids-with-2-hidden-veggies: A quick drink to round out a grab-and-go morning.
 ingredients:
-  - 3 cups Rolled Oats (Old Fashioned)
-  - 1 tsp Baking Powder
-  - 1/2 tsp Kosher Salt
-  - '1 large Apple, finely minced'
-  - '1 large Banana, mashed'
-  - 1.5 cups Almond Milk or Whole Milk
-  - 2 large Eggs
-  - 2 tbsp Maple Syrup
-  - '1 tbsp Coconut Oil, melted'
-  - 1 tsp Cinnamon
-  - 1/2 tsp Cardamom
-  - 1/2 tsp Ginger powder
-  - 1/4 tsp Nutmeg
-  - 1/4 tsp Allspice
-  - Nonstick spray or a little oil for the muffin liners
+  - 3 cups old-fashioned rolled oats
+  - 1 tsp baking powder
+  - 1/2 tsp kosher salt
+  - '1 large apple, peeled and finely minced'
+  - '1 large ripe banana, mashed'
+  - 1 1/2 cups almond milk or whole milk
+  - 2 large eggs
+  - 2 tbsp maple syrup
+  - '1 tbsp coconut oil, melted'
+  - 1 tsp ground cinnamon
+  - 1/2 tsp ground cardamom
+  - 1/2 tsp ground ginger
+  - 1/4 tsp ground nutmeg
+  - 1/4 tsp ground allspice
+  - 'nonstick spray, for the liners'
 origin: United States
-source: Adapted from Fitfoodiefinds.com
-sourceUrl: 'https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups//'
+source: Adapted from Fit Foodie Finds
+sourceUrl: 'https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/'
 learning:
-  focus: 'Distribute spice and fruit through whole oats, then let cooked cups set.'
-  outcome: 'Moist, tender oatmeal cups that lift from their liners without wet centers.'
   techniques:
     - temperature
-  before:
-    - >-
-      Finely mince the apple and mash the banana; large fruit pieces change
-      portioning and the cooked texture.
-    - >-
-      The listed coconut oil goes into the mixture; liner grease is separate.
-      Whisk spices into warm oil without heating it until smoking.
-    - >-
-      Scale by using more or fewer wells of the same size. Keep the oven
-      temperature and ten-minute tin rest; additional batches add time.
-  checkpoints:
-    - step: 3
-      cue: All oats are moistened and the fruit and spiced oil are distributed.
-      why: >-
-        Complete mixing matters here; leaving dry oat patches does not make
-        these cups lighter.
-    - step: 5
-      cue: The center has set without liquid egg mixture.
-      why: A firm top can form before the center is cooked.
-    - step: 6
-      cue: Cups hold together when lifted after the tin rest.
-      why: Oats and egg structure firm as the cups cool.
-  troubleshooting:
-    - problem: Cups break when lifted
-      cause: They were lifted while very hot or their centers were underbaked.
-      fix: >-
-        Finish cooking the centers and give them the full tin rest before
-        lifting gently.
-    - problem: Spice or fruit gathers in a few cups
-      cause: The mixture was divided before it was evenly mixed.
-      fix: >-
-        Fold to distribute fruit and scrape all spiced oil into the bowl;
-        redistribute mixture across the wells.
-  substitutions:
-    - ingredient: Almond milk
-      alternative: The listed whole-milk option at the same volume
-      effect: Changes flavor and richness without changing the liquid measure.
-  timing: >-
-    Allow about 40–45 minutes as a preparation, bake and tin-rest subtotal: about
-    ten minutes preparation, 19–21 minutes baking and ten minutes standing in the
-    tin. The two-minute spice stand overlaps oat mixing. Start heating during
-    preparation, but load only once the oven reaches 350°F; any heating still
-    needed after prep extends elapsed time. A second tin batch and further cooling
-    for cold service add time.
   storage: >-
-    Refrigerate oatmeal cups within 2 hours, or 1 hour above 90°F, at 40°F or
-    below; use within 3–4 days. Freeze cooled individual cups airtight, thaw in
-    the refrigerator and reheat to 165°F throughout if serving hot. They can
-    also be served cold from the refrigerator.
-  sources:
-    - title: 'Lee Funke — Baked Apple Oatmeal Cups, Fit Foodie Finds'
-      url: 'https://fitfoodiefinds.com/video-meal-prep-apple-chai-oatmeal-cups/'
-    - title: FDA — Egg Safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
-    - title: USDA — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: FoodSafety.gov — Four Steps to Food Safety
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 4 days in the fridge and freezes for 3 months. Eat them cold or warm them in the
+    microwave for about 30 seconds.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Rolled oats stay visible in these moist apple-and-banana cups. Whisk the spices into the melted coconut oil to distribute them, then combine with the wet ingredients and oats. Cook the centers through and let the cups stand in the tin before lifting them; the warm mixture is delicate.
+These chai-spiced oatmeal cups from Fit Foodie Finds are a make-ahead breakfast that tastes good straight from the fridge. Whisking cardamom, ginger and allspice into warm coconut oil blooms them, so the spice runs evenly through every cup. Banana and eggs bind the oats into moist, sturdy cups.
 
 ## Directions
 
-1. **Prepare:** Preheat the oven to 350°F. Use a standard muffin tin, lining and lightly greasing enough wells for the listed planning cup count with the separate spray or oil allowance; the original batch plans twelve. Wash the apple, peel it and mince it finely; mash the banana.
-
-2. **Mix the spices and oats:** Whisk all the cinnamon, cardamom, ginger, nutmeg and allspice into the warm melted coconut oil and let stand for 2 minutes while mixing the oats, baking powder and salt in a large bowl. The measured coconut oil all belongs in the batter.
-
-3. **Combine the wet ingredients:** Whisk the banana, eggs, milk and maple syrup until combined. Stir in all the spiced oil, then pour over the oats. Fold in all the minced apple until the oats are evenly moistened; this mixture keeps whole oat pieces.
-
-4. **Portion:** Divide the mixture evenly across the listed planning number of prepared wells, redistributing fruit and liquid as needed. The original batch plans twelve cups. Leave room for the mixture to rise; if the actual wells cannot hold it, use additional prepared wells or another batch rather than discard batter.
-
-5. **Bake:** Load only once the oven has reached 350°F. Bake for about 19–21 minutes, until the tops are firm and the centers are set without liquid egg mixture. Check the middle of a cup, rather than only its browned surface; an egg-dish center should reach 160°F. Tin size and extra batches can change the time.
-
-6. **Cool and store:** Let the cups stand in the tin for 10 minutes before lifting them onto a rack. Serve warm or cool them further for cold service. Refrigerate promptly in a covered container once manageable.
+1. **Heat the oven:** Heat the oven to 350°F. Line a 12-cup muffin tin with paper liners and coat them lightly with nonstick spray.
+2. **Bloom the spices:** In a small bowl, whisk the cinnamon, cardamom, ginger, nutmeg and allspice into the warm coconut oil. Let stand for 2 minutes.
+3. **Mix the oats:** In a large bowl, stir together the oats, baking powder and salt.
+4. **Mix the wet ingredients:** In another bowl, whisk the banana, eggs, milk and maple syrup. Whisk in the spiced oil.
+5. **Combine:** Pour the wet mixture over the oats. Fold in the apple until every oat is moistened.
+6. **Bake:** Divide the mixture among the muffin cups. Bake until the tops are firm and golden and the centers are set, about 20 minutes.
+7. **Cool:** Let the cups stand in the tin for 10 minutes to set, then lift them onto a rack.

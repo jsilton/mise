@@ -22,8 +22,8 @@ cuisines:
 role: main
 vibe: technical
 prepTime: 45 min
-cookTime: 'About 3 hr, plus extra frying or oven rounds'
-totalTime: About 4 hr
+cookTime: 3 hr 15 min
+totalTime: 4 hr
 servings: 8 portions
 seasons:
   - year-round
@@ -35,38 +35,38 @@ advancePrep:
   - make-ahead
 pairsWith:
   - everyday-arugula-salad
-  - garlic-bread
+  - roasted-broccolini-with-lemon
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon cut the rich bake.
+  roasted-broccolini-with-lemon: A bright green vegetable beside the ragù.
 ingredients:
   - '--- Ragù ---'
   - 2 tbsp extra-virgin olive oil
   - '1 medium carrot, peeled and finely chopped'
   - '1 medium celery stalk, finely chopped'
   - '1/2 medium onion, finely chopped'
-  - 'sea salt and freshly ground black pepper, to taste'
   - 8 oz ground beef
   - 8 oz ground pork
+  - 'sea salt and freshly ground black pepper, to taste'
   - 1/2 cup dry red wine
   - 1/2 tsp ground cinnamon
-  - 'finely grated nutmeg, a pinch'
-  - >-
-    1 1/2 cans (28 oz) whole peeled tomatoes with their juices, coarsely chop tomatoes and reserve
-    all juices
+  - 'freshly grated nutmeg, a pinch'
+  - '1 1/2 cans (28 oz) whole peeled tomatoes, coarsely chopped, with their juices'
   - 3/4 cup frozen or fresh peas
   - '--- Fried eggplant ---'
-  - '1 medium eggplant, about 12 oz for the original batch, cut into 1/2-inch cubes'
-  - 'salt, for draining the eggplant'
-  - 'vegetable oil, for a 1-inch frying layer in a suitable deep skillet, replenished as needed'
+  - '1 medium eggplant, about 12 oz, cut into 1/2-inch cubes'
+  - 'salt, for salting the eggplant'
+  - 'vegetable oil, for frying'
   - '--- Pasta and layers ---'
-  - 1 lb dry anelletti or other small pasta
-  - 'water and salt, for boiling pasta'
-  - '4 large hard-boiled eggs, coarsely chopped'
-  - '6 oz fully cooked deli ham, cut into 1/4-inch cubes'
-  - '12 oz primosale or provolone, cut into 1/4-inch cubes'
-  - 1/2 cup finely grated caciocavallo or Pecorino Romano
-  - 2 tbsp bread crumbs
-  - 'olive oil or lard, for greasing the baking dishes'
+  - 1 lb anelletti
+  - 'olive oil, for the dish'
+  - 2 tbsp plain dry bread crumbs
+  - '4 large hard-boiled eggs, peeled and coarsely chopped'
+  - '6 oz cooked ham, cut into 1/4-inch cubes'
+  - '12 oz primosale, cut into 1/4-inch cubes'
+  - '1/2 cup caciocavallo, finely grated'
 origin: Italy
-source: Adapted from saveur.com
+source: Adapted from Saveur
 sourceUrl: 'https://www.saveur.com/recipes/anelletti-al-forno-recipe/'
 formula:
   version: 1
@@ -84,7 +84,7 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: ragu
+            - step: soffritto
               share: 1
         - id: carrot
           key: carrot
@@ -93,7 +93,7 @@ formula:
             amount: 1
             unit: count
           uses:
-            - step: ragu
+            - step: soffritto
               share: 1
           plural: medium carrots
           preparation: peeled and finely chopped
@@ -104,7 +104,7 @@ formula:
             amount: 1
             unit: count
           uses:
-            - step: ragu
+            - step: soffritto
               share: 1
           plural: medium celery stalks
           preparation: finely chopped
@@ -115,17 +115,10 @@ formula:
             amount: 1/2
             unit: count
           uses:
-            - step: ragu
+            - step: soffritto
               share: 1
           plural: medium onions
           preparation: finely chopped
-        - id: seasoning
-          key: salt-pepper
-          name: sea salt and freshly ground black pepper
-          allowance: to taste
-          uses:
-            - step: ragu
-              share: 1
         - id: beef
           key: ground-beef
           name: ground beef
@@ -133,7 +126,7 @@ formula:
             amount: 8
             unit: oz
           uses:
-            - step: ragu
+            - step: brown
               share: 1
         - id: pork
           key: ground-pork
@@ -142,7 +135,14 @@ formula:
             amount: 8
             unit: oz
           uses:
-            - step: ragu
+            - step: brown
+              share: 1
+        - id: seasoning
+          key: salt-pepper
+          name: sea salt and freshly ground black pepper
+          allowance: to taste
+          uses:
+            - step: brown
               share: 1
         - id: wine
           key: red-wine
@@ -151,7 +151,7 @@ formula:
             amount: 1/2
             unit: cup
           uses:
-            - step: ragu
+            - step: wine
               share: 1
         - id: cinnamon
           key: cinnamon
@@ -160,28 +160,28 @@ formula:
             amount: 1/2
             unit: tsp
           uses:
-            - step: ragu
+            - step: simmer
               share: 1
         - id: nutmeg
           key: nutmeg
-          name: finely grated nutmeg
+          name: freshly grated nutmeg
           allowance: a pinch
           uses:
-            - step: ragu
+            - step: simmer
               share: 1
         - id: tomatoes
           key: whole-tomatoes
-          name: whole peeled tomatoes with their juices
+          name: whole peeled tomatoes
           quantity:
             amount: 1 1/2
             unit: can
           uses:
-            - step: ragu
+            - step: simmer
               share: 1
           packageSize:
             amount: 28
             unit: oz
-          preparation: coarsely chop tomatoes and reserve all juices
+          preparation: 'coarsely chopped, with their juices'
         - id: peas
           key: peas
           name: frozen or fresh peas
@@ -189,7 +189,7 @@ formula:
             amount: 3/4
             unit: cup
           uses:
-            - step: ragu
+            - step: peas
               share: 1
     - id: eggplant
       name: Fried eggplant
@@ -201,44 +201,52 @@ formula:
             amount: 1
             unit: count
           uses:
-            - step: eggplant
+            - step: salt
               share: 1
           plural: medium eggplants
-          preparation: 'about 12 oz for the original batch, cut into 1/2-inch cubes'
+          preparation: 'about 12 oz, cut into 1/2-inch cubes'
         - id: salt
           key: salt
           name: salt
-          allowance: for draining the eggplant
+          allowance: for salting the eggplant
           uses:
-            - step: eggplant
+            - step: salt
               share: 1
         - id: oil
           key: frying-oil
           name: vegetable oil
-          allowance: 'for a 1-inch frying layer in a suitable deep skillet, replenished as needed'
+          allowance: for frying
           uses:
-            - step: eggplant
+            - step: fry
               share: 1
     - id: bake
       name: Pasta and layers
       ingredients:
         - id: pasta
           key: anelletti
-          name: dry anelletti or other small pasta
+          name: anelletti
           quantity:
             amount: 1
             unit: lb
           uses:
             - step: pasta
               share: 1
-        - id: water
-          key: water
-          name: water and salt
-          allowance: for boiling pasta
+        - id: grease
+          key: olive-oil
+          name: olive oil
+          allowance: for the dish
           uses:
-            - step: pasta
+            - step: dish
               share: 1
-          role: cooking-water
+        - id: crumbs
+          key: bread-crumbs
+          name: plain dry bread crumbs
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: dish
+              share: 1
         - id: eggs
           key: hard-boiled-eggs
           name: large hard-boiled egg
@@ -249,10 +257,10 @@ formula:
             - step: layer
               share: 1
           plural: large hard-boiled eggs
-          preparation: coarsely chopped
+          preparation: peeled and coarsely chopped
         - id: ham
           key: deli-ham
-          name: fully cooked deli ham
+          name: cooked ham
           quantity:
             amount: 6
             unit: oz
@@ -262,7 +270,7 @@ formula:
           preparation: cut into 1/4-inch cubes
         - id: cheese
           key: provolone
-          name: primosale or provolone
+          name: primosale
           quantity:
             amount: 12
             unit: oz
@@ -272,165 +280,118 @@ formula:
           preparation: cut into 1/4-inch cubes
         - id: grating-cheese
           key: grating-cheese
-          name: finely grated caciocavallo or Pecorino Romano
+          name: caciocavallo
           quantity:
             amount: 1/2
             unit: cup
           uses:
             - step: layer
               share: 1
-        - id: crumbs
-          key: bread-crumbs
-          name: bread crumbs
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: layer
-              share: 1
-        - id: grease
-          key: olive-oil
-          name: olive oil or lard
-          allowance: for greasing the baking dishes
-          uses:
-            - step: layer
-              share: 1
+          preparation: finely grated
   steps:
-    - id: ragu
-      title: Cook the ragù
+    - id: soffritto
+      title: Soften the vegetables
       text: >-
-        Use {{ingredients}} in this sequence. Heat the oil over medium heat in a roomy pot, add the
-        carrot, celery and onion with some seasoning, and cook about 20 minutes until soft without
-        requiring browned edges. Add the beef and pork, season and break up over medium-high heat
-        until browned, about 5–8 minutes. Add all wine and scrape the pot; cook until most free wine
-        evaporates, often about 6 minutes. Add cinnamon, nutmeg and all tomatoes and reserved
-        juices. Bring to a simmer, partially cover and cook on low at a bare simmer about 2 hours
-        until the meat is tender and sauce thickened, stirring as needed. Confirm ground meat
-        reaches at least 160°F before tasting. Stir in all peas, heat through and adjust the listed
-        seasoning.
-    - id: eggplant
-      title: Drain and fry the eggplant
+        Warm {{ingredients}} in a large, heavy pot over medium heat. Cook, stirring now and then,
+        until the vegetables are very soft but not browned, about 20 minutes.
+    - id: brown
+      title: Brown the meat
       text: >-
-        While the ragù simmers, use {{ingredients}} for the eggplant. Salt and toss the cubes in a
-        colander, place a plate and clean weight over them and drain for 1 hour. Pat away surface
-        moisture before lowering into hot oil. Use a deep skillet and its safe fill/headroom; heat
-        the 1-inch oil layer over medium-high until shimmering, not smoking. Fry uncrowded rounds,
-        turning until deep golden and tender, starting checks around 8–10 minutes per original-size
-        round. Lift onto absorbent paper towels and repeat with all cubes, adding frying oil only as
-        needed.
+        Turn the heat to medium-high. Add {{ingredients}}. Cook, breaking up the meat with a spoon,
+        until it is browned, 5 to 8 minutes.
+    - id: wine
+      title: Reduce the wine
+      text: >-
+        Pour in {{ingredients}} and scrape up the browned bits from the bottom of the pot. Simmer
+        until the wine has almost cooked away, about 6 minutes.
+    - id: simmer
+      title: Simmer the ragù
+      text: >-
+        Add {{ingredients}} and their juices. Bring to a simmer, partly cover and cook over low heat
+        at a bare simmer, stirring now and then, until the ragù is thick and the meat is tender,
+        about 2 hours.
+    - id: salt
+      title: Salt the eggplant
+      text: >-
+        While the ragù simmers, toss {{ingredients}} together in a colander. Set a plate and a heavy
+        can on top and let drain for 1 hour. Pat the cubes dry with paper towels.
+    - id: fry
+      title: Fry the eggplant
+      text: >-
+        Heat 1 inch of {{ingredients}} in a deep skillet over medium-high heat until it shimmers.
+        Fry the eggplant in batches without crowding, turning, until deep golden and tender, 8 to 10
+        minutes per batch. Drain on paper towels.
+    - id: peas
+      title: Finish the ragù
+      text: >-
+        Stir {{ingredients}} into the ragù and simmer until tender, about 5 minutes. Taste and add
+        more salt and pepper if needed.
     - id: pasta
-      title: Cook and dress pasta
+      title: Boil the pasta
       text: >-
-        Heat the oven to 350°F. Use {{ingredients}} for pasta cooking, stopping at al dente
-        according to the actual package. Drain and return to a roomy pot. For the original batch,
-        stir in 4 cups of the finished ragù and all the fried eggplant; scale that finished-sauce
-        target proportionally with the listed dry pasta. Reserve any extra ragù separately for
-        another use rather than forcing it into the baking dish. The cooked ragù volume is a source
-        planning target, not a measured output guaranteed by the raw ingredient quantities.
+        Heat the oven to 350°F. Cook the {{ingredients}} in a large pot of well-salted boiling water
+        until 2 minutes short of al dente. Drain and return it to the pot.
+    - id: dress
+      title: Dress the pasta
+      text: >-
+        Stir in all the fried eggplant and enough ragù to coat the pasta generously. Keep the rest
+        of the ragù warm for serving.
+    - id: dish
+      title: Coat the dish
+      text: >-
+        Coat a deep 9x13-inch baking dish with {{ingredients}}, oiling it first and then tilting it
+        so the crumbs stick to the bottom and sides. Tap the loose crumbs into a small bowl.
     - id: layer
-      title: Coat the dishes and layer
+      title: Layer the bake
       text: >-
-        Use {{ingredients}} for the complete layered bake. For the original batch the source uses a
-        greased 9-by-13-inch dish; check actual depth and headroom and use additional or smaller
-        suitable dishes as needed. Coat the greased inside with the full crumb supply, shaking
-        excess into a clean bowl to reserve for the top. Spread half the dressed pasta across the
-        dishes. Distribute all chopped eggs and ham and half of each cheese over it. Cover with the
-        remaining pasta, then all remaining cheese and any reserved crumbs. Divide every component
-        between the dishes; do not overfill or discard layers to force a fit.
+        Spread half the pasta in the dish. Scatter {{ingredients}} over it, using half of each
+        cheese. Top with the rest of the pasta, the rest of the cheese and the saved crumbs.
     - id: bake
-      title: Bake and check
-      text: >-
-        Bake at 350°F, beginning checks around 30 minutes for the original-depth warm assembly,
-        until cheese is melted and the bake bubbles. Check several central locations in every dish
-        reach at least 165°F; a melted top alone is not the casserole endpoint. Cold or deeper
-        assemblies can take longer.
+      title: Bake
+      text: 'Bake until the cheese has melted and the edges are bubbling, about 30 minutes.'
     - id: rest
       title: Rest and serve
       text: >-
-        Rest at least 15 minutes before serving. The layers settle, but the degree of clean slicing
-        depends on pasta shape, moisture and dish depth; no firm cake-like slice is guaranteed.
+        Let the bake rest for 15 minutes so the layers settle. Cut into squares and serve with the
+        warm ragù spooned over.
 learning:
-  focus: Build the ragù and layers without losing ingredients
-  outcome: 'Tender pasta and eggplant with full ham, egg and cheese layers, rested before serving.'
   techniques:
     - temperature
     - starch
-  before:
-    - >-
-      The original batch uses a 9-by-13-inch dish, but its actual depth matters. Use additional
-      dishes when necessary and divide every layer between them. Smaller batches need suitable
-      smaller dishes, not an assumption of identical baking time.
-    - >-
-      For the original batch, mix 4 cups finished ragù into 1 lb pasta, reserving extra sauce. The
-      source's 2 lb of pasta is too much for this ragù and dish, so it bakes dry and overflows a
-      9-by-13. The 4 cups is a finished-sauce planning target, not a guaranteed raw-formula yield.
-  checkpoints:
-    - step: 5
-      cue: Every tested central location reaches 165°F before resting.
-      why: Melted cheese does not establish the temperature through a deep assembled casserole.
-  troubleshooting:
-    - problem: The dressed pasta will not fit the dish
-      cause: Actual dish depth and the volume of pasta and layers differ from the source plan.
-      fix: >-
-        Use another suitable dish and divide all layers between them; do not discard ham, egg or
-        cheese to force a fit.
-  timing: >-
-    Allow about 4 hours including preparation, roughly 2 hours ragù simmering, the overlapping
-    1-hour eggplant drain, frying rounds, pasta cooking, assembly, about 30 minutes baking and at
-    least 15 minutes rest. Extra frying or oven rounds add elapsed time.
-  storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F
-    / 4°C or below. Use within 3–4 days and reheat the portion being served to 165°F / 74°C
-    throughout. Stored pasta softens; reheating does not reproduce the first-cook texture.
   substitutions:
-    - ingredient: Tomato-and-ham source route
-      alternative: Tomato-paste and pancetta-or-ham variation
-      effect: >-
-        For an original 1 lb dry-pasta batch, use 28 oz whole peeled tomatoes with all juices
-        instead of 42 oz, one small onion instead of half a medium onion, and brown the same 1/2 lb
-        beef and 1/2 lb pork, deglaze with the full 1/2 cup wine, then add 3 tbsp tomato paste.
-        Replace 6 oz deli ham with 2 oz ready-to-eat ham, layered with the same four cooked eggs, or
-        2 oz pancetta cooked completely according to its actual package first, retaining its fat
-        with the ragù. For this complete variation use the source’s 2 tbsp base oil, one carrot, one
-        celery stalk, 1/2 tsp cinnamon, pinch nutmeg, 3/4 cup peas and one eggplant. For this
-        variation, salt eggplant for 30 minutes, rinse and pat thoroughly dry before the same
-        uncrowded frying. Cook the pasta about 2 minutes short of its package time. Use 12 oz
-        provolone or caciocavallo plus 1/2 cup Parmesan, each half inside and half on top, with the
-        same full 2 tbsp crumbs and separate pan grease. Use the same 350°F bake, measured 165°F
-        center checks and 15-minute rest. The smaller tomato supply may produce less than the
-        original 4-cup ragù target: use its actual finished ragù to coat the pasta rather than
-        adding invented liquid or treating the two sauces as equal yields. Reserve extra sauce if
-        present. Scale all measured variation quantities proportionally; actual sauce coverage and
-        dish capacity need checking.
-    - ingredient: Ragù olive oil
-      alternative: Source lard option
-      effect: >-
-        Replace the listed 2 tbsp olive oil with the same listed amount of lard. All other ragù
-        ingredients and steps remain unchanged; pan grease remains a separate allowance.
-  sources:
-    - title: Saveur
-      url: 'https://www.saveur.com/recipes/anelletti-al-forno-recipe/'
-    - title: FDAHandling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FoodSafetyTemp
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: anelletti
+      alternative: Ditalini
+      effect: Ditalini or small shells hold the ragù the same way as the little rings.
+    - ingredient: primosale
+      alternative: Mild provolone
+      effect: "Melts the same way, with a little more tang than the fresh Sicilian sheep's milk cheese."
+    - ingredient: caciocavallo
+      alternative: Pecorino Romano
+      effect: 'Sharper and saltier, so taste the ragù before adding more salt.'
+  storage: >-
+    Keeps 4 days in the fridge and freezes for 2 months. Reheat covered at 350°F until hot through,
+    about 30 minutes.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The ragù, fried eggplant, eggs, ham and two cheeses each have a place in the layers. The source-rich tomato-and-ham route below is distinct from the tomato-paste and pancetta-or-ham variation; its larger tomato and ham supplies are not equivalent yields. Reserve extra finished ragù rather than forcing every drop into the dish.
+Anelletti al forno is the Sunday pasta bake of Palermo. Little pasta rings are baked with a cinnamon-scented ragù, fried eggplant, ham, eggs and two Sicilian cheeses. Frying the eggplant until deep golden gives the bake its sweetness, and a coat of bread crumbs in the dish crisps the edges.
 
 ## Directions
 
-1. **Cook the ragù:** Use extra-virgin olive oil, medium carrot, medium celery stalk, medium onion, sea salt and freshly ground black pepper, ground beef, ground pork, dry red wine, ground cinnamon, finely grated nutmeg, whole peeled tomatoes with their juices, and frozen or fresh peas in this sequence. Heat the oil over medium heat in a roomy pot, add the carrot, celery and onion with some seasoning, and cook about 20 minutes until soft without requiring browned edges. Add the beef and pork, season and break up over medium-high heat until browned, about 5–8 minutes. Add all wine and scrape the pot; cook until most free wine evaporates, often about 6 minutes. Add cinnamon, nutmeg and all tomatoes and reserved juices. Bring to a simmer, partially cover and cook on low at a bare simmer about 2 hours until the meat is tender and sauce thickened, stirring as needed. Confirm ground meat reaches at least 160°F before tasting. Stir in all peas, heat through and adjust the listed seasoning.
-2. **Drain and fry the eggplant:** While the ragù simmers, use medium eggplant, salt, and vegetable oil for the eggplant. Salt and toss the cubes in a colander, place a plate and clean weight over them and drain for 1 hour. Pat away surface moisture before lowering into hot oil. Use a deep skillet and its safe fill/headroom; heat the 1-inch oil layer over medium-high until shimmering, not smoking. Fry uncrowded rounds, turning until deep golden and tender, starting checks around 8–10 minutes per original-size round. Lift onto absorbent paper towels and repeat with all cubes, adding frying oil only as needed.
-3. **Cook and dress pasta:** Heat the oven to 350°F. Use dry anelletti or other small pasta and water and salt for pasta cooking, stopping at al dente according to the actual package. Drain and return to a roomy pot. For the original batch, stir in 4 cups of the finished ragù and all the fried eggplant; scale that finished-sauce target proportionally with the listed dry pasta. Reserve any extra ragù separately for another use rather than forcing it into the baking dish. The cooked ragù volume is a source planning target, not a measured output guaranteed by the raw ingredient quantities.
-4. **Coat the dishes and layer:** Use large hard-boiled eggs, fully cooked deli ham, primosale or provolone, finely grated caciocavallo or Pecorino Romano, bread crumbs, and olive oil or lard for the complete layered bake. For the original batch the source uses a greased 9-by-13-inch dish; check actual depth and headroom and use additional or smaller suitable dishes as needed. Coat the greased inside with the full crumb supply, shaking excess into a clean bowl to reserve for the top. Spread half the dressed pasta across the dishes. Distribute all chopped eggs and ham and half of each cheese over it. Cover with the remaining pasta, then all remaining cheese and any reserved crumbs. Divide every component between the dishes; do not overfill or discard layers to force a fit.
-5. **Bake and check:** Bake at 350°F, beginning checks around 30 minutes for the original-depth warm assembly, until cheese is melted and the bake bubbles. Check several central locations in every dish reach at least 165°F; a melted top alone is not the casserole endpoint. Cold or deeper assemblies can take longer.
-6. **Rest and serve:** Rest at least 15 minutes before serving. The layers settle, but the degree of clean slicing depends on pasta shape, moisture and dish depth; no firm cake-like slice is guaranteed.
+1. **Soften the vegetables:** Warm extra-virgin olive oil, medium carrot, medium celery stalk, and medium onion in a large, heavy pot over medium heat. Cook, stirring now and then, until the vegetables are very soft but not browned, about 20 minutes.
+2. **Brown the meat:** Turn the heat to medium-high. Add ground beef, ground pork, and sea salt and freshly ground black pepper. Cook, breaking up the meat with a spoon, until it is browned, 5 to 8 minutes.
+3. **Reduce the wine:** Pour in dry red wine and scrape up the browned bits from the bottom of the pot. Simmer until the wine has almost cooked away, about 6 minutes.
+4. **Simmer the ragù:** Add ground cinnamon, freshly grated nutmeg, and whole peeled tomatoes and their juices. Bring to a simmer, partly cover and cook over low heat at a bare simmer, stirring now and then, until the ragù is thick and the meat is tender, about 2 hours.
+5. **Salt the eggplant:** While the ragù simmers, toss medium eggplant and salt together in a colander. Set a plate and a heavy can on top and let drain for 1 hour. Pat the cubes dry with paper towels.
+6. **Fry the eggplant:** Heat 1 inch of vegetable oil in a deep skillet over medium-high heat until it shimmers. Fry the eggplant in batches without crowding, turning, until deep golden and tender, 8 to 10 minutes per batch. Drain on paper towels.
+7. **Finish the ragù:** Stir frozen or fresh peas into the ragù and simmer until tender, about 5 minutes. Taste and add more salt and pepper if needed.
+8. **Boil the pasta:** Heat the oven to 350°F. Cook the anelletti in a large pot of well-salted boiling water until 2 minutes short of al dente. Drain and return it to the pot.
+9. **Dress the pasta:** Stir in all the fried eggplant and enough ragù to coat the pasta generously. Keep the rest of the ragù warm for serving.
+10. **Coat the dish:** Coat a deep 9x13-inch baking dish with olive oil and plain dry bread crumbs, oiling it first and then tilting it so the crumbs stick to the bottom and sides. Tap the loose crumbs into a small bowl.
+11. **Layer the bake:** Spread half the pasta in the dish. Scatter large hard-boiled eggs, cooked ham, primosale, and caciocavallo over it, using half of each cheese. Top with the rest of the pasta, the rest of the cheese and the saved crumbs.
+12. **Bake:** Bake until the cheese has melted and the edges are bubbling, about 30 minutes.
+13. **Rest and serve:** Let the bake rest for 15 minutes so the layers settle. Cut into squares and serve with the warm ragù spooned over.
