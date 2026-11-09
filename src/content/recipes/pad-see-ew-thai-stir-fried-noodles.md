@@ -35,133 +35,73 @@ equipment:
   - instant-read-thermometer
 pairsWith:
   - smashed-cucumber-salad
+  - thai-mango-salad
+pairingNotes:
+  smashed-cucumber-salad: 'Cool, garlicky crunch against the sweet soy noodles.'
+  thai-mango-salad: 'A bright, sour salad to cut the rich sauce.'
 ingredients:
   - '--- Chicken ---'
-  - '750 g boneless skinless chicken thighs, sliced about 1/4 inch thick'
-  - '1 tbsp regular soy sauce, for the chicken'
+  - '1 2/3 lb boneless, skinless chicken thighs, sliced 1/4 inch thick'
+  - 1 tbsp soy sauce
   - 1 tsp cornstarch
-  - '1 tsp neutral oil, for the chicken'
-  - '--- Noodles, vegetables and eggs ---'
-  - 1000 g fresh wide rice noodles (sen yai); see dried-noodle substitution
-  - >-
-    500 g Chinese broccoli (gai lan), trimmed; thick stems sliced 1/4 inch thick and leaves cut into
-    2-inch pieces
-  - '4 cloves garlic, finely chopped'
-  - '3 large eggs, beaten'
-  - '4 tbsp neutral oil, for cooking, divided'
-  - '2 tbsp water, for steaming the broccoli, plus small splashes if needed'
+  - 1 tsp neutral oil
   - '--- Sauce ---'
-  - 4 tbsp oyster sauce
-  - 2 tbsp regular soy sauce
+  - 1/4 cup oyster sauce
+  - 2 tbsp soy sauce
   - 2 tbsp Thai sweet dark soy sauce
   - 1 tsp sugar
-  - '2 tbsp water, for the sauce'
+  - 2 tbsp water
   - 1/4 tsp ground white pepper
+  - '--- Noodles ---'
+  - 2 lb fresh wide rice noodles (sen yai)
+  - '1 lb Chinese broccoli (gai lan), stems sliced 1/4 inch thick, leaves cut into 2-inch pieces'
+  - '4 garlic cloves, finely chopped'
+  - '3 large eggs, beaten'
+  - 1/4 cup neutral oil
+  - '2 tbsp water, for steaming'
   - '--- At the table ---'
-  - '1 tbsp unseasoned rice vinegar, optional, divided among plates to taste'
-description: >-
-  Soy-seasoned wide rice noodles with chicken, Chinese broccoli, and egg, finished in five small
-  batches for a home stove.
+  - rice vinegar (optional)
+description: 'Soy-glazed wide rice noodles stir-fried with chicken, Chinese broccoli and egg.'
 learning:
-  focus: Give tender rice noodles space and brief contact with the pan
-  outcome: >-
-    Broad, intact noodles with a savory-sweet soy coating and some toasted patches, tender chicken,
-    set egg, and Chinese broccoli with a bite.
   techniques:
     - stir-frying
     - temperature
     - seasoning
-  before:
-    - >-
-      Set out five portions of noodles, sauce and cooked ingredients before the final stir-frying.
-      Five servings do not belong in one home skillet at once.
-    - >-
-      Use Thai sweet dark soy as specified when you can find it. Chinese dark soy and Indonesian
-      kecap manis differ in salt and sweetness, so use the adjusted amounts in the substitutions.
-  checkpoints:
-    - step: 3
-      cue: Thick chicken slices reach 165°F / 74°C before removal.
-      why: >-
-        The quick final noodle finish should rewarm cooked meat, not compensate for partly cooked
-        chicken.
-    - step: 4
-      cue: >-
-        Broccoli stems are tender with a little resistance, leaves are wilted, and eggs have no wet
-        raw streaks.
-      why: >-
-        Preparing these components separately prevents hard stems or raw egg from forcing extra
-        noodle cooking.
-    - step: 5
-      cue: 'A single portion is evenly coated, with a few toasted spots and no burnt sauce smell.'
-      why: >-
-        Small batches lose moisture faster. Gentle lifting preserves the rice-noodle structure once
-        it softens.
-  troubleshooting:
-    - problem: Sauce burns before noodles warm
-      cause: Heat was too high for the sugar concentration or the pan was dry.
-      fix: >-
-        Lower heat and add a small splash of water. Wipe out blackened residue before the next
-        batch; aim for occasional toasted patches, not a black crust.
-    - problem: Noodles clump or tear
-      cause: 'They were cold and stiff, overhydrated, or tossed roughly.'
-      fix: >-
-        Warm stiff fresh noodles briefly according to the package before separating. Fold with a
-        broad spatula and cook one portion at a time.
-    - problem: The dish is too sweet
-      cause: Sweet soy brands vary or an especially sweet substitute was used.
-      fix: >-
-        Use the optional vinegar sparingly at the table; next time reduce the added sugar or sweet
-        soy after testing one portion. More vinegar does not remove sugar.
   substitutions:
-    - ingredient: 1000 g fresh wide rice noodles
-      alternative: 375 g dried extra-wide rice noodles
+    - ingredient: Fresh wide rice noodles (sen yai)
+      alternative: 12 oz dried extra-wide rice noodles
       effect: >-
-        Provides five practical portions with a different texture and variable hydrated yield.
-        Follow package stir-fry preparation until just tender through the center, rinse if directed
-        and drain well; divide into five before frying.
+        Soak them in hot tap water until pliable but still firm in the center, 15 to 25 minutes,
+        then drain well. They are a little chewier than fresh.
     - ingredient: Thai sweet dark soy sauce
-      alternative: >-
-        2 tbsp kecap manis (Indonesian sweet soy), or 1 1/2 tbsp Chinese dark soy sauce plus 2 tsp
-        brown sugar or molasses
+      alternative: Kecap manis or Chinese dark soy sauce
       effect: >-
-        Both give the dark color and caramel sweetness. Kecap manis is sweeter, so leave out the
-        1 tsp sugar and taste the first portion. Chinese dark soy is saltier and less sweet, which
-        is why it needs the added sugar.
-    - ingredient: Chinese broccoli
-      alternative: '500 g broccolini, thick stems thinly sliced'
-      effect: Less leafy and generally less bitter. Check stems for tenderness before adding to noodles.
-  timing: >-
-    About 65 minutes allows preparation, two chicken batches, separate vegetables and eggs, and five
-    final batches of roughly 3–4 minutes. Dried-noodle soaking may add time. Serve portions as they
-    finish.
+        Use 2 tbsp kecap manis and leave out the sugar. Or use 1 1/2 tbsp Chinese dark soy with 2
+        tsp brown sugar, since it is saltier and less sweet.
+    - ingredient: Chinese broccoli (gai lan)
+      alternative: Broccolini
+      effect: Less leafy and less bitter. Slice the thick stems thin so they cook in time.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Fresh noodle texture deteriorates
-    after chilling; use leftovers the next day for best quality and reheat with a small splash of
-    water.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Pailin Chongchitnant — Pad see ew: fresh noodles and single-portion stir-frying'
-      url: 'https://hot-thai-kitchen.com/pad-see-ew-new/'
+    Best right after cooking. Leftovers keep 2 days in the fridge. Reheat them in a hot skillet with
+    a splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from recipetineats.com
+    date: '2026-11-09'
+source: Adapted from RecipeTin Eats
 sourceUrl: 'https://www.recipetineats.com/thai-stir-fried-noodles-pad-see-ew/'
 ---
 
 ## Chef's Note
 
-Soy-seasoned rice noodles, Chinese broccoli, chicken and egg make five portions of pad see ew. Cook the vegetables and eggs first, then finish each portion separately so the noodles have room to brown. Offer a little vinegar at the table so each diner can adjust the sweetness and acidity.
+Pad see ew is a Thai street-food classic of wide fresh rice noodles stir-fried with soy sauce, Chinese broccoli, egg and chicken. Thai sweet dark soy gives it the deep color and caramel flavor. Fry the noodles a serving or two at a time so they toast in spots instead of steaming.
 
 ## Directions
 
-1. **Prepare chicken and noodles:** Toss chicken with marinade soy, cornstarch, and its teaspoon of oil; refrigerate during preparation. Gently separate flexible fresh noodles and divide into five 200 g portions. If cold and stiff, warm briefly according to their package before separating. Use the substitution instructions for dried noodles.
-2. **Organize sauce and vegetables:** Mix oyster sauce, sauce soy, Thai sweet dark soy, sugar, sauce water, and white pepper until uniform. Cut broccoli, keeping stems and leaves separate. Chop garlic and beat the eggs.
-3. **Cook chicken in two batches:** Heat 1 1/2 tsp cooking oil in a large skillet or wok over medium-high heat. Spread half the chicken in one layer. Leave 1–2 minutes, then turn and stir-fry until several thick slices reach 165°F / 74°C, about 4–6 minutes total. Transfer to a clean bowl. Repeat with another 1 1/2 tsp oil and the rest of the chicken.
-4. **Cook vegetables and eggs:** Reduce heat to medium. Add 2 tsp oil and stir garlic for about 30 seconds until fragrant. Add broccoli stems and the steaming water; cover for about 2–3 minutes, until stems are almost tender. Uncover, add leaves and stir-fry 1–2 minutes until wilted and water has evaporated. Transfer to a bowl. Add 1 tsp oil, then beaten eggs; stir gently until fully set with no wet streaks, about 1–2 minutes. Transfer out. Divide chicken, broccoli, egg, and well-stirred sauce into five portions.
-5. **Finish one serving:** Heat about one-fifth of the remaining 2 tbsp oil in the skillet over medium-high heat. Add one noodle portion and one sauce portion. Lift and fold gently to coat, then spread and leave about 15–20 seconds. Turn and repeat once or twice for a few toasted patches, reducing heat if sauce starts to burn. Add one portion each of chicken, broccoli and egg with their share of any cooking juices. Fold until hot throughout, about 3–4 minutes total for this final batch. Add a small splash of water only if the noodles need loosening.
-6. **Taste, plate, and repeat:** Taste the first portion and adjust the remaining sauce if necessary. Plate promptly and repeat step 5 four more times. Offer the measured vinegar at the table in small amounts. Serve plates as they finish, with an optional cool cucumber side; the main already contains its noodles, protein and vegetables.
+1. **Marinate the chicken:** Toss the chicken with the soy sauce, cornstarch and oil for the chicken. Let it sit while you prepare everything else.
+2. **Mix the sauce:** Stir the oyster sauce, soy sauce, sweet dark soy, sugar, water and white pepper in a small bowl until the sugar dissolves.
+3. **Loosen the noodles:** Gently pull the fresh noodles apart into strands. If they are cold and stiff, microwave them for 30 seconds first so they don't tear.
+4. **Cook the chicken:** Heat a little of the cooking oil in a 12-inch skillet or wok over medium-high heat. Cook the chicken in two batches, letting it sit for 1 minute before stirring, until browned and cooked through, 4 to 6 minutes per batch. Move it to a large bowl.
+5. **Cook the broccoli:** Turn the heat to medium. Add a little more oil and the garlic and stir for 30 seconds. Add the broccoli stems and the water for steaming, cover and cook until almost tender, 2 to 3 minutes. Uncover, add the leaves and stir-fry until wilted and the pan is dry, 1 to 2 minutes. Add to the bowl with the chicken.
+6. **Scramble the eggs:** Add a little oil and the eggs. Stir gently until just set, 1 to 2 minutes, and add them to the bowl.
+7. **Fry the noodles:** Heat a little more oil over medium-high heat. Add one or two servings of noodles and a matching share of the sauce. Toss to coat, then spread them out and leave them for 15 to 20 seconds to toast. Turn and repeat once or twice, lowering the heat if the sauce starts to burn.
+8. **Finish and serve:** Add a matching share of the chicken, broccoli and egg and toss until hot, about 1 minute. Plate it and repeat with the rest. Pass rice vinegar at the table.

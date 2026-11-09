@@ -23,7 +23,7 @@ vibe: quick
 prepTime: 10 min
 cookTime: 30 min
 totalTime: 40 min
-servings: 4 generous main portions
+servings: '4'
 seasons:
   - year-round
   - fall
@@ -33,136 +33,56 @@ leftovers: good
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon against the creamy sauce.
+  garlic-bread: For the sauce left in the bowl.
 ingredients:
-  - 1 lb dry penne or rigatoni
-  - '1 1/2 lb raw hot Italian pork sausage, casings removed'
+  - 1 lb penne or rigatoni
+  - 1 tbsp extra-virgin olive oil
+  - '1 1/2 lb hot Italian sausage, casings removed'
   - 3/4 cup dry white wine
   - 3/4 cup heavy cream
   - 3 tbsp whole-grain Dijon mustard
+  - pinch of red pepper flakes
   - '1 cup fresh basil, thinly sliced'
-  - 1 tbsp extra-virgin olive oil
-  - 'Red pepper flakes, a pinch or to taste'
-  - 'Parmesan, for grating at the table'
-  - 'Salt and freshly ground black pepper, to taste'
-  - '1 cup hot pasta cooking water, reserved before draining; use only as needed'
+  - 'kosher salt and black pepper, to taste'
+  - 'Parmesan, for serving'
 origin: Italy
-source: 'Adapted from Nigel Slater, Food & Wine'
+source: Adapted from Nigel Slater in Food & Wine
 equipment:
   - large-pasta-pot
   - large-deep-skillet
-description: >-
-  Hot Italian sausage in a creamy whole-grain mustard sauce with a generous
-  handful of fresh basil.
+description: Hot Italian sausage in a creamy whole-grain mustard sauce with a generous handful of fresh basil.
 learning:
-  focus: Brown sausage and control reduction before adding cream and herbs
-  outcome: >-
-    Cooked sausage crumbles and tender pasta coated in a creamy,
-    mustard-speckled sauce with fragrant basil.
   techniques:
     - browning
     - temperature
     - seasoning
-  before:
-    - >-
-      Use raw pork sausage for this version. Remove casings and break the meat
-      into small crumbles. Poultry sausage needs a different temperature
-      endpoint, described below.
-    - >-
-      Use a broad deep skillet with enough room for the sausage and the listed pasta
-      after cooking; transfer the finish to the pasta pot if crowded. Brown
-      larger batches in rounds with oil divided between them, and reduce sauce
-      by consistency rather than multiplying minutes.
-    - >-
-      Have the cream and mustard measured before draining pasta. Basil goes in
-      at the end. This is a rich cream-and-sausage dish, so a simple salad can
-      accompany it without another full starch.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Sausage crumbles have browned patches and representative thicker pieces
-        reach 160°F / 71°C.
-      why: >-
-        Color and a fixed five-minute sear do not establish that raw ground pork
-        is cooked.
-    - step: 3
-      cue: Wine has visibly reduced by roughly half before cream enters.
-      why: >-
-        This concentrates the pan flavor without requiring prolonged reduction
-        of the cream sauce.
-    - step: 5
-      cue: >-
-        Sauce coats the pasta and basil is still fragrant rather than dark and
-        cooked down.
-      why: >-
-        Basil needs the final toss, while excess simmering thickens sauce and
-        dulls its aroma.
-  troubleshooting:
-    - problem: Sauce becomes too thick
-      cause: Cream reduced too long or pasta absorbed moisture while waiting.
-      fix: >-
-        Toss in warm reserved water a little at a time. Stop heating once the
-        coating is right.
-    - problem: Sausage looks gray with little browning
-      cause: It was crowded and released moisture faster than it evaporated.
-      fix: >-
-        Let excess moisture evaporate or brown in rounds next time. Do not
-        scorch the pan while trying to make every crumble crisp.
-    - problem: Mustard or salt dominates
-      cause: Sausage and mustard vary in strength.
-      fix: >-
-        Add mustard gradually and taste before extra salt or Parmesan. More
-        basil does not remove excess salt; adjust the initial seasoning next
-        time.
   substitutions:
-    - ingredient: Hot Italian pork sausage
-      alternative: The same weight of raw Italian-style poultry sausage
-      effect: >-
-        Cook representative thicker crumbles to 165°F / 74°C. It may release
-        less fat and brown differently; do not reuse the pork endpoint.
+    - ingredient: Hot Italian sausage
+      alternative: Mild Italian sausage
+      effect: Less heat for kids. Add more pepper flakes at the table if you like.
     - ingredient: Dry white wine
-      alternative: The same volume of unsalted stock
-      effect: >-
-        Removes wine and makes a milder sauce. The wine version is not
-        guaranteed alcohol-free by a short reduction.
-    - ingredient: Hot sausage and pepper flakes
-      alternative: Mild Italian sausage and omit extra flakes
-      effect: 'Keeps the cream, mustard and basil identity with less heat.'
-  timing: >-
-    Allow about 40 minutes including water heating and ten minutes preparation.
-    Sausage often needs eight to twelve minutes, wine about five, cream two to
-    three and the final toss a minute or two. Pasta cooks in parallel. Extra
-    sausage rounds or a small burner add time.
+      alternative: Chicken stock
+      effect: "A milder, rounder sauce without the wine's acidity."
   storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Plan to use the next day for texture.
-    Reheat the portion needed with a little water, stirring, to 165°F / 74°C
-    throughout. Pasta absorbs sauce and softens during storage; fresh herbs and
-    cheese lose some of their original texture.
-  sources:
-    - title: Chef Lorenzo Boni — Pasta cooking and reserved water
-      url: >-
-        https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta
-    - title: FoodSafety.gov — Cooking and leftover temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: FoodSafety.gov — Prompt refrigeration and separation
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 2 days in the fridge. Reheat gently with a splash of water, since the pasta soaks up the
+    sauce.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 sourceUrl: 'https://www.foodandwine.com/recipes/pasta-sausage-basil-and-mustard'
 ---
 
 ## Chef's Note
 
-Whole-grain mustard and fresh basil give this cream sauce its character. Brown the sausage before reducing the wine, then simmer the cream only long enough to coat the pasta. Fold basil in off heat and taste before adding more salt or cheese.
+This quick sausage pasta comes from British cook Nigel Slater. Whole-grain mustard gives the cream sauce a bright, sharp edge, and a big handful of basil goes in at the very end. Brown the sausage well first, because those browned bits flavor the whole sauce.
 
 ## Directions
 
-1. **Start water and prepare:** Bring pasta water to a boil. Remove sausage casings, measure sauce ingredients and slice basil. Season water moderately, then time pasta by its package so it finishes near the sauce.
-2. **Brown and cook sausage:** Heat olive oil in a broad deep skillet over medium-high. Add sausage and break into small crumbles. Cook about **8–12 minutes**, stirring, until browned in places and representative thicker pieces reach **160°F / 71°C**. Brown in rounds if necessary, sharing the oil between them, then return all cooked meat to the pan.
-3. **Reduce wine:** Add wine and scrape up browned bits. Simmer about **5 minutes**, or until the liquid is reduced roughly by half; pan width changes the time.
-4. **Make the sauce:** Lower heat, stir in cream, **about two-thirds of the mustard** and the pepper flakes. Simmer gently about **2–3 minutes**, until lightly thickened. Taste and add the remaining mustard if wanted. Meanwhile cook pasta until tender with a little bite and reserve **the listed water amount** before draining.
-5. **Toss and serve:** Add pasta to the sauce and fold over low heat just until coated, adding warm pasta water in small amounts if too thick. Remove from heat and fold in basil. Taste before adding salt or pepper. Divide into the intended portions and offer Parmesan for grating at the table.
-
-Adapted from [Nigel Slater’s recipe at Food & Wine](https://www.foodandwine.com/pasta-with-sausage-basil-and-mustard-6415687).
+1. **Boil the water:** Bring a large pot of well-salted water to a boil for the pasta.
+2. **Brown the sausage:** Heat the oil in a large, deep skillet over medium-high heat. Add the sausage and break it into small crumbles. Cook, stirring now and then, until browned in spots and cooked through, 8 to 10 minutes.
+3. **Cook the pasta:** When the sausage is nearly done, add the pasta to the boiling water. Cook it until al dente while you make the sauce, then scoop out a mugful of the pasta water and drain.
+4. **Reduce the wine:** Pour the wine into the skillet and scrape up the browned bits. Simmer until reduced by about half, about 5 minutes.
+5. **Make the sauce:** Turn the heat to medium-low. Stir in the cream, most of the mustard and the pepper flakes. Simmer until lightly thickened, 2 to 3 minutes. Taste and add the rest of the mustard if you want more bite.
+6. **Toss and serve:** Add the pasta and toss over low heat until coated, adding splashes of pasta water if the sauce is thick. Take the pan off the heat, fold in the basil and season with salt and pepper. Serve with Parmesan at the table.

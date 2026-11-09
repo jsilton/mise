@@ -5,9 +5,9 @@ origin: 'Valencia, Spain'
 role: main
 vibe: technical
 difficulty: intermediate
-prepTime: 25–35 min
-cookTime: 'About 75–115 min, including a 5 min rest'
-totalTime: About 1¾–2½ hr
+prepTime: 30 min
+cookTime: 1 hr 35 min
+totalTime: 2 hr 5 min
 cookingMethods:
   - saute
   - simmer
@@ -28,13 +28,14 @@ leftovers: good
 equipment:
   - 42-45-cm-paella-pan
   - matched-gas-ring-or-even-wide-heat-source
-  - food-thermometer
   - kettle
 pairsWith:
+  - shaved-fennel-citrus-salad
   - everyday-arugula-salad
-source: >-
-  Adapted from Turisme Comunitat Valenciana’s Paella Valenciana, with documented ingredient-state
-  and cooking guidance
+pairingNotes:
+  shaved-fennel-citrus-salad: 'Crisp fennel and orange, a nod to Valencia.'
+  everyday-arugula-salad: 'A simple, peppery salad beside the rich rice.'
+source: Adapted from Turisme Comunitat Valenciana
 sourceUrl: >-
   https://multimedia.comunitatvalenciana.com/02DE7ACEB70B406FB083C79314A85B50/doc/7791B45ACAB1455ABAB179442017C123/Paella_Valenciana_EN.pdf
 scaling:
@@ -55,54 +56,41 @@ formula:
           key: oil
           name: extra-virgin olive oil
           quantity:
-            amount: 120
-            unit: ml
+            amount: 1/2
+            unit: cup
           uses:
             - step: brown
               share: 1
         - id: chicken
           key: chicken
-          name: bone-in chicken pieces
+          name: bone-in chicken thighs or legs
           quantity:
-            amount: 480
-            unit: g
-          preparation: >-
-            thigh or leg pieces, cut through the joints into small serving pieces; thawed and patted
-            dry
+            amount: 1
+            unit: lb
           uses:
             - step: brown
               share: 1
+          preparation: cut through the bone into small pieces and patted dry
         - id: rabbit
           key: rabbit
-          name: bone-in rabbit pieces
+          name: bone-in rabbit
           quantity:
-            amount: 320
-            unit: g
-          preparation: cut into small serving pieces; thawed and patted dry
+            amount: 3/4
+            unit: lb
           uses:
             - step: brown
               share: 1
+          preparation: cut into small pieces and patted dry
         - id: green-beans
           key: green-beans
-          name: flat green beans
+          name: flat green beans (ferraura)
           quantity:
-            amount: 200
-            unit: g
-          preparation: trimmed and cut into short lengths
+            amount: 7
+            unit: oz
           uses:
             - step: beans
               share: 1
-        - id: tomatoes
-          key: tomatoes
-          name: ripe tomato
-          plural: ripe tomatoes
-          quantity:
-            amount: 2
-            unit: count
-          preparation: 'grated on the coarse side of a grater, skins discarded'
-          uses:
-            - step: sofrito
-              share: 1
+          preparation: trimmed and cut into 2-inch lengths
         - id: paprika
           key: paprika
           name: sweet paprika
@@ -112,264 +100,200 @@ formula:
           uses:
             - step: sofrito
               share: 1
+        - id: tomatoes
+          key: tomatoes
+          name: ripe tomato
+          plural: ripe tomatoes
+          quantity:
+            amount: 2
+            unit: count
+          uses:
+            - step: sofrito
+              share: 1
+          preparation: 'grated on a box grater, skins discarded'
         - id: garrofo
           key: garrofo
-          name: shelled garrofó beans
+          name: fresh or frozen garrofó beans
           quantity:
-            amount: 150
-            unit: g
-          preparation: 'fresh or frozen, thawed; not dried beans'
+            amount: 5
+            unit: oz
           uses:
-            - step: broth
+            - step: mark
               share: 1
+          preparation: shelled
         - id: water
           key: water
           name: water
           quantity:
-            amount: 2.6
-            unit: l
-          preparation: >-
-            add 1.2 L first to mark the rice-cooking level, then the remaining 1.4 L for the meat
-            broth
+            amount: 5
+            unit: cup
+          uses:
+            - step: mark
+              share: 1
+          preparation: to set the broth level
           role: cooking-water
+        - id: water-more
+          key: water
+          name: water
+          quantity:
+            amount: 6
+            unit: cup
           uses:
             - step: broth
               share: 1
-        - id: saffron
-          key: saffron
-          name: saffron strand
-          plural: saffron strands
-          quantity:
-            amount: 32
-            unit: count
-          preparation: crushed
-          uses:
-            - step: saffron
-              share: 1
+          preparation: for simmering
+          role: cooking-water
         - id: salt
           key: salt
           name: kosher salt
-          allowance: to taste; the regional source suggests about 28 g for this four-person batch
+          quantity:
+            amount: 2
+            unit: tbsp
           uses:
             - step: broth
               share: 1
+          preparation: plus more to taste
+        - id: saffron
+          key: saffron
+          name: saffron thread
+          plural: saffron threads
+          quantity:
+            amount: 32
+            unit: count
+          uses:
+            - step: saffron
+              share: 1
         - id: rice
           key: rice
-          name: Spanish round white rice of the Senia/Bahía type
+          name: Valencian round rice (Senia or Bahía)
           quantity:
-            amount: 400
-            unit: g
-          preparation: dry; use the stated variety for this liquid level and cooking schedule
+            amount: 2
+            unit: cup
+          equivalents:
+            - amount: 400
+              unit: g
           uses:
             - step: rice
               share: 1
         - id: hot-water
           key: hot-water
-          name: additional boiling water
-          allowance: as needed to restore the marked broth level or finish hard rice
-          role: cooking-water
+          name: boiling water
+          allowance: as needed
           uses:
-            - step: rice
+            - step: cook
               share: 1
+          role: cooking-water
   steps:
-    - id: prepare
-      title: Set up the pan and ingredients
-      text: >-
-        Use a level 42–45 cm traditional shallow paella pan over a matched gas ring or another heat
-        source that heats the whole rice bed evenly. Follow the burner’s indoor/outdoor rating. This
-        is one four-portion pan: a small stove burner under this wide pan leaves the edges
-        undercooked. Prepare the meat, beans and grated tomatoes before starting. Have a heatproof
-        way to mark the liquid level, a kettle and a food thermometer ready. Keep the raw meat
-        separate from the vegetables and finished food.
     - id: brown
-      title: Brown the chicken and rabbit
+      title: Brown the meat
       text: >-
-        Start with {{ingredients}}. Warm the oil over medium heat, then add the chicken and rabbit
-        in a loose single layer. Turn as each surface browns, letting the meat color without
-        scorching the pan; allow roughly 20–30 minutes. Use batches if necessary, retaining all the
-        meat and oil. Browning is the start of cooking, not the final meat endpoint.
+        Set a 17- to 18-inch paella pan over a wide burner or paella ring so the whole base heats
+        evenly. Warm {{ingredients}} in the pan over medium heat, spreading the meat in one layer.
+        Cook, turning now and then, until golden all over, 20 to 30 minutes.
     - id: beans
       title: Cook the green beans
       text: >-
-        Add {{ingredients}} and turn them in the oil for about 3–5 minutes, until their color
-        brightens and they begin to soften. Move the meat and beans toward the perimeter to leave
-        room for the tomato in the middle.
+        Add {{ingredients}} and turn them in the oil until bright green and starting to soften, 3 to
+        5 minutes. Push the meat and beans to the edge of the pan.
     - id: sofrito
-      title: Reduce the tomato without burning the paprika
+      title: Make the sofrito
       text: >-
-        Use {{ingredients}} for the sofrito. Lower the heat. Stir the paprika into the oil briefly,
-        then immediately add the tomatoes. Cook the tomato until its loose water has evaporated and
-        the mixture is thick, roughly 5–10 minutes. Stir this mixture as needed; if the paprika
-        catches before the tomato is added, its bitterness will carry into the rice.
+        Lower the heat to medium-low. Stir {{ingredients}} into the oil in the center of the pan,
+        the paprika first and the tomato a few seconds later so the paprika doesn't burn. Cook,
+        stirring, until the tomato is thick and no longer watery, 5 to 10 minutes.
+    - id: mark
+      title: Mark the broth level
+      text: >-
+        Add {{ingredients}}. Stand the handle of a metal spoon upright in the pan and note where the
+        liquid reaches. The broth needs to cook back down to this mark before the rice goes in.
     - id: broth
-      title: 'Mark the broth level, then simmer the meat'
+      title: Simmer the broth
       text: >-
-        Use {{ingredients}} in stages. For this four-portion pan, add the garrofó, then pour in 1.2
-        L of the water first and mark that liquid level on a clean metal utensil held consistently
-        in the pan. Add the remaining 1.4 L. Add the salt gradually; it will become more
-        concentrated as the broth reduces. Simmer uncovered until the broth returns to the mark, the
-        beans are tender and the meat is cooked through, allowing roughly 25–45 minutes. Probe
-        several thick chicken pieces away from bone for at least 165°F and rabbit pieces for at
-        least 160°F. If the broth reaches the mark first, replenish with boiling water and continue
-        until those endpoints are met. If the meat finishes first, continue reducing to the mark.
-        Taste a cooled spoonful: the broth should be well seasoned, without a harsh salt taste.
+        Add {{ingredients}} and bring to a simmer. Cook uncovered until the broth has cooked down to
+        the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the
+        mark first, add a little boiling water and keep simmering. Taste and add more salt if
+        needed. The broth should taste a little salty, because the rice soaks it up.
     - id: saffron
       title: Add the saffron
       text: >-
-        Put {{ingredients}} in a small heatproof cup and dissolve it in a few spoonfuls of hot broth
-        taken from the pan. Return the whole infusion to the pan; it adds no extra unmeasured
-        liquid. Bring the broth back to a lively, even boil.
+        Crush {{ingredients}} into a small cup and stir in a few spoonfuls of hot broth. Pour it
+        back into the pan and bring the broth to a lively boil.
     - id: rice
-      title: 'Spread the rice, then leave it still'
+      title: Spread the rice
       text: >-
-        Have {{ingredients}} ready. Scatter the rice evenly into the boiling broth and spread it
-        once so no mound remains. Cook uncovered at a lively boil for about 5 minutes, at medium
-        heat for about 5 minutes, then at low heat for about 5–8 minutes. Keep the heat even across
-        the pan and do not stir after distributing the rice. Start tasting a few grains from both
-        center and edge around 15 minutes: they should be tender with a slight firmness and no
-        chalky core, while the pan has no loose broth. If the liquid disappears while the grains
-        remain hard, add a little of the boiling water over the dry areas and continue gently; do
-        not fry hard rice to make a crust. These are checkpoints, not a guaranteed finish time.
+        Scatter {{ingredients}} evenly over the boiling broth and spread it once so it lies in a
+        flat, even layer. Do not stir it again.
+    - id: cook
+      title: Cook the rice
+      text: >-
+        Boil hard for 5 minutes, then over medium heat for 5 minutes, then over low heat until the
+        broth is absorbed and the grains are tender with no chalky center, 5 to 8 minutes more. If
+        the pan looks dry before the rice is done, sprinkle {{ingredients}} over the dry spots.
+    - id: socarrat
+      title: Toast the bottom
+      text: >-
+        For a crisp crust, turn the heat up for the last minute until the rice crackles and smells
+        toasty. Take the pan off the heat right away if it smells acrid.
     - id: rest
-      title: Rest briefly and serve from the pan
-      text: >-
-        Take the pan off the heat when the rice is cooked and the broth has been absorbed. A faint
-        toasted smell and gentle crackle can signal socarrat underneath; an acrid smell or dark
-        smoke means remove the pan immediately. A crust is optional, not a reason to burn otherwise
-        finished rice. Rest away from the heat for about 5 minutes, then serve, sharing both meat
-        and rice among the four portions. Keep the rice layer undisturbed until serving.
+      title: Rest and serve
+      text: Let the paella rest off the heat for 5 minutes. Serve it straight from the pan.
 ingredients:
-  - 120 ml extra-virgin olive oil
-  - >-
-    480 g bone-in chicken pieces, thigh or leg pieces, cut through the joints into small serving
-    pieces; thawed and patted dry
-  - '320 g bone-in rabbit pieces, cut into small serving pieces; thawed and patted dry'
-  - '200 g flat green beans, trimmed and cut into short lengths'
-  - '2 ripe tomatoes, grated on the coarse side of a grater, skins discarded'
+  - 1/2 cup extra-virgin olive oil
+  - '1 lb bone-in chicken thighs or legs, cut through the bone into small pieces and patted dry'
+  - '3/4 lb bone-in rabbit, cut into small pieces and patted dry'
+  - '7 oz flat green beans (ferraura), trimmed and cut into 2-inch lengths'
   - 3/4 tsp sweet paprika
-  - '150 g shelled garrofó beans, fresh or frozen, thawed; not dried beans'
-  - >-
-    2.6 L water, add 1.2 L first to mark the rice-cooking level, then the remaining 1.4 L for the
-    meat broth
-  - '32 saffron strands, crushed'
-  - 'kosher salt, to taste; the regional source suggests about 28 g for this four-person batch'
-  - >-
-    400 g Spanish round white rice of the Senia/Bahía type, dry; use the stated variety for this
-    liquid level and cooking schedule
-  - 'additional boiling water, as needed to restore the marked broth level or finish hard rice'
+  - '2 ripe tomatoes, grated on a box grater, skins discarded'
+  - '5 oz fresh or frozen garrofó beans, shelled'
+  - '5 cups water, to set the broth level'
+  - '6 cups water, for simmering'
+  - '2 tbsp kosher salt, plus more to taste'
+  - 32 saffron threads
+  - 2 cups (400 g) Valencian round rice (Senia or Bahía)
+  - 'boiling water, as needed'
 servings: 4 portions
 learning:
-  focus: 'Build a meat-and-bean broth in the pan, then cook a thin, even rice layer without stirring.'
-  outcome: 'Tender chicken and rabbit with dry, separate rice that carries the broth’s flavor.'
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Use thawed, small bone-in meat pieces and fresh or frozen shelled garrofó, not uncooked dried
-      beans.
-    - >-
-      The main route uses Senia/Bahía-type round white rice. Bomba and Albufera behave differently;
-      do not assume that a rice substitution shares this liquid level and finish time. The
-      substitutions below give a supermarket route for both the rabbit and the rice.
-    - >-
-      Use the specified wide pan and an evenly matched heat source. Keep this recipe to one pan’s
-      four portions.
-    - >-
-      Measure the two stages of water separately: the first establishes the broth level needed when
-      rice goes in; the second boils away while the meat cooks.
-  checkpoints:
-    - step: 4
-      cue: 'The tomato is thick and no longer watery; the paprika smells sweet, not burnt.'
-      why: The sofrito concentrates before water is added.
-    - step: 5
-      cue: >-
-        Broth is back at the mark, beans are tender, chicken is at least 165°F and rabbit is at
-        least 160°F.
-      why: >-
-        Evaporation and meat doneness are separate requirements; satisfy both before adding the
-        rice.
-    - step: 7
-      cue: 'Center and edge grains have no chalky core, and no broth pools in the pan.'
-      why: A finished dry surface alone cannot establish an evenly cooked rice bed.
-  troubleshooting:
-    - problem: The center rice cooks while the perimeter stays hard.
-      cause: The heat source is too narrow or uneven for the pan.
-      fix: >-
-        Use a matched wide heat source and keep the pan level. Move heat toward the undercooked area
-        without stirring; add only enough boiling water there to finish the grains.
-    - problem: The broth reaches the mark before the meat is cooked.
-      cause: Evaporation is faster than the meat’s cooking rate.
-      fix: >-
-        Add boiling water to restore liquid and keep simmering until the measured meat endpoints are
-        reached; then return to the mark before adding rice.
-    - problem: The rice is hard after the pan looks dry.
-      cause: The heat was too fierce or this rice needs more liquid.
-      fix: >-
-        Add small amounts of boiling water across the hard areas and lower the heat. Finish the rice
-        before attempting any toasted underside.
   substitutions:
-    - ingredient: Bone-in rabbit pieces
-      alternative: 'The same 320 g of bone-in, skin-on chicken thighs, cut into small pieces'
+    - ingredient: Bone-in rabbit
+      alternative: Bone-in chicken thighs
       effect: >-
-        An all-chicken paella with a slightly richer, less gamey broth. Brown and simmer them with
-        the other chicken and use the same 165°F endpoint.
-    - ingredient: Senia/Bahía-type round rice
-      alternative: The same 400 g of Bomba or Calasparra rice
+        Use the same weight, cut into small pieces. The paella is all chicken, a little richer and
+        less gamey.
+    - ingredient: Valencian round rice (Senia or Bahía)
+      alternative: Bomba or Calasparra rice
       effect: >-
-        These rices absorb more broth and stay firm longer, so expect about 18–20 minutes. Keep the
-        same broth mark, and have extra boiling water ready to sprinkle over dry areas if the grains
-        are still firm when the pan looks dry. The grains stay more separate and a little less
-        creamy.
-    - ingredient: Fresh or frozen garrofó
-      alternative: 'The same 150 g of fully cooked, drained large white butter beans'
+        These absorb more broth and stay firmer, so they take 18 to 20 minutes. Keep boiling water
+        ready for dry spots. The grains come out more separate and a little less creamy.
+    - ingredient: Fresh or frozen garrofó beans
+      alternative: Frozen Fordhook lima beans
       effect: >-
-        A disclosed availability adaptation with softer beans. Establish the broth mark and reduce
-        to it without the cooked beans, then add them with the rice. Their displacement raises the
-        observed liquid level; do not reduce back to the former mark after adding them. Do not
-        substitute dry uncooked beans.
-  storage: >-
-    Divide leftovers into shallow containers and refrigerate at 40°F or below within 2 hours, or
-    within 1 hour above 90°F. Use within 3–4 days of cooking, or freeze promptly. Reheat to 165°F
-    throughout, adding a little water to keep the rice from drying. Reheated rice will be softer and
-    will not retain the first serving’s crisp underside.
-  timing: >-
-    Allow about 25–35 minutes to prepare ingredients and set up, then 75–115 minutes to brown,
-    reduce the sofrito, simmer the meat broth, cook the rice and rest for 5 minutes. The active work
-    is mainly preparation and browning; stay nearby during rice cooking to control the heat. Broth
-    reduction depends on wind, pan and heat, so the level mark and meat/rice endpoints govern the
-    clock. More complete pans require more equipment or sequential batches.
-  sources:
-    - title: 'Turisme Comunitat Valenciana — Paella Valenciana, complete four-person formula'
-      url: >-
-        https://multimedia.comunitatvalenciana.com/02DE7ACEB70B406FB083C79314A85B50/doc/7791B45ACAB1455ABAB179442017C123/Paella_Valenciana_EN.pdf
-    - title: València Turisme — measured garrofó and chicken/rabbit tradition
-      url: 'https://turisme.dival.es/receta/paella-valenciana/'
-    - title: DOP Arròs de València — rice varieties and behavior
-      url: 'https://www.arrozdevalencia.org/sobre-nosotros/'
-    - title: 'La Fallera — complete paella method, rice endpoints and hot-liquid rescue'
-      url: 'https://www.lafallera.es/recetas/paella-valenciana/'
-    - title: USDA FSIS — Rabbit from Farm to Table
-      url: >-
-        https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo5193/pdf/GOVPUB-A110-PURL-gpo5193.pdf
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+        Use the same weight. Garrofó is a large Valencian lima bean, so frozen limas cook the same
+        way.
+    - ingredient: Flat green beans (ferraura)
+      alternative: Romano or regular green beans
+      effect: Regular green beans are thinner and a little less meaty.
+  storage: Keeps 3 days in the fridge. Reheat in a covered skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Valencian paella builds its broth from chicken, rabbit and beans in the same broad pan that cooks the rice. Browning and reducing the tomato happen first; after the rice is spread, leave it still. The shallow layer and even heat matter more than chasing a dark crust. Use the stated rice variety and watch the grains as closely as the liquid.
+This is paella as it is made in Valencia, with chicken, rabbit, flat green beans and garrofó, the big local lima bean. The broth builds in the pan from browned meat and tomato, then the rice cooks in a thin layer and is never stirred. Even heat across the whole pan matters more than anything else.
 
 ## Directions
 
-1. **Set up the pan and ingredients:** Use a level 42–45 cm traditional shallow paella pan over a matched gas ring or another heat source that heats the whole rice bed evenly. Follow the burner’s indoor/outdoor rating. This is one four-portion pan: a small stove burner under this wide pan leaves the edges undercooked. Prepare the meat, beans and grated tomatoes before starting. Have a heatproof way to mark the liquid level, a kettle and a food thermometer ready. Keep the raw meat separate from the vegetables and finished food.
-2. **Brown the chicken and rabbit:** Start with extra-virgin olive oil, bone-in chicken pieces, and bone-in rabbit pieces. Warm the oil over medium heat, then add the chicken and rabbit in a loose single layer. Turn as each surface browns, letting the meat color without scorching the pan; allow roughly 20–30 minutes. Use batches if necessary, retaining all the meat and oil. Browning is the start of cooking, not the final meat endpoint.
-3. **Cook the green beans:** Add flat green beans and turn them in the oil for about 3–5 minutes, until their color brightens and they begin to soften. Move the meat and beans toward the perimeter to leave room for the tomato in the middle.
-4. **Reduce the tomato without burning the paprika:** Use ripe tomatoes and sweet paprika for the sofrito. Lower the heat. Stir the paprika into the oil briefly, then immediately add the tomatoes. Cook the tomato until its loose water has evaporated and the mixture is thick, roughly 5–10 minutes. Stir this mixture as needed; if the paprika catches before the tomato is added, its bitterness will carry into the rice.
-5. **Mark the broth level, then simmer the meat:** Use shelled garrofó beans, water, and kosher salt in stages. For this four-portion pan, add the garrofó, then pour in 1.2 L of the water first and mark that liquid level on a clean metal utensil held consistently in the pan. Add the remaining 1.4 L. Add the salt gradually; it will become more concentrated as the broth reduces. Simmer uncovered until the broth returns to the mark, the beans are tender and the meat is cooked through, allowing roughly 25–45 minutes. Probe several thick chicken pieces away from bone for at least 165°F and rabbit pieces for at least 160°F. If the broth reaches the mark first, replenish with boiling water and continue until those endpoints are met. If the meat finishes first, continue reducing to the mark. Taste a cooled spoonful: the broth should be well seasoned, without a harsh salt taste.
-6. **Add the saffron:** Put saffron strands in a small heatproof cup and dissolve it in a few spoonfuls of hot broth taken from the pan. Return the whole infusion to the pan; it adds no extra unmeasured liquid. Bring the broth back to a lively, even boil.
-7. **Spread the rice, then leave it still:** Have Spanish round white rice of the Senia/Bahía type and additional boiling water ready. Scatter the rice evenly into the boiling broth and spread it once so no mound remains. Cook uncovered at a lively boil for about 5 minutes, at medium heat for about 5 minutes, then at low heat for about 5–8 minutes. Keep the heat even across the pan and do not stir after distributing the rice. Start tasting a few grains from both center and edge around 15 minutes: they should be tender with a slight firmness and no chalky core, while the pan has no loose broth. If the liquid disappears while the grains remain hard, add a little of the boiling water over the dry areas and continue gently; do not fry hard rice to make a crust. These are checkpoints, not a guaranteed finish time.
-8. **Rest briefly and serve from the pan:** Take the pan off the heat when the rice is cooked and the broth has been absorbed. A faint toasted smell and gentle crackle can signal socarrat underneath; an acrid smell or dark smoke means remove the pan immediately. A crust is optional, not a reason to burn otherwise finished rice. Rest away from the heat for about 5 minutes, then serve, sharing both meat and rice among the four portions. Keep the rice layer undisturbed until serving.
+1. **Brown the meat:** Set a 17- to 18-inch paella pan over a wide burner or paella ring so the whole base heats evenly. Warm extra-virgin olive oil, bone-in chicken thighs or legs, and bone-in rabbit in the pan over medium heat, spreading the meat in one layer. Cook, turning now and then, until golden all over, 20 to 30 minutes.
+2. **Cook the green beans:** Add flat green beans (ferraura) and turn them in the oil until bright green and starting to soften, 3 to 5 minutes. Push the meat and beans to the edge of the pan.
+3. **Make the sofrito:** Lower the heat to medium-low. Stir sweet paprika and ripe tomatoes into the oil in the center of the pan, the paprika first and the tomato a few seconds later so the paprika doesn't burn. Cook, stirring, until the tomato is thick and no longer watery, 5 to 10 minutes.
+4. **Mark the broth level:** Add fresh or frozen garrofó beans and water. Stand the handle of a metal spoon upright in the pan and note where the liquid reaches. The broth needs to cook back down to this mark before the rice goes in.
+5. **Simmer the broth:** Add water and kosher salt and bring to a simmer. Cook uncovered until the broth has cooked down to the mark and the meat and garrofó are tender, 25 to 45 minutes. If the broth reaches the mark first, add a little boiling water and keep simmering. Taste and add more salt if needed. The broth should taste a little salty, because the rice soaks it up.
+6. **Add the saffron:** Crush saffron threads into a small cup and stir in a few spoonfuls of hot broth. Pour it back into the pan and bring the broth to a lively boil.
+7. **Spread the rice:** Scatter Valencian round rice (Senia or Bahía) evenly over the boiling broth and spread it once so it lies in a flat, even layer. Do not stir it again.
+8. **Cook the rice:** Boil hard for 5 minutes, then over medium heat for 5 minutes, then over low heat until the broth is absorbed and the grains are tender with no chalky center, 5 to 8 minutes more. If the pan looks dry before the rice is done, sprinkle boiling water over the dry spots.
+9. **Toast the bottom:** For a crisp crust, turn the heat up for the last minute until the rice crackles and smells toasty. Take the pan off the heat right away if it smells acrid.
+10. **Rest and serve:** Let the paella rest off the heat for 5 minutes. Serve it straight from the pan.

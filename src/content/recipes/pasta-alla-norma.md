@@ -14,7 +14,7 @@ seasons:
   - summer
 nutritionalDensity: moderate
 leftovers: good
-source: 'Adapted from Accademia Italiana della Cucina, Pasta alla Norma'
+source: Adapted from Accademia Italiana della Cucina
 sourceUrl: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma'
 cookingMethods:
   - simmer
@@ -25,9 +25,9 @@ flavorProfile:
   - acidic
   - rich
   - savory
-prepTime: 20–30 min
-cookTime: 1 hr 25 min–1 hr 45 min
-totalTime: 1 hr 45 min–2 hr 15 min
+prepTime: 25 min
+cookTime: 1 hr 30 min
+totalTime: 1 hr 55 min
 equipment:
   - saucepan
   - food-mill
@@ -37,7 +37,11 @@ equipment:
   - large-serving-bowl
   - wide-saute-pan
 pairsWith:
+  - shaved-fennel-citrus-salad
   - garlic-bread
+pairingNotes:
+  shaved-fennel-citrus-salad: 'Fennel and orange, a Sicilian salad, to follow the pasta.'
+  garlic-bread: For wiping up the last of the tomato sauce.
 formula:
   version: 1
   yield:
@@ -49,10 +53,13 @@ formula:
       ingredients:
         - id: tomatoes
           key: ripe-sauce-tomatoes
-          name: ripe sauce tomatoes
+          name: ripe plum tomatoes
           quantity:
-            amount: 1.5
-            unit: kg
+            amount: 3 1/4
+            unit: lb
+          equivalents:
+            - amount: 1.5
+              unit: kg
           preparation: halved
           uses:
             - step: tomatoes
@@ -64,22 +71,14 @@ formula:
           quantity:
             amount: 2
             unit: count
-          preparation: peeled and quartered
-          uses:
-            - step: tomatoes
-              share: 1
-        - id: water
-          key: water
-          name: water
-          allowance: a small splash as needed to start the tomato simmer
-          role: cooking-water
+          preparation: quartered
           uses:
             - step: tomatoes
               share: 1
         - id: basil-start
           key: fresh-basil
           name: fresh basil leaves
-          allowance: a few for the first tomato simmer
+          allowance: a handful
           uses:
             - step: tomatoes
               share: 1
@@ -90,76 +89,64 @@ formula:
           quantity:
             amount: 2
             unit: count
-          preparation: peeled and lightly crushed
+          preparation: lightly crushed
           uses:
             - step: sauce
               share: 1
         - id: oil
           key: extra-virgin-olive-oil
           name: extra-virgin olive oil
-          allowance: enough to gently fry the garlic
+          allowance: for the sauce
           uses:
             - step: sauce
               share: 1
         - id: basil-finish
           key: fresh-basil
           name: fresh basil sprig
-          allowance: for the second tomato simmer
+          plural: fresh basil sprigs
+          quantity:
+            amount: 1
+            unit: count
           uses:
-            - step: sauce
+            - step: simmer
               share: 1
         - id: salt
           key: salt
-          name: salt
+          name: kosher salt
           allowance: to taste
           uses:
-            - step: sauce
+            - step: simmer
               share: 1
     - id: eggplant
       name: Fried eggplant
       ingredients:
         - id: eggplant
           key: medium-violet-eggplant
-          name: medium violet eggplant
-          plural: medium violet eggplants
+          name: violet eggplant
+          plural: violet eggplants
           quantity:
             amount: 3
             unit: count
-          preparation: trimmed; slice lengthwise 4 mm thick
+          preparation: 'medium, sliced lengthwise about 1/8 inch thick'
           uses:
             - step: fry
               share: 1
         - id: oil
           key: extra-virgin-olive-oil
-          name: extra-virgin olive oil
-          allowance: for frying in batches
+          name: olive oil
+          allowance: for frying
           uses:
-            - step: fry
+            - step: heat-oil
               share: 1
     - id: pasta
       name: Pasta and finish
       ingredients:
         - id: spaghetti
           key: dried-spaghetti
-          name: dried spaghetti
+          name: spaghetti
           quantity:
-            amount: 500
-            unit: g
-          uses:
-            - step: pasta
-              share: 1
-        - id: water
-          key: water
-          name: water
-          allowance: enough for the pasta to move freely
-          role: cooking-water
-          uses:
-            - step: pasta
-              share: 1
-        - id: salt
-          key: salt
-          name: salt
-          allowance: to salt the pasta cooking water
+            amount: 1
+            unit: lb
           uses:
             - step: pasta
               share: 1
@@ -167,8 +154,11 @@ formula:
           key: ricotta-salata
           name: ricotta salata
           quantity:
-            amount: 300
-            unit: g
+            amount: 10
+            unit: oz
+          equivalents:
+            - amount: 300
+              unit: g
           preparation: grated
           uses:
             - step: finish
@@ -183,177 +173,118 @@ formula:
               share: 1
         - id: pepper
           key: black-pepper
-          name: freshly ground black pepper
+          name: black pepper
           allowance: to taste
           uses:
             - step: finish
               share: 1
   steps:
-    - id: prep
-      title: Prepare for two cooking stages
-      text: >-
-        Wash the vegetables. Halve the tomatoes and quarter the peeled onions. Set out a food mill,
-        a saucepan that holds the tomato load with stirring room, a separate deep-sided frying pan,
-        a separate wide pan for the final toss, and a pasta pot. Have a paper-lined tray ready for
-        the fried eggplant. With two burners, finish the frying before bringing the pasta water to a
-        boil.
     - id: tomatoes
-      title: Soften the fresh tomatoes
+      title: Cook the tomatoes
       text: >-
-        Put {{ingredients}} in the saucepan. Cook over medium heat for about 40 minutes, stirring
-        occasionally, until the tomatoes and onion are soft. Add only enough water to prevent
-        catching before the tomatoes release their juices; keep the mixture at a steady simmer.
+        Put {{ingredients}} in a large saucepan with a splash of water. Cook over medium heat,
+        stirring now and then, until the tomatoes and onion are soft and collapsed, about 40
+        minutes.
     - id: mill
-      title: Pass the sauce through the mill
+      title: Mill the tomatoes
       text: >-
-        Pass the softened tomato mixture through the food mill into a bowl, retaining the pulp and
-        liquid. Remove the seeds and skins left in the mill.
+        Pass the tomato mixture through a food mill into a bowl. Discard the skins and seeds left in
+        the mill.
     - id: sauce
-      title: Finish the tomato sauce
+      title: Fry the garlic
       text: >-
-        Use {{ingredients}} in the saucepan. Gently fry the garlic in the oil until pale golden,
-        then add the milled tomato mixture and basil sprig. Simmer gently for about 20 minutes,
-        until the sauce has body. Season to taste; the ricotta salata added later also brings salt.
-        Keep the full sauce for dressing and topping the pasta.
+        Wipe out the saucepan. Warm {{ingredients}} in it over medium-low heat until the garlic is
+        pale gold.
+    - id: simmer
+      title: Finish the sauce
+      text: >-
+        Add the milled tomatoes, then {{ingredients}}, going easy on the salt since the cheese is
+        salty. Simmer gently, stirring now and then, until the sauce has body, about 20 minutes.
+    - id: heat-oil
+      title: Heat the frying oil
+      text: >-
+        While the sauce simmers, heat about 1/2 inch of {{ingredients}} in a heavy frying pan over
+        medium-high heat until a slice of eggplant sizzles steadily when dipped in.
     - id: fry
-      title: Fry the eggplant in batches
+      title: Fry the eggplant
       text: >-
-        Use {{ingredients}}. Cut the eggplant lengthwise into 4 mm slices and dry the surfaces well.
-        Heat the oil until a slice sizzles steadily, without smoke. Fry small uncrowded batches,
-        turning until golden and tender throughout. Drain with a slotted spoon onto the lined tray.
-        Let the oil recover between batches, keep room for displaced oil, and never leave the hot
-        pan unattended. Move it safely off the burner when frying is finished.
+        Pat the slices of {{ingredients}} dry. Fry them in small batches without crowding, turning
+        once, until golden and tender, 2 to 3 minutes per side. Drain on paper towels.
     - id: pasta
-      title: Cook the spaghetti
+      title: Boil the spaghetti
+      text: 'Bring a large pot of well-salted water to a boil. Cook {{ingredients}} until al dente.'
+    - id: warm
+      title: Warm the eggplant strips
       text: >-
-        Cook {{ingredients}}: bring the water to a boil, salt it, then add the spaghetti and cook
-        until al dente according to the pasta’s package guidance. While it cooks, cut some of the
-        fried eggplant into strips and put them in a wide pan with a few spoonfuls of the prepared
-        tomato sauce.
+        While the pasta cooks, cut about a third of the fried eggplant into strips. Warm them in a
+        wide pan with a few spoonfuls of the sauce.
+    - id: toss
+      title: Toss the pasta
+      text: Drain the spaghetti and add it to the wide pan. Toss over medium heat for 1 minute.
     - id: finish
-      title: Toss and serve
+      title: Top and serve
       text: >-
-        Finish with {{ingredients}}. Drain the spaghetti and toss it over medium heat in the
-        separate wide pan with the tomato sauce and eggplant strips for about 1 minute. Divide among
-        plates and use the remaining tomato sauce, whole fried eggplant slices and all the grated
-        ricotta salata to finish. Add basil and pepper to taste and serve promptly.
+        Divide the pasta among plates. Top with the rest of the sauce, the whole eggplant slices and
+        {{ingredients}}.
 learning:
-  focus: 'Coordinate fresh tomato reduction, batch-fried eggplant and pasta service.'
-  outcome: >-
-    Al dente spaghetti with reduced tomato sauce, tender golden eggplant and the full salty-ricotta
-    finish.
   techniques:
     - browning
     - starch
     - seasoning
-  before:
-    - >-
-      Choose ripe seasonal sauce tomatoes, violet eggplants and fresh basil; the counted eggplant
-      and onion sizes vary, so no inferred gram equivalents are supplied.
-    - >-
-      Use a food mill to separate cooked pulp from skins and seeds. Prepare a deep-sided frying pan,
-      slotted spoon and draining tray before heating oil.
-    - >-
-      With two burners, fry the eggplant while the second tomato simmer runs, then use the freed
-      burner for pasta. Additional frying batches extend service time.
-  checkpoints:
-    - step: 4
-      cue: The milled sauce has body after its second simmer and the garlic has not burned.
-      why: Fresh tomatoes release variable water; sauce readiness matters as well as the written time.
-    - step: 5
-      cue: The eggplant is golden and tender throughout; the oil gives a steady sizzle without smoke.
-      why: >-
-        Small batches allow cooking and browning without overcrowding or unsafe displacement of hot
-        oil.
-    - step: 7
-      cue: 'Pasta stays al dente and each plate gets tomato sauce, fried eggplant and ricotta salata.'
-      why: >-
-        The separate garnish is part of the dish’s identity; the whole batch needs a complete
-        allocation.
-  troubleshooting:
-    - problem: Eggplant is pale and oily.
-      cause: The pan is crowded or the oil cooled under the load.
-      fix: >-
-        Use smaller batches and let the oil recover. Drain each batch before adding it to the pasta;
-        do not keep adding cold slices to a crowded pan.
-    - problem: Tomato sauce is watery at service.
-      cause: The fresh tomato load was especially juicy or the pot reduced slowly.
-      fix: >-
-        Continue the second simmer until the sauce has body, stirring to prevent catching. Keep the
-        pasta uncooked until the sauce and eggplant are ready.
   substitutions:
-    - ingredient: Spaghetti
-      alternative: Use the same listed weight of dried rigatoni.
+    - ingredient: Ricotta salata
+      alternative: Pecorino Romano
+      effect: Sharper and saltier. Use a little less and go easy on the salt in the sauce.
+    - ingredient: Ripe plum tomatoes
+      alternative: Canned whole peeled tomatoes
       effect: >-
-        The Academy lists maccheroni/rigatoni as an accepted modern option; cooking time and the way
-        sauce sits in the shape differ.
-  timing: >-
-    Plan 20–30 minutes preparation and roughly 85–105 minutes cooking, about 1 hour 45 minutes to 2
-    hours 15 minutes total, with 55–75 minutes active work. The fresh tomato stages take about 40
-    then 20 minutes, with milling between. Frying can overlap the second simmer, but three medium
-    eggplants need multiple loads; small pans or one burner extend the schedule. On two burners,
-    finish frying before boiling pasta water. Include heating that water, the package cooking time
-    and the final one-minute toss.
+        Out of season, use two 28-oz cans. Pass them through the food mill and go straight to
+        finishing the sauce.
+    - ingredient: Violet eggplant
+      alternative: Globe eggplant
+      effect: 'Works the same, with a few more seeds.'
+    - ingredient: Spaghetti
+      alternative: Rigatoni
+      effect: A common choice in Sicily too. The sauce and eggplant settle into the tubes.
   storage: >-
-    Divide leftovers into shallow containers and refrigerate at 40°F / 4°C or below within 2 hours
-    of cooking or serving, or within 1 hour above 90°F / 32°C. Use refrigerated leftovers within 3–4
-    days. Reheat only the portion needed to 165°F / 74°C throughout; bring a separately reheated
-    tomato sauce to a boil. Cool and refrigerate promptly after cooking rather than waiting for a
-    large pan to cool completely. Store sauce and fried eggplant separately from uncooked pasta for
-    make-ahead service; fried eggplant softens during storage. Cook pasta fresh when practical.
-  sources:
-    - title: 'Accademia Italiana della Cucina — Pasta alla Norma, complete current recipe'
-      url: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/pasta-alla-norma'
-    - title: USDA FSIS — Deep Fat Frying and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA FSIS — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keep the sauce and fried eggplant separately in the fridge for up to 4 days. Cook the pasta
+    fresh.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ingredients:
   - '--- Fresh tomato sauce ---'
-  - '1 1/2 kg ripe sauce tomatoes, halved'
-  - '2 medium white onions, peeled and quartered'
-  - 'water, a small splash as needed to start the tomato simmer'
-  - 'fresh basil leaves, a few for the first tomato simmer'
-  - '2 garlic cloves, peeled and lightly crushed'
-  - 'extra-virgin olive oil, enough to gently fry the garlic'
-  - 'fresh basil sprig, for the second tomato simmer'
-  - 'salt, to taste'
+  - '3 1/4 lb (1 1/2 kg) ripe plum tomatoes, halved'
+  - '2 medium white onions, quartered'
+  - 'fresh basil leaves, a handful'
+  - '2 garlic cloves, lightly crushed'
+  - 'extra-virgin olive oil, for the sauce'
+  - 1 fresh basil sprig
+  - 'kosher salt, to taste'
   - '--- Fried eggplant ---'
-  - '3 medium violet eggplants, trimmed; slice lengthwise 4 mm thick'
-  - 'extra-virgin olive oil, for frying in batches'
+  - '3 violet eggplants, medium, sliced lengthwise about 1/8 inch thick'
+  - 'olive oil, for frying'
   - '--- Pasta and finish ---'
-  - 500 g dried spaghetti
-  - 'water, enough for the pasta to move freely'
-  - 'salt, to salt the pasta cooking water'
-  - '300 g ricotta salata, grated'
+  - 1 lb spaghetti
+  - '10 oz (300 g) ricotta salata, grated'
   - 'fresh basil leaves, for serving'
-  - 'freshly ground black pepper, to taste'
+  - 'black pepper, to taste'
 servings: 6 portions
 ---
 
 ## Chef's Note
 
-Pasta alla Norma pairs Catania’s tomato-and-basil pasta with fried eggplant and ricotta salata. Fresh tomatoes are cooked and milled before a second simmer, while thin eggplant slices fry in batches. Have both ready before cooking the spaghetti so the pasta reaches the table al dente.
+Pasta alla Norma is the great summer pasta of Catania, named for Bellini's opera Norma. Fresh tomato sauce coats the spaghetti, with fried eggplant on top and plenty of grated ricotta salata, a firm, salted sheep's milk cheese. Fry the eggplant in small batches so it turns golden and creamy instead of greasy.
 
 ## Directions
 
-1. **Prepare for two cooking stages:** Wash the vegetables. Halve the tomatoes and quarter the peeled onions. Set out a food mill, a saucepan that holds the tomato load with stirring room, a separate deep-sided frying pan, a separate wide pan for the final toss, and a pasta pot. Have a paper-lined tray ready for the fried eggplant. With two burners, finish the frying before bringing the pasta water to a boil.
-2. **Soften the fresh tomatoes:** Put ripe sauce tomatoes, medium white onions, water, and fresh basil leaves in the saucepan. Cook over medium heat for about 40 minutes, stirring occasionally, until the tomatoes and onion are soft. Add only enough water to prevent catching before the tomatoes release their juices; keep the mixture at a steady simmer.
-3. **Pass the sauce through the mill:** Pass the softened tomato mixture through the food mill into a bowl, retaining the pulp and liquid. Remove the seeds and skins left in the mill.
-4. **Finish the tomato sauce:** Use garlic cloves, extra-virgin olive oil, fresh basil sprig, and salt in the saucepan. Gently fry the garlic in the oil until pale golden, then add the milled tomato mixture and basil sprig. Simmer gently for about 20 minutes, until the sauce has body. Season to taste; the ricotta salata added later also brings salt. Keep the full sauce for dressing and topping the pasta.
-5. **Fry the eggplant in batches:** Use medium violet eggplants and extra-virgin olive oil. Cut the eggplant lengthwise into 4 mm slices and dry the surfaces well. Heat the oil until a slice sizzles steadily, without smoke. Fry small uncrowded batches, turning until golden and tender throughout. Drain with a slotted spoon onto the lined tray. Let the oil recover between batches, keep room for displaced oil, and never leave the hot pan unattended. Move it safely off the burner when frying is finished.
-6. **Cook the spaghetti:** Cook dried spaghetti, water, and salt: bring the water to a boil, salt it, then add the spaghetti and cook until al dente according to the pasta’s package guidance. While it cooks, cut some of the fried eggplant into strips and put them in a wide pan with a few spoonfuls of the prepared tomato sauce.
-7. **Toss and serve:** Finish with ricotta salata, fresh basil leaves, and freshly ground black pepper. Drain the spaghetti and toss it over medium heat in the separate wide pan with the tomato sauce and eggplant strips for about 1 minute. Divide among plates and use the remaining tomato sauce, whole fried eggplant slices and all the grated ricotta salata to finish. Add basil and pepper to taste and serve promptly.
-
-## Cooking Notes
-
-Ricotta salata is the firm salted grating cheese; fresh ricotta gives a different finish. Use the full listed cheese amount, and season the tomato sauce with its saltiness in mind. The 4 mm eggplant thickness stays the same as the batch changes.
-
-On two burners, finish frying before bringing the pasta water to a boil. Three medium eggplants require several frying batches; a smaller pan needs more time.
+1. **Cook the tomatoes:** Put ripe plum tomatoes, medium white onions, and fresh basil leaves in a large saucepan with a splash of water. Cook over medium heat, stirring now and then, until the tomatoes and onion are soft and collapsed, about 40 minutes.
+2. **Mill the tomatoes:** Pass the tomato mixture through a food mill into a bowl. Discard the skins and seeds left in the mill.
+3. **Fry the garlic:** Wipe out the saucepan. Warm garlic cloves and extra-virgin olive oil in it over medium-low heat until the garlic is pale gold.
+4. **Finish the sauce:** Add the milled tomatoes, then fresh basil sprig and kosher salt, going easy on the salt since the cheese is salty. Simmer gently, stirring now and then, until the sauce has body, about 20 minutes.
+5. **Heat the frying oil:** While the sauce simmers, heat about 1/2 inch of olive oil in a heavy frying pan over medium-high heat until a slice of eggplant sizzles steadily when dipped in.
+6. **Fry the eggplant:** Pat the slices of violet eggplants dry. Fry them in small batches without crowding, turning once, until golden and tender, 2 to 3 minutes per side. Drain on paper towels.
+7. **Boil the spaghetti:** Bring a large pot of well-salted water to a boil. Cook spaghetti until al dente.
+8. **Warm the eggplant strips:** While the pasta cooks, cut about a third of the fried eggplant into strips. Warm them in a wide pan with a few spoonfuls of the sauce.
+9. **Toss the pasta:** Drain the spaghetti and add it to the wide pan. Toss over medium heat for 1 minute.
+10. **Top and serve:** Divide the pasta among plates. Top with the rest of the sauce, the whole eggplant slices and ricotta salata, fresh basil leaves, and black pepper.
