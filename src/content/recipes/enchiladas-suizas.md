@@ -19,113 +19,61 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 'About 25 min, plus tortilla frying'
-totalTime: 'About 45 min, plus vegetable cooling, tortilla frying and any extra batches'
+cookTime: 45 min
+totalTime: 1 hr 15 min
 servings: '6'
 pairsWith:
-  - queso-fundido-with-chorizo
+  - quick-seasoned-black-beans
   - mexican-street-corn-salad
-  - roasted-sweet-potatoes
+pairingNotes:
+  quick-seasoned-black-beans: The classic beans beside a plate of enchiladas.
+  mexican-street-corn-salad: Smoky, tangy corn against the creamy green sauce.
 ingredients:
-  - '1 lb shredded chicken, already fully cooked, poached or rotisserie'
+  - '1 lb cooked chicken, shredded'
   - 12 corn tortillas
-  - '1 lb tomatillos, husked, rinsed and dried'
-  - '2 jalapeños or serranos, washed'
-  - '1 white onion, peeled and quartered'
-  - '3 garlic cloves, peeled'
+  - '1 lb tomatillos, husked and rinsed'
+  - 2 jalapeños or serranos
+  - '1 white onion, quartered'
+  - 3 garlic cloves
+  - 1 tbsp neutral oil
   - 1/2 cup heavy cream
-  - '1/2 cup fresh cilantro, washed and finely chopped, for the sauce'
-  - '1 tbsp neutral oil, for frying the sauce'
-  - >-
-    8 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and
-    topping
-  - 'oil for frying, enough for a 1/4-inch layer in the chosen skillet'
-  - 'salt, to taste for the sauce'
-  - 'pickled red onions, as desired for garnish'
-  - 'additional fresh cilantro, washed, as desired for garnish'
+  - '1/2 cup fresh cilantro, finely chopped, plus more for serving'
+  - kosher salt, to taste
+  - '1/2 cup neutral oil, for frying the tortillas'
+  - '8 oz Chihuahua cheese, shredded'
+  - 'pickled red onions, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 learning:
-  focus: >-
-    Coordinate a blended green sauce, pliable tortillas and a hot casserole
-    center
-  outcome: >-
-    Rolled tortillas coated in creamy tomatillo sauce, bubbling cheese and
-    evenly reheated cooked chicken.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep fully cooked chicken refrigerated at 40°F / 4°C or below until
-      assembly. Prepare the washed vegetables with clean tools and keep
-      perishable cream, cheese and chicken cold during any wait.
-    - >-
-      The chicken is already fully cooked. Prepare a broiler-safe sheet, frying
-      skillet, enough baking dishes and the actual blender instructions before
-      starting.
-    - >-
-      Keep the full measured cheese amount, reserving the desired topping
-      portion before filling. Choose the topping coverage you want before
-      dividing the remaining cheese among the fillings. Frying oil, sauce salt
-      and additional garnish cilantro are separate unmeasured supplies.
-  checkpoints:
-    - step: 3
-      cue: Tortillas bend easily while remaining soft rather than crisp.
-      why: >-
-        The short oil dip prepares them for rolling; a rigid fried tortilla is
-        harder to fill.
-    - step: 5
-      cue: >-
-        Cheese and sauce bubble and representative casserole centers reach
-        165°F.
-      why: >-
-        Fully cooked chicken is being reheated in a casserole; a bubbling top
-        does not establish the center.
-  troubleshooting:
-    - problem: The sauce is too hot for the blender
-      cause: Roasted vegetables have not cooled within the actual machine's limits.
-      fix: >-
-        Allow more cooling time and use only the model-permitted load and lid
-        procedure. A lack of visible steam alone is not proof of an allowed
-        starting temperature.
-  timing: >-
-    The inherited 20-minute preparation and about 25-minute broil/bake plan is a
-    starting schedule. It does not include vegetable cooling for the actual
-    blender, the 5–8 minutes of frying the sauce or all tortilla-frying loads. Additional dishes and a colder
-    casserole can extend baking; the 15–20-minute first check does not replace
-    the 165°F center endpoint.
+  substitutions:
+    - ingredient: Chihuahua cheese
+      alternative: Monterey Jack
+      effect: Very close in flavor and melts just as smoothly.
+    - ingredient: cooked chicken
+      alternative: Rotisserie chicken
+      effect: One store-bought bird gives about the right amount once you pull the meat.
   storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or
-    freeze promptly; follow any shorter remaining limit on prepared components.
-    Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout.
-    Cool extra sauce promptly; for separately reheated sauce USDA additionally
-    recommends a rolling boil with stirring. Reach it briefly rather than
-    prolonged boiling, which can alter the cream texture or concentrate it.
-  sources:
-    - title: FDA casseroles and handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA leftovers and sauce reheating
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 3 days in the fridge. Reheat covered in a 350°F oven until hot. The sauce keeps 3 days on
+    its own, so you can make it ahead.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Suizas means Swiss-style: these enchiladas pair tart roasted tomatillos with generous cream and cheese. Frying the blended salsa briefly before the cream goes in deepens and rounds the green sauce. Briefly fry the tortillas until pliable before filling so they can be rolled without becoming crisp. Keep the full cheese amount divided between filling and topping; the split can follow the topping coverage you want.
-
-For kids, reduce or omit the peppers in the sauce if desired; the cream and cheese amounts stay the same.
+Suizas means Swiss-style, for the cream and melted cheese that blanket these Mexico City enchiladas. Charred tomatillos make a tart green sauce, and frying the blended salsa in a little oil deepens it before the cream goes in. A quick dip in hot oil keeps the tortillas soft and whole under the sauce.
 
 ## Directions
 
-1. **Roast:** Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.
-2. **Cool, blend and fry the sauce:** Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables until smooth. Heat the 1 tbsp oil in a medium saucepan over medium-high heat, add the purée all at once (it will spatter) and stir. Simmer, stirring often, about 5–8 minutes, until it darkens slightly and thickens. Remove from the heat, stir in the full measured heavy cream and chopped cilantro, and season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.
-3. **Prepare tortillas:** Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.
-4. **Assemble:** Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.
-5. **Bake:** Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.
-6. **Finish:** Top with the pickled red onions and the separate additional cilantro allowance, and serve promptly.
+1. **Char the vegetables:** Heat the broiler. Spread the tomatillos, chiles, onion and garlic on a baking sheet. Broil, turning once, until charred in patches and soft, 5 to 7 minutes. Let cool for 10 minutes.
+2. **Blend the salsa:** Blend the vegetables until smooth.
+3. **Fry the sauce:** Heat the tablespoon of oil in a medium saucepan over medium-high heat. Add the salsa all at once, standing back as it spatters. Simmer, stirring often, until it darkens slightly and thickens, 5 to 8 minutes. Take it off the heat, stir in the cream and cilantro, and season with salt.
+4. **Soften the tortillas:** Heat the oven to 375°F. Heat the frying oil in a small skillet over medium-high heat. Dip each tortilla in the oil for 5 to 10 seconds per side, just until pliable but not crisp. Drain on paper towels.
+5. **Fill and roll:** Set aside half the cheese for the top. Dip each tortilla in the sauce, fill it with chicken and a little of the remaining cheese, and roll it tightly. Lay the rolls seam side down in a 9x13-inch baking dish.
+6. **Bake:** Pour the rest of the sauce over the rolls and cover with the reserved cheese. Bake until the sauce bubbles and the cheese is melted and lightly browned, 15 to 20 minutes.
+7. **Serve:** Top with pickled red onions and more cilantro.

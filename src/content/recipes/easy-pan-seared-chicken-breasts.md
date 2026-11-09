@@ -28,87 +28,52 @@ totalTime: 35 min
 servings: '4'
 pairsWith:
   - homemade-rice-pilaf
-  - everyday-arugula-salad
   - crispy-parmesan-roasted-broccoli
+  - everyday-arugula-salad
+pairingNotes:
+  homemade-rice-pilaf: A buttery starch to round out the plate.
+  crispy-parmesan-roasted-broccoli: A crisp green vegetable from the oven.
+  everyday-arugula-salad: Peppery greens and lemon beside golden chicken.
 ingredients:
-  - >-
-    1.5 lbs (680 g) boneless skinless chicken breasts, butterflied into 4–6 cutlets about 1/2 inch
-    thick
-  - '1/2 cup (60 g) all-purpose flour, for dredging; excess will be discarded'
-  - '3 tbsp olive oil, divided'
-  - '1 tsp fine salt, for seasoning the cutlets'
+  - '1 1/2 lb boneless, skinless chicken breasts, butterflied into 1/2-inch-thick cutlets'
+  - '1/2 cup all-purpose flour, for dredging'
+  - 3 tbsp olive oil
+  - '1 tsp fine salt, for the chicken'
   - '1/4 tsp fine salt, for the flour'
   - 1/4 tsp black pepper
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder
   - 1 tsp dried Italian herbs
-  - 'Lemon wedges, for serving'
+  - 'lemon wedges, for serving'
 origin: United States
 description: >-
-  Golden, lightly floured chicken cutlets with a measured temperature endpoint. Learn to balance
-  crust development with a juicy center.
+  Golden, lightly floured chicken cutlets seasoned with garlic, onion and Italian herbs, on the table
+  in 35 minutes.
 learning:
-  focus: 'Brown the surface, measure the center'
-  outcome: A thin golden coating and a center that reaches 165°F / 74°C without prolonged cooking.
   techniques:
     - browning
     - temperature
-  before:
-    - Even the cutlets to about 1/2 inch thick; thickness determines cooking time.
-    - Set a clean plate aside for cooked chicken and plan for two batches.
-  checkpoints:
-    - step: 3
-      cue: Oil shimmers; chicken sizzles steadily without a puddle forming.
-      why: Drying and light flouring support surface browning. Crowding cools the pan.
-    - step: 4
-      cue: Several thick spots read 165°F / 74°C on a thermometer.
-      why: >-
-        The coating can brown before the center is safe. Check from the side so the probe reaches
-        the middle.
-  troubleshooting:
-    - problem: Crust darkens before the center is cooked
-      cause: Heat is too high or cutlets are uneven.
-      fix: >-
-        Reduce to medium-low and continue until the center reaches 165°F / 74°C. Do not judge by
-        crust color.
-    - problem: Second batch tastes burnt
-      cause: Loose flour and herbs scorched in the first batch.
-      fix: >-
-        Between batches, carefully wipe out dark residue with a paper towel held in tongs and
-        replenish the oil.
   substitutions:
-    - ingredient: All-purpose flour
+    - ingredient: all-purpose flour
       alternative: Fine rice flour
-      effect: 'A lighter, crisper coating; check other ingredients if avoiding gluten.'
-  timing: >-
-    35 minutes allows 10 minutes preparation, roughly 20 minutes for two batches, and a 5-minute
-    rest. More servings need more batches, not longer cooking per cutlet.
+      effect: A lighter, crisper coating that is also gluten-free.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. Reheat gently with a splash of
-    stock, covered; the crust will soften.
-  sources:
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 4 days in the fridge. Slice it cold for salads or rewarm it covered with a splash of stock.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from whatsinthepan.com
+    date: '2026-11-09'
+source: Adapted from What's in the Pan
 sourceUrl: 'https://whatsinthepan.com/easy-pan-seared-chicken/'
 ---
 
 ## Chef's Note
 
-A chicken cutlet cooks quickly because its center is close to the hot surface. Even thickness is more useful than a promise of an exact cooking time. A light flour coating gives browning a head start; a thermometer tells you when to stop.
+The weeknight chicken breast done right. Butterflying the breasts into thin, even cutlets lets them cook through in minutes, before they can dry out. A light coat of seasoned flour browns fast and gives every piece a golden crust.
 
 ## Directions
 
-1. **Prepare:** Butterfly thick breasts into 4–6 cutlets about 1/2 inch thick, evening them gently if necessary. Pat dry with paper towels and season both sides with the 1 tsp salt. Wash hands and clean surfaces after handling raw chicken.
-2. **Dredge lightly:** Mix flour, the 1/4 tsp salt, pepper, garlic powder, onion powder, and herbs in a shallow dish. Coat each cutlet and shake off excess. Discard flour that contacted raw chicken.
-3. **Sear in batches:** Heat 1.5 tbsp oil in a 12-inch skillet over medium-high until shimmering. Add only enough cutlets to fit without touching. Cook about 3–4 minutes until the bottom is golden; lower heat if flour specks darken rapidly.
-4. **Finish by temperature:** Turn and cook about 2–4 minutes more, adjusting heat as needed. Insert a thermometer from the side into the thickest part and remove each cutlet when it reaches 165°F / 74°C. Thick pieces may take longer. Set on a clean plate. Carefully remove scorched residue, add remaining oil, and repeat with the second batch.
-5. **Rest and serve:** Rest the cooked chicken for 5 minutes, loosely covered. Serve with lemon wedges. The rest is for serving quality; do not remove under-temperature chicken in the hope that resting will make it safe.
+1. **Season the cutlets:** Pat the cutlets dry and season both sides with the salt for the chicken.
+2. **Dredge:** In a shallow dish, mix the flour with the salt for the flour, pepper, garlic powder, onion powder and herbs. Coat each cutlet and shake off the extra.
+3. **Sear the first side:** Heat half the oil in a 12-inch skillet over medium-high heat until it shimmers. Add as many cutlets as fit without touching and cook until golden underneath, 3 to 4 minutes.
+4. **Finish cooking:** Flip and cook until the second side is golden and the thickest part reads 165°F, 2 to 4 minutes. Move to a plate. Wipe out any dark bits, add the rest of the oil and cook the second batch.
+5. **Rest and serve:** Let the chicken rest, loosely covered, for 5 minutes. Serve with lemon wedges.
