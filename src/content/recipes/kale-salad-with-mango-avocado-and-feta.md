@@ -25,7 +25,7 @@ pairingNotes:
 prepTime: 25 min
 cookTime: 0 min
 totalTime: 25 min
-servings: 4
+servings: '4'
 ingredients:
   - '1 bunch curly kale, ribs removed, leaves finely chopped'
   - '1 large ripe but firm mango, peeled and cubed'
