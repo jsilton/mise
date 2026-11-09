@@ -1,7 +1,7 @@
 ---
 miseId: 73c1b175-ee98-459f-9484-99d15c38eb85
 title: Shrimp & Mango Tacos
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - fry
   - saute
@@ -16,36 +16,37 @@ cuisines:
   - Mexican
 role: main
 vibe: quick
-prepTime: About 15–20 min active preparation
-cookTime: About 8–12 min pan cooking
-totalTime: About 25–35 min; steaming tortillas adds a 15 min covered stand
+prepTime: 15 min
+cookTime: 10 min
+totalTime: 25 min
 pairsWith:
+  - mexican-red-rice
   - mexican-street-corn-salad
-  - guacamole
-  - cilantro-lime-rice
+pairingNotes:
+  mexican-red-rice: Tomato rice to round out the plate.
+  mexican-street-corn-salad: 'Creamy, smoky corn beside sweet mango.'
 ingredients:
   - '--- Shrimp and mango filling ---'
   - 2 tbsp neutral oil
-  - '1 lb small shrimp, raw, peeled, deveined and patted dry'
-  - 'salt, to taste for the shrimp'
-  - '2 garlic cloves, sliced'
-  - '2 tsp cumin seeds, lightly toasted and ground'
+  - '1 lb small raw shrimp, peeled, deveined and patted dry'
+  - 1/2 tsp kosher salt
+  - '2 garlic cloves, thinly sliced'
+  - '2 tsp cumin seeds, toasted and ground'
   - '2 serrano chilies, minced'
-  - '1 large ripe mango, peeled, pit removed and finely chopped'
-  - '1/4 cup fresh cilantro, washed and chopped'
+  - '1 large ripe mango, peeled, pitted and finely chopped'
+  - '1/4 cup fresh cilantro, chopped'
   - 5 tbsp fresh lime juice
-  - 'salt, to taste after cooking'
+  - 'kosher salt, to taste'
   - '--- Tortillas ---'
   - 8 corn tortillas
-  - 'water, enough for the steamer below the basket, if steaming, optional'
 origin: Mexico
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
 servings: 4 portions
-source: Adapted from cooking.nytimes.com
-sourceUrl: 'https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share'
+source: Adapted from NYT Cooking
+sourceUrl: 'https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos'
 formula:
   version: 1
   yield:
@@ -62,22 +63,24 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: sear
+            - step: heat
               share: 1
         - id: shrimp
           key: shrimp
-          name: small shrimp
+          name: small raw shrimp
           quantity:
             amount: 1
             unit: lb
           uses:
             - step: sear
               share: 1
-          preparation: 'raw, peeled, deveined and patted dry'
+          preparation: 'peeled, deveined and patted dry'
         - id: salt
           key: salt
-          name: salt
-          allowance: to taste for the shrimp
+          name: kosher salt
+          quantity:
+            amount: 1/2
+            unit: tsp
           uses:
             - step: sear
               share: 1
@@ -88,10 +91,10 @@ formula:
             amount: 2
             unit: count
           uses:
-            - step: sear
+            - step: spice
               share: 1
           plural: garlic cloves
-          preparation: sliced
+          preparation: thinly sliced
         - id: cumin
           key: cumin
           name: cumin seeds
@@ -101,7 +104,7 @@ formula:
           uses:
             - step: spice
               share: 1
-          preparation: lightly toasted and ground
+          preparation: toasted and ground
         - id: chili
           key: chili
           name: serrano chili
@@ -123,7 +126,7 @@ formula:
             - step: mango
               share: 1
           plural: large ripe mangoes
-          preparation: 'peeled, pit removed and finely chopped'
+          preparation: 'peeled, pitted and finely chopped'
         - id: cilantro
           key: cilantro
           name: fresh cilantro
@@ -133,7 +136,7 @@ formula:
           uses:
             - step: mango
               share: 1
-          preparation: washed and chopped
+          preparation: chopped
         - id: lime
           key: lime
           name: fresh lime juice
@@ -145,8 +148,8 @@ formula:
               share: 1
         - id: finish-salt
           key: finish-salt
-          name: salt
-          allowance: to taste after cooking
+          name: kosher salt
+          allowance: to taste
           uses:
             - step: finish
               share: 1
@@ -163,131 +166,60 @@ formula:
             - step: warm
               share: 1
           plural: corn tortillas
-        - id: steam-water
-          key: steam-water
-          name: water
-          allowance: 'enough for the steamer below the basket, if steaming'
-          uses:
-            - step: warm
-              share: 1
-          role: cooking-water
-          optional: true
   steps:
-    - id: prep
-      title: Prepare
-      text: >-
-        Prepare all the filling ingredients before heating the pan. If the cumin is not already
-        toasted, stir the seeds in a dry pan over moderate heat until fragrant, then cool briefly
-        and grind. Keep the measured cumin total unchanged.
     - id: warm
       title: Warm the tortillas
       text: >-
-        Warm {{ingredients}}: heat tortillas in a towel in short microwave intervals until flexible,
-        starting around 45–60 seconds for the original batch, or char them briefly on a hot dry
-        skillet, turning as needed. For direct-flame warming: use tongs to turn each tortilla
-        briefly over a gas flame until lightly charred and flexible. Keep wrapped and warm. For
-        steaming, set the wrapped tortillas above about 1 inch of boiling water, cover and steam for
-        1 minute, then turn off the heat and leave covered for 15 minutes; water must not touch the
-        tortillas. More tortillas may need separate loads.
+        Wrap {{ingredients}} in a damp kitchen towel and microwave until hot and soft, 45 to 60
+        seconds. Or char them one at a time over a gas flame. Keep them wrapped.
+    - id: heat
+      title: Heat the pan
+      text: >-
+        Heat {{ingredients}} in a large heavy skillet or wok over medium-high heat until it
+        shimmers.
     - id: sear
-      title: Start the shrimp
-      text: >-
-        Use {{ingredients}}. Heat the measured oil in a large heavy skillet or wok over medium-high
-        heat. Add shrimp and the shrimp-seasoning salt. Stir about 1–2 minutes until they begin to
-        color, adding all the garlic during the last 30–45 seconds so it does not scorch. Use a pan
-        that lets you move the shrimp freely, or divide the whole filling across batches.
+      title: Sear the shrimp
+      text: 'Add {{ingredients}} and stir-fry until they start to turn pink, 1 to 2 minutes.'
     - id: spice
-      title: Add cumin and chili
-      text: >-
-        Stir in {{ingredients}} and cook about 1 minute until fragrant, reducing heat if the garlic
-        is darkening. Continue cooking shrimp as needed rather than using pink edges as the final
-        test.
+      title: Add the aromatics
+      text: 'Add {{ingredients}} and stir-fry until fragrant, about 1 minute.'
     - id: mango
-      title: Add mango and cilantro
+      title: Add the mango
       text: >-
-        Fold in {{ingredients}} and cook about 1 minute, until the mango edges soften but pieces
-        remain. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance
-        is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute
-        count alone does not establish doneness.
+        Fold in {{ingredients}} and cook until the mango softens at the edges and the shrimp are
+        opaque all the way through, about 1 minute.
     - id: finish
-      title: Finish and serve
-      text: >-
-        Off heat, stir in {{ingredients}}, adding the finishing salt only as needed after tasting
-        cooked filling. Divide all the filling among all the warm tortillas; the original batch
-        provides eight tortillas for four planning portions. Serve promptly, with separately
-        prepared [Mexican Red Rice](/mise/recipes/mexican-red-rice) if wanted.
+      title: Season with lime
+      text: 'Take the pan off the heat and stir in {{ingredients}}.'
+    - id: serve
+      title: Fill and serve
+      text: Fill the warm tortillas with the shrimp and mango and serve right away.
 learning:
-  focus: Cook shrimp through while keeping mango pieces distinct
-  outcome: 'Cooked shrimp and softened-edge mango in warm, pliable tortillas.'
   techniques:
     - gentle-proteins
     - seasoning
-  before:
-    - >-
-      Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag
-      in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.
-    - >-
-      Prepare mango and herbs separately from raw shrimp. Toast/grind cumin before the pan cooking
-      starts.
-    - >-
-      Use additional pan batches when scaling; allocate the full oil and filling across batches,
-      rather than repeating the whole amounts per pan.
-  checkpoints:
-    - step: 3
-      cue: Garlic is fragrant rather than dark; shrimp are still being cooked.
-      why: Garlic added late needs less pan time than the shrimp.
-    - step: 5
-      cue: Shrimp centers are cooked and mango pieces have softened edges.
-      why: A one-minute fruit stage does not override shrimp doneness.
-  troubleshooting:
-    - problem: Garlic scorches before shrimp cook
-      cause: The pan is too hot or garlic entered too early.
-      fix: Reduce heat and finish shrimp cooking; badly burnt garlic cannot be repaired by more lime.
   substitutions:
-    - ingredient: Serrano chilies
-      alternative: >-
-        For the original four-portion batch, two bird chilies or one large jalapeño instead; scale
-        this branch proportionally
-      effect: Different chilies vary in heat; all enter the cumin stage.
-    - ingredient: Corn tortillas
-      alternative: The same listed count of flour tortillas
-      effect: Warm until pliable; larger tortillas change the filled size.
-    - ingredient: Five tablespoons lime juice
-      alternative: >-
-        For the original four-portion batch, use four to five tablespoons instead; scale this range
-        proportionally
-      effect: 'Use this separate finish range instead of the listed total, not in addition.'
-  timing: >-
-    About 15–20 min active preparation; About 8–12 min pan cooking; About 25–35 min; steaming
-    tortillas adds a 15 min covered stand. Planning ranges assume peeled, thawed shrimp and prepared
-    ingredients; additional loads or side dishes add time.
-  storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
-    above 90°F). Use within 3–4 days and reheat hot leftovers to 165°F throughout. Shrimp can become
-    firmer with reheating; these times describe handling, not a promise of unchanged texture.
-  sources:
-    - title: Adapted from cooking.nytimes.com
-      url: 'https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share'
-    - title: FDA — Selecting and serving seafood safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: USDA — Handling leftovers safely
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: serrano chilies
+      alternative: 1 large jalapeño
+      effect: Milder and a little grassier.
+    - ingredient: cumin seeds
+      alternative: Ground cumin
+      effect: Use 1 1/2 tsp. The flavor is flatter than freshly toasted seeds.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Mango stays in small pieces rather than being cooked down into a smooth glaze. Toasted cumin seasons the shrimp, and the full lime juice goes in after cooking. Warm the tortillas before the filling is ready so the shrimp can be served promptly.
+These quick NYT Cooking tacos stir-fry small shrimp with garlic, toasted cumin and serrano, then fold in chopped mango for just a minute so it warms without falling apart. A big squeeze of lime goes in off the heat. Have everything chopped before the pan gets hot, since the cooking takes about five minutes.
 
 ## Directions
 
-1. **Prepare:** Prepare all the filling ingredients before heating the pan. If the cumin is not already toasted, stir the seeds in a dry pan over moderate heat until fragrant, then cool briefly and grind. Keep the measured cumin total unchanged.
-2. **Warm the tortillas:** Warm corn tortillas and water (if using): heat tortillas in a towel in short microwave intervals until flexible, starting around 45–60 seconds for the original batch, or char them briefly on a hot dry skillet, turning as needed. For direct-flame warming: use tongs to turn each tortilla briefly over a gas flame until lightly charred and flexible. Keep wrapped and warm. For steaming, set the wrapped tortillas above about 1 inch of boiling water, cover and steam for 1 minute, then turn off the heat and leave covered for 15 minutes; water must not touch the tortillas. More tortillas may need separate loads.
-3. **Start the shrimp:** Use neutral oil, small shrimp, salt, and garlic cloves. Heat the measured oil in a large heavy skillet or wok over medium-high heat. Add shrimp and the shrimp-seasoning salt. Stir about 1–2 minutes until they begin to color, adding all the garlic during the last 30–45 seconds so it does not scorch. Use a pan that lets you move the shrimp freely, or divide the whole filling across batches.
-4. **Add cumin and chili:** Stir in cumin seeds and serrano chilies and cook about 1 minute until fragrant, reducing heat if the garlic is darkening. Continue cooking shrimp as needed rather than using pink edges as the final test.
-5. **Add mango and cilantro:** Fold in large ripe mango and fresh cilantro and cook about 1 minute, until the mango edges soften but pieces remain. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness.
-6. **Finish and serve:** Off heat, stir in fresh lime juice and salt, adding the finishing salt only as needed after tasting cooked filling. Divide all the filling among all the warm tortillas; the original batch provides eight tortillas for four planning portions. Serve promptly, with separately prepared [Mexican Red Rice](/mise/recipes/mexican-red-rice) if wanted.
+1. **Warm the tortillas:** Wrap corn tortillas in a damp kitchen towel and microwave until hot and soft, 45 to 60 seconds. Or char them one at a time over a gas flame. Keep them wrapped.
+2. **Heat the pan:** Heat neutral oil in a large heavy skillet or wok over medium-high heat until it shimmers.
+3. **Sear the shrimp:** Add small raw shrimp and kosher salt and stir-fry until they start to turn pink, 1 to 2 minutes.
+4. **Add the aromatics:** Add garlic cloves, cumin seeds, and serrano chilies and stir-fry until fragrant, about 1 minute.
+5. **Add the mango:** Fold in large ripe mango and fresh cilantro and cook until the mango softens at the edges and the shrimp are opaque all the way through, about 1 minute.
+6. **Season with lime:** Take the pan off the heat and stir in fresh lime juice and kosher salt.
+7. **Fill and serve:** Fill the warm tortillas with the shrimp and mango and serve right away.

@@ -17,29 +17,26 @@ flavorProfile:
   - herbaceous
 prepTime: 10 min
 cookTime: 35 min
-totalTime: 'About 45 min, plus any remaining preheating and extra pan loads'
+totalTime: 45 min
 servings: 4 portions
 pairsWith:
   - steamed-broccoli
-  - crispy-smashed-potatoes
+  - everyday-arugula-salad
+pairingNotes:
+  steamed-broccoli: 'The green vegetable, steamed while the pan roasts.'
+  everyday-arugula-salad: Peppery greens and lemon to cut the sausage.
 equipment:
   - sheet-pan
 ingredients:
-  - >-
-    1 1/2 lb raw Italian sausage links, sweet or hot; check the species and whether raw or fully
-    cooked on the label
-  - '1 1/2 lb baby potatoes, washed and halved'
+  - '1 1/2 lb Italian sausage links, sweet or hot'
+  - '1 1/2 lb baby potatoes, halved'
   - 3 tbsp olive oil
   - 1 tsp garlic powder
   - 1 tsp Italian seasoning
   - 1 tsp kosher salt
   - 1/2 tsp black pepper
-  - >-
-    broccoli florets, the amount desired for serving, washed; frozen products follow their package
-    cooking directions
-  - 'water, as required by the actual steamer or microwave method'
-  - 'store-bought dinner rolls, the amount desired for serving'
-  - 'whole grain mustard or Dijon, as desired for serving'
+  - 'dinner rolls, warmed, for serving'
+  - 'whole grain mustard or Dijon, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -55,14 +52,14 @@ formula:
       ingredients:
         - id: sausage
           key: italian-sausage
-          name: raw Italian sausage links
+          name: Italian sausage links
           quantity:
             amount: 1.5
             unit: lb
           uses:
             - step: sausage
               share: 1
-          preparation: sweet or hot; check the species and whether raw or fully cooked on the label
+          preparation: sweet or hot
         - id: potatoes
           key: baby-potatoes
           name: baby potatoes
@@ -72,7 +69,7 @@ formula:
           uses:
             - step: potatoes
               share: 1
-          preparation: washed and halved
+          preparation: halved
         - id: oil
           key: olive-oil
           name: olive oil
@@ -118,150 +115,64 @@ formula:
           uses:
             - step: potatoes
               share: 1
-        - id: broccoli
-          key: broccoli
-          name: broccoli florets
-          allowance: the amount desired for serving
-          uses:
-            - step: broccoli
-              share: 1
-          preparation: washed; frozen products follow their package cooking directions
-        - id: steam-water
-          key: water
-          name: water
-          allowance: as required by the actual steamer or microwave method
-          uses:
-            - step: broccoli
-              share: 1
-          role: cooking-water
         - id: rolls
           key: dinner-rolls
-          name: store-bought dinner rolls
-          allowance: the amount desired for serving
+          name: dinner rolls
+          allowance: 'warmed, for serving'
           uses:
             - step: serve
               share: 1
         - id: mustard
           key: mustard
           name: whole grain mustard or Dijon
-          allowance: as desired for serving
+          allowance: for serving
           uses:
             - step: serve
               share: 1
   steps:
-    - id: prep
-      title: Prep
-      text: >-
-        Preheat the oven to 425°F. Choose enough rimmed sheet-pan space for a single potato layer
-        and sausage links with some room between them. Use parchment only if its rating permits this
-        temperature. If using several pans, divide the potatoes and all their oil and seasoning
-        proportionally; do not multiply oven temperature or time.
     - id: potatoes
-      title: Season potatoes
+      title: Season the potatoes
       text: >-
-        Toss {{ingredients}}, coating every piece with all the measured oil and seasoning. Spread
-        the potatoes in a single layer on the pan.
+        Heat the oven to 425°F. On a large rimmed sheet pan, toss {{ingredients}} until every piece
+        is coated. Spread the potatoes in one layer, cut side down.
     - id: start
-      title: Start potatoes
-      text: Roast the potatoes alone for about 15 minutes as a first check and head start.
+      title: Roast the potatoes
+      text: 'Roast the potatoes alone until they start to brown underneath, 15 minutes.'
     - id: sausage
-      title: Add sausage
+      title: Add the sausage
       text: >-
-        Add {{ingredients}} to the hot pan, shifting the potatoes only if they can still stay in a
-        single layer. Pierce the links a few times as in this preparation, allowing their rendered
-        fat to baste the potatoes. If the full load will not fit with space, use an additional pan
-        for the sausages from this stage.
+        Nestle {{ingredients}} among the potatoes on the hot pan, keeping the potatoes in one layer.
+        Prick each link a few times with a fork so the fat runs out and bastes the potatoes.
     - id: roast
       title: Roast together
       text: >-
-        Begin checking after about 20 more minutes, turning the links partway through. Raw pork or
-        beef sausage links need a measured 160°F / 71°C center; raw chicken or turkey sausage needs
-        165°F / 74°C. Potatoes should be golden with tender centers, not merely browned outside.
-        Keep potatoes that contact raw sausage juices cooking through with the meat; with raw
-        poultry links, check representative raw-contact potatoes for 165°F as well before removing
-        them. If potatoes finish early, separate-pan cooking from the start avoids raw-juice
-        contact. Use clean tools and a clean plate for cooked links.
-    - id: broccoli
-      title: Steam broccoli
-      text: >-
-        While the pans roast, use {{ingredients}}. Steam fresh florets until crisp-tender, beginning
-        checks around 5 minutes; microwave and frozen products follow their actual appliance or
-        package instructions. Drain any excess cooking water.
+        Roast, turning the sausages halfway, until they are browned and reach 160°F in the center
+        and the potatoes are golden and tender, about 20 minutes.
     - id: serve
       title: Serve
-      text: >-
-        Slice the fully cooked links on the bias. Divide all the potatoes, sausage and broccoli
-        among the portions, serving with {{ingredients}}. Warm rolls according to their package if
-        desired.
+      text: 'Slice the sausages on the bias. Serve them with the potatoes, {{ingredients}}.'
 learning:
-  focus: Give potatoes a head start without assuming that browned sausages are cooked
-  outcome: >-
-    Golden potatoes with tender centers and fully cooked sausage links, with all the potato oil and
-    seasoning retained.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator.
-      Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its
-      utensils.
-    - >-
-      Check sausage species and raw versus fully cooked status before choosing the cooking endpoint.
-      Wash and halve the potatoes and plan the broccoli, rolls and mustard serving amounts.
-    - >-
-      Choose enough rimmed pan area for the actual load; larger batches need additional pans or
-      complete batches rather than deeper piles. Parchment must be rated for 425°F.
-  checkpoints:
-    - step: 5
-      cue: Each link reaches its species-specific endpoint and potato centers are tender.
-      why: A browned link surface and a crispy potato edge do not measure the centers.
-    - step: 6
-      cue: 'Fresh broccoli is crisp-tender, or a packaged product has completed its specified cooking.'
-      why: 'Floret size, fresh versus frozen state and the actual appliance change the steam clock.'
-  troubleshooting:
-    - problem: Potatoes are browned outside but firm inside
-      cause: 'Larger halves, crowding or a shorter effective roast.'
-      fix: >-
-        Continue roasting until a knife enters the centers easily. Use the actual sausage endpoint
-        independently and preserve safe handling of potatoes that contacted raw juices.
-  timing: >-
-    The original ten-minute preparation and thirty-five-minute roast plan gives about 45 minutes,
-    with broccoli prepared in parallel. The fifteen-minute potato lead and twenty-minute combined
-    stage are first checks. Preheating, extra loads and the boiled/smashed option can add time.
-  storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F /
-    32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter
-    remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F
-    / 74°C throughout. Potatoes lose crispness during storage; keep rolls and mustard separate.
-    Reheat cooked sausage and potatoes evenly before serving fresh accompaniments.
-  sources:
-    - title: 'FDA meat, poultry and raw-food separation'
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - browning
+  substitutions:
+    - ingredient: Italian sausage links
+      alternative: Raw chicken sausage
+      effect: Leaner and milder. Roast it to 165°F.
+  storage: Keeps 4 days in the fridge. Reheat on a sheet pan in a 400°F oven so the potatoes crisp again.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Give the potatoes a head start, then roast the sausages alongside them so their rendered fat can baste the cut surfaces. Potato tenderness and the sausage center temperature are separate checks. Broccoli, rolls and mustard complete the plate while the oven works.
+This is a one-pan dinner of Italian sausage and crisp baby potatoes. The potatoes get a head start, then the sausages join them and their fat bastes the potatoes as everything roasts. Sweet sausage keeps it mild and fennel-scented, and hot sausage gives it a kick.
 
 ## Directions
 
-1. **Prep:** Preheat the oven to 425°F. Choose enough rimmed sheet-pan space for a single potato layer and sausage links with some room between them. Use parchment only if its rating permits this temperature. If using several pans, divide the potatoes and all their oil and seasoning proportionally; do not multiply oven temperature or time.
-2. **Season potatoes:** Toss baby potatoes, olive oil, garlic powder, Italian seasoning, kosher salt, and black pepper, coating every piece with all the measured oil and seasoning. Spread the potatoes in a single layer on the pan.
-3. **Start potatoes:** Roast the potatoes alone for about 15 minutes as a first check and head start.
-4. **Add sausage:** Add raw Italian sausage links to the hot pan, shifting the potatoes only if they can still stay in a single layer. Pierce the links a few times as in this preparation, allowing their rendered fat to baste the potatoes. If the full load will not fit with space, use an additional pan for the sausages from this stage.
-5. **Roast together:** Begin checking after about 20 more minutes, turning the links partway through. Raw pork or beef sausage links need a measured 160°F / 71°C center; raw chicken or turkey sausage needs 165°F / 74°C. Potatoes should be golden with tender centers, not merely browned outside. Keep potatoes that contact raw sausage juices cooking through with the meat; with raw poultry links, check representative raw-contact potatoes for 165°F as well before removing them. If potatoes finish early, separate-pan cooking from the start avoids raw-juice contact. Use clean tools and a clean plate for cooked links.
-6. **Steam broccoli:** While the pans roast, use broccoli florets and water. Steam fresh florets until crisp-tender, beginning checks around 5 minutes; microwave and frozen products follow their actual appliance or package instructions. Drain any excess cooking water.
-7. **Serve:** Slice the fully cooked links on the bias. Divide all the potatoes, sausage and broccoli among the portions, serving with store-bought dinner rolls and whole grain mustard or Dijon. Warm rolls according to their package if desired.
-
-## Notes
-
-- **Sweet Italian sausage:** Mild and fennel-forward.
-- **Hot Italian sausage:** Spicier; choose either or a mixture while keeping the listed total.
-- **Chicken sausage:** Use raw chicken sausage only with a measured 165°F center endpoint; fully cooked products follow their package reheating instructions.
-- **Smashed-potato option:** Boil the full measured potatoes in enough water to cover until tender, drain and let surface moisture steam off, then flatten gently with a fork. Coat them with the same full measured potato oil and seasoning and roast at 425°F in an even layer, checking earlier because they are already tender. Use a separate potato pan from the start if they will finish before the sausages. Cook the links to their label-appropriate endpoint; boiling and smashing add preparation beyond the original raw-halved-potato clock.
+1. **Season the potatoes:** Heat the oven to 425°F. On a large rimmed sheet pan, toss baby potatoes, olive oil, garlic powder, Italian seasoning, kosher salt, and black pepper until every piece is coated. Spread the potatoes in one layer, cut side down.
+2. **Roast the potatoes:** Roast the potatoes alone until they start to brown underneath, 15 minutes.
+3. **Add the sausage:** Nestle Italian sausage links among the potatoes on the hot pan, keeping the potatoes in one layer. Prick each link a few times with a fork so the fat runs out and bastes the potatoes.
+4. **Roast together:** Roast, turning the sausages halfway, until they are browned and reach 160°F in the center and the potatoes are golden and tender, about 20 minutes.
+5. **Serve:** Slice the sausages on the bias. Serve them with the potatoes, dinner rolls and whole grain mustard or Dijon.

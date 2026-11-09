@@ -1,7 +1,7 @@
 ---
 miseId: 0527a4bf-dd7b-4d16-afc6-f578b5f80d4f
 title: Balsamic Chicken with Tomatoes and Feta
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - roast
 occasions:
@@ -17,121 +17,63 @@ cuisines:
   - Mediterranean
 role: main
 vibe: nutritious
-prepTime: 20 min
-cookTime: 30 min
-totalTime: 55 min
+prepTime: 15 min
+cookTime: 35 min
+totalTime: 50 min
 servings: '4'
 pairsWith:
   - lemon-herb-couscous
   - everyday-arugula-salad
+pairingNotes:
+  lemon-herb-couscous: Soaks up the balsamic tomato juices.
+  everyday-arugula-salad: Peppery greens beside the sweet glaze.
 ingredients:
-  - >-
-    680 g boneless skinless chicken breasts, divided into 4 portions and evened
-    to about 3/4 inch thick
-  - '600 g cherry tomatoes, divided'
-  - '180 g red onion, cut into 1/2-inch wedges'
-  - '150 g block feta, drained and cut into 4 slabs'
+  - '1 1/2 lb boneless, skinless chicken breasts, cut into 4 portions and pounded 3/4 inch thick'
+  - '1 1/4 lb cherry tomatoes, divided'
+  - '1 medium red onion, cut into 1/2-inch wedges'
+  - '1 block (6 oz) feta in brine, drained and cut into 4 slabs'
   - '2 tbsp extra-virgin olive oil, divided'
   - 2 tbsp balsamic vinegar
   - 1 tbsp honey
   - 2 tsp Dijon mustard
   - 1 tsp dried oregano
   - 1/2 tsp garlic powder
-  - '3/4 tsp fine salt, for the chicken'
-  - 1/4 tsp ground black pepper
-  - 2 tbsp torn fresh basil
+  - 3/4 tsp fine salt
+  - 1/4 tsp black pepper
+  - '2 tbsp fresh basil, torn'
 origin: Mediterranean
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 description: >-
-  Even chicken breasts roasted with red onion and tomatoes, with a restrained
-  honey-balsamic finish and softened feta.
+  Chicken breasts roasted with red onion and cherry tomatoes, finished with a
+  honey-balsamic glaze and soft slabs of feta.
 equipment:
   - rimmed-half-sheet-pan
   - instant-read-thermometer
 learning:
-  focus: Separate the chicken endpoint from tomato reduction and cheese browning
-  outcome: >-
-    Cooked-through chicken that remains moist, softened feta, some burst
-    tomatoes for sauce and some less-collapsed tomatoes for contrast.
   techniques:
     - temperature
     - browning
     - seasoning
-  before:
-    - >-
-      Even thick breast portions to about 3/4 inch so they finish in a similar
-      window. Use a rimmed half-sheet pan with room between pieces.
-    - >-
-      Make the finishing mixture in a clean bowl and use separate utensils so it
-      never contacts raw chicken. Feta and mustard already contribute salt.
-  checkpoints:
-    - step: 3
-      cue: >-
-        Tomatoes are beginning to collapse, but the chicken still has open space
-        around it.
-      why: >-
-        Some tomato juice is desirable here as sauce. Piling vegetables over the
-        meat creates more steaming and uneven cooking.
-    - step: 4
-      cue: Each chicken center reaches 165°F / 74°C before removal.
-      why: >-
-        A guaranteed rise from 160°F during resting depends on conditions that
-        this home recipe does not control. Measure the endpoint instead of
-        predicting it.
-  troubleshooting:
-    - problem: Sauce is watery when chicken is done
-      cause: Tomatoes released abundant liquid before it could evaporate.
-      fix: >-
-        Remove cooked chicken and let the vegetables and sauce roast for a few
-        more minutes. Do not dry the breasts out to reduce tomato juice.
-    - problem: Honey mixture darkens too quickly
-      cause: Sweet drips are scorching on an exposed part of the pan.
-      fix: >-
-        Spoon liquid from the juicy tomato area over darkening spots and lower
-        oven heat if needed. Discard bitter burned deposits; keep checking the
-        chicken endpoint.
-  substitutions:
-    - ingredient: 150 g feta
-      alternative: 150 g drained brined white cheese
-      effect: >-
-        Saltiness, firmness and melting differ. Taste with the sauce; do not
-        promise the same cheese crust.
-  timing: >-
-    About fifty-five minutes includes twenty minutes of preparation and oven
-    heating, 25–30 minutes roasting and a five-minute rest. Extra vegetable
-    reduction or thicker chicken adds time. A grain or bread is an additional
-    component.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C),
-    at 40°F / 4°C or below. Use within 3–4 days and reheat to 165°F / 74°C.
-    Reheat with the tomato juices; feta and tomatoes become softer.
-  sources:
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge. Reheat gently with the tomato juices.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from foodandwine.com
+    date: '2026-11-09'
+source: Adapted from Food & Wine
 sourceUrl: 'https://www.foodandwine.com/sheet-pan-feta-chicken-8673602'
 ---
 
 ## Chef's Note
 
-Two additions of tomatoes create a useful texture contrast, but the later tomatoes will be softer than raw ones, not crispy. Feta softens and may color at its edges; a wet tomato tray is not a reliable way to make a crisp cheese crust. Finish each component by its own cue instead of holding cooked chicken in the oven until the picture looks right.
+This Food & Wine sheet-pan dinner roasts chicken with tomatoes in two rounds. The first tomatoes burst into a sauce with the honey-balsamic glaze, and the second stay whole and juicy. Slabs of block feta go on near the end, so they soften and brown at the edges without melting away.
 
 ## Directions
 
-1. **Prepare:** Heat the oven to 425°F / 220°C. Cut and weigh the vegetables, drain feta, and even the four chicken portions to about 3/4 inch thick. In a clean bowl, whisk balsamic vinegar, honey, Dijon, oregano, garlic powder and 1 tbsp of the oil. Reserve this mixture away from raw meat.
-2. **Arrange:** Use the remaining 1 tbsp oil to coat the chicken, onion and 400 g of the tomatoes on a rimmed half-sheet pan. Season chicken with its measured salt and pepper. Spread everything with gaps, keeping vegetables beside rather than piled over the meat. Wash hands and raw-meat utensils.
-3. **First roast, then finish:** Roast for twelve minutes. Add the remaining 200 g tomatoes and the four feta slabs in the spaces. Spoon the reserved clean balsamic mixture across chicken, vegetables and cheese. Do not use a raw-contact marinade as a late drizzle.
-4. **Measure:** Return to the oven for roughly 13–18 minutes. Start checking the thickest center of every chicken piece from the side after about twenty minutes total roasting, and remove pieces individually once they reach 165°F / 74°C. Continue as needed. Tomatoes should be juicy with some collapsed and some still holding shape, and onion should be tender. If those need longer, leave them in after removing the chicken.
-5. **Rest and serve:** Rest cooked chicken five minutes, then divide it with the vegetables, feta and tomato pan juices among four plates. Scatter the two tablespoons basil. Pair with a starch or a simple green salad as needed; an additional whipped-feta dip duplicates the cheese component.
+1. **Mix the glaze:** Heat the oven to 425°F. In a small bowl, whisk the balsamic vinegar, honey, Dijon, oregano, garlic powder and half the olive oil.
+2. **Season the pan:** On a rimmed half-sheet pan, toss the chicken, onion and two-thirds of the tomatoes with the rest of the oil. Season the chicken with the salt and pepper. Spread everything out, with the vegetables beside the chicken, not on top.
+3. **Roast:** Roast for 12 minutes, until the tomatoes start to split.
+4. **Add the feta and glaze:** Tuck the rest of the tomatoes and the feta slabs into the open spaces. Spoon the glaze over everything.
+5. **Finish roasting:** Roast until the chicken reaches 165°F and the feta is soft and browned at the edges, 13 to 18 minutes more. Let the chicken rest 5 minutes, then serve with the pan juices and basil scattered over.
