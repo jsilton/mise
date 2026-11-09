@@ -32,109 +32,60 @@ role: base
 vibe: technical
 prepTime: 45 min
 cookTime: 5 min
-totalTime: 1 hr 50 min
+totalTime: '50 min, plus 1 hr resting'
 servings: '4'
 pairsWith:
-  - chicken-piccata-unfried
-  - chicken-marsala
   - pressure-cooker-bolognase
+  - real-alfredo-sauce
+  - quick-lamb-ragu
+pairingNotes:
+  pressure-cooker-bolognase: Tagliatelle with ragù, the classic of Bologna.
+  real-alfredo-sauce: Butter and Parmigiano cling to fresh fettuccine.
+  quick-lamb-ragu: A hearty meat sauce for wide ribbons.
 ingredients:
-  - '290 g all-purpose flour, plus a little for dusting'
+  - '290 g 00 flour, plus a little for dusting'
   - 2 large eggs
   - 3 large egg yolks
   - 1 tbsp olive oil
   - '1/4 tsp fine salt, for the dough'
-  - '2 tbsp cool water, only as needed for the dough'
-  - '2 tbsp fine semolina or all-purpose flour, for dusting cut pasta'
-  - '4 quarts (3.8 liters) water, for cooking pasta'
+  - 'up to 2 tbsp cool water'
+  - '2 tbsp fine semolina, for dusting the cut pasta'
+  - '4 quarts water, for cooking the pasta'
   - '1 tbsp fine salt, for the pasta water'
 origin: Italy
 description: >-
-  A yolk-enriched dough for rolled ribbons, with measured water adjustments, a covered rest, and
-  thickness cues that work across pasta machines.
+  A rich, yolk-enriched dough for fettuccine and other rolled ribbons.
 learning:
-  focus: Judge dough hydration and thickness by feel
-  outcome: >-
-    A firm, smooth dough that rolls without ragged cracks, producing tender ribbons with a little
-    bite.
   techniques:
     - starch
-  before:
-    - >-
-      Weigh the flour. Eggs and flour absorption vary, so the water is an adjustment supply, not an
-      automatic addition.
-    - >-
-      Have a pasta roller and a clean, lightly floured surface ready. Different brands use different
-      thickness-setting numbers.
-  checkpoints:
-    - step: 1
-      cue: A handful of the crumbly mixture holds together when firmly squeezed.
-      why: >-
-        A dough can look crumbly in the processor while still containing enough moisture to knead.
-        Adding oil does not hydrate dry flour the way water does.
-    - step: 3
-      cue: Rested dough bends and rolls with less spring-back.
-      why: >-
-        The rest gives water time to distribute through the flour and lets the worked gluten network
-        relax.
-    - step: 4
-      cue: 'The sheet is about 1 mm thick and flexible, with no dry cracking.'
-      why: Physical thickness is portable across machines; a numbered dial setting is not.
-    - step: 6
-      cue: A cooked ribbon has no chalky or floury core.
-      why: 'Floating alone is not a reliable endpoint; thickness, drying, and shape affect cooking time.'
-  troubleshooting:
-    - problem: Dough cracks at the edges
-      cause: It is too dry or has been left uncovered.
-      fix: >-
-        Moisten your hands, knead briefly, wrap, and rest another 10 minutes. Add water sparingly
-        rather than repeatedly adding oil.
-    - problem: Dough sticks in the roller
-      cause: Its surface is tacky or the roller gap was narrowed too quickly.
-      fix: >-
-        Dust lightly with flour, return to a wider setting, and progress gradually. Do not force
-        sticky dough through the cutter.
-    - problem: Sheets spring back
-      cause: The dough needs more relaxation after kneading or rolling.
-      fix: Cover and rest that piece for 5–10 minutes while working on another piece.
   substitutions:
-    - ingredient: All-purpose flour
-      alternative: A 00 flour intended for pasta
+    - ingredient: 00 flour
+      alternative: All-purpose flour
       effect: >-
-        Absorption and protein content vary; use the same weight as a starting point and judge the
-        dough. The 00 label alone does not guarantee the same behavior.
-  timing: >-
-    About 1 hr 50 min includes 45 minutes mixing, kneading, rolling and cutting, a one-hour covered
-    rest, and up to five minutes cooking. A first attempt or hand rolling may take longer.
+        Use the same weight. The pasta is a little chewier and less silky, and the dough may need
+        an extra teaspoon of water.
+    - ingredient: fine semolina
+      alternative: All-purpose flour
+      effect: Works for dusting, but the nests stick together more easily.
   storage: >-
-    Keep total room-temperature handling to no more than 2 hours (1 hour above 90°F / 32°C).
-    Refrigerate wrapped raw dough or lightly dusted noodles at 40°F / 4°C or below and use within
-    1–2 days, or freeze promptly. Freeze separated nests on a tray, then bag; cook from frozen and
-    check the center, allowing longer. Refrigerate cooked leftovers promptly and reheat to 165°F /
-    74°C. Do not taste raw dough or assume countertop drying makes it shelf-stable.
-  sources:
-    - title: 'King Arthur Baking — Fresh pasta: handling, resting, and rolling'
-      url: 'https://www.kingarthurbaking.com/recipes/fresh-pasta-recipe'
-    - title: FDA — Flour is a raw food
-      url: 'https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Covered nests keep 2 days in the fridge. Freeze them on a tray, then bag them for up to 1 month
+    and cook from frozen, adding a minute.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Cooking.nytimes.com
+    date: '2026-11-09'
+source: Adapted from NYT Cooking
 sourceUrl: 'https://cooking.nytimes.com/recipes/1017391-fresh-egg-pasta'
 ---
 
 ## Chef's Note
 
-This dough keeps the original combination of whole eggs and extra yolks for a rich, flexible pasta. Flour weight establishes the starting ratio; a squeeze test and small water adjustments account for egg size and flour absorption. The dough should be firm, not wet like bread dough. Resting and gradual rolling make it easier to handle without excessive dusting flour.
+This is pasta all'uovo, the fresh egg pasta of Emilia-Romagna, enriched with extra yolks for a golden, silky ribbon. The food processor makes the dough in seconds. The hour of rest matters most, because it lets the flour hydrate and the dough relax, so it rolls thin without fighting back.
 
 ## Directions
 
-1. **Mix:** Pulse the measured flour and dough salt in a food processor. Beat eggs, yolks, and oil together, add, and pulse until evenly crumbly. Squeeze a small handful: if it holds together, stop. If it falls into dry crumbs, add the measured water a teaspoon at a time, pulsing briefly and checking again. You may not need all of it. Do not taste the raw mixture.
-2. **Knead:** Tip onto a clean work surface and press together. Knead for about 5–8 minutes until firm and reasonably smooth. Use very little dusting flour. If still dry and cracked, knead with lightly damp hands; if tacky, dust sparingly.
-3. **Rest covered:** Wrap tightly or place in a covered container so the surface cannot dry out. Rest for 1 hour at ordinary room temperature. Refrigerate instead if the kitchen is very hot or preparation will be delayed.
-4. **Roll gradually:** Divide into four pieces and keep three covered. Flatten one piece, dust lightly, and pass through the roller's widest setting. Fold in thirds and repeat once or twice to form an even strip. Progress through narrower settings without skipping several at once, stopping at about 1 mm for fettuccine. Rest a resistant piece covered for 5–10 minutes rather than forcing it.
-5. **Cut:** Let a tacky sheet sit just briefly until its surface no longer sticks, then cut into ribbons. Dust with the measured semolina or flour, shake off excess, and arrange in loose nests on a lined tray. Repeat with the remaining dough. Cook promptly, or refrigerate/freeze as described below.
-6. **Boil and finish:** Bring the cooking water and its salt to a full boil. Add noodles, separating them gently, and cook until no floury center remains, generally 2–5 minutes depending on thickness and drying. Taste only after cooking. Reserve a little cooking water before draining, then combine promptly with the chosen sauce.
+1. **Mix the dough:** Pulse the flour and dough salt in a food processor. Beat the eggs, yolks and oil together, add them and pulse until the mixture looks like coarse crumbs, about 30 seconds. Squeeze a handful. If it holds together, it is ready. If it crumbles, add the water a teaspoon at a time, pulsing after each.
+2. **Knead the dough:** Tip the crumbs onto a clean counter and press them together. Knead until the dough is firm, smooth and elastic, 5 to 8 minutes. Dust with flour only if it feels tacky.
+3. **Rest the dough:** Wrap it tightly and rest for 1 hour at room temperature, or overnight in the fridge.
+4. **Roll the sheets:** Cut the dough into four pieces and keep three wrapped. Flatten one, dust it lightly and pass it through the widest setting of the pasta roller. Fold it in thirds and roll it through twice more. Then pass it once through each narrower setting until the sheet is about 1 mm thick, thin enough to see your hand through. If it springs back, cover it and let it rest for 5 minutes.
+5. **Cut the noodles:** Let the sheet dry for a few minutes until it is no longer tacky, then cut it into ribbons. Toss with semolina and set in loose nests on a lined tray. Repeat with the rest of the dough.
+6. **Boil the pasta:** Bring the water and its salt to a rolling boil. Add the noodles, stir to separate them and cook until tender with a slight bite, 2 to 3 minutes. Save a cup of the cooking water, drain and toss with your sauce right away.

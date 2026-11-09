@@ -29,16 +29,16 @@ cuisines:
 role: side
 vibe: comfort
 prepTime: 15 min
-cookTime: 20–25 min
-totalTime: About 50 min (includes 10 min pan cooling)
+cookTime: 25 min
+totalTime: 50 min
 servings: 24 pieces
 pairsWith:
-  - banana-oat-greek-yogurt-muffins
-  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
-  - almond-zucchini-bread
+  - fluffy-scrambled-eggs
+pairingNotes:
+  fluffy-scrambled-eggs: Savory eggs and a warm muffin for breakfast.
 ingredients:
   - '--- Blueberry muffin batter ---'
-  - 'butter or neutral oil, for greasing the muffin cups if not using liners'
+  - 'butter or neutral oil, for the pans'
   - '1 cup (2 sticks) unsalted butter, softened'
   - 2 cups granulated sugar
   - '4 large eggs, at room temperature'
@@ -47,12 +47,12 @@ ingredients:
   - 4 cups all-purpose flour
   - 4 tsp baking powder
   - 1/2 tsp sea salt
-  - '3 cups frozen unsweetened blueberries, keep frozen until folding'
+  - '3 cups frozen unsweetened blueberries, still frozen'
   - '--- Nutmeg-sugar topping ---'
   - 2 tbsp granulated sugar
   - 1/2 tsp ground nutmeg
 origin: United States
-source: Adapted from tasteofhome.com
+source: Adapted from Taste of Home
 sourceUrl: 'https://www.tasteofhome.com/recipes/frozen-blueberry-muffins/'
 formula:
   version: 1
@@ -66,7 +66,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
-          allowance: for greasing the muffin cups if not using liners
+          allowance: for the pans
           uses:
             - step: prepare
               share: 1
@@ -110,7 +110,7 @@ formula:
             amount: 1
             unit: cup
           uses:
-            - step: liquids
+            - step: milk
               share: 1
         - id: vanilla
           key: vanilla-extract
@@ -119,7 +119,7 @@ formula:
             amount: 2
             unit: tsp
           uses:
-            - step: liquids
+            - step: milk
               share: 1
         - id: flour
           key: all-purpose-flour
@@ -154,7 +154,7 @@ formula:
           quantity:
             amount: 3
             unit: cup
-          preparation: keep frozen until folding
+          preparation: still frozen
           uses:
             - step: berries
               share: 1
@@ -181,142 +181,68 @@ formula:
               share: 1
   steps:
     - id: prepare
-      title: Prepare the oven and pans
+      title: Prepare the pans
       text: >-
-        Heat the oven to 375°F. For the original batch, line two standard 12-cup muffin tins or use
-        {{ingredients}} to grease the cups. For a different quantity, prepare more or fewer standard
-        cups, keeping the same cup size and about two-thirds fill. Plan oven space with air
-        circulation; additional oven batches add baking and pan-cooling time.
+        Heat the oven to 375°F. Line two 12-cup muffin tins with paper liners, or grease the cups
+        with {{ingredients}}.
     - id: dry
-      title: Mix the dry ingredients
-      text: 'Whisk the batter’s {{ingredients}} together in a bowl.'
+      title: Whisk the dry ingredients
+      text: 'Whisk {{ingredients}} in a bowl.'
     - id: cream
       title: Cream the butter and sugar
       text: >-
-        In another large bowl beat the batter’s {{ingredients}} for about 3–5 minutes, until light
-        and fluffy. The topping sugar is separate; none is subtracted from the batter sugar.
+        In a stand mixer, beat {{ingredients}} on medium-high speed until light and fluffy, 3 to 5
+        minutes.
     - id: eggs
       title: Add the eggs
-      text: 'Beat in the {{ingredients}} one at a time, scraping the bowl between additions.'
-    - id: liquids
-      title: Add the milk and vanilla
-      text: 'Mix in the {{ingredients}} until incorporated.'
+      text: 'Beat in {{ingredients}} one at a time, scraping the bowl after each.'
+    - id: milk
+      title: Add the milk
+      text: 'Beat in {{ingredients}} on low speed until smooth.'
     - id: combine
-      title: Fold in the flour mixture
+      title: Fold in the flour
       text: >-
-        Fold the dry mixture into the butter mixture just until moistened. Scrape the bottom of the
-        bowl so no dry flour pockets remain; do not keep beating to remove every small lump.
+        Fold in the flour mixture by hand just until no dry pockets remain. A few small lumps are
+        fine.
     - id: berries
-      title: Fold in the frozen berries
+      title: Fold in the berries
       text: >-
-        Gently fold in the {{ingredients}} with as few strokes as needed to distribute them. Portion
-        into standard muffin cups about two-thirds full, using the listed muffin yield as a guide
-        rather than forcing every batch into 24 cups. The original batch uses about 24 cups; use
-        more or fewer cups and additional pans or oven batches for different quantities.
+        Fold in {{ingredients}} straight from the freezer with as few strokes as possible, so the
+        batter stays pale. Divide it among the cups, about two-thirds full.
     - id: topping
       title: Add the topping
-      text: 'Combine the topping’s {{ingredients}} and sprinkle it evenly over the muffins.'
+      text: 'Stir together {{ingredients}} and sprinkle it over the muffins.'
     - id: bake
-      title: Bake and cool
+      title: Bake the muffins
       text: >-
-        Bake for 20–25 minutes, until a tester through the crumb has no wet batter; berry juice on
-        the tester is different from uncooked batter. Check muffins from both tins. Cool in the tins
-        for 10 minutes, then remove to racks. Let cool completely before packing for storage.
+        Bake until golden and a toothpick in the center comes out with no wet batter, 20 to 25
+        minutes. A streak of berry juice on the toothpick is fine.
+    - id: cool
+      title: Cool the muffins
+      text: 'Cool the muffins in the tins for 10 minutes, then move them to a rack.'
 learning:
-  focus: Fold frozen fruit into a creamed muffin batter without overworking it.
-  outcome: >-
-    Tender blueberry muffins with evenly distributed berries and a crisp nutmeg-sugar top, with no
-    dry flour pockets or wet batter at the center.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Start with softened butter and room-temperature eggs; warming those ingredients is extra to
-      the listed preparation time.
-    - >-
-      The original batch uses about 24 standard muffin cups in two 12-cup tins. For a different
-      quantity, keep standard cup size and about two-thirds fill; use more or fewer cups and extra
-      pans or batches as needed. Check oven circulation space and keep the blueberries frozen until
-      folding.
-    - >-
-      At the original batch size, measure 2 cups sugar for the batter and a separate 2 tbsp for the
-      topping; keep these ingredients separate when scaling.
-  checkpoints:
-    - step: 3
-      cue: Butter and batter sugar are fluffy and evenly blended.
-      why: This creaming stage introduces air before the heavier flour and berries enter.
-    - step: 7
-      cue: Berries are distributed and the batter is still mostly its original color.
-      why: Brief gentle folding limits crushed berries and juice streaks.
-    - step: 9
-      cue: >-
-        The crumb on a center tester is set with no wet batter, even if berry juice stains the
-        tester.
-      why: >-
-        Frozen fruit affects the batter’s starting temperature; doneness must be checked after the
-        stated bake window.
-  troubleshooting:
-    - problem: Batter turns heavily purple
-      cause: Berries thawed or were crushed by excessive mixing.
-      fix: >-
-        For the next batch fold berries straight from the freezer with a spatula and stop when
-        distributed. The current batter’s color cannot be reversed.
-    - problem: Muffins are tough or have tunnels
-      cause: The batter was beaten after adding flour.
-      fix: >-
-        Use gentle folds and stop once no dry pockets remain. Longer baking will not make a tough
-        crumb tender.
-    - problem: Stored tops are soggy
-      cause: Muffins were sealed while warm.
-      fix: >-
-        Cool completely on racks before packing. Rewarm briefly to soften the crumb, accepting that
-        the topping may not return to its original crispness.
-  substitutions:
-    - ingredient: Frozen blueberries
-      alternative: Do not thaw them for this method
-      effect: >-
-        Thawing releases juice into the batter; the written baking window starts with frozen
-        berries.
-    - ingredient: 2% milk
-      alternative: Whole milk at the same listed volume
-      effect: >-
-        The additional milk fat makes a small richness change; the batter remains a milk-based
-        creamed muffin rather than a buttermilk formula.
-  timing: >-
-    Allow about 50 minutes from softened butter and ready ingredients: around 15 minutes mixing and
-    portioning, 20–25 minutes baking and 10 minutes pan cooling. Complete rack cooling before
-    storage takes longer. If the oven cannot hold both tins with circulation space, an additional
-    oven batch extends the schedule.
-  storage: >-
-    Let muffins cool completely before sealing in an airtight container. Freeze individually wrapped
-    muffins for longer storage, then thaw wrapped and warm briefly before serving. Keep cream-cheese
-    or whipped-cream additions refrigerated; these plain muffins have no perishable topping in the
-    written formula.
-  sources:
-    - title: Taste of Home — Frozen Blueberry Muffins
-      url: 'https://www.tasteofhome.com/recipes/frozen-blueberry-muffins/'
-    - title: 'Nicolet College — Professional Baking: Quick Breads'
-      url: 'https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/'
-    - title: FDA — Are You Storing Food Safely?
-      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
+  storage: Keeps 3 days airtight at room temperature and freezes for 3 months. Warm briefly before serving.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Frozen blueberries make these buttery muffins practical year-round, with a nutmeg-sugar finish. Fold in the fruit without thawing and keep mixing brief so berry juice does not spread through the batter; look for cooked crumb around the fruit rather than a perfectly dry berry stain on the tester.
+These buttery muffins come from Taste of Home and work all year because they start with frozen blueberries. Fold the berries in straight from the freezer. Thawed berries bleed and turn the batter purple. A sprinkle of nutmeg sugar bakes into a crisp, warmly spiced top.
 
 ## Directions
 
-1. **Prepare the oven and pans:** Heat the oven to 375°F. For the original batch, line two standard 12-cup muffin tins or use butter or neutral oil to grease the cups. For a different quantity, prepare more or fewer standard cups, keeping the same cup size and about two-thirds fill. Plan oven space with air circulation; additional oven batches add baking and pan-cooling time.
-2. **Mix the dry ingredients:** Whisk the batter’s all-purpose flour, baking powder, and sea salt together in a bowl.
-3. **Cream the butter and sugar:** In another large bowl beat the batter’s unsalted butter and granulated sugar for about 3–5 minutes, until light and fluffy. The topping sugar is separate; none is subtracted from the batter sugar.
-4. **Add the eggs:** Beat in the large eggs one at a time, scraping the bowl between additions.
-5. **Add the milk and vanilla:** Mix in the 2% milk and vanilla extract until incorporated.
-6. **Fold in the flour mixture:** Fold the dry mixture into the butter mixture just until moistened. Scrape the bottom of the bowl so no dry flour pockets remain; do not keep beating to remove every small lump.
-7. **Fold in the frozen berries:** Gently fold in the frozen unsweetened blueberries with as few strokes as needed to distribute them. Portion into standard muffin cups about two-thirds full, using the listed muffin yield as a guide rather than forcing every batch into 24 cups. The original batch uses about 24 cups; use more or fewer cups and additional pans or oven batches for different quantities.
-8. **Add the topping:** Combine the topping’s granulated sugar and ground nutmeg and sprinkle it evenly over the muffins.
-9. **Bake and cool:** Bake for 20–25 minutes, until a tester through the crumb has no wet batter; berry juice on the tester is different from uncooked batter. Check muffins from both tins. Cool in the tins for 10 minutes, then remove to racks. Let cool completely before packing for storage.
+1. **Prepare the pans:** Heat the oven to 375°F. Line two 12-cup muffin tins with paper liners, or grease the cups with butter or neutral oil.
+2. **Whisk the dry ingredients:** Whisk all-purpose flour, baking powder, and sea salt in a bowl.
+3. **Cream the butter and sugar:** In a stand mixer, beat unsalted butter and granulated sugar on medium-high speed until light and fluffy, 3 to 5 minutes.
+4. **Add the eggs:** Beat in large eggs one at a time, scraping the bowl after each.
+5. **Add the milk:** Beat in 2% milk and vanilla extract on low speed until smooth.
+6. **Fold in the flour:** Fold in the flour mixture by hand just until no dry pockets remain. A few small lumps are fine.
+7. **Fold in the berries:** Fold in frozen unsweetened blueberries straight from the freezer with as few strokes as possible, so the batter stays pale. Divide it among the cups, about two-thirds full.
+8. **Add the topping:** Stir together granulated sugar and ground nutmeg and sprinkle it over the muffins.
+9. **Bake the muffins:** Bake until golden and a toothpick in the center comes out with no wet batter, 20 to 25 minutes. A streak of berry juice on the toothpick is fine.
+10. **Cool the muffins:** Cool the muffins in the tins for 10 minutes, then move them to a rack.
