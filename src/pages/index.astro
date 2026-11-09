@@ -5,6 +5,7 @@ import SearchBar from '../components/SearchBar.astro';
 import FilterPanel from '../components/FilterPanel.astro';
 import RecipeCard from '../components/RecipeCard.astro';
 import { getCollection } from 'astro:content';
+import { parseRecipeContent, recipeDescription } from '../lib/recipe-content.mjs';
 import { getTechniquesForRecipe } from '../data/techniques';
 import { timeBand } from '../lib/time-band.mjs';
 import { QUICK_PICKS, COURSES, countPicks } from '../lib/quick-picks.mjs';
@@ -49,7 +50,6 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
   cookingMethods: [
     ...(recipe.data.cookingMethods || []),
     ...getTechniquesForRecipe(recipe).map((t) => t.title),
-    ...(recipe.data.learning ? [recipe.data.learning.focus] : []),
   ],
   origin: recipe.data.origin,
 }));
@@ -167,9 +167,7 @@ const searchIndexData: RecipeSearchItem[] = recipes.map((recipe) => ({
             <DishArt slug={recipe.slug} />
             <div class="featured-body">
               <h3>{recipe.data.title}</h3>
-              <p>
-                <strong>{recipe.data.learning.focus}.</strong> {recipe.data.learning.outcome}
-              </p>
+              <p>{recipeDescription(recipe.data, parseRecipeContent(recipe.body || ''))}</p>
               <span class="feature-meta">
                 <span class="time-chip" data-band={timeBand(recipe.data.totalTime).band}>
                   {timeBand(recipe.data.totalTime).short || recipe.data.totalTime}

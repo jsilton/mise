@@ -37,9 +37,7 @@ ingredients:
   - 1/2 cup old-fashioned rolled oats
   - 1/3 cup plain Greek yogurt
   - 2/3 cup unsweetened milk of choice
-  - >-
-    3 tbsp cream cheese, softened enough to whisk; keep time out of
-    refrigeration brief
+  - '3 tbsp cream cheese, softened enough to whisk; keep time out of refrigeration brief'
   - '1/4 cup fresh strawberries, wash and chop before measuring'
   - 1 tbsp chia seeds
   - '1/2 lemon, wash; zest before juicing; reserve all zest for the fruit step'
@@ -172,14 +170,11 @@ formula:
     - id: cream
       title: Whisk
       text: >-
-        Whisk {{ingredients}} until the cheese is dispersed without large lumps,
-        using all the listed lemon juice here and reserving all its zest for the
-        fruit step.
+        Whisk {{ingredients}} until the cheese is dispersed without large lumps, using all the
+        listed lemon juice here and reserving all its zest for the fruit step.
     - id: liquid
       title: Add liquid
-      text: >-
-        Stir {{ingredients}} into the cheese mixture until the chia is
-        distributed.
+      text: 'Stir {{ingredients}} into the cheese mixture until the chia is distributed.'
     - id: grain
       title: Add oats
       text: 'Stir in {{ingredients}} until no dry pockets remain.'
@@ -189,52 +184,41 @@ formula:
     - id: chill
       title: Refrigerate
       text: >-
-        Transfer the entire mixture to a roomy clean container with space to
-        stir. Cover and refrigerate at 40°F / 4°C or below for at least 4 hours,
-        preferably overnight.
+        Transfer the entire mixture to a roomy clean container with space to stir. Cover and
+        refrigerate at 40°F / 4°C or below for at least 4 hours, preferably overnight.
     - id: serve
       title: Serve
       text: >-
-        Stir again, then add {{ingredients}} if desired. The original batch
-        makes one large planned portion or two smaller portions; finished volume
-        is unmeasured.
+        Stir again, then add {{ingredients}} if desired. The original batch makes one large planned
+        portion or two smaller portions; finished volume is unmeasured.
 learning:
-  focus: >-
-    Dispersing the full cream cheese and using all the lemon juice and zest in
-    refrigerated oats.
-  outcome: >-
-    Softened oats with a tangy cheese base, distributed strawberries and no
-    large cheese lumps.
+  focus: Dispersing the full cream cheese and using all the lemon juice and zest in refrigerated oats.
+  outcome: 'Softened oats with a tangy cheese base, distributed strawberries and no large cheese lumps.'
   techniques:
     - cold-preparation
   before:
     - >-
-      Zest the washed lemon before juicing; save all zest for the fruit step.
-      Wash and chop strawberries before measuring.
+      Zest the washed lemon before juicing; save all zest for the fruit step. Wash and chop
+      strawberries before measuring.
     - >-
-      Soften cheese only as much as needed for mixing, then promptly refrigerate
-      the full mixture. Choose a container that fits the batch and leaves room
-      for stirring.
+      Soften cheese only as much as needed for mixing, then promptly refrigerate the full mixture.
+      Choose a container that fits the batch and leaves room for stirring.
   checkpoints:
     - step: 1
       cue: 'Cream cheese is dispersed, with the full lemon juice stirred in.'
       why: Adding milk after breaking up the cheese makes lumps easier to manage.
     - step: 4
       cue: All strawberries and reserved zest are distributed.
-      why: >-
-        The zest and juice are separate destinations from the same listed lemon
-        portion.
+      why: The zest and juice are separate destinations from the same listed lemon portion.
     - step: 6
       cue: The oats have softened and can be stirred evenly.
       why: >-
-        The refrigerated soak hydrates the grain; the one-large-portion yield is
-        planning rather than measured jar volume.
+        The refrigerated soak hydrates the grain; the one-large-portion yield is planning rather
+        than measured jar volume.
   troubleshooting:
     - problem: Large cheese lumps remain.
       cause: Cold firm cheese was added after the grain.
-      fix: >-
-        Whisk the cheese with yogurt first; avoid leaving dairy out for a long
-        softening wait.
+      fix: Whisk the cheese with yogurt first; avoid leaving dairy out for a long softening wait.
     - problem: The berries color the mixture.
       cause: Cut berries release juice while soaking.
       fix: Stir before serving; add extra fresh berries at service if desired.
@@ -244,28 +228,23 @@ learning:
       effect: A distinct thickener choice; texture will differ.
     - ingredient: 'Milk, yogurt and cream cheese'
       alternative: Same full amounts of plant-based versions
-      effect: >-
-        A complete dairy-free route; maple and compatible toppings are needed
-        for vegan preparation.
+      effect: A complete dairy-free route; maple and compatible toppings are needed for vegan preparation.
   storage: >-
-    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined
-    preparation and serving time out of refrigeration within 2 hours, or 1 hour
-    above 90°F / 32°C. Use within the shortest after-opening storage instruction
-    for the milk, yogurt, cream cheese or prepared fruit used. Keep extra
-    garnishes separate until serving.
+    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving
+    time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Use within the shortest
+    after-opening storage instruction for the milk, yogurt, cream cheese or prepared fruit used.
+    Keep extra garnishes separate until serving.
   timing: >-
-    Ten minutes preparation plus at least 4 hours soaking gives a
-    4-hour-10-minute minimum plan. Overnight soaking is preferred; cheese
-    softening, fruit preparation or larger-batch mixing may add time. No
-    finished-volume or storage-life measurement is implied.
+    Ten minutes preparation plus at least 4 hours soaking gives a 4-hour-10-minute minimum plan.
+    Overnight soaking is preferred; cheese softening, fruit preparation or larger-batch mixing may
+    add time. No finished-volume or storage-life measurement is implied.
   sources:
     - title: Wholefully — full formula and large/small portion options
       url: 'https://wholefully.com/strawberry-cheesecake-overnight-oats-recipe/'
     - title: FDA — cold dairy and produce handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: FDA — produce washing
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
   review:
     status: editorial-review
     date: '2026-10-06'

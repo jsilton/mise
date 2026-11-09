@@ -35,7 +35,6 @@ pairsWith:
   - blueberry-oat-breakfast-bars
   - freezer-date-cookies
 ingredients:
-  - '--- Breakfast bars ---'
   - '3/4 cup cooked quinoa, chilled; prepared and cooled ahead'
   - 1 1/2 cups old-fashioned rolled oats
   - '1 cup fresh strawberries, wash, remove tops and chop before measuring'
@@ -134,114 +133,94 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F. Line an 8×8-inch baking dish with parchment
-        for the original batch. Start with cooked, chilled quinoa; boiling and
-        chilling it from dry are additional preparation. Use proportional pan
-        area or additional dishes for scaled batches, keeping similar layer
-        thickness.
+        Preheat the oven to 350°F. Line an 8×8-inch baking dish with parchment for the original
+        batch. Start with cooked, chilled quinoa; boiling and chilling it from dry are additional
+        preparation. Use proportional pan area or additional dishes for scaled batches, keeping
+        similar layer thickness.
     - id: wet
       title: Mix bananas and eggs
       text: >-
-        Combine {{ingredients}} in a bowl, mashing the bananas before stirring
-        the eggs and vanilla through them.
+        Combine {{ingredients}} in a bowl, mashing the bananas before stirring the eggs and vanilla
+        through them.
     - id: grain
       title: Add grains and raisins
       text: 'Stir in {{ingredients}}, including the salt, until evenly distributed.'
     - id: fruit
       title: Fold in strawberries
       text: >-
-        Gently stir in {{ingredients}} so the pieces are distributed throughout
-        without mashing them.
+        Gently stir in {{ingredients}} so the pieces are distributed throughout without mashing
+        them.
     - id: bake
       title: Fill and bake
       text: >-
-        Spread evenly in the prepared dish and level the surface. Wait until the
-        oven reaches 350°F. Bake for 20–25 minutes, until the center is firm to
-        touch and no loose raw mixture remains. Check the center with a
-        thermometer for 160°F / 71°C as well; changed depth or oven loads may
-        take longer.
+        Spread evenly in the prepared dish and level the surface. Wait until the oven reaches 350°F.
+        Bake for 20–25 minutes, until the center is firm to touch and no loose raw mixture remains.
+        Check the center with a thermometer for 160°F / 71°C as well; changed depth or oven loads
+        may take longer.
     - id: cool
       title: 'Set, chill and cut'
       text: >-
-        Let the bars firm enough to handle, then refrigerate promptly in a
-        shallow dish or shallow containers, within 2 hours of baking or 1 hour
-        above 90°F / 32°C. Finish cooling in the refrigerator rather than
-        waiting indefinitely for complete cooling at room temperature. Once cool
-        and firm, cut into portions; the original batch plans nine squares.
+        Let the bars firm enough to handle, then refrigerate promptly in a shallow dish or shallow
+        containers, within 2 hours of baking or 1 hour above 90°F / 32°C. Finish cooling in the
+        refrigerator rather than waiting indefinitely for complete cooling at room temperature. Once
+        cool and firm, cut into portions; the original batch plans nine squares.
 learning:
-  focus: >-
-    Using prepared quinoa in an evenly set fruit-and-egg grain bar and cooling
-    it promptly.
-  outcome: >-
-    Firm-centered bars with distributed strawberries that cut after cooling and
-    remain refrigerated.
+  focus: Using prepared quinoa in an evenly set fruit-and-egg grain bar and cooling it promptly.
+  outcome: Firm-centered bars with distributed strawberries that cut after cooling and remain refrigerated.
   techniques:
     - temperature
     - cold-preparation
   before:
     - >-
-      The original 8×8-inch dish and nine squares are original-batch planning
-      context. Use proportional pan area or additional dishes so a scaled layer
-      is not much deeper.
+      The original 8×8-inch dish and nine squares are original-batch planning context. Use
+      proportional pan area or additional dishes so a scaled layer is not much deeper.
     - >-
-      Have cooked, safely cooled quinoa ready before starting; the five-minute
-      prep allowance does not include cooking and chilling quinoa. Wash and chop
-      strawberries before measuring.
-    - >-
-      Do not taste the raw egg mixture. Wash hands and tools after handling raw
-      eggs.
+      Have cooked, safely cooled quinoa ready before starting; the five-minute prep allowance does
+      not include cooking and chilling quinoa. Wash and chop strawberries before measuring.
+    - Do not taste the raw egg mixture. Wash hands and tools after handling raw eggs.
   checkpoints:
     - step: 3
       cue: 'Cooked quinoa, oats, raisins and salt are evenly dispersed.'
-      why: >-
-        An unused salt allowance or clumps of grain leave uneven flavor and
-        texture.
+      why: An unused salt allowance or clumps of grain leave uneven flavor and texture.
     - step: 5
       cue: 'The center is firm with no loose raw mixture, and measures 160°F / 71°C.'
       why: >-
-        The egg-containing grain center needs more than edge color; the
-        thermometer check supplements the written firmness cue.
+        The egg-containing grain center needs more than edge color; the thermometer check
+        supplements the written firmness cue.
     - step: 6
       cue: Bars are in shallow refrigerated cooling within the handling limit.
-      why: >-
-        Waiting for complete counter cooling can extend warm holding
-        unnecessarily.
+      why: Waiting for complete counter cooling can extend warm holding unnecessarily.
   troubleshooting:
     - problem: Bars remain loose or crumble when cut.
       cause: 'The layer is underbaked, much deeper or still warm.'
       fix: >-
-        Continue baking to the center endpoint and let the bars finish cooling
-        before cutting; retain the full oats and fruit amounts.
+        Continue baking to the center endpoint and let the bars finish cooling before cutting;
+        retain the full oats and fruit amounts.
     - problem: The preparation takes longer than the listed subtotal.
-      cause: >-
-        Quinoa was started dry, the oven was cold or another dish/load was
-        needed.
+      cause: 'Quinoa was started dry, the oven was cold or another dish/load was needed.'
       fix: >-
-        Prepare and chill the quinoa ahead and include actual oven heating,
-        cooling and extra loads in the plan.
+        Prepare and chill the quinoa ahead and include actual oven heating, cooling and extra loads
+        in the plan.
   substitutions:
     - ingredient: Raisins
       alternative: Same listed amount of golden raisins
       effect: 'An exclusive full replacement, with no extra sugar or liquid.'
   storage: >-
-    Keep prepared quinoa and cooled bars at 40°F / 4°C or below. Refrigerate
-    promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C;
-    use within 3–4 days, accounting for the quinoa’s earlier storage time. Serve
-    cold, or reheat stored bars to 165°F / 74°C in the center.
+    Keep prepared quinoa and cooled bars at 40°F / 4°C or below. Refrigerate promptly in shallow
+    containers within 2 hours, or 1 hour above 90°F / 32°C; use within 3–4 days, accounting for the
+    quinoa’s earlier storage time. Serve cold, or reheat stored bars to 165°F / 74°C in the center.
   timing: >-
-    Five minutes preparation from already cooked chilled quinoa plus 20–25
-    minutes baking gives a 25–30 minute subtotal. Any oven heating still needed
-    before loading and cooling for cutting add time. Dry-quinoa cooking/chilling
-    and larger or multiple dishes are additional; the nine-square cut count is
-    planning, not measured finished yield.
+    Five minutes preparation from already cooked chilled quinoa plus 20–25 minutes baking gives a
+    25–30 minute subtotal. Any oven heating still needed before loading and cooling for cutting add
+    time. Dry-quinoa cooking/chilling and larger or multiple dishes are additional; the nine-square
+    cut count is planning, not measured finished yield.
   sources:
     - title: My Fussy Eater — exact saved complete recipe attribution
       url: 'http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/'
     - title: 'FDA — egg dishes, produce and prompt shallow cooling'
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: FoodSafety.gov — egg dishes and separate leftover endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — cooked-leftover storage working limit
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety

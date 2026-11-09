@@ -41,9 +41,7 @@ ingredients:
   - 3 cups (600 g) granulated sugar
   - 1 cup (236 ml) vegetable oil
   - 4 tsp vanilla extract
-  - >-
-    4 1/8 cups (516 g) all-purpose flour, all into batter; separate pan flour
-    below
+  - '4 1/8 cups (516 g) all-purpose flour, all into batter; separate pan flour below'
   - 4 1/2 tsp baking powder
   - 1 1/2 tsp sea salt
   - 1 1/2 cups (355 ml) whole milk
@@ -62,23 +60,22 @@ sourceUrl: 'https://sugarspunrun.com/funfetti-cake-scratch/'
 learning:
   focus: Fold whites gently and cool three layers
   outcome: >-
-    Set cake layers with distinct colored sprinkles and buttercream that covers
-    the firm crumb coat cleanly.
+    Set cake layers with distinct colored sprinkles and buttercream that covers the firm crumb coat
+    cleanly.
   techniques:
     - temperature
   before:
     - >-
-      Pan dimensions describe the original batch. Make multiples as separate
-      original-size cakes with similar batter depth and headroom; smaller
-      amounts need appropriately smaller pans and earlier center checks.
-      Ingredient scaling does not multiply temperatures, pan dimensions or
+      Pan dimensions describe the original batch. Make multiples as separate original-size cakes
+      with similar batter depth and headroom; smaller amounts need appropriately smaller pans and
+      earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or
       cooling and baking times.
     - >-
-      Separate eggs without yolk or grease contaminating the whites. Use the
-      listed full batter flour; keep pan flour separate.
+      Separate eggs without yolk or grease contaminating the whites. Use the listed full batter
+      flour; keep pan flour separate.
     - >-
-      Cup and gram/mL measures are source alternatives for the same ingredient,
-      not quantities to add together.
+      Cup and gram/mL measures are source alternatives for the same ingredient, not quantities to
+      add together.
   checkpoints:
     - step: 5
       cue: Whites hold a stiff peak without looking dry and broken.
@@ -93,49 +90,43 @@ learning:
     - problem: Frosting slides or melts
       cause: The cake is still warm or the topping is too loose.
       fix: >-
-        Wait for completely cool layers; chill the topping until it holds a
-        spreadable shape, then stir gently.
+        Wait for completely cool layers; chill the topping until it holds a spreadable shape, then
+        stir gently.
   timing: >-
-    The source 50 minutes preparation plus 35–40 minutes baking excludes
-    complete cooling, layering and 10–15 minutes crumb-coat chilling. Allow
-    about 2½–3½ hours overall; larger batches and slow cooling add time.
+    The source 50 minutes preparation plus 35–40 minutes baking excludes complete cooling, layering
+    and 10–15 minutes crumb-coat chilling. Allow about 2½–3½ hours overall; larger batches and slow
+    cooling add time.
   substitutions:
     - ingredient: Pan diameter
       alternative: >-
-        For the original full batch in three 9-inch round pans, begin checks
-        around 25 minutes; shallower layers can finish sooner. Keep all the same
-        batter and frosting quantities. Other scaled pan plans still need
-        comparable depth and headroom.
+        For the original full batch in three 9-inch round pans, begin checks around 25 minutes;
+        shallower layers can finish sooner. Keep all the same batter and frosting quantities. Other
+        scaled pan plans still need comparable depth and headroom.
       effect: >-
-        Changes layer depth and first-check time; the source full batch and
-        frosting remain unchanged.
+        Changes layer depth and first-check time; the source full batch and frosting remain
+        unchanged.
     - ingredient: Oil
-      alternative: >-
-        Use canola oil in the same listed amount instead of vegetable oil; do
-        not add both.
+      alternative: Use canola oil in the same listed amount instead of vegetable oil; do not add both.
       effect: 'Same-volume source oil option, with a different flavor.'
     - ingredient: Frosting flavoring
       alternative: >-
-        The original frosting permits the same listed frosting-flavoring amount
-        of the specific Princess emulsion named by the publisher instead of
-        frosting vanilla. Keep the cake vanilla unchanged. This option applies
-        to that specific emulsion, rather than every flavor emulsion.
+        The original frosting permits the same listed frosting-flavoring amount of the specific
+        Princess emulsion named by the publisher instead of frosting vanilla. Keep the cake vanilla
+        unchanged. This option applies to that specific emulsion, rather than every flavor emulsion.
       effect: Changes frosting flavor only; cake vanilla stays unchanged.
     - ingredient: Decorative frosting
       alternative: >-
-        For elaborate top decoration, make one-and-a-half times every
-        frosting-component ingredient, including butter, salt, powdered sugar,
-        cream and flavoring, while leaving all cake ingredients unchanged. The
-        listed ordinary frosting batch is for filling, crumb coating and
+        For elaborate top decoration, make one-and-a-half times every frosting-component ingredient,
+        including butter, salt, powdered sugar, cream and flavoring, while leaving all cake
+        ingredients unchanged. The listed ordinary frosting batch is for filling, crumb coating and
         covering; choose either that batch or the larger decoration batch.
       effect: >-
-        Adds complete decorative frosting separately; the cake formula does not
-        scale with that option.
+        Adds complete decorative frosting separately; the cake formula does not scale with that
+        option.
   storage: >-
-    Keep the frosted cake covered in the refrigerator at 40°F /4°C or below.
-    Return frosting to the refrigerator within 2 hours of cumulative preparation
-    and serving time, or 1 hour above 90°F /32°C. Refrigerate frosting while
-    waiting for layers to cool.
+    Keep the frosted cake covered in the refrigerator at 40°F /4°C or below. Return frosting to the
+    refrigerator within 2 hours of cumulative preparation and serving time, or 1 hour above 90°F
+    /32°C. Refrigerate frosting while waiting for layers to cool.
   sources:
     - title: Sugar Spun Run — Funfetti Cake
       url: 'https://sugarspunrun.com/funfetti-cake-scratch/'
@@ -335,59 +326,53 @@ formula:
     - id: prep
       title: Prepare pans
       text: >-
-        Heat the oven to 350°F. Use {{ingredients}} to grease and flour three
-        8-inch round pans for the original batch, shaking out excess flour. All
-        the listed batter flour goes into the cake; pan dusting uses a separate
-        supply.
+        Heat the oven to 350°F. Use {{ingredients}} to grease and flour three 8-inch round pans for
+        the original batch, shaking out excess flour. All the listed batter flour goes into the
+        cake; pan dusting uses a separate supply.
     - id: cream
       title: Cream cake ingredients
       text: >-
-        Using {{ingredients}}, beat the softened cake butter until creamy, then
-        add all the sugar and oil and beat until combined. Scrape the bowl and
-        mix in all the cake vanilla.
+        Using {{ingredients}}, beat the softened cake butter until creamy, then add all the sugar
+        and oil and beat until combined. Scrape the bowl and mix in all the cake vanilla.
     - id: dry
       title: Mix dry ingredients
       text: 'Whisk {{ingredients}} together in a separate bowl.'
     - id: mix
       title: Combine batter
       text: >-
-        Alternate the dry mixture and {{ingredients}} into the butter mixture,
-        beginning and ending with dry. Stir until each addition is nearly
-        combined and scrape the bowl; stop once no flour pockets remain.
+        Alternate the dry mixture and {{ingredients}} into the butter mixture, beginning and ending
+        with dry. Stir until each addition is nearly combined and scrape the bowl; stop once no
+        flour pockets remain.
     - id: whip
       title: Whip whites
       text: >-
-        In a clean, dry, grease-free bowl, beat {{ingredients}} to stiff peaks.
-        Peaks should stand when the beaters lift; avoid continuing until the
-        foam looks dry or broken.
+        In a clean, dry, grease-free bowl, beat {{ingredients}} to stiff peaks. Peaks should stand
+        when the beaters lift; avoid continuing until the foam looks dry or broken.
     - id: fold
       title: Fold whites and sprinkles
       text: >-
-        Fold all the whipped whites and {{ingredients}} into the batter gently
-        with a spatula, reaching the sides and bottom without beating out the
-        foam.
+        Fold all the whipped whites and {{ingredients}} into the batter gently with a spatula,
+        reaching the sides and bottom without beating out the foam.
     - id: bake
       title: Bake and cool
       text: >-
-        Divide all the batter among the prepared pans. Bake at 350°F, starting
-        checks around 35–40 minutes for the original three 8-inch pans. Rotate
-        partway through if browning is uneven. Each center should be set, with a
-        clean tester or a few dry crumbs rather than wet batter. Cool in pans 15
-        minutes, loosen edges and turn onto racks; cool completely.
+        Divide all the batter among the prepared pans. Bake at 350°F, starting checks around 35–40
+        minutes for the original three 8-inch pans. Rotate partway through if browning is uneven.
+        Each center should be set, with a clean tester or a few dry crumbs rather than wet batter.
+        Cool in pans 15 minutes, loosen edges and turn onto racks; cool completely.
     - id: frost
       title: Make buttercream
       text: >-
-        Using {{ingredients}}, beat the softened frosting butter until smooth,
-        then mix in all the frosting salt. Gradually beat in all the powdered
-        sugar, then add all the heavy cream a little at a time and all the
-        frosting vanilla. Scrape the bowl and beat until smooth and spreadable.
+        Using {{ingredients}}, beat the softened frosting butter until smooth, then mix in all the
+        frosting salt. Gradually beat in all the powdered sugar, then add all the heavy cream a
+        little at a time and all the frosting vanilla. Scrape the bowl and beat until smooth and
+        spreadable.
     - id: assemble
       title: Layer and finish
       text: >-
-        Frost between all three completely cool layers, then apply a thin crumb
-        coat. Freeze about 10–15 minutes until that coat is firm, then use all
-        the remaining buttercream for the final top and sides. Refrigerate while
-        waiting to serve.
+        Frost between all three completely cool layers, then apply a thin crumb coat. Freeze about
+        10–15 minutes until that coat is firm, then use all the remaining buttercream for the final
+        top and sides. Refrigerate while waiting to serve.
 ---
 
 ## Chef's Note

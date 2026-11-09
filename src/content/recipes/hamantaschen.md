@@ -35,8 +35,8 @@ ingredients:
   - 'butter or baking spray, enough to lightly grease baking sheets'
   - '--- Filling — choose one ---'
   - >-
-    apricot jam, poppy seed paste, or chocolate-hazelnut spread, enough for up
-    to 1 tsp per 3-inch cookie; choose one filling
+    apricot jam, poppy seed paste, or chocolate-hazelnut spread, enough for up to 1 tsp per 3-inch
+    cookie; choose one filling
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -188,156 +188,130 @@ formula:
     - id: knead
       title: Bring the dough together
       text: >-
-        Have {{ingredients}} available only if needed. Knead the crumbles gently
-        into a smooth, slightly tacky ball. Add the listed water slowly, a
-        little at a time, only if the dough is too dry to join; in the original
-        batch use 1–5 tsp total as needed, adding about 1 tsp at a time. Scale
-        that total range with the dough, but continue adding small increments by
-        feel. If it becomes sticky, knead in a little of the optional flour.
-        Stop once the dough holds together and can be rolled; avoid overworking
-        it.
+        Have {{ingredients}} available only if needed. Knead the crumbles gently into a smooth,
+        slightly tacky ball. Add the listed water slowly, a little at a time, only if the dough is
+        too dry to join; in the original batch use 1–5 tsp total as needed, adding about 1 tsp at a
+        time. Scale that total range with the dough, but continue adding small increments by feel.
+        If it becomes sticky, knead in a little of the optional flour. Stop once the dough holds
+        together and can be rolled; avoid overworking it.
     - id: chill
       title: Chill
       text: >-
-        Flatten into a disk, wrap and refrigerate at 40°F / 4°C or below for at
-        least 3 hours or overnight.
+        Flatten into a disk, wrap and refrigerate at 40°F / 4°C or below for at least 3 hours or
+        overnight.
     - id: prep
       title: Prepare to assemble
       text: >-
-        Choose and prepare the filling before rolling; follow its own recipe or
-        product instructions. Preheat the oven to 350°F. Use {{ingredients}} for
-        handling: lightly flour the work surface and rolling pin, then lightly
-        grease the sheets with the butter or spray.
+        Choose and prepare the filling before rolling; follow its own recipe or product
+        instructions. Preheat the oven to 350°F. Use {{ingredients}} for handling: lightly flour the
+        work surface and rolling pin, then lightly grease the sheets with the butter or spray.
     - id: roll
       title: Roll and cut
       text: >-
-        Roll to the main ⅛-inch thickness. If needed, begin around ¼ inch, lift
-        the dough with a pastry scraper, lightly re-flour and flip it, then
-        finish rolling. Repair cracks with your fingers. Cut 3-inch circles and
-        gather and re-roll scraps gently until all usable dough is portioned;
-        avoid adding unnecessary flour. Keep unused circles covered with a
-        lightly damp towel while filling. The listed cookie count is a planning
-        value; thickness changes yield. Larger batches need more sheets and oven
-        loads, with the same circle size and thickness.
+        Roll to the main ⅛-inch thickness. If needed, begin around ¼ inch, lift the dough with a
+        pastry scraper, lightly re-flour and flip it, then finish rolling. Repair cracks with your
+        fingers. Cut 3-inch circles and gather and re-roll scraps gently until all usable dough is
+        portioned; avoid adding unnecessary flour. Keep unused circles covered with a lightly damp
+        towel while filling. The listed cookie count is a planning value; thickness changes yield.
+        Larger batches need more sheets and oven loads, with the same circle size and thickness.
     - id: fill
       title: Fill and fold
       text: >-
-        Use {{ingredients}}, placing no more than 1 tsp in each 3-inch circle.
-        Fold the left side toward the center; fold the right side so its upper
-        part overlaps the left flap. Fold the bottom up with its left corner
-        under the left flap and its right corner over the right flap. Each flap
-        then has one corner over and one under, leaving a small center of
-        filling visible. Pinch the corners gently but firmly and repair cracks;
-        Keep the filling away from the seams and make each fold secure.
+        Use {{ingredients}}, placing no more than 1 tsp in each 3-inch circle. Fold the left side
+        toward the center; fold the right side so its upper part overlaps the left flap. Fold the
+        bottom up with its left corner under the left flap and its right corner over the right flap.
+        Each flap then has one corner over and one under, leaving a small center of filling visible.
+        Pinch the corners gently but firmly and repair cracks; Keep the filling away from the seams
+        and make each fold secure.
     - id: bake
       title: Bake
       text: >-
-        Space the cookies on the prepared sheets and wait for the oven to reach
-        350°F. The main route is 20–25 minutes per oven load, until cooked
-        through and lightly golden. Begin checking at 10 minutes when cookies
-        are thin: thickness and filling can make them finish sooner. Keep
-        unbaked dough refrigerated between loads.
+        Space the cookies on the prepared sheets and wait for the oven to reach 350°F. The main
+        route is 20–25 minutes per oven load, until cooked through and lightly golden. Begin
+        checking at 10 minutes when cookies are thin: thickness and filling can make them finish
+        sooner. Keep unbaked dough refrigerated between loads.
     - id: cool
       title: Cool and store
       text: >-
-        Cool completely on a wire rack before storing airtight. Follow the
-        selected filling’s storage requirements; refrigerate cookies with
-        perishable filling at 40°F / 4°C or below promptly, within 2 hours or 1
-        hour above 90°F / 32°C.
+        Cool completely on a wire rack before storing airtight. Follow the selected filling’s
+        storage requirements; refrigerate cookies with perishable filling at 40°F / 4°C or below
+        promptly, within 2 hours or 1 hour above 90°F / 32°C.
 learning:
   focus: Judging conditional dough hydration and folding each corner over and under.
-  outcome: >-
-    Filled triangles that hold their shape while baking, with cooked, lightly
-    golden dough.
+  outcome: 'Filled triangles that hold their shape while baking, with cooked, lightly golden dough.'
   techniques:
     - cold-preparation
     - temperature
   before:
     - >-
-      Prepare one filling before rolling. Have the optional water available, but
-      add it only when dry crumbles will not form a workable dough; the full
-      listed flour is already in the dough.
+      Prepare one filling before rolling. Have the optional water available, but add it only when
+      dry crumbles will not form a workable dough; the full listed flour is already in the dough.
     - >-
-      Allow the required three-hour to overnight chill plus rolling, cutting,
-      folding and complete cooling. The listed count is approximate; the
-      thickness options have different yields.
+      Allow the required three-hour to overnight chill plus rolling, cutting, folding and complete
+      cooling. The listed count is approximate; the thickness options have different yields.
+    - Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.
     - >-
-      Do not taste raw dough; it contains raw flour and egg. Wash hands and
-      tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated
-      fraction; keep cookie dimensions and baking temperature fixed.
+      If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie
+      dimensions and baking temperature fixed.
   checkpoints:
     - step: 4
       cue: 'A smooth, slightly tacky dough ball, not dry crumbles or sticky paste.'
       why: >-
-        The optional water corrects a dry dough in small additions; the range is
-        not an instruction to pour in its maximum.
+        The optional water corrects a dry dough in small additions; the range is not an instruction
+        to pour in its maximum.
     - step: 8
       cue: >-
-        Each flap has one corner over and one under; no more than a teaspoon of
-        filling in the 3-inch circle.
+        Each flap has one corner over and one under; no more than a teaspoon of filling in the
+        3-inch circle.
       why: >-
-        This distinguishes the actual pinwheel fold from tucking every corner
-        underneath. Too much filling strains the dough seams.
+        This distinguishes the actual pinwheel fold from tucking every corner underneath. Too much
+        filling strains the dough seams.
     - step: 9
-      cue: >-
-        Cooked-through dough with lightly golden edges, checked early when
-        rolled thin.
+      cue: 'Cooked-through dough with lightly golden edges, checked early when rolled thin.'
       why: >-
-        The written 20–25 minutes describes the main route; thinner source
-        options can finish earlier and cannot share a guaranteed clock.
+        The written 20–25 minutes describes the main route; thinner source options can finish
+        earlier and cannot share a guaranteed clock.
   troubleshooting:
     - problem: The chilled dough cracks when rolled.
-      cause: >-
-        Cold, firm dough resists the initial roll, or the dough was left too
-        dry.
+      cause: 'Cold, firm dough resists the initial roll, or the dough was left too dry.'
       fix: >-
-        Start gradually, repair large edge cracks and re-flour lightly only to
-        prevent sticking. At mixing, use the optional water only until the dough
-        joins.
+        Start gradually, repair large edge cracks and re-flour lightly only to prevent sticking. At
+        mixing, use the optional water only until the dough joins.
     - problem: Triangles open or filling escapes.
       cause: >-
-        Filling is overfull, dough cracks remain, or folds lack the alternating
-        over-and-under corners.
+        Filling is overfull, dough cracks remain, or folds lack the alternating over-and-under
+        corners.
       fix: >-
-        Use no more than a teaspoon in each 3-inch circle, repair cracks and
-        form the actual pinwheel. Follow a suitable filling recipe; folding
-        cannot correct very runny filling.
+        Use no more than a teaspoon in each 3-inch circle, repair cracks and form the actual
+        pinwheel. Follow a suitable filling recipe; folding cannot correct very runny filling.
   substitutions:
     - ingredient: ⅛-inch main dough thickness
       alternative: 'Just under ⅛ inch, or closer to ¼ inch'
       effect: >-
-        These are separate source thickness choices. Thin dough needs earlier
-        checks; thicker dough gives fewer, more doughy cookies without changing
-        the full formula.
+        These are separate source thickness choices. Thin dough needs earlier checks; thicker dough
+        gives fewer, more doughy cookies without changing the full formula.
     - ingredient: Apricot jam filling
       alternative: Poppy seed paste or chocolate-hazelnut spread
       effect: >-
-        Choose a single suitable filling per cookie; its preparation and storage
-        requirements still apply. None has a measured total quantity here.
+        Choose a single suitable filling per cookie; its preparation and storage requirements still
+        apply. None has a measured total quantity here.
   storage: >-
-    The source allows chilling the wrapped dough for three hours to overnight.
-    Keep it at 40°F / 4°C or below and keep unused raw dough cold during
-    assembly. Cool baked cookies completely and store airtight, following the
-    chosen filling’s label or recipe. Perishable fillings require prompt
-    refrigeration within 2 hours, or 1 hour above 90°F / 32°C; no common shelf
-    life is established for all fillings.
+    The source allows chilling the wrapped dough for three hours to overnight. Keep it at 40°F / 4°C
+    or below and keep unused raw dough cold during assembly. Cool baked cookies completely and store
+    airtight, following the chosen filling’s label or recipe. Perishable fillings require prompt
+    refrigeration within 2 hours, or 1 hour above 90°F / 32°C; no common shelf life is established
+    for all fillings.
   timing: >-
-    The retained 20-minute dough-preparation allowance, at least three-hour
-    chill and first 20–25-minute oven load give at least 3 hours 40 minutes
-    before shaping and cooling are counted. Rolling, re-rolling, cutting,
-    folding, homemade filling preparation, remaining preheating and later loads
-    extend elapsed time. The publisher’s modern bake instructions check thin
-    cookies at 10 minutes; these do not promise a faster whole batch.
+    The retained 20-minute dough-preparation allowance, at least three-hour chill and first
+    20–25-minute oven load give at least 3 hours 40 minutes before shaping and cooling are counted.
+    Rolling, re-rolling, cutting, folding, homemade filling preparation, remaining preheating and
+    later loads extend elapsed time. The publisher’s modern bake instructions check thin cookies at
+    10 minutes; these do not promise a faster whole batch.
   sources:
-    - title: >-
-        Tori Avey — conditional water, pinwheel fold, thickness and overnight
-        options
+    - title: 'Tori Avey — conditional water, pinwheel fold, thickness and overnight options'
       url: 'https://toriavey.com/buttery-hamantaschen/'
     - title: FDA — raw flour and dough handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: FDA — conditional perishable-filling storage scope
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:

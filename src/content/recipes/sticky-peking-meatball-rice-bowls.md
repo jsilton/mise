@@ -14,7 +14,6 @@ cookingMethods:
 categories: []
 source: Saved Paprika recipe
 ingredients:
-  - '--- Recipe ---'
   - '1 1/2 cups jasmine rice, dry; rinse and drain'
   - '1 can (13 1/2 oz) coconut milk, shake/stir smooth'
   - 1/2 cup water

@@ -25,7 +25,6 @@ pairsWith:
   - tarragon-potatoes
   - arugula-feta-salad
 ingredients:
-  - '--- Crusted spinach and mushroom quiche ---'
   - >-
     1 portion of unbaked single-crust pastry dough, one original-batch portion supplies a 9-inch
     deep pie plate; divide unrolled dough when scaling and fit appropriately sized vessels; prebake

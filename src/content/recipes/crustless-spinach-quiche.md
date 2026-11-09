@@ -25,7 +25,6 @@ pairsWith:
   - tarragon-potatoes
   - peach-salad-with-tomatoes-and-beets
 ingredients:
-  - '--- Spinach and Gruyère filling ---'
   - 'cooking spray, enough to coat the baking vessel and any extra dish'
   - 1 tbsp olive oil
   - '1 large yellow onion, thinly sliced'

@@ -341,7 +341,6 @@ formula:
         Slice the rested beef across the grain. Arrange it on a warm platter and spoon the hot wine
         sauce over it. Serve with polenta to catch the sauce.
 ingredients:
-  - '--- Braise ---'
   - '1 kg boneless beef shoulder for braising, one whole piece; Italian vena or cappello di prete'
   - 1 bottle of Barolo wine
   - '2 carrots, cut into large pieces'

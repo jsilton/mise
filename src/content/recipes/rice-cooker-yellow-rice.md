@@ -204,7 +204,6 @@ formula:
         the vegetables and add a small pinch of {{name:rice.salt}} if the flavor is muted. Serve
         promptly.
 ingredients:
-  - '--- Spanish rice ---'
   - >-
     1 cup regular long-grain white rice, measured dry with a US kitchen cup, before rinsing; not
     parboiled or instant

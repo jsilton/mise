@@ -124,3 +124,37 @@ export function recipeDescription(data, parsed) {
     `${data.title} recipe`
   );
 }
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function inlineHtml(node, linkHref) {
+  if (node.type === 'text') return escapeHtml(node.value);
+  if (node.type === 'inlineCode') return `<code>${escapeHtml(node.value)}</code>`;
+  if (node.type === 'break') return '<br />';
+  const inner = (node.children || []).map((child) => inlineHtml(child, linkHref)).join('');
+  if (node.type === 'strong') return `<strong>${inner}</strong>`;
+  if (node.type === 'emphasis') return `<em>${inner}</em>`;
+  if (node.type === 'link') {
+    const href = linkHref(node.url || '');
+    return href ? `<a href="${escapeHtml(href)}">${inner}</a>` : inner;
+  }
+  return inner;
+}
+
+/**
+ * The chef's note as HTML paragraphs, for the top of the recipe page.
+ * linkHref maps a Markdown link target to a page address, or returns '' to drop the link.
+ */
+export function chefNoteHtml(body = '', linkHref = (url) => url) {
+  const nodes = section(parser.parse(body).children, "chef's note");
+  return nodes
+    .filter((node) => node.type === 'paragraph')
+    .map((node) => `<p>${node.children.map((child) => inlineHtml(child, linkHref)).join('')}</p>`)
+    .join('');
+}

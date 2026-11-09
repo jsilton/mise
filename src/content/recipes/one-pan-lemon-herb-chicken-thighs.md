@@ -34,7 +34,6 @@ pairsWith:
   - basmati-rice
   - charred-asparagus-with-parmesan
 ingredients:
-  - '--- Chicken and lemon-herb pan ---'
   - >-
     8 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is
     about 2.5–3 lb total

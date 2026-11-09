@@ -32,9 +32,7 @@ ingredients:
   - '--- Carnitas ---'
   - '3 lb pork shoulder, raw; fresh or fully thawed, cut into 2-inch chunks'
   - 1 tbsp kosher salt
-  - >-
-    1 orange, quartered; squeeze juice over pork, then add quarters and discard
-    them after braising
+  - '1 orange, quartered; squeeze juice over pork, then add quarters and discard them after braising'
   - '1 yellow onion, quartered; discard after braising'
   - '4 garlic cloves, smashed; discard after braising'
   - 2 bay leaves
@@ -49,14 +47,14 @@ ingredients:
   - 1 tsp ancho chile powder
   - '--- Bowl components and toppings ---'
   - >-
-    [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions
-    as wanted for the bowls
+    [Cilantro Lime Rice](/mise/recipes/cilantro-lime-rice), prepared; portions as wanted for the
+    bowls
   - >-
-    [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared;
-    portions as wanted for the bowls
+    [Seasoned Black Beans](/mise/recipes/quick-seasoned-black-beans), prepared; portions as wanted
+    for the bowls
   - >-
-    [Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions
-    as wanted for the bowls
+    [Pickled Red Onions](/mise/recipes/pickled-red-onions), prepared; portions as wanted for the
+    bowls
   - '2 cups green cabbage, shredded'
   - '2 avocados, sliced'
   - '1/4 cup pepitas, already toasted'
@@ -68,91 +66,76 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 description: >-
-  Covered oven-braised pork shoulder returned to its rendered fat and crisped
-  under the broiler, with rice, beans, charred corn and the full elote dressing.
+  Covered oven-braised pork shoulder returned to its rendered fat and crisped under the broiler,
+  with rice, beans, charred corn and the full elote dressing.
 learning:
-  focus: >-
-    Keep the braise close-fitting, then crisp selected surfaces without
-    discarding the pork fat
+  focus: 'Keep the braise close-fitting, then crisp selected surfaces without discarding the pork fat'
   outcome: >-
-    Pull-apart pork with crisp edges and a moist interior, served with the full
-    rich corn dressing and fresh bowl toppings.
+    Pull-apart pork with crisp edges and a moist interior, served with the full rich corn dressing
+    and fresh bowl toppings.
   techniques:
     - braising
     - browning
     - temperature
   before:
     - >-
-      Use fresh or fully thawed raw pork; refrigerator thawing is additional
-      advance time. The original planning yield is six bowls, not a measured
-      pork yield or a prescribed amount of rice/beans/onions. Prepare portions
-      of those linked components as wanted for the bowls.
+      Use fresh or fully thawed raw pork; refrigerator thawing is additional advance time. The
+      original planning yield is six bowls, not a measured pork yield or a prescribed amount of
+      rice/beans/onions. Prepare portions of those linked components as wanted for the bowls.
     - >-
-      The corn is already charred, kernels removed, and the pepitas already
-      toasted. Their separate preparation is outside the bowl clock below unless
-      done during the braise.
+      The corn is already charred, kernels removed, and the pepitas already toasted. Their separate
+      preparation is outside the bowl clock below unless done during the braise.
     - >-
-      Keep 2-inch pork chunks and a snug covered arrangement at every batch
-      size. A 9×13-inch dish may leave too much empty space for the original 3
-      lb shoulder; choose its fit after cutting the meat. Use additional snug
-      vessels for larger batches, and keep broiler meat in one layer.
+      Keep 2-inch pork chunks and a snug covered arrangement at every batch size. A 9×13-inch dish
+      may leave too much empty space for the original 3 lb shoulder; choose its fit after cutting
+      the meat. Use additional snug vessels for larger batches, and keep broiler meat in one layer.
   checkpoints:
     - step: 2
       cue: >-
-        A fork readily separates the shoulder pieces; the minimum 145°F / 63°C
-        and 3-minute whole-pork rest are met.
+        A fork readily separates the shoulder pieces; the minimum 145°F / 63°C and 3-minute
+        whole-pork rest are met.
       why: >-
-        Safe whole-pork minimum and the much softer texture wanted for shredding
-        are different checks.
+        Safe whole-pork minimum and the much softer texture wanted for shredding are different
+        checks.
     - step: 3
       cue: >-
-        All separated rendered fat is back with the pork; the aqueous cooking
-        juices are reserved separately.
+        All separated rendered fat is back with the pork; the aqueous cooking juices are reserved
+        separately.
       why: >-
-        Returning the fat is part of this formula's richness and broiler finish,
-        not a fat-reduction step.
+        Returning the fat is part of this formula's richness and broiler finish, not a fat-reduction
+        step.
     - step: 5
-      cue: >-
-        Some edges are crisp after stirring between passes while larger pieces
-        remain moist.
+      cue: Some edges are crisp after stirring between passes while larger pieces remain moist.
       why: >-
-        Two passes expose different surfaces; elapsed six-minute periods do not
-        guarantee the same result in every broiler.
+        Two passes expose different surfaces; elapsed six-minute periods do not guarantee the same
+        result in every broiler.
   troubleshooting:
     - problem: The shoulder is still firm at the first braise check
-      cause: >-
-        Cut size, pan loading, heat or the shoulder's connective tissue needs
-        more time.
+      cause: "Cut size, pan loading, heat or the shoulder's connective tissue needs more time."
       fix: >-
-        Keep the cover tight and continue until the chunks separate readily with
-        a fork. Wait for that texture before shredding; the minimum temperature
-        alone does not show that the shoulder is tender.
+        Keep the cover tight and continue until the chunks separate readily with a fork. Wait for
+        that texture before shredding; the minimum temperature alone does not show that the shoulder
+        is tender.
   storage: >-
-    Store carnitas, reserved cooking juices, prepared rice/beans and the cold
-    corn dressing/toppings separately. Refrigerate promptly in shallow
-    containers within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F /
-    4°C or colder. Use cooked pork and cooking juices within 3–4 days; follow
-    each linked component's storage guidance. Reheat pork and any cooked
-    rice/beans to 165°F / 74°C throughout before assembly; re-crisp the reheated
-    pork briefly if wanted. When reheating reserved aqueous cooking juices as
-    sauce, USDA additionally recommends a rolling boil; stir and keep it brief
-    rather than concentrating them with prolonged boiling. This is not an
-    instruction to boil separated fat. Keep mayo/sour-cream dressing and fresh
-    toppings cold.
+    Store carnitas, reserved cooking juices, prepared rice/beans and the cold corn dressing/toppings
+    separately. Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, and keep at 40°F / 4°C or colder. Use cooked pork and cooking juices within 3–4 days;
+    follow each linked component's storage guidance. Reheat pork and any cooked rice/beans to 165°F
+    / 74°C throughout before assembly; re-crisp the reheated pork briefly if wanted. When reheating
+    reserved aqueous cooking juices as sauce, USDA additionally recommends a rolling boil; stir and
+    keep it brief rather than concentrating them with prolonged boiling. This is not an instruction
+    to boil separated fat. Keep mayo/sour-cream dressing and fresh toppings cold.
   timing: >-
-    With the rice, beans, pickled onions, charred corn and toasted pepitas
-    already prepared, plan about 40 minutes of hands-on seasoning, straining,
-    shredding, dressing and assembly, 30 minutes refrigerated seasoning, 3–3½
-    hours covered braising, at least 3 minutes rest and roughly 12 minutes of
-    broiling plus heating time: allow about 4–5 hours overall. Some
-    dressing/preparation can overlap the braise. Overnight seasoning is
-    additional advance time, and extra vessels or broiler loads extend the
-    clock. Making the linked preparations or charring corn from scratch is not
-    included in that ready-components estimate.
+    With the rice, beans, pickled onions, charred corn and toasted pepitas already prepared, plan
+    about 40 minutes of hands-on seasoning, straining, shredding, dressing and assembly, 30 minutes
+    refrigerated seasoning, 3–3½ hours covered braising, at least 3 minutes rest and roughly 12
+    minutes of broiling plus heating time: allow about 4–5 hours overall. Some dressing/preparation
+    can overlap the braise. Overnight seasoning is additional advance time, and extra vessels or
+    broiler loads extend the clock. Making the linked preparations or charring corn from scratch is
+    not included in that ready-components estimate.
   sources:
     - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA FSIS — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -162,8 +145,7 @@ learning:
       url: >-
         https://sectur.michoacan.gob.mx/carnitas-michoacanas-nominadas-a-mejor-platillo-tipico-mexicano/
     - title: 'J. Kenji López-Alt — No-Waste Tacos de Carnitas, Serious Eats'
-      url: >-
-        https://www.seriouseats.com/no-waste-tacos-de-carnitas-with-salsa-verde-recipe
+      url: 'https://www.seriouseats.com/no-waste-tacos-de-carnitas-with-salsa-verde-recipe'
   review:
     status: editorial-review
     date: '2026-10-05'
@@ -205,9 +187,7 @@ formula:
           uses:
             - step: braise
               share: 1
-          preparation: >-
-            quartered; squeeze juice over pork, then add quarters and discard
-            them after braising
+          preparation: 'quartered; squeeze juice over pork, then add quarters and discard them after braising'
         - id: onion
           key: onion
           name: yellow onion
@@ -266,9 +246,7 @@ formula:
         - id: finishing-salt
           key: finishing-salt
           name: salt
-          allowance: >-
-            to taste after shredding, separate from the measured initial
-            seasoning
+          allowance: 'to taste after shredding, separate from the measured initial seasoning'
           uses:
             - step: shred
               share: 1
@@ -403,68 +381,59 @@ formula:
     - id: season
       title: Season and refrigerate
       text: >-
-        Use {{ingredients}}: coat the pork chunks with all the measured initial
-        kosher salt. Cover and refrigerate for 30 minutes, or overnight. Do not
-        leave the raw pork seasoning on the counter.
+        Use {{ingredients}}: coat the pork chunks with all the measured initial kosher salt. Cover
+        and refrigerate for 30 minutes, or overnight. Do not leave the raw pork seasoning on the
+        counter.
     - id: braise
       title: Arrange and braise
       text: >-
-        Preheat the oven to 275°F. Put the seasoned pork close together in an
-        oven-safe dish that holds it snugly without a broad empty area; the
-        original 9×13-inch dish suggestion applies only if the actual meat fits
-        that arrangement. Use appropriately fitted dishes for smaller batches or
-        additional snug vessels for larger batches rather than spreading the
-        same meat over an oversized pan. Add {{ingredients}}: squeeze the orange
-        over the meat before nestling its quarters, the onion, garlic, bay and
-        cinnamon among the chunks, then drizzle all the oil over the top. Cover
-        tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a
-        starting range, until the meat pulls apart readily with a fork. Check
-        thick pork chunks in more than one area of each vessel reach at least
-        145°F / 63°C before removing from heat; allow at least 3 minutes rest
-        before cutting or shredding. That minimum temperature alone does not
-        promise pull-apart shoulder.
+        Preheat the oven to 275°F. Put the seasoned pork close together in an oven-safe dish that
+        holds it snugly without a broad empty area; the original 9×13-inch dish suggestion applies
+        only if the actual meat fits that arrangement. Use appropriately fitted dishes for smaller
+        batches or additional snug vessels for larger batches rather than spreading the same meat
+        over an oversized pan. Add {{ingredients}}: squeeze the orange over the meat before nestling
+        its quarters, the onion, garlic, bay and cinnamon among the chunks, then drizzle all the oil
+        over the top. Cover tightly with foil or the dish's oven-safe lid. Bake for 3–3½ hours as a
+        starting range, until the meat pulls apart readily with a fork. Check thick pork chunks in
+        more than one area of each vessel reach at least 145°F / 63°C before removing from heat;
+        allow at least 3 minutes rest before cutting or shredding. That minimum temperature alone
+        does not promise pull-apart shoulder.
     - id: strain
       title: Strain and return the fat
       text: >-
-        Remove and discard the orange quarters, onion, garlic, bay leaves and
-        cinnamon. Strain the pork, reserving all the cooking liquid. Separate
-        the rendered fat from that liquid and return ALL the separated fat to
-        the meat. Keep the remaining cooking juices separately for another
-        preparation. Cool and refrigerate reserved juices promptly in a shallow
-        container if not using them immediately.
+        Remove and discard the orange quarters, onion, garlic, bay leaves and cinnamon. Strain the
+        pork, reserving all the cooking liquid. Separate the rendered fat from that liquid and
+        return ALL the separated fat to the meat. Keep the remaining cooking juices separately for
+        another preparation. Cool and refrigerate reserved juices promptly in a shallow container if
+        not using them immediately.
     - id: shred
       title: Shred and season
       text: >-
-        Pull the pork into large pieces with two forks. Taste the cooked meat,
-        then add {{ingredients}} only as needed; the full measured initial salt
-        has already been used.
+        Pull the pork into large pieces with two forks. Taste the cooked meat, then add
+        {{ingredients}} only as needed; the full measured initial salt has already been used.
     - id: crisp
       title: Crisp in two passes
       text: >-
-        Spread the meat and all its returned fat in a single layer on a
-        broiler-safe rimmed metal sheet pan, using additional pans or loads if
-        needed. Broil, starting to check at 6 minutes, until exposed edges
-        crisp; stir so other surfaces face the heat, then broil again, starting
-        to check within another 6 minutes. Watch the meat throughout and stop
-        when the edges are crisp without drying every piece. Broiler strength
-        and load change the timing.
+        Spread the meat and all its returned fat in a single layer on a broiler-safe rimmed metal
+        sheet pan, using additional pans or loads if needed. Broil, starting to check at 6 minutes,
+        until exposed edges crisp; stir so other surfaces face the heat, then broil again, starting
+        to check within another 6 minutes. Watch the meat throughout and stop when the edges are
+        crisp without drying every piece. Broiler strength and load change the timing.
     - id: dress
       title: Dress the prepared corn
       text: >-
-        Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder
-        with half the measured cotija, reserving the other half for the bowls.
-        Toss this dressing with all the already-charred corn kernels. Keep this
-        corn/dressing refrigerated until assembly if making it ahead.
+        Use {{ingredients}}: mix all the mayonnaise, sour cream and chile powder with half the
+        measured cotija, reserving the other half for the bowls. Toss this dressing with all the
+        already-charred corn kernels. Keep this corn/dressing refrigerated until assembly if making
+        it ahead.
     - id: assemble
       title: Build the bowls
       text: >-
-        Divide all the carnitas and dressed corn among the planned portions. Add
-        {{ingredients}}: use the prepared rice as the base, add the prepared
-        beans and pickled onions in amounts wanted, then distribute all the
-        measured cabbage, avocado, pepitas, remaining cotija and lime wedges
-        across the bowls with the cilantro. The linked recipes have their own
-        batch yields; this bowl does not specify that a full batch of each is
-        needed.
+        Divide all the carnitas and dressed corn among the planned portions. Add {{ingredients}}:
+        use the prepared rice as the base, add the prepared beans and pickled onions in amounts
+        wanted, then distribute all the measured cabbage, avocado, pepitas, remaining cotija and
+        lime wedges across the bowls with the cilantro. The linked recipes have their own batch
+        yields; this bowl does not specify that a full batch of each is needed.
 ---
 
 ## Chef's Note

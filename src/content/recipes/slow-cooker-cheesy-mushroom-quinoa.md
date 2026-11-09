@@ -14,19 +14,16 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 10 min
-cookTime: >-
-  High: about 2–3 hr, plus melting and 15 min; Low: about 4–5 hr, plus melting
-  and 15 min
+cookTime: 'High: about 2–3 hr, plus melting and 15 min; Low: about 4–5 hr, plus melting and 15 min'
 totalTime: >-
-  High: about 2 hr 25 min–3 hr 25 min; Low: about 4 hr 25 min–5 hr 25 min, plus
-  any extra melting or loads
+  High: about 2 hr 25 min–3 hr 25 min; Low: about 4 hr 25 min–5 hr 25 min, plus any extra melting or
+  loads
 servings: 4 portions
 pairsWith:
   - honey-glazed-carrots
   - apple-banana-and-carrot-muffin
   - roasted-fall-harvest-salad
 ingredients:
-  - '--- Quinoa and cheese ---'
   - '2 cups uncooked quinoa, rinsed and drained'
   - '8 oz mushrooms, sliced'
   - 4 cups prepared vegetable or chicken broth
@@ -161,88 +158,73 @@ formula:
     - id: combine
       title: Load cooker
       text: >-
-        Add {{ingredients}} to the slow cooker and stir. Use the actual cooker
-        manufacturer’s minimum/maximum load and grain-cooking instructions; a
-        scaled batch may need complete separate loads or a differently sized
-        cooker. Keep the full measured broth with the full dry quinoa in each
-        proportionate load.
+        Add {{ingredients}} to the slow cooker and stir. Use the actual cooker manufacturer’s
+        minimum/maximum load and grain-cooking instructions; a scaled batch may need complete
+        separate loads or a differently sized cooker. Keep the full measured broth with the full dry
+        quinoa in each proportionate load.
     - id: cook
       title: Cook grain
       text: >-
-        Cover and cook on High for about 2–3 hours, or Low for about 4–5 hours
-        for the original batch. Begin checking at the shorter end of the chosen
-        window. The quinoa should be tender with its curled germs visible and
-        the broth mostly absorbed, without a hard center. Cooker model and load
-        change the time; complete absorption alone does not establish
-        tenderness.
+        Cover and cook on High for about 2–3 hours, or Low for about 4–5 hours for the original
+        batch. Begin checking at the shorter end of the chosen window. The quinoa should be tender
+        with its curled germs visible and the broth mostly absorbed, without a hard center. Cooker
+        model and load change the time; complete absorption alone does not establish tenderness.
     - id: cream
       title: Melt cream cheese
       text: >-
-        Stir in {{ingredients}} until the cubes have melted into the hot grain,
-        starting with about a minute of stirring but continuing gently if pieces
-        remain. Do not beat indefinitely or wait for the creamy mixture to
-        become dry.
+        Stir in {{ingredients}} until the cubes have melted into the hot grain, starting with about
+        a minute of stirring but continuing gently if pieces remain. Do not beat indefinitely or
+        wait for the creamy mixture to become dry.
     - id: cheese
       title: Melt topping
       text: >-
-        Scatter {{ingredients}} over the top. Cover and cook for about 15
-        minutes more, until melted.
+        Scatter {{ingredients}} over the top. Cover and cook for about 15 minutes more, until
+        melted.
     - id: finish
       title: Finish
       text: 'Stir once more, then garnish with {{ingredients}} and serve.'
 learning:
   focus: Judge grain tenderness before the cheese finish
-  outcome: >-
-    Tender quinoa in a creamy mixture, with fully melted cheeses and fresh
-    green-onion contrast.
+  outcome: 'Tender quinoa in a creamy mixture, with fully melted cheeses and fresh green-onion contrast.'
   techniques:
     - starch
     - temperature
   before:
     - >-
-      Rinse and drain the measured dry quinoa. Use prepared broth; vegetable and
-      chicken broths can differ in saltiness.
+      Rinse and drain the measured dry quinoa. Use prepared broth; vegetable and chicken broths can
+      differ in saltiness.
     - >-
-      Check the actual cooker’s loading limits before scaling. The full measured
-      liquid belongs with each proportionate grain load; no universal cooker
-      size or fill fraction is specified.
+      Check the actual cooker’s loading limits before scaling. The full measured liquid belongs with
+      each proportionate grain load; no universal cooker size or fill fraction is specified.
     - >-
-      Keep the cheeses refrigerated and cube the cream cheese before cooking so
-      the finish is ready when the grain becomes tender.
+      Keep the cheeses refrigerated and cube the cream cheese before cooking so the finish is ready
+      when the grain becomes tender.
   checkpoints:
     - step: 2
-      cue: >-
-        The quinoa is tender when sampled, its curled germs visible and most
-        broth absorbed.
-      why: >-
-        A fixed time or absence of visible broth does not guarantee a tender
-        grain in every cooker.
+      cue: 'The quinoa is tender when sampled, its curled germs visible and most broth absorbed.'
+      why: A fixed time or absence of visible broth does not guarantee a tender grain in every cooker.
     - step: 3
       cue: No separate cream-cheese cubes remain after gentle stirring.
       why: >-
-        The late cheese finish depends on hot grain and cube size, rather than a
-        guaranteed one-minute emulsion.
+        The late cheese finish depends on hot grain and cube size, rather than a guaranteed
+        one-minute emulsion.
   troubleshooting:
     - problem: Quinoa remains firm at the first check
       cause: 'Cooker heat, load, draining or grain type differs.'
       fix: >-
-        Continue covered and recheck tenderness before adding the cheeses. If it
-        is dry yet firm, the written ratio/cooker combination needs
-        reassessment; do not assume an arbitrary extra broth dose will reproduce
-        it.
+        Continue covered and recheck tenderness before adding the cheeses. If it is dry yet firm,
+        the written ratio/cooker combination needs reassessment; do not assume an arbitrary extra
+        broth dose will reproduce it.
   timing: >-
-    The High route needs roughly 2 hours 25 minutes to 3 hours 25 minutes
-    including 10-minute preparation and the 15-minute cheese finish; Low needs
-    roughly 4 hours 25 minutes to 5 hours 25 minutes. Extra cheese-melting time,
-    heating behavior and separate cooker loads can extend both plans.
-    Preparation and finishing are active; most covered grain cooking is elapsed
-    time.
+    The High route needs roughly 2 hours 25 minutes to 3 hours 25 minutes including 10-minute
+    preparation and the 15-minute cheese finish; Low needs roughly 4 hours 25 minutes to 5 hours 25
+    minutes. Extra cheese-melting time, heating behavior and separate cooker loads can extend both
+    plans. Preparation and finishing are active; most covered grain cooking is elapsed time.
   storage: >-
-    Divide cooked leftovers into shallow portions and refrigerate within 2
-    hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4
-    days or freeze promptly; reheat to 165°F / 74°C throughout, checking the
-    center and more than one portion. Reheat on the stove, in a microwave or in
-    an oven; do not start cold leftovers in the slow cooker. Cheese texture can
+    Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F /
+    74°C throughout, checking the center and more than one portion. Reheat on the stove, in a
+    microwave or in an oven; do not start cold leftovers in the slow cooker. Cheese texture can
     become thicker or grainier on reheating.
   sources:
     - title: USDA slow-cooker handling and reheating

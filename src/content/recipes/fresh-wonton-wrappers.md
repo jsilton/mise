@@ -32,7 +32,6 @@ pairsWith:
   - cantonese-shrimp-and-pork-wontons
   - har-gow-dim-sum-shrimp-dumplings
 ingredients:
-  - '--- Wonton dough ---'
   - 2 cups all-purpose flour
   - 1/2 tsp kosher salt
   - '1 egg, beaten'

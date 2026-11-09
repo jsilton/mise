@@ -289,149 +289,126 @@ formula:
     - id: score
       title: Score the Steak
       text: >-
-        Lightly score both sides of {{name:steak.flank}} in a shallow diagonal
-        diamond pattern, about 1/8 inch deep. Keep the cuts superficial; do not
-        cut through the steak. Use separate equipment for the raw meat and
-        ready-to-eat salad.
+        Lightly score both sides of {{name:steak.flank}} in a shallow diagonal diamond pattern,
+        about 1/8 inch deep. Keep the cuts superficial; do not cut through the steak. Use separate
+        equipment for the raw meat and ready-to-eat salad.
     - id: marinate
       title: Marinate
       text: >-
-        Whisk {{ingredients}} in a nonreactive dish or food-storage bag and add
-        the steak. Seal and refrigerate for at least 2 hours, or up to 12 hours.
+        Whisk {{ingredients}} in a nonreactive dish or food-storage bag and add the steak. Seal and
+        refrigerate for at least 2 hours, or up to 12 hours.
     - id: dry
       title: Dry the Surface
       text: >-
-        Take the steak from the refrigerator when ready to cook. Lift it from
-        the marinade and pat the surface dry. Discard the used marinade; keep it
-        away from the dressing and salad.
+        Take the steak from the refrigerator when ready to cook. Lift it from the marinade and pat
+        the surface dry. Discard the used marinade; keep it away from the dressing and salad.
     - id: dressing
       title: Make the Vinaigrette
       text: >-
-        Shake or whisk {{ingredients}} together. Keep the washed salad and
-        toppings cold while the meat cooks.
+        Shake or whisk {{ingredients}} together. Keep the washed salad and toppings cold while the
+        meat cooks.
     - id: sear
       title: Sear the Steak
       text: >-
-        Use {{ingredients}}: heat the oil in a cast-iron skillet over
-        medium-high to high heat until shimmering. Lay the steak flat without
-        crowding. Begin checking around 4–5 minutes per side for the original
-        cut, adjusting heat if the surface is burning; continue until the
-        thickest part reaches at least 145°F before removing it. For more
-        steaks, use additional suitable pans or complete cooking batches,
-        dividing all the measured searing oil among them. Cut thickness and
-        starting temperature change the clock.
+        Use {{ingredients}}: heat the oil in a cast-iron skillet over medium-high to high heat until
+        shimmering. Lay the steak flat without crowding. Begin checking around 4–5 minutes per side
+        for the original cut, adjusting heat if the surface is burning; continue until the thickest
+        part reaches at least 145°F before removing it. For more steaks, use additional suitable
+        pans or complete cooking batches, dividing all the measured searing oil among them. Cut
+        thickness and starting temperature change the clock.
     - id: rest
       title: Rest
       text: >-
-        Transfer to a clean cutting board and let the steak rest for 10 minutes,
-        exceeding the minimum 3-minute rest after the 145°F endpoint. Keep the
-        meat and cooked juices separate from the raw-meat equipment.
+        Transfer to a clean cutting board and let the steak rest for 10 minutes, exceeding the
+        minimum 3-minute rest after the 145°F endpoint. Keep the meat and cooked juices separate
+        from the raw-meat equipment.
     - id: slice
       title: Slice
       text: >-
-        Slice as thinly as possible across the grain with the carving knife
-        angled about 45 degrees. Keep the salad cold until assembly.
+        Slice as thinly as possible across the grain with the carving knife angled about 45 degrees.
+        Keep the salad cold until assembly.
     - id: assemble
       title: Assemble
       text: >-
-        Bring {{ingredients}} to the serving bowl. Toss both lettuces with half
-        of the prepared vinaigrette. Arrange the cucumber, avocado and radishes
-        over the greens, add all the sliced steak, and drizzle with all the
-        remaining vinaigrette.
+        Bring {{ingredients}} to the serving bowl. Toss both lettuces with half of the prepared
+        vinaigrette. Arrange the cucumber, avocado and radishes over the greens, add all the sliced
+        steak, and drizzle with all the remaining vinaigrette.
     - id: finish
       title: Finish
-      text: >-
-        Scatter {{ingredients}} over the top just before serving so the toppings
-        stay crisp.
+      text: 'Scatter {{ingredients}} over the top just before serving so the toppings stay crisp.'
 learning:
   focus: Keeping a steak salad crisp while cooking and slicing flank steak.
   outcome: >-
-    Thin beef slices lie across crisp, lightly dressed leaves, with the full
-    vinaigrette and crunchy toppings distributed through the salad.
+    Thin beef slices lie across crisp, lightly dressed leaves, with the full vinaigrette and crunchy
+    toppings distributed through the salad.
   techniques:
     - browning
     - temperature
     - cold-preparation
   before:
     - >-
-      Allow the full 2–12-hour refrigerator marinade; have separately prepared
-      crispy shallots ready, or allow the linked recipe’s additional cooking and
-      cooling time.
+      Allow the full 2–12-hour refrigerator marinade; have separately prepared crispy shallots
+      ready, or allow the linked recipe’s additional cooking and cooling time.
     - >-
-      Choose a skillet that holds the steak flat. Several steaks need enough
-      pans or successive fully cooked batches and proportional shares of the
-      listed searing oil; temperatures and cut thickness do not scale.
+      Choose a skillet that holds the steak flat. Several steaks need enough pans or successive
+      fully cooked batches and proportional shares of the listed searing oil; temperatures and cut
+      thickness do not scale.
     - >-
-      Keep raw meat and used marinade away from the washed salad, dressing,
-      serving board and toppings. Keep the marinade olive oil, dressing olive
-      oil and searing oil separate.
+      Keep raw meat and used marinade away from the washed salad, dressing, serving board and
+      toppings. Keep the marinade olive oil, dressing olive oil and searing oil separate.
   checkpoints:
     - step: 3
-      cue: >-
-        The steak is surface-dry and the used marinade is set aside for
-        disposal.
-      why: >-
-        The marinade has contacted raw beef; it does not belong in the
-        ready-to-eat dressing.
+      cue: The steak is surface-dry and the used marinade is set aside for disposal.
+      why: The marinade has contacted raw beef; it does not belong in the ready-to-eat dressing.
     - step: 5
       cue: A browned surface accompanies at least 145°F in the thickest part.
       why: 'Time, crust and pinkness alone do not establish the whole-cut endpoint.'
     - step: 8
       cue: >-
-        Half the prepared vinaigrette coats the leaves and the entire remainder
-        goes over the assembled salad.
+        Half the prepared vinaigrette coats the leaves and the entire remainder goes over the
+        assembled salad.
       why: >-
-        This proportional split works at smaller and larger ingredient scales
-        without losing the dressing.
+        This proportional split works at smaller and larger ingredient scales without losing the
+        dressing.
   troubleshooting:
     - problem: The exterior darkens before the center reaches 145°F.
       cause: >-
-        The heat is too high for the cut’s thickness or the seasoned marinade
-        remains wet on its surface.
+        The heat is too high for the cut’s thickness or the seasoned marinade remains wet on its
+        surface.
       fix: >-
-        Lower the heat and continue cooking to the measured endpoint. Dry the
-        next steak carefully rather than cooking it to a lower temperature.
+        Lower the heat and continue cooking to the measured endpoint. Dry the next steak carefully
+        rather than cooking it to a lower temperature.
     - problem: The salad becomes limp.
-      cause: >-
-        The leaves were wet, the dressing sat on them too long or hot meat was
-        added immediately.
+      cause: 'The leaves were wet, the dressing sat on them too long or hot meat was added immediately.'
       fix: >-
-        Dry washed leaves, retain the meat’s ten-minute rest and dress
-        immediately before serving. Already wilted dressed lettuce cannot be
-        made crisp again.
+        Dry washed leaves, retain the meat’s ten-minute rest and dress immediately before serving.
+        Already wilted dressed lettuce cannot be made crisp again.
   substitutions:
     - ingredient: Soy sauce
       alternative: Gluten-free tamari
       effect: Check the product label; the measured marinade amount remains the same.
     - ingredient: Neutral searing oil
       alternative: Oil from separately prepared crispy shallots
-      effect: >-
-        Use the measured searing amount, keeping it distinct from both olive-oil
-        supplies.
+      effect: 'Use the measured searing amount, keeping it distinct from both olive-oil supplies.'
     - ingredient: Kosher salt
       alternative: The same crystal type for repeatable dressing
-      effect: >-
-        The listed half-teaspoon does not establish an equal-volume fine-salt
-        replacement.
+      effect: The listed half-teaspoon does not establish an equal-volume fine-salt replacement.
   timing: >-
-    Plan at least 2 hours 40 minutes from scratch: 20 minutes preparation, the
-    minimum 2-hour refrigerator marinade, about 10 minutes or longer to cook and
-    10 minutes rest. Salad and dressing work can overlap the marinade. Cook the
-    surface-dried steak directly from the refrigerator; the endpoint may extend
-    searing. A 12-hour marinade, extra batches or making crispy shallots adds
-    elapsed time.
+    Plan at least 2 hours 40 minutes from scratch: 20 minutes preparation, the minimum 2-hour
+    refrigerator marinade, about 10 minutes or longer to cook and 10 minutes rest. Salad and
+    dressing work can overlap the marinade. Cook the surface-dried steak directly from the
+    refrigerator; the endpoint may extend searing. A 12-hour marinade, extra batches or making
+    crispy shallots adds elapsed time.
   storage: >-
-    Serve immediately after dressing. Refrigerate cooked beef and undressed
-    salad/dressing separately at 40°F or below within 2 hours, or 1 hour above
-    90°F; use cooked beef within 3–4 days. Reheat saved beef to 165°F if serving
-    it hot. Dressed leaves and crisp toppings lose texture, so assemble only the
-    portions being eaten.
+    Serve immediately after dressing. Refrigerate cooked beef and undressed salad/dressing
+    separately at 40°F or below within 2 hours, or 1 hour above 90°F; use cooked beef within 3–4
+    days. Reheat saved beef to 165°F if serving it hot. Dressed leaves and crisp toppings lose
+    texture, so assemble only the portions being eaten.
   sources:
     - title: 'FDA: Safe Food Handling'
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: 'FoodSafety.gov: Safe Minimum Internal Temperatures'
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: 'FoodSafety.gov: Cold Food Storage Chart'
       url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
   review:

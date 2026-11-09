@@ -28,7 +28,6 @@ pairsWith:
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
   - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
 ingredients:
-  - '--- Soup ---'
   - '4 slices of bacon, diced; cooked bacon reserved for garnish'
   - '1/2 medium sweet onion, diced'
   - '3 garlic cloves, minced'

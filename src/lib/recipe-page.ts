@@ -31,27 +31,26 @@ function save() {
   }
 }
 
-// Each step keeps its own callouts right under it: "Perfect your technique" first, then
-// "Back on track" for when things aren't quite right.
-steps.forEach((step, index) => {
+steps.forEach((step) => {
   const copy = document.createElement('div');
   copy.className = 'step-copy';
   while (step.firstChild) copy.appendChild(step.firstChild);
   step.append(copy);
-  document
-    .querySelectorAll<HTMLElement>(`[data-checkpoint-step="${index + 1}"]`)
-    .forEach((checkpoint) => step.append(checkpoint));
 });
-steps.forEach((step, index) => {
-  const isLast = index === steps.length - 1;
-  document.querySelectorAll<HTMLElement>('[data-fix-step]').forEach((fix) => {
-    const n = Number(fix.dataset.fixStep);
-    if (n === index + 1 || (isLast && fix.closest('#checkpoints'))) step.append(fix);
+
+// The ingredient list switches between the recipe's own order and a combined shopping list.
+const cookList = document.querySelector<HTMLElement>('.ingredient-list');
+const shopList = document.querySelector<HTMLElement>('.shopping-list');
+document.querySelectorAll<HTMLButtonElement>('.list-switch [data-list]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const shop = button.dataset.list === 'shop';
+    if (cookList) cookList.hidden = shop;
+    if (shopList) shopList.hidden = !shop;
+    document
+      .querySelectorAll('.list-switch [data-list]')
+      .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
   });
 });
-const checkpointSection = document.getElementById('checkpoints');
-if (checkpointSection && !checkpointSection.querySelector('.checkpoint, .fix-callout'))
-  checkpointSection.hidden = true;
 
 document.querySelectorAll<HTMLInputElement>('[data-ingredient-check]').forEach((c) => {
   const key = `ingredient-${c.dataset.ingredientCheck}`;
@@ -98,11 +97,7 @@ sectionForHash();
 let wakeLock: WakeLockSentinel | null = null;
 let dialog: HTMLDialogElement | null = null;
 let index = 0;
-let factor = 1;
 let opener: HTMLElement | null = null;
-document.addEventListener('mise:scaled', (event) => {
-  factor = (event as CustomEvent).detail?.factor || 1;
-});
 
 async function keepAwake(on: boolean) {
   const note = dialog?.querySelector('.cook-awake');
@@ -141,7 +136,6 @@ function buildDialog() {
         <div class="cook-ing-panel" hidden><p class="cook-ing-h">Ingredients</p><ul></ul></div>
         <div class="cook-step" aria-live="polite" aria-atomic="true">
           <p class="cook-count"></p>
-          <p class="cook-scaled" hidden></p>
           <div class="cook-text"></div>
         </div>
       </div>
@@ -214,12 +208,6 @@ function draw() {
   text.innerHTML = '';
   const copy = step.querySelector('.step-copy')?.cloneNode(true);
   if (copy) text.appendChild(copy);
-  step
-    .querySelectorAll('.checkpoint, .fix-callout')
-    .forEach((c) => text.appendChild(c.cloneNode(true)));
-  const scaled = dialog.querySelector<HTMLElement>('.cook-scaled')!;
-  scaled.hidden = factor === 1;
-  scaled.textContent = `You scaled the ingredients to ${factor}×. Amounts written in the steps are for the original recipe.`;
   dialog.querySelector<HTMLButtonElement>('.cook-prev')!.disabled = index === 0;
   dialog.querySelector('.cook-next')!.textContent =
     index === steps.length - 1 ? 'Done' : 'Next step';

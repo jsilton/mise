@@ -41,7 +41,6 @@ pairsWith:
   - vietnamese-spring-rolls
   - smashed-cucumber-salad
 ingredients:
-  - '--- Main recipe ---'
   - '5 lb beef marrow and knuckle bones, cut into 3-inch pieces, plus oxtail if available'
   - 2 lb whole beef brisket
   - 'cold water, enough to cover the bones and brisket for the initial discarded parboil'

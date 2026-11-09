@@ -29,10 +29,9 @@ pairsWith:
   - smashed-cucumber-salad
   - steamed-broccoli
 ingredients:
-  - '--- Main recipe ---'
   - >-
-    20 mini frozen wontons, check actual package cooking directions and whether
-    filling is raw or fully cooked
+    20 mini frozen wontons, check actual package cooking directions and whether filling is raw or
+    fully cooked
   - 6 cups prepared low-sodium chicken broth
   - '1 1-inch piece of fresh ginger, smashed'
   - '1 garlic clove, smashed'
@@ -42,9 +41,7 @@ ingredients:
   - 1 tsp toasted sesame oil
   - 'scallion greens, sliced, as desired for serving'
   - 'white pepper, a pinch or to taste'
-  - >-
-    water, as required only if the wonton package calls for a separate
-    cooking-water pot, optional
+  - 'water, as required only if the wonton package calls for a separate cooking-water pot, optional'
 source: Adapted from skinnytaste.com
 sourceUrl: 'https://www.skinnytaste.com/wonton-soup/'
 formula:
@@ -66,9 +63,7 @@ formula:
             - step: wontons
               share: 1
           plural: mini frozen wontons
-          preparation: >-
-            check actual package cooking directions and whether filling is raw
-            or fully cooked
+          preparation: check actual package cooking directions and whether filling is raw or fully cooked
         - id: broth
           key: low-sodium-chicken-broth
           name: prepared low-sodium chicken broth
@@ -157,9 +152,7 @@ formula:
         - id: package-water
           key: water
           name: water
-          allowance: >-
-            as required only if the wonton package calls for a separate
-            cooking-water pot
+          allowance: as required only if the wonton package calls for a separate cooking-water pot
           uses:
             - step: wontons
               share: 1
@@ -169,45 +162,40 @@ formula:
     - id: infuse
       title: Infuse
       text: >-
-        Bring {{ingredients}} to a boil in a pot with room for the frozen
-        wontons and vegetables plus boiling headroom. Reduce heat and simmer for
-        about 5 minutes. Divide all supplies proportionally among additional
-        pots or complete batches if needed.
+        Bring {{ingredients}} to a boil in a pot with room for the frozen wontons and vegetables
+        plus boiling headroom. Reduce heat and simmer for about 5 minutes. Divide all supplies
+        proportionally among additional pots or complete batches if needed.
     - id: vegetables
       title: Vegetables
       text: >-
-        Add {{ingredients}}. Simmer about 3 minutes, until the mushrooms begin
-        to soften, then continue as needed until the bok-choy stalks are tender.
-        If the wonton package requires a longer cook, lift the tender vegetables
-        into a clean bowl so they can be returned at the finish.
+        Add {{ingredients}}. Simmer about 3 minutes, until the mushrooms begin to soften, then
+        continue as needed until the bok-choy stalks are tender. If the wonton package requires a
+        longer cook, lift the tender vegetables into a clean bowl so they can be returned at the
+        finish.
     - id: wontons
       title: Cook wontons
       text: >-
-        Use {{ingredients}} for this stage. Cook the mini wontons from frozen
-        according to their actual package water-cooking directions, including
-        the specified boil/simmer, time and endpoint. If that method permits
-        cooking in broth, use this pot; if it requires a separate water pot,
-        follow that instruction and drain the cooked wontons before adding them
-        to the soup. The original 2–3-minute simmer applies only to a suitable
-        mini product, not every raw-filled wonton. Floating alone does not
-        establish cooked filling. Raw ground-meat filling needs 160°F / 71°C;
-        raw poultry filling needs 165°F / 74°C. Use the higher applicable target
-        for mixed filling, and do not assume it is verified when the filling
-        cannot be measured reliably.
+        Use {{ingredients}} for this stage. Cook the mini wontons from frozen according to their
+        actual package water-cooking directions, including the specified boil/simmer, time and
+        endpoint. If that method permits cooking in broth, use this pot; if it requires a separate
+        water pot, follow that instruction and drain the cooked wontons before adding them to the
+        soup. The original 2–3-minute simmer applies only to a suitable mini product, not every
+        raw-filled wonton. Floating alone does not establish cooked filling. Raw ground-meat filling
+        needs 160°F / 71°C; raw poultry filling needs 165°F / 74°C. Use the higher applicable target
+        for mixed filling, and do not assume it is verified when the filling cannot be measured
+        reliably.
     - id: finish
       title: Finish
       text: >-
-        Return any reserved vegetables and add {{ingredients}}, retaining all
-        the measured soy sauce and sesame oil. Heat the vegetables through and
-        season with the unmeasured pepper allowance.
+        Return any reserved vegetables and add {{ingredients}}, retaining all the measured soy sauce
+        and sesame oil. Heat the vegetables through and season with the unmeasured pepper allowance.
     - id: serve
       title: Serve
       text: >-
-        Remove the large ginger and garlic pieces if desired. Divide the cooked
-        wontons and broth among the portions, then garnish with {{ingredients}}.
-        The original 20-wonton, four-portion batch plans five mini wontons per
-        bowl; divide the actual scaled count rather than fixing five in every
-        scaled batch.
+        Remove the large ginger and garlic pieces if desired. Divide the cooked wontons and broth
+        among the portions, then garnish with {{ingredients}}. The original 20-wonton, four-portion
+        batch plans five mini wontons per bowl; divide the actual scaled count rather than fixing
+        five in every scaled batch.
 learning:
   focus: Choose the frozen dumpling cook before timing the vegetables
   outcome: Cooked wonton filling and tender bok-choy stalks in ginger-garlic broth.
@@ -215,50 +203,42 @@ learning:
     - temperature
   before:
     - >-
-      Use prepared, ready-to-use broth. Read the frozen mini-wonton label before
-      heating the pot; its filling state and water-cooking instructions
-      determine the method.
+      Use prepared, ready-to-use broth. Read the frozen mini-wonton label before heating the pot;
+      its filling state and water-cooking instructions determine the method.
     - >-
-      Wash and cut the vegetables before handling any raw-filled product. Choose
-      enough pot capacity for the full measured broth and solids, splitting
-      every supply proportionally for extra pots.
+      Wash and cut the vegetables before handling any raw-filled product. Choose enough pot capacity
+      for the full measured broth and solids, splitting every supply proportionally for extra pots.
     - >-
-      Four portions and five mini wontons per bowl describe the original
-      20-wonton batch. Product size and appetite change portion size; homemade
-      wontons need their own filling and cooking method.
+      Four portions and five mini wontons per bowl describe the original 20-wonton batch. Product
+      size and appetite change portion size; homemade wontons need their own filling and cooking
+      method.
   checkpoints:
     - step: 2
       cue: Mushrooms soften and a knife enters the bok-choy stalks readily.
       why: >-
-        Halved stalks may need longer than the mushroom clock; reserve tender
-        vegetables if the dumplings need a long cook.
+        Halved stalks may need longer than the mushroom clock; reserve tender vegetables if the
+        dumplings need a long cook.
     - step: 3
       cue: The actual label’s cook and applicable filling endpoint are completed.
-      why: >-
-        Skin flotation and a hot broth surface do not measure the filling
-        center.
+      why: Skin flotation and a hot broth surface do not measure the filling center.
   troubleshooting:
     - problem: Vegetables become soft before the dumplings finish
-      cause: >-
-        The chosen frozen product needs longer cooking than the original
-        mini-wonton estimate.
+      cause: The chosen frozen product needs longer cooking than the original mini-wonton estimate.
       fix: >-
-        Lift tender vegetables out with a clean utensil and return them at the
-        finish; complete the dumpling cook without shortening it.
+        Lift tender vegetables out with a clean utensil and return them at the finish; complete the
+        dumpling cook without shortening it.
   timing: >-
-    The original prepared-broth/mini-wonton plan is about 25 minutes, including
-    about 10 minutes preparation. Heating a large broth batch, longer package
-    directions or separate water cooking adds time. The
-    sliced-ginger/quartered-bok variation starts its vegetables earlier and may
-    take longer.
+    The original prepared-broth/mini-wonton plan is about 25 minutes, including about 10 minutes
+    preparation. Heating a large broth batch, longer package directions or separate water cooking
+    adds time. The sliced-ginger/quartered-bok variation starts its vegetables earlier and may take
+    longer.
   storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or
-    1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or
-    freeze promptly. Reheat while stirring to 165°F / 74°C throughout, checking
-    more than one place. USDA additionally recommends a rolling boil for
-    reheated soup or sauce; reach it briefly rather than boiling for a prolonged
-    time. The wonton skins and bok choy soften with storage and reheating; cook
-    only the needed number of frozen wontons when practical.
+    Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Reheat while stirring to
+    165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling
+    boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time. The
+    wonton skins and bok choy soften with storage and reheating; cook only the needed number of
+    frozen wontons when practical.
   sources:
     - title: Gina Homolka — Wonton Soup
       url: 'https://www.skinnytaste.com/wonton-soup/'

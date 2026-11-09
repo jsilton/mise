@@ -242,7 +242,6 @@ formula:
         pan is shaken, the rice should flow in a soft wave, all’onda, with distinct grains. Serve
         immediately.
 ingredients:
-  - '--- Risotto ---'
   - 500 g Carnaroli rice
   - '60 g butter, keep the finishing share cold and cut into small cubes'
   - '30 g beef marrow, removed from the bone and finely chopped'

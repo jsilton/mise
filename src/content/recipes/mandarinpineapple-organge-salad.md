@@ -34,7 +34,6 @@ pairsWith:
   - dutch-baby-pancake
   - frozen-blueberry-muffins
 ingredients:
-  - '--- Orange gelatin fruit salad ---'
   - 1 package (3 oz) regular orange gelatin dessert mix
   - 1/2 cup granulated sugar
   - 1 cup boiling water

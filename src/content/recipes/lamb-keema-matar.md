@@ -29,7 +29,6 @@ pairsWith:
   - cucumber-raita
   - naan
 ingredients:
-  - '--- Lamb and peas ---'
   - '1 lb ground lamb, raw, fresh or fully thawed'
   - 1 cup frozen peas
   - '1 large yellow onion, peeled and finely diced'

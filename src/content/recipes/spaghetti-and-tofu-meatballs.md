@@ -35,7 +35,6 @@ pairsWith:
   - garlic-bread
   - avocado-kale-caesar-salad
 ingredients:
-  - '--- Tofu balls and serving supplies ---'
   - '3 lb extra-firm tofu, pressed and drained'
   - 3/4 cup ground walnuts
   - 1 cup whole-wheat breadcrumbs
@@ -248,38 +247,35 @@ formula:
     - id: saute
       title: Prepare and sauté
       text: >-
-        Preheat the oven to 350°F. Press and drain the tofu according to its
-        product instructions; drain off free liquid rather than trying to remove
-        all its moisture. Cook {{ingredients}} in a roomy skillet: heat the oil
-        over medium, add the vegetables and sauté until softened, about 10
-        minutes, then spread the mixture in a bowl to cool slightly.
+        Preheat the oven to 350°F. Press and drain the tofu according to its product instructions;
+        drain off free liquid rather than trying to remove all its moisture. Cook {{ingredients}} in
+        a roomy skillet: heat the oil over medium, add the vegetables and sauté until softened,
+        about 10 minutes, then spread the mixture in a bowl to cool slightly.
     - id: mix
       title: Mix
       text: >-
-        Combine {{ingredients}} in a large bowl: beat the eggs first, then add
-        the other binders and seasonings and crumble in the pressed tofu. Add
-        all the cooled vegetables and their oil. Mix evenly; do not taste the
-        raw egg mixture.
+        Combine {{ingredients}} in a large bowl: beat the eggs first, then add the other binders and
+        seasonings and crumble in the pressed tofu. Add all the cooled vegetables and their oil. Mix
+        evenly; do not taste the raw egg mixture.
     - id: shape
       title: Shape
       text: >-
-        Use {{ingredients}} to grease enough baking sheets lightly. Form the
-        mixture into approximately 1½-inch balls and leave space between them;
-        keep this size when scaling, using additional trays or batches.
+        Use {{ingredients}} to grease enough baking sheets lightly. Form the mixture into
+        approximately 1½-inch balls and leave space between them; keep this size when scaling, using
+        additional trays or batches.
     - id: bake
       title: Bake
       text: >-
-        Bake at 350°F, checking from about 20 minutes; the source range is 20–30
-        minutes. If turning them, wait until the outside is set enough to lift
-        without breaking. Cook until browned and set outside and several thick
-        centers reach 160°F / 71°C with a thin probe. Color alone does not
-        establish a cooked egg binder.
+        Bake at 350°F, checking from about 20 minutes; the source range is 20–30 minutes. If turning
+        them, wait until the outside is set enough to lift without breaking. Cook until browned and
+        set outside and several thick centers reach 160°F / 71°C with a thin probe. Color alone does
+        not establish a cooked egg binder.
     - id: serve
       title: Serve
       text: >-
         Serve the cooked balls with {{ingredients}}. [Fresh Egg
-        Pasta](/mise/recipes/fresh-egg-pasta) is an optional separately prepared
-        pasta choice: follow its full recipe and plan its dough rest separately.
+        Pasta](/mise/recipes/fresh-egg-pasta) is an optional separately prepared pasta choice:
+        follow its full recipe and plan its dough rest separately.
 learning:
   focus: Bind drained tofu and check the cooked centers
   outcome: 'Evenly shaped, set tofu balls with browned surfaces.'
@@ -288,18 +284,15 @@ learning:
     - temperature
   before:
     - >-
-      The original source plans approximately 36 balls; that is an
-      original-batch shaping estimate, separate from the listed six main
-      portions. Keep approximately 1½-inch balls at other scales.
+      The original source plans approximately 36 balls; that is an original-batch shaping estimate,
+      separate from the listed six main portions. Keep approximately 1½-inch balls at other scales.
     - >-
-      Have enough baking sheets and a large mixing bowl; divide the mixture and
-      the full listed ingredients across batches rather than crowding one tray.
-      Pressing time and separately prepared sauce/pasta add to the schedule.
+      Have enough baking sheets and a large mixing bowl; divide the mixture and the full listed
+      ingredients across batches rather than crowding one tray. Pressing time and separately
+      prepared sauce/pasta add to the schedule.
   checkpoints:
     - step: 1
-      cue: >-
-        Vegetables are softened and no longer steaming strongly when mixed with
-        eggs.
+      cue: Vegetables are softened and no longer steaming strongly when mixed with eggs.
       why: Cooking them first limits liquid release in the balls.
     - step: 4
       cue: The outside holds its shape and several centers reach 160°F / 71°C.
@@ -308,36 +301,32 @@ learning:
     - problem: Balls break while turning
       cause: The outside has not set or the pressed mixture remains too wet.
       fix: >-
-        Wait for the outside to set before lifting; drain free tofu liquid and
-        use all the binders on the next batch.
+        Wait for the outside to set before lifting; drain free tofu liquid and use all the binders
+        on the next batch.
   substitutions:
     - ingredient: 'Tofu, sesame oil and herbs'
       alternative: >-
-        For the saved source route, use the same listed weight of firm tofu,
-        pressed, and the same listed sesame-oil volume without requiring toasted
-        oil. Move all the basil and oregano from the mixing stage into the
-        vegetable sauté; all other supplies, including olive oil and parsley,
-        stay unchanged. Mix, shape and bake with the same center checks.
+        For the saved source route, use the same listed weight of firm tofu, pressed, and the same
+        listed sesame-oil volume without requiring toasted oil. Move all the basil and oregano from
+        the mixing stage into the vegetable sauté; all other supplies, including olive oil and
+        parsley, stay unchanged. Mix, shape and bake with the same center checks.
       effect: >-
-        The current extra-firm/toasted-oil/herbs-in-mixture route remains the
-        main; the source route is exclusive, not additional tofu or oil.
+        The current extra-firm/toasted-oil/herbs-in-mixture route remains the main; the source route
+        is exclusive, not additional tofu or oil.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and
-    reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.
-    Store the cooked balls separately from sauce and pasta when practical;
-    freeze promptly if not using them within that refrigerator window.
+    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw
+    frozen portions in the refrigerator. Store the cooked balls separately from sauce and pasta when
+    practical; freeze promptly if not using them within that refrigerator window.
   timing: >-
-    Allow roughly 50–70 minutes for chopping, the 10-minute sauté, cooling,
-    mixing and shaping, and a 20–30-minute-or-longer bake. Tofu pressing and
-    preparing pasta or sauce are additional; more tray loads extend elapsed
-    time.
+    Allow roughly 50–70 minutes for chopping, the 10-minute sauté, cooling, mixing and shaping, and
+    a 20–30-minute-or-longer bake. Tofu pressing and preparing pasta or sauce are additional; more
+    tray loads extend elapsed time.
   sources:
     - title: Food.com — Tofu meatballs
       url: 'http://www.food.com/recipe/spaghetti-tofu-meatballs-130975'
     - title: FDA — Egg safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
     - title: 'FoodSafety.gov — Clean, separate, cook and chill'
       url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
     - title: FoodSafety.gov — Leftover handling

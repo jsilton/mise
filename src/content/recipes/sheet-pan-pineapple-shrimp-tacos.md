@@ -26,7 +26,6 @@ pairsWith:
   - cilantro-lime-rice
   - quick-seasoned-black-beans
 ingredients:
-  - '--- Tacos and slaw ---'
   - '1 lb raw shrimp, peeled, deveined and tails removed'
   - '2 cups fresh pineapple, cut into 1/2-inch pieces'
   - '1 medium red onion, sliced'
@@ -53,8 +52,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from delish.com
-sourceUrl: >-
-  https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/
+sourceUrl: 'https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/'
 learning:
   focus: Separate a shrimp endpoint from the roast time needed by fruit and onion.
   outcome: 'Cooked-through shrimp, softened onion and pineapple, and crisp cold slaw.'
@@ -63,43 +61,38 @@ learning:
     - temperature
   before:
     - >-
-      Follow the scaled list. The full olive oil is divided into a quarter for
-      marinade, half for the two tray zones and a quarter for slaw; halve the
-      tray share between onion and pineapple.
+      Follow the scaled list. The full olive oil is divided into a quarter for marinade, half for
+      the two tray zones and a quarter for slaw; halve the tray share between onion and pineapple.
     - >-
-      Use rimmed trays with single layers and distinct zones; a larger batch
-      needs more tray space. Prepare slaw with clean equipment.
+      Use rimmed trays with single layers and distinct zones; a larger batch needs more tray space.
+      Prepare slaw with clean equipment.
   checkpoints:
     - step: 3
       cue: 'Shrimp centers reach 145°F and are firm, pearly and opaque.'
       why: Waiting for the pineapple to brown can overcook shrimp.
     - step: 4
       cue: The full slaw is lightly dressed and kept cold.
-      why: >-
-        Its separate oil and lime allocations are not part of the shrimp
-        marinade.
+      why: Its separate oil and lime allocations are not part of the shrimp marinade.
   troubleshooting:
     - problem: Fruit is pale when shrimp are done.
       cause: Wet fruit and tray crowding slowed browning.
       fix: >-
-        Remove cooked shrimp, spread fruit and onion more widely and continue
-        their roast. Do not keep cooking shrimp to match the fruit.
+        Remove cooked shrimp, spread fruit and onion more widely and continue their roast. Do not
+        keep cooking shrimp to match the fruit.
     - problem: Slaw becomes soggy.
       cause: It sat dressed for a long time.
       fix: >-
-        Slice and chill components ahead, then dress closer to service; the
-        existing lime and oil stay with the slaw.
+        Slice and chill components ahead, then dress closer to service; the existing lime and oil
+        stay with the slaw.
   timing: >-
-    Allow about 40–45 minutes for the original batch: roughly 15 minutes of
-    prep, a 15-minute refrigerated marinade and 12–15 minutes roasting, with
-    slaw and oven heating overlapping the wait. More trays or extra fruit/onion
-    cooking extend the plan. Six is the original planning portion count, not a
-    measured taco count.
+    Allow about 40–45 minutes for the original batch: roughly 15 minutes of prep, a 15-minute
+    refrigerated marinade and 12–15 minutes roasting, with slaw and oven heating overlapping the
+    wait. More trays or extra fruit/onion cooking extend the plan. Six is the original planning
+    portion count, not a measured taco count.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F or below,
-    within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked
-    leftovers within 3–4 days. Keep toppings separate. Reheat only the portion
-    needed to 165°F throughout; further heating will firm the seafood. Keep
+    Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking
+    or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate.
+    Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. Keep
     slaw, sour cream and fresh garnishes cold and out of the reheating pan.
   sources:
     - title: 'Justin Sullivan: Sheet Pan Pineapple Shrimp Tacos, Delish'
@@ -115,23 +108,18 @@ learning:
   substitutions:
     - ingredient: Corn tortillas
       alternative: Flour tortillas
-      effect: >-
-        Warm and fill flour tortillas the same way. They change size and gluten
-        suitability.
+      effect: Warm and fill flour tortillas the same way. They change size and gluten suitability.
     - ingredient: Cayenne
       alternative: Omit it
       effect: >-
-        This is a less-hot option; keep chili powder and cumin unless choosing
-        to reduce those separately.
+        This is a less-hot option; keep chili powder and cumin unless choosing to reduce those
+        separately.
     - ingredient: Measured pineapple pieces
-      alternative: >-
-        One whole pineapple per original batch, cored and cut into 1/2-inch
-        pieces
+      alternative: 'One whole pineapple per original batch, cored and cut into 1/2-inch pieces'
       effect: >-
-        One whole pineapple is an original-batch alternative. Pineapple sizes
-        vary, so its approximately two-cup yield is not a fixed conversion.
-        Scale the whole-fruit share proportionally and allow tray space for its
-        actual yield.
+        One whole pineapple is an original-batch alternative. Pineapple sizes vary, so its
+        approximately two-cup yield is not a fixed conversion. Scale the whole-fruit share
+        proportionally and allow tray space for its actual yield.
   review:
     status: editorial-review
     date: '2026-10-06'
@@ -350,39 +338,35 @@ formula:
     - id: marinate
       title: Marinate
       text: >-
-        Use {{ingredients}} for the marinade. Pat the thawed shrimp dry, then
-        whisk the marinade oil, lime juice, garlic, salt and spices together
-        before adding the shrimp and tossing to coat. Marinate in the
-        refrigerator for 15 minutes. Heat the oven to 425°F while you prepare
+        Use {{ingredients}} for the marinade. Pat the thawed shrimp dry, then whisk the marinade
+        oil, lime juice, garlic, salt and spices together before adding the shrimp and tossing to
+        coat. Marinate in the refrigerator for 15 minutes. Heat the oven to 425°F while you prepare
         the tray and slaw.
     - id: pan
       title: Prepare the Tray
       text: >-
-        Use {{ingredients}} for the onion and pineapple zones. Divide this pan
-        share of oil equally between them; all the water goes with the onion.
-        Spread the marinated shrimp in a third zone, with all its coating. Use
-        additional rimmed trays if the shrimp or vegetables would overlap;
-        divide the full supplies proportionally rather than adding oil.
+        Use {{ingredients}} for the onion and pineapple zones. Divide this pan share of oil equally
+        between them; all the water goes with the onion. Spread the marinated shrimp in a third
+        zone, with all its coating. Use additional rimmed trays if the shrimp or vegetables would
+        overlap; divide the full supplies proportionally rather than adding oil.
     - id: roast
       title: Roast
       text: >-
-        Bake about 12–15 minutes, checking early. The thickest shrimp should
-        reach 145°F with firm, pearly, opaque flesh throughout. Remove finished
-        shrimp with clean utensils to a clean plate. If the pineapple and onion
-        need longer, return their sections to the oven; do not delay the shrimp
-        for a browning target.
+        Bake about 12–15 minutes, checking early. The thickest shrimp should reach 145°F with firm,
+        pearly, opaque flesh throughout. Remove finished shrimp with clean utensils to a clean
+        plate. If the pineapple and onion need longer, return their sections to the oven; do not
+        delay the shrimp for a browning target.
     - id: slaw
       title: Dress the Slaw
       text: >-
-        Toss {{ingredients}} together while the tray roasts, using all the juice
-        from the slaw lime, then refrigerate until serving. Keep this
-        ready-to-eat mixture away from the raw-shrimp bowl and utensils.
+        Toss {{ingredients}} together while the tray roasts, using all the juice from the slaw lime,
+        then refrigerate until serving. Keep this ready-to-eat mixture away from the raw-shrimp bowl
+        and utensils.
     - id: assemble
       title: Assemble
       text: >-
-        Warm {{ingredients}}, then divide the slaw, shrimp, roasted onion and
-        pineapple among them. The taco count depends on tortilla and shrimp
-        size.
+        Warm {{ingredients}}, then divide the slaw, shrimp, roasted onion and pineapple among them.
+        The taco count depends on tortilla and shrimp size.
     - id: finish
       title: Finish
       text: 'Top with {{ingredients}} and serve.'

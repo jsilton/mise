@@ -35,7 +35,6 @@ pairsWith:
   - roasted-root-vegetables
   - everyday-arugula-salad
 ingredients:
-  - '--- Oats and toppings ---'
   - 1 cup steel-cut oats
   - 3 cups water or chicken stock or broth
   - 1/4 cup golden raisins

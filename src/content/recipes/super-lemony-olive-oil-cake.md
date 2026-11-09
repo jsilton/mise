@@ -56,8 +56,7 @@ pairsWith:
   - apple-pie
   - blackout-chocolate-cake
 source: Adapted from bonappetit.com
-sourceUrl: >-
-  https://www.bonappetit.com/recipe/super-lemony-olive-oil-cake?intcid=inline_amp
+sourceUrl: 'https://www.bonappetit.com/recipe/super-lemony-olive-oil-cake?intcid=inline_amp'
 formula:
   version: 1
   yield:
@@ -206,130 +205,105 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F. For the original batch use a 9-inch
-        springform pan. Brush the pan lightly with {{ingredients}}, line its
-        bottom with a parchment round and lightly oil the parchment. The extra
-        pan oil is separate from the full measured batter oil. When scaling,
-        keep a similar batter depth with proportional pan area or additional
-        pans; do not put extra full batches into this one pan.
+        Preheat the oven to 350°F. For the original batch use a 9-inch springform pan. Brush the pan
+        lightly with {{ingredients}}, line its bottom with a parchment round and lightly oil the
+        parchment. The extra pan oil is separate from the full measured batter oil. When scaling,
+        keep a similar batter depth with proportional pan area or additional pans; do not put extra
+        full batches into this one pan.
     - id: wet
       title: Whisk the base
       text: >-
-        Whisk {{ingredients}} in a bowl until smooth and combined. This is the
-        batter sugar and full measured batter oil, separate from the pan oil and
-        sugar topping.
+        Whisk {{ingredients}} in a bowl until smooth and combined. This is the batter sugar and full
+        measured batter oil, separate from the pan oil and sugar topping.
     - id: flavor
       title: Add milk and lemon
-      text: >-
-        Whisk in {{ingredients}}, using the full zest and juice of the listed
-        lemons.
+      text: 'Whisk in {{ingredients}}, using the full zest and juice of the listed lemons.'
     - id: dry
       title: Mix dry ingredients
       text: 'In a separate bowl, whisk {{ingredients}} until evenly distributed.'
     - id: combine
       title: Combine
       text: >-
-        Make a well in the dry mixture and gradually whisk in the egg mixture,
-        using circular motions. Stop when mostly smooth with no dry flour
-        pockets; some small lumps are acceptable, but lumps are not required.
+        Make a well in the dry mixture and gradually whisk in the egg mixture, using circular
+        motions. Stop when mostly smooth with no dry flour pockets; some small lumps are acceptable,
+        but lumps are not required.
     - id: top
       title: Fill and top
       text: >-
-        Scrape into the prepared pan and smooth the surface. Sprinkle
-        {{ingredients}} over the top; this is additional to all the batter
-        sugar.
+        Scrape into the prepared pan and smooth the surface. Sprinkle {{ingredients}} over the top;
+        this is additional to all the batter sugar.
     - id: bake
       title: Bake
       text: >-
-        Wait for the oven to reach 350°F. Bake about 50 minutes, until golden on
-        top AND a tester inserted into the center comes out clean. Do not
-        deliberately remove a wet-batter cake to rely on residual heat. Changed
-        pan depths and oven loads need their own checks.
+        Wait for the oven to reach 350°F. Bake about 50 minutes, until golden on top AND a tester
+        inserted into the center comes out clean. Do not deliberately remove a wet-batter cake to
+        rely on residual heat. Changed pan depths and oven loads need their own checks.
     - id: cool
       title: Cool
       text: >-
-        Set the pan on a wire rack and let the cake cool completely before
-        unmolding. Cooling time is additional and has no fixed duration here.
+        Set the pan on a wire rack and let the cake cool completely before unmolding. Cooling time
+        is additional and has no fixed duration here.
     - id: finish
       title: Serve
-      text: >-
-        Just before serving, dust with {{ingredients}}, adding the extra zest
-        only if desired.
+      text: 'Just before serving, dust with {{ingredients}}, adding the extra zest only if desired.'
 learning:
   focus: Keeping oil and sugar allocations separate in a full-richness lemon cake.
-  outcome: >-
-    A fully baked lemon cake, cooled in its pan, with its separate sugar
-    topping.
+  outcome: 'A fully baked lemon cake, cooled in its pan, with its separate sugar topping.'
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      Use the original 9-inch springform for the original batch. The full
-      measured oil goes in the batter; additional unmeasured oil prepares the
-      pan.
+      Use the original 9-inch springform for the original batch. The full measured oil goes in the
+      batter; additional unmeasured oil prepares the pan.
     - >-
-      Batter sugar and surface sugar are separate amounts. Wash the listed
-      lemons and use their full zest and juice; extra serving zest is optional.
-    - >-
-      Do not taste raw batter. Wash hands and tools after handling raw flour or
-      eggs.
+      Batter sugar and surface sugar are separate amounts. Wash the listed lemons and use their full
+      zest and juice; extra serving zest is optional.
+    - Do not taste raw batter. Wash hands and tools after handling raw flour or eggs.
   checkpoints:
     - step: 6
-      cue: >-
-        All the batter is in the pan with the separate topping sugar on its
-        surface.
-      why: >-
-        Removing the topping from the batter sugar would reduce the defining
-        formula.
+      cue: All the batter is in the pan with the separate topping sugar on its surface.
+      why: Removing the topping from the batter sugar would reduce the defining formula.
     - step: 7
       cue: Golden top and a clean center tester.
       why: Surface color does not justify removing an underdone center.
     - step: 8
       cue: Cake is completely cool before unmolding.
-      why: >-
-        The written cooling step is part of service timing, even though its
-        duration is unmeasured.
+      why: 'The written cooling step is part of service timing, even though its duration is unmeasured.'
   troubleshooting:
     - problem: Cake sticks to the base.
       cause: Pan or parchment was not lightly oiled.
       fix: >-
-        Use the separate pan-oil allowance on both the pan and parchment; keep
-        the entire measured oil amount in the batter.
+        Use the separate pan-oil allowance on both the pan and parchment; keep the entire measured
+        oil amount in the batter.
     - problem: Center is wet although the top is golden.
       cause: Surface color was used as the only endpoint.
       fix: >-
-        Continue baking and recheck the center tester rather than relying on
-        residual heat to finish raw batter.
+        Continue baking and recheck the center tester rather than relying on residual heat to finish
+        raw batter.
   substitutions:
     - ingredient: Current sea salt
       alternative: >-
-        For the original batch, use either 1 tsp Diamond Crystal kosher salt or
-        ½ tsp Morton kosher salt instead of the entire listed sea-salt amount.
-        Scale the chosen amount with the batch and add it with the dry
-        ingredients; keep all other ingredients and steps unchanged.
+        For the original batch, use either 1 tsp Diamond Crystal kosher salt or ½ tsp Morton kosher
+        salt instead of the entire listed sea-salt amount. Scale the chosen amount with the batch
+        and add it with the dry ingredients; keep all other ingredients and steps unchanged.
       effect: >-
-        These are the two exact publisher choices, also retained in the saved
-        recipe. They are separate named-product options; no equivalent sea-salt
-        dose is established.
+        These are the two exact publisher choices, also retained in the saved recipe. They are
+        separate named-product options; no equivalent sea-salt dose is established.
   storage: >-
-    The plain cake can be baked three days ahead, cooled and stored tightly
-    wrapped at room temperature. Add powdered sugar and optional zest near
-    serving. Follow the separate storage needs of any perishable accompaniment.
+    The plain cake can be baked three days ahead, cooled and stored tightly wrapped at room
+    temperature. Add powdered sugar and optional zest near serving. Follow the separate storage
+    needs of any perishable accompaniment.
   timing: >-
-    Fifteen minutes of preparation plus about 50 minutes baking gives an
-    approximately 65-minute subtotal. Start preheating at setup; any oven
-    heating still needed before loading and all complete cooling extend elapsed
-    time. Twelve portions are the original-batch planning yield; the publisher
-    allows 10–12 cuts for that batch.
+    Fifteen minutes of preparation plus about 50 minutes baking gives an approximately 65-minute
+    subtotal. Start preheating at setup; any oven heating still needed before loading and all
+    complete cooling extend elapsed time. Twelve portions are the original-batch planning yield; the
+    publisher allows 10–12 cuts for that batch.
   sources:
-    - title: >-
-        Bon Appétit / Mina Stone — full formula, tester and three-day do-ahead
-        note
+    - title: 'Bon Appétit / Mina Stone — full formula, tester and three-day do-ahead note'
       url: 'https://www.bonappetit.com/recipe/super-lemony-olive-oil-cake'
     - title: FDA — handling raw batter and washing lemons
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: FDA — washing produce
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:

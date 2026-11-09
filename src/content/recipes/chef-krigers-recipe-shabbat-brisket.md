@@ -22,7 +22,6 @@ pairsWith:
   - honey-glazed-carrots
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
-  - '--- Brisket and sweet-savory sauce ---'
   - '4 1/2 lb first-cut beef brisket, one piece; keep track of the grain'
   - 'kosher salt, to taste'
   - 'black pepper, to taste'

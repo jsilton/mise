@@ -29,7 +29,6 @@ pairsWith:
   - tarragon-potatoes
   - garlic-bread
 ingredients:
-  - '--- Tart ingredients ---'
   - 2 cups all-purpose flour
   - 'all-purpose flour, for rolling'
   - '3/4 cup (6 oz) cold unsalted butter, cubed'
@@ -55,57 +54,47 @@ source: Adapted from foodandwine.com
 sourceUrl: 'https://www.foodandwine.com/recipes/tomato-and-goat-cheese-tart'
 learning:
   focus: 'Allocate pastry, roasting and filling ingredients proportionally'
-  outcome: >-
-    A set goat-cheese pastry shell with browned roasted tomatoes and a warm
-    cheese filling.
+  outcome: A set goat-cheese pastry shell with browned roasted tomatoes and a warm cheese filling.
   techniques:
     - temperature
   before:
     - >-
-      Pan dimensions and rolling circles describe the original batch. Multiples
-      need separate original-size pies or tarts; smaller batches need
-      appropriately smaller dishes with similar layer depth and earlier doneness
-      checks. Do not multiply temperatures or assume baking time scales with
-      ingredients.
+      Pan dimensions and rolling circles describe the original batch. Multiples need separate
+      original-size pies or tarts; smaller batches need appropriately smaller dishes with similar
+      layer depth and earlier doneness checks. Do not multiply temperatures or assume baking time
+      scales with ingredients.
     - >-
-      For the original batch reserve one-third of goat cheese for pastry and
-      two-thirds for filling; salt is divided into thirds, thyme and pepper into
-      halves, and oil into three-quarters for roasting and one-quarter for
-      assembly. The listed amounts govern at every scale.
+      For the original batch reserve one-third of goat cheese for pastry and two-thirds for filling;
+      salt is divided into thirds, thyme and pepper into halves, and oil into three-quarters for
+      roasting and one-quarter for assembly. The listed amounts govern at every scale.
     - >-
-      Check the tart pan permits the transition from the freezer to a 450°F
-      oven. Use foil for the blind-bake liner; ordinary 425°F-rated parchment is
-      not a 450°F liner.
+      Check the tart pan permits the transition from the freezer to a 450°F oven. Use foil for the
+      blind-bake liner; ordinary 425°F-rated parchment is not a 450°F liner.
   checkpoints:
     - step: 2
       cue: Tomato surfaces are dry to the touch and slices have visibly shrunk.
-      why: >-
-        Roasting before assembly removes some water before the tomatoes meet the
-        cheese and pastry.
+      why: Roasting before assembly removes some water before the tomatoes meet the cheese and pastry.
     - step: 4
       cue: The shell is set and just coloring at the edge after weighted baking.
       why: >-
-        This is a partial blind-bake, followed by a separate filling bake; it
-        does not need an invented extra unweighted stage.
+        This is a partial blind-bake, followed by a separate filling bake; it does not need an
+        invented extra unweighted stage.
   troubleshooting:
     - problem: Pastry breaks when the tart rim is removed
       cause: The tart is too hot or shell was damaged during handling.
       fix: >-
-        Give it the 20–30-minute cooling period and release the rim gently.
-        Serve broken portions from the pan; extra cooling cannot mend a torn
-        shell.
+        Give it the 20–30-minute cooling period and release the rim gently. Serve broken portions
+        from the pan; extra cooling cannot mend a torn shell.
   timing: >-
-    Allow about 2 hours 20 minutes to 3 hours: dough mixing and 30-minute
-    chilling, tomatoes 30–45 minutes overlapping the chill, roll/freeze 20
-    minutes, blind-bake 20–25 minutes, shell cooling 10 minutes,
-    filling/assembly, final bake 20–25 minutes and 20–30 minutes cooling. Oven
-    changes, extra sheets or tart rounds add time.
+    Allow about 2 hours 20 minutes to 3 hours: dough mixing and 30-minute chilling, tomatoes 30–45
+    minutes overlapping the chill, roll/freeze 20 minutes, blind-bake 20–25 minutes, shell cooling
+    10 minutes, filling/assembly, final bake 20–25 minutes and 20–30 minutes cooling. Oven changes,
+    extra sheets or tart rounds add time.
   substitutions: []
   storage: >-
-    Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F /
-    32°C, at 40°F / 4°C or below. Keep covered once cold. Use within 3–4 days,
-    or sooner if a dairy ingredient needs using sooner. For hot leftovers,
-    reheat the served portion to 165°F throughout; pastry will soften in
+    Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F / 32°C, at 40°F / 4°C or
+    below. Keep covered once cold. Use within 3–4 days, or sooner if a dairy ingredient needs using
+    sooner. For hot leftovers, reheat the served portion to 165°F throughout; pastry will soften in
     storage.
   sources:
     - title: Food & Wine — Tomato and Goat Cheese Tart
@@ -113,8 +102,7 @@ learning:
     - title: FDA — Safe food handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: Reynolds — Baking with parchment
-      url: >-
-        https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper
+      url: 'https://www.reynoldsbrands.com/tips-and-how-tos/tips-baking-parchment-paper'
   review:
     status: editorial-review
     date: '2026-10-06'
@@ -283,66 +271,57 @@ formula:
     - id: dough
       title: Make dough
       text: >-
-        Use {{ingredients}} for the pastry: pulse flour, baking powder, assigned
-        thyme and assigned salt together. Add all the cold butter and assigned
-        goat cheese and pulse until crumbly. Pulse in all vinegar, then the
-        ice-water supply gradually just until dough gathers; unused water may
-        remain. Form a disk, wrap and refrigerate at least 30 minutes.
+        Use {{ingredients}} for the pastry: pulse flour, baking powder, assigned thyme and assigned
+        salt together. Add all the cold butter and assigned goat cheese and pulse until crumbly.
+        Pulse in all vinegar, then the ice-water supply gradually just until dough gathers; unused
+        water may remain. Form a disk, wrap and refrigerate at least 30 minutes.
     - id: roast
       title: Roast tomatoes
       text: >-
-        Heat the oven to 425°F with racks in the upper and lower thirds. Divide
-        {{ingredients}} across two large rimmed sheets for the original batch,
-        spreading the slices without crowded piles and dividing the assigned
-        oil, salt and pepper over every sheet. Roast until slices shrink and
-        their surfaces are dry to the touch, beginning checks around 30 minutes
-        and often taking 30–45 minutes. Rotate sheets between racks halfway
-        through; extra sheets may require more oven rounds. Retain all tomato
-        slices and their oil for the tart.
+        Heat the oven to 425°F with racks in the upper and lower thirds. Divide {{ingredients}}
+        across two large rimmed sheets for the original batch, spreading the slices without crowded
+        piles and dividing the assigned oil, salt and pepper over every sheet. Roast until slices
+        shrink and their surfaces are dry to the touch, beginning checks around 30 minutes and often
+        taking 30–45 minutes. Rotate sheets between racks halfway through; extra sheets may require
+        more oven rounds. Retain all tomato slices and their oil for the tart.
     - id: shape
       title: Shape and freeze shell
       text: >-
-        Use {{ingredients}} lightly on the work surface. Roll dough to a 12-inch
-        circle about 1/4 inch thick for the original 11-inch removable-bottom
-        tart pan; press into the bottom and sides. Use suitable extra or smaller
-        pans when scaling, with similar pastry thickness and enough room for the
-        full filling. Freeze the shaped shell 20 minutes. Increase oven
+        Use {{ingredients}} lightly on the work surface. Roll dough to a 12-inch circle about 1/4
+        inch thick for the original 11-inch removable-bottom tart pan; press into the bottom and
+        sides. Use suitable extra or smaller pans when scaling, with similar pastry thickness and
+        enough room for the full filling. Freeze the shaped shell 20 minutes. Increase oven
         temperature to 450°F.
     - id: blind-bake
       title: Blind-bake
       text: >-
-        Put the tart pan on a rimmed baking sheet. Line the frozen shell with
-        foil and pie weights filling to the edge. Bake at 450°F for about 20–25
-        minutes until set and beginning to turn golden at the edges. Carefully
-        lift out weights and foil and cool about 10 minutes. Reduce the oven to
-        425°F. Do not replace foil with parchment unless that actual product is
-        rated for 450°F.
+        Put the tart pan on a rimmed baking sheet. Line the frozen shell with foil and pie weights
+        filling to the edge. Bake at 450°F for about 20–25 minutes until set and beginning to turn
+        golden at the edges. Carefully lift out weights and foil and cool about 10 minutes. Reduce
+        the oven to 425°F. Do not replace foil with parchment unless that actual product is rated
+        for 450°F.
     - id: filling
       title: Make cheese filling
       text: >-
-        Whisk all {{ingredients}} until combined. Scrape the entire mixture
-        across the baked shell; this uses every remaining portion of goat cheese
-        and thyme, not another full measured batch.
+        Whisk all {{ingredients}} until combined. Scrape the entire mixture across the baked shell;
+        this uses every remaining portion of goat cheese and thyme, not another full measured batch.
     - id: assemble
       title: Add tomatoes and finish seasoning
       text: >-
-        Arrange all the roasted tomato slices over the cheese, overlapping
-        slightly as needed. Divide all {{ingredients}} over the tomatoes. The
-        earlier roasting oil remains with the tomatoes; this is only the
-        reserved final oil and seasoning.
+        Arrange all the roasted tomato slices over the cheese, overlapping slightly as needed.
+        Divide all {{ingredients}} over the tomatoes. The earlier roasting oil remains with the
+        tomatoes; this is only the reserved final oil and seasoning.
     - id: bake
       title: Finish baking
       text: >-
-        Bake at 425°F, starting checks around 20–25 minutes for the original
-        tart, until the tomatoes and pastry are browned and the filling is hot.
-        Shield pastry if its edge colors early; actual pan depth and additional
-        tart rounds alter the clock.
+        Bake at 425°F, starting checks around 20–25 minutes for the original tart, until the
+        tomatoes and pastry are browned and the filling is hot. Shield pastry if its edge colors
+        early; actual pan depth and additional tart rounds alter the clock.
     - id: serve
       title: Cool and serve
       text: >-
-        Cool 20–30 minutes until just warm before releasing the removable rim
-        and slicing. Finish with {{ingredients}}. Refrigerate remaining portions
-        promptly.
+        Cool 20–30 minutes until just warm before releasing the removable rim and slicing. Finish
+        with {{ingredients}}. Refrigerate remaining portions promptly.
 ---
 
 ## Chef's Note

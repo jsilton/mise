@@ -33,7 +33,6 @@ pairsWith:
   - garlic-bread
   - avocado-kale-caesar-salad
 ingredients:
-  - '--- Main recipe ---'
   - 1 lb spaghetti
   - '3 lb live in-shell littleneck clams, scrubbed and rinsed'
   - 1/2 cup dry vermouth

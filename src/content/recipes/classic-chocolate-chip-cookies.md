@@ -185,61 +185,53 @@ formula:
     - id: brown
       title: Brown and cool the butter
       text: >-
-        Choose a saucepan with room for the butter to foam; use complete smaller
-        butter loads and combine all their contents if needed for a larger
-        batch. Melt {{ingredients}} over medium heat. Swirl and watch the milk
-        solids beneath the foam; when they are deep golden and smell toasted,
-        pour all the butter and browned solids into a mixing bowl. Cool until
-        solid but still soft enough to beat. Use the entire browned amount and
-        its solids.
+        Choose a saucepan with room for the butter to foam; use complete smaller butter loads and
+        combine all their contents if needed for a larger batch. Melt {{ingredients}} over medium
+        heat. Swirl and watch the milk solids beneath the foam; when they are deep golden and smell
+        toasted, pour all the butter and browned solids into a mixing bowl. Cool until solid but
+        still soft enough to beat. Use the entire browned amount and its solids.
     - id: cream
       title: Cream
       text: >-
-        Beat the cooled brown butter with {{ingredients}} until pale and fluffy,
-        about 3–5 minutes. Scrape the bowl so the browned solids are
-        distributed.
+        Beat the cooled brown butter with {{ingredients}} until pale and fluffy, about 3–5 minutes.
+        Scrape the bowl so the browned solids are distributed.
     - id: egg
       title: Add eggs and vanilla
-      text: >-
-        Beat in {{ingredients}}, adding the eggs one at a time and mixing until
-        combined.
+      text: 'Beat in {{ingredients}}, adding the eggs one at a time and mixing until combined.'
     - id: soda
       title: Add soda and salt
       text: >-
-        Use {{ingredients}}: stir the baking soda with the listed hot water,
-        then mix it and the salt into the butter mixture.
+        Use {{ingredients}}: stir the baking soda with the listed hot water, then mix it and the
+        salt into the butter mixture.
     - id: fold
       title: Finish the dough
       text: >-
-        Stir in {{ingredients}} until no dry flour remains and the chips and
-        seeds are evenly distributed. The seeds are already toasted.
+        Stir in {{ingredients}} until no dry flour remains and the chips and seeds are evenly
+        distributed. The seeds are already toasted.
     - id: chill
       title: Chill
       text: >-
-        Cover the dough and refrigerate promptly at 40°F / 4°C or below
-        overnight. Plan to portion and bake within 24 hours of mixing; keep
-        waiting dough refrigerated between oven loads.
+        Cover the dough and refrigerate promptly at 40°F / 4°C or below overnight. Plan to portion
+        and bake within 24 hours of mixing; keep waiting dough refrigerated between oven loads.
     - id: prep
       title: Prepare to bake
       text: >-
-        After the chill, preheat the oven to 350°F. Line baking sheets with
-        parchment. Portion the dough into evenly sized scoops, allowing about 2
-        inches between them. The listed count is an approximate cookie count;
-        scoop size determines how many you get. Use additional sheets and oven
-        loads for a larger batch, keeping scoop size and spacing consistent.
-        Wait for the oven to reach temperature before loading.
+        After the chill, preheat the oven to 350°F. Line baking sheets with parchment. Portion the
+        dough into evenly sized scoops, allowing about 2 inches between them. The listed count is an
+        approximate cookie count; scoop size determines how many you get. Use additional sheets and
+        oven loads for a larger batch, keeping scoop size and spacing consistent. Wait for the oven
+        to reach temperature before loading.
     - id: bake
       title: Bake
       text: >-
-        Bake for 10–12 minutes per oven load, until the edges are golden and the
-        centers have set but remain soft. Keep unbaked dough refrigerated
-        between loads.
+        Bake for 10–12 minutes per oven load, until the edges are golden and the centers have set
+        but remain soft. Keep unbaked dough refrigerated between loads.
     - id: finish
       title: Finish and cool
       text: >-
-        Sprinkle {{ingredients}} over the cookies immediately after baking.
-        Leave them on the sheet until firm enough to lift without breaking, then
-        transfer to a rack to cool completely before packing.
+        Sprinkle {{ingredients}} over the cookies immediately after baking. Leave them on the sheet
+        until firm enough to lift without breaking, then transfer to a rack to cool completely
+        before packing.
 learning:
   focus: 'Browning butter, then returning it to the right state for creaming.'
   outcome: 'Toasted butter flavor in cookies with golden edges and soft, set centers.'
@@ -249,75 +241,61 @@ learning:
     - cold-preparation
   before:
     - >-
-      Measure the butter before browning and retain the browned milk solids. The
-      listed hot water belongs to the soda mixture; it is not a replacement for
-      water lost during browning.
+      Measure the butter before browning and retain the browned milk solids. The listed hot water
+      belongs to the soda mixture; it is not a replacement for water lost during browning.
     - >-
-      Plan an overnight refrigerated rest and bake within 24 hours of mixing,
-      allowing additional time for butter cooling and cookie cooling. The listed
-      yield counts cookies, not people.
+      Plan an overnight refrigerated rest and bake within 24 hours of mixing, allowing additional
+      time for butter cooling and cookie cooling. The listed yield counts cookies, not people.
+    - Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.
     - >-
-      Do not taste raw dough; it contains raw flour and egg. Wash hands and
-      tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated
-      fraction; keep cookie dimensions and baking temperature fixed.
+      If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie
+      dimensions and baking temperature fixed.
   checkpoints:
     - step: 1
       cue: 'Deep golden solids, then a soft solid butter mixture after cooling.'
       why: >-
-        The solids carry the toasted flavor; liquid warm butter cannot be
-        creamed in the same way as a soft solid.
+        The solids carry the toasted flavor; liquid warm butter cannot be creamed in the same way as
+        a soft solid.
     - step: 5
-      cue: >-
-        No flour pockets and an even distribution of chips and already toasted
-        seeds.
-      why: >-
-        A thorough final fold distributes the inclusions without a second
-        toasting step.
+      cue: No flour pockets and an even distribution of chips and already toasted seeds.
+      why: A thorough final fold distributes the inclusions without a second toasting step.
     - step: 8
       cue: Golden edges and centers that have set while remaining soft.
       why: >-
-        A wet raw center is different from a soft baked center; the clock is a
-        starting check for evenly sized scoops.
+        A wet raw center is different from a soft baked center; the clock is a starting check for
+        evenly sized scoops.
   troubleshooting:
     - problem: Butter solids are dark or smell burnt.
       cause: The browning continued after the toasted stage.
       fix: >-
-        Stop heating when the solids turn deep golden and pour promptly into the
-        bowl; do not use burnt butter.
+        Stop heating when the solids turn deep golden and pour promptly into the bowl; do not use
+        burnt butter.
     - problem: Cookies break when moved.
       cause: Their centers are still fragile immediately after baking.
       fix: >-
-        Let them firm on the sheet before lifting to the rack; allow complete
-        cooling before packing.
+        Let them firm on the sheet before lifting to the rack; allow complete cooling before
+        packing.
   substitutions:
     - ingredient: Brown-butter sunflower dough
       alternative: Separate plain-butter walnut formula in Cooking Options
       effect: >-
-        Its larger flour and white-sugar amounts, extra hot water, nuts and
-        immediate baking are a different complete dough; the nut-free
-        designation applies to the sunflower main.
+        Its larger flour and white-sugar amounts, extra hot water, nuts and immediate baking are a
+        different complete dough; the nut-free designation applies to the sunflower main.
   storage: >-
-    Keep raw dough covered at 40°F / 4°C or below during the overnight rest and
-    between oven loads; plan to bake within 24 hours of mixing. Store fully
-    cooled baked cookies airtight; no measured shelf life is established for
-    this brown-butter adaptation. The plain-butter option has its own freezing
-    instructions in Cooking Options.
+    Keep raw dough covered at 40°F / 4°C or below during the overnight rest and between oven loads;
+    plan to bake within 24 hours of mixing. Store fully cooled baked cookies airtight; no measured
+    shelf life is established for this brown-butter adaptation. The plain-butter option has its own
+    freezing instructions in Cooking Options.
   timing: >-
-    The 20-minute preparation figure is a planning allowance, not a measured
-    browning or cooling time. Plan an overnight dough rest and baking within 24
-    hours of mixing. Allow 10–12 minutes for each oven load, butter cooling
-    until soft-solid, time for the oven to reach 350°F and final rack cooling;
-    larger batches and cooling extend elapsed time.
+    The 20-minute preparation figure is a planning allowance, not a measured browning or cooling
+    time. Plan an overnight dough rest and baking within 24 hours of mixing. Allow 10–12 minutes for
+    each oven load, butter cooling until soft-solid, time for the oven to reach 350°F and final rack
+    cooling; larger batches and cooling extend elapsed time.
   sources:
-    - title: >-
-        Allrecipes — original plain-butter dough and its separate make-ahead
-        option
+    - title: Allrecipes — original plain-butter dough and its separate make-ahead option
       url: 'https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/'
     - title: FDA — raw flour and dough handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
   review:
     status: editorial-review
     date: '2026-10-06'

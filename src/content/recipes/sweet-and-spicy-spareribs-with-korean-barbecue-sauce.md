@@ -29,10 +29,9 @@ pairsWith:
   - fresh-cabbage-cucumber-and-radish-kimchi
   - seasoned-bean-sprouts
 ingredients:
-  - '--- Ribs and current sauce ---'
   - >-
-    8 lb pork spareribs, thawed in the refrigerator, membranes removed; original
-    source about 3 racks, actual rack sizes vary
+    8 lb pork spareribs, thawed in the refrigerator, membranes removed; original source about 3
+    racks, actual rack sizes vary
   - 1 cup gochujang
   - 1/2 cup hoisin sauce
   - 1/2 cup honey
@@ -48,78 +47,62 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 source: Adapted from Foodandwine.com
-sourceUrl: >-
-  http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce
+sourceUrl: 'http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce'
 learning:
   focus: Separate tenderness cooking from glaze finishing
-  outcome: >-
-    Tender ribs still hold together while a sticky glaze caramelizes without a
-    burnt bitter surface.
+  outcome: Tender ribs still hold together while a sticky glaze caramelizes without a burnt bitter surface.
   techniques:
     - braising
     - browning
     - temperature
   before:
     - >-
-      Thaw ribs in the refrigerator and plan foil packets and rimmed baking
-      sheets for the actual racks.
+      Thaw ribs in the refrigerator and plan foil packets and rimmed baking sheets for the actual
+      racks.
+    - Reserve the clean grilling sauce and separate utensils before raw meat contact.
     - >-
-      Reserve the clean grilling sauce and separate utensils before raw meat
-      contact.
-    - >-
-      The original ten portions and three racks/about eight pounds are planning;
-      actual rack dimensions and oven/grill area govern loads.
+      The original ten portions and three racks/about eight pounds are planning; actual rack
+      dimensions and oven/grill area govern loads.
   checkpoints:
     - step: 3
-      cue: >-
-        Thick meat is checked away from bone and is tender while still holding
-        together.
+      cue: Thick meat is checked away from bone and is tender while still holding together.
       why: >-
-        Minimum pork temperature and connective-tissue tenderness are different
-        checks; time alone establishes neither.
+        Minimum pork temperature and connective-tissue tenderness are different checks; time alone
+        establishes neither.
     - step: 5
       cue: Glaze bubbles and caramelizes without blackening.
-      why: >-
-        Honey and the other sweet sauces can scorch before a crowded grill load
-        is evenly finished.
+      why: Honey and the other sweet sauces can scorch before a crowded grill load is evenly finished.
   troubleshooting:
     - problem: Glaze darkens too quickly
-      cause: >-
-        Heat is too high, sauce too thick on the surface or the grill has hot
-        spots.
+      cause: 'Heat is too high, sauce too thick on the surface or the grill has hot spots.'
       fix: >-
-        Move the ribs away from the hottest area, turn and brush lightly with a
-        clean working sauce portion. Burnt sauce cannot be reversed by more
-        honey or vinegar.
+        Move the ribs away from the hottest area, turn and brush lightly with a clean working sauce
+        portion. Burnt sauce cannot be reversed by more honey or vinegar.
   timing: >-
-    About 30 minutes active preparation, roughly 2 hours foil baking and 3–4
-    minutes per side for each current grill load, plus a 3-minute final rest.
-    Tenderness checks, preheating and additional oven/grill loads can extend the
-    original 2½–3-hour elapsed plan. The source high-heat version uses a
-    separate about-4-minute total first check; it is not the current per-side
+    About 30 minutes active preparation, roughly 2 hours foil baking and 3–4 minutes per side for
+    each current grill load, plus a 3-minute final rest. Tenderness checks, preheating and
+    additional oven/grill loads can extend the original 2½–3-hour elapsed plan. The source high-heat
+    version uses a separate about-4-minute total first check; it is not the current per-side
     schedule.
   storage: >-
-    Divide cooked leftovers into shallow portions and refrigerate within 2
-    hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4
-    days or freeze promptly; reheat to 165°F / 74°C throughout, checking the
-    center and more than one portion. The source overnight-after-baking plan is
-    retained with measured reheating before glazing. Reheat retained leftover
-    sauce while stirring to 165°F throughout; USDA additionally recommends a
-    rolling boil for sauces. Keep boiling brief, since prolonged boiling
-    concentrates this sweet glaze and can scorch it. This is leftover handling,
-    not an initial-cook instruction or a new dilution/fat-reduction formula.
+    Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F /
+    74°C throughout, checking the center and more than one portion. The source
+    overnight-after-baking plan is retained with measured reheating before glazing. Reheat retained
+    leftover sauce while stirring to 165°F throughout; USDA additionally recommends a rolling boil
+    for sauces. Keep boiling brief, since prolonged boiling concentrates this sweet glaze and can
+    scorch it. This is leftover handling, not an initial-cook instruction or a new
+    dilution/fat-reduction formula.
   sources:
     - title: Whole pork and leftover endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: Clean reserved marinade
       url: 'https://ask.fsis.usda.gov/article/Can-you-reuse-meat-marinade'
     - title: USDA cooling and sauce reheating
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
     - title: Mei Lin ribs and make-ahead option
-      url: >-
-        http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce
+      url: 'http://www.foodandwine.com/recipes/sweet-and-spicy-spareribs-korean-barbecue-sauce'
   review:
     status: editorial-review
     date: '2026-10-06'
@@ -142,8 +125,8 @@ formula:
             - step: pack
               share: 1
           preparation: >-
-            thawed in the refrigerator, membranes removed; original source about
-            3 racks, actual rack sizes vary
+            thawed in the refrigerator, membranes removed; original source about 3 racks, actual
+            rack sizes vary
         - id: gochujang
           key: gochujang
           name: gochujang
@@ -239,55 +222,49 @@ formula:
     - id: sauce
       title: Mix and reserve clean sauce
       text: >-
-        Whisk {{ingredients}} together. Before touching raw ribs, divide the
-        sauce into a baking portion and a separate clean glazing portion. Keep
-        the glazing portion covered and refrigerated until needed; use separate
-        clean utensils for it. For the original roughly three-rack batch, the
-        baking portion was 3/4 cup per rack, with the remaining sauce reserved
-        for the grill. Rack sizes and finished sauce volume vary: scale the
-        whole recipe together and distribute its baking portion across the
-        actual ribs, retaining sauce for glazing.
+        Whisk {{ingredients}} together. Before touching raw ribs, divide the sauce into a baking
+        portion and a separate clean glazing portion. Keep the glazing portion covered and
+        refrigerated until needed; use separate clean utensils for it. For the original roughly
+        three-rack batch, the baking portion was 3/4 cup per rack, with the remaining sauce reserved
+        for the grill. Rack sizes and finished sauce volume vary: scale the whole recipe together
+        and distribute its baking portion across the actual ribs, retaining sauce for glazing.
     - id: pack
       title: Wrap the ribs
       text: >-
-        Preheat the oven to 325°F. Prepare {{ingredients}}. Lay double layers of
-        heavy-duty foil for each actual rack or section and set the meat
-        meaty-side up. Brush with the baking sauce portion without returning a
-        raw-contact brush to the clean glaze. Wrap tightly and arrange on enough
-        rimmed baking sheets to support the packets and catch leaks; the
-        original used two large sheets. More ribs need more packets and oven
-        loads, not a fixed three-packet instruction.
+        Preheat the oven to 325°F. Prepare {{ingredients}}. Lay double layers of heavy-duty foil for
+        each actual rack or section and set the meat meaty-side up. Brush with the baking sauce
+        portion without returning a raw-contact brush to the clean glaze. Wrap tightly and arrange
+        on enough rimmed baking sheets to support the packets and catch leaks; the original used two
+        large sheets. More ribs need more packets and oven loads, not a fixed three-packet
+        instruction.
     - id: bake
       title: Bake until tender
       text: >-
-        Bake about 2 hours as a first check, continuing until the meat is tender
-        but still holds to the bones. Check thick meat away from bone with a
-        thermometer: whole pork must reach at least 145°F before heat removal,
-        and ultimately rest at least 3 minutes before eating; tenderness may
-        need much more cooking than that minimum. Open foil carefully away from
-        your face. Keep foil juices separate from the clean glazing sauce.
+        Bake about 2 hours as a first check, continuing until the meat is tender but still holds to
+        the bones. Check thick meat away from bone with a thermometer: whole pork must reach at
+        least 145°F before heat removal, and ultimately rest at least 3 minutes before eating;
+        tenderness may need much more cooking than that minimum. Open foil carefully away from your
+        face. Keep foil juices separate from the clean glazing sauce.
     - id: portion
       title: Prepare for the grill
       text: >-
-        Preheat the grill to medium-low. Unwrap the ribs, wipe off excess
-        marinade and cut into 4-rib sections as the current version does. Use
-        enough grill area or successive loads so the pieces are easy to turn.
+        Preheat the grill to medium-low. Unwrap the ribs, wipe off excess marinade and cut into
+        4-rib sections as the current version does. Use enough grill area or successive loads so the
+        pieces are easy to turn.
     - id: glaze
       title: Glaze without scorching
       text: >-
-        Brush lightly with the clean reserved sauce and grill about 3–4 minutes
-        per side as a first check, turning and watching until the glaze
-        caramelizes without burning. Keep utensils that touch the cooked ribs
-        out of the clean sauce bowl, using a separate small working portion for
-        brushing. The char and clock do not replace the meat endpoint. Discard
-        any remaining contaminated working sauce.
+        Brush lightly with the clean reserved sauce and grill about 3–4 minutes per side as a first
+        check, turning and watching until the glaze caramelizes without burning. Keep utensils that
+        touch the cooked ribs out of the clean sauce bowl, using a separate small working portion
+        for brushing. The char and clock do not replace the meat endpoint. Discard any remaining
+        contaminated working sauce.
     - id: serve
       title: Rest and serve
       text: >-
-        Transfer to a platter and rest at least 3 minutes after the final heat
-        before eating. Serve with {{ingredients}}. Keep any unused clean sauce
-        separate; do not serve raw-contact marinade or unheated foil juices as
-        extra sauce.
+        Transfer to a platter and rest at least 3 minutes after the final heat before eating. Serve
+        with {{ingredients}}. Keep any unused clean sauce separate; do not serve raw-contact
+        marinade or unheated foil juices as extra sauce.
 ---
 
 ## Chef's Note

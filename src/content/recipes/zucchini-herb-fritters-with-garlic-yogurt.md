@@ -61,8 +61,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from Bonappetit.com
-sourceUrl: >-
-  http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp
+sourceUrl: 'http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp'
 formula:
   version: 1
   yield:
@@ -323,130 +322,105 @@ formula:
   steps:
     - id: sauce
       title: Make yogurt
-      text: >-
-        Whisk {{ingredients}} in a clean bowl. Cover and refrigerate while
-        making the fritters.
+      text: 'Whisk {{ingredients}} in a clean bowl. Cover and refrigerate while making the fritters.'
     - id: drain
       title: Drain vegetables
       text: >-
-        Toss {{ingredients}} in a sieve set over a bowl and stand 30–40 minutes.
-        Gather in portions in a clean towel and squeeze out excess liquid; the
-        vegetables need not become bone dry.
+        Toss {{ingredients}} in a sieve set over a bowl and stand 30–40 minutes. Gather in portions
+        in a clean towel and squeeze out excess liquid; the vegetables need not become bone dry.
     - id: mix
       title: Mix binder
       text: >-
-        Mix {{ingredients}}, then add all the squeezed vegetables. Keep this
-        raw-egg mixture and utensils away from the cold yogurt and finished
-        fritters.
+        Mix {{ingredients}}, then add all the squeezed vegetables. Keep this raw-egg mixture and
+        utensils away from the cold yogurt and finished fritters.
     - id: bind
       title: Bind
       text: 'Sprinkle {{ingredients}} over the vegetable-egg mixture and mix gently.'
     - id: fry
       title: Fry batches
       text: >-
-        Heat {{ingredients}} in a suitable large skillet over medium-high until
-        hot but not smoking. The listed supply does not guarantee ½-inch depth.
-        Fry flattened scoops in uncrowded batches, with a ¼-cup scoop as an
-        optional size reference. Start checking around 3 minutes per side,
-        adjusting heat as needed; finish when golden with set centers at 160°F /
-        71°C, sampling representative fritters with a thin probe. Keep remaining
-        raw batter refrigerated during extended batches.
+        Heat {{ingredients}} in a suitable large skillet over medium-high until hot but not smoking.
+        The listed supply does not guarantee ½-inch depth. Fry flattened scoops in uncrowded
+        batches, with a ¼-cup scoop as an optional size reference. Start checking around 3 minutes
+        per side, adjusting heat as needed; finish when golden with set centers at 160°F / 71°C,
+        sampling representative fritters with a thin probe. Keep remaining raw batter refrigerated
+        during extended batches.
     - id: serve
       title: Drain and serve
       text: >-
-        Drain cooked fritters on a clean rack. Use {{ingredients}} as desired;
-        serve the warm fritters with the cold garlic yogurt.
+        Drain cooked fritters on a clean rack. Use {{ingredients}} as desired; serve the warm
+        fritters with the cold garlic yogurt.
 learning:
   focus: Keep sauce and batter allocations separate
-  outcome: >-
-    Fritters with cooked centers and a cold garlic-yogurt sauce carrying its
-    full rich ingredients.
+  outcome: Fritters with cooked centers and a cold garlic-yogurt sauce carrying its full rich ingredients.
   techniques:
     - seasoning
     - temperature
     - cold-preparation
   before:
     - >-
-      Make the yogurt separately and keep it cold while the grated vegetables
-      drain. The full sauce supplies stay separate from the batter garlic and
-      herbs.
+      Make the yogurt separately and keep it cold while the grated vegetables drain. The full sauce
+      supplies stay separate from the batter garlic and herbs.
     - >-
-      The original recipe gives about 12 portions without a fixed scoop size; a
-      ¼-cup scoop can be used as a practical portion reference, but actual count
-      depends on vegetable size and squeezed yield.
-    - >-
-      The listed frying oil is a supply, not a guarantee of ½-inch depth in
-      every skillet.
+      The original recipe gives about 12 portions without a fixed scoop size; a ¼-cup scoop can be
+      used as a practical portion reference, but actual count depends on vegetable size and squeezed
+      yield.
+    - 'The listed frying oil is a supply, not a guarantee of ½-inch depth in every skillet.'
   checkpoints:
     - step: 2
-      cue: >-
-        Liquid has drained and the squeezed vegetables no longer release a
-        stream.
-      why: >-
-        Excess liquid weakens the binder; “bone dry” is not a realistic required
-        state.
+      cue: Liquid has drained and the squeezed vegetables no longer release a stream.
+      why: Excess liquid weakens the binder; “bone dry” is not a realistic required state.
     - step: 5
       cue: Golden surfaces and cooked egg-bound centers at 160°F / 71°C.
-      why: >-
-        Three minutes per side is only a first check for the actual scoop and
-        pan heat.
+      why: Three minutes per side is only a first check for the actual scoop and pan heat.
   troubleshooting:
     - problem: Mixture spreads and fries unevenly.
       cause: Excess vegetable liquid or very thick scoops.
       fix: >-
-        Drain/squeeze the remaining vegetables well before mixing and flatten
-        remaining scoops; adjust heat so centers finish before outsides burn.
+        Drain/squeeze the remaining vegetables well before mixing and flatten remaining scoops;
+        adjust heat so centers finish before outsides burn.
   substitutions:
     - ingredient: Yogurt sauce
       alternative: >-
-        For the lighter mint-yogurt option, use the same full listed yogurt
-        amount, half the listed sauce lemon juice and half its mint; omit the
-        sauce olive oil, honey and sauce garlic entirely. Keep the separate
-        batter garlic, full parsley and batter mint, full egg/flour binder and
-        frying supplies. Whisk this mint yogurt separately and refrigerate; do
-        not send its herbs into the batter.
+        For the lighter mint-yogurt option, use the same full listed yogurt amount, half the listed
+        sauce lemon juice and half its mint; omit the sauce olive oil, honey and sauce garlic
+        entirely. Keep the separate batter garlic, full parsley and batter mint, full egg/flour
+        binder and frying supplies. Whisk this mint yogurt separately and refrigerate; do not send
+        its herbs into the batter.
       effect: >-
-        The original-batch sauce option is ½ cup yogurt,1 Tb lemon and 1 Tb
-        mint. It is less rich than the full garlic-yogurt version and lacks its
-        honey and separate garlic.
+        The original-batch sauce option is ½ cup yogurt,1 Tb lemon and 1 Tb mint. It is less rich
+        than the full garlic-yogurt version and lacks its honey and separate garlic.
     - ingredient: Frying-oil depth
       alternative: >-
-        For the separate ½-inch pan-depth version, use vegetable oil as needed
-        to reach that depth in a suitable deep skillet instead of claiming the
-        listed ½-cup oil always produces it. Keep the full fritter batter and
-        cooked-center checks; do not add both alternative frying supplies to one
-        shopping total.
+        For the separate ½-inch pan-depth version, use vegetable oil as needed to reach that depth
+        in a suitable deep skillet instead of claiming the listed ½-cup oil always produces it. Keep
+        the full fritter batter and cooked-center checks; do not add both alternative frying
+        supplies to one shopping total.
       effect: >-
-        Required oil depends on the actual vessel; no measured absorption or
-        fixed depth equivalence is supplied.
+        Required oil depends on the actual vessel; no measured absorption or fixed depth equivalence
+        is supplied.
   timing: >-
-    About 15 minutes active preparation overlaps the 30–40-minute salting rest.
-    Batch frying adds roughly 15–25 minutes or more for the actual load; plan
-    about 50–70 minutes elapsed.
+    About 15 minutes active preparation overlaps the 30–40-minute salting rest. Batch frying adds
+    roughly 15–25 minutes or more for the actual load; plan about 50–70 minutes elapsed.
   storage: >-
-    Keep garlic yogurt refrigerated at 40°F / 4°C or below and use within 3–4
-    days; its lemon/honey mixture is not a validated preservation process. Cook
-    raw-egg batter promptly, or refrigerate and cook within 24 hours.
-    Refrigerate finished fritters in shallow containers within 2 hours (1 hour
-    above 90°F / 32°C), use within 3–4 days or freeze promptly, and reheat to
-    165°F / 74°C. Reheating does not guarantee the original crispness.
+    Keep garlic yogurt refrigerated at 40°F / 4°C or below and use within 3–4 days; its lemon/honey
+    mixture is not a validated preservation process. Cook raw-egg batter promptly, or refrigerate
+    and cook within 24 hours. Refrigerate finished fritters in shallow containers within 2 hours (1
+    hour above 90°F / 32°C), use within 3–4 days or freeze promptly, and reheat to 165°F / 74°C.
+    Reheating does not guarantee the original crispness.
   sources:
     - title: FDA produce preparation
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
     - title: FoodSafety.gov cold handling and leftovers
       url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
     - title: FDA egg safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
     - title: CDC garlic and herb oils
       url: 'https://www.cdc.gov/botulism/prevention/index.html'
     - title: USDA raw egg dish handling
-      url: >-
-        https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely
+      url: 'https://ask.fsis.usda.gov/article/How-do-you-handle-and-store-eggs-safely'
     - title: Bon Appétit fritters
-      url: >-
-        http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp
+      url: 'http://www.bonappetit.com/recipe/zucchini-herb-fritters-with-garlic-yogurt?intcid=inline_amp'
   review:
     status: editorial-review
     date: '2026-10-06'

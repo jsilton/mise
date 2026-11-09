@@ -24,7 +24,6 @@ pairsWith:
   - smashed-cucumber-salad
   - sesame-tomato-salad
 ingredients:
-  - '--- Beef and marinade ---'
   - >-
     1 lb ribeye beef, raw, fresh or fully thawed; very thinly sliced, unseasoned for the homemade
     marinade

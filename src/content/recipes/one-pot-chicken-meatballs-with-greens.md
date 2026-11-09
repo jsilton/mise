@@ -46,9 +46,7 @@ ingredients:
   - 'olive oil, as needed to coat palms'
   - 'additional olive oil, as needed if the pan dries during browning'
   - '--- Greens and lemon ---'
-  - >-
-    1 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch
-    ribbons
+  - '1 lb Swiss chard, washed; tender stalks sliced and leaves cut into 1-inch ribbons'
   - '1 lemon, washed; half thinly sliced and half reserved for finishing juice'
   - 1/4 cup extra-virgin olive oil
   - 1 tsp ground cumin
@@ -214,129 +212,113 @@ formula:
     - id: mix
       title: Mix gently
       text: >-
-        Combine all {{ingredients}} in a bowl, mixing just until evenly
-        combined. The oregano and red pepper belong to this mixture; reserve
-        cumin for the greens. Keep the raw chicken mixture cold if preparation
-        pauses and do not taste it raw.
+        Combine all {{ingredients}} in a bowl, mixing just until evenly combined. The oregano and
+        red pepper belong to this mixture; reserve cumin for the greens. Keep the raw chicken
+        mixture cold if preparation pauses and do not taste it raw.
     - id: shape
       title: Shape meatballs
       text: >-
-        Use {{ingredients}} to lightly coat your palms, refreshing the coating
-        as needed, and form all the mixture into uniform balls about 2 inches
-        across. The original batch plans about 14 meatballs; at other batch
-        sizes keep the size similar and use the entire mixture rather than
+        Use {{ingredients}} to lightly coat your palms, refreshing the coating as needed, and form
+        all the mixture into uniform balls about 2 inches across. The original batch plans about 14
+        meatballs; at other batch sizes keep the size similar and use the entire mixture rather than
         holding the count fixed.
     - id: sear
       title: Brown meatballs
       text: >-
-        Use a heavy pot with a tight lid and a broad base; the original route
-        uses a 12-inch Dutch oven. Heat over medium, then use {{ingredients}},
-        starting with half of the measured oil supply and adding the separate
-        unmeasured browning allowance only if needed. Add the meatballs without
-        crowding and turn gently when they release, about 7 minutes for initial
-        browning. This is not their final temperature check. Use additional
-        cooking vessels when the complete batch and greens cannot fit; divide
-        the whole measured formula proportionally.
+        Use a heavy pot with a tight lid and a broad base; the original route uses a 12-inch Dutch
+        oven. Heat over medium, then use {{ingredients}}, starting with half of the measured oil
+        supply and adding the separate unmeasured browning allowance only if needed. Add the
+        meatballs without crowding and turn gently when they release, about 7 minutes for initial
+        browning. This is not their final temperature check. Use additional cooking vessels when the
+        complete batch and greens cannot fit; divide the whole measured formula proportionally.
     - id: toss
       title: Dress greens
       text: >-
-        Meanwhile, in a clean bowl toss all {{ingredients}}, using the remaining
-        half of the measured oil and half the measured lemons as thin slices.
-        Scrunch the leaves to coat; reserve the other lemon half for serving.
+        Meanwhile, in a clean bowl toss all {{ingredients}}, using the remaining half of the
+        measured oil and half the measured lemons as thin slices. Scrunch the leaves to coat;
+        reserve the other lemon half for serving.
     - id: cover
       title: Cover with greens
       text: >-
-        Pile all the dressed greens and lemon slices directly over all the
-        browned meatballs. Cover tightly and cook over medium for about 12–15
-        minutes as an initial estimate. The covered greens release moisture to
-        finish cooking the meatballs.
+        Pile all the dressed greens and lemon slices directly over all the browned meatballs. Cover
+        tightly and cook over medium for about 12–15 minutes as an initial estimate. The covered
+        greens release moisture to finish cooking the meatballs.
     - id: check
       title: Check centers
       text: >-
-        Continue covered cooking until meatball centers reach 165°F / 74°C and
-        the greens and tender stalks have softened. Check large meatballs and
-        different pot positions with a thermometer; browning alone does not
-        establish the endpoint. Extra loads or a deeper mound of greens can take
-        longer.
+        Continue covered cooking until meatball centers reach 165°F / 74°C and the greens and tender
+        stalks have softened. Check large meatballs and different pot positions with a thermometer;
+        browning alone does not establish the endpoint. Extra loads or a deeper mound of greens can
+        take longer.
     - id: serve
       title: Scoop and finish
       text: >-
-        Scoop the meatballs and greens onto plates, spooning all the cooking
-        juices over them. Use all {{ingredients}} for the finish: squeeze the
-        reserved lemon juice over the portions. Use clean serving utensils.
+        Scoop the meatballs and greens onto plates, spooning all the cooking juices over them. Use
+        all {{ingredients}} for the finish: squeeze the reserved lemon juice over the portions. Use
+        clean serving utensils.
 learning:
   focus: Finish browned meatballs beneath a covered mound of greens
-  outcome: >-
-    Browned meatballs with cooked centers, tender chard and lemony juices
-    spooned over both.
+  outcome: 'Browned meatballs with cooked centers, tender chard and lemony juices spooned over both.'
   techniques:
     - temperature
   before:
     - >-
-      Use a heavy, broad pot with a tight lid and room for the meatballs and the
-      whole mound of greens. The original 12-inch pot is a reference, not a
-      guarantee for every vessel or scaled batch.
+      Use a heavy, broad pot with a tight lid and room for the meatballs and the whole mound of
+      greens. The original 12-inch pot is a reference, not a guarantee for every vessel or scaled
+      batch.
     - >-
-      Keep the measured oil separate from the extra allowances: half browns the
-      meatballs and half coats the greens. The original measured total is a
-      quarter cup; use the amount on the scaled list. Oil for your palms and
-      extra browning is additional as needed.
+      Keep the measured oil separate from the extra allowances: half browns the meatballs and half
+      coats the greens. The original measured total is a quarter cup; use the amount on the scaled
+      list. Oil for your palms and extra browning is additional as needed.
     - >-
-      The original batch uses one teaspoon mixing salt; follow the scaled list.
-      The greens have a separate seasoning allowance. Salt crystal size was not
-      specified, so avoid assuming equivalent spoon volumes across salt types.
+      The original batch uses one teaspoon mixing salt; follow the scaled list. The greens have a
+      separate seasoning allowance. Salt crystal size was not specified, so avoid assuming
+      equivalent spoon volumes across salt types.
   checkpoints:
     - step: 3
-      cue: >-
-        The meatballs release and show golden patches without being forced
-        loose.
+      cue: The meatballs release and show golden patches without being forced loose.
       why: A gentle turn preserves the soft yogurt-panko mixture.
     - step: 6
       cue: Meatball centers reach 165°F / 74°C and chard stalks are tender.
-      why: >-
-        Covered cooking finishes the raw centers while the greens supply
-        moisture.
+      why: Covered cooking finishes the raw centers while the greens supply moisture.
   troubleshooting:
     - problem: Meatballs stick or break while turning
       cause: They were moved before releasing or the pan dried.
       fix: >-
-        Allow the surface to set, ease them loose gently and use the listed
-        additional oil if needed. Do not vigorously toss the soft mixture.
+        Allow the surface to set, ease them loose gently and use the listed additional oil if
+        needed. Do not vigorously toss the soft mixture.
   substitutions:
     - ingredient: Plain Greek yogurt
       alternative: >-
-        For the richer option, use the same measured volume of full-fat thick
-        Greek or Icelandic-style yogurt.
+        For the richer option, use the same measured volume of full-fat thick Greek or
+        Icelandic-style yogurt.
       effect: >-
-        This retains the thick-yogurt binder and adds richness without changing
-        the panko or measured olive oil.
+        This retains the thick-yogurt binder and adds richness without changing the panko or
+        measured olive oil.
     - ingredient: Scallions and chard
       alternative: >-
-        Use scallion white/light-green parts and rainbow chard with its tender
-        stalks, at the same full listed amounts.
+        Use scallion white/light-green parts and rainbow chard with its tender stalks, at the same
+        full listed amounts.
       effect: >-
-        This changes the greens and scallion flavor while preserving both
-        ingredient totals and stages.
+        This changes the greens and scallion flavor while preserving both ingredient totals and
+        stages.
     - ingredient: Finishing lemon half
       alternative: >-
-        Cut the reserved finishing half into wedges and pass all the wedges at
-        the table instead of squeezing it over the dish.
+        Cut the reserved finishing half into wedges and pass all the wedges at the table instead of
+        squeezing it over the dish.
       effect: >-
-        Each person controls the final lemon; the other half remains sliced in
-        the covered greens stage.
+        Each person controls the final lemon; the other half remains sliced in the covered greens
+        stage.
   timing: >-
-    Allow about 40 minutes for the original batch, including 15 minutes
-    preparation and 25 minutes cooking/finishing. Toss the greens during the
-    initial roughly 7-minute browning; the covered 12–15-minute stage follows.
-    Active work includes mixing, shaping, browning and serving; most covered
-    cooking is unattended. Larger batches or additional vessels extend elapsed
-    time.
+    Allow about 40 minutes for the original batch, including 15 minutes preparation and 25 minutes
+    cooking/finishing. Toss the greens during the initial roughly 7-minute browning; the covered
+    12–15-minute stage follows. Active work includes mixing, shaping, browning and serving; most
+    covered cooking is unattended. Larger batches or additional vessels extend elapsed time.
   storage: >-
-    Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F /
-    32°C, at 40°F / 4°C or below. Store cooked meatballs, greens and juices
-    together for up to 3–4 days. Reheat to 165°F / 74°C throughout, checking
-    meatball centers and stirring the juices; prolonged reheating softens the
-    greens.
+    Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or
+    below. Store cooked meatballs, greens and juices together for up to 3–4 days. Reheat to 165°F /
+    74°C throughout, checking meatball centers and stirring the juices; prolonged reheating softens
+    the greens.
   sources:
     - title: NYT chicken meatballs with greens
       url: >-

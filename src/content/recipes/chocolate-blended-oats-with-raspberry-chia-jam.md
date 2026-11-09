@@ -49,8 +49,8 @@ ingredients:
   - 1/8 tsp sea salt
   - '--- Chocolate cap ---'
   - >-
-    2 oz dark chocolate, melt gently according to package or appliance
-    instructions; let excessive heat subside
+    2 oz dark chocolate, melt gently according to package or appliance instructions; let excessive
+    heat subside
 source: Adapted from glow-diaries.com
 sourceUrl: 'https://glow-diaries.com/choc-blended-oats/'
 formula:
@@ -167,98 +167,86 @@ formula:
           uses:
             - step: cap
               share: 1
-          preparation: >-
-            melt gently according to package or appliance instructions; let
-            excessive heat subside
+          preparation: melt gently according to package or appliance instructions; let excessive heat subside
   steps:
     - id: jam
       title: Make jam
       text: >-
-        Use {{ingredients}} for the jam. Heat the berries first in a
-        microwave-safe bowl, stirring and following any cooking instructions on
-        the frozen-berry package. Once they have softened to a compote, stir in
-        all the jam chia. Let the chia thicken for about 5 minutes. Allow the
-        jam’s excessive heat to subside before layering; refrigerate promptly in
-        a shallow container if assembly is delayed.
+        Use {{ingredients}} for the jam. Heat the berries first in a microwave-safe bowl, stirring
+        and following any cooking instructions on the frozen-berry package. Once they have softened
+        to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the
+        jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container
+        if assembly is delayed.
     - id: blend
       title: Blend oats
       text: >-
-        Combine {{ingredients}} in the blender. Blend until mostly smooth,
-        starting low and increasing only as the appliance allows; about 60
-        seconds is a reference, not a universal endpoint. Stop the motor before
-        scraping. For a scaled batch, follow the blender’s actual fill limit and
-        divide every base ingredient proportionally between loads, then
-        recombine.
+        Combine {{ingredients}} in the blender. Blend until mostly smooth, starting low and
+        increasing only as the appliance allows; about 60 seconds is a reference, not a universal
+        endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual
+        fill limit and divide every base ingredient proportionally between loads, then recombine.
     - id: layer
       title: Layer
       text: >-
-        Divide all the jam and blended base among roomy containers, putting jam
-        below the oats. The original batch makes four planned portions; use
-        enough container capacity for the full mixture and chocolate cap.
+        Divide all the jam and blended base among roomy containers, putting jam below the oats. The
+        original batch makes four planned portions; use enough container capacity for the full
+        mixture and chocolate cap.
     - id: cap
       title: Add chocolate
       text: >-
-        Divide {{ingredients}} over all the portions. Keep the complete cap
-        amount whether using one large container or several.
+        Divide {{ingredients}} over all the portions. Keep the complete cap amount whether using one
+        large container or several.
     - id: chill
       title: Refrigerate
       text: >-
-        Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes,
-        preferably overnight, until the oats have thickened and the chocolate
-        has set.
+        Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes, preferably overnight,
+        until the oats have thickened and the chocolate has set.
     - id: serve
       title: Serve
       text: >-
-        Eat cold. Keep covered and refrigerated, planning no more than five days
-        from preparation and using sooner if any ingredient’s after-opening
-        instructions require it. Keep preparation and serving time out of
-        refrigeration within 2 hours, or 1 hour above 90°F / 32°C.
+        Eat cold. Keep covered and refrigerated, planning no more than five days from preparation
+        and using sooner if any ingredient’s after-opening instructions require it. Keep preparation
+        and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.
 learning:
   focus: >-
-    Keeping jam, blended-oat chia and chocolate-cap allocations separate while
-    allowing a refrigerated set.
+    Keeping jam, blended-oat chia and chocolate-cap allocations separate while allowing a
+    refrigerated set.
   outcome: >-
-    A thickened chocolate oat base over berry jam, with the whole chocolate
-    amount distributed across the portions.
+    A thickened chocolate oat base over berry jam, with the whole chocolate amount distributed
+    across the portions.
   techniques:
     - cold-preparation
     - starch
     - temperature
   before:
     - >-
-      The original four-portion batch uses 1 tbsp chia in the jam and a separate
-      2 tbsp in the base. Both quantities scale; neither is the total for the
-      whole recipe.
+      The original four-portion batch uses 1 tbsp chia in the jam and a separate 2 tbsp in the base.
+      Both quantities scale; neither is the total for the whole recipe.
     - >-
-      Use containers that fit the full mixture. Check the blender’s actual
-      maximum fill and frozen-fruit cooking instructions before starting.
+      Use containers that fit the full mixture. Check the blender’s actual maximum fill and
+      frozen-fruit cooking instructions before starting.
   checkpoints:
     - step: 1
       cue: Berries are softened and jam chia is dispersed.
       why: >-
-        The jam thickener is separate from the base; fixed microwave time does
-        not establish package-specific cooking.
+        The jam thickener is separate from the base; fixed microwave time does not establish
+        package-specific cooking.
     - step: 2
       cue: 'The base is mostly smooth, with no dry oat pockets.'
       why: >-
-        Blender model and load affect texture; stop before scraping and split
-        all base ingredients proportionally if needed.
+        Blender model and load affect texture; stop before scraping and split all base ingredients
+        proportionally if needed.
     - step: 5
       cue: Oat mixture has thickened and the cap has set after chilling.
       why: >-
-        Cold hydration and chocolate setting require rest; they are not ninety
-        minutes of active cooking.
+        Cold hydration and chocolate setting require rest; they are not ninety minutes of active
+        cooking.
   troubleshooting:
     - problem: The base is runny immediately after blending.
       cause: Oats and chia have not hydrated yet.
-      fix: >-
-        Complete the refrigerated rest before adjusting; keep the full milk and
-        yogurt amounts.
+      fix: Complete the refrigerated rest before adjusting; keep the full milk and yogurt amounts.
     - problem: Jam has whole firm berries.
       cause: The chosen fruit did not break down with heating.
-      fix: >-
-        Mash the softened fruit with a fork; retain the full fruit amount and
-        separate jam chia.
+      fix: Mash the softened fruit with a fork; retain the full fruit amount and separate jam chia.
   substitutions:
     - ingredient: Raspberries
       alternative: Same full volume of another frozen berry
@@ -267,16 +255,14 @@ learning:
       alternative: Same full volumes of dairy-free yogurt and chosen plant milk
       effect: Also check the full dark-chocolate cap; no reduction in richness.
   storage: >-
-    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined
-    preparation and serving time out of refrigeration within 2 hours, or 1 hour
-    above 90°F / 32°C. The preparation plan is up to 5 days refrigerated,
-    shortened by any ingredient’s after-opening limit. Keep the chocolate cap
-    covered. Freezer texture for this yogurt-and-cap version is not established.
+    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving
+    time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. The preparation plan is
+    up to 5 days refrigerated, shortened by any ingredient’s after-opening limit. Keep the chocolate
+    cap covered. Freezer texture for this yogurt-and-cap version is not established.
   timing: >-
-    Ten minutes preparation plus at least 90 minutes refrigerated setting gives
-    a 1-hour-40-minute minimum subtotal. Berry heating, five-minute jam
-    thickening and cooling may overlap blending only when the actual setup
-    allows; any excess, blender loads and overnight preference add time.
+    Ten minutes preparation plus at least 90 minutes refrigerated setting gives a 1-hour-40-minute
+    minimum subtotal. Berry heating, five-minute jam thickening and cooling may overlap blending
+    only when the actual setup allows; any excess, blender loads and overnight preference add time.
   sources:
     - title: Glow Diaries — blended-oat recipe
       url: 'https://glow-diaries.com/choc-blended-oats/'

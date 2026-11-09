@@ -25,7 +25,6 @@ pairsWith:
   - tarragon-potatoes
   - garlic-bread
 ingredients:
-  - '--- Soup ---'
   - 3 tbsp unsalted butter
   - 2 tbsp extra-virgin olive oil
   - >-

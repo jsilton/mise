@@ -35,7 +35,6 @@ pairsWith:
   - carnitas-bowl
   - shakshuka
 ingredients:
-  - '--- Quesadillas ---'
   - 4 large eggs
   - 1 tbsp unsalted butter
   - 1/4 tsp kosher salt
@@ -137,36 +136,32 @@ formula:
     - id: scramble
       title: Scramble
       text: >-
-        Scramble {{ingredients}} in a nonstick skillet over medium heat: melt
-        the butter first, whisk the eggs with the salt, then pour them into the
-        pan. Fold gently until the curds are set with no liquid egg, then
-        transfer to a clean plate. The egg filling must reach 160°F / 71°C
-        before serving.
+        Scramble {{ingredients}} in a nonstick skillet over medium heat: melt the butter first,
+        whisk the eggs with the salt, then pour them into the pan. Fold gently until the curds are
+        set with no liquid egg, then transfer to a clean plate. The egg filling must reach 160°F /
+        71°C before serving.
     - id: build
       title: Build
       text: >-
-        Wipe the skillet clean. Set out {{ingredients}}. Divide all the cooked
-        eggs, cheese and optional jalapeños evenly among the listed tortillas.
-        For the original two-tortilla batch, each tortilla gets half the eggs,
-        half the jalapeños and half the total cheese. Spread half of each
-        tortilla’s own cheese share on one half of it, add its eggs and
-        jalapeños, then top with the rest of that tortilla’s cheese share. Fold
-        each tortilla over the filling. This uses the full listed cheese once.
+        Wipe the skillet clean. Set out {{ingredients}}. Divide all the cooked eggs, cheese and
+        optional jalapeños evenly among the listed tortillas. For the original two-tortilla batch,
+        each tortilla gets half the eggs, half the jalapeños and half the total cheese. Spread half
+        of each tortilla’s own cheese share on one half of it, add its eggs and jalapeños, then top
+        with the rest of that tortilla’s cheese share. Fold each tortilla over the filling. This
+        uses the full listed cheese once.
     - id: crisp
       title: Crisp
       text: >-
-        Cook as many folded quesadillas as fit flat without overlap in the dry
-        skillet over medium heat. Press gently with a spatula. Begin checking
-        after 2–3 minutes on the first side, then flip and check the second side
-        after about 2 minutes. Continue until both sides are golden and the
-        cheese is melted; check the thick egg filling reaches 160°F / 71°C.
-        Lower the heat if the tortilla is browning too quickly. Extra pan loads
-        take additional time.
+        Cook as many folded quesadillas as fit flat without overlap in the dry skillet over medium
+        heat. Press gently with a spatula. Begin checking after 2–3 minutes on the first side, then
+        flip and check the second side after about 2 minutes. Continue until both sides are golden
+        and the cheese is melted; check the thick egg filling reaches 160°F / 71°C. Lower the heat
+        if the tortilla is browning too quickly. Extra pan loads take additional time.
     - id: serve
       title: Serve
       text: >-
-        Transfer to a clean cutting board, rest about 30 seconds, then cut each
-        quesadilla into thirds. Serve promptly with {{ingredients}}.
+        Transfer to a clean cutting board, rest about 30 seconds, then cut each quesadilla into
+        thirds. Serve promptly with {{ingredients}}.
 learning:
   focus: Divide the full cheese before building folded pockets
   outcome: Golden tortillas enclose melted cheese and set eggs.
@@ -175,19 +170,15 @@ learning:
     - temperature
   before:
     - >-
-      Set out the listed tortilla count and divide the entire cheese supply
-      among them before cooking. Tortillas stay 10 inches as the count scales.
+      Set out the listed tortilla count and divide the entire cheese supply among them before
+      cooking. Tortillas stay 10 inches as the count scales.
     - >-
-      Cook folded pockets in uncrowded loads rather than stacking them; keep
-      cooked eggs on a clean plate.
+      Cook folded pockets in uncrowded loads rather than stacking them; keep cooked eggs on a clean
+      plate.
   checkpoints:
     - step: 2
-      cue: >-
-        Each tortilla has its own complete cheese share, split below and above
-        its eggs.
-      why: >-
-        Allocating the cheese first prevents spending the entire batch on the
-        first quesadilla.
+      cue: 'Each tortilla has its own complete cheese share, split below and above its eggs.'
+      why: Allocating the cheese first prevents spending the entire batch on the first quesadilla.
     - step: 3
       cue: Golden tortillas surround melted cheese and set egg filling at 160°F.
       why: Tortilla color does not measure the temperature of the enclosed egg.
@@ -195,26 +186,23 @@ learning:
     - problem: Tortilla browns before filling heats
       cause: The skillet is too hot or the filling is piled too thickly.
       fix: >-
-        Reduce the heat and distribute the filling evenly; continue checking the
-        egg center rather than using color alone.
+        Reduce the heat and distribute the filling evenly; continue checking the egg center rather
+        than using color alone.
   substitutions:
     - ingredient: Cheddar OR Mexican blend
       alternative: Use the same full listed cheese amount of one choice.
       effect: Melting texture and saltiness differ; the allocation stays the same.
   storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers within 2 hours,
-    or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C or below. Use within 3–4
-    days and reheat throughout to 165°F / 74°C. Thaw frozen portions in the
-    refrigerator.
+    Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F
+    / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F /
+    74°C. Thaw frozen portions in the refrigerator.
   timing: >-
-    About 15–20 minutes for the original batch if both folded tortillas fit the
-    pan; two separate 4–5 minute crisping loads can extend that range. The
-    30-second cutting-board rest is included; additional loads are not a linear
-    temperature adjustment.
+    About 15–20 minutes for the original batch if both folded tortillas fit the pan; two separate
+    4–5 minute crisping loads can extend that range. The 30-second cutting-board rest is included;
+    additional loads are not a linear temperature adjustment.
   sources:
     - title: FDA — Egg Safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
   review:
     status: editorial-review
     date: '2026-10-06'

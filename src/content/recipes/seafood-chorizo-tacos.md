@@ -3,7 +3,9 @@ kb:
   disable:
     - kb.low-temp-poultry
   disableReason: >-
-    The 145°F endpoint applies only to shrimp and squid added after fresh sausage is fully cooked. Pork/beef chorizo must reach 160°F, and poultry chorizo must reach 165°F before the seafood stage. No low-temperature poultry process is prescribed.
+    The 145°F endpoint applies only to shrimp and squid added after fresh sausage is fully cooked.
+    Pork/beef chorizo must reach 160°F, and poultry chorizo must reach 165°F before the seafood
+    stage. No low-temperature poultry process is prescribed.
 miseId: 4275bc37-db6c-4ca9-9a54-cf514c1869f0
 title: Seafood-Chorizo Tacos
 difficulty: easy
@@ -31,7 +33,6 @@ pairsWith:
   - cilantro-lime-rice
   - quick-seasoned-black-beans
 ingredients:
-  - '--- Filling and serving ---'
   - 2 tbsp extra-virgin olive oil
   - '1/2 lb fresh uncooked chorizo, casings removed and meat crumbled'
   - 'salt, a pinch, for the chorizo'
@@ -57,62 +58,48 @@ leftovers: poor
 source: Adapted from Foodandwine.com
 sourceUrl: 'http://www.foodandwine.com/recipes/seafood-chorizo-tacos'
 learning:
-  focus: >-
-    Finish fresh sausage before introducing quick-cooking shrimp and thin squid
-    rings.
-  outcome: >-
-    Fully cooked filling that keeps all its chorizo fat, with shrimp and squid
-    removed promptly.
+  focus: Finish fresh sausage before introducing quick-cooking shrimp and thin squid rings.
+  outcome: 'Fully cooked filling that keeps all its chorizo fat, with shrimp and squid removed promptly.'
   techniques:
     - gentle-proteins
     - temperature
   before:
     - >-
-      Check the chorizo label: this is fresh raw sausage, not dried ready-to-eat
-      Spanish chorizo. Pork/beef and poultry sausages have different required
-      endpoints.
+      Check the chorizo label: this is fresh raw sausage, not dried ready-to-eat Spanish chorizo.
+      Pork/beef and poultry sausages have different required endpoints.
     - >-
-      Thaw, shell and devein the shrimp and use cleaned squid cut into thin
-      rings. Prepare raw seafood away from the cold garnishes. Choose a
-      skillet/load that can cook evenly; scale ingredients rather than pan size
-      or minutes.
+      Thaw, shell and devein the shrimp and use cleaned squid cut into thin rings. Prepare raw
+      seafood away from the cold garnishes. Choose a skillet/load that can cook evenly; scale
+      ingredients rather than pan size or minutes.
   checkpoints:
     - step: 1
-      cue: >-
-        The crumbled sausage is browned and has reached its applicable 160°F or
-        165°F endpoint.
-      why: >-
-        Cooking it fully first avoids relying on a short seafood stage to finish
-        raw sausage.
+      cue: The crumbled sausage is browned and has reached its applicable 160°F or 165°F endpoint.
+      why: Cooking it fully first avoids relying on a short seafood stage to finish raw sausage.
     - step: 4
       cue: 'Seafood reaches 145°F; shrimp are firm, pearly and opaque.'
-      why: >-
-        The source three-minute check is not an exact universal cooking
-        duration.
+      why: The source three-minute check is not an exact universal cooking duration.
   troubleshooting:
     - problem: Sausage still needs cooking after the seafood is ready.
       cause: It was added to seafood before reaching its endpoint.
       fix: >-
-        Continue cooking the filling safely; next time finish sausage first.
-        Already overcooked seafood cannot be restored.
+        Continue cooking the filling safely; next time finish sausage first. Already overcooked
+        seafood cannot be restored.
     - problem: Squid turns chewy.
       cause: It stayed in the pan too long or rings were thick.
       fix: >-
-        Cut thin rings and remove the completed filling promptly; do not add a
-        new long simmer to this quick taco method.
+        Cut thin rings and remove the completed filling promptly; do not add a new long simmer to
+        this quick taco method.
   timing: >-
-    The 25-minute original-batch plan starts with thawed, cleaned seafood and
-    prepared toppings. Sausage doneness, onion softening and separate
-    30–45-second garlic cooking precede the seafood stage; allow longer for
-    actual sausage, preparation or pan loads. Four portions is a planning count;
-    actual taco yield depends on tortilla and filling size.
+    The 25-minute original-batch plan starts with thawed, cleaned seafood and prepared toppings.
+    Sausage doneness, onion softening and separate 30–45-second garlic cooking precede the seafood
+    stage; allow longer for actual sausage, preparation or pan loads. Four portions is a planning
+    count; actual taco yield depends on tortilla and filling size.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F or below,
-    within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked
-    leftovers within 3–4 days. Keep toppings separate. Reheat only the portion
-    needed to 165°F throughout; further heating will firm the seafood. Store
-    tortillas, avocado, cilantro and sour cream separately from the cooked
-    filling; the full fat is retained when reheating.
+    Refrigerate leftovers promptly in shallow containers at 40°F or below, within 2 hours of cooking
+    or 1 hour above 90°F. Use refrigerated cooked leftovers within 3–4 days. Keep toppings separate.
+    Reheat only the portion needed to 165°F throughout; further heating will firm the seafood. Store
+    tortillas, avocado, cilantro and sour cream separately from the cooked filling; the full fat is
+    retained when reheating.
   sources:
     - title: 'Food & Wine Editors: Seafood-Chorizo Tacos'
       url: 'https://www.foodandwine.com/recipes/seafood-chorizo-tacos'
@@ -120,8 +107,7 @@ learning:
       url: >-
         https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
     - title: 'FoodSafety.gov: Safe minimum temperatures'
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: 'FDA: Safe food handling'
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: 'USDA: Handling leftovers safely'
@@ -130,14 +116,13 @@ learning:
     - ingredient: Full olive-oil main
       alternative: The separate half-oil variation
       effect: >-
-        The original batch uses one tablespoon in this variation. Keep all
-        chorizo fat and use only the selected oil dose.
+        The original batch uses one tablespoon in this variation. Keep all chorizo fat and use only
+        the selected oil dose.
     - ingredient: Fresh chorizo
       alternative: No automatic dried-chorizo swap
       effect: >-
-        Dried Spanish chorizo has a different state, texture and fat-release
-        behavior; the fresh-sausage method does not establish an equivalent
-        substitution.
+        Dried Spanish chorizo has a different state, texture and fat-release behavior; the
+        fresh-sausage method does not establish an equivalent substitution.
   review:
     status: editorial-review
     date: '2026-10-06'
@@ -304,42 +289,37 @@ formula:
     - id: render
       title: Cook the Chorizo
       text: >-
-        Use {{ingredients}} at the sausage stage. Heat the oil in a large
-        skillet over moderately high heat, then add the chorizo and its initial
-        salt and pepper. Break up the chorizo as it browns; about 4 minutes is
-        an early check, not guaranteed doneness. Cook fresh pork/beef chorizo to
-        160°F, or 165°F if its label identifies poultry. Keep the full oil and
-        rendered fat in the pan. Use enough pan area for the actual load, or
-        cook separate proportionate batches with their own full supplies.
+        Use {{ingredients}} at the sausage stage. Heat the oil in a large skillet over moderately
+        high heat, then add the chorizo and its initial salt and pepper. Break up the chorizo as it
+        browns; about 4 minutes is an early check, not guaranteed doneness. Cook fresh pork/beef
+        chorizo to 160°F, or 165°F if its label identifies poultry. Keep the full oil and rendered
+        fat in the pan. Use enough pan area for the actual load, or cook separate proportionate
+        batches with their own full supplies.
     - id: aromatics
       title: Soften the Onion
-      text: >-
-        Add {{ingredients}} and cook about 2 minutes, until onion begins to
-        soften.
+      text: 'Add {{ingredients}} and cook about 2 minutes, until onion begins to soften.'
     - id: garlic
       title: Add the Garlic
       text: 'Add {{ingredients}} and sauté for 30–45 seconds, until fragrant.'
     - id: seafood
       title: Cook the Seafood
       text: >-
-        Add {{ingredients}} and toss over moderately high heat. Begin checking
-        around 3 minutes; continue as needed for the seafood to reach 145°F.
-        Shrimp should be firm, pearly and opaque, and squid cooked through. Raw
-        size, thin rings and pan loading determine the time; do not stop solely
-        because 3 minutes have passed.
+        Add {{ingredients}} and toss over moderately high heat. Begin checking around 3 minutes;
+        continue as needed for the seafood to reach 145°F. Shrimp should be firm, pearly and opaque,
+        and squid cooked through. Raw size, thin rings and pan loading determine the time; do not
+        stop solely because 3 minutes have passed.
     - id: finish
       title: Finish the Filling
       text: >-
-        Once sausage and seafood are cooked, stir in {{ingredients}}, season to
-        taste and take the skillet off the heat.
+        Once sausage and seafood are cooked, stir in {{ingredients}}, season to taste and take the
+        skillet off the heat.
     - id: assemble
       title: Serve
       text: >-
-        Use {{ingredients}} for serving. Warm or char the tortillas in a dry
-        skillet or carefully over a suitable flame, then fill with all the
-        seafood-chorizo mixture and top with the avocado, cilantro and sour
-        cream. Keep the toppings cold until assembly and serve the lime wedges
-        alongside.
+        Use {{ingredients}} for serving. Warm or char the tortillas in a dry skillet or carefully
+        over a suitable flame, then fill with all the seafood-chorizo mixture and top with the
+        avocado, cilantro and sour cream. Keep the toppings cold until assembly and serve the lime
+        wedges alongside.
 ---
 
 ## Chef's Note

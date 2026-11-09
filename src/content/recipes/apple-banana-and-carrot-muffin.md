@@ -31,7 +31,6 @@ pairsWith:
   - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
   - good-eats-roast-turkey
 ingredients:
-  - '--- Batter ---'
   - 'butter or neutral oil, for greasing the muffin cups'
   - 'water, a little, for simmering the cooked-fruit variation, optional'
   - '1 apple, cored and finely grated for the raw-fruit method'
@@ -183,135 +182,113 @@ formula:
     - id: prepare
       title: Prepare the oven and tin
       text: >-
-        Preheat the oven to 350°F and set out {{ingredients}} for preparation.
-        Grease a standard 12-cup muffin tin with the pan fat; use the water only
-        for the cooked-fruit variation below. Melt the batter butter and let it
-        cool to lukewarm. For the cooked-fruit variation below, prepare the
-        apple and carrot before making the wet mixture.
+        Preheat the oven to 350°F and set out {{ingredients}} for preparation. Grease a standard
+        12-cup muffin tin with the pan fat; use the water only for the cooked-fruit variation below.
+        Melt the batter butter and let it cool to lukewarm. For the cooked-fruit variation below,
+        prepare the apple and carrot before making the wet mixture.
     - id: fruit
       title: Prepare the grated fruit
       text: >-
-        Use the {{ingredients}}, grating with the fine holes of a box grater.
-        Squeeze off excess free juice; keep the shreds damp rather than trying
-        to dry them completely.
+        Use the {{ingredients}}, grating with the fine holes of a box grater. Squeeze off excess
+        free juice; keep the shreds damp rather than trying to dry them completely.
     - id: wet
       title: Combine the wet ingredients
       text: >-
-        Whisk the {{ingredients}} in a large bowl until evenly combined, then
-        stir in the prepared apple and carrot.
+        Whisk the {{ingredients}} in a large bowl until evenly combined, then stir in the prepared
+        apple and carrot.
     - id: dry
       title: Mix the dry ingredients
       text: >-
-        Whisk the {{ingredients}} in a separate bowl so the baking powder and
-        seasonings are distributed.
+        Whisk the {{ingredients}} in a separate bowl so the baking powder and seasonings are
+        distributed.
     - id: combine
       title: Fold and portion
       text: >-
-        Gently fold the dry mixture into the wet just until no dry flour pockets
-        remain. The original batch makes about 12 standard muffins; for
-        different quantities, use more or fewer standard cups at approximately
-        the same portion size, rather than spreading every batch across twelve
-        cups. Fruit size affects the batter volume; use extra prepared cups if
+        Gently fold the dry mixture into the wet just until no dry flour pockets remain. The
+        original batch makes about 12 standard muffins; for different quantities, use more or fewer
+        standard cups at approximately the same portion size, rather than spreading every batch
+        across twelve cups. Fruit size affects the batter volume; use extra prepared cups if
         necessary rather than filling to the rim.
     - id: bake
       title: Bake and cool
       text: >-
-        Bake for about 20–25 minutes, starting the center check at 20 minutes.
-        The tops should be set and a tester through the central crumb should
-        have no wet batter; continue baking if needed. Let the muffins stand
-        briefly until firm enough to lift out, then transfer carefully to a
-        rack. Cool before serving and cool completely before packing.
+        Bake for about 20–25 minutes, starting the center check at 20 minutes. The tops should be
+        set and a tester through the central crumb should have no wet batter; continue baking if
+        needed. Let the muffins stand briefly until firm enough to lift out, then transfer carefully
+        to a rack. Cool before serving and cool completely before packing.
 learning:
-  focus: >-
-    Prepare the fruit consistently and use the mixing method for the chosen
-    version.
+  focus: Prepare the fruit consistently and use the mixing method for the chosen version.
   outcome: >-
-    Soft apple-carrot-banana muffins with small grated pieces in the primary
-    version, or a smoother fruit crumb in the cooked variation, and no wet
-    batter at the center.
+    Soft apple-carrot-banana muffins with small grated pieces in the primary version, or a smoother
+    fruit crumb in the cooked variation, and no wet batter at the center.
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      Use a fine grater for the raw-fruit version; large coarse pieces give a
-      different texture. Squeeze off free juice but leave the shreds damp.
+      Use a fine grater for the raw-fruit version; large coarse pieces give a different texture.
+      Squeeze off free juice but leave the shreds damp.
     - >-
-      Use a standard muffin tin for the primary bake. Mini cups and the
-      cooked-fruit version have their own starting checks.
+      Use a standard muffin tin for the primary bake. Mini cups and the cooked-fruit version have
+      their own starting checks.
     - >-
-      Cool melted butter to lukewarm before combining it with eggs. For the
-      cooked-fruit version, cool the fruit to room temperature before
-      blending, following the blender instructions; serve the muffins only
-      after cooling.
+      Cool melted butter to lukewarm before combining it with eggs. For the cooked-fruit version,
+      cool the fruit to room temperature before blending, following the blender instructions; serve
+      the muffins only after cooling.
   checkpoints:
     - step: 2
-      cue: >-
-        The fruit is finely grated and damp, without free juice dripping from
-        it.
-      why: >-
-        Fruit preparation affects moisture and the size of pieces in the
-        finished crumb.
+      cue: 'The fruit is finely grated and damp, without free juice dripping from it.'
+      why: Fruit preparation affects moisture and the size of pieces in the finished crumb.
     - step: 5
       cue: The raw-fruit batter has no dry flour pockets after brief folding.
-      why: >-
-        Once the flour is hydrated, unnecessary beating can toughen this
-        version.
+      why: 'Once the flour is hydrated, unnecessary beating can toughen this version.'
     - step: 6
       cue: The tops are set and the central crumb has no wet batter.
-      why: >-
-        The first checking time is a starting point; fruit size and muffin size
-        affect the bake.
+      why: The first checking time is a starting point; fruit size and muffin size affect the bake.
   troubleshooting:
     - problem: Raw-fruit muffins have coarse pieces
       cause: The apple or carrot was grated on large holes.
       fix: >-
-        Use the fine holes next time, or choose the cooked and puréed variation
-        for a smoother fruit mixture.
+        Use the fine holes next time, or choose the cooked and puréed variation for a smoother fruit
+        mixture.
     - problem: Centers are wet although tops are set
       cause: The fruit was very juicy or the cups were filled too deeply.
       fix: >-
-        Continue baking and test central crumb again; control free juice and use
-        extra cups for extra batter next time.
+        Continue baking and test central crumb again; control free juice and use extra cups for
+        extra batter next time.
     - problem: Muffins fall apart during removal
       cause: They were lifted before the crumb was firm enough.
-      fix: >-
-        Let them stand briefly in the tin, then loosen gently and cool on a rack
-        before serving.
+      fix: 'Let them stand briefly in the tin, then loosen gently and cool on a rack before serving.'
   substitutions:
     - ingredient: Melted butter
       alternative: 'Mild vegetable oil, using the same listed amount'
       effect: >-
-        This retained dairy-free choice changes the flavor while preserving
-        the listed fat amount: three tablespoons in the original batch.
+        This retained dairy-free choice changes the flavor while preserving the listed fat amount:
+        three tablespoons in the original batch.
     - ingredient: Raw grated apple and carrot
       alternative: The cooked-fruit variation below
       effect: >-
-        The purée gives a smoother fruit texture; cooling and the mixing/baking
-        schedule change. Keep the listed flour, eggs and fat.
+        The purée gives a smoother fruit texture; cooling and the mixing/baking schedule change.
+        Keep the listed flour, eggs and fat.
   timing: >-
-    Allow about 50 minutes for standard raw-fruit muffins: roughly 15 minutes
-    preparation, 20–25 minutes baking and about 10 minutes cooling before
-    serving. Complete cooling before packing can take longer. Mini muffins start
-    checking around 15 minutes; the cooked-fruit version adds a 5–6 minute
-    simmer plus purée cooling and starts checking standard muffins at 25–30
-    minutes. Extra cups or oven batches extend elapsed time.
+    Allow about 50 minutes for standard raw-fruit muffins: roughly 15 minutes preparation, 20–25
+    minutes baking and about 10 minutes cooling before serving. Complete cooling before packing can
+    take longer. Mini muffins start checking around 15 minutes; the cooked-fruit version adds a 5–6
+    minute simmer plus purée cooling and starts checking standard muffins at 25–30 minutes. Extra
+    cups or oven batches extend elapsed time.
   storage: >-
-    Cool completely, then keep airtight for up to 3 days or freeze airtight for
-    longer storage, separating the muffins before packing. Thaw wrapped and warm
-    gently if desired. Discard moldy muffins; do not seal the batch while warm.
+    Cool completely, then keep airtight for up to 3 days or freeze airtight for longer storage,
+    separating the muffins before packing. Thaw wrapped and warm gently if desired. Discard moldy
+    muffins; do not seal the batch while warm.
   sources:
     - title: 'Stacey — ABC Baby Muffins, My Kids Lick The Bowl'
-      url: >-
-        https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/
+      url: 'https://mykidslickthebowl.com/baby-led-weaning-muffins-apple-banana-carrot/'
     - title: 'Nicolet College — Professional Baking: Quick Breads'
-      url: >-
-        https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/
+      url: 'https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/'
     - title: 'Annabelle Shippee — How can I freeze my bread?, King Arthur Baking'
       url: 'https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread'
     - title: FDA — Are You Storing Food Safely?
-      url: >-
-        https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely
+      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
   review:
     status: editorial-review
     date: '2026-10-05'

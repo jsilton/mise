@@ -446,7 +446,8 @@ learning:
       separately so it is ready when the glaze is finished.
     - >-
       Weigh the eggplant and salting salt. Light soy is the regular Chinese-style category, not
-      necessarily reduced-sodium soy. If using the pantry vinegar alternative, use unseasoned rice vinegar.
+      necessarily reduced-sodium soy. If using the pantry vinegar alternative, use unseasoned rice
+      vinegar.
     - >-
       Use spicy fermented broad-bean chili paste rather than sweet soybean paste. Its saltiness
       varies, so reserve the optional finishing soy sauce until the fully cooked dish has been
@@ -490,8 +491,8 @@ learning:
     - ingredient: Low-sodium chicken broth
       alternative: Use the same measured volume of water.
       effect: >-
-        A slightly lighter savory base; chili-bean paste (or miso in the pantry version), soy sauces and chicken juices still season the
-        glaze.
+        A slightly lighter savory base; chili-bean paste (or miso in the pantry version), soy sauces
+        and chicken juices still season the glaze.
     - ingredient: Pixian-style spicy doubanjiang
       alternative: >-
         For this four-portion batch, replace it with 1 tbsp sweet miso paste plus 1 1/2 tbsp sambal

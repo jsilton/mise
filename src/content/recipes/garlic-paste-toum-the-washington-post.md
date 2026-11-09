@@ -31,16 +31,13 @@ ingredients:
   - 1/4 cup fresh lemon juice
   - 1/3 cup cold water
   - '--- Optional source finish ---'
-  - >-
-    neutral oil, a little more as needed for the source finishing option,
-    optional
+  - 'neutral oil, a little more as needed for the source finishing option, optional'
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
 source: Adapted from Washingtonpost.com
-sourceUrl: >-
-  https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a
+sourceUrl: 'https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a'
 advancePrep:
   - chill-to-set
 formula:
@@ -119,62 +116,54 @@ formula:
     - id: puree
       title: Puree garlic
       text: >-
-        Use {{ingredients}} in a food processor with sufficient usable liquid
-        capacity for the entire mixture. Puree until smooth, stopping and
-        scraping as needed. Follow its motor-duty and minimum-load instructions;
-        make separate proportionally divided batches if necessary.
+        Use {{ingredients}} in a food processor with sufficient usable liquid capacity for the
+        entire mixture. Puree until smooth, stopping and scraping as needed. Follow its motor-duty
+        and minimum-load instructions; make separate proportionally divided batches if necessary.
     - id: first
       title: Begin the emulsion
       text: >-
-        With the motor running as permitted by the appliance, add
-        {{ingredients}} in the thinnest stream. Stop to scrape. Do not speed up
-        the pour if the mixture looks oily rather than cohesive.
+        With the motor running as permitted by the appliance, add {{ingredients}} in the thinnest
+        stream. Stop to scrape. Do not speed up the pour if the mixture looks oily rather than
+        cohesive.
     - id: second
       title: Build the paste
-      text: >-
-        Gradually add {{ingredients}} in the same thin stream, checking for a
-        thick, cohesive paste.
+      text: 'Gradually add {{ingredients}} in the same thin stream, checking for a thick, cohesive paste.'
     - id: lemon
       title: Add lemon
       text: 'Gradually add all {{ingredients}}; the mixture should lighten.'
     - id: third
       title: Add oil and water
       text: >-
-        Gradually add the assigned neutral oil, then slowly add all the cold
-        water. These are {{ingredients}}. The paste should loosen without
-        becoming runny.
+        Gradually add the assigned neutral oil, then slowly add all the cold water. These are
+        {{ingredients}}. The paste should loosen without becoming runny.
     - id: last
       title: Finish the emulsion
       text: >-
-        Gradually add all the remaining measured neutral oil. For the optional
-        source finish, add only a little of the separate extra-oil allowance at
-        a time if needed for a creamy, white, fluffy paste; stop if the mixture
-        separates. The measured remainder and optional allowance are
-        {{ingredients}}.
+        Gradually add all the remaining measured neutral oil. For the optional source finish, add
+        only a little of the separate extra-oil allowance at a time if needed for a creamy, white,
+        fluffy paste; stop if the mixture separates. The measured remainder and optional allowance
+        are {{ingredients}}.
     - id: chill
       title: Refrigerate
       text: >-
-        Transfer to clean covered containers and refrigerate at least 4 hours
-        before serving. Refrigerate promptly at 40°F or below and use within 4
-        days, or freeze small portions promptly. Thaw in the refrigerator; the
-        emulsion may separate. Do not rely on lemon juice alone to establish a
-        longer storage life.
+        Transfer to clean covered containers and refrigerate at least 4 hours before serving.
+        Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions
+        promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice
+        alone to establish a longer storage life.
 learning:
   focus: Add each oil stage slowly and keep the full batch cold
-  outcome: >-
-    A cohesive, fluffy garlic paste with all measured lemon and water
-    incorporated.
+  outcome: 'A cohesive, fluffy garlic paste with all measured lemon and water incorporated.'
   techniques:
     - temperature
   before:
     - >-
-      For larger batches use enough processor bowls and divide all ingredients
-      proportionally. Keep the mixture within each appliance’s actual liquid
-      capacity; larger loads do not promise the same blending clock.
+      For larger batches use enough processor bowls and divide all ingredients proportionally. Keep
+      the mixture within each appliance’s actual liquid capacity; larger loads do not promise the
+      same blending clock.
     - >-
-      Use a processor that permits the full liquid load and a small enough first
-      garlic load to reach the blade. A larger scaled recipe may require
-      separate emulsion batches rather than a single overfilled bowl.
+      Use a processor that permits the full liquid load and a small enough first garlic load to
+      reach the blade. A larger scaled recipe may require separate emulsion batches rather than a
+      single overfilled bowl.
   checkpoints:
     - step: 1
       cue: Smooth garlic paste rather than large pieces.
@@ -185,47 +174,43 @@ learning:
     - step: 6
       cue: Creamy white paste after the complete measured oil supply.
       why: >-
-        The source offers a separate extra-oil finish, not permission to replace
-        missing allocations.
+        The source offers a separate extra-oil finish, not permission to replace missing
+        allocations.
   timing: >-
-    Plan roughly 20–30 minutes active blending and at least 4 hours
-    refrigeration, about 4½ hours elapsed. Processor limits and batches can add
-    time.
+    Plan roughly 20–30 minutes active blending and at least 4 hours refrigeration, about 4½ hours
+    elapsed. Processor limits and batches can add time.
   substitutions:
     - ingredient: Alternating oil-and-lemon route
       alternative: >-
-        For the current alternating method, puree the same full garlic and salt.
-        Slowly add one sixth of the total measured oil, then one quarter of the
-        total lemon juice. Alternate small additions of all the remaining five
-        sixths oil and three quarters lemon, adding each slowly while the paste
-        stays cohesive; no fixed half-cup/teaspoon cycle is required. Finish
-        with all the water, then refrigerate and store as in the main. Keep the
-        optional extra-oil finish separate.
+        For the current alternating method, puree the same full garlic and salt. Slowly add one
+        sixth of the total measured oil, then one quarter of the total lemon juice. Alternate small
+        additions of all the remaining five sixths oil and three quarters lemon, adding each slowly
+        while the paste stays cohesive; no fixed half-cup/teaspoon cycle is required. Finish with
+        all the water, then refrigerate and store as in the main. Keep the optional extra-oil finish
+        separate.
       effect: >-
-        Both routes use the same full measured oil, lemon and water supplies;
-        add each slowly while the paste remains cohesive.
+        Both routes use the same full measured oil, lemon and water supplies; add each slowly while
+        the paste remains cohesive.
     - ingredient: Washington Post garlic measure and oil choice
       alternative: >-
-        For the source garlic preparation, fill the listed garlic-volume measure
-        scant rather than level; use canola or soybean oil in the same full
-        measured oil volume. Follow the source-staged main method and optional
-        extra-oil finish.
+        For the source garlic preparation, fill the listed garlic-volume measure scant rather than
+        level; use canola or soybean oil in the same full measured oil volume. Follow the
+        source-staged main method and optional extra-oil finish.
       effect: >-
-        A scant garlic measure gives a slightly lower garlic proportion; keep
-        this choice separate from the level-volume main.
+        A scant garlic measure gives a slightly lower garlic proportion; keep this choice separate
+        from the level-volume main.
   storage: >-
-    Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze
-    small portions promptly. Thaw in the refrigerator; an emulsion may separate.
-    Lemon juice or heating alone does not establish a longer storage life.
+    Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze small portions
+    promptly. Thaw in the refrigerator; an emulsion may separate. Lemon juice or heating alone does
+    not establish a longer storage life.
   troubleshooting:
     - problem: Free oil pools around the paste
       cause: >-
-        Oil was added faster than the mixture incorporated it, or the load does
-        not reach the processor blade.
+        Oil was added faster than the mixture incorporated it, or the load does not reach the
+        processor blade.
       fix: >-
-        Stop the pour and check the processor load and mixture before
-        proceeding; do not pour the entire remaining supply into a separated
-        paste.
+        Stop the pour and check the processor load and mixture before proceeding; do not pour the
+        entire remaining supply into a separated paste.
   sources:
     - title: Washington Post — Garlic Paste (Toum)
       url: 'https://www.washingtonpost.com/recipes/garlic-paste-toum/'

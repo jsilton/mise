@@ -15,7 +15,6 @@ categories:
   - Mexican
 source: Cleanfoodcrush.com
 ingredients:
-  - '--- Main recipe ---'
   - 2 tsp avocado or olive oil
   - '1 yellow onion, diced'
   - 1 lb ground grass-fed beef or ground turkey
@@ -27,15 +26,11 @@ ingredients:
   - 1 tsp sea salt
   - 1/2 tsp freshly ground black pepper
   - 1/2 cup fresh corn kernels
-  - >-
-    1 cup cooked black beans, rinsed and drained if canned; measure the prepared
-    beans
+  - '1 cup cooked black beans, rinsed and drained if canned; measure the prepared beans'
   - '4 sprouted corn tortillas, sliced into strips'
   - 12 oz enchilada sauce
   - '1/2 cup grated mozzarella or Colby Jack, optional'
-  - >-
-    fresh cilantro or green onions, as desired for garnish, washed and chopped,
-    optional
+  - 'fresh cilantro or green onions, as desired for garnish, washed and chopped, optional'
 sourceUrl: 'https://cleanfoodcrush.com/chopped-enchilada-skillet/'
 cuisines:
   - Mexican
@@ -207,87 +202,76 @@ formula:
     - id: cook
       title: Cook meat and onion
       text: >-
-        Heat {{ingredients}} in a large skillet over medium heat, adding the oil
-        first, then the onion and meat. Break the meat into small pieces and
-        sauté until nearly cooked. Choose a skillet with stirring room for the
-        vegetables, beans, tortilla strips and sauce as well; divide all
-        ingredients proportionally among additional pans or complete batches if
-        needed.
+        Heat {{ingredients}} in a large skillet over medium heat, adding the oil first, then the
+        onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a
+        skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well;
+        divide all ingredients proportionally among additional pans or complete batches if needed.
     - id: squash
       title: Add squash
       text: >-
-        Add {{ingredients}}. Cook for another 4–5 minutes as a first check,
-        stirring, until the vegetables begin to soften.
+        Add {{ingredients}}. Cook for another 4–5 minutes as a first check, stirring, until the
+        vegetables begin to soften.
     - id: simmer
       title: Simmer
       text: >-
-        Add {{ingredients}}. Stir gently to coat the tortilla strips and heat to
-        a steady bubbling consistency, checking after about 4 minutes. Continue
-        until the squash is tender and representative ground-meat portions reach
-        160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating;
-        the first-check clock is not the endpoint. Taste only after the meat has
-        finished cooking.
+        Add {{ingredients}}. Stir gently to coat the tortilla strips and heat to a steady bubbling
+        consistency, checking after about 4 minutes. Continue until the squash is tender and
+        representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey.
+        Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat
+        has finished cooking.
     - id: finish
       title: Finish
       text: >-
-        Finish with {{ingredients}}. If choosing cheese, spread its full listed
-        amount across the cooked mixture and allow it to soften. Serve promptly.
+        Finish with {{ingredients}}. If choosing cheese, spread its full listed amount across the
+        cooked mixture and allow it to soften. Serve promptly.
 learning:
   focus: Soften tortilla strips in a fully cooked skillet mixture
-  outcome: >-
-    Tender squash, sauced tortilla strips and ground meat at its
-    species-specific measured endpoint.
+  outcome: 'Tender squash, sauced tortilla strips and ground meat at its species-specific measured endpoint.'
   techniques:
     - temperature
   before:
     - >-
-      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the
-      refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep
-      them apart from raw meat and its utensils.
+      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator.
+      Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its
+      utensils.
     - >-
-      Dice and slice all the vegetables and tortillas before heating the
-      skillet. The beans are already cooked; rinse and drain canned beans before
-      measuring.
+      Dice and slice all the vegetables and tortillas before heating the skillet. The beans are
+      already cooked; rinse and drain canned beans before measuring.
     - >-
-      Six portions is the original serving plan. Check actual skillet capacity
-      for all supplies and divide the full oil, seasonings, sauce and optional
-      cheese proportionally if using more pans.
+      Six portions is the original serving plan. Check actual skillet capacity for all supplies and
+      divide the full oil, seasonings, sauce and optional cheese proportionally if using more pans.
   checkpoints:
     - step: 3
       cue: >-
-        The sauce bubbles steadily, squash is tender and representative meat
-        portions reach their specified endpoint.
+        The sauce bubbles steadily, squash is tender and representative meat portions reach their
+        specified endpoint.
       why: >-
-        Ground turkey needs 165°F, while ground beef uses 160°F; sauce bubbles
-        alone do not measure meat temperature.
+        Ground turkey needs 165°F, while ground beef uses 160°F; sauce bubbles alone do not measure
+        meat temperature.
   troubleshooting:
     - problem: Tortilla strips fall apart before the skillet is ready
       cause: Forceful stirring or prolonged cooking after they have softened.
       fix: >-
-        Stir gently once the strips are added and serve when the vegetables and
-        meat have finished; strips already dissolved cannot be restored.
+        Stir gently once the strips are added and serve when the vegetables and meat have finished;
+        strips already dissolved cannot be restored.
   substitutions:
     - ingredient: Ground beef
       alternative: Ground turkey
       effect: >-
-        Keep the full measured amount and cook to 165°F rather than the beef
-        endpoint; do not treat the same clock as proof.
+        Keep the full measured amount and cook to 165°F rather than the beef endpoint; do not treat
+        the same clock as proof.
     - ingredient: Optional cheese
       alternative: Omit it
-      effect: >-
-        The full enchilada sauce and tortilla base remains; the topping is less
-        creamy.
+      effect: The full enchilada sauce and tortilla base remains; the topping is less creamy.
   timing: >-
-    The inherited 30-minute plan includes about 15 minutes preparation and 15
-    minutes stovetop cooking. Onion/meat cooking precedes the 4–5-minute squash
-    and approximately four-minute sauce first checks. Pan loads, vegetable size
-    and meat temperature can extend this plan.
+    The inherited 30-minute plan includes about 15 minutes preparation and 15 minutes stovetop
+    cooking. Onion/meat cooking precedes the 4–5-minute squash and approximately four-minute sauce
+    first checks. Pan loads, vegetable size and meat temperature can extend this plan.
   storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or
-    freeze promptly; follow any shorter remaining limit on prepared components.
-    Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout.
-    Tortilla strips soften further during storage; reheat the mixture evenly
+    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter
+    remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F
+    / 74°C throughout. Tortilla strips soften further during storage; reheat the mixture evenly
     before adding a fresh garnish.
   sources:
     - title: Clean Food Crush — Chopped Enchilada Skillet

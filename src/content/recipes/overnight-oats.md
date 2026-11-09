@@ -44,9 +44,7 @@ ingredients:
   - '--- Adjustments and toppings ---'
   - 'additional milk, a splash if needed, optional'
   - 'additional rolled oats, a spoonful if needed, optional'
-  - >-
-    fresh fruit, nut butter, granola, toasted coconut or nuts, as desired,
-    optional
+  - 'fresh fruit, nut butter, granola, toasted coconut or nuts, as desired, optional'
 source: Adapted from downshiftology.com
 sourceUrl: 'https://downshiftology.com/recipes/overnight-oats/'
 formula:
@@ -150,59 +148,50 @@ formula:
     - id: combine
       title: Mix
       text: >-
-        Stir {{ingredients}} in a clean container with room for the whole
-        mixture and later stirring. Distribute the chia throughout rather than
-        leaving it in a clump on top.
+        Stir {{ingredients}} in a clean container with room for the whole mixture and later
+        stirring. Distribute the chia throughout rather than leaving it in a clump on top.
     - id: chill
       title: Refrigerate
       text: >-
-        Cover and refrigerate at 40°F / 4°C or below for at least 4 hours, or
-        overnight. This is soaking time; keep the mixture refrigerated rather
-        than soaking on the counter.
+        Cover and refrigerate at 40°F / 4°C or below for at least 4 hours, or overnight. This is
+        soaking time; keep the mixture refrigerated rather than soaking on the counter.
     - id: adjust
       title: Check texture
       text: >-
-        Stir again. Use {{ingredients}} only if needed: milk loosens a thick
-        mixture; a spoonful of oats can thicken a loose one. After adding oats,
-        return to the refrigerator for about 10 minutes, then check again; more
-        hydration time may be needed.
+        Stir again. Use {{ingredients}} only if needed: milk loosens a thick mixture; a spoonful of
+        oats can thicken a loose one. After adding oats, return to the refrigerator for about 10
+        minutes, then check again; more hydration time may be needed.
     - id: serve
       title: Top and serve
       text: >-
-        Add {{ingredients}}. Wash fresh produce before cutting. Serve cold, or
-        transfer to a microwave-safe container and warm according to the
-        appliance instructions, stirring and checking for even heating; do not
-        microwave a sealed jar. Reheating time depends on the portion and
-        appliance.
+        Add {{ingredients}}. Wash fresh produce before cutting. Serve cold, or transfer to a
+        microwave-safe container and warm according to the appliance instructions, stirring and
+        checking for even heating; do not microwave a sealed jar. Reheating time depends on the
+        portion and appliance.
 learning:
   focus: >-
-    Hydrating oats and chia in a refrigerated milk-and-yogurt base while keeping
-    flavor additions proportional.
-  outcome: >-
-    Softened oats with evenly distributed chia and a texture adjusted after
-    soaking.
+    Hydrating oats and chia in a refrigerated milk-and-yogurt base while keeping flavor additions
+    proportional.
+  outcome: Softened oats with evenly distributed chia and a texture adjusted after soaking.
   techniques:
     - cold-preparation
     - starch
   before:
     - >-
-      Use a roomy container rather than assuming a particular jar size. Scale
-      the full base and the selected flavor set together.
+      Use a roomy container rather than assuming a particular jar size. Scale the full base and the
+      selected flavor set together.
     - >-
-      Keep milk and yogurt cold while preparing. Wash fresh fruit and carrots
-      before cutting; check the labels of any protein powder and ready-to-eat
-      toppings.
+      Keep milk and yogurt cold while preparing. Wash fresh fruit and carrots before cutting; check
+      the labels of any protein powder and ready-to-eat toppings.
   checkpoints:
     - step: 1
       cue: Chia is dispersed and no dry oat pockets remain.
-      why: >-
-        Seeds left on top can form clumps instead of thickening the whole
-        mixture.
+      why: Seeds left on top can form clumps instead of thickening the whole mixture.
     - step: 3
       cue: Oats have softened after the refrigerated soak.
       why: >-
-        Thickness and chew depend on oat type, yogurt and additions; a clock
-        alone does not establish the preferred texture.
+        Thickness and chew depend on oat type, yogurt and additions; a clock alone does not
+        establish the preferred texture.
   troubleshooting:
     - problem: The mixture has lumps of gel or dry oats.
       cause: It was not mixed through before chilling.
@@ -210,38 +199,33 @@ learning:
     - problem: It is thicker than desired.
       cause: Chia or a flavor addition absorbed more liquid.
       fix: >-
-        Use the optional milk splash after soaking rather than reducing the full
-        yogurt or chia amounts in advance.
+        Use the optional milk splash after soaking rather than reducing the full yogurt or chia
+        amounts in advance.
   substitutions:
     - ingredient: Milk and Greek yogurt
       alternative: Same full listed amounts of dairy-free milk and yogurt
       effect: Use maple for a vegan version; topping labels also matter.
     - ingredient: Rolled oats
       alternative: Same listed volume of quick oats
-      effect: >-
-        A softer texture; steel-cut oats are not a direct preparation
-        substitute.
+      effect: A softer texture; steel-cut oats are not a direct preparation substitute.
   storage: >-
-    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined
-    preparation and serving time out of refrigeration within 2 hours, or 1 hour
-    above 90°F / 32°C. Plan plain base for 3–4 days; use fruit-containing
-    versions within 3 days, or sooner if an ingredient’s after-opening
-    instructions require it. Plain base may freeze up to 3 months; thaw
-    overnight in the refrigerator and add fresh toppings afterward.
+    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving
+    time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Plan plain base for 3–4
+    days; use fruit-containing versions within 3 days, or sooner if an ingredient’s after-opening
+    instructions require it. Plain base may freeze up to 3 months; thaw overnight in the
+    refrigerator and add fresh toppings afterward.
   timing: >-
-    Five minutes preparation plus at least 4 hours refrigerated soaking gives a
-    4-hour-5-minute minimum plan. An overnight soak, adjustment wait or warming
-    adds time. The separate flavor set has its own at-least-2-hour,
-    preferably-8-hour soak; larger containers still need cold handling and
-    adequate mixing.
+    Five minutes preparation plus at least 4 hours refrigerated soaking gives a 4-hour-5-minute
+    minimum plan. An overnight soak, adjustment wait or warming adds time. The separate flavor set
+    has its own at-least-2-hour, preferably-8-hour soak; larger containers still need cold handling
+    and adequate mixing.
   sources:
     - title: 'Downshiftology — base, six flavors and storage plans'
       url: 'https://downshiftology.com/recipes/overnight-oats/'
     - title: FDA — refrigerated handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: FDA — fresh produce
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
   review:
     status: editorial-review
     date: '2026-10-06'

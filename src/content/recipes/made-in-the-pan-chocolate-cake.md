@@ -167,56 +167,49 @@ formula:
     - id: dry
       title: Prepare and mix dry ingredients
       text: >-
-        Preheat the oven to 325°F. For the original batch use an 8×8-inch square
-        glass or metal baking dish. Whisk {{ingredients}} directly in the dish
-        until evenly combined, breaking up cocoa lumps. When scaling, use enough
-        proportional pan area to keep a similar batter depth; do not put extra
-        full batches into this one pan.
+        Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal
+        baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up
+        cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth;
+        do not put extra full batches into this one pan.
     - id: wells
       title: Add the oil and flavorings
       text: >-
-        Make three wells in the dry mixture and divide {{ingredients}} between
-        them: oil in one, vanilla in another and vinegar in the third.
+        Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one,
+        vanilla in another and vinegar in the third.
     - id: mix
       title: Mix the batter
       text: >-
-        Pour {{ingredients}} over everything. Stir slowly with a fork or small
-        whisk, mashing lumps and scraping the bottom, sides and corners until
-        the batter is smooth and uniform. Spread evenly.
+        Pour {{ingredients}} over everything. Stir slowly with a fork or small whisk, mashing lumps
+        and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread
+        evenly.
     - id: top
       title: Add the chocolate
       text: >-
-        Sprinkle {{ingredients}} over the batter. Wipe batter off the pan rim
-        with a damp paper towel.
+        Sprinkle {{ingredients}} over the batter. Wipe batter off the pan rim with a damp paper
+        towel.
     - id: bake
       title: Bake
       text: >-
-        Wait until the oven reaches 325°F, then bake for 28–33 minutes. A
-        toothpick inserted into the center should come out mostly clean with a
-        few cake crumbs, rather than coated in wet batter. Pan material, depth
-        and oven loads can change the time.
+        Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into
+        the center should come out mostly clean with a few cake crumbs, rather than coated in wet
+        batter. Pan material, depth and oven loads can change the time.
     - id: finish
       title: Cool and finish
       text: >-
-        Let the cake cool before cutting into portions. Dust with
-        {{ingredients}} if desired; it is optional.
+        Let the cake cool before cutting into portions. Dust with {{ingredients}} if desired; it is
+        optional.
 learning:
   focus: Mixing a complete egg-free batter in the baking pan.
-  outcome: >-
-    An evenly mixed chocolate cake whose center has cake crumbs rather than raw
-    batter.
+  outcome: An evenly mixed chocolate cake whose center has cake crumbs rather than raw batter.
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      Use the original 8×8-inch pan for the original batch; scaling requires
-      proportional pan area and an endpoint check, not a longer clock alone.
-      Nine portions are the original-batch planning yield; the original source
-      allows 9–12 cuts for that batch.
-    - >-
-      Do not taste raw batter. Wash hands and tools after handling raw flour or
-      eggs.
+      Use the original 8×8-inch pan for the original batch; scaling requires proportional pan area
+      and an endpoint check, not a longer clock alone. Nine portions are the original-batch planning
+      yield; the original source allows 9–12 cuts for that batch.
+    - Do not taste raw batter. Wash hands and tools after handling raw flour or eggs.
   checkpoints:
     - step: 3
       cue: No dry flour or cocoa pockets remain at the pan corners.
@@ -228,39 +221,34 @@ learning:
     - problem: Dry pockets remain in the baked corners.
       cause: Batter was not scraped and mixed across the entire dish.
       fix: >-
-        Before baking, scrape the bottom and all corners and mash remaining dry
-        lumps into the full listed liquid.
+        Before baking, scrape the bottom and all corners and mash remaining dry lumps into the full
+        listed liquid.
     - problem: Center is still wet at the end of the range.
       cause: 'Pan depth, material or oven conditions differ.'
       fix: >-
-        Continue baking and recheck the center; do not cut a wet-batter cake
-        merely because the timer ended.
+        Continue baking and recheck the center; do not cut a wet-batter cake merely because the
+        timer ended.
   substitutions:
     - ingredient: Apple cider vinegar
       alternative: Same listed amount of white vinegar
-      effect: >-
-        A complete vinegar replacement, with the other batter quantities
-        unchanged.
+      effect: 'A complete vinegar replacement, with the other batter quantities unchanged.'
     - ingredient: Semisweet chocolate chips
       alternative: 'Omit, or use the same listed amount of vegan chips'
       effect: >-
-        The chocolate is an optional topping in the original recipe; check chip
-        ingredients for a vegan choice.
+        The chocolate is an optional topping in the original recipe; check chip ingredients for a
+        vegan choice.
   storage: >-
-    Cool before covering. Follow the storage requirements of any separately
-    added perishable topping.
+    Cool before covering. Follow the storage requirements of any separately added perishable
+    topping.
   timing: >-
-    Ten minutes of preparation plus 28–33 minutes of baking gives a 38–43-minute
-    subtotal. Preheating starts during preparation; any heating still needed
-    before loading extends that subtotal. Cooling before cutting is additional
-    and has no measured duration here.
+    Ten minutes of preparation plus 28–33 minutes of baking gives a 38–43-minute subtotal.
+    Preheating starts during preparation; any heating still needed before loading extends that
+    subtotal. Cooling before cutting is additional and has no measured duration here.
   sources:
     - title: NYT — Made-In-The-Pan Chocolate Cake
-      url: >-
-        https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake
+      url: 'https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake'
     - title: FDA — handling raw flour
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
   review:
     status: editorial-review
     date: '2026-10-06'

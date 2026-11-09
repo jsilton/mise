@@ -34,7 +34,6 @@ pairsWith:
   - vietnamese-grilled-chicken
   - roasted-root-vegetables
 ingredients:
-  - '--- Pasta and crumbs ---'
   - 12 oz fresh strozzapreti OR cavatappi
   - 8 tbsp (1 stick) unsalted butter
   - '1 tbsp preserved lemon peel, minced'
@@ -210,40 +209,36 @@ formula:
     - id: crumbs
       title: Toast crumbs
       text: >-
-        Make the topping with {{ingredients}} in a wide skillet: melt the butter
-        with the oil over medium heat. Add garlic and pepper flakes; as they
-        become fragrant, stir in the panko and stir until golden and crisp,
-        checking after about 2 minutes. Stir in the zest, season with the listed
-        crumb seasoning and transfer all the crumbs to a dry plate. Wipe out
-        stray crumbs from the pan before browning butter.
+        Make the topping with {{ingredients}} in a wide skillet: melt the butter with the oil over
+        medium heat. Add garlic and pepper flakes; as they become fragrant, stir in the panko and
+        stir until golden and crisp, checking after about 2 minutes. Stir in the zest, season with
+        the listed crumb seasoning and transfer all the crumbs to a dry plate. Wipe out stray crumbs
+        from the pan before browning butter.
     - id: boil
       title: Boil
       text: >-
-        Cook {{ingredients}} until al dente according to the actual fresh or
-        dried pasta package; the source’s roughly 5-minute fresh-pasta reference
-        is not a dried-cavatappi clock. Scoop out about 1/2 cup of the cooking
-        water, then drain.
+        Cook {{ingredients}} until al dente according to the actual fresh or dried pasta package;
+        the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Scoop
+        out about 1/2 cup of the cooking water, then drain.
     - id: wilt
       title: Brown and wilt
       text: >-
-        Use {{ingredients}} for the first wilt: melt the butter in the cleaned
-        skillet over medium heat, swirling until golden and nutty rather than
-        dark or black. Add this spinach portion and toss until wilted.
+        Use {{ingredients}} for the first wilt: melt the butter in the cleaned skillet over medium
+        heat, swirling until golden and nutty rather than dark or black. Add this spinach portion
+        and toss until wilted.
     - id: combine
       title: Combine
       text: >-
-        Finish with {{ingredients}} and all the drained pasta: add the measured
-        peel and juice, remaining flakes and spinach, then toss until the
-        spinach wilts and the pasta is coated, checking after about 1 minute
-        rather than assuming 30 seconds works for every load. If the pasta
-        looks dry, toss in a splash of the reserved cooking water so the brown
-        butter clings. Season to taste, using additional peel or juice only if
-        desired.
+        Finish with {{ingredients}} and all the drained pasta: add the measured peel and juice,
+        remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated,
+        checking after about 1 minute rather than assuming 30 seconds works for every load. If the
+        pasta looks dry, toss in a splash of the reserved cooking water so the brown butter clings.
+        Season to taste, using additional peel or juice only if desired.
     - id: serve
       title: Serve
       text: >-
-        Divide all the pasta and spinach among bowls and distribute all the
-        reserved crumbs over the top.
+        Divide all the pasta and spinach among bowls and distribute all the reserved crumbs over the
+        top.
 learning:
   focus: Keep the crumb and pasta allocations distinct
   outcome: Wilted spinach and pasta under crisp golden crumbs.
@@ -252,14 +247,13 @@ learning:
     - starch
   before:
     - >-
-      Wash the trimmed spinach and drain it; tear larger leaves. Two bunches in
-      the source are about 8 cups at original scale, but bunch size varies. Use
-      the listed scaled bunch count and enough pan space to turn and wilt it.
+      Wash the trimmed spinach and drain it; tear larger leaves. Two bunches in the source are about
+      8 cups at original scale, but bunch size varies. Use the listed scaled bunch count and enough
+      pan space to turn and wilt it.
     - >-
-      Divide the butter one quarter for crumbs and three quarters for the sauce,
-      and the source flakes equally between those stages. More pasta requires
-      more boiling and skillet capacity, not darker butter or a multiplied
-      browning clock.
+      Divide the butter one quarter for crumbs and three quarters for the sauce, and the source
+      flakes equally between those stages. More pasta requires more boiling and skillet capacity,
+      not darker butter or a multiplied browning clock.
   checkpoints:
     - step: 1
       cue: 'Crumbs are golden and crisp, not dark or soft.'
@@ -277,40 +271,36 @@ learning:
   substitutions:
     - ingredient: Pepper-flake allocation
       alternative: >-
-        For the current all-flakes-in-crumbs variation, put the entire listed
-        red-pepper-flake amount into step 1 and omit it from step 4; all other
-        amounts and stages are unchanged.
+        For the current all-flakes-in-crumbs variation, put the entire listed red-pepper-flake
+        amount into step 1 and omit it from step 4; all other amounts and stages are unchanged.
       effect: >-
-        This preserves the current allocation separately from the saved
-        half-in-crumbs, half-in-pasta route.
+        This preserves the current allocation separately from the saved half-in-crumbs,
+        half-in-pasta route.
     - ingredient: Finishing citrus
       alternative: >-
-        Use a little of the optional additional preserved peel or lemon juice
-        only if wanted after tasting the finished pasta.
+        Use a little of the optional additional preserved peel or lemon juice only if wanted after
+        tasting the finished pasta.
       effect: >-
-        These source allowances are separate from the full measured peel and
-        juice; no acid addition is mandatory.
+        These source allowances are separate from the full measured peel and juice; no acid addition
+        is mandatory.
     - ingredient: Crumbs ahead
       alternative: >-
-        Prepare the crumb topping up to one day ahead and keep it in an airtight
-        container at room temperature.
+        Prepare the crumb topping up to one day ahead and keep it in an airtight container at room
+        temperature.
       effect: >-
-        This is the publisher’s plain crumb preparation plan, not a shelf-life
-        test of assembled pasta.
+        This is the publisher’s plain crumb preparation plan, not a shelf-life test of assembled
+        pasta.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and
-    reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.
-    Keep the plain crumb topping separate from wet pasta; use its one-day
-    preparation plan above.
+    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F / 74°C. Thaw
+    frozen portions in the refrigerator. Keep the plain crumb topping separate from wet pasta; use
+    its one-day preparation plan above.
   timing: >-
-    Plan about 25–35 minutes for washing/prep, heating water, crumbs and butter,
-    and pasta/wilting; some tasks overlap. Larger loads or dried pasta extend
-    it.
+    Plan about 25–35 minutes for washing/prep, heating water, crumbs and butter, and pasta/wilting;
+    some tasks overlap. Larger loads or dried pasta extend it.
   sources:
     - title: Bon Appétit — Preserved lemon spinach pasta
-      url: >-
-        http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon
+      url: 'http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon'
     - title: 'FoodSafety.gov — Clean, separate, cook and chill'
       url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
     - title: FoodSafety.gov — Leftover handling

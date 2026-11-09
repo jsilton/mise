@@ -53,9 +53,7 @@ ingredients:
   - '--- Pan preparation ---'
   - 'butter or baking spray, enough to lightly grease cookie sheets'
   - '--- Other-date option only ---'
-  - >-
-    hot water, enough to soak other types of dates if that option is chosen,
-    optional
+  - 'hot water, enough to soak other types of dates if that option is chosen, optional'
 formula:
   version: 1
   yield:
@@ -191,138 +189,115 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F. Have {{ingredients}} ready: lightly grease
-        cookie sheets with the fat or spray. The optional hot water is only for
-        the other-date option; pit and measure the full listed date volume
-        first, soak those dates until soft, then drain before making the paste.
-        Follow the food processor’s actual loading and temperature instructions,
-        and let the melted butter become only mildly warm before it will meet
-        the egg.
+        Preheat the oven to 350°F. Have {{ingredients}} ready: lightly grease cookie sheets with the
+        fat or spray. The optional hot water is only for the other-date option; pit and measure the
+        full listed date volume first, soak those dates until soft, then drain before making the
+        paste. Follow the food processor’s actual loading and temperature instructions, and let the
+        melted butter become only mildly warm before it will meet the egg.
     - id: paste
       title: Make date paste
       text: >-
-        Process {{ingredients}} until a smooth, thick paste forms, stopping and
-        scraping as needed. Work within the processor’s capacity; split a larger
-        batch proportionally into complete dough batches rather than overfilling
-        it.
+        Process {{ingredients}} until a smooth, thick paste forms, stopping and scraping as needed.
+        Work within the processor’s capacity; split a larger batch proportionally into complete
+        dough batches rather than overfilling it.
     - id: egg
       title: Mix wet ingredients
       text: >-
-        Add {{ingredients}} and process until evenly mixed, stopping to scrape
-        as needed. Stop when the mixture is uniform, without unmixed egg or
-        yogurt.
+        Add {{ingredients}} and process until evenly mixed, stopping to scrape as needed. Stop when
+        the mixture is uniform, without unmixed egg or yogurt.
     - id: dry
       title: Mix dry ingredients
-      text: >-
-        Whisk {{ingredients}} together in a mixing bowl, including the pinch of
-        salt.
+      text: 'Whisk {{ingredients}} together in a mixing bowl, including the pinch of salt.'
     - id: combine
       title: Combine
       text: >-
-        Stir the date mixture into the dry ingredients until a thick, sticky
-        dough forms and no dry flour remains.
+        Stir the date mixture into the dry ingredients until a thick, sticky dough forms and no dry
+        flour remains.
     - id: shape
       title: Shape
       text: >-
-        Use all the dough in small balls, about 1 tbsp each, and press them into
-        ½-inch-thick disks on the prepared sheets, leaving room between them.
-        The listed cookie count is a planning value; tablespoon portions may
-        give a different number. Keep portion size and thickness consistent and
-        use more sheets and oven loads when scaling.
+        Use all the dough in small balls, about 1 tbsp each, and press them into ½-inch-thick disks
+        on the prepared sheets, leaving room between them. The listed cookie count is a planning
+        value; tablespoon portions may give a different number. Keep portion size and thickness
+        consistent and use more sheets and oven loads when scaling.
     - id: bake
       title: Bake
       text: >-
-        Wait for the oven to reach 350°F, then bake for 12–15 minutes per load
-        until the edges are lightly browned and the centers are set, not wet
-        dough. Keep remaining raw dough refrigerated at 40°F / 4°C or below
-        between loads.
+        Wait for the oven to reach 350°F, then bake for 12–15 minutes per load until the edges are
+        lightly browned and the centers are set, not wet dough. Keep remaining raw dough
+        refrigerated at 40°F / 4°C or below between loads.
     - id: cool
       title: Cool and freeze
       text: >-
-        Cool the baked cookies completely on a rack, then pack airtight in a
-        freezer bag or container and label the date. Freeze at 0°F / −18°C or
-        below; avoid trapping steam in the package. If staging cooled cookies
-        before freezing, keep them refrigerated at 40°F / 4°C or below rather
-        than leaving them out. They can be eaten cold from the freezer if
-        comfortably chewable, or thawed covered in the refrigerator; cold
-        texture varies with the dates and bake.
+        Cool the baked cookies completely on a rack, then pack airtight in a freezer bag or
+        container and label the date. Freeze at 0°F / −18°C or below; avoid trapping steam in the
+        package. If staging cooled cookies before freezing, keep them refrigerated at 40°F / 4°C or
+        below rather than leaving them out. They can be eaten cold from the freezer if comfortably
+        chewable, or thawed covered in the refrigerator; cold texture varies with the dates and
+        bake.
 learning:
-  focus: >-
-    Making an even date paste and keeping freezing separate from baking
-    doneness.
-  outcome: >-
-    Date-sweetened cookies with the full butter and yogurt mixture and a
-    practical freezer route.
+  focus: Making an even date paste and keeping freezing separate from baking doneness.
+  outcome: Date-sweetened cookies with the full butter and yogurt mixture and a practical freezer route.
   techniques:
     - temperature
     - cold-preparation
   before:
     - >-
-      Pit the dates and measure their full listed volume. Other date types have
-      a separate hot-water soak and drain option; that water is not a measured
-      dough addition.
+      Pit the dates and measure their full listed volume. Other date types have a separate hot-water
+      soak and drain option; that water is not a measured dough addition.
     - >-
-      Use quick oats and both listed flours; keep the full melted butter and
-      Greek yogurt amounts. A pinch of salt goes into the dry mix.
+      Use quick oats and both listed flours; keep the full melted butter and Greek yogurt amounts. A
+      pinch of salt goes into the dry mix.
+    - Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.
     - >-
-      Do not taste raw dough; it contains raw flour and egg. Wash hands and
-      tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated
-      fraction; keep cookie dimensions and baking temperature fixed.
+      If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie
+      dimensions and baking temperature fixed.
   checkpoints:
     - step: 2
-      cue: >-
-        A smooth paste with no hard date pieces, within the processor’s
-        capacity.
+      cue: 'A smooth paste with no hard date pieces, within the processor’s capacity.'
       why: >-
-        Hard chunks make the dough less uniform; a fixed blending time does not
-        describe every date or processor.
+        Hard chunks make the dough less uniform; a fixed blending time does not describe every date
+        or processor.
     - step: 4
       cue: 'Both flours, oats, soda, cinnamon and the pinch of salt evenly combined.'
       why: >-
-        The full dry mixture has to meet the date mixture; salt cannot be
-        omitted as an unnamed spice.
+        The full dry mixture has to meet the date mixture; salt cannot be omitted as an unnamed
+        spice.
     - step: 7
       cue: Light brown edges and centers that are set rather than wet dough.
       why: >-
-        Freezing follows complete baking and cooling; it is not a substitute for
-        cooking raw flour and egg.
+        Freezing follows complete baking and cooling; it is not a substitute for cooking raw flour
+        and egg.
   troubleshooting:
     - problem: Date pieces remain hard in the dough.
       cause: The dates were firm or the processor load exceeded its capacity.
       fix: >-
-        For the other-date option, soften them in hot water first and drain.
-        Scrape while processing and make complete smaller batches when
-        necessary.
+        For the other-date option, soften them in hot water first and drain. Scrape while processing
+        and make complete smaller batches when necessary.
     - problem: Frozen cookies are icy or very hard.
-      cause: >-
-        They were packaged warm, or the baked cookies have become too firm to bite while frozen.
+      cause: 'They were packaged warm, or the baked cookies have become too firm to bite while frozen.'
       fix: >-
-        Cool fully before airtight packing. If uncomfortable to bite frozen, thaw covered in the refrigerator.
+        Cool fully before airtight packing. If uncomfortable to bite frozen, thaw covered in the
+        refrigerator.
   substitutions:
     - ingredient: Medjool dates
-      alternative: >-
-        The same listed volume of other pitted dates, soaked in hot water first
-        and drained
+      alternative: 'The same listed volume of other pitted dates, soaked in hot water first and drained'
       effect: >-
-        Soaking softens firmer dates. Drain before processing so the soaking water is not added to the dough; differences in date moisture can still change texture.
+        Soaking softens firmer dates. Drain before processing so the soaking water is not added to
+        the dough; differences in date moisture can still change texture.
   storage: >-
-    Cool fully, pack airtight, label the date and freeze at 0°F / −18°C or
-    below. Refrigerate cooled cookies at 40°F / 4°C or below if delaying the
-    freeze, and thaw covered in the refrigerator if desired. This is a
-    conservative handling plan for the unmeasured keeping quality of these moist
+    Cool fully, pack airtight, label the date and freeze at 0°F / −18°C or below. Refrigerate cooled
+    cookies at 40°F / 4°C or below if delaying the freeze, and thaw covered in the refrigerator if
+    desired. This is a conservative handling plan for the unmeasured keeping quality of these moist
     cookies; no freezer-quality duration or validated shelf life is supplied.
   timing: >-
-    The 15-minute preparation allowance plus the first 12–15-minute oven load
-    gives a 27–30-minute subtotal. Remaining preheating, extra loads, complete
-    cooling and the actual freezing time extend elapsed time. The other-date
-    option adds unmeasured soaking/draining time; processor timing follows paste
-    consistency rather than a ten-second guarantee.
+    The 15-minute preparation allowance plus the first 12–15-minute oven load gives a 27–30-minute
+    subtotal. Remaining preheating, extra loads, complete cooling and the actual freezing time
+    extend elapsed time. The other-date option adds unmeasured soaking/draining time; processor
+    timing follows paste consistency rather than a ten-second guarantee.
   sources:
     - title: FDA — raw flour and dough handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: 'FDA — refrigeration, freezer temperature and conservative thawing scope'
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:

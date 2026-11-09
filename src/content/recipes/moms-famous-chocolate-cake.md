@@ -31,9 +31,7 @@ role: dessert
 vibe: technical
 prepTime: 10 min
 cookTime: 25–30 min
-totalTime: >-
-  35–40 min, plus batter cooling, complete cake cooling and any remaining
-  preheating
+totalTime: '35–40 min, plus batter cooling, complete cake cooling and any remaining preheating'
 servings: 12 portions
 ingredients:
   - '--- Cake batter ---'
@@ -222,55 +220,50 @@ formula:
     - id: prep
       title: Prepare the pans
       text: >-
-        Preheat the oven to 350°F. Use {{ingredients}} to grease a 9×13-inch
-        rectangular pan or two 8-inch square pans for the original batch. These
-        are alternative pan layouts; divide the full batter and frosting between
-        both squares if selected. When scaling, keep a similar batter depth with
-        proportional pan area and additional pans as needed.
+        Preheat the oven to 350°F. Use {{ingredients}} to grease a 9×13-inch rectangular pan or two
+        8-inch square pans for the original batch. These are alternative pan layouts; divide the
+        full batter and frosting between both squares if selected. When scaling, keep a similar
+        batter depth with proportional pan area and additional pans as needed.
     - id: boil
       title: Heat the cocoa mixture
       text: >-
-        In a large saucepan over medium heat, bring {{ingredients}} to a gentle
-        boil. Remove the pan from the heat.
+        In a large saucepan over medium heat, bring {{ingredients}} to a gentle boil. Remove the pan
+        from the heat.
     - id: cool
       title: Begin mixing and cool
       text: >-
-        Whisk {{ingredients}} into the cocoa mixture off the heat. Let it cool
-        until lukewarm and no longer steaming before adding eggs; stir
-        occasionally. This cooling pause has no fixed duration.
+        Whisk {{ingredients}} into the cocoa mixture off the heat. Let it cool until lukewarm and no
+        longer steaming before adding eggs; stir occasionally. This cooling pause has no fixed
+        duration.
     - id: egg
       title: Add the eggs
       text: >-
-        Whisk in {{ingredients}} until combined. Keep the pan off the stove; the
-        egg mixture should blend in rather than form cooked strands.
+        Whisk in {{ingredients}} until combined. Keep the pan off the stove; the egg mixture should
+        blend in rather than form cooked strands.
     - id: flour
       title: Finish the batter
       text: >-
-        Fold in {{ingredients}} until no dry flour pockets remain. The batter
-        can be mixed in the saucepan with a portable egg beater if the tool’s
-        instructions permit its use in that pan.
+        Fold in {{ingredients}} until no dry flour pockets remain. The batter can be mixed in the
+        saucepan with a portable egg beater if the tool’s instructions permit its use in that pan.
     - id: bake
       title: Bake
       text: >-
-        Pour into the prepared pan or divide evenly between the two squares.
-        Wait for the oven to reach 350°F. Bake for 25–30 minutes, until a tester
-        inserted in the center comes out clean. Check each pan separately;
-        different depths and oven loads can change the time.
+        Pour into the prepared pan or divide evenly between the two squares. Wait for the oven to
+        reach 350°F. Bake for 25–30 minutes, until a tester inserted in the center comes out clean.
+        Check each pan separately; different depths and oven loads can change the time.
     - id: frost
       title: Make the full frosting
       text: >-
-        While the cake bakes, use {{ingredients}} for the frosting. Melt its
-        butter in a clean saucepan over low to medium heat, then whisk in its
-        cocoa and milk. Remove from heat and stir in the full confectioners’
-        sugar until smooth. These are the frosting quantities, separate from the
-        batter butter and cocoa.
+        While the cake bakes, use {{ingredients}} for the frosting. Melt its butter in a clean
+        saucepan over low to medium heat, then whisk in its cocoa and milk. Remove from heat and
+        stir in the full confectioners’ sugar until smooth. These are the frosting quantities,
+        separate from the batter butter and cocoa.
     - id: finish
       title: Frost warm and cool
       text: >-
-        Pour the warm frosting over the hot cake after removing it from the
-        oven. For two cakes, divide the entire frosting between them. Let cool
-        completely before slicing or wrapping. Refrigerate promptly according to
-        the storage guidance, even if cooling is not yet complete.
+        Pour the warm frosting over the hot cake after removing it from the oven. For two cakes,
+        divide the entire frosting between them. Let cool completely before slicing or wrapping.
+        Refrigerate promptly according to the storage guidance, even if cooling is not yet complete.
 learning:
   focus: Separating the saucepan batter from the full warm frosting.
   outcome: A fully baked family chocolate cake with its entire warm chocolate frosting.
@@ -279,71 +272,57 @@ learning:
     - leavening
   before:
     - >-
-      The batter and frosting have separate butter and cocoa amounts. The listed
-      confectioners’ sugar is a measured pound for this version; use that weight
-      rather than assuming every box is the same size.
+      The batter and frosting have separate butter and cocoa amounts. The listed confectioners’
+      sugar is a measured pound for this version; use that weight rather than assuming every box is
+      the same size.
     - >-
-      The original-batch pan choices are one 9×13-inch rectangle or two 8-inch
-      squares. Divide both full batter and full frosting between the two cakes,
-      and allow complete cooling before slicing or freezing.
-    - >-
-      Do not taste raw batter. Wash hands and tools after handling raw flour or
-      eggs.
+      The original-batch pan choices are one 9×13-inch rectangle or two 8-inch squares. Divide both
+      full batter and full frosting between the two cakes, and allow complete cooling before slicing
+      or freezing.
+    - Do not taste raw batter. Wash hands and tools after handling raw flour or eggs.
   checkpoints:
     - step: 3
-      cue: >-
-        The cocoa mixture is lukewarm and no longer steaming before adding the
-        eggs.
+      cue: The cocoa mixture is lukewarm and no longer steaming before adding the eggs.
       why: >-
-        A just-boiled mixture can cook eggs into strands. This cooling pause
-        lets them blend into the batter; it has no measured clock.
+        A just-boiled mixture can cook eggs into strands. This cooling pause lets them blend into
+        the batter; it has no measured clock.
     - step: 7
-      cue: >-
-        All frosting sugar is mixed into the separate butter, cocoa and milk
-        mixture off heat.
+      cue: 'All frosting sugar is mixed into the separate butter, cocoa and milk mixture off heat.'
       why: The cake’s sugar and fat do not supply the frosting amounts.
     - step: 8
-      cue: >-
-        Warm frosting is spread over the hot baked cake, then the cake cools
-        completely.
+      cue: 'Warm frosting is spread over the hot baked cake, then the cake cools completely.'
       why: >-
-        Warm application preserves the family method, while cooling is needed
-        before wrapping and cutting.
+        Warm application preserves the family method, while cooling is needed before wrapping and
+        cutting.
   troubleshooting:
     - problem: Egg strands appear in the batter.
       cause: Eggs were added while the cocoa mixture was still too hot.
       fix: >-
-        Cool the cocoa mixture before adding eggs on the next batch; do not
-        treat cooked egg strands as an intended batter texture.
+        Cool the cocoa mixture before adding eggs on the next batch; do not treat cooked egg strands
+        as an intended batter texture.
     - problem: Frosting quantities seem short.
-      cause: >-
-        A cake and frosting butter/cocoa amount was combined or the sugar box
-        weight differs.
+      cause: A cake and frosting butter/cocoa amount was combined or the sugar box weight differs.
       fix: >-
-        Measure each component separately and use the listed full pound of
-        frosting sugar for this version. Divide the complete frosting across
-        both square cakes.
+        Measure each component separately and use the listed full pound of frosting sugar for this
+        version. Divide the complete frosting across both square cakes.
   substitutions:
     - ingredient: Butter in batter and frosting
       alternative: Same full corresponding stick amounts of margarine
       effect: >-
-        Choose the full corresponding margarine amounts instead of butter in
-        both components; keep the listed confectioners’ sugar weight for this
-        version.
+        Choose the full corresponding margarine amounts instead of butter in both components; keep
+        the listed confectioners’ sugar weight for this version.
   storage: >-
-    Cool before wrapping. Freeze one completely cooled frosted square cake for
-    later if desired. Refrigerate the frosted cake at 40°F / 4°C or below
-    promptly, within 2 hours or 1 hour above 90°F / 32°C. Thaw a frozen frosted
-    cake in the refrigerator.
+    Cool before wrapping. Freeze one completely cooled frosted square cake for later if desired.
+    Refrigerate the frosted cake at 40°F / 4°C or below promptly, within 2 hours or 1 hour above
+    90°F / 32°C. Thaw a frozen frosted cake in the refrigerator.
   timing: >-
-    Ten minutes of preparation plus 25–30 minutes of baking gives a 35–40-minute
-    subtotal, with frosting made during baking. The required batter-cooling
-    pause, any remaining preheating, additional oven loads and complete cake
-    cooling extend elapsed time. None has a measured duration here.
+    Ten minutes of preparation plus 25–30 minutes of baking gives a 35–40-minute subtotal, with
+    frosting made during baking. The required batter-cooling pause, any remaining preheating,
+    additional oven loads and complete cake cooling extend elapsed time. None has a measured
+    duration here.
   sources:
     - title: FDA — raw flour and egg handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: FDA — conservative perishable milk-frosting handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:

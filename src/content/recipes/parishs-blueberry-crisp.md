@@ -48,7 +48,8 @@ pairsWith:
   - blackout-chocolate-cake
   - classic-peach-ice-cream
 source: Adapted from Parish
-sourceUrl: 'https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/'
+sourceUrl: >-
+  https://www.myajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/
 formula:
   version: 1
   yield:
@@ -218,38 +219,63 @@ learning:
     - starch
     - cold-preparation
   before:
-    - Start the crumble early enough for the browned butter to become solid. The listed butter is the starting amount before browning and straining; do not top it back up by guesswork.
-    - The original batch uses a 9-inch square dish and plans nine portions; the complete crumble batch may leave surplus. Prepare extra dish area for a larger fruit batch.
+    - >-
+      Start the crumble early enough for the browned butter to become solid. The listed butter is
+      the starting amount before browning and straining; do not top it back up by guesswork.
+    - >-
+      The original batch uses a 9-inch square dish and plans nine portions; the complete crumble
+      batch may leave surplus. Prepare extra dish area for a larger fruit batch.
   checkpoints:
     - step: 1
       cue: Butter solids are golden and smell nutty before straining.
-      why: The solids can pass from brown to burned quickly; black specks and acrid aroma are not the intended endpoint.
+      why: >-
+        The solids can pass from brown to burned quickly; black specks and acrid aroma are not the
+        intended endpoint.
     - step: 2
       cue: Butter is solid and the mixture breaks into crumbs.
       why: Cutting solid fat distributes it differently from pouring hot liquid butter into flour.
     - step: 4
       cue: Fruit bubbles beneath a golden topping.
-      why: The fruit and topping have separate endpoints; a darker topping does not prove that the center is bubbling.
+      why: >-
+        The fruit and topping have separate endpoints; a darker topping does not prove that the
+        center is bubbling.
   troubleshooting:
     - problem: The crumble mixes into a greasy paste.
       cause: The butter was still liquid.
-      fix: 'Chill the mixture until firm, then break into crumbs before baking; next time solidify the strained butter first.'
+      fix: >-
+        Chill the mixture until firm, then break into crumbs before baking; next time solidify the
+        strained butter first.
     - problem: The topping is dark but the center is not bubbling.
       cause: The dish is too deep or the oven is heating the surface faster than the filling.
-      fix: Shield the top loosely and continue checking the fruit; use a similar fruit depth in scaled batches.
+      fix: >-
+        Shield the top loosely and continue checking the fruit; use a similar fruit depth in scaled
+        batches.
   substitutions:
     - ingredient: Blueberries
       alternative: 'Peaches, strawberries or cherries'
-      effect: Fruit moisture and tenderness change the cooking endpoint. Almond additions for cherries or pecans for peaches add nuts and have no specified dose.
-  storage: 'Divide leftovers into shallow covered containers and refrigerate promptly within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. The topping softens during storage. If reheating stored crisp, heat through to 165°F / 74°C. Keep unbaked crumble covered and refrigerated for the separate up-to-one-week make-ahead plan, and bake it before eating. Keep ice cream frozen at 0°F / −18°C or below.'
-  timing: 'The 20-minute preparation, roughly 5-minute browning, 4-minute fruit cooking, 30-minute bake and 10-minute serving rest give a roughly 70-minute reference. Butter solidification is an additional variable wait; fruit preparation can overlap it. The separate ice cream adds cooling, churning and at least 4 hours hardening.'
+      effect: >-
+        Fruit moisture and tenderness change the cooking endpoint. Almond additions for cherries or
+        pecans for peaches add nuts and have no specified dose.
+  storage: >-
+    Divide leftovers into shallow covered containers and refrigerate promptly within 2 hours, or 1
+    hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. The topping softens during
+    storage. If reheating stored crisp, heat through to 165°F / 74°C. Keep unbaked crumble covered
+    and refrigerated for the separate up-to-one-week make-ahead plan, and bake it before eating.
+    Keep ice cream frozen at 0°F / −18°C or below.
+  timing: >-
+    The 20-minute preparation, roughly 5-minute browning, 4-minute fruit cooking, 30-minute bake and
+    10-minute serving rest give a roughly 70-minute reference. Butter solidification is an
+    additional variable wait; fruit preparation can overlap it. The separate ice cream adds cooling,
+    churning and at least 4 hours hardening.
   sources:
     - title: 'AJC — Parish creator, crumble and fruit options'
-      url: 'https://www.ajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/'
+      url: >-
+        https://www.ajc.com/lifestyles/food--cooking/brown-butter-key-parish-blueberry-crisp/ht0uxKmxnFIptyggBS5fpL/
     - title: FDA — flour handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: FDA — cooked homemade ice cream base
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection'
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/enjoying-homemade-ice-cream-without-risk-salmonella-infection
     - title: USDA — cooked leftovers
       url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
     - title: FDA — cold handling

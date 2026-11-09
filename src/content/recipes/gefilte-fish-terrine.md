@@ -27,7 +27,6 @@ pairsWith:
   - cinnamon-sweet-potatoes
   - green-beans-with-shallots-and-lemon
 ingredients:
-  - '--- Terrine and salad ---'
   - '12 oz Boneless skinless carp or pike fillet, chopped'
   - '12 oz Boneless skinless salmon fillet, chopped'
   - 3 tbsp Olive oil

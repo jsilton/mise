@@ -29,7 +29,6 @@ pairsWith:
   - sesame-tomato-salad
   - charred-asparagus-with-parmesan
 ingredients:
-  - '--- Current covered Arborio route ---'
   - 1 1/2 cups Arborio rice
   - '1/2 lb Spanish-style chorizo, cured, sliced into rounds; check product label'
   - '1 can (15 oz) chickpeas, drained'
@@ -189,116 +188,95 @@ formula:
     - id: chorizo
       title: Render chorizo
       text: >-
-        Use {{ingredients}} for this stage. Preheat the oven to 400°F. Use a
-        roomy oven-safe skillet or Dutch oven with a tight-fitting lid that
-        holds the rice, full broth, chickpeas and chorizo with room to stir and
-        without a brim-full load. Read the Spanish chorizo label: cured does not
-        always mean ready-to-eat. Prepare any cook-before-eating pork sausage
-        according to its package, checking 160°F / 71°C, before using this
-        rendering route. A raw poultry product needs 165°F / 74°C and is not an
-        assumed equivalent. Render the prepared rounds over medium heat until
-        crisped and their red fat is released; remove to a clean plate. Keep the
-        rendered fat for the current main route.
+        Use {{ingredients}} for this stage. Preheat the oven to 400°F. Use a roomy oven-safe skillet
+        or Dutch oven with a tight-fitting lid that holds the rice, full broth, chickpeas and
+        chorizo with room to stir and without a brim-full load. Read the Spanish chorizo label:
+        cured does not always mean ready-to-eat. Prepare any cook-before-eating pork sausage
+        according to its package, checking 160°F / 71°C, before using this rendering route. A raw
+        poultry product needs 165°F / 74°C and is not an assumed equivalent. Render the prepared
+        rounds over medium heat until crisped and their red fat is released; remove to a clean
+        plate. Keep the rendered fat for the current main route.
     - id: vegetables
       title: Soften vegetables
       text: >-
-        Add {{ingredients}} to the chorizo fat. Cook about 8–10 minutes until
-        softened, stirring and lowering heat if garlic browns too quickly. Use
-        chorizo that releases enough fat to cook the vegetables without
-        catching. For the olive-oil version, choose the complete uncovered
+        Add {{ingredients}} to the chorizo fat. Cook about 8–10 minutes until softened, stirring and
+        lowering heat if garlic browns too quickly. Use chorizo that releases enough fat to cook the
+        vegetables without catching. For the olive-oil version, choose the complete uncovered
         variation below.
     - id: paste
       title: Add paste and spices
-      text: >-
-        Stir in {{ingredients}} and cook about 1 minute until fragrant without
-        scorching.
+      text: 'Stir in {{ingredients}} and cook about 1 minute until fragrant without scorching.'
     - id: rice
       title: Coat rice
-      text: >-
-        Add {{ingredients}} and stir about 2 minutes to coat the grains in the
-        spiced fat.
+      text: 'Add {{ingredients}} and stir about 2 minutes to coat the grains in the spiced fat.'
     - id: wine
       title: Add wine
       text: 'Add {{ingredients}}, scrape the bottom and let bubble about 1 minute.'
     - id: liquid
       title: Bring to a boil
-      text: >-
-        Add {{ingredients}} and all the reserved chorizo. Bring to a boil before
-        moving to the oven.
+      text: 'Add {{ingredients}} and all the reserved chorizo. Bring to a boil before moving to the oven.'
     - id: bake
       title: Bake covered
       text: >-
-        Use {{ingredients}} for this stage. Cover tightly and bake at 400°F
-        about 20–25 minutes, then check absorbed liquid and a tender rice
-        center. If the center is firm and the pan is dry, add a little hot
-        water, cover and continue; if wet and firm, keep cooking before adding
-        more liquid. Do not replace Arborio directly with Bomba or Calasparra or
-        use the source variant’s uncovered method here.
+        Use {{ingredients}} for this stage. Cover tightly and bake at 400°F about 20–25 minutes,
+        then check absorbed liquid and a tender rice center. If the center is firm and the pan is
+        dry, add a little hot water, cover and continue; if wet and firm, keep cooking before adding
+        more liquid. Do not replace Arborio directly with Bomba or Calasparra or use the source
+        variant’s uncovered method here.
     - id: rest
       title: Rest and serve
       text: >-
-        Rest off heat, covered, for 10 minutes, then fluff gently and divide
-        among the listed portions. Allow about 80 minutes overall including 20
-        minutes preparation, roughly 50 minutes
-        rendering/sautéing/heating/baking and the rest; extra batches or firm
-        rice extend the estimate. Larger quantities need sufficient pan space or
-        separate original-size pans, not proportional oven times.
+        Rest off heat, covered, for 10 minutes, then fluff gently and divide among the listed
+        portions. Allow about 80 minutes overall including 20 minutes preparation, roughly 50
+        minutes rendering/sautéing/heating/baking and the rest; extra batches or firm rice extend
+        the estimate. Larger quantities need sufficient pan space or separate original-size pans,
+        not proportional oven times.
 learning:
   focus: Keep the two complete chorizo-rice routes separate
-  outcome: >-
-    Rice finishes tender after its covered bake and rest, without a dry hard
-    center.
+  outcome: 'Rice finishes tender after its covered bake and rest, without a dry hard center.'
   techniques:
     - temperature
   before:
     - >-
-      Check the Spanish-style chorizo label and prepare cook-before-eating
-      products fully; a cured appearance is not a ready-to-eat claim.
+      Check the Spanish-style chorizo label and prepare cook-before-eating products fully; a cured
+      appearance is not a ready-to-eat claim.
     - >-
-      Use a roomy oven-safe vessel and lid for the current covered Arborio
-      route; scaled ingredients do not certify pan capacity.
+      Use a roomy oven-safe vessel and lid for the current covered Arborio route; scaled ingredients
+      do not certify pan capacity.
     - >-
-      Choose either the current covered Arborio route or the complete richer
-      uncovered variation; the latter uses its own full olive oil and much more
-      chorizo.
+      Choose either the current covered Arborio route or the complete richer uncovered variation;
+      the latter uses its own full olive oil and much more chorizo.
   checkpoints:
     - step: 7
       cue: >-
-        Rice center is tender and most liquid is absorbed; if dry and firm, use
-        the genuine hot-water allowance and continue covered.
-      why: >-
-        The first 20–25 minute check is not proof every rice brand and vessel
-        finishes then.
+        Rice center is tender and most liquid is absorbed; if dry and firm, use the genuine
+        hot-water allowance and continue covered.
+      why: The first 20–25 minute check is not proof every rice brand and vessel finishes then.
   troubleshooting:
     - problem: Rice is firm when the current covered pan looks dry
       cause: The rice/pan/heat combination used liquid before the center finished.
       fix: >-
-        Use the listed hot-water allowance and continue covered until the rice
-        center is tender. Do not switch halfway to the richer branch’s uncovered
-        method or stock dose.
+        Use the listed hot-water allowance and continue covered until the rice center is tender. Do
+        not switch halfway to the richer branch’s uncovered method or stock dose.
   substitutions:
     - ingredient: Current covered route
       alternative: The complete source-rich uncovered route below
       effect: >-
-        Choose one complete formula and method, including its stock, chorizo,
-        oil, vegetables, seasonings and rice. The two versions make
-        different-sized portions.
+        Choose one complete formula and method, including its stock, chorizo, oil, vegetables,
+        seasonings and rice. The two versions make different-sized portions.
   timing: >-
-    Current route: about 80 minutes planning including 20 minutes preparation,
-    50 minutes cooking and 10 minutes covered rest. Source-rich route: source
-    estimates 90 minutes; more chorizo browning batches and pan heat-up can
-    extend this. Neither route has tested scaled pan loads.
+    Current route: about 80 minutes planning including 20 minutes preparation, 50 minutes cooking
+    and 10 minutes covered rest. Source-rich route: source estimates 90 minutes; more chorizo
+    browning batches and pan heat-up can extend this. Neither route has tested scaled pan loads.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F / 4°C or below, within 2
-    hours (1 hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat
-    leftovers to 165°F / 74°C throughout. Proper rice cooling matters; reheating
-    does not replace prompt refrigeration.
+    Refrigerate promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1 hour above
+    90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C throughout. Proper
+    rice cooling matters; reheating does not replace prompt refrigeration.
   sources:
     - title: 'Benjamin Kemper — Baked Spanish Rice, Saveur'
       url: 'https://www.saveur.com/recipes/baked-spanish-chorizo-rice/'
     - title: FoodSafety.gov — Cooking temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety

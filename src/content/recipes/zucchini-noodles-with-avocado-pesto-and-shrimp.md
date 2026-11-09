@@ -206,19 +206,41 @@ formula:
   steps:
     - id: drain
       title: Drain zucchini
-      text: 'Prepare {{ingredients}}: spiralize zucchini, stopping at a soft seedy core where needed. Toss with the measured draining salt in a colander and let stand for 15 minutes while making pesto. Gently squeeze out released water without crushing the strands. Larger amounts need enough colander space; the strands can still release water after draining.'
+      text: >-
+        Prepare {{ingredients}}: spiralize zucchini, stopping at a soft seedy core where needed.
+        Toss with the measured draining salt in a colander and let stand for 15 minutes while making
+        pesto. Gently squeeze out released water without crushing the strands. Larger amounts need
+        enough colander space; the strands can still release water after draining.
     - id: pesto
       title: Make pesto
-      text: 'Pulse {{ingredients}} in a food processor or blender suited to this cold mixture, until finely chopped and creamy. All this quarter-cup pesto oil at the original batch belongs in the sauce; the pan oils are separate. Keep raw shrimp and its utensils away from the ready-to-eat pesto.'
+      text: >-
+        Pulse {{ingredients}} in a food processor or blender suited to this cold mixture, until
+        finely chopped and creamy. All this quarter-cup pesto oil at the original batch belongs in
+        the sauce; the pan oils are separate. Keep raw shrimp and its utensils away from the
+        ready-to-eat pesto.
     - id: shrimp
       title: Cook shrimp
-      text: 'Use {{ingredients}}. Heat the shrimp-pan oil in a large skillet over medium-high heat. Stir garlic about 30 seconds until fragrant, add shrimp and all the seafood seasoning, and cook, turning as needed. Start checking around 3–4 minutes. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness. Transfer to a clean large bowl, using clean utensils. Reduce heat if garlic browns too fast; divide this stage’s oil across batches if needed.'
+      text: >-
+        Use {{ingredients}}. Heat the shrimp-pan oil in a large skillet over medium-high heat. Stir
+        garlic about 30 seconds until fragrant, add shrimp and all the seafood seasoning, and cook,
+        turning as needed. Start checking around 3–4 minutes. Cook until the thickest shrimp are
+        firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a
+        suitable thermometer. Pink color or a fixed minute count alone does not establish doneness.
+        Transfer to a clean large bowl, using clean utensils. Reduce heat if garlic browns too fast;
+        divide this stage’s oil across batches if needed.
     - id: noodles
       title: Heat noodles
-      text: 'Add {{ingredients}} to the pan, then all the drained zucchini. Toss gently over medium-high heat, beginning to check around 3 minutes, until hot but still firm. Use additional loads if the pan cannot comfortably toss all the strands; split this stage’s oil across those loads rather than repeat the full allowance.'
+      text: >-
+        Add {{ingredients}} to the pan, then all the drained zucchini. Toss gently over medium-high
+        heat, beginning to check around 3 minutes, until hot but still firm. Use additional loads if
+        the pan cannot comfortably toss all the strands; split this stage’s oil across those loads
+        rather than repeat the full allowance.
     - id: combine
       title: Combine and serve
-      text: 'Transfer hot zucchini to the clean shrimp bowl. Off heat, add all the pesto and toss gently until coated, then serve promptly. The measured garlic all cooked with the shrimp, not in a second pesto dose. All quantities, including pesto, are allocated across the whole batch.'
+      text: >-
+        Transfer hot zucchini to the clean shrimp bowl. Off heat, add all the pesto and toss gently
+        until coated, then serve promptly. The measured garlic all cooked with the shrimp, not in a
+        second pesto dose. All quantities, including pesto, are allocated across the whole batch.
 learning:
   focus: Drain zucchini and allocate pesto and pan oil separately
   outcome: 'Hot, firm zucchini strands coated with creamy pesto and cooked shrimp.'
@@ -226,9 +248,14 @@ learning:
     - cold-preparation
     - gentle-proteins
   before:
-    - 'Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.'
+    - >-
+      Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag
+      in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.
     - 'Use a colander, cold-mixture food processor or blender, large skillet and clean serving bowl.'
-    - 'In the original batch, keep the ¼ cup pesto oil, 1 tablespoon shrimp oil and 1 tablespoon noodle oil separate; scale their full quantities together. Use additional pan loads without multiplying cooking times.'
+    - >-
+      In the original batch, keep the ¼ cup pesto oil, 1 tablespoon shrimp oil and 1 tablespoon
+      noodle oil separate; scale their full quantities together. Use additional pan loads without
+      multiplying cooking times.
   checkpoints:
     - step: 1
       cue: Strands release water and remain intact after gentle squeezing.
@@ -242,20 +269,34 @@ learning:
   troubleshooting:
     - problem: Pesto becomes watery
       cause: 'Strands were insufficiently drained, crowded in the pan or held after mixing.'
-      fix: 'Drain and squeeze gently, heat in workable loads and serve promptly; do not automatically add more nuts or remove the listed oil.'
+      fix: >-
+        Drain and squeeze gently, heat in workable loads and serve promptly; do not automatically
+        add more nuts or remove the listed oil.
   substitutions:
     - ingredient: Spiralizer
       alternative: Use a vegetable peeler to make thin lengthwise zucchini strips
-      effect: Avoid soft seedy centers; strip thickness changes heating time. No precise count-to-weight equivalence is established for the current five zucchini.
-  timing: 'About 20–25 min active preparation; includes overlapping 15 min drain; About 8–12 min pan cooking; About 35–45 min; additional pan loads add time. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.'
-  storage: 'Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days and reheat hot leftovers to 165°F throughout. Shrimp can become firmer with reheating; these times describe handling, not a promise of unchanged texture. Store pesto separately from cooked noodles when possible; avocado may darken and noodles release more water.'
+      effect: >-
+        Avoid soft seedy centers; strip thickness changes heating time. No precise count-to-weight
+        equivalence is established for the current five zucchini.
+  timing: >-
+    About 20–25 min active preparation; includes overlapping 15 min drain; About 8–12 min pan
+    cooking; About 35–45 min; additional pan loads add time. Planning ranges assume peeled, thawed
+    shrimp and prepared ingredients; additional loads or side dishes add time.
+  storage: >-
+    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
+    above 90°F). Use within 3–4 days and reheat hot leftovers to 165°F throughout. Shrimp can become
+    firmer with reheating; these times describe handling, not a promise of unchanged texture. Store
+    pesto separately from cooked noodles when possible; avocado may darken and noodles release more
+    water.
   sources:
     - title: Adapted from eatingwell.com
       url: 'https://www.eatingwell.com/recipe/257004/zucchini-noodles-with-avocado-pesto-shrimp/'
     - title: FDA — Selecting and serving seafood safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely'
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
     - title: USDA — Handling leftovers safely
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
     date: '2026-10-05'
