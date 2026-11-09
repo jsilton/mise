@@ -80,7 +80,7 @@ Dish: Chicken Lettuce Wraps. The dish: three cupped butter lettuce leaves filled
 Dish: Chicken Scaloppine with Tomato & White Wine. The dish: three flattened, lightly golden chicken thigh pieces in a smooth, light rosy tomato-wine pan sauce with no tomato chunks, with a bed of glossy wilted spinach alongside. Serving dish: a white dinner plate with a thin slate blue rim. Garnish: only what the dish line names, nothing else. Backdrop: butter yellow (#F9D27E). Moment: just sauced, glossy.
 
 24. chinese-sausage-fried-rice.png
-Dish: Chinese Sausage Fried Rice. The dish: a mound of fried jasmine rice with red Chinese sausage slices, egg, peas, green onion and red chili, on a larger plate that fills about half the frame width, dead center. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish: only what the dish line names, nothing else. Backdrop: butter yellow (#F9D27E). Moment: just out of the wok.
+Dish: Chinese Sausage Fried Rice. The dish: a mound of fried jasmine rice with red Chinese sausage slices, egg, peas, green onion and red chili, in a wider bowl that fills about half the frame width, dead center. Serving dish: a shallow white bowl with a thin slate blue rim. Garnish: only what the dish line names, nothing else. Backdrop: butter yellow (#F9D27E). Moment: just out of the wok.
 
 25. chocolate-chip-walnut-cookies.png
 Dish: Chocolate Chip Walnut Cookies. The dish: six golden chocolate chip cookies with chopped walnuts loosely stacked on a plate that fills about half the frame width, one broken in half to show chocolate chips and walnut pieces. Serving dish: a small round white plate with a thin slate blue rim. Garnish: only what the dish line names, nothing else. Backdrop: butter yellow (#F9D27E). Moment: fresh from the oven.
