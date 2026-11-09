@@ -14,32 +14,29 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 10 min
-cookTime: 'High: about 2–3 hr, plus melting and 15 min; Low: about 4–5 hr, plus melting and 15 min'
-totalTime: >-
-  High: about 2 hr 25 min–3 hr 25 min; Low: about 4 hr 25 min–5 hr 25 min, plus any extra melting or
-  loads
+cookTime: 3 hr 15 min
+totalTime: 3 hr 25 min
 servings: 4 portions
 pairsWith:
-  - honey-glazed-carrots
-  - apple-banana-and-carrot-muffin
   - roasted-fall-harvest-salad
+  - garlic-sauteed-green-beans
 ingredients:
   - '2 cups uncooked quinoa, rinsed and drained'
   - '8 oz mushrooms, sliced'
-  - 4 cups prepared vegetable or chicken broth
+  - 4 cups vegetable or chicken broth
   - '4 oz cream cheese, cubed'
   - '1 cup Italian blend cheese, shredded'
   - '1/2 red bell pepper, stemmed, seeded and diced'
-  - '2 green onions, washed and chopped'
+  - '2 green onions, chopped'
   - '1 tbsp garlic, minced'
   - 1 tsp Italian seasoning
-  - 'salt, to taste for the quinoa mixture'
-  - 'black pepper, to taste for the quinoa mixture'
+  - 'kosher salt, to taste'
+  - 'black pepper, to taste'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-source: Adapted from Lecremedelacrumb.com
+source: Adapted from Le Crème de la Crumb
 sourceUrl: 'https://www.lecremedelacrumb.com/slow-cooker-cheesy-mushroom-quinoa/'
 formula:
   version: 1
@@ -72,7 +69,7 @@ formula:
           preparation: sliced
         - id: broth
           key: prepared-broth
-          name: prepared vegetable or chicken broth
+          name: vegetable or chicken broth
           quantity:
             amount: 4
             unit: cup
@@ -120,7 +117,7 @@ formula:
             - step: finish
               share: 1
           plural: green onions
-          preparation: washed and chopped
+          preparation: chopped
         - id: garlic
           key: garlic
           name: garlic
@@ -142,118 +139,66 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: salt
-          allowance: to taste for the quinoa mixture
+          name: kosher salt
+          allowance: to taste
           uses:
-            - step: combine
+            - step: cream
               share: 1
         - id: pepper-season
           key: black-pepper
           name: black pepper
-          allowance: to taste for the quinoa mixture
+          allowance: to taste
           uses:
-            - step: combine
+            - step: cream
               share: 1
   steps:
     - id: combine
-      title: Load cooker
-      text: >-
-        Add {{ingredients}} to the slow cooker and stir. Use the actual cooker manufacturer’s
-        minimum/maximum load and grain-cooking instructions; a scaled batch may need complete
-        separate loads or a differently sized cooker. Keep the full measured broth with the full dry
-        quinoa in each proportionate load.
+      title: Load the cooker
+      text: 'Stir {{ingredients}} together in the slow cooker.'
     - id: cook
-      title: Cook grain
+      title: Cook the quinoa
       text: >-
-        Cover and cook on High for about 2–3 hours, or Low for about 4–5 hours for the original
-        batch. Begin checking at the shorter end of the chosen window. The quinoa should be tender
-        with its curled germs visible and the broth mostly absorbed, without a hard center. Cooker
-        model and load change the time; complete absorption alone does not establish tenderness.
+        Cover and cook on High until the quinoa is tender, its little curled tails show and most of
+        the broth is absorbed, 2 to 3 hours.
     - id: cream
-      title: Melt cream cheese
+      title: Stir in the cream cheese
       text: >-
-        Stir in {{ingredients}} until the cubes have melted into the hot grain, starting with about
-        a minute of stirring but continuing gently if pieces remain. Do not beat indefinitely or
-        wait for the creamy mixture to become dry.
+        Stir in {{ingredients}} until the cream cheese melts into the hot quinoa, about 1 minute.
+        Add the salt a pinch at a time, tasting as you go, since the broth and cheese are already
+        salty.
     - id: cheese
-      title: Melt topping
-      text: >-
-        Scatter {{ingredients}} over the top. Cover and cook for about 15 minutes more, until
-        melted.
+      title: Melt the cheese
+      text: 'Scatter {{ingredients}} over the top. Cover and cook until melted, about 15 minutes.'
     - id: finish
-      title: Finish
-      text: 'Stir once more, then garnish with {{ingredients}} and serve.'
+      title: Serve
+      text: 'Stir once more, top with {{ingredients}} and serve.'
 learning:
-  focus: Judge grain tenderness before the cheese finish
-  outcome: 'Tender quinoa in a creamy mixture, with fully melted cheeses and fresh green-onion contrast.'
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Rinse and drain the measured dry quinoa. Use prepared broth; vegetable and chicken broths can
-      differ in saltiness.
-    - >-
-      Check the actual cooker’s loading limits before scaling. The full measured liquid belongs with
-      each proportionate grain load; no universal cooker size or fill fraction is specified.
-    - >-
-      Keep the cheeses refrigerated and cube the cream cheese before cooking so the finish is ready
-      when the grain becomes tender.
-  checkpoints:
-    - step: 2
-      cue: 'The quinoa is tender when sampled, its curled germs visible and most broth absorbed.'
-      why: A fixed time or absence of visible broth does not guarantee a tender grain in every cooker.
-    - step: 3
-      cue: No separate cream-cheese cubes remain after gentle stirring.
-      why: >-
-        The late cheese finish depends on hot grain and cube size, rather than a guaranteed
-        one-minute emulsion.
-  troubleshooting:
-    - problem: Quinoa remains firm at the first check
-      cause: 'Cooker heat, load, draining or grain type differs.'
-      fix: >-
-        Continue covered and recheck tenderness before adding the cheeses. If it is dry yet firm,
-        the written ratio/cooker combination needs reassessment; do not assume an arbitrary extra
-        broth dose will reproduce it.
-  timing: >-
-    The High route needs roughly 2 hours 25 minutes to 3 hours 25 minutes including 10-minute
-    preparation and the 15-minute cheese finish; Low needs roughly 4 hours 25 minutes to 5 hours 25
-    minutes. Extra cheese-melting time, heating behavior and separate cooker loads can extend both
-    plans. Preparation and finishing are active; most covered grain cooking is elapsed time.
+  substitutions:
+    - ingredient: Low setting
+      alternative: Cook on Low for 4 to 5 hours
+      effect: 'Check for tender quinoa at 4 hours, then finish with the cheeses the same way.'
   storage: >-
-    Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F /
-    74°C throughout, checking the center and more than one portion. Reheat on the stove, in a
-    microwave or in an oven; do not start cold leftovers in the slow cooker. Cheese texture can
-    become thicker or grainier on reheating.
-  sources:
-    - title: USDA slow-cooker handling and reheating
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety
-    - title: USDA leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat on the stove or in the microwave
+    with a splash of broth.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
+pairingNotes:
+  roasted-fall-harvest-salad: Crisp greens and roasted vegetables beside the creamy grain.
+  garlic-sauteed-green-beans: A bright green vegetable to cut the cheese.
 ---
 
 ## Chef's Note
 
-Quinoa cooks with mushrooms, pepper, garlic and broth before the full cream cheese and grated cheese finish the pot. The two cups of dry quinoa and four cups of broth describe the starting recipe; grain tenderness and the actual cooker load determine when to finish it. Fresh green onions add a sharper contrast to the creamy main version.
+Le Crème de la Crumb's hands-off quinoa cooks in broth with mushrooms, red pepper and garlic until fluffy. Cream cheese stirred in at the end makes it creamy, almost like risotto, and a layer of melted Italian cheese finishes the pot. Green onions on top keep it fresh.
 
 ## Directions
 
-1. **Load cooker:** Add uncooked quinoa, mushrooms, prepared vegetable or chicken broth, red bell pepper, garlic, Italian seasoning, salt, and black pepper to the slow cooker and stir. Use the actual cooker manufacturer’s minimum/maximum load and grain-cooking instructions; a scaled batch may need complete separate loads or a differently sized cooker. Keep the full measured broth with the full dry quinoa in each proportionate load.
-2. **Cook grain:** Cover and cook on High for about 2–3 hours, or Low for about 4–5 hours for the original batch. Begin checking at the shorter end of the chosen window. The quinoa should be tender with its curled germs visible and the broth mostly absorbed, without a hard center. Cooker model and load change the time; complete absorption alone does not establish tenderness.
-3. **Melt cream cheese:** Stir in cream cheese until the cubes have melted into the hot grain, starting with about a minute of stirring but continuing gently if pieces remain. Do not beat indefinitely or wait for the creamy mixture to become dry.
-4. **Melt topping:** Scatter Italian blend cheese over the top. Cover and cook for about 15 minutes more, until melted.
-5. **Finish:** Stir once more, then garnish with green onions and serve.
-
-## Early Cream-Cheese and Herb Version
-
-Use the same full measured quinoa, broth, mushrooms, pepper, garlic and seasoning supplies. Put the cream cheese and all the chopped green onions into the cooker at the start, keeping only the grated cheese for the finish. Cover for the same High 2–3-hour or Low 4–5-hour first-check windows, then stir until the quinoa is tender and the cream cheese is combined. Top with the full grated cheese and cover about 15 minutes until melted. Shredded Parmesan can replace the Italian blend measure for measure; optional washed, chopped cilantro or parsley finishes this version instead of reserving extra green onions.
-
-For a more strongly seasoned original batch, the seasoning example is about 2 teaspoons salt and 1 teaspoon pepper in place of the to-taste allowances; scale proportionally. Broth and cheese saltiness and the unspecified salt crystal size affect the result.
-
-The original batch plans four main portions. It can also be halved and served as a side, subject to the actual cooker’s minimum load. Prepared chicken broth replaces vegetable broth when a vegetarian preparation is not needed; no raw chicken is added.
+1. **Load the cooker:** Stir uncooked quinoa, mushrooms, vegetable or chicken broth, red bell pepper, garlic, and Italian seasoning together in the slow cooker.
+2. **Cook the quinoa:** Cover and cook on High until the quinoa is tender, its little curled tails show and most of the broth is absorbed, 2 to 3 hours.
+3. **Stir in the cream cheese:** Stir in cream cheese, kosher salt, and black pepper until the cream cheese melts into the hot quinoa, about 1 minute. Add the salt a pinch at a time, tasting as you go, since the broth and cheese are already salty.
+4. **Melt the cheese:** Scatter Italian blend cheese over the top. Cover and cook until melted, about 15 minutes.
+5. **Serve:** Stir once more, top with green onions and serve.

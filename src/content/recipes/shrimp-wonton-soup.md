@@ -15,9 +15,9 @@ cuisines:
   - Chinese
 role: main
 vibe: technical
-prepTime: About 30–45 min
-cookTime: 'About 10–20 min, depending on batches'
-totalTime: About 40–65 min with prepared broth and wrappers
+prepTime: 45 min
+cookTime: 15 min
+totalTime: 1 hr
 servings: '4'
 seasons:
   - year-round
@@ -28,127 +28,65 @@ advancePrep:
   - make-ahead
   - freeze-ahead
 pairsWith:
-  - steamed-bok-choy-with-oyster-sauce
   - smashed-cucumber-salad
+pairingNotes:
+  smashed-cucumber-salad: Cool, garlicky crunch beside the hot broth.
 ingredients:
-  - 200g Ground Pork
-  - '100g Shrimp, minced'
-  - 1 Egg White (as binder)
-  - '1 tsp Toasted Sesame Oil, for the filling'
-  - 'Additional Toasted Sesame Oil, a few drops per serving bowl'
-  - '1 tbsp Light Soy Sauce, for the filling'
-  - '2 tsp Shaoxing Wine, for the filling'
-  - '1/4 tsp Ground White Pepper, for the filling'
-  - '4 tsp Light Soy Sauce, for the bowls, or less to taste'
-  - '1 inch Fresh Ginger, grated'
-  - '3 Scallions, chopped'
-  - 1 lb prepared Wonton Wrappers; use as many as needed for the filling
-  - >-
-    4 cups prepared [Cantonese Wonton
-    Broth](/mise/recipes/cantonese-wonton-broth), plus extra to taste
-  - 'Water, for sealing wrappers and boiling wontons'
-  - '1 sheet Nori, shredded'
-  - 'Baby Bok Choy or Spinach, as desired'
-  - 'Chopped Fresh Coriander, for garnish'
-  - '1 tbsp Black Vinegar, for serving, optional'
-  - '1/2 tsp Salt, for the filling'
-  - '1 small bunch Fresh Coriander, finely chopped, for the filling'
+  - '--- Filling ---'
+  - 7 oz (200 g) ground pork
+  - '3 1/2 oz (100 g) shrimp, peeled and finely minced'
+  - 1 egg white
+  - '1 inch fresh ginger, grated'
+  - '3 scallions, chopped'
+  - '1 small bunch fresh cilantro, finely chopped'
+  - 1 tbsp light soy sauce
+  - 2 tsp Shaoxing wine
+  - 1 tsp toasted sesame oil
+  - 1/4 tsp ground white pepper
+  - 1/2 tsp kosher salt
+  - '--- Wontons ---'
+  - '1 lb thin wonton wrappers, store-bought or [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers)'
+  - 'water, for sealing'
+  - '--- Soup ---'
+  - '4 cups [Cantonese Wonton Broth](/mise/recipes/cantonese-wonton-broth)'
+  - 'baby bok choy or spinach, for the bowls'
+  - '1 sheet nori, shredded'
+  - 4 tsp light soy sauce
+  - 'toasted sesame oil, a few drops per bowl'
+  - 'fresh cilantro, chopped, for garnish'
+  - 1 tbsp Chinkiang black vinegar (optional)
 origin: China
-source: Adapted from Chinasichuanfood.com
-sourceUrl: 'http://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/'
+source: Adapted from China Sichuan Food
+sourceUrl: 'https://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/'
 learning:
-  focus: Keep filling and bowl seasonings separate
-  outcome: >-
-    Fully cooked pork-shrimp wontons with filling seasonings and bowl seasonings
-    used once in their own components.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      For the original batch, 1 tsp sesame oil and 1 tbsp soy belong to the
-      filling; 4 tsp bowl soy is the entire original batch maximum, not another
-      filling dose. At any batch size, divide the listed bowl-soy total among
-      the portions and taste with the seasoned broth. Additional bowl sesame oil
-      is a separate allowance.
-    - >-
-      Measure all the listed finished prepared broth, plus extra only if
-      desired. The original batch uses 4 cups; the linked broth begins with 6
-      cups and loses liquid during infusion and straining, so starting volume
-      does not establish finished output.
-    - >-
-      Keep the original small 1 tsp filling scoop with thin wrappers when
-      scaling. The original 1 lb wrapper purchase amount does not promise a
-      particular count or that every wrapper will be used. Scratch wrappers and
-      broth take separate work.
-  checkpoints:
-    - step: 1
-      cue: >-
-        Both the measured filling salt and the chopped filling coriander are
-        incorporated with the egg white and meat.
-      why: Filling coriander is distinct from the optional serving garnish.
-    - step: 4
-      cue: >-
-        Several larger fillings reach 165°F and the greens are tender for their
-        state.
-      why: >-
-        Check the filled centers; flotation and a fixed greens clock do not
-        prove completion.
-  troubleshooting:
-    - problem: Wrappers split or leak filling
-      cause: >-
-        Overfilling, trapped air, a dry sealing edge or overcrowded cooking
-        batches
-      fix: >-
-        Reduce the filling scoop enough to seal the chosen wrapper, press out
-        air and keep wrappers covered while working. Cook manageable batches
-        with room to move; check filling temperature rather than relying on
-        flotation.
   substitutions:
     - ingredient: Shaoxing wine
-      alternative: The same amount of dry sherry
-      effect: >-
-        Close in nutty, savory aroma. Avoid cooking sherry, which is salted.
-  timing: >-
-    Plan about 40–65 minutes with prepared broth and wrappers, including roughly
-    30–45 minutes active preparation. Heat-up, wrapper thickness and batch count
-    govern the cooking interval; scratch component work is additional.
+      alternative: Dry sherry
+      effect: 'Use the same amount. Skip cooking sherry, which is salted.'
+    - ingredient: Chinkiang black vinegar
+      alternative: Balsamic vinegar
+      effect: Use half as much. It is sweeter and lacks the malty depth.
   storage: >-
-    Keep raw filling and waiting uncooked dumplings refrigerated at 40°F /4°C or
-    below, bringing out small wrapping batches. Use clean utensils and plates
-    for cooked dumplings. When making ahead, freeze uncooked dumplings promptly
-    in a single layer on a lined tray, then transfer once firm to an airtight
-    freezer container. Assembly does not restart the storage clock of the raw
-    meat or seafood. Refrigerate cooked leftovers in shallow containers within 2
-    hours, or 1 hour above 90°F /32°C; use within 3–4 days and reheat to 165°F
-    /74°C throughout. Store soup broth separately and bring reheated soup to a
-    rolling boil.
-  sources:
-    - title: China Sichuan Food — Chinese Shrimp Wonton Soup
-      url: 'https://www.chinasichuanfood.com/chinese-shrimp-wonton-soup/'
-    - title: FDA Food Code — filled pasta cooking endpoint
-      url: 'https://www.fda.gov/media/194741/download'
-    - title: 'FoodSafety.gov — clean, separate, cook and chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA — leftovers cooling and reheating
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Freeze uncooked wontons on a floured tray, then bag them for up to 3 months. Boil them from
+    frozen, 1 to 2 minutes longer. Cooked wontons keep 2 days in the fridge, stored apart from the
+    broth.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Cantonese wontons rely on a filling that's sticky and cohesive, achieved by stirring ground pork and shrimp vigorously in one direction until proteins bind into a tacky paste. This traditional technique prevents the filling from crumbling during boiling. The clear broth is finished with sesame oil and shredded nori for an aromatic base.
-
-Keep waiting raw filling and assembled dumplings refrigerated, working with small batches and clean serving utensils.
+Cantonese wontons filled with pork and shrimp, served in a clear broth with nori and a few drops of sesame oil. Stir the filling hard in one direction until it turns sticky. That is what keeps it bouncy and holding together in the pot.
 
 ## Directions
 
-1.  **The Filling:** In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, Shaoxing wine, white pepper, the filling sesame oil, the filling salt and the finely chopped filling coriander. Stir vigorously in one direction for 3 minutes until sticky.
-2.  **Assemble:** Place 1 tsp filling in the center of a prepared wonton wrapper. If making [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers), allow their preparation and resting time separately. Dab edges with water, fold into a triangle, and pinch the corners together.
-3.  **The Base:** Heat the prepared broth in a saucepan. Divide the nori among the listed number of serving bowls and add a few drops of sesame oil to each. Divide the total bowl soy sauce among the servings, using less if needed, tasting with a little broth first because the broth is already seasoned.
-4.  **Boil:** Bring a separate pot of water to a gentle boil. Add the wontons in batches without crowding. Start checking after 3-4 minutes; floating alone does not establish doneness. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue until they reach 165°F / 74°C. Cook the greens in the hot broth until tender.
-5.  **Bind:** Divide all the measured hot prepared broth among the serving bowls and stir the bowl seasonings through it.
-6.  **Serve:** Transfer the cooked wontons and greens to the bowls. Garnish with fresh coriander and offer the black vinegar at the table. Refrigerate unused wrappers according to their package instructions.
+1. **Make the filling:** In a large bowl, combine the pork, shrimp, egg white, ginger, scallions, chopped cilantro and the filling soy sauce, Shaoxing wine, sesame oil, white pepper and salt. Stir hard in one direction until the filling turns sticky and pulls together, about 3 minutes.
+2. **Fill the wontons:** Put a small spoonful of filling in the center of a wrapper. Dab the edges with water, fold into a triangle and press out the air. Bring the two side corners together and pinch to seal. Keep the finished wontons covered on a floured tray.
+3. **Boil the wontons:** Bring a large pot of water to a gentle boil. Cook the wontons in batches, stirring once so they don't stick, until they float and the filling is firm and cooked through, 4 to 5 minutes.
+4. **Heat the broth:** While the wontons cook, bring the broth to a simmer in a saucepan. Add the bok choy or spinach and cook until tender, 1 to 2 minutes.
+5. **Season the bowls:** Taste the broth, which is already seasoned. Divide the nori and the bowl soy sauce among the bowls, using less soy if the broth is salty, and add a few drops of sesame oil to each.
+6. **Serve:** Ladle the hot broth and greens into the bowls and add the wontons. Top with cilantro and pass the black vinegar at the table.

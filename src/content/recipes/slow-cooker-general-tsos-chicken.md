@@ -32,116 +32,64 @@ equipment:
   - instant-read-thermometer
 pairsWith:
   - steamed-white-rice
-  - garlic-sesame-spinach
+  - steamed-broccoli
+pairingNotes:
+  steamed-white-rice: Plain rice to soak up the sauce.
+  steamed-broccoli: The takeout-style green on the side.
 ingredients:
-  - '680 g boneless skinless chicken thighs, fully thawed, left whole'
+  - '--- Chicken ---'
+  - 1 1/2 lb (680 g) boneless skinless chicken thighs
   - 2 tbsp light soy sauce
   - 1 tsp dark soy sauce
   - 1 tbsp Shaoxing wine
-  - 2 tbsp granulated sugar, for the cooker
-  - '1/2 cup (120 ml) water, plus a little only if needed to loosen the finished sauce'
-  - '3 tbsp unseasoned rice vinegar, divided'
-  - '1 tbsp granulated sugar, for finishing, added gradually to taste'
-  - 1 tbsp finely grated fresh ginger
+  - '2 tbsp sugar, for the cooker'
+  - 1/2 cup water
+  - '1 tbsp unseasoned rice vinegar, for the cooker'
+  - '1 tbsp fresh ginger, finely grated'
   - '2 cloves garlic, finely minced'
-  - '6 to 8 whole dried red chilies, such as Tianjin or chile de árbol, fewer for milder heat'
+  - 6 to 8 whole dried red chilies
+  - '--- To finish ---'
   - 1 tbsp cornstarch
-  - '2 tbsp cold water, for the slurry'
+  - 2 tbsp cold water
+  - '2 tbsp unseasoned rice vinegar, for finishing'
+  - '1 tbsp sugar, for finishing'
   - '2 scallions, thinly sliced'
 origin: Chinese-American-inspired home cooking
 description: 'Tender chicken thighs in a tangy ginger-chile sauce, thickened on the stove just before serving.'
 learning:
-  focus: Thicken the sauce after the chicken reaches its endpoint
-  outcome: >-
-    Tender pieces of chicken in a glossy, pourable ginger-chile sauce with a clear sweet-sour
-    balance.
   techniques:
     - temperature
     - starch
     - seasoning
-  before:
-    - >-
-      This slow-cooker adaptation has tender unbreaded chicken. Use a fried recipe when a crisp
-      crust is the intended result.
-    - >-
-      Use a small cooker suited to this batch and follow its fill guidance. A large nearly empty
-      crock can overcook a small amount of chicken.
-  checkpoints:
-    - step: 2
-      cue: Several thick thighs reach 165°F / 74°C and yield easily to a fork.
-      why: >-
-        Whole thighs cook differently from small breast cubes; the thermometer and texture check
-        replace a fixed four-hour guarantee.
-    - step: 4
-      cue: The simmering sauce becomes glossy and lightly coats a spoon but still flows.
-      why: >-
-        Dispersing cornstarch in cold water prevents dry lumps. Heating develops its thickening
-        effect; a slow cooker on LOW is harder to control for this short stage.
-    - step: 5
-      cue: The finished sauce tastes tangy and savory before all the sugar or vinegar is used.
-      why: >-
-        The cooking liquid already contains soy and sugar. Volume and seasoning need to be settled
-        before coating the meat.
-  troubleshooting:
-    - problem: Sauce is gluey
-      cause: Too much slurry was added for the final liquid volume.
-      fix: >-
-        Whisk in hot water a tablespoon at a time. Next time add only part of the re-stirred slurry
-        and let it thicken before judging.
-    - problem: Chicken is dry
-      cause: 'It cooked well beyond its endpoint, especially in an oversized cooker.'
-      fix: >-
-        Coat with sauce and serve; lost moisture cannot be restored by extra cooking. Check earlier
-        next time and use whole thighs.
   substitutions:
     - ingredient: Shaoxing wine
-      alternative: The same amount of dry sherry
-      effect: Close in nutty, savory aroma. Avoid cooking sherry, which is salted.
-    - ingredient: Whole dried red chilies
-      alternative: '1/2 tsp red pepper flakes, or less to taste'
-      effect: >-
-        Gives similar heat but loses the toasty whole-chili look and aroma. Flakes spread their heat
-        through the sauce, so start with less for kids.
-    - ingredient: Chicken thighs
-      alternative: '680 g fully thawed boneless chicken breast, left whole'
-      effect: >-
-        Begin checking earlier, around 2 hours on LOW, and remove at 165°F / 74°C. It will be leaner
-        and less forgiving; finish the sauce separately as directed.
-  timing: >-
-    Allow about 4 hr 35 min using a four-hour LOW cycle, 15 minutes preparation and up to 20 minutes
-    finishing. LOW usually takes 3–4 hours; HIGH about 2–3 hours. Check the chicken rather than
-    extending automatically. Rice and spinach are separate preparations.
+      alternative: Dry sherry
+      effect: 'Use the same amount. Skip cooking sherry, which is salted.'
+    - ingredient: whole dried red chilies
+      alternative: 1/2 tsp red pepper flakes
+      effect: The heat spreads through the sauce instead of staying in the pods, so use less for kids.
+    - ingredient: boneless skinless chicken thighs
+      alternative: Boneless skinless chicken breasts
+      effect: Use the same weight and start checking at 2 hours on Low. They are leaner and dry out faster.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store sauce with the chicken;
-    reheat on the stove or in the microwave with a splash of water. Do not use a slow cooker to
-    reheat chilled leftovers.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Slow cookers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety
-    - title: Namiko Hirasawa Chen — How to thicken sauce with a starch slurry
-      url: 'https://www.justonecookbook.com/how-to-thicken-sauce-soup-cornstarch-slurry/'
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat on the stove or in the microwave with
+    a splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from lecremedelacrumb.com
+    date: '2026-11-09'
+source: Adapted from Le Crème de la Crumb
 sourceUrl: 'https://www.lecremedelacrumb.com/slow-cooker-general-tsos-chicken/'
 ---
 
 ## Chef's Note
 
-This is a slow-cooker adaptation of a Chinese-American sweet-sour chicken dish. A wet, covered cook softens a fried coating, so this version uses unbreaded thighs and develops a glossy sauce separately. Ginger, chile and a staged vinegar finish distinguish it from the gentler garlic-led hoisin chicken. Plain rice and a vegetable side complete the plate.
+General Tso's is a Chinese-American takeout classic, built on soy, vinegar, sugar, ginger and whole dried chilies. The slow cooker gives tender, unbreaded thighs rather than a crisp fried coating. Thicken the sauce on the stove at the end and balance the sweet and sour to your taste.
 
 ## Directions
 
-1. **Load:** In a 3-quart slow cooker, stir both soy sauces, Shaoxing wine, the 2 tbsp cooker sugar, 120 ml water, 1 tbsp of the vinegar, ginger, garlic and the whole dried chilies. Add fully thawed whole thighs and turn to coat. Cover and start immediately.
-2. **Cook and check:** Cook on LOW about 3–4 hours or HIGH about 2–3 hours, until several thick pieces reach 165°F / 74°C and are tender. Keep the lid closed between checks. Transfer chicken to a clean plate and cover loosely while finishing the sauce.
-3. **Set sauce volume:** Pour cooking liquid into a saucepan, scraping in the garlic and ginger. Skim excess surface fat. Aim for roughly 300–350 ml liquid: simmer briefly if much more remains, or add a little water if very concentrated. Taste only after the chicken has completed cooking; avoid reducing an already salty sauce further.
-4. **Thicken:** Mix cornstarch with its 2 tbsp cold water until smooth. Bring sauce to a simmer. Re-stir the slurry and whisk in half, simmering about 1 minute. Add more slurry gradually only if needed, letting each addition thicken. Stop when the sauce lightly coats a spoon and remains pourable.
-5. **Balance and return chicken:** Lift out the dried chilies if the sauce is hot enough, or leave them in for show. Add 1 tbsp of the remaining vinegar and half the finishing sugar. Taste, then add the remaining vinegar and finishing sugar only as needed. Cut or pull chicken into large bite-sized pieces, return it and its plate juices to the sauce, and warm gently through without a long boil.
-6. **Serve:** Divide into four main portions and scatter over scallions. Serve with separately prepared plain rice and vegetables. This chicken is tender and saucy; it has no crisp fried coating.
+1. **Load the cooker:** In a 3-quart slow cooker, stir together both soy sauces, the Shaoxing wine, the cooker sugar, water, the cooker vinegar, ginger, garlic and dried chilies. Add the chicken and turn to coat.
+2. **Slow-cook:** Cover and cook on Low until the thighs are tender and read 165°F, 3 to 4 hours. Move them to a plate and cover loosely.
+3. **Reduce the sauce:** Pour the cooking liquid into a saucepan, scraping in the garlic and ginger, and skim off the fat. If there is a lot of thin liquid, simmer it for a few minutes to concentrate.
+4. **Thicken the sauce:** Stir the cornstarch into the cold water until smooth. With the sauce at a simmer, whisk in half the slurry and simmer for 1 minute. Add more, a little at a time, until the sauce lightly coats a spoon but still pours.
+5. **Balance the sauce:** Stir in half the finishing vinegar and half the finishing sugar. Taste and add the rest as needed until the sauce is tangy, sweet and savory.
+6. **Serve:** Cut the chicken into large bite-size pieces and return it to the sauce with its juices. Warm gently for 2 minutes, then scatter with scallions and serve.
