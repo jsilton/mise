@@ -22,8 +22,8 @@ cuisines:
 role: base
 vibe: comfort
 prepTime: 15 min
-cookTime: 'About 4 hr 30 min, plus heating and straining'
-totalTime: 'About 5 hr, plus cooling and overnight chilling'
+cookTime: 4 hr 30 min
+totalTime: '4 hr 45 min, plus overnight chilling'
 servings: 12 cups
 seasons:
   - year-round
@@ -31,20 +31,24 @@ seasons:
   - winter
 nutritionalDensity: moderate
 leftovers: excellent
+pairsWith:
+  - avgolemono-soup
+  - risotto-alla-milanese
+pairingNotes:
+  avgolemono-soup: Homemade stock is the heart of this lemony soup.
+  risotto-alla-milanese: 'Rich stock makes a deeper, silkier risotto.'
 ingredients:
-  - >-
-    4 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if
-    frozen
+  - '4 lb chicken bones, backs, necks, wings or carcasses'
   - 16 cups cold water
-  - '1 large yellow onion, unpeeled, washed and quartered'
-  - '2 medium carrots, washed and cut into 1-inch chunks'
-  - '2 celery stalks, washed and cut into 1-inch chunks'
+  - '1 large yellow onion, unpeeled and quartered'
+  - '2 medium carrots, cut into 1-inch chunks'
+  - '2 celery stalks, cut into 1-inch chunks'
   - '1 garlic bulb, halved crosswise'
-  - '1 bunch of fresh parsley stems, washed'
+  - 'fresh parsley stems, from 1 bunch'
   - 2 fresh thyme sprigs
   - 1 fresh bay leaf
   - 10 whole black peppercorns
-  - 'hot water, as needed to keep the bones covered during simmering, optional'
+  - 'hot water, as needed'
 formula:
   version: 1
   yield:
@@ -63,7 +67,7 @@ formula:
           uses:
             - step: prep
               share: 1
-          preparation: 'backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen'
+          preparation: 'backs, necks, wings or carcasses'
         - id: water
           key: water
           name: cold water
@@ -84,7 +88,7 @@ formula:
             - step: prep
               share: 1
           plural: large yellow onions
-          preparation: 'unpeeled, washed and quartered'
+          preparation: unpeeled and quartered
         - id: carrots
           key: carrot
           name: medium carrot
@@ -95,7 +99,7 @@ formula:
             - step: prep
               share: 1
           plural: medium carrots
-          preparation: washed and cut into 1-inch chunks
+          preparation: cut into 1-inch chunks
         - id: celery
           key: celery
           name: celery stalk
@@ -106,7 +110,7 @@ formula:
             - step: prep
               share: 1
           plural: celery stalks
-          preparation: washed and cut into 1-inch chunks
+          preparation: cut into 1-inch chunks
         - id: garlic
           key: garlic-bulb
           name: garlic bulb
@@ -120,15 +124,11 @@ formula:
           preparation: halved crosswise
         - id: parsley
           key: parsley-stems
-          name: bunch of fresh parsley stems
-          quantity:
-            amount: 1
-            unit: count
+          name: fresh parsley stems
           uses:
             - step: infuse
               share: 1
-          plural: bunches of fresh parsley stems
-          preparation: washed
+          allowance: from 1 bunch
         - id: thyme
           key: thyme
           name: fresh thyme sprig
@@ -162,127 +162,66 @@ formula:
         - id: makeup-water
           key: water
           name: hot water
-          allowance: as needed to keep the bones covered during simmering
+          allowance: as needed
           uses:
             - step: simmer
               share: 1
           role: cooking-water
-          optional: true
   steps:
     - id: prep
-      title: Prep
-      text: >-
-        Place {{ingredients}} in a stockpot with room for the full measured water, solids and
-        simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual
-        load. If it will not fit, divide every ingredient proportionally among enough pots or
-        complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with
-        attached meat; do not use carcasses that have been left out.
+      title: Fill the pot
+      text: 'Put {{ingredients}} in an 8- to 12-quart stockpot.'
     - id: heat
-      title: Heat
-      text: 'Pour in {{ingredients}}. Bring to a boil, then immediately reduce to a gentle simmer.'
+      title: Bring to a boil
+      text: >-
+        Pour in {{ingredients}}. Bring to a boil over high heat, then lower the heat right away to a
+        gentle simmer.
     - id: skim
       title: Skim
       text: >-
-        Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than
-        churning.
+        Skim off the gray foam that rises during the first 30 minutes. Keep the pot at a gentle
+        bubble, never a rolling boil, so the stock stays clear.
     - id: infuse
-      title: Infuse
+      title: Add the herbs
       text: 'Add {{ingredients}}.'
     - id: simmer
       title: Simmer
       text: >-
-        Simmer gently, uncovered, for about 4 hours after the skimming stage. Use {{ingredients}}
-        only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed
-        amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before
-        tasting or straining; the clock alone is not a measured endpoint.
+        Simmer gently, uncovered, for 4 hours. If the bones poke above the liquid, add
+        {{ingredients}} to cover them.
     - id: strain
       title: Strain
       text: >-
-        Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into
-        enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and
-        spices. Measure the strained stock if a later recipe needs an exact amount; starting water
-        and finished stock are different quantities.
+        Strain the stock through a fine-mesh sieve or a cheesecloth-lined colander into a large
+        heatproof bowl. Discard the solids.
     - id: chill
       title: Chill
       text: >-
-        Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can
-        speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above
-        90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or
-        below and chill overnight for the fat to solidify.
+        Set the bowl in an ice bath and stir now and then until the stock is cool. Cover and
+        refrigerate overnight.
     - id: defat
-      title: Defat
-      text: >-
-        Scrape the solidified fat from the cold stock before using or freezing, as desired for this
-        stock preparation. Package the stock in the amounts needed for later recipes.
+      title: Skim the fat
+      text: Lift the hardened fat off the top before using or freezing the stock.
 learning:
-  focus: 'Separate starting water, extraction and finished stock'
-  outcome: 'A gently simmered, strained stock chilled promptly in manageable portions.'
   techniques:
     - temperature
-  before:
-    - >-
-      Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen supplies. Prepare serving
-      herbs and vegetables with clean tools before handling raw meat; keep cooked food and its
-      utensils separate.
-    - >-
-      Prepare enough shallow heatproof containers and an ice bath before straining. Pots must hold
-      the measured water and solids with headroom; larger batches may require several proportionate
-      pots.
-    - >-
-      Twelve cups is the inherited original-batch planning estimate, not a measured finished yield.
-      Scale the starting ingredients together, then measure the strained output.
-  checkpoints:
-    - step: 5
-      cue: Small bubbles rise without the pot churning; the bones remain covered.
-      why: >-
-        Evaporation changes concentration. Restore coverage only as needed rather than assuming
-        every batch loses the same volume.
-    - step: 7
-      cue: >-
-        Stock is divided into shallow vessels and refrigerated promptly, then cold through before
-        defatting.
-      why: >-
-        A large hot bowl can cool unevenly; surface coolness does not establish the temperature in
-        its center.
-  troubleshooting:
-    - problem: The stock has reduced much more than expected
-      cause: 'Pot width, uncovered simmering and heat change evaporation.'
-      fix: >-
-        Use the listed hot-water allowance to restore bone coverage during cooking. Measure the
-        strained stock and assess its concentration before using it in a measured recipe.
-  timing: >-
-    Allow about 5 hours to prepare, heat, skim, simmer and strain the original batch, then cooling
-    and overnight chilling for the written defatting route. Preparation is about 15 minutes; the
-    first 30 minutes need attention, and straining/cooling add hands-on work. The four-hour simmer
-    follows skimming. Extra pot loads extend the schedule.
-  storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F /
-    32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Reheat while stirring to
-    165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling
-    boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time.
-    Freeze in recipe-sized portions; no home-canning process is specified.
-  sources:
-    - title: FDA handling and poultry temperatures
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  storage: 'Refrigerate for up to 4 days, or freeze in recipe-size containers for 6 months.'
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Chicken bones, vegetables and herbs make an unsalted stock for later soups and sauces. Keep the initial cooking at a gentle simmer for a clearer liquid, and leave the washed onion skins on for their amber color. Measure the strained stock when portioning it; evaporation and the amount of attached meat change the result.
+A plain, unsalted chicken stock for soups, sauces and risotto. Keep it at a lazy simmer the whole time, since a hard boil makes it cloudy and greasy. Leaving the skins on the onion gives the stock a deep amber color.
 
 ## Directions
 
-1. **Prep:** Place chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in a stockpot with room for the full measured water, solids and simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual load. If it will not fit, divide every ingredient proportionally among enough pots or complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with attached meat; do not use carcasses that have been left out.
-2. **Heat:** Pour in cold water. Bring to a boil, then immediately reduce to a gentle simmer.
-3. **Skim:** Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than churning.
-4. **Infuse:** Add bunch of fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.
-5. **Simmer:** Simmer gently, uncovered, for about 4 hours after the skimming stage. Use hot water (if using) only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before tasting or straining; the clock alone is not a measured endpoint.
-6. **Strain:** Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and spices. Measure the strained stock if a later recipe needs an exact amount; starting water and finished stock are different quantities.
-7. **Chill:** Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or below and chill overnight for the fat to solidify.
-8. **Defat:** Scrape the solidified fat from the cold stock before using or freezing, as desired for this stock preparation. Package the stock in the amounts needed for later recipes.
+1. **Fill the pot:** Put chicken bones, large yellow onion, medium carrots, celery stalks, and garlic bulb in an 8- to 12-quart stockpot.
+2. **Bring to a boil:** Pour in cold water. Bring to a boil over high heat, then lower the heat right away to a gentle simmer.
+3. **Skim:** Skim off the gray foam that rises during the first 30 minutes. Keep the pot at a gentle bubble, never a rolling boil, so the stock stays clear.
+4. **Add the herbs:** Add fresh parsley stems, fresh thyme sprigs, fresh bay leaf, and whole black peppercorns.
+5. **Simmer:** Simmer gently, uncovered, for 4 hours. If the bones poke above the liquid, add hot water to cover them.
+6. **Strain:** Strain the stock through a fine-mesh sieve or a cheesecloth-lined colander into a large heatproof bowl. Discard the solids.
+7. **Chill:** Set the bowl in an ice bath and stir now and then until the stock is cool. Cover and refrigerate overnight.
+8. **Skim the fat:** Lift the hardened fat off the top before using or freezing the stock.

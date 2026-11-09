@@ -27,101 +27,109 @@ cuisines:
   - American
 role: main
 vibe: technical
-prepTime: About 15–20 min active preparation
-cookTime: 'About 20–35 min searing and roasting, plus 10 min rest'
-totalTime: >-
-  About 3 hr 45 min–5 hr 5 min with the 3–4 hr marinade, plus any remaining oven heating or extra
-  loads
+prepTime: 15 min
+cookTime: 35 min
+totalTime: '50 min, plus 3 hr marinating'
 servings: 6 portions
 pairsWith:
-  - roasted-fall-harvest-salad
-  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
-  - cinnamon-sweet-potatoes
+  - garlic-roasted-potatoes
+  - green-beans-with-shallots-and-lemon
+pairingNotes:
+  garlic-roasted-potatoes: Crisp potatoes for the lemony pan juices.
+  green-beans-with-shallots-and-lemon: Bright green beans that echo the lemon marinade.
 ingredients:
-  - '--- Lemon–herb marinade ---'
-  - 3/4 cup Fresh lemon juice
-  - 1 tbsp Lemon zest
-  - 1/2 cup Extra-virgin olive oil for marinade
-  - '2 tbsp Garlic, minced'
-  - '1 1/2 tbsp Fresh rosemary, minced'
-  - '1 tbsp Fresh thyme, chopped'
+  - 3/4 cup fresh lemon juice
+  - '1 tbsp lemon zest, finely grated'
+  - '1/2 cup extra-virgin olive oil, for the marinade'
+  - '2 tbsp garlic, minced'
+  - '1 1/2 tbsp fresh rosemary, minced'
+  - '1 tbsp fresh thyme, chopped'
   - 2 tsp Dijon mustard
-  - 2 tsp Kosher salt for marinade
-  - >-
-    3 Pork tenderloins, about 1 lb each in the original batch; keep individual diameter similar when
-    scaling
-  - '--- Separate searing oil and seasoning ---'
-  - 3 tbsp Extra-virgin olive oil for searing
-  - 'Kosher salt for meat seasoning, as needed before searing'
-  - 'Black pepper, to taste before searing'
-source: Adapted from foodnetwork.com
+  - 2 tsp kosher salt
+  - '3 pork tenderloins, about 1 lb each'
+  - 'kosher salt, for seasoning'
+  - 'black pepper, for seasoning'
+  - '3 tbsp extra-virgin olive oil, for searing'
+source: Adapted from Ina Garten
 sourceUrl: 'https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375'
+learning:
+  techniques:
+    - temperature
+    - seasoning
+  storage: >-
+    Refrigerate leftovers for up to 4 days. The sliced pork is good cold in sandwiches or warmed
+    gently in a covered skillet.
+  review:
+    status: editorial-review
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
     amount: 6
     unit: portion
   components:
-    - id: marinade
-      name: Lemon–herb marinade
+    - id: main
+      name: Main recipe
       ingredients:
         - id: lemon-juice
           key: lemon-juice
-          name: Fresh lemon juice
+          name: fresh lemon juice
           quantity:
-            amount: 0.75
+            amount: 3/4
             unit: cup
           uses:
             - step: mix
               share: 1
         - id: zest
           key: zest
-          name: Lemon zest
+          name: lemon zest
           quantity:
             amount: 1
             unit: tbsp
+          preparation: finely grated
           uses:
             - step: mix
               share: 1
         - id: oil
           key: oil
-          name: Extra-virgin olive oil for marinade
+          name: extra-virgin olive oil
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: cup
+          preparation: for the marinade
           uses:
             - step: mix
               share: 1
         - id: garlic
           key: garlic
-          name: Garlic
+          name: garlic
           quantity:
             amount: 2
             unit: tbsp
+          preparation: minced
           uses:
             - step: mix
               share: 1
-          preparation: minced
         - id: rosemary
           key: rosemary
-          name: Fresh rosemary
+          name: fresh rosemary
           quantity:
-            amount: 1.5
+            amount: 1 1/2
             unit: tbsp
+          preparation: minced
           uses:
             - step: mix
               share: 1
-          preparation: minced
         - id: thyme
           key: thyme
-          name: Fresh thyme
+          name: fresh thyme
           quantity:
             amount: 1
             unit: tbsp
+          preparation: chopped
           uses:
             - step: mix
               share: 1
-          preparation: chopped
         - id: mustard
           key: mustard
           name: Dijon mustard
@@ -133,7 +141,7 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: Kosher salt for marinade
+          name: kosher salt
           quantity:
             amount: 2
             unit: tsp
@@ -142,159 +150,83 @@ formula:
               share: 1
         - id: pork
           key: pork
-          name: Pork tenderloin
+          name: pork tenderloin
+          plural: pork tenderloins
           quantity:
             amount: 3
             unit: count
+          preparation: about 1 lb each
           uses:
             - step: marinate
               share: 1
-          plural: Pork tenderloins
-          preparation: about 1 lb each in the original batch; keep individual diameter similar when scaling
-    - id: pan
-      name: Separate searing oil and seasoning
-      ingredients:
-        - id: oil
-          key: oil
-          name: Extra-virgin olive oil for searing
-          quantity:
-            amount: 3
-            unit: tbsp
+        - id: season-salt
+          key: season-salt
+          name: kosher salt
+          allowance: for seasoning
           uses:
-            - step: sear
-              share: 1
-        - id: salt
-          key: salt
-          name: Kosher salt for meat seasoning
-          allowance: as needed before searing
-          uses:
-            - step: sear
+            - step: season
               share: 1
         - id: pepper
           key: pepper
-          name: Black pepper
-          allowance: to taste before searing
+          name: black pepper
+          allowance: for seasoning
+          uses:
+            - step: season
+              share: 1
+        - id: sear-oil
+          key: sear-oil
+          name: extra-virgin olive oil
+          quantity:
+            amount: 3
+            unit: tbsp
+          preparation: for searing
           uses:
             - step: sear
               share: 1
   steps:
     - id: mix
-      title: Mix the coating or marinade
-      text: 'Mix {{ingredients}} in a clean bowl or raw-meat container before adding the pork.'
+      title: Make the marinade
+      text: 'In a bowl, whisk {{ingredients}}.'
     - id: marinate
-      title: Coat and refrigerate
+      title: Marinate
       text: >-
-        Add {{ingredients}} to the prepared lemon–herb marinade in a sealable raw-meat container or
-        sturdy bag and turn to coat. Seal and refrigerate for 3–4 hours, no longer. This much lemon
-        juice turns the surface of lean tenderloin chalky and mushy if it sits overnight. Keep the
-        container separate from ready-to-eat ingredients.
+        Put {{ingredients}} in a large zip-top bag, pour in the marinade and turn to coat. Seal and
+        refrigerate for 3 to 4 hours. Any longer and the lemon turns the surface of the pork mushy.
+    - id: season
+      title: Season the pork
+      text: >-
+        Heat the oven to 400°F. Lift the pork out of the bag, leaving on the herbs that cling to it,
+        and discard the marinade. Season all over with {{ingredients}}.
     - id: sear
-      title: Discard marinade and sear
+      title: Sear
       text: >-
-        Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave
-        the herbs that cling to the meat. Have {{ingredients}} ready. Season the pork with the
-        separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet
-        over medium-high heat until shimmering and sear the tenderloins on all sides until golden.
-        Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch
-        amount, not 3 tbsp per skillet.
+        Heat {{ingredients}} in a large oven-safe skillet over medium-high heat until shimmering.
+        Sear the tenderloins until golden brown on all sides, about 8 minutes.
     - id: roast
-      title: Roast and check every piece
+      title: Roast
       text: >-
-        Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe
-        roasting pan with space between the pieces. Begin checking after about 10 minutes and
-        continue until the thickest center of every tenderloin reaches at least 145°F /63°C before
-        removal. Do not assume that rest will supply a missing cooking temperature.
+        Move the skillet to the oven. Roast until the thickest part of each tenderloin reaches
+        145°F, 10 to 15 minutes.
     - id: rest
-      title: Rest on a clean platter
-      text: >-
-        Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes**
-        before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured
-        145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.
+      title: Rest
+      text: 'Move the pork to a platter, cover it loosely with foil and let it rest for 10 minutes.'
     - id: serve
       title: Slice and serve
       text: >-
-        Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices
-        collected on the clean resting platter.
-learning:
-  focus: 'Keep the coating, cold waiting time and each tenderloin’s endpoint distinct'
-  outcome: Lemon–herb tenderloins with browned surfaces and each center checked before its 10-minute rest
-  techniques:
-    - temperature
-    - seasoning
-  before:
-    - >-
-      The listed marinade oil and listed searing oil are separate allocations: ½ cup and 3 tbsp
-      respectively in the original batch. The listed measured marinade salt is also separate from
-      the extra meat-seasoning allowance: 2 tsp in the original batch. Scale these measured amounts
-      together with the batch.
-    - >-
-      Refrigerate the pork in the marinade for 3–4 hours, not overnight, since the lemon juice
-      softens the surface of lean tenderloin with longer contact. To work ahead, mix everything but
-      the lemon juice the night before and add the juice when the pork goes in. Elapsed time
-      includes the refrigerated wait and rest; keep raw pork refrigerated while the oven heats.
-    - >-
-      Keep original about 1 lb tenderloins of comparable diameter when scaling. Use more skillet
-      space or sear in batches, then roast with room between pieces; check every thick center.
-  checkpoints:
-    - step: 3
-      cue: >-
-        Raw marinade is discarded, and the listed searing oil remains separate from the listed
-        marinade oil.
-      why: The two oil portions have distinct jobs; marinade oil is not a pan reserve.
-    - step: 4
-      cue: Every thickest center measures 145°F before leaving the oven.
-      why: Rest cannot justify removing pork before its written cooking endpoint.
-  troubleshooting:
-    - problem: The outside darkens before the center is ready
-      cause: 'Heat is too intense, the piece is thick or the pan is crowded'
-      fix: >-
-        Lower or move away from intense heat and finish the center gently, checking temperature.
-        Give larger batches more pan area. Blackened garlic cannot be repaired by insisting on the
-        stated timer.
-  substitutions:
-    - ingredient: Measured tablespoon lemon zest
-      alternative: The grated zest of one lemon for the original batch
-      effect: >-
-        A lemon’s zest yield varies; one lemon does not always yield a tablespoon. Choose one zest
-        expression, not both; the listed lemon-juice amount remains unchanged.
-  timing: >-
-    Allow about 15–20 minutes active preparation, 3–4 hours refrigerated marinating, roughly 20–35
-    minutes searing and roasting, and 10 minutes resting: a 3 hour 45 minute–5 hour 5 minute
-    planning subtotal. Do not extend the marinade overnight. Start heating the oven while waiting
-    pork remains refrigerated and load only once it reaches 400°F; any remaining heating or
-    additional pan loads extends the subtotal. Keep searing and roasting in one continuous cooking
-    session, checking every tenderloin rather than multiplying the clock.
-  storage: >-
-    Refrigerate cooked leftovers in shallow containers within 2 hours, or 1 hour above 90°F /32°C,
-    at 40°F /4°C or below. Use within 3–4 days and reheat the portion served to 165°F /74°C
-    throughout. Keep raw pork and its marinade utensils separate from cooked meat, fruit and
-    toppings; refrigerate raw waiting meat rather than use room-temperature exposure limits as a
-    marinating method.
-  sources:
-    - title: Ina Garten — Herb-Marinated Pork Tenderloins
-      url: >-
-        https://www.foodnetwork.com/recipes/ina-garten/herb-marinated-pork-tenderloins-recipe-1948375
-    - title: 'FoodSafety.gov — pork cuts, ground meat and leftover temperatures'
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — clean, separate, cook and chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA — leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-  review:
-    status: editorial-review
-    date: '2026-10-05'
+        Slice across the grain into 1/2-inch diagonal slices. Serve with the juices from the
+        platter.
 ---
 
 ## Chef's Note
 
-Lemon juice, zest, rosemary and thyme flavor the refrigerated marinade. Its olive oil is separate from the oil used for searing. Discard the raw-contact liquid while leaving the herbs that cling to the pork, then cook each tenderloin to 145°F before removing it from the oven and rest 10 minutes. The marinade’s acidity does not justify an enzyme claim or a lower cooking endpoint.
+Ina Garten's pork tenderloins soak up a bright marinade of lemon, garlic, rosemary and thyme, then get a hard sear and a quick roast. Pull them at 145°F and let them rest so they stay juicy and faintly pink. Keep the marinade to a few hours, since the lemon is strong.
 
 ## Directions
 
-1. **Mix the coating or marinade:** Mix Fresh lemon juice, Lemon zest, Extra-virgin olive oil for marinade, Garlic, Fresh rosemary, Fresh thyme, Dijon mustard, and Kosher salt for marinade in a clean bowl or raw-meat container before adding the pork.
-2. **Coat and refrigerate:** Add Pork tenderloins to the prepared lemon–herb marinade in a sealable raw-meat container or sturdy bag and turn to coat. Seal and refrigerate for 3–4 hours, no longer. This much lemon juice turns the surface of lean tenderloin chalky and mushy if it sits overnight. Keep the container separate from ready-to-eat ingredients.
-3. **Discard marinade and sear:** Heat the oven to 400°F. Lift the tenderloins out, discard the raw-contact liquid and leave the herbs that cling to the meat. Have Extra-virgin olive oil for searing, Kosher salt for meat seasoning, and Black pepper ready. Season the pork with the separate salt and pepper allowances. Heat the measured pan oil in a large oven-safe skillet over medium-high heat until shimmering and sear the tenderloins on all sides until golden. Use manageable loads and divide that pan oil over the loads as needed; it is the whole batch amount, not 3 tbsp per skillet.
-4. **Roast and check every piece:** Transfer the oven-safe skillet to the oven; if the batch needs more room, use an oven-safe roasting pan with space between the pieces. Begin checking after about 10 minutes and continue until the thickest center of every tenderloin reaches at least 145°F /63°C before removal. Do not assume that rest will supply a missing cooking temperature.
-5. **Rest on a clean platter:** Transfer ready tenderloins to a clean platter, cover with foil. **Rest for 10 minutes** before carving each tenderloin. This exceeds the minimum 3-minute rest after the measured 145°F endpoint. Keep hot handles protected and avoid the raw marinade vessel.
-6. **Slice and serve:** Carve across the grain into roughly ½-inch diagonal slices. Serve warm with the juices collected on the clean resting platter.
+1. **Make the marinade:** In a bowl, whisk fresh lemon juice, lemon zest, extra-virgin olive oil, garlic, fresh rosemary, fresh thyme, Dijon mustard, and kosher salt.
+2. **Marinate:** Put pork tenderloins in a large zip-top bag, pour in the marinade and turn to coat. Seal and refrigerate for 3 to 4 hours. Any longer and the lemon turns the surface of the pork mushy.
+3. **Season the pork:** Heat the oven to 400°F. Lift the pork out of the bag, leaving on the herbs that cling to it, and discard the marinade. Season all over with kosher salt and black pepper.
+4. **Sear:** Heat extra-virgin olive oil in a large oven-safe skillet over medium-high heat until shimmering. Sear the tenderloins until golden brown on all sides, about 8 minutes.
+5. **Roast:** Move the skillet to the oven. Roast until the thickest part of each tenderloin reaches 145°F, 10 to 15 minutes.
+6. **Rest:** Move the pork to a platter, cover it loosely with foil and let it rest for 10 minutes.
+7. **Slice and serve:** Slice across the grain into 1/2-inch diagonal slices. Serve with the juices from the platter.
