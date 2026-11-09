@@ -33,7 +33,9 @@ ingredients:
   - 1/2 cup granulated sugar
   - 1 tbsp kosher salt
   - 8–8 1/2 cups all-purpose flour
-  - 'all-purpose flour, only as needed for the kneading surface, separate from the measured dough flour'
+  - >-
+    all-purpose flour, only as needed for the kneading surface, separate from the measured dough
+    flour
   - 'vegetable oil, a light coating for the rising bowl and baking sheets'
   - '--- Finish ---'
   - '1 large egg, for preparing the egg wash used for both coatings'
@@ -172,34 +174,66 @@ formula:
   steps:
     - id: activate
       title: Activate yeast
-      text: 'Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy surface. If the yeast remains inactive, replace it before adding the remaining supplies.'
+      text: >-
+        Dissolve {{ingredients}} in a large bowl. Begin checking after about 10 minutes for a foamy
+        surface. If the yeast remains inactive, replace it before adding the remaining supplies.
     - id: enrich
       title: Enrich
       text: 'Whisk {{ingredients}} into the yeast mixture, beating in the dough eggs one at a time.'
     - id: flour
       title: Add flour
-      text: 'Gradually incorporate {{ingredients}}, beginning with the lower end of the listed range and adding from the remaining measured allowance only as needed until the dough holds together. Do not automatically add the maximum if the dough is already workable.'
+      text: >-
+        Gradually incorporate {{ingredients}}, beginning with the lower end of the listed range and
+        adding from the remaining measured allowance only as needed until the dough holds together.
+        Do not automatically add the maximum if the dough is already workable.
     - id: knead
       title: Knead
-      text: 'Use {{ingredients}} to lightly dust the surface, then knead the dough until smooth and elastic, starting to check after about 10 minutes. A mixer with a dough hook is an alternative: use its actual capacity and instructions, or divide into complete proportionate dough loads rather than overloading it.'
+      text: >-
+        Use {{ingredients}} to lightly dust the surface, then knead the dough until smooth and
+        elastic, starting to check after about 10 minutes. A mixer with a dough hook is an
+        alternative: use its actual capacity and instructions, or divide into complete proportionate
+        dough loads rather than overloading it.
     - id: first-rise
       title: First rise
-      text: 'Use {{ingredients}} to grease the cleaned rising bowl and sheets. Put the dough in the bowl, cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as a guide. Keep the separately greased sheets ready for shaping.'
+      text: >-
+        Use {{ingredients}} to grease the cleaned rising bowl and sheets. Put the dough in the bowl,
+        cover and let rise in a gently warm, draft-free place until almost doubled, about 1 hour as
+        a guide. Keep the separately greased sheets ready for shaping.
     - id: second-rise
       title: Rise again
       text: 'Gently deflate the dough, cover and let it rise again for about half an hour before shaping.'
     - id: shape
       title: Shape and braid
-      text: 'For the original two-loaf batch, divide the dough in half and each half into six equal pieces. Roll each piece into a strand about 12 inches long and 1½ inches wide, then braid using the pattern below. Tuck the ends under for straight loaves, or form each braid into a ring and pinch its ends together. Use enough greased baking-sheet space to keep original-size loaves at least 2 inches apart. Make additional similar loaves when scaling up; a batch smaller than one original-size loaf makes a smaller braid whose dimensions and baking time will differ.'
+      text: >-
+        For the original two-loaf batch, divide the dough in half and each half into six equal
+        pieces. Roll each piece into a strand about 12 inches long and 1½ inches wide, then braid
+        using the pattern below. Tuck the ends under for straight loaves, or form each braid into a
+        ring and pinch its ends together. Use enough greased baking-sheet space to keep
+        original-size loaves at least 2 inches apart. Make additional similar loaves when scaling
+        up; a batch smaller than one original-size loaf makes a smaller braid whose dimensions and
+        baking time will differ.
     - id: wash
       title: Prepare wash and final rise
-      text: 'Beat {{ingredients}} in a clean small bowl to prepare the whole wash. Brush a light coating onto the braided loaves, then cover and refrigerate the remaining wash for the second coating; no fixed division between coatings is required. Loosely cover the loaves and let them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this rise.'
+      text: >-
+        Beat {{ingredients}} in a clean small bowl to prepare the whole wash. Brush a light coating
+        onto the braided loaves, then cover and refrigerate the remaining wash for the second
+        coating; no fixed division between coatings is required. Loosely cover the loaves and let
+        them become puffy, about 1 hour as a guide. Begin preheating the oven to 375°F during this
+        rise.
     - id: bake
       title: Bake
-      text: 'Brush the risen loaves with the remaining egg wash and sprinkle with {{ingredients}}. Load only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35 minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in the seams between strands and a loaf that feels set. If the washed surface darkens before the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate oven loads add time.'
+      text: >-
+        Brush the risen loaves with the remaining egg wash and sprinkle with {{ingredients}}. Load
+        only once the oven reaches 375°F. Bake in the middle of the oven, beginning checks after 35
+        minutes; the original 35–40 minute range is a guide. Look for golden-brown crust, color in
+        the seams between strands and a loaf that feels set. If the washed surface darkens before
+        the loaf is baked, loosely shield it with oven-safe foil and continue checking. Separate
+        oven loads add time.
     - id: cool
       title: Cool
-      text: Transfer to racks and cool completely before slicing. Discard any unused egg wash; do not use raw wash as a serving sauce.
+      text: >-
+        Transfer to racks and cool completely before slicing. Discard any unused egg wash; do not
+        use raw wash as a serving sauce.
 learning:
   focus: 'Judge an enriched dough through rising, braiding and baking'
   outcome: 'An evenly risen braid with colored seams, a set interior and a soft crumb after cooling.'
@@ -207,13 +241,21 @@ learning:
     - leavening
     - temperature
   before:
-    - The original batch makes two loaves and uses four eggs in the dough plus one egg to prepare both washes. Follow the listed amounts for other batches.
-    - 'Choose mixer, bowl and baking-sheet capacity before mixing. The original braid dimensions apply to full-size loaves; fractional loaves need a different shape and earlier observation.'
-    - Kosher-salt crystal densities differ. Keep the stated salt type; do not substitute a denser fine salt by the same spoon volume.
+    - >-
+      The original batch makes two loaves and uses four eggs in the dough plus one egg to prepare
+      both washes. Follow the listed amounts for other batches.
+    - >-
+      Choose mixer, bowl and baking-sheet capacity before mixing. The original braid dimensions
+      apply to full-size loaves; fractional loaves need a different shape and earlier observation.
+    - >-
+      Kosher-salt crystal densities differ. Keep the stated salt type; do not substitute a denser
+      fine salt by the same spoon volume.
   checkpoints:
     - step: 3
       cue: The dough holds together before all of the flour-range maximum has necessarily been added.
-      why: Humidity and flour measurement affect how much of the listed range the dough needs; forcing the upper limit can make it dry.
+      why: >-
+        Humidity and flour measurement affect how much of the listed range the dough needs; forcing
+        the upper limit can make it dry.
     - step: 8
       cue: The final braid looks puffy without tight strands restraining expansion.
       why: 'The rise is a dough-state decision, not a guarantee from elapsed minutes.'
@@ -223,12 +265,23 @@ learning:
   troubleshooting:
     - problem: The dough is dry and hard to knead
       cause: Too much flour was incorporated or the surface was heavily dusted.
-      fix: Stop adding flour from the listed range and keep dusting light. A finished dry dough cannot be corrected by additional proofing alone.
+      fix: >-
+        Stop adding flour from the listed range and keep dusting light. A finished dry dough cannot
+        be corrected by additional proofing alone.
     - problem: The top is dark but the loaf feels underbaked
       cause: The egg-washed surface has browned faster than the thicker center.
       fix: Loosely shield the surface with oven-safe foil and continue baking and checking the loaf.
-  timing: 'The fresh route includes the existing 10-minute yeast check, kneading, about 1 hour first rise, another half-hour rise, about 1 hour final rise and 35–40 minutes baking. Mixing, shaping, actual proof conditions, extra oven loads and complete cooling extend elapsed time; about 3½ hours or longer before cooling is a planning estimate. Frozen shaped loaves have a separate approximately five-hour thaw/rise plan, not an additional fresh final rise.'
-  storage: 'Cool completely before wrapping. Keep plain baked bread well wrapped at room temperature for several days for quality, or freeze for longer storage; discard moldy bread. Refrigerate raw egg wash promptly and follow its product limits. The shaped-dough freezer option has its own thaw/rise process above.'
+  timing: >-
+    The fresh route includes the existing 10-minute yeast check, kneading, about 1 hour first rise,
+    another half-hour rise, about 1 hour final rise and 35–40 minutes baking. Mixing, shaping,
+    actual proof conditions, extra oven loads and complete cooling extend elapsed time; about 3½
+    hours or longer before cooling is a planning estimate. Frozen shaped loaves have a separate
+    approximately five-hour thaw/rise plan, not an additional fresh final rise.
+  storage: >-
+    Cool completely before wrapping. Keep plain baked bread well wrapped at room temperature for
+    several days for quality, or freeze for longer storage; discard moldy bread. Refrigerate raw egg
+    wash promptly and follow its product limits. The shaped-dough freezer option has its own
+    thaw/rise process above.
   sources:
     - title: Saved My Favorite Challah source
       url: 'https://cooking.nytimes.com/recipes/7199-my-favorite-challah'

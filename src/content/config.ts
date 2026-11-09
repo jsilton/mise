@@ -58,6 +58,8 @@ const recipesCollection = defineCollection({
 
       // Pairing suggestions
       pairsWith: z.array(z.string()).optional(), // Suggested complementary dishes (must be valid recipe slugs)
+      // One short line per pairing saying how it goes with this dish, keyed by the pairsWith slug.
+      pairingNotes: z.record(z.string().min(1)).optional(),
 
       // Relationship fields
       isVariationOf: z.string().optional(), // Slug of the canonical version if this is a variant
@@ -87,8 +89,10 @@ const recipesCollection = defineCollection({
       description: z.string().optional(),
       learning: z
         .object({
-          focus: z.string().min(1),
-          outcome: z.string().min(1),
+          // Older teaching fields. Recipe pages no longer show them; they are kept optional
+          // only so unreviewed files still load.
+          focus: z.string().min(1).optional(),
+          outcome: z.string().min(1).optional(),
           techniques: z
             .array(
               z
@@ -96,7 +100,7 @@ const recipesCollection = defineCollection({
                 .refine((value) => techniques.some((t) => t.slug === value), 'Unknown technique')
             )
             .min(1),
-          before: z.array(z.string().min(1)).min(1),
+          before: z.array(z.string().min(1)).optional(),
           checkpoints: z
             .array(
               z.object({
@@ -105,7 +109,7 @@ const recipesCollection = defineCollection({
                 why: z.string().min(1),
               })
             )
-            .min(1),
+            .optional(),
           troubleshooting: z
             .array(
               z.object({
@@ -114,15 +118,17 @@ const recipesCollection = defineCollection({
                 fix: z.string().min(1),
               })
             )
-            .min(1),
+            .optional(),
           substitutions: z
             .array(
               z.object({ ingredient: z.string(), alternative: z.string(), effect: z.string() })
             )
             .optional(),
-          storage: z.string().min(1),
-          timing: z.string().min(1),
-          sources: z.array(z.object({ title: z.string().min(1), url: z.string().url() })).min(1),
+          storage: z.string().min(1).optional(),
+          timing: z.string().min(1).optional(),
+          sources: z
+            .array(z.object({ title: z.string().min(1), url: z.string().url() }))
+            .optional(),
           // Source review never implies that the recipe has been cooked and tested.
           review: z
             .object({

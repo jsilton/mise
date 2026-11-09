@@ -38,7 +38,6 @@ pairsWith:
   - basmati-rice
   - smashed-cucumber-salad
 ingredients:
-  - '--- Ribs and marinade ---'
   - >-
     4 lb pork spareribs or baby back ribs, roughly 2 racks for the original 4-lb batch; cut into
     3-rib sections

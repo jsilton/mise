@@ -50,8 +50,8 @@ ingredients:
   - 1/2 tsp salt
   - '--- Fruit choice ---'
   - >-
-    1 cup blueberries, diced strawberries, or peeled diced pears, wash fresh
-    fruit before preparing; choose one fruit or a mix at this total volume
+    1 cup blueberries, diced strawberries, or peeled diced pears, wash fresh fruit before preparing;
+    choose one fruit or a mix at this total volume
   - '--- Optional serving ---'
   - 'salted butter, a little for serving, if desired, optional'
 source: Adapted from 100daysofrealfood.com
@@ -170,9 +170,7 @@ formula:
           uses:
             - step: fruit
               share: 1
-          preparation: >-
-            wash fresh fruit before preparing; choose one fruit or a mix at this
-            total volume
+          preparation: wash fresh fruit before preparing; choose one fruit or a mix at this total volume
     - id: serving
       name: Optional serving
       ingredients:
@@ -188,128 +186,107 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 400°F and line a muffin tin. The original batch
-        plans twelve muffins. Use enough similar wells for a scaled batch,
-        leaving room for the complete fruit amount.
+        Preheat the oven to 400°F and line a muffin tin. The original batch plans twelve muffins.
+        Use enough similar wells for a scaled batch, leaving room for the complete fruit amount.
     - id: dry
       title: Mix dry ingredients
       text: 'Whisk {{ingredients}} together, including the full salt amount.'
     - id: wet
       title: Mix wet ingredients
       text: >-
-        Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil
-        warm rather than hot when it touches the eggs; other same-volume oils
-        may replace it.
+        Whisk {{ingredients}} in a separate bowl. Keep the melted coconut oil warm rather than hot
+        when it touches the eggs; other same-volume oils may replace it.
     - id: combine
       title: Combine
       text: >-
-        Stir the wet mixture into the dry mixture with a spatula until no dry
-        flour pockets remain, then stop mixing.
+        Stir the wet mixture into the dry mixture with a spatula until no dry flour pockets remain,
+        then stop mixing.
     - id: fruit
       title: Portion and add fruit
       text: >-
-        Divide the batter among the lined wells, starting around ⅔ full and
-        leaving room for {{ingredients}}. Divide the complete listed fruit among
-        the wells and gently mix it into each with a small spoon or fork. If the
-        chosen fruit and batter will overflow, use another well or load instead
-        of discarding part of the fruit. Alternatively, fold the full fruit
+        Divide the batter among the lined wells, starting around ⅔ full and leaving room for
+        {{ingredients}}. Divide the complete listed fruit among the wells and gently mix it into
+        each with a small spoon or fork. If the chosen fruit and batter will overflow, use another
+        well or load instead of discarding part of the fruit. Alternatively, fold the full fruit
         amount into the batter before portioning; use one route, not both.
     - id: bake
       title: Bake
       text: >-
-        Wait until the oven reaches 400°F. Bake 10–15 minutes per load, until a
-        center toothpick comes out clean. Fruit pieces and pan fill may change
-        the time; check another central spot if the first tester passes through
-        wet fruit.
+        Wait until the oven reaches 400°F. Bake 10–15 minutes per load, until a center toothpick
+        comes out clean. Fruit pieces and pan fill may change the time; check another central spot
+        if the first tester passes through wet fruit.
     - id: serve
       title: Cool and serve
       text: >-
-        Let the muffins firm enough to remove from the tin. Serve warm or finish
-        cooling on a rack, with {{ingredients}} only if desired. Cool fully
-        before wrapping or freezing.
+        Let the muffins firm enough to remove from the tin. Serve warm or finish cooling on a rack,
+        with {{ingredients}} only if desired. Cool fully before wrapping or freezing.
 learning:
-  focus: >-
-    Choosing one complete filling route while stopping muffin mixing when the
-    flour is incorporated.
+  focus: Choosing one complete filling route while stopping muffin mixing when the flour is incorporated.
   outcome: >-
-    A clean center tester and fruit distributed through the muffins, with no dry
-    flour pockets or overflowing wells.
+    A clean center tester and fruit distributed through the muffins, with no dry flour pockets or
+    overflowing wells.
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      The original batch plans twelve muffins. Scale the number of wells and the
-      full listed fruit amount; do not treat the original tin as unlimited
-      capacity.
+      The original batch plans twelve muffins. Scale the number of wells and the full listed fruit
+      amount; do not treat the original tin as unlimited capacity.
     - >-
-      Choose the full-batch fruit route or the individual-dose option.
-      Individual 1–2 tsp fillings and ¼–½ tsp zest are per original-size muffin,
-      not extra full-batch additions.
-    - >-
-      Do not taste raw batter or dough. Wash hands and tools after handling raw
-      flour or eggs.
+      Choose the full-batch fruit route or the individual-dose option. Individual 1–2 tsp fillings
+      and ¼–½ tsp zest are per original-size muffin, not extra full-batch additions.
+    - Do not taste raw batter or dough. Wash hands and tools after handling raw flour or eggs.
   checkpoints:
     - step: 4
       cue: No dry flour remains after stirring.
-      why: >-
-        Bowl size and technique make a fixed mixing-seconds instruction
-        unreliable.
+      why: Bowl size and technique make a fixed mixing-seconds instruction unreliable.
     - step: 5
       cue: All chosen full-batch fruit is allocated without overflowing wells.
       why: >-
-        The full listed fruit amount is divided across the batch; the
-        individual-filling option uses smaller doses per muffin.
+        The full listed fruit amount is divided across the batch; the individual-filling option uses
+        smaller doses per muffin.
     - step: 6
       cue: 'A center toothpick is clean, not coated with raw batter.'
-      why: >-
-        A berry can wet a tester; check batter separately rather than assuming a
-        golden top is done.
+      why: A berry can wet a tester; check batter separately rather than assuming a golden top is done.
   troubleshooting:
     - problem: Fruit overfills the cups.
       cause: Batter was portioned without leaving room for the complete fruit.
       fix: >-
-        Use additional wells, keep similar fill and bake another load; do not
-        discard fruit or pack it into overflowing wells.
+        Use additional wells, keep similar fill and bake another load; do not discard fruit or pack
+        it into overflowing wells.
     - problem: A dried-fruit or nut variation is drier than the berry version.
       cause: The chosen filling carries less moisture than fresh fruit.
       fix: >-
-        Choose the fresh-fruit route next time or review that full variation; do
-        not add an arbitrary amount of liquid to every batch.
+        Choose the fresh-fruit route next time or review that full variation; do not add an
+        arbitrary amount of liquid to every batch.
   substitutions:
     - ingredient: Apple or orange juice
       alternative: Same listed volume of plain milk
       effect: >-
-        Less sweet; preserve the full honey, and bake by the tester rather than
-        assuming identical texture.
+        Less sweet; preserve the full honey, and bake by the tester rather than assuming identical
+        texture.
     - ingredient: Fresh berries
       alternative: Same listed volume of frozen berries
-      effect: >-
-        Keep frozen until combining; released juice can color the batter and
-        change the bake time.
+      effect: Keep frozen until combining; released juice can color the batter and change the bake time.
     - ingredient: Coconut oil
       alternative: Same listed volume of another oil
       effect: Changes flavor and cold-state handling; preserve the full fat amount.
   storage: >-
-    Cool fully before airtight room-temperature storage or freezing for later.
-    Thaw the portion needed; store optional serving butter separately.
-    Perishable meat/dairy fillings are not part of these listed fruit/nut routes
-    and require a different storage plan.
+    Cool fully before airtight room-temperature storage or freezing for later. Thaw the portion
+    needed; store optional serving butter separately. Perishable meat/dairy fillings are not part of
+    these listed fruit/nut routes and require a different storage plan.
   timing: >-
-    Ten minutes preparation plus 10–15 minutes baking gives a 20–25 minute
-    subtotal for one load. Begin preheating at setup; any heating still needed
-    before loading, later loads and cooling extend elapsed time. The
-    individually customized source route adds about 5–10 minutes of
+    Ten minutes preparation plus 10–15 minutes baking gives a 20–25 minute subtotal for one load.
+    Begin preheating at setup; any heating still needed before loading, later loads and cooling
+    extend elapsed time. The individually customized source route adds about 5–10 minutes of
     original-batch filling work rather than a multiplied universal clock.
   sources:
     - title: 100 Days of Real Food — exact salt and exclusive filling routes
-      url: >-
-        https://www.100daysofrealfood.com/blueberry-nut-anything-whole-wheat-muffins/
+      url: 'https://www.100daysofrealfood.com/blueberry-nut-anything-whole-wheat-muffins/'
     - title: FDA — egg and fresh produce handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: FDA — raw flour handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
   review:
     status: editorial-review
     date: '2026-10-06'

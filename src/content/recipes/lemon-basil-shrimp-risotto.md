@@ -31,7 +31,6 @@ pairsWith:
   - everyday-arugula-salad
   - roasted-asparagus
 ingredients:
-  - '--- Recipe ---'
   - '1 1/2 lb U10 shrimp (under 10 per pound), raw, peeled and deveined; thawed if frozen'
   - 2 cups Arborio rice
   - 1 cup dry white wine

@@ -35,21 +35,15 @@ pairsWith:
 ingredients:
   - '--- No-bake dough ---'
   - 1/2 cup creamy almond butter
-  - >-
-    1/2 cup chocolate protein powder, use a product suitable for consumption
-    without further cooking
-  - >-
-    1/4 cup almond flour, use a product suitable for consumption without further
-    cooking
+  - '1/2 cup chocolate protein powder, use a product suitable for consumption without further cooking'
+  - '1/4 cup almond flour, use a product suitable for consumption without further cooking'
   - 2 tbsp unsweetened cocoa powder
   - 3–4 tbsp maple syrup
   - 2 tbsp ground flaxseed or chia seeds
   - 1/4 cup mini chocolate chips
   - 'sea salt, a pinch'
   - '--- Conditional liquid ---'
-  - >-
-    1–2 tbsp water or almond milk, only as needed; add gradually within the
-    listed range, optional
+  - '1–2 tbsp water or almond milk, only as needed; add gradually within the listed range, optional'
 formula:
   version: 1
   yield:
@@ -150,86 +144,75 @@ formula:
   steps:
     - id: base
       title: Mix
-      text: >-
-        Combine {{ingredients}} with a spatula until a thick dough begins to
-        form.
+      text: 'Combine {{ingredients}} with a spatula until a thick dough begins to form.'
     - id: hydrate
       title: Adjust hydration
       text: >-
-        If the dough will not hold together, add {{ingredients}} a little at a
-        time, mixing and checking after each addition. Use only as much of the
-        listed range as needed; different powders and nut butters absorb liquid
-        differently.
+        If the dough will not hold together, add {{ingredients}} a little at a time, mixing and
+        checking after each addition. Use only as much of the listed range as needed; different
+        powders and nut butters absorb liquid differently.
     - id: texture
       title: Add inclusions
       text: >-
-        Fold in {{ingredients}} until evenly distributed. If this makes the
-        dough crumbly, use any remaining part of the same optional liquid range;
-        do not count a second extra allowance.
+        Fold in {{ingredients}} until evenly distributed. If this makes the dough crumbly, use any
+        remaining part of the same optional liquid range; do not count a second extra allowance.
     - id: roll
       title: Portion
       text: >-
-        Divide the entire dough into roughly equal balls. About twelve balls is
-        the original-batch planning count; their size depends on the actual
-        mixture. For a scaled batch, increase the count proportionally rather
-        than keeping twelve larger balls or assuming a fixed tablespoon scoop.
+        Divide the entire dough into roughly equal balls. About twelve balls is the original-batch
+        planning count; their size depends on the actual mixture. For a scaled batch, increase the
+        count proportionally rather than keeping twelve larger balls or assuming a fixed tablespoon
+        scoop.
     - id: chill
       title: Set
       text: >-
-        Arrange on a clean plate or tray, cover and refrigerate at 40°F / 4°C or
-        below for at least 20 minutes, until firm enough to handle.
+        Arrange on a clean plate or tray, cover and refrigerate at 40°F / 4°C or below for at least
+        20 minutes, until firm enough to handle.
     - id: store
       title: Store
       text: >-
-        Keep covered and refrigerated. Use within the shortest after-opening
-        instruction for the ingredients used, especially if almond milk was
-        added. Keep combined preparation and serving time out of refrigeration
-        within 2 hours, or 1 hour above 90°F / 32°C.
+        Keep covered and refrigerated. Use within the shortest after-opening instruction for the
+        ingredients used, especially if almond milk was added. Keep combined preparation and serving
+        time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.
 learning:
   focus: >-
-    Hydrating a no-cook nut-and-powder dough within its full optional liquid
-    allowance, then portioning all of it.
+    Hydrating a no-cook nut-and-powder dough within its full optional liquid allowance, then
+    portioning all of it.
   outcome: >-
-    Firm chilled balls with evenly distributed flax or chia and chocolate chips,
-    without a forced scoop yield.
+    Firm chilled balls with evenly distributed flax or chia and chocolate chips, without a forced
+    scoop yield.
   techniques:
     - cold-preparation
   before:
     - >-
-      Choose ingredients suitable for eating without further cooking; mixing or
-      a cold rest does not cook them. Check the actual almond-flour and powder
-      manufacturer guidance.
+      Choose ingredients suitable for eating without further cooking; mixing or a cold rest does not
+      cook them. Check the actual almond-flour and powder manufacturer guidance.
     - >-
-      The original-batch twelve-ball count is planning. Divide the complete
-      dough and scale the count proportionally; no exact ball weight or
-      tablespoon yield has been measured.
+      The original-batch twelve-ball count is planning. Divide the complete dough and scale the
+      count proportionally; no exact ball weight or tablespoon yield has been measured.
   checkpoints:
     - step: 2
       cue: 'Dough holds when pressed, with no dry loose powder.'
       why: >-
-        Absorption varies; gradual liquid additions prevent overshooting before
-        the inclusions are mixed.
+        Absorption varies; gradual liquid additions prevent overshooting before the inclusions are
+        mixed.
     - step: 3
       cue: All chips and the chosen flax or chia are distributed.
       why: >-
-        Any later adjustment must come from the same optional liquid allowance,
-        not a second full dose.
+        Any later adjustment must come from the same optional liquid allowance, not a second full
+        dose.
     - step: 5
       cue: Balls are firm enough to handle after chilling.
       why: >-
-        The set depends on the actual nut butter and powder; time alone does not
-        establish shape or shelf life.
+        The set depends on the actual nut butter and powder; time alone does not establish shape or
+        shelf life.
   troubleshooting:
     - problem: Dough crumbles after inclusions are folded in.
       cause: Powder or seeds absorbed more liquid.
-      fix: >-
-        Use any remainder of the listed optional liquid gradually, then chill
-        and check again.
+      fix: 'Use any remainder of the listed optional liquid gradually, then chill and check again.'
     - problem: Dough is too soft to roll.
       cause: Too much optional liquid was added or the nut butter is warm.
-      fix: >-
-        Chill before portioning and stop adding liquid; do not invent extra
-        flour or protein powder.
+      fix: Chill before portioning and stop adding liquid; do not invent extra flour or protein powder.
   substitutions:
     - ingredient: Maple syrup
       alternative: Same full listed range of honey
@@ -238,24 +221,20 @@ learning:
       alternative: Same full amount of chia seeds
       effect: Different texture; keep the full amount and check firmness.
   storage: >-
-    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined
-    preparation and serving time out of refrigeration within 2 hours, or 1 hour
-    above 90°F / 32°C. Follow the shortest after-opening instruction for the
-    actual ingredients, especially any added almond milk. Make a small batch for
-    prompt use.
+    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined preparation and serving
+    time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C. Follow the shortest
+    after-opening instruction for the actual ingredients, especially any added almond milk. Make a
+    small batch for prompt use.
   timing: >-
-    About ten minutes mixing and rolling plus at least twenty minutes chilling
-    gives an approximately thirty-minute plan for the original batch. Larger
-    batches and difficult-to-roll dough need more active time; the 15–20-minute
-    alternative is a setting reference. No measured ball weight, exact scoop
-    count or nutrient yield is implied.
+    About ten minutes mixing and rolling plus at least twenty minutes chilling gives an
+    approximately thirty-minute plan for the original batch. Larger batches and difficult-to-roll
+    dough need more active time; the 15–20-minute alternative is a setting reference. No measured
+    ball weight, exact scoop count or nutrient yield is implied.
   sources:
     - title: FDA — no raw-flour substitution or home heat treatment
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: Almond Board — almond processing
-      url: >-
-        https://www.almonds.org/almond-industry/processors-and-suppliers/processing-safe-product
+      url: 'https://www.almonds.org/almond-industry/processors-and-suppliers/processing-safe-product'
     - title: FDA — refrigerated handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:

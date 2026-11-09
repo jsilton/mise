@@ -36,7 +36,6 @@ pairsWith:
   - brownie-protein-balls
   - easy-breakfast-yogurt-popsicles
 ingredients:
-  - '--- Muffin batter ---'
   - 1 cup plain pumpkin puree
   - '1/3 cup unsalted butter, melted and cooled until warm, not hot'
   - 1/2 cup honey
@@ -145,70 +144,52 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F and line a muffin tin. The original batch
-        plans twelve regular muffins; use enough similar wells for the scaled
-        batter and keep comparable fill rather than overflowing the original
-        tin.
+        Preheat the oven to 350°F and line a muffin tin. The original batch plans twelve regular
+        muffins; use enough similar wells for the scaled batter and keep comparable fill rather than
+        overflowing the original tin.
     - id: dry
       title: Mix dry ingredients
-      text: >-
-        Whisk {{ingredients}} together until the two leaveners and salt are
-        evenly distributed.
+      text: 'Whisk {{ingredients}} together until the two leaveners and salt are evenly distributed.'
     - id: wet
       title: Mix the wet ingredients
       text: >-
-        In a separate bowl, whisk {{ingredients}} until combined. Cool melted
-        butter until warm rather than hot before it touches the eggs.
+        In a separate bowl, whisk {{ingredients}} until combined. Cool melted butter until warm
+        rather than hot before it touches the eggs.
     - id: combine
       title: Combine
       text: >-
-        Make a well in the dry mixture and fold in the pumpkin mixture until no
-        dry flour pockets remain. Do not keep beating to make a perfectly smooth
-        batter.
+        Make a well in the dry mixture and fold in the pumpkin mixture until no dry flour pockets
+        remain. Do not keep beating to make a perfectly smooth batter.
     - id: bake
       title: Fill and bake
       text: >-
-        Divide among the lined cups, about ¾ full, using another well or load if
-        needed. Wait until the oven reaches 350°F, then bake for 18–20 minutes
-        per load, until golden and a center toothpick comes out clean.
+        Divide among the lined cups, about ¾ full, using another well or load if needed. Wait until
+        the oven reaches 350°F, then bake for 18–20 minutes per load, until golden and a center
+        toothpick comes out clean.
     - id: cool
       title: Cool
       text: >-
-        Let the muffins firm enough to lift from the pan, then finish cooling on
-        a rack before covering. They may be served warm; cooling completely for
-        storage takes additional time.
+        Let the muffins firm enough to lift from the pan, then finish cooling on a rack before
+        covering. They may be served warm; cooling completely for storage takes additional time.
 learning:
-  focus: >-
-    Distributing two leaveners and combining a pumpkin-rich spelt batter without
-    excess beating.
-  outcome: >-
-    Golden muffins with no wet batter on a center tester and no dry flour
-    pockets in the crumb.
+  focus: Distributing two leaveners and combining a pumpkin-rich spelt batter without excess beating.
+  outcome: Golden muffins with no wet batter on a center tester and no dry flour pockets in the crumb.
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      The original batch plans twelve regular muffins. Scale wells or oven
-      loads, keeping the listed amounts and similar fill; do not multiply the
-      original pan dimensions.
-    - >-
-      Melt the full butter amount and let it become warm rather than hot before
-      adding the eggs.
-    - >-
-      Do not taste raw batter or dough. Wash hands and tools after handling raw
-      flour or eggs.
+      The original batch plans twelve regular muffins. Scale wells or oven loads, keeping the listed
+      amounts and similar fill; do not multiply the original pan dimensions.
+    - Melt the full butter amount and let it become warm rather than hot before adding the eggs.
+    - Do not taste raw batter or dough. Wash hands and tools after handling raw flour or eggs.
   checkpoints:
     - step: 2
       cue: Both leaveners and salt are dispersed through the flour.
-      why: >-
-        A combined ingredient label must not hide the smaller baking-powder
-        dose.
+      why: A combined ingredient label must not hide the smaller baking-powder dose.
     - step: 4
       cue: No dry flour remains after folding.
-      why: >-
-        Further beating is unnecessary; exact seconds cannot account for bowl
-        size and technique.
+      why: Further beating is unnecessary; exact seconds cannot account for bowl size and technique.
     - step: 5
       cue: Golden tops and clean center testers.
       why: A tall top alone does not show that the pumpkin-rich center has baked.
@@ -216,36 +197,32 @@ learning:
     - problem: Dry flour pockets remain.
       cause: Folding stopped before reaching the bowl bottom and corners.
       fix: >-
-        Scrape and fold until the pockets disappear, then stop; do not
-        compensate with extra pumpkin or liquid.
+        Scrape and fold until the pockets disappear, then stop; do not compensate with extra pumpkin
+        or liquid.
     - problem: Scaled batter does not fit twelve wells.
       cause: The original count was treated as unlimited pan capacity.
-      fix: >-
-        Use additional wells and oven loads at similar fill; keep the entire
-        full formula.
+      fix: Use additional wells and oven loads at similar fill; keep the entire full formula.
   substitutions:
     - ingredient: Whole spelt flour
       alternative: Same listed volume of whole-wheat flour
       effect: >-
-        A supported whole-flour replacement with a different crumb; use the
-        center check. Neither flour is gluten free.
+        A supported whole-flour replacement with a different crumb; use the center check. Neither
+        flour is gluten free.
   storage: >-
-    Cool fully before sealing for room-temperature storage. Freeze cooled plain
-    muffins airtight for longer keeping and thaw the portion needed. Do not seal
-    them while warm; no perishable frosting or filling is included.
+    Cool fully before sealing for room-temperature storage. Freeze cooled plain muffins airtight for
+    longer keeping and thaw the portion needed. Do not seal them while warm; no perishable frosting
+    or filling is included.
   timing: >-
-    Five minutes preparation plus 18–20 minutes baking gives a 23–25 minute
-    subtotal for one load. Measuring, melting/cooling butter, extra oven loads
-    and complete storage cooling may take longer than that planning allowance.
-    Begin preheating at setup; any heating still needed before loading extends
-    elapsed time.
+    Five minutes preparation plus 18–20 minutes baking gives a 23–25 minute subtotal for one load.
+    Measuring, melting/cooling butter, extra oven loads and complete storage cooling may take longer
+    than that planning allowance. Begin preheating at setup; any heating still needed before loading
+    extends elapsed time.
   sources:
     - title: 100 Days of Real Food — complete spelt formula and whole-wheat option
       url: >-
         https://www.100daysofrealfood.com/recipe-whole-spelt-pumpkin-muffins-and-other-spelt-recipes/
     - title: FDA — raw flour handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
   review:
     status: editorial-review
     date: '2026-10-06'

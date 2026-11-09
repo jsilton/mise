@@ -180,29 +180,27 @@ formula:
     - id: syrup
       title: Dissolve
       text: >-
-        Combine {{ingredients}} in a saucepan with room for the full batch.
-        Bring to a boil, stirring until the sugar dissolves. Remove from heat.
+        Combine {{ingredients}} in a saucepan with room for the full batch. Bring to a boil,
+        stirring until the sugar dissolves. Remove from heat.
     - id: infuse
       title: Infuse and chill
       text: >-
-        Add {{ingredients}}, cover and let stand for 10 minutes. Strain into a
-        clean heat-safe container, discarding the spent sprigs. Cool promptly,
-        then cover and refrigerate until cold; chilling takes additional time.
+        Add {{ingredients}}, cover and let stand for 10 minutes. Strain into a clean heat-safe
+        container, discarding the spent sprigs. Cool promptly, then cover and refrigerate until
+        cold; chilling takes additional time.
     - id: base
       title: Mix
       text: >-
-        Combine all the chilled strained syrup with {{ingredients}} in a pitcher
-        that accommodates the full load. Stir to combine. If preparing ahead,
-        cover and refrigerate the complete base for up to 4 hours; add serving
-        ice and soda only at service.
+        Combine all the chilled strained syrup with {{ingredients}} in a pitcher that accommodates
+        the full load. Stir to combine. If preparing ahead, cover and refrigerate the complete base
+        for up to 4 hours; add serving ice and soda only at service.
     - id: serve
       title: Divide and finish
       text: >-
-        Wash the fresh garnish produce before cutting or serving. Use
-        {{ingredients}} for service. Divide the entire pitcher among the listed
-        planning portions in glasses with room for ice and soda; top with soda
-        and stir gently, then divide the fresh thyme and lime garnishes among
-        the drinks. Serve immediately.
+        Wash the fresh garnish produce before cutting or serving. Use {{ingredients}} for service.
+        Divide the entire pitcher among the listed planning portions in glasses with room for ice
+        and soda; top with soda and stir gently, then divide the fresh thyme and lime garnishes
+        among the drinks. Serve immediately.
 learning:
   focus: Separate infusion thyme from fresh garnish and divide the whole punch base.
   outcome: Cold cider-rum punch with the full thyme syrup and soda added at service.
@@ -211,40 +209,33 @@ learning:
     - seasoning
   before:
     - >-
-      The syrup uses its own thyme sprigs; the fresh garnish is an additional
-      full supply. Wash fresh garnish produce before cutting or serving.
+      The syrup uses its own thyme sprigs; the fresh garnish is an additional full supply. Wash
+      fresh garnish produce before cutting or serving.
     - >-
-      Choose a pitcher and glasses for the actual full load. The strained syrup
-      yield and soda top-up are not measured finished drink volume.
+      Choose a pitcher and glasses for the actual full load. The strained syrup yield and soda
+      top-up are not measured finished drink volume.
   checkpoints:
     - step: 3
-      cue: >-
-        All the chilled syrup and measured base ingredients are mixed before
-        portioning.
+      cue: All the chilled syrup and measured base ingredients are mixed before portioning.
       why: >-
-        Filling arbitrary glasses three-quarters full can leave an unknown share
-        of the measured base unused.
+        Filling arbitrary glasses three-quarters full can leave an unknown share of the measured
+        base unused.
   troubleshooting:
     - problem: The drinks lose carbonation before serving.
       cause: Soda was stirred into the make-ahead pitcher or added to warm syrup.
-      fix: >-
-        Chill the full base first; portion over fresh ice and add soda only at
-        service.
+      fix: Chill the full base first; portion over fresh ice and add soda only at service.
   timing: >-
-    About 15–25 minutes for measuring, heating and the 10-minute infusion, plus
-    sufficient syrup chilling. The complete cold base can be mixed up to 4 hours
-    ahead.
+    About 15–25 minutes for measuring, heating and the 10-minute infusion, plus sufficient syrup
+    chilling. The complete cold base can be mixed up to 4 hours ahead.
   storage: >-
-    Cover and refrigerate the prepared base at 40°F or below for its
-    up-to-four-hour make-ahead plan. Keep unserved portions cold and serve with
-    fresh ice and soda. Prepare the herb syrup close to service rather than
-    holding it for extended storage.
+    Cover and refrigerate the prepared base at 40°F or below for its up-to-four-hour make-ahead
+    plan. Keep unserved portions cold and serve with fresh ice and soda. Prepare the herb syrup
+    close to service rather than holding it for extended storage.
   sources:
     - title: Alison Roman — New England Express
       url: 'http://www.bonappetit.com/recipe/the-new-england-express'
     - title: FDA — Juice safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-juice-safety'
     - title: FDA — Cold handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   substitutions: []

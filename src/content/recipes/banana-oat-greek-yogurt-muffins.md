@@ -37,7 +37,6 @@ pairsWith:
   - blueberry-oat-breakfast-bars
   - freezer-date-cookies
 ingredients:
-  - '--- Batter ---'
   - 'cooking spray, for greasing the muffin cups or paper liners'
   - 1 cup plain full-fat Greek yogurt
   - '2 large ripe bananas, peeled and mashed'

@@ -115,7 +115,6 @@ const practice = technique.recipes.map((slug) => {
                   <DishArt slug={recipe.slug} />
                   <div>
                     <span class="practice-title">{recipe.data.title}</span>
-                    <small>{recipe.data.learning?.focus || 'Explore this recipe'}</small>
                     {time.minutes > 0 && (
                       <span class="time-chip" data-band={time.band}>
                         {time.short}

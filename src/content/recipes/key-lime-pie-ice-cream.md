@@ -32,7 +32,6 @@ cookTime: 0 min; churn according to machine instructions
 totalTime: 'Chilling and churning, then at least 4 hr freezing'
 servings: 6 portions
 ingredients:
-  - '--- Ice cream ---'
   - 1 can (14 oz) sweetened condensed milk
   - '1/2 cup Key lime juice, bottled or freshly squeezed and strained'
   - '2 tsp finely grated lime zest, from Key limes or regular limes'

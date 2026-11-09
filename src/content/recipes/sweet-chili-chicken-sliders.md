@@ -44,8 +44,8 @@ ingredients:
   - '--- Rolls, slaw and mayo ---'
   - '12 Hawaiian rolls, split'
   - >-
-    1 bag of chopped Asian-style salad kit, cabbage, crisp toppings and sesame
-    dressing; use the complete kit, following its preparation label
+    1 bag of chopped Asian-style salad kit, cabbage, crisp toppings and sesame dressing; use the
+    complete kit, following its preparation label
   - 1/4 cup mayonnaise
   - 1 tbsp Sriracha
   - '2 tbsp butter, melted'
@@ -168,8 +168,8 @@ formula:
               share: 1
           plural: bags of chopped Asian-style salad kit
           preparation: >-
-            cabbage, crisp toppings and sesame dressing; use the complete kit,
-            following its preparation label
+            cabbage, crisp toppings and sesame dressing; use the complete kit, following its
+            preparation label
         - id: mayo
           key: mayo
           name: mayonnaise
@@ -220,62 +220,54 @@ formula:
     - id: marinate
       title: Marinate cold
       text: >-
-        Toss all {{ingredients}} together. Cover and refrigerate for 30 minutes,
-        or up to 4 hours. Keep the separate glaze, mayo and slaw away from raw
-        chicken and used utensils. Thaw frozen chicken in the refrigerator
-        beforehand.
+        Toss all {{ingredients}} together. Cover and refrigerate for 30 minutes, or up to 4 hours.
+        Keep the separate glaze, mayo and slaw away from raw chicken and used utensils. Thaw frozen
+        chicken in the refrigerator beforehand.
     - id: glaze
       title: Mix clean glaze
       text: >-
-        Whisk all {{ingredients}} in a clean bowl and set aside for the cooked
-        chicken. Keep this whole measured glaze separate from the used marinade.
+        Whisk all {{ingredients}} in a clean bowl and set aside for the cooked chicken. Keep this
+        whole measured glaze separate from the used marinade.
     - id: mayo
       title: Mix mayo
       text: >-
-        Use {{ingredients}} for the mayo. For the standard version, mix the full
-        mayonnaise and Sriracha together. For a milder version, keep all the
-        mayonnaise plain and offer the listed Sriracha separately or omit it.
-        Refrigerate until assembly.
+        Use {{ingredients}} for the mayo. For the standard version, mix the full mayonnaise and
+        Sriracha together. For a milder version, keep all the mayonnaise plain and offer the listed
+        Sriracha separately or omit it. Refrigerate until assembly.
     - id: broil
       title: Broil chicken
       text: >-
-        Use a broiler-safe metal sheet pan and the rack position allowed by the
-        oven, about 6 inches below the element where permitted. Lift thighs from
-        the marinade, shake off excess and discard the used marinade. Arrange in
-        one layer without overlap; use more loads if needed. Start checking at
-        6–7 minutes per side, turning as the surface browns, and continue until
-        the thickest part of each thigh reaches 165°F / 74°C. Charred spots do
-        not establish the center temperature. Transfer cooked thighs with clean
-        utensils.
+        Use a broiler-safe metal sheet pan and the rack position allowed by the oven, about 6 inches
+        below the element where permitted. Lift thighs from the marinade, shake off excess and
+        discard the used marinade. Arrange in one layer without overlap; use more loads if needed.
+        Start checking at 6–7 minutes per side, turning as the surface browns, and continue until
+        the thickest part of each thigh reaches 165°F / 74°C. Charred spots do not establish the
+        center temperature. Transfer cooked thighs with clean utensils.
     - id: lacquer
       title: Glaze
       text: >-
-        Brush all the clean glaze over the fully cooked chicken. Broil about 1–2
-        minutes, watching closely, until the coating is sticky and lightly
-        caramelized; remove before it burns. Use clean brushing/serving
-        utensils.
+        Brush all the clean glaze over the fully cooked chicken. Broil about 1–2 minutes, watching
+        closely, until the coating is sticky and lightly caramelized; remove before it burns. Use
+        clean brushing/serving utensils.
     - id: toast
       title: Rest and toast rolls
       text: >-
-        Rest the chicken for 5 minutes. Meanwhile, use all {{ingredients}}:
-        brush the roll cut faces with the melted butter, put them cut-side up on
-        a clean broiler-safe metal pan and watch for 1–2 minutes until golden.
-        Remove promptly; toasting can require separate loads.
+        Rest the chicken for 5 minutes. Meanwhile, use all {{ingredients}}: brush the roll cut faces
+        with the melted butter, put them cut-side up on a clean broiler-safe metal pan and watch for
+        1–2 minutes until golden. Remove promptly; toasting can require separate loads.
     - id: slaw
       title: Finish slaw
       text: >-
-        Use the listed {{ingredients}} for the slaw, following the kit's
-        preparation label. Toss all the cabbage with all the kit dressing and
-        include all its crisp toppings at assembly. Keep ready-to-eat slaw away
-        from raw-chicken surfaces.
+        Use the listed {{ingredients}} for the slaw, following the kit's preparation label. Toss all
+        the cabbage with all the kit dressing and include all its crisp toppings at assembly. Keep
+        ready-to-eat slaw away from raw-chicken surfaces.
     - id: assemble
       title: Divide and assemble
       text: >-
-        Once the chicken has rested, divide all of it into one bun-sized portion
-        for each measured roll. Spread all the mayo across the rolls, add the
-        chicken and complete slaw, then add {{ingredients}} as wanted. Serve
-        promptly; any Sriracha kept separate goes to the table rather than into
-        a second mayo dose.
+        Once the chicken has rested, divide all of it into one bun-sized portion for each measured
+        roll. Spread all the mayo across the rolls, add the chicken and complete slaw, then add
+        {{ingredients}} as wanted. Serve promptly; any Sriracha kept separate goes to the table
+        rather than into a second mayo dose.
 learning:
   focus: Glaze fully cooked chicken and protect crisp roll faces
   outcome: 'Cooked thighs with a sticky glaze, golden buttered rolls and crisp slaw.'
@@ -283,63 +275,52 @@ learning:
     - temperature
   before:
     - >-
-      Marinate in the refrigerator. Allow at least 30 minutes for marinating in
-      addition to preparation, broiling and resting; a longer marinade adds
-      elapsed time.
+      Marinate in the refrigerator. Allow at least 30 minutes for marinating in addition to
+      preparation, broiling and resting; a longer marinade adds elapsed time.
     - >-
-      Use the whole listed salad kit, including its dressing and toppings; bag
-      sizes/composition vary, so choose one with the listed
-      cabbage/crisp-topping/sesame-dressing components. No fixed package weight
-      is assumed.
+      Use the whole listed salad kit, including its dressing and toppings; bag sizes/composition
+      vary, so choose one with the listed cabbage/crisp-topping/sesame-dressing components. No fixed
+      package weight is assumed.
     - >-
-      Use an oven-approved broiler position and broiler-safe metal pans, with
-      chicken in one layer. The original twelve sliders use twelve rolls; at
-      other scales follow the listed roll count and divide all the cooked
-      chicken among them.
+      Use an oven-approved broiler position and broiler-safe metal pans, with chicken in one layer.
+      The original twelve sliders use twelve rolls; at other scales follow the listed roll count and
+      divide all the cooked chicken among them.
   checkpoints:
     - step: 4
       cue: Each thigh reaches 165°F / 74°C in the thickest part.
       why: Broiler browning can occur before the center is cooked.
     - step: 5
       cue: Glaze is sticky and lightly browned without broad burnt patches.
-      why: >-
-        The sweet glaze receives only a short final heat after chicken is
-        cooked.
+      why: The sweet glaze receives only a short final heat after chicken is cooked.
     - step: 6
       cue: Buttered cut faces are golden.
-      why: >-
-        The upward-facing cut surface receives the broiler heat; enriched rolls
-        brown quickly.
+      why: The upward-facing cut surface receives the broiler heat; enriched rolls brown quickly.
   troubleshooting:
     - problem: Chicken or glaze scorches before the next clock check
-      cause: >-
-        Broiler strength, rack position or coating thickness gives too much
-        direct heat.
+      cause: 'Broiler strength, rack position or coating thickness gives too much direct heat.'
       fix: >-
-        Use a less intense position/setting allowed by the oven and keep
-        checking the chicken endpoint. Watch glazing and toasting continuously;
-        neither dark sauce nor black skin replaces 165°F.
+        Use a less intense position/setting allowed by the oven and keep checking the chicken
+        endpoint. Watch glazing and toasting continuously; neither dark sauce nor black skin
+        replaces 165°F.
   substitutions:
     - ingredient: Sriracha mayo
       alternative: >-
-        Keep the full listed mayonnaise on the rolls and pass the listed
-        Sriracha separately, or omit it for a milder serving.
+        Keep the full listed mayonnaise on the rolls and pass the listed Sriracha separately, or
+        omit it for a milder serving.
       effect: >-
-        Heat is adjustable without cutting the butter, sweet glaze, chicken or
-        slaw; the Thai sweet chili sauce can still contain chile.
+        Heat is adjustable without cutting the butter, sweet glaze, chicken or slaw; the Thai sweet
+        chili sauce can still contain chile.
   timing: >-
     Allow about 1 hour 5 minutes from fresh or fully thawed chicken: 15 minutes
-    preparation/assembly, 30 minutes refrigerated marinating, roughly 15 minutes
-    initial broiling/glazing and 5 minutes rest. Some mayo/glaze/slaw work can
-    overlap marinating, and roll toasting overlaps resting. Broiling and extra
-    loads are active and can extend elapsed time. Up to 4-hour marinating and
-    refrigerator thawing are additional advance time.
+    preparation/assembly, 30 minutes refrigerated marinating, roughly 15 minutes initial
+    broiling/glazing and 5 minutes rest. Some mayo/glaze/slaw work can overlap marinating, and roll
+    toasting overlaps resting. Broiling and extra loads are active and can extend elapsed time. Up
+    to 4-hour marinating and refrigerator thawing are additional advance time.
   storage: >-
-    Store chicken, slaw, mayo and rolls separately. Refrigerate in shallow
-    containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or
-    below. Use cooked chicken within 3–4 days and reheat to 165°F / 74°C
-    throughout before rebuilding sliders. Follow the salad kit's refrigerated
-    use instructions; dressed slaw and assembled rolls lose crunch.
+    Store chicken, slaw, mayo and rolls separately. Refrigerate in shallow containers within 2
+    hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use cooked chicken within 3–4 days
+    and reheat to 165°F / 74°C throughout before rebuilding sliders. Follow the salad kit's
+    refrigerated use instructions; dressed slaw and assembled rolls lose crunch.
   sources:
     - title: FDA safe food handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'

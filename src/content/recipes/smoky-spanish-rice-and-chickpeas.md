@@ -27,7 +27,6 @@ pairsWith:
   - steamed-mussels-chorizo
   - paella-valenciana
 ingredients:
-  - '--- Ingredients ---'
   - 2 tbsp Olive oil
   - '1 Medium yellow onion, finely chopped'
   - '3 Garlic cloves, minced'

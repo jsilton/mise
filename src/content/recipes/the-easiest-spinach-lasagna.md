@@ -31,7 +31,6 @@ pairsWith:
   - garlic-bread
   - avocado-kale-caesar-salad
 ingredients:
-  - '--- Lasagna ---'
   - 15 oz ricotta cheese
   - '8 oz mozzarella cheese, grated'
   - '1 cup Parmesan cheese, grated'

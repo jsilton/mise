@@ -175,75 +175,61 @@ formula:
     - id: prep
       title: Prep
       text: >-
-        Preheat the oven to 375°F. For the original batch, line a 14-inch deep
-        round pizza pan with parchment and use {{ingredients}} to grease the
-        entire pan including the paper. Have enough appropriate pans for the
-        full dough before mixing; keep similar dough thickness and expansion
-        room when scaling.
+        Preheat the oven to 375°F. For the original batch, line a 14-inch deep round pizza pan with
+        parchment and use {{ingredients}} to grease the entire pan including the paper. Have enough
+        appropriate pans for the full dough before mixing; keep similar dough thickness and
+        expansion room when scaling.
     - id: cream
       title: Cream
-      text: >-
-        In a large bowl, cream {{ingredients}} until light and fluffy, about 3–5
-        minutes.
+      text: 'In a large bowl, cream {{ingredients}} until light and fluffy, about 3–5 minutes.'
     - id: eggs
       title: Add eggs
       text: 'Add {{ingredients}} and beat until combined.'
     - id: dry
       title: Dry mix
-      text: >-
-        Whisk {{ingredients}} together, then stir into the butter mixture until
-        just combined.
+      text: 'Whisk {{ingredients}} together, then stir into the butter mixture until just combined.'
     - id: fold
       title: Fold
       text: 'Fold in {{ingredients}}.'
     - id: shape
       title: Shape
       text: >-
-        Spread all the dough evenly onto the prepared pan, leaving the original
-        1/2-inch border for expansion. Sprinkle all {{ingredients}} over the
-        top, pressing them in lightly. At other scales divide all dough and its
-        topping proportionally among enough appropriate pans; do not force every
-        batch into the same 14-inch pan.
+        Spread all the dough evenly onto the prepared pan, leaving the original 1/2-inch border for
+        expansion. Sprinkle all {{ingredients}} over the top, pressing them in lightly. At other
+        scales divide all dough and its topping proportionally among enough appropriate pans; do not
+        force every batch into the same 14-inch pan.
     - id: bake
       title: Bake
       text: >-
-        Bake for 20–25 minutes until the edges are deep golden brown and the
-        center is set but still soft. Keep the same dough thickness when
-        scaling; use additional pans, rather than multiplying pan dimensions or
-        baking time.
+        Bake for 20–25 minutes until the edges are deep golden brown and the center is set but still
+        soft. Keep the same dough thickness when scaling; use additional pans, rather than
+        multiplying pan dimensions or baking time.
     - id: cool
       title: Cool
-      text: >-
-        Let cool completely in the pan before slicing so the structure can firm
-        up.
+      text: Let cool completely in the pan before slicing so the structure can firm up.
 source: Adapted from thatskinnychickcanbake.com
 sourceUrl: 'https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/'
 learning:
   focus: Choose enough deep pan space before mixing
-  outcome: >-
-    A fully set cookie center beneath a golden edge, with both candy allocations
-    used.
+  outcome: 'A fully set cookie center beneath a golden edge, with both candy allocations used.'
   techniques:
     - temperature
   before:
     - >-
-      The 14-inch deep round pizza pan describes the original full batch. When
-      scaling, divide all dough and both candy allocations proportionally among
-      enough pans, keeping similar dough thickness and expansion room. Smaller
-      batches need appropriately smaller pans and earlier center checks; pan
-      dimensions, oven temperature and bake time do not multiply.
+      The 14-inch deep round pizza pan describes the original full batch. When scaling, divide all
+      dough and both candy allocations proportionally among enough pans, keeping similar dough
+      thickness and expansion room. Smaller batches need appropriately smaller pans and earlier
+      center checks; pan dimensions, oven temperature and bake time do not multiply.
     - >-
-      Soften butter until pliable, without melting it. Keep raw dough away from
-      ready-to-eat foods and do not taste flour-and-egg dough.
+      Soften butter until pliable, without melting it. Keep raw dough away from ready-to-eat foods
+      and do not taste flour-and-egg dough.
   checkpoints:
     - step: 6
       cue: An even dough layer with expansion room.
       why: A shallow or overloaded pan can overflow before the center sets.
     - step: 7
       cue: Golden edges and a set center without wet dough.
-      why: >-
-        Soft baked crumb differs from raw batter; the clock is only a first
-        check.
+      why: Soft baked crumb differs from raw batter; the clock is only a first check.
     - step: 8
       cue: The cake is fully cool before slicing.
       why: Cooling firms the full butter-rich structure.
@@ -251,46 +237,43 @@ learning:
     - problem: The dough reaches the pan edge before the center sets
       cause: The pan is too shallow or the dough layer is too deep.
       fix: >-
-        Use enough deep pans before baking; keep the original dough depth rather
-        than extending a clock in an overloaded pan.
+        Use enough deep pans before baking; keep the original dough depth rather than extending a
+        clock in an overloaded pan.
   timing: >-
-    About 20 minutes active mixing, 20–25 minutes or longer baking and full
-    cooling. Plan roughly 1½–2 hours elapsed; extra pans add time.
+    About 20 minutes active mixing, 20–25 minutes or longer baking and full cooling. Plan roughly
+    1½–2 hours elapsed; extra pans add time.
   substitutions:
     - ingredient: Chocolate discs
       alternative: >-
-        Replace the full listed volume of chocolate discs with the same volume
-        of semisweet chocolate chips.
+        Replace the full listed volume of chocolate discs with the same volume of semisweet
+        chocolate chips.
       effect: The source allows either; chips make smaller chocolate pockets.
     - ingredient: Candy topping stage
       alternative: >-
-        For the current publisher finishing option, hold the full listed topping
-        candies out of the oven and press them into the warm baked cookie cake
-        instead. Keep the separate dough candies inside.
+        For the current publisher finishing option, hold the full listed topping candies out of the
+        oven and press them into the warm baked cookie cake instead. Keep the separate dough candies
+        inside.
       effect: >-
-        An exclusive same-quantity topping route; baking the topping as in the
-        main may crack some shells.
+        An exclusive same-quantity topping route; baking the topping as in the main may crack some
+        shells.
     - ingredient: Optional decoration
       alternative: >-
-        After complete cooling, add prepared chocolate frosting as desired
-        around the edge, with optional additional candies or sprinkles as
-        desired; keep these separate from the measured dough and topping
-        supplies.
+        After complete cooling, add prepared chocolate frosting as desired around the edge, with
+        optional additional candies or sprinkles as desired; keep these separate from the measured
+        dough and topping supplies.
       effect: >-
-        The publisher offers decoration without a measured extra frosting
-        formula; perishable frosting needs refrigerated handling.
+        The publisher offers decoration without a measured extra frosting formula; perishable
+        frosting needs refrigerated handling.
   storage: >-
-    For the plain fully cooled cake, the publisher gives 2–3 days covered at
-    room temperature and up to 3 months airtight frozen as quality plans; thaw
-    covered in the refrigerator. If adding perishable frosting, refrigerate at
-    40°F /4°C or below and limit cumulative preparation/service outside
-    refrigeration to 2 hours, or 1 hour above 90°F /32°C.
+    For the plain fully cooled cake, the publisher gives 2–3 days covered at room temperature and up
+    to 3 months airtight frozen as quality plans; thaw covered in the refrigerator. If adding
+    perishable frosting, refrigerate at 40°F /4°C or below and limit cumulative preparation/service
+    outside refrigeration to 2 hours, or 1 hour above 90°F /32°C.
   sources:
     - title: That Skinny Chick Can Bake — Chocolate Chip Cookie Cake
       url: 'https://www.thatskinnychickcanbake.com/chocolate-chip-cookie-cake/'
     - title: FDA — Raw Flour
-      url: >-
-        https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts
+      url: 'https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts'
     - title: FDA — Safe Food Handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:

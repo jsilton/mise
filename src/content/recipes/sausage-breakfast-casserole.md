@@ -25,7 +25,6 @@ pairsWith:
   - green-beans-with-shallots-and-lemon
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
-  - '--- Casserole ---'
   - '1 lb raw bulk breakfast sausage, refrigerated; check whether pork/beef or poultry'
   - '30 oz frozen shredded hash browns, thawed in the refrigerator'
   - 10 large eggs

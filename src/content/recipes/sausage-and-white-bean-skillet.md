@@ -32,10 +32,7 @@ pairsWith:
   - cornbread
   - avocado-kale-caesar-salad
 ingredients:
-  - '--- Ingredients ---'
-  - >-
-    1 lb Raw Italian pork sausage, sweet or spicy, bulk, or links sliced into
-    about 1-inch rounds
+  - '1 lb Raw Italian pork sausage, sweet or spicy, bulk, or links sliced into about 1-inch rounds'
   - 1 tbsp Extra-virgin olive oil
   - '1 Onion, diced'
   - '4 Garlic cloves, minced'
@@ -43,9 +40,7 @@ ingredients:
   - 1 tsp Dried oregano
   - 1 tsp Dried thyme
   - 1/4 tsp Red pepper flakes
-  - >-
-    2 cans (15 oz) Cannellini or Great Northern beans, drained and rinsed, fully
-    cooked canned beans
+  - '2 cans (15 oz) Cannellini or Great Northern beans, drained and rinsed, fully cooked canned beans'
   - 1 cup Chicken stock
   - 1/2 tsp Kosher salt
   - 1/4 tsp Black pepper
@@ -237,76 +232,65 @@ formula:
     - id: sausage
       title: Brown sausage
       text: >-
-        Heat a large skillet over medium-high heat and add {{ingredients}} to
-        the dry pan. For bulk sausage, break into crumbles; for sliced links,
-        turn to brown several faces. Begin checks around 5 minutes, allowing
-        longer as needed. Transfer to a raw-contact plate; browning does not
-        establish that it is cooked through. Keep the plate and utensils
-        separate from serving dishes.
+        Heat a large skillet over medium-high heat and add {{ingredients}} to the dry pan. For bulk
+        sausage, break into crumbles; for sliced links, turn to brown several faces. Begin checks
+        around 5 minutes, allowing longer as needed. Transfer to a raw-contact plate; browning does
+        not establish that it is cooked through. Keep the plate and utensils separate from serving
+        dishes.
     - id: aromatics
       title: Soften onion
       text: >-
-        Reduce heat to medium and add {{ingredients}} to the same pan, adding
-        onion to the oil and rendered sausage fat. Cook about 3–5 minutes until
-        softened; allow longer as needed. Keep usable brown bits, but do not
-        scrape burnt residue into the sauce.
+        Reduce heat to medium and add {{ingredients}} to the same pan, adding onion to the oil and
+        rendered sausage fat. Cook about 3–5 minutes until softened; allow longer as needed. Keep
+        usable brown bits, but do not scrape burnt residue into the sauce.
     - id: garlic
       title: Add garlic
-      text: >-
-        Stir in {{ingredients}} for about 30–45 seconds until fragrant, without
-        darkening.
+      text: 'Stir in {{ingredients}} for about 30–45 seconds until fragrant, without darkening.'
     - id: paste
       title: Cook paste and herbs
       text: >-
-        Add {{ingredients}} and stir about 1 minute; the paste should coat the
-        mixture without burning.
+        Add {{ingredients}} and stir about 1 minute; the paste should coat the mixture without
+        burning.
     - id: simmer
       title: Return sausage and simmer
       text: >-
-        Add {{ingredients}}, scraping up browned bits, then return all sausage
-        and its plate juices. Bring to a simmer, reduce to medium-low and cook
-        about 8–10 minutes to a thickened but saucy mixture. Continue until
-        several thicker pork-sausage pieces or clusters measure at least 160°F
-        /71°C. Do not taste raw-contact sauce before that endpoint; allow longer
-        as needed.
+        Add {{ingredients}}, scraping up browned bits, then return all sausage and its plate juices.
+        Bring to a simmer, reduce to medium-low and cook about 8–10 minutes to a thickened but saucy
+        mixture. Continue until several thicker pork-sausage pieces or clusters measure at least
+        160°F /71°C. Do not taste raw-contact sauce before that endpoint; allow longer as needed.
     - id: finish
       title: Add seasoning and lemon
       text: >-
-        Once the sausage is fully cooked, remove from heat and add
-        {{ingredients}}. Use the listed kosher salt; different crystal types
-        need different spoon volumes.
+        Once the sausage is fully cooked, remove from heat and add {{ingredients}}. Use the listed
+        kosher salt; different crystal types need different spoon volumes.
     - id: serve
       title: Serve
       text: >-
-        Spoon into bowls and finish with {{ingredients}}. Serve promptly; store
-        leftovers as described below.
+        Spoon into bowls and finish with {{ingredients}}. Serve promptly; store leftovers as
+        described below.
     - id: reheat
       title: Reheat stored portions
       text: >-
-        For leftovers only, choose one of {{ingredients}} for a splash if the
-        sauce has tightened. Reheat the portion served on the stove to 165°F
-        /74°C throughout, stirring and checking several places; a splash loosens
-        the sauce but does not replace the endpoint.
+        For leftovers only, choose one of {{ingredients}} for a splash if the sauce has tightened.
+        Reheat the portion served on the stove to 165°F /74°C throughout, stirring and checking
+        several places; a splash loosens the sauce but does not replace the endpoint.
 learning:
   focus: Brown sausage and check its doneness in saucy beans
-  outcome: >-
-    Cooked sausage with tender canned beans, a saucy tomato base and the full
-    lemon finish
+  outcome: 'Cooked sausage with tender canned beans, a saucy tomato base and the full lemon finish'
   techniques:
     - temperature
     - seasoning
   before:
     - >-
-      Add the listed olive oil with the onion after browning the sausage; keep
-      the rendered sausage fat in the pan.
+      Add the listed olive oil with the onion after browning the sausage; keep the rendered sausage
+      fat in the pan.
     - >-
-      Use enough skillet area for browning and room for both cans of beans and
-      stock. Scaled batches may need additional pans or loads; divide ingredient
-      totals rather than use a full dose per pan.
+      Use enough skillet area for browning and room for both cans of beans and stock. Scaled batches
+      may need additional pans or loads; divide ingredient totals rather than use a full dose per
+      pan.
     - >-
-      The main uses raw pork sausage. If the chosen Italian-style sausage
-      contains poultry, cook it to 165°F /74°C instead; follow product handling
-      instructions.
+      The main uses raw pork sausage. If the chosen Italian-style sausage contains poultry, cook it
+      to 165°F /74°C instead; follow product handling instructions.
   checkpoints:
     - step: 5
       cue: Several thicker pork-sausage pieces measure 160°F before tasting.
@@ -315,39 +299,33 @@ learning:
     - problem: The sauce tightens before sausage is cooked through
       cause: Evaporation or strong heat outpaces the thicker pieces
       fix: >-
-        Lower heat and continue gentle cooking with the written sausage
-        endpoint. Do not sample a raw-contact sauce because its surface has
-        browned; use adequate pan capacity and monitor reduction.
+        Lower heat and continue gentle cooking with the written sausage endpoint. Do not sample a
+        raw-contact sauce because its surface has browned; use adequate pan capacity and monitor
+        reduction.
   substitutions:
     - ingredient: Dried oregano
-      alternative: >-
-        Use 1 tbsp fresh oregano in place of the listed 1 tsp dried for the
-        original batch.
+      alternative: Use 1 tbsp fresh oregano in place of the listed 1 tsp dried for the original batch.
       effect: >-
-        Scale the chosen fresh or dried oregano amount with the batch and add it
-        at the paste-and-herb stage; use one option.
+        Scale the chosen fresh or dried oregano amount with the batch and add it at the
+        paste-and-herb stage; use one option.
   timing: >-
-    Allow about 30–45 minutes including 10–15 minutes preparation and 20–30
-    minutes for browning, aromatics, paste, heating and simmering. Most skillet
-    work needs attention; scaled batches may require additional browning loads.
-    Continue until the chosen sausage reaches its stated endpoint, even if that
-    extends the plan.
+    Allow about 30–45 minutes including 10–15 minutes preparation and 20–30 minutes for browning,
+    aromatics, paste, heating and simmering. Most skillet work needs attention; scaled batches may
+    require additional browning loads. Continue until the chosen sausage reaches its stated
+    endpoint, even if that extends the plan.
   storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or
-    1 hour above 90°F /32°C, at 40°F /4°C or below. Use refrigerated leftovers
-    within 3–4 days or freeze promptly. Reheat the portion served to 165°F /74°C
-    throughout, stirring and checking several places. USDA additionally
-    recommends a rolling boil for reheated sauces and gravies; bring this dish’s
-    sauce to that stage with stirring, without prolonging the boil and
-    concentrating it unnecessarily. Do not leave a large pot out to cool
-    overnight.
+    Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F
+    /32°C, at 40°F /4°C or below. Use refrigerated leftovers within 3–4 days or freeze promptly.
+    Reheat the portion served to 165°F /74°C throughout, stirring and checking several places. USDA
+    additionally recommends a rolling boil for reheated sauces and gravies; bring this dish’s sauce
+    to that stage with stirring, without prolonging the boil and concentrating it unnecessarily. Do
+    not leave a large pot out to cool overnight.
   sources:
     - title: USDA — cooling and reheating leftovers
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
     - title: FoodSafety.gov — sausage and seafood endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
   review:
     status: editorial-review
     date: '2026-10-05'

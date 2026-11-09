@@ -20,7 +20,6 @@ cookTime: 'About 40–60 min, continuing until set'
 totalTime: 'About 3–5 hr, including cooling and chilling'
 servings: 1 batch
 ingredients:
-  - '--- Butter pecan pie ---'
   - >-
     2 unbaked pastry pie shells, prepared and ready to fill; choose shells that can hold the filling
     below their rims

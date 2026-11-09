@@ -24,10 +24,10 @@ export default [
     },
   },
 
-  // Recipe detail page: set:html is safe here — ingredient HTML is server-rendered
-  // from our own recipe frontmatter strings, not user input
+  // Recipe detail page and header: set:html is safe here. Ingredient and chef's note HTML is
+  // server-rendered and escaped from our own recipe files, not user input.
   {
-    files: ['src/pages/recipes/\\[slug\\].astro'],
+    files: ['src/pages/recipes/\\[slug\\].astro', 'src/components/RecipeHeader.astro'],
     rules: {
       'astro/no-set-html-directive': 'off',
     },

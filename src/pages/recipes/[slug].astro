@@ -3,14 +3,16 @@ import Layout from '../../layouts/Layout.astro';
 import RecipeHeader from '../../components/RecipeHeader.astro';
 import {
   parseRecipeContent,
+  chefNoteHtml,
   isIngredientDivider,
   recipeDescription,
 } from '../../lib/recipe-content.mjs';
 import { buildRecipeSchema } from '../../lib/recipe-schema.mjs';
-import RecipeLearning from '../../components/RecipeLearning.astro';
 import RecipeScaler from '../../components/RecipeScaler.astro';
 import { splitLeadingQuantity } from '../../lib/ingredient-quantity.mjs';
-import { stepForFix, placeSwaps } from '../../lib/recipe-placement.mjs';
+import { placeSwaps } from '../../lib/recipe-placement.mjs';
+import { formulaShoppingList, formulaIngredients } from '../../lib/recipe-formula.mjs';
+import { sourceParts } from '../../lib/source-brand.mjs';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -35,10 +37,6 @@ const isDivider = isIngredientDivider;
 const parsedContent = parseRecipeContent(recipe.body || '');
 const description = recipeDescription(recipe.data, parsedContent);
 const schema = buildRecipeSchema(recipe.data, recipe.body || '', canonicalUrl, parsedContent);
-const fixes = (learning?.troubleshooting || []).map((item) => ({
-  ...item,
-  step: stepForFix(item, parsedContent.steps),
-}));
 const { byIngredient: swapsByIngredient, unplaced: otherSwaps } = placeSwaps(
   learning?.substitutions || [],
   recipe.data.ingredients || [],
@@ -48,6 +46,19 @@ const lowerFirst = (text: string) => text.replace(/^[A-Z](?![A-Z])/, (c) => c.to
 // Fixes and ingredient swaps live in the recipe itself. Tips keeps storage, what to serve, and
 // swaps that change the method rather than one ingredient.
 const hasTips = Boolean(learning?.storage || pairings.length || otherSwaps.length);
+const pairingNotes = recipe.data.pairingNotes || {};
+const source = recipe.data.source ? sourceParts(recipe.data.source) : null;
+// The note sits under the title. Recipe links inside it go to this site's pages.
+const noteHtml = chefNoteHtml(recipe.body || '', (url) => {
+  if (url.startsWith('/recipes/')) return `${BASE}recipes/${url.slice('/recipes/'.length)}`;
+  return /^(?:https?:\/\/|\/(?!\/))/.test(url) ? url : '';
+});
+// A shopping list is offered only when it combines lines, such as butter used in two places.
+const shopping = recipe.data.formula ? formulaShoppingList(recipe.data.formula) : [];
+const cookingLines = recipe.data.formula
+  ? formulaIngredients(recipe.data.formula).filter((line) => !isIngredientDivider(line))
+  : [];
+const showShopping = shopping.length > 0 && shopping.length < cookingLines.length;
 
 function getDividerLabel(str: string): string {
   const match = str.match(/^-{3}\s+(.+?)\s+-{3}$/);
@@ -87,21 +98,7 @@ function parseIngredientHtml(str: string): string {
   description={description}
   jsonLd={JSON.stringify(schema).replace(/</g, '\\u003c')}
 >
-  <RecipeHeader {recipe} />
-  {
-    learning ? (
-      <section class="learn-card" aria-labelledby="learn-title">
-        <h2 id="learn-title">What you'll learn</h2>
-        <p>
-          <strong>{learning.focus.replace(/^./, (c) => c.toUpperCase())}.</strong>{' '}
-          {learning.outcome}
-        </p>
-        <RecipeLearning {recipe} />
-      </section>
-    ) : (
-      <RecipeLearning {recipe} />
-    )
-  }
+  <RecipeHeader {recipe} {noteHtml} />
   <nav class="recipe-toolbar" aria-label="Recipe navigation">
     <div class="jump-links">
       <a href="#ingredients">Ingredients</a><a href="#directions">Method</a>{
@@ -142,6 +139,27 @@ function parseIngredientHtml(str: string): string {
           />
         )
       }
+      {
+        showShopping && (
+          <div class="list-switch" role="group" aria-label="Ingredient list">
+            <button type="button" data-list="cook" aria-pressed="true">
+              By recipe
+            </button>
+            <button type="button" data-list="shop" aria-pressed="false">
+              Shopping list
+            </button>
+          </div>
+        )
+      }
+      {
+        showShopping && (
+          <ul class="shopping-list" hidden>
+            {shopping.map((line) => (
+              <li data-formula-shopping set:html={parseIngredientHtml(line)} />
+            ))}
+          </ul>
+        )
+      }
       <ul class="ingredient-list">
         {
           (recipe.data.ingredients || []).map((ingredient, i) =>
@@ -175,20 +193,6 @@ function parseIngredientHtml(str: string): string {
           )
         }
       </ul>
-      {
-        learning && (
-          <section class="before-cooking">
-            <>
-              <h3>Before you start</h3>
-              <ul>
-                {learning.before.map((item) => (
-                  <li>{item}</li>
-                ))}
-              </ul>
-            </>
-          </section>
-        )
-      }
       <button type="button" class="next-section" data-show="steps">
         Next: the steps <span aria-hidden="true">→</span>
       </button>
@@ -201,38 +205,15 @@ function parseIngredientHtml(str: string): string {
         </button>
         <div class="recipe-method prose-refined"><Content /></div>
         {
-          learning && (
-            <section id="checkpoints" class="prose-refined checkpoint-section">
-              <h2>What to watch for</h2>
-              {learning.checkpoints.map((checkpoint) => (
-                <div class="checkpoint" data-checkpoint-step={checkpoint.step}>
-                  <p class="callout-label">Perfect your technique</p>
-                  <p class="cue">
-                    <strong>Look for:</strong> {checkpoint.cue}
-                  </p>
-                  <p class="why">{checkpoint.why}</p>
-                </div>
-              ))}
-              {fixes.map((fix) => (
-                <div class="fix-callout" data-fix-step={fix.step}>
-                  <p class="callout-label">Back on track</p>
-                  <p class="cue">
-                    <strong>{fix.problem.replace(/\.$/, '')}?</strong> {fix.fix}
-                  </p>
-                  <p class="why">{fix.cause}</p>
-                </div>
-              ))}
-            </section>
-          )
-        }
-        {
-          recipe.data.source && (
+          source && (
             <p class="attribution">
-              Recipe source:{' '}
+              {source.lead}
               {recipe.data.sourceUrl ? (
-                <a href={recipe.data.sourceUrl}>{recipe.data.source}</a>
+                <a href={recipe.data.sourceUrl} rel="noopener">
+                  {source.name}
+                </a>
               ) : (
-                recipe.data.source
+                source.name
               )}
             </p>
           )
@@ -256,17 +237,18 @@ function parseIngredientHtml(str: string): string {
             )}
             {learning?.storage && (
               <section class="prose-refined tip-card">
-                <h2>Make ahead and store</h2>
+                <h2>Storing</h2>
                 <p>{learning.storage}</p>
               </section>
             )}
             {pairings.length > 0 && (
               <section class="prose-refined pairings tip-card">
-                <h2>Build the meal</h2>
+                <h2>Serve it with</h2>
                 <ul>
                   {pairings.map((slug) => (
                     <li>
                       <a href={`${BASE}recipes/${slug}`}>{recipeTitles.get(slug)}</a>
+                      {pairingNotes[slug] && <span class="pairing-note">{pairingNotes[slug]}</span>}
                     </li>
                   ))}
                 </ul>
@@ -383,19 +365,6 @@ function parseIngredientHtml(str: string): string {
     color: var(--accent-strong);
     margin-top: 1.5rem;
   }
-  .before-cooking {
-    margin-top: 2rem;
-  }
-  .before-cooking h3 {
-    font-size: 0.95rem;
-    font-weight: 700;
-  }
-  .before-cooking li {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-top: 0.8rem;
-  }
   .recipe-main {
     min-width: 0;
   }
@@ -408,35 +377,6 @@ function parseIngredientHtml(str: string): string {
   }
   .recipe-method ol > li::before {
     top: 0.65rem;
-  }
-  .checkpoint {
-    background: var(--wash);
-    border-radius: var(--radius-sm);
-    padding: 1rem 1.1rem;
-    margin: 1.3rem 0;
-  }
-  .checkpoint p {
-    margin-bottom: 0.6rem;
-  }
-  .checkpoint summary {
-    font-size: 0.82rem;
-    color: var(--accent-gold);
-    cursor: pointer;
-  }
-  .checkpoint details p {
-    margin: 0.75rem 0 0;
-    font-size: 0.85rem;
-  }
-  /* "Back on track": how to recover when a step isn't quite right, under the step it belongs to. */
-  .fix-callout {
-    background: var(--apricot-wash);
-    border-radius: var(--radius-sm);
-    padding: 1rem 1.1rem;
-    margin: 1rem 0;
-  }
-  .fix-callout p.callout-label {
-    background: var(--apricot);
-    color: var(--on-apricot);
   }
   /* Swaps sit under the ingredient they replace. */
   .swap {
@@ -463,6 +403,51 @@ function parseIngredientHtml(str: string): string {
     font-size: 0.95rem;
     margin: 0 0 0.8rem;
   }
+  .attribution a,
+  .pairing-note a {
+    color: var(--accent-link);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+  .pairings li {
+    margin-bottom: 0.6rem;
+  }
+  .pairing-note {
+    display: block;
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  .list-switch {
+    display: flex;
+    gap: 0.3rem;
+    background: var(--bg-elevated);
+    border-radius: var(--pill);
+    padding: 0.25rem;
+    margin: 0 0 0.8rem;
+  }
+  .list-switch button {
+    flex: 1;
+    min-height: 40px;
+    border-radius: var(--pill);
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+  }
+  .list-switch button[aria-pressed='true'] {
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    box-shadow: 0 1px 4px rgba(31, 52, 64, 0.15);
+  }
+  .shopping-list {
+    list-style: none;
+    padding: 0;
+  }
+  .shopping-list li {
+    font-size: 1rem;
+    line-height: 1.55;
+    padding: 0.5rem 0;
+  }
   .attribution {
     color: var(--text-secondary);
     font-size: 0.8rem;
@@ -473,53 +458,10 @@ function parseIngredientHtml(str: string): string {
     font-weight: 750;
     color: var(--text-primary);
   }
-  .learn-card {
-    margin: 1.4rem 0 0;
-    padding: 1.1rem 1.3rem;
-    border-radius: var(--radius);
-    background: var(--wash);
-  }
-  .learn-card h2 {
-    font:
-      650 1.25rem/1.2 'Fraunces',
-      Georgia,
-      serif;
-    margin: 0 0 0.4rem;
-  }
-  .learn-card p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 0;
-  }
   .section-switch,
   .next-section,
   .cook-start {
     display: none;
-  }
-  /* "Perfect your technique": the cue to look for, right under the step it belongs to. */
-  .checkpoint .callout-label,
-  .fix-callout .callout-label {
-    display: inline-block;
-    font-size: 0.8rem;
-    font-weight: 800;
-    color: #fff;
-    background: var(--accent-strong);
-    border-radius: var(--pill);
-    padding: 0.2rem 0.65rem;
-    margin: 0 0 0.6rem;
-  }
-  .checkpoint .cue,
-  .fix-callout .cue {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 0 0 0.4rem;
-  }
-  .checkpoint .why,
-  .fix-callout .why {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: var(--text-secondary);
-    margin: 0;
   }
   .recipe-tips {
     margin-top: 3rem;
@@ -637,10 +579,6 @@ function parseIngredientHtml(str: string): string {
   }
   .cook-text .step-copy p {
     margin: 0 0 0.8rem;
-  }
-  .cook-text .checkpoint,
-  .cook-text .fix-callout {
-    margin-top: 1.4rem;
   }
   .cook-ing-panel {
     margin-bottom: 1.4rem;
@@ -825,9 +763,7 @@ function parseIngredientHtml(str: string): string {
       text-decoration: none !important;
       color: black !important;
     }
-    .recipe-method ol > li,
-    .checkpoint,
-    .fix-callout {
+    .recipe-method ol > li {
       break-inside: avoid;
     }
     .prose-refined,

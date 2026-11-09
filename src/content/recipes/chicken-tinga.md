@@ -26,7 +26,6 @@ pairsWith:
   - cilantro-lime-rice
   - mexican-street-corn-salad
 ingredients:
-  - '--- Chicken and sauce ---'
   - >-
     1 1/2 lb cooked shredded chicken, already poached or rotisserie; cooking raw chicken is a
     separate preparation

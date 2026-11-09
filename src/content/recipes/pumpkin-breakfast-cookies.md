@@ -168,123 +168,99 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F and line a baking sheet with parchment. Use
-        additional sheets or oven loads when needed; scaled dough should not be
-        crowded onto the original sheet.
+        Preheat the oven to 350°F and line a baking sheet with parchment. Use additional sheets or
+        oven loads when needed; scaled dough should not be crowded onto the original sheet.
     - id: oil
       title: Combine oil and honey
       text: >-
-        Whisk {{ingredients}} in a small bowl. If necessary, warm them gently
-        together in a suitable microwave-safe bowl or on the stove only until
-        fluid, then let them cool until warm rather than hot before they touch
-        the eggs.
+        Whisk {{ingredients}} in a small bowl. If necessary, warm them gently together in a suitable
+        microwave-safe bowl or on the stove only until fluid, then let them cool until warm rather
+        than hot before they touch the eggs.
     - id: wet
       title: Mix the eggs and pumpkin
       text: >-
-        Whisk {{ingredients}} in a separate bowl until combined, then stir in
-        the warm oil-honey mixture.
+        Whisk {{ingredients}} in a separate bowl until combined, then stir in the warm oil-honey
+        mixture.
     - id: dry
       title: Mix oats and inclusions
       text: >-
-        In a large bowl, stir {{ingredients}} together until evenly distributed,
-        including all the salt.
+        In a large bowl, stir {{ingredients}} together until evenly distributed, including all the
+        salt.
     - id: combine
       title: Combine thoroughly
       text: >-
-        Add the pumpkin mixture to the oat mixture and stir until all the oats
-        and inclusions are coated and the mixture holds together.
+        Add the pumpkin mixture to the oat mixture and stir until all the oats and inclusions are
+        coated and the mixture holds together.
     - id: shape
       title: Scoop and flatten
       text: >-
-        Scoop about ¼ cup per cookie onto the lined sheet. Flatten each into a
-        roughly ¾-inch-thick disk; these cookies do not spread themselves. The
-        original batch plans twelve cookies; use all the dough and keep similar
-        portion size when scaling.
+        Scoop about ¼ cup per cookie onto the lined sheet. Flatten each into a roughly ¾-inch-thick
+        disk; these cookies do not spread themselves. The original batch plans twelve cookies; use
+        all the dough and keep similar portion size when scaling.
     - id: bake
       title: Bake
       text: >-
-        Wait until the oven reaches 350°F. Bake for 15–20 minutes per load,
-        until the edges are lightly browned and the center feels firm. Check
-        again if the center is still loose; sheet loads and cookie thickness can
-        change the time.
+        Wait until the oven reaches 350°F. Bake for 15–20 minutes per load, until the edges are
+        lightly browned and the center feels firm. Check again if the center is still loose; sheet
+        loads and cookie thickness can change the time.
     - id: cool
       title: Cool
       text: >-
-        Let the cookies cool completely on the baking sheet before lifting them
-        or closing them in an airtight container.
+        Let the cookies cool completely on the baking sheet before lifting them or closing them in
+        an airtight container.
 learning:
   focus: Coating a two-oat dough completely and shaping cookies that do not spread.
-  outcome: >-
-    Flattened cookies with lightly browned edges and firm centers that lift
-    intact after cooling.
+  outcome: Flattened cookies with lightly browned edges and firm centers that lift intact after cooling.
   techniques:
     - temperature
   before:
     - >-
-      The original twelve-cookie yield is a planning count for roughly
-      quarter-cup scoops. Scale dough quantity and sheet loads while keeping
-      similar cookie size and spacing.
+      The original twelve-cookie yield is a planning count for roughly quarter-cup scoops. Scale
+      dough quantity and sheet loads while keeping similar cookie size and spacing.
     - >-
-      Warm oil and honey separately if needed; let them become warm rather than
-      hot before adding raw eggs.
-    - >-
-      Do not taste the raw egg mixture. Wash hands and tools after handling raw
-      eggs.
+      Warm oil and honey separately if needed; let them become warm rather than hot before adding
+      raw eggs.
+    - Do not taste the raw egg mixture. Wash hands and tools after handling raw eggs.
   checkpoints:
     - step: 5
       cue: Every oat and inclusion is coated and the mixture holds together.
-      why: >-
-        A fully mixed oat dough avoids dry pockets; a flour-batter lumps rule
-        does not apply.
+      why: A fully mixed oat dough avoids dry pockets; a flour-batter lumps rule does not apply.
     - step: 6
       cue: Each scoop is already flattened to its intended cookie shape.
       why: The dough does not spread during baking.
     - step: 8
       cue: Cookies lift without breaking after complete cooling.
-      why: >-
-        Moving or wrapping them while warm can break the moist cookies and trap
-        steam.
+      why: Moving or wrapping them while warm can break the moist cookies and trap steam.
   troubleshooting:
     - problem: Cookies remain tall and loose in the middle.
       cause: Scoops were left rounded or thicker than the reference.
-      fix: >-
-        Flatten before baking and continue until the centers firm; do not rely
-        only on edge color.
+      fix: Flatten before baking and continue until the centers firm; do not rely only on edge color.
     - problem: Egg-free dough has dry flax or excess loose liquid.
-      cause: >-
-        Flax was added twice or the existing flax was not gelled with the
-        replacement water.
+      cause: Flax was added twice or the existing flax was not gelled with the replacement water.
       fix: >-
-        Use the listed flax once in the gel, omit the eggs and keep the other
-        complete quantities; avoid adding guessed extra oats or flax.
+        Use the listed flax once in the gel, omit the eggs and keep the other complete quantities;
+        avoid adding guessed extra oats or flax.
   substitutions:
     - ingredient: Honey
       alternative: Same listed amount of maple syrup or agave
-      effect: >-
-        A complete sweetener replacement; vegan suitability also requires the
-        egg-free branch.
+      effect: A complete sweetener replacement; vegan suitability also requires the egg-free branch.
     - ingredient: Eggs
       alternative: Gelled existing flax with ½ cup water for the original two-egg batch
-      effect: >-
-        Omit eggs and use the listed flax once; binding, texture and bake time
-        can differ.
+      effect: 'Omit eggs and use the listed flax once; binding, texture and bake time can differ.'
     - ingredient: Pepitas
-      alternative: >-
-        Same total listed volume of chopped nuts or sunflower seeds and
-        chocolate chips
+      alternative: Same total listed volume of chopped nuts or sunflower seeds and chocolate chips
       effect: >-
-        Replace the whole pepita amount rather than adding another full
-        inclusion amount; check allergies and chip ingredients.
+        Replace the whole pepita amount rather than adding another full inclusion amount; check
+        allergies and chip ingredients.
   storage: >-
-    Cool completely before airtight storage. The plain-cookie source plan is 3–4
-    days at room temperature or about one week refrigerated; freeze longer-held
-    portions and aim to use within four months for quality. No cream-cheese
-    filling or glaze is present.
+    Cool completely before airtight storage. The plain-cookie source plan is 3–4 days at room
+    temperature or about one week refrigerated; freeze longer-held portions and aim to use within
+    four months for quality. No cream-cheese filling or glaze is present.
   timing: >-
-    Ten minutes preparation plus 15–20 minutes baking gives a 25–30-minute
-    subtotal for one oven load. Complete cooling, additional loads and any oven
-    heating still needed after preparation add elapsed time. The egg-free gel
-    needs additional preparation until gelled; no fixed gel time is supplied.
+    Ten minutes preparation plus 15–20 minutes baking gives a 25–30-minute subtotal for one oven
+    load. Complete cooling, additional loads and any oven heating still needed after preparation add
+    elapsed time. The egg-free gel needs additional preparation until gelled; no fixed gel time is
+    supplied.
   sources:
     - title: 'Leelalicious — shaping, full egg-free route and source keeping plan'
       url: 'https://leelalicious.com/pumpkin-breakfast-cookies/'

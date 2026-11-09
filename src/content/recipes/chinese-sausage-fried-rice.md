@@ -32,7 +32,6 @@ pairsWith:
   - basmati-rice
   - smashed-cucumber-salad
 ingredients:
-  - '--- Recipe ---'
   - '4 cups cooked jasmine rice, cold, properly refrigerated'
   - '5 Chinese sausages (lap cheong), thinly sliced after any package-required preparation'
   - '3 large eggs, beaten'

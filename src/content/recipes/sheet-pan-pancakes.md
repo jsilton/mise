@@ -221,116 +221,93 @@ formula:
     - id: prep
       title: Prepare pan
       text: >-
-        Preheat to 425°F. Coat the original 9-by-13-inch rimmed sheet pan with
-        {{ingredients}}. For larger batches use enough original-size pans,
-        dividing all batter and toppings proportionally. For a smaller batch
-        choose a smaller oven-safe rimmed pan with similar batter depth and
-        adequate headroom, and check the center earlier. Dimensions and baking
+        Preheat to 425°F. Coat the original 9-by-13-inch rimmed sheet pan with {{ingredients}}. For
+        larger batches use enough original-size pans, dividing all batter and toppings
+        proportionally. For a smaller batch choose a smaller oven-safe rimmed pan with similar
+        batter depth and adequate headroom, and check the center earlier. Dimensions and baking
         times do not scale with ingredients.
     - id: mix
       title: Mix batter
       text: >-
-        For the batter, use {{ingredients}}. In a large bowl, whisk the flour,
-        both sugars, baking powder and salt. Add the eggs, milk, lukewarm melted
-        butter and vanilla and whisk until combined and smooth. Stop once no dry
-        pockets remain rather than continuing to beat; do not taste raw batter.
+        For the batter, use {{ingredients}}. In a large bowl, whisk the flour, both sugars, baking
+        powder and salt. Add the eggs, milk, lukewarm melted butter and vanilla and whisk until
+        combined and smooth. Stop once no dry pockets remain rather than continuing to beat; do not
+        taste raw batter.
     - id: spread
       title: Spread
       text: >-
-        Pour the batter into the prepared pan or divide it proportionally among
-        the chosen pans. Tap gently on the counter to level it. Imagine four
-        equal topping regions in each pan.
+        Pour the batter into the prepared pan or divide it proportionally among the chosen pans. Tap
+        gently on the counter to level it. Imagine four equal topping regions in each pan.
     - id: strawberry
       title: Strawberry region
       text: >-
-        Use {{ingredients}} for one region. Dollop small spoonfuls of the jam
-        and swirl gently with a toothpick, then arrange the sliced berries over
-        it. Divide these supplies proportionally among pans if using more than
-        one.
+        Use {{ingredients}} for one region. Dollop small spoonfuls of the jam and swirl gently with
+        a toothpick, then arrange the sliced berries over it. Divide these supplies proportionally
+        among pans if using more than one.
     - id: blueberry
       title: Blueberry region
-      text: >-
-        Scatter {{ingredients}} over a second region, sharing them
-        proportionally among pans.
+      text: 'Scatter {{ingredients}} over a second region, sharing them proportionally among pans.'
     - id: chocolate
       title: Chocolate region
-      text: >-
-        Scatter {{ingredients}} over a third region, sharing them proportionally
-        among pans.
+      text: 'Scatter {{ingredients}} over a third region, sharing them proportionally among pans.'
     - id: cinnamon
       title: Cinnamon region
       text: >-
-        Whisk {{ingredients}} together. Dollop small spoonfuls over the fourth
-        region and swirl with a toothpick; share the full mixture proportionally
-        among pans.
+        Whisk {{ingredients}} together. Dollop small spoonfuls over the fourth region and swirl with
+        a toothpick; share the full mixture proportionally among pans.
     - id: bake
       title: Bake
       text: >-
-        Bake about 15–18 minutes for the original batch and pan, until the
-        center springs back and a toothpick comes out without wet batter. Check
-        both a plain area and beneath fruit rather than mistaking a melted
-        chocolate chip for raw batter. If baking several pans, check each; a
+        Bake about 15–18 minutes for the original batch and pan, until the center springs back and a
+        toothpick comes out without wet batter. Check both a plain area and beneath fruit rather
+        than mistaking a melted chocolate chip for raw batter. If baking several pans, check each; a
         changed load or depth can alter the time.
     - id: serve
       title: Slice and serve
-      text: >-
-        Cool for about a minute, then slice into portions and serve with
-        {{ingredients}}.
+      text: 'Cool for about a minute, then slice into portions and serve with {{ingredients}}.'
 learning:
   focus: Keep a full batter and four toppings organized
-  outcome: >-
-    Evenly baked portions with set centers and distinct fruit, chocolate and
-    cinnamon regions.
+  outcome: 'Evenly baked portions with set centers and distinct fruit, chocolate and cinnamon regions.'
   techniques:
     - leavening
     - starch
   before:
     - >-
-      The original batch uses a 9-by-13-inch rimmed pan. Plan proportionate
-      surface area, batter depth and headroom before mixing; larger batches can
-      need multiple pans.
+      The original batch uses a 9-by-13-inch rimmed pan. Plan proportionate surface area, batter
+      depth and headroom before mixing; larger batches can need multiple pans.
     - >-
-      Measure the batter butter and topping butter separately, and do the same
-      for the two brown-sugar supplies. Melt the batter butter ahead so it is
-      lukewarm before meeting the eggs.
+      Measure the batter butter and topping butter separately, and do the same for the two
+      brown-sugar supplies. Melt the batter butter ahead so it is lukewarm before meeting the eggs.
     - >-
-      Wash, hull and slice strawberries; drain washed blueberries so they do not
-      add a puddle of water.
+      Wash, hull and slice strawberries; drain washed blueberries so they do not add a puddle of
+      water.
   checkpoints:
     - step: 7
       cue: >-
-        The cinnamon mixture occupies its own quarter without the butter
-        spreading across the whole pan.
+        The cinnamon mixture occupies its own quarter without the butter spreading across the whole
+        pan.
       why: >-
-        Keeping the topping localized preserves four distinct flavors and the
-        intended full topping dose.
+        Keeping the topping localized preserves four distinct flavors and the intended full topping
+        dose.
     - step: 8
-      cue: >-
-        The center springs back and there is no wet batter around or beneath the
-        fruit.
-      why: >-
-        Fruit can insulate a wet pocket while an exposed plain region has
-        already baked.
+      cue: The center springs back and there is no wet batter around or beneath the fruit.
+      why: Fruit can insulate a wet pocket while an exposed plain region has already baked.
   troubleshooting:
     - problem: Edges dry out while the center stays wet
-      cause: >-
-        The batter was piled too deeply or the pan/load differs from the
-        original.
+      cause: The batter was piled too deeply or the pan/load differs from the original.
       fix: >-
-        Continue until the center is baked, shielding browned areas if needed.
-        For the next batch divide among pans with a shallower, similar depth;
-        slicing underbaked batter does not finish cooking it.
+        Continue until the center is baked, shielding browned areas if needed. For the next batch
+        divide among pans with a shallower, similar depth; slicing underbaked batter does not finish
+        cooking it.
   timing: >-
-    The original 35-minute plan covers preparation, a 15–18-minute bake and a
-    brief cooling minute, with some preheating overlap. Extra pans and oven
-    loading add time; do not multiply the stated baking window by the scale
-    factor.
+    The original 35-minute plan covers preparation, a 15–18-minute bake and a brief cooling minute,
+    with some preheating overlap. Extra pans and oven loading add time; do not multiply the stated
+    baking window by the scale factor.
   storage: >-
-    Divide cooked leftovers into shallow portions and refrigerate within 2
-    hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4
-    days or freeze promptly; reheat to 165°F / 74°C throughout, checking the
-    center and more than one portion. Prefer the source’s shorter 3-day
-    refrigerator quality plan or its 2-month wrapped-freezer plan.
+    Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F /
+    74°C throughout, checking the center and more than one portion. Prefer the source’s shorter
+    3-day refrigerator quality plan or its 2-month wrapped-freezer plan.
   sources:
     - title: 'Belly Full: Sheet Pan Pancakes'
       url: 'https://bellyfull.net/sheet-pan-pancakes/'

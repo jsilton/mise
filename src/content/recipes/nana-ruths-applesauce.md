@@ -23,7 +23,6 @@ pairsWith:
   - brisket-with-carrots-and-onions
   - chef-krigers-recipe-shabbat-brisket
 ingredients:
-  - '--- Applesauce ---'
   - '6 lb McIntosh apples, weighed before peeling and coring'
   - 1/2 cup water
   - 1/2 cup granulated sugar

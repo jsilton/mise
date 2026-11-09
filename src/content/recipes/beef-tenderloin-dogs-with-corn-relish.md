@@ -31,10 +31,9 @@ pairsWith:
   - perfect-mashed-potatoes
   - everyday-arugula-salad
 ingredients:
-  - '--- Main recipe ---'
   - >-
-    1 lb center-cut beef tenderloin, cut into one bread-sized strip per listed
-    bread portion; four strips in the original batch
+    1 lb center-cut beef tenderloin, cut into one bread-sized strip per listed bread portion; four
+    strips in the original batch
   - 1 tbsp olive oil
   - 1 tsp garlic powder
   - 1 tsp paprika
@@ -67,8 +66,8 @@ formula:
             - step: beef
               share: 1
           preparation: >-
-            cut into one bread-sized strip per listed bread portion; four strips
-            in the original batch
+            cut into one bread-sized strip per listed bread portion; four strips in the original
+            batch
         - id: oil
           key: olive-oil
           name: olive oil
@@ -172,24 +171,23 @@ formula:
     - id: relish
       title: Relish
       text: >-
-        Make the relish with {{ingredients}}. First whisk the vinegar and sugar
-        in a small bowl, then toss with the prepared corn, pepper and onion and
-        season to taste. Keep the relish refrigerated while you cook the beef.
+        Make the relish with {{ingredients}}. First whisk the vinegar and sugar in a small bowl,
+        then toss with the prepared corn, pepper and onion and season to taste. Keep the relish
+        refrigerated while you cook the beef.
     - id: beef
       title: Season beef
       text: >-
-        Season {{ingredients}}, rubbing all the oil, powder, paprika and beef
-        seasoning over the prepared strips. Cut one strip for each listed bread
-        portion rather than keeping the original count when scaling.
+        Season {{ingredients}}, rubbing all the oil, powder, paprika and beef seasoning over the
+        prepared strips. Cut one strip for each listed bread portion rather than keeping the
+        original count when scaling.
     - id: sear
       title: Cook
       text: >-
-        Heat a cast-iron skillet or grill to high. Sear the beef strips until
-        browned on each side, starting to check after 2–3 minutes per side.
-        Insert a thermometer from the side into the center of each piece and
-        continue cooking until it reaches 145°F / 63°C; lower the heat if the
-        outside browns too quickly. Cook in uncrowded loads if needed, and use
-        clean utensils and a clean plate for the finished strips.
+        Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side,
+        starting to check after 2–3 minutes per side. Insert a thermometer from the side into the
+        center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if
+        the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils
+        and a clean plate for the finished strips.
     - id: rest
       title: Rest
       text: Let the cooked strips rest for 5 minutes before serving.
@@ -199,60 +197,52 @@ formula:
     - id: serve
       title: Assemble
       text: >-
-        Place one rested beef strip on each bread portion and divide all the
-        relish among them. Serve promptly.
+        Place one rested beef strip on each bread portion and divide all the relish among them.
+        Serve promptly.
 learning:
   focus: Coordinate a cold relish with individually checked tenderloin strips
   outcome: >-
-    Browned beef strips with their full five-minute rest, toasted bread and a
-    cold, crunchy corn topping.
+    Browned beef strips with their full five-minute rest, toasted bread and a cold, crunchy corn
+    topping.
   techniques:
     - temperature
   before:
     - >-
-      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the
-      refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep
-      them apart from raw meat and its utensils.
+      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the refrigerator.
+      Prepare ready-to-eat vegetables with clean tools, then keep them apart from raw meat and its
+      utensils.
     - >-
-      Have the listed roasted corn ready; roasting fresh kernels adds
-      preparation beyond the assembly plan. Use enough grill or skillet space to
-      brown the strips without crowding.
+      Have the listed roasted corn ready; roasting fresh kernels adds preparation beyond the
+      assembly plan. Use enough grill or skillet space to brown the strips without crowding.
     - >-
-      The original batch plans four bread portions. Adjust the strip count to
-      the listed bread count; piece thickness and grill heat determine the
-      cooking time.
+      The original batch plans four bread portions. Adjust the strip count to the listed bread
+      count; piece thickness and grill heat determine the cooking time.
   checkpoints:
     - step: 3
-      cue: >-
-        Each strip reaches 145°F in its center before the separate five-minute
-        rest.
+      cue: Each strip reaches 145°F in its center before the separate five-minute rest.
       why: >-
-        A browned surface does not establish the center temperature, especially
-        when strips differ in thickness.
+        A browned surface does not establish the center temperature, especially when strips differ
+        in thickness.
     - step: 6
       cue: Every sandwich receives beef and a portion of the full chilled relish.
       why: >-
-        Keeping relish and raw-beef work separate preserves its fresh texture
-        and avoids cross-contact.
+        Keeping relish and raw-beef work separate preserves its fresh texture and avoids
+        cross-contact.
   troubleshooting:
     - problem: The outside is dark before a strip reaches its endpoint
-      cause: >-
-        High direct heat or a thicker strip cooks the surface faster than the
-        center.
+      cause: High direct heat or a thicker strip cooks the surface faster than the center.
       fix: >-
-        Lower the heat or move to a cooler grill area, continue checking the
-        center, and keep the five-minute rest.
+        Lower the heat or move to a cooler grill area, continue checking the center, and keep the
+        five-minute rest.
   timing: >-
-    About 35 minutes is the inherited plan with corn already roasted. The
-    five-minute beef rest is included in the cooking workflow; extra pan loads
-    or making the corn add time. The chilled-corn variation additionally
-    requires boiling and cold-through relish chilling.
+    About 35 minutes is the inherited plan with corn already roasted. The five-minute beef rest is
+    included in the cooking workflow; extra pan loads or making the corn add time. The chilled-corn
+    variation additionally requires boiling and cold-through relish chilling.
   storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or
-    freeze promptly; follow any shorter remaining limit on prepared components.
-    Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout.
-    Store bread separately so the relish does not soak it; the vegetables lose
+    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; follow any shorter
+    remaining limit on prepared components. Reheat cooked meat, rice or casserole portions to 165°F
+    / 74°C throughout. Store bread separately so the relish does not soak it; the vegetables lose
     crunch with holding.
   sources:
     - title: Food & Wine — Beef Tenderloin Dogs

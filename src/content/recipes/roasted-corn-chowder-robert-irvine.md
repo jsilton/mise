@@ -24,7 +24,6 @@ pairsWith:
   - garlic-bread
   - everyday-arugula-salad
 ingredients:
-  - '--- Robert Irvine’s roux-and-cream version ---'
   - '1 lime, juice and squeezed rind for shrimp marinade; marinade/rind discarded'
   - '1 lb raw baby shrimp, shelled, deveined and thawed under refrigeration if frozen'
   - '5 cups corn kernels, fresh or thawed frozen and drained; do not use canned corn'

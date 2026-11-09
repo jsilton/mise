@@ -114,112 +114,95 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        For the original batch, lightly grease a 9×13×2-inch pan and spatula
-        with {{ingredients}}. Have wax paper available for pressing. Scaling
-        needs proportional pan area or additional pans to keep a similar layer
-        thickness; do not cram extra full batches into the original pan.
+        For the original batch, lightly grease a 9×13×2-inch pan and spatula with {{ingredients}}.
+        Have wax paper available for pressing. Scaling needs proportional pan area or additional
+        pans to keep a similar layer thickness; do not cram extra full batches into the original
+        pan.
     - id: melt
       title: Melt gently
       text: >-
-        Use {{ingredients}} in a large saucepan: melt the butter over low heat,
-        then add the marshmallows and stir until completely melted and smooth.
-        Remove from heat; there is no fixed stovetop melting time.
+        Use {{ingredients}} in a large saucepan: melt the butter over low heat, then add the
+        marshmallows and stir until completely melted and smooth. Remove from heat; there is no
+        fixed stovetop melting time.
     - id: flavor
       title: Flavor off heat
       text: 'Stir {{ingredients}} into the melted mixture off the heat.'
     - id: fold
       title: Coat the cereal
       text: >-
-        Fold in {{ingredients}} until evenly coated, scraping the bottom and
-        sides. Use the full cereal amount.
+        Fold in {{ingredients}} until evenly coated, scraping the bottom and sides. Use the full
+        cereal amount.
     - id: press
       title: Press
       text: >-
-        Transfer the full mixture to the prepared pan, or divide across the
-        selected proportional pans. Use the greased spatula or wax paper to
-        press gently into an even layer; avoid compacting it firmly.
+        Transfer the full mixture to the prepared pan, or divide across the selected proportional
+        pans. Use the greased spatula or wax paper to press gently into an even layer; avoid
+        compacting it firmly.
     - id: cool
       title: Cool
       text: >-
-        Let cool at room temperature until set and cool enough to cut. Thirty
-        minutes is the current planning allowance, not a guaranteed finish;
-        thickness and room conditions can change it.
+        Let cool at room temperature until set and cool enough to cut. Thirty minutes is the current
+        planning allowance, not a guaranteed finish; thickness and room conditions can change it.
     - id: cut
       title: Cut and serve
       text: >-
-        Cut into the listed number of planning portions, or smaller squares as
-        desired. The original two-inch-square suggestion is a cutting option,
-        not a claim that a 9×13-inch pan produces twelve exact two-inch squares.
-        Serve the same day for best texture.
+        Cut into the listed number of planning portions, or smaller squares as desired. The original
+        two-inch-square suggestion is a cutting option, not a claim that a 9×13-inch pan produces
+        twelve exact two-inch squares. Serve the same day for best texture.
 learning:
-  focus: >-
-    Fully melting the marshmallows, coating all the cereal and preserving an
-    open pressed texture.
-  outcome: >-
-    Set, evenly coated treats that can be cut without forcing a fixed cooling
-    clock.
+  focus: 'Fully melting the marshmallows, coating all the cereal and preserving an open pressed texture.'
+  outcome: 'Set, evenly coated treats that can be cut without forcing a fixed cooling clock.'
   techniques:
     - temperature
   before:
     - >-
-      Have the pan, lightly greased spatula and wax paper ready before melting.
-      The original batch uses a 9×13×2-inch pan; scaling needs proportional area
-      to keep the same layer thickness.
+      Have the pan, lightly greased spatula and wax paper ready before melting. The original batch
+      uses a 9×13×2-inch pan; scaling needs proportional area to keep the same layer thickness.
     - >-
-      Choose one marshmallow form, keeping the full butter, cereal, salt and
-      vanilla. For a vegetarian choice, check the marshmallow or crème
-      ingredient label rather than assuming ordinary marshmallows qualify.
+      Choose one marshmallow form, keeping the full butter, cereal, salt and vanilla. For a
+      vegetarian choice, check the marshmallow or crème ingredient label rather than assuming
+      ordinary marshmallows qualify.
   checkpoints:
     - step: 2
       cue: Marshmallows are completely melted and smooth over low heat.
       why: >-
-        The original smooth-melt endpoint accounts for the entire marshmallow
-        amount; a prescribed 90% is unnecessary.
+        The original smooth-melt endpoint accounts for the entire marshmallow amount; a prescribed
+        90% is unnecessary.
     - step: 5
       cue: An evenly coated layer pressed gently into the pan.
-      why: >-
-        Hard compaction changes the texture even when the ingredient ratio is
-        unchanged.
+      why: Hard compaction changes the texture even when the ingredient ratio is unchanged.
     - step: 6
       cue: 'Set and cool enough to cut, rather than simply thirty minutes old.'
       why: Layer thickness and room conditions affect cooling.
   troubleshooting:
     - problem: Treats are hard or densely packed.
-      cause: >-
-        The melt was overheated, marshmallows were stale or pressing was too
-        firm.
+      cause: 'The melt was overheated, marshmallows were stale or pressing was too firm.'
       fix: >-
-        Use fresh marshmallows, gentle heat and remove the smooth melt promptly;
-        press only enough to level the layer. Do not reduce the full butter to
-        compensate.
+        Use fresh marshmallows, gentle heat and remove the smooth melt promptly; press only enough
+        to level the layer. Do not reduce the full butter to compensate.
     - problem: Mixture does not fit the pan or bowl.
       cause: A scaled batch was forced into the original equipment.
       fix: >-
-        Use proportional pan area and a suitable bowl or work in separate
-        batches. Microwave expansion needs headspace; no universal bowl size is
-        supplied.
+        Use proportional pan area and a suitable bowl or work in separate batches. Microwave
+        expansion needs headspace; no universal bowl size is supplied.
   substitutions:
     - ingredient: 10 oz fresh marshmallows
       alternative: 5½ cups mini marshmallows OR one 7 oz jar crème for the original batch
       effect: >-
-        Exclusive source substitutions. Scale the selected route proportionally;
-        mini volume is not a generic mass conversion and jar size remains fixed.
+        Exclusive source substitutions. Scale the selected route proportionally; mini volume is not
+        a generic mass conversion and jar size remains fixed.
   storage: >-
-    Serve the same day for best texture. Store airtight at room temperature for
-    no more than two days. For the source freezer option, pack in an airtight
-    container with wax paper between layers and freeze up to six weeks; let
-    stand at room temperature for 15 minutes before serving.
+    Serve the same day for best texture. Store airtight at room temperature for no more than two
+    days. For the source freezer option, pack in an airtight container with wax paper between layers
+    and freeze up to six weeks; let stand at room temperature for 15 minutes before serving.
   timing: >-
-    Ten minutes of preparation and the current thirty-minute cooling allowance
-    gives an approximately 40-minute plan before any extra melting or cooling
-    time. Melting is endpoint-driven and unmeasured. The source’s current
-    30-minute total is a separate planning label; it does not establish this
-    version’s actual cooling duration. Microwave route 3 minutes/stir after 2
-    applies only as the original-batch source reference.
+    Ten minutes of preparation and the current thirty-minute cooling allowance gives an
+    approximately 40-minute plan before any extra melting or cooling time. Melting is
+    endpoint-driven and unmeasured. The source’s current 30-minute total is a separate planning
+    label; it does not establish this version’s actual cooling duration. Microwave route 3
+    minutes/stir after 2 applies only as the original-batch source reference.
   sources:
-    - title: >-
-        Original publisher — complete stovetop/microwave routes and source
-        storage options
+    - title: Original publisher — complete stovetop/microwave routes and source storage options
       url: 'https://www.ricekrispies.us/recipes/the-original-treats-recipe'
   review:
     status: editorial-review

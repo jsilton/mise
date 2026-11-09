@@ -10,10 +10,9 @@ pairsWith:
   - good-eats-roast-turkey
   - simple-roast-turkey
 ingredients:
-  - '--- Purée ---'
   - >-
-    1 (3–4 lb) large butternut squash, approximate whole weight; peeled, seeded
-    and cut into 1-inch cubes
+    1 (3–4 lb) large butternut squash, approximate whole weight; peeled, seeded and cut into 1-inch
+    cubes
   - 2 tbsp olive oil
   - 'salt, a pinch for roasting'
   - '1/2 cup unsalted butter, cut into pieces, at room temperature'
@@ -45,55 +44,41 @@ leftovers: good
 source: Adapted from Silton Family
 learning:
   focus: Check tenderness before mashing
-  outcome: >-
-    Soft squash blends with the full butter and sweeteners into a rich mash,
-    with no firm chunks.
+  outcome: 'Soft squash blends with the full butter and sweeteners into a rich mash, with no firm chunks.'
   techniques:
     - starch
     - seasoning
   before:
     - >-
-      Choose enough roasting area for a single layer before loading; the
-      3–4-pound whole-squash range describes the original squash supply, not
-      peeled yield.
+      Choose enough roasting area for a single layer before loading; the 3–4-pound whole-squash
+      range describes the original squash supply, not peeled yield.
     - >-
-      Have butter at room temperature and choose the hand masher unless the
-      actual processor permits the hot-food load.
-    - >-
-      Choose roasted cubes or the complete boiled-quarter variation before
-      preparing the squash.
+      Have butter at room temperature and choose the hand masher unless the actual processor permits
+      the hot-food load.
+    - Choose roasted cubes or the complete boiled-quarter variation before preparing the squash.
   checkpoints:
     - step: 1
-      cue: >-
-        A fork slides easily into the centers, with golden edges in the roasting
-        route.
-      why: >-
-        The exterior can brown while the interior still resists; firm centers
-        leave lumps.
+      cue: 'A fork slides easily into the centers, with golden edges in the roasting route.'
+      why: The exterior can brown while the interior still resists; firm centers leave lumps.
     - step: 2
       cue: Butter melts through soft squash as it is mashed.
-      why: >-
-        The hot squash incorporates the full butter without needing added water
-        or a new dairy dose.
+      why: The hot squash incorporates the full butter without needing added water or a new dairy dose.
   troubleshooting:
     - problem: Firm pieces remain after mashing
       cause: Squash browned before the centers softened.
       fix: >-
-        Continue cooking the firm squash until easily pierced. Do not rely on
-        extra blending to repair an undercooked center; match the actual
-        processor temperature and load limits.
+        Continue cooking the firm squash until easily pierced. Do not rely on extra blending to
+        repair an undercooked center; match the actual processor temperature and load limits.
   timing: >-
-    The current original batch has about 15 minutes preparation and 30–40
-    minutes roasting, followed by mashing and seasoning. Preheating, extra trays
-    or a model-required cooling pause add elapsed time. The boiled-quarter route
-    starts checking around 25 minutes after adding squash to boiling water;
-    neither route has a tested finish yield.
+    The current original batch has about 15 minutes preparation and 30–40 minutes roasting, followed
+    by mashing and seasoning. Preheating, extra trays or a model-required cooling pause add elapsed
+    time. The boiled-quarter route starts checking around 25 minutes after adding squash to boiling
+    water; neither route has a tested finish yield.
   storage: >-
-    Divide cooked leftovers into shallow portions and refrigerate within 2
-    hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4
-    days or freeze promptly; reheat to 165°F / 74°C throughout, checking the
-    center and more than one portion. Warm gently while stirring and check
-    several dense portions at 165°F; no new liquid or fat reduction is needed.
+    Divide cooked leftovers into shallow portions and refrigerate within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly; reheat to 165°F /
+    74°C throughout, checking the center and more than one portion. Warm gently while stirring and
+    check several dense portions at 165°F; no new liquid or fat reduction is needed.
   sources:
     - title: USDA dense leftovers handling
       url: >-
@@ -198,29 +183,27 @@ formula:
     - id: roast
       title: Roast until tender
       text: >-
-        Preheat the oven to 400°F. Toss {{ingredients}} on enough rimmed baking
-        sheets to spread the cubes in a single layer. Roast about 30–40 minutes
-        until a fork easily pierces the centers and the edges are golden.
-        Browning alone is not proof that the centers are soft; larger loads need
-        more trays or batches, rather than a deeper pile.
+        Preheat the oven to 400°F. Toss {{ingredients}} on enough rimmed baking sheets to spread the
+        cubes in a single layer. Roast about 30–40 minutes until a fork easily pierces the centers
+        and the edges are golden. Browning alone is not proof that the centers are soft; larger
+        loads need more trays or batches, rather than a deeper pile.
     - id: mash
       title: Mash with all the butter
       text: >-
-        Transfer the hot squash to a large bowl and add {{ingredients}}. Mash
-        until smooth or leave it slightly coarse. For a processor finish, use
-        only a model that permits the actual hot-food temperature and load;
-        otherwise let the squash cool to its permitted temperature or use the
-        hand masher.
+        Transfer the hot squash to a large bowl and add {{ingredients}}. Mash until smooth or leave
+        it slightly coarse. For a processor finish, use only a model that permits the actual
+        hot-food temperature and load; otherwise let the squash cool to its permitted temperature or
+        use the hand masher.
     - id: season
       title: Add sweeteners and spices
       text: >-
-        Stir in {{ingredients}}. The measured sugar and syrup are separate full
-        supplies; the original gradually-to-taste sugar option is below.
+        Stir in {{ingredients}}. The measured sugar and syrup are separate full supplies; the
+        original gradually-to-taste sugar option is below.
     - id: finish
       title: Warm and finish
       text: >-
-        If needed, warm over low heat in a saucepan, stirring to prevent
-        sticking. Taste and add {{ingredients}}. Serve hot.
+        If needed, warm over low heat in a saucepan, stirring to prevent sticking. Taste and add
+        {{ingredients}}. Serve hot.
 ---
 
 ## Chef's Note

@@ -45,27 +45,22 @@ leftovers: good
 source: Adapted from Gwock Family
 learning:
   focus: Drain beans and reserve topping amounts
-  outcome: >-
-    Tender beans and cooked ham in a hot creamy center beneath golden reserved
-    cheese and onions.
+  outcome: Tender beans and cooked ham in a hot creamy center beneath golden reserved cheese and onions.
   techniques:
     - temperature
   before:
     - >-
-      The stated pan is for the original batch. Multiples need separate
-      original-size pans or enough vessels for similar filling depth and
-      headroom; smaller batches need an appropriately smaller dish and earlier
-      center checks. Divide the full mixture and topping among pans.
-      Temperatures and cut sizes stay fixed; extra loads add time.
+      The stated pan is for the original batch. Multiples need separate original-size pans or enough
+      vessels for similar filling depth and headroom; smaller batches need an appropriately smaller
+      dish and earlier center checks. Divide the full mixture and topping among pans. Temperatures
+      and cut sizes stay fixed; extra loads add time.
     - >-
-      Use already cooked, ready-to-eat ham and condensed soup without adding a
-      soup-can dilution dose. The blanching liquid does not go into the filling.
+      Use already cooked, ready-to-eat ham and condensed soup without adding a soup-can dilution
+      dose. The blanching liquid does not go into the filling.
   checkpoints:
     - step: 2
       cue: A thick bean segment yields with slight resistance before draining.
-      why: >-
-        The bake continues cooking; an exact blanch clock cannot guarantee
-        texture.
+      why: The bake continues cooking; an exact blanch clock cannot guarantee texture.
     - step: 5
       cue: The center reaches 165°F and the onion topping is golden.
       why: Bubbling edges and crisp topping are not the center’s temperature.
@@ -73,41 +68,36 @@ learning:
     - problem: The beans are hard while the topping is dark
       cause: Thick beans were under-blanched or the deep center is heating slowly.
       fix: >-
-        Tent the topping and continue checking the center and beans. For the
-        next batch, test a thick bean during blanching and keep similar dish
-        depth.
+        Tent the topping and continue checking the center and beans. For the next batch, test a
+        thick bean during blanching and keep similar dish depth.
   timing: >-
-    Allow about 20–30 minutes preparation/blanching, around 40 minutes or longer
-    baking and 5 minutes rest: about 65–75 minutes for the original pan, more
-    with extra loads.
+    Allow about 20–30 minutes preparation/blanching, around 40 minutes or longer baking and 5
+    minutes rest: about 65–75 minutes for the original pan, more with extra loads.
   substitutions:
     - ingredient: Cheddar topping stage
       alternative: >-
-        To put the reserved cheddar on before baking, assemble with the same
-        four-fifths cheddar inside and sprinkle the remaining one-fifth over the
-        filling at the start. Keep half the fried onions inside and add their
-        remaining half for the last stage. Retain the same 165°F center check
-        and five-minute rest.
+        To put the reserved cheddar on before baking, assemble with the same four-fifths cheddar
+        inside and sprinkle the remaining one-fifth over the filling at the start. Keep half the
+        fried onions inside and add their remaining half for the last stage. Retain the same 165°F
+        center check and five-minute rest.
       effect: >-
         Putting the top cheese on earlier gives it more time to melt and brown; add the reserved
         fried onions near the end.
     - ingredient: Baking dish
       alternative: >-
-        The saved recipe uses a 10×12-inch oven-safe dish. Use it only if its
-        actual depth gives enough room for the full filling; divide excess among
-        separate dishes instead of assuming the same capacity or clock.
+        The saved recipe uses a 10×12-inch oven-safe dish. Use it only if its actual depth gives
+        enough room for the full filling; divide excess among separate dishes instead of assuming
+        the same capacity or clock.
       effect: Preserves source geometry as an option while requiring actual headroom.
   storage: >-
-    Refrigerate cooked portions promptly in shallow containers within 2 hours,
-    or 1 hour above 90°F /32°C, at 40°F /4°C or below. Use within 3–4 days.
-    Reheat portions to 165°F /74°C throughout, checking the center; cover if
-    needed to keep the topping from over-browning.
+    Refrigerate cooked portions promptly in shallow containers within 2 hours, or 1 hour above 90°F
+    /32°C, at 40°F /4°C or below. Use within 3–4 days. Reheat portions to 165°F /74°C throughout,
+    checking the center; cover if needed to keep the topping from over-browning.
   sources:
     - title: FDA — Safe Food Handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: FoodSafety.gov — Safe Minimum Internal Temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA FSIS — Leftovers and Food Safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -248,47 +238,43 @@ formula:
     - id: prep
       title: Prepare dish
       text: >-
-        Heat oven to 350°F. For the original batch, use {{ingredients}} to
-        butter a 9×13-inch oven-safe baking dish. Use enough dishes for similar
-        filling depth with room below the rim when scaling.
+        Heat oven to 350°F. For the original batch, use {{ingredients}} to butter a 9×13-inch
+        oven-safe baking dish. Use enough dishes for similar filling depth with room below the rim
+        when scaling.
     - id: beans
       title: Parboil beans
       text: >-
-        Set out {{ingredients}}. Bring the blanching liquid to a boil in a
-        saucepan, then add the beans. Begin checking around 5–6 minutes after
-        adding beans: they should yield with slight resistance rather than
-        remain hard or fall apart. Drain immediately without rinsing. Keep
-        blanching liquid separate from casserole filling; discard it, or cool
-        promptly and refrigerate separately if saving for another use.
+        Set out {{ingredients}}. Bring the blanching liquid to a boil in a saucepan, then add the
+        beans. Begin checking around 5–6 minutes after adding beans: they should yield with slight
+        resistance rather than remain hard or fall apart. Drain immediately without rinsing. Keep
+        blanching liquid separate from casserole filling; discard it, or cool promptly and
+        refrigerate separately if saving for another use.
     - id: mix
       title: Combine filling
       text: >-
-        Set out {{ingredients}}. Whisk all the soup, half-and-half, garlic
-        powder, salt and pepper together. Fold in all the drained beans, cooked
-        ham, diced onion and the allocated cheese/fried onions. Four-fifths of
-        the full cheddar and half the fried onions go inside; reserve the rest
-        for the finishing stage. Do not dilute the condensed soup with the
+        Set out {{ingredients}}. Whisk all the soup, half-and-half, garlic powder, salt and pepper
+        together. Fold in all the drained beans, cooked ham, diced onion and the allocated
+        cheese/fried onions. Four-fifths of the full cheddar and half the fried onions go inside;
+        reserve the rest for the finishing stage. Do not dilute the condensed soup with the
         blanching broth.
     - id: bake
       title: Heat the full casserole
       text: >-
-        Transfer all filling to the buttered dishes. Bake at 350°F, starting
-        checks around 30 minutes for the original pan, until bubbling toward the
-        center. This begins the final check rather than certifying the center by
-        color alone.
+        Transfer all filling to the buttered dishes. Bake at 350°F, starting checks around 30
+        minutes for the original pan, until bubbling toward the center. This begins the final check
+        rather than certifying the center by color alone.
     - id: finish
       title: Add reserved topping
       text: >-
-        Scatter {{ingredients}} over the full filling, dividing the topping
-        among dishes. Continue baking, starting checks around 10 minutes later,
-        until the center reaches 165°F /74°C and the onions are golden. Check
-        every dish; tent lightly if toppings brown before its center is ready.
+        Scatter {{ingredients}} over the full filling, dividing the topping among dishes. Continue
+        baking, starting checks around 10 minutes later, until the center reaches 165°F /74°C and
+        the onions are golden. Check every dish; tent lightly if toppings brown before its center is
+        ready.
     - id: rest
       title: Rest and serve
       text: >-
-        Rest 5 minutes before dividing the full casserole into the listed
-        portions. The short rest thickens the hot sauce; keep leftovers chilled
-        promptly.
+        Rest 5 minutes before dividing the full casserole into the listed portions. The short rest
+        thickens the hot sauce; keep leftovers chilled promptly.
 ---
 
 ## Chef's Note

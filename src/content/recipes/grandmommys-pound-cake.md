@@ -32,7 +32,6 @@ cookTime: About 90 min for a large cake or 60 min for loaves; continue as needed
 totalTime: 'About 3½–5 hr for a large cake or 2½–4 hr for loaves, including cooling'
 servings: 1 batch
 ingredients:
-  - '--- All-butter pound cake ---'
   - '3/4 lb (3 sticks) unsalted butter, softened, not melted'
   - 2 cups granulated sugar
   - '6 large eggs, at room temperature'

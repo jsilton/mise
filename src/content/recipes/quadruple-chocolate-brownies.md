@@ -23,7 +23,6 @@ advancePrep:
   - cool-completely
 servings: 48 pieces
 ingredients:
-  - '--- Brownies ---'
   - '1 1/4 lb (5 sticks) unsalted butter, softened'
   - '1 lb unsweetened chocolate, chopped'
   - 5 1/2 cups granulated sugar

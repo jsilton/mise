@@ -36,7 +36,6 @@ pairsWith:
   - cinnamon-sweet-potatoes
   - green-beans-with-shallots-and-lemon
 ingredients:
-  - '--- Main recipe ---'
   - '2 lb raw medium shrimp, shelled and deveined; refrigerator-thawed if frozen'
   - '6 garlic cloves, minced'
   - '2 scallions, minced'
@@ -247,133 +246,112 @@ formula:
     - id: marinate
       title: Marinate
       text: >-
-        In a nonreactive bowl, toss together {{ingredients}}. Cover and
-        refrigerate for 1 hour; 1–3 hours is also an option. Keep the remaining
-        garlic separate for the soup. The lime seasons the shrimp; it does not
-        replace cooking.
+        In a nonreactive bowl, toss together {{ingredients}}. Cover and refrigerate for 1 hour; 1–3
+        hours is also an option. Keep the remaining garlic separate for the soup. The lime seasons
+        the shrimp; it does not replace cooking.
     - id: corn-milk
       title: Corn milk
       text: >-
-        Near the end of the shrimp's refrigerated marinade, puree
-        {{ingredients}} in a food processor. Strain through a coarse sieve,
-        pressing the corn solids to extract the liquid. Keep that corn milk for
-        the soup. Refrigerate it if the soup cooking will not begin promptly.
+        Near the end of the shrimp's refrigerated marinade, puree {{ingredients}} in a food
+        processor. Strain through a coarse sieve, pressing the corn solids to extract the liquid.
+        Keep that corn milk for the soup. Refrigerate it if the soup cooking will not begin
+        promptly.
     - id: base
       title: Base
       text: >-
-        Use {{ingredients}} for this stage. In a pot with room for the measured
-        stock, milk, vegetables and shrimp plus stirring headroom, heat the
-        prepared oil over moderate heat, then add the garlic, onion, pepper and
-        cumin. Cook, stirring, until the vegetables soften slightly, about 5
-        minutes. Divide all supplies proportionally among enough pots or
-        complete batches if the load will not fit.
+        Use {{ingredients}} for this stage. In a pot with room for the measured stock, milk,
+        vegetables and shrimp plus stirring headroom, heat the prepared oil over moderate heat, then
+        add the garlic, onion, pepper and cumin. Cook, stirring, until the vegetables soften
+        slightly, about 5 minutes. Divide all supplies proportionally among enough pots or complete
+        batches if the load will not fit.
     - id: tomatoes
       title: Tomatoes
       text: 'Stir in {{ingredients}} and cook about 2 minutes longer.'
     - id: simmer
       title: Simmer
       text: >-
-        Add the corn milk and {{ingredients}}. Bring to a boil, then reduce to a
-        simmer for about 20 minutes, stirring occasionally, until the grated
-        plantain has softened and the soup has thickened.
+        Add the corn milk and {{ingredients}}. Bring to a boil, then reduce to a simmer for about 20
+        minutes, stirring occasionally, until the grated plantain has softened and the soup has
+        thickened.
     - id: refine
       title: Refine
       text: >-
-        Blend only a portion of the soup for the chunky texture: about 2 cups in
-        the original batch, adjusted with the batch amount. Use a blender whose
-        manual explicitly permits this liquid at its actual temperature. Follow
-        its hot-liquid fill, venting and speed limits, working in batches. Never
-        put hot soup into a sealed blending cup; if the appliance does not allow
-        it, cool the liquid to its permitted temperature before blending. Return
-        all of this blended portion to the pot and bring the complete soup back
-        to a simmer.
+        Blend only a portion of the soup for the chunky texture: about 2 cups in the original batch,
+        adjusted with the batch amount. Use a blender whose manual explicitly permits this liquid at
+        its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in
+        batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it,
+        cool the liquid to its permitted temperature before blending. Return all of this blended
+        portion to the pot and bring the complete soup back to a simmer.
     - id: cook-shrimp
       title: Cook shrimp
       text: >-
-        Lift the shrimp out of their refrigerated marinade with a utensil
-        reserved for raw seafood, letting excess marinade drain back into the
-        bowl. Transfer the shrimp to a clean covered bowl and keep them
-        refrigerated. Add all the remaining marinade, including its minced
-        garlic and scallions, to the soup and bring it to a rapid boil. Reduce
-        to a gentle simmer, then add all the shrimp. Start checking after 2–3
-        minutes and continue until the shrimp are firm, pearly and opaque
-        throughout; check thick centers with a thin probe for 145°F / 63°C. Do
-        not taste before the marinade has boiled and the shrimp have cooked.
+        Lift the shrimp out of their refrigerated marinade with a utensil reserved for raw seafood,
+        letting excess marinade drain back into the bowl. Transfer the shrimp to a clean covered
+        bowl and keep them refrigerated. Add all the remaining marinade, including its minced garlic
+        and scallions, to the soup and bring it to a rapid boil. Reduce to a gentle simmer, then add
+        all the shrimp. Start checking after 2–3 minutes and continue until the shrimp are firm,
+        pearly and opaque throughout; check thick centers with a thin probe for 145°F / 63°C. Do not
+        taste before the marinade has boiled and the shrimp have cooked.
     - id: finish
       title: Serve
       text: >-
-        Use {{ingredients}} for this finish. Stir the cilantro and cayenne into
-        the soup, then add finishing salt only to taste. Serve in warmed bowls
-        with the optional salsa separately.
+        Use {{ingredients}} for this finish. Stir the cilantro and cayenne into the soup, then add
+        finishing salt only to taste. Serve in warmed bowls with the optional salsa separately.
 learning:
   focus: Grated plantain thickens the corn-and-milk base
-  outcome: >-
-    A partly pureed chowder with softened plantain and shrimp cooked through at
-    the end.
+  outcome: A partly pureed chowder with softened plantain and shrimp cooked through at the end.
   techniques:
     - temperature
   before:
     - >-
-      Keep raw seafood at 40°F / 4°C or below; thaw frozen shrimp in the
-      refrigerator before preparing it. Use clean utensils and dishes for the
-      finished food.
+      Keep raw seafood at 40°F / 4°C or below; thaw frozen shrimp in the refrigerator before
+      preparing it. Use clean utensils and dishes for the finished food.
     - >-
-      Mince the garlic and divide it between marinade and soup as listed. Peel
-      the plantain before grating, and prepare the tomatoes before cooking. Use
-      prepared annatto oil or the listed olive-oil option; making a separate
-      annatto-oil batch adds cooling time.
+      Mince the garlic and divide it between marinade and soup as listed. Peel the plantain before
+      grating, and prepare the tomatoes before cooking. Use prepared annatto oil or the listed
+      olive-oil option; making a separate annatto-oil batch adds cooling time.
     - >-
-      The six portions are the original serving plan. Finished soup volume and
-      edible portion weights have not been measured; choose enough vessels for
-      the scaled ingredients and headroom.
+      The six portions are the original serving plan. Finished soup volume and edible portion
+      weights have not been measured; choose enough vessels for the scaled ingredients and headroom.
   checkpoints:
     - step: 5
-      cue: >-
-        The grated plantain has softened and the soup is thicker after
-        simmering.
+      cue: The grated plantain has softened and the soup is thicker after simmering.
       why: >-
-        Plantain cooks in the liquid; aroma or a fixed twenty-minute clock alone
-        does not establish its texture.
+        Plantain cooks in the liquid; aroma or a fixed twenty-minute clock alone does not establish
+        its texture.
     - step: 7
       cue: >-
-        Shrimp are firm, pearly and opaque through their thickest part, with a
-        measured 145°F / 63°C endpoint.
+        Shrimp are firm, pearly and opaque through their thickest part, with a measured 145°F / 63°C
+        endpoint.
       why: >-
-        Size and starting temperature change cooking time. Refrigerated lime
-        marination adds flavor and does not establish doneness. Boil the used
-        marinade before adding the shrimp, then reduce to a gentle simmer so the
-        shrimp need only their short final cook.
+        Size and starting temperature change cooking time. Refrigerated lime marination adds flavor
+        and does not establish doneness. Boil the used marinade before adding the shrimp, then
+        reduce to a gentle simmer so the shrimp need only their short final cook.
   troubleshooting:
     - problem: The corn-and-plantain base catches on the pot
       cause: The thickening soup can stick if heat is high or stirring is neglected.
       fix: >-
-        Reduce the simmer and stir across the bottom while the plantain
-        finishes. Use enough pot capacity to stir comfortably.
+        Reduce the simmer and stir across the bottom while the plantain finishes. Use enough pot
+        capacity to stir comfortably.
   substitutions:
     - ingredient: Fresh corn
       alternative: Use the same measured amount of thawed frozen kernels.
-      effect: >-
-        Keep the milk and corn split unchanged; season and assess texture after
-        simmering.
+      effect: Keep the milk and corn split unchanged; season and assess texture after simmering.
   storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days. Reheat while
-    stirring until 165°F / 74°C throughout. USDA additionally recommends a
-    rolling boil for reheated soup; bring it to that point briefly rather than
-    simmering for a prolonged time. Repeated heating can toughen shrimp and
-    change the milk’s texture. This reheating guidance does not change the
-    initial shrimp finish.
+    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F
+    / 4°C or below; use within 3–4 days. Reheat while stirring until 165°F / 74°C throughout. USDA
+    additionally recommends a rolling boil for reheated soup; bring it to that point briefly rather
+    than simmering for a prolonged time. Repeated heating can toughen shrimp and change the milk’s
+    texture. This reheating guidance does not change the initial shrimp finish.
   timing: >-
-    Allow about 1½ hours for the original prepared-oil batch, including the
-    1-hour refrigerated marinade. Plan the corn milk and soup preparation near
-    the end of that refrigerated wait. If preparing corn milk or cooked soup
-    base ahead, refrigerate it promptly in shallow containers within 2 hours, or
-    1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat a refrigerated
-    cooked base while stirring to 165°F / 74°C throughout and briefly bring it
-    to a rolling boil before continuing with step 7. The 20-minute preparation
-    and roughly 40-minute cooking entries are planning estimates, not a measured
-    clock. Marinating for up to 3 hours, making annatto oil, cooling liquid for
-    an appliance, chilling and reheating a prepared base or using extra
+    Allow about 1½ hours for the original prepared-oil batch, including the 1-hour refrigerated
+    marinade. Plan the corn milk and soup preparation near the end of that refrigerated wait. If
+    preparing corn milk or cooked soup base ahead, refrigerate it promptly in shallow containers
+    within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat a refrigerated
+    cooked base while stirring to 165°F / 74°C throughout and briefly bring it to a rolling boil
+    before continuing with step 7. The 20-minute preparation and roughly 40-minute cooking entries
+    are planning estimates, not a measured clock. Marinating for up to 3 hours, making annatto oil,
+    cooling liquid for an appliance, chilling and reheating a prepared base or using extra
     pots/loads extends elapsed time.
   sources:
     - title: Maricel Presilla — shrimp and corn chowder

@@ -38,7 +38,6 @@ pairsWith:
   - almond-zucchini-bread
   - anadama-bread
 ingredients:
-  - '--- Batter ---'
   - 'butter or neutral oil, for greasing the pan'
   - 1/3 cup extra-virgin olive oil
   - 1/2 cup honey or maple syrup
@@ -190,138 +189,118 @@ formula:
     - id: prepare
       title: Preheat and grease the pan
       text: >-
-        Preheat the oven to 325°F. Grease a 9-by-5-inch loaf pan for the
-        original batch with {{ingredients}}. Measure the mashed banana before
-        mixing.
+        Preheat the oven to 325°F. Grease a 9-by-5-inch loaf pan for the original batch with
+        {{ingredients}}. Measure the mashed banana before mixing.
     - id: liquids
       title: Whisk the wet ingredients
       text: >-
-        In a large bowl whisk the {{ingredients}}, combining the oil and honey
-        or syrup first, beating in the eggs, then whisking in the banana and
-        milk. Whisk until evenly combined; small banana lumps may remain.
+        In a large bowl whisk the {{ingredients}}, combining the oil and honey or syrup first,
+        beating in the eggs, then whisking in the banana and milk. Whisk until evenly combined;
+        small banana lumps may remain.
     - id: season
       title: Distribute the soda and seasonings
-      text: >-
-        Whisk in the {{ingredients}} until evenly distributed; break up any
-        baking-soda lumps.
+      text: 'Whisk in the {{ingredients}} until evenly distributed; break up any baking-soda lumps.'
     - id: flour
       title: Fold in the flour
       text: >-
-        Switch to a large spoon or spatula and fold in the {{ingredients}} until
-        no dry pockets remain. Stop once combined; small banana lumps are fine.
+        Switch to a large spoon or spatula and fold in the {{ingredients}} until no dry pockets
+        remain. Stop once combined; small banana lumps are fine.
     - id: mix-ins
       title: Add the optional mix-ins
       text: 'Gently fold in the {{ingredients}}.'
     - id: portion
       title: Fill and finish the loaf
       text: >-
-        Scrape the batter into the prepared pan and level it gently. Sprinkle
-        with {{ingredients}}; run a knife tip in a shallow zigzag to swirl the
-        topping.
+        Scrape the batter into the prepared pan and level it gently. Sprinkle with {{ingredients}};
+        run a knife tip in a shallow zigzag to swirl the topping.
     - id: bake
       title: Bake and cool
       text: >-
-        Bake for about 55–60 minutes, checking the center at 55 minutes. A
-        tester through the crumb should have no wet batter; try another spot if
-        it hits melted chocolate. Continue baking if necessary and tent loosely
-        with foil if the top darkens first. Cool in the pan on a rack for at
-        least 10 minutes, loosen the edges and turn out carefully. Cool
-        completely on the rack before slicing; allow about an hour, longer if
-        still warm.
+        Bake for about 55–60 minutes, checking the center at 55 minutes. A tester through the crumb
+        should have no wet batter; try another spot if it hits melted chocolate. Continue baking if
+        necessary and tent loosely with foil if the top darkens first. Cool in the pan on a rack for
+        at least 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack
+        before slicing; allow about an hour, longer if still warm.
 learning:
   focus: Measure the banana and keep flour mixing brief in an oil-based loaf.
   outcome: >-
-    A moist banana loaf with no wet batter at its center and slices that hold
-    together after cooling.
+    A moist banana loaf with no wet batter at its center and slices that hold together after
+    cooling.
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      The original batch uses a 9-by-5-inch loaf pan at 325°F. Measure the
-      listed mashed banana rather than guessing a banana count; one cup is
-      the original-batch amount.
+      The original batch uses a 9-by-5-inch loaf pan at 325°F. Measure the listed mashed banana
+      rather than guessing a banana count; one cup is the original-batch amount.
     - >-
-      Measure the listed batter cinnamon separately from the optional pinch
-      on top; the original batch uses half a teaspoon in the batter.
+      Measure the listed batter cinnamon separately from the optional pinch on top; the original
+      batch uses half a teaspoon in the batter.
     - >-
-      Use a spoon or spatula after adding flour; the blender is unnecessary for
-      the written whisked method.
+      Use a spoon or spatula after adding flour; the blender is unnecessary for the written whisked
+      method.
     - >-
-      The 9-by-5-inch pan is for the original batch. For multiples, make
-      separate original-size loaves in matching pans. For smaller amounts,
-      choose an appropriately smaller pan to keep similar batter depth with
-      headroom and begin center checks earlier; no proportional pan dimensions
-      or baking/cooling times are assumed.
+      The 9-by-5-inch pan is for the original batch. For multiples, make separate original-size
+      loaves in matching pans. For smaller amounts, choose an appropriately smaller pan to keep
+      similar batter depth with headroom and begin center checks earlier; no proportional pan
+      dimensions or baking/cooling times are assumed.
   checkpoints:
     - step: 3
       cue: No soda lumps remain in the wet mixture.
       why: >-
-        Even distribution prevents concentrated bitter spots; this stage is
-        mixing, not a separate spice-heating step.
+        Even distribution prevents concentrated bitter spots; this stage is mixing, not a separate
+        spice-heating step.
     - step: 4
-      cue: >-
-        No dry flour pockets remain, while small banana lumps may still be
-        visible.
+      cue: 'No dry flour pockets remain, while small banana lumps may still be visible.'
       why: Removing every lump by beating risks overworking the wheat flour.
     - step: 7
-      cue: >-
-        A tester through central crumb has no wet batter and the loaf is cool
-        before cutting.
-      why: >-
-        Mix-ins and pan/oven differences can extend the bake; cooling supports
-        clean slices.
+      cue: A tester through central crumb has no wet batter and the loaf is cool before cutting.
+      why: Mix-ins and pan/oven differences can extend the bake; cooling supports clean slices.
   troubleshooting:
     - problem: Loaf has bitter spots
       cause: Baking soda was left in lumps.
       fix: >-
-        Break up and whisk the soda evenly next time. Do not add extra liquid or
-        leavener to compensate for uneven mixing.
+        Break up and whisk the soda evenly next time. Do not add extra liquid or leavener to
+        compensate for uneven mixing.
     - problem: Tester is streaked with chocolate
       cause: The probe hit a chip.
-      fix: >-
-        Check central crumb in another spot and distinguish melted chocolate
-        from wet flour batter.
+      fix: Check central crumb in another spot and distinguish melted chocolate from wet flour batter.
     - problem: Slices smear
       cause: The loaf was sliced warm or its center was underbaked.
       fix: >-
-        Let the baked loaf cool completely before slicing; establish center
-        doneness before it leaves the oven.
+        Let the baked loaf cool completely before slicing; establish center doneness before it
+        leaves the oven.
   substitutions:
     - ingredient: Honey
       alternative: 'Maple syrup, using the same listed volume'
       effect: >-
-        Both are retained sweetener choices; flavor and browning can differ, so
-        use the same center check.
+        Both are retained sweetener choices; flavor and browning can differ, so use the same center
+        check.
     - ingredient: Dark chocolate chips
       alternative: 'Walnuts, using the same listed quantity and chopping them'
       effect: >-
-        The retained alternative adds nutty crunch instead of melted chocolate;
-        neither is required for the base loaf.
+        The retained alternative adds nutty crunch instead of melted chocolate; neither is required
+        for the base loaf.
     - ingredient: Milk of choice
       alternative: A non-dairy milk at the same listed volume
       effect: The milk choice changes flavor; keep the listed eggs and oil.
   timing: >-
-    Allow about 2 hours 15 minutes: around 10 minutes preparation, 55–60 minutes
-    baking, at least 10 minutes pan cooling and about an hour on a rack. Preheat
-    during setup. Slice only when completely cool; extra oven batches extend the
-    schedule.
+    Allow about 2 hours 15 minutes: around 10 minutes preparation, 55–60 minutes baking, at least 10
+    minutes pan cooling and about an hour on a rack. Preheat during setup. Slice only when
+    completely cool; extra oven batches extend the schedule.
   storage: >-
-    Cool completely and store airtight for 2–3 days at room temperature, 5–7
-    days in the refrigerator, or up to 3 months in the freezer. Freeze separated
-    slices airtight and thaw wrapped or toast lightly before serving. Discard
-    moldy bread.
+    Cool completely and store airtight for 2–3 days at room temperature, 5–7 days in the
+    refrigerator, or up to 3 months in the freezer. Freeze separated slices airtight and thaw
+    wrapped or toast lightly before serving. Discard moldy bread.
   sources:
     - title: 'Kathryne Taylor — Banana Bread, Cookie and Kate'
       url: 'https://cookieandkate.com/healthy-banana-bread-recipe/'
     - title: 'PJ Hamel — How to tell when banana bread is done, King Arthur Baking'
-      url: >-
-        https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done
+      url: 'https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done'
     - title: 'Annabelle Shippee — How can I freeze my bread?, King Arthur Baking'
       url: 'https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread'
     - title: FDA — Are You Storing Food Safely?
-      url: >-
-        https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely
+      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
   review:
     status: editorial-review
     date: '2026-10-05'

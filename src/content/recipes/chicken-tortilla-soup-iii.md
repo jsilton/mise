@@ -25,8 +25,8 @@ ingredients:
   - 1 cup fresh salsa
   - 1 can (15 oz) creamed corn
   - >-
-    6 boneless chicken breast halves, fully cooked, skinned and shredded or cut
-    into spoon-sized pieces
+    6 boneless chicken breast halves, fully cooked, skinned and shredded or cut into spoon-sized
+    pieces
   - 2 tsp ground cumin
   - 1 package (1.27 oz) dry fajita seasoning
   - '3 tbsp fresh cilantro, washed and chopped'
@@ -213,55 +213,49 @@ formula:
     - id: aromatics
       title: Soften aromatics
       text: >-
-        In a large pot over medium heat, sauté {{ingredients}} for about 5
-        minutes, until the onion softens. Choose a pot with room for all the
-        liquid, chicken and corn, plus stirring headroom.
+        In a large pot over medium heat, sauté {{ingredients}} for about 5 minutes, until the onion
+        softens. Choose a pot with room for all the liquid, chicken and corn, plus stirring
+        headroom.
     - id: flour
       title: Cook flour and cumin
       text: >-
-        Stir in {{ingredients}} and cook, stirring, for 1 minute, until the
-        cumin smells toasted. Cooking it in the fat brings out more flavor than
-        adding it to the broth.
+        Stir in {{ingredients}} and cook, stirring, for 1 minute, until the cumin smells toasted.
+        Cooking it in the fat brings out more flavor than adding it to the broth.
     - id: liquid
       title: Add liquid
       text: >-
-        Gradually stir in {{ingredients}} until the flour disperses. Bring to a
-        boil while stirring along the bottom, then reduce heat to low.
+        Gradually stir in {{ingredients}} until the flour disperses. Bring to a boil while stirring
+        along the bottom, then reduce heat to low.
     - id: soup
       title: Heat soup
       text: >-
-        Add {{ingredients}}. Heat gently for about 15 minutes, stirring
-        regularly, until the finished soup reaches 165°F / 74°C throughout.
-        Check after stirring so a hot edge does not stand in for the whole pot;
-        cold cooked chicken may take longer.
+        Add {{ingredients}}. Heat gently for about 15 minutes, stirring regularly, until the
+        finished soup reaches 165°F / 74°C throughout. Check after stirring so a hot edge does not
+        stand in for the whole pot; cold cooked chicken may take longer.
     - id: serve
       title: Build bowls
       text: >-
-        Divide all {{ingredients}} among the listed portions. Crumble some of
-        the chips into the bowls and add half the cheese; ladle in the hot soup.
-        Finish with the remaining chips and cheese and all the reserved
-        cilantro. At the original eight-portion batch, each bowl gets 1 oz
-        cheese total, half below and half above; use proportional shares for
-        other batches.
+        Divide all {{ingredients}} among the listed portions. Crumble some of the chips into the
+        bowls and add half the cheese; ladle in the hot soup. Finish with the remaining chips and
+        cheese and all the reserved cilantro. At the original eight-portion batch, each bowl gets 1
+        oz cheese total, half below and half above; use proportional shares for other batches.
 equipment:
   - large-pot
   - food-thermometer
 learning:
   focus: Heat a rich cooked-chicken soup evenly and allocate bowl toppings
   outcome: >-
-    Creamy soup heated evenly through its cooked chicken, with chips and cheese
-    layered in each bowl.
+    Creamy soup heated evenly through its cooked chicken, with chips and cheese layered in each
+    bowl.
   techniques:
     - temperature
   before:
     - >-
-      Start with fully cooked chicken; cooking it from raw is separate
-      preparation and is not included in this soup clock. Keep prepared chicken
-      and dairy refrigerated until needed.
+      Start with fully cooked chicken; cooking it from raw is separate preparation and is not
+      included in this soup clock. Keep prepared chicken and dairy refrigerated until needed.
     - >-
-      Package sizes stay fixed when can or packet counts scale. A larger batch
-      needs enough pot headroom and more heating time; do not multiply the
-      temperature or brief flour-cooking time.
+      Package sizes stay fixed when can or packet counts scale. A larger batch needs enough pot
+      headroom and more heating time; do not multiply the temperature or brief flour-cooking time.
   checkpoints:
     - step: 2
       cue: Flour is dispersed through the fat and vegetables before liquid enters.
@@ -269,34 +263,28 @@ learning:
     - step: 4
       cue: Stirred soup and its chicken pieces reach 165°F / 74°C throughout.
       why: >-
-        Stirring heats the thick soup and chicken pieces more evenly than
-        relying on bubbles at one edge.
+        Stirring heats the thick soup and chicken pieces more evenly than relying on bubbles at one
+        edge.
     - step: 5
       cue: 'All chips, cheese and reserved cilantro are distributed among bowls.'
       why: Each bowl receives half its cheese below the soup and half above it.
   troubleshooting:
     - problem: Soup catches on the pot bottom
       cause: Rich soup heated too hard or was stirred only at the surface.
-      fix: >-
-        Reduce heat and stir along the bottom; check the 165°F endpoint after
-        stirring.
+      fix: Reduce heat and stir along the bottom; check the 165°F endpoint after stirring.
   substitutions:
     - ingredient: Margarine
-      alternative: >-
-        Use the same listed amount of butter instead of margarine in the first
-        step.
+      alternative: Use the same listed amount of butter instead of margarine in the first step.
       effect: Use either fat in the aromatics stage; do not add both.
   storage: >-
-    Divide leftover soup into shallow containers and refrigerate within 2 hours,
-    or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days.
-    Reheat the portion being served, stirring, to 165°F / 74°C throughout and
-    bring soup to a rolling boil.
+    Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served,
+    stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.
   timing: >-
-    Plan about 40 minutes with already cooked chicken: around 15 minutes
-    preparation and roughly 25 minutes heating, including the 5-minute sauté,
-    1-minute flour cook, bringing liquids to heat and about 15 minutes final
-    heating. Stirring and assembly are active; cold ingredients, larger pots or
-    more batches can extend elapsed time.
+    Plan about 40 minutes with already cooked chicken: around 15 minutes preparation and roughly 25
+    minutes heating, including the 5-minute sauté, 1-minute flour cook, bringing liquids to heat and
+    about 15 minutes final heating. Stirring and assembly are active; cold ingredients, larger pots
+    or more batches can extend elapsed time.
   sources:
     - title: Allrecipes.com
       url: 'http://allrecipes.com/recipe/15553/chicken-tortilla-soup-iii/'
@@ -304,8 +292,7 @@ learning:
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
     - title: FDA produce preparation
-      url: >-
-        https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables
+      url: 'https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables'
   review:
     status: editorial-review
     date: '2026-10-05'

@@ -28,7 +28,6 @@ pairsWith:
   - roasted-sweet-potatoes
   - cilantro-lime-rice
 ingredients:
-  - '--- Bacon and paprika chowder ---'
   - '3 cups corn kernels, fresh or thawed frozen and drained'
   - 'neutral vegetable oil, enough to coat the corn lightly for roasting'
   - 'salt and black pepper, to taste'

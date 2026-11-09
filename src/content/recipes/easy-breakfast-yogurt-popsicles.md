@@ -31,7 +31,6 @@ cookTime: 0 min
 totalTime: 4 hr 10 min
 servings: 8 pieces
 ingredients:
-  - '--- Popsicles ---'
   - '1 cup plain Greek yogurt, full-fat preferred'
   - 1/2 cup whole milk
   - 2 tsp honey

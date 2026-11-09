@@ -33,7 +33,6 @@ pairsWith:
   - garlicky-lemon-kale-with-carrots
   - roasted-sunchokes-with-brown-butter-cider-vinaigrette
 ingredients:
-  - '--- Recipe ---'
   - '1/2 lb medium shrimp, raw, peeled, deveined and thawed if frozen'
   - '6 oz spicy chicken sausage, labeled fully cooked, sliced'
   - >-

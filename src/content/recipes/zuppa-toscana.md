@@ -31,7 +31,6 @@ pairsWith:
   - garlic-bread
   - everyday-arugula-salad
 ingredients:
-  - '--- Main recipe ---'
   - '1 lb raw hot or sweet bulk Italian sausage, check the label for pork/beef versus poultry'
   - '2 lb Russet potatoes, scrubbed, peeled if desired, and cut into 1/2-inch cubes'
   - '5 cups fresh kale, washed, tough stems removed and leaves chopped'

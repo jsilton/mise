@@ -127,8 +127,10 @@ export function createFormulaSchema(z) {
     });
 }
 export function formulaEntries(formula) {
+  // A recipe with one component needs no heading over its ingredients.
+  const single = formula.components.length === 1;
   return formula.components.flatMap((c) => [
-    { divider: c.name },
+    ...(single ? [] : [{ divider: c.name }]),
     ...c.ingredients.map((i) => ({ ...i, id: `${c.id}.${i.id}`, component: c.name })),
   ]);
 }

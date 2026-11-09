@@ -43,17 +43,14 @@ ingredients:
   - 3 cups boiling water
   - 'sea salt, a pinch'
   - 1/2 cup whole milk
-  - >-
-    9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided
-    equally
+  - '9 tbsp low-fat buttermilk, ½ cup plus 1 tbsp in the original batch, divided equally'
   - 1 tbsp light brown sugar
   - 1/4 tsp ground cinnamon
   - '--- Optional toppings ---'
   - 'fresh berries, as wanted for serving, optional'
   - 'maple syrup, a drizzle as wanted for serving, optional'
 source: Adapted from Foodnetwork.com
-sourceUrl: >-
-  http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448
+sourceUrl: 'http://www.foodnetwork.com/recipes/alton-brown/steel-cut-oatmeal-recipe-1939448'
 formula:
   version: 1
   yield:
@@ -159,70 +156,62 @@ formula:
     - id: toast
       title: Toast
       text: >-
-        Use {{ingredients}}: melt the butter in a heavy saucepan, then add the
-        oats. Stir for about 2–3 minutes, until lightly golden and
-        nutty-smelling; do not scorch the butter.
+        Use {{ingredients}}: melt the butter in a heavy saucepan, then add the oats. Stir for about
+        2–3 minutes, until lightly golden and nutty-smelling; do not scorch the butter.
     - id: simmer
       title: Simmer gently
       text: >-
-        Carefully add {{ingredients}}. Reduce to very low heat, cover and
-        maintain a gentle simmer for about 25 minutes. Check if it threatens to
-        boil over or catch on the bottom; lower the heat and stir gently if
-        needed rather than let it scorch.
+        Carefully add {{ingredients}}. Reduce to very low heat, cover and maintain a gentle simmer
+        for about 25 minutes. Check if it threatens to boil over or catch on the bottom; lower the
+        heat and stir gently if needed rather than let it scorch.
     - id: dairy
       title: Cook with dairy
       text: >-
-        Add {{ingredients}}. Stir gently over low heat for about 10 minutes,
-        until the grains are tender and chewy without a hard center and the
-        porridge is creamy. Continue as needed for the actual oats and heat.
+        Add {{ingredients}}. Stir gently over low heat for about 10 minutes, until the grains are
+        tender and chewy without a hard center and the porridge is creamy. Continue as needed for
+        the actual oats and heat.
     - id: finish
       title: Finish off heat
       text: >-
-        Remove from heat and stir in {{ingredients}}. The buttermilk in this
-        step is the remaining half of its listed total, not an extra amount.
+        Remove from heat and stir in {{ingredients}}. The buttermilk in this step is the remaining
+        half of its listed total, not an extra amount.
     - id: serve
       title: Serve
       text: 'Divide among the listed portions and serve hot with {{ingredients}}.'
 learning:
   focus: 'Toast the oats, then keep the simmer gentle'
-  outcome: >-
-    Tender, chewy steel-cut oats with butter, milk and a tangy buttermilk
-    finish.
+  outcome: 'Tender, chewy steel-cut oats with butter, milk and a tangy buttermilk finish.'
   techniques:
     - starch
     - temperature
   before:
     - >-
-      The original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9
-      tablespoons. Divide the listed total equally between the dairy cooking
-      step and the off-heat finish.
+      The original batch contains ½ cup plus 1 tablespoon buttermilk total, or 9 tablespoons. Divide
+      the listed total equally between the dairy cooking step and the off-heat finish.
     - >-
-      Use a pan with headroom for the oats to simmer without foaming over.
-      Larger batches may need separate pans and longer heat-up; keep the same
-      gentle simmer and judge grain tenderness rather than multiplying the
-      clock.
+      Use a pan with headroom for the oats to simmer without foaming over. Larger batches may need
+      separate pans and longer heat-up; keep the same gentle simmer and judge grain tenderness
+      rather than multiplying the clock.
   checkpoints:
     - step: 1
       cue: The oats smell nutty and have light golden patches.
       why: Gentle toasting develops flavor without scorching the butter.
     - step: 3
-      cue: >-
-        The grains are tender and chewy without a hard center; the porridge is
-        creamy.
+      cue: The grains are tender and chewy without a hard center; the porridge is creamy.
       why: 'Brand, heat and evaporation affect the final cooking time.'
   troubleshooting:
     - problem: Oats catch on the bottom.
       cause: The simmer is too strong or the pan is drying out.
       fix: >-
-        Lower the heat and gently loosen the oats; check the water before
-        continuing rather than obey an absolute no-stir rule.
+        Lower the heat and gently loosen the oats; check the water before continuing rather than
+        obey an absolute no-stir rule.
   storage: >-
-    Refrigerate promptly in a shallow covered container at 40°F / 4°C or below.
-    Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days.
-    Reheat to 165°F / 74°C, stirring; the oats thicken as they stand.
+    Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2
+    hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C, stirring; the
+    oats thicken as they stand.
   timing: >-
-    About 45–50 min includes preparation, heating and cooking; larger batches
-    and product directions can add time.
+    About 45–50 min includes preparation, heating and cooking; larger batches and product directions
+    can add time.
   sources:
     - title: Alton Brown — Buttermilk steel-cut oats
       url: 'https://altonbrown.com/recipes/buttermilk-steel-cut-oats-recipe/'

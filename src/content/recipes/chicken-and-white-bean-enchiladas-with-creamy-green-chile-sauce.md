@@ -173,42 +173,72 @@ formula:
   steps:
     - id: sauce
       title: Blend sauce
-      text: 'Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is separate.'
+      text: >-
+        Preheat the oven to 375°F. Blend {{ingredients}} smooth in a blender suited to this cold
+        sauce. The full measured salsa and dairy belong in this mixture; garnish cilantro is
+        separate.
     - id: fill
       title: Mix filling
-      text: 'Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch, use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling, not as an additional salsa or dairy dose.'
+      text: >-
+        Toss {{ingredients}} with sauce from the blended batch. At the original eight-roll batch,
+        use 1/4 cup blended sauce here; scale this sauce portion proportionally with the filling,
+        not as an additional salsa or dairy dose.
     - id: assemble
       title: Roll
-      text: 'Use {{ingredients}}. At the original batch, spread 1/2 cup of the blended sauce on the bottom of a 9×13-inch baking dish, scaling that sauce portion proportionally. Divide all the filling evenly among all tortillas, roll and place seam-side down. Use additional or suitably smaller dishes for altered batches; preserve roll size and room for sauce rather than multiplying pan dimensions.'
+      text: >-
+        Use {{ingredients}}. At the original batch, spread 1/2 cup of the blended sauce on the
+        bottom of a 9×13-inch baking dish, scaling that sauce portion proportionally. Divide all the
+        filling evenly among all tortillas, roll and place seam-side down. Use additional or
+        suitably smaller dishes for altered batches; preserve roll size and room for sauce rather
+        than multiplying pan dimensions.
     - id: top
       title: Top
-      text: 'Pour all remaining blended sauce over the rolls, then cover with {{ingredients}}. The filling, bottom layer and topping together use the whole sauce once.'
+      text: >-
+        Pour all remaining blended sauce over the rolls, then cover with {{ingredients}}. The
+        filling, bottom layer and topping together use the whole sauce once.
     - id: bake
       title: Bake
-      text: 'Bake at 375°F, starting to check after 20–25 minutes, until the center of the filling reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns before the center is hot; chilled filling may take longer.'
+      text: >-
+        Bake at 375°F, starting to check after 20–25 minutes, until the center of the filling
+        reaches 165°F / 74°C and the sauce is bubbling. Cover loosely with foil if the cheese browns
+        before the center is hot; chilled filling may take longer.
     - id: serve
       title: Finish
-      text: 'Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted. [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving with separately prepared sides.'
+      text: >-
+        Let stand briefly until manageable to portion, then garnish with {{ingredients}} if wanted.
+        [Quick Pickled Red Onions](/mise/recipes/pickled-red-onions) are a separately prepared
+        recipe. Serve all rolls; the original planning yield is eight enchiladas, one per serving
+        with separately prepared sides.
 learning:
   focus: Reserve sauce and fill every tortilla before the casserole bake
   outcome: 'Filled rolls with creamy green sauce and a hot center, using the whole chicken-and-bean filling.'
   techniques:
     - gentle-proteins
   before:
-    - 'Start with already-cooked poultry and fully cooked canned beans. Raw chicken poaching/rotisserie preparation is additional work, not part of the stated clock.'
-    - 'The original sauce reservations are 1/4 cup in filling and 1/2 cup under rolls; scale these from the finished blended sauce, then use all remainder on top.'
-    - Use the original 9×13-inch roll geometry as a reference; more rolls need suitable additional dishes and oven space.
+    - >-
+      Start with already-cooked poultry and fully cooked canned beans. Raw chicken
+      poaching/rotisserie preparation is additional work, not part of the stated clock.
+    - >-
+      The original sauce reservations are 1/4 cup in filling and 1/2 cup under rolls; scale these
+      from the finished blended sauce, then use all remainder on top.
+    - >-
+      Use the original 9×13-inch roll geometry as a reference; more rolls need suitable additional
+      dishes and oven space.
   checkpoints:
     - step: 4
       cue: 'All sauce is accounted for in filling, base and topping.'
-      why: 'At the original eight-roll batch, the 12 oz salsa is only one ingredient in the larger blended sauce.'
+      why: >-
+        At the original eight-roll batch, the 12 oz salsa is only one ingredient in the larger
+        blended sauce.
     - step: 5
       cue: Center filling 165°F and bubbling sauce are both checked.
       why: A browned cheese surface can precede a hot chilled filling center.
   troubleshooting:
     - problem: Cheese browns before the center heats
       cause: Filling started cold or the dish is crowded.
-      fix: Cover loosely with foil and continue until the filling reaches 165°F; do not serve by surface color alone.
+      fix: >-
+        Cover loosely with foil and continue until the filling reaches 165°F; do not serve by
+        surface color alone.
   substitutions:
     - ingredient: Light sour cream
       alternative: The listed Greek yogurt at the same listed dairy volume
@@ -216,15 +246,22 @@ learning:
     - ingredient: Navy beans
       alternative: The listed cannellini beans at the same listed canned quantity; each full can is 15 oz
       effect: Drain and rinse either; dried beans are not a direct substitute.
-  timing: 'About 20–25 min active preparation with already-cooked chicken; Start checking after 20–25 min baking; allow about 25–40 min; About 50–70 min, including oven heating and brief serving rest. Planning ranges assume thawed poultry and do not include cooking separate side dishes.'
-  storage: 'Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. These handling limits do not promise unchanged texture.'
+  timing: >-
+    About 20–25 min active preparation with already-cooked chicken; Start checking after 20–25 min
+    baking; allow about 25–40 min; About 50–70 min, including oven heating and brief serving rest.
+    Planning ranges assume thawed poultry and do not include cooking separate side dishes.
+  storage: >-
+    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
+    above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F
+    throughout. These handling limits do not promise unchanged texture.
   sources:
     - title: Adapted from Skinnytaste.com
       url: 'https://www.skinnytaste.com/chicken-and-white-bean-enchiladas-with/'
     - title: FoodSafety.gov — Safe minimum cooking temperatures
       url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
     date: '2026-10-05'

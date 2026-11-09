@@ -26,7 +26,6 @@ pairsWith:
   - lemon-herb-couscous
   - arugula-feta-salad
 ingredients:
-  - '--- Main recipe ---'
   - '1 1/2 lb boneless, skinless chicken thighs'
   - 3 tbsp extra-virgin olive oil
   - 2 tbsp fresh lemon juice

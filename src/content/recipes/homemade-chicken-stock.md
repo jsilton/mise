@@ -32,10 +32,9 @@ seasons:
 nutritionalDensity: moderate
 leftovers: excellent
 ingredients:
-  - '--- Main recipe ---'
   - >-
-    4 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or
-    refrigerator-thawed if frozen
+    4 lb chicken bones, backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if
+    frozen
   - 16 cups cold water
   - '1 large yellow onion, unpeeled, washed and quartered'
   - '2 medium carrots, washed and cut into 1-inch chunks'
@@ -64,9 +63,7 @@ formula:
           uses:
             - step: prep
               share: 1
-          preparation: >-
-            backs, necks, wings or carcasses; refrigerated, or
-            refrigerator-thawed if frozen
+          preparation: 'backs, necks, wings or carcasses; refrigerated, or refrigerator-thawed if frozen'
         - id: water
           key: water
           name: cold water
@@ -175,55 +172,48 @@ formula:
     - id: prep
       title: Prep
       text: >-
-        Place {{ingredients}} in a stockpot with room for the full measured
-        water, solids and simmering headroom. The original 8–12-quart suggestion
-        is a starting point; check the actual load. If it will not fit, divide
-        every ingredient proportionally among enough pots or complete batches.
-        Use clean, properly refrigerated cooked carcasses or fresh raw bones
-        with attached meat; do not use carcasses that have been left out.
+        Place {{ingredients}} in a stockpot with room for the full measured water, solids and
+        simmering headroom. The original 8–12-quart suggestion is a starting point; check the actual
+        load. If it will not fit, divide every ingredient proportionally among enough pots or
+        complete batches. Use clean, properly refrigerated cooked carcasses or fresh raw bones with
+        attached meat; do not use carcasses that have been left out.
     - id: heat
       title: Heat
-      text: >-
-        Pour in {{ingredients}}. Bring to a boil, then immediately reduce to a
-        gentle simmer.
+      text: 'Pour in {{ingredients}}. Bring to a boil, then immediately reduce to a gentle simmer.'
     - id: skim
       title: Skim
       text: >-
-        Skim off foam during the first 30 minutes, keeping the liquid gently
-        bubbling rather than churning.
+        Skim off foam during the first 30 minutes, keeping the liquid gently bubbling rather than
+        churning.
     - id: infuse
       title: Infuse
       text: 'Add {{ingredients}}.'
     - id: simmer
       title: Simmer
       text: >-
-        Simmer gently, uncovered, for about 4 hours after the skimming stage.
-        Use {{ingredients}} only if evaporation exposes the bones, adding enough
-        to restore coverage rather than a fixed amount for every batch. Check
-        any thick attached chicken meat for 165°F / 74°C before tasting or
-        straining; the clock alone is not a measured endpoint.
+        Simmer gently, uncovered, for about 4 hours after the skimming stage. Use {{ingredients}}
+        only if evaporation exposes the bones, adding enough to restore coverage rather than a fixed
+        amount for every batch. Check any thick attached chicken meat for 165°F / 74°C before
+        tasting or straining; the clock alone is not a measured endpoint.
     - id: strain
       title: Strain
       text: >-
-        Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined
-        colander into enough clean, heatproof shallow vessels. Discard the spent
-        bones, vegetables, herbs and spices. Measure the strained stock if a
-        later recipe needs an exact amount; starting water and finished stock
-        are different quantities.
+        Carefully ladle or strain through a fine-mesh sieve or cheesecloth-lined colander into
+        enough clean, heatproof shallow vessels. Discard the spent bones, vegetables, herbs and
+        spices. Measure the strained stock if a later recipe needs an exact amount; starting water
+        and finished stock are different quantities.
     - id: chill
       title: Chill
       text: >-
-        Cool promptly in those shallow vessels. An ice-water bath with
-        occasional clean stirring can speed cooling; keep bath water out of the
-        stock. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C, without
-        waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or
+        Cool promptly in those shallow vessels. An ice-water bath with occasional clean stirring can
+        speed cooling; keep bath water out of the stock. Refrigerate within 2 hours, or 1 hour above
+        90°F / 32°C, without waiting for a large bowl to cool on the counter. Keep at 40°F / 4°C or
         below and chill overnight for the fat to solidify.
     - id: defat
       title: Defat
       text: >-
-        Scrape the solidified fat from the cold stock before using or freezing,
-        as desired for this stock preparation. Package the stock in the amounts
-        needed for later recipes.
+        Scrape the solidified fat from the cold stock before using or freezing, as desired for this
+        stock preparation. Package the stock in the amounts needed for later recipes.
 learning:
   focus: 'Separate starting water, extraction and finished stock'
   outcome: 'A gently simmered, strained stock chilled promptly in manageable portions.'
@@ -231,50 +221,46 @@ learning:
     - temperature
   before:
     - >-
-      Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen
-      supplies. Prepare serving herbs and vegetables with clean tools before
-      handling raw meat; keep cooked food and its utensils separate.
+      Keep raw meat at 40°F / 4°C or below, refrigerator-thawing frozen supplies. Prepare serving
+      herbs and vegetables with clean tools before handling raw meat; keep cooked food and its
+      utensils separate.
     - >-
-      Prepare enough shallow heatproof containers and an ice bath before
-      straining. Pots must hold the measured water and solids with headroom;
-      larger batches may require several proportionate pots.
+      Prepare enough shallow heatproof containers and an ice bath before straining. Pots must hold
+      the measured water and solids with headroom; larger batches may require several proportionate
+      pots.
     - >-
-      Twelve cups is the inherited original-batch planning estimate, not a
-      measured finished yield. Scale the starting ingredients together, then
-      measure the strained output.
+      Twelve cups is the inherited original-batch planning estimate, not a measured finished yield.
+      Scale the starting ingredients together, then measure the strained output.
   checkpoints:
     - step: 5
       cue: Small bubbles rise without the pot churning; the bones remain covered.
       why: >-
-        Evaporation changes concentration. Restore coverage only as needed
-        rather than assuming every batch loses the same volume.
+        Evaporation changes concentration. Restore coverage only as needed rather than assuming
+        every batch loses the same volume.
     - step: 7
       cue: >-
-        Stock is divided into shallow vessels and refrigerated promptly, then
-        cold through before defatting.
+        Stock is divided into shallow vessels and refrigerated promptly, then cold through before
+        defatting.
       why: >-
-        A large hot bowl can cool unevenly; surface coolness does not establish
-        the temperature in its center.
+        A large hot bowl can cool unevenly; surface coolness does not establish the temperature in
+        its center.
   troubleshooting:
     - problem: The stock has reduced much more than expected
       cause: 'Pot width, uncovered simmering and heat change evaporation.'
       fix: >-
-        Use the listed hot-water allowance to restore bone coverage during
-        cooking. Measure the strained stock and assess its concentration before
-        using it in a measured recipe.
+        Use the listed hot-water allowance to restore bone coverage during cooking. Measure the
+        strained stock and assess its concentration before using it in a measured recipe.
   timing: >-
-    Allow about 5 hours to prepare, heat, skim, simmer and strain the original
-    batch, then cooling and overnight chilling for the written defatting route.
-    Preparation is about 15 minutes; the first 30 minutes need attention, and
-    straining/cooling add hands-on work. The four-hour simmer follows skimming.
-    Extra pot loads extend the schedule.
+    Allow about 5 hours to prepare, heat, skim, simmer and strain the original batch, then cooling
+    and overnight chilling for the written defatting route. Preparation is about 15 minutes; the
+    first 30 minutes need attention, and straining/cooling add hands-on work. The four-hour simmer
+    follows skimming. Extra pot loads extend the schedule.
   storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or
-    1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days or
-    freeze promptly. Reheat while stirring to 165°F / 74°C throughout, checking
-    more than one place. USDA additionally recommends a rolling boil for
-    reheated soup or sauce; reach it briefly rather than boiling for a prolonged
-    time. Freeze in recipe-sized portions; no home-canning process is specified.
+    Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F /
+    32°C, at 40°F / 4°C or below; use within 3–4 days or freeze promptly. Reheat while stirring to
+    165°F / 74°C throughout, checking more than one place. USDA additionally recommends a rolling
+    boil for reheated soup or sauce; reach it briefly rather than boiling for a prolonged time.
+    Freeze in recipe-sized portions; no home-canning process is specified.
   sources:
     - title: FDA handling and poultry temperatures
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'

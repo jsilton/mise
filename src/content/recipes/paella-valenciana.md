@@ -239,7 +239,6 @@ formula:
         finished rice. Rest away from the heat for about 5 minutes, then serve, sharing both meat
         and rice among the four portions. Keep the rice layer undisturbed until serving.
 ingredients:
-  - '--- Paella Valenciana ---'
   - 120 ml extra-virgin olive oil
   - >-
     480 g bone-in chicken pieces, thigh or leg pieces, cut through the joints into small serving

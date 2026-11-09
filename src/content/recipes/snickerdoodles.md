@@ -146,45 +146,39 @@ formula:
   steps:
     - id: cream
       title: Cream
-      text: >-
-        Beat {{ingredients}} until very light and fluffy, scraping the bowl to
-        combine them evenly.
+      text: 'Beat {{ingredients}} until very light and fluffy, scraping the bowl to combine them evenly.'
     - id: dry
       title: Mix dry ingredients
       text: >-
-        Whisk {{ingredients}} in a separate bowl. Stir into the butter mixture
-        just until no dry flour remains.
+        Whisk {{ingredients}} in a separate bowl. Stir into the butter mixture just until no dry
+        flour remains.
     - id: chill
       title: Chill
       text: >-
-        Cover and refrigerate the dough at 40°F / 4°C or below for 30 minutes,
-        until firm enough to roll. If still too soft to handle, allow more
-        chilling rather than adding flour.
+        Cover and refrigerate the dough at 40°F / 4°C or below for 30 minutes, until firm enough to
+        roll. If still too soft to handle, allow more chilling rather than adding flour.
     - id: coating
       title: Prepare the coating and oven
       text: >-
-        Preheat the oven to 400°F while the dough finishes chilling. Mix
-        {{ingredients}} in a shallow bowl; have baking sheets and a cooling rack
-        ready.
+        Preheat the oven to 400°F while the dough finishes chilling. Mix {{ingredients}} in a
+        shallow bowl; have baking sheets and a cooling rack ready.
     - id: roll
       title: Roll and coat
       text: >-
-        Shape the chilled dough into evenly sized walnut-sized balls and roll
-        each in the cinnamon-sugar coating. Place them 2 inches apart on baking
-        sheets. Use all the dough; the listed count is approximate and depends
-        on ball size. Scale the coating with the dough and use more sheets or
-        oven loads when needed, keeping ball size and spacing consistent.
+        Shape the chilled dough into evenly sized walnut-sized balls and roll each in the
+        cinnamon-sugar coating. Place them 2 inches apart on baking sheets. Use all the dough; the
+        listed count is approximate and depends on ball size. Scale the coating with the dough and
+        use more sheets or oven loads when needed, keeping ball size and spacing consistent.
     - id: bake
       title: Bake
       text: >-
-        Wait for the oven to reach 400°F. Bake for 8–10 minutes per load until
-        the edges are set and the centers are soft but no longer wet. Keep
-        remaining dough refrigerated between loads.
+        Wait for the oven to reach 400°F. Bake for 8–10 minutes per load until the edges are set and
+        the centers are soft but no longer wet. Keep remaining dough refrigerated between loads.
     - id: cool
       title: Cool
       text: >-
-        Leave cookies on the sheets until firm enough to lift, then transfer to
-        a rack and cool completely before packing.
+        Leave cookies on the sheets until firm enough to lift, then transfer to a rack and cool
+        completely before packing.
 learning:
   focus: Separating dough sugar from the cinnamon-sugar coating.
   outcome: 'Rolled cookies with a cinnamon-sugar surface, set edges and soft centers.'
@@ -194,70 +188,59 @@ learning:
     - temperature
   before:
     - >-
-      Use softened butter for the main dough, and keep the separate coating
-      sugar out of the creaming bowl. All of the cream of tartar, baking soda
-      and salt go into the dry mix.
+      Use softened butter for the main dough, and keep the separate coating sugar out of the
+      creaming bowl. All of the cream of tartar, baking soda and salt go into the dry mix.
     - >-
-      Allow the 30-minute dough chill and more time if the dough remains too
-      soft to roll. The listed cookie count is a planning value, not a portion
-      weight.
+      Allow the 30-minute dough chill and more time if the dough remains too soft to roll. The
+      listed cookie count is a planning value, not a portion weight.
+    - Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.
     - >-
-      Do not taste raw dough; it contains raw flour and egg. Wash hands and
-      tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated
-      fraction; keep cookie dimensions and baking temperature fixed.
+      If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie
+      dimensions and baking temperature fixed.
   checkpoints:
     - step: 2
-      cue: >-
-        A dry mix with the cream of tartar, soda and salt distributed
-        throughout.
+      cue: 'A dry mix with the cream of tartar, soda and salt distributed throughout.'
       why: >-
-        The leaveners belong in the dough, whereas the cinnamon and coating
-        sugar belong on its surface.
+        The leaveners belong in the dough, whereas the cinnamon and coating sugar belong on its
+        surface.
     - step: 5
-      cue: >-
-        Evenly sized balls that hold their shape and take a cinnamon-sugar
-        coating.
-      why: >-
-        Chilled, workable dough is easier to portion consistently without adding
-        more flour.
+      cue: Evenly sized balls that hold their shape and take a cinnamon-sugar coating.
+      why: 'Chilled, workable dough is easier to portion consistently without adding more flour.'
     - step: 6
       cue: Set edges and centers that are soft but no longer wet.
       why: >-
-        The high-temperature bake is short; smaller portions and later oven
-        loads need their own checks.
+        The high-temperature bake is short; smaller portions and later oven loads need their own
+        checks.
   troubleshooting:
     - problem: Dough is sticky and hard to roll.
       cause: It has not firmed sufficiently after chilling or warmed during handling.
       fix: >-
-        Return it to the refrigerator until workable; coat and bake in batches
-        without increasing the flour amount.
+        Return it to the refrigerator until workable; coat and bake in batches without increasing
+        the flour amount.
     - problem: Coating ingredients disappear into the dough.
       cause: The two sugar allocations were combined during creaming.
       fix: >-
-        Keep the coating sugar and cinnamon together in a separate shallow bowl,
-        following the component list.
+        Keep the coating sugar and cinnamon together in a separate shallow bowl, following the
+        component list.
   substitutions:
     - ingredient: Unsalted butter
       alternative: The same listed volume of margarine
       effect: >-
-        Margarine replaces the full listed butter volume; product differences can change spread and handling. For Mimi’s original route, sift the flour before measuring its listed volume. Keep the current main flour preparation when making that version, and keep the full coating amounts for either route.
+        Margarine replaces the full listed butter volume; product differences can change spread and
+        handling. For Mimi’s original route, sift the flour before measuring its listed volume. Keep
+        the current main flour preparation when making that version, and keep the full coating
+        amounts for either route.
   storage: >-
-    Store fully cooled cookies airtight. Keep raw dough covered at 40°F / 4°C or
-    below during chilling and between oven loads. No exact baked-cookie shelf
-    life is established for either fat choice.
+    Store fully cooled cookies airtight. Keep raw dough covered at 40°F / 4°C or below during
+    chilling and between oven loads. No exact baked-cookie shelf life is established for either fat
+    choice.
   timing: >-
-    The 15-minute preparation allowance plus 30-minute chill and an 8–10-minute
-    first oven load gives a 53–55-minute subtotal. Preheat toward the end of the
-    chill and wait for 400°F; extra heating, longer chilling if needed, later
-    loads and sheet/rack cooling extend elapsed time.
+    The 15-minute preparation allowance plus 30-minute chill and an 8–10-minute first oven load
+    gives a 53–55-minute subtotal. Preheat toward the end of the chill and wait for 400°F; extra
+    heating, longer chilling if needed, later loads and sheet/rack cooling extend elapsed time.
   sources:
-    - title: >-
-        FDA — raw flour and dough handling; family amounts remain attributed to
-        Mimi
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+    - title: FDA — raw flour and dough handling; family amounts remain attributed to Mimi
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
   review:
     status: editorial-review
     date: '2026-10-06'

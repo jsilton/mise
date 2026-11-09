@@ -20,7 +20,6 @@ cookTime: About 35–60 min for cups or 45–60 min for a larger dish
 totalTime: 'About 1¾–2¼ hr, including soaking and a 10-minute rest'
 servings: 1 batch
 ingredients:
-  - '--- Double-chocolate brioche pudding ---'
   - 'nonstick cooking spray, enough to coat all baking dishes'
   - '453 g (1 lb) brioche, cut into ½-inch cubes; measure the bread by weight'
   - '6 oz bittersweet chocolate (70% cacao), chopped'

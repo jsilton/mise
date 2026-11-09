@@ -144,25 +144,48 @@ formula:
   steps:
     - id: pasta
       title: Cook pasta
-      text: 'Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the pasta. Begin checking the pasta 1 minute before its package time; continue until al dente rather than draining a still-hard center. Prepare the sauce while the pasta cooks.'
+      text: >-
+        Use {{ingredients}}. First bring the cooking water to a boil and salt it, then add the
+        pasta. Begin checking the pasta 1 minute before its package time; continue until al dente
+        rather than draining a still-hard center. Prepare the sauce while the pasta cooks.
     - id: render
       title: Render pork
-      text: 'Cook {{ingredients}} in a roomy skillet over medium heat until the fat renders and the pieces are crisp, following any product-specific cooking instructions. Remove the skillet from the heat and retain all the rendered fat and pork for the pasta.'
+      text: >-
+        Cook {{ingredients}} in a roomy skillet over medium heat until the fat renders and the
+        pieces are crisp, following any product-specific cooking instructions. Remove the skillet
+        from the heat and retain all the rendered fat and pork for the pasta.
     - id: warm
       title: Warm sauce
-      text: 'Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over the pasta pot with its base above the boiling water. Use a mitt and whisk continuously, beginning checks after about 1 minute, just until warm and the cheese begins to soften. Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg endpoint.'
+      text: >-
+        Whisk {{ingredients}} in a heatproof stainless-steel or glass bowl that sits securely over
+        the pasta pot with its base above the boiling water. Use a mitt and whisk continuously,
+        beginning checks after about 1 minute, just until warm and the cheese begins to soften.
+        Remove the bowl if eggs start to set; this interval does not verify a fully cooked egg
+        endpoint.
     - id: reserve
       title: Reserve water
-      text: 'Before draining, reserve starchy cooking water in a heatproof container: the original 1 lb pasta batch reserves 1 cup. Keep a proportional reserve for other batches, but add only what the sauce needs. Drain the al dente pasta.'
+      text: >-
+        Before draining, reserve starchy cooking water in a heatproof container: the original 1 lb
+        pasta batch reserves 1 cup. Keep a proportional reserve for other batches, but add only what
+        the sauce needs. Drain the al dente pasta.
     - id: toss
       title: Combine off heat
-      text: 'Keep the pork skillet off the heat. Add all the hot pasta to all the pork and rendered fat, then add all the warm egg-and-cheese mixture. Toss immediately.'
+      text: >-
+        Keep the pork skillet off the heat. Add all the hot pasta to all the pork and rendered fat,
+        then add all the warm egg-and-cheese mixture. Toss immediately.
     - id: emulsify
       title: Adjust sauce
-      text: 'Toss vigorously, beginning with about ¼ cup of the reserved pasta water for the original 1 lb batch and proportionally smaller or larger additions for another batch. The heat thickens the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a fully cooked egg endpoint. Add more of the reserve only as needed until the sauce coats the pasta without a pool of water.'
+      text: >-
+        Toss vigorously, beginning with about ¼ cup of the reserved pasta water for the original 1
+        lb batch and proportionally smaller or larger additions for another batch. The heat thickens
+        the pasteurized egg mixture into a glossy coating, but appearance alone does not verify a
+        fully cooked egg endpoint. Add more of the reserve only as needed until the sauce coats the
+        pasta without a pool of water.
     - id: serve
       title: Serve
-      text: 'Serve immediately with {{ingredients}} if desired. Do not put the egg sauce back over high direct heat to hold it.'
+      text: >-
+        Serve immediately with {{ingredients}} if desired. Do not put the egg sauce back over high
+        direct heat to hold it.
 learning:
   focus: Combine a rich egg-and-cheese sauce off direct heat
   outcome: Al dente pasta with crisp pork and a glossy coating rather than curds or watery sauce.
@@ -170,9 +193,15 @@ learning:
     - emulsions
     - temperature
   before:
-    - Prepare the complete egg/cheese/pepper mixture and heatproof reserve container before draining. Use a bowl that rests securely above boiling water and handle it with a mitt.
-    - Both whole eggs and separate yolks must be pasteurized for this lightly heated method. Read actual pork and egg-product labels.
-    - Use a skillet large enough to toss the listed pasta with all the pork fat and sauce; divide complete proportionate loads if necessary.
+    - >-
+      Prepare the complete egg/cheese/pepper mixture and heatproof reserve container before
+      draining. Use a bowl that rests securely above boiling water and handle it with a mitt.
+    - >-
+      Both whole eggs and separate yolks must be pasteurized for this lightly heated method. Read
+      actual pork and egg-product labels.
+    - >-
+      Use a skillet large enough to toss the listed pasta with all the pork fat and sauce; divide
+      complete proportionate loads if necessary.
   checkpoints:
     - step: 3
       cue: The mixture is warm and cheese softens without egg curds forming.
@@ -186,27 +215,44 @@ learning:
   troubleshooting:
     - problem: The egg sauce becomes grainy or scrambled
       cause: 'The bowl or skillet was too hot, or tossing was delayed.'
-      fix: 'Remove direct heat immediately. A small water addition may loosen the coating, but fully set egg curds cannot be returned to a smooth emulsion.'
+      fix: >-
+        Remove direct heat immediately. A small water addition may loosen the coating, but fully set
+        egg curds cannot be returned to a smooth emulsion.
     - problem: The sauce is thin and pools
       cause: Too much reserved water was added at once.
-      fix: Keep tossing briefly with the hot pasta off heat. Do not add extra unlisted cheese or boil the egg sauce to force it thick; a badly diluted coating cannot be repaired by the original formula alone.
-  timing: 'The 5-minute preparation/15-minute cooking plan assumes the cooking and rendering work overlap. Water heating that does not overlap preparation, actual package times, bowl warming and extra pan loads extend elapsed time. This is an immediate-service sauce, not a holding plan.'
-  storage: 'Serve promptly. If keeping leftovers, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below, and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout; their eggs will set further and the fresh silky texture may not return. That leftover endpoint is separate from the first-cook pasteurized-egg method.'
+      fix: >-
+        Keep tossing briefly with the hot pasta off heat. Do not add extra unlisted cheese or boil
+        the egg sauce to force it thick; a badly diluted coating cannot be repaired by the original
+        formula alone.
+  timing: >-
+    The 5-minute preparation/15-minute cooking plan assumes the cooking and rendering work overlap.
+    Water heating that does not overlap preparation, actual package times, bowl warming and extra
+    pan loads extend elapsed time. This is an immediate-service sauce, not a holding plan.
+  storage: >-
+    Serve promptly. If keeping leftovers, refrigerate in shallow containers within 2 hours, or 1
+    hour above 90°F / 32°C, at 40°F / 4°C or below, and use within 3–4 days. Reheat leftovers to
+    165°F / 74°C throughout; their eggs will set further and the fresh silky texture may not return.
+    That leftover endpoint is separate from the first-cook pasteurized-egg method.
   sources:
     - title: FDA pasteurized eggs for raw/lightly cooked dishes
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
     - title: USDA leftovers
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
     date: '2026-10-06'
   substitutions:
     - ingredient: Guanciale
       alternative: Same listed full amount of pancetta
-      effect: Render the chosen pork following its product instructions and retain all the fat for the same complete sauce.
+      effect: >-
+        Render the chosen pork following its product instructions and retain all the fat for the
+        same complete sauce.
     - ingredient: Pecorino Romano
       alternative: Same listed full amount of Parmesan
-      effect: Use the complete measured cheese in the pasteurized egg mixture and adjust with reserved water by the same coating cue.
+      effect: >-
+        Use the complete measured cheese in the pasteurized egg mixture and adjust with reserved
+        water by the same coating cue.
 ---
 
 ## Chef's Note

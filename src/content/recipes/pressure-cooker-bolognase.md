@@ -27,9 +27,7 @@ pairsWith:
   - garlic-bread
 ingredients:
   - '--- Ragù ---'
-  - >-
-    400 g coarsely ground beef, from chuck, shoulder or another collagen-rich
-    cut
+  - '400 g coarsely ground beef, from chuck, shoulder or another collagen-rich cut'
   - '150 g fresh pork belly, uncured and unsmoked; finely chop or coarsely grind'
   - '60 g onion, peeled weight; finely chop by knife'
   - '60 g carrot, peeled weight; finely chop by knife'
@@ -40,9 +38,7 @@ ingredients:
   - 3 tbsp extra-virgin olive oil
   - 1 cup hot light low-salt meat or vegetable broth
   - 1/2 cup whole milk
-  - >-
-    additional hot light low-salt meat or vegetable broth, as needed to keep the
-    simmer moist
+  - 'additional hot light low-salt meat or vegetable broth, as needed to keep the simmer moist'
   - 'salt, to taste'
   - 'freshly ground black pepper, to taste'
   - '--- To serve, if desired ---'
@@ -231,77 +227,68 @@ formula:
     - id: prep
       title: Prepare the ingredients
       text: >-
-        Use a heavy casserole with a lid; the original batch calls for a 24–26
-        cm pan. Weigh the vegetables after peeling or trimming, then finely chop
-        them with a knife. Finely chop or coarsely grind {{name:ragu.pancetta}}.
-        Have the listed broth hot before it is needed. For a larger or smaller
-        batch, choose a pot that holds the full load comfortably and can
-        maintain a gentle simmer; pan dimensions and cooking time do not
-        multiply with ingredients.
+        Use a heavy casserole with a lid; the original batch calls for a 24–26 cm pan. Weigh the
+        vegetables after peeling or trimming, then finely chop them with a knife. Finely chop or
+        coarsely grind {{name:ragu.pancetta}}. Have the listed broth hot before it is needed. For a
+        larger or smaller batch, choose a pot that holds the full load comfortably and can maintain
+        a gentle simmer; pan dimensions and cooking time do not multiply with ingredients.
     - id: render
       title: Render the pancetta
       text: >-
-        Put {{ingredients}} in the casserole. Heat gently, stirring, until the
-        pork releases fat. Keep the fat from smoking.
+        Put {{ingredients}} in the casserole. Heat gently, stirring, until the pork releases fat.
+        Keep the fat from smoking.
     - id: soffritto
       title: Soften the vegetables
       text: >-
-        Add {{ingredients}}. Cook over low to medium-low heat, stirring often,
-        until softened. Lower the heat if the onion starts catching or
-        darkening; it must not burn.
+        Add {{ingredients}}. Cook over low to medium-low heat, stirring often, until softened. Lower
+        the heat if the onion starts catching or darkening; it must not burn.
     - id: beef
       title: Cook the beef
       text: >-
-        Raise the heat to medium and add {{ingredients}}. Break up the meat and
-        stir for about 10 minutes, until released moisture has reduced and the
-        meat sizzles and begins to brown. Reduce the heat if the vegetables
-        catch. Verify the ground meat reaches 160°F / 71°C with a food
-        thermometer before tasting; color alone does not establish safety.
+        Raise the heat to medium and add {{ingredients}}. Break up the meat and stir for about 10
+        minutes, until released moisture has reduced and the meat sizzles and begins to brown.
+        Reduce the heat if the vegetables catch. Verify the ground meat reaches 160°F / 71°C with a
+        food thermometer before tasting; color alone does not establish safety.
     - id: wine
       title: Reduce the wine
       text: >-
-        Add {{ingredients}} and stir to loosen any browned residue. Let the wine
-        reduce over medium heat until no separate wine liquid remains and the
-        raw wine aroma has faded.
+        Add {{ingredients}} and stir to loosen any browned residue. Let the wine reduce over medium
+        heat until no separate wine liquid remains and the raw wine aroma has faded.
     - id: tomato
       title: Start the covered simmer
       text: >-
-        Stir in {{ingredients}}, mixing thoroughly. Bring to a gentle simmer,
-        then lower the heat and cover. Start counting the long simmer now.
+        Stir in {{ingredients}}, mixing thoroughly. Bring to a gentle simmer, then lower the heat
+        and cover. Start counting the long simmer now.
     - id: simmer
       title: Simmer gently and add milk halfway
       text: >-
-        Allow 2–3 hours total for the covered simmer, using {{ingredients}}
-        during this stage. Add extra hot broth only when needed to prevent the
-        ragù from drying or catching, and stir periodically along the bottom.
-        Stir in all the listed milk halfway through the chosen simmering time;
-        it belongs within the same 2–3-hour simmer. Continue gently until the
-        meat is tender, the milk has cooked into the sauce and the ragù is
-        glossy and coats the meat, without a separate pool of watery liquid. If
-        the meat is tender but the sauce is loose, finish uncovered with gentle
-        stirring until it coats; if the bottom starts catching, lower the heat
-        and add a little hot broth. Judge tenderness and texture rather than
-        forcing a particular color.
+        Allow 2–3 hours total for the covered simmer, using {{ingredients}} during this stage. Add
+        extra hot broth only when needed to prevent the ragù from drying or catching, and stir
+        periodically along the bottom. Stir in all the listed milk halfway through the chosen
+        simmering time; it belongs within the same 2–3-hour simmer. Continue gently until the meat
+        is tender, the milk has cooked into the sauce and the ragù is glossy and coats the meat,
+        without a separate pool of watery liquid. If the meat is tender but the sauce is loose,
+        finish uncovered with gentle stirring until it coats; if the bottom starts catching, lower
+        the heat and add a little hot broth. Judge tenderness and texture rather than forcing a
+        particular color.
     - id: season
       title: Season the finished ragù
       text: >-
-        Add {{ingredients}} to taste after reduction. Broth and cured pancetta,
-        if used, affect the salt level, so adjust at the end. Divide into the
-        desired sauce portions; the original formula serves six, without an
-        established cup yield.
+        Add {{ingredients}} to taste after reduction. Broth and cured pancetta, if used, affect the
+        salt level, so adjust at the end. Divide into the desired sauce portions; the original
+        formula serves six, without an established cup yield.
     - id: serve
       title: Serve with pasta if desired
       text: >-
-        For a pasta serving, use {{ingredients}}. Toss the cooked tagliatelle
-        with hot ragù, adding just enough reserved pasta water to loosen it so
-        the sauce coats the ribbons. Add the grated cheese to taste. Pasta and
-        cheese quantities depend on the meal being served; they are not part of
-        the six-portion sauce yield.
+        For a pasta serving, use {{ingredients}}. Toss the cooked tagliatelle with hot ragù, adding
+        just enough reserved pasta water to loosen it so the sauce coats the ribbons. Add the grated
+        cheese to taste. Pasta and cheese quantities depend on the meal being served; they are not
+        part of the six-portion sauce yield.
 learning:
   focus: Build a tender meat ragù through gentle simmering and controlled reduction.
   outcome: >-
-    Tender meat in a glossy sauce that coats it, with softened vegetables and no
-    separate pool of watery liquid.
+    Tender meat in a glossy sauce that coats it, with softened vegetables and no separate pool of
+    watery liquid.
   techniques:
     - browning
     - braising
@@ -309,132 +296,110 @@ learning:
     - temperature
   before:
     - >-
-      For the original batch, choose a heavy 24–26 cm casserole with a lid. Use
-      a larger or smaller suitable pot for a changed batch; keep a gentle simmer
-      and judge moisture rather than multiplying cooking time.
+      For the original batch, choose a heavy 24–26 cm casserole with a lid. Use a larger or smaller
+      suitable pot for a changed batch; keep a gentle simmer and judge moisture rather than
+      multiplying cooking time.
     - >-
-      Weigh vegetables after peeling and trimming; finely chop by knife. Choose
-      coarsely ground chuck, shoulder or another collagen-rich beef cut and
-      unsmoked pork belly.
+      Weigh vegetables after peeling and trimming; finely chop by knife. Choose coarsely ground
+      chuck, shoulder or another collagen-rich beef cut and unsmoked pork belly.
     - >-
-      Have the measured initial broth and additional broth hot. Select dry red
-      or white wine; the main method includes whole milk halfway through the
-      long simmer.
+      Have the measured initial broth and additional broth hot. Select dry red or white wine; the
+      main method includes whole milk halfway through the long simmer.
     - >-
-      Keep raw-meat equipment separate from food ready to eat. Have a food
-      thermometer ready and do not taste until the ground meat reaches 160°F /
-      71°C.
+      Keep raw-meat equipment separate from food ready to eat. Have a food thermometer ready and do
+      not taste until the ground meat reaches 160°F / 71°C.
   checkpoints:
     - step: 3
       cue: Vegetables are soft without scorched onion or acrid aromas.
-      why: >-
-        Gentle softening builds the base without bitterness that a long simmer
-        cannot remove.
+      why: Gentle softening builds the base without bitterness that a long simmer cannot remove.
     - step: 4
       cue: >-
-        Released meat moisture has reduced and the meat sizzles; the ground meat
-        reaches 160°F / 71°C before tasting.
+        Released meat moisture has reduced and the meat sizzles; the ground meat reaches 160°F /
+        71°C before tasting.
       why: >-
-        The sizzle marks the change from a wet pan to browning; the thermometer
-        establishes safety separately from color.
+        The sizzle marks the change from a wet pan to browning; the thermometer establishes safety
+        separately from color.
     - step: 5
       cue: No separate wine liquid remains and its raw aroma has faded.
-      why: >-
-        Reducing the wine before adding the tomato keeps that stage distinct
-        from the long simmer.
+      why: Reducing the wine before adding the tomato keeps that stage distinct from the long simmer.
     - step: 7
       cue: >-
-        Milk goes in halfway through the same 2–3-hour covered simmer; the
-        finished meat is tender and coated by glossy ragù.
+        Milk goes in halfway through the same 2–3-hour covered simmer; the finished meat is tender
+        and coated by glossy ragù.
       why: >-
-        The milk is a stage within the slow cook. Tenderness and texture
-        determine readiness more reliably than a fixed color or the shortest
-        time.
+        The milk is a stage within the slow cook. Tenderness and texture determine readiness more
+        reliably than a fixed color or the shortest time.
   troubleshooting:
     - problem: The meat cooks in pooled liquid and does not sizzle.
-      cause: >-
-        The pan has cooled under the meat load or the released moisture has not
-        reduced.
+      cause: The pan has cooled under the meat load or the released moisture has not reduced.
       fix: >-
-        Keep stirring over medium heat until the excess liquid reduces; avoid
-        raising the heat enough to scorch the vegetables. For a larger batch,
-        use an appropriately sized pot.
+        Keep stirring over medium heat until the excess liquid reduces; avoid raising the heat
+        enough to scorch the vegetables. For a larger batch, use an appropriately sized pot.
     - problem: The sauce catches before the meat is tender.
       cause: The simmer is too vigorous or evaporation has left too little moisture.
       fix: >-
-        Lower the heat, add a little hot broth and stir along the bottom. Keep
-        the lid on for the long gentle simmer. Do not scrape black burnt residue
-        into the ragù.
+        Lower the heat, add a little hot broth and stir along the bottom. Keep the lid on for the
+        long gentle simmer. Do not scrape black burnt residue into the ragù.
     - problem: The finished ragù has a separate pool of watery liquid.
       cause: The meat has softened before the liquid has reduced enough.
       fix: >-
-        Finish gently uncovered, stirring, until the sauce coats the meat. Do
-        not add flour to force the texture.
+        Finish gently uncovered, stirring, until the sauce coats the meat. Do not add flour to force
+        the texture.
     - problem: The ragù is too salty after reduction.
       cause: Salted broth or cured pancetta became concentrated.
       fix: >-
-        Stop adding salt. Use low-salt broth from the start and season at the
-        end; do not promise that a garnish will remove dissolved salt.
+        Stop adding salt. Use low-salt broth from the start and season at the end; do not promise
+        that a garnish will remove dissolved salt.
   substitutions:
     - ingredient: Fresh unsmoked pork belly
       alternative: Use the same listed weight of unsmoked cured pancetta.
       effect: >-
-        The Academy permits cured pancetta; it adds salt, so choose low-salt
-        broth and season the finished ragù cautiously. Smoked bacon or pancetta
-        changes the intended flavor.
+        The Academy permits cured pancetta; it adds salt, so choose low-salt broth and season the
+        finished ragù cautiously. Smoked bacon or pancetta changes the intended flavor.
     - ingredient: Dry red wine
       alternative: Use dry white wine in the same listed amount.
       effect: >-
-        Both are specified by the Academy; the wine flavor changes while the
-        reduction stage stays the same.
+        Both are specified by the Academy; the wine flavor changes while the reduction stage stays
+        the same.
     - ingredient: Whole milk
-      alternative: >-
-        Omit the milk for the Academy’s milk-free option; add no compensating
-        milk substitute.
+      alternative: Omit the milk for the Academy’s milk-free option; add no compensating milk substitute.
       effect: >-
-        Skip the halfway milk addition, keep the same gentle simmer and add hot
-        broth only as moisture requires. The sauce loses the milk’s
-        contribution; no dairy-free claim applies if cheese is served.
+        Skip the halfway milk addition, keep the same gentle simmer and add hot broth only as
+        moisture requires. The sauce loses the milk’s contribution; no dairy-free claim applies if
+        cheese is served.
     - ingredient: Light meat broth
       alternative: >-
-        Use light low-salt vegetable broth in the same measured initial amount,
-        with additional hot broth as needed.
+        Use light low-salt vegetable broth in the same measured initial amount, with additional hot
+        broth as needed.
       effect: >-
-        The Academy allows either broth; the background flavor changes. Check
-        ingredients if dietary or allergen restrictions matter.
+        The Academy allows either broth; the background flavor changes. Check ingredients if dietary
+        or allergen restrictions matter.
   timing: >-
-    Plan 20–30 minutes preparation and 2½–3½ hours cooking, about 3–4 hours
-    total with 45–60 minutes active work. The covered ragù simmer alone takes
-    2–3 hours; milk enters halfway within that interval. Chop and measure before
-    rendering, heat broth alongside the earlier stages, and stir/check moisture
-    during the simmer. Final uncovered reduction or unusually slow meat
-    tenderness can extend cooking. Pasta cooking, fresh-pasta preparation,
-    cooling and later reheating are additional service or storage work.
+    Plan 20–30 minutes preparation and 2½–3½ hours cooking, about 3–4 hours total with 45–60 minutes
+    active work. The covered ragù simmer alone takes 2–3 hours; milk enters halfway within that
+    interval. Chop and measure before rendering, heat broth alongside the earlier stages, and
+    stir/check moisture during the simmer. Final uncovered reduction or unusually slow meat
+    tenderness can extend cooking. Pasta cooking, fresh-pasta preparation, cooling and later
+    reheating are additional service or storage work.
   storage: >-
-    Divide cooked ragù into shallow containers and refrigerate promptly at 40°F
-    / 4°C or below within 2 hours of cooking, or within 1 hour above 90°F /
-    32°C; do not leave the whole pot on the counter to cool fully. Use
-    refrigerated meat sauce within 3–4 days or freeze portions for longer
-    storage. Thaw in the refrigerator. Reheat leftovers to 165°F / 74°C
-    throughout, stirring and checking with a thermometer, and bring the sauce to
-    a boil; add a little broth or water if needed during reheating. Cooling and
-    reheating do not extend the original refrigerator storage interval.
+    Divide cooked ragù into shallow containers and refrigerate promptly at 40°F / 4°C or below
+    within 2 hours of cooking, or within 1 hour above 90°F / 32°C; do not leave the whole pot on the
+    counter to cool fully. Use refrigerated meat sauce within 3–4 days or freeze portions for longer
+    storage. Thaw in the refrigerator. Reheat leftovers to 165°F / 74°C throughout, stirring and
+    checking with a thermometer, and bring the sauce to a boil; add a little broth or water if
+    needed during reheating. Cooling and reheating do not extend the original refrigerator storage
+    interval.
   sources:
-    - title: >-
-        Accademia Italiana della Cucina — Ragù alla bolognese, Italian 2023
-        recipe
+    - title: 'Accademia Italiana della Cucina — Ragù alla bolognese, Italian 2023 recipe'
       url: >-
         https://www.accademiaitalianadellacucina.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20ricetta%20aggiornata%2020%20aprile%202023.pdf
-    - title: >-
-        Accademia Italiana della Cucina — Ragù alla bolognese, English 2023
-        recipe
+    - title: 'Accademia Italiana della Cucina — Ragù alla bolognese, English 2023 recipe'
       url: >-
         https://accademia1953.it/sites/default/files/Rag%C3%B9%20alla%20bolognese%20-%20updated%20recipe_20%20April%202023.pdf
     - title: FDA — Safe Food Handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: FoodSafety.gov — Safe Minimum Internal Temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: FoodSafety.gov — Cold Food Storage Chart
       url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
   review:

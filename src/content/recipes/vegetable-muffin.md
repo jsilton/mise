@@ -37,7 +37,6 @@ pairsWith:
   - whole-wheat-muffins-fruit-nut-or-berry
   - chocolate-blended-oats-with-raspberry-chia-jam
 ingredients:
-  - '--- Batter ---'
   - '1 cup spinach or kale, packed'
   - '1 cup ripe banana or unsweetened applesauce, banana mashed'
   - '1 cup carrots, grated'

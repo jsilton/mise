@@ -32,8 +32,9 @@ pairsWith:
   - breakfast-carrot-cake
   - chocolate-chip-beet-muffins
 ingredients:
-  - '--- Icing ---'
-  - '3 large pasteurized egg whites, separated cold if using pasteurized shell eggs; briefly let the measured whites lose their chill'
+  - >-
+    3 large pasteurized egg whites, separated cold if using pasteurized shell eggs; briefly let the
+    measured whites lose their chill
   - '1 lb (450 g) confectioners’ sugar, sifted'
   - 1 tsp pure vanilla extract
   - 'gel or liquid food coloring, as desired for selected colors, optional'
@@ -59,7 +60,9 @@ formula:
             - step: froth
               share: 1
           plural: large pasteurized egg whites
-          preparation: separated cold if using pasteurized shell eggs; briefly let the measured whites lose their chill
+          preparation: >-
+            separated cold if using pasteurized shell eggs; briefly let the measured whites lose
+            their chill
         - id: sugar
           key: confectioners-sugar
           name: confectioners’ sugar
@@ -100,29 +103,54 @@ formula:
   steps:
     - id: froth
       title: Froth
-      text: 'Use {{ingredients}} in a clean, grease-free mixing bowl. With a stand mixer, beat on medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is possible but takes more effort and time. Check actual mixer bowl capacity for the batch.'
+      text: >-
+        Use {{ingredients}} in a clean, grease-free mixing bowl. With a stand mixer, beat on
+        medium-low until frothy but not peaking, about 1 minute as a guide. Hand whisking is
+        possible but takes more effort and time. Check actual mixer bowl capacity for the batch.
     - id: incorporate
       title: Add sugar
-      text: 'With the mixer on low, gradually add all {{ingredients}}. Scrape as needed and let the sugar incorporate without dumping it in at once.'
+      text: >-
+        With the mixer on low, gradually add all {{ingredients}}. Scrape as needed and let the sugar
+        incorporate without dumping it in at once.
     - id: peaks
       title: Beat to peaks
-      text: 'Once fully incorporated, increase to medium-high and beat until stiff, shiny peaks form, beginning checks after 2–3 minutes. Avoid continuing to beat after the cue merely to complete a fixed time.'
+      text: >-
+        Once fully incorporated, increase to medium-high and beat until stiff, shiny peaks form,
+        beginning checks after 2–3 minutes. Avoid continuing to beat after the cue merely to
+        complete a fixed time.
     - id: color
       title: Color
-      text: 'Divide the icing into the colors needed and stir in {{ingredients}}. Gel is concentrated; liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered while working.'
+      text: >-
+        Divide the icing into the colors needed and stir in {{ingredients}}. Gel is concentrated;
+        liquid coloring also thins the icing, so add it gradually. Keep every unused portion covered
+        while working.
     - id: consistency
       title: Outline and flood
-      text: 'Use thick icing for outlines, then move the amount needed for flooding into a separate bowl. Add {{ingredients}} a few drops or a small spoonful at a time; the original batch uses approximately ½ tsp additions as a guide, not a required full water dose. Stir with a spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the cue for the design instead of requiring exactly 15 seconds at every scale.'
+      text: >-
+        Use thick icing for outlines, then move the amount needed for flooding into a separate bowl.
+        Add {{ingredients}} a few drops or a small spoonful at a time; the original batch uses
+        approximately ½ tsp additions as a guide, not a required full water dose. Stir with a
+        spatula and check whether a ribbon levels back into the bowl in about 15 seconds. Adjust the
+        cue for the design instead of requiring exactly 15 seconds at every scale.
     - id: cover
       title: Cover and decorate
-      text: 'Keep bowls or piping bags tightly covered when not immediately in use; the surface dries quickly. Apply outlines to completely cool cookies before filling their centers with the thinner portion. Let the decorated icing dry thoroughly before stacking; allow about 6–8 hours at room temperature, with actual humidity and design affecting the time.'
+      text: >-
+        Keep bowls or piping bags tightly covered when not immediately in use; the surface dries
+        quickly. Apply outlines to completely cool cookies before filling their centers with the
+        thinner portion. Let the decorated icing dry thoroughly before stacking; allow about 6–8
+        hours at room temperature, with actual humidity and design affecting the time.
 learning:
   focus: Keep separate outline and flooding consistencies
-  outcome: Stiff base icing and a controlled thinner portion that stays within its outline and dries before stacking.
+  outcome: >-
+    Stiff base icing and a controlled thinner portion that stays within its outline and dries before
+    stacking.
   techniques:
     - cold-preparation
   before:
-    - Use pasteurized whites for uncooked icing; carton products must be suitable for whipping and handled according to their label. Use the product’s stated equivalent only if it is suitable for whipping.
+    - >-
+      Use pasteurized whites for uncooked icing; carton products must be suitable for whipping and
+      handled according to their label. Use the product’s stated equivalent only if it is suitable
+      for whipping.
     - 'Have completely cool cookies, a grease-free bowl and tools, and covers ready before mixing.'
     - The original batch plans 36 coverage portions; cookie size and design govern actual coverage.
   checkpoints:
@@ -130,20 +158,37 @@ learning:
       cue: Stiff shiny peaks stand without continued excessive beating.
       why: The icing needs the peak state; extra mixing beyond it can add unwanted air.
     - step: 5
-      cue: A ribbon in the flooding portion levels in about 15 seconds without immediately running like water.
-      why: 'This is a practical consistency cue for filling a bordered shape, not an exact universal timing law.'
+      cue: >-
+        A ribbon in the flooding portion levels in about 15 seconds without immediately running like
+        water.
+      why: >-
+        This is a practical consistency cue for filling a bordered shape, not an exact universal
+        timing law.
     - step: 6
       cue: Decorations are dry before the cookies are stacked.
       why: Wet icing can smear even when its surface looks shiny.
   troubleshooting:
     - problem: Icing runs beyond the outline
-      cause: 'Too much water or liquid color thinned the flooding portion, or the outline was not suitable.'
-      fix: 'Stop flooding, preserve the thick base and retest a small portion. Further water cannot thicken a runny batch; let a small test establish the design before covering all cookies.'
+      cause: >-
+        Too much water or liquid color thinned the flooding portion, or the outline was not
+        suitable.
+      fix: >-
+        Stop flooding, preserve the thick base and retest a small portion. Further water cannot
+        thicken a runny batch; let a small test establish the design before covering all cookies.
     - problem: Hard flakes clog the piping tip
       cause: Uncovered icing dried on the surface.
-      fix: Keep unused icing covered and gently loosen a still-soft portion with a drop or two of water; hardened flakes may need removal rather than more beating.
-  timing: 'Five minutes is the mixing plan. Coloring, outlining, flooding and the approximately 6–8 hour drying interval are additional; actual design and humidity affect drying. Hand whisking and larger mixer loads add work.'
-  storage: 'Keep unused wet icing tightly covered and refrigerated at 40°F / 4°C or below between work sessions, following the shortest applicable egg-product label limit. Drying decorated cookies is a different state from storing wet icing; follow the storage requirements of the actual cookie and any other filling or topping.'
+      fix: >-
+        Keep unused icing covered and gently loosen a still-soft portion with a drop or two of
+        water; hardened flakes may need removal rather than more beating.
+  timing: >-
+    Five minutes is the mixing plan. Coloring, outlining, flooding and the approximately 6–8 hour
+    drying interval are additional; actual design and humidity affect drying. Hand whisking and
+    larger mixer loads add work.
+  storage: >-
+    Keep unused wet icing tightly covered and refrigerated at 40°F / 4°C or below between work
+    sessions, following the shortest applicable egg-product label limit. Drying decorated cookies is
+    a different state from storing wet icing; follow the storage requirements of the actual cookie
+    and any other filling or topping.
   sources:
     - title: Preppy Kitchen exact icing and decorating notes
       url: 'https://preppykitchen.com/royal-icing/'
@@ -155,7 +200,9 @@ learning:
   substitutions:
     - ingredient: Gel food coloring
       alternative: Liquid food coloring in small additions for the selected shade
-      effect: Liquid coloring may thin the icing more; retest consistency before flooding. The color allowance is unmeasured.
+      effect: >-
+        Liquid coloring may thin the icing more; retest consistency before flooding. The color
+        allowance is unmeasured.
 ---
 
 ## Chef's Note

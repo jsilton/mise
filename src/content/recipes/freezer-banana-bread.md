@@ -40,7 +40,6 @@ pairsWith:
   - almond-zucchini-bread
   - anadama-bread
 ingredients:
-  - '--- Banana bread ---'
   - '3 medium ripe bananas, mashed'
   - 1 3/4 cups whole-wheat flour
   - 1/4 cup maple syrup

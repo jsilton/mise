@@ -25,7 +25,6 @@ pairsWith:
   - tarragon-potatoes
   - arugula-feta-salad
 ingredients:
-  - '--- French toast ---'
   - '8 slices of challah or brioche, day-old preferred; slice size stays fixed when count scales'
   - 4 large eggs
   - 1 cup whole milk

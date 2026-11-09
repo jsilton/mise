@@ -53,9 +53,7 @@ ingredients:
   - '1/2 cup raisins, optional'
   - '1/4 cup chopped walnuts or pecans, optional'
   - '--- Pan preparation ---'
-  - >-
-    nonstick cooking spray, enough for the inside of the liners or the unlined
-    wells
+  - 'nonstick cooking spray, enough for the inside of the liners or the unlined wells'
   - '--- Cream-cheese glaze ---'
   - '4 oz light cream cheese, softened'
   - 1/4 cup powdered sugar
@@ -67,8 +65,7 @@ ingredients:
   - 'shredded coconut, a sprinkle after glazing, if desired, optional'
   - 'chopped walnuts or pecans, a sprinkle after glazing, if desired, optional'
 source: Adapted from ambitiouskitchen.com
-sourceUrl: >-
-  https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/
+sourceUrl: 'https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/'
 formula:
   version: 1
   yield:
@@ -309,82 +306,72 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Preheat the oven to 350°F. For the original batch, line a 12-cup muffin
-        tin and coat the insides of the liners with {{ingredients}}, or grease
-        the unlined wells. Finely shred the carrots before measuring their
-        listed volume. For a scaled batch use enough similar wells; mix-ins can
-        change the amount of batter, so use another well or load rather than
-        overflowing a cup.
+        Preheat the oven to 350°F. For the original batch, line a 12-cup muffin tin and coat the
+        insides of the liners with {{ingredients}}, or grease the unlined wells. Finely shred the
+        carrots before measuring their listed volume. For a scaled batch use enough similar wells;
+        mix-ins can change the amount of batter, so use another well or load rather than overflowing
+        a cup.
     - id: dry
       title: Mix dry ingredients
       text: 'Whisk {{ingredients}} in a medium bowl until evenly distributed.'
     - id: wet
       title: Mix the wet base
       text: >-
-        In a large bowl, whisk {{ingredients}} until combined. The carrots
-        remain finely shredded, not pureed.
+        In a large bowl, whisk {{ingredients}} until combined. The carrots remain finely shredded,
+        not pureed.
     - id: combine
       title: Combine
       text: >-
-        Stir {{ingredients}} and the prepared flour mixture into the wet base
-        just until no dry flour pockets remain. Stop mixing then; do not beat
-        the batter smooth.
+        Stir {{ingredients}} and the prepared flour mixture into the wet base just until no dry
+        flour pockets remain. Stop mixing then; do not beat the batter smooth.
     - id: fold
       title: Fold in optional mix-ins
       text: >-
-        Fold any chosen {{ingredients}} through the batter. Each is optional;
-        keep all the batter quantities whether using one, several or none.
+        Fold any chosen {{ingredients}} through the batter. Each is optional; keep all the batter
+        quantities whether using one, several or none.
     - id: bake
       title: Fill and bake
       text: >-
-        Divide the batter among the prepared wells without overflowing. Wait
-        until the oven reaches 350°F, then bake for 18–20 minutes per load,
-        until a center toothpick comes out clean. Check the center again if wet
-        batter remains.
+        Divide the batter among the prepared wells without overflowing. Wait until the oven reaches
+        350°F, then bake for 18–20 minutes per load, until a center toothpick comes out clean. Check
+        the center again if wet batter remains.
     - id: cool
       title: Cool
       text: >-
-        Rest the muffins in the pan for 10 minutes, then transfer to a rack and
-        cool completely before glazing. Extra oven loads and rack cooling take
-        additional time.
+        Rest the muffins in the pan for 10 minutes, then transfer to a rack and cool completely
+        before glazing. Extra oven loads and rack cooling take additional time.
     - id: glaze
       title: Mix the glaze
       text: >-
-        Once the muffins are cool, whisk {{ingredients}} until smooth. Use the
-        full glaze milk here, separate from the batter milk.
+        Once the muffins are cool, whisk {{ingredients}} until smooth. Use the full glaze milk here,
+        separate from the batter milk.
     - id: thin
       title: Adjust the glaze
       text: >-
-        If the glaze is too thick, gradually stir in {{ingredients}} as needed,
-        stopping when it will coat a muffin top without running straight off.
-        This additional milk is optional; do not add it automatically.
+        If the glaze is too thick, gradually stir in {{ingredients}} as needed, stopping when it
+        will coat a muffin top without running straight off. This additional milk is optional; do
+        not add it automatically.
     - id: finish
       title: Glaze and finish
       text: >-
-        Dip the cooled muffin tops into the glaze, then return them to the rack.
-        Add {{ingredients}} only if desired. Refrigerate the glazed muffins
-        promptly.
+        Dip the cooled muffin tops into the glaze, then return them to the rack. Add {{ingredients}}
+        only if desired. Refrigerate the glazed muffins promptly.
 learning:
-  focus: >-
-    Distributing finely shredded carrots and optional mix-ins without
-    overworking muffin batter.
+  focus: Distributing finely shredded carrots and optional mix-ins without overworking muffin batter.
   outcome: >-
-    A clean center tester, fine carrot shreds through the crumb and glaze that
-    coats a fully cooled top.
+    A clean center tester, fine carrot shreds through the crumb and glaze that coats a fully cooled
+    top.
   techniques:
     - leavening
     - temperature
   before:
     - >-
-      The original batch plans twelve muffins. Scale the number of similar wells
-      with the batter and leave room for any chosen mix-ins; the actual pan
-      capacity is unmeasured.
+      The original batch plans twelve muffins. Scale the number of similar wells with the batter and
+      leave room for any chosen mix-ins; the actual pan capacity is unmeasured.
     - >-
-      Measure finely shredded carrots by their listed volume. Keep batter milk,
-      glaze milk and optional thinning milk separate.
-    - >-
-      Do not taste raw batter or dough. Wash hands and tools after handling raw
-      flour or eggs.
+      Measure finely shredded carrots by their listed volume. Keep batter milk, glaze milk and
+      optional thinning milk separate.
+    - Do not taste raw batter or dough. Wash hands and tools after handling raw flour or eggs.
   checkpoints:
     - step: 4
       cue: 'No dry flour remains, while carrot shreds are still visible.'
@@ -399,45 +386,38 @@ learning:
     - problem: Muffins overflow or stay wet in the center.
       cause: Too much batter or optional mix-ins were forced into too few wells.
       fix: >-
-        Use additional wells and check the center; preserve all the mixture
-        rather than forcing a scaled batch into the original tin.
+        Use additional wells and check the center; preserve all the mixture rather than forcing a
+        scaled batch into the original tin.
     - problem: Glaze is thin and runs off.
       cause: Muffins are still warm or too much optional milk was added.
       fix: >-
-        Cool the muffins fully and add the thinning milk gradually next time; do
-        not put excess glaze liquid into the batter.
+        Cool the muffins fully and add the thinning milk gradually next time; do not put excess
+        glaze liquid into the batter.
   substitutions:
     - ingredient: Whole-wheat pastry flour
       alternative: Same listed volume of white whole-wheat or all-purpose flour
-      effect: >-
-        Flour choice changes the crumb; check the center rather than assuming
-        identical baking time.
+      effect: Flour choice changes the crumb; check the center rather than assuming identical baking time.
     - ingredient: Applesauce
       alternative: 'One mashed ripe banana for the original batch, scaled proportionally'
       effect: Banana changes the flavor and sweetness; it replaces all the applesauce.
     - ingredient: Batter oil
       alternative: 'Same listed amount of melted, cooled coconut oil, walnut oil or butter'
-      effect: >-
-        Fat flavor and allergen suitability change; butter is not part of the
-        plant-based route.
+      effect: Fat flavor and allergen suitability change; butter is not part of the plant-based route.
   storage: >-
-    Keep glaze and glazed muffins at 40°F / 4°C or below; refrigerate promptly
-    within 2 hours, or 1 hour above 90°F / 32°C, and use within 3–4 days. Freeze
-    the plain muffins up to three months and glaze after thawing. Plain-muffin
-    room-temperature handling is a separate option described in the notes.
+    Keep glaze and glazed muffins at 40°F / 4°C or below; refrigerate promptly within 2 hours, or 1
+    hour above 90°F / 32°C, and use within 3–4 days. Freeze the plain muffins up to three months and
+    glaze after thawing. Plain-muffin room-temperature handling is a separate option described in
+    the notes.
   timing: >-
-    The current fifteen-minute preparation allowance plus 18–20 minutes baking
-    and the ten-minute pan rest gives a 43–45-minute subtotal. Complete rack
-    cooling and making the glaze add time. Start preheating during preparation;
-    any heating still needed before loading and extra oven loads extend elapsed
-    time.
+    The current fifteen-minute preparation allowance plus 18–20 minutes baking and the ten-minute
+    pan rest gives a 43–45-minute subtotal. Complete rack cooling and making the glaze add time.
+    Start preheating during preparation; any heating still needed before loading and extra oven
+    loads extend elapsed time.
   sources:
     - title: Ambitious Kitchen — complete muffin and glaze options
-      url: >-
-        https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/
+      url: 'https://www.ambitiouskitchen.com/healthy-carrot-cake-muffins-cream-cheese-glaze/'
     - title: FDA — flour handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
     - title: FDA — produce and perishable handling
       url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
     - title: USDA — conservative refrigerated-leftover working limit

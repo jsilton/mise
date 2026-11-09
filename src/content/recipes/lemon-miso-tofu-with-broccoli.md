@@ -41,15 +41,11 @@ ingredients:
   - 1/3 cup Cornstarch for dredging
   - 'Salt and black pepper, to season the coating'
   - 3 tbsp Neutral frying oil
-  - >-
-    Neutral frying oil, additional only as needed if the pan dries while frying
-    tofu
+  - 'Neutral frying oil, additional only as needed if the pan dries while frying tofu'
   - '--- Vegetables and finish ---'
   - '1 lb Fresh broccoli, small florets'
   - 'Salt and black pepper, to season the broccoli'
-  - >-
-    Neutral frying oil, additional only as needed if the pan dries while cooking
-    broccoli
+  - 'Neutral frying oil, additional only as needed if the pan dries while cooking broccoli'
   - 2 tsp Toasted sesame oil
   - '2 Garlic cloves, minced'
   - '1 1-inch piece of fresh ginger, grated'
@@ -60,8 +56,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 source: Adapted from cooking.nytimes.com
-sourceUrl: >-
-  https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share
+sourceUrl: 'https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share'
 formula:
   version: 1
   yield:
@@ -251,117 +246,95 @@ formula:
     - id: sauce
       title: Mix the sauce
       text: >-
-        Use {{ingredients}}. Dissolve the miso in the hot water, then whisk in
-        lemon juice, maple syrup, sauce starch and sauce salt until smooth. Set
-        aside and restir before cooking.
+        Use {{ingredients}}. Dissolve the miso in the hot water, then whisk in lemon juice, maple
+        syrup, sauce starch and sauce salt until smooth. Set aside and restir before cooking.
     - id: coat
       title: Coat the tofu
       text: >-
-        Use {{ingredients}}. Pat the pressed tofu dry, toss gently in the
-        dredging starch and season the coating. Shake off loose starch; discard
-        any unused coating mixture.
+        Use {{ingredients}}. Pat the pressed tofu dry, toss gently in the dredging starch and season
+        the coating. Shake off loose starch; discard any unused coating mixture.
     - id: fry
       title: Fry the tofu
       text: >-
-        Use {{ingredients}}. Heat the measured starting oil in a 12-inch skillet
-        over medium-high heat. Add the coated tofu in one layer, working in
-        batches if needed. Turn as each face becomes golden, starting checks
-        after 2–3 minutes; reduce heat if oil smokes. Add the separate tofu
-        frying-oil allowance only if the pan dries between batches. Transfer to
-        a plate.
+        Use {{ingredients}}. Heat the measured starting oil in a 12-inch skillet over medium-high
+        heat. Add the coated tofu in one layer, working in batches if needed. Turn as each face
+        becomes golden, starting checks after 2–3 minutes; reduce heat if oil smokes. Add the
+        separate tofu frying-oil allowance only if the pan dries between batches. Transfer to a
+        plate.
     - id: broccoli
       title: Cook the broccoli
       text: >-
-        Have {{ingredients}} ready. Cook the broccoli in the same skillet,
-        adding the separate additional frying-oil allowance only if the pan
-        dries. Season with the vegetable salt and pepper. Stir and turn until
-        crisp-tender with browned edges, starting checks around 6 minutes.
-        Transfer to the tofu plate.
+        Have {{ingredients}} ready. Cook the broccoli in the same skillet, adding the separate
+        additional frying-oil allowance only if the pan dries. Season with the vegetable salt and
+        pepper. Stir and turn until crisp-tender with browned edges, starting checks around 6
+        minutes. Transfer to the tofu plate.
     - id: aromatics
       title: Start the glaze
       text: >-
-        Have {{ingredients}} ready. Briefly let the pan cool, then wipe out
-        loose burnt crumbs using a heatproof spatula or tongs holding a towel;
-        keep hands off the hot pan. Set over medium heat, add sesame oil, garlic
-        and ginger, and stir for about 30 seconds until fragrant without
-        burning.
+        Have {{ingredients}} ready. Briefly let the pan cool, then wipe out loose burnt crumbs using
+        a heatproof spatula or tongs holding a towel; keep hands off the hot pan. Set over medium
+        heat, add sesame oil, garlic and ginger, and stir for about 30 seconds until fragrant
+        without burning.
     - id: finish
       title: Thicken and fold
       text: >-
-        Restir the prepared sauce and pour it into the skillet. Gently simmer,
-        stirring, for about 3–4 minutes until glossy and evenly thickened. Fold
-        in the cooked tofu and broccoli with a broad spatula just until coated
-        and hot; vigorous tossing can break the cubes.
+        Restir the prepared sauce and pour it into the skillet. Gently simmer, stirring, for about
+        3–4 minutes until glossy and evenly thickened. Fold in the cooked tofu and broccoli with a
+        broad spatula just until coated and hot; vigorous tossing can break the cubes.
     - id: serve
       title: Serve promptly
-      text: >-
-        Finish with {{ingredients}}. The tofu coating softens in the sauce;
-        serve promptly.
+      text: 'Finish with {{ingredients}}. The tofu coating softens in the sauce; serve promptly.'
 learning:
-  focus: >-
-    Dry the pressed tofu before coating it: wet surfaces turn the starch into
-    patches of paste
-  outcome: >-
-    Golden tofu and crisp-tender broccoli gently coated in glossy lemon-miso
-    sauce.
+  focus: 'Dry the pressed tofu before coating it: wet surfaces turn the starch into patches of paste'
+  outcome: Golden tofu and crisp-tender broccoli gently coated in glossy lemon-miso sauce.
   techniques:
     - starch
     - browning
   before:
     - >-
-      The original batch is designed for a 12-inch skillet. Keep the tofu in one
-      layer; use batches or more pans when scaling, and keep the cube size
-      similar. Timings do not multiply with ingredient quantities.
+      The original batch is designed for a 12-inch skillet. Keep the tofu in one layer; use batches
+      or more pans when scaling, and keep the cube size similar. Timings do not multiply with
+      ingredient quantities.
     - >-
-      Start with the listed frying oil and add only the separate as-needed
-      allowance if the pan dries. Sesame oil is reserved for the aromatics, not
-      counted as frying oil.
+      Start with the listed frying oil and add only the separate as-needed allowance if the pan
+      dries. Sesame oil is reserved for the aromatics, not counted as frying oil.
     - 'The ¾ cup water belongs to the sauce, not to a linked Dashi pairing.'
   checkpoints:
     - step: 3
       cue: Tofu releases from the pan and has a golden starch coating.
-      why: >-
-        Dry cubes and adequate space support even frying; reduce heat if oil
-        smokes.
+      why: Dry cubes and adequate space support even frying; reduce heat if oil smokes.
     - step: 6
-      cue: >-
-        The sauce is glossy and coats the vegetables without loose raw-starch
-        streaks.
-      why: >-
-        Restir the sauce before it enters the pan; gentle folding protects the
-        tofu.
+      cue: The sauce is glossy and coats the vegetables without loose raw-starch streaks.
+      why: Restir the sauce before it enters the pan; gentle folding protects the tofu.
   troubleshooting:
     - problem: Sauce is lumpy or tofu breaks during coating
       cause: Starch settled or the finished tofu was tossed too vigorously
       fix: >-
-        Whisk the sauce again immediately before cooking it. Simmer until evenly
-        glossy, then fold the tofu and broccoli with a broad spatula.
+        Whisk the sauce again immediately before cooking it. Simmer until evenly glossy, then fold
+        the tofu and broccoli with a broad spatula.
   substitutions:
     - ingredient: Maple syrup
       alternative: Use the same listed amount of honey.
       effect: Honey changes flavor and makes the dish non-vegan.
     - ingredient: 14 oz tofu in the original batch
       alternative: >-
-        For the original batch, use one 14–16 oz package of extra-firm tofu
-        instead of the listed 14 oz.
+        For the original batch, use one 14–16 oz package of extra-firm tofu instead of the listed 14
+        oz.
       effect: >-
-        Keep the sauce unchanged for this original-batch package option and
-        allow pan batches. Scale the chosen tofu amount with the portions.
+        Keep the sauce unchanged for this original-batch package option and allow pan batches. Scale
+        the chosen tofu amount with the portions.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours
-    (1 hour above 90°F). Use within 3–4 days. Reheat to 165°F throughout. The
-    tofu coating softens in storage.
+    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
+    Use within 3–4 days. Reheat to 165°F throughout. The tofu coating softens in storage.
   timing: >-
-    About 15–25 min active preparation with already-pressed tofu; About 25–35
-    min, longer if the pan needs batches; About 45–65 min, excluding pressing
-    tofu.
+    About 15–25 min active preparation with already-pressed tofu; About 25–35 min, longer if the pan
+    needs batches; About 45–65 min, excluding pressing tofu.
   sources:
     - title: NYT Cooking — Lemon-Miso Tofu with Broccoli
       url: >-
         https://cooking.nytimes.com/recipes/1026706-lemon-miso-tofu-with-broccoli?smid=ck-recipe-iOS-share
     - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety

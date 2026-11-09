@@ -175,22 +175,47 @@ formula:
   steps:
     - id: prep
       title: Prepare
-      text: 'Prepare all the filling ingredients before heating the pan. If the cumin is not already toasted, stir the seeds in a dry pan over moderate heat until fragrant, then cool briefly and grind. Keep the measured cumin total unchanged.'
+      text: >-
+        Prepare all the filling ingredients before heating the pan. If the cumin is not already
+        toasted, stir the seeds in a dry pan over moderate heat until fragrant, then cool briefly
+        and grind. Keep the measured cumin total unchanged.
     - id: warm
       title: Warm the tortillas
-      text: 'Warm {{ingredients}}: heat tortillas in a towel in short microwave intervals until flexible, starting around 45–60 seconds for the original batch, or char them briefly on a hot dry skillet, turning as needed. For direct-flame warming: use tongs to turn each tortilla briefly over a gas flame until lightly charred and flexible. Keep wrapped and warm. For steaming, set the wrapped tortillas above about 1 inch of boiling water, cover and steam for 1 minute, then turn off the heat and leave covered for 15 minutes; water must not touch the tortillas. More tortillas may need separate loads.'
+      text: >-
+        Warm {{ingredients}}: heat tortillas in a towel in short microwave intervals until flexible,
+        starting around 45–60 seconds for the original batch, or char them briefly on a hot dry
+        skillet, turning as needed. For direct-flame warming: use tongs to turn each tortilla
+        briefly over a gas flame until lightly charred and flexible. Keep wrapped and warm. For
+        steaming, set the wrapped tortillas above about 1 inch of boiling water, cover and steam for
+        1 minute, then turn off the heat and leave covered for 15 minutes; water must not touch the
+        tortillas. More tortillas may need separate loads.
     - id: sear
       title: Start the shrimp
-      text: 'Use {{ingredients}}. Heat the measured oil in a large heavy skillet or wok over medium-high heat. Add shrimp and the shrimp-seasoning salt. Stir about 1–2 minutes until they begin to color, adding all the garlic during the last 30–45 seconds so it does not scorch. Use a pan that lets you move the shrimp freely, or divide the whole filling across batches.'
+      text: >-
+        Use {{ingredients}}. Heat the measured oil in a large heavy skillet or wok over medium-high
+        heat. Add shrimp and the shrimp-seasoning salt. Stir about 1–2 minutes until they begin to
+        color, adding all the garlic during the last 30–45 seconds so it does not scorch. Use a pan
+        that lets you move the shrimp freely, or divide the whole filling across batches.
     - id: spice
       title: Add cumin and chili
-      text: 'Stir in {{ingredients}} and cook about 1 minute until fragrant, reducing heat if the garlic is darkening. Continue cooking shrimp as needed rather than using pink edges as the final test.'
+      text: >-
+        Stir in {{ingredients}} and cook about 1 minute until fragrant, reducing heat if the garlic
+        is darkening. Continue cooking shrimp as needed rather than using pink edges as the final
+        test.
     - id: mango
       title: Add mango and cilantro
-      text: 'Fold in {{ingredients}} and cook about 1 minute, until the mango edges soften but pieces remain. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute count alone does not establish doneness.'
+      text: >-
+        Fold in {{ingredients}} and cook about 1 minute, until the mango edges soften but pieces
+        remain. Cook until the thickest shrimp are firm, pearly and opaque throughout; FDA guidance
+        is 145°F for seafood when checking with a suitable thermometer. Pink color or a fixed minute
+        count alone does not establish doneness.
     - id: finish
       title: Finish and serve
-      text: 'Off heat, stir in {{ingredients}}, adding the finishing salt only as needed after tasting cooked filling. Divide all the filling among all the warm tortillas; the original batch provides eight tortillas for four planning portions. Serve promptly, with separately prepared [Mexican Red Rice](/mise/recipes/mexican-red-rice) if wanted.'
+      text: >-
+        Off heat, stir in {{ingredients}}, adding the finishing salt only as needed after tasting
+        cooked filling. Divide all the filling among all the warm tortillas; the original batch
+        provides eight tortillas for four planning portions. Serve promptly, with separately
+        prepared [Mexican Red Rice](/mise/recipes/mexican-red-rice) if wanted.
 learning:
   focus: Cook shrimp through while keeping mango pieces distinct
   outcome: 'Cooked shrimp and softened-edge mango in warm, pliable tortillas.'
@@ -198,9 +223,15 @@ learning:
     - gentle-proteins
     - seasoning
   before:
-    - 'Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.'
-    - Prepare mango and herbs separately from raw shrimp. Toast/grind cumin before the pan cooking starts.
-    - 'Use additional pan batches when scaling; allocate the full oil and filling across batches, rather than repeating the whole amounts per pan.'
+    - >-
+      Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag
+      in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.
+    - >-
+      Prepare mango and herbs separately from raw shrimp. Toast/grind cumin before the pan cooking
+      starts.
+    - >-
+      Use additional pan batches when scaling; allocate the full oil and filling across batches,
+      rather than repeating the whole amounts per pan.
   checkpoints:
     - step: 3
       cue: Garlic is fragrant rather than dark; shrimp are still being cooked.
@@ -214,23 +245,35 @@ learning:
       fix: Reduce heat and finish shrimp cooking; badly burnt garlic cannot be repaired by more lime.
   substitutions:
     - ingredient: Serrano chilies
-      alternative: 'For the original four-portion batch, two bird chilies or one large jalapeño instead; scale this branch proportionally'
+      alternative: >-
+        For the original four-portion batch, two bird chilies or one large jalapeño instead; scale
+        this branch proportionally
       effect: Different chilies vary in heat; all enter the cumin stage.
     - ingredient: Corn tortillas
       alternative: The same listed count of flour tortillas
       effect: Warm until pliable; larger tortillas change the filled size.
     - ingredient: Five tablespoons lime juice
-      alternative: 'For the original four-portion batch, use four to five tablespoons instead; scale this range proportionally'
+      alternative: >-
+        For the original four-portion batch, use four to five tablespoons instead; scale this range
+        proportionally
       effect: 'Use this separate finish range instead of the listed total, not in addition.'
-  timing: 'About 15–20 min active preparation; About 8–12 min pan cooking; About 25–35 min; steaming tortillas adds a 15 min covered stand. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.'
-  storage: 'Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days and reheat hot leftovers to 165°F throughout. Shrimp can become firmer with reheating; these times describe handling, not a promise of unchanged texture.'
+  timing: >-
+    About 15–20 min active preparation; About 8–12 min pan cooking; About 25–35 min; steaming
+    tortillas adds a 15 min covered stand. Planning ranges assume peeled, thawed shrimp and prepared
+    ingredients; additional loads or side dishes add time.
+  storage: >-
+    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
+    above 90°F). Use within 3–4 days and reheat hot leftovers to 165°F throughout. Shrimp can become
+    firmer with reheating; these times describe handling, not a promise of unchanged texture.
   sources:
     - title: Adapted from cooking.nytimes.com
       url: 'https://cooking.nytimes.com/recipes/1013581-shrimp-and-mango-tacos?smid=ck-recipe-iOS-share'
     - title: FDA — Selecting and serving seafood safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely'
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
     - title: USDA — Handling leftovers safely
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
     date: '2026-10-05'
