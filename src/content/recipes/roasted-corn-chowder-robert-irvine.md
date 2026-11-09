@@ -1,6 +1,6 @@
 ---
 miseId: 0a8c67ca-c323-4a14-bd3d-91fad92c1b84
-title: Roasted Corn Chowder with Lime Shrimp — Robert Irvine
+title: Robert Irvine's Roasted Corn Chowder
 difficulty: easy
 cookingMethods:
   - roast
@@ -16,35 +16,34 @@ cuisines:
   - American
 role: main
 vibe: comfort
-prepTime: 20–30 min
-cookTime: '55–80 min with marinating, roasting and pot work overlapped'
-totalTime: 'About 75–120 min, including up to 1 hr refrigerated marinating'
+prepTime: 25 min
+cookTime: 55 min
+totalTime: 1 hr 20 min
 servings: 8 portions
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad
 ingredients:
-  - '1 lime, juice and squeezed rind for shrimp marinade; marinade/rind discarded'
-  - '1 lb raw baby shrimp, shelled, deveined and thawed under refrigeration if frozen'
-  - '5 cups corn kernels, fresh or thawed frozen and drained; do not use canned corn'
-  - '1/4 cup vegetable oil, one total, divided equally between corn roasting and the pot'
-  - '1/2 cup raw bacon, chopped'
+  - '1 lb small raw shrimp, peeled and deveined'
+  - '1 lime, for the shrimp'
+  - '5 cups corn kernels, fresh or thawed frozen'
+  - '1/4 cup vegetable oil, divided'
+  - '1/2 cup bacon, chopped'
   - '1 red onion, diced'
   - '1/2 cup celery, finely diced'
   - '1 green bell pepper, diced'
   - '1 red bell pepper, diced'
   - '6 garlic cloves, minced'
   - 1/2 cup all-purpose flour
-  - 2 cups heavy cream
   - 6 cups chicken stock
-  - '1/2 lb Red Bliss potatoes, diced into similar small pieces'
-  - 1 tsp kosher salt
+  - 2 cups heavy cream
+  - '1/2 lb Red Bliss potatoes, cut into 1/2-inch dice'
+  - '1 tsp kosher salt, plus more to taste'
   - 3 tbsp fresh lime juice
-  - '2 tbsp fresh parsley leaves, chopped'
+  - '2 tbsp fresh parsley, chopped'
   - 1/4 tsp cayenne pepper
-  - 'additional kosher salt, to taste'
-  - '1 bunch of scallions, chopped'
-  - 'oyster crackers, as an accompaniment'
+  - '6 scallions, chopped'
+  - 'oyster crackers, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -67,6 +66,16 @@ formula:
     - id: irvine
       name: Robert Irvine’s roux-and-cream version
       ingredients:
+        - id: shrimp
+          key: raw-baby-shrimp
+          name: small raw shrimp
+          quantity:
+            amount: 1
+            unit: lb
+          uses:
+            - step: marinate
+              share: 1
+          preparation: peeled and deveined
         - id: marinade-lime
           key: lime
           name: lime
@@ -77,17 +86,7 @@ formula:
             - step: marinate
               share: 1
           plural: limes
-          preparation: juice and squeezed rind for shrimp marinade; marinade/rind discarded
-        - id: shrimp
-          key: raw-baby-shrimp
-          name: raw baby shrimp
-          quantity:
-            amount: 1
-            unit: lb
-          uses:
-            - step: marinate
-              share: 1
-          preparation: 'shelled, deveined and thawed under refrigeration if frozen'
+          preparation: for the shrimp
         - id: corn
           key: corn-kernels
           name: corn kernels
@@ -97,14 +96,14 @@ formula:
           uses:
             - step: roast
               share: 1
-          preparation: fresh or thawed frozen and drained; do not use canned corn
+          preparation: fresh or thawed frozen
         - id: oil
           key: vegetable-oil
           name: vegetable oil
           quantity:
             amount: 1/4
             unit: cup
-          preparation: 'one total, divided equally between corn roasting and the pot'
+          preparation: divided
           uses:
             - step: roast
               share: 1/2
@@ -112,7 +111,7 @@ formula:
               share: 1/2
         - id: bacon
           key: raw-chopped-bacon
-          name: raw bacon
+          name: bacon
           quantity:
             amount: 1/2
             unit: cup
@@ -183,20 +182,20 @@ formula:
           uses:
             - step: flour
               share: 1
-        - id: cream
-          key: heavy-cream
-          name: heavy cream
-          quantity:
-            amount: 2
-            unit: cup
-          uses:
-            - step: simmer
-              share: 1
         - id: stock
           key: chicken-stock
           name: chicken stock
           quantity:
             amount: 6
+            unit: cup
+          uses:
+            - step: simmer
+              share: 1
+        - id: cream
+          key: heavy-cream
+          name: heavy cream
+          quantity:
+            amount: 2
             unit: cup
           uses:
             - step: simmer
@@ -210,7 +209,7 @@ formula:
           uses:
             - step: simmer
               share: 1
-          preparation: diced into similar small pieces
+          preparation: cut into 1/2-inch dice
         - id: salt
           key: kosher-salt
           name: kosher salt
@@ -220,6 +219,7 @@ formula:
           uses:
             - step: simmer
               share: 1
+          preparation: plus more to taste
         - id: lime-juice
           key: fresh-lime-juice
           name: fresh lime juice
@@ -231,7 +231,7 @@ formula:
               share: 1
         - id: parsley
           key: fresh-parsley
-          name: fresh parsley leaves
+          name: fresh parsley
           quantity:
             amount: 2
             unit: tbsp
@@ -248,192 +248,96 @@ formula:
           uses:
             - step: shrimp
               share: 1
-        - id: finishing-salt
-          key: kosher-salt
-          name: additional kosher salt
-          allowance: to taste
-          uses:
-            - step: shrimp
-              share: 1
         - id: scallions
           key: scallions
-          name: bunch of scallions
+          name: scallion
           quantity:
-            amount: 1
+            amount: 6
             unit: count
           uses:
             - step: serve
               share: 1
-          plural: bunches of scallions
+          plural: scallions
           preparation: chopped
           role: garnish
         - id: crackers
           key: oyster-crackers
           name: oyster crackers
-          allowance: as an accompaniment
+          allowance: for serving
           uses:
             - step: serve
               share: 1
           role: garnish
   steps:
     - id: marinate
-      title: Chill the lime-marinated shrimp
+      title: Marinate the shrimp
       text: >-
-        Use {{ingredients}}: squeeze the lime over the raw shrimp, add the squeezed rind, stir,
-        cover and refrigerate at 40°F / 4°C or below while preparing the chowder, for no longer than
-        1 hour. At large scales, start marinating close enough to the shrimp-cooking stage to keep
-        within that hour; keep all waiting raw shrimp refrigerated.
+        Put {{ingredients}} in a bowl, squeezing the lime over the shrimp and dropping in the rind.
+        Cover and refrigerate while you make the chowder, up to 1 hour.
     - id: roast
-      title: Roast the corn with half the oil
+      title: Roast the corn
       text: >-
-        Preheat the oven to 375°F / 190°C. Coat {{ingredients}} on a rimmed baking sheet and spread
-        in an uncrowded layer, using two sheets if one is crowded. Roast about 10–15 minutes,
-        stirring once, until fragrant and lightly colored; do not require blackening. Keep the
-        remaining half of the listed oil for the pot.
+        Heat the oven to 375°F. Toss {{ingredients}} on a rimmed baking sheet and spread in one
+        layer. Roast, stirring once, until fragrant and lightly browned, 10 to 15 minutes.
     - id: bacon
-      title: Cook the bacon with the remaining oil
+      title: Crisp the bacon
       text: >-
-        Heat {{ingredients}} in a heavy-bottomed soup pot over low heat until the bacon is crisp,
-        stirring. Keep all the bacon and fat in the pot.
+        Heat {{ingredients}} in a large, heavy soup pot over medium-low heat. Cook, stirring, until
+        the bacon is crisp, about 8 minutes.
     - id: onion
-      title: Soften onion and celery
-      text: 'Add {{ingredients}} and cook about 5 minutes without browning.'
+      title: Soften the onion
+      text: 'Add {{ingredients}} and cook until soft but not browned, about 5 minutes.'
     - id: peppers
-      title: 'Add peppers, garlic and corn'
-      text: >-
-        Add {{ingredients}} and all the roasted corn. Cook another 5 minutes over low heat, stirring
-        without letting the garlic burn.
+      title: Add the peppers
+      text: 'Add {{ingredients}} and the roasted corn. Cook over low heat, stirring, for 5 minutes.'
     - id: flour
-      title: Cook the flour gently
+      title: Cook the flour
       text: >-
-        Stir in {{ingredients}} and cook 6–8 minutes over low heat, stirring so the flour coats the
-        vegetables and does not stick or scorch.
+        Stir in {{ingredients}} and cook over low heat, stirring, until it coats the vegetables and
+        smells toasty, 6 to 8 minutes.
     - id: simmer
-      title: Simmer the creamy base
+      title: Simmer the chowder
       text: >-
-        Use {{ingredients}}. Stir in the stock gradually to disperse the flour, then add all the
-        cream, potatoes and salt. Bring to a gentle simmer and cook about 20 minutes, stirring the
-        bottom, until the potatoes are fork-tender. Avoid a hard boil or stuck roux; use a pot with
-        ample working headroom.
+        Gradually stir in {{ingredients}}, adding the stock first so the flour does not lump. Bring
+        to a gentle simmer and cook, stirring along the bottom, until the potatoes are tender, about
+        20 minutes.
     - id: shrimp
-      title: Drain and heat the shrimp
+      title: Cook the shrimp
       text: >-
-        Remove shrimp from the marinade and discard the liquid and lime rind. Add all shrimp with
-        {{ingredients}} to the gently simmering chowder. Start checking after 2–3 minutes and
-        continue until the shrimp are firm, pearly and opaque throughout, with thick centers
-        reaching 145°F / 63°C. Size and starting temperature change the cooking time; pink color
-        alone is not the endpoint. Taste and add more salt as needed, since stock and bacon vary in
-        saltiness.
+        Drain the shrimp and throw away the lime. Stir the shrimp into the simmering chowder with
+        {{ingredients}}. Cook until the shrimp are pink and opaque all the way through, 2 to 3
+        minutes. Taste and add more salt.
     - id: serve
-      title: Garnish with scallions
-      text: >-
-        Spoon the chowder into bowls and add {{ingredients}}. Serve promptly; all the cream, oil,
-        bacon and vegetables belong to this complete version.
+      title: Serve
+      text: 'Ladle into bowls and top with {{ingredients}}.'
 learning:
-  focus: Build a full roux-and-cream chowder before gently cooking lime-marinated shrimp.
-  outcome: >-
-    Creamy chowder with roasted corn, tender potatoes, peppers and bacon, finished with fully cooked
-    lime shrimp and scallions.
   techniques:
     - browning
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Use raw peeled and deveined shrimp, thawed under refrigeration if frozen. Keep them at 40°F /
-      4°C or below until cooking; lime contact is flavoring, not a cooking endpoint.
-    - >-
-      Prepare the vegetables before marinating. Limit lime marinating to no more than 1 hour under
-      refrigeration; at larger scales, start each portion close enough to cooking to stay within
-      that hour. Keep any waiting unmarinated shrimp refrigerated until its turn.
-    - >-
-      The listed oil is one total divided equally between roasting and the soup pot. Keep all the
-      flour, cream, bacon, peppers, celery and other vegetables for this complete version.
-    - >-
-      Use prepared, ready-to-use chicken stock within its own storage period; dilute concentrates
-      according to their label before measuring. Choose a pot with room above all liquids and
-      vegetables to stir and simmer, and enough sheet-pan area for an uncrowded corn layer.
-  checkpoints:
-    - step: 2
-      cue: Corn is fragrant and lightly colored without blackening.
-      why: >-
-        An uncrowded layer lets moisture escape; the short source roasting time is a guide for
-        checking, not a requirement to char the kernels.
-    - step: 6
-      cue: Flour coats the vegetables and cooks gently without sticking.
-      why: The full flour thickens the cream-and-stock base; excess heat can scorch the roux.
-    - step: 7
-      cue: A fork passes easily through the potatoes and the bottom remains clear.
-      why: 'Cook the potatoes before adding shrimp, then give the shrimp only the time they need.'
-    - step: 8
-      cue: 'Shrimp are firm, pearly and opaque throughout, with thick centers at 145°F / 63°C.'
-      why: Heat cooks the raw shrimp. Lime contact and pink color alone do not establish this endpoint.
-  troubleshooting:
-    - problem: Potatoes are firm when the shrimp are ready.
-      cause: Shrimp were added before potatoes softened.
-      fix: >-
-        Finish potatoes first. If it already happened, remove the cooked shrimp, simmer the base
-        until tender and return them only briefly for serving.
-    - problem: Shrimp become rubbery.
-      cause: The cooked shrimp remained boiling while the base finished.
-      fix: >-
-        Add raw shrimp only at the end, check their centers and stop when cooked. Longer cooking
-        cannot undo rubbery texture.
-    - problem: The base sticks or tastes scorched.
-      cause: 'Heat was too high, especially with the flour/cream version.'
-      fix: Use a gentle simmer and stir the pot bottom. Blackened flavors cannot be blended away.
-  substitutions:
-    - ingredient: Fresh corn kernels
-      alternative: 'The same listed measured volume of thawed, drained frozen kernels'
-      effect: >-
-        Keep the full corn amount and dry the kernels before roasting. The source excludes canned
-        corn.
-  timing: >-
-    Plan about 75–120 minutes elapsed and 45–60 minutes active work, starting with thawed shrimp.
-    Begin roasting and the pot stages during the refrigerated marinating period, and start the
-    shrimp close enough to their cooking stage to stay within 1 hour. Pot heat-up, potato size and
-    extra roasting or pot batches can extend the plan. Ingredient amounts scale together; vessel
-    capacity, heat and cook times do not multiply.
   storage: >-
-    Divide leftover chowder into shallow containers and refrigerate at 40°F / 4°C or below within 2
-    hours, or 1 hour above 90°F / 32°C. Use within 3–4 days or freeze for longer storage, allowing
-    for changes in cream and potato texture. Thaw in the refrigerator. Reheat leftovers to 165°F /
-    74°C throughout, stirring; bring leftover soup to a rolling boil, then reduce the heat or serve
-    promptly rather than holding the shrimp at a hard boil. Keep waiting raw shrimp refrigerated and
-    separate raw-contact utensils from finished chowder. Lime marinade is flavoring, not a
-    replacement for cooking or cold storage. Follow any earlier storage deadline from the prepared
-    stock; cooking or reheating does not restart that clock.
-  sources:
-    - title: 'Robert Irvine — Roasted Corn Chowder with Lime Cured Shrimp, Food Network'
-      url: >-
-        https://www.foodnetwork.com/recipes/robert-irvine/roasted-corn-chowder-with-lime-cured-shrimp-recipe-1947204
-    - title: FDA — Selecting and Serving Fresh and Frozen Seafood Safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: USDA FSIS — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 3 days in the fridge. Reheat gently over low heat without boiling, so the shrimp stay
+    tender.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
+pairingNotes:
+  garlic-bread: 'Warm, crusty bread for a creamy chowder.'
+  everyday-arugula-salad: Peppery greens and lemon cut the cream.
 ---
 
 ## Chef's Note
 
-Robert Irvine’s corn chowder cooks bacon, celery, peppers and roasted corn into a full flour-and-cream base. The oil is divided between roasting and the pot. Keep lime-marinated shrimp cold, add them only after the potatoes are tender, and heat them completely before finishing with scallions and oyster crackers.
+Robert Irvine roasts the corn before it goes into this chowder, which deepens its sweetness. Bacon, two kinds of pepper and a cream base make it hearty, and the lime-marinated shrimp go in at the very end so they stay tender. Pass oyster crackers at the table.
 
 ## Directions
 
-1. **Chill the lime-marinated shrimp:** Use lime and raw baby shrimp: squeeze the lime over the raw shrimp, add the squeezed rind, stir, cover and refrigerate at 40°F / 4°C or below while preparing the chowder, for no longer than 1 hour. At large scales, start marinating close enough to the shrimp-cooking stage to keep within that hour; keep all waiting raw shrimp refrigerated.
-2. **Roast the corn with half the oil:** Preheat the oven to 375°F / 190°C. Coat corn kernels and 1/2 of the vegetable oil on a rimmed baking sheet and spread in an uncrowded layer, using two sheets if one is crowded. Roast about 10–15 minutes, stirring once, until fragrant and lightly colored; do not require blackening. Keep the remaining half of the listed oil for the pot.
-3. **Cook the bacon with the remaining oil:** Heat 1/2 of the vegetable oil and raw bacon in a heavy-bottomed soup pot over low heat until the bacon is crisp, stirring. Keep all the bacon and fat in the pot.
-4. **Soften onion and celery:** Add red onion and celery and cook about 5 minutes without browning.
-5. **Add peppers, garlic and corn:** Add green bell pepper, red bell pepper, and garlic cloves and all the roasted corn. Cook another 5 minutes over low heat, stirring without letting the garlic burn.
-6. **Cook the flour gently:** Stir in all-purpose flour and cook 6–8 minutes over low heat, stirring so the flour coats the vegetables and does not stick or scorch.
-7. **Simmer the creamy base:** Use heavy cream, chicken stock, Red Bliss potatoes, and kosher salt. Stir in the stock gradually to disperse the flour, then add all the cream, potatoes and salt. Bring to a gentle simmer and cook about 20 minutes, stirring the bottom, until the potatoes are fork-tender. Avoid a hard boil or stuck roux; use a pot with ample working headroom.
-8. **Drain and heat the shrimp:** Remove shrimp from the marinade and discard the liquid and lime rind. Add all shrimp with fresh lime juice, fresh parsley leaves, cayenne pepper, and additional kosher salt to the gently simmering chowder. Start checking after 2–3 minutes and continue until the shrimp are firm, pearly and opaque throughout, with thick centers reaching 145°F / 63°C. Size and starting temperature change the cooking time; pink color alone is not the endpoint. Taste and add more salt as needed, since stock and bacon vary in saltiness.
-9. **Garnish with scallions:** Spoon the chowder into bowls and add bunch of scallions and oyster crackers. Serve promptly; all the cream, oil, bacon and vegetables belong to this complete version.
-
-## Cooking Notes
-
-This recipe uses Robert Irvine’s full roux-and-cream formula. The [bacon-and-paprika chowder](/mise/recipes/roasted-corn-chowder-with-lime-cured-shrimp) has a different corn, cream and oil balance. Choose either complete recipe rather than combining their quantities.
+1. **Marinate the shrimp:** Put small raw shrimp and lime in a bowl, squeezing the lime over the shrimp and dropping in the rind. Cover and refrigerate while you make the chowder, up to 1 hour.
+2. **Roast the corn:** Heat the oven to 375°F. Toss corn kernels and 1/2 of the vegetable oil on a rimmed baking sheet and spread in one layer. Roast, stirring once, until fragrant and lightly browned, 10 to 15 minutes.
+3. **Crisp the bacon:** Heat 1/2 of the vegetable oil and bacon in a large, heavy soup pot over medium-low heat. Cook, stirring, until the bacon is crisp, about 8 minutes.
+4. **Soften the onion:** Add red onion and celery and cook until soft but not browned, about 5 minutes.
+5. **Add the peppers:** Add green bell pepper, red bell pepper, and garlic cloves and the roasted corn. Cook over low heat, stirring, for 5 minutes.
+6. **Cook the flour:** Stir in all-purpose flour and cook over low heat, stirring, until it coats the vegetables and smells toasty, 6 to 8 minutes.
+7. **Simmer the chowder:** Gradually stir in chicken stock, heavy cream, Red Bliss potatoes, and kosher salt, adding the stock first so the flour does not lump. Bring to a gentle simmer and cook, stirring along the bottom, until the potatoes are tender, about 20 minutes.
+8. **Cook the shrimp:** Drain the shrimp and throw away the lime. Stir the shrimp into the simmering chowder with fresh lime juice, fresh parsley, and cayenne pepper. Cook until the shrimp are pink and opaque all the way through, 2 to 3 minutes. Taste and add more salt.
+9. **Serve:** Ladle into bowls and top with scallions and oyster crackers.

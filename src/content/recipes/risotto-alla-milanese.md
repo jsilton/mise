@@ -13,88 +13,37 @@ seasons:
   - winter
 nutritionalDensity: hearty
 learning:
-  focus: Control the broth additions and finishing butter to produce risotto all’onda.
-  outcome: >-
-    Separate tender grains suspended in a flowing saffron cream, with marrow and grana enriching the
-    finish.
   techniques:
     - starch
     - emulsions
     - seasoning
-  before:
-    - >-
-      Start with prepared, ready-to-use meat broth within its own storage period; this schedule does
-      not include making it.
-    - >-
-      For the original six portions, divide the butter into 20 g for the onion and 40 g for the
-      finish, keeping the finishing butter cold. At another batch size, use one-third and two-thirds
-      of the listed butter. The marrow adds its own fat to the onion.
-    - Keep the broth hot and the serving bowls ready.
-  checkpoints:
-    - step: 2
-      cue: 'The onion is soft and lightly golden, with no dark flecks.'
-      why: Gentle heat develops sweetness while protecting the saffron risotto from scorched flavors.
-    - step: 4
-      cue: A tasted grain has a slight bite but no hard or chalky center.
-      why: Rice variety and heat change the time; the grain determines when cooking is complete.
-    - step: 5
-      cue: Shaking the pan makes a soft wave rather than a stiff mound.
-      why: 'The final broth, starch, butter and cheese need enough liquid to stay creamy on the plate.'
-  troubleshooting:
-    - problem: The finished risotto stands in a dry mound.
-      cause: Too much liquid evaporated or the cheese tightened the finish.
-      fix: 'Fold in a little reserved hot broth until the rice flows again, then serve promptly.'
-    - problem: The broth is running short before the rice is tender.
-      cause: An unusually wide pan or vigorous heat increased evaporation.
-      fix: >-
-        Reduce the heat and continue with small additions of boiling water if the broth supply is
-        exhausted; keep tasting the rice and adjust the salt at the end.
   substitutions:
     - ingredient: Beef marrow
-      alternative: 'The same 30 g of extra butter, added with the onion'
-      effect: >-
-        The risotto stays rich and glossy but loses the marrow’s deep, savory beefiness. A good,
-        well-flavored broth matters more on this route.
+      alternative: Butter
+      effect: 'Use the same weight with the onion. The risotto stays rich but loses its deep, beefy note.'
     - ingredient: Carnaroli rice
-      alternative: 'Arborio or Vialone Nano, in the same listed quantity'
-      effect: >-
-        Both are alternatives in the Academy recipe. Their absorption and cooking time differ, so
-        use the grain and all’onda cues.
+      alternative: Arborio rice
+      effect: 'Easier to find. It turns creamy a little sooner, so start tasting early.'
+    - ingredient: Meat broth
+      alternative: Low-sodium store-bought beef or chicken broth
+      effect: 'Lighter in body. Taste before salting, since the broth reduces.'
+    - ingredient: Grana Padano
+      alternative: Parmigiano-Reggiano
+      effect: A little sharper and nuttier.
   storage: >-
-    Refrigerate in shallow containers within 2 hours, or within 1 hour above 90°F, and keep at 40°F
-    or colder. Use within 3–4 days of the first cooking; reheating does not restart that clock.
-    Reheat to 165°F throughout. Count any earlier refrigerator storage of the prepared broth within
-    that limit. The texture is best immediately after cooking. Loosen refrigerated risotto with a
-    little water or broth while reheating; it will be softer than the fresh dish. Start with broth
-    that is within its own safe storage period; refrigerated beef broth should be used within 1–2
-    days, or frozen for longer keeping. Count its earlier refrigerator time and follow the earliest
-    applicable storage deadline.
-  timing: >-
-    Allow roughly 10–15 minutes to prepare and heat the broth and 25–35 minutes at the stove. The
-    Academy gives about 15 minutes for the rice, depending on variety; begin checking there and
-    continue to the grain cue. Ingredient amounts scale proportionally, including the butter split,
-    but pan width, broth evaporation and cooking time do not scale linearly. For a very large batch,
-    cook in separate manageable pans.
-  sources:
-    - title: 'Accademia Italiana della Cucina: Risotto alla Milanese'
-      url: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/risotto-alla-milanese'
-    - title: 'USDA: Leftovers and Food Safety'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: 'USDA: Beef from Farm to Table'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table
+    Best eaten right away. Leftovers keep 3 days in the fridge. Reheat gently with a splash of
+    broth.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 title: Risotto alla Milanese
 origin: Lombardy
 description: 'Saffron risotto with beef marrow, butter and grana, finished loose and creamy all’onda.'
-source: Accademia Italiana della Cucina — Risotto alla Milanese (Lombardia)
+source: Adapted from the Accademia Italiana della Cucina
 sourceUrl: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/risotto-alla-milanese'
-prepTime: 10–15 minutes
-cookTime: 25–35 minutes
-totalTime: '35–50 minutes, starting with prepared broth'
+prepTime: 15 min
+cookTime: 30 min
+totalTime: 45 min
 cookingMethods:
   - saute
   - simmer
@@ -112,6 +61,7 @@ equipment:
   - wooden-spoon
 pairsWith:
   - shaved-fennel-citrus-salad
+  - roasted-broccolini-with-lemon
 formula:
   version: 1
   yield:
@@ -121,37 +71,6 @@ formula:
     - id: risotto
       name: Risotto
       ingredients:
-        - id: carnaroli-rice
-          key: carnaroli-rice
-          name: Carnaroli rice
-          quantity:
-            amount: 500
-            unit: g
-          uses:
-            - step: toast
-              share: 1
-        - id: butter
-          key: butter
-          name: butter
-          quantity:
-            amount: 60
-            unit: g
-          preparation: keep the finishing share cold and cut into small cubes
-          uses:
-            - step: sweat
-              share: 1/3
-            - step: finish
-              share: 2/3
-        - id: beef-marrow
-          key: beef-marrow
-          name: beef marrow
-          quantity:
-            amount: 30
-            unit: g
-          preparation: removed from the bone and finely chopped
-          uses:
-            - step: sweat
-              share: 1
         - id: small-onion
           key: small-onion
           name: small onion
@@ -163,109 +82,149 @@ formula:
           uses:
             - step: sweat
               share: 1
+        - id: butter
+          key: butter
+          name: butter
+          quantity:
+            amount: 1 1/2
+            unit: tbsp
+          uses:
+            - step: sweat
+              share: 1
+          equivalents:
+            - amount: 20
+              unit: g
+        - id: beef-marrow
+          key: beef-marrow
+          name: beef marrow
+          quantity:
+            amount: 1
+            unit: oz
+          preparation: finely chopped
+          uses:
+            - step: sweat
+              share: 1
+          equivalents:
+            - amount: 30
+              unit: g
+        - id: carnaroli-rice
+          key: carnaroli-rice
+          name: Carnaroli rice
+          quantity:
+            amount: 2 1/2
+            unit: cup
+          uses:
+            - step: toast
+              share: 1
+          equivalents:
+            - amount: 500
+              unit: g
         - id: concentrated-meat-broth
           key: concentrated-meat-broth
-          name: concentrated meat broth
+          name: meat broth
           quantity:
-            amount: 2
-            unit: l
-          preparation: 'prepared and ready to use; preferably lightly salted, kept hot for gradual additions'
+            amount: 8
+            unit: cup
           uses:
-            - step: cook
+            - step: prepare
               share: 1
-        - id: boiling-water
-          key: boiling-water
-          name: boiling water
-          allowance: only if needed when the listed broth runs out before the rice is tender
-          role: cooking-water
-          uses:
-            - step: cook
-              share: 1
+          equivalents:
+            - amount: 2
+              unit: l
         - id: saffron-threads
           key: saffron-threads
           name: saffron threads
-          allowance: 'a small tuft for the original six-portion batch, adjusted to taste for another batch'
           uses:
-            - step: cook
+            - step: soak
               share: 1
-        - id: grana-cheese
-          key: grana-cheese
-          name: grated grana cheese
-          allowance: to taste
+          quantity:
+            amount: 1/2
+            unit: tsp
+        - id: finish-butter
+          key: butter
+          name: cold butter
+          quantity:
+            amount: 3
+            unit: tbsp
+          equivalents:
+            - amount: 40
+              unit: g
+          preparation: cut into small cubes
           uses:
             - step: finish
               share: 1
+        - id: grana-cheese
+          key: grana-cheese
+          name: Grana Padano
+          uses:
+            - step: finish
+              share: 1
+          quantity:
+            amount: 3/4
+            unit: cup
+          preparation: 'grated, plus more for serving'
         - id: salt
           key: salt
-          name: salt
+          name: kosher salt
           allowance: to taste
           uses:
             - step: finish
               share: 1
   steps:
     - id: prepare
-      title: Prepare the broth and saffron
-      text: >-
-        Heat the {{name:risotto.concentrated-meat-broth}} in a separate saucepan and keep it boiling
-        gently. Soak the {{name:risotto.saffron-threads}} in a small ladleful taken from that broth.
-        Have everything ready before the rice goes into the pan.
+      title: Heat the broth
+      text: 'Bring {{ingredients}} to a simmer in a saucepan and keep it hot over low heat.'
+    - id: soak
+      title: Soak the saffron
+      text: 'Put {{ingredients}} in a cup with a small ladleful of the hot broth and let them soak.'
     - id: sweat
-      title: Cook the onion and marrow
+      title: Cook the onion
       text: >-
-        Put {{ingredients}} in a wide, heavy pan over low heat. Cook gently until the onion is
-        softened and lightly golden, stirring so it does not burn. Use a pan with room for the rice
-        to expand and move freely as you stir.
+        Put {{ingredients}} in a wide, heavy pan over low heat. Cook gently, stirring, until the
+        onion is soft and pale gold, about 8 minutes.
     - id: toast
       title: Coat the rice
       text: >-
-        Add {{ingredients}} and stir until the grains are evenly coated with the butter and marrow
-        and have absorbed their flavor, about 1–2 minutes.
+        Add {{ingredients}} and turn the heat to medium. Stir until every grain is coated and hot, 1
+        to 2 minutes.
     - id: cook
-      title: Cook the rice gradually
+      title: Add the broth
       text: >-
-        Have {{ingredients}} ready beside the pan. Raise the heat to maintain a lively but
-        controlled simmer and add the hot broth a ladleful at a time, stirring regularly with a
-        wooden spoon. Add another ladle when the previous addition has mostly absorbed, keeping the
-        rice loose rather than allowing it to dry against the pan. About two-thirds of the way
-        through cooking, stir in the saffron and its soaking broth. Begin tasting at about 15
-        minutes; continue adding broth until the grains are tender with a slight bite and no hard,
-        chalky core. Depending on the rice, allow roughly 15–20 minutes or longer. Use only as much
-        of the listed broth as the rice needs; keep some for adjusting the finish. If the broth runs
-        out before the rice is tender, continue with small additions of boiling water and reduce
-        overly vigorous heat.
+        Add the hot broth a ladleful at a time, stirring often at a lively simmer. Add the next
+        ladle when the last is nearly absorbed. After 10 minutes, stir in the saffron and its
+        liquid. Keep going until the rice is tender with a slight bite, 15 to 20 minutes in all. If
+        the broth runs out, use hot water.
     - id: finish
-      title: Mantecare and serve
+      title: Beat in the butter
       text: >-
-        Take the pan off the heat. Stir in {{ingredients}}, beating in the cold butter cubes
-        vigorously and adding the cheese and salt to taste. Work the risotto for a minute or two
-        until glossy and creamy. Loosen it with some of the reserved hot broth as needed: when the
-        pan is shaken, the rice should flow in a soft wave, all’onda, with distinct grains. Serve
-        immediately.
+        Take the pan off the heat. Add {{ingredients}} and beat hard with a wooden spoon until
+        glossy and creamy, 1 to 2 minutes. Add a splash of hot broth if needed, so the risotto flows
+        in a soft wave when you shake the pan. Serve right away with more cheese.
 ingredients:
-  - 500 g Carnaroli rice
-  - '60 g butter, keep the finishing share cold and cut into small cubes'
-  - '30 g beef marrow, removed from the bone and finely chopped'
   - '1 small onion, finely chopped'
-  - >-
-    2 L concentrated meat broth, prepared and ready to use; preferably lightly salted, kept hot for
-    gradual additions
-  - 'boiling water, only if needed when the listed broth runs out before the rice is tender'
-  - >-
-    saffron threads, a small tuft for the original six-portion batch, adjusted to taste for another
-    batch
-  - 'grated grana cheese, to taste'
-  - 'salt, to taste'
+  - 1 1/2 tbsp (20 g) butter
+  - '1 oz (30 g) beef marrow, finely chopped'
+  - 2 1/2 cups (500 g) Carnaroli rice
+  - 8 cups (2 L) meat broth
+  - 1/2 tsp saffron threads
+  - '3 tbsp (40 g) cold butter, cut into small cubes'
+  - '3/4 cup Grana Padano, grated, plus more for serving'
+  - 'kosher salt, to taste'
 servings: 6 portions
+pairingNotes:
+  shaved-fennel-citrus-salad: 'Crisp and bright after rich, buttery rice.'
+  roasted-broccolini-with-lemon: A lemony green vegetable to round out the plate.
 ---
 
 ## Chef's Note
 
-Beef marrow, saffron and the full butter allocation give this Milanese risotto its character. The final texture matters as much as the flavor: leave it loose enough to flow when you shake the pan, and serve straight away. This uses the Accademia’s marrow-based formula, without adding wine.
+Milan's golden risotto, the classic partner to osso buco. Beef marrow cooked with the onion gives it a deep, savory richness, and saffron brings the color and perfume. Beat in cold butter and cheese off the heat and serve it loose enough to flow across the plate, all’onda.
 
 ## Directions
 
-1. **Prepare the broth and saffron:** Heat the concentrated meat broth in a separate saucepan and keep it boiling gently. Soak the saffron threads in a small ladleful taken from that broth. Have everything ready before the rice goes into the pan.
-2. **Cook the onion and marrow:** Put 1/3 of the butter, beef marrow, and small onion in a wide, heavy pan over low heat. Cook gently until the onion is softened and lightly golden, stirring so it does not burn. Use a pan with room for the rice to expand and move freely as you stir.
-3. **Coat the rice:** Add Carnaroli rice and stir until the grains are evenly coated with the butter and marrow and have absorbed their flavor, about 1–2 minutes.
-4. **Cook the rice gradually:** Have concentrated meat broth, boiling water, and saffron threads ready beside the pan. Raise the heat to maintain a lively but controlled simmer and add the hot broth a ladleful at a time, stirring regularly with a wooden spoon. Add another ladle when the previous addition has mostly absorbed, keeping the rice loose rather than allowing it to dry against the pan. About two-thirds of the way through cooking, stir in the saffron and its soaking broth. Begin tasting at about 15 minutes; continue adding broth until the grains are tender with a slight bite and no hard, chalky core. Depending on the rice, allow roughly 15–20 minutes or longer. Use only as much of the listed broth as the rice needs; keep some for adjusting the finish. If the broth runs out before the rice is tender, continue with small additions of boiling water and reduce overly vigorous heat.
-5. **Mantecare and serve:** Take the pan off the heat. Stir in 2/3 of the butter, grated grana cheese, and salt, beating in the cold butter cubes vigorously and adding the cheese and salt to taste. Work the risotto for a minute or two until glossy and creamy. Loosen it with some of the reserved hot broth as needed: when the pan is shaken, the rice should flow in a soft wave, all’onda, with distinct grains. Serve immediately.
+1. **Heat the broth:** Bring meat broth to a simmer in a saucepan and keep it hot over low heat.
+2. **Soak the saffron:** Put saffron threads in a cup with a small ladleful of the hot broth and let them soak.
+3. **Cook the onion:** Put small onion, butter, and beef marrow in a wide, heavy pan over low heat. Cook gently, stirring, until the onion is soft and pale gold, about 8 minutes.
+4. **Coat the rice:** Add Carnaroli rice and turn the heat to medium. Stir until every grain is coated and hot, 1 to 2 minutes.
+5. **Add the broth:** Add the hot broth a ladleful at a time, stirring often at a lively simmer. Add the next ladle when the last is nearly absorbed. After 10 minutes, stir in the saffron and its liquid. Keep going until the rice is tender with a slight bite, 15 to 20 minutes in all. If the broth runs out, use hot water.
+6. **Beat in the butter:** Take the pan off the heat. Add cold butter, Grana Padano, and kosher salt and beat hard with a wooden spoon until glossy and creamy, 1 to 2 minutes. Add a splash of hot broth if needed, so the risotto flows in a soft wave when you shake the pan. Serve right away with more cheese.

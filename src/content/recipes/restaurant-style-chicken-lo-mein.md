@@ -6,38 +6,34 @@ vibe: quick
 difficulty: easy
 prepTime: 20 min
 cookTime: 15 min
-totalTime: About 35 min with ready-to-stir-fry noodles; extra for raw-noodle preparation or pan loads
+totalTime: 35 min
 servings: 6 portions
 cookingMethods:
   - stir-fry
 categories:
   - Chinese
   - Dinner
-source: thewoksoflife.com
+source: Adapted from The Woks of Life
 ingredients:
-  - '--- Chicken coating and sear ---'
-  - '8 oz (225 g) boneless skinless chicken thighs, raw, fully thawed if frozen, cut into thin strips'
+  - '--- Chicken ---'
+  - '8 oz (225 g) boneless skinless chicken thighs, cut into thin strips'
   - 2 tsp cornstarch
-  - 2 tsp water for the chicken coating
-  - 2 tsp oil for the chicken coating
-  - 2 tbsp oil for searing the chicken
-  - '--- Noodles, vegetables and sauce ---'
-  - '16 oz (450 g) fresh lo mein egg noodles, check whether raw or already cooked'
-  - 'noodle-preparation water, as needed for the package cooking or hot rinse'
-  - 2 tbsp oil for the vegetables
+  - 2 tsp water
+  - '2 tsp vegetable oil, for the chicken'
+  - '2 tbsp vegetable oil, for searing'
+  - '--- Noodles and vegetables ---'
+  - 1 lb (450 g) fresh lo mein egg noodles
+  - '2 tbsp vegetable oil, for the vegetables'
   - '1 garlic clove, minced'
   - '4 cups cabbage, shredded'
   - '2 medium carrots, julienned'
-  - 1 tbsp Shaoxing wine or dry sherry cooking wine
-  - >-
-    1/4 cup water for loosening noodles, about this much if noodles do not separate; add gradually,
-    optional
+  - 1 tbsp Shaoxing wine
   - 1 tbsp soy sauce
   - 4 tsp dark soy sauce
   - 1 tsp sesame oil
   - 1/8 tsp salt
   - 1/8 tsp sugar
-  - '2 cups mung bean sprouts, washed and drained'
+  - '2 cups mung bean sprouts, rinsed and drained'
   - '2 scallions, julienned'
 sourceUrl: 'https://thewoksoflife.com/chicken-lo-mein/'
 cuisines:
@@ -49,7 +45,7 @@ formula:
     unit: portion
   components:
     - id: chicken
-      name: Chicken coating and sear
+      name: Chicken
       ingredients:
         - id: chicken
           key: chicken-thighs
@@ -63,7 +59,7 @@ formula:
           equivalents:
             - amount: 225
               unit: g
-          preparation: 'raw, fully thawed if frozen, cut into thin strips'
+          preparation: cut into thin strips
         - id: starch
           key: cornstarch
           name: cornstarch
@@ -75,7 +71,7 @@ formula:
               share: 1
         - id: water
           key: water
-          name: water for the chicken coating
+          name: water
           quantity:
             amount: 2
             unit: tsp
@@ -85,55 +81,49 @@ formula:
           role: cooking-water
         - id: coating-oil
           key: oil
-          name: oil for the chicken coating
+          name: vegetable oil
           quantity:
             amount: 2
             unit: tsp
           uses:
             - step: coat
               share: 1
+          preparation: for the chicken
         - id: sear-oil
           key: oil
-          name: oil for searing the chicken
+          name: vegetable oil
           quantity:
             amount: 2
             unit: tbsp
           uses:
             - step: sear
               share: 1
+          preparation: for searing
     - id: noodles
-      name: 'Noodles, vegetables and sauce'
+      name: Noodles and vegetables
       ingredients:
         - id: noodles
           key: fresh-lo-mein-egg-noodles
           name: fresh lo mein egg noodles
           quantity:
-            amount: 16
-            unit: oz
+            amount: 1
+            unit: lb
           uses:
             - step: noodles
               share: 1
           equivalents:
             - amount: 450
               unit: g
-          preparation: check whether raw or already cooked
-        - id: prep-water
-          key: water
-          name: noodle-preparation water
-          allowance: as needed for the package cooking or hot rinse
-          uses:
-            - step: noodles
-              share: 1
-          role: cooking-water
         - id: veg-oil
           key: oil
-          name: oil for the vegetables
+          name: vegetable oil
           quantity:
             amount: 2
             unit: tbsp
           uses:
             - step: vegetables
               share: 1
+          preparation: for the vegetables
         - id: garlic
           key: garlic
           name: garlic clove
@@ -152,7 +142,7 @@ formula:
             amount: 4
             unit: cup
           uses:
-            - step: vegetables
+            - step: veg2
               share: 1
           preparation: shredded
         - id: carrot
@@ -162,31 +152,19 @@ formula:
             amount: 2
             unit: count
           uses:
-            - step: vegetables
+            - step: veg2
               share: 1
           plural: medium carrots
           preparation: julienned
         - id: wine
           key: shaoxing-wine-or-dry-sherry
-          name: Shaoxing wine or dry sherry cooking wine
+          name: Shaoxing wine
           quantity:
             amount: 1
             unit: tbsp
           uses:
-            - step: wine
-              share: 1
-        - id: loosening-water
-          key: water
-          name: water for loosening noodles
-          quantity:
-            amount: 1/4
-            unit: cup
-          uses:
             - step: toss
               share: 1
-          optional: true
-          preparation: about this much if noodles do not separate; add gradually
-          role: cooking-water
         - id: soy
           key: soy-sauce
           name: soy sauce
@@ -241,7 +219,7 @@ formula:
           uses:
             - step: finish
               share: 1
-          preparation: washed and drained
+          preparation: rinsed and drained
         - id: scallion
           key: scallion
           name: scallion
@@ -254,138 +232,78 @@ formula:
           plural: scallions
           preparation: julienned
   steps:
-    - id: noodles
-      title: Prepare the noodles
-      text: >-
-        Prepare {{ingredients}} according to the product’s state. If the fresh noodles are raw, boil
-        according to the package until al dente, rinse briefly with warm water and drain thoroughly.
-        If already cooked, use a brief hot-water rinse to loosen them, then drain thoroughly. Set
-        beside the stove.
     - id: coat
       title: Coat the chicken
       text: >-
-        Combine {{ingredients}} in a bowl. Have the vegetables cut and all the seasonings measured
-        before heating the wok; keep raw chicken separate from ready-to-eat food.
+        Toss {{ingredients}} in a bowl until the chicken is evenly coated. Let it sit while you cook
+        the noodles.
+    - id: noodles
+      title: Boil the noodles
+      text: >-
+        Bring a large pot of water to a boil. Cook {{ingredients}} until just al dente, 2 to 3
+        minutes. Rinse briefly under warm water and drain well.
     - id: sear
-      title: Cook the chicken
+      title: Sear the chicken
       text: >-
-        Heat {{ingredients}} in a wok over high heat. Spread the coated chicken in a single layer
-        and cook, turning as needed, until browned and the thickest strips reach 165°F / 74°C;
-        insert a thin-tip thermometer from the side. Transfer to a clean plate. Use extra loads if
-        needed and divide the measured searing oil among them; the final toss is brief.
+        Heat {{ingredients}} in a wok over high heat until shimmering. Spread the chicken in one
+        layer and sear, turning once, until browned and cooked through, about 3 minutes. Move it to
+        a plate.
     - id: vegetables
+      title: Cook the garlic
+      text: 'Add {{ingredients}} to the hot wok and stir until fragrant, about 10 seconds.'
+    - id: veg2
       title: Stir-fry the vegetables
-      text: >-
-        Have {{ingredients}} ready. Heat the oil in the wok and add garlic; after about 10 seconds,
-        add cabbage and carrots. Stir-fry over high heat for about 1 minute, keeping everything
-        moving. Use manageable pan loads rather than piling vegetables above the heated cooking
-        surface.
-    - id: wine
-      title: Add the wine
-      text: 'Add {{ingredients}} around the perimeter of the wok and toss with the vegetables.'
+      text: 'Add {{ingredients}} and stir-fry over high heat until just wilted, about 1 minute.'
     - id: toss
-      title: Add noodles and chicken
+      title: Add the noodles
       text: >-
-        Return all the cooked chicken and add the prepared noodles. Lift and toss from the bottom
-        for about 30 seconds. Use {{ingredients}} only if needed to separate clumped noodles, adding
-        it gradually. Cover for about 1 minute, then uncover.
+        Pour {{ingredients}} around the edge of the wok. Add the noodles and chicken and toss from
+        the bottom for 30 seconds, adding a splash of water if the noodles clump. Cover for 1
+        minute.
     - id: sauce
-      title: Season
-      text: >-
-        Add {{ingredients}} and stir-fry for about 30 seconds until the noodles are evenly coated.
-        If the whole measured batch is too large to toss freely, finish in loads, dividing the
-        prepared chicken, noodles, vegetables and seasonings proportionally.
+      title: Season the noodles
+      text: 'Uncover and add {{ingredients}}. Toss until the noodles are evenly brown, about 30 seconds.'
     - id: finish
-      title: Finish
-      text: >-
-        Add {{ingredients}} and toss, starting to check at about 1 minute. Continue until the
-        sprouts are thoroughly cooked rather than lightly warmed, especially when serving children
-        or other diners vulnerable to foodborne illness. Check chicken for 165°F / 74°C before
-        serving. Divide among the portions and serve hot.
+      title: Finish and serve
+      text: 'Add {{ingredients}} and toss until the sprouts are just tender, 1 to 2 minutes. Serve hot.'
 learning:
-  focus: Prepare the right fresh noodle state before a fast lo mein toss
-  outcome: >-
-    Separate, evenly seasoned egg noodles with fully cooked chicken, cooked sprouts and vegetables
-    that retain some bite.
   techniques:
     - stir-frying
     - starch
     - temperature
-  before:
-    - >-
-      Fresh noodles may be raw or already cooked. Read the package before starting; the wok stage
-      cannot replace boiling raw noodles until al dente.
-    - >-
-      Measure the coating oil, chicken-searing oil and vegetable oil separately. The cooking oil is
-      additional to the oil coating the chicken.
-    - >-
-      The original batch lists six portions; appetites and accompanying dishes affect portion size.
-      Use a wok that lets you turn the noodles freely, or finish in loads and divide all ingredients
-      proportionally.
-  checkpoints:
-    - step: 1
-      cue: 'Noodles are al dente, loosened and thoroughly drained before entering the wok.'
-      why: >-
-        Raw noodles need their package cooking step, while excess rinse water dilutes the modest
-        sauce.
-    - step: 3
-      cue: The thickest chicken strips measure 165°F / 74°C before going to a clean plate.
-      why: >-
-        The covered noodle stage and final toss are short; browning alone does not establish cooked
-        chicken.
-    - step: 7
-      cue: Noodles separate when lifted and have an even brown coating without a puddle beneath them.
-      why: Lifting from the bottom distributes the soy-sesame seasoning without crushing the noodles.
-  troubleshooting:
-    - problem: Noodles clump together
-      cause: They were not loosened before frying or have dried into a tight mass.
-      fix: >-
-        Lift gently from the bottom and use the listed optional loosening water gradually. Do not
-        keep adding unmeasured liquid; loosen and drain the next noodle load before it enters the
-        wok.
-    - problem: The wok steams and is hard to toss
-      cause: The batch is too large or the noodles brought in excess water.
-      fix: >-
-        Finish in smaller loads with proportional shares of every ingredient. Keep the already
-        cooked chicken on its clean plate only while the remaining stages are completed.
-  storage: >-
-    Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F /
-    4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and
-    stirring for even heating. Noodles soften and sprouts lose crispness after storage; reheat only
-    the portion needed.
-  timing: >-
-    The approximately 35-minute plan uses noodles already prepared for stir-frying: about 20 minutes
-    of cutting and measuring, then about 15 minutes at the stove. Raw-noodle package cooking and
-    water heating require additional elapsed time if they do not fit within preparation. Extra
-    searing or finishing loads and thoroughly cooking sprouts can extend the stove time.
-  sources:
-    - title: The Woks of Life — Chicken lo mein
-      url: 'https://thewoksoflife.com/chicken-lo-mein/'
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — Selecting and serving produce safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  substitutions:
+    - ingredient: Fresh lo mein egg noodles
+      alternative: Dried lo mein noodles or spaghetti
+      effect: Boil until al dente by the package time. They are a little firmer and less springy.
+    - ingredient: Shaoxing wine
+      alternative: Dry sherry
+      effect: 'Close in flavor, a little sweeter and less savory.'
+    - ingredient: Dark soy sauce
+      alternative: Regular soy sauce plus a pinch of sugar
+      effect: Use half as much. The noodles come out paler and a little saltier.
+  storage: Keeps 3 days in the fridge. Reheat in a hot skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
+pairsWith:
+  - smashed-cucumber-salad
+  - steamed-bok-choy-with-oyster-sauce
+pairingNotes:
+  smashed-cucumber-salad: 'Cold, garlicky crunch beside hot noodles.'
+  steamed-bok-choy-with-oyster-sauce: A quick green vegetable for the table.
 ---
 
 ## Chef's Note
 
-Cornstarch lightly coats the sliced chicken while cabbage and carrots provide crunch. Loosen and drain the egg noodles before heating the wok, then lift them from the bottom to distribute the soy-sesame seasoning.
+This is the Cantonese takeout classic, made the way The Woks of Life makes it at home. A little cornstarch keeps the chicken silky, and dark soy sauce gives the noodles their deep brown color and gentle sweetness. Have everything cut and lined up before the wok gets hot, because the cooking takes only a few minutes.
 
 ## Directions
 
-1. **Prepare the noodles:** Prepare fresh lo mein egg noodles and noodle-preparation water according to the product’s state. If the fresh noodles are raw, boil according to the package until al dente, rinse briefly with warm water and drain thoroughly. If already cooked, use a brief hot-water rinse to loosen them, then drain thoroughly. Set beside the stove.
-2. **Coat the chicken:** Combine boneless skinless chicken thighs, cornstarch, water for the chicken coating, and oil for the chicken coating in a bowl. Have the vegetables cut and all the seasonings measured before heating the wok; keep raw chicken separate from ready-to-eat food.
-3. **Cook the chicken:** Heat oil for searing the chicken in a wok over high heat. Spread the coated chicken in a single layer and cook, turning as needed, until browned and the thickest strips reach 165°F / 74°C; insert a thin-tip thermometer from the side. Transfer to a clean plate. Use extra loads if needed and divide the measured searing oil among them; the final toss is brief.
-4. **Stir-fry the vegetables:** Have oil for the vegetables, garlic clove, cabbage, and medium carrots ready. Heat the oil in the wok and add garlic; after about 10 seconds, add cabbage and carrots. Stir-fry over high heat for about 1 minute, keeping everything moving. Use manageable pan loads rather than piling vegetables above the heated cooking surface.
-5. **Add the wine:** Add Shaoxing wine or dry sherry cooking wine around the perimeter of the wok and toss with the vegetables.
-6. **Add noodles and chicken:** Return all the cooked chicken and add the prepared noodles. Lift and toss from the bottom for about 30 seconds. Use water for loosening noodles (if using) only if needed to separate clumped noodles, adding it gradually. Cover for about 1 minute, then uncover.
-7. **Season:** Add soy sauce, dark soy sauce, sesame oil, salt, and sugar and stir-fry for about 30 seconds until the noodles are evenly coated. If the whole measured batch is too large to toss freely, finish in loads, dividing the prepared chicken, noodles, vegetables and seasonings proportionally.
-8. **Finish:** Add mung bean sprouts and scallions and toss, starting to check at about 1 minute. Continue until the sprouts are thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness. Check chicken for 165°F / 74°C before serving. Divide among the portions and serve hot.
+1. **Coat the chicken:** Toss boneless skinless chicken thighs, cornstarch, water, and vegetable oil in a bowl until the chicken is evenly coated. Let it sit while you cook the noodles.
+2. **Boil the noodles:** Bring a large pot of water to a boil. Cook fresh lo mein egg noodles until just al dente, 2 to 3 minutes. Rinse briefly under warm water and drain well.
+3. **Sear the chicken:** Heat vegetable oil in a wok over high heat until shimmering. Spread the chicken in one layer and sear, turning once, until browned and cooked through, about 3 minutes. Move it to a plate.
+4. **Cook the garlic:** Add vegetable oil and garlic clove to the hot wok and stir until fragrant, about 10 seconds.
+5. **Stir-fry the vegetables:** Add cabbage and medium carrots and stir-fry over high heat until just wilted, about 1 minute.
+6. **Add the noodles:** Pour Shaoxing wine around the edge of the wok. Add the noodles and chicken and toss from the bottom for 30 seconds, adding a splash of water if the noodles clump. Cover for 1 minute.
+7. **Season the noodles:** Uncover and add soy sauce, dark soy sauce, sesame oil, salt, and sugar. Toss until the noodles are evenly brown, about 30 seconds.
+8. **Finish and serve:** Add mung bean sprouts and scallions and toss until the sprouts are just tender, 1 to 2 minutes. Serve hot.

@@ -13,83 +13,41 @@ seasons:
   - winter
 nutritionalDensity: hearty
 learning:
-  focus: Build a thick soup from beans and bread without scorching it.
-  outcome: >-
-    Tender greens and whole beans in a creamy bread-thickened soup, finished with fragrant olive
-    oil.
   techniques:
     - starch
     - seasoning
     - temperature
-  before:
-    - >-
-      Start soaking the beans 12 hours before making the soup, then plan an overnight chill after
-      layering it with bread.
-    - >-
-      Use a large soup pot and a separate bean pot; the original batch contains more than a kilogram
-      of greens before they wilt.
-    - Choose plain bread made without milk or eggs if cooking for a vegan table.
-  checkpoints:
-    - step: 1
-      cue: >-
-        The beans have boiled vigorously for at least 30 minutes and are creamy all the way through
-        after simmering.
-      why: >-
-        Cannellini are white kidney beans; a full boil in fresh water addresses their lectin hazard,
-        and tenderness determines when they are ready to purée.
-    - step: 4
-      cue: The potato pieces yield easily to a knife and the bean purée thickens the liquid.
-      why: >-
-        Bread will absorb more liquid overnight, so the first-day soup must remain wet enough to
-        soak it.
-    - step: 6
-      cue: >-
-        The reheated soup reaches at least 165°F throughout and a full boil, then bubbles gently
-        without catching underneath.
-      why: Starchy soup heats unevenly and scorches readily; stirring distributes heat.
-  troubleshooting:
-    - problem: The soup catches on the bottom.
-      cause: 'Bean purée and bread make it thick, especially during reheating.'
-      fix: >-
-        Lower the heat, stir along the entire base and add a little water until it moves freely;
-        transfer to a clean pot if it has burned.
-    - problem: The beans are still chalky.
-      cause: Their age and storage affect the cooking time.
-      fix: >-
-        Continue simmering the beans, keeping them submerged, before making the soup; do not use the
-        clock alone.
+  substitutions:
+    - ingredient: Dried cannellini beans
+      alternative: Four 15-oz cans cannellini
+      effect: >-
+        Skip the soaking and bean cooking. Rinse the beans and use 4 cups water in place of the bean
+        liquid.
+    - ingredient: Cavolo nero
+      alternative: Curly kale
+      effect: Tougher and grassier. Strip the stems and cut it into thin strips.
+    - ingredient: Savoy cabbage
+      alternative: Green cabbage
+      effect: Firmer and a little sharper. Slice it thin.
+    - ingredient: Stale Tuscan bread
+      alternative: Day-old crusty Italian loaf
+      effect: 'Most loaves are salted, so season the soup more lightly before layering.'
   storage: >-
-    Refrigerate in shallow containers within 2 hours, or within 1 hour above 90°F, and keep at 40°F
-    or colder. Use within 3–4 days of the first cooking; reheating does not restart that clock.
-    Reheat to 165°F throughout. The required overnight chill is part of that storage period. Freeze
-    cooled portions for longer keeping; thaw in the refrigerator and reheat gently with a little
-    water.
-  timing: >-
-    Plan two preparation days: 12 hours to soak, roughly 2–3 hours for the beans and soup, an
-    overnight chill, and 10–20 minutes to heat the soup fully and bring it to a full boil before its
-    final 10-minute simmer. These are planning ranges. At another batch size, choose enough pot and
-    shallow-container capacity; soaking and cooling rules and tenderness cues stay the same.
-  sources:
-    - title: 'Accademia Italiana della Cucina: Ribollita'
-      url: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/ribollita'
-    - title: 'FDA Bad Bug Book: phytohaemagglutinin in kidney beans'
-      url: 'https://www.fda.gov/media/83271/download'
-    - title: 'USDA: Leftovers and Food Safety'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat slowly with a splash of water,
+    stirring along the bottom.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 title: Ribollita
 origin: Tuscany
 description: >-
   Tuscan bread and vegetable soup with cannellini, cavolo nero and olive oil, layered a day ahead
   and simmered again to serve.
-source: Accademia Italiana della Cucina — Ribollita (Toscana)
+source: Adapted from the Accademia Italiana della Cucina
 sourceUrl: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/ribollita'
-prepTime: 35–45 minutes
-cookTime: '2–3 hours, plus 20–30 minutes to reheat and simmer again'
-totalTime: 'About 28–40 hours, including soaking and overnight chilling'
+prepTime: 45 min
+cookTime: 3 hr 15 min
+totalTime: '4 hr, plus soaking and overnight chilling'
 cookingMethods:
   - boil
   - saute
@@ -128,18 +86,21 @@ formula:
           key: dried-cannellini-beans
           name: dried cannellini beans
           quantity:
-            amount: 400
-            unit: g
+            amount: 14
+            unit: oz
           uses:
-            - step: cook-beans
+            - step: soak
               share: 1
+          equivalents:
+            - amount: 400
+              unit: g
         - id: water
           key: water
           name: water
-          allowance: 'enough for soaking, then fresh water to keep the beans generously covered while cooking'
+          allowance: for soaking
           role: cooking-water
           uses:
-            - step: cook-beans
+            - step: soak
               share: 1
     - id: soup
       name: Soup
@@ -147,10 +108,12 @@ formula:
         - id: olive-oil
           key: olive-oil
           name: extra-virgin olive oil
-          allowance: enough to coat the bottom of the soup pot
           uses:
             - step: sweat
               share: 1
+          quantity:
+            amount: 1/4
+            unit: cup
         - id: onion
           key: onion
           name: onion
@@ -188,42 +151,54 @@ formula:
           key: tomato
           name: tomatoes
           quantity:
-            amount: 300
-            unit: g
+            amount: 10
+            unit: oz
           preparation: chopped
           uses:
             - step: vegetables
               share: 1
+          equivalents:
+            - amount: 300
+              unit: g
         - id: cavolo-nero
           key: cavolo-nero
-          name: cavolo nero (Tuscan kale)
+          name: cavolo nero
           quantity:
-            amount: 400
-            unit: g
-          preparation: 'tough stems removed, leaves cut into strips'
+            amount: 14
+            unit: oz
+          preparation: 'stems removed, leaves cut into strips'
           uses:
             - step: vegetables
               share: 1
+          equivalents:
+            - amount: 400
+              unit: g
         - id: savoy-cabbage
           key: savoy-cabbage
           name: savoy cabbage
           quantity:
-            amount: 500
-            unit: g
+            amount: 1
+            unit: lb
           preparation: cored and cut into strips
           uses:
             - step: vegetables
               share: 1
+          equivalents:
+            - amount: 500
+              unit: g
         - id: chard
           key: chard
-          name: chard
+          name: Swiss chard
           quantity:
-            amount: 200
-            unit: g
-          preparation: leaves sliced; tender stems chopped separately
+            amount: 7
+            unit: oz
+          preparation: 'leaves sliced, stems chopped'
           uses:
             - step: vegetables
               share: 1
+          equivalents:
+            - amount: 200
+              unit: g
         - id: potato
           key: potato
           name: potato
@@ -231,21 +206,13 @@ formula:
           quantity:
             amount: 2
             unit: count
-          preparation: 'peeled and cut into small, even pieces'
+          preparation: peeled and cut into 1/2-inch pieces
           uses:
             - step: vegetables
               share: 1
-        - id: hot-water
-          key: hot-water
-          name: hot water
-          allowance: as needed to keep the vegetables simmering in liquid
-          role: cooking-water
-          uses:
-            - step: simmer
-              share: 1
         - id: salt
           key: salt
-          name: salt
+          name: kosher salt
           allowance: to taste
           uses:
             - step: simmer
@@ -259,21 +226,24 @@ formula:
               share: 1
         - id: stale-bread
           key: stale-bread
-          name: stale plain bread
+          name: stale Tuscan bread
           quantity:
-            amount: 500
-            unit: g
-          preparation: sliced; traditionally Tuscan unsalted bread
+            amount: 1
+            unit: lb
+          preparation: sliced
           uses:
             - step: layer
               share: 1
+          equivalents:
+            - amount: 500
+              unit: g
     - id: finish
       name: To finish
       ingredients:
         - id: reheating-water
           key: reheating-water
           name: water
-          allowance: only as needed to loosen the chilled soup
+          allowance: as needed
           role: cooking-water
           uses:
             - step: reboil
@@ -281,89 +251,96 @@ formula:
         - id: olive-oil
           key: olive-oil
           name: extra-virgin olive oil
-          allowance: for drizzling over each bowl
+          allowance: for drizzling
           role: garnish
           uses:
-            - step: reboil
+            - step: serve
               share: 1
   steps:
+    - id: soak
+      title: Soak the beans
+      text: >-
+        The day before, put {{ingredients}} in a large bowl, with the water covering the beans by 3
+        inches. Soak 12 hours or overnight, then drain.
     - id: cook-beans
-      title: Soak and cook the beans
+      title: Cook the beans
       text: >-
-        Use {{ingredients}} to soak the beans for 12 hours in the refrigerator. Drain and discard
-        the soaking water. Put the beans in a separate pot with fresh water generously covering
-        them. Bring to a rolling boil for at least 30 minutes, then simmer until completely tender
-        and creamy inside, topping up with hot water to keep them submerged. Allow roughly 1–2 hours
-        of cooking in total; older beans can take longer. Keep the beans in their cooking liquid.
+        Put the beans in a pot and cover by 2 inches with fresh water. Boil hard for 10 minutes,
+        then lower the heat and simmer until creamy all the way through, 1 to 2 hours. Top up with
+        hot water to keep them covered. Keep them in their liquid.
     - id: sweat
-      title: Start the soup
+      title: Cook the soffritto
       text: >-
-        Put {{ingredients}} in a large, heavy soup pot over medium-low heat. Cook, stirring, until
-        the vegetables soften without darkening, about 10–15 minutes.
+        Warm {{ingredients}} in a large, heavy soup pot over medium-low heat. Cook, stirring, until
+        soft but not browned, 10 to 15 minutes.
     - id: vegetables
-      title: Add the vegetables
+      title: Wilt the greens
       text: >-
-        Add {{ingredients}}, putting the chard stems in before the leaves. Stir the greens in by
-        handfuls as they wilt. Use a pot that can hold all the vegetables and bean liquid with room
-        to stir; split the soup between pots if necessary.
+        Add {{ingredients}}, with the chard stems going in before the leaves. Stir in the greens by
+        handfuls as they wilt, 5 to 10 minutes.
+    - id: puree
+      title: Purée half the beans
+      text: >-
+        Pass about half the beans through a food mill or sieve into their cooking liquid. Keep the
+        rest whole.
     - id: simmer
-      title: Thicken with beans
+      title: Simmer the soup
       text: >-
-        Pass a generous half of the cooked beans through a sieve into their reserved cooking liquid,
-        keeping the rest of the beans whole. Add the purée and its liquid to the vegetables. Have
-        {{ingredients}} ready. Simmer gently for about 1 hour, stirring along the bottom and adding
-        water whenever needed to prevent scorching. The potatoes and greens should be tender and the
-        broth thickened by the puréed beans. Stir in the reserved whole beans just before taking the
-        pot off the heat, then season to taste.
+        Pour the bean purée and its liquid into the soup pot and season with {{ingredients}}. Simmer
+        gently for 1 hour, stirring along the bottom and adding a splash of hot water if it gets too
+        thick, until the potatoes are tender and the broth is creamy. Stir in the whole beans and
+        season well, since the bread is unsalted.
     - id: layer
-      title: Layer and chill
+      title: Layer with bread
       text: >-
-        Use all the {{ingredients}} to make two layers in several shallow heatproof containers:
-        bread, half the soup, more bread, then the remaining soup. Divide the bread and soup between
-        the containers evenly enough that each contains both. Refrigerate promptly within 2 hours,
-        or 1 hour above 90°F; do not leave the soup out overnight. Chill at 40°F or colder until the
-        next day.
+        In a large baking dish, layer half the {{ingredients}}, half the soup, the rest of the bread
+        and the rest of the soup. Let it cool, then cover and refrigerate overnight.
     - id: reboil
-      title: Simmer again and serve
+      title: Boil it again
       text: >-
-        Have {{ingredients}} ready. Transfer the chilled soup to a heavy pot. Warm gently with
-        frequent stirring along the bottom; if too thick to stir, loosen it with a little water.
-        Check that it reaches 165°F throughout and bring it to a full boil while stirring along the
-        bottom, then reduce to a gentle bubbling simmer for about 10 minutes. Spoon into bowls and
-        finish with the olive oil.
+        Scrape the soup into a heavy pot and warm over medium-low heat, stirring along the bottom
+        often. Add {{ingredients}} if it is too thick to stir. Bring to a boil, then simmer gently,
+        stirring, until thick and spoonable, about 10 minutes.
+    - id: serve
+      title: Serve
+      text: 'Ladle into bowls and drizzle each one with {{ingredients}}.'
 ingredients:
   - '--- Beans ---'
-  - 400 g dried cannellini beans
-  - 'water, enough for soaking, then fresh water to keep the beans generously covered while cooking'
+  - 14 oz (400 g) dried cannellini beans
+  - 'water, for soaking'
   - '--- Soup ---'
-  - 'extra-virgin olive oil, enough to coat the bottom of the soup pot'
+  - 1/4 cup extra-virgin olive oil
   - '2 onions, thinly sliced'
   - '2 carrots, thinly sliced'
   - '2 celery ribs, thinly sliced'
-  - '300 g tomatoes, chopped'
-  - '400 g cavolo nero (Tuscan kale), tough stems removed, leaves cut into strips'
-  - '500 g savoy cabbage, cored and cut into strips'
-  - '200 g chard, leaves sliced; tender stems chopped separately'
-  - '2 potatoes, peeled and cut into small, even pieces'
-  - 'hot water, as needed to keep the vegetables simmering in liquid'
-  - 'salt, to taste'
+  - '10 oz (300 g) tomatoes, chopped'
+  - '14 oz (400 g) cavolo nero, stems removed, leaves cut into strips'
+  - '1 lb (500 g) savoy cabbage, cored and cut into strips'
+  - '7 oz (200 g) Swiss chard, leaves sliced, stems chopped'
+  - '2 potatoes, peeled and cut into 1/2-inch pieces'
+  - 'kosher salt, to taste'
   - 'black pepper, to taste'
-  - '500 g stale plain bread, sliced; traditionally Tuscan unsalted bread'
+  - '1 lb (500 g) stale Tuscan bread, sliced'
   - '--- To finish ---'
-  - 'water, only as needed to loosen the chilled soup'
-  - 'extra-virgin olive oil, for drizzling over each bowl'
+  - 'water, as needed'
+  - 'extra-virgin olive oil, for drizzling'
 servings: 6 portions
+pairingNotes:
+  shaved-fennel-citrus-salad: 'Crisp and bright next to a thick, earthy soup.'
 ---
 
 ## Chef's Note
 
-The bread is part of the soup, soaking up the bean broth overnight before the second simmer gives ribollita its thick, spoonable texture. Cavolo nero, savoy cabbage and chard each bring something different; keep the full mixture and finish each bowl with good olive oil. This follows the Accademia’s Tuscan formula, with refrigerated soaking and overnight storage.
+Ribollita means "reboiled." Tuscan cooks make a big pot of bean and black kale soup, layer it with stale bread overnight and boil it again the next day until it is thick enough to hold a spoon. Finish each bowl with your best olive oil.
 
 ## Directions
 
-1. **Soak and cook the beans:** Use dried cannellini beans and water to soak the beans for 12 hours in the refrigerator. Drain and discard the soaking water. Put the beans in a separate pot with fresh water generously covering them. Bring to a rolling boil for at least 30 minutes, then simmer until completely tender and creamy inside, topping up with hot water to keep them submerged. Allow roughly 1–2 hours of cooking in total; older beans can take longer. Keep the beans in their cooking liquid.
-2. **Start the soup:** Put extra-virgin olive oil, onions, carrots, and celery ribs in a large, heavy soup pot over medium-low heat. Cook, stirring, until the vegetables soften without darkening, about 10–15 minutes.
-3. **Add the vegetables:** Add tomatoes, cavolo nero (Tuscan kale), savoy cabbage, chard, and potatoes, putting the chard stems in before the leaves. Stir the greens in by handfuls as they wilt. Use a pot that can hold all the vegetables and bean liquid with room to stir; split the soup between pots if necessary.
-4. **Thicken with beans:** Pass a generous half of the cooked beans through a sieve into their reserved cooking liquid, keeping the rest of the beans whole. Add the purée and its liquid to the vegetables. Have hot water, salt, and black pepper ready. Simmer gently for about 1 hour, stirring along the bottom and adding water whenever needed to prevent scorching. The potatoes and greens should be tender and the broth thickened by the puréed beans. Stir in the reserved whole beans just before taking the pot off the heat, then season to taste.
-5. **Layer and chill:** Use all the stale plain bread to make two layers in several shallow heatproof containers: bread, half the soup, more bread, then the remaining soup. Divide the bread and soup between the containers evenly enough that each contains both. Refrigerate promptly within 2 hours, or 1 hour above 90°F; do not leave the soup out overnight. Chill at 40°F or colder until the next day.
-6. **Simmer again and serve:** Have water and extra-virgin olive oil ready. Transfer the chilled soup to a heavy pot. Warm gently with frequent stirring along the bottom; if too thick to stir, loosen it with a little water. Check that it reaches 165°F throughout and bring it to a full boil while stirring along the bottom, then reduce to a gentle bubbling simmer for about 10 minutes. Spoon into bowls and finish with the olive oil.
+1. **Soak the beans:** The day before, put dried cannellini beans and water in a large bowl, with the water covering the beans by 3 inches. Soak 12 hours or overnight, then drain.
+2. **Cook the beans:** Put the beans in a pot and cover by 2 inches with fresh water. Boil hard for 10 minutes, then lower the heat and simmer until creamy all the way through, 1 to 2 hours. Top up with hot water to keep them covered. Keep them in their liquid.
+3. **Cook the soffritto:** Warm extra-virgin olive oil, onions, carrots, and celery ribs in a large, heavy soup pot over medium-low heat. Cook, stirring, until soft but not browned, 10 to 15 minutes.
+4. **Wilt the greens:** Add tomatoes, cavolo nero, savoy cabbage, Swiss chard, and potatoes, with the chard stems going in before the leaves. Stir in the greens by handfuls as they wilt, 5 to 10 minutes.
+5. **Purée half the beans:** Pass about half the beans through a food mill or sieve into their cooking liquid. Keep the rest whole.
+6. **Simmer the soup:** Pour the bean purée and its liquid into the soup pot and season with kosher salt and black pepper. Simmer gently for 1 hour, stirring along the bottom and adding a splash of hot water if it gets too thick, until the potatoes are tender and the broth is creamy. Stir in the whole beans and season well, since the bread is unsalted.
+7. **Layer with bread:** In a large baking dish, layer half the stale Tuscan bread, half the soup, the rest of the bread and the rest of the soup. Let it cool, then cover and refrigerate overnight.
+8. **Boil it again:** Scrape the soup into a heavy pot and warm over medium-low heat, stirring along the bottom often. Add water if it is too thick to stir. Bring to a boil, then simmer gently, stirring, until thick and spoonable, about 10 minutes.
+9. **Serve:** Ladle into bowls and drizzle each one with extra-virgin olive oil.

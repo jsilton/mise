@@ -33,24 +33,23 @@ equipment:
   - small-bowl
   - spatula
 prepTime: 10 min
-cookTime: 'about 25 min, or until tender'
-totalTime: 'about 35 min, plus any remaining preheating'
+cookTime: 30 min
+totalTime: 40 min
 servings: 4 portions
 pairsWith:
-  - baked-chicken-parmesan
+  - roast-turkey-breast
+  - rosemary-pork-tenderloin
   - one-pan-lemon-herb-chicken-thighs
-  - sausage-and-white-bean-skillet
 ingredients:
   - '--- Brussels sprouts ---'
-  - '1 1/2 lb fresh Brussels sprouts, trimmed and halved lengthwise through the stem'
+  - '1 1/2 lb Brussels sprouts, trimmed and halved through the stem'
   - 3 tbsp olive oil
-  - 1/2 tsp kosher salt
+  - 1 tsp kosher salt
   - 1/4 tsp black pepper
-  - '--- Balsamic–honey glaze ---'
+  - 'flaky sea salt, for serving'
+  - '--- Balsamic glaze ---'
   - 3 tbsp aged balsamic vinegar
   - 1 tbsp honey
-  - '--- Finish ---'
-  - 'flaky sea salt, to taste at serving'
 formula:
   version: 1
   yield:
@@ -62,11 +61,11 @@ formula:
       ingredients:
         - id: sprouts
           key: sprouts
-          name: fresh Brussels sprouts
+          name: Brussels sprouts
           quantity:
-            amount: 1.5
+            amount: 1 1/2
             unit: lb
-          preparation: trimmed and halved lengthwise through the stem
+          preparation: trimmed and halved through the stem
           uses:
             - step: toss
               share: 1
@@ -83,7 +82,7 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 1/2
+            amount: 1
             unit: tsp
           uses:
             - step: toss
@@ -97,8 +96,15 @@ formula:
           uses:
             - step: toss
               share: 1
+        - id: finish-salt
+          key: finish-salt
+          name: flaky sea salt
+          allowance: for serving
+          uses:
+            - step: serve
+              share: 1
     - id: glaze
-      name: Balsamic–honey glaze
+      name: Balsamic glaze
       ingredients:
         - id: balsamic
           key: balsamic
@@ -118,139 +124,59 @@ formula:
           uses:
             - step: glaze
               share: 1
-    - id: finish
-      name: Finish
-      ingredients:
-        - id: finish-salt
-          key: finish-salt
-          name: flaky sea salt
-          allowance: to taste at serving
-          uses:
-            - step: serve
-              share: 1
   steps:
     - id: prep
-      title: Heat and prepare
-      text: >-
-        Heat the oven to 425°F. Use a large rimmed sheet or enough sheets for a single layer. If
-        lining the sheets, use parchment rated for this heat or suitable foil. Wash the sprouts
-        under running water, trim tough stem ends and yellowed leaves, halve lengthwise and dry the
-        cut faces.
+      title: Heat the pan
+      text: Put a large rimmed baking sheet in the oven and heat the oven to 425°F.
     - id: toss
-      title: Coat and arrange
-      text: >-
-        Toss {{ingredients}} in a large bowl. Spread over the sheets cut-side down without piling.
-        The measured oil and seasoning are for all the sprouts, shared across whichever sheets are
-        needed.
+      title: Season the sprouts
+      text: 'Toss {{ingredients}} in a large bowl until evenly coated.'
     - id: roast
-      title: Brown and check the centers
+      title: Roast
       text: >-
-        Roast for about 20 minutes without stirring. Lift a few to check the cut faces and pierce a
-        thick sprout through the center. Faces should be browned and centers tender or nearly
-        tender. If still hard, continue roasting before glazing; if a hot spot is blackening, rotate
-        the sheet and move those pieces away from it.
+        Carefully pull out the hot sheet and spread the sprouts on it cut side down in one layer.
+        Roast without stirring until the cut sides are deep brown and the centers are nearly tender,
+        about 20 minutes.
     - id: glaze
-      title: Make and apply the glaze
+      title: Mix the glaze
+      text: 'While the sprouts roast, whisk {{ingredients}} in a small bowl.'
+    - id: coat
+      title: Glaze the sprouts
       text: >-
-        While the sprouts roast, whisk {{ingredients}} together. When centers are tender or nearly
-        tender, drizzle the whole glaze across all the sprouts and toss gently. Return to the oven
-        for about 5 minutes, checking closely: the coating should bubble and cling, without burning
-        black. Remove ready pieces sooner if the glaze darkens quickly; finish any still-firm
-        centers with attention to the browned coating.
+        Drizzle the glaze over the sprouts, toss and roast until the glaze is bubbling and sticky
+        and the centers are tender, about 5 minutes. Watch closely so the honey does not burn.
     - id: serve
-      title: Taste and serve
-      text: >-
-        Transfer to a serving dish and use {{ingredients}} if needed after tasting. Serve hot; the
-        glaze gives a sticky finish rather than a guarantee that every leaf stays crisp.
+      title: Serve
+      text: 'Sprinkle with {{ingredients}} and serve hot.'
 learning:
-  focus: Add a sweet balsamic glaze after checking sprout centers
-  outcome: >-
-    Tender Brussels sprouts with browned cut faces and an evenly distributed sticky honey–balsamic
-    coating.
   techniques:
     - browning
-  before:
-    - Trim and halve through the stem; use enough sheet area to keep cut faces against the pan.
-    - 'The measured balsamic and honey are for the whole batch, not each sheet.'
-    - >-
-      Choose the main oven-finished honey glaze or the separate post-roast variation before
-      measuring; their salt, pepper and vinegar balances differ.
-  checkpoints:
-    - step: 3
-      cue: Faces have browned and a thick center is tender or nearly tender.
-      why: Do not rely on 20 minutes alone or add sweet glaze while the core is hard.
-    - step: 4
-      cue: The glaze clings and bubbles without blackening.
-      why: >-
-        An aged balsamic/honey coating can scorch quickly; another five minutes is a check window,
-        not a requirement to burn it.
-    - step: 5
-      cue: The glazed sprout is tasted before flaky salt is added.
-      why: Finishing salt is an allowance after the measured roast seasoning.
-  troubleshooting:
-    - problem: Leaves are black but centers hard
-      cause: Sprouts are large or an oven area is hotter.
-      fix: >-
-        Rotate and move dark pieces, then finish the centers before glazing; start with comparable
-        halves next time.
-    - problem: Glaze burns during the final stage
-      cause: Sugar stayed at high heat after the coating was ready.
-      fix: >-
-        Remove ready pieces sooner. Burnt sugar cannot be fixed by more honey; watch the oven-finish
-        stage closely.
-    - problem: The pan is wet and sprouts stay pale
-      cause: The sprouts are piled or the washed cut faces stayed wet.
-      fix: Dry and spread over sufficient sheets; extra sheet area is needed when scaling.
   substitutions:
     - ingredient: Aged balsamic vinegar
-      alternative: A thinner balsamic vinegar
-      effect: >-
-        The measured amount remains, but the finish can be less sticky and more sharply acidic; do
-        not claim an identical glaze.
-    - ingredient: Oven-finished honey glaze
-      alternative: The separate maple post-roast variation
-      effect: >-
-        Changes the stated ingredient balance and glazing method; omit its optional Parmesan for
-        vegan service.
-  timing: >-
-    About 10 minutes preparation plus roughly 20 minutes before glazing and 5 minutes after is an
-    approximately 35-minute prep-and-roast subtotal when centers are nearly tender on the first
-    check. Load only once the oven reaches 425°F; any heating still needed after prep extends
-    elapsed time. Larger halves or extra sheets may take longer. Whisking the glaze overlaps
-    roasting. The separate preheated-pan variation also requires its bare sheet to be hot before
-    loading. No rest is required; serve the glazed sprouts promptly.
-  storage: >-
-    Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C,
-    at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The glazed leaves soften
-    in covered storage. Reheat gently enough to avoid burning the honey coating while reaching the
-    safe reheating endpoint.
-  sources:
-    - title: Michigan State University Extension — How to Roast Any Vegetable
-      url: 'https://msu-prod.dotcms.cloud/grand_traverse/uploads/files/How%20to%20Roast%20Vegetables.pdf'
-    - title: FDA — Selecting and Serving Produce Safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+      alternative: Regular balsamic vinegar
+      effect: The glaze is thinner and sharper.
+    - ingredient: Honey
+      alternative: Maple syrup
+      effect: 'Makes it vegan, with a woodsier sweetness.'
+  storage: Keeps 3 days in the fridge. Reheat on a sheet pan in a 400°F oven until hot.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
+pairingNotes:
+  roast-turkey-breast: Sweet-sharp sprouts for the holiday table.
+  rosemary-pork-tenderloin: Balsamic and rosemary pork are a natural fall pair.
+  one-pan-lemon-herb-chicken-thighs: 'Caramelized sprouts beside bright, lemony chicken.'
 ---
 
 ## Chef's Note
 
-Keep the halved sprouts cut-side down while they first roast, then check the centers before adding the balsamic–honey glaze. The late coating turns sticky quickly in a 425°F oven, so watch the final few minutes closely. This version uses aged balsamic and honey; a separate preheated-pan variation below uses a lighter post-roast coating.
+High heat turns the cut sides of Brussels sprouts dark brown and sweet, and that is what wins over the doubters. A preheated pan starts the browning the moment they land. A balsamic and honey glaze in the last few minutes gives them a sticky, sweet-sharp finish.
 
 ## Directions
 
-1. **Heat and prepare:** Heat the oven to 425°F. Use a large rimmed sheet or enough sheets for a single layer. If lining the sheets, use parchment rated for this heat or suitable foil. Wash the sprouts under running water, trim tough stem ends and yellowed leaves, halve lengthwise and dry the cut faces.
-2. **Coat and arrange:** Toss fresh Brussels sprouts, olive oil, kosher salt, and black pepper in a large bowl. Spread over the sheets cut-side down without piling. The measured oil and seasoning are for all the sprouts, shared across whichever sheets are needed.
-3. **Brown and check the centers:** Roast for about 20 minutes without stirring. Lift a few to check the cut faces and pierce a thick sprout through the center. Faces should be browned and centers tender or nearly tender. If still hard, continue roasting before glazing; if a hot spot is blackening, rotate the sheet and move those pieces away from it.
-4. **Make and apply the glaze:** While the sprouts roast, whisk aged balsamic vinegar and honey together. When centers are tender or nearly tender, drizzle the whole glaze across all the sprouts and toss gently. Return to the oven for about 5 minutes, checking closely: the coating should bubble and cling, without burning black. Remove ready pieces sooner if the glaze darkens quickly; finish any still-firm centers with attention to the browned coating.
-5. **Taste and serve:** Transfer to a serving dish and use flaky sea salt if needed after tasting. Serve hot; the glaze gives a sticky finish rather than a guarantee that every leaf stays crisp.
-
-## Preheated-Pan Variation with a Post-Roast Glaze
-
-For each 1½ pounds of Brussels sprouts, use 3 tablespoons olive oil, 1 teaspoon kosher salt, ½ teaspoon black pepper, 2 tablespoons balsamic vinegar and 1 tablespoon honey or maple syrup; 2 tablespoons shaved Parmesan are optional. Scale these amounts in proportion to the sprout weight. This replaces the ingredient balance and glazing stage above; do not add these quantities to that glaze.
-
-Heat a bare rimmed metal sheet in a 425°F oven. Trim, halve and dry the sprouts, then toss with the oil, salt and pepper. Carefully remove the hot sheet with oven mitts, spread cut-side down in one layer and roast 20–25 minutes without flipping, checking for browned faces and tender centers. Whisk the balsamic with the selected sweetener while they roast. After roasting, toss the hot sprouts with that glaze without returning them to the oven. Add the optional Parmesan and serve hot. Use enough hot sheets for the measured amount. Maple syrup without Parmesan makes this variation vegan.
+1. **Heat the pan:** Put a large rimmed baking sheet in the oven and heat the oven to 425°F.
+2. **Season the sprouts:** Toss Brussels sprouts, olive oil, kosher salt, and black pepper in a large bowl until evenly coated.
+3. **Roast:** Carefully pull out the hot sheet and spread the sprouts on it cut side down in one layer. Roast without stirring until the cut sides are deep brown and the centers are nearly tender, about 20 minutes.
+4. **Mix the glaze:** While the sprouts roast, whisk aged balsamic vinegar and honey in a small bowl.
+5. **Glaze the sprouts:** Drizzle the glaze over the sprouts, toss and roast until the glaze is bubbling and sticky and the centers are tender, about 5 minutes. Watch closely so the honey does not burn.
+6. **Serve:** Sprinkle with flaky sea salt and serve hot.
