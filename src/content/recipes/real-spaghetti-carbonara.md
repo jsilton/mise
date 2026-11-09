@@ -154,6 +154,11 @@ learning:
     - emulsions
     - temperature
   substitutions:
+    - ingredient: Eggs and yolks
+      alternative: Pasteurized eggs
+      effect: >-
+        Use the same number of eggs and yolks. The hot pasta only lightly cooks the eggs, so choose
+        pasteurized eggs for anyone who avoids undercooked egg.
     - ingredient: guanciale
       alternative: Pancetta
       effect: Same amount. It is leaner and a little less porky.

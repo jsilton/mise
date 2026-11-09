@@ -78,6 +78,6 @@ This is a classic custard vanilla ice cream, the kind that goes on every pie and
 1. **Heat the milk:** Warm the milk and salt in a small saucepan over medium-low heat until just simmering.
 2. **Temper the yolks:** In a medium bowl, whisk the yolks and sugar until pale yellow. Slowly pour in the hot milk, whisking constantly.
 3. **Cook the custard:** Pour the mixture back into the pan. Stir constantly over low heat until it coats the back of a spoon and reaches 165°F, about 5 minutes. Take it off the heat right away and don't let it boil.
-4. **Chill the base:** Pour the custard into a container, cover and refrigerate until very cold, at least 4 hours or overnight.
+4. **Chill the base:** Pour the custard into a container, cover and refrigerate until very cold, at least 4 hours or overnight. If your ice cream maker has a freezer bowl, put it in the freezer now.
 5. **Churn:** Stir in the cream and vanilla bean paste. Churn in an ice cream maker until it looks like soft-serve, about 20 minutes.
 6. **Freeze:** Pack it into a covered container and freeze until firm, about 2 hours.

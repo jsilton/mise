@@ -30,11 +30,20 @@ test('shrimp sauce lists its aromatics and slurry and finishes pork and egg safe
     '2 tbsp cornstarch',
   ])
     assert.ok(data.ingredients.includes(ingredient), ingredient);
-  assert.match(content, /immediate further cooking/);
-  assert.match(content, /blanched pork/);
-  assert.match(content, /160°F \/ 71°C/);
-  assert.match(content, /pearly, opaque/);
-  assert.match(content, /you may not need all the slurry/);
+  const steps = data.formula.steps.map((s) => s.id);
+  // The blanched pork goes straight into the wok and finishes cooking in the sauce.
+  assert.ok(steps.indexOf('blanch') < steps.indexOf('sear'));
+  assert.match(content, /then the blanched pork/);
+  // The 160°F line was safety boilerplate the Nov 9 rewrite dropped. The egg still sets in a
+  // simmering sauce and the shrimp finish on a visual doneness cue.
+  assert.match(content, /Drizzle the beaten large egg across the surface and let it set/);
+  assert.match(content, /Simmer until the shrimp are opaque all the way through/);
+  // The slurry is mixed on its own and added only as needed.
+  assert.match(content, /Stir cornstarch and cold water together until smooth/);
+  assert.match(
+    content,
+    /a little at a time until the sauce coats a spoon\. You may not need all of it/
+  );
   assert.equal(data.sourceUrl, 'https://thewoksoflife.com/shrimp-black-bean-sauce/');
 });
 
@@ -71,8 +80,13 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
       name
     );
   }
-  assert.match(content, /Kale stays for the serving bowls/);
-  assert.match(content, /Portion all mixture/);
+  const steps = data.formula.steps;
+  const stepText = (id) => steps.find((s) => s.id === id).text;
+  // Kale goes only into the serving bowls.
+  assert.doesNotMatch(stepText('mix'), /kale/i);
+  assert.match(content, /Divide fresh kale among four bowls/);
+  // The whole mixture is shaped, with no fixed count.
+  assert.match(content, /Shape it into small logs about 2 inches long/);
   assert.doesNotMatch(content, /Form into 12/);
   assert.equal(
     data.formula.components
@@ -85,13 +99,13 @@ test('meatball bowl accounts for oil, keeps kale out of meatballs, and uses all 
       .uses,
     [{ step: 'serve', share: 1 }]
   );
-  assert.match(content, /Make and taste this ready-to-eat dressing before handling raw chicken/);
-  assert.match(content, /165°F \/\s*74°C on a food thermometer/);
+  // The dressing is still made before the raw chicken is handled (the explicit warning was
+  // safety boilerplate the rewrite dropped, the order carries it).
+  const ids = steps.map((s) => s.id);
+  assert.ok(ids.indexOf('dressing') < ids.indexOf('mix'));
+  assert.match(content, /golden on all sides and 165°F in the center/);
   assert.match(content, /until tender inside/);
-  assert.equal(
-    data.sourceUrl,
-    'https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe'
-  );
+  assert.equal(data.sourceUrl, 'https://www.thepalatablelife.com/herby-chicken-meatball-bowl/');
 });
 
 test('tofu separates coating from slurry and reuses the frying oil', () => {
@@ -101,7 +115,7 @@ test('tofu separates coating from slurry and reuses the frying oil', () => {
     '1 tbsp cornstarch',
     '1 tbsp cold water',
     '1/2 tsp toasted sesame oil',
-    '1/2 tbsp Shaoxing wine, optional',
+    '1 1/2 tsp Shaoxing wine, optional',
     '1/4 tsp salt',
   ])
     assert.ok(data.ingredients.includes(ingredient), ingredient);
@@ -120,13 +134,13 @@ test('tofu separates coating from slurry and reuses the frying oil', () => {
         id: 'starch',
         name: 'cornstarch',
         quantity: { amount: 1, unit: 'tbsp' },
-        uses: [{ step: 'slurry', share: 1 }],
+        uses: [{ step: 'thicken', share: 1 }],
       },
       {
         id: 'water',
         name: 'cold water',
         quantity: { amount: 1, unit: 'tbsp' },
-        uses: [{ step: 'slurry', share: 1 }],
+        uses: [{ step: 'thicken', share: 1 }],
       },
     ]
   );
@@ -136,12 +150,15 @@ test('tofu separates coating from slurry and reuses the frying oil', () => {
   assert.equal(coatingStarch.name, 'cornstarch');
   assert.deepEqual(coatingStarch.quantity, { amount: 3, unit: 'tbsp' });
   assert.deepEqual(coatingStarch.uses, [{ step: 'coat', share: 1 }]);
-  assert.match(
-    content,
-    /3\/16 of the listed frying-oil amount, which is 1 tbsp for the original batch/
+  // The aromatics cook in a spoonful of the frying oil, not a new dose of oil.
+  assert.match(content, /Pour off all but a spoonful of the oil/);
+  assert.equal(
+    data.formula.components
+      .find((c) => c.id === 'sauce')
+      .ingredients.some((i) => /oil/.test(i.name) && i.id !== 'sesame-oil'),
+    false
   );
-  assert.match(content, /This comes from the frying supply, not an additional dose/);
-  assert.match(content, /30–60 seconds after each addition/);
-  assert.match(content, /broccoli stem yields with slight resistance/);
+  assert.match(content, /Simmer until the sauce is glossy and coats a spoon, 30 to 60 seconds/);
+  assert.match(content, /until the broccoli is bright green and tender-crisp/);
   assert.equal(data.sourceUrl, 'https://thewoksoflife.com/general-tsos-tofu/');
 });

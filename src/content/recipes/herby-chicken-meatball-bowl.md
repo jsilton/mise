@@ -49,7 +49,7 @@ ingredients:
   - '2 green onions, finely chopped'
   - '1/2 cup fresh cilantro, finely chopped'
   - '1/4 cup fresh dill, finely chopped'
-  - '1 tbsp lemon zest, finely grated (1 lemon)'
+  - '1 tbsp lemon zest, finely grated'
   - 1 tsp salt
   - 1/2 tsp black pepper
   - 2 tbsp olive oil
@@ -291,7 +291,7 @@ formula:
           uses:
             - step: mix
               share: 1
-          preparation: finely grated (1 lemon)
+          preparation: finely grated
         - id: salt
           key: salt
           name: salt
@@ -480,3 +480,4 @@ Soft chicken and ricotta meatballs full of cilantro, dill and lemon zest, served
 4. **Shape the meatballs:** In a large bowl, gently mix ground chicken, whole-milk ricotta, large egg, panko breadcrumbs, shallot, green onions, fresh cilantro, fresh dill, lemon zest, salt, and black pepper just until combined. The mixture will be soft. Shape it into small logs about 2 inches long.
 5. **Cook the meatballs:** Heat olive oil in a large skillet over medium-high heat. Cook the logs in batches without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side. Let them set before turning so they hold together.
 6. **Build the bowls:** Divide fresh kale among four bowls. Top with the chickpeas, sweet potato and meatballs, and spoon the dressing over.
+

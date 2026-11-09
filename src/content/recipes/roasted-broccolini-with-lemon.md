@@ -39,7 +39,7 @@ pairsWith:
   - baked-chicken-parmesan
   - shrimp-fettuccine-alfredo
 ingredients:
-  - '12 oz broccolini, 2 bunches, trimmed, thick stems split lengthwise'
+  - '12 oz broccolini, trimmed, thick stems split lengthwise'
   - 3 tbsp extra-virgin olive oil
   - '3 garlic cloves, thinly sliced'
   - 1/2 tsp red pepper flakes
@@ -63,7 +63,7 @@ formula:
           quantity:
             amount: 12
             unit: oz
-          preparation: '2 bunches, trimmed, thick stems split lengthwise'
+          preparation: 'trimmed, thick stems split lengthwise'
           uses:
             - step: toss
               share: 1
@@ -184,3 +184,4 @@ Broccolini is a cross between broccoli and Chinese broccoli, so its long stems a
 1. **Season the broccolini:** Heat the oven to 425°F and line a rimmed baking sheet with parchment. Toss broccolini, extra-virgin olive oil, garlic cloves, red pepper flakes, kosher salt, black pepper, and lemon on the sheet and spread in one layer. Tuck the garlic and lemon rounds under the stalks so the garlic does not burn.
 2. **Roast:** Roast until the tips are crisp and charred and a knife slides into the thickest stem with a little resistance, 12 to 15 minutes. The garlic should be golden, not dark.
 3. **Finish and serve:** Season the hot broccolini with lemon and flaky sea salt, squeezing the lemon over the top. Serve right away with the roasted lemon rounds.
+

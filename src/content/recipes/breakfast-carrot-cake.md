@@ -48,7 +48,7 @@ ingredients:
   - 3/4 tsp baking powder
   - 1/2 tsp baking soda
   - 1/4 tsp sea salt
-  - '250 g carrots, about 2 large, peeled and finely grated'
+  - '250 g carrots, peeled and finely grated'
   - '1/4 cup walnuts or pecans, chopped, optional'
 origin: United States
 formula:
@@ -167,7 +167,7 @@ formula:
           quantity:
             amount: 250
             unit: g
-          preparation: 'about 2 large, peeled and finely grated'
+          preparation: peeled and finely grated
           uses:
             - step: fold
               share: 1
@@ -241,3 +241,4 @@ This is carrot cake made for the morning, with whole wheat flour and Greek yogur
 4. **Fold in the carrots:** Add carrots and walnuts or pecans (if using) and fold just until evenly mixed. Stop as soon as they are combined, so the whole wheat flour stays tender.
 5. **Bake:** Spread the batter in the pan and tap it on the counter to settle it. Bake until the center springs back and a toothpick comes out clean, 25 to 30 minutes.
 6. **Cool:** Cool in the pan for 10 minutes, then lift it out onto a rack. Cut into squares.
+

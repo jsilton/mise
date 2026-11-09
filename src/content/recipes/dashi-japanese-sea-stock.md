@@ -33,7 +33,7 @@ pairingNotes:
 ingredients:
   - 6 cups cold water
   - '1 oz kombu (dried kelp), about 20 square inches'
-  - '30 g katsuobushi (dried bonito flakes), about 3 cups or six 5 g packs'
+  - '30 g katsuobushi (dried bonito flakes), 6 packs (5 g each), about 3 cups total'
 seasons:
   - year-round
 nutritionalDensity: light

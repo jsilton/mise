@@ -38,7 +38,7 @@ ingredients:
   - 1/2 cup long-grain white rice or orzo
   - '1 lb cooked chicken, shredded'
   - 2 large eggs
-  - 1/3 cup fresh lemon juice (from 2 lemons)
+  - 1/3 cup fresh lemon juice (about 2 lemons)
   - 'salt and white pepper, to taste'
 equipment:
   - large-pot

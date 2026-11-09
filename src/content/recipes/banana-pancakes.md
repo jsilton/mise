@@ -39,7 +39,7 @@ ingredients:
   - 1/2 tsp kosher salt
   - 1/4 tsp ground cinnamon
   - 1 cup buttermilk
-  - '2 large ripe bananas, mashed (about 3/4 cup)'
+  - '2 large ripe bananas, mashed (about 3/4 cup total)'
   - 2 large eggs
   - '3 tbsp unsalted butter, melted and slightly cooled'
   - 1 tsp vanilla extract

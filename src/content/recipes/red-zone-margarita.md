@@ -56,7 +56,7 @@ ingredients:
   - water, for the ice
   - '--- Margarita Batch ---'
   - 2 1/2 cups reposado tequila
-  - '1 1/4 cups fresh lime juice, from 8 to 10 limes'
+  - '1 1/4 cups fresh lime juice (8 to 10 limes)'
   - 3/4 cup spiced cranberry syrup
   - 1/2 cup plus 2 tbsp Cointreau
   - 1/2 cup Campari

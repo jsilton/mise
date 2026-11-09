@@ -41,7 +41,7 @@ pairingNotes:
   steamed-white-rice: Plain rice for the sticky sauce.
   smashed-cucumber-salad: 'Cool, tangy cucumbers cut the rich glaze.'
 ingredients:
-  - '4 lb pork spareribs, about 2 racks, cut into 3-rib sections'
+  - '4 lb pork spareribs, cut into 3-rib sections'
   - 1/2 cup hoisin sauce
   - 1/4 cup soy sauce
   - 1 tbsp unsulfured molasses
@@ -77,7 +77,7 @@ formula:
           uses:
             - step: marinate
               share: 1
-          preparation: 'about 2 racks, cut into 3-rib sections'
+          preparation: cut into 3-rib sections
         - id: hoisin
           key: hoisin-sauce
           name: hoisin sauce
@@ -237,3 +237,4 @@ Sticky, sweet-savory ribs in the style of a Chinese-American takeout counter, ma
 8. **Glaze the ribs:** Heat the broiler with a rack about 6 inches from the heat. Brush the ribs all over with some of the reduced sauce, then with 1/3 of the honey.
 9. **Broil:** Broil, turning once, until the glaze bubbles and chars at the edges, about 5 minutes in all. Watch closely, since honey burns fast.
 10. **Cut and serve:** Cut between the bones into single ribs and serve with the rest of the sauce on the side.
+

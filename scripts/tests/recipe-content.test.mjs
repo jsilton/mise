@@ -94,20 +94,20 @@ test('all current sources have nonempty, aligned schema and export representatio
 
 test('known method mismatches retain parser coverage and accepted current step counts', async () => {
   const recipes = new Map((await loadTestRecipes()).map((recipe) => [recipe.slug, recipe]));
-  // Preserve the original ten-step parser oracle after the independently
-  // reviewed Boston main was replaced with a complete seven-step source route.
+  // Preserve the original ten-step parser oracle. The Boston main went from a seven-step
+  // source route to a ten-step formula in the Nov 9 style rewrite.
   const bostonReview = JSON.parse(
     await fs.readFile('docs/reviews/boston-style-peking-ravioli.json', 'utf8')
   );
   assert.equal(parseRecipeContent(bostonReview.exactBefore.body).steps.length, 10);
   for (const [slug, count] of Object.entries({
-    'boston-style-peking-ravioli': 7,
-    'homemade-pizza-night': 9,
+    'boston-style-peking-ravioli': 10,
+    'homemade-pizza-night': 10,
     'instant-pot-butternut-squash-soup': 8,
     'instant-pot-potato-leek-soup': 9,
-    'red-zone-margarita': 6,
+    'red-zone-margarita': 7,
     'spatchcocked-roast-chicken': 9,
-    'tonkotsu-style-ramen': 16,
+    'tonkotsu-style-ramen': 13,
   }))
     assert.equal(recipes.get(slug).parsed.steps.length, count, slug);
 });
@@ -261,8 +261,19 @@ test('every corpus ingredient link exports its existing target as an absolute UR
     }
   }
   assert.ok(links >= 34, 'covers all current component links');
-  assert.ok(legacyBaseLinks >= 3, 'covers the three legacy root recipe links');
+  // The Nov 9 rewrite moved the three legacy root links (/recipes/...) to /mise/recipes/.
+  // Legacy-root normalization is still covered by the normalizeIngredientLinks test above.
+  assert.equal(legacyBaseLinks, 0, 'no legacy root recipe links remain in the corpus');
   const bySlug = new Map(recipes.map((recipe) => [recipe.slug, recipe]));
+  for (const [slug, target] of [
+    ['greek-style-lamb-burgers-with-yogurt-cucumber-sauce', 'warm-pita-bread'],
+    ['honey-lime-chicken-thighs', 'pickled-red-onions'],
+  ])
+    assert.match(
+      createPaprikaRecipe(bySlug.get(slug)).ingredients,
+      new RegExp(`\\]\\(https://[^)]+/mise/recipes/${target}\\)`),
+      slug
+    );
   // The source-reviewed pizza/shells batch removes two semantic mislinks.
   // The remaining corpus links still use the same normalization assertions above.
   assert.doesNotMatch(createPaprikaRecipe(bySlug.get('pizza')).ingredients, /fresh-pasta-dough/);

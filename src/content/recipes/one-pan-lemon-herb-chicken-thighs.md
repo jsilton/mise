@@ -37,7 +37,7 @@ pairingNotes:
   charred-asparagus-with-parmesan: A quick green vegetable.
 ingredients:
   - '--- Chicken ---'
-  - '8 bone-in, skin-on chicken thighs, about 2 1/2 to 3 lb total'
+  - '8 bone-in, skin-on chicken thighs'
   - 2 tsp kosher salt
   - 1/2 tsp black pepper
   - 3 tbsp olive oil
@@ -66,7 +66,6 @@ formula:
           quantity:
             amount: 8
             unit: count
-          preparation: about 2 1/2 to 3 lb total
           uses:
             - step: sear
               share: 1
@@ -257,3 +256,4 @@ Lemon, garlic, oregano and thyme make a bright Mediterranean pan sauce for crisp
 9. **Return the chicken:** Nestle the chicken back in, skin side up, with its juices and the skin above the liquid. Tuck any parboiled vegetables around the thighs and sprinkle them with kosher salt (if using).
 10. **Roast:** Roast until the skin is crisp and the chicken reaches 165°F, 12 to 15 minutes. With vegetables, roast 15 to 18 minutes, until they are fork-tender.
 11. **Rest and serve:** Let the chicken rest for 5 minutes. Taste the sauce and add salt or lemon if it needs it, then scatter fresh parsley over the top.
+

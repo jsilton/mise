@@ -146,7 +146,7 @@ learning:
   substitutions:
     - ingredient: egg white
       alternative: Pasteurized egg whites
-      effect: Use the same amount from a carton. The foam is a little thinner.
+      effect: Use the same amount from a carton for anyone who avoids raw egg. The foam is a little thinner.
     - ingredient: New York Sour
       alternative: Red wine float
       effect: >-

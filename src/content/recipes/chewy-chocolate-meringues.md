@@ -22,7 +22,7 @@ cookTime: 50 min
 totalTime: '1 hr 10 min, plus cooling'
 servings: 36 cookies
 ingredients:
-  - 1 cup egg whites (from about 8 large eggs)
+  - 1 cup egg whites (about 8 large eggs)
   - 2 cups granulated sugar
   - pinch of kosher salt
   - 1/2 tsp cream of tartar

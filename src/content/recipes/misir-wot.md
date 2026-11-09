@@ -49,7 +49,7 @@ ingredients:
   - 3 tbsp niter kibbeh (Ethiopian spiced butter)
   - '2 large red onions, finely diced'
   - '4 garlic cloves, minced'
-  - '1-inch piece fresh ginger, grated'
+  - '1 (1-inch) piece fresh ginger, grated'
   - '3 tbsp berbere, plus more to taste'
   - 2 tbsp tomato paste
   - '1 tsp kosher salt, plus more to taste'
