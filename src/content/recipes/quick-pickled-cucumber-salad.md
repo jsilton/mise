@@ -25,7 +25,7 @@ nutritionalDensity: light
 leftovers: excellent
 prepTime: 10 min
 cookTime: 0 min
-totalTime: 'About 15–20 min, including the short rests'
+totalTime: 'About 35 min, including the salt and dressing rests'
 servings: '4'
 pairsWith:
   - thai-basil-chicken-pad-kra-pao
@@ -41,7 +41,7 @@ ingredients:
   - '1/2 tsp Gochugaru (Korean red pepper flakes, optional)'
   - '2 scallions, thinly sliced'
   - Sesame Seeds for garnish
-  - '1/4 tsp Kosher Salt, for the cucumber salt rest'
+  - '1 tsp Kosher Salt, for the cucumber salt rest'
 learning:
   focus: 'Treat the short vinegar rest as salad preparation, with cold storage.'
   outcome: Thin cucumber slices with full sesame-soy dressing and fresh scallions.
@@ -54,14 +54,14 @@ learning:
       regular-cucumber estimate varies with size. Scaling changes the
       ingredients, not slice thickness or resting minutes.
     - >-
-      Drain pooled salting liquid without rinsing or squeezing the cucumbers. Use all the listed
+      Drain the salting liquid and gently squeeze the cucumbers without rinsing. Use all the listed
       vinegar, oil and sugar in the dressing.
   checkpoints:
     - step: 3
-      cue: Only pooled salt-rest liquid is drained before all dressing is added.
+      cue: The salted cucumbers are drained and gently squeezed before all dressing is added.
       why: >-
-        The brief rest can release some water but cannot prevent later cucumber
-        juices.
+        Salting draws out much of the water up front so the dressing stays
+        concentrated instead of turning watery.
   troubleshooting:
     - problem: The bowl becomes watery later.
       cause: Cucumbers continued releasing water into the dressing.
@@ -69,8 +69,9 @@ learning:
         Toss again before serving or assemble nearer service. Keep the salad refrigerated;
         adding salt or acid does not replace cold storage.
   timing: >-
-    Allow about 15–20 minutes for slicing, dressing and the two- and five-minute
-    rests; the optional two-hour cold rest is extra elapsed time.
+    Allow about 35 minutes for slicing, the 15–20-minute salt rest, dressing and
+    the five-minute rest; mix the dressing during the salt rest. The optional
+    two-hour cold rest is extra elapsed time.
   storage: >-
     Keep the salad at 40°F or below. Refrigerate promptly in shallow covered
     containers, within 2 hours of preparation or 1 hour above 90°F. Keep serving
@@ -99,11 +100,11 @@ Thin cucumber slices take on the full rice-vinegar, soy and sesame dressing afte
 
 ## Directions
 
-1. **Prepare the cucumbers:** Wash the cucumbers under running water, then slice into thin rounds or half-moons, about 1/8 inch thick. Use the listed cucumber weight; the four-to-five regular-cucumber note describes the original batch only and is not a fixed size-to-weight equivalence. Toss with all the listed kosher salt and rest about 2 minutes as a first check. This short salt rest is not a guarantee against later liquid release.
+1. **Prepare the cucumbers:** Wash the cucumbers under running water, then slice into thin rounds or half-moons, about 1/8 inch thick. Use the listed cucumber weight; the four-to-five regular-cucumber note describes the original batch only and is not a fixed size-to-weight equivalence. Toss with all the listed kosher salt in a colander set over a bowl and rest 15–20 minutes, until the slices are limp and liquid has collected.
 
 2. **Mix the dressing:** Whisk all the rice vinegar, soy sauce, sesame oil, sugar and minced garlic together until the sugar is dissolved. Keep the full listed oil and sugar; this mixture flavors the salad rather than establishing preservation acidity.
 
-3. **Combine:** Drain only any liquid that has pooled from the salted cucumbers; do not add a rinse or squeeze. Put the cucumber slices in a clean bowl, pour over all the dressing and toss gently.
+3. **Combine:** Discard the liquid from the salted cucumbers, then gently squeeze them by handfuls to remove more water; do not rinse. Put the cucumber slices in a clean bowl, pour over all the dressing and toss gently.
 
 4. **Rest:** Rest about 5 minutes before immediate service, or cover and refrigerate for up to 2 hours before finishing. The longer cold wait changes texture and liquid release; it does not make a shelf-stable pickle.
 

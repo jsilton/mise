@@ -34,8 +34,8 @@ pairsWith:
   - roasted-root-vegetables
 ingredients:
   - 1 lb dry bucatini or spaghetti
-  - 1 cup fresh whole-milk ricotta
-  - '1/2 cup extra-virgin olive oil, including any finishing drizzle'
+  - 1 1/2 cups fresh whole-milk ricotta
+  - '1/4 cup extra-virgin olive oil, plus about 1 tbsp for a finishing drizzle'
   - 1/2 cup freshly grated Pecorino Romano
   - '1 lemon, zested before juicing'
   - 1/2 tsp red pepper flakes
@@ -112,8 +112,7 @@ learning:
     - problem: Finish is oily
       cause: Oil did not disperse evenly or extra oil was poured on top.
       fix: >-
-        Toss with a little more warm water and do not add a finishing drizzle
-        unless it was reserved from the listed amount.
+        Toss with a little more warm water and skip the finishing drizzle.
   substitutions:
     - ingredient: Pecorino Romano
       alternative: The same grated volume of Parmesan or a vegetarian-rennet hard cheese
@@ -153,13 +152,13 @@ sourceUrl: 'https://www.delish.com/cooking/recipe-ideas/a26830130/ricotta-pasta-
 
 ## Chef's Note
 
-Ricotta, Pecorino and a generous measure of olive oil make this a rich sauce. Whisk it while the pasta boils, then loosen with hot cooking water and toss in a bowl. Cook the pasta to the texture you want before draining: the off-heat finish will coat it, not replace another minute of boiling.
+Ricotta, Pecorino and olive oil make this a rich, creamy sauce. The ricotta leads, so the sauce stays creamy rather than greasy. Whisk it while the pasta boils, then loosen with hot cooking water and toss in a bowl. Cook the pasta to the texture you want before draining: the off-heat finish will coat it, not replace another minute of boiling.
 
 ## Directions
 
-1. **Start water and sauce:** Bring a large pot of water to a boil and season moderately with salt; the Pecorino will also season the dish. Zest then juice the lemon. If you want a finishing drizzle, set aside a little of the measured oil first. In a large heatproof bowl, whisk ricotta, the remaining oil, Pecorino, zest, **half the lemon juice** and pepper flakes.
+1. **Start water and sauce:** Bring a large pot of water to a boil and season moderately with salt; the Pecorino will also season the dish. Zest then juice the lemon. Keep the finishing oil separate. In a large heatproof bowl, whisk ricotta, the 1/4 cup oil, Pecorino, zest, **half the lemon juice** and pepper flakes.
 2. **Cook to tenderness:** Add pasta and stir as it softens. Follow package timing, tasting a strand near the end. Cook until tender with a little bite and no hard center. Before draining, scoop out **the listed cooking-water reserve**. Drain without rinsing.
 3. **Loosen the sauce:** Whisk about **one-quarter of the reserved water** into the ricotta mixture. Add more a little at a time only if it is still too stiff to fold through the pasta.
-4. **Toss and finish:** Add hot pasta to the bowl and toss thoroughly, adding further warm cooking water in small splashes until coated and slightly loose. Fold in basil and black pepper. Taste a complete bite, then add remaining lemon juice and salt only as needed. Use any oil deliberately reserved for finishing and serve promptly.
+4. **Toss and finish:** Add hot pasta to the bowl and toss thoroughly, adding further warm cooking water in small splashes until coated and slightly loose. Fold in basil and black pepper. Taste a complete bite, then add remaining lemon juice and salt only as needed. Drizzle with the finishing oil and serve promptly.
 
 Adapted from [Delish’s Lemon Ricotta Pasta](https://www.delish.com/cooking/recipe-ideas/a26830130/ricotta-pasta-recipe/).

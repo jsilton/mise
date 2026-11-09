@@ -39,8 +39,8 @@ ingredients:
   - 2 tbsp light brown sugar
   - 1 1/2 tsp baking powder
   - 1/2 tsp salt
-  - '12 tbsp (1 1/2 sticks) unsalted butter, cold, cut into small cubes'
-  - 3/8 cup (6 tbsp) half-and-half
+  - '8 tbsp (1 stick) unsalted butter, cold, cut into small cubes'
+  - 1/2 cup (8 tbsp) half-and-half
   - '--- Berries and sauce ---'
   - 12 oz raspberries
   - 12 oz blackberries
@@ -108,10 +108,10 @@ formula:
           key: unsalted-butter
           name: unsalted butter
           quantity:
-            amount: 12
+            amount: 8
             unit: tbsp
           equivalents:
-            - amount: 1 1/2
+            - amount: 1
               unit: stick
           preparation: 'cold, cut into small cubes'
           uses:
@@ -121,10 +121,10 @@ formula:
           key: half-and-half
           name: half-and-half
           quantity:
-            amount: 3/8
+            amount: 1/2
             unit: cup
           equivalents:
-            - amount: 6
+            - amount: 8
               unit: tbsp
           uses:
             - step: dough

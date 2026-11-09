@@ -27,16 +27,17 @@ pairsWith:
 ingredients:
   - '--- Beef ---'
   - '3 lb boneless beef chuck roast, fully thawed, cut into 1-inch cubes'
+  - '1 yellow onion, thinly sliced'
   - '--- Soy-ginger sauce ---'
   - 1 cup beef broth
   - 1/2 cup low-sodium soy sauce
-  - '1/2 cup light brown sugar, packed'
+  - '1/3 cup light brown sugar, packed'
   - '4 garlic cloves, minced'
   - 1 tbsp toasted sesame oil
   - 1 tbsp rice wine vinegar
   - '1 tbsp fresh ginger, grated'
-  - 1 tsp Sriracha
-  - 1/2 tsp onion powder
+  - 1–2 tbsp gochujang
+  - '1/2 Asian pear, peeled, cored and finely grated'
   - 1/2 tsp white pepper
   - '--- Cornstarch slurry ---'
   - 2 tbsp cornstarch
@@ -71,6 +72,17 @@ formula:
             - step: cook
               share: 1
           preparation: 'fully thawed, cut into 1-inch cubes'
+        - id: onion
+          key: yellow-onion
+          name: yellow onion
+          quantity:
+            amount: 1
+            unit: count
+          plural: yellow onions
+          preparation: thinly sliced
+          uses:
+            - step: cook
+              share: 1
     - id: sauce
       name: Soy-ginger sauce
       ingredients:
@@ -96,7 +108,7 @@ formula:
           key: sugar
           name: light brown sugar
           quantity:
-            amount: 1/2
+            amount: 1/3
             unit: cup
           uses:
             - step: sauce
@@ -141,21 +153,24 @@ formula:
             - step: sauce
               share: 1
           preparation: grated
-        - id: sriracha
-          key: sriracha
-          name: Sriracha
+        - id: gochujang
+          key: gochujang
+          name: gochujang
           quantity:
             amount: 1
-            unit: tsp
+            max: 2
+            unit: tbsp
           uses:
             - step: sauce
               share: 1
-        - id: onion
-          key: onion
-          name: onion powder
+        - id: pear
+          key: asian-pear
+          name: Asian pear
           quantity:
             amount: 1/2
-            unit: tsp
+            unit: count
+          plural: Asian pears
+          preparation: 'peeled, cored and finely grated'
           uses:
             - step: sauce
               share: 1
@@ -226,37 +241,36 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Keep fully thawed beef refrigerated until preparation. Check the actual
-        6-quart cooker’s load instructions, then cut the chuck into the listed
-        1-inch cubes. Start promptly after loading; do not use a delayed timer.
+        Keep fully thawed beef refrigerated until preparation. Check the actual 6-quart cooker’s
+        load instructions, then cut the chuck into the listed 1-inch cubes. Start promptly after
+        loading; do not use a delayed timer.
     - id: sauce
       title: Mix the sauce
       text: >-
-        Whisk {{ingredients}} in a bowl until the sugar is dispersed. Sriracha
-        enters this sauce, rather than being required again at finishing.
+        Whisk {{ingredients}} in a bowl until the sugar and gochujang are dispersed. Gochujang
+        enters this sauce, rather than being required again at finishing. The grated pear sweetens
+        the sauce and helps tenderize the beef.
     - id: cook
       title: Slow cook
       text: >-
-        Put {{ingredients}} in the cooker and add all the sauce. Cover and cook
-        on LOW for 7–8 hours or HIGH for 3–4 hours as planning ranges, until the
-        chuck is fork-tender and pulls apart easily. Check beef has reached at
-        least 145°F / 63°C with a three-minute rest before serving; tender chuck
-        commonly needs substantially more cooking than the minimum. Keep covered
-        except for necessary doneness checks.
+        Put {{ingredients}} in the cooker and add all the sauce. Cover and cook on LOW for 7–8 hours
+        or HIGH for 3–4 hours as planning ranges, until the chuck is fork-tender and pulls apart
+        easily. Check beef has reached at least 145°F / 63°C with a three-minute rest before
+        serving; tender chuck commonly needs substantially more cooking than the minimum. Keep
+        covered except for necessary doneness checks.
     - id: slurry
       title: Thicken at the end
       text: >-
-        Whisk {{ingredients}} smooth in a small bowl immediately before adding;
-        cornstarch settles while standing. Stir all the slurry into the hot beef
-        and sauce. Cover and cook on HIGH, starting to check around 30 minutes;
-        continue until the sauce is hot and thickened enough to coat the beef,
-        allowing longer if still thin.
+        Whisk {{ingredients}} smooth in a small bowl immediately before adding; cornstarch settles
+        while standing. Stir all the slurry into the hot beef and sauce. Cover and cook on HIGH,
+        starting to check around 30 minutes; continue until the sauce is hot and thickened enough to
+        coat the beef, allowing longer if still thin.
     - id: serve
       title: Serve
       text: >-
-        Use {{ingredients}}: distribute the scallions over the beef and add the
-        measured sesame seeds if wanted. Serve with the separately prepared
-        rice. Rice cooking time is additional if it is not already ready.
+        Use {{ingredients}}: distribute the scallions over the beef and add the measured sesame
+        seeds if wanted. Serve with the separately prepared rice. Rice cooking time is additional if
+        it is not already ready.
 equipment:
   - slow-cooker
   - mixing-bowl
@@ -264,57 +278,56 @@ equipment:
   - food-thermometer
 learning:
   focus: Cook chuck tender before thickening the full sauce
-  outcome: >-
-    Fork-tender chuck in soy-ginger sauce, finished with scallions and optional
-    sesame.
+  outcome: 'Fork-tender chuck in soy-ginger sauce, finished with scallions and optional sesame.'
   techniques:
     - braising
     - starch
   before:
     - >-
-      Use a cooker whose instructions permit the actual food load, liquid and
-      meat size. Follow your cooker’s stated minimum and maximum fill limits. A
-      larger recipe needs suitable capacity or separate appropriately filled
-      cookers, with all measured ingredients divided across them. Keep the lid
-      closed except for necessary additions/checks, and do not multiply cooking
-      time with servings or cook on WARM.
+      Use a cooker whose instructions permit the actual food load, liquid and meat size. Follow your
+      cooker’s stated minimum and maximum fill limits. A larger recipe needs suitable capacity or
+      separate appropriately filled cookers, with all measured ingredients divided across them. Keep
+      the lid closed except for necessary additions/checks, and do not multiply cooking time with
+      servings or cook on WARM.
     - >-
-      Keep fully thawed beef refrigerated until preparation; add the cool slurry
-      only after the chuck is tender.
+      Keep fully thawed beef refrigerated until preparation; add the cool slurry only after the
+      chuck is tender.
   checkpoints:
     - step: 3
-      cue: >-
-        Chuck cubes pull apart readily and the temperature/rest checkpoint is
-        met.
-      why: >-
-        Chuck tenderness requires connective-tissue cooking beyond merely
-        reaching the minimum.
+      cue: Chuck cubes pull apart readily and the temperature/rest checkpoint is met.
+      why: Chuck tenderness requires connective-tissue cooking beyond merely reaching the minimum.
     - step: 4
       cue: The added slurry has heated and the sauce coats the beef.
-      why: >-
-        Unheated cornstarch cannot thicken just because it was stirred into the
-        cooker.
+      why: Unheated cornstarch cannot thicken just because it was stirred into the cooker.
   troubleshooting:
     - problem: Sauce remains thin at the first thickening check.
       cause: The cooker may need longer to recover heat after the slurry addition.
       fix: >-
-        Continue covered on HIGH, checking hot thickening before deciding it
-        needs another ingredient; do not automatically double the measured
-        cornstarch.
+        Continue covered on HIGH, checking hot thickening before deciding it needs another
+        ingredient; do not automatically double the measured cornstarch.
+  substitutions:
+    - ingredient: Asian pear
+      alternative: 'Half a sweet apple, such as Fuji or Gala, peeled and finely grated'
+      effect: >-
+        Gives similar fruity sweetness with a slightly tarter edge. Asian pear has a gentler
+        tenderizing effect that apple only partly matches.
+    - ingredient: Gochujang
+      alternative: 1 to 2 tsp Sriracha
+      effect: >-
+        Brings heat and garlic but none of gochujang's fermented depth or body. The sauce will be
+        thinner and sharper.
   storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below,
-    within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on
-    the stove, in the microwave or oven outside the slow cooker, stirring or
-    turning as appropriate for even heating and checking 165°F / 74°C
-    throughout; do not use the slow cooker to reheat cold leftovers. USDA
-    additionally recommends a rolling boil for reheated sauce; stir and keep the
-    boil brief, since prolonged reduction concentrates this thick, sweet-salty
-    sauce. If holding cooked food in the cooker, maintain at least 140°F / 60°C
-    and follow its holding instructions.
+    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1
+    hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven
+    outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F
+    / 74°C throughout; do not use the slow cooker to reheat cold leftovers. USDA additionally
+    recommends a rolling boil for reheated sauce; stir and keep the boil brief, since prolonged
+    reduction concentrates this thick, sweet-salty sauce. If holding cooked food in the cooker,
+    maintain at least 140°F / 60°C and follow its holding instructions.
   timing: >-
-    About 7 hr 45 min–8 hr 45 min LOW or 3 hr 45 min–4 hr 45 min HIGH includes
-    preparation and finishing; cooking ranges include cooker heat-up, with
-    additional time if tenderness requires it.
+    About 7 hr 45 min–8 hr 45 min LOW or 3 hr 45 min–4 hr 45 min HIGH includes preparation and
+    finishing; cooking ranges include cooker heat-up, with additional time if tenderness requires
+    it.
   sources:
     - title: Chungah Rhee — Slow cooker Korean beef
       url: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
@@ -325,8 +338,7 @@ learning:
       url: >-
         https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf
     - title: FoodSafety.gov — Safe minimum temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -337,13 +349,13 @@ learning:
 
 ## Chef's Note
 
-Chuck cubes need long cooking for tenderness. The soy, ginger and brown-sugar sauce thickens with a cool cornstarch slurry near the end; keep its water separate from the broth. The scallions and optional sesame seeds finish the bowl. For a milder portion, reduce or omit Sriracha.
+Chuck cubes need long cooking for tenderness. The soy, ginger and brown-sugar sauce thickens with a cool cornstarch slurry near the end; keep its water separate from the broth. The scallions and optional sesame seeds finish the bowl. For a milder portion, use the smaller amount of gochujang.
 
 ## Directions
 
 1. **Prepare:** Keep fully thawed beef refrigerated until preparation. Check the actual 6-quart cooker’s load instructions, then cut the chuck into the listed 1-inch cubes. Start promptly after loading; do not use a delayed timer.
-2. **Mix the sauce:** Whisk beef broth, low-sodium soy sauce, light brown sugar, garlic cloves, toasted sesame oil, rice wine vinegar, fresh ginger, Sriracha, onion powder, and white pepper in a bowl until the sugar is dispersed. Sriracha enters this sauce, rather than being required again at finishing.
-3. **Slow cook:** Put boneless beef chuck roast in the cooker and add all the sauce. Cover and cook on LOW for 7–8 hours or HIGH for 3–4 hours as planning ranges, until the chuck is fork-tender and pulls apart easily. Check beef has reached at least 145°F / 63°C with a three-minute rest before serving; tender chuck commonly needs substantially more cooking than the minimum. Keep covered except for necessary doneness checks.
+2. **Mix the sauce:** Whisk beef broth, low-sodium soy sauce, light brown sugar, garlic cloves, toasted sesame oil, rice wine vinegar, fresh ginger, gochujang, Asian pear, and white pepper in a bowl until the sugar and gochujang are dispersed. Gochujang enters this sauce, rather than being required again at finishing. The grated pear sweetens the sauce and helps tenderize the beef.
+3. **Slow cook:** Put boneless beef chuck roast and yellow onion in the cooker and add all the sauce. Cover and cook on LOW for 7–8 hours or HIGH for 3–4 hours as planning ranges, until the chuck is fork-tender and pulls apart easily. Check beef has reached at least 145°F / 63°C with a three-minute rest before serving; tender chuck commonly needs substantially more cooking than the minimum. Keep covered except for necessary doneness checks.
 4. **Thicken at the end:** Whisk cornstarch and water smooth in a small bowl immediately before adding; cornstarch settles while standing. Stir all the slurry into the hot beef and sauce. Cover and cook on HIGH, starting to check around 30 minutes; continue until the sauce is hot and thickened enough to coat the beef, allowing longer if still thin.
 5. **Serve:** Use scallions, sesame seeds (if using), and cooked jasmine rice (if using): distribute the scallions over the beef and add the measured sesame seeds if wanted. Serve with the separately prepared rice. Rice cooking time is additional if it is not already ready.
 

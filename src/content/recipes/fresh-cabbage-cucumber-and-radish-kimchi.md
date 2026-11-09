@@ -35,9 +35,9 @@ ingredients:
   - '1 1/4 lbs daikon radish, peeled and cut into 1/2-inch pieces'
   - '20 medium radishes, quartered'
   - '67 g kosher salt, for salting the vegetables; weigh this amount for any brand'
-  - '4 oz fresh ginger, peeled and coarsely chopped'
+  - '1 1/2 oz fresh ginger, peeled and coarsely chopped'
   - 1/2 cup gochugaru (Korean red chile flakes)
-  - '6 large garlic cloves, chopped'
+  - '12 large garlic cloves, chopped'
   - 1/4 cup plus 2 tbsp unseasoned rice vinegar
   - 3 tbsp toasted sesame oil
   - 3 tbsp fish sauce

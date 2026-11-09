@@ -37,6 +37,8 @@ ingredients:
   - '1 tsp Toasted Sesame Oil, for the filling'
   - 'Additional Toasted Sesame Oil, a few drops per serving bowl'
   - '1 tbsp Light Soy Sauce, for the filling'
+  - '2 tsp Shaoxing Wine, for the filling'
+  - '1/4 tsp Ground White Pepper, for the filling'
   - '4 tsp Light Soy Sauce, for the bowls, or less to taste'
   - '1 inch Fresh Ginger, grated'
   - '3 Scallions, chopped'
@@ -49,7 +51,7 @@ ingredients:
   - 'Baby Bok Choy or Spinach, as desired'
   - 'Chopped Fresh Coriander, for garnish'
   - '1 tbsp Black Vinegar, for serving, optional'
-  - '1 tsp Salt, for the filling'
+  - '1/2 tsp Salt, for the filling'
   - '1 small bunch Fresh Coriander, finely chopped, for the filling'
 origin: China
 source: Adapted from Chinasichuanfood.com
@@ -102,7 +104,11 @@ learning:
         air and keep wrappers covered while working. Cook manageable batches
         with room to move; check filling temperature rather than relying on
         flotation.
-  substitutions: []
+  substitutions:
+    - ingredient: Shaoxing wine
+      alternative: The same amount of dry sherry
+      effect: >-
+        Close in nutty, savory aroma. Avoid cooking sherry, which is salted.
   timing: >-
     Plan about 40–65 minutes with prepared broth and wrappers, including roughly
     30–45 minutes active preparation. Heat-up, wrapper thickness and batch count
@@ -140,7 +146,7 @@ Keep waiting raw filling and assembled dumplings refrigerated, working with smal
 
 ## Directions
 
-1.  **The Filling:** In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, the filling sesame oil, the filling salt and the finely chopped filling coriander. Stir vigorously in one direction for 3 minutes until sticky.
+1.  **The Filling:** In a large bowl, combine pork, shrimp, ginger, scallions, egg white, the filling soy sauce, Shaoxing wine, white pepper, the filling sesame oil, the filling salt and the finely chopped filling coriander. Stir vigorously in one direction for 3 minutes until sticky.
 2.  **Assemble:** Place 1 tsp filling in the center of a prepared wonton wrapper. If making [Fresh Wonton Wrappers](/mise/recipes/fresh-wonton-wrappers), allow their preparation and resting time separately. Dab edges with water, fold into a triangle, and pinch the corners together.
 3.  **The Base:** Heat the prepared broth in a saucepan. Divide the nori among the listed number of serving bowls and add a few drops of sesame oil to each. Divide the total bowl soy sauce among the servings, using less if needed, tasting with a little broth first because the broth is already seasoned.
 4.  **Boil:** Bring a separate pot of water to a gentle boil. Add the wontons in batches without crowding. Start checking after 3-4 minutes; floating alone does not establish doneness. Check several wontons with a thin-tip thermometer inserted into the center of the filling and continue until they reach 165°F / 74°C. Cook the greens in the hot broth until tender.

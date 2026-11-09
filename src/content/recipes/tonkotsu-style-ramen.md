@@ -63,8 +63,9 @@ ingredients:
   - '10 cups water to start, plus more to cover the bones and replace evaporation'
   - 'Kosher salt, to taste after combining the broth and tare'
   - '--- The Tare (Flavor Concentrate) ---'
-  - 3 tbsp soy sauce
-  - 1 tbsp white miso paste
+  - 1/2 cup soy sauce
+  - 3 tbsp white miso paste
+  - 1 tbsp mirin
   - 1 tsp toasted sesame oil
   - '--- Bowls and Toppings ---'
   - '4 large eggs, refrigerated; use pasteurized shell eggs for the optional jammy yolks'
@@ -160,6 +161,10 @@ learning:
       effect: >-
         Use lightly seasoned meat; smoky or sweet barbecue sauce changes the broth. Reheat the
         cooked topping to 165°F / 74°C before assembly and account for its seasoning when tasting.
+    - ingredient: Mirin
+      alternative: 1 tbsp water plus 1 tsp sugar
+      effect: >-
+        Rounds the soy the same way but without mirin's gentle rice-wine aroma.
     - ingredient: Pasteurized shell eggs for jammy yolks
       alternative: Ordinary shell eggs cooked until both whites and yolks are firm
       effect: >-
@@ -229,7 +234,7 @@ Inspired by Fukuoka's pork-bone ramen, this bowl pairs a rich, opaque broth with
 
 ### The Tare (Flavor Base)
 
-10. **Make the Tare:** Whisk all the soy sauce, white miso and sesame oil together until smooth. This makes approximately 4 1/3 tbsp: enough for 1 tbsp in each of four bowls, with 1 tsp left for adjustments across the whole batch. Cover and refrigerate if making ahead, then stir thoroughly before portioning. Judge the saltiness after mixing with broth.
+10. **Make the Tare:** Whisk all the soy sauce, white miso, mirin and sesame oil together until smooth. This makes about 3/4 cup (roughly 12 tbsp): enough for 2 1/2 tbsp in each of four bowls, with about 2 tbsp left for adjustments across the whole batch. Cover and refrigerate if making ahead, then stir thoroughly before portioning. Judge the saltiness after mixing with broth.
 
 ### Finish the Bowls
 
@@ -237,9 +242,9 @@ Inspired by Fukuoka's pork-bone ramen, this bowl pairs a rich, opaque broth with
 
 12. **Prepare Greens and Warm Pork:** While the kombu steeps, bring the noodle pot's separate cooking water to a boil. Add the bok choy for about 2–3 minutes, until the stems are tender-crisp and the leaves wilted; lift it out and drain. In the small saucepan, heat the cooked chashu or pulled pork with the 2 tbsp water, covered, turning or stirring as needed until it reaches 165°F / 74°C throughout. Keep it covered and hot for immediate assembly. Have the scallions, nori, sesame and any optional toppings ready before cooking the noodles.
 
-13. **Prepare the Bowls:** For a full six-cup batch, warm four bowls with hot water, then empty and dry them. Stir the tare and put 1 tbsp into each bowl; reserve the remaining 1 tsp total. If making fewer full bowls, portion only the noodles and toppings you need and refrigerate unused perishable components promptly.
+13. **Prepare the Bowls:** For a full six-cup batch, warm four bowls with hot water, then empty and dry them. Stir the tare and put 2 1/2 tbsp into each bowl. Reserve the remaining tare, about 2 tbsp total. If making fewer full bowls, portion only the noodles and toppings you need and refrigerate unused perishable components promptly.
 
-14. **Season and Cook Noodles:** Bring the strained broth back to a boil; chilled broth must reach 165°F / 74°C throughout. Return the separate noodle water to a boil and cook the ramen according to its package timing. As the noodles finish, add 1 1/2 cups hot broth to each prepared bowl and mix with its tare. Taste the diluted broth and adjust with the reserved tare or small pinches of salt, considering the saltiness of the pork and optional menma. Drain noodles thoroughly as soon as they are springy and cooked, then divide among the bowls. Do not use poured-over broth to cook ordinary dried noodles.
+14. **Season and Cook Noodles:** Bring the strained broth back to a boil; chilled broth must reach 165°F / 74°C throughout. Return the separate noodle water to a boil and cook the ramen according to its package timing. As the noodles finish, add 1 1/2 cups hot broth to each prepared bowl and mix with its tare. Taste the diluted broth and adjust with the reserved tare, then fine-tune with small pinches of salt, considering the saltiness of the pork and optional menma. Drain noodles thoroughly as soon as they are springy and cooked, then divide among the bowls. Do not use poured-over broth to cook ordinary dried noodles.
 
 15. **Add the Toppings:** Divide the warm pork and bok choy among the bowls and add two egg halves to each. Scatter all the scallions, sesame seeds and nori evenly over the four bowls. If using, divide the drained bamboo shoots and garlic chips among them, then drizzle with the chili oil to taste, up to the listed tablespoon across the batch.
 
@@ -249,5 +254,5 @@ Inspired by Fukuoka's pork-bone ramen, this bowl pairs a rich, opaque broth with
 
 - **Make-ahead broth:** Divide broth into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3 days and reheat to 165°F / 74°C throughout before serving. A solid fat layer does not replace rapid cooling or refrigeration. It also freezes beautifully for up to 2 months.
 - **Cook in stages:** The broth and cooked pork can be prepared ahead and chilled separately. Reheat each fully before assembly; make the eggs and noodles close to serving. Making chashu from scratch is a separate cooking project.
-- **Season bowl by bowl:** This tare supplies 1 tbsp per 1 1/2 cups broth, with only 1 tsp spare across four bowls. Taste that mixture before adding salt; the concentrated tare alone cannot tell you how the soup will taste.
+- **Season bowl by bowl:** This tare supplies 2 1/2 tbsp per 1 1/2 cups broth, with about 2 tbsp spare across four bowls. Taste that mixture before adding salt; the concentrated tare alone cannot tell you how the soup will taste.
 - **Fresh contrast:** Scallions and tender-crisp greens break up the richness. A small cucumber salad alongside gives a cool, sharp contrast without changing the broth.

@@ -43,20 +43,22 @@ ingredients:
   - '400 g drained extra-firm tofu, pressed and cut into 3/4-inch cubes'
   - '2 tbsp neutral oil, for roasting eggplant'
   - '2 tbsp neutral oil, for pan-frying tofu'
-  - '1 tsp neutral oil, for aromatics'
+  - '1 tbsp neutral oil, for aromatics and doubanjiang'
   - '2 tbsp (16 g) cornstarch, for coating tofu'
   - 1/4 cup (60 ml) unsalted vegetable broth or water
   - 2 tbsp reduced-sodium soy sauce
-  - 2 tbsp unseasoned rice vinegar
+  - 2 tbsp Chinkiang black vinegar
   - 1 1/2 tbsp (18 g) granulated sugar
   - >-
     1 tsp cornstarch, for the sauce, mixed with the separately measured cold
     slurry water
   - '2 tsp cold water, for the sauce slurry'
+  - 1 1/2 tbsp doubanjiang (Sichuan chili bean paste)
   - 1 tbsp finely minced fresh ginger
   - '2 cloves garlic, finely minced'
   - '1 Thai bird chili, finely sliced, optional; remove seeds for less heat'
   - 2 tsp toasted sesame oil
+  - '1/2 tsp ground toasted Sichuan peppercorns'
   - '1 tsp fresh lime juice, optional, only if wanted after tasting'
   - '20 g scallions, thinly sliced'
   - '1 tbsp chopped cilantro, optional'
@@ -123,11 +125,26 @@ learning:
       effect: >-
         Usually needs drying rather than a long press. Its center will be denser
         and chewier; it is not silken tofu.
+    - ingredient: Doubanjiang (Sichuan chili bean paste)
+      alternative: 1 1/2 tbsp Asian chili garlic sauce
+      effect: >-
+        Keeps the chili heat and garlic but loses the fermented-bean depth and
+        red color. Taste for salt at the end and add a splash of soy if flat.
+    - ingredient: Chinkiang black vinegar
+      alternative: 1 1/2 tbsp unseasoned rice vinegar plus 1/2 tbsp balsamic vinegar
+      effect: >-
+        Close to the malty, rounded sourness of black vinegar, with a slightly
+        sweeter finish.
+    - ingredient: Ground Sichuan peppercorns
+      alternative: Omit them, or use a pinch of freshly ground black pepper
+      effect: >-
+        Loses the citrusy, tingling note. Leave them off the children's portions
+        if the tingle is unwelcome.
     - ingredient: Thai bird chili
       alternative: Omit it
       effect: >-
-        Gives a mild sweet-sour garlic sauce. Lime changes acidity and does not
-        cancel chili heat.
+        Leaves the gentler heat of the doubanjiang alone. Lime changes acidity
+        and does not cancel chili heat.
   timing: >-
     About one hour includes fifteen-minute pressing during preparation, oven
     heating, 25–35 minutes roasting and tofu frying during that roast. Sauce is
@@ -162,14 +179,14 @@ sourceUrl: >-
 
 ## Chef's Note
 
-Roasting makes eggplant tender while tofu browns in a measured amount of pan oil. A short final toss gives both a sweet-sour garlic coating. The texture contrast is silky eggplant against firmer browned tofu; the sauce will soften the starch crust, so serve soon after coating.
+Roasting makes eggplant tender while tofu browns in a measured amount of pan oil. A short final toss gives both a coating of chili bean paste, black vinegar and garlic, with a light tingle from Sichuan pepper. The texture contrast is silky eggplant against firmer browned tofu; the sauce will soften the starch crust, so serve soon after coating.
 
 ## Directions
 
 1. **Heat and press:** Heat oven to 425°F / 220°C. Drain tofu and press gently between clean towels under a plate for fifteen minutes while you cut eggplant and measure the sauce ingredients. Cut pressed tofu into 3/4-inch cubes and pat dry.
 2. **Roast eggplant:** Toss eggplant with its 2 tbsp roasting oil and spread in one layer on a rimmed sheet. Roast 25–35 minutes, turning around halfway, until browned and thoroughly tender. Use a fork to check centers. If it finishes before the tofu, take it out and hold briefly on the tray.
-3. **Mix sauce:** Stir broth, soy sauce, rice vinegar and sugar together. Mix the separate sauce cornstarch with its measured cold slurry water. Keep ginger, garlic and optional chili ready beside the stove.
+3. **Mix sauce:** Stir broth, soy sauce, black vinegar and sugar together. Mix the separate sauce cornstarch with its measured cold slurry water. Keep doubanjiang, ginger, garlic and optional chili ready beside the stove.
 4. **Brown tofu during the roast:** Toss dry tofu with the 2 tbsp coating cornstarch and shake off loose excess. Heat its 2 tbsp frying oil in a large skillet over medium-high. Add tofu in one layer and cook about 10–15 minutes total, turning carefully until several faces are golden and no dry coating remains. Transfer to a plate. Use another batch if pieces cannot fit with space.
-5. **Make the sauce when both components are ready:** Wipe away loose or burned starch carefully. Lower heat to medium, add the separate teaspoon oil, then ginger and optional chili for 20 seconds. Add garlic and stir another 20 seconds. Pour in the broth mixture and bring to a simmer. Stir the slurry again, add half, and simmer 20–30 seconds. Add more only if needed for a light coating; discard unused slurry.
-6. **Combine gently:** Fold in roasted eggplant and browned tofu and heat briefly until coated. If tight, loosen with a tablespoon of hot water. Take off heat and add sesame oil. Taste before optional lime juice.
+5. **Make the sauce when both components are ready:** Wipe away loose or burned starch carefully. Lower heat to medium, add the separate tablespoon of oil and the doubanjiang, and stir about 1 minute until the oil turns red and smells fragrant. Add ginger and optional chili for 20 seconds, then garlic for another 20 seconds. Pour in the broth mixture and bring to a simmer. Stir the slurry again, add half, and simmer 20–30 seconds. Add more only if needed for a light coating; discard unused slurry.
+6. **Combine gently:** Fold in roasted eggplant and browned tofu and heat briefly until coated. If tight, loosen with a tablespoon of hot water. Take off heat and add sesame oil and ground Sichuan pepper. Taste before optional lime juice.
 7. **Serve:** Fold in scallions and optional cilantro, then divide into four portions with plain rice prepared separately. Serve promptly for the best remaining tofu texture.

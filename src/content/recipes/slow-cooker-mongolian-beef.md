@@ -5,8 +5,8 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: About 15 min active
-cookTime: 2–3 hr HIGH or 4–5 hr LOW
-totalTime: About 2 hr 15 min–3 hr 15 min HIGH or 4 hr 15 min–5 hr 15 min LOW
+cookTime: About 1 1/2–2 hr HIGH
+totalTime: About 1 hr 45 min–2 hr 15 min
 servings: '5'
 cookingMethods:
   - slow-cook
@@ -44,8 +44,8 @@ learning:
       maximum fill limits. When scaling, choose suitable cooker capacity or
       separate appropriately filled cookers, and divide all measured ingredients
       across them. Cooking times do not multiply with portions. Keep the lid
-      closed except for necessary additions and doneness checks; cook on LOW or
-      HIGH, not WARM.
+      closed except for necessary additions and doneness checks. Cook flank on
+      HIGH (LOW only for the chuck substitution), never WARM.
     - >-
       Keep meat/poultry fully thawed and refrigerated until preparation; start
       promptly without a delayed timer.
@@ -62,6 +62,13 @@ learning:
       fix: >-
         Continue checking until tender; cut consistently across the grain next
         time, without extending every future batch to chuck-roast timing.
+  substitutions:
+    - ingredient: Flank steak
+      alternative: '2 lb boneless chuck, trimmed and cut into 1/4-inch strips'
+      effect: >-
+        Chuck needs the long cook. Use LOW for about 4–5 hours until the strips
+        are fork-tender. It turns richer and more shreddable than flank, and the
+        sauce may need a splash of water if it thickens too much.
   storage: >-
     Refrigerate promptly in shallow covered containers at 40°F / 4°C or below,
     within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on
@@ -73,8 +80,7 @@ learning:
     sauce. If holding cooked food in the cooker, maintain at least 140°F / 60°C
     and follow its holding instructions.
   timing: >-
-    About 2 hr 15 min–3 hr 15 min HIGH or 4 hr 15 min–5 hr 15 min LOW includes
-    preparation and finishing; heat-up is part of the slow-cooker window, not
+    About 1 hr 45 min–2 hr 15 min on HIGH includes preparation and finishing; heat-up is part of the slow-cooker window, not
     active attendance. Thawing is additional and larger loads can take longer.
   sources:
     - title: Sara Welch — Slow cooker Mongolian beef
@@ -111,12 +117,12 @@ Slice the flank steak across its visible muscle fibers, then distribute all the 
 
 3. **Add sauce:** Add all the sesame oil, garlic, ginger, soy sauce, brown sugar and measured water. Stir to coat the meat, cover and start promptly.
 
-4. **Cook:** Cover and cook on HIGH for 2–3 hours or LOW for 4–5 hours as planning ranges. Start with fully thawed beef. Check tenderness and that beef has reached at least 145°F / 63°C with three minutes rest before serving. The sauce should be thickened and the thin slices tender; continue as needed rather than rely only on the clock.
+4. **Cook:** Cover and cook on HIGH, starting to check at 1 1/2 hours. Most batches are ready by about 2 hours. Thin flank slices turn dry and stringy and the coating goes gluey if they cook much longer, so do not use the LOW setting for flank. Start with fully thawed beef. Check tenderness and that beef has reached at least 145°F / 63°C with three minutes rest before serving. The sauce should be thickened and the thin slices tender; continue as needed rather than rely only on the clock.
 
 5. **Finish:** Stir in all the measured green onions, then divide among the listed portions and serve.
 
 ## Cooking Notes
 
-Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.
+Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks. Cook flank on HIGH (LOW only for the chuck substitution), never WARM.
 
 Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. USDA additionally recommends a rolling boil for reheated sauce; stir and keep the boil brief, since prolonged reduction concentrates this thick, sweet-salty sauce. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.

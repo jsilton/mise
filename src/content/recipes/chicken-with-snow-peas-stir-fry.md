@@ -41,14 +41,15 @@ ingredients:
   - 1/3 cup (80 ml) unsalted chicken stock
   - 1 tbsp Shaoxing wine
   - 1 tbsp light soy sauce
-  - 1 tsp oyster sauce
+  - 2 tsp oyster sauce
+  - 1/4 tsp fine salt
   - 1 1/2 tsp cornstarch
   - 1/8 tsp sugar
   - 1/8 tsp white pepper
   - '--- Stir-fry ---'
   - '1 lb (450 g) snow peas, ends and tough strings removed'
   - '1 tbsp peanut or neutral oil, divided'
-  - '1 clove garlic, minced'
+  - '2–3 cloves garlic, minced'
   - '2 tbsp water, for briefly steaming the peas if needed'
   - 1/2 tsp toasted sesame oil
 origin: China

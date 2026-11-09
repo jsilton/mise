@@ -20,10 +20,13 @@ ingredients:
   - 2 tbsp. fish sauce
   - '1/4 c. packed fresh cilantro, chopped'
   - '1/4 c. packed fresh mint leaves, chopped'
+  - '1 small shallot, thinly sliced'
+  - '1 to 2 Thai bird chilies, thinly sliced'
   - 3 tbsp. lime juice
+  - 1 tsp. sugar
   - 'Lettuce cups, washed and dried; as needed for serving'
   - 'Sriracha, for serving'
-  - 'Hoisin Sauce, for serving'
+  - 'Thai sweet chili sauce, for serving'
 sourceUrl: >-
   http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/
 cuisines:
@@ -62,15 +65,11 @@ learning:
         the turkey is cooked, and assemble just before eating. Keep the full oil
         and fish-sauce amounts.
   substitutions:
-    - ingredient: Finishing sweetness
-      alternative: >-
-        For a sweeter original-size four-portion batch, stir 1/2 tsp sugar into
-        the cooked filling with the herbs and lime; scale that alternative
-        amount with the full batch.
+    - ingredient: Thai bird chilies
+      alternative: 1 serrano chile, thinly sliced
       effect: >-
-        This separate sweet finish changes the filling. The main method keeps
-        sugar out and offers hoisin at the table; do not add a second unmeasured
-        sugar dose.
+        Serranos are milder and a little grassier than bird chilies. For kids,
+        serve the sliced chilies at the table instead of stirring them in.
   timing: >-
     Allow about 25 minutes for the current original batch, with 15 minutes
     preparation and about 10 minutes stovetop work/assembly. The 3-minute pepper
@@ -99,9 +98,9 @@ learning:
 
 ## Chef's Note
 
-Fish sauce, lime, cilantro and mint season the turkey filling. Let excess pan liquid reduce before filling the lettuce cups so the leaves stay crisp.
+Fish sauce, lime, a little sugar, chilies, shallot, cilantro and mint give the turkey filling a hot, sour, salty and sweet balance. Let excess pan liquid reduce before filling the lettuce cups so the leaves stay crisp.
 
 ## Directions
 
 1. **Cook filling:** In a 12-inch skillet over medium-high heat, cook all the bell peppers in all the measured vegetable oil for about 3 minutes. Add all the garlic and cook about 30 seconds, then add all the ground turkey and fish sauce. Break up the meat and start checking after about 5 minutes; continue until the turkey reaches 165°F / 74°C on a thermometer before adding herbs. If liquid pools, let excess liquid reduce while stirring, keeping the filling moist. Use more loads or vessels for a larger batch, dividing the full measured ingredients proportionally.
-2. **Finish and serve:** Stir in all the cilantro, mint and lime juice. Spoon the cooked filling into washed, dried lettuce cups using clean utensils. Offer the listed Sriracha and hoisin separately as wanted. Assemble promptly so the leaves stay crisp.
+2. **Finish and serve:** Stir the sugar into the lime juice until it dissolves. Off the heat, stir in all the cilantro, mint, shallot and the sweetened lime juice. Stir in the chilies, or serve them at the table so each diner controls the heat. Taste: the filling should be salty, sour, a little sweet and fresh. Spoon the cooked filling into washed, dried lettuce cups using clean utensils. Offer the listed Sriracha and sweet chili sauce separately as wanted. Assemble promptly so the leaves stay crisp.

@@ -203,6 +203,11 @@ learning:
       effect: >-
         The Pro Loco Genova recipe permits Grana Padano in the same weight range; salt and aroma
         differ. Keep the full listed Fiore Sardo range.
+    - ingredient: Fiore Sardo
+      alternative: Pecorino Romano at the low end of the range (about 20 g)
+      effect: >-
+        Romano is saltier and sharper than the milder, slightly smoky Fiore Sardo. Use the smaller
+        amount, taste the finished pesto and add a little more only if it needs it.
   timing: >-
     Allow 10–15 minutes to wash and dry the leaves, grate the cheeses and peel the garlic, followed
     by about 15–25 minutes of mortar work: 25–40 minutes active and elapsed. Mortar capacity

@@ -28,7 +28,7 @@ servings: 4 small side portions
 ingredients:
   - '1 lb soybean sprouts (kongnamul), rinsed and drained'
   - '1/2 cup water, for cooking'
-  - 1 tsp toasted sesame oil
+  - 2 tsp toasted sesame oil
   - '1 tsp garlic, minced'
   - '1/2 tsp fine sea salt, divided and added to taste'
   - '1 green onion, minced'

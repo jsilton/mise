@@ -96,6 +96,21 @@ learning:
       effect: >-
         The existing dairy-free option keeps all fat; it loses the spiced-butter aroma. Check
         berbere and remaining ingredients for dietary suitability.
+    - ingredient: Niter kibbeh (non-vegan)
+      alternative: The same volume of ghee or unsalted butter
+      effect: >-
+        Keeps the buttery base that olive oil lacks. The cardamom and fenugreek already in the pot
+        supply some of the spiced-butter aroma. Watch plain butter closely, since its milk solids
+        brown faster than ghee.
+    - ingredient: Berbere (if you cannot find a ready-made blend)
+      alternative: >-
+        For the 3 tbsp: 2 tbsp sweet paprika, 1 tsp cayenne, 1/2 tsp each ground ginger, ground
+        coriander, ground fenugreek and black pepper, plus a pinch each of cinnamon, ground cloves
+        and allspice
+      effect: >-
+        A close supermarket stand-in with the warm, earthy heat of berbere, though less complex
+        than a blend made from toasted whole chiles. Use 1/2 tsp cayenne for a milder pot the kids
+        can share. Unlike some store blends it contains no salt, so taste for salt at the end.
     - ingredient: Berbere
       alternative: A berbere blend with a different heat level
       effect: >-

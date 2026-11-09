@@ -282,3 +282,7 @@ Peaches, strawberries or cherries can replace blueberries, with baking time adju
 For one original batch, use 2 cups half-and-half, ½ small vanilla bean split lengthwise, 1⅓ cups granulated sugar, ½ tsp salt, 2 eggs, 2½ cups heavy cream and 1 tbsp vanilla extract. Use pasteurized dairy. These amounts make a separate ice cream batch and are not additions to the crisp; scale all of them together if making a different batch size. Finished volume is not specified.
 
 Heat the half-and-half and vanilla bean gently to 175°F, then remove the bean. Stir in the sugar and salt. Whisk the eggs in a separate bowl, gradually whisk in some hot half-and-half, then return the tempered mixture to the pan. Cook gently while stirring until the egg base reaches 160°F and coats a spoon; do not boil. Stir in all the cream and vanilla extract off the heat. Cool promptly in an ice-water bath, then refrigerate at 40°F / 4°C or below until thoroughly cold. Churn according to the actual machine instructions and maximum fill, using separate cold loads if needed. Transfer to freezer containers and freeze for at least 4 hours, or longer until firm. This option needs its own chilling, churning and freezing time; it is not included in the crisp clock.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: For a crumble that clumps and crisps, brown 12 tbsp (1 1/2 sticks) butter instead of 6 tbsp. For a thicker filling, use 2 tbsp cornstarch instead of 2 tsp.

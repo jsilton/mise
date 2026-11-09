@@ -17,8 +17,8 @@ cuisines:
 role: main
 vibe: technical
 prepTime: 20–30 min
-cookTime: About 40–55 min
-totalTime: About 60–80 min
+cookTime: About 35–45 min
+totalTime: About 55–75 min
 servings: '6'
 pairsWith:
   - corn-shrimp-dumplings
@@ -98,7 +98,7 @@ learning:
         This complete ordering keeps all ingredient amounts; choose it instead
         of the half-ginger garnish route.
   timing: >-
-    Allow roughly 20–30 minutes active and 60–80 minutes elapsed for the
+    Allow roughly 20–30 minutes active and 55–75 minutes elapsed for the
     original cleaned, thawed fish, including preparation, covered baking and
     finishing. Follow measured doneness; larger pan loads change the clock.
     Thawing is additional.
@@ -140,7 +140,7 @@ This covered whole-snapper preparation uses ginger, garlic and a soy-wine dressi
 
 3. **Season:** Spread all the garlic and half the listed ginger into and over the slits. Mix all the soy sauce, broth, rice wine and sesame oil and pour over the fish.
 
-4. **Bake:** Cover the pan tightly with foil. Begin checking before the original 45–50-minute planning range is complete and continue as needed until thick flesh on both sides reaches 145°F /63°C without touching bone, and is no longer translucent and separates easily. Fish thickness, starting temperature and pan load change the time.
+4. **Bake:** Cover the pan tightly with foil. Begin checking at 25 minutes. Plan on about 30–40 minutes for the original 1.8-kg fish, and continue as needed until thick flesh on both sides reaches 145°F /63°C without touching bone, and is no longer translucent and separates easily. Fish thickness, starting temperature and pan load change the time.
 
 5. **Transfer:** With broad spatulas, carefully move the cooked fish to a warmed heatproof platter. Reserve all the cooking juices in the roasting pan, taking care with steam. Put all the scallions and the remaining ginger on the fish.
 

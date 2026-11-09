@@ -18,7 +18,7 @@ cuisines:
   - Mexican
 role: main
 vibe: comfort
-prepTime: About 15–20 min active
+prepTime: About 20–25 min active
 cookTime: '4–6 hr HIGH or 7–8 hr LOW, plus finishing'
 totalTime: About 4 hr 30 min–6 hr 30 min HIGH or 7 hr 30 min–8 hr 30 min LOW
 servings: 6 portions
@@ -29,7 +29,8 @@ pairsWith:
 ingredients:
   - '--- Soup base ---'
   - '1 cup onion, diced'
-  - 1 tsp avocado oil or olive oil
+  - 1 tbsp avocado oil or olive oil
+  - '2 garlic cloves, minced'
   - '1 bell pepper, diced'
   - '1 jalapeño pepper, diced; reduce or omit for a milder soup'
   - 2 1/2 cups vegetable broth
@@ -38,13 +39,11 @@ ingredients:
   - 1 tbsp tomato paste
   - '1 can (15 oz) black beans, fully cooked canned beans, drained and rinsed'
   - '1 can (15 oz) pinto beans, fully cooked canned beans, drained and rinsed'
-  - >-
-    1 cup corn kernels, fresh, drained canned, or frozen; follow package
-    preparation
+  - '1 cup corn kernels, fresh, drained canned, or frozen; follow package preparation'
   - '3/4 cup dry red lentils, sorted and rinsed'
-  - 1/2 tsp chili powder
+  - 1 1/2 tsp chili powder
   - 1/2 tsp garlic powder
-  - 1/2 tsp ground cumin
+  - 1 1/2 tsp ground cumin
   - 1/4 tsp cayenne pepper
   - '--- Finish ---'
   - '1/4–1/2 cup heavy cream, optional'
@@ -63,12 +62,8 @@ ingredients:
   - 'fresh cilantro, as wanted per bowl, optional'
   - 'sour cream or Greek yogurt, as wanted per bowl, optional'
   - '--- Optional consistency allowances ---'
-  - >-
-    additional vegetable broth or tomato sauce, a little at a time to loosen if
-    wanted, optional
-  - >-
-    corn tortillas torn into pieces, as wanted to thicken near the finish,
-    optional
+  - 'additional vegetable broth or tomato sauce, a little at a time to loosen if wanted, optional'
+  - 'corn tortillas torn into pieces, as wanted to thicken near the finish, optional'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -91,7 +86,7 @@ formula:
             amount: 1
             unit: cup
           uses:
-            - step: combine
+            - step: bloom
               share: 1
           preparation: diced
         - id: oil
@@ -99,9 +94,20 @@ formula:
           name: avocado oil or olive oil
           quantity:
             amount: 1
-            unit: tsp
+            unit: tbsp
           uses:
-            - step: combine
+            - step: bloom
+              share: 1
+        - id: garlic-clove
+          key: garlic-clove
+          name: garlic clove
+          quantity:
+            amount: 2
+            unit: count
+          plural: garlic cloves
+          preparation: minced
+          uses:
+            - step: bloom
               share: 1
         - id: bell
           key: bell
@@ -217,10 +223,10 @@ formula:
           key: chili
           name: chili powder
           quantity:
-            amount: 1/2
+            amount: 1 1/2
             unit: tsp
           uses:
-            - step: combine
+            - step: bloom
               share: 1
         - id: garlic
           key: garlic
@@ -235,10 +241,10 @@ formula:
           key: cumin
           name: ground cumin
           quantity:
-            amount: 1/2
+            amount: 1 1/2
             unit: tsp
           uses:
-            - step: combine
+            - step: bloom
               share: 1
         - id: cayenne
           key: cayenne
@@ -390,55 +396,53 @@ formula:
     - id: prep
       title: Prepare
       text: >-
-        Check the cooker’s load instructions. Drain and rinse the measured
-        canned black and pinto beans; do not replace them with dried beans in
-        this route. Sort and rinse the dry red lentils and dice the vegetables.
-        Choose salsa/jalapeño heat deliberately; for a milder soup, reduce or
-        omit jalapeño/cayenne. Follow any frozen-corn package preparation
-        directions.
+        Check the cooker’s load instructions. Drain and rinse the measured canned black and pinto
+        beans; do not replace them with dried beans in this route. Sort and rinse the dry red
+        lentils and dice the vegetables. Choose salsa/jalapeño heat deliberately; for a milder soup,
+        reduce or omit jalapeño/cayenne. Follow any frozen-corn package preparation directions.
+    - id: bloom
+      title: Bloom the aromatics
+      text: >-
+        Use {{ingredients}}: heat the oil in a skillet over medium heat and cook the onion,
+        stirring, about 5 minutes until softened. Add the garlic, chili powder and cumin and stir
+        about 1 minute, until fragrant but not dark. Scrape everything into the cooker. Blooming the
+        spices in fat gives the long-cooked soup a rounder, deeper flavor.
     - id: combine
       title: Load the base
       text: >-
-        Stir {{ingredients}} together in the cooker, distributing the tomato
-        paste. Keep dairy, finishing seasoning and toppings separate. The
-        measured oil belongs to this loaded base; no preliminary sauté is
-        required for the slow-cooker route.
+        Stir {{ingredients}} into the bloomed onion mixture in the cooker, distributing the tomato
+        paste. Keep dairy, finishing seasoning and toppings separate.
     - id: cook
       title: Cook the lentils and vegetables
       text: >-
-        Cover and cook on HIGH for 4–6 hours or LOW for 7–8 hours as planning
-        ranges. Check that the lentils are soft throughout without a chalky
-        center and the vegetables are tender. Red lentils may break down and
-        thicken the soup; they do not have to vanish completely. Continue
+        Cover and cook on HIGH for 4–6 hours or LOW for 7–8 hours as planning ranges. Check that the
+        lentils are soft throughout without a chalky center and the vegetables are tender. Red
+        lentils may break down and thicken the soup; they do not have to vanish completely. Continue
         covered if still firm, rather than judge only by thickness.
     - id: finish
       title: Finish and adjust
       text: >-
-        Use {{ingredients}} as wanted. Choose one optional dairy finish near the
-        end: use the measured heavy cream from its listed range (¼ cup or the
-        fuller ½ cup option in the original batch), or replace it with
-        half-and-half or cream cheese added gradually to taste. Warm the chosen
-        dairy through and melt cream cheese fully. If loosening, add the extra
-        broth or tomato sauce a little at a time; torn tortillas can thicken the
-        soup. Warm through and taste before adding the finishing salt and
-        pepper. For the existing smoother option, remove from heat and use an
-        immersion blender only if its instructions allow hot soup, keeping the
-        blade submerged to prevent splashing; leave some texture rather than
-        promise a fixed pulse count.
+        Use {{ingredients}} as wanted. Choose one optional dairy finish near the end: use the
+        measured heavy cream from its listed range (¼ cup or the fuller ½ cup option in the original
+        batch), or replace it with half-and-half or cream cheese added gradually to taste. Warm the
+        chosen dairy through and melt cream cheese fully. If loosening, add the extra broth or
+        tomato sauce a little at a time; torn tortillas can thicken the soup. Warm through and taste
+        before adding the finishing salt and pepper. For the existing smoother option, remove from
+        heat and use an immersion blender only if its instructions allow hot soup, keeping the blade
+        submerged to prevent splashing; leave some texture rather than promise a fixed pulse count.
     - id: serve
       title: Serve with chosen toppings
       text: >-
-        Use {{ingredients}}. Taste and add lime juice at the finish if wanted,
-        or serve wedges alongside. Divide the soup among the listed small
-        portions, six at the original batch, and let each person choose
-        toppings. For larger meal bowls, plan fewer portions and prepare
-        accompaniments separately. Finished volume and bowl size are unmeasured.
-        Extra jalapeño can stay on the side. Prepare avocado/lime/cilantro with
-        clean utensils.
+        Use {{ingredients}}. Taste and add lime juice at the finish if wanted, or serve wedges
+        alongside. Divide the soup among the listed small portions, six at the original batch, and
+        let each person choose toppings. For larger meal bowls, plan fewer portions and prepare
+        accompaniments separately. Finished volume and bowl size are unmeasured. Extra jalapeño can
+        stay on the side. Prepare avocado/lime/cilantro with clean utensils.
 equipment:
   - slow-cooker
   - mixing-bowl
   - measuring-cup
+  - skillet
   - optional-immersion-blender
 learning:
   focus: 'Cook dry red lentils through, then finish with dairy and toppings'
@@ -448,43 +452,39 @@ learning:
     - starch
   before:
     - >-
-      Use a cooker whose instructions permit the actual food load and liquid.
-      Follow your cooker’s stated minimum and maximum fill limits. A larger
-      recipe needs suitable capacity or separate appropriately filled cookers,
-      with all measured ingredients divided across them. Keep the lid closed
-      except for necessary additions/checks, and do not multiply cooking time
-      with servings or cook on WARM.
+      Use a cooker whose instructions permit the actual food load and liquid. Follow your cooker’s
+      stated minimum and maximum fill limits. A larger recipe needs suitable capacity or separate
+      appropriately filled cookers, with all measured ingredients divided across them. Keep the lid
+      closed except for necessary additions/checks, and do not multiply cooking time with servings
+      or cook on WARM.
     - >-
-      Use dry red lentils and fully cooked canned beans as listed. Choose one
-      optional dairy finish for the soup and toppings per bowl; add dairy near
-      the end and toppings at service.
+      Use dry red lentils and fully cooked canned beans as listed. Choose one optional dairy finish
+      for the soup and toppings per bowl; add dairy near the end and toppings at service.
   checkpoints:
-    - step: 3
+    - step: 4
       cue: Lentils are soft throughout and vegetables are tender.
       why: A thick tomato base does not prove the dry lentils are cooked.
-    - step: 4
+    - step: 5
       cue: Dairy has warmed into the soup and seasoning is tasted before salting.
       why: Cream and brand-dependent salt levels are finishing choices.
   troubleshooting:
     - problem: The soup is thick but lentils remain chalky.
       cause: Thickness can develop before every lentil is tender.
       fix: >-
-        Continue covered cooking and test actual lentils; use the listed
-        extra-liquid allowance gradually only if needed to keep it cookable.
+        Continue covered cooking and test actual lentils; use the listed extra-liquid allowance
+        gradually only if needed to keep it cookable.
   storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below,
-    within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on
-    the stove, in the microwave or oven outside the slow cooker, stirring or
-    turning as appropriate for even heating and checking 165°F / 74°C
-    throughout; do not use the slow cooker to reheat cold leftovers. USDA
-    additionally recommends bringing reheated soup to a rolling boil; stir and
-    keep the boil brief, since prolonged boiling can change the texture when
-    dairy is included. If holding cooked food in the cooker, maintain at least
-    140°F / 60°C and follow its holding instructions.
+    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1
+    hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven
+    outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F
+    / 74°C throughout; do not use the slow cooker to reheat cold leftovers. USDA additionally
+    recommends bringing reheated soup to a rolling boil; stir and keep the boil brief, since
+    prolonged boiling can change the texture when dairy is included. If holding cooked food in the
+    cooker, maintain at least 140°F / 60°C and follow its holding instructions.
   timing: >-
-    About 4 hr 30 min–6 hr 30 min HIGH or 7 hr 30 min–8 hr 30 min LOW includes
-    preparation and finishing; cooking ranges include cooker heat-up, with
-    additional time if tenderness requires it.
+    About 4 hr 30 min–6 hr 30 min HIGH or 7 hr 30 min–8 hr 30 min LOW includes preparation and
+    finishing; cooking ranges include cooker heat-up, with additional time if tenderness requires
+    it.
   sources:
     - title: Jenn Laughlin — Vegetarian lentil tortilla soup
       url: 'https://peasandcrayons.com/vegetarian-lentil-tortilla-soup/'
@@ -495,8 +495,7 @@ learning:
       url: >-
         https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf
     - title: FoodSafety.gov — Safe minimum temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -512,10 +511,11 @@ Dry red lentils soften and thicken this soup alongside fully cooked canned beans
 ## Directions
 
 1. **Prepare:** Check the cooker’s load instructions. Drain and rinse the measured canned black and pinto beans; do not replace them with dried beans in this route. Sort and rinse the dry red lentils and dice the vegetables. Choose salsa/jalapeño heat deliberately; for a milder soup, reduce or omit jalapeño/cayenne. Follow any frozen-corn package preparation directions.
-2. **Load the base:** Stir onion, avocado oil or olive oil, bell pepper, jalapeño pepper, vegetable broth, tomato sauce or crushed tomatoes, salsa verde or another chosen salsa, tomato paste, black beans, pinto beans, corn kernels, dry red lentils, chili powder, garlic powder, ground cumin, and cayenne pepper together in the cooker, distributing the tomato paste. Keep dairy, finishing seasoning and toppings separate. The measured oil belongs to this loaded base; no preliminary sauté is required for the slow-cooker route.
-3. **Cook the lentils and vegetables:** Cover and cook on HIGH for 4–6 hours or LOW for 7–8 hours as planning ranges. Check that the lentils are soft throughout without a chalky center and the vegetables are tender. Red lentils may break down and thicken the soup; they do not have to vanish completely. Continue covered if still firm, rather than judge only by thickness.
-4. **Finish and adjust:** Use heavy cream (if using), half-and-half (if using), cream cheese (if using), salt, black pepper, additional vegetable broth or tomato sauce (if using), and corn tortillas torn into pieces (if using) as wanted. Choose one optional dairy finish near the end: use the measured heavy cream from its listed range (¼ cup or the fuller ½ cup option in the original batch), or replace it with half-and-half or cream cheese added gradually to taste. Warm the chosen dairy through and melt cream cheese fully. If loosening, add the extra broth or tomato sauce a little at a time; torn tortillas can thicken the soup. Warm through and taste before adding the finishing salt and pepper. For the existing smoother option, remove from heat and use an immersion blender only if its instructions allow hot soup, keeping the blade submerged to prevent splashing; leave some texture rather than promise a fixed pulse count.
-5. **Serve with chosen toppings:** Use fresh lime juice or lime wedges, crushed tortilla chips (if using), shredded cheddar or Mexican-blend cheese (if using), sliced or diced jalapeños (if using), chopped red onion (if using), pico de gallo (if using), diced avocado (if using), fresh cilantro (if using), and sour cream or Greek yogurt (if using). Taste and add lime juice at the finish if wanted, or serve wedges alongside. Divide the soup among the listed small portions, six at the original batch, and let each person choose toppings. For larger meal bowls, plan fewer portions and prepare accompaniments separately. Finished volume and bowl size are unmeasured. Extra jalapeño can stay on the side. Prepare avocado/lime/cilantro with clean utensils.
+2. **Bloom the aromatics:** Use onion, avocado oil or olive oil, garlic cloves, chili powder, and ground cumin: heat the oil in a skillet over medium heat and cook the onion, stirring, about 5 minutes until softened. Add the garlic, chili powder and cumin and stir about 1 minute, until fragrant but not dark. Scrape everything into the cooker. Blooming the spices in fat gives the long-cooked soup a rounder, deeper flavor.
+3. **Load the base:** Stir bell pepper, jalapeño pepper, vegetable broth, tomato sauce or crushed tomatoes, salsa verde or another chosen salsa, tomato paste, black beans, pinto beans, corn kernels, dry red lentils, garlic powder, and cayenne pepper into the bloomed onion mixture in the cooker, distributing the tomato paste. Keep dairy, finishing seasoning and toppings separate.
+4. **Cook the lentils and vegetables:** Cover and cook on HIGH for 4–6 hours or LOW for 7–8 hours as planning ranges. Check that the lentils are soft throughout without a chalky center and the vegetables are tender. Red lentils may break down and thicken the soup; they do not have to vanish completely. Continue covered if still firm, rather than judge only by thickness.
+5. **Finish and adjust:** Use heavy cream (if using), half-and-half (if using), cream cheese (if using), salt, black pepper, additional vegetable broth or tomato sauce (if using), and corn tortillas torn into pieces (if using) as wanted. Choose one optional dairy finish near the end: use the measured heavy cream from its listed range (¼ cup or the fuller ½ cup option in the original batch), or replace it with half-and-half or cream cheese added gradually to taste. Warm the chosen dairy through and melt cream cheese fully. If loosening, add the extra broth or tomato sauce a little at a time; torn tortillas can thicken the soup. Warm through and taste before adding the finishing salt and pepper. For the existing smoother option, remove from heat and use an immersion blender only if its instructions allow hot soup, keeping the blade submerged to prevent splashing; leave some texture rather than promise a fixed pulse count.
+6. **Serve with chosen toppings:** Use fresh lime juice or lime wedges, crushed tortilla chips (if using), shredded cheddar or Mexican-blend cheese (if using), sliced or diced jalapeños (if using), chopped red onion (if using), pico de gallo (if using), diced avocado (if using), fresh cilantro (if using), and sour cream or Greek yogurt (if using). Taste and add lime juice at the finish if wanted, or serve wedges alongside. Divide the soup among the listed small portions, six at the original batch, and let each person choose toppings. For larger meal bowls, plan fewer portions and prepare accompaniments separately. Finished volume and bowl size are unmeasured. Extra jalapeño can stay on the side. Prepare avocado/lime/cilantro with clean utensils.
 
 ## Cooking Notes
 

@@ -330,3 +330,7 @@ Adapted from Mary Later’s recipe. Coarsely crushed corn flakes hold more textu
 5. **Coat topping:** Toss 1/4 of the unsalted butter, corn flakes, and light brown sugar until all the coarse corn flakes are coated with the remaining one-quarter butter and packed brown sugar. Scatter across the full noodle mixture without pressing down. With an overflow dish, divide topping in proportion to surface area.
 6. **Bake and check the center:** Bake at 325°F, beginning checks around 60 minutes for the original deep dish; 65–80 minutes is the existing planning range. The edges should be set, the center should have only a slight wobble with no liquid custard, and its center must reach 165°F /74°C. Check every dish; smaller overflow portions may finish earlier. Loosely tent if the topping colors before the center is ready.
 7. **Rest and serve:** Set hot glass on a dry trivet following the vessel’s instructions. Rest 15 minutes before dividing into the listed portions. Keep the raisin and plain halves distinct when serving.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Add 1/2 tsp kosher salt and 2 tsp vanilla extract to the custard so the sugar and dairy taste fuller.

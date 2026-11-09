@@ -38,6 +38,7 @@ pairsWith:
 ingredients:
   - 14 oz (400g) Tomato Passata or Crushed Tomatoes
   - 3 tbsp Red Wine Vinegar (The Finishing Touch)
+  - '2 tbsp Allulose, or a 1:1 monk fruit sweetener blend, adjusted to taste'
   - '1 clove Garlic, smashed'
   - 1/4 tsp Dijon Mustard
   - 1/4 tsp Onion Powder
@@ -49,8 +50,8 @@ sourceUrl: 'http://sugarfreelondoner.com/sugar-free-ketchup/'
 learning:
   focus: Reduce gently and distinguish the two garlic routes
   outcome: >-
-    A smooth tomato condiment with the original full vinegar and no extra
-    sweetener.
+    A smooth tomato condiment with the original full vinegar and a sugar-free
+    sweetness that makes it taste like ketchup rather than tomato sauce.
   techniques:
     - temperature
   before:
@@ -77,6 +78,15 @@ learning:
     original batch; blending and prompt packaging add time. Larger pots do not
     guarantee the same elapsed clock.
   substitutions:
+    - ingredient: Allulose
+      alternative: >-
+        A 1:1 monk fruit and erythritol blend from the supermarket, in the same
+        amount. For a no-sweetener version, omit it and stir in 1 tbsp tomato
+        paste with a second pinch of allspice.
+      effect: >-
+        The monk fruit blend is close in sweetness but can taste slightly
+        cooling. The no-sweetener route is deeper and more savory but will not
+        taste like classic ketchup.
     - ingredient: Mashed-garlic original
       alternative: >-
         Mash the full listed garlic clove amount before adding it in step 1.
@@ -112,12 +122,12 @@ learning:
 
 ## Chef's Note
 
-This tomato ketchup uses red wine vinegar and no added sweetener. Stir during the gentle reduction and stop when it has the thickness you want; different tomato products lose water at different rates. The whole-clove infusion and mashed-garlic version are separate choices.
+This tomato ketchup uses red wine vinegar and a sugar-free sweetener. Without some sweetness the reduced tomato and vinegar taste like a sharp tomato sauce, not ketchup. Stir during the gentle reduction and stop when it has the thickness you want; different tomato products lose water at different rates. The whole-clove infusion and mashed-garlic version are separate choices.
 
 ## Directions
 
-1. **Combine:** In a nonreactive saucepan with room to stir the entire batch, combine all the listed tomatoes, red wine vinegar, smashed garlic, Dijon, onion powder, allspice and cinnamon, plus the salt and pepper to taste. Keep the garlic clove intact enough to find for the current infusion route.
-2. **Reduce:** Bring to a tiny simmer over low heat. Stir frequently and scrape the bottom, beginning consistency checks around 30 minutes for the original batch. Stop when thickened to the texture you want; actual tomato water content and pan size change the clock.
+1. **Combine:** In a nonreactive saucepan with room to stir the entire batch, combine all the listed tomatoes, red wine vinegar, sweetener, smashed garlic, Dijon, onion powder, allspice and cinnamon, plus the salt and pepper to taste. Keep the garlic clove intact enough to find for the current infusion route.
+2. **Reduce:** Bring to a tiny simmer over low heat. Stir frequently and scrape the bottom, beginning consistency checks around 30 minutes for the original batch. Stop when thickened to the texture you want; actual tomato water content and pan size change the clock. Taste and adjust with a little more sweetener or a splash more vinegar until it tastes balanced.
 3. **Choose texture:** Remove the whole smashed garlic clove for the current subtle infusion. If smoothing is needed, take the pan off heat and cool until the food temperature and vessel are permitted by the actual immersion blender's instructions. Keep its blade submerged and guard against splashes. Do not use a sealed blending cup for hot sauce.
 4. **Cool and store:** Divide into shallow heatproof containers and refrigerate promptly within 2 hours, or 1 hour above 90°F /32°C; do not wait for a large pot to cool completely on the counter. Keep covered at 40°F /4°C or below and use within 3–4 days, or freeze small portions promptly. Thaw in the refrigerator. When reheating stored sauce, bring it to a rolling boil while stirring.
 

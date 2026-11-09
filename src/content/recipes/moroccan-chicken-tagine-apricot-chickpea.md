@@ -54,7 +54,8 @@ ingredients:
   - '--- Chicken and aromatics ---'
   - '6 bone-in skin-on chicken thighs, about 1.5 kg total, fully thawed'
   - '2 tbsp olive oil, divided'
-  - '1 tsp fine salt, divided and partly added to taste'
+  - '1 1/4 tsp fine salt, for seasoning the chicken'
+  - '3/4 tsp fine salt, for the sauce, added to taste after the preserved lemon'
   - 1/2 tsp ground black pepper
   - '400 g yellow onion, thinly sliced'
   - '5 cloves garlic, minced'
@@ -177,11 +178,11 @@ This Dutch-oven braise draws on Moroccan sweet-savory combinations, with chickpe
 
 ## Directions
 
-1. **Prepare and season:** Pat thighs dry. Season with half the salt and all the pepper. Measure ground spices together, slice onions, chop garlic and preserved rind, and halve apricots. If using saffron, steep it in the listed warm water while preparing the pan.
+1. **Prepare and season:** Pat thighs dry. Season with the 1 1/4 tsp chicken salt and all the pepper. Measure ground spices together, slice onions, chop garlic and preserved rind, and halve apricots. If using saffron, steep it in the listed warm water while preparing the pan.
 2. **Sear in two batches:** Heat 1 tbsp oil in a wide Dutch oven over medium-high. Sear three thighs skin-side down about 6–8 minutes until golden, then turn for 2 minutes. Transfer to a plate. Add the second tablespoon oil if the pan needs it and repeat with the remaining thighs, lowering heat if drippings scorch. If enough chicken fat rendered, reserve unused oil rather than forcing it into the pan.
 3. **Build the onion base:** Pour off excess fat, leaving about 1 tbsp. Cook onions over medium 10–12 minutes until soft and lightly golden, stirring. Add garlic for 30 seconds, ground spices for another 20–30 seconds and tomato paste for 1 minute. Add stock and scrape up the browned residue.
 4. **Begin the covered braise:** Add apricots, cinnamon stick and optional saffron water. Return chicken skin-side up with any collected juices. The liquid should reach partway up the meat; add a little of the extra stock only if the base is too dry. Bring to a gentle simmer, cover and reduce heat to maintain quiet bubbling.
 5. **Finish meat and beans:** After about 30 minutes, add chickpeas and preserved-lemon rind around the chicken. Cover and continue another 10–25 minutes, checking the thickest thighs clear of bone reach 165°F / 74°C and the meat yields readily to a fork. Add a little stock if the pan is drying. Remove the cinnamon stick.
 6. **Toast almonds:** During the braise, toast almonds in a dry skillet over medium-low about 3–5 minutes, stirring, until golden and fragrant. Transfer promptly to a cool plate rather than leaving them in the hot pan.
-7. **Set sauce and seasoning:** If sauce is thin, lift chicken to a clean plate and simmer the sauce uncovered briefly until spoonable. Taste before adding the remaining salt, optional honey and fresh lemon juice in small amounts. Return chicken, fold half the herbs into the sauce and let stand off heat about 5 minutes.
+7. **Set sauce and seasoning:** If sauce is thin, lift chicken to a clean plate and simmer the sauce uncovered briefly until spoonable. Taste, then add the 3/4 tsp sauce salt a little at a time, holding back some if the preserved lemon is already salty. Add the optional honey and fresh lemon juice in small amounts. Return chicken, fold half the herbs into the sauce and let stand off heat about 5 minutes.
 8. **Serve:** Give each diner one thigh with sauce, chickpeas and apricots. Scatter almonds and remaining herbs at the table. A small portion of [Garlic Butter Pearl Couscous](/mise/recipes/garlic-butter-couscous) is one possible accompaniment; it has its own cooking method and portion size.

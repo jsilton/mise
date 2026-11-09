@@ -271,7 +271,8 @@ learning:
       beans.
     - >-
       The main route uses Senia/Bahía-type round white rice. Bomba and Albufera behave differently;
-      do not assume that a rice substitution shares this liquid level and finish time.
+      do not assume that a rice substitution shares this liquid level and finish time. The
+      substitutions below give a supermarket route for both the rabbit and the rice.
     - >-
       Use the specified wide pan and an evenly matched heat source. Keep this recipe to one pan’s
       four portions.
@@ -309,6 +310,18 @@ learning:
         Add small amounts of boiling water across the hard areas and lower the heat. Finish the rice
         before attempting any toasted underside.
   substitutions:
+    - ingredient: Bone-in rabbit pieces
+      alternative: 'The same 320 g of bone-in, skin-on chicken thighs, cut into small pieces'
+      effect: >-
+        An all-chicken paella with a slightly richer, less gamey broth. Brown and simmer them with
+        the other chicken and use the same 165°F endpoint.
+    - ingredient: Senia/Bahía-type round rice
+      alternative: The same 400 g of Bomba or Calasparra rice
+      effect: >-
+        These rices absorb more broth and stay firm longer, so expect about 18–20 minutes. Keep the
+        same broth mark, and have extra boiling water ready to sprinkle over dry areas if the grains
+        are still firm when the pan looks dry. The grains stay more separate and a little less
+        creamy.
     - ingredient: Fresh or frozen garrofó
       alternative: 'The same 150 g of fully cooked, drained large white butter beans'
       effect: >-

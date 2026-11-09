@@ -36,14 +36,12 @@ ingredients:
   - 1 cup Dry long-grain white rice
   - '1 can (19 oz) Diced tomatoes, include can liquid; do not drain'
   - '1 can (19 oz) Cooked canned chickpeas, rinsed and drained'
-  - 1 1/2 cups Vegetable broth
-  - '3/4 tsp Salt, for the salt and parsley variation, optional'
+  - 1 cup Vegetable broth
+  - 3/4 tsp Salt
   - 'Fresh parsley, for topping, washed and chopped, optional'
   - 'Fresh spinach, amount as desired, washed and drained, optional'
   - 'Water, as needed for separately poaching optional shrimp, optional'
-  - >-
-    Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if
-    frozen, optional
+  - 'Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional'
 seasons:
   - year-round
 nutritionalDensity: light
@@ -147,7 +145,7 @@ formula:
           key: broth
           name: Vegetable broth
           quantity:
-            amount: 1.5
+            amount: 1
             unit: cup
           uses:
             - step: liquid
@@ -161,8 +159,6 @@ formula:
           uses:
             - step: liquid
               share: 1
-          optional: true
-          preparation: for the salt and parsley variation
         - id: parsley
           key: parsley
           name: Fresh parsley
@@ -203,123 +199,109 @@ formula:
     - id: base
       title: Soften onion
       text: >-
-        Use a large deep skillet with a close-fitting lid and room for rice
-        expansion. Heat {{ingredients}} over medium heat, adding onion to the
-        warm oil. Cook about 6–7 minutes until softened, allowing longer as
-        needed. The full chosen oil amount is for this batch, not each skillet.
+        Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat
+        {{ingredients}} over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until
+        softened, allowing longer as needed. The full chosen oil amount is for this batch, not each
+        skillet.
     - id: spice
       title: Add aromatics
       text: >-
-        Stir in {{ingredients}} and cook about 30–45 seconds until fragrant,
-        reducing heat if paprika or garlic starts to darken. Preserve a fragrant
-        coating rather than burn it.
+        Stir in {{ingredients}} and cook about 30–45 seconds until fragrant, reducing heat if
+        paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.
     - id: rice
       title: Coat rice
       text: >-
-        Stir in {{ingredients}} and cook about 2–3 minutes, stirring
-        continuously, until coated in the oil. This is not a finished rice or
-        crust endpoint.
+        Stir in {{ingredients}} and cook about 2–3 minutes, stirring continuously, until coated in
+        the oil. This is not a finished rice or crust endpoint.
     - id: liquid
       title: Add full base liquids
       text: >-
-        Add {{ingredients}}, using the salt only if making the salt and parsley
-        variation, and stir to distribute. Bring to a simmer, cover and lower
-        heat to maintain a gentle simmer.
+        Add {{ingredients}} and stir to distribute. Taste the liquid. It should be well seasoned,
+        since the rice absorbs it. Adjust the salt to taste after the rest if needed. Bring to a
+        simmer, cover and lower heat to maintain a gentle simmer.
     - id: cook
       title: Check rice before resting
       text: >-
-        Cook covered, beginning checks after 20–22 minutes. Check several rice
-        grains: their centers should be tender with no hard chalky core and free
-        liquid should be absorbed. If centers are hard while liquid remains,
-        continue gently covered and recheck. If the pan is dry while the centers
-        remain hard, stop the timed finish and assess hydration before resting;
-        extra cooking in a dry pan will not soften the centers.
+        Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers
+        should be tender with no hard chalky core and free liquid should be absorbed. If centers are
+        hard while liquid remains, continue gently covered and recheck. If the pan is dry while the
+        centers remain hard, stop the timed finish and assess hydration before resting; extra
+        cooking in a dry pan will not soften the centers.
     - id: rest
       title: Rest covered
       text: >-
-        Once the rice is tender, remove from heat and let stand covered for 6
-        minutes. Leave the lid on during this rest rather than open it to insert
-        raw shrimp.
+        Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid
+        on during this rest rather than open it to insert raw shrimp.
     - id: shrimp
       title: Cook optional shrimp separately
       text: >-
-        For the optional topping, have {{ingredients}} ready. Cook the shrimp
-        separately before adding to the finished rice: poach in gently simmering
-        water until their flesh is firm, pearly and opaque throughout, checking
-        several of the largest pieces. Raw shrimp must not be served after
-        merely resting in warm rice. Drain and transfer using clean tools to a
-        clean plate; keep raw-contact utensils away from finished rice.
+        For the optional topping, have {{ingredients}} ready. Cook the shrimp separately before
+        adding to the finished rice: poach in gently simmering water until their flesh is firm,
+        pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be
+        served after merely resting in warm rice. Drain and transfer using clean tools to a clean
+        plate; keep raw-contact utensils away from finished rice.
     - id: finish
       title: Fluff and add optional greens
       text: >-
-        Fluff gently and add {{ingredients}} if desired. Stir spinach through
-        the hot rice until wilted; for an amount that cools the pan or stays
-        firm, continue gentle covered heat until hot and wilted. Fold in fully
-        cooked shrimp only if prepared by the separate step. Offer parsley at
-        serving only if making the salt and parsley variation.
+        Fluff gently and add {{ingredients}} if desired. Stir spinach through the hot rice until
+        wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until
+        hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer
+        parsley at serving only if making the salt and parsley variation.
 learning:
   focus: Check tomato rice centers before resting and cook optional shrimp separately
-  outcome: >-
-    Tender rice and chickpeas with fragrant smoked paprika and fully cooked
-    optional additions
+  outcome: Tender rice and chickpeas with fragrant smoked paprika and fully cooked optional additions
   techniques:
     - temperature
     - seasoning
   before:
     - >-
-      The main retains one 19-oz can of chickpeas, one 19-oz can of tomatoes
-      with its liquid and 1½ cups broth for 1 cup dry rice. Do not silently
-      replace the measured broth with a rice-cooker fill line.
+      The main retains one 19-oz can of chickpeas, one 19-oz can of tomatoes with its liquid and 1
+      cup broth for 1 cup dry rice. With the tomato juice, that is about 2 cups of liquid, enough
+      for tender long-grain rice without turning it mushy. Do not silently replace the measured
+      broth with a rice-cooker fill line.
     - >-
-      When scaling, keep enough skillet capacity for the rice and optional
-      additions, or cook original-size batches. Depth, burner strength and
-      evaporation change the clock.
+      When scaling, keep enough skillet capacity for the rice and optional additions, or cook
+      original-size batches. Depth, burner strength and evaporation change the clock.
     - >-
-      Choose optional shrimp or spinach before starting so you have room for the
-      addition and can plan its cooking. Keep raw shrimp cold until the separate
-      cooking step.
+      Choose optional shrimp or spinach before starting so you have room for the addition and can
+      plan its cooking. Keep raw shrimp cold until the separate cooking step.
   checkpoints:
     - step: 5
       cue: Several grains have tender centers before the covered rest.
       why: A fixed interval or surface color cannot establish the center condition.
   troubleshooting:
     - problem: Rice still has a chalky center at twenty-two minutes
-      cause: >-
-        Rice product, tomato liquid or pan evaporation differs from the nominal
-        schedule
+      cause: 'Rice product, tomato liquid or pan evaporation differs from the nominal schedule'
       fix: >-
-        If liquid remains, continue a gentle covered simmer and recheck before
-        resting. If the pan is dry and the centers are hard, assess hydration
-        before continuing; the written finish time no longer applies.
+        If liquid remains, continue a gentle covered simmer and recheck before resting. If the pan
+        is dry and the centers are hard, assess hydration before continuing; the written finish time
+        no longer applies.
   substitutions:
     - ingredient: Dried oregano
       alternative: Use the same listed amount of freeze-dried oregano.
       effect: >-
-        Use the chosen oregano product at the aromatic stage; keep the listed
-        amount and assess its fragrance as it cooks.
+        Use the chosen oregano product at the aromatic stage; keep the listed amount and assess its
+        fragrance as it cooks.
     - ingredient: Two-tablespoon version
       alternative: >-
-        For the original batch, the salt and parsley variation uses 2–3 tbsp
-        olive oil in place of the main 2 tbsp. Use the listed ¾ tsp salt, or
-        adjust salt to taste, and finish with optional parsley. Freeze-dried
-        oregano can replace the same listed amount of ordinary dried oregano.
+        For the original batch, the salt and parsley variation uses 2–3 tbsp olive oil in place of
+        the main 2 tbsp and finishes with optional parsley. Freeze-dried oregano can replace the
+        same listed amount of ordinary dried oregano.
       effect: >-
-        Choose the variation before cooking and scale its selected amounts. The
-        main version uses the listed olive oil and ordinary dried oregano and
-        omits this salt and parsley option. Both versions keep the measured cans
-        of tomatoes and chickpeas and all the measured broth.
+        Choose the variation before cooking and scale its selected amounts. The main version uses
+        the listed olive oil and ordinary dried oregano. Both versions use the listed ¾ tsp salt,
+        adjusted to taste. Both versions keep the measured cans of tomatoes and chickpeas and all
+        the measured broth.
   timing: >-
-    Allow about 45–60 minutes for preparation, aromatic sautéing, coating rice,
-    heating, covered cooking and the six-minute rest. Covered cooking is mostly
-    elapsed time with grain checks; preparation, aromatics and finishing need
-    attention. Optional shrimp adds work and elapsed time unless coordinated
-    separately. Scaled loads change heat-up and evaporation.
+    Allow about 45–60 minutes for preparation, aromatic sautéing, coating rice, heating, covered
+    cooking and the six-minute rest. Covered cooking is mostly elapsed time with grain checks;
+    preparation, aromatics and finishing need attention. Optional shrimp adds work and elapsed time
+    unless coordinated separately. Scaled loads change heat-up and evaporation.
   storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or
-    1 hour above 90°F /32°C, at 40°F /4°C or below. Use refrigerated leftovers
-    within 3–4 days or freeze promptly. Reheat the portion served to 165°F /74°C
-    throughout, stirring for even heating and checking several places. Do not
-    leave a large pot out to cool overnight.
+    Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F
+    /32°C, at 40°F /4°C or below. Use refrigerated leftovers within 3–4 days or freeze promptly.
+    Reheat the portion served to 165°F /74°C throughout, stirring for even heating and checking
+    several places. Do not leave a large pot out to cool overnight.
   sources:
     - title: USDA — cooling and reheating leftovers
       url: >-
@@ -343,7 +325,7 @@ This Spanish-inspired skillet rice uses smoked paprika, oregano, tomatoes and ch
 1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.
 2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.
 3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.
-4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt (if using), using the salt only if making the salt and parsley variation, and stir to distribute. Bring to a simmer, cover and lower heat to maintain a gentle simmer.
+4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt and stir to distribute. Taste the liquid. It should be well seasoned, since the rice absorbs it. Adjust the salt to taste after the rest if needed. Bring to a simmer, cover and lower heat to maintain a gentle simmer.
 5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.
 6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.
 7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.

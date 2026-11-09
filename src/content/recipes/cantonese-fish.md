@@ -39,7 +39,8 @@ ingredients:
   - '3 tbsp Fresh Ginger, julienned'
   - '3 Green Onions, thinly sliced (white and green separated)'
   - 1/2 cup Fresh Cilantro
-  - 3 tbsp Light Soy Sauce
+  - 2 tbsp Light Soy Sauce
+  - 3 tbsp Water, for the sauce
   - 1 tsp Sugar
   - 3 tbsp Neutral Oil (Avocado or Grapeseed)
   - 'Water for steaming, as needed to keep the plate above the water'
@@ -132,8 +133,8 @@ Ginger, scallions and cilantro give Cantonese steamed fish its fragrance. The pl
 
 3. **Layer:** Arrange the remaining half of the listed ginger, all the scallion whites and greens, and all the cilantro over the cooked fish. Drain washed aromatics well before the oil finish.
 
-4. **Sauce:** Whisk all the listed soy sauce and sugar until the sugar dissolves; pour around the fish.
+4. **Sauce:** Heat the soy sauce, the sauce water and the sugar in a small saucepan or microwave-safe cup until steaming and the sugar dissolves. Pour it around the fish, not over the top. Diluting the soy lets it season the fish without overpowering it.
 
-5. **Oil:** Heat all the listed neutral oil in a small dry saucepan over controlled heat until hot and shimmering. Do not leave it unattended or keep heating it to sustained smoke; if it smokes, remove it from the heat.
+5. **Oil:** Heat all the listed neutral oil in a separate small dry saucepan over controlled heat until hot and shimmering. Do not leave it unattended or keep heating it to sustained smoke; if it smokes, remove it from the heat.
 
 6. **Finish:** Carefully pour the hot oil over the drained aromatics, keeping hands and face clear of splashes. Serve immediately, dividing the fish and all the sauce among the listed portions. Scale ingredients while keeping original-size fish or pieces and enough steamer space; additional steaming batches extend elapsed time.

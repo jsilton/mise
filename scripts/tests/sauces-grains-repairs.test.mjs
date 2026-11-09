@@ -19,7 +19,7 @@ test('dipping sauce counts the rest and keeps unused sauce separate', () => {
 });
 test('enchilada sauce specifies the chili blend and reserves finishing pepper', () => {
   const { data, content } = read('homemade-enchilada-sauce');
-  assert.ok(data.ingredients.some((x) => /American-style chili powder/.test(x)));
+  assert.ok(data.ingredients.some((x) => /pure ancho chile powder/.test(x)));
   assert.match(content, /reserve black pepper for the finish/);
   assert.match(content, /optional cinnamon/);
 });

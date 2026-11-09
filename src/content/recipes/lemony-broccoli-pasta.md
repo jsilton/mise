@@ -37,6 +37,8 @@ ingredients:
     sliced thinner
   - 1 cup frozen peas
   - 1/3 cup extra-virgin olive oil
+  - '3 garlic cloves, thinly sliced'
+  - 1/4 tsp red pepper flakes
   - 3/4 cup freshly grated Parmesan
   - '1 lemon, zested before juicing'
   - '1 cup hot pasta cooking water, reserved before draining; use only as needed'
@@ -145,9 +147,9 @@ Broccoli and pasta can share a pot when their timing lines up. Cut the florets s
 
 ## Directions
 
-1. **Prepare:** Bring a large pot of water to a boil. Cut broccoli into small bite-sized florets and slice thick stems thinner. Zest and juice the lemon, grate Parmesan and measure the oil. Season the boiling water moderately with salt.
+1. **Prepare:** Bring a large pot of water to a boil. Cut broccoli into small bite-sized florets and slice thick stems thinner. Zest and juice the lemon, grate Parmesan, slice the garlic and measure the oil. Season the boiling water moderately with salt.
 2. **Cook pasta and broccoli:** Add spaghetti and stir as it softens. Follow package timing. Add broccoli when about **3–5 minutes** remain, return to a gentle boil and check both for tenderness. If pasta is ready first, lift it out with tongs and let broccoli finish. Before draining, reserve **the listed cooking water**; drain without rinsing.
-3. **Cook peas and prepare the finish:** While pasta cooks, cook peas according to package directions and drain. In a large heatproof serving bowl, combine olive oil, lemon zest and **half the lemon juice**. Have Parmesan and warm cooking water ready.
+3. **Cook peas and prepare the finish:** While pasta cooks, cook peas according to package directions and drain. Warm the olive oil and sliced garlic in a small pan over medium-low heat for **2–3 minutes**, until the garlic is fragrant and pale gold, not brown. Stir in the pepper flakes off the heat. Pour the oil, garlic and flakes into a large heatproof serving bowl and add lemon zest and **half the lemon juice**. Have Parmesan and warm cooking water ready.
 4. **Toss away from heat:** Add hot spaghetti, broccoli and cooked peas to the bowl. Sprinkle in Parmesan in several additions while tossing, adding about **one-quarter of the reserved water** initially and more in small splashes only as needed. Stop when everything is coated and moist, not swimming in water.
 5. **Season and serve:** Add black pepper and taste a complete bite. Add the remaining lemon juice and salt only as needed, then divide into the intended portions and serve immediately.
 

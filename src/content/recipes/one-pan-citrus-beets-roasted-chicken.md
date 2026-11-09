@@ -39,7 +39,7 @@ ingredients:
   - '300 g peeled carrots, cut into pieces no thicker than 1/2 inch'
   - '300 g trimmed fennel bulb, cut into 1/2-inch wedges with a little core holding each together'
   - '3 tbsp olive oil, divided'
-  - '1 tsp fine salt, divided'
+  - '2 tsp fine salt, divided'
   - '1/2 tsp ground black pepper, divided'
   - 1/2 tsp mild chili powder blend
   - '1 tbsp (14 g) unsalted butter, melted'
@@ -139,8 +139,8 @@ The dish gets its contrast from browned chicken skin, earthy roots and a fresh o
 ## Directions
 
 1. **Heat and prepare:** Heat oven to 425°F / 220°C with racks in the upper and lower thirds. Cut vegetables evenly and pat chicken skin dry. Mix orange juice, zest, melted butter, rosemary and all the garlic in a small bowl; keep aside for the final stage.
-2. **Start roots first:** Toss beets and carrots with 2 tbsp oil, half the salt and half the pepper on one rimmed sheet. Spread into one layer and roast for 15 minutes. If your sheet cannot hold that layer, use a larger pan or accept an additional cooking batch rather than piling the roots.
-3. **Add the chicken tray:** On the second sheet, toss fennel with the remaining tablespoon oil and arrange it around the thighs, keeping the skin exposed. Divide remaining salt and pepper over chicken and fennel; sprinkle chili powder over the chicken. Put this tray in the oven, leaving the root tray cooking too.
+2. **Start roots first:** Toss beets and carrots with 2 tbsp oil, 3/4 tsp of the salt and half the pepper on one rimmed sheet. Spread into one layer and roast for 15 minutes. If your sheet cannot hold that layer, use a larger pan or accept an additional cooking batch rather than piling the roots.
+3. **Add the chicken tray:** On the second sheet, toss fennel with the remaining tablespoon oil and arrange it around the thighs, keeping the skin exposed. Season the chicken with 1 tsp salt and the fennel with the last 1/4 tsp. Divide the remaining pepper over chicken and fennel, then sprinkle chili powder over the chicken. Put this tray in the oven, leaving the root tray cooking too.
 4. **Roast to separate endpoints:** Roast another 40–50 minutes, swapping the trays' rack positions halfway through and turning vegetables. Begin checking thighs around 35 minutes after they enter: the thickest meat, clear of bone, must reach 165°F / 74°C, and the joint should move easily. Check roots with a fork. Remove any component that finishes early instead of letting it overcook.
 5. **Finish the vegetables:** During the final 8–10 minutes of vegetable cooking, spoon the orange-garlic mixture over the roots and fennel, keeping it off chicken skin. Stir the vegetables and return them to the oven so the garlic cooks and the juice reduces a little. If chicken finishes first, transfer it to a clean plate and continue finishing vegetables separately.
 6. **Rest briefly and serve:** Let cooked thighs rest about 5 minutes. Divide vegetables among four plates and serve one thigh with each. Spoon a little vegetable-pan liquid around the meat rather than over the skin. Add no extra orange until you taste the finish.

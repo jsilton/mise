@@ -46,9 +46,9 @@ ingredients:
   - 1 tsp finely grated lemon zest
   - 1–2 tbsp fresh lemon juice
   - 1/2 cup (30 g) finely grated Parmesan
-  - '1/4 tsp fine salt, for the chicken'
+  - '1/2 tsp fine salt, for the chicken'
   - '1/4 tsp black pepper, plus more to taste'
-  - '1 1/2 tsp fine salt, for 3 quarts pasta water'
+  - '1 tbsp fine salt, for 3 quarts pasta water'
   - '1 cup (240 ml) reserved pasta water, added as needed'
 origin: Italian-American
 description: >-

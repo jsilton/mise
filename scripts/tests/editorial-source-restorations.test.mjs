@@ -137,11 +137,16 @@ test('wonton cooking and cold work cannot disappear behind raw assembly', () => 
 
 test('ramen tare and finished-bowl arithmetic agree without an invented double batch', () => {
   const { data, content } = read('tonkotsu-style-ramen');
-  assert.ok(data.ingredients.includes('3 tbsp soy sauce'));
-  assert.ok(data.ingredients.includes('1 tbsp white miso paste'));
+  assert.ok(data.ingredients.includes('1/2 cup soy sauce'));
+  assert.ok(data.ingredients.includes('3 tbsp white miso paste'));
+  assert.ok(data.ingredients.includes('1 tbsp mirin'));
   assert.ok(data.ingredients.includes('1 tsp toasted sesame oil'));
-  assert.equal(3 * 3 + 1 * 3 + 1, 4 * 3 + 1);
-  assert.match(content, /1 tbsp in each of four bowls, with 1 tsp left/);
+  // In teaspoons: 8 tbsp soy + 3 tbsp miso + 1 tbsp mirin + 1 tsp sesame = four 2 1/2 tbsp bowls + 7 tsp spare.
+  assert.equal(8 * 3 + 3 * 3 + 1 * 3 + 1, 4 * (5 / 2) * 3 + 7);
+  // The stated "about 2 tbsp" spare must not overstate what is actually left after the four bowls.
+  assert.ok(2 * 3 <= 7);
+  assert.match(content, /2 1\/2 tbsp in each of four bowls, with about 2 tbsp left/);
+  assert.match(content, /put 2 1\/2 tbsp into each bowl/);
   assert.match(content, /6 US cups/);
   assert.match(content, /rolling boil/);
   assert.doesNotMatch(content, /Add 2-3 tbsp of tare|Simmer Undisturbed/);

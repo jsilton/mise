@@ -76,8 +76,8 @@ learning:
       Set out five portions of noodles, sauce and cooked ingredients before the final stir-frying.
       Five servings do not belong in one home skillet at once.
     - >-
-      Use Thai sweet dark soy as specified. Chinese dark soy and Indonesian kecap manis differ in
-      salt and sweetness; they are not identical replacements.
+      Use Thai sweet dark soy as specified when you can find it. Chinese dark soy and Indonesian
+      kecap manis differ in salt and sweetness, so use the adjusted amounts in the substitutions.
   checkpoints:
     - step: 3
       cue: Thick chicken slices reach 165°F / 74°C before removal.
@@ -119,6 +119,14 @@ learning:
         Provides five practical portions with a different texture and variable hydrated yield.
         Follow package stir-fry preparation until just tender through the center, rinse if directed
         and drain well; divide into five before frying.
+    - ingredient: Thai sweet dark soy sauce
+      alternative: >-
+        2 tbsp kecap manis (Indonesian sweet soy), or 1 1/2 tbsp Chinese dark soy sauce plus 2 tsp
+        brown sugar or molasses
+      effect: >-
+        Both give the dark color and caramel sweetness. Kecap manis is sweeter, so leave out the
+        1 tsp sugar and taste the first portion. Chinese dark soy is saltier and less sweet, which
+        is why it needs the added sugar.
     - ingredient: Chinese broccoli
       alternative: '500 g broccolini, thick stems thinly sliced'
       effect: Less leafy and generally less bitter. Check stems for tenderness before adding to noodles.

@@ -18,7 +18,7 @@ vibe: holiday
 prepTime: 30 min
 cookTime: '5 hr, plus reheating'
 totalTime: 'Overnight, plus 5 hr 30 min and reheating'
-servings: 12 portions
+servings: 8 portions
 pairsWith:
   - nana-ruths-applesauce
   - cinnamon-sweet-potatoes
@@ -52,7 +52,7 @@ equipment:
 formula:
   version: 1
   yield:
-    amount: 12
+    amount: 8
     unit: portion
   components:
     - id: meat
@@ -210,9 +210,10 @@ learning:
       temperature or promise the same cooking time.
     - >-
       Plan refrigerator space and shallow containers for the overnight cold-slicing route, or use
-      the fresh-service option below. For the original 3 lb batch, twelve portions are a planning
-      count and the source estimates about forty thin slices. Follow the listed portion plan when
-      scaling; these counts do not establish measured dinner sizes.
+      the fresh-service option below. For the original 3 lb batch, eight portions are a planning
+      count (about 3 1/2 oz cooked meat each) and the source estimates about forty thin slices. For
+      twelve generous portions, use a 4 1/2 lb brisket and scale the rest of the formula. Follow the
+      listed portion plan when scaling; these counts do not establish measured dinner sizes.
   checkpoints:
     - step: 4
       cue: 'The lid or foil seals the whole dish, with no open edges.'

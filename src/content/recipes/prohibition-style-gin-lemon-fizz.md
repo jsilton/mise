@@ -39,7 +39,7 @@ ingredients:
   - 2 oz unaged mezcal
   - 1 3/4 oz cognac
   - 3 oz fresh lemon juice
-  - 3/4 oz agave syrup
+  - 1 1/2 oz agave syrup
   - 4 dashes of orange bitters
   - 'ice cubes, as needed for shaking'
   - '--- Serving ---'
@@ -103,7 +103,7 @@ formula:
           key: agave
           name: agave syrup
           quantity:
-            amount: 3/4
+            amount: 1 1/2
             unit: oz
           uses:
             - step: shake
@@ -169,48 +169,41 @@ formula:
     - id: prep
       title: Chill and plan the glasses
       text: >-
-        Chill the serving glasses while measuring. The original batch makes
-        three glasses: each receives about 3½ fluid ounces of still base before
-        dilution and 4 fluid ounces sparkling water. Leave room for ice and
-        headroom. Use more than one small shaking load if necessary.
+        Chill the serving glasses while measuring. The original batch makes three glasses: each
+        receives about 3¾ fluid ounces of still base before dilution and 4 fluid ounces sparkling
+        water. Leave room for ice and headroom. Use more than one small shaking load if necessary.
     - id: shake
       title: Shake the still base
       text: >-
-        Combine {{ingredients}}, using only the shaker share of orange bitters.
-        Shake about 15 seconds as a first check, until well chilled; starting
-        temperature and ice change the time. Leave enough room for ice to move.
-        Do not put sparkling water in the sealed shaker.
+        Combine {{ingredients}}, using only the shaker share of orange bitters. Shake about 15
+        seconds as a first check, until well chilled; starting temperature and ice change the time.
+        Leave enough room for ice to move. Do not put sparkling water in the sealed shaker.
     - id: strain
       title: Divide the base
       text: >-
-        Put {{ingredients}} in the chilled glasses, allowing room for the full
-        liquid amount. Double-strain the still base evenly among the listed
-        portions. Recombine separate shaking loads before dividing if needed for
-        even ratios.
+        Put {{ingredients}} in the chilled glasses, allowing room for the full liquid amount.
+        Double-strain the still base evenly among the listed portions. Recombine separate shaking
+        loads before dividing if needed for even ratios.
     - id: finish
       title: Top and garnish
       text: >-
-        Use {{ingredients}}. Divide the measured sparkling water equally: 4
-        fluid ounces per full original serving. Add the finishing orange-bitters
-        share, one dash per original glass, and give one gentle stir. Express
-        each lemon twist over its drink, then add it; a thin lemon slice can
-        garnish instead. Serve promptly.
+        Use {{ingredients}}. Divide the measured sparkling water equally: 4 fluid ounces per full
+        original serving. Add the finishing orange-bitters share, one dash per original glass, and
+        give one gentle stir. Express each lemon twist over its drink, then add it; a thin lemon
+        slice can garnish instead. Serve promptly.
 learning:
   focus: Split bitters and carbonated liquid across an original three-glass batch
-  outcome: >-
-    Evenly divided citrus drinks with the original spirit blend and lively lemon
-    bubbles.
+  outcome: Evenly divided citrus drinks with the original spirit blend and lively lemon bubbles.
   techniques:
     - temperature
   before:
     - >-
-      Four of the original seven bitters dashes go in the shaker; three finish
-      the glasses. Keep those shares when scaling. Fractional dashes are
-      approximate.
+      Four of the original seven bitters dashes go in the shaker; three finish the glasses. Keep
+      those shares when scaling. Fractional dashes are approximate.
     - >-
-      Keep sparkling water out of the shaker. Use small shaking loads with room
-      for ice to move, recombine the still base and divide it among the listed
-      portions, then divide the measured topping and finishing bitters equally.
+      Keep sparkling water out of the shaker. Use small shaking loads with room for ice to move,
+      recombine the still base and divide it among the listed portions, then divide the measured
+      topping and finishing bitters equally.
   checkpoints:
     - step: 2
       cue: Only still liquids and the shaker bitters share enter the shaker.
@@ -218,33 +211,30 @@ learning:
     - step: 4
       cue: Every glass has equal topping and its finishing bitters and twist.
       why: >-
-        The original batch’s 12-ounce topping and three-dash finish are divided
-        among three full portions; scaled totals are also divided among the
-        listed portions.
+        The original batch’s 12-ounce topping and three-dash finish are divided among three full
+        portions; scaled totals are also divided among the listed portions.
   troubleshooting:
     - problem: Glasses taste different
       cause: Shaking loads or toppings were not distributed evenly.
       fix: >-
-        Recombine the uncarbonated base before dividing; measure the sparkling
-        topping separately into each glass.
+        Recombine the uncarbonated base before dividing; measure the sparkling topping separately
+        into each glass.
   substitutions:
     - ingredient: Agave syrup
       alternative: Omit it if desired
       effect: >-
-        Keep every other amount unchanged; the drink becomes less sweet and is
-        not the same flavor balance.
+        Keep every other amount unchanged; the drink becomes less sweet and is not the same flavor
+        balance.
     - ingredient: Lemon sparkling water
       alternative: A different unsweetened lemon-juice sparkling water
       effect: >-
-        Fruit acidity varies by product; preserve the measured amount and do not
-        silently replace it with plain soda.
+        Fruit acidity varies by product; preserve the measured amount and do not silently replace it
+        with plain soda.
   timing: >-
-    Allow about ten minutes including glass chilling during measuring. Shaking
-    15 seconds is a first check, not an exact temperature or dilution guarantee;
-    larger batches need separate loads and more assembly time.
-  storage: >-
-    Keep the still ingredients cold until service; add fresh ice, topping and
-    garnish then.
+    Allow about ten minutes including glass chilling during measuring. Shaking 15 seconds is a first
+    check, not an exact temperature or dilution guarantee; larger batches need separate loads and
+    more assembly time.
+  storage: 'Keep the still ingredients cold until service; add fresh ice, topping and garnish then.'
   sources:
     - title: Dave Arnold — instrumented ice and dilution experiments
       url: 'https://www.cookingissues.com/index.html%3Fp=4585.html'
@@ -259,7 +249,7 @@ Gin, mezcal and cognac share this lemon-and-agave base. Shake the still ingredie
 
 ## Directions
 
-1. **Chill and plan the glasses:** Chill the serving glasses while measuring. The original batch makes three glasses: each receives about 3½ fluid ounces of still base before dilution and 4 fluid ounces sparkling water. Leave room for ice and headroom. Use more than one small shaking load if necessary.
+1. **Chill and plan the glasses:** Chill the serving glasses while measuring. The original batch makes three glasses: each receives about 3¾ fluid ounces of still base before dilution and 4 fluid ounces sparkling water. Leave room for ice and headroom. Use more than one small shaking load if necessary.
 2. **Shake the still base:** Combine London dry gin, unaged mezcal, cognac, fresh lemon juice, agave syrup, dashes of orange bitters, and ice cubes, using only the shaker share of orange bitters. Shake about 15 seconds as a first check, until well chilled; starting temperature and ice change the time. Leave enough room for ice to move. Do not put sparkling water in the sealed shaker.
 3. **Divide the base:** Put fresh ice cubes in the chilled glasses, allowing room for the full liquid amount. Double-strain the still base evenly among the listed portions. Recombine separate shaking loads before dividing if needed for even ratios.
 4. **Top and garnish:** Use unsweetened sparkling water with lemon juice, dashes of orange bitters, and lemon peel twists or thin lemon slices. Divide the measured sparkling water equally: 4 fluid ounces per full original serving. Add the finishing orange-bitters share, one dash per original glass, and give one gentle stir. Express each lemon twist over its drink, then add it; a thin lemon slice can garnish instead. Serve promptly.

@@ -56,7 +56,9 @@ ingredients:
   - '5 small dried red chilies, optional'
   - 1/4 cup vegetable broth
   - 1/4 cup soy sauce
-  - 3 tbsp rice vinegar
+  - 2 tbsp rice vinegar
+  - 1 tbsp Chinkiang black vinegar
+  - 1 tbsp Shaoxing wine
   - 2 tbsp mirin
   - 3 tbsp granulated sugar
   - 1 tbsp cornstarch
@@ -242,7 +244,25 @@ formula:
           key: vinegar
           name: rice vinegar
           quantity:
-            amount: 3
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: simmer
+              share: 1
+        - id: black-vinegar
+          key: black-vinegar
+          name: Chinkiang black vinegar
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: simmer
+              share: 1
+        - id: shaoxing
+          key: shaoxing-wine
+          name: Shaoxing wine
+          quantity:
+            amount: 1
             unit: tbsp
           uses:
             - step: simmer
@@ -312,7 +332,7 @@ formula:
     - id: simmer
       title: Simmer the sauce liquids
       text: >-
-        Add {{ingredients}}, bring to a simmer and cook about 5 minutes over medium heat. The
+        Add {{ingredients}}, bring to a simmer and cook about 2–3 minutes over medium heat. The
         distinct batter and sauce soy/vinegar measures are both used.
     - id: temper
       title: Disperse the sauce starch
@@ -325,16 +345,16 @@ formula:
     - id: thicken
       title: Finish thickening
       text: >-
-        Cook, stirring occasionally, about 7–9 minutes more, checking for a glossy sauce that clings
-        to a spoon without scorching. Lower heat as needed; do not treat the clock as a requirement
-        to boil a nearly dry pot.
+        Cook, stirring, about 1–2 minutes, and stop as soon as the sauce turns glossy and clings to
+        a spoon. Cornstarch thickens within a minute, and longer boiling only concentrates the salt
+        and turns the glaze gluey.
     - id: glaze
       title: Glaze the cauliflower
       text: >-
-        Add all the fried cauliflower and fold gently until coated and rewarmed, starting checks
-        around 4–5 minutes for the original batch. Use enough uncrowded vessels for larger batches,
-        dividing the entire batter, frying oil and sauce quantities proportionally. Serve promptly;
-        extended holding softens the coating.
+        Add all the fried cauliflower and fold gently until coated and hot, about 1–2 minutes for
+        the original batch. Use enough uncrowded vessels for larger batches, dividing the entire
+        batter, frying oil and sauce quantities proportionally. Serve promptly; extended holding
+        softens the coating.
     - id: serve
       title: Serve
       text: 'Garnish with {{ingredients}} and serve with separately prepared steamed rice.'
@@ -379,14 +399,23 @@ learning:
       alternative: Cold-premixed sauce route
       effect: >-
         Instead of simmering, tempering and thickening as steps 4–6, whisk all listed sauce broth,
-        sauce soy, sauce vinegar, mirin, sugar and sauce cornstarch together cold. Re-stir
-        immediately before pouring into the cooked aromatics. Bring to a simmer, stirring; begin
-        checking around 5–7 minutes, until thick enough to coat a spoon without scorching. Add all
-        scallion greens. Fold in all the fried cauliflower gently, beginning checks around 30
-        seconds and continuing until coated and hot, then garnish and serve promptly; this replaces
-        step 7’s longer rewarming route. Keep batter soy/vinegar/starch separate and use the same
-        complete sauce oil, aromatics and garnish quantities. Choose either the measured-oil frying
-        route or the separate oil-to-depth option; do not combine their frying supplies.
+        sauce soy, sauce rice vinegar, black vinegar, Shaoxing wine, mirin, sugar and sauce
+        cornstarch together cold. Re-stir immediately before pouring into the cooked aromatics.
+        Bring to a simmer, stirring, and stop as soon as it turns glossy and coats a spoon, usually
+        2–3 minutes. Add all scallion greens. Fold in all the fried cauliflower gently, beginning
+        checks around 30 seconds and continuing until coated and hot, then garnish and serve
+        promptly; this replaces step 7’s rewarming route. Keep batter soy/vinegar/starch separate
+        and use the same complete sauce oil, aromatics and garnish quantities. Choose either the
+        measured-oil frying route or the separate oil-to-depth option; do not combine their frying
+        supplies.
+    - ingredient: Shaoxing wine
+      alternative: The same amount of dry sherry
+      effect: Sherry gives a similar savory wine depth with a slightly nuttier finish.
+    - ingredient: Chinkiang black vinegar
+      alternative: 'The same amount of balsamic vinegar, or more rice vinegar'
+      effect: >-
+        Balsamic is sweeter and fruitier than the malty black vinegar. Rice vinegar keeps the tang
+        but loses the dark, smoky note.
     - ingredient: Measured shallow-frying oil
       alternative: Half-inch oil-to-depth frying route
       effect: >-
@@ -434,8 +463,8 @@ For kids, serve the heat on the side or reduce or omit the spicy elements.
 1. **Mix the batter:** For the batter, use all-purpose flour, cornstarch, baking powder, salt, large eggs, soy sauce, rice vinegar, and water. Whisk the flour, coating cornstarch, baking powder and salt. Separately whisk the eggs, batter soy sauce and batter vinegar, then pour into the dry mixture while whisking. If too stiff to coat a floret, stir in a little of the thinning-water allowance until thick but dip-able. Do not taste raw egg/flour batter.
 2. **Fry the cauliflower:** Use cauliflower head and peanut or vegetable oil for this stage. For the measured-oil route, heat the full listed frying oil in a skillet suitable for shallow frying. The separate oil-to-depth option uses a different, unmeasured frying supply. A small drop of batter should sizzle and float promptly without burning. Dip florets and fry in uncrowded rounds, turning until golden on all sides, starting checks around 4–5 minutes per original-size round. Cut a large sample: the coating should be set without wet batter and the center tender. Check 160°F in large coated pieces with a thin probe from the side; color alone is not an egg-batter endpoint. Lift onto absorbent paper towels; do not pour unused raw batter into the sauce.
 3. **Start the sauce:** Have sesame oil, scallions, garlic cloves, fresh ginger, and small dried red chilies (if using) ready. Heat the sesame oil over medium heat in a saucepan with room for the finished dish. Stir scallion whites, garlic, ginger and optional chilies about 30 seconds until fragrant, lowering heat if garlic browns. Keep all the scallion greens aside for the thickened sauce.
-4. **Simmer the sauce liquids:** Add vegetable broth, soy sauce, rice vinegar, and mirin, bring to a simmer and cook about 5 minutes over medium heat. The distinct batter and sauce soy/vinegar measures are both used.
+4. **Simmer the sauce liquids:** Add vegetable broth, soy sauce, rice vinegar, Chinkiang black vinegar, Shaoxing wine, and mirin, bring to a simmer and cook about 2–3 minutes over medium heat. The distinct batter and sauce soy/vinegar measures are both used.
 5. **Disperse the sauce starch:** Whisk granulated sugar and cornstarch together in a small bowl. For the original batch, gradually whisk about 1/4 cup of hot sauce from the saucepan into this mixture until smooth; for a scaled batch take the corresponding proportional amount from that same sauce supply. Return all this mixture to the pot, bring to a simmer and add all the reserved scallion greens. This is recirculated sauce, not extra broth.
-6. **Finish thickening:** Cook, stirring occasionally, about 7–9 minutes more, checking for a glossy sauce that clings to a spoon without scorching. Lower heat as needed; do not treat the clock as a requirement to boil a nearly dry pot.
-7. **Glaze the cauliflower:** Add all the fried cauliflower and fold gently until coated and rewarmed, starting checks around 4–5 minutes for the original batch. Use enough uncrowded vessels for larger batches, dividing the entire batter, frying oil and sauce quantities proportionally. Serve promptly; extended holding softens the coating.
+6. **Finish thickening:** Cook, stirring, about 1–2 minutes, and stop as soon as the sauce turns glossy and clings to a spoon. Cornstarch thickens within a minute, and longer boiling only concentrates the salt and turns the glaze gluey.
+7. **Glaze the cauliflower:** Add all the fried cauliflower and fold gently until coated and hot, about 1–2 minutes for the original batch. Use enough uncrowded vessels for larger batches, dividing the entire batter, frying oil and sauce quantities proportionally. Serve promptly; extended holding softens the coating.
 8. **Serve:** Garnish with sesame seeds (if using) and serve with separately prepared steamed rice.

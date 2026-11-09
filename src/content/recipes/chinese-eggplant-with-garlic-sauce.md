@@ -58,7 +58,9 @@ ingredients:
   - 2 tsp granulated sugar
   - '1 tsp cornstarch, mixed with the separately measured cold slurry water'
   - '2 tsp cold water, for the cornstarch slurry'
-  - '2 tbsp unseasoned rice vinegar, divided and partly added to taste'
+  - >-
+    1 1/2 tbsp Chinkiang (Zhenjiang) black vinegar, divided and partly added to
+    taste
   - 1 tsp toasted sesame oil
 origin: Sichuan-inspired home cooking
 description: >-
@@ -126,11 +128,24 @@ learning:
         Makes a vegetable side with suitable plant-based doubanjiang and stock.
         Skip pork cooking and heat the final tablespoon oil briefly before
         cooking the paste and aromatics; flavor and protein content change.
-    - ingredient: Shaoxing wine
-      alternative: 1 tbsp water
+    - ingredient: La doubanjiang
+      alternative: 2 tsp chili-garlic sauce plus 1 tsp white or yellow miso
       effect: >-
-        Omit wine aroma while retaining the fermented paste, garlic, ginger and
-        vinegar character.
+        Gives the salty heat and fermented depth from supermarket jars. It is
+        a little brighter and less funky than broad-bean paste, so taste before
+        adding any more soy.
+    - ingredient: Shaoxing wine
+      alternative: 1 tbsp dry sherry
+      effect: >-
+        Keeps a nutty wine aroma close to Shaoxing. Use water only if you want
+        no wine at all.
+    - ingredient: Chinkiang black vinegar
+      alternative: >-
+        1 1/2 tbsp unseasoned rice vinegar, or rice vinegar with a small splash
+        of balsamic
+      effect: >-
+        Rice vinegar is sharper and lighter. A little balsamic brings back some
+        of the malty, rounded tang.
   timing: >-
     Forty-five minutes includes fifteen minutes cutting/measuring, two eggplant
     batches, fully cooking ground pork, aromatics, sauce and finishing. Larger
@@ -172,4 +187,4 @@ Fermented chili-bean paste gives this dish a different character from a plain ga
 3. **Cook pork:** Add the final tablespoon oil and pork. Cook over medium-high about 4–6 minutes, breaking it into small pieces, until cooked through and reaching 160°F / 71°C. For a reading, gather a small mound and insert the probe without touching the pan.
 4. **Flavor the base:** Lower heat to medium-low. Stir in doubanjiang and ginger for about 30 seconds, then garlic and scallion whites for another 20–30 seconds. Pour in the stock mixture before the garlic burns. Simmer about 1 minute.
 5. **Coat:** Stir the slurry again and add half. Simmer 20–30 seconds, then fold in eggplant. Add the remaining slurry only if needed for a light coating and discard any unused portion. Cook gently another minute, adding a tablespoon water if the sauce becomes tight.
-6. **Finish and serve:** Stir in 1 tbsp vinegar and the sesame oil, then fold in scallion greens off heat. Taste and add remaining vinegar only if wanted. Serve as four shared sides with plain rice and other vegetables; use the pork-free variation for a vegetable-only table.
+6. **Finish and serve:** Stir in 1 tbsp black vinegar and the sesame oil, then fold in scallion greens off heat. Taste and add the remaining 1/2 tbsp vinegar only if wanted. Serve as four shared sides with plain rice and other vegetables; use the pork-free variation for a vegetable-only table.

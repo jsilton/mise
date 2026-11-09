@@ -36,7 +36,7 @@ ingredients:
   - 6 cups (1.44 liters) low-sodium chicken broth
   - '1 1/2 cups (360 ml) additional chicken broth, only as needed to loosen'
   - 1/2 tsp dried thyme
-  - '1/2 tsp fine salt, added gradually only if needed'
+  - '1 1/2 tsp fine salt, added in stages, plus more to taste'
   - 1/2 tsp ground black pepper
   - 1 tsp finely grated lemon zest
   - '3 tbsp fresh lemon juice, added gradually to taste'
@@ -134,11 +134,11 @@ This stovetop soup gets a little body from flour and more starch from the orzo a
 
 ## Directions
 
-1. **Soften vegetables:** Heat butter and oil in a 5-quart pot over medium heat. Add onion, small carrot and celery pieces, and pepper. Cook about 7–9 minutes, stirring, until the vegetables soften; deep browning is not required.
+1. **Soften vegetables:** Heat butter and oil in a 5-quart pot over medium heat. Add onion, small carrot and celery pieces, pepper and **1/2 tsp of the salt**. Cook about 7–9 minutes, stirring, until the vegetables soften; deep browning is not required.
 2. **Disperse flour:** Add garlic and thyme and stir about 30 seconds. Sprinkle flour over the vegetables and stir for 1 minute. Add the initial 6 cups broth gradually, stirring to prevent flour clumps and loosen any brown residue.
 3. **Heat and add chicken:** Bring to a steady simmer. Add diced chicken, stir to separate pieces, and return to a simmer. Keep the extra broth separate for later adjustment.
 4. **Cook orzo and check:** Add orzo and simmer gently about 10–12 minutes, stirring across the bottom frequently. Check that pasta is just tender and several thick chicken pieces reach 165°F / 74°C. Extend if needed, lifting cooked chicken out briefly if the pasta needs significantly longer.
-5. **Set consistency and season:** Add additional broth in small amounts if needed for a spoonable soup and return to a gentle simmer. Taste and add salt gradually only if needed. Turn off heat, add parsley, lemon zest and half the juice, then taste before adding the remainder.
+5. **Set consistency and season:** Add additional broth in small amounts if needed for a spoonable soup and return to a gentle simmer. Taste and add the remaining **1 tsp salt** gradually, then more to taste. Low-sodium broth needs this salt, and a well-seasoned soup keeps the lemon from tasting harsh. Turn off heat, add parsley, lemon zest and half the juice, then taste before adding the remainder.
 6. **Serve:** Divide among six bowls and serve promptly. For making ahead, cook the orzo separately in boiling water according to its package and add it to each serving; keep it separate from stored soup.
 
 ## Cooking Notes

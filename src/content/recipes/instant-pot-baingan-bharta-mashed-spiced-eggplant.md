@@ -7,9 +7,9 @@ sourceUrl: https://myheartbeets.com/instant-pot-baingan-bharta-mashed-spiced-egg
 role: main
 vibe: nutritious
 difficulty: intermediate
-prepTime: 20 min
+prepTime: 35 min
 cookTime: 105 min
-totalTime: 125 min
+totalTime: 140 min
 servings: 4 vegetable-main portions
 scaling:
   mode: fixed
@@ -48,7 +48,7 @@ pairsWith:
   - cucumber-raita
   - naan
 ingredients:
-  - '900 g globe eggplant, weighed after peeling and removing stems, cut into 1-inch cubes; buy approximately 1.1 kg whole'
+  - '900 g globe eggplant, charred whole, then weighed after peeling and removing stems, cut into 1-inch cubes; buy approximately 1.1 kg whole'
   - '375 ml water, all for deglazing and pressure cooking'
   - '4 tbsp (60 ml) neutral oil'
   - 1 tsp cumin seeds
@@ -124,11 +124,19 @@ learning:
         loosen with the remaining finishing-water reserve a tablespoon at a time; keep the total
         extra water within 60 ml. Do not add more oil.
   substitutions:
+    - ingredient: Charring the whole eggplants
+      alternative: >-
+        Skip the charring and use 1/2 tsp smoked paprika in place of the sweet
+        paprika.
+      effect: >-
+        Quicker and gives a gentle smoky note, but less of the deep fire-roasted
+        flavor that defines bharta.
     - ingredient: Cayenne
       alternative: 1/4 tsp cayenne, or omit it for a mild version
       effect: Reduces chili heat while keeping the cumin, coriander, garlic and garam masala character.
   timing: >-
-    Allow about 125 minutes from whole vegetables: 20 minutes preparation, about 15–20 minutes
+    Allow about 140 minutes from whole vegetables: 35 minutes preparation,
+    including about 10 minutes charring the eggplants, about 15–20 minutes
     for sautéing and loading, 10–15 minutes coming to pressure, seven minutes at pressure,
     20–30 minutes or longer for full natural release, and about 20–35 minutes reducing and
     finishing. Active work is roughly 60–70 minutes. Natural release and evaporation determine
@@ -154,11 +162,11 @@ learning:
 
 ## Chef's Note
 
-Baingan bharta often begins with fire-roasted eggplant. This pressure-cooked version builds its flavor from golden onion, cumin, garlic and warm spices. Keep the eggplant and tomato juices in the pot, then simmer them down until the mash is glossy and thick enough to scoop with bread. Cilantro and a little lemon brighten the finish.
+Baingan bharta's defining flavor is smoky fire-roasted eggplant. A short char over a gas flame or under the broiler gives this pressure-cooked version that smoke, and golden onion, cumin, garlic and warm spices build the rest. Keep the eggplant and tomato juices in the pot, then simmer them down until the mash is glossy and thick enough to scoop with bread. Cilantro and a little lemon brighten the finish.
 
 ## Directions
 
-1. **Prepare:** Peel and weigh the eggplant, then cut into even 1-inch cubes. Chop the onion and tomatoes, keeping all tomato juice. Measure the spices and the separate quantities of water. Keep the tomatoes aside for the top layer.
+1. **Char and prepare:** Char the whole eggplants directly over a gas flame or close under a hot broiler for about 10 minutes, turning with tongs, until the skin is blackened and blistered all over. Let them cool until safe to handle. Peel off the charred skin, leaving a few dark flecks for smoke, then remove the stems, weigh and cut into even 1-inch cubes. Chop the onion and tomatoes, keeping all tomato juice. Measure the spices and the separate quantities of water. Keep the tomatoes aside for the top layer.
 2. **Sauté the onion:** Heat all 4 tbsp oil using the cooker's moderate sauté setting. Add cumin and stir about 30 seconds until fragrant and a shade darker. Add onion and the initial 1 tsp salt. Cook about 8–12 minutes, stirring often, until softened with golden edges. Lower the heat if edges brown before the onion softens; do not add more oil.
 3. **Bloom spices and deglaze:** Lower the sauté heat. Add garlic, ginger, coriander, garam masala, black pepper, turmeric, paprika and cayenne. Stir about 30 seconds, then cancel sauté and pour in all 375 ml pressure-cooking water. Scrape the entire base with a wooden spatula for 1–2 minutes, until it feels smooth with no stuck patches. The onion mixture should be loose and watery, not a paste.
 4. **Load the vegetables:** Spread the eggplant over the deglazed base. Spoon all the tomatoes and their juices on top. Do not stir them down to the bottom. Check that everything is below the cooker's pressure maximum and clear of its lid fittings.

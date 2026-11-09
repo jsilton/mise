@@ -167,3 +167,7 @@ _This recipe was a wedding gift from Pat Miller and Sean Kilpatrick, passed down
 ## Cooking Notes
 
 Jeri’s soup accompanied a wedding gift from Pat Miller and Sean Kilpatrick. Their note describes Jeri’s years dancing on Broadway and Off-Broadway, including the original production of West Side Story, and the soup’s place in busy rehearsal and performance weeks.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Add the wine to the skillet after sautéing the vegetables and simmer until reduced by half before everything goes into the slow cooker. That cooks off the raw wine taste.

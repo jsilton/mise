@@ -37,7 +37,7 @@ ingredients:
   - '1 medium head Cauliflower, cut into small florets'
   - '1 tbsp Cream Cheese, softened'
   - 1/4 cup Freshly Grated Parmesan
-  - '1/2 tsp Garlic, minced'
+  - '3 to 4 Garlic cloves, minced'
   - 3 tbsp unsalted butter
   - >-
     1/2 tsp concentrated chicken or vegetable bouillon paste, using a paste
@@ -69,7 +69,7 @@ learning:
       cue: No pool of free cooking water remains.
       why: Removing free water reduces dilution; cauliflower need not be bone-dry.
     - step: 5
-      cue: All measured butter is melted and seasoning is tasted after bouillon.
+      cue: Seasoning is tasted after the garlic butter, bouillon and cheese are mixed in.
       why: 'The recipe retains richness, and broth paste/cheese contribute salt.'
   troubleshooting:
     - problem: Mash is watery
@@ -120,18 +120,18 @@ learning:
 
 ## Chef's Note
 
-Drain the cooked cauliflower well and let surface steam escape before puréeing. Removing free water helps the mash hold its shape, while cream cheese, Parmesan and all the measured butter keep it rich. The concentrated bouillon is a paste with the stated broth strength, not an interchangeable cube.
+Drain the cooked cauliflower well and let surface steam escape before puréeing. Removing free water helps the mash hold its shape, while cream cheese, Parmesan and all the measured butter keep it rich. Cooking the garlic gently in that butter gives a sweet, rounded garlic flavor without a raw bite. The concentrated bouillon is a paste with the stated broth strength, not an interchangeable cube.
 
 ## Directions
 
-1. **Boil:** Bring a pot of water to a boil and salt it with the listed allowance. Add small cauliflower florets and cook about 6–8 minutes, until very soft and easily crushed.
+1. **Boil:** Bring a pot of water to a boil and salt it with the listed allowance. Add small cauliflower florets and cook about 6–8 minutes, until very soft and easily crushed. Meanwhile, melt all the measured butter in a small pan over low heat. Add the minced garlic and cook gently, stirring, about 3–4 minutes until soft and fragrant but not browned. Keep this garlic butter warm.
 
 2. **Drain and dry:** Drain thoroughly in a colander and let surface steam escape briefly. Spread on a heatproof tray if needed. If free water remains, use tongs or a utensil to blot with clean absorbent towels once manageable; do not press scalding florets between paper towels with bare hands. Keep the cauliflower warm where the chosen equipment permits.
 
-3. **Purée:** Use a food processor or immersion blender only as its actual manual permits for this food temperature and quantity. Never put hot cauliflower in a sealed personal cup. If cooling is required, allow it and rewarm after puréeing; it adds time. Combine cauliflower with all the cream cheese, Parmesan, minced garlic, specified concentrated bouillon paste and black pepper.
+3. **Purée:** Use a food processor or immersion blender only as its actual manual permits for this food temperature and quantity. Never put hot cauliflower in a sealed personal cup. If cooling is required, allow it and rewarm after puréeing; it adds time. Combine cauliflower with all the garlic butter, cream cheese, Parmesan, specified concentrated bouillon paste and black pepper.
 
 4. **Check texture:** Process until smooth, checking safely rather than assuming 1 minute works for every machine. Use batches if needed and recombine; do not add water to compensate for undercooked florets.
 
-5. **Finish:** Stir in all the measured butter until melted. Taste after the cheese and bouillon are mixed through, and use any additional salt only if needed. Add the chopped chives.
+5. **Finish:** Taste after the garlic butter, cheese and bouillon are mixed through, and use any additional salt only if needed. Add the chopped chives.
 
 6. **Serve:** Serve warm with the separate optional extra butter pat. Refrigerate leftovers promptly and reheat gently, stirring for even warmth.

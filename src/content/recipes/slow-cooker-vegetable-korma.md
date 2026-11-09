@@ -6,9 +6,9 @@ sourceUrl: https://thebigmansworld.com/easy-slow-cooker-vegetable-korma/
 role: main
 vibe: comfort
 difficulty: easy
-prepTime: 25 min
+prepTime: 35 min
 cookTime: 5 hr
-totalTime: 5 hr 30 min
+totalTime: 5 hr 40 min
 servings: 6 with rice or naan
 cuisines: [Indian]
 cookingMethods: [slow-cook]
@@ -21,6 +21,7 @@ leftovers: good
 advancePrep: [prep-vegetables, cook-ahead]
 equipment:
   - 6-quart-slow-cooker
+  - skillet
   - kitchen-scale
   - instant-read-thermometer
 pairsWith: [basmati-rice, naan]
@@ -32,6 +33,8 @@ ingredients:
   - '300 g carrots, weighed after trimming and peeling; cut into 1/4-inch / 6 mm half-moons'
   - '150 g onion, peeled and finely chopped'
   - '2 cloves garlic, finely minced'
+  - 1 tbsp finely grated fresh ginger
+  - 1 tbsp ghee or neutral oil
   - '300 ml full-fat unsweetened canned coconut milk, stirred together before measuring'
   - '2 tbsp mild, salt-free Indian-style curry powder'
   - 1 tsp garam masala
@@ -115,8 +118,8 @@ learning:
         Saves knife work if the pieces match the specified sizes. Frozen vegetables release
         water and soften differently, so they are not a direct substitution for this timing.
   timing: >-
-    Allow about 4 1/4–5 1/2 hours from starting the vegetables to serving, including 25 minutes
-    of preparation and about 3 3/4–5 hours on High with the late additions included.
+    Allow about 4 1/2–5 3/4 hours from starting the vegetables to serving, including 35 minutes
+    of preparation and blooming the spices and about 3 3/4–5 hours on High with the late additions included.
     Start checking at 3 hours; a slow model or firm carrots may take longer. Hands-on work
     is about 35–45 minutes, including the checks and yogurt finish. Rice and naan are separate.
   storage: >-
@@ -151,9 +154,9 @@ This coconut-and-almond vegetable korma is adapted from Arman Liew. Ground almon
 
 ## Directions
 
-1. **Prepare the vegetables:** Wash the vegetables, trim and weigh them, then cut as listed. Put the carrots and onion in the bottom of the slow cooker, scatter over the garlic and add the cauliflower. Keep the prepared beans refrigerated. Leave the peas frozen and the yogurt chilled for now.
-2. **Coat and start cooking:** Stir the coconut milk thoroughly before measuring 300 ml. Whisk it with the curry powder, garam masala, ground almonds, the first teaspoon of fine salt and optional pepper flakes. Pour over the vegetables and gently turn the cauliflower to coat it, leaving most carrots underneath. Cover and start on **High immediately**. Do not add the reserved water automatically; this is a coated vegetable curry, not a pot of submerged vegetables.
+1. **Prepare the vegetables and bloom the spices:** Wash the vegetables, trim and weigh them, then cut as listed. Heat the ghee or oil in a skillet over medium heat and cook the onion, stirring, for about 5 minutes until softened. Add the garlic, ginger and curry powder and stir for about 1 minute, until fragrant but not dark. Put the carrots in the bottom of the slow cooker, scrape the onion-spice mixture over them and add the cauliflower. Keep the prepared beans refrigerated. Leave the peas frozen and the yogurt chilled for now.
+2. **Coat and start cooking:** Stir the coconut milk thoroughly before measuring 300 ml. Whisk it with the ground almonds, the first teaspoon of fine salt and optional pepper flakes. Pour over the vegetables and gently turn the cauliflower to coat it, leaving most carrots underneath. Cover and start on **High immediately**. Do not add the reserved water automatically; this is a coated vegetable curry, not a pot of submerged vegetables.
 3. **Check and add beans:** After about **3 hours**, check a carrot and a thick cauliflower stem with a small knife. When both are nearly tender, gently fold the green beans into the hot sauce, replace the lid and continue on High. Allow about **45–60 minutes total for the beans**, beginning checks after **30–45 minutes** so the peas can cook during the final part of that window. If the carrots are still distinctly hard at the first check, continue covered and check again in 20–30 minutes before adding the beans. Avoid frequent stirring that breaks up the florets.
 4. **Cook the peas and check the whole pot:** When the beans are nearly tender, stir in the frozen peas. Cover and continue on High for about **10–15 minutes**, until the peas are steaming hot throughout and all the vegetables are tender; follow any longer cooking requirement on the pea package. This final pea period overlaps the end of the bean cooking time. Expect roughly **3 3/4–5 hours total on High**, with some cauliflower edges softening into the sauce. Stop when the vegetables are ready rather than keeping a fast batch cooking for five hours.
-5. **Hold briefly or finish:** If dinner is running late, keep the fully cooked curry covered on Warm **before adding the yogurt**, checking that it stays at least **140°F / 60°C**. Aim to serve within an hour for better vegetable texture. Warm holds cooked food and does not finish undercooked vegetables. When ready to serve, thicken a loose sauce before adding yogurt, as described in troubleshooting. Turn the cooker off and uncover for about **5 minutes**, until active bubbling stops. Whisk a few spoonfuls of hot sauce into the yogurt in a bowl, then gently fold all of it back into the curry. Taste and add the reserved fine salt a pinch at a time, only as needed. The sauce should coat a spoon and the vegetables, with a little fine almond texture.
+5. **Hold briefly or finish:** If dinner is running late, keep the fully cooked curry covered on Warm **before adding the yogurt**, checking that it stays at least **140°F / 60°C**. Aim to serve within an hour for better vegetable texture. Warm holds cooked food and does not finish undercooked vegetables. When ready to serve, thicken a loose sauce before adding yogurt, as described in troubleshooting. Turn the cooker off and uncover for about **5 minutes**, until active bubbling stops. Stir in the garam masala. Whisk a few spoonfuls of hot sauce into the yogurt in a bowl, then gently fold all of it back into the curry. Taste and add the reserved fine salt a pinch at a time, only as needed. The sauce should coat a spoon and the vegetables, with a little fine almond texture.
 6. **Serve:** Divide among six bowls with rice or naan. The batch makes about **7–8 cups**, enough for roughly **1 1/4 cups per person**.

@@ -64,7 +64,9 @@ test('mushroom soup uses observable browning and model-specific hot-blender limi
   assert.match(content, /liquid has evaporated/);
   assert.match(content, /Take the pot off the heat/);
   assert.match(content, /Never blend hot soup in a sealed personal-blender cup/);
-  assert.ok(data.ingredients.includes('16 oz Cremini Mushrooms, sliced'));
+  assert.ok(data.ingredients.includes('24 oz Cremini Mushrooms, sliced'));
+  assert.ok(data.ingredients.includes('2 tbsp All-purpose Flour'));
+  assert.match(content, /Stir in the flour and cook/);
   assert.ok(data.ingredients.includes('1 tbsp Dry Sherry (The Finishing Touch)'));
 });
 test('Jeri lentils count the final half hour and retain the documented LOW route and adaptation', () => {

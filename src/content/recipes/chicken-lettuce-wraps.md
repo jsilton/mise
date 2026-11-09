@@ -38,7 +38,8 @@ pairsWith:
 ingredients:
   - 1 lb (450 g) ground chicken or ground turkey
   - 1 tbsp neutral oil
-  - 1 cup (100 g) finely diced celery
+  - '100 g drained canned water chestnuts, finely diced'
+  - '4 fresh shiitake mushrooms (about 60 g), stemmed and finely diced'
   - '1/2 cup sliced scallions, whites and greens separated'
   - 1/4 cup (60 ml) hoisin sauce
   - 1 tbsp soy sauce
@@ -51,13 +52,13 @@ ingredients:
   - '1/2 cup purchased ready-to-eat crispy rice noodles, optional'
 origin: Chinese-American-inspired
 description: >-
-  A moist hoisin-ginger chicken filling with crisp celery, served in cold, dry lettuce leaves. Learn
+  A moist hoisin-ginger chicken filling with crisp water chestnuts and shiitakes, served in cold, dry lettuce leaves. Learn
   to reduce a glaze without drying out the meat.
 learning:
   focus: Keep the filling moist and the lettuce crisp
   outcome: >-
-    Small pieces of chicken with a clinging glaze, crunchy celery, and cool leaves that can be
-    folded around the filling.
+    Small pieces of chicken with a clinging glaze, crunchy water chestnuts and savory shiitakes,
+    and cool leaves that can be folded around the filling.
   techniques:
     - temperature
     - seasoning
@@ -70,7 +71,7 @@ learning:
       seasoning.
   checkpoints:
     - step: 3
-      cue: Chicken has some golden edges and celery remains firm.
+      cue: Chicken has some golden edges and the shiitakes have softened.
       why: >-
         Brief browning adds flavor, but cooking until every piece is crisp would dry this small
         ground-meat filling.
@@ -89,11 +90,14 @@ learning:
         Add water one tablespoon at a time. Serve with more plain lettuce or rice; extra vinegar
         does not remove salt.
   substitutions:
-    - ingredient: Celery
-      alternative: '100 g drained, finely diced canned water chestnuts'
+    - ingredient: Water chestnuts
+      alternative: 1 cup (100 g) finely diced celery
       effect: >-
-        A different, clean crunch. Stir them in with the aromatics; they need only heating, not the
-        celery cooking time.
+        A fresher, greener crunch. Add it with the shiitakes and scallion whites so it softens
+        slightly but stays firm.
+    - ingredient: Fresh shiitake mushrooms
+      alternative: The same weight of cremini mushrooms
+      effect: Milder and less meaty. Cook until their liquid evaporates before adding the aromatics.
     - ingredient: Ground chicken
       alternative: Ground turkey
       effect: >-
@@ -120,12 +124,12 @@ learning:
 
 ## Chef's Note
 
-These Chinese-American-inspired wraps depend on contrast: warm, savory chicken against cool, crisp lettuce. Celery gives the filling a fresh crunch; water chestnuts are another good option with a different texture. Hoisin provides sweetness and salt, so the sauce needs only a modest amount of additional soy.
+These Chinese-American-inspired wraps depend on contrast: warm, savory chicken against cool, crisp lettuce. Water chestnuts give the filling its clean crunch and shiitakes add savory depth. Celery is a good alternative with a fresher, greener crunch. Hoisin provides sweetness and salt, so the sauce needs only a modest amount of additional soy.
 
 ## Directions
 
 1. **Prepare leaves and sauce:** Wash and dry the lettuce leaves and chill them. Mix hoisin, soy sauce, vinegar, and water in a small bowl. Separate scallion whites from greens.
 2. **Start the chicken:** Heat neutral oil in a wide skillet over medium-high heat. Add chicken and break into small pieces. Cook 5–6 minutes, stirring occasionally, until released liquid mostly evaporates and some edges begin to brown.
-3. **Add crunch and aromatics:** Add celery and scallion whites and cook 2 minutes. Lower heat to medium, add ginger and garlic, and stir for 30 seconds, keeping the garlic from scorching.
+3. **Add mushrooms, crunch and aromatics:** Add shiitakes and scallion whites and cook 2–3 minutes until the mushrooms soften. Lower heat to medium, add water chestnuts, ginger and garlic, and stir for 30 seconds, keeping the garlic from scorching. The water chestnuts need only heating.
 4. **Glaze and check:** Add the hoisin mixture. Simmer, stirring, for 2–3 minutes until it coats the filling. Check several thick clusters reach 165°F / 74°C, keeping the thermometer tip off the hot pan. Continue cooking if necessary; add a spoonful of water if the glaze becomes sticky.
 5. **Finish and serve:** Turn off heat and stir in sesame oil and scallion greens. Transfer to a serving bowl and let stand briefly until no longer fiercely steaming. Spoon small portions into the lettuce at the table, adding ready-to-eat crispy noodles if desired. Keep the rest of the leaves unfilled until needed.

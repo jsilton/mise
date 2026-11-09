@@ -9,3 +9,7 @@ This is a source-preservation disposition, not a complete editorial review or ki
 `src/data/recipe-preservations.json` pins the exact public cooking text. The lint and validation exception permits only the absence of an added Chef’s Note. It does not waive ingredient/method integrity, references, privacy, exports or any safety checks, and it rejects source drift or invented review, formula, nutrition, yield and timing fields. The audit keeps the missing information visible. No native-app synchronization has occurred.
 
 [Verified implementation and live release](../editorial-campaign/2026-10-06/final-hold-production.json). No physical kitchen test or native-app sync.
+
+## Update, 2026-11-08
+
+Jordan approved salting the potatoes and asked that changes to family recipes be suggestions, not edits. Craig Plummer's original ingredients and directions stay exactly as written. A short "Suggested Tweak" section after the directions recommends about 1 tsp kosher salt per pound with the oil and tarragon, plus a pinch of flaky salt to finish. The pinned hash in `src/data/recipe-preservations.json` was updated to match.

@@ -25,7 +25,7 @@ cookTime: 10 min
 totalTime: 20 min
 servings: 4 small side portions
 ingredients:
-  - '450 g fresh baby spinach, washed, tough stems removed'
+  - '450 g mature bunch spinach (about 2 bunches), roots trimmed, washed well (see the baby-spinach substitution)'
   - '2 liters water, for blanching'
   - 'Cold water and ice, for cooling'
   - 2 tsp toasted sesame oil
@@ -58,7 +58,7 @@ learning:
       bowls of vegetables.
   checkpoints:
     - step: 2
-      cue: 'Leaves have collapsed and stems bend readily, usually in 30–60 seconds per batch.'
+      cue: 'Leaves have collapsed and stems bend readily, usually in 30–45 seconds per batch.'
       why: >-
         Leaf age, stem thickness and recovery of the boil matter more than an exact thirty-second
         promise.
@@ -86,11 +86,11 @@ learning:
         Mix with additional plain cooked spinach if available. Start with half the listed garlic
         next time; extra oil will not remove its pungency.
   substitutions:
-    - ingredient: Baby spinach
-      alternative: 450 g mature spinach leaves with tough stalks removed
+    - ingredient: Mature bunch spinach
+      alternative: 450 g baby spinach, blanched only 15–20 seconds per batch
       effect: >-
-        Wash carefully, blanch until stems bend and cut longer strands after cooling. Timing may be
-        longer and yield differs with trimming.
+        Baby leaves are softer and can turn limp and mushy, so blanch briefly, cool at once and
+        squeeze very gently. There are no stems to give the namul its bite.
   timing: >-
     About 20 minutes includes heating the water, two brief blanching batches, cooling, gently
     squeezing and dressing. The blanch alone is not the whole preparation time.
@@ -114,8 +114,8 @@ Sigeumchi namul is a Korean spinach banchan. Brief blanching softens the leaves;
 
 ## Directions
 
-1. **Prepare:** Wash spinach and remove tough stems. Bring 2 liters water to a boil in a large pot. Fill a large bowl with cold water and ice and set a colander nearby.
-2. **Blanch in two batches:** Submerge half the spinach, stir it under the water and cook about 30–60 seconds, until leaves wilt and stems bend. Lift directly into the cold water. Let the pot return to a boil and repeat with the remaining spinach.
+1. **Prepare:** Trim off the hairy roots, keeping the stems, and separate any large clusters. Wash the spinach in several changes of water to remove grit, especially near the base. Bring 2 liters water to a boil in a large pot. Fill a large bowl with cold water and ice and set a colander nearby.
+2. **Blanch in two batches:** Submerge half the spinach, stir it under the water and cook about 30–45 seconds, until leaves wilt and stems bend. Lift directly into the cold water. Let the pot return to a boil and repeat with the remaining spinach.
 3. **Cool, drain and press:** Once spinach is cool, drain. Take small handfuls and squeeze gently to remove excess water, stopping while the leaves remain moist. Do not twist into a hard, dry mass. Cut long strands into bite-sized lengths and loosen with your fingers in a bowl.
 4. **Season:** Add sesame oil, seeds, half the garlic and half the salt. Toss gently, taste a small portion, then add remaining garlic and salt only as needed. Avoid crushing the greens into a paste.
 5. **Serve or chill:** Divide into four small side portions. Serve promptly at cool room temperature or refrigerate until wanted. The spinach is blanched and dressed, not sautéed in garlic oil.

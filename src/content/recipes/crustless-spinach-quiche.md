@@ -250,3 +250,7 @@ Rebecca’s crustless spinach quiche pairs browned onion with nutty Gruyère. Co
 5. **Mix in the cheese and vegetables:** Stir Gruyère cheese and all the cooled onion-spinach mixture into the eggs. Spread the full filling evenly in the prepared plate, keeping it below the rim. Put any excess in the extra coated dish rather than forcing the plate full.
 6. **Bake by the center:** Bake at 350°F, beginning the first check around 25 minutes; about 25–40 minutes is a planning range. The top should be lightly browned and the center fully set, with no liquid egg movement. Measure at least 160°F in the central egg filling, keeping the sensing part of the thermometer away from the pan. Check any extra dish separately. Depth, starting temperature and oven heat can require longer.
 7. **Rest briefly, then serve:** Rest for 10 minutes before slicing. Serve warm with a fresh salad. Refrigerate remaining portions within 2 hours of cooking, or 1 hour above 90°F, while still warm if needed.
+
+## Suggested Tweak
+
+This is Rebecca's recipe, so it stays as written. If you want to try it: whisk 1 cup half-and-half and a pinch of nutmeg into the six eggs for a softer, silkier custard. The extra liquid means a longer bake, about 30 to 45 minutes, until the center is just set.

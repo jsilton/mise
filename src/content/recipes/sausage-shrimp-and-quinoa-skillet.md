@@ -37,10 +37,11 @@ ingredients:
   - '1/2 lb medium shrimp, raw, peeled, deveined and thawed if frozen'
   - '6 oz spicy chicken sausage, labeled fully cooked, sliced'
   - >-
-    3 1/2 cups cooked quinoa, frozen prepared according to package, or properly
-    refrigerated leftovers
+    3 1/2 cups cooked quinoa, frozen prepared according to package, or properly refrigerated
+    leftovers
   - '1 cup onion, pepper and celery blend, chopped'
-  - 1 tsp Creole seasoning
+  - 2 tsp Creole seasoning
+  - '2 garlic cloves, minced'
   - 1 tbsp neutral oil
   - 'fresh parsley, for garnish, rinsed and chopped'
   - 'salt, a pinch, to taste'
@@ -83,9 +84,7 @@ formula:
           quantity:
             amount: 3.5
             unit: cup
-          preparation: >-
-            frozen prepared according to package, or properly refrigerated
-            leftovers
+          preparation: 'frozen prepared according to package, or properly refrigerated leftovers'
           uses:
             - step: quinoa
               share: 1
@@ -103,8 +102,21 @@ formula:
           key: seasoning
           name: Creole seasoning
           quantity:
-            amount: 1
+            amount: 2
             unit: tsp
+          uses:
+            - step: season
+              share: 3/4
+            - step: shrimp
+              share: 1/4
+        - id: garlic
+          key: garlic
+          name: garlic clove
+          plural: garlic cloves
+          quantity:
+            amount: 2
+            unit: count
+          preparation: minced
           uses:
             - step: season
               share: 1
@@ -143,94 +155,86 @@ formula:
     - id: sausage
       title: Brown sausage and soften vegetables
       text: >-
-        Use {{ingredients}} for this stage. Heat the oil over medium-high heat
-        in a large skillet. Add the fully cooked sliced sausage and chopped
-        vegetables; cook, stirring, until sausage is browned and vegetables are
-        tender, beginning checks around 5–7 minutes. Lower heat if the pan
-        scorches.
+        Use {{ingredients}} for this stage. Heat the oil over medium-high heat in a large skillet.
+        Add the fully cooked sliced sausage and chopped vegetables; cook, stirring, until sausage is
+        browned and vegetables are tender, beginning checks around 5–7 minutes. Lower heat if the
+        pan scorches.
     - id: season
       title: Add seasoning
       text: >-
-        Stir in {{ingredients}} briefly until fragrant, about 30 seconds,
-        without burning it.
+        Stir in {{ingredients}} briefly until fragrant, about 30–45 seconds, without burning the
+        garlic or spices.
     - id: quinoa
       title: Heat the cooked grain
       text: >-
-        Add {{ingredients}}, breaking up clumps. Stir until hot throughout; for
-        refrigerated leftovers check 165°F / 74°C in several places. Follow
-        frozen-product heating instructions rather than treating two minutes as
-        sufficient for every frozen load.
+        Add {{ingredients}}, breaking up clumps. Stir until hot throughout; for refrigerated
+        leftovers check 165°F / 74°C in several places. Follow frozen-product heating instructions
+        rather than treating two minutes as sufficient for every frozen load.
     - id: shrimp
       title: Cook shrimp
       text: >-
-        Add {{ingredients}}. Turn through the hot grain mixture until the
-        thickest shrimp is firm, pearly and opaque through its center. Start
-        checking around 2–3 minutes; size, starting temperature and pan load
+        Toss {{ingredients}} together in a bowl, then add the seasoned shrimp to the pan. Turn
+        through the hot grain mixture until the thickest shrimp is firm, pearly and opaque through
+        its center. Start checking around 2–3 minutes; size, starting temperature and pan load
         change the time. Keep cooking if centers are translucent.
     - id: serve
       title: Finish
       text: >-
-        Use {{ingredients}} for this stage. Taste only after the shrimp are
-        fully cooked. Add the listed salt and pepper allowances if needed,
-        garnish with all the parsley and divide among the listed portions. Serve
-        promptly.
+        Use {{ingredients}} for this stage. Taste only after the shrimp are fully cooked. Most
+        Creole blends are salty, so add the listed salt and pepper allowances only if needed,
+        garnish with all the parsley and divide among the listed portions. Serve promptly.
 learning:
   focus: Distinguish sausage product states and heat quinoa before shrimp
   outcome: >-
-    Vegetables are tender, quinoa is hot throughout, and the thickest shrimp is
-    pearly and opaque without a translucent center.
+    Vegetables are tender, quinoa is hot throughout, and the thickest shrimp is pearly and opaque
+    without a translucent center.
   techniques:
     - temperature
   before:
     - >-
-      The primary route uses fully cooked chicken sausage. Use the separate
-      crumbled-sausage method below for a raw product; brief slice browning
-      alone does not cook raw sausage.
+      The primary route uses fully cooked chicken sausage. Use the separate crumbled-sausage method
+      below for a raw product; brief slice browning alone does not cook raw sausage.
     - >-
-      Thaw shrimp in the refrigerator and keep it cold until cooking. Prepare
-      frozen cooked quinoa according to its package; refrigerated leftover
-      quinoa must have been cooled and stored promptly.
+      Thaw shrimp in the refrigerator and keep it cold until cooking. Prepare frozen cooked quinoa
+      according to its package; refrigerated leftover quinoa must have been cooled and stored
+      promptly.
     - >-
-      Use a wide skillet with room to turn the full grain mixture; more portions
-      may need additional pans or batches.
+      Use a wide skillet with room to turn the full grain mixture; more portions may need additional
+      pans or batches.
   checkpoints:
     - step: 4
       cue: >-
-        Vegetables are tender, quinoa is hot throughout, and the thickest shrimp
-        is pearly and opaque without a translucent center.
+        Vegetables are tender, quinoa is hot throughout, and the thickest shrimp is pearly and
+        opaque without a translucent center.
       why: >-
-        The clock is a starting check; actual product state, load and center
-        doneness govern completion.
+        The clock is a starting check; actual product state, load and center doneness govern
+        completion.
   troubleshooting:
     - problem: Shrimp finish before quinoa heats through
       cause: A large frozen grain load was added without its package preparation.
       fix: >-
-        Prepare and heat quinoa before shrimp in the primary route; keep cooking
-        any existing mixed batch until grain and shrimp endpoints are met,
-        accepting that already-overcooked shrimp cannot be made tender again.
+        Prepare and heat quinoa before shrimp in the primary route; keep cooking any existing mixed
+        batch until grain and shrimp endpoints are met, accepting that already-overcooked shrimp
+        cannot be made tender again.
   substitutions:
     - ingredient: 'Fully cooked sliced sausage, current oil and vegetables'
       alternative: 'The complete saved raw, crumbled-sausage variation below'
       effect: >-
-        Use the variation’s own oil measure and 8-ounce vegetable package in
-        place of the primary oil and one-cup blend. Cook raw poultry sausage to
-        165°F / 74°C.
+        Use the variation’s own oil measure and 8-ounce vegetable package in place of the primary
+        oil and one-cup blend. Cook raw poultry sausage to 165°F / 74°C.
   timing: >-
-    About 25–40 min with prepared ingredients; 10–15 min, plus thawing/package
-    preparation. Additional pans/batches change elapsed time; no linear clock
-    scaling is implied.
+    About 25–40 min with prepared ingredients; 10–15 min, plus thawing/package preparation.
+    Additional pans/batches change elapsed time; no linear clock scaling is implied.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below,
-    within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days or freeze;
-    reheat leftovers to 165°F / 74°C throughout. Prompt cooling matters for
-    cooked grains as well as meat; reheating is not a substitute for proper
-    storage.
+    Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1
+    hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C
+    throughout. Prompt cooling matters for cooked grains as well as meat; reheating is not a
+    substitute for proper storage.
   sources:
     - title: Adapted from Myrecipes.com
       url: 'http://www.myrecipes.com/recipe/sausage-shrimp-quinoa-skillet'
     - title: FoodSafety.gov — Cooking temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: FDA — Seafood handling
       url: >-
         https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
@@ -249,11 +253,11 @@ Onion, pepper and celery provide the trinity base for the Creole seasoning. Heat
 ## Directions
 
 1. **Brown sausage and soften vegetables:** Use spicy chicken sausage, onion, pepper and celery blend, and neutral oil for this stage. Heat the oil over medium-high heat in a large skillet. Add the fully cooked sliced sausage and chopped vegetables; cook, stirring, until sausage is browned and vegetables are tender, beginning checks around 5–7 minutes. Lower heat if the pan scorches.
-2. **Add seasoning:** Stir in Creole seasoning briefly until fragrant, about 30 seconds, without burning it.
+2. **Add seasoning:** Stir in 3/4 of the Creole seasoning and garlic cloves briefly until fragrant, about 30–45 seconds, without burning the garlic or spices.
 3. **Heat the cooked grain:** Add cooked quinoa, breaking up clumps. Stir until hot throughout; for refrigerated leftovers check 165°F / 74°C in several places. Follow frozen-product heating instructions rather than treating two minutes as sufficient for every frozen load.
-4. **Cook shrimp:** Add medium shrimp. Turn through the hot grain mixture until the thickest shrimp is firm, pearly and opaque through its center. Start checking around 2–3 minutes; size, starting temperature and pan load change the time. Keep cooking if centers are translucent.
-5. **Finish:** Use fresh parsley, salt, and black pepper for this stage. Taste only after the shrimp are fully cooked. Add the listed salt and pepper allowances if needed, garnish with all the parsley and divide among the listed portions. Serve promptly.
+4. **Cook shrimp:** Toss medium shrimp and 1/4 of the Creole seasoning together in a bowl, then add the seasoned shrimp to the pan. Turn through the hot grain mixture until the thickest shrimp is firm, pearly and opaque through its center. Start checking around 2–3 minutes; size, starting temperature and pan load change the time. Keep cooking if centers are translucent.
+5. **Finish:** Use fresh parsley, salt, and black pepper for this stage. Taste only after the shrimp are fully cooked. Most Creole blends are salty, so add the listed salt and pepper allowances only if needed, garnish with all the parsley and divide among the listed portions. Serve promptly.
 
 ## Raw Chicken-Sausage Variation
 
-For the original four-portion batch of this variation, use 6 ounces raw spicy chicken sausage links with casings removed, one 8-ounce package chopped onion, pepper and celery blend, 1 teaspoon canola oil, the same half-pound shrimp, teaspoon Creole seasoning and 3½ cups frozen cooked quinoa. These replace the primary sliced-sausage, one-cup vegetable and tablespoon-oil choices; do not combine the two shopping amounts. For other quantities, scale each of these source amounts proportionally, keeping the same pan-depth and endpoint constraints. Heat the canola oil over medium heat, add the raw sausage and crumble it. Cook until browned and 165°F / 74°C in the meat, checking beyond the source’s 5–7-minute starting window as needed. Add vegetables and cook until tender, beginning around 3–4 minutes. Add the shrimp and seasoning; begin turning them for about 2–3 minutes. Add the package-prepared cooked quinoa and continue until quinoa is hot throughout and the thickest shrimp is pearly and opaque. Refrigerated leftover quinoa must reach 165°F / 74°C. Package preparation can extend the original source’s short grain-heating interval; do not use a two-minute promise for an arbitrary frozen block. Serve promptly. The primary parsley and salt/pepper finish are optional additions to this separate saved route.
+For the original four-portion batch of this variation, use 6 ounces raw spicy chicken sausage links with casings removed, one 8-ounce package chopped onion, pepper and celery blend, 1 teaspoon canola oil, the same half-pound shrimp, 2 teaspoons Creole seasoning, 2 minced garlic cloves, and 3½ cups frozen cooked quinoa. These replace the primary sliced-sausage, one-cup vegetable and tablespoon-oil choices; do not combine the two shopping amounts. For other quantities, scale each of these source amounts proportionally, keeping the same pan-depth and endpoint constraints. Heat the canola oil over medium heat, add the raw sausage and crumble it. Cook until browned and 165°F / 74°C in the meat, checking beyond the source’s 5–7-minute starting window as needed. Add vegetables and cook until tender, beginning around 3–4 minutes, then stir in the garlic for about 30 seconds. Add the shrimp and seasoning; begin turning them for about 2–3 minutes. Add the package-prepared cooked quinoa and continue until quinoa is hot throughout and the thickest shrimp is pearly and opaque. Refrigerated leftover quinoa must reach 165°F / 74°C. Package preparation can extend the original source’s short grain-heating interval; do not use a two-minute promise for an arbitrary frozen block. Serve promptly. The primary parsley and salt/pepper finish are optional additions to this separate saved route.

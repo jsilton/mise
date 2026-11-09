@@ -34,7 +34,8 @@ ingredients:
   - '1 white onion, peeled and quartered'
   - '3 garlic cloves, peeled'
   - 1/2 cup heavy cream
-  - '1/2 cup fresh cilantro, washed, for the sauce'
+  - '1/2 cup fresh cilantro, washed and finely chopped, for the sauce'
+  - '1 tbsp neutral oil, for frying the sauce'
   - >-
     8 oz Monterey Jack or Chihuahua cheese, shredded; divide between filling and
     topping
@@ -92,7 +93,7 @@ learning:
   timing: >-
     The inherited 20-minute preparation and about 25-minute broil/bake plan is a
     starting schedule. It does not include vegetable cooling for the actual
-    blender or all tortilla-frying loads. Additional dishes and a colder
+    blender, the 5–8 minutes of frying the sauce or all tortilla-frying loads. Additional dishes and a colder
     casserole can extend baking; the 15–20-minute first check does not replace
     the 165°F center endpoint.
   storage: >-
@@ -116,14 +117,14 @@ learning:
 
 ## Chef's Note
 
-Suizas means Swiss-style: these enchiladas pair tart roasted tomatillos with generous cream and cheese. Briefly fry the tortillas until pliable before filling so they can be rolled without becoming crisp. Keep the full cheese amount divided between filling and topping; the split can follow the topping coverage you want.
+Suizas means Swiss-style: these enchiladas pair tart roasted tomatillos with generous cream and cheese. Frying the blended salsa briefly before the cream goes in deepens and rounds the green sauce. Briefly fry the tortillas until pliable before filling so they can be rolled without becoming crisp. Keep the full cheese amount divided between filling and topping; the split can follow the topping coverage you want.
 
 For kids, reduce or omit the peppers in the sauce if desired; the cream and cheese amounts stay the same.
 
 ## Directions
 
 1. **Roast:** Arrange the tomatillos, peppers, onion and garlic on a broiler-safe baking sheet without crowding. Broil for 5–7 minutes as a first check, turning as needed, until charred in patches and softened. Extra loads add time; follow the actual broiler's vessel and rack guidance.
-2. **Cool and blend:** Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables with the full measured cilantro and heavy cream until smooth, then season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.
+2. **Cool, blend and fry the sauce:** Let the roasted vegetables cool before blending. Use the blender only within its actual model's permitted starting temperature, fill limit and lid instructions; if it is not rated for warm ingredients, cool them fully first. Blend all the vegetables until smooth. Heat the 1 tbsp oil in a medium saucepan over medium-high heat, add the purée all at once (it will spatter) and stir. Simmer, stirring often, about 5–8 minutes, until it darkens slightly and thickens. Remove from the heat, stir in the full measured heavy cream and chopped cilantro, and season with the separate sauce-salt allowance. Refrigerate promptly if preparing ahead.
 3. **Prepare tortillas:** Change the oven from broil to 375°F. Heat the frying-oil allowance to a ¼-inch layer in a small skillet. Dip each tortilla for about 5–10 seconds per side, just until pliable, then drain on paper towels. Cook in manageable loads; do not fry them crisp.
 4. **Assemble:** Reserve the amount of the measured cheese you want on top. Divide all the cooked chicken and the remaining cheese among the tortillas, dipping each tortilla in green sauce before filling and rolling. Arrange seam-side down in a baking dish with room for the rolls and sauce. Use more dishes and divide the entire formula proportionally when needed; no particular dish size is established.
 5. **Bake:** Pour all the remaining green sauce over the rolls and cover with all the reserved cheese. Bake at 375°F, beginning checks after 15–20 minutes. Continue until the sauce and cheese bubble and representative centers of the casserole reach 165°F / 74°C. Surface bubbling is a texture cue, not a center-temperature measurement.

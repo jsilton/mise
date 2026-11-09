@@ -42,7 +42,7 @@ ingredients:
   - '--- Sweet potato wedges ---'
   - '2 lb sweet potatoes, scrubbed, skin left on and cut lengthwise into wedges about ½ inch thick'
   - 3 tbsp olive oil
-  - 1/2 tsp kosher salt
+  - 1 tsp kosher salt
   - 1/4 tsp black pepper
   - '--- Maple glaze ---'
   - 2 tbsp pure maple syrup
@@ -81,7 +81,7 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 1/2
+            amount: 1
             unit: tsp
           uses:
             - step: toss

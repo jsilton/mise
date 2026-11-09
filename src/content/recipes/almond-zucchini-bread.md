@@ -38,7 +38,8 @@ ingredients:
   - 3 tbsp Maple Syrup
   - '1 tbsp Coconut Oil, melted'
   - 1 tsp Ground Cinnamon
-  - 1 1/2 tsp Baking Soda
+  - 3/4 tsp Baking Soda
+  - 2 tsp Apple Cider Vinegar or Fresh Lemon Juice
   - 1/2 tsp Kosher Salt
 origin: United States
 source: 'Adapted from Gina Matsoukas, Running to the Kitchen'
@@ -139,7 +140,7 @@ Gina Matsoukas's almond-flour loaf uses banana and zucchini for a moist crumb. S
 1.  **Prep:** Preheat oven to 350°F. Line a loaf pan with parchment paper.
 2.  **The Squeeze:** Grate the zucchini. Place in a clean towel and squeeze out excess water, then measure the listed amount of damp shreds. They should no longer drip, but do not try to dry them out completely.
 3.  **Dry:** In a large bowl, whisk the almond flour, baking soda, salt, and cinnamon.
-4.  **Wet:** In a separate bowl, whisk the eggs, maple syrup, mashed banana, and coconut oil.
+4.  **Wet:** In a separate bowl, whisk the eggs, maple syrup, mashed banana, coconut oil, and cider vinegar or lemon juice. The acid reacts with the baking soda for lift and keeps the loaf from tasting soapy.
 5.  **Mix:** Fold the wet ingredients into the dry. Stir in the zucchini shreds.
 6.  **Bake:** Pour into the pan. Bake for 35-40 minutes until the top is browned, the center is set, and a tester has no wet batter. If the center is still wet, continue baking and check again; tent loosely with foil if the top is getting too dark.
 7.  **Rest:** Let cool in the pan on a rack for 5-10 minutes, then lift out carefully using the parchment. Cool fully on the rack before slicing; allow about an hour, longer if still warm.

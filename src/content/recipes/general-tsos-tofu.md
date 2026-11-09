@@ -51,16 +51,16 @@ ingredients:
   - 7 dried Chinese red chilies
   - '1/2 red bell pepper, sliced'
   - '1/2 tbsp Shaoxing wine, optional'
-  - 1 cup vegetable stock
+  - 1/2 cup vegetable stock
   - 2 cups broccoli florets
   - 1 1/2 tbsp light soy sauce
   - 1 tsp dark soy sauce
-  - 2 tsp rice vinegar
+  - 1 tbsp rice vinegar
   - 1/4 tsp salt
-  - 1 tbsp granulated sugar
+  - 2 tbsp granulated sugar
   - 1/2 tsp toasted sesame oil
   - '--- Separate slurry ---'
-  - 1 1/2 tbsp cornstarch
+  - 1 tbsp cornstarch
   - 1 tbsp cold water
 source: Adapted from thewoksoflife.com
 sourceUrl: 'https://thewoksoflife.com/general-tsos-tofu/'
@@ -188,7 +188,7 @@ formula:
           key: stock
           name: vegetable stock
           quantity:
-            amount: 1
+            amount: 1/2
             unit: cup
           uses:
             - step: simmer
@@ -224,8 +224,8 @@ formula:
           key: vinegar
           name: rice vinegar
           quantity:
-            amount: 2
-            unit: tsp
+            amount: 1
+            unit: tbsp
           uses:
             - step: season
               share: 1
@@ -242,7 +242,7 @@ formula:
           key: sugar
           name: granulated sugar
           quantity:
-            amount: 1
+            amount: 2
             unit: tbsp
           uses:
             - step: season
@@ -263,7 +263,7 @@ formula:
           key: cornstarch
           name: cornstarch
           quantity:
-            amount: 3/2
+            amount: 1
             unit: tbsp
           uses:
             - step: slurry
@@ -311,8 +311,9 @@ formula:
       title: Cook the broccoli
       text: >-
         Use {{ingredients}} in sequence: bring all the stock to a boil first, then add all the
-        broccoli. Keep enough room to turn the vegetables; use additional vessels with the complete
-        ingredients divided proportionally for larger batches.
+        broccoli, cover and steam about 2 minutes until bright green. Keep enough room to turn the
+        vegetables; use additional vessels with the complete ingredients divided proportionally for
+        larger batches.
     - id: season
       title: Season and thicken
       text: >-
@@ -430,6 +431,6 @@ For kids, serve the heat on the side or reduce or omit the spicy elements.
 2. **Coat the tofu:** For the coating, use extra-firm tofu, honey, thin vinegar-based red-pepper hot sauce, sesame seeds, and cornstarch. Wash and drain the vegetables before cutting. Mix the honey and hot sauce, gently toss in the dry tofu, then add all the sesame seeds and coating cornstarch. Lift and turn rather than crushing the pieces; aim for a light coating, not a pool of wet batter.
 3. **Fry in batches:** Heat peanut oil in a shallow-frying skillet to about 350°F. Carefully add coated tofu in a single layer with space between pieces. Fry about 4–5 minutes per original-size round, turning once, until golden with a formed crust; lower heat if the coating darkens too quickly. Lift to a sheet pan with a slotted spoon. Repeat without crowding, allowing the oil to recover its heat.
 4. **Cook the aromatics:** Have fresh ginger, garlic cloves, dried Chinese red chilies, red bell pepper, and Shaoxing wine (if using) ready. Transfer a portion of the used frying oil to a wok or saucepan: 3/16 of the listed frying-oil amount, which is 1 tbsp for the original batch. This comes from the frying supply, not an additional dose; do not add the remaining frying oil to the sauce. Heat over medium and stir the ginger, garlic and chilies about 30 seconds until fragrant, without scorching. Add all the bell pepper and optional wine.
-5. **Cook the broccoli:** Use vegetable stock and broccoli florets in sequence: bring all the stock to a boil first, then add all the broccoli. Keep enough room to turn the vegetables; use additional vessels with the complete ingredients divided proportionally for larger batches.
+5. **Cook the broccoli:** Use vegetable stock and broccoli florets in sequence: bring all the stock to a boil first, then add all the broccoli, cover and steam about 2 minutes until bright green. Keep enough room to turn the vegetables; use additional vessels with the complete ingredients divided proportionally for larger batches.
 6. **Season and thicken:** Add light soy sauce, dark soy sauce, rice vinegar, salt, granulated sugar, and toasted sesame oil and return the sauce to a boil. Re-stir the separate slurry, then pour it in gradually while stirring. Simmer 30–60 seconds after each addition before deciding whether more is needed; stop when it coats a spoon and leave any unused slurry out of the dish. Continue until a broccoli stem yields with slight resistance.
 7. **Glaze and serve:** Return all the fried tofu to the ready sauce and fold gently about 30 seconds to coat without breaking the pieces. Serve promptly over separately prepared rice. Holding glazed tofu softens its coating.

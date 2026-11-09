@@ -39,7 +39,7 @@ ingredients:
     1 Pie Crust, baked and cooled (Use the [Apple Pie](/mise/recipes/apple-pie)
     Vodka Hack dough!)
   - '6 1/2 oz Bittersweet Chocolate, finely chopped'
-  - 1 1/2 cups Granulated Sugar
+  - 3/4 cup Granulated Sugar
   - 1/4 cup Cornstarch
   - 1/4 tsp Sea Salt
   - 3 cups Whole Milk

@@ -39,7 +39,7 @@ ingredients:
   - '1 tbsp Fresh dill, minced'
   - '2 Lemons for zest, zest only; measured juice separate'
   - 3 tbsp Lemon juice
-  - 3/4 cup Cold water
+  - 1/4 cup Cold water
   - 1 tsp Black pepper
   - 2 tsp Kosher salt
   - '2 cups Baby arugula, rinsed unless labeled prewashed or ready-to-eat; drained'
@@ -185,7 +185,7 @@ formula:
           key: water
           name: Cold water
           quantity:
-            amount: 0.75
+            amount: 0.25
             unit: cup
           uses:
             - step: bind
@@ -307,8 +307,10 @@ formula:
     - id: grind
       title: Grind fish
       text: >-
-        Keep {{ingredients}} cold during preparation; check for bones. Pulse in a food processor
-        until coarsely ground, then add to the onion bowl. Do not grind to a smooth paste.
+        Keep {{ingredients}} cold during preparation; check for bones. Process in a food processor,
+        scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Chill it
+        briefly if it feels warm, then add to the onion bowl. The fine paste is what holds the cream
+        so the loaf slices cleanly.
     - id: bind
       title: Bind
       text: >-
@@ -363,7 +365,7 @@ formula:
         another serving option. Refrigerate unused terrine promptly, keeping the fresh salad
         separate.
 learning:
-  focus: 'Set a coarsely ground fish-and-egg terrine, then chill before slicing'
+  focus: 'Set a finely ground fish-and-egg terrine, then chill before slicing'
   outcome: >-
     The center reaches 160°F and sets firmly; the fully chilled loaf slices without smearing and
     receives its complete fresh salad.
@@ -389,11 +391,11 @@ learning:
         This fish mixture contains raw eggs and must set at the center; ordinary fillet 145°F
         guidance does not replace the saved 160°F endpoint.
   troubleshooting:
-    - problem: Slices smear or crumble
-      cause: Terrine was unmolded before fully chilled or fish was ground to a paste
+    - problem: 'Slices smear, weep or crumble'
+      cause: Terrine was unmolded before fully chilled or the fish was too coarse to bind the cream
       fix: >-
-        Chill until cold throughout before unmolding and slice with a clean sharp knife. Chilling
-        may improve slicing, but cannot restore coarse texture once fish has been overprocessed.
+        Chill until cold throughout before unmolding and slice with a clean sharp knife. Next time
+        process the fish to a fine, sticky paste before adding the liquid.
   substitutions:
     - ingredient: Fresh horseradish
       alternative: >-
@@ -437,12 +439,12 @@ learning:
 
 ## Chef's Note
 
-Eli and Max Sussman’s baked gefilte-fish terrine combines salmon with carp or pike and sets in a water bath. Coarsely ground fish gives a different texture from a smooth paste. Keep the full cream and egg binder, allow the loaf to chill throughout, and toss its fresh horseradish salad shortly before slicing.
+Eli and Max Sussman’s baked gefilte-fish terrine combines salmon with carp or pike and sets in a water bath. Processing the fish to a fine, sticky paste lets it hold the cream, so the loaf sets without weeping and slices cleanly. Keep the full cream and egg binder, allow the loaf to chill throughout, and toss its fresh horseradish salad shortly before slicing.
 
 ## Directions
 
 1. **Sweat onion:** Rinse fresh produce under running water before peeling, cutting or zesting, including the lemons, dill, shallot and horseradish; follow any prewashed or ready-to-eat arugula label. Heat the assigned oil from 1/3 of the Olive oil and Medium onion in a skillet. Cook the onion about 8–10 minutes until soft and translucent without browning; transfer all the onion and cooking oil to a mixing bowl.
-2. **Grind fish:** Keep Boneless skinless carp or pike fillet and Boneless skinless salmon fillet cold during preparation; check for bones. Pulse in a food processor until coarsely ground, then add to the onion bowl. Do not grind to a smooth paste.
+2. **Grind fish:** Keep Boneless skinless carp or pike fillet and Boneless skinless salmon fillet cold during preparation; check for bones. Process in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Chill it briefly if it feels warm, then add to the onion bowl. The fine paste is what holds the cream so the loaf slices cleanly.
 3. **Bind:** Stir Heavy cream, Matzo meal, Large eggs, Carrot, Fresh dill, Lemons for zest, 1/9 of the Lemon juice, Cold water, Black pepper, and Kosher salt into the fish and onion until evenly combined. Add one ninth of the measured lemon juice here and reserve the remaining eight ninths for the salad. The original batch uses 1 tsp juice here; scale that share with the listed juice total. All the measured cream, matzo meal, eggs, carrot, dill, lemon zest, water, salt and pepper belong in this mixture.
 4. **Prepare pan:** Preheat the oven to 325°F. For the original batch, line the bottom and sides of a 9-by-5-inch loaf pan with nonstick baking parchment rated for at least 325°F, leaving overhang to fold over the surface. Spread all the mixture into the pan, fold the parchment over it and cover with foil. Keep the paper inside the covered pan; do not use wax paper or ordinary plastic wrap. Multiples need separate original-size loaves and baths; smaller amounts need appropriate smaller pans and earlier center checks. Keep comparable mixture depth and headroom rather than forcing every scale into this pan.
 5. **Water bath:** Place the loaf pan in an original-batch 9-by-13-inch baking dish, or a suitable larger outer vessel, and carefully add Boiling water for water bath. Support the hot vessels securely and keep bath water out of the fish mixture.

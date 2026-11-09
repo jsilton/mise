@@ -7,7 +7,7 @@ difficulty: easy
 prepTime: About 25 min
 cookTime: About 10 min; longer for extra frying loads
 totalTime: About 35 min; longer for extra frying loads
-servings: 4 portions
+servings: 3 portions
 cookingMethods:
   - fry
   - stir-fry
@@ -35,7 +35,7 @@ ingredients:
   - 2 1/2 tbsp soy sauce
   - 2 tbsp brown sugar
   - 1/4 cup hot water or low-sodium chicken stock
-  - '2 tbsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs'
+  - '2 tsp cornstarch for the slurry, prepare the full slurry; use only as much as the sauce needs'
   - 2 tbsp water for the slurry
 sourceUrl: 'https://thewoksoflife.com/mongolian-chicken/'
 cuisines:
@@ -43,7 +43,7 @@ cuisines:
 formula:
   version: 1
   yield:
-    amount: 4
+    amount: 3
     unit: portion
   components:
     - id: chicken
@@ -171,7 +171,7 @@ formula:
           name: cornstarch for the slurry
           quantity:
             amount: 2
-            unit: tbsp
+            unit: tsp
           uses:
             - step: slurry
               share: 1
@@ -253,9 +253,9 @@ learning:
       Pat chicken dry and keep the slices about ¼ inch / 6 mm thick at every batch size. Thin slices
       brown quickly; a thicker center needs longer to reach 165°F / 74°C.
     - >-
-      Set out separate dredging and slurry starch. The listed dredging supply includes any
-      second coat; prepare the full listed slurry starch and water separately, then add only as
-      much slurry as the sauce needs.
+      Set out separate dredging and slurry starch. The listed dredging supply includes any second
+      coat; prepare the full listed slurry starch and water separately, then add only as much slurry
+      as the sauce needs.
     - >-
       Have the scallion whites and greens separated before frying. Keep chicken in a single layer
       and use more loads when needed; pan geometry and frying time do not multiply with ingredient
@@ -313,7 +313,7 @@ learning:
 
 ## Chef's Note
 
-This Chinese American takeout-style chicken uses a light cornstarch coat and a sweet soy glaze. Fry the thin pieces until cooked, then add slurry gradually so the sauce clings without becoming a heavy gel.
+This Chinese American takeout-style chicken uses a light cornstarch coat and a sweet soy glaze. Fry the thin pieces until cooked, then add slurry gradually so the sauce clings without becoming a heavy gel. One batch makes three portions over rice. For a family of five, double it and fry in more loads.
 
 ## Directions
 

@@ -27,7 +27,7 @@ ingredients:
     not pre-brined or enhanced
   - '2 tbsp (28 g) unsalted butter, softened'
   - 1 tbsp finely chopped fresh thyme or rosemary leaves
-  - 1 1/2 tsp fine salt
+  - '2 1/2 tsp fine salt, applied 12–24 hours ahead as a dry brine if possible'
   - 1/2 tsp ground black pepper
   - >-
     1 cup (240 ml) low-sodium chicken or turkey stock, plus up to 1 cup (240 ml)
@@ -61,6 +61,10 @@ learning:
       Thaw fully in the refrigerator before starting. Thawing is additional to
       the stated cooking time; check the label for added salt solution before
       seasoning.
+    - >-
+      For the juiciest, best-seasoned meat, salt the breast 12–24 hours ahead
+      and refrigerate it uncovered. This dry brine is extra refrigerator time,
+      not part of the stated total. Salting the same day still works.
   checkpoints:
     - step: 3
       cue: >-
@@ -102,7 +106,8 @@ learning:
         stirred into the oil and rubbed over and under the skin.
   timing: >-
     Allow about 2 hr 50 min including fifteen minutes preparation, up to 2 hr 15
-    min roasting and twenty minutes resting. A 4–5 lb fully thawed bone-in
+    min roasting and twenty minutes resting, plus the 12–24-hour dry brine if
+    you use it. A 4–5 lb fully thawed bone-in
     breast may finish earlier; begin checking around 75 minutes and use
     temperature rather than the upper estimate.
   storage: >-
@@ -142,7 +147,7 @@ A large breast can be golden outside while one thick section is still underdone.
 ## Directions
 
 1. **Prepare the oven and breast:** Heat the oven to 325°F / 163°C. Set a rack in a shallow roasting pan. Remove packaging and any gravy packet, confirm the breast is fully thawed, and pat dry without rinsing. There is no need for a long room-temperature tempering period.
-2. **Season:** Mix butter, chopped herbs, salt and pepper. Gently loosen the skin without detaching it, spread about two-thirds of the mixture over the meat beneath, and rub the rest over the outside. Place breast skin-side up on the rack and pour the stock into the pan, away from the skin.
+2. **Season:** Ideally 12–24 hours ahead, pat the breast dry, gently loosen the skin without detaching it, and sprinkle about two-thirds of the salt over the meat beneath and the rest over the outside. Refrigerate uncovered on a rack set over a tray. If you are seasoning the same day, salt it as early as you can. When ready to roast, mix the butter, chopped herbs and pepper. Spread about two-thirds of the mixture under the skin and rub the rest over the outside. Place breast skin-side up on the rack and pour the stock into the pan, away from the skin.
 3. **Roast with occasional checks:** Roast at 325°F. Begin checking after about 75 minutes; plan roughly 1 1/2–2 1/4 hours total roasting, depending on shape and oven. Add hot water to the pan in small amounts if drippings start drying. Avoid frequent basting or opening the oven. Loosely shield the skin with foil if it browns early.
 4. **Verify before removing:** Insert a thermometer into the thickest meat on each side without touching bone. Continue roasting until both sections reach 165°F / 74°C. Check more than one location and do not assume the rest will supply a missing temperature rise.
 5. **Rest and finish juices:** Transfer to a carving board and rest about 20 minutes, loosely tented. Meanwhile, spoon excess fat off the pan liquid, transfer liquid to a small saucepan and bring to a rolling boil. Simmer briefly to the flavor concentration you want, adding water if too salty. These are pan juices, not a flour-thickened gravy.

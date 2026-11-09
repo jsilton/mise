@@ -26,12 +26,14 @@ pairsWith:
   - eggplant-with-garlic-sauce
   - quick-pickled-carrots-and-daikon
 ingredients:
-  - 1 lb Penne or Linguine
+  - '1 lb Wide Rice Noodles (rice sticks), or linguine'
   - '2 tbsp olive oil, divided'
   - 'Red pepper flakes, a pinch, optional'
   - 1/3 cup Low-sodium Soy Sauce
   - 2 tbsp Dark Brown Sugar
   - 1.5 tbsp Sriracha (adjust for heat)
+  - 1 tbsp Fish Sauce
+  - '1 Lime, juiced'
   - '2 inches Fresh Ginger, grated'
   - '2 large Eggs, beaten'
   - '1 Zucchini, cut into half-moons'
@@ -42,7 +44,7 @@ ingredients:
   - '1/2 cup Peanuts, crushed'
   - 'Fully cooked chicken or shrimp, optional addition, to taste'
   - '3 cloves garlic, minced'
-  - 'Salt, as needed for pasta cooking water'
+  - 'Salt, as needed for the cooking water if using linguine'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -52,7 +54,7 @@ sourceUrl: 'https://domesticsuperhero.com/one-pot-spicy-thai-noodles/'
 learning:
   focus: Eggs fully set with no liquid remaining.
   outcome: >-
-    Pasta evenly coated and hot; refrigerated leftover protein 165°F / 74°C
+    Noodles evenly coated and hot; refrigerated leftover protein 165°F / 74°C
     throughout.
   techniques:
     - stir-frying
@@ -63,26 +65,26 @@ learning:
       listed carrot, cilantro and peanut amounts; the garlic joins the vegetable
       stage.
     - >-
-      Prepare sauce while pasta cooks. Extra batches and separately cooking
+      Prepare sauce while the noodles cook. Extra batches and separately cooking
       optional protein add elapsed time.
   checkpoints:
     - step: 3
       cue: Eggs fully set with no liquid remaining.
       why: >-
         Scramble separately so the egg remains in pieces rather than coating the
-        pasta.
+        noodles.
     - step: 4
       cue: Vegetables tender-crisp and garlic fragrant without burning.
       why: Stir and reduce heat if the pot begins to scorch.
     - step: 6
       cue: >-
-        Pasta evenly coated and hot; refrigerated leftover protein 165°F / 74°C
+        Noodles evenly coated and hot; refrigerated leftover protein 165°F / 74°C
         throughout.
       why: >-
         The final one-to-two-minute toss is a first check, not a leftover
         reheating guarantee.
   timing: >-
-    About 35 minutes for the base original batch, with sauce mixed during pasta
+    About 35 minutes for the base original batch, with sauce mixed during noodle
     cooking. Additional pan batches and separately preparing optional raw
     protein add time.
   storage: >-
@@ -91,6 +93,11 @@ learning:
     days or freeze promptly, and reheat throughout to 165°F / 74°C. Thaw frozen
     portions in the refrigerator.
   substitutions:
+    - ingredient: Wide rice noodles
+      alternative: 1 lb linguine, cooked in salted water
+      effect: >-
+        Easy to find in any supermarket and kid-friendly, with a chewier wheat
+        bite than rice noodles.
     - ingredient: Source red-flake heat option
       alternative: >-
         Follow the complete source red-flake heat option described in the
@@ -121,21 +128,21 @@ learning:
 
 ## Chef's Note
 
-This Thai-inspired pasta uses the same pot for boiling noodles, scrambling eggs, and sautéing vegetables. Divide the oil between the eggs and vegetables, then toss everything with the soy-ginger sauce. Cilantro and green onions go in at the end.
+These Thai-inspired noodles use the same pot for cooking the noodles, scrambling eggs, and sautéing vegetables. Divide the oil between the eggs and vegetables, then toss everything with the soy-ginger sauce. Fish sauce adds savory depth and lime keeps the sweet sauce bright. Cilantro and green onions go in at the end.
 For kids, serve the heat on the side or reduce/omit the spicy elements.
 
 ## Directions
 
-1.  **Boil:** Cook pasta in a large pot of salted water according to package directions. Drain and set aside.
-2.  **The Sauce:** In a small bowl, whisk together soy sauce, brown sugar, Sriracha, and grated ginger until smooth.
-3.  **The Eggs:** In the same large pot, heat half of the listed oil over medium heat. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the pasta.
+1.  **Cook the noodles:** Cook the rice noodles in a large pot according to package directions, usually a brief boil or soak, until tender but still a little chewy. Drain, rinse briefly under cool water so they do not stick and set aside. If using linguine, cook it in salted water according to its package and drain without rinsing.
+2.  **The Sauce:** In a small bowl, whisk together soy sauce, brown sugar, Sriracha, fish sauce and grated ginger until smooth.
+3.  **The Eggs:** In the same large pot, heat half of the listed oil over medium heat. Scramble the eggs with the optional red pepper flakes until fully set, with no liquid egg remaining. Remove and set aside with the noodles.
 4.  **The Veg:** Add the remaining half of the oil to the pot. Sauté zucchini, mushrooms, carrots and all the garlic, starting checks around 5 minutes over medium-high heat. Stir until tender-crisp and fragrant, reducing heat if the garlic begins to burn.
-5.  **Bind:** Turn heat to low. Return the pasta and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything.
-6.  **Toss:** Toss until the pasta is evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer.
-7.  **Serve:** Remove from heat. Stir in the green onions, cilantro, and crushed peanuts. Serve immediately, or refrigerate promptly for chilled servings.
+5.  **Bind:** Turn heat to low. Return the noodles and eggs to the pot, along with any optional fully cooked chicken or shrimp. Pour the sauce over everything.
+6.  **Toss:** Toss until the noodles are evenly coated and everything is hot, about 1–2 minutes. If using refrigerated leftover protein, heat it to 165°F / 74°C throughout; the final toss may take longer.
+7.  **Serve:** Remove from heat. Stir in the lime juice, green onions, cilantro, and crushed peanuts. Taste and add more lime if the sauce tastes heavy. Serve immediately, or refrigerate promptly for chilled servings.
 
 ## Cooking Notes
 
 For an original-batch source heat option, use 1/2 tsp crushed red pepper flakes instead of the optional pinch, scaling proportionally; keep all other current quantities.
 
-Allow about 35 minutes for the base recipe, including water heating, with sauce preparation overlapping the pasta cooking. Cooking an optional protein separately adds time. If starting with raw chicken, cook it separately to 165°F / 74°C; cook raw shrimp until pearly and opaque through the center before adding. For chilled servings, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below.
+Allow about 35 minutes for the base recipe, including water heating, with sauce preparation overlapping the noodle cooking. Cooking an optional protein separately adds time. If starting with raw chicken, cook it separately to 165°F / 74°C; cook raw shrimp until pearly and opaque through the center before adding. For chilled servings, refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below.

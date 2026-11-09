@@ -33,7 +33,7 @@ ingredients:
   - '--- Wings ---'
   - '1.35 kg (3 lb) chicken wing drumettes and flats, fully thawed, tips excluded'
   - '1 tbsp aluminum-free baking powder, not baking soda'
-  - 1/2 tsp fine salt
+  - 1 tsp fine salt
   - '2 tsp neutral oil, for lightly greasing the racks'
   - '--- Lemon pepper butter ---'
   - 4 tbsp (57 g) unsalted butter
@@ -41,7 +41,7 @@ ingredients:
   - 1 tbsp fresh lemon juice
   - 2 tsp coarsely ground black pepper
   - 1/2 tsp garlic powder
-  - '1/8 tsp fine salt, only if needed'
+  - '1/4 tsp fine salt, plus more to taste'
   - '--- Finish ---'
   - 2 tbsp chopped fresh parsley
   - '1 lemon, cut into wedges, optional'
@@ -134,6 +134,6 @@ Lemon zest supplies aroma while juice supplies acidity and water. A modest amoun
 1. **Prepare:** Pat thawed wings dry. Lightly oil two oven-safe racks and place over rimmed trays. Toss wings evenly with baking powder and the wings' measured salt; avoid clumps. Spread them out with space between pieces.
 2. **Dry in the refrigerator:** Refrigerate uncovered for 8–24 hours at 40°F / 4°C or below, on a low shelf with trays catching any drips. Count this within the 1–2-day raw-poultry refrigerated storage window.
 3. **Roast:** During the last 15 minutes of refrigerated drying, heat the oven to 425°F / 220°C with racks in the upper and lower thirds. Roast about 25 minutes, turn wings and exchange tray positions, then roast another 20–30 minutes. Check several large pieces away from bone: all need at least 165°F / 74°C, with about 175°F / 79°C a useful tenderness target. Skin should be browned and rendered. Remove smaller done pieces if needed while larger ones finish.
-4. **Warm the butter:** Near the end of roasting, melt butter gently in a small saucepan over low heat. Remove from heat and stir in zest, juice, pepper and garlic powder. Taste and add the butter's optional salt only if needed. Whisk before using; a little separation is normal.
+4. **Warm the butter:** Near the end of roasting, melt butter gently in a small saucepan over low heat. Remove from heat and stir in zest, juice, pepper and garlic powder. Stir in the butter's measured salt, then taste and add more if needed. Salt is part of the lemon pepper flavor. Whisk before using; a little separation is normal.
 5. **Toss lightly:** Transfer cooked wings to a clean bowl. Add about two-thirds of the warm butter mixture and toss. Add the rest only if needed for an even light coating, or serve it separately. Keep the wings uncovered and serve promptly rather than holding them in a pool of butter.
 6. **Finish:** Scatter with the measured parsley and serve optional lemon wedges. Divide into four main portions with separately prepared sides, or eight smaller appetizer portions. Bones are included in the purchase weight.

@@ -26,20 +26,22 @@ pairsWith:
 ingredients:
   - '--- Noodles and sauce ---'
   - >-
-    1/2 package (1 lb) (8 oz) dried wide rice noodles (bánh phở), check the package’s soaking
-    instructions
+    1/2 package (1 lb) (8 oz) dried medium Thai rice sticks (sen lek, 3 to 5 mm wide), check the
+    package’s soaking instructions
   - 'noodle-soaking water, enough to cover the noodles'
   - >-
-    2 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted
+    3 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted
     stronger concentrate
-  - '2 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar'
-  - 4 tsp fish sauce
+  - '3 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar'
+  - 2 1/2 tbsp fish sauce
   - 'water for finishing the noodles, as needed, added one tablespoon at a time'
   - '--- Stir-fry and garnish ---'
   - 2 tbsp cooking oil
   - '1/3 cup extra-firm tofu, drained, patted dry and julienned'
   - '1 shallot, minced'
   - '3 garlic cloves, minced'
+  - '1 tbsp preserved sweet radish (chai poh), finely chopped'
+  - '1 tbsp small dried shrimp, chopped if large'
   - 1/2 tsp ground dried chili
   - 1 large egg
   - '1/4 lb shrimp, raw, peeled and deveined; fully thawed if frozen'
@@ -64,8 +66,8 @@ formula:
       name: Noodles and sauce
       ingredients:
         - id: noodles
-          key: wide-rice-noodles
-          name: dried wide rice noodles (bánh phở)
+          key: thai-rice-sticks
+          name: 'dried medium Thai rice sticks (sen lek, 3 to 5 mm wide)'
           quantity:
             amount: 1/2
             unit: package
@@ -91,7 +93,7 @@ formula:
           key: tamarind-pulp
           name: tamarind paste made from pulp and water
           quantity:
-            amount: 2
+            amount: 3
             unit: tbsp
           uses:
             - step: sauce
@@ -101,7 +103,7 @@ formula:
           key: palm-or-granulated-sugar
           name: palm sugar or granulated sugar
           quantity:
-            amount: 2
+            amount: 3
             unit: tbsp
           uses:
             - step: sauce
@@ -111,8 +113,8 @@ formula:
           key: fish-sauce
           name: fish sauce
           quantity:
-            amount: 4
-            unit: tsp
+            amount: 2 1/2
+            unit: tbsp
           uses:
             - step: sauce
               share: 1
@@ -170,6 +172,26 @@ formula:
               share: 1
           plural: garlic cloves
           preparation: minced
+        - id: radish
+          key: preserved-sweet-radish
+          name: preserved sweet radish (chai poh)
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: aromatics
+              share: 1
+          preparation: finely chopped
+        - id: dried-shrimp
+          key: dried-shrimp
+          name: small dried shrimp
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: aromatics
+              share: 1
+          preparation: chopped if large
         - id: chili
           key: ground-dried-chili
           name: ground dried chili
@@ -246,12 +268,13 @@ formula:
       text: >-
         Use {{ingredients}} to soak the dry noodles according to the package’s stir-fry guidance,
         checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm
-        or room-temperature soaking is appropriate for Thai rice sticks; wide noodles can take
-        longer. Drain when flexible. Prepare the remaining ingredients during the soak.
+        or room-temperature soaking is appropriate for Thai rice sticks. Drain when flexible.
+        Prepare the remaining ingredients during the soak.
     - id: sauce
       title: Mix the sauce
       text: >-
-        Combine {{ingredients}}, stirring to dissolve the sugar. Have the sauce ready before the wok
+        Combine {{ingredients}}, stirring to dissolve the sugar. Taste it: it should be sour, salty
+        and sweet at once and taste a little strong on its own. Have the sauce ready before the wok
         gets hot.
     - id: tofu
       title: Fry the tofu
@@ -263,8 +286,8 @@ formula:
       title: 'Bloom garlic, shallot and chili'
       text: >-
         Have {{ingredients}} ready. Heat the remaining measured oil in the wok, then add the
-        shallot, garlic and dried chili. Stir about 30 seconds until fragrant, keeping the garlic
-        and chili moving so they do not scorch.
+        shallot, garlic, preserved radish, dried shrimp and dried chili. Stir about 30 seconds until
+        fragrant, keeping the garlic and chili moving so they do not scorch.
     - id: noodles
       title: Toss the noodles and sauce
       text: >-
@@ -311,10 +334,9 @@ learning:
     - seasoning
   before:
     - >-
-      The original batch uses half of a 1-pound package, or 8 ounces. At any batch size, follow
-      the listed noodle weight if your package has a different size. Wide bánh phở noodles need
-      their own soaking cues; the thinner Thai rice-stick route uses noodles about the width of
-      linguine.
+      The original batch uses half of a 1-pound package, or 8 ounces. At any batch size, follow the
+      listed noodle weight if your package has a different size. Medium Thai rice sticks (sen lek)
+      are about the width of linguine and are often sold as pad Thai noodles in supermarkets.
     - >-
       Use ready-to-use tamarind pulp-and-water paste for the measured sauce. A dry block or
       undiluted stronger concentrate is not the same measured ingredient; check the product’s form
@@ -350,6 +372,16 @@ learning:
         Lift and turn gently; a broken, overhydrated strand cannot regain its original structure.
         For the next batch, stop soaking when strands bend but remain firm.
   substitutions:
+    - ingredient: Preserved sweet radish (chai poh)
+      alternative: Leave it out
+      effect: >-
+        You lose a little sweet-salty crunch. Taste the finished noodles and add fish sauce a
+        teaspoon at a time if they need more savory depth.
+    - ingredient: Small dried shrimp
+      alternative: Leave them out and add about 1 tsp more fish sauce to the sauce
+      effect: >-
+        The noodles are less deeply savory, but the extra fish sauce covers most of the missing salt
+        and umami.
     - ingredient: Chinese chives
       alternative: Green onions
       effect: >-
@@ -389,14 +421,14 @@ learning:
 
 ## Chef's Note
 
-Pad Thai combines tamarind, fish sauce and sugar with chewy rice noodles, shrimp, tofu, lime and peanuts. This version keeps wide noodles and a generous toasted-peanut garnish. Have everything ready before frying so you can judge noodle hydration as you toss. For less heat, omit the dried chili.
+Pad Thai combines tamarind, fish sauce and sugar with chewy rice noodles, shrimp, tofu, lime and peanuts. This version uses medium Thai rice sticks, preserved radish and dried shrimp for chew and savory depth, with a generous toasted-peanut garnish. Have everything ready before frying so you can judge noodle hydration as you toss. For less heat, omit the dried chili.
 
 ## Directions
 
-1. **Soak the noodles:** Use dried wide rice noodles (bánh phở) and noodle-soaking water to soak the dry noodles according to the package’s stir-fry guidance, checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm or room-temperature soaking is appropriate for Thai rice sticks; wide noodles can take longer. Drain when flexible. Prepare the remaining ingredients during the soak.
-2. **Mix the sauce:** Combine tamarind paste made from pulp and water, palm sugar or granulated sugar, and fish sauce, stirring to dissolve the sugar. Have the sauce ready before the wok gets hot.
+1. **Soak the noodles:** Use dried medium Thai rice sticks (sen lek, 3 to 5 mm wide) and noodle-soaking water to soak the dry noodles according to the package’s stir-fry guidance, checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm or room-temperature soaking is appropriate for Thai rice sticks. Drain when flexible. Prepare the remaining ingredients during the soak.
+2. **Mix the sauce:** Combine tamarind paste made from pulp and water, palm sugar or granulated sugar, and fish sauce, stirring to dissolve the sugar. Taste it: it should be sour, salty and sweet at once and taste a little strong on its own. Have the sauce ready before the wok gets hot.
 3. **Fry the tofu:** Have 1/2 of the cooking oil and extra-firm tofu ready. Heat this half of the measured cooking oil in a wok or large skillet and fry the tofu until golden and firm, then remove to a plate. Keep the already toasted peanuts for serving.
-4. **Bloom garlic, shallot and chili:** Have 1/2 of the cooking oil, shallot, garlic cloves, and ground dried chili ready. Heat the remaining measured oil in the wok, then add the shallot, garlic and dried chili. Stir about 30 seconds until fragrant, keeping the garlic and chili moving so they do not scorch.
+4. **Bloom garlic, shallot and chili:** Have 1/2 of the cooking oil, shallot, garlic cloves, preserved sweet radish (chai poh), small dried shrimp, and ground dried chili ready. Heat the remaining measured oil in the wok, then add the shallot, garlic, preserved radish, dried shrimp and dried chili. Stir about 30 seconds until fragrant, keeping the garlic and chili moving so they do not scorch.
 5. **Toss the noodles and sauce:** Add the drained noodles and prepared sauce. Stir-fry over high heat, lifting and turning to coat the noodles. Use water for finishing the noodles only if the strands remain too firm: add a tablespoon at a time, letting each addition absorb, until the noodles are tender and chewy. Use manageable loads if needed and divide all ingredients proportionally; do not force a thick wet mound into one pan.
 6. **Set the egg:** Push the noodles aside. Add large egg to the cleared space, scramble until set, then fold into the noodles.
 7. **Cook the shrimp:** Add shrimp and all the cooked tofu. Toss, starting to check at about 2 minutes, and continue until every shrimp is firm, pearly and opaque. Pink color and the short time alone are not doneness checks.

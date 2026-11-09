@@ -477,3 +477,7 @@ Empanadas take many forms across Latin America, including Peru's baked savory pa
 10. **Glaze if desired:** For the optional glaze, beat large egg (if using) and water for egg wash (if using) together and brush a thin layer over the tops. Omit both for an unglazed finish. Discard leftover wash. Cut one small slit in the top of each empanada to vent steam.
 11. **Bake:** Bake for about 20–25 minutes, rotating the tray halfway through, until the pastry is golden on top and underneath and the filling reaches 165°F / 74°C. Follow the disc package if it specifies a different temperature or time; begin checking at its earliest stated time. Use a second sheet if needed rather than crowding; larger batches need additional trays and time, not a higher oven temperature.
 12. **Rest and serve:** Rest on a wire rack for 10 minutes before eating; the filling can be very hot. Serve with lime and powdered sugar (if using), squeezing the lime onto each bite and adding only a light dusting of sugar if using. Allow 2–3 empanadas per person with a crisp green salad, or serve individually as a snack.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: For a more Peruvian filling, add 1 tbsp ají panca paste (ancho chile powder works in its place). Traditional extras are a piece of hard-boiled egg, a black botija olive (or kalamata) and a raisin in each empanada.

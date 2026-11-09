@@ -35,12 +35,12 @@ ingredients:
   - '1 1/2 cups sweet onion, thinly sliced'
   - '1 tbsp garlic, thinly sliced'
   - '5 oz fresh baby spinach, coarsely chopped'
-  - 6 large eggs
-  - 1/4 cup whole milk
-  - 1/4 cup half-and-half
+  - 4 large eggs
+  - 1/2 cup whole milk
+  - 1 cup half-and-half
   - 1 tbsp Dijon mustard
   - 1 tbsp fresh thyme leaves
-  - 1/4 tsp fine salt
+  - 1/2 tsp fine salt
   - 1/4 tsp ground black pepper
   - '1 1/2 cups Gruyère cheese, freshly grated'
   - >-
@@ -135,7 +135,7 @@ formula:
           key: eggs
           name: large egg
           quantity:
-            amount: 6
+            amount: 4
             unit: count
           plural: large eggs
           uses:
@@ -145,7 +145,7 @@ formula:
           key: milk
           name: whole milk
           quantity:
-            amount: 1/4
+            amount: 1/2
             unit: cup
           uses:
             - step: custard
@@ -154,7 +154,7 @@ formula:
           key: half
           name: half-and-half
           quantity:
-            amount: 1/4
+            amount: 1
             unit: cup
           uses:
             - step: custard
@@ -181,7 +181,7 @@ formula:
           key: salt
           name: fine salt
           quantity:
-            amount: 1/4
+            amount: 1/2
             unit: tsp
           uses:
             - step: custard
@@ -380,12 +380,12 @@ For the original batch, this makes six planned portions. These are complete amou
 - 1 1/2 cups sweet onion, thinly sliced
 - 1 tbsp garlic, thinly sliced
 - 5 oz fresh baby spinach, coarsely chopped
-- 6 large eggs
-- 1/4 cup whole milk
-- 1/4 cup half-and-half
+- 4 large eggs
+- 1/2 cup whole milk
+- 1 cup half-and-half
 - 1 tbsp Dijon mustard
 - 1 tbsp fresh thyme leaves
-- 1/4 tsp fine salt
+- 1/2 tsp fine salt
 - 1/4 tsp ground black pepper
 - 1 1/2 cups Gruyère cheese, freshly grated
 - fresh thyme leaves, a little extra for garnish, optional

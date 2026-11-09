@@ -105,3 +105,7 @@ This chilled cocktail takes its cue from the Earl Grey, milk and vanilla flavors
 4. **Measure one cocktail:** Shake the oat milk carton. Add **1 1/2 oz (45 mL) gin, 2 oz (60 mL) cold tea concentrate, 1/2 oz (15 mL) oat milk and 1/2 oz (15 mL) cold syrup** to the shaker. The remaining tea and syrup are for additional cocktails; do not add the whole batches.
 5. **Shake and strain:** Fill the shaker with solid ice cubes and shake firmly for **10–12 seconds**, until the shaker is very cold and often frosted. Strain through both the cocktail strainer and a fine-mesh strainer into the chilled coupe. Look for a lightly cloudy tea-beige drink with fine bubbles on the surface; the amount of foam depends on the oat milk.
 6. **Serve:** Serve immediately, **without ice or garnish**. Taste before increasing lavender in a future syrup batch; the bergamot should remain clear.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: For a lavender note you can actually taste, use 1/2 tsp dried culinary lavender and steep 5 minutes, then taste and steep up to 10 minutes. Longer can turn soapy.

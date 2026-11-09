@@ -34,7 +34,8 @@ pairsWith:
 ingredients:
   - 450 g frozen unsalted edamame in pods
   - '1.5 liters water, or enough for the pods to circulate freely'
-  - '1 tsp flaky sea salt, added gradually to taste'
+  - '2 tbsp kosher salt (or 1 tbsp fine salt), for the cooking water'
+  - '1/2 tsp flaky sea salt, added gradually to taste'
   - '1/2 tsp toasted sesame oil, optional'
   - '1/4 tsp red pepper flakes, optional'
 origin: Japan
@@ -46,7 +47,7 @@ equipment:
   - colander
 learning:
   focus: 'Check the bean inside, then season the drained pods'
-  outcome: 'Hot, tender beans with a little bite, in well-drained pods carrying a light salt finish.'
+  outcome: 'Hot, tender, seasoned beans with a little bite, in well-drained pods carrying a light salt finish.'
   techniques:
     - temperature
     - seasoning
@@ -77,21 +78,21 @@ learning:
         products change what reaches each bite.
   troubleshooting:
     - problem: Pods are salty but beans are bland
-      cause: Finishing salt remains mostly on the outside.
+      cause: The cooking water was not salted enough, so finishing salt remains mostly on the outside.
       fix: >-
-        Eat the beans by drawing them from the pod, or shell and season the beans lightly. Do not
-        assume adding a large extra handful of salt will season the interior evenly.
+        Eat the beans by drawing them from the pod, or shell and season the beans lightly. Next time
+        salt the cooking water well. Extra finishing salt will not season the interior evenly.
     - problem: Beans are mushy
       cause: They cooked longer than that frozen product needed.
       fix: >-
         Drain promptly. Next time follow the product instructions and check texture at the first
         stated endpoint.
   substitutions:
-    - ingredient: 1 tsp flaky sea salt
+    - ingredient: 1/2 tsp flaky sea salt
       alternative: 'A small pinch of fine salt, then more only after tasting'
       effect: >-
-        Fine salt dissolves and seasons effectively, but its denser spoonful is not equivalent to a
-        teaspoon of large flakes.
+        Fine salt dissolves and seasons effectively, but its denser spoonful is not equivalent to the
+        same volume of large flakes.
   timing: >-
     About 15 minutes includes heating the pot, typically 4–5 minutes cooking once boiling resumes,
     draining and seasoning. Follow any longer cooking requirement on the package.
@@ -113,12 +114,12 @@ learning:
 
 ## Chef's Note
 
-This is the site's simple boiled-pod preparation with salt added after draining. It differs from a strongly salted cooking-water method: much of the finishing salt stays on the pod, so taste as you season. Flaky salt adds texture; fine salt also works in a smaller amount. The bean should be tender with a little bite. Discard the fibrous pod after releasing the beans.
+This is the site's simple boiled-pod preparation. Well-salted cooking water seasons the beans inside the pods, and a little flaky salt after draining adds a salty finish to the pod for each bite. Flaky salt adds texture; fine salt also works in a smaller amount. The bean should be tender with a little bite. Discard the fibrous pod after releasing the beans.
 
 ## Directions
 
-1. **Heat water:** Bring the measured water to a rolling boil in a 4-quart saucepan. Read the frozen edamame package so its required cooking time is clear before adding the pods.
+1. **Heat water:** Bring the measured water to a rolling boil in a 4-quart saucepan and stir in the cooking-water salt. Read the frozen edamame package so its required cooking time is clear before adding the pods.
 2. **Cook the pods:** Add frozen edamame and return to a boil. Cook according to the package, commonly about 4–5 minutes after boiling resumes. Open one pod carefully, let a bean cool enough to taste, and check that it is hot and tender through its center. Continue if still firm inside, and do not shorten a stated minimum cooking requirement just because the pods are green.
 3. **Drain thoroughly:** Pour into a colander, shake off water, and let steam escape briefly. Transfer the hot pods to a bowl.
-4. **Season gradually:** Toss with optional sesame oil. Add about half the flaky salt, taste, then add more only as needed; the whole teaspoon may not be necessary. Add optional pepper flakes.
+4. **Season gradually:** Toss with optional sesame oil. Taste a bean first. Add about half the flaky salt, then more only as needed; the whole amount may not be necessary. Add optional pepper flakes.
 5. **Serve:** Divide into four small side bowls and provide a bowl for discarded pods. Release the beans from the pods and eat the beans; do not eat the fibrous pods. If adding edamame to a composed bowl, shell the cooked beans first.

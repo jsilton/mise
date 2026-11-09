@@ -41,7 +41,8 @@ ingredients:
   - '1/4 tsp baking soda, for the shrimp treatment; rinse it off'
   - 'shrimp-rinsing water, as needed to rinse off the baking soda'
   - 1 1/2 cups chicken stock
-  - 2 tsp oyster sauce
+  - 1 1/2 tbsp oyster sauce
+  - 1 tsp granulated sugar
   - 1 tbsp soy sauce
   - 1/2 tsp toasted sesame oil
   - 1/4 tsp white pepper
@@ -145,7 +146,16 @@ formula:
           key: oyster-sauce
           name: oyster sauce
           quantity:
-            amount: 2
+            amount: 1 1/2
+            unit: tbsp
+          uses:
+            - step: sauce
+              share: 1
+        - id: sugar
+          key: sugar
+          name: granulated sugar
+          quantity:
+            amount: 1
             unit: tsp
           uses:
             - step: sauce
@@ -254,7 +264,9 @@ formula:
         shrimp refrigerated while preparing the noodles.
     - id: sauce
       title: Mix the gravy base
-      text: 'Combine {{ingredients}} in a bowl and set beside the stove.'
+      text: >-
+        Combine {{ingredients}} in a bowl, stirring until the sugar dissolves, and set beside the
+        stove.
     - id: slurry
       title: Mix the slurry
       text: >-
@@ -308,7 +320,8 @@ formula:
       text: >-
         Pour in the prepared gravy base and bring it to a boil. Stir the slurry again and add it
         gradually, letting each addition thicken before adding more. Stop when the gravy lightly
-        coats a spoon; the entire prepared slurry may not be needed. Cook until every shrimp is
+        coats a spoon; the entire prepared slurry may not be needed. Taste and add a splash more soy
+        sauce only if the gravy needs it, since stocks vary in salt. Cook until every shrimp is
         firm, pearly and opaque, and all the carrots are tender. Do not judge doneness from the
         searing time alone. Discard any unused slurry.
     - id: serve
@@ -357,6 +370,17 @@ learning:
       fix: >-
         Stop adding slurry as soon as the gravy coats a spoon. Add it gradually while stirring; the
         measured stock is the complete gravy base, so do not rely on an unlisted extra stock dose.
+  substitutions:
+    - ingredient: Fresh Hong Kong-style egg noodles
+      alternative: 'The same 8 oz of thin fresh egg noodles sold as chow mein noodles, or thin dried egg noodles'
+      effect: >-
+        Cook them by their package until just tender. Dried noodles need a full boil and give a
+        slightly less lacy cake, but they still crisp well if drained thoroughly.
+    - ingredient: Shaoxing wine
+      alternative: The same 1 tbsp of dry sherry
+      effect: >-
+        Dry sherry gives a similar nutty, savory lift with a little less of Shaoxing’s caramel
+        depth.
   storage: >-
     Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F /
     4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and
@@ -392,7 +416,7 @@ This Cantonese-style noodle cake is crisp at the edges and softer beneath its sh
 ## Directions
 
 1. **Prepare the shrimp:** Have large shrimp, baking soda, and shrimp-rinsing water ready. Toss the shrimp with the baking soda and refrigerate for 5 minutes, then rinse thoroughly with the rinsing water and pat dry. Keep nearby food and clean utensils away from splashes; clean the sink and work surface after rinsing. Keep the shrimp refrigerated while preparing the noodles.
-2. **Mix the gravy base:** Combine chicken stock, oyster sauce, soy sauce, toasted sesame oil, and white pepper in a bowl and set beside the stove.
+2. **Mix the gravy base:** Combine chicken stock, oyster sauce, granulated sugar, soy sauce, toasted sesame oil, and white pepper in a bowl, stirring until the sugar dissolves, and set beside the stove.
 3. **Mix the slurry:** Mix cornstarch for the slurry and water for the slurry in a separate bowl. The slurry will settle; stir it again immediately before adding it to the hot gravy.
 4. **Prepare the noodles:** Use fresh Hong Kong-style egg noodles and cooking water to prepare the noodles according to their package until just tender. For fresh raw Hong Kong-style noodles, start checking at about 1 minute rather than assuming every product has the same cooking time. Rinse cool, drain thoroughly and shake off surface water. Keep or refresh the boiling water for the greens.
 5. **Fry the first side:** Heat vegetable oil for the noodle cake in a nonstick pan over heat permitted by its instructions. Spread the drained noodles into a thin, even cake. Fry undisturbed, checking the underside at about 5 minutes; it should release with a golden, crisp bottom. Use more cakes or pan loads if the measured noodles cannot fit in a thin layer, dividing the measured cake oil proportionally among them.
@@ -401,5 +425,5 @@ This Cantonese-style noodle cake is crisp at the edges and softer beneath its sh
 8. **Cook carrots and mushrooms:** Have sliced carrots and mushrooms and vegetable oil for the wok ready. Heat the oil in a wok or skillet, then stir-fry the carrots and mushrooms until the carrots lose their hard raw center and the mushrooms soften. Work in manageable batches if needed; gather all the vegetables for the gravy.
 9. **Add the aromatics:** Add ginger and garlic cloves to the vegetables and stir briefly until fragrant, about 30 seconds. Keep the garlic moving so it does not burn.
 10. **Sear the shrimp:** Add the prepared shrimp to the hot wok in a manageable layer, moving vegetables aside or cooking shrimp in batches if necessary. Start checking at about 1 minute per side, then add Shaoxing wine. The gravy step completes cooking; continue directly to it.
-11. **Finish the gravy:** Pour in the prepared gravy base and bring it to a boil. Stir the slurry again and add it gradually, letting each addition thicken before adding more. Stop when the gravy lightly coats a spoon; the entire prepared slurry may not be needed. Cook until every shrimp is firm, pearly and opaque, and all the carrots are tender. Do not judge doneness from the searing time alone. Discard any unused slurry.
+11. **Finish the gravy:** Pour in the prepared gravy base and bring it to a boil. Stir the slurry again and add it gradually, letting each addition thicken before adding more. Stop when the gravy lightly coats a spoon; the entire prepared slurry may not be needed. Taste and add a splash more soy sauce only if the gravy needs it, since stocks vary in salt. Cook until every shrimp is firm, pearly and opaque, and all the carrots are tender. Do not judge doneness from the searing time alone. Discard any unused slurry.
 12. **Serve immediately:** Pour all the hot shrimp, vegetables and gravy over the center of the noodle cake, leaving some edges uncovered for crunch. Divide among the portions and serve immediately.

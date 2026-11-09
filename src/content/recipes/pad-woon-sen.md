@@ -27,9 +27,10 @@ pairsWith:
 ingredients:
   - 6.3 oz Dried Mung Bean Glass Noodles
   - 3 tbsp Oyster Sauce
-  - 3 tbsp Fish Sauce
+  - 2 tbsp Fish Sauce
   - 1 tbsp Soy Sauce
-  - 1 tsp Granulated Sugar
+  - 2 tsp Granulated Sugar
+  - 1/4 cup Water
   - '1/4 Napa Cabbage, sliced'
   - '1 Bell Pepper, sliced'
   - '1 medium Carrot, grated'
@@ -118,7 +119,7 @@ Mung bean glass noodles need to soften before they enter the pan. Cook the eggs 
 
 1. **Prepare:** Wash the fresh vegetables and herbs. Slice the cabbage and pepper thinly; peel and grate the carrot, slice the onion and garlic, and keep the chile and scallions for the finish. Have a clean plate ready for the cooked eggs and vegetables.
 2. **Soften noodles:** Cover the mung bean glass noodles with hot, not boiling, water, starting checks around 10 minutes for the original noodle product. They should bend easily without a hard center. Follow different package preparation instructions if required by your product, then drain well. The combined-vegetable variation below retains the cold rinse.
-3. **Mix sauce:** Whisk together all the oyster sauce, fish sauce, soy sauce and sugar.
+3. **Mix sauce:** Whisk together all the oyster sauce, fish sauce, soy sauce, sugar and water until the sugar dissolves. The water helps the glass noodles absorb the sauce evenly instead of clumping.
 4. **Cook eggs:** Heat a splash of the listed oil over medium-high heat in a large wok or skillet until shimmering. Add all the whisked eggs and a pinch of the salt allowance. Stir until fully set with no liquid egg remaining, beginning checks around 1 minute. Transfer to the clean plate and roughly chop.
 5. **Cook cabbage:** Add enough of the oil allowance to coat the pan. Add all the cabbage and a pinch of salt. Cook, stirring, until softened and charred in spots, beginning checks around 3–4 minutes. Transfer to the cooked-egg plate. Work in additional batches if the cabbage cannot move freely in the pan.
 6. **Cook pepper:** Add another splash of oil, all the pepper and a pinch of salt. Stir until softened, beginning checks around 3–4 minutes, then transfer to the same cooked-food plate.

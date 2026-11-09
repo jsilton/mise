@@ -18,9 +18,10 @@ ingredients:
   - '1 1/2 cups jasmine rice, dry; rinse and drain'
   - '1 can (13 1/2 oz) coconut milk, shake/stir smooth'
   - 1/2 cup water
+  - 3/4 tsp kosher salt
   - >-
-    1 1/2 lb fully cooked frozen meatballs, approximately 24–28 in the original
-    batch; actual piece weight varies
+    1 1/2 lb fully cooked frozen meatballs, approximately 24–28 in the original batch; actual piece
+    weight varies
   - 1 tsp oil
   - 1/3 cup hoisin sauce
   - 1/3 cup Peking duck sauce
@@ -82,15 +83,22 @@ formula:
           uses:
             - step: rice
               share: 1
+        - id: rice-salt
+          key: kosher-salt
+          name: kosher salt
+          quantity:
+            amount: 3/4
+            unit: tsp
+          uses:
+            - step: rice
+              share: 1
         - id: meatballs
           key: meatballs
           name: fully cooked frozen meatballs
           quantity:
             amount: 1.5
             unit: lb
-          preparation: >-
-            approximately 24–28 in the original batch; actual piece weight
-            varies
+          preparation: approximately 24–28 in the original batch; actual piece weight varies
           uses:
             - step: meatballs
               share: 1
@@ -248,58 +256,52 @@ formula:
     - id: rice
       title: Start coconut rice
       text: >-
-        Use {{ingredients}} for this stage. Combine the rinsed and drained rice,
-        all the stirred coconut milk and this component’s measured water in a
-        rice cooker that permits the mixture and load. Follow its instructions.
-        If the manual disallows this mixture, use a separately verified
-        coconut-rice method with the full listed rice, coconut milk and water.
+        Use {{ingredients}} for this stage. Combine the rinsed and drained rice, all the stirred
+        coconut milk, this component’s measured water and the salt in a rice cooker that permits the
+        mixture and load. Follow its instructions. If the manual disallows this mixture, use a
+        separately verified coconut-rice method with the full listed rice, coconut milk and water.
     - id: meatballs
       title: Heat meatballs
       text: >-
-        Use {{ingredients}} for this stage. Heat the fully cooked frozen
-        meatballs according to their package until centers reach 165°F / 74°C,
-        checking several of the largest. Brown the heated meatballs in a roomy
-        skillet using their full one-teaspoon oil for the original batch, or the
-        listed scaled amount. Work in batches without assuming 24–28 pieces at
-        every scale.
+        Use {{ingredients}} for this stage. Heat the fully cooked frozen meatballs according to
+        their package until centers reach 165°F / 74°C, checking several of the largest. Brown the
+        heated meatballs in a roomy skillet using their full one-teaspoon oil for the original
+        batch, or the listed scaled amount. Work in batches without assuming 24–28 pieces at every
+        scale.
     - id: aromatics
       title: Add aromatics
       text: >-
-        Reduce heat to medium. Add {{ingredients}} around the heated meatballs
-        and stir for about 30 seconds, without scorching the garlic.
+        Reduce heat to medium. Add {{ingredients}} around the heated meatballs and stir for about 30
+        seconds, without scorching the garlic.
     - id: glaze
       title: Glaze
       text: >-
-        Use {{ingredients}} for this stage. Add the hoisin, duck sauce, vinegar
-        and measured three-tablespoon glaze water for the original batch,
-        following the scaled list for other quantities. Simmer gently about 5
-        minutes, stirring until glaze clings; use the separate small-water
-        allowance only if the glaze becomes too thick. Keep this water separate
-        from the rice water.
+        Use {{ingredients}} for this stage. Add the hoisin, duck sauce, vinegar and measured
+        three-tablespoon glaze water for the original batch, following the scaled list for other
+        quantities. Simmer gently about 5 minutes, stirring until glaze clings; use the separate
+        small-water allowance only if the glaze becomes too thick. Keep this water separate from the
+        rice water.
     - id: vegetables
       title: Cook greens and carrots
       text: >-
-        Use {{ingredients}} for this stage. In another skillet heat the full
-        vegetable oil. Cook carrots about 2 minutes, then add kale and sliced
-        garlic. Turn through the pan and continue until carrots and greens are
-        tender, beginning checks after 3–5 minutes more. Use the small
-        vegetable-water allowance if needed; lower heat if garlic burns. More
-        pan batches change this time.
+        Use {{ingredients}} for this stage. In another skillet heat the full vegetable oil. Cook
+        carrots about 2 minutes, then add kale and sliced garlic. Turn through the pan and continue
+        until carrots and greens are tender, beginning checks after 3–5 minutes more. Use the small
+        vegetable-water allowance if needed; lower heat if garlic burns. More pan batches change
+        this time.
     - id: finish
       title: Finish the vegetables
       text: >-
-        Use {{ingredients}} for this stage. Season with the black-pepper
-        allowance and all the juice from the listed lemon portion, or the
-        separate vinegar splash instead. Do not add both acid options
-        automatically.
+        Use {{ingredients}} for this stage. Season with the black-pepper allowance and all the juice
+        from the listed lemon portion, or the separate vinegar splash instead. Do not add both acid
+        options automatically.
     - id: serve
       title: Assemble
       text: >-
-        Let the rice finish its permitted cooker cycle and any manual-required
-        rest; check grains are tender. Divide all the rice, glazed meatballs and
-        vegetables among the listed portions rather than fixing five meatballs
-        per person at every scale. Serve promptly; actual total follows rice,
-        meatball package and batches.
+        Let the rice finish its permitted cooker cycle and any manual-required rest; check grains
+        are tender. Divide all the rice, glazed meatballs and vegetables among the listed portions
+        rather than fixing five meatballs per person at every scale. Serve promptly; actual total
+        follows rice, meatball package and batches.
 equipment:
   - rice-cooker
   - skillet
@@ -307,61 +309,51 @@ equipment:
 learning:
   focus: Coordinate three pans without mixing their liquid or oil allocations
   outcome: >-
-    Rice is tender, fully cooked meatballs have hot 165°F centers and clinging
-    glaze, and carrots and kale are tender.
+    Rice is tender, fully cooked meatballs have hot 165°F centers and clinging glaze, and carrots
+    and kale are tender.
   techniques:
     - temperature
   before:
     - >-
-      Use labeled fully cooked frozen meatballs and follow their package heating
-      instructions; check several of the largest centers at 165°F / 74°C.
+      Use labeled fully cooked frozen meatballs and follow their package heating instructions; check
+      several of the largest centers at 165°F / 74°C.
     - >-
-      Choose a rice cooker whose manual permits coconut milk/fatty liquids and
-      the intended load; its cooked-rice cup capacity is not automatically a
-      dry-rice measure. Do not use a cooker that disallows this mixture.
+      Choose a rice cooker whose manual permits coconut milk/fatty liquids and the intended load;
+      its cooked-rice cup capacity is not automatically a dry-rice measure. Do not use a cooker that
+      disallows this mixture.
     - >-
-      Wash and drain kale and carrots; trim kale stems and slice carrots
-      consistently. Extra batches need their own shares of each full ingredient
-      amount.
+      Wash and drain kale and carrots; trim kale stems and slice carrots consistently. Extra batches
+      need their own shares of each full ingredient amount.
   checkpoints:
     - step: 2
       cue: >-
-        Several of the largest fully cooked meatballs reach 165°F / 74°C at
-        their centers after package-directed heating.
-      why: >-
-        A browned surface does not establish that frozen meatball centers are
-        hot.
+        Several of the largest fully cooked meatballs reach 165°F / 74°C at their centers after
+        package-directed heating.
+      why: A browned surface does not establish that frozen meatball centers are hot.
   troubleshooting:
     - problem: Glaze becomes thick before the meal is ready
       cause: It reduced while the rice or vegetables needed longer.
       fix: >-
-        Lower heat and use only the separate glaze-water allowance if needed.
-        Keep the rice water and vegetable oil separate from the glaze.
+        Lower heat and use only the separate glaze-water allowance if needed. Keep the rice water
+        and vegetable oil separate from the glaze.
   substitutions:
     - ingredient: Lemon juice
       alternative: The separate vinegar splash allowance instead
-      effect: >-
-        Use the vinegar splash instead of the lemon juice to finish the
-        vegetables.
+      effect: Use the vinegar splash instead of the lemon juice to finish the vegetables.
     - ingredient: Rice vinegar in glaze
       alternative: The same listed apple cider vinegar measure
-      effect: >-
-        This vinegar choice belongs to the glaze; choose the vegetable acid
-        separately.
+      effect: This vinegar choice belongs to the glaze; choose the vegetable acid separately.
   timing: >-
-    About 45 min planning; cooker/package/batches may take longer; 15 min.
-    Additional pans/batches change elapsed time; no linear clock scaling is
-    implied.
+    About 45 min planning; cooker/package/batches may take longer; 15 min. Additional pans/batches
+    change elapsed time; no linear clock scaling is implied.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below,
-    within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days or freeze;
-    reheat leftovers to 165°F / 74°C throughout. Prompt cooling matters for
-    cooked grains as well as meat; reheating is not a substitute for proper
-    storage.
+    Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1
+    hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C
+    throughout. Prompt cooling matters for cooked grains as well as meat; reheating is not a
+    substitute for proper storage.
   sources:
     - title: FoodSafety.gov — Cooking temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -376,7 +368,7 @@ Hoisin and duck sauce glaze fully cooked meatballs while coconut rice and garlic
 
 ## Directions
 
-1. **Start coconut rice:** Use jasmine rice, coconut milk, and water for this stage. Combine the rinsed and drained rice, all the stirred coconut milk and this component’s measured water in a rice cooker that permits the mixture and load. Follow its instructions. If the manual disallows this mixture, use a separately verified coconut-rice method with the full listed rice, coconut milk and water.
+1. **Start coconut rice:** Use jasmine rice, coconut milk, water, and kosher salt for this stage. Combine the rinsed and drained rice, all the stirred coconut milk, this component’s measured water and the salt in a rice cooker that permits the mixture and load. Follow its instructions. If the manual disallows this mixture, use a separately verified coconut-rice method with the full listed rice, coconut milk and water.
 2. **Heat meatballs:** Use fully cooked frozen meatballs and oil for this stage. Heat the fully cooked frozen meatballs according to their package until centers reach 165°F / 74°C, checking several of the largest. Brown the heated meatballs in a roomy skillet using their full one-teaspoon oil for the original batch, or the listed scaled amount. Work in batches without assuming 24–28 pieces at every scale.
 3. **Add aromatics:** Reduce heat to medium. Add fresh ginger and garlic cloves around the heated meatballs and stir for about 30 seconds, without scorching the garlic.
 4. **Glaze:** Use hoisin sauce, Peking duck sauce, rice vinegar or apple cider vinegar, water, and water for this stage. Add the hoisin, duck sauce, vinegar and measured three-tablespoon glaze water for the original batch, following the scaled list for other quantities. Simmer gently about 5 minutes, stirring until glaze clings; use the separate small-water allowance only if the glaze becomes too thick. Keep this water separate from the rice water.

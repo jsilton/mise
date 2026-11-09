@@ -25,6 +25,8 @@ ingredients:
   - '1 small yellow onion, large dice.'
   - 2 cloves of garlic.
   - 1/2 tsp black pepper.
+  - '1 1/2 tsp kosher salt, plus more to taste.'
+  - '1 to 2 tbsp fresh lime juice (about 1 lime), to finish.'
   - pinch red pepper flakes.
 sourceUrl: 'https://paleopot.com/2012/11/paleo-roasted-red-pepper-sweet-potato-soup/'
 cuisines:
@@ -111,7 +113,8 @@ Jarred roasted peppers flavor this slow-cooker soup without a separate roasting 
 
 ## Directions
 
-1. **Prepare:** Wash the sweet potatoes before peeling and cut into similar one-inch cubes. At the original batch, the saved two huge potatoes are approximately 6 cups of cubes; this is an estimate, not a weight conversion. Peel and dice the onion and peel the garlic. Put all the potatoes, onion, garlic, drained roasted peppers, coconut milk, chicken stock and black pepper into the slow cooker. Choose a cooker suited to this load and follow its manual's fill guidance; aim for half to two-thirds full rather than filling to the rim. Start cooking promptly.
+1. **Prepare:** Wash the sweet potatoes before peeling and cut into similar one-inch cubes. At the original batch, the saved two huge potatoes are approximately 6 cups of cubes; this is an estimate, not a weight conversion. Peel and dice the onion and peel the garlic. Put all the potatoes, onion, garlic, drained roasted peppers, coconut milk, chicken stock, black pepper and the 1 1/2 tsp kosher salt into the slow cooker. Choose a cooker suited to this load and follow its manual's fill guidance; aim for half to two-thirds full rather than filling to the rim. Start cooking promptly.
 2. **Cook:** Cover and cook on LOW for about 4–6 hours, until sweet-potato centers yield easily to a fork. Continue cooking if still firm; do not use the clock alone to judge tenderness. Keep the lid on except when checking.
 3. **Blend:** Turn off the slow cooker before blending. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Purée smooth or leave a few soft pieces, as in the saved method.
-4. **Serve:** Serve with the listed optional pinch of red-pepper flakes if wanted, distributing that pinch over the batch rather than adding a new pinch to every bowl.
+4. **Season:** Stir in 1 tablespoon of the lime juice, then taste. Add more salt and the remaining lime juice to taste until the soup tastes bright rather than flat and sweet.
+5. **Serve:** Serve with the listed optional pinch of red-pepper flakes if wanted, distributing that pinch over the batch rather than adding a new pinch to every bowl.

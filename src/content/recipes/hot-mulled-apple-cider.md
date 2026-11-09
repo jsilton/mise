@@ -22,7 +22,7 @@ totalTime: 25 min
 servings: '8'
 ingredients:
   - 2 quarts Apple Cider (Unfiltered preferred)
-  - '1/2 cup Light Brown Sugar, packed'
+  - '2 tbsp Light Brown Sugar, packed, plus more to taste'
   - 3 Cinnamon Sticks (3-inch)
   - 1 tsp Whole Allspice
   - 1 tsp Whole Cloves
@@ -93,14 +93,14 @@ learning:
 
 ## Chef's Note
 
-Bring the cider and spices just to a boil, then lower the heat for the covered simmer. Strain out the whole spices before serving. The two-quart input and eight-portion plan do not establish the exact strained volume after evaporation.
+Bring the cider and spices just to a boil, then lower the heat for the covered simmer. Strain out the whole spices before serving. Cider is already sweet, so start with a little brown sugar and add more only after tasting. The two-quart input and eight-portion plan do not establish the exact strained volume after evaporation.
 
 ## Directions
 
-1. Use pasteurized apple cider. Combine all the listed brown sugar, cinnamon sticks, allspice, cooking cloves, nutmeg, sea salt and cider in a pot with room for the full load. Keep the separate garnish cloves out of the pot.
+1. Use pasteurized apple cider. Combine the 2 tbsp brown sugar, cinnamon sticks, allspice, cooking cloves, nutmeg, sea salt and cider in a pot with room for the full load. Keep the separate garnish cloves out of the pot.
 
 2. Bring just to a boil, then reduce heat, cover and simmer gently for 20 minutes. Keep the original three-inch cinnamon-stick size as their count scales; add pot capacity rather than multiplying cooking time.
 
-3. Strain into a clean heat-safe pot. For extended hot service keep the cider at 140°F or above, measured in the drink; a slow cooker's WARM label alone does not establish that temperature.
+3. Strain into a clean heat-safe pot. Taste, and stir in more brown sugar a tablespoon at a time only if it needs it. Cider is already sweet, though a tart cider may want a little more. For extended hot service keep the cider at 140°F or above, measured in the drink; a slow cooker's WARM label alone does not establish that temperature.
 
 4. Wash the orange before cutting. Divide its listed portion into wedges for the planned servings and stud the wedges with the separate garnish cloves. Divide the hot cider among the listed portions and add the garnish; remove the hard whole garnish cloves before drinking.

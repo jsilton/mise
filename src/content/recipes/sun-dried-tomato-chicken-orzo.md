@@ -39,7 +39,7 @@ ingredients:
   - '1 tbsp oil from the tomato jar, or olive oil'
   - '140 g frozen chopped spinach, weighed before thawing, then thawed and squeezed dry'
   - 1 tsp dried Italian herb seasoning
-  - 1/4 tsp fine salt
+  - '1 tsp fine salt, divided, plus more to taste'
   - 1/2 tsp ground black pepper
   - 1 tsp finely grated lemon zest
   - '2 tbsp fresh lemon juice, added gradually to taste'
@@ -122,8 +122,8 @@ The covered dish gives dry orzo time to absorb hot broth while the chicken cooks
 
 ## Directions
 
-1. **Heat and prepare:** Heat oven to 400°F / 200°C. Thaw and squeeze spinach thoroughly. Bring the measured broth to a simmer in a saucepan. Toss chicken with tomato oil, dried herbs, salt, and pepper.
+1. **Heat and prepare:** Heat oven to 400°F / 200°C. Thaw and squeeze spinach thoroughly. Bring the measured broth to a simmer in a saucepan and stir in 1/2 tsp of the salt. Toss chicken with tomato oil, dried herbs, the remaining 1/2 tsp salt, and pepper.
 2. **Assemble:** Spread dry orzo in a deep 9-by-13-inch baking dish. Add tomatoes and loosened spinach, then pour in hot broth and stir gently to distribute. Scatter in crumbled garlic-and-herb cheese and arrange chicken evenly through the dish. Keep the orzo beneath the liquid as much as possible.
 3. **Cover and bake:** Seal tightly with foil or a suitable lid and bake for 30 minutes.
 4. **Check before tasting:** Open carefully away from your face. Stir gently to redistribute the center and edges. Probe several large chicken pieces and the casserole center for 165°F / 74°C. If below temperature, re-cover and continue baking, checking every 5–10 minutes. Only after temperature checks pass, taste orzo for tenderness. Add a little hot water and continue covered if pasta is still firm and the pan is drying.
-5. **Finish the sauce:** When chicken and pasta are ready, fold gently to disperse the cheese. Stir in lemon zest and half the lemon juice. Rest 5 minutes, then taste and add the remaining juice only if needed. Divide into four portions; a lightly dressed green salad complements the rich bake.
+5. **Finish the sauce:** When chicken and pasta are ready, fold gently to disperse the cheese. Stir in lemon zest and half the lemon juice. Rest 5 minutes, then taste and add the remaining juice only if needed, plus a pinch more salt if the cheese has not seasoned it enough. Divide into four portions; a lightly dressed green salad complements the rich bake.

@@ -126,3 +126,7 @@ Whisk the oil and maple mixture just before pouring, then toss until the oats, n
 Dried blueberries may replace the entire listed dried-fruit amount. Canola and avocado oil are exclusive choices for the full listed oil amount. Choose sunflower or sesame seeds for the full seed amount; use the full mixed-nut amount as well.
 
 One batch means the full ingredient set; measure the cooled volume if needed. Cooling takes additional time before packing. Keep the layer thin when scaling; extra sheets or successive loads extend elapsed time.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Cut the oil to 1/3 cup for crisper, less greasy clusters that are less likely to scorch.

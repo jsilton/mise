@@ -17,6 +17,7 @@ leftovers: excellent
 equipment:
   - blender
   - muffin-tin
+  - roasting-pan
 advancePrep:
   - make-ahead
 flavorProfile:
@@ -25,11 +26,11 @@ flavorProfile:
 cuisines:
   - American
 role: main
-vibe: quick
+vibe: comfort
 prepTime: 10 min
-cookTime: 20–25 min
+cookTime: 30–40 min
 totalTime: >-
-  40–45 min reference, plus any remaining preheating or baking to the center
+  50–60 min reference, plus any remaining preheating or baking to the center
   endpoint
 servings: 12 bites
 pairsWith:
@@ -43,6 +44,7 @@ ingredients:
   - '4 slices Bacon, cooked and chopped'
   - 1/4 tsp Sea Salt + 1/4 tsp Black Pepper
   - Butter or oil spray
+  - Boiling water, for the steam pan
 source: Adapted from eatingonadime.com
 sourceUrl: 'https://www.eatingonadime.com/starbucks-egg-bites-recipe/'
 learning:
@@ -92,8 +94,8 @@ learning:
     the refrigerator or reheat from frozen until the center reaches 165°F /
     74°C.
   timing: >-
-    About 40–45 minutes for the original batch:10 minutes preparation,20–25
-    minutes reference baking and 10 minutes pan rest. Preheating begins at
+    About 50–60 minutes for the original batch: 10 minutes preparation, 30–40
+    minutes gentle steam baking at 300°F and 10 minutes pan rest. Preheating begins at
     setup; any remaining heating, extra blender/oven loads and cooking bacon
     beforehand add time.
   sources:
@@ -112,11 +114,11 @@ learning:
 
 ## Chef's Note
 
-Blending the eggs with full-fat cottage cheese smooths the curds; folding in the full Gruyère afterward leaves cheese throughout the custard. Press all the cooked bacon into the tops so it stays with the bites. These are oven-baked bites rather than a sous-vide recipe.
+Blending the eggs with full-fat cottage cheese smooths the curds; folding in the full Gruyère afterward leaves cheese throughout the custard. Press all the cooked bacon into the tops so it stays with the bites. A low oven with steam and a foil cover stands in for the sous-vide bath, so the bites set velvety and pale instead of browned and spongy.
 
 ## Directions
 
-1. **Blend:** Preheat the oven to 350°F. Blend all the cold eggs, cottage cheese, listed salt and pepper until smooth, checking after about 30 seconds. Use the blender’s actual cold-mixture capacity; divide into loads if necessary and combine all loads in a bowl.
+1. **Blend:** Set one rack in the center and another below it. Put a roasting pan on the lower rack and preheat the oven to 300°F. Bring a kettle of water to a boil. Blend all the cold eggs, cottage cheese, listed salt and pepper until smooth, checking after about 30 seconds. Use the blender’s actual cold-mixture capacity; divide into loads if necessary and combine all loads in a bowl.
 
 2. **Fold:** Fold all the shredded Gruyère into the complete egg mixture.
 
@@ -124,7 +126,7 @@ Blending the eggs with full-fat cottage cheese smooths the curds; folding in the
 
 4. **Add bacon:** Divide all the cooked, chopped bacon among the filled wells. Press it gently into the egg mixture rather than leaving loose pieces on top.
 
-5. **Bake:** Bake until each bite is set in the center without liquid egg, beginning checks after 20 minutes; the original 20–25 minute range is a guide. Check several centers across the tin reach 165°F / 74°C for this meat-containing egg bake. Color alone is not the endpoint. If the surface browns first, reduce direct exposure with an oven-safe loose cover and continue checking the centers.
+5. **Bake:** Cover the tin tightly with foil and set it on the center rack. Carefully pour about 4 cups of boiling water into the roasting pan below to make steam. Bake until each bite is set in the center without liquid egg and jiggles only slightly, beginning checks after 30 minutes; 30–40 minutes is a guide. For an even gentler bake, set the covered tin in a larger pan of hot water reaching halfway up the wells instead. Check several centers across the tin reach 165°F / 74°C for this meat-containing egg bake. Color alone is not the endpoint, and these bites should stay pale. Re-cover with the foil and continue if the centers need longer.
 
 6. **Rest:** Let the bites rest in the pan for the 10-minute interval, then gently loosen and lift them out with a spoon or tool suitable for the pan. The rest helps release; it does not substitute for a cooked center.
 

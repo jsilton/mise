@@ -27,11 +27,12 @@ pairsWith:
   - avocado-kale-caesar-salad
   - green-beans-with-shallots-and-lemon
 ingredients:
-  - '16 oz Cremini Mushrooms, sliced'
+  - '24 oz Cremini Mushrooms, sliced'
   - '2/3 cup Shiitake Mushrooms, sliced'
   - 1/4 cup Unsalted Butter
   - '1 large Shallot, minced'
   - '2 cloves Garlic, minced'
+  - 2 tbsp All-purpose Flour
   - 4 cups High-quality Vegetable Stock
   - 1/3 cup Heavy Cream
   - 1 tsp Dried Thyme
@@ -146,11 +147,11 @@ Cook the sliced mushrooms in butter until their released liquid evaporates and t
 
 1. **The Sear:** In a large heavy-bottomed pot, melt butter over medium-high heat. Add all mushrooms. Cook, stirring occasionally, until the released liquid has evaporated and the mushrooms are golden, about 10-20 minutes depending on the pot and moisture. Reduce the heat if the butter begins to scorch; browning, not an eight-minute timer, is the endpoint. If the mushrooms crowd the pot too deeply, work in batches, dividing the total measured butter among them and recombining the cooked mushrooms; extra batches add time.
 
-2. **Reserve:** Set aside a proportional portion of the browned mushrooms for the garnish: 1 cup in the original batch with 16 oz cremini and 2/3 cup sliced shiitake. Increase or decrease that garnish portion with the measured mushroom quantity when scaling; keep the rest in the soup pot.
+2. **Reserve:** Set aside a proportional portion of the browned mushrooms for the garnish: 1 cup in the original batch with 24 oz cremini and 2/3 cup sliced shiitake. Increase or decrease that garnish portion with the measured mushroom quantity when scaling; keep the rest in the soup pot.
 
-3. **Aromatics:** Add the minced shallot to the remaining mushrooms. Cook about 1 minute as a first check and continue until softened, stirring; add garlic and cook about 30–45 seconds until fragrant. Stir in all the dried thyme and salt and pepper to taste.
+3. **Aromatics:** Add the minced shallot to the remaining mushrooms. Cook about 1 minute as a first check and continue until softened, stirring; add garlic and cook about 30–45 seconds until fragrant. Stir in the flour and cook, stirring, about 1 minute so it coats the mushrooms and loses its raw smell. Stir in all the dried thyme and salt and pepper to taste.
 
-4. **Simmer:** Pour in all the vegetable stock. Bring to a boil, then reduce heat and simmer about 10 minutes until the mushrooms are very tender.
+4. **Simmer:** Gradually pour in all the vegetable stock, stirring and scraping the bottom so the flour disperses without lumps. Bring to a boil, then reduce heat and simmer about 10 minutes until the mushrooms are very tender.
 
 5. **The Emulsion:** Take the pot off the heat. Use an immersion blender according to its hot-liquid instructions, starting on low with the blade guard submerged; stop the motor before lifting it out. For a countertop blender, use only a container approved for hot liquids, let the soup cool to the manufacturer’s permitted temperature, and follow its fill and venting instructions in small batches. Never blend hot soup in a sealed personal-blender cup. Return the puree to the pot.
 

@@ -23,12 +23,13 @@ ingredients:
   - 'Roasted peanuts or almonds, chopped, optional'
   - MISO SESAME DRESSING
   - 3 tablespoons white or chickpea miso
-  - 2 tablespoons tamari
+  - 1 tablespoon tamari
   - 2 tablespoons rice vinegar
   - 2 tablespoons roasted sesame seeds
   - 1 tablespoon lime juice
   - 1 teaspoon toasted sesame oil
-  - '1 teaspoon sweetener, like honey, maple syrup, or coconut sugar'
+  - 1 to 2 tablespoons tahini or neutral oil
+  - '2 teaspoons sweetener, like honey, maple syrup, or coconut sugar'
   - '1 teaspoon chili crisp or chili flakes, add more or less to taste'
 sourceUrl: 'https://www.bakerita.com/miso-sesame-dense-bean-salad/'
 cuisines:
@@ -125,6 +126,6 @@ Cook and cool edamame as its package directs before it joins the chickpeas and c
 
 1. **Prepare:** Prepare shelled edamame according to its package cooking instructions when required; do not merely thaw a product labeled for cooking. Drain and cool promptly before mixing. Drain/rinse chickpeas and drain well. Wash and dry vegetables, then combine chickpeas, cooled edamame, optional snap peas, cabbage, carrots and sliced green onions in a large bowl.
 
-2. **Mix dressing:** Whisk miso with tamari, rice vinegar, sesame seeds, lime juice, sesame oil, sweetener and chili crisp or chili flakes until the miso lumps break up and the dressing is evenly mixed.
+2. **Mix dressing:** Whisk miso with tamari, rice vinegar, sesame seeds, lime juice, sesame oil, tahini or neutral oil, sweetener and chili crisp or chili flakes until the miso lumps break up and the dressing is evenly mixed. The tahini or oil and the touch of sweetener round out the salty miso so the dressing tastes balanced rather than harsh.
 
 3. **Toss and serve:** Fold dressing through the beans and vegetables until evenly coated. Top with optional chopped roasted nuts just before serving. Serve immediately or cover and refrigerate 30 minutes. Keep unused salad refrigerated in a covered container for up to 3 days.

@@ -17,7 +17,7 @@ ingredients:
   - 4 1/2 pounds pork shoulder
   - 2 tablespoons paprika
   - 1 teaspoon oregano
-  - 1 teaspoon salt
+  - 1 tablespoon kosher salt, plus more to taste for the juices
   - 1 teaspoon pepper
   - 1/2 teaspoon cumin
   - '1 yellow onion, diced'
@@ -113,7 +113,7 @@ Orange and paprika season this shoulder, distinct from the smoked-salt pulled po
 
 4. **Shred:** Move the fully cooked shoulder to a clean board or plate and pull apart with two forks. If it resists, return it to covered cooking rather than force it into dry chunks. Remove any bone when present.
 
-5. **Moisten and serve:** Spoon some of the hot cooking juices over the shredded pork until it is moist without flooding it; retain the rest for serving if wanted. Divide among the listed portions and serve.
+5. **Moisten and serve:** Taste the cooking juices and add salt if they taste flat. Spoon some of the hot cooking juices over the shredded pork until it is moist without flooding it; retain the rest for serving if wanted. Divide among the listed portions and serve.
 
 ## Cooking Notes
 

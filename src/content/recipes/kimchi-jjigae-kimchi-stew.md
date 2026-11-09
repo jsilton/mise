@@ -39,8 +39,11 @@ pairsWith:
 ingredients:
   - '2 cups Kimchi, coarsely chopped (plus 2 tbsp kimchi juice)'
   - >-
-    8 oz pork belly or shoulder, thinly sliced (or tofu; see the complete tofu
+    8 oz pork belly or shoulder, thinly sliced (or more tofu; see the tofu-only
     option)
+  - >-
+    8–14 oz medium-firm tofu, sliced about 1/2 inch thick (half to one 14 oz
+    block)
   - '1 medium Onion, sliced'
   - '4 oz Mushrooms, sliced (shiitake, oyster, or cremini)'
   - '3 cloves Garlic, minced'
@@ -92,6 +95,16 @@ learning:
     when reheating; kimchi ingredient storage remains governed by its own
     product instructions.
   substitutions:
+    - ingredient: Gochugaru
+      alternative: 2 tsp mild paprika plus 1/4 tsp cayenne
+      effect: >-
+        Gives similar color and gentle heat from the supermarket, without the
+        fruity, slightly smoky depth of Korean chili flakes.
+    - ingredient: Doenjang
+      alternative: The same amount of red miso, or white miso
+      effect: >-
+        Red miso is the closer match. Both are milder and less funky than
+        doenjang, so the stew tastes a little less deep.
     - ingredient: Tofu option
       alternative: >-
         Follow the complete tofu option described in the cooking instructions;
@@ -122,7 +135,7 @@ learning:
 
 ## Chef's Note
 
-Kimchi, its brine and pork make a savory Korean-style stew; gochugaru and gochujang supply different chili flavors. Use refrigerated kimchi within its product instructions, and simmer until the actual pork cut is tender. A tofu substitution alone does not make animal stock, fish sauce or seafood-containing kimchi vegetarian.
+Kimchi, its brine, pork and soft slices of tofu simmered alongside make a savory Korean stew; gochugaru and gochujang supply different chili flavors. Use refrigerated kimchi within its product instructions, and simmer until the actual pork cut is tender. A tofu substitution alone does not make animal stock, fish sauce or seafood-containing kimchi vegetarian.
 
 ## Directions
 
@@ -130,10 +143,10 @@ Kimchi, its brine and pork make a savory Korean-style stew; gochugaru and gochuj
 2. **Cook pork:** Heat all the listed vegetable oil in a saucepan with room for the full stock, pork and vegetables to simmer without overflowing. Add all the thinly sliced pork and cook, stirring, until its surface becomes opaque, starting checks around 3–4 minutes. This is an initial stage; the pork finishes in the simmer. Use additional vessels and divide the complete formula proportionally if needed.
 3. **Aromatics:** Add all the garlic and stir about 30 seconds until fragrant, reducing heat if it begins to burn. Add all the onion and mushrooms and stir until beginning to soften, starting checks around 2 minutes.
 4. **Spices and kimchi:** Stir in all the gochugaru and gochujang for about 30 seconds without scorching. If using the optional doenjang, loosen it with a little taken from the listed stock and stir it in now; do not add another stock supply. Add all the chopped kimchi and cook about 2 minutes until hot.
-5. **Simmer:** Add all the remaining listed stock and all the reserved brine. Bring to a gentle simmer, reduce heat and simmer uncovered, beginning tenderness checks around 12–15 minutes. Continue until the actual pork slices are tender and cooked through. Check thick pieces with a thin probe for at least 145°F / 63°C, then keep the stew gently simmering for at least 3 minutes; color or the first-check clock does not establish doneness. Shoulder may take longer than belly, depending on thickness.
+5. **Simmer:** Add all the remaining listed stock and all the reserved brine. Bring to a gentle simmer, reduce heat and simmer uncovered, beginning tenderness checks around 12–15 minutes. Continue until the actual pork slices are tender and cooked through. Check thick pieces with a thin probe for at least 145°F / 63°C, then keep the stew gently simmering for at least 3 minutes; color or the first-check clock does not establish doneness. Shoulder may take longer than belly, depending on thickness. Slide in the tofu slices for the last 5 minutes of simmering, spooning broth over them without breaking them up.
 6. **Season and finish:** Once the pork has completed its cooking and hot hold, stir in the full listed fish sauce and sugar. Taste carefully; any further gochugaru comes from the separate optional allowance. Remove from heat and stir in all the listed sesame oil.
 7. **Serve:** Add all the scallions and sesame seeds. Serve with the cooked rice and any separately listed additional kimchi. Keep the stew hot for service or refrigerate promptly rather than leaving it out for staggered diners.
 
 ## Tofu Option
 
-Replace the full listed pork amount with the same weight of tofu. Omit the raw-pork cooking stage; heat the full vegetable oil and cook the aromatics, spices and kimchi as above. Add the tofu with the full stock and brine and simmer until hot throughout, then finish with all the fish sauce, sugar, sesame oil and garnishes. This is not automatically vegetarian: for a vegetarian version use the same listed quantities of vegetable stock and a fish-free sauce substitute, and choose kimchi, gochujang and doenjang whose labels suit that diet. The flavor depends on those products; the recipe does not establish an equivalent homemade fish-sauce formula. A beef variation needs its own cut-specific cooking plan; the pork clock does not apply.
+Replace the full listed pork amount with the same weight of additional tofu, on top of the listed tofu. Omit the raw-pork cooking stage; heat the full vegetable oil and cook the aromatics, spices and kimchi as above. Add the full stock and brine and simmer about 10 minutes to build flavor, then add all the tofu and simmer about 5 minutes until hot throughout, then finish with all the fish sauce, sugar, sesame oil and garnishes. This is not automatically vegetarian: for a vegetarian version use the same listed quantities of vegetable stock and a fish-free sauce substitute, and choose kimchi, gochujang and doenjang whose labels suit that diet. The flavor depends on those products; the recipe does not establish an equivalent homemade fish-sauce formula. A beef variation needs its own cut-specific cooking plan; the pork clock does not apply.

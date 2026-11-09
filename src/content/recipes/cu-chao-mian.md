@@ -20,9 +20,7 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 'About 15–25 min preparation, including the 10-minute marinade'
-cookTime: >-
-  About 15–20 min cooking, plus any separate noodle or dried-mushroom
-  preparation
+cookTime: 'About 15–20 min cooking, plus any separate noodle or dried-mushroom preparation'
 totalTime: About 30–45 min with prepared noodles and fresh mushrooms
 servings: 4 portions
 seasons:
@@ -46,18 +44,14 @@ ingredients:
   - 3 tbsp Neutral oil
   - '8 Fresh shiitake mushrooms, tough stems removed, caps sliced'
   - >-
-    1 lb Japanese-style udon or thick egg noodles, prepare per actual product
-    instructions before pan cooking
+    1 lb Fresh Shanghai-style thick wheat noodles (cu mian), prepare per actual product instructions
+    before pan cooking
   - 'Water, for noodle preparation only if the package requires it'
   - 2 1/2 tsp Dark soy sauce for the noodles
   - 2 1/2 tsp Light soy sauce for the noodles
   - 1/4 tsp Sugar for the noodles
-  - >-
-    1 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves
-    separated
-  - >-
-    Additional dark soy sauce, a little more for color, only if desired,
-    optional
+  - '1 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves separated'
+  - 'Additional dark soy sauce, a little more for color, only if desired, optional'
   - '--- Optional table finish ---'
   - 'Chinese black vinegar, a few drops at the table, if desired, optional'
 source: Adapted from thewoksoflife.com
@@ -153,7 +147,7 @@ formula:
           preparation: 'tough stems removed, caps sliced'
         - id: noodles
           key: noodles
-          name: Japanese-style udon or thick egg noodles
+          name: Fresh Shanghai-style thick wheat noodles (cu mian)
           quantity:
             amount: 1
             unit: lb
@@ -230,130 +224,107 @@ formula:
     - id: marinate
       title: Marinate the pork
       text: >-
-        Toss {{ingredients}} until coated. Keep refrigerated for about 10
-        minutes while preparing the other ingredients.
+        Toss {{ingredients}} until coated. Keep refrigerated for about 10 minutes while preparing
+        the other ingredients.
     - id: prepare
       title: Prepare the noodles
       text: >-
-        Use {{ingredients}}. Follow the actual package’s cooking or reheating
-        instructions and drain thoroughly if water was used. Loosen noodles on a
-        clean board or in a bowl before they reach the hot wok; use cooking
-        chopsticks or tongs in the pan.
+        Use {{ingredients}}. Follow the actual package’s cooking or reheating instructions and drain
+        thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach
+        the hot wok; use cooking chopsticks or tongs in the pan.
     - id: pork
       title: Cook the pork
       text: >-
-        Heat {{ingredients}} over medium-high heat in a wok or large skillet
-        until shimmering, without smoking the oil. Add marinated pork in a thin
-        layer and stir-fry, starting checks after about 2 minutes, until the
-        thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at
-        least 3 minutes while cooking mushrooms; keep raw-contact utensils
+        Heat {{ingredients}} over medium-high heat in a wok or large skillet until shimmering,
+        without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks
+        after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean
+        plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils
         separate.
     - id: noodles
       title: Cook mushrooms and noodles
       text: >-
-        Use {{ingredients}}. Reduce heat to medium, add the remaining oil
-        allocation and cook mushrooms until softened, starting checks after 2
-        minutes. Add prepared noodles and lift gently until loosened and hot.
+        Use {{ingredients}}. Reduce heat to medium, add the remaining oil allocation and cook
+        mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift
+        gently until loosened and hot.
     - id: finish
       title: Coat noodles and cook greens
       text: >-
-        Have {{ingredients}} ready. Add both NOODLE soy amounts and the noodle
-        sugar, leaving the already-used marinade amounts separate. Fold until
-        evenly dark and coated. If a deeper color is wanted, add
-        {{name:pan.extra-dark-soy}} a little at a time and toss; this also
-        increases saltiness. Add bok choy stems and the cooked, rested pork;
-        stir until stems are crisp-tender, then fold in the leaves until wilted.
-        Use more time if the stems are still tough rather than relying on a
-        fixed 1-minute finish.
+        Have {{ingredients}} ready. Add both NOODLE soy amounts and the noodle sugar, leaving the
+        already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color
+        is wanted, add {{name:pan.extra-dark-soy}} a little at a time and toss; this also increases
+        saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are
+        crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still
+        tough rather than relying on a fixed 1-minute finish.
     - id: serve
       title: Serve
       text: 'Serve hot and offer {{ingredients}} separately.'
 learning:
-  focus: >-
-    Cu chao mian keeps thick noodles, pork and greens together in a dark-soy
-    coating
-  outcome: >-
-    Thick noodles, cooked pork and tender stems with separate marinade and glaze
-    allocations.
+  focus: 'Cu chao mian keeps thick noodles, pork and greens together in a dark-soy coating'
+  outcome: 'Thick noodles, cooked pork and tender stems with separate marinade and glaze allocations.'
   techniques:
     - stir-frying
     - temperature
   before:
     - >-
-      For the original batch, use one pound of Japanese-style udon for four
-      planning portions. Prepare the actual product before stir-frying; frozen,
-      refrigerated and dried noodles need different preparation. Thick egg
-      noodles follow their own package instructions and may give a different
-      cooked quantity.
+      For the original batch, use one pound of fresh Shanghai-style thick wheat noodles, sold
+      refrigerated at Chinese markets, for four planning portions. Prepare the actual product before
+      stir-frying; fresh, frozen and dried noodles need different preparation. Udon and thick egg
+      noodles follow their own package instructions and may give a different cooked quantity.
     - >-
-      Scale measured ingredients together, keep pork strips thin and use
-      manageable pan batches. The ten-minute marinade and doneness endpoint do
-      not multiply with quantity.
+      Scale measured ingredients together, keep pork strips thin and use manageable pan batches. The
+      ten-minute marinade and doneness endpoint do not multiply with quantity.
     - >-
-      For the original batch, the oil total is 3 tbsp: one-third for pork and
-      two-thirds for mushrooms and noodles. The marinade’s dark soy and sugar
-      are separate from the noodle-glaze amounts.
+      For the original batch, the oil total is 3 tbsp: one-third for pork and two-thirds for
+      mushrooms and noodles. The marinade’s dark soy and sugar are separate from the noodle-glaze
+      amounts.
   checkpoints:
     - step: 3
       cue: Pork reaches 145°F and rests 3 minutes on a clean plate.
       why: Brown appearance alone is not the whole-muscle pork endpoint.
     - step: 5
-      cue: >-
-        Noodles are evenly coated and bok choy stems crisp-tender with leaves
-        wilted.
-      why: >-
-        Split stems and leaves within the final stage so a fixed minute does not
-        leave tough stems.
+      cue: Noodles are evenly coated and bok choy stems crisp-tender with leaves wilted.
+      why: Split stems and leaves within the final stage so a fixed minute does not leave tough stems.
   troubleshooting:
     - problem: Noodles clump or sauce burns
       cause: Noodles were not prepared/loosened or the final heat is too high
       fix: >-
-        Follow the product preparation before pan cooking, drain well and use
-        smaller loads. Reduce to medium after cooking pork, and lift gently
-        while coating noodles.
+        Follow the product preparation before pan cooking, drain well and use smaller loads. Reduce
+        to medium after cooking pork, and lift gently while coating noodles.
   substitutions:
     - ingredient: Pork tenderloin
       alternative: 'Use the same listed weight of thinly sliced pork shoulder, butt or loin.'
-      effect: >-
-        The cuts differ in tenderness; slice thinly and retain 145°F plus a
-        3-minute rest.
+      effect: The cuts differ in tenderness; slice thinly and retain 145°F plus a 3-minute rest.
     - ingredient: Shaoxing wine
       alternative: Use the same listed amount of dry cooking sherry.
       effect: This replaces the Shaoxing wine without adding a second marinade liquid.
     - ingredient: Baby bok choy
       alternative: Use the same listed bunch count of choy sum.
       effect: >-
-        A distinct purchase option, not a weight conversion; use stem tenderness
-        and wilted leaves as cues.
+        A distinct purchase option, not a weight conversion; use stem tenderness and wilted leaves
+        as cues.
     - ingredient: Fresh shiitake mushrooms
-      alternative: >-
-        Use the same listed count of dried shiitake mushrooms, fully
-        reconstituted and sliced.
+      alternative: 'Use the same listed count of dried shiitake mushrooms, fully reconstituted and sliced.'
       effect: >-
-        Follow the product soaking instructions in advance; keep prolonged
-        soaking refrigerated, drain well and exclude that separate task from the
-        fresh-mushroom clock.
-    - ingredient: Udon
-      alternative: Use thick egg noodles at the listed purchase weight.
+        Follow the product soaking instructions in advance; keep prolonged soaking refrigerated,
+        drain well and exclude that separate task from the fresh-mushroom clock.
+    - ingredient: Fresh Shanghai-style noodles
+      alternative: Use Japanese-style udon (frozen is best) or thick egg noodles at the listed purchase weight.
       effect: >-
-        Follow that product’s instructions; dried and fresh products may give
-        different cooked quantities, so use pan batches without claiming an
+        Udon is the closest chewy, thick match. Follow that product’s instructions; dried and fresh
+        products may give different cooked quantities, so use pan batches without claiming an
         equivalent finished yield.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours
-    (1 hour above 90°F). Use within 3–4 days. Reheat leftovers to 165°F
-    throughout; noodles soften in storage.
+    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
+    Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.
   timing: >-
-    About 15–25 min preparation, including the 10-minute marinade; About 15–20
-    min cooking, plus any separate noodle or dried-mushroom preparation; About
-    30–45 min with prepared noodles and fresh mushrooms. Plan for extra time if
-    the actual pan loads or component preparation take longer.
+    About 15–25 min preparation, including the 10-minute marinade; About 15–20 min cooking, plus any
+    separate noodle or dried-mushroom preparation; About 30–45 min with prepared noodles and fresh
+    mushrooms. Plan for extra time if the actual pan loads or component preparation take longer.
   sources:
     - title: The Woks of Life — Shanghai Fried Noodles
       url: 'https://thewoksoflife.com/shanghai-fried-noodles/'
     - title: FoodSafety.gov — state-specific minimum cooking temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Leftovers and food safety
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
@@ -369,7 +340,7 @@ Cu chao mian keeps thick noodles, pork and greens together in a dark-soy coating
 ## Directions
 
 1. **Marinate the pork:** Toss Pork tenderloin, Cornstarch, Shaoxing wine, Light soy sauce for the marinade, Dark soy sauce for the marinade, and Sugar for the marinade until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients.
-2. **Prepare the noodles:** Use Japanese-style udon or thick egg noodles and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.
+2. **Prepare the noodles:** Use Fresh Shanghai-style thick wheat noodles (cu mian) and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.
 3. **Cook the pork:** Heat 1/3 of the Neutral oil over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate.
 4. **Cook mushrooms and noodles:** Use 2/3 of the Neutral oil and Fresh shiitake mushrooms. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot.
 5. **Coat noodles and cook greens:** Have Dark soy sauce for the noodles, Light soy sauce for the noodles, Sugar for the noodles, Bunch of baby bok choy, and Additional dark soy sauce (if using) ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add Additional dark soy sauce a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish.

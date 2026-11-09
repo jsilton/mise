@@ -35,7 +35,7 @@ pairsWith:
 ingredients:
   - 6 large Eggs
   - 1/4 cup Whole Milk
-  - 1/8 tsp Sea Salt
+  - 1/4 tsp Fine Sea Salt (or 1/2 tsp kosher salt)
   - 1/8 tsp Black Pepper
   - '1 medium Red Bell Pepper, finely diced'
   - '1 cup Fresh Spinach, chiffonade'

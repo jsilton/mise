@@ -47,7 +47,7 @@ ingredients:
   - 4 cups all-purpose flour
   - 4 tsp baking powder
   - 1/2 tsp sea salt
-  - '2 cups frozen unsweetened blueberries, keep frozen until folding'
+  - '3 cups frozen unsweetened blueberries, keep frozen until folding'
   - '--- Nutmeg-sugar topping ---'
   - 2 tbsp granulated sugar
   - 1/2 tsp ground nutmeg
@@ -152,7 +152,7 @@ formula:
           key: blueberries
           name: frozen unsweetened blueberries
           quantity:
-            amount: 2
+            amount: 3
             unit: cup
           preparation: keep frozen until folding
           uses:

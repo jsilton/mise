@@ -38,9 +38,9 @@ ingredients:
   - 1/4 cup Fresh Oregano Leaves (or 1 tbsp dried)
   - '4 cloves Garlic, minced'
   - 1/2 cup Extra-Virgin Olive Oil
-  - 2 tbsp Red Wine Vinegar
+  - 1/4 cup Red Wine Vinegar
   - 1/2 tsp Red Pepper Flakes (adjust to taste)
-  - 1/2 tsp Kosher Salt
+  - 1 tsp Kosher Salt
   - 1/4 tsp Black Pepper
 learning:
   focus: Keep a chopped herb sauce loose rather than pureed
@@ -124,7 +124,7 @@ Keep parsley and oregano finely chopped but still visible in this Argentine-styl
 
 1. **Chop:** Finely chop parsley and fresh oregano by hand until they are fine, separate pieces. If using the listed dried oregano alternative, add it with the seasonings instead. Mince garlic separately.
 
-2. **Combine:** Stir the herbs, garlic, oil, red wine vinegar, red pepper flakes, measured salt and pepper together in a bowl.
+2. **Combine:** Stir the garlic and measured salt into the red wine vinegar in a bowl and let it sit a minute so the salt dissolves. Stir in the herbs, red pepper flakes and pepper, then the oil.
 
 3. **Rest:** Allow 30 minutes before serving. Rest covered in the refrigerator if preparing ahead; a short room-temperature rest counts toward the total 2 hour limit (1 hour above 90°F /32°C).
 

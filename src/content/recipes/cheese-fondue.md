@@ -28,7 +28,7 @@ ingredients:
   - '1/2 lb Emmentaler or Swiss, shredded'
   - 2 tbsp Cornstarch
   - '1 clove Garlic, halved'
-  - 1 cup Dry White Wine (Sauvignon Blanc or Riesling)
+  - 1 cup Dry White Wine (Swiss Chasselas or Fendant)
   - 1 tbsp Fresh Lemon Juice
   - 1 tbsp Kirsch (Cherry Brandy)
   - Pinch of Nutmeg
@@ -74,7 +74,12 @@ learning:
     texture; bring stored sauce to a boil while stirring before reducing heat
     for serving, rather than applying the gentle first-melt instruction to
     stored leftovers.
-  substitutions: []
+  substitutions:
+    - ingredient: Swiss Chasselas or Fendant
+      alternative: The same amount of a dry Sauvignon Blanc or Pinot Grigio
+      effect: >-
+        Crisp, high-acid and easy to find, so the fondue stays tangy and smooth.
+        Avoid off-dry wines such as many Rieslings, which make it sweet.
   troubleshooting:
     - problem: Cheese becomes stringy or oily
       cause: The first melt was too hot or cheese was added faster than it melted.

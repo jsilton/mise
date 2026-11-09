@@ -36,7 +36,7 @@ pairsWith:
 ingredients:
   - '1 lb raw shrimp (16–20 per pound), peeled and deveined, tails removed'
   - '2 cups fresh broccoli florets, cut into bite-size pieces with thin stems'
-  - 1/2 cup honey
+  - 1/3 cup honey
   - 1/4 cup low-sodium soy sauce
   - '2 tbsp garlic, minced'
   - '1 tsp fresh ginger, grated'
@@ -49,13 +49,13 @@ ingredients:
 origin: Chinese-American-inspired home cooking
 source: 'Adapted from Wendie Williams, Butter Your Biscuit'
 description: >-
-  Shrimp and broccoli in a generous honey-garlic butter glaze with ginger and
+  Shrimp and broccoli in a glossy honey-garlic butter glaze with ginger and
   red pepper flakes.
 learning:
   focus: Cook broccoli through and thicken a sweet glaze without overcooking shrimp
   outcome: >-
-    Tender opaque shrimp, broccoli stems with a little bite and a generous
-    sweet, buttery coating.
+    Tender opaque shrimp, broccoli stems with a little bite and a glossy
+    sweet-savory, buttery coating.
   techniques:
     - temperature
     - starch
@@ -73,9 +73,9 @@ learning:
       rather than filling the pan more deeply. Rice or other separate
       accompaniments need their own cooking time.
     - >-
-      Cut broccoli florets into bite-size pieces with thin stems. This is a
-      deliberately generous honey sauce; do not add more honey to force
-      thickness. The cornstarch must be dispersed before heating.
+      Cut broccoli florets into bite-size pieces with thin stems. The honey is
+      balanced against the soy so the glaze stays savory rather than syrupy. Do
+      not add more honey to force thickness. The cornstarch must be dispersed before heating.
   checkpoints:
     - step: 2
       cue: Shrimp centers are cooked before they leave the pan.
@@ -141,7 +141,7 @@ sourceUrl: 'https://butteryourbiscuit.com/honey-garlic-butter-shrimp-broccoli/'
 
 ## Chef's Note
 
-This is the richer honey-garlic version: butter, plenty of minced garlic and a generous sweet glaze. Cook the broccoli until its stems yield before coating it, and keep the cooked shrimp out while the sauce thickens. Adapted from [Wendie Williams’ Honey Garlic Butter Shrimp and Broccoli](https://butteryourbiscuit.com/honey-garlic-butter-shrimp-broccoli/).
+This is the richer honey-garlic version: butter, plenty of minced garlic and a sweet-savory glaze balanced so it coats rather than turns syrupy. Cook the broccoli until its stems yield before coating it, and keep the cooked shrimp out while the sauce thickens. Adapted from [Wendie Williams’ Honey Garlic Butter Shrimp and Broccoli](https://butteryourbiscuit.com/honey-garlic-butter-shrimp-broccoli/).
 
 ## Directions
 

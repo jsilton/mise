@@ -26,7 +26,7 @@ pairsWith:
   - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
 ingredients:
   - '2 lbs (900 g) boneless beef chuck, cut into 1.5-inch cubes'
-  - '1/2 tsp fine salt, plus more to taste'
+  - '3/4 tsp fine salt (about 1 1/2 tsp Diamond Crystal kosher) for the beef, plus more to taste'
   - 1/2 tsp black pepper
   - 1/4 cup (30 g) all-purpose flour
   - '3 tbsp neutral oil, divided'
@@ -122,7 +122,7 @@ A beef stew uses two kinds of heat for two different jobs: a hot, relatively dry
 
 ## Directions
 
-1. **Dry and coat:** Pat the beef dry, season with salt and pepper, and toss with flour. Shake off loose excess.
+1. **Dry and coat:** Pat the beef dry, season all over with the 3/4 tsp salt and the pepper, and toss with flour. Shake off loose excess.
 2. **Brown in batches:** Heat 2 tbsp oil in a Dutch oven over medium-high heat. Brown beef in three uncrowded batches, about 6–8 minutes each, turning to develop deep brown patches. Add the remaining oil as needed. Transfer each batch to a plate; reduce heat if the fond starts to blacken.
 3. **Cook the base:** Reduce heat to medium. Add pancetta and cook 3–4 minutes until fat begins to render. Add onion and celery and cook 6–8 minutes until softened. Stir in tomato paste for 1 minute, then garlic for about 30 seconds until fragrant.
 4. **Deglaze:** Add wine and scrape up brown fond with a wooden spoon. Simmer 5 minutes. This reduces wine but does not guarantee removal of all alcohol.

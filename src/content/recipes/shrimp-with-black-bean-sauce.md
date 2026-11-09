@@ -51,8 +51,8 @@ ingredients:
   - 1/4 tsp sugar
   - 1/8 tsp white pepper
   - '--- Slurry ---'
-  - 2 1/2 tbsp cornstarch
-  - 2 tbsp cold water
+  - 2 tbsp cornstarch
+  - 3 tbsp cold water
   - 'additional water or chicken stock, a little at a time only if needed to loosen sauce, optional'
   - '--- Egg and scallion ---'
   - '1 large egg, beaten'
@@ -220,7 +220,7 @@ formula:
           key: starch
           name: cornstarch
           quantity:
-            amount: 5/2
+            amount: 2
             unit: tbsp
           uses:
             - step: bind
@@ -229,7 +229,7 @@ formula:
           key: water
           name: cold water
           quantity:
-            amount: 2
+            amount: 3
             unit: tbsp
           uses:
             - step: bind
@@ -271,25 +271,46 @@ formula:
   steps:
     - id: prep
       title: Prepare
-      text: 'Rinse the black beans and mash slightly. Whisk {{ingredients}}. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.'
+      text: >-
+        Rinse the black beans and mash slightly. Whisk {{ingredients}}. Have all aromatics chopped
+        and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry
+        cornstarch and cold water until smooth; keep it separate from the stock mixture.
     - id: blanch
       title: Blanch pork
-      text: 'Prepare {{ingredients}}. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.'
+      text: >-
+        Prepare {{ingredients}}. Bring enough water to cover the pork to a boil, then add the pork,
+        breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further
+        cooking; this blanch is not the final doneness check. Empty and dry the wok before adding
+        oil.
     - id: sear
       title: Cook aromatics and start shrimp
-      text: 'Use {{ingredients}}: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.'
+      text: >-
+        Use {{ingredients}}: heat the oil over medium-high heat, then sauté garlic, ginger, peppers,
+        black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and
+        stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do
+        not establish doneness.
     - id: simmer
       title: Heat stock mixture
       text: 'Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.'
     - id: bind
       title: Thicken gradually
-      text: 'Use {{ingredients}}. Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.'
+      text: >-
+        Use {{ingredients}}. Re-stir the prepared slurry, then add it gradually while stirring the
+        simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin
+        with a little water or stock if needed. Keep unused raw-contact slurry separate from
+        ready-to-eat food and discard it after cooking.
     - id: egg
       title: Set egg ribbons
-      text: 'Keep the sauce at a gentle simmer. Pour {{ingredients}} across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.'
+      text: >-
+        Keep the sauce at a gentle simmer. Pour {{ingredients}} across the surface and let the
+        ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce
+        reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is
+        not a doneness test.
     - id: serve
       title: Serve
-      text: 'Garnish with {{ingredients}} and serve immediately over separately prepared steamed jasmine rice if wanted.'
+      text: >-
+        Garnish with {{ingredients}} and serve immediately over separately prepared steamed jasmine
+        rice if wanted.
 learning:
   focus: Control gradual slurry thickening without shortening pork and egg cooking
   outcome: Cooked shrimp in a dark spoon-coating gravy with set egg ribbons.
@@ -297,9 +318,15 @@ learning:
     - starch
     - gentle-proteins
   before:
-    - 'Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.'
-    - Keep stock mixture and measured slurry in separate bowls; re-stir slurry immediately before use.
-    - Scale all sauce amounts together; use adequate pan working space or complete separate loads. Beat a fractional egg before measuring its portion.
+    - >-
+      Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag
+      in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.
+    - >-
+      Keep stock mixture and measured slurry in separate bowls; re-stir slurry immediately before
+      use.
+    - >-
+      Scale all sauce amounts together; use adequate pan working space or complete separate loads.
+      Beat a fractional egg before measuring its portion.
   checkpoints:
     - step: 2
       cue: Pork is broken into small crumbles and moves directly to further cooking.
@@ -313,22 +340,37 @@ learning:
   troubleshooting:
     - problem: Sauce gets too thick
       cause: The full slurry was added faster than its effect could be judged.
-      fix: Add the listed optional water or stock a little at a time; next time stop adding slurry at spoon-coating consistency.
+      fix: >-
+        Add the listed optional water or stock a little at a time; next time stop adding slurry at
+        spoon-coating consistency.
   substitutions:
     - ingredient: Fermented black beans
-      alternative: 'Use whole douchi as listed, rather than a measured-equal jarred black-bean sauce'
-      effect: 'Jarred sauce changes salt, liquid and aromatics; no equal-volume replacement is established.'
-  timing: 'About 20 min active preparation; About 10–15 min after blanching water is hot; About 30–40 min; water heating may add time. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional loads or side dishes add time.'
-  storage: 'Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F / 74°C throughout. USDA additionally recommends bringing leftover sauces and gravies to a rolling boil; stir so heat reaches the whole gravy and stop after that brief boil rather than reducing it for a long time. Prolonged boiling can concentrate the gravy and firm the shrimp and egg ribbons. These are handling recommendations, not a promise of unchanged texture.'
+      alternative: 2 tbsp jarred black bean garlic sauce
+      effect: >-
+        Easier to find and already mashed, with added garlic and salt. Cut the oyster sauce to 2 tsp
+        to offset its salt, then adjust to taste after the sauce thickens.
+  timing: >-
+    About 20 min active preparation; About 10–15 min after blanching water is hot; About 30–40 min;
+    water heating may add time. Planning ranges assume peeled, thawed shrimp and prepared
+    ingredients; additional loads or side dishes add time.
+  storage: >-
+    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
+    above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F
+    / 74°C throughout. USDA additionally recommends bringing leftover sauces and gravies to a
+    rolling boil; stir so heat reaches the whole gravy and stop after that brief boil rather than
+    reducing it for a long time. Prolonged boiling can concentrate the gravy and firm the shrimp and
+    egg ribbons. These are handling recommendations, not a promise of unchanged texture.
   sources:
     - title: Adapted from thewoksoflife.com
       url: 'https://thewoksoflife.com/shrimp-black-bean-sauce/'
     - title: FDA — Selecting and serving seafood safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely'
+      url: >-
+        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
     - title: FoodSafety.gov — Safe minimum cooking temperatures
       url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
     - title: USDA — Handling leftovers safely
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+      url: >-
+        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   review:
     status: editorial-review
     date: '2026-10-05'

@@ -35,9 +35,9 @@ pairsWith:
   - lo-mein
 ingredients:
   - '1 cup Neutral Oil (vegetable, canola, or peanut)'
-  - 1/2 cup Red Pepper Flakes (gochugaru or crushed red pepper)
+  - '1/2 cup Sichuan Chili Flakes (erjingtiao), coarsely ground'
   - 2 tbsp Sesame Seeds
-  - '1 tbsp Sichuan Peppercorns (optional, for numbing heat)'
+  - 1 tbsp Sichuan Peppercorns
   - '4 cloves Garlic, minced'
   - '1 inch Fresh Ginger, minced'
   - 2 Star Anise
@@ -71,16 +71,21 @@ learning:
     cooling and packaging time. Do not extend the hot-oil stage automatically
     for a scaled batch.
   substitutions:
-    - ingredient: Pepper flakes
+    - ingredient: Sichuan chili flakes (erjingtiao)
       alternative: >-
-        Choose either gochugaru or crushed red pepper for the full listed flake
-        volume. Keep all the other ingredients and use the test pour.
-      effect: These are the existing alternatives; their heat and roast levels differ.
+        The same volume of gochugaru from the supermarket, or crushed red
+        pepper. Keep all the other ingredients and use the test pour.
+      effect: >-
+        Gochugaru gives good color with a fruitier, milder heat. Crushed red
+        pepper is hotter and has less color and fragrance, so it suits adults
+        more than kids.
     - ingredient: Sichuan peppercorns
       alternative: >-
-        Omit the full listed optional Sichuan peppercorn amount if desired;
-        strain out star anise and cinnamon in either route.
-      effect: 'The numbing ingredient is optional, not a substitute for the red flakes.'
+        Omit them for a milder oil if your family prefers; still strain out the
+        star anise and cinnamon.
+      effect: >-
+        Loses the floral, numbing tingle that defines Sichuan chili oil. It is
+        not a substitute for the red flakes.
   storage: >-
     Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze
     small portions promptly. Thaw in the refrigerator and stir before serving.
@@ -104,13 +109,13 @@ learning:
 
 ## Chef's Note
 
-The pepper flakes stay in the oil; star anise, cinnamon and optional Sichuan peppercorns infuse it and are strained out. Flake size and roast level affect scorching, so test a little hot oil before the main pour. The fifteen-minute estimate covers preparation and heating; cooling and packaging take additional time. Serve the chili oil separately so diners can choose how much heat to add.
+Sichuan chili flakes bring fragrant, moderate heat and deep red color, and Sichuan peppercorns add the numbing tingle that defines the style. The flakes stay in the oil. Star anise, cinnamon and Sichuan peppercorns infuse it and are strained out. Flake size and roast level affect scorching, so test a little hot oil before the main pour. The fifteen-minute estimate covers preparation and heating; cooling and packaging take additional time. Serve the chili oil separately so diners can choose how much heat to add.
 
 ## Directions
 
-1. **The Prep:** Place red pepper flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready.
+1. **The Prep:** Place the chili flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready.
 
-2. **The Infuse:** In a small saucepan, combine oil, star anise, cinnamon stick, and Sichuan peppercorns if using. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat.
+2. **The Infuse:** In a small saucepan, combine oil, star anise, cinnamon stick and Sichuan peppercorns. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat.
 
 3. **The Pour:** Remove the whole spices with the dry metal strainer. Test a small spoonful of oil on a few flakes in a separate dry heatproof dish: they should sizzle without blackening or smelling burnt. If they scorch, let the oil cool a little and test again. Carefully add the oil to the main mixture in small increments, stirring with a dry metal spoon and allowing bubbling to subside between additions. Keep your face and hands clear of the steam and splashes. Heating does not make this fresh-garlic-and-ginger oil shelf-stable.
 

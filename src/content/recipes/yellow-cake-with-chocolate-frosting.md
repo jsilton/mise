@@ -46,11 +46,11 @@ ingredients:
   - 1 tsp salt
   - '1 cup whole buttermilk, at room temperature'
   - '--- Chocolate frosting ---'
-  - '1/2 cup unsalted butter, melted'
-  - 2/3 cup unsweetened cocoa powder
-  - 3 cups confectioners’ sugar
-  - 1/3 cup whole milk
-  - 1 tsp vanilla extract
+  - '3/4 cup unsalted butter, melted'
+  - 1 cup unsweetened cocoa powder
+  - 4 1/2 cups confectioners’ sugar
+  - 1/2 cup whole milk
+  - 1 1/2 tsp vanilla extract
   - 'flaky sea salt, for finishing, optional'
 origin: United States
 pairsWith:
@@ -179,7 +179,7 @@ formula:
           key: unsalted-butter
           name: unsalted butter
           quantity:
-            amount: 1/2
+            amount: 3/4
             unit: cup
           preparation: melted
           uses:
@@ -189,7 +189,7 @@ formula:
           key: unsweetened-cocoa-powder
           name: unsweetened cocoa powder
           quantity:
-            amount: 2/3
+            amount: 1
             unit: cup
           uses:
             - step: frosting
@@ -198,7 +198,7 @@ formula:
           key: confectioners-sugar
           name: confectioners’ sugar
           quantity:
-            amount: 3
+            amount: 4 1/2
             unit: cup
           uses:
             - step: frosting
@@ -207,7 +207,7 @@ formula:
           key: whole-milk
           name: whole milk
           quantity:
-            amount: 1/3
+            amount: 1/2
             unit: cup
           uses:
             - step: frosting
@@ -216,7 +216,7 @@ formula:
           key: vanilla-extract
           name: vanilla extract
           quantity:
-            amount: 1
+            amount: 1 1/2
             unit: tsp
           uses:
             - step: frosting
@@ -291,7 +291,7 @@ learning:
       the layers release after their short pan cooling.
     - >-
       Start with softened cake butter and room-temperature eggs and buttermilk. Keep the cake’s
-      tablespoon of vanilla separate from the frosting’s teaspoon.
+      tablespoon of vanilla separate from the frosting’s 1 1/2 teaspoons.
     - >-
       For multiples, make separate original-size cakes with the stated number and size of pans so
       layer depth stays the same. A smaller batch needs appropriately smaller pans and earlier

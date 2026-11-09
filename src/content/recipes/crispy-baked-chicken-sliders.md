@@ -17,7 +17,7 @@ cookingMethods:
 flavorProfile:
   - savory
   - crispy
-prepTime: 25 min
+prepTime: 30 min
 cookTime: 18–20 min
 totalTime: '1 hr 50 min–4 hr 50 min, including brining'
 servings: 12 pieces
@@ -43,6 +43,7 @@ ingredients:
   - 1/2 tsp black pepper
   - 2 eggs
   - 2 cups panko breadcrumbs
+  - 2 tbsp neutral oil
   - 'cooking spray, as needed to coat the breaded cutlets'
   - '--- Assembly ---'
   - 12 sweet slider rolls or slider buns
@@ -175,6 +176,15 @@ formula:
           uses:
             - step: coat
               share: 1
+        - id: oil
+          key: oil
+          name: neutral oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: coat
+              share: 1
         - id: coating-spray
           key: cooking-spray
           name: cooking spray
@@ -226,17 +236,20 @@ formula:
     - id: coat
       title: Dredge and bread
       text: >-
-        Set out {{ingredients}}. Mix the flour with paprika, garlic powder, onion powder, cayenne,
-        salt and pepper in one dish; beat eggs in a second; put panko in a third. Remove chicken
-        from the brine and pat dry with paper towels. Discard the used brine. Dredge in seasoned
-        flour, shake off excess, dip in egg and let excess drip off, then press into panko. Discard
-        leftover coating ingredients after raw-chicken contact and wash hands and utensils.
+        Set out {{ingredients}}. Toast the panko with the oil in a large skillet over medium heat,
+        stirring often, for 4–6 minutes until evenly golden, then spread it in a third dish to cool.
+        Mix the flour with paprika, garlic powder, onion powder, cayenne, salt and pepper in one
+        dish; beat eggs in a second. Remove chicken from the brine and pat dry with paper towels.
+        Discard the used brine. Dredge in seasoned flour, shake off excess, dip in egg and let
+        excess drip off, then press into panko. Discard leftover coating ingredients after
+        raw-chicken contact and wash hands and utensils.
     - id: bake
       title: Bake and measure
       text: >-
         Arrange cutlets on the rack in one layer with gaps. Apply {{ingredients}} evenly to the
-        tops. Bake about 18–20 minutes, until the coating is golden and the thickest part of each
-        cutlet reaches 165°F / 74°C, probing from the side. Continue baking as needed. If using two
+        tops. Bake about 18–20 minutes, until the coating is deep golden and the thickest part of
+        each cutlet reaches 165°F / 74°C, probing from the side. The toasted crumbs start out
+        golden, so go by the thermometer rather than color. Continue baking as needed. If using two
         pans, rotate their positions as needed for even browning; allow more time if the oven is
         crowded.
     - id: rest
@@ -295,11 +308,11 @@ learning:
         Less sweetness; fit the cooked chicken to the bun rather than using a fixed square
         dimension.
   timing: >-
-    For the original twelve-slider batch, about 25 minutes hands-on prep, 1–4 hours refrigerated
-    brining, 18–20 minutes baking and a 5-minute rest. The 1 hr 50 min–4 hr 50 min elapsed estimate
-    includes brining and assembly with oven preheating during setup; multiple batches or crowded
-    two-pan cooking can add time. Twelve sliders describes the assembly count, not twelve dinner
-    portions.
+    For the original twelve-slider batch, about 30 minutes hands-on prep, including toasting the
+    panko, 1–4 hours refrigerated brining, 18–20 minutes baking and a 5-minute rest. The 1 hr 50
+    min–4 hr 50 min elapsed estimate includes brining and assembly with oven preheating during
+    setup; multiple batches or crowded two-pan cooking can add time. Twelve sliders describes the
+    assembly count, not twelve dinner portions.
   storage: >-
     Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
     below. Use cooked chicken within 3–4 days and reheat leftovers to 165°F / 74°C. Store chicken
@@ -331,7 +344,7 @@ Pickle juice seasons these cutlets with salt and tang before they are breaded. P
 
 1. **Brine in the refrigerator:** Use boneless skinless chicken breasts and dill pickle juice: slice the breasts horizontally into cutlets about 1/2 inch thick. Put chicken and pickle juice in a food-safe bag or covered container and refrigerate for 1–4 hours. Turn the bag or pieces during the soak so the measured juice reaches all surfaces; do not leave it on the counter.
 2. **Prepare the baking station:** Preheat the oven to 425°F. Set an oven-safe wire rack over a rimmed sheet pan and coat it with cooking spray. Have a second rack and pan ready if the cutlets will not fit in one layer with gaps.
-3. **Dredge and bread:** Set out all-purpose flour, paprika, garlic powder, onion powder, cayenne pepper, kosher salt, black pepper, eggs, and panko breadcrumbs. Mix the flour with paprika, garlic powder, onion powder, cayenne, salt and pepper in one dish; beat eggs in a second; put panko in a third. Remove chicken from the brine and pat dry with paper towels. Discard the used brine. Dredge in seasoned flour, shake off excess, dip in egg and let excess drip off, then press into panko. Discard leftover coating ingredients after raw-chicken contact and wash hands and utensils.
-4. **Bake and measure:** Arrange cutlets on the rack in one layer with gaps. Apply cooking spray evenly to the tops. Bake about 18–20 minutes, until the coating is golden and the thickest part of each cutlet reaches 165°F / 74°C, probing from the side. Continue baking as needed. If using two pans, rotate their positions as needed for even browning; allow more time if the oven is crowded.
+3. **Dredge and bread:** Set out all-purpose flour, paprika, garlic powder, onion powder, cayenne pepper, kosher salt, black pepper, eggs, panko breadcrumbs, and neutral oil. Toast the panko with the oil in a large skillet over medium heat, stirring often, for 4–6 minutes until evenly golden, then spread it in a third dish to cool. Mix the flour with paprika, garlic powder, onion powder, cayenne, salt and pepper in one dish; beat eggs in a second. Remove chicken from the brine and pat dry with paper towels. Discard the used brine. Dredge in seasoned flour, shake off excess, dip in egg and let excess drip off, then press into panko. Discard leftover coating ingredients after raw-chicken contact and wash hands and utensils.
+4. **Bake and measure:** Arrange cutlets on the rack in one layer with gaps. Apply cooking spray evenly to the tops. Bake about 18–20 minutes, until the coating is deep golden and the thickest part of each cutlet reaches 165°F / 74°C, probing from the side. The toasted crumbs start out golden, so go by the thermometer rather than color. Continue baking as needed. If using two pans, rotate their positions as needed for even browning; allow more time if the oven is crowded.
 5. **Rest and portion:** Rest cooked chicken on the rack for 5 minutes. On a clean board, divide the cooked chicken into one bun-sized portion for each roll in the ingredient list, trimming pieces to fit.
 6. **Assemble:** Use sweet slider rolls or slider buns, dill pickle chips, and mayonnaise: split the rolls, spread mayonnaise on the cut sides and add chicken and pickle chips. Serve immediately while the coating is crisp.

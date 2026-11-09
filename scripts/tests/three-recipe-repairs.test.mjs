@@ -12,8 +12,8 @@ test('shrimp sauce lists its aromatics and slurry and finishes pork and egg safe
     ['base', 'oil', { amount: 2, unit: 'tbsp' }, undefined, [{ step: 'sear', share: 1 }]],
     ['base', 'garlic', { amount: 1, unit: 'count' }, 'minced', [{ step: 'sear', share: 1 }]],
     ['base', 'ginger', { amount: '1/4', unit: 'tsp' }, 'minced', [{ step: 'sear', share: 1 }]],
-    ['slurry', 'water', { amount: 2, unit: 'tbsp' }, undefined, [{ step: 'bind', share: 1 }]],
-    ['slurry', 'starch', { amount: '5/2', unit: 'tbsp' }, undefined, [{ step: 'bind', share: 1 }]],
+    ['slurry', 'water', { amount: 3, unit: 'tbsp' }, undefined, [{ step: 'bind', share: 1 }]],
+    ['slurry', 'starch', { amount: 2, unit: 'tbsp' }, undefined, [{ step: 'bind', share: 1 }]],
   ]) {
     const ingredient = data.formula.components
       .find((component) => component.id === componentId)
@@ -26,8 +26,8 @@ test('shrimp sauce lists its aromatics and slurry and finishes pork and egg safe
     '2 tbsp vegetable oil',
     '1 garlic clove, minced',
     '1/4 tsp fresh ginger, minced',
-    '2 tbsp cold water',
-    '2 1/2 tbsp cornstarch',
+    '3 tbsp cold water',
+    '2 tbsp cornstarch',
   ])
     assert.ok(data.ingredients.includes(ingredient), ingredient);
   assert.match(content, /immediate further cooking/);
@@ -98,7 +98,7 @@ test('tofu separates coating from slurry and reuses the frying oil', () => {
   const { data, content } = read('general-tsos-tofu');
   for (const ingredient of [
     '3 tbsp cornstarch',
-    '1 1/2 tbsp cornstarch',
+    '1 tbsp cornstarch',
     '1 tbsp cold water',
     '1/2 tsp toasted sesame oil',
     '1/2 tbsp Shaoxing wine, optional',
@@ -119,7 +119,7 @@ test('tofu separates coating from slurry and reuses the frying oil', () => {
       {
         id: 'starch',
         name: 'cornstarch',
-        quantity: { amount: '3/2', unit: 'tbsp' },
+        quantity: { amount: 1, unit: 'tbsp' },
         uses: [{ step: 'slurry', share: 1 }],
       },
       {

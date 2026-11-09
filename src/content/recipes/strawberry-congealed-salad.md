@@ -317,3 +317,7 @@ This Southern congealed salad keeps two strawberry-fruit layers around a full so
 ## Cooking Notes
 
 Use canned pineapple and drained fruit as listed. Keep all of the sour cream in the middle layer. For the banana-forward version, use large bananas instead of the displayed medium bananas and half the displayed pecan amount; keep everything else the same. Divide the finished fruit-gelatin mixture equally so both layers receive their share of fruit and nuts.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Keep the thawed strawberries with all their juice and drain only the pineapple. The juice carries most of the fruit flavor and gives the gelatin a softer set.

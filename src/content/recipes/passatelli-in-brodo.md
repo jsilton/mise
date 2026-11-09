@@ -58,6 +58,12 @@ learning:
       fix: >-
         Use the large-hole plate and knead the dough again before pressing; do not force a fragile
         tool. Next time, add the reserved crumbs more gradually.
+  substitutions:
+    - ingredient: Beef marrow
+      alternative: The same 20 g of softened unsalted butter
+      effect: >-
+        A common modern Romagna route. The dough is just as tender, with a cleaner dairy richness in
+        place of the marrow’s deep beefy flavor. Mash it in softened, not melted.
   storage: >-
     Refrigerate in shallow containers within 2 hours, or within 1 hour above 90°F, and keep at 40°F
     or colder. Use within 3–4 days of the first cooking; reheating does not restart that clock.

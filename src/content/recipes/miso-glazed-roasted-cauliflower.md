@@ -34,8 +34,8 @@ equipment:
   - whisk
   - spatula
 prepTime: 10 min
-cookTime: '25–30 min, or until centers are tender'
-totalTime: '35–40 min, plus any remaining preheating'
+cookTime: '23–30 min, or until centers are tender'
+totalTime: '33–40 min, plus any remaining preheating'
 servings: 4 portions
 pairsWith:
   - japanese-beef-rice-bowl-gyudon
@@ -54,6 +54,7 @@ ingredients:
   - '1/2 tbsp additional soy sauce, optional'
   - '--- Cauliflower ---'
   - '1 1/2 lb fresh cauliflower florets, similar-sized; washed and dried, very large florets split'
+  - 2 tbsp neutral oil
   - '--- Garnish ---'
   - 'sesame seeds, for garnishing'
   - 'scallions, for garnishing, washed and thinly sliced'
@@ -157,6 +158,15 @@ formula:
           uses:
             - step: toss
               share: 1
+        - id: neutral-oil
+          key: neutral-oil
+          name: neutral oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: toss
+              share: 1
     - id: finish
       name: Garnish
       ingredients:
@@ -197,18 +207,22 @@ formula:
     - id: toss
       title: Coat and spread
       text: >-
-        Toss {{ingredients}} with all the chosen glaze in the large bowl. Spread in a single layer,
-        with flat cut faces against the sheet where possible. Keep room between pieces; if the
-        scaled batch piles up, use additional sheets or batches rather than a deeper layer.
+        Toss {{ingredients}} in the large bowl until evenly coated. Keep the glaze aside for now.
+        Spread in a single layer, with flat cut faces against the sheet where possible. Keep room
+        between pieces; if the scaled batch piles up, use additional sheets or batches rather than a
+        deeper layer.
     - id: roast
       title: Watch the coating and centers
       text: >-
-        Roast for 25–30 minutes, gently turning around halfway through and checking the coating
-        then. Test a thick floret with a knife: its center should be tender and the coating browned
-        without blackened bitterness. If the glaze darkens before the centers soften, move pieces
-        away from hot spots, turn the dark faces upward and finish under loose foil while checking
-        the centers; covered pieces will have softer edges. Remove ready pieces promptly rather than
-        requiring every edge to char. More sheet area or larger florets may change the time.
+        Roast the oiled florets for 15–20 minutes, turning once, until the edges are browned and a
+        knife meets only slight resistance in a thick center. Return them to the bowl, toss with all
+        the chosen glaze and spread them out again. Roast 8–10 minutes more, until the glaze is
+        sticky and browned in spots. Test a thick floret with a knife: its center should be tender
+        and the coating browned without blackened bitterness. If the glaze darkens before the
+        centers soften, move pieces away from hot spots, turn the dark faces upward and finish under
+        loose foil while checking the centers; covered pieces will have softer edges. Remove ready
+        pieces promptly rather than requiring every edge to char. More sheet area or larger florets
+        may change the time.
     - id: finish
       title: Garnish and serve
       text: >-
@@ -229,7 +243,9 @@ learning:
     - >-
       Choose mirin or the honey–additional-soy route before measuring. The optional honey list
       replaces mirin and retains the base soy sauce.
-    - Prepare the glaze during oven setup and coat the florets just before roasting.
+    - >-
+      Prepare the glaze during oven setup. The florets roast in plain oil first and get the glaze
+      only for the last 8–10 minutes, so the miso and sugars brown without burning.
   checkpoints:
     - step: 2
       cue: Miso is dispersed and only one sweetening route is in the bowl.
@@ -272,11 +288,11 @@ learning:
         Changes flavor and scorching behavior; the current ratio is authored for white miso and is
         not a validated equivalent for every miso.
   timing: >-
-    About 10 minutes to wash, divide and coat plus 25–30 minutes roasting is a 35–40-minute
-    prep-and-roast subtotal. Start heating during setup, but load only once the oven reaches 425°F;
-    any heating still needed after prep extends elapsed time. The midpoint check and final garnish
-    are active work. No required marinade, rest or chill. Scaled batches need extra sheet area and
-    may take longer; keep the center/coating checks.
+    About 10 minutes to wash, divide and coat plus 23–30 minutes roasting (15–20 minutes plain, then
+    8–10 minutes glazed) is a 33–40-minute prep-and-roast subtotal. Start heating during setup, but
+    load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time.
+    The midpoint check and final garnish are active work. No required marinade, rest or chill.
+    Scaled batches need extra sheet area and may take longer; keep the center/coating checks.
   storage: >-
     Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C,
     at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The miso coating and
@@ -297,14 +313,14 @@ learning:
 
 ## Chef's Note
 
-White miso, mirin, soy sauce, sesame oil and rice vinegar make a concentrated glaze for the cauliflower. This sauce coats the florets before roasting, so check it when turning: miso and sweeteners can darken before a thick center is tender. Split unusually large florets, keep the sheet uncrowded and stop at browned coating and tender centers rather than forcing a black char.
+White miso, mirin, soy sauce, sesame oil and rice vinegar make a concentrated glaze for the cauliflower. Roast the florets in oil first and add the glaze only for the last 8–10 minutes, because miso and sweeteners darken long before a thick center is tender. Split unusually large florets, keep the sheet uncrowded and stop at browned coating and tender centers rather than forcing a black char.
 
 ## Directions
 
 1. **Heat and prepare:** Heat the oven to 425°F. Set out a large rimmed sheet or enough sheets for one layer of the measured florets. If lining, use parchment rated for this heat or suitable foil. Wash the cauliflower under running water, divide into similar-sized florets, split very large ones and dry them.
 2. **Choose one glaze route:** Set out white miso paste, mirin, soy sauce, sesame oil, rice vinegar, fresh ginger, honey (if using), and additional soy sauce (if using) and choose one sweetening route before combining. For the mirin version, use the mirin and omit the optional honey and additional soy sauce. For the honey variation, omit mirin and use the measured honey plus additional soy sauce, while retaining the separately listed soy sauce. Do not combine both routes. Whisk the chosen ingredients until the miso is evenly dispersed; taste a small sample to understand the salty, sweet and acidic balance.
-3. **Coat and spread:** Toss fresh cauliflower florets with all the chosen glaze in the large bowl. Spread in a single layer, with flat cut faces against the sheet where possible. Keep room between pieces; if the scaled batch piles up, use additional sheets or batches rather than a deeper layer.
-4. **Watch the coating and centers:** Roast for 25–30 minutes, gently turning around halfway through and checking the coating then. Test a thick floret with a knife: its center should be tender and the coating browned without blackened bitterness. If the glaze darkens before the centers soften, move pieces away from hot spots, turn the dark faces upward and finish under loose foil while checking the centers; covered pieces will have softer edges. Remove ready pieces promptly rather than requiring every edge to char. More sheet area or larger florets may change the time.
+3. **Coat and spread:** Toss fresh cauliflower florets and neutral oil in the large bowl until evenly coated. Keep the glaze aside for now. Spread in a single layer, with flat cut faces against the sheet where possible. Keep room between pieces; if the scaled batch piles up, use additional sheets or batches rather than a deeper layer.
+4. **Watch the coating and centers:** Roast the oiled florets for 15–20 minutes, turning once, until the edges are browned and a knife meets only slight resistance in a thick center. Return them to the bowl, toss with all the chosen glaze and spread them out again. Roast 8–10 minutes more, until the glaze is sticky and browned in spots. Test a thick floret with a knife: its center should be tender and the coating browned without blackened bitterness. If the glaze darkens before the centers soften, move pieces away from hot spots, turn the dark faces upward and finish under loose foil while checking the centers; covered pieces will have softer edges. Remove ready pieces promptly rather than requiring every edge to char. More sheet area or larger florets may change the time.
 5. **Garnish and serve:** Scatter sesame seeds and scallions over the hot cauliflower and serve. The sesame seeds and scallions are both included finishes; wash the scallions before slicing and keep them away from raw-meat tools.
 
 ## Honey–Soy Variation

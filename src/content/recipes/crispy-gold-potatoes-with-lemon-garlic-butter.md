@@ -43,7 +43,7 @@ ingredients:
   - 1 1/2 tsp sweet paprika (not smoked)
   - 3 tbsp unsalted butter, cut into small pieces
 learning:
-  focus: Brown potato cut faces while watching the garlic, then finish with butter
+  focus: Brown potato cut faces, then finish with a quick garlic butter
   outcome: Creamy centers beneath browned cut faces, with gentle smoke and a buttery finish
   techniques:
     - browning
@@ -62,8 +62,10 @@ learning:
       cue: Cut faces are golden brown and release with a thin spatula.
       why: Leaving the flat faces against the pan develops a crust before turning.
     - step: 4
-      cue: Butter melts on the hot potatoes and coats them lightly.
-      why: Residual heat melts the finishing butter without another roasting cycle.
+      cue: The garlic is fragrant and pale gold, and the butter coats the potatoes lightly.
+      why: >-
+        Minced garlic scorches over a long roast. A minute in butter at the end keeps it sweet,
+        and the hot potatoes need no more roasting.
   troubleshooting:
     - problem: Potatoes are tender but pale
       cause: Crowded pans, wet cut surfaces or insufficient contact time.
@@ -75,21 +77,29 @@ learning:
       fix: >-
         Give them another 3–5 minutes, then slide a thin metal spatula flat along the pan
         beneath the crust. Do not pull them up with tongs.
-    - problem: Garlic darkens before potatoes are tender
-      cause: Small garlic pieces cook faster than potato centers.
-      fix: Lower to 375°F convection and continue checking tenderness. Remove loose blackened garlic where possible; butter cannot reverse burned flavor.
+    - problem: Garlic butter browns too fast
+      cause: The small pan was too hot.
+      fix: >-
+        Take it off the heat as soon as the garlic smells sweet and turns pale gold. Start a fresh
+        batch if it turns dark brown, since burned garlic tastes bitter.
   substitutions:
     - ingredient: Petite gold potatoes
       alternative: The same weight of larger Yukon Gold potatoes
       effect: Cut into roughly 1–1 1/2-inch pieces and use the same tenderness and browning cues.
+    - ingredient: Fine smoked sea salt
+      alternative: 1 1/4 tsp fine sea salt plus 1/4 tsp smoked paprika
+      effect: >-
+        Toss both with the sweet paprika. The smoke comes from the paprika instead, so it
+        tastes a little more peppery and less like a wood fire.
     - ingredient: Butter
       alternative: The same volume of olive oil
       effect: >-
         Makes the dish dairy-free and vegan; the finish will taste fruitier and less rich.
   timing: >-
     Allow about 60 minutes including 15 minutes preparation and preheating and 35–45 minutes
-    roasting at 400°F convection. Check garlic at 20 minutes and tenderness from 30 minutes.
-    Larger pieces or a crowded oven may take longer. Finish with butter immediately after roasting.
+    roasting at 400°F convection. Check browning at 20 minutes and tenderness from 30 minutes.
+    Larger pieces or a crowded oven may take longer. Make the garlic butter in the last few
+    minutes and finish immediately after roasting.
   storage: >-
     Refrigerate promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C,
     at 40°F / 4°C or below. Reheat in a single layer at 400°F / 205°C until 165°F / 74°C
@@ -108,11 +118,11 @@ learning:
 
 ## Chef's Note
 
-Smoked sea salt provides the smoke while sweet paprika adds warmth. Gold potatoes roast with creamy centers and browned cut faces; a final toss with butter rounds out the seasoning. Dry them well, leave room around each piece and watch the garlic. Use fine smoked salt for the measured amount; coarse or flaky salt needs adjustment because its volume varies.
+Smoked sea salt provides the smoke while sweet paprika adds warmth. Gold potatoes roast with creamy centers and browned cut faces; a final toss with butter rounds out the seasoning. Dry them well and leave room around each piece. The garlic waits for the butter so it stays sweet. Use fine smoked salt for the measured amount; coarse or flaky salt needs adjustment because its volume varies.
 
 ## Directions
 
 1. **Heat and cut:** Heat the oven to **400°F convection**, with racks in the upper and lower thirds. Set out two bare metal rimmed half-sheet pans. Halve the dry potatoes lengthwise; quarter larger ones so pieces are roughly **1–1 1/2 inches** across.
-2. **Season and arrange:** Toss potatoes with the olive oil, garlic, smoked sea salt, black pepper and sweet paprika. Divide between pans with space around each piece, setting a cut face flat against the metal. Scrape the coating from the bowl onto the potatoes; avoid piles of loose garlic on the pans.
-3. **Roast:** Check after **20 minutes**, rotating pans front to back and swapping racks. Turn potatoes once their undersides are golden and release with a thin spatula; leave pale or stuck pieces a little longer. Start checking tenderness at **30 minutes**. They are ready when browned and a thin knife slides easily into the largest centers, usually **35–45 minutes total**. If garlic darkens quickly, lower to **375°F convection** and continue until tender.
-4. **Butter and serve:** Add butter in small pieces to the hot potatoes and toss gently on the pans until melted. **No extra roasting is needed.** Taste before adding more salt. Serve promptly; avoid covering tightly or piling into a deep bowl, which traps steam.
+2. **Season and arrange:** Toss potatoes with the olive oil, smoked sea salt, black pepper and sweet paprika. Keep the garlic for the butter. Divide between pans with space around each piece, setting a cut face flat against the metal. Scrape the coating from the bowl onto the potatoes.
+3. **Roast:** Check after **20 minutes**, rotating pans front to back and swapping racks. Turn potatoes once their undersides are golden and release with a thin spatula; leave pale or stuck pieces a little longer. Start checking tenderness at **30 minutes**. They are ready when browned and a thin knife slides easily into the largest centers, usually **35–45 minutes total**.
+4. **Garlic butter and serve:** In the last few minutes of roasting, melt the butter in a small saucepan over medium-low heat. Add the garlic and cook **1–2 minutes**, stirring, until fragrant and pale gold. Pour over the hot potatoes and toss gently on the pans. **No extra roasting is needed.** Taste before adding more salt. Serve promptly; avoid covering tightly or piling into a deep bowl, which traps steam.

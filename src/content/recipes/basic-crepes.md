@@ -6,7 +6,7 @@ vibe: technical
 difficulty: easy
 prepTime: 10 min
 cookTime: 3 min per crêpe
-totalTime: 35 min for one pan
+totalTime: 1 hr 5 min for one pan (includes 30 min batter rest)
 servings: 8 crêpes
 cookingMethods:
   - griddle
@@ -54,9 +54,10 @@ learning:
         do not rely on the crust color alone.
   timing: >-
     The original eight-crêpe plan uses about 10 minutes mixing and roughly 2–3
-    minutes per crêpe: about 30–40 minutes elapsed with one pan, including
-    heating and turns. More crêpes require more rounds, not a larger fixed
-    scoop. This batter can be cooked as soon as it is smooth and pourable.
+    minutes per crêpe, plus a 30-minute batter rest: about 1 hour to 1 hour
+    10 minutes elapsed with one pan, including heating and turns. More crêpes
+    require more rounds, not a larger fixed scoop. The rest relaxes the gluten
+    and lets bubbles settle, so the crêpes are more tender and tear less.
   storage: >-
     Refrigerate promptly at 40°F / 4°C or below, within 2 hours of cooking or 1
     hour above 90°F. Separate cooked crêpes with paper in a covered container.
@@ -85,7 +86,7 @@ Keep the full melted butter in the batter and use the separate pan-greasing supp
 
 ## Directions
 
-1. **Mix:** Whisk all the eggs, listed milk, water and salt together. Whisk in all the flour and melted butter until smooth and pourable. If too thick to spread, add the optional additional milk one tablespoon at a time; stop when it flows into a thin layer.
+1. **Mix:** Whisk all the eggs, listed milk, water and salt together. Whisk in all the flour and melted butter until smooth and pourable. Cover and rest the batter at least 30 minutes at room temperature, or refrigerate it up to overnight and whisk again before cooking. After resting, if too thick to spread, add the optional additional milk one tablespoon at a time. Stop when it flows into a thin layer.
 
 2. **Heat and pour:** Heat a frying pan or griddle over medium-high heat and lightly grease it with the separate oil or butter. Start with approximately ¼ cup batter per crêpe and tilt immediately to coat the surface. Use the same thin layer at every recipe scale; pan size may require a different scoop, and the listed yield is approximate.
 

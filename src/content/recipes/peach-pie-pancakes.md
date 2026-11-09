@@ -33,6 +33,7 @@ ingredients:
   - 3/4 cup Nonfat Milk
   - '1/2 cup Fresh Peaches, finely diced'
   - 1 1/2 tsp Baking Powder
+  - 1/4 tsp Baking Soda
   - 3/4 tsp Ground Cinnamon
   - 1/4 tsp Sea Salt
   - 2 tsp Pure Vanilla Extract
@@ -48,7 +49,7 @@ pairsWith:
 source: Adapted from amyshealthybaking.com
 sourceUrl: 'https://amyshealthybaking.com/blog/2016/06/05/peach-pie-pancakes/'
 learning:
-  focus: 'Alternating dry mixture and milk into a yogurt batter, then cooking small pancakes over low heat.'
+  focus: 'Alternating dry mixture and milk into a yogurt batter, then cooking small pancakes over medium-low heat.'
   outcome: Small pancakes with distributed peach pieces and cooked centers before the surfaces become too dark.
   techniques:
     - leavening
@@ -63,7 +64,7 @@ learning:
       why: Overworking the flour-containing batter can toughen the pancakes; small lumps may remain but are not a mandatory endpoint.
     - step: 5
       cue: 'Edges look set before flipping, and the second-side center is cooked.'
-      why: Low heat and small portions give the batter time to set; browning alone is incomplete evidence of center doneness.
+      why: Moderate heat and small portions give the batter time to set; browning alone is incomplete evidence of center doneness.
   troubleshooting:
     - problem: Pancakes brown while the center stays wet.
       cause: The pan is too hot or portions are larger than the two-tablespoon guide.
@@ -94,14 +95,14 @@ learning:
 
 ## Chef's Note
 
-These small, egg-free pancakes use a yogurt-and-milk batter with finely diced peaches. Add the flour mixture and milk alternately, folding only until incorporated. Low skillet heat gives the center time to cook while the surface colors; the two-tablespoon portions are a size guide, not a promise that every pan fits the full batch at once.
+These small, egg-free pancakes use a yogurt-and-milk batter with finely diced peaches. Add the flour mixture and milk alternately, folding only until incorporated. Medium-low skillet heat gives the center time to cook while the surface browns; the two-tablespoon portions are a size guide, not a promise that every pan fits the full batch at once.
 
 ## Directions
 
-1. **Mix dry ingredients:** Whisk the flour, baking powder, cinnamon and salt in one bowl.
+1. **Mix dry ingredients:** Whisk the flour, baking powder, baking soda, cinnamon and salt in one bowl. The baking soda reacts with the acidic yogurt for a lighter, better-browned pancake.
 2. **Mix the yogurt:** In a separate bowl, whisk the melted butter with the vanilla, then stir in the yogurt. If the butter has formed firm flecks, gently warm this egg-free yogurt mixture only enough to remelt them in a microwave-safe bowl, following the appliance instructions, before adding flour.
 3. **Combine:** Fold the dry mixture and milk alternately into the yogurt mixture, beginning and ending with the dry mixture in about four dry additions. Stir only until incorporated, without beating the batter smooth. Gently fold in all the finely diced peaches.
-4. **Heat the pan:** Heat a nonstick skillet or griddle over low heat and lightly coat with the listed spray. Cook only as many portions as fit with room for turning; additional loads extend the clock.
+4. **Heat the pan:** Heat a nonstick skillet or griddle over medium-low heat and lightly coat with the listed spray. Cook only as many portions as fit with room for turning; additional loads extend the clock.
 5. **Cook:** Use about 2 tbsp batter for each small pancake. Cook 2–3 minutes on the first side, until bubbles appear and the edges look set. Flip and cook 1–2 minutes more, checking that the center is set rather than wet batter. Adjust heat down if surfaces brown before centers set; do not taste uncooked batter.
 6. **Serve or cool:** Serve with the optional maple syrup and additional peach slices. If storing, cool pancakes promptly in a shallow layer before packing; do not stack and seal a large hot pile.
 

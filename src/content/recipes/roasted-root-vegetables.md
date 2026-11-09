@@ -32,7 +32,7 @@ ingredients:
   - 1/4 cup extra-virgin olive oil
   - '3 fresh rosemary or thyme sprigs, whole sprigs; woody stems removed after roasting'
   - '4 garlic cloves, smashed'
-  - 1 tsp kosher salt
+  - 2 1/2 tsp kosher salt
   - 1/2 tsp black pepper
   - '--- Late glaze ---'
   - 1 tbsp maple syrup or honey
@@ -99,7 +99,7 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 1
+            amount: 2 1/2
             unit: tsp
           uses:
             - step: toss

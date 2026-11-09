@@ -39,14 +39,17 @@ pairsWith:
 ingredients:
   - '--- Beef and broccoli ---'
   - '680 g trimmed boneless top sirloin steak, weighed after removing tough outer membranes'
+  - 1 tbsp regular soy sauce, for the beef
+  - 1 tsp cornstarch, for the beef
   - '450 g trimmed broccoli, florets about 1 1/2 inches wide and peeled stems sliced 1/4 inch thick'
   - '3 tbsp neutral cooking oil, divided'
   - '1/4 cup (60 ml) water, for steaming broccoli, divided'
   - '2 tbsp water, reserved for correcting dry broccoli or thick sauce'
   - '--- Sauce ---'
-  - 4 tbsp regular soy sauce
+  - 3 tbsp regular soy sauce
   - 2 tbsp oyster sauce
-  - 1 tbsp unseasoned rice vinegar
+  - 1 tbsp Shaoxing wine
+  - 2 tsp brown sugar
   - 1/2 cup (120 ml) unsalted beef stock or water
   - 2 tsp cornstarch
   - 1/4 tsp ground white pepper
@@ -71,8 +74,8 @@ learning:
   before:
     - >-
       Slice the steak across the visible grain into pieces about 1/4 inch thick
-      and 2 inches long. This version has no tenderizing marinade; a suitable
-      steak and short, controlled cooking give it a natural beef texture.
+      and 2 inches long. A 15-minute soy-and-cornstarch marinade seasons the
+      slices and helps them stay juicy through the quick sear.
     - >-
       Prepare everything before heating the pan. Plan two broccoli batches,
       three beef batches and two brief final combinations in a household pan.
@@ -115,6 +118,11 @@ learning:
         sauce flows. Extra water can loosen a glaze but cannot remove its salt;
         serve a smaller sauce portion if needed. Use unsalted stock next time.
   substitutions:
+    - ingredient: Shaoxing wine
+      alternative: The same amount of dry sherry
+      effect: >-
+        Similar nutty, savory depth, a little less fragrant. Dry sherry is also
+        the gluten-free choice, since Shaoxing wine is usually brewed with wheat.
     - ingredient: Top sirloin
       alternative: 680 g trimmed flank steak sliced across the grain to the same dimensions
       effect: >-
@@ -128,7 +136,8 @@ learning:
         packaged ingredients before treating the dish as gluten-free; ordinary
         soy and oyster sauces often contain wheat.
   timing: >-
-    About 55 minutes includes slicing and measuring, two 5–6-minute broccoli
+    About 55 minutes includes slicing and measuring, a 15-minute beef
+    marinade that overlaps the other preparation, two 5–6-minute broccoli
     batches, three approximately 2–4-minute beef batches, sauce preparation,
     two brief final combinations and at least 3 minutes between the beef
     reaching 145°F / 63°C and serving. Slower batches can take about an hour overall. Rice is separate. Optional freezer
@@ -156,11 +165,11 @@ learning:
 
 ## Chef's Note
 
-This Chinese-American combination pairs broccoli with sliced beef and a soy-oyster sauce. The ginger, garlic, rice vinegar and sesame oil give this version its own balance. Small batches matter more than creating smoke: brown the food without burning the oil or aromatics, and bring the cooked components together only after the sauce is ready. The sirloin is sliced and seared directly, so expect a different texture from beef treated with baking soda and starch.
+This Chinese-American combination pairs broccoli with sliced beef and a soy-oyster sauce. Shaoxing wine, a little brown sugar, ginger, garlic and sesame oil round out the salty sauces. Small batches matter more than creating smoke: brown the food without burning the oil or aromatics, and bring the cooked components together only after the sauce is ready. A short soy-and-cornstarch marinade seasons the sirloin, though it stays meatier than beef tenderized with baking soda.
 
 ## Directions
 
-1. **Prepare everything:** Pat the steak dry and cut across the grain into roughly 1/4-inch-thick, 2-inch-long slices. Divide into three batches of about 225 g. Cut the broccoli as listed and divide in half. Whisk soy sauce, oyster sauce, vinegar, stock or sauce water, cornstarch and white pepper together. Keep sesame oil separate. Mince garlic and ginger and separate scallion whites and greens.
+1. **Prepare everything:** Pat the steak dry and cut across the grain into roughly 1/4-inch-thick, 2-inch-long slices. Toss with the 1 tbsp beef soy sauce and 1 tsp beef cornstarch and let stand about 15 minutes while you prepare everything else and cook the broccoli. Divide into three batches of about 225 g just before searing. Cut the broccoli as listed and divide in half. Whisk the 3 tbsp sauce soy sauce, oyster sauce, Shaoxing wine, brown sugar, stock or sauce water, the 2 tsp sauce cornstarch and white pepper together. Keep sesame oil separate. Mince garlic and ginger and separate scallion whites and greens.
 2. **Brown and steam broccoli in two batches:** Heat the pan over medium-high heat. Add 1 1/2 tsp cooking oil and half the broccoli. Cook about two minutes, turning occasionally, until some edges brown. Lower the heat slightly, carefully add 2 tbsp of the steaming water and cover for 2–3 minutes. Check a thick stem; use a little reserved water and another short steam if still hard. Uncover and let remaining water evaporate, about 30–60 seconds. Transfer to a bowl. Repeat with the other half, another 1 1/2 tsp oil and the remaining 2 tbsp steaming water.
 3. **Sear three beef batches:** Let the empty pan dry and regain medium-high heat. Add 1 1/2 tsp oil; it should shimmer without heavy smoke. Spread one beef batch in one layer. Leave for about one minute until browned underneath, then turn and stir-fry another 1–3 minutes as needed. Check representative thick slices with a fine-tip thermometer inserted from the edge: at least 145°F / 63°C. Transfer to a clean bowl. Repeat twice with 1 1/2 tsp oil per batch. Turn the heat down if residue blackens; remove burned deposits before continuing. Allow the beef at least three minutes after reaching temperature before serving.
 4. **Make the sauce:** Reduce heat to medium. Add the remaining 1 1/2 tsp cooking oil, garlic, ginger and scallion whites. Stir about 30 seconds until fragrant, keeping the garlic pale. Re-stir the sauce and pour it in. Bring to a gentle bubble, stirring for about 45–90 seconds until glossy and lightly thickened. Stir in the separate tablespoon sesame oil. Use reserved water in small spoonfuls if the sauce is too thick. Pour half the sauce into a heatproof cup.

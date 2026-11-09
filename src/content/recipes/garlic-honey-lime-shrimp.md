@@ -38,8 +38,8 @@ ingredients:
   - 1 tbsp olive oil
   - '4 cloves garlic, minced'
   - 3 tbsp honey
-  - '1 1/2 tbsp fresh lime juice, divided'
-  - 1/4 tsp salt
+  - '2 tbsp fresh lime juice, divided'
+  - '1/2 tsp salt (1/4 tsp if the shrimp label lists added salt or sodium)'
   - 'Cayenne pepper, a pinch or to taste'
   - 'Fresh parsley or cilantro, chopped, for finishing'
 origin: Contemporary home cooking

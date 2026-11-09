@@ -39,11 +39,11 @@ ingredients:
   - '150 g canned baby corn, drained and halved lengthwise'
   - 30 g holy basil leaves; see substitution if unavailable
   - '--- Sauce ---'
-  - 2 tbsp oyster sauce
-  - 1 tbsp fish sauce
+  - 1/4 cup oyster sauce
+  - 2 tbsp fish sauce
   - 1 tbsp light soy sauce
-  - 1 tsp dark soy sauce
-  - 2 tsp brown sugar
+  - 2 tsp dark soy sauce
+  - 1 tbsp brown sugar
   - '2 tbsp water, for the sauce, plus small splashes if noodles need loosening'
 seasons:
   - year-round

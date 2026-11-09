@@ -30,20 +30,19 @@ pairsWith:
 ingredients:
   - '--- Soup and scrap broth ---'
   - >-
-    4 lb whole butternut squash, washed before peeling; reserve peels, seeds and
-    trimmings for broth; cube all usable flesh
+    4 lb whole butternut squash, washed before peeling; reserve peels, seeds and trimmings for
+    broth; cube all usable flesh
   - 1/4 cup extra-virgin olive oil
   - 7 cups water
   - 1/2 tsp whole allspice
   - 1/2 tsp whole black peppercorns
   - '6 fresh thyme sprigs, washed'
   - 3 whole cloves
-  - >-
-    1 cinnamon stick, 3-inch piece per original stick; size stays fixed when
-    count scales
+  - '1 cinnamon stick, 3-inch piece per original stick; size stays fixed when count scales'
   - 1 star anise pod
   - '1 yellow onion, peeled and chopped'
-  - 1 1/2 tsp kosher salt
+  - 2 1/2 tsp kosher salt
+  - 'additional kosher salt, to taste after blending'
   - 1 tbsp cider vinegar
   - 1/8 tsp crushed red pepper
   - '--- Garnish ---'
@@ -74,8 +73,8 @@ formula:
             - step: squash
               share: 1
           preparation: >-
-            washed before peeling; reserve peels, seeds and trimmings for broth;
-            cube all usable flesh
+            washed before peeling; reserve peels, seeds and trimmings for broth; cube all usable
+            flesh
         - id: oil
           key: oil
           name: extra-virgin olive oil
@@ -172,10 +171,17 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 1 1/2
+            amount: 2 1/2
             unit: tsp
           uses:
             - step: simmer
+              share: 1
+        - id: finish-salt
+          key: salt
+          name: additional kosher salt
+          allowance: to taste after blending
+          uses:
+            - step: finish
               share: 1
         - id: vinegar
           key: vinegar
@@ -221,78 +227,72 @@ formula:
     - id: scraps
       title: Prepare and brown scraps
       text: >-
-        Wash {{name:soup.squash}} under running water before peeling, then peel
-        and seed it, reserving the peels, trimmings and seeds and cubing the
-        flesh. Heat {{ingredients}} in a large Dutch oven over medium-high heat.
-        Add all the reserved scraps and sauté about 8 minutes until lightly
-        browned; reduce heat if they scorch.
+        Wash {{name:soup.squash}} under running water before peeling, then peel and seed it,
+        reserving the peels, trimmings and seeds and cubing the flesh. Heat {{ingredients}} in a
+        large Dutch oven over medium-high heat. Add all the reserved scraps and sauté about 8
+        minutes until lightly browned; reduce heat if they scorch.
     - id: stock
       title: Make scrap broth
       text: >-
-        Add {{ingredients}} to the scraps. Bring to a boil, cover, reduce heat
-        and simmer about 45 minutes. Strain into a heat-safe bowl large enough
-        for the liquid and discard solids. The measured water is the starting
-        volume; strain and use all the resulting broth rather than claiming
-        seven cups finished yield.
+        Add {{ingredients}} to the scraps. Bring to a boil, cover, reduce heat and simmer about 45
+        minutes. Strain into a heat-safe bowl large enough for the liquid and discard solids. The
+        measured water is the starting volume; strain and use all the resulting broth rather than
+        claiming seven cups finished yield.
     - id: onion
       title: Soften onion
       text: >-
-        Let the emptied pan become safe to handle and wipe it clean. Heat
-        {{ingredients}} over medium heat, cover and cook about 5 minutes,
-        stirring occasionally.
+        Let the emptied pan become safe to handle and wipe it clean. Heat {{ingredients}} over
+        medium heat, cover and cook about 5 minutes, stirring occasionally.
     - id: squash
       title: Soften squash
       text: >-
-        Add all the cubed flesh from {{ingredients}}. Cover and cook about 10
-        minutes, stirring occasionally. The flesh and its earlier reserved
-        scraps belong to the same measured whole squash; do not add a second
-        squash dose.
+        Add all the cubed flesh from {{ingredients}}. Cover and cook about 10 minutes, stirring
+        occasionally. The flesh and its earlier reserved scraps belong to the same measured whole
+        squash; do not add a second squash dose.
     - id: simmer
       title: Simmer flesh
       text: >-
-        Add all the reserved scrap broth and {{ingredients}}. Bring to a boil,
-        cover and simmer about 40 minutes, until squash is very tender and
-        collapses under a spoon. Use a vessel with stirring headroom; larger
-        batches may need separate pots and longer heating.
+        Add all the reserved scrap broth and {{ingredients}}. Bring to a boil, cover and simmer
+        about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with
+        stirring headroom; larger batches may need separate pots and longer heating.
     - id: blend
       title: Purée
       text: >-
-        Take the pot off the heat. Use an immersion blender approved for this
-        load, keeping its head submerged and switching it off before lifting it.
-        For a countertop blender, use only a model approved for hot liquids and
-        follow its temperature, fill, lid and venting instructions; work in
-        batches. If your model requires cold ingredients, cool promptly in
-        shallow containers before blending, then reheat the soup. Never seal hot
-        soup in a personal blending cup. Blend smooth, working in as many
-        permitted loads as needed; return all the purée to a clean pot.
+        Take the pot off the heat. Use an immersion blender approved for this load, keeping its head
+        submerged and switching it off before lifting it. For a countertop blender, use only a model
+        approved for hot liquids and follow its temperature, fill, lid and venting instructions;
+        work in batches. If your model requires cold ingredients, cool promptly in shallow
+        containers before blending, then reheat the soup. Never seal hot soup in a personal blending
+        cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a
+        clean pot.
     - id: finish
       title: Finish
-      text: 'Stir in all {{ingredients}}. Stir to distribute them through the purée.'
+      text: >-
+        Stir in {{ingredients}}. Stir to distribute them through the purée, then taste. This much
+        squash and broth needs firm seasoning: with Diamond Crystal kosher salt, expect to add about
+        1 1/2 tsp more, for about 4 tsp total. Morton kosher salt is usually right at the measured
+        amount. Add the last of it a little at a time.
     - id: serve
       title: Garnish
-      text: >-
-        Divide the soup among the listed portions and distribute all
-        {{ingredients}} over them.
+      text: 'Divide the soup among the listed portions and distribute all {{ingredients}} over them.'
 equipment:
   - large-pot
   - blender
   - fine-mesh-strainer
 learning:
   focus: Account for scrap broth and both oil stages
-  outcome: >-
-    Tender squash puréed with strained spice broth and finished with pomegranate
-    and cilantro.
+  outcome: Tender squash puréed with strained spice broth and finished with pomegranate and cilantro.
   techniques:
     - temperature
   before:
     - >-
-      The whole squash weight includes peels, seeds and trimmings. Save them for
-      the stock before cubing the flesh; stock extraction discards those solids.
+      The whole squash weight includes peels, seeds and trimmings. Save them for the stock before
+      cubing the flesh; stock extraction discards those solids.
     - >-
-      Use kosher salt as listed; brand/crystal size affects a volume measure. No
-      gram conversion or replacement with table salt is assumed. More stock or
-      squash needs enough pot/strainer/receiving-bowl space, not a linear time
-      multiplier.
+      Use kosher salt as listed; brand/crystal size affects a volume measure. The measured salt
+      suits Morton. Diamond Crystal is lighter by volume, so plan on about 4 tsp in total, adding
+      the last of it after blending. No replacement with table salt is assumed. More stock or squash
+      needs enough pot/strainer/receiving-bowl space, not a linear time multiplier.
   checkpoints:
     - step: 1
       cue: 'Squash scraps are lightly browned, not blackened.'
@@ -307,19 +307,17 @@ learning:
     - problem: Purée has firm or grainy pieces
       cause: The vegetables were not thoroughly tender before blending.
       fix: >-
-        Continue cooking until the stated tenderness cue is met before blending,
-        using an appliance approved for the load.
+        Continue cooking until the stated tenderness cue is met before blending, using an appliance
+        approved for the load.
   storage: >-
-    Divide leftover soup into shallow containers and refrigerate within 2 hours,
-    or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days.
-    Reheat the portion being served, stirring, to 165°F / 74°C throughout and
-    bring soup to a rolling boil.
+    Divide leftover soup into shallow containers and refrigerate within 2 hours, or 1 hour above
+    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the portion being served,
+    stirring, to 165°F / 74°C throughout and bring soup to a rolling boil.
   timing: >-
-    Allow about 155 minutes, including 20 minutes preparation and about 135
-    minutes cooking/finishing. The recorded stages include 8 minutes scrap
-    sauté, 45 minutes stock simmer, 5 minutes covered onion, 10 minutes covered
-    squash and 40 minutes soup simmer, plus heating, straining and blending.
-    Gentle covered stages mostly are unattended apart from stirring;
+    Allow about 155 minutes, including 20 minutes preparation and about 135 minutes
+    cooking/finishing. The recorded stages include 8 minutes scrap sauté, 45 minutes stock simmer, 5
+    minutes covered onion, 10 minutes covered squash and 40 minutes soup simmer, plus heating,
+    straining and blending. Gentle covered stages mostly are unattended apart from stirring;
     appliance-required cooling and extra loads add elapsed time.
   sources:
     - title: Adapted from Myrecipes.com
@@ -328,8 +326,7 @@ learning:
       url: >-
         https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
     - title: FDA produce preparation
-      url: >-
-        https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables
+      url: 'https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables'
     - title: Blender manufacturer vessel limits
       url: 'https://www.nutribullet.com/faq/'
   review:
@@ -349,7 +346,7 @@ Brown the squash peels, seeds and trimmings briefly, then simmer them with whole
 4. **Soften squash:** Add all the cubed flesh from whole butternut squash. Cover and cook about 10 minutes, stirring occasionally. The flesh and its earlier reserved scraps belong to the same measured whole squash; do not add a second squash dose.
 5. **Simmer flesh:** Add all the reserved scrap broth and kosher salt. Bring to a boil, cover and simmer about 40 minutes, until squash is very tender and collapses under a spoon. Use a vessel with stirring headroom; larger batches may need separate pots and longer heating.
 6. **Purée:** Take the pot off the heat. Use an immersion blender approved for this load, keeping its head submerged and switching it off before lifting it. For a countertop blender, use only a model approved for hot liquids and follow its temperature, fill, lid and venting instructions; work in batches. If your model requires cold ingredients, cool promptly in shallow containers before blending, then reheat the soup. Never seal hot soup in a personal blending cup. Blend smooth, working in as many permitted loads as needed; return all the purée to a clean pot.
-7. **Finish:** Stir in all cider vinegar and crushed red pepper. Stir to distribute them through the purée.
+7. **Finish:** Stir in additional kosher salt, cider vinegar, and crushed red pepper. Stir to distribute them through the purée, then taste. This much squash and broth needs firm seasoning: with Diamond Crystal kosher salt, expect to add about 1 1/2 tsp more, for about 4 tsp total. Morton kosher salt is usually right at the measured amount. Add the last of it a little at a time.
 8. **Garnish:** Divide the soup among the listed portions and distribute all pomegranate arils and fresh cilantro over them.
 
 ## Browned-squash variation

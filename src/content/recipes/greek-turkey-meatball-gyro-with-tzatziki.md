@@ -24,11 +24,14 @@ pairsWith:
 ingredients:
   - '--- Turkey meatballs ---'
   - '450 g ground turkey, 93% lean'
+  - 1/4 cup plain dry breadcrumbs or panko
+  - '2 tbsp milk, for the meatballs'
+  - 1 large egg
   - '30 g baby spinach, washed, thoroughly dried and finely chopped'
   - '40 g red onion, very finely minced, for the meatballs'
   - '2 cloves garlic, finely grated'
   - 1 tsp dried oregano
-  - '3/8 tsp fine salt, for the meatballs'
+  - '3/4 tsp fine salt, for the meatballs'
   - '1/4 tsp ground black pepper, for the meatballs'
   - '1 tbsp olive oil, for the tray and meatball surfaces, divided'
   - '--- Cucumber-yogurt sauce ---'
@@ -77,7 +80,7 @@ learning:
   checkpoints:
     - step: 3
       cue: >-
-        Twelve equal balls weigh about 45 g each and hold their shape without
+        Twelve equal balls weigh about 50 g each and hold their shape without
         tight compression.
       why: >-
         The original one-inch size was incompatible with this batch weight.
@@ -158,7 +161,7 @@ This is a Greek-inspired meatball sandwich, not shaved spit-roasted gyro meat. A
 
 1. **Heat and prepare:** Heat the oven to 425°F / 220°C. Brush a rimmed half-sheet pan with 1 tsp of the oil. Wash, dry and cut the vegetables as listed, keeping the sauce cucumber separate from the serving cucumber. Reserve the remaining 2 tsp oil for the meatball surfaces.
 2. **Make the sauce:** Squeeze the grated 75 g sauce cucumber in a clean towel until dripping slows, then stir into yogurt with the initial tablespoon of lemon juice, dill, garlic powder and sauce salt. Refrigerate. Keep the serving tomato, cucumber and sliced onion separate; do not stir them into the meat.
-3. **Mix and portion:** Fold turkey with dried chopped spinach, the 40 g minced onion, fresh garlic, oregano, meatball salt and pepper. Mix just until evenly distributed and cohesive. Divide into twelve equal balls, roughly 45 g each and about 1 1/2 inches across. Set apart on the prepared tray and dab their surfaces with the remaining 2 tsp oil. Wash hands and raw-meat utensils before touching bread or sauce.
+3. **Mix and portion:** In a large bowl, stir the breadcrumbs into the milk and let them soften for about 5 minutes, then beat in the egg. This panade keeps lean turkey moist and tender. Add the turkey and fold with the dried chopped spinach, the 40 g minced onion, fresh garlic, oregano, meatball salt and pepper. Mix just until evenly distributed and cohesive. Divide into twelve equal balls, roughly 50 g each and about 1 1/2 inches across. Set apart on the prepared tray and dab their surfaces with the remaining 2 tsp oil. Wash hands and raw-meat utensils before touching bread or sauce.
 4. **Roast and measure:** Roast for about 15–20 minutes. Start checking at fifteen minutes by inserting a thermometer into the center of several of the largest balls; all checked centers must reach 165°F / 74°C. Continue cooking those that need it and check again. Do not wait for a dark crust if the centers are already done.
 5. **Warm the bread:** During the roast, use a separate skillet and the [pita warming method](/mise/recipes/warm-pita-bread), omitting its optional oil and salt. Keep the four breads wrapped. Stir and taste the sauce, adding the reserved teaspoon of lemon only if needed.
 6. **Fill and serve:** Divide sauce among the pitas, then put three cooked meatballs in each. Divide tomato, serving cucumber and sliced onion across the four. Fold loosely or serve open-faced. Serve promptly; the meatballs do not need a ten-minute rest before assembly.

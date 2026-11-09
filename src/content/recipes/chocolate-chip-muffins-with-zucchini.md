@@ -42,8 +42,8 @@ ingredients:
   - 1/2 cup Maple Syrup or Honey
   - 1/4 cup Avocado or Canola Oil
   - 1 tsp Vanilla Extract
-  - 1 tsp Baking Powder
-  - 1 tsp Baking Soda
+  - 1 1/2 tsp Baking Powder
+  - 1/2 tsp Baking Soda
   - 1 tsp Ground Cinnamon
   - 1/2 tsp Sea Salt
   - 'Butter or baking spray, as needed for greasing if not using liners'

@@ -29,7 +29,7 @@ ingredients:
   - 5 1/2 cups granulated sugar
   - 16 large eggs
   - 2 tbsp pure vanilla extract
-  - 1 1/2 tsp kosher salt
+  - 1 tbsp kosher salt
   - 3 3/4 cups all-purpose flour
   - '1/2 lb bittersweet chocolate, chopped into approximately 1/2-inch pieces'
   - '1/2 lb white chocolate, chopped into approximately 1/2-inch pieces'
@@ -110,8 +110,8 @@ formula:
           key: salt
           name: kosher salt
           quantity:
-            amount: 1 1/2
-            unit: tsp
+            amount: 1
+            unit: tbsp
           uses:
             - step: mix
               share: 1

@@ -33,7 +33,7 @@ pairsWith:
 ingredients:
   - '3 lb small red or Yukon Gold potatoes, scrubbed, dried and cut into roughly 1 1/2-inch pieces'
   - '1/4 cup extra-virgin olive oil, divided'
-  - 1 1/2 tsp kosher salt
+  - '2 1/2 tsp Diamond Crystal kosher salt (or 1 1/2 tsp Morton kosher salt)'
   - 1 tsp ground black pepper
   - 2 tbsp minced garlic
   - 2 tbsp minced fresh parsley
@@ -116,4 +116,4 @@ Dry the potatoes after washing and leave space between pieces. Their cut faces n
 2. **Coat and spread:** Reserve **one-quarter of the measured oil** for the garlic. Toss potatoes with the remaining oil, salt and pepper. Spread in one layer with a cut face against the pan and a little space between pieces.
 3. **Roast until nearly ready:** Roast for about **40–55 minutes**, turning with a wide spatula after about 25 minutes and again if another face needs browning. Start checking at 40 minutes: a thin knife should slide into a thick center easily and the cut faces should have golden patches. If still firm, continue before adding garlic. Rotate pans and swap racks if using two.
 4. **Add garlic:** Mix the garlic with the reserved oil. Once the potatoes are nearly tender, toss this mixture through them and return to the oven for about **5 minutes**, watching for fragrant, pale-golden garlic. Extend briefly if needed for tenderness; stop before garlic turns dark. Total roasting is usually **45–60 minutes**, but doneness governs.
-5. **Finish:** Transfer to a serving bowl and toss with the parsley. Serve promptly, dividing into side portions. Avoid covering tightly during a short wait, which traps steam and softens the crust.
+5. **Finish:** Transfer to a serving bowl and toss with the parsley. Taste and add a little more salt if needed. Serve promptly, dividing into side portions. Avoid covering tightly during a short wait, which traps steam and softens the crust.

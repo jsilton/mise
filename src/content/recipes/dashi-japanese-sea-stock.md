@@ -31,7 +31,7 @@ ingredients:
   - >-
     1 oz (about 30g) kombu (dried kelp), approx 20 sq inches in the original
     batch
-  - '2 packs (5g each) Katsuo Bushi (Dried Bonito Flakes), approx 1 cup total'
+  - '30 g Katsuo Bushi (Dried Bonito Flakes), 6 packs (5g each), approx 3 cups total'
 seasons:
   - year-round
 nutritionalDensity: light
@@ -51,8 +51,9 @@ learning:
   before:
     - >-
       Use plain dried bonito flakes, not a seasoned dashi powder or mixed stock
-      sachet. The original batch uses two packages of 5 g each, about 1 cup
-      total; package size stays fixed when package count scales.
+      sachet. The original batch uses 30 g, about 3 cups loosely packed, or
+      six packages of 5 g each. Package size stays fixed when package count
+      scales.
     - >-
       The kombu area is approximate and sheet thickness varies; use the listed
       weight rather than treating area as an exact weight conversion.
@@ -96,10 +97,10 @@ learning:
         appropriately scaled batch if that dish needs more; do not assume
         unlisted top-up water preserves the same strength.
   substitutions:
-    - ingredient: Two original 5 g packages of bonito flakes
+    - ingredient: Six 5 g packages of bonito flakes
       alternative: The same total weight of plain loose bonito flakes
       effect: >-
-        Ten grams total in the original batch; approximately one cup is
+        Thirty grams total in the original batch; approximately three cups is
         descriptive and packing varies. This is not equivalence to seasoned
         dashi packets or powder.
   timing: >-
@@ -139,7 +140,7 @@ Kombu and dried bonito flakes make a combined, seafood-based dashi for Japanese 
 
 2. **Heat and remove kombu:** Heat over medium-high until bubbles begin forming and the liquid is close to boiling. Remove the kombu before a sustained boil. This is a short extraction, not a prolonged kombu simmer.
 
-3. **Add bonito:** Open the measured packages of plain dried bonito flakes and sprinkle all the flakes over the liquid. Let the liquid just reach a boil, then immediately take the pan off the heat.
+3. **Add bonito:** Sprinkle all 30 g of plain dried bonito flakes over the liquid. Let the liquid just reach a boil, then immediately take the pan off the heat.
 
 4. **Steep:** Let stand about 3 minutes. Flakes may settle, but complete sinking is not a required endpoint or a reason to keep boiling.
 

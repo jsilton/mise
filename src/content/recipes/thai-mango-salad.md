@@ -45,7 +45,7 @@ ingredients:
   - '1–2 Thai bird’s-eye chilies, thinly sliced, use less for milder heat'
   - '3 tbsp fresh lime juice, divided and added to taste'
   - '2 tbsp fish sauce, divided and added to taste'
-  - 1 tbsp honey or agave syrup
+  - '1 tbsp palm sugar, finely chopped or grated'
   - '1 clove garlic, finely grated'
 description: >-
   Crisp sour mango with lime, fish sauce and chile, finished with Thai basil,
@@ -102,11 +102,19 @@ learning:
     - ingredient: Thai basil
       alternative: The same loosely measured volume of sweet basil
       effect: Loses the anise-like aroma but keeps a fresh herbal finish.
-    - ingredient: Honey
-      alternative: The same amount of agave syrup
+    - ingredient: Sour green mango
+      alternative: >-
+        The firmest, least ripe regular mango you can find, or Granny Smith
+        apple cut into matchsticks
       effect: >-
-        Sweetness can differ; taste with the mango. Fish sauce remains in the
-        salad, so this change alone does not make it vegan.
+        Less sour and a little softer than true green mango. Add an extra
+        squeeze of lime, and toss apple with lime juice right after cutting so
+        it does not brown.
+    - ingredient: Palm sugar
+      alternative: The same amount of light brown sugar, or honey or agave syrup
+      effect: >-
+        Brown sugar comes closest to palm sugar's caramel roundness. Honey and
+        agave are sweeter and thinner, so taste with the mango.
   timing: >-
     About 25 minutes includes peeling and hand-cutting mango, washing and drying
     herbs, chopping peanuts and mixing dressing. Already peeled or julienned
@@ -129,13 +137,13 @@ learning:
 
 ## Chef's Note
 
-Taste the mango before adding all the lime: the fruit already brings its own acidity. Fish sauce, honey and chile should season that tart crunch, while herbs and peanuts go in at the last moment. This version is a shredded fruit salad; it is not made with soft dessert mango.
+Taste the mango before adding all the lime: the fruit already brings its own acidity. Fish sauce, palm sugar and chile should season that tart crunch, while herbs and peanuts go in at the last moment. This version is a shredded fruit salad; it is not made with soft dessert mango.
 
 ## Directions
 
 1. **Prepare:** Peel mango, cut flesh away from the pit and slice into thin matchsticks. Taste a small strand for sourness. Slice scallions and chilies, wash and dry herbs and chop the roasted peanuts.
 
-2. **Mix and taste dressing:** Whisk half the lime juice, half the fish sauce, honey or agave and garlic until combined. Add a little chile, then taste a mango strand dipped in the dressing. Add remaining lime, fish sauce and chile gradually as needed; their strength and the fruit’s sourness vary.
+2. **Mix and taste dressing:** Whisk half the lime juice, half the fish sauce, the palm sugar and garlic until the sugar dissolves. Add a little chile, then taste a mango strand dipped in the dressing. Add remaining lime, fish sauce and chile gradually as needed; their strength and the fruit’s sourness vary.
 
 3. **Combine:** Toss mango and scallions with enough dressing to coat lightly. Fold in basil, mint and cilantro just before serving, then scatter with peanuts. Reserve excess dressing instead of leaving the mango swimming in it.
 

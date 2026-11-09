@@ -15,3 +15,7 @@ source: Craig Plummer
 2. Arrange in a rose single layer in baking dish and add enough olive oil to coat. I also add a tablespoon or two of butter just because. Sprinkle with tarragon.
 3. Important note: tarragon can get surprising “hot” and spicy if used in excess, be careful.
 4. Bake for about 45 minutes at 350 degrees, turning potatoes once about half way through and again with about 5 minutes to go.
+
+## Suggested Tweak
+
+This is a family recipe, so it stays as written. If you want to try it: Toss the potatoes with about 1 tsp kosher salt per pound along with the oil and tarragon, and finish with a pinch of flaky salt.

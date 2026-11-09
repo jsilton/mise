@@ -184,11 +184,12 @@ formula:
       text: >-
         Turn the breasts onto the flesh side and cook over medium heat, checking the center after
         about 2 minutes. Insert the thermometer from the side so its sensing area reaches the
-        thickest meat without touching the pan. For the USDA poultry endpoint, continue until each
-        breast reaches 165°F; reduce the heat and turn briefly as needed to prevent either side
-        burning. This finish is firmer than the source’s medium-rare duck. Transfer each finished
-        breast to a clean warm plate or rack, skin-side up, and rest uncovered for about 10 minutes
-        while making the sauce.
+        thickest meat without touching the pan. Pull each breast at 130–135°F for medium-rare, the
+        way duck breast is usually served. Reduce the heat and turn briefly as needed to prevent
+        either side burning. USDA advises 165°F for poultry. If you choose that endpoint, keep
+        cooking to 165°F and expect firmer, grayer meat. Transfer each finished breast to a clean
+        warm plate or rack, skin-side up, and rest uncovered for about 10 minutes while making the
+        sauce.
     - id: onion
       title: Keep the drippings and soften the onion
       text: >-
@@ -243,9 +244,9 @@ learning:
       Pit and halve the cherries before measuring. Measure the broth as prepared liquid, and have
       all sauce ingredients ready before rendering starts. Choose gluten-free broth if needed.
     - >-
-      Decide on the finish before cooking. The written method uses USDA’s 165°F poultry endpoint.
-      The source serves medium-rare duck; Sohla’s separate culinary method finishes at 130°F. That
-      lower endpoint is below USDA guidance; the 165°F finish gives firmer meat.
+      Decide on the finish before cooking. The written method pulls the duck at 130–135°F for rosy,
+      juicy medium-rare meat, as the source and Sohla’s method serve it. USDA advises 165°F for
+      poultry. That finish meets USDA’s standard but gives firm, gray meat.
   checkpoints:
     - step: 2
       cue: >-
@@ -363,7 +364,7 @@ Sweet cherries and tawny port make a generous fruit sauce for duck, with honey r
 
 1. **Dry, score and season:** Pat each boneless, skin-on duck breast dry. With a sharp knife, make shallow crosshatch cuts through the skin and fat, keeping the meat intact. If a thick end needs evening, gently flatten that end between sheets of food-safe plastic, then discard the plastic; do not pound the whole breast thin. Season both sides with kosher salt and freshly ground black pepper. Have a heavy skillet large enough for the breasts to lie flat with space between them, a heatproof bowl for rendered fat, and an instant-read thermometer ready.
 2. **Start with a cold pan:** Lay boneless, skin-on duck breasts skin-side down in the cold, dry skillet. Set over low to medium-low heat. Press lightly with a spatula at first to keep the skin in contact with the pan. After several minutes, the fat should bubble steadily and gently; increase the heat slightly if it stays silent, or lower it if it spits fiercely. Pour accumulated fat into the heatproof bowl as needed, leaving a thin film in the skillet. Continue until the skin is evenly golden and crisp and much of the fat beneath it has rendered. Begin watching closely after about 10 minutes; allow roughly 15–25 minutes for these small breasts, with skin and fat thickness deciding the actual time.
-3. **Finish the center, then rest:** Turn the breasts onto the flesh side and cook over medium heat, checking the center after about 2 minutes. Insert the thermometer from the side so its sensing area reaches the thickest meat without touching the pan. For the USDA poultry endpoint, continue until each breast reaches 165°F; reduce the heat and turn briefly as needed to prevent either side burning. This finish is firmer than the source’s medium-rare duck. Transfer each finished breast to a clean warm plate or rack, skin-side up, and rest uncovered for about 10 minutes while making the sauce.
+3. **Finish the center, then rest:** Turn the breasts onto the flesh side and cook over medium heat, checking the center after about 2 minutes. Insert the thermometer from the side so its sensing area reaches the thickest meat without touching the pan. Pull each breast at 130–135°F for medium-rare, the way duck breast is usually served. Reduce the heat and turn briefly as needed to prevent either side burning. USDA advises 165°F for poultry. If you choose that endpoint, keep cooking to 165°F and expect firmer, grayer meat. Transfer each finished breast to a clean warm plate or rack, skin-side up, and rest uncovered for about 10 minutes while making the sauce.
 4. **Keep the drippings and soften the onion:** For each breast cooked in this pan or serving batch, retain 1 tablespoon of rendered pan drippings for the sauce: 2 tablespoons for the original two-breast batch. If less was released, retain all of it rather than adding an unlisted fat. Pour any excess into the heatproof bowl, then return the retained drippings to the skillet. Add onion and cook over medium heat until softened and translucent, about 3 minutes, scraping the browned bits without letting them burn.
 5. **Reduce the cherry sauce:** Remove the pan briefly from the burner and add low-sodium chicken broth, sweet cherries, tawny port, and honey, keeping the port away from an open flame. Return to the heat, scrape up the fond and bring to a brisk simmer. Cook, stirring, until the cherries soften and the liquid coats a spoon as a light glaze. Begin checking after about 3–4 minutes; the fruit’s juice and the pan’s width can extend the reduction. Stop while the sauce remains spoonable rather than reducing it to a sticky paste.
 6. **Finish with cold butter:** Take the pan off the heat. Swirl or whisk in unsalted butter, kosher salt, and freshly ground black pepper, adding the butter cubes gradually so the sauce turns glossy. Taste a cherry with a little sauce before adjusting the salt and pepper. Keep warm gently and serve promptly; do not boil the butter-finished sauce.
