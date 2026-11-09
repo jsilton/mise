@@ -18,24 +18,29 @@ prepTime: 25 min
 cookTime: 4 hr
 totalTime: 4 hr 25 min
 servings: '4'
-pairsWith: []
+pairsWith:
+  - cucumber-raita
+  - kachumber-salad
+pairingNotes:
+  cucumber-raita: Cool yogurt and cucumber against the warm spices.
+  kachumber-salad: A crisp, tangy salad to cut the coconut sauce.
 ingredients:
-  - '1 lb (450 g) boneless skinless chicken thighs, fully thawed, cut into 1 1/2-inch pieces'
-  - '150 g yellow onion, finely diced'
-  - '150 g carrots, cut into 1/4-inch pieces'
-  - '150 g green bell pepper, diced'
-  - '150 g red bell pepper, diced'
-  - '2 cloves garlic, minced'
-  - 1 tbsp minced fresh ginger
+  - '1 lb boneless skinless chicken thighs, cut into 1 1/2-inch pieces'
   - 1 tbsp neutral oil
-  - 1 cup (240 ml) full-fat unsweetened coconut milk
-  - 2 tbsp tomato paste
+  - '1 medium yellow onion, finely diced'
+  - '2 garlic cloves, minced'
+  - 1 tbsp fresh ginger, minced
   - 2 tbsp mild curry powder
-  - '1 tsp garam masala, for finishing'
-  - '1/2 tsp fine salt, plus more only if needed'
-  - '4 cups (about 780 g) cooked brown rice, prepared separately'
-  - '200 g ripe mango flesh, sliced'
-  - 1/4 cup chopped cilantro
+  - 1 cup full-fat unsweetened coconut milk
+  - 2 tbsp tomato paste
+  - '1 tsp fine salt, plus more to taste'
+  - '2 medium carrots, cut into 1/4-inch pieces'
+  - '1 green bell pepper, diced'
+  - '1 red bell pepper, diced'
+  - 1 tsp garam masala
+  - '4 cups cooked brown rice, for serving'
+  - '1 ripe mango, sliced'
+  - 1/4 cup fresh cilantro, chopped
   - '1 lime, cut into wedges'
 origin: Indian-inspired home cooking
 seasons:
@@ -43,86 +48,39 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 description: >-
-  An Indian-inspired curry-powder chicken stew with coconut milk, vegetables, and a measured
-  mango-and-rice serving.
+  An Indian-inspired slow-cooker chicken curry with coconut milk and vegetables, served over brown
+  rice with fresh mango.
 equipment:
   - 4-to-5-quart-slow-cooker
   - skillet
   - instant-read-thermometer
 learning:
-  focus: Manage vegetable moisture and finish with fresh seasoning
-  outcome: >-
-    Tender chicken and vegetables in a lightly thickened coconut sauce, with fresh herbs and
-    optional lime balancing its richness.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Use fully thawed chicken and a slow cooker suited to this batch size. Follow its fill
-      guidance.
-    - >-
-      This recipe uses curry powder and garam masala, not Thai curry paste. The cooked rice is a
-      separate preparation.
-  checkpoints:
-    - step: 3
-      cue: Chicken reaches 165°F / 74°C and carrots yield easily to a fork.
-      why: >-
-        Slow-cooker models and vegetable cuts vary. Both the meat temperature and carrot texture
-        must be checked.
-    - step: 4
-      cue: Sauce is spoonable and tastes aromatic after the garam masala is stirred in.
-      why: >-
-        Vegetables release water into the covered pot; finishing spices and fresh lime can brighten
-        flavor without adding more salt.
-  troubleshooting:
-    - problem: Sauce is thinner than wanted
-      cause: The vegetables released more water than expected.
-      fix: >-
-        Transfer some cooking liquid to a saucepan and simmer briefly to reduce, then return it.
-        Avoid prolonged hard boiling of the entire chicken batch.
-    - problem: Carrots are hard but chicken is cooked
-      cause: The carrot pieces were too large or sat above the meat.
-      fix: >-
-        Remove cooked chicken temporarily and finish carrots in a saucepan with some sauce, then
-        recombine.
   substitutions:
     - ingredient: Chicken thighs
-      alternative: Chicken breast pieces of the same size
-      effect: >-
-        Leaner meat can dry before the vegetables soften. Begin checking earlier and remove pieces
-        at 165°F / 74°C if vegetables need longer.
-  timing: >-
-    About 4 hr 25 min using HIGH, including 25 minutes preparation and a short sauté of the aromatics. LOW may require 5–6 hours of
-    cooking. Cook brown rice separately during that period; its time is not added if it overlaps.
+      alternative: Chicken breast
+      effect: Leaner and quicker to dry out, so start checking it an hour early.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store rice separately when
-    possible. Stir coconut sauce gently after reheating; some separation is normal.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Slow cookers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 3 months. Store the rice separately and reheat the
+    curry gently, stirring the coconut sauce back together.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Superhealthykids.com
-sourceUrl: >-
-  http://www.superhealthykids.com/slow-cooker-coconut-chicken-curry/#recipe-container
+    date: '2026-11-09'
+source: Adapted from Super Healthy Kids
+sourceUrl: 'https://www.superhealthykids.com/slow-cooker-coconut-chicken-curry/'
 ---
 
 ## Chef's Note
 
-This is an Indian-inspired home curry built with curry powder, tomato paste, and coconut milk. The slow cooker captures vegetable juices, so a full pot of extra stock is unnecessary. Add garam masala near the end for a fresher aroma. Ripe mango brings sweetness; lime provides a more controllable acidic finish.
+This is an easy Indian-inspired family curry made with curry powder, tomato paste and coconut milk. Frying the onion, ginger and spices before they go into the slow cooker is what gives the sauce real depth. Ripe mango and a squeeze of lime at the table add a sweet, bright finish.
 
 ## Directions
 
-1. **Bloom the aromatics:** Heat the oil in a skillet over medium heat. Cook the onion about 4–5 minutes until softened. Add garlic, ginger and curry powder and stir 1–2 minutes until fragrant, lowering the heat if the spices start to darken. Scrape into a 4–5 quart slow cooker and add the small carrot pieces and peppers. Keep the chicken refrigerated until ready to add.
-2. **Mix sauce:** Whisk coconut milk, tomato paste and the measured salt, pour it into the warm skillet and stir to pick up any spices left behind. Place chicken over vegetables and pour sauce over it. Cover and start cooking immediately.
-3. **Cook and check:** Cook on HIGH about 3–4 hours or LOW about 5–6 hours, until several of the largest chicken pieces reach 165°F / 74°C and the carrots are tender. Keep the lid closed between checks. Extend cooking as needed; do not rely on color alone.
-4. **Finish:** Stir in garam masala and cook another 5 minutes. Stir gently, taste, and add salt only if needed. If the sauce is excessively thin, reduce some liquid separately as described in troubleshooting.
-5. **Serve:** Divide the prepared brown rice among four bowls. Add curry and finish with cilantro. Serve mango and lime wedges alongside, letting diners add lime to taste.
+1. **Bloom the spices:** Heat the oil in a skillet over medium heat. Cook the onion, stirring, until soft, 4 to 5 minutes. Add the garlic, ginger and curry powder and stir until fragrant, 1 to 2 minutes, lowering the heat if the spices start to darken.
+2. **Make the sauce:** Stir the coconut milk, tomato paste and salt into the skillet, scraping up the spices from the bottom. Bring just to a simmer, then turn off the heat.
+3. **Fill the slow cooker:** Spread the carrots and peppers in a 4- to 5-quart slow cooker. Lay the chicken on top and pour the sauce over everything.
+4. **Slow-cook:** Cover and cook on HIGH for 3 to 4 hours or LOW for 5 to 6 hours, until the chicken reaches 165°F and the carrots are tender.
+5. **Finish the curry:** Stir in the garam masala, cover and cook 5 minutes more. Taste for salt. If the sauce is thin, ladle some into a saucepan, boil it down for a few minutes and stir it back in.
+6. **Serve:** Spoon the curry over the brown rice and scatter with cilantro. Serve the mango and lime wedges alongside.

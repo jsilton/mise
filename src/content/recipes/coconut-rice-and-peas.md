@@ -7,8 +7,8 @@ role: base
 vibe: nutritious
 prepTime: 15 min
 cookTime: 2 hr 15 min
-totalTime: 10 hr 30 min
-servings: 6–8 side portions
+totalTime: '2 hr 30 min, plus overnight soaking'
+servings: '8'
 cuisines:
   - Caribbean
 cookingMethods:
@@ -43,113 +43,58 @@ equipment:
   - measuring-jug
 pairsWith:
   - jerk-pork-shoulder
-  - mango-cabbage-slaw
   - fried-plantains
+  - mango-cabbage-slaw
+pairingNotes:
+  jerk-pork-shoulder: The classic Jamaican plate with spicy jerk pork.
+  fried-plantains: Sweet, caramelized plantains on the side.
+  mango-cabbage-slaw: A crisp, fruity slaw to lighten the plate.
 ingredients:
-  - '200 g dried red kidney beans, or 500 g canned kidney beans weighed after draining and rinsing'
-  - '1.5 liters fresh water for cooking dried beans, plus water for soaking and topping up'
-  - '360 g long-grain white rice, rinsed and well drained'
-  - '400 ml full-fat unsweetened coconut milk, stirred smooth'
-  - '320 ml reserved liquid from fully cooked beans, or water for canned beans'
-  - '4 scallions, trimmed and lightly crushed'
+  - '1 cup dried red kidney beans, rinsed'
+  - '6 cups water, for cooking the beans'
+  - '2 cups long-grain white rice, rinsed and well drained'
+  - '1 can (13.5 oz) full-fat unsweetened coconut milk, stirred smooth'
+  - '1 1/3 cups bean cooking liquid, saved from the beans'
+  - '4 scallions, lightly crushed'
   - 4 sprigs fresh thyme
-  - '4 cloves garlic, lightly crushed'
-  - 'Optional: 1 whole Scotch bonnet pepper, left unpierced; keep whole at any batch size'
+  - '4 garlic cloves, lightly crushed'
   - 1 tsp ground allspice
-  - '1 tsp fine salt (3/4 tsp with salted canned beans), plus more to taste'
-  - 1/2 tsp ground black pepper
-  - '1 tbsp coconut oil, optional'
+  - '1 tsp fine salt, plus more to taste'
+  - 1/2 tsp black pepper
+  - 1 tbsp coconut oil (optional)
+  - '1 whole Scotch bonnet pepper, left whole (optional)'
 description: >-
-  Rice and fully cooked kidney beans steamed in coconut milk with thyme, scallion, garlic, and
-  optional Scotch bonnet.
+  Rice and kidney beans steamed in coconut milk with thyme, scallion, garlic and a whole Scotch
+  bonnet.
 learning:
-  focus: Finish kidney beans safely before managing the rice liquid
-  outcome: >-
-    Tender beans and cooked-through rice scented with coconut and thyme, with distinct grains and
-    controlled heat.
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Dried kidney beans need a separate soak and a full boiling stage before they enter the rice
-      pot. A low simmer alone is not the starting method. Canned beans are already cooked.
-    - >-
-      For the rice stage, measure 400 ml coconut milk plus 320 ml bean liquid or water. Do not add
-      an extra cup of bean liquid on top of this amount.
-    - >-
-      An intact Scotch bonnet can still add heat. Omit it for a reliably mild version; wash hands
-      after handling and avoid breaking it into the rice.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Soaked beans have boiled in fresh water for at least 30 minutes, then cooked until
-        completely tender.
-      why: >-
-        Raw or undercooked kidney beans contain a lectin that proper boiling controls. The rice
-        stage must not be used to finish hard, insufficiently boiled beans.
-    - step: 3
-      cue: The measured rice-stage liquids total 720 ml before the short covered infusion.
-      why: >-
-        Water carried over from bean cooking changes rice hydration. Measuring that liquid prevents
-        an accidental excess or shortage.
-    - step: 5
-      cue: Rice is tender through the center and no free liquid pools at the bottom.
-      why: >-
-        The final covered rest evens out moisture, but cannot compensate for a dry hard core or a
-        large liquid surplus.
-  troubleshooting:
-    - problem: Beans are still firm after boiling
-      cause: Older beans or cooking conditions need more time.
-      fix: >-
-        Continue simmering beans in ample water until completely tender before adding them to the
-        rice. Do not taste them before the full boiling stage is complete.
-    - problem: Rice is firm but the pot is dry
-      cause: Evaporation was higher than expected or the rice needs more hydration.
-      fix: >-
-        Add 1–2 tbsp hot water for the original batch, cover, and cook gently 3–5 minutes. Rest
-        briefly and check again.
-    - problem: The chile splits and the rice is too hot
-      cause: Scotch bonnet heat entered the liquid.
-      fix: >-
-        Remove the pepper carefully; its heat cannot be removed from the rice. Serve a smaller
-        portion alongside mild food, and omit the pepper next time for mild servings.
   substitutions:
-    - ingredient: 200 g dried kidney beans
-      alternative: 500 g drained and rinsed canned kidney beans
+    - ingredient: Dried red kidney beans
+      alternative: 2 cans (15 oz each) kidney beans, drained and rinsed
       effect: >-
-        Skip soaking and bean cooking, and use water for the 320 ml bean-liquid portion. Allow about
-        55 minutes total with canned beans; their texture and salt level may differ.
-  timing: >-
-    With dried beans, allow about 10 1/2 hours including an 8-hour soak, 60–90 minutes bean cooking,
-    and the rice stage. Older beans may take longer. With canned beans or already fully cooked
-    beans, allow about 55 minutes.
+        Skip the soaking and boiling and use water in place of the bean liquid. Cut the salt to 3/4
+        tsp. The rice is ready in about 55 minutes.
+    - ingredient: Scotch bonnet pepper
+      alternative: Habanero
+      effect: A close match in fruity aroma and heat.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Portion rice and beans into
-    shallow containers promptly. Reheat with a small sprinkle of water to 165°F / 74°C throughout,
-    stirring or turning portions for even heating.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: FDA — Kidney-bean lectins and proper soaking and boiling
-      url: 'https://www.fda.gov/food/chemical-contaminants-pesticides/natural-toxins-food'
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat covered with a sprinkle of water
+    until steaming.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This version of Jamaican rice and peas uses red kidney beans. Cook the beans fully before the rice goes in: beans and rice need different times and different amounts of water. Reserved bean liquid contributes color and flavor, but it is part of the measured rice liquid, not an extra addition. Coconut, scallion, thyme, and allspice distinguish this dish from plain coconut jasmine rice.
+In Jamaica, "peas" means red kidney beans, and rice and peas is the Sunday staple served with everything from jerk to curry goat. The whole Scotch bonnet perfumes the pot with fruity aroma without much heat, as long as it stays unbroken. The bean cooking liquid tints the rice and gives it its earthy flavor.
 
 ## Directions
 
-1. **Soak dried beans:** Sort and rinse dried kidney beans. Cover generously with water and soak in the refrigerator for about 8 hours or overnight. Drain and discard soaking water. If using canned beans, drain, rinse, weigh 500 g, and skip to step 3.
-2. **Boil, then finish beans:** Put soaked beans in a large pot with 1.5 liters fresh water, adding more if needed to cover them by about 2 inches. Bring to a full rolling boil and maintain it for at least 30 minutes. Add boiling water as needed to keep beans submerged. Then reduce to a simmer and cook until fully tender throughout, often another 30–60 minutes. Do not taste before completing the full boiling stage. Drain, reserving at least 320 ml cooking liquid; measure exactly 320 ml for the rice, topping up with water if needed.
-3. **Infuse the measured liquid:** In a heavy 3–4 quart pot, combine cooked beans, coconut milk, the measured 320 ml bean liquid or water, scallions, thyme, garlic, allspice, black pepper, optional coconut oil, and the measured fine salt. Taste the liquid: it should taste pleasantly well seasoned, since the rice will absorb it. Add the optional intact Scotch bonnet. Bring to a gentle simmer, cover, and cook 5 minutes.
-4. **Add rice:** Carefully lift out the chile to a small dish while stirring drained rice evenly into the pot; then place the intact chile back on top. Return to a gentle simmer, cover tightly, and reduce to low.
-5. **Cook and rest:** Cook about 18–22 minutes, until rice is tender and free liquid has absorbed. Make one brief check near the end; use the hot-water correction if the pot is dry but rice is hard. Take off the heat and rest covered for 10 minutes.
-6. **Finish:** Carefully remove the whole chile, thyme stems, and scallions. Fluff gently without crushing beans. Taste and add a pinch more salt only if needed. Serve as six to eight side portions.
+1. **Soak the beans:** Cover the beans with plenty of water and soak overnight, about 8 hours. Drain.
+2. **Cook the beans:** Put the beans in a large pot with the fresh water, adding more if needed to cover them by 2 inches. Boil hard for 30 minutes, then lower the heat and simmer until completely tender, 30 to 60 minutes more. Drain, saving the cooking liquid, and top it up with water if you are short.
+3. **Season the liquid:** In a heavy 3- to 4-quart pot, combine the beans, coconut milk, bean liquid, scallions, thyme, garlic, allspice, salt, black pepper and coconut oil, if using. Lay the Scotch bonnet on top. Bring to a gentle simmer, cover and cook for 5 minutes. Taste the liquid. It should taste well seasoned, since the rice will absorb it.
+4. **Cook the rice:** Lift out the chile, stir in the rice and set the chile back on top. Return to a gentle simmer, cover tightly and turn the heat to low. Cook until the rice is tender and the liquid is absorbed, 18 to 22 minutes.
+5. **Rest and fluff:** Take the pot off the heat and leave it covered for 10 minutes. Carefully remove the chile, thyme stems and scallions. Fluff gently with a fork, taste and add a pinch of salt if needed.

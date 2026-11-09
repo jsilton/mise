@@ -21,111 +21,70 @@ cookTime: 3 hr 30 min
 totalTime: 4 hr
 servings: '6'
 pairsWith:
-  - anadama-bread
+  - cast-iron-buttermilk-biscuits
   - avocado-kale-caesar-salad
-  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
+pairingNotes:
+  cast-iron-buttermilk-biscuits: Warm biscuits for soaking up the gravy.
+  avocado-kale-caesar-salad: A crisp, sharp salad against the rich stew.
 ingredients:
-  - '2 lbs (900 g) boneless beef chuck, cut into 1.5-inch cubes'
-  - '3/4 tsp fine salt (about 1 1/2 tsp Diamond Crystal kosher) for the beef, plus more to taste'
-  - 1/2 tsp black pepper
-  - 1/4 cup (30 g) all-purpose flour
+  - '2 lbs boneless beef chuck, cut into 1 1/2-inch cubes'
+  - '1 1/2 tsp kosher salt, plus more to taste'
+  - '1/2 tsp black pepper, plus more to taste'
+  - 1/4 cup all-purpose flour
   - '3 tbsp neutral oil, divided'
-  - '2 oz (55 g) pancetta or bacon, diced'
+  - '2 oz pancetta, diced'
   - '1 large yellow onion, diced'
-  - '3 carrots, cut into 1-inch chunks'
   - '2 celery stalks, diced'
-  - '3 garlic cloves, minced'
   - 2 tbsp tomato paste
-  - 2 cups (480 ml) dry red wine
-  - '3 cups (720 ml) low-sodium beef stock, plus more as needed'
+  - '3 garlic cloves, minced'
+  - '2 cups dry red wine, such as Cabernet or Merlot'
+  - '3 cups low-sodium beef stock, plus more as needed'
   - 2 sprigs fresh thyme
-  - '1 lb (450 g) Yukon Gold potatoes, cut into 1-inch chunks'
+  - '3 carrots, cut into 1-inch chunks'
+  - '1 lb Yukon Gold potatoes, cut into 1-inch chunks'
   - 1 cup frozen peas
-  - '1 tbsp balsamic vinegar, added to taste'
+  - 1 tbsp balsamic vinegar
 origin: United States
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-description: >-
-  Chuck braised to fork tenderness with vegetables and a rich pan sauce. Learn why browning and
-  tenderness need different kinds of heat.
+description: Chuck braised in red wine until fork-tender, with carrots, potatoes and peas.
 equipment:
   - 5-to-6-quart-dutch-oven
 learning:
-  focus: Separate browning from tenderizing
-  outcome: Chuck yields easily to a fork; potatoes hold their shape and the sauce lightly coats a spoon.
   techniques:
     - braising
     - browning
     - seasoning
-  before:
-    - >-
-      Choose chuck rather than lean steak; connective tissue is part of what makes this long cook
-      work.
-    - >-
-      Cut pieces evenly and plan enough time to cook beyond the estimate if the meat still resists a
-      fork.
-  checkpoints:
-    - step: 2
-      cue: 'Beef has deep brown patches and the pot has brown, not black, fond.'
-      why: Browning builds the sauce flavor. Burnt residue adds bitterness.
-    - step: 5
-      cue: The covered liquid makes occasional slow bubbles.
-      why: >-
-        A rolling boil evaporates liquid quickly and does not replace the time needed for connective
-        tissue to soften.
-    - step: 6
-      cue: A fork twists through the meat easily; potatoes are tender.
-      why: >-
-        A clock cannot account for variation in chuck or cube size. Test the texture in several
-        pieces.
-  troubleshooting:
-    - problem: Meat is tough at the listed time
-      cause: Collagen-rich chuck may need longer.
-      fix: >-
-        Keep it barely simmering with enough liquid and recheck every 20–30 minutes. Add potatoes
-        only once the meat is beginning to soften.
-    - problem: Sauce is thin after meat is tender
-      cause: Too much retained cooking liquid.
-      fix: >-
-        Remove meat and vegetables, then simmer sauce uncovered until it coats a spoon. Return them
-        and adjust seasoning.
   substitutions:
-    - ingredient: Red wine
-      alternative: Additional low-sodium stock
+    - ingredient: Pancetta
+      alternative: Bacon
+      effect: Bacon works the same way but adds a smoky taste.
+    - ingredient: Dry red wine
+      alternative: More beef stock
       effect: >-
-        A less wine-forward sauce. Adjust with a little balsamic vinegar at the end; do not replace
-        the wine with straight vinegar.
-  timing: >-
-    Plan 4 hours, including preparation, batch searing, and braising. The tenderness check controls
-    the finish, so allow a buffer for an unfamiliar cut.
+        Use the same amount of stock. The sauce is lighter, so add a little more balsamic at the
+        end.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. For freezing, potatoes may
-    soften or become grainy; freeze without them when practical.
-  sources:
-    - title: Exploratorium — Collagen and tenderness
-      url: 'https://annex.exploratorium.edu/cooking/meat/INT-what-makes-juicy.html'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 4 days in the fridge and freezes for 3 months, though the potatoes soften. Reheat gently
+    on the stove with a splash of stock.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-A beef stew uses two kinds of heat for two different jobs: a hot, relatively dry pan for browning, then gentle moist heat to soften the chuck's connective tissue. The meat can be safely cooked yet still tough, so the braise ends when a fork enters easily. Add the carrots and potatoes later to keep them from dissolving while the beef becomes tender.
+A classic American beef stew of chuck browned hard, then braised low in red wine until it falls apart. Brown the beef in batches so it sears instead of steaming, because that crust flavors the whole pot. A spoonful of balsamic at the end brightens the rich sauce.
 
 ## Directions
 
-1. **Dry and coat:** Pat the beef dry, season all over with the 3/4 tsp salt and the pepper, and toss with flour. Shake off loose excess.
-2. **Brown in batches:** Heat 2 tbsp oil in a Dutch oven over medium-high heat. Brown beef in three uncrowded batches, about 6–8 minutes each, turning to develop deep brown patches. Add the remaining oil as needed. Transfer each batch to a plate; reduce heat if the fond starts to blacken.
-3. **Cook the base:** Reduce heat to medium. Add pancetta and cook 3–4 minutes until fat begins to render. Add onion and celery and cook 6–8 minutes until softened. Stir in tomato paste for 1 minute, then garlic for about 30 seconds until fragrant.
-4. **Deglaze:** Add wine and scrape up brown fond with a wooden spoon. Simmer 5 minutes. This reduces wine but does not guarantee removal of all alcohol.
-5. **Braise gently:** Return beef and accumulated juices. Add thyme and enough stock to nearly cover the meat. Bring to a gentle simmer, cover, and reduce heat to low. Cook about 2 hours, checking occasionally for slow bubbles and sufficient liquid.
-6. **Add vegetables when ready:** Test several beef pieces. When they are beginning to soften but not yet fully tender, add carrots and potatoes. Simmer, covered, another 35–50 minutes until the vegetables are tender and the beef yields easily to a fork. If the beef is still quite firm at 2 hours, give it more time before adding vegetables.
-7. **Finish the sauce:** Remove thyme stems. If the sauce is too thin, lift out meat and vegetables and reduce the sauce uncovered before returning them. Add peas and simmer 2–3 minutes until hot. Add balsamic vinegar gradually, taste, and adjust salt and pepper.
+1. **Season the beef:** Pat the beef dry. Season it all over with the salt and pepper, then toss it with the flour and shake off the excess.
+2. **Brown the beef:** Heat most of the oil in a Dutch oven over medium-high heat. Brown the beef in three batches, turning, until it has deep brown patches on several sides, 6 to 8 minutes per batch. Add the rest of the oil as needed and move each batch to a plate. Lower the heat if the bottom of the pot starts to blacken.
+3. **Cook the vegetables:** Lower the heat to medium. Add the pancetta and cook until its fat melts, 3 to 4 minutes. Add the onion and celery and cook, stirring, until soft, 6 to 8 minutes.
+4. **Toast the paste:** Stir in the tomato paste and cook until it turns brick red, about 1 minute. Add the garlic and cook until fragrant, about 30 seconds.
+5. **Deglaze with wine:** Pour in the wine and scrape up the browned bits from the bottom of the pot. Simmer until slightly reduced, about 5 minutes.
+6. **Braise the beef:** Return the beef and its juices to the pot. Add the thyme and enough stock to nearly cover the meat. Bring to a simmer, then cover, turn the heat to low and cook at a lazy bubble for 2 hours, until the beef is starting to soften.
+7. **Add the potatoes:** Stir in the carrots and potatoes and push them under the liquid. Cover and simmer until the beef is fork-tender and the potatoes are soft, 35 to 50 minutes. Add a splash of stock if the stew gets too thick.
+8. **Finish the stew:** Remove the thyme stems. If the sauce is thin, simmer it uncovered for a few minutes until it coats a spoon. Stir in the peas and cook until hot, 2 to 3 minutes. Stir in the balsamic and season with salt and pepper.

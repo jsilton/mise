@@ -25,8 +25,6 @@ equipment:
   - grater
 advancePrep:
   - make-ahead
-pairsWith:
-  - favorite-cream-cheese-frosting
 flavorProfile:
   - sweet
   - rich
@@ -36,108 +34,54 @@ role: dessert
 vibe: technical
 prepTime: 30 min
 cookTime: 30 min
-totalTime: 'About 2–3 hr, including complete cooling'
+totalTime: '1 hr 15 min, plus 1 hr cooling'
 servings: 12 portions
 ingredients:
   - '--- Pans ---'
-  - '1 tbsp unsalted butter, for greasing pans'
-  - '2 tbsp all-purpose flour, for dusting pans'
-  - '--- Cake batter ---'
+  - '1 tbsp unsalted butter, for the pans'
+  - '2 tbsp all-purpose flour, for the pans'
+  - '--- Cake ---'
   - 1 1/2 cups all-purpose flour
-  - 1 cup granulated sugar
   - 1 tsp baking soda
   - 1 tsp baking powder
   - 1 tsp ground cinnamon
   - 1/2 tsp ground allspice
   - 1/4 tsp ground cloves
-  - 1/2 tsp freshly grated nutmeg
+  - '1/2 tsp nutmeg, freshly grated'
   - 1/2 tsp salt
+  - 1 cup granulated sugar
   - 2/3 cup vegetable oil
   - 3 large eggs
-  - '1 1/2 lb carrot, peeled and finely grated'
+  - '1 1/2 lb carrots, peeled and finely grated'
   - '--- Apple syrup ---'
-  - '1 Granny Smith apple, washed, peeled and grated'
+  - '1 Granny Smith apple, peeled and grated'
   - 1/2 cup granulated sugar
   - 1/2 cup water
   - '--- Cream cheese frosting ---'
-  - '1 lb brick-style cream cheese, cold, not softened'
   - '1 stick unsalted butter, softened'
   - 3 1/2–4 cups powdered sugar
   - 2 tsp vanilla extract
   - 1/2 tsp salt
-source: Adapted from ajc.com
+  - '1 lb brick-style cream cheese, cold'
+source: Adapted from The Atlanta Journal-Constitution
 sourceUrl: >-
-  https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/?fbclid=IwAR0mPjiVsWlmKp6Q16-0zVkVk6g_oK8Iys0zLMuRUF7HMtIBsTJhs6pq_sc
+  https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/
 rating: 5
 learning:
-  focus: Cool the layers before the light syrup brush
-  outcome: >-
-    Set carrot-cake layers with a light apple-syrup glaze and smooth cream cheese frosting, without
-    soaking the crumb.
   techniques:
     - temperature
-  before:
-    - >-
-      Pan dimensions describe the original batch. Make multiples as separate original-size cakes
-      with similar batter depth and headroom; smaller amounts need appropriately smaller pans and
-      earlier center checks. Ingredient scaling does not multiply temperatures, pan dimensions or
-      cooling and baking times.
-    - >-
-      The frosting uses about half the source's powdered sugar so the cream cheese tang comes
-      through. Taste before adding the last half cup. Cold brick-style cream cheese and softened
-      butter are different ingredient states.
-    - The dusting flour is separate from batter flour; the syrup makes excess to reserve.
-  checkpoints:
-    - step: 3
-      cue: 'Set centers, slight pulling from the edges and no wet batter on the tester.'
-      why: 'The 25–30 minute clock describes the source pans, not every cake.'
-    - step: 6
-      cue: Only a light syrup coat covers each cool cut surface; excess stays separate.
-      why: Pouring the entire syrup batch changes the cake’s moisture formula.
-  troubleshooting:
-    - problem: Frosting slides or melts
-      cause: The cake is still warm or the topping is too loose.
-      fix: >-
-        Wait for completely cool layers; chill the topping until it holds a spreadable shape, then
-        stir gently.
-  timing: >-
-    Allow roughly 35–45 minutes active preparation,25–30 minutes or longer baking and full layer
-    cooling before assembly: about 2–3 hours total, longer for larger batches or slower cooling.
   substitutions:
-    - ingredient: Brown-butter cake
-      alternative: >-
-        For a brown-butter variation, replace all the listed vegetable oil with the same listed
-        volume of already browned butter measured after browning and cooled to room temperature.
-        Omit the cloves. For its frosting, omit the frosting salt and keep everything else as
-        listed. Keep the pan greasing and dusting supplies separate. Do not start with the listed
-        oil volume of raw butter and assume it produces the same finished volume after browning.
-      effect: 'This is a separate brown-butter cake option with a nuttier, richer crumb.'
-    - ingredient: Warm syrup brush
-      alternative: >-
-        For a warm-syrup variation, boil the same full apple, syrup sugar and water for 5 minutes,
-        strain and brush the warm layers lightly after removal from the pans. Reserve extra syrup;
-        do not pour the whole batch over the cakes. Let the layers cool completely before adding any
-        cream cheese frosting. The main method instead removes the syrup from heat once it reaches a
-        boil and brushes cool leveled cakes.
-      effect: Changes syrup heating and brushing state and may change how much syrup the layers absorb.
-    - ingredient: Pan greasing
-      alternative: >-
-        Use lard or pan spray instead of the listed pan butter for greasing; keep the separate
-        dusting flour. This changes only pan preparation.
-      effect: Changes only the pan-greasing supply.
+    - ingredient: Vegetable oil
+      alternative: 'Browned butter, cooled'
+      effect: >-
+        Use the same volume of browned butter, measured after browning, and leave out the cloves.
+        The crumb turns nutty and richer.
   storage: >-
-    Keep the frosted cake covered in the refrigerator at 40°F /4°C or below. Return frosting to the
-    refrigerator within 2 hours of cumulative preparation and serving time, or 1 hour above 90°F
-    /32°C. Refrigerate frosting while waiting for layers to cool.
-  sources:
-    - title: AJC — Mercer Street Meals Carrot Cake
-      url: >-
-        https://www.ajc.com/things-to-do/food-and-recipes/recipe-apple-syrup-is-key-to-moist-carrot-cake/NFOH5GZCPFHDXPD3WU2ZD6TDNU/
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    Keep the frosted cake covered in the fridge for up to 5 days. Let slices sit out for 20 minutes
+    before serving.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -156,7 +100,7 @@ formula:
           uses:
             - step: prep
               share: 1
-          preparation: for greasing pans
+          preparation: for the pans
         - id: dust
           key: dust
           name: all-purpose flour
@@ -166,9 +110,9 @@ formula:
           uses:
             - step: prep
               share: 1
-          preparation: for dusting pans
+          preparation: for the pans
     - id: cake
-      name: Cake batter
+      name: Cake
       ingredients:
         - id: flour
           key: flour
@@ -177,16 +121,7 @@ formula:
             amount: 1 1/2
             unit: cup
           uses:
-            - step: mix
-              share: 1
-        - id: sugar
-          key: sugar
-          name: granulated sugar
-          quantity:
-            amount: 1
-            unit: cup
-          uses:
-            - step: mix
+            - step: dry
               share: 1
         - id: soda
           key: soda
@@ -195,7 +130,7 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
               share: 1
         - id: powder
           key: powder
@@ -204,7 +139,7 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
               share: 1
         - id: cinnamon
           key: cinnamon
@@ -213,7 +148,7 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
               share: 1
         - id: allspice
           key: allspice
@@ -222,7 +157,7 @@ formula:
             amount: 1/2
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
               share: 1
         - id: cloves
           key: cloves
@@ -231,17 +166,18 @@ formula:
             amount: 1/4
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
               share: 1
         - id: nutmeg
           key: nutmeg
-          name: freshly grated nutmeg
+          name: nutmeg
           quantity:
             amount: 1/2
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
               share: 1
+          preparation: freshly grated
         - id: salt
           key: salt
           name: salt
@@ -249,7 +185,16 @@ formula:
             amount: 1/2
             unit: tsp
           uses:
-            - step: mix
+            - step: dry
+              share: 1
+        - id: sugar
+          key: sugar
+          name: granulated sugar
+          quantity:
+            amount: 1
+            unit: cup
+          uses:
+            - step: wet
               share: 1
         - id: oil
           key: oil
@@ -258,7 +203,7 @@ formula:
             amount: 2/3
             unit: cup
           uses:
-            - step: mix
+            - step: wet
               share: 1
         - id: eggs
           key: eggs
@@ -267,17 +212,17 @@ formula:
             amount: 3
             unit: count
           uses:
-            - step: mix
+            - step: wet
               share: 1
           plural: large eggs
         - id: carrots
           key: carrots
-          name: carrot
+          name: carrots
           quantity:
             amount: 1 1/2
             unit: lb
           uses:
-            - step: mix
+            - step: batter
               share: 1
           preparation: peeled and finely grated
     - id: syrup
@@ -293,7 +238,7 @@ formula:
             - step: syrup
               share: 1
           plural: Granny Smith apples
-          preparation: 'washed, peeled and grated'
+          preparation: peeled and grated
         - id: sugar
           key: sugar
           name: granulated sugar
@@ -315,16 +260,6 @@ formula:
     - id: frosting
       name: Cream cheese frosting
       ingredients:
-        - id: cream-cheese
-          key: cream-cheese
-          name: brick-style cream cheese
-          quantity:
-            amount: 1
-            unit: lb
-          uses:
-            - step: frost
-              share: 1
-          preparation: 'cold, not softened'
         - id: butter
           key: butter
           name: unsalted butter
@@ -363,57 +298,77 @@ formula:
           uses:
             - step: frost
               share: 1
+        - id: cream-cheese
+          key: cream-cheese
+          name: brick-style cream cheese
+          quantity:
+            amount: 1
+            unit: lb
+          uses:
+            - step: cheese
+              share: 1
+          preparation: cold
   steps:
     - id: prep
-      title: Prepare pans
+      title: Prepare the pans
       text: >-
-        Heat the oven to 350°F. For the original batch, use {{ingredients}} to grease two 8-inch
-        round cake pans with all the pan butter, then divide the dusting flour between them, coating
-        and shaking out excess. Dusting flour is separate from batter flour.
-    - id: mix
-      title: Mix batter
+        Heat the oven to 350°F. Use {{ingredients}} to grease and flour two 8-inch round cake pans,
+        tapping out the excess flour.
+    - id: dry
+      title: Whisk the dry ingredients
+      text: 'In a medium bowl, whisk {{ingredients}} until evenly mixed.'
+    - id: wet
+      title: Whisk the wet ingredients
+      text: 'In a large bowl, whisk {{ingredients}} until smooth and glossy, about 1 minute.'
+    - id: batter
+      title: Make the batter
       text: >-
-        Combine {{ingredients}} until the batter is smooth and all the carrot is distributed. Divide
-        between the prepared pans, keeping similar depth and room to rise.
+        Stir the dry ingredients into the wet just until no flour shows. Fold in {{ingredients}}
+        until evenly mixed, then divide the batter between the pans and smooth the tops.
     - id: bake
-      title: Bake and cool
+      title: Bake the layers
       text: >-
-        Bake at 350°F, starting checks around 25–30 minutes for the original pans. Layers should
-        begin pulling slightly from the sides, centers should be set and a tester should have no wet
-        batter. Cool in the pans, then remove carefully once cool. Wait until fully cool before
-        leveling and frosting.
+        Bake until the edges pull away from the pans and a toothpick in the center comes out clean,
+        25 to 30 minutes. Cool in the pans for 15 minutes, then turn the layers out onto a rack and
+        cool completely, about 1 hour.
     - id: syrup
-      title: Make and strain syrup
+      title: Make the apple syrup
       text: >-
-        Bring {{ingredients}} to a rolling boil in a small saucepan, then remove from heat. Strain
-        through a sieve and discard the apple solids. Keep the strained syrup for a light brush and
-        reserve the excess separately; the cake does not absorb the whole syrup batch.
+        While the cakes bake, bring {{ingredients}} to a rolling boil in a small saucepan, then take
+        it off the heat. Strain out and discard the apple, and let the syrup cool.
     - id: frost
-      title: Mix frosting
+      title: Beat the butter
       text: >-
-        Beat {{ingredients}} with a stand mixer or electric beaters until smooth, beginning slowly
-        so powdered sugar does not scatter. Start with 3 1/2 cups powdered sugar, taste, and beat in
-        the last 1/2 cup only if you want it sweeter or stiffer. Keep refrigerated while waiting for
-        the cakes.
+        Beat {{ingredients}} with a mixer, starting on low, until no dry sugar remains and the
+        mixture is a thick, creamy paste, about 3 minutes. Start with the smaller amount of powdered
+        sugar.
+    - id: cheese
+      title: Add the cream cheese
+      text: >-
+        Add {{ingredients}} in chunks and beat on medium just until smooth and creamy, about 1
+        minute. Taste and beat in the rest of the sugar if you want it sweeter. Chill the frosting
+        until the cakes are cool.
     - id: assemble
-      title: Glaze and assemble
+      title: Brush and frost
       text: >-
-        Level the completely cool cakes with a serrated knife. Brush each cut surface lightly with
-        apple syrup: about 1 tbsp per layer is the original-batch guide, not all the syrup. Reserve
-        unused syrup separately in the refrigerator. Spread about one-third of the frosting on the
-        first layer, stack the second and use all the rest over the top and sides. Refrigerate the
-        finished cake.
+        Level the tops of the cooled layers with a serrated knife. Brush each cut side lightly with
+        the apple syrup and save the rest for another use. Spread a third of the frosting over the
+        first layer, set the second on top and cover the top and sides with the rest. Chill for 30
+        minutes to set the frosting before slicing.
 ---
 
 ## Chef's Note
 
-Mercer Street Meals’ carrot cake uses a light brush of strained apple syrup on completely cooled layers. Keep the remaining syrup separate rather than soaking the cakes with the full batch. The cream cheese frosting is mixed from cold brick-style cream cheese and softened butter; chill it while the cakes cool.
+This is the carrot cake from Mercer Street Meals, shared with the Atlanta Journal-Constitution. The secret is a light brush of tart apple syrup on the cooled layers, which keeps the carrot-heavy crumb moist for days. Cold cream cheese keeps the frosting thick and tangy instead of runny.
 
 ## Directions
 
-1. **Prepare pans:** Heat the oven to 350°F. For the original batch, use unsalted butter and all-purpose flour to grease two 8-inch round cake pans with all the pan butter, then divide the dusting flour between them, coating and shaking out excess. Dusting flour is separate from batter flour.
-2. **Mix batter:** Combine all-purpose flour, granulated sugar, baking soda, baking powder, ground cinnamon, ground allspice, ground cloves, freshly grated nutmeg, salt, vegetable oil, large eggs, and carrot until the batter is smooth and all the carrot is distributed. Divide between the prepared pans, keeping similar depth and room to rise.
-3. **Bake and cool:** Bake at 350°F, starting checks around 25–30 minutes for the original pans. Layers should begin pulling slightly from the sides, centers should be set and a tester should have no wet batter. Cool in the pans, then remove carefully once cool. Wait until fully cool before leveling and frosting.
-4. **Make and strain syrup:** Bring Granny Smith apple, granulated sugar, and water to a rolling boil in a small saucepan, then remove from heat. Strain through a sieve and discard the apple solids. Keep the strained syrup for a light brush and reserve the excess separately; the cake does not absorb the whole syrup batch.
-5. **Mix frosting:** Beat brick-style cream cheese, unsalted butter, powdered sugar, vanilla extract, and salt with a stand mixer or electric beaters until smooth, beginning slowly so powdered sugar does not scatter. Start with 3 1/2 cups powdered sugar, taste, and beat in the last 1/2 cup only if you want it sweeter or stiffer. Keep refrigerated while waiting for the cakes.
-6. **Glaze and assemble:** Level the completely cool cakes with a serrated knife. Brush each cut surface lightly with apple syrup: about 1 tbsp per layer is the original-batch guide, not all the syrup. Reserve unused syrup separately in the refrigerator. Spread about one-third of the frosting on the first layer, stack the second and use all the rest over the top and sides. Refrigerate the finished cake.
+1. **Prepare the pans:** Heat the oven to 350°F. Use unsalted butter and all-purpose flour to grease and flour two 8-inch round cake pans, tapping out the excess flour.
+2. **Whisk the dry ingredients:** In a medium bowl, whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground allspice, ground cloves, nutmeg, and salt until evenly mixed.
+3. **Whisk the wet ingredients:** In a large bowl, whisk granulated sugar, vegetable oil, and large eggs until smooth and glossy, about 1 minute.
+4. **Make the batter:** Stir the dry ingredients into the wet just until no flour shows. Fold in carrots until evenly mixed, then divide the batter between the pans and smooth the tops.
+5. **Bake the layers:** Bake until the edges pull away from the pans and a toothpick in the center comes out clean, 25 to 30 minutes. Cool in the pans for 15 minutes, then turn the layers out onto a rack and cool completely, about 1 hour.
+6. **Make the apple syrup:** While the cakes bake, bring Granny Smith apple, granulated sugar, and water to a rolling boil in a small saucepan, then take it off the heat. Strain out and discard the apple, and let the syrup cool.
+7. **Beat the butter:** Beat unsalted butter, powdered sugar, vanilla extract, and salt with a mixer, starting on low, until no dry sugar remains and the mixture is a thick, creamy paste, about 3 minutes. Start with the smaller amount of powdered sugar.
+8. **Add the cream cheese:** Add brick-style cream cheese in chunks and beat on medium just until smooth and creamy, about 1 minute. Taste and beat in the rest of the sugar if you want it sweeter. Chill the frosting until the cakes are cool.
+9. **Brush and frost:** Level the tops of the cooled layers with a serrated knife. Brush each cut side lightly with the apple syrup and save the rest for another use. Spread a third of the frosting over the first layer, set the second on top and cover the top and sides with the rest. Chill for 30 minutes to set the frosting before slicing.
