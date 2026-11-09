@@ -20,24 +20,28 @@ cuisines:
 role: side
 vibe: quick
 prepTime: 2 min
-cookTime: 5 min
+cookTime: 13 min
 totalTime: 15 min
-servings: 4 small side portions
+servings: '4'
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
 pairsWith:
-  - miso-salmon-with-bok-choy
-  - honey-sriracha-salmon-bowls
-  - pad-thai
+  - spicy-tuna-roll
+  - sticky-miso-salmon-bowl
+  - chicken-katsu-curry
+pairingNotes:
+  spicy-tuna-roll: The classic sushi-night snack.
+  sticky-miso-salmon-bowl: Salty pods to start a Japanese bowl dinner.
+  chicken-katsu-curry: A light starter before a rich curry.
 ingredients:
-  - 450 g frozen unsalted edamame in pods
-  - '1.5 liters water, or enough for the pods to circulate freely'
-  - '2 tbsp kosher salt (or 1 tbsp fine salt), for the cooking water'
-  - '1/2 tsp flaky sea salt, added gradually to taste'
-  - '1/2 tsp toasted sesame oil, optional'
-  - '1/4 tsp red pepper flakes, optional'
+  - 1 lb frozen edamame in pods
+  - 6 cups water
+  - 2 tbsp kosher salt
+  - 1/2 tsp flaky sea salt
+  - 1/2 tsp toasted sesame oil (optional)
+  - 1/4 tsp red pepper flakes (optional)
 origin: Japan
 description: >-
   Frozen edamame pods cooked until the beans are tender, drained well, and lightly seasoned while
@@ -46,80 +50,30 @@ equipment:
   - 4-quart-saucepan
   - colander
 learning:
-  focus: 'Check the bean inside, then season the drained pods'
-  outcome: 'Hot, tender, seasoned beans with a little bite, in well-drained pods carrying a light salt finish.'
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Choose unsalted frozen pods and read their cooking instructions. Blanched, fully cooked and
-      uncooked products do not necessarily need the same heating time.
-    - >-
-      The 450 g weight includes pods, which are discarded. These are four small sides, not four 112
-      g portions of shelled beans.
-  checkpoints:
-    - step: 2
-      cue: >-
-        A bean from the center of a pod is hot and tender through the middle, without a hard chalky
-        center.
-      why: >-
-        Pod color can look green before the beans are fully cooked; the edible part is the useful
-        texture check.
-    - step: 3
-      cue: No cooking water pools under the pods before seasoning.
-      why: >-
-        Excess surface water washes seasoning into the bottom of the bowl rather than leaving it on
-        the pods.
-    - step: 4
-      cue: A tasted bean and its lightly salted pod edge give a pleasant seasoning level.
-      why: >-
-        Much of the finishing salt stays on the inedible pod. Different salt crystals and presalted
-        products change what reaches each bite.
-  troubleshooting:
-    - problem: Pods are salty but beans are bland
-      cause: The cooking water was not salted enough, so finishing salt remains mostly on the outside.
-      fix: >-
-        Eat the beans by drawing them from the pod, or shell and season the beans lightly. Next time
-        salt the cooking water well. Extra finishing salt will not season the interior evenly.
-    - problem: Beans are mushy
-      cause: They cooked longer than that frozen product needed.
-      fix: >-
-        Drain promptly. Next time follow the product instructions and check texture at the first
-        stated endpoint.
   substitutions:
-    - ingredient: 1/2 tsp flaky sea salt
-      alternative: 'A small pinch of fine salt, then more only after tasting'
-      effect: >-
-        Fine salt dissolves and seasons effectively, but its denser spoonful is not equivalent to the
-        same volume of large flakes.
-  timing: >-
-    About 15 minutes includes heating the pot, typically 4–5 minutes cooking once boiling resumes,
-    draining and seasoning. Follow any longer cooking requirement on the package.
+    - ingredient: kosher salt
+      alternative: Fine salt
+      effect: Use 1 tbsp, since fine salt is denser.
+    - ingredient: flaky sea salt
+      alternative: Fine salt
+      effect: Use a small pinch. It seasons the same but has no crunch.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Cool promptly in shallow portions.
-    For best texture use within 2 days; do not leave a communal bowl out for extended snacking.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Namiko Hirasawa Chen — Edamame pod types, bean texture and serving'
-      url: 'https://www.justonecookbook.com/edamame/'
+    Keeps 3 days in the fridge. Eat cold or rewarm in boiling water for a minute.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This is the site's simple boiled-pod preparation. Well-salted cooking water seasons the beans inside the pods, and a little flaky salt after draining adds a salty finish to the pod for each bite. Flaky salt adds texture; fine salt also works in a smaller amount. The bean should be tender with a little bite. Discard the fibrous pod after releasing the beans.
+Edamame is the easiest side there is, and the snack every sushi bar starts with. Boiling the pods in well-salted water seasons the beans inside, and flaky salt on the hot pods gives you a salty bite as you pop the beans out.
 
 ## Directions
 
-1. **Heat water:** Bring the measured water to a rolling boil in a 4-quart saucepan and stir in the cooking-water salt. Read the frozen edamame package so its required cooking time is clear before adding the pods.
-2. **Cook the pods:** Add frozen edamame and return to a boil. Cook according to the package, commonly about 4–5 minutes after boiling resumes. Open one pod carefully, let a bean cool enough to taste, and check that it is hot and tender through its center. Continue if still firm inside, and do not shorten a stated minimum cooking requirement just because the pods are green.
-3. **Drain thoroughly:** Pour into a colander, shake off water, and let steam escape briefly. Transfer the hot pods to a bowl.
-4. **Season gradually:** Toss with optional sesame oil. Taste a bean first. Add about half the flaky salt, then more only as needed; the whole amount may not be necessary. Add optional pepper flakes.
-5. **Serve:** Divide into four small side bowls and provide a bowl for discarded pods. Release the beans from the pods and eat the beans; do not eat the fibrous pods. If adding edamame to a composed bowl, shell the cooked beans first.
+1. **Boil the water:** Bring the water to a rolling boil in a 4-quart saucepan and stir in the kosher salt.
+2. **Cook the edamame:** Add the frozen edamame and return to a boil. Cook until a bean from the center of a pod is hot and tender with a little bite, 4 to 5 minutes.
+3. **Drain:** Drain in a colander and shake off the water.
+4. **Season and serve:** Toss the hot pods in a bowl with the sesame oil, flaky salt and pepper flakes. Serve with an empty bowl for the pods.

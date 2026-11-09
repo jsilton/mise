@@ -28,114 +28,55 @@ cookTime: 0 min
 totalTime: 30 min
 advancePrep:
   - macerate
-servings: 8 small side portions
+servings: '8'
 pairsWith:
-  - seared-scallops-with-a-corn-bacon-and-avocado-relish
   - herb-marinated-pork-tenderloins
-  - one-pan-citrus-beets-roasted-chicken
+  - seared-salmon-with-summer-vegetables
+  - grilled-chicken-with-herbed-corn-salsa
+pairingNotes:
+  herb-marinated-pork-tenderloins: Sweet peaches are classic with pork.
+  seared-salmon-with-summer-vegetables: A bright, juicy side for rich salmon.
+  grilled-chicken-with-herbed-corn-salsa: A summer cookout plate.
 ingredients:
   - '3 ripe but firm peaches, pitted and cut into wedges'
-  - >-
-    2 large ripe avocados, pitted, peeled and cut into wedges just before
-    serving
-  - '1 Fresno chile, stem removed and thinly sliced, use less for milder heat'
+  - '2 large ripe avocados, pitted, peeled and cut into wedges'
+  - '1 Fresno chile, thinly sliced'
   - 3 tbsp fresh lemon juice
   - 3 tbsp extra-virgin olive oil
   - 2 tsp honey
   - '1 shallot, finely chopped'
   - '1/4 cup roasted shelled pistachios, chopped'
   - '1/2 cup fresh mint leaves, torn if large'
-  - 'Salt and black pepper, to taste'
+  - 'kosher salt and black pepper, to taste'
 origin: American summer cooking
-source: 'Adapted from Country Living, Spicy Peach and Avocado Salad'
+source: Adapted from Country Living
 description: >-
   Peach wedges rested in a chile-lemon dressing, then gently combined with
   avocado, mint and roasted pistachios.
 learning:
-  focus: Rest dressed peaches without crushing ripe fruit
-  outcome: >-
-    Distinct peach and avocado wedges with a bright chile dressing, fragrant
-    mint and crisp pistachios.
   techniques:
     - seasoning
-  before:
-    - >-
-      Wash peaches and chile and dry the mint. Use fruit that is ripe but holds
-      a wedge; very soft peaches may collapse during tossing.
-    - >-
-      Prepare avocado near serving. Lemon dressing does not prevent browning
-      indefinitely, so do not slice avocado at the start of a long wait.
-    - >-
-      Use a bowl large enough to lift the wedges gently. Larger batches need
-      wider bowls or multiple bowls rather than a deep pile of fruit.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Peaches have released a little juice into the dressing but retain
-        distinct wedges.
-      why: >-
-        The short rest lets juice and seasoning mingle; vigorous tossing would
-        break ripe fruit.
-    - step: 3
-      cue: Avocado pieces stay intact as they receive a thin coating.
-      why: Avocado softens under pressure; use a broad spoon and minimal folding.
-    - step: 4
-      cue: Mint is fresh and pistachios remain crisp at serving.
-      why: >-
-        Add these near service rather than leaving them in liquid during the
-        peach rest.
-  troubleshooting:
-    - problem: Peaches break apart
-      cause: They were overripe or tossed too vigorously.
-      fix: >-
-        Stop stirring and serve as a spooned fruit salad. Choose ripe but firm
-        fruit and lift gently next time.
-    - problem: Chile overwhelms the fruit
-      cause: The individual chile was hotter than expected.
-      fix: >-
-        Start with less chile in the dressing. Once mixed, removing visible
-        slices will not remove heat already dispersed in the juices.
   substitutions:
     - ingredient: Fresno chile
-      alternative: 'Less of the listed chile, or omit it'
-      effect: >-
-        Makes a milder or non-spicy version without changing the fruit and
-        dressing balance.
-    - ingredient: Roasted pistachios
-      alternative: The same volume of toasted pumpkin seeds
-      effect: >-
-        A different crunch and flavor; use separately prepared seeds and account
-        for product ingredients if dietary restrictions matter.
-  timing: >-
-    About 30 minutes includes 15 minutes preparing fruit and dressing plus the
-    15-minute peach rest. Avocado slicing and final assembly fit near the end of
-    that rest. Roasted, shelled pistachios are assumed.
-  storage: >-
-    Keep prepared components refrigerated at 40°F / 4°C or below until serving.
-    Refrigerate perishable leftovers within 2 hours, or 1 hour above 90°F /
-    32°C. Use the assembled salad by the next day for quality; fruit releases
-    juices and herbs and crisp toppings soften. Store any unused dressing
-    separately and stir again before using. Do not freeze the assembled salad.
-  sources:
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+      alternative: Red jalapeño
+      effect: Similar heat and color. Use half for milder heat.
+    - ingredient: roasted shelled pistachios
+      alternative: Toasted pumpkin seeds
+      effect: The same crunch for a nut-free salad.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 sourceUrl: >-
   https://www.countryliving.com/food-drinks/recipes/a43551/spicy-peach-avocado-salad-recipe/
 ---
 
 ## Chef's Note
 
-Let the peach wedges rest gently in the chile-lemon dressing, then fold in avocado and mint just before serving. The peaches keep their shape while their juices join the dressing; pistachios stay crisp when scattered over the top last. Adapted from [Country Living’s Spicy Peach and Avocado Salad](https://www.countryliving.com/food-drinks/recipes/a43551/spicy-peach-avocado-salad-recipe/).
+A summer salad from Country Living. Peach wedges sit for a few minutes in a lemon, honey and chile dressing, so their juice becomes part of it. Avocado and mint go in at the last minute, and pistachios on top add crunch.
 
 ## Directions
 
-1. **Mix dressing:** Whisk lemon juice, oil, honey and shallot in a wide bowl. Add some or all of the sliced chile according to desired heat. Season with salt and pepper.
-
-2. **Rest peaches:** Add peach wedges and lift gently through the dressing. Let stand for 15 minutes while preparing the finishing ingredients; do not toss vigorously or leave the fruit in a warm spot.
-
-3. **Fold in avocado:** Pit, peel and slice avocado near the end of the rest. Add avocado and mint and fold gently just enough to coat.
-
-4. **Serve:** Transfer to a platter, spooning over the peach juices and dressing. Scatter with pistachios and add black pepper only if needed. Serve promptly.
+1. **Make the dressing:** Whisk the lemon juice, olive oil, honey, shallot and chile in a wide bowl. Season with salt and pepper.
+2. **Rest the peaches:** Add the peaches and turn them gently in the dressing. Let them sit for 15 minutes, until they release a little juice.
+3. **Fold in the avocado:** Cut the avocados near the end of the rest. Add them with the mint and fold gently just until coated.
+4. **Plate and serve:** Spoon the salad and its juices onto a platter. Scatter the pistachios over the top, add a grind of pepper and serve right away.

@@ -24,23 +24,25 @@ advancePrep: []
 servings: '4'
 pairsWith:
   - coconut-jasmine-rice
+pairingNotes:
+  coconut-jasmine-rice: Jasmine rice for the savory glaze.
 ingredients:
   - '--- Chicken ---'
-  - '450 g boneless skinless chicken breast, sliced across the grain about 1/4 inch thick'
-  - '1 tbsp water, for the chicken'
+  - '1 lb boneless skinless chicken breast, sliced 1/4 inch thick across the grain'
+  - 1 tbsp water
   - 1 tsp cornstarch
-  - '2 tsp light soy sauce, for the chicken'
-  - '--- Vegetables and cooking ---'
-  - '450 g Japanese or Chinese eggplant, trimmed and cut into 1-inch pieces'
-  - '3 tbsp neutral oil, divided'
-  - '3 tbsp water, for steaming the eggplant, plus small splashes if needed'
-  - '3 cloves garlic, finely chopped'
-  - 1 tbsp finely chopped fresh ginger
-  - '1 to 3 Thai bird chiles, stemmed; use fewer for milder heat'
+  - 2 tsp light soy sauce
+  - '--- Vegetables ---'
+  - '1 lb Japanese or Chinese eggplant, cut into 1-inch pieces'
+  - 3 tbsp neutral oil
+  - '3 tbsp water, for steaming'
+  - '3 cloves garlic, pounded to a coarse paste with the chiles'
+  - '1 to 3 Thai bird chiles, stemmed'
+  - '1 tbsp fresh ginger, finely chopped'
   - '3 scallions, thinly sliced, whites and greens separated'
-  - 20 g Thai basil leaves
+  - 1 cup loosely packed Thai basil leaves
   - '--- Sauce ---'
-  - 1/4 cup (60 ml) unsalted chicken stock
+  - 1/4 cup unsalted chicken stock
   - 1 tbsp oyster sauce
   - 2 tsp fish sauce
   - 1 tsp light soy sauce
@@ -59,94 +61,43 @@ equipment:
   - 12-inch-skillet-with-lid
   - instant-read-thermometer
 learning:
-  focus: 'Brown eggplant, then cook its center gently'
-  outcome: 'Soft, intact eggplant and tender chicken with a light coating of sauce and fresh basil aroma.'
   techniques:
     - stir-frying
     - temperature
     - seasoning
-  before:
-    - >-
-      Read and prepare the whole recipe before heating the skillet. Keep chicken refrigerated while
-      preparing vegetables and sauce.
-    - >-
-      This is a chicken-and-eggplant main; rice is a separate preparation. It is distinct from
-      holy-basil pad kra pao.
-  checkpoints:
-    - step: 3
-      cue: Eggplant has browned cut faces and a center that yields easily when pressed with a spatula.
-      why: >-
-        Surface color can develop before the center softens. A small covered water addition finishes
-        the interior without repeated oil additions.
-    - step: 4
-      cue: Several of the thickest chicken slices reach 165°F / 74°C.
-      why: >-
-        Thin slices cook quickly, but a brown exterior or disappearance of pink cannot verify the
-        center.
-    - step: 6
-      cue: Sauce lightly coats the ingredients; basil is just wilted and still fragrant.
-      why: Brief finishing protects the soft eggplant and limits the loss of fresh herb aroma.
-  troubleshooting:
-    - problem: Eggplant is browned but firm inside
-      cause: The pieces were large or the pan dried before steam softened them.
-      fix: >-
-        Lower the heat, add a tablespoon of water, cover briefly, and check again before adding
-        chicken.
-    - problem: Chicken sticks immediately
-      cause: The pan was crowded or the coating was disturbed before it set.
-      fix: >-
-        Give the slices a short undisturbed contact, then lift gently. Cook in two batches if they
-        overlap; do not add extra dry starch.
-    - problem: Sauce tastes too salty
-      cause: Condiment brands vary or the glaze reduced too far.
-      fix: >-
-        Add a small splash of water and stop reducing. Next time reduce the fish sauce or oyster sauce slightly;
-        rice should accompany the dish, not conceal an over-salted glaze.
   substitutions:
     - ingredient: Thai bird chiles
-      alternative: '1 serrano chile, finely chopped with the garlic'
+      alternative: 1 serrano chile
+      effect: Milder, greener heat. Chop it finely with the garlic and seed it for kids.
+    - ingredient: Thai basil
+      alternative: Italian basil
+      effect: Sweeter and softer, without the anise bite.
+    - ingredient: chicken breast
+      alternative: Ground chicken
       effect: >-
-        Milder, greener heat with less of the bird chile's sharp, fruity burn. Seed it for kids.
-    - ingredient: Sliced chicken breast and its starch marinade
-      alternative: '450 g ground chicken, without the water, cornstarch, or marinade soy'
-      effect: >-
-        Gives a finer texture that clings to eggplant. Break it into small pieces and cook to 165°F
-        / 74°C before the final sauce; taste the finished dish before adding any replacement soy.
+        Skip the water, cornstarch and soy coating. Break it into small pieces as it cooks.
     - ingredient: Japanese or Chinese eggplant
-      alternative: 450 g trimmed globe eggplant in 1-inch pieces
-      effect: >-
-        Thicker skin and different seediness change the texture; allow extra covered cooking if
-        needed. Salting is not a guarantee against oil absorption.
-  timing: >-
-    About 50 minutes includes preparation, two eggplant batches, chicken cooking, and the short
-    finish. Rice is prepared separately.
+      alternative: Globe eggplant
+      effect: Thicker skin and more seeds. It may need a few more minutes covered.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Eggplant softens further and basil
-    darkens; reheat gently with a splash of water.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Pailin Chongchitnant — Eggplant stir-fry: separate browning and a late basil finish'
-      url: 'https://hot-thai-kitchen.com/eggplant-chili-paste-stir-fry/'
+    Keeps 3 days in the fridge. Reheat gently with a splash of water. The basil will darken.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from thewoksoflife.com
+    date: '2026-11-09'
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/japanese-eggplant-chicken-thai-basil-stir-fry/'
 ---
 
 ## Chef's Note
 
-This Thai-inspired home stir-fry combines the site's two overlapping chicken-and-eggplant recipes. Thai basil gives an anise-like aroma; the dish is not pad kra pao, which centers on holy basil. Brown the eggplant in measured oil, then use a little steam to soften it. Its interior should be yielding, not crunchy. A thin starch coating on the chicken gives the sauce a little body without turning it into a thick gravy.
+A Thai-style home stir-fry of silky eggplant and tender sliced chicken in an oyster and fish sauce glaze. Bird chiles pounded with garlic give it real heat, and a big handful of Thai basil at the end gives it its sweet, anise-like perfume. Brown the eggplant first, then steam it briefly so the inside turns creamy.
 
 ## Directions
 
-1. **Prepare the chicken:** Toss chicken with its tablespoon of water, cornstarch, and 2 tsp light soy sauce. Refrigerate while preparing the other ingredients, about 10–15 minutes.
-2. **Organize the finish:** Mix stock, oyster sauce, fish sauce, sauce soy, dark soy, sugar, and white pepper. Pound the garlic and chiles together into a coarse paste in a mortar, or chop them finely together. Prepare ginger, scallion whites and greens, and basil separately. Divide eggplant into two batches.
-3. **Brown and soften eggplant:** Heat 1 tbsp oil in a 12-inch lidded skillet over medium-high heat. Add half the eggplant in one layer; cook about 4–5 minutes, turning to brown two cut faces. Lower to medium, carefully add 1 1/2 tbsp water, cover, and cook about 3–5 minutes until the center yields easily. Uncover and let residual water evaporate. Transfer to a bowl. Repeat with the second half, another tablespoon oil, and remaining steaming water. Use small additional splashes only if the pan dries while the center is still firm.
-4. **Cook chicken:** Add 2 tsp of the remaining oil over medium-high heat. Spread chicken in one layer, using two batches if needed. Leave about 1–2 minutes, then turn and stir-fry until several thick slices reach 165°F / 74°C, usually about 4–6 minutes total per batch. Transfer to a clean bowl.
-5. **Warm aromatics:** Reduce heat to medium and add the final 1 tsp oil. Stir the garlic-chile paste, ginger, and scallion whites for about 30–45 seconds until fragrant without darkening. Stir the mixed sauce again and pour it in; bring to a brief simmer.
-6. **Glaze and finish:** Return chicken and eggplant. Fold gently for about 1–2 minutes until hot and lightly glazed; add a small splash of water if the coating becomes sticky. Turn off heat, fold in basil and scallion greens, and serve promptly in four portions with separately prepared rice.
+1. **Coat the chicken:** Toss the chicken with the water, cornstarch and light soy sauce from the chicken list. Let it sit while you prep everything else, 10 to 15 minutes.
+2. **Mix the sauce:** Stir the stock, oyster sauce, fish sauce, light soy sauce, dark soy sauce, sugar and white pepper together in a small bowl.
+3. **Cook the first batch:** Heat a third of the oil in a 12-inch skillet with a lid over medium-high heat. Add half the eggplant in one layer and cook, turning, until two sides are browned, 4 to 5 minutes. Lower the heat to medium, add half the steaming water, cover and cook until the centers are soft, 3 to 5 minutes. Uncover, let the water cook off and move to a bowl.
+4. **Cook the second batch:** Repeat with another third of the oil, the rest of the eggplant and the rest of the water.
+5. **Cook the chicken:** Turn the heat to medium-high and add most of the remaining oil. Spread the chicken in one layer and leave it for 1 to 2 minutes, then stir-fry until cooked through (165°F), 4 to 6 minutes. Move to the bowl with the eggplant.
+6. **Fry the aromatics:** Lower the heat to medium and add the last of the oil. Stir in the garlic-chile paste, ginger and scallion whites until fragrant, 30 to 45 seconds. Stir the sauce and pour it in, then bring it to a simmer.
+7. **Glaze and serve:** Return the chicken and eggplant and fold gently until hot and glazed, 1 to 2 minutes. Take the pan off the heat, fold in the basil and scallion greens and serve.
