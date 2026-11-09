@@ -47,7 +47,7 @@ export const dishVisuals: Record<
   'apple-pie': {
     file: 'apple-pie.webp',
     title: 'Apple Pie',
-    alt: 'One generous slice of double-crust apple pie on its side, the flaky golden top crust sparkling with a little sugar, thick layers of tender sliced apples visible in the cut side.',
+    alt: 'A triangular wedge of double-crust apple pie with a flaky, sugared golden top crust and layers of tender sliced apples in the cut side.',
   },
   'arugula-feta-salad': {
     file: 'arugula-feta-salad.webp',
@@ -1807,7 +1807,7 @@ export const dishVisuals: Record<
   'master-sushi-rice': {
     file: 'master-sushi-rice.webp',
     title: 'Sushi Rice (Shari)',
-    alt: 'A neat, gently rounded mound of glossy short-grain sushi rice with distinct, lightly clinging grains.',
+    alt: 'A small white bowl of glossy white short-grain sushi rice in a rounded mound.',
   },
   'mediterranean-chicken-bowls': {
     file: 'mediterranean-chicken-bowls.webp',
@@ -2057,7 +2057,7 @@ export const dishVisuals: Record<
   'paella-valenciana': {
     file: 'paella-valenciana.webp',
     title: 'Paella Valenciana',
-    alt: 'A wide, shallow paella pan filled with a thin, even layer of golden saffron rice, studded with browned bone-in pieces of chicken and rabbit and short lengths of flat green beans, the edges slightly caramelized.',
+    alt: 'A wide steel paella pan of golden saffron rice with browned bone-in chicken and rabbit, flat green beans and large white garrofó beans.',
   },
   'pan-fried-noodles-with-shrimp': {
     file: 'pan-fried-noodles-with-shrimp.webp',
