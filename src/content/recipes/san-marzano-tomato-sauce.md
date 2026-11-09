@@ -32,98 +32,46 @@ advancePrep:
   - make-ahead
 pairsWith:
   - stuffed-shells-filled-with-spinach-and-ricotta
-  - shrimp-fettuccine-alfredo
   - baked-chicken-parmesan
+pairingNotes:
+  stuffed-shells-filled-with-spinach-and-ricotta: The sauce to bake the shells under.
+  baked-chicken-parmesan: Spoon it over the chicken before the cheese.
 ingredients:
-  - >-
-    1 can (28 oz) Whole Peeled San Marzano Tomatoes (look for DOP
-    certification), crushed by hand with their juices
-  - 3 tbsp Extra Virgin Olive Oil
-  - >-
-    3 cloves Garlic (smashed whole for subtle infusion, or sliced for bolder
-    flavor)
-  - 1 sprig Fresh Basil (or 1/2 tsp dried oregano)
-  - Salt to taste
+  - '1 can (28 oz) whole peeled DOP San Marzano tomatoes, with their juices'
+  - 3 tbsp extra-virgin olive oil
+  - '3 cloves garlic, smashed'
+  - 1 sprig fresh basil
+  - 'kosher salt, to taste'
 learning:
-  focus: Keep the garlic pale and choose one herb route
-  outcome: >-
-    A lightly thickened tomato sauce using the full oil and the chosen
-    garlic/herb preparation.
   techniques:
     - temperature
-  before:
-    - >-
-      Use vessels with room for the full listed batch plus stirring or bubbling.
-      For larger batches use enough vessels and divide all ingredients
-      proportionally. Temperatures do not scale and heating/reduction times are
-      not linear.
-    - >-
-      Use either the full listed basil sprig amount or the full listed dried
-      oregano amount. Whole smashed garlic can be removed; sliced garlic stays.
-  checkpoints:
-    - step: 1
-      cue: Garlic is fragrant and still pale.
-      why: Thin slices can color sooner than whole smashed cloves.
-    - step: 3
-      cue: A gentle bubble and sauce that lightly coats a spoon.
-      why: >-
-        The short simmer is a consistency check, not a guarantee for every can
-        or pan.
-  timing: >-
-    About 25 minutes elapsed for the original batch, including
-    preparation/heating and roughly 10–15 minutes simmering. Extra vessels or
-    larger liquid loads can add time.
   substitutions:
-    - ingredient: DOP San Marzano tomatoes
-      alternative: >-
-        The same 28 oz can of any good whole peeled plum tomatoes, crushed by
-        hand
+    - ingredient: whole peeled DOP San Marzano tomatoes
+      alternative: Any good whole peeled plum tomatoes
       effect: >-
-        Flavor varies by brand. Some are more acidic or less sweet. Taste after
-        simmering and adjust the salt.
-    - ingredient: Silk Sauce for ravioli
-      alternative: >-
-        Use the same full listed tomato amount as puree or passata, with all the
-        olive oil and whole smashed garlic. Choose the same basil-or-oregano
-        option and follow the main garlic and simmer stages. After simmering
-        remove whole garlic and basil if used, turn off the heat and whisk in
-        additional cold unsalted butter: 1 tbsp for the original batch, scaled
-        proportionally with the batch. Keep the same cold handling and
-        rolling-boil reheating instructions.
+        Flavor varies by brand, and some are more acidic. Taste after simmering and adjust the
+        salt.
+    - ingredient: fresh basil
+      alternative: 1/2 tsp dried oregano
+      effect: Gives a more pizzeria-style flavor. Leave it in the sauce.
+    - ingredient: Silky sauce for ravioli
+      alternative: Passata and butter
       effect: >-
-        The butter finish adds dairy and is not vegan; omit this variation for
-        the vegan or dairy-free main. Keep the full olive oil in either route.
-  storage: >-
-    Refrigerate promptly at 40°F /4°C or below, within 2 hours of preparation or
-    1 hour above 90°F /32°C. Use within 3–4 days or freeze small portions
-    promptly; thaw in the refrigerator. When reheating stored sauce, bring it to
-    a rolling boil while stirring.
-  troubleshooting:
-    - problem: Garlic browns before the tomatoes go in
-      cause: 'The oil is too hot, particularly for thin slices.'
-      fix: >-
-        Lower the heat and follow fragrance and pale color; do not extend the
-        garlic clock automatically.
-  sources:
-    - title: USDA — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+        Use a 28 oz bottle of passata in place of the tomatoes. Whisk 1 tbsp cold butter into the
+        finished sauce off the heat for a glossy finish.
+  storage: The sauce keeps 4 days in the fridge and freezes for 3 months.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This quick Italian-American tomato sauce works with stuffed shells, baked ziti, and eggplant Parmesan. Allow about twenty-five minutes for preparation, warming the pan and tomatoes, and the short simmer. Taste the tomatoes before final seasoning; sweetness and acidity vary by can. The key is restraint: warm the garlic in oil gently without browning it, then let the tomatoes do the work with a short simmer.
+This is the simple Italian-American red sauce behind stuffed shells, baked ziti and chicken Parmesan. San Marzano tomatoes, grown in the volcanic soil near Mount Vesuvius, are sweeter and less acidic than most canned tomatoes. The key is restraint. Warm the garlic gently and let the tomatoes do the work.
 
 ## Directions
 
-1. **The Garlic:** Before you start, empty the can into a bowl and crush the tomatoes by hand into small pieces, pulling out any tough cores or stray skin. Warm olive oil in a saucepan over medium-low heat. Add the smashed or sliced garlic and let it sizzle gently until fragrant and still pale, about 1–2 minutes; thin slices may finish sooner. Lower the heat if the edges begin to color.
-2. **The Tomatoes:** Pour the crushed tomatoes and all their juices into the pan. Add the whole basil sprig or the measured dried oregano. Season with a pinch of salt.
-3. **The Simmer:** Let the sauce bubble gently for 10–15 minutes, stirring occasionally, and a few minutes longer if the hand-crushed tomatoes are watery. The sauce will darken slightly and thicken just enough to coat the back of a spoon.
-4. **Finish:** Remove the whole basil sprig if used. Remove smashed garlic cloves if you want a subtler sauce; leave sliced garlic and dried oregano in the sauce. Taste and adjust salt. Use immediately, or refrigerate promptly in shallow containers within 2 hours (1 hour above 90°F / 32°C). Keep at 40°F / 4°C or below for 3–4 days, or freeze; when reheating, bring the sauce to a rolling boil while stirring. This is a cooked refrigerator sauce, not a canning formula.
-
-## Variations
-
-**Silk Sauce (for ravioli):** Use the same full listed tomato amount as puree or passata instead of crushed tomatoes. Keep all the main olive oil and whole smashed garlic, and choose the same basil-or-oregano option. Follow the main garlic and simmer stages, then discard the whole garlic and basil if used. Turn off heat and whisk in additional cold unsalted butter: 1 tbsp for the original batch, scaled proportionally with the batch. Keep the same cold handling and rolling-boil reheating instructions. This butter variation contains dairy and is not vegan; serve the main without butter for vegan or dairy-free needs.
+1. **Crush the tomatoes:** Empty the can into a bowl and crush the tomatoes by hand into small pieces, pulling out any tough cores.
+2. **Warm the garlic:** Warm the olive oil in a saucepan over medium-low heat. Add the garlic and let it sizzle gently until fragrant and barely golden, 1 to 2 minutes.
+3. **Simmer the sauce:** Add the tomatoes and their juices, the basil sprig and a pinch of salt. Simmer gently, stirring now and then, until the sauce darkens slightly and coats the back of a spoon, 10 to 15 minutes.
+4. **Finish:** Remove the garlic and basil. Taste and season with salt.
