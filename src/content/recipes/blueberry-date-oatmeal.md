@@ -16,7 +16,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: poor
 equipment:
-  - saucepan-or-microwave-safe-bowl
+  - saucepan
   - spoon
 flavorProfile:
   - sweet
@@ -25,101 +25,45 @@ cuisines:
   - American
 role: main
 vibe: nutritious
-prepTime: About 5–10 min active
-cookTime: 'About 5–10 min, plus any package-required cooking'
-totalTime: 'About 15–20 min, plus any separate product cooking'
+prepTime: 5 min
+cookTime: 10 min
+totalTime: 15 min
 servings: '2'
 pairsWith:
-  - avocado-kale-caesar-salad
-  - brownie-protein-balls
-  - banana-oat-greek-yogurt-muffins
+  - fluffy-scrambled-eggs
+pairingNotes:
+  fluffy-scrambled-eggs: Soft eggs add protein to a sweet bowl.
 ingredients:
-  - 1 cup Rolled Oats
-  - 2 tbsp Frozen Riced Cauliflower
-  - 1 1/2 cups Water (all or part may be milk of choice)
-  - '6 Medjool Dates, pitted and finely chopped'
-  - 2 tbsp Coconut Oil
-  - 1/2 cup Frozen Blueberries
-  - Pinch of Sea Salt
-  - 'Ground Cinnamon, to taste'
-  - 'Additional water or milk, as needed to loosen the oatmeal'
+  - 1 cup rolled oats
+  - 1 1/2 cups water or milk
+  - '6 Medjool dates, pitted and finely chopped'
+  - 2 tbsp frozen riced cauliflower
+  - 2 tbsp coconut oil
+  - pinch of sea salt
+  - 1/2 cup frozen blueberries
+  - 'ground cinnamon, for sprinkling'
 source: Adapted from Kids Eat in Color
 learning:
-  focus: Choose one cooking route and check frozen-product instructions
-  outcome: 'Creamy rolled oats with chopped dates, coconut oil and blueberries.'
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Stove and microwave are alternatives, not sequential cooking steps.
-      Frozen-product directions may add a separate cooking stage.
-    - >-
-      When scaling, use a larger saucepan or separate batches. For the
-      microwave, use separate roomy bowls or loads rather than multiplying the
-      original timing in one crowded bowl. Recombine or divide the measured
-      ingredients evenly.
-  checkpoints:
-    - step: 3
-      cue: 'Oats are tender and creamy, without a dry center.'
-      why: Actual rolled-oat thickness and package directions govern cooking.
-    - step: 5
-      cue: >-
-        All measured berries have been added once and are ready under their
-        package instructions, whether cooked with the oats or added at the
-        finish.
-      why: Thawing and cooking are different operations.
-  troubleshooting:
-    - problem: Microwave oatmeal climbs toward the bowl rim.
-      cause: A foaming batch lacks headroom.
-      fix: >-
-        Stop the microwave, let it settle and carefully stir. Use a larger
-        suitable bowl or smaller loads before continuing.
-  storage: >-
-    Refrigerate promptly in a shallow covered container at 40°F / 4°C or below.
-    Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days.
-    Reheat to 165°F / 74°C; oats become softer and thicker.
-  timing: >-
-    Allow about 15–20 minutes for preparation, heating and cooking, plus any
-    separate cooking required by frozen-product directions. Larger batches can
-    take longer.
-  sources:
-    - title: FDA — Selecting and serving produce safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: FoodSafety.gov — Four steps to food safety
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA — Handling leftovers safely
-      url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
+  substitutions:
+    - ingredient: Microwave
+      alternative: A large microwave-safe bowl
+      effect: >-
+        Combine everything but the berries and cinnamon. Microwave on high for 3 minutes, stir, then
+        cook 2 to 3 minutes more until thick and creamy, and finish as in the last step.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Chop the pitted dates finely so they soften into the oats. Coconut oil adds richness to the porridge. Blueberry juice may color the porridge purple; that is normal. Choose the stove or microwave route, and check the frozen cauliflower and berry packages before deciding whether they can simply be warmed in the oats.
+This kid-friendly oatmeal from Kids Eat in Color is sweetened only with Medjool dates, which melt into the oats like caramel. A spoonful of riced cauliflower disappears into the porridge. Fold in the blueberries at the end so they stay whole and the oats don't turn gray.
 
 ## Directions
 
-1. **Prepare:** Check the rolled-oat and frozen cauliflower and blueberry packages. If a frozen product requires cooking before eating, follow its cooking directions; do not rely on a brief off-heat thaw to satisfy them. Cook those products separately first if the oatmeal route will not meet their instructions, retaining all the listed amounts. Remove the date pits and finely chop the flesh.
-
-2. **Combine:** Choose the stovetop OR microwave route. Combine oats, cauliflower, water or milk, chopped dates and all the coconut oil in a saucepan, or in a microwave-safe bowl with generous room for foaming. Use the prepared cauliflower if its package required separate cooking. Keep the berries aside until the finish unless they need cooking with the oats under their package directions.
-
-3. **Stovetop option:** Bring to a gentle boil, then reduce to a simmer. Stir frequently and start checking at 5–7 minutes, following the actual rolled-oat package if it needs longer. Stop when the oats are tender and creamy. If too thick before the oats are tender, add a little of the additional water or milk allowance and continue gently. Skip the microwave step.
-
-4. **Microwave option:** Follow the oatmeal package where it provides microwave directions. Otherwise heat on high for about 3 minutes as a first check, stopping earlier if it rises toward the rim. Carefully stir, then heat in short intervals, checking until the oats are tender and thickened; another 2–3 minutes is a planning range, not a guarantee for every microwave. If too thick before tender, stir in a little of the additional water or milk allowance before continuing. The bowl and steam will be hot. Skip the stovetop step.
-
-5. **Berry finish:** If the measured blueberries already cooked with the oats, leave them in; do not add another amount. Otherwise, off heat, fold in all the measured blueberries if their package allows this use, or fold in the same amount cooked separately as required. Let any berries added frozen thaw and let the oatmeal become comfortable to eat before serving.
-
-6. **Season and serve:** Add the pinch of salt and cinnamon to taste. Divide among the listed portions and serve.
-
-## Cooking Notes
-
-Stove and microwave are alternatives, not sequential cooking steps. Frozen-product directions may add a separate cooking stage.
-
-When scaling, use a larger saucepan or separate batches. For the microwave, use separate roomy bowls or loads rather than multiplying the original timing in one crowded bowl. Recombine or divide the measured ingredients evenly.
-
-Allow about 15–20 minutes for preparation, heating and cooking, plus any separate cooking required by frozen-product directions. Larger batches can take longer.
-
-Refrigerate promptly in a shallow covered container at 40°F / 4°C or below. Limit time out to 2 hours, or 1 hour above 90°F / 32°C. Use within 3–4 days. Reheat to 165°F / 74°C; oats become softer and thicker.
+1. **Combine:** Put the oats, water, dates, cauliflower, coconut oil and salt in a medium saucepan.
+2. **Simmer the oats:** Bring to a gentle boil over medium-high heat, then lower the heat to a simmer. Cook, stirring often, until the oats are tender and creamy, 5 to 7 minutes. Add a splash of water if it gets too thick.
+3. **Fold in the berries:** Take the pan off the heat and fold in the frozen blueberries. Let it sit for 1 minute so the berries thaw. Sprinkle with cinnamon and serve.

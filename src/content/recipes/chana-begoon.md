@@ -18,107 +18,67 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 15 min
-cookTime: 30–40 min
-totalTime: About 45–60 min
+cookTime: 35 min
+totalTime: 50 min
 servings: '4'
 pairsWith:
-  - cucumber-raita
   - basmati-rice
+  - naan
+  - cucumber-raita
+pairingNotes:
+  basmati-rice: Soaks up the spiced tomato gravy.
+  naan: For scooping up chickpeas and gravy.
+  cucumber-raita: Cool yogurt against the chili and spice.
 ingredients:
-  - '1 lb Chinese Eggplant, cut into 1-inch cubes'
-  - '2 cans (15 oz) Chickpeas, rinsed and drained'
-  - '1 large Yellow Onion, finely diced'
-  - '1 tbsp Fresh Ginger, grated'
-  - '3 cloves Garlic, minced'
-  - 1 tsp Cumin Seeds
-  - 1 tsp Turmeric
-  - 1 tsp Garam Masala
-  - 1 tsp Ground Coriander
-  - 1/2 tsp Kashmiri Chili Powder
-  - 1 (14 oz) can Crushed Tomatoes
-  - 'Neutral oil, as needed for roasting'
-  - 'Neutral oil, as needed for sautéing'
-  - 'Salt, to taste'
-  - 'Water, as needed to loosen the gravy'
-  - 'Chopped Fresh Cilantro, to taste'
-  - 'Fresh Lemon Juice, to taste'
+  - '1 lb Chinese eggplant, cut into 1-inch cubes'
+  - '1/4 cup neutral oil, divided'
+  - 'kosher salt, to taste'
+  - '1 large yellow onion, finely diced'
+  - '1 tbsp fresh ginger, grated'
+  - '3 cloves garlic, minced'
+  - 1 tsp cumin seeds
+  - 1 tsp ground turmeric
+  - 1 tsp ground coriander
+  - 1/2 tsp Kashmiri chili powder
+  - 1 can (14 oz) crushed tomatoes
+  - '2 cans (15 oz each) chickpeas, rinsed and drained'
+  - 1 tsp garam masala
+  - 'fresh lemon juice, to taste'
+  - 'fresh cilantro, chopped, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 learning:
-  focus: Finish roasted eggplant in a separately cooked gravy
-  outcome: Tender eggplant pieces and hot chickpeas in a thick spiced tomato gravy.
   techniques:
     - browning
     - seasoning
-  before:
-    - >-
-      Rinse and drain canned chickpeas; dry chickpeas require separate preparation and are not a
-      same-clock substitution.
-    - >-
-      Roasting oil and sautéing oil are distinct genuine allowances. Use enough sheet-pan area to
-      spread the cubes without piling.
-  checkpoints:
-    - step: 1
-      cue: A knife enters an eggplant cube easily; color alone is not tenderness.
-      why: Surface browning can arrive before a large cube softens.
-    - step: 3
-      cue: The tomato gravy thickens without spices blackening at the pan bottom.
-      why: Heat and stirring control scorching; the prior spice-bloom step remains separate.
-  troubleshooting:
-    - problem: Eggplant is brown but firm.
-      cause: Large pieces or insufficient roasting time.
-      fix: Continue until a center yields before folding into the gravy.
-    - problem: Spices blacken.
-      cause: Heat is too high or the gravy is dry against the base.
-      fix: >-
-        Lower heat and use a little listed water allowance before scorching; bitter burnt spices
-        require restarting that base.
   substitutions:
     - ingredient: Kashmiri chili powder
-      alternative: 1/2 tsp sweet paprika plus a pinch of cayenne
+      alternative: Sweet paprika plus a pinch of cayenne
       effect: >-
-        Matches the bright red color and mild warmth. Add cayenne a pinch at a time, since it is
-        much hotter than Kashmiri chili.
+        Gives the same red color and mild heat. Add the cayenne a pinch at a time, since it is much
+        hotter than Kashmiri chili.
     - ingredient: Chinese eggplant
-      alternative: 1 lb globe or Italian eggplant, cut into 1-inch cubes
+      alternative: Globe or Italian eggplant
       effect: >-
-        Thicker skin and more seeds. Peel strips of skin if it is tough, and expect a few more
-        minutes of roasting before the centers are tender.
-  timing: >-
-    Allow about 45–60 minutes including 15–20 minutes preparation, oven heat-up and around 30–40
-    minutes gravy/finishing work. Roast while cooking the gravy; onion browning and extra sheet pans
-    may extend the plan.
-  storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above
-    90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or
-    stew to a boil when reheating, stirring so the center heats too; this is separate from the
-    first-cook instructions.
-  sources:
-    - title: Mise — Chickpea and eggplant curry
-      url: 'https://github.com/jsilton/mise/blob/b244f4b2/src/content/recipes/chana-begoon.md'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — Produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+        The skin is thicker and there are more seeds. Peel off strips of tough skin and expect a few
+        more minutes in the oven.
+  storage: Keeps 4 days in the fridge. Reheat gently with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Roast the eggplant separately until its center is tender and the surfaces have some color, then fold it into the chickpea-and-tomato gravy. That keeps the two cooking stages controllable; it does not guarantee that every eggplant variety holds its shape. Keep the full spices and finish with the listed cilantro and lemon allowance to taste.
+Chana begoon is an Indian chickpea and eggplant curry in a spiced tomato gravy. Roasting the eggplant on its own until browned keeps it from turning to mush, so it folds into the gravy at the end in tender, silky pieces. Lemon juice at the finish brightens the whole pot.
 
 ## Directions
 
-1. **Roast eggplant:** Wash the eggplant before cutting. Preheat oven to 425°F. Toss all cubes with enough of the roasting oil allowance to lightly coat their surfaces and salt to taste. Spread without piling on enough sheet pans for the listed amount. Roast 15–20 minutes as a first check, turning as needed, until golden in places and tender through the center; continue if firm.
-2. **Cook the onion:** While eggplant roasts, heat the separate sautéing oil allowance in a large skillet over medium heat, enough to coat its bottom in a thin film. Add all diced onion and stir until softened and golden, starting checks around 10 minutes; deep browning may take longer. Add all ginger and garlic and stir about 2 minutes without scorching.
-3. **Bloom and simmer:** Add all cumin seeds, turmeric, garam masala, coriander and Kashmiri chili powder and stir 1 minute in the onion base. Add the complete crushed-tomato can and simmer about 10 minutes until thickened, using a little of the listed water allowance if the base catches. Keep heat low enough that spices do not burn.
-4. **Warm the chickpeas:** Add all rinsed, drained canned chickpeas and a splash of the water allowance if needed. Simmer about 5 minutes until the chickpeas are hot and the gravy coats them. This route uses already-cooked canned chickpeas, not dry beans.
-5. **Fold in eggplant:** Fold in all the fully tender roasted eggplant gently and let it warm in the sauce about 2 minutes. Avoid repeated stirring that crushes tender cubes; use additional vessels with the full ingredients divided proportionally for larger batches.
-6. **Finish:** Wash and chop the cilantro. Stir it and the lemon juice in a little at a time using the listed finish allowances. Taste and adjust the listed salt allowance, then serve with separately prepared rice or raita.
+1. **Roast the eggplant:** Heat the oven to 425°F. Toss the eggplant with half the oil and a good pinch of salt and spread it in a single layer on a sheet pan. Roast, turning once, until golden and tender all the way through, 15 to 20 minutes.
+2. **Brown the onion:** While the eggplant roasts, heat the rest of the oil in a large skillet over medium heat. Add the onion and cook, stirring often, until deep golden brown, about 10 minutes. Stir in the ginger and garlic and cook until fragrant, about 2 minutes.
+3. **Bloom the spices:** Add the cumin seeds, turmeric, coriander and chili powder and stir for 1 minute. Add the tomatoes and a pinch of salt and simmer over medium-low heat until thick and the oil starts to separate, about 10 minutes. Add a splash of water if the gravy catches on the pan.
+4. **Add the chickpeas:** Stir in the chickpeas and a splash of water. Simmer until the chickpeas are hot and coated in gravy, about 5 minutes.
+5. **Fold in the eggplant:** Gently fold in the roasted eggplant and the garam masala. Let it warm through in the gravy for 2 minutes without much stirring, so the cubes hold their shape.
+6. **Finish and serve:** Stir in a squeeze of lemon juice. Taste and add more salt or lemon, then scatter with cilantro and serve.

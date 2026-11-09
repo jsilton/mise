@@ -20,36 +20,36 @@ cuisines:
 role: main
 vibe: quick
 prepTime: 10 min
-cookTime: 'About 25 min, longer with extra loads or vegetables'
-totalTime: 'About 40 min, including the 5-minute rest; vegetables may take longer'
+cookTime: 30 min
+totalTime: 45 min
 servings: 4 portions
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 equipment:
-  - large-skillet
+  - large-oven-safe-skillet
 pairsWith:
-  - cilantro-lime-rice
-  - basmati-rice
+  - lemon-herb-couscous
   - charred-asparagus-with-parmesan
+pairingNotes:
+  lemon-herb-couscous: Soaks up the lemony pan sauce.
+  charred-asparagus-with-parmesan: A quick green vegetable.
 ingredients:
-  - '--- Chicken and lemon-herb pan ---'
-  - >-
-    8 bone-in skin-on chicken thighs, raw, fresh or fully thawed; original eight-thigh batch is
-    about 2.5–3 lb total
-  - 3 tbsp olive oil
-  - '4 garlic cloves, peeled and sliced'
-  - '2 tbsp fresh oregano, washed'
-  - '2 tbsp fresh thyme, washed'
-  - '2 lemons, washed, zested and juiced; reserve all juice and zest from these same lemons'
-  - 1/2 cup chicken stock or water
+  - '--- Chicken ---'
+  - '8 bone-in, skin-on chicken thighs'
   - 2 tsp kosher salt
   - 1/2 tsp black pepper
-  - '1 lb potatoes or root vegetables, washed, peeled if wanted and cut into 1-inch pieces, optional'
-  - '1/2 tsp kosher salt for the vegetables, optional'
-  - 'water, enough to cover the vegetables, optional'
-  - 'fresh parsley, as wanted for garnish, washed and chopped'
+  - 3 tbsp olive oil
+  - '4 garlic cloves, sliced'
+  - '2 tbsp fresh oregano, chopped'
+  - 2 tbsp fresh thyme leaves
+  - '2 lemons, zested and juiced'
+  - 1/2 cup chicken stock or water
+  - 'fresh parsley, chopped, for serving'
+  - '--- Vegetables (optional) ---'
+  - '1 lb potatoes or other root vegetables, cut into 1-inch pieces, optional'
+  - '1/2 tsp kosher salt, optional'
 formula:
   version: 1
   yield:
@@ -57,83 +57,20 @@ formula:
     unit: portion
   components:
     - id: pan
-      name: Chicken and lemon-herb pan
+      name: Chicken
       ingredients:
         - id: chicken
-          key: chicken
-          name: bone-in skin-on chicken thigh
+          key: chicken-thigh
+          name: 'bone-in, skin-on chicken thigh'
+          plural: 'bone-in, skin-on chicken thighs'
           quantity:
             amount: 8
             unit: count
           uses:
             - step: sear
               share: 1
-          plural: bone-in skin-on chicken thighs
-          preparation: 'raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total'
-        - id: oil
-          key: oil
-          name: olive oil
-          quantity:
-            amount: 3
-            unit: tbsp
-          uses:
-            - step: sear
-              share: 2/3
-            - step: aromatics
-              share: 1/3
-        - id: garlic
-          key: garlic
-          name: garlic clove
-          quantity:
-            amount: 4
-            unit: count
-          uses:
-            - step: aromatics
-              share: 1
-          plural: garlic cloves
-          preparation: peeled and sliced
-        - id: oregano
-          key: oregano
-          name: fresh oregano
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: aromatics
-              share: 1
-          preparation: washed
-        - id: thyme
-          key: thyme
-          name: fresh thyme
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: aromatics
-              share: 1
-          preparation: washed
-        - id: lemon
-          key: lemon
-          name: lemon
-          quantity:
-            amount: 2
-            unit: count
-          uses:
-            - step: deglaze
-              share: 1
-          plural: lemons
-          preparation: 'washed, zested and juiced; reserve all juice and zest from these same lemons'
-        - id: stock
-          key: stock
-          name: chicken stock or water
-          quantity:
-            amount: 1/2
-            unit: cup
-          uses:
-            - step: deglaze
-              share: 1
         - id: salt
-          key: salt
+          key: kosher-salt
           name: kosher salt
           quantity:
             amount: 2
@@ -142,7 +79,7 @@ formula:
             - step: prep
               share: 1
         - id: pepper
-          key: pepper
+          key: black-pepper
           name: black pepper
           quantity:
             amount: 1/2
@@ -150,185 +87,173 @@ formula:
           uses:
             - step: prep
               share: 1
-        - id: roots
-          key: roots
-          name: potatoes or root vegetables
+        - id: oil
+          key: olive-oil
+          name: olive oil
           quantity:
-            amount: 1
-            unit: lb
+            amount: 3
+            unit: tbsp
           uses:
-            - step: parboil
+            - step: heat
+              share: 2/3
+            - step: aromatics
+              share: 1/3
+        - id: garlic
+          key: garlic
+          name: garlic clove
+          plural: garlic cloves
+          quantity:
+            amount: 4
+            unit: count
+          preparation: sliced
+          uses:
+            - step: aromatics
               share: 1
-          preparation: 'washed, peeled if wanted and cut into 1-inch pieces'
-          optional: true
-        - id: roots-salt
-          key: salt
-          name: kosher salt for the vegetables
+        - id: oregano
+          key: oregano
+          name: fresh oregano
+          quantity:
+            amount: 2
+            unit: tbsp
+          preparation: chopped
+          uses:
+            - step: herbs
+              share: 1
+        - id: thyme
+          key: thyme
+          name: fresh thyme leaves
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: herbs
+              share: 1
+        - id: lemon
+          key: lemon
+          name: lemon
+          plural: lemons
+          quantity:
+            amount: 2
+            unit: count
+          preparation: zested and juiced
+          uses:
+            - step: lemon
+              share: 1
+        - id: stock
+          key: chicken-stock
+          name: chicken stock or water
           quantity:
             amount: 1/2
-            unit: tsp
+            unit: cup
           uses:
-            - step: parboil
+            - step: stock
               share: 1
-          optional: true
-        - id: parboil-water
-          key: water
-          name: water
-          allowance: enough to cover the vegetables
-          uses:
-            - step: parboil
-              share: 1
-          optional: true
-          role: cooking-water
         - id: parsley
           key: parsley
           name: fresh parsley
-          allowance: as wanted for garnish
+          allowance: 'chopped, for serving'
           uses:
             - step: finish
               share: 1
-          preparation: washed and chopped
-          role: garnish
+    - id: vegetables
+      name: Vegetables (optional)
+      ingredients:
+        - id: roots
+          key: potatoes
+          name: potatoes or other root vegetables
+          quantity:
+            amount: 1
+            unit: lb
+          preparation: cut into 1-inch pieces
+          optional: true
+          uses:
+            - step: parboil
+              share: 1
+        - id: roots-salt
+          key: kosher-salt
+          name: kosher salt
+          quantity:
+            amount: 1/2
+            unit: tsp
+          optional: true
+          uses:
+            - step: return
+              share: 1
   steps:
     - id: prep
-      title: Preheat and season
-      text: >-
-        Preheat the oven to 425°F. Use an oven-safe skillet with room for all the measured thighs in
-        one layer and, if using them, the vegetables; use additional oven-safe vessels if necessary.
-        Pat all the measured thighs dry and season both sides with all {{ingredients}}. Divide every
-        measured ingredient proportionally among any extra vessels; do not add extra oil or stock.
+      title: Season the chicken
+      text: 'Heat the oven to 425°F. Pat the chicken dry and season both sides with {{ingredients}}.'
     - id: parboil
-      title: Parboil the optional vegetables
+      title: Parboil the vegetables
       text: >-
-        Skip this step without vegetables. Otherwise use {{ingredients}}: cover the potato or root
-        pieces with cold water in a saucepan, bring to a boil and simmer about 8 minutes, until the
-        edges are just tender and a knife meets some resistance in the center. Drain well, let them
-        steam dry for a minute, then toss with the vegetable salt. Raw 1-inch pieces would still be
-        hard when the chicken is done.
+        Cover {{ingredients}} with cold water in a saucepan and bring to a boil. Simmer until the
+        edges are just tender, about 8 minutes. Drain and let them steam dry.
+    - id: heat
+      title: Heat the pan
+      text: 'Heat {{ingredients}} in a large oven-safe skillet over medium-high heat until it shimmers.'
     - id: sear
       title: Sear the chicken
       text: >-
-        Heat the assigned two-thirds of {{name:pan.oil}} over medium-high heat and use
-        {{ingredients}} for searing. Put chicken skin-side down without crowding; work in loads if
-        needed, using this same measured oil supply across the loads. Cook about 5–6 minutes until
-        deeply golden and releasing from the pan, then turn and cook about 2 minutes. Transfer to a
-        plate; keep all rendered fat in the cooking pan.
+        Add {{ingredients}} skin side down, in batches if they don't fit in one layer. Cook without
+        moving until the skin is deep golden and releases, 5 to 6 minutes. Turn, cook 2 minutes more
+        and move to a plate.
     - id: aromatics
-      title: Cook aromatics
-      text: >-
-        Use {{ingredients}} for this stage. Reduce heat to medium, add the remaining one-third of
-        the measured oil and all the garlic, and sauté for 30–45 seconds until fragrant. Then stir
-        in all the oregano and thyme for about 15 seconds; do not let the garlic blacken.
-    - id: deglaze
-      title: Add lemon and stock
-      text: >-
-        Use {{ingredients}} to deglaze: pour in all the juice from the measured lemons and the stock
-        or water, scrape the browned bits, then stir in all the reserved zest. Keep the whole sauce
-        and rendered fat.
+      title: Cook the garlic
+      text: 'Lower the heat to medium. Add {{ingredients}} and stir until fragrant, 30 to 45 seconds.'
+    - id: herbs
+      title: Add the herbs
+      text: 'Stir in {{ingredients}} for 15 seconds.'
+    - id: lemon
+      title: Add the lemon
+      text: 'Squeeze in the juice of the {{ingredients}} and stir in the zest.'
+    - id: stock
+      title: Deglaze
+      text: 'Pour in {{ingredients}} and scrape up the browned bits from the pan.'
     - id: return
-      title: Return chicken and optional vegetables
+      title: Return the chicken
       text: >-
-        Return all the partly cooked chicken and its plate juices to the pan, skin-side up, keeping
-        skin above the liquid where possible. Nestle the parboiled vegetables, if using, around the
-        thighs. Transfer the oven-safe vessel or vessels to the preheated oven; do not crowd or
-        stack the thighs.
+        Nestle the chicken back in, skin side up, with its juices and the skin above the liquid.
+        Tuck any parboiled vegetables around the thighs and sprinkle them with {{ingredients}}.
     - id: roast
-      title: Finish to temperature and tenderness
+      title: Roast
       text: >-
-        Start checking after 12–15 minutes without vegetables, or 15–18 minutes with them. These are
-        first checks, not guaranteed finishing times. Every thigh must reach 165°F / 74°C in its
-        thickest part away from the bone. Vegetables must be fork-tender; if chicken finishes first,
-        remove it with clean utensils to a clean platter and continue cooking the vegetables and
-        full sauce. Check raw-contact sauce and vegetables reach 165°F / 74°C before tasting or
-        serving them, stirring liquid for a representative reading. Larger loads or different roots
-        can need longer.
+        Roast until the skin is crisp and the chicken reaches 165°F, 12 to 15 minutes. With
+        vegetables, roast 15 to 18 minutes, until they are fork-tender.
     - id: finish
-      title: Rest and garnish
+      title: Rest and serve
       text: >-
-        Rest cooked chicken for 5 minutes. Once chicken and the raw-contact sauce/vegetables have
-        reached their endpoints, taste the sauce and scatter {{ingredients}} over the finished dish.
-        Serve all the sauce and rendered fat with the chicken.
+        Let the chicken rest for 5 minutes. Taste the sauce and add salt or lemon if it needs it,
+        then scatter {{ingredients}} over the top.
 learning:
-  focus: Finish chicken and optional vegetables by separate cues
-  outcome: >-
-    Golden skin above the lemon-herb sauce, cooked thigh centers and fork-tender vegetables if
-    included.
   techniques:
     - temperature
-  before:
-    - >-
-      Use oven-safe vessels rated for 425°F, with room for a single layer of thighs and stirring
-      headroom. Eight is the original thigh count; scale ingredients together and use enough vessels
-      rather than stacking the chicken.
-    - >-
-      Zest and juice the same measured lemons. Choose either the measured fresh herbs or the
-      dried-herb alternative; do not add both. Keep the entire three-tablespoon original oil supply
-      and all rendered fat.
-    - >-
-      One-inch potatoes or other roots can outlast the chicken, so parboil them while the oven
-      heats. Choose the vegetable before planning service, and have a clean platter ready if the
-      chicken finishes first.
-  checkpoints:
-    - step: 3
-      cue: Skin is golden and releases without force.
-      why: >-
-        Allowing the surface to brown makes turning easier; the sear does not cook the centers
-        completely.
-    - step: 7
-      cue: Chicken reaches 165°F / 74°C; optional vegetable centers are fork-tender.
-      why: >-
-        A meat reading does not establish vegetable tenderness or certify a separate pan of
-        raw-contact sauce.
-  troubleshooting:
-    - problem: Chicken is ready while vegetables are firm
-      cause: 'The vegetable choice, piece size or crowded pan needs longer than the chicken.'
-      fix: >-
-        Remove fully cooked chicken with clean utensils and continue the vegetables and sauce to
-        their stated endpoints. Do not serve firm vegetables to meet the first-check time.
   substitutions:
-    - ingredient: Fresh oregano and thyme
-      alternative: >-
-        For the original batch, use 2 tsp dried oregano instead of 2 tbsp fresh oregano, and 2 tsp
-        dried thyme instead of 2 tbsp fresh thyme. Scale the alternative supplies with the full
-        recipe.
-      effect: The dried herbs have a different aroma; retain the lemon and entire oil/stock amounts.
-    - ingredient: Chicken stock
-      alternative: Use the same listed volume of water instead.
-      effect: The sauce has less stock flavor while retaining the same starting liquid amount.
-  timing: >-
-    Allow about 40 minutes for the original batch without vegetables: 10 minutes preparation,
-    roughly 8 minutes searing, about 1 minute aromatics, 12–15 minutes initial roasting and 5
-    minutes resting, with heating and handling between stages. Most searing and finishing are
-    active. Extra sear loads, additional vessels, parboiling vegetables (about 15 minutes,
-    overlapping the searing) and vegetable finishing extend elapsed time; none of the temperatures
-    or clocks multiplies with ingredients.
-  storage: >-
-    Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or
-    below. Use within 3–4 days. Reheat chicken, vegetables and sauce to 165°F / 74°C throughout;
-    USDA additionally recommends bringing reheated sauces to a rolling boil, stirring. Keep that
-    boil brief rather than prolonged, which may concentrate the lemon sauce.
-  sources:
-    - title: FDA safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA cooked leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: fresh oregano
+      alternative: Dried oregano and thyme
+      effect: >-
+        Use 2 tsp dried oregano and 2 tsp dried thyme in place of both fresh herbs. The sauce tastes
+        a little earthier.
+  storage: Keeps 4 days in the fridge. Reheat covered with the sauce at 350°F until hot.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Lemon, oregano and thyme give this skillet chicken its Mediterranean-style flavor. Brown the skin first, keep it above the sauce while roasting where possible, and judge thigh temperature and optional vegetable tenderness separately.
+Lemon, garlic, oregano and thyme make a bright Mediterranean pan sauce for crisp chicken thighs. Sear the skin hard first, then roast the thighs skin side up above the sauce so it stays crisp. Add potatoes and the whole dinner comes out of one skillet.
 
 ## Directions
 
-1. **Preheat and season:** Preheat the oven to 425°F. Use an oven-safe skillet with room for all the measured thighs in one layer and, if using them, the vegetables; use additional oven-safe vessels if necessary. Pat all the measured thighs dry and season both sides with all kosher salt and black pepper. Divide every measured ingredient proportionally among any extra vessels; do not add extra oil or stock.
-2. **Parboil the optional vegetables:** Skip this step without vegetables. Otherwise use potatoes or root vegetables (if using), kosher salt for the vegetables (if using), and water (if using): cover the potato or root pieces with cold water in a saucepan, bring to a boil and simmer about 8 minutes, until the edges are just tender and a knife meets some resistance in the center. Drain well, let them steam dry for a minute, then toss with the vegetable salt. Raw 1-inch pieces would still be hard when the chicken is done.
-3. **Sear the chicken:** Heat the assigned two-thirds of olive oil over medium-high heat and use bone-in skin-on chicken thighs and 2/3 of the olive oil for searing. Put chicken skin-side down without crowding; work in loads if needed, using this same measured oil supply across the loads. Cook about 5–6 minutes until deeply golden and releasing from the pan, then turn and cook about 2 minutes. Transfer to a plate; keep all rendered fat in the cooking pan.
-4. **Cook aromatics:** Use 1/3 of the olive oil, garlic cloves, fresh oregano, and fresh thyme for this stage. Reduce heat to medium, add the remaining one-third of the measured oil and all the garlic, and sauté for 30–45 seconds until fragrant. Then stir in all the oregano and thyme for about 15 seconds; do not let the garlic blacken.
-5. **Add lemon and stock:** Use lemons and chicken stock or water to deglaze: pour in all the juice from the measured lemons and the stock or water, scrape the browned bits, then stir in all the reserved zest. Keep the whole sauce and rendered fat.
-6. **Return chicken and optional vegetables:** Return all the partly cooked chicken and its plate juices to the pan, skin-side up, keeping skin above the liquid where possible. Nestle the parboiled vegetables, if using, around the thighs. Transfer the oven-safe vessel or vessels to the preheated oven; do not crowd or stack the thighs.
-7. **Finish to temperature and tenderness:** Start checking after 12–15 minutes without vegetables, or 15–18 minutes with them. These are first checks, not guaranteed finishing times. Every thigh must reach 165°F / 74°C in its thickest part away from the bone. Vegetables must be fork-tender; if chicken finishes first, remove it with clean utensils to a clean platter and continue cooking the vegetables and full sauce. Check raw-contact sauce and vegetables reach 165°F / 74°C before tasting or serving them, stirring liquid for a representative reading. Larger loads or different roots can need longer.
-8. **Rest and garnish:** Rest cooked chicken for 5 minutes. Once chicken and the raw-contact sauce/vegetables have reached their endpoints, taste the sauce and scatter fresh parsley over the finished dish. Serve all the sauce and rendered fat with the chicken.
+1. **Season the chicken:** Heat the oven to 425°F. Pat the chicken dry and season both sides with kosher salt and black pepper.
+2. **Parboil the vegetables:** Cover potatoes or other root vegetables (if using) with cold water in a saucepan and bring to a boil. Simmer until the edges are just tender, about 8 minutes. Drain and let them steam dry.
+3. **Heat the pan:** Heat 2/3 of the olive oil in a large oven-safe skillet over medium-high heat until it shimmers.
+4. **Sear the chicken:** Add bone-in, skin-on chicken thighs skin side down, in batches if they don't fit in one layer. Cook without moving until the skin is deep golden and releases, 5 to 6 minutes. Turn, cook 2 minutes more and move to a plate.
+5. **Cook the garlic:** Lower the heat to medium. Add 1/3 of the olive oil and garlic cloves and stir until fragrant, 30 to 45 seconds.
+6. **Add the herbs:** Stir in fresh oregano and fresh thyme leaves for 15 seconds.
+7. **Add the lemon:** Squeeze in the juice of the lemons and stir in the zest.
+8. **Deglaze:** Pour in chicken stock or water and scrape up the browned bits from the pan.
+9. **Return the chicken:** Nestle the chicken back in, skin side up, with its juices and the skin above the liquid. Tuck any parboiled vegetables around the thighs and sprinkle them with kosher salt (if using).
+10. **Roast:** Roast until the skin is crisp and the chicken reaches 165°F, 12 to 15 minutes. With vegetables, roast 15 to 18 minutes, until they are fork-tender.
+11. **Rest and serve:** Let the chicken rest for 5 minutes. Taste the sauce and add salt or lemon if it needs it, then scatter fresh parsley over the top.
+

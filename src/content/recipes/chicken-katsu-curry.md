@@ -40,129 +40,69 @@ servings: '4'
 pairsWith:
   - steamed-white-rice
   - japanese-cucumber-sunomono
+pairingNotes:
+  steamed-white-rice: Katsu curry always comes with plain rice.
+  japanese-cucumber-sunomono: A cool, tangy pickle against the rich curry.
 ingredients:
-  - '--- Vegetable curry sauce ---'
-  - 30 g unsalted butter
-  - '150 g yellow onion, finely diced'
+  - '--- Curry sauce ---'
+  - 2 tbsp unsalted butter
+  - '1 medium yellow onion, finely diced'
   - '2 cloves garlic, minced'
-  - 1 tbsp minced fresh ginger
-  - '30 g all-purpose flour, reserved only for the sauce'
+  - '1 tbsp fresh ginger, minced'
+  - 1/4 cup all-purpose flour
   - 2 tbsp Japanese curry powder
   - 1 tbsp tomato paste
-  - '2 cups (480 ml) unsalted chicken stock, plus a little water if needed'
+  - 2 cups unsalted chicken stock
   - '1 tbsp soy sauce, plus more to taste'
   - 1 tbsp mirin
-  - '1/2 small apple (about 75 g), peeled and finely grated'
-  - '3/4 tsp fine salt, for the sauce'
-  - '100 g carrot, cut into 1/4-inch dice'
-  - '150 g potato, peeled and cut into 1/2-inch dice'
-  - 75 g frozen peas
+  - '1/2 small apple, peeled and finely grated'
+  - 3/4 tsp fine salt
+  - '1 large carrot, cut into 1/4-inch dice'
+  - '1 medium potato, peeled and cut into 1/2-inch dice'
+  - 1/2 cup frozen peas
   - '--- Chicken cutlets ---'
-  - '4 boneless skinless chicken breast portions, about 6 oz (170 g) each'
+  - '4 boneless, skinless chicken breasts (6 oz each)'
   - 1/2 tsp fine salt
-  - 1/2 tsp ground black pepper
-  - '60 g all-purpose flour, for coating chicken'
+  - 1/2 tsp black pepper
+  - 1/2 cup all-purpose flour
   - '2 large eggs, beaten'
-  - 100 g panko breadcrumbs
-  - '500–750 ml neutral frying oil, or enough for 1/2-inch depth in your skillet'
+  - 1 3/4 cups panko breadcrumbs
+  - 'neutral oil, for frying'
 description: >-
-  Crisp panko-coated chicken cutlets with a separately simmered vegetable curry sauce, served
-  alongside rice prepared separately.
+  Crisp panko-coated chicken cutlets with a mildly sweet Japanese curry sauce of carrot, potato
+  and peas, served with rice.
 learning:
-  focus: 'Finish the sauce first, then protect the cutlet crust'
-  outcome: 'Golden, crisp chicken with a moist center and a spoonable curry sauce served beside it.'
   techniques:
     - temperature
     - starch
-  before:
-    - >-
-      The curry and four cutlets take about one hour. Rice is separate; start its soak first if
-      making the linked short-grain rice.
-    - >-
-      Measure the sauce flour into its own clean container before handling raw chicken. Used
-      breading flour must never be tipped into the sauce.
-    - >-
-      Use a deep skillet and leave ample space above the oil. Keep water away from the hot oil and
-      use separate clean tools for finished chicken.
-  checkpoints:
-    - step: 2
-      cue: Potato and carrot are tender and sauce coats a spoon before frying begins.
-      why: >-
-        The sauce can wait gently; fried cutlets lose crispness if they sit while a whole sauce is
-        made.
-    - step: 4
-      cue: 'Chicken has a thin flour film, drained egg coating, and an even layer of panko.'
-      why: >-
-        Loose excess flour and pooled egg can leave weak spots. There is no useful two-second
-        egg-dip rule.
-    - step: 5
-      cue: >-
-        Oil is around 350°F / 175°C before a batch and remains about 325–350°F / 165–175°C during
-        frying.
-      why: >-
-        Adding cold cutlets lowers oil temperature. Adjust heat between batches so breading cooks at
-        a controlled pace.
-    - step: 6
-      cue: The thickest center of each cutlet reaches 165°F / 74°C.
-      why: >-
-        Golden breadcrumbs can form before the meat is fully cooked. Check from the side into the
-        center.
-  troubleshooting:
-    - problem: Coating browns before the center reaches temperature
-      cause: Oil is too hot or the cutlet is thicker than 1/2 inch.
-      fix: >-
-        Transfer to a rack on a tray and finish in a 350°F / 175°C oven until 165°F / 74°C in the
-        center. Reduce oil heat for the next batch.
-    - problem: Sauce becomes paste-like while waiting
-      cause: Water evaporated or the starch thickened further as the sauce cooled.
-      fix: Stir in a small splash of hot water and warm gently until it flows from a spoon.
-    - problem: Breading comes away in patches
-      cause: 'Excess flour, wet spots, or rough handling weakened the coating.'
-      fix: >-
-        Let excess egg drip off, press panko on gently, and avoid repeatedly moving the cutlet
-        before its first side firms.
   substitutions:
+    - ingredient: Japanese curry powder
+      alternative: Mild curry powder
+      effect: A little sharper and less sweet. Add a pinch of sugar with the stock.
     - ingredient: Grated apple
       alternative: 1 tbsp honey
-      effect: >-
-        Gives the same rounded sweetness that balances the curry spices, without the fruity
-        freshness. Stir it in with the stock.
+      effect: The same rounded sweetness without the fruity freshness. Stir it in with the stock.
     - ingredient: Mirin
       alternative: 1 tsp sugar mixed with 2 tsp water
-      effect: Adds sweetness without mirin aroma. Add it with the stock so it dissolves through the sauce.
-  timing: >-
-    About 60 minutes includes sauce preparation, breading, two frying batches, and a short rack
-    rest. Rice needs its own start time and is not included in the ingredient quantities.
+      effect: Adds the sweetness without the mirin aroma.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store cutlets and curry
-    separately. Reheat cutlets on a rack in a 350°F / 175°C oven to 165°F / 74°C; gently reheat
-    sauce to the same endpoint, stirring and adding water as needed. The crust is best freshly
-    fried.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: Namiko Hirasawa Chen — Chicken katsu breading and frying
-      url: 'https://www.justonecookbook.com/chicken-katsu/'
-    - title: Namiko Hirasawa Chen — Curry roux as a sauce thickener
-      url: 'https://www.justonecookbook.com/how-to-make-curry-roux/'
+    The sauce keeps 4 days in the fridge and freezes for 3 months. Store the cutlets separately and
+    reheat them on a rack in a 350°F oven so the crust crisps again.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Katsu curry depends on contrast: a crisp cutlet, soft vegetables, and a smooth sauce. Cook the sauce first, then fry the chicken close to serving and ladle gravy beside the breading. This sauce uses its own measured flour; the original ingredient list supplied only dredging flour and could not reliably make the promised gravy.
+Katsu curry is a Japanese favorite: a crisp panko-crusted chicken cutlet with a thick, mildly sweet curry gravy and rice. Grated apple and mirin give the sauce its gentle fruity sweetness. Make the sauce first, fry the chicken just before serving and spoon the curry alongside so the crust stays crunchy.
 
 ## Directions
 
-1. **Start the sauce:** Melt butter in a saucepan over medium heat. Add onion and cook about 6–8 minutes until soft and lightly golden. Stir in garlic and ginger for 30 seconds. Add the 30 g sauce flour and stir for 2 minutes. Lower the heat, stir in curry powder and tomato paste, and cook about 30 seconds without scorching.
-2. **Simmer vegetables:** Gradually whisk in stock, then soy sauce, mirin, grated apple and the 3/4 tsp sauce salt. Add carrot and potato. Bring to a gentle simmer and cook about 18–22 minutes, stirring the bottom regularly, until both vegetables are tender and sauce coats a spoon. Add peas and simmer 2 minutes more. Add a small splash of water if the sauce is too thick. Cover and take off heat while frying; rewarm before serving.
-3. **Prepare cutlets:** While the sauce simmers, put each chicken portion between sheets of food-safe wrap and pound with a meat mallet to an even 1/2-inch thickness. Pat dry and season with the measured salt and pepper. Keep raw chicken and its tools away from the sauce and cooked food.
-4. **Bread:** Set out separate shallow dishes of the 60 g coating flour, beaten eggs, and panko. Coat each cutlet lightly in flour and shake off excess. Dip in egg, let excess drip away, then press both sides into panko. Place on a clean tray and refrigerate until the oil is ready. Discard leftover coating ingredients that touched raw chicken.
-5. **Heat oil:** Set a wire rack over a rimmed tray. For holding the first batch briefly, heat the oven to 225°F / 110°C. Add oil to a deep skillet to reach about 1/2 inch, keeping the pan less than half full. Heat to about 350°F / 175°C. Use the pan depth as the guide; the required oil volume varies with its shape.
-6. **Fry in batches:** Lower in two cutlets without overlapping. Fry about 3–4 minutes per side, adjusting heat to keep oil around 325–350°F / 165–175°C. Check each cutlet from the side for 165°F / 74°C in its thickest center; cook longer if needed. Transfer to the rack and hold the first batch in the low oven while the second fries. Skim loose crumbs and let the oil return to temperature between batches.
-7. **Finish and serve:** Rest the last cutlets on the rack for about 3 minutes. Rewarm the sauce, adding a little water if needed. Taste and add a few drops more soy sauce if it tastes flat. Slice chicken into strips and divide sauce among four plates, pouring it alongside rather than over the whole crust. Serve with rice prepared separately.
+1. **Start the sauce:** Melt the butter in a saucepan over medium heat. Add the onion and cook until soft and lightly golden, 6 to 8 minutes. Stir in the garlic and ginger for 30 seconds. Add the sauce flour and stir for 2 minutes, then stir in the curry powder and tomato paste for 30 seconds.
+2. **Simmer the vegetables:** Slowly whisk in the stock, then add the soy sauce, mirin, apple and salt. Add the carrot and potato. Simmer gently, stirring the bottom often, until the vegetables are tender and the sauce coats a spoon, 18 to 22 minutes. Add the peas for the last 2 minutes, then cover and take the pan off the heat.
+3. **Pound the chicken:** While the sauce simmers, pound each chicken breast between sheets of plastic wrap to an even 1/2 inch thick. Pat dry and season with the salt and pepper.
+4. **Bread the cutlets:** Set out three shallow dishes with the coating flour, eggs and panko. Coat each cutlet lightly in flour and shake off the excess. Dip it in egg, let the excess drip off, then press both sides into the panko. Set the cutlets on a tray.
+5. **Heat the oil:** Heat the oven to 225°F and set a wire rack on a rimmed baking sheet. Pour oil into a deep 12-inch skillet to a depth of 1/2 inch and heat it to 350°F.
+6. **Fry the cutlets:** Fry two cutlets at a time until deep golden and 165°F in the center, 3 to 4 minutes per side. Adjust the heat to keep the oil between 325°F and 350°F. Move them to the rack in the warm oven and skim out loose crumbs between batches.
+7. **Serve:** Rewarm the sauce, adding a splash of water if it is too thick. Taste and add a little more soy sauce if it needs it. Slice the cutlets into strips and serve with rice, with the curry spooned alongside.

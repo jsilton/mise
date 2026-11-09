@@ -1,7 +1,7 @@
 ---
 miseId: bec58fdf-6cb9-42e5-9aad-2561211c8623
 title: Sun-Dried Tomato Chicken Orzo Bake
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - bake
 occasions:
@@ -30,100 +30,55 @@ equipment:
   - instant-read-thermometer
 pairsWith:
   - everyday-arugula-salad
+  - charred-broccoli-with-garlic
+pairingNotes:
+  everyday-arugula-salad: Peppery greens to cut the creamy cheese.
+  charred-broccoli-with-garlic: A crisp green vegetable beside the soft orzo.
 ingredients:
-  - '450 g boneless skinless chicken breast, cut into 1-inch pieces'
-  - 300 g dry orzo pasta
-  - '3 cups (720 ml) low-sodium chicken broth, heated to a simmer'
-  - '150 g full-fat soft fresh cow’s-milk garlic-and-herb cheese, creamy but crumbly, crumbled'
-  - '85 g oil-packed sun-dried tomatoes, drained and chopped'
-  - '1 tbsp oil from the tomato jar, or olive oil'
-  - '140 g frozen chopped spinach, weighed before thawing, then thawed and squeezed dry'
-  - 1 tsp dried Italian herb seasoning
-  - '1 tsp fine salt, divided, plus more to taste'
-  - 1/2 tsp ground black pepper
-  - 1 tsp finely grated lemon zest
-  - '2 tbsp fresh lemon juice, added gradually to taste'
+  - '1 lb boneless skinless chicken breast, cut into 1-inch pieces'
+  - 1 tbsp oil from the sun-dried tomato jar
+  - 1 tsp dried Italian seasoning
+  - 1/2 tsp fine salt, for the chicken
+  - 1/2 tsp black pepper
+  - 3 cups low-sodium chicken broth
+  - '1/2 tsp fine salt, for the broth, plus more to taste'
+  - 1 1/2 cups dry orzo
+  - '1/2 cup oil-packed sun-dried tomatoes, drained and chopped'
+  - '5 oz frozen chopped spinach, thawed and squeezed dry'
+  - '1 package (5.2 oz) Boursin garlic and fine herbs cheese, crumbled'
+  - 1 tsp lemon zest
+  - 2 tbsp fresh lemon juice
 origin: Italian-inspired home cooking
 description: >-
-  A covered orzo bake with chicken, spinach, and garlic-herb cheese, finished with a measured lemon
-  addition.
+  A covered orzo bake with chicken, spinach, sun-dried tomatoes and garlic-herb cheese, finished
+  with lemon.
 learning:
-  focus: Keep enough hot liquid around the orzo while the chicken cooks
-  outcome: >-
-    Tender orzo and cooked-through chicken in a creamy spinach and tomato sauce, with a fresh lemon
-    finish.
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Use a deep 9-by-13-inch baking dish, not a shallow sheet pan. Check that the dish is suitable
-      for adding hot liquid and a 400°F / 200°C oven.
-    - >-
-      Thaw and squeeze spinach first. Heat broth separately, and seal the dish tightly for the first
-      bake so pasta can hydrate.
-  checkpoints:
-    - step: 2
-      cue: Orzo is evenly spread and submerged in the measured hot broth before covering.
-      why: Dry pasta needs water to hydrate; exposed patches can stay hard while the top dries.
-    - step: 4
-      cue: Several chicken pieces and the center of the casserole reach 165°F / 74°C.
-      why: >-
-        Cheese melting and a browned surface do not establish raw chicken doneness. Check before
-        tasting pasta that shared raw chicken juices.
-    - step: 5
-      cue: Orzo is tender and cheese disperses into a sauce when folded gently.
-      why: >-
-        Pasta starch and softened cheese give body. Vigorous stirring is unnecessary and can break
-        tender pasta.
-  troubleshooting:
-    - problem: Orzo is hard and the dish is drying
-      cause: The cover leaked or the pasta absorbed more broth than expected.
-      fix: >-
-        Add a small splash of hot water, stir gently, cover tightly, and bake another 5–10 minutes.
-        Recheck both texture and temperature.
-    - problem: The center is under temperature while edges are cooked
-      cause: The dish was crowded or the broth started cool.
-      fix: >-
-        Fold outer and inner portions gently together, re-cover, and keep baking until the center
-        and chicken reach 165°F / 74°C.
-    - problem: Sauce is thinner than wanted
-      cause: This pasta absorbed less liquid or spinach retained more water.
-      fix: >-
-        After the temperature and pasta checks pass, rest 5 minutes. If still very loose, bake
-        uncovered briefly, watching the edges.
   substitutions:
+    - ingredient: Boursin garlic and fine herbs cheese
+      alternative: Store-brand garlic and herb spreadable cheese
+      effect: Works the same way. Some brands are softer and saltier, so taste before adding salt.
     - ingredient: Frozen chopped spinach
-      alternative: '140 g fresh spinach, wilted separately and squeezed'
-      effect: Prepare it before assembly so its water does not unexpectedly dilute the bake.
-  timing: >-
-    About one hour includes preparation, heating broth and oven, roughly 35–45 minutes baking, and
-    five minutes resting. A cold or deeper casserole can take longer.
+      alternative: Fresh spinach, wilted and squeezed
+      effect: Use about 10 oz fresh to get the same amount once cooked down.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Pasta absorbs more sauce during
-    storage. Reheat portions covered with a small splash of water or broth until 165°F / 74°C
-    throughout.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: Boursin — Orzo with Boursin cheese
-      url: 'https://www.boursin.com/recipe/one-pot-boursin-orzo/'
+    Keeps 3 days in the fridge. The orzo soaks up the sauce, so reheat covered with a splash of
+    broth or water.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The covered dish gives dry orzo time to absorb hot broth while the chicken cooks. Crumbled garlic-herb cheese mixes through more readily than a single cold block in the center. Finish with lemon juice after baking so you can judge the acidity; multiple baked lemon slices can bring more pith bitterness than this sauce needs.
+A one-dish weeknight bake where dry orzo cooks right in hot broth alongside the chicken. Boursin melts into the pasta and makes a creamy, garlicky sauce, and sun-dried tomatoes and spinach give it color. Lemon juice stirred in at the end keeps the rich sauce bright.
 
 ## Directions
 
-1. **Heat and prepare:** Heat oven to 400°F / 200°C. Thaw and squeeze spinach thoroughly. Bring the measured broth to a simmer in a saucepan and stir in 1/2 tsp of the salt. Toss chicken with tomato oil, dried herbs, the remaining 1/2 tsp salt, and pepper.
-2. **Assemble:** Spread dry orzo in a deep 9-by-13-inch baking dish. Add tomatoes and loosened spinach, then pour in hot broth and stir gently to distribute. Scatter in crumbled garlic-and-herb cheese and arrange chicken evenly through the dish. Keep the orzo beneath the liquid as much as possible.
-3. **Cover and bake:** Seal tightly with foil or a suitable lid and bake for 30 minutes.
-4. **Check before tasting:** Open carefully away from your face. Stir gently to redistribute the center and edges. Probe several large chicken pieces and the casserole center for 165°F / 74°C. If below temperature, re-cover and continue baking, checking every 5–10 minutes. Only after temperature checks pass, taste orzo for tenderness. Add a little hot water and continue covered if pasta is still firm and the pan is drying.
-5. **Finish the sauce:** When chicken and pasta are ready, fold gently to disperse the cheese. Stir in lemon zest and half the lemon juice. Rest 5 minutes, then taste and add the remaining juice only if needed, plus a pinch more salt if the cheese has not seasoned it enough. Divide into four portions; a lightly dressed green salad complements the rich bake.
+1. **Heat the oven and broth:** Heat the oven to 400°F. Bring the broth and the salt for the broth to a simmer in a saucepan.
+2. **Season the chicken:** Toss the chicken with the tomato oil, Italian seasoning, salt for the chicken and pepper.
+3. **Assemble:** Spread the orzo in a deep 9x13-inch baking dish and scatter the sun-dried tomatoes and spinach over it. Pour in the hot broth and stir so the orzo is under the liquid. Dot with the cheese and arrange the chicken evenly on top.
+4. **Bake covered:** Seal the dish tightly with foil and bake until the orzo is tender and the chicken reaches 165°F, 35 to 40 minutes. If the orzo is still firm and the dish looks dry, add a splash of hot water and bake 5 minutes more.
+5. **Finish with lemon:** Stir until the cheese melts into a creamy sauce. Stir in the lemon zest and half the lemon juice and rest 5 minutes. Taste, then add the rest of the juice and more salt if it needs it.

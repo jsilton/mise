@@ -17,27 +17,30 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 65 min
-totalTime: 85 min
+cookTime: 1 hr
+totalTime: 1 hr 20 min
 servings: '8'
 pairsWith:
+  - cast-iron-buttermilk-biscuits
   - everyday-arugula-salad
-  - garlic-bread
+pairingNotes:
+  cast-iron-buttermilk-biscuits: Warm biscuits for dunking in the broth.
+  everyday-arugula-salad: A crisp, lemony salad beside a hearty soup.
 ingredients:
-  - 1 cup (160 g) uncooked wild rice; check the package for processing and cook time
-  - '4 cups (960 ml) water, for cooking rice, plus more as needed'
+  - '1 cup wild rice, rinsed'
+  - 4 cups water
   - 2 tbsp olive oil
   - '1 large yellow onion, diced'
   - '3 medium carrots, cut into 1/2-inch pieces'
-  - '3 celery stalks, cut into 1/2-inch pieces'
+  - '3 stalks celery, cut into 1/2-inch pieces'
+  - '1 1/2 tsp fine salt, divided, plus more to taste'
   - '4 cloves garlic, minced'
-  - '8 cups (1.9 liters) low-sodium chicken broth, plus up to 2 cups to adjust consistency'
-  - '2 lbs (900 g) boneless skinless chicken thighs, cut into 1-inch pieces'
+  - '8 cups low-sodium chicken broth, plus more to thin'
   - 1 tbsp fresh thyme leaves
-  - '1/4 tsp fine salt, plus more to taste'
   - 1/2 tsp black pepper
-  - '1–2 tbsp lemon juice, to taste'
-  - 1/4 cup chopped fresh parsley
+  - '2 lb boneless, skinless chicken thighs, cut into 1-inch pieces'
+  - '1 tbsp fresh lemon juice, plus more to taste'
+  - '1/4 cup fresh parsley, chopped'
 origin: United States
 seasons:
   - year-round
@@ -52,86 +55,35 @@ equipment:
   - fine-mesh-strainer
   - instant-read-thermometer
 learning:
-  focus: Give grains and chicken separate endpoints
-  outcome: >-
-    Chewy-tender wild rice, soft but intact vegetables, and moist chicken in a clear, lightly
-    seasoned broth.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Wild-rice processing affects its cooking time. Read the label before planning; quick-cook
-      grain can finish much earlier than dark-finished wild rice.
-    - >-
-      Use a saucepan for the rice and a soup pot of at least 6 quarts. For make-ahead meals, keep
-      cooked rice separate until serving.
-  checkpoints:
-    - step: 1
-      cue: 'Many grains have opened and the center is tender with a pleasant chew, not a hard core.'
-      why: >-
-        The grain’s processing and age change how fast it takes up water; a universal 45-minute
-        promise is unreliable.
-    - step: 4
-      cue: >-
-        Broth moves gently, with occasional small bubbles, and larger chicken pieces reach 165°F /
-        74°C.
-      why: >-
-        A gentle simmer cooks the chicken without the agitation and rapid tightening associated with
-        a hard boil.
-  troubleshooting:
-    - problem: Rice is hard but the soup is ready
-      cause: This batch of grain needs longer than expected.
-      fix: >-
-        Keep cooking the rice in its own saucepan, adding hot water if needed. Hold the soup hot
-        briefly; add the rice only when tender.
-    - problem: Refrigerated soup has become thick
-      cause: Rice continues absorbing broth during storage.
-      fix: >-
-        Add broth or water when reheating. Next time store the rice separately and combine portions
-        as needed.
   substitutions:
+    - ingredient: Wild rice
+      alternative: Wild and brown rice blend
+      effect: Softer and quicker to cook. Cook it by its package time, then drain and add it.
     - ingredient: Chicken thighs
-      alternative: Boneless skinless chicken breast in 1-inch pieces
-      effect: >-
-        A leaner, less forgiving texture. Begin checking sooner and stop cooking when pieces reach
-        165°F / 74°C.
-    - ingredient: Pure wild rice
-      alternative: 'Unseasoned wild-and-brown-rice blend, same dry weight'
-      effect: >-
-        Different texture and yield. Cook separately according to the package, then add as much
-        cooked grain as suits the soup.
-  timing: >-
-    Allow about 85 minutes including preparation for a slower-cooking wild rice; soup preparation
-    overlaps the grain simmer. Quick-cook or hand-parched grain may finish sooner. A particularly
-    slow batch may extend the total.
+      alternative: Boneless, skinless chicken breast
+      effect: Leaner and dries out sooner, so start checking it a few minutes early.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Rice and soup can be stored
-    separately to preserve the broth; reheat both thoroughly.
-  sources:
-    - title: Red Lake Nation Foods — Wild rice varieties and cooking behavior
-      url: 'https://redlakenationfoods.com/wild-rice-facts/'
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 4 days in the fridge and freezes for 3 months. The rice soaks up broth as it sits, so thin
+    the soup with more broth when you reheat it.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Chowhound.com
+    date: '2026-11-09'
+source: Adapted from Chowhound
 sourceUrl: 'https://www.chowhound.com/recipes/chicken-and-wild-rice-soup-11481'
 ---
 
 ## Chef's Note
 
-Wild rice is the seed of an aquatic grass. Its processing changes how quickly it cooks, so a dark-finished grain and a quick-cook product should not share a rigid timer. Cooking it separately also lets you keep this soup brothy and finish the chicken on its own schedule.
+Wild rice, the seed of a North American water grass, gives this brothy chicken soup its nutty, chewy bite. Cooking the rice in its own pot keeps the broth clear and lets the chicken thighs poach gently until just tender. Lemon and parsley at the end brighten the whole pot.
 
 ## Directions
 
-1. **Cook the grain:** Rinse the wild rice. Combine with the measured rice-cooking water in a saucepan and bring to a boil. Reduce to a gentle simmer, cover, and cook according to the package range, checking early for quick-cook grain. Add hot water if the pan dries before the rice is tender. When many grains open and have a tender, chewy center, drain any excess water.
-2. **Soften vegetables:** While the rice simmers, heat oil in a 6-quart pot over medium heat. Add onion, carrots, and celery. Cook 8–10 minutes, stirring, until the onion is softened. Add garlic and cook about 30 seconds, until fragrant.
-3. **Build the broth:** Add the initial measured chicken broth, thyme, salt, and pepper. Bring to a gentle simmer. Cook about 8–10 minutes, until carrots are approaching tenderness; they will cook further with the chicken.
-4. **Poach the chicken:** Add chicken and return gently to a simmer. Cook about 12–18 minutes, stirring occasionally, until several larger pieces reach 165°F / 74°C and the vegetables are tender. Avoid a rolling boil.
-5. **Combine:** Stir in the tender, drained rice and heat through. Add extra broth as needed to keep the soup spoonable and brothy. If the rice is not yet ready, keep the soup gently hot while it finishes; do not keep boiling the chicken.
-6. **Finish:** Add parsley and the lower end of the listed lemon-juice range. Taste the broth with some chicken and rice, then add more lemon, salt, or pepper as needed. Ladle into eight bowls. For planned leftovers, keep the remaining rice and soup separate before chilling promptly.
+1. **Cook the wild rice:** Bring the rice and water to a boil in a saucepan. Cover, lower the heat and simmer until many grains have split open and are tender but still chewy, 45 to 55 minutes. Drain off any extra water.
+2. **Soften the vegetables:** While the rice cooks, heat the oil in a 6-quart pot over medium heat. Add the onion, carrots, celery and half the salt. Cook, stirring, until the onion is soft, 8 to 10 minutes. Stir in the garlic until fragrant, about 30 seconds.
+3. **Simmer the broth:** Add the broth, thyme, pepper and the rest of the salt. Bring to a gentle simmer and cook until the carrots are almost tender, 8 to 10 minutes.
+4. **Poach the chicken:** Add the chicken and bring back to a gentle simmer, never a rolling boil. Cook, stirring now and then, until the chicken reaches 165°F and the vegetables are tender, 12 to 15 minutes.
+5. **Add the rice:** Stir in the cooked rice and heat through. Add more broth if you want the soup thinner.
+6. **Finish and serve:** Stir in the lemon juice and parsley. Taste and add more salt, pepper or lemon before serving.

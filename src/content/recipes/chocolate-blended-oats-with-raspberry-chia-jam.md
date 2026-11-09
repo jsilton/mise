@@ -26,14 +26,10 @@ cuisines:
   - American
 role: main
 vibe: nutritious
-prepTime: 10 min
-cookTime: 0 min; berry heating varies
-totalTime: '1 hr 40 min minimum, plus any berry heating or cooling beyond prep'
+prepTime: 15 min
+cookTime: 5 min
+totalTime: '20 min, plus 1 hr 30 min chilling'
 servings: 4 portions
-pairsWith:
-  - avocado-kale-caesar-salad
-  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
-  - roasted-fall-harvest-salad
 ingredients:
   - '--- Raspberry chia jam ---'
   - 1 cup frozen raspberries
@@ -46,12 +42,10 @@ ingredients:
   - 1/4 cup maple syrup
   - 2 tbsp chia seeds
   - 1 tsp vanilla extract
-  - 1/8 tsp sea salt
-  - '--- Chocolate cap ---'
-  - >-
-    2 oz dark chocolate, melt gently according to package or appliance
-    instructions; let excessive heat subside
-source: Adapted from glow-diaries.com
+  - 1/8 tsp fine sea salt
+  - '--- Chocolate top ---'
+  - '2 oz dark chocolate, chopped'
+source: Adapted from Glow Diaries
 sourceUrl: 'https://glow-diaries.com/choc-blended-oats/'
 formula:
   version: 1
@@ -69,7 +63,7 @@ formula:
             amount: 1
             unit: cup
           uses:
-            - step: jam
+            - step: berries
               share: 1
         - id: chia
           key: chia
@@ -148,7 +142,7 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: sea salt
+          name: fine sea salt
           quantity:
             amount: 1/8
             unit: tsp
@@ -156,7 +150,7 @@ formula:
             - step: blend
               share: 1
     - id: cap
-      name: Chocolate cap
+      name: Chocolate top
       ingredients:
         - id: chocolate
           key: chocolate
@@ -165,147 +159,68 @@ formula:
             amount: 2
             unit: oz
           uses:
-            - step: cap
+            - step: melt
               share: 1
-          preparation: >-
-            melt gently according to package or appliance instructions; let
-            excessive heat subside
+          preparation: chopped
   steps:
+    - id: berries
+      title: Cook the berries
+      text: >-
+        Microwave {{ingredients}} in a bowl, stirring every minute, until they collapse into a loose
+        sauce, 2 to 3 minutes.
     - id: jam
-      title: Make jam
-      text: >-
-        Use {{ingredients}} for the jam. Heat the berries first in a
-        microwave-safe bowl, stirring and following any cooking instructions on
-        the frozen-berry package. Once they have softened to a compote, stir in
-        all the jam chia. Let the chia thicken for about 5 minutes. Allow the
-        jam’s excessive heat to subside before layering; refrigerate promptly in
-        a shallow container if assembly is delayed.
+      title: Thicken the jam
+      text: 'Stir in {{ingredients}} and let the jam sit until thick, about 5 minutes.'
     - id: blend
-      title: Blend oats
-      text: >-
-        Combine {{ingredients}} in the blender. Blend until mostly smooth,
-        starting low and increasing only as the appliance allows; about 60
-        seconds is a reference, not a universal endpoint. Stop the motor before
-        scraping. For a scaled batch, follow the blender’s actual fill limit and
-        divide every base ingredient proportionally between loads, then
-        recombine.
+      title: Blend the oats
+      text: 'Blend {{ingredients}} on high until smooth, about 1 minute.'
     - id: layer
-      title: Layer
+      title: Layer the jars
+      text: Divide the jam among jars or containers. Pour the oat mixture over the jam.
+    - id: melt
+      title: Melt the chocolate
       text: >-
-        Divide all the jam and blended base among roomy containers, putting jam
-        below the oats. The original batch makes four planned portions; use
-        enough container capacity for the full mixture and chocolate cap.
+        Microwave {{ingredients}} in a small bowl in 20-second bursts, stirring each time, until
+        smooth. Let it cool for a minute.
     - id: cap
-      title: Add chocolate
-      text: >-
-        Divide {{ingredients}} over all the portions. Keep the complete cap
-        amount whether using one large container or several.
+      title: Add the chocolate top
+      text: 'Spoon the chocolate over the oats in a thin, even layer.'
     - id: chill
-      title: Refrigerate
+      title: Chill and serve
       text: >-
-        Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes,
-        preferably overnight, until the oats have thickened and the chocolate
-        has set.
-    - id: serve
-      title: Serve
-      text: >-
-        Eat cold. Keep covered and refrigerated, planning no more than five days
-        from preparation and using sooner if any ingredient’s after-opening
-        instructions require it. Keep preparation and serving time out of
-        refrigeration within 2 hours, or 1 hour above 90°F / 32°C.
+        Cover and refrigerate until the oats are thick and the chocolate has set, at least 90
+        minutes or overnight. Eat cold.
 learning:
-  focus: >-
-    Keeping jam, blended-oat chia and chocolate-cap allocations separate while
-    allowing a refrigerated set.
-  outcome: >-
-    A thickened chocolate oat base over berry jam, with the whole chocolate
-    amount distributed across the portions.
   techniques:
     - cold-preparation
     - starch
     - temperature
-  before:
-    - >-
-      The original four-portion batch uses 1 tbsp chia in the jam and a separate
-      2 tbsp in the base. Both quantities scale; neither is the total for the
-      whole recipe.
-    - >-
-      Use containers that fit the full mixture. Check the blender’s actual
-      maximum fill and frozen-fruit cooking instructions before starting.
-  checkpoints:
-    - step: 1
-      cue: Berries are softened and jam chia is dispersed.
-      why: >-
-        The jam thickener is separate from the base; fixed microwave time does
-        not establish package-specific cooking.
-    - step: 2
-      cue: 'The base is mostly smooth, with no dry oat pockets.'
-      why: >-
-        Blender model and load affect texture; stop before scraping and split
-        all base ingredients proportionally if needed.
-    - step: 5
-      cue: Oat mixture has thickened and the cap has set after chilling.
-      why: >-
-        Cold hydration and chocolate setting require rest; they are not ninety
-        minutes of active cooking.
-  troubleshooting:
-    - problem: The base is runny immediately after blending.
-      cause: Oats and chia have not hydrated yet.
-      fix: >-
-        Complete the refrigerated rest before adjusting; keep the full milk and
-        yogurt amounts.
-    - problem: Jam has whole firm berries.
-      cause: The chosen fruit did not break down with heating.
-      fix: >-
-        Mash the softened fruit with a fork; retain the full fruit amount and
-        separate jam chia.
   substitutions:
-    - ingredient: Raspberries
-      alternative: Same full volume of another frozen berry
-      effect: Firm berries need mashing; follow their package instructions.
-    - ingredient: Dairy yogurt and milk
-      alternative: Same full volumes of dairy-free yogurt and chosen plant milk
-      effect: Also check the full dark-chocolate cap; no reduction in richness.
-  storage: >-
-    Keep covered at 40°F / 4°C or below. Refrigerate promptly; keep combined
-    preparation and serving time out of refrigeration within 2 hours, or 1 hour
-    above 90°F / 32°C. The preparation plan is up to 5 days refrigerated,
-    shortened by any ingredient’s after-opening limit. Keep the chocolate cap
-    covered. Freezer texture for this yogurt-and-cap version is not established.
-  timing: >-
-    Ten minutes preparation plus at least 90 minutes refrigerated setting gives
-    a 1-hour-40-minute minimum subtotal. Berry heating, five-minute jam
-    thickening and cooling may overlap blending only when the actual setup
-    allows; any excess, blender loads and overnight preference add time.
-  sources:
-    - title: Glow Diaries — blended-oat recipe
-      url: 'https://glow-diaries.com/choc-blended-oats/'
-    - title: FDA — cold holding and prompt shallow cooling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    - ingredient: Cacao powder
+      alternative: Unsweetened cocoa powder
+      effect: Use the same amount. Cocoa tastes a little less bitter and fruity.
+    - ingredient: Frozen raspberries
+      alternative: 'Frozen strawberries, blueberries or mixed berries'
+      effect: Mash firmer berries with a fork after heating so the jam has no large pieces.
+    - ingredient: Greek yogurt
+      alternative: Dairy-free yogurt
+      effect: Makes the jars dairy-free with a dairy-free chocolate. The base is a little less tangy.
+  storage: 'Keeps 5 days in the fridge, covered.'
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The jam and oat base have separate chia amounts: the jam thickens around the berries, while the blended oats absorb their milk during chilling. Keep the full Greek yogurt and chocolate cap in this version. The base may look runny before chilling; judge it after the cold rest rather than removing liquid or chia.
+Blended with milk, yogurt and cacao, rolled oats turn into a smooth chocolate pudding overnight as the oats and chia soak. A layer of tart raspberry chia jam underneath cuts the richness, and a thin cap of dark chocolate sets into a crackly top. Make a batch on Sunday for the week's breakfasts.
 
 ## Directions
 
-1. **Make jam:** Use frozen raspberries and chia seeds for the jam. Heat the berries first in a microwave-safe bowl, stirring and following any cooking instructions on the frozen-berry package. Once they have softened to a compote, stir in all the jam chia. Let the chia thicken for about 5 minutes. Allow the jam’s excessive heat to subside before layering; refrigerate promptly in a shallow container if assembly is delayed.
-2. **Blend oats:** Combine rolled oats, soy or almond milk, Greek yogurt, cacao powder, maple syrup, chia seeds, vanilla extract, and sea salt in the blender. Blend until mostly smooth, starting low and increasing only as the appliance allows; about 60 seconds is a reference, not a universal endpoint. Stop the motor before scraping. For a scaled batch, follow the blender’s actual fill limit and divide every base ingredient proportionally between loads, then recombine.
-3. **Layer:** Divide all the jam and blended base among roomy containers, putting jam below the oats. The original batch makes four planned portions; use enough container capacity for the full mixture and chocolate cap.
-4. **Add chocolate:** Divide dark chocolate over all the portions. Keep the complete cap amount whether using one large container or several.
-5. **Refrigerate:** Cover and refrigerate at 40°F / 4°C or below for at least 90 minutes, preferably overnight, until the oats have thickened and the chocolate has set.
-6. **Serve:** Eat cold. Keep covered and refrigerated, planning no more than five days from preparation and using sooner if any ingredient’s after-opening instructions require it. Keep preparation and serving time out of refrigeration within 2 hours, or 1 hour above 90°F / 32°C.
-
-## Cooking Notes
-
-The full listed milk may be replaced with another dairy or plant milk. For a dairy-free version, replace the entire yogurt amount with a dairy-free yogurt and use dark chocolate suitable for that choice; retain all the other amounts.
-
-Replace the full raspberry volume with frozen strawberries, blueberries or mixed berries if desired. Mash firm berries after heating so the jam is not left in large pieces. Follow the chosen frozen-fruit package instructions.
-
-For a thinner oat base, omit only its listed 2 tbsp chia in the original four-portion batch; scale that omitted amount with the batch. For a runnier jam, omit only the separate listed 1 tbsp jam chia in the original batch. Either component can be changed independently; all other amounts remain.
-
-An optional addition to the original four-portion batch is about 2 tbsp chocolate protein powder, blended into the oat base and scaled with the batch. Use a product suitable for consumption without further cooking and follow its mixing instructions. Powder changes absorption and texture; this approximate volume is not a universal scoop-weight conversion.
+1. **Cook the berries:** Microwave frozen raspberries in a bowl, stirring every minute, until they collapse into a loose sauce, 2 to 3 minutes.
+2. **Thicken the jam:** Stir in chia seeds and let the jam sit until thick, about 5 minutes.
+3. **Blend the oats:** Blend rolled oats, soy or almond milk, Greek yogurt, cacao powder, maple syrup, chia seeds, vanilla extract, and fine sea salt on high until smooth, about 1 minute.
+4. **Layer the jars:** Divide the jam among jars or containers. Pour the oat mixture over the jam.
+5. **Melt the chocolate:** Microwave dark chocolate in a small bowl in 20-second bursts, stirring each time, until smooth. Let it cool for a minute.
+6. **Add the chocolate top:** Spoon the chocolate over the oats in a thin, even layer.
+7. **Chill and serve:** Cover and refrigerate until the oats are thick and the chocolate has set, at least 90 minutes or overnight. Eat cold.

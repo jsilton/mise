@@ -16,44 +16,42 @@ cuisines:
   - Japanese
 role: main
 vibe: comfort
-prepTime: About 15–25 min active preparation
-cookTime: 'About 15–20 min cooking, with overlapping water preparation'
-totalTime: About 30–45 min
+prepTime: 20 min
+cookTime: 20 min
+totalTime: 40 min
 servings: 4 portions
 pairsWith:
-  - miso-soup
-  - dashi-japanese-sea-stock
+  - japanese-cucumber-sunomono
   - steamed-edamame
+pairingNotes:
+  japanese-cucumber-sunomono: 'Cool, tangy cucumbers beside the warm noodles.'
+  steamed-edamame: Salty pods to snack on beside the noodles.
 ingredients:
   - '--- Sauce ---'
-  - 1/2 cup Chicken or vegetable stock
-  - 3 tbsp Soy sauce
+  - 1/2 cup chicken or vegetable stock
+  - 3 tbsp soy sauce
   - 1 tbsp Shaoxing wine
-  - '1 tbsp Fresh ginger, minced'
-  - '1 tbsp Garlic, minced'
-  - 1/2 tsp Sugar
-  - 'Salt, to taste in the sauce'
-  - '--- Noodles and blanching ---'
-  - '1/2 lb Baby broccoli, florets and stems sliced to cook evenly'
-  - 'Boiling water, enough for blanching the broccoli'
-  - 'Ice water, for cooling the blanched broccoli, then discarded'
-  - 8 oz Soba noodles
-  - 'Water, enough to cook the noodles per package instructions'
-  - 2 tsp Toasted sesame oil
-  - '--- Pan and finish ---'
-  - '1/2 lb Extra-firm tofu, drained, patted dry and diced'
-  - 2 tbsp Neutral oil
-  - 1/2 tsp Red pepper flakes
-  - '6 oz Fresh shiitake mushrooms, tough stems removed, caps sliced'
-  - '1 Bunch of scallions, sliced, light and dark-green parts kept separate'
-  - '1/2 cup Fresh cilantro, chopped'
+  - '1 tbsp fresh ginger, minced'
+  - '1 tbsp garlic, minced'
+  - 1/2 tsp sugar
+  - 'salt, to taste'
+  - '--- Noodles ---'
+  - '1/2 lb baby broccoli, cut into bite-size pieces'
+  - 8 oz soba noodles
+  - 2 tsp toasted sesame oil
+  - '--- Stir-fry ---'
+  - 2 tbsp neutral oil
+  - '1/2 lb extra-firm tofu, patted dry and diced'
+  - 1/2 tsp red pepper flakes
+  - '6 oz fresh shiitake mushrooms, stems removed, caps sliced'
+  - '6 scallions, sliced, whites and greens kept separate'
+  - '1/2 cup fresh cilantro, chopped'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from cooking.nytimes.com
-sourceUrl: >-
-  https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share
+source: Adapted from NYT Cooking
+sourceUrl: 'https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu'
 formula:
   version: 1
   yield:
@@ -65,7 +63,7 @@ formula:
       ingredients:
         - id: stock
           key: stock
-          name: Chicken or vegetable stock
+          name: chicken or vegetable stock
           quantity:
             amount: 0.5
             unit: cup
@@ -74,7 +72,7 @@ formula:
               share: 1
         - id: soy
           key: soy
-          name: Soy sauce
+          name: soy sauce
           quantity:
             amount: 3
             unit: tbsp
@@ -92,7 +90,7 @@ formula:
               share: 1
         - id: ginger
           key: ginger
-          name: Fresh ginger
+          name: fresh ginger
           quantity:
             amount: 1
             unit: tbsp
@@ -102,7 +100,7 @@ formula:
           preparation: minced
         - id: garlic
           key: garlic
-          name: Garlic
+          name: garlic
           quantity:
             amount: 1
             unit: tbsp
@@ -112,7 +110,7 @@ formula:
           preparation: minced
         - id: sugar
           key: sugar
-          name: Sugar
+          name: sugar
           quantity:
             amount: 0.5
             unit: tsp
@@ -121,95 +119,71 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: Salt
-          allowance: to taste in the sauce
+          name: salt
+          allowance: to taste
           uses:
             - step: sauce
               share: 1
     - id: noodles
-      name: Noodles and blanching
+      name: Noodles
       ingredients:
         - id: broccoli
           key: broccoli
-          name: Baby broccoli
+          name: baby broccoli
           quantity:
             amount: 0.5
             unit: lb
           uses:
             - step: blanch
               share: 1
-          preparation: florets and stems sliced to cook evenly
-        - id: blanch-water
-          key: blanch-water
-          name: Boiling water
-          allowance: enough for blanching the broccoli
-          uses:
-            - step: blanch
-              share: 1
-          role: cooking-water
-        - id: ice-water
-          key: ice-water
-          name: Ice water
-          allowance: 'for cooling the blanched broccoli, then discarded'
-          uses:
-            - step: blanch
-              share: 1
-          role: cooking-water
+          preparation: cut into bite-size pieces
         - id: noodles
           key: noodles
-          name: Soba noodles
+          name: soba noodles
           quantity:
             amount: 8
             unit: oz
           uses:
             - step: noodles
               share: 1
-        - id: noodle-water
-          key: noodle-water
-          name: Water
-          allowance: enough to cook the noodles per package instructions
-          uses:
-            - step: noodles
-              share: 1
-          role: cooking-water
         - id: sesame
           key: sesame
-          name: Toasted sesame oil
+          name: toasted sesame oil
           quantity:
             amount: 2
             unit: tsp
           uses:
-            - step: noodles
-              share: 0.5
-            - step: vegetables
-              share: 0.5
+            - step: oil-noodles
+              share: 1/2
+            - step: finish
+              share: 1/2
     - id: pan
-      name: Pan and finish
+      name: Stir-fry
       ingredients:
+        - id: oil
+          key: oil
+          name: neutral oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: tofu
+              share: 1/2
+            - step: vegetables
+              share: 1/2
         - id: tofu
           key: tofu
-          name: Extra-firm tofu
+          name: extra-firm tofu
           quantity:
             amount: 0.5
             unit: lb
           uses:
             - step: tofu
               share: 1
-          preparation: 'drained, patted dry and diced'
-        - id: oil
-          key: oil
-          name: Neutral oil
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: tofu
-              share: 0.5
-            - step: vegetables
-              share: 0.5
+          preparation: patted dry and diced
         - id: flakes
           key: flakes
-          name: Red pepper flakes
+          name: red pepper flakes
           quantity:
             amount: 0.5
             unit: tsp
@@ -218,164 +192,98 @@ formula:
               share: 1
         - id: mushrooms
           key: mushrooms
-          name: Fresh shiitake mushrooms
+          name: fresh shiitake mushrooms
           quantity:
             amount: 6
             unit: oz
           uses:
             - step: vegetables
               share: 1
-          preparation: 'tough stems removed, caps sliced'
+          preparation: 'stems removed, caps sliced'
         - id: scallions
           key: scallions
-          name: Bunch of scallions
+          name: scallion
           quantity:
-            amount: 1
+            amount: 6
             unit: count
           uses:
             - step: vegetables
               share: 1
-          plural: Bunches of scallions
-          preparation: 'sliced, light and dark-green parts kept separate'
+          plural: scallions
+          preparation: 'sliced, whites and greens kept separate'
         - id: cilantro
           key: cilantro
-          name: Fresh cilantro
+          name: fresh cilantro
           quantity:
             amount: 0.5
             unit: cup
           uses:
-            - step: vegetables
+            - step: finish
               share: 1
           preparation: chopped
   steps:
     - id: sauce
       title: Mix the sauce
-      text: 'Whisk {{ingredients}} together. This is the garlic-and-ginger-in-sauce route; set aside.'
+      text: 'Whisk {{ingredients}} in a small bowl until the sugar dissolves.'
     - id: blanch
       title: Blanch the broccoli
       text: >-
-        Use {{ingredients}}. Add broccoli to boiling water and start checking after about 1 minute;
-        cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry.
-        Discard the cooling water.
+        Bring a large pot of water to a boil. Add {{ingredients}} and cook until bright green and
+        crisp-tender, about 1 minute. Scoop it into a bowl of ice water, then drain and pat dry.
     - id: noodles
-      title: Cook and rinse the soba
+      title: Cook the soba
       text: >-
-        Use {{ingredients}}. Cook noodles according to their package instructions, checking for a
-        just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain
-        thoroughly. Toss with this step’s sesame-oil allocation.
+        Return the water to a boil and cook {{ingredients}} as the package directs until just
+        tender, usually 4 to 5 minutes. Drain, rinse under cold running water for 1 minute and drain
+        well.
+    - id: oil-noodles
+      title: Oil the noodles
+      text: 'Toss the noodles with {{ingredients}} so they do not stick.'
     - id: tofu
-      title: Cook the tofu
+      title: Sear the tofu
       text: >-
-        Use {{ingredients}}. Heat this step’s neutral-oil allocation in a large wok or skillet over
-        medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer
-        and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a
-        clean plate.
+        Heat a wok or large skillet over medium-high heat. Add {{ingredients}} and sear the tofu in
+        a single layer, turning, until golden on several sides, 4 to 5 minutes. Move it to a plate.
     - id: vegetables
-      title: Finish the stir-fry
+      title: Stir-fry the mushrooms
       text: >-
-        Have {{ingredients}} ready. Add the remaining neutral-oil allocation and red pepper flakes
-        to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms
-        soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared
-        sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes,
-        without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and
-        remaining sesame oil during the last 30–60 seconds.
-    - id: serve
-      title: Serve
+        Add {{ingredients}} to the pan, holding back the scallion greens. Stir-fry until the
+        mushrooms soften and brown at the edges, 2 to 3 minutes.
+    - id: toss
+      title: Toss it together
       text: >-
-        Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing
-        them.
+        Add the broccoli, noodles, tofu and sauce. Lower the heat to medium and toss gently until
+        everything is hot and glossy, 1 to 2 minutes.
+    - id: finish
+      title: Finish and serve
+      text: 'Fold in {{ingredients}} along with the scallion greens. Taste for salt and serve right away.'
 learning:
-  focus: >-
-    Cook the noodles to their package’s texture cue, then rinse and drain well before they reach the
-    pan
-  outcome: 'Just-tender noodles, tofu and vegetables evenly coated with the finishing stock.'
   techniques:
     - stir-frying
     - temperature
-  before:
-    - >-
-      Have the sauce and all sliced ingredients ready before heating the wok. For the original
-      batch, the saved method uses a 14-inch flat-bottomed wok; a large skillet works only if there
-      is room to toss, otherwise cook smaller batches.
-    - >-
-      Two teaspoons sesame oil is the total for the original batch: half coats the cooked noodles
-      and half finishes the dish. Neutral oil is a separate two-tablespoon total, divided equally
-      between tofu and vegetables.
-    - >-
-      Scale measured ingredients together; keep noodle doneness and manageable pan loads rather than
-      multiplying stir-fry times. Linked Dashi is a separate pairing, not an automatic replacement
-      for the listed chicken or vegetable stock.
-  checkpoints:
-    - step: 3
-      cue: 'Noodles are just cooked to their package cue, rinsed and thoroughly drained.'
-      why: Different soba formulas need different clocks; wet noodles dilute the finishing stock.
-    - step: 5
-      cue: Vegetables remain crisp-tender and noodles are evenly coated and hot.
-      why: Moderate finishing heat avoids scorching aromatics and over-reducing the small stock amount.
-  troubleshooting:
-    - problem: Noodles clump or the pan steams heavily
-      cause: Noodles were poorly drained or the pan was overcrowded
-      fix: >-
-        Drain thoroughly and use smaller pan loads. Toss gently with the listed finishing stock to
-        loosen noodles; do not force a syrup reduction.
   substitutions:
     - ingredient: Shaoxing wine
-      alternative: Use the same listed amount of dry sherry.
-      effect: Dry sherry changes the flavor without changing the liquid allocation.
-    - ingredient: Garlic and ginger sauce route
-      alternative: >-
-        Keep garlic and ginger out of the sauce; stir them with the flakes in the vegetable oil for
-        no more than 10 seconds before adding mushrooms.
-      effect: >-
-        This moves garlic and ginger to the brief hot-oil stage; all prepared sauce is still added
-        at the finish.
-    - ingredient: Split sesame-oil route
-      alternative: Toss the full listed sesame-oil total with the cooked noodles and omit finishing sesame oil.
-      effect: All sesame oil goes on the noodles; omit the finishing dose.
-    - ingredient: Red pepper flakes
-      alternative: >-
-        For the original batch, use ¼–½ tsp flakes or 1–2 chopped serrano or Thai chiles instead of
-        the listed flakes.
-      effect: >-
-        Separate heat options, not an asserted equal-heat conversion; scale the chosen option with
-        the batch.
-    - ingredient: Seasoning the sauce and blanching water
-      alternative: >-
-        For an extra-seasoning option, add salt to taste to the broccoli blanching water before the
-        broccoli, and use additional soy sauce to taste after the finished stir-fry is hot.
-      effect: >-
-        These are separate unmeasured allowances: blanching salt belongs to the cooking water and
-        additional soy belongs to the finished dish. They do not change the measured soy amount or
-        force salted blanching into the main route.
+      alternative: Dry sherry
+      effect: 'Use the same amount. The flavor is close, a little sharper.'
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
-    Use within 3–4 days. Reheat to 165°F throughout. The noodles soften in storage.
-  timing: >-
-    About 15–25 min active preparation; About 15–20 min cooking, with overlapping water preparation;
-    About 30–45 min.
-  sources:
-    - title: 'NYT Cooking — Soba Noodles with Shiitakes, Broccoli and Tofu'
-      url: >-
-        https://cooking.nytimes.com/recipes/1016016-soba-noodles-with-shiitakes-broccoli-and-tofu?smid=ck-recipe-iOS-share
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 3 days in the fridge. The noodles soften as they sit, so eat leftovers cold or warm them
+    briefly in a skillet.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Cook the noodles to their package’s texture cue, then rinse and drain well before they reach the pan. Soba can contain wheat as well as buckwheat. Keep the tofu and mushrooms in manageable batches; the finishing stock warms and loosens the noodles rather than needing to become a reduced syrup.
+A quick stir-fry of buckwheat soba with tofu, shiitakes and baby broccoli in a garlic, ginger and soy sauce. Rinsing the cooked soba under cold water washes off surface starch, so the noodles stay springy and separate in the hot pan. Searing the tofu and mushrooms hard gives them browned edges and deeper flavor.
 
 ## Directions
 
-1. **Mix the sauce:** Whisk Chicken or vegetable stock, Soy sauce, Shaoxing wine, Fresh ginger, Garlic, Sugar, and Salt together. This is the garlic-and-ginger-in-sauce route; set aside.
-2. **Blanch the broccoli:** Use Baby broccoli, Boiling water, and Ice water. Add broccoli to boiling water and start checking after about 1 minute; cook until just crisp-tender. Transfer to the ice water, then drain thoroughly and pat dry. Discard the cooling water.
-3. **Cook and rinse the soba:** Use Soba noodles, Water, and 1/2 of the Toasted sesame oil. Cook noodles according to their package instructions, checking for a just-tender bite. Drain, rinse under cold running water to remove surface starch, then drain thoroughly. Toss with this step’s sesame-oil allocation.
-4. **Cook the tofu:** Use Extra-firm tofu and 1/2 of the Neutral oil. Heat this step’s neutral-oil allocation in a large wok or skillet over medium-high heat; it should shimmer without smoking. Add tofu in a manageable single layer and cook, turning, until it begins to color, starting checks after 2 minutes. Transfer to a clean plate.
-5. **Finish the stir-fry:** Have 1/2 of the Toasted sesame oil, 1/2 of the Neutral oil, Red pepper flakes, Fresh shiitake mushrooms, Bunch of scallions, and Fresh cilantro ready. Add the remaining neutral-oil allocation and red pepper flakes to the pan, then the mushrooms and light scallion parts; stir-fry until the mushrooms soften, about 2–3 minutes. Add drained broccoli, cooked noodles, tofu and all the prepared sauce. Reduce heat to medium and toss gently until evenly coated and hot, about 1–2 minutes, without requiring a syrupy reduction. Fold in the dark scallion greens, cilantro and remaining sesame oil during the last 30–60 seconds.
-6. **Serve:** Serve immediately. Keep scaled pan loads small enough to turn the noodles without crushing them.
+1. **Mix the sauce:** Whisk chicken or vegetable stock, soy sauce, Shaoxing wine, fresh ginger, garlic, sugar, and salt in a small bowl until the sugar dissolves.
+2. **Blanch the broccoli:** Bring a large pot of water to a boil. Add baby broccoli and cook until bright green and crisp-tender, about 1 minute. Scoop it into a bowl of ice water, then drain and pat dry.
+3. **Cook the soba:** Return the water to a boil and cook soba noodles as the package directs until just tender, usually 4 to 5 minutes. Drain, rinse under cold running water for 1 minute and drain well.
+4. **Oil the noodles:** Toss the noodles with 1/2 of the toasted sesame oil so they do not stick.
+5. **Sear the tofu:** Heat a wok or large skillet over medium-high heat. Add 1/2 of the neutral oil and extra-firm tofu and sear the tofu in a single layer, turning, until golden on several sides, 4 to 5 minutes. Move it to a plate.
+6. **Stir-fry the mushrooms:** Add 1/2 of the neutral oil, red pepper flakes, fresh shiitake mushrooms, and scallions to the pan, holding back the scallion greens. Stir-fry until the mushrooms soften and brown at the edges, 2 to 3 minutes.
+7. **Toss it together:** Add the broccoli, noodles, tofu and sauce. Lower the heat to medium and toss gently until everything is hot and glossy, 1 to 2 minutes.
+8. **Finish and serve:** Fold in 1/2 of the toasted sesame oil and fresh cilantro along with the scallion greens. Taste for salt and serve right away.

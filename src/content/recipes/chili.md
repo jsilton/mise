@@ -8,26 +8,29 @@ servings: '6'
 pairsWith:
   - cornbread
   - coleslaw
+pairingNotes:
+  cornbread: The classic bread for a bowl of chili.
+  coleslaw: Cool, crunchy cabbage against the smoky heat.
 ingredients:
-  - '900 g ground turkey, preferably 93% lean'
+  - '2 lb ground turkey, 93% lean'
   - '2 tbsp olive oil, divided'
-  - '180 g yellow onion, finely diced'
-  - '500 g peeled sweet potato, cut into 1/2-inch cubes'
+  - '1 tsp fine salt, divided, plus more to taste'
+  - '1 large yellow onion, finely diced'
+  - '1 lb sweet potatoes (2 medium), peeled and cut into 1/2-inch cubes'
   - '3 cloves garlic, minced'
-  - '2 tbsp mild chili powder blend, not pure hot chile powder'
+  - 2 tbsp chili powder
   - 2 tsp ground cumin
   - 1 tsp smoked paprika
-  - 1 can (28 oz / 794 g) crushed tomatoes
-  - '2 cups (480 ml) low-sodium chicken broth, plus up to 1 cup (240 ml) only if needed to loosen'
-  - '2 cans (15 oz / 425 g each) black beans, rinsed and drained, about 510 g total drained'
-  - '1 tsp fine salt, divided, plus more to taste'
-  - 1/2 tsp ground black pepper
-  - '1 tbsp fresh lime juice, added gradually to taste'
-  - '--- Optional toppings, for the whole batch ---'
-  - 60 g grated Cheddar
-  - 1/4 cup (60 g) sour cream
-  - '1 medium avocado, about 150 g edible flesh, diced just before serving'
-  - 1/4 cup chopped fresh cilantro
+  - 1/2 tsp black pepper
+  - 1 can (28 oz) crushed tomatoes
+  - '2 cups low-sodium chicken broth, plus more as needed'
+  - '2 cans (15 oz each) black beans, rinsed and drained'
+  - 1 tbsp fresh lime juice
+  - '--- For serving ---'
+  - '1/2 cup Cheddar, shredded'
+  - 1/4 cup sour cream
+  - '1 avocado, diced'
+  - '1/4 cup fresh cilantro, chopped'
 difficulty: easy
 cookingMethods:
   - saute
@@ -52,100 +55,40 @@ nutritionalDensity: moderate
 leftovers: good
 description: >-
   Browned ground turkey, tender sweet potato and black beans in a smoky tomato chili, finished with
-  staged lime and measured toppings.
+  lime.
 equipment:
   - 6-quart-dutch-oven
   - instant-read-thermometer
 learning:
-  focus: 'Brown in manageable batches, then stop the simmer at the vegetable endpoint'
-  outcome: >-
-    A thick but spoonable chili with browned turkey, tender sweet-potato cubes and identifiable
-    beans, with balanced smoke and acidity.
   techniques:
     - browning
     - temperature
     - seasoning
-  before:
-    - >-
-      Use a mild blended chili powder; two tablespoons of pure hot chile powder gives a very
-      different heat level.
-    - >-
-      Cut potatoes to a consistent half inch. Tomato-rich liquid can slow their softening, so check
-      a cube rather than assuming a short simmer.
-  checkpoints:
-    - step: 1
-      cue: The turkey has browned patches rather than sitting in a deep pool of released water.
-      why: >-
-        Two batches give moisture space to evaporate; scraping and stirring constantly from the
-        start inhibits surface browning.
-    - step: 4
-      cue: >-
-        Sweet-potato cubes yield readily to a knife and several substantial turkey pieces reach
-        165°F / 74°C.
-      why: >-
-        The vegetables and ground poultry need separate checks. A red tomato sauce can hide meat
-        color.
-    - step: 5
-      cue: 'Chili mounds loosely on a spoon but still flows, with some intact potato and beans.'
-      why: >-
-        Evaporation and softened solids give body. Longer cooking is not automatically better once
-        vegetables begin disintegrating.
-  troubleshooting:
-    - problem: Potatoes remain hard
-      cause: Cubes were large or the acidic tomato base slowed softening.
-      fix: >-
-        Keep simmering gently, adding a little reserved broth if needed. Wait for tenderness before
-        reducing further.
-    - problem: Chili is too salty
-      cause: 'Stock, tomatoes and added seasoning were all salted before concentration.'
-      fix: >-
-        Stop reducing and dilute with some unsalted broth or water. The removed bouillon concentrate
-        should not be added on top of the measured broth by default.
   substitutions:
     - ingredient: Black beans
-      alternative: '510 g drained, fully cooked kidney beans'
-      effect: >-
-        Larger beans with a different texture. Use canned or separately cooked beans; raw dried
-        beans do not belong in this short tomato simmer.
-    - ingredient: Lime juice
-      alternative: '1 tbsp apple cider vinegar, staged to taste'
-      effect: >-
-        A different aroma and acidity. Add after the consistency is set, not automatically in
-        addition to lime.
-  timing: >-
-    About 1 hr 30 min includes preparation, two turkey browning batches, aromatics, heating and a
-    30–40-minute potato simmer plus a short bean finish. Potato variety and pot evaporation can
-    extend it.
+      alternative: Canned kidney beans
+      effect: 'Larger and creamier, with a milder flavor.'
+    - ingredient: Fresh lime juice
+      alternative: Apple cider vinegar
+      effect: 'Sharper and fruitier. Add it a little at a time at the end.'
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Cool in small shallow containers
-    rather than leaving the full Dutch oven on the counter. Reheat to 165°F / 74°C, loosening with
-    broth as needed. Store toppings separately and cut fresh avocado for later servings.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
-    - title: Effect of pH on the Maceration of Vegetables — primary study
-      url: 'https://www.jstage.jst.go.jp/article/jsnfs1983/36/4/36_4_219/_article/-char/en'
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat with a splash of broth.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Chowhound.com
+    date: '2026-11-09'
+source: Adapted from Chowhound
 sourceUrl: 'https://www.chowhound.com/recipes/spicy-slow-cooker-beef-chili-30669'
 ---
 
 ## Chef's Note
 
-Brown the turkey before adding the wet ingredients, then simmer only until the sweet potato is tender. Some softened potato thickens the chili, but the goal is still recognizable cubes and beans. Broth, tomatoes and toppings all contribute salt, so the recipe leaves final seasoning until the consistency is right. This is a Tex-Mex-inspired turkey chili with six substantial portions.
+This Tex-Mex-style chili trades beef for lean ground turkey and adds sweet potato, which turns soft and sweet against the smoky spices. Brown the turkey in two batches so it takes on real color instead of steaming. A squeeze of lime at the end wakes everything up.
 
 ## Directions
 
-1. **Brown turkey in two batches:** Heat 1 tbsp oil in a wide Dutch oven over medium-high heat. Add half the turkey in loose clumps, sprinkle with 1/4 tsp salt and leave briefly to brown before breaking it into coarse pieces, about 5–6 minutes total. Transfer to a bowl. Repeat with the remaining oil, turkey and another 1/4 tsp salt. Continue directly with cooking; browning is not the final safety check.
-2. **Cook aromatics:** With turkey set aside, add onion and sweet-potato cubes to the pot. Cook about 5–7 minutes over medium heat, stirring, until onion softens. If the pan catches, add a small splash from the measured broth. Stir in garlic, chili blend, cumin, paprika and pepper for about 30 seconds until fragrant.
-3. **Add liquid:** Return turkey and its juices. Add tomatoes, the initial 480 ml broth and the remaining 1/2 tsp salt, scraping up browned residue. Bring to a gentle simmer. Keep the additional broth for consistency adjustments.
-4. **Simmer and check:** Partly cover and simmer gently about 30–40 minutes, stirring occasionally, until a potato cube yields easily to a knife. Check several substantial turkey pieces for 165°F / 74°C. Add a little reserved broth if the pot becomes thick before potatoes soften.
-5. **Finish beans and consistency:** Add drained beans and simmer about 5 minutes until hot. If too thin, uncover briefly to reduce; if too thick, add reserved broth gradually. Avoid cooking until all the potato dissolves.
-6. **Season and serve:** Turn off heat. Taste and adjust the salt to taste. Start with half the lime juice, then add the rest to taste. Divide into six bowls. Offer the listed optional topping quantities separately, divided across the whole batch; any bread or slaw is prepared separately.
+1. **Brown the turkey:** Heat half the oil in a wide Dutch oven over medium-high heat. Add half the turkey in loose clumps and sprinkle with a quarter of the salt. Let it brown before breaking it into coarse pieces, 5 to 6 minutes in all. Move it to a bowl and repeat with the rest of the oil, the rest of the turkey and another quarter of the salt.
+2. **Soften the vegetables:** Lower the heat to medium. Add the onion and sweet potato and cook, stirring, until the onion softens, 5 to 7 minutes.
+3. **Bloom the spices:** Stir in the garlic, chili powder, cumin, smoked paprika and pepper and cook until fragrant, about 30 seconds.
+4. **Simmer the chili:** Return the turkey and its juices to the pot. Add the tomatoes, broth and the rest of the salt and scrape up the browned bits. Bring to a gentle simmer, partly cover and cook, stirring now and then, until the sweet potato is tender, 30 to 40 minutes. Add a splash of broth if it gets too thick.
+5. **Add the beans:** Stir in the beans and simmer until hot, about 5 minutes. Simmer uncovered to thicken, or add more broth to loosen.
+6. **Season and serve:** Turn off the heat and stir in the lime juice. Taste and add salt as needed. Serve with the Cheddar, sour cream, avocado and cilantro at the table.

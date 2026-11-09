@@ -15,40 +15,29 @@ cuisines:
   - Jewish
 role: dessert
 vibe: holiday
-prepTime: 20 min
-cookTime: 20–25 min per oven load; thin cookies may finish sooner
-totalTime: 'At least 3 hr 40 min, plus shaping, additional oven loads and cooling'
+prepTime: 45 min
+cookTime: 50 min
+totalTime: '1 hr 35 min, plus 3 hr chilling'
 servings: 35 pieces
 ingredients:
-  - '--- Butter dough ---'
-  - '3/4 cup unsalted butter, room temperature'
+  - '3/4 cup unsalted butter, softened'
   - 2/3 cup granulated sugar
-  - '1 large egg, room temperature'
+  - '1 large egg, at room temperature'
   - 1 tsp pure vanilla extract
-  - '1 tsp orange zest, grated'
+  - '1 tsp orange zest, finely grated'
   - 2 1/4 cups all-purpose flour
   - 1/4 tsp sea salt
-  - '1–5 tsp water, cold; only as needed, optional'
-  - 'all-purpose flour, a little only if the dough is too sticky, optional'
-  - '--- Rolling and pan supplies ---'
-  - 'all-purpose flour, enough to dust the surface and rolling pin lightly'
-  - 'butter or baking spray, enough to lightly grease baking sheets'
-  - '--- Filling — choose one ---'
-  - >-
-    apricot jam, poppy seed paste, or chocolate-hazelnut spread, enough for up
-    to 1 tsp per 3-inch cookie; choose one filling
+  - '1–5 tsp cold water, as needed'
+  - 'all-purpose flour, for rolling'
+  - 'butter or baking spray, for the baking sheets'
+  - '3/4 cup poppy seed filling, apricot jam or chocolate-hazelnut spread'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 advancePrep:
   - chill-dough
-pairsWith:
-  - noodle-pudding
-  - apple-cider-cream-pie
-  - apple-pie
-  - babys-first-smash-cake
-source: Adapted from ToriAvey.com
+source: Adapted from Tori Avey
 sourceUrl: 'https://toriavey.com/toris-kitchen/buttery-hamantaschen/'
 rating: 4
 formula:
@@ -57,8 +46,8 @@ formula:
     amount: 35
     unit: piece
   components:
-    - id: dough
-      name: Butter dough
+    - id: main
+      name: Main recipe
       ingredients:
         - id: butter
           key: butter
@@ -69,7 +58,7 @@ formula:
           uses:
             - step: cream
               share: 1
-          preparation: room temperature
+          preparation: softened
         - id: sugar
           key: sugar
           name: granulated sugar
@@ -89,7 +78,7 @@ formula:
             - step: egg
               share: 1
           plural: large eggs
-          preparation: room temperature
+          preparation: at room temperature
         - id: vanilla
           key: vanilla
           name: pure vanilla extract
@@ -108,7 +97,7 @@ formula:
           uses:
             - step: egg
               share: 1
-          preparation: grated
+          preparation: finely grated
         - id: flour
           key: flour
           name: all-purpose flour
@@ -129,243 +118,107 @@ formula:
               share: 1
         - id: water
           key: water
-          name: water
+          name: cold water
           quantity:
             amount: 1
             max: 5
             unit: tsp
+          preparation: as needed
           uses:
             - step: knead
               share: 1
-          optional: true
           role: cooking-water
-          preparation: cold; only as needed
-        - id: extra-flour
-          key: extra-flour
-          name: all-purpose flour
-          allowance: a little only if the dough is too sticky
-          uses:
-            - step: knead
-              share: 1
-          optional: true
-    - id: handling
-      name: Rolling and pan supplies
-      ingredients:
         - id: rolling-flour
           key: rolling-flour
           name: all-purpose flour
-          allowance: enough to dust the surface and rolling pin lightly
+          allowance: for rolling
           uses:
-            - step: prep
+            - step: roll
               share: 1
         - id: grease
           key: grease
           name: butter or baking spray
-          allowance: enough to lightly grease baking sheets
+          allowance: for the baking sheets
           uses:
-            - step: prep
+            - step: oven
               share: 1
-    - id: filling
-      name: Filling — choose one
-      ingredients:
         - id: filling
           key: filling
-          name: 'apricot jam, poppy seed paste, or chocolate-hazelnut spread'
-          allowance: enough for up to 1 tsp per 3-inch cookie; choose one filling
+          name: 'poppy seed filling, apricot jam or chocolate-hazelnut spread'
+          quantity:
+            amount: 3/4
+            unit: cup
           uses:
             - step: fill
               share: 1
   steps:
     - id: cream
-      title: Cream
-      text: 'Beat {{ingredients}} until light and fluffy, about 3 minutes.'
-    - id: egg
-      title: Add egg and flavorings
-      text: 'Beat in {{ingredients}} until evenly combined, scraping the bowl.'
-    - id: dry
-      title: Mix the dough
-      text: 'Sift in {{ingredients}} and mix on low until a crumbly dough forms.'
-    - id: knead
-      title: Bring the dough together
+      title: Cream the butter
       text: >-
-        Have {{ingredients}} available only if needed. Knead the crumbles gently
-        into a smooth, slightly tacky ball. Add the listed water slowly, a
-        little at a time, only if the dough is too dry to join; in the original
-        batch use 1–5 tsp total as needed, adding about 1 tsp at a time. Scale
-        that total range with the dough, but continue adding small increments by
-        feel. If it becomes sticky, knead in a little of the optional flour.
-        Stop once the dough holds together and can be rolled; avoid overworking
-        it.
+        In a stand mixer, beat {{ingredients}} on medium speed until light and fluffy, about 3
+        minutes.
+    - id: egg
+      title: Add the egg
+      text: 'Beat in {{ingredients}} until combined, scraping the bowl.'
+    - id: dry
+      title: Add the flour
+      text: 'Sift in {{ingredients}}. Mix on low speed just until a crumbly dough forms, then stop.'
+    - id: knead
+      title: Knead the dough
+      text: >-
+        Knead the crumbles by hand into a smooth, slightly tacky ball. If the dough is too dry to
+        come together, work in {{ingredients}} a little at a time.
     - id: chill
       title: Chill
-      text: >-
-        Flatten into a disk, wrap and refrigerate at 40°F / 4°C or below for at
-        least 3 hours or overnight.
-    - id: prep
-      title: Prepare to assemble
-      text: >-
-        Choose and prepare the filling before rolling; follow its own recipe or
-        product instructions. Preheat the oven to 350°F. Use {{ingredients}} for
-        handling: lightly flour the work surface and rolling pin, then lightly
-        grease the sheets with the butter or spray.
+      text: 'Flatten the dough into a disk, wrap it and refrigerate for at least 3 hours or overnight.'
+    - id: oven
+      title: Heat the oven
+      text: 'Heat the oven to 350°F. Grease two baking sheets with {{ingredients}}.'
     - id: roll
       title: Roll and cut
       text: >-
-        Roll to the main ⅛-inch thickness. If needed, begin around ¼ inch, lift
-        the dough with a pastry scraper, lightly re-flour and flip it, then
-        finish rolling. Repair cracks with your fingers. Cut 3-inch circles and
-        gather and re-roll scraps gently until all usable dough is portioned;
-        avoid adding unnecessary flour. Keep unused circles covered with a
-        lightly damp towel while filling. The listed cookie count is a planning
-        value; thickness changes yield. Larger batches need more sheets and oven
-        loads, with the same circle size and thickness.
+        On a surface dusted with {{ingredients}}, roll the cold dough 1/8 inch thick. If it cracks,
+        press the cracks closed with your fingers. Cut 3-inch circles and re-roll the scraps once.
     - id: fill
       title: Fill and fold
       text: >-
-        Use {{ingredients}}, placing no more than 1 tsp in each 3-inch circle.
-        Fold the left side toward the center; fold the right side so its upper
-        part overlaps the left flap. Fold the bottom up with its left corner
-        under the left flap and its right corner over the right flap. Each flap
-        then has one corner over and one under, leaving a small center of
-        filling visible. Pinch the corners gently but firmly and repair cracks;
-        Keep the filling away from the seams and make each fold secure.
+        Put a teaspoon of {{ingredients}} in the center of each circle. Fold the left side toward
+        the center, then fold the right side over so it overlaps the left. Fold the bottom up,
+        tucking its left corner under the left flap and laying its right corner over the right flap.
+        Pinch the corners firmly, leaving a little filling showing in the middle.
     - id: bake
       title: Bake
       text: >-
-        Space the cookies on the prepared sheets and wait for the oven to reach
-        350°F. The main route is 20–25 minutes per oven load, until cooked
-        through and lightly golden. Begin checking at 10 minutes when cookies
-        are thin: thickness and filling can make them finish sooner. Keep
-        unbaked dough refrigerated between loads.
+        Set the cookies an inch apart on the sheets. Bake one sheet at a time until the edges are
+        just golden, 20 to 25 minutes. Keep the unbaked cookies in the fridge while they wait.
     - id: cool
-      title: Cool and store
-      text: >-
-        Cool completely on a wire rack before storing airtight. Follow the
-        selected filling’s storage requirements; refrigerate cookies with
-        perishable filling at 40°F / 4°C or below promptly, within 2 hours or 1
-        hour above 90°F / 32°C.
+      title: Cool
+      text: Cool the cookies completely on a wire rack.
 learning:
-  focus: Judging conditional dough hydration and folding each corner over and under.
-  outcome: >-
-    Filled triangles that hold their shape while baking, with cooked, lightly
-    golden dough.
   techniques:
     - cold-preparation
     - temperature
-  before:
-    - >-
-      Prepare one filling before rolling. Have the optional water available, but
-      add it only when dry crumbles will not form a workable dough; the full
-      listed flour is already in the dough.
-    - >-
-      Allow the required three-hour to overnight chill plus rolling, cutting,
-      folding and complete cooling. The listed count is approximate; the
-      thickness options have different yields.
-    - >-
-      Do not taste raw dough; it contains raw flour and egg. Wash hands and
-      tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated
-      fraction; keep cookie dimensions and baking temperature fixed.
-  checkpoints:
-    - step: 4
-      cue: 'A smooth, slightly tacky dough ball, not dry crumbles or sticky paste.'
-      why: >-
-        The optional water corrects a dry dough in small additions; the range is
-        not an instruction to pour in its maximum.
-    - step: 8
-      cue: >-
-        Each flap has one corner over and one under; no more than a teaspoon of
-        filling in the 3-inch circle.
-      why: >-
-        This distinguishes the actual pinwheel fold from tucking every corner
-        underneath. Too much filling strains the dough seams.
-    - step: 9
-      cue: >-
-        Cooked-through dough with lightly golden edges, checked early when
-        rolled thin.
-      why: >-
-        The written 20–25 minutes describes the main route; thinner source
-        options can finish earlier and cannot share a guaranteed clock.
-  troubleshooting:
-    - problem: The chilled dough cracks when rolled.
-      cause: >-
-        Cold, firm dough resists the initial roll, or the dough was left too
-        dry.
-      fix: >-
-        Start gradually, repair large edge cracks and re-flour lightly only to
-        prevent sticking. At mixing, use the optional water only until the dough
-        joins.
-    - problem: Triangles open or filling escapes.
-      cause: >-
-        Filling is overfull, dough cracks remain, or folds lack the alternating
-        over-and-under corners.
-      fix: >-
-        Use no more than a teaspoon in each 3-inch circle, repair cracks and
-        form the actual pinwheel. Follow a suitable filling recipe; folding
-        cannot correct very runny filling.
-  substitutions:
-    - ingredient: ⅛-inch main dough thickness
-      alternative: 'Just under ⅛ inch, or closer to ¼ inch'
-      effect: >-
-        These are separate source thickness choices. Thin dough needs earlier
-        checks; thicker dough gives fewer, more doughy cookies without changing
-        the full formula.
-    - ingredient: Apricot jam filling
-      alternative: Poppy seed paste or chocolate-hazelnut spread
-      effect: >-
-        Choose a single suitable filling per cookie; its preparation and storage
-        requirements still apply. None has a measured total quantity here.
   storage: >-
-    The source allows chilling the wrapped dough for three hours to overnight.
-    Keep it at 40°F / 4°C or below and keep unused raw dough cold during
-    assembly. Cool baked cookies completely and store airtight, following the
-    chosen filling’s label or recipe. Perishable fillings require prompt
-    refrigeration within 2 hours, or 1 hour above 90°F / 32°C; no common shelf
-    life is established for all fillings.
-  timing: >-
-    The retained 20-minute dough-preparation allowance, at least three-hour
-    chill and first 20–25-minute oven load give at least 3 hours 40 minutes
-    before shaping and cooling are counted. Rolling, re-rolling, cutting,
-    folding, homemade filling preparation, remaining preheating and later loads
-    extend elapsed time. The publisher’s modern bake instructions check thin
-    cookies at 10 minutes; these do not promise a faster whole batch.
-  sources:
-    - title: >-
-        Tori Avey — conditional water, pinwheel fold, thickness and overnight
-        options
-      url: 'https://toriavey.com/buttery-hamantaschen/'
-    - title: FDA — raw flour and dough handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
-    - title: FDA — conditional perishable-filling storage scope
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    Keep in an airtight container for up to 5 days, or freeze for 3 months. The dough can be made a
+    day ahead.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Hamantaschen are triangular Jewish cookies for Purim. Keep the butter dough cool enough to handle, and give each flap one over-and-one-under corner. The 3-inch circle has room for no more than a teaspoon of filling. Pinching and repairing cracks improve the fold, but filling consistency and dough thickness still affect leakage.
+Hamantaschen are the three-cornered butter cookies of Purim, filled with poppy seed, apricot or chocolate. The dough is close to shortbread, so keep it cold until it goes into the oven. The pinwheel fold, with one corner over and one under on each side, holds the triangles shut as they bake.
 
 ## Directions
 
-1. **Cream:** Beat unsalted butter and granulated sugar until light and fluffy, about 3 minutes.
-2. **Add egg and flavorings:** Beat in large egg, pure vanilla extract, and orange zest until evenly combined, scraping the bowl.
-3. **Mix the dough:** Sift in all-purpose flour and sea salt and mix on low until a crumbly dough forms.
-4. **Bring the dough together:** Have water (if using) and all-purpose flour (if using) available only if needed. Knead the crumbles gently into a smooth, slightly tacky ball. Add the listed water slowly, a little at a time, only if the dough is too dry to join; in the original batch use 1–5 tsp total as needed, adding about 1 tsp at a time. Scale that total range with the dough, but continue adding small increments by feel. If it becomes sticky, knead in a little of the optional flour. Stop once the dough holds together and can be rolled; avoid overworking it.
-5. **Chill:** Flatten into a disk, wrap and refrigerate at 40°F / 4°C or below for at least 3 hours or overnight.
-6. **Prepare to assemble:** Choose and prepare the filling before rolling; follow its own recipe or product instructions. Preheat the oven to 350°F. Use all-purpose flour and butter or baking spray for handling: lightly flour the work surface and rolling pin, then lightly grease the sheets with the butter or spray.
-7. **Roll and cut:** Roll to the main ⅛-inch thickness. If needed, begin around ¼ inch, lift the dough with a pastry scraper, lightly re-flour and flip it, then finish rolling. Repair cracks with your fingers. Cut 3-inch circles and gather and re-roll scraps gently until all usable dough is portioned; avoid adding unnecessary flour. Keep unused circles covered with a lightly damp towel while filling. The listed cookie count is a planning value; thickness changes yield. Larger batches need more sheets and oven loads, with the same circle size and thickness.
-8. **Fill and fold:** Use apricot jam, poppy seed paste, or chocolate-hazelnut spread, placing no more than 1 tsp in each 3-inch circle. Fold the left side toward the center; fold the right side so its upper part overlaps the left flap. Fold the bottom up with its left corner under the left flap and its right corner over the right flap. Each flap then has one corner over and one under, leaving a small center of filling visible. Pinch the corners gently but firmly and repair cracks; Keep the filling away from the seams and make each fold secure.
-9. **Bake:** Space the cookies on the prepared sheets and wait for the oven to reach 350°F. The main route is 20–25 minutes per oven load, until cooked through and lightly golden. Begin checking at 10 minutes when cookies are thin: thickness and filling can make them finish sooner. Keep unbaked dough refrigerated between loads.
-10. **Cool and store:** Cool completely on a wire rack before storing airtight. Follow the selected filling’s storage requirements; refrigerate cookies with perishable filling at 40°F / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C.
-
-## Cooking Options
-
-### Rolling thickness
-
-The main route uses ⅛-inch dough. Tori Avey’s thinner, more delicate option rolls just under ⅛ inch while keeping the dough strong enough to hold the filling. Her thicker, more doughy option stays closer to ¼ inch and makes fewer cookies from the same dough. Keep the 3-inch cutter and the one-teaspoon maximum filling per circle for either option; do not force the listed count by changing thickness. Check thin cookies from 10 minutes and continue only until cooked through and lightly golden.
-
-Apricot jam, poppy seed paste and chocolate-hazelnut spread are separate filling choices, not three additions to each cookie. Their preparation, total quantity and storage requirements depend on the selected filling; a homemade filling needs its own complete recipe.
+1. **Cream the butter:** In a stand mixer, beat unsalted butter and granulated sugar on medium speed until light and fluffy, about 3 minutes.
+2. **Add the egg:** Beat in large egg, pure vanilla extract, and orange zest until combined, scraping the bowl.
+3. **Add the flour:** Sift in all-purpose flour and sea salt. Mix on low speed just until a crumbly dough forms, then stop.
+4. **Knead the dough:** Knead the crumbles by hand into a smooth, slightly tacky ball. If the dough is too dry to come together, work in cold water a little at a time.
+5. **Chill:** Flatten the dough into a disk, wrap it and refrigerate for at least 3 hours or overnight.
+6. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with butter or baking spray.
+7. **Roll and cut:** On a surface dusted with all-purpose flour, roll the cold dough 1/8 inch thick. If it cracks, press the cracks closed with your fingers. Cut 3-inch circles and re-roll the scraps once.
+8. **Fill and fold:** Put a teaspoon of poppy seed filling, apricot jam or chocolate-hazelnut spread in the center of each circle. Fold the left side toward the center, then fold the right side over so it overlaps the left. Fold the bottom up, tucking its left corner under the left flap and laying its right corner over the right flap. Pinch the corners firmly, leaving a little filling showing in the middle.
+9. **Bake:** Set the cookies an inch apart on the sheets. Bake one sheet at a time until the edges are just golden, 20 to 25 minutes. Keep the unbaked cookies in the fridge while they wait.
+10. **Cool:** Cool the cookies completely on a wire rack.

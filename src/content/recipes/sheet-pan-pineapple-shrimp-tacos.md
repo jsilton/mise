@@ -18,15 +18,18 @@ cuisines:
 role: main
 vibe: quick
 prepTime: 15 min
-cookTime: '12–15 min, plus any extra fruit/onion roasting'
-totalTime: '40–45 min, planning estimate'
+cookTime: 20 min
+totalTime: 40 min
 servings: 6 portions
 pairsWith:
   - mexican-street-corn-salad
   - cilantro-lime-rice
   - quick-seasoned-black-beans
+pairingNotes:
+  mexican-street-corn-salad: 'Creamy, smoky corn beside sweet pineapple.'
+  cilantro-lime-rice: Lime rice to round out a taco night.
+  quick-seasoned-black-beans: 'Beans on the side, ready in minutes.'
 ingredients:
-  - '--- Tacos and slaw ---'
   - '1 lb raw shrimp, peeled, deveined and tails removed'
   - '2 cups fresh pineapple, cut into 1/2-inch pieces'
   - '1 medium red onion, sliced'
@@ -42,9 +45,9 @@ ingredients:
   - '1/2 cup fresh cilantro, for the slaw'
   - '1 lime, juiced, for the slaw'
   - 'kosher salt, to taste'
-  - 'corn tortillas, as needed to serve the filling'
-  - 'avocado, to taste, sliced'
-  - 'sour cream, to taste'
+  - 'corn tortillas, warmed, for serving'
+  - 'avocado, for serving, sliced'
+  - 'sour cream, for serving'
   - 'lime wedges, for serving, optional'
   - 'fresh cilantro, for serving, chopped, optional'
   - 'radish, for serving, thinly sliced, optional'
@@ -52,89 +55,25 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from delish.com
-sourceUrl: >-
-  https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/
+source: Adapted from Delish
+sourceUrl: 'https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/'
 learning:
-  focus: Separate a shrimp endpoint from the roast time needed by fruit and onion.
-  outcome: 'Cooked-through shrimp, softened onion and pineapple, and crisp cold slaw.'
   techniques:
     - gentle-proteins
-    - temperature
-  before:
-    - >-
-      Follow the scaled list. The full olive oil is divided into a quarter for
-      marinade, half for the two tray zones and a quarter for slaw; halve the
-      tray share between onion and pineapple.
-    - >-
-      Use rimmed trays with single layers and distinct zones; a larger batch
-      needs more tray space. Prepare slaw with clean equipment.
-  checkpoints:
-    - step: 3
-      cue: 'Shrimp centers reach 145°F and are firm, pearly and opaque.'
-      why: Waiting for the pineapple to brown can overcook shrimp.
-    - step: 4
-      cue: The full slaw is lightly dressed and kept cold.
-      why: >-
-        Its separate oil and lime allocations are not part of the shrimp
-        marinade.
-  troubleshooting:
-    - problem: Fruit is pale when shrimp are done.
-      cause: Wet fruit and tray crowding slowed browning.
-      fix: >-
-        Remove cooked shrimp, spread fruit and onion more widely and continue
-        their roast. Do not keep cooking shrimp to match the fruit.
-    - problem: Slaw becomes soggy.
-      cause: It sat dressed for a long time.
-      fix: >-
-        Slice and chill components ahead, then dress closer to service; the
-        existing lime and oil stay with the slaw.
-  timing: >-
-    Allow about 40–45 minutes for the original batch: roughly 15 minutes of
-    prep, a 15-minute refrigerated marinade and 12–15 minutes roasting, with
-    slaw and oven heating overlapping the wait. More trays or extra fruit/onion
-    cooking extend the plan. Six is the original planning portion count, not a
-    measured taco count.
-  storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F or below,
-    within 2 hours of cooking or 1 hour above 90°F. Use refrigerated cooked
-    leftovers within 3–4 days. Keep toppings separate. Reheat only the portion
-    needed to 165°F throughout; further heating will firm the seafood. Keep
-    slaw, sour cream and fresh garnishes cold and out of the reheating pan.
-  sources:
-    - title: 'Justin Sullivan: Sheet Pan Pineapple Shrimp Tacos, Delish'
-      url: >-
-        https://www.delish.com/cooking/recipe-ideas/a32173924/sheet-pan-pineapple-shrimp-tacos-recipe/
-    - title: 'FDA: Seafood handling and cooking'
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: 'FDA: Safe food handling'
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: 'USDA: Handling leftovers safely'
-      url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
+    - browning
   substitutions:
-    - ingredient: Corn tortillas
+    - ingredient: corn tortillas
       alternative: Flour tortillas
-      effect: >-
-        Warm and fill flour tortillas the same way. They change size and gluten
-        suitability.
-    - ingredient: Cayenne
-      alternative: Omit it
-      effect: >-
-        This is a less-hot option; keep chili powder and cumin unless choosing
-        to reduce those separately.
-    - ingredient: Measured pineapple pieces
-      alternative: >-
-        One whole pineapple per original batch, cored and cut into 1/2-inch
-        pieces
-      effect: >-
-        One whole pineapple is an original-batch alternative. Pineapple sizes
-        vary, so its approximately two-cup yield is not a fixed conversion.
-        Scale the whole-fruit share proportionally and allow tray space for its
-        actual yield.
+      effect: Softer and milder. Warm them the same way.
+    - ingredient: cayenne
+      alternative: Leave it out
+      effect: The shrimp stay warm with chili and cumin but lose the heat. Pass hot sauce at the table.
+  storage: >-
+    The shrimp and pineapple keep 2 days in the fridge, apart from the slaw. Reheat them briefly in
+    a hot skillet.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -298,14 +237,14 @@ formula:
         - id: tortillas
           key: tortillas
           name: corn tortillas
-          allowance: as needed to serve the filling
+          allowance: 'warmed, for serving'
           uses:
             - step: assemble
               share: 1
         - id: avocado
           key: avocado
           name: avocado
-          allowance: to taste
+          allowance: for serving
           preparation: sliced
           uses:
             - step: finish
@@ -313,7 +252,7 @@ formula:
         - id: sour-cream
           key: sour-cream
           name: sour cream
-          allowance: to taste
+          allowance: for serving
           uses:
             - step: finish
               share: 1
@@ -348,55 +287,42 @@ formula:
           role: garnish
   steps:
     - id: marinate
-      title: Marinate
+      title: Marinate the shrimp
       text: >-
-        Use {{ingredients}} for the marinade. Pat the thawed shrimp dry, then
-        whisk the marinade oil, lime juice, garlic, salt and spices together
-        before adding the shrimp and tossing to coat. Marinate in the
-        refrigerator for 15 minutes. Heat the oven to 425°F while you prepare
-        the tray and slaw.
+        Heat the oven to 425°F. Pat the shrimp dry, then toss {{ingredients}} in a bowl until the
+        shrimp are well coated. Refrigerate for 15 minutes while the fruit roasts.
     - id: pan
-      title: Prepare the Tray
+      title: Roast the pineapple
       text: >-
-        Use {{ingredients}} for the onion and pineapple zones. Divide this pan
-        share of oil equally between them; all the water goes with the onion.
-        Spread the marinated shrimp in a third zone, with all its coating. Use
-        additional rimmed trays if the shrimp or vegetables would overlap;
-        divide the full supplies proportionally rather than adding oil.
-    - id: roast
-      title: Roast
-      text: >-
-        Bake about 12–15 minutes, checking early. The thickest shrimp should
-        reach 145°F with firm, pearly, opaque flesh throughout. Remove finished
-        shrimp with clean utensils to a clean plate. If the pineapple and onion
-        need longer, return their sections to the oven; do not delay the shrimp
-        for a browning target.
+        Arrange {{ingredients}} on a large rimmed sheet pan, with the onion and water in one zone
+        and the pineapple in another. Split the oil between them, toss each zone to coat and leave a
+        third zone open for the shrimp. Roast until the onion softens and the pineapple starts to
+        brown, about 10 minutes.
     - id: slaw
-      title: Dress the Slaw
+      title: Make the slaw
+      text: 'While the pan roasts, toss {{ingredients}} in a bowl. Refrigerate until serving.'
+    - id: roast
+      title: Roast the shrimp
       text: >-
-        Toss {{ingredients}} together while the tray roasts, using all the juice
-        from the slaw lime, then refrigerate until serving. Keep this
-        ready-to-eat mixture away from the raw-shrimp bowl and utensils.
+        Spread the shrimp and their marinade in the open zone of the hot pan. Roast until the shrimp
+        are pink and opaque and the pineapple edges are browned, 6 to 8 minutes.
     - id: assemble
-      title: Assemble
-      text: >-
-        Warm {{ingredients}}, then divide the slaw, shrimp, roasted onion and
-        pineapple among them. The taco count depends on tortilla and shrimp
-        size.
+      title: Fill the tortillas
+      text: 'Fill {{ingredients}} with the slaw, then the shrimp, roasted onion and pineapple.'
     - id: finish
-      title: Finish
+      title: Top and serve
       text: 'Top with {{ingredients}} and serve.'
 ---
 
 ## Chef's Note
 
-These Mexican-inspired tacos keep shrimp, pineapple and onion in separate areas of the tray. Check the shrimp before waiting for browned pineapple: finished shrimp can come out while the fruit and onion roast longer. Cold cabbage-cilantro slaw supplies the crisp contrast. For less heat, omit the cayenne or reduce the spicy elements.
+These Delish tacos roast sweet pineapple and red onion on a sheet pan, then add spiced lime shrimp for the last few minutes. The pineapple gets a head start so it browns at the edges while the shrimp stay tender. A cold cabbage and cilantro slaw gives every taco crunch.
 
 ## Directions
 
-1. **Marinate:** Use raw shrimp, fresh lime juice, garlic cloves, kosher salt, 1/4 of the extra-virgin olive oil, chili powder, ground cumin, and cayenne for the marinade. Pat the thawed shrimp dry, then whisk the marinade oil, lime juice, garlic, salt and spices together before adding the shrimp and tossing to coat. Marinate in the refrigerator for 15 minutes. Heat the oven to 425°F while you prepare the tray and slaw.
-2. **Prepare the Tray:** Use fresh pineapple, medium red onion, 1/2 of the extra-virgin olive oil, and water for the onion and pineapple zones. Divide this pan share of oil equally between them; all the water goes with the onion. Spread the marinated shrimp in a third zone, with all its coating. Use additional rimmed trays if the shrimp or vegetables would overlap; divide the full supplies proportionally rather than adding oil.
-3. **Roast:** Bake about 12–15 minutes, checking early. The thickest shrimp should reach 145°F with firm, pearly, opaque flesh throughout. Remove finished shrimp with clean utensils to a clean plate. If the pineapple and onion need longer, return their sections to the oven; do not delay the shrimp for a browning target.
-4. **Dress the Slaw:** Toss 1/4 of the extra-virgin olive oil, green cabbage, fresh cilantro, lime, and kosher salt together while the tray roasts, using all the juice from the slaw lime, then refrigerate until serving. Keep this ready-to-eat mixture away from the raw-shrimp bowl and utensils.
-5. **Assemble:** Warm corn tortillas, then divide the slaw, shrimp, roasted onion and pineapple among them. The taco count depends on tortilla and shrimp size.
-6. **Finish:** Top with avocado, sour cream, lime wedges (if using), fresh cilantro (if using), and radish (if using) and serve.
+1. **Marinate the shrimp:** Heat the oven to 425°F. Pat the shrimp dry, then toss raw shrimp, fresh lime juice, garlic cloves, kosher salt, 1/4 of the extra-virgin olive oil, chili powder, ground cumin, and cayenne in a bowl until the shrimp are well coated. Refrigerate for 15 minutes while the fruit roasts.
+2. **Roast the pineapple:** Arrange fresh pineapple, medium red onion, 1/2 of the extra-virgin olive oil, and water on a large rimmed sheet pan, with the onion and water in one zone and the pineapple in another. Split the oil between them, toss each zone to coat and leave a third zone open for the shrimp. Roast until the onion softens and the pineapple starts to brown, about 10 minutes.
+3. **Make the slaw:** While the pan roasts, toss 1/4 of the extra-virgin olive oil, green cabbage, fresh cilantro, lime, and kosher salt in a bowl. Refrigerate until serving.
+4. **Roast the shrimp:** Spread the shrimp and their marinade in the open zone of the hot pan. Roast until the shrimp are pink and opaque and the pineapple edges are browned, 6 to 8 minutes.
+5. **Fill the tortillas:** Fill corn tortillas with the slaw, then the shrimp, roasted onion and pineapple.
+6. **Top and serve:** Top with avocado, sour cream, lime wedges (if using), fresh cilantro (if using), and radish (if using) and serve.

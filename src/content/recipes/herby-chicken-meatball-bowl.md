@@ -21,60 +21,57 @@ cuisines:
   - Mediterranean
 role: main
 vibe: nutritious
-prepTime: About 25–35 min active preparation
-cookTime: 'About 25–40 min roasting and sequential meatball loads, partly overlapping'
-totalTime: About 50–70 min with oven heating and pan batches
+prepTime: 25 min
+cookTime: 30 min
+totalTime: 55 min
 servings: 4 portions
-pairsWith:
-  - lemon-herb-couscous
-  - garlic-butter-couscous
 ingredients:
-  - '--- Parmesan chickpeas ---'
-  - '1 can (15 oz) chickpeas, fully cooked, drained and well dried'
+  - '--- Chickpeas ---'
+  - '1 can (15 oz) chickpeas, drained and patted dry'
   - 1 tbsp olive oil
   - 1/2 tsp salt
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder
   - 1/2 tsp Italian seasoning
   - '2 tbsp Parmesan, grated'
-  - '--- Roasted sweet potato ---'
-  - '1 large sweet potato, washed and cut into bite-sized cubes'
+  - '--- Sweet potato ---'
+  - '1 large sweet potato, cut into bite-size cubes'
   - 1 tbsp olive oil
   - 1/2 tsp salt
   - 1/2 tsp ground cinnamon
   - 1/4 tsp ground cumin
-  - '--- Chicken logs ---'
+  - '--- Chicken meatballs ---'
   - 1 lb ground chicken
   - 1 cup whole-milk ricotta
   - 1 large egg
   - 1/2 cup panko breadcrumbs
   - '1 shallot, finely chopped'
-  - '2 green onions, washed and finely chopped'
-  - '1/2 cup fresh cilantro, washed and finely chopped'
-  - '1/4 cup fresh dill, washed and finely chopped'
-  - '1 lemon, washed; zest only for the meat mixture'
+  - '2 green onions, finely chopped'
+  - '1/2 cup fresh cilantro, finely chopped'
+  - '1/4 cup fresh dill, finely chopped'
+  - '1 tbsp lemon zest, finely grated'
   - 1 tsp salt
   - 1/2 tsp black pepper
   - 2 tbsp olive oil
-  - '--- Yogurt dressing ---'
+  - '--- Herb yogurt dressing ---'
   - 1 cup Greek yogurt
-  - '1 cup fresh basil, washed'
-  - '1/2 cup fresh dill, washed'
-  - '1 jalapeño, washed, seeds removed'
+  - 1 cup fresh basil leaves
+  - 1/2 cup fresh dill
+  - '1 jalapeño, seeded'
   - 1 tbsp honey
   - 1 tbsp fresh lemon juice
   - 1 tbsp olive oil
   - '2 garlic cloves, peeled'
-  - 'salt, to taste in dressing'
-  - 'black pepper, to taste in dressing'
-  - '--- Kale ---'
-  - '4 cups fresh kale, washed, tough stems removed and chopped'
+  - 'salt, to taste'
+  - 'black pepper, to taste'
+  - '--- For the bowls ---'
+  - '4 cups fresh kale, stems removed, chopped'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from thepalatablelife.com
-sourceUrl: 'https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe'
+source: Adapted from The Palatable Life
+sourceUrl: 'https://www.thepalatablelife.com/herby-chicken-meatball-bowl/'
 formula:
   version: 1
   yield:
@@ -82,7 +79,7 @@ formula:
     unit: portion
   components:
     - id: chickpeas
-      name: Parmesan chickpeas
+      name: Chickpeas
       ingredients:
         - id: beans
           key: beans
@@ -97,7 +94,7 @@ formula:
             amount: 15
             unit: oz
           plural: cans of chickpeas
-          preparation: 'fully cooked, drained and well dried'
+          preparation: drained and patted dry
         - id: oil
           key: oil
           name: olive oil
@@ -154,7 +151,7 @@ formula:
               share: 1
           preparation: grated
     - id: potato
-      name: Roasted sweet potato
+      name: Sweet potato
       ingredients:
         - id: potato
           key: potato
@@ -166,7 +163,7 @@ formula:
             - step: potato
               share: 1
           plural: large sweet potatoes
-          preparation: washed and cut into bite-sized cubes
+          preparation: cut into bite-size cubes
         - id: oil
           key: oil
           name: olive oil
@@ -204,7 +201,7 @@ formula:
             - step: potato
               share: 1
     - id: meat
-      name: Chicken logs
+      name: Chicken meatballs
       ingredients:
         - id: chicken
           key: chicken
@@ -264,7 +261,7 @@ formula:
             - step: mix
               share: 1
           plural: green onions
-          preparation: washed and finely chopped
+          preparation: finely chopped
         - id: cilantro
           key: cilantro
           name: fresh cilantro
@@ -274,7 +271,7 @@ formula:
           uses:
             - step: mix
               share: 1
-          preparation: washed and finely chopped
+          preparation: finely chopped
         - id: dill
           key: dill
           name: fresh dill
@@ -284,18 +281,17 @@ formula:
           uses:
             - step: mix
               share: 1
-          preparation: washed and finely chopped
+          preparation: finely chopped
         - id: zest
           key: zest
-          name: lemon
+          name: lemon zest
           quantity:
             amount: 1
-            unit: count
+            unit: tbsp
           uses:
             - step: mix
               share: 1
-          plural: lemons
-          preparation: washed; zest only for the meat mixture
+          preparation: finely grated
         - id: salt
           key: salt
           name: salt
@@ -324,7 +320,7 @@ formula:
             - step: cook
               share: 1
     - id: dressing
-      name: Yogurt dressing
+      name: Herb yogurt dressing
       ingredients:
         - id: yogurt
           key: yogurt
@@ -337,14 +333,13 @@ formula:
               share: 1
         - id: basil
           key: basil
-          name: fresh basil
+          name: fresh basil leaves
           quantity:
             amount: 1
             unit: cup
           uses:
             - step: dressing
               share: 1
-          preparation: washed
         - id: dill
           key: dill
           name: fresh dill
@@ -354,7 +349,6 @@ formula:
           uses:
             - step: dressing
               share: 1
-          preparation: washed
         - id: jalapeno
           key: jalapeno
           name: jalapeño
@@ -365,7 +359,7 @@ formula:
             - step: dressing
               share: 1
           plural: jalapeños
-          preparation: 'washed, seeds removed'
+          preparation: seeded
         - id: honey
           key: honey
           name: honey
@@ -407,19 +401,19 @@ formula:
         - id: salt
           key: salt
           name: salt
-          allowance: to taste in dressing
+          allowance: to taste
           uses:
             - step: dressing
               share: 1
         - id: pepper
           key: pepper
           name: black pepper
-          allowance: to taste in dressing
+          allowance: to taste
           uses:
             - step: dressing
               share: 1
     - id: bowl
-      name: Kale
+      name: For the bowls
       ingredients:
         - id: kale
           key: kale
@@ -430,124 +424,60 @@ formula:
           uses:
             - step: serve
               share: 1
-          preparation: 'washed, tough stems removed and chopped'
+          preparation: 'stems removed, chopped'
   steps:
     - id: chickpeas
-      title: Roast chickpeas
+      title: Roast the chickpeas
       text: >-
-        Preheat the oven to 400°F. Toss {{ingredients}} on one sheet pan and spread in a workable
-        layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the
-        cheese and spices for scorching. More cans need additional pan space, not more complete oil
-        doses per pan.
+        Heat the oven to 400°F. On a sheet pan, toss {{ingredients}} and spread in one layer. Roast
+        until crisp and golden, 20 to 25 minutes, shaking the pan once.
     - id: potato
-      title: Roast sweet potato
+      title: Roast the sweet potato
       text: >-
-        On another pan, toss {{ingredients}}. Roast about 15–25 minutes, until tender inside and
-        browned at the edges. Remove each roasting component when ready; chickpeas and potato do not
-        share one universal clock.
+        On a second sheet pan, toss {{ingredients}}. Roast alongside the chickpeas until tender
+        inside and browned at the edges, 20 to 25 minutes.
     - id: dressing
-      title: Blend dressing
+      title: Make the dressing
       text: >-
-        Blend {{ingredients}} smooth in a food processor or blender suited to cold mixtures. Make
-        and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned
-        tools. Keep it refrigerated while cooking.
+        While the pans roast, blend {{ingredients}} in a blender or food processor until smooth.
+        Taste for salt and refrigerate until serving.
     - id: mix
-      title: Mix and shape
+      title: Shape the meatballs
       text: >-
-        Gently combine {{ingredients}}, using all the zest from the listed lemon and keeping its
-        flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture
-        into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size.
-        You can also shape rounded meatballs; keep pieces similar in size and check their centers.
+        In a large bowl, gently mix {{ingredients}} just until combined. The mixture will be soft.
+        Shape it into small logs about 2 inches long.
     - id: cook
-      title: Cook chicken logs
+      title: Cook the meatballs
       text: >-
-        Heat {{ingredients}} in a large skillet over medium-high heat. Cook logs in batches without
-        crowding, starting with 3–4 minutes per side. Divide this oil allowance across all loads.
-        Continue as needed until golden brown and the centers reach 165°F /74°C on a food
-        thermometer; surface browning alone is not the endpoint. Transfer cooked pieces using clean
-        tools.
+        Heat {{ingredients}} in a large skillet over medium-high heat. Cook the logs in batches
+        without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side.
+        Let them set before turning so they hold together.
     - id: serve
-      title: Assemble
+      title: Build the bowls
       text: >-
-        Divide {{ingredients}} among the listed planning number of bowls, four at the original
-        batch. Add all roasted chickpeas, sweet potato and cooked chicken, then distribute the
-        dressing. The original four tablespoons pan oil belong 1 to chickpeas, 1 to potato and 2 to
-        chicken; the separate dressing tablespoon brings total oil to 5 tbsp at original batch.
+        Divide {{ingredients}} among four bowls. Top with the chickpeas, sweet potato and meatballs,
+        and spoon the dressing over.
 learning:
-  focus: 'Keep the roast, meat and dressing components distinct'
-  outcome: >-
-    Cooked chicken logs, separately roasted chickpeas and sweet potato, fresh kale and a cold herb
-    dressing.
   techniques:
     - gentle-proteins
-  before:
-    - >-
-      Keep raw poultry cold until preparation; thaw frozen poultry in the refrigerator before this
-      method. Keep raw-contact boards, dishes and utensils separate from ready-to-eat sauces and
-      finished food.
-    - >-
-      Prepare the cold dressing and washed kale away from raw chicken; use separate utensils for the
-      cooked logs.
-    - >-
-      Have two roasting pans and a skillet available. All measured oil is allocated across the
-      complete recipe; additional loads do not get a fresh full allowance.
-  checkpoints:
-    - step: 2
-      cue: Sweet potato is tender inside; chickpeas have their separate crispness check.
-      why: Different component cuts and oven loads change timing.
-    - step: 5
-      cue: The thickest log centers reach 165°F.
-      why: Ricotta-rich pieces can brown before their centers cook.
-  troubleshooting:
-    - problem: Soft logs break while turning
-      cause: 'The ricotta mixture was overworked, pieces are too large or they were disturbed too soon.'
-      fix: >-
-        Mix gently, shape comparable small pieces and let the surface set before turning; finish
-        every center to 165°F rather than adding arbitrary breadcrumbs.
-  substitutions:
-    - ingredient: Italian seasoning
-      alternative: >-
-        Same listed half-teaspoon amount of herbes de Provence at original batch, scaled
-        proportionally
-      effect: Herb blends change the flavor of the chickpeas.
-    - ingredient: Listed lemon juice in dressing
-      alternative: >-
-        For original four bowls, juice of one lemon instead; scale this distinct count-based option
-        proportionally
-      effect: Use this instead of the listed tablespoon-based juice quantity. Actual juice yield varies.
-    - ingredient: Cylindrical logs
-      alternative: Rounded meatballs of similar portion size
-      effect: Shape changes browning and timing; same mixture and center 165°F.
-  timing: >-
-    About 25–35 min active preparation; About 25–40 min roasting and sequential meatball loads,
-    partly overlapping; About 50–70 min with oven heating and pan batches. Planning ranges assume
-    thawed poultry and do not include cooking separate side dishes.
   storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
-    above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F
-    throughout. These handling limits do not promise unchanged texture.
-  sources:
-    - title: Adapted from thepalatablelife.com
-      url: 'https://www.thepalatablelife.com/herby-chicken-meatball-bowl/#recipe'
-    - title: FoodSafety.gov — Safe minimum cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Store the parts separately in the fridge for up to 4 days. Reheat the meatballs and sweet potato
+    and add the dressing cold.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Whole-milk ricotta makes the chicken mixture soft, so mix gently and portion all of it into small logs or balls. Roast chickpeas and sweet potato on separate pans because they have different texture endpoints. Keep the kale and yogurt dressing away from raw chicken, then assemble the bowls after the meatball centers reach 165°F.
+Soft chicken and ricotta meatballs full of cilantro, dill and lemon zest, served over kale with Parmesan chickpeas, roasted sweet potato and a bright green herb yogurt dressing. The ricotta keeps the chicken tender, so mix gently and let the logs brown before you turn them.
 
 ## Directions
 
-1. **Roast chickpeas:** Preheat the oven to 400°F. Toss chickpeas, olive oil, salt, garlic powder, onion powder, Italian seasoning, and Parmesan on one sheet pan and spread in a workable layer. Start checking at 15 minutes for a crisp exterior; continue as needed, watching the cheese and spices for scorching. More cans need additional pan space, not more complete oil doses per pan.
-2. **Roast sweet potato:** On another pan, toss large sweet potato, olive oil, salt, ground cinnamon, and ground cumin. Roast about 15–25 minutes, until tender inside and browned at the edges. Remove each roasting component when ready; chickpeas and potato do not share one universal clock.
-3. **Blend dressing:** Blend Greek yogurt, fresh basil, fresh dill, jalapeño, honey, fresh lemon juice, olive oil, garlic cloves, salt, and black pepper smooth in a food processor or blender suited to cold mixtures. Make and taste this ready-to-eat dressing before handling raw chicken, or use separately cleaned tools. Keep it refrigerated while cooking.
-4. **Mix and shape:** Gently combine ground chicken, whole-milk ricotta, large egg, panko breadcrumbs, shallot, green onions, fresh cilantro, fresh dill, lemon, salt, and black pepper, using all the zest from the listed lemon and keeping its flesh/juice out of the meat mixture. Kale stays for the serving bowls. Portion all mixture into small cylindrical logs using about 2 tbsp per log; total count varies with scoop size. You can also shape rounded meatballs; keep pieces similar in size and check their centers.
-5. **Cook chicken logs:** Heat olive oil in a large skillet over medium-high heat. Cook logs in batches without crowding, starting with 3–4 minutes per side. Divide this oil allowance across all loads. Continue as needed until golden brown and the centers reach 165°F /74°C on a food thermometer; surface browning alone is not the endpoint. Transfer cooked pieces using clean tools.
-6. **Assemble:** Divide fresh kale among the listed planning number of bowls, four at the original batch. Add all roasted chickpeas, sweet potato and cooked chicken, then distribute the dressing. The original four tablespoons pan oil belong 1 to chickpeas, 1 to potato and 2 to chicken; the separate dressing tablespoon brings total oil to 5 tbsp at original batch.
+1. **Roast the chickpeas:** Heat the oven to 400°F. On a sheet pan, toss chickpeas, olive oil, salt, garlic powder, onion powder, Italian seasoning, and Parmesan and spread in one layer. Roast until crisp and golden, 20 to 25 minutes, shaking the pan once.
+2. **Roast the sweet potato:** On a second sheet pan, toss large sweet potato, olive oil, salt, ground cinnamon, and ground cumin. Roast alongside the chickpeas until tender inside and browned at the edges, 20 to 25 minutes.
+3. **Make the dressing:** While the pans roast, blend Greek yogurt, fresh basil leaves, fresh dill, jalapeño, honey, fresh lemon juice, olive oil, garlic cloves, salt, and black pepper in a blender or food processor until smooth. Taste for salt and refrigerate until serving.
+4. **Shape the meatballs:** In a large bowl, gently mix ground chicken, whole-milk ricotta, large egg, panko breadcrumbs, shallot, green onions, fresh cilantro, fresh dill, lemon zest, salt, and black pepper just until combined. The mixture will be soft. Shape it into small logs about 2 inches long.
+5. **Cook the meatballs:** Heat olive oil in a large skillet over medium-high heat. Cook the logs in batches without crowding until golden on all sides and 165°F in the center, 3 to 4 minutes per side. Let them set before turning so they hold together.
+6. **Build the bowls:** Divide fresh kale among four bowls. Top with the chickpeas, sweet potato and meatballs, and spoon the dressing over.
+

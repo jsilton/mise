@@ -14,87 +14,46 @@ cuisines:
   - Jewish
 role: base
 vibe: nutritious
-prepTime: 30–45 minutes
-cookTime: 30–45 minutes
-totalTime: 1–1½ hours
+prepTime: 30 min
+cookTime: 40 min
+totalTime: 1 hr 10 min
 servings: 12 portions
 pairsWith:
+  - sweet-potato-latkes
   - miriams-melt-in-your-mouth-rosh-hashanah-brisket
-  - brisket-with-carrots-and-onions
-  - chef-krigers-recipe-shabbat-brisket
+pairingNotes:
+  sweet-potato-latkes: Applesauce on latkes is the Hanukkah classic.
+  miriams-melt-in-your-mouth-rosh-hashanah-brisket: Sweet apples beside the Rosh Hashanah brisket.
 ingredients:
-  - '--- Applesauce ---'
-  - '6 lb McIntosh apples, weighed before peeling and coring'
-  - 1/2 cup water
-  - 1/2 cup granulated sugar
-  - 1/4 cup honey
-  - 2 tbsp fresh lemon juice
-  - 3/4 tsp ground cinnamon
-  - 1/8 tsp ground nutmeg
-  - 'extra water, small splashes only if the bottom begins drying before the apples soften'
-  - 'ground cinnamon, to taste, for serving, optional'
+  - '6 lb McIntosh apples, peeled, cored and cut into chunks'
+  - 'water, for rinsing'
+  - 1 lemon
+  - 'honey, 1/4 jar'
+  - 1/4–1/2 cup sugar
+  - 'ground cinnamon, 2 to 3 shakes'
+  - 'ground nutmeg, 1 shake'
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-source: Adapted from Ruth Shankman
+source: From Nana Ruth Shankman
 equipment:
-  - Heavy approximately 8-quart pot with lid
-  - Potato masher
-  - Shallow storage containers
+  - 8-quart-pot-with-lid
+  - potato-masher
 learning:
-  focus: 'Soften McIntosh apples gently, then control the final texture by cooking down.'
-  outcome: 'A full family batch of soft applesauce with sugar, honey, warm spices and lemon.'
   techniques:
     - temperature
     - seasoning
-  before:
-    - Weigh the full apples before peeling and coring; use a pot with room to stir.
-    - >-
-      Measure the starting water rather than estimating its depth in the pot. Use the full sugar and
-      honey amounts for this version.
-  checkpoints:
-    - step: 2
-      cue: Apple pieces crush readily and the bottom stays moist.
-      why: >-
-        Variety and piece size change softening time; a small starting water amount prevents an
-        overly thin sauce.
-    - step: 3
-      cue: Mashed sauce mounds softly but remains moist.
-      why: Uncovered evaporation sets the serving texture without a fixed reduction clock.
-  troubleshooting:
-    - problem: The sauce is thin.
-      cause: Apple juice has not yet evaporated enough.
-      fix: Simmer uncovered gently and stir often until it reaches the texture you prefer.
-    - problem: The bottom is beginning to catch before the apples soften.
-      cause: Heat is too high or the starting moisture has evaporated.
-      fix: Lower the heat and add a small splash of water; stir the bottom often.
   substitutions:
     - ingredient: McIntosh apples
-      alternative: Keep McIntosh for the family texture; a different cooking apple is a separate texture choice
-      effect: 'Firmer apples may take longer and remain chunkier, so follow the softness cue.'
-  timing: >-
-    The listed full 6-lb batch plans twelve side portions; actual volume depends on trimming and
-    reduction. Allow 30–45 minutes to peel and core, about 20–30 minutes or longer to soften and
-    5–15 minutes to cook down. Total is roughly 1–1½ hours with about 40–55 minutes active work.
-    Larger batches need room to stir or separate complete pots; cooking time does not scale
-    arithmetically.
-  storage: >-
-    Refrigerate in covered shallow containers at 40°F / 4°C or below within 2 hours, or 1 hour above
-    90°F / 32°C. Use within 3–4 days, following any earlier ingredient deadline, or freeze promptly
-    for longer storage. This is fresh refrigerated applesauce; the lemon amount is for flavor and
-    does not establish a canning or shelf-stable process. Thaw in the refrigerator. If reheating
-    leftovers, heat to 165°F / 74°C throughout.
-  sources:
-    - title: National Center for Home Food Preservation — Applesauce
-      url: 'https://nchfp.uga.edu/how/can/canning-fruits-and-fruit-products/applesauce/'
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA FSIS — Handling Leftovers Safely
-      url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
+      alternative: Gala or Fuji apples
+      effect: >-
+        Firmer apples take longer to soften and give a chunkier sauce. They are sweeter, so start
+        with the smaller amount of sugar.
+  storage: Keeps 1 week in the fridge and freezes for 6 months. Serve it cold or warm it gently.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -110,122 +69,104 @@ formula:
           quantity:
             amount: 6
             unit: lb
-          preparation: weighed before peeling and coring
+          preparation: 'peeled, cored and cut into chunks'
           uses:
-            - step: prepare
+            - step: pot
               share: 1
         - id: water
           key: water
           name: water
-          quantity:
-            amount: 1/2
-            unit: cup
+          allowance: for rinsing
           role: cooking-water
           uses:
-            - step: simmer
+            - step: rinse
               share: 1
-        - id: sugar
-          key: sugar
-          name: granulated sugar
+        - id: lemon
+          key: lemon
+          name: lemon
           quantity:
-            amount: 1/2
-            unit: cup
+            amount: 1
+            unit: count
+          plural: lemons
           uses:
-            - step: simmer
+            - step: lemon
               share: 1
         - id: honey
           key: honey
           name: honey
+          allowance: 1/4 jar
+          uses:
+            - step: season
+              share: 1
+        - id: sugar
+          key: sugar
+          name: sugar
           quantity:
             amount: 1/4
+            max: 1/2
             unit: cup
           uses:
-            - step: simmer
-              share: 1
-        - id: lemon
-          key: lemon
-          name: fresh lemon juice
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: simmer
+            - step: season
               share: 1
         - id: cinnamon
           key: cinnamon
           name: ground cinnamon
-          quantity:
-            amount: 3/4
-            unit: tsp
+          allowance: 2 to 3 shakes
           uses:
-            - step: simmer
+            - step: season
               share: 1
         - id: nutmeg
           key: nutmeg
           name: ground nutmeg
-          quantity:
-            amount: 1/8
-            unit: tsp
+          allowance: 1 shake
           uses:
-            - step: simmer
-              share: 1
-        - id: extra-water
-          key: extra-water
-          name: extra water
-          allowance: small splashes only if the bottom begins drying before the apples soften
-          role: cooking-water
-          uses:
-            - step: simmer
-              share: 1
-        - id: serving-cinnamon
-          key: serving-cinnamon
-          name: ground cinnamon
-          allowance: 'to taste, for serving'
-          optional: true
-          role: garnish
-          uses:
-            - step: serve
+            - step: season
               share: 1
   steps:
-    - id: prepare
-      title: Prepare the full apple batch
+    - id: pot
+      title: Fill the pot
+      text: 'Put {{ingredients}} in a heavy nonstick or enameled pot, such as a Le Creuset.'
+    - id: rinse
+      title: Rinse the apples
       text: >-
-        Wash {{ingredients}} under running water before peeling. Peel and core, then cut into
-        roughly 1-inch chunks. Use a heavy approximately 8-quart pot with room to stir the full
-        batch without overflowing.
+        Fill the pot with {{ingredients}} and pour it off to rinse the apples. Fill and rinse a
+        second time, leaving a quarter of the water in the pot.
+    - id: lemon
+      title: Add the lemon
+      text: 'Squeeze in the juice of a little less than three quarters of the {{ingredients}}.'
+    - id: season
+      title: Season
+      text: 'Add {{ingredients}} and stir.'
+    - id: boil
+      title: Bring to a boil
+      text: 'Cook on high heat until it boils, then cover and turn the heat down to very low.'
     - id: simmer
-      title: Soften gently
-      text: >-
-        Add the apple chunks to the pot with {{ingredients}}, holding back the unmeasured extra
-        water for small splashes only if needed. Stir, cover and heat until the liquid begins
-        bubbling. Lower the heat to maintain a very gentle covered simmer. Stir the bottom often,
-        starting softness checks after 20–25 minutes and continuing until the apples crush readily
-        with a spoon. Do not let a dry bottom scorch.
+      title: Simmer
+      text: 'Cook on very low heat, stirring often, until the apples are soft, 20 to 25 minutes.'
     - id: mash
-      title: Mash and cook down
+      title: Crush and cook down
       text: >-
-        Mash the tender apples to the texture you like. Simmer uncovered over low heat, stirring
-        often, for roughly 5–15 minutes as needed until the sauce is thick enough to mound softly on
-        a spoon. Stop while it is moist; it thickens further when cold.
-    - id: serve
-      title: Serve warm or cold
-      text: >-
-        Serve warm, or cool promptly in shallow containers and refrigerate. Add {{ingredients}} if
-        desired.
+        Crush the soft apples against the side of the pot or with a masher. Cook down, stirring,
+        until the sauce is as thick as you like it.
 miseId: 1659a5c0-500e-4551-91fd-7d594d66f94d
 ---
 
 ## Chef's Note
 
-Ruth Shankman’s McIntosh applesauce belongs with the family’s Rosh Hashanah, Thanksgiving and Hanukkah meals. McIntosh apples soften readily into a sauce with gentle texture; sugar, honey, cinnamon, nutmeg and lemon keep its familiar sweet, warmly spiced character. Mash coarsely or smoothly and cook down to the texture you like.
+Nana Ruth Shankman's applesauce is a tradition for Rosh Hashanah, Thanksgiving and Hanukkah. McIntosh apples cook down quickly with honey, lemon and a few shakes of cinnamon and nutmeg. Crush them right in the pot, so the sauce stays a little chunky.
 
 ## Directions
 
-1. **Prepare the full apple batch:** Wash McIntosh apples under running water before peeling. Peel and core, then cut into roughly 1-inch chunks. Use a heavy approximately 8-quart pot with room to stir the full batch without overflowing.
-2. **Soften gently:** Add the apple chunks to the pot with water, granulated sugar, honey, fresh lemon juice, ground cinnamon, ground nutmeg, and extra water, holding back the unmeasured extra water for small splashes only if needed. Stir, cover and heat until the liquid begins bubbling. Lower the heat to maintain a very gentle covered simmer. Stir the bottom often, starting softness checks after 20–25 minutes and continuing until the apples crush readily with a spoon. Do not let a dry bottom scorch.
-3. **Mash and cook down:** Mash the tender apples to the texture you like. Simmer uncovered over low heat, stirring often, for roughly 5–15 minutes as needed until the sauce is thick enough to mound softly on a spoon. Stop while it is moist; it thickens further when cold.
-4. **Serve warm or cold:** Serve warm, or cool promptly in shallow containers and refrigerate. Add ground cinnamon (if using) if desired.
+1. **Fill the pot:** Put McIntosh apples in a heavy nonstick or enameled pot, such as a Le Creuset.
+2. **Rinse the apples:** Fill the pot with water and pour it off to rinse the apples. Fill and rinse a second time, leaving a quarter of the water in the pot.
+3. **Add the lemon:** Squeeze in the juice of a little less than three quarters of the lemon.
+4. **Season:** Add honey, sugar, ground cinnamon, and ground nutmeg and stir.
+5. **Bring to a boil:** Cook on high heat until it boils, then cover and turn the heat down to very low.
+6. **Simmer:** Cook on very low heat, stirring often, until the apples are soft, 20 to 25 minutes.
+7. **Crush and cook down:** Crush the soft apples against the side of the pot or with a masher. Cook down, stirring, until the sauce is as thick as you like it.
 
-## Cooking Notes
+## Suggested Tweak
 
-The full apple batch is retained. For the original less-sweet option, use half the displayed granulated sugar; keep the honey and all other ingredients the same. Add cinnamon at the table if desired. Lemon seasons this fresh applesauce; it is not a required preservation dose.
+- For a sauce that comes out the same every time, measure the seasonings: 1/2 cup water left in the pot, 1/2 cup sugar, 1/4 cup honey, 2 tbsp fresh lemon juice, 3/4 tsp ground cinnamon and 1/8 tsp ground nutmeg.
+- Cut the apples into 1-inch chunks so they soften evenly.
+- Cook the mashed sauce down uncovered over low heat, stirring often, until it mounds softly on a spoon, 5 to 15 minutes. Stop while it is still moist, since it thickens as it cools.

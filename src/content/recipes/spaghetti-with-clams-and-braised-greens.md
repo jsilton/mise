@@ -33,30 +33,25 @@ nutritionalDensity: moderate
 leftovers: poor
 pairsWith:
   - garlic-bread
+pairingNotes:
+  garlic-bread: For soaking up the red pepper broth.
 ingredients:
-  - '--- Main recipe ---'
   - 1/2 cup extra-virgin olive oil
   - '8 garlic cloves, crushed'
-  - >-
-    48 live littleneck clams, in their shells, scrubbed and rinsed; 4 dozen in
-    the original batch
+  - '48 live littleneck clams, scrubbed'
   - 2 cups dry white wine
-  - >-
-    2 jarred roasted red peppers, drained, then pureed with the clam liquid in
-    step 2
+  - '2 jarred roasted red peppers, drained'
   - '1 lb Swiss chard or collard greens, stemmed and chopped'
   - 1 tsp red pepper flakes
-  - 'kosher salt, to taste after adding the clam broth'
+  - 'kosher salt, to taste'
   - 'black pepper, to taste'
   - 1/2 lb spaghetti
-  - 'water, enough to boil the measured pasta'
-  - 'salt, to taste in the pasta water'
   - '2 tbsp unsalted butter, cubed and chilled'
-  - '1 lemon, zest and juice all the listed lemons for the current finish'
-  - '1/2 cup Parmesan, freshly grated'
-  - 'Parmesan, as desired for garnish, optional'
-source: Adapted from Foodandwine.com
-sourceUrl: 'http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens'
+  - '1 tsp lemon zest, finely grated'
+  - 1 tbsp fresh lemon juice
+  - '1/2 cup Parmesan, freshly grated, plus more for serving'
+source: Adapted from Food & Wine
+sourceUrl: 'https://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens'
 formula:
   version: 1
   yield:
@@ -73,9 +68,9 @@ formula:
             amount: 1/2
             unit: cup
           uses:
-            - step: steam
+            - step: garlic1
               share: 1/2
-            - step: greens
+            - step: garlic2
               share: 1/2
         - id: garlic
           key: garlic
@@ -84,9 +79,9 @@ formula:
             amount: 8
             unit: count
           uses:
-            - step: steam
+            - step: garlic1
               share: 1/2
-            - step: greens
+            - step: garlic2
               share: 1/2
           plural: garlic cloves
           preparation: crushed
@@ -100,7 +95,7 @@ formula:
             - step: steam
               share: 1
           plural: live littleneck clams
-          preparation: 'in their shells, scrubbed and rinsed; 4 dozen in the original batch'
+          preparation: scrubbed
         - id: wine
           key: white-wine
           name: dry white wine
@@ -120,7 +115,7 @@ formula:
             - step: blend
               share: 1
           plural: jarred roasted red peppers
-          preparation: 'drained, then pureed with the clam liquid in step 2'
+          preparation: drained
         - id: greens
           key: chard-or-collards
           name: Swiss chard or collard greens
@@ -138,7 +133,7 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: greens
+            - step: garlic2
               share: 1
         - id: salt
           key: kosher-salt
@@ -146,7 +141,7 @@ formula:
           uses:
             - step: season
               share: 1
-          allowance: to taste after adding the clam broth
+          allowance: to taste
         - id: pepper
           key: black-pepper
           name: black pepper
@@ -163,22 +158,6 @@ formula:
           uses:
             - step: boil
               share: 1
-        - id: water
-          key: water
-          name: water
-          uses:
-            - step: boil
-              share: 1
-          allowance: enough to boil the measured pasta
-          role: cooking-water
-        - id: pasta-salt
-          key: salt
-          name: salt
-          uses:
-            - step: boil
-              share: 1
-          allowance: to taste in the pasta water
-          role: cooking-water
         - id: butter
           key: unsalted-butter
           name: unsalted butter
@@ -189,17 +168,25 @@ formula:
             - step: finish
               share: 1
           preparation: cubed and chilled
-        - id: lemon
-          key: lemon
-          name: lemon
+        - id: zest
+          key: lemon-zest
+          name: lemon zest
           quantity:
             amount: 1
-            unit: count
+            unit: tsp
           uses:
             - step: finish
               share: 1
-          plural: lemons
-          preparation: zest and juice all the listed lemons for the current finish
+          preparation: finely grated
+        - id: lemon
+          key: lemon-juice
+          name: fresh lemon juice
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: finish
+              share: 1
         - id: cheese
           key: parmesan
           name: Parmesan
@@ -209,161 +196,76 @@ formula:
           uses:
             - step: finish
               share: 1
-          preparation: freshly grated
-        - id: garnish-cheese
-          key: parmesan
-          name: Parmesan
-          uses:
-            - step: serve
-              share: 1
-          allowance: as desired for garnish
-          optional: true
-          role: garnish
+          preparation: 'freshly grated, plus more for serving'
   steps:
+    - id: garlic1
+      title: Start the clams
+      text: >-
+        Warm {{ingredients}} in a large lidded pot over medium-high heat until the garlic is
+        fragrant, 30 to 45 seconds.
     - id: steam
-      title: Clams
+      title: Steam the clams
       text: >-
-        Use live, in-shell clams from a tagged or labeled supplier. Discard
-        cracked shells and clams that remain open after tapping. Scrub and rinse
-        before cooking; keep them cold. Follow the supplier’s purging advice
-        rather than assuming every batch needs a soak. Use {{ingredients}} for
-        this stage. In a pot with a lid and room for the measured shells, heat
-        the assigned oil, then add the assigned garlic. Cook the garlic about
-        30–45 seconds until fragrant; add the clams and wine and bring to a
-        boil. Cover and cook, beginning to check at 5–7 minutes. Transfer clams
-        to a clean dish as they open; discard any that remain unopened during
-        cooking. Keep all the cooking liquid. Divide all supplies proportionally
-        among enough pots or complete batches if the full load cannot fit.
+        Add {{ingredients}} and bring to a boil. Cover and cook until the clams open, 5 to 7
+        minutes. Move them to a bowl as they open and discard any that stay shut.
     - id: blend
-      title: Pepper broth
+      title: Make the pepper broth
       text: >-
-        Strain all the clam liquid through a sieve, then puree it with
-        {{ingredients}}. Use a blender whose manual explicitly permits this
-        liquid at its actual temperature. Follow its hot-liquid fill, venting
-        and speed limits, working in batches. Never put hot soup into a sealed
-        blending cup; if the appliance does not allow it, cool the liquid to its
-        permitted temperature before blending. Keep every batch of the pepper
-        broth for the greens. Wash out the cooking pot to remove grit.
+        Strain the cooking liquid through a fine sieve into a blender. Add {{ingredients}} and blend
+        until smooth, venting the lid. Rinse the grit out of the pot.
+    - id: garlic2
+      title: Bloom the garlic
+      text: >-
+        Warm {{ingredients}} in the clean pot over medium heat until the garlic is fragrant, 30 to
+        45 seconds.
     - id: greens
-      title: Greens
+      title: Braise the greens
       text: >-
-        Use {{ingredients}} for this stage. Heat the assigned oil in the clean
-        pot and add the assigned garlic. Cook the garlic about 30–45 seconds
-        until fragrant, then stir in the flakes and add the greens in batches.
-        Start checking chard at about 3 minutes; cook until the greens are
-        wilted and tender to taste. Collards may take longer. Retain all the
-        oil.
+        Add {{ingredients}} a handful at a time and cook, stirring, until wilted and tender, about 3
+        minutes for chard and a few minutes longer for collards.
     - id: season
-      title: Broth
-      text: >-
-        Add all the pepper broth to the greens and bring back to a simmer,
-        particularly if it was cooled for blending. Season with {{ingredients}}
-        to taste.
+      title: Add the broth
+      text: 'Pour in the pepper broth and bring to a simmer. Season with {{ingredients}}.'
     - id: boil
-      title: Pasta
+      title: Boil the pasta
       text: >-
-        Use {{ingredients}} for this stage. Bring the water, salted to taste, to
-        a boil; add the spaghetti and cook until slightly underdone, then drain.
-        Finish it in the pepper broth, checking the pasta rather than relying
-        only on its package clock.
+        Meanwhile, cook {{ingredients}} in a large pot of salted boiling water until 2 minutes short
+        of al dente. Scoop out some of the pasta water, then drain.
     - id: bind
-      title: Combine
+      title: Finish the pasta
       text: >-
-        Add the drained spaghetti to the greens and pepper broth. Toss over
-        medium heat until the pasta is done to taste, then return all the opened
-        clams and any collected liquid to warm through.
+        Add the spaghetti to the greens and broth and toss over medium heat until al dente, 1 to 2
+        minutes, adding a splash of the pasta water if it looks dry. Return the clams and their
+        juices to warm through.
     - id: finish
-      title: Butter and cheese
+      title: Butter and serve
       text: >-
-        Take the pot off the heat. Add {{ingredients}}, using the full zest and
-        juice of the listed lemon supply. Toss until the butter melts and the
-        cheese is dispersed through the sauce.
-    - id: serve
-      title: Serve
-      text: 'Serve in shallow bowls with {{ingredients}} if desired.'
+        Off the heat, add {{ingredients}} and toss until the butter melts and the sauce turns
+        glossy. Serve in shallow bowls with more Parmesan.
 learning:
-  focus: Divide the garlic oil and finish the pepper broth gently
-  outcome: >-
-    Tender greens and pasta in pepper-clam broth with the full butter, oil and
-    cheese retained.
   techniques:
     - temperature
-  before:
-    - >-
-      Use live, in-shell clams from a tagged or labeled supplier. Discard
-      cracked shells and clams that remain open after tapping. Scrub and rinse
-      before cooking; keep them cold. Follow the supplier’s purging advice
-      rather than assuming every batch needs a soak.
-    - >-
-      Choose vessels large enough for the measured shells and for tossing the
-      pasta without spilling. For larger batches, divide all supplies
-      proportionally among enough pots or complete batches; additional loads
-      change elapsed time.
-    - >-
-      Half the measured oil and garlic go to clams and half to greens. The four
-      portions and four dozen clams belong to the original batch plan; the
-      formula scales the clam count, not an assumed shell-on or edible weight.
-  checkpoints:
-    - step: 1
-      cue: Collect clams as their shells open; discard unopened clams.
-      why: >-
-        Shell opening during cooking is the clam-specific cue; the first check
-        is not a promise that every shell will open.
-    - step: 7
-      cue: The butter melts and Parmesan disperses while the pot is off the heat.
-      why: >-
-        Controlled residual heat helps combine the finish without continued
-        boiling after adding cheese.
-  troubleshooting:
-    - problem: The greens are wilted but still too tough
-      cause: Collards and mature leaves can take longer than tender chard.
-      fix: >-
-        Continue cooking to tenderness before the pasta finish. The three-minute
-        check is for chard, not a guaranteed clock for every leaf.
-    - problem: The sauce is gritty
-      cause: Shell grit may remain in the cooking liquid.
-      fix: >-
-        Strain the liquid before blending and wash out the pot before cooking
-        greens; do not blend unstrained shell debris.
-  storage: >-
-    Serve promptly. Refrigerate leftovers in shallow containers within 2 hours,
-    or 1 hour above 90°F / 32°C, at 40°F / 4°C or below; use within 3–4 days.
-    Reheat to 165°F / 74°C throughout, stirring and checking more than one
-    place. Further heating can toughen clams and soften pasta.
-  timing: >-
-    The original 45-minute estimate includes preparation and cooking with pasta
-    water heated alongside the greens. Cleaning shells, actual greens, cooling
-    liquid for a blender or additional pan loads can extend elapsed time. Four
-    portions are an inherited plan, not a measured cooked weight.
-  sources:
-    - title: Ashley Christensen — spaghetti with clams and braised greens
-      url: 'http://www.foodandwine.com/recipes/spaghetti-clams-and-braised-greens'
-    - title: FDA seafood handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: USDA leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  substitutions:
+    - ingredient: live littleneck clams
+      alternative: Manila clams
+      effect: 'They are smaller and sweeter, so use a few more. They open a minute or two sooner.'
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Ashley Christensen’s version combines an Italian-style clam pasta with roasted-pepper broth and greens. The current finish keeps the full listed lemon alongside the butter, Parmesan and half-cup oil. Strain the clam liquid before blending, cook greens to tenderness and take the pot off the heat for the butter-and-cheese finish.
+Raleigh chef Ashley Christensen gives spaghetti with clams a Southern turn with garlicky braised greens. The clam juices are blended with roasted red peppers into a silky broth that coats the pasta. Butter, lemon and Parmesan go in off the heat for a glossy finish.
 
 ## Directions
 
-1. **Clams:** Use live, in-shell clams from a tagged or labeled supplier. Discard cracked shells and clams that remain open after tapping. Scrub and rinse before cooking; keep them cold. Follow the supplier’s purging advice rather than assuming every batch needs a soak. Use 1/2 of the extra-virgin olive oil, 1/2 of the garlic cloves, live littleneck clams, and dry white wine for this stage. In a pot with a lid and room for the measured shells, heat the assigned oil, then add the assigned garlic. Cook the garlic about 30–45 seconds until fragrant; add the clams and wine and bring to a boil. Cover and cook, beginning to check at 5–7 minutes. Transfer clams to a clean dish as they open; discard any that remain unopened during cooking. Keep all the cooking liquid. Divide all supplies proportionally among enough pots or complete batches if the full load cannot fit.
-2. **Pepper broth:** Strain all the clam liquid through a sieve, then puree it with jarred roasted red peppers. Use a blender whose manual explicitly permits this liquid at its actual temperature. Follow its hot-liquid fill, venting and speed limits, working in batches. Never put hot soup into a sealed blending cup; if the appliance does not allow it, cool the liquid to its permitted temperature before blending. Keep every batch of the pepper broth for the greens. Wash out the cooking pot to remove grit.
-3. **Greens:** Use 1/2 of the extra-virgin olive oil, 1/2 of the garlic cloves, Swiss chard or collard greens, and red pepper flakes for this stage. Heat the assigned oil in the clean pot and add the assigned garlic. Cook the garlic about 30–45 seconds until fragrant, then stir in the flakes and add the greens in batches. Start checking chard at about 3 minutes; cook until the greens are wilted and tender to taste. Collards may take longer. Retain all the oil.
-4. **Broth:** Add all the pepper broth to the greens and bring back to a simmer, particularly if it was cooled for blending. Season with kosher salt and black pepper to taste.
-5. **Pasta:** Use spaghetti, water, and salt for this stage. Bring the water, salted to taste, to a boil; add the spaghetti and cook until slightly underdone, then drain. Finish it in the pepper broth, checking the pasta rather than relying only on its package clock.
-6. **Combine:** Add the drained spaghetti to the greens and pepper broth. Toss over medium heat until the pasta is done to taste, then return all the opened clams and any collected liquid to warm through.
-7. **Butter and cheese:** Take the pot off the heat. Add unsalted butter, lemon, and Parmesan, using the full zest and juice of the listed lemon supply. Toss until the butter melts and the cheese is dispersed through the sauce.
-8. **Serve:** Serve in shallow bowls with Parmesan (if using) if desired.
-
-## Measured lemon option
-
-For the original recipe’s lemon balance, replace the current whole-lemon finish with **1 tsp grated lemon zest and 1 tbsp fresh lemon juice in the original batch**, scaling both measured supplies with the full recipe. Add them at step 7 with the full butter and Parmesan. Do not also add the main recipe’s whole lemon; all other ingredients and the complete cooking sequence stay the same.
+1. **Start the clams:** Warm 1/2 of the extra-virgin olive oil and 1/2 of the garlic cloves in a large lidded pot over medium-high heat until the garlic is fragrant, 30 to 45 seconds.
+2. **Steam the clams:** Add live littleneck clams and dry white wine and bring to a boil. Cover and cook until the clams open, 5 to 7 minutes. Move them to a bowl as they open and discard any that stay shut.
+3. **Make the pepper broth:** Strain the cooking liquid through a fine sieve into a blender. Add jarred roasted red peppers and blend until smooth, venting the lid. Rinse the grit out of the pot.
+4. **Bloom the garlic:** Warm 1/2 of the extra-virgin olive oil, 1/2 of the garlic cloves, and red pepper flakes in the clean pot over medium heat until the garlic is fragrant, 30 to 45 seconds.
+5. **Braise the greens:** Add Swiss chard or collard greens a handful at a time and cook, stirring, until wilted and tender, about 3 minutes for chard and a few minutes longer for collards.
+6. **Add the broth:** Pour in the pepper broth and bring to a simmer. Season with kosher salt and black pepper.
+7. **Boil the pasta:** Meanwhile, cook spaghetti in a large pot of salted boiling water until 2 minutes short of al dente. Scoop out some of the pasta water, then drain.
+8. **Finish the pasta:** Add the spaghetti to the greens and broth and toss over medium heat until al dente, 1 to 2 minutes, adding a splash of the pasta water if it looks dry. Return the clams and their juices to warm through.
+9. **Butter and serve:** Off the heat, add unsalted butter, lemon zest, fresh lemon juice, and Parmesan and toss until the butter melts and the sauce turns glossy. Serve in shallow bowls with more Parmesan.

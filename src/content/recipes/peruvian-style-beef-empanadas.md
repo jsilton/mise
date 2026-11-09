@@ -29,9 +29,12 @@ advancePrep:
 equipment:
   - large-skillet
   - rimmed-baking-sheet
-  - instant-read-thermometer
 pairsWith:
   - everyday-arugula-salad
+  - pickled-red-onions
+pairingNotes:
+  everyday-arugula-salad: A crisp green salad next to the pastry.
+  pickled-red-onions: 'Sharp onions, like Peruvian salsa criolla.'
 flavorProfile:
   - savory
   - mild
@@ -40,7 +43,7 @@ flavorProfile:
 prepTime: 25 min
 cookTime: 45 min
 totalTime: 1 hr 50 min
-source: Adapted from a family recipe discussion
+source: Family recipe
 formula:
   version: 1
   yield:
@@ -175,29 +178,29 @@ formula:
               share: 1
         - id: adjustment-salt
           key: fine-salt
-          name: additional fine salt
-          allowance: 'to taste, only if needed'
+          name: more fine salt
+          allowance: to taste
           uses:
             - step: adjust
               share: 1
     - id: pastry
-      name: Pastry and optional glaze
+      name: Pastry
       ingredients:
         - id: empanada-discs
           key: empanada-discs
-          name: 5-inch empanada disc labeled for baking
+          name: 5-inch empanada disc for baking
           quantity:
             amount: 12
             unit: count
           uses:
             - step: fill
               share: 1
-          plural: 5-inch empanada discs labeled for baking
-          preparation: one 12-count package at the original yield; thawed as directed on the package
+          plural: 5-inch empanada discs for baking
+          preparation: thawed
         - id: sealing-water
           key: water
-          name: water for sealing
-          allowance: as needed
+          name: water
+          allowance: for sealing
           role: cooking-water
           uses:
             - step: seal
@@ -215,7 +218,8 @@ formula:
           optional: true
         - id: wash-water
           key: wash-water
-          name: water for egg wash
+          name: water
+          preparation: for the egg wash
           quantity:
             amount: 1
             unit: tsp
@@ -251,185 +255,89 @@ formula:
           optional: true
           role: garnish
   steps:
-    - id: prep
-      title: Prepare
-      text: >-
-        Thaw the discs according to their package before starting; keep covered and refrigerated
-        until needed. Finely chop the vegetables so they fit comfortably inside the pastry. Set out
-        a shallow heatproof dish for cooling the filling and line a large rimmed baking sheet with
-        parchment.
     - id: brown
       title: Brown the beef
       text: >-
-        Set out {{ingredients}}. Heat the oil in a 10- to 12-inch skillet over medium-high heat
-        until shimmering. Add the beef in a thin layer and leave it undisturbed for about 2 minutes,
-        until browned underneath. Break it into small crumbles and cook another 4–6 minutes,
-        stirring, until cooked through to 160°F / 71°C. Spoon off pooled fat, leaving a thin film in
-        the pan. Transfer the cooked beef to a clean bowl.
+        Heat a 10- to 12-inch skillet over medium-high heat. Add {{ingredients}}, the oil first,
+        then spread the beef in a thin layer. Leave it alone until browned underneath, about 2
+        minutes. Break it into small crumbles and cook, stirring, until no pink remains, 4 to 6
+        minutes more. Spoon off the extra fat and move the beef to a bowl.
     - id: soften
       title: Soften the vegetables
       text: >-
-        Lower the heat to medium and add {{ingredients}} to the same skillet. Cook for 6–8 minutes,
-        stirring, until fully softened and the onion is translucent with lightly golden edges. Lower
-        the heat if the browned bits start to blacken.
+        Lower the heat to medium and add {{ingredients}} to the same skillet. Cook, stirring, until
+        the onion is soft and translucent with golden edges, 6 to 8 minutes.
     - id: bloom
       title: Bloom the spices
       text: >-
-        Lower the heat to medium-low. Stir in {{ingredients}} for about 30 seconds, just until
-        fragrant; do not let the garlic or paprika scorch.
+        Lower the heat to medium-low. Stir in {{ingredients}} and cook just until fragrant, about 30
+        seconds. Don't let the garlic or paprika scorch.
     - id: paste
       title: Cook the tomato paste
       text: >-
-        Stir in {{ingredients}} for about 1 minute, until it darkens slightly and coats the
-        vegetables.
+        Stir in {{ingredients}} and cook until it darkens slightly and coats the vegetables, about 1
+        minute.
     - id: finish
       title: Finish the filling
       text: >-
-        Return the beef and add {{ingredients}}, using the lower end of the broth range first.
-        Scrape up the browned bits and stir over medium heat for 1–2 minutes. Add the remaining
-        broth only if the filling seems dry. Stop when moist crumbles cling together lightly and a
-        spatula drawn across the pan leaves no puddle.
+        Return the beef to the pan and add {{ingredients}}, starting with the smaller amount of
+        broth. Turn the heat to medium, scrape up the browned bits and stir for 1 to 2 minutes. Add
+        the rest of the broth only if it looks dry. The filling is ready when it is moist and holds
+        together with no liquid pooling in the pan.
     - id: adjust
-      title: Taste and cool
+      title: Season and chill
       text: >-
-        Taste the fully cooked filling and add {{ingredients}} only if needed. Spread it in a thin
-        layer in the shallow dish and refrigerate promptly for about 20–30 minutes, or until cool
-        throughout; stir once to release trapped warmth. Do not wait for a deep bowl to cool on the
-        counter. While it chills, heat the oven to 400°F / 200°C conventional, or the temperature
-        specified by the disc package, with a rack in the middle.
+        Taste and add {{ingredients}} if it needs it. Spread the filling in a thin layer in a
+        shallow dish and refrigerate until cool, 20 to 30 minutes.
+    - id: oven
+      title: Heat the oven
+      text: >-
+        While the filling chills, heat the oven to 400°F with a rack in the middle. Line a large
+        rimmed baking sheet with parchment.
     - id: fill
-      title: Portion the filling
+      title: Fill the discs
       text: >-
-        Work with {{ingredients}}, keeping unused discs covered and cool. Start with 1 1/2
-        tablespoons of cooled filling per disc, then add a little more up to about 2 tablespoons
-        only if it closes easily. Leave a clean 1/2-inch border. Share the filling across the batch;
-        do not stretch the pastry or force in surplus filling. Refrigerate any extra filling
-        separately.
+        Lay out {{ingredients}} and divide the cooled filling evenly among them, leaving a clean
+        1/2-inch border.
     - id: seal
-      title: Seal
+      title: Seal the empanadas
       text: >-
-        Lightly moisten the clean border with {{ingredients}}. Fold each disc over the filling,
-        gently press out trapped air, then press and crimp firmly with a fork. Set on the lined
-        sheet with about 1 inch between empanadas. If the pastry becomes soft or sticky, refrigerate
-        the assembled tray for 10 minutes before baking.
+        Brush the border with {{ingredients}}. Fold each disc over the filling, press out the air
+        and crimp the edge firmly with a fork. Set them 1 inch apart on the sheet. If the pastry
+        gets soft, chill the tray for 10 minutes.
     - id: glaze
-      title: Glaze if desired
+      title: Glaze and vent
       text: >-
-        For the optional glaze, beat {{ingredients}} together and brush a thin layer over the tops.
-        Omit both for an unglazed finish. Discard leftover wash. Cut one small slit in the top of
-        each empanada to vent steam.
+        For a shiny crust, beat {{ingredients}} together and brush a thin layer over the tops. Cut a
+        small slit in the top of each empanada.
     - id: bake
       title: Bake
       text: >-
-        Bake for about 20–25 minutes, rotating the tray halfway through, until the pastry is golden
-        on top and underneath and the filling reaches 165°F / 74°C. Follow the disc package if it
-        specifies a different temperature or time; begin checking at its earliest stated time. Use a
-        second sheet if needed rather than crowding; larger batches need additional trays and time,
-        not a higher oven temperature.
+        Bake until the pastry is golden on top and underneath, 20 to 25 minutes, turning the tray
+        halfway through.
     - id: serve
       title: Rest and serve
       text: >-
-        Rest on a wire rack for 10 minutes before eating; the filling can be very hot. Serve with
-        {{ingredients}}, squeezing the lime onto each bite and adding only a light dusting of sugar
-        if using. Allow 2–3 empanadas per person with a crisp green salad, or serve individually as
-        a snack.
+        Let the empanadas rest on a wire rack for 10 minutes. Serve with {{ingredients}}. Squeeze
+        lime over each bite and dust lightly with sugar.
 learning:
-  focus: Manage moisture before enclosing a filling in pastry
-  outcome: >-
-    Golden pastry with a sealed edge and a savory, moist beef filling that does not leak liquid into
-    the base.
   techniques:
     - browning
     - seasoning
     - temperature
-  before:
-    - >-
-      Use one package of 12 approximately 5-inch discs specifically labeled for baking. Frying-only
-      discs are not a reliable substitute. Package thawing and baking instructions take precedence.
-    - >-
-      Measure the onion after finely chopping it; half a cup avoids relying on an inconsistent onion
-      size. Use sweet, not hot, paprika.
-    - >-
-      Keep the filling cool and the pastry pliable but cool. Have room in the refrigerator for a
-      shallow cooling dish and, if necessary, the assembled tray.
-  checkpoints:
-    - step: 2
-      cue: Beef has browned patches and reaches 160°F / 71°C before cooling.
-      why: >-
-        Contact with the hot pan develops flavor; brown color alone does not establish that ground
-        beef has reached a safe temperature.
-    - step: 6
-      cue: 'The filling is moist, with no free liquid collecting behind the spatula.'
-      why: >-
-        Excess liquid soaks the pastry and can escape through the seam; cooking it bone-dry
-        sacrifices juiciness.
-    - step: 8
-      cue: 'The disc folds over the filling without stretching, leaving a clean sealing border.'
-      why: >-
-        The stated portion is a starting point. Disc thickness and flexibility determine the actual
-        capacity.
-    - step: 11
-      cue: The underside is golden and the center reaches 165°F / 74°C.
-      why: Top color alone can hide an underbaked bottom or a center that has not reheated fully.
-  troubleshooting:
-    - problem: The seam opens or filling leaks
-      cause: 'Too much filling, wet or greasy edges, or pastry that became too warm.'
-      fix: >-
-        Before baking, remove a little filling, clean and reseal the border, then chill if soft. A
-        split baked empanada cannot be resealed; serve it open once fully cooked.
-    - problem: The filling is greasy or watery
-      cause: Pooled beef fat or broth was left in the pan.
-      fix: >-
-        Spoon off free fat and cook briefly uncovered until no liquid pools, then cool again before
-        filling. Do not add broth automatically if the mixture is already moist.
-    - problem: The pastry is pale or tough
-      cause: >-
-        The discs are intended only for frying, the oven is not fully heated, or the package
-        requires a different bake.
-      fix: >-
-        Check the package and use its baking directions. An egg wash improves color but cannot make
-        frying-only dough behave like baking pastry.
   substitutions:
     - ingredient: Yellow bell pepper
-      alternative: Red bell pepper in the same measured amount
-      effect: >-
-        Keeps the filling mild; the red pepper may taste a little sweeter. Dice finely and soften
-        completely.
+      alternative: Red bell pepper
+      effect: A little sweeter. Dice it finely.
     - ingredient: Unsalted beef broth
-      alternative: Water in the same small amount
-      effect: Loosens the browned bits without extra salt; the filling will be slightly less beefy.
-    - ingredient: Optional egg wash
-      alternative: Omit the egg and wash water
-      effect: >-
-        The crust will be more matte and possibly paler. Check the disc ingredients separately if
-        avoiding eggs.
-  timing: >-
-    Allow about 1 hour 50 minutes from thawed discs: 10 minutes chopping, about 20 minutes cooking
-    the filling, 20–30 minutes chilling, 15 minutes filling and sealing, 20–25 minutes baking, and
-    10 minutes resting. About 40–45 minutes is hands-on. Preheat during cooling. Package-directed
-    thawing, extra chilling for soft pastry, and additional baking batches add time. Making the
-    filling a day ahead leaves about 45–50 minutes for assembly, baking, and resting.
+      alternative: Water
+      effect: The filling is slightly less beefy.
   storage: >-
-    Refrigerate cooked filling promptly in a shallow container; cover once chilled. Keep filling or
-    baked empanadas at 40°F / 4°C or below and use within 3–4 days of cooking the filling. Do not
-    restart that clock after baking. Refrigerate within 2 hours, or 1 hour above 90°F / 32°C. For a
-    crisp reheated crust, use a 350°F / 175°C oven until the center reaches 165°F / 74°C; cover
-    loosely if browning too quickly. Cool and freeze baked empanadas for up to 3 months for quality,
-    then thaw in the refrigerator before reheating.
-  sources:
-    - title: 'Peru Delights — Empanada variations, cooled filling, and powdered-sugar finish'
-      url: 'https://perudelights.com/aji-gallina-empanadas/'
-    - title: Goya — Baked empanada portioning and package-specific pastry technique
-      url: 'https://www.goya.com/en/recipes/argentinian-style-beef-empanadas/'
-    - title: USDA FSIS — Ground beef and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/ground-beef-and-food-safety
-    - title: 'USDA FSIS — Cooling, storage, and reheating leftovers'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    The filling keeps 3 days in the fridge. Baked empanadas keep 3 days in the fridge or 3 months in
+    the freezer. Reheat them in a 350°F oven until hot and crisp.
   review:
     status: editorial-review
-    date: '2026-10-04'
+    date: '2026-11-09'
 ingredients:
   - '--- Beef filling ---'
   - 2 tsp olive oil
@@ -445,14 +353,12 @@ ingredients:
   - 1–2 tbsp unsalted beef broth
   - 1/4 tsp fine salt
   - 1/8 tsp ground black pepper
-  - 'additional fine salt, to taste, only if needed'
-  - '--- Pastry and optional glaze ---'
-  - >-
-    12 5-inch empanada discs labeled for baking, one 12-count package at the original yield; thawed
-    as directed on the package
-  - 'water for sealing, as needed'
+  - 'more fine salt, to taste'
+  - '--- Pastry ---'
+  - '12 5-inch empanada discs for baking, thawed'
+  - 'water, for sealing'
   - '1 large egg, optional'
-  - '1 tsp water for egg wash, optional'
+  - '1 tsp water, for the egg wash, optional'
   - '--- To serve ---'
   - '1 lime, cut into wedges'
   - '1 tsp powdered sugar, optional'
@@ -461,23 +367,23 @@ servings: 12 pieces
 
 ## Chef's Note
 
-Empanadas take many forms across Latin America, including Peru's baked savory pastries. This mild family adaptation uses beef, onion and warming spices, without hard-boiled eggs, olives or raisins. Cool the filling before folding so the pastry stays easy to handle and bakes with a crisp base.
+These baked beef empanadas are a family recipe, a mild take on the savory pastries sold all over Peru. Store-bought discs keep them easy, and a squeeze of lime with a dusting of powdered sugar is the Peruvian way to eat them. Chill the filling before folding so the pastry stays easy to handle and bakes up crisp.
 
 ## Directions
 
-1. **Prepare:** Thaw the discs according to their package before starting; keep covered and refrigerated until needed. Finely chop the vegetables so they fit comfortably inside the pastry. Set out a shallow heatproof dish for cooling the filling and line a large rimmed baking sheet with parchment.
-2. **Brown the beef:** Set out olive oil and 85/15 ground beef. Heat the oil in a 10- to 12-inch skillet over medium-high heat until shimmering. Add the beef in a thin layer and leave it undisturbed for about 2 minutes, until browned underneath. Break it into small crumbles and cook another 4–6 minutes, stirring, until cooked through to 160°F / 71°C. Spoon off pooled fat, leaving a thin film in the pan. Transfer the cooked beef to a clean bowl.
-3. **Soften the vegetables:** Lower the heat to medium and add yellow onion and yellow bell pepper to the same skillet. Cook for 6–8 minutes, stirring, until fully softened and the onion is translucent with lightly golden edges. Lower the heat if the browned bits start to blacken.
-4. **Bloom the spices:** Lower the heat to medium-low. Stir in garlic clove, ground cumin, sweet paprika, dried oregano, and ground turmeric for about 30 seconds, just until fragrant; do not let the garlic or paprika scorch.
-5. **Cook the tomato paste:** Stir in tomato paste for about 1 minute, until it darkens slightly and coats the vegetables.
-6. **Finish the filling:** Return the beef and add unsalted beef broth, fine salt, and ground black pepper, using the lower end of the broth range first. Scrape up the browned bits and stir over medium heat for 1–2 minutes. Add the remaining broth only if the filling seems dry. Stop when moist crumbles cling together lightly and a spatula drawn across the pan leaves no puddle.
-7. **Taste and cool:** Taste the fully cooked filling and add additional fine salt only if needed. Spread it in a thin layer in the shallow dish and refrigerate promptly for about 20–30 minutes, or until cool throughout; stir once to release trapped warmth. Do not wait for a deep bowl to cool on the counter. While it chills, heat the oven to 400°F / 200°C conventional, or the temperature specified by the disc package, with a rack in the middle.
-8. **Portion the filling:** Work with 5-inch empanada discs labeled for baking, keeping unused discs covered and cool. Start with 1 1/2 tablespoons of cooled filling per disc, then add a little more up to about 2 tablespoons only if it closes easily. Leave a clean 1/2-inch border. Share the filling across the batch; do not stretch the pastry or force in surplus filling. Refrigerate any extra filling separately.
-9. **Seal:** Lightly moisten the clean border with water for sealing. Fold each disc over the filling, gently press out trapped air, then press and crimp firmly with a fork. Set on the lined sheet with about 1 inch between empanadas. If the pastry becomes soft or sticky, refrigerate the assembled tray for 10 minutes before baking.
-10. **Glaze if desired:** For the optional glaze, beat large egg (if using) and water for egg wash (if using) together and brush a thin layer over the tops. Omit both for an unglazed finish. Discard leftover wash. Cut one small slit in the top of each empanada to vent steam.
-11. **Bake:** Bake for about 20–25 minutes, rotating the tray halfway through, until the pastry is golden on top and underneath and the filling reaches 165°F / 74°C. Follow the disc package if it specifies a different temperature or time; begin checking at its earliest stated time. Use a second sheet if needed rather than crowding; larger batches need additional trays and time, not a higher oven temperature.
-12. **Rest and serve:** Rest on a wire rack for 10 minutes before eating; the filling can be very hot. Serve with lime and powdered sugar (if using), squeezing the lime onto each bite and adding only a light dusting of sugar if using. Allow 2–3 empanadas per person with a crisp green salad, or serve individually as a snack.
+1. **Brown the beef:** Heat a 10- to 12-inch skillet over medium-high heat. Add olive oil and 85/15 ground beef, the oil first, then spread the beef in a thin layer. Leave it alone until browned underneath, about 2 minutes. Break it into small crumbles and cook, stirring, until no pink remains, 4 to 6 minutes more. Spoon off the extra fat and move the beef to a bowl.
+2. **Soften the vegetables:** Lower the heat to medium and add yellow onion and yellow bell pepper to the same skillet. Cook, stirring, until the onion is soft and translucent with golden edges, 6 to 8 minutes.
+3. **Bloom the spices:** Lower the heat to medium-low. Stir in garlic clove, ground cumin, sweet paprika, dried oregano, and ground turmeric and cook just until fragrant, about 30 seconds. Don't let the garlic or paprika scorch.
+4. **Cook the tomato paste:** Stir in tomato paste and cook until it darkens slightly and coats the vegetables, about 1 minute.
+5. **Finish the filling:** Return the beef to the pan and add unsalted beef broth, fine salt, and ground black pepper, starting with the smaller amount of broth. Turn the heat to medium, scrape up the browned bits and stir for 1 to 2 minutes. Add the rest of the broth only if it looks dry. The filling is ready when it is moist and holds together with no liquid pooling in the pan.
+6. **Season and chill:** Taste and add more fine salt if it needs it. Spread the filling in a thin layer in a shallow dish and refrigerate until cool, 20 to 30 minutes.
+7. **Heat the oven:** While the filling chills, heat the oven to 400°F with a rack in the middle. Line a large rimmed baking sheet with parchment.
+8. **Fill the discs:** Lay out 5-inch empanada discs for baking and divide the cooled filling evenly among them, leaving a clean 1/2-inch border.
+9. **Seal the empanadas:** Brush the border with water. Fold each disc over the filling, press out the air and crimp the edge firmly with a fork. Set them 1 inch apart on the sheet. If the pastry gets soft, chill the tray for 10 minutes.
+10. **Glaze and vent:** For a shiny crust, beat large egg (if using) and water (if using) together and brush a thin layer over the tops. Cut a small slit in the top of each empanada.
+11. **Bake:** Bake until the pastry is golden on top and underneath, 20 to 25 minutes, turning the tray halfway through.
+12. **Rest and serve:** Let the empanadas rest on a wire rack for 10 minutes. Serve with lime and powdered sugar (if using). Squeeze lime over each bite and dust lightly with sugar.
 
 ## Suggested Tweak
 
-This is a family recipe, so it stays as written. If you want to try it: For a more Peruvian filling, add 1 tbsp ají panca paste (ancho chile powder works in its place). Traditional extras are a piece of hard-boiled egg, a black botija olive (or kalamata) and a raisin in each empanada.
+For a more Peruvian filling, stir in 1 tbsp ají panca paste with the tomato paste. Ancho chile powder works in its place. Traditional fillings also tuck a piece of hard-boiled egg, a black botija olive (or a kalamata) and a raisin into each empanada.

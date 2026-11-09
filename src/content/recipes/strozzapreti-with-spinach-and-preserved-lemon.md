@@ -21,8 +21,8 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 10 min
-cookTime: 15–25 min
-totalTime: 25–35 min
+cookTime: 20 min
+totalTime: 30 min
 servings: 4 portions
 seasons:
   - spring
@@ -31,27 +31,27 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:
-  - vietnamese-grilled-chicken
-  - roasted-root-vegetables
+  - charred-asparagus-with-parmesan
+  - shaved-fennel-citrus-salad
+pairingNotes:
+  charred-asparagus-with-parmesan: A spring green beside the lemony pasta.
+  shaved-fennel-citrus-salad: 'Crisp, cool fennel against the brown butter.'
 ingredients:
-  - '--- Pasta and crumbs ---'
-  - 12 oz fresh strozzapreti OR cavatappi
+  - 'kosher salt, for the pasta water'
+  - 12 oz fresh strozzapreti or dried cavatappi
   - 8 tbsp (1 stick) unsalted butter
-  - '1 tbsp preserved lemon peel, minced'
-  - 1 tbsp fresh lemon juice
-  - '2 bunches of flat-leaf spinach, trimmed, washed, drained; larger leaves torn'
-  - 3/4 cup panko breadcrumbs
+  - 2 tbsp olive oil
   - '1 garlic clove, crushed'
   - 1/2 tsp red pepper flakes
+  - 3/4 cup panko breadcrumbs
   - 1 tsp lemon zest
-  - 2 tbsp olive oil
-  - 'kosher salt and black pepper for crumbs, as needed'
-  - 'water and salt for boiling pasta, as needed'
-  - 'kosher salt and black pepper for finishing, as needed'
-  - 'additional preserved lemon peel for optional finishing, as needed, optional'
-  - 'additional lemon juice for optional finishing, as needed, optional'
-source: Adapted from Bonappetit.com
-sourceUrl: 'http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon'
+  - 'kosher salt, a pinch'
+  - '8 cups flat-leaf spinach, trimmed, from about 2 bunches'
+  - '1 tbsp preserved lemon peel, minced'
+  - '1 tbsp fresh lemon juice, plus more to taste'
+  - 'kosher salt and black pepper, to taste'
+source: Adapted from Bon Appétit
+sourceUrl: 'https://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon'
 formula:
   version: 1
   yield:
@@ -61,9 +61,17 @@ formula:
     - id: main
       name: Pasta and crumbs
       ingredients:
+        - id: water
+          key: water
+          name: kosher salt
+          allowance: for the pasta water
+          uses:
+            - step: water
+              share: 1
+          role: cooking-water
         - id: pasta
           key: pasta
-          name: fresh strozzapreti OR cavatappi
+          name: fresh strozzapreti or dried cavatappi
           quantity:
             amount: 12
             unit: oz
@@ -77,13 +85,81 @@ formula:
             amount: 8
             unit: tbsp
           uses:
-            - step: crumbs
+            - step: garlic
               share: 1/4
-            - step: wilt
+            - step: brown
               share: 3/4
           equivalents:
             - amount: 1
               unit: stick
+        - id: oil
+          key: oil
+          name: olive oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: garlic
+              share: 1
+        - id: garlic
+          key: garlic
+          name: garlic clove
+          quantity:
+            amount: 1
+            unit: count
+          uses:
+            - step: garlic
+              share: 1
+          plural: garlic cloves
+          preparation: crushed
+        - id: flakes
+          key: flakes
+          name: red pepper flakes
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: garlic
+              share: 1/2
+            - step: combine
+              share: 1/2
+        - id: panko
+          key: panko
+          name: panko breadcrumbs
+          quantity:
+            amount: 3/4
+            unit: cup
+          uses:
+            - step: crumbs
+              share: 1
+        - id: zest
+          key: zest
+          name: lemon zest
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: crumbs
+              share: 1
+        - id: crumb-salt
+          key: crumb-salt
+          name: kosher salt
+          allowance: a pinch
+          uses:
+            - step: crumbs
+              share: 1
+        - id: spinach
+          key: spinach
+          name: flat-leaf spinach
+          quantity:
+            amount: 8
+            unit: cup
+          uses:
+            - step: wilt
+              share: 1/2
+            - step: combine
+              share: 1/2
+          preparation: 'trimmed, from about 2 bunches'
         - id: peel
           key: peel
           name: preserved lemon peel
@@ -103,236 +179,80 @@ formula:
           uses:
             - step: combine
               share: 1
-        - id: spinach
-          key: spinach
-          name: bunch of flat-leaf spinach
-          quantity:
-            amount: 2
-            unit: count
-          uses:
-            - step: wilt
-              share: 1/2
-            - step: combine
-              share: 1/2
-          plural: bunches of flat-leaf spinach
-          preparation: 'trimmed, washed, drained; larger leaves torn'
-        - id: panko
-          key: panko
-          name: panko breadcrumbs
-          quantity:
-            amount: 3/4
-            unit: cup
-          uses:
-            - step: crumbs
-              share: 1
-        - id: garlic
-          key: garlic
-          name: garlic clove
-          quantity:
-            amount: 1
-            unit: count
-          uses:
-            - step: crumbs
-              share: 1
-          plural: garlic cloves
-          preparation: crushed
-        - id: flakes
-          key: flakes
-          name: red pepper flakes
-          quantity:
-            amount: 1/2
-            unit: tsp
-          uses:
-            - step: crumbs
-              share: 1/2
-            - step: combine
-              share: 1/2
-        - id: zest
-          key: zest
-          name: lemon zest
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: crumbs
-              share: 1
-        - id: oil
-          key: oil
-          name: olive oil
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: crumbs
-              share: 1
-        - id: crumb-season
-          key: crumb-season
-          name: kosher salt and black pepper for crumbs
-          allowance: as needed
-          optional: false
-          uses:
-            - step: crumbs
-              share: 1
-        - id: water
-          key: water
-          name: water and salt for boiling pasta
-          allowance: as needed
-          optional: false
-          uses:
-            - step: boil
-              share: 1
-          role: cooking-water
-        - id: finish-season
-          key: finish-season
-          name: kosher salt and black pepper for finishing
-          allowance: as needed
-          optional: false
-          uses:
-            - step: combine
-              share: 1
-        - id: extra-peel
-          key: extra-peel
-          name: additional preserved lemon peel for optional finishing
-          allowance: as needed
-          optional: true
-          uses:
-            - step: combine
-              share: 1
-        - id: extra-juice
-          key: extra-juice
-          name: additional lemon juice for optional finishing
-          allowance: as needed
-          optional: true
+          preparation: plus more to taste
+        - id: season
+          key: season
+          name: kosher salt and black pepper
+          allowance: to taste
           uses:
             - step: combine
               share: 1
   steps:
+    - id: water
+      title: Heat the water
+      text: 'Bring a large pot of water to a boil and add {{ingredients}} until it tastes like the sea.'
+    - id: garlic
+      title: Fry the garlic
+      text: >-
+        Warm {{ingredients}} in a large skillet over medium heat. Cook until the garlic is fragrant,
+        about 1 minute.
     - id: crumbs
-      title: Toast crumbs
+      title: Toast the crumbs
       text: >-
-        Make the topping with {{ingredients}} in a wide skillet: melt the butter
-        with the oil over medium heat. Add garlic and pepper flakes; as they
-        become fragrant, stir in the panko and stir until golden and crisp,
-        checking after about 2 minutes. Stir in the zest, season with the listed
-        crumb seasoning and transfer all the crumbs to a dry plate. Wipe out
-        stray crumbs from the pan before browning butter.
+        Stir in {{ingredients}}. Cook, stirring, until the crumbs are golden and crisp, about 2
+        minutes. Tip them onto a plate and wipe out the skillet.
     - id: boil
-      title: Boil
+      title: Boil the pasta
       text: >-
-        Cook {{ingredients}} until al dente according to the actual fresh or
-        dried pasta package; the source’s roughly 5-minute fresh-pasta reference
-        is not a dried-cavatappi clock. Scoop out about 1/2 cup of the cooking
-        water, then drain.
+        Add {{ingredients}} to the boiling water and cook until al dente, about 5 minutes for fresh
+        pasta or as the package says for dried. Scoop out a mugful of the cooking water, then drain.
+    - id: brown
+      title: Brown the butter
+      text: >-
+        While the pasta cooks, melt {{ingredients}} in the skillet over medium heat. Swirl until it
+        foams and turns golden brown and nutty, about 3 minutes.
     - id: wilt
-      title: Brown and wilt
-      text: >-
-        Use {{ingredients}} for the first wilt: melt the butter in the cleaned
-        skillet over medium heat, swirling until golden and nutty rather than
-        dark or black. Add this spinach portion and toss until wilted.
+      title: Wilt the spinach
+      text: 'Add {{ingredients}} and toss until it collapses, about 1 minute.'
     - id: combine
-      title: Combine
+      title: Toss the pasta
       text: >-
-        Finish with {{ingredients}} and all the drained pasta: add the measured
-        peel and juice, remaining flakes and spinach, then toss until the
-        spinach wilts and the pasta is coated, checking after about 1 minute
-        rather than assuming 30 seconds works for every load. If the pasta
-        looks dry, toss in a splash of the reserved cooking water so the brown
-        butter clings. Season to taste, using additional peel or juice only if
-        desired.
+        Add the drained pasta, {{ingredients}}. Toss until the spinach wilts and the pasta is
+        glossy, about 1 minute, adding a splash of pasta water if it looks dry. Taste and add more
+        lemon juice if it needs it.
     - id: serve
       title: Serve
-      text: >-
-        Divide all the pasta and spinach among bowls and distribute all the
-        reserved crumbs over the top.
+      text: Divide among bowls and pile the crumbs on top just before serving.
 learning:
-  focus: Keep the crumb and pasta allocations distinct
-  outcome: Wilted spinach and pasta under crisp golden crumbs.
   techniques:
     - browning
     - starch
-  before:
-    - >-
-      Wash the trimmed spinach and drain it; tear larger leaves. Two bunches in
-      the source are about 8 cups at original scale, but bunch size varies. Use
-      the listed scaled bunch count and enough pan space to turn and wilt it.
-    - >-
-      Divide the butter one quarter for crumbs and three quarters for the sauce,
-      and the source flakes equally between those stages. More pasta requires
-      more boiling and skillet capacity, not darker butter or a multiplied
-      browning clock.
-  checkpoints:
-    - step: 1
-      cue: 'Crumbs are golden and crisp, not dark or soft.'
-      why: They will not become crisper in the finished wet pasta.
-    - step: 3
-      cue: 'Butter is nutty and golden, then the first spinach portion collapses.'
-      why: Burned butter cannot be repaired by adding spinach.
-    - step: 4
-      cue: All spinach has wilted and the pasta still has a little bite.
-      why: Leaf size and pan loading govern this stage.
-  troubleshooting:
-    - problem: Crumbs turn wet
-      cause: The topping sat in wet pasta before serving.
-      fix: Keep the topping on a dry plate until the bowls are ready.
   substitutions:
-    - ingredient: Pepper-flake allocation
-      alternative: >-
-        For the current all-flakes-in-crumbs variation, put the entire listed
-        red-pepper-flake amount into step 1 and omit it from step 4; all other
-        amounts and stages are unchanged.
-      effect: >-
-        This preserves the current allocation separately from the saved
-        half-in-crumbs, half-in-pasta route.
-    - ingredient: Finishing citrus
-      alternative: >-
-        Use a little of the optional additional preserved peel or lemon juice
-        only if wanted after tasting the finished pasta.
-      effect: >-
-        These source allowances are separate from the full measured peel and
-        juice; no acid addition is mandatory.
-    - ingredient: Crumbs ahead
-      alternative: >-
-        Prepare the crumb topping up to one day ahead and keep it in an airtight
-        container at room temperature.
-      effect: >-
-        This is the publisher’s plain crumb preparation plan, not a shelf-life
-        test of assembled pasta.
+    - ingredient: Preserved lemon peel
+      alternative: Finely grated lemon zest and a pinch of salt
+      effect: 'Brighter and less complex, without the fermented, salty depth of preserved lemon.'
+    - ingredient: Fresh strozzapreti or dried cavatappi
+      alternative: Dried strozzapreti or gemelli
+      effect: Cook as the package says. The dish is just as good.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and
-    reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.
-    Keep the plain crumb topping separate from wet pasta; use its one-day
-    preparation plan above.
-  timing: >-
-    Plan about 25–35 minutes for washing/prep, heating water, crumbs and butter,
-    and pasta/wilting; some tasks overlap. Larger loads or dried pasta extend
-    it.
-  sources:
-    - title: Bon Appétit — Preserved lemon spinach pasta
-      url: >-
-        http://www.bonappetit.com/recipe/strozzapreti-with-spinach-and-preserved-lemon
-    - title: 'FoodSafety.gov — Clean, separate, cook and chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: FoodSafety.gov — Leftover handling
-      url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
-    - title: Emilia-Romagna Region — Traditional strozzapreti
-      url: >-
-        https://agricoltura.regione.emilia-romagna.it/dop-igp/altri-regimi-di-qualita/prodotti-tradizionali/pat-suddivisi-per-categoria/paste-fresche-panetteria-biscotteria-pasticceria-e-confetteria/strozzapreti-strozaprit
-    - title: 'Nargisse Benkabbou — Moroccan preserved lemons, cultural use'
-      url: 'https://www.mymoroccanfood.com/home/2015/6/24/preserved-lemons'
+    Keeps 3 days in the fridge. Store the crumbs apart in an airtight container at room temperature
+    and reheat the pasta gently with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Strozzapreti ("priest stranglers") is a hand-rolled pasta shape associated with Romagna. Preserved lemon, used in Moroccan tagines and salads, contributes salt as well as citrus. Make the crumbs first and keep them dry while cooking the pasta. Brown the remaining butter only to golden and nutty, then wilt the spinach in two additions. The measured preserved peel, juice and zest each have a separate destination; the crisp topping carries half the pepper flakes in the source route.
+Strozzapreti ("priest stranglers") is a short, hand-rolled twist of pasta from Emilia-Romagna. Here it gets brown butter, a lot of spinach and preserved lemon, the salty, fermented North African staple that tastes deeper than fresh citrus. A pile of garlicky, lemony panko on top makes every bite crunchy.
 
 ## Directions
 
-1. **Toast crumbs:** Make the topping with 1/4 of the unsalted butter, panko breadcrumbs, garlic clove, 1/2 of the red pepper flakes, lemon zest, olive oil, and kosher salt and black pepper for crumbs in a wide skillet: melt the butter with the oil over medium heat. Add garlic and pepper flakes; as they become fragrant, stir in the panko and stir until golden and crisp, checking after about 2 minutes. Stir in the zest, season with the listed crumb seasoning and transfer all the crumbs to a dry plate. Wipe out stray crumbs from the pan before browning butter.
-2. **Boil:** Cook fresh strozzapreti OR cavatappi and water and salt for boiling pasta until al dente according to the actual fresh or dried pasta package; the source’s roughly 5-minute fresh-pasta reference is not a dried-cavatappi clock. Scoop out about 1/2 cup of the cooking water, then drain.
-3. **Brown and wilt:** Use 3/4 of the unsalted butter and 1/2 of the bunches of flat-leaf spinach for the first wilt: melt the butter in the cleaned skillet over medium heat, swirling until golden and nutty rather than dark or black. Add this spinach portion and toss until wilted.
-4. **Combine:** Finish with preserved lemon peel, fresh lemon juice, 1/2 of the bunches of flat-leaf spinach, 1/2 of the red pepper flakes, kosher salt and black pepper for finishing, additional preserved lemon peel for optional finishing (if using), and additional lemon juice for optional finishing (if using) and all the drained pasta: add the measured peel and juice, remaining flakes and spinach, then toss until the spinach wilts and the pasta is coated, checking after about 1 minute rather than assuming 30 seconds works for every load. If the pasta looks dry, toss in a splash of the reserved cooking water so the brown butter clings. Season to taste, using additional peel or juice only if desired.
-5. **Serve:** Divide all the pasta and spinach among bowls and distribute all the reserved crumbs over the top.
+1. **Heat the water:** Bring a large pot of water to a boil and add kosher salt until it tastes like the sea.
+2. **Fry the garlic:** Warm 1/4 of the unsalted butter, olive oil, garlic clove, and 1/2 of the red pepper flakes in a large skillet over medium heat. Cook until the garlic is fragrant, about 1 minute.
+3. **Toast the crumbs:** Stir in panko breadcrumbs, lemon zest, and kosher salt. Cook, stirring, until the crumbs are golden and crisp, about 2 minutes. Tip them onto a plate and wipe out the skillet.
+4. **Boil the pasta:** Add fresh strozzapreti or dried cavatappi to the boiling water and cook until al dente, about 5 minutes for fresh pasta or as the package says for dried. Scoop out a mugful of the cooking water, then drain.
+5. **Brown the butter:** While the pasta cooks, melt 3/4 of the unsalted butter in the skillet over medium heat. Swirl until it foams and turns golden brown and nutty, about 3 minutes.
+6. **Wilt the spinach:** Add 1/2 of the flat-leaf spinach and toss until it collapses, about 1 minute.
+7. **Toss the pasta:** Add the drained pasta, 1/2 of the red pepper flakes, 1/2 of the flat-leaf spinach, preserved lemon peel, fresh lemon juice, and kosher salt and black pepper. Toss until the spinach wilts and the pasta is glossy, about 1 minute, adding a splash of pasta water if it looks dry. Taste and add more lemon juice if it needs it.
+8. **Serve:** Divide among bowls and pile the crumbs on top just before serving.

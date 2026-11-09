@@ -48,9 +48,10 @@ test('chicken and eggplant preserves Chinese base, pantry options and one-load c
     false
   );
   const directions = formulaDirections(formula);
-  assert.match(directions, /all the dried eggplant at once/);
-  assert.match(directions, /all the chicken at once/);
-  assert.match(directions, /165°F \/ 74°C/);
+  // Jordan's original cooks each in one load: the eggplant is dried, then added all at once.
+  assert.match(directions, /pat it very dry\. .*Add all the eggplant/);
+  assert.match(directions, /then all the chicken/);
+  assert.match(directions, /165°F in the thickest strips/);
   assert.equal(data.scaling.mode, 'fixed');
   assert.equal(data.learning.review.status, 'editorial-review');
   assert.doesNotMatch(raw, /Sentinel_|chatgpt\.com|paprikaUid/);

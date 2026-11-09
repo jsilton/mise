@@ -31,7 +31,7 @@ role: dessert
 vibe: comfort
 prepTime: 10 min
 cookTime: 30 min
-totalTime: About 50 min (includes heating and brief cooling)
+totalTime: 45 min
 servings: 8 portions
 ingredients:
   - '--- Biscuit dough ---'
@@ -46,19 +46,14 @@ ingredients:
   - 12 oz blackberries
   - 3/4 cup granulated sugar
   - 1 cup water
-  - 1 1/2 tsp finely grated orange zest
+  - '1 1/2 tsp orange zest, finely grated'
   - 1 cinnamon stick
   - '--- Topping and serving ---'
-  - 'additional granulated sugar, for sprinkling'
+  - 'granulated sugar, for sprinkling'
   - 'sweetened whipped cream, for serving'
 origin: United States
-pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - blackout-chocolate-cake
-  - classic-peach-ice-cream
-source: Adapted from Foodandwine.com
-sourceUrl: 'http://www.foodandwine.com/recipes/skillet-biscuits-berries'
+source: Adapted from Food & Wine
+sourceUrl: 'https://www.foodandwine.com/recipes/skillet-biscuits-berries'
 formula:
   version: 1
   yield:
@@ -171,13 +166,14 @@ formula:
               share: 1
         - id: zest
           key: zest
-          name: finely grated orange zest
+          name: orange zest
           quantity:
             amount: 1 1/2
             unit: tsp
           uses:
             - step: berries
               share: 1
+          preparation: finely grated
         - id: cinnamon
           key: cinnamon
           name: cinnamon stick
@@ -194,7 +190,7 @@ formula:
       ingredients:
         - id: sugar
           key: sugar
-          name: additional granulated sugar
+          name: granulated sugar
           allowance: for sprinkling
           uses:
             - step: broil
@@ -208,141 +204,59 @@ formula:
               share: 1
   steps:
     - id: dry
-      title: Mix the dough ingredients
-      text: 'In a large bowl combine the dough’s {{ingredients}}.'
+      title: Mix the dry ingredients
+      text: 'In a large bowl, whisk {{ingredients}}.'
     - id: butter
       title: Cut in the butter
       text: >-
-        Cut the {{ingredients}} into the dry mixture with a pastry blender or fingertips until the
-        mixture is coarse with small pieces of butter still visible.
+        Cut {{ingredients}} into the flour with a pastry blender or your fingertips until it looks
+        coarse, with pea-size pieces of butter.
     - id: dough
-      title: Shape the mounds
+      title: Shape the biscuits
       text: >-
-        Stir in the {{ingredients}} just until evenly moistened. Scoop one loose mound per listed
-        portion, keeping the mounds approximately the original size; the original batch makes eight.
-        Set them on a parchment-lined tray and keep the dough cool while the berries cook.
+        Stir in {{ingredients}} just until the dough comes together. Scoop it into loose mounds, one
+        per serving, and refrigerate them on a parchment-lined tray while the berries cook.
     - id: berries
       title: Simmer the berries
       text: >-
-        Position an oven rack about 6 inches below the broiler and preheat the broiler according to
-        its instructions. In a large, deep skillet approved for broiling, combine the berries’
-        {{ingredients}}. Bring to a vigorous boil, then reduce to a moderate simmer and cook,
-        stirring occasionally, for about 10 minutes until the berries are juicy and just broken
-        down.
+        Set an oven rack 6 inches below the broiler and heat the broiler. In a large, deep
+        broiler-safe skillet, combine {{ingredients}}. Bring to a boil over high heat, then simmer,
+        stirring now and then, until the berries are juicy and breaking down, about 10 minutes.
     - id: steam
       title: Steam the biscuits
       text: >-
-        Arrange the dough mounds over the bubbling fruit in a single layer with room to expand. The
-        original batch uses eight mounds; for a different quantity use a suitably smaller skillet or
-        additional skillets rather than crowding or increasing mound size. Cover with a fitting lid
-        and simmer over very low heat for about 15 minutes, until the biscuit tops are springy and
-        the centers are cooked through. Check a center biscuit for moist crumb rather than raw
-        dough; if needed, cover and continue simmering before broiling.
+        Set the dough mounds on the bubbling fruit in one layer. Cover and cook over very low heat
+        until the biscuits are springy and cooked through in the center, about 15 minutes.
     - id: broil
       title: Brown the tops
       text: >-
-        Remove the lid and sprinkle the biscuits with {{ingredients}}. Broil about 6 inches from the
-        heat for up to 5 minutes, watching continuously and shifting the pan as needed, until
-        lightly browned in spots. Stop sooner if they brown quickly; broiling does not replace
-        cooking the centers.
+        Uncover and sprinkle the biscuits with {{ingredients}}. Broil, watching closely, until
+        browned in spots, 3 to 5 minutes.
     - id: serve
-      title: Cool slightly and serve
+      title: Serve
       text: >-
-        Let the skillet cool slightly, remove and discard the cinnamon stick, then serve biscuits
-        and berries warm with {{ingredients}}. Handle the hot skillet and handle with oven mitts.
+        Let the skillet cool for 5 minutes and remove the cinnamon stick. Serve warm with
+        {{ingredients}}.
 learning:
-  focus: Steam a biscuit topping through before browning its surface.
-  outcome: >-
-    Springy, cooked biscuit centers with lightly browned tops over juicy berries, without raw dough
-    or scorched syrup.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Use a large, deep skillet with a fitting lid and handles approved for the broiler’s
-      temperature. Oven-safe does not automatically mean broiler-safe.
-    - >-
-      The original batch makes eight loose mounds. For a different quantity, make one similarly
-      sized mound per listed portion and choose suitably smaller or additional broiler-safe skillets
-      with lids so the mounds stay in one layer with room to expand. Do not increase mound size or
-      shorten steaming time in direct proportion to servings.
-    - >-
-      Keep butter cold and handle the dough briefly. Prepare the broiler rack before the skillet
-      becomes hot.
-  checkpoints:
-    - step: 4
-      cue: Berries are juicy and just beginning to break down after the moderate simmer.
-      why: >-
-        An extended vigorous boil evaporates water faster and can leave too little liquid for the
-        covered biscuit stage.
-    - step: 5
-      cue: 'Biscuits are springy, with moist cooked crumb in the center rather than sticky raw dough.'
-      why: >-
-        The covered simmer cooks the centers; surface browning alone would conceal undercooked
-        dough.
-    - step: 6
-      cue: Tops are lightly browned in spots before the sugar blackens.
-      why: >-
-        Broilers vary in intensity, so continuous observation matters more than the five-minute
-        ceiling.
-  troubleshooting:
-    - problem: Tops brown while the centers remain raw
-      cause: The covered cooking stage ended too early.
-      fix: >-
-        Verify the centers before broiling. If they are still doughy, cover and continue the
-        very-low simmer; do not try to cook them through with longer broiling.
-    - problem: Fruit scorches during the covered stage
-      cause: Heat is too high or the fruit was over-reduced.
-      fix: >-
-        Lower the heat immediately. Do not scrape burnt syrup into the sauce; badly scorched fruit
-        cannot be repaired.
-    - problem: Biscuits are tough
-      cause: Dough was overworked after the half-and-half went in.
-      fix: >-
-        Stop stirring as soon as the dough is evenly moistened and scoop loose mounds. Extra liquid
-        after cooking will not reverse toughness.
-  substitutions:
-    - ingredient: Raspberries and blackberries
-      alternative: Keep the written berry mix for this batch
-      effect: >-
-        Different fruit sizes and water content change breakdown and sauce volume; a frozen-fruit or
-        stone-fruit version needs its own timing check.
-  timing: >-
-    Allow about 50 minutes: around 10 minutes dough preparation, time to bring the fruit to a boil,
-    a 10-minute moderate simmer, roughly 15 minutes covered cooking, up to 5 minutes broiling and
-    brief cooling. Preheat the broiler during berry cooking. Additional covered time may be needed
-    if the biscuit centers are still doughy.
-  storage: >-
-    Serve the biscuits warm for the best contrast. Refrigerate leftover biscuits and fruit in a
-    shallow covered container within 2 hours, or 1 hour above 90°F, at 40°F or below; use within 3–4
-    days. Store whipped cream separately and keep it cold. Reheat the fruit and biscuits to 165°F;
-    the biscuit tops will soften during storage.
-  sources:
-    - title: Food & Wine — Skillet Biscuits with Berries
-      url: 'https://www.foodandwine.com/recipes/skillet-biscuits-berries'
-    - title: 'Nicolet College — Professional Baking: Quick Breads'
-      url: 'https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/'
-    - title: FDA — Are You Storing Food Safely?
-      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
-    - title: USDA FSIS — Keep Food Safe! Food Safety Basics
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe
+  storage: 'Best warm from the skillet. Leftovers keep 2 days in the fridge, though the biscuits soften.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-These butter-rich biscuit mounds steam over berries before a brief broiler finish. Keep the lid on over very low heat until the biscuit centers are cooked, then watch the broiler closely for lightly browned tops against the soft fruit.
+Cobbler's close cousin from Food & Wine: biscuits steam on top of simmering raspberries and blackberries, then go under the broiler to brown. Keep the lid on and the heat very low until the biscuits cook through, then broil just long enough to crisp the sugary tops.
 
 ## Directions
 
-1. **Mix the dough ingredients:** In a large bowl combine the dough’s all-purpose flour, light brown sugar, baking powder, and salt.
-2. **Cut in the butter:** Cut the unsalted butter into the dry mixture with a pastry blender or fingertips until the mixture is coarse with small pieces of butter still visible.
-3. **Shape the mounds:** Stir in the half-and-half just until evenly moistened. Scoop one loose mound per listed portion, keeping the mounds approximately the original size; the original batch makes eight. Set them on a parchment-lined tray and keep the dough cool while the berries cook.
-4. **Simmer the berries:** Position an oven rack about 6 inches below the broiler and preheat the broiler according to its instructions. In a large, deep skillet approved for broiling, combine the berries’ raspberries, blackberries, granulated sugar, water, finely grated orange zest, and cinnamon stick. Bring to a vigorous boil, then reduce to a moderate simmer and cook, stirring occasionally, for about 10 minutes until the berries are juicy and just broken down.
-5. **Steam the biscuits:** Arrange the dough mounds over the bubbling fruit in a single layer with room to expand. The original batch uses eight mounds; for a different quantity use a suitably smaller skillet or additional skillets rather than crowding or increasing mound size. Cover with a fitting lid and simmer over very low heat for about 15 minutes, until the biscuit tops are springy and the centers are cooked through. Check a center biscuit for moist crumb rather than raw dough; if needed, cover and continue simmering before broiling.
-6. **Brown the tops:** Remove the lid and sprinkle the biscuits with additional granulated sugar. Broil about 6 inches from the heat for up to 5 minutes, watching continuously and shifting the pan as needed, until lightly browned in spots. Stop sooner if they brown quickly; broiling does not replace cooking the centers.
-7. **Cool slightly and serve:** Let the skillet cool slightly, remove and discard the cinnamon stick, then serve biscuits and berries warm with sweetened whipped cream. Handle the hot skillet and handle with oven mitts.
+1. **Mix the dry ingredients:** In a large bowl, whisk all-purpose flour, light brown sugar, baking powder, and salt.
+2. **Cut in the butter:** Cut unsalted butter into the flour with a pastry blender or your fingertips until it looks coarse, with pea-size pieces of butter.
+3. **Shape the biscuits:** Stir in half-and-half just until the dough comes together. Scoop it into loose mounds, one per serving, and refrigerate them on a parchment-lined tray while the berries cook.
+4. **Simmer the berries:** Set an oven rack 6 inches below the broiler and heat the broiler. In a large, deep broiler-safe skillet, combine raspberries, blackberries, granulated sugar, water, orange zest, and cinnamon stick. Bring to a boil over high heat, then simmer, stirring now and then, until the berries are juicy and breaking down, about 10 minutes.
+5. **Steam the biscuits:** Set the dough mounds on the bubbling fruit in one layer. Cover and cook over very low heat until the biscuits are springy and cooked through in the center, about 15 minutes.
+6. **Brown the tops:** Uncover and sprinkle the biscuits with granulated sugar. Broil, watching closely, until browned in spots, 3 to 5 minutes.
+7. **Serve:** Let the skillet cool for 5 minutes and remove the cinnamon stick. Serve warm with sweetened whipped cream.

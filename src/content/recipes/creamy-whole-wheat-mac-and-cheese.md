@@ -23,69 +23,47 @@ nutritionalDensity: hearty
 leftovers: good
 equipment:
   - dutch-oven
-prepTime: About 5–10 min
-cookTime: About 15–25 min
-totalTime: About 20–35 min
+prepTime: 5 min
+cookTime: 20 min
+totalTime: 25 min
 servings: '4'
 pairsWith:
-  - garlic-mashed-mock-potatoes
-  - garlic-mashed-red-potatoes
+  - crispy-parmesan-roasted-broccoli
   - avocado-kale-caesar-salad
+pairingNotes:
+  crispy-parmesan-roasted-broccoli: A crisp green vegetable beside the creamy pasta.
+  avocado-kale-caesar-salad: Tangy greens to cut the cheese.
 ingredients:
-  - 8 oz Whole-Wheat Elbow Macaroni
-  - 2 tbsp Unsalted Butter
-  - 1/3 cup + 1 tbsp Heavy Cream
-  - '1 1/4 cups Sharp Cheddar, freshly grated'
+  - 8 oz whole-wheat elbow macaroni
+  - 2 tbsp unsalted butter
+  - '1/3 cup plus 1 tbsp heavy cream, divided'
+  - '1 1/4 cups sharp cheddar, freshly grated'
   - '1/4 cup Parmesan, freshly grated'
-  - 1/4 tsp Sea Salt
-  - Plenty of Black Pepper
-  - Pinch of Nutmeg (The Finishing Touch)
-  - 'Water, as needed to boil pasta'
-  - 'Salt, as needed for pasta water, separate from the measured finishing salt'
-  - 'Water, a little as needed when reheating leftovers'
-source: Adapted from 100daysofrealfood.com
+  - '1/4 tsp sea salt, plus more for the pasta water'
+  - 'black pepper, to taste'
+  - pinch of ground nutmeg
+source: Adapted from 100 Days of Real Food
 sourceUrl: 'https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/'
 learning:
-  focus: Control the heat before melting cheese
-  outcome: Both cheeses have melted before the separate finishing cream goes in.
   techniques:
     - emulsions
     - starch
-  before:
-    - 'The original batch uses 8 oz dry pasta, 1¼ cups cheddar and ¼ cup Parmesan. Keep those full amounts for the main version.'
-    - 'Scale both cream portions separately, preserving ⅓ cup for melting and 1 tbsp for finishing in the original batch. Use a pot with room to stir; heat-up and cheese-melting time are not proportional to portion count.'
-  checkpoints:
-    - step: 3
-      cue: Both cheeses have melted before the separate finishing cream goes in.
-      why: 'Melt both cheeses gently before adding the separate finishing cream, keeping its portion available for the final stage.'
-  troubleshooting:
-    - problem: Sauce is grainy or splitting
-      cause: Cheese mixture was heated too aggressively or reheated after chilling.
-      fix: 'During the first cheese-melting stage, lower the heat or take the pot off the heat and stir gently. For stored leftovers, follow the reheating instructions below even if the sauce texture changes.'
-  substitutions:
-    - ingredient: Dry-volume pasta and mixed-cheese alternative
-      alternative: 'At the original four-serving scale, use 1½ cups DRY whole-wheat macaroni, then cook it; use 1¼ cups TOTAL freshly grated cheese, chosen from cheddar, Monterey Jack and a little Parmesan within that total. Keep 2 tbsp butter, ⅓ cup cream followed by 1 tbsp finishing cream, ¼ tsp salt and pepper to taste; omit the nutmeg for this alternative. Cook pasta first, melt butter with the larger cream portion, fold in pasta and cheese on low heat, then finish with the remaining cream and seasonings.'
-      effect: 'The dry pasta volume and total cheese amount differ from the main version. Scale the entire alternative together, keeping both cream portions separate; do not combine its cheese total with the main version.'
-  storage: 'Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3–4 days. Reheat this pasta dish to 165°F /74°C throughout, checking the center and stirring where practical. Use the listed reheating-water allowance only as needed; cream and cheese sauces may separate.'
-  timing: About 10–20 minutes active work;20–35 minutes elapsed including water heating and package pasta cooking. Follow the written sensory cues and endpoints; ingredient controls do not multiply timers.
-  sources:
-    - title: Saved Adapted from 100daysofrealfood.com
-      url: 'https://www.100daysofrealfood.com/recipe-creamy-whole-wheat-mac-and-cheese/'
-    - title: USDA — storing and reheating leftovers
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
+  storage: >-
+    Leftovers keep 4 days in the fridge. Reheat gently on the stove with a splash of water or milk,
+    stirring until creamy.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Use the full cheddar and Parmesan amounts, and separate the cream before heating: the larger portion goes in with the butter and the smaller finishing portion finishes the sauce. Melt cheese over low heat, stirring; if the sauce starts bubbling hard, take the pot off the heat while continuing to stir.
+This stovetop mac and cheese skips the flour sauce. Hot, starchy noodles go straight back into the pot with butter and cream, and the cheese melts into a silky coating. Grate the cheddar yourself, since bagged shreds have coatings that keep them from melting smooth, and add the pinch of nutmeg for warmth against the nutty whole wheat.
 
 ## Directions
 
-1. Cook the dry macaroni in boiling water seasoned with the separate pasta-water salt allowance until al dente according to the package. Scoop out about 1/2 cup of the cooking water, then drain without rinsing.
-2. Return the hot noodles to the pot. Add all the butter and the larger cream portion (⅓ cup in the original batch), keeping the smaller finishing cream portion separate. Stir over medium-low heat until the butter melts and coats the pasta.
-3. Turn the heat to low. Add all the cheddar and Parmesan gradually, stirring until melted. Take the pot off the heat if the cheese mixture bubbles hard; return briefly to low heat only as needed to finish melting. If the sauce looks tight or grainy, stir in a splash of the reserved cooking water until smooth.
-4. Stir in the remaining cream (1 tbsp in the original batch), measured sea salt, black pepper and nutmeg. Do not spend the finishing cream twice.
-5. Serve immediately; the sauce thickens as it stands.
+1. **Boil the macaroni:** Cook the macaroni in a large pot of well-salted boiling water until al dente. Scoop out a mug of the cooking water, then drain without rinsing.
+2. **Melt the butter:** Return the hot noodles to the pot over medium-low heat. Add the butter and most of the cream, saving a splash to finish. Stir until the butter melts and coats the pasta, about 1 minute.
+3. **Melt the cheese:** Turn the heat to low. Add the cheddar and Parmesan a handful at a time, stirring constantly until melted into a thick, silky sauce. If it looks tight or grainy, stir in a splash of the cooking water.
+4. **Finish:** Stir in the saved cream, the salt, plenty of black pepper and the nutmeg.
+5. **Serve:** Serve right away, while the sauce is glossy. It thickens as it stands.

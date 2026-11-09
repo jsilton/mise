@@ -24,7 +24,7 @@ vibe: quick
 prepTime: 5 min
 cookTime: 10 min
 totalTime: 15 min
-servings: '16'
+servings: 1 1/4 cups
 seasons:
   - year-round
 nutritionalDensity: light
@@ -33,90 +33,44 @@ pairsWith:
   - har-gow-dim-sum-shrimp-dumplings
   - cantonese-shrimp-and-pork-wontons
   - lo-mein
+pairingNotes:
+  har-gow-dim-sum-shrimp-dumplings: Spoon a little over the shrimp dumplings.
+  cantonese-shrimp-and-pork-wontons: The classic dip for wontons.
+  lo-mein: Stir a spoonful into the noodles for heat.
 ingredients:
-  - '1 cup Neutral Oil (vegetable, canola, or peanut)'
-  - '1/2 cup Sichuan Chili Flakes (erjingtiao), coarsely ground'
-  - 2 tbsp Sesame Seeds
-  - 1 tbsp Sichuan Peppercorns
-  - '4 cloves Garlic, minced'
-  - '1 inch Fresh Ginger, minced'
-  - 2 Star Anise
-  - 1 Cinnamon Stick
-  - 1 tsp Salt
-  - 1 tsp Sugar
+  - 1 cup neutral oil, such as peanut or canola
+  - 1/2 cup Sichuan chili flakes (erjingtiao)
+  - 2 tbsp sesame seeds
+  - 1 tbsp Sichuan peppercorns
+  - '4 cloves garlic, minced'
+  - '1-inch piece fresh ginger, minced'
+  - 2 star anise
+  - 1 cinnamon stick
+  - 1 tsp salt
+  - 1 tsp sugar
 learning:
-  focus: Test the oil on the actual flakes before the main pour
-  outcome: 'Fragrant oil with colored flakes and no blackened, bitter sediment.'
   techniques:
     - temperature
-  before:
-    - >-
-      Use vessels with room for the full listed batch plus stirring or bubbling.
-      For larger batches use enough vessels and divide all ingredients
-      proportionally. Temperatures do not scale and heating/reduction times are
-      not linear.
-    - >-
-      Have a dry stainless-steel bowl, dry metal strainer and dry spoon ready.
-      Keep all the fresh garlic and ginger; their presence means prompt
-      refrigerated handling.
-  checkpoints:
-    - step: 2
-      cue: 'Spices are fragrant, not blackened.'
-      why: The thermometer and actual spice color govern the oil heat.
-    - step: 3
-      cue: Test flakes sizzle without blackening or a burnt smell.
-      why: Different flakes can scorch at different oil temperatures.
-  timing: >-
-    About 15 minutes for original-batch preparation/heating, with additional
-    cooling and packaging time. Do not extend the hot-oil stage automatically
-    for a scaled batch.
   substitutions:
     - ingredient: Sichuan chili flakes (erjingtiao)
-      alternative: >-
-        The same volume of gochugaru from the supermarket, or crushed red
-        pepper. Keep all the other ingredients and use the test pour.
+      alternative: Gochugaru
       effect: >-
-        Gochugaru gives good color with a fruitier, milder heat. Crushed red
-        pepper is hotter and has less color and fragrance, so it suits adults
-        more than kids.
-    - ingredient: Sichuan peppercorns
-      alternative: >-
-        Omit them for a milder oil if your family prefers; still strain out the
-        star anise and cinnamon.
-      effect: >-
-        Loses the floral, numbing tingle that defines Sichuan chili oil. It is
-        not a substitute for the red flakes.
-  storage: >-
-    Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze
-    small portions promptly. Thaw in the refrigerator and stir before serving.
-    Heating this fresh-garlic-and-ginger oil does not establish a longer storage
-    life.
-  troubleshooting:
-    - problem: Flakes turn black during the test pour
-      cause: The oil is too hot for that flake product.
-      fix: >-
-        Let the oil cool a little and retest in a separate dry dish before
-        adding it to the main bowl.
-  sources:
-    - title: NCHFP — Garlic-in-Oil Storage
-      url: 'https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/'
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+        Sichuan flakes are sold at Asian markets. Gochugaru gives the same deep red color with a
+        fruitier, milder heat.
+  storage: Keep in a jar in the fridge for up to 4 days, or freeze small portions for 3 months.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Sichuan chili flakes bring fragrant, moderate heat and deep red color, and Sichuan peppercorns add the numbing tingle that defines the style. The flakes stay in the oil. Star anise, cinnamon and Sichuan peppercorns infuse it and are strained out. Flake size and roast level affect scorching, so test a little hot oil before the main pour. The fifteen-minute estimate covers preparation and heating; cooling and packaging take additional time. Serve the chili oil separately so diners can choose how much heat to add.
+A Sichuan chili oil for dumplings, noodles and rice. Star anise, cinnamon and Sichuan peppercorns infuse the hot oil, which is then poured over chili flakes, garlic and sesame so they sizzle and turn the oil deep red. The oil should be hot enough to sizzle the flakes but not so hot that it burns them.
 
 ## Directions
 
-1. **The Prep:** Place the chili flakes, sesame seeds, minced garlic, ginger, salt, and sugar in a large, dry stainless-steel bowl on a stable heatproof surface. Leave ample room for bubbling; do not pour hot oil into a storage jar. Wash and dry the fresh aromatics before mincing, and have a dry metal strainer ready.
-
-2. **The Infuse:** In a small saucepan, combine oil, star anise, cinnamon stick and Sichuan peppercorns. Heat gently, checking with a thermometer, until the spices are fragrant and the oil reaches about 275°F, roughly 8–10 minutes. Lower the heat if spices darken early; remove darkening spices rather than continuing to fry them. Turn off the heat.
-
-3. **The Pour:** Remove the whole spices with the dry metal strainer. Test a small spoonful of oil on a few flakes in a separate dry heatproof dish: they should sizzle without blackening or smelling burnt. If they scorch, let the oil cool a little and test again. Carefully add the oil to the main mixture in small increments, stirring with a dry metal spoon and allowing bubbling to subside between additions. Keep your face and hands clear of the steam and splashes. Heating does not make this fresh-garlic-and-ginger oil shelf-stable.
-
-4. **The Store:** Cool promptly in a heatproof container, then refrigerate at 40°F or below within 2 hours, or 1 hour above 90°F. Use within 4 days, or freeze small portions promptly. Stir before serving. Do not store this fresh-garlic-and-ginger oil at room temperature.
+1. **Make the base:** Put the chili flakes, sesame seeds, garlic, ginger, salt and sugar in a large heatproof stainless-steel bowl.
+2. **Infuse the oil:** In a small saucepan, heat the oil, star anise, cinnamon stick and Sichuan peppercorns over medium-low heat until the spices are fragrant and the oil reaches 275°F, 8 to 10 minutes.
+3. **Test the heat:** Scoop out the whole spices, peppercorns too, with a small fine-mesh strainer. Drip a little oil onto a pinch of the flakes in a small dish. They should sizzle and darken slightly without turning black. If they burn, let the oil cool for a minute.
+4. **Pour:** Pour the oil over the base a little at a time, stirring as it sizzles.
+5. **Cool:** Let the chili oil cool completely, then spoon it into a jar. Stir before using.

@@ -29,18 +29,13 @@ cuisines:
 role: dessert
 vibe: technical
 prepTime: 45 min
-cookTime: 35–45 min
-totalTime: About 3 hours (includes butter and cake cooling)
+cookTime: 40 min
+totalTime: '1 hr 25 min, plus 1 hr cooling'
 servings: 12 portions
-pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - babys-first-smash-cake
-  - best-cinnamon-roll-recipe-cinnabon-copycat
 ingredients:
-  - '--- Brown-butter carrot cake ---'
-  - 'butter or neutral oil, for greasing the pans and parchment'
-  - '3/4 cup unsalted butter, measured before browning'
+  - '--- Cake ---'
+  - 'butter, for the pans'
+  - 3/4 cup unsalted butter
   - '1 lb carrots, finely grated'
   - 1 cup buttermilk
   - '4 large eggs, at room temperature'
@@ -53,15 +48,15 @@ ingredients:
   - 1/2 tsp ground nutmeg
   - 2 tsp baking powder
   - 3/4 tsp baking soda
-  - '1 1/2 tsp light, hollow-flake kosher salt'
-  - '--- Cream-cheese frosting ---'
+  - 1 1/2 tsp Diamond Crystal kosher salt
+  - '--- Frosting ---'
   - '12 oz cream cheese, softened'
-  - '3/4 cup butter, softened'
+  - '3/4 cup unsalted butter, softened'
   - 4 cups powdered sugar
   - 1 tsp vanilla extract
 origin: United States
-source: Adapted from Bonappetit.com
-sourceUrl: 'http://www.bonappetit.com/recipe/bas-best-carrot-cake?intcid=inline_amp'
+source: Adapted from Bon Appétit
+sourceUrl: 'https://www.bonappetit.com/recipe/bas-best-carrot-cake'
 equipment:
   - cake-pans
   - stand-mixer
@@ -74,12 +69,12 @@ formula:
     unit: portion
   components:
     - id: cake
-      name: Brown-butter carrot cake
+      name: Cake
       ingredients:
         - id: pan-fat
           key: butter-or-neutral-oil
-          name: butter or neutral oil
-          allowance: for greasing the pans and parchment
+          name: butter
+          allowance: for the pans
           uses:
             - step: prepare
               share: 1
@@ -89,7 +84,6 @@ formula:
           quantity:
             amount: 3/4
             unit: cup
-          preparation: measured before browning
           uses:
             - step: brown-butter
               share: 1
@@ -207,7 +201,7 @@ formula:
               share: 1
         - id: salt
           key: light-flake-kosher-salt
-          name: 'light, hollow-flake kosher salt'
+          name: Diamond Crystal kosher salt
           quantity:
             amount: 1 1/2
             unit: tsp
@@ -215,7 +209,7 @@ formula:
             - step: dry
               share: 1
     - id: frosting
-      name: Cream-cheese frosting
+      name: Frosting
       ingredients:
         - id: cream-cheese
           key: cream-cheese
@@ -229,7 +223,7 @@ formula:
               share: 1
         - id: butter
           key: butter
-          name: butter
+          name: unsalted butter
           quantity:
             amount: 3/4
             unit: cup
@@ -244,7 +238,7 @@ formula:
             amount: 4
             unit: cup
           uses:
-            - step: frosting
+            - step: sweeten
               share: 1
         - id: vanilla
           key: vanilla-extract
@@ -253,160 +247,94 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: frosting
+            - step: sweeten
               share: 1
   steps:
     - id: prepare
-      title: Prepare the oven and pans
+      title: Prepare the pans
       text: >-
-        Heat the oven to 350°F. Use {{ingredients}} to grease two 9-inch round cake pans, line the
+        Heat the oven to 350°F. Grease two 9-inch round cake pans with {{ingredients}}, line the
         bottoms with parchment and grease the parchment.
     - id: brown-butter
-      title: Brown and cool the butter
+      title: Brown the butter
       text: >-
-        Melt the cake’s {{ingredients}} over medium heat in a light-colored saucepan. Stir and
-        scrape the bottom as it foams; when the milk solids are golden brown and smell nutty,
-        immediately pour everything, including the brown solids, into a heatproof bowl. Let cool to
-        lukewarm while preparing the other ingredients.
+        Melt {{ingredients}} in a light-colored saucepan over medium heat. Keep stirring and
+        scraping the bottom as it foams until the milk solids turn golden brown and smell nutty, 5
+        to 8 minutes. Pour it at once into a heatproof bowl, browned bits and all, and let it cool
+        to lukewarm.
     - id: carrots
-      title: Prepare the carrot mixture
-      text: 'Combine the {{ingredients}} in a bowl.'
+      title: Mix the carrots
+      text: 'Stir together {{ingredients}} in a bowl.'
     - id: dry
-      title: Mix the dry ingredients
-      text: 'Whisk the cake’s {{ingredients}} together thoroughly in a separate bowl.'
+      title: Whisk the dry ingredients
+      text: 'Whisk {{ingredients}} in another bowl.'
     - id: eggs
       title: Beat the eggs and sugars
       text: >-
-        Beat the cake’s {{ingredients}} for about 4 minutes until pale and thick. Reduce the mixer
-        speed and gradually stream in the cooled brown butter, including its browned solids, just
-        until incorporated.
+        In a stand mixer on medium-high speed, beat {{ingredients}} until pale and thick, about 4
+        minutes. Lower the speed and stream in the brown butter and its browned bits until just
+        combined.
     - id: combine
       title: Finish the batter
       text: >-
-        Add the dry mixture in three additions, alternating with the carrot-buttermilk mixture in
-        two additions; begin and end with the dry mixture. Scrape the bowl and mix only until no dry
-        pockets remain. Divide evenly between the prepared pans.
+        On low speed, add the flour mixture in three parts, alternating with the carrot mixture in
+        two parts. Mix until no dry pockets remain, then divide the batter between the pans.
     - id: bake
-      title: Bake and cool
+      title: Bake the layers
       text: >-
-        Bake for 35–45 minutes, until a tester inserted in the center comes out clean. Set the pans
-        on racks for 10 minutes, loosen the edges, turn out and remove the parchment. Let the layers
-        cool completely before frosting.
+        Bake until a tester in the center comes out clean, 35 to 45 minutes. Cool in the pans on a
+        rack for 10 minutes.
+    - id: cool
+      title: Cool the layers
+      text: >-
+        Run a knife around the edges, turn the layers out and peel off the parchment. Cool
+        completely on the rack, about 1 hour.
     - id: frosting
-      title: Make the frosting
+      title: Beat the frosting
       text: >-
-        While the cakes cool, beat the frosting’s {{ingredients}}: first smooth the cream cheese and
-        softened butter together, then mix in powdered sugar gradually on low speed with the
-        vanilla. Beat until smooth and spreadable.
+        While the layers cool, beat {{ingredients}} in the stand mixer on medium speed until smooth,
+        about 2 minutes.
+    - id: sweeten
+      title: Sweeten the frosting
+      text: >-
+        On low speed, beat in {{ingredients}}. Raise the speed to medium and beat until smooth and
+        fluffy, about 2 minutes.
     - id: assemble
-      title: Layer and frost
+      title: Frost the cake
       text: >-
-        Spread frosting between the completely cooled cake layers and over the top and sides.
-        Refrigerate the frosted cake until serving; let only the portion being served lose its
-        refrigerator chill.
+        Set one layer on a plate and spread it with a thick layer of frosting. Top with the second
+        layer and frost the top and sides. Chill the cake until 30 minutes before serving.
 learning:
-  focus: Brown butter without scorching it and incorporate it into an egg-based cake batter.
-  outcome: >-
-    Nutty-smelling butter with golden solids, evenly baked carrot layers and a smooth frosting on
-    completely cooled cake.
   techniques:
+    - browning
     - leavening
     - temperature
-  before:
-    - >-
-      Measure the cake’s butter before browning. Use all of the resulting brown butter and milk
-      solids; do not top it up to a new volume.
-    - >-
-      Use two matching 9-inch round pans and finely grated carrots. Keep the cake’s 2 tsp vanilla
-      separate from the frosting’s 1 tsp.
-    - >-
-      The listed salt volume is for light, hollow flakes. Dense coarse kosher salt and fine salt are
-      not interchangeable by spoon volume.
-    - >-
-      For multiples, make separate original-size cakes with the stated number and size of pans so
-      layer depth stays the same. A smaller batch needs appropriately smaller pans and earlier
-      center checks; do not put a reduced batch into the original pans and assume the original bake
-      time. Pan dimensions and baking time do not multiply with portions.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Golden-brown solids and a nutty aroma appear beneath the foam, without black specks or an
-        acrid smell.
-      why: Residual pan heat continues browning; transferring the butter promptly prevents scorching.
-    - step: 5
-      cue: Eggs and sugars are pale and thick before the lukewarm butter is streamed in.
-      why: >-
-        Beating the eggs before adding liquid fat gives them a chance to aerate; hot butter can cook
-        them locally.
-    - step: 7
-      cue: 'A center tester comes out clean, and the layers are completely cool before frosting.'
-      why: >-
-        The moist carrots make a fully baked center essential; warm cake softens the cream-cheese
-        frosting.
-  troubleshooting:
-    - problem: Butter smells acrid or has black solids
-      cause: The milk solids burned in the hot pan.
-      fix: >-
-        Discard it and start the butter stage again. Straining out visible solids cannot reliably
-        remove the burnt flavor.
-    - problem: Frosting becomes loose
-      cause: 'The butter, cream cheese or cake layers are too warm.'
-      fix: >-
-        Cool the layers completely; chill the frosting briefly and beat again until spreadable. Do
-        not add unmeasured powdered sugar as the first correction.
-    - problem: Cake center is wet when the timer ends
-      cause: 'Carrot moisture, batter depth and oven performance vary.'
-      fix: >-
-        Continue baking until the center tester is clean; protect a darkening top with a loose sheet
-        of foil.
   substitutions:
-    - ingredient: Finely grated carrots
-      alternative: Do not substitute packaged shredded carrots directly
-      effect: >-
-        Thicker, drier shreds can remain conspicuous and change the cake’s moisture; grate whole
-        carrots to match the written preparation.
-    - ingredient: Browned butter
-      alternative: Do not replace it with an equal spoon volume of oil as a shortcut
-      effect: >-
-        The fat composition and flavor change. Measure and brown the specified starting butter to
-        retain this version’s identity.
-  timing: >-
-    Allow about 3 hours from ready ingredients: roughly 45 minutes preparation including grating,
-    browning and butter cooling, 35–45 minutes baking, then complete cake cooling and frosting.
-    Prepare carrots and dry ingredients while the brown butter cools; make frosting while the layers
-    cool. Very cold ingredients or a warm room can extend the clock.
+    - ingredient: Diamond Crystal kosher salt
+      alternative: Morton kosher salt
+      effect: 'Use half as much. Morton is denser, so the same spoonful is twice as salty.'
   storage: >-
-    Refrigerate the cream-cheese-frosted cake, covered, at 40°F or below and use within 3–4 days.
-    Count frosting-ingredient softening, assembly and service toward a maximum of 2 hours
-    unrefrigerated, or 1 hour above 90°F. Freeze wrapped slices for longer storage and thaw in the
-    refrigerator. The frosting and crumb will soften as a serving portion loses its chill.
-  sources:
-    - title: Bon Appétit — BA’s Best Carrot Cake
-      url: 'https://www.bonappetit.com/recipe/bas-best-carrot-cake'
-    - title: 'PJ Hamel — How to make brown butter, King Arthur Baking'
-      url: 'https://www.kingarthurbaking.com/blog/2020/01/08/brown-butter'
-    - title: FDA — Are You Storing Food Safely?
-      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
-    - title: USDA FSIS — Keep Food Safe! Food Safety Basics
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe
+    Keep the frosted cake covered in the fridge for up to 4 days. Wrapped slices freeze for 2 months
+    and thaw in the fridge.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Browned butter brings a toasted aroma to this carrot cake, alongside ginger, cinnamon and tangy cream-cheese frosting. Watch the milk solids rather than the foam, and pour the butter out of the hot pan as soon as it turns golden brown; keep those browned solids for the batter.
+This is Bon Appétit's carrot cake, made with brown butter instead of oil and with buttermilk for a moist, tender crumb. The browned milk solids give the cake a toasted, nutty depth under the ginger, cinnamon and tangy cream cheese frosting, so scrape every bit of them into the batter.
 
 ## Directions
 
-1. **Prepare the oven and pans:** Heat the oven to 350°F. Use butter or neutral oil to grease two 9-inch round cake pans, line the bottoms with parchment and grease the parchment.
-2. **Brown and cool the butter:** Melt the cake’s unsalted butter over medium heat in a light-colored saucepan. Stir and scrape the bottom as it foams; when the milk solids are golden brown and smell nutty, immediately pour everything, including the brown solids, into a heatproof bowl. Let cool to lukewarm while preparing the other ingredients.
-3. **Prepare the carrot mixture:** Combine the carrots and buttermilk in a bowl.
-4. **Mix the dry ingredients:** Whisk the cake’s all-purpose flour, ground cinnamon, ground ginger, ground nutmeg, baking powder, baking soda, and light, hollow-flake kosher salt together thoroughly in a separate bowl.
-5. **Beat the eggs and sugars:** Beat the cake’s large eggs, granulated sugar, light brown sugar, and vanilla extract for about 4 minutes until pale and thick. Reduce the mixer speed and gradually stream in the cooled brown butter, including its browned solids, just until incorporated.
-6. **Finish the batter:** Add the dry mixture in three additions, alternating with the carrot-buttermilk mixture in two additions; begin and end with the dry mixture. Scrape the bowl and mix only until no dry pockets remain. Divide evenly between the prepared pans.
-7. **Bake and cool:** Bake for 35–45 minutes, until a tester inserted in the center comes out clean. Set the pans on racks for 10 minutes, loosen the edges, turn out and remove the parchment. Let the layers cool completely before frosting.
-8. **Make the frosting:** While the cakes cool, beat the frosting’s cream cheese, butter, powdered sugar, and vanilla extract: first smooth the cream cheese and softened butter together, then mix in powdered sugar gradually on low speed with the vanilla. Beat until smooth and spreadable.
-9. **Layer and frost:** Spread frosting between the completely cooled cake layers and over the top and sides. Refrigerate the frosted cake until serving; let only the portion being served lose its refrigerator chill.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease two 9-inch round cake pans with butter, line the bottoms with parchment and grease the parchment.
+2. **Brown the butter:** Melt unsalted butter in a light-colored saucepan over medium heat. Keep stirring and scraping the bottom as it foams until the milk solids turn golden brown and smell nutty, 5 to 8 minutes. Pour it at once into a heatproof bowl, browned bits and all, and let it cool to lukewarm.
+3. **Mix the carrots:** Stir together carrots and buttermilk in a bowl.
+4. **Whisk the dry ingredients:** Whisk all-purpose flour, ground cinnamon, ground ginger, ground nutmeg, baking powder, baking soda, and Diamond Crystal kosher salt in another bowl.
+5. **Beat the eggs and sugars:** In a stand mixer on medium-high speed, beat large eggs, granulated sugar, light brown sugar, and vanilla extract until pale and thick, about 4 minutes. Lower the speed and stream in the brown butter and its browned bits until just combined.
+6. **Finish the batter:** On low speed, add the flour mixture in three parts, alternating with the carrot mixture in two parts. Mix until no dry pockets remain, then divide the batter between the pans.
+7. **Bake the layers:** Bake until a tester in the center comes out clean, 35 to 45 minutes. Cool in the pans on a rack for 10 minutes.
+8. **Cool the layers:** Run a knife around the edges, turn the layers out and peel off the parchment. Cool completely on the rack, about 1 hour.
+9. **Beat the frosting:** While the layers cool, beat cream cheese and unsalted butter in the stand mixer on medium speed until smooth, about 2 minutes.
+10. **Sweeten the frosting:** On low speed, beat in powdered sugar and vanilla extract. Raise the speed to medium and beat until smooth and fluffy, about 2 minutes.
+11. **Frost the cake:** Set one layer on a plate and spread it with a thick layer of frosting. Top with the second layer and frost the top and sides. Chill the cake until 30 minutes before serving.

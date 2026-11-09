@@ -22,9 +22,9 @@ cuisines:
   - Mexican
 role: side
 vibe: nutritious
-prepTime: 10–15 min
-cookTime: 30–35 min
-totalTime: '40–50 min, plus any remaining preheating'
+prepTime: 10 min
+cookTime: 30 min
+totalTime: 40 min
 servings: '4'
 seasons:
   - fall
@@ -37,81 +37,45 @@ advancePrep:
 equipment:
   - baking-sheet
 pairsWith:
-  - tacos
-  - carnitas-bowl
-  - coconut-chicken-curry
-  - everyday-arugula-salad
+  - pulled-pork
+  - jerk-pork-shoulder
+  - buttermilk-baked-chicken
+pairingNotes:
+  pulled-pork: Sweet, smoky wedges beside tangy barbecue pork.
+  jerk-pork-shoulder: Sweet potato tames the jerk heat.
+  buttermilk-baked-chicken: A spiced side for crisp baked chicken.
 ingredients:
-  - >-
-    2 lbs Sweet Potatoes, peeled and cut into 3/4-inch wedges (original batch
-    about 3 medium)
-  - 3 tbsp Olive Oil
-  - 1 tsp Ground Cumin
-  - 1 tsp Chili Powder
-  - 1/2 tsp Smoked Paprika
-  - 1/2 tsp Garlic Powder
-  - 1/4 tsp Cayenne Pepper (optional)
-  - 1 tsp Kosher Salt
-  - 1/2 tsp Black Pepper
-  - Fresh Cilantro and Lime wedges for serving
+  - '2 lb sweet potatoes (about 3 medium), peeled and cut into 3/4-inch wedges'
+  - 3 tbsp olive oil
+  - 1 tsp ground cumin
+  - 1 tsp chili powder
+  - 1/2 tsp smoked paprika
+  - 1/2 tsp garlic powder
+  - 1/4 tsp cayenne pepper (optional)
+  - 1 tsp kosher salt
+  - 1/2 tsp black pepper
+  - 'fresh cilantro, for serving'
+  - 'lime wedges, for serving'
 learning:
-  focus: Match surface browning to center tenderness
-  outcome: Tender sweet-potato wedges carrying the full cumin-chili oil coating.
   techniques:
     - seasoning
     - browning
-  before:
-    - >-
-      The original 2 lb is about three medium potatoes, not a fixed size
-      conversion. Use the listed weight when scaling.
-    - >-
-      Keep the full three tablespoons of oil in the original batch; divide all
-      seasoned wedges and their oil among the actual pans.
-  checkpoints:
-    - step: 4
-      cue: A fork passes easily through the center and edges are browned.
-      why: Edge color alone does not establish tenderness in a thick wedge.
-  troubleshooting:
-    - problem: Spices darken while centers remain firm.
-      cause: Very thick wedges or uneven oven heat.
-      fix: >-
-        Turn and move wedges away from the strongest heat; continue until tender
-        and remove any finished pieces. Do not keep roasting already scorched
-        edges for color.
-  substitutions: []
-  timing: >-
-    About 10–15 minutes preparation and 30–35 minutes roasting for one load;
-    roughly 40–50 minutes elapsed. More pans or batches may take longer, without
-    multiplying oven temperature or wedge size. The oven must reach 425°F before
-    loading; any preheating beyond preparation extends elapsed time.
   storage: >-
-    Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly;
-    reheat cooked leftovers to 165°F / 74°C. Crispness can soften during storage
-    and reheating.
-  sources:
-    - title: FDA produce preparation
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: FoodSafety.gov cold handling and leftovers
-      url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
+    Leftovers keep 4 days in the fridge. Reheat them on a sheet pan at 425°F to bring back the
+    browned edges.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Keep the full oil and cumin-chili seasoning on the wedges. An uncrowded layer exposes their surfaces to oven heat; a fork should pass through the centers before the edges become scorched.
+These wedges get a cumin, chili and smoked paprika rub that leans toward Mexican flavors and sits well beside barbecue, jerk pork or roast chicken. The secret is space and heat. On a hot sheet in a single layer, the sugary edges brown and turn sticky while the centers go creamy.
 
 ## Directions
 
-1. **Preheat:** Preheat to 425°F. Use enough rimmed baking sheets for a single layer. If preheating a sheet, check its and the parchment’s temperature instructions and handle it with oven mitts; otherwise arrange on an unheated lined sheet and judge doneness rather than forcing the same clock.
-
-2. **Season:** Wash, peel and cut the sweet potatoes into roughly ¾-inch-thick wedges. Toss with all the listed oil, cumin, chili powder, smoked paprika, garlic powder, optional cayenne, kosher salt and black pepper.
-
-3. **Arrange:** Set wedges flat-side down with space between them; use additional sheets or batches rather than stacking. Keep cut thickness fixed when scaling.
-
-4. **Roast:** Roast about 20 minutes, then turn and begin checking after another 10–12 minutes. Continue until centers are tender when pierced and edges are browned; rotate sheets if they brown unevenly.
-
-5. **Finish:** Serve with the listed lime wedges and cilantro as desired. Squeeze lime at the table or over the warm wedges to taste.
+1. **Heat the oven:** Set a parchment-lined rimmed baking sheet on the lower rack and heat the oven to 425°F.
+2. **Season the wedges:** In a large bowl, toss the sweet potatoes with the olive oil, cumin, chili powder, smoked paprika, garlic powder, cayenne, salt and pepper until evenly coated.
+3. **Roast:** Spread the wedges flat side down on the hot sheet with space between them. Use a second sheet if they crowd. Roast without touching for 20 minutes.
+4. **Flip and finish:** Flip each wedge and roast until the edges are deeply browned and a fork slides easily into the center, 10 to 12 minutes more.
+5. **Serve:** Squeeze lime over the hot wedges and scatter with cilantro. Serve warm or at room temperature.

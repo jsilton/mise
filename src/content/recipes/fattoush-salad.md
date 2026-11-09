@@ -36,94 +36,66 @@ equipment:
 prepTime: 20 min
 cookTime: 10 min
 totalTime: 30 min
-servings: 4 generous side portions
+servings: '4'
 pairsWith:
-  - falafel
   - chicken-shawarma
-  - israeli-style-hummus
+  - falafel
+  - middle-eastern-style-grilled-chicken-kabobs
+pairingNotes:
+  chicken-shawarma: Spiced roast chicken with a sharp, crunchy salad.
+  falafel: A classic Lebanese plate with pita and herbs.
+  middle-eastern-style-grilled-chicken-kabobs: Grilled chicken and a bright, cool salad.
 ingredients:
-  - '120 g pita bread, split into thin layers and torn into bite-sized pieces'
+  - '120 g pita bread, split into thin layers and torn into bite-size pieces'
   - '2 tbsp olive oil, for the pita'
   - '1 tsp ground sumac, for the pita'
-  - '400 g ripe tomatoes, cut into bite-sized pieces'
+  - '400 g ripe tomatoes, cut into bite-size pieces'
   - '200 g Persian or English cucumber, sliced'
   - '100 g radishes, thinly sliced'
   - '4 scallions, thinly sliced'
   - '1 cup loosely packed parsley leaves, roughly chopped'
   - '1/2 cup loosely packed mint leaves, torn'
-  - '150 g romaine or Little Gem lettuce, washed and dried, then torn'
+  - '150 g romaine or Little Gem lettuce, torn and dried well'
   - '3 tbsp olive oil, for the dressing'
-  - '2 tbsp fresh lemon juice, plus up to 1 tbsp more to taste'
+  - '2 tbsp fresh lemon juice, plus more to taste'
   - 1 tbsp pomegranate molasses
   - '1 small clove garlic, finely grated'
   - '1 tsp ground sumac, for the dressing'
   - 1/2 tsp fine salt
   - 1/4 tsp black pepper
 description: >-
-  Fresh vegetables, herbs, sumac, and crisp toasted pita with a lemon-pomegranate dressing. Add
-  bread at the table to control its texture.
+  Fresh vegetables, herbs, sumac, and crisp toasted pita with a lemon-pomegranate dressing.
 learning:
-  focus: Keep bread and dressing separate until serving
-  outcome: 'Crisp pita among juicy vegetables, with a sharp, fruity dressing and distinct fresh herbs.'
   techniques:
     - seasoning
     - browning
-  before:
-    - Dry lettuce and herbs thoroughly. Mix the salad close to serving.
-    - >-
-      Use ground sumac and pomegranate molasses rather than za’atar or ordinary pomegranate juice;
-      they have different seasoning roles.
-  checkpoints:
-    - step: 1
-      cue: 'Pita is dry and golden, then snaps after cooling.'
-      why: >-
-        Thin, evenly spread pieces lose moisture quickly. A dark exterior alone does not mean a
-        thick folded piece is crisp inside.
-    - step: 4
-      cue: 'Vegetables are lightly coated, with little dressing pooling below.'
-      why: >-
-        Tomatoes and cucumber contribute water, so add dressing in stages and judge the coated
-        vegetables.
-  troubleshooting:
-    - problem: Pita softens too quickly
-      cause: It was added early or was still warm/moist.
-      fix: >-
-        Serve remaining crisp pita separately so diners add it as they eat. No toasted bread stays
-        crisp indefinitely in a wet salad.
-    - problem: Dressing is too tart
-      cause: 'Lemon, sumac, and pomegranate molasses all contribute acidity, and brands vary.'
-      fix: >-
-        Use less dressing initially, then add a teaspoon of olive oil if needed. Hold back the
-        optional lemon until tasting with vegetables.
   substitutions:
-    - ingredient: Pomegranate molasses
-      alternative: Omit it and adjust lemon after tasting
+    - ingredient: pomegranate molasses
+      alternative: Balsamic vinegar with a little honey
       effect: >-
-        A simpler lemon-sumac dressing, with less fruity sweetness and depth; pomegranate juice is
-        too dilute for a direct replacement.
-  timing: >-
-    30 minutes with vegetable preparation overlapped with pita baking and cooling. If sharing an
-    oven with 425°F chicken, bake pita at its own temperature first.
+        Use 2 tsp balsamic and 1 tsp honey. The dressing keeps its sweet-tart depth but loses the
+        fruity pomegranate note.
+    - ingredient: ground sumac
+      alternative: Lemon zest
+      effect: >-
+        Skip the sumac on the pita and whisk the zest of 1 lemon into the dressing. You lose the
+        deep red color and the earthy tang.
   storage: >-
-    Keep washed vegetables, herbs, and dressing separately refrigerated at 40°F / 4°C or below; keep
-    completely cooled pita airtight and dry. Assemble close to eating. Refrigerate dressed leftovers
-    within 2 hours and use by the next day for texture; the bread will soften.
-  sources:
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Toasted pita keeps 3 days in an airtight container. Dress and assemble the salad just before
+    eating.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Fattoush combines vegetables and herbs with pieces of bread and a tangy dressing. This version toasts the pita and adds it at the last moment for contrast. Sumac and pomegranate molasses already bring tartness, so the lemon is measured and adjusted after tasting. Softer bread is inevitable as it absorbs dressing; serving some pita separately extends the contrast.
+Fattoush is the Lebanese salad that turns day-old pita into the best part of the bowl. Sumac and pomegranate molasses give the dressing its bright, fruity tang. Toast the pita until it shatters and fold it in at the very last moment so it stays crunchy against the juicy vegetables.
 
 ## Directions
 
-1. **Toast pita:** Heat the oven to 375°F / 190°C. Toss pita with its 2 tbsp oil and teaspoon of sumac. Spread in one layer on a rimmed sheet pan. Bake about 8–10 minutes, turning once, until golden and dry. Cool uncovered; thick pieces may need a little longer.
-2. **Mix dressing:** Whisk the dressing oil, initial 2 tbsp lemon juice, pomegranate molasses, garlic, dressing sumac, salt, and pepper. Set aside the optional extra lemon.
-3. **Prepare vegetables:** Combine tomatoes, cucumber, radishes, scallions, dry lettuce, parsley, and mint in a large bowl. Keep refrigerated if the meal is not ready.
-4. **Dress and taste:** Just before serving, add about three-quarters of the dressing and toss gently. Taste a bite and add the rest only as needed. Add some of the reserved lemon if it needs more brightness.
-5. **Add bread:** Fold in cooled pita just before dividing among four plates, or offer it separately for diners to add themselves. Serve promptly.
+1. **Toast the pita:** Heat the oven to 375°F. Toss the pita with its olive oil and sumac and spread it in one layer on a rimmed sheet pan. Bake, turning once, until golden and dry, 8 to 10 minutes. Let it cool on the pan, where it crisps further.
+2. **Make the dressing:** While the pita bakes, whisk the dressing olive oil, lemon juice, pomegranate molasses, garlic, dressing sumac, salt and pepper in a jar or small bowl.
+3. **Combine the salad:** Put the tomatoes, cucumber, radishes, scallions, lettuce, parsley and mint in a large bowl.
+4. **Dress the salad:** Pour in most of the dressing and toss gently until everything is lightly coated. Taste and add the rest of the dressing or more lemon if it needs brightness.
+5. **Add the pita:** Fold in the cooled pita, toss once or twice and serve right away.

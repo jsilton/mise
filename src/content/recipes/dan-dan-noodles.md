@@ -29,120 +29,74 @@ equipment:
   - wok
   - large-pot
   - mixing-bowl
-  - thin-tip-thermometer
-prepTime: 15–20 min
-cookTime: 20–25 min
-totalTime: 35–45 min
+prepTime: 15 min
+cookTime: 25 min
+totalTime: 40 min
 servings: 4 portions
 pairsWith:
   - smashed-cucumber-salad
-  - mapo-tofu
-  - szechuan-eggplant-and-tofu
+  - eggplant-with-garlic-sauce
+pairingNotes:
+  smashed-cucumber-salad: 'Cool, garlicky crunch against the chili oil.'
+  eggplant-with-garlic-sauce: 'Garlicky eggplant, a vegetable side for the table.'
 ingredients:
-  - '--- Pork and preserved greens ---'
+  - '--- Pork topping ---'
   - 8 oz ground pork
   - 3 tsp neutral oil
-  - 2 tsp Chinese sweet bean sauce or hoisin
+  - 2 tsp Chinese sweet bean sauce
   - 2 tsp Shaoxing wine
   - 1 tsp dark soy sauce
   - 1/2 tsp five-spice powder
-  - >-
-    1/3 cup sui mi ya cai (Sichuan preserved mustard greens), finely chopped, ready to use; follow
-    its label
-  - '--- Sesame-chili sauce ---'
-  - '2 tbsp Chinese roasted sesame paste, stir the jar smooth before measuring'
+  - '1/3 cup sui mi ya cai (Sichuan preserved mustard greens), finely chopped'
+  - '--- Sesame and chili sauce ---'
+  - '2 tbsp Chinese roasted sesame paste, stirred smooth'
   - 3 tbsp light soy sauce
   - 2 tsp sugar
   - 1/4 tsp five-spice powder
-  - 1/2 tsp ground Sichuan peppercorn
-  - 1/2 cup prepared Sichuan chili oil with its fine sediment
+  - 1/2 tsp ground Sichuan peppercorns
+  - 1/2 cup Sichuan chili oil with its sediment
   - '2 garlic cloves, very finely minced'
-  - '1/4 cup hot noodle cooking water, total for the whole formula, reserved before draining'
-  - 'additional hot noodle cooking water, only as needed to loosen the sauce, optional'
-  - '--- Noodles, greens, and garnish ---'
-  - 1 lb dried medium-thickness Chinese wheat noodles
-  - 'water, enough for package-directed noodle cooking and blanching'
-  - '4 small baby bok choy, washed and halved, optional'
-  - '1/4 cup roasted peanuts, roughly chopped, optional'
-  - '2 scallions, thinly sliced, optional'
-  - 'additional chili oil, to taste, optional'
+  - '1/4 cup hot noodle cooking water, plus more as needed'
+  - '--- Noodles and garnish ---'
+  - '1 lb dried Chinese wheat noodles, medium thickness'
+  - '4 small baby bok choy, halved, optional'
+  - '1/4 cup roasted peanuts, roughly chopped'
+  - '2 scallions, thinly sliced'
+  - 'more chili oil, to taste, optional'
 description: >-
-  Sichuan sesame-chili noodles with seasoned pork, sui mi ya cai, and a measured whole-batch
-  noodle-water sauce.
+  Sichuan noodles in a sesame and chili oil sauce, topped with crisp pork and preserved mustard
+  greens.
 source: 'Adapted from Judy Leung, The Woks of Life'
 sourceUrl: 'https://thewoksoflife.com/dan-dan-noodles/'
 learning:
-  focus: Build one measured sauce and keep preserved greens and pork flavorful
-  outcome: Springy noodles with a creamy sesame-chili coating and distinct savory topping.
   techniques:
     - seasoning
     - temperature
-  before:
-    - >-
-      Choose Chinese roasted sesame paste, sui mi ya cai, Shaoxing wine, dark soy, and Sichuan chili
-      oil for the main route. Tahini and hoisin options are described below.
-    - >-
-      The ¼ cup noodle water is the whole original-batch amount. Mix it into the whole sauce before
-      dividing bowls.
-    - >-
-      Prepared chili oil is a dependency. Use a ready-to-use product and follow its storage
-      instructions; making a separate oil recipe takes additional time.
-  checkpoints:
-    - step: 2
-      cue: 'The pork is in small crumbles, excess liquid is gone, and it reaches 160°F / 71°C.'
-      why: Browning and a short wine cook do not alone establish the ground-pork endpoint.
-    - step: 5
-      cue: The sauce flows smoothly rather than sitting as a dense paste.
-      why: >-
-        Paste brands and noodle starch vary; start with a measured whole-batch water amount and
-        loosen only as needed.
-  troubleshooting:
-    - problem: Sauce is too stiff
-      cause: Sesame paste is thick or the noodle water cooled before mixing.
-      fix: >-
-        Whisk in a little more hot noodle water from the listed allowance, then divide the whole
-        sauce among bowls.
-    - problem: Noodles become sticky while waiting
-      cause: They sat drained before sauce and toppings were ready.
-      fix: Have toppings and base sauce ready before cooking noodles; drain and assemble promptly.
   substitutions:
-    - ingredient: Chinese roasted sesame paste
-      alternative: 'Tahini, same measured amount'
-      effect: A lighter sesame flavor. Stir smooth; do not dry-toast the paste.
-    - ingredient: Sweet bean sauce
-      alternative: 'Hoisin, same measured amount'
-      effect: A source option with a different sweet-spiced flavor.
-    - ingredient: Sui mi ya cai
-      alternative: >-
-        Finely chopped Sichuan zha cai (preserved mustard stem, often canned or in pouches in the
-        Asian aisle), same amount. Failing that, use 1/4 cup napa cabbage kimchi, squeezed well and
-        finely chopped, or leave the greens out and add a pinch of salt to the pork, to taste.
+    - ingredient: sui mi ya cai (Sichuan preserved mustard greens)
+      alternative: Zha cai or napa cabbage kimchi
       effect: >-
-        Zha cai is crunchier and saltier, without ya cai's molasses-sweet depth. Kimchi adds a sour,
-        garlicky tang. Leaving it out keeps the dish good but less savory.
+        Zha cai, the preserved mustard stem sold in cans and pouches, is crunchier and saltier.
+        Kimchi, squeezed dry and finely chopped, adds a sour tang. You can also leave the greens out
+        and add a pinch of salt to the pork.
+    - ingredient: Chinese roasted sesame paste
+      alternative: Tahini
+      effect: 'Lighter and less toasty, but just as creamy.'
+    - ingredient: Chinese sweet bean sauce
+      alternative: Hoisin sauce
+      effect: Sweeter and more spiced. Use the same amount.
+    - ingredient: Sichuan chili oil with its sediment
+      alternative: Chili crisp
+      effect: 'Crunchier and often saltier, so taste the sauce before adding more soy.'
+    - ingredient: dried Chinese wheat noodles
+      alternative: Fresh Chinese wheat noodles or dried lo mein noodles
+      effect: Fresh noodles cook in 2 to 3 minutes and make lighter bowls.
   storage: >-
-    Best immediately assembled. Refrigerate cooked pork and other prepared components in separate
-    shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or below. Use cooked
-    components within 3 days, including earlier storage; reheat cooked pork and leftover noodles to
-    165°F / 74°C throughout. Follow the chili-oil label. Cold sesame sauce thickens, so loosen when
-    assembling rather than storing dressed noodles for texture.
-  timing: >-
-    About 35–45 minutes with prepared chili oil: 15–20 minutes preparation and 20–25 minutes
-    cooking, overlapping pot heating with pork and yacai. Fresh noodle packages have their own
-    cooking time. More pork/pan loads or homemade chili oil add time.
-  sources:
-    - title: Judy Leung — Dan dan noodles
-      url: 'https://thewoksoflife.com/dan-dan-noodles/'
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Best eaten right away. The pork and the sauce keep 3 days in the fridge. Loosen the sauce with
+    hot water before tossing it with fresh noodles.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -150,7 +104,7 @@ formula:
     unit: portion
   components:
     - id: topping
-      name: Pork and preserved greens
+      name: Pork topping
       ingredients:
         - id: pork
           key: ground-pork
@@ -159,7 +113,7 @@ formula:
             amount: 8
             unit: oz
           uses:
-            - step: pork
+            - step: brown
               share: 1
         - id: oil
           key: neutral-oil
@@ -168,18 +122,18 @@ formula:
             amount: 3
             unit: tsp
           uses:
-            - step: pork
+            - step: brown
               share: 1/3
             - step: yacai
               share: 2/3
         - id: bean
           key: sweet-bean-sauce
-          name: Chinese sweet bean sauce or hoisin
+          name: Chinese sweet bean sauce
           quantity:
             amount: 2
             unit: tsp
           uses:
-            - step: pork
+            - step: season
               share: 1
         - id: wine
           key: shaoxing-wine
@@ -188,7 +142,7 @@ formula:
             amount: 2
             unit: tsp
           uses:
-            - step: pork
+            - step: season
               share: 1
         - id: dark-soy
           key: dark-soy-sauce
@@ -197,16 +151,16 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: pork
+            - step: season
               share: 1
         - id: five-spice
           key: five-spice-powder
           name: five-spice powder
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: tsp
           uses:
-            - step: pork
+            - step: season
               share: 1
         - id: yacai
           key: sui-mi-ya-cai
@@ -217,9 +171,9 @@ formula:
           uses:
             - step: yacai
               share: 1
-          preparation: 'finely chopped, ready to use; follow its label'
+          preparation: finely chopped
     - id: sauce
-      name: Sesame-chili sauce
+      name: Sesame and chili sauce
       ingredients:
         - id: sesame
           key: chinese-sesame-paste
@@ -230,7 +184,7 @@ formula:
           uses:
             - step: sauce
               share: 1
-          preparation: stir the jar smooth before measuring
+          preparation: stirred smooth
         - id: soy
           key: light-soy-sauce
           name: light soy sauce
@@ -253,25 +207,25 @@ formula:
           key: five-spice-powder
           name: five-spice powder
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
             - step: sauce
               share: 1
         - id: pepper
           key: ground-sichuan-pepper
-          name: ground Sichuan peppercorn
+          name: ground Sichuan peppercorns
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: tsp
           uses:
             - step: sauce
               share: 1
         - id: chili-oil
           key: chili-oil
-          name: prepared Sichuan chili oil with its fine sediment
+          name: Sichuan chili oil with its sediment
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: cup
           uses:
             - step: sauce
@@ -291,40 +245,25 @@ formula:
           key: noodle-cooking-water
           name: hot noodle cooking water
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: cup
           uses:
             - step: loosen
               share: 1
-          preparation: 'total for the whole formula, reserved before draining'
-        - id: extra-water
-          key: noodle-cooking-water
-          name: additional hot noodle cooking water
-          allowance: only as needed to loosen the sauce
-          uses:
-            - step: loosen
-              share: 1
-          optional: true
+          preparation: plus more as needed
     - id: noodles
-      name: 'Noodles, greens, and garnish'
+      name: Noodles and garnish
       ingredients:
         - id: noodles
           key: chinese-wheat-noodle
-          name: dried medium-thickness Chinese wheat noodles
+          name: dried Chinese wheat noodles
           quantity:
             amount: 1
             unit: lb
           uses:
             - step: noodles
               share: 1
-        - id: cooking-water
-          key: water
-          name: water
-          allowance: enough for package-directed noodle cooking and blanching
-          uses:
-            - step: noodles
-              share: 1
-          role: cooking-water
+          preparation: medium thickness
         - id: bok-choy
           key: baby-bok-choy
           name: small baby bok choy
@@ -332,21 +271,20 @@ formula:
             amount: 4
             unit: count
           uses:
-            - step: noodles
+            - step: greens
               share: 1
           plural: small baby bok choy
           optional: true
-          preparation: washed and halved
+          preparation: halved
         - id: peanuts
           key: roasted-peanut
           name: roasted peanuts
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: cup
           uses:
             - step: assemble
               share: 1
-          optional: true
           preparation: roughly chopped
           role: garnish
         - id: scallions
@@ -359,12 +297,11 @@ formula:
             - step: assemble
               share: 1
           plural: scallions
-          optional: true
           preparation: thinly sliced
           role: garnish
         - id: extra-chili-oil
           key: chili-oil
-          name: additional chili oil
+          name: more chili oil
           allowance: to taste
           uses:
             - step: assemble
@@ -373,66 +310,57 @@ formula:
           role: garnish
   steps:
     - id: sauce
-      title: Mix the sauce base
+      title: Mix the sauce
+      text: 'In a bowl, stir {{ingredients}} until smooth. Set it aside.'
+    - id: brown
+      title: Brown the pork
       text: >-
-        Stir the {{ingredients}} together in one bowl until the paste is smoothly dispersed. Leave
-        out the measured noodle water until it is available. This is the whole-batch sauce; do not
-        repeat its amounts for each serving bowl.
-    - id: pork
-      title: Brown and season the pork
+        Add {{ingredients}} to a wok over medium-high heat. Cook, breaking the pork into small
+        crumbles, until browned with no pink left, about 5 minutes.
+    - id: season
+      title: Season the pork
       text: >-
-        Have the {{ingredients}} ready. Heat the allocated oil over medium heat and brown the pork,
-        breaking it into small crumbles. Add the bean sauce, wine, dark soy, and five-spice powder;
-        stir until excess liquid evaporates. Check the pork reaches 160°F / 71°C, then transfer to a
-        clean bowl. In the original batch, this stage uses 1 tsp of the oil.
+        Add {{ingredients}}. Stir-fry until the liquid cooks off and the pork is dark and glossy,
+        about 2 minutes. Move the pork to a bowl.
     - id: yacai
-      title: Cook the preserved greens
+      title: Fry the preserved greens
       text: >-
-        Have the {{ingredients}} ready. Heat the allocated oil over medium heat, then stir-fry the
-        yacai for a few minutes until fragrant. In the original batch, this stage uses the remaining
-        2 tsp oil. Keep as a separate topping or combine with the fully cooked pork.
+        Add {{ingredients}} to the wok. Stir-fry over medium heat until fragrant, about 2 minutes,
+        then stir them into the pork.
+    - id: greens
+      title: Blanch the bok choy
+      text: >-
+        Bring a large pot of water to a boil. Blanch {{ingredients}} until the leaves wilt and the
+        stems are crisp-tender, about 1 minute. Lift out and drain.
     - id: noodles
-      title: Blanch the greens and cook the noodles
+      title: Boil the noodles
       text: >-
-        Have the {{ingredients}} ready. Bring the water to a boil. If using bok choy, blanch until
-        the leaves wilt and stems are tender with a little bite, about 1 minute for small halves;
-        remove and drain. Cook the noodles according to their package until tender and springy.
-        Reserve hot cooking water before draining, then drain the noodles well.
+        Cook {{ingredients}} in the same water by the package directions until tender and springy.
+        Scoop out a mug of the cooking water, then drain the noodles well.
     - id: loosen
-      title: Finish the measured sauce
+      title: Finish the sauce
       text: >-
-        Whisk the {{ingredients}} into the sauce base. Start with the listed measured total; use the
-        extra allowance only if needed for a smooth sauce that flows and coats, rather than a stiff
-        paste. Divide this finished whole sauce among the serving bowls.
+        Whisk {{ingredients}} into the sauce until it flows and coats a spoon. Divide the sauce
+        among the serving bowls.
     - id: assemble
-      title: Build and serve
+      title: Build the bowls
       text: >-
-        Have the {{ingredients}} ready, using them as desired. Divide noodles, drained greens, fully
-        cooked pork, and yacai among the sauced bowls. Add the optional garnishes, then toss
-        thoroughly in each bowl and serve immediately. The original formula makes four generous main
-        bowls, or six smaller portions.
+        Divide the noodles, bok choy and pork among the bowls. Top with {{ingredients}}. Toss each
+        bowl well at the table and eat right away.
 miseId: 0cb6bc4b-4785-4512-80d5-c11588f63ecf
 ---
 
 ## Chef's Note
 
-The main version puts Sichuan preserved mustard greens, roasted sesame paste, and a generous measure of chili oil at the center. Mix one sauce, cook pork and preserved greens to concentrate their flavors, then divide everything among the bowls just before eating.
+Dan dan noodles are Sichuan street food, named for the shoulder pole that vendors once carried through the streets of Chengdu. Springy noodles sit on a sauce of roasted sesame paste, chili oil and numbing Sichuan pepper. The topping of crisp pork and sweet, dark preserved mustard greens is what makes them taste like the real thing.
 
 ## Directions
 
-1. **Mix the sauce base:** Stir the Chinese roasted sesame paste, light soy sauce, sugar, five-spice powder, ground Sichuan peppercorn, prepared Sichuan chili oil with its fine sediment, and garlic cloves together in one bowl until the paste is smoothly dispersed. Leave out the measured noodle water until it is available. This is the whole-batch sauce; do not repeat its amounts for each serving bowl.
-2. **Brown and season the pork:** Have the ground pork, 1/3 of the neutral oil, Chinese sweet bean sauce or hoisin, Shaoxing wine, dark soy sauce, and five-spice powder ready. Heat the allocated oil over medium heat and brown the pork, breaking it into small crumbles. Add the bean sauce, wine, dark soy, and five-spice powder; stir until excess liquid evaporates. Check the pork reaches 160°F / 71°C, then transfer to a clean bowl. In the original batch, this stage uses 1 tsp of the oil.
-3. **Cook the preserved greens:** Have the 2/3 of the neutral oil and sui mi ya cai (Sichuan preserved mustard greens) ready. Heat the allocated oil over medium heat, then stir-fry the yacai for a few minutes until fragrant. In the original batch, this stage uses the remaining 2 tsp oil. Keep as a separate topping or combine with the fully cooked pork.
-4. **Blanch the greens and cook the noodles:** Have the dried medium-thickness Chinese wheat noodles, water, and small baby bok choy (if using) ready. Bring the water to a boil. If using bok choy, blanch until the leaves wilt and stems are tender with a little bite, about 1 minute for small halves; remove and drain. Cook the noodles according to their package until tender and springy. Reserve hot cooking water before draining, then drain the noodles well.
-5. **Finish the measured sauce:** Whisk the hot noodle cooking water and additional hot noodle cooking water (if using) into the sauce base. Start with the listed measured total; use the extra allowance only if needed for a smooth sauce that flows and coats, rather than a stiff paste. Divide this finished whole sauce among the serving bowls.
-6. **Build and serve:** Have the roasted peanuts (if using), scallions (if using), and additional chili oil (if using) ready, using them as desired. Divide noodles, drained greens, fully cooked pork, and yacai among the sauced bowls. Add the optional garnishes, then toss thoroughly in each bowl and serve immediately. The original formula makes four generous main bowls, or six smaller portions.
-
-## Variations and serving notes
-
-**Fresh-noodle option:** The source also uses **1 lb fresh medium-thickness Chinese wheat noodles** for the original batch. This is a separate purchase-weight option, not a dry-solids equivalence to 1 lb dried noodles; the bowl will be lighter. Keep the whole topping and sauce formulas, cook by the fresh-noodle package, and reserve the same ¼ cup whole-batch hot water before draining.
-
-**Useful flavor options:** Tahini replaces the Chinese sesame paste in the same 2 tbsp original-batch amount; hoisin replaces the sweet bean sauce in the same 2 tsp amount. For the saved tart flavor, mix **1 tbsp Chinkiang black vinegar** into the whole original-batch sauce; this is optional and changes the source sauce. Scale those amounts with the formula.
-
-**Milder saved variation — four portions:** Use **12 oz dried Chinese wheat noodles; 8 oz ground pork; 2 tbsp ready-to-use minced yacai; 1 tbsp neutral oil; 1 tbsp Shaoxing wine**. For the whole sauce use **2 tbsp Chinese sesame paste or tahini, 1 tbsp soy sauce, 1 tbsp Chinkiang black vinegar, 2 tsp chili oil with sediment, ½ tsp ground Sichuan pepper, 1 finely grated garlic clove, 1 tsp sugar, and ¼ cup hot noodle cooking water total**, plus only enough additional hot water to loosen if needed. Keep the same optional **4 small baby bok choy, ¼ cup roasted peanuts, 2 scallions, and additional chili oil to taste**. Brown the pork in the oil, then add wine and yacai and cook until excess liquid evaporates and the pork reaches 160°F / 71°C. Cook noodles/greens by the main method, whisk the measured whole sauce, divide among four bowls, and assemble immediately. This variant omits the main sweet-bean sauce, dark soy, and five-spice powder. Scale all its ingredients proportionally; the ¼ cup is not repeated per bowl.
-
-A [smashed cucumber salad](/mise/recipes/smashed-cucumber-salad/) can drain while the toppings and noodles cook.
+1. **Mix the sauce:** In a bowl, stir Chinese roasted sesame paste, light soy sauce, sugar, five-spice powder, ground Sichuan peppercorns, Sichuan chili oil with its sediment, and garlic cloves until smooth. Set it aside.
+2. **Brown the pork:** Add ground pork and 1/3 of the neutral oil to a wok over medium-high heat. Cook, breaking the pork into small crumbles, until browned with no pink left, about 5 minutes.
+3. **Season the pork:** Add Chinese sweet bean sauce, Shaoxing wine, dark soy sauce, and five-spice powder. Stir-fry until the liquid cooks off and the pork is dark and glossy, about 2 minutes. Move the pork to a bowl.
+4. **Fry the preserved greens:** Add 2/3 of the neutral oil and sui mi ya cai (Sichuan preserved mustard greens) to the wok. Stir-fry over medium heat until fragrant, about 2 minutes, then stir them into the pork.
+5. **Blanch the bok choy:** Bring a large pot of water to a boil. Blanch small baby bok choy (if using) until the leaves wilt and the stems are crisp-tender, about 1 minute. Lift out and drain.
+6. **Boil the noodles:** Cook dried Chinese wheat noodles in the same water by the package directions until tender and springy. Scoop out a mug of the cooking water, then drain the noodles well.
+7. **Finish the sauce:** Whisk hot noodle cooking water into the sauce until it flows and coats a spoon. Divide the sauce among the serving bowls.
+8. **Build the bowls:** Divide the noodles, bok choy and pork among the bowls. Top with roasted peanuts, scallions, and more chili oil (if using). Toss each bowl well at the table and eat right away.

@@ -23,17 +23,19 @@ cuisines:
   - American
 role: side
 vibe: technical
-prepTime: 15 min
-cookTime: 17–20 min
-totalTime: About 45 min (includes 10 min pan cooling)
+prepTime: 25 min
+cookTime: 20 min
+totalTime: '45 min, plus 10 min cooling'
 servings: 12 pieces
 pairsWith:
-  - blueberry-baked-oatmeal
-  - breakfast-carrot-cake
-  - chocolate-chip-beet-muffins
+  - breakfast-egg-cups
+  - sausage-breakfast-casserole
+pairingNotes:
+  breakfast-egg-cups: Eggs for protein beside a sweet muffin.
+  sausage-breakfast-casserole: A savory casserole for a weekend brunch spread.
 ingredients:
-  - '--- Chocolate-chip muffin batter ---'
-  - 'butter or neutral oil, for greasing the muffin cups and rims'
+  - '--- Batter ---'
+  - 'butter or neutral oil, for the pan'
   - 2 1/2 cups all-purpose flour
   - 2 1/2 tsp baking powder
   - 1/2 tsp baking soda
@@ -44,10 +46,10 @@ ingredients:
   - 1 cup buttermilk
   - 2 large eggs
   - 1 tbsp vanilla extract
-  - '--- Optional topping ---'
-  - 'granulated sugar or additional chocolate chips, for sprinkling, optional'
+  - '--- Topping ---'
+  - 'coarse sugar or more chocolate chips, for sprinkling, optional'
 origin: United States
-source: Adapted from littlesweetbaker.com
+source: Adapted from Little Sweet Baker
 sourceUrl: 'https://www.littlesweetbaker.com/bakery-style-chocolate-chip-muffins-2/'
 formula:
   version: 1
@@ -56,12 +58,12 @@ formula:
     unit: piece
   components:
     - id: batter
-      name: Chocolate-chip muffin batter
+      name: Batter
       ingredients:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
-          allowance: for greasing the muffin cups and rims
+          allowance: for the pan
           uses:
             - step: prepare
               share: 1
@@ -158,11 +160,11 @@ formula:
             - step: wet
               share: 1
     - id: topping
-      name: Optional topping
+      name: Topping
       ingredients:
         - id: topping
           key: topping
-          name: granulated sugar or additional chocolate chips
+          name: coarse sugar or more chocolate chips
           allowance: for sprinkling
           optional: true
           role: garnish
@@ -171,135 +173,62 @@ formula:
               share: 1
   steps:
     - id: prepare
-      title: Prepare the oven and pan
-      text: >-
-        Heat the oven to 425°F before mixing the batter. The original batch uses a standard 12-cup
-        muffin pan. For a different quantity, prepare more or fewer standard cups, greasing the cups
-        and rims with {{ingredients}}, or line the cups and grease the rims. Keep the same standard
-        cup size and very-full portion depth. Melt the batter butter and let it cool to lukewarm
-        before mixing; additional pans or oven batches add time.
+      title: Heat the oven
+      text: 'Heat the oven to 425°F. Grease a 12-cup muffin pan, rims included, with {{ingredients}}.'
     - id: dry
-      title: Mix the dry ingredients and chips
-      text: >-
-        Whisk together the batter’s {{ingredients}}, adding the chocolate chips after the flour and
-        leaveners are evenly mixed.
+      title: Mix the dry ingredients
+      text: 'Whisk {{ingredients}} in a large bowl so the chips are coated in flour.'
     - id: wet
       title: Mix the wet ingredients
-      text: 'In another bowl whisk the batter’s {{ingredients}} until evenly combined.'
+      text: 'In another bowl, whisk {{ingredients}} until smooth.'
     - id: combine
       title: Fold the batter
       text: >-
-        Add the wet mixture to the dry mixture and gently fold until all the flour is moistened.
-        Scrape the bottom so no dry pockets remain; small lumps are fine. Portion promptly rather
-        than waiting for the oven to heat.
+        Pour the wet mixture into the dry and fold with a spatula until no dry flour remains. Small
+        lumps are fine.
+    - id: rest
+      title: Rest the batter
+      text: >-
+        Let the batter sit for 10 minutes while the oven finishes heating. The flour soaks up the
+        liquid and the muffins dome higher.
     - id: portion
       title: Fill the cups
-      text: >-
-        Divide the batter among the standard muffin cups needed for the listed yield, keeping them
-        very full. The original batch uses about 12 standard cups; a different quantity needs more
-        or fewer cups, rather than the same twelve. Sprinkle with {{ingredients}}. Do not put a full
-        original batch into smaller cups; additional pans or oven batches add time.
+      text: 'Fill the cups all the way to the top. Sprinkle with {{ingredients}}.'
     - id: rise
       title: Start hot
-      text: Bake at 425°F for 5 minutes.
+      text: 'Bake at 425°F until the tops puff, 5 minutes.'
     - id: finish
-      title: Lower the heat
+      title: Finish at 375°F
       text: >-
-        Without opening the oven door, lower the temperature to 375°F. Continue baking for 12–15
-        minutes, until the tops are set and a tester through the crumb has no wet batter; avoid a
-        melted chocolate chip when judging the tester. Check rather than extending the bake simply
-        for darker tops.
+        Without opening the door, lower the oven to 375°F. Bake until the tops are golden and a
+        toothpick in the center comes out free of wet batter, 12 to 15 minutes.
     - id: cool
       title: Cool and release
-      text: >-
-        Let the muffins cool in the pan for 10 minutes. Loosen the tops carefully, remove to a rack
-        and serve warm or let cool completely before storing.
+      text: Cool in the pan for 10 minutes. Loosen the tops and move the muffins to a rack.
 learning:
-  focus: Coordinate gentle muffin mixing with a two-temperature bake.
-  outcome: 'Well-risen chocolate-chip muffins with set centers, tender crumb and no pockets of dry flour.'
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      The original batch uses about 12 standard muffin cups, filled very full. For different
-      quantities, use more or fewer standard cups with the same fill depth and extra pans or batches
-      if needed. Grease rims even with liners; the full cups produce wide tops.
-    - >-
-      Heat the oven before wet and dry mixtures meet. Cool the melted butter to lukewarm and measure
-      the full listed buttermilk.
-    - >-
-      Baking powder and baking soda are separate ingredients; do not substitute one for the other by
-      spoon volume.
-  checkpoints:
-    - step: 4
-      cue: All flour is moistened but the batter still has small lumps.
-      why: Trying to beat a muffin batter completely smooth can make the crumb tough.
-    - step: 7
-      cue: 'Tops are set and a tester through the crumb has no wet batter, apart from melted chocolate.'
-      why: >-
-        The lower-temperature stage finishes the center; a chocolate streak is different from raw
-        batter.
-    - step: 8
-      cue: The muffins are firm enough to lift without tearing their wide tops.
-      why: The pan cooling interval helps the crumb set before release.
-  troubleshooting:
-    - problem: Chocolate chips settle or the batter seems unusually thin
-      cause: 'The melted butter was still hot, or the flour/liquid measurements were off.'
-      fix: >-
-        Cool the melted butter to lukewarm and check the flour and liquid measurements before mixing
-        the next batch.
-    - problem: Muffins are dry
-      cause: They were overbaked or the flour was packed into the measuring cup.
-      fix: >-
-        Spoon and level flour, start checking at the end of the written window and stop when the
-        crumb is set; prolonged browning dries it.
-    - problem: Tops stick to the pan
-      cause: The rims were not greased or the muffins were removed too hot.
-      fix: >-
-        Let the pan cool for the written interval, then loosen the edges gently. Grease the rims for
-        the next batch.
-  substitutions:
-    - ingredient: Buttermilk
-      alternative: Keep cultured buttermilk for this version
-      effect: >-
-        Plain milk changes acidity as well as thickness in a formula using both baking soda and
-        baking powder.
-    - ingredient: Semisweet chocolate chips
-      alternative: Milk chocolate chips at the same listed volume
-      effect: >-
-        The muffin becomes sweeter and the chocolate flavor milder; melted-chip streaks still need
-        to be distinguished from wet batter.
-  timing: >-
-    Allow about 45 minutes: roughly 15 minutes preparation including melted-butter cooling, 5
-    minutes at 425°F, 12–15 minutes at 375°F and 10 minutes pan cooling. Preheat while measuring.
-    Complete rack cooling before storage takes longer; extra pans or oven batches extend elapsed
-    time.
   storage: >-
-    Cool completely before airtight storage. Keep for up to 5 days, or freeze airtight for up to 3
-    months. Thaw frozen muffins in the refrigerator overnight and warm briefly before serving. The
-    crumb and wide tops are best on the day of baking.
-  sources:
-    - title: 'Lily Ernst — Bakery-Style Chocolate Chip Muffins, Little Sweet Baker'
-      url: 'https://www.littlesweetbaker.com/bakery-style-chocolate-chip-muffins-2/'
-    - title: 'Nicolet College — Professional Baking: Quick Breads'
-      url: 'https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/'
+    Keep airtight at room temperature for 3 days, or freeze for 3 months. Warm briefly before
+    serving.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-These chocolate-chip muffins start in a hot oven before finishing at a lower temperature. Have the oven and pan ready before mixing, use lukewarm melted butter, and fold only until the flour is moistened; the tops should rise while the centers finish without drying out.
+These muffins bake up like the ones in a bakery case, tall with wide, sugary tops. Two tricks do it. A short rest lets the flour soak up the buttermilk, and a very hot oven at the start pushes the batter up fast before the heat drops to bake the centers through.
 
 ## Directions
 
-1. **Prepare the oven and pan:** Heat the oven to 425°F before mixing the batter. The original batch uses a standard 12-cup muffin pan. For a different quantity, prepare more or fewer standard cups, greasing the cups and rims with butter or neutral oil, or line the cups and grease the rims. Keep the same standard cup size and very-full portion depth. Melt the batter butter and let it cool to lukewarm before mixing; additional pans or oven batches add time.
-2. **Mix the dry ingredients and chips:** Whisk together the batter’s all-purpose flour, baking powder, baking soda, salt, and semisweet chocolate chips, adding the chocolate chips after the flour and leaveners are evenly mixed.
-3. **Mix the wet ingredients:** In another bowl whisk the batter’s unsalted butter, granulated sugar, buttermilk, large eggs, and vanilla extract until evenly combined.
-4. **Fold the batter:** Add the wet mixture to the dry mixture and gently fold until all the flour is moistened. Scrape the bottom so no dry pockets remain; small lumps are fine. Portion promptly rather than waiting for the oven to heat.
-5. **Fill the cups:** Divide the batter among the standard muffin cups needed for the listed yield, keeping them very full. The original batch uses about 12 standard cups; a different quantity needs more or fewer cups, rather than the same twelve. Sprinkle with granulated sugar or additional chocolate chips (if using). Do not put a full original batch into smaller cups; additional pans or oven batches add time.
-6. **Start hot:** Bake at 425°F for 5 minutes.
-7. **Lower the heat:** Without opening the oven door, lower the temperature to 375°F. Continue baking for 12–15 minutes, until the tops are set and a tester through the crumb has no wet batter; avoid a melted chocolate chip when judging the tester. Check rather than extending the bake simply for darker tops.
-8. **Cool and release:** Let the muffins cool in the pan for 10 minutes. Loosen the tops carefully, remove to a rack and serve warm or let cool completely before storing.
+1. **Heat the oven:** Heat the oven to 425°F. Grease a 12-cup muffin pan, rims included, with butter or neutral oil.
+2. **Mix the dry ingredients:** Whisk all-purpose flour, baking powder, baking soda, salt, and semisweet chocolate chips in a large bowl so the chips are coated in flour.
+3. **Mix the wet ingredients:** In another bowl, whisk unsalted butter, granulated sugar, buttermilk, large eggs, and vanilla extract until smooth.
+4. **Fold the batter:** Pour the wet mixture into the dry and fold with a spatula until no dry flour remains. Small lumps are fine.
+5. **Rest the batter:** Let the batter sit for 10 minutes while the oven finishes heating. The flour soaks up the liquid and the muffins dome higher.
+6. **Fill the cups:** Fill the cups all the way to the top. Sprinkle with coarse sugar or more chocolate chips (if using).
+7. **Start hot:** Bake at 425°F until the tops puff, 5 minutes.
+8. **Finish at 375°F:** Without opening the door, lower the oven to 375°F. Bake until the tops are golden and a toothpick in the center comes out free of wet batter, 12 to 15 minutes.
+9. **Cool and release:** Cool in the pan for 10 minutes. Loosen the tops and move the muffins to a rack.

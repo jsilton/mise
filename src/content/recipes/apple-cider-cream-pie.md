@@ -27,27 +27,22 @@ cuisines:
   - American
 role: dessert
 vibe: technical
-prepTime: 45 min
-cookTime: About 65–85 min of baking and reduction
-totalTime: 'About 4–6 hr, until fully chilled'
+prepTime: 30 min
+cookTime: 1 hr 10 min
+totalTime: '2 hr 30 min, plus 4 hr chilling'
 servings: 8 portions
-pairsWith:
-  - apple-pie
-  - blackout-chocolate-cake
-  - classic-peach-ice-cream
-  - cranberry-crunch
 ingredients:
   - '--- Crust ---'
   - 1 cup all-purpose flour
   - 1 tbsp cornstarch
   - 1 tbsp granulated sugar
   - 1 tsp kosher salt
-  - '1 stick unsalted butter, chilled and diced'
+  - '1 stick unsalted butter, cold and diced'
   - 3 tbsp cold milk
   - 1 tsp apple cider vinegar
   - 'all-purpose flour, for rolling'
   - '--- Cider custard ---'
-  - '2 cups apple cider, unfiltered preferred'
+  - 2 cups fresh apple cider
   - 3/4 cup granulated sugar
   - 1/2 cup sour cream
   - 1/4 tsp salt
@@ -57,67 +52,17 @@ ingredients:
   - 1/4 cup granulated sugar
   - 1/2 tsp ground cinnamon
 origin: United States
-source: Adapted from Foodandwine.com
-sourceUrl: 'http://www.foodandwine.com/recipes/apple-cider-cream-pie'
+source: Adapted from Food & Wine
+sourceUrl: 'https://www.foodandwine.com/recipes/apple-cider-cream-pie'
 learning:
-  focus: Reduce cider by measured volume and set a chilled custard
-  outcome: A set cold center and whipped cinnamon cream over an intact baked shell.
   techniques:
     - temperature
-  before:
-    - >-
-      Pan dimensions and rolling circles describe the original batch. Multiples
-      need separate original-size pies or tarts; smaller batches need
-      appropriately smaller dishes with similar layer depth and earlier doneness
-      checks. Do not multiply temperatures or assume baking time scales with
-      ingredients.
-    - >-
-      Make refrigerator space before baking. The full filling must fit with
-      headroom; actual pie-plate depth matters. Keep both distinct salt and
-      sugar components separate.
-  checkpoints:
-    - step: 3
-      cue: Measured cider reduction is one-quarter of the starting volume.
-      why: A timer cannot account for pan width and batch size.
-    - step: 5
-      cue: >-
-        Central custard reaches 160°F while the center moves slightly without
-        liquid sloshing.
-      why: Movement helps judge texture but does not establish egg cooking.
-  troubleshooting:
-    - problem: The crust browns before the custard is ready
-      cause: The shell is already baked and its rim is exposed to heat.
-      fix: >-
-        Keep the foil rim shield and continue gently until the custard
-        temperature passes; a brown crust does not replace that check.
-  timing: >-
-    Allow roughly 4–6 hours including dough 30 minutes, shaped-shell 15 minutes,
-    two 15-minute blind-bake stages, cider reduction and cooling, custard 35–40
-    minutes or until the endpoint, and full refrigerator chilling. Reduction can
-    overlap pastry work; extra pie rounds or slow chilling extend elapsed time.
-  substitutions:
-    - ingredient: Heavy cream topping
-      alternative: Larger cinnamon-cream topping
-      effect: >-
-        For a larger topping on the original-size pie, use 1½ cups heavy cream
-        instead of the listed 1 cup. Use that larger cream amount with the same
-        ¼ cup topping sugar and ½ tsp cinnamon, scaled proportionally. Keep the
-        entire filling and crust unchanged; the topping is larger and less sweet
-        per spoonful.
-  storage: 'Refrigerate promptly, within 2 hours after baking or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Keep covered once cold. Use within 3–4 days, or sooner if a dairy ingredient needs using sooner. Keep the cream-topped pie cold for serving. Freezing can damage custard and whipped-cream texture. For make-ahead serving, Food & Wine recommends refrigerating the baked, untopped pie for up to 2 days and adding the cinnamon cream shortly before serving. This shorter preparation plan is separate from the general leftover limit; keep the same prompt refrigeration and cold-storage conditions.'
-  sources:
-    - title: Food & Wine — Apple Cider Cream Pie
-      url: 'https://www.foodandwine.com/recipes/apple-cider-cream-pie'
-    - title: FDA — Egg safety
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FoodSafety.gov — Cold food storage chart
-      url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
+  storage: >-
+    Keeps 3 days in the fridge. You can bake the pie up to 2 days ahead and spread on the cinnamon
+    cream just before serving.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -172,7 +117,7 @@ formula:
           uses:
             - step: dough
               share: 1
-          preparation: chilled and diced
+          preparation: cold and diced
         - id: milk
           key: milk
           name: cold milk
@@ -180,7 +125,7 @@ formula:
             amount: 3
             unit: tbsp
           uses:
-            - step: dough
+            - step: liquid
               share: 1
         - id: vinegar
           key: vinegar
@@ -189,28 +134,27 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: dough
+            - step: liquid
               share: 1
         - id: rolling-flour
           key: rolling-flour
           name: all-purpose flour
           allowance: for rolling
           uses:
-            - step: shell
+            - step: roll
               share: 1
     - id: filling
       name: Cider custard
       ingredients:
         - id: cider
           key: cider
-          name: apple cider
+          name: fresh apple cider
           quantity:
             amount: 2
             unit: cup
           uses:
             - step: reduce
               share: 1
-          preparation: unfiltered preferred
         - id: sugar
           key: sugar
           name: granulated sugar
@@ -280,72 +224,67 @@ formula:
               share: 1
   steps:
     - id: dough
-      title: Make and chill dough
+      title: Make the dough
       text: >-
-        Pulse {{ingredients}} as follows: combine flour, cornstarch, crust sugar
-        and crust salt, then pulse in all the cold butter until coarse meal with
-        visible butter pieces remains. Mix all milk and vinegar, drizzle over
-        the flour and pulse briefly until the dough holds together when pressed.
-        Gather into a disk, wrap and refrigerate for 30 minutes.
-    - id: shell
-      title: Shape and blind-bake
+        Pulse {{ingredients}} in a food processor until the mixture looks like coarse meal with
+        pea-size bits of butter.
+    - id: liquid
+      title: Add the liquid
       text: >-
-        Use {{ingredients}} lightly on the work surface. For the original batch,
-        roll an 11-inch circle and fit a 9-inch oven-safe pie plate, folding
-        under the overhang and crimping. Chill until firm, about 15 minutes.
-        Heat the oven to 425°F. Line with oven-rated parchment and pie weights;
-        bake in the lower third about 15 minutes until barely set. Carefully
-        remove weights and parchment, shield the edge with foil and bake about
-        15 minutes more at 425°F until set but not browned. Gently deflate any
-        puffed base and let the shell cool. Reduce the oven to 350°F.
+        Stir {{ingredients}} together. Drizzle over the flour mixture and pulse just until the dough
+        holds together when pinched. Shape it into a disk, wrap and chill for 30 minutes.
     - id: reduce
-      title: Reduce and cool cider
+      title: Reduce the cider
       text: >-
-        Boil {{ingredients}} in a saucepan until one-quarter of its starting
-        volume remains: 1/2 cup for the original 2-cup batch, scaled
-        proportionally. Measure the reduction rather than relying on a roughly
-        10–12-minute estimate; pan width and batch size alter evaporation.
-        Transfer to a bowl and cool completely before adding eggs.
+        While the dough chills, boil {{ingredients}} in a saucepan over high heat until it has
+        reduced to a quarter of its volume, 10 to 12 minutes. Pour it into a bowl and let it cool
+        completely.
+    - id: roll
+      title: Roll the crust
+      text: >-
+        Dust the counter with {{ingredients}} and roll the dough into an 11-inch round. Fit it into
+        a 9-inch pie plate, fold the overhang under and crimp the edge. Chill until firm, about 15
+        minutes.
+    - id: shell
+      title: Blind-bake the crust
+      text: >-
+        Heat the oven to 425°F. Line the crust with parchment, fill it with pie weights and bake on
+        the lower rack until the edge is just set, about 15 minutes. Lift out the weights and
+        parchment, cover the rim with foil and bake until the bottom looks dry but not browned,
+        about 15 minutes more. Cool on a rack and lower the oven to 350°F.
     - id: custard
-      title: Mix custard
-      text: >-
-        Whisk {{ingredients}} into all the cooled cider reduction: start with
-        sugar, sour cream and salt, then whisk in all the eggs until smooth.
-        Keep raw-egg tools separate from the clean topping utensils.
+      title: Mix the custard
+      text: 'Whisk {{ingredients}} into the cooled cider, adding the eggs last, until smooth.'
     - id: bake
-      title: Bake custard
+      title: Bake the pie
       text: >-
-        Pour all the custard into the cooled shell, keeping the foil edge shield
-        in place. Bake in the lower third at 350°F, starting checks around 35–40
-        minutes for the original pie. The edges should be set while the center
-        moves slightly as one area, not sloshes. Probe the central custard for
-        at least 160°F / 71°C and continue gently if needed. Shield browned
-        pastry rather than stopping with an undercooked center.
+        Pour the custard into the crust, keeping the foil on the rim. Bake on the lower rack until
+        the edge is set and the center jiggles slightly as one piece when you nudge the pan, 35 to
+        40 minutes.
     - id: chill
-      title: Cool and chill
+      title: Chill
       text: >-
-        Cool briefly on a rack, then refrigerate within 2 hours after baking, or
-        1 hour above 90°F / 32°C. Continue chilling until completely cold and
-        set through the center; do not wait for several hours on the counter.
-        Cooling and refrigerator performance determine the actual elapsed time.
+        Cool the pie on a rack for 1 hour, then refrigerate until cold and fully set, at least 3
+        hours.
     - id: finish
-      title: Whip and finish
+      title: Top with cinnamon cream
       text: >-
-        Beat {{ingredients}} with clean tools until firm peaks form. Spread all
-        the cream over the fully cold pie shortly before serving, then keep it
-        refrigerated until needed.
+        Just before serving, beat {{ingredients}} until firm peaks form. Spread the cream over the
+        cold pie.
 ---
 
 ## Chef's Note
 
-Reduce the cider to one-quarter of its starting volume, then cool it before whisking in the sour cream and eggs. The pastry has two stages at 425°F before the custard bake at 350°F. A gently moving center still needs the thermometer check, and the pie finishes setting as it chills.
+This Food & Wine pie is a fall custard pie made from apple cider boiled down to a tart, concentrated syrup and set with eggs and sour cream in a flaky crust. A little vinegar in the dough keeps it tender, and the cinnamon whipped cream on top softens the cider's tang.
 
 ## Directions
 
-1. **Make and chill dough:** Pulse all-purpose flour, cornstarch, granulated sugar, kosher salt, unsalted butter, cold milk, and apple cider vinegar as follows: combine flour, cornstarch, crust sugar and crust salt, then pulse in all the cold butter until coarse meal with visible butter pieces remains. Mix all milk and vinegar, drizzle over the flour and pulse briefly until the dough holds together when pressed. Gather into a disk, wrap and refrigerate for 30 minutes.
-2. **Shape and blind-bake:** Use all-purpose flour lightly on the work surface. For the original batch, roll an 11-inch circle and fit a 9-inch oven-safe pie plate, folding under the overhang and crimping. Chill until firm, about 15 minutes. Heat the oven to 425°F. Line with oven-rated parchment and pie weights; bake in the lower third about 15 minutes until barely set. Carefully remove weights and parchment, shield the edge with foil and bake about 15 minutes more at 425°F until set but not browned. Gently deflate any puffed base and let the shell cool. Reduce the oven to 350°F.
-3. **Reduce and cool cider:** Boil apple cider in a saucepan until one-quarter of its starting volume remains: 1/2 cup for the original 2-cup batch, scaled proportionally. Measure the reduction rather than relying on a roughly 10–12-minute estimate; pan width and batch size alter evaporation. Transfer to a bowl and cool completely before adding eggs.
-4. **Mix custard:** Whisk granulated sugar, sour cream, salt, and large eggs into all the cooled cider reduction: start with sugar, sour cream and salt, then whisk in all the eggs until smooth. Keep raw-egg tools separate from the clean topping utensils.
-5. **Bake custard:** Pour all the custard into the cooled shell, keeping the foil edge shield in place. Bake in the lower third at 350°F, starting checks around 35–40 minutes for the original pie. The edges should be set while the center moves slightly as one area, not sloshes. Probe the central custard for at least 160°F / 71°C and continue gently if needed. Shield browned pastry rather than stopping with an undercooked center.
-6. **Cool and chill:** Cool briefly on a rack, then refrigerate within 2 hours after baking, or 1 hour above 90°F / 32°C. Continue chilling until completely cold and set through the center; do not wait for several hours on the counter. Cooling and refrigerator performance determine the actual elapsed time.
-7. **Whip and finish:** Beat heavy cream, granulated sugar, and ground cinnamon with clean tools until firm peaks form. Spread all the cream over the fully cold pie shortly before serving, then keep it refrigerated until needed.
+1. **Make the dough:** Pulse all-purpose flour, cornstarch, granulated sugar, kosher salt, and unsalted butter in a food processor until the mixture looks like coarse meal with pea-size bits of butter.
+2. **Add the liquid:** Stir cold milk and apple cider vinegar together. Drizzle over the flour mixture and pulse just until the dough holds together when pinched. Shape it into a disk, wrap and chill for 30 minutes.
+3. **Reduce the cider:** While the dough chills, boil fresh apple cider in a saucepan over high heat until it has reduced to a quarter of its volume, 10 to 12 minutes. Pour it into a bowl and let it cool completely.
+4. **Roll the crust:** Dust the counter with all-purpose flour and roll the dough into an 11-inch round. Fit it into a 9-inch pie plate, fold the overhang under and crimp the edge. Chill until firm, about 15 minutes.
+5. **Blind-bake the crust:** Heat the oven to 425°F. Line the crust with parchment, fill it with pie weights and bake on the lower rack until the edge is just set, about 15 minutes. Lift out the weights and parchment, cover the rim with foil and bake until the bottom looks dry but not browned, about 15 minutes more. Cool on a rack and lower the oven to 350°F.
+6. **Mix the custard:** Whisk granulated sugar, sour cream, salt, and large eggs into the cooled cider, adding the eggs last, until smooth.
+7. **Bake the pie:** Pour the custard into the crust, keeping the foil on the rim. Bake on the lower rack until the edge is set and the center jiggles slightly as one piece when you nudge the pan, 35 to 40 minutes.
+8. **Chill:** Cool the pie on a rack for 1 hour, then refrigerate until cold and fully set, at least 3 hours.
+9. **Top with cinnamon cream:** Just before serving, beat heavy cream, granulated sugar, and ground cinnamon until firm peaks form. Spread the cream over the cold pie.

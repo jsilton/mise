@@ -30,107 +30,48 @@ vibe: quick
 prepTime: 5 min
 cookTime: 30 min
 totalTime: 35 min
-servings: 1.5 cups
+servings: 1 1/4 cups
 pairsWith:
-  - instant-pot-butternut-squash-soup
-  - healthy-carrot-cake-muffins-with-cream-cheese-glaze
-  - honey-lime-chicken-thighs
+  - turkey-burgers
+  - sweet-potato-fries
+  - air-fryer-chicken-tenders
+pairingNotes:
+  turkey-burgers: The classic burger condiment, without the sugar.
+  sweet-potato-fries: For dipping.
+  air-fryer-chicken-tenders: A sugar-free dip the kids already know.
 ingredients:
-  - 14 oz (400g) Tomato Passata or Crushed Tomatoes
-  - 3 tbsp Red Wine Vinegar (The Finishing Touch)
-  - '2 tbsp Allulose, or a 1:1 monk fruit sweetener blend, adjusted to taste'
-  - '1 clove Garlic, smashed'
-  - 1/4 tsp Dijon Mustard
-  - 1/4 tsp Onion Powder
-  - Pinch of Ground Allspice
-  - Pinch of Cinnamon
-  - Salt and Black Pepper to taste
-source: Adapted from Sugarfreelondoner.com
-sourceUrl: 'http://sugarfreelondoner.com/sugar-free-ketchup/'
+  - 14 oz (400 g) tomato passata or crushed tomatoes
+  - 3 tbsp red wine vinegar, plus more to taste
+  - '2 tbsp allulose or 1:1 monk fruit sweetener, plus more to taste'
+  - '1 clove garlic, smashed'
+  - 1/4 tsp Dijon mustard
+  - 1/4 tsp onion powder
+  - pinch of ground allspice
+  - pinch of ground cinnamon
+  - salt and black pepper, to taste
+source: Adapted from Sugar Free Londoner
+sourceUrl: 'https://sugarfreelondoner.com/sugar-free-ketchup/'
 learning:
-  focus: Reduce gently and distinguish the two garlic routes
-  outcome: >-
-    A smooth tomato condiment with the original full vinegar and a sugar-free
-    sweetness that makes it taste like ketchup rather than tomato sauce.
   techniques:
     - temperature
-  before:
-    - >-
-      Use vessels with room for the full listed batch plus stirring or bubbling.
-      For larger batches use enough vessels and divide all ingredients
-      proportionally. Temperatures do not scale and heating/reduction times are
-      not linear.
-    - >-
-      Choose the current whole-clove infusion or the mashed-garlic option before
-      cooking. Neither vinegar volume nor a long simmer establishes a
-      shelf-stable preservation process.
-  checkpoints:
-    - step: 2
-      cue: Sauce thickens without sticking or scorching.
-      why: >-
-        Water content and pan area affect reduction, so use texture as well as
-        the first clock.
-    - step: 3
-      cue: Sauce temperature and vessel meet the actual blender instructions.
-      why: An immersion blender is not permission to blend every hot load.
-  timing: >-
-    About 5 minutes preparation plus roughly 30 minutes gentle reduction for the
-    original batch; blending and prompt packaging add time. Larger pots do not
-    guarantee the same elapsed clock.
   substitutions:
-    - ingredient: Allulose
-      alternative: >-
-        A 1:1 monk fruit and erythritol blend from the supermarket, in the same
-        amount. For a no-sweetener version, omit it and stir in 1 tbsp tomato
-        paste with a second pinch of allspice.
-      effect: >-
-        The monk fruit blend is close in sweetness but can taste slightly
-        cooling. The no-sweetener route is deeper and more savory but will not
-        taste like classic ketchup.
-    - ingredient: Mashed-garlic original
-      alternative: >-
-        Mash the full listed garlic clove amount before adding it in step 1.
-        Keep all that garlic in the sauce through reduction and optional
-        model-permitted immersion blending; omit the whole-clove removal. Keep
-        every other listed quantity and the same storage handling.
-      effect: >-
-        The saved source includes its mashed garlic; the current removed-clove
-        main gives a subtler infusion.
-  storage: >-
-    Refrigerate promptly at 40°F /4°C or below, within 2 hours of preparation or
-    1 hour above 90°F /32°C. Use within 3–4 days or freeze small portions
-    promptly; thaw in the refrigerator. When reheating stored sauce, bring it to
-    a rolling boil while stirring.
-  troubleshooting:
-    - problem: The ketchup sticks before it becomes smooth
-      cause: Heat is too high or the sauce is reducing in a wide or shallow vessel.
-      fix: >-
-        Lower the heat and stir/scrape more frequently; stop at the desired
-        thickness instead of insisting on a fixed thirty-minute reduction.
-  sources:
-    - title: Sugar Free Londoner — Ketchup
-      url: 'https://sugarfreelondoner.com/sugar-free-ketchup/'
-    - title: USDA — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    - ingredient: Allulose or monk fruit sweetener
+      alternative: 1 tbsp tomato paste and an extra pinch of allspice
+      effect: A no-sweetener ketchup that is deeper and more savory, but less like the classic.
+  storage: Refrigerate in a jar for up to 2 weeks, or freeze in small portions for 3 months.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This tomato ketchup uses red wine vinegar and a sugar-free sweetener. Without some sweetness the reduced tomato and vinegar taste like a sharp tomato sauce, not ketchup. Stir during the gentle reduction and stop when it has the thickness you want; different tomato products lose water at different rates. The whole-clove infusion and mashed-garlic version are separate choices.
+A sugar-free ketchup made by slowly reducing tomato passata with red wine vinegar, garlic and warm spices. A little allulose or monk fruit gives it the sweetness that makes it taste like ketchup instead of tomato sauce. Keep the heat low so it thickens without scorching.
 
 ## Directions
 
-1. **Combine:** In a nonreactive saucepan with room to stir the entire batch, combine all the listed tomatoes, red wine vinegar, sweetener, smashed garlic, Dijon, onion powder, allspice and cinnamon, plus the salt and pepper to taste. Keep the garlic clove intact enough to find for the current infusion route.
-2. **Reduce:** Bring to a tiny simmer over low heat. Stir frequently and scrape the bottom, beginning consistency checks around 30 minutes for the original batch. Stop when thickened to the texture you want; actual tomato water content and pan size change the clock. Taste and adjust with a little more sweetener or a splash more vinegar until it tastes balanced.
-3. **Choose texture:** Remove the whole smashed garlic clove for the current subtle infusion. If smoothing is needed, take the pan off heat and cool until the food temperature and vessel are permitted by the actual immersion blender's instructions. Keep its blade submerged and guard against splashes. Do not use a sealed blending cup for hot sauce.
-4. **Cool and store:** Divide into shallow heatproof containers and refrigerate promptly within 2 hours, or 1 hour above 90°F /32°C; do not wait for a large pot to cool completely on the counter. Keep covered at 40°F /4°C or below and use within 3–4 days, or freeze small portions promptly. Thaw in the refrigerator. When reheating stored sauce, bring it to a rolling boil while stirring.
-
-## Cooking Notes
-
-For fresh tomatoes, blanch briefly to loosen the skins, peel, remove the tough stem cores and chop. Expect the simmering time to vary with their water content.
+1. **Combine:** In a small nonreactive saucepan, whisk the tomatoes, vinegar, sweetener, garlic, mustard, onion powder, allspice and cinnamon. Season with a little salt and pepper.
+2. **Reduce:** Bring to a bare simmer over low heat. Cook, stirring often and scraping the bottom, until thick and dark red, about 30 minutes.
+3. **Season:** Remove the garlic clove. Taste and add more sweetener, vinegar or salt until it tastes balanced.
+4. **Blend:** Off the heat, blend with an immersion blender until smooth and glossy.
+5. **Cool:** Let the ketchup cool, then spoon it into a jar and refrigerate.

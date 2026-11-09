@@ -19,9 +19,9 @@ cuisines:
   - Chinese
 role: main
 vibe: quick
-prepTime: About 20 min active preparation
-cookTime: About 10–15 min after blanching water is hot
-totalTime: About 30–40 min; water heating may add time
+prepTime: 20 min
+cookTime: 15 min
+totalTime: 35 min
 servings: 2 portions
 seasons:
   - year-round
@@ -30,17 +30,20 @@ leftovers: good
 equipment:
   - wok
 pairsWith:
-  - basmati-rice
-  - lo-mein
+  - steamed-white-rice
+  - smashed-cucumber-salad
+pairingNotes:
+  steamed-white-rice: Plain rice to soak up the dark gravy.
+  smashed-cucumber-salad: 'Cool, garlicky crunch against the salty black beans.'
 ingredients:
   - '--- Shrimp and pork ---'
-  - '12 oz shrimp, raw, peeled and deveined, 21/25 size'
+  - '12 oz shrimp, 21 to 25 count, peeled and deveined'
   - 4 oz ground pork
-  - 'water, enough to cover pork for blanching'
+  - 'water, for blanching the pork'
   - 2 tbsp vegetable oil
   - '1 garlic clove, minced'
   - '1/4 tsp fresh ginger, minced'
-  - '1 1/2 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed slightly'
+  - '1 1/2 tbsp fermented black beans (douchi), rinsed and lightly mashed'
   - '1/4 cup green bell pepper, finely diced'
   - 1 tbsp Shaoxing wine
   - '--- Stock mixture ---'
@@ -53,12 +56,11 @@ ingredients:
   - '--- Slurry ---'
   - 2 tbsp cornstarch
   - 3 tbsp cold water
-  - 'additional water or chicken stock, a little at a time only if needed to loosen sauce, optional'
   - '--- Egg and scallion ---'
   - '1 large egg, beaten'
-  - '1 scallion, washed and chopped'
+  - '1 scallion, chopped'
 origin: China
-source: Adapted from thewoksoflife.com
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/shrimp-black-bean-sauce/'
 formula:
   version: 1
@@ -76,9 +78,9 @@ formula:
             amount: 12
             unit: oz
           uses:
-            - step: sear
+            - step: shrimp
               share: 1
-          preparation: 'raw, peeled and deveined, 21/25 size'
+          preparation: '21 to 25 count, peeled and deveined'
         - id: pork
           key: pork
           name: ground pork
@@ -91,9 +93,9 @@ formula:
         - id: blanch-water
           key: blanch-water
           name: water
-          allowance: enough to cover pork for blanching
+          allowance: for blanching the pork
           uses:
-            - step: blanch
+            - step: boil
               share: 1
           role: cooking-water
         - id: oil
@@ -135,7 +137,7 @@ formula:
           uses:
             - step: sear
               share: 1
-          preparation: 'quickly rinsed, drained and mashed slightly'
+          preparation: rinsed and lightly mashed
         - id: pepper
           key: pepper
           name: green bell pepper
@@ -153,7 +155,7 @@ formula:
             amount: 1
             unit: tbsp
           uses:
-            - step: sear
+            - step: shrimp
               share: 1
     - id: sauce
       name: Stock mixture
@@ -235,14 +237,6 @@ formula:
             - step: bind
               share: 1
           role: cooking-water
-        - id: extra
-          key: extra
-          name: additional water or chicken stock
-          allowance: a little at a time only if needed to loosen sauce
-          uses:
-            - step: bind
-              share: 1
-          optional: true
     - id: finish
       name: Egg and scallion
       ingredients:
@@ -267,125 +261,77 @@ formula:
             - step: serve
               share: 1
           plural: scallions
-          preparation: washed and chopped
+          preparation: chopped
   steps:
     - id: prep
-      title: Prepare
-      text: >-
-        Rinse the black beans and mash slightly. Whisk {{ingredients}}. Have all aromatics chopped
-        and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry
-        cornstarch and cold water until smooth; keep it separate from the stock mixture.
+      title: Mix the sauce
+      text: 'Whisk {{ingredients}} in a bowl and set it by the stove.'
+    - id: boil
+      title: Boil the water
+      text: 'Bring {{ingredients}} to a boil in the wok.'
     - id: blanch
-      title: Blanch pork
+      title: Blanch the pork
       text: >-
-        Prepare {{ingredients}}. Bring enough water to cover the pork to a boil, then add the pork,
-        breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further
-        cooking; this blanch is not the final doneness check. Empty and dry the wok before adding
-        oil.
+        Add {{ingredients}} and break it into small crumbles. Boil until it is no longer pink, about
+        1 minute. Drain the pork and wipe the wok dry. Blanching keeps the sauce clear.
     - id: sear
-      title: Cook aromatics and start shrimp
+      title: Fry the aromatics
       text: >-
-        Use {{ingredients}}: heat the oil over medium-high heat, then sauté garlic, ginger, peppers,
-        black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and
-        stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do
-        not establish doneness.
-    - id: simmer
-      title: Heat stock mixture
-      text: 'Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.'
+        Heat the wok over medium-high heat. Add {{ingredients}}, then the blanched pork. Stir-fry
+        until fragrant, about 30 seconds.
+    - id: shrimp
+      title: Add the shrimp
+      text: 'Add {{ingredients}} and stir-fry for 30 seconds.'
     - id: bind
-      title: Thicken gradually
+      title: Thicken the sauce
       text: >-
-        Use {{ingredients}}. Re-stir the prepared slurry, then add it gradually while stirring the
-        simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin
-        with a little water or stock if needed. Keep unused raw-contact slurry separate from
-        ready-to-eat food and discard it after cooking.
+        Pour in the sauce and bring it to a boil. Stir {{ingredients}} together until smooth, then
+        stir it into the boiling sauce a little at a time until the sauce coats a spoon. You may not
+        need all of it. If the sauce gets too thick, add a splash of water.
     - id: egg
-      title: Set egg ribbons
+      title: Make the egg ribbons
       text: >-
-        Keep the sauce at a gentle simmer. Pour {{ingredients}} across the surface and let the
-        ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce
-        reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is
-        not a doneness test.
+        Lower the heat to a gentle simmer. Drizzle the beaten {{ingredients}} across the surface and
+        let it set for 10 seconds, then fold once or twice. Simmer until the shrimp are opaque all
+        the way through, about 1 minute.
     - id: serve
       title: Serve
-      text: >-
-        Garnish with {{ingredients}} and serve immediately over separately prepared steamed jasmine
-        rice if wanted.
+      text: 'Scatter {{ingredients}} over the top and serve right away.'
 learning:
-  focus: Control gradual slurry thickening without shortening pork and egg cooking
-  outcome: Cooked shrimp in a dark spoon-coating gravy with set egg ribbons.
   techniques:
     - starch
     - gentle-proteins
-  before:
-    - >-
-      Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag
-      in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.
-    - >-
-      Keep stock mixture and measured slurry in separate bowls; re-stir slurry immediately before
-      use.
-    - >-
-      Scale all sauce amounts together; use adequate pan working space or complete separate loads.
-      Beat a fractional egg before measuring its portion.
-  checkpoints:
-    - step: 2
-      cue: Pork is broken into small crumbles and moves directly to further cooking.
-      why: The one-minute blanch is not a final safety endpoint.
-    - step: 5
-      cue: Hot sauce coats a spoon before the entire slurry is necessarily added.
-      why: The measured maximum slurry may thicken more than wanted.
-    - step: 6
-      cue: 'The pork and egg sauce has reached 160°F, and the shrimp centers are pearly and opaque.'
-      why: Ten seconds or pink outer shrimp alone cannot replace these checks.
-  troubleshooting:
-    - problem: Sauce gets too thick
-      cause: The full slurry was added faster than its effect could be judged.
-      fix: >-
-        Add the listed optional water or stock a little at a time; next time stop adding slurry at
-        spoon-coating consistency.
   substitutions:
-    - ingredient: Fermented black beans
+    - ingredient: fermented black beans (douchi)
       alternative: 2 tbsp jarred black bean garlic sauce
       effect: >-
-        Easier to find and already mashed, with added garlic and salt. Cut the oyster sauce to 2 tsp
-        to offset its salt, then adjust to taste after the sauce thickens.
-  timing: >-
-    About 20 min active preparation; About 10–15 min after blanching water is hot; About 30–40 min;
-    water heating may add time. Planning ranges assume peeled, thawed shrimp and prepared
-    ingredients; additional loads or side dishes add time.
-  storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
-    above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F
-    / 74°C throughout. USDA additionally recommends bringing leftover sauces and gravies to a
-    rolling boil; stir so heat reaches the whole gravy and stop after that brief boil rather than
-    reducing it for a long time. Prolonged boiling can concentrate the gravy and firm the shrimp and
-    egg ribbons. These are handling recommendations, not a promise of unchanged texture.
-  sources:
-    - title: Adapted from thewoksoflife.com
-      url: 'https://thewoksoflife.com/shrimp-black-bean-sauce/'
-    - title: FDA — Selecting and serving seafood safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FoodSafety.gov — Safe minimum cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Handling leftovers safely
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+        Easier to find and already mashed, with garlic and salt added. Cut the oyster sauce to 2 tsp
+        when you use it.
+    - ingredient: Shaoxing wine
+      alternative: Dry sherry
+      effect: 'Use the same amount. Skip cooking sherry, which is salted.'
+    - ingredient: dark soy sauce
+      alternative: Molasses
+      effect: >-
+        Use the same amount. It gives the same dark color with a little more sweetness and less
+        salt.
+  storage: 'Keeps 3 days in the fridge. Reheat gently over medium-low heat, stirring, until hot through.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Fermented black beans season this dark gravy, which also contains ground pork and egg ribbons. Blanching the pork is a preliminary preparation step; it still cooks in the sauce. Re-stir the measured slurry and add it gradually, then let egg ribbons set before folding gently.
+This is The Woks of Life's take on a Cantonese restaurant classic. Fermented black beans fried with garlic and ginger give the gravy its deep, salty savor, and a beaten egg drizzled in at the end sets into silky ribbons. Blanching the pork first keeps the sauce clean instead of cloudy.
 
 ## Directions
 
-1. **Prepare:** Rinse the black beans and mash slightly. Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper. Have all aromatics chopped and shrimp prepared before pan cooking. In a separate bowl, stir the measured slurry cornstarch and cold water until smooth; keep it separate from the stock mixture.
-2. **Blanch pork:** Prepare ground pork and water. Bring enough water to cover the pork to a boil, then add the pork, breaking up clumps, and blanch for about 1 minute. Drain and set aside for immediate further cooking; this blanch is not the final doneness check. Empty and dry the wok before adding oil.
-3. **Cook aromatics and start shrimp:** Use shrimp, vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), green bell pepper, and Shaoxing wine: heat the oil over medium-high heat, then sauté garlic, ginger, peppers, black beans and the blanched pork for about 30 seconds. Add shrimp and Shaoxing wine and stir-fry about 30 seconds. Continue immediately into the sauce stage; these brief stages do not establish doneness.
-4. **Heat stock mixture:** Pour in all the stock mixture and bring to a rapid boil, then reduce to a simmer.
-5. **Thicken gradually:** Use cornstarch, cold water, and additional water or chicken stock (if using). Re-stir the prepared slurry, then add it gradually while stirring the simmering sauce. Stop when the sauce coats a spoon; you may not need all the slurry. Thin with a little water or stock if needed. Keep unused raw-contact slurry separate from ready-to-eat food and discard it after cooking.
-6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg across the surface and let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have pearly, opaque flesh. Ten seconds alone is not a doneness test.
-7. **Serve:** Garnish with scallion and serve immediately over separately prepared steamed jasmine rice if wanted.
+1. **Mix the sauce:** Whisk chicken stock, oyster sauce, dark soy sauce, toasted sesame oil, sugar, and white pepper in a bowl and set it by the stove.
+2. **Boil the water:** Bring water to a boil in the wok.
+3. **Blanch the pork:** Add ground pork and break it into small crumbles. Boil until it is no longer pink, about 1 minute. Drain the pork and wipe the wok dry. Blanching keeps the sauce clear.
+4. **Fry the aromatics:** Heat the wok over medium-high heat. Add vegetable oil, garlic clove, fresh ginger, fermented black beans (douchi), and green bell pepper, then the blanched pork. Stir-fry until fragrant, about 30 seconds.
+5. **Add the shrimp:** Add shrimp and Shaoxing wine and stir-fry for 30 seconds.
+6. **Thicken the sauce:** Pour in the sauce and bring it to a boil. Stir cornstarch and cold water together until smooth, then stir it into the boiling sauce a little at a time until the sauce coats a spoon. You may not need all of it. If the sauce gets too thick, add a splash of water.
+7. **Make the egg ribbons:** Lower the heat to a gentle simmer. Drizzle the beaten large egg across the surface and let it set for 10 seconds, then fold once or twice. Simmer until the shrimp are opaque all the way through, about 1 minute.
+8. **Serve:** Scatter scallion over the top and serve right away.

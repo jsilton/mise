@@ -29,18 +29,17 @@ cuisines:
 role: side
 vibe: nutritious
 prepTime: 10 min
-cookTime: 15–20 min
-totalTime: About 40 min (includes 10 min pan cooling)
+cookTime: 18 min
+totalTime: '30 min, plus 10 min cooling'
 servings: 12 pieces
 pairsWith:
-  - blueberry-banana-pancake-muffins
-  - blueberry-oat-breakfast-bars
-  - freezer-date-cookies
+  - breakfast-egg-cups
+pairingNotes:
+  breakfast-egg-cups: Make-ahead eggs for a grab-and-go breakfast.
 ingredients:
-  - '--- Batter ---'
-  - 'cooking spray, for greasing the muffin cups or paper liners'
+  - 'cooking spray, for the pan'
   - 1 cup plain full-fat Greek yogurt
-  - '2 large ripe bananas, peeled and mashed'
+  - '2 large ripe bananas, peeled'
   - 2 cups rolled oats
   - 2 large eggs
   - 1/4 cup brown sugar
@@ -49,10 +48,10 @@ ingredients:
   - 1/2 tsp kosher salt
   - 1 tsp vanilla extract
   - 1/2 cup dark chocolate chips
-  - 'additional chocolate chips, for sprinkling over the tops, optional'
+  - 'more chocolate chips, for the tops, optional'
 origin: United States
-source: Adapted from Runningwithspoons.com
-sourceUrl: 'http://www.runningwithspoons.com/2014/06/24/banana-oat-greek-yogurt-muffins/'
+source: Adapted from Running with Spoons
+sourceUrl: 'https://www.runningwithspoons.com/2014/06/24/banana-oat-greek-yogurt-muffins/'
 rating: 5
 formula:
   version: 1
@@ -66,7 +65,7 @@ formula:
         - id: pan-spray
           key: pan-spray
           name: cooking spray
-          allowance: for greasing the muffin cups or paper liners
+          allowance: for the pan
           uses:
             - step: prepare
               share: 1
@@ -86,7 +85,7 @@ formula:
           quantity:
             amount: 2
             unit: count
-          preparation: peeled and mashed
+          preparation: peeled
           uses:
             - step: blend
               share: 1
@@ -165,8 +164,8 @@ formula:
               share: 1
         - id: extra-chips
           key: extra-chips
-          name: additional chocolate chips
-          allowance: for sprinkling over the tops
+          name: more chocolate chips
+          allowance: for the tops
           optional: true
           role: garnish
           uses:
@@ -174,112 +173,48 @@ formula:
               share: 1
   steps:
     - id: prepare
-      title: Preheat and prepare the pan
+      title: Heat the oven
       text: >-
-        Preheat the oven to 400°F before blending. For the original batch, prepare a standard 12-cup
-        muffin pan with {{ingredients}}. For different quantities, prepare more or fewer standard
-        cups, keeping the same three-quarter fill; additional tins or oven batches may be needed. If
-        using paper liners, spray the liners too so this batter releases more easily.
+        Heat the oven to 400°F. Coat a 12-cup muffin pan with {{ingredients}}. If you use paper
+        liners, spray them too.
     - id: blend
-      title: Blend the oat batter
+      title: Blend the batter
       text: >-
-        Put the {{ingredients}} in a blender or food processor. Process until the oats are finely
-        broken down and the batter is smooth and creamy, starting with about 1 minute. Stop and
-        scrape safely as needed; use the texture rather than a fixed blending clock. For a larger
-        batch, blend separately so the machine is not overfilled.
+        Put {{ingredients}} in a blender or food processor. Blend on high, scraping down once, until
+        the oats are ground fine and the batter is smooth and creamy, about 1 minute.
     - id: chips
-      title: Fold in the chips
-      text: 'Stir in the {{ingredients}} by hand so they remain as pieces.'
+      title: Stir in the chips
+      text: 'Stir in {{ingredients}} by hand.'
     - id: portion
-      title: Fill the muffin cups
-      text: >-
-        Divide the batter among the prepared cups, about three-quarters full. If the banana size
-        leaves extra batter, use additional prepared cups rather than overfill. Add {{ingredients}}
-        over the tops, then bake promptly.
+      title: Fill the cups
+      text: 'Fill the cups three-quarters full. Sprinkle {{ingredients}} over the tops.'
     - id: bake
-      title: Bake and cool
+      title: Bake
       text: >-
-        Bake for about 15–20 minutes until the tops are set and a tester through the central crumb
-        has no wet batter. Melted chocolate on the tester is different from uncooked batter; check
-        another spot if needed. Cool in the pan on a rack for 10 minutes, then remove carefully to a
-        rack. Cool completely before packing.
+        Bake until the tops are golden and spring back when pressed and a toothpick in the center
+        comes out free of wet batter, 15 to 18 minutes.
+    - id: cool
+      title: Cool
+      text: 'Cool in the pan for 10 minutes, then move the muffins to a rack.'
 learning:
-  focus: Blend the oats finely while keeping the chocolate chips intact.
-  outcome: 'Moist banana-oat muffins with a set center, finely blended oats and distinct chocolate chips.'
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Preheat to 400°F and prepare standard muffin cups before blending. Spray paper liners as well
-      as bare cups because the batter has no separately added oil.
-    - >-
-      Use full-fat plain Greek yogurt and the listed bananas; extra batter needs additional cups,
-      not deeper fills.
-    - >-
-      Keep the chips out of the blender and respect the machine’s capacity when increasing the
-      batch.
-  checkpoints:
-    - step: 2
-      cue: The batter is creamy and the oats are finely broken down.
-      why: >-
-        Blending texture determines whether coarse oat pieces remain; one minute is only a starting
-        point.
-    - step: 3
-      cue: Chocolate chips are distributed as pieces.
-      why: Hand folding keeps them from being pulverized through the batter.
-    - step: 5
-      cue: The central crumb is set with no wet batter; a chocolate streak alone is not raw batter.
-      why: Color and top springiness alone can hide a soft center.
-  troubleshooting:
-    - problem: Oat pieces stay gritty
-      cause: Blending stopped before the oats were finely broken down.
-      fix: >-
-        For the next batch scrape the machine safely and continue to a creamy texture; do not try to
-        fix it by adding more leavener.
-    - problem: Muffins tear against paper
-      cause: Liners were dry or the muffins are still warm.
-      fix: Spray liners before filling next time and cool this batch before peeling.
-    - problem: Tops are set but centers are wet
-      cause: Cups were overfilled or the oven/batter conditions slowed baking.
-      fix: Continue baking and test the crumb again; use additional cups for extra batter next time.
-  substitutions:
-    - ingredient: Dark chocolate chips
-      alternative: 'Semisweet chocolate chips, using the same listed amount'
-      effect: The flavor is sweeter; keep the chips out of the blender.
-    - ingredient: Rolled oats
-      alternative: Quick oats at the same listed volume
-      effect: >-
-        Both blend into this batter; process until finely broken down. Steel-cut oats do not have
-        the same preparation.
-  timing: >-
-    Allow about 40 minutes: around 10 minutes preparation, 15–20 minutes baking and 10 minutes pan
-    cooling, with preheating during setup. Complete rack cooling before storage takes longer. More
-    cups, machine batches or oven batches extend the schedule.
-  storage: >-
-    Cool completely, then keep airtight in the refrigerator for up to a week. Freeze airtight for
-    longer storage, separating individual muffins before packing. Thaw wrapped and warm gently
-    before serving; sealed warm muffins collect condensation.
-  sources:
-    - title: 'Amanda — Banana Oat Greek Yogurt Muffins, Running with Spoons'
-      url: 'https://www.runningwithspoons.com/banana-oat-greek-yogurt-muffins/'
-    - title: 'Annabelle Shippee — How can I freeze my bread?, King Arthur Baking'
-      url: 'https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread'
-    - title: FDA — Are You Storing Food Safely?
-      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
+  storage: 'Keep airtight in the fridge for a week, or freeze for 3 months. Warm briefly before serving.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-These banana muffins blend rolled oats with Greek yogurt and eggs, then fold in chocolate chips by hand. The oat batter makes a moist, somewhat dense crumb. Break the oats down finely, check the center after baking and cool before removing the muffins from their liners.
+Rolled oats blend into a flour right in the batter, so these banana muffins need no wheat flour at all. Greek yogurt keeps them moist and adds protein. They are dense, tender and lightly sweet, and they freeze well for school mornings.
 
 ## Directions
 
-1. **Preheat and prepare the pan:** Preheat the oven to 400°F before blending. For the original batch, prepare a standard 12-cup muffin pan with cooking spray. For different quantities, prepare more or fewer standard cups, keeping the same three-quarter fill; additional tins or oven batches may be needed. If using paper liners, spray the liners too so this batter releases more easily.
-2. **Blend the oat batter:** Put the plain full-fat Greek yogurt, large ripe bananas, rolled oats, large eggs, brown sugar, baking powder, baking soda, kosher salt, and vanilla extract in a blender or food processor. Process until the oats are finely broken down and the batter is smooth and creamy, starting with about 1 minute. Stop and scrape safely as needed; use the texture rather than a fixed blending clock. For a larger batch, blend separately so the machine is not overfilled.
-3. **Fold in the chips:** Stir in the dark chocolate chips by hand so they remain as pieces.
-4. **Fill the muffin cups:** Divide the batter among the prepared cups, about three-quarters full. If the banana size leaves extra batter, use additional prepared cups rather than overfill. Add additional chocolate chips (if using) over the tops, then bake promptly.
-5. **Bake and cool:** Bake for about 15–20 minutes until the tops are set and a tester through the central crumb has no wet batter. Melted chocolate on the tester is different from uncooked batter; check another spot if needed. Cool in the pan on a rack for 10 minutes, then remove carefully to a rack. Cool completely before packing.
+1. **Heat the oven:** Heat the oven to 400°F. Coat a 12-cup muffin pan with cooking spray. If you use paper liners, spray them too.
+2. **Blend the batter:** Put plain full-fat Greek yogurt, large ripe bananas, rolled oats, large eggs, brown sugar, baking powder, baking soda, kosher salt, and vanilla extract in a blender or food processor. Blend on high, scraping down once, until the oats are ground fine and the batter is smooth and creamy, about 1 minute.
+3. **Stir in the chips:** Stir in dark chocolate chips by hand.
+4. **Fill the cups:** Fill the cups three-quarters full. Sprinkle more chocolate chips (if using) over the tops.
+5. **Bake:** Bake until the tops are golden and spring back when pressed and a toothpick in the center comes out free of wet batter, 15 to 18 minutes.
+6. **Cool:** Cool in the pan for 10 minutes, then move the muffins to a rack.

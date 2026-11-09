@@ -5,40 +5,41 @@ role: main
 vibe: quick
 difficulty: easy
 prepTime: 15 min
-cookTime: 15 min
-totalTime: 30 min
+cookTime: 20 min
+totalTime: 35 min
 servings: 6 portions
 cookingMethods:
   - saute
 categories:
   - Dinner
   - Mexican
-source: Cleanfoodcrush.com
+source: Adapted from Clean Food Crush
 ingredients:
-  - '--- Main recipe ---'
   - 2 tsp avocado or olive oil
   - '1 yellow onion, diced'
-  - 1 lb ground grass-fed beef or ground turkey
-  - '1 medium yellow squash, chopped'
-  - '1 medium zucchini, chopped'
+  - 1 lb ground beef
   - 2 tsp ground cumin
   - 1 tsp paprika
   - 1 tsp garlic powder
   - 1 tsp sea salt
-  - 1/2 tsp freshly ground black pepper
-  - 1/2 cup fresh corn kernels
-  - >-
-    1 cup cooked black beans, rinsed and drained if canned; measure the prepared
-    beans
-  - '4 sprouted corn tortillas, sliced into strips'
-  - 12 oz enchilada sauce
-  - '1/2 cup grated mozzarella or Colby Jack, optional'
-  - >-
-    fresh cilantro or green onions, as desired for garnish, washed and chopped,
-    optional
+  - 1/2 tsp black pepper
+  - '1 medium yellow squash, chopped'
+  - '1 medium zucchini, chopped'
+  - 1/2 cup fresh or frozen corn kernels
+  - '1 cup cooked black beans, rinsed and drained'
+  - 1 1/2 cups red enchilada sauce
+  - '4 corn tortillas, cut into strips'
+  - '1/2 cup Colby Jack or mozzarella, shredded, optional'
+  - 'fresh cilantro or scallions, for garnish, chopped, optional'
 sourceUrl: 'https://cleanfoodcrush.com/chopped-enchilada-skillet/'
 cuisines:
   - Mexican
+pairsWith:
+  - classic-guacamole
+  - mango-cabbage-slaw
+pairingNotes:
+  classic-guacamole: 'Cool, creamy avocado to spoon on top.'
+  mango-cabbage-slaw: 'A crunchy, bright slaw against the warm sauce.'
 formula:
   version: 1
   yield:
@@ -55,7 +56,7 @@ formula:
             amount: 2
             unit: tsp
           uses:
-            - step: cook
+            - step: onion
               share: 1
         - id: onion
           key: yellow-onion
@@ -64,18 +65,63 @@ formula:
             amount: 1
             unit: count
           uses:
-            - step: cook
+            - step: onion
               share: 1
           plural: yellow onions
           preparation: diced
         - id: meat
           key: ground-meat
-          name: ground grass-fed beef or ground turkey
+          name: ground beef
           quantity:
             amount: 1
             unit: lb
           uses:
-            - step: cook
+            - step: brown
+              share: 1
+        - id: cumin
+          key: cumin
+          name: ground cumin
+          quantity:
+            amount: 2
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+        - id: paprika
+          key: paprika
+          name: paprika
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+        - id: garlic
+          key: garlic-powder
+          name: garlic powder
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+        - id: salt
+          key: sea-salt
+          name: sea salt
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+        - id: pepper
+          key: black-pepper
+          name: black pepper
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: spices
               share: 1
         - id: squash
           key: yellow-squash
@@ -99,54 +145,9 @@ formula:
               share: 1
           plural: medium zucchini
           preparation: chopped
-        - id: cumin
-          key: cumin
-          name: ground cumin
-          quantity:
-            amount: 2
-            unit: tsp
-          uses:
-            - step: simmer
-              share: 1
-        - id: paprika
-          key: paprika
-          name: paprika
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: simmer
-              share: 1
-        - id: garlic
-          key: garlic-powder
-          name: garlic powder
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: simmer
-              share: 1
-        - id: salt
-          key: sea-salt
-          name: sea salt
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: simmer
-              share: 1
-        - id: pepper
-          key: black-pepper
-          name: freshly ground black pepper
-          quantity:
-            amount: 1/2
-            unit: tsp
-          uses:
-            - step: simmer
-              share: 1
         - id: corn
           key: corn
-          name: fresh corn kernels
+          name: fresh or frozen corn kernels
           quantity:
             amount: 1/2
             unit: cup
@@ -162,153 +163,105 @@ formula:
           uses:
             - step: simmer
               share: 1
-          preparation: rinsed and drained if canned; measure the prepared beans
+          preparation: rinsed and drained
+        - id: sauce
+          key: enchilada-sauce
+          name: red enchilada sauce
+          quantity:
+            amount: 1 1/2
+            unit: cup
+          uses:
+            - step: simmer
+              share: 1
         - id: tortillas
           key: sprouted-corn-tortilla
-          name: sprouted corn tortilla
+          name: corn tortilla
           quantity:
             amount: 4
             unit: count
           uses:
             - step: simmer
               share: 1
-          plural: sprouted corn tortillas
-          preparation: sliced into strips
-        - id: sauce
-          key: enchilada-sauce
-          name: enchilada sauce
-          quantity:
-            amount: 12
-            unit: oz
-          uses:
-            - step: simmer
-              share: 1
+          plural: corn tortillas
+          preparation: cut into strips
         - id: cheese
           key: cheese
-          name: grated mozzarella or Colby Jack
+          name: Colby Jack or mozzarella
           quantity:
             amount: 1/2
             unit: cup
           uses:
-            - step: finish
+            - step: cheese
               share: 1
           optional: true
+          preparation: shredded
         - id: garnish
           key: cilantro-green-onion
-          name: fresh cilantro or green onions
-          allowance: as desired for garnish
+          name: fresh cilantro or scallions
+          allowance: for garnish
           uses:
-            - step: finish
+            - step: serve
               share: 1
           role: garnish
           optional: true
-          preparation: washed and chopped
+          preparation: chopped
   steps:
-    - id: cook
-      title: Cook meat and onion
+    - id: onion
+      title: Soften the onion
       text: >-
-        Heat {{ingredients}} in a large skillet over medium heat, adding the oil
-        first, then the onion and meat. Break the meat into small pieces and
-        sauté until nearly cooked. Choose a skillet with stirring room for the
-        vegetables, beans, tortilla strips and sauce as well; divide all
-        ingredients proportionally among additional pans or complete batches if
-        needed.
+        Warm {{ingredients}} in a large, deep skillet over medium heat. Cook, stirring, until the
+        onion is soft and translucent, about 4 minutes.
+    - id: brown
+      title: Brown the beef
+      text: >-
+        Turn the heat to medium-high. Add {{ingredients}} and cook, breaking it into small pieces,
+        until browned with no pink left, 5 to 6 minutes. Spoon off excess fat.
+    - id: spices
+      title: Toast the spices
+      text: 'Stir in {{ingredients}} and cook until fragrant, about 30 seconds.'
     - id: squash
-      title: Add squash
+      title: Cook the squash
       text: >-
-        Add {{ingredients}}. Cook for another 4–5 minutes as a first check,
-        stirring, until the vegetables begin to soften.
+        Add {{ingredients}} and cook, stirring, until they start to soften at the edges, 4 to 5
+        minutes.
     - id: simmer
-      title: Simmer
+      title: Simmer with the tortillas
       text: >-
-        Add {{ingredients}}. Stir gently to coat the tortilla strips and heat to
-        a steady bubbling consistency, checking after about 4 minutes. Continue
-        until the squash is tender and representative ground-meat portions reach
-        160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating;
-        the first-check clock is not the endpoint. Taste only after the meat has
-        finished cooking.
-    - id: finish
-      title: Finish
+        Add {{ingredients}} and stir gently to coat the strips. Simmer until the sauce bubbles, the
+        tortilla strips are soft and the squash is tender, about 4 minutes.
+    - id: cheese
+      title: Melt the cheese
       text: >-
-        Finish with {{ingredients}}. If choosing cheese, spread its full listed
-        amount across the cooked mixture and allow it to soften. Serve promptly.
+        Take the pan off the heat. Scatter {{ingredients}} over the top, cover and let it melt,
+        about 2 minutes.
+    - id: serve
+      title: Serve
+      text: 'Sprinkle with {{ingredients}} and serve from the skillet.'
 learning:
-  focus: Soften tortilla strips in a fully cooked skillet mixture
-  outcome: >-
-    Tender squash, sauced tortilla strips and ground meat at its
-    species-specific measured endpoint.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the
-      refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep
-      them apart from raw meat and its utensils.
-    - >-
-      Dice and slice all the vegetables and tortillas before heating the
-      skillet. The beans are already cooked; rinse and drain canned beans before
-      measuring.
-    - >-
-      Six portions is the original serving plan. Check actual skillet capacity
-      for all supplies and divide the full oil, seasonings, sauce and optional
-      cheese proportionally if using more pans.
-  checkpoints:
-    - step: 3
-      cue: >-
-        The sauce bubbles steadily, squash is tender and representative meat
-        portions reach their specified endpoint.
-      why: >-
-        Ground turkey needs 165°F, while ground beef uses 160°F; sauce bubbles
-        alone do not measure meat temperature.
-  troubleshooting:
-    - problem: Tortilla strips fall apart before the skillet is ready
-      cause: Forceful stirring or prolonged cooking after they have softened.
-      fix: >-
-        Stir gently once the strips are added and serve when the vegetables and
-        meat have finished; strips already dissolved cannot be restored.
   substitutions:
-    - ingredient: Ground beef
+    - ingredient: ground beef
       alternative: Ground turkey
-      effect: >-
-        Keep the full measured amount and cook to 165°F rather than the beef
-        endpoint; do not treat the same clock as proof.
-    - ingredient: Optional cheese
-      alternative: Omit it
-      effect: >-
-        The full enchilada sauce and tortilla base remains; the topping is less
-        creamy.
-  timing: >-
-    The inherited 30-minute plan includes about 15 minutes preparation and 15
-    minutes stovetop cooking. Onion/meat cooking precedes the 4–5-minute squash
-    and approximately four-minute sauce first checks. Pan loads, vegetable size
-    and meat temperature can extend this plan.
+      effect: Leaner and milder. Add a little more oil to brown it.
   storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or
-    freeze promptly; follow any shorter remaining limit on prepared components.
-    Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout.
-    Tortilla strips soften further during storage; reheat the mixture evenly
-    before adding a fresh garnish.
-  sources:
-    - title: Clean Food Crush — Chopped Enchilada Skillet
-      url: 'https://cleanfoodcrush.com/chopped-enchilada-skillet/'
-    - title: FDA ground-meat temperatures and handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge or 3 months in the freezer. The tortilla strips soften more as it
+    sits.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Tortilla strips soften into the enchilada sauce while the summer squash keeps some texture. Break up the meat finely, then stir gently once the strips are added so they remain recognizable. The optional cheese finishes the hot skillet without changing its full sauce and vegetable base.
+All the flavor of beef enchiladas in one skillet, with no rolling and no oven. Corn tortilla strips simmer right in the red sauce and turn soft and tender, while zucchini and yellow squash keep a little bite. Toast the spices in the beef fat so the sauce tastes deep and warm.
 
 ## Directions
 
-1. **Cook meat and onion:** Heat avocado or olive oil, yellow onion, and ground grass-fed beef or ground turkey in a large skillet over medium heat, adding the oil first, then the onion and meat. Break the meat into small pieces and sauté until nearly cooked. Choose a skillet with stirring room for the vegetables, beans, tortilla strips and sauce as well; divide all ingredients proportionally among additional pans or complete batches if needed.
-2. **Add squash:** Add medium yellow squash and medium zucchini. Cook for another 4–5 minutes as a first check, stirring, until the vegetables begin to soften.
-3. **Simmer:** Add ground cumin, paprika, garlic powder, sea salt, freshly ground black pepper, fresh corn kernels, cooked black beans, sprouted corn tortillas, and enchilada sauce. Stir gently to coat the tortilla strips and heat to a steady bubbling consistency, checking after about 4 minutes. Continue until the squash is tender and representative ground-meat portions reach 160°F / 71°C for beef or 165°F / 74°C for turkey. Stir for even heating; the first-check clock is not the endpoint. Taste only after the meat has finished cooking.
-4. **Finish:** Finish with grated mozzarella or Colby Jack (if using) and fresh cilantro or green onions (if using). If choosing cheese, spread its full listed amount across the cooked mixture and allow it to soften. Serve promptly.
+1. **Soften the onion:** Warm avocado or olive oil and yellow onion in a large, deep skillet over medium heat. Cook, stirring, until the onion is soft and translucent, about 4 minutes.
+2. **Brown the beef:** Turn the heat to medium-high. Add ground beef and cook, breaking it into small pieces, until browned with no pink left, 5 to 6 minutes. Spoon off excess fat.
+3. **Toast the spices:** Stir in ground cumin, paprika, garlic powder, sea salt, and black pepper and cook until fragrant, about 30 seconds.
+4. **Cook the squash:** Add medium yellow squash and medium zucchini and cook, stirring, until they start to soften at the edges, 4 to 5 minutes.
+5. **Simmer with the tortillas:** Add fresh or frozen corn kernels, cooked black beans, red enchilada sauce, and corn tortillas and stir gently to coat the strips. Simmer until the sauce bubbles, the tortilla strips are soft and the squash is tender, about 4 minutes.
+6. **Melt the cheese:** Take the pan off the heat. Scatter Colby Jack or mozzarella (if using) over the top, cover and let it melt, about 2 minutes.
+7. **Serve:** Sprinkle with fresh cilantro or scallions (if using) and serve from the skillet.

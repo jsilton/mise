@@ -5,7 +5,6 @@ difficulty: intermediate
 cookingMethods:
   - bake
   - boil
-  - no-cook
 dietary:
   - vegetarian
 occasions:
@@ -32,14 +31,13 @@ cuisines:
 role: dessert
 vibe: technical
 prepTime: 45 min
-cookTime: 60–70 min
-totalTime: About 4 hours (estimated; includes cooling and assembly)
+cookTime: 1 hr 10 min
+totalTime: '2 hr, plus 3 hr cooling and setting'
 servings: 12–14 portions
 pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - babys-first-smash-cake
-  - best-cinnamon-roll-recipe-cinnabon-copycat
+  - old-fashioned-vanilla-ice-cream
+pairingNotes:
+  old-fashioned-vanilla-ice-cream: 'A cold scoop beside a dark, rich slice.'
 scaling:
   mode: fixed
   reason: >-
@@ -52,7 +50,7 @@ ingredients:
   - 1 1/2 cups hot brewed coffee
   - 3 cups granulated sugar
   - 2 1/2 cups all-purpose flour
-  - 1 1/2 cups unsweetened natural cocoa powder (not Dutch-process)
+  - 1 1/2 cups natural cocoa powder (not Dutch-process)
   - 2 tsp baking soda
   - 3/4 tsp baking powder
   - 1 1/4 tsp sea salt
@@ -66,7 +64,7 @@ ingredients:
   - 2 tbsp granulated sugar
   - 2 tbsp light corn syrup
   - '1/4 cup unsalted butter, cubed'
-source: 'Ed Kasky, Gourmet (March 1999), via Epicurious'
+source: 'Adapted from Ed Kasky, Gourmet'
 sourceUrl: 'https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275'
 formula:
   version: 1
@@ -124,7 +122,7 @@ formula:
               share: 1
         - id: cocoa
           key: natural-cocoa-powder
-          name: unsweetened natural cocoa powder (not Dutch-process)
+          name: natural cocoa powder (not Dutch-process)
           quantity:
             amount: 1 1/2
             unit: cup
@@ -250,145 +248,84 @@ formula:
     - id: pans
       title: Prepare the pans
       text: >-
-        Preheat the oven to 300°F. Use {{ingredients}} to grease two 10-inch round cake pans, each 2
-        inches deep; line the bottoms with parchment and grease the parchment.
+        Heat the oven to 300°F. Grease two 10-inch round cake pans, each 2 inches deep, with
+        {{ingredients}}. Line the bottoms with parchment and grease the parchment.
     - id: chocolate-coffee
-      title: Melt the cake chocolate
-      text: >-
-        Combine the cake's {{ingredients}}. Let stand, stirring occasionally, until smooth, then let
-        cool while preparing the other ingredients.
+      title: Melt the chocolate
+      text: 'Stir {{ingredients}} together in a bowl until smooth. Let it cool.'
     - id: dry
-      title: Dry mixture
-      text: "Sift the cake's {{ingredients}} together into a large bowl."
+      title: Sift the dry ingredients
+      text: 'Sift {{ingredients}} together into a large bowl.'
     - id: eggs
       title: Beat the eggs
       text: >-
-        In another large bowl, beat the {{ingredients}} until slightly thickened and pale yellow,
-        about 3 minutes with a stand mixer or 5 minutes with a hand mixer.
+        In a stand mixer, beat {{ingredients}} on medium-high until thickened and pale yellow, about
+        3 minutes.
     - id: liquids
       title: Add the liquids
       text: >-
-        Slowly add the cake's {{ingredients}} and the cooled coffee-chocolate mixture to the eggs,
-        beating until combined.
+        With the mixer running, slowly add the cooled chocolate coffee, then {{ingredients}}. Beat
+        until combined.
     - id: combine
-      title: Combine
+      title: Mix the batter
       text: >-
-        Add the dry mixture and beat on medium speed only until combined. Scrape the bowl so no
-        pockets of dry ingredients remain. The batter will be thin.
+        Add the dry ingredients and beat on medium speed just until combined, scraping the bowl. The
+        batter will be thin.
     - id: bake
-      title: Bake and cool
+      title: Bake
       text: >-
-        Divide the batter evenly between the prepared pans and bake in the middle of the oven for
-        60–70 minutes, until a tester inserted in the center comes out clean. Cool the layers
-        completely in their pans on racks. Run a thin knife around the edges, carefully invert, and
-        remove the parchment. Do not frost warm layers.
+        Divide the batter between the pans. Bake in the middle of the oven until a tester in the
+        center comes out clean, 60 to 70 minutes.
+    - id: cool
+      title: Cool the layers
+      text: >-
+        Cool the layers completely in their pans on a rack, about 2 hours. Run a thin knife around
+        the edges, turn the layers out and peel off the parchment.
     - id: heat-cream
-      title: Heat the ganache cream
+      title: Heat the cream
       text: >-
-        While the layers cool, put the ganache's {{ingredients}} in a 1 1/2- to 2-quart saucepan.
-        Heat over moderately low heat, whisking until the sugar dissolves and the mixture reaches a
-        boil. Remove from the heat.
+        While the layers cool, bring {{ingredients}} to a boil in a small saucepan over medium-low
+        heat, whisking until the sugar dissolves. Take it off the heat.
     - id: ganache-chocolate
-      title: Melt the ganache chocolate
-      text: "Add the ganache's {{ingredients}} to the hot cream mixture and whisk until melted."
+      title: Melt the ganache
+      text: 'Add {{ingredients}} to the hot cream. Let it sit 5 minutes, then whisk until smooth.'
     - id: finish-ganache
-      title: Finish and cool the ganache
+      title: Cool the ganache
       text: >-
-        Add the ganache's {{ingredients}} and whisk until smooth. Transfer to a shallow bowl and
-        cool, stirring occasionally, until spreadable. Refrigerate as needed to thicken it, and keep
-        it refrigerated if the layers are not yet ready; do not leave the ganache on the counter
-        throughout a long cake-cooling period.
+        Whisk in {{ingredients}} until glossy. Pour the ganache into a shallow bowl and let it cool,
+        stirring now and then, until thick and spreadable, 1 to 2 hours. If it stays loose, chill it
+        for a few minutes at a time.
     - id: assemble
-      title: Assemble
+      title: Frost the cake
       text: >-
-        Once the layers are completely cool and the ganache holds a soft, spreadable consistency,
-        frost between the layers and over the top and sides. If refrigerated ganache has become too
-        firm, let it soften briefly just until it spreads without tearing the cake. Refrigerate the
-        assembled cake until serving.
+        Set one layer on a plate and spread it with ganache. Top with the second layer and frost the
+        top and sides. Let the frosting set for 1 hour before slicing.
 learning:
-  focus: Judge ganache consistency before frosting fully cooled layers
-  outcome: >-
-    Set chocolate layers and smooth ganache that spreads between them and over the outside without
-    sliding or tearing the cake.
   techniques:
     - temperature
-  before:
-    - >-
-      Use two 10-inch round pans, each 2 inches deep. The written batch stays fixed; make separate
-      batches for more cake so batter depth and baking time remain comparable.
-    - >-
-      Keep unsweetened natural cocoa and the listed leaveners together. Melt the cake chocolate in
-      hot coffee, then let that mixture cool while preparing the other ingredients. Set out racks
-      and a shallow bowl for the ganache.
-  checkpoints:
-    - step: 4
-      cue: The eggs are slightly thickened and pale yellow before the liquids go in.
-      why: Use this appearance alongside the stated stand-mixer or hand-mixer time.
-    - step: 7
-      cue: >-
-        A tester inserted in each center comes out clean; the layers then cool completely in their
-        pans.
-      why: >-
-        The written bake range is a checking guide, and warm layers are difficult to invert and
-        frost.
-    - step: 10
-      cue: 'The ganache is smooth and holds a soft, spreadable consistency.'
-      why: >-
-        Chocolate and cooling conditions determine when it is ready to spread; the cooling clock
-        alone does not establish that consistency.
-  troubleshooting:
-    - problem: Chilled ganache tears the cake while spreading
-      cause: The ganache is too firm for assembly.
-      fix: >-
-        Let it soften briefly only until it spreads without tearing. Keep the rest refrigerated and
-        count that time toward the cumulative room-temperature limit.
-  substitutions:
-    - ingredient: Natural cocoa
-      alternative: Use another unsweetened natural cocoa rather than switching to Dutch-process cocoa.
-      effect: >-
-        Brand changes can change flavor and color; keep the natural-cocoa type and the listed
-        leaveners.
-  timing: >-
-    Allow about 4 hours for preparation, baking, complete layer cooling, ganache cooling, and
-    assembly; cooling can take longer in a warm kitchen. Make the ganache during the layers' cooling
-    period and refrigerate it while waiting. The planning estimate does not mean leaving the ganache
-    or frosted cake at room temperature for four hours.
   storage: >-
-    Keep the frosted cake covered at 40°F or below for up to 3 days. Let only the slices you plan to
-    serve soften briefly at room temperature, keeping the rest refrigerated. Count ganache cooling,
-    frosting, and service toward a combined 2-hour limit out of refrigeration, or 1 hour above 90°F;
-    refrigerate sooner if needed. The plain, unfrosted layers may be made one day ahead and kept at
-    room temperature, wrapped well once completely cool.
-  sources:
-    - title: Epicurious — Double Chocolate Layer Cake
-      url: 'https://www.epicurious.com/recipes/food/views/double-chocolate-layer-cake-101275'
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    Keeps 3 days covered in the fridge. Let slices sit out 30 minutes before serving. The unfrosted
+    layers can be baked a day ahead and kept well wrapped at room temperature.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This dark chocolate cake combines natural cocoa with semisweet chocolate melted into hot coffee, then adds a smooth ganache coating. Keep the specified cocoa and leaveners, and use two 10-inch round pans that are 2 inches deep. Let the layers cool completely and the ganache thicken until spreadable before assembly; corn syrup helps the frosting stay smooth and flexible.
+This towering chocolate cake was a Gourmet favorite from 1999. Chocolate melted into hot coffee gives the layers their deep, dark flavor, and a slow bake at 300°F keeps the thin batter moist and flat on top. A little corn syrup keeps the ganache glossy and soft for days.
 
 ## Directions
 
-1. **Prepare the pans:** Preheat the oven to 300°F. Use butter or neutral oil to grease two 10-inch round cake pans, each 2 inches deep; line the bottoms with parchment and grease the parchment.
-2. **Melt the cake chocolate:** Combine the cake's semisweet chocolate and hot brewed coffee. Let stand, stirring occasionally, until smooth, then let cool while preparing the other ingredients.
-3. **Dry mixture:** Sift the cake's granulated sugar, all-purpose flour, unsweetened natural cocoa powder (not Dutch-process), baking soda, baking powder, and sea salt together into a large bowl.
-4. **Beat the eggs:** In another large bowl, beat the large eggs until slightly thickened and pale yellow, about 3 minutes with a stand mixer or 5 minutes with a hand mixer.
-5. **Add the liquids:** Slowly add the cake's vegetable oil, buttermilk, and vanilla extract and the cooled coffee-chocolate mixture to the eggs, beating until combined.
-6. **Combine:** Add the dry mixture and beat on medium speed only until combined. Scrape the bowl so no pockets of dry ingredients remain. The batter will be thin.
-7. **Bake and cool:** Divide the batter evenly between the prepared pans and bake in the middle of the oven for 60–70 minutes, until a tester inserted in the center comes out clean. Cool the layers completely in their pans on racks. Run a thin knife around the edges, carefully invert, and remove the parchment. Do not frost warm layers.
-8. **Heat the ganache cream:** While the layers cool, put the ganache's heavy cream, granulated sugar, and light corn syrup in a 1 1/2- to 2-quart saucepan. Heat over moderately low heat, whisking until the sugar dissolves and the mixture reaches a boil. Remove from the heat.
-9. **Melt the ganache chocolate:** Add the ganache's semisweet chocolate to the hot cream mixture and whisk until melted.
-10. **Finish and cool the ganache:** Add the ganache's unsalted butter and whisk until smooth. Transfer to a shallow bowl and cool, stirring occasionally, until spreadable. Refrigerate as needed to thicken it, and keep it refrigerated if the layers are not yet ready; do not leave the ganache on the counter throughout a long cake-cooling period.
-11. **Assemble:** Once the layers are completely cool and the ganache holds a soft, spreadable consistency, frost between the layers and over the top and sides. If refrigerated ganache has become too firm, let it soften briefly just until it spreads without tearing the cake. Refrigerate the assembled cake until serving.
-
-## Timing and storage
-
-Allow about 4 hours for preparation, baking, complete layer cooling, ganache cooling, and assembly; cooling can take longer in a warm kitchen. Make the ganache during the layers' cooling period and refrigerate it while waiting. The planning estimate does not mean leaving the ganache or frosted cake at room temperature for four hours.
-
-Keep the frosted cake covered at 40°F or below for up to 3 days. Let only the slices you plan to serve soften briefly at room temperature, keeping the rest refrigerated. Count ganache cooling, frosting, and service toward a combined 2-hour limit out of refrigeration, or 1 hour above 90°F; refrigerate sooner if needed. The plain, unfrosted layers may be made one day ahead and kept at room temperature, wrapped well once completely cool.
+1. **Prepare the pans:** Heat the oven to 300°F. Grease two 10-inch round cake pans, each 2 inches deep, with butter or neutral oil. Line the bottoms with parchment and grease the parchment.
+2. **Melt the chocolate:** Stir semisweet chocolate and hot brewed coffee together in a bowl until smooth. Let it cool.
+3. **Sift the dry ingredients:** Sift granulated sugar, all-purpose flour, natural cocoa powder (not Dutch-process), baking soda, baking powder, and sea salt together into a large bowl.
+4. **Beat the eggs:** In a stand mixer, beat large eggs on medium-high until thickened and pale yellow, about 3 minutes.
+5. **Add the liquids:** With the mixer running, slowly add the cooled chocolate coffee, then vegetable oil, buttermilk, and vanilla extract. Beat until combined.
+6. **Mix the batter:** Add the dry ingredients and beat on medium speed just until combined, scraping the bowl. The batter will be thin.
+7. **Bake:** Divide the batter between the pans. Bake in the middle of the oven until a tester in the center comes out clean, 60 to 70 minutes.
+8. **Cool the layers:** Cool the layers completely in their pans on a rack, about 2 hours. Run a thin knife around the edges, turn the layers out and peel off the parchment.
+9. **Heat the cream:** While the layers cool, bring heavy cream, granulated sugar, and light corn syrup to a boil in a small saucepan over medium-low heat, whisking until the sugar dissolves. Take it off the heat.
+10. **Melt the ganache:** Add semisweet chocolate to the hot cream. Let it sit 5 minutes, then whisk until smooth.
+11. **Cool the ganache:** Whisk in unsalted butter until glossy. Pour the ganache into a shallow bowl and let it cool, stirring now and then, until thick and spreadable, 1 to 2 hours. If it stays loose, chill it for a few minutes at a time.
+12. **Frost the cake:** Set one layer on a plate and spread it with ganache. Top with the second layer and frost the top and sides. Let the frosting set for 1 hour before slicing.

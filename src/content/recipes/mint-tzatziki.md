@@ -1,8 +1,8 @@
 ---
 miseId: 807feda9-8a95-436b-8ebe-7ab25a59139e
 title: Mint Tzatziki with Honey
-source: Adapted from Food & Wine’s Greek-Style Lamb Burgers with Yogurt-Cucumber Sauce
-sourceUrl: https://www.foodandwine.com/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+source: Adapted from Food & Wine
+sourceUrl: 'https://www.foodandwine.com/recipes/greek-style-lamb-burgers-with-yogurt-cucumber-sauce'
 origin: Greek-inspired
 difficulty: easy
 cookingMethods:
@@ -35,103 +35,50 @@ equipment:
 prepTime: 15 min
 cookTime: 0 min
 totalTime: 15 min
-servings: '1 1/2 cups, approximately'
+servings: 1 1/2 cups
 pairsWith:
-  - warm-pita-bread
+  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
+  - mediterranean-chicken-thighs
   - grilled-zucchini-with-mint
+pairingNotes:
+  greek-style-lamb-burgers-with-yogurt-cucumber-sauce: The cool sauce these lamb burgers were made for.
+  mediterranean-chicken-thighs: Spoon it over the hot lemon chicken.
+  grilled-zucchini-with-mint: Mint on mint, with smoky grilled zucchini.
 ingredients:
-  - 1 cup (240 g) plain full-fat Greek yogurt
-  - '100 g English cucumber, ends trimmed, finely diced'
-  - 1 tbsp finely chopped fresh mint
+  - 1 cup plain full-fat Greek yogurt
+  - '2/3 cup English cucumber, finely diced'
+  - '1 tbsp fresh mint, finely chopped'
   - 2 tbsp extra-virgin olive oil
-  - 1 tsp (7 g) honey
-  - '1 small clove garlic, finely minced'
-  - '1–2 tsp fresh lemon juice or red wine vinegar, to taste'
-  - '1/4 tsp fine salt, divided'
+  - 1 tsp honey
+  - '1 small garlic clove, finely minced'
+  - 1–2 tsp fresh lemon juice
+  - 1/4 tsp fine salt
 description: >-
   Thick Greek yogurt with crisp diced cucumber, fresh mint, olive oil, garlic
-  and a little honey. Spoon it into lamb pitas or serve alongside grilled meat
+  and a little honey. Spoon it into lamb pitas or serve it with grilled meat
   and vegetables.
 learning:
-  focus: Balance a mint yogurt sauce while keeping its cucumber texture
-  outcome: >-
-    Aim for a soft mound on the spoon, crisp cucumber pieces and a tangy finish.
   techniques:
     - seasoning
     - cold-preparation
-  before:
-    - >-
-      Use thick plain Greek yogurt. Wash and dry the cucumber and mint before
-      cutting; pat the diced cucumber with a clean towel to remove surface water.
-    - >-
-      Make this ready-to-eat sauce before handling raw meat. Keep its bowl,
-      utensils and serving spoon separate from raw-meat equipment.
-  checkpoints:
-    - step: 1
-      cue: The cucumber is cut into small, distinct pieces with no puddle on the board.
-      why: >-
-        Fine dice supplies a light crunch. Drying the surface limits added free
-        water, although cucumber can still release liquid while the sauce stands.
-    - step: 3
-      cue: >-
-        The sauce holds a soft mound; yogurt tang and mint remain clear, with
-        garlic and honey in the background.
-      why: >-
-        Tasting the combined sauce lets you judge the salt against the yogurt,
-        cucumber and honey instead of seasoning each ingredient separately.
-  troubleshooting:
-    - problem: Sauce is loose or develops a puddle
-      cause: Thin yogurt or wet cucumber added excess free liquid.
-      fix: >-
-        Spoon off obvious liquid and stir gently. Next time use thick Greek
-        yogurt and pat the dice dry; do not add more honey or oil to thicken it.
-    - problem: Raw garlic dominates
-      cause: The clove was large or strongly flavored.
-      fix: >-
-        Stir in more plain Greek yogurt, then taste before adding any more salt.
-        This increases the yield and softens the mint and honey too. Use a small
-        clove next time; extra honey will sweeten the sauce without removing garlic.
   substitutions:
-    - ingredient: Full-fat Greek yogurt
-      alternative: The same amount of low-fat Greek yogurt
-      effect: >-
-        Less creamy; choose a thick plain brand and keep the same oil amount.
-        Unstrained ordinary yogurt may make a thinner sauce. Both contain milk.
-    - ingredient: English cucumber
-      alternative: 100 g trimmed Persian cucumber
-      effect: >-
-        Keep the fine dice and surface-drying step. If using a cucumber with a
-        coarse seed cavity, remove it before weighing the 100 g.
-  timing: >-
-    About 15 minutes to wash, dice, chop, mix and taste. Serve immediately or
-    refrigerate while preparing the rest of the meal. Stir and taste again
-    before serving if held.
+    - ingredient: Fresh lemon juice
+      alternative: Red wine vinegar
+      effect: Sharper and a little fruitier. Start with the smaller amount.
   storage: >-
-    Cover and refrigerate at 40°F / 4°C or below; use within 3–4 days of mixing,
-    or sooner if an ingredient needs using sooner. Keep out of refrigeration no
-    longer than 2 hours in total, or 1 hour above 90°F / 32°C. Use a clean serving
-    spoon and stir before serving. Refrigeration does not restart the sauce's
-    preparation date.
-  sources:
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: FoodSafety.gov — Food safety and eating out
-      url: 'https://www.foodsafety.gov/blog/food-safety-and-eating-out'
+    Keeps 3 days covered in the fridge. Stir before serving, since the cucumber
+    releases a little liquid.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Fine cucumber dice keeps a little crunch, while thick Greek yogurt and olive oil give the sauce a cool, spoonable texture. Fresh mint should stay clear, with garlic and a little honey in the background. A splash of lemon juice or vinegar keeps the honey and olive oil bright next to rich lamb.
+This is a mint and honey take on Greek tzatziki, made to go with lamb burgers. Finely diced cucumber keeps a little crunch in the thick yogurt, with garlic and honey in the background. A squeeze of lemon keeps it bright next to rich meat.
 
 ## Directions
 
-1. **Prepare the cucumber and herbs:** Wash and dry the cucumber and mint. Cut the cucumber into fine dice, about 3 mm across, then pat with a clean kitchen towel. Finely chop the mint and mince the small garlic clove.
-2. **Mix:** Stir the yogurt, olive oil, honey and 1 tsp of the lemon juice or vinegar together until evenly blended. Fold in the cucumber, mint, garlic and half the measured salt.
-3. **Taste and serve:** Taste, then add the reserved salt and up to 1 tsp more lemon juice or vinegar if the sauce tastes flat or sweet. Serve now, or cover and refrigerate while preparing the meal; stir and taste again before serving. For four lamb pitas, start with 2–3 tablespoons in each and offer the rest alongside. The full batch makes approximately 1 1/2 cups, depending on the yogurt and cucumber.
-
-## Another variation
-
-For a dill-and-lemon sauce with drained grated cucumber, use [Dill Tzatziki](/mise/recipes/tzatziki-sauce). It has a smoother cucumber texture and a larger batch yield.
+1. **Dry the cucumber:** Pat the diced cucumber dry with a clean kitchen towel so the sauce stays thick.
+2. **Mix the base:** Stir the yogurt, olive oil, honey and half the lemon juice in a bowl until smooth.
+3. **Fold and season:** Fold in the cucumber, mint, garlic and salt. Taste and add the rest of the lemon juice if it tastes flat or sweet. Serve right away or chill until needed.

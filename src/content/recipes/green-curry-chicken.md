@@ -33,133 +33,64 @@ equipment:
   - wide-3-to-4-quart-saucepan
   - instant-read-thermometer
 prepTime: 15 min
-cookTime: 30 min
-totalTime: 45 min
+cookTime: 25 min
+totalTime: 40 min
 servings: '4'
 pairsWith:
   - steamed-white-rice
-  - smashed-cucumber-salad
+  - thai-mango-salad
+pairingNotes:
+  steamed-white-rice: Plain rice to soak up the curry.
+  thai-mango-salad: A crisp, sour Thai salad beside the rich curry.
 ingredients:
-  - '680 g boneless skinless chicken thighs, cut into 1-inch pieces'
-  - '400 ml full-fat unsweetened coconut milk, divided'
-  - '3 to 4 tbsp Thai green curry paste, according to its strength'
-  - '1 tbsp neutral oil, only if needed when frying the paste'
-  - '1 cup (240 ml) unsalted chicken stock, plus a little hot water only if needed to loosen'
-  - '250 g Thai eggplant (small round green), stems removed and quartered just before cooking'
-  - '150 g red bell pepper, sliced'
-  - '75 g canned bamboo shoots, drained and rinsed'
-  - '4 makrut lime leaves, torn into large pieces'
-  - 20 g Thai basil leaves
-  - '1 tbsp fish sauce, added gradually only as needed'
-  - '1 tsp palm sugar or brown sugar, plus a little more only if needed'
+  - 1 can (13.5 oz) full-fat coconut milk
+  - '3–4 tbsp Thai green curry paste, such as Mae Ploy or Maesri'
+  - 1 tbsp neutral oil (optional)
+  - '1 1/2 lb boneless, skinless chicken thighs, cut into 1-inch pieces'
+  - 1 cup unsalted chicken stock
+  - '4 makrut lime leaves, torn'
+  - '1/2 lb Thai eggplants (6 to 8), stemmed and quartered'
+  - '1 red bell pepper, sliced'
+  - '1/2 cup canned bamboo shoots, drained and rinsed'
+  - 1 tsp palm sugar or light brown sugar
+  - '1 tbsp fish sauce, plus more to taste'
+  - '1 cup Thai basil leaves, loosely packed'
 description: >-
-  Chicken, eggplant, pepper, and bamboo shoots in a fluid green-curry coconut sauce, finished with
-  Thai basil.
+  Chicken, Thai eggplant, red pepper and bamboo shoots in a fragrant green curry coconut sauce,
+  finished with Thai basil.
 learning:
-  focus: 'Develop the paste, then preserve a fluid curry sauce'
-  outcome: >-
-    Tender chicken and yielding eggplant in a fragrant, pourable coconut curry with fresh basil
-    aroma.
   techniques:
     - seasoning
     - temperature
-  before:
-    - >-
-      Paste brands vary in heat, salt and concentration. Start at the lower end with an unfamiliar
-      paste; do not assume every tablespoon has equal strength.
-    - >-
-      Full-fat coconut milk may stay emulsified because of its processing or stabilizers. A visible
-      oil split is useful when it happens, but not a mandatory success signal.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Paste smells fragrant and has cooked without scorching, whether or not a little oil
-        separates.
-      why: >-
-        Aromatic development depends on cooking the paste. Continuing until every brand visibly
-        splits can burn a paste that is already ready.
-    - step: 4
-      cue: The thickest chicken pieces reach 165°F / 74°C and eggplant centers yield easily.
-      why: >-
-        A safe chicken endpoint and a tender vegetable center need separate checks; surface color
-        does not establish either.
-    - step: 5
-      cue: >-
-        The curry pours around the solids, and the seasoning is savory without being excessively
-        salty.
-      why: >-
-        Green curry has more liquid than panang. Reducing it to a sticky coating concentrates salt
-        and changes the dish.
-  troubleshooting:
-    - problem: Coconut milk will not split
-      cause: The milk remains emulsified under these cooking conditions.
-      fix: >-
-        Use the measured oil if the paste needs it and move on once fragrant. Do not keep reducing a
-        dry paste just to see separated oil.
-    - problem: Chicken is ready but eggplant is still firm
-      cause: The eggplant pieces were thick or partly above the liquid.
-      fix: >-
-        Lift cooked chicken out briefly and simmer the eggplant until tender, then return chicken to
-        warm through.
-    - problem: Curry is too thick or strongly seasoned
-      cause: It reduced too far or the paste was especially concentrated.
-      fix: >-
-        Add a little hot water to restore a fluid sauce. Next time use less paste or fish sauce;
-        sugar alone does not undo excessive salt or heat.
   substitutions:
-    - ingredient: Thai eggplant
-      alternative: >-
-        250 g Japanese or Chinese eggplant, trimmed, halved lengthwise and sliced 1/2 inch thick
+    - ingredient: Thai eggplants
+      alternative: Japanese eggplant
       effect: >-
-        Easier to find. It turns soft and silky rather than keeping the slight crunch and pleasant
-        bitterness of Thai eggplant.
+        Use 1 medium, halved lengthwise and sliced 1/2 inch thick. It turns soft and silky instead
+        of keeping the slight crunch and pleasant bitterness of Thai eggplant.
     - ingredient: Thai basil
-      alternative: 20 g Italian basil plus 4 or 5 fresh mint leaves
-      effect: >-
-        The mint adds some of the cool, anise-like edge that Italian basil lacks. It is close but
-        not identical to Thai basil.
+      alternative: Italian basil plus 4 or 5 mint leaves
+      effect: The mint adds some of the cool, anise-like edge that Italian basil lacks.
     - ingredient: Makrut lime leaves
-      alternative: 1/2 tsp finely grated ordinary lime zest at the finish
-      effect: >-
-        Provides a different citrus aroma and cannot duplicate the leaves. Do not add a tablespoon
-        of zest or lime juice as an equivalent.
-    - ingredient: Chicken thighs
-      alternative: 680 g chicken breast cut into 1-inch pieces
-      effect: >-
-        Simmer vegetables first until almost tender, then add breast and cook only until 165°F /
-        74°C; it dries more readily than thigh meat.
-    - ingredient: Curry paste and fish sauce
-      alternative: Products labeled gluten-free
-      effect: >-
-        Check both packages and the stock. The recipe is not automatically gluten-free just because
-        rice is served alongside.
-  timing: >-
-    About 45 minutes includes preparation, coconut/paste cooking, heating, and the chicken/vegetable
-    simmer. Rice is a separate recipe.
+      alternative: Lime zest
+      effect: 'Stir in 1/2 tsp finely grated lime zest with the basil. The citrus note is lighter.'
+    - ingredient: Boneless, skinless chicken thighs
+      alternative: Chicken breast
+      effect: Add it with the vegetables so it stays tender. It is leaner and milder.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Reheat gently; eggplant softens
-    further and basil darkens. Stir separated coconut fat back in if preferred.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Pailin Chongchitnant — Green curry liquid, coconut behavior and paste variation'
-      url: 'https://hot-thai-kitchen.com/green-curry-new-2/'
+    Keeps 3 days in the fridge. Reheat gently over low heat. The basil darkens, but the flavor holds.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Chicken, Thai eggplant, red pepper and bamboo shoots sit in a fragrant coconut sauce with Thai basil. Leave enough sauce to spoon around the solids and over rice. Cook the paste until fragrant without scorching it; some canned coconut milks will not visibly split into oil.
+This is the classic Thai green curry, with chicken, small round Thai eggplants and bamboo shoots in a loose coconut sauce scented with makrut lime leaves and Thai basil. Frying the paste in the thick coconut cream first gives the curry its depth, and a splash of fish sauce and palm sugar at the end balances the heat.
 
 ## Directions
 
-1. **Prepare ingredients:** Cut vegetables and pick basil before handling raw chicken, then clean the board and tools. Measure 120 ml of the coconut milk for the paste; use the thick top portion if it has separated, or stir the can and measure if uniform. Reserve the rest.
-2. **Cook coconut and paste:** In a wide saucepan, simmer the 120 ml coconut milk over medium heat about 3–5 minutes until thickened, stirring. Add green curry paste and cook about 2 minutes, stirring, until fragrant. If it sticks and has not released oil, add the measured tablespoon of neutral oil; a small splash of the reserved coconut milk can also loosen the pan. Do not require darkening or oil pooling before continuing.
-3. **Start chicken:** Stir in chicken, remaining coconut milk, stock and torn lime leaves. Bring to a gentle simmer, separating the chicken pieces, and cook about 5 minutes. Do not taste the curry while chicken is still undercooked.
-4. **Cook vegetables and check:** Add eggplant, pepper and bamboo shoots. Simmer gently about 10–12 minutes, stirring occasionally so pieces are exposed to the hot liquid, until eggplant is tender and several thick chicken pieces reach 165°F / 74°C. Extend as needed; if chicken finishes well before eggplant, follow troubleshooting.
-5. **Season and finish:** Add the sugar and start with about 1 tsp fish sauce. Taste and add more fish sauce only as needed; some pastes need very little. If too thick, add a small splash of hot water. Remove the large lime-leaf pieces, turn off heat, and fold in basil. Serve four main portions with separately prepared plain rice.
+1. **Fry the paste:** Scoop the thick cream from the top of the unshaken can of coconut milk into a wide saucepan. Simmer it over medium heat, stirring, until thick and sizzling, 3 to 5 minutes. Add the curry paste and cook, stirring, until very fragrant, about 2 minutes. If the paste sticks, add the oil.
+2. **Simmer the chicken:** Add the chicken and stir to coat it in the paste. Pour in the rest of the coconut milk, the stock and the lime leaves. Bring to a gentle simmer and cook for 5 minutes.
+3. **Add the vegetables:** Add the eggplant, bell pepper and bamboo shoots. Simmer, stirring now and then, until the eggplant is tender and the chicken is cooked through, 10 to 12 minutes.
+4. **Season and finish:** Stir in the sugar and half the fish sauce. Taste and add the rest if it needs more salt. Turn off the heat and stir in the basil. Serve over rice.

@@ -23,8 +23,8 @@ cuisines:
 role: base
 vibe: nutritious
 prepTime: 10 min
-cookTime: 5–6 min per skillet batch
-totalTime: About 15–25 min (extra skillet batches add time)
+cookTime: 12 min
+totalTime: 25 min
 servings: '4'
 seasons:
   - year-round
@@ -36,83 +36,39 @@ pairsWith:
   - garlic-honey-lime-shrimp
   - thai-chicken-curry
   - mongolian-beef
+pairingNotes:
+  garlic-honey-lime-shrimp: A light base for the sticky garlic shrimp.
+  thai-chicken-curry: Soaks up the curry sauce like rice does.
+  mongolian-beef: A low-carb bed for the sweet soy beef.
 ingredients:
-  - '1 large head Cauliflower (about 2 lbs), cut into florets'
-  - 2 tbsp Olive Oil or Avocado Oil
-  - 1/2 tsp Salt
-  - 1/4 tsp Black Pepper
-  - '2 cloves Garlic, minced (optional)'
-  - '2 tbsp Fresh Herbs such as parsley, cilantro, or chives (optional)'
+  - '1 large head cauliflower (about 2 lb), cut into florets'
+  - 2 tbsp olive or avocado oil
+  - '2 cloves garlic, minced (optional)'
+  - '1/2 tsp fine salt, plus more to taste'
+  - 1/4 tsp black pepper
+  - '2 tbsp fresh parsley, cilantro or chives, chopped (optional)'
 origin: United States
 learning:
-  focus: Keep small cauliflower grains while controlling pan crowding
-  outcome: >-
-    Tender-crisp separate grains rather than a wet purée, with garlic fragrant
-    rather than burnt.
   techniques:
     - temperature
-  before:
-    - >-
-      Dry washed florets and pulse them in small loads; head 2 lb estimate is
-      not two pounds of exact usable grains.
-    - >-
-      Allocate the existing oil/optional garlic among pan batches and season the
-      recombined total once.
-    - >-
-      Extra quantity requires more pan batches, not a deeper crowded layer or
-      multiplied garlic dose.
-  checkpoints:
-    - step: 1
-      cue: Grain-size pieces remain and no purée collects.
-      why: Overprocessing breaks down the texture before cooking.
-    - step: 3
-      cue: Grains are tender-crisp without a puddle.
-      why: Panload and starting moisture change evaporation time.
-  troubleshooting:
-    - problem: Cauliflower is mushy
-      cause: It was overprocessed or cooked too long/crowded.
-      fix: >-
-        Stop pulsing earlier and use smaller pan loads next time; broken-down
-        grains cannot be restored.
-    - problem: Garlic tastes burnt
-      cause: It entered too early at high heat.
-      fix: Add near the end and stir; lower heat if darkening immediately.
   substitutions:
-    - ingredient: Optional fresh herbs
-      alternative: Omit them
-      effect: Keeps the plain seasoned cauliflower base.
-  timing: >-
-    About 10 minutes preparation plus 5–6 minutes per skillet batch; allow 15–25
-    minutes depending on pan load. Head size, processor loads and additional
-    batches add work. Use texture rather than a five-minute guarantee.
+    - ingredient: No food processor
+      alternative: Box grater
+      effect: Grate the florets on the large holes of a box grater. The grains come out a little finer and more even.
   storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the center
-    to 165°F / 74°C, stirring the grains for even heating; a short microwave
-    clock is not a measured endpoint.
-  sources:
-    - title: FoodSafety.gov clean handling/cold holding
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA leftover refrigerator use
-      url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
-    - title: FoodSafety.gov leftover reheat endpoint
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    Keeps 4 days in the fridge. Reheat it in a hot skillet so it stays fluffy instead of soggy.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Pulse dry cauliflower in small loads until the pieces resemble grains, then sauté without crowding the pan. Keep some bite rather than cooking to a purée. Optional garlic goes in near the end so it becomes fragrant before it burns.
+Cauliflower rice is a light, low-carb base for stir-fries and curries. High heat and a thin layer in the pan cook off the moisture fast, so the grains turn golden and tender-crisp instead of mushy. Work in batches rather than crowding the skillet.
 
 ## Directions
 
-1. **Prepare the grains:** Wash cauliflower and dry its surface. Pulse florets in small food processor loads until grain-size pieces remain; stop before they become a paste. No food processor: use a coarse box grater with care around the cutting edges.
-
-2. **Sauté in batches:** Heat the measured oil in a large skillet over medium-high. Add an uncrowded layer of cauliflower and cook about 2 minutes before stirring. For multiple batches, divide the existing total oil among them rather than adding the full measured oil amount to each batch.
-
-3. **Finish cooking:** Cook another 3–4 minutes, stirring, until tender-crisp with little visible free water. Add the optional garlic in the last 30–45 seconds and stir until fragrant. Divide the measured garlic among the uncrowded skillet batches, adding each batch’s share near the end.
-
-4. **Season and serve:** Recombine cooked batches, add all the measured salt and pepper and toss with the optional herbs. Serve promptly. Do not dose each pan with the full batch seasoning.
+1. **Rice the cauliflower:** Pat the florets dry. Pulse them in batches in a food processor until they look like grains of rice, stopping before they turn to paste.
+2. **Sear the cauliflower:** Heat some of the oil in a large skillet over medium-high heat. Add a thin, even layer of cauliflower and cook undisturbed for 2 minutes.
+3. **Finish the batch:** Stir and cook until lightly golden and tender-crisp, 3 to 4 minutes more. Stir in some of the garlic for the last 30 seconds, until fragrant. Move the batch to a bowl and repeat with the rest of the oil, cauliflower and garlic.
+4. **Season and serve:** Toss all the cauliflower with the salt, pepper and herbs. Taste, add more salt if needed and serve hot.

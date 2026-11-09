@@ -1,7 +1,7 @@
 ---
 miseId: 36bffcb3-e8e3-46e9-8b74-0adbb96fdcee
 title: Guacamole
-source: Adapted from Alton Brown's Guacamole
+source: Adapted from Alton Brown
 sourceUrl: https://www.foodnetwork.com/recipes/alton-brown/guacamole-recipe-1940609
 origin: Mexico
 role: condiment
@@ -34,10 +34,16 @@ advancePrep:
   - components-ahead
 prepTime: 20 min
 cookTime: 0 min
-totalTime: 1 hr 20 min
-servings: 4 generous dip portions
+totalTime: 20 min, plus 1 hr chilling
+servings: '4'
 pairsWith:
   - sheet-pan-chicken-fajitas
+  - carnitas-bowl
+  - seafood-chorizo-tacos
+pairingNotes:
+  sheet-pan-chicken-fajitas: Spoon it into the warm tortillas.
+  carnitas-bowl: Cool and creamy against the crisp pork.
+  seafood-chorizo-tacos: A rich topping for the spicy chorizo.
 equipment:
   - mixing-bowl
   - potato-masher-or-fork
@@ -46,85 +52,34 @@ ingredients:
   - 1 large lime, juiced, divided
   - 1/2 medium red onion, finely diced
   - '1 jalapeño or serrano, seeded and finely minced'
-  - 2 Roma tomatoes, cored, seeded and finely diced
+  - 2 Roma tomatoes, cored, seeded, finely diced and drained
   - 1 clove garlic, finely minced
   - 1/4 cup fresh cilantro, chopped
   - 1/2 tsp kosher salt, divided
   - 1/4 tsp ground cumin
-description:
-  Chunky avocado with tomato, red onion, garlic, fresh chile, cilantro and a light touch of cumin. Add
-  lime and salt in stages, then taste with the food it will accompany.
+description: Chunky avocado with tomato, red onion, garlic, fresh chile, cilantro and lime.
 learning:
-  focus: Balance a chunky avocado mash without making it watery
-  outcome: Creamy avocado holds the diced vegetables, with some soft chunks, fresh chile heat
-    and lime that brightens without pooling in the bowl.
   techniques:
     - cold-preparation
     - seasoning
-  before:
-    - Avocados should yield gently to palm pressure and mash readily. Three fruits do not give
-      a fixed flesh weight or finished volume; larger fruit may need more of the reserved
-      seasoning.
-    - Drain loose juice from the diced tomatoes. The whole seeded chile gives a fresh,
-      moderate heat. Use half, or omit it, for a mild version.
-  checkpoints:
-    - step: 2
-      cue: The mash is mostly creamy with small soft avocado chunks remaining.
-      why: Hand mashing gives texture without crushing every vegetable into a wet paste.
-    - step: 3
-      cue: Tomato and onion are evenly distributed and no watery ring collects around the mash.
-      why: Removing loose tomato juice and staging lime keeps the avocado flavor concentrated.
-    - step: 4
-      cue: After the rest, the flavor is savory and gently tart rather than sharply sour or
-        aggressively salty.
-      why: The finished dip and its salty accompaniments are the useful final seasoning reference.
-  troubleshooting:
-    - problem: Guacamole is watery
-      cause: Tomatoes carried loose juice or too much lime was added.
-      fix: Fold in extra plain ripe avocado if available. Avoid adding more acid to correct it;
-        excess liquid cannot be removed cleanly once the mash is mixed.
-    - problem: The surface browns
-      cause: Cut avocado was exposed to air during holding.
-      fix: For the next hold, smooth the surface, press food wrap against it and refrigerate. Lime
-        and covering slow discoloration but do not guarantee a permanently green surface.
-    - problem: Avocado stays hard or stringy
-      cause: The fruit was underripe or damaged.
-      fix: Choose different ripe fruit; extra lime, mashing or a room-temperature rest will not
-        repair it.
   substitutions:
     - ingredient: Jalapeño or serrano
-      alternative: Use half the chile, or omit it, for a mild version
-      effect: Keeps the avocado, lime, tomato and garlic character with little or no heat.
-    - ingredient: Red onion
-      alternative: The same amount of finely diced white onion
-      effect: Changes the onion bite and appearance while retaining fresh diced texture.
-  timing: About 20 minutes hands-on plus a one-hour covered refrigerator rest. The rest is
-    included in the 80-minute total. It can also be served freshly mixed in about 20 minutes;
-    taste the seasonings before serving either way. A larger batch takes more cutting time.
-  storage: Keep at 40°F / 4°C or below, with food wrap pressed against the surface, and use
-    within one day for best quality. Return to the refrigerator within 2 hours of preparation
-    or serving, or 1 hour above 90°F / 32°C. Lime does not make this dip shelf-stable or extend
-    those limits.
-  sources:
-    - title: Alton Brown — Fully loaded guacamole
-      url: https://altonbrown.com/recipes/fully-loaded-guacamole/
-    - title: California Avocado Commission — Ripeness and reducing browning
-      url: https://californiaavocado.com/faqs/
-    - title: FoodSafety.gov — Clean, separate, cook and chill
-      url: https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety
+      alternative: Half the chile, or none
+      effect: A mild guacamole for kids, with the same lime and avocado flavor.
+  storage: Press plastic wrap onto the surface and refrigerate. It is best the day it is made.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Adapted from Alton Brown's guacamole, this version combines avocado with tomato, garlic, fresh chile and plenty of cilantro. Fresh chile replaces his cayenne, and the cumin is cut back to a background note so the avocado and lime lead. Keep the tomatoes well drained and fold them in after mashing. Add lime and salt in stages, and cover the surface closely during a refrigerated rest to limit exposure to air.
+This is Alton Brown's guacamole, with fresh chile in place of his cayenne. Tossing the avocado in lime before mashing keeps it green, and a covered rest lets the garlic and cumin settle into the avocado. Mash it by hand so it stays chunky.
 
 ## Directions
 
-1. **Prepare:** Rinse produce before cutting. Dice the onion and tomatoes, removing tomato cores and loose seed pulp; drain excess tomato juice. Mince the chile and garlic, chop cilantro, and juice the lime.
-2. **Mash:** Halve and pit the avocados and scoop the flesh into a bowl. Toss with half the lime juice. Add half the measured salt and the cumin, then mash with a fork or potato masher until creamy with small soft chunks.
-3. **Fold:** Gently fold in the onion, tomatoes, chile, garlic and cilantro until distributed. Keep the vegetables in distinct pieces rather than puréeing them into the mash.
-4. **Rest and season:** Smooth the surface, press food wrap against it and refrigerate for about one hour. Stir gently and taste with a tortilla or other accompaniment. Add remaining lime and salt gradually only as needed. For immediate service, skip the rest and make the same seasoning check.
-5. **Serve:** Share as four generous dip portions or use smaller spoonfuls as a taco or fajita topping. Finished volume varies with avocado size. Keep covered and refrigerated until needed.
+1. **Coat the avocados:** Halve and pit the avocados and scoop the flesh into a bowl. Toss with half the lime juice until every piece is coated.
+2. **Mash:** Add half the salt and the cumin. Mash with a fork or potato masher until mostly creamy with some small chunks left.
+3. **Fold in the rest:** Gently fold in the onion, tomatoes, chile, garlic and cilantro until evenly mixed.
+4. **Chill:** Smooth the top, press plastic wrap onto the surface and refrigerate for 1 hour.
+5. **Season and serve:** Stir, then taste with a chip. Add the rest of the lime juice and salt as needed and serve.

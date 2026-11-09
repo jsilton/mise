@@ -1,7 +1,7 @@
 ---
 miseId: fa47d1bb-121e-4a15-8033-a6c457da1aee
 title: Soft Pumpkin Cookies
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - bake
 dietary:
@@ -15,12 +15,12 @@ cuisines:
   - American
 role: dessert
 vibe: comfort
-prepTime: 10 min
-cookTime: 15–18 min per oven load
-totalTime: '27–30 min, plus remaining preheating, extra oven loads, cooling and glazing'
+prepTime: 15 min
+cookTime: 35 min
+totalTime: '50 min, plus 30 min cooling'
 servings: 36 pieces
 ingredients:
-  - '--- Pumpkin cookie dough ---'
+  - '--- Cookies ---'
   - 1 cup pure pumpkin puree
   - '1/2 cup (1 stick) unsalted butter, softened'
   - 1 1/2 cups granulated sugar
@@ -34,24 +34,22 @@ ingredients:
   - 1/4 tsp ground cloves
   - 1/2 tsp ground nutmeg
   - 1/2 tsp sea salt
+  - 'butter or baking spray, for the baking sheets'
   - '--- Vanilla glaze ---'
   - '2 cups confectioners’ sugar, sifted'
   - 3 tbsp milk
   - '1 tbsp unsalted butter, melted'
   - 1 tsp pure vanilla extract
-  - '--- Pan preparation ---'
-  - 'butter or baking spray, enough to lightly grease baking sheets'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - babys-first-smash-cake
-  - best-cinnamon-roll-recipe-cinnabon-copycat
-source: Adapted from Verybestbaking.com
-sourceUrl: 'https://www.verybestbaking.com/recipes/32364/Old-Fashioned-Soft-Pumpkin-Cookies'
+  - hot-mulled-apple-cider
+pairingNotes:
+  hot-mulled-apple-cider: Warm spiced cider with fall cookies.
+source: Adapted from Libby’s
+sourceUrl: 'https://www.verybestbaking.com/libbys/recipes/old-fashioned-soft-pumpkin-cookies/'
 formula:
   version: 1
   yield:
@@ -59,7 +57,7 @@ formula:
     unit: piece
   components:
     - id: dough
-      name: Pumpkin cookie dough
+      name: Cookies
       ingredients:
         - id: pumpkin
           key: pumpkin
@@ -183,6 +181,13 @@ formula:
           uses:
             - step: dry
               share: 1
+        - id: grease
+          key: grease
+          name: butter or baking spray
+          allowance: for the baking sheets
+          uses:
+            - step: prep
+              share: 1
     - id: glaze
       name: Vanilla glaze
       ingredients:
@@ -224,143 +229,66 @@ formula:
           uses:
             - step: glaze
               share: 1
-    - id: pan
-      name: Pan preparation
-      ingredients:
-        - id: grease
-          key: grease
-          name: butter or baking spray
-          allowance: enough to lightly grease baking sheets
-          uses:
-            - step: prep
-              share: 1
   steps:
     - id: prep
-      title: Prepare
-      text: >-
-        Preheat the oven to 350°F. Use {{ingredients}} to lightly grease baking sheets, and have a
-        cooling rack ready.
+      title: Heat the oven
+      text: 'Heat the oven to 350°F. Grease two baking sheets with {{ingredients}}.'
     - id: dry
-      title: Mix dry ingredients
-      text: 'Whisk {{ingredients}} in a medium bowl so the spices, salt and leaveners are distributed.'
+      title: Mix the dry ingredients
+      text: 'Whisk {{ingredients}} in a medium bowl.'
     - id: cream
-      title: Cream
-      text: 'Beat {{ingredients}} in a large bowl until fluffy, scraping the bowl.'
+      title: Cream the butter
+      text: 'Beat {{ingredients}} in a large bowl with a mixer until light and fluffy, about 3 minutes.'
     - id: egg
-      title: Add pumpkin
-      text: 'Beat in {{ingredients}} until evenly mixed.'
+      title: Add the pumpkin
+      text: 'Beat in {{ingredients}} until smooth.'
     - id: combine
-      title: Combine
+      title: Add the flour mixture
       text: >-
-        Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The
-        dough is soft and scoopable.
+        Mix in the flour mixture on low speed just until no dry flour remains. The dough will be
+        very soft.
     - id: shape
-      title: Shape
-      text: >-
-        Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all
-        the dough; the listed count is a planning value. Keep scoop size consistent and use extra
-        sheets or loads as the batch grows.
+      title: Scoop the dough
+      text: Drop rounded tablespoons of dough onto the baking sheets about 2 inches apart.
     - id: bake
       title: Bake
       text: >-
-        Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are
-        firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or
-        below between loads.
+        Bake until the edges are firm and the tops are lightly golden, 15 to 18 minutes. Bake the
+        rest of the dough the same way.
     - id: cool
-      title: Cool before glazing
+      title: Cool
       text: >-
-        Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding
-        the glaze.
+        Let the cookies sit on the sheets for 2 minutes, then move them to a rack to cool
+        completely.
     - id: glaze
       title: Glaze
       text: >-
-        Whisk {{ingredients}} until smooth. Drizzle the full glaze over the cooled cookies,
-        distributing it over the actual batch. Let the glaze settle before packing; these are soft
-        glazed cookies.
+        Whisk {{ingredients}} until smooth. Drizzle the glaze over the cooled cookies and let it set
+        before stacking.
 learning:
-  focus: 'Keeping dough and glaze quantities separate, then cooling before glazing.'
-  outcome: Soft pumpkin cookies with a smooth vanilla glaze on their cooled surfaces.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Use pure pumpkin puree, not pumpkin pie filling. The dough vanilla and glaze vanilla are
-      separate full amounts; the component list gives their destinations.
-    - >-
-      Preheat to 350°F while mixing and prepare enough sheet space for rounded tablespoon portions.
-      Cooling completely before glazing is required and has no fixed duration here.
-    - Do not taste raw dough; it contains raw flour and egg. Wash hands and tools after handling it.
-    - >-
-      If scaling calls for part of an egg, beat an egg and use the indicated fraction; keep cookie
-      dimensions and baking temperature fixed.
-  checkpoints:
-    - step: 2
-      cue: 'The salt, both leaveners and spices are evenly whisked into the flour.'
-      why: Salt must have a destination alongside the flour; “spices” alone does not account for it.
-    - step: 7
-      cue: Firm edges on cookies that are still soft.
-      why: 'This pumpkin dough is a soft-cookie recipe, not a crisp-cookie or snap endpoint.'
-    - step: 9
-      cue: A smooth glaze on cookies that are completely cool.
-      why: Warm cookies can thin and absorb the drizzle instead of retaining a surface glaze.
-  troubleshooting:
-    - problem: Glaze runs off or soaks in.
-      cause: Cookies are still warm when glazed.
-      fix: >-
-        Wait until they have cooled completely on the rack, then distribute the full glaze over the
-        batch.
-    - problem: Glaze is lumpy.
-      cause: Confectioners’ sugar was clumped or the alternate softened butter was not blended smoothly.
-      fix: >-
-        Sift the listed sugar and whisk thoroughly. Keep the stated milk and butter quantities
-        rather than guessing extra liquid.
-  substitutions:
-    - ingredient: Melted butter in the glaze
-      alternative: The same listed amount of softened butter
-      effect: >-
-        The modern publisher uses softened glaze butter; this is a separate state choice, retaining
-        all glaze ingredients and the softened butter in the dough.
   storage: >-
-    Cool the cookies completely and let the glaze settle before packing. Because this glaze contains
-    milk and its room-temperature keeping quality is unmeasured, refrigerate glazed cookies at 40°F
-    / 4°C or below promptly, within 2 hours or 1 hour above 90°F / 32°C. This is a conservative
-    storage plan, with no validated shelf life or crisp-shell guarantee.
-  timing: >-
-    Plan 10 minutes for mixing, 15–18 minutes per oven load and the two-minute sheet rest: 27–30
-    minutes is a first-load subtotal. Preheating begins with mixing; any remaining oven heating,
-    later loads, complete rack cooling and glazing extend the total. The cookies must be cool before
-    glaze is added.
-  sources:
-    - title: LIBBY’S — full dough/glaze vanilla allocations and cooling sequence
-      url: 'https://www.verybestbaking.com/libbys/recipes/old-fashioned-soft-pumpkin-cookies/'
-    - title: FDA — raw flour and dough handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
-    - title: FDA — conservative handling of perishable dairy glaze
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    Keeps 3 days in an airtight container in a single layer. Freeze unglazed cookies for up to 3
+    months and glaze them after thawing.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Use pure pumpkin puree rather than sweetened pumpkin pie filling. The pumpkin dough and the vanilla glaze each have their own vanilla amount. Cool the cookies completely before drizzling so the glaze stays on the surface rather than running off warm cookies.
+These are Libby's soft, cakey pumpkin cookies. Cinnamon, ginger, cloves and nutmeg give them real pumpkin-spice warmth, and a thin vanilla glaze goes on once they have cooled. Pull them when the edges are just firm so they stay soft.
 
 ## Directions
 
-1. **Prepare:** Preheat the oven to 350°F. Use butter or baking spray to lightly grease baking sheets, and have a cooling rack ready.
-2. **Mix dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground ginger, ground cloves, ground nutmeg, and sea salt in a medium bowl so the spices, salt and leaveners are distributed.
-3. **Cream:** Beat unsalted butter and granulated sugar in a large bowl until fluffy, scraping the bowl.
-4. **Add pumpkin:** Beat in pure pumpkin puree, large egg, and pure vanilla extract until evenly mixed.
-5. **Combine:** Gradually stir the dry mixture into the pumpkin mixture just until no dry flour remains. The dough is soft and scoopable.
-6. **Shape:** Drop rounded tablespoonfuls onto the greased sheets, leaving room between cookies. Use all the dough; the listed count is a planning value. Keep scoop size consistent and use extra sheets or loads as the batch grows.
-7. **Bake:** Wait for the oven to reach 350°F, then bake for 15–18 minutes per load until the edges are firm and the tops are slightly golden. Keep unbaked dough refrigerated at 40°F / 4°C or below between loads.
-8. **Cool before glazing:** Cool on the sheets for 2 minutes, then transfer to a rack and cool completely before adding the glaze.
-9. **Glaze:** Whisk confectioners’ sugar, milk, unsalted butter, and pure vanilla extract until smooth. Drizzle the full glaze over the cooled cookies, distributing it over the actual batch. Let the glaze settle before packing; these are soft glazed cookies.
-
-## Cooking Options
-
-### Glaze butter option
-
-The melted-butter glaze is written above. The current LIBBY’S publisher version instead uses the same listed amount of softened butter in the glaze. Choose one butter state for that glaze, whisking it smooth; keep all the milk, confectioners’ sugar and vanilla amounts. The dough’s softened butter is a separate allocation.
+1. **Heat the oven:** Heat the oven to 350°F. Grease two baking sheets with butter or baking spray.
+2. **Mix the dry ingredients:** Whisk all-purpose flour, baking soda, baking powder, ground cinnamon, ground ginger, ground cloves, ground nutmeg, and sea salt in a medium bowl.
+3. **Cream the butter:** Beat unsalted butter and granulated sugar in a large bowl with a mixer until light and fluffy, about 3 minutes.
+4. **Add the pumpkin:** Beat in pure pumpkin puree, large egg, and pure vanilla extract until smooth.
+5. **Add the flour mixture:** Mix in the flour mixture on low speed just until no dry flour remains. The dough will be very soft.
+6. **Scoop the dough:** Drop rounded tablespoons of dough onto the baking sheets about 2 inches apart.
+7. **Bake:** Bake until the edges are firm and the tops are lightly golden, 15 to 18 minutes. Bake the rest of the dough the same way.
+8. **Cool:** Let the cookies sit on the sheets for 2 minutes, then move them to a rack to cool completely.
+9. **Glaze:** Whisk confectioners’ sugar, milk, unsalted butter, and pure vanilla extract until smooth. Drizzle the glaze over the cooled cookies and let it set before stacking.

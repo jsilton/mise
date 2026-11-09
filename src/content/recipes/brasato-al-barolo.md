@@ -13,92 +13,37 @@ seasons:
   - winter
 nutritionalDensity: hearty
 learning:
-  focus: Build a rich wine braise while protecting the meat from a hard boil.
-  outcome: Tender beef and a smooth sauce made from all the Barolo and cooked vegetables.
   techniques:
     - browning
     - braising
     - temperature
-  before:
-    - >-
-      Choose a whole shoulder piece suited to braising; ask for vena or cappello di prete if buying
-      from an Italian butcher.
-    - Plan the 12-hour refrigerator marinade and keep all of it for the sauce.
-    - >-
-      Use a heavy casserole with a close-fitting lid and enough room for the meat, wine and
-      vegetables.
-    - >-
-      A removable food-safe spice sachet can hold the whole cloves and peppercorns during marinade
-      and braising; keep the full quantities and remove it only after infusion.
-  checkpoints:
-    - step: 2
-      cue: The dried beef develops a brown crust without blackened butter.
-      why: 'Surface moisture inhibits browning, and burned fat would carry through the wine sauce.'
-    - step: 4
-      cue: 'The covered pot has occasional gentle bubbles, not a rolling boil.'
-      why: Moderate heat limits evaporation while the tough cut gradually becomes tender.
-    - step: 4
-      cue: A fork or thin skewer enters the thickest part without resistance.
-      why: >-
-        A safe minimum internal temperature is reached well before this braising cut becomes
-        pleasantly tender.
-    - step: 5
-      cue: The blended sauce coats a spoon and the whole woody spices have been removed.
-      why: Reduction concentrates the wine and vegetables while removal leaves a smooth sauce.
-  troubleshooting:
-    - problem: The beef is safe but still tough.
-      cause: The braising cut has not had enough time at gentle heat.
-      fix: >-
-        Continue covered cooking, checking the liquid and tenderness periodically; do not slice it
-        merely because two hours have passed.
-    - problem: The sauce is too thin or sharply wine-forward.
-      cause: The wine has not reduced enough after blending.
-      fix: >-
-        Keep the beef warm and simmer the sauce uncovered until it coats a spoon, stirring to
-        prevent scorching. Do not assume the dish becomes alcohol-free.
   substitutions:
     - ingredient: Barolo
-      alternative: >-
-        A full bottle of Langhe Nebbiolo, or another dry, structured red such as Barbera or Chianti
-        Classico
+      alternative: Langhe Nebbiolo
       effect: >-
-        Langhe Nebbiolo is the same grape at a lower price and gives the closest result. Barbera is
-        brighter and softer, and Chianti is more savory. Avoid sweet or heavily oaked reds, which
-        concentrate as the sauce reduces.
+        The same grape at a lower price and the closest match. Barbera or Chianti Classico also
+        work. Avoid sweet or oaky reds, which turn harsh as the sauce reduces.
+    - ingredient: Boneless beef shoulder (cappello di prete)
+      alternative: Boneless chuck roast
+      effect: >-
+        The supermarket braising cut. Choose a compact piece and tie it with twine so it holds its
+        shape.
   storage: >-
-    Refrigerate in shallow containers within 2 hours, or within 1 hour above 90°F, and keep at 40°F
-    or colder. Use within 3–4 days of the first cooking; reheating does not restart that clock.
-    Reheat to 165°F throughout. Cool the beef in its sauce in shallow portions. Reheat covered and
-    gently, adding a little water if the sauce has thickened. If storing the sauce separately as
-    gravy, use it within 1–2 days.
-  timing: >-
-    The 12-hour marinade is followed by about 15–20 minutes of browning, 15 minutes with the
-    vegetables, at least 2 hours of gentle braising, and a brief sauce finish while the meat rests.
-    Plan 15–17 hours overall and more if tenderness requires it. Ingredient amounts scale, but roast
-    thickness, pot fit and the number of pieces govern the cooking schedule; use additional
-    casseroles rather than crowding or multiplying the time.
-  sources:
-    - title: 'Accademia Italiana della Cucina: Brasato di bue al Barolo, all’uso di Cuneo'
-      url: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/brasato-di-bue-al-barolo'
-    - title: 'USDA: Beef from Farm to Table'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table
-    - title: 'USDA: Leftovers and Food Safety'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge in its sauce and freezes for 3 months. Reheat gently, covered, with a
+    splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 title: Brasato al Barolo
-origin: Piedmont — Cuneo
+origin: 'Cuneo, Piedmont'
 description: >-
   Beef marinated overnight in Barolo, then gently braised with vegetables and warm spices and served
   with its blended wine sauce.
-source: 'Accademia Italiana della Cucina — Brasato di bue al Barolo, all’uso di Cuneo (Piemonte)'
+source: Adapted from the Accademia Italiana della Cucina
 sourceUrl: 'https://www.accademiaitalianadellacucina.it/it/ricette/ricetta/brasato-di-bue-al-barolo'
-prepTime: 35–45 minutes
-cookTime: 'About 2½–3½ hours, or longer until tender'
-totalTime: 'About 15–17 hours, including a 12-hour marinade'
+prepTime: 30 min
+cookTime: 3 hr 30 min
+totalTime: '4 hr, plus 12 hr marinating'
 cookingMethods:
   - marinate
   - sear
@@ -118,13 +63,14 @@ advancePrep:
 equipment:
   - nonreactive-covered-container
   - heavy-lidded-casserole
-  - small-saucepan
+  - cheesecloth
   - immersion-blender
-  - instant-read-thermometer
-  - optional-food-safe-spice-sachet
 pairsWith:
   - creamy-polenta
   - everyday-arugula-salad
+pairingNotes:
+  creamy-polenta: The Piedmont way to catch every drop of sauce.
+  everyday-arugula-salad: Peppery greens and lemon after a rich braise.
 formula:
   version: 1
   yield:
@@ -136,21 +82,24 @@ formula:
       ingredients:
         - id: beef-shoulder
           key: beef-shoulder
-          name: boneless beef shoulder for braising
+          name: boneless beef shoulder (cappello di prete)
           quantity:
             amount: 1
             unit: kg
-          preparation: one whole piece; Italian vena or cappello di prete
+          preparation: in one piece
           uses:
             - step: marinate
               share: 1
+          equivalents:
+            - amount: 2 1/4
+              unit: lb
         - id: barolo-wine-bottle
           key: barolo-wine-bottle
-          name: bottle of Barolo wine
-          plural: bottles of Barolo wine
+          name: Barolo
           quantity:
-            amount: 1
-            unit: count
+            amount: 750
+            unit: ml
+          preparation: 1 bottle
           uses:
             - step: marinate
               share: 1
@@ -262,34 +211,29 @@ formula:
           uses:
             - step: sear
               share: 1
+          equivalents:
+            - amount: 3
+              unit: tbsp
         - id: olive-oil
           key: olive-oil
           name: olive oil
           quantity:
             amount: 3
-            max: 4
             unit: tbsp
           uses:
             - step: sear
               share: 1
         - id: salt
           key: salt
-          name: salt
+          name: kosher salt
           allowance: to taste
           uses:
-            - step: braise
-              share: 1
-        - id: finishing-salt
-          key: salt
-          name: salt
-          allowance: to taste when finishing the sauce
-          uses:
-            - step: sauce
+            - step: dry
               share: 1
         - id: hot-water
           key: hot-water
-          name: hot water
-          allowance: only if needed to replace evaporated liquid during braising
+          name: water
+          allowance: if needed
           role: cooking-water
           uses:
             - step: braise
@@ -298,52 +242,51 @@ formula:
     - id: marinate
       title: Marinate overnight
       text: >-
-        Pat the beef dry without rinsing it. Put {{ingredients}} in a covered, nonreactive
-        container, arranging the vegetables and spices around the meat and pouring the wine over
-        everything. Refrigerate at 40°F or colder for 12 hours, turning the meat once if the wine
-        does not cover it.
+        Tie the cloves and peppercorns in a small square of cheesecloth so they are easy to find
+        later. Put {{ingredients}} in a snug, nonreactive container, with the beef in the middle and
+        the wine poured over everything. Cover and refrigerate for 12 hours, turning the beef once.
+    - id: dry
+      title: Drain and season
+      text: >-
+        Lift out the beef, pat it very dry and season it all over with {{ingredients}}. Strain the
+        marinade, keeping the wine and the vegetables and spices separately.
     - id: sear
       title: Brown the beef
       text: >-
-        Lift out the beef and pat it dry. Drain the vegetables and spices, keeping all the wine
-        marinade separately. Heat {{ingredients}} in a heavy casserole over medium-high heat. Brown
-        the beef well on its broad sides, about 5 minutes per side, adjusting the heat so the butter
-        does not burn. Choose a casserole that holds the roast snugly, can close with its lid and
-        has room for all the wine and vegetables.
+        Heat {{ingredients}} over medium-high heat in a heavy lidded casserole that holds the beef
+        snugly. Brown the beef well on all sides, about 5 minutes per side. Lower the heat if the
+        butter starts to burn.
     - id: vegetables
-      title: Cook the vegetables and heat the marinade
+      title: Cook the vegetables
       text: >-
-        Add the drained vegetables and spices to the casserole. Cook for about 15 minutes, moving
-        them around the beef so they soften without burning. Meanwhile, bring the reserved wine
-        marinade to a full boil in a separate saucepan; it has been in contact with raw beef.
+        Add the drained vegetables and spices around the beef. Cook, stirring them now and then,
+        until they soften and color lightly, about 15 minutes.
     - id: braise
-      title: Braise gently
+      title: Braise the beef
       text: >-
-        Have {{ingredients}} ready. Season the beef with salt, then pour all the boiled wine
-        marinade into the casserole. Bring the liquid back to a simmer, cover and reduce the heat to
-        maintain occasional gentle bubbles. Braise for at least 2 hours, turning the meat
-        occasionally and checking that there is still liquid around it. Add a little hot water only
-        if evaporation threatens to dry the pot. Continue until a fork or thin skewer enters the
-        thickest part easily and the meat yields without resistance; a larger or tougher piece may
-        take much longer. Whole beef must reach at least 145°F followed by a 3-minute rest, but this
-        cut needs further cooking to become tender.
+        Pour in the wine and bring it to a boil. Cover, lower the heat so the liquid bubbles gently,
+        and braise, turning the beef every 30 minutes, until a fork slides into the thickest part
+        with no resistance, 2 1/2 to 3 hours. Add a splash of {{ingredients}} if the liquid runs
+        low.
     - id: sauce
-      title: Blend the wine sauce
+      title: Blend the sauce
       text: >-
-        Lift the beef onto a warm board and rest it loosely covered while finishing the sauce, about
-        10 minutes. Remove and discard the bay leaves, rosemary stem, cinnamon, cloves and
-        peppercorns from the pot. Blend the cooked vegetables and wine with an immersion blender
-        until smooth, keeping the blade submerged. Return the sauce to the heat and boil gently for
-        a few minutes, or until it coats a spoon. Adjust with {{ingredients}}.
+        Move the beef to a board and cover it loosely. Fish out the bay leaves, rosemary stem,
+        cinnamon and spice bundle. Blend the vegetables and wine in the pot with an immersion
+        blender until smooth.
+    - id: reduce
+      title: Reduce the sauce
+      text: >-
+        Simmer the sauce uncovered over medium heat, stirring, until it coats a spoon, 5 to 10
+        minutes. Taste and add salt.
     - id: serve
       title: Slice and serve
       text: >-
-        Slice the rested beef across the grain. Arrange it on a warm platter and spoon the hot wine
-        sauce over it. Serve with polenta to catch the sauce.
+        Slice the beef across the grain and lay it on a warm platter. Spoon the hot sauce over the
+        top.
 ingredients:
-  - '--- Braise ---'
-  - '1 kg boneless beef shoulder for braising, one whole piece; Italian vena or cappello di prete'
-  - 1 bottle of Barolo wine
+  - '1 kg (2 1/4 lb) boneless beef shoulder (cappello di prete), in one piece'
+  - '750 ml Barolo, 1 bottle'
   - '2 carrots, cut into large pieces'
   - '2 celery ribs, cut into large pieces'
   - '1 onion, cut into large pieces'
@@ -353,23 +296,24 @@ ingredients:
   - 2 bay leaves
   - 4 black peppercorns
   - 1 small piece of cinnamon stick
-  - 40 g butter
-  - 3–4 tbsp olive oil
-  - 'salt, to taste'
-  - 'salt, to taste when finishing the sauce'
-  - 'hot water, only if needed to replace evaporated liquid during braising'
+  - 40 g (3 tbsp) butter
+  - 3 tbsp olive oil
+  - 'kosher salt, to taste'
+  - 'water, if needed'
 servings: 6 portions
 ---
 
 ## Chef's Note
 
-The Cuneo version keeps Barolo at the center of the dish, with rosemary, cloves and a little cinnamon warming the sauce. Keep the butter and oil for browning, then give the beef the gentle cooking it needs. Blending the vegetables into the wine makes a full sauce for the sliced meat and polenta.
+Brasato al Barolo is the great Sunday braise of Piedmont. Beef shoulder spends a night in a bottle of Barolo, the region's Nebbiolo wine, then cooks slowly in it. This is the Cuneo version recorded by the Accademia Italiana della Cucina, warmed with rosemary, cloves and a little cinnamon, with the vegetables blended into the wine to make the sauce.
 
 ## Directions
 
-1. **Marinate overnight:** Pat the beef dry without rinsing it. Put boneless beef shoulder for braising, bottle of Barolo wine, carrots, celery ribs, onion, rosemary sprig, whole cloves, garlic clove, bay leaves, black peppercorns, and small piece of cinnamon stick in a covered, nonreactive container, arranging the vegetables and spices around the meat and pouring the wine over everything. Refrigerate at 40°F or colder for 12 hours, turning the meat once if the wine does not cover it.
-2. **Brown the beef:** Lift out the beef and pat it dry. Drain the vegetables and spices, keeping all the wine marinade separately. Heat butter and olive oil in a heavy casserole over medium-high heat. Brown the beef well on its broad sides, about 5 minutes per side, adjusting the heat so the butter does not burn. Choose a casserole that holds the roast snugly, can close with its lid and has room for all the wine and vegetables.
-3. **Cook the vegetables and heat the marinade:** Add the drained vegetables and spices to the casserole. Cook for about 15 minutes, moving them around the beef so they soften without burning. Meanwhile, bring the reserved wine marinade to a full boil in a separate saucepan; it has been in contact with raw beef.
-4. **Braise gently:** Have salt and hot water ready. Season the beef with salt, then pour all the boiled wine marinade into the casserole. Bring the liquid back to a simmer, cover and reduce the heat to maintain occasional gentle bubbles. Braise for at least 2 hours, turning the meat occasionally and checking that there is still liquid around it. Add a little hot water only if evaporation threatens to dry the pot. Continue until a fork or thin skewer enters the thickest part easily and the meat yields without resistance; a larger or tougher piece may take much longer. Whole beef must reach at least 145°F followed by a 3-minute rest, but this cut needs further cooking to become tender.
-5. **Blend the wine sauce:** Lift the beef onto a warm board and rest it loosely covered while finishing the sauce, about 10 minutes. Remove and discard the bay leaves, rosemary stem, cinnamon, cloves and peppercorns from the pot. Blend the cooked vegetables and wine with an immersion blender until smooth, keeping the blade submerged. Return the sauce to the heat and boil gently for a few minutes, or until it coats a spoon. Adjust with salt.
-6. **Slice and serve:** Slice the rested beef across the grain. Arrange it on a warm platter and spoon the hot wine sauce over it. Serve with polenta to catch the sauce.
+1. **Marinate overnight:** Tie the cloves and peppercorns in a small square of cheesecloth so they are easy to find later. Put boneless beef shoulder (cappello di prete), Barolo, carrots, celery ribs, onion, rosemary sprig, whole cloves, garlic clove, bay leaves, black peppercorns, and small piece of cinnamon stick in a snug, nonreactive container, with the beef in the middle and the wine poured over everything. Cover and refrigerate for 12 hours, turning the beef once.
+2. **Drain and season:** Lift out the beef, pat it very dry and season it all over with kosher salt. Strain the marinade, keeping the wine and the vegetables and spices separately.
+3. **Brown the beef:** Heat butter and olive oil over medium-high heat in a heavy lidded casserole that holds the beef snugly. Brown the beef well on all sides, about 5 minutes per side. Lower the heat if the butter starts to burn.
+4. **Cook the vegetables:** Add the drained vegetables and spices around the beef. Cook, stirring them now and then, until they soften and color lightly, about 15 minutes.
+5. **Braise the beef:** Pour in the wine and bring it to a boil. Cover, lower the heat so the liquid bubbles gently, and braise, turning the beef every 30 minutes, until a fork slides into the thickest part with no resistance, 2 1/2 to 3 hours. Add a splash of water if the liquid runs low.
+6. **Blend the sauce:** Move the beef to a board and cover it loosely. Fish out the bay leaves, rosemary stem, cinnamon and spice bundle. Blend the vegetables and wine in the pot with an immersion blender until smooth.
+7. **Reduce the sauce:** Simmer the sauce uncovered over medium heat, stirring, until it coats a spoon, 5 to 10 minutes. Taste and add salt.
+8. **Slice and serve:** Slice the beef across the grain and lay it on a warm platter. Spoon the hot sauce over the top.

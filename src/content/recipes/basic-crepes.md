@@ -5,91 +5,44 @@ role: base
 vibe: technical
 difficulty: easy
 prepTime: 10 min
-cookTime: 3 min per crêpe
-totalTime: 1 hr 5 min for one pan (includes 30 min batter rest)
+cookTime: 25 min
+totalTime: '35 min, plus 30 min resting'
 servings: 8 crêpes
 cookingMethods:
   - griddle
 categories: []
-source: allrecipes.com
+source: Adapted from Allrecipes
 ingredients:
   - 2 large eggs
-  - '½ cup milk, or more as needed'
-  - ½ cup water
-  - ¼ teaspoon salt or to taste
+  - '1/2 cup milk, plus more as needed'
+  - 1/2 cup water
+  - 1/4 tsp salt
   - 1 cup all-purpose flour
-  - '2 tablespoons butter, melted'
-  - 'Neutral oil or butter, for greasing the pan'
+  - '2 tbsp unsalted butter, melted'
+  - 'butter or neutral oil, for the pan'
 sourceUrl: 'https://www.allrecipes.com/recipe/16383/basic-crepes/'
 cuisines:
   - French
 learning:
-  focus: Spread a thin batter before it sets
-  outcome: Flexible thin crêpes with set surfaces and lightly browned sides.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep a thin layer of batter in the same pan when scaling; use more or
-      fewer cooking rounds, not a multiplied scoop. The full measured melted
-      butter goes into the batter; the separate grease goes on the pan.
-  checkpoints:
-    - step: 2
-      cue: >-
-        The tilted pan fills with a thin continuous layer before the batter
-        sets.
-      why: >-
-        A thicker puddle changes both the cooking clock and the number of
-        crêpes.
-    - step: 3
-      cue: Both sides are lightly browned and the center is fully set.
-      why: >-
-        The first dry-looking top is the flipping cue; the second side still
-        needs cooking.
-  troubleshooting:
-    - problem: Outside browns before the center sets
-      cause: The pan may be too hot for the thickness of the bread or batter.
-      fix: >-
-        Reduce the pan heat and continue cooking gently until the center is set;
-        do not rely on the crust color alone.
-  timing: >-
-    The original eight-crêpe plan uses about 10 minutes mixing and roughly 2–3
-    minutes per crêpe, plus a 30-minute batter rest: about 1 hour to 1 hour
-    10 minutes elapsed with one pan, including heating and turns. More crêpes
-    require more rounds, not a larger fixed scoop. The rest relaxes the gluten
-    and lets bubbles settle, so the crêpes are more tender and tear less.
   storage: >-
-    Refrigerate promptly at 40°F / 4°C or below, within 2 hours of cooking or 1
-    hour above 90°F. Separate cooked crêpes with paper in a covered container.
-    Use within 2 days refrigerated, or freeze for up to 2 months for best
-    quality; reheat leftovers to 165°F.
-  sources:
-    - title: allrecipes.com
-      url: 'https://www.allrecipes.com/recipe/16383/basic-crepes/'
-    - title: Saved recipe
-      url: >-
-        https://github.com/jsilton/mise/blob/9faedba59b21bb230dcddd530489dc6e86d51bde/src/content/recipes/basic-crepes.md
-    - title: 'FDA — egg handling, cooking and leftovers'
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
-    - title: FDA — raw flour and batter
-      url: >-
-        https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts
+    Stack the cooled crêpes between sheets of parchment. They keep 2 days in the fridge or 2 months
+    in the freezer. Warm them in a buttered skillet.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Keep the full melted butter in the batter and use the separate pan-greasing supply. The batter needs to flow across the pan while you tilt it. If it stays in a thick puddle, stir in a little of the optional extra milk before the next round.
+Crêpes are France's thin, tender pancakes, good wrapped around jam, Nutella, ham and cheese or sautéed mushrooms. Resting the batter is the secret. It lets the flour hydrate and the bubbles settle, so the crêpes come out silky and don't tear. The first one is always a test, so adjust the heat after it.
 
 ## Directions
 
-1. **Mix:** Whisk all the eggs, listed milk, water and salt together. Whisk in all the flour and melted butter until smooth and pourable. Cover and rest the batter at least 30 minutes at room temperature, or refrigerate it up to overnight and whisk again before cooking. After resting, if too thick to spread, add the optional additional milk one tablespoon at a time. Stop when it flows into a thin layer.
-
-2. **Heat and pour:** Heat a frying pan or griddle over medium-high heat and lightly grease it with the separate oil or butter. Start with approximately ¼ cup batter per crêpe and tilt immediately to coat the surface. Use the same thin layer at every recipe scale; pan size may require a different scoop, and the listed yield is approximate.
-
-3. **Cook:** Cook until the upper surface is set rather than wet and the underside is light brown, starting checks after 1–2 minutes. Loosen the edge, flip and cook the second side until light brown and fully set, about 1 minute more. If the first side browns before the top sets, reduce the heat for the next round.
-
-4. **Continue and serve:** Repeat with the remaining batter, lightly regreasing as needed. Serve hot, with separately prepared fillings if wanted. Do not taste uncooked flour-and-egg batter.
+1. **Mix the batter:** In a bowl, whisk the eggs, milk, water and salt. Whisk in the flour and melted butter until smooth.
+2. **Rest the batter:** Cover and let the batter rest at room temperature for at least 30 minutes, or refrigerate it overnight. Whisk again before cooking. If it is thicker than heavy cream, whisk in a splash more milk.
+3. **Heat the pan:** Heat an 8- to 10-inch nonstick or crêpe pan over medium-high heat and grease it lightly.
+4. **Swirl the batter:** Pour a small ladleful of batter into the pan and tilt it right away so the batter coats the bottom in a thin, even layer.
+5. **Cook and flip:** Cook until the top looks dry and the underside is light brown, 1 to 2 minutes. Loosen the edge with a spatula, flip and cook until the second side is spotted brown, about 1 minute more.
+6. **Repeat:** Slide the crêpe onto a plate. Repeat with the rest of the batter, greasing the pan as needed and stacking the crêpes as you go.

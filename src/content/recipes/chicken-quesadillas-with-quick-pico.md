@@ -18,9 +18,9 @@ cuisines:
   - Mexican
 role: main
 vibe: quick
-prepTime: About 15–20 min active
-cookTime: About 15–25 min in skillet loads
-totalTime: About 35–45 min with a skillet
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
 servings: 4 portions
 seasons:
   - year-round
@@ -30,93 +30,49 @@ equipment:
   - skillet
   - cutting-board
 pairsWith:
-  - black-bean-tacos-with-lime-crema
-  - cilantro-lime-rice
-  - everyday-arugula-salad
+  - quick-seasoned-black-beans
+  - mexican-street-corn-salad
+pairingNotes:
+  quick-seasoned-black-beans: Savory beans make it a full dinner.
+  mexican-street-corn-salad: 'Warm, tangy corn on the side.'
 ingredients:
   - '--- Quesadillas ---'
-  - 1 lb cooked shredded rotisserie chicken or other cooked chicken
-  - >-
-    8 8-inch flour tortillas, ready-to-eat, for warming; cook raw tortillas separately according to
-    their package before this recipe
-  - '2 cups shredded Oaxaca or mozzarella cheese, choose one; freshly shredded if possible'
-  - '1 jalapeño, minced; seeds removed for a milder filling'
-  - 1/2 cup diced onion
+  - '1 lb rotisserie chicken, shredded'
+  - '8 flour tortillas, 8-inch'
+  - '2 cups Oaxaca cheese, shredded'
+  - '1 jalapeño, seeded and minced'
+  - '1/2 cup white onion, diced'
   - '--- Pico de gallo ---'
   - '2 ripe tomatoes, diced'
-  - '1/4 onion, finely minced'
+  - '1/4 white onion, finely chopped'
   - '1 jalapeño, minced'
   - '1/4 cup fresh cilantro, chopped'
-  - '1 lime, juice only'
+  - 2 tbsp fresh lime juice
   - 1/2 tsp kosher salt
   - '--- Cooking and serving ---'
   - 2 tbsp vegetable oil
-  - 'Mexican crema or sour cream, as wanted; choose one for serving'
-  - 'lime wedges, as wanted for serving'
+  - 'Mexican crema, for serving'
+  - 'lime wedges, for serving'
 description: >-
-  Folded chicken-and-cheese quesadillas with jalapeño, onion and a cold tomato pico; skillet and
-  griddle routes use the same oil.
+  Folded chicken-and-cheese quesadillas with jalapeño and onion, served with a cold tomato pico de
+  gallo.
 learning:
-  focus: Match tortilla count to the assembly shape and heat the cooked-chicken filling through
-  outcome: >-
-    Golden folded tortillas with melted cheese and a hot chicken center, served with cold, juicy
-    pico.
   techniques:
     - temperature
     - cold-preparation
-  before:
-    - >-
-      Use already cooked chicken; poaching or roasting raw chicken belongs to a separate
-      preparation. Shred it before assembling.
-    - >-
-      The folded route makes one quesadilla per tortilla. At the original quantities that is eight
-      folded quesadillas for four planned portions; the stacked alternative makes four with the same
-      eight tortillas.
-    - >-
-      Choose either skillet or griddle, divide the full measured oil over all loads, and keep each
-      piece flat without overlap. A larger batch requires more loads or more cooking area, not a
-      thicker pile of filling.
-  checkpoints:
-    - step: 2
-      cue: Each tortilla bends without splitting along the fold.
-      why: >-
-        Warmth makes the tortilla easier to handle; a brittle tortilla will crack when the filling
-        is enclosed.
-    - step: 4
-      cue: 'Both faces are golden, the cheese is melted and the filling center measures 165°F / 74°C.'
-      why: A hot pan can brown the outside before refrigerated cooked chicken is uniformly reheated.
-  troubleshooting:
-    - problem: The tortilla browns while the filling is cool
-      cause: The surface heat is too strong for the amount or starting temperature of filling.
-      fix: >-
-        Lower the heat, cover briefly if needed and continue until the center reaches 165°F / 74°C.
-        Distribute filling more evenly in the next load.
   substitutions:
     - ingredient: Oaxaca cheese
-      alternative: 'The same measured volume of mozzarella, choosing it instead of Oaxaca'
-      effect: >-
-        Keeps a mild, stretchy filling with a different cheese flavor. Freshly shredded cheese is
-        preferred, but packaged shredded cheese is usable.
+      alternative: Low-moisture mozzarella or Monterey Jack
+      effect: 'Both melt well. Mozzarella is milder, and Jack is a little tangier.'
+    - ingredient: Mexican crema
+      alternative: Sour cream
+      effect: Thicker and more sour. Thin it with a little lime juice if you like.
   storage: >-
-    Keep pico and crema refrigerated separately from the cooked quesadillas. Chill leftovers
-    promptly in shallow portions within 2 hours, or 1 hour above 90°F / 32°C, and keep at 40°F / 4°C
-    or colder. Use cooked quesadillas within 3–4 days and reheat the filling to 165°F / 74°C
-    throughout; use the skillet or oven to recover some surface crispness. Pico softens as it sits;
-    do not warm it with the quesadillas.
-  timing: >-
-    The original folded batch needs about 15–20 minutes of hands-on preparation/assembly and roughly
-    15–25 minutes of skillet cooking when only a couple fit per load, with some overlap: allow about
-    35–45 minutes. A sufficiently large griddle can reduce the loads, but its capacity is not
-    established here. Stacked rounds, cold filling and extra loads change the clock.
-  sources:
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Leftover quesadillas keep 3 days in the fridge. Reheat them in a dry skillet so they crisp
+    again. The pico is best the day it is made.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -128,36 +84,35 @@ formula:
       ingredients:
         - id: chicken
           key: chicken
-          name: cooked shredded rotisserie chicken or other cooked chicken
+          name: rotisserie chicken
           quantity:
             amount: 1
             unit: lb
           uses:
             - step: assemble
               share: 1
+          preparation: shredded
         - id: tortilla
           key: tortilla
-          name: 8-inch flour tortilla
-          plural: 8-inch flour tortillas
+          name: flour tortilla
+          plural: flour tortillas
           quantity:
             amount: 8
             unit: count
           uses:
             - step: warm
               share: 1
-          preparation: >-
-            ready-to-eat, for warming; cook raw tortillas separately according to their package
-            before this recipe
+          preparation: 8-inch
         - id: cheese
           key: cheese
-          name: shredded Oaxaca or mozzarella cheese
+          name: Oaxaca cheese
           quantity:
             amount: 2
             unit: cup
           uses:
             - step: assemble
               share: 1
-          preparation: choose one; freshly shredded if possible
+          preparation: shredded
         - id: jalapeno
           key: jalapeno
           name: jalapeño
@@ -168,16 +123,17 @@ formula:
           uses:
             - step: assemble
               share: 1
-          preparation: minced; seeds removed for a milder filling
+          preparation: seeded and minced
         - id: onion
           key: onion
-          name: diced onion
+          name: white onion
           quantity:
             amount: 1/2
             unit: cup
           uses:
             - step: assemble
               share: 1
+          preparation: diced
     - id: pico
       name: Pico de gallo
       ingredients:
@@ -194,15 +150,15 @@ formula:
           preparation: diced
         - id: onion
           key: onion
-          name: onion
-          plural: onions
+          name: white onion
+          plural: white onions
           quantity:
             amount: 1/4
             unit: count
           uses:
             - step: pico
               share: 1
-          preparation: finely minced
+          preparation: finely chopped
         - id: jalapeno
           key: jalapeno
           name: jalapeño
@@ -226,15 +182,13 @@ formula:
           preparation: chopped
         - id: lime
           key: lime
-          name: lime
-          plural: limes
+          name: fresh lime juice
           quantity:
-            amount: 1
-            unit: count
+            amount: 2
+            unit: tbsp
           uses:
             - step: pico
               share: 1
-          preparation: juice only
         - id: kosher-salt
           key: kosher-salt
           name: kosher salt
@@ -258,8 +212,8 @@ formula:
               share: 1
         - id: crema
           key: crema
-          name: Mexican crema or sour cream
-          allowance: as wanted; choose one for serving
+          name: Mexican crema
+          allowance: for serving
           uses:
             - step: serve
               share: 1
@@ -267,63 +221,45 @@ formula:
         - id: lime-wedges
           key: lime-wedges
           name: lime wedges
-          allowance: as wanted for serving
+          allowance: for serving
           uses:
             - step: serve
               share: 1
           role: garnish
   steps:
     - id: pico
-      title: Make and chill the pico
-      text: >-
-        Combine {{ingredients}} using the lime juice. Taste, then refrigerate until serving. Count
-        preparation and serving time together: discard cut-tomato salsa left out longer than 2
-        hours, or 1 hour above 90°F / 32°C.
+      title: Make the pico
+      text: 'Stir together {{ingredients}} in a bowl. Taste for salt and chill the pico until serving.'
     - id: warm
       title: Warm the tortillas
       text: >-
-        Heat a dry skillet over medium-low heat. Warm {{ingredients}} individually until pliable,
-        then keep them wrapped in a clean kitchen towel while assembling. Start with the original
-        3–4-minute warming range; use pliability as the cue, and allow longer for more tortillas.
+        Warm the {{ingredients}} one at a time in a dry skillet over medium-low heat until soft and
+        pliable, about 20 seconds per side. Stack them in a clean kitchen towel to keep warm.
     - id: assemble
       title: Fill and fold
       text: >-
-        Divide {{ingredients}} evenly among all the measured tortillas, covering half of each and
-        leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded
-        quesadilla: the original eight tortillas make eight folded quesadillas for four planned
-        portions. For some milder quesadillas, put only chicken and cheese in those and distribute
-        the filling onion and jalapeño among the others; keep the pico separate.
+        Scatter {{ingredients}} over half of each tortilla, leaving a small border, then fold the
+        tortillas over the filling. For milder quesadillas, leave the onion and jalapeño out of a
+        few.
     - id: cook
-      title: Choose the skillet or griddle
+      title: Cook the quesadillas
       text: >-
-        Choose one of these methods and use the full measured {{ingredients}} across its cooking
-        loads. For a skillet, heat over medium-high, spread a share of the oil in it and add only as
-        many folded quesadillas as fit flat without overlap. Start with 2–3 minutes on the first
-        side and 1–2 minutes on the second. For a griddle, spread the same total oil over its
-        cooking area and start checking at 2–3 minutes per side, cooking in loads if they do not all
-        fit. Use the remaining measured oil between loads. In either method, cook until both faces
-        are golden and the chicken filling reaches 165°F / 74°C throughout; check the center of the
-        filling with a thermometer. If the surface browns first, lower the heat and continue,
-        covering briefly if needed to heat the filling.
+        Heat a thin film of {{ingredients}} in the skillet over medium-high heat. Cook two or three
+        quesadillas at a time until golden and the cheese melts, 2 to 3 minutes on the first side
+        and 1 to 2 minutes on the second. Add a little more oil for each batch.
     - id: serve
-      title: Serve with the cold pico
-      text: >-
-        Cut the quesadillas into triangles and divide among the planned portions. Serve promptly
-        with the refrigerated pico and {{ingredients}} on the side.
+      title: Cut and serve
+      text: 'Cut the quesadillas into wedges. Serve them hot with the cold pico, {{ingredients}}.'
 ---
 
 ## Chef's Note
 
-Warm tortillas fold more easily around the chicken, onion, jalapeño and melting cheese. The folded version uses one tortilla per quesadilla; a two-tortilla stacked version is another option. Both use the full chicken and cheese amounts. Keep the pico cold and add it at serving so its fresh crunch contrasts with the warm filling.
+Quesadillas are Mexican home cooking at its simplest, a warm tortilla folded around melting cheese. Oaxaca cheese melts into long, milky strings, and rotisserie chicken makes this a quick weeknight dinner. A fresh pico of tomato, onion, chile and lime keeps every bite bright.
 
 ## Directions
 
-1. **Make and chill the pico:** Combine ripe tomatoes, onion, jalapeño, fresh cilantro, lime, and kosher salt using the lime juice. Taste, then refrigerate until serving. Count preparation and serving time together: discard cut-tomato salsa left out longer than 2 hours, or 1 hour above 90°F / 32°C.
-2. **Warm the tortillas:** Heat a dry skillet over medium-low heat. Warm 8-inch flour tortillas individually until pliable, then keep them wrapped in a clean kitchen towel while assembling. Start with the original 3–4-minute warming range; use pliability as the cue, and allow longer for more tortillas.
-3. **Fill and fold:** Divide cooked shredded rotisserie chicken or other cooked chicken, shredded Oaxaca or mozzarella cheese, jalapeño, and diced onion evenly among all the measured tortillas, covering half of each and leaving a little border. Fold each tortilla over its filling. Each tortilla makes one folded quesadilla: the original eight tortillas make eight folded quesadillas for four planned portions. For some milder quesadillas, put only chicken and cheese in those and distribute the filling onion and jalapeño among the others; keep the pico separate.
-4. **Choose the skillet or griddle:** Choose one of these methods and use the full measured vegetable oil across its cooking loads. For a skillet, heat over medium-high, spread a share of the oil in it and add only as many folded quesadillas as fit flat without overlap. Start with 2–3 minutes on the first side and 1–2 minutes on the second. For a griddle, spread the same total oil over its cooking area and start checking at 2–3 minutes per side, cooking in loads if they do not all fit. Use the remaining measured oil between loads. In either method, cook until both faces are golden and the chicken filling reaches 165°F / 74°C throughout; check the center of the filling with a thermometer. If the surface browns first, lower the heat and continue, covering briefly if needed to heat the filling.
-5. **Serve with the cold pico:** Cut the quesadillas into triangles and divide among the planned portions. Serve promptly with the refrigerated pico and Mexican crema or sour cream and lime wedges on the side.
-
-## Stacked quesadillas
-
-For the two-tortilla version, use the same full chicken, cheese, onion and jalapeño quantities and the same total cooking oil. Pair the measured tortillas, dividing all the filling among the bottom tortillas and covering each with its partner. The original eight tortillas make four stacked quesadillas. Use the skillet or griddle route above with enough room for the whole 8-inch rounds; turn carefully and check the filling reaches 165°F / 74°C. A stacked round may need longer than a folded one. Serve with the same full pico and garnishes.
+1. **Make the pico:** Stir together ripe tomatoes, white onion, jalapeño, fresh cilantro, fresh lime juice, and kosher salt in a bowl. Taste for salt and chill the pico until serving.
+2. **Warm the tortillas:** Warm the flour tortillas one at a time in a dry skillet over medium-low heat until soft and pliable, about 20 seconds per side. Stack them in a clean kitchen towel to keep warm.
+3. **Fill and fold:** Scatter rotisserie chicken, Oaxaca cheese, jalapeño, and white onion over half of each tortilla, leaving a small border, then fold the tortillas over the filling. For milder quesadillas, leave the onion and jalapeño out of a few.
+4. **Cook the quesadillas:** Heat a thin film of vegetable oil in the skillet over medium-high heat. Cook two or three quesadillas at a time until golden and the cheese melts, 2 to 3 minutes on the first side and 1 to 2 minutes on the second. Add a little more oil for each batch.
+5. **Cut and serve:** Cut the quesadillas into wedges. Serve them hot with the cold pico, Mexican crema and lime wedges.

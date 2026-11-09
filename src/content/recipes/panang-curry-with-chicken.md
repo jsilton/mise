@@ -25,17 +25,19 @@ servings: '4'
 pairsWith:
   - steamed-white-rice
   - smashed-cucumber-salad
+pairingNotes:
+  steamed-white-rice: 'Plain rice to carry the rich, thick sauce.'
+  smashed-cucumber-salad: 'Cool, crunchy cucumber against the sweet curry.'
 ingredients:
-  - '450 g boneless skinless chicken thighs, sliced about 1/2 inch thick'
-  - '300 ml full-fat unsweetened coconut milk, divided'
-  - '3 tbsp panang curry paste, or less for a particularly strong paste'
-  - '1 tbsp neutral oil, only if needed when frying the paste'
+  - '1 lb boneless, skinless chicken thighs, thinly sliced'
+  - '1 1/4 cups full-fat coconut milk, divided'
+  - 3 tbsp panang curry paste
+  - 1 tbsp neutral oil (optional)
   - '2 tbsp unsalted roasted peanuts, finely ground'
-  - '150 g red bell pepper, thinly sliced'
-  - '4 makrut lime leaves, central ribs removed and leaves sliced into very fine threads'
-  - '2 tsp palm sugar or brown sugar, added gradually to taste'
-  - '1 tbsp fish sauce, added gradually only as needed'
-  - '2 tbsp water, used only if needed to loosen the sauce'
+  - '4 makrut lime leaves, ribs removed, sliced into thin threads'
+  - '2 tsp palm sugar or brown sugar, divided'
+  - '1 red bell pepper, thinly sliced'
+  - 1 tbsp fish sauce
 origin: Thailand
 seasons:
   - year-round
@@ -49,96 +51,39 @@ equipment:
   - instant-read-thermometer
   - small-grinder-or-mortar
 learning:
-  focus: Build a concentrated sauce before finishing the chicken
-  outcome: >-
-    Tender chicken slices with a thick, spoonable coconut-peanut coating and clear makrut-lime-leaf
-    aroma.
   techniques:
     - seasoning
     - temperature
-  before:
-    - >-
-      This recipe contains peanuts. Check the curry paste too; removing a garnish or choosing
-      sunflower seeds does not automatically make a packaged paste suitable for someone avoiding
-      nuts.
-    - >-
-      Use panang paste and full-fat coconut milk. This recipe measures 300 ml milk rather than
-      assuming that every can size belongs in the pan. Refrigerate unused milk promptly.
-  checkpoints:
-    - step: 2
-      cue: Paste is fragrant and thickened without blackened residue.
-      why: >-
-        Coconut products do not all separate visibly. Fragrance and controlled heat matter more than
-        forcing every can to crack.
-    - step: 3
-      cue: Sauce leaves a brief trail when a spatula crosses the pan.
-      why: >-
-        Reducing excess water before the chicken finishes makes a clinging panang sauce without
-        prolonged meat cooking.
-    - step: 4
-      cue: Chicken centers reach 165°F / 74°C and the sauce remains spoonable.
-      why: >-
-        The sauce should coat the meat, but reducing it to a dry paste can concentrate seasoning and
-        overcook chicken.
-  troubleshooting:
-    - problem: Sauce is thin after chicken cooks
-      cause: The pan was narrow or the sauce needed more reduction before adding meat.
-      fix: >-
-        Lift cooked chicken out, simmer the sauce briefly until thicker, then return chicken. Do not
-        simmer the meat indefinitely to correct sauce consistency.
-    - problem: Sauce is grainy
-      cause: Peanuts were chopped coarsely instead of finely ground.
-      fix: >-
-        A little fine nut texture is normal. Next time grind the nuts to a fine meal; large crunchy
-        pieces are a topping, not the same thickener.
-    - problem: Curry is too sweet or salty
-      cause: The paste already contained seasoning or the full additions went in before tasting.
-      fix: >-
-        Loosen with a little water if over-reduced. Next time stage sugar and fish sauce; brands
-        vary too much for an automatic full addition.
   substitutions:
     - ingredient: Makrut lime leaves
-      alternative: Finely grated zest of 1 lime, stirred in all at once at the end
+      alternative: Zest of 1 lime
+      effect: Brighter and less floral. Stir it all in at the end instead of adding it in two stages.
+    - ingredient: Panang curry paste
+      alternative: Thai red curry paste
+      effect: 'Less nutty and sweet, but the ground peanuts make up some of the difference.'
+    - ingredient: Unsalted roasted peanuts
+      alternative: Toasted sunflower seeds
       effect: >-
-        Gives a bright citrus aroma, though less floral and resinous than the leaves. Skip the
-        step 3 addition and fold the zest in during the final 30 seconds so it stays fresh.
-    - ingredient: Ground roasted peanuts
-      alternative: 2 tbsp finely ground unsalted toasted sunflower seeds
-      effect: >-
-        Gives a different flavor with some similar body. Verify paste and all other ingredients
-        separately; this substitution alone does not establish a nut-free dish.
-    - ingredient: 'Packaged paste, fish sauce and coconut milk'
-      alternative: Versions labeled gluten-free
-      effect: Check every package rather than assuming all panang products have the same ingredients.
-  timing: >-
-    About 40 minutes includes preparation, developing/reducing the sauce and gently cooking the
-    chicken. Plain rice is prepared separately.
+        A different flavor with the same thickening body. Check that your curry paste is nut-free
+        too.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. The peanut sauce thickens when
-    cold; loosen gently with a little water when reheating.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Pailin Chongchitnant — Panang: concentrated sauce, ground peanuts and makrut leaves'
-      url: 'https://hot-thai-kitchen.com/panang-curry/'
+    Keeps 3 days in the fridge. The sauce thickens when cold, so reheat it gently with a splash of
+    water.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Snapguide.com
+    date: '2026-11-09'
+source: Adapted from Snapguide
 sourceUrl: 'https://snapguide.com/guides/cook-homemade-panang-curry/'
 ---
 
 ## Chef's Note
 
-Ground peanuts give this panang curry body, while makrut lime leaves provide its distinctive aroma. Red pepper adds sweetness and color. Grind the peanuts finely so they blend into the thick sauce; panko is not a substitute for their flavor or texture. Serve with rice prepared separately.
+Panang is the richest of the Thai curries, a thick, slightly sweet coconut sauce with ground peanuts and makrut lime leaves. Fry the curry paste in reduced coconut milk first so its aromas open up. Then let the sauce thicken before the chicken goes in, so it clings instead of pooling like soup.
 
 ## Directions
 
-1. **Prepare:** Grind roasted peanuts to a fine meal. Remove the stiff central ribs from lime leaves, stack the leaves and slice into very fine threads. Slice pepper before handling chicken, then slice chicken and clean the work area. Measure the coconut milk and reserve 180 ml, leaving 120 ml for the paste.
-2. **Cook the paste:** Simmer the 120 ml coconut milk in a wide skillet over medium heat about 3–5 minutes until thickened, stirring. Add panang paste and stir for about 2 minutes until fragrant. If no oil releases and paste is sticking, add the measured neutral oil. Do not continue cooking a dry paste simply to force visible splitting.
-3. **Thicken the sauce:** Add the reserved coconut milk, finely ground peanuts, half the lime-leaf threads and half the sugar. Simmer gently about 3–5 minutes, stirring, until the sauce thickens enough to leave a brief spatula trail across the pan.
-4. **Cook chicken and pepper:** Add chicken and pepper, separating the slices in the sauce. Simmer gently about 6–10 minutes, stirring, until several thick chicken slices reach 165°F / 74°C and the pepper is tender with a little bite. Use the measured water in small splashes only if the sauce becomes too dry before chicken cooks.
-5. **Balance and finish:** Taste the fully cooked curry. Start with about 1 tsp fish sauce and add more only if needed; add remaining sugar only if wanted. Fold in the remaining fine lime-leaf threads and warm for about 30 seconds. Serve four modest main portions with separately prepared [plain rice](/mise/recipes/steamed-white-rice).
+1. **Reduce the coconut milk:** Simmer about a third of the coconut milk in a wide skillet over medium heat, stirring, until thick and the oil starts to separate, 3 to 5 minutes.
+2. **Fry the paste:** Add the curry paste and stir until fragrant and a shade darker, about 2 minutes. Add the oil if the paste starts to stick.
+3. **Build the sauce:** Stir in the rest of the coconut milk, the peanuts, half the lime leaves and half the sugar. Simmer gently, stirring, until the sauce is thick enough that a spatula leaves a brief trail, 3 to 5 minutes.
+4. **Cook the chicken:** Add the chicken and bell pepper, separating the slices. Simmer gently, stirring, until the chicken is cooked through and the pepper is tender-crisp, 6 to 10 minutes. Add a splash of water if the sauce gets too thick.
+5. **Season and serve:** Stir in the fish sauce a little at a time, tasting as you go, and the rest of the sugar if it needs it. Fold in the rest of the lime leaves, warm for 30 seconds and serve.

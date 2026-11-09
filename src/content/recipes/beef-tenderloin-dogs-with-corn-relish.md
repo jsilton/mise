@@ -1,6 +1,6 @@
 ---
 miseId: af681778-f292-44b2-8a87-70f356b3e22d
-title: Beef Hot Dogs with Corn Relish
+title: Beef Tenderloin Dogs with Corn Relish
 difficulty: easy
 cookingMethods:
   - bake
@@ -15,6 +15,7 @@ seasons:
 nutritionalDensity: moderate
 leftovers: good
 equipment:
+  - cast-iron-skillet
   - grill
 flavorProfile:
   - sweet
@@ -23,31 +24,31 @@ cuisines:
   - American
 role: main
 vibe: technical
-prepTime: 20 min
-cookTime: 15 min
-totalTime: About 35 min with prepared roasted corn; additional pan loads add time
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
 servings: 4 portions
 pairsWith:
-  - perfect-mashed-potatoes
   - everyday-arugula-salad
+  - coleslaw
+pairingNotes:
+  everyday-arugula-salad: Peppery greens with lemon beside rich beef.
+  coleslaw: 'Cool, crunchy slaw for a cookout plate.'
 ingredients:
-  - '--- Main recipe ---'
-  - >-
-    1 lb center-cut beef tenderloin, cut into one bread-sized strip per listed
-    bread portion; four strips in the original batch
+  - '1 lb center-cut beef tenderloin, cut lengthwise into 4 long strips'
   - 1 tbsp olive oil
   - 1 tsp garlic powder
   - 1 tsp paprika
-  - 'salt and black pepper, to taste for the beef'
-  - 4 6-inch baguette pieces or brioche buns
-  - '1 cup roasted corn kernels, already charred in a pan or oven, cooled'
+  - 'kosher salt and black pepper, for the beef'
+  - '4 brioche hot dog buns or 6-inch baguette pieces, split'
+  - '1 cup corn kernels, fresh or thawed frozen'
   - '1/4 cup red bell pepper, finely diced'
   - '2 tbsp red onion, finely diced'
   - 2 tbsp apple cider vinegar
   - 1 tsp sugar
-  - 'salt and black pepper, to taste for the relish'
-source: Adapted from Foodandwine.com
-sourceUrl: 'http://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish'
+  - 'kosher salt and black pepper, for the relish'
+source: Adapted from Food & Wine
+sourceUrl: 'https://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish'
 formula:
   version: 1
   yield:
@@ -66,9 +67,7 @@ formula:
           uses:
             - step: beef
               share: 1
-          preparation: >-
-            cut into one bread-sized strip per listed bread portion; four strips
-            in the original batch
+          preparation: cut lengthwise into 4 long strips
         - id: oil
           key: olive-oil
           name: olive oil
@@ -98,31 +97,32 @@ formula:
               share: 1
         - id: beef-seasoning
           key: salt-pepper
-          name: salt and black pepper
-          allowance: to taste for the beef
+          name: kosher salt and black pepper
+          allowance: for the beef
           uses:
             - step: beef
               share: 1
         - id: bread
           key: bread
-          name: 6-inch baguette piece or brioche bun
+          name: brioche hot dog bun or 6-inch baguette piece
           quantity:
             amount: 4
             unit: count
           uses:
             - step: bread
               share: 1
-          plural: 6-inch baguette pieces or brioche buns
+          plural: brioche hot dog buns or 6-inch baguette pieces
+          preparation: split
         - id: corn
           key: roasted-corn
-          name: roasted corn kernels
+          name: corn kernels
           quantity:
             amount: 1
             unit: cup
           uses:
-            - step: relish
+            - step: corn
               share: 1
-          preparation: 'already charred in a pan or oven, cooled'
+          preparation: fresh or thawed frozen
         - id: bell
           key: red-bell-pepper
           name: red bell pepper
@@ -150,7 +150,7 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: relish
+            - step: dress
               share: 1
         - id: sugar
           key: sugar
@@ -159,129 +159,70 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: relish
+            - step: dress
               share: 1
         - id: relish-seasoning
           key: salt-pepper
-          name: salt and black pepper
-          allowance: to taste for the relish
+          name: kosher salt and black pepper
+          allowance: for the relish
           uses:
-            - step: relish
+            - step: dress
               share: 1
   steps:
+    - id: corn
+      title: Char the corn
+      text: >-
+        Heat a dry cast-iron skillet over high heat. Add {{ingredients}} and cook, stirring only now
+        and then, until charred in spots, 4 to 5 minutes. Tip it into a bowl to cool.
+    - id: dress
+      title: Mix the dressing
+      text: 'In a small bowl, whisk {{ingredients}} until the sugar dissolves.'
     - id: relish
-      title: Relish
+      title: Make the relish
       text: >-
-        Make the relish with {{ingredients}}. First whisk the vinegar and sugar
-        in a small bowl, then toss with the prepared corn, pepper and onion and
-        season to taste. Keep the relish refrigerated while you cook the beef.
+        Pour the dressing over the corn, add {{ingredients}} and toss well. Let the relish sit while
+        you cook the beef.
     - id: beef
-      title: Season beef
-      text: >-
-        Season {{ingredients}}, rubbing all the oil, powder, paprika and beef
-        seasoning over the prepared strips. Cut one strip for each listed bread
-        portion rather than keeping the original count when scaling.
+      title: Season the beef
+      text: 'Toss {{ingredients}} together until the beef is evenly coated.'
     - id: sear
-      title: Cook
+      title: Sear the beef
       text: >-
-        Heat a cast-iron skillet or grill to high. Sear the beef strips until
-        browned on each side, starting to check after 2–3 minutes per side.
-        Insert a thermometer from the side into the center of each piece and
-        continue cooking until it reaches 145°F / 63°C; lower the heat if the
-        outside browns too quickly. Cook in uncrowded loads if needed, and use
-        clean utensils and a clean plate for the finished strips.
+        Reheat the skillet over high heat, or heat a grill to high. Sear the strips, turning, until
+        browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
     - id: rest
-      title: Rest
-      text: Let the cooked strips rest for 5 minutes before serving.
+      title: Rest the beef
+      text: Move the beef to a plate and let it rest for 5 minutes.
     - id: bread
-      title: Toast bread
-      text: 'Toast {{ingredients}} until golden.'
+      title: Toast the buns
+      text: >-
+        Toast {{ingredients}} cut side down in the skillet or on the grill until golden, about 1
+        minute.
     - id: serve
       title: Assemble
-      text: >-
-        Place one rested beef strip on each bread portion and divide all the
-        relish among them. Serve promptly.
+      text: Tuck a beef strip into each bun and spoon the relish over the top.
 learning:
-  focus: Coordinate a cold relish with individually checked tenderloin strips
-  outcome: >-
-    Browned beef strips with their full five-minute rest, toasted bread and a
-    cold, crunchy corn topping.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep raw meat refrigerated at 40°F / 4°C or below; thaw frozen meat in the
-      refrigerator. Prepare ready-to-eat vegetables with clean tools, then keep
-      them apart from raw meat and its utensils.
-    - >-
-      Have the listed roasted corn ready; roasting fresh kernels adds
-      preparation beyond the assembly plan. Use enough grill or skillet space to
-      brown the strips without crowding.
-    - >-
-      The original batch plans four bread portions. Adjust the strip count to
-      the listed bread count; piece thickness and grill heat determine the
-      cooking time.
-  checkpoints:
-    - step: 3
-      cue: >-
-        Each strip reaches 145°F in its center before the separate five-minute
-        rest.
-      why: >-
-        A browned surface does not establish the center temperature, especially
-        when strips differ in thickness.
-    - step: 6
-      cue: Every sandwich receives beef and a portion of the full chilled relish.
-      why: >-
-        Keeping relish and raw-beef work separate preserves its fresh texture
-        and avoids cross-contact.
-  troubleshooting:
-    - problem: The outside is dark before a strip reaches its endpoint
-      cause: >-
-        High direct heat or a thicker strip cooks the surface faster than the
-        center.
-      fix: >-
-        Lower the heat or move to a cooler grill area, continue checking the
-        center, and keep the five-minute rest.
-  timing: >-
-    About 35 minutes is the inherited plan with corn already roasted. The
-    five-minute beef rest is included in the cooking workflow; extra pan loads
-    or making the corn add time. The chilled-corn variation additionally
-    requires boiling and cold-through relish chilling.
   storage: >-
-    Refrigerate perishable leftovers in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or
-    freeze promptly; follow any shorter remaining limit on prepared components.
-    Reheat cooked meat, rice or casserole portions to 165°F / 74°C throughout.
-    Store bread separately so the relish does not soak it; the vegetables lose
-    crunch with holding.
-  sources:
-    - title: Food & Wine — Beef Tenderloin Dogs
-      url: 'https://www.foodandwine.com/recipes/beef-tenderloin-34dogs-corn-relish'
-    - title: FDA whole-cut temperatures and handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keep the beef and relish separately in the fridge for up to 3 days. The relish is good cold, and
+    the beef slices well for sandwiches.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Tenderloin strips make a cookout sandwich with a crisp crust and a vinegary corn topping. This version uses already roasted corn; keep the relish cold while the beef cooks, and check each strip from the side with a thermometer.
+Food & Wine's luxe take on a hot dog swaps the frank for a strip of seared beef tenderloin. A quick corn relish, sharp with cider vinegar, cuts the richness. Pull the beef at medium-rare so it stays tender and juicy in the bun.
 
 ## Directions
 
-1. **Relish:** Make the relish with roasted corn kernels, red bell pepper, red onion, apple cider vinegar, sugar, and salt and black pepper. First whisk the vinegar and sugar in a small bowl, then toss with the prepared corn, pepper and onion and season to taste. Keep the relish refrigerated while you cook the beef.
-2. **Season beef:** Season center-cut beef tenderloin, olive oil, garlic powder, paprika, and salt and black pepper, rubbing all the oil, powder, paprika and beef seasoning over the prepared strips. Cut one strip for each listed bread portion rather than keeping the original count when scaling.
-3. **Cook:** Heat a cast-iron skillet or grill to high. Sear the beef strips until browned on each side, starting to check after 2–3 minutes per side. Insert a thermometer from the side into the center of each piece and continue cooking until it reaches 145°F / 63°C; lower the heat if the outside browns too quickly. Cook in uncrowded loads if needed, and use clean utensils and a clean plate for the finished strips.
-4. **Rest:** Let the cooked strips rest for 5 minutes before serving.
-5. **Toast bread:** Toast 6-inch baguette pieces or brioche buns until golden.
-6. **Assemble:** Place one rested beef strip on each bread portion and divide all the relish among them. Serve promptly.
-
-## Chilled-corn and seasoned-bread variation
-
-For this separate version adapted from Food & Wine, the original four-portion batch uses 1 cup fresh corn kernels (about two ears in the original batch; measure the kernels), ¼ cup finely diced red bell pepper, 2 tbsp finely diced red onion, 2 tbsp finely diced celery, ¼ cup cider vinegar, 1½ tsp sugar, salt and freshly ground pepper to taste, 3 tbsp canola oil, ½ tsp minced garlic, ½ tsp sweet paprika, ½ tsp dry mustard, ¼ tsp cayenne, 1 lb center-cut tenderloin and one baguette halved lengthwise and cut into four 6-inch pieces. These supplies replace the corresponding roasted-corn version above; scale all of this variation's quantities together for a different batch.
-
-Boil the fresh kernels in enough water to cover for about 2 minutes, drain, cool under running water and pat dry. Combine with all the bell pepper, onion and celery. Heat all the vinegar and sugar with a generous pinch of the separate relish salt and pepper just until the sugar dissolves; pour over the vegetables and refrigerate until chilled. Mix the full canola oil with the fresh garlic, sweet paprika, dry mustard and cayenne, seasoning separately to taste. Divide this seasoned oil in half: rub one half on the beef and brush the other half on the cut bread. Cut one bread-sized strip per bread portion, then grill and check the beef to 145°F / 63°C in each center, followed by the same 5-minute rest. Toast the oiled bread and divide all the chilled relish among the sandwiches. Use enough grill space or additional loads; keep the cold relish out of contact with raw beef. Allow extra elapsed time for boiling and cold-through relish chilling.
+1. **Char the corn:** Heat a dry cast-iron skillet over high heat. Add corn kernels and cook, stirring only now and then, until charred in spots, 4 to 5 minutes. Tip it into a bowl to cool.
+2. **Mix the dressing:** In a small bowl, whisk apple cider vinegar, sugar, and kosher salt and black pepper until the sugar dissolves.
+3. **Make the relish:** Pour the dressing over the corn, add red bell pepper and red onion and toss well. Let the relish sit while you cook the beef.
+4. **Season the beef:** Toss center-cut beef tenderloin, olive oil, garlic powder, paprika, and kosher salt and black pepper together until the beef is evenly coated.
+5. **Sear the beef:** Reheat the skillet over high heat, or heat a grill to high. Sear the strips, turning, until browned all over and 125°F in the center for medium-rare, 6 to 8 minutes.
+6. **Rest the beef:** Move the beef to a plate and let it rest for 5 minutes.
+7. **Toast the buns:** Toast brioche hot dog buns or 6-inch baguette pieces cut side down in the skillet or on the grill until golden, about 1 minute.
+8. **Assemble:** Tuck a beef strip into each bun and spoon the relish over the top.

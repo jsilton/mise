@@ -1,7 +1,7 @@
 ---
 miseId: d86c674b-4145-4f24-9788-4ac273bee26f
 title: Shaved Brussels Sprout Salad
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - no-cook
   - toss
@@ -31,108 +31,41 @@ seasons:
 nutritionalDensity: light
 leftovers: poor
 pairsWith:
-  - buttermilk-baked-chicken
   - rosemary-pork-tenderloin
+  - buttermilk-baked-chicken
+  - roast-turkey-breast
+pairingNotes:
+  rosemary-pork-tenderloin: Tart apple and sharp cheese with roast pork.
+  buttermilk-baked-chicken: A crisp, bright salad beside crunchy chicken.
+  roast-turkey-breast: A fresh holiday side to cut the richness.
 ingredients:
-  - '1 lb Brussels Sprouts, shaved paper-thin'
-  - '1 Granny Smith Apple, matchsticked'
-  - '1 cup Pecorino Romano, finely grated (about 3 oz)'
-  - 1/4 cup Extra-Virgin Olive Oil
-  - 3 tbsp Apple Cider Vinegar
-  - 2 tbsp Honey
-  - Salt and Black Pepper
-source: Adapted from Loveandoliveoil.com
-sourceUrl: 'http://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html'
+  - '1 lb Brussels sprouts, trimmed and shaved paper-thin'
+  - '1 Granny Smith apple, cored and cut into matchsticks'
+  - '1 cup Pecorino Romano, finely grated'
+  - 1/4 cup extra-virgin olive oil
+  - 3 tbsp apple cider vinegar
+  - 2 tbsp honey
+  - 'kosher salt and black pepper, to taste'
+source: Adapted from Love and Olive Oil
+sourceUrl: 'https://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html'
 learning:
-  focus: Allocate dressing between fresh apple and finely shaved sprouts
-  outcome: >-
-    Thin sprouts are evenly dressed and still lightly crisp, with apple pieces
-    and grated Pecorino distributed through the salad.
   techniques:
     - seasoning
     - cold-preparation
-  before:
-    - >-
-      Wash and dry sprouts and apple. Remove damaged outer leaves and tough
-      bases, then shave thinly using a guarded mandoline or a sharp knife. Stop
-      before fingers approach the blade.
-    - >-
-      Keep the total dressing amount intact: set aside a small share for the
-      apple, then use the remainder for sprouts. Add the apple and its reserved
-      dressing back together.
-    - >-
-      Use a bowl roomy enough to toss the listed shaved sprouts. A larger batch
-      needs more preparation/mixing room, not a proportionally longer 15 minute
-      rest.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Apple pieces are lightly coated and the dressing portion stays in that
-        bowl.
-      why: >-
-        Reserved dressing is part of the measured total and returns to the salad
-        with the apple.
-    - step: 3
-      cue: Sprouts are thin strands with large hard core pieces removed.
-      why: Thick chunks remain tougher during a short dressed rest.
-    - step: 4
-      cue: All strands have a light coating after tossing.
-      why: >-
-        Coating and thinness matter more than extending the nominal resting
-        time.
-  troubleshooting:
-    - problem: Raw sprouts are tough
-      cause: Slices are too thick or large hard core chunks remained.
-      fix: >-
-        Slice thinly and remove hard pieces before dressing. A longer wait may
-        soften them but does not reproduce the same finely shaved texture.
-    - problem: Salad is unevenly dressed
-      cause: >-
-        Dressing was left in the apple bowl or sprouts were not turned through
-        it.
-      fix: >-
-        Return the apple and all its reserved dressing, then toss gently. Do not
-        automatically add a second batch of oil/vinegar.
-  substitutions:
-    - ingredient: Granny Smith apple
-      alternative: Another tart green apple
-      effect: A similar tart flavor; cut similarly and include the reserved dressing.
-  timing: >-
-    About 15 minutes preparation and 15 minutes dressed resting give 30 minutes
-    elapsed. Extra refrigerator chilling is optional and adds time; no final
-    chilling step is required after a room-temperature rest. Thin shaving and
-    apple cutting are the active work.
   storage: >-
-    Keep at 40°F / 4°C or below and refrigerate within 2 hours total out of
-    refrigeration, or 1 hour above 90°F / 32°C. Best served on the preparation
-    day; refrigerate leftovers covered and use by the next day for texture. The
-    apple and raw sprouts soften after dressing. Do not use vinegar or the
-    appearance of the apple as a safety test.
-  sources:
-    - title: Adapted from Loveandoliveoil.com
-      url: >-
-        https://www.loveandoliveoil.com/2013/04/shaved-brussels-sprout-salad.html
-    - title: FoodSafety.gov — Clean handling and cold storage
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Best the day it is made. Leftovers keep 1 day in the fridge but soften.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Shave Brussels sprouts into thin strands so a short dressed rest softens them without losing all their crunch. Set aside a little dressing for the apple before tossing the sprouts, then combine everything gently and add the full measured Pecorino. The cheese supplies salt, so taste before adding extra seasoning.
+This salad from Love and Olive Oil turns raw Brussels sprouts into something light and crisp. Shave them paper-thin and let them sit in the honey and cider dressing for 15 minutes so they soften a little but keep their crunch. Tart apple and salty Pecorino Romano finish it.
 
 ## Directions
 
-1. **Mix dressing:** Whisk apple cider vinegar and honey in a large bowl, then drizzle in the oil while whisking. Add the listed salt and pepper to taste, remembering that Pecorino will add salt. The dressing can separate during standing; whisk again when needed.
-
-2. **Prepare apple:** Core the apple and cut fine matchsticks. Move a small portion of the prepared dressing into a separate bowl (about 1 tbsp at the original batch) and toss with the apple. Keep this apple bowl aside; its dressing is taken from the measured total.
-
-3. **Shave sprouts:** Trim tough bases and damaged leaves from washed, dried Brussels sprouts. Use a mandoline with its guard or a sharp knife to shave thinly; discard large hard core pieces.
-
-4. **Dress and rest:** Toss sprouts with the dressing remaining in the large bowl until evenly coated. Let stand 15 minutes, or cover and refrigerate for that interval if preparing ahead.
-
-5. **Finish:** Add the apple and all its reserved dressing to the sprouts, then add the full measured finely grated Pecorino. Toss gently to distribute.
-
-6. **Serve:** Taste before adding any extra salt or pepper. Serve now, or keep refrigerated if waiting; serve cool if preferred without treating additional chilling as part of the 30 minute schedule.
+1. **Make the dressing:** In a large bowl, whisk the vinegar and honey, then whisk in the olive oil. Season lightly with salt and pepper, since the cheese adds salt later.
+2. **Dress the apple:** Toss the apple matchsticks in a small bowl with a spoonful of the dressing so they don't brown.
+3. **Dress the sprouts:** Add the shaved sprouts to the large bowl and toss until every strand is coated. Let stand 15 minutes to soften slightly.
+4. **Finish and serve:** Add the apple with its dressing and the Pecorino and toss gently. Taste, add more pepper and salt if it needs it and serve.

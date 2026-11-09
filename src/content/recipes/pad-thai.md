@@ -16,46 +16,44 @@ cuisines:
   - Thai
 role: main
 vibe: comfort
-prepTime: About 40 min including noodle soaking; product-dependent
-cookTime: About 20 min; longer for extra pan loads
-totalTime: About 1 hour; longer if noodles or pan loads need it
+prepTime: 40 min
+cookTime: 20 min
+totalTime: 1 hr
 servings: 3 portions
 pairsWith:
+  - thai-mango-salad
   - steamed-bok-choy-with-oyster-sauce
-  - cantonese-wonton-broth
+pairingNotes:
+  thai-mango-salad: 'A sour, crunchy salad beside the sweet noodles.'
+  steamed-bok-choy-with-oyster-sauce: A quick green vegetable to round out the plate.
 ingredients:
   - '--- Noodles and sauce ---'
-  - >-
-    1/2 package (1 lb) (8 oz) dried medium Thai rice sticks (sen lek, 3 to 5 mm wide), check the
-    package’s soaking instructions
-  - 'noodle-soaking water, enough to cover the noodles'
-  - >-
-    3 tbsp tamarind paste made from pulp and water, ready to use; not a dry block or undiluted
-    stronger concentrate
-  - '3 tbsp palm sugar or granulated sugar, finely chopped if solid palm sugar'
+  - 8 oz dried medium Thai rice sticks (sen lek)
+  - 3 tbsp tamarind paste
+  - '3 tbsp palm sugar, finely chopped'
   - 2 1/2 tbsp fish sauce
-  - 'water for finishing the noodles, as needed, added one tablespoon at a time'
-  - '--- Stir-fry and garnish ---'
-  - 2 tbsp cooking oil
-  - '1/3 cup extra-firm tofu, drained, patted dry and julienned'
+  - '--- Stir-fry ---'
+  - 2 tbsp vegetable oil
+  - '1/3 cup extra-firm tofu, patted dry, cut into thin matchsticks'
   - '1 shallot, minced'
   - '3 garlic cloves, minced'
   - '1 tbsp preserved sweet radish (chai poh), finely chopped'
-  - '1 tbsp small dried shrimp, chopped if large'
+  - '1 tbsp small dried shrimp, chopped'
   - 1/2 tsp ground dried chili
   - 1 large egg
-  - '1/4 lb shrimp, raw, peeled and deveined; fully thawed if frozen'
-  - '1 1/3 cups fresh bean sprouts, washed and drained'
-  - '1 1/2 cups Chinese chives or green onions, cut into short pieces'
-  - '1/2 cup peanuts, already toasted and crushed'
+  - '1/4 lb shrimp, peeled and deveined'
+  - 1 1/3 cups fresh bean sprouts
+  - '1 1/2 cups Chinese chives, cut into 1-inch pieces'
+  - '--- To serve ---'
+  - '1/2 cup roasted peanuts, crushed'
   - '1/2 lime, cut into wedges'
 origin: Thailand
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from Thaitable.com
-sourceUrl: 'http://www.thaitable.com/thai/recipe/pad-thai'
+source: Adapted from ThaiTable
+sourceUrl: 'https://www.thaitable.com/recipes/pad-thai'
 formula:
   version: 1
   yield:
@@ -67,48 +65,32 @@ formula:
       ingredients:
         - id: noodles
           key: thai-rice-sticks
-          name: 'dried medium Thai rice sticks (sen lek, 3 to 5 mm wide)'
+          name: dried medium Thai rice sticks (sen lek)
           quantity:
-            amount: 1/2
-            unit: package
+            amount: 8
+            unit: oz
           uses:
             - step: soak
               share: 1
-          packageSize:
-            amount: 1
-            unit: lb
-          equivalents:
-            - amount: 8
-              unit: oz
-          preparation: check the package’s soaking instructions
-        - id: soak-water
-          key: water
-          name: noodle-soaking water
-          allowance: enough to cover the noodles
-          uses:
-            - step: soak
-              share: 1
-          role: cooking-water
         - id: tamarind
           key: tamarind-pulp
-          name: tamarind paste made from pulp and water
+          name: tamarind paste
           quantity:
             amount: 3
             unit: tbsp
           uses:
             - step: sauce
               share: 1
-          preparation: ready to use; not a dry block or undiluted stronger concentrate
         - id: sugar
-          key: palm-or-granulated-sugar
-          name: palm sugar or granulated sugar
+          key: palm-sugar
+          name: palm sugar
           quantity:
             amount: 3
             unit: tbsp
           uses:
             - step: sauce
               share: 1
-          preparation: finely chopped if solid palm sugar
+          preparation: finely chopped
         - id: fish-sauce
           key: fish-sauce
           name: fish sauce
@@ -118,28 +100,18 @@ formula:
           uses:
             - step: sauce
               share: 1
-        - id: toss-water
-          key: water
-          name: water for finishing the noodles
-          allowance: 'as needed, added one tablespoon at a time'
-          uses:
-            - step: noodles
-              share: 1
-          role: cooking-water
     - id: stir-fry
-      name: Stir-fry and garnish
+      name: Stir-fry
       ingredients:
         - id: oil
           key: cooking-oil
-          name: cooking oil
+          name: vegetable oil
           quantity:
             amount: 2
             unit: tbsp
           uses:
-            - step: tofu
-              share: 1/2
-            - step: aromatics
-              share: 1/2
+            - step: heat
+              share: 1
         - id: tofu
           key: extra-firm-tofu
           name: extra-firm tofu
@@ -149,7 +121,7 @@ formula:
           uses:
             - step: tofu
               share: 1
-          preparation: 'drained, patted dry and julienned'
+          preparation: 'patted dry, cut into thin matchsticks'
         - id: shallot
           key: shallot
           name: shallot
@@ -191,7 +163,7 @@ formula:
           uses:
             - step: aromatics
               share: 1
-          preparation: chopped if large
+          preparation: chopped
         - id: chili
           key: ground-dried-chili
           name: ground dried chili
@@ -220,7 +192,7 @@ formula:
           uses:
             - step: shrimp
               share: 1
-          preparation: 'raw, peeled and deveined; fully thawed if frozen'
+          preparation: peeled and deveined
         - id: sprouts
           key: bean-sprouts
           name: fresh bean sprouts
@@ -230,27 +202,29 @@ formula:
           uses:
             - step: sprouts
               share: 1
-          preparation: washed and drained
         - id: chives
           key: chinese-chives-or-green-onions
-          name: Chinese chives or green onions
+          name: Chinese chives
           quantity:
             amount: 1 1/2
             unit: cup
           uses:
-            - step: chives
+            - step: sprouts
               share: 1
-          preparation: cut into short pieces
+          preparation: cut into 1-inch pieces
+    - id: garnish
+      name: To serve
+      ingredients:
         - id: peanuts
           key: peanuts
-          name: peanuts
+          name: roasted peanuts
           quantity:
             amount: 1/2
             unit: cup
           uses:
             - step: serve
               share: 1
-          preparation: already toasted and crushed
+          preparation: crushed
         - id: lime
           key: lime
           name: lime
@@ -266,176 +240,100 @@ formula:
     - id: soak
       title: Soak the noodles
       text: >-
-        Use {{ingredients}} to soak the dry noodles according to the package’s stir-fry guidance,
-        checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm
-        or room-temperature soaking is appropriate for Thai rice sticks. Drain when flexible.
-        Prepare the remaining ingredients during the soak.
+        Cover {{ingredients}} with room-temperature water. Soak until they bend easily but are still
+        firm in the center, 30 to 40 minutes, then drain. Prepare everything else while they soak.
     - id: sauce
       title: Mix the sauce
       text: >-
-        Combine {{ingredients}}, stirring to dissolve the sugar. Taste it: it should be sour, salty
-        and sweet at once and taste a little strong on its own. Have the sauce ready before the wok
-        gets hot.
+        Stir {{ingredients}} together until the sugar dissolves. Taste it. It should be sour, salty
+        and sweet at once and a little strong on its own.
+    - id: heat
+      title: Heat the wok
+      text: >-
+        Heat half the {{ingredients}} in a wok or large skillet over medium-high heat until it
+        shimmers.
     - id: tofu
       title: Fry the tofu
       text: >-
-        Have {{ingredients}} ready. Heat this half of the measured cooking oil in a wok or large
-        skillet and fry the tofu until golden and firm, then remove to a plate. Keep the already
-        toasted peanuts for serving.
+        Add {{ingredients}} and fry, turning, until golden and firm, about 3 minutes. Move it to a
+        plate.
     - id: aromatics
-      title: 'Bloom garlic, shallot and chili'
+      title: Fry the aromatics
       text: >-
-        Have {{ingredients}} ready. Heat the remaining measured oil in the wok, then add the
-        shallot, garlic, preserved radish, dried shrimp and dried chili. Stir about 30 seconds until
-        fragrant, keeping the garlic and chili moving so they do not scorch.
+        Add the rest of the oil, then {{ingredients}}. Stir until fragrant, about 30 seconds,
+        keeping the garlic moving so it doesn't scorch.
     - id: noodles
-      title: Toss the noodles and sauce
+      title: Toss the noodles
       text: >-
-        Add the drained noodles and prepared sauce. Stir-fry over high heat, lifting and turning to
-        coat the noodles. Use {{ingredients}} only if the strands remain too firm: add a tablespoon
-        at a time, letting each addition absorb, until the noodles are tender and chewy. Use
-        manageable loads if needed and divide all ingredients proportionally; do not force a thick
-        wet mound into one pan.
+        Turn the heat to high. Add the drained noodles and the sauce and toss until the noodles
+        drink up the sauce and turn soft and chewy, 2 to 3 minutes. If they are still firm and the
+        pan is dry, sprinkle in a spoonful of water and keep tossing.
     - id: egg
-      title: Set the egg
+      title: Scramble the egg
       text: >-
-        Push the noodles aside. Add {{ingredients}} to the cleared space, scramble until set, then
-        fold into the noodles.
+        Push the noodles to one side. Crack the {{ingredients}} into the space, scramble until just
+        set, then fold it through the noodles.
     - id: shrimp
       title: Cook the shrimp
       text: >-
-        Add {{ingredients}} and all the cooked tofu. Toss, starting to check at about 2 minutes, and
-        continue until every shrimp is firm, pearly and opaque. Pink color and the short time alone
-        are not doneness checks.
+        Add {{ingredients}} and the fried tofu. Toss until the shrimp are pink and opaque all the
+        way through, about 2 minutes.
     - id: sprouts
-      title: Cook the sprouts
+      title: Add the sprouts
       text: >-
-        Fold in {{ingredients}}. Start checking at about 15 seconds, but continue until thoroughly
-        cooked rather than lightly warmed, especially when serving children or other diners
-        vulnerable to foodborne illness.
-    - id: chives
-      title: Finish with chives
-      text: >-
-        Fold in {{ingredients}} and toss briefly, just until they soften. The noodles should be
-        chewy and coated, without a pool of loose sauce.
+        Add {{ingredients}} and toss until the sprouts are hot and the chives just wilt, about 1
+        minute. There should be no pool of sauce in the pan.
     - id: serve
       title: Serve
       text: >-
-        Divide the noodles among the portions and top with all the {{ingredients}}. Serve
-        immediately; squeeze the lime over the noodles at the table.
+        Pile the noodles onto plates and top with {{ingredients}}. Squeeze the lime over at the
+        table.
 learning:
-  focus: Judge noodle hydration before and during a fast Pad Thai stir-fry
-  outcome: >-
-    Chewy, evenly seasoned rice noodles with set egg, fully cooked shrimp, tofu and sprouts,
-    finished with the full peanut garnish and lime.
   techniques:
     - starch
     - stir-frying
     - seasoning
-  before:
-    - >-
-      The original batch uses half of a 1-pound package, or 8 ounces. At any batch size, follow the
-      listed noodle weight if your package has a different size. Medium Thai rice sticks (sen lek)
-      are about the width of linguine and are often sold as pad Thai noodles in supermarkets.
-    - >-
-      Use ready-to-use tamarind pulp-and-water paste for the measured sauce. A dry block or
-      undiluted stronger concentrate is not the same measured ingredient; check the product’s form
-      and strength.
-    - >-
-      Have the sauce mixed, aromatics minced and tofu dried before heating the wok. The peanuts are
-      already toasted and go on the finished noodles.
-  checkpoints:
-    - step: 1
-      cue: A drained strand bends without being fully expanded and soft.
-      why: >-
-        It will absorb sauce and any small additions of water in the pan; oversoaked noodles can
-        lose their chew.
-    - step: 5
-      cue: The noodles are tender and chewy without free liquid pooling in the wok.
-      why: >-
-        Their remaining hydration need varies by width and product; adding water gradually avoids
-        flooding the measured sauce.
-    - step: 7
-      cue: 'Every shrimp is firm, pearly and opaque.'
-      why: >-
-        A pink surface can appear before a thick shrimp is fully cooked, and more pan loads change
-        the clock.
-  troubleshooting:
-    - problem: Noodles remain hard
-      cause: The soak was too short for their width or they need more hydration in the wok.
-      fix: >-
-        Use the listed finishing-water allowance one tablespoon at a time, tossing and letting it
-        absorb before another addition. Taste a noodle for tenderness before adding more water.
-    - problem: Noodles break into a soft mass
-      cause: They were oversoaked or aggressively stirred.
-      fix: >-
-        Lift and turn gently; a broken, overhydrated strand cannot regain its original structure.
-        For the next batch, stop soaking when strands bend but remain firm.
   substitutions:
+    - ingredient: Tamarind paste
+      alternative: Tamarind concentrate
+      effect: >-
+        The thick jarred concentrate is much stronger. Start with half as much, thin it with water
+        and taste the sauce.
+    - ingredient: Palm sugar
+      alternative: Light brown sugar
+      effect: 'A little less caramel depth, but it dissolves faster.'
     - ingredient: Preserved sweet radish (chai poh)
       alternative: Leave it out
       effect: >-
-        You lose a little sweet-salty crunch. Taste the finished noodles and add fish sauce a
-        teaspoon at a time if they need more savory depth.
+        You lose a little sweet, salty crunch. Taste the finished noodles and add a splash more fish
+        sauce if they need it.
     - ingredient: Small dried shrimp
-      alternative: Leave them out and add about 1 tsp more fish sauce to the sauce
-      effect: >-
-        The noodles are less deeply savory, but the extra fish sauce covers most of the missing salt
-        and umami.
+      alternative: Leave them out
+      effect: Add 1 tsp more fish sauce to the sauce to make up some of the savory depth.
     - ingredient: Chinese chives
       alternative: Green onions
-      effect: >-
-        Green onions give a sharper onion flavor; cut the thicker white parts finely enough to
-        soften in the brief final toss.
+      effect: Sharper and more oniony. Slice the white parts thin so they soften in time.
   storage: >-
-    Refrigerate in shallow containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F /
-    4°C or colder and use within 3–4 days. Reheat leftovers to 165°F / 74°C throughout, turning and
-    stirring for even heating. Rice noodles soften and peanuts lose crunch against sauce; keep any
-    garnish intended for leftovers separate.
-  timing: >-
-    Allow about 1 hour for the original batch, with roughly 40 minutes of noodle soaking and
-    overlapping preparation and about 20 minutes at the stove. The soak is governed by the actual
-    noodle package and bending cue, not a mandatory 40 minutes. Longer soaking, thoroughly cooking
-    sprouts and extra pan loads extend elapsed time.
-  sources:
-    - title: ThaiTable — Pad Thai
-      url: 'https://www.thaitable.com/recipes/pad-thai'
-    - title: ThaiTable — Thai rice noodles
-      url: 'https://www.thaitable.com/ingredients/thai-rice-noodles'
-    - title: ThaiTable — Tamarind
-      url: 'https://www.thaitable.com/ingredients/tamarind'
-    - title: FDA — Selecting and serving seafood safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FDA — Selecting and serving produce safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Best eaten right away. Leftovers keep 2 days in the fridge and reheat in a skillet with a splash
+    of water.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Pad Thai combines tamarind, fish sauce and sugar with chewy rice noodles, shrimp, tofu, lime and peanuts. This version uses medium Thai rice sticks, preserved radish and dried shrimp for chew and savory depth, with a generous toasted-peanut garnish. Have everything ready before frying so you can judge noodle hydration as you toss. For less heat, omit the dried chili.
+Pad Thai is Thailand's best-known noodle dish, chewy rice sticks tossed with a sour, salty and sweet sauce of tamarind, fish sauce and palm sugar. Preserved radish and dried shrimp give it the savory depth that most takeout versions miss. Have everything chopped and lined up before the wok gets hot, because it cooks in minutes.
 
 ## Directions
 
-1. **Soak the noodles:** Use dried medium Thai rice sticks (sen lek, 3 to 5 mm wide) and noodle-soaking water to soak the dry noodles according to the package’s stir-fry guidance, checking for strands that bend but remain firm rather than fully expanded and soft. Lukewarm or room-temperature soaking is appropriate for Thai rice sticks. Drain when flexible. Prepare the remaining ingredients during the soak.
-2. **Mix the sauce:** Combine tamarind paste made from pulp and water, palm sugar or granulated sugar, and fish sauce, stirring to dissolve the sugar. Taste it: it should be sour, salty and sweet at once and taste a little strong on its own. Have the sauce ready before the wok gets hot.
-3. **Fry the tofu:** Have 1/2 of the cooking oil and extra-firm tofu ready. Heat this half of the measured cooking oil in a wok or large skillet and fry the tofu until golden and firm, then remove to a plate. Keep the already toasted peanuts for serving.
-4. **Bloom garlic, shallot and chili:** Have 1/2 of the cooking oil, shallot, garlic cloves, preserved sweet radish (chai poh), small dried shrimp, and ground dried chili ready. Heat the remaining measured oil in the wok, then add the shallot, garlic, preserved radish, dried shrimp and dried chili. Stir about 30 seconds until fragrant, keeping the garlic and chili moving so they do not scorch.
-5. **Toss the noodles and sauce:** Add the drained noodles and prepared sauce. Stir-fry over high heat, lifting and turning to coat the noodles. Use water for finishing the noodles only if the strands remain too firm: add a tablespoon at a time, letting each addition absorb, until the noodles are tender and chewy. Use manageable loads if needed and divide all ingredients proportionally; do not force a thick wet mound into one pan.
-6. **Set the egg:** Push the noodles aside. Add large egg to the cleared space, scramble until set, then fold into the noodles.
-7. **Cook the shrimp:** Add shrimp and all the cooked tofu. Toss, starting to check at about 2 minutes, and continue until every shrimp is firm, pearly and opaque. Pink color and the short time alone are not doneness checks.
-8. **Cook the sprouts:** Fold in fresh bean sprouts. Start checking at about 15 seconds, but continue until thoroughly cooked rather than lightly warmed, especially when serving children or other diners vulnerable to foodborne illness.
-9. **Finish with chives:** Fold in Chinese chives or green onions and toss briefly, just until they soften. The noodles should be chewy and coated, without a pool of loose sauce.
-10. **Serve:** Divide the noodles among the portions and top with all the peanuts and lime. Serve immediately; squeeze the lime over the noodles at the table.
-
-## Sprout variation
-
-For a raw-sprout garnish, reserve half the measured sprouts before frying and cook the other half with the noodles; the reserved half replaces part of the cooked sprouts. Children, older adults, pregnant people and people with weakened immune systems should avoid raw or lightly cooked sprouts; use the fully cooked route for them.
+1. **Soak the noodles:** Cover dried medium Thai rice sticks (sen lek) with room-temperature water. Soak until they bend easily but are still firm in the center, 30 to 40 minutes, then drain. Prepare everything else while they soak.
+2. **Mix the sauce:** Stir tamarind paste, palm sugar, and fish sauce together until the sugar dissolves. Taste it. It should be sour, salty and sweet at once and a little strong on its own.
+3. **Heat the wok:** Heat half the vegetable oil in a wok or large skillet over medium-high heat until it shimmers.
+4. **Fry the tofu:** Add extra-firm tofu and fry, turning, until golden and firm, about 3 minutes. Move it to a plate.
+5. **Fry the aromatics:** Add the rest of the oil, then shallot, garlic cloves, preserved sweet radish (chai poh), small dried shrimp, and ground dried chili. Stir until fragrant, about 30 seconds, keeping the garlic moving so it doesn't scorch.
+6. **Toss the noodles:** Turn the heat to high. Add the drained noodles and the sauce and toss until the noodles drink up the sauce and turn soft and chewy, 2 to 3 minutes. If they are still firm and the pan is dry, sprinkle in a spoonful of water and keep tossing.
+7. **Scramble the egg:** Push the noodles to one side. Crack the large egg into the space, scramble until just set, then fold it through the noodles.
+8. **Cook the shrimp:** Add shrimp and the fried tofu. Toss until the shrimp are pink and opaque all the way through, about 2 minutes.
+9. **Add the sprouts:** Add fresh bean sprouts and Chinese chives and toss until the sprouts are hot and the chives just wilt, about 1 minute. There should be no pool of sauce in the pan.
+10. **Serve:** Pile the noodles onto plates and top with roasted peanuts and lime. Squeeze the lime over at the table.

@@ -22,7 +22,7 @@ vibe: quick
 prepTime: 15 min
 cookTime: 15 min
 totalTime: 30 min
-servings: 4 light portions
+servings: '4'
 seasons:
   - spring
   - summer
@@ -35,101 +35,63 @@ equipment:
 pairsWith:
   - steamed-white-rice
   - smashed-cucumber-salad
+  - steamed-bok-choy-with-oyster-sauce
+pairingNotes:
+  steamed-white-rice: Spoon extra filling over rice for a fuller dinner.
+  smashed-cucumber-salad: Cold, garlicky and sour against the sweet glaze.
+  steamed-bok-choy-with-oyster-sauce: A quick green that cooks in a few minutes.
 ingredients:
-  - 1 lb (450 g) ground chicken or ground turkey
+  - 1 lb ground chicken
   - 1 tbsp neutral oil
-  - '100 g drained canned water chestnuts, finely diced'
-  - '4 fresh shiitake mushrooms (about 60 g), stemmed and finely diced'
-  - '1/2 cup sliced scallions, whites and greens separated'
-  - 1/4 cup (60 ml) hoisin sauce
+  - '2/3 cup (100 g) canned water chestnuts, drained and finely diced'
+  - '4 fresh shiitake mushrooms, stemmed and finely diced'
+  - '1/2 cup scallions, sliced, whites and greens separated'
+  - 1/4 cup hoisin sauce
   - 1 tbsp soy sauce
   - 1 tbsp unseasoned rice vinegar
-  - '2 tbsp water, plus more if needed'
-  - 1 tbsp grated fresh ginger
+  - 2 tbsp water
+  - '1 tbsp fresh ginger, grated'
   - '2 cloves garlic, minced'
   - 1 tsp toasted sesame oil
-  - '1 large head butter lettuce, leaves separated (about 12 usable leaves)'
-  - '1/2 cup purchased ready-to-eat crispy rice noodles, optional'
+  - '1 large head butter lettuce, leaves separated, washed and dried'
+  - 1/2 cup crispy rice noodles (optional)
 origin: Chinese-American-inspired
 description: >-
-  A moist hoisin-ginger chicken filling with crisp water chestnuts and shiitakes, served in cold, dry lettuce leaves. Learn
-  to reduce a glaze without drying out the meat.
+  A glossy hoisin-ginger chicken filling with crisp water chestnuts and shiitakes, served in cold
+  butter lettuce leaves.
 learning:
-  focus: Keep the filling moist and the lettuce crisp
-  outcome: >-
-    Small pieces of chicken with a clinging glaze, crunchy water chestnuts and savory shiitakes,
-    and cool leaves that can be folded around the filling.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Wash and thoroughly dry the lettuce, then refrigerate it until serving. Wet leaves make
-      slippery wraps.
-    - >-
-      Hoisin is already sweet and salty; measure the additional soy sauce before adjusting
-      seasoning.
-  checkpoints:
-    - step: 3
-      cue: Chicken has some golden edges and the shiitakes have softened.
-      why: >-
-        Brief browning adds flavor, but cooking until every piece is crisp would dry this small
-        ground-meat filling.
-    - step: 4
-      cue: The glaze clings and the chicken reaches 165°F / 74°C.
-      why: A bubbling sauce does not establish the center temperature of every poultry cluster.
-  troubleshooting:
-    - problem: Filling leaks from the leaves
-      cause: The sauce is too watery or the cups are overfilled.
-      fix: >-
-        Reduce the filling briefly in the skillet, checking it stays moist, and use smaller
-        spoonfuls. Double up small lettuce leaves.
-    - problem: Glaze is sticky or too salty
-      cause: 'Bottled sauces vary, or too much water evaporated.'
-      fix: >-
-        Add water one tablespoon at a time. Serve with more plain lettuce or rice; extra vinegar
-        does not remove salt.
   substitutions:
     - ingredient: Water chestnuts
-      alternative: 1 cup (100 g) finely diced celery
+      alternative: 1 cup finely diced celery
       effect: >-
-        A fresher, greener crunch. Add it with the shiitakes and scallion whites so it softens
-        slightly but stays firm.
+        A fresher, greener crunch. Add it with the shiitakes so it softens slightly but stays firm.
     - ingredient: Fresh shiitake mushrooms
-      alternative: The same weight of cremini mushrooms
-      effect: Milder and less meaty. Cook until their liquid evaporates before adding the aromatics.
+      alternative: Cremini mushrooms
+      effect: 'Milder and less meaty. Cook until their liquid cooks off before adding the garlic.'
     - ingredient: Ground chicken
       alternative: Ground turkey
-      effect: >-
-        Use the same 165°F / 74°C endpoint. Very lean turkey dries faster; keep a little loosened
-        sauce around it.
-  timing: >-
-    30 minutes includes washing and drying the leaves. Four light portions make about three wraps
-    each; add plain rice for a fuller dinner.
+      effect: 'Leaner, so it dries out faster. Take it off the heat as soon as it is glazed.'
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store the cooked filling
-    separately. Keep washed, dried lettuce refrigerated and fill it only when serving.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    The filling keeps 3 days in the fridge. Store it apart from the lettuce and reheat it in a
+    skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-These Chinese-American-inspired wraps depend on contrast: warm, savory chicken against cool, crisp lettuce. Water chestnuts give the filling its clean crunch and shiitakes add savory depth. Celery is a good alternative with a fresher, greener crunch. Hoisin provides sweetness and salt, so the sauce needs only a modest amount of additional soy.
+Lettuce wraps are a Chinese-American restaurant favorite with roots in Cantonese minced squab served in lettuce cups. The pleasure is the contrast of a warm, glossy hoisin-ginger filling against cold, crisp lettuce. Water chestnuts give the clean crunch and shiitakes add savory depth.
 
 ## Directions
 
-1. **Prepare leaves and sauce:** Wash and dry the lettuce leaves and chill them. Mix hoisin, soy sauce, vinegar, and water in a small bowl. Separate scallion whites from greens.
-2. **Start the chicken:** Heat neutral oil in a wide skillet over medium-high heat. Add chicken and break into small pieces. Cook 5–6 minutes, stirring occasionally, until released liquid mostly evaporates and some edges begin to brown.
-3. **Add mushrooms, crunch and aromatics:** Add shiitakes and scallion whites and cook 2–3 minutes until the mushrooms soften. Lower heat to medium, add water chestnuts, ginger and garlic, and stir for 30 seconds, keeping the garlic from scorching. The water chestnuts need only heating.
-4. **Glaze and check:** Add the hoisin mixture. Simmer, stirring, for 2–3 minutes until it coats the filling. Check several thick clusters reach 165°F / 74°C, keeping the thermometer tip off the hot pan. Continue cooking if necessary; add a spoonful of water if the glaze becomes sticky.
-5. **Finish and serve:** Turn off heat and stir in sesame oil and scallion greens. Transfer to a serving bowl and let stand briefly until no longer fiercely steaming. Spoon small portions into the lettuce at the table, adding ready-to-eat crispy noodles if desired. Keep the rest of the leaves unfilled until needed.
+1. **Chill the lettuce:** Keep the washed, dried lettuce leaves in the fridge until serving. Dry leaves stay crisp and hold the filling.
+2. **Mix the sauce:** Stir the hoisin, soy sauce, rice vinegar and water together in a small bowl.
+3. **Brown the chicken:** Heat the oil in a wide skillet over medium-high heat. Add the chicken and break it into small pieces. Cook, stirring now and then, until its liquid cooks off and some edges turn golden, 5 to 6 minutes.
+4. **Cook the mushrooms:** Add the shiitakes and scallion whites. Cook, stirring, until the mushrooms soften, 2 to 3 minutes.
+5. **Add the aromatics:** Lower the heat to medium. Add the water chestnuts, ginger and garlic and stir until fragrant, about 30 seconds.
+6. **Glaze the filling:** Pour in the sauce and simmer, stirring, until it clings to the filling and the chicken reaches 165°F, 2 to 3 minutes. Add a spoonful of water if the glaze turns sticky.
+7. **Finish and serve:** Take the pan off the heat and stir in the sesame oil and scallion greens. Spoon the filling into the cold lettuce leaves at the table and top with crispy rice noodles.

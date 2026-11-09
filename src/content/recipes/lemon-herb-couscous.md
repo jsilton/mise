@@ -19,8 +19,8 @@ role: base
 vibe: quick
 prepTime: 10 min
 cookTime: 5 min
-totalTime: 20 min
-servings: 4 side portions
+totalTime: 15 min
+servings: '4'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -30,105 +30,53 @@ equipment:
   - fork
   - fine-grater
 pairsWith:
-  - greek-style-lamb-burgers-with-yogurt-cucumber-sauce
-  - falafel
   - chicken-shawarma
-  - greek-village-salad
+  - falafel
+  - moroccan-chicken-tagine-apricot-chickpea
+pairingNotes:
+  chicken-shawarma: Herby couscous under spiced chicken and tahini.
+  falafel: A light grain to round out a falafel plate.
+  moroccan-chicken-tagine-apricot-chickpea: Couscous soaks up the tagine sauce.
 ingredients:
-  - '250 g plain instant couscous; not pearl couscous'
-  - '420 ml low-sodium vegetable or chicken broth, adjusted to the chosen package instructions'
+  - 1 1/2 cups instant couscous
+  - 1 3/4 cups low-sodium vegetable or chicken broth
+  - 1/2 tsp fine salt
   - 2 tbsp olive oil
-  - '2 tbsp fresh lemon juice, divided and partly added to taste'
-  - 1 tsp finely grated lemon zest
-  - 2 tbsp chopped fresh parsley
-  - 2 tbsp chopped fresh mint
-  - '1/4 tsp fine salt, added only as needed'
-  - 1/4 tsp ground black pepper
-  - '40 g crumbled feta, optional'
+  - 2 tbsp fresh lemon juice
+  - '1 tsp lemon zest, finely grated'
+  - '2 tbsp fresh parsley, chopped'
+  - '2 tbsp fresh mint, chopped'
+  - 1/4 tsp black pepper
+  - '1/4 cup feta, crumbled (optional)'
 origin: Mediterranean-inspired home accompaniment
 description: 'Fine instant couscous hydrated off heat and finished with lemon, olive oil, parsley and mint.'
 dietary:
   - vegan-option
   - vegetarian-option
 learning:
-  focus: Match hydration to the instant product and add fresh flavors after fluffing
-  outcome: >-
-    Tender, loose small grains with lemon aroma and fresh herbs, without a hard center or wet
-    clumps.
   techniques:
     - starch
     - seasoning
-  before:
-    - >-
-      Choose plain instant couscous intended for off-heat hydration. Pearl couscous and traditional
-      non-instant couscous need different cooking methods.
-    - >-
-      The 420 ml starting liquid is for 250 g plain instant couscous.
-      Follow the actual package if it calls for a different amount or rest.
-  checkpoints:
-    - step: 2
-      cue: The couscous stands tightly covered off the heat for the package’s hydration time.
-      why: >-
-        Instant couscous has already been processed for quick hydration. Continuing to boil it can
-        turn the small grains into a wet mass.
-    - step: 3
-      cue: 'There is no pool of liquid, and a tasted grain has no dry center.'
-      why: 'Hydration is confirmed by texture, not simply by reaching a five-minute timer.'
-    - step: 4
-      cue: A fork separates the grains before lemon and chopped herbs are folded through.
-      why: >-
-        Gentle lifting keeps the grains loose; adding herbs after cooking preserves more of their
-        fresh aroma.
-  troubleshooting:
-    - problem: Couscous is dry and gritty
-      cause: 'It needed more liquid, the starting broth was not boiling, or the lid leaked.'
-      fix: >-
-        Sprinkle over 1–2 tbsp boiling water, cover and wait another 3 minutes. Check again before
-        adding more; do not drown it with a second full measure.
-    - problem: Couscous is wet and clumpy
-      cause: Too much liquid was used for the product or the grains were stirred roughly.
-      fix: >-
-        Spread gently in a broad dish to release steam. Do not keep mashing with a spoon; severely
-        overhydrated grains cannot be made separate again.
   substitutions:
-    - ingredient: Chicken broth and optional feta
-      alternative: Use the same quantity of vegetable broth and omit feta
-      effect: >-
-        Makes a vegan version with suitable packaged ingredients. The oil, lemon and herbs still
-        provide a complete finish.
-    - ingredient: Mint
-      alternative: 2 tbsp additional parsley
-      effect: Keeps a fresh herbal finish with less cooling mint aroma.
-  timing: >-
-    About twenty minutes includes herb chopping and zesting, heating broth, a typical five-minute
-    covered hydration and finishing. Package instructions and extra hydration corrections can extend
-    this.
+    - ingredient: Chicken broth and feta
+      alternative: Vegetable broth and no feta
+      effect: Makes the couscous vegan. The lemon and herbs carry the flavor.
+    - ingredient: Fresh mint
+      alternative: More parsley
+      effect: Still fresh and green, without the cool mint note.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Best on the day for herb aroma.
-    For making ahead, refrigerate the hydrated couscous separately from herbs and feta; reheat with
-    a small splash of water to 165°F / 74°C, then finish the portion being served.
-  sources:
-    - title: Near East — Original Plain couscous preparation
-      url: 'https://www.neareast.com/products/original-plain'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge. Serve it cold, or warm it with a splash of water and add fresh herbs.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The quick method depends on using instant couscous. Its small grains absorb boiling liquid off the heat, while pearl couscous needs simmering. Fluff first, then add olive oil, lemon and herbs so the finished side stays loose and fragrant.
+Couscous is the staple of North African cooking, and the instant kind makes it a five-minute side: pour it into boiling broth, cover and wait. Season the broth so the grains taste good on their own, then dress the couscous while it's warm so it soaks up the lemon and olive oil.
 
 ## Directions
 
-1. **Prepare and heat:** Chop parsley and mint, grate lemon zest and measure the juice. Check the package’s liquid guidance for the measured couscous quantity; use the listed broth amount for the starting formula. Bring the broth to a full boil in a 2-quart saucepan.
-2. **Hydrate off heat:** Remove from heat, stir in couscous, and cover immediately. Let stand about 5 minutes, or the package’s stated time. Keep the lid on during this initial rest.
-3. **Check and fluff:** Uncover and taste a grain. It should be tender without a dry center and there should be no free liquid. If still dry, use the small hot-water correction in troubleshooting. Fluff with a fork, lifting rather than pressing.
-4. **Dress:** Fold in olive oil, half the measured lemon juice, zest and pepper. Let excess steam escape for a minute, then fold in parsley and mint. Taste before adding the remaining lemon juice and measured salt; broth and optional feta may already supply enough salt.
-5. **Serve:** Divide into four sides and add the optional feta. Pair with a main and vegetables; the couscous is the starch component of the plate.
+1. **Boil the broth:** Bring the broth and salt to a full boil in a 2-quart saucepan.
+2. **Steam the couscous:** Take the pan off the heat, stir in the couscous and cover tightly. Let it stand until the liquid is absorbed and the grains are tender, 5 minutes.
+3. **Fluff and dress:** Fluff with a fork, lifting rather than pressing. While it's warm, fold in the oil, lemon juice, zest and pepper, then the parsley and mint. Taste for salt and top with the feta.

@@ -19,115 +19,56 @@ role: dessert
 vibe: holiday
 prepTime: 20 min
 cookTime: 20 min
-totalTime: 'About 1 1/2–2 hr, plus extra frosting chilling if needed'
-servings: 'Original batch: four mini cakes plus six to eight muffins'
+totalTime: '40 min, plus 1 hr cooling'
+servings: 4 mini cakes plus 6 to 8 muffins
 advancePrep:
   - cool-completely
 ingredients:
+  - '--- Cake ---'
   - 4 very ripe bananas
-  - 1/2 cup natural unsweetened applesauce
+  - 1/2 cup unsweetened applesauce
   - '3 tbsp coconut oil, melted'
-  - '3 tsp vanilla extract, for batter'
+  - 1 tbsp vanilla extract
   - 3/4 cup whole wheat flour
-  - '3/4 cup oat flour, grind rolled oats then measure'
+  - '3/4 cup oat flour (rolled oats ground in a blender)'
   - 1 tsp baking soda
   - 1 tsp ground cinnamon
-  - 'Oil as needed, for greasing pans'
+  - 'oil, for the pans'
+  - '--- Frosting ---'
   - '8 oz cream cheese, softened'
-  - '1/2 cup apple juice concentrate, thawed and undiluted'
-  - '2 tsp vanilla extract, for frosting'
+  - '1/2 cup frozen apple juice concentrate, thawed, not diluted'
+  - 2 tsp vanilla extract
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - best-cinnamon-roll-recipe-cinnabon-copycat
-  - best-homemade-brownies
-source: Adapted from fitmamarealfood.com
-sourceUrl: >-
-  http://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/
+source: Adapted from Fit Mama Real Food
+sourceUrl: 'https://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/'
 learning:
-  focus: Allocate vanilla and use the complete pan plan
-  outcome: >-
-    Moist banana cakes with set centers and cream cheese frosting that holds
-    between completely cooled layers.
   techniques:
     - temperature
-  before:
-    - >-
-      Pan dimensions describe the original batch. Make multiples as separate
-      original-size cakes with similar batter depth and headroom; smaller
-      amounts need appropriately smaller pans and earlier center checks.
-      Ingredient scaling does not multiply temperatures, pan dimensions or
-      cooling and baking times.
-    - >-
-      Measure oat flour after grinding the oats. Thaw the apple juice
-      concentrate without diluting it. Use softened cream cheese, then
-      refrigerate the finished frosting while waiting.
-  checkpoints:
-    - step: 3
-      cue: Every center is set and the tester has no wet batter.
-      why: Small pans and the amount of banana change the baking time.
-    - step: 5
-      cue: The cake is completely cool and the frosting holds a spreadable shape.
-      why: Warm layers and diluted concentrate loosen the cream cheese.
-  troubleshooting:
-    - problem: Frosting slides or melts
-      cause: The cake is still warm or the topping is too loose.
-      fix: >-
-        Wait for completely cool layers; chill the topping until it holds a
-        spreadable shape, then stir gently.
-  timing: >-
-    Allow roughly 30 minutes active preparation,15–25 minutes or longer baking,
-    and enough cooling to frost cold layers: about 1½–2 hours overall. Loose
-    frosting may add 1–2 hours refrigerator chilling; cooling and actual pans
-    determine the finish.
   substitutions:
-    - ingredient: Bananas
-      alternative: >-
-        For the original batch, use four or five ripe bananas; the listed batch
-        starts with four. If scaling this option, scale that original banana
-        count proportionally. Banana size changes batter volume and moisture, so
-        check the centers rather than assuming a weight equivalence.
+    - ingredient: Two 8-inch rounds
+      alternative: Cut to size after baking
       effect: >-
-        A different banana count changes moisture and batter volume; follow the
-        listed count for the primary batch.
-    - ingredient: Pan shape
-      alternative: >-
-        For the original batch, use either four mini tart pans plus 6–8 muffin
-        cups, or two 8- or 9-inch rounds cut into smaller circles after cooling.
-        Keep all the batter and the offcuts. The stated yield describes that
-        original pan plan; actual cake and muffin counts depend on the pans and
-        batter depth.
-      effect: >-
-        Changes cake shape and offcut/muffin output without discarding batter or
-        claiming a precise finished count.
+        Bake the batter in two greased 8-inch round pans until a toothpick in the center comes out clean, 20 to 25 minutes. Once cool, cut small
+        circles with an overturned bowl and serve the offcuts to the grown-ups.
   storage: >-
-    Keep the frosted cake covered in the refrigerator at 40°F /4°C or below.
-    Return frosting to the refrigerator within 2 hours of cumulative preparation
-    and serving time, or 1 hour above 90°F /32°C. Refrigerate frosting while
-    waiting for layers to cool.
-  sources:
-    - title: Fit Mama Real Food — Baby’s First Smash Cake
-      url: >-
-        https://www.fitmamarealfood.com/babys-first-smash-cake-healthy-no-sugar-banana-cake/
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+    Keeps 3 days covered in the fridge. Unfrosted cakes freeze for 2 months.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The banana cake and cream cheese frosting have separate vanilla amounts. Thawed apple juice concentrate goes into the frosting without added water; diluted juice makes a looser topping. This is a first-birthday cake, with the family choosing the serving shape and foods familiar to their child.
+Fit Mama Real Food's smash cake is made for a first birthday, with no added sugar. Ripe bananas and applesauce sweeten the whole wheat and oat cake, and apple juice concentrate sweetens the cream cheese frosting. Small stacked rounds are easy for little hands to grab.
 
 ## Directions
 
-1. Preheat the oven to 375°F. For the original batch, lightly oil four mini tart pans plus 6–8 standard muffin cups, or two 8- or 9-inch round pans. These are alternative full-batch pan plans; four mini pans alone do not account for all the batter. Keep comparable shallow batter depth, leave rising room and use additional cups if needed.
-2. Mash all the bananas. Whisk the whole wheat flour, measured oat flour, baking soda and cinnamon in a separate bowl. Mix all the applesauce, melted coconut oil and batter vanilla with the mashed bananas, then fold into the dry ingredients just until combined.
-3. Divide all the batter among the prepared pans. Bake at 375°F, starting checks around 15–20 minutes for the original shallow cakes; centers should be set and a tester should come out without wet batter. Pan size and banana size change the clock; muffins or different pans may finish at different times. Cool completely before frosting. If using large rounds, cut smaller cake circles with an overturned bowl once cool; keep the offcuts for serving.
-4. With clean tools, whisk all the softened cream cheese, thawed undiluted apple juice concentrate and frosting vanilla until creamy. Refrigerate while the cakes cool. If too loose to spread, chill 1–2 hours, then whisk again; the consistency of the concentrate and cream cheese matters.
-5. Stack the completely cooled mini rounds with some frosting between them and spread the remaining frosting over the outside and any muffins you want to frost. Keep refrigerated until serving to the birthday guest.
+1. **Heat the oven:** Heat the oven to 375°F. Lightly oil four mini tart pans and 6 to 8 muffin cups.
+2. **Mix the dry ingredients:** In a bowl, whisk the whole wheat flour, oat flour, baking soda and cinnamon.
+3. **Make the batter:** In a large bowl, mash the bananas until smooth. Whisk in the applesauce, coconut oil and the vanilla for the cake. Fold in the dry ingredients just until combined.
+4. **Bake:** Divide the batter among the pans and muffin cups. Bake until the centers spring back and a toothpick comes out clean, 15 to 20 minutes. Cool completely on a rack.
+5. **Make the frosting:** Whisk the cream cheese, apple juice concentrate and the vanilla for the frosting until creamy. Chill while the cakes cool, until it holds its shape.
+6. **Frost:** Stack the mini cakes with frosting between the layers, then spread the rest over the outside and the muffins. Keep chilled until the party.

@@ -11,96 +11,54 @@ servings: '4'
 cookingMethods:
   - saute
 categories: []
-source: Goodhousekeeping.com
+source: Adapted from Good Housekeeping
+pairsWith:
+  - coconut-jasmine-rice
+  - thai-mango-salad
+pairingNotes:
+  coconut-jasmine-rice: Rich rice to tame the chili and lime.
+  thai-mango-salad: A tart, crunchy salad from the same kitchen.
 ingredients:
+  - 1 tbsp vegetable oil
   - '2 medium bell peppers, seeded and chopped'
-  - 1 tbsp. vegetable oil
   - '3 cloves garlic, chopped'
-  - 1 lb. ground turkey
-  - 2 tbsp. fish sauce
-  - '1/4 c. packed fresh cilantro, chopped'
-  - '1/4 c. packed fresh mint leaves, chopped'
+  - 1 lb ground turkey
+  - 2 tbsp fish sauce
+  - '1/4 cup packed fresh cilantro, chopped'
+  - '1/4 cup packed fresh mint leaves, chopped'
   - '1 small shallot, thinly sliced'
+  - 3 tbsp fresh lime juice
+  - 1 tsp sugar
   - '1 to 2 Thai bird chilies, thinly sliced'
-  - 3 tbsp. lime juice
-  - 1 tsp. sugar
-  - 'Lettuce cups, washed and dried; as needed for serving'
+  - 'butter lettuce leaves, for serving'
   - 'Sriracha, for serving'
   - 'Thai sweet chili sauce, for serving'
 sourceUrl: >-
-  http://www.goodhousekeeping.com/food-recipes/easy/a42833/thai-turkey-lettuce-wraps-recipe/
+  https://www.goodhousekeeping.com/food-recipes/a42833/thai-turkey-lettuce-wraps-recipe/
 cuisines:
   - Thai
 learning:
-  focus: Finish cooked turkey with herbs and keep lettuce dry
-  outcome: >-
-    Crumbled cooked turkey with softened peppers, fresh mint/cilantro and intact
-    lettuce cups.
   techniques:
     - temperature
-  before:
-    - >-
-      Wash and dry lettuce and herbs before handling the raw turkey. Keep the
-      ready-to-eat leaves separate from the raw meat and its utensils.
-    - >-
-      The original route uses a 12-inch skillet for one pound turkey and two
-      peppers. A scaled batch needs enough pan space; use separate loads or
-      vessels and divide all measured oil and seasonings proportionally.
-  checkpoints:
-    - step: 1
-      cue: The crumbled turkey reaches 165°F / 74°C before herbs enter.
-      why: >-
-        The five-minute estimate and loss of pink do not establish
-        ground-poultry doneness.
-    - step: 2
-      cue: >-
-        Filling is moist without a large puddle when spooned into the dry
-        leaves.
-      why: Pooled liquid quickly softens the leaves.
-  troubleshooting:
-    - problem: Lettuce cups become soggy
-      cause: Wet leaves or pooled pan liquid are combined too early.
-      fix: >-
-        Dry the leaves, allow excess cooking liquid to reduce as directed after
-        the turkey is cooked, and assemble just before eating. Keep the full oil
-        and fish-sauce amounts.
   substitutions:
     - ingredient: Thai bird chilies
-      alternative: 1 serrano chile, thinly sliced
-      effect: >-
-        Serranos are milder and a little grassier than bird chilies. For kids,
-        serve the sliced chilies at the table instead of stirring them in.
-  timing: >-
-    Allow about 25 minutes for the current original batch, with 15 minutes
-    preparation and about 10 minutes stovetop work/assembly. The 3-minute pepper
-    stage, 30-second garlic stage and roughly 5-minute turkey stage are initial
-    estimates; the thermometer endpoint and any liquid reduction can take
-    longer. Most stovetop cooking is active, and extra loads extend elapsed
-    time.
+      alternative: 1 serrano chile
+      effect: Serranos are milder and a little grassier than bird chilies.
   storage: >-
-    Store cooked filling separately from dry lettuce and sauces. Refrigerate in
-    shallow containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F /
-    4°C or below. Use filling within 3–4 days and reheat to 165°F / 74°C
-    throughout. Assemble cups after reheating so the leaves stay crisp.
-  sources:
-    - title: Good Housekeeping savory turkey lettuce wraps
-      url: >-
-        https://www.goodhousekeeping.com/food-recipes/a42833/thai-turkey-lettuce-wraps-recipe/
-    - title: FDA safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA cooked leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    The filling keeps 3 days in the fridge. Reheat it and fill the lettuce just before eating so
+    the leaves stay crisp.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Fish sauce, lime, a little sugar, chilies, shallot, cilantro and mint give the turkey filling a hot, sour, salty and sweet balance. Let excess pan liquid reduce before filling the lettuce cups so the leaves stay crisp.
+These wraps borrow from larb, the Thai and Lao minced-meat salad, with ground turkey in place of pork. Fish sauce, lime, a little sugar and fresh chilies give the filling its hot, sour, salty and sweet balance. A big handful of mint and cilantro keeps it bright.
 
 ## Directions
 
-1. **Cook filling:** In a 12-inch skillet over medium-high heat, cook all the bell peppers in all the measured vegetable oil for about 3 minutes. Add all the garlic and cook about 30 seconds, then add all the ground turkey and fish sauce. Break up the meat and start checking after about 5 minutes; continue until the turkey reaches 165°F / 74°C on a thermometer before adding herbs. If liquid pools, let excess liquid reduce while stirring, keeping the filling moist. Use more loads or vessels for a larger batch, dividing the full measured ingredients proportionally.
-2. **Finish and serve:** Stir the sugar into the lime juice until it dissolves. Off the heat, stir in all the cilantro, mint, shallot and the sweetened lime juice. Stir in the chilies, or serve them at the table so each diner controls the heat. Taste: the filling should be salty, sour, a little sweet and fresh. Spoon the cooked filling into washed, dried lettuce cups using clean utensils. Offer the listed Sriracha and sweet chili sauce separately as wanted. Assemble promptly so the leaves stay crisp.
+1. **Cook the peppers:** Heat the oil in a 12-inch skillet over medium-high heat. Add the bell peppers and cook, stirring, until crisp-tender, about 3 minutes.
+2. **Brown the turkey:** Add the garlic and cook for 30 seconds. Add the turkey and fish sauce and cook, breaking up the meat, until it reaches 165°F and any pooled liquid has cooked off, about 5 minutes.
+3. **Add the herbs:** Take the pan off the heat. Stir in the cilantro, mint, shallot, lime juice and sugar. Stir in the chilies, or serve them at the table so the kids' portions stay mild.
+4. **Fill the cups:** Spoon the filling into the lettuce leaves. Serve with Sriracha and sweet chili sauce at the table.

@@ -34,68 +34,33 @@ cookTime: 3 min
 totalTime: 8 min
 servings: '2'
 pairsWith:
-  - avocado-toast
-  - easy-chia-pudding
-  - granola
+  - fluffy-scrambled-eggs
+pairingNotes:
+  fluffy-scrambled-eggs: Soft eggs make it a full brunch.
 ingredients:
-  - 2 slices Thick-Cut Sourdough or Rustic Bread
-  - 3/4 cup Whole-Milk Ricotta
-  - 1 tbsp Extra-Virgin Olive Oil
-  - Pinch of Flaky Sea Salt
-  - '2 tbsp Honey (good quality, runny)'
-  - '2 tbsp Shelled Pistachios, roughly chopped'
-  - flaky sea salt for finishing
-  - 'Optional: fresh mint leaves, lemon zest, fresh figs or berries'
+  - 2 thick slices sourdough or rustic bread
+  - 3/4 cup whole-milk ricotta
+  - 1 tbsp extra-virgin olive oil
+  - 'flaky sea salt, such as Maldon'
+  - 2 tbsp runny honey
+  - '2 tbsp shelled pistachios, roughly chopped'
+  - fresh mint leaves (optional)
+  - lemon zest (optional)
+  - 'fresh figs or berries, halved (optional)'
 learning:
-  focus: Make ricotta spreadable without promising a completely smooth texture
-  outcome: 'Rich ricotta, honey and pistachios on crisp toast, with the topping portions evenly divided.'
   techniques:
     - seasoning
-  before:
-    - Use all the listed whole-milk ricotta and oil; curd size varies by product.
-    - 'Wash and dry optional fruit, mint and lemon before cutting or zesting.'
-  checkpoints:
-    - step: 1
-      cue: The ricotta spreads easily from the fork; small curds may remain.
-      why: Fork stirring distributes oil but does not guarantee the curds disappear.
-  troubleshooting:
-    - problem: Mixture stays grainy
-      cause: The ricotta has larger curds and fork stirring cannot remove them completely.
-      fix: Spread it as it is once cohesive; more stirring is not a guarantee of silky texture.
-  timing: >-
-    The original 8-minute plan assumes one toaster round and ready pistachios. Optional fruit
-    preparation and extra toast rounds add time.
-  storage: >-
-    Refrigerate unused ricotta mixture promptly at 40°F / 4°C or below and follow the product’s
-    remaining opened-storage limit. Keep toppings and bread separate; assembled toast loses crunch.
-    Do not reset ricotta’s storage clock by stirring in oil.
-  sources:
-    - title: Mise — Ricotta Toast with Honey
-      url: >-
-        https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/ricotta-toast-with-honey.md
-    - title: FDA — washing produce
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: FDA — cold holding and perishable food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Whole-milk ricotta, olive oil and honey keep this toast rich. Stir the ricotta until spreadable; a fork may leave fine curds, so do not chase a guaranteed whipped-cream texture. Add the full honey and pistachios after spreading the cheese, then serve while the bread is crisp.
+An Italian-style breakfast that takes five minutes. Thirty seconds with a fork and a little olive oil turns plain ricotta light and spreadable. Use whole-milk ricotta, because part-skim is watery and thin against the honey and pistachios.
 
 ## Directions
 
-1. **Stir ricotta:** Combine all the ricotta and measured olive oil with the listed pinch of salt. Stir vigorously with a fork for about 30 seconds or until spreadable; fine curds can remain. Keep the mixture refrigerated if the toast is not ready.
-
-2. **Toast:** Toast all the bread slices until deeply golden and sturdy with crisp edges. Extra slices may need more rounds.
-
-3. **Spread:** Divide all the ricotta mixture among the listed bread slices.
-
-4. **Top:** Divide all the measured honey and chopped pistachios over the toasts. Add the separate unmeasured finishing flaky salt to taste.
-
-5. **Optional finish:** Add washed mint, lemon zest, halved figs or berries if wanted.
-
-6. **Serve:** Serve promptly while the bread is warm and crisp.
+1. **Whip the ricotta:** Stir the ricotta, olive oil and a pinch of flaky salt hard with a fork until fluffy and spreadable, about 30 seconds.
+2. **Toast the bread:** Toast the bread until deep golden and sturdy, with crisp edges.
+3. **Top and serve:** Spread the ricotta thickly over the warm toast, right to the edges. Drizzle with honey, scatter the pistachios and finish with a little more flaky salt. Add mint, lemon zest or fruit if you like and eat right away.

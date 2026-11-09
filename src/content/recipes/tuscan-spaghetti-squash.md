@@ -27,114 +27,58 @@ cuisines:
   - Italian
 role: main
 vibe: comfort
-prepTime: 10–15 min
-cookTime: 45–55 min
-totalTime: '55–70 min, plus any remaining preheating'
+prepTime: 10 min
+cookTime: 55 min
+totalTime: 1 hr 5 min
 servings: '4'
 pairsWith:
   - garlic-bread
+  - everyday-arugula-salad
+pairingNotes:
+  garlic-bread: The starch on the plate, for the creamy sauce.
+  everyday-arugula-salad: Peppery greens and lemon cut the bacon and cream.
 ingredients:
-  - 1 large Spaghetti Squash
-  - '4 slices Smoked Bacon, chopped'
-  - 1/2 cup Heavy Cream
-  - '1/3 cup Parmesan, freshly grated'
-  - '1 1/2 cups Cherry Tomatoes, halved'
-  - 2 cups Fresh Baby Spinach
-  - '2 cloves Garlic, minced'
-  - 'Fresh Basil, chopped (The Finishing Touch)'
-  - 1 tbsp Extra-Virgin Olive Oil
-  - Salt and Black Pepper
-  - 'Additional extra-virgin olive oil, as needed for coating (optional)'
-source: Adapted from Delish.com
+  - '1 large spaghetti squash, halved lengthwise and seeded'
+  - 1 tbsp extra-virgin olive oil
+  - 'kosher salt and black pepper, to taste'
+  - '4 slices smoked bacon, chopped'
+  - '1 1/2 cups cherry tomatoes, halved'
+  - '2 garlic cloves, minced'
+  - 1/2 cup heavy cream
+  - '1/3 cup Parmigiano-Reggiano, finely grated'
+  - 2 cups baby spinach
+  - 'fresh basil, chopped, for serving'
+source: Adapted from Delish
 sourceUrl: >-
-  http://www.delish.com/cooking/recipe-ideas/recipes/a50703/cheesy-tuscan-spaghetti-squash-recipe/
+  https://www.delish.com/cooking/recipe-ideas/recipes/a50703/cheesy-tuscan-spaghetti-squash-recipe/
 learning:
-  focus: Coordinate roasting with a gentle cheese finish
-  outcome: >-
-    Tender squash strands coated with the full bacon-cream sauce and fragrant
-    garlic.
   techniques:
     - seasoning
     - browning
-  before:
-    - >-
-      Use the listed olive oil to coat the squash for roasting; keep the full
-      cream, cheese and bacon for the sauce.
-    - >-
-      Use an actual squash that can be safely cut and cooked on the available
-      sheet. One large squash is a count, not a supported weight or guaranteed
-      skillet capacity.
-  checkpoints:
-    - step: 1
-      cue: Fork-tender flesh that can be pulled into strands after cooling.
-      why: The 40–45-minute roasting reference varies with squash size.
-    - step: 5
-      cue: Cheese distributed through gently heated cream.
-      why: >-
-        A hard boil can separate the sauce; a two-minute clock is not a
-        stability guarantee.
-  troubleshooting:
-    - problem: Cheese sauce separates.
-      cause: Too much heat after Parmesan addition.
-      fix: >-
-        Remove from strong heat and fold gently; do not promise separated fat
-        will fully recombine.
   substitutions:
-    - ingredient: Bacon-fat and spinach sequence
-      alternative: >-
-        For the spinach-first version, keep the full squash, listed roasting
-        oil, four original-batch bacon slices, garlic, tomatoes, spinach, cream
-        and Parmesan. Roast squash cut-side down at 400°F until tender, cool
-        until handleable and pull into strands. Cook bacon and remove it; pour
-        off half its rendered fat. Add garlic, tomatoes and spinach to the
-        remaining fat, season with salt and pepper and cook without scorching
-        garlic. Add all the cream and Parmesan and heat gently until slightly
-        thickened, then fold in all the squash and cooked bacon; garnish with
-        basil.
-      effect: >-
-        Half the rendered fat is discarded only in this exclusive version; the
-        main retains it all. Spinach cooks earlier and may soften more.
-  timing: >-
-    About 10–15 minutes preparation overlaps bacon and sauce while squash roasts
-    40–45 minutes or longer. Cooling and final folding put a typical
-    original-batch planning range around 55–70 minutes; large squash or extra
-    batches can extend it. The oven must reach 400°F before loading; any
-    preheating beyond preparation extends elapsed time.
+    - ingredient: Parmigiano-Reggiano
+      alternative: Domestic Parmesan
+      effect: Milder and a little less nutty. Grate it from a wedge so it melts smoothly.
+    - ingredient: smoked bacon
+      alternative: Pancetta
+      effect: Use the same amount. The sauce is meatier and less smoky.
   storage: >-
-    Refrigerate leftovers in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days or freeze promptly;
-    reheat cooked leftovers to 165°F / 74°C. Crispness can soften during storage
-    and reheating.
-  sources:
-    - title: FDA produce preparation
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: FoodSafety.gov cold handling and leftovers
-      url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
-    - title: Delish squash recipe
-      url: >-
-        http://www.delish.com/cooking/recipe-ideas/recipes/a50703/cheesy-tuscan-spaghetti-squash-recipe/
+    Keeps 3 days in the fridge. Reheat in a skillet over medium-low heat.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Roast until the squash can be pulled into strands, then fold it into the bacon, tomato and cream sauce. Keep the garlic’s short fragrant stage and all the cream and Parmesan; warm gently after adding the cheese.
+Spaghetti squash roasts into tender strands that take a sauce much like pasta. Here they go into a skillet of bacon fat, softened cherry tomatoes, garlic and cream, with spinach and basil folded in at the end. Roast the squash cut side down so it steams in its own skin and stays moist.
 
 ## Directions
 
-1. **Roast squash:** Preheat to 400°F. Wash the squash, halve lengthwise with care and remove seeds. Rub with all the listed olive oil and season with salt and pepper. Place cut-side down on a rimmed sheet and begin checking around 40–45 minutes; continue until flesh is tender. Use additional olive oil only if needed for the actual squash surface.
-
-2. **Shred:** Cool until safe to handle rather than forcing a 5-minute limit. Scrape into strands with forks. Larger or multiple squash need enough roasting space and may take longer.
-
-3. **Cook bacon:** While squash roasts, cook all the chopped bacon in a large skillet according to its package, until cooked and crisp. Transfer to a clean plate and retain the rendered fat in the skillet for the main version.
-
-4. **Soften tomatoes:** Add all the tomatoes to the bacon fat and cook about 1–2 minutes until beginning to soften. Add all the garlic and cook about 30–45 seconds until fragrant; do not wait for scorched garlic.
-
-5. **Cream sauce:** Stir in all the cream and Parmesan over gentle heat, stirring until cheese is distributed and sauce lightly thickened. Begin checking around 2 minutes; avoid vigorous boiling after cheese is added.
-
-6. **Fold in:** Add all the squash strands and washed spinach. Fold gently until spinach wilts and everything is evenly hot; about 1 minute is a first check, not a guarantee. Use a larger skillet or separate proportional batches if the full amount cannot be turned safely.
-
-7. **Serve:** Finish with all the bacon and basil as desired; taste and adjust the listed salt and pepper.
+1. **Roast the squash:** Heat the oven to 400°F. Rub the cut sides of the squash with the oil and season with salt and pepper. Roast cut side down on a rimmed baking sheet until the flesh is tender when pierced, 40 to 45 minutes.
+2. **Shred the squash:** Let it cool for 5 minutes, then scrape the flesh into strands with a fork.
+3. **Crisp the bacon:** While the squash roasts, cook the bacon in a large skillet over medium heat until crisp, 6 to 8 minutes. Move it to a plate and leave the fat in the pan.
+4. **Cook the tomatoes:** Add the tomatoes to the bacon fat and cook until they start to soften, 1 to 2 minutes. Add the garlic and cook until fragrant, about 30 seconds.
+5. **Make the sauce:** Stir in the cream and Parmigiano. Simmer gently until the sauce thickens slightly, about 2 minutes.
+6. **Fold in the squash:** Add the squash and spinach. Toss over low heat until the spinach wilts and everything is hot, about 1 minute. Taste and season with salt and pepper.
+7. **Serve:** Top with the bacon and basil.

@@ -33,106 +33,56 @@ equipment:
   - 2-mixing-bowls
   - spatula
 pairsWith:
-  - pulled-pork
   - chili
+  - pulled-pork
   - white-chicken-chili
-  - honey-glazed-spareribs
+pairingNotes:
+  chili: The classic square on the side of a bowl of chili.
+  pulled-pork: Lightly sweet bread with smoky barbecue.
+  white-chicken-chili: For dunking in the creamy green chile broth.
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 50 min
-servings: 9 side portions
+servings: 9 squares
 ingredients:
-  - '140 g fine yellow cornmeal, not corn flour or self-rising cornmeal mix'
-  - 120 g all-purpose flour
+  - 1 cup (140 g) fine yellow cornmeal
+  - 1 cup (120 g) all-purpose flour
   - 2 tsp baking powder
   - 1/4 tsp baking soda
   - 1/2 tsp fine salt
-  - '6 tbsp (85 g) unsalted butter, melted and cooled until just warm'
-  - 2 tbsp (25 g) packed brown sugar
-  - 1 tbsp (21 g) honey
+  - '6 tbsp unsalted butter, melted and cooled, plus more for the pan'
+  - 2 tbsp packed brown sugar
+  - 1 tbsp honey
   - 2 large eggs
-  - '1 cup (240 ml) cultured buttermilk, with the refrigerator chill taken off'
-  - '1 tsp softened butter, for greasing the pan'
-description: 'A lightly sweet cornmeal-and-flour bread with a tender crumb, baked in one defined square pan.'
+  - '1 cup buttermilk, at room temperature'
+description: 'A lightly sweet cornmeal-and-flour bread with a tender crumb, baked in an 8-inch square pan.'
 learning:
-  focus: Balance the leaveners and stop mixing once the flour is incorporated
-  outcome: >-
-    An evenly risen, tender crumb with a golden top and a cooked center, firm enough to portion
-    after a short cool.
   techniques:
     - leavening
     - starch
-  before:
-    - >-
-      Use the listed plain cornmeal and all-purpose flour; a self-rising mix already contains
-      leavening and salt.
-    - >-
-      Use an 8-inch square metal pan. A 9-inch pan makes a thinner bread with a different bake time;
-      do not swap while expecting the same result.
-  checkpoints:
-    - step: 2
-      cue: Dry leaveners are evenly dispersed with no visible clumps.
-      why: >-
-        Baking soda reacts with acidic buttermilk; baking powder provides its own acid/base system.
-        Concentrated pockets give uneven rise or unpleasant flavor.
-    - step: 4
-      cue: The batter has no dry flour streaks but remains slightly lumpy.
-      why: >-
-        Prolonged mixing develops the wheat flour structure and can toughen a quick bread; smooth
-        cake-batter consistency is unnecessary.
-    - step: 5
-      cue: The center is set and a tester brings out moist crumbs rather than wet batter.
-      why: >-
-        Surface browning can finish before the center. A cooked crumb, not an exact twenty-minute
-        clock, determines removal.
-  troubleshooting:
-    - problem: Cornbread is dry
-      cause: 'It baked too long, the pan was larger, or flour was packed heavily into a cup.'
-      fix: >-
-        Use weights and the specified pan, and check early. Serve a dry batch with chili; additional
-        baking cannot restore moisture.
-    - problem: Butter forms small lumps in the wet mix
-      cause: Buttermilk was very cold when combined with melted butter.
-      fix: >-
-        Take the chill off the buttermilk before mixing; small butter flecks are acceptable. Do not
-        heat the combined egg mixture aggressively to melt them.
-    - problem: Bread has a soapy or bitter taste
-      cause: Leaveners were mismeasured or a self-rising mix was used with extra leavening.
-      fix: >-
-        Check both powders and measure level spoonfuls next time. More honey does not correct an
-        unbalanced leavener dose.
   substitutions:
-    - ingredient: Cultured buttermilk
-      alternative: 120 g plain regular yogurt whisked with 120 ml milk
+    - ingredient: Buttermilk
+      alternative: Plain yogurt and milk
       effect: >-
-        Approximates an acidic dairy liquid but yogurt thickness/acidity vary. Use regular yogurt
-        rather than thick Greek yogurt for this measured option; the crumb may differ.
-  timing: >-
-    About 50 minutes includes 15 minutes preparation and oven heating, 20–25 minutes baking and 10
-    minutes cooling before cutting. Mix wet and dry only when the oven and pan are ready.
+        Whisk 1/2 cup plain yogurt into 1/2 cup milk. The crumb is just as tender, with a little less
+        tang.
   storage: >-
-    Cool on a rack, then wrap airtight. Keep at room temperature for up to 2 days for quality, or
-    freeze portions for longer storage. Rewarm wrapped in foil in a moderate oven; uncover briefly
-    if the edges need refreshing. Add no perishable topping before room-temperature storage.
-  sources:
-    - title: 'King Arthur Baking — Baking soda, baking powder and acidic ingredients'
-      url: 'https://www.kingarthurbaking.com/blog/2021/09/10/baking-soda-vs-baking-powder-substitutions'
-    - title: King Arthur Baking — Cornbread method and pan considerations
-      url: 'https://www.kingarthurbaking.com/blog/2019/08/07/cornbread-reimagined'
+    Wrap and keep at room temperature for 2 days or freeze for 3 months. Rewarm wrapped in foil in a
+    350°F oven.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This flour-and-cornmeal version is lightly sweet and buttery, suitable for a small portion beside chili. Buttermilk supplies acidity for the measured baking soda; baking powder supplies additional lift. Fold briefly and bake promptly so the batter keeps its gas and a tender texture.
+This buttery, lightly sweet cornbread is made to sit beside big, bold food like chili, pulled pork and ribs. The sugar stays low so it doesn't compete with a smoky main. Buttermilk gives a tender crumb with a little tang, and gentle folding keeps it from turning tough.
 
 ## Directions
 
-1. **Prepare:** Heat the oven to 400°F / 205°C. Grease an 8-inch square metal pan with the measured teaspoon of butter. Melt the batter butter and let it cool until just warm. If buttermilk is very cold, warm it briefly until the chill is gone, not until hot.
-2. **Whisk dry ingredients:** Combine cornmeal, flour, baking powder, baking soda and salt thoroughly in a large bowl, breaking up any powder lumps.
-3. **Mix wet ingredients:** In another bowl, whisk eggs, buttermilk, brown sugar and honey until combined. Whisk in the just-warm melted butter.
-4. **Fold:** Pour wet mixture into dry. Fold with a spatula until no dry flour streaks remain; a few small lumps are fine. Scrape into the prepared pan, level gently and put it straight into the hot oven.
-5. **Bake and check:** Bake about 20–25 minutes, until golden at the edges, the center springs back lightly and a toothpick inserted in the middle shows moist crumbs but no wet batter. Extend a few minutes if the center is not set; tent loosely with foil if the top colors too early.
-6. **Cool and portion:** Cool in the pan on a rack for 10 minutes before cutting nine squares. For a small accompaniment to a starch-containing chili, cut twelve smaller squares instead and serve one per person; cool and freeze spare pieces.
+1. **Heat the oven:** Heat the oven to 400°F and butter an 8-inch square metal pan.
+2. **Whisk the dry ingredients:** In a large bowl, whisk the cornmeal, flour, baking powder, baking soda and salt until no lumps remain.
+3. **Whisk the wet ingredients:** In another bowl, whisk the eggs, buttermilk, brown sugar and honey. Whisk in the melted butter.
+4. **Fold the batter:** Pour the wet ingredients into the dry and fold with a spatula just until no dry flour shows. A few lumps are fine. Scrape the batter into the pan and smooth the top.
+5. **Bake:** Bake until golden at the edges and a toothpick in the center comes out with a few moist crumbs, 20 to 25 minutes.
+6. **Cool and cut:** Cool in the pan on a rack for 10 minutes, then cut into squares.

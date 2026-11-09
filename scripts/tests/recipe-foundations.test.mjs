@@ -110,22 +110,16 @@ const base = {
   content:
     "## Chef's Note\nA useful method.\n\n## Directions\n\n1. **Prep:** Rinse.\n2. **Cook:** Simmer.\n3. **Rest:** Cover.\n\n## Serving\nEnjoy.",
 };
-test('audit reads all directions and catches invalid step references', () => {
-  const learning = {
-    focus: 'Starch',
-    outcome: 'Tender',
-    storage: 'Chill',
-    timing: '20 min',
-    before: ['Rinse'],
-    techniques: ['starch'],
-    checkpoints: [{ step: 4 }],
-    troubleshooting: [{ problem: 'Dry' }],
-    sources: [{ url: 'https://example.org' }],
-    review: { status: 'editorial-review' },
-  };
+test('audit reads all directions and requires techniques and a review status', () => {
+  const learning = { review: { status: 'editorial-review' } };
   const result = reviewRecipe({ ...base, data: { ...base.data, learning } }, new Set(['sample']));
   assert.equal(result.stepCount, 3);
-  assert.ok(result.issues.some((i) => i.code === 'invalid-checkpoint'));
+  assert.ok(result.issues.some((i) => i.code === 'incomplete-learning'));
+  const complete = reviewRecipe(
+    { ...base, data: { ...base.data, learning: { ...learning, techniques: ['starch'] } } },
+    new Set(['sample'])
+  );
+  assert.ok(!complete.issues.some((i) => i.severity === 'error'));
 });
 test('kitchen-tested claims require evidence and links must resolve', () => {
   const result = reviewRecipe(

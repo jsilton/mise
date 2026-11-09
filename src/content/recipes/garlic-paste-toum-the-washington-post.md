@@ -15,32 +15,26 @@ cuisines:
   - Middle Eastern
 role: condiment
 vibe: nutritious
-prepTime: 20 min
+prepTime: 35 min
 cookTime: 0 min
-totalTime: 'About 4½ hr, including at least 4 hr refrigeration'
+totalTime: '35 min, plus 4 hr chilling'
 servings: 4 cups
 pairsWith:
   - chicken-shawarma
   - chicken-thigh-kebabs-with-chile-yogurt-sauce
   - middle-eastern-style-grilled-chicken-kabobs
 ingredients:
-  - '--- Garlic paste ---'
-  - '2 cups fresh garlic cloves, peeled'
+  - '2 cups garlic cloves, peeled'
   - 1/2 tsp kosher salt
-  - 3 cups neutral oil (grapeseed or canola)
+  - 3 cups grapeseed or canola oil
   - 1/4 cup fresh lemon juice
   - 1/3 cup cold water
-  - '--- Optional source finish ---'
-  - >-
-    neutral oil, a little more as needed for the source finishing option,
-    optional
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-source: Adapted from Washingtonpost.com
-sourceUrl: >-
-  https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/?utm_term=.4ad477758d1a
+source: Adapted from The Washington Post
+sourceUrl: 'https://www.washingtonpost.com/recipes/garlic-paste-toum/14095/'
 advancePrep:
   - chill-to-set
 formula:
@@ -50,18 +44,18 @@ formula:
     unit: cup
   components:
     - id: toum
-      name: Garlic paste
+      name: Toum
       ingredients:
         - id: garlic
           key: garlic
-          name: fresh garlic cloves
+          name: garlic cloves
           quantity:
             amount: 2
             unit: cup
+          preparation: peeled
           uses:
             - step: puree
               share: 1
-          preparation: peeled
         - id: salt
           key: salt
           name: kosher salt
@@ -73,18 +67,18 @@ formula:
               share: 1
         - id: oil
           key: oil
-          name: neutral oil (grapeseed or canola)
+          name: grapeseed or canola oil
           quantity:
             amount: 3
             unit: cup
           uses:
             - step: first
               share: 1/2
+            - step: thicken
+              share: 1/6
             - step: second
               share: 1/6
-            - step: third
-              share: 1/6
-            - step: last
+            - step: finish
               share: 1/6
         - id: lemon
           key: lemon
@@ -102,150 +96,68 @@ formula:
             amount: 1/3
             unit: cup
           uses:
-            - step: third
-              share: 1
-    - id: optional
-      name: Optional source finish
-      ingredients:
-        - id: extra-oil
-          key: extra-oil
-          name: neutral oil
-          allowance: a little more as needed for the source finishing option
-          optional: true
-          uses:
-            - step: last
+            - step: water
               share: 1
   steps:
     - id: puree
-      title: Puree garlic
+      title: Purée the garlic
       text: >-
-        Use {{ingredients}} in a food processor with sufficient usable liquid
-        capacity for the entire mixture. Puree until smooth, stopping and
-        scraping as needed. Follow its motor-duty and minimum-load instructions;
-        make separate proportionally divided batches if necessary.
+        Put {{ingredients}} in a food processor. Pulse, scraping down the sides often, until the
+        garlic is a completely smooth paste, about 2 minutes.
     - id: first
-      title: Begin the emulsion
+      title: Start the emulsion
       text: >-
-        With the motor running as permitted by the appliance, add
-        {{ingredients}} in the thinnest stream. Stop to scrape. Do not speed up
-        the pour if the mixture looks oily rather than cohesive.
-    - id: second
-      title: Build the paste
+        With the motor running, add {{ingredients}} in the thinnest stream you can manage, drop by
+        drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick,
+        glossy paste, about 10 minutes.
+    - id: thicken
+      title: Thicken the paste
       text: >-
-        Gradually add {{ingredients}} in the same thin stream, checking for a
-        thick, cohesive paste.
+        Add {{ingredients}} in the same thin stream until the paste sets up like creamy cooked
+        grits, about 3 minutes.
     - id: lemon
-      title: Add lemon
-      text: 'Gradually add all {{ingredients}}; the mixture should lighten.'
-    - id: third
-      title: Add oil and water
+      title: Add the lemon
+      text: 'With the motor running, slowly pour in {{ingredients}}. The paste turns lighter and whiter.'
+    - id: second
+      title: Add more oil
+      text: 'Add {{ingredients}} in the same thin stream until it is absorbed, about 3 minutes.'
+    - id: water
+      title: Add the water
+      text: 'Slowly pour in {{ingredients}}. The paste loosens but should not turn runny.'
+    - id: finish
+      title: Finish the oil
       text: >-
-        Gradually add the assigned neutral oil, then slowly add all the cold
-        water. These are {{ingredients}}. The paste should loosen without
-        becoming runny.
-    - id: last
-      title: Finish the emulsion
-      text: >-
-        Gradually add all the remaining measured neutral oil. For the optional
-        source finish, add only a little of the separate extra-oil allowance at
-        a time if needed for a creamy, white, fluffy paste; stop if the mixture
-        separates. The measured remainder and optional allowance are
-        {{ingredients}}.
+        Add {{ingredients}} in the same thin stream until the toum is creamy white and fluffy, like
+        beaten egg whites, about 3 minutes.
     - id: chill
-      title: Refrigerate
-      text: >-
-        Transfer to clean covered containers and refrigerate at least 4 hours
-        before serving. Refrigerate promptly at 40°F or below and use within 4
-        days, or freeze small portions promptly. Thaw in the refrigerator; the
-        emulsion may separate. Do not rely on lemon juice alone to establish a
-        longer storage life.
+      title: Chill
+      text: Spoon into jars and refrigerate at least 4 hours before serving so the garlic mellows.
 learning:
-  focus: Add each oil stage slowly and keep the full batch cold
-  outcome: >-
-    A cohesive, fluffy garlic paste with all measured lemon and water
-    incorporated.
   techniques:
     - temperature
-  before:
-    - >-
-      For larger batches use enough processor bowls and divide all ingredients
-      proportionally. Keep the mixture within each appliance’s actual liquid
-      capacity; larger loads do not promise the same blending clock.
-    - >-
-      Use a processor that permits the full liquid load and a small enough first
-      garlic load to reach the blade. A larger scaled recipe may require
-      separate emulsion batches rather than a single overfilled bowl.
-  checkpoints:
-    - step: 1
-      cue: Smooth garlic paste rather than large pieces.
-      why: A smooth starting paste helps distribute the subsequent oil.
-    - step: 3
-      cue: Thick cohesive paste without a pool of free oil.
-      why: Pause before adding more liquid if the emulsion separates.
-    - step: 6
-      cue: Creamy white paste after the complete measured oil supply.
-      why: >-
-        The source offers a separate extra-oil finish, not permission to replace
-        missing allocations.
-  timing: >-
-    Plan roughly 20–30 minutes active blending and at least 4 hours
-    refrigeration, about 4½ hours elapsed. Processor limits and batches can add
-    time.
-  substitutions:
-    - ingredient: Alternating oil-and-lemon route
-      alternative: >-
-        For the current alternating method, puree the same full garlic and salt.
-        Slowly add one sixth of the total measured oil, then one quarter of the
-        total lemon juice. Alternate small additions of all the remaining five
-        sixths oil and three quarters lemon, adding each slowly while the paste
-        stays cohesive; no fixed half-cup/teaspoon cycle is required. Finish
-        with all the water, then refrigerate and store as in the main. Keep the
-        optional extra-oil finish separate.
-      effect: >-
-        Both routes use the same full measured oil, lemon and water supplies;
-        add each slowly while the paste remains cohesive.
-    - ingredient: Washington Post garlic measure and oil choice
-      alternative: >-
-        For the source garlic preparation, fill the listed garlic-volume measure
-        scant rather than level; use canola or soybean oil in the same full
-        measured oil volume. Follow the source-staged main method and optional
-        extra-oil finish.
-      effect: >-
-        A scant garlic measure gives a slightly lower garlic proportion; keep
-        this choice separate from the level-volume main.
   storage: >-
-    Refrigerate promptly at 40°F /4°C or below and use within 4 days, or freeze
-    small portions promptly. Thaw in the refrigerator; an emulsion may separate.
-    Lemon juice or heating alone does not establish a longer storage life.
-  troubleshooting:
-    - problem: Free oil pools around the paste
-      cause: >-
-        Oil was added faster than the mixture incorporated it, or the load does
-        not reach the processor blade.
-      fix: >-
-        Stop the pour and check the processor load and mixture before
-        proceeding; do not pour the entire remaining supply into a separated
-        paste.
-  sources:
-    - title: Washington Post — Garlic Paste (Toum)
-      url: 'https://www.washingtonpost.com/recipes/garlic-paste-toum/'
-    - title: NCHFP — Garlic-in-Oil Storage
-      url: 'https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/'
+    Keeps 4 days in the fridge. Freeze what you won't use by then in small portions for up to 3
+    months, and whisk after thawing.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
+pairingNotes:
+  chicken-shawarma: The classic garlic sauce for shawarma.
+  chicken-thigh-kebabs-with-chile-yogurt-sauce: A dab of garlic with the spiced kebabs.
+  middle-eastern-style-grilled-chicken-kabobs: Toum and grilled chicken are a natural pair.
 ---
 
 ## Chef's Note
 
-Toum is a Lebanese garlic emulsion. Start with a smooth garlic paste and introduce oil in a very thin stream, pausing to scrape as needed. A separated oily mixture needs attention before more liquid goes in. The oil stages below follow the Washington Post method.
+Toum is the fluffy, snow-white Lebanese garlic sauce served with shawarma and grilled chicken. Garlic, lemon and oil whip into an emulsion as thick as mayonnaise, with no egg at all. Pour the oil in the thinnest stream you can, drop by drop at first, and it will hold.
 
 ## Directions
 
-1. **Puree garlic:** Use fresh garlic cloves and kosher salt in a food processor with sufficient usable liquid capacity for the entire mixture. Puree until smooth, stopping and scraping as needed. Follow its motor-duty and minimum-load instructions; make separate proportionally divided batches if necessary.
-2. **Begin the emulsion:** With the motor running as permitted by the appliance, add 1/2 of the neutral oil (grapeseed or canola) in the thinnest stream. Stop to scrape. Do not speed up the pour if the mixture looks oily rather than cohesive.
-3. **Build the paste:** Gradually add 1/6 of the neutral oil (grapeseed or canola) in the same thin stream, checking for a thick, cohesive paste.
-4. **Add lemon:** Gradually add all fresh lemon juice; the mixture should lighten.
-5. **Add oil and water:** Gradually add the assigned neutral oil, then slowly add all the cold water. These are 1/6 of the neutral oil (grapeseed or canola) and cold water. The paste should loosen without becoming runny.
-6. **Finish the emulsion:** Gradually add all the remaining measured neutral oil. For the optional source finish, add only a little of the separate extra-oil allowance at a time if needed for a creamy, white, fluffy paste; stop if the mixture separates. The measured remainder and optional allowance are 1/6 of the neutral oil (grapeseed or canola) and neutral oil (if using).
-7. **Refrigerate:** Transfer to clean covered containers and refrigerate at least 4 hours before serving. Refrigerate promptly at 40°F or below and use within 4 days, or freeze small portions promptly. Thaw in the refrigerator; the emulsion may separate. Do not rely on lemon juice alone to establish a longer storage life.
+1. **Purée the garlic:** Put garlic cloves and kosher salt in a food processor. Pulse, scraping down the sides often, until the garlic is a completely smooth paste, about 2 minutes.
+2. **Start the emulsion:** With the motor running, add 1/2 of the grapeseed or canola oil in the thinnest stream you can manage, drop by drop at first. Stop to scrape the sides once or twice. Keep going until it is a thick, glossy paste, about 10 minutes.
+3. **Thicken the paste:** Add 1/6 of the grapeseed or canola oil in the same thin stream until the paste sets up like creamy cooked grits, about 3 minutes.
+4. **Add the lemon:** With the motor running, slowly pour in fresh lemon juice. The paste turns lighter and whiter.
+5. **Add more oil:** Add 1/6 of the grapeseed or canola oil in the same thin stream until it is absorbed, about 3 minutes.
+6. **Add the water:** Slowly pour in cold water. The paste loosens but should not turn runny.
+7. **Finish the oil:** Add 1/6 of the grapeseed or canola oil in the same thin stream until the toum is creamy white and fluffy, like beaten egg whites, about 3 minutes.
+8. **Chill:** Spoon into jars and refrigerate at least 4 hours before serving so the garlic mellows.

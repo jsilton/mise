@@ -6,8 +6,8 @@ vibe: technical
 difficulty: intermediate
 prepTime: 35 min
 cookTime: 1 hr 40 min
-totalTime: 5 hr 30 min
-servings: 6 with rice or bread
+totalTime: '2 hr 15 min, plus 4 hr marinating'
+servings: '6'
 cuisines: [Indian, American]
 cookingMethods: [saute, simmer, blend, broil]
 dietary: [gluten-free]
@@ -25,172 +25,87 @@ equipment:
   - instant-read-food-thermometer
   - immersion-blender
   - tongs
-pairsWith: [basmati-rice, cucumber-raita, naan]
+pairsWith: [basmati-rice, naan, cucumber-raita]
+pairingNotes:
+  basmati-rice: Fluffy basmati to soak up the sauce.
+  naan: For scooping up every last bit of curry.
+  cucumber-raita: Cool cucumber yogurt against the warm spices.
 ingredients:
-  - '--- Chicken and Marinade ---'
-  - '900 g (about 2 lb) boneless skinless chicken thighs, weighed after trimming large pieces of fat, cut into 1 1/2-inch / 4 cm chunks'
-  - '3/4 cup plain full-fat Greek yogurt, unsweetened'
-  - '1 tbsp finely grated garlic, for the marinade'
-  - '1 tbsp finely grated ginger, for the marinade'
-  - '1 tbsp fresh lemon juice, for the marinade'
-  - '1 tsp fine salt, for the marinade'
-  - '1 tbsp Kashmiri red chile powder, pure ground chile rather than a seasoning blend'
-  - '1 tsp garam masala, a salt-free ground spice blend, for the marinade'
-  - '1 tsp neutral oil, for lightly brushing the two cooking racks'
+  - '--- Chicken and marinade ---'
+  - '2 lb boneless skinless chicken thighs, cut into 1 1/2-inch chunks'
+  - 3/4 cup plain full-fat Greek yogurt
+  - '1 tbsp garlic, finely grated'
+  - '1 tbsp fresh ginger, finely grated'
+  - 1 tbsp fresh lemon juice
+  - 1 tsp fine salt
+  - 1 tbsp Kashmiri chili powder
+  - 1 tsp garam masala
+  - '1 tsp neutral oil, for the racks'
   - '--- Sauce ---'
-  - '2 tbsp unsalted butter, for the onion'
-  - '1 tbsp neutral oil, for the onion'
-  - '250 g white or yellow onion, peeled and finely diced'
-  - '1 tbsp minced garlic, for the sauce'
-  - '1 tbsp minced ginger, for the sauce'
+  - 2 tbsp unsalted butter
+  - 1 tbsp neutral oil
+  - '1 large white onion, finely diced'
+  - 1 tsp fine salt
   - 3 tbsp tomato paste
+  - '1 tbsp garlic, minced'
+  - '1 tbsp fresh ginger, minced'
   - 1 1/2 tbsp ground coriander
   - 1 tbsp ground cumin
   - 1 tsp ground turmeric
-  - '1 tbsp sweet paprika, not smoked'
-  - '3 cups (720 ml) plain unseasoned tomato passata'
-  - '1 tbsp white sugar, for the sauce'
-  - '1 tsp fine salt, for the onion and tomato base'
-  - '1/2 tsp fine salt, reserved for final seasoning; use only as needed'
-  - '1/2 cup (120 ml) water, reserved only to loosen the sauce as needed'
-  - '1 cup (240 ml) heavy cream, at least 35% milk fat'
+  - 1 tbsp sweet paprika
+  - 3 cups tomato passata
+  - 1 tbsp sugar
+  - 'water, to loosen the sauce'
+  - 1 cup heavy cream
   - '--- Finish ---'
+  - '1/2 tsp fine salt, to taste'
   - 1 tbsp unsalted butter
-  - '1 tbsp kasuri methi (dried fenugreek leaves), measured loosely before crushing'
-  - '1 tsp garam masala, for finishing'
-  - '1 tsp white sugar, optional for the final adjustment'
-  - '1 tbsp fresh lemon juice, optional for the final adjustment'
+  - 1 tbsp kasuri methi (dried fenugreek leaves)
+  - 1 tsp garam masala
+  - 1 tsp sugar (optional)
+  - 1 tbsp fresh lemon juice (optional)
 description: >-
   Broiled yogurt-marinated chicken in a rich tomato-and-cream sauce, with coriander,
   cumin and a fragrant dried-fenugreek finish.
 learning:
-  focus: Coordinate a finished sauce with evenly cooked broiler batches
-  outcome: >-
-    Chicken has scattered browned edges and a moist center, surrounded by a smooth,
-    spoonable sauce with clear spice aroma and a rounded tomato finish.
   techniques: [browning, temperature, seasoning]
-  before:
-    - >-
-      Marinate the chicken for at least 4 hours, or overnight up to 24 hours, at 40°F / 4°C
-      or below. Do not wash raw chicken. Use separate raw-chicken tools and a clean plate
-      and clean tongs for the cooked chicken.
-    - >-
-      Have two metal rimmed pans, about 13 by 18 inches, each with a rack explicitly safe
-      for broiling. Ordinary cooling racks may not be suitable. Line the pans beneath the
-      racks with foil; do not use parchment under the broiler. Follow the oven's broiler-door
-      instructions and set the food, not just the oven rack, about 5–6 inches below the element.
-    - >-
-      The full recipe uses two batches of about 450 g chicken, one tray at a time under the active element.
-      Keep the second raw portion refrigerated. Finish the sauce base before broiling so you
-      can watch the chicken continuously. Fully cook each batch before it leaves the oven.
-    - >-
-      Use a 5–6-quart pot, about 10 inches across, for sauce and chicken together. For half
-      a batch use a 3-quart pot and one broiler batch; for a quarter use a 2-quart pot and
-      one small batch centered under the element. Keep the chicken pieces the same size and
-      check their temperature; times do not halve. Make larger quantities as separate complete
-      batches rather than holding early chicken through many extra broiler rounds.
-  checkpoints:
-    - step: 3
-      cue: Onion is fully soft and golden, and tomato paste darkens slightly without blackening.
-      why: The onion softens before the short paste-and-spice stage; garlic and ground spices scorch sooner.
-    - step: 4
-      cue: Sauce thickens enough to coat a spoon but flows back into the trail left by stirring.
-      why: Reducing water concentrates this base; visible oil separation is not a required endpoint.
-    - step: 6
-      cue: Several of the largest pieces reach at least 165°F / 74°C at their centers, with scattered brown patches outside.
-      why: Broiler color depends on surface moisture and element distance; it cannot reveal the center temperature.
-    - step: 7
-      cue: The finished curry is hot throughout and the sauce pours slowly around the chicken.
-      why: Fully cooked chicken needs only a brief return to the sauce; a long second simmer can dry it out.
-  troubleshooting:
-    - problem: Chicken darkens before its center is cooked
-      cause: The broiler is too close or strong for the thickness of the pieces.
-      fix: >-
-        Move the tray farther from the element. If it keeps darkening, switch to a 400°F / 200°C
-        oven and continue cooking immediately until several thick centers reach 165°F / 74°C.
-        Do not set partially cooked chicken aside while making the sauce or another batch.
-    - problem: Chicken stays pale
-      cause: Thick clumps of yogurt are steaming, pieces touch or the tray is outside the strongest heat.
-      fix: >-
-        Rotate the tray if needed. For the next batch let excess marinade drip off and leave
-        spaces between pieces. Once chicken reaches its temperature endpoint, stop rather than
-        drying it out to force black spots.
-    - problem: Sauce is pasty or catches on the pot
-      cause: The passata is concentrated or too much liquid evaporated.
-      fix: >-
-        Lower the heat and stir in the listed water reserve a tablespoon at a time until
-        spoonable. Stir the bottom often. Burned sauce cannot be repaired with extra cream.
-    - problem: Tomato tastes sharp
-      cause: The passata or yogurt is especially acidic, or the sauce needs its full simmer.
-      fix: >-
-        Finish simmering before adjusting. Taste the completed curry with a piece of chicken;
-        add the optional sugar in small pinches if needed. Skip the optional lemon. Blending
-        smooths texture but does not remove acid.
   substitutions:
+    - ingredient: Kashmiri chili powder
+      alternative: Sweet paprika with a pinch of cayenne
+      effect: 'Gives the same red color and gentle heat, with a little less fruitiness.'
+    - ingredient: Tomato passata
+      alternative: Canned tomato puree
+      effect: 'Slightly thicker and more cooked-tasting. Loosen the sauce with a splash of water.'
+    - ingredient: Kasuri methi (dried fenugreek leaves)
+      alternative: Leave it out
+      effect: >-
+        The curry loses its distinctive savory aroma. Do not use fenugreek seeds, which are much
+        stronger and bitter.
     - ingredient: Chicken thighs
-      alternative: The same net weight of boneless skinless chicken breast in the same-size chunks
+      alternative: Boneless skinless chicken breasts
       effect: >-
-        Breast is leaner and has less margin for overcooking. Begin checking at about
-        8 minutes of broiling, turn as needed, and remove individual pieces when their centers
-        reach 165°F / 74°C. Use the same fully cooked batch sequence and only a brief sauce finish.
-    - ingredient: Kashmiri red chile powder in the marinade
-      alternative: The same amount of sweet paprika
-      effect: >-
-        Gives a milder coating. Kashmiri chile varies in heat; an equal tablespoon of cayenne
-        or a blended American chili seasoning is not an equivalent replacement.
-    - ingredient: Kasuri methi
-      alternative: Omit if unavailable
-      effect: >-
-        The sauce loses its distinctive dried-leaf aroma. Fenugreek seeds or ground seed
-        are much stronger and are not a spoon-for-spoon replacement.
-    - ingredient: Immersion-blended sauce
-      alternative: Leave the finely diced onion in the sauce
-      effect: Keeps a little texture and saves the blending step. Both versions retain all the cream and butter.
-  timing: >-
-    Allow about 5 hours 15 minutes to 5 hours 30 minutes from raw ingredients with a
-    four-hour refrigerated marinade. This includes about 15 minutes to prepare the marinade,
-    starting the sauce during the final 75 minutes of marinating, two watched broiler batches,
-    and the final warm-through and five-minute rest. Total hands-on work is about 105–120 minutes,
-    including time attending the broiler. If the chicken is already marinated, allow about
-    2 hours to 2 hours 15 minutes for sauce preparation and the two batches. Rice, raita and
-    naan are separate work; making twelve naan from dough takes up to three hours.
+        Leaner and quicker to dry out. Start checking after 8 minutes under the broiler and pull
+        each piece at 165°F.
   storage: >-
-    Keep raw marinated chicken refrigerated and cook within 24 hours of mixing, without
-    extending its original refrigerated storage life. The sauce base through step 4 can be
-    made up to two days ahead: refrigerate promptly in shallow containers and reheat to a
-    rolling boil before continuing. For finished curry, refrigerate in shallow containers
-    within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days
-    or freeze for up to three months for best quality. Thaw in the refrigerator. Reheat with
-    a little water, stirring and checking several chicken centers for 165°F / 74°C throughout.
-    Do not partially broil chicken as a make-ahead step.
-  sources:
-    - title: Swasthi Shreekanth — Chicken tikka masala, separate tikka and sauce methods
-      url: https://www.indianhealthyrecipes.com/chicken-tikka-masala/
-    - title: Hari Ghotra — Chicken tikka masala, cooked chicken added to prepared sauce
-      url: https://www.harighotra.co.uk/chicken-tikka-masala-recipe
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: USDA FSIS — Chicken from farm to table
-      url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table
-    - title: USDA FSIS — Leftovers and food safety
-      url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat gently with a splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 rating: 5
 ---
 
 ## Chef's Note
 
-This restaurant-style tikka masala combines browned chicken with a generous tomato-and-cream sauce. A little char adds flavor, but the chicken should not be black all over. Have the sauce ready first, cook the chicken in manageable batches, and crush the dried fenugreek leaves into the finished curry for their distinctive aroma.
+Tikka masala was born in British curry houses, where cooks folded broiled chicken tikka into a spiced tomato and cream sauce. Kashmiri chili gives the chicken its deep red color with gentle heat, and a long-cooked onion base gives the sauce body. Crushed dried fenugreek leaves stirred in at the end bring the unmistakable curry-house aroma.
 
 ## Directions
 
-1. **Marinate:** Trim and cut the chicken into pieces about **1 1/2 inches / 4 cm** across. Whisk the yogurt, marinade garlic and ginger, marinade lemon juice, marinade salt, Kashmiri chile and marinade garam masala in a bowl. Fold in chicken, cover and refrigerate for **at least 4 hours**, or overnight up to 24 hours. Wash hands, board and tools after handling the raw chicken. Keep the separate rack oil out of the marinade.
-2. **Prepare the sauce and pans:** Begin about **75 minutes before the chicken's four-hour marinade ends**. Dice the onion, measure all sauce ingredients and set aside the finishing ingredients. Prepare the number of foil-lined metal pans and broiler-safe racks needed for your batch: two for the full recipe, one for half or quarter. Lightly brush the racks in use with the listed rack oil, dividing it between them. Keep the chicken refrigerated while making the sauce. Set out a clean covered platter and clean tongs for cooked chicken.
-3. **Cook the onion, paste and spices:** Heat the onion butter and oil in the heavy pot over medium heat. Add onion and **half the initial sauce salt**. Cook for **15–20 minutes**, stirring regularly, until soft and golden. Add tomato paste and stir for **2 minutes**, until a shade darker. Lower the heat; stir in the sauce garlic and ginger for **30–60 seconds**, then coriander, cumin, turmeric and paprika for **15–20 seconds**. Promptly add passata before the ground spices scorch.
-4. **Finish the sauce base:** Stir in the measured sauce sugar and the remaining initial sauce salt. Bring to a gentle simmer, allowing a few minutes to heat, then cook **uncovered for 15–20 minutes**, stirring the bottom regularly. Use the water reserve a little at a time only if it becomes too thick to stir easily. The base should be thick and aromatic but still flow from a spoon. Turn off the heat and let bubbling stop. If blending, keep the immersion-blender head submerged and blend carefully until smooth, following the appliance's hot-food instructions; stop the motor before lifting it. Cover the pot off the heat while broiling. During the last ten minutes of the sauce simmer, preheat the broiler to HIGH according to the oven's instructions; do not load chicken until the sauce base is finished and the chicken has marinated four hours.
-5. **Load the first batch:** Arrange **up to about 450 g chicken** on the first rack (half the full recipe; all the chicken for a half or quarter recipe) in one layer with spaces between the pieces. Lift it from the marinade, letting excess drip back into the bowl; retain a thin coating rather than wiping it clean. Keep the remaining raw chicken and marinade refrigerated. Place the top of the food about **5–6 inches below the broiler element**. Broil only one tray at a time.
-6. **Broil through, then repeat:** Broil the thighs for about **12–18 minutes total**, turning after **6–8 minutes** and rotating the tray if the element browns unevenly. Watch throughout. Start temperature checks early: insert a clean instant-read probe from the side into the center of several large pieces, avoiding the rack. Every checked center must reach **165°F / 74°C** before removal; take ready pieces out as needed while thicker ones finish. If the surface darkens first, move the tray lower or use the oven finish in troubleshooting. Transfer with clean tongs to the clean platter and cover loosely. If raw chicken remains, load the second prepared rack and broil the same way. Discard any raw marinade once the last batch is loaded. Keep raw utensils away from the cooked platter. Allow a few minutes for loading and temperature checks between the two rounds; do not leave the broiler to prepare another dish. Discard the scorched tray drippings, keeping only the juices that collect on the clean cooked-chicken platter.
-7. **Combine and finish:** Turn off the broiler. Reheat the sauce base, stirring, until bubbling throughout. Stir in the cream and bring back to a gentle simmer, using any remaining measured water only if necessary. Add all the cooked chicken and its clean-platter juices; stir gently for about **2–4 minutes**, until the whole curry is hot and chicken centers reach **165°F / 74°C**. Turn off the heat. Taste with a piece of chicken, then add the reserved salt only as needed. Use small amounts of the optional finishing sugar or lemon only if the sauce needs them. Stir in the finishing butter, crush the measured fenugreek leaves between your palms into the pot, and add the finishing garam masala. Rest **5 minutes** before serving.
-8. **Serve:** Divide the chicken evenly among the servings and spoon over the sauce, roughly **1 1/4–1 1/2 cups curry per person**. Serve with plain basmati or naan, and small spoonfuls of cucumber raita if wanted. The full basmati recipe provides six rice sides; if also serving naan, start with smaller rice portions and one bread each.
+1. **Marinate the chicken:** Whisk the yogurt, grated garlic and ginger, lemon juice, salt, Kashmiri chili and garam masala in a bowl. Fold in the chicken, cover and refrigerate for 4 to 24 hours.
+2. **Cook the onion:** About 75 minutes before the chicken is ready, heat the butter and oil in a heavy 5- to 6-quart pot over medium heat. Add the onion and half the sauce salt. Cook, stirring often, until soft and deep golden, 15 to 20 minutes.
+3. **Toast the paste and spices:** Stir in the tomato paste and cook until it darkens to brick red, about 2 minutes. Lower the heat and add the minced garlic and ginger for 30 to 60 seconds. Stir in the coriander, cumin, turmeric and paprika for 15 to 20 seconds, until fragrant.
+4. **Simmer the sauce:** Add the passata, sugar and the rest of the sauce salt right away, before the spices scorch. Simmer uncovered, stirring the bottom often, until the sauce coats a spoon but still flows, 15 to 20 minutes. Add a splash of water if it gets too thick to stir.
+5. **Blend the sauce:** Take the pot off the heat. Blend the sauce smooth with an immersion blender, keeping the head under the surface. Cover the pot.
+6. **Set up the broiler:** Heat the broiler to high with the oven rack set so the chicken sits 5 to 6 inches below the element. Line two rimmed metal pans with foil, set a broiler-safe rack in each and brush the racks with the oil.
+7. **Broil the chicken:** Lift the chicken from the marinade, letting the excess drip off, and spread half of it on one rack with space between the pieces. Broil one tray at a time, turning once after 6 to 8 minutes, until browned in spots and the largest pieces reach 165°F, 12 to 18 minutes total. Move the cooked chicken to a clean plate and broil the second tray.
+8. **Simmer the curry:** Bring the sauce back to a bubble and stir in the cream. Add the chicken and its juices and simmer gently until everything is hot, 2 to 4 minutes. Add a little water if the sauce is too thick.
+9. **Season and finish:** Turn off the heat. Taste with a piece of chicken and add the finishing salt as needed, plus the sugar or lemon juice only if the sauce needs them. Stir in the butter, crush the kasuri methi between your palms over the pot and add the garam masala. Let the curry rest for 5 minutes before serving.

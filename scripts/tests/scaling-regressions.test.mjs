@@ -67,11 +67,11 @@ for (const row of confirmed) {
           row.caseId === 61
             ? [
                 { step: 'filling', share: '2/3' },
-                { step: 'arrange', share: '1/3' },
+                { step: 'cheese', share: '1/3' },
               ]
             : [
                 { step: 'dishes', share: '1/4' },
-                { step: 'arrange', share: '3/4' },
+                { step: 'top', share: '3/4' },
               ]
         );
         assert(!data.ingredients.includes(component.input));
@@ -113,57 +113,68 @@ for (const row of confirmed) {
         (row.slug === 'roasted-broccolini-with-lemon' && row.caseId === 56)
       ) {
         // Retain the old parser inputs and numeric oracles below, while checking
-        // their independently reviewed authored replacements. Bunch weight is
-        // descriptive original-batch context, not a universal weight conversion.
+        // their authored replacements. Broccolini is now measured by weight alone,
+        // so no fixed bunch count sits beside a scaling weight.
         assert.equal(data.formula?.version, 1);
         const asparagus = row.caseId === 55;
         const ingredient = data.formula.components
           .find((c) => c.id === (asparagus ? 'finish' : 'roast'))
           .ingredients.find((i) => i.id === (asparagus ? 'garnish' : 'broccolini'));
         assert.deepEqual(ingredient.quantity, {
-          amount: asparagus ? 1 : 2,
-          unit: asparagus ? 'tbsp' : 'count',
+          amount: asparagus ? 1 : 12,
+          unit: asparagus ? 'tbsp' : 'oz',
         });
-        assert.deepEqual(ingredient.uses, [{ step: asparagus ? 'finish' : 'toss', share: 1 }]);
+        assert.deepEqual(ingredient.uses, [{ step: asparagus ? 'serve' : 'toss', share: 1 }]);
         if (asparagus) {
           assert.equal(ingredient.optional, true);
-          assert.equal(ingredient.name, 'grated Parmesan or finely grated lemon zest');
+          assert.equal(ingredient.name, 'grated Parmesan or lemon zest');
         } else {
-          assert.match(ingredient.preparation, /12 oz total in the original two-bunch batch/);
+          assert.equal(ingredient.preparation, 'trimmed, thick stems split lengthwise');
         }
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
-          assert.equal(numeric(scaled.match(number)[0]), (asparagus ? 1 : 2) * factor);
-          if (!asparagus) {
-            assert.match(scaled, /12 oz total in the original two-bunch batch/);
-          }
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [(asparagus ? 1 : 12) * factor],
+            'the only quantity on the line scales'
+          );
         }
       } else if (
         (row.slug === 'chinese-steamed-fish' && row.caseId === 16) ||
         (row.slug === 'gefilte-fish-terrine' && row.caseId === 35)
       ) {
         // Keep all original parser inputs and numeric oracles below unchanged.
-        // Ginger piece count scales while its original two-inch size stays fixed.
-        // Lemon zest count scales independently from the separately measured juice.
+        // Ginger piece count scales while its two-inch size stays fixed.
+        // The zest of two lemons is now measured as 2 tbsp, apart from the juice.
         assert.equal(data.formula?.version, 1);
         const ginger = row.caseId === 16;
-        const ingredient = data.formula.components
-          .find((c) => c.id === (ginger ? 'fish' : 'terrine'))
-          .ingredients.find((i) => i.id === (ginger ? 'ginger' : 'lemons'));
-        assert.deepEqual(ingredient.quantity, { amount: ginger ? 1 : 2, unit: 'count' });
-        assert.match(
-          ingredient.preparation,
-          ginger ? /original 2-inch piece/ : /zest only; measured juice separate/
-        );
+        const ingredients = data.formula.components.find(
+          (c) => c.id === (ginger ? 'fish' : 'terrine')
+        ).ingredients;
+        const ingredient = ingredients.find((i) => i.id === (ginger ? 'ginger' : 'zest'));
+        assert.deepEqual(ingredient.quantity, {
+          amount: ginger ? 1 : 2,
+          unit: ginger ? 'piece' : 'tbsp',
+        });
+        if (ginger) assert.match(ingredient.preparation, /^2 inches long/);
+        else {
+          assert.equal(ingredient.name, 'lemon zest');
+          assert.deepEqual(ingredients.find((i) => i.id === 'juice').quantity, {
+            amount: 1,
+            unit: 'tsp',
+          });
+        }
         assert.deepEqual(
           ingredient.uses,
           ginger
             ? [
-                { step: 'fish', share: '1/2' },
+                { step: 'season', share: '1/2' },
                 { step: 'aromatics', share: '1/2' },
               ]
             : [{ step: 'bind', share: 1 }]
         );
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
@@ -174,20 +185,21 @@ for (const row of confirmed) {
         assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
       } else if (row.slug === 'banana-nut-bread' && row.caseId === 2) {
         // Retain the original parser input and every numeric oracle below.
-        // The formula keeps both the three-banana count and approximate total grams.
+        // The family original counts three bananas with no gram equivalent.
         assert.equal(data.formula?.version, 1);
         const ingredient = data.formula.components
           .find((c) => c.id === 'batter')
           .ingredients.find((i) => i.id === 'bananas');
         assert.deepEqual(ingredient.quantity, { amount: 3, unit: 'count' });
-        assert.deepEqual(ingredient.equivalents, [{ amount: 375, unit: 'g' }]);
-        assert.match(ingredient.preparation, /gram equivalent is an approximate total/);
+        assert.equal(ingredient.equivalents, undefined);
+        assert.equal(ingredient.preparation, 'mashed');
         assert.deepEqual(ingredient.uses, [{ step: 'banana', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [3 * factor, 375 * factor]
+            [3 * factor]
           );
         }
         assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
@@ -195,37 +207,40 @@ for (const row of confirmed) {
         (row.slug === 'chicken-quesadillas-with-quick-pico' && row.caseId === 12) ||
         (row.slug === 'herby-chicken-meatball-bowl' && row.caseId === 37)
       ) {
-        // The live formula replaces the juice/zest wording; keep every parser
-        // fixture input and its independent numeric oracle below unchanged.
+        // The live formula measures the juice and zest by volume; keep every
+        // parser fixture input and its independent numeric oracle below unchanged.
         assert.equal(data.formula?.version, 1);
         const quesadilla = row.caseId === 12;
         const replacement = data.formula.components
           .find((c) => c.id === (quesadilla ? 'pico' : 'meat'))
           .ingredients.find((i) => i.id === (quesadilla ? 'lime' : 'zest'));
-        assert.deepEqual(replacement.quantity, { amount: 1, unit: 'count' });
-        assert.equal(replacement.name, quesadilla ? 'lime' : 'lemon');
-        assert.match(replacement.preparation, quesadilla ? /juice only/ : /zest only/);
+        assert.deepEqual(replacement.quantity, {
+          amount: quesadilla ? 2 : 1,
+          unit: 'tbsp',
+        });
+        assert.equal(replacement.name, quesadilla ? 'fresh lime juice' : 'lemon zest');
         assert.deepEqual(replacement.uses, [{ step: quesadilla ? 'pico' : 'mix', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(replacement)));
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(replacement, factor);
-          assert.equal(numeric(scaled.match(number)[0]), factor);
-          assert.match(scaled, quesadilla ? /juice only/ : /zest only/);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [(quesadilla ? 2 : 1) * factor],
+            'no fixed fruit count sits beside the scaled measure'
+          );
         }
         assert.equal(formatFormulaIngredient(replacement, 1), formatFormulaIngredient(replacement));
       } else if (row.slug === 'warm-spiced-butternut-squash-soup' && row.caseId === 77) {
-        // The live formula names a counted stick with fixed original geometry.
+        // The live formula names a counted stick with a fixed per-stick length,
+        // and lists the star anise and cloves of the compound input separately.
         // Preserve the original parser input and its independent numeric oracle below.
         assert.equal(data.formula?.version, 1);
-        const ingredient = data.formula.components
-          .find((c) => c.id === 'soup')
-          .ingredients.find((i) => i.id === 'cinnamon');
+        const soup = data.formula.components.find((c) => c.id === 'soup');
+        const ingredient = soup.ingredients.find((i) => i.id === 'cinnamon');
         assert.deepEqual(ingredient.quantity, { amount: 1, unit: 'count' });
         assert.equal(ingredient.name, 'cinnamon stick');
         assert.equal(ingredient.plural, 'cinnamon sticks');
-        assert.equal(
-          ingredient.preparation,
-          '3-inch piece per original stick; size stays fixed when count scales'
-        );
+        assert.equal(ingredient.preparation, '3 inches long');
         assert.deepEqual(ingredient.uses, [{ step: 'stock', share: 1 }]);
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
@@ -235,70 +250,78 @@ for (const row of confirmed) {
           );
         }
         assert.equal(formatFormulaIngredient(ingredient, 1), formatFormulaIngredient(ingredient));
+        for (const [id, amount] of [
+          ['anise', 1],
+          ['cloves', 3],
+        ]) {
+          const spice = soup.ingredients.find((i) => i.id === id);
+          assert.deepEqual(spice.quantity, { amount, unit: 'count' });
+          assert.deepEqual(spice.uses, [{ step: 'stock', share: 1 }]);
+          assert.ok(data.ingredients.includes(formatFormulaIngredient(spice)));
+          for (const factor of factors)
+            assert.equal(
+              numeric(formatFormulaIngredient(spice, factor).match(number)[0]),
+              amount * factor
+            );
+        }
       } else if (
         row.slug === 'one-pan-lemon-herb-chicken-thighs' &&
         [43, 44, 45].includes(row.caseId)
       ) {
         // Keep all three original parser inputs and numeric oracles below.
-        // The live formula counts thighs with original-batch weight context,
-        // and uses both juice and zest from the same counted lemons.
+        // The live formula counts thighs (a fixed total weight beside a scaling
+        // count would be wrong at any other size), and uses both juice and zest
+        // from the same counted lemons.
         assert.equal(data.formula?.version, 1);
         const chicken = row.caseId === 43;
         const ingredient = data.formula.components
           .find((c) => c.id === 'pan')
           .ingredients.find((i) => i.id === (chicken ? 'chicken' : 'lemon'));
         assert.deepEqual(ingredient.quantity, { amount: chicken ? 8 : 2, unit: 'count' });
-        assert.equal(ingredient.name, chicken ? 'bone-in skin-on chicken thigh' : 'lemon');
-        assert.equal(
-          ingredient.preparation,
-          chicken
-            ? 'raw, fresh or fully thawed; original eight-thigh batch is about 2.5–3 lb total'
-            : 'washed, zested and juiced; reserve all juice and zest from these same lemons'
-        );
-        assert.deepEqual(ingredient.uses, [{ step: chicken ? 'sear' : 'deglaze', share: 1 }]);
+        assert.equal(ingredient.name, chicken ? 'bone-in, skin-on chicken thigh' : 'lemon');
+        assert.equal(ingredient.preparation, chicken ? undefined : 'zested and juiced');
+        assert.deepEqual(ingredient.uses, [{ step: chicken ? 'sear' : 'lemon', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
         if (!chicken) {
-          const deglaze = data.formula.steps.find((s) => s.id === 'deglaze');
-          assert.match(deglaze.text, /all the juice from the measured lemons/);
-          assert.match(deglaze.text, /all the reserved zest/);
+          const lemon = data.formula.steps.find((s) => s.id === 'lemon');
+          assert.match(lemon.text, /the juice of the \{\{ingredients\}\}/);
+          assert.match(lemon.text, /stir in the zest/);
         }
         for (const factor of factors) {
           const scaled = formatFormulaIngredient(ingredient, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            chicken ? [8 * factor, 2.5, 3] : [2 * factor]
+            [(chicken ? 8 : 2) * factor]
           );
           if (factor === 1) assert.equal(scaled, formatFormulaIngredient(ingredient));
         }
       } else if (row.slug === 'chewy-chocolate-meringues' && row.caseId === 7) {
         // Retain the original parser input and all numeric oracles below.
-        // The current recipe measures pasteurized whites by volume without
-        // claiming an undocumented equivalent count of whole eggs.
-        const liveIngredient = '1 cup Pasteurized Egg Whites, suitable for whipping';
+        // The plain page measures whites by volume with a scaling egg count
+        // (pasteurized-egg safety copy was dropped at Jordan's request).
+        const liveIngredient = '1 cup egg whites (about 8 large eggs)';
         assert.ok(data.ingredients.includes(liveIngredient));
-        assert.ok(data.ingredients.includes('2 cups Granulated Sugar'));
-        assert.ok(data.ingredients.includes('1 cup Dark Chocolate Chips'));
+        assert.ok(data.ingredients.includes('2 cups granulated sugar'));
+        assert.ok(data.ingredients.includes('1 cup dark chocolate chips'));
         for (const factor of factors) {
           const scaled = scaleIngredient(liveIngredient, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [factor]
+            [factor, 8 * factor]
           );
-          assert.match(scaled, /Pasteurized Egg Whites, suitable for whipping/);
           if (factor === 1) assert.equal(scaled, liveIngredient);
         }
       } else if (row.slug === 'misir-wot' && row.caseId === 39) {
         // Keep the original total-volume parser input and its numeric oracles below.
-        // The current recipe states the onion volume as original-batch context.
-        const liveIngredient =
-          '2 large Red Onions, finely diced (about 3 cups for the original batch)';
+        // The plain page drops the original-batch volume note and counts onions only.
+        const liveIngredient = '2 large red onions, finely diced';
         assert.ok(data.ingredients.includes(liveIngredient));
         for (const factor of factors) {
           const scaled = scaleIngredient(liveIngredient, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [2 * factor, 3]
+            [2 * factor]
           );
-          assert.match(scaled, /cups for the original batch/);
           if (factor === 1) assert.equal(scaled, liveIngredient);
         }
       } else if (row.slug === 'anelletti-al-forno' && row.caseId === 70) {
@@ -313,7 +336,7 @@ for (const row of confirmed) {
         ]) {
           const ingredient = ragu.ingredients.find((i) => i.id === id);
           assert.deepEqual(ingredient.quantity, { amount, unit: 'count' });
-          assert.deepEqual(ingredient.uses, [{ step: 'ragu', share: 1 }]);
+          assert.deepEqual(ingredient.uses, [{ step: 'soffritto', share: 1 }]);
           assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
           for (const factor of factors) {
             const scaled = formatFormulaIngredient(ingredient, factor);
@@ -327,75 +350,77 @@ for (const row of confirmed) {
         assert.ok(!data.ingredients.includes(component.input));
       } else if (row.slug === 'tomato-and-goat-cheese-tart' && row.caseId === 75) {
         // Keep the original total/allocated parser input and all oracles below.
-        // The live authored formula preserves twelve ounces split four/eight.
+        // The live formula lists the four ounces for the pastry and the eight for
+        // the filling as separate lines, still twelve ounces in all.
         assert.equal(data.formula?.version, 1);
-        const goat = data.formula.components
-          .find((c) => c.id === 'tart')
-          .ingredients.find((i) => i.id === 'goat');
-        assert.deepEqual(goat.quantity, { amount: 12, unit: 'oz' });
-        assert.deepEqual(goat.uses, [
-          { step: 'dough', share: '1/3' },
-          { step: 'filling', share: '2/3' },
-        ]);
-        assert.ok(data.ingredients.includes(formatFormulaIngredient(goat)));
+        const goats = ['pastry', 'filling'].map((id) =>
+          data.formula.components.find((c) => c.id === id).ingredients.find((i) => i.id === 'goat')
+        );
+        assert.deepEqual(
+          goats.map((g) => g.quantity),
+          [
+            { amount: 4, unit: 'oz' },
+            { amount: 8, unit: 'oz' },
+          ]
+        );
+        assert.deepEqual(
+          goats.map((g) => g.uses),
+          [[{ step: 'fat', share: 1 }], [{ step: 'filling', share: 1 }]]
+        );
+        for (const goat of goats)
+          assert.ok(data.ingredients.includes(formatFormulaIngredient(goat)));
         for (const factor of factors) {
-          const scaled = formatFormulaIngredient(goat, factor);
           assert.deepEqual(
-            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [12 * factor]
-          );
-          assert.deepEqual(
-            goat.uses.map(({ share }) => numeric(share) * 12 * factor),
+            goats.map((goat) => numeric(formatFormulaIngredient(goat, factor).match(number)[0])),
             [4 * factor, 8 * factor]
           );
-          if (factor === 1) assert.equal(scaled, formatFormulaIngredient(goat));
         }
         assert.ok(!data.ingredients.includes(component.input));
       } else if (row.slug === 'elote-style-corn-on-the-cob' && row.caseId === 29) {
         // Retain the original compound parser input and every numeric oracle below.
-        // The live formula separates the full crema/sour-cream measure from
-        // the optional milk used only for the sour-cream route.
+        // Crema leads the live formula; the sour cream thinned with 1 tbsp milk
+        // is now its swap rather than an ingredient line.
         assert.equal(data.formula?.version, 1);
-        const sauce = data.formula.components.find((c) => c.id === 'sauce');
-        for (const [id, amount] of [
-          ['cream', 3],
-          ['milk', 1],
-        ]) {
-          const ingredient = sauce.ingredients.find((i) => i.id === id);
-          assert.deepEqual(ingredient.quantity, { amount, unit: 'tbsp' });
-          assert.deepEqual(ingredient.uses, [{ step: 'sauce', share: 1 }]);
-          if (id === 'milk') {
-            assert.equal(ingredient.optional, true);
-            assert.equal(ingredient.preparation, 'only for the sour-cream alternative');
-          } else assert.equal(ingredient.name, 'Mexican crema or sour cream');
-          assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
-          for (const factor of factors) {
-            const output = formatFormulaIngredient(ingredient, factor);
-            assert.equal(numeric(output.match(number)[0]), amount * factor);
-            if (factor === 1) assert.equal(output, formatFormulaIngredient(ingredient));
-          }
+        const ingredient = data.formula.components
+          .find((c) => c.id === 'main')
+          .ingredients.find((i) => i.id === 'cream');
+        assert.equal(ingredient.name, 'Mexican crema');
+        assert.deepEqual(ingredient.quantity, { amount: 3, unit: 'tbsp' });
+        assert.deepEqual(ingredient.uses, [{ step: 'sauce', share: 1 }]);
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(ingredient)));
+        for (const factor of factors) {
+          const output = formatFormulaIngredient(ingredient, factor);
+          assert.equal(numeric(output.match(number)[0]), 3 * factor);
+          if (factor === 1) assert.equal(output, formatFormulaIngredient(ingredient));
         }
+        const swap = data.learning.substitutions.find((x) => x.ingredient === 'Mexican crema');
+        assert.equal(swap.alternative, 'Sour cream thinned with 1 tbsp milk');
         assert.ok(!data.ingredients.includes(component.input));
       } else if (row.slug === 'noodle-pudding' && row.caseId === 42) {
         // Keep the original total/allocation parser input and numeric oracles below.
-        // The published eight-ounce butter total remains six in custard,
-        // two in the topping, now represented by explicit authored shares.
+        // The family original restores 12 oz (3 sticks): half in the pudding, half
+        // for the pan and topping. The 8 oz split now lives in the Suggested Tweak.
         assert.equal(data.formula?.version, 1);
         const butter = data.formula.components
-          .find((c) => c.id === 'custard')
+          .find((c) => c.id === 'pudding')
           .ingredients.find((i) => i.id === 'butter');
-        assert.deepEqual(butter.quantity, { amount: 8, unit: 'oz' });
+        assert.deepEqual(butter.quantity, { amount: 12, unit: 'oz' });
+        assert.deepEqual(butter.equivalents, [{ amount: 3, unit: 'stick' }]);
         assert.deepEqual(butter.uses, [
-          { step: 'custard', share: '3/4' },
-          { step: 'topping', share: '1/4' },
+          { step: 'mix', share: '1/2' },
+          { step: 'pan', share: '1/2' },
         ]);
         assert.ok(data.ingredients.includes(formatFormulaIngredient(butter)));
+        assert.match(fs.readFileSync(sourcePath, 'utf8'), /Use 8 oz butter instead of 12 oz/);
         for (const factor of factors) {
           const output = formatFormulaIngredient(butter, factor);
-          assert.equal(numeric(output.match(number)[0]), 8 * factor);
           assert.deepEqual(
-            butter.uses.map(({ share }) => numeric(share) * 8 * factor),
-            [6 * factor, 2 * factor]
+            [...output.matchAll(number)].map((m) => numeric(m[0])),
+            [12 * factor, 3 * factor]
+          );
+          assert.deepEqual(
+            butter.uses.map(({ share }) => numeric(share) * 12 * factor),
+            [6 * factor, 6 * factor]
           );
           if (factor === 1) assert.equal(output, formatFormulaIngredient(butter));
         }
@@ -411,16 +436,10 @@ for (const row of confirmed) {
         const ginger = data.formula.components
           .find((component) => component.id === 'main')
           .ingredients.find((ingredient) => ingredient.id === 'ginger');
-        assert.deepEqual(ginger.quantity, { amount: 1, unit: 'count' });
-        assert.equal(
-          ginger.name,
-          pho ? '4-inch piece of fresh ginger' : '1-inch piece of fresh ginger'
-        );
-        assert.equal(
-          ginger.plural,
-          pho ? '4-inch pieces of fresh ginger' : '1-inch pieces of fresh ginger'
-        );
-        assert.equal(ginger.preparation, pho ? 'washed and halved lengthwise' : 'smashed');
+        assert.deepEqual(ginger.quantity, { amount: 1, unit: pho ? 'count' : 'piece' });
+        assert.equal(ginger.name, pho ? '4-inch piece of fresh ginger' : 'fresh ginger');
+        if (pho) assert.equal(ginger.plural, '4-inch pieces of fresh ginger');
+        assert.equal(ginger.preparation, pho ? 'halved lengthwise' : '1 inch long, smashed');
         assert.deepEqual(ginger.uses, [{ step: pho ? 'char' : 'infuse', share: 1 }]);
         assert.ok(data.ingredients.includes(formatFormulaIngredient(ginger)));
         for (const factor of factors) {
@@ -458,17 +477,22 @@ for (const row of confirmed) {
         }
         assert.match(
           data.formula.steps.find((step) => step.id === 'steep').text,
-          /Remove and discard the tea bag/
+          /squeeze out the tea bag and discard it/
         );
         assert.ok(!data.ingredients.includes(component.input));
       } else if (row.slug === 'cranberry-crunch' && row.caseId === 20) {
         // Keep the original compound parser input and every numeric oracle below.
-        // Two cups of fruit do not establish one unspecified package's contents.
-        const current = '2 cups Fresh Cranberries';
+        // The family original is restored: two cups, one bag, and both scale.
+        const current = '2 cups cranberries (1 bag)';
         assert.ok(data.ingredients.includes(current));
         assert.ok(!data.ingredients.includes(component.input));
         for (const factor of factors) {
-          assert.equal(numeric(scaleIngredient(current, factor).match(number)[0]), 2 * factor);
+          const scaled = scaleIngredient(current, factor);
+          assert.deepEqual(
+            [...scaled.matchAll(number)].map((m) => numeric(m[0])),
+            [2 * factor, factor]
+          );
+          if (factor === 1) assert.equal(scaled, current);
         }
       } else if (row.slug === 'super-lemony-olive-oil-cake' && row.caseId === 63) {
         // Preserve the original compound parser input and all numeric oracles below.
@@ -481,7 +505,11 @@ for (const row of confirmed) {
         assert.equal(lemon.plural, 'large lemons');
         assert.deepEqual(lemon.quantity, { amount: 2, unit: 'count' });
         assert.deepEqual(lemon.uses, [{ step: 'flavor', share: 1 }]);
-        assert.equal(lemon.preparation, 'wash; use all zest and juice');
+        assert.equal(lemon.preparation, 'zested and juiced');
+        assert.match(
+          data.formula.steps.find((step) => step.id === 'flavor').text,
+          /using all the lemon zest and juice/
+        );
         assert.ok(data.ingredients.includes(formatFormulaIngredient(lemon)));
         for (const factor of factors) {
           assert.equal(
@@ -496,21 +524,20 @@ for (const row of confirmed) {
         const liqueur = data.formula.components
           .find((c) => c.id === 'drink')
           .ingredients.find((i) => i.id === 'liqueur');
-        assert.equal(liqueur.name, 'French honeyed herbal liqueur (40% ABV)');
+        // The brand now names the liqueur (no ABV), and the step's barspoon
+        // caveat was dropped as hedging: the teaspoon measure itself replaces it.
+        assert.equal(liqueur.name, 'Bénédictine');
         assert.deepEqual(liqueur.quantity, { amount: '1/2', unit: 'tsp' });
         assert.deepEqual(liqueur.uses, [{ step: 'mix', share: 1 }]);
         assert.ok(data.ingredients.includes(formatFormulaIngredient(liqueur)));
-        assert.match(
-          data.formula.steps.find((step) => step.id === 'mix').text,
-          /Use the measured teaspoon amount for the herbal liqueur rather than assuming every barspoon has the same capacity/
-        );
+        assert.ok(!data.ingredients.some((line) => /barspoon/i.test(line)));
         for (const factor of factors) {
           assert.deepEqual(
             [...formatFormulaIngredient(liqueur, factor).matchAll(number)].map((m) =>
               numeric(m[0])
             ),
-            [0.5 * factor, 40],
-            'liqueur teaspoons scale; ABV remains fixed'
+            [0.5 * factor],
+            'liqueur teaspoons scale'
           );
         }
         assert.equal(formatFormulaIngredient(liqueur, 1), formatFormulaIngredient(liqueur));
@@ -519,20 +546,20 @@ for (const row of confirmed) {
         (row.slug === 'roasted-sweet-potatoes' && row.caseId === 57)
       ) {
         // Keep both historical parser inputs and their numeric oracles below.
-        // The live prose scopes medium-vegetable counts to the original batch.
+        // The plain page drops "original batch" scoping, so the medium count is
+        // an equivalent of the weight and scales with it; cut sizes stay fixed.
         const zucchini = row.caseId === 22;
         const live = zucchini
-          ? '2 lbs Fresh Zucchini (original batch about 4 medium)'
-          : '2 lbs Sweet Potatoes, peeled and cut into 3/4-inch wedges (original batch about 3 medium)';
-        assert.ok(data.ingredients.includes(live), 'current measured weight and context remain');
+          ? '2 lb zucchini (about 4 medium), cut into 1/2-inch sticks'
+          : '2 lb sweet potatoes (about 3 medium), peeled and cut into 3/4-inch wedges';
+        assert.ok(data.ingredients.includes(live), 'current measured weight and count remain');
         for (const factor of factors) {
           const scaled = scaleIngredient(live, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            zucchini ? [2 * factor, 4] : [2 * factor, 0.75, 3],
-            'weight scales; original-batch count and wedge size stay fixed'
+            zucchini ? [2 * factor, 4 * factor, 0.5] : [2 * factor, 3 * factor, 0.75],
+            'weight and its count scale; cut size stays fixed'
           );
-          assert.match(scaled, /original batch about/);
           if (factor === 1) assert.equal(scaled, live, 'reset restores the exact live ingredient');
         }
       } else if (row.slug === 'sausage-and-white-bean-skillet' && row.caseId === 58) {
@@ -542,9 +569,9 @@ for (const row of confirmed) {
         const lemon = data.formula.components
           .find((c) => c.id === 'dish')
           .ingredients.find((i) => i.id === 'lemon');
-        assert.equal(lemon.name, 'Lemon');
-        assert.deepEqual(lemon.quantity, { amount: 0.5, unit: 'count' });
-        assert.equal(lemon.preparation, 'juice only');
+        assert.equal(lemon.name, 'lemon');
+        assert.deepEqual(lemon.quantity, { amount: '1/2', unit: 'count' });
+        assert.equal(lemon.preparation, 'juiced');
         assert.deepEqual(lemon.uses, [{ step: 'finish', share: 1 }]);
         assert.ok(data.ingredients.includes(formatFormulaIngredient(lemon)));
         for (const factor of factors) {
@@ -554,25 +581,26 @@ for (const row of confirmed) {
             [0.5 * factor],
             'lemon count scales without a juice-volume conversion'
           );
-          assert.match(scaled, /juice only/);
+          assert.match(scaled, /juiced/);
         }
         assert.equal(formatFormulaIngredient(lemon, 1), formatFormulaIngredient(lemon));
       } else if (row.slug === 'red-zone-margarita' && row.caseId === 54) {
         // Preserve the historical lime input and every numeric oracle below.
-        // Bind the reviewed live fluid-ounce amounts and their batch equivalents separately.
+        // The plain page measures in cups (same 10 fl oz lime, 5 fl oz Cointreau)
+        // and the lime count scales with the juice.
         assert.ok(!data.ingredients.includes(component.input));
         const liveRows = [
           {
-            input: '10 fl oz fresh lime juice (1 1/4 cups; lime yield varies)',
-            amounts: [10, 1.25],
-            scales: [true, true],
-            qualifier: /lime yield varies/,
+            input: '1 1/4 cups fresh lime juice (8 to 10 limes)',
+            amounts: [1.25, 8, 10],
+            scales: [true, true, true],
+            qualifier: /limes\)$/,
           },
           {
-            input: '5 fl oz dry orange liqueur, 40% ABV (about 0.6 cup)',
-            amounts: [5, 40, 0.6],
-            scales: [true, false, true],
-            qualifier: /40% ABV \(about /,
+            input: '1/2 cup plus 2 tbsp Cointreau',
+            amounts: [0.5, 2],
+            scales: [true, true],
+            qualifier: / plus \d/,
           },
         ];
         for (const live of liveRows) {
@@ -608,15 +636,19 @@ for (const row of confirmed) {
         }
       } else if (row.slug === 'honey-glazed-spareribs' && row.caseId === 38) {
         // Preserve the original compound parser fixture and every numeric oracle below.
-        // The model-specific version scales actual rib weight; rack count is approximate.
+        // The live formula scales rib weight; no fixed rack count sits beside it.
         const pork = data.formula.components
           .flatMap((c) => c.ingredients)
           .find((i) => i.id === 'pork');
         assert.deepEqual(pork.quantity, { amount: 4, unit: 'lb' });
-        assert.match(pork.preparation, /original 4-lb batch; cut into 3-rib sections/);
+        assert.equal(pork.preparation, 'cut into 3-rib sections');
+        assert.ok(data.ingredients.includes(formatFormulaIngredient(pork)));
         for (const factor of factors) {
-          assert.equal(numeric(formatFormulaIngredient(pork, factor).match(number)[0]), 4 * factor);
-          assert.match(formatFormulaIngredient(pork, factor), /cut into 3-rib sections/);
+          assert.deepEqual(
+            [...formatFormulaIngredient(pork, factor).matchAll(number)].map((m) => numeric(m[0])),
+            [4 * factor, 3],
+            'weight scales; section size stays fixed'
+          );
         }
       } else if (row.slug === 'dan-dan-noodles' && row.caseId === 27) {
         // Keep the historical bok-choy input and every numeric oracle below.
@@ -627,11 +659,11 @@ for (const row of confirmed) {
         const bokChoy = ingredients.find((i) => i.id === 'bok-choy');
         assert.deepEqual(bokChoy.quantity, { amount: 4, unit: 'count' });
         assert.equal(bokChoy.optional, true);
-        assert.deepEqual(bokChoy.uses, [{ step: 'noodles', share: 1 }]);
+        assert.deepEqual(bokChoy.uses, [{ step: 'greens', share: 1 }]);
         const oil = ingredients.find((i) => i.id === 'oil');
         assert.deepEqual(oil.quantity, { amount: 3, unit: 'tsp' });
         assert.deepEqual(oil.uses, [
-          { step: 'pork', share: '1/3' },
+          { step: 'brown', share: '1/3' },
           { step: 'yacai', share: '2/3' },
         ]);
         for (const factor of factors) {
@@ -652,22 +684,23 @@ for (const row of confirmed) {
         if (row.caseId === 66) {
           assert.ok(ingredient.allowance && !ingredient.quantity);
         } else {
-          const amount = row.caseId === 64 ? 1 : 100;
+          // The plain page converted the 100 g pasta to US weight, 3 1/2 oz.
+          const amount = row.caseId === 64 ? 1 : '3 1/2';
           assert.deepEqual(ingredient.quantity, {
             amount,
-            unit: row.caseId === 64 ? 'tbsp' : 'g',
+            unit: row.caseId === 64 ? 'tbsp' : 'oz',
           });
           for (const factor of factors)
             assert.equal(
               numeric(formatFormulaIngredient(ingredient, factor).match(number)[0]),
-              amount * factor
+              numeric(String(amount)) * factor
             );
         }
       } else if (row.slug === 'dashi-japanese-sea-stock' && row.caseId === 28) {
         // Keep the historical katsuobushi parser input and every numeric oracle below.
         // The reviewed live line triples the bonito to 30 g, six 5 g packs.
         const live =
-          '30 g Katsuo Bushi (Dried Bonito Flakes), 6 packs (5g each), approx 3 cups total';
+          '30 g katsuobushi (dried bonito flakes), 6 packs (5 g each), about 3 cups total';
         assert.ok(data.ingredients.includes(live), 'current authored bonito line remains');
         assert.ok(!data.ingredients.includes(component.input));
         for (const factor of factors) {
@@ -681,19 +714,53 @@ for (const row of confirmed) {
         }
       } else if (row.slug === 'falafel' && row.caseId === 32) {
         // Keep the historical salt parser input and every numeric oracle below.
-        // The reviewed live line raises the base salt to 9 g with the same 3 g allowance.
-        const live =
-          '9 g salt, weighed (about 1 1/2 tsp fine salt), plus up to 3 g more only after tasting a fried test piece';
+        // The reviewed 9 g base salt is now written in US measure, 1 1/2 tsp,
+        // with an unmeasured "to taste" in place of the 3 g tasting allowance.
+        const live = '1 1/2 tsp fine salt, plus more to taste';
         assert.ok(data.ingredients.includes(live), 'current authored salt line remains');
         assert.ok(!data.ingredients.includes(component.input));
         for (const factor of factors) {
           const scaled = scaleIngredient(live, factor);
           assert.deepEqual(
             [...scaled.matchAll(number)].map((m) => numeric(m[0])),
-            [9 * factor, 1.5 * factor, 3 * factor],
-            'weighed salt, its teaspoon estimate and the tasting allowance all scale'
+            [1.5 * factor],
+            'the teaspoon measure scales'
           );
           if (factor === 1) assert.equal(scaled, live, 'reset restores the exact live ingredient');
+        }
+      } else if (row.slug === 'chinese-garlic-sauce-base' && row.caseId === 15) {
+        // Keep the historic target-volume parser input and its oracle below.
+        // The plain page drops the 240 ml top-up line: thickness is now the cue,
+        // with an unmeasured splash of hot water named only in the step.
+        assert.ok(!data.ingredients.some((line) => /hot water|240 ml/i.test(line)));
+        assert.ok(data.ingredients.includes('1/2 cup unsalted vegetable broth'));
+        assert.match(fs.readFileSync(sourcePath, 'utf8'), /whisk in a splash of hot water/);
+      } else if (row.slug === 'onigiri-japanese-rice-balls' && [47, 48, 49].includes(row.caseId)) {
+        // Keep the historic filling parser inputs and their oracles below.
+        // The plain page makes tuna mayo the one filling: umeboshi and salmon
+        // became swaps with the same amounts, and sesame salt is now a garnish.
+        const swaps = data.learning.substitutions;
+        assert.ok(!data.ingredients.some((line) => line.startsWith('Filling')));
+        if (row.caseId === 47) {
+          const swap = swaps.find((s) => s.alternative === 'Umeboshi');
+          assert.match(swap.effect, /one pitted umeboshi.*into each ball/);
+          assert.match(data.servings, /^4 rice balls/);
+        } else if (row.caseId === 48) {
+          const swap = swaps.find((s) => s.alternative === 'Flaked cooked salmon');
+          assert.match(swap.effect, /1\/4 cup flaked salmon mixed with 1\/2 tsp soy sauce/);
+        } else {
+          assert.ok(data.ingredients.includes('toasted sesame seeds (optional)'));
+        }
+      } else if (component.live) {
+        // The November plain-page rewrite reworded or split this line (US units,
+        // no original-batch notes). The historic parser input keeps its oracle
+        // below; each current line must be live and pass its own oracle too.
+        for (const live of component.live) {
+          assert.ok(
+            data.ingredients.includes(live.input),
+            `current authored ingredient must be live: ${live.input}`
+          );
+          assertScales(live);
         }
       } else {
         assert.ok(
@@ -701,69 +768,57 @@ for (const row of confirmed) {
           'fixture must exercise the current authored ingredient'
         );
       }
-      const authored = [...component.input.matchAll(number)].map((match) => match[0]);
-      assert.deepEqual(
-        authored,
-        component.quantities.map((quantity) => quantity.amount)
-      );
-      for (const factor of factors) {
-        const output = scaleIngredient(component.input, factor);
-        if (factor === 1) assert.equal(output, component.input, 'reset restores exact source');
-        const actual = [...output.matchAll(number)].map((match) => numeric(match[0]));
-        const expected = component.quantities.map(
-          ({ amount, scales }) => numeric(amount) * (scales ? factor : 1)
-        );
-        assert.equal(
-          actual.length,
-          expected.length,
-          `${factor}x: quantity count changed: ${output}`
-        );
-        expected.forEach((value, index) => {
-          // The existing display formatter rounds non-kitchen fractions to 2 decimals
-          // (4 below 0.1). The oracle is independently specified source arithmetic.
-          const tolerance = value < 0.1 ? 0.000051 : 0.005001;
-          assert.ok(
-            Math.abs(actual[index] - value) <= tolerance,
-            `${factor}x quantity ${index}: expected ${value}, got ${actual[index]}: ${output}`
-          );
-        });
-      }
+      assertScales(component);
     }
   });
 }
 
+function assertScales({ input, quantities }) {
+  const authored = [...input.matchAll(number)].map((match) => match[0]);
+  assert.deepEqual(
+    authored,
+    quantities.map((quantity) => quantity.amount)
+  );
+  for (const factor of factors) {
+    const output = scaleIngredient(input, factor);
+    if (factor === 1) assert.equal(output, input, 'reset restores exact source');
+    const actual = [...output.matchAll(number)].map((match) => numeric(match[0]));
+    const expected = quantities.map(
+      ({ amount, scales }) => numeric(amount) * (scales ? factor : 1)
+    );
+    assert.equal(actual.length, expected.length, `${factor}x: quantity count changed: ${output}`);
+    expected.forEach((value, index) => {
+      // The existing display formatter rounds non-kitchen fractions to 2 decimals
+      // (4 below 0.1). The oracle is independently specified source arithmetic.
+      const tolerance = value < 0.1 ? 0.000051 : 0.005001;
+      assert.ok(
+        Math.abs(actual[index] - value) <= tolerance,
+        `${factor}x quantity ${index}: expected ${value}, got ${actual[index]}: ${output}`
+      );
+    });
+  }
+}
+
 test('six ambiguous count-leading equivalents retain their original quantities', () => {
-  for (const { slug, input } of load('scaling-ambiguous')) {
+  for (const { slug, input, live } of load('scaling-ambiguous')) {
     const { data } = matter(
       fs.readFileSync(new URL(`../../src/content/recipes/${slug}.md`, import.meta.url), 'utf8')
     );
-    if (slug === 'garlicky-lemon-kale-with-carrots') {
-      // Preserve both original ambiguous parser inputs below. The live ingredient
-      // now explicitly limits its cup/tablespoon estimate to the original batch.
-      const live = input.startsWith('1 large bunch')
-        ? '1 large bunch Kale (stems removed; about 8 cups chopped for the original batch)'
-        : '1/2 Lemon, juiced (about 2 tbsp juice for the original batch)';
-      assert.ok(data.ingredients.includes(live), 'original count and equivalent remain present');
-      const sourceQuantities = [...input.matchAll(number)].map((match) => numeric(match[0]));
-      assert.deepEqual(
-        [...live.matchAll(number)].map((match) => numeric(match[0])),
-        sourceQuantities
-      );
+    // The November rewrite lowercased these lines and dropped most metric or
+    // original-batch equivalents. The live line must keep the original count;
+    // the historic input still exercises the parser below.
+    assert.ok(data.ingredients.includes(live), `${slug}: current ingredient remains: ${live}`);
+    const lead = (text) => numeric(text.match(number)[0]);
+    assert.equal(lead(live), lead(input), `${slug}: original count remains`);
+    for (const line of [input, live]) {
+      const parentheses = line.match(/\([^)]*\)/g) || [];
       for (const factor of factors) {
-        const scaled = scaleIngredient(live, factor);
-        if (factor === 1) assert.equal(scaled, live, 'reset restores the current exact ingredient');
-        const actual = [...scaled.matchAll(number)].map((match) => numeric(match[0]));
-        assert.equal(actual.length, 2);
-        assert.ok(Math.abs(actual[0] - sourceQuantities[0] * factor) <= 0.005001);
-        assert.equal(actual[1], sourceQuantities[1], 'original-batch equivalent stays fixed');
+        const output = scaleIngredient(line, factor);
+        if (factor === 1) assert.equal(output, line, 'reset restores the exact ingredient');
+        assert.ok(Math.abs(lead(output) - lead(line) * factor) <= 0.005001, `${slug}: ${output}`);
+        // An equivalent after a count may be per item, so it stays as written.
+        parentheses.forEach((part) => assert.ok(output.includes(part), `${slug}: ${output}`));
       }
-    } else {
-      assert.ok(data.ingredients.includes(input), 'ambiguous source must remain unchanged');
-    }
-    const parentheses = input.match(/\([^)]*\)/g) || [];
-    for (const factor of factors) {
-      const output = scaleIngredient(input, factor);
-      parentheses.forEach((part) => assert.ok(output.includes(part), `${slug}: ${output}`));
     }
   }
 });
@@ -844,28 +899,23 @@ test('all 13 fixed-batch and four structured recipes preserve their scaling mode
     if (row.kind === 'fixed')
       assert.equal(data.scaling?.mode, 'fixed', `${row.slug}: fixed mode changed`);
     else assert.ok(data.formula, `${row.slug}: structured formula removed`);
-    let preservedFormula = data.formula;
+    const preservedFormula = data.formula;
     if (row.slug === 'chocolate-chip-cookie-cake') {
-      // Retain every old measured ingredient/shopping/yield hash below.
-      // The only extra component is a genuine unmeasured pan-greasing supply.
-      const pan = data.formula.components.find((c) => c.id === 'pan');
-      assert.equal(pan.name, 'Pan preparation');
-      assert.equal(pan.ingredients.length, 1);
-      const grease = pan.ingredients[0];
-      assert.equal(grease.name, 'butter or baking spray');
-      assert.equal(grease.allowance, 'enough to grease the pan and parchment');
-      assert.equal(grease.quantity, undefined);
-      assert.deepEqual(grease.uses, [{ step: 'prep', share: 1 }]);
-      assert.ok(data.formula.steps.find((s) => s.id === 'prep').text.includes('{{ingredients}}'));
-      assert.ok(data.ingredients.includes(formatFormulaIngredient(grease)));
-      for (const factor of factors) {
-        assert.equal(formatFormulaIngredient(grease, factor), formatFormulaIngredient(grease));
-      }
-      preservedFormula = {
-        ...data.formula,
-        components: data.formula.components.filter((c) => c.id !== 'pan'),
-      };
-      assert.equal(preservedFormula.components.length, 2);
+      // Retain every measured ingredient/shopping/yield hash below. The plain page
+      // dropped the unmeasured pan-greasing component; greasing is now named in
+      // the prep step, so only the two measured components remain.
+      assert.equal(
+        data.formula.components.find((c) => c.id === 'pan'),
+        undefined
+      );
+      assert.match(
+        data.formula.steps.find((s) => s.id === 'prep').text,
+        /grease the pan and the paper with butter or baking spray/
+      );
+      assert.deepEqual(
+        data.formula.components.map((c) => c.id),
+        ['dough', 'topping']
+      );
     }
     for (const { factor, hash: expected } of row.expected || []) {
       assert.equal(

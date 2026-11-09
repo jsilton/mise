@@ -16,134 +16,65 @@ cuisines:
   - Chinese
 role: main
 vibe: technical
-prepTime: 20–30 min
-cookTime: About 35–45 min
-totalTime: About 55–75 min
+prepTime: 20 min
+cookTime: 40 min
+totalTime: 1 hr
 servings: '6'
 pairsWith:
-  - corn-shrimp-dumplings
+  - steamed-white-rice
+  - steamed-bok-choy-with-oyster-sauce
   - smashed-cucumber-salad
-  - cantonese-wonton-broth
+pairingNotes:
+  steamed-white-rice: Plain rice for the soy and ginger juices.
+  steamed-bok-choy-with-oyster-sauce: A green vegetable for a Cantonese table.
+  smashed-cucumber-salad: A cool, garlicky crunch beside the soft fish.
 ingredients:
-  - '1.8 kg Whole Snapper, scaled and gutted'
-  - '3 cloves Garlic, finely chopped'
-  - '1 (3-inch) piece Fresh Ginger, finely shredded'
-  - 1/4 cup Soy Sauce
-  - 1/4 cup Chicken Broth
-  - 2 tbsp Chinese Rice Wine (Shaoxing)
-  - 3 tsp Toasted Sesame Oil
-  - 2 tbsp Peanut Oil
-  - '6 Scallions, shredded into 4-inch threads'
-  - 1/2 cup Fresh Cilantro
+  - '1 whole snapper (1.8 kg), scaled and gutted'
+  - '3 garlic cloves, finely chopped'
+  - '1 (3-inch) piece fresh ginger, peeled and finely shredded'
+  - 1/4 cup soy sauce
+  - 1/4 cup chicken broth
+  - 2 tbsp Shaoxing wine
+  - 1 tbsp toasted sesame oil
+  - 2 tbsp peanut oil
+  - '6 scallions, cut into 4-inch threads'
+  - 1/2 cup fresh cilantro leaves
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from taste.com.au
+source: Adapted from Taste
 sourceUrl: >-
   https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3
 learning:
-  focus: Cook a covered whole fish and handle its aromatic finish
-  outcome: >-
-    Thick flesh is fully cooked and separates easily; the fish remains supported
-    and the drained aromatics become fragrant.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Keep raw fish refrigerated until preparation. Thaw frozen fish in the
-      refrigerator and follow any vacuum-pack instructions about opening the
-      package before thawing. Keep raw-contact tools separate from cooked fish
-      and garnishes.
-    - >-
-      Use a pan and a heatproof serving platter that fit the whole fish. Confirm
-      parchment and pan temperature ratings; scales do not multiply pan
-      dimensions.
-    - >-
-      The 1.8-kg whole fish and six portions are original-batch planning claims,
-      including bones; larger or smaller fish need different checks.
-    - >-
-      For the optional two-hour advance preparation, clean, dry and slash the
-      fish, then cover and refrigerate at 40°F / 4°C or below. Preheat the oven
-      when ready to bake and continue with seasoning about 1 hour before
-      intended serving; that lead time is a planning cue, and the measured flesh
-      and juice checks still determine completion.
-  checkpoints:
-    - step: 4
-      cue: >-
-        Both thick sides read 145°F /63°C away from bone and the flesh separates
-        easily.
-      why: >-
-        A foil cover changes the cooking environment but does not establish the
-        center endpoint.
-  troubleshooting:
-    - problem: Fish breaks during transfer
-      cause: A whole fish is lifted by its head or one narrow spatula
-      fix: >-
-        Use two broad spatulas to support the body and a platter large enough
-        for it; broken flesh cannot be reassembled perfectly.
   substitutions:
-    - ingredient: Chinese rice wine
-      alternative: The same listed amount of dry sherry
+    - ingredient: Whole snapper
+      alternative: Two 2-lb whole fish such as branzino or sea bass
       effect: >-
-        Dry sherry changes the wine aroma; keep the other dressing quantities
-        unchanged.
-    - ingredient: Ginger allocation and oil finish
-      alternative: >-
-        Spread all the listed ginger with all the garlic before covering and
-        baking; pour the hot oil over the cooked fish, then the checked hot
-        juices, and finally add the scallions and cilantro.
-      effect: >-
-        This complete ordering keeps all ingredient amounts; choose it instead
-        of the half-ginger garnish route.
-  timing: >-
-    Allow roughly 20–30 minutes active and 55–75 minutes elapsed for the
-    original cleaned, thawed fish, including preparation, covered baking and
-    finishing. Follow measured doneness; larger pan loads change the clock.
-    Thawing is additional.
+        Give them room in the pan. Smaller fish cook faster, so start checking at 18 minutes.
+    - ingredient: Shaoxing wine
+      alternative: Dry sherry
+      effect: Keeps a nutty wine aroma close to Shaoxing.
   storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers at 40°F /4°C or
-    below, within 2 hours (1 hour above 90°F /32°C). Use within 3–4 days; reheat
-    hot leftovers to 165°F /74°C throughout. Delicate fish can dry on reheating;
-    do not leave it warm to protect its texture.
-  sources:
-    - title: Adapted from taste.com.au
-      url: >-
-        https://www.taste.com.au/recipes/chinese-style-snapper/fd791197-4ba2-4cc8-9a88-560eeaa101d3
-    - title: FDA — Fish handling and cooking
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FoodSafety.gov — Species and egg-dish endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: FDA — Produce handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: USDA — Leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 2 days in the fridge. Flake the fish off the bone and warm it gently in its juices.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This covered whole-snapper preparation uses ginger, garlic and a soy-wine dressing, followed by a hot peanut-oil finish. Slashes expose thicker flesh to the seasoning; they do not guarantee that every fish cooks in the same time. Keep the whole fish supported on a large heatproof platter when transferring it.
+This is the oven version of a Cantonese steamed fish. A whole snapper bakes under foil in soy, Shaoxing wine and ginger, so it steams in its own juices. The finish is the best part: smoking-hot peanut oil poured over a pile of scallions and ginger on the fish.
 
 ## Directions
 
-1. **Prep:** Preheat the oven to 425°F /220°C. Choose a roasting pan that holds the original-size whole snapper without bending it; for multiples use additional pans. Line it with foil and nonstick baking parchment rated for the temperature, keeping the paper inside the covered pan.
-
-2. **Slash:** Use a scaled, gutted fish with the gills removed. Pat the inside and outside dry, keeping raw-contact tools separate from the serving platter. Cut three approximately 1-cm-deep slashes into the thick flesh on each side. Put it in the pan. Rinse fresh ginger, scallions and cilantro under running water as appropriate and drain thoroughly.
-
-3. **Season:** Spread all the garlic and half the listed ginger into and over the slits. Mix all the soy sauce, broth, rice wine and sesame oil and pour over the fish.
-
-4. **Bake:** Cover the pan tightly with foil. Begin checking at 25 minutes. Plan on about 30–40 minutes for the original 1.8-kg fish, and continue as needed until thick flesh on both sides reaches 145°F /63°C without touching bone, and is no longer translucent and separates easily. Fish thickness, starting temperature and pan load change the time.
-
-5. **Transfer:** With broad spatulas, carefully move the cooked fish to a warmed heatproof platter. Reserve all the cooking juices in the roasting pan, taking care with steam. Put all the scallions and the remaining ginger on the fish.
-
-6. **Oil:** Heat all the peanut oil in a small dry saucepan over controlled heat until hot and shimmering; do not maintain smoking oil. Carefully pour it over the well-drained scallions and ginger, keeping hands and face clear of splashes.
-
-7. **Finish:** Check the reserved raw-contact pan juices at 145°F /63°C before pouring them over the cooked fish. If needed, return the pan to the oven or transfer juices to a saucepan to finish heating. Add all the cilantro and serve promptly. When scaling, use additional original-size fish and roomy pans; do not multiply the oven clock or assume a fractional fish has the same geometry.
+1. **Heat the oven:** Heat the oven to 425°F. Line a roasting pan large enough to hold the fish flat with foil, then parchment.
+2. **Slash the fish:** Pat the snapper dry inside and out. Cut three slashes about 1/2 inch deep into the thickest part on each side and lay it in the pan.
+3. **Season the fish:** Rub the garlic and half the ginger into the slashes and the cavity. Stir the soy sauce, broth, Shaoxing wine and sesame oil together and pour it over the fish.
+4. **Bake covered:** Cover the pan tightly with foil and bake until the flesh at the thickest part is opaque, flakes easily and reads 145°F, 30 to 40 minutes. Start checking at 25 minutes.
+5. **Move to a platter:** Use two wide spatulas to move the fish to a warm platter. Save the pan juices. Pile the scallions and the rest of the ginger on the fish.
+6. **Pour the hot oil:** Heat the peanut oil in a small saucepan over high heat until it just begins to smoke. Pour it over the scallions and ginger. It should sizzle loudly.
+7. **Finish and serve:** Pour the pan juices over the fish, scatter the cilantro on top and serve right away.

@@ -177,10 +177,13 @@ test('explicit shallow-vessel stock cooling bath is separate from cooking', () =
     .split(/^---\s*$/m)
     .slice(2)
     .join('---');
-  assert.match(actual, /attached chicken meat for 165°F \/ 74°C before tasting or straining/);
+  // The November rewrite dropped the October 165°F meat check and the shallow-vessel cooling
+  // lecture (food-safety boilerplate). The real recipe still simmers the bones for hours and
+  // cools the strained stock in an ice bath, and that cooling step must not read as cooking.
+  assert.match(actual, /Simmer gently, uncovered, for 4 hours/);
   assert.match(
     actual,
-    /Cool promptly in those shallow vessels\. An ice-water bath with occasional clean stirring can speed cooling; keep bath water out of the stock\./
+    /Set the bowl in an ice bath and stir now and then until the stock is cool\. Cover and refrigerate overnight\./
   );
   assert.equal(hasLowTemperatureReference(actual, words), false);
   const cooling =
@@ -271,8 +274,13 @@ test('commercial pasteurized-in-shell egg use is not home pasteurization', () =>
     .split(/^---\s*$/m)
     .slice(2)
     .join('---');
-  assert.match(actual, /use pasteurized-in-shell eggs/);
-  assert.match(actual, /No raw protein belongs in this assembly step/);
+  // The November rewrite dropped the pasteurized-in-shell egg advice and the raw-protein
+  // warning from this assembly recipe (every listed protein is already cooked). The real body
+  // must still pass the detector, and the synthetic phrases below keep the qualifier covered.
+  assert.match(
+    actual,
+    /\*\*Add the protein:\*\* Pile the chickpeas, tofu, eggs, grilled chicken or fish, or rotisserie chicken on one side of each bowl\./
+  );
   assert.equal(hasLowTemperatureReference(actual, words), false);
   assert.equal(hasLowTemperatureReference('Use pasteurized-in-shell eggs.', words), false);
   // Only the product qualifier is excluded: the instruction remains visible.

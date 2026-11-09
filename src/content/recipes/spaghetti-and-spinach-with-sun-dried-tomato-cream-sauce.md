@@ -18,36 +18,35 @@ cuisines:
   - Italian
 role: side
 vibe: nutritious
-prepTime: About 10–15 min
-cookTime: About 20–30 min
-totalTime: About 30–45 min
+prepTime: 10 min
+cookTime: 25 min
+totalTime: 35 min
 servings: 4 portions
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:
-  - vietnamese-grilled-chicken
-  - garlic-butter-roasted-salmon-with-potatoes-and-asparagus
+  - chicken-milanese
+  - spatchcocked-roast-chicken
+pairingNotes:
+  chicken-milanese: Crisp cutlets beside the creamy pasta.
+  spatchcocked-roast-chicken: Juicy roast chicken for a bigger dinner.
 ingredients:
-  - '--- Ingredients ---'
-  - 8 oz Dry whole-wheat spaghetti
-  - '5 oz Fresh baby spinach, rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained'
-  - '1/2 cup Oil-packed sun-dried tomatoes, slivered; reserve jar oil separately'
-  - 1 tbsp Oil from the sun-dried tomato jar
-  - 1/2 cup Sour cream
-  - 1 cup Low-sodium chicken broth
-  - '1/4 cup Parmesan cheese, grated'
-  - '1/2 cup Red onion, thinly sliced'
-  - '3 Garlic cloves, minced'
-  - 1 tbsp Unsalted butter
-  - 1/4 tsp Crushed red pepper
-  - 1/4 tsp Salt
-  - 1/4 tsp Ground black pepper
-  - 'Water, as needed to boil pasta'
-  - 'Salt for pasta water, as desired, separate from measured sauce salt'
-  - 'Water for reheating, a little as needed for leftovers'
-source: Adapted from eatingwell.com
+  - 8 oz whole-wheat spaghetti
+  - '5 oz baby spinach, coarsely chopped'
+  - 1 tbsp oil from the sun-dried tomato jar
+  - 1 tbsp unsalted butter
+  - '1/2 cup red onion, thinly sliced'
+  - '1/2 cup oil-packed sun-dried tomatoes, slivered'
+  - '3 garlic cloves, minced'
+  - 1/4 tsp red pepper flakes
+  - 1/4 tsp salt
+  - 1/4 tsp black pepper
+  - 1 cup low-sodium chicken broth
+  - 1/2 cup sour cream
+  - '1/4 cup Parmesan, grated'
+source: Adapted from EatingWell
 sourceUrl: 'https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/'
 formula:
   version: 1
@@ -60,7 +59,7 @@ formula:
       ingredients:
         - id: pasta
           key: pasta
-          name: Dry whole-wheat spaghetti
+          name: whole-wheat spaghetti
           quantity:
             amount: 8
             unit: oz
@@ -69,64 +68,35 @@ formula:
               share: 1
         - id: spinach
           key: spinach
-          name: Fresh baby spinach
+          name: baby spinach
           quantity:
             amount: 5
             unit: oz
           uses:
             - step: spinach
               share: 1
-          preparation: rinsed under running water unless labeled prewashed or ready-to-eat; coarsely chopped and drained
-        - id: tomatoes
-          key: tomatoes
-          name: Oil-packed sun-dried tomatoes
-          quantity:
-            amount: 0.5
-            unit: cup
-          uses:
-            - step: base
-              share: 1
-          preparation: slivered; reserve jar oil separately
+          preparation: coarsely chopped
         - id: oil
           key: oil
-          name: Oil from the sun-dried tomato jar
+          name: oil from the sun-dried tomato jar
           quantity:
             amount: 1
             unit: tbsp
           uses:
             - step: base
               share: 1
-        - id: sour-cream
-          key: sour-cream
-          name: Sour cream
-          quantity:
-            amount: 0.5
-            unit: cup
-          uses:
-            - step: cream
-              share: 1
-        - id: broth
-          key: broth
-          name: Low-sodium chicken broth
+        - id: butter
+          key: butter
+          name: unsalted butter
           quantity:
             amount: 1
-            unit: cup
+            unit: tbsp
           uses:
-            - step: reduce
+            - step: base
               share: 1
-        - id: parmesan
-          key: parmesan
-          name: Parmesan cheese
-          quantity:
-            amount: 0.25
-            unit: cup
-          uses:
-            - step: cream
-              share: 1
-          preparation: grated
         - id: onion
           key: onion
-          name: Red onion
+          name: red onion
           quantity:
             amount: 0.5
             unit: cup
@@ -134,29 +104,30 @@ formula:
             - step: base
               share: 1
           preparation: thinly sliced
+        - id: tomatoes
+          key: tomatoes
+          name: oil-packed sun-dried tomatoes
+          quantity:
+            amount: 0.5
+            unit: cup
+          uses:
+            - step: base
+              share: 1
+          preparation: slivered
         - id: garlic
           key: garlic
-          name: Garlic clove
+          name: garlic clove
           quantity:
             amount: 3
             unit: count
           uses:
             - step: garlic
               share: 1
-          plural: Garlic cloves
+          plural: garlic cloves
           preparation: minced
-        - id: butter
-          key: butter
-          name: Unsalted butter
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: base
-              share: 1
         - id: flakes
           key: flakes
-          name: Crushed red pepper
+          name: red pepper flakes
           quantity:
             amount: 0.25
             unit: tsp
@@ -165,7 +136,7 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: Salt
+          name: salt
           quantity:
             amount: 0.25
             unit: tsp
@@ -174,107 +145,100 @@ formula:
               share: 1
         - id: pepper
           key: pepper
-          name: Ground black pepper
+          name: black pepper
           quantity:
             amount: 0.25
             unit: tsp
           uses:
             - step: garlic
               share: 1
-        - id: water
-          key: water
-          name: Water
-          allowance: as needed to boil pasta
+        - id: broth
+          key: broth
+          name: low-sodium chicken broth
+          quantity:
+            amount: 1
+            unit: cup
           uses:
-            - step: pasta
+            - step: reduce
               share: 1
-          role: cooking-water
-        - id: pasta-salt
-          key: pasta-salt
-          name: Salt for pasta water
-          allowance: 'as desired, separate from measured sauce salt'
+        - id: sour-cream
+          key: sour-cream
+          name: sour cream
+          quantity:
+            amount: 0.5
+            unit: cup
           uses:
-            - step: pasta
+            - step: cream
               share: 1
-        - id: reheat-water
-          key: reheat-water
-          name: Water for reheating
-          allowance: a little as needed for leftovers
+        - id: parmesan
+          key: parmesan
+          name: Parmesan
+          quantity:
+            amount: 0.25
+            unit: cup
           uses:
-            - step: serve
+            - step: cream
               share: 1
-          role: cooking-water
+          preparation: grated
   steps:
     - id: pasta
-      title: Cook pasta
-      text: 'From {{ingredients}}, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.'
+      title: Boil the pasta
+      text: >-
+        Bring a large pot of salted water to a boil. Cook {{ingredients}} as the package directs
+        until al dente. Scoop out some of the pasta water.
     - id: spinach
-      title: Wilt washed spinach
-      text: 'Prepare {{ingredients}} in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.'
+      title: Wilt the spinach
+      text: >-
+        Put {{ingredients}} in a large colander in the sink. Pour the pasta and its water over the
+        spinach, toss to wilt and drain well.
     - id: base
-      title: Soften the sauce base
-      text: 'In the same emptied pasta pot, heat {{ingredients}} over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.'
+      title: Soften the onion
+      text: >-
+        Warm {{ingredients}} in the empty pasta pot over medium heat. Cook, stirring, until the
+        onion softens, about 3 minutes.
     - id: garlic
-      title: Season
-      text: 'Add {{ingredients}} and stir about 45 seconds until fragrant, without scorching garlic.'
+      title: Add the garlic
+      text: 'Stir in {{ingredients}} and cook until fragrant, about 45 seconds.'
     - id: reduce
-      title: Reduce broth by observation
-      text: 'Add {{ingredients}} and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.'
+      title: Reduce the broth
+      text: 'Pour in {{ingredients}} and simmer until reduced by half, 2 to 3 minutes.'
     - id: cream
-      title: Finish gently
-      text: 'Reduce heat to low and stir in {{ingredients}} until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.'
+      title: Make it creamy
+      text: >-
+        Lower the heat and stir in {{ingredients}} until the cheese melts and the sauce is smooth.
+        Keep it from boiling.
     - id: toss
-      title: Coat pasta and spinach
-      text: 'Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.'
-    - id: serve
-      title: Serve and reserve leftovers
-      text: 'Serve hot. The listed {{ingredients}} is only for reheating leftovers, not an extra dose during this first cooking.'
+      title: Toss and serve
+      text: >-
+        Return the spaghetti and spinach to the pot and toss over low heat until hot and coated,
+        about 1 minute. Loosen with a splash of the pasta water if the sauce is thick. Serve with
+        more black pepper.
 learning:
-  focus: Reduce broth before adding sour cream
-  outcome: The broth is roughly half its starting volume before sour cream enters.
   techniques:
     - emulsions
     - starch
-  before:
-    - 'The full original-batch sauce uses ½ cup tomatoes PLUS 1 tbsp jar oil,1 tbsp butter,½ cup sour cream and ¼ cup Parmesan. Keep each separate ingredient and its destination.'
-    - Use a colander and pot with room for pasta and spinach. Larger batches may need divided pots; a doubled batch does not reduce by half in the same two minutes.
-  checkpoints:
-    - step: 5
-      cue: The broth is roughly half its starting volume before sour cream enters.
-      why: The reduction cue governs consistency; time varies with pot width.
-  troubleshooting:
-    - problem: Sauce is grainy or splitting
-      cause: Cheese mixture was heated too aggressively or reheated after chilling.
-      fix: 'After adding sour cream and Parmesan, lower the heat or take the pot off the heat and stir gently. Reheat stored pasta using the instructions below; the sauce may separate.'
   substitutions:
-    - ingredient: 'Separate skillet, butter added at the finish'
-      alternative: 'Use the same full ingredient amounts. While pasta cooks, sauté onion and tomatoes in only the listed jar oil in a separate large skillet. Add garlic, red pepper, measured salt and pepper, then broth and reduce by about half. Turn heat down and stir in the entire listed butter with the sour cream and Parmesan; combine with cooked pasta and wilted spinach. Vegetable broth can replace chicken broth at the same listed volume in either route.'
-      effect: A separate skillet lets the sauce cook while the pasta boils. In this variation all the butter goes in with the sour cream and Parmesan. Use only one butter amount and one tomato amount.
-  storage: 'Refrigerate leftovers in shallow containers within 2 hours (1 hour above 90°F /32°C), at 40°F /4°C or below. Use within 3 days. Reheat this pasta dish to 165°F /74°C throughout, stirring for even heating and using the listed reheating-water allowance only as needed. Sour cream and cheese may separate on reheating.'
-  timing: 'About 20–30 minutes active work and 30–45 minutes elapsed when making the sauce in the same pot after cooking and draining the pasta. A separate skillet lets pasta and sauce work overlap. Reduction time depends on pot width, heat and batch size; use the change in liquid level. Ingredient controls do not multiply timers.'
-  sources:
-    - title: Saved Adapted from eatingwell.com
-      url: 'https://www.eatingwell.com/recipe/7919563/spaghetti-spinach-with-sun-dried-tomato-cream-sauce/'
-    - title: USDA — storing and reheating leftovers
-      url: 'https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety'
-    - title: FDA — preparing fresh produce
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
+    - ingredient: low-sodium chicken broth
+      alternative: Vegetable broth
+      effect: 'Makes the dish vegetarian, with a slightly sweeter sauce.'
+  storage: >-
+    Keeps 3 days in the fridge. Reheat gently with a splash of water. The sauce may separate a
+    little.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Use the listed tomato-jar oil and butter in the sauté, then reduce the broth before gently adding sour cream and Parmesan. Put the prepared fresh spinach in a clean heat-safe colander and drain the hot pasta carefully over it. Toss to wilt and drain thoroughly.
+A light, creamy weeknight spaghetti. Sun-dried tomatoes and their oil give the sauce a deep, sweet-tart flavor, and sour cream makes it creamy with a little tang. Draining the hot pasta over raw spinach in the colander wilts the greens with no extra pan.
 
 ## Directions
 
-1. **Cook pasta:** From Dry whole-wheat spaghetti, Water, and Salt for pasta water, season the water with its salt allowance and bring it to a boil; then add the spaghetti and cook according to its package until al dente.
-2. **Wilt washed spinach:** Prepare Fresh baby spinach in a clean heat-safe colander with room for the cooked pasta. Set it securely above the sink so food cannot touch sink surfaces. Drain the hot pasta and water carefully over the spinach, keeping hands clear of steam; toss to wilt and drain thoroughly. If some leaves remain crisp, finish wilting them during the final warm toss.
-3. **Soften the sauce base:** In the same emptied pasta pot, heat Oil-packed sun-dried tomatoes, Oil from the sun-dried tomato jar, Red onion, and Unsalted butter over medium heat, adding onion and tomatoes once the fats are warm. Stir about 3 minutes until onion softens; allow longer as needed.
-4. **Season:** Add Garlic cloves, Crushed red pepper, Salt, and Ground black pepper and stir about 45 seconds until fragrant, without scorching garlic.
-5. **Reduce broth by observation:** Add Low-sodium chicken broth and simmer, stirring, until roughly half the starting broth remains. Use the change in liquid level as the cue and allow longer as needed. Pot width, heat and batch size change evaporation.
-6. **Finish gently:** Reduce heat to low and stir in Sour cream and Parmesan cheese until the cheese melts and the sauce is smooth; take the pot off the heat if it bubbles hard.
-7. **Coat pasta and spinach:** Return the drained spaghetti and spinach to the sauce. Toss gently over low heat until hot, the spinach is wilted and sauce clings to the strands. Do not cook until every drop of sauce is absorbed or the bottom dries out.
-8. **Serve and reserve leftovers:** Serve hot. The listed Water for reheating is only for reheating leftovers, not an extra dose during this first cooking.
+1. **Boil the pasta:** Bring a large pot of salted water to a boil. Cook whole-wheat spaghetti as the package directs until al dente. Scoop out some of the pasta water.
+2. **Wilt the spinach:** Put baby spinach in a large colander in the sink. Pour the pasta and its water over the spinach, toss to wilt and drain well.
+3. **Soften the onion:** Warm oil from the sun-dried tomato jar, unsalted butter, red onion, and oil-packed sun-dried tomatoes in the empty pasta pot over medium heat. Cook, stirring, until the onion softens, about 3 minutes.
+4. **Add the garlic:** Stir in garlic cloves, red pepper flakes, salt, and black pepper and cook until fragrant, about 45 seconds.
+5. **Reduce the broth:** Pour in low-sodium chicken broth and simmer until reduced by half, 2 to 3 minutes.
+6. **Make it creamy:** Lower the heat and stir in sour cream and Parmesan until the cheese melts and the sauce is smooth. Keep it from boiling.
+7. **Toss and serve:** Return the spaghetti and spinach to the pot and toss over low heat until hot and coated, about 1 minute. Loosen with a splash of the pasta water if the sauce is thick. Serve with more black pepper.

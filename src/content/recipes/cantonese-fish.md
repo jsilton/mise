@@ -20,9 +20,9 @@ cuisines:
   - Chinese
 role: main
 vibe: quick
-prepTime: 10–20 min
-cookTime: About 10–20 min
-totalTime: About 20–35 min
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
 servings: '2'
 seasons:
   - year-round
@@ -31,110 +31,48 @@ leftovers: poor
 equipment:
   - bamboo-steamer
 pairsWith:
-  - basmati-rice
-  - steamed-broccoli
-  - garlic-sesame-spinach
+  - steamed-white-rice
+  - steamed-bok-choy-with-oyster-sauce
+pairingNotes:
+  steamed-white-rice: Plain rice to soak up the soy and ginger oil.
+  steamed-bok-choy-with-oyster-sauce: The classic Cantonese green on the side.
 ingredients:
-  - '1 lb Whole Fish or Fillet (Tilapia, Flounder, or Sole)'
-  - '3 tbsp Fresh Ginger, julienned'
-  - '3 Green Onions, thinly sliced (white and green separated)'
-  - 1/2 cup Fresh Cilantro
-  - 2 tbsp Light Soy Sauce
-  - 3 tbsp Water, for the sauce
-  - 1 tsp Sugar
-  - 3 tbsp Neutral Oil (Avocado or Grapeseed)
-  - 'Water for steaming, as needed to keep the plate above the water'
-source: Adapted from thewoksoflife.com
+  - '1 lb whole flounder or sea bass, scaled and gutted'
+  - '3 tbsp fresh ginger, julienned'
+  - '3 green onions, thinly sliced'
+  - '1/2 cup fresh cilantro, roughly chopped'
+  - 2 tbsp light soy sauce
+  - 3 tbsp water
+  - 1 tsp sugar
+  - 3 tbsp avocado or grapeseed oil
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/cantonese-steamed-fish/'
 learning:
-  focus: 'Steam fish according to thickness, then finish its aromatics'
-  outcome: >-
-    Fish separates into moist flakes at the measured center endpoint; ginger and
-    scallions smell fragrant after the hot oil.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Keep raw fish refrigerated until preparation. Thaw frozen fish in the
-      refrigerator and follow any vacuum-pack instructions about opening the
-      package before thawing. Keep raw-contact tools separate from cooked fish
-      and garnishes.
-    - >-
-      Prepare the plate, stable rack and lid before heating water; the plate
-      must remain above the water and the lid must close. Allow more plates or
-      batches at larger ingredient scales.
-    - >-
-      The original 1-lb fish and two-portion yield are planning amounts; a whole
-      fish includes bones and cannot be equated to 1 lb boneless fillet for
-      edible yield.
-  checkpoints:
-    - step: 1
-      cue: >-
-        The thickest flesh is 145°F /63°C, no longer translucent and separates
-        easily; check a whole fish away from bone.
-      why: >-
-        Thickness and bones change steaming time; an 8–10-minute clock cannot
-        cover every listed fish form.
-  troubleshooting:
-    - problem: Fish is dry before the aromatics are ready
-      cause: The timer replaced thickness checks or the finish was prepared late
-      fix: >-
-        Have the sauce and aromatics ready before steaming finishes. Stop
-        steaming at the measured endpoint; already dry fish will not become
-        juicy again.
   substitutions:
-    - ingredient: Fillet or whole fish
-      alternative: >-
-        Use the listed weight of the selected form and original-size portions;
-        whole fish must be scaled and gutted.
+    - ingredient: Whole flounder or sea bass
+      alternative: White fish fillets
       effect: >-
-        Bones and head change edible yield and steaming time. Use 145°F in thick
-        flesh and adequate plate space rather than treating the two forms as
-        equal geometry.
-  timing: >-
-    Allow roughly 15–25 minutes active and 20–35 minutes elapsed for the
-    original batch with cleaned, thawed fish. Steamer heat-up, fish thickness
-    and additional plates change elapsed time; thawing is additional.
-  storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers at 40°F /4°C or
-    below, within 2 hours (1 hour above 90°F /32°C). Use within 3–4 days; reheat
-    hot leftovers to 165°F /74°C throughout. Delicate fish can dry on reheating;
-    do not leave it warm to protect its texture.
-  sources:
-    - title: Adapted from thewoksoflife.com
-      url: 'https://thewoksoflife.com/cantonese-steamed-fish/'
-    - title: FDA — Fish handling and cooking
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FoodSafety.gov — Species and egg-dish endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: FDA — Produce handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: USDA — Leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+        Tilapia, flounder or sole fillets work well. They steam faster, so start checking thin
+        fillets at 4 minutes.
+    - ingredient: Light soy sauce
+      alternative: All-purpose soy sauce
+      effect: Use the same amount. Kikkoman and similar brands taste close to Chinese light soy.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Ginger, scallions and cilantro give Cantonese steamed fish its fragrance. The plate must fit inside the covered steamer above the water, and the thickest flesh determines when steaming is finished. The hot-oil finish releases aroma; it does not require deliberately smoking the oil or replace the fish’s measured endpoint.
+A Cantonese home classic from The Woks of Life: fish steamed with ginger, then finished with sizzling oil poured over scallions and cilantro. The hot oil wakes up the herbs right on top of the fish, and a little sweetened soy around the edge seasons it without burying its clean flavor.
 
 ## Directions
 
-1. **Steam:** Keep the prepared fish cold until the steamer is ready. For a whole fish, have it scaled, gutted and its gills removed; check fillets for bones. Rinse the ginger, scallions and cilantro under running water before peeling or cutting, and drain well. Put the fish on a heatproof plate that fits on a stable rack inside the covered steamer, above its cooking water. Scatter half the listed ginger on top. Bring the water to a boil, cover and steam. Begin checking thin fillets after 4–5 minutes and thicker fillets or a whole fish around 8–10 minutes; these are first checks, not completion promises. Continue until the thickest flesh reaches 145°F /63°C, checking away from bone, and is no longer translucent and separates easily. Whole fish and overlapping loads can take longer; keep pieces uncrowded.
-
-2. **Drain:** Turn off the steam and carefully lift the plate with suitable gloves or a plate lifter. Drain the steaming liquid without tipping the fish onto a raw-contact surface.
-
-3. **Layer:** Arrange the remaining half of the listed ginger, all the scallion whites and greens, and all the cilantro over the cooked fish. Drain washed aromatics well before the oil finish.
-
-4. **Sauce:** Heat the soy sauce, the sauce water and the sugar in a small saucepan or microwave-safe cup until steaming and the sugar dissolves. Pour it around the fish, not over the top. Diluting the soy lets it season the fish without overpowering it.
-
-5. **Oil:** Heat all the listed neutral oil in a separate small dry saucepan over controlled heat until hot and shimmering. Do not leave it unattended or keep heating it to sustained smoke; if it smokes, remove it from the heat.
-
-6. **Finish:** Carefully pour the hot oil over the drained aromatics, keeping hands and face clear of splashes. Serve immediately, dividing the fish and all the sauce among the listed portions. Scale ingredients while keeping original-size fish or pieces and enough steamer space; additional steaming batches extend elapsed time.
+1. **Set up the steamer:** Bring water to a boil in a wok or wide pot fitted with a steamer rack and lid. Lay the flounder on a heatproof plate that fits inside with room around it and scatter half the ginger over it.
+2. **Steam the fish:** Set the plate on the rack, cover and steam over high heat until the thickest part is opaque and flakes easily at the bone, 8 to 10 minutes.
+3. **Warm the sauce:** While the fish steams, heat the soy sauce, water and sugar in a small saucepan until steaming and the sugar dissolves.
+4. **Top the fish:** Carefully lift out the plate and pour off the steaming liquid. Pile the rest of the ginger, the green onions and the cilantro on the fish. Pour the warm sauce around the fish, not over it.
+5. **Sizzle the oil:** Heat the oil in a small saucepan over medium-high heat until it shimmers and just begins to smoke, 1 to 2 minutes. Pour it over the herbs so they sizzle, and serve right away.

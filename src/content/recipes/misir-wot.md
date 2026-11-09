@@ -34,126 +34,65 @@ advancePrep:
 equipment:
   - dutch-oven
 prepTime: 15 min
-cookTime: 45–60 min
-totalTime: About 60–75 min
+cookTime: 45 min
+totalTime: 1 hr
 servings: '4'
 pairsWith:
   - basmati-rice
-  - steamed-white-rice
-  - everyday-arugula-salad
+  - garlicky-lemon-kale-with-carrots
+pairingNotes:
+  basmati-rice: Fluffy rice to soak up the stew when there's no injera.
+  garlicky-lemon-kale-with-carrots: Garlicky greens, close to Ethiopian gomen.
 ingredients:
-  - '1.5 cups Red Lentils, rinsed until water runs clear'
-  - 3 cups Water
-  - 3 tbsp Niter Kibbeh (Ethiopian spiced butter) or Extra-Virgin Olive Oil for vegan
-  - '2 large Red Onions, finely diced (about 3 cups for the original batch)'
-  - '4 cloves Garlic, minced'
-  - '1 (1-inch) piece Fresh Ginger, grated'
-  - 3 tbsp Berbere Spice Blend
-  - 2 tbsp Tomato Paste
-  - 1 tsp Kosher Salt
-  - 1/2 tsp Ground Cardamom
-  - 1/4 tsp Ground Fenugreek
-  - '1 tbsp Fresh Lemon Juice, for finishing'
-  - 'Additional water, as needed to adjust the stew consistency'
-  - 'Additional kosher salt, to taste after cooking'
-  - 'Additional berbere, to taste after cooking'
+  - '1 1/2 cups red lentils, rinsed until the water runs clear'
+  - 3 cups water, plus more as needed
+  - 3 tbsp niter kibbeh (Ethiopian spiced butter)
+  - '2 large red onions, finely diced'
+  - '4 garlic cloves, minced'
+  - '1 (1-inch) piece fresh ginger, grated'
+  - '3 tbsp berbere, plus more to taste'
+  - 2 tbsp tomato paste
+  - '1 tsp kosher salt, plus more to taste'
+  - 1/2 tsp ground cardamom
+  - 1/4 tsp ground fenugreek
+  - 1 tbsp fresh lemon juice
 learning:
-  focus: Control lentil hydration and concentrated onion base
-  outcome: >-
-    Soft red lentils without firm centers, thick enough to scoop, with the full spiced fat and lemon
-    finish.
   techniques:
     - starch
     - seasoning
-  before:
-    - >-
-      The two-onion/about 3 cups reference describes the original batch, not a fixed scaled
-      equivalent. Follow listed onion, water and spice totals when scaling.
-    - >-
-      Rinse the lentils as listed; have all spices ready before the short garlic stage. Niter kibbeh
-      and olive oil are distinct flavor choices, not reasons to reduce fat.
-  checkpoints:
-    - step: 1
-      cue: 'Onions soften as their own moisture reduces, without blackened patches.'
-      why: A softened dry-start base is different from a guaranteed ten-minute deep caramelization.
-    - step: 3
-      cue: A tasted lentil has no firm center; the bottom is stirred regularly.
-      why: An old lentil or leaky lid can outlast the written covered clock.
-  troubleshooting:
-    - problem: Stew catches while lentils are still firm.
-      cause: Pot evaporation or stirring did not reach the base.
-      fix: >-
-        Use the listed extra-water allowance in small additions and continue gently; a burnt base
-        cannot be corrected by lemon.
-    - problem: Stew is too loose.
-      cause: The lentils are tender but free liquid remains.
-      fix: >-
-        Simmer uncovered while stirring until scoopable; do not remove the full fat to alter
-        consistency.
   substitutions:
     - ingredient: Niter kibbeh
-      alternative: The same listed volume of extra-virgin olive oil
+      alternative: Ghee or unsalted butter
       effect: >-
-        The existing dairy-free option keeps all fat; it loses the spiced-butter aroma. Check
-        berbere and remaining ingredients for dietary suitability.
-    - ingredient: Niter kibbeh (non-vegan)
-      alternative: The same volume of ghee or unsalted butter
-      effect: >-
-        Keeps the buttery base that olive oil lacks. The cardamom and fenugreek already in the pot
-        supply some of the spiced-butter aroma. Watch plain butter closely, since its milk solids
-        brown faster than ghee.
-    - ingredient: Berbere (if you cannot find a ready-made blend)
-      alternative: >-
-        For the 3 tbsp: 2 tbsp sweet paprika, 1 tsp cayenne, 1/2 tsp each ground ginger, ground
-        coriander, ground fenugreek and black pepper, plus a pinch each of cinnamon, ground cloves
-        and allspice
-      effect: >-
-        A close supermarket stand-in with the warm, earthy heat of berbere, though less complex
-        than a blend made from toasted whole chiles. Use 1/2 tsp cayenne for a milder pot the kids
-        can share. Unlike some store blends it contains no salt, so taste for salt at the end.
+        Keeps the buttery base, and the cardamom and fenugreek in the pot stand
+        in for the spices. Watch butter closely, since it browns faster than
+        ghee.
+    - ingredient: Niter kibbeh
+      alternative: Extra-virgin olive oil
+      effect: Makes the stew vegan. It loses the rich, spiced-butter aroma.
     - ingredient: Berbere
-      alternative: A berbere blend with a different heat level
+      alternative: Homemade spice mix
       effect: >-
-        Blends vary in heat and salt; this changes the stew’s spice character. The measured 3 tbsp
-        for the original batch is the written main, not a universal tolerance or a generic
-        curry-powder substitution.
-  timing: >-
-    About 60–75 minutes including 15 minutes preparation, 8–10 minutes onion softening, 3–4 minutes
-    after fat, 30–45 seconds garlic, 2 minutes spices, water heat-up and 25–30 minutes covered
-    lentil cooking, plus any consistency correction. Extra vessels or older lentils can extend it;
-    rice or injera preparation is separate.
+        Mix 2 tbsp sweet paprika, 1 tsp cayenne, 1/2 tsp each ground ginger,
+        coriander, fenugreek and black pepper, and a pinch each of cinnamon,
+        cloves and allspice. Use 1/2 tsp cayenne for a milder pot the kids can
+        share. It has no salt, so season well at the end.
   storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above
-    90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or
-    stew to a boil when reheating, stirring so the center heats too; this is separate from the
-    first-cook instructions.
-  sources:
-    - title: Mise — Misir Wot
-      url: >-
-        https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/misir-wot.md
-    - title: GBC Kitchen — A distinct onion-in-fat Misir Wot route
-      url: 'https://www.greatbritishchefs.com/recipes/misir-wot-recipe'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — Produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 3 months. Reheat with a splash
+    of water, since it thickens as it sits.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Berbere and niter kibbeh give this Ethiopian lentil stew its spiced, buttery character; the same-volume olive-oil option gives a different, dairy-free base. Start the finely diced onions without fat until softened and concentrated, then add the full listed fat before the aromatics. This stage is not a promise of deep caramelization in ten minutes. Cook the lentils until they lose their firm centers, then adjust the stew to a thick, scoopable consistency.
+Misir wot is Ethiopia's everyday red lentil stew, deep red from berbere and rich with niter kibbeh, a spiced clarified butter. The secret is cooking the onions in a dry pot first, so they give up their water and turn sweet before any fat goes in. Scoop it up with injera, the spongy Ethiopian flatbread.
 
 ## Directions
 
-1. **Soften the onions:** Put all diced onions in a heavy pot over medium heat without oil. Stir frequently for 8–10 minutes as a first check, until their released moisture has reduced and the onions soften. Lower heat if they catch; stop at softened onions with reduced moisture rather than waiting for deep caramelization.
-2. **Add fat and spices:** Add all the listed niter kibbeh or olive oil and cook 3–4 minutes until onions begin to turn golden. Add all garlic and grated ginger and stir 30–45 seconds. Add all the measured berbere, tomato paste, cardamom and fenugreek and stir 2 minutes without scorching.
-3. **Cook the lentils:** Add all rinsed red lentils, all the listed cooking water and measured kosher salt. Bring to a boil, lower to a gentle simmer and cover. Cook 25–30 minutes as a first check, stirring every 5–7 minutes and reaching the bottom to prevent sticking, until the lentils have broken down with no firm centers. For scaled batches follow the listed water and salt amounts.
-4. **Adjust consistency:** If too thick before the lentils are tender, use the separate water allowance a few tablespoons at a time and continue the gentle simmer. If tender but too thin, simmer uncovered briefly until thick and scoopable. Use a vessel with room to stir the full batch; divide the complete formula proportionally among more pots if needed.
-5. **Finish:** Stir in all the measured lemon juice. Taste the fully cooked stew and use the separate additional salt and berbere allowances only if wanted; simmer briefly after an extra spice addition to incorporate it. Keep the full listed berbere and fat in the main formula.
-6. **Serve:** Serve thick and scoopable with injera, or over separately prepared basmati rice. The starch accompaniment has its own preparation and clock.
+1. **Dry-cook the onions:** Put the onions in a heavy pot or Dutch oven over medium heat with no fat. Cook, stirring often, until they've given up their moisture and softened, 8 to 10 minutes. Lower the heat if they start to catch.
+2. **Add the fat:** Add the niter kibbeh and cook until the onions begin to turn golden, 3 to 4 minutes.
+3. **Bloom the spices:** Stir in the garlic and ginger for 30 seconds. Add the berbere, tomato paste, cardamom and fenugreek and cook, stirring constantly, until the pot is deep red and fragrant, 2 minutes.
+4. **Simmer the lentils:** Add the lentils, water and salt and bring to a boil. Cover, lower the heat and simmer, stirring every 5 minutes and scraping the bottom, until the lentils have broken down into a thick stew, 25 to 30 minutes. Add a splash of water if it gets too thick before the lentils are soft, or simmer uncovered for a few minutes if it's soupy.
+5. **Finish and serve:** Stir in the lemon juice. Taste and add more salt or berbere if it needs it. Serve thick enough to scoop, with injera or rice.

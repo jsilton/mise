@@ -26,112 +26,49 @@ cuisines:
 role: side
 vibe: quick
 prepTime: 10 min
-cookTime: '6–8 min boiling, plus water heating'
-totalTime: About 25–35 min (equipment cooling may add time)
+cookTime: 15 min
+totalTime: 25 min
 servings: '4'
 pairsWith:
-  - instant-pot-butternut-squash-soup
-  - avocado-toast
-  - stovetop-macaroni-and-cheese
+  - mommas-healthy-meatloaf
+  - spatchcocked-roast-chicken
+  - herb-marinated-pork-tenderloins
 ingredients:
-  - '1 medium head Cauliflower, cut into small florets'
-  - '1 tbsp Cream Cheese, softened'
-  - 1/4 cup Freshly Grated Parmesan
-  - '3 to 4 Garlic cloves, minced'
+  - '1 medium head cauliflower, cut into small florets'
+  - 'kosher salt, for the cooking water and to taste'
   - 3 tbsp unsalted butter
-  - >-
-    1/2 tsp concentrated chicken or vegetable bouillon paste, using a paste
-    labeled 1 tsp per cup of prepared broth
-  - 'Salt, for boiling water and to taste; black pepper, to taste'
-  - 'Fresh Chives, chopped'
-  - 'Additional unsalted butter, a pat for serving, optional'
+  - '3–4 cloves garlic, minced'
+  - '1 tbsp cream cheese, softened'
+  - '1/4 cup Parmesan, freshly grated'
+  - '1/2 tsp chicken or vegetable bouillon paste'
+  - 'black pepper, to taste'
+  - 'fresh chives, chopped, for serving'
+  - butter, for serving (optional)
 origin: United States
-source: Adapted from Foodnetwork.com
-sourceUrl: 'http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447'
+source: Adapted from Food Network
+sourceUrl: 'https://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447'
+pairingNotes:
+  mommas-healthy-meatloaf: A lighter mash next to classic meatloaf.
+  spatchcocked-roast-chicken: Soaks up the roast chicken juices.
+  herb-marinated-pork-tenderloins: A creamy side for sliced herby pork.
 learning:
-  focus: Remove free water without stripping richness from cauliflower mash
-  outcome: 'Smooth warm mash holds softly on the spoon, with no pool of cooking water.'
   techniques:
     - temperature
-  before:
-    - >-
-      Use a concentrated paste whose label specifies 1 tsp per cup prepared
-      broth. Do not substitute a cube or generic powder at the same spoon
-      amount.
-    - >-
-      Have a colander and safe blotting utensils ready. Moisture control is
-      draining/steam escape, not bare-hand pressure on hot florets.
-    - >-
-      Read the actual processor/immersion blender manual for temperature/fill
-      limits; no particular household appliance is assumed.
-  checkpoints:
-    - step: 2
-      cue: No pool of free cooking water remains.
-      why: Removing free water reduces dilution; cauliflower need not be bone-dry.
-    - step: 5
-      cue: Seasoning is tasted after the garlic butter, bouillon and cheese are mixed in.
-      why: 'The recipe retains richness, and broth paste/cheese contribute salt.'
-  troubleshooting:
-    - problem: Mash is watery
-      cause: Cooking water was carried into processing.
-      fix: >-
-        Drain and let steam escape next time; warm gently to evaporate some
-        water, stirring, rather than removing butter or cheese.
-    - problem: Mash remains grainy
-      cause: Florets were not soft enough or machine capacity was exceeded.
-      fix: Cook to crushable softness and use approved smaller loads.
-  substitutions:
-    - ingredient: Chicken bouillon paste
-      alternative: Vegetable bouillon paste with the same labeled broth strength
-      effect: >-
-        This option changes flavor; no cube or dry powder equivalence
-        established.
-  timing: >-
-    About 10 minutes preparation, water heating, 6–8 minutes boiling and
-    draining/processing: allow 25–35 minutes. Cooling required by equipment and
-    subsequent rewarming add time. Extra batches do not multiply the boiling
-    clock.
   storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days. Reheat the center
-    to 165°F / 74°C, stirring sauces or mash for even heating; a short microwave
-    clock is not a measured endpoint.
-  sources:
-    - title: Adapted from Foodnetwork.com
-      url: >-
-        http://www.foodnetwork.com/recipes/mock-garlic-mashed-potatoes-recipe-1942447
-    - title: FoodSafety.gov clean handling/cold holding
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA leftover refrigerator use
-      url: 'https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely'
-    - title: FoodSafety.gov leftover reheat endpoint
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: >-
-        Manufacturer model/vessel hot-food constraints, not a household model
-        identification
-      url: 'https://www.vitamix.com/us/en_us/owners-resources/product-support/faqs'
-    - title: nutribullet sealed cup warning
-      url: 'https://www.nutribullet.com/blog/getting-started-how-to-use-nutribullet/'
+    Keeps 4 days in the fridge. Reheat in the microwave or a covered pan, stirring once.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Drain the cooked cauliflower well and let surface steam escape before puréeing. Removing free water helps the mash hold its shape, while cream cheese, Parmesan and all the measured butter keep it rich. Cooking the garlic gently in that butter gives a sweet, rounded garlic flavor without a raw bite. The concentrated bouillon is a paste with the stated broth strength, not an interchangeable cube.
+This Food Network cauliflower mash is a low-carb stand-in for mashed potatoes. Drain the cauliflower well and let it steam dry, because leftover water turns the mash soupy. Garlic cooked gently in butter, plus cream cheese, Parmesan and a little bouillon paste, give it the richness of the real thing.
 
 ## Directions
 
-1. **Boil:** Bring a pot of water to a boil and salt it with the listed allowance. Add small cauliflower florets and cook about 6–8 minutes, until very soft and easily crushed. Meanwhile, melt all the measured butter in a small pan over low heat. Add the minced garlic and cook gently, stirring, about 3–4 minutes until soft and fragrant but not browned. Keep this garlic butter warm.
-
-2. **Drain and dry:** Drain thoroughly in a colander and let surface steam escape briefly. Spread on a heatproof tray if needed. If free water remains, use tongs or a utensil to blot with clean absorbent towels once manageable; do not press scalding florets between paper towels with bare hands. Keep the cauliflower warm where the chosen equipment permits.
-
-3. **Purée:** Use a food processor or immersion blender only as its actual manual permits for this food temperature and quantity. Never put hot cauliflower in a sealed personal cup. If cooling is required, allow it and rewarm after puréeing; it adds time. Combine cauliflower with all the garlic butter, cream cheese, Parmesan, specified concentrated bouillon paste and black pepper.
-
-4. **Check texture:** Process until smooth, checking safely rather than assuming 1 minute works for every machine. Use batches if needed and recombine; do not add water to compensate for undercooked florets.
-
-5. **Finish:** Taste after the garlic butter, cheese and bouillon are mixed through, and use any additional salt only if needed. Add the chopped chives.
-
-6. **Serve:** Serve warm with the separate optional extra butter pat. Refrigerate leftovers promptly and reheat gently, stirring for even warmth.
+1. **Boil the cauliflower:** Bring a large pot of salted water to a boil. Add the florets and cook until very soft and easily crushed, 6 to 8 minutes.
+2. **Make the garlic butter:** While the cauliflower cooks, melt the butter in a small pan over low heat. Add the garlic and cook gently, stirring, until soft and fragrant but not browned, 3 to 4 minutes.
+3. **Drain well:** Drain the cauliflower in a colander and let it steam for 2 to 3 minutes, shaking now and then, until no water pools underneath.
+4. **Purée:** Put the cauliflower in a food processor with the garlic butter, cream cheese, Parmesan, bouillon paste and pepper. Process until smooth and velvety, about 1 minute.
+5. **Season and serve:** Taste and add salt if needed. Top with chives and a pat of butter.

@@ -40,101 +40,59 @@ equipment:
   - spider-strainer
   - thermometer
 prepTime: 20 min
-cookTime: >-
-  About 40 min, plus bringing water and oil to temperature and extra frying
-  batches
-totalTime: 'About 60 min, plus remaining heating or extra frying batches'
+cookTime: 55 min
+totalTime: 1 hr 15 min
 servings: 4 portions
 pairsWith:
   - gambas-al-ajillo
-  - smoky-spanish-rice-and-chickpeas
-  - everyday-arugula-salad
+  - steamed-mussels-chorizo
+pairingNotes:
+  gambas-al-ajillo: Garlic shrimp for a full tapas spread.
+  steamed-mussels-chorizo: Mussels and chorizo with crisp potatoes on the side.
 ingredients:
   - '--- Potatoes ---'
-  - '2 lb Yukon Gold potatoes, peeled and cut into 1.5-inch irregular chunks'
-  - >-
-    4 cups neutral frying oil, approximate original frying-bath supply; choose a
-    vessel with safe headroom, not an absorbed quantity
-  - 'water, enough to cover the potatoes in the boiling pot'
-  - 'salt, for the potato cooking water'
-  - 'flaky sea salt, to finish the hot fried potatoes'
+  - '2 lb Yukon Gold potatoes, peeled and cut into rough 1 1/2-inch chunks'
+  - '4 cups vegetable or peanut oil, for frying'
+  - 'flaky sea salt, for finishing'
   - '--- Bravas sauce ---'
   - 2 tbsp extra-virgin olive oil
   - '1 small yellow onion, finely diced'
   - '3 garlic cloves, minced'
-  - '2 tsp smoked paprika, hot or sweet pimentón'
-  - '1/2 tsp cayenne pepper, main measured dose; adjust-to-taste option below'
+  - '2 tsp pimentón de la Vera, hot or sweet'
   - 1 tsp sweet paprika
+  - '1/2 tsp cayenne pepper, or less for a milder sauce'
   - 1 can (14 oz) crushed tomatoes
   - 1 tsp sugar
   - 1/2 tsp kosher salt
   - 1 tbsp sherry vinegar
-  - '--- Mayonnaise alioli ---'
-  - >-
-    1/3 cup mayonnaise, vegan mayonnaise for the vegan option; check dietary
-    labels
+  - '--- Alioli ---'
+  - 1/3 cup mayonnaise
   - '1 garlic clove, finely grated'
   - 1 tbsp lemon juice
-  - 'salt, a pinch to season the alioli'
+  - 'kosher salt, a pinch'
 learning:
-  focus: Dry parboiled potatoes before batch frying
-  outcome: >-
-    Potatoes have tender centers and golden crisp edges; paprika sauce tastes
-    smoky without burnt bitterness.
   techniques:
     - starch
     - browning
-  before:
-    - >-
-      Choose a frying vessel with safe bubbling headroom and a thermometer
-      before heating the oil.
-    - >-
-      Prepare a draining rack and let parboiled potato surfaces dry fully before
-      frying.
-    - >-
-      The original four portions and approximate 4-cup oil bath are planning;
-      larger batches need more pan loads and time.
-  checkpoints:
-    - step: 6
-      cue: >-
-        Edges are tender while the centers still resist slightly; drained
-        surfaces steam dry.
-      why: >-
-        The first cook softens starch while leaving chunks intact; excess water
-        spatters when it reaches hot oil.
-    - step: 7
-      cue: 'Potatoes fry steadily, turn deep gold and have tender centers.'
-      why: >-
-        Crowding lowers oil temperature and slows crust formation; the clock
-        varies with load and potato size.
-  troubleshooting:
-    - problem: Paprika tastes bitter
-      cause: Spices scorched before tomatoes were added.
-      fix: >-
-        Burnt paprika cannot be rescued with extra sugar. Restart the sauce and
-        lower the heat for the short spice stage.
-  timing: >-
-    Allow roughly 60 minutes for the original batch when sauce preparation
-    overlaps heating the potato water. Water and oil heating, the 10-minute
-    drying stage and successive 5–7-minute frying loads can extend elapsed time.
-    Do not multiply temperature or cut dimensions with servings.
+  substitutions:
+    - ingredient: Pimentón de la Vera
+      alternative: Smoked paprika
+      effect: Any supermarket smoked paprika works. The flavor is a little less deep.
+    - ingredient: Sherry vinegar
+      alternative: Red wine vinegar
+      effect: Slightly sharper and less nutty.
+    - ingredient: Mayonnaise
+      alternative: Vegan mayonnaise
+      effect: Makes the whole dish vegan with no change in taste.
+    - ingredient: Yukon Gold potatoes
+      alternative: Russet potatoes
+      effect: Fluffier inside but more likely to break. Boil them a minute or two less.
   storage: >-
-    Refrigerate the cooked potatoes and bravas sauce in shallow portions within
-    2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Keep alioli
-    cold and separate, following the prepared mayonnaise label. Use refrigerated
-    leftovers within 3–4 days or freeze promptly. Reheat cooked potatoes with
-    dry heat to 165°F throughout to limit softening, checking several pieces.
-    For leftover bravas sauce, stir while heating to 165°F throughout; USDA
-    additionally recommends a rolling boil for reheated sauces. Keep that brief,
-    since prolonged boiling concentrates the sauce. Serve the cold alioli
-    separately; this is not an instruction to boil or reheat it.
-  sources:
-    - title: USDA handling and reheating
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Fry the potatoes just before serving, since they soften as they sit. The sauce and alioli keep 3
+    days in the fridge, stored separately.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -153,39 +111,21 @@ formula:
           uses:
             - step: boil
               share: 1
-          preparation: peeled and cut into 1.5-inch irregular chunks
+          preparation: peeled and cut into rough 1 1/2-inch chunks
         - id: oil
           key: neutral-oil
-          name: neutral frying oil
+          name: vegetable or peanut oil
           quantity:
             amount: 4
             unit: cup
           uses:
-            - step: fry
+            - step: heat-oil
               share: 1
-          preparation: >-
-            approximate original frying-bath supply; choose a vessel with safe
-            headroom, not an absorbed quantity
-        - id: water
-          key: water
-          name: water
-          allowance: enough to cover the potatoes in the boiling pot
-          uses:
-            - step: boil
-              share: 1
-          role: cooking-water
-        - id: boiling-salt
-          key: salt
-          name: salt
-          allowance: for the potato cooking water
-          uses:
-            - step: boil
-              share: 1
-          role: cooking-water
+          preparation: for frying
         - id: finish-salt
           key: flaky-sea-salt
           name: flaky sea salt
-          allowance: to finish the hot fried potatoes
+          allowance: for finishing
           uses:
             - step: fry
               share: 1
@@ -199,50 +139,40 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: sauce
+            - step: onion
               share: 1
         - id: onion
           key: yellow-onion
           name: small yellow onion
+          plural: small yellow onions
           quantity:
             amount: 1
             unit: count
           uses:
-            - step: sauce
+            - step: onion
               share: 1
-          plural: small yellow onions
           preparation: finely diced
         - id: garlic
           key: garlic
           name: garlic clove
+          plural: garlic cloves
           quantity:
             amount: 3
             unit: count
           uses:
-            - step: spices
+            - step: garlic
               share: 1
-          plural: garlic cloves
           preparation: minced
         - id: smoked
           key: smoked-paprika
-          name: smoked paprika
+          name: pimentón de la Vera
           quantity:
             amount: 2
             unit: tsp
           uses:
             - step: spices
               share: 1
-          preparation: hot or sweet pimentón
-        - id: cayenne
-          key: cayenne
-          name: cayenne pepper
-          quantity:
-            amount: 1/2
-            unit: tsp
-          uses:
-            - step: spices
-              share: 1
-          preparation: main measured dose; adjust-to-taste option below
+          preparation: hot or sweet
         - id: sweet
           key: sweet-paprika
           name: sweet paprika
@@ -252,18 +182,28 @@ formula:
           uses:
             - step: spices
               share: 1
+        - id: cayenne
+          key: cayenne
+          name: cayenne pepper
+          quantity:
+            amount: 1/2
+            unit: tsp
+          uses:
+            - step: spices
+              share: 1
+          preparation: or less for a milder sauce
         - id: tomatoes
           key: crushed-tomatoes
           name: crushed tomatoes
           quantity:
             amount: 1
             unit: can
-          uses:
-            - step: reduce
-              share: 1
           packageSize:
             amount: 14
             unit: oz
+          uses:
+            - step: simmer
+              share: 1
         - id: sugar
           key: sugar
           name: sugar
@@ -271,7 +211,7 @@ formula:
             amount: 1
             unit: tsp
           uses:
-            - step: reduce
+            - step: simmer
               share: 1
         - id: salt
           key: kosher-salt
@@ -280,7 +220,7 @@ formula:
             amount: 1/2
             unit: tsp
           uses:
-            - step: reduce
+            - step: simmer
               share: 1
         - id: vinegar
           key: sherry-vinegar
@@ -292,7 +232,7 @@ formula:
             - step: finish-sauce
               share: 1
     - id: alioli
-      name: Mayonnaise alioli
+      name: Alioli
       ingredients:
         - id: mayonnaise
           key: mayonnaise
@@ -303,17 +243,16 @@ formula:
           uses:
             - step: alioli
               share: 1
-          preparation: vegan mayonnaise for the vegan option; check dietary labels
         - id: garlic
           key: garlic
           name: garlic clove
+          plural: garlic cloves
           quantity:
             amount: 1
             unit: count
           uses:
             - step: alioli
               share: 1
-          plural: garlic cloves
           preparation: finely grated
         - id: lemon
           key: lemon-juice
@@ -325,83 +264,82 @@ formula:
             - step: alioli
               share: 1
         - id: salt
-          key: salt
-          name: salt
-          allowance: a pinch to season the alioli
+          key: kosher-salt
+          name: kosher salt
+          allowance: a pinch
           uses:
             - step: alioli
               share: 1
   steps:
-    - id: sauce
-      title: Soften the sauce onion
+    - id: boil
+      title: Parboil the potatoes
       text: >-
-        Have {{ingredients}} ready. Heat the olive oil in a saucepan over medium
-        heat, then add the onion. Cook about 5–6 minutes until softened.
+        Put {{ingredients}} in a large pot and cover with cold water by an inch. Salt the water
+        well. Bring to a boil over high heat, then cook until the edges are tender but the centers
+        still resist a knife, 8 to 10 minutes.
+    - id: dry
+      title: Dry the potatoes
+      text: >-
+        Drain well and spread the potatoes on a sheet pan. Let them steam dry until the surfaces
+        look dry and chalky, at least 10 minutes.
+    - id: onion
+      title: Soften the onion
+      text: >-
+        While the potatoes cook, put {{ingredients}} in a medium saucepan over medium heat. Cook,
+        stirring often, until soft and translucent, 5 to 6 minutes.
+    - id: garlic
+      title: Cook the garlic
+      text: 'Add {{ingredients}} and stir until fragrant, about 30 seconds.'
     - id: spices
-      title: Add garlic and paprika
+      title: Toast the spices
       text: >-
-        Have {{ingredients}} ready. Add garlic first and stir for about 30
-        seconds. Add the paprikas and cayenne and cook another 30 seconds until
-        fragrant, lowering the heat if they begin to scorch.
-    - id: reduce
-      title: Simmer the bravas sauce
+        Stir in {{ingredients}} and cook until fragrant, about 30 seconds. Turn the heat down if the
+        paprika starts to darken, since burnt paprika turns bitter.
+    - id: simmer
+      title: Simmer the sauce
       text: >-
-        Add {{ingredients}}. Simmer about 15–20 minutes until thickened,
-        stirring to prevent sticking.
+        Add {{ingredients}}. Simmer over medium-low heat, stirring now and then, until thick enough
+        to hold its shape on a spoon, 15 to 20 minutes.
+    - id: heat-oil
+      title: Heat the oil
+      text: >-
+        While the sauce simmers, pour {{ingredients}} into a Dutch oven or heavy pot, filling it no
+        more than halfway. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
     - id: finish-sauce
       title: Finish the sauce
       text: >-
-        Stir in {{ingredients}}. For a smoother sauce, take the pan off the heat
-        and pass it through a sieve, or use an immersion blender only as its
-        hot-liquid instructions allow. Keep the guard submerged and stop before
-        lifting. Set aside while finishing the potatoes.
+        Take the pan off the heat and stir in {{ingredients}}. For a smooth sauce, blend it with an
+        immersion blender. Set aside.
     - id: alioli
-      title: Mix and refrigerate alioli
-      text: >-
-        Whisk {{ingredients}} together and refrigerate until serving. Use
-        prepared mayonnaise stored according to its label.
-    - id: boil
-      title: Parboil potatoes
-      text: >-
-        Place {{ingredients}} in a pot and bring to a boil. Cook about 8–10
-        minutes once boiling, until the edges are tender and the centers still
-        resist slightly. Drain well and spread on a tray for about 10 minutes to
-        steam dry; surface water must be gone before frying.
+      title: Make the alioli
+      text: 'Whisk {{ingredients}} in a small bowl until smooth. Chill until serving.'
     - id: fry
-      title: Fry in batches
+      title: Fry the potatoes
       text: >-
-        Have {{ingredients}} ready. Heat the listed frying oil in a heavy pot or
-        Dutch oven to 375°F. Choose a vessel that permits the oil and added
-        potatoes to remain below its safe frying fill, with generous bubbling
-        headroom; the original approximate oil supply does not establish pot
-        size. Fry dry potatoes in uncrowded batches for about 5–7 minutes,
-        turning, until deeply golden with tender centers. Monitor and restore
-        oil temperature between batches. Transfer to a rack over a tray and
-        immediately season with flaky salt.
+        Fry the potatoes in batches without crowding, turning now and then, until deep golden and
+        crisp, 5 to 7 minutes. Lift them onto a rack set over a sheet pan and sprinkle right away
+        with {{ingredients}}. Let the oil return to 375°F between batches.
     - id: serve
-      title: Serve crisp
+      title: Serve
       text: >-
-        Serve the hot potatoes with generous bravas sauce and alioli. Dress them
-        just before eating so the sauces do not soften the crust while waiting.
+        Pile the hot potatoes on a platter. Spoon the bravas sauce over the top, dot with the alioli
+        and serve right away with toothpicks.
 ---
 
 ## Chef's Note
 
-This Spanish-style tapas dish pairs crisp potatoes with smoky tomato bravas sauce and garlic mayonnaise alioli. Parboil until the edges soften while the centers still resist, then let the surfaces dry before frying. Finish the sauces while the potato water heats and dress the potatoes at the table to preserve their crunch.
+Patatas bravas is the tapas bar classic of Madrid: fried potato chunks under a smoky, spicy tomato sauce, with garlicky alioli alongside. Bravas means fierce, for the heat. The secret is cooking the potatoes twice. A short boil softens the inside, and letting them dry before frying gives jagged, shatteringly crisp edges.
 
 ## Directions
 
-1. **Soften the sauce onion:** Have extra-virgin olive oil and small yellow onion ready. Heat the olive oil in a saucepan over medium heat, then add the onion. Cook about 5–6 minutes until softened.
-2. **Add garlic and paprika:** Have garlic cloves, smoked paprika, cayenne pepper, and sweet paprika ready. Add garlic first and stir for about 30 seconds. Add the paprikas and cayenne and cook another 30 seconds until fragrant, lowering the heat if they begin to scorch.
-3. **Simmer the bravas sauce:** Add crushed tomatoes, sugar, and kosher salt. Simmer about 15–20 minutes until thickened, stirring to prevent sticking.
-4. **Finish the sauce:** Stir in sherry vinegar. For a smoother sauce, take the pan off the heat and pass it through a sieve, or use an immersion blender only as its hot-liquid instructions allow. Keep the guard submerged and stop before lifting. Set aside while finishing the potatoes.
-5. **Mix and refrigerate alioli:** Whisk mayonnaise, garlic clove, lemon juice, and salt together and refrigerate until serving. Use prepared mayonnaise stored according to its label.
-6. **Parboil potatoes:** Place Yukon Gold potatoes, water, and salt in a pot and bring to a boil. Cook about 8–10 minutes once boiling, until the edges are tender and the centers still resist slightly. Drain well and spread on a tray for about 10 minutes to steam dry; surface water must be gone before frying.
-7. **Fry in batches:** Have neutral frying oil and flaky sea salt ready. Heat the listed frying oil in a heavy pot or Dutch oven to 375°F. Choose a vessel that permits the oil and added potatoes to remain below its safe frying fill, with generous bubbling headroom; the original approximate oil supply does not establish pot size. Fry dry potatoes in uncrowded batches for about 5–7 minutes, turning, until deeply golden with tender centers. Monitor and restore oil temperature between batches. Transfer to a rack over a tray and immediately season with flaky salt.
-8. **Serve crisp:** Serve the hot potatoes with generous bravas sauce and alioli. Dress them just before eating so the sauces do not soften the crust while waiting.
-
-## Cooking Notes
-
-The main uses the full measured cayenne. For the original to-taste heat option, adjust that cayenne amount instead of adding an extra dose; the smoked paprika can be hot or sweet. Keep the full olive oil, sugar, vinegar and mayonnaise. Use suitable vegan mayonnaise for the vegan option and verify prepared-product labels for the stated dietary needs.
-
-The bravas sauce and alioli can be prepared ahead, cooled promptly and refrigerated separately; the potatoes are crispest freshly fried. The frying oil is a cooking bath, not an amount of oil absorbed by the original four portions.
+1. **Parboil the potatoes:** Put Yukon Gold potatoes in a large pot and cover with cold water by an inch. Salt the water well. Bring to a boil over high heat, then cook until the edges are tender but the centers still resist a knife, 8 to 10 minutes.
+2. **Dry the potatoes:** Drain well and spread the potatoes on a sheet pan. Let them steam dry until the surfaces look dry and chalky, at least 10 minutes.
+3. **Soften the onion:** While the potatoes cook, put extra-virgin olive oil and small yellow onion in a medium saucepan over medium heat. Cook, stirring often, until soft and translucent, 5 to 6 minutes.
+4. **Cook the garlic:** Add garlic cloves and stir until fragrant, about 30 seconds.
+5. **Toast the spices:** Stir in pimentón de la Vera, sweet paprika, and cayenne pepper and cook until fragrant, about 30 seconds. Turn the heat down if the paprika starts to darken, since burnt paprika turns bitter.
+6. **Simmer the sauce:** Add crushed tomatoes, sugar, and kosher salt. Simmer over medium-low heat, stirring now and then, until thick enough to hold its shape on a spoon, 15 to 20 minutes.
+7. **Heat the oil:** While the sauce simmers, pour vegetable or peanut oil into a Dutch oven or heavy pot, filling it no more than halfway. Heat over medium-high to 375°F on a thermometer, about 10 minutes.
+8. **Finish the sauce:** Take the pan off the heat and stir in sherry vinegar. For a smooth sauce, blend it with an immersion blender. Set aside.
+9. **Make the alioli:** Whisk mayonnaise, garlic clove, lemon juice, and kosher salt in a small bowl until smooth. Chill until serving.
+10. **Fry the potatoes:** Fry the potatoes in batches without crowding, turning now and then, until deep golden and crisp, 5 to 7 minutes. Lift them onto a rack set over a sheet pan and sprinkle right away with flaky sea salt. Let the oil return to 375°F between batches.
+11. **Serve:** Pile the hot potatoes on a platter. Spoon the bravas sauce over the top, dot with the alioli and serve right away with toothpicks.

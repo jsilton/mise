@@ -3,6 +3,7 @@ miseId: 527a354a-db9b-4af1-a7df-60b6a636da86
 title: Slow Cooker Korean Beef
 difficulty: easy
 cookingMethods:
+  - sear
   - slow-cook
 occasions:
   - comfort-food
@@ -16,62 +17,115 @@ cuisines:
   - Korean
 role: main
 vibe: comfort
-prepTime: About 15 min active
-cookTime: '7–8 hr LOW or 3–4 hr HIGH, plus about 30 min thickening'
-totalTime: About 7 hr 45 min–8 hr 45 min LOW or 3 hr 45 min–4 hr 45 min HIGH
-servings: 6 portions
+prepTime: 45 min
+cookTime: '7 to 8 hr on low, plus 20 min to finish'
+totalTime: 8 to 9 hr
+servings: '6'
 pairsWith:
   - steamed-white-rice
+  - garlic-sesame-spinach
   - korean-pickled-cucumbers
-  - fresh-cabbage-cucumber-and-radish-kimchi
+pairingNotes:
+  steamed-white-rice: Short-grain rice to soak up the glossy sauce.
+  garlic-sesame-spinach: A light green banchan with sesame and garlic.
+  korean-pickled-cucumbers: 'Cool, sour crunch against the rich beef.'
 ingredients:
+  - '--- Shiitake soak ---'
+  - 6 dried shiitake mushrooms
+  - 1/2 cup hot water
   - '--- Beef ---'
-  - '3 lb boneless beef chuck roast, fully thawed, cut into 1-inch cubes'
-  - '1 yellow onion, thinly sliced'
-  - '--- Soy-ginger sauce ---'
-  - 1 cup beef broth
-  - 1/2 cup low-sodium soy sauce
-  - '1/3 cup light brown sugar, packed'
-  - '4 garlic cloves, minced'
-  - 1 tbsp toasted sesame oil
-  - 1 tbsp rice wine vinegar
+  - '5 lb bone-in English-cut beef short ribs, trimmed of excess fat, patted dry'
+  - 2 tbsp neutral oil
+  - '--- Pear-gochujang sauce ---'
+  - '1 large Asian pear, peeled and coarsely grated'
+  - '1 yellow onion, coarsely grated'
+  - '8 garlic cloves, minced'
   - '1 tbsp fresh ginger, grated'
-  - 1–2 tbsp gochujang
-  - '1/2 Asian pear, peeled, cored and finely grated'
-  - 1/2 tsp white pepper
-  - '--- Cornstarch slurry ---'
+  - '1/2 cup low-sodium soy sauce, plus more to taste'
+  - 2 tbsp gochujang
+  - '3 tbsp light brown sugar, packed'
+  - '1/2 tsp black pepper, freshly ground'
+  - '--- Vegetables ---'
+  - '1 lb daikon radish, peeled, cut into 1 1/2-inch chunks'
+  - '2 large carrots, cut into 1 1/2-inch chunks'
+  - '--- To finish ---'
   - 2 tbsp cornstarch
-  - '1/4 cup water, cool, for slurry'
-  - '--- Finish and serving ---'
+  - 3 tbsp cold water
+  - 1 tbsp toasted sesame oil
+  - '1 tbsp rice vinegar, plus more to taste'
   - '2 scallions, thinly sliced'
-  - '1 tsp sesame seeds, optional'
-  - 'cooked jasmine rice, as wanted for serving, optional'
+  - '1 tsp toasted sesame seeds, optional'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
-source: Adapted from damndelicious.net
+source: Adapted from Damn Delicious
 sourceUrl: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
 rating: 5
 formula:
   version: 1
   yield:
     amount: 6
-    unit: portion
+    unit: count
   components:
+    - id: soak
+      name: Shiitake soak
+      ingredients:
+        - id: shiitake
+          key: shiitake
+          name: dried shiitake mushroom
+          quantity:
+            amount: 6
+            unit: count
+          plural: dried shiitake mushrooms
+          uses:
+            - step: soak
+              share: 1
+        - id: soakwater
+          key: soakwater
+          name: hot water
+          quantity:
+            amount: 1/2
+            unit: cup
+          uses:
+            - step: soak
+              share: 1
     - id: beef
       name: Beef
       ingredients:
         - id: beef
-          key: beef
-          name: boneless beef chuck roast
+          key: beef-short-ribs
+          name: bone-in English-cut beef short ribs
           quantity:
-            amount: 3
+            amount: 5
             unit: lb
+          preparation: 'trimmed of excess fat, patted dry'
           uses:
-            - step: cook
+            - step: sear
               share: 1
-          preparation: 'fully thawed, cut into 1-inch cubes'
+        - id: oil
+          key: oil
+          name: neutral oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: sear
+              share: 1
+    - id: sauce
+      name: Pear-gochujang sauce
+      ingredients:
+        - id: pear
+          key: asian-pear
+          name: large Asian pear
+          quantity:
+            amount: 1
+            unit: count
+          plural: large Asian pears
+          preparation: peeled and coarsely grated
+          uses:
+            - step: sauce
+              share: 1
         - id: onion
           key: yellow-onion
           name: yellow onion
@@ -79,67 +133,18 @@ formula:
             amount: 1
             unit: count
           plural: yellow onions
-          preparation: thinly sliced
-          uses:
-            - step: cook
-              share: 1
-    - id: sauce
-      name: Soy-ginger sauce
-      ingredients:
-        - id: broth
-          key: broth
-          name: beef broth
-          quantity:
-            amount: 1
-            unit: cup
+          preparation: coarsely grated
           uses:
             - step: sauce
               share: 1
-        - id: soy
-          key: soy
-          name: low-sodium soy sauce
-          quantity:
-            amount: 1/2
-            unit: cup
-          uses:
-            - step: sauce
-              share: 1
-        - id: sugar
-          key: sugar
-          name: light brown sugar
-          quantity:
-            amount: 1/3
-            unit: cup
-          uses:
-            - step: sauce
-              share: 1
-          preparation: packed
         - id: garlic
           key: garlic
           name: garlic clove
           quantity:
-            amount: 4
+            amount: 8
             unit: count
-          uses:
-            - step: sauce
-              share: 1
           plural: garlic cloves
           preparation: minced
-        - id: oil
-          key: oil
-          name: toasted sesame oil
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: sauce
-              share: 1
-        - id: vinegar
-          key: vinegar
-          name: rice wine vinegar
-          quantity:
-            amount: 1
-            unit: tbsp
           uses:
             - step: sauce
               share: 1
@@ -149,42 +154,75 @@ formula:
           quantity:
             amount: 1
             unit: tbsp
+          preparation: grated
           uses:
             - step: sauce
               share: 1
-          preparation: grated
+        - id: soy
+          key: soy
+          name: low-sodium soy sauce
+          quantity:
+            amount: 1/2
+            unit: cup
+          preparation: plus more to taste
+          uses:
+            - step: sauce
+              share: 1
         - id: gochujang
           key: gochujang
           name: gochujang
           quantity:
-            amount: 1
-            max: 2
+            amount: 2
             unit: tbsp
           uses:
             - step: sauce
               share: 1
-        - id: pear
-          key: asian-pear
-          name: Asian pear
+        - id: sugar
+          key: sugar
+          name: light brown sugar
           quantity:
-            amount: 1/2
-            unit: count
-          plural: Asian pears
-          preparation: 'peeled, cored and finely grated'
+            amount: 3
+            unit: tbsp
+          preparation: packed
           uses:
             - step: sauce
               share: 1
         - id: pepper
-          key: pepper
-          name: white pepper
+          key: black-pepper
+          name: black pepper
           quantity:
             amount: 1/2
             unit: tsp
+          preparation: freshly ground
           uses:
             - step: sauce
               share: 1
-    - id: slurry
-      name: Cornstarch slurry
+    - id: veg
+      name: Vegetables
+      ingredients:
+        - id: daikon
+          key: daikon
+          name: daikon radish
+          quantity:
+            amount: 1
+            unit: lb
+          preparation: 'peeled, cut into 1 1/2-inch chunks'
+          uses:
+            - step: braise
+              share: 1
+        - id: carrot
+          key: carrot
+          name: large carrot
+          quantity:
+            amount: 2
+            unit: count
+          plural: large carrots
+          preparation: cut into 1 1/2-inch chunks
+          uses:
+            - step: braise
+              share: 1
+    - id: finish
+      name: To finish
       ingredients:
         - id: starch
           key: starch
@@ -193,174 +231,160 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: slurry
+            - step: thicken
               share: 1
-        - id: water
-          key: water
-          name: water
+        - id: coldwater
+          key: coldwater
+          name: cold water
           quantity:
-            amount: 1/4
-            unit: cup
+            amount: 3
+            unit: tbsp
           uses:
-            - step: slurry
+            - step: thicken
               share: 1
-          preparation: 'cool, for slurry'
-    - id: serve
-      name: Finish and serving
-      ingredients:
+        - id: sesoil
+          key: sesame-oil
+          name: toasted sesame oil
+          quantity:
+            amount: 1
+            unit: tbsp
+          uses:
+            - step: brighten
+              share: 1
+        - id: vinegar
+          key: rice-vinegar
+          name: rice vinegar
+          quantity:
+            amount: 1
+            unit: tbsp
+          preparation: plus more to taste
+          uses:
+            - step: brighten
+              share: 1
         - id: scallions
           key: scallions
           name: scallion
           quantity:
             amount: 2
             unit: count
+          plural: scallions
+          preparation: thinly sliced
           uses:
             - step: serve
               share: 1
-          plural: scallions
-          preparation: thinly sliced
         - id: sesame
           key: sesame
-          name: sesame seeds
+          name: toasted sesame seeds
           quantity:
             amount: 1
             unit: tsp
+          optional: true
           uses:
             - step: serve
               share: 1
-          optional: true
-        - id: rice
-          key: rice
-          name: cooked jasmine rice
-          allowance: as wanted for serving
-          uses:
-            - step: serve
-              share: 1
-          optional: true
   steps:
-    - id: prep
-      title: Prepare
+    - id: soak
+      title: Soak the mushrooms
       text: >-
-        Keep fully thawed beef refrigerated until preparation. Check the actual 6-quart cooker’s
-        load instructions, then cut the chuck into the listed 1-inch cubes. Start promptly after
-        loading; do not use a delayed timer.
+        Put {{ingredients}} in a small bowl and soak, turning the mushrooms once, until they are
+        soft all the way through, about 30 minutes. Lift out the mushrooms and squeeze them over the
+        bowl. Cut off the stems, slice the caps and keep the soaking liquid.
+    - id: sear
+      title: Sear the ribs
+      text: >-
+        While the mushrooms soak, toss {{ingredients}} in a large bowl to coat. Heat a large, heavy
+        skillet over medium-high heat until very hot. Sear the ribs in three batches, with space
+        between the pieces, turning until the meaty sides have a deep brown crust, 8 to 10 minutes a
+        batch. Stand the ribs bone side up in a 6-quart slow cooker.
     - id: sauce
       title: Mix the sauce
       text: >-
-        Whisk {{ingredients}} in a bowl until the sugar and gochujang are dispersed. Gochujang
-        enters this sauce, rather than being required again at finishing. The grated pear sweetens
-        the sauce and helps tenderize the beef.
-    - id: cook
-      title: Slow cook
+        Whisk {{ingredients}} with the mushroom soaking liquid in a bowl until the sugar and
+        gochujang dissolve.
+    - id: deglaze
+      title: Deglaze the skillet
       text: >-
-        Put {{ingredients}} in the cooker and add all the sauce. Cover and cook on LOW for 7–8 hours
-        or HIGH for 3–4 hours as planning ranges, until the chuck is fork-tender and pulls apart
-        easily. Check beef has reached at least 145°F / 63°C with a three-minute rest before
-        serving; tender chuck commonly needs substantially more cooking than the minimum. Keep
-        covered except for necessary doneness checks.
-    - id: slurry
-      title: Thicken at the end
+        Pour off all but a thin film of fat from the skillet. Pour the sauce into the hot skillet
+        over medium heat and scrape up the browned bits from the bottom. Let it bubble for 1 minute,
+        then pour it over the ribs.
+    - id: braise
+      title: Braise
       text: >-
-        Whisk {{ingredients}} smooth in a small bowl immediately before adding; cornstarch settles
-        while standing. Stir all the slurry into the hot beef and sauce. Cover and cook on HIGH,
-        starting to check around 30 minutes; continue until the sauce is hot and thickened enough to
-        coat the beef, allowing longer if still thin.
+        Tuck the sliced mushrooms, {{ingredients}} in around the ribs. Cover and cook on low for 7
+        to 8 hours or on high for 4 to 5 hours, until the meat pulls away from the bones and the
+        radish is translucent.
+    - id: skim
+      title: Skim and reduce
+      text: >-
+        Lift the ribs and vegetables into a serving dish with tongs and a slotted spoon and cover to
+        keep warm. Let the liquid in the cooker settle for 5 minutes, then spoon off the fat. Pour
+        the liquid into a saucepan and boil over high heat until it has reduced by about a third,
+        about 10 minutes.
+    - id: thicken
+      title: Thicken the sauce
+      text: >-
+        Whisk {{ingredients}} until smooth. Stir it into the boiling liquid and boil until the sauce
+        is glossy and thick enough to coat a spoon, 1 to 2 minutes.
+    - id: brighten
+      title: Brighten the sauce
+      text: >-
+        Take the pan off the heat and stir in {{ingredients}}. Taste and add more vinegar if it
+        tastes heavy or more soy sauce if it needs salt. Pour the sauce over the ribs and vegetables
+        and turn gently to coat.
     - id: serve
       title: Serve
-      text: >-
-        Use {{ingredients}}: distribute the scallions over the beef and add the measured sesame
-        seeds if wanted. Serve with the separately prepared rice. Rice cooking time is additional if
-        it is not already ready.
+      text: 'Scatter {{ingredients}} over the top and serve with rice.'
 equipment:
   - slow-cooker
+  - large-skillet
+  - saucepan
+  - box-grater
   - mixing-bowl
-  - measuring-cup
-  - food-thermometer
 learning:
-  focus: Cook chuck tender before thickening the full sauce
-  outcome: 'Fork-tender chuck in soy-ginger sauce, finished with scallions and optional sesame.'
   techniques:
+    - browning
     - braising
     - starch
-  before:
-    - >-
-      Use a cooker whose instructions permit the actual food load, liquid and meat size. Follow your
-      cooker’s stated minimum and maximum fill limits. A larger recipe needs suitable capacity or
-      separate appropriately filled cookers, with all measured ingredients divided across them. Keep
-      the lid closed except for necessary additions/checks, and do not multiply cooking time with
-      servings or cook on WARM.
-    - >-
-      Keep fully thawed beef refrigerated until preparation; add the cool slurry only after the
-      chuck is tender.
-  checkpoints:
-    - step: 3
-      cue: Chuck cubes pull apart readily and the temperature/rest checkpoint is met.
-      why: Chuck tenderness requires connective-tissue cooking beyond merely reaching the minimum.
-    - step: 4
-      cue: The added slurry has heated and the sauce coats the beef.
-      why: Unheated cornstarch cannot thicken just because it was stirred into the cooker.
-  troubleshooting:
-    - problem: Sauce remains thin at the first thickening check.
-      cause: The cooker may need longer to recover heat after the slurry addition.
-      fix: >-
-        Continue covered on HIGH, checking hot thickening before deciding it needs another
-        ingredient; do not automatically double the measured cornstarch.
+    - seasoning
   substitutions:
+    - ingredient: Bone-in English-cut beef short ribs
+      alternative: '3 lb boneless beef chuck roast, cut into 2-inch chunks'
+      effect: >-
+        Leaner and easier to find, with less fat to skim. Sear the chunks in two batches, 3 to 4
+        minutes a side, and braise them for the same time.
+    - ingredient: Dried shiitake mushrooms
+      alternative: '8 oz fresh shiitake or baby bella mushrooms, sliced'
+      effect: >-
+        Use 1/2 cup low-sodium beef broth in place of the soaking liquid. The mushroom flavor is
+        milder.
     - ingredient: Asian pear
-      alternative: 'Half a sweet apple, such as Fuji or Gala, peeled and finely grated'
-      effect: >-
-        Gives similar fruity sweetness with a slightly tarter edge. Asian pear has a gentler
-        tenderizing effect that apple only partly matches.
+      alternative: 1 ripe Bosc pear or Fuji apple
+      effect: 'Softer and a little tarter, with the same sweetness and body in the sauce.'
     - ingredient: Gochujang
-      alternative: 1 to 2 tsp Sriracha
-      effect: >-
-        Brings heat and garlic but none of gochujang's fermented depth or body. The sauce will be
-        thinner and sharper.
-  storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1
-    hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven
-    outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F
-    / 74°C throughout; do not use the slow cooker to reheat cold leftovers. USDA additionally
-    recommends a rolling boil for reheated sauce; stir and keep the boil brief, since prolonged
-    reduction concentrates this thick, sweet-salty sauce. If holding cooked food in the cooker,
-    maintain at least 140°F / 60°C and follow its holding instructions.
-  timing: >-
-    About 7 hr 45 min–8 hr 45 min LOW or 3 hr 45 min–4 hr 45 min HIGH includes preparation and
-    finishing; cooking ranges include cooker heat-up, with additional time if tenderness requires
-    it.
-  sources:
-    - title: Chungah Rhee — Slow cooker Korean beef
-      url: 'https://damndelicious.net/2015/02/21/slow-cooker-korean-beef/'
-    - title: USDA — Slow cookers and food safety
-      url: >-
-        https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf
-    - title: Crock-Pot — Example model fill limits; follow actual model instructions
-      url: >-
-        https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf
-    - title: FoodSafety.gov — Safe minimum temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+      alternative: 2 tsp Sriracha plus 1 tbsp white miso
+      effect: 'Keeps the heat and fermented depth, with a thinner, less red sauce.'
+    - ingredient: Daikon radish
+      alternative: '1 lb baby gold potatoes, halved'
+      effect: Creamier and starchier. They thicken the sauce a little and stay golden.
+  storage: Keeps 4 days in the fridge and freezes for 3 months. Reheat on the stove with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Chuck cubes need long cooking for tenderness. The soy, ginger and brown-sugar sauce thickens with a cool cornstarch slurry near the end; keep its water separate from the broth. The scallions and optional sesame seeds finish the bowl. For a milder portion, use the smaller amount of gochujang.
+Galbi-jjim is Korea's celebration braise of beef short ribs in soy, garlic and grated Asian pear. Here the ribs are seared deep brown, then slow-cooked with daikon, carrots, shiitake and a spoonful of gochujang for gentle heat. The pear and onion melt into the sauce and give it body, and sesame oil and rice vinegar stirred in at the end keep it bright.
 
 ## Directions
 
-1. **Prepare:** Keep fully thawed beef refrigerated until preparation. Check the actual 6-quart cooker’s load instructions, then cut the chuck into the listed 1-inch cubes. Start promptly after loading; do not use a delayed timer.
-2. **Mix the sauce:** Whisk beef broth, low-sodium soy sauce, light brown sugar, garlic cloves, toasted sesame oil, rice wine vinegar, fresh ginger, gochujang, Asian pear, and white pepper in a bowl until the sugar and gochujang are dispersed. Gochujang enters this sauce, rather than being required again at finishing. The grated pear sweetens the sauce and helps tenderize the beef.
-3. **Slow cook:** Put boneless beef chuck roast and yellow onion in the cooker and add all the sauce. Cover and cook on LOW for 7–8 hours or HIGH for 3–4 hours as planning ranges, until the chuck is fork-tender and pulls apart easily. Check beef has reached at least 145°F / 63°C with a three-minute rest before serving; tender chuck commonly needs substantially more cooking than the minimum. Keep covered except for necessary doneness checks.
-4. **Thicken at the end:** Whisk cornstarch and water smooth in a small bowl immediately before adding; cornstarch settles while standing. Stir all the slurry into the hot beef and sauce. Cover and cook on HIGH, starting to check around 30 minutes; continue until the sauce is hot and thickened enough to coat the beef, allowing longer if still thin.
-5. **Serve:** Use scallions, sesame seeds (if using), and cooked jasmine rice (if using): distribute the scallions over the beef and add the measured sesame seeds if wanted. Serve with the separately prepared rice. Rice cooking time is additional if it is not already ready.
+1. **Soak the mushrooms:** Put dried shiitake mushrooms and hot water in a small bowl and soak, turning the mushrooms once, until they are soft all the way through, about 30 minutes. Lift out the mushrooms and squeeze them over the bowl. Cut off the stems, slice the caps and keep the soaking liquid.
+2. **Sear the ribs:** While the mushrooms soak, toss bone-in English-cut beef short ribs and neutral oil in a large bowl to coat. Heat a large, heavy skillet over medium-high heat until very hot. Sear the ribs in three batches, with space between the pieces, turning until the meaty sides have a deep brown crust, 8 to 10 minutes a batch. Stand the ribs bone side up in a 6-quart slow cooker.
+3. **Mix the sauce:** Whisk large Asian pear, yellow onion, garlic cloves, fresh ginger, low-sodium soy sauce, gochujang, light brown sugar, and black pepper with the mushroom soaking liquid in a bowl until the sugar and gochujang dissolve.
+4. **Deglaze the skillet:** Pour off all but a thin film of fat from the skillet. Pour the sauce into the hot skillet over medium heat and scrape up the browned bits from the bottom. Let it bubble for 1 minute, then pour it over the ribs.
+5. **Braise:** Tuck the sliced mushrooms, daikon radish and large carrots in around the ribs. Cover and cook on low for 7 to 8 hours or on high for 4 to 5 hours, until the meat pulls away from the bones and the radish is translucent.
+6. **Skim and reduce:** Lift the ribs and vegetables into a serving dish with tongs and a slotted spoon and cover to keep warm. Let the liquid in the cooker settle for 5 minutes, then spoon off the fat. Pour the liquid into a saucepan and boil over high heat until it has reduced by about a third, about 10 minutes.
+7. **Thicken the sauce:** Whisk cornstarch and cold water until smooth. Stir it into the boiling liquid and boil until the sauce is glossy and thick enough to coat a spoon, 1 to 2 minutes.
+8. **Brighten the sauce:** Take the pan off the heat and stir in toasted sesame oil and rice vinegar. Taste and add more vinegar if it tastes heavy or more soy sauce if it needs salt. Pour the sauce over the ribs and vegetables and turn gently to coat.
+9. **Serve:** Scatter scallions and toasted sesame seeds (if using) over the top and serve with rice.
 
-## Cooking Notes
-
-Use a cooker whose instructions permit the actual food load, liquid and meat size. Follow your cooker’s stated minimum and maximum fill limits. A larger recipe needs suitable capacity or separate appropriately filled cookers, with all measured ingredients divided across them. Keep the lid closed except for necessary additions/checks, and do not multiply cooking time with servings or cook on WARM.
-
-Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. USDA additionally recommends a rolling boil for reheated sauce; stir and keep the boil brief, since prolonged reduction concentrates this thick, sweet-salty sauce. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.

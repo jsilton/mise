@@ -38,155 +38,75 @@ equipment:
 pairsWith:
   - steamed-white-rice
   - smashed-cucumber-salad
+pairingNotes:
+  steamed-white-rice: Plain rice soaks up the chili sauce.
+  smashed-cucumber-salad: Cool, crunchy cucumbers against the heat.
 ingredients:
-  - '600 g eggplant, ends trimmed, cut into 3/4-inch cubes'
-  - '400 g drained extra-firm tofu, pressed and cut into 3/4-inch cubes'
-  - '2 tbsp neutral oil, for roasting eggplant'
-  - '2 tbsp neutral oil, for pan-frying tofu'
-  - '1 tbsp neutral oil, for aromatics and doubanjiang'
-  - '2 tbsp (16 g) cornstarch, for coating tofu'
-  - 1/4 cup (60 ml) unsalted vegetable broth or water
+  - '1 1/4 lb eggplant (1 large), cut into 3/4-inch cubes'
+  - '1 block (14 oz) extra-firm tofu, pressed and cut into 3/4-inch cubes'
+  - '2 tbsp neutral oil, for the eggplant'
+  - '2 tbsp neutral oil, for the tofu'
+  - '1 tbsp neutral oil, for the sauce'
+  - '2 tbsp cornstarch, for the tofu'
+  - 1/4 cup unsalted vegetable broth or water
   - 2 tbsp reduced-sodium soy sauce
   - 2 tbsp Chinkiang black vinegar
-  - 1 1/2 tbsp (18 g) granulated sugar
-  - >-
-    1 tsp cornstarch, for the sauce, mixed with the separately measured cold
-    slurry water
-  - '2 tsp cold water, for the sauce slurry'
+  - 1 1/2 tbsp sugar
+  - '1 tsp cornstarch, for the sauce'
+  - 2 tsp cold water
   - 1 1/2 tbsp doubanjiang (Sichuan chili bean paste)
-  - 1 tbsp finely minced fresh ginger
-  - '2 cloves garlic, finely minced'
-  - '1 Thai bird chili, finely sliced, optional; remove seeds for less heat'
+  - '1 tbsp fresh ginger, minced'
+  - '2 cloves garlic, minced'
+  - '1 Thai bird chili, thinly sliced (optional)'
   - 2 tsp toasted sesame oil
-  - '1/2 tsp ground toasted Sichuan peppercorns'
-  - '1 tsp fresh lime juice, optional, only if wanted after tasting'
-  - '20 g scallions, thinly sliced'
-  - '1 tbsp chopped cilantro, optional'
+  - '1/2 tsp Sichuan peppercorns, toasted and ground'
+  - 1 tsp fresh lime juice (optional)
+  - '2 scallions, thinly sliced'
+  - '1 tbsp cilantro, chopped (optional)'
 description: >-
-  Roasted eggplant and pan-browned tofu in a sweet-sour chili-garlic sauce, with
-  sesame and fresh herbs at the finish.
+  Roasted eggplant and pan-browned tofu in a sweet-sour chili bean sauce with black vinegar and
+  Sichuan pepper.
 dietary:
   - vegan
   - dairy-free
 learning:
-  focus: Cook eggplant and tofu by the methods that suit their different textures
-  outcome: >-
-    Silky roasted eggplant, tofu with browned edges and a soft center, and a
-    light sweet-sour coating with measured chili heat.
   techniques:
     - browning
     - starch
     - seasoning
-  before:
-    - >-
-      Drain tofu and press gently between clean towels under a plate for fifteen
-      minutes while the oven heats and eggplant is cut. Pat the cubes dry before
-      coating.
-    - >-
-      Use one uncrowded tray for eggplant and a skillet large enough for tofu in
-      one layer. The sauce is prepared separately so neither ingredient needs a
-      long boil at the end.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Eggplant cubes have browned edges and collapse softly under gentle fork
-        pressure.
-      why: >-
-        Color alone is not enough; dry, springy centers need more roasting. The
-        roast develops a different texture from a deep-fried shell.
-    - step: 4
-      cue: Several tofu faces are golden and the coating has no dry white patches.
-      why: >-
-        Moisture must escape before the thin starch layer browns. Let pieces
-        release before turning instead of tearing off the coating.
-    - step: 6
-      cue: >-
-        The sauce coats both components without a sticky pool, and pieces remain
-        intact.
-      why: >-
-        Coating softens once it meets water. Brief gentle folding keeps some
-        browned texture; it does not preserve permanent crispness.
-  troubleshooting:
-    - problem: Tofu coating sticks or tears
-      cause: >-
-        The surface was wet, the pan was crowded, or pieces were moved before
-        browning.
-      fix: >-
-        Let the crust set before turning with a thin spatula. Use a suitable
-        nonstick or seasoned pan and dry the next batch thoroughly.
-    - problem: Sauce is too thick
-      cause: Coating starch entered the sauce or the liquid reduced while waiting.
-      fix: >-
-        Add hot water a tablespoon at a time. Add only part of the slurry
-        initially and finish immediately once eggplant and tofu are ready.
   substitutions:
-    - ingredient: Water-packed extra-firm tofu
-      alternative: 400 g vacuum-packed super-firm tofu
-      effect: >-
-        Usually needs drying rather than a long press. Its center will be denser
-        and chewier; it is not silken tofu.
     - ingredient: Doubanjiang (Sichuan chili bean paste)
-      alternative: 1 1/2 tbsp Asian chili garlic sauce
+      alternative: Asian chili garlic sauce
       effect: >-
-        Keeps the chili heat and garlic but loses the fermented-bean depth and
-        red color. Taste for salt at the end and add a splash of soy if flat.
+        Use the same amount. You keep the heat and garlic but lose the deep fermented flavor, so
+        add a splash more soy at the end.
     - ingredient: Chinkiang black vinegar
-      alternative: 1 1/2 tbsp unseasoned rice vinegar plus 1/2 tbsp balsamic vinegar
-      effect: >-
-        Close to the malty, rounded sourness of black vinegar, with a slightly
-        sweeter finish.
-    - ingredient: Ground Sichuan peppercorns
-      alternative: Omit them, or use a pinch of freshly ground black pepper
-      effect: >-
-        Loses the citrusy, tingling note. Leave them off the children's portions
-        if the tingle is unwelcome.
-    - ingredient: Thai bird chili
-      alternative: Omit it
-      effect: >-
-        Leaves the gentler heat of the doubanjiang alone. Lime changes acidity
-        and does not cancel chili heat.
-  timing: >-
-    About one hour includes fifteen-minute pressing during preparation, oven
-    heating, 25–35 minutes roasting and tofu frying during that roast. Sauce is
-    finished only when both are ready. A small skillet requiring another tofu
-    batch increases elapsed time.
+      alternative: 1 1/2 tbsp rice vinegar plus 1/2 tbsp balsamic
+      effect: Close to the malty, rounded sourness of black vinegar.
+    - ingredient: Sichuan peppercorns
+      alternative: Leave them out
+      effect: The dish loses its citrusy tingle but is still full of flavor.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C),
-    at 40°F / 4°C or below. Use within 3–4 days; reheat leftovers to 165°F /
-    74°C. Store in shallow portions; tofu coating softens and eggplant becomes
-    more delicate. Reheat to 165°F / 74°C with a small splash of water. For
-    making ahead, hold cooked tofu, roasted eggplant and sauce separately until
-    the final heating and coating.
-  sources:
-    - title: Maggie Zhu — Pan-frying starch-coated tofu and finishing it in sauce
-      url: 'https://omnivorescookbook.com/tofu-and-broccoli/'
-    - title: Jeanine Donofrio — Roasting cubed eggplant until tender
-      url: 'https://www.loveandlemons.com/roasted-eggplant/'
-    - title: 'Exploratorium — Starch granules, water and sauce thickening'
-      url: 'https://annex.exploratorium.edu/cooking/icooks/3-24-03.html'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 3 days in the fridge. The tofu softens as it sits, so reheat gently in a skillet with a
+    splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Foodnetwork.com
+    date: '2026-11-09'
+source: Adapted from Food Network
 sourceUrl: >-
-  http://www.foodnetwork.com/recipes/jeff-mauro/crispy-szechuan-style-eggplant-and-tofu-2352484
+  https://www.foodnetwork.com/recipes/jeff-mauro/crispy-szechuan-style-eggplant-and-tofu-2352484
 ---
 
 ## Chef's Note
 
-Roasting makes eggplant tender while tofu browns in a measured amount of pan oil. A short final toss gives both a coating of chili bean paste, black vinegar and garlic, with a light tingle from Sichuan pepper. The texture contrast is silky eggplant against firmer browned tofu; the sauce will soften the starch crust, so serve soon after coating.
+This is Jeff Mauro's sweet-sour eggplant and tofu from Food Network, made with the flavors of Sichuan: chili bean paste fried until the oil runs red, malty black vinegar and a tingle of Sichuan pepper. Roasting makes the eggplant silky without deep-frying. Toss everything in the sauce at the last minute so the tofu keeps its crust.
 
 ## Directions
 
-1. **Heat and press:** Heat oven to 425°F / 220°C. Drain tofu and press gently between clean towels under a plate for fifteen minutes while you cut eggplant and measure the sauce ingredients. Cut pressed tofu into 3/4-inch cubes and pat dry.
-2. **Roast eggplant:** Toss eggplant with its 2 tbsp roasting oil and spread in one layer on a rimmed sheet. Roast 25–35 minutes, turning around halfway, until browned and thoroughly tender. Use a fork to check centers. If it finishes before the tofu, take it out and hold briefly on the tray.
-3. **Mix sauce:** Stir broth, soy sauce, black vinegar and sugar together. Mix the separate sauce cornstarch with its measured cold slurry water. Keep doubanjiang, ginger, garlic and optional chili ready beside the stove.
-4. **Brown tofu during the roast:** Toss dry tofu with the 2 tbsp coating cornstarch and shake off loose excess. Heat its 2 tbsp frying oil in a large skillet over medium-high. Add tofu in one layer and cook about 10–15 minutes total, turning carefully until several faces are golden and no dry coating remains. Transfer to a plate. Use another batch if pieces cannot fit with space.
-5. **Make the sauce when both components are ready:** Wipe away loose or burned starch carefully. Lower heat to medium, add the separate tablespoon of oil and the doubanjiang, and stir about 1 minute until the oil turns red and smells fragrant. Add ginger and optional chili for 20 seconds, then garlic for another 20 seconds. Pour in the broth mixture and bring to a simmer. Stir the slurry again, add half, and simmer 20–30 seconds. Add more only if needed for a light coating; discard unused slurry.
-6. **Combine gently:** Fold in roasted eggplant and browned tofu and heat briefly until coated. If tight, loosen with a tablespoon of hot water. Take off heat and add sesame oil and ground Sichuan pepper. Taste before optional lime juice.
-7. **Serve:** Fold in scallions and optional cilantro, then divide into four portions with plain rice prepared separately. Serve promptly for the best remaining tofu texture.
+1. **Roast the eggplant:** Heat the oven to 425°F. Toss the eggplant with its oil and spread it in one layer on a rimmed baking sheet. Roast, turning once halfway, until browned and soft all the way through when pressed with a fork, 25 to 35 minutes.
+2. **Mix the sauce:** While the eggplant roasts, stir together the broth, soy sauce, black vinegar and sugar. In a small cup, stir the sauce cornstarch into the cold water.
+3. **Brown the tofu:** Toss the tofu with its cornstarch and shake off the excess. Heat the tofu oil in a 12-inch skillet over medium-high heat. Add the tofu in one layer and cook, turning each piece once it releases, until golden on several sides, 10 to 15 minutes. Move to a plate.
+4. **Fry the chili paste:** Wipe any loose starch from the skillet and lower the heat to medium. Add the sauce oil and the doubanjiang and stir until the oil turns red and smells fragrant, about 1 minute. Add the ginger and chili for 20 seconds, then the garlic for 20 seconds more.
+5. **Thicken the sauce:** Pour in the broth mixture and bring to a simmer. Stir the cornstarch mixture, add it and simmer until the sauce is glossy and lightly thickened, about 30 seconds.
+6. **Toss and finish:** Fold in the eggplant and tofu and cook until coated and hot, about 1 minute. Add a spoonful of water if the sauce is tight. Off the heat, stir in the sesame oil and Sichuan pepper. Taste and add the lime juice if it needs brightness.
+7. **Serve:** Scatter the scallions and cilantro over the top and serve right away.

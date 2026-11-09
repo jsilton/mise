@@ -33,118 +33,82 @@ totalTime: 45 min
 servings: '4'
 pairsWith:
   - japanese-cucumber-sunomono
+  - miso-soup
+  - steamed-edamame
+pairingNotes:
+  japanese-cucumber-sunomono: Cool, tart cucumbers against the rich, saucy noodles.
+  miso-soup: A light broth to round out a Japanese supper.
+  steamed-edamame: A salty snack while the wok heats.
 ingredients:
-  - '600 g refrigerated pre-steamed yakisoba wheat noodles, seasoning packets set aside'
-  - '300 g boneless skinless chicken thighs, sliced about 1/4 inch thick'
-  - '300 g green cabbage, cut into 1-inch pieces'
-  - '100 g carrot, cut into thin matchsticks'
-  - '100 g onion, thinly sliced'
-  - '100 g fresh mushrooms, sliced'
+  - '1 1/4 lb refrigerated pre-steamed yakisoba noodles, seasoning packets discarded'
+  - '10 oz boneless skinless chicken thighs, sliced 1/4 inch thick'
+  - '4 cups green cabbage, cut into 1-inch pieces'
+  - '1 medium carrot, cut into thin matchsticks'
+  - '1/2 medium onion, thinly sliced'
+  - '4 oz fresh shiitake mushrooms, sliced'
   - '2 scallions, cut into 1-inch lengths'
   - '2 cloves garlic, minced'
   - 1 tsp minced fresh ginger
-  - '2 tbsp neutral oil, divided'
-  - 1/4 tsp ground black pepper
+  - 2 tbsp neutral oil
+  - 1/4 tsp black pepper
   - '--- Sauce ---'
   - 2 tbsp Worcestershire sauce
   - 2 tbsp oyster sauce
   - 2 tbsp ketchup
   - 1 tbsp soy sauce
   - 1 tbsp mirin
-  - '--- Optional toppings, for the whole batch ---'
-  - 1 tsp aonori seaweed flakes
-  - 2 tbsp Japanese mayonnaise
-  - '20 g beni shoga, drained red pickled ginger'
-  - 3 g bonito flakes
+  - '--- Toppings ---'
+  - 2 tbsp Japanese mayonnaise (optional)
+  - 1 tsp aonori seaweed flakes (optional)
+  - 2 tbsp beni shoga, red pickled ginger (optional)
+  - 1/2 cup bonito flakes (optional)
 description: >-
-  Pre-steamed wheat noodles with chicken, cabbage and a sweet-savory Worcestershire-based sauce,
-  cooked in two home-pan batches.
+  Pre-steamed wheat noodles with chicken, cabbage and a sweet-savory Worcestershire-based sauce.
 learning:
-  focus: Loosen pre-steamed noodles before stir-frying and keep the sauce balanced
-  outcome: >-
-    Flexible, distinct wheat noodles coated with a savory, tangy sauce, cooked chicken and
-    vegetables with some bite.
   techniques:
     - browning
     - temperature
     - seasoning
-  before:
-    - >-
-      Yakisoba uses wheat noodles despite the name. Buckwheat soba is not an equivalent substitute,
-      and pre-steamed yakisoba does not need the raw-noodle boiling method.
-    - >-
-      Split every ingredient into two groups before heating the pan. Keep unused packaged noodle
-      seasoning out of the homemade sauce.
-  checkpoints:
-    - step: 2
-      cue: Noodle bundles separate with gentle movement rather than forceful pulling.
-      why: Warming loosens a chilled pre-steamed bundle; forcing cold strands apart can break them.
-    - step: 3
-      cue: Chicken slices have colored surfaces and the thickest pieces reach 165°F / 74°C.
-      why: >-
-        The full endpoint belongs to the chicken, not to a vague no-pink check or a fixed ten-minute
-        dish deadline.
-    - step: 5
-      cue: 'Sauce coats the noodles without a pool, and cabbage is cooked but still recognizable.'
-      why: >-
-        A staged sauce addition and limited pan load avoid prolonged reduction that overcooks
-        vegetables.
-  troubleshooting:
-    - problem: Noodles break into short pieces
-      cause: They were pulled apart while cold or stirred roughly in a crowded pan.
-      fix: >-
-        Warm each bundle by its package method and separate gently before cooking. Fold with two
-        utensils rather than chopping through the pile.
-    - problem: The finished dish is too salty
-      cause: 'Seasoning packets were added as well as the sauce, or sauce brands supplied more salt.'
-      fix: >-
-        Use only one sauce system. Start with most of the measured sauce and add the last portion
-        after tasting; extra mayonnaise does not remove salt.
   substitutions:
-    - ingredient: Homemade sauce
-      alternative: 'About 1/3 cup (80 ml) bottled yakisoba sauce to start, with more only after tasting'
+    - ingredient: Chicken thighs
+      alternative: Thinly sliced pork belly
       effect: >-
-        Brands differ in concentration and sweetness. Omit all five homemade sauce ingredients
-        rather than adding bottled sauce on top.
-    - ingredient: Chicken
-      alternative: '300 g firm tofu, drained and blotted, cut into small slabs'
+        The classic yakisoba meat. Cook it until the fat renders and the edges crisp, then carry
+        on the same way.
+    - ingredient: Yakisoba noodles
+      alternative: Fresh lo mein or ramen noodles
       effect: >-
-        Brown gently in each batch, adding up to 1 tsp extra oil if needed. For a vegetarian version
-        also use vegetarian oyster-style sauce and Worcestershire, and omit bonito; substituting
-        only the protein is insufficient.
-  timing: >-
-    About 45 minutes includes chopping, warming noodle bundles and two complete cooking rounds.
-    Pre-steamed noodles shorten preparation, but the amount of chicken and vegetables still needs
-    pan time.
+        Boil them until just tender and drain well without rinsing. They brown and take the sauce
+        the same way.
+    - ingredient: Sauce
+      alternative: Bottled yakisoba sauce
+      effect: >-
+        Use 1/3 cup in place of the five sauce ingredients. Brands vary, so taste before adding
+        more.
+    - ingredient: Japanese mayonnaise
+      alternative: Regular mayonnaise
+      effect: 'Less rich and tangy. Stir in a few drops of rice vinegar to get closer.'
+    - ingredient: Beni shoga
+      alternative: Pink sushi ginger, chopped
+      effect: Sweeter and milder, but it still gives a sharp, bright bite.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. For quality, use within 2–3 days
-    and keep optional toppings separate. Reheat with a small splash of water, checking several
-    portions. Reheated noodles will be softer.
-  sources:
-    - title: Namiko Hirasawa Chen — Yakisoba noodle type and method
-      url: 'https://www.justonecookbook.com/yakisoba/'
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 3 days in the fridge. Reheat in a skillet with a splash of water and add the toppings
+    fresh.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Yakisoba is a Japanese preparation of wheat noodles. This chicken version keeps the familiar cabbage and sweet-savory sauce while giving a home skillet a manageable workload. The sauce leans on Worcestershire, ketchup and oyster sauce; it should coat the food rather than conceal it. Crisp browned noodle edges are optional texture, not proof that the dish was cooked correctly.
+Yakisoba is Japan's fried noodle dish, made with wheat noodles despite the name. The sauce is a home version of bottled yakisoba sauce, with Worcestershire, ketchup and oyster sauce in balance. Let the noodles sit in the hot pan for a minute so some edges brown before the sauce goes in.
 
 ## Directions
 
-1. **Prepare two cooking rounds:** Slice chicken and all vegetables as listed. Mix the five sauce ingredients, then divide the mixture in half. Divide chicken, vegetables, garlic, ginger, pepper and oil into two equal groups. Each cooking round uses 1 tbsp oil total.
-2. **Loosen the noodles:** Follow the pre-steamed noodle package's warming instructions, using its microwave or brief hot-water loosening method if given. Drain any added water well. Separate gently and divide into two 300 g portions. Do not boil them for a raw ramen cooking time or add their seasoning packets.
-3. **Cook the first chicken portion:** Heat a deep 12-inch skillet or wok over medium-high. Add 1 tsp oil and half the chicken, spreading it out. Cook about 3–4 minutes, turning, until the thickest pieces reach 165°F / 74°C. Transfer to a clean plate; add more time if the slices are thicker.
-4. **Cook the first vegetables:** Add 2 tsp oil. Stir-fry half the onion and carrot for about 2 minutes. Add half the mushrooms and cabbage and cook another 3–4 minutes, stirring, until the cabbage begins to soften. Add half the garlic, ginger and scallions for 30 seconds. Reduce heat if aromatics scorch.
-5. **Combine the first batch:** Add one portion of noodles, the first chicken portion, half the pepper and most of one sauce portion. Fold and stir for 1–2 minutes until hot and evenly coated. Taste and add the reserved part of that sauce portion only if needed. Transfer to a warm platter and cover loosely for the brief second round.
-6. **Repeat and serve:** Cook the remaining chicken, vegetables and noodles with the remaining tablespoon oil and second sauce portion using the same sequence. Divide both batches among four plates. Add any of the measured optional aonori, mayonnaise, beni shoga and bonito. Serve promptly.
+1. **Mix the sauce:** In a small bowl, whisk the Worcestershire, oyster sauce, ketchup, soy sauce and mirin.
+2. **Loosen the noodles:** Warm the noodles as the package directs, in the microwave or under hot running water. Drain well and gently pull the bundles apart.
+3. **Sear the chicken:** Heat a 14-inch wok or deep 12-inch skillet over medium-high heat. Add a little of the oil and spread the chicken in one layer. Cook, turning once, until browned and cooked through to 165°F, 3 to 4 minutes. Move it to a plate.
+4. **Stir-fry the vegetables:** Add the rest of the oil, the onion and carrot and stir-fry for 2 minutes. Add the mushrooms and cabbage and stir-fry until the cabbage starts to soften but still has bite, 3 to 4 minutes. Add the garlic, ginger and scallions and stir until fragrant, about 30 seconds.
+5. **Brown the noodles:** Push the vegetables to the side of the pan. Add the noodles and pepper, spread them over the bottom of the pan and leave them alone for 1 minute so some edges brown. In a 12-inch skillet, move half the vegetables to a plate and brown and toss the noodles in two batches, with half the chicken and sauce each time.
+6. **Toss with the sauce:** Return the chicken, pour in the sauce and toss over high heat until the noodles are evenly coated and no sauce pools in the pan, 1 to 2 minutes.
+7. **Serve:** Pile onto plates. Drizzle with the mayonnaise and scatter the aonori, beni shoga and bonito flakes on top.

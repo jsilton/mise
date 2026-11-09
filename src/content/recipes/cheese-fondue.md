@@ -15,100 +15,63 @@ cuisines:
   - Swiss
 role: main
 vibe: technical
-prepTime: 10 min
+prepTime: 15 min
 cookTime: 15 min
-totalTime: 'About 25 min for fondue, plus dipper preparation'
+totalTime: 30 min
 servings: '6'
 pairsWith:
-  - peach-salad-with-tomatoes-and-beets
-  - roasted-sunchokes-with-brown-butter-cider-vinaigrette
-  - arugula-feta-salad
+  - everyday-arugula-salad
+  - shaved-fennel-citrus-salad
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon cut the rich cheese.
+  shaved-fennel-citrus-salad: Crisp and bright between bites of fondue.
 ingredients:
   - '1/2 lb Gruyère, shredded'
-  - '1/2 lb Emmentaler or Swiss, shredded'
-  - 2 tbsp Cornstarch
-  - '1 clove Garlic, halved'
-  - 1 cup Dry White Wine (Swiss Chasselas or Fendant)
-  - 1 tbsp Fresh Lemon Juice
-  - 1 tbsp Kirsch (Cherry Brandy)
-  - Pinch of Nutmeg
-  - 1/2 tsp Dry Mustard
-  - >-
-    Assorted dippers, as needed: French or pumpernickel bread, green apples, and
-    blanched broccoli, cauliflower, carrots or asparagus
+  - '1/2 lb Emmentaler, shredded'
+  - 2 tbsp cornstarch
+  - '1 clove garlic, halved'
+  - '1 cup dry white wine, such as Swiss Chasselas or Fendant'
+  - 1 tbsp fresh lemon juice
+  - 1 tbsp kirsch
+  - pinch of nutmeg
+  - 1/2 tsp dry mustard
+  - 'crusty bread, green apples and broccoli, cut into bite-size pieces, for dipping'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from foodnetwork.com
+source: Adapted from Food Network
 sourceUrl: >-
   https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678
 learning:
-  focus: Cheese evenly coated with cornstarch.
-  outcome: Smooth melted cheese with no pool of free oil.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep heating temperatures fixed. Use enough vessels with room for stirring
-      and bubbling; divide all ingredients proportionally among them. Extra
-      batches take additional time, not a multiplied cooking clock.
-    - >-
-      Grate the cheeses and have the dippers ready before starting the melt. The
-      full listed Kirsch remains in the finish.
-  checkpoints:
-    - step: 3
-      cue: Cheese evenly coated with cornstarch.
-      why: Starch is distributed before the cheese enters the liquid.
-    - step: 5
-      cue: Smooth melted cheese with no pool of free oil.
-      why: Gradual additions and gentle heat help the cheese remain dispersed.
-  timing: >-
-    About 25 minutes for the original fondue mixture; cutting and blanching
-    dippers and extra batches add time.
-  storage: >-
-    Divide cooked leftovers into shallow containers and refrigerate within 2
-    hours, or 1 hour above 90°F / 32°C. Keep at 40°F / 4°C or below and use
-    within 3–4 days, or freeze portions promptly. Thaw in the refrigerator and
-    reheat throughout to 165°F / 74°C. Reheating stored fondue can change its
-    texture; bring stored sauce to a boil while stirring before reducing heat
-    for serving, rather than applying the gentle first-melt instruction to
-    stored leftovers.
   substitutions:
     - ingredient: Swiss Chasselas or Fendant
-      alternative: The same amount of a dry Sauvignon Blanc or Pinot Grigio
+      alternative: Dry Sauvignon Blanc or Pinot Grigio
       effect: >-
-        Crisp, high-acid and easy to find, so the fondue stays tangy and smooth.
-        Avoid off-dry wines such as many Rieslings, which make it sweet.
-  troubleshooting:
-    - problem: Cheese becomes stringy or oily
-      cause: The first melt was too hot or cheese was added faster than it melted.
-      fix: >-
-        Lower the heat and pause additions while stirring gently; do not add the
-        whole remaining cheese supply at once.
-  sources:
-    - title: Food Network — Tyler Florence Cheese Fondue
-      url: >-
-        https://www.foodnetwork.com/recipes/tyler-florence/cheese-fondue-recipe-1906678
-    - title: USDA — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
+        Crisp and easy to find, so the fondue stays tangy. Skip sweet wines such as most Rieslings.
+    - ingredient: Emmentaler
+      alternative: Supermarket Swiss cheese
+      effect: Milder and a little less nutty.
+    - ingredient: Kirsch
+      alternative: Brandy, or leave it out
+      effect: You lose the faint cherry note, but the fondue is still good.
+  storage: >-
+    Keeps 3 days in the fridge. Reheat over low heat with a splash of wine, stirring until smooth.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Add the starch-coated cheese gradually to gently heated wine and lemon juice. Keep the first melt below a hard boil and stir as each handful melts; excessive heat can make the cheese oily or stringy. Use a fondue pot rated for its heat source, and prepare the dippers before melting the cheese.
+This is the classic Swiss fondue of Gruyère and Emmentaler melted into dry white wine, with a splash of kirsch at the end. Tossing the cheese in cornstarch and adding it a handful at a time to barely simmering wine keeps it smooth and silky instead of stringy.
 
 ## Directions
 
-1. **Prepare dippers:** Cut bread and washed apples into bite-sized pieces; wash and blanch any vegetables you choose until tender enough to eat. Drain well. Keep the dippers separate from the cheese mixture.
-2. **Rub:** Rub the inside of a heavy pot rated for the stovetop with the peeled garlic halves, then discard the garlic. A ceramic serving pot may need the fondue transferred into it rather than placed directly on a burner; follow its instructions.
-3. **Coat:** Toss all the shredded cheeses with all the cornstarch until evenly coated.
-4. **Simmer:** Add all the wine and lemon juice to the cooking pot. Bring to a gentle simmer over medium-low heat.
-5. **Melt:** Lower the heat as needed and gradually stir in the coated cheese, one small handful at a time, waiting for it to melt before adding more. Scrape the bottom and stir until all the cheese is incorporated and smooth; avoid a hard boil during this first melt.
-6. **Finish:** Stir in all the Kirsch, nutmeg and dry mustard. Transfer to the fondue pot if needed and serve with the prepared dippers. Use only the heat source permitted for that pot and the lowest heat that keeps the fondue fluid, stirring regularly; do not let it scorch.
+1. **Prepare the dippers:** Cut the bread and apples into bite-size pieces. Blanch the broccoli in boiling salted water until just tender, 2 to 3 minutes, then drain well.
+2. **Coat the cheese:** Toss the Gruyère and Emmentaler with the cornstarch until every shred is coated.
+3. **Heat the wine:** Rub the inside of a heavy pot with the cut garlic, then discard it. Add the wine and lemon juice and bring to a gentle simmer over medium-low heat.
+4. **Melt the cheese:** Add a handful of cheese and stir in a figure-eight until it melts, then add the next. Keep the heat low so it never boils. Stop when all the cheese is in and the fondue is smooth, about 10 minutes.
+5. **Finish and serve:** Stir in the kirsch, nutmeg and dry mustard. Move the pot to a fondue burner over a low flame and serve with the dippers, stirring now and then.

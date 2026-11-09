@@ -5,39 +5,37 @@ role: main
 vibe: comfort
 difficulty: easy
 prepTime: 15 min
-cookTime: 'About 30 min, governed by cooker and meatball package'
-totalTime: About 45 min planning; cooker/package/batches may take longer
+cookTime: 35 min
+totalTime: 50 min
 servings: 5 portions
 cookingMethods:
   - simmer
   - saute
 categories: []
 source: Saved Paprika recipe
+pairsWith:
+  - smashed-cucumber-salad
+pairingNotes:
+  smashed-cucumber-salad: 'Cool, tangy crunch beside the sweet glaze.'
 ingredients:
-  - '--- Recipe ---'
-  - '1 1/2 cups jasmine rice, dry; rinse and drain'
-  - '1 can (13 1/2 oz) coconut milk, shake/stir smooth'
+  - '1 1/2 cups jasmine rice, rinsed and drained'
+  - '1 can (13 1/2 oz) coconut milk, stirred smooth'
   - 1/2 cup water
   - 3/4 tsp kosher salt
-  - >-
-    1 1/2 lb fully cooked frozen meatballs, approximately 24–28 in the original batch; actual piece
-    weight varies
+  - 1 1/2 lb frozen fully cooked meatballs
   - 1 tsp oil
   - 1/3 cup hoisin sauce
   - 1/3 cup Peking duck sauce
-  - 2 tbsp rice vinegar or apple cider vinegar
+  - 2 tbsp rice vinegar
   - 3 tbsp water
   - '1 1/2 tbsp fresh ginger, grated'
   - '4 garlic cloves, minced'
-  - '1 bunch of kale, stems removed, roughly chopped'
-  - '3 carrots, peeled and sliced into coins or ribbons'
-  - '2 garlic cloves, thinly sliced'
-  - '1/2 lemon, juiced, or use the separate unmeasured vinegar finish instead'
-  - 'black pepper, to taste'
   - 1 tsp neutral oil
-  - 'water, a small splash for vegetables if needed'
-  - 'water, a splash only if glaze becomes too thick'
-  - 'vinegar, a splash instead of lemon juice if chosen, optional'
+  - '3 carrots, peeled and sliced into coins'
+  - '1 bunch of kale, stems removed, roughly chopped'
+  - '2 garlic cloves, thinly sliced'
+  - '1/2 lemon, juiced'
+  - 'black pepper, to taste'
 rating: 5
 cuisines:
   - Chinese
@@ -55,9 +53,9 @@ formula:
           key: rice
           name: jasmine rice
           quantity:
-            amount: 1.5
+            amount: 1 1/2
             unit: cup
-          preparation: dry; rinse and drain
+          preparation: rinsed and drained
           uses:
             - step: rice
               share: 1
@@ -67,7 +65,7 @@ formula:
           quantity:
             amount: 1
             unit: can
-          preparation: shake/stir smooth
+          preparation: stirred smooth
           uses:
             - step: rice
               share: 1
@@ -78,7 +76,7 @@ formula:
           key: rice-water
           name: water
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: cup
           uses:
             - step: rice
@@ -94,11 +92,10 @@ formula:
               share: 1
         - id: meatballs
           key: meatballs
-          name: fully cooked frozen meatballs
+          name: frozen fully cooked meatballs
           quantity:
-            amount: 1.5
+            amount: 1 1/2
             unit: lb
-          preparation: approximately 24–28 in the original batch; actual piece weight varies
           uses:
             - step: meatballs
               share: 1
@@ -131,7 +128,7 @@ formula:
               share: 1
         - id: vinegar
           key: vinegar
-          name: rice vinegar or apple cider vinegar
+          name: rice vinegar
           quantity:
             amount: 2
             unit: tbsp
@@ -151,7 +148,7 @@ formula:
           key: ginger
           name: fresh ginger
           quantity:
-            amount: 1.5
+            amount: 1 1/2
             unit: tbsp
           preparation: grated
           uses:
@@ -168,6 +165,26 @@ formula:
             - step: aromatics
               share: 1
           plural: garlic cloves
+        - id: veg-oil
+          key: veg-oil
+          name: neutral oil
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: carrots
+              share: 1
+        - id: carrots
+          key: carrots
+          name: carrot
+          quantity:
+            amount: 3
+            unit: count
+          preparation: peeled and sliced into coins
+          uses:
+            - step: carrots
+              share: 1
+          plural: carrots
         - id: kale
           key: kale
           name: bunch of kale
@@ -176,20 +193,9 @@ formula:
             unit: count
           preparation: 'stems removed, roughly chopped'
           uses:
-            - step: vegetables
+            - step: kale
               share: 1
           plural: bunches of kale
-        - id: carrots
-          key: carrots
-          name: carrot
-          quantity:
-            amount: 3
-            unit: count
-          preparation: peeled and sliced into coins or ribbons
-          uses:
-            - step: vegetables
-              share: 1
-          plural: carrots
         - id: veg-garlic
           key: veg-garlic
           name: garlic clove
@@ -198,16 +204,16 @@ formula:
             unit: count
           preparation: thinly sliced
           uses:
-            - step: vegetables
+            - step: kale
               share: 1
           plural: garlic cloves
         - id: lemon
           key: lemon
           name: lemon
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: count
-          preparation: 'juiced, or use the separate unmeasured vinegar finish instead'
+          preparation: juiced
           uses:
             - step: finish
               share: 1
@@ -217,165 +223,73 @@ formula:
           name: black pepper
           allowance: to taste
           uses:
-            - step: finish
+            - step: kale
               share: 1
-        - id: veg-oil
-          key: veg-oil
-          name: neutral oil
-          quantity:
-            amount: 1
-            unit: tsp
-          uses:
-            - step: vegetables
-              share: 1
-        - id: veg-water
-          key: veg-water
-          name: water
-          allowance: a small splash for vegetables if needed
-          uses:
-            - step: vegetables
-              share: 1
-          role: cooking-water
-        - id: glaze-extra-water
-          key: glaze-extra-water
-          name: water
-          allowance: a splash only if glaze becomes too thick
-          uses:
-            - step: glaze
-              share: 1
-          role: cooking-water
-        - id: finish-vinegar
-          key: finish-vinegar
-          name: vinegar
-          allowance: a splash instead of lemon juice if chosen
-          uses:
-            - step: finish
-              share: 1
-          optional: true
   steps:
     - id: rice
-      title: Start coconut rice
-      text: >-
-        Use {{ingredients}} for this stage. Combine the rinsed and drained rice, all the stirred
-        coconut milk, this component’s measured water and the salt in a rice cooker that permits the
-        mixture and load. Follow its instructions. If the manual disallows this mixture, use a
-        separately verified coconut-rice method with the full listed rice, coconut milk and water.
+      title: Cook the coconut rice
+      text: 'Put {{ingredients}} in a rice cooker. Stir once and cook on the white rice setting.'
     - id: meatballs
-      title: Heat meatballs
+      title: Brown the meatballs
       text: >-
-        Use {{ingredients}} for this stage. Heat the fully cooked frozen meatballs according to
-        their package until centers reach 165°F / 74°C, checking several of the largest. Brown the
-        heated meatballs in a roomy skillet using their full one-teaspoon oil for the original
-        batch, or the listed scaled amount. Work in batches without assuming 24–28 pieces at every
-        scale.
+        Heat {{ingredients}} in a large skillet over medium heat. Cover and cook, turning now and
+        then, until browned and hot in the center, 12 to 15 minutes.
     - id: aromatics
-      title: Add aromatics
-      text: >-
-        Reduce heat to medium. Add {{ingredients}} around the heated meatballs and stir for about 30
-        seconds, without scorching the garlic.
+      title: Add the aromatics
+      text: 'Lower the heat to medium-low. Add {{ingredients}} and stir until fragrant, about 30 seconds.'
     - id: glaze
-      title: Glaze
+      title: Glaze the meatballs
       text: >-
-        Use {{ingredients}} for this stage. Add the hoisin, duck sauce, vinegar and measured
-        three-tablespoon glaze water for the original batch, following the scaled list for other
-        quantities. Simmer gently about 5 minutes, stirring until glaze clings; use the separate
-        small-water allowance only if the glaze becomes too thick. Keep this water separate from the
-        rice water.
-    - id: vegetables
-      title: Cook greens and carrots
+        Stir in {{ingredients}}. Simmer, stirring, until the glaze thickens and clings to the
+        meatballs, about 5 minutes. Add a splash of water if it gets too thick.
+    - id: carrots
+      title: Cook the carrots
       text: >-
-        Use {{ingredients}} for this stage. In another skillet heat the full vegetable oil. Cook
-        carrots about 2 minutes, then add kale and sliced garlic. Turn through the pan and continue
-        until carrots and greens are tender, beginning checks after 3–5 minutes more. Use the small
-        vegetable-water allowance if needed; lower heat if garlic burns. More pan batches change
-        this time.
+        While the glaze simmers, heat {{ingredients}} in another skillet over medium-high heat and
+        cook, stirring, until the carrots start to soften, about 2 minutes.
+    - id: kale
+      title: Wilt the kale
+      text: >-
+        Add {{ingredients}}. Cook, tossing, until the kale is tender and the carrots are cooked
+        through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
     - id: finish
-      title: Finish the vegetables
-      text: >-
-        Use {{ingredients}} for this stage. Season with the black-pepper allowance and all the juice
-        from the listed lemon portion, or the separate vinegar splash instead. Do not add both acid
-        options automatically.
+      title: Season the greens
+      text: 'Take the pan off the heat and stir in the juice of the {{ingredients}}.'
     - id: serve
-      title: Assemble
-      text: >-
-        Let the rice finish its permitted cooker cycle and any manual-required rest; check grains
-        are tender. Divide all the rice, glazed meatballs and vegetables among the listed portions
-        rather than fixing five meatballs per person at every scale. Serve promptly; actual total
-        follows rice, meatball package and batches.
+      title: Build the bowls
+      text: Fluff the rice and divide it among bowls. Top with the glazed meatballs and the greens.
 equipment:
   - rice-cooker
   - skillet
-  - food-thermometer
 learning:
-  focus: Coordinate three pans without mixing their liquid or oil allocations
-  outcome: >-
-    Rice is tender, fully cooked meatballs have hot 165°F centers and clinging glaze, and carrots
-    and kale are tender.
   techniques:
     - temperature
-  before:
-    - >-
-      Use labeled fully cooked frozen meatballs and follow their package heating instructions; check
-      several of the largest centers at 165°F / 74°C.
-    - >-
-      Choose a rice cooker whose manual permits coconut milk/fatty liquids and the intended load;
-      its cooked-rice cup capacity is not automatically a dry-rice measure. Do not use a cooker that
-      disallows this mixture.
-    - >-
-      Wash and drain kale and carrots; trim kale stems and slice carrots consistently. Extra batches
-      need their own shares of each full ingredient amount.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Several of the largest fully cooked meatballs reach 165°F / 74°C at their centers after
-        package-directed heating.
-      why: A browned surface does not establish that frozen meatball centers are hot.
-  troubleshooting:
-    - problem: Glaze becomes thick before the meal is ready
-      cause: It reduced while the rice or vegetables needed longer.
-      fix: >-
-        Lower heat and use only the separate glaze-water allowance if needed. Keep the rice water
-        and vegetable oil separate from the glaze.
   substitutions:
-    - ingredient: Lemon juice
-      alternative: The separate vinegar splash allowance instead
-      effect: Use the vinegar splash instead of the lemon juice to finish the vegetables.
-    - ingredient: Rice vinegar in glaze
-      alternative: The same listed apple cider vinegar measure
-      effect: This vinegar choice belongs to the glaze; choose the vegetable acid separately.
-  timing: >-
-    About 45 min planning; cooker/package/batches may take longer; 15 min. Additional pans/batches
-    change elapsed time; no linear clock scaling is implied.
-  storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1
-    hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C
-    throughout. Prompt cooling matters for cooked grains as well as meat; reheating is not a
-    substitute for proper storage.
-  sources:
-    - title: FoodSafety.gov — Cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: rice vinegar
+      alternative: Apple cider vinegar
+      effect: A little fruitier and sharper. Use the same amount.
+    - ingredient: Stovetop
+      alternative: Simmer the rice in a covered pot
+      effect: >-
+        Bring the rice, coconut milk, water and salt to a boil, cover and cook on low for 18
+        minutes. Rest 10 minutes off the heat.
+  storage: Keeps 4 days in the fridge. Reheat the meatballs and rice covered with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Hoisin and duck sauce glaze fully cooked meatballs while coconut rice and garlicky greens cook separately. Keep each component’s oil and water separate. The rice-cooker instructions and meatball package determine the working schedule.
+A weeknight shortcut bowl. Frozen meatballs get a sticky glaze of hoisin and duck sauce with plenty of fresh ginger and garlic. Salted coconut rice and lemony garlic kale with carrots balance the sweetness.
 
 ## Directions
 
-1. **Start coconut rice:** Use jasmine rice, coconut milk, water, and kosher salt for this stage. Combine the rinsed and drained rice, all the stirred coconut milk, this component’s measured water and the salt in a rice cooker that permits the mixture and load. Follow its instructions. If the manual disallows this mixture, use a separately verified coconut-rice method with the full listed rice, coconut milk and water.
-2. **Heat meatballs:** Use fully cooked frozen meatballs and oil for this stage. Heat the fully cooked frozen meatballs according to their package until centers reach 165°F / 74°C, checking several of the largest. Brown the heated meatballs in a roomy skillet using their full one-teaspoon oil for the original batch, or the listed scaled amount. Work in batches without assuming 24–28 pieces at every scale.
-3. **Add aromatics:** Reduce heat to medium. Add fresh ginger and garlic cloves around the heated meatballs and stir for about 30 seconds, without scorching the garlic.
-4. **Glaze:** Use hoisin sauce, Peking duck sauce, rice vinegar or apple cider vinegar, water, and water for this stage. Add the hoisin, duck sauce, vinegar and measured three-tablespoon glaze water for the original batch, following the scaled list for other quantities. Simmer gently about 5 minutes, stirring until glaze clings; use the separate small-water allowance only if the glaze becomes too thick. Keep this water separate from the rice water.
-5. **Cook greens and carrots:** Use bunch of kale, carrots, garlic cloves, neutral oil, and water for this stage. In another skillet heat the full vegetable oil. Cook carrots about 2 minutes, then add kale and sliced garlic. Turn through the pan and continue until carrots and greens are tender, beginning checks after 3–5 minutes more. Use the small vegetable-water allowance if needed; lower heat if garlic burns. More pan batches change this time.
-6. **Finish the vegetables:** Use lemon, black pepper, and vinegar (if using) for this stage. Season with the black-pepper allowance and all the juice from the listed lemon portion, or the separate vinegar splash instead. Do not add both acid options automatically.
-7. **Assemble:** Let the rice finish its permitted cooker cycle and any manual-required rest; check grains are tender. Divide all the rice, glazed meatballs and vegetables among the listed portions rather than fixing five meatballs per person at every scale. Serve promptly; actual total follows rice, meatball package and batches.
-
-## Cooking Notes
-
-Fresh ginger is a prominent part of the glaze. Leftover coconut rice can be used for fried rice; refrigerate it promptly in shallow containers and reheat thoroughly. The written rice liquid is coconut milk and water.
+1. **Cook the coconut rice:** Put jasmine rice, coconut milk, water, and kosher salt in a rice cooker. Stir once and cook on the white rice setting.
+2. **Brown the meatballs:** Heat frozen fully cooked meatballs and oil in a large skillet over medium heat. Cover and cook, turning now and then, until browned and hot in the center, 12 to 15 minutes.
+3. **Add the aromatics:** Lower the heat to medium-low. Add fresh ginger and garlic cloves and stir until fragrant, about 30 seconds.
+4. **Glaze the meatballs:** Stir in hoisin sauce, Peking duck sauce, rice vinegar, and water. Simmer, stirring, until the glaze thickens and clings to the meatballs, about 5 minutes. Add a splash of water if it gets too thick.
+5. **Cook the carrots:** While the glaze simmers, heat neutral oil and carrots in another skillet over medium-high heat and cook, stirring, until the carrots start to soften, about 2 minutes.
+6. **Wilt the kale:** Add bunch of kale, garlic cloves, and black pepper. Cook, tossing, until the kale is tender and the carrots are cooked through, 3 to 5 minutes. Add a splash of water if the pan gets dry.
+7. **Season the greens:** Take the pan off the heat and stir in the juice of the lemon.
+8. **Build the bowls:** Fluff the rice and divide it among bowls. Top with the glazed meatballs and the greens.

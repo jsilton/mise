@@ -18,8 +18,8 @@ cuisines:
 role: main
 vibe: technical
 prepTime: 10 min
-cookTime: '40 min, variable with rice and shrimp batches'
-totalTime: About 50 min with thawed shrimp
+cookTime: 40 min
+totalTime: 50 min
 servings: 4 portions
 seasons:
   - spring
@@ -30,26 +30,28 @@ leftovers: poor
 pairsWith:
   - everyday-arugula-salad
   - roasted-asparagus
+pairingNotes:
+  everyday-arugula-salad: Peppery greens to cut the creamy rice.
+  roasted-asparagus: A spring green that loves lemon and shrimp.
 ingredients:
-  - '--- Recipe ---'
-  - '1 1/2 lb U10 shrimp (under 10 per pound), raw, peeled and deveined; thawed if frozen'
-  - 2 cups Arborio rice
-  - 1 cup dry white wine
-  - '5–6 cups chicken or vegetable broth, heated; add gradually only as needed'
+  - '3 tbsp unsalted butter, cold'
+  - '1 1/2 lb jumbo U10 shrimp, peeled and deveined'
+  - 'kosher salt, a pinch, for the shrimp'
   - 2 tbsp olive oil
   - '1 large onion, finely diced'
   - '4 garlic cloves, minced'
-  - 3 tbsp unsalted butter
-  - '1 lemon, zested and juiced'
-  - '18 fresh basil leaves, chiffonade'
+  - 2 cups Arborio rice
+  - 1 cup dry white wine
+  - '5–6 cups chicken or vegetable broth, kept hot'
   - 2 tbsp heavy cream
-  - 1/2 cup freshly grated Parmesan
-  - 'salt, to taste'
+  - '1/2 cup Parmesan, freshly grated'
+  - '1 lemon, zested and juiced'
+  - 'kosher salt, to taste'
   - 'black pepper, to taste'
-  - 'fresh basil, extra for serving, rinsed, optional'
-  - 'hot water, only if needed for grain hydration or loosening'
+  - '18 fresh basil leaves, cut into thin ribbons'
+  - 'fresh basil, for serving, optional'
 origin: Italy
-source: Adapted from thepioneerwoman.com
+source: Adapted from The Pioneer Woman
 sourceUrl: 'https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-basil-shrimp-risotto/'
 formula:
   version: 1
@@ -60,44 +62,34 @@ formula:
     - id: main
       name: Recipe
       ingredients:
+        - id: butter
+          key: butter
+          name: unsalted butter
+          quantity:
+            amount: 3
+            unit: tbsp
+          preparation: cold
+          uses:
+            - step: shrimp
+              share: 2/3
+            - step: finish
+              share: 1/3
         - id: shrimp
           key: shrimp
-          name: U10 shrimp (under 10 per pound)
+          name: jumbo U10 shrimp
           quantity:
-            amount: 1.5
+            amount: 1 1/2
             unit: lb
-          preparation: 'raw, peeled and deveined; thawed if frozen'
+          preparation: peeled and deveined
           uses:
             - step: shrimp
               share: 1
-        - id: rice
-          key: rice
-          name: Arborio rice
-          quantity:
-            amount: 2
-            unit: cup
+        - id: shrimp-salt
+          key: shrimp-salt
+          name: kosher salt
+          allowance: 'a pinch, for the shrimp'
           uses:
-            - step: rice
-              share: 1
-        - id: wine
-          key: wine
-          name: dry white wine
-          quantity:
-            amount: 1
-            unit: cup
-          uses:
-            - step: wine
-              share: 1
-        - id: broth
-          key: broth
-          name: chicken or vegetable broth
-          quantity:
-            amount: 5
-            max: 6
-            unit: cup
-          preparation: heated; add gradually only as needed
-          uses:
-            - step: broth
+            - step: shrimp
               share: 1
         - id: olive-oil
           key: olive-oil
@@ -127,42 +119,38 @@ formula:
             unit: count
           preparation: minced
           uses:
-            - step: garlic
+            - step: rice
               share: 1
           plural: garlic cloves
-        - id: butter
-          key: butter
-          name: unsalted butter
+        - id: rice
+          key: rice
+          name: Arborio rice
           quantity:
-            amount: 3
-            unit: tbsp
+            amount: 2
+            unit: cup
           uses:
-            - step: shrimp
-              share: 2/3
-            - step: finish
-              share: 1/3
-        - id: lemon
-          key: lemon
-          name: lemon
+            - step: rice
+              share: 1
+        - id: wine
+          key: wine
+          name: dry white wine
           quantity:
             amount: 1
-            unit: count
-          preparation: zested and juiced
+            unit: cup
           uses:
-            - step: finish
+            - step: wine
               share: 1
-          plural: lemons
-        - id: basil
-          key: basil
-          name: fresh basil leaf
+        - id: broth
+          key: broth
+          name: chicken or vegetable broth
           quantity:
-            amount: 18
-            unit: count
-          preparation: chiffonade
+            amount: 5
+            max: 6
+            unit: cup
+          preparation: kept hot
           uses:
-            - step: combine
+            - step: broth
               share: 1
-          plural: fresh basil leaves
         - id: cream
           key: cream
           name: heavy cream
@@ -174,16 +162,28 @@ formula:
               share: 1
         - id: parmesan
           key: parmesan
-          name: freshly grated Parmesan
+          name: Parmesan
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: cup
+          preparation: freshly grated
           uses:
             - step: finish
               share: 1
+        - id: lemon
+          key: lemon
+          name: lemon
+          quantity:
+            amount: 1
+            unit: count
+          preparation: zested and juiced
+          uses:
+            - step: finish
+              share: 1
+          plural: lemons
         - id: salt
           key: salt
-          name: salt
+          name: kosher salt
           allowance: to taste
           uses:
             - step: finish
@@ -195,157 +195,93 @@ formula:
           uses:
             - step: finish
               share: 1
+        - id: basil
+          key: basil
+          name: fresh basil leaf
+          quantity:
+            amount: 18
+            unit: count
+          preparation: cut into thin ribbons
+          uses:
+            - step: combine
+              share: 1
+          plural: fresh basil leaves
         - id: extra-basil
           key: extra-basil
           name: fresh basil
-          allowance: extra for serving
-          preparation: rinsed
+          allowance: for serving
           uses:
             - step: serve
               share: 1
           optional: true
           role: garnish
-        - id: hot-water
-          key: hot-water
-          name: hot water
-          allowance: only if needed for grain hydration or loosening
-          uses:
-            - step: broth
-              share: 1
-          role: cooking-water
   steps:
     - id: shrimp
-      title: Cook shrimp
+      title: Sear the shrimp
       text: >-
-        Use {{ingredients}} for this stage. Melt the butter over medium-high heat. Cook the shrimp
-        in a single layer, sharing the butter between batches if needed, until the thickest flesh is
-        firm, pearly and opaque through the center. Transfer to a clean plate; chop into bite-sized
-        pieces on a clean board if desired.
+        Heat a large, wide skillet over medium-high heat. Add {{ingredients}}, melting the butter
+        first and then laying the shrimp in a single layer. Sear until opaque through the center, 2
+        to 3 minutes per side, then move them to a plate.
     - id: onion
-      title: Soften onion
+      title: Soften the onion
       text: >-
-        Lower the heat to medium and add {{ingredients}} to the same pan. Cook about 5–7 minutes,
-        stirring often, until the onion is soft and translucent but not browned. The oil gives the
-        onion and rice enough fat to cook evenly.
-    - id: garlic
-      title: Add garlic
-      text: 'Add {{ingredients}} and cook about 30–45 seconds until fragrant.'
+        Lower the heat to medium and add {{ingredients}} to the same pan. Cook, stirring often,
+        until the onion is soft and translucent but not browned, 5 to 7 minutes.
     - id: rice
-      title: Coat the rice
+      title: Toast the rice
       text: >-
-        Add {{ingredients}} and stir for about 2 minutes, until grain edges look translucent,
-        without browning them darkly.
+        Add {{ingredients}}. Stir until the garlic is fragrant and the edges of the rice turn
+        translucent, about 2 minutes.
     - id: wine
-      title: Add wine
-      text: 'Pour in {{ingredients}} and stir until mostly absorbed.'
+      title: Add the wine
+      text: 'Pour in {{ingredients}} and stir until it is absorbed.'
     - id: broth
-      title: Hydrate gently
+      title: Add the broth
       text: >-
-        Use {{ingredients}} for this stage. Reduce heat to maintain a gentle simmer. Add the hot
-        broth a ladle at a time, stirring frequently and adding another when the previous is mostly
-        absorbed. Begin tasting around 18–22 minutes; keep cooking until the center is tender with a
-        slight bite. Use only as much broth as needed; if it runs out while rice remains firm,
-        continue with a little hot water. Leave room for finishing additions.
+        Lower the heat to keep a gentle simmer. Add {{ingredients}} a ladle at a time, stirring
+        often and letting each ladle mostly absorb before adding the next. Cook until the rice is
+        tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first,
+        use hot water.
     - id: finish
-      title: Finish the rice
+      title: Finish the risotto
       text: >-
-        Use {{ingredients}} for this stage. Off the heat, stir in the cold butter, the full heavy
-        cream and Parmesan, all the lemon zest, and the lemon juice to taste. Use the listed salt
-        and pepper allowances. Loosen stiff rice with a little remaining hot broth or water as
-        needed; keep any unused lemon juice in a clean container separately rather than assuming
-        every lemon produces the same amount.
+        Take the pan off the heat and stir in {{ingredients}} until creamy. Add a splash of broth or
+        hot water if it has turned stiff.
     - id: combine
-      title: Return the shrimp
+      title: Fold in the shrimp
       text: >-
-        Use {{ingredients}} for this stage. Fold in all the cooked shrimp and basil; warm briefly,
-        starting around 1 minute and checking that the shrimp are warm throughout. Do not extend the
-        rice simmer with shrimp already in it.
+        Fold in the shrimp, their juices and {{ingredients}}. Stir until the shrimp are warm, about
+        1 minute.
     - id: serve
       title: Serve
-      text: >-
-        Use {{ingredients}} for this stage. Use the optional extra basil, divide among the listed
-        portions and serve immediately. Rice that needs more liquid/time or extra shrimp batches
-        extends the approximate 50-minute schedule.
+      text: 'Serve right away, topped with {{ingredients}}.'
 equipment:
   - large-skillet
   - food-thermometer
 learning:
-  focus: Judge grain hydration by the center and keep shrimp out until the finish
-  outcome: >-
-    Rice is tender with a slight bite and flows loosely; large shrimp remain fully cooked and warm
-    without prolonged simmering.
   techniques:
     - temperature
-  before:
-    - >-
-      Keep raw shrimp cold; thaw frozen shrimp in the refrigerator before starting. Prepare a clean
-      plate and board for the cooked shrimp.
-    - >-
-      Warm the broth separately and keep additional hot water available only if needed. The listed
-      5–6 cups is a starting supply, not a mandatory dose or measured finished yield.
-    - >-
-      Use a large wide skillet that leaves room for the expanded rice and additions. Larger
-      ingredient scales need additional suitably roomy pans and shrimp batches; do not multiply the
-      timer.
-  checkpoints:
-    - step: 6
-      cue: >-
-        The rice center is tender with a slight bite and the grains flow loosely in their liquid;
-        cooked shrimp are still held separately.
-      why: Finish grain hydration before returning the shrimp.
-  troubleshooting:
-    - problem: Rice is firm after the first tasting window
-      cause: 'Grain, liquid uptake or simmer intensity differs from the starting estimate.'
-      fix: >-
-        Continue the gentle simmer and gradual hot-liquid additions, keeping shrimp out until the
-        rice is ready. Do not force the full stock supply into already tender rice.
   substitutions:
-    - ingredient: Salt and pepper allowances
-      alternative: An original-batch starting seasoning of ½ tsp salt and 1 tsp black pepper
-      effect: >-
-        Use these starting measures instead of the to-taste allowances, scaling both proportionally
-        with the batch. Account for the salt already in the broth.
-    - ingredient: Parmesan incorporated into rice
-      alternative: Use the same full listed Parmesan for sprinkling over portions instead
-      effect: >-
-        Use the full listed Parmesan once, divided over the portions, instead of incorporating it
-        into the rice.
-  timing: >-
-    About 50 min with thawed shrimp; 10 min. Additional pans/batches change elapsed time; no linear
-    clock scaling is implied.
-  storage: >-
-    Refrigerate leftovers promptly in shallow containers at 40°F / 4°C or below, within 2 hours (1
-    hour above 90°F / 32°C). Use within 3–4 days or freeze; reheat leftovers to 165°F / 74°C
-    throughout. Prompt cooling matters for cooked grains as well as meat; reheating is not a
-    substitute for proper storage.
-  sources:
-    - title: Adapted from thepioneerwoman.com
-      url: 'https://www.thepioneerwoman.com/food-cooking/recipes/a11773/lemon-basil-shrimp-risotto/'
-    - title: FoodSafety.gov — Cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: FDA — Seafood handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: Jumbo U10 shrimp
+      alternative: Large shrimp
+      effect: Sear them about 1 minute per side so they don't overcook.
+  storage: Best right away. Leftovers keep 2 days in the fridge. Reheat gently with a splash of broth.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Add warm broth gradually and stir frequently, keeping the rice at a gentle simmer. Judge the finish by a tender center with a slight bite and a loose, creamy consistency. Return the cooked shrimp only at the end; lemon and basil brighten the rich rice. Serve as generous main-course portions.
+Risotto comes from northern Italy, where hot broth goes in a ladle at a time so the rice releases its starch and turns creamy. Here it's finished with butter, Parmesan, lemon and basil, with big seared shrimp folded in at the end. Sear the shrimp first and add them back last so they stay tender.
 
 ## Directions
 
-1. **Cook shrimp:** Use U10 shrimp (under 10 per pound) and 2/3 of the unsalted butter for this stage. Melt the butter over medium-high heat. Cook the shrimp in a single layer, sharing the butter between batches if needed, until the thickest flesh is firm, pearly and opaque through the center. Transfer to a clean plate; chop into bite-sized pieces on a clean board if desired.
-2. **Soften onion:** Lower the heat to medium and add olive oil and large onion to the same pan. Cook about 5–7 minutes, stirring often, until the onion is soft and translucent but not browned. The oil gives the onion and rice enough fat to cook evenly.
-3. **Add garlic:** Add garlic cloves and cook about 30–45 seconds until fragrant.
-4. **Coat the rice:** Add Arborio rice and stir for about 2 minutes, until grain edges look translucent, without browning them darkly.
-5. **Add wine:** Pour in dry white wine and stir until mostly absorbed.
-6. **Hydrate gently:** Use chicken or vegetable broth and hot water for this stage. Reduce heat to maintain a gentle simmer. Add the hot broth a ladle at a time, stirring frequently and adding another when the previous is mostly absorbed. Begin tasting around 18–22 minutes; keep cooking until the center is tender with a slight bite. Use only as much broth as needed; if it runs out while rice remains firm, continue with a little hot water. Leave room for finishing additions.
-7. **Finish the rice:** Use 1/3 of the unsalted butter, lemon, heavy cream, freshly grated Parmesan, salt, and black pepper for this stage. Off the heat, stir in the cold butter, the full heavy cream and Parmesan, all the lemon zest, and the lemon juice to taste. Use the listed salt and pepper allowances. Loosen stiff rice with a little remaining hot broth or water as needed; keep any unused lemon juice in a clean container separately rather than assuming every lemon produces the same amount.
-8. **Return the shrimp:** Use fresh basil leaves for this stage. Fold in all the cooked shrimp and basil; warm briefly, starting around 1 minute and checking that the shrimp are warm throughout. Do not extend the rice simmer with shrimp already in it.
-9. **Serve:** Use fresh basil (if using) for this stage. Use the optional extra basil, divide among the listed portions and serve immediately. Rice that needs more liquid/time or extra shrimp batches extends the approximate 50-minute schedule.
+1. **Sear the shrimp:** Heat a large, wide skillet over medium-high heat. Add 2/3 of the unsalted butter, jumbo U10 shrimp, and kosher salt, melting the butter first and then laying the shrimp in a single layer. Sear until opaque through the center, 2 to 3 minutes per side, then move them to a plate.
+2. **Soften the onion:** Lower the heat to medium and add olive oil and large onion to the same pan. Cook, stirring often, until the onion is soft and translucent but not browned, 5 to 7 minutes.
+3. **Toast the rice:** Add garlic cloves and Arborio rice. Stir until the garlic is fragrant and the edges of the rice turn translucent, about 2 minutes.
+4. **Add the wine:** Pour in dry white wine and stir until it is absorbed.
+5. **Add the broth:** Lower the heat to keep a gentle simmer. Add chicken or vegetable broth a ladle at a time, stirring often and letting each ladle mostly absorb before adding the next. Cook until the rice is tender with a slight bite and flows loosely, 18 to 22 minutes. If the broth runs out first, use hot water.
+6. **Finish the risotto:** Take the pan off the heat and stir in 1/3 of the unsalted butter, heavy cream, Parmesan, lemon, kosher salt, and black pepper until creamy. Add a splash of broth or hot water if it has turned stiff.
+7. **Fold in the shrimp:** Fold in the shrimp, their juices and fresh basil leaves. Stir until the shrimp are warm, about 1 minute.
+8. **Serve:** Serve right away, topped with fresh basil (if using).

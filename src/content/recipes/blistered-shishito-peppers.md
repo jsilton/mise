@@ -28,83 +28,45 @@ nutritionalDensity: light
 leftovers: poor
 equipment:
   - cast-iron-skillet
-prepTime: 2–5 min
-cookTime: 5–10 min
-totalTime: 7–15 min
+prepTime: 5 min
+cookTime: 5 min
+totalTime: 10 min
 servings: '4'
 pairsWith:
-  - miso-salmon-with-bok-choy
   - sticky-miso-salmon-bowl
-  - honey-sesame-chicken
+  - japanese-beef-rice-bowl-gyudon
+  - kalbi-grilled-korean-style-short-ribs
+pairingNotes:
+  sticky-miso-salmon-bowl: Smoky peppers beside sweet miso salmon and rice.
+  japanese-beef-rice-bowl-gyudon: A quick charred side for a simple beef bowl.
+  kalbi-grilled-korean-style-short-ribs: Blistered peppers next to grilled short ribs.
 ingredients:
-  - '8 oz Shishito Peppers, left whole with stems on'
-  - 1 tbsp Neutral Oil (avocado or grapeseed)
+  - '8 oz shishito peppers, washed and patted dry'
+  - 1 tbsp neutral oil
   - 1 tsp flaky sea salt
-  - 1 tsp Sesame Seeds
-  - '1 lemon wedge, for squeezing'
+  - 1 tsp toasted sesame seeds
+  - 1 lemon wedge
 learning:
-  focus: Blister whole peppers without burning the entire surface
-  outcome: >-
-    Patchy blistered skins and still-juicy flesh with lemon, salt and sesame
-    seeds.
   techniques:
     - browning
     - seasoning
-  before:
-    - Dry the washed peppers well before putting them in hot oil.
-    - >-
-      A single layer is the capacity limit; additional batches use shares of the
-      same oil and take extra time.
-  checkpoints:
-    - step: 2
-      cue: Dark blistered patches form while much of the skin remains green.
-      why: >-
-        Full blackening gives a different, bitter result; adjust heat before
-        that stage.
-  troubleshooting:
-    - problem: Peppers stay pale and wet
-      cause: Water on the skins or a crowded pan reduced direct hot-pan contact.
-      fix: >-
-        Spread them out and let surface water evaporate; next time dry
-        thoroughly and use smaller batches.
-  timing: >-
-    Allow roughly 7–15 minutes for washing, drying, heating and one batch. Each
-    additional batch adds several minutes; the original five-minute cooking
-    clock is a plan, not a limit.
-  storage: >-
-    Best served promptly for texture. Refrigerate leftovers in shallow
-    containers within 2 hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or
-    below. Use within 3–4 days; reheat the portion being served to 165°F / 74°C
-    throughout. Stored vegetables soften; crunchy toppings are best kept
-    separate when practical.
-  sources:
-    - title: Mise — original saved recipe
-      url: >-
-        https://github.com/jsilton/mise/blob/c96bd7ca149b6bb644b7d5f684c0c1b7ed04b234/src/content/recipes/blistered-shishito-peppers.md
-    - title: FDA — washing produce
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-    - title: USDA FSIS — leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: Lodge — oil smoking indicates excessive pan heat
-      url: >-
-        https://www.lodgecastiron.com/blogs/story/how-keep-food-sticking-cast-iron
+  substitutions:
+    - ingredient: Shishito peppers
+      alternative: Mini sweet peppers
+      effect: >-
+        Sweeter, thicker and never spicy. Cook them a few minutes longer, until blistered and just
+        soft.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Dry peppers and a single layer let the skins blister before the flesh becomes soft. Heat varies from pepper to pepper; a mild batch does not guarantee that every pepper is mild. Eat the peppers while hot, holding the stems and leaving them behind.
+Shishitos are small, thin-skinned Japanese peppers, a favorite bar snack in izakayas. Most are mild and sweet, and about one in ten brings real heat. A very hot, dry pan blisters the skins in a couple of minutes while the inside stays juicy.
 
 ## Directions
 
-1. **Prepare and heat:** Wash the whole peppers under running water and dry thoroughly. Keep their stems on. Heat a cast-iron skillet over medium-high to high heat until hot, following the pan instructions; visible smoke is not required.
-
-2. **Blister:** Use enough pan space for one loose layer. Divide the listed oil and peppers among batches if necessary. Add each batch’s oil, then the peppers. Leave undisturbed about 60–90 seconds until blistered and dark in spots, then toss and cook another 60–90 seconds. Continue briefly if needed until the skins have several blistered patches; reduce heat if oil smokes or peppers blacken all over.
-
-3. **Season:** Transfer to a serving plate. Squeeze the listed lemon wedge over the peppers and distribute all the measured flaky salt and sesame seeds over the whole batch.
-
-4. **Serve:** Serve promptly, picking peppers up by their stems and leaving the stems behind. Earlier batches soften while later ones cook.
+1. **Heat the pan:** Set a cast-iron skillet over high heat until very hot, about 2 minutes.
+2. **Blister the peppers:** Add the oil, then the peppers in a single layer. Leave them alone until the skins blister and char in spots, 60 to 90 seconds. Toss and cook until the second side blisters, 60 to 90 seconds more. Work in batches if they don't fit in one layer.
+3. **Season and serve:** Tip the peppers onto a plate. Squeeze the lemon over them and sprinkle with the salt and sesame seeds. Eat hot, holding them by the stems.

@@ -1,7 +1,7 @@
 ---
 miseId: 469feb54-1112-494d-a269-2f6e80588913
 title: Strawberry Summer Cake
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - bake
   - roast
@@ -27,102 +27,44 @@ cuisines:
 role: dessert
 vibe: technical
 prepTime: 15 min
-cookTime: 60-70 min
-totalTime: 75-85 min plus cooling
+cookTime: 1 hr 10 min
+totalTime: '1 hr 25 min, plus cooling'
 servings: '8'
 ingredients:
-  - '1 lb Fresh Strawberries, hulled and halved'
-  - 1 1/2 cups All-Purpose Flour
-  - 1 1/2 tsp Baking Powder
-  - '6 tbsp Unsalted Butter, room temp'
-  - 1 cup + 2 tbsp Granulated Sugar
-  - 1 large Egg
-  - 1/2 cup Whole Milk
-  - 1 tsp Pure Vanilla Extract
-  - 1/2 tsp Sea Salt
-  - 'Unsalted butter, as needed to grease the pan'
-  - 'Whipped cream, for serving, optional'
+  - '6 tbsp unsalted butter, softened, plus more for the pan'
+  - 1 cup granulated sugar
+  - 1 large egg
+  - 1/2 cup whole milk
+  - 1 tsp pure vanilla extract
+  - 1 1/2 cups all-purpose flour
+  - 1 1/2 tsp baking powder
+  - 1/2 tsp fine sea salt
+  - '1 lb fresh strawberries, hulled and halved'
+  - '2 tbsp granulated sugar, for the top'
+  - 'whipped cream, for serving (optional)'
 origin: United States
-pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - babys-first-smash-cake
-  - best-cinnamon-roll-recipe-cinnabon-copycat
-source: Adapted from smittenkitchen.com
+source: Adapted from Smitten Kitchen
 sourceUrl: 'https://smittenkitchen.com/2011/05/strawberry-summer-cake/'
 learning:
-  focus: Read baked cake crumb separately from juicy fruit
-  outcome: The cake is golden with tender cooked crumb around soft berries and no wet batter on a tester.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Use a 9-inch deep-dish pie pan; a standard shallow plate is too small. Soften the butter
-      before starting, dry the hulled berries and have all ingredients measured.
-    - >-
-      Reserve the topping sugar before creaming: it is one-ninth of the total measured sugar. Use
-      the remaining eight-ninths in the batter (2 tbsp topping and 1 cup batter sugar at the
-      original batch size).
-    - >-
-      Keep the original batch depth for predictable results. For double quantity use two matching
-      pans; do not pile a double batch into one. Smaller quantities need smaller pans and earlier
-      checking, rather than proportionally shorter baking times.
-  checkpoints:
-    - step: 1
-      cue: Butter and batter sugar become pale and fluffy.
-      why: >-
-        Creaming helps distribute air through the batter; melted butter does not produce the same
-        starting mixture.
-    - step: 3
-      cue: No dry flour remains; stop mixing once smooth.
-      why: Additional beating after flour is incorporated can toughen the crumb.
-    - step: 6
-      cue: Cake crumb on the tester has no wet batter; berry juice may remain.
-      why: Fruit stays juicy even when the surrounding cake is cooked.
-  troubleshooting:
-    - problem: Pan overflows
-      cause: A shallow pan or too much batter was used.
-      fix: >-
-        Use the stated deep pan and separate original-size batches. Put a baking sheet below to
-        catch drips if needed; spilled batter cannot be returned to the cake.
-    - problem: Cake crumb is wet though berries look cooked
-      cause: The tester sampled only fruit or the oven was cooler than expected.
-      fix: >-
-        Check cake crumb between berries and continue baking until wet batter is gone; shield a
-        darkening top loosely with foil if necessary.
-    - problem: Crumb is tough
-      cause: Flour was mixed too long after incorporation.
-      fix: Stop once smooth on the next batch. Extra baking cannot restore a tender crumb.
-  substitutions: []
-  timing: >-
-    Allow 75–85 minutes plus butter softening and cooling: about 15 minutes preparation, 10 minutes
-    baking at 350°F and another 50–60 minutes at 325°F. Judge cooked crumb rather than the clock.
-    The oven time is mostly unattended; mixing and berry arranging are hands-on.
-  storage: >-
-    Once cool, store the plain cake loosely covered at room temperature for up to 2 days. Serve
-    whipped cream separately; refrigerate cream and cream-topped portions promptly at 40°F / 4°C or
-    below, within 2 hours (1 hour above 90°F / 32°C).
-  sources:
-    - title: Adapted from smittenkitchen.com
-      url: 'https://smittenkitchen.com/2011/05/strawberry-summer-cake/'
-    - title: FDA — Egg cooking and prompt cold handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
+  storage: Keeps 2 days loosely covered at room temperature.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Cream the softened butter and batter sugar until fluffy, then mix only until the flour disappears. Arrange the berries over the batter and add the reserved topping sugar. Lower the oven temperature after ten minutes; test cake crumb between the berries so fruit juice is not mistaken for raw batter.
+Deb Perelman's strawberry summer cake sits somewhere between a cake and a cobbler. A thin vanilla batter bakes up around a whole layer of berries, which sink and turn jammy. Starting the oven hot and then turning it down lets the fruit release its juices slowly under a crisp, sugary top.
 
 ## Directions
 
-1.  **Cream:** Preheat oven to 350°F. Butter a 9-inch deep-dish pie pan with the extra greasing butter; a standard shallow 9-inch pie pan can overflow. Reserve one-ninth of the measured sugar for the topping. Beat butter and the remaining eight-ninths of the sugar (1 cup at the original batch size) for 3 minutes until pale and fluffy.
-2.  **Emulsify:** Add the egg, milk, and vanilla. Mix until just combined.
-3.  **Incorporate:** Whisk the flour, baking powder, and salt together, then gradually add this dry mixture. Mix until **just smooth** - do not over-mix.
-4.  **Layer:** Pour batter into the pan. Arrange strawberries on top, cut-side down, as closely as possible in a single layer; a little overlap is fine.
-5.  **The Crunch:** Sprinkle the reserved topping sugar (2 tbsp at the original batch size) over the berries.
-6.  **Bake:** Bake for 10 minutes at 350°F, then **reduce heat to 325°F**. Bake for another 50-60 minutes until golden and a tester inserted into cake crumb is free of wet batter; strawberry juice on the tester is expected.
-7.  **Serve:** Let cool completely in the pan. Serve with the optional lightly whipped cream.
+1. **Heat the oven:** Heat the oven to 350°F. Butter a 9-inch deep-dish pie pan. A standard pie plate is too shallow and will overflow.
+2. **Cream the butter:** Beat the butter with the granulated sugar, keeping the sugar for the top aside, until pale and fluffy, about 3 minutes.
+3. **Add the egg:** Beat in the egg, milk and vanilla until combined.
+4. **Add the flour:** Whisk the flour, baking powder and salt in a small bowl. Add to the batter and mix only until smooth.
+5. **Top with berries:** Spread the batter in the pan. Arrange the strawberries cut side down on top, as close together as you can fit them. Sprinkle the sugar for the top over the berries.
+6. **Bake:** Bake for 10 minutes, then lower the oven to 325°F. Bake until the cake is golden and a toothpick in the cake between the berries comes out free of wet batter, 50 to 60 minutes more. Berry juice on the toothpick is fine.
+7. **Cool and serve:** Let the cake cool in the pan. Cut into wedges and serve with whipped cream.

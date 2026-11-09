@@ -5,117 +5,62 @@ role: dessert
 vibe: comfort
 difficulty: easy
 prepTime: 15 min
-cookTime: 16–18 min
-totalTime: 'About 45 min including cooling, plus any remaining preheating'
-servings: '12 muffins, planning yield'
+cookTime: 18 min
+totalTime: 45 min
+servings: 12 muffins
 cookingMethods:
   - bake
 categories: []
-source: yummytoddlerfood.com
+source: Adapted from Yummy Toddler Food
 ingredients:
-  - 1 cup whole wheat flour
+  - 1 cup whole-wheat flour
   - 1/4 cup chocolate protein powder
-  - ¼ cup unsweetened cocoa powder
-  - 1 teaspoon cinnamon (optional)
-  - 1 teaspoon baking powder
-  - ½ teaspoon baking soda
-  - ½ teaspoon salt
-  - >-
-    1 cup grated zucchini, squeezed very dry and packed tightly (measure after grating and
-    squeezing)
+  - 1/4 cup unsweetened cocoa powder
+  - 1 tsp ground cinnamon (optional)
+  - 1 tsp baking powder
+  - 1/2 tsp baking soda
+  - 1/2 tsp salt
+  - '1 cup zucchini, grated, squeezed very dry and packed'
   - 1 cup milk
-  - ¼ cup honey or maple syrup
-  - 2 eggs (lightly beaten)
-  - '¼ cup unsalted butter (melted, or use canola or avocado oil)'
-  - 2 teaspoons vanilla extract
-  - ½ cup chocolate chips (or 1 cup blueberries or up to 1 cup chocolate chips)
-  - 'Nonstick spray or butter, for greasing the muffin pan'
+  - 1/4 cup maple syrup
+  - '2 large eggs, lightly beaten'
+  - '1/4 cup unsalted butter, melted and cooled'
+  - 2 tsp vanilla extract
+  - 1/2 cup chocolate chips
 sourceUrl: 'https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/'
 cuisines:
   - American
 learning:
-  focus: Measure squeezed zucchini and handle the separate protein batter
-  outcome: >-
-    The flour mixture is incorporated and the chips or berries are distributed without prolonged
-    beating. No wet batter remains on the center tester.
   techniques:
     - leavening
-  before:
-    - >-
-      Measure the listed zucchini amount only after squeezing very dry, then pack it tightly; this
-      preparation does not apply automatically to another zucchini batter.
-    - >-
-      Use the listed chocolate protein powder without replacing the full flour or adding extra
-      liquid by guesswork. Powder composition can change thickness and crumb.
-    - >-
-      Choose one fat and one chip/berry option. Honey is unsuitable below age one; do not taste raw
-      batter. Wash fresh berries and drain them before folding.
-  checkpoints:
-    - step: 4
-      cue: >-
-        The flour mixture is incorporated and the chips or berries are distributed without prolonged
-        beating.
-      why: >-
-        The separate protein-powder formula has its own absorption and texture; smooth color alone
-        does not show the batter is ready.
-    - step: 5
-      cue: No wet batter remains on the center tester.
-      why: >-
-        Protein powder and cocoa darken the crumb; chocolate smears should be distinguished from raw
-        batter.
-  troubleshooting:
-    - problem: Muffins are dry or dense.
-      cause: 'Protein-powder composition, prolonged stirring or overbaking can change the crumb.'
-      fix: >-
-        Fold briefly and stop baking when the center is set. Note the actual powder and result
-        before adjusting a later batch; a baked dry crumb cannot be restored to a light moist
-        muffin.
   substitutions:
     - ingredient: Unsalted butter
-      alternative: The listed canola or avocado oil amount
-      effect: Use one full fat choice in the wet mix; the oil version has a different buttery flavor.
+      alternative: Canola or avocado oil
+      effect: Use the same amount. The muffins are a little moister and less buttery.
+    - ingredient: Maple syrup
+      alternative: Honey
+      effect: Use the same amount. Honey tastes more floral.
     - ingredient: Chocolate chips
-      alternative: Listed blueberries or higher-chip choice
-      effect: >-
-        Use one listed scaled choice. Berries add juicy pockets; more chips add sweetness and
-        richness, with center checks still required.
-  timing: >-
-    The roughly 45-minute planning estimate includes 15 minutes of preparation, a 16–18-minute oven
-    batch and cooling to room temperature. Cooling duration is not measured. Start heating before
-    preparation; any remaining preheating and later oven batches extend elapsed time.
+      alternative: 1 cup blueberries
+      effect: Use them in place of the chips. Berries add juicy, tart pockets.
   storage: >-
-    Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of
-    baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer
-    storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently
-    warmed.
-  sources:
-    - title: Amy Palanjian — attributed recipe
-      url: 'https://www.yummytoddlerfood.com/chocolate-zucchini-muffins-with-blueberries/'
-    - title: FDA — safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — honey and infants
-      url: 'https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be'
-    - title: FDA — raw flour and batter
-      url: 'https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts'
-    - title: FDA — produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
+    Keeps 2 days at room temperature or 5 days in the fridge, and freezes for 3 months. Thaw at room
+    temperature.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Measure the listed zucchini amount after grating, squeezing very dry and packing it tightly. This cocoa-and-protein-powder batter is different from the buckwheat zucchini muffins; fold briefly and check the center rather than relying on dark color.
+These snack muffins get a little extra protein from chocolate protein powder. With cocoa and chocolate chips they taste like a brownie, and grated zucchini keeps them moist. Squeeze the zucchini very dry before you measure it so the centers bake through.
 
 ## Directions
 
-1. **Prepare:** Preheat the oven to 375°F. Grease a standard 12-cup muffin pan with the listed spray or butter. Grate zucchini, squeeze very dry in a clean towel, then measure the listed amount packed tightly.
-
-2. **Dry mix:** Whisk flour, chocolate protein powder, cocoa, optional cinnamon, baking powder, baking soda and salt together.
-
-3. **Wet mix:** Whisk squeezed zucchini, milk, the chosen honey or maple syrup, eggs, the chosen melted and slightly cooled butter or canola or avocado oil, and vanilla together.
-
-4. **Fold:** Fold the dry mixture into the wet just until no dry flour remains. Fold in the chosen chocolate chips or blueberries. The original 12-muffin batch uses ½ cup chips, or 1 cup blueberries, or up to 1 cup chips; follow the corresponding listed scaled choice and use only one.
-
-5. **Bake and cool:** Fill muffin cups no more than ¾ full, using extra cups or a later batch for excess batter. Bake about 16–18 minutes, until a center tester comes out without wet batter. Cool briefly in the pan, then transfer to a rack to cool to room temperature before storage.
+1. **Heat the oven:** Heat the oven to 375°F. Grease a 12-cup muffin pan with nonstick spray.
+2. **Mix the dry ingredients:** Whisk the flour, protein powder, cocoa, cinnamon, baking powder, baking soda and salt together in a bowl.
+3. **Mix the wet ingredients:** In a large bowl, whisk the zucchini, milk, maple syrup, eggs, melted butter and vanilla together.
+4. **Make the batter:** Fold the dry ingredients into the wet just until no dry flour remains. Fold in the chocolate chips.
+5. **Fill the cups:** Divide the batter among the cups, filling them about three-quarters full.
+6. **Bake the muffins:** Bake until a toothpick in the center comes out with no wet batter, 16 to 18 minutes.
+7. **Cool the muffins:** Cool the muffins in the pan for 5 minutes, then move them to a rack.

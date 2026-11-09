@@ -20,8 +20,8 @@ cuisines:
 role: main
 vibe: quick
 prepTime: 10 min
-cookTime: 15 min
-totalTime: 25 min
+cookTime: 10 min
+totalTime: 20 min
 servings: '4'
 seasons:
   - year-round
@@ -34,86 +34,52 @@ advancePrep:
   - use-day-old-rice
 pairsWith:
   - steamed-bok-choy-with-oyster-sauce
-  - garlic-sesame-spinach
+  - smashed-cucumber-salad
+pairingNotes:
+  steamed-bok-choy-with-oyster-sauce: Tender Cantonese greens beside the rice.
+  smashed-cucumber-salad: Cool, garlicky crunch against hot rice.
 ingredients:
-  - '3 cups (about 450 g) cooked rice, safely chilled and gently separated'
+  - '3 cups cooked jasmine rice, chilled overnight and broken into grains'
   - '4 large eggs, beaten'
-  - '2 cloves garlic, minced'
-  - '3 scallions, whites and greens separated and sliced'
-  - '1/2 cup frozen peas and diced carrots, thawed and drained'
-  - '1.5 tbsp soy sauce, plus more to taste'
+  - '2 garlic cloves, minced'
+  - '3 scallions, whites and greens sliced separately'
+  - '1/2 cup frozen peas and carrots, thawed'
+  - '1 1/2 tbsp soy sauce, plus more to taste'
   - 1 tsp toasted sesame oil
-  - '2 tbsp neutral oil, divided'
+  - 2 tbsp neutral oil
   - 1/4 tsp ground white pepper
-  - '1 tsp sesame seeds, optional'
+  - 1 tsp sesame seeds (optional)
 description: >-
-  Separate grains, tender egg, and a light savory coating. Learn how moisture and batch size shape a
-  home stir-fry.
+  Fluffy, separate grains of rice with soft scrambled egg, peas, carrots and scallions, seasoned with
+  soy, sesame oil and white pepper.
 learning:
-  focus: Control moisture and pan load
-  outcome: >-
-    Hot, distinct grains with tender egg and a light coating of seasoning, rather than wet rice or
-    crushed clumps.
   techniques:
     - stir-frying
     - starch
-  before:
-    - >-
-      This timing assumes already-cooked rice. Break up clumps gently and drain vegetables before
-      heating the pan.
-    - Use a large wok or 12-inch skillet; halve the final rice batch if it crowds your pan.
-  checkpoints:
-    - step: 3
-      cue: Rice moves freely and the pan keeps sizzling without pooled liquid.
-      why: A manageable pan load lets surface moisture evaporate instead of steaming the whole batch.
-    - step: 5
-      cue: Rice is steaming throughout and measures 165°F / 74°C in several places.
-      why: >-
-        Cold cooked rice needs thorough reheating; browning or sizzling at the pan surface is not
-        enough.
-  troubleshooting:
-    - problem: 'Sticky, mashed rice'
-      cause: 'The rice was overcooked, too wet, or crushed while separating.'
-      fix: >-
-        Toss gently and avoid adding more sauce. Next time use properly cooked, surface-dry grains;
-        day-old rice is helpful but not mandatory.
-    - problem: Rice is dry but cold in the middle
-      cause: Large refrigerator-cold clumps did not separate.
-      fix: >-
-        Break them gently with the spatula and continue cooking; check several spots reach 165°F /
-        74°C.
   substitutions:
-    - ingredient: Soy sauce
-      alternative: Gluten-free tamari
-      effect: Check the label and start with less if it tastes saltier.
-  timing: >-
-    25 minutes using cooked, chilled rice. Cooking and safely cooling a new batch adds time; it is
-    not included in the headline total.
+    - ingredient: cooked jasmine rice
+      alternative: Freshly cooked rice
+      effect: >-
+        Spread it on a tray and chill it uncovered for 30 minutes so the grains dry and fry instead
+        of steaming.
+    - ingredient: soy sauce
+      alternative: Tamari
+      effect: Makes the dish gluten-free. Tamari is a little saltier, so start with less.
   storage: >-
-    Use rice that was cooled promptly in shallow containers and refrigerated, never rice left on the
-    counter overnight. Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C),
-    at 40°F / 4°C or below. Use within 3–4 days and reheat leftovers to 165°F / 74°C.
-  sources:
-    - title: Exploratorium — How starch thickens sauces
-      url: 'https://annex.exploratorium.edu/cooking/icooks/3-24-03.html'
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 3 days in the fridge. Reheat in a hot skillet with a few drops of oil until steaming.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Fried rice is a flexible way to turn cooked rice into a new meal. What matters is the rice's texture and surface moisture, not its birthday: chilled rice is often easier to separate, while freshly cooked rice needs excess steam released and careful cooling first. A home burner also rewards smaller batches more than an overloaded, smoking-hot wok.
+Cantonese home cooking at its most thrifty: last night's rice turned into tonight's dinner. Cold, day-old rice has dried just enough to fry into separate, fluffy grains instead of steaming into a clump. Scramble the eggs first and fold them back in at the end so they stay soft.
 
 ## Directions
 
-1. **Prepare:** Gently separate the cold rice with clean fingers or a fork. Beat eggs. Drain thawed vegetables. Measure soy sauce and sesame oil separately; set out garlic, scallion whites, greens, and pepper.
-2. **Cook the eggs:** Heat a large wok or skillet over medium-high, then add 1 tbsp neutral oil. When shimmering, add eggs and stir until set with no liquid egg remaining. Transfer to a clean plate. Do not intentionally smoke oil or overheat empty nonstick cookware.
-3. **Fry the rice:** Add remaining oil and rice. Spread briefly, then toss and gently break remaining clumps. Cook 4–6 minutes, adjusting heat to maintain a sizzle. If liquid collects or the pan is crowded, work in two batches.
-4. **Add vegetables and aromatics:** Make space in the pan. Add garlic and scallion whites; stir for about 15 seconds until fragrant, then add drained vegetables. Toss for 1–2 minutes until vegetables are hot.
-5. **Season and heat through:** Return eggs. Add soy sauce around the rice and toss thoroughly. Continue until the rice is steaming throughout and reaches 165°F / 74°C in several spots. Add sesame oil and white pepper. Taste before adding more soy sauce.
-6. **Finish:** Fold in scallion greens and transfer to bowls. Add optional sesame seeds. Serve promptly.
+1. **Scramble the eggs:** Heat a wok or 12-inch skillet over medium-high heat and add half the oil. When it shimmers, add the eggs and stir until just set in soft curds, about 1 minute. Move them to a plate.
+2. **Fry the rice:** Add the rest of the oil and the rice. Toss, pressing out any clumps, until the grains are hot, separate and crackling against the pan, 4 to 6 minutes.
+3. **Add the aromatics:** Push the rice to one side. Add the garlic and scallion whites and stir until fragrant, about 15 seconds. Add the peas and carrots and toss everything until hot, 1 to 2 minutes.
+4. **Season:** Return the eggs. Drizzle the soy sauce around the edge of the pan, add the sesame oil and white pepper, and toss until the rice is evenly colored and steaming, about 1 minute. Taste and add more soy if needed.
+5. **Serve:** Fold in the scallion greens and sprinkle with sesame seeds.

@@ -24,28 +24,27 @@ flavorProfile:
   - rich
 cuisines:
   - American
-role: base
-vibe: quick
-prepTime: 5 min
-cookTime: 20–25 min
-totalTime: '25–30 min, plus cooling and any remaining preheating'
+role: main
+vibe: nutritious
+prepTime: 10 min
+cookTime: 25 min
+totalTime: '35 min, plus 1 hr cooling'
 servings: 9 pieces
 pairsWith:
-  - blueberry-banana-pancake-muffins
-  - blueberry-oat-breakfast-bars
-  - freezer-date-cookies
+  - green-smoothie-for-kids-with-2-hidden-veggies
+pairingNotes:
+  green-smoothie-for-kids-with-2-hidden-veggies: Fruit and greens for a grab-and-go breakfast.
 ingredients:
-  - '--- Breakfast bars ---'
-  - '3/4 cup cooked quinoa, chilled; prepared and cooled ahead'
+  - '3/4 cup cooked quinoa, chilled'
   - 1 1/2 cups old-fashioned rolled oats
-  - '1 cup fresh strawberries, wash, remove tops and chop before measuring'
-  - '2 large ripe bananas, peeled and mashed'
+  - '1 cup fresh strawberries, hulled and chopped'
+  - 2 large ripe bananas
   - 2 large eggs
   - 1/4 cup raisins or golden raisins
   - 1/2 tsp pure vanilla extract
   - 'sea salt, a pinch'
-source: Adapted from Myfussyeater.com
-sourceUrl: 'http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/'
+source: Adapted from My Fussy Eater
+sourceUrl: 'https://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/'
 formula:
   version: 1
   yield:
@@ -64,7 +63,7 @@ formula:
           uses:
             - step: grain
               share: 1
-          preparation: chilled; prepared and cooled ahead
+          preparation: chilled
         - id: oats
           key: oats
           name: old-fashioned rolled oats
@@ -83,7 +82,7 @@ formula:
           uses:
             - step: fruit
               share: 1
-          preparation: 'wash, remove tops and chop before measuring'
+          preparation: hulled and chopped
         - id: banana
           key: banana
           name: large ripe banana
@@ -94,7 +93,6 @@ formula:
             - step: wet
               share: 1
           plural: large ripe bananas
-          preparation: peeled and mashed
         - id: egg
           key: egg
           name: large egg
@@ -132,145 +130,50 @@ formula:
               share: 1
   steps:
     - id: prep
-      title: Prepare
-      text: >-
-        Preheat the oven to 350°F. Line an 8×8-inch baking dish with parchment
-        for the original batch. Start with cooked, chilled quinoa; boiling and
-        chilling it from dry are additional preparation. Use proportional pan
-        area or additional dishes for scaled batches, keeping similar layer
-        thickness.
+      title: Heat the oven
+      text: Heat the oven to 350°F. Line an 8x8-inch baking dish with parchment.
     - id: wet
-      title: Mix bananas and eggs
+      title: Mash the bananas
       text: >-
-        Combine {{ingredients}} in a bowl, mashing the bananas before stirring
-        the eggs and vanilla through them.
+        Put {{ingredients}} in a large bowl. Mash the bananas until smooth, then whisk in the eggs
+        and vanilla.
     - id: grain
-      title: Add grains and raisins
-      text: 'Stir in {{ingredients}}, including the salt, until evenly distributed.'
+      title: Stir in the oats
+      text: 'Stir in {{ingredients}} until evenly mixed.'
     - id: fruit
-      title: Fold in strawberries
-      text: >-
-        Gently stir in {{ingredients}} so the pieces are distributed throughout
-        without mashing them.
+      title: Fold in the berries
+      text: 'Gently fold in {{ingredients}} without mashing them.'
     - id: bake
-      title: Fill and bake
+      title: Bake
       text: >-
-        Spread evenly in the prepared dish and level the surface. Wait until the
-        oven reaches 350°F. Bake for 20–25 minutes, until the center is firm to
-        touch and no loose raw mixture remains. Check the center with a
-        thermometer for 160°F / 71°C as well; changed depth or oven loads may
-        take longer.
+        Spread the mixture in the dish and press it into a flat, even layer. Bake until the center
+        is firm to the touch and the edges are golden, 20 to 25 minutes.
     - id: cool
-      title: 'Set, chill and cut'
+      title: Cool and cut
       text: >-
-        Let the bars firm enough to handle, then refrigerate promptly in a
-        shallow dish or shallow containers, within 2 hours of baking or 1 hour
-        above 90°F / 32°C. Finish cooling in the refrigerator rather than
-        waiting indefinitely for complete cooling at room temperature. Once cool
-        and firm, cut into portions; the original batch plans nine squares.
+        Cool completely in the pan so the bars hold together, about 1 hour. Lift out by the
+        parchment and cut into squares.
 learning:
-  focus: >-
-    Using prepared quinoa in an evenly set fruit-and-egg grain bar and cooling
-    it promptly.
-  outcome: >-
-    Firm-centered bars with distributed strawberries that cut after cooling and
-    remain refrigerated.
   techniques:
     - temperature
     - cold-preparation
-  before:
-    - >-
-      The original 8×8-inch dish and nine squares are original-batch planning
-      context. Use proportional pan area or additional dishes so a scaled layer
-      is not much deeper.
-    - >-
-      Have cooked, safely cooled quinoa ready before starting; the five-minute
-      prep allowance does not include cooking and chilling quinoa. Wash and chop
-      strawberries before measuring.
-    - >-
-      Do not taste the raw egg mixture. Wash hands and tools after handling raw
-      eggs.
-  checkpoints:
-    - step: 3
-      cue: 'Cooked quinoa, oats, raisins and salt are evenly dispersed.'
-      why: >-
-        An unused salt allowance or clumps of grain leave uneven flavor and
-        texture.
-    - step: 5
-      cue: 'The center is firm with no loose raw mixture, and measures 160°F / 71°C.'
-      why: >-
-        The egg-containing grain center needs more than edge color; the
-        thermometer check supplements the written firmness cue.
-    - step: 6
-      cue: Bars are in shallow refrigerated cooling within the handling limit.
-      why: >-
-        Waiting for complete counter cooling can extend warm holding
-        unnecessarily.
-  troubleshooting:
-    - problem: Bars remain loose or crumble when cut.
-      cause: 'The layer is underbaked, much deeper or still warm.'
-      fix: >-
-        Continue baking to the center endpoint and let the bars finish cooling
-        before cutting; retain the full oats and fruit amounts.
-    - problem: The preparation takes longer than the listed subtotal.
-      cause: >-
-        Quinoa was started dry, the oven was cold or another dish/load was
-        needed.
-      fix: >-
-        Prepare and chill the quinoa ahead and include actual oven heating,
-        cooling and extra loads in the plan.
-  substitutions:
-    - ingredient: Raisins
-      alternative: Same listed amount of golden raisins
-      effect: 'An exclusive full replacement, with no extra sugar or liquid.'
   storage: >-
-    Keep prepared quinoa and cooled bars at 40°F / 4°C or below. Refrigerate
-    promptly in shallow containers within 2 hours, or 1 hour above 90°F / 32°C;
-    use within 3–4 days, accounting for the quinoa’s earlier storage time. Serve
-    cold, or reheat stored bars to 165°F / 74°C in the center.
-  timing: >-
-    Five minutes preparation from already cooked chilled quinoa plus 20–25
-    minutes baking gives a 25–30 minute subtotal. Any oven heating still needed
-    before loading and cooling for cutting add time. Dry-quinoa cooking/chilling
-    and larger or multiple dishes are additional; the nine-square cut count is
-    planning, not measured finished yield.
-  sources:
-    - title: My Fussy Eater — exact saved complete recipe attribution
-      url: 'http://www.myfussyeater.com/strawberry-quinoa-breakfast-bars/'
-    - title: 'FDA — egg dishes, produce and prompt shallow cooling'
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FoodSafety.gov — egg dishes and separate leftover endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: USDA — cooked-leftover storage working limit
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 2 months. Eat them cold or warm them briefly in the
+    microwave.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Cooked quinoa, oats, bananas and eggs form a moist base around the strawberry pieces. Start with prepared chilled quinoa, distribute the fruit gently and keep the layer thickness similar when changing batch size. Let the bars firm before cutting, then chill them promptly rather than leaving a thick egg-and-grain bake out to finish cooling.
+Soft, banana-sweet breakfast bars studded with strawberries. Cooked quinoa keeps the oats moist and adds protein, and mashed banana and eggs bind it all without added sugar. Let them cool all the way in the pan, or they crumble when you cut them.
 
 ## Directions
 
-1. **Prepare:** Preheat the oven to 350°F. Line an 8×8-inch baking dish with parchment for the original batch. Start with cooked, chilled quinoa; boiling and chilling it from dry are additional preparation. Use proportional pan area or additional dishes for scaled batches, keeping similar layer thickness.
-2. **Mix bananas and eggs:** Combine large ripe bananas, large eggs, and pure vanilla extract in a bowl, mashing the bananas before stirring the eggs and vanilla through them.
-3. **Add grains and raisins:** Stir in cooked quinoa, old-fashioned rolled oats, raisins or golden raisins, and sea salt, including the salt, until evenly distributed.
-4. **Fold in strawberries:** Gently stir in fresh strawberries so the pieces are distributed throughout without mashing them.
-5. **Fill and bake:** Spread evenly in the prepared dish and level the surface. Wait until the oven reaches 350°F. Bake for 20–25 minutes, until the center is firm to touch and no loose raw mixture remains. Check the center with a thermometer for 160°F / 71°C as well; changed depth or oven loads may take longer.
-6. **Set, chill and cut:** Let the bars firm enough to handle, then refrigerate promptly in a shallow dish or shallow containers, within 2 hours of baking or 1 hour above 90°F / 32°C. Finish cooling in the refrigerator rather than waiting indefinitely for complete cooling at room temperature. Once cool and firm, cut into portions; the original batch plans nine squares.
-
-## Cooking Notes
-
-### Starting ingredients and keeping
-
-The listed quinoa is cooked and chilled, not dry quinoa. Refrigerate cooked quinoa promptly in shallow containers when preparing it ahead, within 2 hours or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use it within 3–4 days of cooking, including the time held before the bars are made; rebaking does not reset its storage history.
-
-Keep cooled bars covered at 40°F / 4°C or below and use within 3–4 days of baking, sooner if the starting quinoa is already near its storage limit. They may be served cold. If reheating stored bars, heat their centers to 165°F / 74°C; that leftover endpoint is separate from the initial bake. Raisins or golden raisins are an exclusive choice at their full listed amount.
-
-### Separate ingredient-size option
-
-For the original nine-square batch, another complete version uses 2 ripe bananas of unspecified size, 2 medium eggs, ½ tsp vanilla, 100 g cooked quinoa, 150 g rolled oats, 30 g raisins and 100 g chopped strawberries, without the salt pinch. It uses the same original 8×8-inch dish and 350°F oven, with a 20–25-minute reference; use the main firm-center and 160°F / 71°C checks. Scale this entire ingredient set together rather than combining its weights with the large-egg and large-banana recipe. Different banana and egg sizes can change layer depth and baking time; the weights have not been measured as equivalents for the current ingredient sizes. Keep the same prompt cooling and refrigerated handling.
+1. **Heat the oven:** Heat the oven to 350°F. Line an 8x8-inch baking dish with parchment.
+2. **Mash the bananas:** Put large ripe bananas, large eggs, and pure vanilla extract in a large bowl. Mash the bananas until smooth, then whisk in the eggs and vanilla.
+3. **Stir in the oats:** Stir in cooked quinoa, old-fashioned rolled oats, raisins or golden raisins, and sea salt until evenly mixed.
+4. **Fold in the berries:** Gently fold in fresh strawberries without mashing them.
+5. **Bake:** Spread the mixture in the dish and press it into a flat, even layer. Bake until the center is firm to the touch and the edges are golden, 20 to 25 minutes.
+6. **Cool and cut:** Cool completely in the pan so the bars hold together, about 1 hour. Lift out by the parchment and cut into squares.

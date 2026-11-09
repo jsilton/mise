@@ -14,124 +14,65 @@ cuisines:
   - American
 role: main
 vibe: comfort
-prepTime: About 15–25 min active
-cookTime: 'About 8 hr LOW or 4–5 hr HIGH, plus broiling'
-totalTime: About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH
+prepTime: 25 min
+cookTime: 8 hr
+totalTime: 8 hr 25 min
 servings: '6'
 advancePrep:
   - slow-cook
 pairsWith:
-  - avocado-kale-caesar-salad
-  - warm-roasted-veggie-salad-with-maple-dijon-vinaigrette
   - coleslaw
+  - avocado-kale-caesar-salad
+pairingNotes:
+  coleslaw: Cool, creamy crunch beside the rich beef.
+  avocado-kale-caesar-salad: A crisp, tangy salad to balance the sandwich.
 ingredients:
-  - 3 lb Beef Chuck Roast
-  - '1 large Yellow Onion, sliced'
-  - '4 cloves Garlic, minced'
-  - 2 cups Beef Stock (Low sodium)
-  - 1/2 cup Soy Sauce (The umami secret)
-  - 1 tbsp Worcestershire Sauce
-  - 1 tsp Dried Rosemary
-  - 6 Hoagie Rolls or Baguette pieces
-  - 6 slices Provolone Cheese
-  - 'Oil, as needed for optional searing'
+  - 3 lb beef chuck roast
+  - 1 tbsp neutral oil
+  - '1 large yellow onion, sliced'
+  - '4 cloves garlic, minced'
+  - 2 cups low-sodium beef stock
+  - 1/2 cup soy sauce
+  - 1 tbsp Worcestershire sauce
+  - 1 tsp dried rosemary
+  - 6 hoagie rolls
+  - 6 slices provolone cheese
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 equipment:
   - slow-cooker
-  - optional-skillet
+  - skillet
   - sieve
   - cutting-board
   - broiler-safe-pan
-  - food-thermometer
 learning:
-  focus: Cook chuck until it pulls apart and keep the jus hot
-  outcome: 'Tender beef on toasted provolone rolls, with soy-rich dipping liquid.'
   techniques:
     - braising
-    - temperature
-  before:
-    - >-
-      Check the actual cooker’s instructions for its permitted food load, liquid
-      requirements and meat size. Follow your cooker’s stated minimum and
-      maximum fill limits. When scaling, choose suitable cooker capacity or
-      separate appropriately filled cookers, and divide all measured ingredients
-      across them. Cooking times do not multiply with portions. Keep the lid
-      closed except for necessary additions and doneness checks; cook on LOW or
-      HIGH, not WARM.
-    - >-
-      Keep meat/poultry fully thawed and refrigerated until preparation; start
-      promptly without a delayed timer.
-  checkpoints:
-    - step: 3
-      cue: 'Beef pulls apart easily, beyond merely reaching the safety minimum.'
-      why: Chuck tenderness depends on connective-tissue breakdown.
-    - step: 5
-      cue: Cheese bubbles and bread toasts without blackening.
-      why: Broilers and bread-to-element distance vary.
-  troubleshooting:
-    - problem: The roast is cooked to its minimum temperature but still tough.
-      cause: The chuck has not cooked long enough for pulling.
-      fix: >-
-        Continue covered cooking and check tenderness again rather than slice it
-        because the clock expired.
+    - browning
+  substitutions:
+    - ingredient: hoagie rolls
+      alternative: Baguette
+      effect: Cut it into 6 pieces. The crust is crisper and holds up well to dipping.
   storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F / 4°C or below,
-    within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on
-    the stove, in the microwave or oven outside the slow cooker, stirring or
-    turning as appropriate for even heating and checking 165°F / 74°C
-    throughout; do not use the slow cooker to reheat cold leftovers. For
-    leftover jus, USDA additionally recommends bringing it to a rolling boil;
-    stir and keep the boil brief, since prolonged boiling concentrates the jus.
-    If holding cooked food in the cooker, maintain at least 140°F / 60°C and
-    follow its holding instructions.
-  timing: >-
-    About 8 hr 30 min LOW or 4 hr 30 min–5 hr 30 min HIGH includes preparation
-    and finishing; heat-up is part of the slow-cooker window, not active
-    attendance. Thawing is additional and larger loads can take longer.
-  sources:
-    - title: USDA — Slow cookers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety
-    - title: 'USDA — Slow cooker guidance, retained government PDF'
-      url: >-
-        https://www.govinfo.gov/content/pkg/GOVPUB-A110-PURL-gpo30229/pdf/GOVPUB-A110-PURL-gpo30229.pdf
-    - title: 'Crock-Pot — Model SCVCS603S manual, fill and operating example'
-      url: >-
-        https://www.crock-pot.ca/on/demandware.static/-/Sites-crock-pot-ca-Library/default/dw9e26d449/documents/instruction-manuals/SCVCS603S-033_EN.pdf
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Store the beef in its jus for 4 days in the fridge or freeze it for 3 months. Reheat gently on
+    the stove.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Chuck needs time to become easy to pull apart. The broth, soy sauce, Worcestershire and rosemary make the dipping liquid; keep all their measured quantities. Searing is optional and adds browned flavor when there is time. Assemble and broil close to serving so the bread stays firm enough for dipping.
+The French dip comes from the old Los Angeles delis, where thin-sliced roast beef on a soft roll gets dunked in its own cooking juices. Here a chuck roast cooks all day in the slow cooker. Soy sauce and Worcestershire turn the broth into a dark, deeply savory jus, so every dip tastes like it simmered for days.
 
 ## Directions
 
-1. **Prepare and optionally sear:** Start with fully thawed beef, kept refrigerated until preparation. Check the cooker’s capacity and meat-size instructions. If searing, brown the roast on all sides in a hot skillet with the optional oil allowance, then transfer immediately to the cooker to continue cooking. Otherwise place the roast directly in the cooker.
-
-2. **Combine:** Add all the sliced onion, garlic, measured stock, soy sauce, Worcestershire and rosemary. Cover and start cooking promptly; do not use a delayed start.
-
-3. **Cook until tender:** Cook on LOW for about 8 hours or HIGH for about 4–5 hours as planning ranges, until the beef pulls apart with a fork. Check that the roast has reached at least 145°F / 63°C with a three-minute rest before serving; shreddable chuck usually needs substantially more cooking than that minimum. Continue if it remains tough.
-
-4. **Shred and strain:** Remove the cooked beef to a clean board and shred into large chunks, or slice thinly if preferred. Strain the cooking liquid into a heatproof vessel and keep it hot for dipping. The softened onions can be served with the beef if wanted rather than discarded automatically.
-
-5. **Assemble and broil:** Split the listed rolls or baguette pieces and distribute the beef and measured provolone among them. Put them on a broiler-safe pan, keeping within the actual oven instructions. Broil about 1–2 minutes as a first check, watching continuously until the cheese bubbles and the bread toasts; remove individual sandwiches if ready sooner.
-
-6. **Serve:** Divide the hot jus among individual dipping bowls and serve promptly.
-
-## Cooking Notes
-
-Check the actual cooker’s instructions for its permitted food load, liquid requirements and meat size. Follow your cooker’s stated minimum and maximum fill limits. When scaling, choose suitable cooker capacity or separate appropriately filled cookers, and divide all measured ingredients across them. Cooking times do not multiply with portions. Keep the lid closed except for necessary additions and doneness checks; cook on LOW or HIGH, not WARM.
-
-Refrigerate promptly in shallow covered containers at 40°F / 4°C or below, within 2 hours (1 hour above 90°F / 32°C). Use within 3–4 days. Reheat on the stove, in the microwave or oven outside the slow cooker, stirring or turning as appropriate for even heating and checking 165°F / 74°C throughout; do not use the slow cooker to reheat cold leftovers. For leftover jus, USDA additionally recommends bringing it to a rolling boil; stir and keep the boil brief, since prolonged boiling concentrates the jus. If holding cooked food in the cooker, maintain at least 140°F / 60°C and follow its holding instructions.
+1. **Sear the roast:** Pat the roast dry. Heat the oil in a large skillet over medium-high heat until it shimmers. Sear the roast until deeply browned on all sides, 8 to 10 minutes, then move it to the slow cooker.
+2. **Deglaze the skillet:** Pour a splash of the stock into the hot skillet and scrape up the browned bits. Pour it over the roast.
+3. **Slow cook:** Add the onion, garlic, the rest of the stock, soy sauce, Worcestershire and rosemary to the cooker. Cover and cook on LOW until the beef pulls apart easily with a fork, about 8 hours, or on HIGH for 4 to 5 hours.
+4. **Shred the beef:** Move the beef to a cutting board and pull it into large chunks, or slice it thin. Keep the soft onions to pile on with the beef.
+5. **Strain the jus:** Strain the cooking liquid through a sieve into a saucepan and skim the fat from the top. Keep it hot over low heat.
+6. **Broil the sandwiches:** Heat the broiler. Split the rolls, pile on the beef and onions, top each with provolone and set them on a broiler-safe pan. Broil, watching closely, until the cheese bubbles and the bread toasts at the edges, 1 to 2 minutes.
+7. **Serve with the jus:** Ladle the hot jus into small bowls and serve it alongside for dipping.

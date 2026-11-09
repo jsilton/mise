@@ -29,34 +29,38 @@ vibe: technical
 prepTime: 45 min
 cookTime: 1 hr 15 min
 totalTime: 3 hr
-servings: 8 slices (one deep 9-inch pie)
+servings: 8 slices
 pairsWith:
   - everyday-arugula-salad
+  - roasted-brussels-sprouts-with-balsamic
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon against rich pastry.
+  roasted-brussels-sprouts-with-balsamic: A sharp, browned vegetable for a winter table.
 ingredients:
   - '--- Double crust ---'
-  - '300 g all-purpose flour, plus a little for rolling'
-  - '225 g cold unsalted butter, cut into 1/2-inch cubes'
+  - '2 1/2 cups (300 g) all-purpose flour, plus more for rolling'
   - 1/2 tsp fine salt
-  - '100–120 ml ice-cold water, added only as needed'
+  - '1 cup (2 sticks) cold unsalted butter, cut into 1/2-inch cubes'
+  - 7–8 tbsp ice water
   - '--- Filling ---'
-  - '450 g cooked boneless chicken, chilled and cut into bite-size pieces (weight after cooking)'
-  - '100 g carrots, cut into 1/4-inch dice'
-  - '100 g yellow onion, finely diced'
-  - '50 g celery, cut into 1/4-inch dice'
-  - 100 g frozen peas
-  - 56 g unsalted butter
-  - 45 g all-purpose flour
-  - 1 3/4 cups (420 ml) low-sodium chicken broth
-  - 2/3 cup (160 ml) whole milk
+  - 4 tbsp unsalted butter
+  - '1 small yellow onion, finely diced'
+  - '2 medium carrots, cut into 1/4-inch dice'
+  - '1 rib celery, cut into 1/4-inch dice'
+  - 1/3 cup (45 g) all-purpose flour
   - 1/2 tsp garlic powder
   - 1/4 tsp celery seed
-  - '3/4 tsp fine salt, plus up to 1/4 tsp more to taste'
-  - 1/2 tsp ground black pepper
+  - '3/4 tsp fine salt, plus more to taste'
+  - 1/2 tsp black pepper
+  - 1 3/4 cups low-sodium chicken broth
+  - 2/3 cup whole milk
+  - '1 lb (3 cups) cooked boneless chicken, cut into bite-size pieces'
+  - 2/3 cup frozen peas
   - '--- Finish ---'
-  - '1 large egg, beaten, for brushing'
+  - '1 large egg, beaten'
 description: >-
-  A double-crust chicken pie with tender vegetables, a measured milk-and-stock gravy, and cold
-  butter pastry made from scratch.
+  A double-crust chicken pie with tender vegetables in a creamy gravy, under a flaky butter pastry
+  made from scratch.
 equipment:
   - deep-9-inch-metal-pie-pan
   - rimmed-baking-sheet
@@ -64,105 +68,42 @@ equipment:
   - large-saucepan
   - instant-read-thermometer
 learning:
-  focus: Keep pastry cold and filling thick enough to support it
-  outcome: >-
-    Golden layered pastry surrounding moist chicken and tender vegetables in a gravy that settles
-    after slicing.
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Start with 450 g already-cooked chicken, weighed after removing skin and bones. Cooking that
-      chicken is a separate preparation; raw chicken cannot be folded into this filling.
-    - >-
-      Use a deep 9-inch metal pie pan with at least 7 cups (1.65 liters) capacity. A shallow pie
-      plate will not hold this batch. Scaling ingredients requires changing the number or size of
-      pies; baking time does not scale directly.
-    - >-
-      Allow about three hours for scratch pastry, chilling, filling preparation, assembly, baking,
-      and resting. Filling preparation overlaps the dough chill.
-  checkpoints:
-    - step: 1
-      cue: >-
-        A squeezed handful of dough holds together, with visible flattened butter pieces and no wet
-        paste.
-      why: >-
-        Enough water connects the dough; keeping some butter in separate pieces helps produce flaky
-        layers.
-    - step: 3
-      cue: Carrot dice are almost tender before the flour goes in.
-      why: >-
-        Vegetables surrounded by thick gravy cook less predictably than small pieces softened first
-        in the pan.
-    - step: 4
-      cue: Gravy coats a spoon and a stirred track closes slowly.
-      why: >-
-        Heating hydrated flour thickens the liquid. Cooling and resting help the filling hold
-        together, but a watery gravy will still make a wet pie.
-    - step: 7
-      cue: Pastry is deeply golden and the center of the filling reaches 165°F / 74°C.
-      why: A browned lid alone does not show whether the cold center has heated through.
-  troubleshooting:
-    - problem: Pastry becomes sticky while rolling
-      cause: The butter has warmed or the surface is under-floured.
-      fix: >-
-        Slide dough onto a tray and refrigerate until firm. Use only enough rolling flour to prevent
-        sticking.
-    - problem: Top browns before the center is hot
-      cause: The filling started very cold or the oven browns strongly from above.
-      fix: >-
-        Cover the browned areas loosely with foil and continue baking until the center reaches 165°F
-        / 74°C.
-    - problem: Bottom crust is pale
-      cause: The pan received too little direct heat or the filling was too wet.
-      fix: >-
-        Use the lower oven rack and a preheated metal sheet as directed. Next time verify gravy
-        thickness before chilling; do not fill raw pastry with hot gravy.
   substitutions:
-    - ingredient: Scratch pastry
-      alternative: Enough ready-made unsweetened pie dough for a deep 9-inch double-crust pie
+    - ingredient: Cooked boneless chicken
+      alternative: Rotisserie chicken
       effect: >-
-        Follow its handling instructions and check that it is large enough for this pan. A shallow
-        frozen shell is not an equivalent container.
-  timing: >-
-    About three hours with already-cooked chicken. Make dough first; cook and cool the filling
-    during its one-hour chill. Baking takes about 50–65 minutes and the pie rests 20 minutes before
-    slicing.
+        Pull the meat and leave out the skin. It is saltier, so taste the gravy before adding more
+        salt.
+    - ingredient: Double crust
+      alternative: Two store-bought 9-inch pie crusts
+      effect: >-
+        Faster and a little less flaky. Roll each one slightly larger so it fits a deep pan.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Cut remaining pie into portions
-    for prompt cooling. Reheat portions in a 350°F / 175°C oven, loosely covered if needed, until
-    the center reaches 165°F / 74°C. Pastry loses crispness in storage.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: King Arthur Baking — Pie pastry handling
-      url: 'https://www.kingarthurbaking.com/learn/guides/pie-crust'
-    - title: King Arthur Baking — Pie pans and bottom-crust browning
-      url: 'https://www.kingarthurbaking.com/learn/pie'
-    - title: FDA — Flour is a raw food
-      url: 'https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts'
+    Keeps 4 days in the fridge. Reheat slices in a 350°F oven, loosely covered, until hot in the
+    center.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from Allrecipes.com
-sourceUrl: 'http://allrecipes.com/recipe/26317/chicken-pot-pie-ix/'
+    date: '2026-11-09'
+source: Adapted from Allrecipes
+sourceUrl: 'https://www.allrecipes.com/recipe/26317/chicken-pot-pie-ix/'
 ---
 
 ## Chef's Note
 
-A pot pie asks the pastry and filling to do different jobs. The filling should already contain tender vegetables and a thickened gravy; the oven then bakes the crust and reheats the center. Keep the filling cool enough that it cannot melt the butter in the raw pastry. This version includes its own savory dough rather than sending you through a dessert recipe.
+Chicken pot pie is American comfort food descended from English savory pies. The filling is a simple gravy of butter, flour, broth and milk around chicken and vegetables, sealed in flaky homemade pastry. Cool the filling before it meets the raw dough, and bake the pie on a hot sheet so the bottom crust browns.
 
 ## Directions
 
-1. **Make pastry:** Mix the 300 g flour and pastry salt in a bowl. Work in cold butter with fingertips or a pastry cutter, leaving a mixture of crumbs and flattened pea-size butter pieces. Toss with 100 ml ice water. Squeeze a handful: if it falls apart, add the remaining water a teaspoon at a time just until it holds. Bring together without kneading smooth. Divide into two discs, one slightly larger for the bottom, wrap, and refrigerate for at least 1 hour. Do not taste raw dough.
-2. **Prepare filling ingredients:** While the dough chills, cut carrots and celery into small, even dice. Keep the cooked chicken refrigerated until needed. Measure the filling flour separately from any flour used for pastry or rolling.
-3. **Soften vegetables:** Melt filling butter in a large saucepan over medium heat. Add onion, carrots, and celery; cook, stirring, about 10–12 minutes until onion is soft and carrot is almost tender. Lower the heat if vegetables begin to brown rapidly.
-4. **Thicken gravy:** Stir in the 45 g flour, garlic powder, celery seed, salt, and pepper. Cook and stir for 1 minute. Gradually stir in broth, then milk, scraping the bottom and dispersing the flour mixture. Bring to a gentle simmer and cook about 3 minutes, stirring, until thick enough to coat a spoon. Taste the gravy and add up to 1/4 tsp more salt if it tastes flat (use less if the cooked chicken was already well salted, such as rotisserie chicken). Fold in chicken and frozen peas, then spread the filling in a shallow heatproof dish to release heat. Refrigerate promptly until cool, about 30–45 minutes in a shallow layer; do not leave it out for the whole dough chill.
-5. **Heat oven and roll:** Put a sturdy rimmed metal baking sheet on the lower rack and preheat to 425°F / 220°C. On a lightly floured surface, roll the larger dough disc to about a 13-inch circle, roughly 1/8 inch thick. Ease into a deep 9-inch metal pie pan without stretching. Roll the second disc to about 12 inches. If either becomes soft, refrigerate briefly before continuing.
-6. **Fill and seal:** Spoon cool filling into the lined pan, keeping it below the rim. If your pan cannot hold it, bake excess separately in a small ovenproof dish to 165°F / 74°C. Lay on the top crust, trim to about 1/2 inch beyond the rim, fold the edges together, and crimp. Cut four generous vents in the lid. Brush lightly with beaten egg; discard the remainder. Refrigerate the assembled pie for 10 minutes if the pastry has softened.
-7. **Bake through:** Place the metal pie pan on the hot baking sheet. Bake 20 minutes at 425°F / 220°C, then reduce to 375°F / 190°C and bake about 30–45 minutes longer. Shield darkening edges with foil as needed. The pastry should be deeply golden and filling should bubble through the vents; also insert a thermometer through a central vent to verify 165°F / 74°C in the middle. Continue baking, loosely covered if necessary, until that endpoint is reached.
-8. **Rest and serve:** Rest on a rack for 20 minutes, then cut into eight slices. The gravy will settle but remain soft rather than forming a firm slab. A lightly dressed green salad complements the rich pastry.
+1. **Make the pastry:** Mix the flour and salt in a bowl. Work in the cold butter with your fingertips or a pastry cutter until it looks like coarse crumbs with some flattened pea-size pieces. Toss in most of the ice water, then add the rest a teaspoon at a time until a squeezed handful holds together.
+2. **Chill the dough:** Press the dough into two discs, one slightly larger for the bottom. Wrap them and refrigerate for at least 1 hour.
+3. **Soften the vegetables:** While the dough chills, melt the butter in a large saucepan over medium heat. Add the onion, carrots and celery and cook, stirring, until the onion is soft and the carrots are almost tender, 10 to 12 minutes.
+4. **Make the gravy:** Stir in the flour, garlic powder, celery seed, salt and pepper and cook for 1 minute. Slowly stir in the broth, then the milk, scraping the bottom of the pan. Simmer, stirring, until the gravy coats a spoon, about 3 minutes. Taste and add more salt if it tastes flat.
+5. **Cool the filling:** Fold in the chicken and peas. Spread the filling in a shallow dish and refrigerate until cool, 30 to 45 minutes.
+6. **Heat the oven:** Set a rimmed metal baking sheet on the lowest rack and heat the oven to 425°F.
+7. **Roll the crusts:** On a lightly floured counter, roll the larger disc into a 13-inch circle about 1/8 inch thick. Ease it into a deep 9-inch metal pie pan without stretching it. Roll the second disc into a 12-inch circle. Chill the dough for a few minutes if it turns soft.
+8. **Fill and seal:** Spoon the cool filling into the crust, keeping it below the rim. Lay the top crust over it, trim the edges to 1/2 inch beyond the rim, fold them under and crimp. Cut four vents in the top and brush it with the egg.
+9. **Bake the pie:** Set the pie on the hot baking sheet and bake for 20 minutes. Lower the oven to 375°F and bake until the crust is deep golden, the filling bubbles through the vents and the center reaches 165°F, 30 to 45 minutes more. Cover the edges with foil if they darken too fast.
+10. **Rest and slice:** Let the pie rest on a rack for 20 minutes so the gravy settles, then cut it into eight slices.

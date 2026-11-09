@@ -18,132 +18,62 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 15 min
-cookTime: About 40–55 min (plus any longer shell preparation)
-totalTime: About 65–80 min (includes 10 min rest; shell preparation may add time)
+cookTime: 50 min
+totalTime: 1 hr 15 min
 servings: '8'
 pairsWith:
-  - sweet-and-white-potato-gratin
-  - tarragon-potatoes
-  - garlic-bread
+  - everyday-arugula-salad
+  - roasted-asparagus
+pairingNotes:
+  everyday-arugula-salad: A lemony green salad, the classic quiche partner.
+  roasted-asparagus: A simple green vegetable for brunch or dinner.
 ingredients:
-  - 1 9-inch Deep-dish Pie Crust (unbaked)
-  - '1 cup Cooked Ham, cubed'
-  - '1 cup Sharp Cheddar, shredded'
-  - '1/2 cup Mozzarella, shredded'
-  - '1/2 cup Fresh Spinach, chopped'
-  - '1/2 cup Yellow Onion, minced'
-  - 1 tbsp Unsalted Butter
-  - 3 large Eggs
-  - 1 1/2 cups Half-and-Half
+  - 1 (9-inch) deep-dish pie crust, unbaked
+  - 1 tbsp unsalted butter
+  - 1/2 cup yellow onion, minced
+  - 1 cup cooked ham, cubed
+  - '1/4 cup cooked bacon, chopped (optional)'
+  - 1/2 cup fresh spinach, chopped
+  - 1 cup sharp Cheddar, shredded
+  - 1/2 cup mozzarella, shredded
+  - 3 large eggs
+  - 1 1/2 cups half-and-half
   - 1/2 tsp kosher salt
-  - 1/2 tsp Dried Parsley
-  - 1/4 tsp Black Pepper
-  - Pinch of Nutmeg
-  - '1/4 cup cooked bacon, chopped, optional'
-  - 'Butter or oil, as needed to grease a separate dish for excess filling'
+  - 1/2 tsp dried parsley
+  - 1/4 tsp black pepper
+  - pinch of ground nutmeg
 origin: France
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from iheartnaptime.net
+source: Adapted from I Heart Naptime
 sourceUrl: 'https://www.iheartnaptime.net/ham-and-cheese-quiche/'
 learning:
-  focus: Allocate custard seasonings and manage a filled pie shell
-  outcome: >-
-    Seasonings reach every slice, filling stays below the rim and the rested
-    center slices without liquid egg.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Use the stated deep-dish 9-inch shell and inspect its partial-bake
-      instructions; diameter alone does not establish capacity.
-    - >-
-      Keep the optional bacon already cooked. Prepare the shell before making
-      the filling; a longer shell parbake extends elapsed time.
-    - >-
-      For multiples use separate original-size quiches. Smaller quantities
-      require a suitable smaller shell or separate crustless dish and earlier
-      center checks; neither crust diameter nor baking time scales
-      arithmetically.
-  checkpoints:
-    - step: 3
-      cue: 'Parsley, pepper and nutmeg are visible throughout the blended custard.'
-      why: Whisking disperses the seasonings throughout the custard.
-    - step: 4
-      cue: The filling stays below the shell rim.
-      why: >-
-        Shell depth varies and overflow can spill onto the oven or prevent even
-        cooking.
-    - step: 5
-      cue: The center is set and measures 165 °F.
-      why: >-
-        Cooked ham and optional bacon make this a meat-containing bake;
-        deep-golden color is not the endpoint.
-  troubleshooting:
-    - problem: Bottom crust stays soft
-      cause: >-
-        The brief parbake did not sufficiently cook the chosen shell, or the
-        filling wet it.
-      fix: >-
-        Follow the shell-specific partial-bake method next time. Do not assume
-        five minutes creates a waterproof barrier.
-    - problem: Crust browns before the center cooks
-      cause: The rim heats faster than the deep custard.
-      fix: Shield the rim and continue until the center meets the endpoint.
-    - problem: Filling exceeds the shell
-      cause: Deep-dish shell depth or optional filling differs.
-      fix: >-
-        Keep headroom and use a separately greased oven-safe dish for excess;
-        its cooking time differs.
   substitutions:
     - ingredient: Half-and-half
-      alternative: Milk in the same listed volume
-      effect: Produces a less rich filling; keep the listed dairy volume.
-    - ingredient: Optional cooked bacon
-      alternative: Omit it
-      effect: Keeps the ham-and-cheese base with less smoky flavor.
-  timing: >-
-    About 15 minutes preparation, 5–7 minutes short parbake, 35–45 minutes
-    filling bake and 10 minutes rest: plan about 65–80 minutes. Onion
-    preparation can overlap the crust. Shell-specific longer partial baking,
-    oven heating and any separate excess dish add time.
+      alternative: Whole milk
+      effect: The custard is lighter and a little less silky.
   storage: >-
-    Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in
-    shallow containers at 40°F / 4°C or below. Use refrigerated portions within
-    3 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion
-    size and starting temperature change the time, so use short intervals and
-    check the center.
-  sources:
-    - title: Adapted from iheartnaptime.net
-      url: 'https://www.iheartnaptime.net/ham-and-cheese-quiche/'
-    - title: 'FDA egg cooking, cold holding and reheating'
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
-    - title: 'FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints'
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    Refrigerate leftovers for up to 3 days. Reheat slices in a 325°F oven until warm, or serve
+    cold.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Sauté the onion in butter before adding the cooked ham, then whisk parsley, pepper and nutmeg into the custard so they season every slice. This version uses a deep-dish shell and a classic custard of about one egg per 1/2 cup half-and-half, which bakes silky rather than firm. The custard is salted lightly because the ham and cheese bring salt of their own. A brief parbake starts the crust cooking but does not guarantee a dry bottom; the shell instructions and its actual depth matter.
+A ham and cheddar quiche with spinach and a little nutmeg, the kind that works for brunch or a weeknight dinner. The custard is about one egg to half a cup of half-and-half, so it bakes silky instead of firm. Softening the onion in butter first takes off its raw bite.
 
 ## Directions
 
-1. **Prepare the shell:** Preheat the oven to 400 °F. Place the 9-inch deep-dish shell on a baking sheet. Follow its own instructions for partial baking, including any weights or docking they require. For a shell whose instructions permit this brief parbake, prick the bottom and bake 5–7 minutes to begin cooking it, then set aside. This short parbake is not a guarantee against sogginess; other shell instructions can take longer.
-
-2. **The Sauté:** Melt the butter in a small skillet over medium heat. Sauté the minced onion for about 2–3 minutes, until softened and translucent, then add the cooked ham and optional cooked bacon. Cook about 2 minutes more, until warmed through and lightly browned in places. Set aside to cool slightly.
-
-3. **The Custard:** Whisk the eggs and half-and-half with the salt and all the dried parsley, black pepper and pinch of nutmeg until smoothly blended. Do not whip to a thick foam.
-
-4. **Assemble:** Scatter the ham-onion mixture, chopped spinach, cheddar and mozzarella into the partly baked shell. Slowly pour the custard over the fillings. Leave room below the rim; deep-dish shells vary. If it will not fit, bake the excess in a separate suitable greased oven-safe dish rather than overflowing the crust.
-
-5. **Bake:** Reduce the oven to 375 °F. Bake for about 35–45 minutes as a first range, until the center is set with only a slight wobble and no liquid egg and measures 165 °F / 74 °C, checking without touching the crust or pan. The top may be golden; shield the crust edge with foil if it colors before the center is ready, and continue baking as needed.
-
-6. **Rest:** Rest 10 minutes before slicing. The full original batch makes eight portions; apportion a different batch size accordingly. Refrigerate leftovers promptly in shallow containers and use within 3 days. Reheat centers to 165 °F / 74 °C; cover the crust to limit further browning.
+1. **Parbake the crust:** Heat the oven to 400°F. Set the crust on a baking sheet, prick the bottom with a fork and bake until it looks dry, 5 to 7 minutes. Lower the oven to 375°F.
+2. **Cook the filling:** Melt the butter in a small skillet over medium heat. Cook the onion until soft and translucent, 2 to 3 minutes. Add the ham and bacon, if using, and cook until lightly browned in spots, about 2 minutes more.
+3. **Make the custard:** In a bowl, whisk the eggs, half-and-half, salt, parsley, pepper and nutmeg until smooth.
+4. **Fill the crust:** Scatter the ham mixture, spinach, Cheddar and mozzarella in the crust. Slowly pour the custard over the top.
+5. **Bake:** Bake at 375°F until the top is golden and the center is set with only a slight wobble, 35 to 45 minutes. Cover the crust edge with foil if it browns too fast.
+6. **Rest:** Let the quiche rest 10 minutes before slicing.

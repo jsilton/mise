@@ -34,119 +34,63 @@ equipment:
 advancePrep: []
 pairsWith:
   - steamed-white-rice
+  - thai-mango-salad
+pairingNotes:
+  steamed-white-rice: Jasmine rice under the chicken and runny yolk.
+  thai-mango-salad: Sour, crunchy mango cools the chiles.
 ingredients:
-  - '680 g ground chicken, preferably thigh meat'
   - 1 1/2 tbsp fish sauce
   - 1 tbsp oyster sauce
   - 1 tbsp light soy sauce
-  - 1 tsp Thai dark soy sauce, for color
+  - 1 tsp Thai dark soy sauce
   - 2 tsp palm sugar or brown sugar
-  - 1/4 cup (60 ml) unsalted chicken stock or water
+  - 1/4 cup unsalted chicken stock or water
   - '4 cloves garlic, peeled'
-  - '1 to 4 Thai bird chiles, to suit your heat preference'
-  - '30 g holy basil leaves, tough stems removed'
-  - '4 tbsp neutral oil, divided between chicken and eggs'
+  - 1 to 4 Thai bird chiles
+  - '2 tbsp neutral oil, for the chicken'
+  - '1 1/2 lb ground chicken, preferably thigh'
+  - '2 tbsp neutral oil, for the eggs'
   - 4 large eggs
-  - '1 lime, cut into wedges, optional at the table'
+  - '1 1/2 cups loosely packed holy basil leaves'
+  - '1 lime, cut into wedges (optional)'
 description: >-
-  Ground chicken with garlic, chiles, and holy basil, served with a freshly fried egg and separately
-  prepared rice.
+  Ground chicken stir-fried with garlic, chiles and holy basil, served over rice with a crisp fried
+  egg.
 learning:
-  focus: Keep holy basil fragrant and the salty glaze controlled
-  outcome: >-
-    Savory, chile-scented chicken with distinct basil aroma and a small amount of sauce, topped with
-    a fried egg.
   techniques:
     - stir-frying
     - temperature
     - seasoning
-  before:
-    - >-
-      Holy basil is the defining herb here. Thai basil gives a different, anise-like aroma; use the
-      substitution note if holy basil is unavailable.
-    - >-
-      Prepare rice separately and have it close to ready before cooking chicken. A second skillet
-      lets the eggs finish near the stir-fry.
-  checkpoints:
-    - step: 2
-      cue: Ground chicken is broken into small pieces and reaches 165°F / 74°C.
-      why: Ground poultry must cook throughout; color alone does not establish doneness.
-    - step: 4
-      cue: Sauce moistens the chicken but does not form a deep puddle.
-      why: >-
-        A short reduction concentrates seasoning. Excessive reduction makes the same amount of fish
-        sauce taste much saltier.
-    - step: 5
-      cue: Basil is just wilted and aromatic when the heat is turned off.
-      why: Adding the leaves at the end limits their time in hot liquid and preserves a fresher aroma.
-  troubleshooting:
-    - problem: The dish is too salty
-      cause: 'Fish sauce or soy was especially concentrated, or the sauce reduced too far.'
-      fix: >-
-        Add a small splash of water to restore a light glaze. Next time begin with less fish sauce;
-        do not add extra sugar as the only correction.
-    - problem: Ground chicken is dry
-      cause: Very lean meat cooked too long while waiting for the sauce or eggs.
-      fix: >-
-        Use a little of the measured stock to loosen it and finish promptly. Thigh mince gives a
-        more forgiving texture.
-    - problem: Garlic turns bitter
-      cause: It browned too far in the hot pan.
-      fix: >-
-        Remove blackened garlic and wipe the pan before proceeding. Lower the heat for aromatics
-        after cooking chicken.
   substitutions:
     - ingredient: Holy basil
-      alternative: 30 g Thai basil or Italian basil leaves
+      alternative: Thai basil
       effect: >-
-        Creates a different basil-chicken variation. Thai basil is more anise-like; neither is
-        identical to holy basil.
+        Holy basil is peppery and clove-like and is found at Asian markets. Thai basil is sweeter
+        with an anise note, and still makes a delicious stir-fry.
+    - ingredient: Thai dark soy sauce
+      alternative: 1/2 tsp molasses
+      effect: Dark soy is mostly for color. Molasses gives the same deep brown and a faint caramel note.
     - ingredient: Light soy sauce
       alternative: Gluten-free tamari
       effect: >-
-        Use a labeled gluten-free fish sauce and oyster sauce too, and replace the dark soy with
-        1/2 tsp molasses, since most oyster and dark soy sauces contain wheat. Check all packaged
-        ingredients. Salt concentration can differ, so taste the cooked glaze.
-    - ingredient: Thai dark soy sauce
-      alternative: 1/2 tsp molasses, or omit it
-      effect: >-
-        Dark soy adds color and a faint caramel note rather than much salt. Molasses gives similar
-        color. Omitting it leaves a paler but equally savory dish.
-    - ingredient: Mortar and pestle for garlic and chiles
-      alternative: Mince the garlic and chiles together very finely with a knife
-      effect: >-
-        Pounding bruises them into a paste that releases more aroma into the oil. Fine mincing
-        works but tastes a little less punchy.
-  timing: >-
-    About 40 minutes for the chicken and eggs, using two skillets and overlapping the eggs with the
-    sauce stage. Two egg batches or a single-pan sequence takes longer. Rice preparation is
-    separate.
+        For a gluten-free dish, also use gluten-free oyster sauce and molasses in place of the dark
+        soy.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Keep any eggs separate; fried eggs
-    are best freshly cooked. Reheat chicken before adding fresh basil if available.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: Pailin Chongchitnant — Holy basil stir-fry identity and seasoning variations
-      url: 'https://hot-thai-kitchen.com/pad-kra-pao-anything/'
-    - title: Pailin Chongchitnant — Fish-sauce-led pad kra pao and holy basil
-      url: 'https://hot-thai-kitchen.com/pad-kra-pao-beef/'
+    The chicken keeps 3 days in the fridge. Reheat it in a skillet and fry fresh eggs.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Holy basil, garlic and chile give pad kra pao its character. Fish sauce, oyster sauce and soy supply savory seasoning and a glossy coating, with a little sugar to round it out. Thai basil is a useful substitution with a different aroma. Serve each portion with its fried egg and separately prepared rice. A shallow layer of oil is enough for the egg method here.
+Pad kra pao is Thailand's favorite quick lunch: ground chicken seared hard with garlic, chiles and a salty-sweet glaze, then tossed with holy basil at the very end. Pounding the garlic and chiles into a paste makes them hit the hot oil with full force. Serve it over jasmine rice with a fried egg whose crisp edges and runny yolk become part of the sauce.
 
 ## Directions
 
-1. **Prepare everything:** Stir fish sauce, oyster sauce, light soy, dark soy, sugar, and stock until the sugar dissolves. Pound the garlic and chiles together in a mortar into a coarse paste, or mince them together very finely, and pick basil leaves. Keep chicken refrigerated until the pan is ready. Set out a second skillet for the eggs.
-2. **Cook chicken in two batches:** Heat 2 tsp oil in a 12-inch skillet or wok over medium-high heat. Add half the chicken, spread it out, and leave about 1–2 minutes. Break into small pieces and continue cooking, stirring, until the chicken reaches 165°F / 74°C, usually about 5–7 minutes total. Transfer to a clean bowl. Repeat with another 2 tsp oil and the remaining chicken.
-3. **Fry the eggs near serving:** Heat 2 tbsp oil in the second skillet over medium heat. Crack in the eggs, leaving space between them; use two batches if they crowd. Cook until whites set and edges begin to color, then turn carefully and finish until both whites and yolks are firm, about 4–6 minutes depending on heat. Reduce heat if the bottoms darken too quickly. Transfer to plates as the chicken finishes.
-4. **Make the glaze:** Meanwhile reduce the chicken skillet to medium, add the remaining 2 tsp oil, and stir the garlic-chile paste for about 30 seconds until fragrant without blackening. Add the mixed sauce and cooked chicken. Simmer and stir about 2–3 minutes until hot and lightly glazed. Taste the cooked mixture; stop reducing if it is already strongly seasoned.
-5. **Finish with basil:** Turn off heat and fold in basil until just wilted. Divide chicken among four plates with separately prepared rice and one fried egg per diner. Offer lime wedges only if wanted at the table.
+1. **Mix the sauce:** Stir together the fish sauce, oyster sauce, light soy, dark soy, sugar and stock until the sugar dissolves.
+2. **Pound the aromatics:** Pound the garlic and chiles in a mortar into a coarse paste, or mince them together very finely.
+3. **Brown the chicken:** Heat a third of the chicken oil in a 12-inch skillet or wok over medium-high heat. Add half the chicken, spread it out and leave it to brown, 1 to 2 minutes. Break it up and cook until it reaches 165°F, 5 to 7 minutes in all. Move to a bowl and repeat with another third of the oil and the rest of the chicken.
+4. **Fry the eggs:** Heat the egg oil in a second skillet over medium-high heat until it shimmers. Crack in the eggs and fry, spooning hot oil over the whites, until the whites are set with crisp brown edges and the yolks are still runny, 2 to 3 minutes. For firm yolks, flip the eggs and cook 1 minute more. Move to a plate.
+5. **Glaze the chicken:** Lower the chicken skillet to medium and add the rest of the chicken oil. Stir the garlic-chile paste until fragrant but not browned, about 30 seconds. Add the chicken and the sauce and stir until the chicken is hot and glossy with only a little sauce left in the pan, 2 to 3 minutes.
+6. **Add the basil:** Turn off the heat and fold in the basil until just wilted. Serve over rice with a fried egg on each plate and lime wedges on the side.

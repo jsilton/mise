@@ -23,7 +23,7 @@ vibe: quick
 prepTime: 15 min
 cookTime: 30 min
 totalTime: 45 min
-servings: 4 vegetable-forward main portions
+servings: 4 portions
 seasons:
   - spring
   - summer
@@ -33,27 +33,24 @@ leftovers: good
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread
+pairingNotes:
+  everyday-arugula-salad: A peppery salad beside the buttery pasta.
+  garlic-bread: For soaking up the lemon butter.
 ingredients:
-  - 1 lb refrigerated or frozen cheese tortellini
-  - >-
-    1 1/2 lb fresh broccoli, cut into similar bite-sized florets, thick stems
-    sliced thinner
-  - 3 tbsp unsalted butter
+  - '1 1/2 lb broccoli, cut into bite-sized florets'
   - 1 tbsp extra-virgin olive oil
+  - 'kosher salt and black pepper, to taste'
+  - '4 cloves garlic, minced'
+  - '1 large lemon, zested and juiced'
+  - 1 lb refrigerated or frozen cheese tortellini
+  - 3 tbsp unsalted butter
   - '1 large shallot, minced'
-  - '4 cloves garlic, minced, divided equally between broccoli and sauce'
-  - 3 cups fresh baby spinach
-  - >-
-    1 large lemon, zested before juicing, juice divided between roasted
-    broccoli and finish
-  - 1/2 cup freshly grated Parmesan
   - 1/4 tsp red pepper flakes
-  - 'Salt and freshly ground black pepper, to taste'
-  - >-
-    1/2 cup hot pasta cooking water, reserved before draining; use only as
-    needed
+  - 3 cups baby spinach
+  - '1/2 cup Parmesan, freshly grated'
+  - 1/2 cup pasta cooking water
 origin: Italy
-source: 'Adapted from Two Peas & Their Pod, Lemon Broccoli Tortellini'
+source: Adapted from Two Peas & Their Pod
 equipment:
   - rimmed-half-sheet-pan
   - large-pasta-pot
@@ -62,119 +59,25 @@ description: >-
   Cheese tortellini with roasted broccoli, wilted spinach and a lemon-butter
   finish.
 learning:
-  focus: >-
-    Coordinate a roasted vegetable with delicate filled pasta and a gentle
-    cheese finish
-  outcome: >-
-    Tender tortellini with intact seams, browned broccoli and a light
-    lemon-butter coating.
   techniques:
     - browning
     - emulsions
     - seasoning
-  before:
-    - >-
-      Use a rimmed half-sheet pan and spread broccoli without overlap, adding a
-      second tray if necessary. A large deep skillet allows the spinach to wilt
-      while tortellini cooks separately.
-    - >-
-      Read the tortellini package before starting: refrigerated and frozen
-      products have different times and may specify a center temperature.
-      Floating alone is not a universal doneness test. Choose vegetarian-rennet
-      cheese and suitable filled pasta for a vegetarian version.
-    - >-
-      For larger batches use more roasting area and toss in separate vessels if
-      needed. Scale the cooking-water reserve, but add by sauce consistency.
-      Keep florets similar in size and do not multiply pasta time.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Broccoli stems yield to a knife and edges have brown patches; garlic is
-        golden, not black.
-      why: >-
-        Charred tips do not establish stem tenderness, and small garlic pieces
-        scorch quickly on exposed tray areas.
-    - step: 4
-      cue: >-
-        Tortellini are cooked as their package directs and the seams remain
-        intact.
-      why: >-
-        Filled pasta can split with vigorous boiling or prolonged waiting in
-        water.
-    - step: 5
-      cue: >-
-        The pan no longer bubbles hard when cheese is folded in, and the sauce
-        lightly coats the pasta.
-      why: Gentle handling and off-heat cheese addition limit tearing and clumping.
-  troubleshooting:
-    - problem: Broccoli garlic burns
-      cause: Small pieces sat exposed on a hot tray.
-      fix: >-
-        Add the garlic only for the last 5 minutes and tuck it among the
-        broccoli rather than on bare metal. Remove blackened bits. Do not
-        disguise their bitterness with more lemon.
-    - problem: Tortellini split
-      cause: They boiled aggressively or were tossed roughly.
-      fix: >-
-        Use a gentle boil and fold with a broad spoon; broken pieces cannot be
-        sealed again.
-    - problem: Sauce is watery
-      cause: All cooking water was poured in despite wet spinach or pasta.
-      fix: >-
-        Add it gradually. If still too loose, let it settle briefly while gently
-        folding; do not boil filled pasta hard to reduce the sauce.
-  substitutions:
-    - ingredient: Refrigerated cheese tortellini
-      alternative: The same package weight of frozen cheese tortellini
-      effect: >-
-        Cook from frozen if directed, with its own timing and filling endpoint;
-        do not assume identical counts or serving volume.
-    - ingredient: Parmesan
-      alternative: The same grated volume of vegetarian-rennet hard cheese
-      effect: >-
-        Keeps a savory finish; confirm the tortellini filling also suits the
-        diet.
-  timing: >-
-    Allow about 45 minutes, with fifteen minutes preparation and oven heating,
-    twenty to twenty-five minutes roasting and several minutes assembly. Heat
-    pasta water during roasting, start the shallot/spinach base near the end,
-    and time tortellini by its package so it finishes close to the broccoli.
-    Very slow oven heating or thick stems extend the total.
   storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Plan to use the next day for texture.
-    Reheat the portion needed with a little water, stirring gently, to 165°F /
-    74°C throughout. The pasta softens and the cheese sauce may become less
-    smooth; it is best freshly tossed.
-  sources:
-    - title: Chef Lorenzo Boni — Pasta cooking and reserved water
-      url: >-
-        https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta
-    - title: FoodSafety.gov — Prompt refrigeration and separation
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: FoodSafety.gov — Leftover reheating
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    Keeps 2 days in the fridge. Reheat gently with a splash of water and a squeeze of lemon.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 sourceUrl: 'https://www.twopeasandtheirpod.com/lemon-broccoli-tortellini/'
 ---
 
 ## Chef's Note
 
-Roast broccoli for browned edges, then fold it through cheese tortellini and wilted spinach. Split the garlic between the tray and the pan, and save part of the lemon juice for the finish. Add cooking water gradually so the butter coats the pasta without leaving a thin puddle.
+Cheese tortellini, roasted broccoli and wilted spinach in a lemony butter sauce, ready in under an hour. Roast the broccoli plain so it browns, then hit it with lemon the moment it comes out of the oven. Don't be shy with the lemon. It's what ties the rich pasta and the broccoli together.
 
 ## Directions
 
-1. **Prepare:** Heat the oven to **400°F / 205°C**. Cut broccoli into similar bite-sized florets and slice thick stems thinner. Mince shallot and garlic, zest then juice the lemon, and set a large pot of water on to boil.
-2. **Roast broccoli:** Toss broccoli with olive oil, salt and pepper only. Spread on a rimmed half-sheet pan in one layer, using a second tray if crowded. Roast **20–25 minutes**, turning once, until stems are tender and edges browned. For the **last 5 minutes**, scatter **half the garlic** among the florets rather than on bare metal. Remove any pieces that finish early. As soon as the tray comes out, toss the broccoli with **half the lemon juice**. Adding acid after roasting keeps the florets bright green and lets them brown.
-3. **Start the sauce:** Near the end of roasting, melt butter in a large deep skillet over medium-low. Soften shallot for about **3–5 minutes**. Add **the remaining garlic** and pepper flakes for **30–45 seconds**, then spinach. Turn gently for about **2 minutes** until wilted. Lower heat or turn it off while waiting for pasta.
-4. **Cook tortellini:** Time this stage by the package so it finishes near the vegetables. Season the boiling water moderately, add tortellini and cook as directed, avoiding a violent boil. Meet any specified filling temperature. Reserve **the listed amount of cooking water** before draining.
-5. **Combine gently:** Add drained tortellini and broccoli to the spinach skillet. Add zest and about **half the reserved water**. Fold over low heat just until hot, then remove from the burner. Add Parmesan gradually and **half of the remaining lemon juice**. Fold gently, adding further water only until lightly coated. Taste before adding the rest of the lemon juice, salt or pepper. Serve promptly.
-
-Adapted from [Two Peas & Their Pod’s Lemon Broccoli Tortellini](https://www.twopeasandtheirpod.com/lemon-broccoli-tortellini/).
-
-## Cooking Notes
-
-A little fresh lemon juice and olive oil can refresh the tortellini after reheating. Finish with extra Parmesan if desired.
+1. **Roast the broccoli:** Heat the oven to 400°F. Toss the broccoli with the olive oil, salt and pepper and spread it in one layer on a rimmed sheet pan. Roast, turning once, until the stems are tender and the edges are browned, 20 to 25 minutes. Scatter half the garlic among the florets for the last 5 minutes. Toss the hot broccoli with half the lemon juice.
+2. **Boil the tortellini:** While the broccoli roasts, bring a large pot of salted water to a boil. Cook the tortellini at a gentle boil as the package directs, so they don't split. Scoop out the pasta water, then drain.
+3. **Wilt the spinach:** Meanwhile, melt the butter in a large, deep skillet over medium-low heat. Cook the shallot until soft, 3 to 5 minutes. Add the rest of the garlic and the pepper flakes and stir for 30 seconds, then add the spinach and turn it until wilted, about 2 minutes.
+4. **Toss and serve:** Add the tortellini, broccoli, lemon zest and half the pasta water to the skillet. Fold gently over low heat until hot. Off the heat, fold in the Parmesan and the rest of the lemon juice, adding more pasta water until the sauce lightly coats the pasta. Season with salt and pepper and serve.

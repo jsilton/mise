@@ -38,7 +38,8 @@
     "recipe:compile": "node scripts/compile-recipe-formulas.mjs",
     "prebuild": "node scripts/compile-recipe-formulas.mjs --check",
     "export:text": "node scripts/export-text.mjs",
-    "export:check": "node scripts/check-exports.mjs"
+    "export:check": "node scripts/check-exports.mjs",
+    "check:copy": "node ./scripts/check-recipe-copy.mjs"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.0",

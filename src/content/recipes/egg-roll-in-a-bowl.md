@@ -29,109 +29,54 @@ equipment:
   - instant-read-thermometer
 pairsWith:
   - steamed-white-rice
+pairingNotes:
+  steamed-white-rice: Turns the skillet into a full rice bowl.
 ingredients:
-  - 450 g (1 lb) ground pork
+  - 1 lb ground pork
   - 1 tsp neutral oil
-  - '500 g green cabbage, shredded into thin ribbons'
-  - '100 g carrot, cut into fine matchsticks'
-  - 1 tbsp grated fresh ginger
-  - '2 cloves garlic, minced'
+  - '1 lb green cabbage (about 1/2 small head), thinly shredded'
+  - '1 medium carrot, cut into fine matchsticks'
+  - '1 tbsp fresh ginger, grated'
+  - '2 garlic cloves, minced'
   - '3 scallions, whites and greens sliced separately'
   - 2 tbsp reduced-sodium soy sauce
-  - '2 tbsp water, plus 1 tbsp only if needed'
+  - 2 tbsp water
   - 2 tsp toasted sesame oil
-  - '1 tsp unseasoned rice vinegar, plus 1 tsp more only to taste'
+  - '1 tsp unseasoned rice vinegar, plus more to taste'
   - 2 tsp toasted sesame seeds
-  - '2 tsp chili crisp or sriracha, optional and served separately'
+  - 'chili crisp or sriracha, for serving (optional)'
 origin: Chinese-American-inspired home cooking
 description: >-
-  Browned ground pork with cabbage, carrot, ginger and a measured soy-sesame finish; a
-  filling-inspired skillet meal.
+  Browned ground pork with cabbage, carrot, ginger and a soy and sesame finish, like the filling of
+  an egg roll without the wrapper.
 learning:
-  focus: 'Brown the meat first, then cook cabbage to a deliberate texture'
-  outcome: >-
-    Tender pork crumbles and cooked cabbage with a little bite, lightly seasoned without a watery or
-    greasy pool.
   techniques:
     - browning
     - temperature
     - seasoning
-  before:
-    - >-
-      A 12-inch deep skillet has room for the cabbage as it wilts. Add it in two stages rather than
-      compacting a raw mound.
-    - >-
-      The dish borrows an egg-roll filling idea but does not contain a wrapper or promise the
-      texture of a fried egg roll.
-  checkpoints:
-    - step: 2
-      cue: Pork has browned patches and substantial clumps reach 160°F / 71°C.
-      why: >-
-        Cooked ground pork needs a measured endpoint. Brown edges or the absence of pink are not
-        substitutes.
-    - step: 4
-      cue: >-
-        Cabbage ribbons are hot and tender with some resistance; there is no large puddle
-        underneath.
-      why: >-
-        Cabbage releases water as it cooks. Its cut and the pan load govern the timing, so stopping
-        at the first collapse is too rigid.
-    - step: 5
-      cue: The sesame finish is aromatic and the small vinegar addition balances the rich pork.
-      why: Finishing amounts should be tasted around the soy sauce and optional salty chili condiment.
-  troubleshooting:
-    - problem: The pan contains a watery heap
-      cause: 'Cabbage was wet, coarse or added faster than the pan could heat it.'
-      fix: >-
-        Cook uncovered a little longer, stirring, until excess water evaporates. Stop before the
-        cabbage becomes limp; dry and slice it evenly next time.
-    - problem: The bowl is greasy
-      cause: The pork rendered more fat than the vegetables need.
-      fix: >-
-        Spoon off excess after browning, leaving about a tablespoon before the aromatics. More
-        rendered fat does not automatically mean a better result.
   substitutions:
-    - ingredient: Ground pork and 1 tsp oil
-      alternative: 450 g ground turkey and 1 tbsp neutral oil
-      effect: >-
-        Turkey generally renders less fat. Cook substantial clumps to 165°F / 74°C; the pork
-        endpoint does not apply.
-    - ingredient: Separate cabbage and carrot
-      alternative: 600 g plain undressed coleslaw mix
-      effect: >-
-        Thin packaged shreds may cook faster. Do not use a kit with dressing or blindly add the
-        extra carrot as well.
-  timing: >-
-    About thirty minutes includes slicing and measuring. With a ready-shredded mixture preparation
-    is quicker, but meat temperature and cabbage tenderness still control cooking.
+    - ingredient: green cabbage
+      alternative: 1 1/4 lb plain coleslaw mix
+      effect: Replaces both the cabbage and the carrot. The thin shreds cook a minute or two faster.
+    - ingredient: ground pork
+      alternative: Ground turkey
+      effect: Leaner and milder. Brown it in 1 tbsp oil instead of 1 tsp.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store optional chili sauce
-    separately. Reheat in a covered skillet or microwave with a little water, stirring and checking
-    several portions; cabbage will become softer.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
+    Keeps 4 days in the fridge. Reheat in a covered skillet with a splash of water. The cabbage
+    softens as it sits.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This is a Chinese-American-inspired pork-and-cabbage skillet, built around an egg-roll filling idea. It is useful because the meat and vegetables cook in sequence in one pan. A few browned pork surfaces add depth; the cabbage supplies moisture and a lighter texture. Serve promptly once the meat is cooked and the cabbage reaches the texture you want.
+All the savory filling of a takeout egg roll, with no wrapper and no frying. Brown the pork hard first for flavor, then cook the cabbage only until it collapses but still has some bite. Keep the chili crisp on the table so everyone sets their own heat.
 
 ## Directions
 
-1. **Prepare everything:** Shred cabbage, cut carrot into fine matchsticks, grate ginger and mince garlic. Slice scallions, keeping whites separate from greens. Mix soy sauce with 2 tbsp water. Measure the sesame oil, vinegar and garnishes.
-2. **Brown and cook the pork:** Heat neutral oil in a deep 12-inch skillet over medium-high. Add pork in flattened clumps, leave about 2 minutes to color, then turn and break into crumbles. Cook another 4–5 minutes, or until several substantial clumps reach 160°F / 71°C. Spoon off excess rendered fat if it pools, leaving about 1 tbsp in the pan.
-3. **Add the aromatics:** Lower to medium. Stir ginger, garlic and scallion whites into the pork for about 30 seconds, until fragrant but not scorched.
-4. **Cook the vegetables:** Add carrot and half the cabbage and toss for about 1 minute. Add the remaining cabbage and soy-water mixture. Cook uncovered 3–5 minutes, stirring, until cabbage is hot and tender with a little bite. Add the extra tablespoon water only if the pan dries while vegetables are firm; if watery, let the excess evaporate briefly.
-5. **Finish and portion:** Turn off heat, stir in toasted sesame oil, scallion greens and 1 tsp vinegar. Taste before the optional second teaspoon. Divide among four bowls and sprinkle with measured sesame seeds; offer chili crisp or sriracha separately. Serve promptly. If serving with [Steamed White Rice](/mise/recipes/steamed-white-rice), allow that recipe's full preparation and cooking time separately.
+1. **Brown the pork:** Heat the oil in a deep 12-inch skillet over medium-high heat. Add the pork in flattened clumps and leave it to brown for 2 minutes. Break it into crumbles and cook until no pink remains, 4 to 5 minutes more. Spoon off all but a thin layer of fat.
+2. **Add the aromatics:** Lower the heat to medium. Stir in the ginger, garlic and scallion whites and cook until fragrant, about 30 seconds.
+3. **Cook the cabbage:** Add the carrot and half the cabbage and toss until the cabbage starts to wilt, about 1 minute. Add the rest of the cabbage with the soy sauce and water. Cook uncovered, stirring, until the cabbage is tender with a little bite and no liquid pools in the pan, 3 to 5 minutes.
+4. **Finish:** Take the pan off the heat. Stir in the sesame oil, scallion greens and vinegar. Taste and add more vinegar or soy if needed.
+5. **Serve:** Spoon into bowls, sprinkle with sesame seeds and pass the chili crisp at the table.

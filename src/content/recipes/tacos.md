@@ -25,139 +25,77 @@ totalTime: 30 min
 servings: '4'
 pairsWith:
   - mexican-street-corn-salad
+  - quick-seasoned-black-beans
+pairingNotes:
+  mexican-street-corn-salad: Sweet, tangy corn rounds out the taco spread.
+  quick-seasoned-black-beans: Beans on the side make it a full plate.
 ingredients:
   - '--- Filling ---'
-  - '450 g (1 lb) ground turkey, preferably 93% lean'
   - 1 tbsp neutral oil
-  - '1 tbsp mild chili powder blend, not pure hot chile powder'
+  - 1 lb ground turkey (93% lean)
+  - 1 tbsp chili powder
   - 1 tsp ground cumin
   - 1/2 tsp sweet paprika
   - 1/2 tsp garlic powder
   - 1/2 tsp onion powder
   - 1/2 tsp dried Mexican oregano
   - 1 tbsp tomato paste
-  - '3/4 tsp fine salt, divided'
-  - 1/2 cup (120 ml) low-sodium chicken broth
-  - '--- Shells and toppings, for the whole batch ---'
-  - '12 small taco shells total: hard shells, 6-inch soft tortillas, or a mixture'
-  - '80 g sharp Cheddar, grated'
-  - '1 large avocado, about 150 g edible flesh, sliced just before serving'
-  - '200 g Roma tomatoes, diced and drained of pooled juice'
-  - '120 g iceberg lettuce, finely shredded'
-  - 1/4 cup (60 g) sour cream
-  - '1 lime, cut into 8 wedges'
-  - '2 tsp hot sauce, optional and served separately'
+  - 3/4 tsp fine salt
+  - 1/2 cup low-sodium chicken broth
+  - '--- For serving ---'
+  - 12 small hard taco shells or 6-inch flour tortillas
+  - '3/4 cup sharp Cheddar, grated'
+  - '1 large avocado, sliced'
+  - '2 Roma tomatoes, diced'
+  - '1/4 head iceberg lettuce, finely shredded'
+  - 1/4 cup sour cream
+  - '1 lime, cut into wedges'
+  - hot sauce (optional)
 origin: Tex-Mex-inspired American home cooking
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 description: >-
-  A moist, measured ground-turkey filling with warm shells, crunchy lettuce and fresh toppings;
-  includes a separate ground-beef adjustment.
+  A saucy, well-seasoned ground-turkey filling with warm shells and a spread of fresh toppings for
+  everyone to build their own.
 equipment:
   - 12-inch-skillet
   - instant-read-thermometer
   - oven-or-second-skillet
 learning:
-  focus: Keep browned ground meat moist without making the shells soggy
-  outcome: >-
-    Small tender crumbles with browned patches and a light sauce, divided among twelve small tacos
-    with cool, crisp toppings.
   techniques:
     - browning
     - temperature
     - seasoning
-  before:
-    - >-
-      Choose twelve shells in total, not twelve of each type. The filling makes four servings of
-      three small tacos.
-    - >-
-      Prepare toppings before handling raw turkey. Keep the sour cream and cheese refrigerated until
-      the final assembly.
-  checkpoints:
-    - step: 2
-      cue: The turkey has browned patches before it is broken into fine crumbles.
-      why: >-
-        A short period of contact with the hot pan encourages browning; constant stirring can keep
-        the surface wet.
-    - step: 3
-      cue: >-
-        Several substantial clumps reach 165°F / 74°C and a spatula leaves a brief trail through the
-        coating.
-      why: >-
-        Color does not establish poultry doneness. Evaporation sets sauce thickness separately from
-        the temperature check.
-    - step: 4
-      cue: Hard shells are crisp; soft tortillas bend readily without becoming brittle.
-      why: >-
-        The two shell styles need different warming methods. Their package guidance takes precedence
-        over one universal oven time.
-  troubleshooting:
-    - problem: Filling is dry and crumbly
-      cause: Very lean turkey was cooked too long or the broth reduced too far.
-      fix: >-
-        Add broth or water a tablespoon at a time and stir just until a light coating returns. Stop
-        once the turkey is safely cooked and the consistency is right.
-    - problem: Grease pools in the shells
-      cause: A fattier beef substitution rendered more fat than the sauce can comfortably carry.
-      fix: >-
-        Spoon off excess rendered fat before adding broth, leaving about a tablespoon in the pan.
-        Fat carries flavor, but keeping every drop is unnecessary.
   substitutions:
-    - ingredient: Ground turkey and 1 tbsp oil
-      alternative: 450 g 85/15 ground beef and 1 tsp oil
+    - ingredient: Low-sodium chicken broth
+      alternative: 1 tsp Better Than Bouillon chicken base in 1/2 cup water
+      effect: Richer and saltier, so hold back half the salt and taste at the end.
+    - ingredient: Ground turkey
+      alternative: 85/15 ground beef
       effect: >-
-        Brown in the same pan, remove excess rendered fat as needed, then continue with the
-        seasonings and broth. Ground beef must reach 160°F / 71°C; its flavor and fat content differ
-        from turkey.
-    - ingredient: Five measured ground spices and oregano
-      alternative: 2 tbsp mild salt-free taco seasoning
-      effect: >-
-        Blends vary. Use the same staged salt allowance and taste after simmering; a salted blend
-        also requires reducing the added salt. Keep the tomato paste.
+        Use 1 tsp oil and spoon off all but about a tablespoon of fat before the spices go in. Cook
+        until no pink remains.
     - ingredient: Dried Mexican oregano
-      alternative: 1/2 tsp regular dried oregano
-      effect: >-
-        Mediterranean oregano is sweeter and more minty. Mexican oregano is more
-        citrusy and earthy. Either works here.
-  timing: >-
-    Allow about thirty minutes for one cook, including topping preparation, browning, a brief simmer
-    and shell warming. Extra side dishes have their own preparation time.
+      alternative: Regular dried oregano
+      effect: Sweeter and more minty than the citrusy, earthy Mexican kind. Either works here.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store filling and toppings
-    separately; warm shells fresh. Freeze promptly chilled filling for up to 3 months for quality.
-    Avocado and dressed shells do not retain their fresh texture.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
-    - title: Mission Foods — Warming packaged tortillas
-      url: 'https://www.missionfoods.com/faq/'
+    The filling keeps 4 days in the fridge or 3 months in the freezer. Store it apart from the
+    toppings and warm the shells fresh.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-These are Tex-Mex-style family tacos with a ground-turkey base. Browning develops savory flavor; the small broth addition then loosens the pan residue and coats the crumbles. Bouillon is optional pantry seasoning, not a substance that guarantees juicy meat. Here, measured spices and low-sodium broth make the salt easier to control.
+These are Tex-Mex weeknight tacos, on the table in half an hour, with everyone building their own. Toasting the spices and tomato paste with the turkey gives lean meat real depth, and a splash of broth turns the filling saucy instead of dry and crumbly.
 
 ## Directions
 
-1. **Prepare the table components:** Grate Cheddar, dice and drain tomatoes, shred lettuce and cut the lime. Measure sour cream and optional hot sauce. Keep perishable toppings chilled. Set out twelve shells total. If using hard shells, preheat the oven as their package directs.
-2. **Brown the turkey:** Heat the oil in a 12-inch skillet over medium-high. Add turkey in several flattened pieces and leave about 2 minutes for the underside to color. Turn and break into coarse crumbles, cooking another 4–5 minutes and adjusting heat to avoid scorching.
-3. **Season and finish:** Lower to medium. Stir in all five spices, the oregano, the tomato paste and 1/2 tsp of the salt. Cook about 1 minute, stirring, until the paste darkens slightly and coats the meat, then add broth and scrape up the brown residue. Simmer 3–5 minutes, stirring and breaking up large pieces, until the coating clings without a watery pool. Check several substantial clumps with a thin-tip thermometer: turkey must reach 165°F / 74°C. Taste and add the remaining 1/4 tsp salt only if needed. Add a tablespoon of water if the filling dries before reaching its endpoint.
-4. **Warm the shells:** Heat hard shells according to their package. For soft tortillas, use a dry skillet over medium-high, usually 10–30 seconds per side until hot and flexible; work in batches and wrap in a clean towel. Alternatively, microwave stacks of four to six between damp paper towels for 30–45 seconds, extending briefly if still cool. Keep filling covered off heat during this short warming step.
-5. **Assemble just before eating:** Slice avocado. Divide the filling among twelve small tacos, about one-twelfth per shell, and offer the measured toppings. Serve three per person. Add lime and hot sauce to individual taste rather than soaking every shell in advance.
-
-## Make it a meal
-
-The tacos already include tortillas, protein, avocado and fresh vegetables. A small portion of [Skillet Esquites](/mise/recipes/mexican-street-corn-salad) is one possible side; a complete rice-and-bean spread is a different, longer dinner plan.
+1. **Brown the turkey:** If you are using hard shells, heat the oven to 350°F. Heat the oil in a 12-inch skillet over medium-high heat. Add the turkey, press it into a flat layer and leave it until the underside browns, about 2 minutes. Break it into crumbles and cook until no pink remains, 4 to 5 minutes more.
+2. **Toast the spices:** Lower the heat to medium. Stir in the chili powder, cumin, paprika, garlic powder, onion powder, oregano, tomato paste and salt. Cook, stirring, until the paste darkens and coats the meat, about 1 minute.
+3. **Simmer the filling:** Pour in the broth and scrape up the browned bits. Simmer, stirring, until the sauce clings to the meat with no watery pool and the turkey reaches 165°F, 3 to 5 minutes. Taste for salt, then cover and keep warm off the heat.
+4. **Warm the shells:** Warm hard shells on a baking sheet in the oven until crisp, 5 to 6 minutes. Warm flour tortillas in a dry skillet over medium-high heat until hot and flexible, about 20 seconds per side, and wrap them in a towel.
+5. **Build the tacos:** Set out the filling, shells, cheese, avocado, tomatoes, lettuce and sour cream, and let everyone build their own. Pass the lime wedges and hot sauce at the table.

@@ -17,9 +17,9 @@ cuisines:
   - American
 role: main
 vibe: quick
-prepTime: About 10–15 min
-cookTime: About 20–30 min
-totalTime: About 30–45 min
+prepTime: 10 min
+cookTime: 25 min
+totalTime: 35 min
 servings: 4 portions
 seasons:
   - year-round
@@ -28,33 +28,27 @@ leftovers: excellent
 equipment:
   - large-skillet
 pairsWith:
+  - garlic-bread
   - everyday-arugula-salad
-  - cornbread
-  - avocado-kale-caesar-salad
+pairingNotes:
+  garlic-bread: For soaking up the brothy beans.
+  everyday-arugula-salad: Peppery greens against the rich sausage.
 ingredients:
-  - '--- Ingredients ---'
-  - >-
-    1 lb Raw Italian pork sausage, sweet or spicy, bulk, or links sliced into
-    about 1-inch rounds
-  - 1 tbsp Extra-virgin olive oil
-  - '1 Onion, diced'
-  - '4 Garlic cloves, minced'
-  - 2 tbsp Tomato paste
-  - 1 tsp Dried oregano
-  - 1 tsp Dried thyme
-  - 1/4 tsp Red pepper flakes
-  - >-
-    2 cans (15 oz) Cannellini or Great Northern beans, drained and rinsed, fully
-    cooked canned beans
-  - 1 cup Chicken stock
-  - 1/2 tsp Kosher salt
-  - 1/4 tsp Black pepper
-  - '1/2 Lemon, juice only'
-  - 'Fresh parsley, for garnish, washed and chopped'
-  - 'Parmesan cheese, for serving, grated'
-  - 'Crusty bread, for serving, optional'
-  - 'Water, a splash as needed when reheating, optional'
-  - 'Chicken stock, a splash as needed when reheating, optional'
+  - '1 lb Italian pork sausage, sweet or spicy, casings removed or links sliced into 1-inch rounds'
+  - 1 tbsp extra-virgin olive oil
+  - '1 onion, diced'
+  - '4 garlic cloves, minced'
+  - 2 tbsp tomato paste
+  - 1 tsp dried oregano
+  - 1 tsp dried thyme
+  - 1/4 tsp red pepper flakes
+  - '2 cans (15 oz) cannellini or Great Northern beans, drained and rinsed'
+  - 1 cup chicken stock
+  - 1/2 tsp kosher salt
+  - 1/4 tsp black pepper
+  - '1/2 lemon, juiced'
+  - 'fresh parsley, for serving, chopped'
+  - 'Parmigiano-Reggiano, for serving, grated'
 formula:
   version: 1
   yield:
@@ -66,17 +60,17 @@ formula:
       ingredients:
         - id: sausage
           key: sausage
-          name: 'Raw Italian pork sausage, sweet or spicy'
+          name: Italian pork sausage
           quantity:
             amount: 1
             unit: lb
           uses:
             - step: sausage
               share: 1
-          preparation: 'bulk, or links sliced into about 1-inch rounds'
+          preparation: 'sweet or spicy, casings removed or links sliced into 1-inch rounds'
         - id: oil
           key: oil
-          name: Extra-virgin olive oil
+          name: extra-virgin olive oil
           quantity:
             amount: 1
             unit: tbsp
@@ -85,29 +79,29 @@ formula:
               share: 1
         - id: onion
           key: onion
-          name: Onion
+          name: onion
           quantity:
             amount: 1
             unit: count
           uses:
             - step: aromatics
               share: 1
-          plural: Onions
+          plural: onions
           preparation: diced
         - id: garlic
           key: garlic
-          name: Garlic clove
+          name: garlic clove
           quantity:
             amount: 4
             unit: count
           uses:
-            - step: garlic
+            - step: paste
               share: 1
-          plural: Garlic cloves
+          plural: garlic cloves
           preparation: minced
         - id: paste
           key: paste
-          name: Tomato paste
+          name: tomato paste
           quantity:
             amount: 2
             unit: tbsp
@@ -116,7 +110,7 @@ formula:
               share: 1
         - id: oregano
           key: oregano
-          name: Dried oregano
+          name: dried oregano
           quantity:
             amount: 1
             unit: tsp
@@ -125,7 +119,7 @@ formula:
               share: 1
         - id: thyme
           key: thyme
-          name: Dried thyme
+          name: dried thyme
           quantity:
             amount: 1
             unit: tsp
@@ -134,16 +128,16 @@ formula:
               share: 1
         - id: flakes
           key: flakes
-          name: Red pepper flakes
+          name: red pepper flakes
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
             - step: paste
               share: 1
         - id: beans
           key: beans
-          name: Cannellini or Great Northern beans
+          name: cannellini or Great Northern beans
           quantity:
             amount: 2
             unit: can
@@ -153,10 +147,10 @@ formula:
           packageSize:
             amount: 15
             unit: oz
-          preparation: 'drained and rinsed, fully cooked canned beans'
+          preparation: drained and rinsed
         - id: stock
           key: stock
-          name: Chicken stock
+          name: chicken stock
           quantity:
             amount: 1
             unit: cup
@@ -165,205 +159,101 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: Kosher salt
+          name: kosher salt
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: tsp
           uses:
             - step: finish
               share: 1
         - id: pepper
           key: pepper
-          name: Black pepper
+          name: black pepper
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
             - step: finish
               share: 1
         - id: lemon
           key: lemon
-          name: Lemon
+          name: lemon
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: count
           uses:
             - step: finish
               share: 1
-          plural: Lemons
-          preparation: juice only
+          plural: lemons
+          preparation: juiced
         - id: parsley
           key: parsley
-          name: Fresh parsley
-          allowance: for garnish
+          name: fresh parsley
+          allowance: for serving
           uses:
             - step: serve
               share: 1
-          preparation: washed and chopped
+          preparation: chopped
         - id: parmesan
           key: parmesan
-          name: Parmesan cheese
+          name: Parmigiano-Reggiano
           allowance: for serving
           uses:
             - step: serve
               share: 1
           preparation: grated
-        - id: bread
-          key: bread
-          name: Crusty bread
-          allowance: for serving
-          uses:
-            - step: serve
-              share: 1
-          optional: true
-        - id: water
-          key: water
-          name: Water
-          allowance: a splash as needed when reheating
-          optional: true
-          role: cooking-water
-          uses:
-            - step: reheat
-              share: 1
-        - id: reheat-stock
-          key: stock
-          name: Chicken stock
-          allowance: a splash as needed when reheating
-          optional: true
-          uses:
-            - step: reheat
-              share: 1
   steps:
     - id: sausage
-      title: Brown sausage
+      title: Brown the sausage
       text: >-
-        Heat a large skillet over medium-high heat and add {{ingredients}} to
-        the dry pan. For bulk sausage, break into crumbles; for sliced links,
-        turn to brown several faces. Begin checks around 5 minutes, allowing
-        longer as needed. Transfer to a raw-contact plate; browning does not
-        establish that it is cooked through. Keep the plate and utensils
-        separate from serving dishes.
+        Heat a large skillet over medium-high heat. Spread {{ingredients}} in a single layer in the
+        dry pan and let it brown undisturbed for 2 minutes. Break it up or turn the rounds until
+        browned all over, about 5 minutes in all, then move it to a plate.
     - id: aromatics
-      title: Soften onion
+      title: Soften the onion
       text: >-
-        Reduce heat to medium and add {{ingredients}} to the same pan, adding
-        onion to the oil and rendered sausage fat. Cook about 3–5 minutes until
-        softened; allow longer as needed. Keep usable brown bits, but do not
-        scrape burnt residue into the sauce.
-    - id: garlic
-      title: Add garlic
-      text: >-
-        Stir in {{ingredients}} for about 30–45 seconds until fragrant, without
-        darkening.
+        Lower the heat to medium. Add {{ingredients}} to the fat in the pan and cook, stirring,
+        until soft, 3 to 5 minutes.
     - id: paste
-      title: Cook paste and herbs
+      title: Toast the paste
       text: >-
-        Add {{ingredients}} and stir about 1 minute; the paste should coat the
-        mixture without burning.
+        Stir in {{ingredients}}. Cook, stirring constantly, until the garlic is fragrant and the
+        paste darkens slightly, about 1 minute.
     - id: simmer
-      title: Return sausage and simmer
+      title: Simmer with the beans
       text: >-
-        Add {{ingredients}}, scraping up browned bits, then return all sausage
-        and its plate juices. Bring to a simmer, reduce to medium-low and cook
-        about 8–10 minutes to a thickened but saucy mixture. Continue until
-        several thicker pork-sausage pieces or clusters measure at least 160°F
-        /71°C. Do not taste raw-contact sauce before that endpoint; allow longer
-        as needed.
+        Add {{ingredients}} and scrape up the browned bits. Return the sausage and its juices.
+        Simmer over medium-low heat until the broth thickens but stays saucy and the sausage is
+        cooked through, 8 to 10 minutes.
     - id: finish
-      title: Add seasoning and lemon
+      title: Brighten with lemon
       text: >-
-        Once the sausage is fully cooked, remove from heat and add
-        {{ingredients}}. Use the listed kosher salt; different crystal types
-        need different spoon volumes.
+        Take the pan off the heat. Season with {{ingredients}}, squeezing in the juice. Taste and
+        add more salt if it needs it.
     - id: serve
       title: Serve
-      text: >-
-        Spoon into bowls and finish with {{ingredients}}. Serve promptly; store
-        leftovers as described below.
-    - id: reheat
-      title: Reheat stored portions
-      text: >-
-        For leftovers only, choose one of {{ingredients}} for a splash if the
-        sauce has tightened. Reheat the portion served on the stove to 165°F
-        /74°C throughout, stirring and checking several places; a splash loosens
-        the sauce but does not replace the endpoint.
+      text: 'Spoon into bowls and top with {{ingredients}}.'
 learning:
-  focus: Brown sausage and check its doneness in saucy beans
-  outcome: >-
-    Cooked sausage with tender canned beans, a saucy tomato base and the full
-    lemon finish
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Add the listed olive oil with the onion after browning the sausage; keep
-      the rendered sausage fat in the pan.
-    - >-
-      Use enough skillet area for browning and room for both cans of beans and
-      stock. Scaled batches may need additional pans or loads; divide ingredient
-      totals rather than use a full dose per pan.
-    - >-
-      The main uses raw pork sausage. If the chosen Italian-style sausage
-      contains poultry, cook it to 165°F /74°C instead; follow product handling
-      instructions.
-  checkpoints:
-    - step: 5
-      cue: Several thicker pork-sausage pieces measure 160°F before tasting.
-      why: A fixed interval or surface color cannot establish the center condition.
-  troubleshooting:
-    - problem: The sauce tightens before sausage is cooked through
-      cause: Evaporation or strong heat outpaces the thicker pieces
-      fix: >-
-        Lower heat and continue gentle cooking with the written sausage
-        endpoint. Do not sample a raw-contact sauce because its surface has
-        browned; use adequate pan capacity and monitor reduction.
-  substitutions:
-    - ingredient: Dried oregano
-      alternative: >-
-        Use 1 tbsp fresh oregano in place of the listed 1 tsp dried for the
-        original batch.
-      effect: >-
-        Scale the chosen fresh or dried oregano amount with the batch and add it
-        at the paste-and-herb stage; use one option.
-  timing: >-
-    Allow about 30–45 minutes including 10–15 minutes preparation and 20–30
-    minutes for browning, aromatics, paste, heating and simmering. Most skillet
-    work needs attention; scaled batches may require additional browning loads.
-    Continue until the chosen sausage reaches its stated endpoint, even if that
-    extends the plan.
   storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or
-    1 hour above 90°F /32°C, at 40°F /4°C or below. Use refrigerated leftovers
-    within 3–4 days or freeze promptly. Reheat the portion served to 165°F /74°C
-    throughout, stirring and checking several places. USDA additionally
-    recommends a rolling boil for reheated sauces and gravies; bring this dish’s
-    sauce to that stage with stirring, without prolonging the boil and
-    concentrating it unnecessarily. Do not leave a large pot out to cool
-    overnight.
-  sources:
-    - title: USDA — cooling and reheating leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: FoodSafety.gov — sausage and seafood endpoints
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    Leftovers keep 4 days in the fridge and taste even better the next day. Reheat gently with a
+    splash of water or stock.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Sausage, white beans and tomato paste cook into a saucy skillet with oregano, thyme and the full measured olive oil. Brown the sausage for flavor, then check its cooking temperature before tasting the finished sauce. Lemon, parsley and Parmesan finish this formula without requiring the sauce to cook dry.
+Sausage and white beans is Italian home cooking at its simplest. The sausage brings fat and seasoning, the beans soak it up, and a little tomato paste and dried herbs tie it together. The squeeze of lemon at the end is what wakes it up.
 
 ## Directions
 
-1. **Brown sausage:** Heat a large skillet over medium-high heat and add Raw Italian pork sausage, sweet or spicy to the dry pan. For bulk sausage, break into crumbles; for sliced links, turn to brown several faces. Begin checks around 5 minutes, allowing longer as needed. Transfer to a raw-contact plate; browning does not establish that it is cooked through. Keep the plate and utensils separate from serving dishes.
-2. **Soften onion:** Reduce heat to medium and add Extra-virgin olive oil and Onion to the same pan, adding onion to the oil and rendered sausage fat. Cook about 3–5 minutes until softened; allow longer as needed. Keep usable brown bits, but do not scrape burnt residue into the sauce.
-3. **Add garlic:** Stir in Garlic cloves for about 30–45 seconds until fragrant, without darkening.
-4. **Cook paste and herbs:** Add Tomato paste, Dried oregano, Dried thyme, and Red pepper flakes and stir about 1 minute; the paste should coat the mixture without burning.
-5. **Return sausage and simmer:** Add Cannellini or Great Northern beans and Chicken stock, scraping up browned bits, then return all sausage and its plate juices. Bring to a simmer, reduce to medium-low and cook about 8–10 minutes to a thickened but saucy mixture. Continue until several thicker pork-sausage pieces or clusters measure at least 160°F /71°C. Do not taste raw-contact sauce before that endpoint; allow longer as needed.
-6. **Add seasoning and lemon:** Once the sausage is fully cooked, remove from heat and add Kosher salt, Black pepper, and Lemon. Use the listed kosher salt; different crystal types need different spoon volumes.
-7. **Serve:** Spoon into bowls and finish with Fresh parsley, Parmesan cheese, and Crusty bread (if using). Serve promptly; store leftovers as described below.
-8. **Reheat stored portions:** For leftovers only, choose one of Water (if using) and Chicken stock (if using) for a splash if the sauce has tightened. Reheat the portion served on the stove to 165°F /74°C throughout, stirring and checking several places; a splash loosens the sauce but does not replace the endpoint.
+1. **Brown the sausage:** Heat a large skillet over medium-high heat. Spread Italian pork sausage in a single layer in the dry pan and let it brown undisturbed for 2 minutes. Break it up or turn the rounds until browned all over, about 5 minutes in all, then move it to a plate.
+2. **Soften the onion:** Lower the heat to medium. Add extra-virgin olive oil and onion to the fat in the pan and cook, stirring, until soft, 3 to 5 minutes.
+3. **Toast the paste:** Stir in garlic cloves, tomato paste, dried oregano, dried thyme, and red pepper flakes. Cook, stirring constantly, until the garlic is fragrant and the paste darkens slightly, about 1 minute.
+4. **Simmer with the beans:** Add cannellini or Great Northern beans and chicken stock and scrape up the browned bits. Return the sausage and its juices. Simmer over medium-low heat until the broth thickens but stays saucy and the sausage is cooked through, 8 to 10 minutes.
+5. **Brighten with lemon:** Take the pan off the heat. Season with kosher salt, black pepper, and lemon, squeezing in the juice. Taste and add more salt if it needs it.
+6. **Serve:** Spoon into bowls and top with fresh parsley and Parmigiano-Reggiano.

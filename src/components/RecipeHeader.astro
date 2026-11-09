@@ -6,11 +6,13 @@ import { timeBand, formatMinutes } from '../lib/time-band.mjs';
 interface Props {
   recipe: CollectionEntry<'recipes'>;
   baseUrl?: string;
+  /** The chef's note, already rendered as paragraphs. */
+  noteHtml?: string;
 }
-const { recipe, baseUrl = import.meta.env.BASE_URL } = Astro.props;
+const { recipe, baseUrl = import.meta.env.BASE_URL, noteHtml = '' } = Astro.props;
 const { data } = recipe;
 const time = timeBand(data.totalTime);
-// A cook-written time keeps its own words ("plus cooling"); only the colour comes from the estimate.
+// A cook-written time keeps its own words ("plus cooling"); only the color comes from the estimate.
 const totalText = time.exact ? formatMinutes(time.minutes) : data.totalTime;
 const splitTimes = [
   data.prepTime && `Prep ${data.prepTime}`,
@@ -18,6 +20,23 @@ const splitTimes = [
 ]
   .filter(Boolean)
   .join(' · ');
+// "6" and "6 portions" both read as Serves 6.
+const servesMatch = String(data.servings || '').match(
+  /^([\d\s–-]+?)(?:\s+(?:portions?|servings?))?$/
+);
+const serves = servesMatch ? servesMatch[1].trim() : '';
+const dietaryLabels: Record<string, string> = {
+  vegan: 'Vegan',
+  vegetarian: 'Vegetarian',
+  pescatarian: 'Pescatarian',
+  'gluten-free': 'Gluten-free',
+  'dairy-free': 'Dairy-free',
+  'egg-free': 'Egg-free',
+  'nut-free': 'Nut-free',
+  'low-carb': 'Low-carb',
+  keto: 'Keto',
+};
+const dietary = (data.dietary || []).map((tag) => dietaryLabels[tag]).filter(Boolean);
 ---
 
 <div data-recipe-header class:list={{ 'has-art': !!dishVisuals[recipe.slug] }}>
@@ -29,29 +48,17 @@ const splitTimes = [
   </nav>
   <div class="recipe-intro">
     <h1>{data.title}</h1>
-    {data.description && <p class="recipe-description">{data.description}</p>}
     <dl class="recipe-facts">
       <div class="fact fact-time" data-band={time.band}>
         <dt>Total</dt>
-        <dd>
-          {totalText || 'Not listed'}
-          {
-            time.level > 0 && (
-              <span class="time-meter" data-level={time.level} aria-hidden="true">
-                <i />
-                <i />
-                <i />
-              </span>
-            )
-          }
-        </dd>
+        <dd>{totalText || 'Not listed'}</dd>
         {splitTimes && <p class="fact-note">{splitTimes}</p>}
       </div>
       {
         data.servings && (
           <div class="fact">
-            <dt>{/^[\d\s–-]+$/.test(String(data.servings)) ? 'Serves' : 'Makes'}</dt>
-            <dd data-header-yield="">{data.servings}</dd>
+            <dt>{serves ? 'Serves' : 'Makes'}</dt>
+            <dd data-header-yield="">{serves || data.servings}</dd>
           </div>
         )
       }
@@ -64,38 +71,16 @@ const splitTimes = [
         )
       }
     </dl>
-    {data.learning && <p class="timing-note">{data.learning.timing}</p>}
-    <details class="recipe-details">
-      <summary>Recipe details & dietary notes</summary>
-      <dl>
-        {
-          [
-            ['Cuisine', data.cuisines?.join(', ')],
-            ['Methods', data.cookingMethods?.join(', ')],
-            ['Dietary tags', data.dietary?.join(', ')],
-            ['Equipment', data.equipment?.map((x) => x.replaceAll('-', ' ')).join(', ')],
-            ['Make ahead', data.advancePrep?.map((x) => x.replaceAll('-', ' ')).join(', ')],
-          ]
-            .filter(([, value]) => value)
-            .map(([label, value]) => (
-              <div>
-                <>
-                  <dt>{label}</dt>
-                  <dd>{value}</dd>
-                </>
-              </div>
-            ))
-        }
-      </dl>
-      {
-        data.dietary?.length && (
-          <p>
-            Tags describe the listed ingredients and noted options. Check packaged ingredients and
-            substitutions for your dietary needs.
-          </p>
-        )
-      }
-    </details>
+    {
+      dietary.length > 0 && (
+        <ul class="diet-tags" aria-label="Dietary">
+          {dietary.map((label) => (
+            <li>{label}</li>
+          ))}
+        </ul>
+      )
+    }
+    {noteHtml && <div class="recipe-note" set:html={noteHtml} />}
   </div>
   {
     dishVisuals[recipe.slug] && (
@@ -172,12 +157,6 @@ const splitTimes = [
     margin: 0.4rem 0 1.2rem;
     text-wrap: balance;
   }
-  .recipe-description {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: var(--text-secondary);
-    max-width: 660px;
-  }
   .recipe-facts {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
@@ -233,32 +212,35 @@ const splitTimes = [
     margin-top: 0.35rem;
     line-height: 1.4;
   }
-  .timing-note {
-    font-size: 0.82rem;
-    color: var(--text-secondary);
-    line-height: 1.6;
-    margin-top: 1rem;
+  .diet-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    padding: 0;
+    margin: 0.8rem 0 0;
   }
-  .recipe-details {
-    margin: 1rem 0;
-    font-size: 0.85rem;
-  }
-  summary {
-    cursor: pointer;
-    padding: 0.6rem 0;
-    color: var(--accent-gold);
-  }
-  .recipe-details summary {
-    font-weight: 600;
-  }
-  .recipe-details dl {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    margin: 1rem 0;
-  }
-  .recipe-details p {
-    color: var(--text-secondary);
+  .diet-tags li {
     font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.2rem 0.7rem;
+    border-radius: var(--pill);
+    background: var(--wash);
+    color: var(--text-primary);
+  }
+  .recipe-note {
+    max-width: 660px;
+    margin-top: 1.4rem;
+  }
+  .recipe-note :global(p) {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+    margin: 0 0 0.8rem;
+  }
+  .recipe-note :global(a) {
+    color: var(--accent-link);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
   }
 </style>

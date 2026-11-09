@@ -33,25 +33,10 @@ export function reviewRecipe({ slug, data, content }, knownSlugs) {
       add('broken-body-link', 'error', `Unknown recipe in body: ${link[1]}`);
   const learning = data.learning;
   if (!learning)
-    add(
-      'teaching-review-needed',
-      'review',
-      'Add individually reviewed outcomes, preparation, step cues and reasons, troubleshooting, substitutions, storage, timing, and sources.'
-    );
+    add('review-needed', 'review', 'Review the recipe against docs/RECIPE_PAGE_STYLE.md.');
   else {
-    for (const field of ['focus', 'outcome', 'storage', 'timing'])
-      if (!learning[field]?.trim())
-        add('incomplete-learning', 'error', `Learning field ${field} is empty.`);
-    for (const field of ['before', 'checkpoints', 'troubleshooting', 'techniques', 'sources'])
-      if (!learning[field]?.length)
-        add('incomplete-learning', 'error', `Learning field ${field} needs entries.`);
-    for (const point of learning.checkpoints || [])
-      if (!Number.isInteger(point.step) || point.step < 1 || point.step > steps.length)
-        add(
-          'invalid-checkpoint',
-          'error',
-          `Checkpoint points to step ${point.step}; method has ${steps.length} steps.`
-        );
+    if (!learning.techniques?.length)
+      add('incomplete-learning', 'error', 'Learning field techniques needs entries.');
     if (!['editorial-review', 'kitchen-tested'].includes(learning.review?.status))
       add('missing-review-status', 'error', 'A supported review status is required.');
     if (learning.review?.status === 'kitchen-tested' && !learning.review.testNotes?.trim())
@@ -60,14 +45,6 @@ export function reviewRecipe({ slug, data, content }, knownSlugs) {
         'error',
         'Kitchen-tested requires a documented kitchen test.'
       );
-    for (const source of learning.sources || []) {
-      try {
-        const url = new URL(source.url);
-        if (!['https:', 'http:'].includes(url.protocol)) throw new Error();
-      } catch {
-        add('invalid-source', 'error', 'Source needs a valid HTTP(S) URL.');
-      }
-    }
   }
   // Triage signals, never a food safety certification or a culinary score.
   const rawPoultry = (data.ingredients || []).some(

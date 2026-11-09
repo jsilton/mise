@@ -18,9 +18,9 @@ cuisines:
   - Chinese
 role: main
 vibe: comfort
-prepTime: About 15–20 min active preparation
-cookTime: About 10–15 min cooking
-totalTime: About 25–35 min; rice prepared separately
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
 servings: 4 portions
 seasons:
   - year-round
@@ -29,15 +29,18 @@ leftovers: good
 equipment:
   - wok
 pairsWith:
-  - basmati-rice
-  - steamed-broccoli
+  - steamed-white-rice
+  - steamed-bok-choy-with-oyster-sauce
+pairingNotes:
+  steamed-white-rice: Plain rice to soak up the egg-ribbon sauce.
+  steamed-bok-choy-with-oyster-sauce: A crisp green to balance the savory sauce.
 ingredients:
   - '--- Pan base ---'
   - 1 tbsp neutral oil
   - 1/4 lb ground pork
   - '2 garlic cloves, minced'
-  - '1 tbsp fermented black beans (douchi), quickly rinsed, drained and mashed'
-  - '1 lb shrimp, raw, peeled and deveined'
+  - '1 tbsp fermented black beans (douchi), rinsed, drained and mashed'
+  - '1 lb shrimp, peeled and deveined'
   - 1 tbsp Shaoxing wine
   - '--- Sauce ---'
   - 1 cup chicken stock
@@ -50,7 +53,7 @@ ingredients:
   - 2 tbsp cold water
   - '--- Finish ---'
   - '1 large egg, beaten'
-  - 'green onions, washed and chopped, as wanted for garnish'
+  - 'green onions, chopped, for garnish'
 origin: China
 formula:
   version: 1
@@ -99,7 +102,7 @@ formula:
           uses:
             - step: aromatics
               share: 1
-          preparation: 'quickly rinsed, drained and mashed'
+          preparation: 'rinsed, drained and mashed'
         - id: shrimp
           key: shrimp
           name: shrimp
@@ -109,7 +112,7 @@ formula:
           uses:
             - step: shrimp
               share: 1
-          preparation: 'raw, peeled and deveined'
+          preparation: peeled and deveined
         - id: wine
           key: wine
           name: Shaoxing wine
@@ -206,128 +209,75 @@ formula:
         - id: scallion
           key: scallion
           name: green onions
-          allowance: 'washed and chopped, as wanted for garnish'
+          allowance: 'chopped, for garnish'
           uses:
             - step: serve
               share: 1
   steps:
     - id: prep
-      title: Prepare slurry
-      text: >-
-        Whisk {{ingredients}} smooth in a small bowl. Have the prepared beans, garlic, shrimp and
-        beaten egg ready before cooking.
+      title: Mix the slurry
+      text: 'Whisk {{ingredients}} in a small bowl until smooth.'
     - id: pork
-      title: Cook pork
+      title: Brown the pork
       text: >-
-        Cook {{ingredients}}: warm the oil in a wok or large skillet over medium-high heat, add pork
-        and break it into small crumbles. Cook until browned, beginning to check around 5 minutes; a
-        crisp surface or disappearance of pink is not the final endpoint. Keep cooking promptly
-        through the following steps.
+        Heat a wok over medium-high heat. Add {{ingredients}} and break the pork into small
+        crumbles. Cook until browned and a little crisp, about 5 minutes.
     - id: aromatics
-      title: Add aromatics
-      text: >-
-        Stir in {{ingredients}} and cook about 1 minute until fragrant, reducing heat before the
-        garlic scorches.
+      title: Add the aromatics
+      text: 'Add {{ingredients}} and stir until fragrant, about 1 minute.'
     - id: shrimp
-      title: Start shrimp
+      title: Stir-fry the shrimp
       text: >-
-        Add {{ingredients}}, pouring the wine around the hot edge of the pan, and stir-fry about 2
-        minutes until the outside changes color. The shrimp continue cooking in sauce; pink alone is
-        not the endpoint.
+        Turn the heat to high. Add {{ingredients}}, pouring the wine around the hot edge of the wok.
+        Stir-fry until the shrimp turn pink on the outside, about 2 minutes.
     - id: simmer
-      title: Simmer and thicken
+      title: Thicken the sauce
       text: >-
-        Pour in {{ingredients}} and bring to a simmer. Re-stir the prepared slurry and stir all of
-        it into the simmering sauce. Simmer about 1 minute, until the starch is cooked and the sauce
-        coats a spoon; continue as needed rather than promising immediate gloss.
+        Pour in {{ingredients}} and bring to a boil. Stir the slurry again and stir it in. Simmer
+        until the sauce turns glossy and coats a spoon, about 1 minute.
     - id: egg
-      title: Set egg ribbons
+      title: Make the egg ribbons
       text: >-
-        Keep the sauce at a gentle simmer. Pour {{ingredients}} in a thin stream over the surface;
-        let the ribbons begin to set before folding gently. Continue cooking until the pork and egg
-        sauce reach 160°F / 71°C and the thickest shrimp have firm, pearly, opaque centers. Keep
-        heat on as needed; a 30-second off-heat stand does not certify cooking.
+        Lower the heat so the sauce barely simmers. Drizzle the beaten {{ingredients}} in a thin
+        stream over the surface and let the ribbons set for 30 seconds before folding them in
+        gently. The shrimp should be opaque all the way through.
     - id: serve
       title: Serve
-      text: >-
-        Garnish with {{ingredients}} and serve promptly over separately prepared white rice if
-        wanted.
+      text: 'Scatter {{ingredients}} over the top and serve right away.'
 learning:
-  focus: Set egg ribbons in a hot pork-and-black-bean sauce
-  outcome: Cooked shrimp in a spoon-coating sauce with distinct egg ribbons.
   techniques:
     - gentle-proteins
     - starch
-  before:
-    - >-
-      Use raw, peeled, deveined shrimp. Thaw frozen shrimp in the refrigerator, or sealed in a bag
-      in cold water and cook promptly. Keep raw-contact dishes and utensils away from cooked food.
-    - 'Prepare the measured cool slurry before cooking, then re-stir before adding.'
-    - >-
-      Use adequate pan capacity when scaling; divide all ingredients among complete loads and beat a
-      fractional egg before measuring its portion.
-  checkpoints:
-    - step: 5
-      cue: Sauce coats a spoon after the slurry has simmered.
-      why: Cornstarch settles in its bowl and needs stirring and heat.
-    - step: 6
-      cue: Ribbons hold their shape and the pork/egg temperature and shrimp-center checks are met.
-      why: Egg texture alone and residual warmth do not establish the full cooking endpoint.
-  troubleshooting:
-    - problem: Egg becomes tiny flecks
-      cause: It was stirred vigorously before ribbons set.
-      fix: >-
-        Pour in a thin stream, let ribbons begin to set, then fold gently while maintaining the
-        required cooking endpoint.
   substitutions:
     - ingredient: Shaoxing wine
-      alternative: The same amount of dry sherry
-      effect: 'Close in nutty, savory aroma. Avoid cooking sherry, which is salted.'
-    - ingredient: Fermented black beans (douchi)
+      alternative: Dry sherry
+      effect: 'Use the same amount. Skip cooking sherry, which is salted.'
+    - ingredient: fermented black beans (douchi)
       alternative: 1 1/2 tbsp jarred black bean garlic sauce
       effect: >-
-        Easier to find and already mashed, with added garlic and salt. Cut the soy sauce to 2 tsp
-        when using it, then adjust to taste after the sauce thickens.
-    - ingredient: Dark soy sauce
-      alternative: The same listed teaspoon amount of molasses instead of dark soy sauce
+        Easier to find and already mashed, with garlic and salt added. Cut the soy sauce to 2 tsp
+        when you use it.
+    - ingredient: dark soy sauce
+      alternative: Molasses
       effect: >-
-        Changes sweetness and salt as well as color; replaces dark soy, not ordinary soy sauce. Do
-        not claim an identical flavor.
-  timing: >-
-    About 15–20 min active preparation; About 10–15 min cooking; About 25–35 min; rice prepared
-    separately. Planning ranges assume peeled, thawed shrimp and prepared ingredients; additional
-    loads or side dishes add time.
-  storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
-    above 90°F). Use within 3–4 days. Reheat while stirring gently for even heating and check 165°F
-    / 74°C throughout. USDA additionally recommends bringing leftover sauces and gravies to a
-    rolling boil; stir so heat reaches the whole sauce and stop after that brief boil rather than
-    reducing it for a long time. Prolonged boiling can concentrate the sauce and firm the shrimp and
-    egg ribbons. These are handling recommendations, not a promise of unchanged texture.
-  sources:
-    - title: FDA — Selecting and serving seafood safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FoodSafety.gov — Safe minimum cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Handling leftovers safely
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+        Use the same amount. It gives the same dark color with a little more sweetness and less
+        salt.
+  storage: 'Keeps 3 days in the fridge. Reheat gently over medium-low heat, stirring, until hot through.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This dark, pork-and-douchi version follows a Boston-Chinese style; it contains shrimp, not lobster. Pour beaten egg over gently simmering sauce and give the ribbons time to form before folding. Keep heat available until the pork and egg sauce reach their cooking endpoint.
+Shrimp with lobster sauce is a Chinese-American classic, named for the Cantonese sauce once spooned over lobster. There is no lobster in it. This is the darker East Coast style, built on ground pork and fermented black beans and finished with silky ribbons of egg.
 
 ## Directions
 
-1. **Prepare slurry:** Whisk cornstarch and cold water smooth in a small bowl. Have the prepared beans, garlic, shrimp and beaten egg ready before cooking.
-2. **Cook pork:** Cook neutral oil and ground pork: warm the oil in a wok or large skillet over medium-high heat, add pork and break it into small crumbles. Cook until browned, beginning to check around 5 minutes; a crisp surface or disappearance of pink is not the final endpoint. Keep cooking promptly through the following steps.
-3. **Add aromatics:** Stir in garlic cloves and fermented black beans (douchi) and cook about 1 minute until fragrant, reducing heat before the garlic scorches.
-4. **Start shrimp:** Add shrimp and Shaoxing wine, pouring the wine around the hot edge of the pan, and stir-fry about 2 minutes until the outside changes color. The shrimp continue cooking in sauce; pink alone is not the endpoint.
-5. **Simmer and thicken:** Pour in chicken stock, soy sauce, dark soy sauce, sugar, and ground white pepper and bring to a simmer. Re-stir the prepared slurry and stir all of it into the simmering sauce. Simmer about 1 minute, until the starch is cooked and the sauce coats a spoon; continue as needed rather than promising immediate gloss.
-6. **Set egg ribbons:** Keep the sauce at a gentle simmer. Pour large egg in a thin stream over the surface; let the ribbons begin to set before folding gently. Continue cooking until the pork and egg sauce reach 160°F / 71°C and the thickest shrimp have firm, pearly, opaque centers. Keep heat on as needed; a 30-second off-heat stand does not certify cooking.
-7. **Serve:** Garnish with green onions and serve promptly over separately prepared white rice if wanted.
+1. **Mix the slurry:** Whisk cornstarch and cold water in a small bowl until smooth.
+2. **Brown the pork:** Heat a wok over medium-high heat. Add neutral oil and ground pork and break the pork into small crumbles. Cook until browned and a little crisp, about 5 minutes.
+3. **Add the aromatics:** Add garlic cloves and fermented black beans (douchi) and stir until fragrant, about 1 minute.
+4. **Stir-fry the shrimp:** Turn the heat to high. Add shrimp and Shaoxing wine, pouring the wine around the hot edge of the wok. Stir-fry until the shrimp turn pink on the outside, about 2 minutes.
+5. **Thicken the sauce:** Pour in chicken stock, soy sauce, dark soy sauce, sugar, and ground white pepper and bring to a boil. Stir the slurry again and stir it in. Simmer until the sauce turns glossy and coats a spoon, about 1 minute.
+6. **Make the egg ribbons:** Lower the heat so the sauce barely simmers. Drizzle the beaten large egg in a thin stream over the surface and let the ribbons set for 30 seconds before folding them in gently. The shrimp should be opaque all the way through.
+7. **Serve:** Scatter green onions over the top and serve right away.
