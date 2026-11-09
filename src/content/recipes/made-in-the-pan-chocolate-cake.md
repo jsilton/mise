@@ -26,29 +26,26 @@ cuisines:
 role: dessert
 vibe: technical
 prepTime: 10 min
-cookTime: 28–33 min
-totalTime: '38–43 min, plus cooling and any remaining preheating'
+cookTime: 30 min
+totalTime: '40 min, plus cooling'
 servings: 9 portions
 ingredients:
-  - '--- Cake ---'
   - 1 1/4 cups all-purpose flour
   - 1 cup granulated sugar
   - 1/3 cup unsweetened cocoa powder
   - 3/4 tsp baking soda
   - 1/2 tsp sea salt
   - 1/3 cup canola or avocado oil
-  - 1 tsp pure vanilla extract
+  - 1 tsp vanilla extract
   - 1 tsp apple cider vinegar
-  - '1 cup water, cold'
+  - 1 cup cold water
   - 2 tbsp semisweet chocolate chips
-  - '--- Optional finish ---'
-  - 'confectioners’ sugar, a light dusting after cooling, optional'
+  - 'confectioners’ sugar, for dusting, optional'
 pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - blackout-chocolate-cake
-  - classic-peach-ice-cream
-source: Adapted from cooking.nytimes.com
+  - old-fashioned-vanilla-ice-cream
+pairingNotes:
+  old-fashioned-vanilla-ice-cream: A scoop of ice cream on each square.
+source: Adapted from NYT Cooking
 sourceUrl: 'https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake'
 formula:
   version: 1
@@ -115,7 +112,7 @@ formula:
               share: 1
         - id: vanilla
           key: vanilla
-          name: pure vanilla extract
+          name: vanilla extract
           quantity:
             amount: 1
             unit: tsp
@@ -133,14 +130,13 @@ formula:
               share: 1
         - id: water
           key: water
-          name: water
+          name: cold water
           quantity:
             amount: 1
             unit: cup
           uses:
             - step: mix
               share: 1
-          preparation: cold
           role: cooking-water
         - id: chips
           key: chips
@@ -151,13 +147,10 @@ formula:
           uses:
             - step: top
               share: 1
-    - id: serving
-      name: Optional finish
-      ingredients:
         - id: powdered
           key: powdered
           name: confectioners’ sugar
-          allowance: a light dusting after cooling
+          allowance: for dusting
           uses:
             - step: finish
               share: 1
@@ -165,112 +158,55 @@ formula:
           role: garnish
   steps:
     - id: dry
-      title: Prepare and mix dry ingredients
+      title: Mix the dry ingredients
       text: >-
-        Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal
-        baking dish. Whisk {{ingredients}} directly in the dish until evenly combined, breaking up
-        cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth;
-        do not put extra full batches into this one pan.
+        Heat the oven to 325°F. Whisk {{ingredients}} right in an 8-inch square baking dish,
+        breaking up any cocoa lumps with your fingers.
     - id: wells
-      title: Add the oil and flavorings
-      text: >-
-        Make three wells in the dry mixture and divide {{ingredients}} between them: oil in one,
-        vanilla in another and vinegar in the third.
+      title: Make three wells
+      text: 'Make three wells in the dry mixture. Pour {{ingredients}} into them, one in each well.'
     - id: mix
       title: Mix the batter
       text: >-
-        Pour {{ingredients}} over everything. Stir slowly with a fork or small whisk, mashing lumps
-        and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread
-        evenly.
+        Pour {{ingredients}} over everything. Stir with a fork, scraping the bottom and corners,
+        until the batter is smooth with no dry pockets. Spread it evenly.
     - id: top
-      title: Add the chocolate
+      title: Add the chips
       text: >-
-        Sprinkle {{ingredients}} over the batter. Wipe batter off the pan rim with a damp paper
+        Sprinkle {{ingredients}} over the batter and wipe the rim of the dish clean with a damp
         towel.
     - id: bake
       title: Bake
-      text: >-
-        Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into
-        the center should come out mostly clean with a few cake crumbs, rather than coated in wet
-        batter. Pan material, depth and oven loads can change the time.
+      text: 'Bake until a toothpick in the center comes out with a few moist crumbs, 28 to 33 minutes.'
     - id: finish
-      title: Cool and finish
-      text: >-
-        Let the cake cool before cutting into portions. Dust with {{ingredients}} if desired; it is
-        optional.
+      title: Cool and dust
+      text: 'Cool the cake in the dish. Dust with {{ingredients}} just before serving.'
 learning:
-  focus: Mixing a complete egg-free batter in the baking pan.
-  outcome: An evenly mixed chocolate cake whose center has cake crumbs rather than raw batter.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Use the original 8×8-inch pan for the original batch; scaling requires proportional pan area
-      and an endpoint check, not a longer clock alone. Nine portions are the original-batch planning
-      yield; the original source allows 9–12 cuts for that batch.
-    - Do not taste raw batter. Wash hands and tools after handling raw flour or eggs.
-  checkpoints:
-    - step: 3
-      cue: No dry flour or cocoa pockets remain at the pan corners.
-      why: 'The pan replaces a mixing bowl, so its corners need deliberate scraping.'
-    - step: 5
-      cue: The center tester carries a few cake crumbs without wet batter.
-      why: Chocolate color alone cannot show whether the center has baked.
-  troubleshooting:
-    - problem: Dry pockets remain in the baked corners.
-      cause: Batter was not scraped and mixed across the entire dish.
-      fix: >-
-        Before baking, scrape the bottom and all corners and mash remaining dry lumps into the full
-        listed liquid.
-    - problem: Center is still wet at the end of the range.
-      cause: 'Pan depth, material or oven conditions differ.'
-      fix: >-
-        Continue baking and recheck the center; do not cut a wet-batter cake merely because the
-        timer ended.
   substitutions:
     - ingredient: Apple cider vinegar
-      alternative: Same listed amount of white vinegar
-      effect: 'A complete vinegar replacement, with the other batter quantities unchanged.'
+      alternative: White vinegar
+      effect: Use the same amount. The cake tastes the same.
     - ingredient: Semisweet chocolate chips
-      alternative: 'Omit, or use the same listed amount of vegan chips'
-      effect: >-
-        The chocolate is an optional topping in the original recipe; check chip ingredients for a
-        vegan choice.
-  storage: >-
-    Cool before covering. Follow the storage requirements of any separately added perishable
-    topping.
-  timing: >-
-    Ten minutes of preparation plus 28–33 minutes of baking gives a 38–43-minute subtotal.
-    Preheating starts during preparation; any heating still needed before loading extends that
-    subtotal. Cooling before cutting is additional and has no measured duration here.
-  sources:
-    - title: NYT — Made-In-The-Pan Chocolate Cake
-      url: 'https://cooking.nytimes.com/recipes/1020063-made-in-the-pan-chocolate-cake'
-    - title: FDA — handling raw flour
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know'
+      alternative: Dairy-free chocolate chips
+      effect: 'The cake has no eggs or butter, so this makes it vegan.'
+  storage: Keeps 3 days covered at room temperature.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Mixing directly in the pan works only if the corners and bottom are scraped thoroughly. The vinegar and baking soda provide leavening in this egg-free batter; cold water is retained here, but it is not required to “bloom” the cocoa. Use the full listed oil and sugar, and judge the center with a toothpick rather than the color of the chocolate surface.
+This is a wacky cake, the old American chocolate cake made with no eggs or butter and mixed right in the baking dish. Vinegar and baking soda give it lift and oil keeps it moist for days. The only trick is scraping the corners so no dry flour hides there.
 
 ## Directions
 
-1. **Prepare and mix dry ingredients:** Preheat the oven to 325°F. For the original batch use an 8×8-inch square glass or metal baking dish. Whisk all-purpose flour, granulated sugar, unsweetened cocoa powder, baking soda, and sea salt directly in the dish until evenly combined, breaking up cocoa lumps. When scaling, use enough proportional pan area to keep a similar batter depth; do not put extra full batches into this one pan.
-2. **Add the oil and flavorings:** Make three wells in the dry mixture and divide canola or avocado oil, pure vanilla extract, and apple cider vinegar between them: oil in one, vanilla in another and vinegar in the third.
-3. **Mix the batter:** Pour water over everything. Stir slowly with a fork or small whisk, mashing lumps and scraping the bottom, sides and corners until the batter is smooth and uniform. Spread evenly.
-4. **Add the chocolate:** Sprinkle semisweet chocolate chips over the batter. Wipe batter off the pan rim with a damp paper towel.
-5. **Bake:** Wait until the oven reaches 325°F, then bake for 28–33 minutes. A toothpick inserted into the center should come out mostly clean with a few cake crumbs, rather than coated in wet batter. Pan material, depth and oven loads can change the time.
-6. **Cool and finish:** Let the cake cool before cutting into portions. Dust with confectioners’ sugar (if using) if desired; it is optional.
-
-## Cooking Notes
-
-### Vinegar and chocolate options
-
-Use the same listed amount of white vinegar instead of apple cider vinegar if desired. Keep the full water, oil, flour and leavening amounts. The chocolate topping may be omitted, or the same listed amount of vegan chocolate chips may replace the semisweet chips. A vegan version requires checking the selected chips; the powdered-sugar finish is optional.
-
-For the original batch, the source uses ½ tsp kosher salt rather than the listed ½ tsp sea salt, but it does not identify a salt density or a fine-salt equivalent. Those spoon volumes are not a demonstrated conversion; keep the listed sea salt for this version.
+1. **Mix the dry ingredients:** Heat the oven to 325°F. Whisk all-purpose flour, granulated sugar, unsweetened cocoa powder, baking soda, and sea salt right in an 8-inch square baking dish, breaking up any cocoa lumps with your fingers.
+2. **Make three wells:** Make three wells in the dry mixture. Pour canola or avocado oil, vanilla extract, and apple cider vinegar into them, one in each well.
+3. **Mix the batter:** Pour cold water over everything. Stir with a fork, scraping the bottom and corners, until the batter is smooth with no dry pockets. Spread it evenly.
+4. **Add the chips:** Sprinkle semisweet chocolate chips over the batter and wipe the rim of the dish clean with a damp towel.
+5. **Bake:** Bake until a toothpick in the center comes out with a few moist crumbs, 28 to 33 minutes.
+6. **Cool and dust:** Cool the cake in the dish. Dust with confectioners’ sugar (if using) just before serving.

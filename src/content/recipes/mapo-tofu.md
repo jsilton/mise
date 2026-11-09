@@ -31,120 +31,71 @@ equipment:
   - medium-saucepan
   - small-bowl
 prepTime: 15 min
-cookTime: 20–30 min
-totalTime: 35–45 min
+cookTime: 25 min
+totalTime: 40 min
 servings: '4'
 pairsWith:
   - steamed-white-rice
   - smashed-cucumber-salad
-  - chinese-eggplant-with-garlic-sauce
+  - steamed-bok-choy-with-oyster-sauce
+pairingNotes:
+  steamed-white-rice: Plain rice to carry the spicy sauce.
+  smashed-cucumber-salad: Cool cucumbers to calm the heat.
+  steamed-bok-choy-with-oyster-sauce: A simple green vegetable for the table.
 ingredients:
-  - '1 block (14 oz) Medium-Firm Tofu, cut into 3/4-inch cubes'
-  - 6 oz Ground Pork
-  - 2 tbsp Doubanjiang (Pixian chili bean paste)
-  - '1 tbsp Fermented Black Beans, rinsed and roughly chopped'
-  - '1 tbsp Sichuan Peppercorns, toasted and ground'
-  - '4 cloves Garlic, minced'
-  - '1 tbsp Fresh Ginger, minced'
-  - '2 Green Onions, white and green parts separated, thinly sliced'
-  - 2 tbsp Neutral Oil
-  - 1 tbsp Soy Sauce
-  - 1 tsp Sugar
-  - 3/4 cup Low-Sodium Chicken Broth
-  - '1 tbsp cornstarch, mixed with the separately measured slurry water'
-  - '2 tbsp water, for the cornstarch slurry'
-  - 1 tsp Toasted Sesame Oil
-  - '1 tsp Chili Oil, for drizzling'
-  - 'Water, enough for the tofu bath; drained and discarded'
-  - 'Salt, to taste, for the tofu bath; drained and discarded'
+  - '1 block (14 oz) medium-firm tofu, cut into 3/4-inch cubes'
+  - 6 oz ground pork
+  - 2 tbsp doubanjiang (Pixian chili bean paste)
+  - '1 tbsp fermented black beans, rinsed and roughly chopped'
+  - '1 tbsp Sichuan peppercorns, toasted and ground'
+  - '4 garlic cloves, minced'
+  - '1 tbsp fresh ginger, minced'
+  - '2 scallions, whites and greens separated, thinly sliced'
+  - 2 tbsp neutral oil
+  - 1 tbsp soy sauce
+  - 1 tsp sugar
+  - 3/4 cup low-sodium chicken broth
+  - '1 tbsp cornstarch, mixed with 2 tbsp cold water'
+  - 1 tsp toasted sesame oil
+  - 1 tsp chili oil
+  - 'kosher salt, for the tofu water'
 learning:
-  focus: Thicken pork sauce while keeping tofu cubes intact
-  outcome: >-
-    Warm intact tofu cubes with cooked pork, a clinging sauce and all the Sichuan-pepper and
-    scallion finish.
   techniques:
     - starch
     - gentle-proteins
-  before:
-    - Have the slurry mixed before cooking; its cold water is separate from the discarded tofu bath.
-    - >-
-      Medium-firm tofu is this written formula, not a universal Mapo requirement. Keep raw-pork
-      utensils away from the uncooked scallion garnish.
-  checkpoints:
-    - step: 5
-      cue: Pork-containing areas check 160°F while tofu stays intact.
-      why: Browning and a five-minute sauce clock do not replace a measured ground-pork endpoint.
-    - step: 6
-      cue: The re-stirred slurry thickens the simmering sauce without vigorous tofu stirring.
-      why: Cornstarch settles; gentle movements protect the cubes.
-  troubleshooting:
-    - problem: Tofu crumbles.
-      cause: Aggressive stirring or a softer product.
-      fix: Use spooning and gentle nudging; broken cubes cannot be put back together.
-    - problem: Paste or garlic tastes burnt.
-      cause: High heat after the liquid has reduced or while spices sit against the pan.
-      fix: Lower heat promptly; scorched paste is not repaired by adding more broth.
   substitutions:
     - ingredient: Doubanjiang (Pixian chili bean paste)
       alternative: 1 tbsp red miso plus 1 tbsp chili-garlic sauce
       effect: >-
-        Gives a similar salty, savory heat but less of the deep fermented-bean flavor. Fry it the
-        same way over slightly lower heat, since miso scorches faster.
+        Salty and spicy, with less of the deep fermented-bean flavor. Fry it over slightly lower
+        heat, since miso scorches faster.
     - ingredient: Fermented black beans
-      alternative: 1 tsp red miso plus 1 tsp soy sauce, or leave them out
-      effect: >-
-        Adds back some salty, funky depth. The sauce is still good without them, just a little
-        less layered.
+      alternative: 1 tsp red miso plus 1 tsp soy sauce
+      effect: Adds back some salty, funky depth. The sauce is still good without them.
     - ingredient: Sichuan peppercorns
-      alternative: No true supermarket substitute
+      alternative: No true substitute
       effect: >-
-        Nothing else gives the tingling, numbing finish. Order them online or buy them at an Asian
-        grocery, where they keep for months in a sealed jar. Leaving them out makes a tasty spicy
-        pork and tofu dish without the mala character.
+        Nothing else gives the tingling, numbing finish. Asian grocers and online shops sell them,
+        and they keep for months in a sealed jar.
     - ingredient: Medium-firm tofu
       alternative: Soft or silken tofu
-      effect: >-
-        Mapo tofu can use softer tofu; lift with a wide spoon and avoid vigorous stirring. Texture
-        and breakage differ. Keep the same full broth, pork, fat and seasoning amounts.
-  timing: >-
-    Plan about 35–45 minutes including 15 minutes preparation, water heat-up, the 2–3-minute tofu
-    bath and roughly 15–25 minutes sauce cooking and finishing. Use enough roomy vessels for the
-    listed batch; rice and bok choy, if serving them, have separate preparation and clocks.
-  storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above
-    90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or
-    stew to a boil when reheating, stirring so the center heats too; this is separate from the
-    first-cook instructions.
-  sources:
-    - title: Mise — Mapo Tofu
-      url: >-
-        https://github.com/jsilton/mise/blob/fd4f07a836d811739118df904c5e6cc8b1fd593e/src/content/recipes/mapo-tofu.md
-    - title: Kaitlin Leung — Softer tofu and gentle Mapo handling
-      url: 'https://thewoksoflife.com/ma-po-tofu-real-deal/'
-    - title: FoodSafety.gov — Ground-meat temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — Produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+      effect: Silkier and closer to what Sichuan cooks use, but fragile. Move it with a wide spoon.
+  storage: Keeps 3 days in the fridge. Reheat gently on the stove until bubbling.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Sichuan peppercorns and doubanjiang give mapo tofu its numbing, spicy character. This version uses medium-firm tofu, briefly warmed in salted water and then handled gently in the pork sauce. Softer tofu can also be used for mapo tofu, but needs more careful handling; it is not inherently a mistake. Cook the bean paste in the existing oil and pork fat until fragrant without scorching, and keep the tofu intact with gentle spooning rather than vigorous stirring.
+Mapo tofu is Sichuan's famous numbing, spicy tofu, with a little ground pork in a red chili bean sauce. Frying the doubanjiang in oil until the oil turns red builds the dish's color and depth, and a last shower of toasted Sichuan pepper brings the tingle.
 
 ## Directions
 
-1. **Parcook the tofu:** Wash the scallions before slicing. Mix the separately measured slurry cornstarch and cold water in a small bowl and set aside. Bring enough tofu-bath water to cover the cubes to a gentle boil and season it with the bath salt allowance to taste. Slide in all the tofu and simmer 2–3 minutes, then lift and drain gently; discard this bath water.
-2. **Cook the pork:** Heat all the neutral oil in a wok or large skillet over medium-high heat. Add all ground pork and break into small crumbles, beginning checks around 3–4 minutes. Retain all rendered fat. Brown color is a cooking cue, not proof of 160°F; continue cooking the pork with the sauce.
-3. **Fry the bean paste:** Push pork aside and add all doubanjiang and rinsed, chopped fermented black beans to the existing oil and fat. Stir 1–2 minutes until fragrant and the oil takes on red color, reducing heat before the paste scorches.
-4. **Build the sauce:** Stir in all garlic, ginger and scallion whites about 30 seconds, then add all measured broth, soy sauce and sugar and bring to a simmer.
-5. **Warm the tofu:** Gently slide in all drained tofu. Spoon sauce over the cubes or nudge with the back of a ladle rather than stirring hard. Simmer about 5 minutes; check representative pork-containing sauce areas for at least 160°F before tasting or finishing. Use enough vessels for the complete scaled formula, divided proportionally, without crowding the cubes.
-6. **Thicken:** Re-stir the entire separate slurry and drizzle it in two additions, gently swirling between them. Let the sauce simmer after each addition until thickening is visible; use the full listed mixture for this route and cook until the sauce clings without raw-starch taste.
-7. **Finish:** Add all measured sesame oil and chili oil, then all the toasted, ground Sichuan peppercorns and scallion greens. Fold gently and serve promptly over separately prepared white rice.
+1. **Blanch the tofu:** Bring a saucepan of salted water to a gentle simmer. Slide in the tofu and simmer for 2 to 3 minutes to firm and season it. Drain gently.
+2. **Brown the pork:** Heat the oil in a wok over medium-high heat. Add the pork and cook, breaking it into small crumbles, until browned and the fat has rendered, 3 to 4 minutes.
+3. **Fry the bean paste:** Push the pork to the side. Add the doubanjiang and black beans to the oil and stir-fry until the oil turns deep red and the paste smells rich, 1 to 2 minutes. Lower the heat if it starts to scorch.
+4. **Build the sauce:** Add the garlic, ginger and scallion whites and stir-fry for 30 seconds. Add the broth, soy sauce and sugar and bring to a simmer.
+5. **Simmer the tofu:** Slide in the tofu. Nudge it with the back of a ladle rather than stirring, and simmer until it takes on the sauce, about 5 minutes.
+6. **Thicken the sauce:** Stir the slurry and drizzle in half, swirling the wok gently. When the sauce thickens, add the rest and simmer until glossy and clinging, about 1 minute.
+7. **Finish:** Drizzle with the sesame oil and chili oil and sprinkle with the Sichuan pepper and scallion greens. Serve right away.

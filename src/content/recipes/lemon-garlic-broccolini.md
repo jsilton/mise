@@ -28,77 +28,43 @@ nutritionalDensity: light
 leftovers: good
 equipment:
   - large-skillet
-prepTime: 5–10 min
-cookTime: 5–12 min
-totalTime: 10–25 min
+prepTime: 10 min
+cookTime: 10 min
+totalTime: 20 min
 servings: '4'
 pairsWith:
   - chicken-piccata-unfried
   - garlic-butter-shrimp
   - one-pan-lemon-herb-chicken-thighs
+pairingNotes:
+  chicken-piccata-unfried: Lemon and garlic echo the piccata sauce.
+  garlic-butter-shrimp: A green side for the buttery shrimp.
+  one-pan-lemon-herb-chicken-thighs: Bright greens beside crisp-skinned chicken.
 ingredients:
-  - '1.5 lbs Fresh Broccolini, trimmed'
-  - 3 tbsp Extra-Virgin Olive Oil
-  - '4 cloves Garlic, sliced thin'
-  - 1 Lemon
-  - 1/4 tsp Red Pepper Flakes
-  - 2–3 tbsp Water, for steaming
-  - 1/2 tsp Kosher Salt
-  - Black Pepper
+  - '1 1/2 lb broccolini, trimmed, thick stems split lengthwise'
+  - 3 tbsp extra-virgin olive oil
+  - '4 garlic cloves, thinly sliced'
+  - '1 lemon, zested, then halved'
+  - 1/4 tsp red pepper flakes
+  - 2–3 tbsp water
+  - '1/2 tsp kosher salt, plus more to taste'
+  - 'black pepper, to taste'
 learning:
-  focus: Judge stem tenderness separately from garlic color
-  outcome: 'Tender-crisp broccolini with fragrant sliced garlic, lemon zest and juice.'
   techniques:
     - seasoning
-  before:
-    - Split very thick stalks rather than making all pieces wait for one thick stem.
-    - >-
-      Use shares of the full oil/garlic/flakes across additional vessels or rounds; the lemon splits
-      between pan juice and serving wedges.
-  checkpoints:
-    - step: 3
-      cue: Thick stems yield to a fork while the garlic remains fragrant rather than black.
-      why: 'Leaf browning is faster than stem softening, especially with thick broccolini.'
-  troubleshooting:
-    - problem: Garlic darkens before stems soften
-      cause: The heat is too high or stalk thickness is uneven.
-      fix: >-
-        Add the garlic only after the covered steam, for the last minute. Discard burned garlic if
-        separable. Next time split thick stalks before cooking.
-  timing: >-
-    Plan about 10–25 minutes for preparation and one roomy batch. The original 3–4-minute broccolini
-    stage is an early check, not a promise for every stem thickness. Extra rounds take longer.
-  storage: >-
-    Best served promptly for texture. Refrigerate leftovers in shallow containers within 2 hours, or
-    1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days; reheat the portion being
-    served to 165°F / 74°C throughout. Stored vegetables soften; crunchy toppings are best kept
-    separate when practical.
-  sources:
-    - title: Mise — original saved recipe
-      url: >-
-        https://github.com/jsilton/mise/blob/2a7f38534f68f09454b2c68637139fd966b5584f/src/content/recipes/lemon-garlic-broccolini.md
-    - title: FDA — washing produce
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  storage: Keeps 3 days in the fridge. Reheat briefly in a hot skillet.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Check broccolini at the thicker stems, where tenderness takes longer than the leaves suggest. Keep sliced garlic from darkening while you toss the greens. Zest the lemon first, use half for the pan finish and keep the other half as wedges.
+Broccolini cooked the Italian way, with garlic, chili and lemon. A hard sear gives the stems color, a quick covered steam makes them tender, and the garlic goes in last so it turns golden instead of bitter.
 
 ## Directions
 
-1. **Prepare:** Wash and dry the broccolini and lemon. Trim dry stalk ends and split unusually thick stems lengthwise so the pieces cook more evenly. Zest all the listed lemon and reserve all the zest. Set aside half of the listed lemon amount for squeezing and cut the other half into serving wedges.
-
-2. **Heat:** Heat all the measured olive oil in enough roomy skillets for uncrowded cooking over medium-high heat. Divide the same oil, water, garlic and flakes across vessels or rounds.
-
-3. **Cook broccolini:** Add the broccolini in a single layer and cook, tossing occasionally, about 3–4 minutes until spotted brown. Add 2–3 tbsp water, cover and steam about 2 minutes, until thick stems yield to a fork but retain some bite. Thick stems can take a minute or two longer. Uncover, lower the heat to medium and add the sliced garlic and all red-pepper flakes. Toss about 1 minute, until the garlic is fragrant and pale gold and the water has cooked off. Season with all the measured kosher salt and the listed unmeasured black pepper.
-
-4. **Finish with juice:** Remove from heat and squeeze the reserved half of the listed lemon amount over the whole batch; toss. This is half the listed lemon amount, not an additional half beyond the serving wedges.
-
-5. **Serve:** Transfer to a serving dish, add all reserved zest and serve promptly with the wedges from the other half.
+1. **Sear the broccolini:** Heat the oil in a large skillet over medium-high heat. Add the broccolini and cook, tossing now and then, until spotted brown, 3 to 4 minutes.
+2. **Steam until tender:** Add the water, cover and steam until the thick stems yield to a fork but still have some bite, about 2 minutes.
+3. **Add the garlic:** Uncover and lower the heat to medium. Add the garlic, pepper flakes, salt and black pepper. Toss until the garlic is fragrant and pale gold and the water has cooked off, about 1 minute.
+4. **Finish with lemon:** Take the pan off the heat and squeeze one lemon half over the broccolini. Toss, scatter the zest on top and serve with the other half cut into wedges.
