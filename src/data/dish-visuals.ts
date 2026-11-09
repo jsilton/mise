@@ -1,4 +1,4 @@
-// Recipe photos made by Frederick in batches 1 to 14 (docs/image-prompts on images/approaches).
+// Recipe photos made by Frederick in batches 1 to 15 (docs/image-prompts on images/approaches).
 // Each file is 960 x 640 WebP in public/images/dishes, named for its recipe slug.
 export const dishVisuals: Record<
   string,
@@ -17,7 +17,7 @@ export const dishVisuals: Record<
   'aloo-gobi-potato-cauliflower-curry': {
     file: 'aloo-gobi-potato-cauliflower-curry.webp',
     title: 'Aloo Gobi (Potato Cauliflower Curry)',
-    alt: 'A wide bowl heaped with tender cubes of potato and cauliflower florets, each coated in a thick, clinging golden tomato-spice masala.',
+    alt: 'A wide bowl of potato cubes and cauliflower florets in a thick golden tomato-spice masala, garnished with chopped cilantro.',
   },
   'anadama-bread': {
     file: 'anadama-bread.webp',
@@ -197,7 +197,7 @@ export const dishVisuals: Record<
   bibimbap: {
     file: 'bibimbap.webp',
     title: 'Bibimbap',
-    alt: 'A wide bowl of white rice topped with neat separate sections of seasoned vegetables and marinated beef arranged in a ring, with a fried egg with a bright yolk in the center and a dab of red gochujang sauce.',
+    alt: 'A wide bowl of white rice topped with neat sections of sliced marinated beef, seasoned spinach, bean sprouts and cucumber slices, with a fried egg in the center and a dab of red gochujang sauce.',
   },
   'big-batch-chicken-chili-verde': {
     file: 'big-batch-chicken-chili-verde.webp',
@@ -207,7 +207,7 @@ export const dishVisuals: Record<
   'black-bean-tacos-with-lime-crema': {
     file: 'black-bean-tacos-with-lime-crema.webp',
     title: 'Soft Black Bean Tacos with Lime Crema',
-    alt: 'Three soft corn tortillas filled with partly mashed, seasoned black beans, topped with a drizzle of white lime crema and fresh toppings.',
+    alt: 'Three soft corn tortillas filled with black beans, shredded cabbage, diced tomato and cilantro, drizzled with white lime crema, with a lime wedge.',
   },
   'blackout-chocolate-cake': {
     file: 'blackout-chocolate-cake.webp',
@@ -252,7 +252,7 @@ export const dishVisuals: Record<
   boulevardier: {
     file: 'boulevardier.webp',
     title: 'Boulevardier',
-    alt: 'A short rocks glass with one large clear ice cube and a deep ruby-red stirred cocktail, with a twist of orange peel.',
+    alt: 'A short rocks glass of deep ruby-red Boulevardier over one large clear ice cube, finished with a thin twist of orange peel.',
   },
   'braised-french-lentils': {
     file: 'braised-french-lentils.webp',
@@ -297,7 +297,7 @@ export const dishVisuals: Record<
   'broccoli-all-agro': {
     file: 'broccoli-all-agro.webp',
     title: "Broccoli all'Agro",
-    alt: 'A mound of bright green, tender broccoli florets glistening with olive oil and lemon, with fine threads of lemon zest.',
+    alt: 'A mound of bright green broccoli florets glistening with olive oil and fine threads of lemon zest.',
   },
   'broccoli-cheddar-quinoa-bites': {
     file: 'broccoli-cheddar-quinoa-bites.webp',
@@ -427,7 +427,7 @@ export const dishVisuals: Record<
   'charred-broccoli-with-garlic': {
     file: 'charred-broccoli-with-garlic.webp',
     title: 'Charred Broccoli with Garlic',
-    alt: 'A heap of broccoli florets with deep brown charred edges and golden slices of garlic, glossy with olive oil.',
+    alt: 'A heap of broccoli florets with deep brown charred edges, golden slices of garlic and a sprinkle of red pepper flakes.',
   },
   'charred-guacamole-with-pomegranate': {
     file: 'charred-guacamole-with-pomegranate.webp',
@@ -462,7 +462,7 @@ export const dishVisuals: Record<
   'chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce': {
     file: 'chicken-and-white-bean-enchiladas-with-creamy-green-chile-sauce.webp',
     title: 'Chicken and White Bean Enchiladas',
-    alt: 'Two short rolled enchiladas side by side, pointing toward the camera, on a plate, covered in a creamy pale green chile sauce and bubbling, golden-spotted melted cheese.',
+    alt: 'Two rolled chicken and white bean enchiladas covered in creamy pale green chile sauce, bubbling golden-spotted cheese and a little chopped cilantro.',
   },
   'chicken-and-wild-rice-soup': {
     file: 'chicken-and-wild-rice-soup.webp',
@@ -507,7 +507,7 @@ export const dishVisuals: Record<
   'chicken-lettuce-wraps': {
     file: 'chicken-lettuce-wraps.webp',
     title: 'Chicken Lettuce Wraps',
-    alt: 'Three cupped butter lettuce leaves filled with glossy hoisin-ginger ground chicken and crisp diced celery, lined up on a platter.',
+    alt: 'Three cupped butter lettuce leaves filled with glossy hoisin-ginger ground chicken, water chestnuts, shiitake mushrooms and scallion.',
   },
   'chicken-marsala': {
     file: 'chicken-marsala.webp',
@@ -547,7 +547,7 @@ export const dishVisuals: Record<
   'chicken-scaloppine-with-tomato-and-white-wine': {
     file: 'chicken-scaloppine-with-tomato-and-white-wine.webp',
     title: 'Chicken Scaloppine with Tomato & White Wine',
-    alt: 'Three flattened, lightly golden chicken thigh pieces on a plate in a light rosy tomato-wine pan sauce, with a bed of glossy wilted spinach alongside.',
+    alt: 'Flattened golden chicken pieces in a light rosy tomato and white wine pan sauce, with glossy wilted spinach alongside.',
   },
   'chicken-shawarma': {
     file: 'chicken-shawarma.webp',
@@ -617,7 +617,7 @@ export const dishVisuals: Record<
   'chinese-sausage-fried-rice': {
     file: 'chinese-sausage-fried-rice.webp',
     title: 'Chinese Sausage Fried Rice',
-    alt: 'A mound of fried jasmine rice with thin slices of glossy red Chinese sausage, scrambled egg pieces, green peas, sliced green onion and red chili.',
+    alt: 'A bowl of fried jasmine rice with slices of red Chinese sausage, egg, peas, green onion and red chili.',
   },
   'chinese-steamed-fish': {
     file: 'chinese-steamed-fish.webp',
@@ -667,7 +667,7 @@ export const dishVisuals: Record<
   'chocolate-chip-walnut-cookies': {
     file: 'chocolate-chip-walnut-cookies.webp',
     title: 'Chocolate Chip Walnut Cookies',
-    alt: 'Six golden chocolate chip cookies with chopped walnuts loosely stacked, one broken in half showing chocolate chips and walnut pieces.',
+    alt: 'A plate of golden chocolate chip walnut cookies, one broken in half to show chocolate chips and walnut pieces.',
   },
   'chocolate-crinkle-cookies': {
     file: 'chocolate-crinkle-cookies.webp',
@@ -692,7 +692,7 @@ export const dishVisuals: Record<
   'chocolate-vanilla-swirl-layer-cake': {
     file: 'chocolate-vanilla-swirl-layer-cake.webp',
     title: 'Chocolate Vanilla Swirl Layer Cake',
-    alt: 'A tall slice of layer cake on a plate showing marbled swirls of chocolate and vanilla sponge in each layer, with smooth frosting between and around the layers.',
+    alt: 'A tall slice of three-layer marbled chocolate and vanilla cake with glossy dark chocolate ganache between the layers and over the top and sides.',
   },
   'cilantro-lime-rice': {
     file: 'cilantro-lime-rice.webp',
@@ -707,7 +707,7 @@ export const dishVisuals: Record<
   'classic-beef-stew': {
     file: 'classic-beef-stew.webp',
     title: 'Beef Stew',
-    alt: 'A bowl of rich beef stew with chunks of fork-tender braised beef, carrot chunks and celery in a glossy, deep brown red-wine gravy.',
+    alt: 'A bowl of beef stew with chunks of braised beef, carrot, celery, potato and green peas in a glossy deep brown red-wine gravy.',
   },
   'classic-carrot-cake': {
     file: 'classic-carrot-cake.webp',
@@ -852,7 +852,7 @@ export const dishVisuals: Record<
   'crisp-skin-duck-breast-with-orange-pan-sauce': {
     file: 'crisp-skin-duck-breast-with-orange-pan-sauce.webp',
     title: 'Crisp-Skin Duck Breast with Orange Pan Sauce',
-    alt: 'One duck breast sliced into six pieces and fanned on a plate, showing crisp, deep golden skin and a rosy pink center, with a glossy amber orange sauce spooned beside it.',
+    alt: 'A duck breast sliced and fanned on a plate, each slice showing crisp golden skin over a rosy pink center, with glossy amber orange sauce beside it.',
   },
   'crispy-baked-chicken-sliders': {
     file: 'crispy-baked-chicken-sliders.webp',
@@ -982,7 +982,7 @@ export const dishVisuals: Record<
   'drunken-noodles-pad-kee-mao': {
     file: 'drunken-noodles-pad-kee-mao.webp',
     title: 'Pad Kee Mao (Drunken Noodles)',
-    alt: 'A heap of wide, glossy rice noodles stir-fried with chicken, sliced shallots, baby corn and red chiles, tossed with a generous handful of holy basil leaves.',
+    alt: 'A heap of wide, glossy, dark-sauced rice noodles stir-fried with chicken, shallots, baby corn, red chiles and wilted holy basil.',
   },
   'dutch-baby-pancake': {
     file: 'dutch-baby-pancake.webp',
@@ -992,7 +992,7 @@ export const dishVisuals: Record<
   'easy-baked-turkey-meatballs': {
     file: 'easy-baked-turkey-meatballs.webp',
     title: 'Turkey Meatballs',
-    alt: 'Nine round, golden-browned turkey meatballs piled loosely on a plate, one cut in half to show a tender inside flecked with carrot.',
+    alt: 'Golden-browned turkey meatballs on an oval platter, one cut in half to show a fully cooked, pale interior.',
   },
   'easy-breakfast-yogurt-popsicles': {
     file: 'easy-breakfast-yogurt-popsicles.webp',
@@ -1132,7 +1132,7 @@ export const dishVisuals: Record<
   'fluffy-scrambled-eggs': {
     file: 'fluffy-scrambled-eggs.webp',
     title: 'Soft Scrambled Eggs',
-    alt: 'A soft, glossy mound of small, moist pale yellow curds of scrambled egg, sprinkled with finely snipped chives.',
+    alt: 'A soft mound of small, moist pale yellow scrambled egg curds sprinkled with snipped chives and black pepper.',
   },
   'freezer-banana-bread': {
     file: 'freezer-banana-bread.webp',
@@ -1147,7 +1147,7 @@ export const dishVisuals: Record<
   'french-dip-sandwiches': {
     file: 'french-dip-sandwiches.webp',
     title: 'Slow Cooker French Dip Sandwiches',
-    alt: 'Two hoagie roll sandwiches piled with tender shredded beef and melted provolone, cut on the diagonal, with a small white ramekin of dark beef jus on the same plate.',
+    alt: 'French dip sandwiches piled with shredded beef and melted provolone, with a small white ramekin of dark beef jus on the plate.',
   },
   'french-toast': {
     file: 'french-toast.webp',
@@ -1287,7 +1287,7 @@ export const dishVisuals: Record<
   'glazed-carrots': {
     file: 'glazed-carrots.webp',
     title: 'Glazed Carrots',
-    alt: 'A tidy pile of thin carrot matchsticks glossy with a buttery brown sugar glaze, sprinkled with fresh thyme.',
+    alt: 'A tidy pile of carrot matchsticks with a glossy buttery brown sugar glaze and a few fresh thyme leaves.',
   },
   'glazed-chicken-and-broccoli-sheet-pan-dinner': {
     file: 'glazed-chicken-and-broccoli-sheet-pan-dinner.webp',
@@ -1327,7 +1327,7 @@ export const dishVisuals: Record<
   'grandmommys-turkey-dressing': {
     file: 'grandmommys-turkey-dressing.webp',
     title: 'Grandmommy’s Turkey Dressing',
-    alt: 'A generous spoonful of soft, moist cornbread dressing with a golden, lightly crisp top, flecked with celery and onion.',
+    alt: 'A shallow bowl of soft cornbread dressing with a golden, lightly crisp top and flecks of celery and onion.',
   },
   granola: {
     file: 'granola.webp',
@@ -1382,7 +1382,7 @@ export const dishVisuals: Record<
   'grilled-chicken-with-herbed-corn-salsa': {
     file: 'grilled-chicken-with-herbed-corn-salsa.webp',
     title: 'Chicken with Herbed Corn Salsa',
-    alt: 'Two golden chicken thighs with crisp, charred skin, topped with a spoonful of bright green basil-mint sauce and golden corn kernels.',
+    alt: 'Two bone-in chicken thighs with crisp golden skin, topped with bright green basil-mint sauce and golden corn kernels.',
   },
   'grilled-corn-salad-with-feta': {
     file: 'grilled-corn-salad-with-feta.webp',
@@ -1427,7 +1427,7 @@ export const dishVisuals: Record<
   hamantaschen: {
     file: 'hamantaschen.webp',
     title: 'Hamantaschen',
-    alt: 'Five triangular butter cookies with pinched corners, each with a center of glossy jam filling, arranged in a loose circle.',
+    alt: 'Five triangular hamantaschen with pinched corners in a loose circle, each filled with glossy orange apricot jam.',
   },
   'har-gow-dim-sum-shrimp-dumplings': {
     file: 'har-gow-dim-sum-shrimp-dumplings.webp',
@@ -1567,7 +1567,7 @@ export const dishVisuals: Record<
   'instant-pot-potato-leek-soup': {
     file: 'instant-pot-potato-leek-soup.webp',
     title: 'Pressure-Cooker Potato Leek Soup',
-    alt: 'A bowl of smooth, creamy pale ivory potato leek soup with a swirl of cream, finished with finely sliced chives and cracked black pepper.',
+    alt: 'A bowl of smooth pale potato leek soup with a swirl of cream, sliced chives and cracked black pepper.',
   },
   'israeli-style-hummus': {
     file: 'israeli-style-hummus.webp',
@@ -1582,12 +1582,12 @@ export const dishVisuals: Record<
   'japanese-beef-rice-bowl-gyudon': {
     file: 'japanese-beef-rice-bowl-gyudon.webp',
     title: 'Gyudon (Japanese Beef and Rice Bowls)',
-    alt: 'A bowl of white short-grain rice topped with thin, tender slices of glossy simmered beef and soft golden onions, a soft egg yolk nestled in the middle and sliced scallions on top.',
+    alt: 'A bowl of white rice topped with thin, glossy slices of simmered beef and soft golden onion, an egg yolk in the center and sliced scallions.',
   },
   'japanese-chicken-curry-kare-raisu': {
     file: 'japanese-chicken-curry-kare-raisu.webp',
     title: 'Japanese Chicken Curry',
-    alt: 'A mound of white short-grain rice on one side and thick, glossy golden-brown curry on the other, with chunks of chicken, carrot and potato.',
+    alt: 'A bowl with white rice on one side and thick golden-brown Japanese curry with chunks of chicken, carrot and potato on the other.',
   },
   'japanese-cucumber-sunomono': {
     file: 'japanese-cucumber-sunomono.webp',
@@ -1682,7 +1682,7 @@ export const dishVisuals: Record<
   'korean-style-tacos-with-kogi-bbq-sauce': {
     file: 'korean-style-tacos-with-kogi-bbq-sauce.webp',
     title: 'Korean Style Tacos',
-    alt: 'Three soft tortillas filled with pulled pork glossed in red gochujang kogi sauce, topped with paper-thin pickled cucumber, set side by side.',
+    alt: 'Three small corn tortillas filled with pulled pork in red gochujang kogi sauce, topped with thin cucumber pickle and sliced scallion.',
   },
   'lamb-keema-matar': {
     file: 'lamb-keema-matar.webp',
@@ -1692,7 +1692,7 @@ export const dishVisuals: Record<
   'lavender-london-fog-cocktail': {
     file: 'lavender-london-fog-cocktail.webp',
     title: 'Lavender London Fog Cocktail',
-    alt: 'A coupe filled with a pale, milky tea-colored cocktail topped with a fine layer of silky foam.',
+    alt: 'A stemmed coupe of pale, milky Earl Grey cocktail under a thin layer of silky foam.',
   },
   'lemon-basil-shrimp-risotto': {
     file: 'lemon-basil-shrimp-risotto.webp',
@@ -1917,12 +1917,12 @@ export const dishVisuals: Record<
   'mongolian-beef': {
     file: 'mongolian-beef.webp',
     title: 'Mongolian Beef with Ginger and Scallions',
-    alt: 'Strips of tender browned flank steak coated in a glossy dark soy glaze, tossed with long pieces of green scallion.',
+    alt: 'Strips of browned flank steak in a glossy dark soy glaze tossed with long lengths of scallion and slivers of ginger.',
   },
   'mongolian-chicken': {
     file: 'mongolian-chicken.webp',
     title: 'Mongolian Chicken',
-    alt: 'Crisp pieces of chicken coated in a glossy, sweet dark soy glaze, tossed with scallion pieces.',
+    alt: 'Crisp pieces of chicken in a glossy dark soy and brown sugar glaze, tossed with diagonal scallion pieces.',
   },
   'moroccan-carrot-salad': {
     file: 'moroccan-carrot-salad.webp',
@@ -2047,7 +2047,7 @@ export const dishVisuals: Record<
   'pad-thai': {
     file: 'pad-thai.webp',
     title: 'Pad Thai',
-    alt: 'A pile of tamarind-glossed rice noodles tossed with egg, bean sprouts and scallions, topped with crushed peanuts, with a lime wedge at the side.',
+    alt: 'Tamarind-glossed rice noodles with egg, bean sprouts and Chinese chives, topped with crushed peanuts, with a lime wedge at the side.',
   },
   'pad-woon-sen': {
     file: 'pad-woon-sen.webp',
@@ -2092,7 +2092,7 @@ export const dishVisuals: Record<
   'pasta-alla-norma': {
     file: 'pasta-alla-norma.webp',
     title: 'Pasta alla Norma',
-    alt: 'A shallow bowl of short pasta in a bright fresh tomato sauce, topped with golden fried eggplant cubes, torn basil and a snowfall of grated ricotta salata.',
+    alt: 'A bowl of spaghetti in bright tomato sauce topped with golden fried eggplant, torn basil and grated ricotta salata.',
   },
   'pasta-with-abruzzi-style-lamb-sauce': {
     file: 'pasta-with-abruzzi-style-lamb-sauce.webp',
@@ -2232,7 +2232,7 @@ export const dishVisuals: Record<
   'purple-rice': {
     file: 'purple-rice.webp',
     title: 'Aromatic Purple Rice',
-    alt: 'A rounded mound of tender, fluffy rice tinted lavender, with darker whole purple grains scattered through the white grains.',
+    alt: 'A rounded bowl of fluffy lavender-tinted rice with dark purple rice grains scattered through it.',
   },
   'quadruple-chocolate-brownies': {
     file: 'quadruple-chocolate-brownies.webp',
@@ -2332,7 +2332,7 @@ export const dishVisuals: Record<
   'rice-cooker-yellow-rice': {
     file: 'rice-cooker-yellow-rice.webp',
     title: 'Spanish Rice',
-    alt: 'A fluffy mound of separate, golden yellow saffron rice grains flecked with diced red bell pepper and soft onion.',
+    alt: 'A shallow bowl of fluffy golden saffron rice flecked with diced red bell pepper and onion.',
   },
   'ricotta-toast-with-honey': {
     file: 'ricotta-toast-with-honey.webp',
@@ -2342,7 +2342,7 @@ export const dishVisuals: Record<
   'risotto-alla-milanese': {
     file: 'risotto-alla-milanese.webp',
     title: 'Risotto alla Milanese',
-    alt: 'A loose, creamy saffron-gold risotto spread in a shallow, flowing layer across the plate, with grated grana on top.',
+    alt: 'A creamy saffron-gold risotto spread across a wide plate, with grated grana on top.',
   },
   'roast-turkey-breast': {
     file: 'roast-turkey-breast.webp',
@@ -2422,7 +2422,7 @@ export const dishVisuals: Record<
   'rosemary-pork-tenderloin': {
     file: 'rosemary-pork-tenderloin.webp',
     title: 'Pork Tenderloin',
-    alt: 'Six thick medallions of pork tenderloin sliced to show juicy, faintly pink centers, with a golden Dijon-rosemary crust and crisp pieces of maple bacon, with roasted rosemary sprigs alongside.',
+    alt: 'Pork tenderloin medallions with faintly pink centers and a golden mustard and rosemary crust, with crisp bacon pieces and rosemary sprigs alongside.',
   },
   'royal-icing': {
     file: 'royal-icing.webp',
@@ -2457,7 +2457,7 @@ export const dishVisuals: Record<
   'sausage-and-white-bean-skillet': {
     file: 'sausage-and-white-bean-skillet.webp',
     title: 'Sausage and White Bean Skillet',
-    alt: 'A skillet of browned Italian sausage rounds and creamy cannellini beans in a light, herby tomato broth.',
+    alt: 'A cast-iron skillet of browned sliced Italian sausage and creamy cannellini beans in a light tomato broth, topped with parsley and grated Parmesan.',
   },
   'sausage-breakfast-casserole': {
     file: 'sausage-breakfast-casserole.webp',
@@ -2707,7 +2707,7 @@ export const dishVisuals: Record<
   'slow-cooker-general-tsos-chicken': {
     file: 'slow-cooker-general-tsos-chicken.webp',
     title: 'Slow-Cooker General Tso–Style Chicken',
-    alt: 'Pieces of tender chicken thigh coated in a glossy, deep red-brown ginger-chile sauce, piled beside a mound of white rice.',
+    alt: 'Braised chicken pieces in a glossy red-brown ginger-chile sauce with whole dried red chilies and sliced scallions, beside a mound of white rice.',
   },
   'slow-cooker-hoisin-garlic-chicken': {
     file: 'slow-cooker-hoisin-garlic-chicken.webp',
@@ -2883,6 +2883,11 @@ export const dishVisuals: Record<
     file: 'steel-cut-oatmeal.webp',
     title: 'Steel-Cut Oatmeal',
     alt: 'A bowl of creamy, nubbly steel-cut oatmeal topped with fresh berries and a drizzle of maple syrup.',
+  },
+  'stevens-margs': {
+    file: 'stevens-margs.webp',
+    title: 'Steven’s Margaritas',
+    alt: 'A short rocks glass of pale gold margarita over ice with a lime wedge on the rim.',
   },
   'sticky-miso-salmon-bowl': {
     file: 'sticky-miso-salmon-bowl.webp',
@@ -3152,7 +3157,7 @@ export const dishVisuals: Record<
   'vanilla-earl-grey-overnight-oats': {
     file: 'vanilla-earl-grey-overnight-oats.webp',
     title: 'Vanilla Earl Grey Overnight Oats',
-    alt: 'A small bowl of creamy, soft rolled oats with a drizzle of honey on top and a crumbled stroopwafel scattered across the surface.',
+    alt: 'A bowl of creamy overnight oats with a thin honey drizzle and crumbled stroopwafel pieces.',
   },
   'vegan-caesar-pasta-salad': {
     file: 'vegan-caesar-pasta-salad.webp',
@@ -3207,12 +3212,12 @@ export const dishVisuals: Record<
   'whiskey-sour': {
     file: 'whiskey-sour.webp',
     title: 'Whiskey Sour',
-    alt: 'A pale amber whiskey sour over ice with a thin, silky white foam top dotted with a few drops of bitters, garnished with an orange slice and a maraschino cherry.',
+    alt: 'A rocks glass of pale amber whiskey sour over ice with a thin white foam and drops of bitters, garnished with an orange slice and a cherry.',
   },
   'white-chicken-chili': {
     file: 'white-chicken-chili.webp',
     title: 'White Chicken Chili with Hominy',
-    alt: 'A bowl of creamy pale chili with shredded chicken, white beans, plump hominy kernels and green chiles, topped with a dollop of sour cream and a lime wedge.',
+    alt: 'A bowl of creamy white chicken chili with shredded chicken, white beans and hominy, topped with sour cream, sliced scallions and a lime wedge.',
   },
   'whole-spelt-pumpkin-muffins': {
     file: 'whole-spelt-pumpkin-muffins.webp',
@@ -3227,7 +3232,7 @@ export const dishVisuals: Record<
   'yaki-udon': {
     file: 'yaki-udon.webp',
     title: 'Yaki Udon',
-    alt: 'A generous tangle of thick, glossy dark-soy coated udon noodles tossed with browned pork, cabbage, carrot and scallion.',
+    alt: 'Thick glossy udon noodles tossed with browned ground pork, cabbage, carrot matchsticks and scallion.',
   },
   'yakisoba-japanese-stir-fried-noodles': {
     file: 'yakisoba-japanese-stir-fried-noodles.webp',
