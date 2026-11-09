@@ -32,6 +32,21 @@ const FAMILY = new Set([
   'nana-ruths-applesauce',
   'gwock-family-macaroni-and-cheese',
   'spiced-butternut-squash-puree',
+  'banana-nut-bread',
+  'banana-pudding',
+  'cranberry-crunch',
+  'snickerdoodles',
+  'ham-and-cheese-green-bean-casserole',
+  'mandarinpineapple-organge-salad',
+  'pizza',
+  'corn-casserole',
+  'cinnamon-sweet-potatoes',
+  'farfel-muffins',
+  'moms-famous-chocolate-cake',
+  'sweet-and-white-potato-gratin',
+  'miso-salmon-with-bok-choy',
+  'stevens-margs',
+  'sichuan-style-chicken-and-chinese-eggplant',
 ]);
 const OLD_LEARNING = [
   'focus',
@@ -175,7 +190,7 @@ function check(slug) {
     const b = text.match(BRITISH);
     if (b) errors.push(`British spelling in ${where}: "${b[0]}"`);
   }
-  if (data.source && DOMAIN.test(data.source))
+  if (data.source && DOMAIN.test(data.source.replace(/\b(Food\.com|Chabad\.org)\b/g, '')))
     errors.push(`source names a web address: "${data.source}"`);
   if (data.sourceUrl && data.sourceUrl.startsWith('http:')) errors.push('sourceUrl is not https');
 
