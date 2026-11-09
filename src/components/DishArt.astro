@@ -5,7 +5,7 @@ interface Props {
   eager?: boolean;
   caption?: boolean;
 }
-const { slug, eager = false, caption = false } = Astro.props;
+const { slug, eager = false } = Astro.props;
 const visual = dishVisuals[slug];
 ---
 
@@ -20,7 +20,6 @@ const visual = dishVisuals[slug];
         loading={eager ? 'eager' : 'lazy'}
         decoding="async"
       />
-      {caption && <figcaption>Recipe study · Mise illustration</figcaption>}
     </figure>
   )
 }
@@ -33,12 +32,5 @@ const visual = dishVisuals[slug];
     width: 100%;
     height: auto;
     display: block;
-    mix-blend-mode: multiply;
-  }
-  figcaption {
-    font-size: 0.67rem;
-    color: var(--text-secondary);
-    padding: 0.65rem 0;
-    letter-spacing: 0.04em;
   }
 </style>
