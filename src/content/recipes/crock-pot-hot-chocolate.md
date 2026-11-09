@@ -1,7 +1,7 @@
 ---
 miseId: f42df1fa-9aef-4822-8342-d231575ccd18
 title: Hot Chocolate
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - slow-cook
 dietary:
@@ -16,123 +16,55 @@ cuisines:
 role: drink
 vibe: holiday
 prepTime: 10 min
-cookTime: 120 min
-totalTime: 130 min
+cookTime: 2 hr
+totalTime: 2 hr 10 min
 servings: '8'
 ingredients:
-  - 6 cups Whole Milk
-  - 2 cups Heavy Cream
-  - 1/2 cup Granulated Sugar
-  - 1/3 cup High-Quality Unsweetened Cocoa Powder
-  - '8 oz Bittersweet Chocolate (60% cacao), finely chopped'
-  - 2 teaspoons Vanilla Extract
-  - 1 teaspoon Instant Espresso Powder (Brings out the chocolate depth)
-  - 1/4 teaspoon Fine Sea Salt
-  - Marshmallows and Shaved Chocolate for garnish
-  - '8 oz Irish Cream Liqueur (Optional, for adults)'
+  - 1/2 cup granulated sugar
+  - 1/3 cup unsweetened cocoa powder
+  - 1 tsp instant espresso powder
+  - 1/4 tsp fine sea salt
+  - 6 cups whole milk
+  - 2 cups heavy cream
+  - '8 oz bittersweet chocolate (60% cacao), finely chopped'
+  - 2 tsp vanilla extract
+  - 1 cup Irish cream liqueur (optional)
+  - 'marshmallows and shaved chocolate, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: excellent
 pairsWith:
-  - almond-zucchini-bread
-  - avocado-kale-caesar-salad
-  - bakery-style-chocolate-chip-muffins
-  - banana-egg-oat-pancakes
-source: Adapted from thepioneerwoman.com
+  - snickerdoodles
+pairingNotes:
+  snickerdoodles: Cinnamon sugar cookies for dunking.
+source: Adapted from The Pioneer Woman
 sourceUrl: >-
   https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/
 learning:
-  focus: Melt the full chocolate supply gently and separate adult-only service.
-  outcome: 'Hot, smooth chocolate with the full whole-milk and heavy-cream base.'
   techniques:
     - temperature
-  before:
-    - >-
-      The six-quart cooker is the original-batch source vessel, not a capacity
-      promise for every scale. Follow the actual appliance fill and operating
-      instructions; use separate proportional batches when needed.
-    - >-
-      The full optional eight-ounce Irish-cream supply belongs to the original
-      adult-only batch. Keep an all-ages batch alcohol-free rather than adding
-      the entire amount to a smaller reserved portion.
-  checkpoints:
-    - step: 4
-      cue: >-
-        The chopped chocolate has melted and the drink is hot and smooth
-        throughout.
-      why: >-
-        Elapsed time or a LOW setting alone does not establish melt, temperature
-        or holding conditions.
-  troubleshooting:
-    - problem: Cocoa clumps remain after heating.
-      cause: The dry powders were not dispersed as the milk was added.
-      fix: >-
-        Whisk the dry powders together first, then whisk in milk gradually;
-        whisk gently during heating without scraping any scorched material into
-        the drink.
-  timing: >-
-    Plan about 10 minutes preparation plus roughly 2 hours LOW heating, checked
-    by hot, melted, smooth texture. Larger loads and different cookers change
-    the actual time; the source marshmallow finish adds about 2 minutes.
-  storage: >-
-    Hold for service at 140°F or above, measured in the drink. Cool leftovers
-    promptly in shallow containers and refrigerate at 40°F or below for up to
-    three days; reheat stored leftovers to 165°F, stirring gently. Count earlier
-    prepared dairy and product limits where shorter.
-  sources:
-    - title: Pioneer Woman — Crock-Pot hot chocolate
-      url: >-
-        https://www.thepioneerwoman.com/food-cooking/recipes/a42027300/crock-pot-hot-chocolate-recipe/
-    - title: USDA — Leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   substitutions:
-    - ingredient: Semisweet and melted-marshmallow version
-      alternative: >-
-        Replace the listed bittersweet chocolate with the same listed chocolate
-        weight of chopped semisweet chocolate, and omit the main fine-sea-salt
-        addition. Keep all the whole milk, heavy cream, sugar, cocoa, vanilla
-        and espresso amounts. Heat with the same LOW method until hot, melted
-        and smooth; then stir in 15 marshmallows for the original batch and cook
-        until they begin melting, about 2 minutes. Scale that marshmallow count
-        proportionally. The full optional Irish cream remains an adult-only
-        batch choice; use the same hot holding and separate optional
-        marshmallow/shaved-chocolate garnishes.
+    - ingredient: Stovetop
+      alternative: A heavy pot over low heat
       effect: >-
-        This is the complete Pioneer Woman semisweet/melted-marshmallow version,
-        separate from the full bittersweet-and-salt main. Marshmallow size and
-        actual sweetness need checking.
-    - ingredient: Stovetop heating
-      alternative: >-
-        Use the full chosen formula in a roomy heavy saucepan over low heat.
-        Whisk the powders together, gradually whisk in the milk, then add all
-        cream, chocolate, vanilla and espresso plus salt if using the main. Stir
-        often until hot, melted and smooth without scorching. Finish the chosen
-        marshmallow or adult-only liqueur option, if using, and serve with the
-        same full garnishes and hot-holding checks.
-      effect: >-
-        The publisher also provides low stovetop heating. No model-specific
-        clock or reduction in dairy or chocolate is implied.
+        Whisk everything together the same way and heat, stirring often, until hot and smooth,
+        about 20 minutes. Don't let it boil.
+  storage: >-
+    Leftovers keep 3 days in the fridge. Rewarm gently on the stove, whisking until smooth.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Whisk the dry powders together and add the milk gradually to disperse the cocoa. LOW heating melts the chocolate into the full cream-and-milk base; whisk periodically and judge hot, smooth texture before serving. The separate semisweet version also melts marshmallows into the drink.
+This is real drinking chocolate for a crowd, made with chopped bittersweet chocolate as well as cocoa, so it's rich and velvety. The slow cooker's low, steady heat melts the chocolate without scorching and keeps the pot warm for refills. Espresso powder and a little salt deepen the chocolate and cut the sweetness.
 
 ## Directions
 
-1. Choose a cooker with safe working room for the full batch; the original recipe uses a six-quart slow cooker. Use separate proportional batches if the actual appliance cannot accommodate the scaled load.
-
-2. Whisk together all the listed sugar, cocoa, espresso and fine sea salt. Gradually whisk in all the milk, then all the heavy cream.
-
-3. Add all the chopped bittersweet chocolate and vanilla. Cover and heat on LOW, following the actual cooker instructions.
-
-4. Whisk periodically, beginning around 30–45 minutes, and continue until the chocolate has melted and the drink is hot and smooth throughout, roughly 2 hours for the original source batch. Do not use WARM to heat the cold starting mixture.
-
-5. If making an adult-only batch, stir in the full optional listed Irish cream. Keep an all-ages batch alcohol-free. For continued hot service check that the drink stays at 140°F or above; a WARM switch label alone does not establish that temperature.
-
-6. Divide among the listed planning portions and add the optional marshmallow and shaved-chocolate garnishes. Serve promptly.
+1. **Whisk the dry ingredients:** In a 6-quart slow cooker, whisk together the sugar, cocoa, espresso powder and salt.
+2. **Add the dairy:** Pour in the milk a little at a time, whisking until the cocoa dissolves, then whisk in the cream.
+3. **Add the chocolate:** Stir in the chopped chocolate and vanilla.
+4. **Slow-cook:** Cover and cook on low, whisking well every 30 to 45 minutes, until the chocolate has melted and the drink is hot and smooth, about 2 hours.
+5. **Serve:** Stir in the Irish cream if everyone drinking is an adult, or add it to adults' mugs. Ladle into mugs and top with marshmallows and shaved chocolate. Keep the cooker on warm for refills.

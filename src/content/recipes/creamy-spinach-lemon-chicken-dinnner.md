@@ -16,53 +16,66 @@ cuisines:
   - Mediterranean
 role: main
 vibe: comfort
-prepTime: 20–30 min active
-cookTime: '20–30 min cooking, depending on searing batches'
-totalTime: 45–65 min including 5-minute rest
+prepTime: 15 min
+cookTime: 20 min
+totalTime: 35 min
 servings: 4 portions
 pairsWith:
-  - everyday-arugula-salad
-  - garlicky-lemon-kale-with-carrots
-  - arugula-feta-salad
+  - lemon-herb-couscous
+  - greek-village-salad
+pairingNotes:
+  lemon-herb-couscous: Fluffy couscous soaks up the lemony sauce.
+  greek-village-salad: 'Crunchy cucumber, tomato and feta on the side.'
 ingredients:
-  - '--- Chicken ---'
-  - '4 large chicken breasts, halved horizontally into cutlets'
-  - 2 tbsp olive oil
-  - 'salt, to taste'
+  - 4 large boneless skinless chicken breasts
+  - 'kosher salt, to taste'
   - 'black pepper, to taste'
-  - '--- Sauce ---'
+  - 2 tbsp olive oil
   - '3 garlic cloves, minced'
   - 2 tsp dried oregano
   - 1 cup low-sodium chicken broth
-  - '9 oz fresh spinach, washed and drained'
-  - '1/2 cup Greek yogurt, full-fat preferred'
+  - 9 oz baby spinach
+  - 1/2 cup whole-milk Greek yogurt
   - '1/2 lemon, zested and juiced'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from Buzzfeed.com
-sourceUrl: >-
-  https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din?utm_term=.xiNZnEPV4#.eaoYwzRK5
+source: Adapted from BuzzFeed
+sourceUrl: 'https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din'
 formula:
   version: 1
   yield:
     amount: 4
     unit: portion
   components:
-    - id: chicken
-      name: Chicken
+    - id: main
+      name: Main recipe
       ingredients:
         - id: chicken
           key: chicken
-          name: 'large chicken breasts, halved horizontally into cutlets'
+          name: large boneless skinless chicken breast
+          plural: large boneless skinless chicken breasts
           quantity:
             amount: 4
             unit: count
           uses:
-            - step: prep
+            - step: cut
               share: 1
-          plural: 'large chicken breasts, halved horizontally into cutlets'
+        - id: salt
+          key: salt
+          name: kosher salt
+          allowance: to taste
+          uses:
+            - step: sear
+              share: 1
+        - id: pepper
+          key: pepper
+          name: black pepper
+          allowance: to taste
+          uses:
+            - step: sear
+              share: 1
         - id: oil
           key: oil
           name: olive oil
@@ -70,38 +83,19 @@ formula:
             amount: 2
             unit: tbsp
           uses:
-            - step: sear
-              share: 0.5
-            - step: broth
-              share: 0.5
-        - id: salt
-          key: salt
-          name: salt
-          allowance: to taste
-          uses:
-            - step: prep
+            - step: garlic
               share: 1
-        - id: pepper
-          key: pepper
-          name: black pepper
-          allowance: to taste
-          uses:
-            - step: prep
-              share: 1
-    - id: sauce
-      name: Sauce
-      ingredients:
         - id: garlic
           key: garlic
           name: garlic clove
+          plural: garlic cloves
           quantity:
             amount: 3
             unit: count
           uses:
-            - step: broth
+            - step: garlic
               share: 1
           preparation: minced
-          plural: garlic cloves
         - id: oregano
           key: oregano
           name: dried oregano
@@ -109,7 +103,7 @@ formula:
             amount: 2
             unit: tsp
           uses:
-            - step: broth
+            - step: garlic
               share: 1
         - id: broth
           key: broth
@@ -118,168 +112,95 @@ formula:
             amount: 1
             unit: cup
           uses:
-            - step: broth
+            - step: spinach
               share: 1
         - id: spinach
           key: spinach
-          name: 'fresh spinach, washed and drained'
+          name: baby spinach
           quantity:
             amount: 9
             unit: oz
           uses:
-            - step: broth
+            - step: spinach
               share: 1
         - id: yogurt
           key: yogurt
-          name: 'Greek yogurt, full-fat preferred'
+          name: whole-milk Greek yogurt
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: cup
           uses:
             - step: yogurt
               share: 1
         - id: lemon
           key: lemon
-          name: 'lemon, zested and juiced'
+          name: lemon
+          plural: lemons
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: count
+          preparation: zested and juiced
           uses:
-            - step: yogurt
+            - step: finish
               share: 1
-          plural: 'lemons, zested and juiced'
   steps:
-    - id: prep
-      title: Prepare
+    - id: cut
+      title: Cut the cutlets
       text: >-
-        Prepare {{ingredients}}. Halve the breasts horizontally into cutlets and, if needed, pound
-        to an even approximately ½-inch thickness. At the original batch this makes eight cutlets.
-        Season with the salt and pepper. Use a wide 12-inch skillet and sear in batches so the
-        cutlets do not overlap.
+        Slice {{ingredients}} in half horizontally to make thin cutlets. Pound any thick spots with
+        a rolling pin to an even 1/2 inch.
     - id: sear
-      title: Sear in batches
+      title: Sear the chicken
       text: >-
-        For this stage use {{ingredients}}. Heat half the olive oil over medium-high heat. Sear the
-        cutlets in uncrowded batches, dividing this oil among the batches, for about 2–3 minutes per
-        side until golden; browning does not establish center doneness. Move them to a raw-contact
-        plate while making the broth base.
-    - id: broth
-      title: Build the broth base
+        Season both sides of the cutlets with {{ingredients}}. Heat half the {{name:main.oil}} in a
+        12-inch skillet over medium-high heat. Sear the cutlets in two batches until golden, 2 to 3
+        minutes per side, then move them to a plate. They finish cooking in the sauce.
+    - id: garlic
+      title: Bloom the garlic
       text: >-
-        Build the broth base with {{ingredients}}. Reduce the heat to medium. Add the remaining oil,
-        garlic and oregano; stir 30–45 seconds until fragrant, without scorching the garlic. Add all
-        the broth and scrape up the browned bits. Fold in all the spinach until it begins to
-        collapse. Keep the yogurt and lemon out of the pan for now.
-    - id: oven
-      title: Finish the chicken in the sauce
+        Lower the heat to medium. Add the remaining {{ingredients}} to the pan. Stir until fragrant,
+        30 to 45 seconds, without letting the garlic brown.
+    - id: spinach
+      title: Wilt the spinach
       text: >-
-        Bring the broth-and-spinach base to a gentle simmer. Return the seared cutlets and all
-        collected juices, nestling them into the sauce. A little overlap is fine, or finish them in
-        two batches. Cover and simmer gently for 2–4 minutes, turning once, until each cutlet
-        reaches 165°F in its thickest part, checked without touching the pan. Thicker cutlets take
-        longer. Transfer cooked cutlets to a clean platter and rest for 5 minutes. Let the
-        raw-contact broth base return to a simmer after the last cutlet comes out before finishing
-        the sauce.
+        Add {{ingredients}} and scrape up the browned bits. Stir as the spinach wilts down, about 2
+        minutes, then bring to a gentle simmer.
+    - id: simmer
+      title: Finish the chicken
+      text: >-
+        Nestle the cutlets and their juices into the spinach. Cover and simmer gently, turning once,
+        until the chicken reaches 165°F, 2 to 4 minutes. Move the chicken to a platter.
     - id: yogurt
-      title: Finish the yogurt sauce off the heat
+      title: Temper the yogurt
       text: >-
-        Finish with {{ingredients}}. Remove the pan from the heat. Put all the yogurt in a clean
-        bowl and gradually whisk in several spoonfuls of the fully cooked hot broth to temper it.
-        Gently stir this mixture into the cooked base, then add all the lemon zest and juice. Keep
-        the finished sauce off a boil; rapid heating and acid can make yogurt separate. Taste with a
-        clean spoon and adjust the existing salt and pepper allowances.
-    - id: serve
-      title: Serve
+        Take the pan off the heat and let it stop bubbling. Put {{ingredients}} in a small bowl and
+        whisk in a few spoonfuls of the hot broth, then stir it back into the pan.
+    - id: finish
+      title: Finish and serve
       text: >-
-        Divide all the rested cutlets and spinach among the listed portions and spoon over all the
-        sauce. At the original batch, four portions each have two cutlets; breast sizes vary. Rice
-        or greens are separate accompaniments. Refrigerate promptly in shallow covered containers at
-        40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions
-        for later. Reheat hot leftovers to 165°F throughout. For reheated yogurt sauce, USDA also
-        recommends bringing sauces to a rolling boil. Stir for even heating and keep the boil brief
-        rather than prolonged; yogurt can separate and the sauce can concentrate. Retain the full
-        yogurt and lemon quantities. These handling limits do not promise unchanged texture.
+        Stir in {{ingredients}} zest and juice. Taste for salt and pepper. Spoon the spinach and
+        sauce over the chicken and serve.
 learning:
-  focus: Finish poultry before tempering the yogurt sauce
-  outcome: Golden cooked cutlets and wilted spinach in a gently finished lemon-yogurt sauce.
   techniques:
     - gentle-proteins
-  before:
-    - >-
-      Keep raw poultry cold until preparation; thaw frozen poultry in the refrigerator before this
-      method. Keep raw-contact boards, dishes and utensils separate from ready-to-eat sauces and
-      finished food.
-    - >-
-      Halving four breasts makes eight cutlets at the original batch; ingredient scaling changes the
-      number, so use more or fewer pans or batches rather than layering them. The center endpoint
-      stays the same; cooking time does not scale directly.
-    - >-
-      Use a wide 12-inch skillet. If the cutlets crowd it when they return to the sauce, finish them
-      in two batches.
-  checkpoints:
-    - step: 2
-      cue: Golden cutlet surfaces; centers may still be raw.
-      why: Batching lets the surfaces brown without treating color as doneness.
-    - step: 4
-      cue: Each cutlet and raw-contact broth reach 165°F.
-      why: The thermometer determines when the poultry-contact stage is finished.
-    - step: 5
-      cue: 'Yogurt goes into fully cooked broth gradually, off the heat.'
-      why: >-
-        Tempering and gentle heat help retain a smooth texture; they do not make an acidified sauce
-        immune to splitting.
-  troubleshooting:
-    - problem: Yogurt sauce becomes grainy
-      cause: A rapid temperature change or boiling after acid was added can destabilize the yogurt.
-      fix: >-
-        Keep the finished yogurt sauce off the boil. It may remain separated; serve the fully cooked
-        chicken and sauce without adding an unlisted stabilizer.
-  substitutions:
-    - ingredient: Olive oil
-      alternative: Same listed amount of coconut oil
-      effect: >-
-        Coconut oil changes the aroma; use the same listed oil quantity, divided between searing and
-        the broth base.
-    - ingredient: Horizontally halved cutlets
-      alternative: Whole-breast route with the same listed chicken count and other quantities
-      effect: >-
-        Thicker whole breasts need a longer covered simmer, turning occasionally, to reach 165°F;
-        the cutlet 2–4 minute check is not a promise for whole breasts.
-  timing: >-
-    20–30 min active; 20–30 min cooking, depending on searing batches; 45–65 min including 5-minute
-    rest. Planning ranges assume thawed poultry and do not include cooking separate side dishes.
   storage: >-
-    Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour
-    above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F
-    throughout. For reheated yogurt sauce, USDA also recommends bringing sauces to a rolling boil.
-    Stir for even heating and keep the boil brief rather than prolonged; yogurt can separate and the
-    sauce can concentrate. Retain the full yogurt and lemon quantities. These handling limits do not
-    promise unchanged texture.
-  sources:
-    - title: Adapted from Buzzfeed.com
-      url: >-
-        https://www.buzzfeed.com/joeyfiroben/this-creamy-spinach-lemon-chicken-is-the-most-satisfying-din?utm_term=.xiNZnEPV4#.eaoYwzRK5
-    - title: FoodSafety.gov — Safe minimum cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: Dairy UK — Yogurt in cooking
-      url: 'https://milk.co.uk/hcp/wp-content/uploads/sites/2/2018/07/YogurtConsumerweb.pdf'
+    Leftovers keep 3 days in the fridge. Reheat them covered over low heat, since the yogurt sauce
+    can split if it boils.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-At the original four-portion batch, four large breasts make eight cutlets: keep them comparable in thickness and give each room in the pan. Cook the chicken and broth together before finishing the sauce with yogurt and lemon off the heat. Gentle tempering reduces abrupt temperature changes; full-fat yogurt helps, but an acidic yogurt sauce can still separate.
+Thin chicken cutlets get a quick golden sear, then finish in a garlicky oregano broth with a mound of spinach. Greek yogurt and lemon make it creamy and bright without any cream. Stir in the yogurt off the heat, after warming it with a little broth, so the sauce stays smooth.
 
 ## Directions
 
-1. **Prepare:** Prepare large chicken breasts, halved horizontally into cutlets, salt, and black pepper. Halve the breasts horizontally into cutlets and, if needed, pound to an even approximately ½-inch thickness. At the original batch this makes eight cutlets. Season with the salt and pepper. Use a wide 12-inch skillet and sear in batches so the cutlets do not overlap.
-2. **Sear in batches:** For this stage use 1/2 of the olive oil. Heat half the olive oil over medium-high heat. Sear the cutlets in uncrowded batches, dividing this oil among the batches, for about 2–3 minutes per side until golden; browning does not establish center doneness. Move them to a raw-contact plate while making the broth base.
-3. **Build the broth base:** Build the broth base with 1/2 of the olive oil, garlic cloves, dried oregano, low-sodium chicken broth, and fresh spinach, washed and drained. Reduce the heat to medium. Add the remaining oil, garlic and oregano; stir 30–45 seconds until fragrant, without scorching the garlic. Add all the broth and scrape up the browned bits. Fold in all the spinach until it begins to collapse. Keep the yogurt and lemon out of the pan for now.
-4. **Finish the chicken in the sauce:** Bring the broth-and-spinach base to a gentle simmer. Return the seared cutlets and all collected juices, nestling them into the sauce. A little overlap is fine, or finish them in two batches. Cover and simmer gently for 2–4 minutes, turning once, until each cutlet reaches 165°F in its thickest part, checked without touching the pan. Thicker cutlets take longer. Transfer cooked cutlets to a clean platter and rest for 5 minutes. Let the raw-contact broth base return to a simmer after the last cutlet comes out before finishing the sauce.
-5. **Finish the yogurt sauce off the heat:** Finish with Greek yogurt, full-fat preferred and lemon, zested and juiced. Remove the pan from the heat. Put all the yogurt in a clean bowl and gradually whisk in several spoonfuls of the fully cooked hot broth to temper it. Gently stir this mixture into the cooked base, then add all the lemon zest and juice. Keep the finished sauce off a boil; rapid heating and acid can make yogurt separate. Taste with a clean spoon and adjust the existing salt and pepper allowances.
-6. **Serve:** Divide all the rested cutlets and spinach among the listed portions and spoon over all the sauce. At the original batch, four portions each have two cutlets; breast sizes vary. Rice or greens are separate accompaniments. Refrigerate promptly in shallow covered containers at 40°F or below, within 2 hours (1 hour above 90°F). Use within 3–4 days, or freeze portions for later. Reheat hot leftovers to 165°F throughout. For reheated yogurt sauce, USDA also recommends bringing sauces to a rolling boil. Stir for even heating and keep the boil brief rather than prolonged; yogurt can separate and the sauce can concentrate. Retain the full yogurt and lemon quantities. These handling limits do not promise unchanged texture.
+1. **Cut the cutlets:** Slice large boneless skinless chicken breasts in half horizontally to make thin cutlets. Pound any thick spots with a rolling pin to an even 1/2 inch.
+2. **Sear the chicken:** Season both sides of the cutlets with kosher salt and black pepper. Heat half the olive oil in a 12-inch skillet over medium-high heat. Sear the cutlets in two batches until golden, 2 to 3 minutes per side, then move them to a plate. They finish cooking in the sauce.
+3. **Bloom the garlic:** Lower the heat to medium. Add the remaining olive oil, garlic cloves, and dried oregano to the pan. Stir until fragrant, 30 to 45 seconds, without letting the garlic brown.
+4. **Wilt the spinach:** Add low-sodium chicken broth and baby spinach and scrape up the browned bits. Stir as the spinach wilts down, about 2 minutes, then bring to a gentle simmer.
+5. **Finish the chicken:** Nestle the cutlets and their juices into the spinach. Cover and simmer gently, turning once, until the chicken reaches 165°F, 2 to 4 minutes. Move the chicken to a platter.
+6. **Temper the yogurt:** Take the pan off the heat and let it stop bubbling. Put whole-milk Greek yogurt in a small bowl and whisk in a few spoonfuls of the hot broth, then stir it back into the pan.
+7. **Finish and serve:** Stir in lemon zest and juice. Taste for salt and pepper. Spoon the spinach and sauce over the chicken and serve.

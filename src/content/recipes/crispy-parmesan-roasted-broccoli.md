@@ -35,72 +35,41 @@ pairsWith:
   - chicken-piccata-unfried
   - one-pan-lemon-herb-chicken-thighs
   - baked-chicken-parmesan
+pairingNotes:
+  chicken-piccata-unfried: Cheesy broccoli with bright, lemony chicken.
+  one-pan-lemon-herb-chicken-thighs: Roasts at the same heat as the chicken.
+  baked-chicken-parmesan: A crisp green side for an Italian-American dinner.
 ingredients:
-  - '1.5 lbs (680 g) fresh broccoli, cut into 1.5-inch florets with flat stem sides'
+  - '1 1/2 lb broccoli, cut into 1 1/2-inch florets with a flat side'
   - '3 tbsp olive oil, divided'
-  - 1/2 cup (30 g) finely grated Parmesan
-  - '3 cloves garlic, finely minced'
   - '1/2 tsp fine salt, plus more to taste'
   - 1/4 tsp black pepper
-  - '1–2 tsp fresh lemon juice, to finish'
-  - 'Pinch of red pepper flakes, optional'
+  - '3 cloves garlic, finely minced'
+  - '1/2 cup Parmigiano-Reggiano, finely grated'
+  - 1–2 tsp fresh lemon juice
+  - 'pinch of red pepper flakes (optional)'
 description: >-
-  Tender broccoli with browned edges and a nutty cheese crust. Learn to control surface moisture and
-  add garlic before it burns.
+  Tender broccoli with browned edges and a nutty Parmesan crust.
 learning:
-  focus: 'Roast for browning, not steam'
-  outcome: 'Browned flat surfaces, crisp tips, and stems a knife can pierce without a raw crunch.'
   techniques:
     - browning
     - seasoning
-  before:
-    - Dry the washed broccoli thoroughly; water clinging in the florets delays browning.
-    - 'Use a 13 × 18-inch rimmed sheet pan, or two smaller pans. Leave room between florets.'
-  checkpoints:
-    - step: 2
-      cue: Flat stem sides touch the pan; florets have visible gaps between them.
-      why: Direct contact improves browning and gaps let moisture escape.
-    - step: 4
-      cue: 'Garlic smells fragrant, cheese is golden, and a knife enters a thick stem easily.'
-      why: Garlic and cheese are added late so they can brown without scorching during the full roast.
-  troubleshooting:
-    - problem: Broccoli is soft and pale
-      cause: Crowding or wet florets trapped too much moisture.
-      fix: >-
-        Spread onto a second hot tray if available and roast a little longer. If already soft, serve
-        it as tender roasted broccoli rather than burning it to chase crispness.
-    - problem: Tips are burning but stems are hard
-      cause: Florets are uneven or stem sections too thick.
-      fix: Lower the oven to 400°F / 205°C and finish briefly. Cut more uniform stems next time.
-  substitutions:
-    - ingredient: Parmesan
-      alternative: Finely chopped toasted nuts added after roasting
-      effect: A dairy-free finish with crunch; it will not form a melted cheese crust.
-  timing: >-
-    35 minutes including preparation and preheating; ovens and floret size can add 5 minutes. For
-    twice the amount, use two trays rather than one crowded tray.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days and reheat leftovers to 165°F / 74°C. Reheat uncovered in the oven to
-    restore some crispness; microwaving softens the edges.
-  sources:
-    - title: American Chemical Society — Chemistry of grilling
-      url: 'https://www.acs.org/pressroom/reactions/library/grilling.html'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Leftovers keep 4 days in the fridge. Reheat them uncovered in a hot oven, since the microwave
+    softens the edges.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The important temperature is at the broccoli surface, not just on the oven dial. Dry florets and space on the tray let moisture escape so browning can develop. Garlic and cheese go in near the end: both need far less time than the broccoli stems.
+High heat and plenty of space turn broccoli crisp and browned at the edges and tender inside, and the Parmesan melts into a salty, nutty crust kids ask for. The garlic and cheese go on for the last few minutes, so the garlic turns sweet instead of burning.
 
 ## Directions
 
-1. **Heat and dry:** Heat the oven to 425°F / 220°C with a rack in the upper middle. Wash broccoli, drain, and towel-dry thoroughly. Cut thick stems to a similar size so they finish with the florets.
-2. **Season and arrange:** Toss broccoli with 2 tbsp oil, salt, and pepper. Spread on a rimmed half-sheet pan, placing flat cut sides down with space between pieces. Use a second pan if necessary.
-3. **Roast:** Roast undisturbed for 15 minutes. Check the undersides: they should have golden patches. Turn the pieces and roast another 3–5 minutes if the stems still feel very firm.
-4. **Add the delicate ingredients:** Mix garlic with the remaining 1 tbsp oil. Toss it through the broccoli, then sprinkle with Parmesan. Roast 3–5 minutes more, until the cheese is golden and a knife pierces the stems easily. Check early; do not wait for black garlic.
-5. **Finish:** Taste a floret. Add lemon juice a little at a time and adjust salt only if needed. Add optional pepper flakes and serve immediately, uncovered, to preserve the edges.
+1. **Heat the oven:** Heat the oven to 425°F with a rack in the upper middle. Pat the broccoli completely dry.
+2. **Season the broccoli:** Toss the broccoli with most of the oil, the salt and the pepper. Spread it on a rimmed half-sheet pan, flat sides down, with space between the pieces.
+3. **Roast:** Roast without stirring until the undersides have golden patches, about 15 minutes. Turn the pieces and roast 3 to 5 minutes more.
+4. **Add the garlic and cheese:** Mix the garlic with the rest of the oil and toss it through the broccoli, then sprinkle with the Parmesan. Roast until the cheese is golden with a few dark spots and a knife slides easily into the stems, 3 to 5 minutes.
+5. **Finish:** Squeeze the lemon juice over the broccoli, taste for salt and add pepper flakes, if using. Serve right away.
