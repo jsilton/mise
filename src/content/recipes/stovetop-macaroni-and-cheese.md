@@ -1,10 +1,9 @@
 ---
 miseId: a46c2c81-a903-4614-839e-b4d46757baf8
 title: Stovetop Macaroni & Cheese
-difficulty: intermediate
+difficulty: easy
 cookingMethods:
   - boil
-  - bake
   - broil
 dietary:
   - vegetarian
@@ -27,140 +26,52 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 5 min
-cookTime: 15–25 min
-totalTime: 20–30 min
+cookTime: 20 min
+totalTime: 25 min
 servings: '6'
 pairsWith:
-  - garlic-mashed-mock-potatoes
+  - steamed-broccoli
   - honey-glazed-carrots
-  - skinny-baked-broccoli-macaroni-and-cheese
+pairingNotes:
+  steamed-broccoli: A plain green vegetable beside the rich cheese.
+  honey-glazed-carrots: Sweet carrots that kids eat alongside.
 ingredients:
-  - 1 lb Elbow Macaroni or Shells
-  - 3 cups Whole Milk
-  - 3 tbsp All-Purpose Flour
-  - '3 cups Sharp Cheddar, shredded'
-  - 1/2 tsp Sea Salt
-  - 1/4 tsp Dry Mustard Powder (The Finishing Touch)
-  - 1 tbsp Unsalted Butter
-  - 'Water and salt for boiling pasta, as needed'
-  - 'Breadcrumbs for optional broiled or baked topping, as needed'
-  - 'Extra butter pats for optional baked topping, as needed'
-  - 'Additional milk for loosening, as needed'
-source: Adapted from Thekitchn.com
+  - 1 lb elbow macaroni or small shells
+  - kosher salt, for the pasta water
+  - 3 cups whole milk
+  - 3 tbsp all-purpose flour
+  - '3 cups sharp cheddar, shredded'
+  - 1/2 tsp fine sea salt, plus more to taste
+  - 1/4 tsp dry mustard powder
+  - 1 tbsp unsalted butter
+  - 'breadcrumbs, for broiling (optional)'
+source: Adapted from The Kitchn
 sourceUrl: >-
-  http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588
+  https://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588
 learning:
-  focus: Thicken milk before melting cheese gently
-  outcome: Tender pasta coated in a smooth cheese sauce.
   techniques:
     - starch
     - emulsions
-  before:
-    - >-
-      Use a saucepan or pot with room for the full cooked pasta and sauce.
-      Larger batches need a larger vessel or separate batches; keep the milk
-      one-third/two-thirds division at every scale.
-    - >-
-      The main retains all the listed sharp cheddar, whole milk and butter.
-      Optional crumbs, extra butter for a baked topping and a little milk for
-      loosening are separate supplies, not deductions from the main sauce.
-  checkpoints:
-    - step: 2
-      cue: No dry flour lumps remain in the cold milk slurry.
-      why: Lumps formed here are harder to disperse after thickening.
-    - step: 4
-      cue: The cheese melts smoothly over low heat without vigorous bubbling.
-      why: 'A flour base helps, but does not guarantee a sauce cannot separate.'
-  troubleshooting:
-    - problem: Cheese sauce becomes grainy
-      cause: The cheese was heated too aggressively.
-      fix: >-
-        Take off heat and stir gently; a little optional milk can loosen a tight
-        sauce, but may not reverse separated cheese.
   substitutions:
-    - ingredient: Saved sauce formula
-      alternative: >-
-        For the complete saved sauce instead of the main, use the same listed
-        pasta weight, mustard and salt volume with the saved 1 1/2 cups milk
-        and 2 tbsp flour (a tighter sauce), but choose
-        whole or 2% milk, 2–3 cups cheddar, Monterey Jack or Colby for the
-        original batch (scale that range proportionally), and omit the listed
-        main butter. The saved salt is unnamed; that is not a kosher-to-sea-salt
-        conversion. Warm two thirds of the milk, whisk the flour into the cold
-        remaining third and whisk it into the warm milk; thicken, then melt
-        cheese gently and combine all the pasta. Optional cooking-water plan:
-        for the original 1 lb pasta batch, use about 4 quarts water and 1 tbsp
-        salt, scaling both proportionally with the listed pasta weight and using
-        enough pot capacity or separate batches. This replaces the main
-        cooking-water allowance; keep this water's salt separate from the sauce
-        salt. The original does not specify the cooking-water salt's crystal
-        type.
-      effect: >-
-        The main keeps its full 3 cups sharp cheddar and tablespoon butter at
-        original scale; these two formulas are exclusive.
-    - ingredient: Baked finish
-      alternative: >-
-        For the saved baked option, preheat to 350°F, transfer all the finished
-        pasta and sauce to enough oven-rated dishes with headroom, cover and
-        bake about 30 minutes. Uncover, add the optional breadcrumbs and extra
-        butter pats and bake about 15–20 minutes more, until golden and bubbling
-        and the center reaches 165°F / 74°C. Smaller or larger loads change the
-        clock; the center check also applies with cooked add-ins.
-      effect: This 45–50-minute reference is separate from the quick broiled finish.
-    - ingredient: Cooked add-ins
-      alternative: >-
-        Fold in separately cooked ham or bacon, or softened onion, peas,
-        mushrooms, peppers, broccoli or cauliflower before serving or the baked
-        finish.
-      effect: >-
-        The source gives no doses; these are optional unmeasured additions, not
-        raw ingredients to cook in the cheese sauce.
-    - ingredient: Sauce thickness
-      alternative: >-
-        If the finished sauce is too tight, stir in a little of the optional
-        milk over gentle heat.
-      effect: >-
-        This is an additional loosening allowance, not a reduction of the
-        measured milk.
+    - ingredient: Sharp cheddar
+      alternative: Half Monterey Jack or Colby
+      effect: The sauce melts even smoother and tastes milder.
   storage: >-
-    Refrigerate leftovers promptly in shallow containers within 2 hours, or 1
-    hour above 90°F / 32°C, at 40°F / 4°C or below. Use within 3–4 days and
-    reheat throughout to 165°F / 74°C. Thaw frozen portions in the refrigerator.
-    Reheat gently, stirring; a little of the additional milk may help loosen the
-    sauce.
-  timing: >-
-    The stovetop route usually takes 20–30 minutes including boiling water;
-    sauce and pasta can overlap. The broiled finish adds setup and close
-    watching. The separate covered/uncovered baked route adds approximately
-    45–50 minutes or longer, with doneness governing.
-  sources:
-    - title: The Kitchn — Stovetop macaroni and cheese
-      url: >-
-        http://www.thekitchn.com/how-to-make-the-best-macaroni-and-cheese-on-the-stove-82588
-    - title: FoodSafety.gov — Casserole temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: 'FoodSafety.gov — Clean, separate, cook and chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: FoodSafety.gov — Leftover handling
-      url: 'https://www.foodsafety.gov/blog/game-day-food-safety-tips'
+    Keeps 3 days in the fridge. Reheat gently on the stove with a splash of milk, stirring often.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Whisk the flour smoothly into one third of the cold milk before adding the rest. Gentle heat thickens the milk; lower heat then melts the cheese without forcing a boil. Pasta brands cook at different speeds, so taste for a tender noodle with a little bite rather than relying on exactly eight minutes.
+A creamy stovetop mac and cheese that's ready in the time it takes to boil the pasta. Whisking the flour into cold milk thickens the sauce without a roux, and a little dry mustard sharpens the cheddar without tasting of mustard. Keep the heat low once the cheese goes in so the sauce stays smooth.
 
 ## Directions
 
-1. **Boil:** Cook all the pasta in salted boiling water according to its package, stopping when tender with a little bite. Drain.
-
-2. **Whisk:** In a large saucepan, whisk one third of the measured milk with all the flour until smooth. Stir in all the remaining milk.
-
-3. **Thicken:** Cook over medium heat, whisking across the bottom, until it lightly coats a spoon, checking from about 5–7 minutes; a cold pan and milk can take longer.
-
-4. **Melt and season:** Reduce heat to low. Add all the cheese in handfuls, stirring until each melts. Stir in all the salt, mustard powder and measured butter, taste and add a pinch more salt if needed, then take off heat. Avoid a hard boil after the cheese is added.
-
-5. **Combine and serve:** Fold in all the drained pasta until coated. Serve hot. For the quick broiled finish, transfer to a broiler-rated dish, scatter the optional breadcrumbs over it and broil with frequent checks from about 2 minutes, until the top colors; do not leave it unattended.
+1. **Boil the pasta:** Bring a large pot of well-salted water to a boil. Add the macaroni and cook until tender with a little bite, about 1 minute less than the package says. Drain.
+2. **Make the slurry:** While the pasta cooks, whisk one third of the milk with the flour in a large saucepan until no lumps remain. Whisk in the rest of the milk.
+3. **Thicken the milk:** Cook over medium heat, whisking across the bottom of the pan, until the milk is as thick as heavy cream and coats a spoon, 5 to 7 minutes.
+4. **Melt the cheese:** Turn the heat to low. Add the cheddar a handful at a time, stirring until each handful melts. Stir in the sea salt, mustard powder and butter. Don't let the sauce boil once the cheese is in.
+5. **Toss and serve:** Fold in the drained pasta until every piece is coated. Taste, add more salt if it needs it and serve hot.
+6. **Broil the top (optional):** For a crisp top, spread the mac and cheese in a broiler-safe dish and scatter breadcrumbs over it. Broil until golden, about 2 minutes, watching closely.

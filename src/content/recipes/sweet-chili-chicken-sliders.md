@@ -20,37 +20,37 @@ flavorProfile:
   - umami
 prepTime: 15 min
 cookTime: 15 min
-totalTime: 'About 1 hr 5 min, including 30 min refrigerated marinating'
+totalTime: '30 min, plus 30 min marinating'
 advancePrep:
   - marinate
 servings: 12 pieces
 pairsWith:
-  - crockpot-mac-and-cheese
-  - classic-guacamole
-  - bbq-chicken-sliders
+  - steamed-edamame
+  - smashed-cucumber-salad
+pairingNotes:
+  steamed-edamame: Salty edamame to snack on alongside.
+  smashed-cucumber-salad: 'Cool, garlicky cucumbers against the sweet heat.'
 equipment:
   - sheet-pan
 ingredients:
   - '--- Chicken and marinade ---'
-  - '2 lb boneless skinless chicken thighs, raw; fresh or fully thawed'
+  - 2 lb boneless skinless chicken thighs
   - 2 tbsp soy sauce
   - 1 tbsp sesame oil
-  - '3 garlic cloves, peeled and minced'
+  - '3 garlic cloves, minced'
   - '1 tsp fresh ginger, grated'
-  - '--- Clean glaze ---'
+  - '--- Glaze ---'
   - 1/2 cup Thai sweet chili sauce
   - 1 tbsp soy sauce
   - 1 tbsp rice vinegar
   - '--- Rolls, slaw and mayo ---'
   - '12 Hawaiian rolls, split'
-  - >-
-    1 bag of chopped Asian-style salad kit, cabbage, crisp toppings and sesame dressing; use the
-    complete kit, following its preparation label
+  - 1 Asian chopped salad kit
   - 1/4 cup mayonnaise
   - 1 tbsp Sriracha
   - '2 tbsp butter, melted'
-  - 'sesame seeds, as wanted for topping'
-  - 'fresh cilantro, as wanted for topping, washed and chopped, optional'
+  - 'sesame seeds, for topping'
+  - 'fresh cilantro, for topping, chopped, optional'
 seasons:
   - year-round
 nutritionalDensity: moderate
@@ -73,7 +73,6 @@ formula:
           uses:
             - step: marinate
               share: 1
-          preparation: raw; fresh or fully thawed
         - id: soy
           key: soy
           name: soy sauce
@@ -102,7 +101,7 @@ formula:
             - step: marinate
               share: 1
           plural: garlic cloves
-          preparation: peeled and minced
+          preparation: minced
         - id: ginger
           key: ginger
           name: fresh ginger
@@ -114,7 +113,7 @@ formula:
               share: 1
           preparation: grated
     - id: glaze
-      name: Clean glaze
+      name: Glaze
       ingredients:
         - id: chili
           key: chili
@@ -153,23 +152,20 @@ formula:
             amount: 12
             unit: count
           uses:
-            - step: toast
+            - step: assemble
               share: 1
           plural: Hawaiian rolls
           preparation: split
         - id: kit
           key: kit
-          name: bag of chopped Asian-style salad kit
+          name: Asian chopped salad kit
           quantity:
             amount: 1
             unit: count
           uses:
             - step: slaw
               share: 1
-          plural: bags of chopped Asian-style salad kit
-          preparation: >-
-            cabbage, crisp toppings and sesame dressing; use the complete kit, following its
-            preparation label
+          plural: Asian chopped salad kits
         - id: mayo
           key: mayo
           name: mayonnaise
@@ -201,149 +197,90 @@ formula:
         - id: sesame
           key: sesame
           name: sesame seeds
-          allowance: as wanted for topping
+          allowance: for topping
           uses:
-            - step: assemble
+            - step: garnish
               share: 1
           role: garnish
         - id: cilantro
           key: cilantro
           name: fresh cilantro
-          allowance: as wanted for topping
+          allowance: for topping
           uses:
-            - step: assemble
+            - step: garnish
               share: 1
-          preparation: washed and chopped
+          preparation: chopped
           optional: true
           role: garnish
   steps:
     - id: marinate
-      title: Marinate cold
+      title: Marinate the chicken
       text: >-
-        Toss all {{ingredients}} together. Cover and refrigerate for 30 minutes, or up to 4 hours.
-        Keep the separate glaze, mayo and slaw away from raw chicken and used utensils. Thaw frozen
-        chicken in the refrigerator beforehand.
+        Toss {{ingredients}} in a bowl. Cover and refrigerate for at least 30 minutes or up to 4
+        hours.
     - id: glaze
-      title: Mix clean glaze
-      text: >-
-        Whisk all {{ingredients}} in a clean bowl and set aside for the cooked chicken. Keep this
-        whole measured glaze separate from the used marinade.
+      title: Mix the glaze
+      text: 'Whisk {{ingredients}} in a small bowl.'
     - id: mayo
-      title: Mix mayo
-      text: >-
-        Use {{ingredients}} for the mayo. For the standard version, mix the full mayonnaise and
-        Sriracha together. For a milder version, keep all the mayonnaise plain and offer the listed
-        Sriracha separately or omit it. Refrigerate until assembly.
+      title: Mix the mayo
+      text: 'Stir {{ingredients}} together and refrigerate until serving.'
     - id: broil
-      title: Broil chicken
+      title: Broil the chicken
       text: >-
-        Use a broiler-safe metal sheet pan and the rack position allowed by the oven, about 6 inches
-        below the element where permitted. Lift thighs from the marinade, shake off excess and
-        discard the used marinade. Arrange in one layer without overlap; use more loads if needed.
-        Start checking at 6–7 minutes per side, turning as the surface browns, and continue until
-        the thickest part of each thigh reaches 165°F / 74°C. Charred spots do not establish the
-        center temperature. Transfer cooked thighs with clean utensils.
+        Heat the broiler with a rack 6 inches from the heat. Lift the thighs from the marinade,
+        shake off the excess and lay them flat on a sheet pan. Broil until charred in spots and
+        165°F in the thickest part, 6 to 7 minutes per side.
     - id: lacquer
-      title: Glaze
+      title: Glaze the chicken
       text: >-
-        Brush all the clean glaze over the fully cooked chicken. Broil about 1–2 minutes, watching
-        closely, until the coating is sticky and lightly caramelized; remove before it burns. Use
-        clean brushing/serving utensils.
+        Brush the hot chicken with all the glaze and broil until sticky and caramelized, 1 to 2
+        minutes. Watch closely so it doesn't burn. Let the chicken rest 5 minutes.
     - id: toast
-      title: Rest and toast rolls
+      title: Toast the rolls
       text: >-
-        Rest the chicken for 5 minutes. Meanwhile, use all {{ingredients}}: brush the roll cut faces
-        with the melted butter, put them cut-side up on a clean broiler-safe metal pan and watch for
-        1–2 minutes until golden. Remove promptly; toasting can require separate loads.
+        While the chicken rests, brush the cut sides of the rolls with {{ingredients}}. Broil cut
+        side up on a clean pan until golden, 1 to 2 minutes.
     - id: slaw
-      title: Finish slaw
-      text: >-
-        Use the listed {{ingredients}} for the slaw, following the kit's preparation label. Toss all
-        the cabbage with all the kit dressing and include all its crisp toppings at assembly. Keep
-        ready-to-eat slaw away from raw-chicken surfaces.
+      title: Dress the slaw
+      text: 'Empty the {{ingredients}} into a bowl and toss with its dressing and toppings.'
+    - id: slice
+      title: Slice the chicken
+      text: Slice the chicken into slider-size pieces.
     - id: assemble
-      title: Divide and assemble
-      text: >-
-        Once the chicken has rested, divide all of it into one bun-sized portion for each measured
-        roll. Spread all the mayo across the rolls, add the chicken and complete slaw, then add
-        {{ingredients}} as wanted. Serve promptly; any Sriracha kept separate goes to the table
-        rather than into a second mayo dose.
+      title: Build the sliders
+      text: 'Spread the Sriracha mayo on the toasted {{ingredients}}. Fill with the chicken and slaw.'
+    - id: garnish
+      title: Garnish and serve
+      text: 'Sprinkle with {{ingredients}} and serve.'
 learning:
-  focus: Glaze fully cooked chicken and protect crisp roll faces
-  outcome: 'Cooked thighs with a sticky glaze, golden buttered rolls and crisp slaw.'
   techniques:
     - temperature
-  before:
-    - >-
-      Marinate in the refrigerator. Allow at least 30 minutes for marinating in addition to
-      preparation, broiling and resting; a longer marinade adds elapsed time.
-    - >-
-      Use the whole listed salad kit, including its dressing and toppings; bag sizes/composition
-      vary, so choose one with the listed cabbage/crisp-topping/sesame-dressing components. No fixed
-      package weight is assumed.
-    - >-
-      Use an oven-approved broiler position and broiler-safe metal pans, with chicken in one layer.
-      The original twelve sliders use twelve rolls; at other scales follow the listed roll count and
-      divide all the cooked chicken among them.
-  checkpoints:
-    - step: 4
-      cue: Each thigh reaches 165°F / 74°C in the thickest part.
-      why: Broiler browning can occur before the center is cooked.
-    - step: 5
-      cue: Glaze is sticky and lightly browned without broad burnt patches.
-      why: The sweet glaze receives only a short final heat after chicken is cooked.
-    - step: 6
-      cue: Buttered cut faces are golden.
-      why: The upward-facing cut surface receives the broiler heat; enriched rolls brown quickly.
-  troubleshooting:
-    - problem: Chicken or glaze scorches before the next clock check
-      cause: 'Broiler strength, rack position or coating thickness gives too much direct heat.'
-      fix: >-
-        Use a less intense position/setting allowed by the oven and keep checking the chicken
-        endpoint. Watch glazing and toasting continuously; neither dark sauce nor black skin
-        replaces 165°F.
   substitutions:
-    - ingredient: Sriracha mayo
-      alternative: >-
-        Keep the full listed mayonnaise on the rolls and pass the listed Sriracha separately, or
-        omit it for a milder serving.
-      effect: >-
-        Heat is adjustable without cutting the butter, sweet glaze, chicken or slaw; the Thai sweet
-        chili sauce can still contain chile.
-  timing: >-
-    Allow about 1 hour 5 minutes from fresh or fully thawed chicken: 15 minutes
-    preparation/assembly, 30 minutes refrigerated marinating, roughly 15 minutes initial
-    broiling/glazing and 5 minutes rest. Some mayo/glaze/slaw work can overlap marinating, and roll
-    toasting overlaps resting. Broiling and extra loads are active and can extend elapsed time. Up
-    to 4-hour marinating and refrigerator thawing are additional advance time.
-  storage: >-
-    Store chicken, slaw, mayo and rolls separately. Refrigerate in shallow containers within 2
-    hours, or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Use cooked chicken within 3–4 days
-    and reheat to 165°F / 74°C throughout before rebuilding sliders. Follow the salad kit's
-    refrigerated use instructions; dressed slaw and assembled rolls lose crunch.
-  sources:
-    - title: FDA safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA cooked leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: Sriracha
+      alternative: 'Plain mayo, with Sriracha at the table'
+      effect: Milder for kids. The sweet chili glaze still has a little heat.
+    - ingredient: Asian chopped salad kit
+      alternative: Shredded cabbage with bottled sesame dressing and crispy wonton strips
+      effect: The same crunch and sesame flavor from separate parts.
+  storage: 'Store the chicken, slaw and rolls separately. The chicken keeps 3 days in the fridge.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This slider gets its depth from a quick soy-sesame-garlic marinade that seasons the chicken before it hits the broiler. The sweet chili glaze goes on at the end for that sticky, lacquered finish. Don't skip the sriracha mayo - it bridges the sweet glaze and savory chicken. The store-bought Asian salad kit (cabbage, crispy wontons, sesame dressing) is a legit shortcut that adds crunch, freshness, and another layer of sesame flavor. Toast those Hawaiian rolls - the butter helps them stand up to the juicy chicken.
-For kids, serve the heat on the side or reduce/omit the spicy elements.
+Sticky, sweet and a little spicy, these sliders are made for game day. A soy, sesame and ginger marinade seasons the chicken thighs, and Thai sweet chili glaze goes on under the broiler at the end. Sriracha mayo, crunchy sesame slaw and buttery toasted Hawaiian rolls finish them.
 
 ## Directions
 
-1. **Marinate cold:** Toss all boneless skinless chicken thighs, soy sauce, sesame oil, garlic cloves, and fresh ginger together. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the separate glaze, mayo and slaw away from raw chicken and used utensils. Thaw frozen chicken in the refrigerator beforehand.
-2. **Mix clean glaze:** Whisk all Thai sweet chili sauce, soy sauce, and rice vinegar in a clean bowl and set aside for the cooked chicken. Keep this whole measured glaze separate from the used marinade.
-3. **Mix mayo:** Use mayonnaise and Sriracha for the mayo. For the standard version, mix the full mayonnaise and Sriracha together. For a milder version, keep all the mayonnaise plain and offer the listed Sriracha separately or omit it. Refrigerate until assembly.
-4. **Broil chicken:** Use a broiler-safe metal sheet pan and the rack position allowed by the oven, about 6 inches below the element where permitted. Lift thighs from the marinade, shake off excess and discard the used marinade. Arrange in one layer without overlap; use more loads if needed. Start checking at 6–7 minutes per side, turning as the surface browns, and continue until the thickest part of each thigh reaches 165°F / 74°C. Charred spots do not establish the center temperature. Transfer cooked thighs with clean utensils.
-5. **Glaze:** Brush all the clean glaze over the fully cooked chicken. Broil about 1–2 minutes, watching closely, until the coating is sticky and lightly caramelized; remove before it burns. Use clean brushing/serving utensils.
-6. **Rest and toast rolls:** Rest the chicken for 5 minutes. Meanwhile, use all Hawaiian rolls and butter: brush the roll cut faces with the melted butter, put them cut-side up on a clean broiler-safe metal pan and watch for 1–2 minutes until golden. Remove promptly; toasting can require separate loads.
-7. **Finish slaw:** Use the listed bag of chopped Asian-style salad kit for the slaw, following the kit's preparation label. Toss all the cabbage with all the kit dressing and include all its crisp toppings at assembly. Keep ready-to-eat slaw away from raw-chicken surfaces.
-8. **Divide and assemble:** Once the chicken has rested, divide all of it into one bun-sized portion for each measured roll. Spread all the mayo across the rolls, add the chicken and complete slaw, then add sesame seeds and fresh cilantro (if using) as wanted. Serve promptly; any Sriracha kept separate goes to the table rather than into a second mayo dose.
+1. **Marinate the chicken:** Toss boneless skinless chicken thighs, soy sauce, sesame oil, garlic cloves, and fresh ginger in a bowl. Cover and refrigerate for at least 30 minutes or up to 4 hours.
+2. **Mix the glaze:** Whisk Thai sweet chili sauce, soy sauce, and rice vinegar in a small bowl.
+3. **Mix the mayo:** Stir mayonnaise and Sriracha together and refrigerate until serving.
+4. **Broil the chicken:** Heat the broiler with a rack 6 inches from the heat. Lift the thighs from the marinade, shake off the excess and lay them flat on a sheet pan. Broil until charred in spots and 165°F in the thickest part, 6 to 7 minutes per side.
+5. **Glaze the chicken:** Brush the hot chicken with all the glaze and broil until sticky and caramelized, 1 to 2 minutes. Watch closely so it doesn't burn. Let the chicken rest 5 minutes.
+6. **Toast the rolls:** While the chicken rests, brush the cut sides of the rolls with butter. Broil cut side up on a clean pan until golden, 1 to 2 minutes.
+7. **Dress the slaw:** Empty the Asian chopped salad kit into a bowl and toss with its dressing and toppings.
+8. **Slice the chicken:** Slice the chicken into slider-size pieces.
+9. **Build the sliders:** Spread the Sriracha mayo on the toasted Hawaiian rolls. Fill with the chicken and slaw.
+10. **Garnish and serve:** Sprinkle with sesame seeds and fresh cilantro (if using) and serve.
