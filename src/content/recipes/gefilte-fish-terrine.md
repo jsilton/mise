@@ -16,47 +16,50 @@ cuisines:
   - Jewish
 role: main
 vibe: holiday
-prepTime: 30–45 min
-cookTime: About 75 min
-totalTime: 'At least 5 hr 45 min, plus cooling'
+prepTime: 30 min
+cookTime: 1 hr 25 min
+totalTime: '1 hr 55 min, plus 4 hr 30 min cooling and chilling'
 servings: 10 portions
 advancePrep:
   - chill-to-set
 pairsWith:
-  - nana-ruths-applesauce
-  - cinnamon-sweet-potatoes
-  - green-beans-with-shallots-and-lemon
+  - brisket-with-carrots-and-onions
 ingredients:
-  - '12 oz Boneless skinless carp or pike fillet, chopped'
-  - '12 oz Boneless skinless salmon fillet, chopped'
-  - 3 tbsp Olive oil
-  - 1 cup Heavy cream
-  - 2 tbsp Matzo meal
-  - '2 Large eggs, beaten'
-  - '1 Medium onion, minced'
-  - '1 Carrot, shredded'
-  - '1 tbsp Fresh dill, minced'
-  - '2 Lemons for zest, zest only; measured juice separate'
-  - 3 tbsp Lemon juice
-  - 1/4 cup Cold water
-  - 1 tsp Black pepper
-  - 2 tsp Kosher salt
-  - '2 cups Baby arugula, rinsed unless labeled prewashed or ready-to-eat; drained'
-  - '4 Radishes, washed and sliced'
-  - '1 tbsp Fresh horseradish, peeled and grated'
-  - '1 Shallot, thinly sliced'
-  - 'Dill sprigs, for garnish'
-  - 'Salt for salad, to taste'
-  - 'Black pepper for salad, to taste'
-  - 'Lemon wedges, for serving'
-  - 'Matzos, for serving'
-  - 'Boiling water for water bath, as needed to reach halfway up the loaf pan'
+  - '--- Terrine ---'
+  - 1 tbsp olive oil
+  - '1 medium onion, minced'
+  - '12 oz carp or pike fillet, boneless, skinless, chopped'
+  - '12 oz salmon fillet, boneless, skinless, chopped'
+  - 1 cup heavy cream
+  - 1/4 cup cold water
+  - '2 large eggs, beaten'
+  - 2 tbsp matzo meal
+  - '1 carrot, shredded'
+  - '1 tbsp fresh dill, minced'
+  - 2 tbsp lemon zest
+  - 1 tsp fresh lemon juice
+  - 2 tsp kosher salt
+  - 1 tsp black pepper
+  - 'boiling water, for the water bath'
+  - '--- Horseradish salad ---'
+  - 2 cups baby arugula
+  - '4 radishes, thinly sliced'
+  - '1 shallot, thinly sliced'
+  - '1 tbsp fresh horseradish, peeled and finely grated'
+  - 'fresh dill sprigs, a small handful'
+  - 2 tbsp olive oil
+  - 2 tbsp fresh lemon juice
+  - 'kosher salt, to taste'
+  - 'black pepper, to taste'
+  - '--- For serving ---'
+  - 'lemon wedges, for serving'
+  - 'matzos, for serving'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from Saveur.com
-sourceUrl: 'http://www.saveur.com/article/recipes/jewish-gefilte-fish-terrine-recipe'
+source: Adapted from Saveur
+sourceUrl: 'https://www.saveur.com/article/recipes/jewish-gefilte-fish-terrine-recipe'
 formula:
   version: 1
   yield:
@@ -64,134 +67,119 @@ formula:
     unit: portion
   components:
     - id: terrine
-      name: Terrine and salad
+      name: Terrine
       ingredients:
-        - id: carp
-          key: carp
-          name: Boneless skinless carp or pike fillet
-          quantity:
-            amount: 12
-            unit: oz
-          uses:
-            - step: grind
-              share: 1
-          preparation: chopped
-        - id: salmon
-          key: salmon
-          name: Boneless skinless salmon fillet
-          quantity:
-            amount: 12
-            unit: oz
-          uses:
-            - step: grind
-              share: 1
-          preparation: chopped
         - id: oil
-          key: oil
-          name: Olive oil
+          key: olive-oil
+          name: olive oil
           quantity:
-            amount: 3
+            amount: 1
             unit: tbsp
           uses:
             - step: sweat
-              share: 1/3
-            - step: salad
-              share: 2/3
+              share: 1
+        - id: onion
+          key: onion
+          name: medium onion
+          plural: medium onions
+          quantity:
+            amount: 1
+            unit: count
+          preparation: minced
+          uses:
+            - step: sweat
+              share: 1
+        - id: carp
+          key: carp
+          name: carp or pike fillet
+          quantity:
+            amount: 12
+            unit: oz
+          preparation: 'boneless, skinless, chopped'
+          uses:
+            - step: grind
+              share: 1
+        - id: salmon
+          key: salmon
+          name: salmon fillet
+          quantity:
+            amount: 12
+            unit: oz
+          preparation: 'boneless, skinless, chopped'
+          uses:
+            - step: grind
+              share: 1
         - id: cream
           key: cream
-          name: Heavy cream
+          name: heavy cream
           quantity:
             amount: 1
             unit: cup
           uses:
             - step: bind
               share: 1
-        - id: matzo
-          key: matzo
-          name: Matzo meal
+        - id: water
+          key: water
+          name: cold water
           quantity:
-            amount: 2
-            unit: tbsp
+            amount: 1/4
+            unit: cup
           uses:
             - step: bind
               share: 1
         - id: eggs
           key: eggs
-          name: Large egg
+          name: large egg
+          plural: large eggs
           quantity:
             amount: 2
             unit: count
+          preparation: beaten
           uses:
             - step: bind
               share: 1
-          plural: Large eggs
-          preparation: beaten
-        - id: onion
-          key: onion
-          name: Medium onion
+        - id: matzo
+          key: matzo
+          name: matzo meal
           quantity:
-            amount: 1
-            unit: count
+            amount: 2
+            unit: tbsp
           uses:
-            - step: sweat
+            - step: bind
               share: 1
-          plural: Medium onions
-          preparation: minced
         - id: carrot
           key: carrot
-          name: Carrot
+          name: carrot
+          plural: carrots
           quantity:
             amount: 1
             unit: count
+          preparation: shredded
           uses:
             - step: bind
               share: 1
-          plural: Carrots
-          preparation: shredded
         - id: dill
           key: dill
-          name: Fresh dill
+          name: fresh dill
           quantity:
             amount: 1
             unit: tbsp
+          preparation: minced
           uses:
             - step: bind
               share: 1
-          preparation: minced
-        - id: lemons
-          key: lemons
-          name: Lemon for zest
+        - id: zest
+          key: lemon-zest
+          name: lemon zest
           quantity:
             amount: 2
-            unit: count
-          uses:
-            - step: bind
-              share: 1
-          plural: Lemons for zest
-          preparation: zest only; measured juice separate
-        - id: juice
-          key: juice
-          name: Lemon juice
-          quantity:
-            amount: 3
             unit: tbsp
           uses:
             - step: bind
-              share: 1/9
-            - step: salad
-              share: 8/9
-        - id: water
-          key: water
-          name: Cold water
-          quantity:
-            amount: 0.25
-            unit: cup
-          uses:
-            - step: bind
               share: 1
-        - id: pepper
-          key: pepper
-          name: Black pepper
+        - id: juice
+          key: lemon-juice
+          name: fresh lemon juice
           quantity:
             amount: 1
             unit: tsp
@@ -200,254 +188,213 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: Kosher salt
+          name: kosher salt
           quantity:
             amount: 2
             unit: tsp
           uses:
             - step: bind
               share: 1
+        - id: pepper
+          key: pepper
+          name: black pepper
+          quantity:
+            amount: 1
+            unit: tsp
+          uses:
+            - step: bind
+              share: 1
+        - id: bath
+          key: bath
+          name: boiling water
+          allowance: for the water bath
+          role: cooking-water
+          uses:
+            - step: bath
+              share: 1
+    - id: salad
+      name: Horseradish salad
+      ingredients:
         - id: arugula
           key: arugula
-          name: Baby arugula
+          name: baby arugula
           quantity:
             amount: 2
             unit: cup
           uses:
             - step: salad
               share: 1
-          preparation: rinsed unless labeled prewashed or ready-to-eat; drained
         - id: radishes
           key: radishes
-          name: Radish
+          name: radish
+          plural: radishes
           quantity:
             amount: 4
             unit: count
+          preparation: thinly sliced
           uses:
             - step: salad
               share: 1
-          plural: Radishes
-          preparation: washed and sliced
-        - id: horseradish
-          key: horseradish
-          name: Fresh horseradish
-          quantity:
-            amount: 1
-            unit: tbsp
-          uses:
-            - step: salad
-              share: 1
-          preparation: peeled and grated
         - id: shallot
           key: shallot
-          name: Shallot
+          name: shallot
+          plural: shallots
           quantity:
             amount: 1
             unit: count
+          preparation: thinly sliced
           uses:
             - step: salad
               share: 1
-          plural: Shallots
-          preparation: thinly sliced
+        - id: horseradish
+          key: horseradish
+          name: fresh horseradish
+          quantity:
+            amount: 1
+            unit: tbsp
+          preparation: peeled and finely grated
+          uses:
+            - step: salad
+              share: 1
         - id: dill-sprigs
           key: dill-sprigs
-          name: Dill sprigs
-          allowance: for garnish
+          name: fresh dill sprigs
+          allowance: a small handful
           uses:
             - step: salad
               share: 1
-          role: garnish
-        - id: salad-salt
-          key: salad-salt
-          name: Salt for salad
+        - id: oil
+          key: olive-oil
+          name: olive oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: dressing
+              share: 1
+        - id: juice
+          key: lemon-juice
+          name: fresh lemon juice
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: dressing
+              share: 1
+        - id: salt
+          key: salt
+          name: kosher salt
           allowance: to taste
           uses:
-            - step: salad
+            - step: dressing
               share: 1
-        - id: salad-pepper
-          key: salad-pepper
-          name: Black pepper for salad
+        - id: pepper
+          key: pepper
+          name: black pepper
           allowance: to taste
           uses:
-            - step: salad
+            - step: dressing
               share: 1
+    - id: serve
+      name: For serving
+      ingredients:
         - id: wedges
           key: wedges
-          name: Lemon wedges
+          name: lemon wedges
           allowance: for serving
+          role: garnish
           uses:
             - step: serve
               share: 1
-          role: garnish
         - id: matzos
           key: matzos
-          name: Matzos
+          name: matzos
           allowance: for serving
           uses:
             - step: serve
               share: 1
-        - id: bath
-          key: bath
-          name: Boiling water for water bath
-          allowance: as needed to reach halfway up the loaf pan
-          uses:
-            - step: bath
-              share: 1
-          role: cooking-water
   steps:
     - id: sweat
-      title: Sweat onion
+      title: Soften the onion
       text: >-
-        Rinse fresh produce under running water before peeling, cutting or zesting, including the
-        lemons, dill, shallot and horseradish; follow any prewashed or ready-to-eat arugula label.
-        Heat the assigned oil from {{ingredients}} in a skillet. Cook the onion about 8–10 minutes
-        until soft and translucent without browning; transfer all the onion and cooking oil to a
-        mixing bowl.
-    - id: grind
-      title: Grind fish
-      text: >-
-        Keep {{ingredients}} cold during preparation; check for bones. Process in a food processor,
-        scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Chill it
-        briefly if it feels warm, then add to the onion bowl. The fine paste is what holds the cream
-        so the loaf slices cleanly.
-    - id: bind
-      title: Bind
-      text: >-
-        Stir {{ingredients}} into the fish and onion until evenly combined. Add one ninth of the
-        measured lemon juice here and reserve the remaining eight ninths for the salad. The original
-        batch uses 1 tsp juice here; scale that share with the listed juice total. All the measured
-        cream, matzo meal, eggs, carrot, dill, lemon zest, water, salt and pepper belong in this
-        mixture.
+        Warm {{ingredients}} in a skillet over medium-low heat. Cook, stirring now and then, until
+        the onion is soft and translucent but not browned, 8 to 10 minutes. Scrape it into a large
+        bowl to cool.
     - id: pan
-      title: Prepare pan
+      title: Line the pan
       text: >-
-        Preheat the oven to 325°F. For the original batch, line the bottom and sides of a
-        9-by-5-inch loaf pan with nonstick baking parchment rated for at least 325°F, leaving
-        overhang to fold over the surface. Spread all the mixture into the pan, fold the parchment
-        over it and cover with foil. Keep the paper inside the covered pan; do not use wax paper or
-        ordinary plastic wrap. Multiples need separate original-size loaves and baths; smaller
-        amounts need appropriate smaller pans and earlier center checks. Keep comparable mixture
-        depth and headroom rather than forcing every scale into this pan.
+        Heat the oven to 325°F and put a kettle of water on to boil. Line a 9-by-5-inch loaf pan
+        with parchment, leaving an overhang on all sides.
+    - id: grind
+      title: Grind the fish
+      text: >-
+        Process {{ingredients}} in a food processor, scraping the bowl, until the fish forms a fine,
+        sticky paste, about 1 minute. Add it to the onion.
+    - id: bind
+      title: Mix the terrine
+      text: 'Add {{ingredients}} to the bowl. Stir until smooth and evenly combined.'
+    - id: fill
+      title: Fill the pan
+      text: >-
+        Spread the mixture in the lined pan and smooth the top. Fold the parchment over it and cover
+        the pan tightly with foil.
     - id: bath
-      title: Water bath
+      title: Set up the water bath
       text: >-
-        Place the loaf pan in an original-batch 9-by-13-inch baking dish, or a suitable larger outer
-        vessel, and carefully add {{ingredients}}. Support the hot vessels securely and keep bath
-        water out of the fish mixture.
+        Set the loaf pan in a 9-by-13-inch baking dish. Pour in {{ingredients}} until it comes
+        halfway up the sides of the loaf pan.
     - id: bake
       title: Bake
-      text: >-
-        Bake at 325°F, checking near the original 1 hour 15 minute planning time. Continue until a
-        thin-tip thermometer in the center reaches 160°F /71°C and the center is firm. Check the
-        center of every separately baked loaf; a firm surface or clean knife alone does not replace
-        the measured endpoint.
+      text: 'Bake until the center is firm and reads 160°F, about 1 hour 15 minutes.'
     - id: chill
-      title: Cool and chill
+      title: Chill
       text: >-
-        Remove the loaf pan carefully from the hot bath and cool briefly on a rack, then refrigerate
-        promptly at 40°F /4°C or below, within 2 hours of cooking (1 hour above 90°F /32°C). Chill
-        at least 4 hours until cold throughout before inverting and peeling away the parchment.
-        Making it the day before allows cooling and chilling without rushing.
+        Lift the loaf pan out of the water and cool it on a rack for 30 minutes. Refrigerate until
+        cold all the way through, at least 4 hours or overnight.
+    - id: dressing
+      title: Make the dressing
+      text: 'Just before serving, whisk {{ingredients}} in a large bowl.'
     - id: salad
-      title: Finish salad
-      text: >-
-        Toss {{ingredients}} together just before serving. Use all the remaining two thirds of the
-        measured olive oil and eight ninths of the measured lemon juice, with the separate salad
-        salt and pepper allowances. The original batch uses 2 tbsp oil and 2 tbsp plus 2 tsp juice
-        here; scale those shares with the listed totals. Keep washed vegetables and raw-fish tools
-        separate.
+      title: Toss the salad
+      text: 'Add {{ingredients}} to the dressing and toss gently.'
     - id: serve
-      title: Serve
+      title: Slice and serve
       text: >-
-        Slice the chilled terrine and serve with all the salad, {{ingredients}}. Ten portions are
-        the planning yield for the original batch; slicing that original loaf into 8–10 portions is
-        another serving option. Refrigerate unused terrine promptly, keeping the fresh salad
-        separate.
+        Turn the terrine out onto a platter and peel off the parchment. Cut it into thick slices
+        with a sharp knife and serve with the salad, {{ingredients}}.
 learning:
-  focus: 'Set a finely ground fish-and-egg terrine, then chill before slicing'
-  outcome: >-
-    The center reaches 160°F and sets firmly; the fully chilled loaf slices without smearing and
-    receives its complete fresh salad.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow
-      any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools
-      separate from cooked fish and garnishes.
-    - >-
-      Use boneless skinless fillets, checking for remaining bones; keep the fish and mixing tools
-      cold during preparation.
-    - >-
-      For the original batch use the documented 9-by-5-inch loaf pan and 9-by-13-inch bath; capacity
-      at other scales is a pan decision, not a timer multiplier.
-    - Keep kosher salt distinct from fine salt; equal spoon volumes do not establish equal salting.
-  checkpoints:
-    - step: 6
-      cue: The center reaches 160°F /71°C and is firm; check every loaf.
-      why: >-
-        This fish mixture contains raw eggs and must set at the center; ordinary fillet 145°F
-        guidance does not replace the saved 160°F endpoint.
-  troubleshooting:
-    - problem: 'Slices smear, weep or crumble'
-      cause: Terrine was unmolded before fully chilled or the fish was too coarse to bind the cream
-      fix: >-
-        Chill until cold throughout before unmolding and slice with a clean sharp knife. Next time
-        process the fish to a fine, sticky paste before adding the liquid.
   substitutions:
-    - ingredient: Fresh horseradish
-      alternative: >-
-        For the original batch, use a 1-inch piece, peeled and finely shredded, instead of the
-        listed 1 tbsp grated amount; scale the piece count with the batch.
-      effect: >-
-        This piece-size option is a separate measure, not an asserted tablespoon conversion;
-        thickness and pungency are unmeasured.
-    - ingredient: Carp or pike
-      alternative: 'Use the listed amount of either, keeping the separate full salmon amount.'
-      effect: >-
-        Species and fish quality affect flavor; neither choice removes the eggs, cream or required
-        center check.
-  timing: >-
-    Allow about 30–45 minutes active, roughly 1 hour 15 minutes baking subject to the center check,
-    brief cooling and at least 4 hours chilling. Plan at least 5 hours 45 minutes plus cooling for
-    the original batch; a day-ahead preparation is more flexible. Each pan load changes the actual
-    clock.
-  storage: >-
-    Keep cooked terrine refrigerated at 40°F /4°C or below, cooling promptly within 2 hours (1 hour
-    above 90°F /32°C). Use within 3–4 days, with salad separate. Serve cold from refrigeration and
-    promptly return unused portions; if choosing to reheat stored terrine, reach 165°F /74°C
-    throughout.
-  sources:
-    - title: Adapted from Saveur.com
-      url: 'http://www.saveur.com/article/recipes/jewish-gefilte-fish-terrine-recipe'
-    - title: FDA — Fish handling and cooking
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FoodSafety.gov — Species and egg-dish endpoints
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: FDA — Produce handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA — Leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: carp or pike fillet
+      alternative: Cod or haddock
+      effect: Milder and a little softer. The loaf still sets and slices well.
+    - ingredient: fresh horseradish
+      alternative: Prepared horseradish
+      effect: 'Use the same amount, drained. It is milder and a little vinegary.'
+  storage: 'The terrine keeps 3 days in the fridge, well wrapped. Toss the salad just before serving.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
+pairingNotes:
+  brisket-with-carrots-and-onions: The holiday brisket that follows the fish course.
 ---
 
 ## Chef's Note
 
-Eli and Max Sussman’s baked gefilte-fish terrine combines salmon with carp or pike and sets in a water bath. Processing the fish to a fine, sticky paste lets it hold the cream, so the loaf sets without weeping and slices cleanly. Keep the full cream and egg binder, allow the loaf to chill throughout, and toss its fresh horseradish salad shortly before slicing.
+Eli and Max Sussman's terrine from Saveur turns holiday gefilte fish into one sliceable loaf of carp or pike and salmon, baked gently in a water bath. Process the fish to a fine, sticky paste so it holds the cream and slices cleanly. A sharp salad of horseradish, radishes and arugula cuts through the richness.
 
 ## Directions
 
-1. **Sweat onion:** Rinse fresh produce under running water before peeling, cutting or zesting, including the lemons, dill, shallot and horseradish; follow any prewashed or ready-to-eat arugula label. Heat the assigned oil from 1/3 of the Olive oil and Medium onion in a skillet. Cook the onion about 8–10 minutes until soft and translucent without browning; transfer all the onion and cooking oil to a mixing bowl.
-2. **Grind fish:** Keep Boneless skinless carp or pike fillet and Boneless skinless salmon fillet cold during preparation; check for bones. Process in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Chill it briefly if it feels warm, then add to the onion bowl. The fine paste is what holds the cream so the loaf slices cleanly.
-3. **Bind:** Stir Heavy cream, Matzo meal, Large eggs, Carrot, Fresh dill, Lemons for zest, 1/9 of the Lemon juice, Cold water, Black pepper, and Kosher salt into the fish and onion until evenly combined. Add one ninth of the measured lemon juice here and reserve the remaining eight ninths for the salad. The original batch uses 1 tsp juice here; scale that share with the listed juice total. All the measured cream, matzo meal, eggs, carrot, dill, lemon zest, water, salt and pepper belong in this mixture.
-4. **Prepare pan:** Preheat the oven to 325°F. For the original batch, line the bottom and sides of a 9-by-5-inch loaf pan with nonstick baking parchment rated for at least 325°F, leaving overhang to fold over the surface. Spread all the mixture into the pan, fold the parchment over it and cover with foil. Keep the paper inside the covered pan; do not use wax paper or ordinary plastic wrap. Multiples need separate original-size loaves and baths; smaller amounts need appropriate smaller pans and earlier center checks. Keep comparable mixture depth and headroom rather than forcing every scale into this pan.
-5. **Water bath:** Place the loaf pan in an original-batch 9-by-13-inch baking dish, or a suitable larger outer vessel, and carefully add Boiling water for water bath. Support the hot vessels securely and keep bath water out of the fish mixture.
-6. **Bake:** Bake at 325°F, checking near the original 1 hour 15 minute planning time. Continue until a thin-tip thermometer in the center reaches 160°F /71°C and the center is firm. Check the center of every separately baked loaf; a firm surface or clean knife alone does not replace the measured endpoint.
-7. **Cool and chill:** Remove the loaf pan carefully from the hot bath and cool briefly on a rack, then refrigerate promptly at 40°F /4°C or below, within 2 hours of cooking (1 hour above 90°F /32°C). Chill at least 4 hours until cold throughout before inverting and peeling away the parchment. Making it the day before allows cooling and chilling without rushing.
-8. **Finish salad:** Toss 2/3 of the Olive oil, 8/9 of the Lemon juice, Baby arugula, Radishes, Fresh horseradish, Shallot, Dill sprigs, Salt for salad, and Black pepper for salad together just before serving. Use all the remaining two thirds of the measured olive oil and eight ninths of the measured lemon juice, with the separate salad salt and pepper allowances. The original batch uses 2 tbsp oil and 2 tbsp plus 2 tsp juice here; scale those shares with the listed totals. Keep washed vegetables and raw-fish tools separate.
-9. **Serve:** Slice the chilled terrine and serve with all the salad, Lemon wedges and Matzos. Ten portions are the planning yield for the original batch; slicing that original loaf into 8–10 portions is another serving option. Refrigerate unused terrine promptly, keeping the fresh salad separate.
+1. **Soften the onion:** Warm olive oil and medium onion in a skillet over medium-low heat. Cook, stirring now and then, until the onion is soft and translucent but not browned, 8 to 10 minutes. Scrape it into a large bowl to cool.
+2. **Line the pan:** Heat the oven to 325°F and put a kettle of water on to boil. Line a 9-by-5-inch loaf pan with parchment, leaving an overhang on all sides.
+3. **Grind the fish:** Process carp or pike fillet and salmon fillet in a food processor, scraping the bowl, until the fish forms a fine, sticky paste, about 1 minute. Add it to the onion.
+4. **Mix the terrine:** Add heavy cream, cold water, large eggs, matzo meal, carrot, fresh dill, lemon zest, fresh lemon juice, kosher salt, and black pepper to the bowl. Stir until smooth and evenly combined.
+5. **Fill the pan:** Spread the mixture in the lined pan and smooth the top. Fold the parchment over it and cover the pan tightly with foil.
+6. **Set up the water bath:** Set the loaf pan in a 9-by-13-inch baking dish. Pour in boiling water until it comes halfway up the sides of the loaf pan.
+7. **Bake:** Bake until the center is firm and reads 160°F, about 1 hour 15 minutes.
+8. **Chill:** Lift the loaf pan out of the water and cool it on a rack for 30 minutes. Refrigerate until cold all the way through, at least 4 hours or overnight.
+9. **Make the dressing:** Just before serving, whisk olive oil, fresh lemon juice, kosher salt, and black pepper in a large bowl.
+10. **Toss the salad:** Add baby arugula, radishes, shallot, fresh horseradish, and fresh dill sprigs to the dressing and toss gently.
+11. **Slice and serve:** Turn the terrine out onto a platter and peel off the parchment. Cut it into thick slices with a sharp knife and serve with the salad, lemon wedges and matzos.

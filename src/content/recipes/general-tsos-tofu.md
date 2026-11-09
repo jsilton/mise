@@ -23,9 +23,9 @@ cuisines:
   - Chinese
 role: main
 vibe: comfort
-prepTime: 15 min
-cookTime: 20–35 min
-totalTime: '35–55 min, plus any tofu pressing and rice preparation'
+prepTime: 20 min
+cookTime: 25 min
+totalTime: 45 min
 servings: 4 portions
 seasons:
   - year-round
@@ -34,35 +34,34 @@ leftovers: excellent
 equipment:
   - large-skillet
 pairsWith:
-  - basmati-rice
-  - steamed-broccoli
-  - garlic-sesame-spinach
+  - steamed-white-rice
+  - smashed-cucumber-salad
 ingredients:
   - '--- Tofu and coating ---'
-  - '1 lb extra-firm tofu, pressed dry and cut into 1-inch squares'
+  - '1 lb extra-firm tofu, pressed and cut into 1-inch cubes'
   - 1 1/2 tbsp honey
-  - 2 tsp thin vinegar-based red-pepper hot sauce
+  - 2 tsp vinegar-based hot sauce
   - 1 1/2 tbsp sesame seeds
   - 3 tbsp cornstarch
-  - '1/3 cup peanut oil, for shallow frying; part is reused for aromatics'
+  - '1/3 cup peanut oil, for frying'
   - '--- Sauce and vegetables ---'
   - '1 tbsp fresh ginger, minced'
   - '2 garlic cloves, minced'
   - 7 dried Chinese red chilies
   - '1/2 red bell pepper, sliced'
-  - '1/2 tbsp Shaoxing wine, optional'
+  - '1 1/2 tsp Shaoxing wine, optional'
   - 1/2 cup vegetable stock
   - 2 cups broccoli florets
   - 1 1/2 tbsp light soy sauce
   - 1 tsp dark soy sauce
   - 1 tbsp rice vinegar
+  - 2 tbsp sugar
   - 1/4 tsp salt
-  - 2 tbsp granulated sugar
   - 1/2 tsp toasted sesame oil
-  - '--- Separate slurry ---'
+  - '--- Slurry ---'
   - 1 tbsp cornstarch
   - 1 tbsp cold water
-source: Adapted from thewoksoflife.com
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/general-tsos-tofu/'
 formula:
   version: 1
@@ -79,22 +78,22 @@ formula:
           quantity:
             amount: 1
             unit: lb
+          preparation: pressed and cut into 1-inch cubes
           uses:
             - step: coat
               share: 1
-          preparation: pressed dry and cut into 1-inch squares
         - id: honey
           key: honey
           name: honey
           quantity:
-            amount: 3/2
+            amount: 1 1/2
             unit: tbsp
           uses:
             - step: coat
               share: 1
         - id: hot-sauce
           key: hot-sauce
-          name: thin vinegar-based red-pepper hot sauce
+          name: vinegar-based hot sauce
           quantity:
             amount: 2
             unit: tsp
@@ -105,7 +104,7 @@ formula:
           key: sesame-seeds
           name: sesame seeds
           quantity:
-            amount: 3/2
+            amount: 1 1/2
             unit: tbsp
           uses:
             - step: coat
@@ -125,10 +124,10 @@ formula:
           quantity:
             amount: 1/3
             unit: cup
+          preparation: for frying
           uses:
             - step: fry
               share: 1
-          preparation: for shallow frying; part is reused for aromatics
     - id: sauce
       name: Sauce and vegetables
       ingredients:
@@ -138,52 +137,52 @@ formula:
           quantity:
             amount: 1
             unit: tbsp
+          preparation: minced
           uses:
             - step: aromatics
               share: 1
-          preparation: minced
         - id: garlic
           key: garlic
           name: garlic clove
+          plural: garlic cloves
           quantity:
             amount: 2
             unit: count
+          preparation: minced
           uses:
             - step: aromatics
               share: 1
-          plural: garlic cloves
-          preparation: minced
         - id: chilies
           key: chilies
           name: dried Chinese red chili
+          plural: dried Chinese red chilies
           quantity:
             amount: 7
             unit: count
           uses:
             - step: aromatics
               share: 1
-          plural: dried Chinese red chilies
         - id: pepper
           key: pepper
           name: red bell pepper
+          plural: red bell peppers
           quantity:
             amount: 1/2
             unit: count
-          uses:
-            - step: aromatics
-              share: 1
-          plural: red bell peppers
           preparation: sliced
+          uses:
+            - step: pepper
+              share: 1
         - id: wine
           key: wine
           name: Shaoxing wine
           quantity:
-            amount: 1/2
-            unit: tbsp
-          uses:
-            - step: aromatics
-              share: 1
+            amount: 1 1/2
+            unit: tsp
           optional: true
+          uses:
+            - step: pepper
+              share: 1
         - id: stock
           key: stock
           name: vegetable stock
@@ -206,7 +205,7 @@ formula:
           key: light-soy
           name: light soy sauce
           quantity:
-            amount: 3/2
+            amount: 1 1/2
             unit: tbsp
           uses:
             - step: season
@@ -229,21 +228,21 @@ formula:
           uses:
             - step: season
               share: 1
+        - id: sugar
+          key: sugar
+          name: sugar
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: season
+              share: 1
         - id: salt
           key: salt
           name: salt
           quantity:
             amount: 1/4
             unit: tsp
-          uses:
-            - step: season
-              share: 1
-        - id: sugar
-          key: sugar
-          name: granulated sugar
-          quantity:
-            amount: 2
-            unit: tbsp
           uses:
             - step: season
               share: 1
@@ -257,7 +256,7 @@ formula:
             - step: season
               share: 1
     - id: slurry
-      name: Separate slurry
+      name: Slurry
       ingredients:
         - id: starch
           key: cornstarch
@@ -266,7 +265,7 @@ formula:
             amount: 1
             unit: tbsp
           uses:
-            - step: slurry
+            - step: thicken
               share: 1
         - id: water
           key: water
@@ -275,162 +274,73 @@ formula:
             amount: 1
             unit: tbsp
           uses:
-            - step: slurry
+            - step: thicken
               share: 1
-          role: cooking-water
   steps:
-    - id: slurry
-      title: Mix the slurry
-      text: >-
-        Mix {{ingredients}} in a small bowl. Keep this separate from the tofu coating; re-stir just
-        before adding it to the sauce.
     - id: coat
       title: Coat the tofu
-      text: >-
-        For the coating, use {{ingredients}}. Wash and drain the vegetables before cutting. Mix the
-        honey and hot sauce, gently toss in the dry tofu, then add all the sesame seeds and coating
-        cornstarch. Lift and turn rather than crushing the pieces; aim for a light coating, not a
-        pool of wet batter.
+      text: 'In a large bowl, gently toss {{ingredients}} until the tofu is lightly and evenly coated.'
     - id: fry
-      title: Fry in batches
+      title: Fry the tofu
       text: >-
-        Heat {{ingredients}} in a shallow-frying skillet to about 350°F. Carefully add coated tofu
-        in a single layer with space between pieces. Fry about 4–5 minutes per original-size round,
-        turning once, until golden with a formed crust; lower heat if the coating darkens too
-        quickly. Lift to a sheet pan with a slotted spoon. Repeat without crowding, allowing the oil
-        to recover its heat.
+        Heat {{ingredients}} in a large skillet over medium-high heat to 350°F. Fry the tofu in a
+        single layer, in batches, turning once, until golden and crisp, 4 to 5 minutes per batch.
+        Move it to a plate.
     - id: aromatics
       title: Cook the aromatics
       text: >-
-        Have {{ingredients}} ready. Transfer a portion of the used frying oil to a wok or saucepan:
-        3/16 of the listed frying-oil amount, which is 1 tbsp for the original batch. This comes
-        from the frying supply, not an additional dose; do not add the remaining frying oil to the
-        sauce. Heat over medium and stir the ginger, garlic and chilies about 30 seconds until
-        fragrant, without scorching. Add all the bell pepper and optional wine.
+        Pour off all but a spoonful of the oil and turn the heat to medium. Add {{ingredients}} and
+        stir until fragrant, about 30 seconds.
+    - id: pepper
+      title: Add the pepper
+      text: 'Add {{ingredients}} and stir-fry until the pepper just softens, about 1 minute.'
     - id: simmer
-      title: Cook the broccoli
+      title: Steam the broccoli
       text: >-
-        Use {{ingredients}} in sequence: bring all the stock to a boil first, then add all the
-        broccoli, cover and steam about 2 minutes until bright green. Keep enough room to turn the
-        vegetables; use additional vessels with the complete ingredients divided proportionally for
-        larger batches.
+        Pour in {{ingredients}} and bring to a boil. Cover and steam until the broccoli is bright
+        green and tender-crisp, about 2 minutes.
     - id: season
-      title: Season and thicken
+      title: Season the sauce
+      text: 'Stir in {{ingredients}} and bring the sauce back to a boil.'
+    - id: thicken
+      title: Thicken the sauce
       text: >-
-        Add {{ingredients}} and return the sauce to a boil. Re-stir the separate slurry, then pour
-        it in gradually while stirring. Simmer 30–60 seconds after each addition before deciding
-        whether more is needed; stop when it coats a spoon and leave any unused slurry out of the
-        dish. Continue until a broccoli stem yields with slight resistance.
+        Stir {{ingredients}} together in a small cup and pour it into the boiling sauce while
+        stirring. Simmer until the sauce is glossy and coats a spoon, 30 to 60 seconds.
     - id: finish
       title: Glaze and serve
-      text: >-
-        Return all the fried tofu to the ready sauce and fold gently about 30 seconds to coat
-        without breaking the pieces. Serve promptly over separately prepared rice. Holding glazed
-        tofu softens its coating.
+      text: 'Return the tofu to the pan and fold gently until coated, about 30 seconds. Serve right away.'
 learning:
-  focus: Keep coating starch separate from sauce slurry
-  outcome: >-
-    Golden tofu pieces coated just before serving, with tender-crisp broccoli and a spoon-coating
-    sauce.
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Press tofu ahead if the product needs it; draining, pressing and rice cooking may extend the
-      clock. Keep the two starch measures separate.
-    - >-
-      Choose a pan suitable for shallow frying the listed oil; oil depth depends on pan geometry.
-      Work in uncrowded rounds, with all sauce ingredients ready.
-  checkpoints:
-    - step: 3
-      cue: Tofu pieces are separated and the coating is golden rather than blackening.
-      why: >-
-        Crowding cools the oil and extends the fry; honey-coated pieces can burn before their
-        neighbors are ready.
-    - step: 6
-      cue: >-
-        The re-stirred slurry thickens the bubbling sauce before another addition; broccoli stems
-        yield with slight resistance.
-      why: >-
-        Cornstarch settles and needs heat and time to thicken. The full prepared slurry is a maximum
-        supply, not a requirement to add all of it.
-  troubleshooting:
-    - problem: Coating turns dark before a crust forms.
-      cause: Oil is too hot or the pieces were left against the pan too long.
-      fix: Lower the heat and turn pieces promptly; blackened coating cannot be restored by glazing.
-    - problem: Sauce becomes pasty.
-      cause: All slurry was added without pausing for thickening.
-      fix: >-
-        Stop adding slurry. Next time add it gradually; do not force the entire prepared supply into
-        the sauce.
   substitutions:
-    - ingredient: Extra-firm tofu and coating
-      alternative: Regular or firm tofu; 2–3 tbsp coating starch for the original batch
-      effect: >-
-        Drain and pat dry, then handle gently. The same honey, hot sauce and sesame coating remains;
-        start with the lower coating-starch amount and add only until lightly coated, scaling that
-        range proportionally. This is separate from the measured slurry.
-    - ingredient: Ginger
-      alternative: '1/2 tsp minced ginger for the original batch, scaled proportionally'
-      effect: >-
-        This gives a milder ginger base than the listed tablespoon; all remaining sauce quantities
-        and the short aromatic stage stay the same.
-    - ingredient: Peanut oil and vegetable stock
-      alternative: Same-volume canola oil and water
-      effect: >-
-        Use oil suitable for frying; retain the same frying supply and its reused aromatic portion.
-        Water changes the stock flavor but does not alter the liquid amount.
-    - ingredient: Dried chilies
-      alternative: Omit the chilies if wanted
-      effect: >-
-        The original source makes them optional. Keep the rest of the sauce intact; honey-containing
-        tofu is not vegan unless a separately chosen sweetener is used.
-    - ingredient: Shallow-frying oil supply
-      alternative: More-oil deep-frying option
-      effect: >-
-        For the deep-frying option, use additional suitable frying oil as needed in a vessel
-        intended for deep frying, following its fill and operating limits; no volume or universal
-        depth is specified here. Keep the coating, about 350°F oil temperature and uncrowded rounds,
-        cooking until the pieces are golden with a formed crust. For the aromatics, still take 3/16
-        of the listed main frying-oil amount from the used oil, which is 1 tbsp for the original
-        batch. Do not calculate this reuse from the larger deep-frying volume or add the remaining
-        frying oil to the sauce. Keep the stock, seasonings, slurry and finishing steps unchanged.
-  timing: >-
-    Allow about 35–55 minutes with dry ready-to-coat tofu: 15–20 minutes preparation and about 20–35
-    minutes frying and finishing, depending on the number of pan rounds. Pressing tofu and cooking
-    rice are additional; more vessels and oil recovery can extend elapsed time.
-  storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours, or 1 hour above
-    90°F. Use cooked leftovers within 3–4 days and reheat to 165°F throughout. Bring stored sauce or
-    stew to a boil when reheating, stirring so the center heats too; this is separate from the
-    first-cook instructions.
-  sources:
-    - title: Kaitlin Leung — General Tso’s Tofu
-      url: 'https://thewoksoflife.com/general-tsos-tofu/'
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — Produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: Shaoxing wine
+      alternative: Dry sherry
+      effect: A similar savory wine flavor.
+    - ingredient: dark soy sauce
+      alternative: More light soy sauce
+      effect: 'The sauce is paler and a little saltier, so leave out the salt.'
+  storage: Keeps 3 days in the fridge. Reheat in a skillet. The coating softens as it sits.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
+pairingNotes:
+  steamed-white-rice: Plain rice to catch the sauce.
+  smashed-cucumber-salad: 'Cool, garlicky cucumbers against the sweet heat.'
 ---
 
 ## Chef's Note
 
-This tofu adaptation brings a Chinese-American takeout sauce to plant-based protein. Coat the dry tofu gently with honey, thin red-pepper hot sauce, sesame seeds and cornstarch, then fry uncrowded pieces before making the glaze. The coating softens once it meets sauce, so finish the broccoli first and return the tofu only when ready to eat. Keep the frying oil separate from the finished dish except for the portion reused for the aromatics.
-For kids, serve the heat on the side or reduce or omit the spicy elements.
+The Woks of Life gives tofu the General Tso's treatment. A coating of honey, hot sauce and sesame seeds fries into a crisp, sticky crust, and the sweet, sour and spicy sauce cooks with broccoli in the same pan. Fold the tofu in at the very end so it stays crisp.
 
 ## Directions
 
-1. **Mix the slurry:** Mix cornstarch and cold water in a small bowl. Keep this separate from the tofu coating; re-stir just before adding it to the sauce.
-2. **Coat the tofu:** For the coating, use extra-firm tofu, honey, thin vinegar-based red-pepper hot sauce, sesame seeds, and cornstarch. Wash and drain the vegetables before cutting. Mix the honey and hot sauce, gently toss in the dry tofu, then add all the sesame seeds and coating cornstarch. Lift and turn rather than crushing the pieces; aim for a light coating, not a pool of wet batter.
-3. **Fry in batches:** Heat peanut oil in a shallow-frying skillet to about 350°F. Carefully add coated tofu in a single layer with space between pieces. Fry about 4–5 minutes per original-size round, turning once, until golden with a formed crust; lower heat if the coating darkens too quickly. Lift to a sheet pan with a slotted spoon. Repeat without crowding, allowing the oil to recover its heat.
-4. **Cook the aromatics:** Have fresh ginger, garlic cloves, dried Chinese red chilies, red bell pepper, and Shaoxing wine (if using) ready. Transfer a portion of the used frying oil to a wok or saucepan: 3/16 of the listed frying-oil amount, which is 1 tbsp for the original batch. This comes from the frying supply, not an additional dose; do not add the remaining frying oil to the sauce. Heat over medium and stir the ginger, garlic and chilies about 30 seconds until fragrant, without scorching. Add all the bell pepper and optional wine.
-5. **Cook the broccoli:** Use vegetable stock and broccoli florets in sequence: bring all the stock to a boil first, then add all the broccoli, cover and steam about 2 minutes until bright green. Keep enough room to turn the vegetables; use additional vessels with the complete ingredients divided proportionally for larger batches.
-6. **Season and thicken:** Add light soy sauce, dark soy sauce, rice vinegar, salt, granulated sugar, and toasted sesame oil and return the sauce to a boil. Re-stir the separate slurry, then pour it in gradually while stirring. Simmer 30–60 seconds after each addition before deciding whether more is needed; stop when it coats a spoon and leave any unused slurry out of the dish. Continue until a broccoli stem yields with slight resistance.
-7. **Glaze and serve:** Return all the fried tofu to the ready sauce and fold gently about 30 seconds to coat without breaking the pieces. Serve promptly over separately prepared rice. Holding glazed tofu softens its coating.
+1. **Coat the tofu:** In a large bowl, gently toss extra-firm tofu, honey, vinegar-based hot sauce, sesame seeds, and cornstarch until the tofu is lightly and evenly coated.
+2. **Fry the tofu:** Heat peanut oil in a large skillet over medium-high heat to 350°F. Fry the tofu in a single layer, in batches, turning once, until golden and crisp, 4 to 5 minutes per batch. Move it to a plate.
+3. **Cook the aromatics:** Pour off all but a spoonful of the oil and turn the heat to medium. Add fresh ginger, garlic cloves, and dried Chinese red chilies and stir until fragrant, about 30 seconds.
+4. **Add the pepper:** Add red bell pepper and Shaoxing wine (if using) and stir-fry until the pepper just softens, about 1 minute.
+5. **Steam the broccoli:** Pour in vegetable stock and broccoli florets and bring to a boil. Cover and steam until the broccoli is bright green and tender-crisp, about 2 minutes.
+6. **Season the sauce:** Stir in light soy sauce, dark soy sauce, rice vinegar, sugar, salt, and toasted sesame oil and bring the sauce back to a boil.
+7. **Thicken the sauce:** Stir cornstarch and cold water together in a small cup and pour it into the boiling sauce while stirring. Simmer until the sauce is glossy and coats a spoon, 30 to 60 seconds.
+8. **Glaze and serve:** Return the tofu to the pan and fold gently until coated, about 30 seconds. Serve right away.

@@ -19,9 +19,9 @@ cuisines:
   - Italian
 role: main
 vibe: quick
-prepTime: 10 min
-cookTime: 10 min
-totalTime: 20 min
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
 servings: '4'
 seasons:
   - spring
@@ -31,100 +31,42 @@ nutritionalDensity: moderate
 leftovers: good
 pairsWith:
   - everyday-arugula-salad
-  - vietnamese-grilled-chicken
 ingredients:
-  - 1 lb Fresh or Frozen Potato Gnocchi
-  - '1 lb Zucchini (about 3 small), shaved into ribbons'
-  - '1 pint Cherry Tomatoes, halved'
-  - 4 tbsp Unsalted Butter
-  - '2 medium Shallots, minced'
-  - '1/2 cup Fresh Parsley, chopped'
-  - 1/2 cup Freshly Grated Parmesan
-  - 1/4 tsp Ground Nutmeg (The "High Note")
-  - Salt and Black Pepper
-  - '1/2 tsp salt, optional alternative to salt to taste; choose one salt route'
-source: Adapted from Eatingwell.com
+  - '1 lb potato gnocchi, fresh or frozen'
+  - 4 tbsp unsalted butter
+  - '2 medium shallots, minced'
+  - '1 lb zucchini (about 3 small), shaved into ribbons with a vegetable peeler'
+  - '1 pint cherry tomatoes, halved'
+  - '1/2 tsp salt, plus more to taste'
+  - 1/4 tsp ground nutmeg
+  - 'black pepper, to taste'
+  - '1/2 cup Parmesan, freshly grated'
+  - '1/2 cup fresh parsley, chopped'
+source: Adapted from EatingWell
 sourceUrl: >-
-  http://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/
+  https://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/
 rating: 5
+pairingNotes:
+  everyday-arugula-salad: Peppery greens against the rich brown butter.
 learning:
-  focus: Catch the butter before its solids burn
-  outcome: >-
-    Tender ribbons and intact gnocchi coated with nutty butter and the full
-    cheese.
   techniques:
     - starch
-  before:
-    - >-
-      Prepare all the ribbons, shallots and tomatoes before browning the
-      butter. Use enough skillet loads for the vegetables to move freely,
-      dividing the full butter and seasonings among them; boil gnocchi
-      separately according to its package and keep heat and piece size
-      unchanged when scaling.
-    - >-
-      Wash zucchini, tomatoes and parsley before preparation. Use enough skillet
-      batches for the whole listed vegetables.
-  checkpoints:
-    - step: 2
-      cue: 'Golden flecks and a nutty smell, without black solids.'
-      why: >-
-        Butter can continue browning quickly while vegetables are being
-        prepared.
-    - step: 5
-      cue: The pieces are coated and still intact.
-      why: Gentle tossing protects soft cooked gnocchi.
-  troubleshooting:
-    - problem: Butter solids turn black or smell acrid
-      cause: 'Heat is too high or vegetables are not ready when the butter turns golden.'
-      fix: >-
-        Have the vegetables ready before melting the butter. Watch the solids
-        and lower the heat if they darken rapidly; blackened, acrid butter
-        cannot be turned back into nutty brown butter by adding tomatoes.
-  timing: >-
-    About 20 minutes is the source original-batch plan when boiling water and
-    skillet work overlap. Allow more for ribbon preparation, frozen-product
-    instructions or additional skillet loads.
-  substitutions:
-    - ingredient: Salt to taste
-      alternative: >-
-        Use the listed optional measured salt instead of the taste-based salt
-        allowance in step 4.
-      effect: >-
-        The original batch used ½ teaspoon unspecified salt. The measured row
-        scales; do not combine both salt routes or infer a kosher-salt density
-        conversion.
   storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers within 2 hours,
-    or 1 hour above 90°F / 32°C, at 40°F / 4°C or below. Reheat to 165°F / 74°C
-    throughout. Make only what you plan to serve when delicate texture matters;
-    handling guidance does not promise unchanged texture.
-  sources:
-    - title: zucchini — recipe-specific method
-      url: >-
-        https://www.eatingwell.com/recipe/251860/gnocchi-with-zucchini-ribbons-parsley-brown-butter/
-    - title: FDA — Safe Food Handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — Handling Flour Safely
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know
+    Keeps 2 days in the fridge. Reheat in a skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Watch the butter’s milk solids rather than waiting for all foaming to stop: they should begin turning golden and smell nutty before the shallots and thin zucchini ribbons go in. Toss the gnocchi gently so the full Parmesan and parsley coat it without crushing the pieces.
+This EatingWell dinner swaps pasta for pillowy potato gnocchi. Butter cooked until it smells like toasted hazelnuts coats tender zucchini ribbons and sweet cherry tomatoes, with a pinch of nutmeg and plenty of Parmesan. Have the vegetables ready before the butter goes in, because it turns from brown to burnt quickly.
 
 ## Directions
 
-1. **Cook gnocchi:** Bring a large pot of salted water to a boil. Cook the fresh or frozen gnocchi according to its package, generally 3–5 minutes as a starting point, until floating and cooked through. Scoop out about 1/2 cup of the cooking water, then drain; do not automatically thaw a product whose package says to cook from frozen.
-2. **Brown butter:** Meanwhile, melt all the butter in a large skillet over medium-high heat. Cook until the milk solids turn golden brown and smell nutty, around 3 minutes as a guide. Lower the heat if they darken rapidly; do not wait for a fixed clock or complete cessation of foam.
-3. **Cook vegetables:** Add all the minced shallots and washed, ribbon-thin zucchini. Cook, stirring often, about 2–3 minutes until softened. Use enough skillet batches for the full scaled vegetables, dividing the full butter and seasonings among them.
-4. **Add tomatoes:** Add all the washed halved tomatoes, the salt from your chosen seasoning route, all the nutmeg and pepper to taste. Cook about 1–2 minutes until the tomatoes begin to release juices and break down.
-5. **Combine:** Add all the drained gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. If the cheese clumps instead of coating, add a splash of the reserved cooking water and toss again. Combine all cooked batches for serving if a bowl gives more room than the skillet.
-6. **Serve:** Serve promptly, keeping the gnocchi intact rather than tossing vigorously against a crowded pan.
-
-## Cooking Notes
-
-Cut ribbon-thin zucchini lengthwise with a vegetable peeler or mandoline. Use a guard with the mandoline.
+1. **Heat the water:** Bring a large pot of salted water to a boil.
+2. **Brown the butter:** While the water heats, melt the butter in a large skillet over medium-high heat. Cook, swirling, until the milk solids turn golden brown and smell nutty, about 3 minutes.
+3. **Cook the zucchini:** Add the shallots and zucchini. Cook, stirring often, until softened, 2 to 3 minutes.
+4. **Boil the gnocchi:** Add the gnocchi to the boiling water and cook until they float, 3 to 5 minutes. Scoop out a mug of the cooking water, then drain.
+5. **Add the tomatoes:** While the gnocchi cook, add the tomatoes, salt, nutmeg and pepper to the skillet. Cook until the tomatoes start to release their juices, 1 to 2 minutes.
+6. **Toss and serve:** Add the gnocchi, Parmesan and parsley and toss gently until coated and the cheese melts. Add a splash of the cooking water if the cheese clumps. Taste for salt and serve right away.
