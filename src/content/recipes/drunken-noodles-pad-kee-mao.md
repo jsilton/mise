@@ -19,135 +19,79 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 25 min
-cookTime: 30 min
-totalTime: 55 min
+cookTime: 25 min
+totalTime: 50 min
 servings: '4'
 pairsWith:
+  - thai-mango-salad
   - smashed-cucumber-salad
+pairingNotes:
+  thai-mango-salad: Sweet, sour and cool against the chile heat.
+  smashed-cucumber-salad: Cold crunch to cool the spice.
 ingredients:
   - '--- Chicken ---'
-  - '450 g boneless skinless chicken thighs, sliced about 1/4 inch thick'
-  - '2 tbsp water, for the chicken'
+  - '1 lb (450 g) boneless skinless chicken thighs, sliced 1/4 inch thick'
+  - 2 tbsp water
   - 2 tsp cornstarch
-  - '1 tsp light soy sauce, for the chicken'
-  - '--- Noodles and vegetables ---'
-  - 800 g fresh wide rice noodles (sen yai); see the dried-noodle substitution
-  - '3 tbsp neutral oil, divided'
-  - '4 cloves garlic, finely chopped'
-  - '1 to 4 Thai chiles, finely chopped, to suit your heat preference'
-  - '100 g shallots, thinly sliced'
-  - '150 g canned baby corn, drained and halved lengthwise'
-  - 30 g holy basil leaves; see substitution if unavailable
+  - 1 tsp light soy sauce
   - '--- Sauce ---'
   - 1/4 cup oyster sauce
   - 2 tbsp fish sauce
   - 1 tbsp light soy sauce
   - 2 tsp dark soy sauce
   - 1 tbsp brown sugar
-  - '2 tbsp water, for the sauce, plus small splashes if noodles need loosening'
+  - 2 tbsp water
+  - '--- Noodles ---'
+  - 1 3/4 lb (800 g) fresh wide rice noodles (sen yai)
+  - 3 tbsp neutral oil
+  - '4 garlic cloves, finely chopped'
+  - '1 to 4 Thai chiles, finely chopped'
+  - '2 large shallots, thinly sliced'
+  - '1 cup canned baby corn, drained and halved lengthwise'
+  - 1 1/2 cups (30 g) holy basil leaves
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: poor
 description: >-
-  Chile-and-basil rice noodles with chicken, shallots, and baby corn, finished one portion at a time
-  to protect the noodles.
+  Wide rice noodles stir-fried with chicken, chiles, shallots, baby corn and holy basil in a dark,
+  savory sauce.
 equipment:
   - 12-inch-skillet-or-wok
-  - instant-read-thermometer
 learning:
-  focus: Portion the pan as carefully as the plate
-  outcome: >-
-    Soft, intact wide noodles lightly coated in a savory sauce, with juicy chicken and an aromatic
-    chile-and-basil finish.
   techniques:
     - stir-frying
     - temperature
     - seasoning
-  before:
-    - >-
-      Prepare four equal noodle portions and divide the cooked components and sauce before the final
-      stir-frying. Serve each portion as it is ready.
-    - >-
-      Fresh noodles should be flexible before separating. Follow package storage instructions and
-      warm stiff refrigerated noodles briefly according to the package; do not force cold blocks
-      apart.
-  checkpoints:
-    - step: 3
-      cue: The thickest chicken slices reach 165°F / 74°C before leaving the pan.
-      why: >-
-        Cooking the protein fully first avoids trying to finish raw meat inside a crowded tangle of
-        fragile noodles.
-    - step: 5
-      cue: One portion spreads loosely and the sauce coats it without a pool of liquid.
-      why: >-
-        Less food gives moisture a chance to evaporate. More heat cannot compensate for filling the
-        skillet with the entire meal.
-    - step: 6
-      cue: Noodles have a few toasted patches and lift in broad ribbons; basil is just wilted.
-      why: >-
-        Short undisturbed contact encourages browning. Repeated hard scraping breaks tender rice
-        noodles.
-  troubleshooting:
-    - problem: Fresh noodles break into small pieces
-      cause: 'They were separated cold, overcooked, or stirred roughly.'
-      fix: >-
-        Use gentle lifting and folding with a broad spatula. Warm stiff noodles enough to loosen
-        before cooking; finish one portion at a time.
-    - problem: Noodles are hard in the middle
-      cause: Dried noodles were insufficiently hydrated for the short final stir-fry.
-      fix: >-
-        Add a small splash of water and cover briefly until tender, then uncover. Next time use the
-        package preparation and check a noodle before portioning.
-    - problem: The first portion is too strongly seasoned
-      cause: Condiment concentration or the noodle weight differs.
-      fix: >-
-        Dilute the remaining sauce with a little water and use less per portion. Taste the first
-        cooked portion before repeating the remaining batches.
   substitutions:
-    - ingredient: 800 g fresh wide rice noodles
-      alternative: 300 g dried extra-wide rice noodles
+    - ingredient: fresh wide rice noodles (sen yai)
+      alternative: 10 oz dried extra-wide rice noodles
       effect: >-
-        This is a practical four-portion alternative, not an exact weight or texture equivalent.
-        Prepare according to the package for stir-frying until just tender throughout; rinse if
-        directed and drain very well before dividing into four.
-    - ingredient: Holy basil
-      alternative: 30 g Thai basil or Italian basil leaves
-      effect: >-
-        Each has a different aroma. Thai basil brings a pronounced anise note; identify it as a
-        substitution rather than calling all basil varieties interchangeable.
-  timing: >-
-    About 55 minutes includes 25 minutes preparation and roughly 30 minutes for two chicken batches,
-    vegetables, and four final noodle batches. Some dried noodles require extra soaking time.
-    Serving is staggered over the final 12–16 minutes.
+        Soak or boil them by the package until just tender, then rinse and drain well. They are a
+        little firmer and chewier than fresh.
+    - ingredient: holy basil leaves
+      alternative: Thai basil
+      effect: Sweeter, with a licorice note in place of holy basil's peppery bite.
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Best freshly made; for noodle
-    texture, use refrigerated leftovers the next day and reheat only the portion needed.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: 'Pailin Chongchitnant — Pad kee mao: basil choice and cooking in portions'
-      url: 'https://hot-thai-kitchen.com/pad-kee-mao-2/'
+    Best eaten right away. Leftovers keep 2 days in the fridge. Reheat in a hot skillet with a splash
+    of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from thewoksoflife.com
+    date: '2026-11-09'
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/drunken-noodles-pad-kee-mao/'
 ---
 
 ## Chef's Note
 
-Pad kee mao combines bold chile-and-basil flavor with wide rice noodles, shallots and baby corn. Use holy basil when available; Thai basil gives a different aroma. Prepare everything before heating the pan and finish one serving at a time so the noodles have room to toast without tearing. Lift gently rather than scraping vigorously.
+Pad kee mao, or drunken noodles, is a Thai street-food stir-fry of wide rice noodles, chicken, fiery chiles and holy basil. A dark, savory sauce of oyster sauce, fish sauce and soy coats every ribbon. Fry the noodles in small batches so they char in spots instead of steaming into a clump.
 
 ## Directions
 
-1. **Marinate and prepare noodles:** Mix chicken with its water, cornstarch, and marinade soy; refrigerate while preparing the rest, about 15 minutes. Gently separate flexible fresh noodles and divide into four equal portions. For dried noodles, follow the substitution instructions before portioning.
-2. **Mix sauce and prep vegetables:** Dissolve sugar in the sauce water, then stir in oyster sauce, fish sauce, light soy, and dark soy. Chop garlic and chiles, slice shallots, drain and halve corn, and pick basil leaves. Keep basil separate from the vegetables.
-3. **Cook chicken in two batches:** Heat 1 tsp oil in a large skillet or wok over medium-high heat. Add half the chicken in a single layer; leave about 1–2 minutes, then turn and cook until several thick slices reach 165°F / 74°C, usually about 4–5 minutes total. Transfer to a clean bowl. Repeat with another teaspoon oil and the remaining chicken.
-4. **Cook the vegetables:** Add 1 tbsp oil and lower heat to medium. Stir garlic and chiles about 30 seconds until fragrant. Add shallots and baby corn; stir-fry about 3–4 minutes until shallots soften and corn is hot. Transfer out. Divide chicken, vegetables, basil, and well-stirred sauce into four portions.
-5. **Finish the first portion:** Heat 1 tsp oil over medium-high heat. Add one noodle portion and its sauce, then gently lift and fold until coated. Add its cooked chicken and vegetables, including their portion of any cooking juices. Keep folding until hot and the sauce is absorbed, about 1–2 minutes. If noodles are sticking and still firm, add a small splash of water; do not flood the pan.
-6. **Toast briefly and add basil:** Spread loosely and leave about 15–20 seconds, then lift and turn. Repeat once if needed for a few browned patches, lowering heat if sauce begins to burn. Turn off heat and fold in one portion of basil until just wilted. Taste and plate immediately.
-7. **Repeat and serve:** Repeat steps 5–6 with the remaining three portions, using 1 tsp oil for each. If the first portion needs a seasoning adjustment, adjust the remaining sauce before continuing. Serve each plate as it is ready; no additional rice is needed.
+1. **Marinate the chicken:** Work the water into the chicken with your hands until absorbed. Toss with the cornstarch and soy sauce and let stand 15 minutes.
+2. **Mix the sauce:** Stir the brown sugar into the water until it dissolves. Stir in the oyster sauce, fish sauce, light soy sauce and dark soy sauce.
+3. **Loosen the noodles:** Gently pull the noodles apart into loose ribbons. If they are cold and stiff, microwave them for 30 to 60 seconds first so they don't tear.
+4. **Sear the chicken:** Heat a little of the oil in a wok or 12-inch skillet over medium-high heat. Sear the chicken in a single layer, in batches if needed, until browned and cooked through, 4 to 5 minutes. Move it to a bowl.
+5. **Cook the aromatics:** Lower the heat to medium and add a little more oil. Stir the garlic and chiles until fragrant, about 30 seconds. Add the shallots and baby corn and stir-fry until the shallots soften, 3 to 4 minutes. Add them to the chicken.
+6. **Fry the noodles:** Raise the heat to medium-high and add a little oil. Working in batches that spread loosely in the pan, add the noodles with their share of the sauce, chicken and vegetables. Fold gently until coated and hot, 1 to 2 minutes, then leave them alone for 20 seconds to char in spots.
+7. **Add the basil:** Turn off the heat and fold in a share of the basil until just wilted. Serve right away and repeat with the rest.

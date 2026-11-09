@@ -19,9 +19,9 @@ cuisines:
   - Chinese
 role: main
 vibe: comfort
-prepTime: 'About 15–25 min preparation, including the 10-minute marinade'
-cookTime: 'About 15–20 min cooking, plus any separate noodle or dried-mushroom preparation'
-totalTime: About 30–45 min with prepared noodles and fresh mushrooms
+prepTime: 20 min
+cookTime: 15 min
+totalTime: 35 min
 servings: 4 portions
 seasons:
   - year-round
@@ -32,29 +32,28 @@ equipment:
 pairsWith:
   - smashed-cucumber-salad
   - steamed-broccoli
+pairingNotes:
+  smashed-cucumber-salad: 'Cold, garlicky crunch next to the hot noodles.'
+  steamed-broccoli: 'A plain green beside the rich, dark noodles.'
 ingredients:
-  - '--- Pork and marinade ---'
-  - '6 oz Pork tenderloin, thin strips'
-  - 3/4 tsp Cornstarch
+  - '--- Pork ---'
+  - '6 oz pork tenderloin, cut into thin strips'
+  - 3/4 tsp cornstarch
   - 1 tsp Shaoxing wine
-  - 1/2 tsp Light soy sauce for the marinade
-  - 1/8 tsp Dark soy sauce for the marinade
-  - 1/8 tsp Sugar for the marinade
-  - '--- Pan and noodle glaze ---'
-  - 3 tbsp Neutral oil
-  - '8 Fresh shiitake mushrooms, tough stems removed, caps sliced'
-  - >-
-    1 lb Fresh Shanghai-style thick wheat noodles (cu mian), prepare per actual product instructions
-    before pan cooking
-  - 'Water, for noodle preparation only if the package requires it'
-  - 2 1/2 tsp Dark soy sauce for the noodles
-  - 2 1/2 tsp Light soy sauce for the noodles
-  - 1/4 tsp Sugar for the noodles
-  - '1 Bunch of baby bok choy, washed, trimmed and sliced; stems and leaves separated'
-  - 'Additional dark soy sauce, a little more for color, only if desired, optional'
-  - '--- Optional table finish ---'
-  - 'Chinese black vinegar, a few drops at the table, if desired, optional'
-source: Adapted from thewoksoflife.com
+  - 1/2 tsp light soy sauce
+  - 1/8 tsp dark soy sauce
+  - 1/8 tsp sugar
+  - '--- Noodles ---'
+  - 1 lb fresh Shanghai-style thick wheat noodles (cu mian)
+  - 3 tbsp neutral oil
+  - '8 fresh shiitake mushrooms, stems removed, caps sliced'
+  - 2 1/2 tsp dark soy sauce
+  - 2 1/2 tsp light soy sauce
+  - 1/4 tsp sugar
+  - '8 oz baby bok choy, trimmed and cut into bite-size pieces, stems and leaves kept apart'
+  - '--- To serve ---'
+  - 'Chinese black vinegar, for the table, optional'
+source: Adapted from The Woks of Life
 sourceUrl: 'https://thewoksoflife.com/shanghai-fried-noodles/'
 formula:
   version: 1
@@ -63,23 +62,23 @@ formula:
     unit: portion
   components:
     - id: marinade
-      name: Pork and marinade
+      name: Pork
       ingredients:
         - id: pork
           key: pork
-          name: Pork tenderloin
+          name: pork tenderloin
           quantity:
             amount: 6
             unit: oz
           uses:
             - step: marinate
               share: 1
-          preparation: thin strips
+          preparation: cut into thin strips
         - id: starch
           key: starch
-          name: Cornstarch
+          name: cornstarch
           quantity:
-            amount: 0.75
+            amount: 3/4
             unit: tsp
           uses:
             - step: marinate
@@ -95,127 +94,109 @@ formula:
               share: 1
         - id: light-soy
           key: light-soy
-          name: Light soy sauce for the marinade
+          name: light soy sauce
           quantity:
-            amount: 0.5
+            amount: 1/2
             unit: tsp
           uses:
             - step: marinate
               share: 1
         - id: dark-soy
           key: dark-soy
-          name: Dark soy sauce for the marinade
+          name: dark soy sauce
           quantity:
-            amount: 0.125
+            amount: 1/8
             unit: tsp
           uses:
             - step: marinate
               share: 1
         - id: sugar
           key: sugar
-          name: Sugar for the marinade
+          name: sugar
           quantity:
-            amount: 0.125
+            amount: 1/8
             unit: tsp
           uses:
             - step: marinate
               share: 1
     - id: pan
-      name: Pan and noodle glaze
+      name: Noodles
       ingredients:
-        - id: oil
-          key: oil
-          name: Neutral oil
-          quantity:
-            amount: 3
-            unit: tbsp
-          uses:
-            - step: pork
-              share: 0.3333333333333333
-            - step: noodles
-              share: 0.6666666666666666
-        - id: mushroom
-          key: mushroom
-          name: Fresh shiitake mushroom
-          quantity:
-            amount: 8
-            unit: count
-          uses:
-            - step: noodles
-              share: 1
-          plural: Fresh shiitake mushrooms
-          preparation: 'tough stems removed, caps sliced'
         - id: noodles
           key: noodles
-          name: Fresh Shanghai-style thick wheat noodles (cu mian)
+          name: fresh Shanghai-style thick wheat noodles (cu mian)
           quantity:
             amount: 1
             unit: lb
           uses:
             - step: prepare
               share: 1
-          preparation: prepare per actual product instructions before pan cooking
-        - id: water
-          key: water
-          name: Water
-          allowance: for noodle preparation only if the package requires it
+        - id: oil
+          key: oil
+          name: neutral oil
+          quantity:
+            amount: 3
+            unit: tbsp
           uses:
-            - step: prepare
+            - step: pork
+              share: 1/3
+            - step: noodles
+              share: 2/3
+        - id: mushroom
+          key: mushroom
+          name: fresh shiitake mushroom
+          quantity:
+            amount: 8
+            unit: count
+          uses:
+            - step: noodles
               share: 1
-          role: cooking-water
+          plural: fresh shiitake mushrooms
+          preparation: 'stems removed, caps sliced'
         - id: dark-soy
           key: dark-soy
-          name: Dark soy sauce for the noodles
+          name: dark soy sauce
           quantity:
-            amount: 2.5
+            amount: 2 1/2
             unit: tsp
           uses:
-            - step: finish
+            - step: glaze
               share: 1
         - id: light-soy
           key: light-soy
-          name: Light soy sauce for the noodles
+          name: light soy sauce
           quantity:
-            amount: 2.5
+            amount: 2 1/2
             unit: tsp
           uses:
-            - step: finish
+            - step: glaze
               share: 1
         - id: sugar
           key: sugar
-          name: Sugar for the noodles
+          name: sugar
           quantity:
-            amount: 0.25
+            amount: 1/4
             unit: tsp
           uses:
-            - step: finish
+            - step: glaze
               share: 1
         - id: bok
           key: bok
-          name: Bunch of baby bok choy
+          name: baby bok choy
           quantity:
-            amount: 1
-            unit: count
+            amount: 8
+            unit: oz
           uses:
             - step: finish
               share: 1
-          plural: Bunches of baby bok choy
-          preparation: 'washed, trimmed and sliced; stems and leaves separated'
-        - id: extra-dark-soy
-          key: dark-soy
-          name: Additional dark soy sauce
-          allowance: 'a little more for color, only if desired'
-          optional: true
-          uses:
-            - step: finish
-              share: 1
+          preparation: 'trimmed and cut into bite-size pieces, stems and leaves kept apart'
     - id: serve
-      name: Optional table finish
+      name: To serve
       ingredients:
         - id: vinegar
           key: vinegar
           name: Chinese black vinegar
-          allowance: 'a few drops at the table, if desired'
+          allowance: for the table
           uses:
             - step: serve
               share: 1
@@ -223,125 +204,69 @@ formula:
   steps:
     - id: marinate
       title: Marinate the pork
-      text: >-
-        Toss {{ingredients}} until coated. Keep refrigerated for about 10 minutes while preparing
-        the other ingredients.
+      text: 'Toss {{ingredients}} in a bowl until coated. Let stand 10 minutes.'
     - id: prepare
-      title: Prepare the noodles
+      title: Boil the noodles
       text: >-
-        Use {{ingredients}}. Follow the actual package’s cooking or reheating instructions and drain
-        thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach
-        the hot wok; use cooking chopsticks or tongs in the pan.
+        Meanwhile, cook {{ingredients}} in a large pot of boiling water until just tender, 2 to 3
+        minutes. Drain, rinse under cold water and shake dry.
     - id: pork
-      title: Cook the pork
+      title: Sear the pork
       text: >-
-        Heat {{ingredients}} over medium-high heat in a wok or large skillet until shimmering,
-        without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks
-        after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean
-        plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils
-        separate.
+        Heat {{ingredients}} in a wok over high heat until it shimmers. Add the pork in a single
+        layer and stir-fry until browned and just cooked through, about 2 minutes. Move it to a
+        plate.
     - id: noodles
-      title: Cook mushrooms and noodles
+      title: Cook the mushrooms
       text: >-
-        Use {{ingredients}}. Reduce heat to medium, add the remaining oil allocation and cook
-        mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift
-        gently until loosened and hot.
+        Lower the heat to medium. Add {{ingredients}} to the wok and stir-fry until the mushrooms
+        soften, about 2 minutes. Add the noodles and toss gently with tongs or chopsticks to
+        separate them.
+    - id: glaze
+      title: Glaze the noodles
+      text: >-
+        Turn the heat to high and add {{ingredients}}. Stir-fry until the noodles are evenly dark
+        and glossy, about 3 minutes.
     - id: finish
-      title: Coat noodles and cook greens
+      title: Add the greens
       text: >-
-        Have {{ingredients}} ready. Add both NOODLE soy amounts and the noodle sugar, leaving the
-        already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color
-        is wanted, add {{name:pan.extra-dark-soy}} a little at a time and toss; this also increases
-        saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are
-        crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still
-        tough rather than relying on a fixed 1-minute finish.
+        Add the stems of {{ingredients}} and the pork. Toss for 1 minute, then add the leaves and
+        toss until just wilted, about 30 seconds more. The stems should still crunch.
     - id: serve
       title: Serve
-      text: 'Serve hot and offer {{ingredients}} separately.'
+      text: 'Serve hot, with {{ingredients}} at the table for a few drops on each bowl.'
 learning:
-  focus: 'Cu chao mian keeps thick noodles, pork and greens together in a dark-soy coating'
-  outcome: 'Thick noodles, cooked pork and tender stems with separate marinade and glaze allocations.'
   techniques:
     - stir-frying
     - temperature
-  before:
-    - >-
-      For the original batch, use one pound of fresh Shanghai-style thick wheat noodles, sold
-      refrigerated at Chinese markets, for four planning portions. Prepare the actual product before
-      stir-frying; fresh, frozen and dried noodles need different preparation. Udon and thick egg
-      noodles follow their own package instructions and may give a different cooked quantity.
-    - >-
-      Scale measured ingredients together, keep pork strips thin and use manageable pan batches. The
-      ten-minute marinade and doneness endpoint do not multiply with quantity.
-    - >-
-      For the original batch, the oil total is 3 tbsp: one-third for pork and two-thirds for
-      mushrooms and noodles. The marinade’s dark soy and sugar are separate from the noodle-glaze
-      amounts.
-  checkpoints:
-    - step: 3
-      cue: Pork reaches 145°F and rests 3 minutes on a clean plate.
-      why: Brown appearance alone is not the whole-muscle pork endpoint.
-    - step: 5
-      cue: Noodles are evenly coated and bok choy stems crisp-tender with leaves wilted.
-      why: Split stems and leaves within the final stage so a fixed minute does not leave tough stems.
-  troubleshooting:
-    - problem: Noodles clump or sauce burns
-      cause: Noodles were not prepared/loosened or the final heat is too high
-      fix: >-
-        Follow the product preparation before pan cooking, drain well and use smaller loads. Reduce
-        to medium after cooking pork, and lift gently while coating noodles.
   substitutions:
-    - ingredient: Pork tenderloin
-      alternative: 'Use the same listed weight of thinly sliced pork shoulder, butt or loin.'
-      effect: The cuts differ in tenderness; slice thinly and retain 145°F plus a 3-minute rest.
+    - ingredient: fresh Shanghai-style thick wheat noodles (cu mian)
+      alternative: Frozen udon or thick egg noodles
+      effect: >-
+        Udon is the closest match for chew. Cook it by the package directions before it goes in the
+        wok.
     - ingredient: Shaoxing wine
-      alternative: Use the same listed amount of dry cooking sherry.
-      effect: This replaces the Shaoxing wine without adding a second marinade liquid.
-    - ingredient: Baby bok choy
-      alternative: Use the same listed bunch count of choy sum.
-      effect: >-
-        A distinct purchase option, not a weight conversion; use stem tenderness and wilted leaves
-        as cues.
-    - ingredient: Fresh shiitake mushrooms
-      alternative: 'Use the same listed count of dried shiitake mushrooms, fully reconstituted and sliced.'
-      effect: >-
-        Follow the product soaking instructions in advance; keep prolonged soaking refrigerated,
-        drain well and exclude that separate task from the fresh-mushroom clock.
-    - ingredient: Fresh Shanghai-style noodles
-      alternative: Use Japanese-style udon (frozen is best) or thick egg noodles at the listed purchase weight.
-      effect: >-
-        Udon is the closest chewy, thick match. Follow that product’s instructions; dried and fresh
-        products may give different cooked quantities, so use pan batches without claiming an
-        equivalent finished yield.
-  storage: >-
-    Refrigerate promptly in shallow containers at 40°F or below, within 2 hours (1 hour above 90°F).
-    Use within 3–4 days. Reheat leftovers to 165°F throughout; noodles soften in storage.
-  timing: >-
-    About 15–25 min preparation, including the 10-minute marinade; About 15–20 min cooking, plus any
-    separate noodle or dried-mushroom preparation; About 30–45 min with prepared noodles and fresh
-    mushrooms. Plan for extra time if the actual pan loads or component preparation take longer.
-  sources:
-    - title: The Woks of Life — Shanghai Fried Noodles
-      url: 'https://thewoksoflife.com/shanghai-fried-noodles/'
-    - title: FoodSafety.gov — state-specific minimum cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: USDA — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+      alternative: Dry sherry
+      effect: Close in flavor. Use the same amount.
+    - ingredient: baby bok choy
+      alternative: Choy sum or Napa cabbage
+      effect: Choy sum cooks the same way. Napa cabbage is softer and sweeter.
+  storage: Keeps 3 days in the fridge. Reheat in a hot skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Cu chao mian keeps thick noodles, pork and greens together in a dark-soy coating. The small marinade and finishing sauce are separate: do not spend the marinade soy again in the noodle glaze. Loosen prepared noodles before they enter the hot pan, then lift and fold with chopsticks or tongs.
+Cu chao mian is Shanghai's everyday fried noodle dish: thick, chewy wheat noodles with pork, shiitakes and bok choy. Dark soy sauce is what makes it, coating every noodle a deep, glossy mahogany with a gentle sweetness. A few drops of black vinegar at the table cut the richness.
 
 ## Directions
 
-1. **Marinate the pork:** Toss Pork tenderloin, Cornstarch, Shaoxing wine, Light soy sauce for the marinade, Dark soy sauce for the marinade, and Sugar for the marinade until coated. Keep refrigerated for about 10 minutes while preparing the other ingredients.
-2. **Prepare the noodles:** Use Fresh Shanghai-style thick wheat noodles (cu mian) and Water. Follow the actual package’s cooking or reheating instructions and drain thoroughly if water was used. Loosen noodles on a clean board or in a bowl before they reach the hot wok; use cooking chopsticks or tongs in the pan.
-3. **Cook the pork:** Heat 1/3 of the Neutral oil over medium-high heat in a wok or large skillet until shimmering, without smoking the oil. Add marinated pork in a thin layer and stir-fry, starting checks after about 2 minutes, until the thickest pieces reach 145°F /63°C. Transfer to a clean plate and rest at least 3 minutes while cooking mushrooms; keep raw-contact utensils separate.
-4. **Cook mushrooms and noodles:** Use 2/3 of the Neutral oil and Fresh shiitake mushrooms. Reduce heat to medium, add the remaining oil allocation and cook mushrooms until softened, starting checks after 2 minutes. Add prepared noodles and lift gently until loosened and hot.
-5. **Coat noodles and cook greens:** Have Dark soy sauce for the noodles, Light soy sauce for the noodles, Sugar for the noodles, Bunch of baby bok choy, and Additional dark soy sauce (if using) ready. Add both NOODLE soy amounts and the noodle sugar, leaving the already-used marinade amounts separate. Fold until evenly dark and coated. If a deeper color is wanted, add Additional dark soy sauce a little at a time and toss; this also increases saltiness. Add bok choy stems and the cooked, rested pork; stir until stems are crisp-tender, then fold in the leaves until wilted. Use more time if the stems are still tough rather than relying on a fixed 1-minute finish.
-6. **Serve:** Serve hot and offer Chinese black vinegar (if using) separately.
+1. **Marinate the pork:** Toss pork tenderloin, cornstarch, Shaoxing wine, light soy sauce, dark soy sauce, and sugar in a bowl until coated. Let stand 10 minutes.
+2. **Boil the noodles:** Meanwhile, cook fresh Shanghai-style thick wheat noodles (cu mian) in a large pot of boiling water until just tender, 2 to 3 minutes. Drain, rinse under cold water and shake dry.
+3. **Sear the pork:** Heat 1/3 of the neutral oil in a wok over high heat until it shimmers. Add the pork in a single layer and stir-fry until browned and just cooked through, about 2 minutes. Move it to a plate.
+4. **Cook the mushrooms:** Lower the heat to medium. Add 2/3 of the neutral oil and fresh shiitake mushrooms to the wok and stir-fry until the mushrooms soften, about 2 minutes. Add the noodles and toss gently with tongs or chopsticks to separate them.
+5. **Glaze the noodles:** Turn the heat to high and add dark soy sauce, light soy sauce, and sugar. Stir-fry until the noodles are evenly dark and glossy, about 3 minutes.
+6. **Add the greens:** Add the stems of baby bok choy and the pork. Toss for 1 minute, then add the leaves and toss until just wilted, about 30 seconds more. The stems should still crunch.
+7. **Serve:** Serve hot, with Chinese black vinegar (if using) at the table for a few drops on each bowl.

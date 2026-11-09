@@ -16,16 +16,18 @@ cuisines:
   - French
 role: main
 vibe: nutritious
-prepTime: 20–25 min
-cookTime: 'About 25–40 min baking, plus cooking the vegetables during preparation'
-totalTime: 'About 1–1¼ hr, including a 10-minute rest'
+prepTime: 15 min
+cookTime: 45 min
+totalTime: 1 hr
 servings: 6 portions
 pairsWith:
-  - sweet-and-white-potato-gratin
   - tarragon-potatoes
-  - peach-salad-with-tomatoes-and-beets
+  - shaved-fennel-citrus-salad
+pairingNotes:
+  tarragon-potatoes: Roasted potatoes make it a full brunch plate.
+  shaved-fennel-citrus-salad: 'A bright, crisp salad against the rich eggs.'
 ingredients:
-  - 'cooking spray, enough to coat the baking vessel and any extra dish'
+  - 'cooking spray, for the pie plate'
   - 1 tbsp olive oil
   - '1 large yellow onion, thinly sliced'
   - '10 oz fresh baby spinach, washed and dried'
@@ -38,11 +40,10 @@ seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from Rebecca Cybulsky
+source: From Rebecca Cybulsky
 equipment:
   - wide-skillet
   - 9-inch-pie-plate
-  - food-thermometer
 formula:
   version: 1
   yield:
@@ -55,7 +56,7 @@ formula:
         - id: spray
           key: spray
           name: cooking spray
-          allowance: enough to coat the baking vessel and any extra dish
+          allowance: for the pie plate
           uses:
             - step: prepare
               share: 1
@@ -129,127 +130,58 @@ formula:
               share: 1
   steps:
     - id: prepare
-      title: Prepare the baking dish
-      text: >-
-        Heat the oven to 350°F. Coat a 9-inch pie plate with {{ingredients}}. Choose a plate deep
-        enough for the full filling below its rim; prepare an extra small oven-safe dish if
-        necessary.
+      title: Heat the oven
+      text: 'Heat the oven to 350°F. Coat a 9-inch pie plate with {{ingredients}}.'
     - id: onion
-      title: Brown the onion deeply
+      title: Blacken the onion
       text: >-
-        Heat {{ingredients}} in a wide skillet over medium-high heat. Cook, stirring often and
-        adjusting the heat, until the onion softens and becomes deeply browned with a few charred
-        edges. Start checking after about 5 minutes and allow roughly 8–12 minutes; avoid a black,
-        bitter layer on the bottom of the pan.
+        Heat {{ingredients}} in a wide skillet over medium-high heat. Cook, stirring now and then,
+        until the onion is deeply browned with some charred edges, 8 to 10 minutes.
     - id: spinach
-      title: Cook the spinach without leaving water
+      title: Wilt the spinach
       text: >-
-        Add {{ingredients}} in handfuls as space becomes available. Toss until fully wilted, then
-        keep cooking until free moisture has evaporated. If a large puddle remains, drain the cooked
-        vegetables in a sieve, pressing gently without discarding vegetables. Spread the vegetables
-        out and let them cool until only warm before mixing with the eggs.
+        Add {{ingredients}} a few handfuls at a time. Toss until it wilts and the pan is nearly dry,
+        about 3 minutes. Pour off any liquid.
     - id: custard
-      title: Mix the eggs and seasoning
-      text: 'Whisk {{ingredients}} just until evenly blended; there is no need to beat in a thick foam.'
+      title: Whisk the eggs
+      text: 'In a large bowl, whisk {{ingredients}} until evenly blended.'
     - id: fill
-      title: Mix in the cheese and vegetables
+      title: Fill the plate
       text: >-
-        Stir {{ingredients}} and all the cooled onion-spinach mixture into the eggs. Spread the full
-        filling evenly in the prepared plate, keeping it below the rim. Put any excess in the extra
-        coated dish rather than forcing the plate full.
+        Stir in {{ingredients}} and the onion and spinach. Pour the filling into the pie plate and
+        spread the top evenly.
     - id: bake
-      title: Bake by the center
-      text: >-
-        Bake at 350°F, beginning the first check around 25 minutes; about 25–40 minutes is a
-        planning range. The top should be lightly browned and the center fully set, with no liquid
-        egg movement. Measure at least 160°F in the central egg filling, keeping the sensing part of
-        the thermometer away from the pan. Check any extra dish separately. Depth, starting
-        temperature and oven heat can require longer.
-    - id: rest
-      title: 'Rest briefly, then serve'
-      text: >-
-        Rest for 10 minutes before slicing. Serve warm with a fresh salad. Refrigerate remaining
-        portions within 2 hours of cooking, or 1 hour above 90°F, while still warm if needed.
+      title: Bake
+      text: 'Bake until the top is browned and the center is set, about 30 minutes.'
 learning:
-  focus: 'Brown the onion, remove spinach moisture and set the eggs gently.'
-  outcome: >-
-    A tender, sliceable egg filling with sweet browned onion, nutty Gruyère and no puddle of spinach
-    water.
   techniques:
     - gentle-proteins
     - temperature
     - browning
-  before:
-    - 'Use the full listed spinach, eggs and Gruyère; freshly grate the cheese.'
-    - >-
-      Choose a 9-inch plate with room below its rim for the filling; have a small extra dish ready
-      if needed.
-    - >-
-      Cook the spinach thoroughly and let the vegetables cool to warm before folding them into the
-      eggs.
-  checkpoints:
-    - step: 2
-      cue: 'The onion is soft and deeply browned, with scattered charred edges.'
-      why: This preserves the original blackened-onion character without a bitter burned layer.
-    - step: 3
-      cue: The spinach is fully wilted and there is no free puddle in the vegetables.
-      why: Excess vegetable water would collect around the set egg.
-    - step: 6
-      cue: 'The middle is set with no liquid egg, and the central filling reaches at least 160°F.'
-      why: A golden top alone does not establish a cooked center.
-  troubleshooting:
-    - problem: Water collects around the slices.
-      cause: The spinach or cooked onions retained too much free liquid.
-      fix: >-
-        Cook or drain the vegetables until no puddle remains before mixing. Do not fix this by
-        dropping spinach from the formula.
-    - problem: The edges become rubbery before the center sets.
-      cause: The filling is too deep or the oven runs hot.
-      fix: >-
-        Check the center and keep baking only as needed; shield a darkening top. Use enough suitably
-        sized vessels for the full batch next time.
-  storage: >-
-    After serving, refrigerate in shallow portions at 40°F or below within 2 hours of cooking, or 1
-    hour above 90°F; refrigerate while still warm if necessary rather than waiting on the counter
-    for full cooling. Cover once cool and use within 3–4 days, including any earlier refrigerated
-    storage of cooked vegetables. Reheat leftovers to 165°F in the center, lightly covered to limit
-    drying. For longer storage, freeze cooled portions promptly; thaw in the refrigerator. Keep the
-    same remaining storage deadline after reheating.
-  timing: >-
-    Preparation includes browning the onion, wilting and draining the spinach, and cooling the
-    vegetables briefly. Allow about 25–40 minutes baking after mixing, followed by 10 minutes rest;
-    continue until the center checks are satisfied. When scaling, keep all filling ratios together
-    and choose enough appropriately sized vessels; do not multiply pan diameter, oven temperature or
-    bake time. For a fractional egg quantity, beat an egg and weigh out the required fraction rather
-    than rounding the egg count.
-  sources:
-    - title: 'FDA: What You Need to Know About Egg Safety'
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
-    - title: 'USDA: Leftovers and Food Safety'
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: 'Julia Levy, EatingWell: Spinach & Mushroom Quiche'
-      url: 'https://www.eatingwell.com/recipe/278023/spinach-mushroom-quiche/'
+  substitutions:
+    - ingredient: Gruyère cheese
+      alternative: Swiss cheese
+      effect: 'Milder and less nutty, but it melts the same way.'
+  storage: Keeps 4 days in the fridge. Reheat slices in the microwave or a 325°F oven.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 miseId: 0eb23442-fedb-43e3-ae2e-1dc3cafc6c64
 ---
 
 ## Chef's Note
 
-Rebecca’s crustless spinach quiche pairs browned onion with nutty Gruyère. Cook the spinach until its free water is gone, then fold the warm vegetables into the eggs and cheese. Let the center set gently and rest the quiche before slicing.
+This is Rebecca's crustless quiche, and it is as simple as a quiche gets: onion, spinach, eggs and Gruyère. Blacken the onion in a hot pan first. Its charred, sweet edges make it taste like much more than eggs and greens.
 
 ## Directions
 
-1. **Prepare the baking dish:** Heat the oven to 350°F. Coat a 9-inch pie plate with cooking spray. Choose a plate deep enough for the full filling below its rim; prepare an extra small oven-safe dish if necessary.
-2. **Brown the onion deeply:** Heat olive oil and large yellow onion in a wide skillet over medium-high heat. Cook, stirring often and adjusting the heat, until the onion softens and becomes deeply browned with a few charred edges. Start checking after about 5 minutes and allow roughly 8–12 minutes; avoid a black, bitter layer on the bottom of the pan.
-3. **Cook the spinach without leaving water:** Add fresh baby spinach in handfuls as space becomes available. Toss until fully wilted, then keep cooking until free moisture has evaporated. If a large puddle remains, drain the cooked vegetables in a sieve, pressing gently without discarding vegetables. Spread the vegetables out and let them cool until only warm before mixing with the eggs.
-4. **Mix the eggs and seasoning:** Whisk large eggs, fine sea salt, and ground black pepper just until evenly blended; there is no need to beat in a thick foam.
-5. **Mix in the cheese and vegetables:** Stir Gruyère cheese and all the cooled onion-spinach mixture into the eggs. Spread the full filling evenly in the prepared plate, keeping it below the rim. Put any excess in the extra coated dish rather than forcing the plate full.
-6. **Bake by the center:** Bake at 350°F, beginning the first check around 25 minutes; about 25–40 minutes is a planning range. The top should be lightly browned and the center fully set, with no liquid egg movement. Measure at least 160°F in the central egg filling, keeping the sensing part of the thermometer away from the pan. Check any extra dish separately. Depth, starting temperature and oven heat can require longer.
-7. **Rest briefly, then serve:** Rest for 10 minutes before slicing. Serve warm with a fresh salad. Refrigerate remaining portions within 2 hours of cooking, or 1 hour above 90°F, while still warm if needed.
+1. **Heat the oven:** Heat the oven to 350°F. Coat a 9-inch pie plate with cooking spray.
+2. **Blacken the onion:** Heat olive oil and large yellow onion in a wide skillet over medium-high heat. Cook, stirring now and then, until the onion is deeply browned with some charred edges, 8 to 10 minutes.
+3. **Wilt the spinach:** Add fresh baby spinach a few handfuls at a time. Toss until it wilts and the pan is nearly dry, about 3 minutes. Pour off any liquid.
+4. **Whisk the eggs:** In a large bowl, whisk large eggs, fine sea salt, and ground black pepper until evenly blended.
+5. **Fill the plate:** Stir in Gruyère cheese and the onion and spinach. Pour the filling into the pie plate and spread the top evenly.
+6. **Bake:** Bake until the top is browned and the center is set, about 30 minutes.
 
 ## Suggested Tweak
 
-This is Rebecca's recipe, so it stays as written. If you want to try it: whisk 1 cup half-and-half and a pinch of nutmeg into the six eggs for a softer, silkier custard. The extra liquid means a longer bake, about 30 to 45 minutes, until the center is just set.
+For a softer, silkier custard, whisk 1 cup half-and-half or whole milk and a pinch of nutmeg into the eggs. The quiche then bakes 30 to 45 minutes, until the center is just set. Let the onion and spinach cool for 5 minutes before they go into the eggs, and rest the baked quiche 10 minutes so it slices cleanly.
