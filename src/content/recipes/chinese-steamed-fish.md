@@ -17,9 +17,9 @@ cuisines:
   - Chinese
 role: main
 vibe: quick
-prepTime: 10–20 min
-cookTime: About 10–20 min
-totalTime: About 25–40 min
+prepTime: 15 min
+cookTime: 15 min
+totalTime: 30 min
 servings: 4 portions
 seasons:
   - year-round
@@ -28,23 +28,24 @@ leftovers: poor
 equipment:
   - bamboo-steamer
 pairsWith:
-  - basmati-rice
-  - garlic-sesame-spinach
+  - steamed-white-rice
   - steamed-bok-choy-with-oyster-sauce
+pairingNotes:
+  steamed-white-rice: Plain rice for the soy and ginger sauce.
+  steamed-bok-choy-with-oyster-sauce: The classic green vegetable for a Cantonese table.
 ingredients:
-  - '1 (1 1/2 lb) Whole fish (snapper or sea bass), scaled, gutted, gills removed; original-size fish'
-  - '1 Fresh ginger piece, original 2-inch piece, peeled and julienned'
-  - '2 Scallions, cut into fine threads'
-  - 'Fresh cilantro leaves, as desired'
-  - 2 tbsp Peanut or other high-heat oil
-  - 4 tbsp Light soy sauce
-  - 3 tbsp Shaoxing or Chinese rice wine
-  - 2 tbsp Water for sauce
-  - 1/4 tsp Toasted sesame oil
-  - '1 tbsp Rock sugar, powdered'
-  - 3 White-pepper dashes
-  - 'Water for steaming, as needed with the plate above the water'
-source: Adapted from rasamalaysia.com
+  - '1 (1 1/2 lb) whole snapper or sea bass, scaled and gutted'
+  - '1 piece fresh ginger, 2 inches long, peeled and cut into fine matchsticks'
+  - '2 scallions, cut into fine threads'
+  - 3 tbsp Shaoxing wine
+  - 4 tbsp light soy sauce
+  - 2 tbsp water
+  - '1 tbsp rock sugar, crushed to a powder'
+  - 1/4 tsp toasted sesame oil
+  - 1/8 tsp ground white pepper
+  - 2 tbsp peanut oil
+  - 'fresh cilantro leaves, for serving'
+source: Adapted from Rasa Malaysia
 sourceUrl: 'https://rasamalaysia.com/steamed-fish-recipe/'
 formula:
   version: 1
@@ -57,256 +58,185 @@ formula:
       ingredients:
         - id: fish
           key: fish
-          name: Whole fish (snapper or sea bass)
+          name: whole snapper or sea bass
           quantity:
             amount: 1
             unit: count
           uses:
-            - step: fish
+            - step: dry
               share: 1
-          plural: Whole fish (snapper or sea bass)
+          plural: whole snappers or sea bass
           equivalents:
             - amount: 1.5
               unit: lb
-          preparation: 'scaled, gutted, gills removed; original-size fish'
+          preparation: scaled and gutted
         - id: ginger
           key: ginger
-          name: Fresh ginger piece
+          name: fresh ginger
           quantity:
             amount: 1
-            unit: count
+            unit: piece
           uses:
-            - step: fish
+            - step: season
               share: 1/2
             - step: aromatics
               share: 1/2
-          plural: Fresh ginger pieces
-          preparation: 'original 2-inch piece, peeled and julienned'
+          preparation: '2 inches long, peeled and cut into fine matchsticks'
         - id: scallions
           key: scallions
-          name: Scallion
+          name: scallion
           quantity:
             amount: 2
             unit: count
           uses:
             - step: aromatics
               share: 1
-          plural: Scallions
+          plural: scallions
           preparation: cut into fine threads
-        - id: cilantro
-          key: cilantro
-          name: Fresh cilantro leaves
-          allowance: as desired
-          uses:
-            - step: serve
-              share: 1
-          role: garnish
-        - id: oil
-          key: oil
-          name: Peanut or other high-heat oil
+        - id: wine
+          key: wine
+          name: Shaoxing wine
           quantity:
-            amount: 2
+            amount: 3
             unit: tbsp
           uses:
-            - step: oil
-              share: 1
+            - step: season
+              share: 1/3
+            - step: sauce
+              share: 2/3
         - id: soy
           key: soy
-          name: Light soy sauce
+          name: light soy sauce
           quantity:
             amount: 4
             unit: tbsp
           uses:
             - step: sauce
               share: 1
-        - id: wine
-          key: wine
-          name: Shaoxing or Chinese rice wine
-          quantity:
-            amount: 3
-            unit: tbsp
-          uses:
-            - step: fish
-              share: 1/3
-            - step: sauce
-              share: 2/3
         - id: water
           key: water
-          name: Water for sauce
+          name: water
           quantity:
             amount: 2
             unit: tbsp
           uses:
             - step: sauce
               share: 1
-          role: cooking-water
-        - id: sesame
-          key: sesame
-          name: Toasted sesame oil
-          quantity:
-            amount: 1/4
-            unit: tsp
-          uses:
-            - step: sauce
-              share: 1
         - id: sugar
           key: sugar
-          name: Rock sugar
+          name: rock sugar
           quantity:
             amount: 1
             unit: tbsp
           uses:
             - step: sauce
               share: 1
-          preparation: powdered
-        - id: pepper
-          key: pepper
-          name: White-pepper dash
+          preparation: crushed to a powder
+        - id: sesame
+          key: sesame
+          name: toasted sesame oil
           quantity:
-            amount: 3
-            unit: count
+            amount: 1/4
+            unit: tsp
           uses:
             - step: sauce
               share: 1
-          plural: White-pepper dashes
-        - id: steam-water
-          key: steam-water
-          name: Water for steaming
-          allowance: as needed with the plate above the water
+        - id: pepper
+          key: pepper
+          name: ground white pepper
+          quantity:
+            amount: 1/8
+            unit: tsp
           uses:
-            - step: steam
+            - step: sauce
               share: 1
-          role: cooking-water
+        - id: oil
+          key: oil
+          name: peanut oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: oil
+              share: 1
+        - id: cilantro
+          key: cilantro
+          name: fresh cilantro leaves
+          allowance: for serving
+          uses:
+            - step: serve
+              share: 1
+          role: garnish
   steps:
-    - id: fish
-      title: Prepare the fish
-      text: >-
-        Prepare {{ingredients}}. Keep fish cold until the steamer is ready and thaw frozen fish in
-        the refrigerator, following any vacuum-package opening instructions. Rinse the ginger,
-        scallions and cilantro under running water before cutting and drain well, keeping garnish
-        tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned
-        here over the fish; retain its other half for the finish. Drizzle the wine portion assigned
-        here over the fish; the remaining wine belongs to the sauce.
     - id: sauce
       title: Mix the sauce
+      text: 'Stir {{ingredients}} together in a small bowl until the sugar dissolves.'
+    - id: dry
+      title: Dry the fish
       text: >-
-        Combine {{ingredients}} in a clean bowl until the powdered sugar dissolves. This sauce is
-        separate from the raw-fish plate; do not dip raw-contact utensils into it.
+        Pat {{ingredients}} dry inside and out. Lay it on a heatproof plate that fits in your
+        steamer or wok.
+    - id: season
+      title: Season the fish
+      text: 'Season the fish with {{ingredients}}, tucking some of the ginger into the cavity.'
     - id: steam
-      title: Steam
+      title: Steam the fish
       text: >-
-        Use {{ingredients}} under a stable rack and heatproof fish plate, with a lid that closes.
-        Bring the water to a boil before inserting the cold fish. Cover and begin checking around
-        8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer
-        translucent and separates easily. Fish thickness and plate loads change the time; use
-        additional uncrowded plates or batches rather than piling fish.
+        Bring water to a rolling boil in a steamer or a wok fitted with a rack. Set the plate on the
+        rack, cover and steam over high heat until the flesh at the thickest part is opaque and
+        flakes from the bone, 8 to 12 minutes.
     - id: drain
-      title: Drain
+      title: Drain the plate
       text: >-
-        Turn off the steam, lift the plate carefully with heat protection and discard the collected
-        steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to
-        raw-contact dishes.
+        Lift out the plate and pour off the liquid that has collected around the fish. It tastes
+        fishy and would muddy the sauce.
     - id: aromatics
-      title: Add aromatics
-      text: >-
-        Rinse and drain {{ingredients}} well, then arrange over the hot fish. Use all the scallion
-        threads and the retained half of the ginger.
+      title: Add the aromatics
+      text: 'Scatter {{ingredients}} over the hot fish.'
     - id: oil
-      title: Hot oil
+      title: Pour the hot oil
       text: >-
-        Heat {{ingredients}} in a small dry pan over controlled heat until hot and shimmering,
-        without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and
-        hands clear of splashes.
+        Heat {{ingredients}} in a small pan over high heat until it just begins to smoke. Pour it
+        over the ginger and scallions. It should sizzle loudly.
     - id: finish
       title: Heat the sauce
       text: >-
-        Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan,
-        allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully
-        dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.
+        Pour the sauce into the same hot pan and let it bubble for a few seconds. Pour it around the
+        fish.
     - id: serve
-      title: Serve
-      text: >-
-        Garnish with {{ingredients}} and serve promptly. Four portions are the original whole-fish
-        planning yield, including bones. For larger batches use additional original-size fish with
-        adequate plate capacity; smaller batches need appropriate fish portions and earlier center
-        checks. Ingredient arithmetic does not multiply the steaming clock.
+      title: Garnish and serve
+      text: 'Scatter {{ingredients}} over the top and serve right away.'
 learning:
-  focus: Separate steaming seasoning from the finishing sauce
-  outcome: >-
-    Whole fish reaches its measured thick-flesh endpoint and receives the full fragrant, dissolved
-    sauce.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Keep raw fish refrigerated until preparation. Thaw frozen fish in the refrigerator and follow
-      any vacuum-pack instructions about opening the package before thawing. Keep raw-contact tools
-      separate from cooked fish and garnishes.
-    - >-
-      Use a heatproof plate above the water on a stable rack, with a lid that closes; additional
-      fish need roomy plates or separate batches.
-    - >-
-      The wine has two destinations:1/3 on the fish and 2/3 in the sauce. Keep the sauce bowl and
-      garnish tools free from raw-fish contact.
-  checkpoints:
-    - step: 3
-      cue: 'Thick flesh is 145°F /63°C away from bone and separates easily, without translucent flesh.'
-      why: >-
-        The fish shape and thickness determine the completion point; source 8–10 minutes is a
-        first-check window.
-  troubleshooting:
-    - problem: Sugar stays gritty in the sauce
-      cause: Rock sugar was not powdered or the clean sauce was not fully dissolved
-      fix: >-
-        Powder the sugar before mixing, then stir the separate sauce as it heats; keep it away from
-        raw fish and pour only after it dissolves.
   substitutions:
-    - ingredient: Sauce sugar and sesame oil
-      alternative: >-
-        For the original batch, use 2 tbsp powdered rock sugar with the listed ¼ tsp sesame oil for
-        the sweeter sauce option. Keep all other ingredients and the separate 1 tbsp steaming wine
-        plus 2 tbsp sauce wine; scale the option together.
-      effect: >-
-        This is sweeter than the main sauce with 1 tbsp sugar; the sesame-oil amount stays the same.
-        Dissolve the powdered sugar fully before pouring the heated sauce.
-  timing: >-
-    Allow about 15–25 minutes active and 25–40 minutes elapsed for the original cleaned, thawed
-    fish, including steamer heat-up and finish. Actual fish thickness and extra plates change the
-    clock; thawing is additional.
-  storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers at 40°F /4°C or below, within 2
-    hours (1 hour above 90°F /32°C). Use within 3–4 days; reheat hot leftovers to 165°F /74°C
-    throughout. Delicate fish can dry on reheating; do not leave it warm to protect its texture.
-  sources:
-    - title: Adapted from rasamalaysia.com
-      url: 'https://rasamalaysia.com/steamed-fish-recipe/'
-    - title: FDA — Fish handling and cooking
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: FoodSafety.gov — Species and egg-dish endpoints
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: FDA — Produce handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA — Leftover handling
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    - ingredient: Whole snapper or sea bass
+      alternative: Skin-on snapper or sea bass fillets
+      effect: 'Use the same weight and steam them skin side down until opaque and flaky, 6 to 8 minutes.'
+    - ingredient: Shaoxing wine
+      alternative: Dry sherry
+      effect: Keeps a nutty wine aroma close to Shaoxing.
+    - ingredient: Rock sugar
+      alternative: Granulated sugar
+      effect: 'Use the same amount. Rock sugar tastes a little rounder, but the difference is small.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Whole steamed fish has a short, thickness-dependent cooking window. Ginger and wine season the fish before steaming; a separate clean soy mixture and hot oil finish it. Keep the steaming wine and sauce wine separate so both reach their intended stages.
+Cantonese steamed whole fish is the centerpiece of a Chinese family dinner and a must at Lunar New Year. Steaming keeps the fish delicate. The finish makes it: smoking-hot oil poured over raw ginger and scallions flash-cooks them and carries their aroma into the soy sauce.
 
 ## Directions
 
-1. **Prepare the fish:** Prepare Whole fish (snapper or sea bass), 1/2 of the Fresh ginger piece, and 1/3 of the Shaoxing or Chinese rice wine. Keep fish cold until the steamer is ready and thaw frozen fish in the refrigerator, following any vacuum-package opening instructions. Rinse the ginger, scallions and cilantro under running water before cutting and drain well, keeping garnish tools separate from raw fish. Pat the cleaned fish dry. Place the ginger portion assigned here over the fish; retain its other half for the finish. Drizzle the wine portion assigned here over the fish; the remaining wine belongs to the sauce.
-2. **Mix the sauce:** Combine Light soy sauce, 2/3 of the Shaoxing or Chinese rice wine, Water for sauce, Toasted sesame oil, Rock sugar, and White-pepper dashes in a clean bowl until the powdered sugar dissolves. This sauce is separate from the raw-fish plate; do not dip raw-contact utensils into it.
-3. **Steam:** Use Water for steaming under a stable rack and heatproof fish plate, with a lid that closes. Bring the water to a boil before inserting the cold fish. Cover and begin checking around 8–10 minutes; continue until thick flesh reaches 145°F /63°C away from bone, is no longer translucent and separates easily. Fish thickness and plate loads change the time; use additional uncrowded plates or batches rather than piling fish.
-4. **Drain:** Turn off the steam, lift the plate carefully with heat protection and discard the collected steaming liquid. Keep the cooked fish on a clean heatproof plate; do not return it to raw-contact dishes.
-5. **Add aromatics:** Rinse and drain 1/2 of the Fresh ginger piece and Scallions well, then arrange over the hot fish. Use all the scallion threads and the retained half of the ginger.
-6. **Hot oil:** Heat Peanut or other high-heat oil in a small dry pan over controlled heat until hot and shimmering, without keeping it smoking. Carefully pour over the well-drained aromatics, keeping face and hands clear of splashes.
-7. **Heat the sauce:** Reduce the pan heat and carefully add the entire clean prepared sauce to the oil pan, allowing for splatter. Bring the sauce to a bubble and stir until the sugar is fully dissolved, then pour all of it over the cooked fish. Do not add another dose of oil or wine.
-8. **Serve:** Garnish with Fresh cilantro leaves and serve promptly. Four portions are the original whole-fish planning yield, including bones. For larger batches use additional original-size fish with adequate plate capacity; smaller batches need appropriate fish portions and earlier center checks. Ingredient arithmetic does not multiply the steaming clock.
+1. **Mix the sauce:** Stir 2/3 of the Shaoxing wine, light soy sauce, water, rock sugar, toasted sesame oil, and ground white pepper together in a small bowl until the sugar dissolves.
+2. **Dry the fish:** Pat whole snapper or sea bass dry inside and out. Lay it on a heatproof plate that fits in your steamer or wok.
+3. **Season the fish:** Season the fish with 1/2 of the fresh ginger and 1/3 of the Shaoxing wine, tucking some of the ginger into the cavity.
+4. **Steam the fish:** Bring water to a rolling boil in a steamer or a wok fitted with a rack. Set the plate on the rack, cover and steam over high heat until the flesh at the thickest part is opaque and flakes from the bone, 8 to 12 minutes.
+5. **Drain the plate:** Lift out the plate and pour off the liquid that has collected around the fish. It tastes fishy and would muddy the sauce.
+6. **Add the aromatics:** Scatter 1/2 of the fresh ginger and scallions over the hot fish.
+7. **Pour the hot oil:** Heat peanut oil in a small pan over high heat until it just begins to smoke. Pour it over the ginger and scallions. It should sizzle loudly.
+8. **Heat the sauce:** Pour the sauce into the same hot pan and let it bubble for a few seconds. Pour it around the fish.
+9. **Garnish and serve:** Scatter fresh cilantro leaves over the top and serve right away.

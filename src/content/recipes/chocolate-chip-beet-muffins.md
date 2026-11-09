@@ -26,118 +26,52 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 10 min
-cookTime: 18–22 min
-totalTime: '33–37 min, plus rack cooling and any remaining preheating'
-servings: '12 muffins, planning yield'
-pairsWith:
-  - banana-oat-greek-yogurt-muffins
-  - avocado-kale-caesar-salad
-  - almond-zucchini-bread
+cookTime: 20 min
+totalTime: 35 min
+servings: 12 muffins
 ingredients:
-  - 1 cup Beet Puree (Roasted or canned)
-  - 2 large Eggs
-  - '1/4 cup Unsalted Butter, melted'
-  - 1/4 cup Honey
-  - '1/3 cup Brown Sugar, packed'
-  - 1/4 cup Whole Milk
-  - 1 1/3 cups Whole-Wheat Flour
-  - 1/2 cup Unsweetened Cocoa Powder
-  - 3/4 tsp Baking Soda
-  - 1 tsp Baking Powder
-  - 1/4 tsp Sea Salt
-  - 1/3 cup Semisweet Chocolate Chips
-  - 'Whole milk, a little more only if needed for a scoopable batter'
-  - 'Additional chocolate chips, optional, for topping'
-  - 'Butter or baking spray, as needed for greasing if not using liners'
-source: Adapted from minimalistbaker.com
+  - 1 cup beet puree
+  - 2 large eggs
+  - '1/4 cup unsalted butter, melted and cooled'
+  - 1/4 cup honey
+  - 1/3 cup packed brown sugar
+  - '1/4 cup whole milk, plus a splash more if needed'
+  - 1 1/3 cups whole-wheat flour
+  - 1/2 cup unsweetened cocoa powder
+  - 3/4 tsp baking soda
+  - 1 tsp baking powder
+  - 1/4 tsp fine sea salt
+  - '1/3 cup semisweet chocolate chips, plus a few for the tops'
+source: Adapted from Minimalist Baker
 sourceUrl: 'https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/'
 learning:
-  focus: Recognize a thick scoopable beet-and-cocoa batter
-  outcome: >-
-    The batter holds a scoop rather than pouring, with no dry flour pockets. A center tester has no
-    wet batter, even if it picks up melted chocolate.
   techniques:
     - leavening
-  before:
-    - >-
-      Start with the listed amount of prepared, smooth beet puree; roasting raw beets and cooling
-      them add time before the muffin preparation estimate. Plain canned beets should be drained
-      before pureeing.
-    - >-
-      Use standard muffin cups and keep the fill at or below ¾. Plan on 11–12 muffins for the
-      original batch; the actual count depends on the tin and batter consistency.
-    - >-
-      This version contains honey; do not serve it to children under one year. Do not taste raw
-      batter.
-  checkpoints:
-    - step: 3
-      cue: 'The batter holds a scoop rather than pouring, with no dry flour pockets.'
-      why: >-
-        The puree and flour determine thickness; the conditional milk allowance is for a batter that
-        cannot be portioned, not a second measured milk dose.
-    - step: 6
-      cue: 'A center tester has no wet batter, even if it picks up melted chocolate.'
-      why: >-
-        Cocoa makes browning difficult to see and chocolate smears can be mistaken for an uncooked
-        center.
-  troubleshooting:
-    - problem: Batter is too stiff to portion.
-      cause: Puree thickness and flour absorption vary.
-      fix: >-
-        Fold in a little extra milk from the conditional allowance, stopping at a thick scoopable
-        consistency.
-    - problem: Muffin center is wet when the edges look baked.
-      cause: Dark color hides doneness or the cups were overfilled.
-      fix: >-
-        Continue baking and recheck the center. Use shallower fills for later batches; do not reduce
-        the full flour, eggs or butter to correct the baked batch.
   substitutions:
-    - ingredient: Roasted beet puree
-      alternative: 'Drained plain canned beets, pureed smooth'
+    - ingredient: Beet puree
+      alternative: 'Plain canned beets, drained and pureed smooth'
       effect: >-
-        Use the listed puree volume; moisture and earthy flavor can differ. Pickled beets are not
-        the same ingredient.
-  timing: >-
-    The 10-minute preparation estimate starts with prepared beet puree. One oven batch bakes 18–22
-    minutes and rests 5 minutes in the pan: 33–37 minutes through pan cooling. Remaining preheating,
-    rack cooling and any later oven batches add elapsed time.
+        Use the same amount. Roasted beets taste a little sweeter. Do not use pickled beets.
+    - ingredient: Whole-wheat flour
+      alternative: All-purpose flour
+      effect: The muffins are lighter and softer, with less nutty flavor.
   storage: >-
-    Cool on a rack before sealing. Refrigerate promptly at 40°F / 4°C or below, within 2 hours of
-    baking or 1 hour above 90°F / 32°C; use within 3–4 days. Freeze cooled muffins for longer
-    storage and thaw the portions needed in the refrigerator. Serve at room temperature or gently
-    warmed.
-  sources:
-    - title: Dana / Minimalist Baker — attributed recipe
-      url: 'https://minimalistbaker.com/fudgy-vegan-double-chocolate-beet-muffins/'
-    - title: FDA — safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: FDA — honey and infants
-      url: 'https://www.fda.gov/food/people-risk-foodborne-illness/once-baby-arrives-food-safety-moms-be'
-    - title: FDA — raw flour and batter
-      url: 'https://www.fda.gov/consumers/consumer-updates/flour-raw-food-and-other-safety-facts'
-    - title: FDA — produce preparation
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
+    Keeps 2 days at room temperature or 5 days in the fridge, and freezes for 3 months. Thaw at room
+    temperature.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Beet puree, cocoa and chocolate chips make a thick, scoopable batter. Fold only until the flour disappears, and check the center rather than judging doneness by the dark color.
+Beet puree turns these muffins a deep red-brown and keeps them moist, and its earthy sweetness disappears behind cocoa and brown sugar. Kids won't know unless you tell them. Fold gently once the whole-wheat flour goes in so the muffins stay tender.
 
 ## Directions
 
-1. **Prepare:** Preheat the oven to 375°F. Line a standard 12-cup muffin tin, or grease it with the listed pan allowance. Use smooth prepared beet puree: blend drained plain canned beets, or blend already roasted beets once cool enough for your blender according to its instructions. Let any warm puree and melted butter cool before adding the eggs. Beet roasting and its cooling are separate advance preparation.
-
-2. **Wet mix:** Whisk beet puree, eggs, melted butter, honey and brown sugar together, then whisk in the listed whole milk.
-
-3. **Dry mix:** Whisk flour, cocoa, baking soda, baking powder and salt together, then fold into the wet mixture just until no dry flour remains. The batter should be thick and scoopable. If it is too stiff to scoop, fold in a little of the separate extra-milk allowance at a time; stop before it becomes pourable.
-
-4. **Fold:** Fold all the listed semisweet chocolate chips into the batter.
-
-5. **Fill:** Divide among the muffin cups, filling no more than ¾ full. Sprinkle on the separate optional topping chips. Bake any excess batter in additional cups or a later batch.
-
-6. **Bake:** Bake for 18–22 minutes, until a center tester comes out without wet batter; melted chocolate on the tester is different from raw batter.
-
-7. **Cool:** Cool in the pan for 5 minutes, then transfer to a rack. Cool completely before sealing for storage.
+1. **Heat the oven:** Heat the oven to 375°F. Line a 12-cup muffin tin with paper liners.
+2. **Mix the wet ingredients:** In a large bowl, whisk the beet puree, eggs, melted butter, honey and brown sugar until smooth. Whisk in the milk.
+3. **Fold in the dry ingredients:** Sift the flour, cocoa, baking soda, baking powder and salt over the bowl. Fold just until no dry flour remains. The batter should be thick but scoopable, so add a splash more milk if it is stiff. Fold in the chocolate chips.
+4. **Fill the cups:** Divide the batter among the cups, filling them about three-quarters full. Scatter the extra chips on top.
+5. **Bake the muffins:** Bake until a toothpick in the center comes out with no wet batter, 18 to 22 minutes. Melted chocolate on the toothpick is fine.
+6. **Cool the muffins:** Cool the muffins in the pan for 5 minutes, then move them to a rack.
