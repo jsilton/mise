@@ -17,28 +17,31 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 20 min
-cookTime: 5 hr 15 min
-totalTime: 5 hr 35 min
+cookTime: 4 to 5 hr on low
+totalTime: 4 hr 35 min to 5 hr 35 min
 servings: '6'
 pairsWith:
   - everyday-arugula-salad
+  - garlic-bread
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon against the creamy broth.
+  garlic-bread: For dunking in the tomato broth.
 ingredients:
-  - '680 g boneless skinless chicken thighs, fully thawed, left whole'
+  - 1 1/2 lb boneless skinless chicken thighs
   - 2 tbsp olive oil
-  - '150 g yellow onion, finely diced'
+  - '1 medium yellow onion, finely diced'
   - '3 cloves garlic, minced'
   - 2 tsp dried basil
   - 2 tbsp tomato paste
-  - 3 tbsp (24 g) all-purpose flour
-  - '6 cups (1.44 liters) low-sodium chicken broth, divided'
-  - '2 cans (14.5 oz / 411 g each) petite diced tomatoes, with juices'
-  - 1/2 tsp ground black pepper
-  - '1/2 tsp fine salt, added gradually only if needed'
-  - 500 g frozen cheese tortellini
-  - '3 liters water, for cooking tortellini'
-  - '140 g fresh spinach, washed, thick stems removed'
-  - 1/2 cup (120 ml) heavy cream
-  - 40 g finely grated Parmesan
+  - 3 tbsp all-purpose flour
+  - 6 cups low-sodium chicken broth
+  - '2 cans (14.5 oz each) petite diced tomatoes, with their juices'
+  - 1/2 tsp black pepper
+  - '1/2 tsp fine salt, plus more to taste'
+  - 18 oz frozen cheese tortellini
+  - '5 oz fresh spinach, thick stems removed'
+  - 1/2 cup heavy cream
+  - '1/2 cup Parmesan, finely grated'
 origin: Italian-American-inspired home cooking
 seasons:
   - year-round
@@ -51,97 +54,35 @@ equipment:
   - 6-quart-slow-cooker
   - large-skillet
   - large-pasta-pot
-  - instant-read-thermometer
 learning:
-  focus: Give filled pasta its own boiling stage
-  outcome: >-
-    Tender chicken, wilted spinach and intact tortellini in a flowing tomato-cream broth with no raw
-    flour lumps.
   techniques:
     - starch
     - temperature
     - seasoning
-  before:
-    - >-
-      Frozen tortellini vary by size and filling; follow the actual package cooking time and any
-      filling-temperature instructions.
-    - >-
-      Flour, garlic and oil are measured in the ingredient list. Make the onion/flour base on the
-      stove where its texture can be watched.
-  checkpoints:
-    - step: 2
-      cue: The flour paste loosens smoothly as broth is stirred in gradually.
-      why: >-
-        Dispersing starch before dilution helps prevent lumps. A dry microwave paste is not the only
-        way to give the broth body.
-    - step: 4
-      cue: Thick chicken pieces reach 165°F / 74°C and shred readily.
-      why: >-
-        Slow-cooker tenderness and poultry safety require checks before the final dairy and pasta
-        stages.
-    - step: 5
-      cue: 'Tortellini have tender pasta seams and hot centers, following their package endpoint.'
-      why: >-
-        A separate boiling pot recovers heat more predictably than frozen pasta dropped into a large
-        slow cooker for a fixed ten minutes.
-  troubleshooting:
-    - problem: Soup thickens too much after storage
-      cause: Tortellini absorbed the broth.
-      fix: >-
-        Store the pasta separately when possible. Loosen an already combined portion with broth
-        during reheating; softened pasta will not regain its original texture.
-    - problem: Flour lumps remain
-      cause: Too much broth was added at once to the paste.
-      fix: >-
-        Whisk the paste smooth in its first small liquid addition before it enters the crock. Avoid
-        trying to whisk a full soup aggressively around tender chicken.
-    - problem: Cream becomes grainy
-      cause: The acidic tomato soup boiled for a long time after dairy was added.
-      fix: >-
-        Use the short gentle finish, stir cream in gradually and stop prolonged boiling. Heavy cream
-        is more tolerant than milk but not a reason to hold pasta and dairy indefinitely.
   substitutions:
-    - ingredient: Frozen cheese tortellini
-      alternative: 500 g refrigerated cheese tortellini
-      effect: >-
-        Usually needs less boiling time. Follow its package, cook separately and avoid transferring
-        the frozen-pasta timing unchanged.
-  timing: >-
-    About 5 hr 35 min includes 20 minutes making the base, up to five hours on LOW, and a 15-minute
-    finish. Begin chicken checks at four hours; HIGH may take 2–3 hours. Heat the pasta water during
-    the last 20 minutes so its boil does not add another long wait.
+    - ingredient: frozen cheese tortellini
+      alternative: Refrigerated cheese tortellini
+      effect: 'Use the same amount. It cooks in less time, so follow the package.'
   storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C), at 40°F / 4°C or
-    below. Use within 3–4 days; reheat leftovers to 165°F / 74°C. Store pasta separately from broth
-    where possible and add by portion. Reheat broth/chicken to 165°F / 74°C on the stove or in the
-    microwave, then heat pasta through. Refrigerated cream broth may separate slightly.
-  sources:
-    - title: FoodSafety.gov — Safe cooking temperatures
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov — Clean, separate, cook, chill'
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
-    - title: USDA FSIS — Slow cookers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety
-    - title: Exploratorium — How starch thickens sauces
-      url: 'https://annex.exploratorium.edu/cooking/icooks/3-24-03.html'
+    The soup keeps 4 days in the fridge. Store the tortellini apart so they do not soak up the
+    broth, and reheat gently on the stove.
   review:
     status: editorial-review
-    date: '2026-09-06'
-source: Adapted from 365daysofcrockpot.com
+    date: '2026-11-09'
+source: Adapted from 365 Days of Slow Cooking
 sourceUrl: 'https://www.365daysofcrockpot.com/slow-cooker-tortellini-spinach-soup/'
 ---
 
 ## Chef's Note
 
-The slow cooker handles the chicken broth while tortellini need a short, controlled boil. Keeping those stages separate protects the pasta seams and prevents a large frozen addition from dictating the soup's finishing time. A small flour base gives body; cream and Parmesan finish the texture and seasoning. The broth should stay spoonable around the pasta.
+Creamy tomato tortellini soup is an American slow-cooker favorite. A quick base of onion, tomato paste and flour cooked on the stove gives the broth body from the start. The tortellini boil in their own pot at the end, so they stay plump instead of going soft in the soup.
 
 ## Directions
 
-1. **Soften the base:** Heat oil in a large skillet over medium heat. Cook onion about 5–7 minutes until softened. Add garlic and basil and stir about 30 seconds, then add tomato paste and cook another minute, stirring.
-2. **Disperse flour:** Sprinkle flour over the mixture and stir for 1 minute. Gradually stir in 1 cup of the measured broth until the paste is smooth and pourable, scraping the bottom.
-3. **Load:** Transfer the base to a 6-quart slow cooker. Add remaining measured broth, tomatoes and juices, pepper and fully thawed thighs. Stir gently, cover and start immediately.
-4. **Cook chicken:** Cook on LOW about 4–5 hours or HIGH about 2–3 hours, until several thick thighs reach 165°F / 74°C and shred readily. Remove to a clean board, shred coarsely and return to the hot soup. During the last 20 minutes of the chicken cook, heat the separate pasta water.
-5. **Boil tortellini:** Cook frozen tortellini in the boiling pasta water according to their package until seams are tender and centers are hot, meeting any stated filling-temperature requirement. Drain gently. Time this to finish near the soup's final stage.
-6. **Finish broth:** With chicken fully cooked and returned, add spinach to the hot broth and stir until wilted, about 2–3 minutes. Turn off heat. Mix cream with a ladleful of broth, then stir it back into the pot with Parmesan. Taste and add salt only if needed. Avoid a prolonged boil after this finish.
-7. **Assemble:** Divide tortellini among six large bowls, then ladle over chicken, spinach and broth. Serve promptly. For planned leftovers, cook only the tortellini portions needed and keep any cooked pasta separate from stored broth.
+1. **Cook the base:** Warm the oil in a large skillet over medium heat. Cook the onion, stirring, until soft, 5 to 7 minutes. Add the garlic and basil and stir for 30 seconds, then stir in the tomato paste and cook for 1 minute.
+2. **Add the flour:** Sprinkle the flour over the onion and stir for 1 minute. Slowly stir in a ladleful of the broth until the paste is smooth, scraping the bottom of the pan.
+3. **Load the cooker:** Scrape the base into a 6-quart slow cooker. Add the rest of the broth, the tomatoes and their juices, the pepper and the whole chicken thighs.
+4. **Slow-cook:** Cover and cook on low for 4 to 5 hours or on high for 2 to 3 hours, until the chicken shreds easily. Lift it out, shred it with two forks and return it to the soup.
+5. **Boil the tortellini:** About 20 minutes before the soup is done, bring a large pot of salted water to a boil. Cook the tortellini as the package directs until tender, then drain.
+6. **Finish the soup:** Stir the spinach into the hot soup until wilted, 2 to 3 minutes. Whisk the cream with a ladleful of hot broth, then stir it into the soup with the Parmesan and salt. Taste and add more salt if needed.
+7. **Serve:** Divide the tortellini among bowls and ladle the soup over.

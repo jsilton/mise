@@ -18,34 +18,34 @@ cuisines:
   - Spanish
 role: base
 vibe: nutritious
-prepTime: About 10–15 min
-cookTime: 'About 30–40 min, plus 6 min covered rest'
-totalTime: 'About 45–60 min, longer for optional shrimp cooking'
+prepTime: 10 min
+cookTime: 40 min
+totalTime: 50 min
 servings: 4 portions
 pairsWith:
-  - spanish-rice-chorizo
-  - steamed-mussels-chorizo
-  - paella-valenciana
+  - gambas-al-ajillo
+  - roasted-broccolini-with-lemon
+pairingNotes:
+  gambas-al-ajillo: Garlicky shrimp make it a Spanish dinner.
+  roasted-broccolini-with-lemon: A bright green vegetable beside the smoky rice.
 ingredients:
-  - 2 tbsp Olive oil
-  - '1 Medium yellow onion, finely chopped'
-  - '3 Garlic cloves, minced'
-  - 1 tbsp Smoked paprika
-  - 1 tbsp Dried oregano
-  - 1 cup Dry long-grain white rice
-  - '1 can (19 oz) Diced tomatoes, include can liquid; do not drain'
-  - '1 can (19 oz) Cooked canned chickpeas, rinsed and drained'
-  - 1 cup Vegetable broth
-  - 3/4 tsp Salt
-  - 'Fresh parsley, for topping, washed and chopped, optional'
-  - 'Fresh spinach, amount as desired, washed and drained, optional'
-  - 'Water, as needed for separately poaching optional shrimp, optional'
-  - 'Raw shrimp, amount as desired, peeled and deveined; thaw in refrigerator if frozen, optional'
+  - 2 tbsp olive oil
+  - '1 medium yellow onion, finely chopped'
+  - '3 garlic cloves, minced'
+  - 1 tbsp smoked paprika
+  - 1 tbsp dried oregano
+  - 1 cup long-grain white rice
+  - '1 can (19 oz) diced tomatoes, with their juices'
+  - '1 can (19 oz) chickpeas, drained and rinsed'
+  - 1 cup vegetable broth
+  - 3/4 tsp fine salt
+  - 'fresh spinach, a large handful, optional'
+  - 'fresh parsley, chopped, for topping, optional'
 seasons:
   - year-round
 nutritionalDensity: light
 leftovers: good
-source: Adapted from Thekitchenmagpie.com
+source: Adapted from The Kitchen Magpie
 sourceUrl: 'https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/'
 formula:
   version: 1
@@ -58,7 +58,7 @@ formula:
       ingredients:
         - id: oil
           key: oil
-          name: Olive oil
+          name: olive oil
           quantity:
             amount: 2
             unit: tbsp
@@ -67,29 +67,29 @@ formula:
               share: 1
         - id: onion
           key: onion
-          name: Medium yellow onion
+          name: medium yellow onion
           quantity:
             amount: 1
             unit: count
           uses:
             - step: base
               share: 1
-          plural: Medium yellow onions
+          plural: medium yellow onions
           preparation: finely chopped
         - id: garlic
           key: garlic
-          name: Garlic clove
+          name: garlic clove
           quantity:
             amount: 3
             unit: count
           uses:
             - step: spice
               share: 1
-          plural: Garlic cloves
+          plural: garlic cloves
           preparation: minced
         - id: paprika
           key: paprika
-          name: Smoked paprika
+          name: smoked paprika
           quantity:
             amount: 1
             unit: tbsp
@@ -98,7 +98,7 @@ formula:
               share: 1
         - id: oregano
           key: oregano
-          name: Dried oregano
+          name: dried oregano
           quantity:
             amount: 1
             unit: tbsp
@@ -107,7 +107,7 @@ formula:
               share: 1
         - id: rice
           key: rice
-          name: Dry long-grain white rice
+          name: long-grain white rice
           quantity:
             amount: 1
             unit: cup
@@ -116,7 +116,7 @@ formula:
               share: 1
         - id: tomatoes
           key: tomatoes
-          name: Diced tomatoes
+          name: diced tomatoes
           quantity:
             amount: 1
             unit: can
@@ -126,10 +126,10 @@ formula:
           packageSize:
             amount: 19
             unit: oz
-          preparation: include can liquid; do not drain
+          preparation: with their juices
         - id: chickpeas
           key: chickpeas
-          name: Cooked canned chickpeas
+          name: chickpeas
           quantity:
             amount: 1
             unit: can
@@ -139,10 +139,10 @@ formula:
           packageSize:
             amount: 19
             unit: oz
-          preparation: rinsed and drained
+          preparation: drained and rinsed
         - id: broth
           key: broth
-          name: Vegetable broth
+          name: vegetable broth
           quantity:
             amount: 1
             unit: cup
@@ -151,181 +151,79 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: Salt
+          name: fine salt
           quantity:
-            amount: 0.75
+            amount: 3/4
             unit: tsp
           uses:
             - step: liquid
               share: 1
-        - id: parsley
-          key: parsley
-          name: Fresh parsley
-          allowance: for topping
-          uses:
-            - step: finish
-              share: 1
-          optional: true
-          preparation: washed and chopped
         - id: spinach
           key: spinach
-          name: Fresh spinach
-          allowance: amount as desired
+          name: fresh spinach
+          allowance: a large handful
+          uses:
+            - step: rest
+              share: 1
+          optional: true
+        - id: parsley
+          key: parsley
+          name: fresh parsley
+          allowance: 'chopped, for topping'
           uses:
             - step: finish
               share: 1
           optional: true
-          preparation: washed and drained
-        - id: poaching-water
-          key: poaching-water
-          name: Water
-          allowance: as needed for separately poaching optional shrimp
-          uses:
-            - step: shrimp
-              share: 1
-          optional: true
-          role: cooking-water
-        - id: shrimp
-          key: shrimp
-          name: Raw shrimp
-          allowance: amount as desired
-          uses:
-            - step: shrimp
-              share: 1
-          optional: true
-          preparation: peeled and deveined; thaw in refrigerator if frozen
   steps:
     - id: base
-      title: Soften onion
+      title: Soften the onion
       text: >-
-        Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat
-        {{ingredients}} over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until
-        softened, allowing longer as needed. The full chosen oil amount is for this batch, not each
-        skillet.
+        Warm {{ingredients}} in a large, deep skillet with a tight lid over medium heat. Cook,
+        stirring, until the onion is soft and golden, 6 to 7 minutes.
     - id: spice
-      title: Add aromatics
+      title: Bloom the spices
       text: >-
-        Stir in {{ingredients}} and cook about 30–45 seconds until fragrant, reducing heat if
-        paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.
+        Stir in {{ingredients}} and cook until fragrant, 30 to 45 seconds. Lower the heat if the
+        paprika starts to darken.
     - id: rice
-      title: Coat rice
+      title: Toast the rice
       text: >-
-        Stir in {{ingredients}} and cook about 2–3 minutes, stirring continuously, until coated in
-        the oil. This is not a finished rice or crust endpoint.
+        Add {{ingredients}} and stir until every grain is coated in the red oil and smells nutty, 2
+        to 3 minutes.
     - id: liquid
-      title: Add full base liquids
+      title: Simmer
       text: >-
-        Add {{ingredients}} and stir to distribute. Taste the liquid. It should be well seasoned,
-        since the rice absorbs it. Adjust the salt to taste after the rest if needed. Bring to a
-        simmer, cover and lower heat to maintain a gentle simmer.
-    - id: cook
-      title: Check rice before resting
-      text: >-
-        Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers
-        should be tender with no hard chalky core and free liquid should be absorbed. If centers are
-        hard while liquid remains, continue gently covered and recheck. If the pan is dry while the
-        centers remain hard, stop the timed finish and assess hydration before resting; extra
-        cooking in a dry pan will not soften the centers.
+        Add {{ingredients}} and bring to a boil. Cover, turn the heat to low and simmer until the
+        liquid is absorbed and the rice is tender, 20 to 22 minutes.
     - id: rest
-      title: Rest covered
+      title: Rest
       text: >-
-        Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid
-        on during this rest rather than open it to insert raw shrimp.
-    - id: shrimp
-      title: Cook optional shrimp separately
-      text: >-
-        For the optional topping, have {{ingredients}} ready. Cook the shrimp separately before
-        adding to the finished rice: poach in gently simmering water until their flesh is firm,
-        pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be
-        served after merely resting in warm rice. Drain and transfer using clean tools to a clean
-        plate; keep raw-contact utensils away from finished rice.
+        Take the pan off the heat. Scatter {{ingredients}} over the rice, cover again and let stand
+        for 6 minutes.
     - id: finish
-      title: Fluff and add optional greens
+      title: Fluff and serve
       text: >-
-        Fluff gently and add {{ingredients}} if desired. Stir spinach through the hot rice until
-        wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until
-        hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer
-        parsley at serving only if making the salt and parsley variation.
+        Fluff the rice with a fork, folding in the wilted spinach. Taste for salt and top with
+        {{ingredients}}.
 learning:
-  focus: Check tomato rice centers before resting and cook optional shrimp separately
-  outcome: Tender rice and chickpeas with fragrant smoked paprika and fully cooked optional additions
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      The main retains one 19-oz can of chickpeas, one 19-oz can of tomatoes with its liquid and 1
-      cup broth for 1 cup dry rice. With the tomato juice, that is about 2 cups of liquid, enough
-      for tender long-grain rice without turning it mushy. Do not silently replace the measured
-      broth with a rice-cooker fill line.
-    - >-
-      When scaling, keep enough skillet capacity for the rice and optional additions, or cook
-      original-size batches. Depth, burner strength and evaporation change the clock.
-    - >-
-      Choose optional shrimp or spinach before starting so you have room for the addition and can
-      plan its cooking. Keep raw shrimp cold until the separate cooking step.
-  checkpoints:
-    - step: 5
-      cue: Several grains have tender centers before the covered rest.
-      why: A fixed interval or surface color cannot establish the center condition.
-  troubleshooting:
-    - problem: Rice still has a chalky center at twenty-two minutes
-      cause: 'Rice product, tomato liquid or pan evaporation differs from the nominal schedule'
-      fix: >-
-        If liquid remains, continue a gentle covered simmer and recheck before resting. If the pan
-        is dry and the centers are hard, assess hydration before continuing; the written finish time
-        no longer applies.
-  substitutions:
-    - ingredient: Dried oregano
-      alternative: Use the same listed amount of freeze-dried oregano.
-      effect: >-
-        Use the chosen oregano product at the aromatic stage; keep the listed amount and assess its
-        fragrance as it cooks.
-    - ingredient: Two-tablespoon version
-      alternative: >-
-        For the original batch, the salt and parsley variation uses 2–3 tbsp olive oil in place of
-        the main 2 tbsp and finishes with optional parsley. Freeze-dried oregano can replace the
-        same listed amount of ordinary dried oregano.
-      effect: >-
-        Choose the variation before cooking and scale its selected amounts. The main version uses
-        the listed olive oil and ordinary dried oregano. Both versions use the listed ¾ tsp salt,
-        adjusted to taste. Both versions keep the measured cans of tomatoes and chickpeas and all
-        the measured broth.
-  timing: >-
-    Allow about 45–60 minutes for preparation, aromatic sautéing, coating rice, heating, covered
-    cooking and the six-minute rest. Covered cooking is mostly elapsed time with grain checks;
-    preparation, aromatics and finishing need attention. Optional shrimp adds work and elapsed time
-    unless coordinated separately. Scaled loads change heat-up and evaporation.
-  storage: >-
-    Divide leftovers into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F
-    /32°C, at 40°F /4°C or below. Use refrigerated leftovers within 3–4 days or freeze promptly.
-    Reheat the portion served to 165°F /74°C throughout, stirring for even heating and checking
-    several places. Do not leave a large pot out to cool overnight.
-  sources:
-    - title: USDA — cooling and reheating leftovers
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
-    - title: FDA — shrimp cooking and cold handling
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely
-    - title: The Kitchen Magpie — rice and chickpea base
-      url: 'https://www.thekitchenmagpie.com/smoky-spanish-rice-chickpeas/'
+  storage: Keeps 4 days in the fridge and freezes for 3 months. Reheat covered with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This Spanish-inspired skillet rice uses smoked paprika, oregano, tomatoes and chickpeas. Coating the dry rice in aromatic oil happens before the liquid goes in; it is not the browned bottom crust called socarrat. Keep the tomato liquid in the measured base, check grain centers before resting and cook an optional shrimp topping completely rather than rely on warm rice to cook it.
+A one-pan Spanish-style rice with smoked paprika, tomatoes and chickpeas. Toasting the dry rice in the paprika oil before the liquid goes in keeps the grains separate and gives the dish a nutty, smoky depth. It makes a meatless dinner on its own or a side for grilled meat and seafood.
 
 ## Directions
 
-1. **Soften onion:** Use a large deep skillet with a close-fitting lid and room for rice expansion. Heat Olive oil and Medium yellow onion over medium heat, adding onion to the warm oil. Cook about 6–7 minutes until softened, allowing longer as needed. The full chosen oil amount is for this batch, not each skillet.
-2. **Add aromatics:** Stir in Garlic cloves, Smoked paprika, and Dried oregano and cook about 30–45 seconds until fragrant, reducing heat if paprika or garlic starts to darken. Preserve a fragrant coating rather than burn it.
-3. **Coat rice:** Stir in Dry long-grain white rice and cook about 2–3 minutes, stirring continuously, until coated in the oil. This is not a finished rice or crust endpoint.
-4. **Add full base liquids:** Add Diced tomatoes, Cooked canned chickpeas, Vegetable broth, and Salt and stir to distribute. Taste the liquid. It should be well seasoned, since the rice absorbs it. Adjust the salt to taste after the rest if needed. Bring to a simmer, cover and lower heat to maintain a gentle simmer.
-5. **Check rice before resting:** Cook covered, beginning checks after 20–22 minutes. Check several rice grains: their centers should be tender with no hard chalky core and free liquid should be absorbed. If centers are hard while liquid remains, continue gently covered and recheck. If the pan is dry while the centers remain hard, stop the timed finish and assess hydration before resting; extra cooking in a dry pan will not soften the centers.
-6. **Rest covered:** Once the rice is tender, remove from heat and let stand covered for 6 minutes. Leave the lid on during this rest rather than open it to insert raw shrimp.
-7. **Cook optional shrimp separately:** For the optional topping, have Water (if using) and Raw shrimp (if using) ready. Cook the shrimp separately before adding to the finished rice: poach in gently simmering water until their flesh is firm, pearly and opaque throughout, checking several of the largest pieces. Raw shrimp must not be served after merely resting in warm rice. Drain and transfer using clean tools to a clean plate; keep raw-contact utensils away from finished rice.
-8. **Fluff and add optional greens:** Fluff gently and add Fresh parsley (if using) and Fresh spinach (if using) if desired. Stir spinach through the hot rice until wilted; for an amount that cools the pan or stays firm, continue gentle covered heat until hot and wilted. Fold in fully cooked shrimp only if prepared by the separate step. Offer parsley at serving only if making the salt and parsley variation.
+1. **Soften the onion:** Warm olive oil and medium yellow onion in a large, deep skillet with a tight lid over medium heat. Cook, stirring, until the onion is soft and golden, 6 to 7 minutes.
+2. **Bloom the spices:** Stir in garlic cloves, smoked paprika, and dried oregano and cook until fragrant, 30 to 45 seconds. Lower the heat if the paprika starts to darken.
+3. **Toast the rice:** Add long-grain white rice and stir until every grain is coated in the red oil and smells nutty, 2 to 3 minutes.
+4. **Simmer:** Add diced tomatoes, chickpeas, vegetable broth, and fine salt and bring to a boil. Cover, turn the heat to low and simmer until the liquid is absorbed and the rice is tender, 20 to 22 minutes.
+5. **Rest:** Take the pan off the heat. Scatter fresh spinach (if using) over the rice, cover again and let stand for 6 minutes.
+6. **Fluff and serve:** Fluff the rice with a fork, folding in the wilted spinach. Taste for salt and top with fresh parsley (if using).
