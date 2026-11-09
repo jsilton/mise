@@ -21,10 +21,10 @@ Every recipe has a prompt. Work through the batches below in order, one batch at
 | 15 | batch-12.md | 49 | Done, all 49 pass, no redos (whole snow peas are fine to keep) |
 | 16 | batch-13.md | 49 | Done, all 49 pass, no redos |
 | 17 | batch-14.md | 43 | Done, all 43 pass, no redos (halved mushrooms are fine to keep) |
-| 18 | batch-15.md | 45 | Made Nov 9. 42 photos ready, 3 sent back in batch-15-redo.md |
-| 19 | batch-15-redo.md | 3 | Not made yet: make it next. Apple pie, paella and sushi rice |
+| 18 | batch-15.md | 45 | Done, 42 pass and are live, 3 redone in batch-15-redo.md |
+| 19 | batch-15-redo.md | 3 | Done, all 3 pass and are live |
 
-All 14 batches and every redo are done and checked. Batch 15 is made, and its 3-image redo is left to make.
+All 15 batches and every redo are done, checked and live.
 
 Claude checks each batch branch as it lands. When some images need another go, a `batch-NN-redo.md` file appears in this folder and gets a row in the table above. Check here before each new batch and make any redos first, on their own branch, `images/mise-batch-NN-redos-YYYY-MM-DD`.
 
