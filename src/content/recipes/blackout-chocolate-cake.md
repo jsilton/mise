@@ -27,17 +27,16 @@ cuisines:
 role: dessert
 vibe: technical
 prepTime: 45 min
-cookTime: 30–35 min
-totalTime: 'About 4 hours (includes cooling, assembly and chilling)'
+cookTime: 35 min
+totalTime: '1 hr 20 min, plus 2 hr cooling and chilling'
 servings: 10 portions
 pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - classic-peach-ice-cream
-  - cranberry-crunch
+  - old-fashioned-vanilla-ice-cream
+pairingNotes:
+  old-fashioned-vanilla-ice-cream: Cold vanilla against the dark chocolate.
 ingredients:
   - '--- Chocolate cake ---'
-  - 'butter or neutral oil, for greasing the pans and parchment'
+  - 'butter or neutral oil, for the pans'
   - 2 cups boiling water
   - 1 1/2 cups unsweetened cocoa powder
   - 1 tbsp instant espresso powder
@@ -49,9 +48,9 @@ ingredients:
   - 3 cups granulated sugar
   - 1 tbsp baking soda
   - 1 1/2 tsp baking powder
-  - 1 1/2 tsp sea salt
-  - '--- Chocolate cream-cheese frosting ---'
-  - '1 1/2 cups butter, softened, not melted'
+  - 1 1/2 tsp fine sea salt
+  - '--- Chocolate cream cheese frosting ---'
+  - '3 sticks butter, softened'
   - '8 oz cream cheese, softened'
   - 1 1/2 cups unsweetened cocoa powder
   - 1 tbsp vanilla extract
@@ -60,10 +59,10 @@ ingredients:
   - 1/4 cup heavy cream
   - '--- Chocolate coating and drizzle ---'
   - 3–4 cups chocolate chips
-  - 'additional chocolate, for melting and drizzling, optional'
+  - 'chopped chocolate or chocolate chips, for drizzling, optional'
 origin: United States
-source: Adapted from Pinchofyum.com
-sourceUrl: 'http://pinchofyum.com/blackout-chocolate-cake'
+source: Adapted from Pinch of Yum
+sourceUrl: 'https://pinchofyum.com/blackout-chocolate-cake'
 equipment:
   - cake-pans
   - stand-mixer
@@ -80,7 +79,7 @@ formula:
         - id: pan-fat
           key: butter-or-neutral-oil
           name: butter or neutral oil
-          allowance: for greasing the pans and parchment
+          allowance: for the pans
           uses:
             - step: prepare
               share: 1
@@ -187,7 +186,7 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: sea salt
+          name: fine sea salt
           quantity:
             amount: 1 1/2
             unit: tsp
@@ -195,15 +194,15 @@ formula:
             - step: dry
               share: 1
     - id: frosting
-      name: Chocolate cream-cheese frosting
+      name: Chocolate cream cheese frosting
       ingredients:
         - id: butter
           key: butter
           name: butter
           quantity:
-            amount: 1 1/2
-            unit: cup
-          preparation: 'softened, not melted'
+            amount: 3
+            unit: stick
+          preparation: softened
           uses:
             - step: frosting
               share: 1
@@ -224,7 +223,7 @@ formula:
             amount: 1 1/2
             unit: cup
           uses:
-            - step: frosting
+            - step: frosting-finish
               share: 1
         - id: vanilla
           key: vanilla-extract
@@ -233,15 +232,15 @@ formula:
             amount: 1
             unit: tbsp
           uses:
-            - step: frosting
+            - step: frosting-finish
               share: 1
         - id: salt
           key: salt
           name: salt
-          allowance: a pinch
           uses:
-            - step: frosting
+            - step: frosting-finish
               share: 1
+          allowance: a pinch
         - id: sugar
           key: powdered-sugar
           name: powdered sugar
@@ -249,7 +248,7 @@ formula:
             amount: 7
             unit: cup
           uses:
-            - step: frosting
+            - step: frosting-finish
               share: 1
         - id: cream
           key: cream
@@ -258,7 +257,7 @@ formula:
             amount: 1/4
             unit: cup
           uses:
-            - step: frosting
+            - step: frosting-finish
               share: 1
     - id: finish
       name: Chocolate coating and drizzle
@@ -275,8 +274,8 @@ formula:
               share: 1
         - id: drizzle
           key: drizzle
-          name: additional chocolate
-          allowance: for melting and drizzling
+          name: chopped chocolate or chocolate chips
+          allowance: for drizzling
           optional: true
           role: garnish
           uses:
@@ -286,149 +285,89 @@ formula:
     - id: prepare
       title: Prepare the pans
       text: >-
-        Preheat the oven to 350°F. Use {{ingredients}} to grease three 9-inch round cake pans, line
-        their bottoms with parchment and grease the parchment. Check that the pans fit in the oven
-        with space for air to circulate; if baking in batches, allow extra time.
+        Heat the oven to 350°F. Grease three 9-inch round cake pans with {{ingredients}}. Line the
+        bottoms with parchment and grease the parchment.
     - id: bloom
-      title: Bloom and cool the cocoa
+      title: Bloom the cocoa
       text: >-
-        Whisk the cake’s {{ingredients}} together in a heatproof bowl until smooth. Let stand
-        briefly, then cool until lukewarm before adding the eggs.
+        Whisk {{ingredients}} together in a large heatproof bowl until smooth. Let it cool until
+        just warm to the touch, about 15 minutes, so it does not cook the eggs.
     - id: wet
-      title: Mix the liquids
-      text: 'Whisk the cake’s {{ingredients}} into the cooled cocoa mixture until evenly combined.'
+      title: Whisk in the eggs
+      text: 'Whisk {{ingredients}} into the cocoa mixture until smooth.'
     - id: dry
       title: Mix the dry ingredients
-      text: 'In another large bowl, whisk the cake’s {{ingredients}} thoroughly, breaking up lumps.'
+      text: 'In another large bowl, whisk {{ingredients}} until no lumps remain.'
     - id: combine
-      title: Combine the batter
+      title: Make the batter
       text: >-
-        Fold the dry mixture into the chocolate mixture just until no dry pockets remain. Divide
-        evenly among the prepared pans.
+        Fold the dry mixture into the chocolate mixture just until no dry pockets remain. Divide the
+        batter evenly among the pans.
     - id: bake
-      title: Bake and cool
+      title: Bake the layers
       text: >-
-        Bake for about 30–35 minutes, until the layers are set, the centers spring back lightly and
-        a tester has no wet batter. Cool on racks for about 10 minutes in the pans, loosen the edges
-        and turn out carefully. Remove the parchment and let cool completely.
+        Bake until the centers spring back when pressed and a toothpick comes out clean, 30 to 35
+        minutes.
+    - id: cool
+      title: Cool the layers
+      text: >-
+        Cool the layers in their pans on a rack for 10 minutes. Run a knife around the edges, turn
+        them out and peel off the parchment. Let them cool completely, about 1 hour.
     - id: frosting
-      title: Make the frosting
+      title: Beat the butter
       text: >-
-        While the layers cool, beat the frosting’s {{ingredients}} until smooth: cream the softened
-        butter and cream cheese first, mix in cocoa, vanilla and salt, then add powdered sugar
-        gradually on low speed with the heavy cream. Beat until spreadable.
+        While the layers cool, beat {{ingredients}} in a stand mixer on medium speed until smooth
+        and fluffy, about 2 minutes.
+    - id: frosting-finish
+      title: Finish the frosting
+      text: >-
+        On low speed, beat in {{ingredients}}, adding the sugar a little at a time. Turn the speed
+        to medium and beat until fluffy and spreadable, about 2 minutes.
     - id: assemble
       title: Stack and chill
       text: >-
-        Place one completely cooled layer on a cake board or serving plate. Spread frosting between
-        the layers and over the top and sides. Refrigerate for 30 minutes to firm the frosting
-        before applying the chocolate coating.
+        Set one layer on a cake plate and spread it with frosting. Stack the other layers, frosting
+        between each, then frost the top and sides. Refrigerate until the frosting is firm, about 30
+        minutes.
     - id: chips
-      title: Coat with chocolate chips
-      text: >-
-        Gently press the {{ingredients}} into the chilled cake’s sides over a tray to catch loose
-        chips. Use as much of the listed coating allowance as needed for coverage; the remainder can
-        be served alongside or saved separately.
+      title: Coat with chips
+      text: 'Hold the cake over a tray and press {{ingredients}} into the sides by the handful.'
     - id: drizzle
-      title: Finish and serve
+      title: Drizzle and serve
       text: >-
-        Melt {{ingredients}} and drizzle over the top. Let the cake lose its refrigerator chill
-        before slicing; for cleaner cuts, slice before a chocolate drizzle hardens.
+        Melt {{ingredients}} in the microwave in short bursts, stirring between each, and drizzle it
+        over the top. Let the cake sit out for 30 minutes before slicing so the frosting softens.
 learning:
-  focus: Control temperature while building a cocoa batter and assembling a frosted layer cake.
-  outcome: >-
-    Three fully set chocolate layers, smooth tangy frosting and a chip coating that adheres without
-    sliding.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Use three matching 9-inch round cake pans, parchment and racks. Check oven space before
-      mixing; additional oven batches extend the schedule.
-    - >-
-      Measure cake cocoa and vanilla separately from frosting cocoa and vanilla. The chip coating
-      and optional drizzle are separate chocolate allowances.
-    - >-
-      For multiples, make separate original-size cakes with the stated number and size of pans so
-      layer depth stays the same. A smaller batch needs appropriately smaller pans and earlier
-      center checks; do not put a reduced batch into the original pans and assume the original bake
-      time. Pan dimensions and baking time do not multiply with portions.
-  checkpoints:
-    - step: 2
-      cue: The cocoa mixture is smooth and has cooled to lukewarm before eggs are added.
-      why: >-
-        Boiling liquid can set the eggs locally, producing cooked flecks instead of a uniform
-        batter.
-    - step: 6
-      cue: The center is set and the tester has no wet batter.
-      why: Dark color makes browning an unreliable doneness cue; check the center of each layer.
-    - step: 8
-      cue: The layers are cool and the chilled frosting is firm enough to handle gently.
-      why: Warm cake melts the frosting; a short assembly chill makes the chip coating easier to apply.
-  troubleshooting:
-    - problem: Cooked egg flecks appear in the batter
-      cause: The cocoa mixture was still too hot when the eggs were added.
-      fix: >-
-        Do not add more heat. For a smooth layer cake, remake the batter and cool the cocoa mixture
-        first; mixing cannot uncook the egg.
-    - problem: Chips slide down the sides
-      cause: The frosting or cake is too warm.
-      fix: >-
-        Return the assembled cake to the refrigerator until the frosting firms, then press the chips
-        on gently.
-    - problem: Cake is dry at the edges but wet in the center
-      cause: 'Layers differ in depth, or oven space is too crowded.'
-      fix: >-
-        Check each layer separately and continue baking any wet center. On the next batch divide
-        batter evenly and leave circulation space.
   substitutions:
-    - ingredient: Chocolate cream-cheese frosting
-      alternative: Rich chocolate ganache
+    - ingredient: Instant espresso powder
+      alternative: Instant coffee granules
       effect: >-
-        The flavor is less tangy and the coating sets differently. Use a separately measured ganache
-        formula sized for three 9-inch layers and follow its chilling and storage instructions.
-  timing: >-
-    Plan about 4 hours from ready ingredients: around 45 minutes active preparation and assembly,
-    30–35 minutes baking, complete rack cooling and a 30-minute assembled-cake chill. Make the
-    frosting while the layers cool. Cocoa cooling and extra oven batches can extend the schedule.
-  storage: >-
-    Refrigerate the cream-cheese-frosted cake, covered, at 40°F or below; use within 3–4 days. Count
-    frosting-ingredient softening, assembly and service toward a maximum of 2 hours unrefrigerated,
-    or 1 hour above 90°F. Let only the portions being served lose their chill; return the rest
-    promptly. Freeze individually wrapped slices for longer storage and thaw in the refrigerator.
-  sources:
-    - title: 'Lindsay Ostrom — Blackout Chocolate Cake, Pinch of Yum'
-      url: 'https://pinchofyum.com/blackout-chocolate-cake'
-    - title: 'Molly Marzalek-Kelly — Cute and Small Chocolate Cake, King Arthur Baking'
-      url: 'https://www.kingarthurbaking.com/recipes/cute-and-small-chocolate-cake-recipe'
-    - title: FDA — Are You Storing Food Safely?
-      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
-    - title: USDA FSIS — Keep Food Safe! Food Safety Basics
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe
+        Use the same amount. The coffee flavor is a little softer, and the cake still tastes of
+        chocolate, not coffee.
+  storage: Keep the cake covered in the fridge for up to 4 days. Wrapped slices freeze for 3 months.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This three-layer chocolate cake combines cocoa and espresso with tangy Greek yogurt, chocolate cream-cheese frosting and a chocolate-chip coating. Whisk the hot cocoa mixture smooth, then let it cool before the eggs enter; cool the baked layers completely so the frosting holds its shape.
+This is Lindsay Ostrom's three-layer chocolate cake from Pinch of Yum, frosted with chocolate cream cheese and coated in chocolate chips. Blooming the cocoa in boiling water with espresso deepens the chocolate, and Greek yogurt keeps the crumb moist and a little tangy.
 
 ## Directions
 
-1. **Prepare the pans:** Preheat the oven to 350°F. Use butter or neutral oil to grease three 9-inch round cake pans, line their bottoms with parchment and grease the parchment. Check that the pans fit in the oven with space for air to circulate; if baking in batches, allow extra time.
-2. **Bloom and cool the cocoa:** Whisk the cake’s boiling water, unsweetened cocoa powder, and instant espresso powder together in a heatproof bowl until smooth. Let stand briefly, then cool until lukewarm before adding the eggs.
-3. **Mix the liquids:** Whisk the cake’s plain full-fat Greek yogurt, vegetable oil, large eggs, and vanilla extract into the cooled cocoa mixture until evenly combined.
-4. **Mix the dry ingredients:** In another large bowl, whisk the cake’s all-purpose flour, granulated sugar, baking soda, baking powder, and sea salt thoroughly, breaking up lumps.
-5. **Combine the batter:** Fold the dry mixture into the chocolate mixture just until no dry pockets remain. Divide evenly among the prepared pans.
-6. **Bake and cool:** Bake for about 30–35 minutes, until the layers are set, the centers spring back lightly and a tester has no wet batter. Cool on racks for about 10 minutes in the pans, loosen the edges and turn out carefully. Remove the parchment and let cool completely.
-7. **Make the frosting:** While the layers cool, beat the frosting’s butter, cream cheese, unsweetened cocoa powder, vanilla extract, salt, powdered sugar, and heavy cream until smooth: cream the softened butter and cream cheese first, mix in cocoa, vanilla and salt, then add powdered sugar gradually on low speed with the heavy cream. Beat until spreadable.
-8. **Stack and chill:** Place one completely cooled layer on a cake board or serving plate. Spread frosting between the layers and over the top and sides. Refrigerate for 30 minutes to firm the frosting before applying the chocolate coating.
-9. **Coat with chocolate chips:** Gently press the chocolate chips into the chilled cake’s sides over a tray to catch loose chips. Use as much of the listed coating allowance as needed for coverage; the remainder can be served alongside or saved separately.
-10. **Finish and serve:** Melt additional chocolate (if using) and drizzle over the top. Let the cake lose its refrigerator chill before slicing; for cleaner cuts, slice before a chocolate drizzle hardens.
-
-## Cooking Notes
-
-A rich chocolate ganache can replace the cream-cheese frosting. Use a complete ganache recipe with enough coverage for three 9-inch layers; its setting time and storage guidance may differ. The optional chocolate drizzle is additional to the chip coating.
+1. **Prepare the pans:** Heat the oven to 350°F. Grease three 9-inch round cake pans with butter or neutral oil. Line the bottoms with parchment and grease the parchment.
+2. **Bloom the cocoa:** Whisk boiling water, unsweetened cocoa powder, and instant espresso powder together in a large heatproof bowl until smooth. Let it cool until just warm to the touch, about 15 minutes, so it does not cook the eggs.
+3. **Whisk in the eggs:** Whisk plain full-fat Greek yogurt, vegetable oil, large eggs, and vanilla extract into the cocoa mixture until smooth.
+4. **Mix the dry ingredients:** In another large bowl, whisk all-purpose flour, granulated sugar, baking soda, baking powder, and fine sea salt until no lumps remain.
+5. **Make the batter:** Fold the dry mixture into the chocolate mixture just until no dry pockets remain. Divide the batter evenly among the pans.
+6. **Bake the layers:** Bake until the centers spring back when pressed and a toothpick comes out clean, 30 to 35 minutes.
+7. **Cool the layers:** Cool the layers in their pans on a rack for 10 minutes. Run a knife around the edges, turn them out and peel off the parchment. Let them cool completely, about 1 hour.
+8. **Beat the butter:** While the layers cool, beat butter and cream cheese in a stand mixer on medium speed until smooth and fluffy, about 2 minutes.
+9. **Finish the frosting:** On low speed, beat in unsweetened cocoa powder, vanilla extract, salt, powdered sugar, and heavy cream, adding the sugar a little at a time. Turn the speed to medium and beat until fluffy and spreadable, about 2 minutes.
+10. **Stack and chill:** Set one layer on a cake plate and spread it with frosting. Stack the other layers, frosting between each, then frost the top and sides. Refrigerate until the frosting is firm, about 30 minutes.
+11. **Coat with chips:** Hold the cake over a tray and press chocolate chips into the sides by the handful.
+12. **Drizzle and serve:** Melt chopped chocolate or chocolate chips (if using) in the microwave in short bursts, stirring between each, and drizzle it over the top. Let the cake sit out for 30 minutes before slicing so the frosting softens.

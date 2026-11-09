@@ -27,22 +27,22 @@ leftovers: good
 equipment:
   - skillet
 prepTime: 5 min
-cookTime: 10–15 min
-totalTime: 15–20 min
+cookTime: 15 min
+totalTime: 20 min
 servings: 2 portions
 pairsWith:
   - classic-guacamole
-  - carnitas-bowl
-  - shakshuka
+pairingNotes:
+  classic-guacamole: Cool avocado to dip each crisp wedge in.
 ingredients:
   - 4 large eggs
-  - 1 tbsp unsalted butter
   - 1/4 tsp kosher salt
-  - '2 flour tortillas, 10-inch size'
-  - 1 cup shredded cheddar OR Mexican-blend cheese
+  - 1 tbsp unsalted butter
+  - '2 flour tortillas, 10 inch'
+  - 1 cup shredded cheddar or Mexican-blend cheese
   - '2 tbsp pickled jalapeños, chopped, optional'
-  - 'salsa, as needed'
-  - 'sour cream, as needed'
+  - 'salsa, for serving'
+  - 'sour cream, for serving'
 formula:
   version: 1
   yield:
@@ -59,19 +59,8 @@ formula:
           quantity:
             amount: 4
             unit: count
-          optional: false
           uses:
-            - step: scramble
-              share: 1
-        - id: butter
-          key: butter
-          name: unsalted butter
-          quantity:
-            amount: 1
-            unit: tbsp
-          optional: false
-          uses:
-            - step: scramble
+            - step: whisk
               share: 1
         - id: salt
           key: salt
@@ -79,7 +68,15 @@ formula:
           quantity:
             amount: 1/4
             unit: tsp
-          optional: false
+          uses:
+            - step: whisk
+              share: 1
+        - id: butter
+          key: butter
+          name: unsalted butter
+          quantity:
+            amount: 1
+            unit: tbsp
           uses:
             - step: scramble
               share: 1
@@ -90,20 +87,18 @@ formula:
           quantity:
             amount: 2
             unit: count
-          optional: false
           uses:
-            - step: build
+            - step: crisp
               share: 1
-          preparation: 10-inch size
+          preparation: 10 inch
         - id: cheese
           key: cheese
-          name: shredded cheddar OR Mexican-blend cheese
+          name: shredded cheddar or Mexican-blend cheese
           quantity:
             amount: 1
             unit: cup
-          optional: false
           uses:
-            - step: build
+            - step: fill
               share: 1
         - id: jalapenos
           key: jalapenos
@@ -113,108 +108,66 @@ formula:
             unit: tbsp
           optional: true
           uses:
-            - step: build
+            - step: fill
               share: 1
           preparation: chopped
         - id: salsa
           key: salsa
           name: salsa
-          allowance: as needed
-          optional: false
+          allowance: for serving
           uses:
             - step: serve
               share: 1
         - id: sour-cream
           key: sour-cream
           name: sour cream
-          allowance: as needed
-          optional: false
+          allowance: for serving
           uses:
             - step: serve
               share: 1
   steps:
+    - id: whisk
+      title: Whisk the eggs
+      text: 'Whisk {{ingredients}} in a bowl until smooth.'
     - id: scramble
-      title: Scramble
+      title: Scramble the eggs
       text: >-
-        Scramble {{ingredients}} in a nonstick skillet over medium heat: melt the butter first,
-        whisk the eggs with the salt, then pour them into the pan. Fold gently until the curds are
-        set with no liquid egg, then transfer to a clean plate. The egg filling must reach 160°F /
-        71°C before serving.
-    - id: build
-      title: Build
+        Melt {{ingredients}} in a nonstick skillet over medium heat. Pour in the eggs and stir
+        gently until just set but still a little wet, 1 to 2 minutes. They finish cooking inside the
+        quesadilla. Slide them onto a plate and wipe out the skillet.
+    - id: fill
+      title: Fill the tortillas
       text: >-
-        Wipe the skillet clean. Set out {{ingredients}}. Divide all the cooked eggs, cheese and
-        optional jalapeños evenly among the listed tortillas. For the original two-tortilla batch,
-        each tortilla gets half the eggs, half the jalapeños and half the total cheese. Spread half
-        of each tortilla’s own cheese share on one half of it, add its eggs and jalapeños, then top
-        with the rest of that tortilla’s cheese share. Fold each tortilla over the filling. This
-        uses the full listed cheese once.
+        Lay the tortillas flat. On one half of each, layer {{ingredients}} with the eggs, starting
+        and ending with cheese. Fold the other half over.
     - id: crisp
-      title: Crisp
+      title: Crisp the quesadillas
       text: >-
-        Cook as many folded quesadillas as fit flat without overlap in the dry skillet over medium
-        heat. Press gently with a spatula. Begin checking after 2–3 minutes on the first side, then
-        flip and check the second side after about 2 minutes. Continue until both sides are golden
-        and the cheese is melted; check the thick egg filling reaches 160°F / 71°C. Lower the heat
-        if the tortilla is browning too quickly. Extra pan loads take additional time.
+        Set the folded {{ingredients}} in the dry skillet over medium heat. Cook, pressing gently
+        with a spatula, until the bottom is golden and crisp, 2 to 3 minutes. Flip and cook until
+        the second side is golden and the cheese has melted, about 2 minutes more.
     - id: serve
-      title: Serve
+      title: Slice and serve
       text: >-
-        Transfer to a clean cutting board, rest about 30 seconds, then cut each quesadilla into
-        thirds. Serve promptly with {{ingredients}}.
+        Let the quesadillas rest on a cutting board for 30 seconds, then cut each into thirds. Serve
+        with {{ingredients}}.
 learning:
-  focus: Divide the full cheese before building folded pockets
-  outcome: Golden tortillas enclose melted cheese and set eggs.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Set out the listed tortilla count and divide the entire cheese supply among them before
-      cooking. Tortillas stay 10 inches as the count scales.
-    - >-
-      Cook folded pockets in uncrowded loads rather than stacking them; keep cooked eggs on a clean
-      plate.
-  checkpoints:
-    - step: 2
-      cue: 'Each tortilla has its own complete cheese share, split below and above its eggs.'
-      why: Allocating the cheese first prevents spending the entire batch on the first quesadilla.
-    - step: 3
-      cue: Golden tortillas surround melted cheese and set egg filling at 160°F.
-      why: Tortilla color does not measure the temperature of the enclosed egg.
-  troubleshooting:
-    - problem: Tortilla browns before filling heats
-      cause: The skillet is too hot or the filling is piled too thickly.
-      fix: >-
-        Reduce the heat and distribute the filling evenly; continue checking the egg center rather
-        than using color alone.
-  substitutions:
-    - ingredient: Cheddar OR Mexican blend
-      alternative: Use the same full listed cheese amount of one choice.
-      effect: Melting texture and saltiness differ; the allocation stays the same.
-  storage: >-
-    Refrigerate cooked leftovers promptly in shallow containers within 2 hours, or 1 hour above 90°F
-    / 32°C, and keep at 40°F / 4°C or below. Use within 3–4 days and reheat throughout to 165°F /
-    74°C. Thaw frozen portions in the refrigerator.
-  timing: >-
-    About 15–20 minutes for the original batch if both folded tortillas fit the pan; two separate
-    4–5 minute crisping loads can extend that range. The 30-second cutting-board rest is included;
-    additional loads are not a linear temperature adjustment.
-  sources:
-    - title: FDA — Egg Safety
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety'
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-A dry skillet crisps the tortilla while the cheese binds the cooked eggs into a folded pocket. Divide the full cheese among all the tortillas before assembly, reserving part of each tortilla’s share for above the eggs. Lower the heat if the bread browns before the filling is hot.
+This is a ten-minute breakfast for busy mornings: soft scrambled eggs and cheese folded into a flour tortilla and crisped in a dry pan. Pull the eggs while they still look a little wet, since they keep cooking inside the tortilla. Pressing the quesadilla as it cooks melts the cheese into the eggs so the wedges hold together.
 
 ## Directions
 
-1. **Scramble:** Scramble large eggs, unsalted butter, and kosher salt in a nonstick skillet over medium heat: melt the butter first, whisk the eggs with the salt, then pour them into the pan. Fold gently until the curds are set with no liquid egg, then transfer to a clean plate. The egg filling must reach 160°F / 71°C before serving.
-2. **Build:** Wipe the skillet clean. Set out flour tortillas, shredded cheddar OR Mexican-blend cheese, and pickled jalapeños (if using). Divide all the cooked eggs, cheese and optional jalapeños evenly among the listed tortillas. For the original two-tortilla batch, each tortilla gets half the eggs, half the jalapeños and half the total cheese. Spread half of each tortilla’s own cheese share on one half of it, add its eggs and jalapeños, then top with the rest of that tortilla’s cheese share. Fold each tortilla over the filling. This uses the full listed cheese once.
-3. **Crisp:** Cook as many folded quesadillas as fit flat without overlap in the dry skillet over medium heat. Press gently with a spatula. Begin checking after 2–3 minutes on the first side, then flip and check the second side after about 2 minutes. Continue until both sides are golden and the cheese is melted; check the thick egg filling reaches 160°F / 71°C. Lower the heat if the tortilla is browning too quickly. Extra pan loads take additional time.
-4. **Serve:** Transfer to a clean cutting board, rest about 30 seconds, then cut each quesadilla into thirds. Serve promptly with salsa and sour cream.
+1. **Whisk the eggs:** Whisk large eggs and kosher salt in a bowl until smooth.
+2. **Scramble the eggs:** Melt unsalted butter in a nonstick skillet over medium heat. Pour in the eggs and stir gently until just set but still a little wet, 1 to 2 minutes. They finish cooking inside the quesadilla. Slide them onto a plate and wipe out the skillet.
+3. **Fill the tortillas:** Lay the tortillas flat. On one half of each, layer shredded cheddar or Mexican-blend cheese and pickled jalapeños (if using) with the eggs, starting and ending with cheese. Fold the other half over.
+4. **Crisp the quesadillas:** Set the folded flour tortillas in the dry skillet over medium heat. Cook, pressing gently with a spatula, until the bottom is golden and crisp, 2 to 3 minutes. Flip and cook until the second side is golden and the cheese has melted, about 2 minutes more.
+5. **Slice and serve:** Let the quesadillas rest on a cutting board for 30 seconds, then cut each into thirds. Serve with salsa and sour cream.

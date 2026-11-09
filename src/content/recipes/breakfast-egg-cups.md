@@ -26,103 +26,47 @@ role: main
 vibe: nutritious
 prepTime: 10 min
 cookTime: 25 min
-totalTime: About 35–40 min (includes 5 min cooling)
-servings: About 8 egg cups
+totalTime: 40 min
+servings: 8 egg cups
 pairsWith:
-  - brownie-protein-balls
-  - homemade-rice-pilaf
-  - puffy-muffin-chicken-salad
+  - blueberry-banana-pancake-muffins
+  - green-smoothie-for-kids-with-2-hidden-veggies
+pairingNotes:
+  blueberry-banana-pancake-muffins: A sweet make-ahead muffin beside the savory eggs.
+  green-smoothie-for-kids-with-2-hidden-veggies: A cold fruit drink to round out breakfast.
 ingredients:
-  - 6 large Eggs
-  - 1/4 cup Whole Milk
-  - 1/4 tsp Fine Sea Salt (or 1/2 tsp kosher salt)
-  - 1/8 tsp Black Pepper
-  - '1 medium Red Bell Pepper, finely diced'
-  - '1 cup Fresh Spinach, chiffonade'
-  - '1 oz Sharp Cheddar Cheese, shredded'
-  - Cooking spray
+  - 6 large eggs
+  - 1/4 cup whole milk
+  - 1/2 tsp kosher salt
+  - 1/8 tsp black pepper
+  - '1 medium red bell pepper, finely diced'
+  - '1 cup fresh spinach, sliced into thin ribbons'
+  - '1 oz sharp cheddar, shredded'
+  - cooking spray
 origin: United States
-source: Adapted from superhealthykids.com
+source: Adapted from Super Healthy Kids
 sourceUrl: 'https://www.superhealthykids.com/recipes/breakfast-egg-cups-recipe/'
 learning:
-  focus: Distribute chopped vegetables through portioned baked eggs
-  outcome: >-
-    Cups release intact, with fine vegetables throughout and set centers rather
-    than watery pockets.
   techniques:
     - gentle-proteins
     - temperature
-  before:
-    - >-
-      Wash and dry produce before chopping; the pepper is used raw and finely
-      diced, not pre-roasted.
-    - >-
-      The original eight-cup yield is approximate because pepper size and
-      packing vary. For a different quantity, keep standard cup size and the
-      same fill depth; use more or fewer cups and additional tins or oven
-      batches. Baking time does not multiply.
-  checkpoints:
-    - step: 5
-      cue: Each cup has both egg and vegetables and about one-quarter headroom.
-      why: Even distribution and fill depth limit uneven cooking and spills.
-    - step: 6
-      cue: The center is set and measures 160 °F.
-      why: A golden top alone does not establish the center endpoint.
-  troubleshooting:
-    - problem: Liquid collects under the cups
-      cause: Produce was wet or cut into large pieces.
-      fix: >-
-        Dry produce and dice finely; keep the listed quantities. This batch may
-        remain wetter even after the eggs are set.
-    - problem: Cups tear during removal
-      cause: Tin was lightly greased or cups were removed immediately.
-      fix: >-
-        Grease the sides as well as bottoms and wait five minutes before
-        loosening.
-  substitutions:
-    - ingredient: Whole milk
-      alternative: Unsweetened milk in the same listed volume
-      effect: A lower-fat milk changes richness; keep the listed volume.
-  timing: >-
-    About 10 minutes preparation, 20–25 minutes baking and 5 minutes in-pan
-    cooling: about 35–40 minutes elapsed once the oven is ready. Additional oven
-    batches and oven warm-up can extend it.
   storage: >-
-    Refrigerate within 2 hours after cooking, or 1 hour above 90°F / 32°C, in
-    shallow containers at 40°F / 4°C or below. Use refrigerated portions within
-    3–4 days. Reheat to 165°F / 74°C in the center; microwave wattage, portion
-    size and starting temperature change the time, so use short intervals and
-    check the center.
-  sources:
-    - title: Adapted from superhealthykids.com
-      url: 'https://www.superhealthykids.com/recipes/breakfast-egg-cups-recipe/'
-    - title: 'FDA egg cooking, cold holding and reheating'
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety
-    - title: 'FoodSafety.gov egg dishes, meat casseroles and leftovers endpoints'
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+    Keeps 4 days in the fridge and freezes for 2 months. Reheat in the microwave for 30 to 45
+    seconds.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Thin spinach ribbons and finely diced pepper distribute through the egg cups instead of forming large pockets. Whisk until the eggs and milk are blended, then stop; excessive foam is not needed. Let the cups settle for five minutes before loosening them from the well-greased tin.
+These are mini frittatas baked in a muffin tin, an easy make-ahead breakfast from Super Healthy Kids. Slice the spinach into thin ribbons and dice the pepper fine, so the vegetables spread through the egg instead of sinking in wet clumps. A little sharp cheddar goes a long way.
 
 ## Directions
 
-1. **Prep:** Preheat the oven to 375 °F. Generously coat standard muffin cups with the cooking spray, including the sides. The original batch makes about eight cups; keep extra greased cups available if the chopped pepper changes the volume.
-
-2. **The Base:** Whisk the eggs, milk, salt and pepper until no separate streaks of white remain; do not whip to a thick foam.
-
-3. **The Veg:** Wash and dry the pepper and spinach. Finely dice the pepper. Stack the spinach leaves, roll them together and slice thin ribbons.
-
-4. **Combine:** Fold the pepper, spinach and shredded cheddar into the eggs until distributed throughout.
-
-5. **Fill:** Divide among standard muffin cups, filling about three-quarters full. Stir the bowl gently between pours so the vegetables do not all land in the last cup. Use extra cups rather than overfilling; for a scaled batch, keep the cup size and fill depth the same.
-
-6. **Bake:** Bake for about 20–25 minutes, until the centers are opaque and set, with no liquid egg when gently moved, and reach 160 °F / 71 °C. Measure a center without touching the metal tin. Continue baking if needed rather than relying on surface browning alone.
-
-7. **Cool and store:** Let stand in the tin for 5 minutes, then loosen gently and remove. Refrigerate leftovers promptly in shallow containers and use within 3–4 days. Reheat the center to 165 °F / 74 °C; 30 seconds in a microwave is not a dependable endpoint.
+1. **Prepare the tin:** Heat the oven to 375°F. Coat a standard muffin tin generously with cooking spray, sides and all.
+2. **Whisk the eggs:** In a large bowl, whisk the eggs, milk, salt and pepper until no streaks of white remain.
+3. **Add the vegetables:** Fold in the bell pepper, spinach and cheddar.
+4. **Fill the cups:** Ladle the mixture into the muffin cups, filling each about three quarters full. Stir the bowl between pours so every cup gets its share of vegetables.
+5. **Bake:** Bake until the centers are set with no liquid egg and the tops are lightly golden, 20 to 25 minutes.
+6. **Cool:** Let the cups rest in the tin for 5 minutes, then run a knife around each one and lift it out.
