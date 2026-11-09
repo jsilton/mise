@@ -16,34 +16,36 @@ flavorProfile:
   - savory
   - sweet
   - smoky
-prepTime: About 20 min active
-cookTime: About 20 min per chicken load
-totalTime: About 1 hr 15 min with the 30-minute marinade
+prepTime: 20 min
+cookTime: 25 min
+totalTime: '45 min, plus 30 min marinating'
 advancePrep:
   - marinate
 servings: 12 pieces
 pairsWith:
-  - crockpot-mac-and-cheese
-  - classic-guacamole
-  - sweet-chili-chicken-sliders
+  - coleslaw
+  - grilled-corn-salad-with-feta
+pairingNotes:
+  coleslaw: 'Cool, crunchy slaw for a barbecue plate.'
+  grilled-corn-salad-with-feta: Sweet summer corn beside smoky chicken.
 equipment:
   - sheet-pan
 ingredients:
   - '--- Chicken and glaze ---'
-  - '2 lb boneless skinless chicken thighs, raw; fresh or fully thawed'
-  - '1 cup BBQ sauce, divided; keep the glazing share separate from raw chicken'
+  - 2 lb boneless skinless chicken thighs
+  - '1 cup BBQ sauce, divided'
   - 1 tbsp olive oil
   - 1 tsp smoked paprika
   - 1 tsp garlic powder
   - 1 tsp kosher salt
   - 1/2 tsp black pepper
-  - '6 sharp cheddar slices, halved to fit sliders'
+  - '6 sharp cheddar slices, halved'
   - '--- Rolls and toppings ---'
   - '12 Hawaiian rolls, split'
-  - '2 tbsp butter, melted'
-  - 'dill pickle chips, as wanted for the sliders'
+  - 2 tbsp unsalted butter
+  - 'dill pickle chips, for topping'
   - 1/2 cup crispy fried onions
-  - 'additional BBQ sauce, as wanted for serving, separate from the measured marinade and glaze'
+  - 'more BBQ sauce, for serving'
 origin: United States
 seasons:
   - year-round
@@ -53,60 +55,15 @@ description: >-
   Broiled BBQ chicken thighs with sharp cheddar, buttery Hawaiian rolls, pickles and crispy fried
   onions.
 learning:
-  focus: Coordinate the clean BBQ glaze with broiler browning and crisp rolls
-  outcome: >-
-    Cooked thighs with a glossy glaze and melted cheddar, divided among all the rolls, with golden
-    buttered cut faces and crunchy toppings.
   techniques:
     - browning
     - temperature
-  before:
-    - >-
-      Use fresh or fully thawed raw thighs; thaw frozen chicken in the refrigerator before this
-      recipe. Thawing is additional advance time. The original batch makes twelve sliders from
-      twelve rolls; the number or size of individual thighs can vary. Use all the measured chicken
-      and cheese across those rolls.
-    - >-
-      Reserve two-thirds of the measured sauce before it touches raw chicken. Use a separate clean
-      portion for any extra serving sauce.
-    - >-
-      Use the broiler and sheet pan according to their instructions. Keep chicken in a single layer;
-      additional loads need additional cooking time.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Each thigh reaches 165°F / 74°C in its thickest part; the sauce coating is browned without
-        broad burnt patches.
-      why: 'Thigh size and broiler strength vary, so the surface and the center need separate checks.'
-    - step: 4
-      cue: The buttered cut faces are golden and the outside of the rolls is not scorched.
-      why: 'The broiler heats the upward-facing surface, and enriched rolls brown quickly.'
-  troubleshooting:
-    - problem: The sauce darkens while a thigh is still below 165°F
-      cause: The coating receives more direct broiler heat than the center.
-      fix: >-
-        Use a less intense broiler setting or a lower rack position permitted by the oven, turn as
-        needed and continue cooking to the measured endpoint. Do not treat a dark surface as proof
-        of doneness.
   storage: >-
-    Store cooked chicken separately from rolls, pickles and fried onions. Refrigerate in shallow
-    containers within 2 hours, or 1 hour above 90°F / 32°C; keep at 40°F / 4°C or colder and use
-    within 3–4 days. Reheat chicken to 165°F / 74°C throughout before rebuilding sliders. Toast the
-    rolls separately; fried onions lose their crunch against wet sauce.
-  timing: >-
-    For the original batch in one chicken load, plan roughly 20 minutes of hands-on preparation and
-    assembly, 30 minutes refrigerated marinating and about 20 minutes of broiling and resting, with
-    some overlap. Allow about 1 hour 15 minutes overall. A longer marinade or extra chicken/roll
-    loads extend elapsed time; the 5-minute chicken rest can overlap roll toasting.
-  sources:
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: USDA FSIS — Leftovers and food safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Store the chicken apart from the rolls and toppings for up to 3 days in the fridge. Reheat it
+    under the broiler and build fresh sliders.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 formula:
   version: 1
   yield:
@@ -125,7 +82,6 @@ formula:
           uses:
             - step: marinate
               share: 1
-          preparation: raw; fresh or fully thawed
         - id: bbq-sauce
           key: bbq-sauce
           name: BBQ sauce
@@ -137,7 +93,7 @@ formula:
               share: 1/3
             - step: glaze
               share: 2/3
-          preparation: divided; keep the glazing share separate from raw chicken
+          preparation: divided
         - id: olive-oil
           key: olive-oil
           name: olive oil
@@ -191,9 +147,9 @@ formula:
             amount: 6
             unit: count
           uses:
-            - step: glaze
+            - step: cheese
               share: 1
-          preparation: halved to fit sliders
+          preparation: halved
     - id: rolls
       name: Rolls and toppings
       ingredients:
@@ -210,18 +166,17 @@ formula:
           preparation: split
         - id: butter
           key: butter
-          name: butter
+          name: unsalted butter
           quantity:
             amount: 2
             unit: tbsp
           uses:
-            - step: toast
+            - step: rest
               share: 1
-          preparation: melted
         - id: pickles
           key: pickles
           name: dill pickle chips
-          allowance: as wanted for the sliders
+          allowance: for topping
           uses:
             - step: assemble
               share: 1
@@ -237,58 +192,59 @@ formula:
               share: 1
         - id: extra-sauce
           key: extra-sauce
-          name: additional BBQ sauce
-          allowance: 'as wanted for serving, separate from the measured marinade and glaze'
+          name: more BBQ sauce
+          allowance: for serving
           uses:
             - step: assemble
               share: 1
           role: garnish
   steps:
     - id: marinate
-      title: Marinate in the refrigerator
+      title: Marinate the chicken
       text: >-
-        Toss {{ingredients}} together, using one-third of the measured BBQ sauce and leaving the
-        other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or
-        up to 4 hours. Keep the clean sauce and utensils away from the raw chicken.
+        Toss {{ingredients}} in a bowl. Cover and refrigerate for at least 30 minutes or up to 4
+        hours. Keep the rest of the BBQ sauce aside for glazing.
     - id: broil
       title: Broil the thighs
       text: >-
-        Set up a broiler-safe metal sheet pan and use the rack position permitted by the oven, about
-        6 inches below the broiler where the oven instructions permit. Lift the thighs from the
-        marinade, shake off excess and discard the used marinade. Arrange in a single layer without
-        overlap; cook in additional loads if necessary. Start checking at 6–7 minutes per side,
-        turning as the surface browns. Check the thickest part of each thigh with a thermometer and
-        continue until each reaches 165°F / 74°C. Watch sugary spots closely rather than waiting for
-        heavy blackening. Move cooked chicken with clean utensils.
+        Set an oven rack 6 inches below the broiler and heat the broiler to high. Lift the thighs
+        from the marinade, shake off the excess and lay them flat on a sheet pan. Broil until
+        charred in spots and 165°F in the thickest part, 6 to 7 minutes per side.
     - id: glaze
-      title: Glaze and melt the cheese
+      title: Glaze the chicken
+      text: 'Brush the hot thighs with {{ingredients}}.'
+    - id: cheese
+      title: Melt the cheese
       text: >-
-        Use {{ingredients}} for the glaze and topping: brush the cooked thighs with the clean
-        reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of
-        thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the
-        cheese melts; remove before the sauce burns.
+        Lay {{ingredients}} over the chicken. Broil until the cheese melts and bubbles, 1 to 2
+        minutes.
+    - id: rest
+      title: Rest and slice
+      text: >-
+        Let the chicken rest for 5 minutes, then slice it into pieces to fit the rolls. While it
+        rests, melt {{ingredients}}.
     - id: toast
-      title: Rest the chicken and toast the rolls
+      title: Toast the rolls
       text: >-
-        Let the chicken rest for 5 minutes. Meanwhile, use {{ingredients}} for the rolls: brush
-        their cut faces with all the melted butter. Put the rolls cut-side up on a clean
-        broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are
-        golden.
+        Lay {{ingredients}} cut side up on a clean sheet pan and brush the cut sides with the
+        butter. Broil until golden, 1 to 2 minutes, watching closely.
     - id: assemble
-      title: Slice and assemble
+      title: Build the sliders
       text: >-
-        Divide all the rested chicken and melted cheese into one bun-sized portion for each measured
-        roll. Add {{ingredients}} to the sliders and serve while the rolls and onions are crisp.
+        Pile the chicken and cheese onto the bottom halves. Add {{ingredients}}, cover with the tops
+        and serve while the onions are crisp.
 ---
 
 ## Chef's Note
 
-BBQ sauce, smoked paprika and garlic coat the thighs before broiling; reserve a clean share of sauce for the glaze. The cheese and buttered rolls keep these sliders rich, while pickles and fried onions add tang and crunch. Watch the sauce and bread closely under the broiler: their sugars can darken before the chicken is ready.
+Smoky BBQ chicken thighs on sweet Hawaiian rolls make a game-day favorite. A short marinade with smoked paprika seasons the meat, and the broiler chars the sauce at the edges. Sharp cheddar adds richness, while pickles and crispy fried onions bring tang and crunch.
 
 ## Directions
 
-1. **Marinate in the refrigerator:** Toss boneless skinless chicken thighs, 1/3 of the BBQ sauce, olive oil, smoked paprika, garlic powder, kosher salt, and black pepper together, using one-third of the measured BBQ sauce and leaving the other two-thirds in a clean container for glazing. Cover and refrigerate for 30 minutes, or up to 4 hours. Keep the clean sauce and utensils away from the raw chicken.
-2. **Broil the thighs:** Set up a broiler-safe metal sheet pan and use the rack position permitted by the oven, about 6 inches below the broiler where the oven instructions permit. Lift the thighs from the marinade, shake off excess and discard the used marinade. Arrange in a single layer without overlap; cook in additional loads if necessary. Start checking at 6–7 minutes per side, turning as the surface browns. Check the thickest part of each thigh with a thermometer and continue until each reaches 165°F / 74°C. Watch sugary spots closely rather than waiting for heavy blackening. Move cooked chicken with clean utensils.
-3. **Glaze and melt the cheese:** Use 2/3 of the BBQ sauce and sharp cheddar slices for the glaze and topping: brush the cooked thighs with the clean reserved sauce, then distribute all the cheese halves evenly over the chicken. The number of thighs need not equal the number of rolls. Broil for about 1–2 minutes, watching until the cheese melts; remove before the sauce burns.
-4. **Rest the chicken and toast the rolls:** Let the chicken rest for 5 minutes. Meanwhile, use Hawaiian rolls and butter for the rolls: brush their cut faces with all the melted butter. Put the rolls cut-side up on a clean broiler-safe sheet pan and watch for 1–2 minutes, removing them as soon as the cut faces are golden.
-5. **Slice and assemble:** Divide all the rested chicken and melted cheese into one bun-sized portion for each measured roll. Add dill pickle chips, crispy fried onions, and additional BBQ sauce to the sliders and serve while the rolls and onions are crisp.
+1. **Marinate the chicken:** Toss boneless skinless chicken thighs, 1/3 of the BBQ sauce, olive oil, smoked paprika, garlic powder, kosher salt, and black pepper in a bowl. Cover and refrigerate for at least 30 minutes or up to 4 hours. Keep the rest of the BBQ sauce aside for glazing.
+2. **Broil the thighs:** Set an oven rack 6 inches below the broiler and heat the broiler to high. Lift the thighs from the marinade, shake off the excess and lay them flat on a sheet pan. Broil until charred in spots and 165°F in the thickest part, 6 to 7 minutes per side.
+3. **Glaze the chicken:** Brush the hot thighs with 2/3 of the BBQ sauce.
+4. **Melt the cheese:** Lay sharp cheddar slices over the chicken. Broil until the cheese melts and bubbles, 1 to 2 minutes.
+5. **Rest and slice:** Let the chicken rest for 5 minutes, then slice it into pieces to fit the rolls. While it rests, melt unsalted butter.
+6. **Toast the rolls:** Lay Hawaiian rolls cut side up on a clean sheet pan and brush the cut sides with the butter. Broil until golden, 1 to 2 minutes, watching closely.
+7. **Build the sliders:** Pile the chicken and cheese onto the bottom halves. Add dill pickle chips, crispy fried onions, and more BBQ sauce, cover with the tops and serve while the onions are crisp.

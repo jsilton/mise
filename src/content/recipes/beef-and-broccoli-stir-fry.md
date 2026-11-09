@@ -21,8 +21,8 @@ cuisines:
 role: main
 vibe: comfort
 prepTime: 25 min
-cookTime: 30 min
-totalTime: 55 min
+cookTime: 20 min
+totalTime: 45 min
 servings: '4'
 seasons:
   - year-round
@@ -31,147 +31,68 @@ leftovers: good
 equipment:
   - 12-inch-heavy-skillet-or-14-inch-wok
   - fitting-lid
-  - fine-tip-instant-read-thermometer
   - wide-spatula
   - heatproof-bowls
 pairsWith:
   - steamed-white-rice
+  - smashed-cucumber-salad
+pairingNotes:
+  steamed-white-rice: Plain rice to catch the glossy sauce.
+  smashed-cucumber-salad: 'Cool, garlicky cucumbers beside the hot stir-fry.'
 ingredients:
   - '--- Beef and broccoli ---'
-  - '680 g trimmed boneless top sirloin steak, weighed after removing tough outer membranes'
-  - 1 tbsp regular soy sauce, for the beef
-  - 1 tsp cornstarch, for the beef
-  - '450 g trimmed broccoli, florets about 1 1/2 inches wide and peeled stems sliced 1/4 inch thick'
-  - '3 tbsp neutral cooking oil, divided'
-  - '1/4 cup (60 ml) water, for steaming broccoli, divided'
-  - '2 tbsp water, reserved for correcting dry broccoli or thick sauce'
+  - '1 1/2 lb (680 g) top sirloin steak, sliced across the grain 1/4 inch thick and 2 inches long'
+  - '1 tbsp soy sauce, for the beef'
+  - '1 tsp cornstarch, for the beef'
+  - '1 lb (450 g) broccoli, cut into 1 1/2-inch florets, stems peeled and sliced'
+  - '3 tbsp neutral oil, divided'
+  - 1/4 cup water
   - '--- Sauce ---'
-  - 3 tbsp regular soy sauce
+  - 3 tbsp soy sauce
   - 2 tbsp oyster sauce
   - 1 tbsp Shaoxing wine
   - 2 tsp brown sugar
   - 1/2 cup (120 ml) unsalted beef stock or water
   - 2 tsp cornstarch
   - 1/4 tsp ground white pepper
-  - '1 tbsp toasted sesame oil, added after sauce thickens'
-  - '--- Aromatics and finish ---'
-  - '3 cloves garlic, finely minced'
-  - 1 tbsp finely minced fresh ginger
-  - '40 g scallions, white parts thinly sliced and green parts cut into 1-inch lengths'
-  - '1 tsp toasted sesame seeds, optional garnish'
-description: >-
-  Thin sirloin slices and broccoli with a glossy soy-oyster sauce, cooked in
-  small batches and combined gently at the finish.
+  - 1 tbsp toasted sesame oil
+  - '--- Aromatics ---'
+  - '3 cloves garlic, minced'
+  - '1 tbsp fresh ginger, minced'
+  - '3 scallions, whites thinly sliced, greens cut into 1-inch lengths'
+  - 'toasted sesame seeds, for garnish'
+description: Thin sirloin slices and broccoli in a glossy soy and oyster sauce.
 learning:
-  focus: Brown small batches and finish the sauce without overcooking the beef
-  outcome: >-
-    Tender beef with browned edges, broccoli stems that yield with a little bite,
-    and a savory sauce that lightly coats the food without becoming sticky paste.
   techniques:
     - stir-frying
     - starch
     - temperature
-  before:
-    - >-
-      Slice the steak across the visible grain into pieces about 1/4 inch thick
-      and 2 inches long. A 15-minute soy-and-cornstarch marinade seasons the
-      slices and helps them stay juicy through the quick sear.
-    - >-
-      Prepare everything before heating the pan. Plan two broccoli batches,
-      three beef batches and two brief final combinations in a household pan.
-      Have a clean serving platter and bowls ready.
-  checkpoints:
-    - step: 2
-      cue: A fork enters a thick broccoli stem with slight resistance.
-      why: >-
-        Green color appears before thick stems necessarily soften. A short
-        covered steam cooks the center after initial surface browning.
-    - step: 3
-      cue: >-
-        Beef sizzles in one layer, releases when browned and reaches at least
-        145°F / 63°C in representative thicker slices.
-      why: >-
-        Small batches let moisture escape. Browning does not measure doneness;
-        insert a fine probe sideways from the edge into a thick slice.
-    - step: 4
-      cue: The sauce bubbles and becomes glossy but still flows from a spoon.
-      why: >-
-        Cornstarch settles in the cold bowl and thickens when heated. Re-stirring
-        distributes it; prolonged reduction concentrates the soy and can make
-        the sauce salty and pasty.
-  troubleshooting:
-    - problem: Beef boils in a puddle
-      cause: The batch was crowded or the pan had not recovered heat.
-      fix: >-
-        Remove the batch when cooked rather than boiling it dry for a crust.
-        Let the pan recover and use fewer slices in the next round. Surface
-        drying helps, but does not make an overcrowded pan sear well.
-    - problem: Broccoli is brown outside but hard inside
-      cause: Thick stems needed more moist cooking.
-      fix: >-
-        Use a little of the reserved water and cover briefly before adding any
-        sauce or beef. Check a stem again; leave cooked beef out of this correction.
-    - problem: Sauce is too thick or intense
-      cause: It reduced too long or the stock and sauces were especially salty.
-      fix: >-
-        Stir in reserved water a teaspoon at a time and stop simmering once the
-        sauce flows. Extra water can loosen a glaze but cannot remove its salt;
-        serve a smaller sauce portion if needed. Use unsalted stock next time.
   substitutions:
     - ingredient: Shaoxing wine
-      alternative: The same amount of dry sherry
-      effect: >-
-        Similar nutty, savory depth, a little less fragrant. Dry sherry is also
-        the gluten-free choice, since Shaoxing wine is usually brewed with wheat.
-    - ingredient: Top sirloin
-      alternative: 680 g trimmed flank steak sliced across the grain to the same dimensions
-      effect: >-
-        More pronounced grain and a somewhat firmer bite without a tenderizing
-        treatment. Do not substitute tough stew cubes or simmer this quick
-        sauce for a long time to try to soften them.
-    - ingredient: Regular soy sauce and oyster sauce
-      alternative: The same volumes of labeled gluten-free tamari and gluten-free oyster sauce
-      effect: >-
-        Salinity and sweetness vary by brand. Also verify the stock and other
-        packaged ingredients before treating the dish as gluten-free; ordinary
-        soy and oyster sauces often contain wheat.
-  timing: >-
-    About 55 minutes includes slicing and measuring, a 15-minute beef
-    marinade that overlaps the other preparation, two 5–6-minute broccoli
-    batches, three approximately 2–4-minute beef batches, sauce preparation,
-    two brief final combinations and at least 3 minutes between the beef
-    reaching 145°F / 63°C and serving. Slower batches can take about an hour overall. Rice is separate. Optional freezer
-    firming before slicing adds time.
-  storage: >-
-    Refrigerate in shallow containers within 2 hours (1 hour above 90°F / 32°C),
-    at 40°F / 4°C or below. Use within 3–4 days and reheat to 165°F / 74°C.
-    Reheat a shallow portion with a little water, covered loosely, stirring
-    during heating; broccoli softens and the beef can firm during reheating.
-  sources:
-    - title: J. Kenji López-Alt — Chinese-American beef and broccoli and indoor batch cooking
-      url: https://www.seriouseats.com/chinese-american-beef-and-broccoli-with-oyster-sauce-recipe
-    - title: Daddy Lau — Beef and broccoli preparation and separate vegetable cooking
-      url: https://www.madewithlau.com/recipes/beef-broccoli
-    - title: FoodSafety.gov — Safe minimum internal temperatures
-      url: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: FoodSafety.gov — Clean, separate, cook, chill
-      url: https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety
-    - title: FoodSafety.gov — Cold food storage charts
-      url: https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts
+      alternative: Dry sherry
+      effect: Use the same amount. It tastes a little less fragrant.
+    - ingredient: Top sirloin steak
+      alternative: Flank steak
+      effect: 'Slice it thin across the grain. It is a little chewier, with more beefy flavor.'
+    - ingredient: Gluten-free
+      alternative: 'Tamari, gluten-free oyster sauce and dry sherry'
+      effect: 'Use them in place of the soy sauce, oyster sauce and Shaoxing wine, in the same amounts.'
+  storage: Keeps 3 days in the fridge. Reheat in a skillet with a splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This Chinese-American combination pairs broccoli with sliced beef and a soy-oyster sauce. Shaoxing wine, a little brown sugar, ginger, garlic and sesame oil round out the salty sauces. Small batches matter more than creating smoke: brown the food without burning the oil or aromatics, and bring the cooked components together only after the sauce is ready. A short soy-and-cornstarch marinade seasons the sirloin, though it stays meatier than beef tenderized with baking soda.
+Beef and broccoli is a Chinese-American takeout classic built on Cantonese technique. A quick soy and cornstarch marinade keeps the sirloin juicy, and Shaoxing wine and brown sugar round out the salty sauce. Have everything ready before the pan heats, and sear the beef in small batches so it browns instead of steaming.
 
 ## Directions
 
-1. **Prepare everything:** Pat the steak dry and cut across the grain into roughly 1/4-inch-thick, 2-inch-long slices. Toss with the 1 tbsp beef soy sauce and 1 tsp beef cornstarch and let stand about 15 minutes while you prepare everything else and cook the broccoli. Divide into three batches of about 225 g just before searing. Cut the broccoli as listed and divide in half. Whisk the 3 tbsp sauce soy sauce, oyster sauce, Shaoxing wine, brown sugar, stock or sauce water, the 2 tsp sauce cornstarch and white pepper together. Keep sesame oil separate. Mince garlic and ginger and separate scallion whites and greens.
-2. **Brown and steam broccoli in two batches:** Heat the pan over medium-high heat. Add 1 1/2 tsp cooking oil and half the broccoli. Cook about two minutes, turning occasionally, until some edges brown. Lower the heat slightly, carefully add 2 tbsp of the steaming water and cover for 2–3 minutes. Check a thick stem; use a little reserved water and another short steam if still hard. Uncover and let remaining water evaporate, about 30–60 seconds. Transfer to a bowl. Repeat with the other half, another 1 1/2 tsp oil and the remaining 2 tbsp steaming water.
-3. **Sear three beef batches:** Let the empty pan dry and regain medium-high heat. Add 1 1/2 tsp oil; it should shimmer without heavy smoke. Spread one beef batch in one layer. Leave for about one minute until browned underneath, then turn and stir-fry another 1–3 minutes as needed. Check representative thick slices with a fine-tip thermometer inserted from the edge: at least 145°F / 63°C. Transfer to a clean bowl. Repeat twice with 1 1/2 tsp oil per batch. Turn the heat down if residue blackens; remove burned deposits before continuing. Allow the beef at least three minutes after reaching temperature before serving.
-4. **Make the sauce:** Reduce heat to medium. Add the remaining 1 1/2 tsp cooking oil, garlic, ginger and scallion whites. Stir about 30 seconds until fragrant, keeping the garlic pale. Re-stir the sauce and pour it in. Bring to a gentle bubble, stirring for about 45–90 seconds until glossy and lightly thickened. Stir in the separate tablespoon sesame oil. Use reserved water in small spoonfuls if the sauce is too thick. Pour half the sauce into a heatproof cup.
-5. **Combine in two rounds:** Add half the beef and its collected juices, half the broccoli and half the scallion greens to the sauce remaining in the pan. Fold over medium heat for about 30–60 seconds to coat and rewarm, then transfer to a serving platter. Return the reserved sauce to the pan and fold in the rest of the beef, juices, broccoli and scallion greens. Once hot and coated, add this round to the platter. Do not keep boiling the meat to chase a thicker glaze.
-6. **Serve:** Confirm at least three minutes have elapsed since the last beef batch reached 145°F / 63°C. Divide into four portions and scatter the optional teaspoon of sesame seeds over the full dish. Serve with plain rice prepared separately; the stir-fry already includes its vegetable portion.
+1. **Marinate the beef:** Toss the steak with the soy sauce and cornstarch for the beef. Let it sit for 15 minutes while you prepare everything else.
+2. **Mix the sauce:** In a bowl, whisk all the sauce ingredients except the sesame oil.
+3. **Cook the broccoli:** Heat a 14-inch wok or 12-inch skillet over medium-high heat. Add a little of the neutral oil and the broccoli and cook, turning now and then, until the edges brown, about 2 minutes. Add the water, cover and steam until a fork slides into a thick stem with slight resistance, 2 to 3 minutes. Uncover, let any water cook off and move the broccoli to a bowl. In a skillet, cook the broccoli in two batches.
+4. **Sear the beef:** Wipe the pan dry and heat it over high heat. Add a little more oil and spread a third of the beef in a single layer. Leave it until browned underneath, about 1 minute, then stir-fry until no longer pink, 1 to 2 minutes more. Move it to a bowl and repeat with the rest of the beef, adding oil each time.
+5. **Cook the aromatics:** Lower the heat to medium and add the rest of the oil, the garlic, ginger and scallion whites. Stir until fragrant, about 30 seconds, keeping the garlic pale.
+6. **Thicken the sauce:** Stir the sauce again and pour it in. Cook, stirring, until it bubbles and turns glossy, about 1 minute. Stir in the sesame oil.
+7. **Toss and serve:** Return the beef and its juices, the broccoli and the scallion greens to the pan. Toss until everything is hot and coated, 30 to 60 seconds. Scatter with sesame seeds and serve with rice.

@@ -16,36 +16,28 @@ cuisines:
 role: side
 vibe: comfort
 prepTime: 15 min
-cookTime: 55–60 min
-totalTime: 2 hr 15 min
+cookTime: 1 hr
+totalTime: '1 hr 15 min, plus cooling'
 servings: 10 portions
-pairsWith:
-  - blueberry-baked-oatmeal
-  - blueberry-pancakes
-  - brownie-baked-oatmeal
 ingredients:
-  - 'butter or neutral oil, for greasing the pan'
-  - 'all-purpose flour, for dusting the greased pan'
-  - '1/2 cup (1 stick) unsalted butter, softened, not melted'
-  - 1 cup granulated sugar
-  - '2 large eggs, at room temperature'
-  - '3 (375 g) large very ripe bananas, peeled and mashed; gram equivalent is an approximate total'
-  - 1 tsp vanilla extract
-  - 2 cups (250 g) all-purpose flour
+  - '1/2 cup (1 stick) butter or margarine, softened'
+  - 1 cup sugar
+  - 2 eggs
+  - '3 large very ripe bananas, mashed'
+  - 2 cups sifted all-purpose flour
   - 1 tsp baking soda
-  - 1/2 tsp kosher salt
-  - '1/2 cup walnuts or toasted sunflower seeds, chopped'
+  - 1/2 tsp salt
+  - '1/2 cup nuts, chopped, optional'
 origin: United States
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
-source: Adapted from Hamilton Family
+source: From the Hamilton family
 equipment:
   - loaf-pan
   - mixer
   - mixing-bowl
-  - cooling-rack
 formula:
   version: 1
   yield:
@@ -55,36 +47,22 @@ formula:
     - id: batter
       name: Batter
       ingredients:
-        - id: pan-fat
-          key: pan-fat
-          name: butter or neutral oil
-          allowance: for greasing the pan
-          uses:
-            - step: prepare
-              share: 1
-        - id: pan-flour
-          key: pan-flour
-          name: all-purpose flour
-          allowance: for dusting the greased pan
-          uses:
-            - step: prepare
-              share: 1
         - id: butter
           key: butter
-          name: unsalted butter
+          name: butter or margarine
           quantity:
             amount: 1/2
             unit: cup
           equivalents:
             - amount: 1
               unit: stick
-          preparation: 'softened, not melted'
+          preparation: softened
           uses:
             - step: cream
               share: 1
         - id: sugar
           key: sugar
-          name: granulated sugar
+          name: sugar
           quantity:
             amount: 1
             unit: cup
@@ -93,12 +71,11 @@ formula:
               share: 1
         - id: eggs
           key: eggs
-          name: large egg
-          plural: large eggs
+          name: egg
+          plural: eggs
           quantity:
             amount: 2
             unit: count
-          preparation: at room temperature
           uses:
             - step: eggs
               share: 1
@@ -109,31 +86,16 @@ formula:
           quantity:
             amount: 3
             unit: count
-          equivalents:
-            - amount: 375
-              unit: g
-          preparation: peeled and mashed; gram equivalent is an approximate total
-          uses:
-            - step: banana
-              share: 1
-        - id: vanilla
-          key: vanilla
-          name: vanilla extract
-          quantity:
-            amount: 1
-            unit: tsp
+          preparation: mashed
           uses:
             - step: banana
               share: 1
         - id: flour
           key: flour
-          name: all-purpose flour
+          name: sifted all-purpose flour
           quantity:
             amount: 2
             unit: cup
-          equivalents:
-            - amount: 250
-              unit: g
           uses:
             - step: dry
               share: 1
@@ -148,7 +110,7 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: kosher salt
+          name: salt
           quantity:
             amount: 1/2
             unit: tsp
@@ -157,154 +119,83 @@ formula:
               share: 1
         - id: nuts
           key: nuts
-          name: walnuts or toasted sunflower seeds
+          name: nuts
           quantity:
             amount: 1/2
             unit: cup
           preparation: chopped
+          optional: true
           uses:
             - step: nuts
               share: 1
   steps:
     - id: prepare
-      title: Prepare the oven and pan
-      text: >-
-        Preheat the oven to 350°F. Use {{ingredients}} to grease and flour a 9-by-5-by-3-inch loaf
-        pan for the original batch. Have the batter butter softened, not melted, before beginning.
+      title: Prepare the pan
+      text: Heat the oven to 350°F. Grease and flour a 9-by-5-by-3-inch loaf pan.
     - id: cream
-      title: Cream the butter and sugar
+      title: Cream the butter
       text: >-
-        Beat the {{ingredients}} until lighter and fluffy, scraping the sides and bottom so no dense
-        butter remains.
+        Beat {{ingredients}} with a mixer on medium-high until thoroughly creamed, light and fluffy,
+        about 3 minutes.
     - id: eggs
       title: Add the eggs
-      text: 'Beat in the {{ingredients}} one at a time, scraping the bowl after each addition.'
+      text: 'Add {{ingredients}} one at a time, beating well after each.'
     - id: banana
-      title: Add banana and vanilla
-      text: >-
-        Mix in the {{ingredients}}. The mixture may look slightly curdled; stop once evenly combined
-        rather than beating to make it perfectly smooth.
+      title: Add the bananas
+      text: 'Add {{ingredients}} and beat well.'
     - id: dry
-      title: Mix the dry ingredients
-      text: 'Whisk the {{ingredients}} thoroughly in a separate bowl.'
-    - id: combine
-      title: Fold the batter
-      text: >-
-        Gently fold the dry mixture into the butter mixture until no dry flour pockets remain. Do
-        not beat the flour mixture until perfectly smooth.
+      title: Mix in the flour
+      text: 'Add {{ingredients}} to the banana mixture and mix well.'
     - id: nuts
-      title: Add the nuts or seeds
-      text: >-
-        Fold in the {{ingredients}} just until distributed, then scrape the batter into the prepared
-        pan.
+      title: Fill the pan
+      text: 'Stir in {{ingredients}}. Pour the batter into the pan.'
     - id: bake
-      title: Bake and cool
+      title: Bake the loaf
       text: >-
-        Bake for about 55–60 minutes, checking the center at 55 minutes. A tester should have moist
-        crumbs but no wet batter; check another spot if it hits banana. If still wet, continue
-        baking; tent loosely with foil if the top is darkening too quickly. Cool in the pan on a
-        rack for 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack
-        before slicing; allow about an hour, longer if still warm.
+        Bake until the top is golden brown and a toothpick in the center comes out clean, 55 to 60
+        minutes.
+    - id: cool
+      title: Cool
+      text: Let the loaf cool completely before slicing.
 learning:
-  focus: 'Keep the family creaming sequence, then mix briefly after adding flour.'
-  outcome: >-
-    A tender banana loaf with evenly distributed nuts or seeds and a fully baked center that slices
-    without smearing.
   techniques:
     - leavening
     - temperature
-  before:
-    - >-
-      Use a 9-by-5-by-3-inch loaf pan and a rack. Have softened butter and room-temperature eggs
-      ready; ingredient warming is extra to the preparation time.
-    - >-
-      Mash peeled, heavily spotted bananas. The approximately 375 g total banana and 250 g flour
-      equivalents belong to the original batch; use the scaled listed totals for a different
-      quantity, not either amount for each banana or cup.
-    - Measure pan-dusting flour separately from the batter flour.
-    - >-
-      The 9-by-5-by-3-inch pan is for the original batch. For multiples, make separate original-size
-      loaves in matching pans. For smaller amounts, choose an appropriately smaller pan to keep
-      similar batter depth with headroom and begin center checks earlier; no proportional pan
-      dimensions or baking/cooling times are assumed.
-  checkpoints:
-    - step: 2
-      cue: The butter and sugar are lighter and fluffy with no dense butter at the bottom.
-      why: Creaming distributes air before the eggs and banana enter.
-    - step: 6
-      cue: 'No dry flour remains, although small banana lumps may still be visible.'
-      why: Extra beating after flour is hydrated can toughen the loaf.
-    - step: 8
-      cue: >-
-        A tester in the central crumb has no wet batter, and the loaf cools completely before
-        cutting.
-      why: >-
-        The crust can brown before the center is cooked; a warm tender center can smear even when
-        baked through.
-  troubleshooting:
-    - problem: Loaf is heavy or tough
-      cause: 'Butter was melted, or flour was beaten for too long.'
-      fix: >-
-        Use softened butter for the next creaming stage and fold flour only until moistened. Longer
-        baking cannot reverse a tough crumb.
-    - problem: Outside is browned but center is wet
-      cause: 'The pan, oven or banana moisture changed the bake.'
-      fix: >-
-        Leave the intact loaf in the oven, tent if needed and continue checking the center. Record
-        pan and bake time before changing the formula.
-    - problem: Slices crumble or smear
-      cause: The loaf was cut warm.
-      fix: Let it cool fully before cutting with a serrated knife; wrap only after cooling.
   substitutions:
-    - ingredient: Walnuts
-      alternative: 'Toasted sunflower seeds, at the same listed quantity'
-      effect: The retained seed option changes flavor and crunch while preserving the mix-in amount.
-    - ingredient: Kosher salt
-      alternative: Keep the listed salt type when measuring by spoon
+    - ingredient: Two small loaves
+      alternative: Two small loaf pans
       effect: >-
-        Crystal density varies; an equal spoon volume of fine salt is not an established equivalent
-        here.
-  timing: >-
-    Allow about 2 hours 15 minutes with softened ingredients ready: around 15 minutes preparation,
-    55–60 minutes baking, 10 minutes pan cooling and about an hour on a rack. Preheating overlaps
-    preparation. Smaller pans and additional oven batches have their own timing.
+        Divide the batter between two greased and floured small loaf pans and bake for about 40
+        minutes.
   storage: >-
-    Cool completely, then wrap airtight. Keep at room temperature for a few days or freeze for
-    longer storage. Freeze the loaf or separated slices in airtight wrapping, then thaw wrapped;
-    light toasting can refresh a slice. Discard moldy bread.
-  sources:
-    - title: 'Nicolet College — Professional Baking: Quick Breads'
-      url: 'https://nicoletcollege.pressbooks.pub/professionalbaking/chapter/quick-breads/'
-    - title: 'PJ Hamel — How to tell when banana bread is done, King Arthur Baking'
-      url: 'https://www.kingarthurbaking.com/blog/2018/03/15/how-to-tell-when-banana-bread-is-done'
-    - title: King Arthur Test Kitchen — Banana Bread
-      url: 'https://www.kingarthurbaking.com/recipes/banana-bread-recipe'
-    - title: 'Annabelle Shippee — How can I freeze my bread?, King Arthur Baking'
-      url: 'https://www.kingarthurbaking.com/blog/2023/12/20/freeze-bread'
-    - title: FDA — Are You Storing Food Safely?
-      url: 'https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely'
+    Wrap the cooled loaf and keep it at room temperature for 3 days, or freeze it, sliced, for 3
+    months.
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-The Hamilton family banana bread creams softened butter with sugar before the eggs and banana go in. Very ripe bananas give the loaf its flavor; brief mixing after flour enters keeps the crumb tender. Let the loaf cool fully so its soft center slices cleanly.
+This banana bread comes from the Hamilton family. Creaming the butter and sugar thoroughly gives it a light, cakey crumb. Use bananas that are heavily spotted, almost black, for the deepest flavor.
 
 ## Directions
 
-1. **Prepare the oven and pan:** Preheat the oven to 350°F. Use butter or neutral oil and all-purpose flour to grease and flour a 9-by-5-by-3-inch loaf pan for the original batch. Have the batter butter softened, not melted, before beginning.
-2. **Cream the butter and sugar:** Beat the unsalted butter and granulated sugar until lighter and fluffy, scraping the sides and bottom so no dense butter remains.
-3. **Add the eggs:** Beat in the large eggs one at a time, scraping the bowl after each addition.
-4. **Add banana and vanilla:** Mix in the large very ripe bananas and vanilla extract. The mixture may look slightly curdled; stop once evenly combined rather than beating to make it perfectly smooth.
-5. **Mix the dry ingredients:** Whisk the all-purpose flour, baking soda, and kosher salt thoroughly in a separate bowl.
-6. **Fold the batter:** Gently fold the dry mixture into the butter mixture until no dry flour pockets remain. Do not beat the flour mixture until perfectly smooth.
-7. **Add the nuts or seeds:** Fold in the walnuts or toasted sunflower seeds just until distributed, then scrape the batter into the prepared pan.
-8. **Bake and cool:** Bake for about 55–60 minutes, checking the center at 55 minutes. A tester should have moist crumbs but no wet batter; check another spot if it hits banana. If still wet, continue baking; tent loosely with foil if the top is darkening too quickly. Cool in the pan on a rack for 10 minutes, loosen the edges and turn out carefully. Cool completely on the rack before slicing; allow about an hour, longer if still warm.
+1. **Prepare the pan:** Heat the oven to 350°F. Grease and flour a 9-by-5-by-3-inch loaf pan.
+2. **Cream the butter:** Beat butter or margarine and sugar with a mixer on medium-high until thoroughly creamed, light and fluffy, about 3 minutes.
+3. **Add the eggs:** Add eggs one at a time, beating well after each.
+4. **Add the bananas:** Add large very ripe bananas and beat well.
+5. **Mix in the flour:** Add sifted all-purpose flour, baking soda, and salt to the banana mixture and mix well.
+6. **Fill the pan:** Stir in nuts (if using). Pour the batter into the pan.
+7. **Bake the loaf:** Bake until the top is golden brown and a toothpick in the center comes out clean, 55 to 60 minutes.
+8. **Cool:** Let the loaf cool completely before slicing.
 
-## Cooking Notes
+## Suggested Tweak
 
-This keeps the saved Hamilton family creaming method; the listed vanilla and seed alternative are Mise adaptations.
+This is a family recipe, so it stays as written. If you want to try it:
 
-The banana weight is an approximate total for the original batch, not a weight for each banana. When dividing the original batch between two smaller loaves, start checking around 40 minutes; their dimensions and batter depth determine the actual baking time. Keep the same center-doneness cue.
+- Add 1 tsp vanilla extract with the bananas.
+- Whisk the flour, baking soda and salt in a separate bowl, then fold them in by hand just until no dry flour remains. The loaf stays more tender.
+- Use walnuts, toasted and chopped, for the nuts.
+- Start checking at 55 minutes and allow up to 65. The toothpick should come out with moist crumbs but no wet batter. If the top browns too fast, cover it loosely with foil.
+- Cool the loaf in the pan for 10 minutes, then turn it out onto a rack to cool completely, about 1 hour.
