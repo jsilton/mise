@@ -5,9 +5,9 @@ role: base
 vibe: nutritious
 difficulty: easy
 prepTime: 10 min
-cookTime: 60 min
-totalTime: 80 min
-servings: 7 small side portions
+cookTime: 1 hr 10 min
+totalTime: 1 hr 20 min
+servings: '7'
 scaling:
   mode: fixed
   reason: >-
@@ -39,105 +39,55 @@ equipment:
   - mixing-bowl
 pairsWith:
   - lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad
+  - kalbi-grilled-korean-style-short-ribs
+pairingNotes:
+  lime-and-honey-glazed-salmon-with-warm-black-bean-and-corn-salad: The rice this salmon was built around.
+  kalbi-grilled-korean-style-short-ribs: Nutty, chewy rice beside sweet grilled short ribs.
 ingredients:
-  - '1/2 cup whole-grain aromatic purple rice, with a stated stovetop cooking time around 45 minutes; not glutinous black rice or a quick-cooking blend'
-  - '1 1/8 cups (270 ml) water, for starting the purple rice'
-  - '1 1/2 cups Japanese-style medium-grain white rice, not brown or parboiled'
-  - '1 1/8 cups (270 ml) water, for soaking and cooking the white rice'
-  - '3/4 cup (180 ml) unsalted chicken stock, for soaking and cooking the white rice'
-  - '1/4 tsp fine salt, plus up to 1/4 tsp more after tasting'
-  - '1 tsp coconut oil or unsalted butter, optional'
-  - '1/2 cup (120 ml) hot water, reserved only for correcting evaporation or firm grains'
+  - 1/2 cup whole-grain purple rice
+  - '1 cup plus 2 tbsp water, for the purple rice'
+  - 1 1/2 cups Japanese-style medium-grain white rice
+  - '1 cup plus 2 tbsp water, for the white rice'
+  - 3/4 cup unsalted chicken stock
+  - '1/4 tsp fine salt, plus more to taste'
+  - 1 tsp coconut oil or unsalted butter (optional)
+  - 'hot water, as needed'
 description: >-
   Tender white rice and nutty purple grains cook together in a lightly seasoned broth after the
   whole grain gets a head start.
 learning:
-  focus: Give whole-grain rice a head start, then finish the blend in its colored cooking liquid
-  outcome: >-
-    Lightly cohesive purple-tinted rice, with tender white grains and a gentle chew from the whole
-    purple grains. Neither grain has a hard center.
   techniques:
     - starch
     - temperature
-  before:
-    - >-
-      Use standard 240 ml measuring cups. Choose whole-grain aromatic purple rice whose package
-      calls for about 45 minutes on the stove; faster-cooking glutinous black rice needs a different
-      head start.
-    - >-
-      A tightly lidded 2-quart pot with a 6–7-inch base suits the small first stage and leaves room
-      for the complete batch. Keep the simmer very gentle so the purple grain does not dry out.
-    - >-
-      The starting liquid totals 720 ml: 270 ml with the purple rice and 450 ml with the white rice.
-      Keep all of it. The separate 120 ml hot-water reserve is extra, used only if needed.
-  checkpoints:
-    - step: 4
-      cue: A purple grain is swollen with a softened outside and a firmer center, not hard throughout.
-      why: Partial cooking gives the whole grain time to hydrate before adding the faster-cooking white rice.
-    - step: 5
-      cue: Both grains are gently simmering in the same purple-tinted liquid after the pot reheats.
-      why: The white grains absorb that liquid as they cook, carrying its color and stock seasoning into the blend.
-    - step: 6
-      cue: Both sampled grains are tender inside and there is no pool of water at the bottom.
-      why: A dry pot or a purple color alone does not show that both grain centers have finished cooking.
-  troubleshooting:
-    - problem: The purple stage dries before the grain is partly tender
-      cause: The simmer was too strong or the lid allowed too much steam to escape.
-      fix: >-
-        Lower the heat and add 2 tbsp from the hot-water reserve. Re-cover and check after five
-        minutes. This is extra correction water; do not discard purple liquid or add a second
-        white-rice water allowance later.
-    - problem: Grains are still firm and the combined pot is dry
-      cause: More water evaporated than expected or this grain needs additional hydration.
-      fix: >-
-        Add 2 tbsp from the remaining reserve, cover and cook gently another five minutes, then
-        taste both grains. Use no more than the listed 120 ml reserve across the whole recipe.
-        If white rice is already soft, further cooking will soften it more; a longer purple head
-        start is the better adjustment for the next batch.
-    - problem: Both grains are tender but rice is wet
-      cause: The rice or pot retained more water than needed.
-      fix: >-
-        Uncover briefly over very low heat to release surface moisture, then turn off the heat.
-        Avoid vigorous stirring, which breaks the soft white grains.
   substitutions:
-    - ingredient: Unsalted chicken stock
-      alternative: The same volume of water or unsalted vegetable stock
+    - ingredient: whole-grain purple rice
+      alternative: Black (forbidden) rice
       effect: >-
-        Gives a vegetarian version; use coconut oil or omit the optional fat for a vegan version.
-        Choose gluten-free stock or water for the gluten-free version.
-  timing: >-
-    Allow about 80 minutes, including rinsing, heating, a 25–30-minute purple-rice head start,
-    reheating after the white rice is added, a 15–20-minute combined simmer and a ten-minute rest.
-    The white rice's 20-minute soak overlaps the purple stage. Active work is about 15–20 minutes;
-    additional hydration can extend the total.
+        Same amount. It cooks faster, so check it after 15 minutes of its head start.
+    - ingredient: unsalted chicken stock
+      alternative: Vegetable stock or water
+      effect: Makes it vegetarian. Use coconut oil or skip the fat to make it vegan.
+    - ingredient: Rice cooker
+      alternative: One pot, white rice setting
+      effect: >-
+        Rinse both rices, add all the water, stock and salt, and cook on the white rice setting.
+        The purple grains stay chewier.
   storage: >-
-    Divide into shallow containers and refrigerate within 2 hours, or 1 hour above 90°F / 32°C.
-    Keep at 40°F / 4°C or below for 3–4 days. Reheat to 165°F / 74°C, covered with a little water
-    to soften the refrigerated grains. Do not leave the full pot cooling slowly on the counter.
-  sources:
-    - title: University of Minnesota Extension — Staged cooking of brown and white rice
-      url: https://reallifegoodfood.umn.edu/side-dishes/wild-or-brown-rice
-    - title: Ralston Family Farms — Whole-grain purple rice cooking method
-      url: https://ralstonfamilyfarms.com/products/purple-rice
-    - title: Koda Farms — Japanese-style medium-grain white rice cooking method
-      url: https://kodafarmsrice.com/blogs/recipes/simple-japanese-rice-bowl-with-organic-kokuho-rose%C2%AE-medium-grain-rice
-    - title: USDA FSIS — Leftovers and food safety
-      url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+    Keeps 4 days in the fridge and freezes for 2 months. Reheat covered with a splash of water.
   review:
     status: editorial-review
-    date: '2026-09-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-White rice softens the chewy texture and nutty flavor of whole-grain purple rice. Give the purple grain a head start, then let both finish in the same colored cooking liquid. The white grains take on a purple tint while a little chicken stock rounds out the flavor.
+Korean heukmibap mixes a little black or purple rice into white rice for color and a nutty chew. This one blends medium-grain white rice with whole-grain purple rice and a splash of chicken stock. Giving the purple rice a head start means both grains finish tender at the same time, and the white rice turns violet.
 
 ## Directions
 
-1. **Rinse separately:** Rinse the purple rice briefly in cool water and drain. Rinse the white rice in several changes of water until much of the loose starch has washed away, then drain well. Purple pigment may continue to tint its rinsing water; it need not run colorless.
-2. **Start the purple rice:** Put purple rice and its 270 ml water in the saucepan. Bring to a boil, cover tightly and reduce heat to a very gentle simmer. Set a timer for 20 minutes and continue with the white rice while it cooks.
-3. **Soak the white rice:** Combine drained white rice with its 270 ml water, 180 ml chicken stock and the initial 1/4 tsp salt in a bowl. Soak for 20 minutes in this measured liquid. Keep all the liquid for the cooking pot; do not drain it afterward.
-4. **Check the head start:** At 20 minutes, check that the purple rice is still moist and taste a grain. Continue gently until the grains are swollen with softened outsides but firmer centers, usually 25–30 minutes total. If still hard throughout, give them another five minutes before adding the white rice. If the pot is drying, add 2 tbsp from the separate hot-water reserve and lower the heat. Re-cover between checks. Retain all the purple cooking liquid.
-5. **Combine and reheat:** Add the white rice with all its soaking liquid to the purple rice and stir once to distribute the grains. Bring back to a gentle boil, allowing about five minutes for the pot to reheat. Cover, reduce heat to low and simmer gently for 15–20 minutes, starting that timer only once the combined pot is simmering.
-6. **Check both grains and rest:** Taste a white grain and a purple grain. Both should be tender inside, with the purple grain retaining a slight chew, and the cooking liquid should be absorbed. Use the measured correction reserve if the pot is dry and grains are firm. Once ready, turn off heat and rest covered for 10 minutes.
-7. **Fluff and season:** Fold gently with a rice paddle or fork, incorporating the optional coconut oil or butter. Taste and add some or all of the reserved salt if wanted. The batch makes approximately 5–6 cups; divide into seven small side portions, roughly 3/4 cup each depending on final yield.
+1. **Rinse the rice:** Rinse the purple rice briefly in cold water and drain. Rinse the white rice in several changes of cold water until the water runs mostly clear, then drain well.
+2. **Start the purple rice:** In a 2-quart saucepan, bring the purple rice and its water to a boil. Cover tightly, turn the heat to very low and simmer until the grains are swollen, with soft outsides and firm centers, 25 to 30 minutes. If the pot starts to look dry, add a splash of hot water.
+3. **Soak the white rice:** While the purple rice cooks, combine the white rice, its water, the stock and the salt in a bowl. Let it soak for 20 minutes.
+4. **Cook together:** Pour the white rice and all its liquid into the pot and stir once. Bring back to a gentle boil, cover, turn the heat to low and cook until the liquid is absorbed and both grains are tender, 15 to 20 minutes. If the pot is dry and the grains are still firm, add a splash of hot water and cook 5 minutes more.
+5. **Rest:** Take the pot off the heat and let it rest, covered, for 10 minutes.
+6. **Fluff and serve:** Fold in the coconut oil or butter, if using, with a rice paddle. Taste, add more salt if it needs it, and serve warm.

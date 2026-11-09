@@ -23,8 +23,8 @@ cuisines:
 role: main
 vibe: nutritious
 prepTime: 10 min
-cookTime: 45–55 min
-totalTime: 55–65 min
+cookTime: 50 min
+totalTime: 1 hr
 servings: 4 portions
 seasons:
   - fall
@@ -35,33 +35,34 @@ leftovers: excellent
 pairsWith:
   - garlic-bread
   - everyday-arugula-salad
+pairingNotes:
+  garlic-bread: For the sauce left in the bowl.
+  everyday-arugula-salad: Peppery greens and lemon cut the rich lamb.
 ingredients:
   - '--- Ragù ---'
   - 2 tbsp extra-virgin olive oil
+  - 1 lb ground lamb
   - '1 medium yellow onion, finely chopped'
   - '4 garlic cloves, minced'
   - 1/4 tsp red pepper flakes
   - 2 anchovy fillets
   - 2 tbsp tomato paste
-  - 1 lb ground lamb
   - 1 can (28 oz) crushed tomatoes
   - 1/2 cup water
-  - 'salt, to taste for the sauce'
-  - 'black pepper, to taste for the sauce'
+  - 'kosher salt, to taste'
+  - 'black pepper, to taste'
   - 2 tbsp balsamic vinegar
-  - 'fresh oregano or marjoram, for finishing, leaves picked'
-  - '--- Pasta and Serving ---'
-  - '12 oz dry pasta, penne or shells'
-  - 'water, enough to boil the pasta in a suitable pot'
-  - 'Parmesan or Pecorino, for grating over the finished dish'
-  - 'extra-virgin olive oil, for drizzling at serving'
-source: Adapted from cooking.nytimes.com
-sourceUrl: 'https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share'
+  - 'fresh oregano or marjoram leaves, a small handful'
+  - '--- Pasta ---'
+  - 12 oz penne or shells
+  - 'Parmesan or Pecorino Romano, grated, for serving'
+  - 'extra-virgin olive oil, for serving'
+source: Adapted from NYT Cooking
+sourceUrl: 'https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu'
 rating: 5
 equipment:
   - heavy-pot
   - pasta-pot
-  - food-thermometer
 formula:
   version: 1
   yield:
@@ -77,6 +78,15 @@ formula:
           quantity:
             amount: 2
             unit: tbsp
+          uses:
+            - step: heat
+              share: 1
+        - id: lamb
+          key: lamb
+          name: ground lamb
+          quantity:
+            amount: 1
+            unit: lb
           uses:
             - step: lamb
               share: 1
@@ -100,7 +110,7 @@ formula:
           plural: garlic cloves
           preparation: minced
           uses:
-            - step: garlic
+            - step: aromatics
               share: 1
         - id: flakes
           key: flakes
@@ -109,7 +119,7 @@ formula:
             amount: 1/4
             unit: tsp
           uses:
-            - step: anchovy
+            - step: aromatics
               share: 1
         - id: anchovy
           key: anchovy
@@ -119,7 +129,7 @@ formula:
             unit: count
           plural: anchovy fillets
           uses:
-            - step: anchovy
+            - step: aromatics
               share: 1
         - id: paste
           key: paste
@@ -129,15 +139,6 @@ formula:
             unit: tbsp
           uses:
             - step: paste
-              share: 1
-        - id: lamb
-          key: lamb
-          name: ground lamb
-          quantity:
-            amount: 1
-            unit: lb
-          uses:
-            - step: lamb
               share: 1
         - id: tomatoes
           key: tomatoes
@@ -163,15 +164,15 @@ formula:
               share: 1
         - id: salt
           key: salt
-          name: salt
-          allowance: to taste for the sauce
+          name: kosher salt
+          allowance: to taste
           uses:
             - step: simmer
               share: 1
         - id: pepper
           key: pepper
           name: black pepper
-          allowance: to taste for the sauce
+          allowance: to taste
           uses:
             - step: simmer
               share: 1
@@ -186,37 +187,27 @@ formula:
               share: 1
         - id: herbs
           key: herbs
-          name: fresh oregano or marjoram
-          allowance: for finishing
-          preparation: leaves picked
+          name: fresh oregano or marjoram leaves
+          allowance: a small handful
           uses:
             - step: finish
               share: 1
     - id: pasta
-      name: Pasta and Serving
+      name: Pasta
       ingredients:
         - id: pasta
           key: pasta
-          name: dry pasta
+          name: penne or shells
           quantity:
             amount: 12
             unit: oz
-          preparation: penne or shells
-          uses:
-            - step: pasta
-              share: 1
-        - id: pasta-water
-          key: pasta-water
-          name: water
-          allowance: enough to boil the pasta in a suitable pot
-          role: cooking-water
           uses:
             - step: pasta
               share: 1
         - id: cheese
           key: cheese
-          name: Parmesan or Pecorino
-          allowance: for grating over the finished dish
+          name: Parmesan or Pecorino Romano
+          allowance: 'grated, for serving'
           role: garnish
           uses:
             - step: serve
@@ -224,166 +215,85 @@ formula:
         - id: drizzle-oil
           key: drizzle-oil
           name: extra-virgin olive oil
-          allowance: for drizzling at serving
+          allowance: for serving
           role: garnish
           uses:
             - step: serve
               share: 1
   steps:
+    - id: heat
+      title: Heat the oil
+      text: 'Heat {{ingredients}} in a large heavy pot over medium-high heat until it shimmers.'
     - id: lamb
-      title: Brown the Lamb
+      title: Brown the lamb
       text: >-
-        Have {{ingredients}} ready. Heat the oil in a large heavy pot over medium-high heat until it
-        shimmers. Add the lamb in a broad layer and leave it undisturbed for 2–3 minutes, until
-        browned underneath. Break it up and cook about 6–8 minutes more for the original batch,
-        until well browned and sizzling in its fat. Lift the lamb into a bowl with a slotted spoon,
-        leaving all the fat in the pot. Choose enough pot capacity for stirring the full lamb and
-        tomato load without spilling; a larger batch may need separate pots with the formula divided
-        proportionally.
+        Add {{ingredients}} in a broad layer and cook undisturbed until browned underneath, 2 to 3
+        minutes. Break it up and cook until well browned and crisp in spots, 6 to 8 minutes more.
+        Lift the lamb into a bowl with a slotted spoon and leave the fat in the pot.
     - id: base
-      title: Onion Base
+      title: Soften the onion
       text: >-
-        Lower the heat to medium and add {{ingredients}} to the fat in the pot. Cook for 5–8
-        minutes, scraping up the browned bits, until softened and golden.
-    - id: garlic
-      title: Garlic
-      text: 'Add {{ingredients}} and cook for 30–45 seconds until fragrant.'
-    - id: anchovy
-      title: Anchovy and Chile
+        Turn the heat to medium. Add {{ingredients}} to the fat and cook, scraping up the browned
+        bits, until soft and golden, 5 to 8 minutes.
+    - id: aromatics
+      title: Melt the anchovies
       text: >-
-        Stir in {{ingredients}} and cook for about 2 minutes until the anchovy breaks down into the
-        oil. Keep the heat low enough that the garlic does not burn.
+        Add {{ingredients}} and cook, stirring, until the anchovies melt into the oil and the garlic
+        is fragrant, about 2 minutes.
     - id: paste
-      title: Tomato Paste
+      title: Toast the tomato paste
       text: >-
-        Stir in {{ingredients}} and cook for about 3 minutes, stirring, until it darkens and smells
-        roasted rather than scorched.
+        Stir in {{ingredients}} and cook, stirring, until it turns brick red and smells roasted,
+        about 3 minutes.
     - id: simmer
-      title: Simmer
+      title: Simmer the sauce
       text: >-
-        Return the browned lamb and any juices, then stir in {{ingredients}}, scraping up the
-        browned bits. Bring to a boil, reduce to a gentle simmer and cook 25–30 minutes, stirring as
-        needed, until thick and meaty. Check that the ground lamb has reached at least 160°F;
-        browned color alone is not the safety endpoint. Taste the fully cooked sauce before
-        adjusting its seasoning.
+        Return the lamb and its juices and stir in {{ingredients}}, scraping the bottom of the pot.
+        Bring to a boil, then lower the heat and simmer gently, stirring now and then, until the
+        sauce is thick and meaty, 25 to 30 minutes.
     - id: pasta
-      title: Cook the Pasta
+      title: Boil the pasta
       text: >-
-        While the sauce simmers, use {{ingredients}} and follow the pasta package’s cooking
-        instructions, stopping while it still has a firm center. Drain and keep it ready to finish
-        in the sauce; the listed pasta amount is dry weight.
+        When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil.
+        Add {{ingredients}} and cook until just short of al dente, then drain.
     - id: finish
-      title: Finish
+      title: Finish the sauce
       text: >-
-        Stir {{ingredients}} into the sauce. Toss with all the hot pasta until it is coated and
-        cooked to the firmness you want.
+        Stir {{ingredients}} into the sauce. Add the pasta and toss over low heat until it is coated
+        and al dente, about 1 minute. Taste and add more salt if it needs it.
     - id: serve
       title: Serve
-      text: >-
-        Finish with {{ingredients}}: grate the cheese over the portions and drizzle with the extra
-        oil. This oil allowance is separate from the full measured oil already used to brown the
-        lamb.
+      text: 'Spoon into bowls and finish with {{ingredients}}.'
 learning:
-  focus: Building a rich lamb-and-tomato sauce through successive pan stages.
-  outcome: >-
-    The lamb is cooked through in a thick, savory tomato sauce that coats the pasta; cheese, herbs
-    and the balsamic or no-balsamic route give distinct finishes.
   techniques:
     - browning
     - seasoning
     - starch
     - temperature
-  before:
-    - >-
-      Have the full measured base oil, tomato paste, lamb and fixed 28 oz tomato cans ready, plus
-      the separately measured sauce water. Salt, pepper, serving cheese, fresh herbs and drizzle oil
-      are genuine unmeasured allowances.
-    - >-
-      Use enough heavy-pot and pasta-pot capacity for the batch. More sauce may need additional pots
-      and longer thickening; pasta package size and heat settings stay fixed when ingredient amounts
-      scale.
-    - >-
-      Choose the dry-pasta/balsamic route below or the separate cooked-pasta route. Twelve ounces
-      cooked pasta is not an equivalent to twelve ounces dry pasta.
-  checkpoints:
-    - step: 3
-      cue: Garlic smells fragrant after 30–45 seconds and is not blackened.
-      why: Adding garlic after the onion softens keeps its time in the hot oil brief.
-    - step: 5
-      cue: Tomato paste darkens while remaining free of burnt specks.
-      why: This stage builds roasted tomato flavor before the meat returns and the liquid enters.
-    - step: 6
-      cue: The sauce is thick and the ground lamb has reached at least 160°F.
-      why: >-
-        Reduction and browned meat are sensory cues; the ground-meat temperature is the separate
-        safety check.
-  troubleshooting:
-    - problem: The lamb steams and the sauce takes longer to thicken.
-      cause: The batch is crowded or the pot has too little evaporating surface or heat.
-      fix: >-
-        Use more suitable pots or allow longer gentle simmering, keeping all ingredients and fat. Do
-        not drain away the lamb fat as a shortcut.
-    - problem: The sauce tastes bitter after the base stage.
-      cause: Garlic or tomato paste burnt against the pot.
-      fix: >-
-        Avoid scraping burnt material into the sauce. Severe scorching requires restarting that
-        base; more vinegar is not a repair.
   substitutions:
-    - ingredient: Dry-pasta and balsamic route
-      alternative: Cooked-pasta route with no balsamic
-      effect: >-
-        Use the same lamb, onion, garlic, tomato paste, fixed 28 oz tomatoes and full measured 2
-        tbsp base oil for the original batch. In place of the measured half-cup water, swirl water
-        in the tomato can filled halfway; for a scaled batch use the corresponding proportional
-        share of that half-can, without treating can weight as fluid volume. Use a pinch of chile
-        flakes if wanted, and omit the anchovies if wanted. Keep the short garlic stage; then stir
-        in whichever flakes and anchovies you are using and cook as in step 4 before continuing the
-        same paste and simmer sequence; season the onion base, lamb and sauce with salt and pepper
-        to taste. Serve with 12 oz already cooked pasta for the original batch, scaled separately
-        from the dry-pasta amount, and omit the balsamic. Use a small handful of marjoram, oregano
-        or thyme leaves if wanted, plus grated cheese and extra oil for drizzling. This changes the
-        sauce-to-pasta ratio and leaves the sauce less acidic; portions depend on the chosen pasta
-        state and amount.
-    - ingredient: Parmesan
-      alternative: Pecorino
-      effect: 'Both are unmeasured serving cheeses; Pecorino gives a different salty, sheep-milk finish.'
-  timing: >-
-    Allow about 55–65 minutes for the original batch: 10 minutes preparation and about 45–55 minutes
-    of heat and finishing, based on the written lamb, onion, garlic, anchovy, paste and 25–30-minute
-    simmer stages. Boil the dry pasta in parallel using its package clock. Extra pots, larger
-    batches and sauce reduction can extend this estimate; keep the browning, onion and paste work in
-    the plan before the simmer begins.
+    - ingredient: fresh oregano or marjoram leaves
+      alternative: Dried oregano
+      effect: Use 1/2 tsp and add it with the tomatoes so it softens in the sauce.
   storage: >-
-    Refrigerate sauce and pasta promptly in shallow containers at 40°F or below, within 2 hours, or
-    1 hour above 90°F. Use cooked leftovers within 3–4 days. Keep cheese and fresh herbs separate if
-    saving portions. Reheat evenly to 165°F; FDA also recommends bringing reheated sauces to a boil.
-    Stir and avoid prolonged boiling that concentrates or scorches this thick sauce.
-  sources:
-    - title: 'Quick Lamb Ragù, NYT Cooking'
-      url: 'https://cooking.nytimes.com/recipes/1020022-quick-lamb-ragu?smid=ck-recipe-iOS-share'
-    - title: 'FDA: Safe Food Handling'
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: 'FoodSafety.gov: Safe Minimum Internal Temperatures'
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov: Cold Food Storage Chart'
-      url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
+    The sauce keeps 4 days in the fridge and freezes for 3 months. Store it apart from the pasta and
+    reheat gently with a splash of water.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-This Italian-style lamb ragù starts by browning the lamb on its own, then builds a savory base with onion, garlic, tomato paste and anchovy in its fat before the meat and tomatoes simmer together. Keep the lamb’s rendered fat in the sauce and let the tomato paste deepen without burning. The balsamic finish suits the current version; cheese and fresh herbs complete either pasta route.
+A weeknight ragù from NYT Cooking. Ground lamb browns hard on its own first, then onion, garlic, anchovy and tomato paste build a deep base in its fat. The anchovies melt away and leave only savoriness behind. A splash of balsamic and fresh oregano at the end brighten the rich sauce.
 
 ## Directions
 
-1. **Brown the Lamb:** Have extra-virgin olive oil and ground lamb ready. Heat the oil in a large heavy pot over medium-high heat until it shimmers. Add the lamb in a broad layer and leave it undisturbed for 2–3 minutes, until browned underneath. Break it up and cook about 6–8 minutes more for the original batch, until well browned and sizzling in its fat. Lift the lamb into a bowl with a slotted spoon, leaving all the fat in the pot. Choose enough pot capacity for stirring the full lamb and tomato load without spilling; a larger batch may need separate pots with the formula divided proportionally.
-2. **Onion Base:** Lower the heat to medium and add medium yellow onion to the fat in the pot. Cook for 5–8 minutes, scraping up the browned bits, until softened and golden.
-3. **Garlic:** Add garlic cloves and cook for 30–45 seconds until fragrant.
-4. **Anchovy and Chile:** Stir in red pepper flakes and anchovy fillets and cook for about 2 minutes until the anchovy breaks down into the oil. Keep the heat low enough that the garlic does not burn.
-5. **Tomato Paste:** Stir in tomato paste and cook for about 3 minutes, stirring, until it darkens and smells roasted rather than scorched.
-6. **Simmer:** Return the browned lamb and any juices, then stir in crushed tomatoes, water, salt, and black pepper, scraping up the browned bits. Bring to a boil, reduce to a gentle simmer and cook 25–30 minutes, stirring as needed, until thick and meaty. Check that the ground lamb has reached at least 160°F; browned color alone is not the safety endpoint. Taste the fully cooked sauce before adjusting its seasoning.
-7. **Cook the Pasta:** While the sauce simmers, use dry pasta and water and follow the pasta package’s cooking instructions, stopping while it still has a firm center. Drain and keep it ready to finish in the sauce; the listed pasta amount is dry weight.
-8. **Finish:** Stir balsamic vinegar and fresh oregano or marjoram into the sauce. Toss with all the hot pasta until it is coated and cooked to the firmness you want.
-9. **Serve:** Finish with Parmesan or Pecorino and extra-virgin olive oil: grate the cheese over the portions and drizzle with the extra oil. This oil allowance is separate from the full measured oil already used to brown the lamb.
+1. **Heat the oil:** Heat extra-virgin olive oil in a large heavy pot over medium-high heat until it shimmers.
+2. **Brown the lamb:** Add ground lamb in a broad layer and cook undisturbed until browned underneath, 2 to 3 minutes. Break it up and cook until well browned and crisp in spots, 6 to 8 minutes more. Lift the lamb into a bowl with a slotted spoon and leave the fat in the pot.
+3. **Soften the onion:** Turn the heat to medium. Add medium yellow onion to the fat and cook, scraping up the browned bits, until soft and golden, 5 to 8 minutes.
+4. **Melt the anchovies:** Add garlic cloves, red pepper flakes, and anchovy fillets and cook, stirring, until the anchovies melt into the oil and the garlic is fragrant, about 2 minutes.
+5. **Toast the tomato paste:** Stir in tomato paste and cook, stirring, until it turns brick red and smells roasted, about 3 minutes.
+6. **Simmer the sauce:** Return the lamb and its juices and stir in crushed tomatoes, water, kosher salt, and black pepper, scraping the bottom of the pot. Bring to a boil, then lower the heat and simmer gently, stirring now and then, until the sauce is thick and meaty, 25 to 30 minutes.
+7. **Boil the pasta:** When the sauce has about 15 minutes left, bring a large pot of well-salted water to a boil. Add penne or shells and cook until just short of al dente, then drain.
+8. **Finish the sauce:** Stir balsamic vinegar and fresh oregano or marjoram leaves into the sauce. Add the pasta and toss over low heat until it is coated and al dente, about 1 minute. Taste and add more salt if it needs it.
+9. **Serve:** Spoon into bowls and finish with Parmesan or Pecorino Romano and extra-virgin olive oil.

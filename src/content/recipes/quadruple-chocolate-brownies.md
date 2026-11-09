@@ -17,12 +17,14 @@ cuisines:
 role: dessert
 vibe: comfort
 prepTime: 30 min
-cookTime: 35–40 min
-totalTime: 65–80 min plus cooling completely
+cookTime: 40 min
+totalTime: '1 hr 10 min, plus 2 hr cooling'
 advancePrep:
   - cool-completely
 servings: 48 pieces
 ingredients:
+  - '--- Brownies ---'
+  - 'butter, for the pans'
   - '1 1/4 lb (5 sticks) unsalted butter, softened'
   - '1 lb unsweetened chocolate, chopped'
   - 5 1/2 cups granulated sugar
@@ -30,21 +32,23 @@ ingredients:
   - 2 tbsp pure vanilla extract
   - 1 tbsp kosher salt
   - 3 3/4 cups all-purpose flour
-  - '1/2 lb bittersweet chocolate, chopped into approximately 1/2-inch pieces'
-  - '1/2 lb white chocolate, chopped into approximately 1/2-inch pieces'
-  - '1/2 lb milk chocolate, chopped into approximately 1/2-inch pieces'
-  - 'additional butter, as needed for greasing'
+  - '5 oz bittersweet chocolate, chopped into 1/2-inch pieces'
+  - '5 oz white chocolate, chopped into 1/2-inch pieces'
+  - '5 oz milk chocolate, chopped into 1/2-inch pieces'
+  - '--- Swirl ---'
+  - '3 oz bittersweet chocolate, chopped'
+  - '3 oz white chocolate, chopped'
+  - '3 oz milk chocolate, chopped'
 seasons:
   - year-round
 nutritionalDensity: moderate
 leftovers: good
 pairsWith:
-  - apple-cider-cream-pie
-  - apple-pie
-  - babys-first-smash-cake
-  - best-cinnamon-roll-recipe-cinnabon-copycat
-source: Adapted from Foodandwine.com
-sourceUrl: 'http://www.foodandwine.com/recipes/quadruple-chocolate-brownies'
+  - old-fashioned-vanilla-ice-cream
+pairingNotes:
+  old-fashioned-vanilla-ice-cream: A cold scoop to soften all that chocolate.
+source: Adapted from Food & Wine
+sourceUrl: 'https://www.foodandwine.com/recipes/quadruple-chocolate-brownies'
 formula:
   version: 1
   yield:
@@ -54,6 +58,13 @@ formula:
     - id: brownies
       name: Brownies
       ingredients:
+        - id: pan-butter
+          key: pan-butter
+          name: butter
+          allowance: for the pans
+          uses:
+            - step: prep
+              share: 1
         - id: butter
           key: butter
           name: unsalted butter
@@ -127,138 +138,128 @@ formula:
           key: bittersweet-chocolate
           name: bittersweet chocolate
           quantity:
-            amount: 1/2
-            unit: lb
+            amount: 5
+            unit: oz
           uses:
             - step: fold
-              share: 5/8
-            - step: swirl
-              share: 3/8
-          preparation: chopped into approximately 1/2-inch pieces
+              share: 1
+          preparation: chopped into 1/2-inch pieces
         - id: white-chocolate
           key: white-chocolate
           name: white chocolate
           quantity:
-            amount: 1/2
-            unit: lb
+            amount: 5
+            unit: oz
           uses:
             - step: fold
-              share: 5/8
-            - step: swirl
-              share: 3/8
-          preparation: chopped into approximately 1/2-inch pieces
+              share: 1
+          preparation: chopped into 1/2-inch pieces
         - id: milk-chocolate
           key: milk-chocolate
           name: milk chocolate
           quantity:
-            amount: 1/2
-            unit: lb
+            amount: 5
+            unit: oz
           uses:
             - step: fold
-              share: 5/8
-            - step: swirl
-              share: 3/8
-          preparation: chopped into approximately 1/2-inch pieces
-        - id: pan-butter
-          key: pan-butter
-          name: additional butter
-          allowance: as needed for greasing
-          uses:
-            - step: prep
               share: 1
+          preparation: chopped into 1/2-inch pieces
+    - id: swirl
+      name: Swirl
+      ingredients:
+        - id: swirl-bittersweet
+          key: bittersweet-chocolate
+          name: bittersweet chocolate
+          quantity:
+            amount: 3
+            unit: oz
+          uses:
+            - step: melt-swirl
+              share: 1
+          preparation: chopped
+        - id: swirl-white
+          key: white-chocolate
+          name: white chocolate
+          quantity:
+            amount: 3
+            unit: oz
+          uses:
+            - step: melt-swirl
+              share: 1
+          preparation: chopped
+        - id: swirl-milk
+          key: milk-chocolate
+          name: milk chocolate
+          quantity:
+            amount: 3
+            unit: oz
+          uses:
+            - step: melt-swirl
+              share: 1
+          preparation: chopped
   steps:
     - id: prep
-      title: Prepare pans
+      title: Prepare the pans
       text: >-
-        Heat the oven to 300°F. For the original batch, line the bottoms of two 9×13-inch baking
-        pans with parchment and lightly grease the pans with {{ingredients}}. Have a mixing bowl
-        large enough for the complete batter.
+        Heat the oven to 300°F. Grease two 9×13-inch pans with {{ingredients}} and line the bottoms
+        with parchment.
     - id: melt
-      title: Melt
+      title: Melt the chocolate
       text: >-
-        Melt {{ingredients}} over low heat in a large saucepan, stirring frequently. Remove from
-        heat and cool for about 10 minutes, until warm rather than hot before combining with eggs.
+        In a large saucepan over low heat, melt {{ingredients}}, stirring often, until smooth and
+        glossy. Take the pan off the heat and let it cool for 10 minutes.
     - id: mix
-      title: Mix eggs
+      title: Whisk the eggs
       text: >-
-        Whisk {{ingredients}} together until evenly combined. Whisk in all the warm melted chocolate
-        mixture until smooth; stop once evenly combined.
+        In a very large bowl, whisk {{ingredients}} until thick and pale, about 2 minutes. Whisk in
+        the melted chocolate until smooth.
     - id: fold
-      title: Fold
+      title: Fold in the flour
       text: >-
-        Fold in {{ingredients}} just until no dry flour remains and the chocolate pieces are
-        dispersed. The three partial chocolate shares belong in the batter; keep their remaining
-        shares separate for the swirl. Divide all the batter evenly among the prepared pans.
+        Fold in {{ingredients}} just until no dry flour remains. Spread the batter evenly in the two
+        pans.
+    - id: melt-swirl
+      title: Melt the swirl
+      text: >-
+        Put {{ingredients}} in three separate microwave-safe bowls. Melt each in 20-second bursts,
+        stirring between bursts, until smooth.
     - id: swirl
-      title: Swirl
+      title: Marble the tops
       text: >-
-        Keep {{ingredients}} in three separate microwave-safe bowls. Melt each gently in short
-        intervals, stirring between intervals and stopping once smooth. Divide each melted chocolate
-        over all the pans, then draw a table knife through the batter to marble the tops.
+        Drizzle each melted chocolate over both pans. Draw a table knife through the batter a few
+        times to marble it, and stop while all three colors still show.
     - id: bake
       title: Bake
       text: >-
-        Bake for about 35–40 minutes for the original pans, rotating halfway through. Begin checking
-        at 35 minutes: the tops should be shiny and the brownies set at the center, without liquid
-        batter. A toothpick should show moist crumbs rather than a wet batter coating; avoid a
-        chocolate pocket or check a second spot.
+        Bake, rotating the pans halfway through, until the tops are shiny and the centers are set,
+        35 to 40 minutes. A toothpick in the center should come out with moist crumbs.
     - id: cool
-      title: Cool
+      title: Cool and cut
       text: >-
-        Set the pans on a wire rack and cool completely before cutting into the listed pieces. Do
-        not use the oven clock as a cooling deadline.
+        Cool the brownies completely in the pans on a rack, about 2 hours, then cut them into
+        squares.
 learning:
-  focus: Divide three chocolates between the batter and separate swirls
-  outcome: Rich brownies with intact chocolate pieces and marbled tops.
   techniques:
     - temperature
-  before:
-    - >-
-      Each finishing chocolate uses five eighths in the batter and three eighths for its own swirl.
-      For the original half-pound amount, those shares are 5 oz and 3 oz; follow the proportional
-      shares at other scales.
-    - >-
-      The two 9×13-inch pans and original baking range apply to the original batch. Make multiples
-      in separate original-size pans or batches; smaller quantities need an appropriate smaller pan,
-      similar batter depth and earlier center checks. Pan dimensions and oven times do not multiply
-      with ingredients.
-  checkpoints:
-    - step: 4
-      cue: The chopped chocolate shares are dispersed and no dry flour remains.
-      why: The remaining three shares must stay out of the batter until they are melted separately.
-    - step: 6
-      cue: 'Shiny tops and a set, fudgy center without liquid batter.'
-      why: Firm edges alone do not establish that the deep center is ready.
-  troubleshooting:
-    - problem: Swirl becomes a single blended color
-      cause: Repeated knife passes mixed the melted chocolates together.
-      fix: Use a few gentle passes and stop while the three colors are still visible.
-  timing: >-
-    Plan about 30 minutes preparation, a short warm-mixture cooling interval and 35–40 minutes
-    baking for the original pans, plus complete cooling before cutting. Larger batches may require
-    more oven rounds; cooling can extend the schedule beyond the oven time.
   storage: >-
-    Keep completely cooled brownies covered. Cover after complete cooling; refrigerating gives a
-    firmer texture.
-  sources:
-    - title: Quadruple chocolate brownies — saved recipe
-      url: >-
-        https://github.com/jsilton/mise/blob/045e5ba276b560e4f7d3d485b4860f610d295bac/src/content/recipes/quadruple-chocolate-brownies.md
+    Keeps 4 days covered at room temperature or a week in the fridge, where they turn firmer and
+    fudgier. Freeze for up to 3 months.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Keep all five sticks of butter in the original batch. Unsweetened chocolate forms the batter, while bittersweet, white and milk chocolate each supply both pieces inside and a separate melted swirl on top. Reserve those shares before folding; complete cooling gives the rich center time to firm for cutting.
+Food & Wine's party-size brownies use four chocolates. A full pound of unsweetened chocolate makes a deep, not-too-sweet base. Bittersweet, white and milk chocolate go in twice, as chunks in the batter and as a marbled swirl on top. Baking low at 300°F keeps the big batch fudgy all the way to the center.
 
 ## Directions
 
-1. **Prepare pans:** Heat the oven to 300°F. For the original batch, line the bottoms of two 9×13-inch baking pans with parchment and lightly grease the pans with additional butter. Have a mixing bowl large enough for the complete batter.
-2. **Melt:** Melt unsalted butter and unsweetened chocolate over low heat in a large saucepan, stirring frequently. Remove from heat and cool for about 10 minutes, until warm rather than hot before combining with eggs.
-3. **Mix eggs:** Whisk granulated sugar, large eggs, pure vanilla extract, and kosher salt together until evenly combined. Whisk in all the warm melted chocolate mixture until smooth; stop once evenly combined.
-4. **Fold:** Fold in all-purpose flour, 5/8 of the bittersweet chocolate, 5/8 of the white chocolate, and 5/8 of the milk chocolate just until no dry flour remains and the chocolate pieces are dispersed. The three partial chocolate shares belong in the batter; keep their remaining shares separate for the swirl. Divide all the batter evenly among the prepared pans.
-5. **Swirl:** Keep 3/8 of the bittersweet chocolate, 3/8 of the white chocolate, and 3/8 of the milk chocolate in three separate microwave-safe bowls. Melt each gently in short intervals, stirring between intervals and stopping once smooth. Divide each melted chocolate over all the pans, then draw a table knife through the batter to marble the tops.
-6. **Bake:** Bake for about 35–40 minutes for the original pans, rotating halfway through. Begin checking at 35 minutes: the tops should be shiny and the brownies set at the center, without liquid batter. A toothpick should show moist crumbs rather than a wet batter coating; avoid a chocolate pocket or check a second spot.
-7. **Cool:** Set the pans on a wire rack and cool completely before cutting into the listed pieces. Do not use the oven clock as a cooling deadline.
+1. **Prepare the pans:** Heat the oven to 300°F. Grease two 9×13-inch pans with butter and line the bottoms with parchment.
+2. **Melt the chocolate:** In a large saucepan over low heat, melt unsalted butter and unsweetened chocolate, stirring often, until smooth and glossy. Take the pan off the heat and let it cool for 10 minutes.
+3. **Whisk the eggs:** In a very large bowl, whisk granulated sugar, large eggs, pure vanilla extract, and kosher salt until thick and pale, about 2 minutes. Whisk in the melted chocolate until smooth.
+4. **Fold in the flour:** Fold in all-purpose flour, bittersweet chocolate, white chocolate, and milk chocolate just until no dry flour remains. Spread the batter evenly in the two pans.
+5. **Melt the swirl:** Put bittersweet chocolate, white chocolate, and milk chocolate in three separate microwave-safe bowls. Melt each in 20-second bursts, stirring between bursts, until smooth.
+6. **Marble the tops:** Drizzle each melted chocolate over both pans. Draw a table knife through the batter a few times to marble it, and stop while all three colors still show.
+7. **Bake:** Bake, rotating the pans halfway through, until the tops are shiny and the centers are set, 35 to 40 minutes. A toothpick in the center should come out with moist crumbs.
+8. **Cool and cut:** Cool the brownies completely in the pans on a rack, about 2 hours, then cut them into squares.

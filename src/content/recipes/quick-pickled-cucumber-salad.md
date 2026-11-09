@@ -25,89 +25,48 @@ nutritionalDensity: light
 leftovers: excellent
 prepTime: 10 min
 cookTime: 0 min
-totalTime: 'About 35 min, including the salt and dressing rests'
+totalTime: 35 min
 servings: '4'
 pairsWith:
-  - thai-basil-chicken-pad-kra-pao
-  - japanese-beef-rice-bowl-gyudon
-  - coconut-curry-shrimp
+  - kalbi-grilled-korean-style-short-ribs
+  - slow-cooker-korean-beef
+pairingNotes:
+  kalbi-grilled-korean-style-short-ribs: A cool, tangy bite between rich grilled ribs.
+  slow-cooker-korean-beef: Crisp cucumbers to brighten a sweet, saucy rice bowl.
 ingredients:
-  - '1.5 lbs English Cucumbers (or 4-5 regular cucumbers), thinly sliced'
-  - 1/4 cup Rice Vinegar
-  - 2 tbsp Soy Sauce
-  - 1 tbsp Sesame Oil
-  - 1 tbsp Sugar
-  - '2 cloves Garlic, minced'
-  - '1/2 tsp Gochugaru (Korean red pepper flakes, optional)'
+  - '1 1/2 lb English cucumbers, sliced 1/8 inch thick'
+  - 1 tsp kosher salt
+  - 1/4 cup rice vinegar
+  - 2 tbsp soy sauce
+  - 1 tbsp toasted sesame oil
+  - 1 tbsp sugar
+  - '2 cloves garlic, minced'
   - '2 scallions, thinly sliced'
-  - Sesame Seeds for garnish
-  - '1 tsp Kosher Salt, for the cucumber salt rest'
+  - 1/2 tsp gochugaru (optional)
+  - 'toasted sesame seeds, for garnish'
 learning:
-  focus: 'Treat the short vinegar rest as salad preparation, with cold storage.'
-  outcome: Thin cucumber slices with full sesame-soy dressing and fresh scallions.
   techniques:
     - temperature
     - seasoning
-  before:
-    - >-
-      Follow the listed cucumber weight; the original four-to-five
-      regular-cucumber estimate varies with size. Scaling changes the
-      ingredients, not slice thickness or resting minutes.
-    - >-
-      Drain the salting liquid and gently squeeze the cucumbers without rinsing. Use all the listed
-      vinegar, oil and sugar in the dressing.
-  checkpoints:
-    - step: 3
-      cue: The salted cucumbers are drained and gently squeezed before all dressing is added.
-      why: >-
-        Salting draws out much of the water up front so the dressing stays
-        concentrated instead of turning watery.
-  troubleshooting:
-    - problem: The bowl becomes watery later.
-      cause: Cucumbers continued releasing water into the dressing.
-      fix: >-
-        Toss again before serving or assemble nearer service. Keep the salad refrigerated;
-        adding salt or acid does not replace cold storage.
-  timing: >-
-    Allow about 35 minutes for slicing, the 15–20-minute salt rest, dressing and
-    the five-minute rest; mix the dressing during the salt rest. The optional
-    two-hour cold rest is extra elapsed time.
+  substitutions:
+    - ingredient: gochugaru
+      alternative: Red pepper flakes
+      effect: Use a pinch. They are hotter and less fruity.
   storage: >-
-    Keep the salad at 40°F or below. Refrigerate promptly in shallow covered
-    containers, within 2 hours of preparation or 1 hour above 90°F. Keep serving
-    utensils clean and return unserved portions to refrigeration promptly;
-    dressing does not replace cold storage. Use within 3 refrigerated days as a
-    fresh salad; do not treat its vinegar dressing as permission for
-    room-temperature storage.
-  sources:
-    - title: FDA — Safe food handling
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: NCHFP — General information on pickling
-      url: >-
-        https://nchfp.uga.edu/how/pickle/general-information-pickling/general-information-on-pickling/
-    - title: FDA — Produce preparation
-      url: >-
-        https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
-  substitutions: []
+    Keeps 3 days in the fridge. The cucumbers soften, but the flavor deepens overnight.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Thin cucumber slices take on the full rice-vinegar, soy and sesame dressing after a short rest. This is a fresh dressed cucumber salad kept refrigerated, without a fermentation or shelf-stable preservation process. Scallions, optional gochugaru and sesame seeds finish it; cucumber variety and slicing affect how much liquid collects.
+A quick Korean-style cucumber salad, the kind of bright side that sits beside grilled meat and rich stews. Salting the slices first pulls out their water, so the soy, vinegar and sesame dressing stays punchy instead of watery. Gochugaru adds a gentle, fruity heat.
 
 ## Directions
 
-1. **Prepare the cucumbers:** Wash the cucumbers under running water, then slice into thin rounds or half-moons, about 1/8 inch thick. Use the listed cucumber weight; the four-to-five regular-cucumber note describes the original batch only and is not a fixed size-to-weight equivalence. Toss with all the listed kosher salt in a colander set over a bowl and rest 15–20 minutes, until the slices are limp and liquid has collected.
-
-2. **Mix the dressing:** Whisk all the rice vinegar, soy sauce, sesame oil, sugar and minced garlic together until the sugar is dissolved. Keep the full listed oil and sugar; this mixture flavors the salad rather than establishing preservation acidity.
-
-3. **Combine:** Discard the liquid from the salted cucumbers, then gently squeeze them by handfuls to remove more water; do not rinse. Put the cucumber slices in a clean bowl, pour over all the dressing and toss gently.
-
-4. **Rest:** Rest about 5 minutes before immediate service, or cover and refrigerate for up to 2 hours before finishing. The longer cold wait changes texture and liquid release; it does not make a shelf-stable pickle.
-
-5. **Finish:** Wash the scallions before slicing. Fold in all the scallions and, if chosen, the full listed optional gochugaru. Garnish with the sesame-seed allowance and serve promptly.
-
-6. **Store:** Keep covered at 40°F or below. Use within 3 refrigerated days for the short fresh-salad plan; the dressing does not make this a shelf-stable pickle. Refrigerate promptly after service and discard if it has exceeded the usual perishable-food room-temperature limits.
+1. **Salt the cucumbers:** Toss the cucumbers with the salt in a colander set over a bowl. Let them sit until limp and a pool of liquid has collected, 15 to 20 minutes.
+2. **Make the dressing:** Meanwhile, whisk the vinegar, soy sauce, sesame oil, sugar and garlic until the sugar dissolves.
+3. **Squeeze the cucumbers:** Discard the liquid. Squeeze the cucumbers gently by the handful to press out more water. Don't rinse them.
+4. **Dress:** In a serving bowl, toss the cucumbers with the dressing. Let them sit for 5 minutes, or cover and refrigerate for up to 2 hours.
+5. **Finish:** Top with the scallions, the gochugaru, if using, and the sesame seeds, and serve cold.
