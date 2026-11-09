@@ -21,7 +21,7 @@ vibe: quick
 prepTime: 15 min
 cookTime: 25 min
 totalTime: 40 min
-servings: 4 generous main portions
+servings: '4'
 seasons:
   - year-round
   - spring
@@ -30,21 +30,21 @@ leftovers: good
 pairsWith:
   - everyday-arugula-salad
   - garlic-bread
+pairingNotes:
+  everyday-arugula-salad: Peppery greens and lemon against the rich, cheesy shells.
+  garlic-bread: For wiping up the last of the sauce.
 ingredients:
-  - 1 lb dry mini-shell pasta
+  - 1 lb dried mini shell pasta
   - '10 slices smoked bacon, cut crosswise into thin slivers'
-  - 2 cups frozen peas
-  - 1/2 cup crème fraîche or heavy cream
-  - '1 lemon, juiced, added gradually to taste'
-  - '6 oz Parmesan, finely grated'
-  - '2 tbsp fresh mint, finely chopped, divided between sauce and garnish'
   - 1 tbsp unsalted butter
-  - '1 cup hot pasta cooking water, reserved before draining; use only as needed'
-  - 'Salt and freshly ground black pepper, to taste'
+  - 2 cups frozen peas
+  - 1/2 cup crème fraîche
+  - '2 tbsp fresh mint, finely chopped'
+  - '6 oz Parmesan, finely grated'
+  - '1 lemon, juiced'
+  - 'kosher salt and freshly ground black pepper, to taste'
 origin: Italy
-source: >-
-  Adapted from The New York Times, Mini-Shell Pasta with Creamy Smoked Bacon and
-  Peas
+source: Adapted from The New York Times
 equipment:
   - large-pasta-pot
   - large-deep-skillet
@@ -52,113 +52,36 @@ description: >-
   Small pasta shells with smoked bacon, sweet peas, mint and a rich Parmesan
   finish, loosened with pasta water.
 learning:
-  focus: Cook peas completely and add a generous cheese finish away from direct heat
-  outcome: >-
-    Tender shells holding peas, smoky bacon pieces and a creamy Parmesan coating
-    with fresh mint.
   techniques:
     - emulsions
     - browning
     - seasoning
-  before:
-    - >-
-      Read the bacon and pea package instructions. Bacon slice thickness changes
-      both fat yield and cooking time; no fixed slice-to-weight conversion is
-      assumed.
-    - >-
-      Use a large deep skillet, with the pasta pot available as a larger mixing
-      vessel if needed. For more servings cook bacon in rounds, dividing the
-      butter among them, and finish in separate batches if the pot is too full
-      to toss.
-    - >-
-      Grate Parmesan finely before starting. The measured cheese is a
-      generous part of this sauce; add it gradually and do not assume the
-      pasta-water reserve must all go in.
-  checkpoints:
-    - step: 2
-      cue: >-
-        Bacon is cooked through and golden with crisp edges, without burnt
-        butter solids.
-      why: >-
-        Sliver thickness and water content determine rendering time; moderate
-        heat gives fat time to emerge.
-    - step: 3
-      cue: >-
-        Peas have completed their package cooking process and are hot
-        throughout.
-      why: >-
-        A brief stir in bacon fat is not a universal cooking method for frozen
-        vegetables.
-    - step: 5
-      cue: The pan is off heat and cheese disperses gradually into a moist coating.
-      why: A large cheese addition can clump when it lands in a very hot dry pan.
-  troubleshooting:
-    - problem: Cheese turns into tight clumps
-      cause: The pan was too hot or cheese entered in one mound.
-      fix: >-
-        Move to a bowl or cooler pot and toss with a little warm water. Some
-        clumps may remain; boiling harder will not reliably smooth them.
-    - problem: Bacon burns before rendering
-      cause: Heat was too high or slivers uneven.
-      fix: >-
-        Lower the heat and stir more often. Discard blackened pieces; butter and
-        bacon should smell toasted, not acrid.
-    - problem: Sauce is too salty
-      cause: >-
-        Bacon and the generous Parmesan dose were combined with heavily salted
-        water.
-      fix: >-
-        Avoid extra salt until tasting. Use plain warm water instead of salty
-        cooking water if more liquid is needed; lemon does not remove salt.
   substitutions:
     - ingredient: Crème fraîche
-      alternative: The listed equal volume of heavy cream
-      effect: >-
-        Less tangy and slightly thinner. Either one gives the Parmesan finish a
-        creamy body and helps keep the cheese from clumping.
-    - ingredient: Mini shells
-      alternative: The same dry weight of another small pasta shape
-      effect: >-
-        Follow package timing; shapes without pockets will hold fewer peas
-        inside.
-  timing: >-
-    Plan about 40 minutes including water heating and fifteen minutes
-    cutting/grating in parallel. Bacon commonly needs ten to fifteen minutes;
-    cook pasta and peas alongside it, then allow several minutes for combining
-    and the cheese finish. Thick bacon or extra rounds take longer.
+      alternative: Heavy cream
+      effect: The sauce is a little thinner and loses its gentle tang.
+    - ingredient: Mini shell pasta
+      alternative: Ditalini or orecchiette
+      effect: Cook by the package time. Ditalini holds fewer peas inside.
   storage: >-
-    Refrigerate promptly in shallow containers within 2 hours, or 1 hour above
-    90°F / 32°C, at 40°F / 4°C or below. Plan to use the next day for texture.
-    Reheat the portion needed with a little water, stirring, to 165°F / 74°C
-    throughout. Pasta absorbs sauce and softens during storage; fresh herbs and
-    cheese lose some of their original texture.
-  sources:
-    - title: Chef Lorenzo Boni — Pasta cooking and reserved water
-      url: >-
-        https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta
-    - title: FoodSafety.gov — Cooking and leftover temperatures
-      url: >-
-        https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
-    - title: FoodSafety.gov — Prompt refrigeration and separation
-      url: 'https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety'
+    Keeps 2 days in the fridge. Reheat gently with a splash of water, since the
+    pasta soaks up the sauce.
   review:
     status: editorial-review
-    date: '2026-09-06'
-sourceUrl: >-
-  https://mobile.nytimes.com/2009/10/11/magazine/11food-rex002.html?referer=https://www.google.com/
+    date: '2026-11-09'
+sourceUrl: 'https://www.nytimes.com/2009/10/11/magazine/11food-rex002.html'
 ---
 
 ## Chef's Note
 
-Mini shells catch the peas while smoked bacon and a generous amount of Parmesan make a rich sauce. Cook the peas fully, then combine the hot ingredients and move away from direct heat before adding cheese. Keep some of the measured mint for serving so its aroma stays fresh.
+This is a spring pasta in the spirit of Italian pasta e piselli, where little shells scoop up sweet peas and slivers of smoky bacon. Rendered bacon fat, crème fraîche and pasta water turn the Parmesan into a glossy sauce. Mint and a squeeze of lemon keep it bright.
 
 ## Directions
 
-1. **Start water and prepare:** Bring pasta water to a boil. Cut bacon into thin slivers, finely grate Parmesan, chop mint and juice the lemon. Season the water moderately; bacon and cheese bring much of the salt.
-2. **Cook bacon:** Melt butter in a large deep skillet over medium-low to medium. Add bacon and cook, stirring, about **10–15 minutes** or as its package directs, until cooked through and golden with crisp edges. Lower heat if butter darkens quickly. Keep the rendered fat for the sauce; do not add more oil.
-3. **Cook pasta and peas:** Meanwhile cook pasta according to package directions until tender with a little bite. Cook peas fully according to their package in a separate saucepan or microwave-safe bowl and drain. Reserve **the listed pasta water** before draining pasta without rinsing.
-4. **Combine:** Stir cooked peas, crème fraîche or cream and **half the mint** into the bacon pan over low heat. Add hot pasta and about **one-quarter of the reserved water**. Toss gently until hot and coated, using the pasta pot instead if the skillet is too full.
-5. **Add cheese off heat:** Remove from the burner and wait until bubbling subsides. Fold in Parmesan a handful at a time, adding warm water in small amounts as needed for a creamy coating. Add **half the lemon juice**, taste, then add more of the remaining juice only as needed. The sauce should remain slightly loose for plating.
-6. **Serve:** Add black pepper and taste before salt. Divide into the intended portions and scatter **the remaining measured mint** over the top. Serve promptly.
-
-Adapted from [The New York Times’ Mini-Shell Pasta with Creamy Smoked Bacon and Peas](https://www.nytimes.com/2009/10/11/magazine/11food-rex002.html).
+1. **Heat the water:** Bring a large pot of lightly salted water to a boil. The bacon and Parmesan bring plenty of salt.
+2. **Render the bacon:** Melt the butter in a large, deep skillet over medium heat. Add the bacon and cook, stirring often, until golden with crisp edges, 10 to 12 minutes. Lower the heat if the butter darkens too fast.
+3. **Boil the pasta:** While the bacon cooks, boil the pasta until 1 minute short of the package time. Scoop out a mug of the pasta water, then drain.
+4. **Cook the peas:** Add the peas to the bacon and its fat. Cook, stirring, until hot and bright green, 3 to 4 minutes. Stir in the crème fraîche and half the mint, then turn the heat to low.
+5. **Toss the pasta:** Add the drained pasta and a splash of the pasta water. Toss until hot and coated, about 1 minute, then take the pan off the heat.
+6. **Add the cheese:** Fold in the Parmesan a handful at a time, adding more pasta water as needed, until the sauce is glossy and creamy. Stir in half the lemon juice, taste, and add more lemon, salt and pepper until it's bright.
+7. **Serve:** Spoon into bowls and scatter the rest of the mint and plenty of black pepper over the top.

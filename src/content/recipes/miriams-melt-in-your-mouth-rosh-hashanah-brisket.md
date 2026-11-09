@@ -16,17 +16,21 @@ cuisines:
 role: main
 vibe: holiday
 prepTime: 30 min
-cookTime: '5 hr, plus reheating'
-totalTime: 'Overnight, plus 5 hr 30 min and reheating'
+cookTime: 5 hr 30 min
+totalTime: '6 hr, plus overnight chilling'
 servings: 8 portions
 pairsWith:
-  - nana-ruths-applesauce
+  - my-favorite-challah
   - cinnamon-sweet-potatoes
   - green-beans-with-shallots-and-lemon
+pairingNotes:
+  my-favorite-challah: Holiday challah for mopping up the honey sauce.
+  cinnamon-sweet-potatoes: Sweet potatoes for a sweet new year.
+  green-beans-with-shallots-and-lemon: Bright green beans to cut the rich meat.
 ingredients:
   - '--- Brisket and Onions ---'
-  - '3 lb first-cut brisket, well-marbled'
-  - '2 large Spanish onions, sliced into thick rounds'
+  - 3 lb first-cut brisket
+  - '2 large Spanish onions, cut into thick rounds'
   - '--- Spice Rub ---'
   - 2 tbsp paprika
   - 2 tbsp garlic powder
@@ -41,7 +45,7 @@ nutritionalDensity: moderate
 leftovers: excellent
 advancePrep:
   - chill-to-set
-source: 'Adapted from Miriam Szokovski, Chabad.org'
+source: Adapted from Miriam Szokovski
 sourceUrl: >-
   https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm
 equipment:
@@ -64,7 +68,6 @@ formula:
           quantity:
             amount: 3
             unit: lb
-          preparation: well-marbled
           uses:
             - step: roast
               share: 1
@@ -75,7 +78,7 @@ formula:
             amount: 2
             unit: count
           plural: large Spanish onions
-          preparation: sliced into thick rounds
+          preparation: cut into thick rounds
           uses:
             - step: prepare
               share: 1
@@ -142,163 +145,75 @@ formula:
               share: 1
   steps:
     - id: prepare
-      title: Foundation
+      title: Lay out the onions
       text: >-
-        Preheat the oven to 400°F. Lay {{ingredients}} across the bottom of a heavy baking dish or
-        Dutch oven. Choose a vessel in which the meat can lie without folding or crowding, with room
-        for its juices and a tight lid or foil cover. For a larger batch, use enough vessels and
-        divide all the onions, rub and liquids in proportion to the meat in each; a smaller batch
-        needs an appropriately smaller vessel.
+        Heat the oven to 400°F. Lay the {{ingredients}} in a single layer in a heavy baking dish or
+        Dutch oven that holds the brisket flat.
     - id: rub
-      title: Rub
+      title: Rub the brisket
       text: >-
-        Mix {{ingredients}} in a small bowl, omitting the chives if not using them. Pat the full
-        measured rub over both sides of {{name:meat.brisket}}.
+        Mix {{ingredients}} in a small bowl. Rub the mixture into every surface of the
+        {{name:meat.brisket}}.
     - id: roast
-      title: Uncovered Roast
+      title: Roast uncovered
       text: >-
-        Place {{ingredients}} on the onions. Roast uncovered for 1 hour for the original 3 lb batch.
-        Watch for browning rather than blackened spices or onions; smaller or thinner cuts need
-        earlier browning checks, and pan shape affects the result.
+        Set the {{ingredients}} on the onions and roast uncovered until the rub is browned and the
+        onions are starting to color, 1 hour.
     - id: braise
-      title: Cover
+      title: Add the sauce
       text: >-
-        Remove the dish from the oven. Pour {{ingredients}} over the meat, retaining all its juices.
-        Cover tightly with a heavy lid or double layer of foil, and reduce the oven to 250°F. The
-        onions and meat release liquid during the covered cook.
+        Take the dish out and turn the oven down to 250°F. Pour {{ingredients}} over the meat. Cover
+        very tightly with a heavy lid or a double layer of foil.
     - id: tender
-      title: Low and Slow
+      title: Braise low and slow
       text: >-
-        Return the covered dish to the oven and begin checking around 4 more hours for the original
-        batch. Turn the meat about once an hour, or at least once halfway through, spooning the
-        liquid back over it and promptly replacing the cover. Begin checking tenderness earlier for
-        smaller or thinner cuts, and allow longer for thicker cuts. Continue until a fork enters
-        with almost no resistance; size, thickness, pan and oven can change the clock. Check that
-        the center has reached at least 145°F, then let it rest at least 3 minutes before handling.
+        Return the dish to the oven and braise until a fork slides into the meat with almost no
+        resistance, about 4 hours. Turn the brisket once an hour and spoon the juices over it,
+        sealing the cover again each time.
     - id: chill
-      title: Chill for Slicing
+      title: Chill overnight
       text: >-
-        Divide the cooked brisket into smaller sections that can lie in shallow containers, and
-        divide all the onions, juices and rendered fat among them. Refrigerate promptly at 40°F or
-        below, within 2 hours of cooking, or within 1 hour above 90°F. Do not leave a deep pan on
-        the counter until completely cold. Chill until the meat is cold throughout, preferably
-        overnight.
+        Let the brisket cool in its juices for 30 minutes. Cover and refrigerate overnight, until
+        the meat is cold and firm and the fat has set on top.
+    - id: slice
+      title: Slice the brisket
+      text: >-
+        Lift off the hardened fat if you like. Take out the cold brisket and slice it thinly against
+        the grain, then lay the slices in a baking dish.
     - id: serve
-      title: Slice and Reheat
+      title: Reheat in the sauce
       text: >-
-        Remove the cold meat and slice thinly against the grain. Reheat the full onions, sauce and
-        fat in a saucepan, stirring to bring the sauce to a rolling boil briefly. Return all of it
-        to the sliced meat and reheat covered in the oven or on the stovetop until the meat and
-        sauce reach 165°F throughout, checking several places. Serve with all the onions and sauce;
-        prolonged boiling will concentrate the sweet sauce, so avoid unnecessary continued
-        reduction.
+        Bring the onions and sauce to a boil in a saucepan and pour them over the slices. Cover and
+        reheat in a 325°F oven until hot through, about 30 minutes.
 learning:
-  focus: Tender brisket and thin slices through a covered braise followed by chilling.
-  outcome: >-
-    A fork enters the braised brisket easily, cold slices stay together, and the reheated meat is
-    coated in onion-rich honey and balsamic sauce.
   techniques:
     - braising
     - temperature
-  before:
-    - >-
-      Keep the full honey, vinegar and rub amounts. Dried chives are optional; no extra water or
-      stock is prescribed.
-    - >-
-      Use a pan that holds the cut without folding and seals tightly. More meat needs enough
-      separate vessels with the complete formula divided proportionally; do not multiply the oven
-      temperature or promise the same cooking time.
-    - >-
-      Plan refrigerator space and shallow containers for the overnight cold-slicing route, or use
-      the fresh-service option below. For the original 3 lb batch, eight portions are a planning
-      count (about 3 1/2 oz cooked meat each) and the source estimates about forty thin slices. For
-      twelve generous portions, use a 4 1/2 lb brisket and scale the rest of the formula. Follow the
-      listed portion plan when scaling; these counts do not establish measured dinner sizes.
-  checkpoints:
-    - step: 4
-      cue: 'The lid or foil seals the whole dish, with no open edges.'
-      why: Retaining the meat and onion juices is central to this small-liquid braise.
-    - step: 5
-      cue: A fork enters with almost no resistance and the center has reached at least 145°F.
-      why: >-
-        Tenderness can take longer than the written clock; temperature and tenderness answer
-        different questions.
-    - step: 7
-      cue: >-
-        Thin slices are hot to 165°F in several checked places, with all the sauce and onions
-        returned.
-      why: A bubbling edge alone does not establish that the center of the chilled meat has reheated.
-  troubleshooting:
-    - problem: The meat is still chewy at four hours.
-      cause: 'The cut is thicker, the oven differs or the cover has leaked steam.'
-      fix: >-
-        Replace the tight cover and continue the covered cook until the fork test passes. Do not
-        slice tough meat merely because the timer finished.
-    - problem: The sweet sauce is reducing too far during reheating.
-      cause: A broad uncovered pan or prolonged boiling evaporates more liquid.
-      fix: >-
-        Bring the sauce briefly to the recommended boil, then reheat the slices covered and watch
-        the measured endpoint. Burnt spices or sauce cannot be repaired by scraping them into the
-        dish.
   substitutions:
-    - ingredient: Dried chives
-      alternative: Omit the optional chives
-      effect: 'The full paprika, garlic powder, honey, vinegar and onions remain.'
-    - ingredient: Rendered fat
-      alternative: 'Keep it in the sauce, or skim the chilled surface fat if wanted'
+    - ingredient: Same-day serving
+      alternative: Skip the overnight chill
       effect: >-
-        Keeping it gives a fuller sauce; skimming changes its richness. Keep all the onions and
-        sauce with the meat either way.
-    - ingredient: Kosher salt
-      alternative: Use the same salt crystal type for a repeatable rub
-      effect: >-
-        Equal spoon volumes of different salts can have different masses; the source’s unspecified
-        salt does not establish a fine-salt conversion.
-    - ingredient: Cold-sliced serving route
-      alternative: Serve freshly cooked brisket without the overnight chill
-      effect: >-
-        Complete the same uncovered start and covered braise until the fork enters easily and the
-        center reaches at least 145°F. Rest at least 3 minutes before slicing across the grain and
-        serving with all the onions, sauce and rendered fat. Warm slices may be less tidy than cold
-        slices; this option skips the chilling and reheating stages. Refrigerate any leftovers
-        promptly as described below.
-  timing: >-
-    Allow 30 minutes for preparation, 1 hour uncovered and about 4 hours covered for the original
-    cut, longer if tenderness requires it. Turning is brief attended work during the braise.
-    Cooling, preferably overnight chilling, slicing and reheating are additional; plan the overnight
-    route across two days rather than a fixed twelve-hour window. Scaled cut geometry and extra
-    vessels can change cooking and reheating time.
+        Rest the braised brisket for 10 minutes, then slice it against the grain and serve it with
+        the onions and sauce. The slices are less tidy.
   storage: >-
-    Cool the cooked meat, onions, full sauce and fat promptly in shallow containers at 40°F or
-    below. Use refrigerated cooked leftovers within 3–4 days. Freeze cooled portions with sauce if
-    wanted and thaw in the refrigerator. Reheat meat and sauce evenly to 165°F; FDA additionally
-    recommends bringing reheated sauces and gravy to a boil. Stir and keep that boil brief rather
-    than reducing away the sauce.
-  sources:
-    - title: 'Miriam Szokovski: Rosh Hashanah Brisket'
-      url: >-
-        https://www.chabad.org/recipes/recipe_cdo/aid/2635033/jewish/Miriams-Melt-in-Your-Mouth-Rosh-Hashanah-Brisket.htm
-    - title: 'FDA: Safe Food Handling'
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling'
-    - title: 'FoodSafety.gov: Safe Minimum Internal Temperatures'
-      url: 'https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures'
-    - title: 'FoodSafety.gov: Cold Food Storage Chart'
-      url: 'https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts'
+    Keeps 4 days in the fridge in its sauce and freezes for 3 months. Reheat covered in a 325°F oven
+    until hot.
   review:
     status: editorial-review
-    date: '2026-10-06'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-Miriam Szokovski’s honey-and-balsamic brisket is a Rosh Hashanah centerpiece with onions cooked underneath the meat. Its uncovered 400°F start is followed by a tightly covered 250°F braise; check for tenderness with a fork rather than treating four hours as a guarantee. Chilling makes thin slices easier, and all the onions, sauce and rendered fat can return to the serving dish.
+Miriam Szokovski's brisket is a Rosh Hashanah centerpiece, with honey for a sweet new year and balsamic vinegar to balance it. The meat roasts hot on a bed of onions, then braises low and slow in its own juices until it melts. Chill it overnight so it slices thin, then reheat the slices in the sauce.
 
 ## Directions
 
-1. **Foundation:** Preheat the oven to 400°F. Lay large Spanish onions across the bottom of a heavy baking dish or Dutch oven. Choose a vessel in which the meat can lie without folding or crowding, with room for its juices and a tight lid or foil cover. For a larger batch, use enough vessels and divide all the onions, rub and liquids in proportion to the meat in each; a smaller batch needs an appropriately smaller vessel.
-2. **Rub:** Mix paprika, garlic powder, kosher salt, and dried chives (if using) in a small bowl, omitting the chives if not using them. Pat the full measured rub over both sides of first-cut brisket.
-3. **Uncovered Roast:** Place first-cut brisket on the onions. Roast uncovered for 1 hour for the original 3 lb batch. Watch for browning rather than blackened spices or onions; smaller or thinner cuts need earlier browning checks, and pan shape affects the result.
-4. **Cover:** Remove the dish from the oven. Pour balsamic vinegar and honey over the meat, retaining all its juices. Cover tightly with a heavy lid or double layer of foil, and reduce the oven to 250°F. The onions and meat release liquid during the covered cook.
-5. **Low and Slow:** Return the covered dish to the oven and begin checking around 4 more hours for the original batch. Turn the meat about once an hour, or at least once halfway through, spooning the liquid back over it and promptly replacing the cover. Begin checking tenderness earlier for smaller or thinner cuts, and allow longer for thicker cuts. Continue until a fork enters with almost no resistance; size, thickness, pan and oven can change the clock. Check that the center has reached at least 145°F, then let it rest at least 3 minutes before handling.
-6. **Chill for Slicing:** Divide the cooked brisket into smaller sections that can lie in shallow containers, and divide all the onions, juices and rendered fat among them. Refrigerate promptly at 40°F or below, within 2 hours of cooking, or within 1 hour above 90°F. Do not leave a deep pan on the counter until completely cold. Chill until the meat is cold throughout, preferably overnight.
-7. **Slice and Reheat:** Remove the cold meat and slice thinly against the grain. Reheat the full onions, sauce and fat in a saucepan, stirring to bring the sauce to a rolling boil briefly. Return all of it to the sliced meat and reheat covered in the oven or on the stovetop until the meat and sauce reach 165°F throughout, checking several places. Serve with all the onions and sauce; prolonged boiling will concentrate the sweet sauce, so avoid unnecessary continued reduction.
+1. **Lay out the onions:** Heat the oven to 400°F. Lay the large Spanish onions in a single layer in a heavy baking dish or Dutch oven that holds the brisket flat.
+2. **Rub the brisket:** Mix paprika, garlic powder, kosher salt, and dried chives (if using) in a small bowl. Rub the mixture into every surface of the first-cut brisket.
+3. **Roast uncovered:** Set the first-cut brisket on the onions and roast uncovered until the rub is browned and the onions are starting to color, 1 hour.
+4. **Add the sauce:** Take the dish out and turn the oven down to 250°F. Pour balsamic vinegar and honey over the meat. Cover very tightly with a heavy lid or a double layer of foil.
+5. **Braise low and slow:** Return the dish to the oven and braise until a fork slides into the meat with almost no resistance, about 4 hours. Turn the brisket once an hour and spoon the juices over it, sealing the cover again each time.
+6. **Chill overnight:** Let the brisket cool in its juices for 30 minutes. Cover and refrigerate overnight, until the meat is cold and firm and the fat has set on top.
+7. **Slice the brisket:** Lift off the hardened fat if you like. Take out the cold brisket and slice it thinly against the grain, then lay the slices in a baking dish.
+8. **Reheat in the sauce:** Bring the onions and sauce to a boil in a saucepan and pour them over the slices. Cover and reheat in a 325°F oven until hot through, about 30 minutes.

@@ -34,42 +34,63 @@ equipment:
   - whisk
   - spatula
 prepTime: 10 min
-cookTime: '23–30 min, or until centers are tender'
-totalTime: '33–40 min, plus any remaining preheating'
+cookTime: 30 min
+totalTime: 40 min
 servings: 4 portions
 pairsWith:
   - japanese-beef-rice-bowl-gyudon
-  - coconut-curry-shrimp
-  - green-curry-chicken
+  - japanese-style-trout-with-dashi
+pairingNotes:
+  japanese-beef-rice-bowl-gyudon: A roasted vegetable beside sweet beef and rice.
+  japanese-style-trout-with-dashi: Salty-sweet cauliflower with delicate fish.
 ingredients:
-  - '--- Mirin glaze ---'
-  - 3 tbsp white miso paste
+  - '--- Cauliflower ---'
+  - '1 1/2 lb cauliflower florets, cut into even pieces'
+  - 2 tbsp neutral oil
+  - '--- Miso glaze ---'
+  - 3 tbsp white miso
   - 2 tbsp mirin
   - 1 tbsp soy sauce
-  - 1 tbsp sesame oil
+  - 1 tbsp toasted sesame oil
   - 1 tbsp rice vinegar
   - '1 tsp fresh ginger, minced'
-  - '--- Honey variation — replaces mirin ---'
-  - '1 1/2 tbsp honey, optional'
-  - '1/2 tbsp additional soy sauce, optional'
-  - '--- Cauliflower ---'
-  - '1 1/2 lb fresh cauliflower florets, similar-sized; washed and dried, very large florets split'
-  - 2 tbsp neutral oil
   - '--- Garnish ---'
-  - 'sesame seeds, for garnishing'
-  - 'scallions, for garnishing, washed and thinly sliced'
+  - 'sesame seeds, for serving'
+  - 'scallions, thinly sliced, for serving'
 formula:
   version: 1
   yield:
     amount: 4
     unit: portion
   components:
+    - id: cauliflower
+      name: Cauliflower
+      ingredients:
+        - id: cauliflower
+          key: cauliflower
+          name: cauliflower florets
+          quantity:
+            amount: 1.5
+            unit: lb
+          preparation: cut into even pieces
+          uses:
+            - step: toss
+              share: 1
+        - id: neutral-oil
+          key: neutral-oil
+          name: neutral oil
+          quantity:
+            amount: 2
+            unit: tbsp
+          uses:
+            - step: toss
+              share: 1
     - id: glaze
-      name: Mirin glaze
+      name: Miso glaze
       ingredients:
         - id: miso
           key: miso
-          name: white miso paste
+          name: white miso
           quantity:
             amount: 3
             unit: tbsp
@@ -96,7 +117,7 @@ formula:
               share: 1
         - id: oil
           key: oil
-          name: sesame oil
+          name: toasted sesame oil
           quantity:
             amount: 1
             unit: tbsp
@@ -122,58 +143,13 @@ formula:
           uses:
             - step: glaze
               share: 1
-    - id: honey-option
-      name: Honey variation — replaces mirin
-      ingredients:
-        - id: honey
-          key: honey
-          name: honey
-          quantity:
-            amount: 1 1/2
-            unit: tbsp
-          optional: true
-          uses:
-            - step: glaze
-              share: 1
-        - id: extra-soy
-          key: extra-soy
-          name: additional soy sauce
-          quantity:
-            amount: 1/2
-            unit: tbsp
-          optional: true
-          uses:
-            - step: glaze
-              share: 1
-    - id: cauliflower
-      name: Cauliflower
-      ingredients:
-        - id: cauliflower
-          key: cauliflower
-          name: fresh cauliflower florets
-          quantity:
-            amount: 1.5
-            unit: lb
-          preparation: 'similar-sized; washed and dried, very large florets split'
-          uses:
-            - step: toss
-              share: 1
-        - id: neutral-oil
-          key: neutral-oil
-          name: neutral oil
-          quantity:
-            amount: 2
-            unit: tbsp
-          uses:
-            - step: toss
-              share: 1
     - id: finish
       name: Garnish
       ingredients:
         - id: sesame
           key: sesame
           name: sesame seeds
-          allowance: for garnishing
+          allowance: for serving
           role: garnish
           uses:
             - step: finish
@@ -181,148 +157,59 @@ formula:
         - id: scallions
           key: scallions
           name: scallions
-          allowance: for garnishing
-          preparation: washed and thinly sliced
+          allowance: 'thinly sliced, for serving'
           role: garnish
           uses:
             - step: finish
               share: 1
   steps:
-    - id: prep
-      title: Heat and prepare
-      text: >-
-        Heat the oven to 425°F. Set out a large rimmed sheet or enough sheets for one layer of the
-        measured florets. If lining, use parchment rated for this heat or suitable foil. Wash the
-        cauliflower under running water, divide into similar-sized florets, split very large ones
-        and dry them.
-    - id: glaze
-      title: Choose one glaze route
-      text: >-
-        Set out {{ingredients}} and choose one sweetening route before combining. For the mirin
-        version, use the mirin and omit the optional honey and additional soy sauce. For the honey
-        variation, omit mirin and use the measured honey plus additional soy sauce, while retaining
-        the separately listed soy sauce. Do not combine both routes. Whisk the chosen ingredients
-        until the miso is evenly dispersed; taste a small sample to understand the salty, sweet and
-        acidic balance.
     - id: toss
-      title: Coat and spread
+      title: Oil the cauliflower
       text: >-
-        Toss {{ingredients}} in the large bowl until evenly coated. Keep the glaze aside for now.
-        Spread in a single layer, with flat cut faces against the sheet where possible. Keep room
-        between pieces; if the scaled batch piles up, use additional sheets or batches rather than a
-        deeper layer.
+        Heat the oven to 425°F. Toss {{ingredients}} in a large bowl. Spread the florets in a single
+        layer on a rimmed baking sheet, cut sides down, with room between them.
     - id: roast
-      title: Watch the coating and centers
+      title: Roast the cauliflower
       text: >-
-        Roast the oiled florets for 15–20 minutes, turning once, until the edges are browned and a
-        knife meets only slight resistance in a thick center. Return them to the bowl, toss with all
-        the chosen glaze and spread them out again. Roast 8–10 minutes more, until the glaze is
-        sticky and browned in spots. Test a thick floret with a knife: its center should be tender
-        and the coating browned without blackened bitterness. If the glaze darkens before the
-        centers soften, move pieces away from hot spots, turn the dark faces upward and finish under
-        loose foil while checking the centers; covered pieces will have softer edges. Remove ready
-        pieces promptly rather than requiring every edge to char. More sheet area or larger florets
-        may change the time.
+        Roast, turning once, until browned at the edges and nearly tender in the center, 15 to 20
+        minutes.
+    - id: glaze
+      title: Mix the glaze
+      text: >-
+        While the cauliflower roasts, whisk {{ingredients}} in a small bowl until the miso is
+        smooth.
+    - id: glaze-roast
+      title: Glaze and finish roasting
+      text: >-
+        Tip the cauliflower back into the large bowl, toss it with the glaze and spread it out
+        again. Roast until the glaze is sticky and browned in spots and the centers are tender, 8 to
+        10 minutes.
     - id: finish
       title: Garnish and serve
-      text: >-
-        Scatter {{ingredients}} over the hot cauliflower and serve. The sesame seeds and scallions
-        are both included finishes; wash the scallions before slicing and keep them away from
-        raw-meat tools.
+      text: 'Scatter {{ingredients}} over the hot cauliflower and serve.'
 learning:
-  focus: Check a miso coating before the cauliflower center finishes
-  outcome: >-
-    Tender florets with a browned salty-sweet glaze, fresh scallions and sesame seeds, without burnt
-    miso.
   techniques:
     - browning
-  before:
-    - >-
-      Split very large florets for comparable center thickness; no precise head weight or floret
-      count is assumed.
-    - >-
-      Choose mirin or the honey–additional-soy route before measuring. The optional honey list
-      replaces mirin and retains the base soy sauce.
-    - >-
-      Prepare the glaze during oven setup. The florets roast in plain oil first and get the glaze
-      only for the last 8–10 minutes, so the miso and sugars brown without burning.
-  checkpoints:
-    - step: 2
-      cue: Miso is dispersed and only one sweetening route is in the bowl.
-      why: >-
-        Using mirin and the honey replacement together would change sweetness, salt and sauce
-        volume.
-    - step: 4
-      cue: 'A thick center is tender, and the miso is browned rather than black.'
-      why: >-
-        The coating can burn before the vegetable cooks; early turning/checks matter more than a
-        promised char.
-    - step: 5
-      cue: Both sesame and washed sliced scallions finish the hot florets.
-      why: Sesame adds texture and scallions add fresh onion flavor.
-  troubleshooting:
-    - problem: Glaze burns before cauliflower softens
-      cause: Oversized florets or an oven hot spot cooked the coating faster than the center.
-      fix: >-
-        Turn dark faces upward, move pieces from hot spots and cover loosely to finish tender
-        centers; accept softer edges rather than more burnt glaze.
-    - problem: Sauce is unexpectedly sweet and salty
-      cause: Mirin and the honey/extra-soy replacement were combined.
-      fix: >-
-        For the next batch, use mirin or the honey plus additional soy sauce, keeping the base soy
-        sauce in either route.
-    - problem: Large puddles rather than coated florets
-      cause: Florets were wet or packed together.
-      fix: >-
-        Dry before tossing and use more sheet area. Keep the measured glaze rather than dumping it
-        out to force dryness.
   substitutions:
     - ingredient: Mirin
-      alternative: The listed honey plus additional soy sauce variation
+      alternative: Honey and soy sauce
       effect: >-
-        Preserve the base soy sauce, omit mirin and use both replacement ingredients. It is
-        non-vegan and tastes different, not a chemically equivalent mirin substitute.
-    - ingredient: White miso
-      alternative: A stronger or saltier miso
-      effect: >-
-        Changes flavor and scorching behavior; the current ratio is authored for white miso and is
-        not a validated equivalent for every miso.
-  timing: >-
-    About 10 minutes to wash, divide and coat plus 23–30 minutes roasting (15–20 minutes plain, then
-    8–10 minutes glazed) is a 33–40-minute prep-and-roast subtotal. Start heating during setup, but
-    load only once the oven reaches 425°F; any heating still needed after prep extends elapsed time.
-    The midpoint check and final garnish are active work. No required marinade, rest or chill.
-    Scaled batches need extra sheet area and may take longer; keep the center/coating checks.
-  storage: >-
-    Refrigerate promptly in shallow covered containers within 2 hours, or 1 hour above 90°F / 32°C,
-    at 40°F / 4°C or below; use within 3–4 days. Reheat leftovers to 165°F. The miso coating and
-    scallions soften in storage. Reheat without leaving the sugary glaze to blacken, and add any
-    newly prepared fresh garnish only with clean utensils.
-  sources:
-    - title: Just One Cookbook — Roasted miso garlic cauliflower
-      url: 'https://www.justonecookbook.com/roasted-miso-garlic-cauliflower/'
-    - title: FDA — Selecting and Serving Produce Safely
-      url: 'https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely'
-    - title: USDA FSIS — Leftovers and Food Safety
-      url: >-
-        https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+        Use 1 1/2 tbsp honey and another 1/2 tbsp soy sauce in place of the mirin. The glaze is a
+        little sweeter and no longer vegan.
+  storage: 'Keeps 3 days in the fridge. Reheat on a baking sheet in a 400°F oven until hot, about 8 minutes.'
   review:
     status: editorial-review
-    date: '2026-10-05'
+    date: '2026-11-09'
 ---
 
 ## Chef's Note
 
-White miso, mirin, soy sauce, sesame oil and rice vinegar make a concentrated glaze for the cauliflower. Roast the florets in oil first and add the glaze only for the last 8–10 minutes, because miso and sweeteners darken long before a thick center is tender. Split unusually large florets, keep the sheet uncrowded and stop at browned coating and tender centers rather than forcing a black char.
+This is cauliflower roasted hot until browned, then lacquered with a Japanese-style glaze of white miso, mirin, soy and sesame. The florets roast in plain oil first and get the glaze only for the last few minutes. That way the miso turns sticky and caramelized instead of burning.
 
 ## Directions
 
-1. **Heat and prepare:** Heat the oven to 425°F. Set out a large rimmed sheet or enough sheets for one layer of the measured florets. If lining, use parchment rated for this heat or suitable foil. Wash the cauliflower under running water, divide into similar-sized florets, split very large ones and dry them.
-2. **Choose one glaze route:** Set out white miso paste, mirin, soy sauce, sesame oil, rice vinegar, fresh ginger, honey (if using), and additional soy sauce (if using) and choose one sweetening route before combining. For the mirin version, use the mirin and omit the optional honey and additional soy sauce. For the honey variation, omit mirin and use the measured honey plus additional soy sauce, while retaining the separately listed soy sauce. Do not combine both routes. Whisk the chosen ingredients until the miso is evenly dispersed; taste a small sample to understand the salty, sweet and acidic balance.
-3. **Coat and spread:** Toss fresh cauliflower florets and neutral oil in the large bowl until evenly coated. Keep the glaze aside for now. Spread in a single layer, with flat cut faces against the sheet where possible. Keep room between pieces; if the scaled batch piles up, use additional sheets or batches rather than a deeper layer.
-4. **Watch the coating and centers:** Roast the oiled florets for 15–20 minutes, turning once, until the edges are browned and a knife meets only slight resistance in a thick center. Return them to the bowl, toss with all the chosen glaze and spread them out again. Roast 8–10 minutes more, until the glaze is sticky and browned in spots. Test a thick floret with a knife: its center should be tender and the coating browned without blackened bitterness. If the glaze darkens before the centers soften, move pieces away from hot spots, turn the dark faces upward and finish under loose foil while checking the centers; covered pieces will have softer edges. Remove ready pieces promptly rather than requiring every edge to char. More sheet area or larger florets may change the time.
-5. **Garnish and serve:** Scatter sesame seeds and scallions over the hot cauliflower and serve. The sesame seeds and scallions are both included finishes; wash the scallions before slicing and keep them away from raw-meat tools.
-
-## Honey–Soy Variation
-
-Replace the measured mirin with the measured honey and additional soy sauce from the variation list, keeping the separately listed soy sauce as well. In the original 1½-pound cauliflower batch this is 1½ tablespoons honey plus ½ tablespoon additional soy sauce, giving 1½ tablespoons soy sauce total. Increase or decrease all these amounts with the cauliflower batch; do not add this variation to the mirin route. This honey version is non-vegan. Use mirin and ingredients suitable for a vegan diet for the vegan version.
+1. **Oil the cauliflower:** Heat the oven to 425°F. Toss cauliflower florets and neutral oil in a large bowl. Spread the florets in a single layer on a rimmed baking sheet, cut sides down, with room between them.
+2. **Roast the cauliflower:** Roast, turning once, until browned at the edges and nearly tender in the center, 15 to 20 minutes.
+3. **Mix the glaze:** While the cauliflower roasts, whisk white miso, mirin, soy sauce, toasted sesame oil, rice vinegar, and fresh ginger in a small bowl until the miso is smooth.
+4. **Glaze and finish roasting:** Tip the cauliflower back into the large bowl, toss it with the glaze and spread it out again. Roast until the glaze is sticky and browned in spots and the centers are tender, 8 to 10 minutes.
+5. **Garnish and serve:** Scatter sesame seeds and scallions over the hot cauliflower and serve.
